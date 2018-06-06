@@ -1,0 +1,71 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "src/**.dll"
+          ]
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "articles/**.md",
+          "articles/**/toc.yml",
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "overwrite": [
+      {
+        "files": [
+          "apidoc/**.md"
+        ],
+        "exclude": [
+          "obj/**",
+          "_site/**"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadata": {
+      "_appFooter": "© 2018 Dovetail Software, Inc. - All rights reserved.<br/>- Clarify, Amdocs, and related products and names are copyright and trademark of Amdocs, Inc.<br/>- .NET, Visual Studio.NET, C#, Visual Basic and related products are trademark of Microsoft corporation.",
+      "_appFaviconPath": "images/favicon.ico",
+      "_appLogoPath": "images/dovetail.png",
+      "_appTitle": "fcSDK Documentation",
+      "_enableNewTab": "true",
+      "_disableContribution": "true"
+    },
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "default"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}

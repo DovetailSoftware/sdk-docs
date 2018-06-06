@@ -1,0 +1,138 @@
+- name: Installation Guide
+  href: installation-guide.md
+- name: Getting Started with fcSDK
+  href: getting-started.md
+- name: Overview of the fcSDK
+  href: overview.md
+- name: fcSDK Feature Guide
+  href: feature-guide.md
+- name: What's New in the fcSDK (Version History)
+  href: version-history.md
+- name: System Requirements
+  href: system-requirements.md
+- name: Product Support
+  href: product-support.md
+- name: About Dovetail Software
+  href: about-dovetail.md
+- name: Using and Configuring the fcSDK
+  items:
+    - name: Using the fcSDK Utilities
+      href: fcsdk-utilities.md
+      items:
+        - name: License Installer
+          href: license-installer.md
+        - name: Data Verifier
+          href: data-verifier.md
+        - name: Configuration Protector
+          href: configuration-protector.md
+        - name: Configuration Editor
+          href: configuration-editor.md
+    - name: Configuring the fcSDK
+      items:
+        - name: Basic fcSDK Configuration
+          href: basic-configuration.md
+        - name: Configuring Custom Cache Providers
+          href: custom-cache-configuration.md
+        - name: Configuring Custom Data Providers
+          href: configuring-database-providers.md
+        - name: Configuring Logging
+          href: logging-configuration.md
+        - name: Configuring Remote Sessions
+          href: remote-sessions.md
+    - name: Developer Walkthroughs
+      items:
+        - name: Walkthrough - FCFL.NET Objects
+          href: fcfl-walkthrough.md
+        - name: Walkthrough - Toolkit Fundamentals
+          href: toolkit-walkthrough.md
+        - name: Walkthrough - Web Services Fundamentals
+          href: web-services-walkthrough.md
+        - name: Walkthrough - Transaction support
+          href: transaction-walkthrough.md
+        - name: Walkthrough - Advanced Filtering
+          href: filtering-walkthrough.md
+        - name: Walkthrough - Workflow Event Handling
+          href: workflow-walkthrough.md
+    - name: Accessing Data with ClarifyGeneric
+      href: clarify-generics.md
+    - name: Using the Caching Features of the fcSDK
+      href: caching-features.md
+    - name: Application Logging
+      href: application-logging.md
+    - name: Logging Config File Samples
+      href: logging/logging-samples.md
+      items:
+        - name: Rolling Log File
+          href: logging/rolling.md
+        - name: Only SQL Statements
+          href: logging/only-sql.md
+        - name: Large Queries
+          href: logging/large-queries.md
+        - name: Email
+          href: logging/email.md
+        - name: Windows Event Log
+          href: logging/windows-events.md
+        - name: Individual User
+          href: logging/individual-users.md
+        - name: Log to an MSSQL Database
+          href: logging/mssql-login.md
+        - name: Log to an Oracle Database
+          href: logging/oracle-login.md
+        - name: Log to Multiple Places (example 1)
+          href: logging/multiple-login-1.md
+        - name: Log to Multiple Places (example 2)
+          href: logging/multiple-login-2.md
+    - name: Data Restrictions
+      href: data-restrictions.md
+    - name: fcSDK Configuration
+      href: fcsdk-configuration.md
+    - name: Time Zones
+      href: time-zones.md
+    - name: Enabling Storage of Unicode Data
+      href: unicode-data.md
+    - name: Making World-Ready Applications With the fcSDK
+      href: making-applications.md
+- name: fcSDK COM Compatibility Guide
+  href: compatibility-guide.md
+  items:
+    - name: FCFL to FCFL.NET Changes
+      href: changes/fcfl-changes.md
+      items:
+        - name: Configuration Changes
+          href: changes/configuration-changes.md
+        - name: MockAdoField (New Object)
+          href: changes/mockadofield.md
+        - name: Individual Object Changes
+          items:
+          - name: FCApplication Object Changes
+            href: changes/fcapplication-changes.md
+          - name: FCSession Object Changes
+            href: changes/fcsession-changes.md
+          - name: FCGeneric Object Changes
+            href: changes/fcgeneric-changes.md
+          - name: FCBulk Object Changes
+            href: changes/fcbulk-changes.md
+          - name: FCSQLExec Object Changes
+            href: changes/fcsqlexec-changes.md
+          - name: FCList Object Changes
+            href: changes/fclist-changes.md
+        - name: FCFL to FCFL.NET Type Library Changes
+          href: changes/fcfl-library-changes.md
+    - name: FCFL API Toolkits to fcSDK Toolkit Changes
+      items:
+        - name: (FCCC) API Toolkit for ClearContracts Changes
+          href: changes/fccc-changes.md
+        - name: (FCCL) API Toolkit for ClearLogsitics Changes
+          href: changes/fccl-changes.md
+        - name: (FCCQ) API Toolkit for ClearQuality Changes
+          href: changes/fccq-changes.md
+        - name: (FCCS) API Toolkit for ClearSupport Changes
+          href: changes/fccs-changes.md
+        - name: (FCDR) API Toolkit for Depot Repair Changes
+          href: changes/fcdr-changes.md
+        - name: (FCINTER) API Toolkit for Interfaces Changes
+          href: changes/fcinter-changes.md
+        - name: (FCSFA) API Toolkit for ClearSales Changes
+          href: changes/fcsfa-changes.md
+        - name: (FCFO) API Toolkit for ClearLogistics Field Operations Changes
+          href: changes/fcfo-changes.md
