@@ -49,7 +49,7 @@
     ],
     "dest": "_site",
     "globalMetadata": {
-      "_appFooter": "© 2018 Dovetail Software, Inc. - All rights reserved.<br/>- Clarify, Amdocs, and related products and names are copyright and trademark of Amdocs, Inc.<br/>- .NET, Visual Studio.NET, C#, Visual Basic and related products are trademark of Microsoft corporation.",
+      "_appFooter": "© 2018 Dovetail Software, Inc. - All rights reserved.<br/>Clarify, Amdocs, and related products and names are copyright and trademark of Amdocs, Inc.<br/>.NET, Visual Studio.NET, C#, Visual Basic and related products are trademark of Microsoft corporation.",
       "_appFaviconPath": "images/favicon.ico",
       "_appLogoPath": "images/dovetail.png",
       "_appTitle": "fcSDK Documentation",
