@@ -30,7 +30,7 @@ If, for some reason, you cannot or do not wish to use a configuration file for c
 #### *Manual Initialization*
 
 [C#] 
-```
+```csharp
 // Create and populate configuration collection
 NameValueCollection config = new NameValueCollection();
 config.Add( "fchoice.dbtype", "MSSQL");
@@ -42,7 +42,7 @@ ClarifyApplication app = ClarifyApplication.Initialize( config );
 ```
 
 [Visual Basic] 
-```
+```vbnet
 ' Create and populate configuration collection
 Dim config As New NameValueCollection
 config.Add( "fchoice.dbtype", "MSSQL");
@@ -96,7 +96,7 @@ To add a row to the generic and schedule it for insertion into the database, cal
 #### *Accessing Generic DataRows*
 
 [C#] 
-```
+```csharp
 //First, create the dataset which will contain the generics
 ClarifyDataSet dataSet = new ClarifyDataSet(session);
 
@@ -132,7 +132,7 @@ gAddress.UpdateAll();
 ```
 
 [Visual Basic]
-```
+```vbnet
 'First, create the dataset which will contain the generics
 Dim dataSet As New ClarifyDataSet(session)
 
@@ -184,7 +184,7 @@ The following example shows how to relate a case generic to a site and iterate t
 #### *Traversing Related Generics*
 
 [C#] 
-```
+```csharp
 //First, create the dataset which will contain the generics
 ClarifyDataSet dataSet = new ClarifyDataSet(session);
 
@@ -206,7 +206,7 @@ foreach( ClarifyDataRow caseRow in gCase.Rows )
 ```
 
 [Visual Basic] 
-```
+```vbnet
 //First, create the dataset which will contain the generics
 Dim dataSet As New ClarifyDataSet(session)
 
@@ -236,7 +236,7 @@ The following is a basic working **fcSDK** application. It does the following:
 * Retrieves the data
 
 [C#] 
-```
+```csharp
 // using FChoice.Foundation.Clarify
 
 // Initialize the ClarifyApplication instance
@@ -259,7 +259,7 @@ foreach( ClarifyDataRow row in gCase.Rows )
 ```
 
 [Visual Basic] 
-```
+```vbnet
 // using FChoice.Foundation.Clarify
 
 ' Initialize the ClarifyApplication instance
@@ -303,7 +303,7 @@ Generics created via the [CreateGeneric]() method on an instance of ClarifyDataS
 #### *Using ClarifyDataSets*
 
 [C#] 
-```
+```csharp
 // Create the dataset which will contain the generics
 ClarifyDataSet dataSet = new ClarifyDataSet(session);
 
@@ -334,7 +334,7 @@ dataSet.Update( gCase, gSite, gContact );
 ```
 
 [Visual Basic] 
-```
+```vbnet
 // Create the dataset which will contain the generics
 Dim dataSet As New ClarifyDataSet(session)
 

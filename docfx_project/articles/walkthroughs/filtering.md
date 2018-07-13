@@ -7,8 +7,7 @@ The **fcSDK** now supports filtering ClarifyGenerics using nested *And* and *Or*
 **fcSDK** developers have a new starting place for filtering - ClarifyGeneric.Filter. This is the root filter for the ClarifyGeneric and it starts out empty. To add constraints to the records returned by a query AddFilter() needs to be called passing in a filter. Filters are easily created using the FilterType factory object. The following example shows some basic AND filtering against the root filter:
 
 [C#] 
-
-```
+```csharp
 ClarifyDataSet ds = new ClarifyDataSet(session);
 ClarifyGeneric caseGeneric = ds.CreateGeneric("case");
 
@@ -27,8 +26,7 @@ caseGeneric.Query();
 The generic's root filter property exposes an **AndFilter**. Thus all filters added to the root filter will be separated by AND keywords as in the example above. OR filtering is done in a similar fashion but an OrFilter must first be created and added to the root filter. The following example shows a simple **OrFilter** in action:
 
 [C#] 
-
-```
+```csharp
 ClarifyDataSet ds = new ClarifyDataSet(session);
 ClarifyGeneric caseGeneric = ds.CreateGeneric("case");
 
@@ -47,8 +45,7 @@ caseGeneric.Query();
 Currently only **AndFilter** and **OrFilter** objects support the AddFilter method. The following example shows creation of an OrFilter with four filters added.
 
 [C#] 
-
-```
+```csharp
 ClarifyDataSet ds = new ClarifyDataSet(session);
 ClarifyGeneric caseGeneric = ds.CreateGeneric("case");
 
@@ -70,8 +67,7 @@ caseGeneric.Query();
 **AndFilters** can easily be added to **OrFilters** to allow complex grouping of query constraints.
 
 [C#] 
-
-```
+```csharp
 ClarifyDataSet ds = new ClarifyDataSet(session);
 ClarifyGeneric caseGeneric = ds.CreateGeneric("case");
 

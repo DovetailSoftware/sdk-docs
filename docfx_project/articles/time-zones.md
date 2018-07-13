@@ -28,7 +28,7 @@ For example, the following C# and Visual Basic.NET code illustrates the process.
 This example shows how to set the server time zone and the user session time zone.
 
 [C#] 
-```
+```csharp
 // Create and initialize the ClarifyApplication instance
 ClarifyApplication app = ClarifyApplication.Initialize();
 app.ServerTimeZone = app.LocaleCache.TimeZones[ "Pacific Standard Time", true ];

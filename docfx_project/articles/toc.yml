@@ -41,24 +41,24 @@
           href: remote-sessions.md
     - name: Developer Walkthroughs
       items:
-        - name: Walkthrough - FCFL.NET Objects
-          href: walkthrough/fcfl-net-objects.md
-        - name: Walkthrough - Toolkit Fundamentals
-          href: walkthrough/toolkit.md
-        - name: Walkthrough - Web Services Fundamentals
-          href: walkthrough/web-services.md
-        - name: Walkthrough - Transaction support
-          href: walkthrough/transaction.md
-        - name: Walkthrough - Advanced Filtering
-          href: walkthrough/filtering.md
-        - name: Walkthrough - Workflow Event Handling
-          href: walkthrough/workflow.md
+        - name: FCFL.NET Objects
+          href: walkthroughs/fcfl-net-objects.md
+        - name: Toolkit Fundamentals
+          href: walkthroughs/toolkit.md
+        - name: Web Services Fundamentals
+          href: walkthroughs/web-services.md
+        - name: Transaction support
+          href: walkthroughs/transaction.md
+        - name: Advanced Filtering
+          href: walkthroughs/filtering.md
+        - name: Workflow Event Handling
+          href: walkthroughs/workflow.md
     - name: Accessing Data with ClarifyGeneric
-      href: fcsdk-data-access.md.md
+      href: fcsdk-data-access.md
     - name: Using the Caching Features of the fcSDK
       href: caching-features.md
     - name: Application Logging
-      href: application-logging.md
+      href: logging/application-logging.md
     - name: Logging Config File Samples
       href: logging/logging-samples.md
       items:

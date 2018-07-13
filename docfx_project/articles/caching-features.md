@@ -27,7 +27,7 @@ Cache information can get out of date. Currently the only built-in cache object 
 #### *Refreshing Caches*
 
 [C#] 
-```
+```csharp
 //update the Schema Cache
 CacheManager.UpdateCaches( CacheType.Schema );
 
@@ -66,7 +66,7 @@ The [SchemaCache](/api/FChoice.Foundation.Clarify.SchemaCache.yml) allows you to
 #### *Schema Cache Usage Example*
 
 [C#] 
-```
+```csharp
 //get a reference to the case table
 SchemaTable caseTable = ClarifyApplication.Instance.SchemaCache.Tables["case"];
 

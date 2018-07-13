@@ -89,7 +89,7 @@ When you encrypt your parameter settings you can optionally specify an Entropy v
 If you use an Entropy value the FCConfiguration.DataProtectionEntropy property must match the Entropy key you used to encrypt your parameters.
 
 [C#] 
-```
+```csharp
 FCConfiguration.DataProtectionsEntropy = "...Optional Key...";
 ClarifyApplication.Initialize();
 ```

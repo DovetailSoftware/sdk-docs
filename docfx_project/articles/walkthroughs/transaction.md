@@ -7,8 +7,7 @@ The **fcSDK** supports transactional database operations within **FCFL.NET** and
 Here is an example of a typical usage scenario where the developer uses some **API Toolkit** operations mixed with some ClarifyGeneric updates:
 
 [C#] 
-
-```
+```csharp
 using System.Data;
 using FChoice.Common.Data;
 using FChoice.Foundation;

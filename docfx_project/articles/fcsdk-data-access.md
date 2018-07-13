@@ -14,7 +14,7 @@ ClarifyGeneric contains many methods for customizing how it queries or updates d
 The following example will query for sites whose type is 1, sorted by ID Number descending. The example will then print out each site queried.
 
 [C#] 
-```
+```csharp
 //First, create the dataset which will contain the generics
 ClarifyDataSet dataSet = new ClarifyDataSet(session);
 
@@ -71,9 +71,7 @@ If the number of rows that can be returned is greater than the specified Maximum
 The following example shows how to use the MaximumRows property and how to use the MaximumRowsExceeded event to control how ClarifyGeneric behaves:
 
 [C#] 
-
-  ...
-
+```csharp
   // Get 2 cases
   ClarifyGeneric gCase = session.CreateGeneric("case");
   gCase.MaximumRows = 2;
@@ -103,6 +101,7 @@ private static void gCase_MaximumRowsExceeded(FCGeneric sender, MaximumRowsExcee
   // To cancel the query
   args.CancelQuery = true;
 } 
+```
 
 [Visual Basic] 
 

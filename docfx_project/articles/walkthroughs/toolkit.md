@@ -53,7 +53,7 @@ The following example demonstrates use of ToolkitResults, both API calling conve
 #### Using the Interfaces and Support Toolkits to create a case
 
 [C#] 
-
+```csharp
 //using the Interfaces toolkit create an address and a site 
 InterfacesToolkit interToolkit = new InterfacesToolkit( session );
 
@@ -78,10 +78,10 @@ ToolkitResult caseResult = supportToolkit.CreateCase( caseSetup );
 //the results of the case creation are available from the ToolkitResult object
 int caseObjid = caseResult.Objid;
 string caseIDNum = caseResult.IDNum;
+```
 
 [Visual Basic] 
-
-```
+```vbnet
 'using the Interfaces toolkit create an address and a site 
 Dim interToolkit As New InterfacesToolkit(session)
 

@@ -51,7 +51,7 @@ Because there are limits on what types may be serialized, it is often necessary 
 For example, in the FChoice.Toolkit.Clarify.Support namespaces there are setup objects for each of the toolkit APIs that allow one to specify invocation data for a particular API. To extend this behavior to a web service implementation, protocol classes where created for each of these setup object. The fcSDK Web Services use these protocol objects for input parameters and for return results.
 
 [C#] 
-```
+```csharp
 // Signature for standard SupportToolkit.CreateCase()
 public ToolkitResult CreateCase(CreateCaseSetup setupParam)
 
@@ -99,7 +99,7 @@ The base client classes live in the FChoice.WebServices.Clarify.Client namespace
 The starting point in engaging the web service client is to create an instance of the ClarifyApplicationWS class which takes a single parameter that is the URL of the location where the fcSDK Web Services were installed.
 
 [C#] 
-```
+```csharp
 ClarifyApplicationWS application = new ClarifyApplicationWS("http://myserver/FChoice.WebServices.Clarify/");
 ```
 
@@ -108,7 +108,7 @@ There are several methods that can be called on ClarifyApplicationWS for getting
 As with standard fcSDK, you create a session object by calling CreateSession().
 
 [C#] 
-```
+```csharp
 ClarifyApplicationWS application = new ClarifyApplicationWS("http://myserver/FChoice.WebServices.Clarify/");
 
 ClarifySessionWS session = application.CreateSession( username, password );
@@ -134,25 +134,23 @@ The fcSDK Web Services Client contains toolkit classes for each of the fcSDK API
 
 Each of these toolkit classes can be instantiated by passing a valid ClarifySessionWS.
 
-[C#] 
 
-```
+[C#] 
+```csharp
 SupportToolkitWS supportWS = new SupportToolkitWS( session );
 ```
 
 You may then call the non setup APIs directly.
 
 [C#] 
-
-```
+```csharp
 ToolkitResultProtocol result = supportWS.CreateCase(siteIDNum, firstName, lastName, phone);
 ```
 
 The toolkit API result will contain the same properties as the result of the equivalent fcSDK toolkit API.
 
 [C#] 
-
-```
+```csharp
 Console.WriteLine( "IDNum : {0}", result.IDNum );
 Console.WriteLine( "Objid : {0}", result.Objid );
 Console.WriteLine( "ReturnCode : {0}", result.ReturnCode );
@@ -169,8 +167,7 @@ ReturnCode : 0
 You may also choose to create a setup object to pass into the API just as you would with the native fcSDK API Toolkits. The following is a more complete example:
 
 [C#] 
-
-```
+```csharp
 // Create ClarifyApplicationWS
 ClarifyApplicationWS application = new ClarifyApplicationWS("http://myserver/FChoice.WebServices.Clarify/");
 

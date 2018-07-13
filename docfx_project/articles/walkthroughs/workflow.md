@@ -43,8 +43,7 @@ public WorkFlowInfo Dispatch(string idNum, string objectName, string queueName, 
 The following examples demonstrate use of WorkflowManager APIs. The first example dispatches the case to the queue, and the second example accepts the case into the userís wipbin.
   
 [C#]
-
-```
+```csharp
 // Dispatch Case 1 to the Support queue
 
 string caseId = "1";
@@ -82,16 +81,14 @@ Since the Compatibility Toolkits were originally developed in VB, all of the Com
 Looking at the **DispatchCase** API, the only required properties are the case id number and the queue name. Correspondingly, the setup object only has two parameters:
 
 [C#]
-
-```
+```csharp
 DispatchCaseSetup( string caseIdNum, string queue )
 ```
    
 Once the setup object is created, then the other properties can also be set. This allows less code to be required to perform the operation, which makes it easier to use. It also allows the API to be easily modified if necessary. Here is an example of setting the optional properties:   
 
 [C#]
-
-```
+```csharp
 string caseId = "1";
 string queueName = "Support";
 
@@ -104,8 +101,7 @@ setup.GenerateTimeBombs = false;
 At this point, the setup object is ready for use. The corresponding API uses its setup object as input, and the API is invoked:
 
 [C#]
-
-```
+```csharp
 SupportToolkit supportToolkit = new SupportToolkit(fcApplication, fcSession);
 ToolkitResult result = supportToolkit.DispatchCase(setup);
 ```
@@ -113,12 +109,10 @@ ToolkitResult result = supportToolkit.DispatchCase(setup);
 The ToolkitResult will have all of the details from executing the API. Any error code would be in the ReturnCode property.
 
 [C#]
-
-```
+```csharp
 int returnCode = result.ReturnCode;
 ```   
    
 ### Summary
 
 The APIs for the workflow events can be implemented in multiple environments. **Dovetail SDK** executes the same code to perform a workflow action, regardless of how the API is called. All of the necessary validation of the input parameters is done, and the appropriate activity logs and time bombs will be generated as required.
-
