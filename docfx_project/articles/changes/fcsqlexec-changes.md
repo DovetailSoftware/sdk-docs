@@ -20,7 +20,7 @@
 
 ## Changed Properties
 
-| Changed Property | FCFL.FCGeneric | FCFLCompat.FCGeneric
+| Changed Property | FCFL.FCGeneric | FCFLCompat.FCGeneric |
 | Records | read/write | read-only |
 
 ## Changed Methods

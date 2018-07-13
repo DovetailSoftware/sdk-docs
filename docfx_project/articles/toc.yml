@@ -42,19 +42,19 @@
     - name: Developer Walkthroughs
       items:
         - name: Walkthrough - FCFL.NET Objects
-          href: fcfl-walkthrough.md
+          href: walkthrough/fcfl-net-objects.md
         - name: Walkthrough - Toolkit Fundamentals
-          href: toolkit-walkthrough.md
+          href: walkthrough/toolkit.md
         - name: Walkthrough - Web Services Fundamentals
-          href: web-services-walkthrough.md
+          href: walkthrough/web-services.md
         - name: Walkthrough - Transaction support
-          href: transaction-walkthrough.md
+          href: walkthrough/transaction.md
         - name: Walkthrough - Advanced Filtering
-          href: filtering-walkthrough.md
+          href: walkthrough/filtering.md
         - name: Walkthrough - Workflow Event Handling
-          href: workflow-walkthrough.md
+          href: walkthrough/workflow.md
     - name: Accessing Data with ClarifyGeneric
-      href: clarify-generics.md
+      href: fcsdk-data-access.md.md
     - name: Using the Caching Features of the fcSDK
       href: caching-features.md
     - name: Application Logging
