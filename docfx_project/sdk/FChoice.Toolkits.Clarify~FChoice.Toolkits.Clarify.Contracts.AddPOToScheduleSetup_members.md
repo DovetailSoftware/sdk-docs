@@ -1,0 +1,39 @@
+﻿     AddPOToScheduleSetup Class Members                                                   
+
+fcSDK Documentation
+
+AddPOToScheduleSetup Class Members
+
+The following tables list the members exposed by [AddPOToScheduleSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup.md).
+
+Public Constructors
+
+|   | Name | Description |
+| --- | --- | --- |
+| ![Public Constructor](dotnetimages/publicConstructor.png) | [AddPOToScheduleSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~_ctor.md) | Initializes a new instance of the AddPOToScheduleSetup class.   |
+
+[Top](#top)
+
+Public Properties
+
+|   | Name | Description |
+| --- | --- | --- |
+| ![Public Property](dotnetimages/publicProperty.png) | [ContractIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~ContractIDNum.md) | Contract Identifier.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [ExpireDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~ExpireDate.md) | The DateTime the Purchase Order will expire. If not set, the current time is used.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [PaymentOption](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~PaymentOption.md) | Element from the 'Payment Method' application list. If not set, the default list value is used.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [PaymentTerms](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~PaymentTerms.md) | Element from the 'Contract Pay Terms' application list. If not set, the default list value is used.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [POAmount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~POAmount.md) | The amount of the Purchase Order.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [PODate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~PODate.md) | The DateTime the Purchase Order will expire. If not set, the current time is used.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [POIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~POIDNum.md) | Purchase Order Identifier.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [POStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~POStatus.md) | Element from the 'PO Status' application list. If not set, the default list value is used.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [ScheduleIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~ScheduleIDNum.md) | Schedule Identifier.   |
+
+[Top](#top)
+
+See Also
+
+#### Reference
+
+[AddPOToScheduleSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup.md)  
+[FChoice.Toolkits.Clarify.Contracts Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts_namespace.md)  
+[AddPOToSchedule(AddPOToScheduleSetup) Method](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~AddPOToSchedule(AddPOToScheduleSetup).md)

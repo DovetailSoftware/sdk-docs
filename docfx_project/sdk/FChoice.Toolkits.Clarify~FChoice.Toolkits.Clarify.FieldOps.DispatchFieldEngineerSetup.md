@@ -1,0 +1,40 @@
+﻿     DispatchFieldEngineerSetup Class                                                   
+
+fcSDK Documentation
+
+DispatchFieldEngineerSetup Class
+
+Used by the [DispatchFieldEngineer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DispatchFieldEngineer(DispatchFieldEngineerSetup).md) method as setup data for invocation.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Class DispatchFieldEngineerSetup 
+
+public class DispatchFieldEngineerSetup 
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   **FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup**  
+
+#### Requirements
+
+**Namespace:** [FChoice.Toolkits.Clarify.FieldOps](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
+
+See Also
+
+#### Reference
+
+[DispatchFieldEngineerSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup_members.md)  
+[FChoice.Toolkits.Clarify.FieldOps Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps_namespace.md)  
+[DispatchFieldEngineer(DispatchFieldEngineerSetup) Method](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DispatchFieldEngineer(DispatchFieldEngineerSetup).md)

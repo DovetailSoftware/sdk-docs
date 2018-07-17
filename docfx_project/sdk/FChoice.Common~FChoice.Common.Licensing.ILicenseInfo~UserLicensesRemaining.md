@@ -1,0 +1,26 @@
+﻿     UserLicensesRemaining Property (ILicenseInfo)                                                   
+
+UserLicensesRemaining Property (ILicenseInfo)
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+ReadOnly Property UserLicensesRemaining As [Integer](#)
+
+[int](#) UserLicensesRemaining {get;}
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[ILicenseInfo Interface](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo.md)  
+[ILicenseInfo Members](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo_members.md)

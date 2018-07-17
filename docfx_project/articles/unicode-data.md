@@ -38,23 +38,22 @@ Please see the documentation for your database server for more details.
 
 Before you can change any fields to be Unicode fields, you must first set the database up to be an **fcSDK** Unicode-enabled database. This is very easy to do, and is performed as follows:
 
-* You must execute two SQL statement to add a new column to the *adp_sch_info* table (and initialize it). The **fcSDK** uses the existence of this column to determine if the database is Unicode-enabled, or not. If the column is not added then the **fcSDK** will not perform Unicode processing.
-		Dovetail Software chose to add this new adp column to allow you the flexibility to have only certain columns be unicode strings. There is simply no reason (as Clarify does with Version 11.1+) to make all of the strings in your database be Unicode.
+* You must execute two SQL statement to add a new column to the *adp_sch_info* table (and initialize it). The **fcSDK** uses the existence of this column to determine if the database is Unicode-enabled, or not. If the column is not added then the **fcSDK** will not perform Unicode processing. Dovetail Software chose to add this new adp column to allow you the flexibility to have only certain columns be unicode strings. There is simply no reason (as Clarify does with Version 11.1+) to make all of the strings in your database be Unicode.
 * Execute the following SQL statements against the current database (test or production depending upon how far along in the process you are): 
 
-		```
-		alter table adp_sch_info add fc_flags int
+```
+alter table adp_sch_info add fc_flags int
 
-		-and- 
+-and- 
 
-		update adp_sch_info set fc_flags = 0
-		```
+update adp_sch_info set fc_flags = 0
+```
 
-		**NOTES:**
+**NOTES:**
 
-		* These statements will work against both Microsoft™ SQL Server and Oracle™.
-		* Adding this column will NOT affect the functioning of base Clarify in any way. The column will be ignored by all Clarify applications.
-		* As of version 11.1, Clarify offers you the option of creating a "Unicode" database. Even if you take that option you must still execute the above statements.
+* These statements will work against both Microsoft™ SQL Server and Oracle™.
+* Adding this column will NOT affect the functioning of base Clarify in any way. The column will be ignored by all Clarify applications.
+* As of version 11.1, Clarify offers you the option of creating a "Unicode" database. Even if you take that option you must still execute the above statements.
 
 ### Convert Specific Columns 
 
@@ -70,9 +69,12 @@ Now that the database itself is enabled for Unicode processing you must convert 
 For each string column that you wish to make a Unicode field, you must execute the following SQL statement:
 
 * For SQL Server:
-		`alter table table_xxxx alter column yyyy nvarchar(length)`
+
+`alter table table_xxxx alter column yyyy nvarchar(length)`
+
 * For Oracle:
-		`alter table table_xxxx modify yyyy nvarchar2(length)`
+
+`alter table table_xxxx modify yyyy nvarchar2(length)`
 
 where:
 
@@ -83,11 +85,14 @@ where:
 For example, suppopse that you wish to convert the table_contact first_name and last_name fields to be Unicode enabled. You would enter the following statements to alter the column definitions:
 
 * For SQL Server:
-		`alter table table_contact alter column first_name nvarchar(30)`
-		`alter table table_contact alter column last_name nvarchar(30)`
+
+`alter table table_contact alter column first_name nvarchar(30)`
+`alter table table_contact alter column last_name nvarchar(30)`
+
 * For Oracle:
-		`alter table table_contact modify first_name nvarchar2(30)`
-		`alter table table_contact modify last_name nvarchar2(30)`
+
+`alter table table_contact modify first_name nvarchar2(30)`
+`alter table table_contact modify last_name nvarchar2(30)`
 
 **NOTE:** Even though the columns will be bigger to handle the Unicode data you do not change the size of the column definition – the database will handle that for you. The column still holds only 30 characters of data, even though some of them may take multiple bytes for the database to store.
 
@@ -127,16 +132,16 @@ There are other considerations to take when working with Unicode data within you
 
 * If you are writing ASP web pages that will include Unicode characters, it is recommended that you properly code the pages to handle Unicode. For example, in the ASP pages that Dovetail Software ships, the following is the first line of each web page (to insure that it is using the proper codepage):
 
-		`<%@ Language="JavaScript" codepage=65001 %>`
+`<%@ Language="JavaScript" codepage=65001 %>`
 
-		The following tag is included right after the <title> tag to insure that the proper character set is used:
+The following tag is included right after the <title> tag to insure that the proper character set is used:
 
-		`<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">`
+`<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">`
 
 * If you are writing web pages using the Microsoft ASP.NET Framework, you should include the following parameters in your "@ Page" directive at the top of the ASPX pages:
 
-		`<%@ Page	... CodePage="65001" ResponseEncoding="utf-8" %>`
+`<%@ Page	... CodePage="65001" ResponseEncoding="utf-8" %>`
 
 * If you are using a programming language that does not properly support Unicode (such as ClearBasic) to access the **fcSDK** Compatibility Layer, then it does not matter what you do with the **fcSDK** – the characters will not display properly.
 
-		**NOTE:** All .NET languages (such as C# and Visual Basic.NET) use the .NET Framework which is Unicode-enabled throughout. This problem is only a concern when using the Compatibility Layer with legacy programming environments.
+**NOTE:** All .NET languages (such as C# and Visual Basic.NET) use the .NET Framework which is Unicode-enabled throughout. This problem is only a concern when using the Compatibility Layer with legacy programming environments.

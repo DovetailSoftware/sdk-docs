@@ -1,0 +1,28 @@
+﻿     PrimaryTable Property                                                   
+
+fcSDK Documentation
+
+PrimaryTable Property
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+ReadOnly Property PrimaryTable As [ISchemaTable](fcSDK~FChoice.Foundation.Schema.ISchemaTable.md)
+
+[ISchemaTable](fcSDK~FChoice.Foundation.Schema.ISchemaTable.md) PrimaryTable {get;}
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[ISchemaViewJoin Interface](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin.md)  
+[ISchemaViewJoin Members](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin_members.md)

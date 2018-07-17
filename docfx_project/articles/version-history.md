@@ -4,52 +4,53 @@
 
 <h3>Version 3.5.0</h3>
 <ul>
-<li>API Toolkits:
+  <li>API Toolkits:
   <ul>
-<li>Sales Toolkit:
-<ul>
-  <li>Added LogActionItemEmailIn API.</li>
-  <li>change_task_cond API:</li>
-	<ul>
-	  <li>included closing status in activity entry text.</li>
-	  <li>added "Reopened" activity handling.</li>
-	  <li>changed activity entry text for "Status Change" action.</li>
-	  <li>after "Reopen", the task will be put into the default wipbin.</li>
-	</ul>
-  <li>update_action_item API:</li>
-	<ul>
-	  <li>changed activity entry text for "Status Change" action.</li>
-	  <li>proper values for action item timebombs are being used.</li>
-	</ul>
-  <li>UpdatePartRevision API:</li>
-	<ul>
-	  <li>fixed a bug in which part revision was being cleared if it was not being changed to a new revision.</li>
-	</ul>
-</ul>
-</li>
-<li>Clear Logistics Field Operations Toolkit:
-<ul>
-  <li>made StartTime property public for UpdateTimeLogSetup class.</li>
-</ul>
-</li>
-  </ul>
-<li>Cache Manager:
+  <li>Sales Toolkit:
   <ul>
-    <li>Added cache locale cleansing for duplicate states/provinces.</li>
+    <li>Added LogActionItemEmailIn API.</li>
+    <li>change_task_cond API:</li>
+  	<ul>
+  	  <li>included closing status in activity entry text.</li>
+  	  <li>added "Reopened" activity handling.</li>
+  	  <li>changed activity entry text for "Status Change" action.</li>
+  	  <li>after "Reopen", the task will be put into the default wipbin.</li>
+  	</ul>
+    <li>update_action_item API:</li>
+  	<ul>
+  	  <li>changed activity entry text for "Status Change" action.</li>
+  	  <li>proper values for action item timebombs are being used.</li>
+  	</ul>
+    <li>UpdatePartRevision API:</li>
+  	<ul>
+  	  <li>fixed a bug in which part revision was being cleared if it was not being changed to a new revision.</li>
+  	</ul>
   </ul>
-</li>
-<li>DataVerifier:
+  </li>
+  <li>Clear Logistics Field Operations Toolkit:
   <ul>
-    <li>Modified error messages to better communicate issues with blank or duplicate states/provinces.</li>
+    <li>made StartTime property public for UpdateTimeLogSetup class.</li>
   </ul>
-</li>
+  </li>
+    </ul>
+  <li>Cache Manager:
+    <ul>
+      <li>Added cache locale cleansing for duplicate states/provinces.</li>
+    </ul>
+  </li>
+  <li>DataVerifier:
+    <ul>
+      <li>Modified error messages to better communicate issues with blank or duplicate states/provinces.</li>
+    </ul>
+  </li>
 </ul>
+
 <h3>Version 3.4.3</h3>
 <ul>
 <li>API Toolkits:
   <ul>
-    <li>Modified <a href="/toolkit_html/fcinter/create_employee.html">create_employee</a> API to use new SQL statements: CREATE LOGIN and CREATE USER instead of sp_adduser and sp_addlogin system stored procedures in order to create new user login names - MS SQL databases only.<br/>
-<b>IMPORTANT NOTE</b>: Please see create_employee API <a href="/toolkit_html/fcinter/create_employee.html#notes_3_4_3">notes</a> for explanation of the implications regarding certain versions of MS SQL RDBMS.</li>
+    <li>Modified [create_employee](/toolkit_html/fcinter/create_employee.md) API to use new SQL statements: CREATE LOGIN and CREATE USER instead of sp_adduser and sp_addlogin system stored procedures in order to create new user login names - MS SQL databases only.<br/>
+<b>IMPORTANT NOTE</b>: Please see create_employee API [notes](/toolkit_html/fcinter/create_employee.md#notes_3_4_3) for explanation of the implications regarding certain versions of MS SQL RDBMS.</li>
     <li>Fixed an error occurring when a new case phone log was added while case history was returned as null because no initial notes are required at the time of case creation.</li>
   </ul>
 </li>
@@ -88,7 +89,7 @@ This only affects employees (users), not contacts (web_users).</li>
     <li>
       Added a new .NET QualityToolkit API. This new API is not exposed via COM compatibility.
       <ul>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~LogCREmailIn.html">LogCREmailIn</a></li>
+        <li>[LogCREmailIn](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~LogCREmailIn.md)</li>
       </ul>
     </li>
     <li>Fixed bugs within FCFO methods pertaining to Service Interruptions and Employee Appointments in which wrong Application Lists were used and only the default values for Class and Type were recorded in Activity Log.</li>
@@ -100,7 +101,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>API Toolkits:
   <ul>
     <li>
-      <b>IMPORTANT CHANGE</b>: Subcase ID Number generation is now handled by a new stored procedure (<i>fc_next_subcase_seq</i>). This stored procedure needs to be compiled to your database. The <b>Create Subcase</b> API will not operate properly without this stored procedure being loaded into the database. See the <a href="./fcsdk_install.html#installstoredprocedures">Install Required Stored Procedures</a> section of the Installation instructions for more information.
+      <b>IMPORTANT CHANGE</b>: Subcase ID Number generation is now handled by a new stored procedure (<i>fc_next_subcase_seq</i>). This stored procedure needs to be compiled to your database. The <b>Create Subcase</b> API will not operate properly without this stored procedure being loaded into the database. See the [Install Required Stored Procedures](fcsdk_install.md#installstoredprocedures) section of the Installation instructions for more information.
     </li>
     <li>Fixed a bug which would result in a "badly formed where clause" message received while evaluating an Auto Destination rule with a condition in queue path.</li>
   </ul>
@@ -119,7 +120,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>Install the new version of
   <!--DXMETADATA start type="Variable" name="ProductTitle" -->fcSDK
   <!--DXMETADATA end -->.</li>
-<li><a href="./fcsdk_install.html#installstoredprocedures">Install the required stored procedures</a>, which includes the new <i>fc_next_subcase_seq</i> procedure for subcase ID generation.
+<li>[Install the required stored procedures](fcsdk_install.md#installstoredprocedures), which includes the new <i>fc_next_subcase_seq</i> procedure for subcase ID generation.
 </ul>
 <h3>Version 3.3.8</h3>
 <ul>
@@ -135,7 +136,7 @@ This only affects employees (users), not contacts (web_users).</li>
     <li>Added a test and a warning for CLOB/LONG columns inconsistency in Oracle database.</li>
   </ul>
 </li>
-<h5>Note: compatibility with and support for Oracle 12c has been tested and confirmed. See [System Requirements](system-requirements.md) and <a href="https://support.dovetailsoftware.com/selfservice/resources/platform-guide">Dovetail Software Platform Guide</a> for details.</h5>
+<h5>Note: compatibility with and support for Oracle 12c has been tested and confirmed. See [System Requirements](system-requirements.md) and [Dovetail Software Platform Guide](https://support.dovetailsoftware.com/selfservice/resources/platform-guide) for details.</h5>
 </ul>
 <h3>Version 3.3.7</h3>
 <ul>
@@ -169,14 +170,14 @@ This only affects employees (users), not contacts (web_users).</li>
 </li>
 <li>Web Services:
   <ul>
-    <li>The Web Services have been moved to to a public GitHub repository: <a href="https://github.com/DovetailSoftware/dovetail-sdk-web-services">dovetail-sdk-web-services</a>. The documentation provided here is still applicable, but Web Services are not included as part of the fcSDK installation.
+    <li>The Web Services have been moved to to a public GitHub repository: [dovetail-sdk-web-services](https://github.com/DovetailSoftware/dovetail-sdk-web-services). The documentation provided here is still applicable, but Web Services are not included as part of the fcSDK installation.
       </h4>
     </li>
   </ul>
 </li>
 <li>Demos:
   <ul>
-    <li>The Demos have been moved to to a public GitHub repository: <a href="https://github.com/DovetailSoftware/dovetail-sdk-demos">dovetail-sdk-demos</a>. The documentation provided here is still applicable, but Demos are not included as part of the fcSDK installation.</li>
+    <li>The Demos have been moved to to a public GitHub repository: [dovetail-sdk-demos](https://github.com/DovetailSoftware/dovetail-sdk-demos). The documentation provided here is still applicable, but Demos are not included as part of the fcSDK installation.</li>
   </ul>
 </li>
 </ul>
@@ -184,7 +185,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <ul>
 <li>Core:
   <ul>
-    <li>Improved performance for <a href="fcSDK~FChoice.Foundation.FCGeneric~AppendFilterInList.html">AppendFilterInList</a> queries against non-unicode string fields, allowing the database to optimize the query.</li>
+    <li>Improved performance for [AppendFilterInList](fcSDK~FChoice.Foundation.FCGeneric~AppendFilterInList.md) queries against non-unicode string fields, allowing the database to optimize the query.</li>
     <li>Fixed bug where the field size for web user login_name was based on the user login_name size when used as a parameter for contact login.</li>
   </ul>
 </li>
@@ -197,9 +198,9 @@ This only affects employees (users), not contacts (web_users).</li>
         <li>RemoveContactFromContract</li>
       </ul>
     </li>
-    <li><a href="FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~AddAttachment.html">Adding an attachment</a> will now update the parent objects timestamp when possible.</li>
+    <li>[Adding an attachment](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~AddAttachment.md) will now update the parent objects timestamp when possible.</li>
     <li>Fixed validation used when calculating a Contract's available units.</li>
-    <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateAccount().html">CreateAccount</a> now correctly handles an empty or null Territory argument.</li>
+    <li>[CreateAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateAccount().md) now correctly handles an empty or null Territory argument.</li>
     <li>Fixed an issue where the timestamps written to the case_history field could be incorrect if the user's session timezone was different than the server time zone. This affected Forward, Reject, and Change Status activities. Note that the act_entry timestamps were written correctly.</li>
     <li>Fixed a bug causing incorrect level_to_bin and level_to_part values stored for nested BOM parts being reinstalled.</li>
     <li>Check Logistics and Quality transition operations now throw an exception when table_transition.rank value is higher than the table_privclass.trans_mask length.</li>
@@ -277,9 +278,9 @@ This only affects employees (users), not contacts (web_users).</li>
     <li>Corrected the id field used for Workflow operations on Workaround objects.</li>
     <li>Oracle Data Provider for .NET (ODP.NET) support has been added.</li>
     <li>Fixed a bug leading to incorrect SQL being generated for traversing operations.</li>
-    <li>Fixed a bug in <a href="FChoice.Common~FChoice.Common.State.StateManager~LoadState.html">StateManager.LoadState</a> which was causing the session timeout to get updated. Consumers of load state should now call <a href="FChoice.Common~FChoice.Common.State.StateManager~ResetTimeout.html">ResetTimeout</a> to up date the state timeout if desired.</li>
-    <li>Added <a href="FChoice.Common~FChoice.Common.State.StateManager~IsStateExpired.html">StateManager.IsStateExpired</a> method to better detect expired session states.</li>
-    <li><a href="FChoice.Common~FChoice.Common.State.RemoteStateManager.html">Remote state managers</a> have been marked obsolete.</li>
+    <li>Fixed a bug in [StateManager.LoadState](FChoice.Common~FChoice.Common.State.StateManager~LoadState.md) which was causing the session timeout to get updated. Consumers of load state should now call [ResetTimeout](FChoice.Common~FChoice.Common.State.StateManager~ResetTimeout.md) to up date the state timeout if desired.</li>
+    <li>Added [StateManager.IsStateExpired](FChoice.Common~FChoice.Common.State.StateManager~IsStateExpired.md) method to better detect expired session states.</li>
+    <li>[Remote state managers](FChoice.Common~FChoice.Common.State.RemoteStateManager.md) have been marked obsolete.</li>
   </ul>
 </li>
 <li>API Toolkits:
@@ -313,7 +314,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>Core:
   <ul>
     <li>LocaleCache: Improved handling of daylight savings periods to support periods which span multiple years. For example, in New Zealand, daylight savings starts in September and ends in April.</li>
-    <li><b style="color:red;">BREAKING API CHANGE</b> to the <a href="fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection.html">DaylightSavingsCollection</a>. This collection had a string based indexer by year which has been replaced with the <a href="fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection~GetPeriod.html">GetPeriod</a> method.</li>
+    <li><b style="color:red;">BREAKING API CHANGE</b> to the [DaylightSavingsCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection.md). This collection had a string based indexer by year which has been replaced with the [GetPeriod](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection~GetPeriod.md) method.</li>
   </ul>
 </li>
 <li>Data Verifier:
@@ -361,7 +362,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>Core:
   <ul>
     <li>To workaround a bug in how the .Net Oracle client handles decimal values with high precision, we now truncate (via SQL) decimal fields to a precision matching what is specified in the Clarify schema.</li>
-    <li>The result of a DateTime conversion to a timezone with no GMT offset now has <a href="http://msdn.microsoft.com/en-us/library/system.datetime.kind.aspx">DateTime.Kind</a> value set to Utc</li>
+    <li>The result of a DateTime conversion to a timezone with no GMT offset now has [DateTime.Kind](http://msdn.microsoft.com/en-us/library/system.datetime.kind.aspx) value set to Utc</li>
     <li>Resolved a rare configuration issue that could occur during SDK initialization if DBProviderFactory was used before the SDK initialization.</li>
     <li><strong>API change:</strong> To facilitate testing Hgbst and Gbst lists types are now exposed via Interfaces rather than concrete classes.</li>
   </ul>
@@ -369,7 +370,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>API Toolkits:
   <ul>
     <li>Added a schema update for a participant table index which on pre Clarify 11 databases is missing a field.</li>
-    <li>Fixed a bug in <a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateSite.html">UpdateSite</a> that would cause the site name to be overwritten with the siteId if the site name input parameter was blank.</li>
+    <li>Fixed a bug in [UpdateSite](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateSite.md) that would cause the site name to be overwritten with the siteId if the site name input parameter was blank.</li>
   </ul>
 </li>
 </ul>
@@ -382,20 +383,20 @@ This only affects employees (users), not contacts (web_users).</li>
       <p>The following APIs are affected:</p>
       <h5>Logistics Toolkit</h5>
       <ul>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.html">PartTransfer</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~BackorderPartRequest.html">BackorderPartRequest</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest.html">FulfillPartRequest</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail.html">CreatePartRequestDetail</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest.html">ReceivePartRequest</a></li>
+        <li>[PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.md)</li>
+        <li>[BackorderPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~BackorderPartRequest.md)</li>
+        <li>[FulfillPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest.md)</li>
+        <li>[CreatePartRequestDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail.md)</li>
+        <li>[ReceivePartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest.md)</li>
       </ul>
       <h5>FieldOps Toolkit</h5>
       <ul>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~PartTransfer.html">PartTransfer</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedExchange.html">LogPartsUsedExchange</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedConsume.html">LogPartsUsedConsume</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedInstall.html">LogPartsUsedInstall</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedRemove.html">LogPartsUsedRemove</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedUpgrade.html">LogPartsUsedUpgrade</a></li>
+        <li>[PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~PartTransfer.md)</li>
+        <li>[LogPartsUsedExchange](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedExchange.md)</li>
+        <li>[LogPartsUsedConsume](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedConsume.md)</li>
+        <li>[LogPartsUsedInstall](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedInstall.md)</li>
+        <li>[LogPartsUsedRemove](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedRemove.md)</li>
+        <li>[LogPartsUsedUpgrade](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedUpgrade.md)</li>
       </ul>
       <br/> Note: When calling the overload of these APIs having a transaction argument, as always, the API will use the given transaction.
     </li>
@@ -418,7 +419,7 @@ This only affects employees (users), not contacts (web_users).</li>
   <ul>
     <li>Fixed a bug in APIs which increment part request header sequence numbers within a transaction. Sequence incrementation is now enlisted in the current transaction.
       <br/>
-      <p><b style="color:red;">Important:</b> Oracle users should <a href="fcsdk_install.html#installstoredprocedures">reapply the stored procedures</a>. Part of this fix involves an update to the <i>fc_next_pr_seq</i> stored procedure.</p>
+      <p><b style="color:red;">Important:</b> Oracle users should [reapply the stored procedures](fcsdk_install.html#installstoredprocedures). Part of this fix involves an update to the <i>fc_next_pr_seq</i> stored procedure.</p>
     </li>
   </ul>
 </li>
@@ -427,12 +428,12 @@ This only affects employees (users), not contacts (web_users).</li>
 <ul>
 <li>Core:
   <ul>
-    <li>Compatibility generic <a href="FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric~UpdateAll.html">UpdateAll</a> calls are now enlisted in the current session transaction when present. This problem affected some Toolkit APIs.</li>
+    <li>Compatibility generic [UpdateAll](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric~UpdateAll.md) calls are now enlisted in the current session transaction when present. This problem affected some Toolkit APIs.</li>
   </ul>
 </li>
 <li>API Toolkits:
   <ul>
-    <li>Fixed a bug in <a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~CreateContractLineItem.html">CreateContactLineItem</a> caused by a poorly constrained database query when the serial number argument was blank.</li>
+    <li>Fixed a bug in [CreateContactLineItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~CreateContractLineItem.md) caused by a poorly constrained database query when the serial number argument was blank.</li>
   </ul>
 </li>
 <li>Demos:
@@ -445,14 +446,14 @@ This only affects employees (users), not contacts (web_users).</li>
 <ul>
 <li>
   <h4>Developers: We've added Nuget support</h4>
-  <blockquote><a href="http://nuget.org/">NuGet</a> is a Visual Studio extension that makes it easy to install and update libraries and tools in Visual Studio.</blockquote>
+  <blockquote>[NuGet](http://nuget.org/) is a Visual Studio extension that makes it easy to install and update libraries and tools in Visual Studio.</blockquote>
   <p>Dovetail SDK now ships a <em>.nupkg</em> file which you can deploy to your company's local nuget package source. The main idea behind shipping a Nuget package with the installer is to make it easy easy for .Net developers to install and update references to Dovetail SDK .Net assemblies.</p>
 </li>
 <li>Core:
   <ul>
     <li>Fixed a bug on Oracle where contact and user login names were case sensitive. This has been fixed and login names are now case insensitive on Oracle.</li>
     <li>Legacy support for Sybase has been removed.</li>
-    <li>Logging library log4net has been updated to <a href="http://logging.apache.org/log4net/release/release-notes.html">version 1.2.11</a>.</li>
+    <li>Logging library log4net has been updated to [version 1.2.11](http://logging.apache.org/log4net/release/release-notes.html).</li>
   </ul>
 </li>
 <li>Data Verifier:
@@ -470,13 +471,13 @@ This only affects employees (users), not contacts (web_users).</li>
 </li>
 <li>API Toolkits:
   <ul>
-    <li>Enhanced the <code><a href="fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~Yank.html">Yank API</a></code> so that it creates a participant record for the user from which the workflow object was yanked. This enables for creation of a business rule to notify the user when an object was yanked from them. Note this requires the optional exclusive relation from participant2user be added to your schema.</li>
-    <li>When <code><a href="fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~CreateAttachmentRecord.html">Creating an Attachment Record</a></code> the doc_inst record created is now related to the activity entry generated for that attachment activity.</li>
+    <li>Enhanced the <code>[Yank API](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~Yank.md)</code> so that it creates a participant record for the user from which the workflow object was yanked. This enables for creation of a business rule to notify the user when an object was yanked from them. Note this requires the optional exclusive relation from participant2user be added to your schema.</li>
+    <li>When <code>[Creating an Attachment Record](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~CreateAttachmentRecord.md)</code> the doc_inst record created is now related to the activity entry generated for that attachment activity.</li>
   </ul>
 </li>
 <li>Core:
   <ul>
-    <li><code><a href="fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.html">ClarifyGenerics</a></code> have a new property <code><a href="fcSDK~FChoice.Foundation.FCGeneric~RestrictionGroup.html">DataRestrictionGroup</a></code> which now allows generic level control of the data restriction group used. Previously the restiction group was only settable at the <code><a href="fcSDK~FChoice.Foundation.Clarify.ClarifySession.html">ClarifySession</a></code> level. When a ClarifyGeneric is created it will default to the session's restriction group. There is also a new convenience method on ClarifyGeneric for <a href="fcSDK~FChoice.Foundation.FCGeneric~ChangeRestrictionGroup.html">changing restriction group by name</a>.</li>
+    <li><code>[ClarifyGenerics](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md)</code> have a new property <code>[DataRestrictionGroup](fcSDK~FChoice.Foundation.FCGeneric~RestrictionGroup.md)</code> which now allows generic level control of the data restriction group used. Previously the restiction group was only settable at the <code>[ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)</code> level. When a ClarifyGeneric is created it will default to the session's restriction group. There is also a new convenience method on ClarifyGeneric for [changing restriction group by name](fcSDK~FChoice.Foundation.FCGeneric~ChangeRestrictionGroup.md).</li>
   </ul>
 </li>
 </ul>
@@ -557,7 +558,7 @@ This only affects employees (users), not contacts (web_users).</li>
     <li>Contact authentication now requires that the contact have active contact and web_user records</li>
     <li>Added new Generic filter creation overloads for AND and OR filters. These new over loads allow you to give an array of Filters which you need to be ANDed or ORed together. Previously you could only apply AND and OR to two filters at a time.</li>
     <li>Added better error prevention for LocaleCache and ListCache. This will prevent most cache-releated Application start-up errors.</li>
-    <li>API added for making it easier to generate ClarifyGeneric filters. See the <a href="fcSDK~FChoice.Foundation.Filters.FilterExpression.html">FilterExpression class.</a></li>
+    <li>API added for making it easier to generate ClarifyGeneric filters. See the [FilterExpression class.](fcSDK~FChoice.Foundation.Filters.FilterExpression.md)</li>
   </ul>
 </li>
 <li>Data Verifier:
@@ -682,10 +683,10 @@ This only affects employees (users), not contacts (web_users).</li>
   <ul>
     <li>Added three new .NET InterfacesToolkit APIs. These new APIs are not exposed via COM compatibility.
       <ul>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateDialogue.html">CreateDialogue</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateDialogue.html">UpdateDialogue</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateCommunication.html">CreateCommunication</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateCommunication.html">UpdateCommunication</a></li>
+        <li>[CreateDialogue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateDialogue.md)</li>
+        <li>[UpdateDialogue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateDialogue.md)</li>
+        <li>[CreateCommunication](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateCommunication.md)</li>
+        <li>[UpdateCommunication](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateCommunication.md)</li>
       </ul>
   </ul>
   </li>
@@ -699,7 +700,7 @@ This only affects employees (users), not contacts (web_users).</li>
   <li>Compatibility:
     <ul>
       <li><b style="color:red;">Security Support Added</b>
-        <br/> To help avoid SQL Injection attacks we have added support to FCSqlExec for binding parameters (via <a href="AddSqlParameter.html">AddSqlParameter</a>). We recommend that all SQL queries built using user input should executed with FCSqlExec using bind parameters. For more information see the <a href="Execute.html">Execute</a> and <a href="ExecuteReturnRows.html">ExecuteReturnRows</a> for examples.</li>
+        <br/> To help avoid SQL Injection attacks we have added support to FCSqlExec for binding parameters (via [AddSqlParameter](AddSqlParameter.md)). We recommend that all SQL queries built using user input should executed with FCSqlExec using bind parameters. For more information see the [Execute](Execute.md) and [ExecuteReturnRows](ExecuteReturnRows.md) for examples.</li>
     </ul>
   </li>
 </ul>
@@ -776,10 +777,10 @@ This only affects employees (users), not contacts (web_users).</li>
   <ul>
     <li>Added four new .NET SupportToolkit APIs. These new APIs are not exposed via COM compatibility.
       <ul>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseEmailIn.html">LogCaseEmailIn</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubCaseEmailIn.html">LogSubCaseEmailIn</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AppendHistoryToCase.html">AppendCaseHistory</a></li>
-        <li><a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AppendHistoryToSubCase.html">AppendSubCaseHistory</a></li>
+        <li>[LogCaseEmailIn](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseEmailIn.md)</li>
+        <li>[LogSubCaseEmailIn](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubCaseEmailIn.md)</li>
+        <li>[AppendCaseHistory](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AppendHistoryToCase.md)</li>
+        <li>[AppendSubCaseHistory](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AppendHistoryToSubCase.md)</li>
       </ul>
     </li>
   </ul>
@@ -831,7 +832,7 @@ This only affects employees (users), not contacts (web_users).</li>
   </ul>
   <ul>
     <li>Oracle queries involving large text fields (Long, CLOB) now set the field's data type based on existing fields in the database rather than the version of the database platform.</li>
-    <li>Dovetail SDK performance counters are now disabled by default. The configuration <a href="fcsdk_config_basic.html#fchoice.perfcountersenabled">documentation has been updated</a> to reflect this.</li>
+    <li>Dovetail SDK performance counters are now disabled by default. The configuration [documentation has been updated](fcsdk_config_basic.html#fchoice-perfcountersenabled) to reflect this.</li>
   </ul>
 </li>
 <li>Compatibility:
@@ -887,7 +888,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <ul>
 <li>Core:
   <ul>
-    <li>The <code><a href="fcsdk_config_basic.html#fchoice.clarify.ignoredatetimemilliseconds">fchoice.clarify.ignoredatetimemilliseconds</a></code> configration setting was not being honored for change date fields and for normal DateTime fields when the ConvertTimeZone session property was false.</li>
+    <li>The <code>[fchoice.clarify.ignoredatetimemilliseconds](fcsdk_config_basic.html#fchoice.clarify.ignoredatetimemilliseconds)</code> configuration setting was not being honored for change date fields and for normal DateTime fields when the ConvertTimeZone session property was false.</li>
   </ul>
 </li>
 <li>Compatibility:
@@ -975,7 +976,7 @@ This only affects employees (users), not contacts (web_users).</li>
 </ul>
 <li>Core:</li>
 <ul>
-  <li>ClarifyApplication can now be removed from the AppDomain using <a href="fcSDK~FChoice.Foundation.FCApplication~DeInitialize.html">DeInitialize</a></li>
+  <li>ClarifyApplication can now be removed from the AppDomain using [DeInitialize](fcSDK~FChoice.Foundation.FCApplication~DeInitialize.md)</li>
 </ul>
 </ul>
 <h3>Version 2.2.6</h3>
@@ -990,7 +991,7 @@ This only affects employees (users), not contacts (web_users).</li>
 </li>
 <li>Compatibility:</li>
 <ul>
-  <li>FCApplication: Added <a href="GetGbstElmByID.html">GetLocalizedGbstElmById</a> and <a href="GetGbstDefault.html">GetLocalizedGbstDefault</a> methods.</li>
+  <li>FCApplication: Added [GetLocalizedGbstElmById](GetGbstElmByID.md) and [GetLocalizedGbstDefault](GetGbstDefault.md) methods.</li>
 </ul>
 </ul>
 <h3>Version 2.2.5</h3>
@@ -998,8 +999,8 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>API Toolkits:
   <ul>
     <li>Fixed bug involving improperly formatted datetimes when using the AdditionalFields property in Toolkit APIs. The FCSession's
-      <A href="fcSDK~FChoice.Foundation.FCSession~CurrentCulture.html">CurrentCulture</a> is now used to properly format the datetime.</li>
-    <li>FCCL - <a href="FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest.html">FullfillPartRequest</a> result now includes the objid and id_number of the PartRequestDetail created when a partial fulfill occurs.</li>
+      [CurrentCulture](fcSDK~FChoice.Foundation.FCSession~CurrentCulture.md) is now used to properly format the datetime.</li>
+    <li>FCCL - [FullfillPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest.md) result now includes the objid and id_number of the PartRequestDetail created when a partial fulfill occurs.</li>
   </ul>
 </li>
 </ul>
@@ -1020,7 +1021,7 @@ This only affects employees (users), not contacts (web_users).</li>
 </li>
 <li>General:
   <ul>
-    <li>The fcSDK installer now requires that .Net 1.1 Service Pack 1 be present. This is due to a breaking change in .Net 2.0 that affects <a href="fcsdk_install.html#security">Performance Counter</a> support. Please see <a href="http://www.dovetailsoftware.com/resources/solutions/235_fcSDK_Installer_ends.aspx">this solution</a> for more details.</li>
+    <li>The fcSDK installer now requires that .Net 1.1 Service Pack 1 be present. This is due to a breaking change in .Net 2.0 that affects [Performance Counter](fcsdk_install.html#security) support. Please see [this solution](http://www.dovetailsoftware.com/resources/solutions/235_fcSDK_Installer_ends.aspx) for more details.</li>
   </ul>
 </li>
 </ul>
@@ -1059,18 +1060,18 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>Core</li>
 <ul>
   <li>
-    <p><b style="color:red;">BREAKING API CHANGE</b> (.NET APIs only, Compatibility unaffected): FCGeneric.Filter has been renamed to <a href="fcSDK~FChoice.Foundation.FCGeneric~RawFilter.html">FCGeneric.RawFilter</a>. This was done to make room for the new Query Filtering mechansim.</p>
+    <p><b style="color:red;">BREAKING API CHANGE</b> (.NET APIs only, Compatibility unaffected): FCGeneric.Filter has been renamed to [FCGeneric.RawFilter](fcSDK~FChoice.Foundation.FCGeneric~RawFilter.md). This was done to make room for the new Query Filtering mechansim.</p>
   </li>
   <li>There is a new Query Filtering mechanism in place that allows for more complex filters against Generic objects. Please take a look at the [Developer Walkthrough - Advanced Filtering](walkthroughs/filtering.md) for more information.</li>
   <li>
-    <p>New optional <code><a href="fcsdk_config_basic.html#fchoice.clarify.ignoredatetimemilliseconds">fchoice.clarify.ignoredatetimemilliseconds</a></code> configration setting added to better support compatiblity with older versions of Clarify Classic Client.</p>
+    <p>New optional <code>[fchoice.clarify.ignoredatetimemilliseconds](fcsdk_config_basic.md#fchoice-clarify-ignoredatetimemilliseconds)</code> configration setting added to better support compatiblity with older versions of Clarify Classic Client.</p>
   </li>
   <li>Fixed login bug where an Employee's <i>last_login</i> was being incorrectly updated during a Contact login of the same <i>login_name</i>.</li>
-  <li>On MSSQL <a href="fcSDK~FChoice.Foundation.FCSession~SetPassword.html">ClarifySession.SetPassword()</a> no longer requires that the application user have sysadmin rights.</li>
+  <li>On MSSQL [ClarifySession.SetPassword()](fcSDK~FChoice.Foundation.FCSession~SetPassword.md) no longer requires that the application user have sysadmin rights.</li>
   <li>
     <p><b style="color:red;">BREAKING API CHANGE</b> (.NET APIs only, Compatibility unaffected): The string/name overloads (as opposed to the ID overloads) of the <code>GetFCString</code> method on <code>StringCache</code> now require another parameter: <code>applicationName</code> since application name is a required parameter to generate unique name identifiers for individual FC Strings. The lack of an <code>applicationName</code> argument was an oversight in previous versions of the fcSDK.</p>
     <p><b>IMPORTANT NOTE FOR CUSTOMERS USING CUSTOMIZED fcSDK ERROR MESSAGES</b>:</p>
-    <p> Any existing strings that were imported via the fcerrors.dat and/or customized will have to be updated to have a proper application name. The default application name for all errors in the fcSDK is "fcSDK". If you wish to have multiple customized error messages for multiple instances of the fcSDK, you can override the application name using the <a href="fcsdk_config_basic.html">fchoice.fcstringappnameforerrors</a> configuration setting. For more information, see the <a href="fcsdk_config_basic.html">Basic Configuration Guide</a></p>
+    <p> Any existing strings that were imported via the fcerrors.dat and/or customized will have to be updated to have a proper application name. The default application name for all errors in the fcSDK is "fcSDK". If you wish to have multiple customized error messages for multiple instances of the fcSDK, you can override the application name using the [fchoice.fcstringappnameforerrors](fcsdk_config_basic.md) configuration setting. For more information, see the [Basic Configuration Guide](fcsdk_config_basic.md)</p>
   </li>
 </ul>
 <li>Auto Destination</li>
@@ -1081,11 +1082,11 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>Compatibility</li>
 <ul>
   <li>Fixed the interaction between FCGeneric.Delete() and cursor movement methods (MoveNext, EOF).</li>
-  <li><a href="fcSDK~FChoice.Foundation.Clarify.Compatibility.FCApplication~InitializeFull.html">FCApplication.InitializeFull()</a> was not utilizing settings contained in fc.env. Configuration settings from the fc.env file are now pulled in but database authentication settings like <i>fchoice.dbtype</i> and <i>fchoice.connectionstring</i> are ignored.</li>
+  <li>[FCApplication.InitializeFull()](fcSDK~FChoice.Foundation.Clarify.Compatibility.FCApplication~InitializeFull.md) was not utilizing settings contained in fc.env. Configuration settings from the fc.env file are now pulled in but database authentication settings like <i>fchoice.dbtype</i> and <i>fchoice.connectionstring</i> are ignored.</li>
 </ul>
 <li>API Toolkits</li>
 <ul>
-  <li>All Toolkit setup objects that require a User session now have a <a href="fcSDK~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup~UserName.html">UserName</a> property which if present is required when the ClarifySession's <a href="fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.html">login type</a> is Contact.</li>
+  <li>All Toolkit setup objects that require a User session now have a [UserName](fcSDK~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup~UserName.md) property which if present is required when the ClarifySession's [login type](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md) is Contact.</li>
   <li>Fixed datetime localization issues when APIs are invoked using non-US cultures.</li>
 </ul>
 </ul>
@@ -1208,11 +1209,11 @@ Fixes and Additions:
       <li>Data: SqlHelper now catches exceptions thrown by the database client and ensures that they are logged (which used to not happen in all cases when FCFL.NET was used through the Compatibility layer). Also, error information will appear in the query summary to allow log filtering.</li>
       <li>
         <b style="color:red;">BREAKING API CHANGE</b> (.NET APIs only, Compatibility unaffected): The concept of a bulk has been completely removed from the .NET core APIs (FChoice.Foundation and FChoice.Foundation.Clarify). The compatibility layer (FChoice.Foundation.Clarify.Compatibility, or FCFLCompat.dll) is unaffected and will still behave like normal. <i>Existing applications written to the COM layer <b>WILL NOT</b> be affected by this change.</i> In order to work with <code>ClarifyGeneric</code>, you must first create a new <code>ClarifyDataSet</code> object. The <code>CreateGeneric</code> method has been moved from <code>ClarifySession</code> to <code>ClarifyDataSet</code>.
-        <br> For more information on how to make the move from using <code>ClarifyBulk</code> and <code>ClarifySession.CreateGeneric</code> to <code>ClarifyDataSet</code>, please see the updated [<b>FCFL.NET</b> Developer Walkthrough](walkthroughs/fcfl-net-objects.md) of fundamental objects in <b>FCFL.NET</b> as well as the API documentation for the <code><a href="fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.html">ClarifyDataSet</a></code> object.
+        <br> For more information on how to make the move from using <code>ClarifyBulk</code> and <code>ClarifySession.CreateGeneric</code> to <code>ClarifyDataSet</code>, please see the updated [<b>FCFL.NET</b> Developer Walkthrough](walkthroughs/fcfl-net-objects.md) of fundamental objects in <b>FCFL.NET</b> as well as the API documentation for the <code>[ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md)</code> object.
       </li>
       <li><code>LogManager</code> was not handling invalid configurations well. A stack overflow would occur when attempting to alert the user about the bad configuration.</li>
-      <li>On Oracle 8.0.x and earlier databases, strings with non ascii or extended ascii charcters non ASCII strings would cause garbage data to be inserted into the database. <b>This setting effectively disables Unicode support for Oracle 8.0.x or earlier databases.</b> Non-ASCII charcters are converted to question marks (?). There is an application configuration setting <a href="fcsdk_config_basic.html">fchoice.oracle.forceascii7bit</a> to control this behavior.</li>
-      <li>Multiline text fields do not always display properly in the Clarify windows client if there are carriage returns present. CRLF is now converted to LF. An application config setting <a href="fcsdk_config_basic.html">fchoice.clarify.convertcarriagereturns</a> was added to control this behavior.</li>
+      <li>On Oracle 8.0.x and earlier databases, strings with non ascii or extended ascii charcters non ASCII strings would cause garbage data to be inserted into the database. <b>This setting effectively disables Unicode support for Oracle 8.0.x or earlier databases.</b> Non-ASCII charcters are converted to question marks (?). There is an application configuration setting [fchoice.oracle.forceascii7bit](fcsdk_config_basic.md) to control this behavior.</li>
+      <li>Multiline text fields do not always display properly in the Clarify windows client if there are carriage returns present. CRLF is now converted to LF. An application config setting [fchoice.clarify.convertcarriagereturns](fcsdk_config_basic.md) was added to control this behavior.</li>
     </ul>
   </li>
   <li>Compatibility
@@ -1242,7 +1243,7 @@ Fixes and Additions:
               <CODE>MaxRecords</CODE> issue.</li>
           </ul>
         </li>
-        <li>For FC.env files, application configuration settings will now override classic FC.env database parameters. The <a href="compat_configuration.html">Configuration Changes</a> document discusses this feature.</li>
+        <li>For FC.env files, application configuration settings will now override classic FC.env database parameters. The [Configuration Changes](compat_configuration.md) document discusses this feature.</li>
         <li><code>GetState</code> and <code>GetCountry</code> methods were not throwing exceptions for invalid states or countries.</li>
     </ul>
     <li>AutoDestination
@@ -1282,7 +1283,7 @@ Fixes and Additions:
       <li>
         <p><b>IMPORTANT CHANGE</b>: ObjID and Numbering Scheme value generation is now handled by two new custom First Choice stored procedures (fc_new_oid and fc_next_num_scheme). This makes objid and num_scheme generation consistent across all Clarify&trade; versions on all database platforms (except pre-9 Clarify&trade; instances running on Oracle&trade;, see note below). These stored procedures are now a requirement of installation for <b><!--DXMETADATA start type="Variable" name="ProductTitle" -->fcSDK<!--DXMETADATA end --></b>.
           <b><!--DXMETADATA start type="Variable" name="ProductTitle" -->fcSDK<!--DXMETADATA end --></b> will not operate properly without these stored procedures loaded into the database (all objid and num_scheme generation will fail). </p>
-        <p><img src="warning.gif" /> <b>PLEASE REVIEW THE INSTALLATION GUIDE BEFORE INSTALLING THIS VERSION</b>. The install guide has been updated to reflect this and other new changes.
+        <p>![warning](/images/warning.gif) <b>PLEASE REVIEW THE INSTALLATION GUIDE BEFORE INSTALLING THIS VERSION</b>. The install guide has been updated to reflect this and other new changes.
           <br/>
           <br/>
           <b>NOTE</b>: The fc_new_oid stored procedure is not required for versions of Clarify&trade; before 9 on Oracle&trade; databases.
@@ -1327,14 +1328,14 @@ Fixes and Additions:
     </li>
     <li>Performance Counters
       <ul>
-        <li>Performance counter functionality can now be disabled for individual applications. See the <a href="fcsdk_config_basic.html">Basic Configuration</a> guide for more information.</li>
+        <li>Performance counter functionality can now be disabled for individual applications. See the [Basic Configuration](fcsdk_config_basic.md) guide for more information.</li>
         <li>Installer now prompts to set required performance counter permissions for all operating systems.</li>
       </ul>
     </li>
   </li>
   <li>Data Verifier now supports Oracle 7 and 8.0 databases.</li>
   <li>Data: SqlHelper now logs whether a query is considered "large" to allow filtering of large and small queries. Please see the new
-    <a href="logging_sample_largesql.html">logging config sample documentation</a> which shows how to redirect logging output for large queries.</li>
+    [logging config sample documentation](logging_sample_largesql.md) which shows how to redirect logging output for large queries.</li>
 </ul>
 </p>
 <p>Installation:

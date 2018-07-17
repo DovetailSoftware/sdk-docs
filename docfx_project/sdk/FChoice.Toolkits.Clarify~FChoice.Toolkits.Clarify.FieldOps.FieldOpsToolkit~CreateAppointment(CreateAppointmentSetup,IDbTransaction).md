@@ -1,0 +1,65 @@
+﻿     CreateAppointment(CreateAppointmentSetup,IDbTransaction) Method                                                   
+
+fcSDK Documentation
+
+CreateAppointment(CreateAppointmentSetup,IDbTransaction) Method
+
+Setup object for API invocation.
+
+Database transaction under which the API will be invoked.
+
+Used to create a new appointment. This overload takes a setup object and a database transaction.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Overloads Function CreateAppointment( _
+   ByVal _setupParam_ As [CreateAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup.md), _
+   ByVal _transaction_ As [IDbTransaction](#) _
+) As [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md)
+
+public [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md) CreateAppointment( 
+   [CreateAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup.md) _setupParam_,
+   [IDbTransaction](#) _transaction_
+)
+
+#### Parameters
+
+_setupParam_
+
+Setup object for API invocation.
+
+_transaction_
+
+Database transaction under which the API will be invoked.
+
+#### Return Value
+
+A [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+
+Remarks
+
+The start/end time can be specified either with both times or with one time and a duration. The duration is specified in seconds.
+
+Each appointment must be specified for a given employee or a piece of equipment (site_part). Both cannot be specified. A case ID number may be optionally specified.
+
+Example
+
+**Developer Walkthrough - Transaction support**
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
+[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)  
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~CreateAppointment.md)

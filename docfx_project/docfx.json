@@ -22,6 +22,13 @@
       },
       {
         "files": [
+          "sdk/**.md",
+          "sdk/index.md",
+          "sdk/toc.yml"
+        ]
+      },
+      {
+        "files": [
           "articles/**.md",
           "articles/**/toc.yml",
           "toc.yml",
@@ -32,7 +39,10 @@
     "resource": [
       {
         "files": [
-          "images/**"
+          "images/**",
+          "sdk/images/**",
+          "sdk/dotnetimages/**",
+          "sdk/webimages/**"
         ]
       }
     ],

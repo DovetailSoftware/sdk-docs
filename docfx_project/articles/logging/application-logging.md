@@ -22,7 +22,7 @@ The Log Manager uses an XML Configuration file. The configuration is easily read
 
 		Refer to the [Logging Config File Samples](logging-samples.md) documentation for more details on and examples of logging configuration files.
 1. Tell LogManager which logging config file to use. This can be accomplished in one of two ways:
-	1. Set the *fchoice.logconfigfile* application setting in your application configuration (.config) file (see [Configuring fcSDK]() for more information on configuring **fcSDK**).
+	1. Set the *fchoice.logconfigfile* application setting in your application configuration (.config) file (see [Configuring fcSDK](/articles/basic-configuration.md) for more information on configuring **fcSDK**).
 	1. Programmatically set the *LogConfigFilePath* property of LogManager before initializing ClarifyApplication
 1. Restart your application
 		From here on, you can make changes to the logging configuration file, and these changes will automatically be picked up by the Log Manager - there's no need to restart your app just to make a logging configuration change.
@@ -30,5 +30,5 @@ The Log Manager uses an XML Configuration file. The configuration is easily read
 ### See Also
 
 * [Logging Config File Samples](logging-samples.md)
-* [Configuring fcSDK](basic-configuration.md)
+* [Configuring fcSDK](/articles/basic-configuration.md)
  

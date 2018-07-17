@@ -1,0 +1,44 @@
+﻿     SchemaLoadStatusEventHandler Delegate                                                   
+
+fcSDK Documentation
+
+SchemaLoadStatusEventHandler Delegate
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Delegate Sub SchemaLoadStatusEventHandler( _
+   ByVal _sender_ As [Object](#), _
+   ByVal _newStatus_ As [SchemaLoadStatusType](fcSDK~FChoice.Foundation.Clarify.SchemaLoadStatusType.md) _
+) 
+
+public delegate void SchemaLoadStatusEventHandler( 
+   [object](#) _sender_,
+   [SchemaLoadStatusType](fcSDK~FChoice.Foundation.Clarify.SchemaLoadStatusType.md) _newStatus_
+)
+
+#### Parameters
+
+_sender_
+
+_newStatus_
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation.Clarify](fcSDK~FChoice.Foundation.Clarify_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
+
+See Also
+
+#### Reference
+
+[SchemaLoadStatusEventHandler Members](fcSDK~FChoice.Foundation.Clarify.SchemaLoadStatusEventHandler.md)  
+[FChoice.Foundation.Clarify Namespace](fcSDK~FChoice.Foundation.Clarify_namespace.md)

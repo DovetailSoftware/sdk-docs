@@ -1,0 +1,54 @@
+﻿     LogContractNote(LogContractNoteSetup) Method                                                   
+
+fcSDK Documentation
+
+LogContractNote(LogContractNoteSetup) Method
+
+Setup object for API invocation.
+
+Causes a note log to be created and added to the specified contract. This overload takes a setup object.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Overloads Function LogContractNote( _
+   ByVal _setupParam_ As [LogContractNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup.md) _
+) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+
+public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogContractNote( 
+   [LogContractNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup.md) _setupParam_
+)
+
+#### Parameters
+
+_setupParam_
+
+Setup object for API invocation.
+
+#### Return Value
+
+The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+
+*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the NotesLog.
+
+Remarks
+
+It logs the note with the user name specified. There can be Internal Use notes added. It allows the setting of optional fields on the notes_log record with the use of the AdditionalFields object.
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~LogContractNote.md)  
+[LogContractNoteSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup.md)

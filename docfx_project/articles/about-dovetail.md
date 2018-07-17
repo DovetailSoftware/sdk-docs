@@ -1,6 +1,6 @@
 # About Dovetail Software
 
-**Dovetail Software (formerly First Choice Software, Inc.)** is the premier supplier of add-on software and customizations to the Clarify Front Office suite. Founded in 1995, Dovetail Software is the first and only company to focus on writing applications to enhance the value of your Clarify investment. You can see our extensive product line on our website: [www.dovetailsoftware.com](www.dovetailsoftware.com).
+**Dovetail Software (formerly First Choice Software, Inc.)** is the premier supplier of add-on software and customizations to the Clarify Front Office suite. Founded in 1995, Dovetail Software is the first and only company to focus on writing applications to enhance the value of your Clarify investment. You can see our extensive product line on our website: [www.dovetailsoftware.com](http://www.dovetailsoftware.com).
 
 ## Clarify/Amdocs
 

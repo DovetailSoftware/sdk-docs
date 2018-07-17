@@ -366,6 +366,4 @@ dataSet.Update( gCase, gSite, gContact );
 
 ##### See Also
 
-[Basic fcSDK Configuration](basic-configuration.md)
-
- 
+[Basic fcSDK Configuration](/articles/basic-configuration.md)

@@ -1,0 +1,40 @@
+﻿     DeleteAppointmentSetup Class                                                   
+
+fcSDK Documentation
+
+DeleteAppointmentSetup Class
+
+Used by the [DeleteAppointment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DeleteAppointment(DeleteAppointmentSetup).md) method as setup data for invocation.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Class DeleteAppointmentSetup 
+
+public class DeleteAppointmentSetup 
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   **FChoice.Toolkits.Clarify.FieldOps.DeleteAppointmentSetup**  
+
+#### Requirements
+
+**Namespace:** [FChoice.Toolkits.Clarify.FieldOps](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
+
+See Also
+
+#### Reference
+
+[DeleteAppointmentSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteAppointmentSetup_members.md)  
+[FChoice.Toolkits.Clarify.FieldOps Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps_namespace.md)  
+[DeleteAppointment(DeleteAppointmentSetup) Method](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DeleteAppointment(DeleteAppointmentSetup).md)

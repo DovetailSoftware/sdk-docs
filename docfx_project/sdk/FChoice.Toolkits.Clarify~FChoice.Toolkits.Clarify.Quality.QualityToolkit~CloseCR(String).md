@@ -1,0 +1,53 @@
+﻿     CloseCR(String) Method                                                   
+
+fcSDK Documentation
+
+CloseCR(String) Method
+
+Change Request Identifier
+
+Close a CR. This overload takes a set of required parameters for the API.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Overloads Function CloseCR( _
+   ByVal _crIDNum_ As String _
+) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+
+public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CloseCR( 
+   string _crIDNum_
+)
+
+#### Parameters
+
+_crIDNum_
+
+Change Request Identifier
+
+#### Return Value
+
+The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+
+*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the CloseBug.
+
+Remarks
+
+The CR must be in a condition/status that allows the transition to the Closed condition.
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[QualityToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit.md)  
+[QualityToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit_members.md)  
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~CloseCR.md)

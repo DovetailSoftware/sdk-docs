@@ -1,0 +1,44 @@
+﻿     UpdatePriceInstanceSetup Class Members                                                   
+
+fcSDK Documentation
+
+UpdatePriceInstanceSetup Class Members
+
+The following tables list the members exposed by [UpdatePriceInstanceSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup.md).
+
+Public Constructors
+
+|   | Name | Description |
+| --- | --- | --- |
+| ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdatePriceInstanceSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~_ctor.md) | Initializes a new instance of the UpdatePriceInstanceSetup class.   |
+
+[Top](#top)
+
+Public Properties
+
+|   | Name | Description |
+| --- | --- | --- |
+| ![Public Property](dotnetimages/publicProperty.png) | [PartDomain](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~PartDomain.md) | Domain of the part   |
+| ![Public Property](dotnetimages/publicProperty.png) | [PartNumber](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~PartNumber.md) | 
+Part number to price
+
+  |
+| ![Public Property](dotnetimages/publicProperty.png) | [PartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~PartRevision.md) | 
+
+Revision to price
+
+  |
+| ![Public Property](dotnetimages/publicProperty.png) | [Price](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~Price.md) | Price of the part   |
+| ![Public Property](dotnetimages/publicProperty.png) | [PricedQuantity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~PricedQuantity.md) | How many units in this price instance.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [PriceProgram](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~PriceProgram.md) | Name of the price program   |
+| ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~UpdateDate.md) | Date when the Price was updated, any Date between the start and end date is valid.   |
+
+[Top](#top)
+
+See Also
+
+#### Reference
+
+[UpdatePriceInstanceSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup.md)  
+[FChoice.Toolkits.Clarify.Interfaces Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces_namespace.md)  
+[UpdatePriceInstance(UpdatePriceInstanceSetup) Method](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdatePriceInstance(UpdatePriceInstanceSetup).md)

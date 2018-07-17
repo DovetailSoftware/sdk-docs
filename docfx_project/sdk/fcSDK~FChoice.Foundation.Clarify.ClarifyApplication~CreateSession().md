@@ -1,0 +1,45 @@
+﻿     CreateSession() Method                                                   
+
+fcSDK Documentation
+
+CreateSession() Method
+
+Creates a new [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) and logs in using the username and password for the application.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Overloads Function CreateSession() As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
+
+public [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) CreateSession()
+
+#### Return Value
+
+A new ClarifySession instance that is logged in using the application username and password.
+
+Remarks
+
+This method will log in the session using the username and password specified in the application connection string configuration variable.
+
+**WARNING**: This method has potential security implications. If enabled, this method would allow users to log in as a high-privileged user without knowledge of the username or password (assuming your application user is high-privileged). Once these privileges are obtained, the user could perform damaging (either accidental or malicious) actions which might disable your Clarify installation.
+
+**IMPORTANT**: First Choice has disabled this functionality by default. If you decide that you are willing to assume the risk of enabling this functionality, you must add an appSettings entry into your application configuration file with the key "_fchoice.disableLoginFromFCApp_" with the value of "false".
+
+The general use case for this method is if you are writing a simple application that performs some type of repetitive, batch, or behind-the-scenes process and requires no user input. Rather than hard-coding a username and password into your application, you can simply use the application user.
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[ClarifyApplication Class](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)  
+[ClarifyApplication Members](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication_members.md)  
+[Overload List](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md)

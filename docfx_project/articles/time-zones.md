@@ -63,7 +63,7 @@ noConvertRow.Update();
 ```
 
 [Visual Basic] 
-```
+```vbnet
 ' Create an initialize the ClarifyApplication instance
 Dim app As ClarifyApplication = ClarifyApplication.Initialize()
 app.ServerTimeZone = app.LocaleCache.TimeZones("Pacific Standard Time", True)

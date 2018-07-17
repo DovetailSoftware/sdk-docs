@@ -1,0 +1,23 @@
+// replace html links with md links
+grep -rl '.html)' . | xargs sed -i "s/.html)/.md)/g"
+
+grep -rl '\*   \[Visual Basic\](#Syntax-VBAll)' . | xargs sed -i "s/\*   \[Visual Basic\](#Syntax-VBAll)/#vbnet/g"
+
+grep -rl '\*   \[C#\](#Syntax-CS)' . | xargs sed -i "s/\*   \[C#\](#Syntax-CS)/```csharp/g"
+
+grep -rl '#vbnet' . | xargs sed -i "s/#vbnet/\`\`\`vbnet/g"
+grep -rl '```csharp' . | xargs sed -i "s/```csharp/\`\`\`csharp/g"
+
+grep -rl '\[String\](#)' . | xargs sed -i "s/\[String\](#)/String/g"
+grep -rl '\[Short\](#)' . | xargs sed -i "s/\[Short\](#)/Short/g"
+grep -rl '\[Boolean\](#)' . | xargs sed -i "s/\[Boolean\](#)/Boolean/g"
+grep -rl '\[NameValueCollection\](#)' . | xargs sed -i "s/\[NameValueCollection\](#)/NameValueCollection/g"
+grep -rl '\[SerializableAttribute\](#)' . | xargs sed -i "s/\[SerializableAttribute\](#)/SerializableAttribute/g"
+
+grep -rl '\[string\](#)' . | xargs sed -i "s/\[string\](#)/string/g"
+grep -rl '\[short\](#)' . | xargs sed -i "s/\[short\](#)/short/g"
+grep -rl '\[bool\](#)' . | xargs sed -i "s/\[bool\](#)/bool/g"
+
+grep -rl '\[System.Object\](#)' . | xargs sed -i "s/\[System.Object\](#)/\[System.Object\](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.110).aspx)/g"
+
+grep -rl 'fcSDK Documentation\n' . | xargs sed -i "s/fcSDK Documentation/### Parameters/g"

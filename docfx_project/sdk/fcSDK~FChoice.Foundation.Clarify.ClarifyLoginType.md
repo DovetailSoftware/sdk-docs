@@ -1,0 +1,52 @@
+﻿     ClarifyLoginType Enumeration                                                     
+
+fcSDK Documentation
+
+ClarifyLoginType Enumeration
+
+Provides enumerated values which determine how a given user is logged in when calling [ClarifyApplication.CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md)
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Enum ClarifyLoginType 
+   Inherits [System.Enum](#)
+
+public enum ClarifyLoginType : [System.Enum](#) 
+
+Members
+
+| Member | Description |
+| --- | --- |
+| **Contact** | Specifies that a Contact or "web user" login should be attempted. |
+| **User** | Specifies that a regular user login should be attempted. |
+
+Remarks
+
+For more information on how login behavior works, see the [ClarifyApplication.CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md) method.
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   [System.ValueType](#)  
+      [System.Enum](#)  
+         **FChoice.Foundation.Clarify.ClarifyLoginType**  
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation.Clarify](fcSDK~FChoice.Foundation.Clarify_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
+
+See Also
+
+#### Reference
+
+[FChoice.Foundation.Clarify Namespace](fcSDK~FChoice.Foundation.Clarify_namespace.md)

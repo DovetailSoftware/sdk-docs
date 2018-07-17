@@ -1,0 +1,30 @@
+﻿     GetMachineTimeZone Property (IFCApplication)                                                   
+
+fcSDK Documentation
+
+GetMachineTimeZone Property (IFCApplication)
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+<[DispIdAttribute](#)(1610743824)>
+ReadOnly Property GetMachineTimeZone As String
+
+\[[DispIdAttribute](#)(1610743824)\]
+string GetMachineTimeZone {get;}
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[IFCApplication Interface](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication.md)  
+[IFCApplication Members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication_members.md)

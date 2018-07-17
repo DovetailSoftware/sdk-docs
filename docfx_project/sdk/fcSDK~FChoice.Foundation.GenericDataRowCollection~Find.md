@@ -1,0 +1,27 @@
+﻿     Find Method (GenericDataRowCollection)                                                   
+
+fcSDK Documentation
+
+Find Method (GenericDataRowCollection)
+
+Gets the row containing the specified primary key values.
+
+Gets a specified [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md).
+
+Overload List
+
+| Overload | Description |
+| --- | --- |
+| [Find(Object\[\])](fcSDK~FChoice.Foundation.GenericDataRowCollection~Find(Object[]).md) | Gets the row containing the specified primary key values.   |
+| [Find(Object)](fcSDK~FChoice.Foundation.GenericDataRowCollection~Find(Object).md) | Gets the row specified by the primary key value.   |
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[GenericDataRowCollection Class](fcSDK~FChoice.Foundation.GenericDataRowCollection.md)  
+[GenericDataRowCollection Members](fcSDK~FChoice.Foundation.GenericDataRowCollection_members.md)

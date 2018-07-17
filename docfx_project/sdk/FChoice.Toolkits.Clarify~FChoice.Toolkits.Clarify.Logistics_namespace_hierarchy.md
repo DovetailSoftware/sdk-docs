@@ -1,0 +1,67 @@
+﻿     FChoice.Toolkits.Clarify.Logistics Namespace Inheritance Hierarchy                                                   
+
+fcSDK Documentation
+
+FChoice.Toolkits.Clarify.Logistics Namespace Inheritance Hierarchy
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   [FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.AddInventoryBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryBinSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.AddInventoryLocationSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryLocationSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.CreateContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateContainerSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.DeleteLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteLocationServicingSiteSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.ForwardPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ForwardPartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.OpenContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.OpenContainerSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.PickSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.RejectPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.RejectPartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.SealContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SealContainerSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.ShipSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.UnpickSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.UpdateLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateLocationServicingSiteSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup.md)  
+   [FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup.md)  
+   [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  
+      [FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase.md)  
+         [FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
+   [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  
+      [FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailResult.md)  
+      [FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult.md)  
+      [FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteResult.md)  
+      [FChoice.Toolkits.Clarify.Logistics.PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferResult.md)  
+      [FChoice.Toolkits.Clarify.Logistics.PickResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickResult.md)  
+
+See Also
+
+#### Reference
+
+[FChoice.Toolkits.Clarify Assembly](FChoice.Toolkits.Clarify.md)

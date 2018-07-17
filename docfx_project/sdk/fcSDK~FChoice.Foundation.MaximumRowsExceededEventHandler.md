@@ -1,0 +1,44 @@
+﻿     MaximumRowsExceededEventHandler Delegate                                                   
+
+fcSDK Documentation
+
+MaximumRowsExceededEventHandler Delegate
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Delegate Sub MaximumRowsExceededEventHandler( _
+   ByVal _sender_ As [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md), _
+   ByVal _args_ As [MaximumRowsExceededEventArgs](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs.md) _
+) 
+
+public delegate void MaximumRowsExceededEventHandler( 
+   [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) _sender_,
+   [MaximumRowsExceededEventArgs](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs.md) _args_
+)
+
+#### Parameters
+
+_sender_
+
+_args_
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation](fcSDK~FChoice.Foundation_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
+
+See Also
+
+#### Reference
+
+[MaximumRowsExceededEventHandler Members](fcSDK~FChoice.Foundation.MaximumRowsExceededEventHandler.md)  
+[FChoice.Foundation Namespace](fcSDK~FChoice.Foundation_namespace.md)

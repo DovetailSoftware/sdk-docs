@@ -1,0 +1,32 @@
+﻿     IDbExtension Interface                                                   
+
+IDbExtension Interface
+
+IDbExtension allows applications to specify database-specific extensions to the DbProvider
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Interface IDbExtension 
+
+public interface IDbExtension 
+
+#### Requirements
+
+**Namespace:** [FChoice.Common.Data](FChoice.Common~FChoice.Common.Data_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
+
+See Also
+
+#### Reference
+
+[IDbExtension Members](FChoice.Common~FChoice.Common.Data.IDbExtension_members.md)  
+[FChoice.Common.Data Namespace](FChoice.Common~FChoice.Common.Data_namespace.md)

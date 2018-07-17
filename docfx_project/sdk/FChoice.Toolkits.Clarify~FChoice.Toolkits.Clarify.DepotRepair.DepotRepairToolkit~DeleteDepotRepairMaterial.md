@@ -1,0 +1,29 @@
+﻿     DeleteDepotRepairMaterial Method                                                   
+
+fcSDK Documentation
+
+DeleteDepotRepairMaterial Method
+
+Delete a Depot Repair Material. This overload takes a set of required parameters for the API.
+
+Delete a Depot Repair Material.
+
+Overload List
+
+| Overload | Description |
+| --- | --- |
+| [DeleteDepotRepairMaterial(Int32)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~DeleteDepotRepairMaterial(Int32).md) | Delete a Depot Repair Material. This overload takes a set of required parameters for the API.   |
+| [DeleteDepotRepairMaterial(DeleteDepotRepairMaterialSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~DeleteDepotRepairMaterial(DeleteDepotRepairMaterialSetup).md) | Delete a Depot Repair Material. This overload takes a setup object.   |
+| [DeleteDepotRepairMaterial(DeleteDepotRepairMaterialSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~DeleteDepotRepairMaterial(DeleteDepotRepairMaterialSetup,IDbTransaction).md) | Delete a Depot Repair Material. This overload takes a setup object and a database transaction.   |
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DeleteDepotRepairMaterialSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairMaterialSetup.md)

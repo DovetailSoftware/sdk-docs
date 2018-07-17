@@ -1,0 +1,59 @@
+﻿     CreateSolution(CreateSolutionSetup,IDbTransaction) Method                                                   
+
+fcSDK Documentation
+
+CreateSolution(CreateSolutionSetup,IDbTransaction) Method
+
+Setup object for API invocation.
+
+Database transaction under which the API will be invoked.
+
+Create a Solution. This overload takes a setup object and a database transaction.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Overloads Function CreateSolution( _
+   ByVal _setupParam_ As [CreateSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup.md), _
+   ByVal _transaction_ As [IDbTransaction](#) _
+) As [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md)
+
+public [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md) CreateSolution( 
+   [CreateSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup.md) _setupParam_,
+   [IDbTransaction](#) _transaction_
+)
+
+#### Parameters
+
+_setupParam_
+
+Setup object for API invocation.
+
+_transaction_
+
+Database transaction under which the API will be invoked.
+
+#### Return Value
+
+A [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+
+Example
+
+**Developer Walkthrough - Transaction support**
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[InterfacesToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit.md)  
+[InterfacesToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit_members.md)  
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateSolution.md)

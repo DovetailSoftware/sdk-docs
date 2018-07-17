@@ -5,11 +5,11 @@
 For an accelerated introduction to the First Choice Foundation Library for .NET (**fcSDK**), please follow these steps in sequence:
 
 1. Read the [Overview of the **fcSDK**](overview.md) topic.
-1. Read the Developer Walkthroughs for [FCFL.NET](walkthroughs/fcfl.md) and the [API Toolkits](/api/index.md).
+1. Read the Developer Walkthroughs for [FCFL.NET](walkthroughs/fcfl-net-objects.md) and the [API Toolkits](/api/index.md).
 1. Install the **fcSDK**. See the section titled "[Installation Guide](installation-guide.md)" for information on how to install these applications.
 1. Scan the API reference topics as you browse the source for the examples and run them.
 1. Create your own sample application using the **fcSDK** samples as a guide and referring frequently to the API Reference.
-1. Read how to [Access Data using ClarifyGeneric]() for more in-depth information on using FCFL.NET and ClarifyGeneric to manipulate data in your database.
+1. Read how to [Access Data using ClarifyGeneric](fcsdk-data-access.md) for more in-depth information on using FCFL.NET and ClarifyGeneric to manipulate data in your database.
 
 ## Uses of the fcSDK
 

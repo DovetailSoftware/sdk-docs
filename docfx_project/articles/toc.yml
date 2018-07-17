@@ -24,7 +24,7 @@
         - name: Data Verifier
           href: data-verifier.md
         - name: Configuration Protector
-          href: configuration-protector.md
+          href: basic-configuration.md#data-protection
         - name: Configuration Editor
           href: configuration-editor.md
     - name: Configuring the fcSDK

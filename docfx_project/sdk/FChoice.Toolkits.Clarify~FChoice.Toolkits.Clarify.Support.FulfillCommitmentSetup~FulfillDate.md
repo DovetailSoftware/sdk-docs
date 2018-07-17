@@ -1,0 +1,32 @@
+﻿     FulfillDate Property (FulfillCommitmentSetup)                                                   
+
+fcSDK Documentation
+
+FulfillDate Property (FulfillCommitmentSetup)
+
+DateTime the Commitment was fulfilled. If not set, the current time is used.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+Public Property FulfillDate As [Date](#)
+
+\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+public [DateTime](#) FulfillDate {get; set;}
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[FulfillCommitmentSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup.md)  
+[FulfillCommitmentSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup_members.md)

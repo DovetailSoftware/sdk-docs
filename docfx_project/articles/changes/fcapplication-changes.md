@@ -29,7 +29,7 @@ var FCApp = Server.CreateObject("FCFL.fcapplication");
 ```
 
 [Visual Basic]
-```
+```vbnet
 Dim FCApp
 Set FCApp = CreateObject("FCFL.fcapplication")
 ```
@@ -44,7 +44,7 @@ var FCApp = Server.CreateObject("FCFLCompat.fcapplication");
 ```
 
 [Visual Basic]
-```
+```vbnet
 Dim FCApp
 Set FCApp = CreateObject("FCFLCompat.fcapplication")
 ```

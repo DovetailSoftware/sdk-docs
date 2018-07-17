@@ -1,0 +1,44 @@
+﻿### Item Property (FCSession)
+
+Session data indexer
+
+Get or set session data indexed by specified key.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Default Property Item( _
+   ByVal _key_ As String _
+) As [Object](#)
+
+public [object](#) this\[ 
+   string _key_
+\]; {get; set;}
+
+#### Parameters
+
+_key_
+
+Session data indexer
+
+Remarks
+
+Details about the logged-in user are populated into this collection during [CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md).
+
+**Note:** Application developers can use this repository to store session specific data which will last across session lifetimes until [CloseSession](fcSDK~FChoice.Foundation.FCSession~CloseSession.md) is called. You can retrieve a session using [FCApplication.GetSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~GetSession.md).
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[FCSession Class](fcSDK~FChoice.Foundation.FCSession.md)  
+[FCSession Members](fcSDK~FChoice.Foundation.FCSession_members.md)

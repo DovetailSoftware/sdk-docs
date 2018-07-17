@@ -1,0 +1,52 @@
+﻿     OperationFilter Class                                                   
+
+fcSDK Documentation
+
+OperationFilter Class
+
+Abstract filter for operation type filters.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public MustInherit Class OperationFilter 
+   Inherits [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)
+
+public abstract class OperationFilter : [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md) 
+
+Example
+
+**Developer Walkthrough - Advanced Filtering**
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
+      [FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)  
+         **FChoice.Foundation.Filters.OperationFilter**  
+            [FChoice.Foundation.Filters.EqualsFilter](fcSDK~FChoice.Foundation.Filters.EqualsFilter.md)  
+            [FChoice.Foundation.Filters.LessThanFilter](fcSDK~FChoice.Foundation.Filters.LessThanFilter.md)  
+            [FChoice.Foundation.Filters.LessThanOrEqualFilter](fcSDK~FChoice.Foundation.Filters.LessThanOrEqualFilter.md)  
+            [FChoice.Foundation.Filters.LikeFilter](fcSDK~FChoice.Foundation.Filters.LikeFilter.md)  
+            [FChoice.Foundation.Filters.MoreThanFilter](fcSDK~FChoice.Foundation.Filters.MoreThanFilter.md)  
+            [FChoice.Foundation.Filters.MoreThanOrEqualFilter](fcSDK~FChoice.Foundation.Filters.MoreThanOrEqualFilter.md)  
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation.Filters](fcSDK~FChoice.Foundation.Filters_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
+
+See Also
+
+#### Reference
+
+[OperationFilter Members](fcSDK~FChoice.Foundation.Filters.OperationFilter_members.md)  
+[FChoice.Foundation.Filters Namespace](fcSDK~FChoice.Foundation.Filters_namespace.md)

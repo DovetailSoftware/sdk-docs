@@ -1,0 +1,45 @@
+﻿     GetAdapter(IDbConnection) Method                                                   
+
+GetAdapter(IDbConnection) Method
+
+The database connection this adapter should use when performing database operations
+
+Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL) initialized to use the specified connection to the database.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Overloads MustOverride Function GetAdapter( _
+   ByVal _conn_ As [IDbConnection](#) _
+) As [DbDataAdapter](#)
+
+public abstract [DbDataAdapter](#) GetAdapter( 
+   [IDbConnection](#) _conn_
+)
+
+#### Parameters
+
+_conn_
+
+The database connection this adapter should use when performing database operations
+
+#### Return Value
+
+A DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL), initialized to use the specified connection
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[DbProvider Class](FChoice.Common~FChoice.Common.Data.DbProvider.md)  
+[DbProvider Members](FChoice.Common~FChoice.Common.Data.DbProvider_members.md)  
+[Overload List](FChoice.Common~FChoice.Common.Data.DbProvider~GetAdapter.md)

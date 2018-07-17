@@ -1,0 +1,46 @@
+﻿     FCInvalidLoginException Class                                                   
+
+fcSDK Documentation
+
+FCInvalidLoginException Class
+
+Thrown when credentials for a Session cannot be authenticated
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+<SerializableAttribute()>
+Public Class FCInvalidLoginException 
+   Inherits [FoundationException](fcSDK~FChoice.Foundation.FoundationException.md)
+
+\[SerializableAttribute()\]
+public class FCInvalidLoginException : [FoundationException](fcSDK~FChoice.Foundation.FoundationException.md) 
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   [System.Exception](#)  
+      [System.ApplicationException](#)  
+         [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
+            [FChoice.Foundation.FoundationException](fcSDK~FChoice.Foundation.FoundationException.md)  
+               **FChoice.Foundation.FCInvalidLoginException**  
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation](fcSDK~FChoice.Foundation_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
+
+See Also
+
+#### Reference
+
+[FCInvalidLoginException Members](fcSDK~FChoice.Foundation.FCInvalidLoginException_members.md)  
+[FChoice.Foundation Namespace](fcSDK~FChoice.Foundation_namespace.md)

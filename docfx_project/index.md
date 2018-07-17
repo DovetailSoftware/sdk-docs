@@ -20,7 +20,7 @@ Another set of libraries worth noting are the new Microsoft™ .NET-based FCFL.N
     * [Developer Walkthrough - Toolkit Fundamentals](articles/walkthroughs/toolkit.md)
     * [Accessing Data with ClarifyGeneric](articles/fcsdk-data-access.md)
     * [Using the Caching Features of the **fcSDK**](articles/caching-features.md)
-    * [Application Logging](articles/application-logging.md)
+    * [Application Logging](articles/logging/application-logging.md)
     * [Data Restrictions](articles/data-restrictions.md)
     * [fcSDK Configuration](articles/basic-configuration.md)
     * [Time Zones](articles/time-zones.md)

@@ -3,6 +3,7 @@
 One of the basic and most important services the fcSDK offers (through FCFL.NET) is data access. You can use FCFL.NET to query, insert, update, and delete data in your Clarify™ database. fcSDK is designed to work within the rules of the Clarify™ system. This means that, if used properly, the fcSDK will read data written by other Clarify™ clients and also write data that is compatibile with them.
 
 Querying Data
+
 To query data with FCFL.NET, define a ClarifyGeneric for each table or view from which you wish to query, specify the relations that connect them (if at all) and then, if necessary, specify which fields to return, filters, and sorts to restrict the query.
 
 Once the ClarifyGenerics are set up, they can be queried individually, or together as part of a single transaction using a ClarifyDataSet object.
@@ -35,7 +36,7 @@ foreach( ClarifyDataRow siteRow in gSite )
 ```
 
 [Visual Basic] 
-``
+```vbnet
 'First, create the dataset which will contain the generics
 Dim dataSet As New ClarifyDataSet(session)
 
@@ -66,8 +67,10 @@ There are certain circumstances, however, where limiting the number of records r
 
 By default, all FCFL.NET queries are unconstrained. In order to constrain queries, set the MaximumRows property on a ClarifyGeneric instance. Setting this property will cause 2 things to happen:
 
-The number of rows returned will be the number specified or less
+The number of rows returned will be the number specified or less.
+
 If the number of rows that can be returned is greater than the specified MaximumRows value, the MaximumRowsExceeded event will be fired during a Query operation. This allows the default behavior (mentioned in [1] above) to be optionally overriden. Handling this event is not required unless special logic is desired.
+
 The following example shows how to use the MaximumRows property and how to use the MaximumRowsExceeded event to control how ClarifyGeneric behaves:
 
 [C#] 
@@ -104,8 +107,7 @@ private static void gCase_MaximumRowsExceeded(FCGeneric sender, MaximumRowsExcee
 ```
 
 [Visual Basic] 
-
-  ...
+...vbnet
 
   ' Get 2 cases
   Dim gCase As ClarifyGeneric = session.CreateGeneric("case")
@@ -140,11 +142,13 @@ End Sub
 This example demonstrates how to constrain queries using the MaximumRows property. To gain finer-grained control over the behavior exhibited when the MaximumRows limit is exceeded, add an event handler to the MaximumRowsExceeded event. In this event handler, the total rows that would be returned if this were an unconstrained query can be retrieved using the TotalPossibleRows property on the MaximumRowsExceededEventArgs object instance. Likewise, the event handler can tell ClarifyGeneric to cancel the query altogether (using the CancelQuery property), or to redefine the row limit on the query (using the RowsToReturn property). Redefining the query is useful, for example, if the row limit is 100 rows and 101 rows are returned. Since there is only one extra row, it would be helpful to just return all 101 rows instead of hard-limiting the results to 100 rows.
 
 Writing Data
+
 FCFL.NET's ClarifyGeneric object can also write data. There are three basic operations which write data to the database:
 
 Update Data
 Insert Data
 Delete Data
+
 There are two main ways of performing these operations using ClarifyGeneric:
 
 Modifying previously-queried data
@@ -159,7 +163,7 @@ Relate/Unrelate this record to/from a record in another ClarifyGeneric
 The first pattern used to modify a ClarifyGeneric is similar to the way the DataSet, DataTable, and DataRow pattern works in ADO.NET. ClarifyGeneric (similar to a DataTable) contains a collection of ClarifyDataRow objects (similar to DataRow). Each row has an indexer for the field, or column, in that row. To modify a particular field's value in a row, use the indexer (or Item property) and pass in the field's 0-based index or the name of the field. For example:
 
 [C#] 
-
+```csharp
 // Get the desired row (the first one, in this example)
 ClarifyDataRow row = gCase[0];
 
@@ -173,19 +177,23 @@ Dim row As ClarifyDataRow = gCase(0)
 
 ' Set the alt_address field
 row("alt_address") = "Hello!"	
+```
 
 The second pattern used to modify data in a ClarifyGeneric is to relate or unrelate records. There are several convenience methods on ClarifyGeneric and ClarifyDataRow which help with setting up or removing different types of relations. The most common of these methods is the RelateRecord method on the ClarifyDataRow object. This method allows two records to be related using a specified relation name. For example, to relate a specific case to a site:
 
 
 [C#] 
-
+```csharp
 // Relate a specific case row to a site row
 caseRow.RelateRecord(siteRow, "case_reporter2site"); 
+```
 
 [Visual Basic] 
-
+```vbnet
 ' Relate a specific case row to a site row
-caseRow.RelateRecord(siteRow, "case_reporter2site")	
+
+caseRow.RelateRecord(siteRow, "case_reporter2site")
+```
 
 Relations can be called from either side, FCFL.NET will relate the records correctly regardless of which side of the relation is being related. For example, a case row can be related to a site row, or a site row can be related to a case row and FCFL.NET will write the correct records to the database to ensure that the two records are related properly, according to the rules of the Clarify™ system.
 
@@ -199,6 +207,7 @@ IMPORTANT: Updates, Deletes, and Inserts are not valid on view-based ClarifyGene
 
 
 Inserting Data
+
 To add a new row to the database, use the AddNew method. This method returns a new ClarifyDataRow instance initialized with all the fields for the table to which it belongs. The data on the fields can be set using this object in the same manner in which existing rows are updated (see Updating Data).
 
 NOTE: It is not necessary to set the "objid" field on a new record. FCFL.NET will take care of objid generation automatically. Also, if two new rows are related, FCFL.NET will assign the objids and resolve the relationships between the two new records properly.
@@ -208,7 +217,7 @@ WARNING: FCFL.NET ensures that the basic minimum data requirements are met when 
 The following example adds a new contact_role:
 
 [C#] 
-
+```csharp
 //First, create the dataset which will contain the generics
 ClarifyDataSet dataSet = new ClarifyDataSet(session);
 
@@ -235,10 +244,12 @@ row["role_name"] = "Default";
 row.RelateRecord( gContact[0], "contact_role2contact" );
 row.RelateRecord( gSite[0], "contact_role2site" );
 row.Update(); 
+```
 
 [Visual Basic] 
-
+```vbnet
 'First, create the dataset which will contain the generics
+
 Dim dataSet As New ClarifyDataSet(session)
 
 ' Get one specific contact
@@ -264,21 +275,24 @@ row("role_name") = "Default"
 row.RelateRecord( gContact(0), "contact_role2contact" )
 row.RelateRecord( gSite(0), "contact_role2site" )
 row.Update() 
+```
 
- WARNING: The above example is not complete and is for illustration purposes only. It may leave your contact_role table in an invalid state and may cause other application using this database (such as the Clarify™ thick client) to fail.
+WARNING: The above example is not complete and is for illustration purposes only. It may leave your contact_role table in an invalid state and may cause other application using this database (such as the Clarify™ thick client) to fail.
 
 IMPORTANT: Updates, Deletes, and Inserts are not valid on view-based ClarifyGenerics or ClarifyGenerics queried using the IsDistinct flag.
 
-
 Updating A Row Without Querying First
+
 For instances where the objid of a particular record is known and only a small bit of data needs to be updated (a few fields), it would be inefficient to query the row for the sole purpose of updating one or a few fields. This would involve two database round trips. It would be more efficient to create a new row in memory which reprepsents the real row in the database, change only the fields necessary, and then update the database using only a single database round trip. The AddForUpdate method on a ClarifyGeneric instance provides a convenient way to do this. This method will return a special row with no data in it. No query is executed to produce the row, it is created according to cached ADP/Schema data. The row's field values can then be changed as necessary. Only fields whose values have changed will be updated in the database when committing the operation.
 
 
 Deleting Data
+
 There are two main ways to delete a record in the database using FCFL.NET:
 
-Call the Delete method on an existing ClarifyDataRow
-Call the DeleteById method on ClarifyGeneric if the objid for the row is already known
+* Call the Delete method on an existing ClarifyDataRow
+* Call the DeleteById method on ClarifyGeneric if the objid for the row is already known.
+
 The changes caused by Delete or DeleteById will not happen until the operation is committed. For more information about committing operations, see the section on Committing Changes.
 
 NOTE: After calling the Delete method on a row, the row will be invalid. No further methods or properties should be called on that row. Setting the row reference variable to null (Nothing in Visual Basic) is the safest way to ensure that the row will not get accessed again.
@@ -301,8 +315,8 @@ Multiple Rows, Single Table: Call Update on the specific ClarifyGeneric.
 Multiple Rows, Multiple Tables in the same ClarifyDataSet: Call Update on the specific ClarifyDataSet.
 Once one of these methods is called, the changes are immediately made to the database. Calling Update on a ClarifyGeneric or Update on a ClarifyDataSet processes all the rows as part of a single database transaction.
 
-
 Handling NULL Values
+
 In the Clarify™ system, most fields are non-NULLable. There are a few exceptions, but non-null is generally the case. In the rare instances when NULL values must be dealt with, this section will cover how to use NULL values with ClarifyGeneric.
 
 It is important to understand that NULL is not the same thing as an empty string (''). The empty string is a non-null value which simply has no string data in it. If you attempt to use one for the other, it will fail. In Microsoft™ SQL Server™ and Sybase™, for example, (with a non-nullable field), an empty or populated string are the only two valid values. The database will not allow a NULL value.

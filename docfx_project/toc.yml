@@ -3,3 +3,6 @@
 - name: Api Reference
   href: api/
   homepage: api/index.md
+- name: COM Api Reference
+  href: sdk/
+  homepage: sdk/index.md

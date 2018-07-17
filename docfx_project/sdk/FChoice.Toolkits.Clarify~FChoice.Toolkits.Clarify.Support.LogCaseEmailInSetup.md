@@ -1,0 +1,41 @@
+﻿     LogCaseEmailInSetup Class                                                   
+
+fcSDK Documentation
+
+LogCaseEmailInSetup Class
+
+Used by the [LogCaseEmailIn](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseEmailIn(LogCaseEmailInSetup).md) method as setup data for invocation.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Class LogCaseEmailInSetup 
+   Inherits [LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)
+
+public class LogCaseEmailInSetup : [LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md) 
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)  
+      **FChoice.Toolkits.Clarify.Support.LogCaseEmailInSetup**  
+
+#### Requirements
+
+**Namespace:** [FChoice.Toolkits.Clarify.Support](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
+
+See Also
+
+#### Reference
+
+[LogCaseEmailInSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailInSetup_members.md)  
+[FChoice.Toolkits.Clarify.Support Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support_namespace.md)

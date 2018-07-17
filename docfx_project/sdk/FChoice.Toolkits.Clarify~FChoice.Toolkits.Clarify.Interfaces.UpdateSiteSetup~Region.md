@@ -1,0 +1,32 @@
+﻿     Region Property (UpdateSiteSetup)                                                   
+
+fcSDK Documentation
+
+Region Property (UpdateSiteSetup)
+
+Region for the Site
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+Public Property Region As String
+
+\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+public string Region {get; set;}
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[UpdateSiteSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteSetup.md)  
+[UpdateSiteSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteSetup_members.md)

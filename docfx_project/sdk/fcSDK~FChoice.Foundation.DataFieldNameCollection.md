@@ -1,0 +1,39 @@
+﻿     DataFieldNameCollection Class                                                   
+
+fcSDK Documentation
+
+DataFieldNameCollection Class
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Class DataFieldNameCollection 
+   Inherits [ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)
+
+public class DataFieldNameCollection : [ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md) 
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   [FChoice.Foundation.ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)  
+      **FChoice.Foundation.DataFieldNameCollection**  
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation](fcSDK~FChoice.Foundation_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
+
+See Also
+
+#### Reference
+
+[DataFieldNameCollection Members](fcSDK~FChoice.Foundation.DataFieldNameCollection_members.md)  
+[FChoice.Foundation Namespace](fcSDK~FChoice.Foundation_namespace.md)

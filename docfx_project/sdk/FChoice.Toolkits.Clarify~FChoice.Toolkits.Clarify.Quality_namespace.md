@@ -1,0 +1,47 @@
+﻿     FChoice.Toolkits.Clarify.Quality Namespace                                                   
+
+fcSDK Documentation
+
+FChoice.Toolkits.Clarify.Quality Namespace
+
+ 
+
+Provides APIs to allow you to modify the basic ClearQuality object: the Change Request.
+
+These APIs can be used in custom web pages, the Clarify thick-client GUI, or in interfaces.
+
+Functions are provided to allow you to create, modify, close, dispatch, accept, reject, assign, yank, move, change status, log notes, reopen, fix, and more.
+
+Classes
+
+|   | Class | Description |
+| --- | --- | --- |
+| ![Class](dotnetimages/Class.png) | [AcceptCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AcceptCRSetup.md) | Used by the [AcceptCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~AcceptCR(AcceptCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [AddModuleToCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup.md) | Used by the [AddModuleToCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~AddModuleToCR(AddModuleToCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [AssignCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AssignCRSetup.md) | Used by the [AssignCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~AssignCR(AssignCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [ChangeCRStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup.md) | Used by the [ChangeCRStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ChangeCRStatus(ChangeCRStatusSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [CheckClearQualityTransitionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CheckClearQualityTransitionSetup.md) | Used by the [CheckClearQualityTransition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~CheckClearQualityTransition(CheckClearQualityTransitionSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [CloseCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup.md) | Used by the [CloseCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~CloseCR(CloseCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [CreateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup.md) | Used by the [CreateCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~CreateCR(CreateCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [DispatchCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DispatchCRSetup.md) | Used by the [DispatchCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~DispatchCR(DispatchCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [DuplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup.md) | Used by the [DuplicateCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~DuplicateCR(DuplicateCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [FixCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup.md) | Used by the [FixCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~FixCR(FixCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [FixFailedSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup.md) | Used by the [FixFailed](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~FixFailed(FixFailedSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [ForwardCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ForwardCRSetup.md) | Used by the [ForwardCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ForwardCR(ForwardCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [LogCREmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup.md) | Used by the [LogCREmail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~LogCREmail(LogCREmailSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [LogCRNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCRNoteSetup.md) | Used by the [LogCRNote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~LogCRNote(LogCRNoteSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [MoveCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.MoveCRSetup.md) | Used by the [MoveCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~MoveCR(MoveCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [QualityToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit.md) | Provides APIs to allow you to modify the basic ClearQuality object: the Change Request. Methods on the [QualityToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit.md) object allow you to [create](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~CreateCR.md), [modify](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~UpdateCR.md), [close](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~CloseCR.md), [dispatch](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~DispatchCR.md), [accept](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~AcceptCR.md), [reject](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~RejectCR.md), [assign](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~AssignCR.md), [yank](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~YankCR.md), [move](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~MoveCR.md), [change status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ChangeCRStatus.md), [log notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~LogCRNote.md), [reopen](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ReopenCR.md), [fix](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~FixCR.md), and more. |
+| ![Class](dotnetimages/Class.png) | [QualityToolkit.LogCREmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit+LogCREmailInSetup.md) |   |
+| ![Class](dotnetimages/Class.png) | [QualityToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkitBase.md) | Please see [QualityToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit.md). This class is used internally and not meant to be created by end users. |
+| ![Class](dotnetimages/Class.png) | [RejectCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.RejectCRSetup.md) | Used by the [RejectCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~RejectCR(RejectCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [ReopenCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup.md) | Used by the [ReopenCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ReopenCR(ReopenCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [ReplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReplicateCRSetup.md) | Used by the [ReplicateCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ReplicateCR(ReplicateCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [UpdateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.UpdateCRSetup.md) | Used by the [UpdateCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~UpdateCR(UpdateCRSetup).md) method as setup data for invocation. |
+| ![Class](dotnetimages/Class.png) | [YankCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.YankCRSetup.md) | Used by the [YankCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~YankCR(YankCRSetup).md) method as setup data for invocation. |
+
+See Also
+
+#### Reference
+
+[FChoice.Toolkits.Clarify Assembly](FChoice.Toolkits.Clarify.md)

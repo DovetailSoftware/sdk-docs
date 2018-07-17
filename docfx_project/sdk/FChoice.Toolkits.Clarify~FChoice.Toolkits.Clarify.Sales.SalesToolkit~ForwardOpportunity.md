@@ -1,0 +1,33 @@
+﻿     ForwardOpportunity Method                                                   
+
+fcSDK Documentation
+
+ForwardOpportunity Method
+
+Reject-forward the Opportunity from one queue to another. This overload takes a set of required parameters for the API.
+
+Reject-forward the Opportunity from one queue to another.
+
+Overload List
+
+| Overload | Description |
+| --- | --- |
+| [ForwardOpportunity(String,String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ForwardOpportunity(String,String).md) | Reject-forward the Opportunity from one queue to another. This overload takes a set of required parameters for the API.   |
+| [ForwardOpportunity(ForwardOpportunitySetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ForwardOpportunity(ForwardOpportunitySetup).md) | Reject-forward the Opportunity from one queue to another. This overload takes a setup object.   |
+| [ForwardOpportunity(ForwardOpportunitySetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ForwardOpportunity(ForwardOpportunitySetup,IDbTransaction).md) | Reject-forward the Opportunity from one queue to another. This overload takes a setup object and a database transaction.   |
+
+Remarks
+
+The Opportunity must be in open condition, and not currently dispatched to a queue.
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[SalesToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit.md)  
+[SalesToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit_members.md)  
+[ForwardOpportunitySetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardOpportunitySetup.md)

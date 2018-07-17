@@ -1,0 +1,49 @@
+﻿     ClarifyConfigItem Class Members                                                   
+
+fcSDK Documentation
+
+ClarifyConfigItem Class Members
+
+The following tables list the members exposed by [ClarifyConfigItem](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem.md).
+
+Public Properties
+
+|   | Name | Description |
+| --- | --- | --- |
+| ![Public Property](dotnetimages/publicProperty.png) | [ColumnMap](fcSDK~FChoice.Foundation.DataObjects.DataObject~ColumnMap.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [DateValue](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~DateValue.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [DecimalValue](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~DecimalValue.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [Description](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~Description.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [DoubleValue](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~DoubleValue.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [FieldValues](fcSDK~FChoice.Foundation.DataObjects.DataObject~FieldValues.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [IntegerValue](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~IntegerValue.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [LastModTime](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem~LastModTime.md) |   |
+| ![Public Property](dotnetimages/publicProperty.png) | [LongValue](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~LongValue.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [Name](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~Name.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [Scope](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~Scope.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [StringValue](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~StringValue.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [ValueType](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~ValueType.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [ValueTypeRaw](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~ValueTypeRaw.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
+
+[Top](#top)
+
+Public Methods
+
+|   | Name | Description |
+| --- | --- | --- |
+| ![Public Method](dotnetimages/publicMethod.png) | [ContainsColumn](fcSDK~FChoice.Foundation.DataObjects.DataObject~ContainsColumn.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
+| ![Public Method](dotnetimages/publicMethod.png) | [GetFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetFieldValue.md) | Overloaded.  (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
+| ![Public Method](dotnetimages/publicMethod.png) | [GetSafeBooleanFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeBooleanFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
+| ![Public Method](dotnetimages/publicMethod.png) | [GetSafeDoubleFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeDoubleFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
+| ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
+| ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
+
+[Top](#top)
+
+See Also
+
+#### Reference
+
+[ClarifyConfigItem Class](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem.md)  
+[FChoice.Foundation.Clarify.DataObjects Namespace](fcSDK~FChoice.Foundation.Clarify.DataObjects_namespace.md)

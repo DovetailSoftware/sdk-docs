@@ -1,0 +1,93 @@
+﻿     CreateQuoteLineItemSetup Constructor(String,String,String,String,Int32,String,Int32)                                                   
+
+fcSDK Documentation
+
+CreateQuoteLineItemSetup Constructor(String,String,String,String,Int32,String,Int32)
+
+Quote/Contract Identifier.
+
+The part number for this line item.
+
+The domain of the part for this line item.
+
+The revision of the part for this line item.
+
+The number of units for this line item.
+
+The name of the Price Schedule for this line item.
+
+The objid of the parent line item.
+
+Initializes a new instance of the CreateQuoteLineItemSetup class. This overload takes a set of required parameters for the API.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+Public Function New( _
+   ByVal _contractIDNum_ As String, _
+   ByVal _partNumber_ As String, _
+   ByVal _partDomain_ As String, _
+   ByVal _partRevision_ As String, _
+   ByVal _quantity_ As [Integer](#), _
+   ByVal _priceSchedule_ As String, _
+   ByVal _parentLineItemObjid_ As [Integer](#) _
+)
+
+\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+public CreateQuoteLineItemSetup( 
+   string _contractIDNum_,
+   string _partNumber_,
+   string _partDomain_,
+   string _partRevision_,
+   [int](#) _quantity_,
+   string _priceSchedule_,
+   [int](#) _parentLineItemObjid_
+)
+
+#### Parameters
+
+_contractIDNum_
+
+Quote/Contract Identifier.
+
+_partNumber_
+
+The part number for this line item.
+
+_partDomain_
+
+The domain of the part for this line item.
+
+_partRevision_
+
+The revision of the part for this line item.
+
+_quantity_
+
+The number of units for this line item.
+
+_priceSchedule_
+
+The name of the Price Schedule for this line item.
+
+_parentLineItemObjid_
+
+The objid of the parent line item.
+
+#### Requirements
+
+**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
+
+See Also
+
+#### Reference
+
+[CreateQuoteLineItemSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup.md)  
+[CreateQuoteLineItemSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup_members.md)  
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup~_ctor.md)

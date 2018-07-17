@@ -1,0 +1,40 @@
+﻿     UpdateProductBinSetup Class                                                   
+
+fcSDK Documentation
+
+UpdateProductBinSetup Class
+
+Used by the [UpdateProductBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateProductBin(UpdateProductBinSetup).md) method as setup data for invocation.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Class UpdateProductBinSetup 
+
+public class UpdateProductBinSetup 
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   **FChoice.Toolkits.Clarify.Interfaces.UpdateProductBinSetup**  
+
+#### Requirements
+
+**Namespace:** [FChoice.Toolkits.Clarify.Interfaces](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
+
+See Also
+
+#### Reference
+
+[UpdateProductBinSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateProductBinSetup_members.md)  
+[FChoice.Toolkits.Clarify.Interfaces Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces_namespace.md)  
+[UpdateProductBin(UpdateProductBinSetup) Method](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateProductBin(UpdateProductBinSetup).md)

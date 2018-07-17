@@ -1,0 +1,41 @@
+﻿     GetCaseTimeAndExpensesResult Class                                                   
+
+fcSDK Documentation
+
+GetCaseTimeAndExpensesResult Class
+
+Result from the [GetCaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~GetCaseTimeAndExpenses.md) API.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Class GetCaseTimeAndExpensesResult 
+   Inherits [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+
+public class GetCaseTimeAndExpensesResult : [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) 
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  
+      **FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult**  
+
+#### Requirements
+
+**Namespace:** [FChoice.Toolkits.Clarify.Support](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
+
+See Also
+
+#### Reference
+
+[GetCaseTimeAndExpensesResult Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult_members.md)  
+[FChoice.Toolkits.Clarify.Support Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support_namespace.md)

@@ -1,0 +1,48 @@
+﻿     FCList Class                                                   
+
+fcSDK Documentation
+
+FCList Class
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+<[GuidAttribute](#)("007EE1DD-6614-4833-BB7F-2AB543B42CE9")>
+<[ClassInterfaceAttribute](#)(ClassInterfaceType.None)>
+<[ComVisibleAttribute](#)(True)>
+<[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)>
+<[ProgIdAttribute](#)("FCFLCompat.FCList")>
+Public NotInheritable Class FCList 
+   Implements [IFCList](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList.md) 
+
+\[[GuidAttribute](#)("007EE1DD-6614-4833-BB7F-2AB543B42CE9")\]
+\[[ClassInterfaceAttribute](#)(ClassInterfaceType.None)\]
+\[[ComVisibleAttribute](#)(true)\]
+\[[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)\]
+\[[ProgIdAttribute](#)("FCFLCompat.FCList")\]
+public sealed class FCList : [IFCList](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList.md)  
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   **FChoice.Foundation.Clarify.Compatibility.FCList**  
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation.Clarify.Compatibility](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
+
+See Also
+
+#### Reference
+
+[FCList Members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList_members.md)  
+[FChoice.Foundation.Clarify.Compatibility Namespace](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility_namespace.md)

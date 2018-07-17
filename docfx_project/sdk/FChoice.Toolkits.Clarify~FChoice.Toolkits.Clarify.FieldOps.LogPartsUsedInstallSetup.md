@@ -1,0 +1,40 @@
+﻿     LogPartsUsedInstallSetup Class                                                   
+
+fcSDK Documentation
+
+LogPartsUsedInstallSetup Class
+
+Used by the [LogPartsUsedInstall](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedInstall(LogPartsUsedInstallSetup).md) method as setup data for invocation.
+
+Syntax
+
+```vbnet
+```csharp
+
+'Declaration
+ 
+
+Public Class LogPartsUsedInstallSetup 
+
+public class LogPartsUsedInstallSetup 
+
+Inheritance Hierarchy
+
+[System.Object](#)  
+   **FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedInstallSetup**  
+
+#### Requirements
+
+**Namespace:** [FChoice.Toolkits.Clarify.FieldOps](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
+
+See Also
+
+#### Reference
+
+[LogPartsUsedInstallSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedInstallSetup_members.md)  
+[FChoice.Toolkits.Clarify.FieldOps Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps_namespace.md)  
+[LogPartsUsedInstall(LogPartsUsedInstallSetup) Method](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedInstall(LogPartsUsedInstallSetup).md)

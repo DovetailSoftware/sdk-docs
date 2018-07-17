@@ -1,0 +1,35 @@
+﻿     YankActionItemSetup Class Members                                                   
+
+fcSDK Documentation
+
+YankActionItemSetup Class Members
+
+The following tables list the members exposed by [YankActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup.md).
+
+Public Constructors
+
+|   | Name | Description |
+| --- | --- | --- |
+| ![Public Constructor](dotnetimages/publicConstructor.png) | [YankActionItemSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup~_ctor.md) | Initializes a new instance of the YankActionItemSetup class.   |
+
+[Top](#top)
+
+Public Properties
+
+|   | Name | Description |
+| --- | --- | --- |
+| ![Public Property](dotnetimages/publicProperty.png) | [ActionItemIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup~ActionItemIDNum.md) | ActionItem Identifier.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [GenerateTimeBombs](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup~GenerateTimeBombs.md) | Specifies if timebombs should be created.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup~UserName.md) | The user who has yanked the ActionItem. If not set, the Toolkit session user is used.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup~WipBin.md) | User's WipBin in which to place the ActionItem. If not set, the UserName's default is used.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [YankDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup~YankDate.md) | DateTime the ActionItem was yanked. If not set, the current time is used.   |
+
+[Top](#top)
+
+See Also
+
+#### Reference
+
+[YankActionItemSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup.md)  
+[FChoice.Toolkits.Clarify.Sales Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales_namespace.md)  
+[YankActionItem(YankActionItemSetup) Method](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~YankActionItem(YankActionItemSetup).md)
