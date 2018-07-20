@@ -1,26 +1,18 @@
-﻿     AcceptCaseSetup Class                                                   
-
-fcSDK Documentation
-
-AcceptCaseSetup Class
+﻿### AcceptCaseSetup Class
 
 Used by the [AcceptCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AcceptCase(AcceptCaseSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AcceptCaseSetup 
 
 public class AcceptCaseSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.AcceptCaseSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

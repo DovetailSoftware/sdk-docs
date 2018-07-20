@@ -1,26 +1,18 @@
-﻿     ForwardPartRequestSetup Class                                                   
-
-fcSDK Documentation
-
-ForwardPartRequestSetup Class
+﻿### ForwardPartRequestSetup Class
 
 Used by the [ForwardPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ForwardPartRequest(ForwardPartRequestSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ForwardPartRequestSetup 
 
 public class ForwardPartRequestSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.ForwardPartRequestSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

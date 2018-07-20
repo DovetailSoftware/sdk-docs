@@ -1,19 +1,11 @@
-﻿     PartRevision Property (CreateCaseSetup)                                                   
-
-fcSDK Documentation
-
-PartRevision Property (CreateCaseSetup)
+﻿### PartRevision Property (CreateCaseSetup)
 
 Revision of the Case part or SitePart.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property PartRevision As String
 
@@ -24,11 +16,9 @@ Remarks
 
 If the revision is NULL (Oracle only), still use the empty string ("") to query.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

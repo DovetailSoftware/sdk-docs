@@ -1,26 +1,18 @@
-﻿     CreateCaseSetup Class                                                   
-
-fcSDK Documentation
-
-CreateCaseSetup Class
+﻿### CreateCaseSetup Class
 
 Used by the [CreateCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CreateCase(CreateCaseSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreateCaseSetup 
 
 public class CreateCaseSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.CreateCaseSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CommunicationAddress Class Members                                                   
-
-fcSDK Documentation
-
-CommunicationAddress Class Members
+﻿### CommunicationAddress Class Members
 
 The following tables list the members exposed by [CommunicationAddress](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAddress.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CommunicationAddress Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAddress~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CommunicationRoleType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAddress~CommunicationRoleType.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [EmailAddress](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAddress~EmailAddress.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

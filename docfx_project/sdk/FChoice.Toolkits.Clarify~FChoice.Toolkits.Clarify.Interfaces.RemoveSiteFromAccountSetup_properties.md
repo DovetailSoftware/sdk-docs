@@ -1,8 +1,4 @@
-﻿     RemoveSiteFromAccountSetup Class Properties                                                   
-
-fcSDK Documentation
-
-RemoveSiteFromAccountSetup Class Properties
+﻿### RemoveSiteFromAccountSetup Class Properties
 
 For a list of all members of this type, see [RemoveSiteFromAccountSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromAccountSetup_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RoleName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromAccountSetup~RoleName.md) | Name of the Site's role being removed from the Account   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromAccountSetup~SiteIDNum.md) | Identifier of the Site being removed from the Account   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

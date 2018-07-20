@@ -1,8 +1,4 @@
-﻿     ReopenCase(String) Method                                                   
-
-fcSDK Documentation
-
-ReopenCase(String) Method
+﻿### ReopenCase(String) Method
 
 Identifier of the Case being reopened.
 
@@ -11,10 +7,7 @@ Reopens the specified Case. This overload takes a set of required parameters for
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReopenCase( _
    ByVal _caseIDNum_ As String _
@@ -40,11 +33,9 @@ The [User](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseS
 
 If the [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup~WipBin.md) is not specified the Case is placed in the user's default WipBin.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

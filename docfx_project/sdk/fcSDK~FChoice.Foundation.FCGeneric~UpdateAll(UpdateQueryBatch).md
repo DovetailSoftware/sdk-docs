@@ -1,8 +1,4 @@
-﻿     UpdateAll(UpdateQueryBatch) Method                                                   
-
-fcSDK Documentation
-
-UpdateAll(UpdateQueryBatch) Method
+﻿### UpdateAll(UpdateQueryBatch) Method
 
 Batch under which to do this update.
 
@@ -11,10 +7,7 @@ Updates all modified rows of the **FCGeneric** as part of a batch operation.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub UpdateAll( _
    ByVal _batch_ As [UpdateQueryBatch](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch.md) _
@@ -36,11 +29,9 @@ This method commits all modified rows to the database and is equivalent to calli
 
 When it is desirable to consolidate many database operations in one round trip to the database this method can be used in conjunction with a [UpdateQueryBatch](FChoice.Common~FChoice.Common.UpdateQueryBatch.md) object.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

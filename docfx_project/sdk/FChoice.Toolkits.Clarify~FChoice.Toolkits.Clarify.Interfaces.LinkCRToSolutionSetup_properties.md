@@ -1,8 +1,4 @@
-﻿     LinkCRToSolutionSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LinkCRToSolutionSetup Class Properties
+﻿### LinkCRToSolutionSetup Class Properties
 
 For a list of all members of this type, see [LinkCRToSolutionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCRToSolutionSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SolutionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCRToSolutionSetup~SolutionIDNum.md) | Identifier of the Solution to link to the CR   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCRToSolutionSetup~UserName.md) | User that linked the CR to the Solution. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

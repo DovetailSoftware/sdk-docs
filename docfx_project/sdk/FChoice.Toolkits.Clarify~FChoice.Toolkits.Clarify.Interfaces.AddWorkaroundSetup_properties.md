@@ -1,8 +1,4 @@
-﻿     AddWorkaroundSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AddWorkaroundSetup Class Properties
+﻿### AddWorkaroundSetup Class Properties
 
 For a list of all members of this type, see [AddWorkaroundSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup_members.md).
 
@@ -18,9 +14,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SolutionObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup~SolutionObjid.md) | Objid of the Solution to receive the Workaround.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Workaround](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup~Workaround.md) | Text of the Workaround.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

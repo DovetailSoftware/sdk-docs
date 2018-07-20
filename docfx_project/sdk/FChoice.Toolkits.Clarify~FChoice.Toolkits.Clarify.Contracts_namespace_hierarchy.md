@@ -6,7 +6,7 @@ FChoice.Toolkits.Clarify.Contracts Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.Contracts.AcceptQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AcceptQuoteSetup.md)  
    [FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup.md)  
    [FChoice.Toolkits.Clarify.Contracts.AssignQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AssignQuoteSetup.md)  
@@ -31,7 +31,7 @@ Inheritance Hierarchy
       [FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase.md)  
          [FChoice.Toolkits.Clarify.Contracts.ContractsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
 
-See Also
+
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     LogManager Class Members                                                   
-
-LogManager Class Members
+﻿### LogManager Class Members
 
 The following tables list the members exposed by [LogManager](FChoice.Common~FChoice.Common.LogManager.md).
 
@@ -10,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogManager Constructor](FChoice.Common~FChoice.Common.LogManager~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -18,7 +16,7 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SyncRoot](FChoice.Common~FChoice.Common.LogManager~SyncRoot.md) | Gets an object that can be used to synchronize access to LogManager.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -28,7 +26,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsInitialized](FChoice.Common~FChoice.Common.LogManager~IsInitialized.md) | Gets whether or not LogManager has been properly initialized.   |
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [LogConfigFilePath](FChoice.Common~FChoice.Common.LogManager~LogConfigFilePath.md) | Gets or sets the full path to the file LogManager should attempt to use to configure itself.   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -46,9 +44,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SetRootLoggerLevel](FChoice.Common~FChoice.Common.LogManager~SetRootLoggerLevel.md) | Changes the root's logging level (affecting all loggers)   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SetThreadContextValue](FChoice.Common~FChoice.Common.LogManager~SetThreadContextValue.md) | Sets a context variable for this thread.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

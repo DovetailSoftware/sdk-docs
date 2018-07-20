@@ -1,8 +1,4 @@
-﻿     GetSession Method (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-GetSession Method (ClarifyApplication)
+﻿### GetSession Method (ClarifyApplication)
 
 The globally unique identifier for the desired session.
 
@@ -11,17 +7,13 @@ Retrieves an [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.m
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Overridable Function GetSession( _
-   ByVal _sessionID_ As [Guid](#) _
+   ByVal _sessionID_ As Guid _
 ) As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
 
 public virtual [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) GetSession( 
-   [Guid](#) _sessionID_
+   Guid _sessionID_
 )
 
 #### Parameters
@@ -44,11 +36,9 @@ Remarks
 
 The ID of a session is accessible via the [SessionID](fcSDK~FChoice.Foundation.FCSession~SessionID.md) property.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

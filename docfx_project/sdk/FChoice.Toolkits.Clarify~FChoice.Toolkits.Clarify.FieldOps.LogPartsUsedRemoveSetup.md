@@ -1,26 +1,18 @@
-﻿     LogPartsUsedRemoveSetup Class                                                   
-
-fcSDK Documentation
-
-LogPartsUsedRemoveSetup Class
+﻿### LogPartsUsedRemoveSetup Class
 
 Used by the [LogPartsUsedRemove](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedRemove(LogPartsUsedRemoveSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogPartsUsedRemoveSetup 
 
 public class LogPartsUsedRemoveSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedRemoveSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

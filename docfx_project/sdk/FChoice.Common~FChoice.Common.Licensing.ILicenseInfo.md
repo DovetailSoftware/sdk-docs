@@ -1,15 +1,9 @@
-﻿     ILicenseInfo Interface                                                   
-
-ILicenseInfo Interface
+﻿### ILicenseInfo Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Interface ILicenseInfo 
 
 public interface ILicenseInfo 
@@ -22,7 +16,7 @@ public interface ILicenseInfo
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

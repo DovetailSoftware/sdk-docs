@@ -1,8 +1,4 @@
-﻿     YankCaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-YankCaseSetup Class Members
+﻿### YankCaseSetup Class Members
 
 The following tables list the members exposed by [YankCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [YankCaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup~_ctor.md) | Initializes a new instance of the YankCaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup~WipBin.md) | User's WipBin in which to place the Case. If not set, the UserName's default is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [YankDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup~YankDate.md) | DateTime the Case was yanked. If not set, the current time is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

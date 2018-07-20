@@ -1,6 +1,4 @@
-﻿     AddLogFileAppender Method                                                   
-
-AddLogFileAppender Method
+﻿### AddLogFileAppender Method
 
 A unique name to use for this appender for reference later.
 
@@ -11,11 +9,7 @@ Creates a new rolling log file appender and adds it to the configuration for use
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Shared Sub AddLogFileAppender( _
    ByVal _appenderName_ As String, _
    ByVal _fileName_ As String _
@@ -42,11 +36,9 @@ This will create an initialize the appender. Nothing will be written to the file
 
 **NOTE:** After you are finished configuring LogManager, you must call [Reconfigure](FChoice.Common~FChoice.Common.LogManager~Reconfigure.md) in order for the changes to fully take effect.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

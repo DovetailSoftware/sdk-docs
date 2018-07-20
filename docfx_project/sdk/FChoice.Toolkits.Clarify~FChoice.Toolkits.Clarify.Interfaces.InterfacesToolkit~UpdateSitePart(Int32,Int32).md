@@ -1,8 +1,4 @@
-﻿     UpdateSitePart(Int32,Int32) Method                                                   
-
-fcSDK Documentation
-
-UpdateSitePart(Int32,Int32) Method
+﻿### UpdateSitePart(Int32,Int32) Method
 
 Objid of the Site Part to be updated
 
@@ -13,20 +9,20 @@ Update a Site Part This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function UpdateSitePart( _
-   ByVal _sitePartObjid_ As [Integer](#), _
-   ByVal _quantity_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _sitePartObjid_ As Integer, _
+   ByVal _quantity_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateSitePart( 
-   [int](#) _sitePartObjid_,
-   [int](#) _quantity_
+```csharp
+public ToolkitResult UpdateSitePart( 
+   int _sitePartObjid_,
+   int _quantity_
 )
+```
 
 #### Parameters
 
@@ -40,15 +36,11 @@ The number of units installed
 
 #### Return Value
 
-The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+The following values are populated in the ToolkitResult object returned by the API method:
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the SitePart.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

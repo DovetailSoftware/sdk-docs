@@ -1,6 +1,4 @@
-﻿     GetPerfDurationSecs Method                                                   
-
-GetPerfDurationSecs Method
+﻿### GetPerfDurationSecs Method
 
 The number of ticks representing a point in time from which this duration started. See the [GetPerfTimer Method](FChoice.Common~FChoice.Common.PerfManager~GetPerfTimer.md) for more information on how to obtain a valid tick count value
 
@@ -9,10 +7,7 @@ Returns the number of seconds that have elapsed since a specified time
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shared Function GetPerfDurationSecs( _
    ByVal _startTicks_ As [Long](#) _
@@ -36,11 +31,9 @@ See the [GetPerfTimer Method](FChoice.Common~FChoice.Common.PerfManager~GetPerfT
 
 For more information on instrumenting code to performing timing and performance testing, please see [MSKB Article 172338](http://support.microsoft.com/kb/q172338/) entitled "How to use QueryPerformanceCounter to Time Code."
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

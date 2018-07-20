@@ -1,8 +1,4 @@
-﻿     AddUserToQueueSetup Class Members                                                   
-
-fcSDK Documentation
-
-AddUserToQueueSetup Class Members
+﻿### AddUserToQueueSetup Class Members
 
 The following tables list the members exposed by [AddUserToQueueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddUserToQueueSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup~_ctor.md) | Initializes a new instance of the AddUserToQueueSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Name of the Queue to which the User will be added.
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup~UserName.md) | Username of the user being added to the Queue.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

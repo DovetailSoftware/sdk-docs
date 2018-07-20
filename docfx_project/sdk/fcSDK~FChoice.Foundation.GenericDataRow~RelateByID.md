@@ -1,8 +1,4 @@
-﻿     RelateByID Method (GenericDataRow)                                                   
-
-fcSDK Documentation
-
-RelateByID Method (GenericDataRow)
+﻿### RelateByID Method (GenericDataRow)
 
 Unique Id of a row you wish to relate to this **GenericDataRow.**
 
@@ -13,18 +9,14 @@ Relate a unique identifier to this [GenericDataRow](fcSDK~FChoice.Foundation.Gen
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub RelateByID( _
-   ByVal _uniqueId_ As [Object](#), _
+   ByVal _uniqueId_ As Object, _
    ByVal _relationName_ As String _
 ) 
 
 public void RelateByID( 
-   [object](#) _uniqueId_,
+   object _uniqueId_,
    string _relationName_
 )
 
@@ -38,11 +30,9 @@ _relationName_
 
 The relation name
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

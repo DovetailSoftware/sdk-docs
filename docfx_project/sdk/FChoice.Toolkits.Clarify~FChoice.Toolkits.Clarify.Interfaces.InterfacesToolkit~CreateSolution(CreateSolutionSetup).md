@@ -1,8 +1,4 @@
-﻿     CreateSolution(CreateSolutionSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateSolution(CreateSolutionSetup) Method
+﻿### CreateSolution(CreateSolutionSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Create a Solution. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateSolution( _
    ByVal _setupParam_ As [CreateSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup.md) _
@@ -38,11 +31,9 @@ The following values are populated in the [CreateSolutionResult](FChoice.Toolkit
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~Objid.md) \- The Objid of the Solution.
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~IDNum.md) \- The IDNum of the Solution.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     UpdatePriceInstanceSetup Class                                                   
-
-fcSDK Documentation
-
-UpdatePriceInstanceSetup Class
+﻿### UpdatePriceInstanceSetup Class
 
 Used by the [UpdatePriceInstance](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdatePriceInstance(UpdatePriceInstanceSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdatePriceInstanceSetup 
 
 public class UpdatePriceInstanceSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ConfigItem Class Properties                                                   
-
-fcSDK Documentation
-
-ConfigItem Class Properties
+﻿### ConfigItem Class Properties
 
 For a list of all members of this type, see [ConfigItem members](fcSDK~FChoice.Foundation.DataObjects.ConfigItem_members.md).
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ValueType](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~ValueType.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ValueTypeRaw](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~ValueTypeRaw.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

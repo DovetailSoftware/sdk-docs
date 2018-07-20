@@ -1,28 +1,19 @@
-﻿     LoginType Property (FCSessionData)                                                   
-
-fcSDK Documentation
-
-LoginType Property (FCSessionData)
+﻿### LoginType Property (FCSessionData)
 
 User login type
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Property LoginType As Integer
 
-Public Property LoginType As [Integer](#)
+public int LoginType {get; set;}
 
-public [int](#) LoginType {get; set;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

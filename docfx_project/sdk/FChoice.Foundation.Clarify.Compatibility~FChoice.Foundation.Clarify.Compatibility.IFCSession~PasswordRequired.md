@@ -1,28 +1,20 @@
-﻿     PasswordRequired Property (IFCSession)                                                   
-
-fcSDK Documentation
-
-PasswordRequired Property (IFCSession)
+﻿### PasswordRequired Property (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[DispIdAttribute](#)(1610743849)>
+<DispIdAttribute(1610743849)>
 Property PasswordRequired As Boolean
+```
 
-\[[DispIdAttribute](#)(1610743849)\]
+```csharp
+[DispIdAttribute(1610743849)]
 bool PasswordRequired {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

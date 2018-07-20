@@ -1,8 +1,4 @@
-﻿     GenericException Class Methods                                                   
-
-fcSDK Documentation
-
-GenericException Class Methods
+﻿### GenericException Class Methods
 
 For a list of all members of this type, see [GenericException members](fcSDK~FChoice.Foundation.GenericException_members.md).
 
@@ -15,9 +11,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

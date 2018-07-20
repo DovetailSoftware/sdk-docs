@@ -1,8 +1,4 @@
-﻿     Item Property (ClarifyConfigItemCollection)                                                   
-
-fcSDK Documentation
-
-Item Property (ClarifyConfigItemCollection)
+﻿### Item Property (ClarifyConfigItemCollection)
 
 Overload List
 
@@ -11,11 +7,9 @@ Overload List
 | [Item(String)](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection~Item(String).md) |   |
 | [Item(Int32)](#) | (Inherited from [System.Collections.Generic.List<ConfigItem>](#)) |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

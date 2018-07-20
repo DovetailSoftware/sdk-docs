@@ -1,8 +1,4 @@
-﻿     YankCase(YankCaseSetup) Method                                                   
-
-fcSDK Documentation
-
-YankCase(YankCaseSetup) Method
+﻿### YankCase(YankCaseSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Yank the Case from its current location to a new owner's WipBin. This overload t
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function YankCase( _
    ByVal _setupParam_ As [YankCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The WipBin to place the Case in may also be specified. This is augmented function from base Clarify, where the Case is always placed in the default WipBin.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

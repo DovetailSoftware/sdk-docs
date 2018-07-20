@@ -1,34 +1,25 @@
-﻿     get_Fields Method (FCGeneric)                                                   
-
-fcSDK Documentation
-
-get_Fields Method (FCGeneric)
+﻿### get_Fields Method (FCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function get_Fields( _
-   ByVal _index_ As [Object](#) _
-) As [Object](#)
+   ByVal _index_ As Object _
+) As Object
 
-public [object](#) get_Fields( 
-   [object](#) _index_
+public object get_Fields( 
+   object _index_
 )
 
 #### Parameters
 
 _index_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

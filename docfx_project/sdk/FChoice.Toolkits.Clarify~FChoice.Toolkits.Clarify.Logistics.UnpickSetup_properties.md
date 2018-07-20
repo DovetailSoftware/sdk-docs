@@ -1,8 +1,4 @@
-﻿     UnpickSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UnpickSetup Class Properties
+﻿### UnpickSetup Class Properties
 
 For a list of all members of this type, see [UnpickSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup~UserName.md) | The user who is unpicking the Part Request. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseTransitions](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup~UseTransitions.md) | Specifies whether or not to check logistics transitions and change the condition/status of the Part Request Detail during the Unpick operation   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

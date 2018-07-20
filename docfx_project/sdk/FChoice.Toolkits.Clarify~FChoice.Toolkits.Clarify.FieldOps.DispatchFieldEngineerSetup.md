@@ -1,26 +1,18 @@
-﻿     DispatchFieldEngineerSetup Class                                                   
-
-fcSDK Documentation
-
-DispatchFieldEngineerSetup Class
+﻿### DispatchFieldEngineerSetup Class
 
 Used by the [DispatchFieldEngineer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DispatchFieldEngineer(DispatchFieldEngineerSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DispatchFieldEngineerSetup 
 
 public class DispatchFieldEngineerSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

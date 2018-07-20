@@ -1,8 +1,4 @@
-﻿     CreateQuoteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateQuoteSetup Class Properties
+﻿### CreateQuoteSetup Class Properties
 
 For a list of all members of this type, see [CreateQuoteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteSetup_members.md).
 
@@ -30,9 +26,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteSetup~Status.md) | Element from the 'SFA Quote' application list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteSetup~UserName.md) | The user who is creating the quote. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

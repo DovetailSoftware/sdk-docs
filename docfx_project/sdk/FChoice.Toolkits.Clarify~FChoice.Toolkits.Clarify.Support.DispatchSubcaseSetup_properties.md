@@ -1,8 +1,4 @@
-﻿     DispatchSubcaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DispatchSubcaseSetup Class Properties
+﻿### DispatchSubcaseSetup Class Properties
 
 For a list of all members of this type, see [DispatchSubcaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SubcaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup~SubcaseIDNum.md) | Subcase Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup~UserName.md) | The user who has dispatched the Subcase. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

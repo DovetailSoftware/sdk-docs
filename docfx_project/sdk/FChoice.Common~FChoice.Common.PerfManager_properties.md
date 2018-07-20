@@ -1,6 +1,4 @@
-﻿     PerfManager Class Properties                                                   
-
-PerfManager Class Properties
+﻿### PerfManager Class Properties
 
 For a list of all members of this type, see [PerfManager members](FChoice.Common~FChoice.Common.PerfManager_members.md).
 
@@ -13,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsEnabled](FChoice.Common~FChoice.Common.PerfManager~IsEnabled.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsInitialized](FChoice.Common~FChoice.Common.PerfManager~IsInitialized.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

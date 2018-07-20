@@ -1,26 +1,18 @@
-﻿     CreateQuoteLineItemSetup Class                                                   
-
-fcSDK Documentation
-
-CreateQuoteLineItemSetup Class
+﻿### CreateQuoteLineItemSetup Class
 
 Used by the [CreateQuoteLineItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~CreateQuoteLineItem(CreateQuoteLineItemSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreateQuoteLineItemSetup 
 
 public class CreateQuoteLineItemSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

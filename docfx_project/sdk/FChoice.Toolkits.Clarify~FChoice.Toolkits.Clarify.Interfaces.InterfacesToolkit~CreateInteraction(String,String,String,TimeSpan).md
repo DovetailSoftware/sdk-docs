@@ -1,8 +1,4 @@
-﻿     CreateInteraction(String,String,String,TimeSpan) Method                                                   
-
-fcSDK Documentation
-
-CreateInteraction(String,String,String,TimeSpan) Method
+﻿### CreateInteraction(String,String,String,TimeSpan) Method
 
 Contact's first name.
 
@@ -17,23 +13,20 @@ Creates an Interaction in Clarify. This overload takes a set of required paramet
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateInteraction( _
    ByVal _contactFirstName_ As String, _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String, _
-   ByVal _duration_ As [TimeSpan](#) _
+   ByVal _duration_ As TimeSpan _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateInteraction( 
    string _contactFirstName_,
    string _contactLastName_,
    string _contactPhone_,
-   [TimeSpan](#) _duration_
+   TimeSpan _duration_
 )
 
 #### Parameters
@@ -65,11 +58,9 @@ Remarks
 
 An interaction stores information on communications with Contacts.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

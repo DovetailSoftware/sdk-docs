@@ -1,26 +1,16 @@
-﻿     Now Property (IApplicationClock)                                                   
-
-fcSDK Documentation
-
-Now Property (IApplicationClock)
+﻿### Now Property (IApplicationClock)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+ReadOnly Property Now As Date
 
-'Declaration
- 
+DateTime Now {get;}
 
-ReadOnly Property Now As [Date](#)
+[!include[Requirements](../partials/requirements.md)]
 
-[DateTime](#) Now {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

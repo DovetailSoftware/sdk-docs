@@ -1,8 +1,4 @@
-﻿     InterfacesToolkitBase Class Members                                                   
-
-fcSDK Documentation
-
-InterfacesToolkitBase Class Members
+﻿### InterfacesToolkitBase Class Members
 
 The following tables list the members exposed by [InterfacesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase~ImpersonatorUsername.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseDatabaseLogins](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase~UseDatabaseLogins.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

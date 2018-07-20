@@ -1,8 +1,4 @@
-﻿     DynamicBindingCollection Class Members                                                   
-
-fcSDK Documentation
-
-DynamicBindingCollection Class Members
+﻿### DynamicBindingCollection Class Members
 
 The following tables list the members exposed by [DynamicBindingCollection](fcSDK~FChoice.Foundation.DynamicBinding.DynamicBindingCollection.md).
 
@@ -13,7 +9,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.ObjectModel.Collection<IDynamicBinding>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.ObjectModel.Collection<IDynamicBinding>](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -29,9 +25,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Remove(IDynamicBinding)](#) | (Inherited from [System.Collections.ObjectModel.Collection<IDynamicBinding>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](#) | (Inherited from [System.Collections.ObjectModel.Collection<IDynamicBinding>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

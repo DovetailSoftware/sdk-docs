@@ -1,16 +1,9 @@
-﻿     IDataObject Interface                                                   
-
-fcSDK Documentation
-
-IDataObject Interface
+﻿### IDataObject Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Interface IDataObject 
 
@@ -24,7 +17,7 @@ public interface IDataObject
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

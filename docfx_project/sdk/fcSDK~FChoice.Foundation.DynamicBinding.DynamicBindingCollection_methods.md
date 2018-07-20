@@ -1,8 +1,4 @@
-﻿     DynamicBindingCollection Class Methods                                                   
-
-fcSDK Documentation
-
-DynamicBindingCollection Class Methods
+﻿### DynamicBindingCollection Class Methods
 
 For a list of all members of this type, see [DynamicBindingCollection members](fcSDK~FChoice.Foundation.DynamicBinding.DynamicBindingCollection_members.md).
 
@@ -20,9 +16,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Remove(IDynamicBinding)](#) | (Inherited from [System.Collections.ObjectModel.Collection<IDynamicBinding>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](#) | (Inherited from [System.Collections.ObjectModel.Collection<IDynamicBinding>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

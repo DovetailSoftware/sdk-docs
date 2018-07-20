@@ -1,8 +1,4 @@
-﻿     SetLogisticsTransitionSetup Class Members                                                   
-
-fcSDK Documentation
-
-SetLogisticsTransitionSetup Class Members
+﻿### SetLogisticsTransitionSetup Class Members
 
 The following tables list the members exposed by [SetLogisticsTransitionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SetLogisticsTransitionSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup~_ctor.md) | Initializes a new instance of the SetLogisticsTransitionSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PrivilegeClasses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup~PrivilegeClasses.md) | An array of Strings which are the names of the privilege classes allowed to perform this transition   |
 | ![Public Property](dotnetimages/publicProperty.png) | [StartCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup~StartCondition.md) | Starting condition of the Part Request for this transition   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

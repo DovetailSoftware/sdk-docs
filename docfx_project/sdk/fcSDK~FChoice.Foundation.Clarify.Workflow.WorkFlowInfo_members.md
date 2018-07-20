@@ -1,8 +1,4 @@
-﻿     WorkFlowInfo Class Members                                                   
-
-fcSDK Documentation
-
-WorkFlowInfo Class Members
+﻿### WorkFlowInfo Class Members
 
 The following tables list the members exposed by [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [WorkFlowInfo Constructor](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -52,9 +48,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBinID](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo~WipBinID.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBinRelation](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo~WipBinRelation.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,16 +1,9 @@
-﻿     GetTimeZonesInCountry Method (LocaleCache)                                                   
-
-fcSDK Documentation
-
-GetTimeZonesInCountry Method (LocaleCache)
+﻿### GetTimeZonesInCountry Method (LocaleCache)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function GetTimeZonesInCountry( _
    ByVal _countryName_ As String _
@@ -24,11 +17,9 @@ public [FCTimeZoneCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTim
 
 _countryName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

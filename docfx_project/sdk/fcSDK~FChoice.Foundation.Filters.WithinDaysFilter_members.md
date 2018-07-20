@@ -1,8 +1,4 @@
-﻿     WithinDaysFilter Class Members                                                   
-
-fcSDK Documentation
-
-WithinDaysFilter Class Members
+﻿### WithinDaysFilter Class Members
 
 The following tables list the members exposed by [WithinDaysFilter](fcSDK~FChoice.Foundation.Filters.WithinDaysFilter.md).
 
@@ -17,7 +13,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Value2](fcSDK~FChoice.Foundation.Filters.BetweenFilter~Value2.md) | (Inherited from [FChoice.Foundation.Filters.BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Value2Present](fcSDK~FChoice.Foundation.Filters.BetweenFilter~Value2Present.md) | (Inherited from [FChoice.Foundation.Filters.BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -26,9 +22,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Render](fcSDK~FChoice.Foundation.Filters.Filter~Render.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateFilter](fcSDK~FChoice.Foundation.Filters.Filter~ValidateFilter.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

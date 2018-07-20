@@ -1,8 +1,4 @@
-﻿     CreateState(CreateStateSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateState(CreateStateSetup,IDbTransaction) Method
+﻿### CreateState(CreateStateSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Create a State (Provence) and relate it to an existing Country. This overload ta
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateState( _
    ByVal _setupParam_ As [CreateStateSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateStateSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

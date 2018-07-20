@@ -1,26 +1,18 @@
-﻿     ForwardActionItemSetup Class                                                   
-
-fcSDK Documentation
-
-ForwardActionItemSetup Class
+﻿### ForwardActionItemSetup Class
 
 Used by the [ForwardActionItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ForwardActionItem(ForwardActionItemSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ForwardActionItemSetup 
 
 public class ForwardActionItemSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,22 +1,14 @@
-﻿     get_next_sn Method (FCSession)                                                   
-
-fcSDK Documentation
-
-get_next_sn Method (FCSession)
+﻿### get_next_sn Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function get_next_sn( _
    ByVal _the_ind_ As Short _
-) As [Object](#)
+) As Object
 
-public [object](#) get_next_sn( 
+public object get_next_sn( 
    short _the_ind_
 )
 
@@ -24,11 +16,9 @@ public [object](#) get_next_sn(
 
 _the_ind_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

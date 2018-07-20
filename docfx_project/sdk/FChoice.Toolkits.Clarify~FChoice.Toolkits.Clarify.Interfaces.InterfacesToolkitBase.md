@@ -1,18 +1,11 @@
-﻿     InterfacesToolkitBase Class                                                   
-
-fcSDK Documentation
-
-InterfacesToolkitBase Class
+﻿### InterfacesToolkitBase Class
 
 Please see [InterfacesToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit.md). This class is used internally and not meant to be created by end users.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class InterfacesToolkitBase 
    Inherits [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)
@@ -21,7 +14,7 @@ public abstract class InterfacesToolkitBase : [FChoice.Toolkits.Clarify.ToolkitB
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  
       **FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase**  
          [FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit.md)  
@@ -34,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

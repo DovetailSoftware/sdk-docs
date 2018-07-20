@@ -1,26 +1,16 @@
-﻿     UniqueID Property (GenericDataSet)                                                   
-
-fcSDK Documentation
-
-UniqueID Property (GenericDataSet)
+﻿### UniqueID Property (GenericDataSet)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public ReadOnly Property UniqueID As Guid
 
-'Declaration
- 
+public Guid UniqueID {get;}
 
-Public ReadOnly Property UniqueID As [Guid](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public [Guid](#) UniqueID {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

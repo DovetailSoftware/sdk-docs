@@ -1,18 +1,11 @@
-﻿     PartTransfer(PartTransferSetup) Method                                                   
-
-fcSDK Documentation
-
-PartTransfer(PartTransferSetup) Method
+﻿### PartTransfer(PartTransferSetup) Method
 
 Setup object for API invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function PartTransfer( _
    ByVal _setupParam_ As [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup.md) _
@@ -36,11 +29,9 @@ The following values are populated in the [PartTransferResult](FChoice.Toolkits.
 *   [TransactionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~TransactionIDNum.md) \- Part Transfer Transaction Identifier.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~Objid.md) \- Objid of the Part Transfer record.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

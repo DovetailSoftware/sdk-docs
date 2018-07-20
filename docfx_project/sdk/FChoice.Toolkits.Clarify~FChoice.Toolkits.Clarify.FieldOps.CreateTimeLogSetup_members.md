@@ -1,8 +1,4 @@
-﻿     CreateTimeLogSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateTimeLogSetup Class Members
+﻿### CreateTimeLogSetup Class Members
 
 The following tables list the members exposed by [CreateTimeLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateTimeLogSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup~_ctor.md) | Initializes a new instance of the CreateTimeLogSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -32,9 +28,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup~UserName.md) | The user who created the Time Log. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkCenter](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup~WorkCenter.md) | Element from the 'Work Center' application list. If not set the default list value is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

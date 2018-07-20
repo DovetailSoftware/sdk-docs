@@ -1,16 +1,9 @@
-﻿     ReopenDialogue(ReopenDialogueSetup) Method                                                   
-
-fcSDK Documentation
-
-ReopenDialogue(ReopenDialogueSetup) Method
+﻿### ReopenDialogue(ReopenDialogueSetup) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReopenDialogue( _
    ByVal _reopenDialogueSetup_ As [ReopenDialogueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReopenDialogueSetup.md) _
@@ -24,11 +17,9 @@ public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Toolkit
 
 _reopenDialogueSetup_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

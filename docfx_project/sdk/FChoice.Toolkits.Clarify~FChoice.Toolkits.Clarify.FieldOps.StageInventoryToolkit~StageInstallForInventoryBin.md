@@ -1,29 +1,21 @@
-﻿     StageInstallForInventoryBin Method                                                   
-
-fcSDK Documentation
-
-StageInstallForInventoryBin Method
+﻿### StageInstallForInventoryBin Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub StageInstallForInventoryBin( _
-   ByVal _partUsedObjid_ As [Integer](#), _
+   ByVal _partUsedObjid_ As Integer, _
    ByVal _locationName_ As String, _
    ByVal _locationBinName_ As String, _
-   ByVal _stagedAs_ As [Integer](#) _
+   ByVal _stagedAs_ As Integer _
 ) 
 
 public void StageInstallForInventoryBin( 
-   [int](#) _partUsedObjid_,
+   int _partUsedObjid_,
    string _locationName_,
    string _locationBinName_,
-   [int](#) _stagedAs_
+   int _stagedAs_
 )
 
 #### Parameters
@@ -36,11 +28,9 @@ _locationBinName_
 
 _stagedAs_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

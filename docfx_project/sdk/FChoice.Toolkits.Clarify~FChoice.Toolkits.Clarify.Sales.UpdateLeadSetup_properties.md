@@ -1,8 +1,4 @@
-﻿     UpdateLeadSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateLeadSetup Class Properties
+﻿### UpdateLeadSetup Class Properties
 
 For a list of all members of this type, see [UpdateLeadSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup_members.md).
 
@@ -35,9 +31,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup~Title.md) | Title for the lead.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup~UserName.md) | The user who is updating the lead. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

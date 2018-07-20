@@ -1,9 +1,7 @@
-﻿     FulfillPartRequestSetup Constructor(String,Boolean,Int32)                                                   
+﻿### FulfillPartRequestSetup Constructor(String,Boolean,Int32)
+```
 
-fcSDK Documentation
-
-FulfillPartRequestSetup Constructor(String,Boolean,Int32)
-
+```csharp
 Part Request Detail Identifier
 
 Specifies whether or not logistics transitions will be checked and the condition/status of the part request detail will be changed during the fulfill operation
@@ -15,24 +13,22 @@ Initializes a new instance of the FulfillPartRequestSetup class. This overload t
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _useTransitions_ As Boolean, _
-   ByVal _quantity_ As [Integer](#) _
+   ByVal _quantity_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public FulfillPartRequestSetup( 
    string _partRequestDetailIDNum_,
    bool _useTransitions_,
-   [int](#) _quantity_
+   int _quantity_
 )
+```
 
 #### Parameters
 
@@ -48,11 +44,7 @@ _quantity_
 
 The number of parts being fulfilled for this Part Request
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

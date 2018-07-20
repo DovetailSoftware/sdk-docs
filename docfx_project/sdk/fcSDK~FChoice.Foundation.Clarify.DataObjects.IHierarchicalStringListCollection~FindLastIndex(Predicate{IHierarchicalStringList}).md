@@ -7,16 +7,13 @@ FindLastIndex(Predicate<IHierarchicalStringList>) Method
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Overloads Function FindLastIndex( _
    ByVal _match_ As [Predicate(Of IHierarchicalStringList)](#) _
-) As [Integer](#)
+) As Integer
 
-[int](#) FindLastIndex( 
+int FindLastIndex( 
    [Predicate<IHierarchicalStringList>](#) _match_
 )
 
@@ -24,11 +21,9 @@ Overloads Function FindLastIndex( _
 
 _match_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

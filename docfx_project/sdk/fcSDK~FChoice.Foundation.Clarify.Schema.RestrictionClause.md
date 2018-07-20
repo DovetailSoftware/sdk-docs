@@ -1,16 +1,9 @@
-﻿     RestrictionClause Class                                                   
-
-fcSDK Documentation
-
-RestrictionClause Class
+﻿### RestrictionClause Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class RestrictionClause 
 
@@ -18,7 +11,7 @@ public class RestrictionClause
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Schema.RestrictionClause**  
 
 #### Requirements
@@ -29,7 +22,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

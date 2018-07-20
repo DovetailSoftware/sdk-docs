@@ -1,8 +1,4 @@
-﻿     Filter Class Members                                                   
-
-fcSDK Documentation
-
-Filter Class Members
+﻿### Filter Class Members
 
 The following tables list the members exposed by [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md).
 
@@ -13,9 +9,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Render](fcSDK~FChoice.Foundation.Filters.Filter~Render.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateFilter](fcSDK~FChoice.Foundation.Filters.Filter~ValidateFilter.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

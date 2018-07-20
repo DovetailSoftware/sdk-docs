@@ -1,26 +1,17 @@
-﻿     UseDatabaseLogins Property (CreateEmployeeSetup)                                                   
-
-fcSDK Documentation
-
-UseDatabaseLogins Property (CreateEmployeeSetup)
+﻿### UseDatabaseLogins Property (CreateEmployeeSetup)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property UseDatabaseLogins As Boolean
 
 public bool UseDatabaseLogins {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

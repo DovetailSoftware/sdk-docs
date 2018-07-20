@@ -1,8 +1,4 @@
-﻿     HierarchicalStringElementCollection Class Members                                                   
-
-fcSDK Documentation
-
-HierarchicalStringElementCollection Class Members
+﻿### HierarchicalStringElementCollection Class Members
 
 The following tables list the members exposed by [HierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElementCollection.md).
 
@@ -16,7 +12,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [DefaultElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElementCollection~DefaultElement.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElementCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -55,9 +51,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<IHierarchicalStringElement>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<IHierarchicalStringElement>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

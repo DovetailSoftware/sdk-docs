@@ -1,26 +1,18 @@
-﻿     DeinstallSitePartSetup Class                                                   
-
-fcSDK Documentation
-
-DeinstallSitePartSetup Class
+﻿### DeinstallSitePartSetup Class
 
 Used by the [DeinstallSitePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~DeinstallSitePart(DeinstallSitePartSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DeinstallSitePartSetup 
 
 public class DeinstallSitePartSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.DeinstallSitePartSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,16 +1,9 @@
-﻿     AddToCache(WorkflowObjectInfo) Method                                                   
-
-fcSDK Documentation
-
-AddToCache(WorkflowObjectInfo) Method
+﻿### AddToCache(WorkflowObjectInfo) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Sub AddToCache( _
    ByVal _info_ As [WorkflowObjectInfo](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo.md) _
@@ -24,11 +17,9 @@ public static void AddToCache(
 
 _info_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     FixFailedSetup Class Properties                                                   
-
-fcSDK Documentation
-
-FixFailedSetup Class Properties
+﻿### FixFailedSetup Class Properties
 
 For a list of all members of this type, see [FixFailedSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup_members.md).
 
@@ -20,9 +16,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TestCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup~TestCase.md) | Name of the test case related to the CR Fix being marked as Failed   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup~UserName.md) | The user failing the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

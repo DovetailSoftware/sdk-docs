@@ -1,6 +1,4 @@
-﻿     OleDbDataProviderBase Class Properties                                                   
-
-OleDbDataProviderBase Class Properties
+﻿### OleDbDataProviderBase Class Properties
 
 For a list of all members of this type, see [OleDbDataProviderBase members](FChoice.Common~FChoice.Common.Data.OleDbDataProviderBase_members.md).
 
@@ -15,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RequiresDbNameParameter](FChoice.Common~FChoice.Common.Data.DbProvider~RequiresDbNameParameter.md) | Gets whether or not this provider requires the "dbname" argument for the [CreateConnectionString Method](FChoice.Common~FChoice.Common.Data.DbProvider~CreateConnectionString.md) (Inherited from [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.DbProvider~TypeMapper.md) | This property is intended for future use and is not currently used. (Inherited from [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

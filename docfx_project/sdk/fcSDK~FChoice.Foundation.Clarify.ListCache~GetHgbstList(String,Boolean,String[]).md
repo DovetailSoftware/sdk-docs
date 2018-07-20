@@ -1,8 +1,4 @@
-﻿     GetHgbstList(String,Boolean,String\[\]) Method                                                   
-
-fcSDK Documentation
-
-GetHgbstList(String,Boolean,String\[\]) Method
+﻿### GetHgbstList(String,Boolean,String\[\]) Method
 
 The title of the user-defined list (HGBST)
 
@@ -11,10 +7,7 @@ An optional list of element titles specifying the level in the user-defined list
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function GetHgbstList( _
    ByVal _listTitle_ As String, _
@@ -25,7 +18,7 @@ Public Overloads Function GetHgbstList( _
 public [IHierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection.md) GetHgbstList( 
    string _listTitle_,
    bool _includeInactive_,
-   params string\[\] _elementTitles_
+   params string[] _elementTitles_
 )
 
 #### Parameters
@@ -40,11 +33,9 @@ _elementTitles_
 
 An optional list of element titles specifying the level in the user-defined list to retrieve
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

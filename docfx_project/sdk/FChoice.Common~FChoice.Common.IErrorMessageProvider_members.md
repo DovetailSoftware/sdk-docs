@@ -1,6 +1,4 @@
-﻿     IErrorMessageProvider Interface Members                                                   
-
-IErrorMessageProvider Interface Members
+﻿### IErrorMessageProvider Interface Members
 
 The following tables list the members exposed by [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md).
 
@@ -10,9 +8,9 @@ Public Methods
 | --- | --- | --- |
 | ![ Method](dotnetimages/Method.png) | [GetMessageFormat](FChoice.Common~FChoice.Common.IErrorMessageProvider~GetMessageFormat.md) | Called by [FCExceptionBase Class](FChoice.Common~FChoice.Common.FCExceptionBase.md) when a specific error message string resource is required.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     LinkCRToSolutionSetup Class                                                   
-
-fcSDK Documentation
-
-LinkCRToSolutionSetup Class
+﻿### LinkCRToSolutionSetup Class
 
 Used by the [LinkCRToSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~LinkCRToSolution(LinkCRToSolutionSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LinkCRToSolutionSetup 
 
 public class LinkCRToSolutionSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.LinkCRToSolutionSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

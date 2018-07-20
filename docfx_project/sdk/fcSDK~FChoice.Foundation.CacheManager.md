@@ -1,24 +1,16 @@
-﻿     CacheManager Class                                                   
-
-fcSDK Documentation
-
-CacheManager Class
+﻿### CacheManager Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CacheManager 
 
 public class CacheManager 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.CacheManager**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

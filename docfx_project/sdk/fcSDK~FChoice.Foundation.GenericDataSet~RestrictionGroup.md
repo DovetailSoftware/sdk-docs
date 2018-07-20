@@ -1,26 +1,16 @@
-﻿     RestrictionGroup Property (GenericDataSet)                                                   
-
-fcSDK Documentation
-
-RestrictionGroup Property (GenericDataSet)
+﻿### RestrictionGroup Property (GenericDataSet)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Property RestrictionGroup As [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md)
 
 public [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md) RestrictionGroup {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

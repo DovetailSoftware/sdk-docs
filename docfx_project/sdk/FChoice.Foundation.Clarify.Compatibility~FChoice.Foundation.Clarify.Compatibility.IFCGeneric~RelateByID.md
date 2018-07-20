@@ -1,26 +1,18 @@
-﻿     RelateByID Method (IFCGeneric)                                                   
-
-fcSDK Documentation
-
-RelateByID Method (IFCGeneric)
+﻿### RelateByID Method (IFCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743887)>
+' Declaration
+<DispIdAttribute(1610743887)>
 Sub RelateByID( _
-   ByVal _objId_ As [Integer](#), _
+   ByVal _objId_ As Integer, _
    ByVal _relationName_ As String _
 ) 
 
-\[[DispIdAttribute](#)(1610743887)\]
+[DispIdAttribute(1610743887)]
 void RelateByID( 
-   [int](#) _objId_,
+   int _objId_,
    string _relationName_
 )
 
@@ -30,11 +22,9 @@ _objId_
 
 _relationName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

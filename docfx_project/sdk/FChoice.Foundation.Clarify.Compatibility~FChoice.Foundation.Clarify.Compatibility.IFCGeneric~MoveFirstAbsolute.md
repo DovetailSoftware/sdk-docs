@@ -1,28 +1,19 @@
-﻿     MoveFirstAbsolute Method (IFCGeneric)                                                   
-
-fcSDK Documentation
-
-MoveFirstAbsolute Method (IFCGeneric)
+﻿### MoveFirstAbsolute Method (IFCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743868)>
+<DispIdAttribute(1610743868)>
 Sub MoveFirstAbsolute() 
 
-\[[DispIdAttribute](#)(1610743868)\]
+[DispIdAttribute(1610743868)]
 void MoveFirstAbsolute()
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

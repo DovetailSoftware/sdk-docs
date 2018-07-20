@@ -1,16 +1,9 @@
-﻿     GetHgbstList(String,Boolean,Boolean,String\[\]) Method                                                   
-
-fcSDK Documentation
-
-GetHgbstList(String,Boolean,Boolean,String\[\]) Method
+﻿### GetHgbstList(String,Boolean,Boolean,String\[\]) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function GetHgbstList( _
    ByVal _listTitle_ As String, _
@@ -23,7 +16,7 @@ public [IHierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.D
    string _listTitle_,
    bool _includeInactive_,
    bool _throwErrors_,
-   params string\[\] _elementTitles_
+   params string[] _elementTitles_
 )
 
 #### Parameters
@@ -36,11 +29,9 @@ _throwErrors_
 
 _elementTitles_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

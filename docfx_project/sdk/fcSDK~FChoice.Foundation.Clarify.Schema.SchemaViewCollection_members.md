@@ -1,8 +1,4 @@
-﻿     SchemaViewCollection Class Members                                                   
-
-fcSDK Documentation
-
-SchemaViewCollection Class Members
+﻿### SchemaViewCollection Class Members
 
 The following tables list the members exposed by [SchemaViewCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewCollection.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<SchemaView>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,9 +49,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SchemaView>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SchemaView>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateAddressSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateAddressSetup Class Properties
+﻿### CreateAddressSetup Class Properties
 
 For a list of all members of this type, see [CreateAddressSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup_members.md).
 
@@ -20,9 +16,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TimeZone](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup~TimeZone.md) | Address Timezone.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ZipCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup~ZipCode.md) | Address Zipcode.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

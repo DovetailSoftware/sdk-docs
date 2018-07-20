@@ -1,26 +1,18 @@
-﻿     UnlinkCaseFromWorkaroundSetup Class                                                   
-
-fcSDK Documentation
-
-UnlinkCaseFromWorkaroundSetup Class
+﻿### UnlinkCaseFromWorkaroundSetup Class
 
 Used by the [UnlinkCaseFromWorkaround](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UnlinkCaseFromWorkaround(UnlinkCaseFromWorkaroundSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UnlinkCaseFromWorkaroundSetup 
 
 public class UnlinkCaseFromWorkaroundSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UnlinkCaseFromWorkaroundSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

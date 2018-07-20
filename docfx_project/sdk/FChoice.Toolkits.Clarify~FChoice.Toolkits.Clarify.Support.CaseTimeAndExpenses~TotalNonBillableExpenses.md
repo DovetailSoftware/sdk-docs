@@ -1,28 +1,19 @@
-﻿     TotalNonBillableExpenses Property (CaseTimeAndExpenses)                                                   
-
-fcSDK Documentation
-
-TotalNonBillableExpenses Property (CaseTimeAndExpenses)
+﻿### TotalNonBillableExpenses Property (CaseTimeAndExpenses)
 
 Total billable expenses (closed Subcase and Case expense logs)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property TotalNonBillableExpenses As [Decimal](#)
 
 public [decimal](#) TotalNonBillableExpenses {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

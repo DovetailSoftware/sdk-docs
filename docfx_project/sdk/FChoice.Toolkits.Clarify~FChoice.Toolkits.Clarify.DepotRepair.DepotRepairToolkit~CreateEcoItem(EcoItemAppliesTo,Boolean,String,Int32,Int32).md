@@ -1,8 +1,4 @@
-﻿     CreateEcoItem(EcoItemAppliesTo,Boolean,String,Int32,Int32) Method                                                   
-
-fcSDK Documentation
-
-CreateEcoItem(EcoItemAppliesTo,Boolean,String,Int32,Int32) Method
+﻿### CreateEcoItem(EcoItemAppliesTo,Boolean,String,Int32,Int32) Method
 
 This must be either 5148 to apply the ECO item to an ECO header, or 329 to apply the ECO item to a part revision.
 
@@ -19,26 +15,26 @@ Create an Engineering Change Order (ECO) Item. This overload takes a set of requ
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function CreateEcoItem( _
    ByVal _appliesTo_ As [EcoItemAppliesTo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.EcoItemAppliesTo.md), _
    ByVal _isActive_ As Boolean, _
    ByVal _ecoHeaderIDNum_ As String, _
-   ByVal _applyPartRevisionObjid_ As [Integer](#), _
-   ByVal _resultPartRevisionObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _applyPartRevisionObjid_ As Integer, _
+   ByVal _resultPartRevisionObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateEcoItem( 
+```csharp
+public ToolkitResult CreateEcoItem( 
    [EcoItemAppliesTo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.EcoItemAppliesTo.md) _appliesTo_,
    bool _isActive_,
    string _ecoHeaderIDNum_,
-   [int](#) _applyPartRevisionObjid_,
-   [int](#) _resultPartRevisionObjid_
+   int _applyPartRevisionObjid_,
+   int _resultPartRevisionObjid_
 )
+```
 
 #### Parameters
 
@@ -64,17 +60,13 @@ The objid of resulting part revision after applying the ECO, or 0 for no chang
 
 #### Return Value
 
-A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Remarks
 
 The objid of the ECO item created is returned in the object property ret_objid.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

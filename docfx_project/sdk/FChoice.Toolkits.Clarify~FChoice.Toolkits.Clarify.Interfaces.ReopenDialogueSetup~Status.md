@@ -1,26 +1,17 @@
-﻿     Status Property (ReopenDialogueSetup)                                                   
-
-fcSDK Documentation
-
-Status Property (ReopenDialogueSetup)
+﻿### Status Property (ReopenDialogueSetup)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property Status As String
 
 public string Status {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

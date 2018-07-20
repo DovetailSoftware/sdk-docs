@@ -1,16 +1,9 @@
-﻿     FacadeVoidAttribute Class                                                   
-
-fcSDK Documentation
-
-FacadeVoidAttribute Class
+﻿### FacadeVoidAttribute Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Method, 
    AllowMultiple=False, 
@@ -25,7 +18,7 @@ public class FacadeVoidAttribute : [System.Attribute](#)
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Attribute](#)  
       **FChoice.Foundation.Clarify.Attributes.FacadeVoidAttribute**  
 
@@ -37,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

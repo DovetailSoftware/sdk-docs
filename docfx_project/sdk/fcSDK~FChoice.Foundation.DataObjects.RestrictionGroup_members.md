@@ -1,8 +1,4 @@
-﻿     RestrictionGroup Class Members                                                   
-
-fcSDK Documentation
-
-RestrictionGroup Class Members
+﻿### RestrictionGroup Class Members
 
 The following tables list the members exposed by [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md).
 
@@ -16,7 +12,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Restrictions](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup~Restrictions.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -29,9 +25,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

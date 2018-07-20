@@ -1,18 +1,11 @@
-﻿     PickResult Class                                                   
-
-fcSDK Documentation
-
-PickResult Class
+﻿### PickResult Class
 
 Result from the [Pick](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick.md) API.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class PickResult 
    Inherits [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
@@ -21,7 +14,7 @@ public class PickResult : [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolk
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  
       **FChoice.Toolkits.Clarify.Logistics.PickResult**  
 
@@ -33,7 +26,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

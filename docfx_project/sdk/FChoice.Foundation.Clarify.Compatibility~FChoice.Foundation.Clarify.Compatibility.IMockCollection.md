@@ -1,17 +1,9 @@
-﻿     IMockCollection Interface                                                   
-
-fcSDK Documentation
-
-IMockCollection Interface
+﻿### IMockCollection Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[GuidAttribute](#)("E56DD62E-5282-4ca0-8AE5-9B40D173B39E")>
 <[ComVisibleAttribute](#)(True)>
 Public Interface IMockCollection 
@@ -28,7 +20,7 @@ public interface IMockCollection
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

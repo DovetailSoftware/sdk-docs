@@ -1,8 +1,4 @@
-﻿     ISchemaCache Interface Properties                                                   
-
-fcSDK Documentation
-
-ISchemaCache Interface Properties
+﻿### ISchemaCache Interface Properties
 
 For a list of all members of this type, see [ISchemaCache members](fcSDK~FChoice.Foundation.Schema.ISchemaCache_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Tables](fcSDK~FChoice.Foundation.Schema.ISchemaCache~Tables.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Views](fcSDK~FChoice.Foundation.Schema.ISchemaCache~Views.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

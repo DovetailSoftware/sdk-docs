@@ -1,17 +1,11 @@
-﻿     ILicenseTool Interface                                                   
-
-ILicenseTool Interface
+﻿### ILicenseTool Interface
 
 Supports First Choice licensing.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Interface ILicenseTool 
 
 public interface ILicenseTool 
@@ -28,7 +22,7 @@ For internal First Choice use only.
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

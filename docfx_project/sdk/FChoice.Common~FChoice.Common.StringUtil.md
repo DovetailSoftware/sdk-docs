@@ -1,23 +1,22 @@
-﻿     StringUtil Class                                                   
-
-StringUtil Class
+﻿### StringUtil Class
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public MustInherit NotInheritable Class StringUtil 
+```
 
-public static class StringUtil 
+```csharp
+public static class StringUtil
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   **FChoice.Common.StringUtil**  
+System.Object  
+
+**FChoice.Common.StringUtil**  
 
 #### Requirements
 
@@ -26,8 +25,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-See Also
 
 #### Reference
 

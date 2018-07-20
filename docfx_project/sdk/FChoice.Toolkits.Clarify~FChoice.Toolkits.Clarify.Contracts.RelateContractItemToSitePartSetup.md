@@ -1,26 +1,18 @@
-﻿     RelateContractItemToSitePartSetup Class                                                   
-
-fcSDK Documentation
-
-RelateContractItemToSitePartSetup Class
+﻿### RelateContractItemToSitePartSetup Class
 
 Used by the [RelateContractItemToSitePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~RelateContractItemToSitePart(RelateContractItemToSitePartSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class RelateContractItemToSitePartSetup 
 
 public class RelateContractItemToSitePartSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

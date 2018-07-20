@@ -1,24 +1,19 @@
-﻿     Create Method (StateManagerSectionHandler)                                                   
-
-Create Method (StateManagerSectionHandler)
+﻿### Create Method (StateManagerSectionHandler)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function Create( _
-   ByVal _parent_ As [Object](#), _
-   ByVal _configContext_ As [Object](#), _
+   ByVal _parent_ As Object, _
+   ByVal _configContext_ As Object, _
    ByVal _section_ As [XmlNode](#) _
-) As [Object](#)
+) As Object
 
-public [object](#) Create( 
-   [object](#) _parent_,
-   [object](#) _configContext_,
+public object Create( 
+   object _parent_,
+   object _configContext_,
    [XmlNode](#) _section_
 )
 
@@ -30,11 +25,9 @@ _configContext_
 
 _section_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdateTimeLogSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateTimeLogSetup Class Members
+﻿### UpdateTimeLogSetup Class Members
 
 The following tables list the members exposed by [UpdateTimeLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateTimeLogSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateTimeLogSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateTimeLogSetup~_ctor.md) | Initializes a new instance of the UpdateTimeLogSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -31,9 +27,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateTimeLogSetup~UserName.md) | The user who is updating the Time Log. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkCenter](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateTimeLogSetup~WorkCenter.md) | Element from the 'Work Center' application list. If not set the default list value is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

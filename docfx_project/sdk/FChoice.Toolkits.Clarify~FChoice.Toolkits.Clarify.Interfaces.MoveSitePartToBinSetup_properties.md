@@ -1,8 +1,4 @@
-﻿     MoveSitePartToBinSetup Class Properties                                                   
-
-fcSDK Documentation
-
-MoveSitePartToBinSetup Class Properties
+﻿### MoveSitePartToBinSetup Class Properties
 
 For a list of all members of this type, see [MoveSitePartToBinSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToBinSetup_members.md).
 
@@ -24,9 +20,9 @@ Objid of the Site Part to be moved
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToBinSetup~UserName.md) | The user who has moved the SitePartToBin. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

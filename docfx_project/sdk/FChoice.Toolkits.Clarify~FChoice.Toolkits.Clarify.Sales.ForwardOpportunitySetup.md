@@ -1,26 +1,18 @@
-﻿     ForwardOpportunitySetup Class                                                   
-
-fcSDK Documentation
-
-ForwardOpportunitySetup Class
+﻿### ForwardOpportunitySetup Class
 
 Used by the [ForwardOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ForwardOpportunity(ForwardOpportunitySetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ForwardOpportunitySetup 
 
 public class ForwardOpportunitySetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.ForwardOpportunitySetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

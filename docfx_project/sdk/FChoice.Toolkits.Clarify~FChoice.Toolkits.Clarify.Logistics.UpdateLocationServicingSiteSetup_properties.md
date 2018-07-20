@@ -1,8 +1,4 @@
-﻿     UpdateLocationServicingSiteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateLocationServicingSiteSetup Class Properties
+﻿### UpdateLocationServicingSiteSetup Class Properties
 
 For a list of all members of this type, see [UpdateLocationServicingSiteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateLocationServicingSiteSetup_members.md).
 
@@ -17,9 +13,9 @@ Identifier of the Site that the inventory location is servicing
 
   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

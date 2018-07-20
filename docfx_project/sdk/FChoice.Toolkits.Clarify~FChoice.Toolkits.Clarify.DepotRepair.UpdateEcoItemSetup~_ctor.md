@@ -1,8 +1,4 @@
-﻿     UpdateEcoItemSetup Constructor                                                   
-
-fcSDK Documentation
-
-UpdateEcoItemSetup Constructor
+﻿### UpdateEcoItemSetup Constructor
 
 The objid of the ECO item object to be updated
 
@@ -15,21 +11,18 @@ Initializes a new instance of the UpdateEcoItemSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _ecoItemObjid_ As [Integer](#), _
+   ByVal _ecoItemObjid_ As Integer, _
    ByVal _isActive_ As Boolean, _
    ByVal _ecoHeaderIDNum_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public UpdateEcoItemSetup( 
-   [int](#) _ecoItemObjid_,
+   int _ecoItemObjid_,
    bool _isActive_,
    string _ecoHeaderIDNum_
 )
@@ -48,11 +41,9 @@ _ecoHeaderIDNum_
 
 Identifier of the ECO header
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

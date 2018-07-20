@@ -1,8 +1,4 @@
-﻿     ReopenContract(ReopenContractSetup) Method                                                   
-
-fcSDK Documentation
-
-ReopenContract(ReopenContractSetup) Method
+﻿### ReopenContract(ReopenContractSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Causes the specified contract to be reopened. This overload takes a setup object
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReopenContract( _
    ByVal _setupParam_ As [ReopenContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ReopenContractSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 This is augmented functionality from base Clarify, as a contract cannot be re-opened via the Clarify GUI. The date/time of the reopen, the person performing the reopen, the WIPBIN to place the contract in, and the new status of the contract can be specified. The person who reopens the contract becomes the new owner.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

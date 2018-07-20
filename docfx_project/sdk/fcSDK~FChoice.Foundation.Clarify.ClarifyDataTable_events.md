@@ -1,8 +1,4 @@
-﻿     ClarifyDataTable Class Events                                                   
-
-fcSDK Documentation
-
-ClarifyDataTable Class Events
+﻿### ClarifyDataTable Class Events
 
 For a list of all members of this type, see [ClarifyDataTable members](fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable_members.md).
 
@@ -22,9 +18,9 @@ Public Events
 | ![Public Event](dotnetimages/publicEvent.png) | [TableClearing](#) | (Inherited from [System.Data.DataTable](#)) |
 | ![Public Event](dotnetimages/publicEvent.png) | [TableNewRow](#) | (Inherited from [System.Data.DataTable](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

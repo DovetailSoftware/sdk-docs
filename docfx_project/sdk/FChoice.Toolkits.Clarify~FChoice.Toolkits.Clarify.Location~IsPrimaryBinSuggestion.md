@@ -1,26 +1,16 @@
-﻿     IsPrimaryBinSuggestion Property                                                   
-
-fcSDK Documentation
-
-IsPrimaryBinSuggestion Property
+﻿### IsPrimaryBinSuggestion Property
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Property IsPrimaryBinSuggestion As Boolean
 
 public bool IsPrimaryBinSuggestion {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

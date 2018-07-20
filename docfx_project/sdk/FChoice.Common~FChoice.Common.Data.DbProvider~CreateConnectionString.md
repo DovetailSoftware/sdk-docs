@@ -1,6 +1,4 @@
-﻿     CreateConnectionString Method (DbProvider)                                                   
-
-CreateConnectionString Method (DbProvider)
+﻿### CreateConnectionString Method (DbProvider)
 
 The hostname, IP, or unique identifier name for the database (i.e. host name for MSSQL or SID for Oracle)
 
@@ -17,11 +15,7 @@ Creates a basic connection string from the basic common required elements accord
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustOverride Function CreateConnectionString( _
    ByVal _dbServer_ As String, _
    ByVal _dbName_ As String, _
@@ -68,11 +62,9 @@ Remarks
 
 **NOTE**: This method does not validate the format of the _extraParams_ argument. If the the value of _extraParams_ is invalid, the connection string may not work properly.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

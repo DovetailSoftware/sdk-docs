@@ -1,26 +1,18 @@
-﻿     UpdateEcoLaborDetailSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateEcoLaborDetailSetup Class
+﻿### UpdateEcoLaborDetailSetup Class
 
 Used by the [UpdateEcoLaborDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoLaborDetail(UpdateEcoLaborDetailSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateEcoLaborDetailSetup 
 
 public class UpdateEcoLaborDetailSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoLaborDetailSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

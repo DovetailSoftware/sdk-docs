@@ -1,30 +1,26 @@
-﻿     CopyTo(Int32,IHierarchicalStringElement\[\],Int32,Int32) Method                                                   
-
-fcSDK Documentation
-
-CopyTo(Int32,IHierarchicalStringElement\[\],Int32,Int32) Method
+﻿### CopyTo(Int32,IHierarchicalStringElement\[\],Int32,Int32) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Overloads Sub CopyTo( _
-   ByVal _index_ As [Integer](#), _
-   ByVal _array_() As [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md), _
-   ByVal _arrayIndex_ As [Integer](#), _
-   ByVal _count_ As [Integer](#) _
+   ByVal _index_ As Integer, _
+   ByVal _array_() As IHierarchicalStringElement, _
+   ByVal _arrayIndex_ As Integer, _
+   ByVal _count_ As Integer _
 ) 
+```
 
+```csharp
 void CopyTo( 
-   [int](#) _index_,
-   [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md)\[\] _array_,
-   [int](#) _arrayIndex_,
-   [int](#) _count_
+   int _index_,
+   IHierarchicalStringElement\[\] _array_,
+   int _arrayIndex_,
+   int _count_
 )
+```
 
 #### Parameters
 
@@ -36,11 +32,7 @@ _arrayIndex_
 
 _count_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

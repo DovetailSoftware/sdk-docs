@@ -28,7 +28,7 @@ Restart your application
 
 From here on, you can make changes to the logging configuration file, and these changes will automatically be picked up by the Log Manager - there's no need to restart your app just to make a logging configuration change.
 
-### See Also
+### 
 
 * [Logging Config File Samples](logging/logging-samples.md)
 * [Configuring fcSDK](basic-configuration.md)

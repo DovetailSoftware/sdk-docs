@@ -1,8 +1,4 @@
-﻿     EndsWithFilter Class Members                                                   
-
-fcSDK Documentation
-
-EndsWithFilter Class Members
+﻿### EndsWithFilter Class Members
 
 The following tables list the members exposed by [EndsWithFilter](fcSDK~FChoice.Foundation.Filters.EndsWithFilter.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Operator](fcSDK~FChoice.Foundation.Filters.LikeFilter~Operator.md) | (Inherited from [FChoice.Foundation.Filters.LikeFilter](fcSDK~FChoice.Foundation.Filters.LikeFilter.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Value](fcSDK~FChoice.Foundation.Filters.OperationFilter~Value.md) | (Inherited from [FChoice.Foundation.Filters.OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -23,9 +19,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Render](fcSDK~FChoice.Foundation.Filters.Filter~Render.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateFilter](fcSDK~FChoice.Foundation.Filters.Filter~ValidateFilter.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     LogSubcaseCommitmentSetup Class                                                   
-
-fcSDK Documentation
-
-LogSubcaseCommitmentSetup Class
+﻿### LogSubcaseCommitmentSetup Class
 
 Used by the [LogSubcaseCommitment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubcaseCommitment(LogSubcaseCommitmentSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogSubcaseCommitmentSetup 
 
 public class LogSubcaseCommitmentSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.LogSubcaseCommitmentSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

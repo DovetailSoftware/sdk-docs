@@ -1,8 +1,4 @@
-﻿     FilterCollection Class Methods                                                   
-
-fcSDK Documentation
-
-FilterCollection Class Methods
+﻿### FilterCollection Class Methods
 
 For a list of all members of this type, see [FilterCollection members](fcSDK~FChoice.Foundation.Filters.FilterCollection_members.md).
 
@@ -20,9 +16,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Remove](#) | (Inherited from [System.Collections.ObjectModel.Collection<Filter>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](#) | (Inherited from [System.Collections.ObjectModel.Collection<Filter>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

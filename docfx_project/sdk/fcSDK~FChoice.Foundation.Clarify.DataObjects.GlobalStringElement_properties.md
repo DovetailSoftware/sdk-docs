@@ -1,8 +1,4 @@
-﻿     GlobalStringElement Class Properties                                                   
-
-fcSDK Documentation
-
-GlobalStringElement Class Properties
+﻿### GlobalStringElement Class Properties
 
 For a list of all members of this type, see [GlobalStringElement members](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringElement_members.md).
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringElement~Title.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

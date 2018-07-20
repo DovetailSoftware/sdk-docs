@@ -1,19 +1,11 @@
-﻿     ContractIDNum Property (CreateQuoteLineItemSetup)                                                   
-
-fcSDK Documentation
-
-ContractIDNum Property (CreateQuoteLineItemSetup)
+﻿### ContractIDNum Property (CreateQuoteLineItemSetup)
 
 Quote/Contract Identifier.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property ContractIDNum As String
 
@@ -24,7 +16,7 @@ Requirements
 
 The Quote/Contract must already exist and have at least one valid schedule.
 
-See Also
+
 
 #### Reference
 

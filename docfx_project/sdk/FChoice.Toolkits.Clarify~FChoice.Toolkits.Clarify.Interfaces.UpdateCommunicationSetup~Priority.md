@@ -1,28 +1,19 @@
-﻿     Priority Property (UpdateCommunicationSetup)                                                   
-
-fcSDK Documentation
-
-Priority Property (UpdateCommunicationSetup)
+﻿### Priority Property (UpdateCommunicationSetup)
 
 The Priority of the communication.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property Priority As [Nullable(Of CommunicationPriority)](#)
 
 public [Nullable<CommunicationPriority>](#) Priority {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

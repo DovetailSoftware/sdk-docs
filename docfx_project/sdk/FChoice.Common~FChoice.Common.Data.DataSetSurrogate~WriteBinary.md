@@ -9,19 +9,16 @@ Writes a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataD
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shared Sub WriteBinary( _
-   ByVal _ds_ As [DataSet](#), _
-   ByVal _str_ As [Stream](#) _
+   ByVal _ds_ As DataSet, _
+   ByVal _str_ As Stream _
 ) 
 
 public static void WriteBinary( 
-   [DataSet](#) _ds_,
-   [Stream](#) _str_
+   DataSet _ds_,
+   Stream _str_
 )
 
 #### Parameters
@@ -42,11 +39,9 @@ Remarks
 
 **IMPORTANT**: The [ReadBinary](FChoice.Common~FChoice.Common.Data.DataSetSurrogate~ReadBinary.md) and [WriteBinary](FChoice.Common~FChoice.Common.Data.DataSetSurrogate~WriteBinary.md) methods only support simple DataSets with tables, columns, rows (with data) and relationships. All other information will be lost. This includes keys, constraints, extended properties, etc
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

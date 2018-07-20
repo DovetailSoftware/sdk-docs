@@ -1,8 +1,4 @@
-﻿     IHierarchicalStringList Interface Properties                                                   
-
-fcSDK Documentation
-
-IHierarchicalStringList Interface Properties
+﻿### IHierarchicalStringList Interface Properties
 
 For a list of all members of this type, see [IHierarchicalStringList members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList_members.md).
 
@@ -18,9 +14,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [ObjectID](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList~ObjectID.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Title](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList~Title.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

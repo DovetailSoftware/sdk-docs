@@ -1,8 +1,4 @@
-﻿     LogCREmail(String) Method                                                   
-
-fcSDK Documentation
-
-LogCREmail(String) Method
+﻿### LogCREmail(String) Method
 
 Identifier of the CR being logged.
 
@@ -11,10 +7,7 @@ Used to create a email log for a CR. This overload takes a set of required par
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogCREmail( _
    ByVal _crIDNum_ As String _
@@ -40,11 +33,9 @@ Remarks
 
 The date the email is logged can be set, as well as the user who logs the email. Additional fields on the log_email record can also be set as well as a time bomb (for the email_log), which allows notifications to be generated based on the event. In addition, the proper time_bomb can be optionally created that will cause rulemanager to send out the email.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

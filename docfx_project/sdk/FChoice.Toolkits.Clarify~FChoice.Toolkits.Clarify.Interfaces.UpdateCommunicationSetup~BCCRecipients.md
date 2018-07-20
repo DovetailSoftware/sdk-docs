@@ -1,28 +1,20 @@
-﻿     BCCRecipients Property (UpdateCommunicationSetup)                                                   
-
-fcSDK Documentation
-
-BCCRecipients Property (UpdateCommunicationSetup)
+﻿### BCCRecipients Property (UpdateCommunicationSetup)
 
 Array of addresses for BCC Recipients.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Property BCCRecipients As [String()](#)
+```
 
-public [string\[\]](#) BCCRecipients {get; set;}
+```csharp
+public string[] BCCRecipients {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

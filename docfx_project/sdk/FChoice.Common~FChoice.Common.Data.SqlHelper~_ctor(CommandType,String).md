@@ -1,6 +1,4 @@
-﻿     SqlHelper Constructor(CommandType,String)                                                   
-
-SqlHelper Constructor(CommandType,String)
+﻿### SqlHelper Constructor(CommandType,String)
 
 The [CommandType](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataCommandTypeClassTopic.htm) this instance of SqlHelper should use when executing the _cmdTxt_ statement.
 
@@ -11,10 +9,7 @@ Creates a new instance of SqlHelper with the specified [CommandType](FChoice.Com
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function New( _
    ByVal _inCmdType_ As [CommandType](#), _
@@ -40,11 +35,9 @@ Remarks
 
 When the _inCmdType_ parameter is set to **StoredProcedure**, set the _cmdText_ parameter to the name of the stored procedure. The user may be required to use escape character syntax if the stored procedure name contains any special characters. The command will call this stored procedure when you call one of the Execute methods.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

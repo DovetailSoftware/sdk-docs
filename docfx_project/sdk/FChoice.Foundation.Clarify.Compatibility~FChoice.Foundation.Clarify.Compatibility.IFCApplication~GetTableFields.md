@@ -1,23 +1,16 @@
-﻿     GetTableFields Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetTableFields Method (IFCApplication)
+﻿### GetTableFields Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743899)>
+<DispIdAttribute(1610743899)>
 Function GetTableFields( _
    ByVal _tableName_ As String _
 ) As ADODB.Recordset
 
-\[[DispIdAttribute](#)(1610743899)\]
+[DispIdAttribute(1610743899)]
 ADODB.Recordset GetTableFields( 
    string _tableName_
 )
@@ -26,11 +19,9 @@ ADODB.Recordset GetTableFields(
 
 _tableName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,16 +1,9 @@
-﻿     Or(Filter,Filter) Method                                                   
-
-fcSDK Documentation
-
-Or(Filter,Filter) Method
+﻿### Or(Filter,Filter) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function Or( _
    ByVal _filter1_ As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md), _
@@ -28,11 +21,9 @@ _filter1_
 
 _filter2_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

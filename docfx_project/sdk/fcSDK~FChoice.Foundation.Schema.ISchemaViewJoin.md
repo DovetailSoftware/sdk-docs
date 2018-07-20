@@ -1,17 +1,9 @@
-﻿     ISchemaViewJoin Interface                                                   
-
-fcSDK Documentation
-
-ISchemaViewJoin Interface
+﻿### ISchemaViewJoin Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Interface ISchemaViewJoin 
 
 public interface ISchemaViewJoin 
@@ -24,7 +16,7 @@ public interface ISchemaViewJoin
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

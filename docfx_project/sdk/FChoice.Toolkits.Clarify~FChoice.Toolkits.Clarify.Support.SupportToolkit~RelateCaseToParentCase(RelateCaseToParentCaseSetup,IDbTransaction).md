@@ -1,8 +1,4 @@
-﻿     RelateCaseToParentCase(RelateCaseToParentCaseSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-RelateCaseToParentCase(RelateCaseToParentCaseSetup,IDbTransaction) Method
+﻿### RelateCaseToParentCase(RelateCaseToParentCaseSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Relates a Case to a specified parent Case. This overload takes a setup object an
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function RelateCaseToParentCase( _
    ByVal _setupParam_ As [RelateCaseToParentCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

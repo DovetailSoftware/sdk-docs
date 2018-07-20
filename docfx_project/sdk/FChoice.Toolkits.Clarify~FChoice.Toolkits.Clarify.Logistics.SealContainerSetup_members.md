@@ -1,8 +1,4 @@
-﻿     SealContainerSetup Class Members                                                   
-
-fcSDK Documentation
-
-SealContainerSetup Class Members
+﻿### SealContainerSetup Class Members
 
 The following tables list the members exposed by [SealContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SealContainerSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SealContainerSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SealContainerSetup~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -20,9 +16,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ContainerName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SealContainerSetup~ContainerName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

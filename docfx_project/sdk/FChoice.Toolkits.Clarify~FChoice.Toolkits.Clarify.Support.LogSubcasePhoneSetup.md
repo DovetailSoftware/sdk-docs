@@ -1,26 +1,18 @@
-﻿     LogSubcasePhoneSetup Class                                                   
-
-fcSDK Documentation
-
-LogSubcasePhoneSetup Class
+﻿### LogSubcasePhoneSetup Class
 
 Used by the [LogSubcasePhone](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubcasePhone(LogSubcasePhoneSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogSubcasePhoneSetup 
 
 public class LogSubcasePhoneSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

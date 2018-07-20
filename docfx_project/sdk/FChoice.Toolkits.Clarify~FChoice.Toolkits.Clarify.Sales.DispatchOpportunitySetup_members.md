@@ -1,8 +1,4 @@
-﻿     DispatchOpportunitySetup Class Members                                                   
-
-fcSDK Documentation
-
-DispatchOpportunitySetup Class Members
+﻿### DispatchOpportunitySetup Class Members
 
 The following tables list the members exposed by [DispatchOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchOpportunitySetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DispatchOpportunitySetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchOpportunitySetup~_ctor.md) | Initializes a new instance of the DispatchOpportunitySetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchOpportunitySetup~Queue.md) | The queue into which the Opportunity is to be dispatched.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchOpportunitySetup~UserName.md) | The user who has dispatched the Opportunity. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

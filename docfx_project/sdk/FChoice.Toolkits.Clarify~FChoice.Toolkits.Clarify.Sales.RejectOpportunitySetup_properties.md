@@ -1,8 +1,4 @@
-﻿     RejectOpportunitySetup Class Properties                                                   
-
-fcSDK Documentation
-
-RejectOpportunitySetup Class Properties
+﻿### RejectOpportunitySetup Class Properties
 
 For a list of all members of this type, see [RejectOpportunitySetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectOpportunitySetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectOpportunitySetup~UserName.md) | The user who has rejected the Opportunity. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectOpportunitySetup~WipBin.md) | User's WipBin in which to place the Opportunity. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

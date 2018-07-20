@@ -1,18 +1,11 @@
-﻿     UserName Property (FCSession)                                                   
-
-fcSDK Documentation
-
-UserName Property (FCSession)
+﻿### UserName Property (FCSession)
 
 Returns the login name for the session's logged-in user.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property UserName As String
 
@@ -22,11 +15,9 @@ public string UserName {get;}
 
 Returns the login name for the session's logged-in user.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

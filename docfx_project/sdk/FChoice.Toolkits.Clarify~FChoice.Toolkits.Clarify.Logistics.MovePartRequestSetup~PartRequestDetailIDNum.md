@@ -1,19 +1,11 @@
-﻿     PartRequestDetailIDNum Property (MovePartRequestSetup)                                                   
-
-fcSDK Documentation
-
-PartRequestDetailIDNum Property (MovePartRequestSetup)
+﻿### PartRequestDetailIDNum Property (MovePartRequestSetup)
 
 Part Request Detail Identifier
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property PartRequestDetailIDNum As String
 
@@ -24,11 +16,9 @@ Remarks
 
 The specified part request detail must be open.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

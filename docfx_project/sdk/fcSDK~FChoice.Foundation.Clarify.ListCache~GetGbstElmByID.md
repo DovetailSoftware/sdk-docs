@@ -1,8 +1,4 @@
-﻿     GetGbstElmByID Method (ListCache)                                                   
-
-fcSDK Documentation
-
-GetGbstElmByID Method (ListCache)
+﻿### GetGbstElmByID Method (ListCache)
 
 The name of the GBST/application pop-up list
 
@@ -13,19 +9,15 @@ Gets the value of an element with the specified objid in the specified applicati
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetGbstElmByID( _
    ByVal _listTitle_ As String, _
-   ByVal _elmObjID_ As [Integer](#) _
+   ByVal _elmObjID_ As Integer _
 ) As String
 
 public string GetGbstElmByID( 
    string _listTitle_,
-   [int](#) _elmObjID_
+   int _elmObjID_
 )
 
 #### Parameters
@@ -46,11 +38,9 @@ Remarks
 
 If the no list exists with the specified _listTitle_, an exception will be thrown.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

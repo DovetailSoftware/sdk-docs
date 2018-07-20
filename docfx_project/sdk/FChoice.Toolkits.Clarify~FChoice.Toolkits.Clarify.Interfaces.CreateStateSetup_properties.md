@@ -1,8 +1,4 @@
-﻿     CreateStateSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateStateSetup Class Properties
+﻿### CreateStateSetup Class Properties
 
 For a list of all members of this type, see [CreateStateSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateStateSetup_members.md).
 
@@ -18,9 +14,9 @@ Name of the Country the State will belong to.
 | ![Public Property](dotnetimages/publicProperty.png) | [IsDefault](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateStateSetup~IsDefault.md) | Is this the default State for the country?   |
 | ![Public Property](dotnetimages/publicProperty.png) | [State](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateStateSetup~State.md) | State name   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

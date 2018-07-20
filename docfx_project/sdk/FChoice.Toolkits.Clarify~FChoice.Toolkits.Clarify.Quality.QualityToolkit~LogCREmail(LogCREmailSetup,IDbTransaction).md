@@ -1,8 +1,4 @@
-﻿     LogCREmail(LogCREmailSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-LogCREmail(LogCREmailSetup,IDbTransaction) Method
+﻿### LogCREmail(LogCREmailSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to create a email log for a CR. This overload takes a setup object and a 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogCREmail( _
    ByVal _setupParam_ As [LogCREmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

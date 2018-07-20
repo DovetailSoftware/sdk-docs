@@ -1,8 +1,4 @@
-﻿     CreateContractLineItemSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateContractLineItemSetup Class Properties
+﻿### CreateContractLineItemSetup Class Properties
 
 For a list of all members of this type, see [CreateContractLineItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup_members.md).
 
@@ -32,9 +28,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UnitsUsed](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup~UnitsUsed.md) | The number of units used for the Line Item.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup~UserName.md) | The username of the user who is creating the Line Item. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

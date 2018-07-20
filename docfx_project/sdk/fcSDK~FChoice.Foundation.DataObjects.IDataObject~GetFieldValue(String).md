@@ -1,22 +1,15 @@
-﻿     GetFieldValue(String) Method                                                   
-
-fcSDK Documentation
-
-GetFieldValue(String) Method
+﻿### GetFieldValue(String) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Overloads Function GetFieldValue( _
    ByVal _colName_ As String _
-) As [Object](#)
+) As Object
 
-[object](#) GetFieldValue( 
+object GetFieldValue( 
    string _colName_
 )
 
@@ -24,11 +17,9 @@ Overloads Function GetFieldValue( _
 
 _colName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

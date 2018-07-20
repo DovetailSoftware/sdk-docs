@@ -1,8 +1,4 @@
-﻿     ChangeCRStatusSetup Constructor                                                   
-
-fcSDK Documentation
-
-ChangeCRStatusSetup Constructor
+﻿### ChangeCRStatusSetup Constructor
 
 Change Request Identifier
 
@@ -11,17 +7,14 @@ Initializes a new instance of the ChangeCRStatusSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _crIDNum_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public ChangeCRStatusSetup( 
    string _crIDNum_
 )
@@ -32,11 +25,9 @@ _crIDNum_
 
 Change Request Identifier
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

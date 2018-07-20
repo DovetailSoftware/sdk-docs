@@ -1,16 +1,9 @@
-﻿     CheckIsNullAttribute Class                                                   
-
-fcSDK Documentation
-
-CheckIsNullAttribute Class
+﻿### CheckIsNullAttribute Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Parameter, 
    AllowMultiple=False, 
@@ -25,7 +18,7 @@ public class CheckIsNullAttribute : [System.Attribute](#)
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Attribute](#)  
       **FChoice.Foundation.Clarify.Attributes.CheckIsNullAttribute**  
 
@@ -37,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

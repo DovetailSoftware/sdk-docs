@@ -1,17 +1,9 @@
-﻿     ConfigItem Class                                                   
-
-fcSDK Documentation
-
-ConfigItem Class
+﻿### ConfigItem Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustInherit Class ConfigItem 
    Inherits [DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)
    Implements [IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
@@ -20,7 +12,7 @@ public abstract class ConfigItem : [DataObject](fcSDK~FChoice.Foundation.DataObj
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  
       **FChoice.Foundation.DataObjects.ConfigItem**  
          [FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem.md)  
@@ -33,7 +25,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

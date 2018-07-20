@@ -1,8 +1,4 @@
-﻿     FCList Class Methods                                                   
-
-fcSDK Documentation
-
-FCList Class Methods
+﻿### FCList Class Methods
 
 For a list of all members of this type, see [FCList members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList_members.md).
 
@@ -19,9 +15,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [ItemByIndex](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList~ItemByIndex.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [Sort](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList~Sort.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

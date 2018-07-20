@@ -1,6 +1,4 @@
-﻿     MemoryStateManager Class Members                                                   
-
-MemoryStateManager Class Members
+﻿### MemoryStateManager Class Members
 
 The following tables list the members exposed by [MemoryStateManager](FChoice.Common~FChoice.Common.State.MemoryStateManager.md).
 
@@ -10,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [MemoryStateManager Constructor](FChoice.Common~FChoice.Common.State.MemoryStateManager~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -20,7 +18,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [IsStateSerialized](FChoice.Common~FChoice.Common.State.MemoryStateManager~IsStateSerialized.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [StateTimeout](FChoice.Common~FChoice.Common.State.MemoryStateManager~StateTimeout.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -36,9 +34,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [ResetTimeout](FChoice.Common~FChoice.Common.State.MemoryStateManager~ResetTimeout.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [SaveState](FChoice.Common~FChoice.Common.State.MemoryStateManager~SaveState.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

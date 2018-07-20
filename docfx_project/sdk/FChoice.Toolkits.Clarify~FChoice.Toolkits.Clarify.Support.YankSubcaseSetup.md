@@ -1,26 +1,18 @@
-﻿     YankSubcaseSetup Class                                                   
-
-fcSDK Documentation
-
-YankSubcaseSetup Class
+﻿### YankSubcaseSetup Class
 
 Used by the [YankSubcase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~YankSubcase(YankSubcaseSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class YankSubcaseSetup 
 
 public class YankSubcaseSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.YankSubcaseSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

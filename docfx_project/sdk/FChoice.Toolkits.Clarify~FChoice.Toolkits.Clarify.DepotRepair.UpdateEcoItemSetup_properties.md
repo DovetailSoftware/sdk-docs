@@ -1,8 +1,4 @@
-﻿     UpdateEcoItemSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateEcoItemSetup Class Properties
+﻿### UpdateEcoItemSetup Class Properties
 
 For a list of all members of this type, see [UpdateEcoItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoItemSetup_members.md).
 
@@ -20,9 +16,9 @@ This must be either 5148 to apply the ECO item to an ECO header, or 329 to apply
 | ![Public Property](dotnetimages/publicProperty.png) | [IsActive](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoItemSetup~IsActive.md) | Is the ECO item active (true) or inactive (false)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ResultPartRevisionObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoItemSetup~ResultPartRevisionObjid.md) | The objid of resulting part revision after applying the ECO, or 0 for no change.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

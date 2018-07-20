@@ -1,8 +1,4 @@
-﻿     UpdateCommunicationSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateCommunicationSetup Class Members
+﻿### UpdateCommunicationSetup Class Members
 
 The following tables list the members exposed by [UpdateCommunicationSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateCommunicationSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateCommunicationSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateCommunicationSetup~_ctor.md) | Initializes a new instance of the UpdateCommunicationSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -38,9 +34,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Updated](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateCommunicationSetup~Updated.md) | The date and time that the communication was updated.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateCommunicationSetup~UserName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

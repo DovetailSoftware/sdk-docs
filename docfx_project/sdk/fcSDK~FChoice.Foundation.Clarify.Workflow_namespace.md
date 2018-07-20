@@ -18,7 +18,7 @@ Enumerations
 | --- | --- | --- |
 | ![Enumeration](dotnetimages/Enumeration.png) | [AttachmentFolderMode](fcSDK~FChoice.Foundation.Clarify.Workflow.AttachmentFolderMode.md) |   |
 
-See Also
+
 
 #### Reference
 

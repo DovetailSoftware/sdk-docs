@@ -1,8 +1,4 @@
-﻿     ChangePartRequestStatusSetup Class Members                                                   
-
-fcSDK Documentation
-
-ChangePartRequestStatusSetup Class Members
+﻿### ChangePartRequestStatusSetup Class Members
 
 The following tables list the members exposed by [ChangePartRequestStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ChangePartRequestStatusSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup~_ctor.md) | Initializes a new instance of the ChangePartRequestStatusSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRequestDetailIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup~PartRequestDetailIDNum.md) | Part Request Detail Identifier   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup~UserName.md) | The user who is changing the status of the Part Request. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

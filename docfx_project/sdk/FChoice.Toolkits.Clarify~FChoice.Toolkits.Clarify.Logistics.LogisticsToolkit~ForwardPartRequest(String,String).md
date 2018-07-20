@@ -1,8 +1,4 @@
-﻿     ForwardPartRequest(String,String) Method                                                   
-
-fcSDK Documentation
-
-ForwardPartRequest(String,String) Method
+﻿### ForwardPartRequest(String,String) Method
 
 Part Request Detail Identifier
 
@@ -13,10 +9,7 @@ Reject-forward the PartRequest from one queue to another. This overload takes a 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ForwardPartRequest( _
    ByVal _partRequestDetailIDNum_ As String, _
@@ -46,11 +39,9 @@ Remarks
 
 The PartRequest must be in open condition, and not currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

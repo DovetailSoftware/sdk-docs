@@ -1,18 +1,11 @@
-﻿     Instance Property (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-Instance Property (ClarifyApplication)
+﻿### Instance Property (ClarifyApplication)
 
 Returns the singleton instance of ClarifyApplication if initialized.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shared ReadOnly Property Instance As [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)
 
@@ -32,11 +25,9 @@ Remarks
 
 If not already initialized, an exception will be thrown. First call [Initialize](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~Initialize.md).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

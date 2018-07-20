@@ -1,8 +1,4 @@
-﻿     DeleteEcoItem(DeleteEcoItemSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-DeleteEcoItem(DeleteEcoItemSetup,IDbTransaction) Method
+﻿### DeleteEcoItem(DeleteEcoItemSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Delete an ECO Item. This overload takes a setup object and a database transactio
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DeleteEcoItem( _
    ByVal _setupParam_ As [DeleteEcoItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoItemSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

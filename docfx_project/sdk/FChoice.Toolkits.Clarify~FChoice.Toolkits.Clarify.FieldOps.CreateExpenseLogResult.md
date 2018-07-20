@@ -1,29 +1,25 @@
-﻿     CreateExpenseLogResult Class                                                   
-
-fcSDK Documentation
-
-CreateExpenseLogResult Class
+﻿### CreateExpenseLogResult Class
 
 Result from the [CreateExpenseLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~CreateExpenseLog.md) API.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Class CreateExpenseLogResult 
-   Inherits [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   Inherits FChoice.Toolkits.Clarify.ToolkitResult
+```
 
-public class CreateExpenseLogResult : [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) 
+```csharp
+public class CreateExpenseLogResult : FChoice.Toolkits.Clarify.ToolkitResult 
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  
-      **FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult**  
+System.Object  
+[FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  
+**FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult**  
 
 #### Requirements
 
@@ -32,8 +28,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-See Also
 
 #### Reference
 

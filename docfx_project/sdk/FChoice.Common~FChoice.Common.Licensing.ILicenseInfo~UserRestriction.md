@@ -1,24 +1,16 @@
-﻿     UserRestriction Property (ILicenseInfo)                                                   
-
-UserRestriction Property (ILicenseInfo)
+﻿### UserRestriction Property (ILicenseInfo)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 ReadOnly Property UserRestriction As [LicenseUserRestrictionType](FChoice.Common~FChoice.Common.Licensing.LicenseUserRestrictionType.md)
 
 [LicenseUserRestrictionType](FChoice.Common~FChoice.Common.Licensing.LicenseUserRestrictionType.md) UserRestriction {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

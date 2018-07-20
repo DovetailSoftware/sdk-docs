@@ -1,8 +1,4 @@
-﻿     CreateSiteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateSiteSetup Class Properties
+﻿### CreateSiteSetup Class Properties
 
 For a list of all members of this type, see [CreateSiteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSiteSetup_members.md).
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSiteSetup~Status.md) | Site status   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SupportOfficeSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSiteSetup~SupportOfficeSiteIDNum.md) | Identifier of the site where the support office is located   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

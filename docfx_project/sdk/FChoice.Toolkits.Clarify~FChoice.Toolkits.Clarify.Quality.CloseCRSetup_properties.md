@@ -1,8 +1,4 @@
-﻿     CloseCRSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CloseCRSetup Class Properties
+﻿### CloseCRSetup Class Properties
 
 For a list of all members of this type, see [CloseCRSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup_members.md).
 
@@ -20,9 +16,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TestCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup~TestCase.md) | Test case name for the Change Request closing   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup~UserName.md) | The user closing the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

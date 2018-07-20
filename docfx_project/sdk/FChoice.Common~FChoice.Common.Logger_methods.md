@@ -1,6 +1,4 @@
-﻿     Logger Class Methods                                                   
-
-Logger Class Methods
+﻿### Logger Class Methods
 
 For a list of all members of this type, see [Logger members](FChoice.Common~FChoice.Common.Logger_members.md).
 
@@ -14,9 +12,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [LogInfo](FChoice.Common~FChoice.Common.Logger~LogInfo.md) | Overloaded. Writes a INFO-level log entry if INFO-level logging is enabled.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [LogWarn](FChoice.Common~FChoice.Common.Logger~LogWarn.md) | Overloaded. Writes a WARN-level log entry if WARN-level logging is enabled.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     DatabaseParameterFactory Class Methods                                                   
-
-fcSDK Documentation
-
-DatabaseParameterFactory Class Methods
+﻿### DatabaseParameterFactory Class Methods
 
 For a list of all members of this type, see [DatabaseParameterFactory members](fcSDK~FChoice.Foundation.Clarify.DatabaseParameterFactory_members.md).
 
@@ -14,9 +10,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Create](fcSDK~FChoice.Foundation.Clarify.DatabaseParameterFactory~Create.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [ShouldStringParameterTypeAndSizeBeSet](fcSDK~FChoice.Foundation.Clarify.DatabaseParameterFactory~ShouldStringParameterTypeAndSizeBeSet.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

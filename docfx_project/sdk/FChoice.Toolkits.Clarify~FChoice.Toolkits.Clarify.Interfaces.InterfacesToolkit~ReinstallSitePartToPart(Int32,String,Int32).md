@@ -1,8 +1,4 @@
-﻿     ReinstallSitePartToPart(Int32,String,Int32) Method                                                   
-
-fcSDK Documentation
-
-ReinstallSitePartToPart(Int32,String,Int32) Method
+﻿### ReinstallSitePartToPart(Int32,String,Int32) Method
 
 Objid of the Site Part being re-installed
 
@@ -15,22 +11,22 @@ Re-Install a Site Part under another Site Part. This overload takes a set of req
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function ReinstallSitePartToPart( _
-   ByVal _sitePartObjid_ As [Integer](#), _
+   ByVal _sitePartObjid_ As Integer, _
    ByVal _siteIDNum_ As String, _
-   ByVal _parentSitePartObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _parentSitePartObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReinstallSitePartToPart( 
-   [int](#) _sitePartObjid_,
+```csharp
+public ToolkitResult ReinstallSitePartToPart( 
+   int _sitePartObjid_,
    string _siteIDNum_,
-   [int](#) _parentSitePartObjid_
+   int _parentSitePartObjid_
 )
+```
 
 #### Parameters
 
@@ -48,13 +44,9 @@ Objid of the parent Site Part this Part will be re-installed under.
 
 #### Return Value
 
-A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

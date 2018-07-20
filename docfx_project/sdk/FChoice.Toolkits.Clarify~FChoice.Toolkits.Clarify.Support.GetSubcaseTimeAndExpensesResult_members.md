@@ -1,8 +1,4 @@
-﻿     GetSubcaseTimeAndExpensesResult Class Members                                                   
-
-fcSDK Documentation
-
-GetSubcaseTimeAndExpensesResult Class Members
+﻿### GetSubcaseTimeAndExpensesResult Class Members
 
 The following tables list the members exposed by [GetSubcaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [GetSubcaseTimeAndExpensesResult Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult~_ctor().md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ReturnCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~ReturnCode.md) | Return code of the API call. (Inherited from [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [SubcaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult~SubcaseTimeAndExpenses.md) | Contains the sums and totals calculated before closing a Case.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

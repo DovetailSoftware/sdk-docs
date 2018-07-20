@@ -1,8 +1,4 @@
-﻿     LogSubcaseResearch(String,TimeSpan) Method                                                   
-
-fcSDK Documentation
-
-LogSubcaseResearch(String,TimeSpan) Method
+﻿### LogSubcaseResearch(String,TimeSpan) Method
 
 Identifier of the Subcase against which the research note is being logged.
 
@@ -13,19 +9,16 @@ Creates a research log against a Subcase. This overload takes a set of require
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogSubcaseResearch( _
    ByVal _subcaseIDNum_ As String, _
-   ByVal _researchDuration_ As [TimeSpan](#) _
+   ByVal _researchDuration_ As TimeSpan _
 ) As [LogSubcaseResearchResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchResult.md)
 
 public [LogSubcaseResearchResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchResult.md) LogSubcaseResearch( 
    string _subcaseIDNum_,
-   [TimeSpan](#) _researchDuration_
+   TimeSpan _researchDuration_
 )
 
 #### Parameters
@@ -50,11 +43,9 @@ Remarks
 
 It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup~IsCommitmentToCustomer.md) properties
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

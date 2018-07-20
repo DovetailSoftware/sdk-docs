@@ -1,8 +1,4 @@
-﻿     ChangeSubcaseStatus(ChangeSubcaseStatusSetup) Method                                                   
-
-fcSDK Documentation
-
-ChangeSubcaseStatus(ChangeSubcaseStatusSetup) Method
+﻿### ChangeSubcaseStatus(ChangeSubcaseStatusSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Changes the status of a Subcase. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ChangeSubcaseStatus( _
    ByVal _setupParam_ As [ChangeSubcaseStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeSubcaseStatusSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Subcase may be opened or closed, but the status selected must be valid for the current condition. In other words, you cannot assign a Closed condition status to a Subcase that is currently Open.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

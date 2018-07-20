@@ -1,8 +1,4 @@
-﻿     AddEmployeeToAccount(String,String) Method                                                   
-
-fcSDK Documentation
-
-AddEmployeeToAccount(String,String) Method
+﻿### AddEmployeeToAccount(String,String) Method
 
 Username of the Account team member .
 
@@ -13,10 +9,7 @@ Add an Employee as a team member to an Account with a specified role. This overl
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AddEmployeeToAccount( _
    ByVal _userName_ As String, _
@@ -48,11 +41,9 @@ Remarks
 
 If no [RoleName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup~RoleName.md) is specified then the default role name is used.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

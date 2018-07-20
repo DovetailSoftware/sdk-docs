@@ -1,24 +1,16 @@
-﻿     LogSubcaseInternalNoteSetup Class                                                   
-
-fcSDK Documentation
-
-LogSubcaseInternalNoteSetup Class
+﻿### LogSubcaseInternalNoteSetup Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogSubcaseInternalNoteSetup 
 
 public class LogSubcaseInternalNoteSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.LogSubcaseInternalNoteSetup**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,24 +1,16 @@
-﻿     GetTimeZoneObjid Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetTimeZoneObjid Method (IFCApplication)
+﻿### GetTimeZoneObjid Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743866)>
+' Declaration
+<DispIdAttribute(1610743866)>
 Function GetTimeZoneObjid( _
    ByVal _TimeZone_ As String _
-) As [Integer](#)
+) As Integer
 
-\[[DispIdAttribute](#)(1610743866)\]
-[int](#) GetTimeZoneObjid( 
+[DispIdAttribute(1610743866)]
+int GetTimeZoneObjid( 
    string _TimeZone_
 )
 
@@ -26,11 +18,9 @@ Function GetTimeZoneObjid( _
 
 _TimeZone_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

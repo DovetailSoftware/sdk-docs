@@ -1,8 +1,4 @@
-﻿     UpdateProductBin(UpdateProductBinSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-UpdateProductBin(UpdateProductBinSetup,IDbTransaction) Method
+﻿### UpdateProductBin(UpdateProductBinSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Update a Product Bin. This overload takes a setup object and a database transact
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateProductBin( _
    ByVal _setupParam_ As [UpdateProductBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateProductBinSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

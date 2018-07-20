@@ -1,20 +1,15 @@
-﻿     SyncRoot Property (DataParameterCollection)                                                   
-
-SyncRoot Property (DataParameterCollection)
+﻿### SyncRoot Property (DataParameterCollection)
 
 Gets an object that can be used to synchronize access to this instance of the DataParameterCollection.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property SyncRoot As Object
 
-Public ReadOnly Property SyncRoot As [Object](#)
-
-public [object](#) SyncRoot {get;}
+public object SyncRoot {get;}
 
 #### Property Value
 
@@ -26,11 +21,9 @@ Enumerating through a collection is intrinsically not a thread-safe procedure. E
 
 Lock on SyncRoot before enumerating through this collection to ensure thread safety.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     UpdateSitePartSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateSitePartSetup Class
+﻿### UpdateSitePartSetup Class
 
 Used by the [UpdateSitePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateSitePart(UpdateSitePartSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateSitePartSetup 
 
 public class UpdateSitePartSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UpdateSitePartSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

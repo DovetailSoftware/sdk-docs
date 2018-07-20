@@ -1,8 +1,4 @@
-﻿     DispatchCaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DispatchCaseSetup Class Properties
+﻿### DispatchCaseSetup Class Properties
 
 For a list of all members of this type, see [DispatchCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchCaseSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchCaseSetup~Queue.md) | The queue into which the Case is to be dispatched.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchCaseSetup~UserName.md) | The user who has dispatched the Case. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

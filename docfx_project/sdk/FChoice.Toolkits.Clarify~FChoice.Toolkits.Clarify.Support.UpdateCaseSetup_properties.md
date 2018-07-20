@@ -1,8 +1,4 @@
-﻿     UpdateCaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateCaseSetup Class Properties
+﻿### UpdateCaseSetup Class Properties
 
 For a list of all members of this type, see [UpdateCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseSetup_members.md).
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseSetup~UpdateDate.md) | DateTime the Case was updated. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseSetup~UserName.md) | User who updating the Case. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

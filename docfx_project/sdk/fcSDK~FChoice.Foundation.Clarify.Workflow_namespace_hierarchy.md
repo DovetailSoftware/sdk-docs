@@ -6,7 +6,7 @@ FChoice.Foundation.Clarify.Workflow Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Clarify.Workflow.WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md)  
    [FChoice.Foundation.Clarify.Workflow.WorkflowManager](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager.md)  
    [System.Exception](#)  
@@ -14,7 +14,7 @@ Inheritance Hierarchy
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             [FChoice.Foundation.Clarify.Workflow.WorkflowException](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowException.md)  
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     GetMtmTableName Method (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-GetMtmTableName Method (ClarifyApplication)
+﻿### GetMtmTableName Method (ClarifyApplication)
 
 The MTM relation from which the MTM table name is to be generated
 
@@ -11,10 +7,7 @@ Returns the name of the physical MTM table for a given MTM relationship using th
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function GetMtmTableName( _
    ByVal _relation_ As [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md) _
@@ -34,11 +27,9 @@ The MTM relation from which the MTM table name is to be generated
 
 The name of the physical MTM table for a given MTM relationship using the Clarify MTM naming conventions
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

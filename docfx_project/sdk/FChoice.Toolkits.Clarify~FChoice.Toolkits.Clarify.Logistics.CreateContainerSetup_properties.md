@@ -1,8 +1,4 @@
-﻿     CreateContainerSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateContainerSetup Class Properties
+﻿### CreateContainerSetup Class Properties
 
 For a list of all members of this type, see [CreateContainerSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateContainerSetup_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ContainerName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateContainerSetup~ContainerName.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [LocationName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateContainerSetup~LocationName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

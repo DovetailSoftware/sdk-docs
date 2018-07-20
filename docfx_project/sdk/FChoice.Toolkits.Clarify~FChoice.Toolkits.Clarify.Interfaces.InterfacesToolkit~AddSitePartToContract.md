@@ -1,8 +1,4 @@
-﻿     AddSitePartToContract Method                                                   
-
-fcSDK Documentation
-
-AddSitePartToContract Method
+﻿### AddSitePartToContract Method
 
 Adds a Site Part to an existing contract.
 
@@ -16,11 +12,9 @@ Overload List
 | [AddSitePartToContract(AddSitePartToContractSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AddSitePartToContract(AddSitePartToContractSetup).md) | Adds a Site Part to a Contract. This overload takes a setup object.   |
 | [AddSitePartToContract(AddSitePartToContractSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AddSitePartToContract(AddSitePartToContractSetup,IDbTransaction).md) | Adds a Site Part to a Contract. This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

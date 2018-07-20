@@ -1,23 +1,15 @@
-﻿     IFCSession Interface                                                   
-
-fcSDK Documentation
-
-IFCSession Interface
+﻿### IFCSession Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DefaultMemberAttribute](#)("Item")>
+' Declaration
+<DefaultMemberAttribute("Item")>
 <[GuidAttribute](#)("772CB7F1-F6D6-4783-9390-979DE87386C9")>
 <[ComVisibleAttribute](#)(True)>
 Public Interface IFCSession 
 
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 \[[GuidAttribute](#)("772CB7F1-F6D6-4783-9390-979DE87386C9")\]
 \[[ComVisibleAttribute](#)(true)\]
 public interface IFCSession 
@@ -30,7 +22,7 @@ public interface IFCSession
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

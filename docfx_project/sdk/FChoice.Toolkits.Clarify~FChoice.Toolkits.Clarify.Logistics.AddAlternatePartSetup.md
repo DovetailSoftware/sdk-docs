@@ -1,26 +1,18 @@
-﻿     AddAlternatePartSetup Class                                                   
-
-fcSDK Documentation
-
-AddAlternatePartSetup Class
+﻿### AddAlternatePartSetup Class
 
 Used by the [AddAlternatePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddAlternatePart(AddAlternatePartSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AddAlternatePartSetup 
 
 public class AddAlternatePartSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     BeginInitialize Method                                                   
-
-fcSDK Documentation
-
-BeginInitialize Method
+﻿### BeginInitialize Method
 
 The method to be called when the asynchronous initialization is completed.
 
@@ -13,19 +9,16 @@ Begins an asynchronous **ClarifyApplication** initialization.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shared Function BeginInitialize( _
    ByVal _callback_ As [AsyncCallback](#), _
-   ByVal _state_ As [Object](#) _
+   ByVal _state_ As Object _
 ) As [IAsyncResult](#)
 
 public static [IAsyncResult](#) BeginInitialize( 
    [AsyncCallback](#) _callback_,
-   [object](#) _state_
+   object _state_
 )
 
 #### Parameters
@@ -48,11 +41,9 @@ The **BeginInitialize** method starts an asynchronous initialization of the **Cl
 
 Your callback method should call [EndInitialize](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~EndInitialize.md) to complete the operation. Please see the [Asynchronous Design Pattern Overview](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpguide/html/cpconasynchronousdesignpatternoverview.asp) for more details on using asynchronous methods.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

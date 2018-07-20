@@ -1,6 +1,4 @@
-﻿     SaveState Method (OracleStateManager)                                                   
-
-SaveState Method (OracleStateManager)
+﻿### SaveState Method (OracleStateManager)
 
 Overload List
 
@@ -9,11 +7,9 @@ Overload List
 | [SaveState(Guid,Byte\[\])](FChoice.Common~FChoice.Common.State.OracleStateManager~SaveState(Guid,Byte[]).md) |   |
 | [SaveState(Guid,Object)](FChoice.Common~FChoice.Common.State.RemoteStateManager~SaveState(Guid,Object).md) | (Inherited from [FChoice.Common.State.RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)) |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

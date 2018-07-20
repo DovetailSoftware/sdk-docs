@@ -1,8 +1,4 @@
-﻿     AddInventoryLocationSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AddInventoryLocationSetup Class Properties
+﻿### AddInventoryLocationSetup Class Properties
 
 For a list of all members of this type, see [AddInventoryLocationSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryLocationSetup_members.md).
 
@@ -31,9 +27,9 @@ The identifier of the Site with which the inventory location is to be associate
 
   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

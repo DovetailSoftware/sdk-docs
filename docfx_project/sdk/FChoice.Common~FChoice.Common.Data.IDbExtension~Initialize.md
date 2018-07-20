@@ -1,6 +1,4 @@
-﻿     Initialize Method (IDbExtension)                                                   
-
-Initialize Method (IDbExtension)
+﻿### Initialize Method (IDbExtension)
 
 The provider this extension is extending
 
@@ -11,10 +9,7 @@ Initialize is called by the DbProvider when loading extensions. This method allo
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Sub Initialize( _
    ByVal _provider_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md), _
@@ -36,11 +31,9 @@ _extensionConfig_
 
 The XML configuration specified for this extension in the application configuration file
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

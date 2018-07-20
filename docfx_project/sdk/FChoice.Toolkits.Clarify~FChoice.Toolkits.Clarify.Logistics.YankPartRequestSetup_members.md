@@ -1,8 +1,4 @@
-﻿     YankPartRequestSetup Class Members                                                   
-
-fcSDK Documentation
-
-YankPartRequestSetup Class Members
+﻿### YankPartRequestSetup Class Members
 
 The following tables list the members exposed by [YankPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [YankPartRequestSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup~_ctor.md) | Initializes a new instance of the YankPartRequestSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup~WipBin.md) | User's WipBin in which to place the PartRequest. If not set, the UserName's default is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [YankDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup~YankDate.md) | DateTime the PartRequest was yanked. If not set, the current time is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

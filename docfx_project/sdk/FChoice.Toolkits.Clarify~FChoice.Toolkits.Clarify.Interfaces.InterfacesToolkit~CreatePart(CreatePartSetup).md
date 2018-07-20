@@ -1,8 +1,4 @@
-﻿     CreatePart(CreatePartSetup) Method                                                   
-
-fcSDK Documentation
-
-CreatePart(CreatePartSetup) Method
+﻿### CreatePart(CreatePartSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Create a Part. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreatePart( _
    ByVal _setupParam_ As [CreatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartSetup.md) _
@@ -40,11 +33,9 @@ Remarks
 
 Just calling this API will **NOT** cause the part to be visible in Clarify. There must be at least one [Part Revision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreatePartRevision.md) present to view a Part.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -18,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Table](#) | (Inherited from [System.Data.DataRow](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.GenericDataRow~UniqueID.md) | Returns Unique Identifier of this row in the database.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,24 +1,16 @@
-﻿     CreateSubContainerSetup Class                                                   
-
-fcSDK Documentation
-
-CreateSubContainerSetup Class
+﻿### CreateSubContainerSetup Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreateSubContainerSetup 
 
 public class CreateSubContainerSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     ForwardCaseSetup Class                                                   
-
-fcSDK Documentation
-
-ForwardCaseSetup Class
+﻿### ForwardCaseSetup Class
 
 Used by the [ForwardCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ForwardCase(ForwardCaseSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ForwardCaseSetup 
 
 public class ForwardCaseSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.ForwardCaseSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

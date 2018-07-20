@@ -1,8 +1,4 @@
-﻿     CreateSchedule(CreateScheduleSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateSchedule(CreateScheduleSetup) Method
+﻿### CreateSchedule(CreateScheduleSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Used to create a contract schedule. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateSchedule( _
    ByVal _setupParam_ As [CreateScheduleSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateScheduleSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The contract ID must be specified, and the ID of the schedule is also specified. You may specify the bill-to or ship-to site, the price program, and the code list values. In addition, you may specify a variety of dates.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

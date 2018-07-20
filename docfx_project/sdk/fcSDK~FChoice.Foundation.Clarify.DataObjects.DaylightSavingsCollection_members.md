@@ -1,8 +1,4 @@
-﻿     DaylightSavingsCollection Class Members                                                   
-
-fcSDK Documentation
-
-DaylightSavingsCollection Class Members
+﻿### DaylightSavingsCollection Class Members
 
 The following tables list the members exposed by [DaylightSavingsCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<DaylightSavingsPeriod>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.Generic.List<DaylightSavingsPeriod>](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,9 +49,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<DaylightSavingsPeriod>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<DaylightSavingsPeriod>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

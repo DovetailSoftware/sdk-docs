@@ -1,8 +1,4 @@
-﻿     ForwardSolutionSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ForwardSolutionSetup Class Properties
+﻿### ForwardSolutionSetup Class Properties
 
 For a list of all members of this type, see [ForwardSolutionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ForwardSolutionSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SolutionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ForwardSolutionSetup~SolutionIDNum.md) | Solution Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ForwardSolutionSetup~UserName.md) | The user who has forwarded the Solution. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     LogContractNoteSetup Class                                                   
-
-fcSDK Documentation
-
-LogContractNoteSetup Class
+﻿### LogContractNoteSetup Class
 
 Used by the [LogContractNote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~LogContractNote(LogContractNoteSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogContractNoteSetup 
 
 public class LogContractNoteSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,16 +1,9 @@
-﻿     FacadePropertyAttribute Class                                                   
-
-fcSDK Documentation
-
-FacadePropertyAttribute Class
+﻿### FacadePropertyAttribute Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Method, 
    AllowMultiple=True, 
@@ -25,7 +18,7 @@ public class FacadePropertyAttribute : [System.Attribute](#)
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Attribute](#)  
       **FChoice.Foundation.Clarify.Attributes.FacadePropertyAttribute**  
 
@@ -37,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

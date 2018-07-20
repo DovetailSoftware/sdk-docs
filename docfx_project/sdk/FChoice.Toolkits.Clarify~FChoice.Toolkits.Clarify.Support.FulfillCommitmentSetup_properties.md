@@ -1,8 +1,4 @@
-﻿     FulfillCommitmentSetup Class Properties                                                   
-
-fcSDK Documentation
-
-FulfillCommitmentSetup Class Properties
+﻿### FulfillCommitmentSetup Class Properties
 
 For a list of all members of this type, see [FulfillCommitmentSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [LogObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup~LogObjid.md) | Log Objid of the log to be fulfilled.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup~UserName.md) | The User who fulfilled the Commitment. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

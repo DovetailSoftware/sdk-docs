@@ -1,8 +1,4 @@
-﻿     ISchemaTableCollection Interface Methods                                                   
-
-fcSDK Documentation
-
-ISchemaTableCollection Interface Methods
+﻿### ISchemaTableCollection Interface Methods
 
 For a list of all members of this type, see [ISchemaTableCollection members](fcSDK~FChoice.Foundation.Schema.ISchemaTableCollection_members.md).
 
@@ -12,9 +8,9 @@ Public Methods
 | --- | --- | --- |
 | ![ Method](dotnetimages/Method.png) | [GetByNumber](fcSDK~FChoice.Foundation.Schema.ISchemaTableCollection~GetByNumber.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

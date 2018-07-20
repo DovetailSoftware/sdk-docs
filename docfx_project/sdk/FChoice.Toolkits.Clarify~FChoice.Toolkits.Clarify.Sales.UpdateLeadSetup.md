@@ -1,26 +1,18 @@
-﻿     UpdateLeadSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateLeadSetup Class
+﻿### UpdateLeadSetup Class
 
 Used by the [UpdateLead](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~UpdateLead(UpdateLeadSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateLeadSetup 
 
 public class UpdateLeadSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

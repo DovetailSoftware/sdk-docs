@@ -1,8 +1,4 @@
-﻿     FieldOpsToolkit Class Members                                                   
-
-fcSDK Documentation
-
-FieldOpsToolkit Class Members
+﻿### FieldOpsToolkit Class Members
 
 The following tables list the members exposed by [FieldOpsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [FieldOpsToolkit Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -20,7 +16,7 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase~ImpersonatorUsername.md) | (Inherited from [FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -55,9 +51,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateSitePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~UpdateSitePart.md) | Overloaded. Used to modify an existing site part. This overload takes a setup object and a database transaction.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateTimeLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~UpdateTimeLog.md) | Overloaded. Used to modify an existing time log. This overload takes a setup object and a database transaction.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,17 +1,9 @@
-﻿     AdoFieldInformationProvider Class                                                   
-
-fcSDK Documentation
-
-AdoFieldInformationProvider Class
+﻿### AdoFieldInformationProvider Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[ComVisibleAttribute](#)(False)>
 <[GuidAttribute](#)("EFCE1EFA-CE35-3D45-9722-07CF53F13778")>
 Public Class AdoFieldInformationProvider 
@@ -22,7 +14,7 @@ public class AdoFieldInformationProvider
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Compatibility.AdoFieldInformationProvider**  
 
 #### Requirements
@@ -33,7 +25,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

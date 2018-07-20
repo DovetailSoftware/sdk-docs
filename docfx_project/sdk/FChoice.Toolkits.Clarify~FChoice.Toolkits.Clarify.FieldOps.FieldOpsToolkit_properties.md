@@ -1,8 +1,4 @@
-﻿     FieldOpsToolkit Class Properties                                                   
-
-fcSDK Documentation
-
-FieldOpsToolkit Class Properties
+﻿### FieldOpsToolkit Class Properties
 
 For a list of all members of this type, see [FieldOpsToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase~ImpersonatorUsername.md) | (Inherited from [FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

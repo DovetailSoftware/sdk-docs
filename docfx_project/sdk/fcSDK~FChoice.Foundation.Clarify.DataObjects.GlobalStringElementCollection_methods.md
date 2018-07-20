@@ -1,8 +1,4 @@
-﻿     GlobalStringElementCollection Class Methods                                                   
-
-fcSDK Documentation
-
-GlobalStringElementCollection Class Methods
+﻿### GlobalStringElementCollection Class Methods
 
 For a list of all members of this type, see [GlobalStringElementCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringElementCollection_members.md).
 
@@ -45,9 +41,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<IGlobalStringElement>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<IGlobalStringElement>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,25 +1,18 @@
-﻿     IsTimeZoneInCountry Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-IsTimeZoneInCountry Method (IFCApplication)
+﻿### IsTimeZoneInCountry Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743894)>
+<DispIdAttribute(1610743894)>
 Function IsTimeZoneInCountry( _
    ByVal _Country_ As String, _
    ByVal _TimeZone_ As String, _
    ByVal _IsFullName_ As Boolean _
 ) As Boolean
 
-\[[DispIdAttribute](#)(1610743894)\]
+[DispIdAttribute(1610743894)]
 bool IsTimeZoneInCountry( 
    string _Country_,
    string _TimeZone_,
@@ -34,11 +27,9 @@ _TimeZone_
 
 _IsFullName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

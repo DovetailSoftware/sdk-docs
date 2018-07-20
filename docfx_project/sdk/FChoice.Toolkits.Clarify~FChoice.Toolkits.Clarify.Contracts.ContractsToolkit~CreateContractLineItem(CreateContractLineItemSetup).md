@@ -1,8 +1,4 @@
-﻿     CreateContractLineItem(CreateContractLineItemSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateContractLineItem(CreateContractLineItemSetup) Method
+﻿### CreateContractLineItem(CreateContractLineItemSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Used to create quote/contract line items. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateContractLineItem( _
    ByVal _setupParam_ As [CreateContractLineItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup.md) _
@@ -44,11 +37,9 @@ The API will create a line item, add it to the proper contract/quote, and adjust
 
  The API does not do a few other items in the base GUI function. By and large, they are expected to be supplied with other API calls. For example, line item adjustments are not part of this API. If they are required, the line should be created, and then the adjustment should be applied. Parent/child line items are not provided for in the default API. Also, proration (ClearContracts) is currently hard-coded.  
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     TypeMapper Class Members                                                   
-
-TypeMapper Class Members
+﻿### TypeMapper Class Members
 
 The following tables list the members exposed by [TypeMapper](FChoice.Common~FChoice.Common.Data.TypeMapper.md).
 
@@ -22,9 +20,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [MapFCNumberToFCName](FChoice.Common~FChoice.Common.Data.TypeMapper~MapFCNumberToFCName.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [MapTypeToDbType](FChoice.Common~FChoice.Common.Data.TypeMapper~MapTypeToDbType.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

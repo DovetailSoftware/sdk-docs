@@ -1,26 +1,18 @@
-﻿     AddLocationServicingSiteSetup Class                                                   
-
-fcSDK Documentation
-
-AddLocationServicingSiteSetup Class
+﻿### AddLocationServicingSiteSetup Class
 
 Used by the [AddLocationServicingSite](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddLocationServicingSite(AddLocationServicingSiteSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AddLocationServicingSiteSetup 
 
 public class AddLocationServicingSiteSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

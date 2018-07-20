@@ -1,8 +1,4 @@
-﻿     CreateInteractionSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateInteractionSetup Class Members
+﻿### CreateInteractionSetup Class Members
 
 The following tables list the members exposed by [CreateInteractionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateInteractionSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup~_ctor.md) | Initializes a new instance of the CreateInteractionSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -46,9 +42,9 @@ Duration of the Interaction
 | ![Public Property](dotnetimages/publicProperty.png) | [WaitDuration](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup~WaitDuration.md) | Wait time for the Interaction   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ZipCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup~ZipCode.md) | Contact zipcode   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

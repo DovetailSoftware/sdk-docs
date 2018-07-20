@@ -1,8 +1,4 @@
-﻿     IFCSession Interface Methods                                                   
-
-fcSDK Documentation
-
-IFCSession Interface Methods
+﻿### IFCSession Interface Methods
 
 For a list of all members of this type, see [IFCSession members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession_members.md).
 
@@ -84,9 +80,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [use_list](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession~use_list.md) |   |
 | ![ Method](dotnetimages/Method.png) | [yank_object](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession~yank_object.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

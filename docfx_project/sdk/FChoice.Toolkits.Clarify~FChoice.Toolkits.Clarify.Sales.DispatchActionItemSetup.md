@@ -1,26 +1,18 @@
-﻿     DispatchActionItemSetup Class                                                   
-
-fcSDK Documentation
-
-DispatchActionItemSetup Class
+﻿### DispatchActionItemSetup Class
 
 Used by the [DispatchActionItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~DispatchActionItem(DispatchActionItemSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DispatchActionItemSetup 
 
 public class DispatchActionItemSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

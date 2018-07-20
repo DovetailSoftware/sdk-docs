@@ -1,18 +1,11 @@
-﻿     SoundsLike Method (FilterType)                                                   
-
-fcSDK Documentation
-
-SoundsLike Method (FilterType)
+﻿### SoundsLike Method (FilterType)
 
 Filter field on strings sound like the input to this filter
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shared Function SoundsLike( _
    ByVal _columnName_ As String, _
@@ -30,11 +23,9 @@ _columnName_
 
 _value_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

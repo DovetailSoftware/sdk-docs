@@ -1,18 +1,11 @@
-﻿     Status Property (CreatePartRevisionSetup)                                                   
-
-fcSDK Documentation
-
-Status Property (CreatePartRevisionSetup)
+﻿### Status Property (CreatePartRevisionSetup)
 
 The status of the Part Revision.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property Status As [PartRevisionStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRevisionStatus.md)
@@ -24,11 +17,9 @@ Remarks
 
 If not set, the default value of [PartRevisionStatus.Active](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRevisionStatus.md)  is used.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

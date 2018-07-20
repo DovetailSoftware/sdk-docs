@@ -1,20 +1,13 @@
-﻿     CreateCasePhoneLogActivityEntry Method                                                   
-
-fcSDK Documentation
-
-CreateCasePhoneLogActivityEntry Method
+﻿### CreateCasePhoneLogActivityEntry Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Sub CreateCasePhoneLogActivityEntry( _
-   ByVal _userObjid_ As [Integer](#), _
-   ByVal _activityDate_ As [Date](#), _
+   ByVal _userObjid_ As Integer, _
+   ByVal _activityDate_ As Date, _
    ByVal _addlInfo_ As String, _
    ByVal _objectRow_ As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md), _
    ByVal _actEntryRow_ As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md), _
@@ -22,8 +15,8 @@ Public Sub CreateCasePhoneLogActivityEntry( _
 ) 
 
 public void CreateCasePhoneLogActivityEntry( 
-   [int](#) _userObjid_,
-   [DateTime](#) _activityDate_,
+   int _userObjid_,
+   DateTime _activityDate_,
    string _addlInfo_,
    [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) _objectRow_,
    [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) _actEntryRow_,
@@ -44,11 +37,9 @@ _actEntryRow_
 
 _phoneLogRow_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

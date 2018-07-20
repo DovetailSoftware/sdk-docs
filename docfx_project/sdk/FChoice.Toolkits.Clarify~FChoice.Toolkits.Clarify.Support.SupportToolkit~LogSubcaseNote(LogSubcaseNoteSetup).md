@@ -1,8 +1,4 @@
-﻿     LogSubcaseNote(LogSubcaseNoteSetup) Method                                                   
-
-fcSDK Documentation
-
-LogSubcaseNote(LogSubcaseNoteSetup) Method
+﻿### LogSubcaseNote(LogSubcaseNoteSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Creates a note log against a Subcase. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogSubcaseNote( _
    ByVal _setupParam_ As [LogSubcaseNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup.md) _
@@ -42,11 +35,9 @@ Remarks
 
 It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup~IsCommitmentToCustomer.md) properties
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     accept_object Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-accept_object Method (IFCSession)
+﻿### accept_object Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743895)>
+<DispIdAttribute(1610743895)>
 Function accept_object( _
    ByVal _objId_ As String, _
    ByRef _acceptDate_ As String, _
@@ -22,7 +15,7 @@ Function accept_object( _
    ByVal _objectType_ As String _
 ) As Short
 
-\[[DispIdAttribute](#)(1610743895)\]
+[DispIdAttribute(1610743895)]
 short accept_object( 
    string _objId_,
    out string _acceptDate_,
@@ -46,11 +39,9 @@ _generateTimebombs_
 
 _objectType_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

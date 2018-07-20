@@ -1,8 +1,4 @@
-﻿     ToolkitVisibleAttribute Class Properties                                                   
-
-fcSDK Documentation
-
-ToolkitVisibleAttribute Class Properties
+﻿### ToolkitVisibleAttribute Class Properties
 
 For a list of all members of this type, see [ToolkitVisibleAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.ToolkitVisibleAttribute_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

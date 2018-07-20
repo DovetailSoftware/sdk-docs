@@ -1,26 +1,18 @@
-﻿     UnlinkCRFromSolutionSetup Class                                                   
-
-fcSDK Documentation
-
-UnlinkCRFromSolutionSetup Class
+﻿### UnlinkCRFromSolutionSetup Class
 
 Used by the [UnlinkCRFromSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UnlinkCRFromSolution(UnlinkCRFromSolutionSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UnlinkCRFromSolutionSetup 
 
 public class UnlinkCRFromSolutionSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UnlinkCRFromSolutionSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

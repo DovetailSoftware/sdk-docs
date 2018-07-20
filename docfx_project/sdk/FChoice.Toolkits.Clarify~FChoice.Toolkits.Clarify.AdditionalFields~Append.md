@@ -1,8 +1,4 @@
-﻿     Append Method                                                   
-
-fcSDK Documentation
-
-Append Method
+﻿### Append Method
 
 Name of the database field to update.
 
@@ -15,21 +11,17 @@ Adds a field to be updated during the API invocation.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub Append( _
    ByVal _field_ As String, _
    ByVal _fieldType_ As [AdditionalFieldType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFieldType.md), _
-   ByVal _val_ As [Object](#) _
+   ByVal _val_ As Object _
 ) 
 
 public void Append( 
    string _field_,
    [AdditionalFieldType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFieldType.md) _fieldType_,
-   [object](#) _val_
+   object _val_
 )
 
 #### Parameters
@@ -46,11 +38,9 @@ _val_
 
 Value to put into the database field. This must be the appropriate type
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     IncludeRelations Property (FCSession)                                                   
-
-fcSDK Documentation
-
-IncludeRelations Property (FCSession)
+﻿### IncludeRelations Property (FCSession)
 
 Sets whether or not newly created generic objects will include all relation data fields during [Queries](fcSDK~FChoice.Foundation.FCGeneric~Query.md).
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property IncludeRelations As Boolean
 
@@ -22,11 +15,9 @@ public bool IncludeRelations {get; set;}
 
 Sets whether or not new newly created generic objects will include all relation data fields during [Queries](fcSDK~FChoice.Foundation.FCGeneric~Query.md).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

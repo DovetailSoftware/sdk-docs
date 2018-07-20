@@ -1,26 +1,18 @@
-﻿     CloseOpportunitySetup Class                                                   
-
-fcSDK Documentation
-
-CloseOpportunitySetup Class
+﻿### CloseOpportunitySetup Class
 
 Used by the [CloseOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~CloseOpportunity(CloseOpportunitySetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CloseOpportunitySetup 
 
 public class CloseOpportunitySetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.CloseOpportunitySetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

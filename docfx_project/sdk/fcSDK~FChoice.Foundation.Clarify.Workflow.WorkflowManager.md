@@ -1,24 +1,16 @@
-﻿     WorkflowManager Class                                                   
-
-fcSDK Documentation
-
-WorkflowManager Class
+﻿### WorkflowManager Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class WorkflowManager 
 
 public class WorkflowManager 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Workflow.WorkflowManager**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

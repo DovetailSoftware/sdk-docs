@@ -1,26 +1,17 @@
-﻿     LoginTime Property (FCSession)                                                   
-
-fcSDK Documentation
-
-LoginTime Property (FCSession)
+﻿### LoginTime Property (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property LoginTime As Date
 
-Public ReadOnly Property LoginTime As [Date](#)
+public DateTime LoginTime {get;}
 
-public [DateTime](#) LoginTime {get;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

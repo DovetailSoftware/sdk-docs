@@ -1,26 +1,24 @@
-﻿     AreEqual(String,String,Boolean) Method                                                   
-
-AreEqual(String,String,Boolean) Method
+﻿### AreEqual(String,String,Boolean) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Overloads Shared Function AreEqual( _
    ByVal _firstVal_ As String, _
    ByVal _secondVal_ As String, _
    ByVal _ignoreCase_ As Boolean _
 ) As Boolean
+```
 
+```csharp
 public static bool AreEqual( 
    string _firstVal_,
    string _secondVal_,
    bool _ignoreCase_
 )
+```
 
 #### Parameters
 
@@ -30,11 +28,7 @@ _secondVal_
 
 _ignoreCase_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     AdditionalFields Property (LogContractNoteSetup)                                                   
-
-fcSDK Documentation
-
-AdditionalFields Property (LogContractNoteSetup)
+﻿### AdditionalFields Property (LogContractNoteSetup)
 
 Allows the specification of additional fields to be updated as part of API invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public ReadOnly Property AdditionalFields As [AdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.md)
@@ -20,11 +13,9 @@ Public ReadOnly Property AdditionalFields As [AdditionalFields](FChoice.Toolkits
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public [AdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.md) AdditionalFields {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

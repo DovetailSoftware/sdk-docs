@@ -1,8 +1,4 @@
-﻿     RestrictionGroupCollection Class Members                                                   
-
-fcSDK Documentation
-
-RestrictionGroupCollection Class Members
+﻿### RestrictionGroupCollection Class Members
 
 The following tables list the members exposed by [RestrictionGroupCollection](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroupCollection.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [RestrictionGroupCollection Constructor](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroupCollection~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,7 +18,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<RestrictionGroup>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroupCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -60,9 +56,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<RestrictionGroup>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<RestrictionGroup>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

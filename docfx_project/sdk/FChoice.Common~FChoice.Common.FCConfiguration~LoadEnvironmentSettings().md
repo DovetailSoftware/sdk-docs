@@ -1,16 +1,11 @@
-﻿     LoadEnvironmentSettings() Method                                                   
-
-LoadEnvironmentSettings() Method
+﻿### LoadEnvironmentSettings() Method
 
 Retrieves the current configuration values or loads new ones if no current ones are available.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function LoadEnvironmentSettings() As NameValueCollection
 
@@ -24,11 +19,9 @@ Remarks
 
 This method will not force a reload of configuration values and will check for required parameters
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

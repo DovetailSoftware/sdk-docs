@@ -8,7 +8,7 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [DefaultCulture](fcSDK~FChoice.Foundation.FCSessionData~DefaultCulture.md) | Default culture of the user session.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -43,7 +43,7 @@ A session's unique identifier.
 | ![Public Property](dotnetimages/publicProperty.png) | [UserID](fcSDK~FChoice.Foundation.FCSessionData~UserID.md) | UniqueID of the user that created the [Session](fcSDK~FChoice.Foundation.FCSession.md).   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](fcSDK~FChoice.Foundation.FCSessionData~UserName.md) | Name of the user that created the [Session](fcSDK~FChoice.Foundation.FCSession.md).   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -51,9 +51,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [CopyTo](fcSDK~FChoice.Foundation.FCSessionData~CopyTo.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

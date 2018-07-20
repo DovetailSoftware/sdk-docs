@@ -1,8 +1,4 @@
-﻿     UpdateSubcaseCommitmentSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateSubcaseCommitmentSetup Class Members
+﻿### UpdateSubcaseCommitmentSetup Class Members
 
 The following tables list the members exposed by [UpdateSubcaseCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseCommitmentSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateSubcaseCommitmentSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseCommitmentSetup~_ctor.md) | Initializes a new instance of the UpdateSubcaseCommitmentSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -34,9 +30,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseCommitmentSetup~UpdateDate.md) | DateTime the Commitment was updated. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseCommitmentSetup~UserName.md) | User who updated the Commitment. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

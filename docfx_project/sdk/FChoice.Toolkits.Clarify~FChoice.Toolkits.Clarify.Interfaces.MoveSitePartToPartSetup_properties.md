@@ -1,8 +1,4 @@
-﻿     MoveSitePartToPartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-MoveSitePartToPartSetup Class Properties
+﻿### MoveSitePartToPartSetup Class Properties
 
 For a list of all members of this type, see [MoveSitePartToPartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToPartSetup_members.md).
 
@@ -24,9 +20,9 @@ Objid of the Site Part to be moved
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToPartSetup~UserName.md) | The user who has moved the SitePartToPart. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

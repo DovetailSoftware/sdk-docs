@@ -1,8 +1,4 @@
-﻿     UpdateDialogue(String,String,String) Method                                                   
-
-fcSDK Documentation
-
-UpdateDialogue(String,String,String) Method
+﻿### UpdateDialogue(String,String,String) Method
 
 The ID Number of the dialogue.
 
@@ -15,10 +11,7 @@ Update a Dialogue.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateDialogue( _
    ByVal _idNumber_ As String, _
@@ -46,11 +39,9 @@ _newPriority_
 
 The Priority of the dialogue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

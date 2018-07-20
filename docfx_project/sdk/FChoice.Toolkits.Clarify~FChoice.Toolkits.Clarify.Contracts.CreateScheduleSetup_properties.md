@@ -1,8 +1,4 @@
-﻿     CreateScheduleSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateScheduleSetup Class Properties
+﻿### CreateScheduleSetup Class Properties
 
 For a list of all members of this type, see [CreateScheduleSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateScheduleSetup_members.md).
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ScheduleIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateScheduleSetup~ScheduleIDNum.md) | Schedule Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ShipToSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateScheduleSetup~ShipToSiteIDNum.md) | Site Identifier for the shipment of this Schedule.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     BetweenFilter Class Properties                                                   
-
-fcSDK Documentation
-
-BetweenFilter Class Properties
+﻿### BetweenFilter Class Properties
 
 For a list of all members of this type, see [BetweenFilter members](fcSDK~FChoice.Foundation.Filters.BetweenFilter_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Value2](fcSDK~FChoice.Foundation.Filters.BetweenFilter~Value2.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Value2Present](fcSDK~FChoice.Foundation.Filters.BetweenFilter~Value2Present.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

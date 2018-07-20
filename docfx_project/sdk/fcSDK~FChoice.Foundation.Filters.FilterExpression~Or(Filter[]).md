@@ -7,10 +7,7 @@ Or(Filter\[\]) Method
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function Or( _
    ByVal ParamArray _filters_() As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _
@@ -24,11 +21,9 @@ public [OrManyFilter](fcSDK~FChoice.Foundation.Filters.OrManyFilter.md) Or(
 
 _filters_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

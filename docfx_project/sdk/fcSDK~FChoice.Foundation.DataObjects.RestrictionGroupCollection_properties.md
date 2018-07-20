@@ -1,8 +1,4 @@
-﻿     RestrictionGroupCollection Class Properties                                                   
-
-fcSDK Documentation
-
-RestrictionGroupCollection Class Properties
+﻿### RestrictionGroupCollection Class Properties
 
 For a list of all members of this type, see [RestrictionGroupCollection members](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroupCollection_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<RestrictionGroup>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroupCollection~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

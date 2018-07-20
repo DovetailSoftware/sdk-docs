@@ -1,8 +1,4 @@
-﻿     FCGeneric Class Properties                                                   
-
-fcSDK Documentation
-
-FCGeneric Class Properties
+﻿### FCGeneric Class Properties
 
 For a list of all members of this type, see [FCGeneric members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric_members.md).
 
@@ -41,9 +37,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SetNullStringsToEmpty](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric~SetNullStringsToEmpty.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SortOrder](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric~SortOrder.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

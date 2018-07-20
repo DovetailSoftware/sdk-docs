@@ -1,23 +1,16 @@
-﻿     LeadSiteType Enumeration                                                     
-
-fcSDK Documentation
-
-LeadSiteType Enumeration
+﻿### LeadSiteType Enumeration
 
 What type of Site is being linked to the Lead
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Enum LeadSiteType 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
 
-public enum LeadSiteType : [System.Enum](#) 
+public enum LeadSiteType : System.Enum 
 
 Members
 
@@ -28,9 +21,9 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Toolkits.Clarify.LeadSiteType**  
 
 #### Requirements
@@ -41,7 +34,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateOnsiteLog(CaseObjectType,String) Method                                                   
-
-fcSDK Documentation
-
-CreateOnsiteLog(CaseObjectType,String) Method
+﻿### CreateOnsiteLog(CaseObjectType,String) Method
 
 Specifies whether this Onsite Log is tied to a Case or Subcase.
 
@@ -11,10 +7,7 @@ Specifies the Id Number of this Onsite Log's Case or Subcase.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateOnsiteLog( _
    ByVal _objectType_ As [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CaseObjectType.md), _
@@ -42,11 +35,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Onsite Log record.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

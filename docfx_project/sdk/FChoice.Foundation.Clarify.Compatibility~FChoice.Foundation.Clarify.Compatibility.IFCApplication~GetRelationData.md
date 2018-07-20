@@ -1,28 +1,23 @@
-﻿     GetRelationData Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetRelationData Method (IFCApplication)
+﻿### GetRelationData Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
-
-<[DispIdAttribute](#)(1610743893)>
+<DispIdAttribute(1610743893)>
 Function GetRelationData( _
    ByVal _relationName_ As String, _
    ByVal _tableName_ As String _
 ) As ADODB.Recordset
+```
 
-\[[DispIdAttribute](#)(1610743893)\]
+```csharp
+[DispIdAttribute(1610743893)]
 ADODB.Recordset GetRelationData( 
    string _relationName_,
    string _tableName_
 )
+```
 
 #### Parameters
 
@@ -30,11 +25,9 @@ _relationName_
 
 _tableName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

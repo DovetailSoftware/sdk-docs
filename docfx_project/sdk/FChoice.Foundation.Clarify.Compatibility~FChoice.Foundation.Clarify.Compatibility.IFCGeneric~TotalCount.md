@@ -1,28 +1,19 @@
-﻿     TotalCount Method (IFCGeneric)                                                   
-
-fcSDK Documentation
-
-TotalCount Method (IFCGeneric)
+﻿### TotalCount Method (IFCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+<DispIdAttribute(1610743865)>
+Function TotalCount() As Integer
 
-<[DispIdAttribute](#)(1610743865)>
-Function TotalCount() As [Integer](#)
+[DispIdAttribute(1610743865)]
+int TotalCount()
 
-\[[DispIdAttribute](#)(1610743865)\]
-[int](#) TotalCount()
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

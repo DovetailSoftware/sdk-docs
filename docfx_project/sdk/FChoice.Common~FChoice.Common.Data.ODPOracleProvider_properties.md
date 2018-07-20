@@ -1,6 +1,4 @@
-﻿     ODPOracleProvider Class Properties                                                   
-
-ODPOracleProvider Class Properties
+﻿### ODPOracleProvider Class Properties
 
 For a list of all members of this type, see [ODPOracleProvider members](FChoice.Common~FChoice.Common.Data.ODPOracleProvider_members.md).
 
@@ -15,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RequiresDbNameParameter](FChoice.Common~FChoice.Common.Data.OracleProviderBase~RequiresDbNameParameter.md) | (Inherited from [FChoice.Common.Data.OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.OracleProviderBase~TypeMapper.md) | (Inherited from [FChoice.Common.Data.OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

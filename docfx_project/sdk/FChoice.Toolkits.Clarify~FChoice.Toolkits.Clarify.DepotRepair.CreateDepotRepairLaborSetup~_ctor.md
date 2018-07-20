@@ -1,8 +1,4 @@
-﻿     CreateDepotRepairLaborSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateDepotRepairLaborSetup Constructor
+﻿### CreateDepotRepairLaborSetup Constructor
 
 Objid of the related Part Request Detail
 
@@ -15,23 +11,20 @@ Initializes a new instance of the CreateDepotRepairLaborSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _demandDetailObjid_ As [Integer](#), _
-   ByVal _startDate_ As [Date](#), _
-   ByVal _duration_ As [TimeSpan](#) _
+   ByVal _demandDetailObjid_ As Integer, _
+   ByVal _startDate_ As Date, _
+   ByVal _duration_ As TimeSpan _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateDepotRepairLaborSetup( 
-   [int](#) _demandDetailObjid_,
-   [DateTime](#) _startDate_,
-   [TimeSpan](#) _duration_
+   int _demandDetailObjid_,
+   DateTime _startDate_,
+   TimeSpan _duration_
 )
 
 #### Parameters
@@ -48,11 +41,9 @@ _duration_
 
 Length of time required to do the work, in seconds
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateOpportunitySetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateOpportunitySetup Class Properties
+﻿### CreateOpportunitySetup Class Properties
 
 For a list of all members of this type, see [CreateOpportunitySetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateOpportunitySetup_members.md).
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Territory](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateOpportunitySetup~Territory.md) | Name of the territory for the Opportunity.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateOpportunitySetup~UserName.md) | The user who is creating the opportunity. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

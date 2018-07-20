@@ -1,8 +1,4 @@
-﻿     RelateCaseToParentCase(String,String) Method                                                   
-
-fcSDK Documentation
-
-RelateCaseToParentCase(String,String) Method
+﻿### RelateCaseToParentCase(String,String) Method
 
 Identifier of the child Case in the relation.
 
@@ -13,10 +9,7 @@ Relates a Case to a specified parent Case. This overload takes a set of required
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function RelateCaseToParentCase( _
    ByVal _caseIDNum_ As String, _
@@ -46,11 +39,9 @@ Remarks
 
 The parent Case cannot be a descendent of the child Case.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     DepotRepairToolkit Class Methods                                                   
-
-fcSDK Documentation
-
-DepotRepairToolkit Class Methods
+﻿### DepotRepairToolkit Class Methods
 
 For a list of all members of this type, see [DepotRepairToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md).
 
@@ -27,9 +23,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateEcoLaborDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoLaborDetail.md) | Overloaded. Update an ECO Labor Detail. This overload takes a setup object.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateEcoMaterialDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoMaterialDetail.md) | Overloaded. Update an ECO Material Detail. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

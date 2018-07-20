@@ -1,30 +1,21 @@
-﻿     Rate Property (UpdateExpenseLogSetup)                                                   
-
-fcSDK Documentation
-
-Rate Property (UpdateExpenseLogSetup)
+﻿### Rate Property (UpdateExpenseLogSetup)
 
 The billing rate per unit. If no rate is specified, the labor rate of the performing employee is used.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property Rate As [Double](#)
+Public Property Rate As Double
 
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [double](#) Rate {get; set;}
+public double Rate {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

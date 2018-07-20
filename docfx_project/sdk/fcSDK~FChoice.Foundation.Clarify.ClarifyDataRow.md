@@ -1,17 +1,9 @@
-﻿     ClarifyDataRow Class                                                   
-
-fcSDK Documentation
-
-ClarifyDataRow Class
+﻿### ClarifyDataRow Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ClarifyDataRow 
    Inherits [FChoice.Foundation.GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)
 
@@ -19,7 +11,7 @@ public class ClarifyDataRow : [FChoice.Foundation.GenericDataRow](fcSDK~FChoice.
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Data.DataRow](#)  
       [FChoice.Foundation.GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)  
          **FChoice.Foundation.Clarify.ClarifyDataRow**  
@@ -32,7 +24,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

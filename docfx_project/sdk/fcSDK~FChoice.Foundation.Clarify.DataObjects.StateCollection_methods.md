@@ -1,8 +1,4 @@
-﻿     StateCollection Class Methods                                                   
-
-fcSDK Documentation
-
-StateCollection Class Methods
+﻿### StateCollection Class Methods
 
 For a list of all members of this type, see [StateCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection_members.md).
 
@@ -42,9 +38,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<StateProvince>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<StateProvince>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

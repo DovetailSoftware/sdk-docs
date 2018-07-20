@@ -1,17 +1,9 @@
-﻿     RestrictionGroup Class                                                   
-
-fcSDK Documentation
-
-RestrictionGroup Class
+﻿### RestrictionGroup Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class RestrictionGroup 
    Inherits [DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)
    Implements [IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
@@ -20,7 +12,7 @@ public class RestrictionGroup : [DataObject](fcSDK~FChoice.Foundation.DataObject
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  
       **FChoice.Foundation.DataObjects.RestrictionGroup**  
 
@@ -32,7 +24,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

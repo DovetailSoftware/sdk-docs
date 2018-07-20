@@ -1,45 +1,38 @@
-﻿     CloseGenerics Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-CloseGenerics Method (IFCSession)
+﻿### CloseGenerics Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743887)>
+<DispIdAttribute(1610743887)>
 Sub CloseGenerics( _
    ByVal _NumGenerics_ As Short, _
-   ByVal _Generic1_ As [Object](#), _
-   Optional ByVal _Generic2_ As [Object](#), _
-   Optional ByVal _Generic3_ As [Object](#), _
-   Optional ByVal _Generic4_ As [Object](#), _
-   Optional ByVal _Generic5_ As [Object](#), _
-   Optional ByVal _Generic6_ As [Object](#), _
-   Optional ByVal _Generic7_ As [Object](#), _
-   Optional ByVal _Generic8_ As [Object](#), _
-   Optional ByVal _Generic9_ As [Object](#), _
-   Optional ByVal _Generic10_ As [Object](#) _
+   ByVal _Generic1_ As Object, _
+   Optional ByVal _Generic2_ As Object, _
+   Optional ByVal _Generic3_ As Object, _
+   Optional ByVal _Generic4_ As Object, _
+   Optional ByVal _Generic5_ As Object, _
+   Optional ByVal _Generic6_ As Object, _
+   Optional ByVal _Generic7_ As Object, _
+   Optional ByVal _Generic8_ As Object, _
+   Optional ByVal _Generic9_ As Object, _
+   Optional ByVal _Generic10_ As Object _
 ) 
 
-\[[DispIdAttribute](#)(1610743887)\]
+[DispIdAttribute(1610743887)]
 void CloseGenerics( 
    short _NumGenerics_,
-   [object](#) _Generic1_,
-   [object](#) _Generic2_,
-   [object](#) _Generic3_,
-   [object](#) _Generic4_,
-   [object](#) _Generic5_,
-   [object](#) _Generic6_,
-   [object](#) _Generic7_,
-   [object](#) _Generic8_,
-   [object](#) _Generic9_,
-   [object](#) _Generic10_
+   object _Generic1_,
+   object _Generic2_,
+   object _Generic3_,
+   object _Generic4_,
+   object _Generic5_,
+   object _Generic6_,
+   object _Generic7_,
+   object _Generic8_,
+   object _Generic9_,
+   object _Generic10_
 )
 
 #### Parameters
@@ -66,11 +59,9 @@ _Generic9_
 
 _Generic10_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateCaseObjid(CreateCaseObjidSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateCaseObjid(CreateCaseObjidSetup,IDbTransaction) Method
+﻿### CreateCaseObjid(CreateCaseObjidSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Creates a new Case by using know Objids of dependencies to keep from making addi
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateCaseObjid( _
    ByVal _setupParam_ As [CreateCaseObjidSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseObjidSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

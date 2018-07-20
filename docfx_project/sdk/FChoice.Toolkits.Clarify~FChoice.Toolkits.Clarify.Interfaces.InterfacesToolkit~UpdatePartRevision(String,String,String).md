@@ -1,8 +1,4 @@
-﻿     UpdatePartRevision(String,String,String) Method                                                   
-
-fcSDK Documentation
-
-UpdatePartRevision(String,String,String) Method
+﻿### UpdatePartRevision(String,String,String) Method
 
 Part number of the part
 
@@ -15,10 +11,7 @@ Update a Part Revision (mod_level) This overload takes a set of required parame
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdatePartRevision( _
    ByVal _partNumber_ As String, _
@@ -52,11 +45,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PartRevision.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

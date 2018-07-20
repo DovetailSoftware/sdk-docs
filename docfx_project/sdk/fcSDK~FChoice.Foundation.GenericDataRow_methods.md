@@ -1,8 +1,4 @@
-﻿     GenericDataRow Class Methods                                                   
-
-fcSDK Documentation
-
-GenericDataRow Class Methods
+﻿### GenericDataRow Class Methods
 
 For a list of all members of this type, see [GenericDataRow members](fcSDK~FChoice.Foundation.GenericDataRow_members.md).
 
@@ -37,9 +33,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UnrelateFromAll](fcSDK~FChoice.Foundation.GenericDataRow~UnrelateFromAll.md) | UnRelate this [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) from all other rows related to it via the given relation name.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](fcSDK~FChoice.Foundation.GenericDataRow~Update.md) | Overloaded. Commits the row to the database. See FCGeneric's [Update](fcSDK~FChoice.Foundation.FCGeneric~Update(GenericDataRow).md) for details.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

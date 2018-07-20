@@ -1,8 +1,4 @@
-﻿     GenericDataSet Class Members                                                   
-
-fcSDK Documentation
-
-GenericDataSet Class Members
+﻿### GenericDataSet Class Members
 
 The following tables list the members exposed by [GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SortGenerics](fcSDK~FChoice.Foundation.GenericDataSet~SortGenerics.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.GenericDataSet~UniqueID.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -24,9 +20,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Query](fcSDK~FChoice.Foundation.GenericDataSet~Query.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](fcSDK~FChoice.Foundation.GenericDataSet~Update.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

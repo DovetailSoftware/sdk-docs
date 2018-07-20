@@ -1,18 +1,11 @@
-﻿     AppendFilterBetween(String,Boolean,Decimal,Decimal) Method                                                   
-
-fcSDK Documentation
-
-AppendFilterBetween(String,Boolean,Decimal,Decimal) Method
+﻿### AppendFilterBetween(String,Boolean,Decimal,Decimal) Method
 
 Adds a specialized filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) to be between two Decimal values.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub AppendFilterBetween( _
    ByVal _fieldName_ As String, _
@@ -38,11 +31,9 @@ _value1_
 
 _value2_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

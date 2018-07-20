@@ -1,26 +1,18 @@
-﻿     DeleteProductBinSetup Class                                                   
-
-fcSDK Documentation
-
-DeleteProductBinSetup Class
+﻿### DeleteProductBinSetup Class
 
 Used by the [DeleteProductBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~DeleteProductBin(DeleteProductBinSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DeleteProductBinSetup 
 
 public class DeleteProductBinSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.DeleteProductBinSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

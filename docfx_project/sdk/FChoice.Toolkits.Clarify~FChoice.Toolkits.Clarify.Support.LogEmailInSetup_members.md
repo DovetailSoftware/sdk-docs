@@ -1,8 +1,4 @@
-﻿     LogEmailInSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogEmailInSetup Class Members
+﻿### LogEmailInSetup Class Members
 
 The following tables list the members exposed by [LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md).
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Subject](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup~Subject.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

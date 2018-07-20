@@ -1,16 +1,9 @@
-﻿     SplitMethodAttribute Class                                                   
-
-fcSDK Documentation
-
-SplitMethodAttribute Class
+﻿### SplitMethodAttribute Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Method, 
    AllowMultiple=True, 
@@ -25,7 +18,7 @@ public class SplitMethodAttribute : [System.Attribute](#)
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Attribute](#)  
       **FChoice.Foundation.Clarify.Attributes.SplitMethodAttribute**  
 
@@ -37,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

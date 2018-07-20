@@ -5,10 +5,7 @@ Makes this generic a child that is related to the specified parent generic th
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Sub TraverseFromParent( _
    ByVal _parentGeneric_ As [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md), _
@@ -32,11 +29,9 @@ This generic will be related and linked to the parent. When the parent is quer
 
 To retrieve the related rows for a given row in either generic after a query, call the [RelatedRows](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow~RelatedRows.md) method on that row and pass in the opposite generic.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

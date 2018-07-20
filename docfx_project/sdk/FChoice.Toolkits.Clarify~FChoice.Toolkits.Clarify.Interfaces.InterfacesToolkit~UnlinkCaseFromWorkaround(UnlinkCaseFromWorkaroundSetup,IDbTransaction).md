@@ -1,8 +1,4 @@
-﻿     UnlinkCaseFromWorkaround(UnlinkCaseFromWorkaroundSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-UnlinkCaseFromWorkaround(UnlinkCaseFromWorkaroundSetup,IDbTransaction) Method
+﻿### UnlinkCaseFromWorkaround(UnlinkCaseFromWorkaroundSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Unlink Case from Workaround. This overload takes a setup object and a database t
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UnlinkCaseFromWorkaround( _
    ByVal _setupParam_ As [UnlinkCaseFromWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UnlinkCaseFromWorkaroundSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

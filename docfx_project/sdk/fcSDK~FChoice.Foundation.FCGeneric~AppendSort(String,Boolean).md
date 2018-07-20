@@ -1,8 +1,4 @@
-﻿     AppendSort(String,Boolean) Method                                                   
-
-fcSDK Documentation
-
-AppendSort(String,Boolean) Method
+﻿### AppendSort(String,Boolean) Method
 
 Name of the field to sort by
 
@@ -11,10 +7,7 @@ Name of the field to sort by
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub AppendSort( _
    ByVal _fieldName_ As String, _
@@ -36,11 +29,9 @@ _isAscending_
 
 **true** if the sort order is Ascending. **false** if it is Descending.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

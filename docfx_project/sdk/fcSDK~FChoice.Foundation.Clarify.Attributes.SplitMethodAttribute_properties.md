@@ -1,8 +1,4 @@
-﻿     SplitMethodAttribute Class Properties                                                   
-
-fcSDK Documentation
-
-SplitMethodAttribute Class Properties
+﻿### SplitMethodAttribute Class Properties
 
 For a list of all members of this type, see [SplitMethodAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.SplitMethodAttribute_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [NumOfConstructors](fcSDK~FChoice.Foundation.Clarify.Attributes.SplitMethodAttribute~NumOfConstructors.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

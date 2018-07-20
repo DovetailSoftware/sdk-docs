@@ -1,8 +1,4 @@
-﻿     ConfigItemCollection Class Properties                                                   
-
-fcSDK Documentation
-
-ConfigItemCollection Class Properties
+﻿### ConfigItemCollection Class Properties
 
 For a list of all members of this type, see [ConfigItemCollection members](fcSDK~FChoice.Foundation.DataObjects.ConfigItemCollection_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<ConfigItem>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.DataObjects.ConfigItemCollection~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

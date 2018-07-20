@@ -1,8 +1,4 @@
-﻿     LogLeadPhone(LogLeadPhoneSetup) Method                                                   
-
-fcSDK Documentation
-
-LogLeadPhone(LogLeadPhoneSetup) Method
+﻿### LogLeadPhone(LogLeadPhoneSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Log a phone call for a Lead. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogLeadPhone( _
    ByVal _setupParam_ As [LogLeadPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup.md) _
@@ -44,11 +37,9 @@ There are a variety of optional items that can be set, including the action ty
 
 The API can also generate a time bomb (for business rule notification).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

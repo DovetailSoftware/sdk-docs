@@ -1,16 +1,9 @@
-﻿     CreateAttachmentRecord(String,String,String,String,Boolean,Boolean) Method                                                   
-
-fcSDK Documentation
-
-CreateAttachmentRecord(String,String,String,String,Boolean,Boolean) Method
+﻿### CreateAttachmentRecord(String,String,String,String,Boolean,Boolean) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateAttachmentRecord( _
    ByVal _idNumber_ As String, _
@@ -19,9 +12,9 @@ Public Overloads Function CreateAttachmentRecord( _
    ByVal _objectType_ As String, _
    ByVal _attachmentsAnywhere_ As Boolean, _
    ByVal _createActEntry_ As Boolean _
-) As [Integer](#)
+) As Integer
 
-public [int](#) CreateAttachmentRecord( 
+public int CreateAttachmentRecord( 
    string _idNumber_,
    string _attachmentName_,
    string _filePath_,
@@ -44,11 +37,9 @@ _attachmentsAnywhere_
 
 _createActEntry_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

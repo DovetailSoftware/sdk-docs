@@ -1,28 +1,18 @@
-﻿     site_id Property (IFCApplication)                                                   
-
-fcSDK Documentation
-
-site_id Property (IFCApplication)
+﻿### site_id Property (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743820)>
+' Declaration
+<DispIdAttribute(1610743820)>
 ReadOnly Property site_id As Short
 
-\[[DispIdAttribute](#)(1610743820)\]
+[DispIdAttribute(1610743820)]
 short site_id {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdateActionItemSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateActionItemSetup Class Properties
+﻿### UpdateActionItemSetup Class Properties
 
 For a list of all members of this type, see [UpdateActionItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateActionItemSetup_members.md).
 
@@ -29,9 +25,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateActionItemSetup~Title.md) | Action Item title.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateActionItemSetup~UpdateDate.md) | The DateTime the Action Item was updated. If not set, the current time is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

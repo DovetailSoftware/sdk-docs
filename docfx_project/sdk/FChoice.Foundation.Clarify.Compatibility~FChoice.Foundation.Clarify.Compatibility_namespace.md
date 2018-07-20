@@ -34,7 +34,7 @@ Interfaces
 | ![Interface](dotnetimages/Interface.png) | [IMockAdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField.md) |   |
 | ![Interface](dotnetimages/Interface.png) | [IMockCollection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection.md) |   |
 
-See Also
+
 
 #### Reference
 

@@ -1,28 +1,19 @@
-﻿     AdditionalFields Property (UpdateCommunicationSetup)                                                   
-
-fcSDK Documentation
-
-AdditionalFields Property (UpdateCommunicationSetup)
+﻿### AdditionalFields Property (UpdateCommunicationSetup)
 
 Allows the specification of additional fields to be updated as part of API invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property AdditionalFields As [SimplifiedAdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalFields.md)
 
 public [SimplifiedAdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalFields.md) AdditionalFields {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

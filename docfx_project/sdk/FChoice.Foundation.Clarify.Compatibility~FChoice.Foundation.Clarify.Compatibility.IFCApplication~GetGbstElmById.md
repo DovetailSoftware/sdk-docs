@@ -1,27 +1,19 @@
-﻿     GetGbstElmById Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetGbstElmById Method (IFCApplication)
+﻿### GetGbstElmById Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743841)>
+' Declaration
+<DispIdAttribute(1610743841)>
 Function GetGbstElmById( _
    ByVal _ListName_ As String, _
-   ByVal _ElmObjid_ As [Integer](#) _
+   ByVal _ElmObjid_ As Integer _
 ) As String
 
-\[[DispIdAttribute](#)(1610743841)\]
+[DispIdAttribute(1610743841)]
 string GetGbstElmById( 
    string _ListName_,
-   [int](#) _ElmObjid_
+   int _ElmObjid_
 )
 
 #### Parameters
@@ -30,11 +22,9 @@ _ListName_
 
 _ElmObjid_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

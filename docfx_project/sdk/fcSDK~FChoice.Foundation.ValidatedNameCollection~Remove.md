@@ -1,34 +1,28 @@
-﻿     Remove Method (ValidatedNameCollection)                                                   
-
-fcSDK Documentation
-
-Remove Method (ValidatedNameCollection)
+﻿### Remove Method (ValidatedNameCollection)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Overridable Sub Remove( _
    ByVal _name_ As String _
 ) 
+```
 
+```csharp
 public virtual void Remove( 
    string _name_
 )
+```
 
 #### Parameters
 
 _name_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

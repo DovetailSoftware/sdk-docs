@@ -1,8 +1,4 @@
-﻿     ConfigItemCache Class Members                                                   
-
-fcSDK Documentation
-
-ConfigItemCache Class Members
+﻿### ConfigItemCache Class Members
 
 The following tables list the members exposed by [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ConfigItems](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache~ConfigItems.md) | Gets the collection of global config items   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -23,7 +19,7 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCache](fcSDK~FChoice.Foundation.CacheBase~UpdateCache.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
+
 
 Public Events
 
@@ -31,9 +27,9 @@ Public Events
 | --- | --- | --- |
 | ![Public Event](dotnetimages/publicEvent.png) | [CacheUpdated](fcSDK~FChoice.Foundation.CacheBase~CacheUpdated_EV.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     FCApplication Class Methods                                                   
-
-fcSDK Documentation
-
-FCApplication Class Methods
+﻿### FCApplication Class Methods
 
 For a list of all members of this type, see [FCApplication members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication_members.md).
 
@@ -89,9 +85,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateSchemaCache](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~UpdateSchemaCache.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateEncryptedPassword](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~ValidateEncryptedPassword.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

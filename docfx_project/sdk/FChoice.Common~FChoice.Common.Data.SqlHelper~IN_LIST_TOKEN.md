@@ -1,24 +1,16 @@
-﻿     IN_LIST_TOKEN Field                                                   
-
-IN_LIST_TOKEN Field
+﻿### IN_LIST_TOKEN Field
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Const IN_LIST_TOKEN As String
 
 public const string IN_LIST_TOKEN
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

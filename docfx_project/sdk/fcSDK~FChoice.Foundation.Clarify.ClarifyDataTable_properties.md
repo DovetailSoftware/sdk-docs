@@ -1,8 +1,4 @@
-﻿     ClarifyDataTable Class Properties                                                   
-
-fcSDK Documentation
-
-ClarifyDataTable Class Properties
+﻿### ClarifyDataTable Class Properties
 
 For a list of all members of this type, see [ClarifyDataTable members](fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable_members.md).
 
@@ -16,7 +12,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Constraints](#) | (Inherited from [System.Data.DataTable](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Container](#) | (Inherited from [System.ComponentModel.MarshalByValueComponent](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](fcSDK~FChoice.Foundation.GenericDataTable~Count.md) | Number of [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)s currently in the table. (Inherited from [FChoice.Foundation.GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md)) |
-| ![Public Property](dotnetimages/publicProperty.png) | [DataSet](#) | (Inherited from [System.Data.DataTable](#)) |
+| ![Public Property](dotnetimages/publicProperty.png) | DataSet | (Inherited from [System.Data.DataTable](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [DefaultView](#) | (Inherited from [System.Data.DataTable](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [DesignMode](#) | (Inherited from [System.ComponentModel.MarshalByValueComponent](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [DisplayExpression](#) | (Inherited from [System.Data.DataTable](#)) |
@@ -38,9 +34,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Site](#) | (Inherited from [System.Data.DataTable](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TableName](#) | (Inherited from [System.Data.DataTable](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

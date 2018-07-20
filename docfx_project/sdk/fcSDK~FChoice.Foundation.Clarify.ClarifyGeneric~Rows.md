@@ -1,18 +1,11 @@
-﻿     Rows Property (ClarifyGeneric)                                                   
-
-fcSDK Documentation
-
-Rows Property (ClarifyGeneric)
+﻿### Rows Property (ClarifyGeneric)
 
 Gets a reference to the [ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md) which contains all the rows queried for this generic
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property Rows As [ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md)
 
@@ -26,11 +19,9 @@ Remarks
 
 This property is similar to the [Item](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~Item.md) property of [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md). The rows for this generic can be accessed using either property.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

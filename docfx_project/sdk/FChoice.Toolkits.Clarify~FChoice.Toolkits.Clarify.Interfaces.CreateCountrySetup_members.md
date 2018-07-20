@@ -1,8 +1,4 @@
-﻿     CreateCountrySetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateCountrySetup Class Members
+﻿### CreateCountrySetup Class Members
 
 The following tables list the members exposed by [CreateCountrySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCountrySetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateCountrySetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCountrySetup~_ctor.md) | Initializes a new instance of the CreateCountrySetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CurrencyISOCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCountrySetup~CurrencyISOCode.md) | International Standards Organization code for the Country's currency   |
 | ![Public Property](dotnetimages/publicProperty.png) | [CurrencySymbol](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCountrySetup~CurrencySymbol.md) | Currency Symbol   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

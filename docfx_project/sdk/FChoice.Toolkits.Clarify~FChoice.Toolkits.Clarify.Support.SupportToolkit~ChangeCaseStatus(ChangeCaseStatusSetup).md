@@ -1,8 +1,4 @@
-﻿     ChangeCaseStatus(ChangeCaseStatusSetup) Method                                                   
-
-fcSDK Documentation
-
-ChangeCaseStatus(ChangeCaseStatusSetup) Method
+﻿### ChangeCaseStatus(ChangeCaseStatusSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Changes the status of a Case. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ChangeCaseStatus( _
    ByVal _setupParam_ As [ChangeCaseStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Case may be opened or closed, but the status selected must be valid for the current condition. In other words, you cannot assign a Closed condition status to a Case that is currently Open.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

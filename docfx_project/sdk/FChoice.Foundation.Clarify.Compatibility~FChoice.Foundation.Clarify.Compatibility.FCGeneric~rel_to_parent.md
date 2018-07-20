@@ -1,26 +1,17 @@
-﻿     rel_to_parent Property (FCGeneric)                                                   
-
-fcSDK Documentation
-
-rel_to_parent Property (FCGeneric)
+﻿### rel_to_parent Property (FCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property rel_to_parent As String
 
 public string rel_to_parent {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

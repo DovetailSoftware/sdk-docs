@@ -1,28 +1,19 @@
-﻿     CurrentSessions Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-CurrentSessions Method (IFCApplication)
+﻿### CurrentSessions Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743834)>
+<DispIdAttribute(1610743834)>
 Function CurrentSessions() As String
 
-\[[DispIdAttribute](#)(1610743834)\]
+[DispIdAttribute(1610743834)]
 string CurrentSessions()
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

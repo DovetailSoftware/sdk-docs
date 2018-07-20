@@ -1,8 +1,4 @@
-﻿     RelateContractItemToSitePart(Int32,String,String,String,String) Method                                                   
-
-fcSDK Documentation
-
-RelateContractItemToSitePart(Int32,String,String,String,String) Method
+﻿### RelateContractItemToSitePart(Int32,String,String,String,String) Method
 
 The objid of the Contract for this Line Item.
 
@@ -19,13 +15,10 @@ Used to relate (or unrelate) a Site Part from a contract line item. This overl
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function RelateContractItemToSitePart( _
-   ByVal _contractObjid_ As [Integer](#), _
+   ByVal _contractObjid_ As Integer, _
    ByVal _partNumber_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _partRevision_ As String, _
@@ -33,7 +26,7 @@ Public Overloads Function RelateContractItemToSitePart( _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RelateContractItemToSitePart( 
-   [int](#) _contractObjid_,
+   int _contractObjid_,
    string _partNumber_,
    string _partDomain_,
    string _partRevision_,
@@ -70,11 +63,9 @@ Remarks
 
 The line item’s objid is specified, along with the details for locating the site_part.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

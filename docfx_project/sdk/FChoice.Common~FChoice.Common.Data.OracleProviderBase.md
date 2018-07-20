@@ -1,16 +1,11 @@
-﻿     OracleProviderBase Class                                                   
-
-OracleProviderBase Class
+﻿### OracleProviderBase Class
 
 Abstract base class for Oracle-based custom data providers
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class OracleProviderBase 
    Inherits [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)
@@ -23,7 +18,7 @@ Inherit from this class to implement a custom data provider based on the OracleC
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)  
       **FChoice.Common.Data.OracleProviderBase**  
          [FChoice.Common.Data.ODPOracleProvider](FChoice.Common~FChoice.Common.Data.ODPOracleProvider.md)  
@@ -36,7 +31,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

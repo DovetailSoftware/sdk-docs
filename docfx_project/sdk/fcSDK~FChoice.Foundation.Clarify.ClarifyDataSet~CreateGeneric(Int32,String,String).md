@@ -18,7 +18,7 @@ Syntax
 'Declaration
 
 Public Overloads Overridable Function CreateGeneric( _
-   ByVal _rootObjID_ As [Integer](#), _
+   ByVal _rootObjID_ As Integer, _
    ByVal _rootObject_ As String, _
    ByVal _relFromParent_ As String _
 ) As [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md)
@@ -26,7 +26,7 @@ Public Overloads Overridable Function CreateGeneric( _
 
 ```csharp
 public virtual [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) CreateGeneric( 
-   [int](#) _rootObjID_,
+   int _rootObjID_,
    string _rootObject_,
    string _relFromParent_
 )
@@ -88,11 +88,9 @@ For Each row As ClarifyDataRow In gQueue
 Next
 ```
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

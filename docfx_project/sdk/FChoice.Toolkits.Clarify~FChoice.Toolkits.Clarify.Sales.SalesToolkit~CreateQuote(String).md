@@ -1,8 +1,4 @@
-﻿     CreateQuote(String) Method                                                   
-
-fcSDK Documentation
-
-CreateQuote(String) Method
+﻿### CreateQuote(String) Method
 
 The title of the Quote.
 
@@ -11,10 +7,7 @@ Used to create a new Quote. This overload takes a set of required parameters for
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateQuote( _
    ByVal _quoteTitle_ As String _
@@ -42,11 +35,9 @@ This API requires that a valid opportunity exists. This differs a little from th
 
 Additional fields may be set on either the contract or contr_schedule table. To set a field on table_contract, just use the field name. To set a field on the contr_schedule table, place “sched:” before the name of the field. For example, to set the “x_foo” field on the contr_schedule table, use a field name of “sched:x_foo”.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

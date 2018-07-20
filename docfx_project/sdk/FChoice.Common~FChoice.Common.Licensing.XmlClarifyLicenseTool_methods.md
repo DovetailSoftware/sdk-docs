@@ -1,6 +1,4 @@
-﻿     XmlClarifyLicenseTool Class Methods                                                   
-
-XmlClarifyLicenseTool Class Methods
+﻿### XmlClarifyLicenseTool Class Methods
 
 For a list of all members of this type, see [XmlClarifyLicenseTool members](FChoice.Common~FChoice.Common.Licensing.XmlClarifyLicenseTool_members.md).
 
@@ -13,9 +11,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [RetrieveLicenses](FChoice.Common~FChoice.Common.Licensing.XmlClarifyLicenseTool~RetrieveLicenses.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateLockdownData](FChoice.Common~FChoice.Common.Licensing.XmlClarifyLicenseTool~ValidateLockdownData.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

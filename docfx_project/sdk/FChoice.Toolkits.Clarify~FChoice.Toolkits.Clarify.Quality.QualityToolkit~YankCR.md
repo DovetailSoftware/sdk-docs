@@ -1,8 +1,4 @@
-﻿     YankCR Method                                                   
-
-fcSDK Documentation
-
-YankCR Method
+﻿### YankCR Method
 
 Yank the CR from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.
 
@@ -20,11 +16,9 @@ Remarks
 
 The WipBin to place the CR in may also be specified. This is augmented function from base Clarify, where the CR is always placed in the default WipBin.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

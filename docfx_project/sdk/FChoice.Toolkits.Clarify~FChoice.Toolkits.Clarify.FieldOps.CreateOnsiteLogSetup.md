@@ -1,26 +1,18 @@
-﻿     CreateOnsiteLogSetup Class                                                   
-
-fcSDK Documentation
-
-CreateOnsiteLogSetup Class
+﻿### CreateOnsiteLogSetup Class
 
 Used by the [CreateOnsiteLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~CreateOnsiteLog(CreateOnsiteLogSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreateOnsiteLogSetup 
 
 public class CreateOnsiteLogSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.CreateOnsiteLogSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdateContactSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateContactSetup Class Properties
+﻿### UpdateContactSetup Class Properties
 
 For a list of all members of this type, see [UpdateContactSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup_members.md).
 
@@ -36,9 +32,9 @@ Identifier of the contact's current site.
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup~Title.md) | Job title for the Contact   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup~UserName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

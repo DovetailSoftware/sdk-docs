@@ -1,16 +1,9 @@
-﻿     ContractsToolkitBase Class                                                   
-
-fcSDK Documentation
-
-ContractsToolkitBase Class
+﻿### ContractsToolkitBase Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class ContractsToolkitBase 
    Inherits [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)
@@ -19,7 +12,7 @@ public abstract class ContractsToolkitBase : [FChoice.Toolkits.Clarify.ToolkitBa
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  
       **FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase**  
          [FChoice.Toolkits.Clarify.Contracts.ContractsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
@@ -32,7 +25,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

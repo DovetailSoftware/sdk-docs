@@ -1,23 +1,19 @@
-﻿     SiteType Enumeration                                                        
-
-fcSDK Documentation
-
-SiteType Enumeration
+﻿### SiteType Enumeration
 
 The type of the Site being created of modified.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Enum SiteType 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
+```
 
-public enum SiteType : [System.Enum](#) 
+```csharp
+public enum SiteType : System.Enum 
+```
 
 Members
 
@@ -31,10 +27,10 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
-         **FChoice.Toolkits.Clarify.SiteType**  
+System.Object  
+System.ValueType  
+System.Enum  
+**FChoice.Toolkits.Clarify.SiteType**  
 
 #### Requirements
 
@@ -43,8 +39,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreatePart Method                                                   
-
-fcSDK Documentation
-
-CreatePart Method
+﻿### CreatePart Method
 
 Create a Part. This overload takes a set of required parameters for the API.
 
@@ -20,11 +16,9 @@ Remarks
 
 Just calling this API will **NOT** cause the part to be visible in Clarify. There must be at least one [Part Revision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreatePartRevision.md) present to view a Part.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

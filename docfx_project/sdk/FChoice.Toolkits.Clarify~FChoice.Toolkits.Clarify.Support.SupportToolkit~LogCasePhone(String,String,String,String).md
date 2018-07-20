@@ -1,8 +1,4 @@
-﻿     LogCasePhone(String,String,String,String) Method                                                   
-
-fcSDK Documentation
-
-LogCasePhone(String,String,String,String) Method
+﻿### LogCasePhone(String,String,String,String) Method
 
 Identifier of the Case against which the phone note is being logged.
 
@@ -17,10 +13,7 @@ Creates a phone log against a Case. This overload takes a set of required param
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogCasePhone( _
    ByVal _caseIDNum_ As String, _
@@ -66,11 +59,9 @@ Remarks
 
 It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup~IsCommitmentToCustomer.md) properties.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

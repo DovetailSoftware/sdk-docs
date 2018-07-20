@@ -1,8 +1,4 @@
-﻿     IMockAdoField Interface Members                                                   
-
-fcSDK Documentation
-
-IMockAdoField Interface Members
+﻿### IMockAdoField Interface Members
 
 The following tables list the members exposed by [IMockAdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [NetValue](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField~NetValue.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Type](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField~Type.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -24,9 +20,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [get_Value](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField~get_Value.md) |   |
 | ![ Method](dotnetimages/Method.png) | [set_Value](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField~set_Value.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

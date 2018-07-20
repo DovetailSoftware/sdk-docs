@@ -1,8 +1,4 @@
-﻿     StartsWithFilter Class Properties                                                   
-
-fcSDK Documentation
-
-StartsWithFilter Class Properties
+﻿### StartsWithFilter Class Properties
 
 For a list of all members of this type, see [StartsWithFilter members](fcSDK~FChoice.Foundation.Filters.StartsWithFilter_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Operator](fcSDK~FChoice.Foundation.Filters.LikeFilter~Operator.md) | (Inherited from [FChoice.Foundation.Filters.LikeFilter](fcSDK~FChoice.Foundation.Filters.LikeFilter.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Value](fcSDK~FChoice.Foundation.Filters.OperationFilter~Value.md) | (Inherited from [FChoice.Foundation.Filters.OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

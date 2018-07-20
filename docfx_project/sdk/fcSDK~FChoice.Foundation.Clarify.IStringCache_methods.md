@@ -1,8 +1,4 @@
-﻿     IStringCache Interface Methods                                                   
-
-fcSDK Documentation
-
-IStringCache Interface Methods
+﻿### IStringCache Interface Methods
 
 For a list of all members of this type, see [IStringCache members](fcSDK~FChoice.Foundation.Clarify.IStringCache_members.md).
 
@@ -16,9 +12,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [SupportedLocales](fcSDK~FChoice.Foundation.Clarify.IStringCache~SupportedLocales.md) |   |
 | ![ Method](dotnetimages/Method.png) | [UpdateCache](fcSDK~FChoice.Foundation.Clarify.IStringCache~UpdateCache.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

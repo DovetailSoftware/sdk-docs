@@ -1,8 +1,4 @@
-﻿     HierarchicalStringListCollection Class Methods                                                   
-
-fcSDK Documentation
-
-HierarchicalStringListCollection Class Methods
+﻿### HierarchicalStringListCollection Class Methods
 
 For a list of all members of this type, see [HierarchicalStringListCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringListCollection_members.md).
 
@@ -42,9 +38,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<IHierarchicalStringList>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<IHierarchicalStringList>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

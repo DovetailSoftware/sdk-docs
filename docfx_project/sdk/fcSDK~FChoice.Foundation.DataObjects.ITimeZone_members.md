@@ -1,8 +1,4 @@
-﻿     ITimeZone Interface Members                                                   
-
-fcSDK Documentation
-
-ITimeZone Interface Members
+﻿### ITimeZone Interface Members
 
 The following tables list the members exposed by [ITimeZone](fcSDK~FChoice.Foundation.DataObjects.ITimeZone.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Name](fcSDK~FChoice.Foundation.DataObjects.ITimeZone~Name.md) |   |
 | ![ Property](dotnetimages/Property.png) | [UtcOffsetSeconds](fcSDK~FChoice.Foundation.DataObjects.ITimeZone~UtcOffsetSeconds.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -22,9 +18,9 @@ Public Methods
 | --- | --- | --- |
 | ![ Method](dotnetimages/Method.png) | [IsDaylightSavingsTime](fcSDK~FChoice.Foundation.DataObjects.ITimeZone~IsDaylightSavingsTime.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

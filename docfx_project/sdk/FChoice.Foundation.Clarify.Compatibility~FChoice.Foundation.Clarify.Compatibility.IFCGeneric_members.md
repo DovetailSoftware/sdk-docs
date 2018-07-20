@@ -1,8 +1,4 @@
-﻿     IFCGeneric Interface Members                                                   
-
-fcSDK Documentation
-
-IFCGeneric Interface Members
+﻿### IFCGeneric Interface Members
 
 The following tables list the members exposed by [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md).
 
@@ -41,7 +37,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [SetNullStringsToEmpty](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric~SetNullStringsToEmpty.md) |   |
 | ![ Property](dotnetimages/Property.png) | [SortOrder](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric~SortOrder.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -89,9 +85,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [Update](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric~Update.md) |   |
 | ![ Method](dotnetimages/Method.png) | [UpdateAll](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric~UpdateAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,16 +1,11 @@
-﻿     GetParameterNamePrefix Method (DbProvider)                                                   
-
-GetParameterNamePrefix Method (DbProvider)
+﻿### GetParameterNamePrefix Method (DbProvider)
 
 Gets the prefix used by the underlying database type for parameters in a parameterized query
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustOverride Function GetParameterNamePrefix() As String
 
@@ -24,11 +19,9 @@ Remarks
 
 Some database and/or provider types do not use prefixes for parameters, or do not use parameter names at all. One example of this is the OleDb provider uses "?" for all parameters instead of a prefix + name. In this case, [String.Empty](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemStringClassEmptyTopic.htm) will be returned.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

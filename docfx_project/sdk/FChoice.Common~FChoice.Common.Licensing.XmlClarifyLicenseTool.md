@@ -1,15 +1,9 @@
-﻿     XmlClarifyLicenseTool Class                                                   
-
-XmlClarifyLicenseTool Class
+﻿### XmlClarifyLicenseTool Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class XmlClarifyLicenseTool 
    Implements [ILicenseTool](FChoice.Common~FChoice.Common.Licensing.ILicenseTool.md) 
 
@@ -17,7 +11,7 @@ public class XmlClarifyLicenseTool : [ILicenseTool](FChoice.Common~FChoice.Commo
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.Licensing.XmlClarifyLicenseTool**  
 
 #### Requirements
@@ -28,7 +22,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ForwardActionItem(ForwardActionItemSetup) Method                                                   
-
-fcSDK Documentation
-
-ForwardActionItem(ForwardActionItemSetup) Method
+﻿### ForwardActionItem(ForwardActionItemSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Reject-forward the ActionItem from one queue to another. This overload takes a s
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ForwardActionItem( _
    ByVal _setupParam_ As [ForwardActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The ActionItem must be in open condition, and not currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

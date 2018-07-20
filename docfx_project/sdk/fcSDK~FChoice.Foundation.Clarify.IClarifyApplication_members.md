@@ -1,8 +1,4 @@
-﻿     IClarifyApplication Interface Members                                                   
-
-fcSDK Documentation
-
-IClarifyApplication Interface Members
+﻿### IClarifyApplication Interface Members
 
 The following tables list the members exposed by [IClarifyApplication](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication.md).
 
@@ -27,7 +23,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [StringCache](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication~StringCache.md) |   |
 | ![ Property](dotnetimages/Property.png) | [TruncateStringFields](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication~TruncateStringFields.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -42,9 +38,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [GetSession](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication~GetSession.md) |   |
 | ![ Method](dotnetimages/Method.png) | [IsSessionValid](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication~IsSessionValid.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ReopenCaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ReopenCaseSetup Class Properties
+﻿### ReopenCaseSetup Class Properties
 
 For a list of all members of this type, see [ReopenCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup~UserName.md) | User who reopened the Case. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup~WipBin.md) | WipBin to place the Case in. If not set, the users default WibBin is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

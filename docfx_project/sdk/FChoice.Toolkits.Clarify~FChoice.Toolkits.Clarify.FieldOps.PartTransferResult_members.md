@@ -1,8 +1,4 @@
-﻿     PartTransferResult Class Members                                                   
-
-fcSDK Documentation
-
-PartTransferResult Class Members
+﻿### PartTransferResult Class Members
 
 The following tables list the members exposed by [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [PartTransferResult Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~_ctor().md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StandardCost](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~StandardCost.md) | Part Transfer Standard Cost.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TransactionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~TransactionIDNum.md) | Part Transfer Transaction Identifier.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     Query Method (FCGeneric)                                                   
-
-fcSDK Documentation
-
-Query Method (FCGeneric)
+﻿### Query Method (FCGeneric)
 
 Causes the generic object to query the database table or view using the optionally specified data fields, filters, and sort orders
 
@@ -25,11 +21,9 @@ For more information on controlling the number and type of fields returned, see 
 
 If more than one object that is to be queried at the same time and are not related, use the [Query Method](fcSDK~FChoice.Foundation.GenericDataSet~Query.md) on the [ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) instance from which this generate was created to ensure that the queries are optimized and are executed in the same transaction.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

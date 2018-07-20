@@ -1,8 +1,4 @@
-﻿     CreateQueueSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateQueueSetup Class Members
+﻿### CreateQueueSetup Class Members
 
 The following tables list the members exposed by [CreateQueueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateQueueSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateQueueSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateQueueSetup~_ctor.md) | Initializes a new instance of the CreateQueueSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -33,9 +29,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Supervisor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateQueueSetup~Supervisor.md) | Username of the supervisor of the Queue   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateQueueSetup~Title.md) | Title of the Queue   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

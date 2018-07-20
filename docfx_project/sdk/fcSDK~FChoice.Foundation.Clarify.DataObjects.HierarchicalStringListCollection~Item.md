@@ -1,17 +1,9 @@
-﻿     Item Property (HierarchicalStringListCollection)                                                   
-
-fcSDK Documentation
-
-Item Property (HierarchicalStringListCollection)
+﻿### Item Property (HierarchicalStringListCollection)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Shadows ReadOnly Default Property Item( _
    ByVal _title_ As String _
 ) As [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md)
@@ -24,11 +16,9 @@ public new [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObject
 
 _title_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

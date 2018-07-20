@@ -1,17 +1,9 @@
-﻿     ISchemaField Interface                                                   
-
-fcSDK Documentation
-
-ISchemaField Interface
+﻿### ISchemaField Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Interface ISchemaField 
 
 public interface ISchemaField 
@@ -24,7 +16,7 @@ public interface ISchemaField
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

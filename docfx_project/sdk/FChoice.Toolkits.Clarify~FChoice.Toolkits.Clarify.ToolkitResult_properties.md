@@ -1,8 +1,4 @@
-﻿     ToolkitResult Class Properties                                                   
-
-fcSDK Documentation
-
-ToolkitResult Class Properties
+﻿### ToolkitResult Class Properties
 
 For a list of all members of this type, see [ToolkitResult members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) | Objid of the object modified by the API invocation   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ReturnCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~ReturnCode.md) | Return code of the API call.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

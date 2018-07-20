@@ -1,8 +1,4 @@
-﻿     FakeTimeZone Class Methods                                                   
-
-fcSDK Documentation
-
-FakeTimeZone Class Methods
+﻿### FakeTimeZone Class Methods
 
 For a list of all members of this type, see [FakeTimeZone members](fcSDK~FChoice.Foundation.DataObjects.FakeTimeZone_members.md).
 
@@ -19,9 +15,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [IsDaylightSavingsTime](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone~IsDaylightSavingsTime.md) | (Inherited from [FChoice.Foundation.Clarify.DataObjects.FCTimeZone](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

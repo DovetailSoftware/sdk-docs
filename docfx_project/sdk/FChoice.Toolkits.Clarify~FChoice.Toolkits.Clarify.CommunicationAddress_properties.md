@@ -1,8 +1,4 @@
-﻿     CommunicationAddress Class Properties                                                   
-
-fcSDK Documentation
-
-CommunicationAddress Class Properties
+﻿### CommunicationAddress Class Properties
 
 For a list of all members of this type, see [CommunicationAddress members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAddress_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CommunicationRoleType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAddress~CommunicationRoleType.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [EmailAddress](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAddress~EmailAddress.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

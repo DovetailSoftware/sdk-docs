@@ -1,19 +1,11 @@
-﻿     OnlyOwner Property (UpdateCaseSetup)                                                   
-
-fcSDK Documentation
-
-OnlyOwner Property (UpdateCaseSetup)
+﻿### OnlyOwner Property (UpdateCaseSetup)
 
 Specifies if only the owner should be allow to modify the Case.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property OnlyOwner As Boolean
 
@@ -24,11 +16,9 @@ Remarks
 
 If the [User](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseSetup~UserName.md) is not the current owner of the Case and this flag is **true** then the Update will not happen.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,23 +1,16 @@
-﻿     PartRepairType Enumeration                                                     
-
-fcSDK Documentation
-
-PartRepairType Enumeration
+﻿### PartRepairType Enumeration
 
 Repair Type of the Part being created or modified.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Enum PartRepairType 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
 
-public enum PartRepairType : [System.Enum](#) 
+public enum PartRepairType : System.Enum 
 
 Members
 
@@ -28,9 +21,9 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Toolkits.Clarify.PartRepairType**  
 
 #### Requirements
@@ -41,7 +34,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

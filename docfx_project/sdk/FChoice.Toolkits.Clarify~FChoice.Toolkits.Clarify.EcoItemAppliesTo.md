@@ -1,23 +1,15 @@
-﻿     EcoItemAppliesTo Enumeration                                                     
-
-fcSDK Documentation
-
-EcoItemAppliesTo Enumeration
+﻿### EcoItemAppliesTo Enumeration
 
 The type of object the ECO item being created or updated applies to.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Enum EcoItemAppliesTo 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
 
-public enum EcoItemAppliesTo : [System.Enum](#) 
+public enum EcoItemAppliesTo : System.Enum 
 
 Members
 
@@ -28,9 +20,9 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Toolkits.Clarify.EcoItemAppliesTo**  
 
 #### Requirements
@@ -41,7 +33,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

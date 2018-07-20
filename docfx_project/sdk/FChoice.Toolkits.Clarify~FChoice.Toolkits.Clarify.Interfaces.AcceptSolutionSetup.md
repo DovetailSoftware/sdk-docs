@@ -1,19 +1,11 @@
-﻿     AcceptSolutionSetup Class                                                   
-
-fcSDK Documentation
-
-AcceptSolutionSetup Class
+﻿### AcceptSolutionSetup Class
 
 Used by the [AcceptSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AcceptSolution(AcceptSolutionSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AcceptSolutionSetup 
 
 public class AcceptSolutionSetup 
@@ -25,7 +17,7 @@ The solution must be currently dispatched to a queue.
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.AcceptSolutionSetup**  
 
 Requirements
@@ -33,7 +25,7 @@ Requirements
 The solution must be currently dispatched to a queue.  
 The solution must be currently dispatched to a queue.
 
-See Also
+
 
 #### Reference
 

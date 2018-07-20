@@ -1,8 +1,4 @@
-﻿     StateCollection Class Members                                                   
-
-fcSDK Documentation
-
-StateCollection Class Members
+﻿### StateCollection Class Members
 
 The following tables list the members exposed by [StateCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [DefaultState](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection~DefaultState.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,9 +49,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<StateProvince>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<StateProvince>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

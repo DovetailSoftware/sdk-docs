@@ -1,18 +1,11 @@
-﻿     change_obj_status Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-change_obj_status Method (IFCSession)
+﻿### change_obj_status Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743892)>
+<DispIdAttribute(1610743892)>
 Function change_obj_status( _
    ByVal _objId_ As String, _
    ByRef _newStatus_ As String, _
@@ -23,7 +16,7 @@ Function change_obj_status( _
    ByVal _objectType_ As String _
 ) As Short
 
-\[[DispIdAttribute](#)(1610743892)\]
+[DispIdAttribute(1610743892)]
 short change_obj_status( 
    string _objId_,
    out string _newStatus_,
@@ -50,11 +43,9 @@ _generateTimeBombs_
 
 _objectType_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

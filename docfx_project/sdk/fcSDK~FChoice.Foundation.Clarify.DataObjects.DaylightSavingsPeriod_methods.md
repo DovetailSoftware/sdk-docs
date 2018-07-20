@@ -1,8 +1,4 @@
-﻿     DaylightSavingsPeriod Class Methods                                                   
-
-fcSDK Documentation
-
-DaylightSavingsPeriod Class Methods
+﻿### DaylightSavingsPeriod Class Methods
 
 For a list of all members of this type, see [DaylightSavingsPeriod members](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod_members.md).
 
@@ -19,9 +15,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Intersects](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod~Intersects.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [IsDateInRange](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod~IsDateInRange.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

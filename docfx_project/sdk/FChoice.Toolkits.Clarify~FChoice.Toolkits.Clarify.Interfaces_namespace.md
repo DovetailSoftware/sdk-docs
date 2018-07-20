@@ -87,7 +87,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [UpdateWipBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateWipBinSetup.md) | Used by the [UpdateWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateWipBin(UpdateWipBinSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [YankSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.YankSolutionSetup.md) | Used by the [YankSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~YankSolution(YankSolutionSetup).md) method as setup data for invocation. |
 
-See Also
+
 
 #### Reference
 

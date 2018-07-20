@@ -1,28 +1,19 @@
-﻿     TotalBillableTime Property (SubcaseTimeAndExpenses)                                                   
-
-fcSDK Documentation
-
-TotalBillableTime Property (SubcaseTimeAndExpenses)
+﻿### TotalBillableTime Property (SubcaseTimeAndExpenses)
 
 Captured billable time.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Property TotalBillableTime As TimeSpan
 
-Public Property TotalBillableTime As [TimeSpan](#)
+public TimeSpan TotalBillableTime {get; set;}
 
-public [TimeSpan](#) TotalBillableTime {get; set;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

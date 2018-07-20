@@ -1,26 +1,18 @@
-﻿     CreateTimeZoneSetup Class                                                   
-
-fcSDK Documentation
-
-CreateTimeZoneSetup Class
+﻿### CreateTimeZoneSetup Class
 
 Used by the [CreateTimeZone](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateTimeZone(CreateTimeZoneSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreateTimeZoneSetup 
 
 public class CreateTimeZoneSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.CreateTimeZoneSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

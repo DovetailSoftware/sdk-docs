@@ -1,8 +1,4 @@
-﻿     DispatchPartRequestSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DispatchPartRequestSetup Class Properties
+﻿### DispatchPartRequestSetup Class Properties
 
 For a list of all members of this type, see [DispatchPartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup~Queue.md) | The queue into which the PartRequest is to be dispatched.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup~UserName.md) | The user who has dispatched the PartRequest. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,16 +1,9 @@
-﻿     IsValidTableOrView(String) Method                                                   
-
-fcSDK Documentation
-
-IsValidTableOrView(String) Method
+﻿### IsValidTableOrView(String) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function IsValidTableOrView( _
    ByVal _objectName_ As String _
@@ -24,11 +17,9 @@ public bool IsValidTableOrView(
 
 _objectName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdateTimeLogSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateTimeLogSetup Class Properties
+﻿### UpdateTimeLogSetup Class Properties
 
 For a list of all members of this type, see [UpdateTimeLogSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateTimeLogSetup_members.md).
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateTimeLogSetup~UserName.md) | The user who is updating the Time Log. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkCenter](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateTimeLogSetup~WorkCenter.md) | Element from the 'Work Center' application list. If not set the default list value is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

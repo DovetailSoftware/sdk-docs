@@ -1,8 +1,4 @@
-﻿     MoveQuoteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-MoveQuoteSetup Class Properties
+﻿### MoveQuoteSetup Class Properties
 
 For a list of all members of this type, see [MoveQuoteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.MoveQuoteSetup_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [NewWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.MoveQuoteSetup~NewWipBin.md) | The new WipBin into which the Quote is to be moved.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [QuoteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.MoveQuoteSetup~QuoteIDNum.md) | Quote Identifier.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

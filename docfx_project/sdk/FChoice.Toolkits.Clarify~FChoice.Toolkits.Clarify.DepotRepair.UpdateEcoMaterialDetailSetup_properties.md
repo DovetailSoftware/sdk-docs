@@ -1,8 +1,4 @@
-﻿     UpdateEcoMaterialDetailSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateEcoMaterialDetailSetup Class Properties
+﻿### UpdateEcoMaterialDetailSetup Class Properties
 
 For a list of all members of this type, see [UpdateEcoMaterialDetailSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoMaterialDetailSetup_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRevisionObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoMaterialDetailSetup~PartRevisionObjid.md) | The objid of the part revision of the material that was put in use.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoMaterialDetailSetup~Status.md) | Element from the 'ECO Status' application list. If not set, the default list value is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

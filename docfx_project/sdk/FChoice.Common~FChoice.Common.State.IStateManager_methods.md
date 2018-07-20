@@ -1,6 +1,4 @@
-﻿     IStateManager Interface Methods                                                   
-
-IStateManager Interface Methods
+﻿### IStateManager Interface Methods
 
 For a list of all members of this type, see [IStateManager members](FChoice.Common~FChoice.Common.State.IStateManager_members.md).
 
@@ -18,9 +16,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [ResetTimeout](FChoice.Common~FChoice.Common.State.IStateManager~ResetTimeout.md) |   |
 | ![ Method](dotnetimages/Method.png) | [SaveState](FChoice.Common~FChoice.Common.State.IStateManager~SaveState.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

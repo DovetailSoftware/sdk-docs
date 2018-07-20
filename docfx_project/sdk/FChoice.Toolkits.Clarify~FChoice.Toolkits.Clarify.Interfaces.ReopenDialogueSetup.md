@@ -1,24 +1,16 @@
-﻿     ReopenDialogueSetup Class                                                   
-
-fcSDK Documentation
-
-ReopenDialogueSetup Class
+﻿### ReopenDialogueSetup Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ReopenDialogueSetup 
 
 public class ReopenDialogueSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.ReopenDialogueSetup**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

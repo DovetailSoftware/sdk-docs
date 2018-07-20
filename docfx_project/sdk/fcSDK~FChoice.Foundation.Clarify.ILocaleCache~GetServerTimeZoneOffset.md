@@ -1,26 +1,17 @@
-﻿     GetServerTimeZoneOffset Method (ILocaleCache)                                                   
-
-fcSDK Documentation
-
-GetServerTimeZoneOffset Method (ILocaleCache)
+﻿### GetServerTimeZoneOffset Method (ILocaleCache)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Function GetServerTimeZoneOffset() As Integer
 
-Function GetServerTimeZoneOffset() As [Integer](#)
+int GetServerTimeZoneOffset()
 
-[int](#) GetServerTimeZoneOffset()
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

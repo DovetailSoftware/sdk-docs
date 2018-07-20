@@ -1,8 +1,4 @@
-﻿     SimplifiedAdditionalFields Class Methods                                                   
-
-fcSDK Documentation
-
-SimplifiedAdditionalFields Class Methods
+﻿### SimplifiedAdditionalFields Class Methods
 
 For a list of all members of this type, see [SimplifiedAdditionalFields members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalFields_members.md).
 
@@ -41,9 +37,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SimplifiedAdditionalField>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SimplifiedAdditionalField>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

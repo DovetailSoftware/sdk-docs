@@ -1,8 +1,4 @@
-﻿     PartTransfer(PartTransferSetup) Method                                                   
-
-fcSDK Documentation
-
-PartTransfer(PartTransferSetup) Method
+﻿### PartTransfer(PartTransferSetup) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function PartTransfer( _
    ByVal _setupParam_ As [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup.md) _
@@ -50,11 +43,9 @@ To use primary bin suggestions/recommendations, please see the remarks on the [T
 
 This API supports transferring parts by quantity or a specific serial number.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

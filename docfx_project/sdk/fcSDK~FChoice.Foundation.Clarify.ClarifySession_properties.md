@@ -43,9 +43,9 @@ Returns the session's unique identifier.
 | ![Public Property](dotnetimages/publicProperty.png) | [UserID](fcSDK~FChoice.Foundation.FCSession~UserID.md) | Returns the unique identifier for the session's logged-in user. (Inherited from [FChoice.Foundation.FCSession](fcSDK~FChoice.Foundation.FCSession.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](fcSDK~FChoice.Foundation.FCSession~UserName.md) | Returns the login name for the session's logged-in user. (Inherited from [FChoice.Foundation.FCSession](fcSDK~FChoice.Foundation.FCSession.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

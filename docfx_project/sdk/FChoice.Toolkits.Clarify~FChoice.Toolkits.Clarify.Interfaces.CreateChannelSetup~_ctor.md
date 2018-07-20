@@ -1,24 +1,17 @@
-﻿     CreateChannelSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateChannelSetup Constructor
+﻿### CreateChannelSetup Constructor
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function New( _
-   ByVal _mediumObjid_ As [Integer](#), _
+   ByVal _mediumObjid_ As Integer, _
    ByVal _designation_ As String _
 )
 
 public CreateChannelSetup( 
-   [int](#) _mediumObjid_,
+   int _mediumObjid_,
    string _designation_
 )
 
@@ -28,11 +21,9 @@ _mediumObjid_
 
 _designation_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateQuoteSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateQuoteSetup Class Members
+﻿### CreateQuoteSetup Class Members
 
 The following tables list the members exposed by [CreateQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateQuoteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteSetup~_ctor.md) | Initializes a new instance of the CreateQuoteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -38,9 +34,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteSetup~Status.md) | Element from the 'SFA Quote' application list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteSetup~UserName.md) | The user who is creating the quote. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     WorkflowException Class Properties                                                   
-
-fcSDK Documentation
-
-WorkflowException Class Properties
+﻿### WorkflowException Class Properties
 
 For a list of all members of this type, see [WorkflowException members](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowException_members.md).
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

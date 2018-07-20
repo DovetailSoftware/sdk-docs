@@ -1,26 +1,18 @@
-﻿     ReinstallSitePartToPartSetup Class                                                   
-
-fcSDK Documentation
-
-ReinstallSitePartToPartSetup Class
+﻿### ReinstallSitePartToPartSetup Class
 
 Used by the [ReinstallSitePartToPart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~ReinstallSitePartToPart(ReinstallSitePartToPartSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ReinstallSitePartToPartSetup 
 
 public class ReinstallSitePartToPartSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToPartSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

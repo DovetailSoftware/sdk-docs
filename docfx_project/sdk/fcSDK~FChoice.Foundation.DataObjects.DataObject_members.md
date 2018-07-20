@@ -1,8 +1,4 @@
-﻿     DataObject Class Members                                                   
-
-fcSDK Documentation
-
-DataObject Class Members
+﻿### DataObject Class Members
 
 The following tables list the members exposed by [DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [FieldValues](fcSDK~FChoice.Foundation.DataObjects.DataObject~FieldValues.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -27,9 +23,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

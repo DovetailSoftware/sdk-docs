@@ -1,24 +1,16 @@
-﻿     SchemaCacheHelper Class                                                   
-
-fcSDK Documentation
-
-SchemaCacheHelper Class
+﻿### SchemaCacheHelper Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustInherit NotInheritable Class SchemaCacheHelper 
 
 public static class SchemaCacheHelper 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.SchemaCacheHelper**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

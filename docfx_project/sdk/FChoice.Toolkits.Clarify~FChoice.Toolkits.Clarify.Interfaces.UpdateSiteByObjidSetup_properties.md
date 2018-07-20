@@ -1,8 +1,4 @@
-﻿     UpdateSiteByObjidSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateSiteByObjidSetup Class Properties
+﻿### UpdateSiteByObjidSetup Class Properties
 
 For a list of all members of this type, see [UpdateSiteByObjidSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup_members.md).
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup~Status.md) | Site status   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SupportOfficeSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup~SupportOfficeSiteIDNum.md) | Identifier of the site where the support office is located   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

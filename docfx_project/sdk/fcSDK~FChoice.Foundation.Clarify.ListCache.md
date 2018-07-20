@@ -1,18 +1,11 @@
-﻿     ListCache Class                                                   
-
-fcSDK Documentation
-
-ListCache Class
+﻿### ListCache Class
 
 Caches and provides convenient access methods for GBST and HGBST list structures
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class ListCache 
    Inherits [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)
@@ -22,7 +15,7 @@ public class ListCache : [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.Cla
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)  
       [FChoice.Foundation.Clarify.ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)  
          **FChoice.Foundation.Clarify.ListCache**  
@@ -35,7 +28,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateSolutionResult Class Properties                                                   
-
-fcSDK Documentation
-
-CreateSolutionResult Class Properties
+﻿### CreateSolutionResult Class Properties
 
 For a list of all members of this type, see [CreateSolutionResult members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ReturnCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~ReturnCode.md) | Return code of the API call. (Inherited from [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkaroundObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~WorkaroundObjid.md) | Objid of the Workaround that is created along with the Solution   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

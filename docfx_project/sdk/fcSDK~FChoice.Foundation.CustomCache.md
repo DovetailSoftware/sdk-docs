@@ -1,16 +1,9 @@
-﻿     CustomCache Class                                                   
-
-fcSDK Documentation
-
-CustomCache Class
+﻿### CustomCache Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class CustomCache 
    Inherits [CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)
@@ -19,7 +12,7 @@ public class CustomCache : [CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)  
       **FChoice.Foundation.CustomCache**  
 
@@ -31,7 +24,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

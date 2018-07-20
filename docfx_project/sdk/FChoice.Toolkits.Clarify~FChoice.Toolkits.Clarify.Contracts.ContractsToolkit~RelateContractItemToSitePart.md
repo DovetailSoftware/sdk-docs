@@ -1,8 +1,4 @@
-﻿     RelateContractItemToSitePart Method                                                   
-
-fcSDK Documentation
-
-RelateContractItemToSitePart Method
+﻿### RelateContractItemToSitePart Method
 
 Used to relate (or unrelate) a Site Part from a contract line item. This overload takes a set of required parameters for the API.
 
@@ -16,11 +12,9 @@ Overload List
 | [RelateContractItemToSitePart(RelateContractItemToSitePartSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~RelateContractItemToSitePart(RelateContractItemToSitePartSetup).md) | Used to relate (or unrelate) a Site Part from a contract line item. This overload takes a setup object.   |
 | [RelateContractItemToSitePart(RelateContractItemToSitePartSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~RelateContractItemToSitePart(RelateContractItemToSitePartSetup,IDbTransaction).md) | Used to relate (or unrelate) a Site Part from a contract line item. This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

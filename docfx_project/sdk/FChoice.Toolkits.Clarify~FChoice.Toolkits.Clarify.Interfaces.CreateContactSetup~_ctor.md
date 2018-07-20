@@ -1,8 +1,4 @@
-﻿     CreateContactSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateContactSetup Constructor
+﻿### CreateContactSetup Constructor
 
 Contact first name
 
@@ -17,12 +13,9 @@ Initializes a new instance of the CreateContactSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _firstName_ As String, _
    ByVal _lastName_ As String, _
@@ -30,7 +23,7 @@ Public Function New( _
    ByVal _siteIDNum_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateContactSetup( 
    string _firstName_,
    string _lastName_,
@@ -56,11 +49,9 @@ _siteIDNum_
 
 Identifier of the site for the contact role to create.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

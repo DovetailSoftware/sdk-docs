@@ -1,8 +1,4 @@
-﻿     DuplicateCRSetup Class Members                                                   
-
-fcSDK Documentation
-
-DuplicateCRSetup Class Members
+﻿### DuplicateCRSetup Class Members
 
 The following tables list the members exposed by [DuplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DuplicateCRSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup~_ctor.md) | Initializes a new instance of the DuplicateCRSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup~Status.md) | The new status for the duplicate Change Request. If not set, the default status is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup~UserName.md) | The user duplicating the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     NewTitle Property (UpdateQueueSetup)                                                   
-
-fcSDK Documentation
-
-NewTitle Property (UpdateQueueSetup)
+﻿### NewTitle Property (UpdateQueueSetup)
 
 New title of the Queue
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property NewTitle As String
@@ -20,11 +13,9 @@ Public Property NewTitle As String
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public string NewTitle {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CloseCase(String) Method                                                   
-
-fcSDK Documentation
-
-CloseCase(String) Method
+﻿### CloseCase(String) Method
 
 Identifier of the Case being closed.
 
@@ -11,10 +7,7 @@ Closes the specified Case that is currently open. This overload takes a set of r
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CloseCase( _
    ByVal _caseIDNum_ As String _
@@ -40,11 +33,9 @@ Remarks
 
 If the [CloseSums](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup~CloseSums.md) property is not set, the API will automatically calculate the log summation for the Case.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

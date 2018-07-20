@@ -1,8 +1,4 @@
-﻿     AssignSubcase(AssignSubcaseSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-AssignSubcase(AssignSubcaseSetup,IDbTransaction) Method
+﻿### AssignSubcase(AssignSubcaseSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Assign the Subcase to a new user. This overload takes a setup object and a datab
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AssignSubcase( _
    ByVal _setupParam_ As [AssignSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AssignSubcaseSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

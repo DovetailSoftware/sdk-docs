@@ -1,28 +1,20 @@
-﻿     SchemaViewCollection Class                                                   
-
-fcSDK Documentation
-
-SchemaViewCollection Class
+﻿### SchemaViewCollection Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DefaultMemberAttribute](#)("Item")>
+' Declaration
+<DefaultMemberAttribute("Item")>
 Public Class SchemaViewCollection 
    Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of SchemaView)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
    Implements [FChoice.Foundation.Schema.ISchemaViewCollection](fcSDK~FChoice.Foundation.Schema.ISchemaViewCollection.md) 
 
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 public class SchemaViewCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<SchemaView>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md), [FChoice.Foundation.Schema.ISchemaViewCollection](fcSDK~FChoice.Foundation.Schema.ISchemaViewCollection.md)  
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Collections.Generic.List<T>](#)  
       [FChoice.Foundation.DataObjects.DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)  
          **FChoice.Foundation.Clarify.Schema.SchemaViewCollection**  
@@ -35,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdateQueueSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateQueueSetup Class Properties
+﻿### UpdateQueueSetup Class Properties
 
 For a list of all members of this type, see [UpdateQueueSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateQueueSetup_members.md).
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Supervisor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateQueueSetup~Supervisor.md) | Username of the supervisor of the Queue   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateQueueSetup~Title.md) | Title of the Queue   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

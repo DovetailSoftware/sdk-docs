@@ -1,30 +1,22 @@
-﻿     TimeLogObjid Property (UpdateTimeLogSetup)                                                   
-
-fcSDK Documentation
-
-TimeLogObjid Property (UpdateTimeLogSetup)
+### TimeLogObjid Property (UpdateTimeLogSetup)
 
 The Objid of the Time Log being modified.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property TimeLogObjid As [Integer](#)
+<PropertyBitValueAttribute()>
+Public Property TimeLogObjid As Integer
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [int](#) TimeLogObjid {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public int TimeLogObjid {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

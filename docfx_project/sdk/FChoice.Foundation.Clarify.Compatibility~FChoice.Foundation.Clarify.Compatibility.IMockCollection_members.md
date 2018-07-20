@@ -1,8 +1,4 @@
-﻿     IMockCollection Interface Members                                                   
-
-fcSDK Documentation
-
-IMockCollection Interface Members
+﻿### IMockCollection Interface Members
 
 The following tables list the members exposed by [IMockCollection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection.md).
 
@@ -16,9 +12,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [Item](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection~Item.md) |   |
 | ![ Method](dotnetimages/Method.png) | [Remove](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection~Remove.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     InstallSitePartSetup Class Members                                                   
-
-fcSDK Documentation
-
-InstallSitePartSetup Class Members
+﻿### InstallSitePartSetup Class Members
 
 The following tables list the members exposed by [InstallSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.InstallSitePartSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [InstallSitePartSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.InstallSitePartSetup~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,9 +32,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.InstallSitePartSetup~SiteIDNum.md) | The Site Id of the Parent Site where the Site Part is being installed.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.InstallSitePartSetup~UserName.md) | The user who installed the Site Part. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

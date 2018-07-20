@@ -1,8 +1,4 @@
-﻿     SealContainerSetup Class Properties                                                   
-
-fcSDK Documentation
-
-SealContainerSetup Class Properties
+﻿### SealContainerSetup Class Properties
 
 For a list of all members of this type, see [SealContainerSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SealContainerSetup_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ContainerName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SealContainerSetup~ContainerName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

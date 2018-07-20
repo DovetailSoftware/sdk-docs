@@ -1,8 +1,4 @@
-﻿     Location Class Methods                                                   
-
-fcSDK Documentation
-
-Location Class Methods
+﻿### Location Class Methods
 
 For a list of all members of this type, see [Location members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location_members.md).
 
@@ -12,9 +8,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~ToString.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

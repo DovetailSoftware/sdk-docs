@@ -1,8 +1,4 @@
-﻿     IClarifyApplication Interface Properties                                                   
-
-fcSDK Documentation
-
-IClarifyApplication Interface Properties
+﻿### IClarifyApplication Interface Properties
 
 For a list of all members of this type, see [IClarifyApplication members](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication_members.md).
 
@@ -27,9 +23,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [StringCache](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication~StringCache.md) |   |
 | ![ Property](dotnetimages/Property.png) | [TruncateStringFields](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication~TruncateStringFields.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

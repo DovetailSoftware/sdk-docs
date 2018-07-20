@@ -1,8 +1,4 @@
-﻿     IHierarchicalStringElementCollection Interface Properties                                                   
-
-fcSDK Documentation
-
-IHierarchicalStringElementCollection Interface Properties
+﻿### IHierarchicalStringElementCollection Interface Properties
 
 For a list of all members of this type, see [IHierarchicalStringElementCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [DefaultElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection~DefaultElement.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

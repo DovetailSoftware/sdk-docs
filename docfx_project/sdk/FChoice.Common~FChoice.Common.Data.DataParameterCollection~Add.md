@@ -1,6 +1,4 @@
-﻿     Add Method (DataParameterCollection)                                                   
-
-Add Method (DataParameterCollection)
+﻿### Add Method (DataParameterCollection)
 
 Adds a parameter to this collection for use as a bind variable in the SQL statement.
 
@@ -19,11 +17,9 @@ Remarks
 
 The parameters added to this collection are stored in order and are used by [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) to replace the parameter tokens in the SQL statement in the order in which they appear.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

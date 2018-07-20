@@ -1,8 +1,4 @@
-﻿     IApplicationClock Interface Members                                                   
-
-fcSDK Documentation
-
-IApplicationClock Interface Members
+﻿### IApplicationClock Interface Members
 
 The following tables list the members exposed by [IApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![ Property](dotnetimages/Property.png) | [Now](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock~Now.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

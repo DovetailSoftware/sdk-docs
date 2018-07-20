@@ -1,8 +1,4 @@
-﻿     LogContractNoteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogContractNoteSetup Class Properties
+﻿### LogContractNoteSetup Class Properties
 
 For a list of all members of this type, see [LogContractNoteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup~Notes.md) | The notes being logged to the Contract.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup~UserName.md) | The user who is logging the Contract Note. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

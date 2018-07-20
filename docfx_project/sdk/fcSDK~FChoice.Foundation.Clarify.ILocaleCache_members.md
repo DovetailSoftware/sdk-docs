@@ -1,8 +1,4 @@
-﻿     ILocaleCache Interface Members                                                   
-
-fcSDK Documentation
-
-ILocaleCache Interface Members
+﻿### ILocaleCache Interface Members
 
 The following tables list the members exposed by [ILocaleCache](fcSDK~FChoice.Foundation.Clarify.ILocaleCache.md).
 
@@ -17,7 +13,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [ServerTimeZone](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~ServerTimeZone.md) |   |
 | ![ Property](dotnetimages/Property.png) | [TimeZones](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~TimeZones.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -47,7 +43,7 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [SetServerTimeZoneToMachineTimeZone](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~SetServerTimeZoneToMachineTimeZone.md) |   |
 | ![ Method](dotnetimages/Method.png) | [UpdateCache](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~UpdateCache.md) |   |
 
-[Top](#top)
+
 
 Public Events
 
@@ -55,9 +51,9 @@ Public Events
 | --- | --- | --- |
 | ![ Event](dotnetimages/Event.png) | [CacheUpdated](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~CacheUpdated_EV.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

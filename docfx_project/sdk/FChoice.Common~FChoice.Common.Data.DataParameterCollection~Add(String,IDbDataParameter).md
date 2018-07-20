@@ -1,6 +1,4 @@
-﻿     Add(String,IDbDataParameter) Method                                                   
-
-Add(String,IDbDataParameter) Method
+﻿### Add(String,IDbDataParameter) Method
 
 The name of the parameter to add (without the database-specific bind variable prefix such as @ for Microsoft SQL Server or : for Oracle)
 
@@ -11,20 +9,20 @@ Adds a parameter to this collection for passing to the database and in replacing
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Overloads Function Add( _
    ByVal _name_ As String, _
-   ByVal _param_ As [IDbDataParameter](#) _
-) As [Integer](#)
+   ByVal _param_ As IDbDataParameter _
+) As Integer
+```
 
-public [int](#) Add( 
+```csharp
+public int Add( 
    string _name_,
-   [IDbDataParameter](#) _param_
+   IDbDataParameter _param_
 )
+```
 
 #### Parameters
 
@@ -42,11 +40,7 @@ The **_name_** parameter should be a simple name without any database-specific 
 
 **NOTE:** The instance of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbDataParameterClassTopic.htm) to add must match the same underlying type of parameter as that provided by the [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) associated with this collection (either the default provider or the one passed into the constructor for this collection). If they do not match, an error will be thrown when the query is executed.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

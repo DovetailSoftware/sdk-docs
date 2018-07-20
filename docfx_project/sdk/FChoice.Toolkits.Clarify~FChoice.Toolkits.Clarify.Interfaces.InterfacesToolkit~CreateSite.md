@@ -1,8 +1,4 @@
-﻿     CreateSite Method                                                   
-
-fcSDK Documentation
-
-CreateSite Method
+﻿### CreateSite Method
 
 Create a Site. This overload takes a set of required parameters for the API.
 
@@ -16,11 +12,9 @@ Overload List
 | [CreateSite(CreateSiteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateSite(CreateSiteSetup).md) | Create a Site. This overload takes a setup object.   |
 | [CreateSite(CreateSiteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateSite(CreateSiteSetup,IDbTransaction).md) | Create a Site. This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

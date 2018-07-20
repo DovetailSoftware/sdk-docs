@@ -1,8 +1,4 @@
-﻿     SupportToolkit Class                                                   
-
-fcSDK Documentation
-
-SupportToolkit Class
+﻿### SupportToolkit Class
 
 Provides APIs to allow you to modify basic ClearSupport objects such as Case and Subcase.
 
@@ -11,10 +7,7 @@ Methods on the [SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarif
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class SupportToolkit 
    Inherits [SupportToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase.md)
@@ -23,7 +16,7 @@ public class SupportToolkit : [SupportToolkitBase](FChoice.Toolkits.Clarify~FCho
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  
       [FChoice.Toolkits.Clarify.Support.SupportToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase.md)  
          **FChoice.Toolkits.Clarify.Support.SupportToolkit**  
@@ -36,7 +29,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

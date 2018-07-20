@@ -1,8 +1,4 @@
-﻿     InterfacesToolkit Class Members                                                   
-
-fcSDK Documentation
-
-InterfacesToolkit Class Members
+﻿### InterfacesToolkit Class Members
 
 The following tables list the members exposed by [InterfacesToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [InterfacesToolkit Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -24,7 +20,7 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [DeliveryFailedActivityCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~DeliveryFailedActivityCode.md) |   |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [DeliveryPendingActivityCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~DeliveryPendingActivityCode.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -34,7 +30,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase~ImpersonatorUsername.md) | (Inherited from [FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseDatabaseLogins](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase~UseDatabaseLogins.md) | (Inherited from [FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -113,9 +109,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateWipBin.md) | Overloaded. Update a WipBin. This overload takes a setup object.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [YankSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~YankSolution.md) | Overloaded. Yank the Solution from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

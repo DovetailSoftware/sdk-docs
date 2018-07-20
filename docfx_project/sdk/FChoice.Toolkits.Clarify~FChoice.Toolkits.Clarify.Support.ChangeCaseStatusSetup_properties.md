@@ -1,8 +1,4 @@
-﻿     ChangeCaseStatusSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ChangeCaseStatusSetup Class Properties
+﻿### ChangeCaseStatusSetup Class Properties
 
 For a list of all members of this type, see [ChangeCaseStatusSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup~Notes.md) | Notes for the status change.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup~UserName.md) | The User who changed the Case. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

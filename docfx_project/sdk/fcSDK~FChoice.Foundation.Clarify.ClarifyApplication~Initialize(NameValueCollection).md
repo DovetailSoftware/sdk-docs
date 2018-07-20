@@ -1,8 +1,4 @@
-﻿     Initialize(NameValueCollection) Method                                                   
-
-fcSDK Documentation
-
-Initialize(NameValueCollection) Method
+﻿### Initialize(NameValueCollection) Method
 
 The configuration values to use for [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)
 
@@ -11,10 +7,7 @@ Initializes ClarifyApplication using values in the specified [NameValueCollectio
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function Initialize( _
    ByVal _configValues_ As NameValueCollection _
@@ -42,11 +35,9 @@ Initialize requires one configuration parameter: The database connection string.
 
 For more information on configuring .NET applications via configuration file, see [Configuration Applications](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cpconconfiguringnetframeworkapplications.htm) in the .NET Framework SDK documentation.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

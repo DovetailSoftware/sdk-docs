@@ -1,8 +1,4 @@
-﻿     ClosePartRequestSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ClosePartRequestSetup Class Properties
+﻿### ClosePartRequestSetup Class Properties
 
 For a list of all members of this type, see [ClosePartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRequestDetailIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup~PartRequestDetailIDNum.md) | Part Request Detail Identifier   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup~UserName.md) | The user who is closing the Part Request. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

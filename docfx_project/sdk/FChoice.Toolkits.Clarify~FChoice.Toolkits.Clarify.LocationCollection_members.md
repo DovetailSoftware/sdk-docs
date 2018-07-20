@@ -1,8 +1,4 @@
-﻿     LocationCollection Class Members                                                   
-
-fcSDK Documentation
-
-LocationCollection Class Members
+﻿### LocationCollection Class Members
 
 The following tables list the members exposed by [LocationCollection](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LocationCollection.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [IsDirty](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LocationCollection~IsDirty.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.ObjectModel.Collection<Location>](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -31,9 +27,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](#) | (Inherited from [System.Collections.ObjectModel.Collection<Location>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToLegacyString](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LocationCollection~ToLegacyString.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

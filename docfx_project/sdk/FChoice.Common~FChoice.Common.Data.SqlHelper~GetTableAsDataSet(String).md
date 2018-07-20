@@ -1,32 +1,26 @@
-﻿     GetTableAsDataSet(String) Method                                                   
-
-GetTableAsDataSet(String) Method
+﻿### GetTableAsDataSet(String) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Overloads Shared Function GetTableAsDataSet( _
    ByVal _tableName_ As String _
-) As [DataSet](#)
+) As DataSet
+```
 
-public static [DataSet](#) GetTableAsDataSet( 
+```csharp
+public static DataSet GetTableAsDataSet( 
    string _tableName_
 )
+```
 
 #### Parameters
 
 _tableName_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

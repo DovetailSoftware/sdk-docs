@@ -1,8 +1,4 @@
-﻿     ReopenDialogueSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ReopenDialogueSetup Class Properties
+﻿### ReopenDialogueSetup Class Properties
 
 For a list of all members of this type, see [ReopenDialogueSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReopenDialogueSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReopenDialogueSetup~Status.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReopenDialogueSetup~UserName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

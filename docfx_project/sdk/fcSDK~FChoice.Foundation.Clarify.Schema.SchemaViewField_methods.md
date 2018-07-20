@@ -1,8 +1,4 @@
-﻿     SchemaViewField Class Methods                                                   
-
-fcSDK Documentation
-
-SchemaViewField Class Methods
+﻿### SchemaViewField Class Methods
 
 For a list of all members of this type, see [SchemaViewField members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewField_members.md).
 
@@ -21,9 +17,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [IsNumeric](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase~IsNumeric.md) | (Inherited from [FChoice.Foundation.Clarify.Schema.SchemaFieldBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [IsString](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase~IsString.md) | (Inherited from [FChoice.Foundation.Clarify.Schema.SchemaFieldBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

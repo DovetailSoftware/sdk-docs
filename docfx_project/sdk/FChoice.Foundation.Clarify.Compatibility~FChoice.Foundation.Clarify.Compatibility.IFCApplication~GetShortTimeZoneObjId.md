@@ -1,24 +1,16 @@
-﻿     GetShortTimeZoneObjId Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetShortTimeZoneObjId Method (IFCApplication)
+﻿### GetShortTimeZoneObjId Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743867)>
+' Declaration
+<DispIdAttribute(1610743867)>
 Function GetShortTimeZoneObjId( _
    ByVal _TimeZone_ As String _
-) As [Integer](#)
+) As Integer
 
-\[[DispIdAttribute](#)(1610743867)\]
-[int](#) GetShortTimeZoneObjId( 
+[DispIdAttribute(1610743867)]
+int GetShortTimeZoneObjId( 
    string _TimeZone_
 )
 
@@ -26,11 +18,9 @@ Function GetShortTimeZoneObjId( _
 
 _TimeZone_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

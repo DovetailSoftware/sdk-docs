@@ -1,8 +1,4 @@
-﻿     ValidatedNameCollection Class Properties                                                   
-
-fcSDK Documentation
-
-ValidatedNameCollection Class Properties
+﻿### ValidatedNameCollection Class Properties
 
 For a list of all members of this type, see [ValidatedNameCollection members](fcSDK~FChoice.Foundation.ValidatedNameCollection_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.ValidatedNameCollection~Item.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](fcSDK~FChoice.Foundation.ValidatedNameCollection~SyncRoot.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

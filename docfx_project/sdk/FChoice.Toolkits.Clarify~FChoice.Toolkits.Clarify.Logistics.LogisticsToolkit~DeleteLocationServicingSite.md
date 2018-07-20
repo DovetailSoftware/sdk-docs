@@ -1,8 +1,4 @@
-﻿     DeleteLocationServicingSite Method                                                   
-
-fcSDK Documentation
-
-DeleteLocationServicingSite Method
+﻿### DeleteLocationServicingSite Method
 
 Used to remove the relationship between a site and a location servicing it. This overload takes a set of required parameters for the API.
 
@@ -20,11 +16,9 @@ Remarks
 
 As a result of a call to this API, all of the other locations that service this site will have their ranks changed as necessary.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

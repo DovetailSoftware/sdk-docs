@@ -1,16 +1,9 @@
-﻿     AutoDestRule Class                                                   
-
-fcSDK Documentation
-
-AutoDestRule Class
+﻿### AutoDestRule Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class AutoDestRule 
 
@@ -18,7 +11,7 @@ public class AutoDestRule
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.AutoDest.AutoDestRule**  
 
 #### Requirements
@@ -29,7 +22,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

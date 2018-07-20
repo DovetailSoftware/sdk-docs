@@ -1,30 +1,21 @@
-﻿     InstallDate Property (UpdateSitePartSetup)                                                   
-
-fcSDK Documentation
-
-InstallDate Property (UpdateSitePartSetup)
+﻿### InstallDate Property (UpdateSitePartSetup)
 
 The DateTime the Site Part was installed. If not set, the current time is used.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property InstallDate As [Date](#)
+Public Property InstallDate As Date
 
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [DateTime](#) InstallDate {get; set;}
+public DateTime InstallDate {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

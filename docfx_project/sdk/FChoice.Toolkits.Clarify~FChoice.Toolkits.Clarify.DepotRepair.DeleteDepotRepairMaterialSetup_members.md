@@ -1,8 +1,4 @@
-﻿     DeleteDepotRepairMaterialSetup Class Members                                                   
-
-fcSDK Documentation
-
-DeleteDepotRepairMaterialSetup Class Members
+﻿### DeleteDepotRepairMaterialSetup Class Members
 
 The following tables list the members exposed by [DeleteDepotRepairMaterialSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairMaterialSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DeleteDepotRepairMaterialSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairMaterialSetup~_ctor.md) | Initializes a new instance of the DeleteDepotRepairMaterialSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CreateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairMaterialSetup~CreateDate.md) | The DateTime the Material entry is removed. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [MaterialLogObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairMaterialSetup~MaterialLogObjid.md) | The objid of the material log object to be deleted   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

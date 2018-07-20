@@ -1,6 +1,4 @@
-﻿     ExecuteDataSet(String) Method                                                   
-
-ExecuteDataSet(String) Method
+﻿### ExecuteDataSet(String) Method
 
 The text command to execute. The default value is an empty string ("").
 
@@ -9,16 +7,13 @@ Executes the the specified SQL using the default [DbProvider](FChoice.Common~FCh
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function ExecuteDataSet( _
    ByVal _commandText_ As String _
-) As [DataSet](#)
+) As DataSet
 
-public static [DataSet](#) ExecuteDataSet( 
+public static DataSet ExecuteDataSet( 
    string _commandText_
 )
 
@@ -38,11 +33,9 @@ Not all providers return a DataSet with the same structure if no results are r
 
 In no case will the DataSet returned be a null reference (**Nothing** in Visual Basic).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     IStateManager Interface Members                                                   
-
-IStateManager Interface Members
+﻿### IStateManager Interface Members
 
 The following tables list the members exposed by [IStateManager](FChoice.Common~FChoice.Common.State.IStateManager.md).
 
@@ -12,7 +10,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [IsStateSerialized](FChoice.Common~FChoice.Common.State.IStateManager~IsStateSerialized.md) |   |
 | ![ Property](dotnetimages/Property.png) | [StateTimeout](FChoice.Common~FChoice.Common.State.IStateManager~StateTimeout.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -28,9 +26,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [ResetTimeout](FChoice.Common~FChoice.Common.State.IStateManager~ResetTimeout.md) |   |
 | ![ Method](dotnetimages/Method.png) | [SaveState](FChoice.Common~FChoice.Common.State.IStateManager~SaveState.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     JoinFlag Property                                                   
-
-fcSDK Documentation
-
-JoinFlag Property
+﻿### JoinFlag Property
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-Public ReadOnly Property JoinFlag As [Integer](#)
+Public ReadOnly Property JoinFlag As Integer
+```
 
-public [int](#) JoinFlag {get;}
+```csharp
+public int JoinFlag {get;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

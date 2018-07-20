@@ -1,16 +1,9 @@
-﻿     FindLast Method (IGlobalStringElementCollection)                                                   
-
-fcSDK Documentation
-
-FindLast Method (IGlobalStringElementCollection)
+﻿### FindLast Method (IGlobalStringElementCollection)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Function FindLast( _
    ByVal _match_ As [Predicate(Of IGlobalStringElement)](#) _
@@ -24,11 +17,9 @@ Function FindLast( _
 
 _match_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

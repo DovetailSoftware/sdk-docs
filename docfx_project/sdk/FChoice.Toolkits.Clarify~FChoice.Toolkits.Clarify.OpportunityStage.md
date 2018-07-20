@@ -1,23 +1,16 @@
-﻿     OpportunityStage Enumeration                                                       
-
-fcSDK Documentation
-
-OpportunityStage Enumeration
+﻿### OpportunityStage Enumeration
 
 Stage the opportunity being created or modified is in.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Enum OpportunityStage 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
 
-public enum OpportunityStage : [System.Enum](#) 
+public enum OpportunityStage : System.Enum 
 
 Members
 
@@ -30,9 +23,9 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Toolkits.Clarify.OpportunityStage**  
 
 #### Requirements
@@ -43,7 +36,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

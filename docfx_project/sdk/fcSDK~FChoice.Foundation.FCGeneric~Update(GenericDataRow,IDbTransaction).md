@@ -1,8 +1,4 @@
-﻿     Update(GenericDataRow,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-Update(GenericDataRow,IDbTransaction) Method
+﻿### Update(GenericDataRow,IDbTransaction) Method
 
 Row being updated.
 
@@ -13,10 +9,7 @@ Updates changes to a single [GenericDataRow](fcSDK~FChoice.Foundation.GenericDa
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub Update( _
    ByVal _row_ As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md), _
@@ -38,11 +31,9 @@ _transaction_
 
 Transaction under which to do this update
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

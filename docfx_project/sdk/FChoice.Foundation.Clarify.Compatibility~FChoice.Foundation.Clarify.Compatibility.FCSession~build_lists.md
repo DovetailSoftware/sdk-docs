@@ -1,22 +1,15 @@
-﻿     build_lists Method (FCSession)                                                   
-
-fcSDK Documentation
-
-build_lists Method (FCSession)
+﻿### build_lists Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Sub build_lists( _
    ByVal _int_fld1_ As String, _
-   ByVal _int_val1_ As [Integer](#), _
+   ByVal _int_val1_ As Integer, _
    ByVal _int_fld2_ As String, _
-   ByVal _int_val2_ As [Integer](#), _
+   ByVal _int_val2_ As Integer, _
    ByVal _str_fld1_ As String, _
    ByVal _str_val1_ As String, _
    ByVal _str_fld2_ As String, _
@@ -31,9 +24,9 @@ Public Sub build_lists( _
 
 public void build_lists( 
    string _int_fld1_,
-   [int](#) _int_val1_,
+   int _int_val1_,
    string _int_fld2_,
-   [int](#) _int_val2_,
+   int _int_val2_,
    string _str_fld1_,
    string _str_val1_,
    string _str_fld2_,
@@ -76,11 +69,9 @@ _val_list_
 
 _list_used_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

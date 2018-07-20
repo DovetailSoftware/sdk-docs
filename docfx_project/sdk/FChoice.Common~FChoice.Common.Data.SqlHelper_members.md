@@ -1,6 +1,4 @@
-﻿     SqlHelper Class Members                                                   
-
-SqlHelper Class Members
+﻿### SqlHelper Class Members
 
 The following tables list the members exposed by [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md).
 
@@ -10,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SqlHelper Constructor](FChoice.Common~FChoice.Common.Data.SqlHelper~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -18,7 +16,7 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png) | [IN_LIST_TOKEN](FChoice.Common~FChoice.Common.Data.SqlHelper~IN_LIST_TOKEN.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -32,7 +30,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Parameters](FChoice.Common~FChoice.Common.Data.SqlHelper~Parameters.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Transaction](FChoice.Common~FChoice.Common.Data.SqlHelper~Transaction.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,9 +51,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [PrepareInListStatement](FChoice.Common~FChoice.Common.Data.SqlHelper~PrepareInListStatement.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [PrepareIntegerListStatement](FChoice.Common~FChoice.Common.Data.SqlHelper~PrepareIntegerListStatement.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

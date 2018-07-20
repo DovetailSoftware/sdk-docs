@@ -1,24 +1,20 @@
-﻿     ClarifyApplication Class                                                   
-
-fcSDK Documentation
-
-ClarifyApplication Class
+﻿### ClarifyApplication Class
 
 **ClarifyApplication** is the starting point for using **FCFL.NET** against a Clarify database system.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Class ClarifyApplication 
    Inherits [FChoice.Foundation.FCApplication](fcSDK~FChoice.Foundation.FCApplication.md)
    Implements [IClarifyApplication](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication.md) 
+```
 
+```csharp
 public class ClarifyApplication : [FChoice.Foundation.FCApplication](fcSDK~FChoice.Foundation.FCApplication.md), [IClarifyApplication](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication.md)  
+```
 
 Remarks
 
@@ -28,9 +24,10 @@ Once the application is initialized, you can access cache data like the [SchemaC
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [FChoice.Foundation.FCApplication](fcSDK~FChoice.Foundation.FCApplication.md)  
-      **FChoice.Foundation.Clarify.ClarifyApplication**  
+System.Object  
+[FChoice.Foundation.FCApplication](fcSDK~FChoice.Foundation.FCApplication.md)  
+
+**FChoice.Foundation.Clarify.ClarifyApplication**  
 
 #### Requirements
 
@@ -39,8 +36,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

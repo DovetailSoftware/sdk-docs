@@ -1,8 +1,4 @@
-﻿     AppendFilterIsNull Method                                                   
-
-fcSDK Documentation
-
-AppendFilterIsNull Method
+﻿### AppendFilterIsNull Method
 
 Name of the field the filter will be constraining.
 
@@ -13,11 +9,7 @@ Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub AppendFilterIsNull( _
    ByVal _fieldName_ As String, _
    ByVal _isNull_ As Boolean _
@@ -44,11 +36,9 @@ Filters are a powerful feature that make it easy to limit the rows returned by a
 
 You can call [ClearFilters](fcSDK~FChoice.Foundation.FCGeneric~ClearFilters.md) to remove all the filters being applied to a FCGeneric.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

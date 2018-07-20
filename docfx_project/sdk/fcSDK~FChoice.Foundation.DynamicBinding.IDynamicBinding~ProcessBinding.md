@@ -1,26 +1,22 @@
-﻿     ProcessBinding Method                                                   
-
-fcSDK Documentation
-
-ProcessBinding Method
+﻿### ProcessBinding Method
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Sub ProcessBinding( _
    ByVal _changedRows_ As [IDictionary(Of FCGeneric,IDictionary(Of Guid,GenericDataRow))](#), _
    ByVal _batch_ As [UpdateQueryBatch](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch.md) _
 ) 
+```
 
+```csharp
 void ProcessBinding( 
    [IDictionary<FCGeneric,IDictionary<Guid,GenericDataRow>>](#) _changedRows_,
    [UpdateQueryBatch](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch.md) _batch_
 )
+```
 
 #### Parameters
 
@@ -28,11 +24,7 @@ _changedRows_
 
 _batch_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

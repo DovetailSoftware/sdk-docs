@@ -1,22 +1,18 @@
-﻿     ReturnCode Property                                                   
-
-fcSDK Documentation
-
-ReturnCode Property
+﻿### ReturnCode Property
 
 Return code of the API call.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Property ReturnCode As Short
+```
 
+```csharp
 public short ReturnCode {get; set;}
+```
 
 #### Property Value
 
@@ -26,13 +22,9 @@ Remarks
 
 This property is provided primarily for compatibility with previous Toolkit coding practices that do not use structured error handling.
 
-This value will always be zero unless an error occurred. However, if the application is using [FCFL.Net Compatibility](fcapp_overview.html.md) with [Session.ThrowErrors](ThrowErrors.html.md) set to **false** a non-zero result can occur. **Note**: _It is recommended that you do not set ThrowErrors to false and use structured error handling via try/catch statements._
+This value will always be zero unless an error occurred. However, if the application is using [FCFL.Net Compatibility](fcfl_html/fcapp_overview.md) with [Session.ThrowErrors](fcfl_html/ThrowErrors.md) set to **false** a non-zero result can occur. **Note**: _It is recommended that you do not set ThrowErrors to false and use structured error handling via try/catch statements._
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ISchemaFieldCollection Interface Members                                                   
-
-fcSDK Documentation
-
-ISchemaFieldCollection Interface Members
+﻿### ISchemaFieldCollection Interface Members
 
 The following tables list the members exposed by [ISchemaFieldCollection](fcSDK~FChoice.Foundation.Schema.ISchemaFieldCollection.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![ Property](dotnetimages/Property.png) | [Item](fcSDK~FChoice.Foundation.Schema.ISchemaFieldCollection~Item.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

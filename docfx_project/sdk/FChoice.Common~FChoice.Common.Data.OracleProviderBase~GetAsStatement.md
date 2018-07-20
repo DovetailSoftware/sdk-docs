@@ -1,14 +1,9 @@
-﻿     GetAsStatement Method (OracleProviderBase)                                                   
-
-GetAsStatement Method (OracleProviderBase)
+﻿### GetAsStatement Method (OracleProviderBase)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overrides Function GetAsStatement( _
    ByVal _name_ As String _
@@ -22,11 +17,9 @@ public override string GetAsStatement(
 
 _name_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

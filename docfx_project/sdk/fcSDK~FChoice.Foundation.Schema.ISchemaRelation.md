@@ -1,17 +1,9 @@
-﻿     ISchemaRelation Interface                                                   
-
-fcSDK Documentation
-
-ISchemaRelation Interface
+﻿### ISchemaRelation Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Interface ISchemaRelation 
 
 public interface ISchemaRelation 
@@ -24,7 +16,7 @@ public interface ISchemaRelation
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

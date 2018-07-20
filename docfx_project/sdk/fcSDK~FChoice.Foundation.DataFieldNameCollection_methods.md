@@ -1,8 +1,4 @@
-﻿     DataFieldNameCollection Class Methods                                                   
-
-fcSDK Documentation
-
-DataFieldNameCollection Class Methods
+﻿### DataFieldNameCollection Class Methods
 
 For a list of all members of this type, see [DataFieldNameCollection members](fcSDK~FChoice.Foundation.DataFieldNameCollection_members.md).
 
@@ -22,10 +18,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](fcSDK~FChoice.Foundation.ValidatedNameCollection~RemoveAt.md) | (Inherited from [FChoice.Foundation.ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [SetList](fcSDK~FChoice.Foundation.ValidatedNameCollection~SetList.md) | (Inherited from [FChoice.Foundation.ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](fcSDK~FChoice.Foundation.ValidatedNameCollection~ToString.md) | (Inherited from [FChoice.Foundation.ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)) |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

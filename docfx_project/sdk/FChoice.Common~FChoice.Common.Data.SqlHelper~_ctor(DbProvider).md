@@ -1,6 +1,4 @@
-﻿     SqlHelper Constructor(DbProvider)                                                   
-
-SqlHelper Constructor(DbProvider)
+﻿### SqlHelper Constructor(DbProvider)
 
 The specific [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance that this instance of SqlHelper should use when performing database operations
 
@@ -9,10 +7,7 @@ Creates a new instance of SqlHelper with the specified [DbProvider](FChoice.Comm
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function New( _
    ByVal _dataProvider_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _
@@ -28,11 +23,9 @@ _dataProvider_
 
 The specific [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance that this instance of SqlHelper should use when performing database operations
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

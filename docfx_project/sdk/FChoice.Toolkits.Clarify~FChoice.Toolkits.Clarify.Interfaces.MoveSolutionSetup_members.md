@@ -1,8 +1,4 @@
-﻿     MoveSolutionSetup Class Members                                                   
-
-fcSDK Documentation
-
-MoveSolutionSetup Class Members
+﻿### MoveSolutionSetup Class Members
 
 The following tables list the members exposed by [MoveSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSolutionSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [MoveSolutionSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSolutionSetup~_ctor.md) | Initializes a new instance of the MoveSolutionSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [NewWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSolutionSetup~NewWipBin.md) | The new WipBin into which the Solution is to be moved.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SolutionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSolutionSetup~SolutionIDNum.md) | Solution Identifier.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

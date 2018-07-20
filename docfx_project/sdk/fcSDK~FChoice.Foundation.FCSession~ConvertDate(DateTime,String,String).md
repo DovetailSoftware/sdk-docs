@@ -1,8 +1,4 @@
-﻿     ConvertDate(DateTime,String,String) Method                                                   
-
-fcSDK Documentation
-
-ConvertDate(DateTime,String,String) Method
+﻿### ConvertDate(DateTime,String,String) Method
 
 date to convert
 
@@ -15,19 +11,16 @@ Converts a DateTime from one [TimeZone](fcSDK~FChoice.Foundation.DataObjects.IT
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Overridable Function ConvertDate( _
-   ByVal _date_ As [Date](#), _
+   ByVal _date_ As Date, _
    ByVal _fromTZName_ As String, _
    ByVal _toTZName_ As String _
-) As [Date](#)
+) As Date
 
-public virtual [DateTime](#) ConvertDate( 
-   [DateTime](#) _date_,
+public virtual DateTime ConvertDate( 
+   DateTime _date_,
    string _fromTZName_,
    string _toTZName_
 )
@@ -46,11 +39,9 @@ _toTZName_
 
 Timezone [name](fcSDK~FChoice.Foundation.DataObjects.ITimeZone~Name.md) input date is being converted to
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

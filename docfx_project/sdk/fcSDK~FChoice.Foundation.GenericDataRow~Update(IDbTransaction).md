@@ -1,8 +1,4 @@
-﻿     Update(IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-Update(IDbTransaction) Method
+﻿### Update(IDbTransaction) Method
 
 Transaction under which to do this update.
 
@@ -11,10 +7,7 @@ Commits the row to the database. See FCGeneric's [Update](fcSDK~FChoice.Foundat
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub Update( _
    ByVal _trans_ As [IDbTransaction](#) _
@@ -36,11 +29,9 @@ Remarks
 
 Use this method when it is desired to execute database actions under the context of a Transaction.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

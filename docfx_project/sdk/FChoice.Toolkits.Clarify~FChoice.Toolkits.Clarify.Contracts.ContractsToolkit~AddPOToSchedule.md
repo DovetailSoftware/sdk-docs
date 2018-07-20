@@ -1,8 +1,4 @@
-﻿     AddPOToSchedule Method                                                   
-
-fcSDK Documentation
-
-AddPOToSchedule Method
+﻿### AddPOToSchedule Method
 
 Used to add purchase orders to schedules of contracts. This overload takes a set of required parameters for the API.
 
@@ -20,11 +16,9 @@ Remarks
 
 The PO number cannot be defined already for the schedule.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

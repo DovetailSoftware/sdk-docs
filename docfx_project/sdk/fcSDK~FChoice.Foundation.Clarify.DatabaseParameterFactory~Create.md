@@ -1,8 +1,4 @@
-﻿     Create Method (DatabaseParameterFactory)                                                   
-
-fcSDK Documentation
-
-Create Method (DatabaseParameterFactory)
+﻿### Create Method (DatabaseParameterFactory)
 
 Overload List
 
@@ -11,11 +7,9 @@ Overload List
 | [Create(String,ISchemaField,Object)](fcSDK~FChoice.Foundation.Clarify.DatabaseParameterFactory~Create(String,ISchemaField,Object).md) |   |
 | [Create(String,String,String,Object)](fcSDK~FChoice.Foundation.Clarify.DatabaseParameterFactory~Create(String,String,String,Object).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

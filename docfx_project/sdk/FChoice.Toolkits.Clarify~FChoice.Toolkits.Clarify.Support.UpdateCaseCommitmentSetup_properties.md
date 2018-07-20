@@ -1,8 +1,4 @@
-﻿     UpdateCaseCommitmentSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateCaseCommitmentSetup Class Properties
+﻿### UpdateCaseCommitmentSetup Class Properties
 
 For a list of all members of this type, see [UpdateCaseCommitmentSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup_members.md).
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup~UpdateDate.md) | DateTime the Commitment was updated. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup~UserName.md) | User who updating the Commitment. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

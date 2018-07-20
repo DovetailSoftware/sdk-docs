@@ -1,8 +1,4 @@
-﻿     IListCache Interface Properties                                                   
-
-fcSDK Documentation
-
-IListCache Interface Properties
+﻿### IListCache Interface Properties
 
 For a list of all members of this type, see [IListCache members](fcSDK~FChoice.Foundation.Clarify.IListCache_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [GlobalStrings](fcSDK~FChoice.Foundation.Clarify.IListCache~GlobalStrings.md) |   |
 | ![ Property](dotnetimages/Property.png) | [HierarchicalStrings](fcSDK~FChoice.Foundation.Clarify.IListCache~HierarchicalStrings.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

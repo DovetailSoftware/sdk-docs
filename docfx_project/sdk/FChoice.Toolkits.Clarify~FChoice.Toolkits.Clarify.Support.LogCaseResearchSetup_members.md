@@ -1,8 +1,4 @@
-﻿     LogCaseResearchSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogCaseResearchSetup Class Members
+﻿### LogCaseResearchSetup Class Members
 
 The following tables list the members exposed by [LogCaseResearchSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogCaseResearchSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup~_ctor.md) | Initializes a new instance of the LogCaseResearchSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -34,9 +30,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ResearchDuration](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup~ResearchDuration.md) | The length of time for research.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

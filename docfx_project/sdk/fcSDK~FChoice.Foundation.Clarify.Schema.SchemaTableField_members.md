@@ -1,8 +1,4 @@
-﻿     SchemaTableField Class Members                                                   
-
-fcSDK Documentation
-
-SchemaTableField Class Members
+﻿### SchemaTableField Class Members
 
 The following tables list the members exposed by [SchemaTableField](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableField.md).
 
@@ -36,7 +32,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [ViewFieldInfos](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableField~ViewFieldInfos.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,9 +49,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [IsNumeric](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase~IsNumeric.md) | (Inherited from [FChoice.Foundation.Clarify.Schema.SchemaFieldBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [IsString](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase~IsString.md) | (Inherited from [FChoice.Foundation.Clarify.Schema.SchemaFieldBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

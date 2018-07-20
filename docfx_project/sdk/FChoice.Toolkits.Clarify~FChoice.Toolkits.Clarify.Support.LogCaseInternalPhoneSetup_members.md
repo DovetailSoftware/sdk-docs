@@ -1,8 +1,4 @@
-﻿     LogCaseInternalPhoneSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogCaseInternalPhoneSetup Class Members
+﻿### LogCaseInternalPhoneSetup Class Members
 
 The following tables list the members exposed by [LogCaseInternalPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogCaseInternalPhoneSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,9 +32,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup~Notes.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup~UserName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

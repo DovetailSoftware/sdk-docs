@@ -1,8 +1,4 @@
-﻿     GetCaseTimeAndExpensesSetup Class Properties                                                   
-
-fcSDK Documentation
-
-GetCaseTimeAndExpensesSetup Class Properties
+﻿### GetCaseTimeAndExpensesSetup Class Properties
 
 For a list of all members of this type, see [GetCaseTimeAndExpensesSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesSetup_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [CaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesSetup~CaseIDNum.md) | Case Identifier.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

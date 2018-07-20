@@ -1,28 +1,20 @@
-﻿     AutoExec Property (CreateCommunicationSetup)                                                   
-
-fcSDK Documentation
-
-AutoExec Property (CreateCommunicationSetup)
+﻿### AutoExec Property (CreateCommunicationSetup)
 
 Indicator for user or automatic execution ([CommunicationAutoExec](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAutoExec.md)).
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-Public Property AutoExec As [CommunicationAutoExec](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAutoExec.md)
+Public Property AutoExec As CommunicationAutoExec
+```
 
-public [CommunicationAutoExec](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAutoExec.md) AutoExec {get; set;}
+```csharp
+public CommunicationAutoExec AutoExec {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

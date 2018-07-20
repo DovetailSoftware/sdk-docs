@@ -1,8 +1,4 @@
-﻿     SchemaTableBase Class Methods                                                   
-
-fcSDK Documentation
-
-SchemaTableBase Class Methods
+﻿### SchemaTableBase Class Methods
 
 For a list of all members of this type, see [SchemaTableBase members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase_members.md).
 
@@ -17,9 +13,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

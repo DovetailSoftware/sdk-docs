@@ -1,8 +1,4 @@
-﻿     FCApplication Class Members                                                   
-
-fcSDK Documentation
-
-FCApplication Class Members
+﻿### FCApplication Class Members
 
 The following tables list the members exposed by [FCApplication](fcSDK~FChoice.Foundation.FCApplication.md).
 
@@ -12,7 +8,7 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SyncRoot](fcSDK~FChoice.Foundation.FCApplication~SyncRoot.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,7 +17,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [DatabaseVersion](fcSDK~FChoice.Foundation.FCApplication~DatabaseVersion.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsInitialized](fcSDK~FChoice.Foundation.FCApplication~IsInitialized.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -35,9 +31,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [LogInfo](fcSDK~FChoice.Foundation.FCApplication~LogInfo.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [LogWarn](fcSDK~FChoice.Foundation.FCApplication~LogWarn.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

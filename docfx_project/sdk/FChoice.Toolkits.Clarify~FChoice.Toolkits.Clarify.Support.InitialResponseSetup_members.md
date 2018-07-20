@@ -1,8 +1,4 @@
-﻿     InitialResponseSetup Class Members                                                   
-
-fcSDK Documentation
-
-InitialResponseSetup Class Members
+﻿### InitialResponseSetup Class Members
 
 The following tables list the members exposed by [InitialResponseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.InitialResponseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [InitialResponseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.InitialResponseSetup~_ctor.md) | Initializes a new instance of the InitialResponseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ResponseDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.InitialResponseSetup~ResponseDate.md) | DateTime the response was made. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.InitialResponseSetup~UserName.md) | The User who made the response. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

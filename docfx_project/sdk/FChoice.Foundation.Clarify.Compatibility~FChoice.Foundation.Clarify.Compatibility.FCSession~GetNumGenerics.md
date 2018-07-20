@@ -1,26 +1,17 @@
-﻿     GetNumGenerics Method (FCSession)                                                   
-
-fcSDK Documentation
-
-GetNumGenerics Method (FCSession)
+﻿### GetNumGenerics Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Function GetNumGenerics() As Integer
 
-Public Function GetNumGenerics() As [Integer](#)
+public int GetNumGenerics()
 
-public [int](#) GetNumGenerics()
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

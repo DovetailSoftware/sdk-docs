@@ -1,8 +1,4 @@
-﻿     CreateEcoItemSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateEcoItemSetup Constructor
+﻿### CreateEcoItemSetup Constructor
 
 This must be either 5148 to apply the ECO item to an ECO header, or 329 to apply the ECO item to a part revision.
 
@@ -19,27 +15,24 @@ Initializes a new instance of the CreateEcoItemSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _appliesTo_ As [EcoItemAppliesTo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.EcoItemAppliesTo.md), _
    ByVal _isActive_ As Boolean, _
    ByVal _ecoHeaderIDNum_ As String, _
-   ByVal _applyPartRevisionObjid_ As [Integer](#), _
-   ByVal _resultPartRevisionObjid_ As [Integer](#) _
+   ByVal _applyPartRevisionObjid_ As Integer, _
+   ByVal _resultPartRevisionObjid_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateEcoItemSetup( 
    [EcoItemAppliesTo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.EcoItemAppliesTo.md) _appliesTo_,
    bool _isActive_,
    string _ecoHeaderIDNum_,
-   [int](#) _applyPartRevisionObjid_,
-   [int](#) _resultPartRevisionObjid_
+   int _applyPartRevisionObjid_,
+   int _resultPartRevisionObjid_
 )
 
 #### Parameters
@@ -64,11 +57,9 @@ _resultPartRevisionObjid_
 
 The objid of resulting part revision after applying the ECO, or 0 for no change.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

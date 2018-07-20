@@ -1,8 +1,4 @@
-﻿     ChangeActionItemConditionSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ChangeActionItemConditionSetup Class Properties
+﻿### ChangeActionItemConditionSetup Class Properties
 
 For a list of all members of this type, see [ChangeActionItemConditionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemConditionSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [NewStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemConditionSetup~NewStatus.md) | Element from the 'Open Action Item' application list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemConditionSetup~UserName.md) | The user who is changing the action item condition. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

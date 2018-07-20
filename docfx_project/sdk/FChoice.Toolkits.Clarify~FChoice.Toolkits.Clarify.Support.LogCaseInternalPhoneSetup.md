@@ -1,24 +1,16 @@
-﻿     LogCaseInternalPhoneSetup Class                                                   
-
-fcSDK Documentation
-
-LogCaseInternalPhoneSetup Class
+﻿### LogCaseInternalPhoneSetup Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogCaseInternalPhoneSetup 
 
 public class LogCaseInternalPhoneSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

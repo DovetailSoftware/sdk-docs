@@ -1,26 +1,18 @@
-﻿     CreateContractLineItemSetup Class                                                   
-
-fcSDK Documentation
-
-CreateContractLineItemSetup Class
+﻿### CreateContractLineItemSetup Class
 
 Used by the [CreateContractLineItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~CreateContractLineItem(CreateContractLineItemSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreateContractLineItemSetup 
 
 public class CreateContractLineItemSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

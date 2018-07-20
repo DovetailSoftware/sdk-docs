@@ -1,19 +1,11 @@
-﻿     Session Property (ClarifyGeneric)                                                   
-
-fcSDK Documentation
-
-Session Property (ClarifyGeneric)
+﻿### Session Property (ClarifyGeneric)
 
 Gets a reference to the parent [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) of this generic.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public ReadOnly Property Session As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
 
 public [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) Session {get;}
@@ -22,11 +14,9 @@ public [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) Sess
 
 The parent [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) of this generic.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

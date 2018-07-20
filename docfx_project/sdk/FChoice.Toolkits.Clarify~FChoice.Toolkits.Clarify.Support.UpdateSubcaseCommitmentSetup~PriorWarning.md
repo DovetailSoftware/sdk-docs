@@ -1,30 +1,22 @@
-﻿     PriorWarning Property (UpdateSubcaseCommitmentSetup)                                                   
-
-fcSDK Documentation
-
-PriorWarning Property (UpdateSubcaseCommitmentSetup)
+﻿### PriorWarning Property (UpdateSubcaseCommitmentSetup)
 
 How long before the Commitment expires will the owner will be warned.
 
 Syntax
 
 ```vbnet
+' Declaration
+
+<PropertyBitValueAttribute()>
+Public Property PriorWarning As TimeSpan
+```
+
 ```csharp
+[PropertyBitValueAttribute]
+public TimeSpan PriorWarning {get; set;}
+```
 
-'Declaration
- 
-
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property PriorWarning As [TimeSpan](#)
-
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [TimeSpan](#) PriorWarning {get; set;}
-
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

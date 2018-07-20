@@ -1,26 +1,18 @@
-﻿     AssignQuoteSetup Class                                                   
-
-fcSDK Documentation
-
-AssignQuoteSetup Class
+﻿### AssignQuoteSetup Class
 
 Used by the [AssignQuote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~AssignQuote(AssignQuoteSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AssignQuoteSetup 
 
 public class AssignQuoteSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Contracts.AssignQuoteSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

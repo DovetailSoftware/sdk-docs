@@ -1,8 +1,4 @@
-﻿     PartInfo Class Members                                                   
-
-fcSDK Documentation
-
-PartInfo Class Members
+﻿### PartInfo Class Members
 
 The following tables list the members exposed by [PartInfo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartInfo.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [PartInfo Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartInfo~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -31,9 +27,9 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [Quantity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartInfo~Quantity.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [RepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartInfo~RepairType.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

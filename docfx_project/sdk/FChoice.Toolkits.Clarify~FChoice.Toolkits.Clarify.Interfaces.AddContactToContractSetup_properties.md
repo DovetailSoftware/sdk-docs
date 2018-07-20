@@ -1,8 +1,4 @@
-﻿     AddContactToContractSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AddContactToContractSetup Class Properties
+﻿### AddContactToContractSetup Class Properties
 
 For a list of all members of this type, see [AddContactToContractSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddContactToContractSetup_members.md).
 
@@ -19,9 +15,9 @@ Identifies to which Contract the Contact will be added.
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddContactToContractSetup~SiteIDNum.md) | Identifies the Site where the added Contact is located.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

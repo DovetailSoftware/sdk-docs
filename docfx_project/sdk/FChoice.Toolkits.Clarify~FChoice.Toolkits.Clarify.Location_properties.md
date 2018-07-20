@@ -1,8 +1,4 @@
-﻿     Location Class Properties                                                   
-
-fcSDK Documentation
-
-Location Class Properties
+﻿### Location Class Properties
 
 For a list of all members of this type, see [Location members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [IsPrimaryBinSuggestion](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~IsPrimaryBinSuggestion.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [LocationName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~LocationName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

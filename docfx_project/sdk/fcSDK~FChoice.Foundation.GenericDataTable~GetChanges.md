@@ -1,8 +1,4 @@
-﻿     GetChanges Method                                                   
-
-fcSDK Documentation
-
-GetChanges Method
+﻿### GetChanges Method
 
 Overload List
 
@@ -10,11 +6,9 @@ Overload List
 | --- | --- |
 | [GetChanges()](#) | (Inherited from [System.Data.DataTable](#)) |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

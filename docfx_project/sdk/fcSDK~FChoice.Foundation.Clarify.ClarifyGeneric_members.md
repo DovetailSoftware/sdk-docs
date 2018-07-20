@@ -8,8 +8,6 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GuidColumnName](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~GuidColumnName.md) |   |
 
-[Top](#top)
-
 Public Properties
 
 |   | Name | Description |
@@ -18,9 +16,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](fcSDK~FChoice.Foundation.FCGeneric~Count.md) | Returns the number of rows currently populated by the [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) or [AddNew](/sdk/fcSDK~FChoice.Foundation.FCGeneric~AddNew.md) methods. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [DataFields](fcSDK~FChoice.Foundation.FCGeneric~DataFields.md) | Collection of data fields that will be returned when [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) is invoked. If no fields are selected all fields are returned. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [DataRestrictionsEnabled](fcSDK~FChoice.Foundation.FCGeneric~DataRestrictionsEnabled.md) | 
-Sets whether or not this **FCGeneric** will have the DataRestrictions feature enabled if available.
-
-(Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
+Sets whether or not this **FCGeneric** will have the DataRestrictions feature enabled if available. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [DataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~DataSet.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [DeleteRelationsToUnrelate](fcSDK~FChoice.Foundation.FCGeneric~DeleteRelationsToUnrelate.md) | (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Filter](fcSDK~FChoice.Foundation.FCGeneric~Filter.md) | This is the root filter used to constrain rows returned during [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) operations. Initially there are no filters present with filters being added using the [AddFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter~AddFilter.md) method. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
@@ -31,16 +27,8 @@ Sets whether or not this **FCGeneric** will have the DataRestrictions feature en
 | ![Public Property](dotnetimages/publicProperty.png) | [MaximumRows](fcSDK~FChoice.Foundation.FCGeneric~MaximumRows.md) | Controls the maximum number of rows to be returned by the Genric Query. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [ParentGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~ParentGeneric.md) | Gets a reference to the parent [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) if this generic is a child   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ParentRelation](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~ParentRelation.md) | Gets a reference to the [ISchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) schema object which represents the relation used to traverse from the [ParentGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~ParentGeneric.md)   |
-| ![Public Property](dotnetimages/publicProperty.png) | [QueryEmptyToNull](fcSDK~FChoice.Foundation.FCGeneric~QueryEmptyToNull.md) | 
-
-Sets whether or not this **FCGeneric** will convert filters on empty strings into filters on [Queries](fcSDK~FChoice.Foundation.FCGeneric~Query.md) that check IS NULL or IS NOT NULL.
-
-(Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
-| ![Public Property](dotnetimages/publicProperty.png) | [RawFilter](fcSDK~FChoice.Foundation.FCGeneric~RawFilter.md) | 
-
-Sets an optional WHERE clause constraint. (**WARNING:** See remarks for potential security implications)
-
-(Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [QueryEmptyToNull](fcSDK~FChoice.Foundation.FCGeneric~QueryEmptyToNull.md) | Sets whether or not this **FCGeneric** will convert filters on empty strings into filters on [Queries](fcSDK~FChoice.Foundation.FCGeneric~Query.md) that check IS NULL or IS NOT NULL. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
+| ![Public Property](dotnetimages/publicProperty.png) | [RawFilter](fcSDK~FChoice.Foundation.FCGeneric~RawFilter.md) | Sets an optional WHERE clause constraint. (**WARNING:** See remarks for potential security implications) (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [RestrictionGroup](fcSDK~FChoice.Foundation.FCGeneric~RestrictionGroup.md) | Override the Session Data Restriction Group of this Generic. The [ChangeRestrictionGroup](fcSDK~FChoice.Foundation.FCGeneric~ChangeRestrictionGroup.md) method is available as a helper. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Rows](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~Rows.md) | Gets a reference to the [ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md) which contains all the rows queried for this generic   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SchemaTable](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~SchemaTable.md) |   |
@@ -50,16 +38,12 @@ Sets an optional WHERE clause constraint. (**WARNING:** See remarks for potentia
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](fcSDK~FChoice.Foundation.FCGeneric~SyncRoot.md) | Gets an object that can be used to synchronize access to the **FCGeneric**. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TableName](fcSDK~FChoice.Foundation.FCGeneric~TableName.md) | Returns the name of the database table this FCGeneric is based on. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 
-[Top](#top)
-
 Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [AddForUpdate](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~AddForUpdate(Int32).md) | 
-Creates a new row in the **ClarifyGeneric** with the specified [objId](fcSDK~FChoice.Foundation.GenericDataRow~UniqueID.md) which will be used to update an existing row in the database rather than inserting a new one.
-
-  |
+Creates a new row in the **ClarifyGeneric** with the specified [objId](fcSDK~FChoice.Foundation.GenericDataRow~UniqueID.md) which will be used to update an existing row in the database rather than inserting a new one. |
 | ![Public Method](dotnetimages/publicMethod.png) | [AddNew](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~AddNew.md) | Overloaded. Adds a new row and schedules it for creation in the database when [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) is called   |
 | ![Public Method](dotnetimages/publicMethod.png) | [AppendFilter](fcSDK~FChoice.Foundation.FCGeneric~AppendFilter.md) | Overloaded. Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) against a numeric [DataField](fcSDK~FChoice.Foundation.FCGeneric~DataFields.md). (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [AppendFilterBetween](fcSDK~FChoice.Foundation.FCGeneric~AppendFilterBetween.md) | Overloaded. Adds a specialized filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) to be between two Integer values. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
@@ -82,17 +66,11 @@ Creates a new row in the **ClarifyGeneric** with the specified [objId](fcSDK~FC
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) | Overloaded. Updates changes to a single [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateAll](fcSDK~FChoice.Foundation.FCGeneric~UpdateAll.md) | Overloaded. Updates all modified rows of the **FCGeneric**. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 
-[Top](#top)
-
 Public Events
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Event](dotnetimages/publicEvent.png) | [MaximumRowsExceeded](fcSDK~FChoice.Foundation.FCGeneric~MaximumRowsExceeded_EV.md) | This event is fired when the [MaximumRows](fcSDK~FChoice.Foundation.FCGeneric~MaximumRows.md) property is set and a [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) operation has returned too many rows. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

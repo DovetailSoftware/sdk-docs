@@ -1,8 +1,4 @@
-﻿     AreIDsEqual Method                                                   
-
-fcSDK Documentation
-
-AreIDsEqual Method
+﻿### AreIDsEqual Method
 
 Id of the first object being compared.
 
@@ -13,19 +9,15 @@ Used to compare the [UniqueIDs](fcSDK~FChoice.Foundation.GenericDataRow~UniqueI
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Shared Function AreIDsEqual( _
-   ByVal _id1_ As [Object](#), _
-   ByVal _id2_ As [Object](#) _
+   ByVal _id1_ As Object, _
+   ByVal _id2_ As Object _
 ) As Boolean
 
 public static bool AreIDsEqual( 
-   [object](#) _id1_,
-   [object](#) _id2_
+   object _id1_,
+   object _id2_
 )
 
 #### Parameters
@@ -46,11 +38,9 @@ Remarks
 
 In the Foundation namespace we do not know how the Unique Identifiers of a **GenericDataRow** are implemented. Use this method whenever comparing GenericDataRows in the Foundation namespace.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

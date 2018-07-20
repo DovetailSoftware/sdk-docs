@@ -1,22 +1,16 @@
-﻿     StateManagerSectionHandler Class                                                   
-
-StateManagerSectionHandler Class
+﻿### StateManagerSectionHandler Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class StateManagerSectionHandler 
 
 public class StateManagerSectionHandler 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.State.StateManagerSectionHandler**  
 
 #### Requirements
@@ -27,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

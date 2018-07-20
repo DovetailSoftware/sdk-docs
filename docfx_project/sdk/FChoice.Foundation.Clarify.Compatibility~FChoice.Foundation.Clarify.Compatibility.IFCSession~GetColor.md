@@ -1,23 +1,16 @@
-﻿     GetColor Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-GetColor Method (IFCSession)
+﻿### GetColor Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743911)>
+<DispIdAttribute(1610743911)>
 Function GetColor( _
    ByVal _purpose_ As String _
 ) As String
 
-\[[DispIdAttribute](#)(1610743911)\]
+[DispIdAttribute(1610743911)]
 string GetColor( 
    string _purpose_
 )
@@ -26,11 +19,9 @@ string GetColor(
 
 _purpose_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

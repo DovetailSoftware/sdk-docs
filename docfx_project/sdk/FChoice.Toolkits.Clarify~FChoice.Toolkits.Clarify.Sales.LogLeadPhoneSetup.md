@@ -1,26 +1,18 @@
-﻿     LogLeadPhoneSetup Class                                                   
-
-fcSDK Documentation
-
-LogLeadPhoneSetup Class
+﻿### LogLeadPhoneSetup Class
 
 Used by the [LogLeadPhone](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~LogLeadPhone(LogLeadPhoneSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogLeadPhoneSetup 
 
 public class LogLeadPhoneSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

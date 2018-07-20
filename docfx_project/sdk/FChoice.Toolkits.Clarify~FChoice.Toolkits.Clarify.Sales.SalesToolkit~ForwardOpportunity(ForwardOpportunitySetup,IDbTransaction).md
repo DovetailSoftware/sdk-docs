@@ -1,8 +1,4 @@
-﻿     ForwardOpportunity(ForwardOpportunitySetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-ForwardOpportunity(ForwardOpportunitySetup,IDbTransaction) Method
+﻿### ForwardOpportunity(ForwardOpportunitySetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Reject-forward the Opportunity from one queue to another. This overload takes a 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ForwardOpportunity( _
    ByVal _setupParam_ As [ForwardOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardOpportunitySetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

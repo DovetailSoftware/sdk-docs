@@ -1,8 +1,4 @@
-﻿     CreateEmployeeSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateEmployeeSetup Class Members
+﻿### CreateEmployeeSetup Class Members
 
 The following tables list the members exposed by [CreateEmployeeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateEmployeeSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup~_ctor.md) | Initializes a new instance of the CreateEmployeeSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -54,9 +50,9 @@ Is Employee a supervisor?
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkGroup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup~WorkGroup.md) | Element from the 'Workgroup' user defined list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkGroupStartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup~WorkGroupStartDate.md) | Date that the Employee started in the Workgroup   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

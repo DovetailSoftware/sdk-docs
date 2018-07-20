@@ -1,19 +1,11 @@
-﻿     LessThanFilter Class                                                   
-
-fcSDK Documentation
-
-LessThanFilter Class
+﻿### LessThanFilter Class
 
 Filter field that are less than filter input
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LessThanFilter 
    Inherits [OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md)
 
@@ -25,7 +17,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       [FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)  
          [FChoice.Foundation.Filters.OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md)  
@@ -42,7 +34,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

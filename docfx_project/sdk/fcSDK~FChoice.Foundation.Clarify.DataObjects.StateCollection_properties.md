@@ -1,8 +1,4 @@
-﻿     StateCollection Class Properties                                                   
-
-fcSDK Documentation
-
-StateCollection Class Properties
+﻿### StateCollection Class Properties
 
 For a list of all members of this type, see [StateCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [DefaultState](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection~DefaultState.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

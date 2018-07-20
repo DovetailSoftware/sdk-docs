@@ -1,8 +1,4 @@
-﻿     UpdatePartRequestDetailSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdatePartRequestDetailSetup Class Properties
+﻿### UpdatePartRequestDetailSetup Class Properties
 
 For a list of all members of this type, see [UpdatePartRequestDetailSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup_members.md).
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SitePartObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup~SitePartObjid.md) | The Objid of the Site Part specified for this Part Request   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup~Status.md) | The new status for the Part Request for the current condition. If not set, the default status is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

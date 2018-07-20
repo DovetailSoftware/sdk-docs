@@ -1,28 +1,20 @@
-﻿     rowsReturned Property (IFCGeneric)                                                   
-
-fcSDK Documentation
-
-rowsReturned Property (IFCGeneric)
+﻿### rowsReturned Property (IFCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[DispIdAttribute](#)(1610743829)>
-ReadOnly Property rowsReturned As [Integer](#)
+<DispIdAttribute(1610743829)>
+ReadOnly Property rowsReturned As Integer
+```
 
-\[[DispIdAttribute](#)(1610743829)\]
-[int](#) rowsReturned {get;}
+```csharp
+[DispIdAttribute(1610743829)]
+int rowsReturned {get;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     RejectSubcaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-RejectSubcaseSetup Class Members
+﻿### RejectSubcaseSetup Class Members
 
 The following tables list the members exposed by [RejectSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectSubcaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [RejectSubcaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectSubcaseSetup~_ctor.md) | Initializes a new instance of the RejectSubcaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectSubcaseSetup~UserName.md) | The user who has rejected the Subcase. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectSubcaseSetup~WipBin.md) | User's WipBin in which to place the Subcase. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

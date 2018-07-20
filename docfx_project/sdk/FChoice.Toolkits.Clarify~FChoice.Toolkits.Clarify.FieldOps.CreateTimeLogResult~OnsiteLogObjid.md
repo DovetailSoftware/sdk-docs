@@ -1,28 +1,18 @@
-﻿     OnsiteLogObjid Property (CreateTimeLogResult)                                                   
-
-fcSDK Documentation
-
-OnsiteLogObjid Property (CreateTimeLogResult)
+﻿### OnsiteLogObjid Property (CreateTimeLogResult)
 
 The Objid of the OnsiteLog.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public Property OnsiteLogObjid As Integer
 
-'Declaration
- 
+public int OnsiteLogObjid {get; set;}
 
-Public Property OnsiteLogObjid As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public [int](#) OnsiteLogObjid {get; set;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdateCR(UpdateCRSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-UpdateCR(UpdateCRSetup,IDbTransaction) Method
+﻿### UpdateCR(UpdateCRSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Update an existing CR. This overload takes a setup object and a database transa
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateCR( _
    ByVal _setupParam_ As [UpdateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.UpdateCRSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

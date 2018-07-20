@@ -1,26 +1,18 @@
-﻿     LinkCaseToWorkaroundSetup Class                                                   
-
-fcSDK Documentation
-
-LinkCaseToWorkaroundSetup Class
+﻿### LinkCaseToWorkaroundSetup Class
 
 Used by the [LinkCaseToWorkaround](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~LinkCaseToWorkaround(LinkCaseToWorkaroundSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LinkCaseToWorkaroundSetup 
 
 public class LinkCaseToWorkaroundSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

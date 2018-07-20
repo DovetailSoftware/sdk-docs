@@ -1,18 +1,11 @@
-﻿     LocationName Property (AddInventoryLocationSetup)                                                   
-
-fcSDK Documentation
-
-LocationName Property (AddInventoryLocationSetup)
+﻿### LocationName Property (AddInventoryLocationSetup)
 
 Name of the inventory location to add
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property LocationName As String
@@ -20,11 +13,9 @@ Public Property LocationName As String
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public string LocationName {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

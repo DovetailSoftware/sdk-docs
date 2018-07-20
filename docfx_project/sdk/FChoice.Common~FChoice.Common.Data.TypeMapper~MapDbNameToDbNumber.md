@@ -1,20 +1,14 @@
-﻿     MapDbNameToDbNumber Method                                                   
-
-MapDbNameToDbNumber Method
+﻿### MapDbNameToDbNumber Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustOverride Function MapDbNameToDbNumber( _
    ByVal _dbName_ As String _
-) As [Integer](#)
+) As Integer
 
-public abstract [int](#) MapDbNameToDbNumber( 
+public abstract int MapDbNameToDbNumber( 
    string _dbName_
 )
 
@@ -22,11 +16,9 @@ public abstract [int](#) MapDbNameToDbNumber(
 
 _dbName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

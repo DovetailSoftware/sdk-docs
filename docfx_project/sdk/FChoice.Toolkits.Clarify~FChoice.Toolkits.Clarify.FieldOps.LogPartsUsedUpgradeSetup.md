@@ -1,26 +1,18 @@
-﻿     LogPartsUsedUpgradeSetup Class                                                   
-
-fcSDK Documentation
-
-LogPartsUsedUpgradeSetup Class
+﻿### LogPartsUsedUpgradeSetup Class
 
 Used by the [LogPartsUsedUpgrade](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedUpgrade(LogPartsUsedUpgradeSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogPartsUsedUpgradeSetup 
 
 public class LogPartsUsedUpgradeSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedUpgradeSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

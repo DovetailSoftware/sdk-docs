@@ -1,21 +1,14 @@
-﻿     CommunicationRoleType Enumeration                                                        
-
-fcSDK Documentation
-
-CommunicationRoleType Enumeration
+﻿### CommunicationRoleType Enumeration
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Enum CommunicationRoleType 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
 
-public enum CommunicationRoleType : [System.Enum](#) 
+public enum CommunicationRoleType : System.Enum 
 
 Members
 
@@ -29,9 +22,9 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Toolkits.Clarify.CommunicationRoleType**  
 
 #### Requirements
@@ -42,7 +35,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

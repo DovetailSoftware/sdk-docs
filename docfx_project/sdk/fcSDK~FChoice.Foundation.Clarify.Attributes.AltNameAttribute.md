@@ -1,16 +1,9 @@
-﻿     AltNameAttribute Class                                                   
-
-fcSDK Documentation
-
-AltNameAttribute Class
+﻿### AltNameAttribute Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Class Or  _
     AttributeTargets.Method Or  _
@@ -29,7 +22,7 @@ public class AltNameAttribute : [System.Attribute](#)
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Attribute](#)  
       **FChoice.Foundation.Clarify.Attributes.AltNameAttribute**  
 
@@ -41,7 +34,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

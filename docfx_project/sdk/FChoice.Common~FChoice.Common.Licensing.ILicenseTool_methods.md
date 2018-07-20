@@ -1,6 +1,4 @@
-﻿     ILicenseTool Interface Methods                                                   
-
-ILicenseTool Interface Methods
+﻿### ILicenseTool Interface Methods
 
 For a list of all members of this type, see [ILicenseTool members](FChoice.Common~FChoice.Common.Licensing.ILicenseTool_members.md).
 
@@ -13,9 +11,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [RetrieveLicenses](FChoice.Common~FChoice.Common.Licensing.ILicenseTool~RetrieveLicenses.md) |   |
 | ![ Method](dotnetimages/Method.png) | [ValidateLockdownData](FChoice.Common~FChoice.Common.Licensing.ILicenseTool~ValidateLockdownData.md) | Validates lock down data.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

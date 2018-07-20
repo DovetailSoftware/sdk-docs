@@ -1,6 +1,4 @@
-﻿     FCConfiguration Class Members                                                   
-
-FCConfiguration Class Members
+﻿### FCConfiguration Class Members
 
 The following tables list the members exposed by [FCConfiguration](FChoice.Common~FChoice.Common.FCConfiguration.md).
 
@@ -11,7 +9,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [Current](FChoice.Common~FChoice.Common.FCConfiguration~Current.md) | Gets or sets the current configuration settings or null if none are currently configured.   |
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [DataProtectionEntropy](FChoice.Common~FChoice.Common.FCConfiguration~DataProtectionEntropy.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -20,9 +18,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [LoadEnvironmentSettings](FChoice.Common~FChoice.Common.FCConfiguration~LoadEnvironmentSettings.md) | Overloaded. Retrieves the current configuration values or loads new ones if no current ones are available.   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [ParseFcEnvFile](FChoice.Common~FChoice.Common.FCConfiguration~ParseFcEnvFile.md) | Provided for legacy compatibility support, this method will parse an FC.ENV-style configuration file from the specified file path.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

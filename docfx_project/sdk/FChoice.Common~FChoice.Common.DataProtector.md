@@ -5,10 +5,7 @@ Provides easy access to the Windows Data Protection API (DPAPI) for encrypting
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public NotInheritable Class DataProtector 
 
@@ -22,7 +19,7 @@ For more information on Windows Data Protection, please see this technical artic
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.DataProtector**  
 
 #### Requirements
@@ -33,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

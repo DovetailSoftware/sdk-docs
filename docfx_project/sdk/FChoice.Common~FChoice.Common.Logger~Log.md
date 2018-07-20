@@ -15,11 +15,9 @@ Remarks
 
 It is recommended that you use the individual Log* methods rather than this general method. This method is only provided for rare circumstances where the log level at which to write a specific entry is not known until runtime.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

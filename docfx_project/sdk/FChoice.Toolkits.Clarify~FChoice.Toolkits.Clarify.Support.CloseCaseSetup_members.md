@@ -1,8 +1,4 @@
-﻿     CloseCaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-CloseCaseSetup Class Members
+﻿### CloseCaseSetup Class Members
 
 The following tables list the members exposed by [CloseCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CloseCaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup~_ctor.md) | Initializes a new instance of the CloseCaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -32,9 +28,9 @@ Element from the 'Resolution Code' application defined list. If not set, the def
 | ![Public Property](dotnetimages/publicProperty.png) | [UnitsUsed](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup~UnitsUsed.md) | The number of units to charge against the contract for the Case.  If the Case has no contract, this field must be 0.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup~UserName.md) | The User who closed the Case. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

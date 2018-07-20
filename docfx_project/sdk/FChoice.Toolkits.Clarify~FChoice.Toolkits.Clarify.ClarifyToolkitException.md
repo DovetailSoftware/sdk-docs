@@ -1,17 +1,9 @@
-﻿     ClarifyToolkitException Class                                                   
-
-fcSDK Documentation
-
-ClarifyToolkitException Class
+﻿### ClarifyToolkitException Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ClarifyToolkitException 
    Inherits [System.Exception](#)
 
@@ -19,7 +11,7 @@ public class ClarifyToolkitException : [System.Exception](#)
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Exception](#)  
       **FChoice.Toolkits.Clarify.ClarifyToolkitException**  
 
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

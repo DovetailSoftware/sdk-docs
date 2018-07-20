@@ -1,28 +1,19 @@
-﻿     Count Property (GenericDataTable)                                                   
-
-fcSDK Documentation
-
-Count Property (GenericDataTable)
+﻿### Count Property (GenericDataTable)
 
 Number of [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)s currently in the table.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property Count As Integer
 
-Public ReadOnly Property Count As [Integer](#)
+public int Count {get;}
 
-public [int](#) Count {get;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

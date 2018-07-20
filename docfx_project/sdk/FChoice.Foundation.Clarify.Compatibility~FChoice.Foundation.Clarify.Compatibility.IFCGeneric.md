@@ -1,26 +1,22 @@
-﻿     IFCGeneric Interface                                                   
-
-fcSDK Documentation
-
-IFCGeneric Interface
+﻿### IFCGeneric Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 <[ComVisibleAttribute](#)(True)>
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 <[GuidAttribute](#)("545582EE-2D64-4869-AC88-7D1B5031A960")>
 Public Interface IFCGeneric 
+```
 
+```csharp
 \[[ComVisibleAttribute](#)(true)\]
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 \[[GuidAttribute](#)("545582EE-2D64-4869-AC88-7D1B5031A960")\]
 public interface IFCGeneric 
+```
 
 #### Requirements
 
@@ -30,7 +26,7 @@ public interface IFCGeneric
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

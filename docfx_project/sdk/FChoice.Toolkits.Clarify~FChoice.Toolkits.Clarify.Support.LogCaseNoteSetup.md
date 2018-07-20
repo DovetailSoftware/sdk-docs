@@ -1,26 +1,18 @@
-﻿     LogCaseNoteSetup Class                                                   
-
-fcSDK Documentation
-
-LogCaseNoteSetup Class
+﻿### LogCaseNoteSetup Class
 
 Used by the [LogCaseNote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseNote(LogCaseNoteSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogCaseNoteSetup 
 
 public class LogCaseNoteSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

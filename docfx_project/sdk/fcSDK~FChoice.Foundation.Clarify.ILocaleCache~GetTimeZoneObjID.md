@@ -1,22 +1,14 @@
-﻿     GetTimeZoneObjID Method (ILocaleCache)                                                   
-
-fcSDK Documentation
-
-GetTimeZoneObjID Method (ILocaleCache)
+﻿### GetTimeZoneObjID Method (ILocaleCache)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Function GetTimeZoneObjID( _
    ByVal _fullTimeZoneName_ As String _
-) As [Integer](#)
+) As Integer
 
-[int](#) GetTimeZoneObjID( 
+int GetTimeZoneObjID( 
    string _fullTimeZoneName_
 )
 
@@ -24,11 +16,9 @@ Function GetTimeZoneObjID( _
 
 _fullTimeZoneName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

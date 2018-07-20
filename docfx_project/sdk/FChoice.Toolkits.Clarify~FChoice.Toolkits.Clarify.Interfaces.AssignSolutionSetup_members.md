@@ -1,8 +1,4 @@
-﻿     AssignSolutionSetup Class Members                                                   
-
-fcSDK Documentation
-
-AssignSolutionSetup Class Members
+﻿### AssignSolutionSetup Class Members
 
 The following tables list the members exposed by [AssignSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AssignSolutionSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AssignSolutionSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AssignSolutionSetup~_ctor.md) | Initializes a new instance of the AssignSolutionSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AssignSolutionSetup~UserName.md) | The user who has assigned the Solution. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AssignSolutionSetup~WipBin.md) | User's WipBin in which to place the Solution. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

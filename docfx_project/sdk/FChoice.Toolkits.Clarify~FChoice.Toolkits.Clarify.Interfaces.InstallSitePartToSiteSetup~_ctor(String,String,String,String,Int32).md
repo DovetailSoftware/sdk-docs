@@ -1,8 +1,4 @@
-﻿     InstallSitePartToSiteSetup Constructor(String,String,String,String,Int32)                                                   
-
-fcSDK Documentation
-
-InstallSitePartToSiteSetup Constructor(String,String,String,String,Int32)
+﻿### InstallSitePartToSiteSetup Constructor(String,String,String,String,Int32)
 
 Identifier of the Site where the part will be installed.
 
@@ -19,28 +15,28 @@ Initializes a new instance of the InstallSitePartToSiteSetup class. This overloa
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _siteIDNum_ As String, _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
    ByVal _partDomain_ As String, _
-   ByVal _quantity_ As [Integer](#) _
+   ByVal _quantity_ As Integer _
 )
+```
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+```csharp
+[ConstructorIndexAttribute()]
 public InstallSitePartToSiteSetup( 
    string _siteIDNum_,
    string _partNumber_,
    string _partRevision_,
    string _partDomain_,
-   [int](#) _quantity_
+   int _quantity_
 )
+```
 
 #### Parameters
 
@@ -64,11 +60,7 @@ _quantity_
 
 The number of units to install
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

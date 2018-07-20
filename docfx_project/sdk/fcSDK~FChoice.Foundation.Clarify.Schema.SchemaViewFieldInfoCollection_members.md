@@ -1,8 +1,4 @@
-﻿     SchemaViewFieldInfoCollection Class Members                                                   
-
-fcSDK Documentation
-
-SchemaViewFieldInfoCollection Class Members
+﻿### SchemaViewFieldInfoCollection Class Members
 
 The following tables list the members exposed by [SchemaViewFieldInfoCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfoCollection.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<SchemaViewFieldInfo>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.Generic.List<SchemaViewFieldInfo>](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -54,9 +50,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SchemaViewFieldInfo>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SchemaViewFieldInfo>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,24 +1,16 @@
-﻿     PartRequestInfo Class                                                   
-
-fcSDK Documentation
-
-PartRequestInfo Class
+﻿### PartRequestInfo Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class PartRequestInfo 
 
 public class PartRequestInfo 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.PartRequestInfo**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

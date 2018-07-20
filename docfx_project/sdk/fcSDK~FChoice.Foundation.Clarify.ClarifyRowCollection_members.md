@@ -1,8 +1,4 @@
-﻿     ClarifyRowCollection Class Members                                                   
-
-fcSDK Documentation
-
-ClarifyRowCollection Class Members
+﻿### ClarifyRowCollection Class Members
 
 The following tables list the members exposed by [ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md).
 
@@ -16,7 +12,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](fcSDK~FChoice.Foundation.GenericDataRowCollection~SyncRoot.md) | Gets an object that can be used to synchronize the collection. (Inherited from [FChoice.Foundation.GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Table](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection~Table.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -28,9 +24,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Find](fcSDK~FChoice.Foundation.GenericDataRowCollection~Find.md) | Overloaded. Gets the row containing the specified primary key values. (Inherited from [FChoice.Foundation.GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetEnumerator](fcSDK~FChoice.Foundation.GenericDataRowCollection~GetEnumerator.md) | Gets an [IEnumerator](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemcollectionsienumeratorclasstopic.htm) for the collection. (Inherited from [FChoice.Foundation.GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

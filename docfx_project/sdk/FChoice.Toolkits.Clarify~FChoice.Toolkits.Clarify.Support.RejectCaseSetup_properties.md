@@ -1,8 +1,4 @@
-﻿     RejectCaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-RejectCaseSetup Class Properties
+﻿### RejectCaseSetup Class Properties
 
 For a list of all members of this type, see [RejectCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectCaseSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectCaseSetup~UserName.md) | The user who has rejected the Case. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectCaseSetup~WipBin.md) | User's WipBin in which to place the Case. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LogContractNote(LogContractNoteSetup) Method                                                   
-
-fcSDK Documentation
-
-LogContractNote(LogContractNoteSetup) Method
+﻿### LogContractNote(LogContractNoteSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Causes a note log to be created and added to the specified contract. This overlo
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogContractNote( _
    ByVal _setupParam_ As [LogContractNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup.md) _
@@ -40,11 +33,9 @@ Remarks
 
 It logs the note with the user name specified. There can be Internal Use notes added. It allows the setting of optional fields on the notes_log record with the use of the AdditionalFields object.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,19 +1,11 @@
-﻿     OlderThanDaysFilter Class                                                   
-
-fcSDK Documentation
-
-OlderThanDaysFilter Class
+﻿### OlderThanDaysFilter Class
 
 Filter field on dates that are older than a number of days
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class OlderThanDaysFilter 
    Inherits [LessThanFilter](fcSDK~FChoice.Foundation.Filters.LessThanFilter.md)
 
@@ -25,7 +17,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       [FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)  
          [FChoice.Foundation.Filters.OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md)  
@@ -40,7 +32,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

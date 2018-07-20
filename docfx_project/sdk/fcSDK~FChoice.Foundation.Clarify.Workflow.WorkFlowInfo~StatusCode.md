@@ -1,26 +1,17 @@
-﻿     StatusCode Property (WorkFlowInfo)                                                   
-
-fcSDK Documentation
-
-StatusCode Property (WorkFlowInfo)
+﻿### StatusCode Property (WorkFlowInfo)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property StatusCode As Integer
 
-Public ReadOnly Property StatusCode As [Integer](#)
+public int StatusCode {get;}
 
-public [int](#) StatusCode {get;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

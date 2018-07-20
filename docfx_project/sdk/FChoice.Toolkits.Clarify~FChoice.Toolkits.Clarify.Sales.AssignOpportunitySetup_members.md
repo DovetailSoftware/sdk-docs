@@ -1,8 +1,4 @@
-﻿     AssignOpportunitySetup Class Members                                                   
-
-fcSDK Documentation
-
-AssignOpportunitySetup Class Members
+﻿### AssignOpportunitySetup Class Members
 
 The following tables list the members exposed by [AssignOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignOpportunitySetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AssignOpportunitySetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignOpportunitySetup~_ctor.md) | Initializes a new instance of the AssignOpportunitySetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignOpportunitySetup~UserName.md) | The user who has assigned the Opportunity. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignOpportunitySetup~WipBin.md) | User's WipBin in which to place the Opportunity. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

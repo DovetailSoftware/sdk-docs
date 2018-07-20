@@ -1,8 +1,4 @@
-﻿     AddSitePartToContractSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AddSitePartToContractSetup Class Properties
+﻿### AddSitePartToContractSetup Class Properties
 
 For a list of all members of this type, see [AddSitePartToContractSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup~SiteIDNum.md) | Identifier of site where the site part is located.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SitePartObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup~SitePartObjid.md) | Objid of the SitePart to be added.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

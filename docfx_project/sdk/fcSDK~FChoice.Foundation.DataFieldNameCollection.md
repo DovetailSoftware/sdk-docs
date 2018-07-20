@@ -1,17 +1,9 @@
-﻿     DataFieldNameCollection Class                                                   
-
-fcSDK Documentation
-
-DataFieldNameCollection Class
+﻿### DataFieldNameCollection Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DataFieldNameCollection 
    Inherits [ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)
 
@@ -19,7 +11,7 @@ public class DataFieldNameCollection : [ValidatedNameCollection](fcSDK~FChoice.F
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)  
       **FChoice.Foundation.DataFieldNameCollection**  
 
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

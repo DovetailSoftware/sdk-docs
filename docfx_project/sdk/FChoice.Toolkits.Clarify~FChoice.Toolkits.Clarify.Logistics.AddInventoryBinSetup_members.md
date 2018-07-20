@@ -8,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddInventoryBinSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryBinSetup~_ctor.md) | Initializes a new instance of the AddInventoryBinSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -17,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [IsActive](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryBinSetup~IsActive.md) | Specifies whether this inventory bin is active (true) or inactive (false)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryBinSetup~Location.md) | A reference to a [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) object which specifies the name of the bin to create and the name of the location in which to create it   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,21 +1,17 @@
-﻿     SchemaDataType Enumeration                                                             
-
-fcSDK Documentation
-
-SchemaDataType Enumeration
+﻿### SchemaDataType Enumeration
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Enum SchemaDataType 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
+```
 
-public enum SchemaDataType : [System.Enum](#) 
+```csharp
+public enum SchemaDataType : System.Enum 
+```
 
 Members
 
@@ -34,10 +30,10 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
-         **FChoice.Foundation.Clarify.Schema.SchemaDataType**  
+System.Object  
+System.ValueType  
+System.Enum  
+**FChoice.Foundation.Clarify.Schema.SchemaDataType**  
 
 #### Requirements
 
@@ -46,8 +42,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

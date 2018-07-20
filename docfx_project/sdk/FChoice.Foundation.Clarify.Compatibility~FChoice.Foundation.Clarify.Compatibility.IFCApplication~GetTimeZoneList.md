@@ -1,28 +1,19 @@
-﻿     GetTimeZoneList Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetTimeZoneList Method (IFCApplication)
+﻿### GetTimeZoneList Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743870)>
+<DispIdAttribute(1610743870)>
 Function GetTimeZoneList() As ADODB.Recordset
 
-\[[DispIdAttribute](#)(1610743870)\]
+[DispIdAttribute(1610743870)]
 ADODB.Recordset GetTimeZoneList()
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

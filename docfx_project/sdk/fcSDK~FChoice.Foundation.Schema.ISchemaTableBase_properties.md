@@ -1,8 +1,4 @@
-﻿     ISchemaTableBase Interface Properties                                                   
-
-fcSDK Documentation
-
-ISchemaTableBase Interface Properties
+﻿### ISchemaTableBase Interface Properties
 
 For a list of all members of this type, see [ISchemaTableBase members](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [ObjectID](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase~ObjectID.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Subsystem](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase~Subsystem.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

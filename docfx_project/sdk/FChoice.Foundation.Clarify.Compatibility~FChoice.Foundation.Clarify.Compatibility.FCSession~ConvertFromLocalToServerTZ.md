@@ -1,34 +1,25 @@
-﻿     ConvertFromLocalToServerTZ Method (FCSession)                                                   
-
-fcSDK Documentation
-
-ConvertFromLocalToServerTZ Method (FCSession)
+﻿### ConvertFromLocalToServerTZ Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function ConvertFromLocalToServerTZ( _
-   ByVal _convertDate_ As [Date](#) _
-) As [Date](#)
+   ByVal _convertDate_ As Date _
+) As Date
 
-public [DateTime](#) ConvertFromLocalToServerTZ( 
-   [DateTime](#) _convertDate_
+public DateTime ConvertFromLocalToServerTZ( 
+   DateTime _convertDate_
 )
 
 #### Parameters
 
 _convertDate_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

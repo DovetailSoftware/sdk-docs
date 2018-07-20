@@ -1,8 +1,4 @@
-﻿     ChangeOpportunityStatusSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ChangeOpportunityStatusSetup Class Properties
+﻿### ChangeOpportunityStatusSetup Class Properties
 
 For a list of all members of this type, see [ChangeOpportunityStatusSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStatusSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [OpportunityIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStatusSetup~OpportunityIDNum.md) | Opportunity Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStatusSetup~UserName.md) | The user who is changing the opportunity status. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ChangeQuoteStatusSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ChangeQuoteStatusSetup Class Properties
+﻿### ChangeQuoteStatusSetup Class Properties
 
 For a list of all members of this type, see [ChangeQuoteStatusSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeQuoteStatusSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [QuoteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeQuoteStatusSetup~QuoteIDNum.md) | Quote Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeQuoteStatusSetup~UserName.md) | The user who is changing the quote status. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

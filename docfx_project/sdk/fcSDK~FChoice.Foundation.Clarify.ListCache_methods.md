@@ -1,8 +1,4 @@
-﻿     ListCache Class Methods                                                   
-
-fcSDK Documentation
-
-ListCache Class Methods
+﻿### ListCache Class Methods
 
 For a list of all members of this type, see [ListCache members](fcSDK~FChoice.Foundation.Clarify.ListCache_members.md).
 
@@ -28,9 +24,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TryGetHgbstList](fcSDK~FChoice.Foundation.Clarify.ListCache~TryGetHgbstList.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCache](fcSDK~FChoice.Foundation.CacheBase~UpdateCache.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateSolutionSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateSolutionSetup Class Members
+﻿### CreateSolutionSetup Class Members
 
 The following tables list the members exposed by [CreateSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateSolutionSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup~_ctor.md) | Initializes a new instance of the CreateSolutionSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -29,9 +25,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup~UserName.md) | User creating the Solution. If not set, the default is the session user.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Workaround](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup~Workaround.md) | Text of the first Workaround for the Solution.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

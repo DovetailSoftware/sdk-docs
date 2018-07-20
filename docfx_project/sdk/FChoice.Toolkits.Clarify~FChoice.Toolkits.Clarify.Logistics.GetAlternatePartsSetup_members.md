@@ -1,8 +1,4 @@
-﻿     GetAlternatePartsSetup Class Members                                                   
-
-fcSDK Documentation
-
-GetAlternatePartsSetup Class Members
+﻿### GetAlternatePartsSetup Class Members
 
 The following tables list the members exposed by [GetAlternatePartsSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [GetAlternatePartsSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup~_ctor.md) | Initializes a new instance of the GetAlternatePartsSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartNumber](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup~PartNumber.md) | The Part number   |
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup~PartRevision.md) | The Part revision   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

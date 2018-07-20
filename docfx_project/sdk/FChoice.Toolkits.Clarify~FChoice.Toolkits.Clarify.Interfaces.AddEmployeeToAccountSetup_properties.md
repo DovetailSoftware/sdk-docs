@@ -1,8 +1,4 @@
-﻿     AddEmployeeToAccountSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AddEmployeeToAccountSetup Class Properties
+﻿### AddEmployeeToAccountSetup Class Properties
 
 For a list of all members of this type, see [AddEmployeeToAccountSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RoleName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup~RoleName.md) | Role for User in the Account .   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup~UserName.md) | Username of the Account team member .   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

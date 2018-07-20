@@ -1,22 +1,17 @@
-﻿     SetDatabaseParameterTypeForClobText Method (DbProvider)                                                   
-
-SetDatabaseParameterTypeForClobText Method (DbProvider)
+﻿### SetDatabaseParameterTypeForClobText Method (DbProvider)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overridable Sub SetDatabaseParameterTypeForClobText( _
-   ByVal _dbParameter_ As [IDbDataParameter](#), _
+   ByVal _dbParameter_ As IDbDataParameter, _
    ByVal _isParameterUnicode_ As Boolean _
 ) 
 
 public virtual void SetDatabaseParameterTypeForClobText( 
-   [IDbDataParameter](#) _dbParameter_,
+   IDbDataParameter _dbParameter_,
    bool _isParameterUnicode_
 )
 
@@ -26,11 +21,9 @@ _dbParameter_
 
 _isParameterUnicode_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

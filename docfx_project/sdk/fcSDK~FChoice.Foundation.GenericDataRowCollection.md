@@ -1,32 +1,28 @@
-﻿     GenericDataRowCollection Class                                                   
-
-fcSDK Documentation
-
-GenericDataRowCollection Class
+﻿### GenericDataRowCollection Class
 
 Represents a collection of rows for a [GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md).
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 Public MustInherit Class GenericDataRowCollection 
+```
 
-\[[DefaultMemberAttribute](#)("Item")\]
+```csharp
+[DefaultMemberAttribute("Item")]
 public abstract class GenericDataRowCollection 
+```
 
 Remarks
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   **FChoice.Foundation.GenericDataRowCollection**  
-      [FChoice.Foundation.Clarify.ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md)  
+System.Object  
+**FChoice.Foundation.GenericDataRowCollection**  
+[FChoice.Foundation.Clarify.ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md)  
 
 #### Requirements
 
@@ -35,8 +31,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

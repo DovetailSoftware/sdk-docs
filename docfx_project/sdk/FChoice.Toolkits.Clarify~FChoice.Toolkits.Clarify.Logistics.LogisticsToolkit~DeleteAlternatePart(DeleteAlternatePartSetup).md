@@ -1,8 +1,4 @@
-﻿     DeleteAlternatePart(DeleteAlternatePartSetup) Method                                                   
-
-fcSDK Documentation
-
-DeleteAlternatePart(DeleteAlternatePartSetup) Method
+﻿### DeleteAlternatePart(DeleteAlternatePartSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Causes the second part/revision listed to be removed as an alternate part for th
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DeleteAlternatePart( _
    ByVal _setupParam_ As [DeleteAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.md) _
@@ -34,11 +27,9 @@ Setup object for API invocation.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

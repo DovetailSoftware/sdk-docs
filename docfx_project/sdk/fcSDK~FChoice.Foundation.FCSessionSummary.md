@@ -1,18 +1,11 @@
-﻿     FCSessionSummary Class                                                   
-
-fcSDK Documentation
-
-FCSessionSummary Class
+﻿### FCSessionSummary Class
 
 Represents a summary view of the session for reporting purposes.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class FCSessionSummary 
 
@@ -24,7 +17,7 @@ Remarks
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.FCSessionSummary**  
 
 #### Requirements
@@ -35,7 +28,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

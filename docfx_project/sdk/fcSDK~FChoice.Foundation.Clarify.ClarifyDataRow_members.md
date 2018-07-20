@@ -19,7 +19,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Table](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow~Table.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.GenericDataRow~UniqueID.md) | Returns Unique Identifier of this row in the database. (Inherited from [FChoice.Foundation.GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -52,9 +52,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UnrelateFromAll](fcSDK~FChoice.Foundation.GenericDataRow~UnrelateFromAll.md) | UnRelate this [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) from all other rows related to it via the given relation name. (Inherited from [FChoice.Foundation.GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](fcSDK~FChoice.Foundation.GenericDataRow~Update.md) | Overloaded. Commits the row to the database. See FCGeneric's [Update](fcSDK~FChoice.Foundation.FCGeneric~Update(GenericDataRow).md) for details. (Inherited from [FChoice.Foundation.GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

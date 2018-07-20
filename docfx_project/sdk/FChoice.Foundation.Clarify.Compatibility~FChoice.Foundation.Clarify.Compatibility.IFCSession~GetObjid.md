@@ -1,24 +1,16 @@
-﻿     GetObjid Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-GetObjid Method (IFCSession)
+﻿### GetObjid Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743877)>
+' Declaration
+<DispIdAttribute(1610743877)>
 Function GetObjid( _
    ByVal _tableName_ As String _
-) As [Integer](#)
+) As Integer
 
-\[[DispIdAttribute](#)(1610743877)\]
-[int](#) GetObjid( 
+[DispIdAttribute(1610743877)]
+int GetObjid( 
    string _tableName_
 )
 
@@ -26,11 +18,9 @@ Function GetObjid( _
 
 _tableName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

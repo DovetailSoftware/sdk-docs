@@ -1,26 +1,22 @@
-﻿     FCGeneric Class                                                   
-
-fcSDK Documentation
-
-FCGeneric Class
+﻿### FCGeneric Class
 
 Provides core CRM business logic and managed access to data.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public MustInherit Class FCGeneric 
+```
 
+```csharp
 public abstract class FCGeneric 
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.FCGeneric**  
       [FChoice.Foundation.Clarify.ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md)  
 
@@ -32,7 +28,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

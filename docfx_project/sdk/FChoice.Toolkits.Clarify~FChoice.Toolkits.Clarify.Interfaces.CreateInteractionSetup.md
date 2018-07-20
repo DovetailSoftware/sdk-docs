@@ -1,26 +1,18 @@
-﻿     CreateInteractionSetup Class                                                   
-
-fcSDK Documentation
-
-CreateInteractionSetup Class
+﻿### CreateInteractionSetup Class
 
 Used by the [CreateInteraction](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateInteraction(CreateInteractionSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreateInteractionSetup 
 
 public class CreateInteractionSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

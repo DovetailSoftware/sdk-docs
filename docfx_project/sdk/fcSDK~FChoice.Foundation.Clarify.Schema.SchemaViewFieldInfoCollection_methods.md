@@ -1,8 +1,4 @@
-﻿     SchemaViewFieldInfoCollection Class Methods                                                   
-
-fcSDK Documentation
-
-SchemaViewFieldInfoCollection Class Methods
+﻿### SchemaViewFieldInfoCollection Class Methods
 
 For a list of all members of this type, see [SchemaViewFieldInfoCollection members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfoCollection_members.md).
 
@@ -44,9 +40,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SchemaViewFieldInfo>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SchemaViewFieldInfo>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

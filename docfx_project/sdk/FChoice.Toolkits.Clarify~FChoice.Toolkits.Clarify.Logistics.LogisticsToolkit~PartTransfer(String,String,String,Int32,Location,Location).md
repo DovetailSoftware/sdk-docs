@@ -1,8 +1,4 @@
-﻿     PartTransfer(String,String,String,Int32,Location,Location) Method                                                   
-
-fcSDK Documentation
-
-PartTransfer(String,String,String,Int32,Location,Location) Method
+﻿### PartTransfer(String,String,String,Int32,Location,Location) Method
 
 Part number for the Part Request
 
@@ -23,16 +19,13 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function PartTransfer( _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
    ByVal _partDomain_ As String, _
-   ByVal _quantity_ As [Integer](#), _
+   ByVal _quantity_ As Integer, _
    ByVal _fromlocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
    ByVal _tolocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _
 ) As [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferResult.md)
@@ -41,7 +34,7 @@ public [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Lo
    string _partNumber_,
    string _partRevision_,
    string _partDomain_,
-   [int](#) _quantity_,
+   int _quantity_,
    [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _fromlocation_,
    [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _tolocation_
 )
@@ -90,11 +83,9 @@ To use primary bin suggestions/recommendations, please see the remarks on the [T
 
 This API supports transferring parts by quantity or a specific serial number.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,16 +1,9 @@
-﻿     IsFullState Method (LocaleCache)                                                   
-
-fcSDK Documentation
-
-IsFullState Method (LocaleCache)
+﻿### IsFullState Method (LocaleCache)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function IsFullState( _
    ByVal _countryName_ As String, _
@@ -28,11 +21,9 @@ _countryName_
 
 _stateName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

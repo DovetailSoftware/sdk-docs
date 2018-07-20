@@ -1,8 +1,4 @@
-﻿     SimplifiedAdditionalFields Class Properties                                                   
-
-fcSDK Documentation
-
-SimplifiedAdditionalFields Class Properties
+﻿### SimplifiedAdditionalFields Class Properties
 
 For a list of all members of this type, see [SimplifiedAdditionalFields members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalFields_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<SimplifiedAdditionalField>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.Generic.List<SimplifiedAdditionalField>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

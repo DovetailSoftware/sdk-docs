@@ -1,8 +1,4 @@
-﻿     MoveQuote Method (ContractsToolkit)                                                   
-
-fcSDK Documentation
-
-MoveQuote Method (ContractsToolkit)
+﻿### MoveQuote Method (ContractsToolkit)
 
 Move the Quote from one WipBin to another WipBin. This overload takes a set of required parameters for the API.
 
@@ -22,11 +18,9 @@ The new WipBin must belong to the same user as the first WipBin. The move operat
 
 Note: This API allows you to move a queueable object from one WipBin to another, even if the object is currently dispatched. Since WipBins are internal to a user, there really is no reason that you shouldn’t be able to move the interal (to a user) location of the object. This is an enhancement to base Clarify function, which requires that the object not be dispatched to be moved.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     DispatchFieldEngineer(DispatchFieldEngineerSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-DispatchFieldEngineer(DispatchFieldEngineerSetup,IDbTransaction) Method
+﻿### DispatchFieldEngineer(DispatchFieldEngineerSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to create a work order to dispatch a field engineer to a site. This overlo
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DispatchFieldEngineer( _
    ByVal _setupParam_ As [DispatchFieldEngineerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,24 +1,16 @@
-﻿     UpdateContactByObjidSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateContactByObjidSetup Class
+﻿### UpdateContactByObjidSetup Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateContactByObjidSetup 
 
 public class UpdateContactByObjidSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

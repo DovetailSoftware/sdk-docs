@@ -1,8 +1,4 @@
-﻿     ForwardCaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ForwardCaseSetup Class Properties
+﻿### ForwardCaseSetup Class Properties
 
 For a list of all members of this type, see [ForwardCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardCaseSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardCaseSetup~Notes.md) | The reason the Case was rejected from the queue into which it was dispatched.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardCaseSetup~UserName.md) | The user who has forwarded the Case. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

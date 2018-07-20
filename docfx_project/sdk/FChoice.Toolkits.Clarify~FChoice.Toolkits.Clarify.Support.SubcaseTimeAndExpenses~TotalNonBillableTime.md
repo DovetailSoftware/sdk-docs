@@ -1,28 +1,19 @@
-﻿     TotalNonBillableTime Property (SubcaseTimeAndExpenses)                                                   
-
-fcSDK Documentation
-
-TotalNonBillableTime Property (SubcaseTimeAndExpenses)
+﻿### TotalNonBillableTime Property (SubcaseTimeAndExpenses)
 
 Captured non-billable time.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Property TotalNonBillableTime As TimeSpan
 
-Public Property TotalNonBillableTime As [TimeSpan](#)
+public TimeSpan TotalNonBillableTime {get; set;}
 
-public [TimeSpan](#) TotalNonBillableTime {get; set;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

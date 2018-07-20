@@ -1,8 +1,4 @@
-﻿     LocaleCache Class Properties                                                   
-
-fcSDK Documentation
-
-LocaleCache Class Properties
+﻿### LocaleCache Class Properties
 
 For a list of all members of this type, see [LocaleCache members](fcSDK~FChoice.Foundation.Clarify.LocaleCache_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ServerTimeZone](fcSDK~FChoice.Foundation.Clarify.LocaleCache~ServerTimeZone.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TimeZones](fcSDK~FChoice.Foundation.Clarify.LocaleCache~TimeZones.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

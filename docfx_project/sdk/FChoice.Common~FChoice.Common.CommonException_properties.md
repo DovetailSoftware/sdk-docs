@@ -1,6 +1,4 @@
-﻿     CommonException Class Properties                                                   
-
-CommonException Class Properties
+﻿### CommonException Class Properties
 
 For a list of all members of this type, see [CommonException members](FChoice.Common~FChoice.Common.CommonException_members.md).
 
@@ -18,10 +16,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Source](#) | (Inherited from [System.Exception](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetSite](#) | (Inherited from [System.Exception](#)) |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

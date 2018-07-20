@@ -1,8 +1,4 @@
-﻿     LogLeadNoteSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogLeadNoteSetup Class Members
+﻿### LogLeadNoteSetup Class Members
 
 The following tables list the members exposed by [LogLeadNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogLeadNoteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup~_ctor.md) | Initializes a new instance of the LogLeadNoteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup~Notes.md) | Notes about the Lead Note logging.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup~UserName.md) | The user who is logging the note. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

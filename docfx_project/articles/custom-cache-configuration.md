@@ -1,4 +1,3 @@
-
 # Configuring Custom Cache Providers
 
 ## Configuring CacheManager to load a custom cache object

@@ -1,26 +1,18 @@
-﻿     UpdatePartStockingLevelSetup Class                                                   
-
-fcSDK Documentation
-
-UpdatePartStockingLevelSetup Class
+﻿### UpdatePartStockingLevelSetup Class
 
 Used by the [UpdatePartStockingLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartStockingLevel(UpdatePartStockingLevelSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdatePartStockingLevelSetup 
 
 public class UpdatePartStockingLevelSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     FCGeneric Class Methods                                                   
-
-fcSDK Documentation
-
-FCGeneric Class Methods
+﻿### FCGeneric Class Methods
 
 For a list of all members of this type, see [FCGeneric members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric_members.md).
 
@@ -53,9 +49,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric~Update.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateAll](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric~UpdateAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

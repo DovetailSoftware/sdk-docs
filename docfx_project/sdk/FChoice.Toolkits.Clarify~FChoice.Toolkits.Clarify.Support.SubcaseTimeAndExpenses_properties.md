@@ -1,8 +1,4 @@
-﻿     SubcaseTimeAndExpenses Class Properties                                                   
-
-fcSDK Documentation
-
-SubcaseTimeAndExpenses Class Properties
+﻿### SubcaseTimeAndExpenses Class Properties
 
 For a list of all members of this type, see [SubcaseTimeAndExpenses members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TotalNonBillableExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses~TotalNonBillableExpenses.md) | Captured non-billable expenses.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TotalNonBillableTime](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses~TotalNonBillableTime.md) | Captured non-billable time.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

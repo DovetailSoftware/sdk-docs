@@ -1,8 +1,4 @@
-﻿     FCSqlExec Class Methods                                                   
-
-fcSDK Documentation
-
-FCSqlExec Class Methods
+﻿### FCSqlExec Class Methods
 
 For a list of all members of this type, see [FCSqlExec members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec_members.md).
 
@@ -17,9 +13,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [FreeConnection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec~FreeConnection.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [OpenConnection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec~OpenConnection.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

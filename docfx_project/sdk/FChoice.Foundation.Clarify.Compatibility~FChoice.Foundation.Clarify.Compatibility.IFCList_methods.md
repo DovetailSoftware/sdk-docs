@@ -1,8 +1,4 @@
-﻿     IFCList Interface Methods                                                   
-
-fcSDK Documentation
-
-IFCList Interface Methods
+﻿### IFCList Interface Methods
 
 For a list of all members of this type, see [IFCList members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList_members.md).
 
@@ -19,9 +15,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [ItemByIndex](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList~ItemByIndex.md) |   |
 | ![ Method](dotnetimages/Method.png) | [Sort](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList~Sort.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

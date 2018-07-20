@@ -1,16 +1,9 @@
-﻿     FindString(String) Method                                                   
-
-fcSDK Documentation
-
-FindString(String) Method
+﻿### FindString(String) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Overloads Function FindString( _
    ByVal _stringName_ As String _
@@ -24,11 +17,9 @@ string FindString(
 
 _stringName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     FixFailed(FixFailedSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-FixFailed(FixFailedSetup,IDbTransaction) Method
+﻿### FixFailed(FixFailedSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Change the condition of a Change Request from Fixed to Open. This overload takes
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function FixFailed( _
    ByVal _setupParam_ As [FixFailedSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,30 +1,26 @@
-﻿     RestrictionGroupCollection Class                                                   
-
-fcSDK Documentation
-
-RestrictionGroupCollection Class
+﻿### RestrictionGroupCollection Class
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 Public Class RestrictionGroupCollection 
    Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of RestrictionGroup)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
+```
 
-\[[DefaultMemberAttribute](#)("Item")\]
+```csharp
+[DefaultMemberAttribute("Item")]
 public class RestrictionGroupCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<RestrictionGroup>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md) 
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.Collections.Generic.List<T>](#)  
-      [FChoice.Foundation.DataObjects.DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)  
-         **FChoice.Foundation.DataObjects.RestrictionGroupCollection**  
+System.Object  
+[System.Collections.Generic.List<T>](#)  
+[FChoice.Foundation.DataObjects.DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)  
+**FChoice.Foundation.DataObjects.RestrictionGroupCollection**  
 
 #### Requirements
 
@@ -33,8 +29,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

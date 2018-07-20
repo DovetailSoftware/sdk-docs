@@ -1,8 +1,4 @@
-﻿     ReopenOpportunitySetup Class Properties                                                   
-
-fcSDK Documentation
-
-ReopenOpportunitySetup Class Properties
+﻿### ReopenOpportunitySetup Class Properties
 
 For a list of all members of this type, see [ReopenOpportunitySetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ReopenOpportunitySetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ReopenOpportunitySetup~UserName.md) | The user who is reopening the opportunity. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ReopenOpportunitySetup~WipBin.md) | User's WipBin to place the Opportunity in. It not set the current user's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

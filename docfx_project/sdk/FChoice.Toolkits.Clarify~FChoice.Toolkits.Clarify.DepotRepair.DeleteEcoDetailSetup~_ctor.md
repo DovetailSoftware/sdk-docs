@@ -1,8 +1,4 @@
-﻿     DeleteEcoDetailSetup Constructor                                                   
-
-fcSDK Documentation
-
-DeleteEcoDetailSetup Constructor
+﻿### DeleteEcoDetailSetup Constructor
 
 The objid of the ECO detail object to be deleted
 
@@ -11,19 +7,16 @@ Initializes a new instance of the DeleteEcoDetailSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _ecoDetailObjid_ As [Integer](#) _
+   ByVal _ecoDetailObjid_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public DeleteEcoDetailSetup( 
-   [int](#) _ecoDetailObjid_
+   int _ecoDetailObjid_
 )
 
 #### Parameters
@@ -32,11 +25,9 @@ _ecoDetailObjid_
 
 The objid of the ECO detail object to be deleted
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

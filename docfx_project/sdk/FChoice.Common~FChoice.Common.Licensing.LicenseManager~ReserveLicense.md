@@ -1,6 +1,4 @@
-﻿     ReserveLicense Method                                                   
-
-ReserveLicense Method
+﻿### ReserveLicense Method
 
 Overload List
 
@@ -9,11 +7,9 @@ Overload List
 | [ReserveLicense(Object,Int32)](FChoice.Common~FChoice.Common.Licensing.LicenseManager~ReserveLicense(Object,Int32).md) |   |
 | [ReserveLicense(Object,Int32\[\])](FChoice.Common~FChoice.Common.Licensing.LicenseManager~ReserveLicense(Object,Int32[]).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

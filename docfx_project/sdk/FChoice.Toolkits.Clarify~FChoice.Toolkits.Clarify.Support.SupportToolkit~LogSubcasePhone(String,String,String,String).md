@@ -1,8 +1,4 @@
-﻿     LogSubcasePhone(String,String,String,String) Method                                                   
-
-fcSDK Documentation
-
-LogSubcasePhone(String,String,String,String) Method
+﻿### LogSubcasePhone(String,String,String,String) Method
 
 Identifier of the Subcase against which the phone note is being logged.
 
@@ -17,10 +13,7 @@ Creates a phone log against a Subcase. This overload takes a set of required pa
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogSubcasePhone( _
    ByVal _subcaseIDNum_ As String, _
@@ -66,11 +59,9 @@ Remarks
 
 It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup~IsCommitmentToCustomer.md) properties
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

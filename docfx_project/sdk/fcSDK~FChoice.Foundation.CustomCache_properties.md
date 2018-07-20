@@ -1,8 +1,4 @@
-﻿     CustomCache Class Properties                                                   
-
-fcSDK Documentation
-
-CustomCache Class Properties
+﻿### CustomCache Class Properties
 
 For a list of all members of this type, see [CustomCache members](fcSDK~FChoice.Foundation.CustomCache_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CacheType](fcSDK~FChoice.Foundation.CustomCache~CacheType.md) | Overridden.    |
 | ![Public Property](dotnetimages/publicProperty.png) | [Data](fcSDK~FChoice.Foundation.CustomCache~Data.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

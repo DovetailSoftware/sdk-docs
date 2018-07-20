@@ -1,20 +1,18 @@
-﻿     IsFixedSize Property (DataParameterCollection)                                                   
-
-IsFixedSize Property (DataParameterCollection)
+﻿### IsFixedSize Property (DataParameterCollection)
 
 Retrieves a value indicating whether or not this collection has a fixed size.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public ReadOnly Property IsFixedSize As Boolean
+```
 
+```csharp
 public bool IsFixedSize {get;}
+```
 
 #### Property Value
 
@@ -24,11 +22,7 @@ Remarks
 
 This value is always false since DataParameterCollection does not support being fixed in size.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

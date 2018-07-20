@@ -1,15 +1,9 @@
-﻿     RemoteStateManager Class                                                   
-
-RemoteStateManager Class
+﻿### RemoteStateManager Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustInherit Class RemoteStateManager 
    Implements [IStateManager](FChoice.Common~FChoice.Common.State.IStateManager.md) 
 
@@ -17,7 +11,7 @@ public abstract class RemoteStateManager : [IStateManager](FChoice.Common~FChoic
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.State.RemoteStateManager**  
       [FChoice.Common.State.MsSqlStateManager](FChoice.Common~FChoice.Common.State.MsSqlStateManager.md)  
       [FChoice.Common.State.OracleStateManager](FChoice.Common~FChoice.Common.State.OracleStateManager.md)  
@@ -30,7 +24,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

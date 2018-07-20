@@ -1,26 +1,18 @@
-﻿     InstallSitePartToBinSetup Class                                                   
-
-fcSDK Documentation
-
-InstallSitePartToBinSetup Class
+﻿### InstallSitePartToBinSetup Class
 
 Used by the [InstallSitePartToBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~InstallSitePartToBin(InstallSitePartToBinSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class InstallSitePartToBinSetup 
 
 public class InstallSitePartToBinSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToBinSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

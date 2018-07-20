@@ -1,26 +1,18 @@
-﻿     UnrelateCaseFromParentCaseSetup Class                                                   
-
-fcSDK Documentation
-
-UnrelateCaseFromParentCaseSetup Class
+﻿### UnrelateCaseFromParentCaseSetup Class
 
 Used by the [UnrelateCaseFromParentCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UnrelateCaseFromParentCase(UnrelateCaseFromParentCaseSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UnrelateCaseFromParentCaseSetup 
 
 public class UnrelateCaseFromParentCaseSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.UnrelateCaseFromParentCaseSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

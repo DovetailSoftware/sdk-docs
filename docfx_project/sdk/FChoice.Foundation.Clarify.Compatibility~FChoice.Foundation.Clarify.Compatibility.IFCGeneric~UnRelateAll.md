@@ -1,23 +1,15 @@
-﻿     UnRelateAll Method (IFCGeneric)                                                   
-
-fcSDK Documentation
-
-UnRelateAll Method (IFCGeneric)
+﻿### UnRelateAll Method (IFCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743889)>
+' Declaration
+<DispIdAttribute(1610743889)>
 Sub UnRelateAll( _
    ByVal _relationName_ As String _
 ) 
 
-\[[DispIdAttribute](#)(1610743889)\]
+[DispIdAttribute(1610743889)]
 void UnRelateAll( 
    string _relationName_
 )
@@ -26,11 +18,9 @@ void UnRelateAll(
 
 _relationName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

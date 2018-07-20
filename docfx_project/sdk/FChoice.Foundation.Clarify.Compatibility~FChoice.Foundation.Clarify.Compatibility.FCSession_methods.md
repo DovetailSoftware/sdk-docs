@@ -1,8 +1,4 @@
-﻿     FCSession Class Methods                                                   
-
-fcSDK Documentation
-
-FCSession Class Methods
+﻿### FCSession Class Methods
 
 For a list of all members of this type, see [FCSession members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession_members.md).
 
@@ -86,9 +82,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [use_list](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~use_list.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [yank_object](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~yank_object.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

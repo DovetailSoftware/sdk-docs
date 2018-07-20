@@ -1,8 +1,4 @@
-﻿     CreateCommunicationSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateCommunicationSetup Class Properties
+﻿### CreateCommunicationSetup Class Properties
 
 For a list of all members of this type, see [CreateCommunicationSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCommunicationSetup_members.md).
 
@@ -30,9 +26,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCommunicationSetup~Title.md) | The title or subject line of the communication.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCommunicationSetup~UserName.md) | The Login Name of user creating the communication.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

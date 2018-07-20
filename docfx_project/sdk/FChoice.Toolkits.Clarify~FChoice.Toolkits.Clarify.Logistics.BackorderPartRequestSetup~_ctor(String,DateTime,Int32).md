@@ -1,8 +1,4 @@
-﻿     BackorderPartRequestSetup Constructor(String,DateTime,Int32)                                                   
-
-fcSDK Documentation
-
-BackorderPartRequestSetup Constructor(String,DateTime,Int32)
+﻿### BackorderPartRequestSetup Constructor(String,DateTime,Int32)
 
 Part Request Detail Identifier
 
@@ -15,24 +11,24 @@ Initializes a new instance of the BackorderPartRequestSetup class. This overload
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
-   ByVal _expectedDate_ As [Date](#), _
-   ByVal _quantity_ As [Integer](#) _
+   ByVal _expectedDate_ As Date, _
+   ByVal _quantity_ As Integer _
 )
+```
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+```csharp
+[ConstructorIndexAttribute()]
 public BackorderPartRequestSetup( 
    string _partRequestDetailIDNum_,
-   [DateTime](#) _expectedDate_,
-   [int](#) _quantity_
+   DateTime _expectedDate_,
+   int _quantity_
 )
+```
 
 #### Parameters
 
@@ -48,11 +44,7 @@ _quantity_
 
 The number of parts being backordered for this Part Request
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

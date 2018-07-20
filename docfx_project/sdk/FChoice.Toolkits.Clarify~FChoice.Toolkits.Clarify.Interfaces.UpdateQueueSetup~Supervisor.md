@@ -1,18 +1,11 @@
-﻿     Supervisor Property (UpdateQueueSetup)                                                   
-
-fcSDK Documentation
-
-Supervisor Property (UpdateQueueSetup)
+﻿### Supervisor Property (UpdateQueueSetup)
 
 Username of the supervisor of the Queue
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property Supervisor As String
@@ -20,11 +13,9 @@ Public Property Supervisor As String
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public string Supervisor {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     LogCaseNoteResult Class                                                   
-
-fcSDK Documentation
-
-LogCaseNoteResult Class
+﻿### LogCaseNoteResult Class
 
 Result from the [LogCaseNote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseNote.md) API.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class LogCaseNoteResult 
    Inherits [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
@@ -21,7 +14,7 @@ public class LogCaseNoteResult : [FChoice.Toolkits.Clarify.ToolkitResult](FChoic
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  
       **FChoice.Toolkits.Clarify.Support.LogCaseNoteResult**  
 
@@ -33,7 +26,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

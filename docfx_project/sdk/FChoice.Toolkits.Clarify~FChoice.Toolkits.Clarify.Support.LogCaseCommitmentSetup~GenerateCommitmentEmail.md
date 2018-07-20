@@ -1,19 +1,11 @@
-﻿     GenerateCommitmentEmail Property (LogCaseCommitmentSetup)                                                   
-
-fcSDK Documentation
-
-GenerateCommitmentEmail Property (LogCaseCommitmentSetup)
+﻿### GenerateCommitmentEmail Property (LogCaseCommitmentSetup)
 
 Should the Commitment generate email notifications for the commitment time and prior warning time.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property GenerateCommitmentEmail As Boolean
 
@@ -26,11 +18,9 @@ Base Clarify sends two emails each time a Commitment is logged. The first notifi
 
 To control what is sent in the Commitment email please see your Clarify documentation concerning the 'com_tmplte' record.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

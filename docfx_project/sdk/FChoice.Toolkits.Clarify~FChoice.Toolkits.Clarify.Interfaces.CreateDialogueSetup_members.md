@@ -1,8 +1,4 @@
-﻿     CreateDialogueSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateDialogueSetup Class Members
+﻿### CreateDialogueSetup Class Members
 
 The following tables list the members exposed by [CreateDialogueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateDialogueSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup~_ctor.md) | Initializes a new instance of the CreateDialogueSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup~Title.md) | The title of the dialogue.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup~UserName.md) | The Login Name of user creating the dialogue.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,30 +1,22 @@
-﻿     EcoItemObjid Property (UpdateEcoItemSetup)                                                   
-
-fcSDK Documentation
-
-EcoItemObjid Property (UpdateEcoItemSetup)
+### EcoItemObjid Property (UpdateEcoItemSetup)
 
 The objid of the ECO item object to be updated
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property EcoItemObjid As [Integer](#)
+<PropertyBitValueAttribute()>
+Public Property EcoItemObjid As Integer
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [int](#) EcoItemObjid {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public int EcoItemObjid {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

@@ -1,17 +1,9 @@
-﻿     HierarchicalStringShow Class                                                   
-
-fcSDK Documentation
-
-HierarchicalStringShow Class
+﻿### HierarchicalStringShow Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class HierarchicalStringShow 
    Inherits [ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)
    Implements [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
@@ -20,7 +12,7 @@ public class HierarchicalStringShow : [ClarifyDataObject](fcSDK~FChoice.Foundati
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  
       [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)  
          **FChoice.Foundation.Clarify.DataObjects.HierarchicalStringShow**  
@@ -33,7 +25,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

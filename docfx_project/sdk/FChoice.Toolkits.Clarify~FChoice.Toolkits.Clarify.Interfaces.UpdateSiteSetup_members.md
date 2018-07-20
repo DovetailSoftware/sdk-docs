@@ -1,8 +1,4 @@
-﻿     UpdateSiteSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateSiteSetup Class Members
+﻿### UpdateSiteSetup Class Members
 
 The following tables list the members exposed by [UpdateSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateSiteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteSetup~_ctor.md) | Initializes a new instance of the UpdateSiteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,9 +32,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteSetup~Status.md) | Site status   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SupportOfficeSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteSetup~SupportOfficeSiteIDNum.md) | Identifier of the site where the support office is located   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

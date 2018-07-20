@@ -1,8 +1,4 @@
-﻿     FacadeVoidAttribute Class Properties                                                   
-
-fcSDK Documentation
-
-FacadeVoidAttribute Class Properties
+﻿### FacadeVoidAttribute Class Properties
 
 For a list of all members of this type, see [FacadeVoidAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.FacadeVoidAttribute_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

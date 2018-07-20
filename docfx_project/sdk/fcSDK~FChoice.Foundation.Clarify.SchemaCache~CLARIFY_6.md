@@ -1,26 +1,17 @@
-﻿     CLARIFY_6 Field                                                   
-
-fcSDK Documentation
-
-CLARIFY_6 Field
+﻿### CLARIFY_6 Field
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Const CLARIFY_6 As Integer
 
-Public Const CLARIFY_6 As [Integer](#)
+public const int CLARIFY_6
 
-public const [int](#) CLARIFY_6
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

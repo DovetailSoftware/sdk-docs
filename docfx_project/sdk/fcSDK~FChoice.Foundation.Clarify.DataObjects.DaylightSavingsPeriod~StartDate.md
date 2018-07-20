@@ -1,26 +1,17 @@
-﻿     StartDate Property (DaylightSavingsPeriod)                                                   
-
-fcSDK Documentation
-
-StartDate Property (DaylightSavingsPeriod)
+﻿### StartDate Property (DaylightSavingsPeriod)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property StartDate As Date
 
-Public ReadOnly Property StartDate As [Date](#)
+public DateTime StartDate {get;}
 
-public [DateTime](#) StartDate {get;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

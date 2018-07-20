@@ -1,8 +1,4 @@
-﻿     LocationCollection Class Properties                                                   
-
-fcSDK Documentation
-
-LocationCollection Class Properties
+﻿### LocationCollection Class Properties
 
 For a list of all members of this type, see [LocationCollection members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LocationCollection_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [IsDirty](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LocationCollection~IsDirty.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.ObjectModel.Collection<Location>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

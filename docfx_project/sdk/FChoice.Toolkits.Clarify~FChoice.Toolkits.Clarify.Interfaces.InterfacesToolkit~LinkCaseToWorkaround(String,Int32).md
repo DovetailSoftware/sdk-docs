@@ -1,8 +1,4 @@
-﻿     LinkCaseToWorkaround(String,Int32) Method                                                   
-
-fcSDK Documentation
-
-LinkCaseToWorkaround(String,Int32) Method
+﻿### LinkCaseToWorkaround(String,Int32) Method
 
 Identifier of the Case to link to a Workaround
 
@@ -13,20 +9,20 @@ Link a Case to a Workaround. This overload takes a set of required parameters f
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function LinkCaseToWorkaround( _
    ByVal _caseIDNum_ As String, _
-   ByVal _workaroundObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _workaroundObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LinkCaseToWorkaround( 
+```csharp
+public ToolkitResult LinkCaseToWorkaround( 
    string _caseIDNum_,
-   [int](#) _workaroundObjid_
+   int _workaroundObjid_
 )
+```
 
 #### Parameters
 
@@ -40,15 +36,11 @@ Objid of the Workaround the Case will be linked to
 
 #### Return Value
 
-The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+The following values are populated in the ToolkitResult object returned by the API method:
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Case.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

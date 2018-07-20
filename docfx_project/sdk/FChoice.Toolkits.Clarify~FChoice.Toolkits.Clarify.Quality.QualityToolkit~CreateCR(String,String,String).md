@@ -1,8 +1,4 @@
-﻿     CreateCR(String,String,String) Method                                                   
-
-fcSDK Documentation
-
-CreateCR(String,String,String) Method
+﻿### CreateCR(String,String,String) Method
 
 Part number of part for the Change Request
 
@@ -15,10 +11,7 @@ Create a new Change Request (CR). This overload takes a set of required paramete
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateCR( _
    ByVal _partNumber_ As String, _
@@ -56,11 +49,9 @@ Remarks
 
 Unless a [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup~Queue.md) is specified the CR is located in the owners default WipBin.  
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

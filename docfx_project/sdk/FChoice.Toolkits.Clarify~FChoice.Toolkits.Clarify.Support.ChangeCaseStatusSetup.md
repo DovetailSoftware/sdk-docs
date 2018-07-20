@@ -1,26 +1,18 @@
-﻿     ChangeCaseStatusSetup Class                                                   
-
-fcSDK Documentation
-
-ChangeCaseStatusSetup Class
+﻿### ChangeCaseStatusSetup Class
 
 Used by the [ChangeCaseStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeCaseStatus(ChangeCaseStatusSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ChangeCaseStatusSetup 
 
 public class ChangeCaseStatusSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

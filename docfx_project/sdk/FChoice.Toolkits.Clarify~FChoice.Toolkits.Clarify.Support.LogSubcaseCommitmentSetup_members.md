@@ -1,8 +1,4 @@
-﻿     LogSubcaseCommitmentSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogSubcaseCommitmentSetup Class Members
+﻿### LogSubcaseCommitmentSetup Class Members
 
 The following tables list the members exposed by [LogSubcaseCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseCommitmentSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogSubcaseCommitmentSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseCommitmentSetup~_ctor.md) | Initializes a new instance of the LogSubcaseCommitmentSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -34,9 +30,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseCommitmentSetup~Title.md) | Title of the commitment.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseCommitmentSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

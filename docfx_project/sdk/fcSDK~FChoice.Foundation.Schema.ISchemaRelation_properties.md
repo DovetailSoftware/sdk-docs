@@ -1,8 +1,4 @@
-﻿     ISchemaRelation Interface Properties                                                   
-
-fcSDK Documentation
-
-ISchemaRelation Interface Properties
+﻿### ISchemaRelation Interface Properties
 
 For a list of all members of this type, see [ISchemaRelation members](fcSDK~FChoice.Foundation.Schema.ISchemaRelation_members.md).
 
@@ -29,9 +25,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [SourceTable](fcSDK~FChoice.Foundation.Schema.ISchemaRelation~SourceTable.md) |   |
 | ![ Property](dotnetimages/Property.png) | [TargetTable](fcSDK~FChoice.Foundation.Schema.ISchemaRelation~TargetTable.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

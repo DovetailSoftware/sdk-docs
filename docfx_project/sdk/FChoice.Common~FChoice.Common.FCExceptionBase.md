@@ -1,23 +1,21 @@
-﻿     FCExceptionBase Class                                                   
-
-FCExceptionBase Class
+﻿### FCExceptionBase Class
 
 FCExceptionBase is the base exception from which all other First Choice exception classes derive. It provides pluggable error message strings which allows for easy runtime customization and localization of error messages.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 <SerializableAttribute()>
 Public MustInherit Class FCExceptionBase 
    Inherits [System.ApplicationException](#)
+```
 
-\[SerializableAttribute()\]
+```csharp
+[SerializableAttribute()]
 public abstract class FCExceptionBase : [System.ApplicationException](#) 
+```
 
 Remarks
 
@@ -39,19 +37,19 @@ Remarks
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.Exception](#)  
-      [System.ApplicationException](#)  
-         **FChoice.Common.FCExceptionBase**  
-            [FChoice.Common.CommonException](FChoice.Common~FChoice.Common.CommonException.md)  
-            [FChoice.Common.FCInvalidConfigurationException](FChoice.Common~FChoice.Common.FCInvalidConfigurationException.md)  
-            [FChoice.Common.FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseException.md)  
-            [FChoice.Common.InvalidLoggingConfigException](FChoice.Common~FChoice.Common.InvalidLoggingConfigException.md)  
-            [FChoice.Common.State.StateManagerException](FChoice.Common~FChoice.Common.State.StateManagerException.md)  
-            [FChoice.Foundation.Clarify.ClarifyException](fcSDK~FChoice.Foundation.Clarify.ClarifyException.md)  
-            [FChoice.Foundation.Clarify.Compatibility.CompatibilityException](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.CompatibilityException.md)  
-            [FChoice.Foundation.Clarify.Workflow.WorkflowException](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowException.md)  
-            [FChoice.Foundation.FoundationException](fcSDK~FChoice.Foundation.FoundationException.md)  
+System.Object  
+[System.Exception](#)  
+[System.ApplicationException](#)  
+**FChoice.Common.FCExceptionBase**  
+[FChoice.Common.CommonException](FChoice.Common~FChoice.Common.CommonException.md)  
+[FChoice.Common.FCInvalidConfigurationException](FChoice.Common~FChoice.Common.FCInvalidConfigurationException.md)  
+[FChoice.Common.FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseException.md)  
+[FChoice.Common.InvalidLoggingConfigException](FChoice.Common~FChoice.Common.InvalidLoggingConfigException.md)  
+[FChoice.Common.State.StateManagerException](FChoice.Common~FChoice.Common.State.StateManagerException.md)  
+[FChoice.Foundation.Clarify.ClarifyException](fcSDK~FChoice.Foundation.Clarify.ClarifyException.md)  
+[FChoice.Foundation.Clarify.Compatibility.CompatibilityException](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.CompatibilityException.md)  
+[FChoice.Foundation.Clarify.Workflow.WorkflowException](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowException.md)  
+[FChoice.Foundation.FoundationException](fcSDK~FChoice.Foundation.FoundationException.md)  
 
 #### Requirements
 
@@ -60,8 +58,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-See Also
 
 #### Reference
 

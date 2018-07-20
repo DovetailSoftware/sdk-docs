@@ -1,26 +1,17 @@
-﻿     CreateSession() Method                                                   
-
-fcSDK Documentation
-
-CreateSession() Method
+﻿### CreateSession() Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Overloads Function CreateSession() As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
 
 [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) CreateSession()
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

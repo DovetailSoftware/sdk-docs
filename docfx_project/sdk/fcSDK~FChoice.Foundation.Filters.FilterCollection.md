@@ -1,19 +1,11 @@
-﻿     FilterCollection Class                                                   
-
-fcSDK Documentation
-
-FilterCollection Class
+﻿### FilterCollection Class
 
 Holds one or more filters. This collection is used by filters that allow children such as [OrFilter](fcSDK~FChoice.Foundation.Filters.OrFilter.md) and [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class FilterCollection 
    Inherits [System.Collections.ObjectModel.Collection(Of Filter)](#)
 
@@ -25,7 +17,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Collections.ObjectModel.Collection<T>](#)  
       **FChoice.Foundation.Filters.FilterCollection**  
 
@@ -37,7 +29,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

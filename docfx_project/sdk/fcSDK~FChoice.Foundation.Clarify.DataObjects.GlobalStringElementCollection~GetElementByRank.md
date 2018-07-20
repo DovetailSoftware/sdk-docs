@@ -1,34 +1,24 @@
-﻿     GetElementByRank Method (GlobalStringElementCollection)                                                   
-
-fcSDK Documentation
-
-GetElementByRank Method (GlobalStringElementCollection)
+﻿### GetElementByRank Method (GlobalStringElementCollection)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetElementByRank( _
-   ByVal _rank_ As [Integer](#) _
+   ByVal _rank_ As Integer _
 ) As [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md)
 
 public [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md) GetElementByRank( 
-   [int](#) _rank_
+   int _rank_
 )
 
 #### Parameters
 
 _rank_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

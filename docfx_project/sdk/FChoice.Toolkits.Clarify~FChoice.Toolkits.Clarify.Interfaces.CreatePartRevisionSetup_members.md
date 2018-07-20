@@ -1,8 +1,4 @@
-﻿     CreatePartRevisionSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreatePartRevisionSetup Class Members
+﻿### CreatePartRevisionSetup Class Members
 
 The following tables list the members exposed by [CreatePartRevisionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartRevisionSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreatePartRevisionSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartRevisionSetup~_ctor.md) | Initializes a new instance of the CreatePartRevisionSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -38,9 +34,9 @@ Previous revision this PartRevision replaces.
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartRevisionSetup~Status.md) | The status of the Part Revision.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

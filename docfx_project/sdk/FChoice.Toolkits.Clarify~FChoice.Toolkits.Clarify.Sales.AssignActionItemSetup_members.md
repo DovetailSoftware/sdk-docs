@@ -1,8 +1,4 @@
-﻿     AssignActionItemSetup Class Members                                                   
-
-fcSDK Documentation
-
-AssignActionItemSetup Class Members
+﻿### AssignActionItemSetup Class Members
 
 The following tables list the members exposed by [AssignActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignActionItemSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AssignActionItemSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignActionItemSetup~_ctor.md) | Initializes a new instance of the AssignActionItemSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignActionItemSetup~UserName.md) | The user who has assigned the ActionItem. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignActionItemSetup~WipBin.md) | User's WipBin in which to place the ActionItem. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

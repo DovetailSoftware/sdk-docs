@@ -1,6 +1,4 @@
-﻿     StateManagerException Class Methods                                                   
-
-StateManagerException Class Methods
+﻿### StateManagerException Class Methods
 
 For a list of all members of this type, see [StateManagerException members](FChoice.Common~FChoice.Common.State.StateManagerException_members.md).
 
@@ -13,9 +11,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

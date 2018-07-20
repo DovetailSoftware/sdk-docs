@@ -1,24 +1,18 @@
-﻿     TypeMapper Class                                                   
-
-TypeMapper Class
+﻿### TypeMapper Class
 
 This class is not currently used and is intended for future products.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustInherit Class TypeMapper 
 
 public abstract class TypeMapper 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.Data.TypeMapper**  
 
 #### Requirements
@@ -29,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

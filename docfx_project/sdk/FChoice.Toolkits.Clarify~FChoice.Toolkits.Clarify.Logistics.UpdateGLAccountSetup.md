@@ -1,26 +1,18 @@
-﻿     UpdateGLAccountSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateGLAccountSetup Class
+﻿### UpdateGLAccountSetup Class
 
 Used by the [UpdateGLAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateGLAccount(UpdateGLAccountSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateGLAccountSetup 
 
 public class UpdateGLAccountSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

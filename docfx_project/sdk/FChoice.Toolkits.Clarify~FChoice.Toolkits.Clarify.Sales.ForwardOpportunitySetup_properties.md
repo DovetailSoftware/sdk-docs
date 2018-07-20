@@ -1,8 +1,4 @@
-﻿     ForwardOpportunitySetup Class Properties                                                   
-
-fcSDK Documentation
-
-ForwardOpportunitySetup Class Properties
+﻿### ForwardOpportunitySetup Class Properties
 
 For a list of all members of this type, see [ForwardOpportunitySetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardOpportunitySetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [OpportunityIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardOpportunitySetup~OpportunityIDNum.md) | Opportunity Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardOpportunitySetup~UserName.md) | The user who has forwarded the Opportunity. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

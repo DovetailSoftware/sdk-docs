@@ -1,26 +1,17 @@
-﻿     CacheUpdated Event (CacheBase)                                                   
-
-fcSDK Documentation
-
-CacheUpdated Event (CacheBase)
+﻿### CacheUpdated Event (CacheBase)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-Public Event CacheUpdated As [EventHandler](#)
+Public Event CacheUpdated As EventHandler
+```
+```csharp
+public event EventHandler CacheUpdated
+```
 
-public event [EventHandler](#) CacheUpdated
-
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

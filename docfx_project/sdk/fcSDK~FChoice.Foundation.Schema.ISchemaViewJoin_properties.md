@@ -1,8 +1,4 @@
-﻿     ISchemaViewJoin Interface Properties                                                   
-
-fcSDK Documentation
-
-ISchemaViewJoin Interface Properties
+﻿### ISchemaViewJoin Interface Properties
 
 For a list of all members of this type, see [ISchemaViewJoin members](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [SecondaryAlias](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin~SecondaryAlias.md) |   |
 | ![ Property](dotnetimages/Property.png) | [SecondaryTable](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin~SecondaryTable.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

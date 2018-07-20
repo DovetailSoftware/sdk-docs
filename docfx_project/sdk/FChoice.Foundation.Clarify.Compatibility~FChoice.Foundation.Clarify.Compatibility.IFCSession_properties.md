@@ -1,8 +1,4 @@
-﻿     IFCSession Interface Properties                                                   
-
-fcSDK Documentation
-
-IFCSession Interface Properties
+﻿### IFCSession Interface Properties
 
 For a list of all members of this type, see [IFCSession members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession_members.md).
 
@@ -40,9 +36,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [TruncateStringFields](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession~TruncateStringFields.md) |   |
 | ![ Property](dotnetimages/Property.png) | [UpdateTime](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession~UpdateTime.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

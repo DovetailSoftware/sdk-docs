@@ -1,8 +1,4 @@
-﻿     UpdateCR(UpdateCRSetup) Method                                                   
-
-fcSDK Documentation
-
-UpdateCR(UpdateCRSetup) Method
+﻿### UpdateCR(UpdateCRSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Update an existing CR. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateCR( _
    ByVal _setupParam_ As [UpdateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.UpdateCRSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 All of the primary fields of the CR can be set. If they are left blank, then the value in the CR is not changed. The modifier and the time of modification may be specified, and you may specify additional fields for the modify_cr object. Can also generate a time bomb (for business rule notification).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

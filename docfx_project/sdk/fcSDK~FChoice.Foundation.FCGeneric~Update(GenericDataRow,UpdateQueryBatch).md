@@ -1,8 +1,4 @@
-﻿     Update(GenericDataRow,UpdateQueryBatch) Method                                                   
-
-fcSDK Documentation
-
-Update(GenericDataRow,UpdateQueryBatch) Method
+﻿### Update(GenericDataRow,UpdateQueryBatch) Method
 
 Row being updated.
 
@@ -13,10 +9,7 @@ Updates changes to a single [GenericDataRow](fcSDK~FChoice.Foundation.GenericDa
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub Update( _
    ByVal _row_ As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md), _
@@ -44,11 +37,9 @@ This method commits any changes to this to the database.
 
 When it is desirable to consolidate many database operations in one round trip to the database this method can be used in conjunction with a [UpdateQueryBatch](FChoice.Common~FChoice.Common.UpdateQueryBatch.md) object.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

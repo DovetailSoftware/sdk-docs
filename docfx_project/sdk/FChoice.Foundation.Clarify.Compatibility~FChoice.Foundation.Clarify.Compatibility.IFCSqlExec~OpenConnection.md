@@ -1,18 +1,10 @@
-﻿     OpenConnection Method (IFCSqlExec)                                                   
-
-fcSDK Documentation
-
-OpenConnection Method (IFCSqlExec)
+﻿### OpenConnection Method (IFCSqlExec)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743813)>
+' Declaration
+<DispIdAttribute(1610743813)>
 Sub OpenConnection( _
    ByVal _TheDB_ As String, _
    ByVal _UserName_ As String, _
@@ -21,7 +13,7 @@ Sub OpenConnection( _
    ByVal _DBName_ As String _
 ) 
 
-\[[DispIdAttribute](#)(1610743813)\]
+[DispIdAttribute(1610743813)]
 void OpenConnection( 
    string _TheDB_,
    string _UserName_,
@@ -42,11 +34,9 @@ _DBServer_
 
 _DBName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

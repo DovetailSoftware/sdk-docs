@@ -1,8 +1,4 @@
-﻿     InstallSitePartToPartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-InstallSitePartToPartSetup Class Properties
+﻿### InstallSitePartToPartSetup Class Properties
 
 For a list of all members of this type, see [InstallSitePartToPartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToPartSetup_members.md).
 
@@ -30,9 +26,9 @@ Identifier of the Site where the part will be installed.
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToPartSetup~UserName.md) | User who performed the install. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

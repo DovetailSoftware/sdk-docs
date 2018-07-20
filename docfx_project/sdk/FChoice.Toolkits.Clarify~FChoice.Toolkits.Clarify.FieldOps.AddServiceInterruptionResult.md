@@ -1,18 +1,11 @@
-﻿     AddServiceInterruptionResult Class                                                   
-
-fcSDK Documentation
-
-AddServiceInterruptionResult Class
+﻿### AddServiceInterruptionResult Class
 
 Result from the [AddServiceInterruption](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~AddServiceInterruption.md) API.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class AddServiceInterruptionResult 
    Inherits [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
@@ -21,7 +14,7 @@ public class AddServiceInterruptionResult : [FChoice.Toolkits.Clarify.ToolkitRes
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  
       **FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult**  
 
@@ -33,7 +26,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

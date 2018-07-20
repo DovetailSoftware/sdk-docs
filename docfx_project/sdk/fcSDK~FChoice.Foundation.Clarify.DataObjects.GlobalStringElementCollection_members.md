@@ -1,8 +1,4 @@
-﻿     GlobalStringElementCollection Class Members                                                   
-
-fcSDK Documentation
-
-GlobalStringElementCollection Class Members
+﻿### GlobalStringElementCollection Class Members
 
 The following tables list the members exposed by [GlobalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringElementCollection.md).
 
@@ -17,7 +13,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [InactiveElements](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringElementCollection~InactiveElements.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringElementCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -58,9 +54,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<IGlobalStringElement>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<IGlobalStringElement>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

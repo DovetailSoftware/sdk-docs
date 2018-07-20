@@ -1,16 +1,9 @@
-﻿     ITimeZone Interface                                                   
-
-fcSDK Documentation
-
-ITimeZone Interface
+﻿### ITimeZone Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Interface ITimeZone 
 
@@ -24,7 +17,7 @@ public interface ITimeZone
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

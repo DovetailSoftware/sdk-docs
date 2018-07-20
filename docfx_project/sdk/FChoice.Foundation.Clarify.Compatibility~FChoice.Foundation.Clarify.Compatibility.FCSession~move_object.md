@@ -1,16 +1,9 @@
-﻿     move_object Method (FCSession)                                                   
-
-fcSDK Documentation
-
-move_object Method (FCSession)
+﻿### move_object Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function move_object( _
    ByVal _objId_ As String, _
@@ -32,11 +25,9 @@ _newWipBin_
 
 _objectType_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

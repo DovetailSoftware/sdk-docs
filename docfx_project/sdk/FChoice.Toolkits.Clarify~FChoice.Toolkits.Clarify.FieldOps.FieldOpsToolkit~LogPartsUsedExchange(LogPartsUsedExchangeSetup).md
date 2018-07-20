@@ -1,18 +1,11 @@
-﻿     LogPartsUsedExchange(LogPartsUsedExchangeSetup) Method                                                   
-
-fcSDK Documentation
-
-LogPartsUsedExchange(LogPartsUsedExchangeSetup) Method
+﻿### LogPartsUsedExchange(LogPartsUsedExchangeSetup) Method
 
 Setup object for API invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogPartsUsedExchange( _
    ByVal _setupParam_ As [LogPartsUsedExchangeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup.md) _
@@ -34,11 +27,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PartUsed.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

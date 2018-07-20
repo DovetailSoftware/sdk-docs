@@ -1,8 +1,4 @@
-﻿     ISchemaTableBase Interface Members                                                   
-
-fcSDK Documentation
-
-ISchemaTableBase Interface Members
+﻿### ISchemaTableBase Interface Members
 
 The following tables list the members exposed by [ISchemaTableBase](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [ObjectID](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase~ObjectID.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Subsystem](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase~Subsystem.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

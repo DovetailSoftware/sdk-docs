@@ -1,8 +1,4 @@
-﻿     CreateEcoItem(CreateEcoItemSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateEcoItem(CreateEcoItemSetup,IDbTransaction) Method
+﻿### CreateEcoItem(CreateEcoItemSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Create an Engineering Change Order (ECO) Item. This overload takes a setup objec
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateEcoItem( _
    ByVal _setupParam_ As [CreateEcoItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoItemSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

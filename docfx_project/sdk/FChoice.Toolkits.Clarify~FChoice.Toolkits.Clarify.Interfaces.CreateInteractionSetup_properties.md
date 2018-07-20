@@ -1,8 +1,4 @@
-﻿     CreateInteractionSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateInteractionSetup Class Properties
+﻿### CreateInteractionSetup Class Properties
 
 For a list of all members of this type, see [CreateInteractionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup_members.md).
 
@@ -38,9 +34,9 @@ Duration of the Interaction
 | ![Public Property](dotnetimages/publicProperty.png) | [WaitDuration](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup~WaitDuration.md) | Wait time for the Interaction   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ZipCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup~ZipCode.md) | Contact zipcode   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

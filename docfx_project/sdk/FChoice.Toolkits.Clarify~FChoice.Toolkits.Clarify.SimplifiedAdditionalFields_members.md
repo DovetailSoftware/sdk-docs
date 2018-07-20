@@ -1,8 +1,4 @@
-﻿     SimplifiedAdditionalFields Class Members                                                   
-
-fcSDK Documentation
-
-SimplifiedAdditionalFields Class Members
+﻿### SimplifiedAdditionalFields Class Members
 
 The following tables list the members exposed by [SimplifiedAdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalFields.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SimplifiedAdditionalFields Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalFields~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,7 +18,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<SimplifiedAdditionalField>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.Generic.List<SimplifiedAdditionalField>](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -59,9 +55,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SimplifiedAdditionalField>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SimplifiedAdditionalField>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

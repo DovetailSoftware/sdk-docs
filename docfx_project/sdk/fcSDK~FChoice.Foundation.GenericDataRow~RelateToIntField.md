@@ -1,8 +1,4 @@
-﻿     RelateToIntField Method                                                   
-
-fcSDK Documentation
-
-RelateToIntField Method
+﻿### RelateToIntField Method
 
 The [row](fcSDK~FChoice.Foundation.GenericDataRow.md) whose unique Id will be put into the current row's Integer field.
 
@@ -13,11 +9,7 @@ Relate a given row's identifier to an Integer field present on this [GenericData
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub RelateToIntField( _
    ByVal _otherRow_ As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md), _
    ByVal _intFieldName_ As String _
@@ -42,11 +34,9 @@ Remarks
 
 This relation method does not require that there be a relation present between the two rows being related. It is recommended that you use [RelateRecord](fcSDK~FChoice.Foundation.GenericDataRow~RelateRecord.md) whenever possible.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

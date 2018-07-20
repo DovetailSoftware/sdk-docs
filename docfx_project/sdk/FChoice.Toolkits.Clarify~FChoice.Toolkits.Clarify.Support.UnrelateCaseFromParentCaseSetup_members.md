@@ -1,8 +1,4 @@
-﻿     UnrelateCaseFromParentCaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-UnrelateCaseFromParentCaseSetup Class Members
+﻿### UnrelateCaseFromParentCaseSetup Class Members
 
 The following tables list the members exposed by [UnrelateCaseFromParentCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UnrelateCaseFromParentCaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UnrelateCaseFromParentCaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UnrelateCaseFromParentCaseSetup~_ctor.md) | Initializes a new instance of the UnrelateCaseFromParentCaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -20,9 +16,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [CaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UnrelateCaseFromParentCaseSetup~CaseIDNum.md) | Identifier of the Case being unrelated from its parent Case.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

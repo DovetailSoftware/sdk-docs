@@ -1,8 +1,4 @@
-﻿     UpdateActionItem(UpdateActionItemSetup) Method                                                   
-
-fcSDK Documentation
-
-UpdateActionItem(UpdateActionItemSetup) Method
+﻿### UpdateActionItem(UpdateActionItemSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Update an existing Action Item. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateActionItem( _
    ByVal _setupParam_ As [UpdateActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateActionItemSetup.md) _
@@ -43,11 +36,9 @@ Virtually all of the data is optional – only the Action Item ID is required. F
 
 To relate a contact to the action item, supply all three of the contact fields. Likewise, to associate a Lead to the Action Item supply both lead fields.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

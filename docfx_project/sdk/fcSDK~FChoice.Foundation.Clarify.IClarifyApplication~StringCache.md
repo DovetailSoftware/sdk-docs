@@ -1,26 +1,17 @@
-﻿     StringCache Property (IClarifyApplication)                                                   
-
-fcSDK Documentation
-
-StringCache Property (IClarifyApplication)
+﻿### StringCache Property (IClarifyApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 ReadOnly Property StringCache As [IStringCache](fcSDK~FChoice.Foundation.Clarify.IStringCache.md)
 
 [IStringCache](fcSDK~FChoice.Foundation.Clarify.IStringCache.md) StringCache {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

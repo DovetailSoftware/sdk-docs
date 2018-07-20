@@ -1,8 +1,4 @@
-﻿     FilterCollection Class Properties                                                   
-
-fcSDK Documentation
-
-FilterCollection Class Properties
+﻿### FilterCollection Class Properties
 
 For a list of all members of this type, see [FilterCollection members](fcSDK~FChoice.Foundation.Filters.FilterCollection_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.ObjectModel.Collection<Filter>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.ObjectModel.Collection<Filter>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ClarifyApplication Class Properties                                                   
-
-fcSDK Documentation
-
-ClarifyApplication Class Properties
+﻿### ClarifyApplication Class Properties
 
 For a list of all members of this type, see [ClarifyApplication members](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication_members.md).
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StringCache](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~StringCache.md) | Gets a reference to the [StringCache](fcSDK~FChoice.Foundation.Clarify.StringCache.md) which provides access to the Clarify string DB table and First Choice FCStrings   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TruncateStringFields](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~TruncateStringFields.md) | Gets or sets whether or not to truncate string values if they are too large for the field or throw an error   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

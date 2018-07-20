@@ -1,8 +1,4 @@
-﻿     LogSubcaseNoteSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogSubcaseNoteSetup Class Members
+﻿### LogSubcaseNoteSetup Class Members
 
 The following tables list the members exposed by [LogSubcaseNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogSubcaseNoteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup~_ctor.md) | Initializes a new instance of the LogSubcaseNoteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -33,9 +29,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SubcaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup~SubcaseIDNum.md) | Identifier of the Subcase against which the note is being logged.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

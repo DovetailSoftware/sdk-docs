@@ -1,8 +1,4 @@
-﻿     CreateAddressSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateAddressSetup Constructor
+﻿### CreateAddressSetup Constructor
 
 Address Line 1.
 
@@ -21,12 +17,9 @@ Initializes a new instance of the CreateAddressSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _address1_ As String, _
    ByVal _city_ As String, _
@@ -36,7 +29,7 @@ Public Function New( _
    ByVal _timeZone_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateAddressSetup( 
    string _address1_,
    string _city_,
@@ -72,11 +65,9 @@ _timeZone_
 
 Address Timezone.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     AddSiteToContractSetup Class Members                                                   
-
-fcSDK Documentation
-
-AddSiteToContractSetup Class Members
+﻿### AddSiteToContractSetup Class Members
 
 The following tables list the members exposed by [AddSiteToContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToContractSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddSiteToContractSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToContractSetup~_ctor.md) | Initializes a new instance of the AddSiteToContractSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ContractIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToContractSetup~ContractIDNum.md) | Identifier of the Contract to which the Site will be added.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToContractSetup~SiteIDNum.md) | Identifier of the Site to add to the Contract.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

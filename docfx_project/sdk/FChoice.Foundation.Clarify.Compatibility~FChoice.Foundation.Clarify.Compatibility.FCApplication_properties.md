@@ -1,8 +1,4 @@
-﻿     FCApplication Class Properties                                                   
-
-fcSDK Documentation
-
-FCApplication Class Properties
+﻿### FCApplication Class Properties
 
 For a list of all members of this type, see [FCApplication members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication_members.md).
 
@@ -30,9 +26,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TruncateStringFields](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~TruncateStringFields.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkingDirectory](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~WorkingDirectory.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

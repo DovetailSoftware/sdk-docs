@@ -1,8 +1,4 @@
-﻿     CreateActionItemSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateActionItemSetup Class Members
+﻿### CreateActionItemSetup Class Members
 
 The following tables list the members exposed by [CreateActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateActionItemSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateActionItemSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateActionItemSetup~_ctor.md) | Initializes a new instance of the CreateActionItemSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -38,9 +34,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateActionItemSetup~Title.md) | Title of the Action Item.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateActionItemSetup~UserName.md) | The user who is creating the action item. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

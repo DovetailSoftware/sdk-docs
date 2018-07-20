@@ -1,8 +1,4 @@
-﻿     UpdatePartStockingLevel(Location,String,String,String,String) Method                                                   
-
-fcSDK Documentation
-
-UpdatePartStockingLevel(Location,String,String,String,String) Method
+﻿### UpdatePartStockingLevel(Location,String,String,String,String) Method
 
 The location and bin used for restocking
 
@@ -19,10 +15,7 @@ Updates an existing part restocking authorization level. This overload takes a
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdatePartStockingLevel( _
    ByVal _currentLocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
@@ -68,11 +61,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Part Authorization record.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

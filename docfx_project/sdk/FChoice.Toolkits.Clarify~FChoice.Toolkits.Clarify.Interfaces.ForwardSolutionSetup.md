@@ -1,26 +1,18 @@
-﻿     ForwardSolutionSetup Class                                                   
-
-fcSDK Documentation
-
-ForwardSolutionSetup Class
+﻿### ForwardSolutionSetup Class
 
 Used by the [ForwardSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~ForwardSolution(ForwardSolutionSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ForwardSolutionSetup 
 
 public class ForwardSolutionSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.ForwardSolutionSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

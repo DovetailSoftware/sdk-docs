@@ -1,8 +1,4 @@
-﻿     LogContractNote Method                                                   
-
-fcSDK Documentation
-
-LogContractNote Method
+﻿### LogContractNote Method
 
 Causes a note log to be created and added to the specified contract. This overload takes a set of required parameters for the API.
 
@@ -16,11 +12,9 @@ Overload List
 | [LogContractNote(LogContractNoteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~LogContractNote(LogContractNoteSetup).md) | Causes a note log to be created and added to the specified contract. This overload takes a setup object.   |
 | [LogContractNote(LogContractNoteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~LogContractNote(LogContractNoteSetup,IDbTransaction).md) | Causes a note log to be created and added to the specified contract. This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

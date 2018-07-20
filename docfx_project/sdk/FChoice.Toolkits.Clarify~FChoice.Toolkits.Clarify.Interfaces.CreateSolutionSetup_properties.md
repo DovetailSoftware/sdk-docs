@@ -1,8 +1,4 @@
-﻿     CreateSolutionSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateSolutionSetup Class Properties
+﻿### CreateSolutionSetup Class Properties
 
 For a list of all members of this type, see [CreateSolutionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup_members.md).
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup~UserName.md) | User creating the Solution. If not set, the default is the session user.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Workaround](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup~Workaround.md) | Text of the first Workaround for the Solution.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     StateManager Class Members                                                   
-
-StateManager Class Members
+﻿### StateManager Class Members
 
 The following tables list the members exposed by [StateManager](FChoice.Common~FChoice.Common.State.StateManager.md).
 
@@ -12,7 +10,7 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [DEFAULT_APPLICATION_NAME](FChoice.Common~FChoice.Common.State.StateManager~DEFAULT_APPLICATION_NAME.md) |   |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SyncRoot](FChoice.Common~FChoice.Common.State.StateManager~SyncRoot.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,7 +20,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsStateSerialized](FChoice.Common~FChoice.Common.State.StateManager~IsStateSerialized.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [StateTimeout](FChoice.Common~FChoice.Common.State.StateManager~StateTimeout.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -38,9 +36,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [ResetTimeout](FChoice.Common~FChoice.Common.State.StateManager~ResetTimeout.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SaveState](FChoice.Common~FChoice.Common.State.StateManager~SaveState.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

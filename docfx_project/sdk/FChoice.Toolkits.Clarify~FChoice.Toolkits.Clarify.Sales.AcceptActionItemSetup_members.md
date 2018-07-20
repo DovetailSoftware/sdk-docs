@@ -1,8 +1,4 @@
-﻿     AcceptActionItemSetup Class Members                                                   
-
-fcSDK Documentation
-
-AcceptActionItemSetup Class Members
+﻿### AcceptActionItemSetup Class Members
 
 The following tables list the members exposed by [AcceptActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AcceptActionItemSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup~_ctor.md) | Initializes a new instance of the AcceptActionItemSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup~UserName.md) | The user who has accepted the ActionItem. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup~WipBin.md) | User's WipBin in which to place the ActionItem. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

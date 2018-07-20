@@ -1,8 +1,4 @@
-﻿     LogInfo Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-LogInfo Method (FCApplication)
+﻿### LogInfo Method (FCApplication)
 
 Overload List
 
@@ -11,11 +7,9 @@ Overload List
 | [LogInfo(String,Object\[\])](fcSDK~FChoice.Foundation.FCApplication~LogInfo(String,Object[]).md) |   |
 | [LogInfo(Exception,String,Object\[\])](fcSDK~FChoice.Foundation.FCApplication~LogInfo(Exception,String,Object[]).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

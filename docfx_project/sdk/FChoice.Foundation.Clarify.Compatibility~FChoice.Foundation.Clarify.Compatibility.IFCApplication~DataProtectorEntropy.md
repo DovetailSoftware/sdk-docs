@@ -1,28 +1,19 @@
-﻿     DataProtectorEntropy Property (IFCApplication)                                                   
-
-fcSDK Documentation
-
-DataProtectorEntropy Property (IFCApplication)
+﻿### DataProtectorEntropy Property (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743831)>
+<DispIdAttribute(1610743831)>
 WriteOnly Property DataProtectorEntropy As String
 
-\[[DispIdAttribute](#)(1610743831)\]
+[DispIdAttribute(1610743831)]
 string DataProtectorEntropy {set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     LogCRNoteSetup Class                                                   
-
-fcSDK Documentation
-
-LogCRNoteSetup Class
+﻿### LogCRNoteSetup Class
 
 Used by the [LogCRNote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~LogCRNote(LogCRNoteSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogCRNoteSetup 
 
 public class LogCRNoteSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Quality.LogCRNoteSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

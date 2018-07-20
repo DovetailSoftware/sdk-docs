@@ -1,8 +1,4 @@
-﻿     MoreThanOrEqual Method (FilterExpression)                                                   
-
-fcSDK Documentation
-
-MoreThanOrEqual Method (FilterExpression)
+﻿### MoreThanOrEqual Method (FilterExpression)
 
 Overload List
 
@@ -13,11 +9,9 @@ Overload List
 | [MoreThanOrEqual(String,String)](fcSDK~FChoice.Foundation.Filters.FilterExpression~MoreThanOrEqual(String,String).md) |   |
 | [MoreThanOrEqual(String,DateTime)](fcSDK~FChoice.Foundation.Filters.FilterExpression~MoreThanOrEqual(String,DateTime).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

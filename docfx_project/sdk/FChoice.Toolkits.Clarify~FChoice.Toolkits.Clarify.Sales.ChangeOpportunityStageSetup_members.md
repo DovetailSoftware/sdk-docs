@@ -8,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ChangeOpportunityStageSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStageSetup~_ctor.md) | Initializes a new instance of the ChangeOpportunityStageSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Stage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStageSetup~Stage.md) | The new sales stage for the Opportunity.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStageSetup~UserName.md) | The user who is changing the opportunity stage. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

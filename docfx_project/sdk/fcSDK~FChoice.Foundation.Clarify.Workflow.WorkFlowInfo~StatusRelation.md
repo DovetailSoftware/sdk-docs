@@ -1,26 +1,16 @@
-﻿     StatusRelation Property (WorkFlowInfo)                                                   
-
-fcSDK Documentation
-
-StatusRelation Property (WorkFlowInfo)
+﻿### StatusRelation Property (WorkFlowInfo)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public ReadOnly Property StatusRelation As String
 
 public string StatusRelation {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

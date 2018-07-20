@@ -1,16 +1,9 @@
-﻿     GetNextNumScheme Method (FCSession)                                                   
-
-fcSDK Documentation
-
-GetNextNumScheme Method (FCSession)
+﻿### GetNextNumScheme Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function GetNextNumScheme( _
    ByVal _numSchemaName_ As String _
@@ -24,11 +17,9 @@ public string GetNextNumScheme(
 
 _numSchemaName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

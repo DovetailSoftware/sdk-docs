@@ -1,8 +1,4 @@
-﻿     ReopenSubcaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ReopenSubcaseSetup Class Properties
+﻿### ReopenSubcaseSetup Class Properties
 
 For a list of all members of this type, see [ReopenSubcaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup~UserName.md) | The User who rejected the Subcase. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup~WipBin.md) | WipBin to place the Subcase in. If not set, the users default WibBin is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ReopenCRSetup Class Members                                                   
-
-fcSDK Documentation
-
-ReopenCRSetup Class Members
+﻿### ReopenCRSetup Class Members
 
 The following tables list the members exposed by [ReopenCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ReopenCRSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup~_ctor.md) | Initializes a new instance of the ReopenCRSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup~UserName.md) | The user reopening the CR. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup~WipBin.md) | Wipbin of the user to place the reopened CR. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

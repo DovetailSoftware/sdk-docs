@@ -1,8 +1,4 @@
-﻿     AddSiteToAccountSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AddSiteToAccountSetup Class Properties
+﻿### AddSiteToAccountSetup Class Properties
 
 For a list of all members of this type, see [AddSiteToAccountSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToAccountSetup_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RoleName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToAccountSetup~RoleName.md) | Name of the Site Role the Site will play for the Account.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToAccountSetup~SiteIDNum.md) | Site Identifier of site to be added.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

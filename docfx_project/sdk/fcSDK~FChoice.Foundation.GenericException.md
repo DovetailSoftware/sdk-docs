@@ -1,29 +1,21 @@
-﻿     GenericException Class                                                   
-
-fcSDK Documentation
-
-GenericException Class
+﻿### GenericException Class
 
 The exception that is thrown when an error occurs in the [Generic](fcSDK~FChoice.Foundation.FCGeneric.md) classes in Foundation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <SerializableAttribute()>
 Public Class GenericException 
    Inherits [FoundationException](fcSDK~FChoice.Foundation.FoundationException.md)
 
-\[SerializableAttribute()\]
+[SerializableAttribute()]
 public class GenericException : [FoundationException](fcSDK~FChoice.Foundation.FoundationException.md) 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Exception](#)  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
@@ -39,7 +31,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

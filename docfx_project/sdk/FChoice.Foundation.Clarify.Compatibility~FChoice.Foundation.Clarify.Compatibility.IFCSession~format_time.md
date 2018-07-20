@@ -1,36 +1,27 @@
-﻿     format_time Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-format_time Method (IFCSession)
+﻿### format_time Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743891)>
+<DispIdAttribute(1610743891)>
 Function format_time( _
-   ByVal _totalTime_ As [Integer](#) _
+   ByVal _totalTime_ As Integer _
 ) As String
 
-\[[DispIdAttribute](#)(1610743891)\]
+[DispIdAttribute(1610743891)]
 string format_time( 
-   [int](#) _totalTime_
+   int _totalTime_
 )
 
 #### Parameters
 
 _totalTime_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

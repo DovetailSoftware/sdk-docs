@@ -1,8 +1,4 @@
-﻿     CreateProductBinSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateProductBinSetup Class Members
+﻿### CreateProductBinSetup Class Members
 
 The following tables list the members exposed by [CreateProductBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateProductBinSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateProductBinSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateProductBinSetup~_ctor.md) | Initializes a new instance of the CreateProductBinSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -27,9 +23,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateProductBinSetup~SiteIDNum.md) | Identifier of the site where the bin is created   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateProductBinSetup~UserName.md) | User creating the bin. If not set, the default is the session user.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

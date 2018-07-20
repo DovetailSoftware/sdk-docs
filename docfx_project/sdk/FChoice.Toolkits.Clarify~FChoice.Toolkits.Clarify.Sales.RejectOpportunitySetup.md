@@ -1,26 +1,18 @@
-﻿     RejectOpportunitySetup Class                                                   
-
-fcSDK Documentation
-
-RejectOpportunitySetup Class
+﻿### RejectOpportunitySetup Class
 
 Used by the [RejectOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~RejectOpportunity(RejectOpportunitySetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class RejectOpportunitySetup 
 
 public class RejectOpportunitySetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.RejectOpportunitySetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

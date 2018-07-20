@@ -1,26 +1,18 @@
-﻿     ChangeCRStatusSetup Class                                                   
-
-fcSDK Documentation
-
-ChangeCRStatusSetup Class
+﻿### ChangeCRStatusSetup Class
 
 Used by the [ChangeCRStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ChangeCRStatus(ChangeCRStatusSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ChangeCRStatusSetup 
 
 public class ChangeCRStatusSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

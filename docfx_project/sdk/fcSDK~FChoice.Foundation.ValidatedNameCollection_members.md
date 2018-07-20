@@ -1,8 +1,4 @@
-﻿     ValidatedNameCollection Class Members                                                   
-
-fcSDK Documentation
-
-ValidatedNameCollection Class Members
+﻿### ValidatedNameCollection Class Members
 
 The following tables list the members exposed by [ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md).
 
@@ -16,8 +12,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [IsSynchronized](fcSDK~FChoice.Foundation.ValidatedNameCollection~IsSynchronized.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.ValidatedNameCollection~Item.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](fcSDK~FChoice.Foundation.ValidatedNameCollection~SyncRoot.md) |   |
-
-[Top](#top)
 
 Public Methods
 
@@ -35,10 +29,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](fcSDK~FChoice.Foundation.ValidatedNameCollection~RemoveAt.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [SetList](fcSDK~FChoice.Foundation.ValidatedNameCollection~SetList.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](fcSDK~FChoice.Foundation.ValidatedNameCollection~ToString.md) |   |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

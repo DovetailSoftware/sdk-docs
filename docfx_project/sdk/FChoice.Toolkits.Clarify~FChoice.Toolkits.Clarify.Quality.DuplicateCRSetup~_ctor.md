@@ -1,8 +1,4 @@
-﻿     DuplicateCRSetup Constructor                                                   
-
-fcSDK Documentation
-
-DuplicateCRSetup Constructor
+﻿### DuplicateCRSetup Constructor
 
 Identifier of the CR being marked as a duplicate.
 
@@ -13,18 +9,15 @@ Initializes a new instance of the DuplicateCRSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _crIDNum_ As String, _
    ByVal _masterCRIDNum_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public DuplicateCRSetup( 
    string _crIDNum_,
    string _masterCRIDNum_
@@ -40,11 +33,9 @@ _masterCRIDNum_
 
 Identifier of the 'master' CR this CR duplicates.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

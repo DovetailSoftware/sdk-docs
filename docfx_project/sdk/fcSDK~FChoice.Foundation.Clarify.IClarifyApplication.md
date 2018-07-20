@@ -1,17 +1,9 @@
-﻿     IClarifyApplication Interface                                                   
-
-fcSDK Documentation
-
-IClarifyApplication Interface
+﻿### IClarifyApplication Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Interface IClarifyApplication 
 
 public interface IClarifyApplication 
@@ -24,7 +16,7 @@ public interface IClarifyApplication
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

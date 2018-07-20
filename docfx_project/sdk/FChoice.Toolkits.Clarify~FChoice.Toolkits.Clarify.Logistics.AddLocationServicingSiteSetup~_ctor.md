@@ -1,8 +1,4 @@
-﻿     AddLocationServicingSiteSetup Constructor                                                   
-
-fcSDK Documentation
-
-AddLocationServicingSiteSetup Constructor
+﻿### AddLocationServicingSiteSetup Constructor
 
 The identifier of the Site that the inventory location is servicing
 
@@ -15,19 +11,16 @@ Initializes a new instance of the AddLocationServicingSiteSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _siteIDNum_ As String, _
    ByVal _locationName_ As String, _
    ByVal _locationRank_ As Short _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public AddLocationServicingSiteSetup( 
    string _siteIDNum_,
    string _locationName_,
@@ -48,11 +41,9 @@ _locationRank_
 
 The rank of this inventory location at the associated site
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

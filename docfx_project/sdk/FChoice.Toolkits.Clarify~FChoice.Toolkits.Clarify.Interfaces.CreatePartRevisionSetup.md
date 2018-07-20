@@ -1,26 +1,18 @@
-﻿     CreatePartRevisionSetup Class                                                   
-
-fcSDK Documentation
-
-CreatePartRevisionSetup Class
+﻿### CreatePartRevisionSetup Class
 
 Used by the [CreatePartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreatePartRevision(CreatePartRevisionSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreatePartRevisionSetup 
 
 public class CreatePartRevisionSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.CreatePartRevisionSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

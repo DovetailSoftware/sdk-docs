@@ -1,20 +1,18 @@
-﻿     Parameters Property (DataParameterCollection)                                                   
-
-Parameters Property (DataParameterCollection)
+﻿### Parameters Property (DataParameterCollection)
 
 Retrieves a collection of the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) objects in this collection.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-Public ReadOnly Property Parameters As [ICollection](#)
+Public ReadOnly Property Parameters As ICollection
+```
 
-public [ICollection](#) Parameters {get;}
+```csharp
+public ICollection Parameters {get;}
+```
 
 #### Property Value
 
@@ -24,11 +22,9 @@ Remarks
 
 This property retrieves a collection of just the parameters, not the names.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

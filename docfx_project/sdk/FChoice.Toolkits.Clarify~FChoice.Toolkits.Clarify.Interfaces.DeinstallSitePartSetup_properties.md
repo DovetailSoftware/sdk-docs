@@ -1,8 +1,4 @@
-﻿     DeinstallSitePartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DeinstallSitePartSetup Class Properties
+﻿### DeinstallSitePartSetup Class Properties
 
 For a list of all members of this type, see [DeinstallSitePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DeinstallSitePartSetup_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UseRemove](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DeinstallSitePartSetup~UseRemove.md) | Is this a remove (**true**) or de-Install (**false**) activity?   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DeinstallSitePartSetup~UserName.md) | User that performed the de-install.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

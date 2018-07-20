@@ -1,6 +1,4 @@
-﻿     ExecuteDataSet(IDbTransaction,CommandType,String,DataParameterCollection) Method                                                   
-
-ExecuteDataSet(IDbTransaction,CommandType,String,DataParameterCollection) Method
+﻿### ExecuteDataSet(IDbTransaction,CommandType,String,DataParameterCollection) Method
 
 A live transaction connected to the database
 
@@ -15,19 +13,16 @@ Executes the the specified SQL with the specified parameters using the provided
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function ExecuteDataSet( _
    ByVal _transaction_ As [IDbTransaction](#), _
    ByVal _commandType_ As [CommandType](#), _
    ByVal _commandText_ As String, _
    ByVal _commandParams_ As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _
-) As [DataSet](#)
+) As DataSet
 
-public static [DataSet](#) ExecuteDataSet( 
+public static DataSet ExecuteDataSet( 
    [IDbTransaction](#) _transaction_,
    [CommandType](#) _commandType_,
    string _commandText_,
@@ -68,11 +63,9 @@ In no case will the DataSet returned be a null reference (**Nothing** in Visual 
 
 When the _commandType_ parameter is set to **StoredProcedure**, set the _commandText_ parameter to the name of the stored procedure. The user may be required to use escape character syntax if the stored procedure name contains any special characters. The command will call this stored procedure when you call one of the Execute methods.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     SchemaFieldBase Class Properties                                                   
-
-fcSDK Documentation
-
-SchemaFieldBase Class Properties
+﻿### SchemaFieldBase Class Properties
 
 For a list of all members of this type, see [SchemaFieldBase members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase_members.md).
 
@@ -34,9 +30,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SpecificFieldID](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase~SpecificFieldID.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

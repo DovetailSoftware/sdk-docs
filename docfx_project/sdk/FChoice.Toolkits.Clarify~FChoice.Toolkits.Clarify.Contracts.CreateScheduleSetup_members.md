@@ -1,8 +1,4 @@
-﻿     CreateScheduleSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateScheduleSetup Class Members
+﻿### CreateScheduleSetup Class Members
 
 The following tables list the members exposed by [CreateScheduleSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateScheduleSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateScheduleSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateScheduleSetup~_ctor.md) | Initializes a new instance of the CreateScheduleSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -32,9 +28,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ScheduleIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateScheduleSetup~ScheduleIDNum.md) | Schedule Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ShipToSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateScheduleSetup~ShipToSiteIDNum.md) | Site Identifier for the shipment of this Schedule.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

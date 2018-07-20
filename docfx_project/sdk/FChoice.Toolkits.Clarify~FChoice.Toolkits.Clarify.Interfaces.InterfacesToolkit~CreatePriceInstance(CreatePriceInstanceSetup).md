@@ -1,8 +1,4 @@
-﻿     CreatePriceInstance(CreatePriceInstanceSetup) Method                                                   
-
-fcSDK Documentation
-
-CreatePriceInstance(CreatePriceInstanceSetup) Method
+﻿### CreatePriceInstance(CreatePriceInstanceSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Creates a Price Instance. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreatePriceInstance( _
    ByVal _setupParam_ As [CreatePriceInstanceSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup.md) _
@@ -40,11 +33,9 @@ Remarks
 
 You many not have two prices (in the same schedule for the same part and quantity) overlap or have the price's [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup~StartDate.md) or [EndDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup~EndDate.md) extend outside the span of the price program.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

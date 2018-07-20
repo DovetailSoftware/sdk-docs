@@ -1,16 +1,11 @@
-﻿     ORACLE_PROVIDER_NAME Field                                                   
-
-ORACLE_PROVIDER_NAME Field
+﻿### ORACLE_PROVIDER_NAME Field
 
 The default provider name of Oracle-based data providers
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Const ORACLE_PROVIDER_NAME As String
 
@@ -20,11 +15,9 @@ Remarks
 
 Please see _remarks_ section of the [DbProvider.ProviderName](FChoice.Common~FChoice.Common.Data.DbProvider~ProviderName.md) property documentation for more information on the significance of this value.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

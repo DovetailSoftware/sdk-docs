@@ -1,8 +1,4 @@
-﻿     LogCaseInternalNoteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogCaseInternalNoteSetup Class Properties
+﻿### LogCaseInternalNoteSetup Class Properties
 
 For a list of all members of this type, see [LogCaseInternalNoteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalNoteSetup_members.md).
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalNoteSetup~Notes.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalNoteSetup~UserName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,23 +1,16 @@
-﻿     get_dt_fields Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-get_dt_fields Method (IFCApplication)
+﻿### get_dt_fields Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743897)>
+<DispIdAttribute(1610743897)>
 Function get_dt_fields( _
    ByVal _tableName_ As String _
 ) As String
 
-\[[DispIdAttribute](#)(1610743897)\]
+[DispIdAttribute(1610743897)]
 string get_dt_fields( 
    string _tableName_
 )
@@ -26,11 +19,9 @@ string get_dt_fields(
 
 _tableName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

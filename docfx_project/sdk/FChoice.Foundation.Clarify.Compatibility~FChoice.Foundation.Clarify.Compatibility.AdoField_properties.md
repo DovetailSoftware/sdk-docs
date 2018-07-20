@@ -1,8 +1,4 @@
-﻿     AdoField Class Properties                                                   
-
-fcSDK Documentation
-
-AdoField Class Properties
+﻿### AdoField Class Properties
 
 For a list of all members of this type, see [AdoField members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoField_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Length](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoField~Length.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Name](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoField~Name.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

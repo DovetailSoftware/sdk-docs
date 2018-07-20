@@ -1,8 +1,4 @@
-﻿     AddServiceInterruption(AddServiceInterruptionSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-AddServiceInterruption(AddServiceInterruptionSetup,IDbTransaction) Method
+﻿### AddServiceInterruption(AddServiceInterruptionSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Adds a service interruption (and creates an appointment record). This overload 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AddServiceInterruption( _
    ByVal _setupParam_ As [AddServiceInterruptionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup.md), _
@@ -52,11 +45,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

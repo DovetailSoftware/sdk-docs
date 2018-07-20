@@ -1,8 +1,4 @@
-﻿     DepotRepairToolkit Class Members                                                   
-
-fcSDK Documentation
-
-DepotRepairToolkit Class Members
+﻿### DepotRepairToolkit Class Members
 
 The following tables list the members exposed by [DepotRepairToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DepotRepairToolkit Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -20,7 +16,7 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkitBase~ImpersonatorUsername.md) | (Inherited from [FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkitBase.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -43,9 +39,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateEcoLaborDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoLaborDetail.md) | Overloaded. Update an ECO Labor Detail. This overload takes a setup object.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateEcoMaterialDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoMaterialDetail.md) | Overloaded. Update an ECO Material Detail. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

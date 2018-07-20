@@ -1,8 +1,4 @@
-﻿     InitialResponse(String) Method                                                   
-
-fcSDK Documentation
-
-InitialResponse(String) Method
+﻿### InitialResponse(String) Method
 
 Case Identifier.
 
@@ -11,10 +7,7 @@ Marks the initial response to a Case. This overload takes a set of required para
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function InitialResponse( _
    ByVal _caseIDNum_ As String _
@@ -34,11 +27,9 @@ Case Identifier.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

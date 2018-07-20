@@ -1,16 +1,9 @@
-﻿     LogSubcaseInternalPhone(LogSubcaseInternalPhoneSetup) Method                                                   
-
-fcSDK Documentation
-
-LogSubcaseInternalPhone(LogSubcaseInternalPhoneSetup) Method
+﻿### LogSubcaseInternalPhone(LogSubcaseInternalPhoneSetup) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogSubcaseInternalPhone( _
    ByVal _setupParam_ As [LogSubcaseInternalPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseInternalPhoneSetup.md) _
@@ -24,11 +17,9 @@ public [LogSubcasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify
 
 _setupParam_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

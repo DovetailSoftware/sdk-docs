@@ -1,26 +1,16 @@
-﻿     GetDefaultCountryObjID Method (ILocaleCache)                                                   
-
-fcSDK Documentation
-
-GetDefaultCountryObjID Method (ILocaleCache)
+﻿### GetDefaultCountryObjID Method (ILocaleCache)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Function GetDefaultCountryObjID() As Integer
 
-'Declaration
- 
+int GetDefaultCountryObjID()
 
-Function GetDefaultCountryObjID() As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-[int](#) GetDefaultCountryObjID()
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

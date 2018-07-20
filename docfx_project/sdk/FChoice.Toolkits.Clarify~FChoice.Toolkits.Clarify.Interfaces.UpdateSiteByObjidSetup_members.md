@@ -1,8 +1,4 @@
-﻿     UpdateSiteByObjidSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateSiteByObjidSetup Class Members
+﻿### UpdateSiteByObjidSetup Class Members
 
 The following tables list the members exposed by [UpdateSiteByObjidSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateSiteByObjidSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup~_ctor.md) | Initializes a new instance of the UpdateSiteByObjidSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,9 +32,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup~Status.md) | Site status   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SupportOfficeSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup~SupportOfficeSiteIDNum.md) | Identifier of the site where the support office is located   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

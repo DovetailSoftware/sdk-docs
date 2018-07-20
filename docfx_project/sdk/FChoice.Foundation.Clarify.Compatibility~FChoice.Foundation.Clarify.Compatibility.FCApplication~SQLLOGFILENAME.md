@@ -1,26 +1,17 @@
-﻿     SQLLOGFILENAME Field                                                   
-
-fcSDK Documentation
-
-SQLLOGFILENAME Field
+﻿### SQLLOGFILENAME Field
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Const SQLLOGFILENAME As String
 
 public const string SQLLOGFILENAME
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

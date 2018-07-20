@@ -1,8 +1,4 @@
-﻿     YankSubcaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-YankSubcaseSetup Class Members
+﻿### YankSubcaseSetup Class Members
 
 The following tables list the members exposed by [YankSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankSubcaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [YankSubcaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankSubcaseSetup~_ctor.md) | Initializes a new instance of the YankSubcaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankSubcaseSetup~WipBin.md) | User's WipBin in which to place the Subcase. If not set, the UserName's default is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [YankDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankSubcaseSetup~YankDate.md) | DateTime the Subcase was yanked. If not set, the current time is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     Unpick(String,Location,Boolean,String\[\]) Method                                                   
-
-fcSDK Documentation
-
-Unpick(String,Location,Boolean,String\[\]) Method
+﻿### Unpick(String,Location,Boolean,String\[\]) Method
 
 Part Request Detail Identifier
 
@@ -19,10 +15,7 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function Unpick( _
    ByVal _partRequestDetailIDNum_ As String, _
@@ -35,7 +28,7 @@ public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Toolkit
    string _partRequestDetailIDNum_,
    [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _location_,
    bool _useTransitions_,
-   params string\[\] _serialNumbers_
+   params string[] _serialNumbers_
 )
 
 #### Parameters
@@ -70,11 +63,9 @@ To allow for multiple calls to this API to be performed without extra complex t
 
 If the part request was created using a serialized site part, then in order to unpick an inventory part you must use one of the serial numbers variants of this API and specify new serial numbers or use the keyword "inventory" as the only serial number. Specifying "inventory" as the only serial number will force this API to ignore the serial number stored in the part request and allow the unpick to occur from inventory parts.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

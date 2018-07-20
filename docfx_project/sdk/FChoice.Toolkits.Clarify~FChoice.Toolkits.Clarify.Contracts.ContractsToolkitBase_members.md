@@ -1,8 +1,4 @@
-﻿     ContractsToolkitBase Class Members                                                   
-
-fcSDK Documentation
-
-ContractsToolkitBase Class Members
+﻿### ContractsToolkitBase Class Members
 
 The following tables list the members exposed by [ContractsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase~ImpersonatorUsername.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

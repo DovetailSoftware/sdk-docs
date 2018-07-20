@@ -1,24 +1,17 @@
-﻿     ExpirationDate Property (LicenseInfo)                                                   
-
-ExpirationDate Property (LicenseInfo)
+﻿### ExpirationDate Property (LicenseInfo)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property ExpirationDate As Date
 
-Public ReadOnly Property ExpirationDate As [Date](#)
+public DateTime ExpirationDate {get;}
 
-public [DateTime](#) ExpirationDate {get;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

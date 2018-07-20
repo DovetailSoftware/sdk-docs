@@ -1,8 +1,4 @@
-﻿     CreateExpenseLog Method                                                   
-
-fcSDK Documentation
-
-CreateExpenseLog Method
+﻿### CreateExpenseLog Method
 
 Used to create a new expense log that is related to an onsite log. This overload takes a setup object and a database transaction.
 
@@ -20,11 +16,9 @@ Remarks
 
 The objid of the onsite log or a case/subcase id must be supplied (but not both). If you do not specify a billing rate, the employee’s labor rate will be used.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

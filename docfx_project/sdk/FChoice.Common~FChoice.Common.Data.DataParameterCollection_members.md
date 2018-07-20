@@ -1,6 +1,4 @@
-﻿     DataParameterCollection Class Members                                                   
-
-DataParameterCollection Class Members
+﻿### DataParameterCollection Class Members
 
 The following tables list the members exposed by [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md).
 
@@ -9,8 +7,6 @@ Public Constructors
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DataParameterCollection Constructor](FChoice.Common~FChoice.Common.Data.DataParameterCollection~_ctor.md) | Overloaded.    |
-
-[Top](#top)
 
 Public Properties
 
@@ -24,7 +20,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Parameters](FChoice.Common~FChoice.Common.Data.DataParameterCollection~Parameters.md) | Retrieves a collection of the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) objects in this collection.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](FChoice.Common~FChoice.Common.Data.DataParameterCollection~SyncRoot.md) | Gets an object that can be used to synchronize access to this instance of the DataParameterCollection.   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -41,10 +37,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Insert](FChoice.Common~FChoice.Common.Data.DataParameterCollection~Insert.md) | Inserts the parameter at the specified index in the collection.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [Remove](FChoice.Common~FChoice.Common.Data.DataParameterCollection~Remove.md) | Overloaded. Removes a parameter with the specified name from the collection.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](FChoice.Common~FChoice.Common.Data.DataParameterCollection~RemoveAt.md) | Removes the parameter at the specified index from the collection.   |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     MaximumRowsExceededEventArgs Class Properties                                                   
-
-fcSDK Documentation
-
-MaximumRowsExceededEventArgs Class Properties
+﻿### MaximumRowsExceededEventArgs Class Properties
 
 For a list of all members of this type, see [MaximumRowsExceededEventArgs members](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RowsToReturn](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs~RowsToReturn.md) | This value will control the number of rows to be returned from a large query.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TotalPossibleRows](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs~TotalPossibleRows.md) | Readonly count of rows to be returned by the large query that caused this event.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

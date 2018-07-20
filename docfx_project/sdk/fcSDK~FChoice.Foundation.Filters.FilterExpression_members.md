@@ -1,8 +1,4 @@
-﻿     FilterExpression Class Members                                                   
-
-fcSDK Documentation
-
-FilterExpression Class Members
+﻿### FilterExpression Class Members
 
 The following tables list the members exposed by [FilterExpression](fcSDK~FChoice.Foundation.Filters.FilterExpression.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [FilterExpression Constructor](fcSDK~FChoice.Foundation.Filters.FilterExpression~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -52,9 +48,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [WithinHours](fcSDK~FChoice.Foundation.Filters.FilterExpression~WithinHours.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [Yesterday](fcSDK~FChoice.Foundation.Filters.FilterExpression~Yesterday.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

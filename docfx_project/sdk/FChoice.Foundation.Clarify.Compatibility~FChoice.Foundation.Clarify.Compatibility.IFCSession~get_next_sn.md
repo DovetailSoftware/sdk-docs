@@ -1,24 +1,16 @@
-﻿     get_next_sn Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-get_next_sn Method (IFCSession)
+﻿### get_next_sn Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743894)>
+' Declaration
+<DispIdAttribute(1610743894)>
 Function get_next_sn( _
    ByVal _the_ind_ As Short _
-) As [Object](#)
+) As Object
 
-\[[DispIdAttribute](#)(1610743894)\]
-[object](#) get_next_sn( 
+[DispIdAttribute(1610743894)]
+object get_next_sn( 
    short _the_ind_
 )
 
@@ -26,11 +18,9 @@ Function get_next_sn( _
 
 _the_ind_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

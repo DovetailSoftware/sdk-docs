@@ -1,8 +1,4 @@
-﻿     InstallSitePartToPartSetup Constructor                                                   
-
-fcSDK Documentation
-
-InstallSitePartToPartSetup Constructor
+﻿### InstallSitePartToPartSetup Constructor
 
 Initializes a new instance of the InstallSitePartToPartSetup class.
 
@@ -13,11 +9,9 @@ Overload List
 | [InstallSitePartToPartSetup Constructor(String,Int32,String,String,String,Int32)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToPartSetup~_ctor(String,Int32,String,String,String,Int32).md) | Initializes a new instance of the InstallSitePartToPartSetup class. This overload takes a set of required parameters for the API.   |
 | [InstallSitePartToPartSetup Constructor(String,String,String,String,String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToPartSetup~_ctor(String,String,String,String,String).md) | Initializes a new instance of the InstallSitePartToPartSetup class. This overload takes a set of required parameters for the API.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

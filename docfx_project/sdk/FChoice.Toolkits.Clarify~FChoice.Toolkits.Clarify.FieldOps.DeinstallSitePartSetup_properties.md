@@ -1,8 +1,4 @@
-﻿     DeinstallSitePartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DeinstallSitePartSetup Class Properties
+﻿### DeinstallSitePartSetup Class Properties
 
 For a list of all members of this type, see [DeinstallSitePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeinstallSitePartSetup_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UseRemove](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeinstallSitePartSetup~UseRemove.md) | Specifies if activity entry records should be set to "Remove" (true) or "De-Installed" (false).   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeinstallSitePartSetup~UserName.md) | The user who deinstalled the Site Part. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

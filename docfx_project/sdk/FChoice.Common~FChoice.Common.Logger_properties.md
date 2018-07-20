@@ -1,6 +1,4 @@
-﻿     Logger Class Properties                                                   
-
-Logger Class Properties
+﻿### Logger Class Properties
 
 For a list of all members of this type, see [Logger members](FChoice.Common~FChoice.Common.Logger_members.md).
 
@@ -14,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [IsInfoEnabled](FChoice.Common~FChoice.Common.Logger~IsInfoEnabled.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [IsWarnEnabled](FChoice.Common~FChoice.Common.Logger~IsWarnEnabled.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     DataObjectCollection<T> Class Members                                                   
-
-fcSDK Documentation
-
-DataObjectCollection<T> Class Members
+﻿### DataObjectCollection<T> Class Members
 
 The following tables list the members exposed by [DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md).
 
@@ -13,8 +9,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Capacity](#) | (Inherited from [System.Collections.Generic.List<T>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<T>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.Generic.List<T>](#)) |
-
-[Top](#top)
 
 Public Methods
 
@@ -51,10 +45,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [ToArray](#) | (Inherited from [System.Collections.Generic.List<T>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<T>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<T>](#)) |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

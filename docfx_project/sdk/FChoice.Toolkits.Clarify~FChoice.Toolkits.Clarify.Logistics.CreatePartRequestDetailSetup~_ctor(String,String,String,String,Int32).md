@@ -1,8 +1,4 @@
-﻿     CreatePartRequestDetailSetup Constructor(String,String,String,String,Int32)                                                   
-
-fcSDK Documentation
-
-CreatePartRequestDetailSetup Constructor(String,String,String,String,Int32)
+﻿### CreatePartRequestDetailSetup Constructor(String,String,String,String,Int32)
 
 Parent Part Request Header Identifier
 
@@ -19,28 +15,26 @@ Initializes a new instance of the CreatePartRequestDetailSetup class. This overl
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestHeaderIDNum_ As String, _
    ByVal _partNumber_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _partRevision_ As String, _
-   ByVal _quantity_ As [Integer](#) _
+   ByVal _quantity_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreatePartRequestDetailSetup( 
    string _partRequestHeaderIDNum_,
    string _partNumber_,
    string _partDomain_,
    string _partRevision_,
-   [int](#) _quantity_
+   int _quantity_
 )
+```
 
 #### Parameters
 
@@ -64,11 +58,7 @@ _quantity_
 
 The number of parts requested
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

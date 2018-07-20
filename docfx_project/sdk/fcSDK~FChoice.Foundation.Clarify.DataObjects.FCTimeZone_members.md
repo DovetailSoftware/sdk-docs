@@ -1,8 +1,4 @@
-﻿     FCTimeZone Class Members                                                   
-
-fcSDK Documentation
-
-FCTimeZone Class Members
+﻿### FCTimeZone Class Members
 
 The following tables list the members exposed by [FCTimeZone](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone.md).
 
@@ -20,7 +16,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UtcOffsetSeconds](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone~UtcOffsetSeconds.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -35,9 +31,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [IsDaylightSavingsTime](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone~IsDaylightSavingsTime.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

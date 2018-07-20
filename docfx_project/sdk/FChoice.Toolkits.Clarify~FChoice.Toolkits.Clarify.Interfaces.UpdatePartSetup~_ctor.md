@@ -1,8 +1,4 @@
-﻿     UpdatePartSetup Constructor                                                   
-
-fcSDK Documentation
-
-UpdatePartSetup Constructor
+﻿### UpdatePartSetup Constructor
 
 Part number for the part to update
 
@@ -15,23 +11,20 @@ Initializes a new instance of the UpdatePartSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partNumber_ As String, _
    ByVal _partDomain_ As String, _
-   ByVal _warrantyDays_ As [Integer](#) _
+   ByVal _warrantyDays_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public UpdatePartSetup( 
    string _partNumber_,
    string _partDomain_,
-   [int](#) _warrantyDays_
+   int _warrantyDays_
 )
 
 #### Parameters
@@ -48,11 +41,9 @@ _warrantyDays_
 
 Number of warranty days for the part
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

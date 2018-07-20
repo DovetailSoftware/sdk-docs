@@ -1,23 +1,18 @@
-﻿     GetBitwiseAndStatement Method (OracleProviderBase)                                                   
-
-GetBitwiseAndStatement Method (OracleProviderBase)
+﻿### GetBitwiseAndStatement Method (OracleProviderBase)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overrides Function GetBitwiseAndStatement( _
-   ByVal _operand1_ As [Object](#), _
-   ByVal _operand2_ As [Object](#) _
+   ByVal _operand1_ As Object, _
+   ByVal _operand2_ As Object _
 ) As String
 
 public override string GetBitwiseAndStatement( 
-   [object](#) _operand1_,
-   [object](#) _operand2_
+   object _operand1_,
+   object _operand2_
 )
 
 #### Parameters
@@ -26,11 +21,9 @@ _operand1_
 
 _operand2_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

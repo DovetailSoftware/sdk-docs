@@ -1,8 +1,4 @@
-﻿     SalesToolkit Class Methods                                                   
-
-fcSDK Documentation
-
-SalesToolkit Class Methods
+﻿### SalesToolkit Class Methods
 
 For a list of all members of this type, see [SalesToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit_members.md).
 
@@ -51,9 +47,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [YankOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~YankOpportunity.md) | Overloaded. Yank the Opportunity from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [YankQuote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~YankQuote.md) | Overloaded. Yank the Quote from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

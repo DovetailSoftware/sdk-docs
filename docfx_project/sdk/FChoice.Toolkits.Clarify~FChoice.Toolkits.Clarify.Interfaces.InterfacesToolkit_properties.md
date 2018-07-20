@@ -1,8 +1,4 @@
-﻿     InterfacesToolkit Class Properties                                                   
-
-fcSDK Documentation
-
-InterfacesToolkit Class Properties
+﻿### InterfacesToolkit Class Properties
 
 For a list of all members of this type, see [InterfacesToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase~ImpersonatorUsername.md) | (Inherited from [FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseDatabaseLogins](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase~UseDatabaseLogins.md) | (Inherited from [FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     StateManager Class Properties                                                   
-
-StateManager Class Properties
+﻿### StateManager Class Properties
 
 For a list of all members of this type, see [StateManager members](FChoice.Common~FChoice.Common.State.StateManager_members.md).
 
@@ -12,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsStateSerialized](FChoice.Common~FChoice.Common.State.StateManager~IsStateSerialized.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [StateTimeout](FChoice.Common~FChoice.Common.State.StateManager~StateTimeout.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

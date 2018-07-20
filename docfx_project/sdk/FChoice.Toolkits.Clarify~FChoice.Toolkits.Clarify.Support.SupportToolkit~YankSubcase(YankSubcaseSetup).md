@@ -1,8 +1,4 @@
-﻿     YankSubcase(YankSubcaseSetup) Method                                                   
-
-fcSDK Documentation
-
-YankSubcase(YankSubcaseSetup) Method
+﻿### YankSubcase(YankSubcaseSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Yank the Subcase from its current location to a new owner's WipBin. This overloa
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function YankSubcase( _
    ByVal _setupParam_ As [YankSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankSubcaseSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The WipBin to place the Subcase in may also be specified. This is augmented function from base Clarify, where the Subcase is always placed in the default WipBin.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

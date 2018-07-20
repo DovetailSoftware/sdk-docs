@@ -1,8 +1,4 @@
-﻿     SchemaFieldCollectionBase Class Properties                                                   
-
-fcSDK Documentation
-
-SchemaFieldCollectionBase Class Properties
+﻿### SchemaFieldCollectionBase Class Properties
 
 For a list of all members of this type, see [SchemaFieldCollectionBase members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldCollectionBase_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<SchemaFieldBase>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldCollectionBase~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

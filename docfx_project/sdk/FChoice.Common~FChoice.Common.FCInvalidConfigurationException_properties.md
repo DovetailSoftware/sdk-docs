@@ -1,6 +1,4 @@
-﻿     FCInvalidConfigurationException Class Properties                                                   
-
-FCInvalidConfigurationException Class Properties
+﻿### FCInvalidConfigurationException Class Properties
 
 For a list of all members of this type, see [FCInvalidConfigurationException members](FChoice.Common~FChoice.Common.FCInvalidConfigurationException_members.md).
 
@@ -19,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

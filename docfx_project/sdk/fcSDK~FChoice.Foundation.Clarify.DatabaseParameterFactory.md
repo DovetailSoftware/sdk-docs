@@ -1,16 +1,9 @@
-﻿     DatabaseParameterFactory Class                                                   
-
-fcSDK Documentation
-
-DatabaseParameterFactory Class
+﻿### DatabaseParameterFactory Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class DatabaseParameterFactory 
 
@@ -18,7 +11,7 @@ public class DatabaseParameterFactory
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.DatabaseParameterFactory**  
 
 #### Requirements
@@ -29,7 +22,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     RejectActionItem(RejectActionItemSetup) Method                                                   
-
-fcSDK Documentation
-
-RejectActionItem(RejectActionItemSetup) Method
+﻿### RejectActionItem(RejectActionItemSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Reject the ActionItem from the queue in which it currently resides, and return i
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function RejectActionItem( _
    ByVal _setupParam_ As [RejectActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectActionItemSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The ActionItem must be in open condition, and currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

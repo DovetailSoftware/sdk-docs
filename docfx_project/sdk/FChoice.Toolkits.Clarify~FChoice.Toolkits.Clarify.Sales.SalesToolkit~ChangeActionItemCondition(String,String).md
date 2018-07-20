@@ -1,8 +1,4 @@
-﻿     ChangeActionItemCondition(String,String) Method                                                   
-
-fcSDK Documentation
-
-ChangeActionItemCondition(String,String) Method
+﻿### ChangeActionItemCondition(String,String) Method
 
 Action Item Identifier.
 
@@ -13,10 +9,7 @@ Used to change the condition and (optionally) a status for the specified Actio
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ChangeActionItemCondition( _
    ByVal _actionItemIDNum_ As String, _
@@ -49,11 +42,9 @@ Remarks
 
 The Action Item ID and the condition is required, but no other data is. The API can also generate a time bomb (for business rule notification).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

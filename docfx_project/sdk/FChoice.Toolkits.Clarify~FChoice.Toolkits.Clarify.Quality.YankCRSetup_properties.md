@@ -1,8 +1,4 @@
-﻿     YankCRSetup Class Properties                                                   
-
-fcSDK Documentation
-
-YankCRSetup Class Properties
+﻿### YankCRSetup Class Properties
 
 For a list of all members of this type, see [YankCRSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.YankCRSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.YankCRSetup~WipBin.md) | User's WipBin in which to place the CR. If not set, the UserName's default is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [YankDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.YankCRSetup~YankDate.md) | DateTime the CR was yanked. If not set, the current time is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

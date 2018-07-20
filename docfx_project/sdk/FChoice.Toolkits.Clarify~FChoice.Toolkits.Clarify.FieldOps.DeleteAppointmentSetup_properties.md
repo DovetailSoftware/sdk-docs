@@ -1,8 +1,4 @@
-﻿     DeleteAppointmentSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DeleteAppointmentSetup Class Properties
+﻿### DeleteAppointmentSetup Class Properties
 
 For a list of all members of this type, see [DeleteAppointmentSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteAppointmentSetup_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CreateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteAppointmentSetup~CreateDate.md) | The DateTime the Appointment was deleted. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteAppointmentSetup~UserName.md) | The user who deleted the Appointment. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

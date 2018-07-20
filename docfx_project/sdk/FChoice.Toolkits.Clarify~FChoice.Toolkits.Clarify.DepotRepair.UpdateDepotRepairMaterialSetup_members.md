@@ -1,8 +1,4 @@
-﻿     UpdateDepotRepairMaterialSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateDepotRepairMaterialSetup Class Members
+﻿### UpdateDepotRepairMaterialSetup Class Members
 
 The following tables list the members exposed by [UpdateDepotRepairMaterialSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairMaterialSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateDepotRepairMaterialSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairMaterialSetup~_ctor.md) | Initializes a new instance of the UpdateDepotRepairMaterialSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -32,9 +28,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairMaterialSetup~UserName.md) | The user updating the Material entry. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkCenter](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairMaterialSetup~WorkCenter.md) | Indicates where material was used   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

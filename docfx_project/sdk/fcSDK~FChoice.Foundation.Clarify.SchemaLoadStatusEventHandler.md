@@ -1,24 +1,16 @@
-﻿     SchemaLoadStatusEventHandler Delegate                                                   
-
-fcSDK Documentation
-
-SchemaLoadStatusEventHandler Delegate
+﻿### SchemaLoadStatusEventHandler Delegate
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Delegate Sub SchemaLoadStatusEventHandler( _
-   ByVal _sender_ As [Object](#), _
+   ByVal _sender_ As Object, _
    ByVal _newStatus_ As [SchemaLoadStatusType](fcSDK~FChoice.Foundation.Clarify.SchemaLoadStatusType.md) _
 ) 
 
 public delegate void SchemaLoadStatusEventHandler( 
-   [object](#) _sender_,
+   object _sender_,
    [SchemaLoadStatusType](fcSDK~FChoice.Foundation.Clarify.SchemaLoadStatusType.md) _newStatus_
 )
 
@@ -36,7 +28,7 @@ _newStatus_
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LinkCaseToWorkaroundSetup Class Members                                                   
-
-fcSDK Documentation
-
-LinkCaseToWorkaroundSetup Class Members
+﻿### LinkCaseToWorkaroundSetup Class Members
 
 The following tables list the members exposed by [LinkCaseToWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LinkCaseToWorkaroundSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup~_ctor.md) | Initializes a new instance of the LinkCaseToWorkaroundSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup~UserName.md) | User that linked the Case to the Workaround. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkaroundObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup~WorkaroundObjid.md) | Objid of the Workaround the Case will be linked to   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

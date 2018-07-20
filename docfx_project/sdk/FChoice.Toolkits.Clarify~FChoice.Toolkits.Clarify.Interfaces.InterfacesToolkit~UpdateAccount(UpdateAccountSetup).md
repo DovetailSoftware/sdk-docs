@@ -1,8 +1,4 @@
-﻿     UpdateAccount(UpdateAccountSetup) Method                                                   
-
-fcSDK Documentation
-
-UpdateAccount(UpdateAccountSetup) Method
+﻿### UpdateAccount(UpdateAccountSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Update an Account. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateAccount( _
    ByVal _setupParam_ As [UpdateAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAccountSetup.md) _
@@ -37,11 +30,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the Account.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Account.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

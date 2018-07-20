@@ -1,8 +1,4 @@
-﻿     ClarifyDataSet Class Members                                                   
-
-fcSDK Documentation
-
-ClarifyDataSet Class Members
+﻿### ClarifyDataSet Class Members
 
 The following tables list the members exposed by [ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ClarifyDataSet Constructor](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,7 +20,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SortGenerics](fcSDK~FChoice.Foundation.GenericDataSet~SortGenerics.md) | (Inherited from [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.GenericDataSet~UniqueID.md) | (Inherited from [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -34,9 +30,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Query](fcSDK~FChoice.Foundation.GenericDataSet~Query.md) | Overloaded.  (Inherited from [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](fcSDK~FChoice.Foundation.GenericDataSet~Update.md) | Overloaded.  (Inherited from [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

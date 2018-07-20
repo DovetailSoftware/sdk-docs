@@ -1,8 +1,4 @@
-﻿     RelateContractItemToSitePartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-RelateContractItemToSitePartSetup Class Properties
+﻿### RelateContractItemToSitePartSetup Class Properties
 
 For a list of all members of this type, see [RelateContractItemToSitePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup~PartRevision.md) | The revision of the part for the Line Item.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SerialNumber](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup~SerialNumber.md) | The serial number of the site part for thie Line Item.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateExpenseLogResult Class Properties                                                   
-
-fcSDK Documentation
-
-CreateExpenseLogResult Class Properties
+﻿### CreateExpenseLogResult Class Properties
 
 For a list of all members of this type, see [CreateExpenseLogResult members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [OnsiteLogObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult~OnsiteLogObjid.md) | The Objid of the OnsiteLog.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ReturnCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~ReturnCode.md) | Return code of the API call. (Inherited from [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

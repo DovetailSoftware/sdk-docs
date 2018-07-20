@@ -1,8 +1,4 @@
-﻿     LogLeadPhoneSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogLeadPhoneSetup Class Properties
+﻿### LogLeadPhoneSetup Class Properties
 
 For a list of all members of this type, see [LogLeadPhoneSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup_members.md).
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup~Notes.md) | Notes about the Lead Phone Note logging.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup~UserName.md) | The user who is logging the phone call. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LessThan Method (FilterType)                                                   
-
-fcSDK Documentation
-
-LessThan Method (FilterType)
+﻿### LessThan Method (FilterType)
 
 Filter field that are less than the filter input
 
@@ -15,11 +11,9 @@ Overload List
 | [LessThan(String,String)](fcSDK~FChoice.Foundation.Filters.FilterType~LessThan(String,String).md) |   |
 | [LessThan(String,DateTime)](fcSDK~FChoice.Foundation.Filters.FilterType~LessThan(String,DateTime).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

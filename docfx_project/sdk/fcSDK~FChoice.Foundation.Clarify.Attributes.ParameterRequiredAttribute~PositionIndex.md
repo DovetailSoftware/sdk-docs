@@ -1,26 +1,17 @@
-﻿     positionIndex Field                                                   
-
-fcSDK Documentation
-
-positionIndex Field
+﻿### positionIndex Field
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly positionIndex As Integer
 
-Public ReadOnly positionIndex As [Integer](#)
+public readonly int positionIndex
 
-public readonly [int](#) positionIndex
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

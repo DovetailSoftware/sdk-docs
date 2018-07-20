@@ -1,8 +1,4 @@
-﻿     CloseCRSetup Class Members                                                   
-
-fcSDK Documentation
-
-CloseCRSetup Class Members
+﻿### CloseCRSetup Class Members
 
 The following tables list the members exposed by [CloseCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CloseCRSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup~_ctor.md) | Initializes a new instance of the CloseCRSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TestCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup~TestCase.md) | Test case name for the Change Request closing   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup~UserName.md) | The user closing the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

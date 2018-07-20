@@ -5,13 +5,10 @@ FillDataSet(DataSet,String\[\],IDbTransaction,CommandType,String,Boolean) Method
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Sub FillDataSet( _
-   ByVal _ds_ As [DataSet](#), _
+   ByVal _ds_ As DataSet, _
    ByVal _tableNames_() As String, _
    ByVal _trans_ As [IDbTransaction](#), _
    ByVal _cmdType_ As [CommandType](#), _
@@ -20,8 +17,8 @@ Public Overloads Shared Sub FillDataSet( _
 ) 
 
 public static void FillDataSet( 
-   [DataSet](#) _ds_,
-   string\[\] _tableNames_,
+   DataSet _ds_,
+   string[] _tableNames_,
    [IDbTransaction](#) _trans_,
    [CommandType](#) _cmdType_,
    string _cmdText_,
@@ -42,11 +39,9 @@ _cmdText_
 
 _fillSchema_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

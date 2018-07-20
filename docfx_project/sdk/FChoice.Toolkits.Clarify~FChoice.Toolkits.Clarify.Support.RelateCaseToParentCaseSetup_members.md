@@ -1,8 +1,4 @@
-﻿     RelateCaseToParentCaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-RelateCaseToParentCaseSetup Class Members
+﻿### RelateCaseToParentCaseSetup Class Members
 
 The following tables list the members exposed by [RelateCaseToParentCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [RelateCaseToParentCaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup~_ctor.md) | Initializes a new instance of the RelateCaseToParentCaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup~CaseIDNum.md) | Identifier of the child Case in the relation.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ParentCaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup~ParentCaseIDNum.md) | Identifier of a oarent Case in the relation.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

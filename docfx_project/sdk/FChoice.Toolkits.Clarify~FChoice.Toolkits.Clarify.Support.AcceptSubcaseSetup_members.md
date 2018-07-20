@@ -1,8 +1,4 @@
-﻿     AcceptSubcaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-AcceptSubcaseSetup Class Members
+﻿### AcceptSubcaseSetup Class Members
 
 The following tables list the members exposed by [AcceptSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AcceptSubcaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup~_ctor.md) | Initializes a new instance of the AcceptSubcaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup~UserName.md) | The user who has accepted the Subcase. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup~WipBin.md) | User's WipBin in which to place the Subcase. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

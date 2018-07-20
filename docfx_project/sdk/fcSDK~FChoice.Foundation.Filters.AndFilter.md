@@ -1,19 +1,11 @@
-﻿     AndFilter Class                                                   
-
-fcSDK Documentation
-
-AndFilter Class
+﻿### AndFilter Class
 
 Logical filter allowing 2 AND (inclusive) filters.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AndFilter 
    Inherits [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)
 
@@ -25,7 +17,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       [FChoice.Foundation.Filters.LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)  
          **FChoice.Foundation.Filters.AndFilter**  
@@ -38,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

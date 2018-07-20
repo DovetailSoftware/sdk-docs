@@ -1,26 +1,18 @@
-﻿     UpdateWipBinSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateWipBinSetup Class
+﻿### UpdateWipBinSetup Class
 
 Used by the [UpdateWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateWipBin(UpdateWipBinSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateWipBinSetup 
 
 public class UpdateWipBinSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UpdateWipBinSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

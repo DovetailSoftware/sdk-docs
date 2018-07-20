@@ -1,26 +1,18 @@
-﻿     UpdateEcoMaterialDetailSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateEcoMaterialDetailSetup Class
+﻿### UpdateEcoMaterialDetailSetup Class
 
 Used by the [UpdateEcoMaterialDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoMaterialDetail(UpdateEcoMaterialDetailSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateEcoMaterialDetailSetup 
 
 public class UpdateEcoMaterialDetailSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoMaterialDetailSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

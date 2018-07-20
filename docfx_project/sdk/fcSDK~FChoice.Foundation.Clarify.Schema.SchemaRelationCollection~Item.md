@@ -1,17 +1,9 @@
-﻿     Item Property (SchemaRelationCollection)                                                   
-
-fcSDK Documentation
-
-Item Property (SchemaRelationCollection)
+﻿### Item Property (SchemaRelationCollection)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Shadows ReadOnly Default Property Item( _
    ByVal _relationName_ As String _
 ) As [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md)
@@ -24,11 +16,9 @@ public new [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelati
 
 _relationName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

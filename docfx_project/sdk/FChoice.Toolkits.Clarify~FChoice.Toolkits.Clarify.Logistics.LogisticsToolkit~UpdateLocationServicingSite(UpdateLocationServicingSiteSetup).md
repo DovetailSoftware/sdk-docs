@@ -1,8 +1,4 @@
-﻿     UpdateLocationServicingSite(UpdateLocationServicingSiteSetup) Method                                                   
-
-fcSDK Documentation
-
-UpdateLocationServicingSite(UpdateLocationServicingSiteSetup) Method
+﻿### UpdateLocationServicingSite(UpdateLocationServicingSiteSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Used to change the order of the locations servicing a site. This overload takes 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateLocationServicingSite( _
    ByVal _setupParam_ As [UpdateLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateLocationServicingSiteSetup.md) _
@@ -40,11 +33,9 @@ Remarks
 
 This API will give a new rank to the. All other ranks are changed as necessary.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     QualityToolkit Class Members                                                   
-
-fcSDK Documentation
-
-QualityToolkit Class Members
+﻿### QualityToolkit Class Members
 
 The following tables list the members exposed by [QualityToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [QualityToolkit Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,7 +17,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ApplicationClock.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkitBase~ImpersonatorUsername.md) | (Inherited from [FChoice.Toolkits.Clarify.Quality.QualityToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkitBase.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -50,9 +46,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~UpdateCR.md) | Overloaded. Update an existing CR. This overload takes a setup object.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [YankCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~YankCR.md) | Overloaded. Yank the CR from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

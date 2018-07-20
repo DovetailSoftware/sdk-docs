@@ -1,8 +1,4 @@
-﻿     CreateSession(String,String,ClarifyLoginType) Method                                                   
-
-fcSDK Documentation
-
-CreateSession(String,String,ClarifyLoginType) Method
+﻿### CreateSession(String,String,ClarifyLoginType) Method
 
 The user or login name of the user
 
@@ -15,10 +11,7 @@ Creates a new [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.m
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Overridable Function CreateSession( _
    ByVal _userName_ As String, _
@@ -54,11 +47,9 @@ Remarks
 
 This method will log in the session using the given username, password, and login type before returning.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

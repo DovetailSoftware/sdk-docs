@@ -43,7 +43,7 @@ Returns the session's unique identifier.
 | ![Public Property](dotnetimages/publicProperty.png) | [UserID](fcSDK~FChoice.Foundation.FCSession~UserID.md) | Returns the unique identifier for the session's logged-in user. (Inherited from [FChoice.Foundation.FCSession](fcSDK~FChoice.Foundation.FCSession.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](fcSDK~FChoice.Foundation.FCSession~UserName.md) | Returns the login name for the session's logged-in user. (Inherited from [FChoice.Foundation.FCSession](fcSDK~FChoice.Foundation.FCSession.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -73,9 +73,9 @@ Converts a DateTime from the [server timezone](fcSDK~FChoice.Foundation.Clarify
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SetContactUserPassword](fcSDK~FChoice.Foundation.Clarify.ClarifySession~SetContactUserPassword.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [SetPassword](fcSDK~FChoice.Foundation.FCSession~SetPassword.md) | Change a user's password (Inherited from [FChoice.Foundation.FCSession](fcSDK~FChoice.Foundation.FCSession.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

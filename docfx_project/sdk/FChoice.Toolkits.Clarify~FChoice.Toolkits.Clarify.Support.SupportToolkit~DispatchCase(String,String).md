@@ -1,8 +1,4 @@
-﻿     DispatchCase(String,String) Method                                                   
-
-fcSDK Documentation
-
-DispatchCase(String,String) Method
+﻿### DispatchCase(String,String) Method
 
 Case Identifier.
 
@@ -13,10 +9,7 @@ Dispatch the Case to the specified queue. This overload takes a set of required 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DispatchCase( _
    ByVal _caseIDNum_ As String, _
@@ -46,11 +39,9 @@ Remarks
 
 The Case must be in open condition, and not currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

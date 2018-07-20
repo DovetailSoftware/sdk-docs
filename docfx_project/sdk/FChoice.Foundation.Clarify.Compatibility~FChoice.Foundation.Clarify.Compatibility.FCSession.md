@@ -1,23 +1,15 @@
-﻿     FCSession Class                                                   
-
-fcSDK Documentation
-
-FCSession Class
+﻿### FCSession Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[GuidAttribute](#)("906C1CC2-5CE2-456b-BF53-129336DAA394")>
 <[ClassInterfaceAttribute](#)(ClassInterfaceType.None)>
 <[ComVisibleAttribute](#)(True)>
 <[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)>
 <[ProgIdAttribute](#)("FCFLCompat.FCSession")>
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 Public NotInheritable Class FCSession 
    Implements [IFCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession.md) 
 
@@ -26,12 +18,12 @@ Public NotInheritable Class FCSession
 \[[ComVisibleAttribute](#)(true)\]
 \[[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)\]
 \[[ProgIdAttribute](#)("FCFLCompat.FCSession")\]
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 public sealed class FCSession : [IFCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession.md)  
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCSession**  
 
 #### Requirements
@@ -42,7 +34,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     AcceptPartRequest(AcceptPartRequestSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-AcceptPartRequest(AcceptPartRequestSetup,IDbTransaction) Method
+﻿### AcceptPartRequest(AcceptPartRequestSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Accept the specified PartRequest from the queue in which it is currently dispatc
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AcceptPartRequest( _
    ByVal _setupParam_ As [AcceptPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,28 +1,18 @@
-﻿     CloseSession Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-CloseSession Method (IFCSession)
+﻿### CloseSession Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743870)>
+' Declaration
+<DispIdAttribute(1610743870)>
 Sub CloseSession() 
 
-\[[DispIdAttribute](#)(1610743870)\]
+[DispIdAttribute(1610743870)]
 void CloseSession()
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

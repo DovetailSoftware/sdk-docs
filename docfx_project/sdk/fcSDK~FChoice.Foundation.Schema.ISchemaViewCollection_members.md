@@ -1,8 +1,4 @@
-﻿     ISchemaViewCollection Interface Members                                                   
-
-fcSDK Documentation
-
-ISchemaViewCollection Interface Members
+﻿### ISchemaViewCollection Interface Members
 
 The following tables list the members exposed by [ISchemaViewCollection](fcSDK~FChoice.Foundation.Schema.ISchemaViewCollection.md).
 
@@ -12,7 +8,7 @@ Public Properties
 | --- | --- | --- |
 | ![ Property](dotnetimages/Property.png) | [Item](fcSDK~FChoice.Foundation.Schema.ISchemaViewCollection~Item.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -20,9 +16,9 @@ Public Methods
 | --- | --- | --- |
 | ![ Method](dotnetimages/Method.png) | [GetByNumber](fcSDK~FChoice.Foundation.Schema.ISchemaViewCollection~GetByNumber.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

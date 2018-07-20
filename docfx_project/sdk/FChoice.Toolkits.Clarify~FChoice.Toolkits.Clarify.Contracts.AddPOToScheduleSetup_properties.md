@@ -1,8 +1,4 @@
-﻿     AddPOToScheduleSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AddPOToScheduleSetup Class Properties
+﻿### AddPOToScheduleSetup Class Properties
 
 For a list of all members of this type, see [AddPOToScheduleSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup_members.md).
 
@@ -20,9 +16,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [POStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~POStatus.md) | Element from the 'PO Status' application list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ScheduleIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~ScheduleIDNum.md) | Schedule Identifier.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

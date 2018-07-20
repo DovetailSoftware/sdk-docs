@@ -1,8 +1,4 @@
-﻿     FCTimeZoneCollection Class Methods                                                   
-
-fcSDK Documentation
-
-FCTimeZoneCollection Class Methods
+﻿### FCTimeZoneCollection Class Methods
 
 For a list of all members of this type, see [FCTimeZoneCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection_members.md).
 
@@ -42,9 +38,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<FCTimeZone>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<FCTimeZone>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,16 +1,9 @@
-﻿     IsTimeZoneInCountry(String,String,Boolean) Method                                                   
-
-fcSDK Documentation
-
-IsTimeZoneInCountry(String,String,Boolean) Method
+﻿### IsTimeZoneInCountry(String,String,Boolean) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function IsTimeZoneInCountry( _
    ByVal _countryName_ As String, _
@@ -32,11 +25,9 @@ _tzName_
 
 _isFullTzName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

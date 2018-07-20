@@ -1,8 +1,4 @@
-﻿     Sort Method (IGlobalStringElementCollection)                                                   
-
-fcSDK Documentation
-
-Sort Method (IGlobalStringElementCollection)
+﻿### Sort Method (IGlobalStringElementCollection)
 
 Overload List
 
@@ -13,11 +9,9 @@ Overload List
 | [Sort(Int32,Int32,IComparer<IGlobalStringElement>)](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~Sort(Int32,Int32,IComparer{IGlobalStringElement}).md) |   |
 | [Sort(Comparison<IGlobalStringElement>)](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~Sort(Comparison{IGlobalStringElement}).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

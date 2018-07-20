@@ -1,8 +1,4 @@
-﻿     LogPartsUsedExchangeSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogPartsUsedExchangeSetup Class Properties
+﻿### LogPartsUsedExchangeSetup Class Properties
 
 For a list of all members of this type, see [LogPartsUsedExchangeSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup_members.md).
 
@@ -35,9 +31,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ToLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup~ToLocation.md) | Inventory location into which the part is being transferred   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup~UserName.md) | The user who has logged the Part usage. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

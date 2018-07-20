@@ -1,6 +1,4 @@
-﻿     SqlHelper Class Properties                                                   
-
-SqlHelper Class Properties
+﻿### SqlHelper Class Properties
 
 For a list of all members of this type, see [SqlHelper members](FChoice.Common~FChoice.Common.Data.SqlHelper_members.md).
 
@@ -16,9 +14,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Parameters](FChoice.Common~FChoice.Common.Data.SqlHelper~Parameters.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Transaction](FChoice.Common~FChoice.Common.Data.SqlHelper~Transaction.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

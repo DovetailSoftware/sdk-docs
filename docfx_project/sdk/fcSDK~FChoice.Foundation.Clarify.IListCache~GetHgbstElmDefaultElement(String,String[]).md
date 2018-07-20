@@ -1,16 +1,9 @@
-﻿     GetHgbstElmDefaultElement(String,String\[\]) Method                                                   
-
-fcSDK Documentation
-
-GetHgbstElmDefaultElement(String,String\[\]) Method
+﻿### GetHgbstElmDefaultElement(String,String\[\]) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Overloads Function GetHgbstElmDefaultElement( _
    ByVal _listTitle_ As String, _
@@ -19,7 +12,7 @@ Overloads Function GetHgbstElmDefaultElement( _
 
 [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md) GetHgbstElmDefaultElement( 
    string _listTitle_,
-   params string\[\] _elementTitles_
+   params string[] _elementTitles_
 )
 
 #### Parameters
@@ -28,11 +21,9 @@ _listTitle_
 
 _elementTitles_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

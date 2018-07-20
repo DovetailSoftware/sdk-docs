@@ -1,8 +1,4 @@
-﻿     LogPartsUsedExchange(String,String,Int32,String,String,String,String) Method                                                   
-
-fcSDK Documentation
-
-LogPartsUsedExchange(String,String,Int32,String,String,String,String) Method
+﻿### LogPartsUsedExchange(String,String,Int32,String,String,String,String) Method
 
 The Id Number of the related Part Request Detail (if any)
 
@@ -21,15 +17,12 @@ The Serial Number of the part being installed
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogPartsUsedExchange( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _caseIDNum_ As String, _
-   ByVal _removeSitePartObjid_ As [Integer](#), _
+   ByVal _removeSitePartObjid_ As Integer, _
    ByVal _installPartNumber_ As String, _
    ByVal _installPartRevision_ As String, _
    ByVal _installPartDomain_ As String, _
@@ -39,7 +32,7 @@ Public Overloads Function LogPartsUsedExchange( _
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogPartsUsedExchange( 
    string _partRequestDetailIDNum_,
    string _caseIDNum_,
-   [int](#) _removeSitePartObjid_,
+   int _removeSitePartObjid_,
    string _installPartNumber_,
    string _installPartRevision_,
    string _installPartDomain_,
@@ -82,11 +75,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PartUsed.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

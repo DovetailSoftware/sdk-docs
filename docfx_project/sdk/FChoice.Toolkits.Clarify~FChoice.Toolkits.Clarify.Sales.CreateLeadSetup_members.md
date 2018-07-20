@@ -1,8 +1,4 @@
-﻿     CreateLeadSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateLeadSetup Class Members
+﻿### CreateLeadSetup Class Members
 
 The following tables list the members exposed by [CreateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateLeadSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup~_ctor.md) | Initializes a new instance of the CreateLeadSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -43,9 +39,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup~Title.md) | Title for the lead.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup~UserName.md) | The user who is creating the lead. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

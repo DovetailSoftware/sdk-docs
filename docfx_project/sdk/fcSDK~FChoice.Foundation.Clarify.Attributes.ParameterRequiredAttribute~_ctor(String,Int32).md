@@ -1,26 +1,24 @@
-﻿     ParameterRequiredAttribute Constructor(String,Int32)                                                   
+﻿### ParameterRequiredAttribute Constructor(String,Int32)
+```
 
-fcSDK Documentation
-
-ParameterRequiredAttribute Constructor(String,Int32)
-
+```csharp
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Function New( _
    ByVal _method_ As String, _
-   ByVal _constructorIndex_ As [Integer](#) _
+   ByVal _constructorIndex_ As Integer _
 )
+```
 
+```csharp
 public ParameterRequiredAttribute( 
    string _method_,
-   [int](#) _constructorIndex_
+   int _constructorIndex_
 )
+```
 
 #### Parameters
 
@@ -28,11 +26,7 @@ _method_
 
 _constructorIndex_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

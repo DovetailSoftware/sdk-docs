@@ -1,8 +1,4 @@
-﻿     UpdateSitePartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateSitePartSetup Class Properties
+﻿### UpdateSitePartSetup Class Properties
 
 For a list of all members of this type, see [UpdateSitePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateSitePartSetup_members.md).
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateSitePartSetup~UserName.md) | The user who is updating the Site Part. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WarrantyDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateSitePartSetup~WarrantyDate.md) | The DateTime the warranty begins for the Site Part.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

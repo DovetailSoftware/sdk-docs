@@ -1,8 +1,4 @@
-﻿     ISchemaField Interface Properties                                                   
-
-fcSDK Documentation
-
-ISchemaField Interface Properties
+﻿### ISchemaField Interface Properties
 
 For a list of all members of this type, see [ISchemaField members](fcSDK~FChoice.Foundation.Schema.ISchemaField_members.md).
 
@@ -23,9 +19,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Name](fcSDK~FChoice.Foundation.Schema.ISchemaField~Name.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Rank](fcSDK~FChoice.Foundation.Schema.ISchemaField~Rank.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

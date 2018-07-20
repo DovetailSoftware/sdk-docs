@@ -1,16 +1,9 @@
-﻿     ClarifyDataObject Class                                                   
-
-fcSDK Documentation
-
-ClarifyDataObject Class
+﻿### ClarifyDataObject Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class ClarifyDataObject 
    Inherits [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)
@@ -20,7 +13,7 @@ public abstract class ClarifyDataObject : [FChoice.Foundation.DataObjects.DataOb
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  
       **FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject**  
          [FChoice.Foundation.Clarify.DataObjects.Country](fcSDK~FChoice.Foundation.Clarify.DataObjects.Country.md)  
@@ -48,7 +41,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

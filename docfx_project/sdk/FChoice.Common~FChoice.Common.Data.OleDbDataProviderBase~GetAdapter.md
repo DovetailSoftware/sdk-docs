@@ -1,6 +1,4 @@
-﻿     GetAdapter Method (OleDbDataProviderBase)                                                   
-
-GetAdapter Method (OleDbDataProviderBase)
+﻿### GetAdapter Method (OleDbDataProviderBase)
 
 Overload List
 
@@ -10,11 +8,9 @@ Overload List
 | [GetAdapter()](FChoice.Common~FChoice.Common.Data.OleDbDataProviderBase~GetAdapter().md) |   |
 | [GetAdapter(IDbConnection,String)](FChoice.Common~FChoice.Common.Data.OleDbDataProviderBase~GetAdapter(IDbConnection,String).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

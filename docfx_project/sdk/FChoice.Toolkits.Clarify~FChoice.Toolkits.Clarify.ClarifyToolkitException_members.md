@@ -1,8 +1,4 @@
-﻿     ClarifyToolkitException Class Members                                                   
-
-fcSDK Documentation
-
-ClarifyToolkitException Class Members
+﻿### ClarifyToolkitException Class Members
 
 The following tables list the members exposed by [ClarifyToolkitException](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ClarifyToolkitException.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ClarifyToolkitException Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ClarifyToolkitException~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -27,7 +23,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -38,9 +34,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

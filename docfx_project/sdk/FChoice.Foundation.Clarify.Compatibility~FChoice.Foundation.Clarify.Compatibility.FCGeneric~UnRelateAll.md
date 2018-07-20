@@ -1,17 +1,9 @@
-﻿     UnRelateAll Method (FCGeneric)                                                   
-
-fcSDK Documentation
-
-UnRelateAll Method (FCGeneric)
+﻿### UnRelateAll Method (FCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub UnRelateAll( _
    ByVal _relationName_ As String _
 ) 
@@ -24,11 +16,9 @@ public void UnRelateAll(
 
 _relationName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

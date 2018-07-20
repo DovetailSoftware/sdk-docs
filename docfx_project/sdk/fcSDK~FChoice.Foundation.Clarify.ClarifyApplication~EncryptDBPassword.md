@@ -1,8 +1,4 @@
-﻿     EncryptDBPassword Method (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-EncryptDBPassword Method (ClarifyApplication)
+﻿### EncryptDBPassword Method (ClarifyApplication)
 
 The password to obfuscate
 
@@ -11,11 +7,7 @@ Obfuscates a database password using the Clarify DB password obfuscation algorit
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function EncryptDBPassword( _
    ByVal _password_ As String _
 ) As String
@@ -38,11 +30,9 @@ Remarks
 
 This password can be used in a connection string to log a user directly into the database.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

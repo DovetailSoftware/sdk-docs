@@ -1,8 +1,4 @@
-﻿     RejectSolutionSetup Class Members                                                   
-
-fcSDK Documentation
-
-RejectSolutionSetup Class Members
+﻿### RejectSolutionSetup Class Members
 
 The following tables list the members exposed by [RejectSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RejectSolutionSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [RejectSolutionSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RejectSolutionSetup~_ctor.md) | Initializes a new instance of the RejectSolutionSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RejectSolutionSetup~UserName.md) | The user who has rejected the Solution. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RejectSolutionSetup~WipBin.md) | User's WipBin in which to place the Solution. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

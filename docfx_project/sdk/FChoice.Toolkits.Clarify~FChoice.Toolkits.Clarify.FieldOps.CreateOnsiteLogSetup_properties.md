@@ -1,8 +1,4 @@
-﻿     CreateOnsiteLogSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateOnsiteLogSetup Class Properties
+﻿### CreateOnsiteLogSetup Class Properties
 
 For a list of all members of this type, see [CreateOnsiteLogSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateOnsiteLogSetup_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Resolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateOnsiteLogSetup~Resolution.md) | Element from the 'Resolution' application list. If not set the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateOnsiteLogSetup~UserName.md) | The user who created the Onsite Log. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

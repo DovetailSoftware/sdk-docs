@@ -1,8 +1,4 @@
-﻿     PartTransfer(String,String,String,String,Location,Location) Method                                                   
-
-fcSDK Documentation
-
-PartTransfer(String,String,String,String,Location,Location) Method
+﻿### PartTransfer(String,String,String,String,Location,Location) Method
 
 Part number for the Part Request
 
@@ -23,10 +19,7 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function PartTransfer( _
    ByVal _partNumber_ As String, _
@@ -90,11 +83,9 @@ To use primary bin suggestions/recommendations, please see the remarks on the [T
 
 This API supports transferring parts by quantity or a specific serial number.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

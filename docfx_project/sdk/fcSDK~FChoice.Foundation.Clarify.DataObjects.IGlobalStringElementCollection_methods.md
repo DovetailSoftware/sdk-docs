@@ -1,8 +1,4 @@
-﻿     IGlobalStringElementCollection Interface Methods                                                   
-
-fcSDK Documentation
-
-IGlobalStringElementCollection Interface Methods
+﻿### IGlobalStringElementCollection Interface Methods
 
 For a list of all members of this type, see [IGlobalStringElementCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection_members.md).
 
@@ -37,9 +33,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [TrimExcess](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~TrimExcess.md) |   |
 | ![ Method](dotnetimages/Method.png) | [TrueForAll](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~TrueForAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

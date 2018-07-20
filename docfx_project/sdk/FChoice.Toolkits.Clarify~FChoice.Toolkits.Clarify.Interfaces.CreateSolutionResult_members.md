@@ -1,8 +1,4 @@
-﻿     CreateSolutionResult Class Members                                                   
-
-fcSDK Documentation
-
-CreateSolutionResult Class Members
+﻿### CreateSolutionResult Class Members
 
 The following tables list the members exposed by [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateSolutionResult Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~_ctor().md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ReturnCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~ReturnCode.md) | Return code of the API call. (Inherited from [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkaroundObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~WorkaroundObjid.md) | Objid of the Workaround that is created along with the Solution   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

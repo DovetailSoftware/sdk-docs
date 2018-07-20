@@ -1,8 +1,4 @@
-﻿     UpdateCaseCommitmentSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateCaseCommitmentSetup Class Members
+﻿### UpdateCaseCommitmentSetup Class Members
 
 The following tables list the members exposed by [UpdateCaseCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateCaseCommitmentSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup~_ctor.md) | Initializes a new instance of the UpdateCaseCommitmentSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -34,9 +30,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup~UpdateDate.md) | DateTime the Commitment was updated. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup~UserName.md) | User who updating the Commitment. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

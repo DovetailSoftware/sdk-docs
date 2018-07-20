@@ -1,8 +1,4 @@
-﻿     ISchemaCache Interface Members                                                   
-
-fcSDK Documentation
-
-ISchemaCache Interface Members
+﻿### ISchemaCache Interface Members
 
 The following tables list the members exposed by [ISchemaCache](fcSDK~FChoice.Foundation.Schema.ISchemaCache.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Tables](fcSDK~FChoice.Foundation.Schema.ISchemaCache~Tables.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Views](fcSDK~FChoice.Foundation.Schema.ISchemaCache~Views.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -42,9 +38,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [IsValidTableOrView](fcSDK~FChoice.Foundation.Schema.ISchemaCache~IsValidTableOrView.md) |   |
 | ![ Method](dotnetimages/Method.png) | [IsValidView](fcSDK~FChoice.Foundation.Schema.ISchemaCache~IsValidView.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

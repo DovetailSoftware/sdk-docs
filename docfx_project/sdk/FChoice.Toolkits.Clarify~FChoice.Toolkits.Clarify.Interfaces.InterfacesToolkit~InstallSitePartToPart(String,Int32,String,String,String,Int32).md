@@ -1,8 +1,4 @@
-﻿     InstallSitePartToPart(String,Int32,String,String,String,Int32) Method                                                   
-
-fcSDK Documentation
-
-InstallSitePartToPart(String,Int32,String,String,String,Int32) Method
+﻿### InstallSitePartToPart(String,Int32,String,String,String,Int32) Method
 
 Identifier of the Site where the part will be installed.
 
@@ -21,28 +17,28 @@ Install a Site Part under another Site Part. This overload takes a set of requir
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function InstallSitePartToPart( _
    ByVal _siteIDNum_ As String, _
-   ByVal _parentSitePartObjid_ As [Integer](#), _
+   ByVal _parentSitePartObjid_ As Integer, _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
    ByVal _partDomain_ As String, _
-   ByVal _quantity_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _quantity_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) InstallSitePartToPart( 
+```csharp
+public ToolkitResult InstallSitePartToPart( 
    string _siteIDNum_,
-   [int](#) _parentSitePartObjid_,
+   int _parentSitePartObjid_,
    string _partNumber_,
    string _partRevision_,
    string _partDomain_,
-   [int](#) _quantity_
+   int _quantity_
 )
+```
 
 #### Parameters
 
@@ -72,15 +68,11 @@ The number of units to install
 
 #### Return Value
 
-The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+The following values are populated in the ToolkitResult object returned by the API method:
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the SitePart.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

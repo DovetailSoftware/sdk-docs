@@ -32,9 +32,9 @@ Creates a new row in the **ClarifyGeneric** with the specified [objId](fcSDK~FC
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) | Overloaded. Updates changes to a single [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateAll](fcSDK~FChoice.Foundation.FCGeneric~UpdateAll.md) | Overloaded. Updates all modified rows of the **FCGeneric**. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

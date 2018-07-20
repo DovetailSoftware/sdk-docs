@@ -1,8 +1,4 @@
-﻿     ValidatedNameCollection Class Methods                                                   
-
-fcSDK Documentation
-
-ValidatedNameCollection Class Methods
+﻿### ValidatedNameCollection Class Methods
 
 For a list of all members of this type, see [ValidatedNameCollection members](fcSDK~FChoice.Foundation.ValidatedNameCollection_members.md).
 
@@ -22,10 +18,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](fcSDK~FChoice.Foundation.ValidatedNameCollection~RemoveAt.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [SetList](fcSDK~FChoice.Foundation.ValidatedNameCollection~SetList.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](fcSDK~FChoice.Foundation.ValidatedNameCollection~ToString.md) |   |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

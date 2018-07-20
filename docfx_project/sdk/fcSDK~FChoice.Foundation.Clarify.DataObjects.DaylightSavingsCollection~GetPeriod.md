@@ -1,34 +1,24 @@
-﻿     GetPeriod Method                                                   
-
-fcSDK Documentation
-
-GetPeriod Method
+﻿### GetPeriod Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetPeriod( _
-   ByVal _date_ As [Date](#) _
+   ByVal _date_ As Date _
 ) As [DaylightSavingsPeriod](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod.md)
 
 public [DaylightSavingsPeriod](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod.md) GetPeriod( 
-   [DateTime](#) _date_
+   DateTime _date_
 )
 
 #### Parameters
 
 _date_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

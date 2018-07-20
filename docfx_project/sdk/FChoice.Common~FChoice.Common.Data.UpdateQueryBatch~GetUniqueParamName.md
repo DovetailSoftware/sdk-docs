@@ -1,6 +1,4 @@
-﻿     GetUniqueParamName Method                                                   
-
-GetUniqueParamName Method
+﻿### GetUniqueParamName Method
 
 The desired name for the parameter
 
@@ -9,10 +7,7 @@ Gets a unique parameter name among all the parameters for all the queries in thi
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function GetUniqueParamName( _
    ByVal _baseName_ As String _
@@ -32,11 +27,9 @@ The desired name for the parameter
 
 The desired name with numbers appended as necessary to guarantee uniqueness
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

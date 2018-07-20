@@ -1,26 +1,18 @@
-﻿     DeleteLocationServicingSiteSetup Class                                                   
-
-fcSDK Documentation
-
-DeleteLocationServicingSiteSetup Class
+﻿### DeleteLocationServicingSiteSetup Class
 
 Used by the [DeleteLocationServicingSite](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteLocationServicingSite(DeleteLocationServicingSiteSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DeleteLocationServicingSiteSetup 
 
 public class DeleteLocationServicingSiteSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.DeleteLocationServicingSiteSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

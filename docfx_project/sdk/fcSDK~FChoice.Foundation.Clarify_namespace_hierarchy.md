@@ -6,7 +6,7 @@ FChoice.Foundation.Clarify Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)  
       [FChoice.Foundation.Clarify.ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)  
          [FChoice.Foundation.Clarify.ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.md)  
@@ -47,7 +47,7 @@ Inheritance Hierarchy
                [FChoice.Foundation.GenericException](fcSDK~FChoice.Foundation.GenericException.md)  
                   [FChoice.Foundation.Clarify.ClarifyGenericException](fcSDK~FChoice.Foundation.Clarify.ClarifyGenericException.md)  
 
-See Also
+
 
 #### Reference
 

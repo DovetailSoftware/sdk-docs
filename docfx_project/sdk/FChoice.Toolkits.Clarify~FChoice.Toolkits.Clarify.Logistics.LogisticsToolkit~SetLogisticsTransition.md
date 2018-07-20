@@ -1,8 +1,4 @@
-﻿     SetLogisticsTransition Method                                                   
-
-fcSDK Documentation
-
-SetLogisticsTransition Method
+﻿### SetLogisticsTransition Method
 
 Allows you to create or modify Logistics Transitions in the database. This overload takes a set of required parameters for the API.
 
@@ -20,11 +16,9 @@ Remarks
 
 If a transition does not yet exist for the conditions and request type, a new transition is created. Otherwise, the existing transition is modified.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

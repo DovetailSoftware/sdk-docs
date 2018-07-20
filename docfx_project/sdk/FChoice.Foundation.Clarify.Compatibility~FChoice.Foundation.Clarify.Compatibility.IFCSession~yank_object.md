@@ -1,18 +1,11 @@
-﻿     yank_object Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-yank_object Method (IFCSession)
+﻿### yank_object Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743903)>
+<DispIdAttribute(1610743903)>
 Function yank_object( _
    ByVal _objId_ As String, _
    ByVal _wipBin_ As String, _
@@ -22,7 +15,7 @@ Function yank_object( _
    ByVal _objectType_ As String _
 ) As Short
 
-\[[DispIdAttribute](#)(1610743903)\]
+[DispIdAttribute(1610743903)]
 short yank_object( 
    string _objId_,
    string _wipBin_,
@@ -46,11 +39,9 @@ _genearateTimeBombs_
 
 _objectType_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

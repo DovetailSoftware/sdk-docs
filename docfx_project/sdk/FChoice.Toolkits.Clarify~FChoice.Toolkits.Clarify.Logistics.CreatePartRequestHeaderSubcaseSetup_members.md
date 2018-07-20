@@ -1,8 +1,4 @@
-﻿     CreatePartRequestHeaderSubcaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreatePartRequestHeaderSubcaseSetup Class Members
+﻿### CreatePartRequestHeaderSubcaseSetup Class Members
 
 The following tables list the members exposed by [CreatePartRequestHeaderSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreatePartRequestHeaderSubcaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup~_ctor.md) | Initializes a new instance of the CreatePartRequestHeaderSubcaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -33,9 +29,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ShipToSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup~ShipToSiteIDNum.md) | Identifier of the site where this Part Request should be shipped   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup~UserName.md) | The user who creates the Part Request. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

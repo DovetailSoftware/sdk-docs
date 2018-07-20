@@ -1,8 +1,4 @@
-﻿     ForwardSubcaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ForwardSubcaseSetup Class Properties
+﻿### ForwardSubcaseSetup Class Properties
 
 For a list of all members of this type, see [ForwardSubcaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardSubcaseSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SubcaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardSubcaseSetup~SubcaseIDNum.md) | Subcase Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardSubcaseSetup~UserName.md) | The user who has forwarded the Subcase. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

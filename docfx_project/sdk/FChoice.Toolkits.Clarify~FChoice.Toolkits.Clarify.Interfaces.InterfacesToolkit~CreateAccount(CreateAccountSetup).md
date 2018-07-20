@@ -1,8 +1,4 @@
-﻿     CreateAccount(CreateAccountSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateAccount(CreateAccountSetup) Method
+﻿### CreateAccount(CreateAccountSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Create Account (business org) This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateAccount( _
    ByVal _setupParam_ As [CreateAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAccountSetup.md) _
@@ -37,11 +30,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Account.
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the Account.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

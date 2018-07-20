@@ -1,8 +1,4 @@
-﻿     PartInfo Class Fields                                                   
-
-fcSDK Documentation
-
-PartInfo Class Fields
+﻿### PartInfo Class Fields
 
 For a list of all members of this type, see [PartInfo members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartInfo_members.md).
 
@@ -23,9 +19,9 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [Quantity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartInfo~Quantity.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [RepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartInfo~RepairType.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

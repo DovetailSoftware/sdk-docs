@@ -11,17 +11,14 @@ Gets the row containing the specified primary key values.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function Find( _
-   ByVal _keys_() As [Object](#) _
+   ByVal _keys_() As Object _
 ) As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)
 
 public [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) Find( 
-   [object](#)\[\] _keys_
+   object\[\] _keys_
 )
 
 #### Parameters
@@ -34,11 +31,9 @@ Remarks
 
 The implementation of Find is delegated to DataRowCollection's [Find](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatarowcollectionclassfindtopic2.htm).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

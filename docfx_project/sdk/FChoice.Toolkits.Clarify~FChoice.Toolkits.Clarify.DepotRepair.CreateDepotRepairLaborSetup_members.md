@@ -1,8 +1,4 @@
-﻿     CreateDepotRepairLaborSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateDepotRepairLaborSetup Class Members
+﻿### CreateDepotRepairLaborSetup Class Members
 
 The following tables list the members exposed by [CreateDepotRepairLaborSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairLaborSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateDepotRepairLaborSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairLaborSetup~_ctor.md) | Initializes a new instance of the CreateDepotRepairLaborSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -29,9 +25,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairLaborSetup~UserName.md) | The user creating the Labor entry. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkCenter](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairLaborSetup~WorkCenter.md) | Indicates where labor was performed   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

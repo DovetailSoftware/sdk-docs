@@ -1,8 +1,4 @@
-﻿     ConfigItemCache Class Methods                                                   
-
-fcSDK Documentation
-
-ConfigItemCache Class Methods
+﻿### ConfigItemCache Class Methods
 
 For a list of all members of this type, see [ConfigItemCache members](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache_members.md).
 
@@ -12,9 +8,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCache](fcSDK~FChoice.Foundation.CacheBase~UpdateCache.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

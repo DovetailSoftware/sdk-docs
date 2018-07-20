@@ -1,8 +1,4 @@
-﻿     CreateCaseObjidSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateCaseObjidSetup Class Properties
+﻿### CreateCaseObjidSetup Class Properties
 
 For a list of all members of this type, see [CreateCaseObjidSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseObjidSetup_members.md).
 
@@ -32,9 +28,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseObjidSetup~Title.md) | Title for the Case.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseObjidSetup~UserName.md) | The User who created the Case. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

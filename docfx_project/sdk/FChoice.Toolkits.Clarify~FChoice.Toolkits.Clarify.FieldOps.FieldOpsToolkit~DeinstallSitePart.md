@@ -1,8 +1,4 @@
-﻿     DeinstallSitePart Method (FieldOpsToolkit)                                                   
-
-fcSDK Documentation
-
-DeinstallSitePart Method (FieldOpsToolkit)
+﻿### DeinstallSitePart Method (FieldOpsToolkit)
 
 Used to de-install a site part (and the sub-parts installed underneath it) from a site. This overload takes a setup object and a database transaction.
 
@@ -16,11 +12,9 @@ Overload List
 | [DeinstallSitePart(DeinstallSitePartSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DeinstallSitePart(DeinstallSitePartSetup).md) |   |
 | [DeinstallSitePart(DeinstallSitePartSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DeinstallSitePart(DeinstallSitePartSetup,IDbTransaction).md) | Used to de-install a site part (and the sub-parts installed underneath it) from a site. This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

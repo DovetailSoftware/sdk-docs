@@ -1,28 +1,19 @@
-﻿     Delete Method (IFCGeneric)                                                   
-
-fcSDK Documentation
-
-Delete Method (IFCGeneric)
+﻿### Delete Method (IFCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743877)>
+<DispIdAttribute(1610743877)>
 Sub Delete() 
 
-\[[DispIdAttribute](#)(1610743877)\]
+[DispIdAttribute(1610743877)]
 void Delete()
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

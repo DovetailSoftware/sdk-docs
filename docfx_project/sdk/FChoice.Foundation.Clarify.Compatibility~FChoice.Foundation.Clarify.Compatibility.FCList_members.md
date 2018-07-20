@@ -1,8 +1,4 @@
-﻿     FCList Class Members                                                   
-
-fcSDK Documentation
-
-FCList Class Members
+﻿### FCList Class Members
 
 The following tables list the members exposed by [FCList](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [FCList Constructor](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -23,7 +19,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ItemType](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList~ItemType.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Sorted](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList~Sorted.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -38,9 +34,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [ItemByIndex](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList~ItemByIndex.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [Sort](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList~Sort.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     DeleteLocationServicingSiteSetup Class Members                                                   
-
-fcSDK Documentation
-
-DeleteLocationServicingSiteSetup Class Members
+﻿### DeleteLocationServicingSiteSetup Class Members
 
 The following tables list the members exposed by [DeleteLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteLocationServicingSiteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DeleteLocationServicingSiteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteLocationServicingSiteSetup~_ctor.md) | Initializes a new instance of the DeleteLocationServicingSiteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -28,9 +24,9 @@ Identifier of the Site that the inventory location was servicing
 
   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

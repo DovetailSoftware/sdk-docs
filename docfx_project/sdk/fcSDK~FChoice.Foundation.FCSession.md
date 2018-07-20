@@ -5,16 +5,16 @@
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 Public MustInherit Class FCSession 
+```
 
-\[[DefaultMemberAttribute](#)("Item")\]
+```csharp
+[DefaultMemberAttribute("Item")]
 public abstract class FCSession 
+```
 
 Remarks
 
@@ -24,9 +24,9 @@ FCFL.NET sessions are stateful containers that are used to remember information 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   **FChoice.Foundation.FCSession**  
-      [FChoice.Foundation.Clarify.ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)  
+System.Object  
+**FChoice.Foundation.FCSession**  
+[FChoice.Foundation.Clarify.ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)  
 
 #### Requirements
 
@@ -35,8 +35,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

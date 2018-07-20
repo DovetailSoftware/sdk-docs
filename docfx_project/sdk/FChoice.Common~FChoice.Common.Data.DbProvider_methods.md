@@ -1,6 +1,4 @@
-﻿     DbProvider Class Methods                                                   
-
-DbProvider Class Methods
+﻿### DbProvider Class Methods
 
 For a list of all members of this type, see [DbProvider members](FChoice.Common~FChoice.Common.Data.DbProvider_members.md).
 
@@ -29,9 +27,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TestConnection](FChoice.Common~FChoice.Common.Data.DbProvider~TestConnection.md) | Overloaded. Executes a test to connect to the database using the default connection string   |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateConnectionParams](FChoice.Common~FChoice.Common.Data.DbProvider~ValidateConnectionParams.md) | Validates the supplied connection parameters against the rules of the underlying provider   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

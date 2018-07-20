@@ -1,26 +1,17 @@
-﻿     Cardinality Property (SchemaRelation)                                                   
-
-fcSDK Documentation
-
-Cardinality Property (SchemaRelation)
+﻿### Cardinality Property (SchemaRelation)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property Cardinality As [SchemaRelationCardinality](fcSDK~FChoice.Foundation.Schema.SchemaRelationCardinality.md)
 
 public [SchemaRelationCardinality](fcSDK~FChoice.Foundation.Schema.SchemaRelationCardinality.md) Cardinality {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     MockCollection Class Methods                                                   
-
-fcSDK Documentation
-
-MockCollection Class Methods
+﻿### MockCollection Class Methods
 
 For a list of all members of this type, see [MockCollection members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockCollection_members.md).
 
@@ -16,9 +12,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Item](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockCollection~Item.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [Remove](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockCollection~Remove.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

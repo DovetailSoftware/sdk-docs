@@ -1,8 +1,4 @@
-﻿     WorkflowObjectInfo Class Members                                                   
-
-fcSDK Documentation
-
-WorkflowObjectInfo Class Members
+﻿### WorkflowObjectInfo Class Members
 
 The following tables list the members exposed by [WorkflowObjectInfo](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [WorkflowObjectInfo Constructor](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,7 +37,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UseParticipantActEntryModel](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo~UseParticipantActEntryModel.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBinRelation](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo~WipBinRelation.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,9 +49,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GetQueueableObjectInfo](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo~GetQueueableObjectInfo.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [ObjectTypeExists](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo~ObjectTypeExists.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

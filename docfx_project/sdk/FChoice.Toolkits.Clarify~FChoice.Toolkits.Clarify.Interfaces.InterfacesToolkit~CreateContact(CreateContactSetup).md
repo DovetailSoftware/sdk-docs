@@ -1,8 +1,4 @@
-﻿     CreateContact(CreateContactSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateContact(CreateContactSetup) Method
+﻿### CreateContact(CreateContactSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Creates a Contact. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateContact( _
    ByVal _setupParam_ As [CreateContactSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContactSetup.md) _
@@ -42,11 +35,9 @@ A default contact role for the [Site](FChoice.Toolkits.Clarify~FChoice.Toolkits.
 
 If you need to create duplicate contacts (same first name, last name, phone), you may use the [AllowDuplicateContact](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase~AllowDuplicateContact.md) property.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

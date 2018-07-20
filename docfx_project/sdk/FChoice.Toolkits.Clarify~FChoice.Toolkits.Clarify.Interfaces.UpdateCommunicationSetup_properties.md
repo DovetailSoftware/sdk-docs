@@ -1,8 +1,4 @@
-﻿     UpdateCommunicationSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateCommunicationSetup Class Properties
+﻿### UpdateCommunicationSetup Class Properties
 
 For a list of all members of this type, see [UpdateCommunicationSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateCommunicationSetup_members.md).
 
@@ -30,9 +26,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Updated](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateCommunicationSetup~Updated.md) | The date and time that the communication was updated.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateCommunicationSetup~UserName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ForwardQuote(ForwardQuoteSetup) Method                                                   
-
-fcSDK Documentation
-
-ForwardQuote(ForwardQuoteSetup) Method
+﻿### ForwardQuote(ForwardQuoteSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Reject-forward the Quote from one queue to another. This overload takes a setup 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ForwardQuote( _
    ByVal _setupParam_ As [ForwardQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ForwardQuoteSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Quote must be in open condition, and not currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     ServerTimeZone Property (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-ServerTimeZone Property (ClarifyApplication)
+﻿### ServerTimeZone Property (ClarifyApplication)
 
 Timezone being used by the application.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property ServerTimeZone As [ITimeZone](fcSDK~FChoice.Foundation.DataObjects.ITimeZone.md)
 
@@ -26,11 +19,9 @@ Remarks
 
 This timezone is used when [converting](fcSDK~FChoice.Foundation.FCSession~ConvertDate.md) from session to server time
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

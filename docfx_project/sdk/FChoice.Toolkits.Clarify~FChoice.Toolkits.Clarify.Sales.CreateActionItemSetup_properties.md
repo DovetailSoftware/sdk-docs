@@ -1,8 +1,4 @@
-﻿     CreateActionItemSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateActionItemSetup Class Properties
+﻿### CreateActionItemSetup Class Properties
 
 For a list of all members of this type, see [CreateActionItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateActionItemSetup_members.md).
 
@@ -30,9 +26,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateActionItemSetup~Title.md) | Title of the Action Item.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateActionItemSetup~UserName.md) | The user who is creating the action item. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     DispatchQuoteSetup Class Members                                                   
-
-fcSDK Documentation
-
-DispatchQuoteSetup Class Members
+﻿### DispatchQuoteSetup Class Members
 
 The following tables list the members exposed by [DispatchQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DispatchQuoteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DispatchQuoteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DispatchQuoteSetup~_ctor.md) | Initializes a new instance of the DispatchQuoteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [QuoteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DispatchQuoteSetup~QuoteIDNum.md) | Quote Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DispatchQuoteSetup~UserName.md) | The user who has dispatched the Quote. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

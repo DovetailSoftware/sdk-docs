@@ -1,16 +1,9 @@
-﻿     GlobalStringList Class                                                   
-
-fcSDK Documentation
-
-GlobalStringList Class
+﻿### GlobalStringList Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class GlobalStringList 
    Inherits [ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)
@@ -20,7 +13,7 @@ public class GlobalStringList : [ClarifyDataObject](fcSDK~FChoice.Foundation.Cla
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  
       [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)  
          **FChoice.Foundation.Clarify.DataObjects.GlobalStringList**  
@@ -33,7 +26,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

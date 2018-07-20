@@ -1,8 +1,4 @@
-﻿     UpdateDialogueSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateDialogueSetup Class Members
+﻿### UpdateDialogueSetup Class Members
 
 The following tables list the members exposed by [UpdateDialogueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateDialogueSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateDialogueSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateDialogueSetup~_ctor.md) | Initializes a new instance of the UpdateDialogueSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Updated](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateDialogueSetup~Updated.md) | The date and time that the communication was updated.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateDialogueSetup~UserName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

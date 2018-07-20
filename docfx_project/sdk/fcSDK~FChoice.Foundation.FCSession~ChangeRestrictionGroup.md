@@ -1,8 +1,4 @@
-﻿     ChangeRestrictionGroup Method (FCSession)                                                   
-
-fcSDK Documentation
-
-ChangeRestrictionGroup Method (FCSession)
+﻿### ChangeRestrictionGroup Method (FCSession)
 
 Name of the [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md)the session should start using.
 
@@ -13,11 +9,7 @@ Changes the [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionG
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Overridable Sub ChangeRestrictionGroup( _
    ByVal _newGroupName_ As String, _
    ByVal _saveChange_ As Boolean _
@@ -38,11 +30,9 @@ _saveChange_
 
 Make the new [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md) permanent.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

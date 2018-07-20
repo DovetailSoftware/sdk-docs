@@ -1,8 +1,4 @@
-﻿     UnrelateContractItemFromSitePartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UnrelateContractItemFromSitePartSetup Class Properties
+﻿### UnrelateContractItemFromSitePartSetup Class Properties
 
 For a list of all members of this type, see [UnrelateContractItemFromSitePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UnrelateContractItemFromSitePartSetup_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartNumber](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UnrelateContractItemFromSitePartSetup~PartNumber.md) | The part number for the Line Item.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UnrelateContractItemFromSitePartSetup~PartRevision.md) | The revision of the part for the Line Item.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

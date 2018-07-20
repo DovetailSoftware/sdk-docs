@@ -1,16 +1,9 @@
-﻿     FCSqlExec Class                                                   
-
-fcSDK Documentation
-
-FCSqlExec Class
+﻿### FCSqlExec Class
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 <[ClassInterfaceAttribute](#)(ClassInterfaceType.None)>
 <[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)>
@@ -19,17 +12,20 @@ Syntax
 <[ComVisibleAttribute](#)(True)>
 Public NotInheritable Class FCSqlExec 
    Implements [IFCSqlExec](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec.md) 
+```
 
+```csharp
 \[[ClassInterfaceAttribute](#)(ClassInterfaceType.None)\]
 \[[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)\]
 \[[GuidAttribute](#)("DA8E45C3-FD13-4ab4-8CCD-8E3DF8635519")\]
 \[[ProgIdAttribute](#)("FCFLCompat.FCSqlExec")\]
 \[[ComVisibleAttribute](#)(true)\]
 public sealed class FCSqlExec : [IFCSqlExec](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec.md)  
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCSqlExec**  
 
 #### Requirements
@@ -40,7 +36,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

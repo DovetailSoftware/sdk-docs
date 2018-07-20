@@ -11,13 +11,13 @@ Syntax
 ```vbnet
 'Declaration
 
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 Public Class ClarifyGeneric 
    Inherits [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)
 ```
 
 ```csharp
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 public class ClarifyGeneric : [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) 
 ```
 
@@ -61,7 +61,7 @@ gSite.Query()
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)  
       **FChoice.Foundation.Clarify.ClarifyGeneric**  
 
@@ -73,7 +73,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

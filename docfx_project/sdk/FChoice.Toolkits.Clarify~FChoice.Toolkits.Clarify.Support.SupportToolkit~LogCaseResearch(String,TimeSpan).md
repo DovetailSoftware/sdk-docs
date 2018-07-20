@@ -1,8 +1,4 @@
-﻿     LogCaseResearch(String,TimeSpan) Method                                                   
-
-fcSDK Documentation
-
-LogCaseResearch(String,TimeSpan) Method
+﻿### LogCaseResearch(String,TimeSpan) Method
 
 Identifier of the Case against which the research note is being logged.
 
@@ -13,19 +9,16 @@ Creates a research log against a Case. This overload takes a set of required p
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogCaseResearch( _
    ByVal _caseIDNum_ As String, _
-   ByVal _researchDuration_ As [TimeSpan](#) _
+   ByVal _researchDuration_ As TimeSpan _
 ) As [LogCaseResearchResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchResult.md)
 
 public [LogCaseResearchResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchResult.md) LogCaseResearch( 
    string _caseIDNum_,
-   [TimeSpan](#) _researchDuration_
+   TimeSpan _researchDuration_
 )
 
 #### Parameters
@@ -50,11 +43,9 @@ Remarks
 
 It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup~IsCommitmentToCustomer.md) properties
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

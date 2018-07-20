@@ -1,8 +1,4 @@
-﻿     CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup,IDbTransaction) Method
+﻿### CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -15,10 +11,7 @@ This overload takes a setup object and a database transaction.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreatePartRequestHeaderSubcase( _
    ByVal _setupParam_ As [CreatePartRequestHeaderSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md), _
@@ -54,11 +47,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

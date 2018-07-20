@@ -1,8 +1,4 @@
-﻿     WorkflowObjectInfo Class Properties                                                   
-
-fcSDK Documentation
-
-WorkflowObjectInfo Class Properties
+﻿### WorkflowObjectInfo Class Properties
 
 For a list of all members of this type, see [WorkflowObjectInfo members](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo_members.md).
 
@@ -33,9 +29,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UseParticipantActEntryModel](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo~UseParticipantActEntryModel.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBinRelation](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo~WipBinRelation.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

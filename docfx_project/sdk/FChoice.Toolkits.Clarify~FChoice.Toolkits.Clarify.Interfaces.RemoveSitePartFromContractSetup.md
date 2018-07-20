@@ -1,24 +1,16 @@
-﻿     RemoveSitePartFromContractSetup Class                                                   
-
-fcSDK Documentation
-
-RemoveSitePartFromContractSetup Class
+﻿### RemoveSitePartFromContractSetup Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class RemoveSitePartFromContractSetup 
 
 public class RemoveSitePartFromContractSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.RemoveSitePartFromContractSetup**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

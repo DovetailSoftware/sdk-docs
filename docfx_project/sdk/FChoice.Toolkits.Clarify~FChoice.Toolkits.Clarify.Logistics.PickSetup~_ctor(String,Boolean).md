@@ -1,8 +1,4 @@
-﻿     PickSetup Constructor(String,Boolean)                                                   
-
-fcSDK Documentation
-
-PickSetup Constructor(String,Boolean)
+﻿### PickSetup Constructor(String,Boolean)
 
 Part Request Detail Identifier
 
@@ -13,18 +9,15 @@ Initializes a new instance of the PickSetup class. This overload takes a set of 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _useTransitions_ As Boolean _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public PickSetup( 
    string _partRequestDetailIDNum_,
    bool _useTransitions_
@@ -40,11 +33,9 @@ _useTransitions_
 
 Specifies whether or not to check logistics transitions and change the condition/status of the Part Request Detail during the Pick operation
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

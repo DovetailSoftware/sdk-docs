@@ -1,26 +1,18 @@
-﻿     UpdatePartRevisionSetup Class                                                   
-
-fcSDK Documentation
-
-UpdatePartRevisionSetup Class
+﻿### UpdatePartRevisionSetup Class
 
 Used by the [UpdatePartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdatePartRevision(UpdatePartRevisionSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdatePartRevisionSetup 
 
 public class UpdatePartRevisionSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UpdatePartRevisionSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

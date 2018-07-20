@@ -6,7 +6,7 @@ FChoice.Toolkits.Clarify.Sales Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup.md)  
    [FChoice.Toolkits.Clarify.Sales.AcceptOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptOpportunitySetup.md)  
    [FChoice.Toolkits.Clarify.Sales.AcceptQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptQuoteSetup.md)  
@@ -52,7 +52,7 @@ Inheritance Hierarchy
       [FChoice.Toolkits.Clarify.Sales.SalesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase.md)  
          [FChoice.Toolkits.Clarify.Sales.SalesToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit.md)  
 
-See Also
+
 
 #### Reference
 

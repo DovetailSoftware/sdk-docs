@@ -5,19 +5,16 @@ PrepareInListStatement(Object\[\],String,String) Method
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function PrepareInListStatement( _
-   ByVal _inList_() As [Object](#), _
+   ByVal _inList_() As Object, _
    ByVal _columnName_ As String, _
    ByVal _text_ As String _
 ) As String
 
 public string PrepareInListStatement( 
-   [object](#)\[\] _inList_,
+   object\[\] _inList_,
    string _columnName_,
    string _text_
 )
@@ -30,11 +27,9 @@ _columnName_
 
 _text_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     GenericDataTable Class Methods                                                   
-
-fcSDK Documentation
-
-GenericDataTable Class Methods
+﻿### GenericDataTable Class Methods
 
 For a list of all members of this type, see [GenericDataTable members](fcSDK~FChoice.Foundation.GenericDataTable_members.md).
 
@@ -40,9 +36,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [WriteXml](#) | Overloaded.  (Inherited from [System.Data.DataTable](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [WriteXmlSchema](#) | Overloaded.  (Inherited from [System.Data.DataTable](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,19 +1,11 @@
-﻿     ParentSiteIDNum Property (UpdateSiteSetup)                                                   
-
-fcSDK Documentation
-
-ParentSiteIDNum Property (UpdateSiteSetup)
+﻿### ParentSiteIDNum Property (UpdateSiteSetup)
 
 Identifier for the parent Site of the Site being created.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property ParentSiteIDNum As String
 
@@ -24,11 +16,9 @@ Remarks
 
 If this property is set to an empty string the relation to the parent Site will be removed.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

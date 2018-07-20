@@ -1,37 +1,33 @@
-﻿     FCGeneric Class                                                   
-
-fcSDK Documentation
-
-FCGeneric Class
+﻿### FCGeneric Class
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 <[GuidAttribute](#)("2888C9FF-F557-4CEA-BDDF-08DF16715D6E")>
 <[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)>
 <[ComVisibleAttribute](#)(True)>
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 <[ClassInterfaceAttribute](#)(ClassInterfaceType.None)>
 <[ProgIdAttribute](#)("FCFLCompat.FCGeneric")>
 Public NotInheritable Class FCGeneric 
    Implements [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) 
+```
 
+```csharp
 \[[GuidAttribute](#)("2888C9FF-F557-4CEA-BDDF-08DF16715D6E")\]
 \[[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)\]
 \[[ComVisibleAttribute](#)(true)\]
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 \[[ClassInterfaceAttribute](#)(ClassInterfaceType.None)\]
 \[[ProgIdAttribute](#)("FCFLCompat.FCGeneric")\]
 public sealed class FCGeneric : [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md)  
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCGeneric**  
 
 #### Requirements
@@ -42,7 +38,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

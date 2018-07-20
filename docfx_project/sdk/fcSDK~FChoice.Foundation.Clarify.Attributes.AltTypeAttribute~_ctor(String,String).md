@@ -1,16 +1,9 @@
-﻿     AltTypeAttribute Constructor(String,String)                                                   
-
-fcSDK Documentation
-
-AltTypeAttribute Constructor(String,String)
+﻿### AltTypeAttribute Constructor(String,String)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function New( _
    ByVal _type_ As String, _
@@ -28,11 +21,9 @@ _type_
 
 _conversionExpression_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

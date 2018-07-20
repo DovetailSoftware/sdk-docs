@@ -1,16 +1,9 @@
-﻿     ILocaleCache Interface                                                   
-
-fcSDK Documentation
-
-ILocaleCache Interface
+﻿### ILocaleCache Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Interface ILocaleCache 
 
@@ -24,7 +17,7 @@ public interface ILocaleCache
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

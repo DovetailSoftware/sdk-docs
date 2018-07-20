@@ -1,8 +1,4 @@
-﻿     SchemaViewJoin Class Properties                                                   
-
-fcSDK Documentation
-
-SchemaViewJoin Class Properties
+﻿### SchemaViewJoin Class Properties
 
 For a list of all members of this type, see [SchemaViewJoin members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewJoin_members.md).
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TableID](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewJoin~TableID.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

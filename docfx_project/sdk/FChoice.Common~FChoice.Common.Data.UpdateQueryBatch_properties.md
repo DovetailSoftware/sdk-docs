@@ -1,6 +1,4 @@
-﻿     UpdateQueryBatch Class Properties                                                   
-
-UpdateQueryBatch Class Properties
+﻿### UpdateQueryBatch Class Properties
 
 For a list of all members of this type, see [UpdateQueryBatch members](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch_members.md).
 
@@ -14,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SqlHelper](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~SqlHelper.md) | Gets the instance of a [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) class that is used by this batch to manage parameters and execute statements   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Transaction](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~Transaction.md) | Gets the transaction specified when this UpdateQueryBatch instance was created   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

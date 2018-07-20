@@ -1,8 +1,4 @@
-﻿     AddContactToContract Method                                                   
-
-fcSDK Documentation
-
-AddContactToContract Method
+﻿### AddContactToContract Method
 
 Adds a Contact to an existing Contract. This overload takes a set of required parameters for the API.
 
@@ -16,11 +12,9 @@ Overload List
 | [AddContactToContract(AddContactToContractSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AddContactToContract(AddContactToContractSetup).md) | Adds a Contact to an existing Contract. This overload takes a setup object.   |
 | [AddContactToContract(AddContactToContractSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AddContactToContract(AddContactToContractSetup,IDbTransaction).md) | Adds a Contact to an existing Contract. This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

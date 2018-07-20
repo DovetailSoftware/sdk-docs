@@ -1,8 +1,4 @@
-﻿     FCTimeZoneCollection Class Properties                                                   
-
-fcSDK Documentation
-
-FCTimeZoneCollection Class Properties
+﻿### FCTimeZoneCollection Class Properties
 
 For a list of all members of this type, see [FCTimeZoneCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [DefaultTimeZone](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection~DefaultTimeZone.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

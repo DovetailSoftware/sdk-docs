@@ -1,6 +1,4 @@
-﻿     RemoteStateManager Class Members                                                   
-
-RemoteStateManager Class Members
+﻿### RemoteStateManager Class Members
 
 The following tables list the members exposed by [RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md).
 
@@ -14,7 +12,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Provider](FChoice.Common~FChoice.Common.State.RemoteStateManager~Provider.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [StateTimeout](FChoice.Common~FChoice.Common.State.RemoteStateManager~StateTimeout.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -31,9 +29,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [ResetTimeout](FChoice.Common~FChoice.Common.State.RemoteStateManager~ResetTimeout.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [SaveState](FChoice.Common~FChoice.Common.State.RemoteStateManager~SaveState.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateDepotRepairMaterial(CreateDepotRepairMaterialSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateDepotRepairMaterial(CreateDepotRepairMaterialSetup,IDbTransaction) Method
+﻿### CreateDepotRepairMaterial(CreateDepotRepairMaterialSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Create a Depot Repair Material to be logged against a Part. This overload takes
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateDepotRepairMaterial( _
    ByVal _setupParam_ As [CreateDepotRepairMaterialSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairMaterialSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

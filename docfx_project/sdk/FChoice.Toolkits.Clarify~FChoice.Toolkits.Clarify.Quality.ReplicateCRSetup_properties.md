@@ -1,8 +1,4 @@
-﻿     ReplicateCRSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ReplicateCRSetup Class Properties
+﻿### ReplicateCRSetup Class Properties
 
 For a list of all members of this type, see [ReplicateCRSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReplicateCRSetup_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ReplicatedDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReplicateCRSetup~ReplicatedDate.md) | DateTime the CR was replicated. If not set, the current date time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReplicateCRSetup~UserName.md) | The user replicating the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

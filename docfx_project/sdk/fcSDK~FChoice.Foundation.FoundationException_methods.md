@@ -1,8 +1,4 @@
-﻿     FoundationException Class Methods                                                   
-
-fcSDK Documentation
-
-FoundationException Class Methods
+﻿### FoundationException Class Methods
 
 For a list of all members of this type, see [FoundationException members](fcSDK~FChoice.Foundation.FoundationException_members.md).
 
@@ -15,9 +11,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

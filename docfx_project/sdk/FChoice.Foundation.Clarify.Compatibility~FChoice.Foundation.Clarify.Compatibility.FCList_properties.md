@@ -1,8 +1,4 @@
-﻿     FCList Class Properties                                                   
-
-fcSDK Documentation
-
-FCList Class Properties
+﻿### FCList Class Properties
 
 For a list of all members of this type, see [FCList members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ItemType](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList~ItemType.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Sorted](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList~Sorted.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

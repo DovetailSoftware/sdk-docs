@@ -1,6 +1,4 @@
-﻿     FChoice.Common.Data Namespace                                                   
-
-FChoice.Common.Data Namespace
+﻿### FChoice.Common.Data Namespace
 
 The **FChoice.Common.Data** namespace provides data access services to First Choice .NET-based products.
 
@@ -10,10 +8,7 @@ Classes
 | --- | --- | --- |
 | ![Class](dotnetimages/Class.png) | [DataAccessSectionHandler](FChoice.Common~FChoice.Common.Data.DataAccessSectionHandler.md) | Provides configuration information from the .NET application configuration file for the DbProviderFactory to load custom data providers. |
 | ![Class](dotnetimages/Class.png) | [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) | Contains a collection of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbDataParameterClassTopic.htm) objects for use in a database query. |
-| ![Class](dotnetimages/Class.png) | [DataSetSurrogate](FChoice.Common~FChoice.Common.Data.DataSetSurrogate.md) | 
-Reads or writes a DataSet as a compact binary stream.
-
- |
+| ![Class](dotnetimages/Class.png) | [DataSetSurrogate](FChoice.Common~FChoice.Common.Data.DataSetSurrogate.md) | Reads or writes a DataSet as a compact binary stream. |
 | ![Class](dotnetimages/Class.png) | [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) | Abstract base class for database providers used by [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) and applications. |
 | ![Class](dotnetimages/Class.png) | [DbProviderFactory](FChoice.Common~FChoice.Common.Data.DbProviderFactory.md) | Provides a way of customized data access using [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) objects that abstract database access |
 | ![Class](dotnetimages/Class.png) | [FCTypes](FChoice.Common~FChoice.Common.Data.FCTypes.md) | This class is not currently used and is intended for future products. |
@@ -30,7 +25,7 @@ Interfaces
 | --- | --- | --- |
 | ![Interface](dotnetimages/Interface.png) | [IDbExtension](FChoice.Common~FChoice.Common.Data.IDbExtension.md) | IDbExtension allows applications to specify database-specific extensions to the DbProvider |
 
-See Also
+
 
 #### Reference
 

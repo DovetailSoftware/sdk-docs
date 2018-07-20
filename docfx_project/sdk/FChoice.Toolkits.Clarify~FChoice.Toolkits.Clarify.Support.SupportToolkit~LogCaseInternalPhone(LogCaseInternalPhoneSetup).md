@@ -1,16 +1,9 @@
-﻿     LogCaseInternalPhone(LogCaseInternalPhoneSetup) Method                                                   
-
-fcSDK Documentation
-
-LogCaseInternalPhone(LogCaseInternalPhoneSetup) Method
+﻿### LogCaseInternalPhone(LogCaseInternalPhoneSetup) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogCaseInternalPhone( _
    ByVal _setupParam_ As [LogCaseInternalPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup.md) _
@@ -24,11 +17,9 @@ public [LogCasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Su
 
 _setupParam_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

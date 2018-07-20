@@ -1,26 +1,16 @@
-﻿     ListID Property (IGlobalStringList)                                                   
-
-fcSDK Documentation
-
-ListID Property (IGlobalStringList)
+﻿### ListID Property (IGlobalStringList)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+ReadOnly Property ListID As Integer
 
-'Declaration
- 
+int ListID {get;}
 
-ReadOnly Property ListID As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-[int](#) ListID {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

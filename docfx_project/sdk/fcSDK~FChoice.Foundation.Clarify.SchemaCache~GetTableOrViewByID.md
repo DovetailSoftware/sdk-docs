@@ -1,34 +1,24 @@
-﻿     GetTableOrViewByID Method                                                   
-
-fcSDK Documentation
-
-GetTableOrViewByID Method
+﻿### GetTableOrViewByID Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetTableOrViewByID( _
-   ByVal _typeID_ As [Integer](#) _
+   ByVal _typeID_ As Integer _
 ) As [SchemaTableBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase.md)
 
 public [SchemaTableBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase.md) GetTableOrViewByID( 
-   [int](#) _typeID_
+   int _typeID_
 )
 
 #### Parameters
 
 _typeID_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

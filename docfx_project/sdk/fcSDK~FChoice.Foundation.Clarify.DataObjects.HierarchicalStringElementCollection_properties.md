@@ -1,8 +1,4 @@
-﻿     HierarchicalStringElementCollection Class Properties                                                   
-
-fcSDK Documentation
-
-HierarchicalStringElementCollection Class Properties
+﻿### HierarchicalStringElementCollection Class Properties
 
 For a list of all members of this type, see [HierarchicalStringElementCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElementCollection_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [DefaultElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElementCollection~DefaultElement.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElementCollection~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

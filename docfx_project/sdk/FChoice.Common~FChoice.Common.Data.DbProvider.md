@@ -1,20 +1,17 @@
-﻿     DbProvider Class                                                   
-
-DbProvider Class
+﻿### DbProvider Class
 
 Abstract base class for database providers used by [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) and applications.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustInherit Class DbProvider 
+```
 
+```csharp
 public abstract class DbProvider 
+```
 
 Remarks
 
@@ -24,7 +21,7 @@ Inherit from this class to provide custom database access to an unsupported data
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.Data.DbProvider**  
       [FChoice.Common.Data.OleDbDataProviderBase](FChoice.Common~FChoice.Common.Data.OleDbDataProviderBase.md)  
       [FChoice.Common.Data.OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)  
@@ -37,7 +34,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

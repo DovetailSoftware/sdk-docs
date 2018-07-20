@@ -1,8 +1,4 @@
-﻿     LocaleCache Class Methods                                                   
-
-fcSDK Documentation
-
-LocaleCache Class Methods
+﻿### LocaleCache Class Methods
 
 For a list of all members of this type, see [LocaleCache members](fcSDK~FChoice.Foundation.Clarify.LocaleCache_members.md).
 
@@ -34,9 +30,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [SetServerTimeZoneToMachineTimeZone](fcSDK~FChoice.Foundation.Clarify.LocaleCache~SetServerTimeZoneToMachineTimeZone.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCache](fcSDK~FChoice.Foundation.CacheBase~UpdateCache.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

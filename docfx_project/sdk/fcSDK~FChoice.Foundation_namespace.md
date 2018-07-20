@@ -1,8 +1,4 @@
-﻿     FChoice.Foundation Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Foundation Namespace
+﻿### FChoice.Foundation Namespace
 
 Base implementation of core CRM capabilities.
 
@@ -49,7 +45,7 @@ Enumerations
 | ![Enumeration](dotnetimages/Enumeration.png) | [NumberOps](fcSDK~FChoice.Foundation.NumberOps.md) | Valid numeric filtering operations for methods such as [AppendFilter](fcSDK~FChoice.Foundation.FCGeneric~AppendFilter(String,NumberOps,Int32).md). |
 | ![Enumeration](dotnetimages/Enumeration.png) | [StringOps](fcSDK~FChoice.Foundation.StringOps.md) | Valid string filtering operations for methods such as [AppendFilter](fcSDK~FChoice.Foundation.FCGeneric~AppendFilter(String,StringOps,String).md). |
 
-See Also
+
 
 #### Reference
 

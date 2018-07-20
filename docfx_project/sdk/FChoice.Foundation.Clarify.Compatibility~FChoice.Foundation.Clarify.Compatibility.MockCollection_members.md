@@ -1,8 +1,4 @@
-﻿     MockCollection Class Members                                                   
-
-fcSDK Documentation
-
-MockCollection Class Members
+﻿### MockCollection Class Members
 
 The following tables list the members exposed by [MockCollection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockCollection.md).
 
@@ -16,9 +12,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Item](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockCollection~Item.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [Remove](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockCollection~Remove.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

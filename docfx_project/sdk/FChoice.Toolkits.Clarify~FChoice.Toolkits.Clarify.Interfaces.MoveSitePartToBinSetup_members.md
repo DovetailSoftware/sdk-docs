@@ -1,8 +1,4 @@
-﻿     MoveSitePartToBinSetup Class Members                                                   
-
-fcSDK Documentation
-
-MoveSitePartToBinSetup Class Members
+﻿### MoveSitePartToBinSetup Class Members
 
 The following tables list the members exposed by [MoveSitePartToBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToBinSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [MoveSitePartToBinSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToBinSetup~_ctor.md) | Initializes a new instance of the MoveSitePartToBinSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -32,9 +28,9 @@ Objid of the Site Part to be moved
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToBinSetup~UserName.md) | The user who has moved the SitePartToBin. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

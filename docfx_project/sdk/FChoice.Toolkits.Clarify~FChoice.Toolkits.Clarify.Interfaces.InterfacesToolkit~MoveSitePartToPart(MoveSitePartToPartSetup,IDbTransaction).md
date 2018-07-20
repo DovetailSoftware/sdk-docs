@@ -1,8 +1,4 @@
-﻿     MoveSitePartToPart(MoveSitePartToPartSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-MoveSitePartToPart(MoveSitePartToPartSetup,IDbTransaction) Method
+﻿### MoveSitePartToPart(MoveSitePartToPartSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Move the SitePartToPart from one WipBin to another WipBin. This overload takes a
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function MoveSitePartToPart( _
    ByVal _setupParam_ As [MoveSitePartToPartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToPartSetup.md), _
@@ -52,11 +45,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     MoveSitePartToPartSetup Class                                                   
-
-fcSDK Documentation
-
-MoveSitePartToPartSetup Class
+﻿### MoveSitePartToPartSetup Class
 
 Used by the [MoveSitePartToPart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~MoveSitePartToPart(MoveSitePartToPartSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class MoveSitePartToPartSetup 
 
 public class MoveSitePartToPartSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToPartSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

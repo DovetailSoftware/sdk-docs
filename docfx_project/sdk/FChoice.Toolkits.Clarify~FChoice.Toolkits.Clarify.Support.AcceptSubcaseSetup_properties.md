@@ -1,8 +1,4 @@
-﻿     AcceptSubcaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AcceptSubcaseSetup Class Properties
+﻿### AcceptSubcaseSetup Class Properties
 
 For a list of all members of this type, see [AcceptSubcaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup~UserName.md) | The user who has accepted the Subcase. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup~WipBin.md) | User's WipBin in which to place the Subcase. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

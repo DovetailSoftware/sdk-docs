@@ -1,26 +1,18 @@
-﻿     AddModuleToCRSetup Class                                                   
-
-fcSDK Documentation
-
-AddModuleToCRSetup Class
+﻿### AddModuleToCRSetup Class
 
 Used by the [AddModuleToCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~AddModuleToCR(AddModuleToCRSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AddModuleToCRSetup 
 
 public class AddModuleToCRSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

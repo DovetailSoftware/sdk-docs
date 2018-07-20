@@ -1,26 +1,18 @@
-﻿     LogCaseCommitmentSetup Class                                                   
-
-fcSDK Documentation
-
-LogCaseCommitmentSetup Class
+﻿### LogCaseCommitmentSetup Class
 
 Used by the [LogCaseCommitment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseCommitment(LogCaseCommitmentSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogCaseCommitmentSetup 
 
 public class LogCaseCommitmentSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.LogCaseCommitmentSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ForwardActionItem(ForwardActionItemSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-ForwardActionItem(ForwardActionItemSetup,IDbTransaction) Method
+﻿### ForwardActionItem(ForwardActionItemSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Reject-forward the ActionItem from one queue to another. This overload takes a s
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ForwardActionItem( _
    ByVal _setupParam_ As [ForwardActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

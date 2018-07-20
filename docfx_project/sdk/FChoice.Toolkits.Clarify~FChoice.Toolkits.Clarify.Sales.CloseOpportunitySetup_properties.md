@@ -1,8 +1,4 @@
-﻿     CloseOpportunitySetup Class Properties                                                   
-
-fcSDK Documentation
-
-CloseOpportunitySetup Class Properties
+﻿### CloseOpportunitySetup Class Properties
 
 For a list of all members of this type, see [CloseOpportunitySetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CloseOpportunitySetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CloseOpportunitySetup~Status.md) | Element from the 'Closed Opportunity' application list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CloseOpportunitySetup~UserName.md) | The user who is closing the opportunity. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ChangeActionItemStatusSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ChangeActionItemStatusSetup Class Properties
+﻿### ChangeActionItemStatusSetup Class Properties
 
 For a list of all members of this type, see [ChangeActionItemStatusSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemStatusSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemStatusSetup~Notes.md) | Notes about the Action Item status change.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemStatusSetup~UserName.md) | The user who is changing the action item status. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

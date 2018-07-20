@@ -1,32 +1,24 @@
-﻿     InitializeFull Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-InitializeFull Method (FCApplication)
+﻿### InitializeFull Method (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub InitializeFull( _
    ByVal _LoginName_ As String, _
    ByVal _password_ As String, _
    ByVal _DBServer_ As String, _
    ByVal _DBName_ As String, _
-   Optional ByVal _DBType_ As [Object](#), _
-   Optional ByVal _LogFile_ As [Object](#), _
-   Optional ByVal _SqlLogFile_ As [Object](#), _
-   Optional ByVal _SQLLogging_ As [Object](#), _
-   Optional ByVal _fcAppLogging_ As [Object](#), _
-   Optional ByVal _fcSessionLogging_ As [Object](#), _
-   Optional ByVal _fcGenericLogging_ As [Object](#), _
-   Optional ByVal _fcBulkLogging_ As [Object](#), _
-   Optional ByVal _fcSqlExecLogging_ As [Object](#), _
-   Optional ByVal _NoCacheFile_ As [Object](#) _
+   Optional ByVal _DBType_ As Object, _
+   Optional ByVal _LogFile_ As Object, _
+   Optional ByVal _SqlLogFile_ As Object, _
+   Optional ByVal _SQLLogging_ As Object, _
+   Optional ByVal _fcAppLogging_ As Object, _
+   Optional ByVal _fcSessionLogging_ As Object, _
+   Optional ByVal _fcGenericLogging_ As Object, _
+   Optional ByVal _fcBulkLogging_ As Object, _
+   Optional ByVal _fcSqlExecLogging_ As Object, _
+   Optional ByVal _NoCacheFile_ As Object _
 ) 
 
 public void InitializeFull( 
@@ -34,16 +26,16 @@ public void InitializeFull(
    string _password_,
    string _DBServer_,
    string _DBName_,
-   [object](#) _DBType_,
-   [object](#) _LogFile_,
-   [object](#) _SqlLogFile_,
-   [object](#) _SQLLogging_,
-   [object](#) _fcAppLogging_,
-   [object](#) _fcSessionLogging_,
-   [object](#) _fcGenericLogging_,
-   [object](#) _fcBulkLogging_,
-   [object](#) _fcSqlExecLogging_,
-   [object](#) _NoCacheFile_
+   object _DBType_,
+   object _LogFile_,
+   object _SqlLogFile_,
+   object _SQLLogging_,
+   object _fcAppLogging_,
+   object _fcSessionLogging_,
+   object _fcGenericLogging_,
+   object _fcBulkLogging_,
+   object _fcSqlExecLogging_,
+   object _NoCacheFile_
 )
 
 #### Parameters
@@ -76,11 +68,9 @@ _fcSqlExecLogging_
 
 _NoCacheFile_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

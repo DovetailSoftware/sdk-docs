@@ -1,28 +1,19 @@
-﻿     UserName Property (CreateCommunicationSetup)                                                   
-
-fcSDK Documentation
-
-UserName Property (CreateCommunicationSetup)
+﻿### UserName Property (CreateCommunicationSetup)
 
 The Login Name of user creating the communication.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property UserName As String
 
 public string UserName {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

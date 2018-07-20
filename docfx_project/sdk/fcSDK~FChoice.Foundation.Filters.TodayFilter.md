@@ -1,19 +1,11 @@
-﻿     TodayFilter Class                                                   
-
-fcSDK Documentation
-
-TodayFilter Class
+﻿### TodayFilter Class
 
 Filter field on today's date
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class TodayFilter 
    Inherits [OnFilter](fcSDK~FChoice.Foundation.Filters.OnFilter.md)
 
@@ -25,7 +17,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       [FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)  
          [FChoice.Foundation.Filters.BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)  
@@ -40,7 +32,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

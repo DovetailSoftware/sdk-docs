@@ -1,8 +1,4 @@
-﻿     CacheBase Class Properties                                                   
-
-fcSDK Documentation
-
-CacheBase Class Properties
+﻿#### CacheBase Class Properties
 
 For a list of all members of this type, see [CacheBase members](fcSDK~FChoice.Foundation.CacheBase_members.md).
 
@@ -12,10 +8,6 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [CacheSetName](fcSDK~FChoice.Foundation.CacheBase~CacheSetName.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [CacheType](fcSDK~FChoice.Foundation.CacheBase~CacheType.md) |   |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

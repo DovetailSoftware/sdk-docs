@@ -1,8 +1,4 @@
-﻿     ParameterReadOnlyAttribute Class Properties                                                   
-
-fcSDK Documentation
-
-ParameterReadOnlyAttribute Class Properties
+﻿### ParameterReadOnlyAttribute Class Properties
 
 For a list of all members of this type, see [ParameterReadOnlyAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.ParameterReadOnlyAttribute_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

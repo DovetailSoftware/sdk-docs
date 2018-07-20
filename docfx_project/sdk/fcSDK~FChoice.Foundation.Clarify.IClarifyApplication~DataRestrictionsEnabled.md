@@ -1,26 +1,18 @@
-﻿     DataRestrictionsEnabled Property (IClarifyApplication)                                                   
-
-fcSDK Documentation
-
-DataRestrictionsEnabled Property (IClarifyApplication)
+﻿### DataRestrictionsEnabled Property (IClarifyApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 ReadOnly Property DataRestrictionsEnabled As Boolean
+```
 
+```csharp
 bool DataRestrictionsEnabled {get;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

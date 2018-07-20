@@ -1,6 +1,4 @@
-﻿     Item(Int32) Property                                                   
-
-Item(Int32) Property
+﻿### Item(Int32) Property
 
 The zero-based index of the element to get or set.
 
@@ -9,17 +7,16 @@ Gets or sets the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Property Item( _
-   ByVal _index_ As [Integer](#) _
-) As [IDbDataParameter](#)
+   ByVal _index_ As Integer _
+) As IDbDataParameter
+```
 
-public [IDbDataParameter](#) Item( 
-   [int](#) _index_
+```csharp
+public IDbDataParameter Item( 
+   int _index_
 ) {get; set;}
 
 #### Parameters
@@ -32,11 +29,7 @@ The zero-based index of the element to get or set.
 
 The [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) associated with the specific index in the collection.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

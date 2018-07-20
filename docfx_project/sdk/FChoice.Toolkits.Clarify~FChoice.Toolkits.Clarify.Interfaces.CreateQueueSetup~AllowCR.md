@@ -1,18 +1,11 @@
-﻿     AllowCR Property (CreateQueueSetup)                                                   
-
-fcSDK Documentation
-
-AllowCR Property (CreateQueueSetup)
+﻿### AllowCR Property (CreateQueueSetup)
 
 Should Queue allow CRs
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property AllowCR As Boolean
@@ -20,11 +13,9 @@ Public Property AllowCR As Boolean
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public bool AllowCR {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

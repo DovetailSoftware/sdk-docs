@@ -1,8 +1,4 @@
-﻿     ChangeCRStatusSetup Class Members                                                   
-
-fcSDK Documentation
-
-ChangeCRStatusSetup Class Members
+﻿### ChangeCRStatusSetup Class Members
 
 The following tables list the members exposed by [ChangeCRStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ChangeCRStatusSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup~_ctor.md) | Initializes a new instance of the ChangeCRStatusSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup~Notes.md) | Notes about the status change for the Change Request.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup~UserName.md) | The user changing CR status. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

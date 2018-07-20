@@ -1,8 +1,4 @@
-﻿     CreateTimeLog(Int32,DateTime,TimeSpan) Method                                                   
-
-fcSDK Documentation
-
-CreateTimeLog(Int32,DateTime,TimeSpan) Method
+﻿### CreateTimeLog(Int32,DateTime,TimeSpan) Method
 
 The Objid of the Onsite Log that this Time Log is related to.
 
@@ -13,21 +9,18 @@ The length (in seconds) of the Time Log. If not specified, it is calculated from
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateTimeLog( _
-   ByVal _onsiteLogObjid_ As [Integer](#), _
-   ByVal _startDate_ As [Date](#), _
-   ByVal _duration_ As [TimeSpan](#) _
+   ByVal _onsiteLogObjid_ As Integer, _
+   ByVal _startDate_ As Date, _
+   ByVal _duration_ As TimeSpan _
 ) As [CreateTimeLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.md)
 
 public [CreateTimeLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.md) CreateTimeLog( 
-   [int](#) _onsiteLogObjid_,
-   [DateTime](#) _startDate_,
-   [TimeSpan](#) _duration_
+   int _onsiteLogObjid_,
+   DateTime _startDate_,
+   TimeSpan _duration_
 )
 
 #### Parameters
@@ -51,11 +44,9 @@ The following values are populated in the [CreateTimeLogResult](FChoice.Toolkits
 *   [OnsiteLogObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult~OnsiteLogObjid.md) \- The Objid of the OnsiteLog.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult~Objid.md) \- The Objid of the TimeLog.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

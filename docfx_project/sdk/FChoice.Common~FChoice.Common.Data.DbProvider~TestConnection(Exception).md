@@ -1,14 +1,9 @@
-﻿     TestConnection(Exception) Method                                                   
-
-TestConnection(Exception) Method
+﻿### TestConnection(Exception) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function TestConnection( _
    ByRef _outEx_ As [Exception](#) _
@@ -22,11 +17,9 @@ public bool TestConnection(
 
 _outEx_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

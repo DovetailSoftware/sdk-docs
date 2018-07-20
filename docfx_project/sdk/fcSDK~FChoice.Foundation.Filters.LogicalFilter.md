@@ -1,19 +1,11 @@
-﻿     LogicalFilter Class                                                   
-
-fcSDK Documentation
-
-LogicalFilter Class
+﻿### LogicalFilter Class
 
 Abstract filter for logical filter types.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustInherit Class LogicalFilter 
    Inherits [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)
 
@@ -25,7 +17,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       **FChoice.Foundation.Filters.LogicalFilter**  
          [FChoice.Foundation.Filters.AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md)  
@@ -41,7 +33,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

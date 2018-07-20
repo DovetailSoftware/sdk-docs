@@ -1,8 +1,4 @@
-﻿     StringCache Class Events                                                   
-
-fcSDK Documentation
-
-StringCache Class Events
+﻿### StringCache Class Events
 
 For a list of all members of this type, see [StringCache members](fcSDK~FChoice.Foundation.Clarify.StringCache_members.md).
 
@@ -12,9 +8,9 @@ Public Events
 | --- | --- | --- |
 | ![Public Event](dotnetimages/publicEvent.png) | [CacheUpdated](fcSDK~FChoice.Foundation.CacheBase~CacheUpdated_EV.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

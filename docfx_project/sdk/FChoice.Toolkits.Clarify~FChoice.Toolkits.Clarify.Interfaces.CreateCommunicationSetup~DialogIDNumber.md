@@ -1,28 +1,18 @@
-﻿     DialogIDNumber Property                                                   
-
-fcSDK Documentation
-
-DialogIDNumber Property
+﻿### DialogIDNumber Property
 
 The ID of the parent dialogue.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Property DialogIDNumber As String
 
 public string DialogIDNumber {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

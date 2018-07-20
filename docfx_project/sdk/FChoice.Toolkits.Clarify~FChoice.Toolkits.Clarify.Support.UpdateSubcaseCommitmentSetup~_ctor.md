@@ -1,8 +1,4 @@
-﻿     UpdateSubcaseCommitmentSetup Constructor                                                   
-
-fcSDK Documentation
-
-UpdateSubcaseCommitmentSetup Constructor
+﻿### UpdateSubcaseCommitmentSetup Constructor
 
 Subcase Identifier.
 
@@ -15,24 +11,24 @@ Initializes a new instance of the UpdateSubcaseCommitmentSetup class.
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _subcaseIDNum_ As String, _
-   ByVal _commitmentDate_ As [Date](#), _
-   ByVal _commitmentObjid_ As [Integer](#) _
+   ByVal _commitmentDate_ As Date, _
+   ByVal _commitmentObjid_ As Integer _
 )
+```
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+```csharp
+[ConstructorIndexAttribute()]
 public UpdateSubcaseCommitmentSetup( 
    string _subcaseIDNum_,
-   [DateTime](#) _commitmentDate_,
-   [int](#) _commitmentObjid_
+   DateTime _commitmentDate_,
+   int _commitmentObjid_
 )
+```
 
 #### Parameters
 
@@ -48,11 +44,7 @@ _commitmentObjid_
 
 Objid of the commitment to update.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     CreateCommunicationSetup Class                                                   
-
-fcSDK Documentation
-
-CreateCommunicationSetup Class
+﻿### CreateCommunicationSetup Class
 
 Used by the [CreateCommunication](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateCommunication(CreateCommunicationSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreateCommunicationSetup 
 
 public class CreateCommunicationSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.CreateCommunicationSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

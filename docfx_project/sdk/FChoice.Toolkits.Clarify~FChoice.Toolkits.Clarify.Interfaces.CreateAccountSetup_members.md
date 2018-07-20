@@ -1,8 +1,4 @@
-﻿     CreateAccountSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateAccountSetup Class Members
+﻿### CreateAccountSetup Class Members
 
 The following tables list the members exposed by [CreateAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAccountSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateAccountSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAccountSetup~_ctor.md) | Initializes a new instance of the CreateAccountSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -35,9 +31,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAccountSetup~UserName.md) | The User creating the Account.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WebSite](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAccountSetup~WebSite.md) | URL of the web site for the Account.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

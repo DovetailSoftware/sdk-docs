@@ -1,8 +1,4 @@
-﻿     UpdateEcoItemSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateEcoItemSetup Class Members
+﻿### UpdateEcoItemSetup Class Members
 
 The following tables list the members exposed by [UpdateEcoItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoItemSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateEcoItemSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoItemSetup~_ctor.md) | Initializes a new instance of the UpdateEcoItemSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -28,9 +24,9 @@ This must be either 5148 to apply the ECO item to an ECO header, or 329 to apply
 | ![Public Property](dotnetimages/publicProperty.png) | [IsActive](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoItemSetup~IsActive.md) | Is the ECO item active (true) or inactive (false)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ResultPartRevisionObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoItemSetup~ResultPartRevisionObjid.md) | The objid of resulting part revision after applying the ECO, or 0 for no change.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

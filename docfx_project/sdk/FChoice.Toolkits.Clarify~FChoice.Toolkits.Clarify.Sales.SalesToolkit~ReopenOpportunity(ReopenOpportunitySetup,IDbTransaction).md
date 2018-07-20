@@ -1,8 +1,4 @@
-﻿     ReopenOpportunity(ReopenOpportunitySetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-ReopenOpportunity(ReopenOpportunitySetup,IDbTransaction) Method
+﻿### ReopenOpportunity(ReopenOpportunitySetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Causes the specified Opportunity to be reopened. This overload takes a setup obj
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReopenOpportunity( _
    ByVal _setupParam_ As [ReopenOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ReopenOpportunitySetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

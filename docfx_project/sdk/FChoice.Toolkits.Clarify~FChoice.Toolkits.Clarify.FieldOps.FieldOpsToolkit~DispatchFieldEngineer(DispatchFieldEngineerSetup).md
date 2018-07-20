@@ -1,8 +1,4 @@
-﻿     DispatchFieldEngineer(DispatchFieldEngineerSetup) Method                                                   
-
-fcSDK Documentation
-
-DispatchFieldEngineer(DispatchFieldEngineerSetup) Method
+﻿### DispatchFieldEngineer(DispatchFieldEngineerSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Dispatch the FieldEngineer to the specified queue. This overload takes a setup o
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DispatchFieldEngineer( _
    ByVal _setupParam_ As [DispatchFieldEngineerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup.md) _
@@ -40,11 +33,9 @@ Remarks
 
 The FieldEngineer must be in open condition, and not currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

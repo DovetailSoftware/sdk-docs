@@ -1,8 +1,4 @@
-﻿     UpdateOpportunitySetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateOpportunitySetup Class Members
+﻿### UpdateOpportunitySetup Class Members
 
 The following tables list the members exposed by [UpdateOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateOpportunitySetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup~_ctor.md) | Initializes a new instance of the UpdateOpportunitySetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,9 +32,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup~UpdateDate.md) | The DateTime the Opportunity was updated. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup~UserName.md) | The user who is updating the opportunity. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

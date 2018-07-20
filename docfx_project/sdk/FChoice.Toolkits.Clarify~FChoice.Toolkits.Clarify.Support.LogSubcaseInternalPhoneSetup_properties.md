@@ -1,8 +1,4 @@
-﻿     LogSubcaseInternalPhoneSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogSubcaseInternalPhoneSetup Class Properties
+﻿### LogSubcaseInternalPhoneSetup Class Properties
 
 For a list of all members of this type, see [LogSubcaseInternalPhoneSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseInternalPhoneSetup_members.md).
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SubcaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseInternalPhoneSetup~SubcaseIDNum.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseInternalPhoneSetup~UserName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

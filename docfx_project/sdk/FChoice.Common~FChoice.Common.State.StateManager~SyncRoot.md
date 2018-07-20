@@ -1,24 +1,17 @@
-﻿     SyncRoot Field (StateManager)                                                   
-
-SyncRoot Field (StateManager)
+﻿### SyncRoot Field (StateManager)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Shared ReadOnly SyncRoot As Object
 
-Public Shared ReadOnly SyncRoot As [Object](#)
+public static readonly object SyncRoot
 
-public static readonly [object](#) SyncRoot
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

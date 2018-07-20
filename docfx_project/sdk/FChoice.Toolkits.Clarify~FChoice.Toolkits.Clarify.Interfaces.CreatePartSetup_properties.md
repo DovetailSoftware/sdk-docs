@@ -1,8 +1,4 @@
-﻿     CreatePartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreatePartSetup Class Properties
+﻿### CreatePartSetup Class Properties
 
 For a list of all members of this type, see [CreatePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartSetup_members.md).
 
@@ -27,9 +23,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WarrantyStartOnShipment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartSetup~WarrantyStartOnShipment.md) | Does the warranty start on shipment?   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Weight](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartSetup~Weight.md) | Unit weight of the part   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

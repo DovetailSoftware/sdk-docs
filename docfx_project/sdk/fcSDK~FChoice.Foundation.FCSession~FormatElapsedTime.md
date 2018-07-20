@@ -1,8 +1,4 @@
-﻿     FormatElapsedTime Method                                                   
-
-fcSDK Documentation
-
-FormatElapsedTime Method
+﻿### FormatElapsedTime Method
 
 Formats an numeric value in seconds into a string "DDD HH MMM" where: D=Days, H=Hours, M=Minutes
 
@@ -16,11 +12,9 @@ Overload List
 | [FormatElapsedTime(Double)](fcSDK~FChoice.Foundation.FCSession~FormatElapsedTime(Double).md) | Formats an numeric value in seconds into a string "DDD HH MMM" where: D=Days, H=Hours, M=Minutes   |
 | [FormatElapsedTime(TimeSpan)](fcSDK~FChoice.Foundation.FCSession~FormatElapsedTime(TimeSpan).md) | Formats a **TimeSpan** into a string "DDD HH MMM" where: D=Days, H=Hours, M=Minutes   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LogSubCaseEmailIn(LogSubCaseEmailInSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-LogSubCaseEmailIn(LogSubCaseEmailInSetup,IDbTransaction) Method
+﻿### LogSubCaseEmailIn(LogSubCaseEmailInSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Creates an email in log against a Subcase.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogSubCaseEmailIn( _
    ByVal _setup_ As [LogSubCaseEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubCaseEmailInSetup.md), _
@@ -38,11 +31,9 @@ _transaction_
 
 Database transaction under which the API will be invoked.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

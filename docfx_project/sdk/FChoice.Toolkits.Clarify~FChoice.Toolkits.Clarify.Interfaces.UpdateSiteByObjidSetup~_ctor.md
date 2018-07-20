@@ -1,8 +1,4 @@
-﻿     UpdateSiteByObjidSetup Constructor                                                   
-
-fcSDK Documentation
-
-UpdateSiteByObjidSetup Constructor
+﻿### UpdateSiteByObjidSetup Constructor
 
 Objid of the Site being updated
 
@@ -11,19 +7,16 @@ Initializes a new instance of the UpdateSiteByObjidSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _siteObjid_ As [Integer](#) _
+   ByVal _siteObjid_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public UpdateSiteByObjidSetup( 
-   [int](#) _siteObjid_
+   int _siteObjid_
 )
 
 #### Parameters
@@ -32,11 +25,9 @@ _siteObjid_
 
 Objid of the Site being updated
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

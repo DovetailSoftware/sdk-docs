@@ -1,8 +1,4 @@
-﻿     RelateCaseToParentCaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-RelateCaseToParentCaseSetup Class Properties
+﻿### RelateCaseToParentCaseSetup Class Properties
 
 For a list of all members of this type, see [RelateCaseToParentCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup~CaseIDNum.md) | Identifier of the child Case in the relation.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ParentCaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup~ParentCaseIDNum.md) | Identifier of a oarent Case in the relation.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     AcceptSubcaseSetup Class                                                   
-
-fcSDK Documentation
-
-AcceptSubcaseSetup Class
+﻿### AcceptSubcaseSetup Class
 
 Used by the [AcceptSubcase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AcceptSubcase(AcceptSubcaseSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AcceptSubcaseSetup 
 
 public class AcceptSubcaseSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

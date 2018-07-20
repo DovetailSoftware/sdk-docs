@@ -1,8 +1,4 @@
-﻿     CreateQuoteLineItemSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateQuoteLineItemSetup Class Members
+﻿### CreateQuoteLineItemSetup Class Members
 
 The following tables list the members exposed by [CreateQuoteLineItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateQuoteLineItemSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -40,9 +36,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UnitsUsed](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup~UnitsUsed.md) | The number of units used for this line item.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup~UserName.md) | The user who is creating the line item. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

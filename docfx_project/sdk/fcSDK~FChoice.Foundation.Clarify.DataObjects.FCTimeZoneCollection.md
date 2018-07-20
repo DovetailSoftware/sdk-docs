@@ -1,27 +1,19 @@
-﻿     FCTimeZoneCollection Class                                                   
-
-fcSDK Documentation
-
-FCTimeZoneCollection Class
+﻿### FCTimeZoneCollection Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DefaultMemberAttribute](#)("Item")>
+' Declaration
+<DefaultMemberAttribute("Item")>
 Public Class FCTimeZoneCollection 
    Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of FCTimeZone)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
 
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 public class FCTimeZoneCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<FCTimeZone>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md) 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Collections.Generic.List<T>](#)  
       [FChoice.Foundation.DataObjects.DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)  
          **FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection**  
@@ -34,7 +26,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

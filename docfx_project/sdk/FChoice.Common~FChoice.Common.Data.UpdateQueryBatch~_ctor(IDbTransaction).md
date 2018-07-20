@@ -1,6 +1,4 @@
-﻿     UpdateQueryBatch Constructor(IDbTransaction)                                                   
-
-UpdateQueryBatch Constructor(IDbTransaction)
+﻿### UpdateQueryBatch Constructor(IDbTransaction)
 
 An open, live transaction in which this batch will participate
 
@@ -9,10 +7,7 @@ Creates a new instance of a query batch using the specified transaction and the 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function New( _
    ByVal _trans_ As [IDbTransaction](#) _
@@ -34,11 +29,9 @@ The transaction must be open and ready against an open database connection
 
 **IMPORTANT**: The UpdateQueryBatch does not commit or rollback the transaction instance. It is the responsibility of the caller to ensure that the transaction is properly set up and finished after the batch is executed.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

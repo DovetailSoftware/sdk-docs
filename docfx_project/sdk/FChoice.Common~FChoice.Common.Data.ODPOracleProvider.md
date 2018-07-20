@@ -1,15 +1,9 @@
-﻿     ODPOracleProvider Class                                                   
-
-ODPOracleProvider Class
+﻿### ODPOracleProvider Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ODPOracleProvider 
    Inherits [OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)
 
@@ -17,7 +11,7 @@ public class ODPOracleProvider : [OracleProviderBase](FChoice.Common~FChoice.Com
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)  
       [FChoice.Common.Data.OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)  
          **FChoice.Common.Data.ODPOracleProvider**  
@@ -30,7 +24,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

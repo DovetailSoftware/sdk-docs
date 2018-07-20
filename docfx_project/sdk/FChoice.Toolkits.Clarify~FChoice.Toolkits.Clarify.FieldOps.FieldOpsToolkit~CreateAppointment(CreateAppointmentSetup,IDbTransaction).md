@@ -1,8 +1,4 @@
-﻿     CreateAppointment(CreateAppointmentSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateAppointment(CreateAppointmentSetup,IDbTransaction) Method
+﻿### CreateAppointment(CreateAppointmentSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to create a new appointment. This overload takes a setup object and a datab
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateAppointment( _
    ByVal _setupParam_ As [CreateAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup.md), _
@@ -52,11 +45,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

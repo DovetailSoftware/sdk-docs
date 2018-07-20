@@ -1,8 +1,4 @@
-﻿     GlobalStringListCollection Class Members                                                   
-
-fcSDK Documentation
-
-GlobalStringListCollection Class Members
+﻿### GlobalStringListCollection Class Members
 
 The following tables list the members exposed by [GlobalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringListCollection.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<IGlobalStringList>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringListCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -52,9 +48,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<IGlobalStringList>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<IGlobalStringList>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

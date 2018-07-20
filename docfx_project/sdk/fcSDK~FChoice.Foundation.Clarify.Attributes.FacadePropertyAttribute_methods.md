@@ -1,8 +1,4 @@
-﻿     FacadePropertyAttribute Class Methods                                                   
-
-fcSDK Documentation
-
-FacadePropertyAttribute Class Methods
+﻿### FacadePropertyAttribute Class Methods
 
 For a list of all members of this type, see [FacadePropertyAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.FacadePropertyAttribute_members.md).
 
@@ -18,9 +14,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [IsDefaultAttribute](#) | (Inherited from [System.Attribute](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [Match](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

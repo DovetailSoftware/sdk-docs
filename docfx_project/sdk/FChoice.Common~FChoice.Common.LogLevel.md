@@ -5,15 +5,15 @@ LogLevel is an enumeration of supported logging levels. This is used in conjunct
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Enum LogLevel 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
+```
 
-public enum LogLevel : [System.Enum](#) 
+```csharp
+public enum LogLevel : System.Enum 
+```
 
 Members
 
@@ -28,10 +28,10 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
-         **FChoice.Common.LogLevel**  
+System.Object  
+System.ValueType  
+System.Enum  
+**FChoice.Common.LogLevel**  
 
 #### Requirements
 
@@ -40,8 +40,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-See Also
 
 #### Reference
 

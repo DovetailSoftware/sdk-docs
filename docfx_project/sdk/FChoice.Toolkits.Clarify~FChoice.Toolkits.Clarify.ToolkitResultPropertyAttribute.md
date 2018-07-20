@@ -1,16 +1,9 @@
-﻿     ToolkitResultPropertyAttribute Class                                                   
-
-fcSDK Documentation
-
-ToolkitResultPropertyAttribute Class
+﻿### ToolkitResultPropertyAttribute Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Method, 
    AllowMultiple=True, 
@@ -25,7 +18,7 @@ public class ToolkitResultPropertyAttribute : [System.Attribute](#)
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Attribute](#)  
       **FChoice.Toolkits.Clarify.ToolkitResultPropertyAttribute**  
 
@@ -37,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

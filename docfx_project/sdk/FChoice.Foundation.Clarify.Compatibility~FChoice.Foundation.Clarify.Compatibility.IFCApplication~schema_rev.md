@@ -1,28 +1,19 @@
-﻿     schema_rev Property (IFCApplication)                                                   
-
-fcSDK Documentation
-
-schema_rev Property (IFCApplication)
+﻿### schema_rev Property (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743811)>
+<DispIdAttribute(1610743811)>
 ReadOnly Property schema_rev As Short
 
-\[[DispIdAttribute](#)(1610743811)\]
+[DispIdAttribute(1610743811)]
 short schema_rev {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

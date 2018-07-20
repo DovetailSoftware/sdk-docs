@@ -1,6 +1,4 @@
-﻿     GetObjectData Method                                                   
-
-GetObjectData Method
+﻿### GetObjectData Method
 
 The object that holds the serialized object data.
 
@@ -11,20 +9,19 @@ Sets the [SerializationInfo](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfs
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
-
 Public Overrides Sub GetObjectData( _
-   ByVal _info_ As [SerializationInfo](#), _
-   ByVal _context_ As [StreamingContext](#) _
+   ByVal _info_ As SerializationInfo, _
+   ByVal _context_ As StreamingContext _
 ) 
+```
 
+```csharp
 public override void GetObjectData( 
-   [SerializationInfo](#) _info_,
-   [StreamingContext](#) _context_
+   SerializationInfo _info_,
+   StreamingContext _context_
 )
+```
 
 #### Parameters
 
@@ -42,11 +39,9 @@ Remarks
 
 For more information, see **SerializationInfo**.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

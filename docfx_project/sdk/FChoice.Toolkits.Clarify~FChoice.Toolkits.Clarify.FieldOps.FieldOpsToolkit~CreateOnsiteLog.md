@@ -1,8 +1,4 @@
-﻿     CreateOnsiteLog Method                                                   
-
-fcSDK Documentation
-
-CreateOnsiteLog Method
+﻿### CreateOnsiteLog Method
 
 Used to create an onsite log that is related to a case or subcase. This overload takes a setup object and a database transaction.
 
@@ -20,11 +16,9 @@ Remarks
 
 The object type and id of the focus object  (the case or subcase) must be supplied.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

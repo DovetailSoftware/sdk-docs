@@ -1,8 +1,4 @@
-﻿     DeleteDepotRepairMaterial(Int32) Method                                                   
-
-fcSDK Documentation
-
-DeleteDepotRepairMaterial(Int32) Method
+﻿### DeleteDepotRepairMaterial(Int32) Method
 
 The objid of the material log object to be deleted
 
@@ -11,18 +7,18 @@ Delete a Depot Repair Material. This overload takes a set of required parameters
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function DeleteDepotRepairMaterial( _
-   ByVal _materialLogObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _materialLogObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteDepotRepairMaterial( 
-   [int](#) _materialLogObjid_
+```csharp
+public ToolkitResult DeleteDepotRepairMaterial( 
+   int _materialLogObjid_
 )
+```
 
 #### Parameters
 
@@ -32,13 +28,9 @@ The objid of the material log object to be deleted
 
 #### Return Value
 
-A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

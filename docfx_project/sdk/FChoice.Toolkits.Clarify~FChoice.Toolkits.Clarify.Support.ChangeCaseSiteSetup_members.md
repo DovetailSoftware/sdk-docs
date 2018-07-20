@@ -1,8 +1,4 @@
-﻿     ChangeCaseSiteSetup Class Members                                                   
-
-fcSDK Documentation
-
-ChangeCaseSiteSetup Class Members
+﻿### ChangeCaseSiteSetup Class Members
 
 The following tables list the members exposed by [ChangeCaseSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ChangeCaseSiteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup~_ctor.md) | Initializes a new instance of the ChangeCaseSiteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup~SiteIDNum.md) | Site Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup~UserName.md) | The User who changed the Case. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

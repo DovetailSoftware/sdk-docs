@@ -1,26 +1,18 @@
-﻿     AddServiceInterruptionSetup Class                                                   
-
-fcSDK Documentation
-
-AddServiceInterruptionSetup Class
+﻿### AddServiceInterruptionSetup Class
 
 Used by the [AddServiceInterruption](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~AddServiceInterruption(AddServiceInterruptionSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AddServiceInterruptionSetup 
 
 public class AddServiceInterruptionSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

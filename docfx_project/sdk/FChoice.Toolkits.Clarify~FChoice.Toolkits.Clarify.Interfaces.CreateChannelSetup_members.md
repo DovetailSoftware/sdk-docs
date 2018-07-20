@@ -1,8 +1,4 @@
-﻿     CreateChannelSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateChannelSetup Class Members
+﻿### CreateChannelSetup Class Members
 
 The following tables list the members exposed by [CreateChannelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateChannelSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateChannelSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateChannelSetup~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [MediumObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateChannelSetup~MediumObjid.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateChannelSetup~Title.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

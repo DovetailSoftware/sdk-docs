@@ -1,8 +1,4 @@
-﻿     AcceptQuoteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AcceptQuoteSetup Class Properties
+﻿### AcceptQuoteSetup Class Properties
 
 For a list of all members of this type, see [AcceptQuoteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptQuoteSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptQuoteSetup~UserName.md) | The user who has accepted the Quote. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptQuoteSetup~WipBin.md) | User's WipBin in which to place the Quote. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

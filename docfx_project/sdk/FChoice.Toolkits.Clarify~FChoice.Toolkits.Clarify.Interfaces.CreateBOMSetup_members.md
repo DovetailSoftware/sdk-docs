@@ -1,8 +1,4 @@
-﻿     CreateBOMSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateBOMSetup Class Members
+﻿### CreateBOMSetup Class Members
 
 The following tables list the members exposed by [CreateBOMSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateBOMSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateBOMSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateBOMSetup~_ctor.md) | Initializes a new instance of the CreateBOMSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ParentPartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateBOMSetup~ParentPartRevision.md) | Parent Part Revision   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Quantity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateBOMSetup~Quantity.md) | How many of the Child Part Revisions are in the Parent Part Revision.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

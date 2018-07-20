@@ -1,16 +1,9 @@
-﻿     ClarifyAuthenticationService Class                                                   
-
-fcSDK Documentation
-
-ClarifyAuthenticationService Class
+﻿### ClarifyAuthenticationService Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class ClarifyAuthenticationService 
 
@@ -18,7 +11,7 @@ public class ClarifyAuthenticationService
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.ClarifyAuthenticationService**  
 
 #### Requirements
@@ -29,7 +22,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

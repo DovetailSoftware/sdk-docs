@@ -1,8 +1,4 @@
-﻿     CreateSubContainerSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateSubContainerSetup Class Properties
+﻿### CreateSubContainerSetup Class Properties
 
 For a list of all members of this type, see [CreateSubContainerSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ContainerName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup~ContainerName.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ParentContainerName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup~ParentContainerName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

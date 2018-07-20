@@ -1,23 +1,17 @@
-﻿     CreateParameter Method (OleDbDataProviderBase)                                                   
-
-CreateParameter Method (OleDbDataProviderBase)
+﻿### CreateParameter Method (OleDbDataProviderBase)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Overrides Function CreateParameter( _
    ByVal _name_ As String, _
-   ByVal _value_ As [Object](#) _
-) As [IDbDataParameter](#)
+   ByVal _value_ As Object _
+) As IDbDataParameter
 
-public override [IDbDataParameter](#) CreateParameter( 
+public override IDbDataParameter CreateParameter( 
    string _name_,
-   [object](#) _value_
+   object _value_
 )
 
 #### Parameters
@@ -26,11 +20,9 @@ _name_
 
 _value_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     SchemaRelationCollection Class Members                                                   
-
-fcSDK Documentation
-
-SchemaRelationCollection Class Members
+﻿### SchemaRelationCollection Class Members
 
 The following tables list the members exposed by [SchemaRelationCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelationCollection.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelationCollection~Item.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [OtmOtofAndMtmRelations](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelationCollection~OtmOtofAndMtmRelations.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,9 +49,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SchemaRelation>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SchemaRelation>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

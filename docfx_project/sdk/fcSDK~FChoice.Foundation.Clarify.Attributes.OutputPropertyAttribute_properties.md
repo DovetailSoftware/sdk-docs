@@ -1,8 +1,4 @@
-﻿     OutputPropertyAttribute Class Properties                                                   
-
-fcSDK Documentation
-
-OutputPropertyAttribute Class Properties
+﻿### OutputPropertyAttribute Class Properties
 
 For a list of all members of this type, see [OutputPropertyAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.OutputPropertyAttribute_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeConversionExpression](fcSDK~FChoice.Foundation.Clarify.Attributes.OutputPropertyAttribute~TypeConversionExpression.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

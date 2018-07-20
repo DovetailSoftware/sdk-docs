@@ -1,26 +1,18 @@
-﻿     AcceptActionItemSetup Class                                                   
-
-fcSDK Documentation
-
-AcceptActionItemSetup Class
+﻿### AcceptActionItemSetup Class
 
 Used by the [AcceptActionItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AcceptActionItem(AcceptActionItemSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AcceptActionItemSetup 
 
 public class AcceptActionItemSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

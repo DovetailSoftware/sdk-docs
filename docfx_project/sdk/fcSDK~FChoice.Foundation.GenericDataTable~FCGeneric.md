@@ -1,26 +1,18 @@
-﻿     FCGeneric Property                                                   
-
-fcSDK Documentation
-
-FCGeneric Property
+﻿### FCGeneric Property
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-Public ReadOnly Property FCGeneric As [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)
+Public ReadOnly Property FCGeneric As FCGeneric
+```
 
-public [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) FCGeneric {get;}
+```csharp
+public FCGeneric FCGeneric {get;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

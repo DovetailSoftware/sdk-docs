@@ -1,17 +1,9 @@
-﻿     InitializeStatusChangeEventHandler Delegate                                                   
-
-fcSDK Documentation
-
-InitializeStatusChangeEventHandler Delegate
+﻿### InitializeStatusChangeEventHandler Delegate
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Delegate Sub InitializeStatusChangeEventHandler( _
    ByVal _statusType_ As [InitStatusChangeType](fcSDK~FChoice.Foundation.Clarify.InitStatusChangeType.md) _
 ) 
@@ -32,7 +24,7 @@ _statusType_
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

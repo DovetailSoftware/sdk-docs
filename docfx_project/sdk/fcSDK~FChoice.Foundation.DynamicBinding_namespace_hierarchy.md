@@ -6,11 +6,11 @@ FChoice.Foundation.DynamicBinding Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Collections.ObjectModel.Collection<T>](#)  
       [FChoice.Foundation.DynamicBinding.DynamicBindingCollection](fcSDK~FChoice.Foundation.DynamicBinding.DynamicBindingCollection.md)  
 
-See Also
+
 
 #### Reference
 

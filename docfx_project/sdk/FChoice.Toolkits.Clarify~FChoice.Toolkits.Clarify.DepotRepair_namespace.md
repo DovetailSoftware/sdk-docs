@@ -29,7 +29,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [UpdateEcoLaborDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoLaborDetailSetup.md) | Used by the [UpdateEcoLaborDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoLaborDetail(UpdateEcoLaborDetailSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [UpdateEcoMaterialDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoMaterialDetailSetup.md) | Used by the [UpdateEcoMaterialDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoMaterialDetail(UpdateEcoMaterialDetailSetup).md) method as setup data for invocation. |
 
-See Also
+
 
 #### Reference
 

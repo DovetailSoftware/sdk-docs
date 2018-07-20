@@ -1,8 +1,4 @@
-﻿     UpdatePriceInstanceSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdatePriceInstanceSetup Class Properties
+﻿### UpdatePriceInstanceSetup Class Properties
 
 For a list of all members of this type, see [UpdatePriceInstanceSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup_members.md).
 
@@ -25,9 +21,9 @@ Revision to price
 | ![Public Property](dotnetimages/publicProperty.png) | [PriceProgram](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~PriceProgram.md) | Name of the price program   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~UpdateDate.md) | Date when the Price was updated, any Date between the start and end date is valid.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

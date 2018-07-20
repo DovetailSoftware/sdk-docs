@@ -1,16 +1,11 @@
-﻿     DataSetSurrogate Class                                                   
-
-DataSetSurrogate Class
+﻿### DataSetSurrogate Class
 
 Reads or writes a DataSet as a compact binary stream.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class DataSetSurrogate 
 
@@ -22,7 +17,7 @@ Remarks
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.Data.DataSetSurrogate**  
 
 #### Requirements
@@ -33,7 +28,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

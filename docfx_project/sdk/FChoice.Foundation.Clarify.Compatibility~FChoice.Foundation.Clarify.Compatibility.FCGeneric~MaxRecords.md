@@ -1,26 +1,17 @@
-﻿     MaxRecords Property (FCGeneric)                                                   
-
-fcSDK Documentation
-
-MaxRecords Property (FCGeneric)
+﻿### MaxRecords Property (FCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Property MaxRecords As Integer
 
-Public Property MaxRecords As [Integer](#)
+public int MaxRecords {get; set;}
 
-public [int](#) MaxRecords {get; set;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

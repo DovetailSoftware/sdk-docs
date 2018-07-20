@@ -1,26 +1,18 @@
-﻿     DeleteOnsiteLogSetup Class                                                   
-
-fcSDK Documentation
-
-DeleteOnsiteLogSetup Class
+﻿### DeleteOnsiteLogSetup Class
 
 Used by the [DeleteOnsiteLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DeleteOnsiteLog(DeleteOnsiteLogSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DeleteOnsiteLogSetup 
 
 public class DeleteOnsiteLogSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.DeleteOnsiteLogSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

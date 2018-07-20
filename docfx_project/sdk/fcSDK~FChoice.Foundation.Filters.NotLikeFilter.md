@@ -1,19 +1,11 @@
-﻿     NotLikeFilter Class                                                   
-
-fcSDK Documentation
-
-NotLikeFilter Class
+﻿### NotLikeFilter Class
 
 Filter field on strings that are not like the filter input
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class NotLikeFilter 
    Inherits [LikeFilter](fcSDK~FChoice.Foundation.Filters.LikeFilter.md)
 
@@ -25,7 +17,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       [FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)  
          [FChoice.Foundation.Filters.OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md)  
@@ -43,7 +35,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

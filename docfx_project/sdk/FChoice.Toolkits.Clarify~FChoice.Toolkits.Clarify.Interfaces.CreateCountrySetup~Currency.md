@@ -1,18 +1,11 @@
-﻿     Currency Property (CreateCountrySetup)                                                   
-
-fcSDK Documentation
-
-Currency Property (CreateCountrySetup)
+﻿### Currency Property (CreateCountrySetup)
 
 Name of the Currency used by the Country
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property Currency As String
@@ -24,11 +17,9 @@ Remarks
 
 If the Currency name is not found a new currency one is created based on the Currency properties of this API.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

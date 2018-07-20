@@ -1,6 +1,4 @@
-﻿     MsSqlStateManager Class Methods                                                   
-
-MsSqlStateManager Class Methods
+﻿### MsSqlStateManager Class Methods
 
 For a list of all members of this type, see [MsSqlStateManager members](FChoice.Common~FChoice.Common.State.MsSqlStateManager_members.md).
 
@@ -19,9 +17,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [ResetTimeout](FChoice.Common~FChoice.Common.State.MsSqlStateManager~ResetTimeout.md) | Overridden.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [SaveState](FChoice.Common~FChoice.Common.State.MsSqlStateManager~SaveState.md) | Overloaded. Overridden.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

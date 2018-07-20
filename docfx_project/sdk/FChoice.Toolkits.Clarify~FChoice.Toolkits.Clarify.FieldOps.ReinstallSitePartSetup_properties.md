@@ -1,8 +1,4 @@
-﻿     ReinstallSitePartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ReinstallSitePartSetup Class Properties
+﻿### ReinstallSitePartSetup Class Properties
 
 For a list of all members of this type, see [ReinstallSitePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.ReinstallSitePartSetup_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UseInstall](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.ReinstallSitePartSetup~UseInstall.md) | Specifies if activity entry records should be set to "Install" (true) or "Re-Installed" (false).   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.ReinstallSitePartSetup~UserName.md) | The user who is reinstalling the Site Part. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

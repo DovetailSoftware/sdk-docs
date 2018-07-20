@@ -1,18 +1,11 @@
-﻿     CaseTimeAndExpenses Property (GetCaseTimeAndExpensesResult)                                                   
-
-fcSDK Documentation
-
-CaseTimeAndExpenses Property (GetCaseTimeAndExpensesResult)
+﻿### CaseTimeAndExpenses Property (GetCaseTimeAndExpensesResult)
 
 Contains the sums and totals of time and expenses calculated before closing a Case.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property CaseTimeAndExpenses As [CaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses.md)
 
@@ -22,11 +15,9 @@ Remarks
 
 This object can be used when calling [CloseCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CloseCase.md) to set the [CloseSums](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup~CloseSums.md)
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

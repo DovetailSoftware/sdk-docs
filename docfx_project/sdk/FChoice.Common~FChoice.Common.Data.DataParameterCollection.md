@@ -1,22 +1,20 @@
 ﻿### DataParameterCollection Class
 
-DataParameterCollection Class
-
 Contains a collection of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbDataParameterClassTopic.htm) objects for use in a database query.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 Public Class DataParameterCollection 
+```
 
-\[[DefaultMemberAttribute](#)("Item")\]
+```csharp
+[DefaultMemberAttribute("Item")]
 public class DataParameterCollection 
+```
 
 Remarks
 
@@ -37,8 +35,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-See Also
 
 #### Reference
 

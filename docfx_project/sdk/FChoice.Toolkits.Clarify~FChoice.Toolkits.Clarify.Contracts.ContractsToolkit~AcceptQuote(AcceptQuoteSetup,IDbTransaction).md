@@ -1,8 +1,4 @@
-﻿     AcceptQuote(AcceptQuoteSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-AcceptQuote(AcceptQuoteSetup,IDbTransaction) Method
+﻿### AcceptQuote(AcceptQuoteSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Accept the specified Quote from the queue in which it is currently dispatched. T
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AcceptQuote( _
    ByVal _setupParam_ As [AcceptQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AcceptQuoteSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

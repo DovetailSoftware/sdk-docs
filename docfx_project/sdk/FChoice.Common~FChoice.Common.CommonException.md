@@ -15,7 +15,7 @@ Public Class CommonException
 ```
 
 ```csharp
-\[SerializableAttribute()\]
+[SerializableAttribute()]
 public class CommonException : [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) 
 
 Remarks
@@ -39,8 +39,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-See Also
 
 #### Reference
 

@@ -1,36 +1,27 @@
-﻿     GetTablesAndViews Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetTablesAndViews Method (IFCApplication)
+﻿### GetTablesAndViews Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743896)>
+<DispIdAttribute(1610743896)>
 Function GetTablesAndViews( _
-   Optional ByVal _TablesOnly_ As [Object](#) _
+   Optional ByVal _TablesOnly_ As Object _
 ) As ADODB.Recordset
 
-\[[DispIdAttribute](#)(1610743896)\]
+[DispIdAttribute(1610743896)]
 ADODB.Recordset GetTablesAndViews( 
-   [object](#) _TablesOnly_
+   object _TablesOnly_
 )
 
 #### Parameters
 
 _TablesOnly_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

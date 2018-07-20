@@ -1,8 +1,4 @@
-﻿     LocaleCache Class Members                                                   
-
-fcSDK Documentation
-
-LocaleCache Class Members
+﻿### LocaleCache Class Members
 
 The following tables list the members exposed by [LocaleCache](fcSDK~FChoice.Foundation.Clarify.LocaleCache.md).
 
@@ -17,7 +13,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ServerTimeZone](fcSDK~FChoice.Foundation.Clarify.LocaleCache~ServerTimeZone.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TimeZones](fcSDK~FChoice.Foundation.Clarify.LocaleCache~TimeZones.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -47,7 +43,7 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [SetServerTimeZoneToMachineTimeZone](fcSDK~FChoice.Foundation.Clarify.LocaleCache~SetServerTimeZoneToMachineTimeZone.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCache](fcSDK~FChoice.Foundation.CacheBase~UpdateCache.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
+
 
 Public Events
 
@@ -55,9 +51,9 @@ Public Events
 | --- | --- | --- |
 | ![Public Event](dotnetimages/publicEvent.png) | [CacheUpdated](fcSDK~FChoice.Foundation.CacheBase~CacheUpdated_EV.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

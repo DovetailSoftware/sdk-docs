@@ -1,26 +1,18 @@
-﻿     LogPartsUsedExchangeSetup Class                                                   
-
-fcSDK Documentation
-
-LogPartsUsedExchangeSetup Class
+﻿### LogPartsUsedExchangeSetup Class
 
 Used by the [LogPartsUsedExchange](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedExchange(LogPartsUsedExchangeSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogPartsUsedExchangeSetup 
 
 public class LogPartsUsedExchangeSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

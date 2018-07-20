@@ -1,8 +1,4 @@
-﻿     UpdatePartRequestHeaderSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdatePartRequestHeaderSetup Class Properties
+﻿### UpdatePartRequestHeaderSetup Class Properties
 
 For a list of all members of this type, see [UpdatePartRequestHeaderSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup_members.md).
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Priority](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup~Priority.md) | Element from the 'Request Priority' application list. If not set the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ShipToSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup~ShipToSiteIDNum.md) | Identifier of the Site where this Part Request should be shipped   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

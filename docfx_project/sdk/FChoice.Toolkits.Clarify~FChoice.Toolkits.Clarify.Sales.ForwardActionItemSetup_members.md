@@ -1,8 +1,4 @@
-﻿     ForwardActionItemSetup Class Members                                                   
-
-fcSDK Documentation
-
-ForwardActionItemSetup Class Members
+﻿### ForwardActionItemSetup Class Members
 
 The following tables list the members exposed by [ForwardActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ForwardActionItemSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup~_ctor.md) | Initializes a new instance of the ForwardActionItemSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup~Notes.md) | The reason the ActionItem was rejected from the queue into which it was dispatched.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup~UserName.md) | The user who has forwarded the ActionItem. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

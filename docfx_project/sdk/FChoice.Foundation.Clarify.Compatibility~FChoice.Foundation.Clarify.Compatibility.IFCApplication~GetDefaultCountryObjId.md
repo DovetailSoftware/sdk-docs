@@ -1,28 +1,18 @@
-﻿     GetDefaultCountryObjId Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetDefaultCountryObjId Method (IFCApplication)
+﻿### GetDefaultCountryObjId Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+<DispIdAttribute(1610743850)>
+Function GetDefaultCountryObjId() As Integer
 
-'Declaration
- 
+[DispIdAttribute(1610743850)]
+int GetDefaultCountryObjId()
 
-<[DispIdAttribute](#)(1610743850)>
-Function GetDefaultCountryObjId() As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-\[[DispIdAttribute](#)(1610743850)\]
-[int](#) GetDefaultCountryObjId()
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

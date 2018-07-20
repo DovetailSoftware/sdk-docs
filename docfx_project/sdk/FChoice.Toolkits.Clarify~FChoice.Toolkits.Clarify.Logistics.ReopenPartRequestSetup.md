@@ -1,26 +1,18 @@
-﻿     ReopenPartRequestSetup Class                                                   
-
-fcSDK Documentation
-
-ReopenPartRequestSetup Class
+﻿### ReopenPartRequestSetup Class
 
 Used by the [ReopenPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReopenPartRequest(ReopenPartRequestSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ReopenPartRequestSetup 
 
 public class ReopenPartRequestSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

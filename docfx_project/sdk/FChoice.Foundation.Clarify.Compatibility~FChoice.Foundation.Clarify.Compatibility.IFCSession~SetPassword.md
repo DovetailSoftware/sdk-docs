@@ -1,25 +1,17 @@
-﻿     SetPassword Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-SetPassword Method (IFCSession)
+﻿### SetPassword Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743908)>
+' Declaration
+<DispIdAttribute(1610743908)>
 Sub SetPassword( _
    ByVal _loginName_ As String, _
    ByVal _password_ As String, _
    ByVal _loginType_ As String _
 ) 
 
-\[[DispIdAttribute](#)(1610743908)\]
+[DispIdAttribute(1610743908)]
 void SetPassword( 
    string _loginName_,
    string _password_,
@@ -34,11 +26,9 @@ _password_
 
 _loginType_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

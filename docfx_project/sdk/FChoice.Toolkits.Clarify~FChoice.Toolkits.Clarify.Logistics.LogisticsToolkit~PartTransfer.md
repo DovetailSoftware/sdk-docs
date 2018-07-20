@@ -1,8 +1,4 @@
-﻿     PartTransfer Method (LogisticsToolkit)                                                   
-
-fcSDK Documentation
-
-PartTransfer Method (LogisticsToolkit)
+﻿### PartTransfer Method (LogisticsToolkit)
 
 Allows parts to be transferred independent of a part request to fix order errors, correct inventory variances, move parts from one inventory location (or account) to another (without having to relate that movement to a part request), and scrap parts out of inventory.
 
@@ -44,11 +40,9 @@ To use primary bin suggestions/recommendations, please see the remarks on the [T
 
 This API supports transferring parts by quantity or a specific serial number.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

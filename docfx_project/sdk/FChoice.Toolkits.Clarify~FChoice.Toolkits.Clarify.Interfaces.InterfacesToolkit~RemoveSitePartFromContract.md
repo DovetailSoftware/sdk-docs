@@ -1,8 +1,4 @@
-﻿     RemoveSitePartFromContract Method                                                   
-
-fcSDK Documentation
-
-RemoveSitePartFromContract Method
+﻿### RemoveSitePartFromContract Method
 
 Overload List
 
@@ -12,11 +8,9 @@ Overload List
 | [RemoveSitePartFromContract(RemoveSitePartFromContractSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~RemoveSitePartFromContract(RemoveSitePartFromContractSetup).md) |   |
 | [RemoveSitePartFromContract(RemoveSitePartFromContractSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~RemoveSitePartFromContract(RemoveSitePartFromContractSetup,IDbTransaction).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

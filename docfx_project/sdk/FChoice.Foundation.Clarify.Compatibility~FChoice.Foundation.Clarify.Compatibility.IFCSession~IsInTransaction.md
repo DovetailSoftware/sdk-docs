@@ -1,28 +1,18 @@
-﻿     IsInTransaction Property (IFCSession)                                                   
-
-fcSDK Documentation
-
-IsInTransaction Property (IFCSession)
+﻿### IsInTransaction Property (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743853)>
+' Declaration
+<DispIdAttribute(1610743853)>
 ReadOnly Property IsInTransaction As Boolean
 
-\[[DispIdAttribute](#)(1610743853)\]
+[DispIdAttribute(1610743853)]
 bool IsInTransaction {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

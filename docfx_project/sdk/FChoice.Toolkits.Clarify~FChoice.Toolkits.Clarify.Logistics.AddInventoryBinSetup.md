@@ -1,26 +1,18 @@
-﻿     AddInventoryBinSetup Class                                                   
-
-fcSDK Documentation
-
-AddInventoryBinSetup Class
+﻿### AddInventoryBinSetup Class
 
 Used by the [AddInventoryBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddInventoryBin(AddInventoryBinSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AddInventoryBinSetup 
 
 public class AddInventoryBinSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.AddInventoryBinSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

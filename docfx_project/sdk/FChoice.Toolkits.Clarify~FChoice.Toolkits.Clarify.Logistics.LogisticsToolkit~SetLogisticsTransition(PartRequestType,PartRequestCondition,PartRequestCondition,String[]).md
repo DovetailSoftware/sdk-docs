@@ -1,8 +1,4 @@
-﻿     SetLogisticsTransition(PartRequestType,PartRequestCondition,PartRequestCondition,String\[\]) Method                                                   
-
-fcSDK Documentation
-
-SetLogisticsTransition(PartRequestType,PartRequestCondition,PartRequestCondition,String\[\]) Method
+﻿### SetLogisticsTransition(PartRequestType,PartRequestCondition,PartRequestCondition,String\[\]) Method
 
 Type of Part Request that this transition applies to
 
@@ -17,10 +13,7 @@ Allows you to create or modify Logistics Transitions in the database. This overl
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function SetLogisticsTransition( _
    ByVal _partRequestType_ As [PartRequestType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestType.md), _
@@ -33,7 +26,7 @@ public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Toolkit
    [PartRequestType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestType.md) _partRequestType_,
    [PartRequestCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestCondition.md) _startCondition_,
    [PartRequestCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestCondition.md) _endCondition_,
-   params string\[\] _privilegeClasses_
+   params string[] _privilegeClasses_
 )
 
 #### Parameters
@@ -62,11 +55,9 @@ Remarks
 
 If a transition does not yet exist for the conditions and request type, a new transition is created. Otherwise, the existing transition is modified.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ForwardSolutionSetup Class Members                                                   
-
-fcSDK Documentation
-
-ForwardSolutionSetup Class Members
+﻿### ForwardSolutionSetup Class Members
 
 The following tables list the members exposed by [ForwardSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ForwardSolutionSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ForwardSolutionSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ForwardSolutionSetup~_ctor.md) | Initializes a new instance of the ForwardSolutionSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SolutionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ForwardSolutionSetup~SolutionIDNum.md) | Solution Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ForwardSolutionSetup~UserName.md) | The user who has forwarded the Solution. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

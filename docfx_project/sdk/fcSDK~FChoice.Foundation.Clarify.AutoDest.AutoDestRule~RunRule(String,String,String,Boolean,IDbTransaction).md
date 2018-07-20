@@ -1,16 +1,9 @@
-﻿     RunRule(String,String,String,Boolean,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-RunRule(String,String,String,Boolean,IDbTransaction) Method
+﻿### RunRule(String,String,String,Boolean,IDbTransaction) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function RunRule( _
    ByVal _ruleTitle_ As String, _
@@ -20,7 +13,7 @@ Public Overloads Shared Function RunRule( _
    ByVal _transaction_ As [IDbTransaction](#) _
 ) As [String()](#)
 
-public static [string\[\]](#) RunRule( 
+public static string[] RunRule( 
    string _ruleTitle_,
    string _ruleText_,
    string _rootObjectId_,
@@ -40,11 +33,9 @@ _isAutoDispatch_
 
 _transaction_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

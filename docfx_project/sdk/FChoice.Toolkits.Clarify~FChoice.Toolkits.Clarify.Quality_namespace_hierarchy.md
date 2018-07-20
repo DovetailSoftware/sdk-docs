@@ -6,7 +6,7 @@ FChoice.Toolkits.Clarify.Quality Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.Quality.AcceptCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AcceptCRSetup.md)  
    [FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup.md)  
    [FChoice.Toolkits.Clarify.Quality.AssignCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AssignCRSetup.md)  
@@ -33,7 +33,7 @@ Inheritance Hierarchy
       [FChoice.Toolkits.Clarify.Quality.QualityToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkitBase.md)  
          [FChoice.Toolkits.Clarify.Quality.QualityToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit.md)  
 
-See Also
+
 
 #### Reference
 

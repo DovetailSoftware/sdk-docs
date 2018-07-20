@@ -1,6 +1,4 @@
-﻿     TypeMapper Class Methods                                                   
-
-TypeMapper Class Methods
+﻿### TypeMapper Class Methods
 
 For a list of all members of this type, see [TypeMapper members](FChoice.Common~FChoice.Common.Data.TypeMapper_members.md).
 
@@ -22,9 +20,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [MapFCNumberToFCName](FChoice.Common~FChoice.Common.Data.TypeMapper~MapFCNumberToFCName.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [MapTypeToDbType](FChoice.Common~FChoice.Common.Data.TypeMapper~MapTypeToDbType.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

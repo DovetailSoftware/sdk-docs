@@ -1,19 +1,11 @@
-﻿     Configuration Property (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-Configuration Property (ClarifyApplication)
+﻿### Configuration Property (ClarifyApplication)
 
 Collection of application parameters being used by the application object.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public ReadOnly Property Configuration As NameValueCollection
 
 public NameValueCollection Configuration {get;}
@@ -26,11 +18,9 @@ Remarks
 
 The values in this collection are populated by the application configuration file.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdateAccountSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateAccountSetup Class Members
+﻿### UpdateAccountSetup Class Members
 
 The following tables list the members exposed by [UpdateAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAccountSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateAccountSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAccountSetup~_ctor.md) | Initializes a new instance of the UpdateAccountSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,9 +32,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAccountSetup~UserName.md) | User creating the Account   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WebSite](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAccountSetup~WebSite.md) | URL of the Account's web site.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

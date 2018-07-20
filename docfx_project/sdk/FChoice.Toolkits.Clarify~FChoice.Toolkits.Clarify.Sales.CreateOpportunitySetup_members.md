@@ -1,8 +1,4 @@
-﻿     CreateOpportunitySetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateOpportunitySetup Class Members
+﻿### CreateOpportunitySetup Class Members
 
 The following tables list the members exposed by [CreateOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateOpportunitySetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateOpportunitySetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateOpportunitySetup~_ctor.md) | Initializes a new instance of the CreateOpportunitySetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,9 +32,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Territory](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateOpportunitySetup~Territory.md) | Name of the territory for the Opportunity.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateOpportunitySetup~UserName.md) | The user who is creating the opportunity. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

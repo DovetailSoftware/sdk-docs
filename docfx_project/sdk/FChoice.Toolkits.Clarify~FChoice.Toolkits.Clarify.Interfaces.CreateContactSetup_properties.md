@@ -1,8 +1,4 @@
-﻿     CreateContactSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateContactSetup Class Properties
+﻿### CreateContactSetup Class Properties
 
 For a list of all members of this type, see [CreateContactSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContactSetup_members.md).
 
@@ -26,9 +22,9 @@ Identifier of the site for the contact role to create.
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContactSetup~Title.md) | Job title for the Contact   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

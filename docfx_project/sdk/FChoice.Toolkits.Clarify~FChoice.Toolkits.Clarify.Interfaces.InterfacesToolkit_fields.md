@@ -1,8 +1,4 @@
-﻿     InterfacesToolkit Class Fields                                                   
-
-fcSDK Documentation
-
-InterfacesToolkit Class Fields
+﻿### InterfacesToolkit Class Fields
 
 For a list of all members of this type, see [InterfacesToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit_members.md).
 
@@ -16,9 +12,9 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [DeliveryFailedActivityCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~DeliveryFailedActivityCode.md) |   |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [DeliveryPendingActivityCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~DeliveryPendingActivityCode.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

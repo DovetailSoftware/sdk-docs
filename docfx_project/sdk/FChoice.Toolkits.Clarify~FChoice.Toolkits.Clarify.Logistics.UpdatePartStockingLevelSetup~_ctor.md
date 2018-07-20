@@ -1,8 +1,4 @@
-﻿     UpdatePartStockingLevelSetup Constructor                                                   
-
-fcSDK Documentation
-
-UpdatePartStockingLevelSetup Constructor
+﻿### UpdatePartStockingLevelSetup Constructor
 
 The location and bin used for restocking
 
@@ -19,12 +15,9 @@ Initializes a new instance of the UpdatePartStockingLevelSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _currentLocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
    ByVal _queue_ As String, _
@@ -33,7 +26,7 @@ Public Function New( _
    ByVal _partDomain_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public UpdatePartStockingLevelSetup( 
    [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _currentLocation_,
    string _queue_,
@@ -64,11 +57,9 @@ _partDomain_
 
 Part domain for the Part
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

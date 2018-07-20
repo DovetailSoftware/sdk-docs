@@ -1,8 +1,4 @@
-﻿     DeleteAlternatePartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DeleteAlternatePartSetup Class Properties
+﻿### DeleteAlternatePartSetup Class Properties
 
 For a list of all members of this type, see [DeleteAlternatePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartNumber](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup~PartNumber.md) | The Part number   |
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup~PartRevision.md) | The Part revision   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

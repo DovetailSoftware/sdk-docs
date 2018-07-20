@@ -1,8 +1,4 @@
-﻿     CreatePart(String,String,Int32,PartRepairType) Method                                                   
-
-fcSDK Documentation
-
-CreatePart(String,String,Int32,PartRepairType) Method
+﻿### CreatePart(String,String,Int32,PartRepairType) Method
 
 Part Number for the part to create.
 
@@ -17,22 +13,19 @@ Create a Part. This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreatePart( _
    ByVal _partNumber_ As String, _
    ByVal _partDomain_ As String, _
-   ByVal _warrantyDays_ As [Integer](#), _
+   ByVal _warrantyDays_ As Integer, _
    ByVal _repairType_ As [PartRepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRepairType.md) _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreatePart( 
    string _partNumber_,
    string _partDomain_,
-   [int](#) _warrantyDays_,
+   int _warrantyDays_,
    [PartRepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRepairType.md) _repairType_
 )
 
@@ -64,11 +57,9 @@ Remarks
 
 Just calling this API will **NOT** cause the part to be visible in Clarify. There must be at least one [Part Revision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreatePartRevision.md) present to view a Part.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

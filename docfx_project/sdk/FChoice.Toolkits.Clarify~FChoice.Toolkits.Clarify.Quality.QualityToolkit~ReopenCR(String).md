@@ -1,8 +1,4 @@
-﻿     ReopenCR(String) Method                                                   
-
-fcSDK Documentation
-
-ReopenCR(String) Method
+﻿### ReopenCR(String) Method
 
 Identifier of the CR being reopened.
 
@@ -11,10 +7,7 @@ Reopen a CR. This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReopenCR( _
    ByVal _crIDNum_ As String _
@@ -38,11 +31,9 @@ Remarks
 
 It must be in a condition other than “Open”, and cannot be dispatched.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

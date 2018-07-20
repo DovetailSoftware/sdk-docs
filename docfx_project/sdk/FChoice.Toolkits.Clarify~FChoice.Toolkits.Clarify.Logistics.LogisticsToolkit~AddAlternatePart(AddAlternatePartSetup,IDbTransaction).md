@@ -1,8 +1,4 @@
-﻿     AddAlternatePart(AddAlternatePartSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-AddAlternatePart(AddAlternatePartSetup,IDbTransaction) Method
+﻿### AddAlternatePart(AddAlternatePartSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Causes the second part/revision listed to become an alternate part of the first 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AddAlternatePart( _
    ByVal _setupParam_ As [AddAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

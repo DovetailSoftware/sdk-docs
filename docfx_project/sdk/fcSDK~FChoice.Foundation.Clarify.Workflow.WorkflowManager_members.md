@@ -1,8 +1,4 @@
-﻿     WorkflowManager Class Members                                                   
-
-fcSDK Documentation
-
-WorkflowManager Class Members
+﻿### WorkflowManager Class Members
 
 The following tables list the members exposed by [WorkflowManager](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [WorkflowManager Constructor](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -21,7 +17,7 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [EndOfHistoryMagicText](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~EndOfHistoryMagicText.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [ImpersonatorUserName](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~ImpersonatorUserName.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -51,9 +47,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Reject](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~Reject.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [Yank](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~Yank.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

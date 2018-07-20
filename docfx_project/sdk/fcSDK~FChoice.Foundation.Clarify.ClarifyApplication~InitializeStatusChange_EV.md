@@ -1,18 +1,11 @@
-﻿     InitializeStatusChange Event                                                   
-
-fcSDK Documentation
-
-InitializeStatusChange Event
+﻿### InitializeStatusChange Event
 
 Event fired during [Initialization](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~Initialize.md), relaying information about the current status of the initialization process.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Event InitializeStatusChange As [InitializeStatusChangeEventHandler](fcSDK~FChoice.Foundation.Clarify.InitializeStatusChangeEventHandler.md)
 
@@ -22,11 +15,9 @@ Remarks
 
 Add an event handler to this event to receive feedback on where in the initialization process ClarifyApplication currently is. The [InitStatusChangeType](fcSDK~FChoice.Foundation.Clarify.InitStatusChangeType.md) enumeration contains the initialization states.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

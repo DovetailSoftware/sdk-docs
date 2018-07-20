@@ -1,26 +1,18 @@
-﻿     AddPOToScheduleSetup Class                                                   
-
-fcSDK Documentation
-
-AddPOToScheduleSetup Class
+﻿### AddPOToScheduleSetup Class
 
 Used by the [AddPOToSchedule](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~AddPOToSchedule(AddPOToScheduleSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AddPOToScheduleSetup 
 
 public class AddPOToScheduleSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

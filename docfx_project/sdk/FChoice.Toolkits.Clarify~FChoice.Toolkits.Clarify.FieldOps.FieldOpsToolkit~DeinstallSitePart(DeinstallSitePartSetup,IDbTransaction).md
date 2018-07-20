@@ -1,8 +1,4 @@
-﻿     DeinstallSitePart(DeinstallSitePartSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-DeinstallSitePart(DeinstallSitePartSetup,IDbTransaction) Method
+﻿### DeinstallSitePart(DeinstallSitePartSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to de-install a site part (and the sub-parts installed underneath it) from 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DeinstallSitePart( _
    ByVal _setupParam_ As [DeinstallSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeinstallSitePartSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

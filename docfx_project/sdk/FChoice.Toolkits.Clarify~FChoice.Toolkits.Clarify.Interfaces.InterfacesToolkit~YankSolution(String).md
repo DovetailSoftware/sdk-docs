@@ -1,8 +1,4 @@
-﻿     YankSolution(String) Method                                                   
-
-fcSDK Documentation
-
-YankSolution(String) Method
+﻿### YankSolution(String) Method
 
 Solution Identifier.
 
@@ -11,10 +7,7 @@ Yank the Solution from its current location to a new owner's WipBin. This overlo
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function YankSolution( _
    ByVal _solutionIDNum_ As String _
@@ -38,11 +31,9 @@ Remarks
 
 The WipBin to place the Solution in may also be specified. This is augmented function from base Clarify, where the Solution is always placed in the default WipBin.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

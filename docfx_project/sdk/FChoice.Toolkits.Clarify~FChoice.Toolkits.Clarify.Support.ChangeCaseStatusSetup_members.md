@@ -1,8 +1,4 @@
-﻿     ChangeCaseStatusSetup Class Members                                                   
-
-fcSDK Documentation
-
-ChangeCaseStatusSetup Class Members
+﻿### ChangeCaseStatusSetup Class Members
 
 The following tables list the members exposed by [ChangeCaseStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ChangeCaseStatusSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup~_ctor.md) | Initializes a new instance of the ChangeCaseStatusSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup~Notes.md) | Notes for the status change.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup~UserName.md) | The User who changed the Case. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     ExecuteReader Method                                                   
-
-ExecuteReader Method
+﻿### ExecuteReader Method
 
 Overload List
 
@@ -15,11 +13,9 @@ Overload List
 | [ExecuteReader(IDbTransaction,CommandType,String)](FChoice.Common~FChoice.Common.Data.SqlHelper~ExecuteReader(IDbTransaction,CommandType,String).md) |   |
 | [ExecuteReader(IDbTransaction,CommandType,String,DataParameterCollection)](FChoice.Common~FChoice.Common.Data.SqlHelper~ExecuteReader(IDbTransaction,CommandType,String,DataParameterCollection).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

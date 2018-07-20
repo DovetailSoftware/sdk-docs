@@ -1,16 +1,9 @@
-﻿     RetrieveRule Method                                                   
-
-fcSDK Documentation
-
-RetrieveRule Method
+﻿### RetrieveRule Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shared Function RetrieveRule( _
    ByVal _ruleTitle_ As String, _
@@ -28,11 +21,9 @@ _ruleTitle_
 
 _ruleOperation_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

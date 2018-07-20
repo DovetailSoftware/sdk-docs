@@ -1,8 +1,4 @@
-﻿     MoveSitePartToPartSetup Constructor                                                   
-
-fcSDK Documentation
-
-MoveSitePartToPartSetup Constructor
+﻿### MoveSitePartToPartSetup Constructor
 
 Objid of the Site Part to be moved
 
@@ -13,21 +9,18 @@ Initializes a new instance of the MoveSitePartToPartSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _sitePartObjid_ As [Integer](#), _
-   ByVal _parentSitePartObjid_ As [Integer](#) _
+   ByVal _sitePartObjid_ As Integer, _
+   ByVal _parentSitePartObjid_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public MoveSitePartToPartSetup( 
-   [int](#) _sitePartObjid_,
-   [int](#) _parentSitePartObjid_
+   int _sitePartObjid_,
+   int _parentSitePartObjid_
 )
 
 #### Parameters
@@ -40,11 +33,9 @@ _parentSitePartObjid_
 
 Objid of the parent Site Part this [Site Part](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToPartSetup~SitePartObjid.md) will be placed into
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

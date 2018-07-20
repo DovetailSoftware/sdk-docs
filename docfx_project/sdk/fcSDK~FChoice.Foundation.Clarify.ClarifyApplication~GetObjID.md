@@ -1,8 +1,4 @@
-﻿     GetObjID Method (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-GetObjID Method (ClarifyApplication)
+﻿### GetObjID Method (ClarifyApplication)
 
 The name of the table whose next objid to retreive.
 
@@ -11,16 +7,12 @@ Gets the next objid for the given table
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetObjID( _
    ByVal _tableName_ As String _
-) As [Integer](#)
+) As Integer
 
-public [int](#) GetObjID( 
+public int GetObjID( 
    string _tableName_
 )
 
@@ -46,11 +38,9 @@ If caching of objids is enabled, the next objid will be retrieved from the local
 
 To configure caching, set the OBJID_CACHE_SIZE config item to the quantity of objid values to be reserved at a time, and then restart the application.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

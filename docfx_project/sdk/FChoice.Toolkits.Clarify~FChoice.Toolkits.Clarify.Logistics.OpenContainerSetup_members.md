@@ -1,8 +1,4 @@
-﻿     OpenContainerSetup Class Members                                                   
-
-fcSDK Documentation
-
-OpenContainerSetup Class Members
+﻿### OpenContainerSetup Class Members
 
 The following tables list the members exposed by [OpenContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.OpenContainerSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [OpenContainerSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.OpenContainerSetup~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -20,9 +16,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ContainerName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.OpenContainerSetup~ContainerName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

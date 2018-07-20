@@ -1,26 +1,18 @@
-﻿     AddUserToQueueSetup Class                                                   
-
-fcSDK Documentation
-
-AddUserToQueueSetup Class
+﻿### AddUserToQueueSetup Class
 
 Used by the [AddUserToQueue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AddUserToQueue(AddUserToQueueSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AddUserToQueueSetup 
 
 public class AddUserToQueueSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

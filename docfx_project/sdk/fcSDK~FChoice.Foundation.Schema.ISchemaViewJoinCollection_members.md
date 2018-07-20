@@ -1,12 +1,8 @@
-﻿     ISchemaViewJoinCollection Interface Members                                                   
-
-fcSDK Documentation
-
-ISchemaViewJoinCollection Interface Members
+﻿### ISchemaViewJoinCollection Interface Members
 
 The following tables list the members exposed by [ISchemaViewJoinCollection](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoinCollection.md).
 
-See Also
+
 
 #### Reference
 

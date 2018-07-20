@@ -1,8 +1,4 @@
-﻿     EqualsFilter Class Methods                                                   
-
-fcSDK Documentation
-
-EqualsFilter Class Methods
+﻿### EqualsFilter Class Methods
 
 For a list of all members of this type, see [EqualsFilter members](fcSDK~FChoice.Foundation.Filters.EqualsFilter_members.md).
 
@@ -13,9 +9,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Render](fcSDK~FChoice.Foundation.Filters.Filter~Render.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateFilter](fcSDK~FChoice.Foundation.Filters.Filter~ValidateFilter.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

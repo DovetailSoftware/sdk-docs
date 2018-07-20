@@ -1,30 +1,21 @@
-﻿     RenewPriorDays Property                                                   
-
-fcSDK Documentation
-
-RenewPriorDays Property
+﻿### RenewPriorDays Property
 
 The number of days to renew the Contract before the ExpireDate.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property RenewPriorDays As [Integer](#)
+Public Property RenewPriorDays As Integer
 
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [int](#) RenewPriorDays {get; set;}
+public int RenewPriorDays {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

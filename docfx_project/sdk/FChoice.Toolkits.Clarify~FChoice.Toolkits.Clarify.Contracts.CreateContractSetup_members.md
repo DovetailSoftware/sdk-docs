@@ -1,8 +1,4 @@
-﻿     CreateContractSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateContractSetup Class Members
+﻿### CreateContractSetup Class Members
 
 The following tables list the members exposed by [CreateContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateContractSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractSetup~_ctor.md) | Initializes a new instance of the CreateContractSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -48,9 +44,9 @@ Flag to set the contract line items' default start state to one day past the en
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractSetup~Title.md) | The title of the Contract.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractSetup~UserName.md) | The username of the user who is creating the Contract. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

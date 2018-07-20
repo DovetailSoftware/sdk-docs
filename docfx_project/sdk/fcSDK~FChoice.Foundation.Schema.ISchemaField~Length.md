@@ -1,26 +1,16 @@
-﻿     Length Property (ISchemaField)                                                   
-
-fcSDK Documentation
-
-Length Property (ISchemaField)
+﻿### Length Property (ISchemaField)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+ReadOnly Property Length As Integer
 
-'Declaration
- 
+int Length {get;}
 
-ReadOnly Property Length As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-[int](#) Length {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

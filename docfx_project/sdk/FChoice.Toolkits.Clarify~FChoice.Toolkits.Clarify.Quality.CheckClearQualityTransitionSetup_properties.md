@@ -1,8 +1,4 @@
-﻿     CheckClearQualityTransitionSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CheckClearQualityTransitionSetup Class Properties
+﻿### CheckClearQualityTransitionSetup Class Properties
 
 For a list of all members of this type, see [CheckClearQualityTransitionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CheckClearQualityTransitionSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [OldStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CheckClearQualityTransitionSetup~OldStatus.md) | The current status of the Change Request.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CheckClearQualityTransitionSetup~UserName.md) | The user checking the transition. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

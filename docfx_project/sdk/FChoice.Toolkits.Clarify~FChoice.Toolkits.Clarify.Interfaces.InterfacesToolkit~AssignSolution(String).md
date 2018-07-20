@@ -1,8 +1,4 @@
-﻿     AssignSolution(String) Method                                                   
-
-fcSDK Documentation
-
-AssignSolution(String) Method
+﻿### AssignSolution(String) Method
 
 Solution Identifier.
 
@@ -11,10 +7,7 @@ Assign the Solution to a new user. This overload takes a set of required paramet
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AssignSolution( _
    ByVal _solutionIDNum_ As String _
@@ -38,11 +31,9 @@ Remarks
 
 The Solution must be in the Open condition, and the user assigning the Solution does not have to be the owner of the Solution. In base Clarify, the assigner of a Solution must be the owner. If either user name is not specified, the “current” user is used. The date/time of the assignment, and the WipBin to place the Solution in can also be specified. Allowing a WipBin other than the default one is also an augmentation from base Clarify.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

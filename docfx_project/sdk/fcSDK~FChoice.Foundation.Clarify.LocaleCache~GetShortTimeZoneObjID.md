@@ -1,22 +1,14 @@
-﻿     GetShortTimeZoneObjID Method (LocaleCache)                                                   
-
-fcSDK Documentation
-
-GetShortTimeZoneObjID Method (LocaleCache)
+﻿### GetShortTimeZoneObjID Method (LocaleCache)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetShortTimeZoneObjID( _
    ByVal _shortName_ As String _
-) As [Integer](#)
+) As Integer
 
-public [int](#) GetShortTimeZoneObjID( 
+public int GetShortTimeZoneObjID( 
    string _shortName_
 )
 
@@ -24,11 +16,9 @@ public [int](#) GetShortTimeZoneObjID(
 
 _shortName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

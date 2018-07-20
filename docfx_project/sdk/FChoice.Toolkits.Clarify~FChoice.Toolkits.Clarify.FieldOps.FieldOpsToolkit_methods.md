@@ -1,8 +1,4 @@
-﻿     FieldOpsToolkit Class Methods                                                   
-
-fcSDK Documentation
-
-FieldOpsToolkit Class Methods
+﻿### FieldOpsToolkit Class Methods
 
 For a list of all members of this type, see [FieldOpsToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md).
 
@@ -39,9 +35,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateSitePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~UpdateSitePart.md) | Overloaded. Used to modify an existing site part. This overload takes a setup object and a database transaction.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateTimeLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~UpdateTimeLog.md) | Overloaded. Used to modify an existing time log. This overload takes a setup object and a database transaction.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ClarifyRowCollection Class Methods                                                   
-
-fcSDK Documentation
-
-ClarifyRowCollection Class Methods
+﻿### ClarifyRowCollection Class Methods
 
 For a list of all members of this type, see [ClarifyRowCollection members](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection_members.md).
 
@@ -16,9 +12,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Find](fcSDK~FChoice.Foundation.GenericDataRowCollection~Find.md) | Overloaded. Gets the row containing the specified primary key values. (Inherited from [FChoice.Foundation.GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetEnumerator](fcSDK~FChoice.Foundation.GenericDataRowCollection~GetEnumerator.md) | Gets an [IEnumerator](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemcollectionsienumeratorclasstopic.htm) for the collection. (Inherited from [FChoice.Foundation.GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

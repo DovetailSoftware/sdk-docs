@@ -1,26 +1,18 @@
-﻿     UpdateSubcaseCommitmentSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateSubcaseCommitmentSetup Class
+﻿### UpdateSubcaseCommitmentSetup Class
 
 Used by the [UpdateSubcaseCommitment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UpdateSubcaseCommitment(UpdateSubcaseCommitmentSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateSubcaseCommitmentSetup 
 
 public class UpdateSubcaseCommitmentSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.UpdateSubcaseCommitmentSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

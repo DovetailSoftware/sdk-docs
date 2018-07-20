@@ -1,8 +1,4 @@
-﻿     LogisticsToolkitBase Class Members                                                   
-
-fcSDK Documentation
-
-LogisticsToolkitBase Class Members
+﻿### LogisticsToolkitBase Class Members
 
 The following tables list the members exposed by [LogisticsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase~ImpersonatorUsername.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

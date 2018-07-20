@@ -1,6 +1,4 @@
-﻿     ExecuteDataSet Method                                                   
-
-ExecuteDataSet Method
+﻿### ExecuteDataSet Method
 
 Executes the the SQL specified in the [CommandText Property](FChoice.Common~FChoice.Common.Data.SqlHelper~CommandText.md) against the database using the provider specified in the [DataProvider Property](FChoice.Common~FChoice.Common.Data.SqlHelper~DataProvider.md) and returns the results as a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm)
 
@@ -25,11 +23,9 @@ Not all providers return a DataSet with the same structure if no results are r
 
 In no case will the DataSet returned be a null reference (**Nothing** in Visual Basic).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     SchemaCache Class Properties                                                   
-
-fcSDK Documentation
-
-SchemaCache Class Properties
+﻿### SchemaCache Class Properties
 
 For a list of all members of this type, see [SchemaCache members](fcSDK~FChoice.Foundation.Clarify.SchemaCache_members.md).
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [VendorSchemaDate](fcSDK~FChoice.Foundation.Clarify.SchemaCache~VendorSchemaDate.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Views](fcSDK~FChoice.Foundation.Clarify.SchemaCache~Views.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

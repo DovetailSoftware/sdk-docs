@@ -1,8 +1,4 @@
-﻿     RestrictionGroupCollection Class Methods                                                   
-
-fcSDK Documentation
-
-RestrictionGroupCollection Class Methods
+﻿### RestrictionGroupCollection Class Methods
 
 For a list of all members of this type, see [RestrictionGroupCollection members](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroupCollection_members.md).
 
@@ -42,9 +38,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<RestrictionGroup>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<RestrictionGroup>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

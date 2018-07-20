@@ -1,8 +1,4 @@
-﻿     HierarchicalStringElement Class Members                                                   
-
-fcSDK Documentation
-
-HierarchicalStringElement Class Members
+﻿### HierarchicalStringElement Class Members
 
 The following tables list the members exposed by [HierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElement.md).
 
@@ -14,7 +10,7 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [DEFAULT_STATE](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElement~DEFAULT_STATE.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [INACTIVE_STATE](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElement~INACTIVE_STATE.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -32,7 +28,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElement~Title.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -46,9 +42,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

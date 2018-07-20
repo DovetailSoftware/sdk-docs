@@ -1,6 +1,4 @@
-﻿     SetLoggerLevel Method                                                   
-
-SetLoggerLevel Method
+﻿### SetLoggerLevel Method
 
 Changes a specific logger's (specified by type) logging level.
 
@@ -17,11 +15,9 @@ Remarks
 
 **NOTE:** After you are finished configuring LogManager, you must call [Reconfigure](FChoice.Common~FChoice.Common.LogManager~Reconfigure.md) in order for the changes to fully take effect.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

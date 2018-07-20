@@ -1,30 +1,20 @@
-﻿     AllowActionItem Property (UpdateQueueSetup)                                                   
-
-fcSDK Documentation
-
-AllowActionItem Property (UpdateQueueSetup)
+﻿### AllowActionItem Property (UpdateQueueSetup)
 
 Should Queue allow Action Items
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property AllowActionItem As Boolean
 
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public bool AllowActionItem {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

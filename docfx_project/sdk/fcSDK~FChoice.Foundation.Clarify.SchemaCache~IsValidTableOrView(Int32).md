@@ -1,34 +1,26 @@
-﻿     IsValidTableOrView(Int32) Method                                                   
-
-fcSDK Documentation
-
-IsValidTableOrView(Int32) Method
+﻿### IsValidTableOrView(Int32) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function IsValidTableOrView( _
-   ByVal _typeID_ As [Integer](#) _
+   ByVal _typeID_ As Integer _
 ) As Boolean
+```
 
+```csharp
 public bool IsValidTableOrView( 
-   [int](#) _typeID_
+   int _typeID_
 )
+```
 
 #### Parameters
 
 _typeID_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

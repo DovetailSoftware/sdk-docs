@@ -1,26 +1,18 @@
-﻿     ApplyEcoSetup Class                                                   
-
-fcSDK Documentation
-
-ApplyEcoSetup Class
+﻿### ApplyEcoSetup Class
 
 Used by the [ApplyEco](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~ApplyEco(ApplyEcoSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ApplyEcoSetup 
 
 public class ApplyEcoSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

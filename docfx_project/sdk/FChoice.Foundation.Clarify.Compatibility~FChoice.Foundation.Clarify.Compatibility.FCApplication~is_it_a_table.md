@@ -1,16 +1,9 @@
-﻿     is_it_a_table Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-is_it_a_table Method (FCApplication)
+﻿### is_it_a_table Method (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function is_it_a_table( _
    ByVal _tableName_ As String _
@@ -24,11 +17,9 @@ public bool is_it_a_table(
 
 _tableName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

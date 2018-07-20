@@ -1,18 +1,11 @@
-﻿     AccountName Property (UpdateActionItemSetup)                                                   
-
-fcSDK Documentation
-
-AccountName Property (UpdateActionItemSetup)
+﻿### AccountName Property (UpdateActionItemSetup)
 
 Name of the account to relate to the action item.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property AccountName As String
@@ -24,11 +17,9 @@ Remarks
 
 If the property is set to an empty string the relation to the current Account will be removed.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

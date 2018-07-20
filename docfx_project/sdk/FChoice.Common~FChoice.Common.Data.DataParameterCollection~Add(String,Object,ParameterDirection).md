@@ -1,6 +1,4 @@
-﻿     Add(String,Object,ParameterDirection) Method                                                   
-
-Add(String,Object,ParameterDirection) Method
+﻿### Add(String,Object,ParameterDirection) Method
 
 The name of the parameter to add (without the database-specific bind variable prefix such as @ for Microsoft SQL Server or : for Oracle)
 
@@ -13,29 +11,31 @@ Adds a parameter to this collection for passing to the database and in replacin
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Overloads Function Add( _
    ByVal _name_ As String, _
-   ByVal _value_ As [Object](#), _
-   ByVal _direction_ As [ParameterDirection](#) _
-) As [Integer](#)
+   ByVal _value_ As Object, _
+   ByVal _direction_ As ParameterDirection _
+) As Integer
+```
 
-public [int](#) Add( 
+```csharp
+public int Add( 
    string _name_,
-   [object](#) _value_,
-   [ParameterDirection](#) _direction_
+   object _value_,
+   ParameterDirection _direction_
 )
+```
 
 #### Parameters
 
 _name_
 
 The name of the parameter to add (without the database-specific bind variable prefix such as @ for Microsoft SQL Server or : for Oracle)
+```
 
+```csharp
 _value_
 
 The value of the parameter that will be passed to the database as part of the query
@@ -56,11 +56,7 @@ The **_name_** parameter should be a simple name without any database-specific 
 
 The rules for the **_value_** parameter are dictated by the underlying data provider type. In general, basic types will be supported without problems, but database-specific values such as large binary arrays or text fields might require extra preparation. You can access the parameter collection via the [Parameters](FChoice.Common~FChoice.Common.Data.DataParameterCollection~Parameters.md) property to perform database-specific work or add a custom parameter to the collection. Consult the database vendor's documentation or the .NET Framework SDK documentation for these special considerations.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

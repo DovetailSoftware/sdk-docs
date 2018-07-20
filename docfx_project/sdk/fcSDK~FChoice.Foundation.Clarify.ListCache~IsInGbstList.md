@@ -1,8 +1,4 @@
-﻿     IsInGbstList Method (ListCache)                                                   
-
-fcSDK Documentation
-
-IsInGbstList Method (ListCache)
+﻿### IsInGbstList Method (ListCache)
 
 The name of the GBST/application pop-up list
 
@@ -13,10 +9,7 @@ Gets whether or not the specified element value exists in a given application po
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function IsInGbstList( _
    ByVal _listTitle_ As String, _
@@ -46,11 +39,9 @@ Remarks
 
 If no list is found with the title of _listTitle_, or the value does not exist in this list, false is returned. Otherwise, true is returned.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

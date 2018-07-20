@@ -1,16 +1,9 @@
-﻿     GenericDataSet Class                                                   
-
-fcSDK Documentation
-
-GenericDataSet Class
+﻿### GenericDataSet Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class GenericDataSet 
 
@@ -18,7 +11,7 @@ public abstract class GenericDataSet
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.GenericDataSet**  
       [FChoice.Foundation.Clarify.ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md)  
 
@@ -30,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

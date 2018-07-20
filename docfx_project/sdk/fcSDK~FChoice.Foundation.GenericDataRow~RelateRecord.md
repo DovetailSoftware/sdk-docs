@@ -1,8 +1,4 @@
-﻿     RelateRecord Method                                                   
-
-fcSDK Documentation
-
-RelateRecord Method
+﻿### RelateRecord Method
 
 The row which the current **GenericDataRow** is being related to.
 
@@ -13,11 +9,7 @@ Relate a given row to this [GenericDataRow](fcSDK~FChoice.Foundation.GenericData
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub RelateRecord( _
    ByVal _otherRow_ As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md), _
    ByVal _relationName_ As String _
@@ -42,11 +34,9 @@ Remarks
 
 The **relationName** must be a valid relation available between the two Generic's object types.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

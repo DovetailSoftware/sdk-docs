@@ -1,8 +1,4 @@
-﻿     InstallSitePartToBinSetup Constructor(String,String,String,String,String)                                                   
-
-fcSDK Documentation
-
-InstallSitePartToBinSetup Constructor(String,String,String,String,String)
+﻿### InstallSitePartToBinSetup Constructor(String,String,String,String,String)
 
 Identifier of the Site where the part will be installed.
 
@@ -19,12 +15,9 @@ Initializes a new instance of the InstallSitePartToBinSetup class. This overload
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _siteIDNum_ As String, _
    ByVal _partNumber_ As String, _
@@ -33,7 +26,7 @@ Public Function New( _
    ByVal _serialNumber_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public InstallSitePartToBinSetup( 
    string _siteIDNum_,
    string _partNumber_,
@@ -64,11 +57,9 @@ _serialNumber_
 
 Serial number of the part installed
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

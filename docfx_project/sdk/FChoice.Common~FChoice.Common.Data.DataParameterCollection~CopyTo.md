@@ -1,6 +1,4 @@
-﻿     CopyTo Method (DataParameterCollection)                                                   
-
-CopyTo Method (DataParameterCollection)
+﻿### CopyTo Method (DataParameterCollection)
 
 Copies the parameters in this collection to the specified collection.
 
@@ -17,11 +15,9 @@ Remarks
 
 The overload that takes a destination DataParameterCollection performs a shallow copy. That is, each element is **NOT** cloned, but a reference to the same parameter is copied into the destination collection.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

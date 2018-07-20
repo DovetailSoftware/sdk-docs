@@ -1,23 +1,15 @@
-﻿     BillingOption Enumeration                                                     
-
-fcSDK Documentation
-
-BillingOption Enumeration
+﻿### BillingOption Enumeration
 
 The billing option of the Contract Schedule being created or updated.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Enum BillingOption 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
 
-public enum BillingOption : [System.Enum](#) 
+public enum BillingOption : System.Enum 
 
 Members
 
@@ -28,9 +20,9 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Toolkits.Clarify.BillingOption**  
 
 #### Requirements
@@ -41,7 +33,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

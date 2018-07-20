@@ -1,8 +1,4 @@
-﻿     ChangeCRStatusSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ChangeCRStatusSetup Class Properties
+﻿### ChangeCRStatusSetup Class Properties
 
 For a list of all members of this type, see [ChangeCRStatusSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup~Notes.md) | Notes about the status change for the Change Request.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup~UserName.md) | The user changing CR status. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

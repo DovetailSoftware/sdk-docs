@@ -1,8 +1,4 @@
-﻿     UpdateLeadSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateLeadSetup Class Members
+﻿### UpdateLeadSetup Class Members
 
 The following tables list the members exposed by [UpdateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateLeadSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup~_ctor.md) | Initializes a new instance of the UpdateLeadSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -43,9 +39,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup~Title.md) | Title for the lead.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup~UserName.md) | The user who is updating the lead. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,25 +1,18 @@
-﻿     LessThan(String,DateTime) Method                                                   
-
-fcSDK Documentation
-
-LessThan(String,DateTime) Method
+﻿### LessThan(String,DateTime) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function LessThan( _
    ByVal _columnName_ As String, _
-   ByVal _value_ As [Date](#) _
+   ByVal _value_ As Date _
 ) As [LessThanFilter](fcSDK~FChoice.Foundation.Filters.LessThanFilter.md)
 
 public static [LessThanFilter](fcSDK~FChoice.Foundation.Filters.LessThanFilter.md) LessThan( 
    string _columnName_,
-   [DateTime](#) _value_
+   DateTime _value_
 )
 
 #### Parameters
@@ -28,11 +21,9 @@ _columnName_
 
 _value_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

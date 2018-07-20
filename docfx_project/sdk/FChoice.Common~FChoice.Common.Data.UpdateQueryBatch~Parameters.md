@@ -1,16 +1,11 @@
-﻿     Parameters Property (UpdateQueryBatch)                                                   
-
-Parameters Property (UpdateQueryBatch)
+﻿### Parameters Property (UpdateQueryBatch)
 
 Gets the collection of all parameters for all queries to be executed by this batch
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property Parameters As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)
 
@@ -24,11 +19,9 @@ Remarks
 
 While the parameters in this collection can be manipulated, this could cause instability during the batching process and is not recommended.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     AssignOpportunitySetup Class                                                   
-
-fcSDK Documentation
-
-AssignOpportunitySetup Class
+﻿### AssignOpportunitySetup Class
 
 Used by the [AssignOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AssignOpportunity(AssignOpportunitySetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AssignOpportunitySetup 
 
 public class AssignOpportunitySetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.AssignOpportunitySetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

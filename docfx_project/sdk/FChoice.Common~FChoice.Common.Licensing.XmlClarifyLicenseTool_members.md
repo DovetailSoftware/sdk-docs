@@ -1,6 +1,4 @@
-﻿     XmlClarifyLicenseTool Class Members                                                   
-
-XmlClarifyLicenseTool Class Members
+﻿### XmlClarifyLicenseTool Class Members
 
 The following tables list the members exposed by [XmlClarifyLicenseTool](FChoice.Common~FChoice.Common.Licensing.XmlClarifyLicenseTool.md).
 
@@ -10,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [XmlClarifyLicenseTool Constructor](FChoice.Common~FChoice.Common.Licensing.XmlClarifyLicenseTool~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -18,7 +16,7 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [XmlFilePath](FChoice.Common~FChoice.Common.Licensing.XmlClarifyLicenseTool~XmlFilePath.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -29,9 +27,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [RetrieveLicenses](FChoice.Common~FChoice.Common.Licensing.XmlClarifyLicenseTool~RetrieveLicenses.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateLockdownData](FChoice.Common~FChoice.Common.Licensing.XmlClarifyLicenseTool~ValidateLockdownData.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LogCasePhoneSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogCasePhoneSetup Class Members
+﻿### LogCasePhoneSetup Class Members
 
 The following tables list the members exposed by [LogCasePhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogCasePhoneSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup~_ctor.md) | Initializes a new instance of the LogCasePhoneSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -37,9 +33,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup~Notes.md) | Notes to be logged to the Case.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

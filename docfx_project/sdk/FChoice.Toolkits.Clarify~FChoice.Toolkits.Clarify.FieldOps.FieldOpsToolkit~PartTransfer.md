@@ -1,8 +1,4 @@
-﻿     PartTransfer Method (FieldOpsToolkit)                                                   
-
-fcSDK Documentation
-
-PartTransfer Method (FieldOpsToolkit)
+﻿### PartTransfer Method (FieldOpsToolkit)
 
 Initializes a new instance of the PartTransferSetup class. This overload takes a set of required parameters for the API.
 
@@ -30,11 +26,9 @@ To use primary bin suggestions/recommendations, please see the remarks on the [T
 
 This API supports transferring parts by quantity or a specific serial number.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

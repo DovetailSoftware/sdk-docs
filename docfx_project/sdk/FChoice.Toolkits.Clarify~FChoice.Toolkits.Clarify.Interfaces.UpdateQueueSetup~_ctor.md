@@ -1,8 +1,4 @@
-﻿     UpdateQueueSetup Constructor                                                   
-
-fcSDK Documentation
-
-UpdateQueueSetup Constructor
+﻿### UpdateQueueSetup Constructor
 
 Title of the Queue
 
@@ -11,17 +7,14 @@ Initializes a new instance of the UpdateQueueSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _title_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public UpdateQueueSetup( 
    string _title_
 )
@@ -32,11 +25,9 @@ _title_
 
 Title of the Queue
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

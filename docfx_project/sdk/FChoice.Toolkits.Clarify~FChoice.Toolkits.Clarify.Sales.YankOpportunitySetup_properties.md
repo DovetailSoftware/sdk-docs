@@ -1,8 +1,4 @@
-﻿     YankOpportunitySetup Class Properties                                                   
-
-fcSDK Documentation
-
-YankOpportunitySetup Class Properties
+﻿### YankOpportunitySetup Class Properties
 
 For a list of all members of this type, see [YankOpportunitySetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankOpportunitySetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankOpportunitySetup~WipBin.md) | User's WipBin in which to place the Opportunity. If not set, the UserName's default is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [YankDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankOpportunitySetup~YankDate.md) | DateTime the Opportunity was yanked. If not set, the current time is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     SchemaViewJoinCollection Class Properties                                                   
-
-fcSDK Documentation
-
-SchemaViewJoinCollection Class Properties
+﻿### SchemaViewJoinCollection Class Properties
 
 For a list of all members of this type, see [SchemaViewJoinCollection members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewJoinCollection_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<SchemaViewJoin>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.Generic.List<SchemaViewJoin>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

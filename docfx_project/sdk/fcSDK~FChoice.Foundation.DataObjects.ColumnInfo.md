@@ -1,24 +1,16 @@
-﻿     ColumnInfo Class                                                   
-
-fcSDK Documentation
-
-ColumnInfo Class
+﻿### ColumnInfo Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ColumnInfo 
 
 public class ColumnInfo 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.DataObjects.ColumnInfo**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

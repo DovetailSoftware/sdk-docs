@@ -1,23 +1,16 @@
-﻿     GetGbstDefault Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetGbstDefault Method (IFCApplication)
+﻿### GetGbstDefault Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743840)>
+<DispIdAttribute(1610743840)>
 Function GetGbstDefault( _
    ByVal _ListName_ As String _
 ) As String
 
-\[[DispIdAttribute](#)(1610743840)\]
+[DispIdAttribute(1610743840)]
 string GetGbstDefault( 
    string _ListName_
 )
@@ -26,11 +19,9 @@ string GetGbstDefault(
 
 _ListName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

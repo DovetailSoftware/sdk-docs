@@ -1,22 +1,14 @@
-﻿     GetDefaultStateObjid Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-GetDefaultStateObjid Method (FCApplication)
+﻿### GetDefaultStateObjid Method (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetDefaultStateObjid( _
    ByVal _country_ As String _
-) As [Integer](#)
+) As Integer
 
-public [int](#) GetDefaultStateObjid( 
+public int GetDefaultStateObjid( 
    string _country_
 )
 
@@ -24,11 +16,9 @@ public [int](#) GetDefaultStateObjid(
 
 _country_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

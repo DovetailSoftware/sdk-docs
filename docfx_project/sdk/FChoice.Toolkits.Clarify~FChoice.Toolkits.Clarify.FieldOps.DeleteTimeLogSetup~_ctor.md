@@ -1,8 +1,4 @@
-﻿     DeleteTimeLogSetup Constructor                                                   
-
-fcSDK Documentation
-
-DeleteTimeLogSetup Constructor
+﻿### DeleteTimeLogSetup Constructor
 
 The Objid of the Time Log being deleted.
 
@@ -11,19 +7,16 @@ Initializes a new instance of the DeleteTimeLogSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _timeLogObjid_ As [Integer](#) _
+   ByVal _timeLogObjid_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public DeleteTimeLogSetup( 
-   [int](#) _timeLogObjid_
+   int _timeLogObjid_
 )
 
 #### Parameters
@@ -32,11 +25,9 @@ _timeLogObjid_
 
 The Objid of the Time Log being deleted.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     MoveCR(MoveCRSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-MoveCR(MoveCRSetup,IDbTransaction) Method
+﻿### MoveCR(MoveCRSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Move the CR from one WipBin to another WipBin. This overload takes a setup objec
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function MoveCR( _
    ByVal _setupParam_ As [MoveCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.MoveCRSetup.md), _
@@ -52,11 +45,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

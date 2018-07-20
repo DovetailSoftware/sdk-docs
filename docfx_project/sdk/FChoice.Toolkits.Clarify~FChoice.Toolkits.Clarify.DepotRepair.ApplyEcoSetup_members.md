@@ -1,8 +1,4 @@
-﻿     ApplyEcoSetup Class Members                                                   
-
-fcSDK Documentation
-
-ApplyEcoSetup Class Members
+﻿### ApplyEcoSetup Class Members
 
 The following tables list the members exposed by [ApplyEcoSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ApplyEcoSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup~_ctor.md) | Initializes a new instance of the ApplyEcoSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [EcoHeaderIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup~EcoHeaderIDNum.md) | Identifier of the ECO header   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup~UserName.md) | The user applying the ECO. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

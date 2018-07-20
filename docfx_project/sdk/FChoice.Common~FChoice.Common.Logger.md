@@ -1,17 +1,11 @@
-﻿     Logger Class                                                   
-
-Logger Class
+﻿### Logger Class
 
 Logger is used by classes throughout First Choice .NET-based products to write logging entries.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class Logger 
 
 public class Logger 
@@ -22,7 +16,7 @@ Use [LogManager.GetLogger](FChoice.Common~FChoice.Common.LogManager~GetLogger.md
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.Logger**  
 
 #### Requirements
@@ -33,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

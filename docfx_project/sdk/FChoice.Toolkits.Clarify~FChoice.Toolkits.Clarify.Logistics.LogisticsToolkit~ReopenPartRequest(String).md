@@ -1,8 +1,4 @@
-﻿     ReopenPartRequest(String) Method                                                   
-
-fcSDK Documentation
-
-ReopenPartRequest(String) Method
+﻿### ReopenPartRequest(String) Method
 
 Part Request Detail Identifier
 
@@ -13,10 +9,7 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReopenPartRequest( _
    ByVal _partRequestDetailIDNum_ As String _
@@ -42,11 +35,9 @@ The Part Request must currently be closed. The WIPBIN in which to place the part
 
 This API will validate that the user has authority to make the status transition.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

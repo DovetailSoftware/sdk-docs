@@ -1,8 +1,4 @@
-﻿     DuplicateCRSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DuplicateCRSetup Class Properties
+﻿### DuplicateCRSetup Class Properties
 
 For a list of all members of this type, see [DuplicateCRSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup~Status.md) | The new status for the duplicate Change Request. If not set, the default status is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup~UserName.md) | The user duplicating the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

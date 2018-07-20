@@ -1,8 +1,4 @@
-﻿     SchemaViewCollection Class Methods                                                   
-
-fcSDK Documentation
-
-SchemaViewCollection Class Methods
+﻿### SchemaViewCollection Class Methods
 
 For a list of all members of this type, see [SchemaViewCollection members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewCollection_members.md).
 
@@ -43,9 +39,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SchemaView>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SchemaView>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,0 +1,1059 @@
+### YamlMime:ManagedReference
+- name: FCFL Compatibility
+  items:
+  - name: FCApplication
+    items:
+    - name: Overview
+      href: /sdk/fcfl_html/fcapp_overview.html
+    - name: Methods
+      items:
+      - name: CreateSession
+        href: /sdk/fcfl_html/CreateSession.html
+      - name: FindString
+        href: /sdk/fcfl_html/FindString.html
+      - name: GetCountryList
+        href: /sdk/fcfl_html/GetCountryList.html
+      - name: GetCountryObjid
+        href: /sdk/fcfl_html/GetCountryObjid.html
+      - name: GetDefaultCountry
+        href: /sdk/fcfl_html/GetDefaultCountry.html
+      - name: GetDefaultCountryObjid
+        href: /sdk/fcfl_html/GetDefaultCountryObjid.html
+      - name: GetDefaultState
+        href: /sdk/fcfl_html/GetDefaultState.html
+      - name: GetDefaultStateObjid
+        href: /sdk/fcfl_html/GetDefaultStateObjid.html
+      - name: GetDefaultTimeZone
+        href: /sdk/fcfl_html/GetDefaultTimeZone.html
+      - name: GetDefaultTimeZoneObjid
+        href: /sdk/fcfl_html/GetDefaultTimeZoneObjid.html
+      - name: GetFullStateObjid
+        href: /sdk/fcfl_html/GetFullStateObjid.html
+      - name: GetGbstDefault
+        href: /sdk/fcfl_html/GetGbstDefault.html
+      - name: GetGbstElmByID
+        href: /sdk/fcfl_html/GetGbstElmByID.html
+      - name: GetGbstElmObjid
+        href: /sdk/fcfl_html/GetGbstElmObjid.html
+      - name: GetGbstElmRankObjid
+        href: /sdk/fcfl_html/GetGbstElmRankObjid.html
+      - name: GetGbstList
+        href: /sdk/fcfl_html/GetGbstList.html
+      - name: GetHgbstElmDefaultObjid
+        href: /sdk/fcfl_html/GetHgbstElmDefaultObjid.html
+      - name: GetHgbstElmDefault
+        href: /sdk/fcfl_html/GetHgbstElmDefault.html
+      - name: GetHgbstElmObjid
+        href: /sdk/fcfl_html/GetHgbstElmObjid.html
+      - name: GetHgbstList
+        href: /sdk/fcfl_html/GetHgbstList.html
+      - name: GetLocalizedGbstElmByID
+        href: /sdk/fcfl_html/GetGbstElmByID.html
+      - name: GetLocalizedGbstDefault
+        href: /sdk/fcfl_html/GetGbstDefault.html
+      - name: GetMachineTimeZone
+        href: /sdk/fcfl_html/GetMachineTimeZone.html
+      - name: GetRelationData
+        href: /sdk/fcfl_html/GetRelationData.html
+      - name: GetServerTimeZoneOffset
+        href: /sdk/fcfl_html/GetServerTimeZoneOffset.html
+      - name: GetShortTimeZoneObjid
+        href: /sdk/fcfl_html/GetShortTimeZoneObjid.html
+      - name: GetStateObjid
+        href: /sdk/fcfl_html/GetStateObjid.html
+      - name: GetStates
+        href: /sdk/fcfl_html/GetStates.html
+      - name: GetTableID
+        href: /sdk/fcfl_html/GetTableID.html
+      - name: GetTableName
+        href: /sdk/fcfl_html/GetTableName.html
+      - name: GetTimeZoneList
+        href: /sdk/fcfl_html/GetTimeZoneList.html
+      - name: GetTimeZoneObjid
+        href: /sdk/fcfl_html/GetTimeZoneObjid.html
+      - name: GetTimeZoneOffset
+        href: /sdk/fcfl_html/GetTimeZoneOffset.html
+      - name: GetTimeZonesInCountry
+        href: /sdk/fcfl_html/GetTimeZonesInCountry.html
+      - name: Initialize
+        href: /sdk/fcfl_html/fcfl_Initialize.html
+      - name: InitializeFull
+        href: /sdk/fcfl_html/InitializeFull.html
+      - name: is_it_a_field
+        href: /sdk/fcfl_html/is_it_a_field.html
+      - name: is_it_a_table
+        href: /sdk/fcfl_html/is_it_a_table.html
+      - name: is_it_change_field
+        href: /sdk/fcfl_html/is_it_change_field.html
+      - name: is_it_date_field
+        href: /sdk/fcfl_html/is_it_date_field.html
+      - name: is_it_int_field
+        href: /sdk/fcfl_html/is_it_int_field.html
+      - name: is_it_searchable
+        href: /sdk/fcfl_html/is_it_searchable.html
+      - name: is_it_string_fld
+        href: /sdk/fcfl_html/is_it_string_fld.html
+      - name: is_it_unicode
+        href: /sdk/fcfl_html/is_it_unicode.html
+      - name: is_rel_exclusive
+        href: /sdk/fcfl_html/is_rel_exclusive.html
+      - name: is_rel_mandatory
+        href: /sdk/fcfl_html/is_rel_mandatory.html
+      - name: IsCountry
+        href: /sdk/fcfl_html/IsCountry.html
+      - name: IsFullState
+        href: /sdk/fcfl_html/IsFullState.html
+      - name: IsInGbstLst
+        href: /sdk/fcfl_html/IsInGbstLst.html
+      - name: IsInHgbstLst
+        href: /sdk/fcfl_html/IsInHgbstLst.html
+      - name: IsOnDST
+        href: /sdk/fcfl_html/IsOnDST.html
+      - name: IsState
+        href: /sdk/fcfl_html/IsState.html
+      - name: IsTimeZone
+        href: /sdk/fcfl_html/IsTimeZone.html
+      - name: IsTimeZoneInCountry
+        href: /sdk/fcfl_html/IsTimeZoneInCountry.html
+      - name: Log(FCApplication)
+      - name: LogEx(FCApplication)
+      - name: RankIsInGbstList
+        href: /sdk/fcfl_html/RankIsInGbstList.html
+      - name: SetServerTimeZoneToMachineTimeZone
+        href: /sdk/fcfl_html/SetServerTimeZoneToMachineTimeZone.html
+      - name: UpdateCache
+        href: /sdk/fcfl_html/UpdateCache.html
+      - name: UpdateSchemaCache
+        href: /sdk/fcfl_html/UpdateSchemaCache.html
+    - name: Properties
+      items:
+      - name: db_name
+        href: /sdk/fcfl_html/db_name.html
+      - name: db_type
+        href: /sdk/fcfl_html/db_type.html
+      - name: IsDBTraveler
+        href: /sdk/fcfl_html/IsDBTraveler.html
+      - name: Midnight
+        href: /sdk/fcfl_html/Midnight.html
+      - name: schema_rev
+        href: /sdk/fcfl_html/schema_rev.html
+      - name: ServerTimeZone
+        href: /sdk/fcfl_html/ServerTimeZone.html
+      - name: WorkingDirectory
+        href: /sdk/fcfl_html/WorkingDirectory.html
+  - name: FCBulk
+    items:
+    - name: Overview
+      href: /sdk/fcfl_html/fcbulk_overview.html
+    - name: Methods
+      items:
+      - name: NewEnum(FCBulk)
+        href: /sdk/fcfl_html/NewEnum(FCBulk).html
+      - name: Query(FCBulk)
+        href: /sdk/fcfl_html/Query(FCBulk).html
+      - name: RemoveAllGenerics
+        href: /sdk/fcfl_html/RemoveAllGenerics.html
+      - name: Update(FCBulk)
+        href: /sdk/fcfl_html/Update(FCBulk).html
+      - name: UpdateAll(FCBulk)
+        href: /sdk/fcfl_html/UpdateAll(FCBulk).html
+    - name: Properties
+      items:
+      - name: BulkID
+        href: /sdk/fcfl_html/BulkID.html
+      - name: Name
+        href: /sdk/fcfl_html/Name.html
+      - name: NoSorting
+        href: /sdk/fcfl_html/NoSorting.html
+  - name: FCGeneric
+    items:
+    - name: Overview
+      href: /sdk/fcfl_html/fcgeneric_overview.html
+    - name: Methods
+      items:
+      - name: AddForUpdate
+        href: /sdk/fcfl_html/AddForUpdate.html
+      - name: AddNew
+        href: /sdk/fcfl_html/AddNew.html
+      - name: AppendFilter
+        href: /sdk/fcfl_html/AppendFilter.html
+      - name: AppendSort
+        href: /sdk/fcfl_html/AppendSort.html
+      - name: ClearRoot
+        href: /sdk/fcfl_html/ClearRoot.html
+      - name: CloseGeneric
+        href: /sdk/fcfl_html/CloseGeneric.html
+      - name: Copy
+        href: /sdk/fcfl_html/Copy.html
+      - name: Count(FCGeneric)
+        href: /sdk/fcfl_html/Count(FCGeneric).html
+      - name: Delete
+        href: /sdk/fcfl_html/Delete.html
+      - name: DeleteAll
+        href: /sdk/fcfl_html/DeleteAll.html
+      - name: Duplicate
+        href: /sdk/fcfl_html/Duplicate.html
+      - name: GetField
+        href: /sdk/fcfl_html/GetField.html
+      - name: MoveFirst
+        href: /sdk/fcfl_html/MoveFirst.html
+      - name: MoveLast
+        href: /sdk/fcfl_html/MoveLast.html
+      - name: MoveNext
+        href: /sdk/fcfl_html/MoveNext.html
+      - name: MovePrevious
+        href: /sdk/fcfl_html/MovePrevious.html
+      - name: MoveRelative
+        href: /sdk/fcfl_html/MoveRelative.html
+      - name: MoveFirstAbsolute
+        href: /sdk/fcfl_html/MoveFirstAbsolute.html
+      - name: MoveLastAbsolute
+        href: /sdk/fcfl_html/MoveLastAbsolute.html
+      - name: MoveNextAbsolute
+        href: /sdk/fcfl_html/MoveNextAbsolute.html
+      - name: MovePreviousAbsolute
+        href: /sdk/fcfl_html/MovePreviousAbsolute.html
+      - name: Query(FCGeneric)
+        href: /sdk/fcfl_html/Query(FCGeneric).html
+      - name: RelateByID
+        href: /sdk/fcfl_html/RelateByID.html
+      - name: RelateIntFldByID
+        href: /sdk/fcfl_html/RelateIntFldByID.html
+      - name: RelateIntFldToRecord
+        href: /sdk/fcfl_html/RelateIntFldToRecord.html
+      - name: RelateRecords
+        href: /sdk/fcfl_html/RelateRecords.html
+      - name: RequeryForInserts
+        href: /sdk/fcfl_html/RequeryForInserts.html
+      - name: SimpleQuery
+        href: /sdk/fcfl_html/SimpleQuery.html
+      - name: TotalCount
+        href: /sdk/fcfl_html/TotalCount.html
+      - name: TraverseFromParent
+        href: /sdk/fcfl_html/TraverseFromParent.html
+      - name: TraverseFromRoot
+        href: /sdk/fcfl_html/TraverseFromRoot.html
+      - name: UnRelateAll
+        href: /sdk/fcfl_html/UnRelateAll.html
+      - name: UnRelateRecordFromAll
+        href: /sdk/fcfl_html/UnRelateRecordFromAll.html
+      - name: UnRelateRecords
+        href: /sdk/fcfl_html/UnRelateRecords.html
+      - name: UnTraverse
+        href: /sdk/fcfl_html/UnTraverse.html
+      - name: Update(FCGeneric)
+        href: /sdk/fcfl_html/Update(FCGeneric).html
+      - name: UpdateAll(FCGeneric)
+        href: /sdk/fcfl_html/UpdateAll(FCGeneric).html
+    - name: Properties
+      items:
+      - name: BOF
+        href: /sdk/fcfl_html/BOF.html
+      - name: Bulk
+        href: /sdk/fcfl_html/Bulk.html
+      - name: BulkName
+        href: /sdk/fcfl_html/BulkName.html
+      - name: DataFields
+        href: /sdk/fcfl_html/DataFields.html
+      - name: DBObjectName
+        href: /sdk/fcfl_html/DBObjectName.html
+      - name: DBObjectNum
+        href: /sdk/fcfl_html/DBObjectNum.html
+      - name: Distinct(FCGeneric)
+        href: /sdk/fcfl_html/Distinct(FCGeneric).html
+      - name: ErrorOnQueryTooBig
+        href: /sdk/fcfl_html/ErrorOnQueryTooBig.html
+      - name: EOF
+        href: /sdk/fcfl_html/EOF.html
+      - name: Fields
+        href: /sdk/fcfl_html/Fields.html
+      - name: Filter
+        href: /sdk/fcfl_html/Filter.html
+      - name: GenericID
+        href: /sdk/fcfl_html/GenericID.html
+      - name: ID
+        href: /sdk/fcfl_html/ID.html
+      - name: IncludeRelations(FCGeneric)
+        href: /sdk/fcfl_html/IncludeRelations(FCGeneric).html
+      - name: MaxRecords
+        href: /sdk/fcfl_html/MaxRecords.html
+      - name: NoRes(FCGeneric)
+        href: /sdk/fcfl_html/NoRes(FCGeneric).html
+      - name: NowStr
+        href: /sdk/fcfl_html/NowStr.html
+      - name: ParentBO
+        href: /sdk/fcfl_html/ParentBO.html
+      - name: ParentRelation
+        href: /sdk/fcfl_html/ParentRelation.html
+      - name: Position
+        href: /sdk/fcfl_html/Position.html
+      - name: QueryEmptyToNull(FCGeneric)
+        href: /sdk/fcfl_html/QueryEmptyToNull(FCGeneric).html
+      - name: QuerySQL
+        href: /sdk/fcfl_html/QuerySQL.html
+      - name: Records(FCGeneric)
+        href: /sdk/fcfl_html/Records(FCGeneric).html
+      - name: RowLimit(FCGeneric)
+        href: /sdk/fcfl_html/RowLimit(FCGeneric).html
+      - name: RowsReturned
+        href: /sdk/fcfl_html/RowsReturned.html
+      - name: SetNullStringsToEmpty(FCGeneric)
+        href: /sdk/fcfl_html/SetNullStringsToEmpty(FCGeneric).html
+      - name: SortOrder
+        href: /sdk/fcfl_html/SortOrder.html
+  - name: FCList
+    items:
+    - name: Overview
+      href: /sdk/fcfl_html/fclist_overview.html
+    - name: Methods
+      items:
+      - name: Clear
+        href: /sdk/fcfl_html/Clear.html
+      - name: Concat
+        href: /sdk/fcfl_html/Concat.html
+      - name: Contains
+        href: /sdk/fcfl_html/Contains.html
+      - name: CopyList
+        href: /sdk/fcfl_html/CopyList.html
+      - name: Down
+        href: /sdk/fcfl_html/Down.html
+      - name: FindFirstIndex
+        href: /sdk/fcfl_html/FindFirstIndex.html
+      - name: GetItemByIndex
+        href: /sdk/fcfl_html/GetItemByIndex.html
+      - name: ItemByIndex
+        href: /sdk/fcfl_html/ItemByIndex.html
+      - name: ListByIndex
+        href: /sdk/fcfl_html/ListByIndex.html
+      - name: RemoveByIndex
+        href: /sdk/fcfl_html/RemoveByIndex.html
+      - name: ReplaceByIndex
+        href: /sdk/fcfl_html/ReplaceByIndex.html
+      - name: Sort
+        href: /sdk/fcfl_html/Sort.html
+      - name: Up
+        href: /sdk/fcfl_html/Up.html
+    - name: Properties
+      items:
+      - name: AllowDuplicates
+        href: /sdk/fcfl_html/AllowDuplicates.html
+      - name: AppendItem
+        href: /sdk/fcfl_html/AppendItem.html
+      - name: Count(FCList)
+        href: /sdk/fcfl_html/Count(FCList).html
+      - name: ItemType
+        href: /sdk/fcfl_html/ItemType.html
+      - name: Sorted
+        href: /sdk/fcfl_html/Sorted.html
+  - name: FCSession
+    items:
+    - name: Overview
+      href: /sdk/fcfl_html/fcsession_overview.html
+    - name: Methods
+      items:
+      - name: AddAttachment
+        href: /sdk/fcfl_html/AddAttachment.html
+      - name: CloseAllGenerics
+        href: /sdk/fcfl_html/CloseAllGenerics.html
+      - name: CloseGenerics
+        href: /sdk/fcfl_html/CloseGenerics.html
+      - name: ChangePassword
+        href: /sdk/fcfl_html/ChangePassword.html
+      - name: ChangeResGroup
+        href: /sdk/fcfl_html/ChangeResGroup.html
+      - name: CloseSession
+        href: /sdk/fcfl_html/CloseSession.html
+      - name: CommitTransaction
+        href: /sdk/fcfl_html/CommitTransaction.html
+      - name: ConvertDate
+        href: /sdk/fcfl_html/ConvertDate.html
+      - name: ConvertFromLocalToServerTZ
+        href: /sdk/fcfl_html/ConvertFromLocalToServerTZ.html
+      - name: ConvertFromServerToLocalTZ
+        href: /sdk/fcfl_html/ConvertFromServerToLocalTZ.html
+      - name: CreateBulk
+        href: /sdk/fcfl_html/CreateBulk.html
+      - name: CreateGeneric
+        href: /sdk/fcfl_html/CreateGeneric.html
+      - name: CreateSqlExec
+        href: /sdk/fcfl_html/CreateSqlExec.html
+      - name: GetColor
+        href: /sdk/fcfl_html/GetColor.html
+      - name: GetConfigItem
+        href: /sdk/fcfl_html/GetConfigItem.html
+      - name: GetCurrentDate
+        href: /sdk/fcfl_html/GetCurrentDate.html
+      - name: GetCurrentServerDate
+        href: /sdk/fcfl_html/GetCurrentServerDate.html
+      - name: GetItem
+        href: /sdk/fcfl_html/GetItem.html
+      - name: GetNextNumScheme
+        href: /sdk/fcfl_html/GetNextNumScheme.html
+      - name: GetNextSubcaseID
+        href: /sdk/fcfl_html/GetNextSubcaseID.html
+      - name: GetUserVersion
+        href: /sdk/fcfl_html/GetUserVersion.html
+      - name: IsUnicode
+        href: /sdk/fcfl_html/IsUnicode.html
+      - name: ItemCount
+        href: /sdk/fcfl_html/ItemCount.html
+      - name: LoadColors
+        href: /sdk/fcfl_html/LoadColors.html
+      - name: LoadUserVersions
+        href: /sdk/fcfl_html/LoadUserVersions.html
+      - name: Log(FCSession)
+        href: /sdk/fcfl_html/Log(FCSession).html
+      - name: LogEx(FCSession)
+        href: /sdk/fcfl_html/LogEx(FCSession).html
+      - name: Login
+        href: /sdk/fcfl_html/Login.html
+      - name: LoginFromFCApp
+        href: /sdk/fcfl_html/LoginFromFCApp.html
+      - name: Logout
+        href: /sdk/fcfl_html/Logout.html
+      - name: NewEnum(FCSession)
+        href: /sdk/fcfl_html/NewEnum(FCSession).html
+      - name: RefreshContext
+        href: /sdk/fcfl_html/RefreshContext.html
+      - name: RemoveAllGenericsinABulk
+        href: /sdk/fcfl_html/RemoveAllGenericsinABulk.html
+      - name: RollbackTransaction
+        href: /sdk/fcfl_html/RollbackTransaction.html
+      - name: SetPassword
+        href: /sdk/fcfl_html/SetPassword.html
+      - name: StartTransaction
+        href: /sdk/fcfl_html/StartTransaction.html
+    - name: Properties
+      items:
+      - name: Distinct(FCSession)
+        href: /sdk/fcfl_html/Distinct(FCSession).html
+      - name: IncludeRelations(FCSession)
+        href: /sdk/fcfl_html/IncludeRelations(FCSession).html
+      - name: Item
+        href: /sdk/fcfl_html/Item.html
+      - name: LocalTimeZone
+        href: /sdk/fcfl_html/LocalTimeZone.html
+      - name: LocalTimeZoneOffset
+        href: /sdk/fcfl_html/LocalTimeZoneOffset.html
+      - name: LoginTime
+        href: /sdk/fcfl_html/LoginTime.html
+      - name: NoRes(FCSession)
+        href: /sdk/fcfl_html/NoRes(FCSession).html
+      - name: PasswordRequired
+        href: /sdk/fcfl_html/PasswordRequired.html
+      - name: QueryEmptyToNull(FCSession)
+        href: /sdk/fcfl_html/QueryEmptyToNull(FCSession).html
+      - name: RowLimit(FCSession)
+        href: /sdk/fcfl_html/RowLimit(FCSession).html
+      - name: SessionID
+        href: /sdk/fcfl_html/SessionID.html
+      - name: SetNullStringsToEmpty(FCSession)
+        href: /sdk/fcfl_html/SetNullStringsToEmpty(FCSession).html
+      - name: ThrowErrors
+        href: /sdk/fcfl_html/ThrowErrors.html
+      - name: TruncateStringFields
+        href: /sdk/fcfl_html/TruncateStringFields.html
+      - name: UpdateTime
+        href: /sdk/fcfl_html/UpdateTime.html
+  - name: FCSqlExec
+    items:
+    - name: Overview
+      href: /sdk/fcfl_html/fcsqlexec_overview.html
+    - name: Methods
+      items:
+      - name: AddSqlParameter
+        href: /sdk/fcfl_html/AddSqlParameter.html
+      - name: Execute
+        href: /sdk/fcfl_html/Execute.html
+      - name: ExecuteReturnRows
+        href: /sdk/fcfl_html/ExecuteReturnRows.html
+      - name: OpenConnection
+        href: /sdk/fcfl_html/OpenConnection.html
+      - name: CloseConnection
+        href: /sdk/fcfl_html/CloseConnection.html
+    - name: Properties
+      items:
+      - name: Records(FCSQLExec)
+        href: /sdk/fcfl_html/Records(FCSQLExec).html
+- name: API Toolkits
+  items:
+  - name: FCCC
+    items:
+    - name: Overview
+      href: /sdk/toolkit_html/fccc_overview.html
+    - name: Methods
+      items:
+      - name: accept_quote
+        href: /sdk/toolkit_html/fccc/accept_quote.html
+      - name: add_po_to_sched
+        href: /sdk/toolkit_html/fccc/add_po_to_sched.html
+      - name: assign_quote
+        href: /sdk/toolkit_html/fccc/assign_quote.html
+      - name: change_quote_status
+        href: /sdk/toolkit_html/fccc/change_quote_status.html
+      - name: create_contract
+        href: /sdk/toolkit_html/fccc/create_contract.html
+      - name: create_price_inst
+        href: /sdk/toolkit_html/fccc/fccc_create_price_inst.html
+      - name: create_update_schedule
+        href: /sdk/toolkit_html/fccc/create_update_schedule.html
+      - name: cr_contr_itm
+        href: /sdk/toolkit_html/fccc/fccc_cr_contr_itm.html
+      - name: delete_sp
+        href: /sdk/toolkit_html/fccc/delete_sp.html
+      - name: dispatch_quote
+        href: /sdk/toolkit_html/fccc/dispatch_quote.html
+      - name: forward_quote
+        href: /sdk/toolkit_html/fccc/forward_quote.html
+      - name: initialize
+        href: /sdk/toolkit_html/fccc/fccc_initialize.html
+      - name: log_contract_note
+        href: /sdk/toolkit_html/fccc/log_contract_note.html
+      - name: move_quote
+        href: /sdk/toolkit_html/fccc/move_quote.html
+      - name: reject_contract
+        href: /sdk/toolkit_html/fccc/reject_contract.html
+      - name: reject_quote
+        href: /sdk/toolkit_html/fccc/reject_quote.html
+      - name: relate_contr_itm_to_sp
+        href: /sdk/toolkit_html/fccc/relate_contr_itm_to_sp.html
+      - name: reopen_contract
+        href: /sdk/toolkit_html/fccc/reopen_contract.html
+      - name: yank_quote
+        href: /sdk/toolkit_html/fccc/yank_quote.html
+    - name: Properties
+      items:
+      - name: ret_id_num
+        href: /sdk/toolkit_html/ret_id_num.html
+      - name: ret_objid
+        href: /sdk/toolkit_html/ret_objid.html
+      - name: ret_num
+        href: /sdk/toolkit_html/ret_num.html
+      - name: ret_string
+        href: /sdk/toolkit_html/ret_string.html
+  - name: FCCL
+    items:
+    - name: Overview
+      href: /sdk/toolkit_html/fccl_overview.html
+    - name: Methods
+      items:
+      - name: accept_pr
+        href: /sdk/toolkit_html/fccl/accept_pr.html
+      - name: add_alt_part
+        href: /sdk/toolkit_html/fccl/add_alt_part.html
+      - name: add_gl_account
+        href: /sdk/toolkit_html/fccl/add_gl_account.html
+      - name: add_inv_bin
+        href: /sdk/toolkit_html/fccl/add_inv_bin.html
+      - name: add_inv_location
+        href: /sdk/toolkit_html/fccl/add_inv_location.html
+      - name: add_lss
+        href: /sdk/toolkit_html/fccl/add_lss.html
+      - name: assign_pr
+        href: /sdk/toolkit_html/fccl/assign_pr.html
+      - name: change_pr_status
+        href: /sdk/toolkit_html/fccl/change_pr_status.html
+      - name: close_pr
+        href: /sdk/toolkit_html/fccl/close_pr.html
+      - name: create_container
+        href: /sdk/toolkit_html/fccl/create_container.html
+      - name: delete_alt_part
+        href: /sdk/toolkit_html/fccl/delete_alt_part.html
+      - name: delete_lss
+        href: /sdk/toolkit_html/fccl/delete_lss.html
+      - name: dispatch_pr
+        href: /sdk/toolkit_html/fccl/dispatch_pr.html
+      - name: forward_pr
+        href: /sdk/toolkit_html/fccl/forward_pr.html
+      - name: fulfill
+        href: /sdk/toolkit_html/fccl/fulfill.html
+      - name: get_alt_parts
+        href: /sdk/toolkit_html/fccl/get_alt_parts.html
+      - name: get_loc_serv_site
+        href: /sdk/toolkit_html/fccl/get_loc_serv_site.html
+      - name: make_pr_detail
+        href: /sdk/toolkit_html/fccl/make_pr_detail.html
+      - name: make_pr_header
+        href: /sdk/toolkit_html/fccl/make_pr_header.html
+      - name: modify_gl_account
+        href: /sdk/toolkit_html/fccl/modify_gl_account.html
+      - name: modify_inv_bin
+        href: /sdk/toolkit_html/fccl/modify_inv_bin.html
+      - name: modify_inv_location
+        href: /sdk/toolkit_html/fccl/modify_inv_location.html
+      - name: modify_lss
+        href: /sdk/toolkit_html/fccl/modify_lss.html
+      - name: mod_part_stocking_lev
+        href: /sdk/toolkit_html/fccl/mod_part_stocking_lev.html
+      - name: move_pr
+        href: /sdk/toolkit_html/fccl/move_pr.html
+      - name: open_container
+        href: /sdk/toolkit_html/fccl/open_container.html
+      - name: part_transfer
+        href: /sdk/toolkit_html/fccl/part_transfer.html
+      - name: pick
+        href: /sdk/toolkit_html/fccl/pick.html
+      - name: receive_pr
+        href: /sdk/toolkit_html/fccl/receive_pr.html
+      - name: reject_pr
+        href: /sdk/toolkit_html/fccl/reject_pr.html
+      - name: reopen_pr
+        href: /sdk/toolkit_html/fccl/reopen_pr.html
+      - name: seal_container
+        href: /sdk/toolkit_html/fccl/seal_container.html
+      - name: set_cl_transition
+        href: /sdk/toolkit_html/fccl/set_cl_transition.html
+      - name: set_part_stocking_lev
+        href: /sdk/toolkit_html/fccl/set_part_stocking_lev.html
+      - name: ship
+        href: /sdk/toolkit_html/fccl/ship.html
+      - name: unpick
+        href: /sdk/toolkit_html/fccl/unpick.html
+      - name: update_pr_detail
+        href: /sdk/toolkit_html/fccl/update_pr_detail.html
+      - name: update_pr_header
+        href: /sdk/toolkit_html/fccl/update_pr_header.html
+      - name: yank_pr
+        href: /sdk/toolkit_html/fccl/yank_pr.html
+    - name: Properties
+      items:
+      - name: ret_id_num
+        href: /sdk/toolkit_html/ret_id_num.html
+      - name: ret_objid
+        href: /sdk/toolkit_html/ret_objid.html
+      - name: ret_num
+        href: /sdk/toolkit_html/ret_num.html
+      - name: ret_string
+        href: /sdk/toolkit_html/ret_string.html
+  - name: FCCQ
+    items:
+    - name: Overview
+      href: /sdk/toolkit_html/fccq_overview.html
+    - name: Methods
+      items:
+      - name: accept_cr
+        href: /sdk/toolkit_html/fccq/accept_cr.html
+      - name: add_module_to_cr
+        href: /sdk/toolkit_html/fccq/add_module_to_cr.html
+      - name: assign_cr
+        href: /sdk/toolkit_html/fccq/assign_cr.html
+      - name: change_cr_state
+        href: /sdk/toolkit_html/fccq/change_cr_state.html
+      - name: change_cr_status
+        href: /sdk/toolkit_html/fccq/change_cr_status.html
+      - name: check_cq_trans
+        href: /sdk/toolkit_html/fccq/check_cq_trans.html
+      - name: close_cr
+        href: /sdk/toolkit_html/fccq/close_cr.html
+      - name: create_cr
+        href: /sdk/toolkit_html/fccq/create_cr.html
+      - name: dispatch_cr
+        href: /sdk/toolkit_html/fccq/dispatch_cr.html
+      - name: duplicate_cr
+        href: /sdk/toolkit_html/fccq/duplicate_cr.html
+      - name: fix_cr
+        href: /sdk/toolkit_html/fccq/fix_cr.html
+      - name: fix_failed
+        href: /sdk/toolkit_html/fccq/fix_failed.html
+      - name: forward_cr
+        href: /sdk/toolkit_html/fccq/forward_cr.html
+      - name: Initialize
+        href: /sdk/toolkit_html/fccq/fccq_initialize.html
+      - name: log_cr_email
+        href: /sdk/toolkit_html/fccq/log_cr_email.html
+      - name: log_cr_note
+        href: /sdk/toolkit_html/fccq/log_cr_note.html
+      - name: modify_cr
+        href: /sdk/toolkit_html/fccq/modify_cr.html
+      - name: move_cr
+        href: /sdk/toolkit_html/fccq/move_cr.html
+      - name: reject_cr
+        href: /sdk/toolkit_html/fccq/reject_cr.html
+      - name: reopen_cr
+        href: /sdk/toolkit_html/fccq/reopen_cr.html
+      - name: replicate_cr
+        href: /sdk/toolkit_html/fccq/replicate_cr.html
+      - name: yank_cr
+        href: /sdk/toolkit_html/fccq/yank_cr.html
+    - name: Properties
+      items:
+      - name: ret_id_num
+        href: /sdk/toolkit_html/ret_id_num.html
+      - name: ret_objid
+        href: /sdk/toolkit_html/ret_objid.html
+  - name: FCCS
+    items:
+    - name: Overview
+      href: /sdk/toolkit_html/fccs_overview.html
+    - name: Methods
+      items:
+      - name: accept_case
+        href: /sdk/toolkit_html/fccs/accept_case.html
+      - name: accept_subcase
+        href: /sdk/toolkit_html/fccs/accept_subcase.html
+      - name: assign_case
+        href: /sdk/toolkit_html/fccs/assign_case.html
+      - name: assign_subcase
+        href: /sdk/toolkit_html/fccs/assign_subcase.html
+      - name: change_case_status
+        href: /sdk/toolkit_html/fccs/change_case_status.html
+      - name: change_contact
+        href: /sdk/toolkit_html/fccs/change_contact.html
+      - name: change_subcase_status
+        href: /sdk/toolkit_html/fccs/change_subcase_status.html
+      - name: close_case
+        href: /sdk/toolkit_html/fccs/close_case.html
+      - name: close_subcase
+        href: /sdk/toolkit_html/fccs/close_subcase.html
+      - name: create_case
+        href: /sdk/toolkit_html/fccs/create_case.html
+      - name: create_subcase
+        href: /sdk/toolkit_html/fccs/create_subcase.html
+      - name: dispatch_case
+        href: /sdk/toolkit_html/fccs/dispatch_case.html
+      - name: dispatch_subcase
+        href: /sdk/toolkit_html/fccs/dispatch_subcase.html
+      - name: forward_case
+        href: /sdk/toolkit_html/fccs/forward_case.html
+      - name: forward_subcase
+        href: /sdk/toolkit_html/fccs/forward_subcase.html
+      - name: fulfill_commitment
+        href: /sdk/toolkit_html/fccs/fulfill_commitment.html
+      - name: initial_response
+        href: /sdk/toolkit_html/fccs/initial_response.html
+      - name: initialize
+        href: /sdk/toolkit_html/fccs/fccs_initialize.html
+      - name: log_case_commit
+        href: /sdk/toolkit_html/fccs/log_case_commit.html
+      - name: log_case_email
+        href: /sdk/toolkit_html/fccs/log_case_email.html
+      - name: log_case_note
+        href: /sdk/toolkit_html/fccs/log_case_note.html
+      - name: log_case_phone
+        href: /sdk/toolkit_html/fccs/log_case_phone.html
+      - name: log_case_resrch
+        href: /sdk/toolkit_html/fccs/log_case_resrch.html
+      - name: log_subcase_commit
+        href: /sdk/toolkit_html/fccs/log_subcase_commit.html
+      - name: log_subcase_email
+        href: /sdk/toolkit_html/fccs/log_subcase_email.html
+      - name: log_subcase_note
+        href: /sdk/toolkit_html/fccs/log_subcase_note.html
+      - name: log_subcase_phone
+        href: /sdk/toolkit_html/fccs/log_subcase_phone.html
+      - name: log_subcase_resrch
+        href: /sdk/toolkit_html/fccs/log_subcase_resrch.html
+      - name: modify_case
+        href: /sdk/toolkit_html/fccs/modify_case.html
+      - name: modify_case_commit
+        href: /sdk/toolkit_html/fccs/modify_case_commit.html
+      - name: modify_subcase
+        href: /sdk/toolkit_html/fccs/modify_subcase.html
+      - name: move_case
+        href: /sdk/toolkit_html/fccs/move_case.html
+      - name: move_subcase
+        href: /sdk/toolkit_html/fccs/move_subcase.html
+      - name: preclose_case
+        href: /sdk/toolkit_html/fccs/preclose_case.html
+      - name: preclose_subcase
+        href: /sdk/toolkit_html/fccs/preclose_subcase.html
+      - name: reject_case
+        href: /sdk/toolkit_html/fccs/reject_case.html
+      - name: reject_subcase
+        href: /sdk/toolkit_html/fccs/reject_subcase.html
+      - name: relate_case_to_parent
+        href: /sdk/toolkit_html/fccs/relate_case_to_parent.html
+      - name: reopen_case
+        href: /sdk/toolkit_html/fccs/reopen_case.html
+      - name: reopen_subcase
+        href: /sdk/toolkit_html/fccs/reopen_subcase.html
+      - name: unrelate_case_from_parent
+        href: /sdk/toolkit_html/fccs/unrelate_case_from_parent.html
+      - name: yank_case
+        href: /sdk/toolkit_html/fccs/yank_case.html
+      - name: yank_subcase
+        href: /sdk/toolkit_html/fccs/yank_subcase.html
+    - name: Properties
+      items:
+      - name: ret_id_num
+        href: /sdk/toolkit_html/ret_id_num.html
+      - name: ret_objid
+        href: /sdk/toolkit_html/ret_objid.html
+      - name: ret_objid2
+        href: /sdk/toolkit_html/ret_objid2.html
+      - name: ret_objid3
+        href: /sdk/toolkit_html/ret_objid3.html
+  - name: FCDR
+    items:
+    - name: Overview
+      href: /sdk/toolkit_html/fcdr_overview.html
+    - name: Methods
+      items:
+      - name: create_eco_hdr
+        href: /sdk/toolkit_html/fcdr/create_eco_hdr.html
+      - name: create_eco_item
+        href: /sdk/toolkit_html/fcdr/create_eco_item.html
+      - name: create_eco_dtl
+        href: /sdk/toolkit_html/fcdr/create_eco_dtl.html
+      - name: modify_eco_item
+        href: /sdk/toolkit_html/fcdr/modify_eco_item.html
+      - name: modify_eco_dtl
+        href: /sdk/toolkit_html/fcdr/modify_eco_dtl.html
+      - name: delete_eco_item
+        href: /sdk/toolkit_html/fcdr/delete_eco_item.html
+      - name: delete_eco_detail
+        href: /sdk/toolkit_html/fcdr/delete_eco_detail.html
+      - name: apply_eco
+        href: /sdk/toolkit_html/fcdr/apply_eco.html
+      - name: create_dr_labor
+        href: /sdk/toolkit_html/fcdr/create_dr_labor.html
+      - name: create_dr_mtl
+        href: /sdk/toolkit_html/fcdr/create_dr_mtl.html
+      - name: modify_dr_labor
+        href: /sdk/toolkit_html/fcdr/modify_dr_labor.html
+      - name: modify_dr_mtl
+        href: /sdk/toolkit_html/fcdr/modify_dr_mtl.html
+      - name: delete_dr_labor
+        href: /sdk/toolkit_html/fcdr/delete_dr_labor.html
+      - name: delete_dr_mtl
+        href: /sdk/toolkit_html/fcdr/delete_dr_mtl.html
+    - name: Properties
+      items:
+      - name: ret_id_num
+        href: /sdk/toolkit_html/ret_id_num.html
+      - name: ret_objid
+        href: /sdk/toolkit_html/ret_objid.html
+  - name: FCINTER
+    items:
+    - name: Overview
+      href: /sdk/toolkit_html/fcinter_overview.html
+    - name: Methods
+      items:
+      - name: accept_solution
+        href: /sdk/toolkit_html/fcinter/accept_solution.html
+      - name: add_contact_to_contract
+        href: /sdk/toolkit_html/fcinter/add_contact_to_contract.html
+      - name: add_emp_to_bus_org
+        href: /sdk/toolkit_html/fcinter/add_emp_to_bus_org.html
+      - name: add_site_part_to_contract
+        href: /sdk/toolkit_html/fcinter/add_site_part_to_contract.html
+      - name: add_site_to_bus_org
+        href: /sdk/toolkit_html/fcinter/add_site_to_bus_org.html
+      - name: add_site_to_contract
+        href: /sdk/toolkit_html/fcinter/add_site_to_contract.html
+      - name: add_user_to_queue
+        href: /sdk/toolkit_html/fcinter/add_user_to_queue.html
+      - name: add_workaround
+        href: /sdk/toolkit_html/fcinter/add_workaround.html
+      - name: allow_duplicate_contact
+        href: /sdk/toolkit_html/fcinter/allow_duplicate_contact.html
+      - name: assign_solution
+        href: /sdk/toolkit_html/fcinter/assign_solution.html
+      - name: create_address
+        href: /sdk/toolkit_html/fcinter/create_address.html
+      - name: create_bom
+        href: /sdk/toolkit_html/fcinter/create_bom.html
+      - name: create_contact
+        href: /sdk/toolkit_html/fcinter/create_contact.html
+      - name: create_country
+        href: /sdk/toolkit_html/fcinter/create_country.html
+      - name: create_employee
+        href: /sdk/toolkit_html/fcinter/create_employee.html
+      - name: create_interact
+        href: /sdk/toolkit_html/fcinter/create_interact.html
+      - name: create_price_inst
+        href: /sdk/toolkit_html/fcinter/fcinter_create_price_inst.html
+      - name: create_product_bin
+        href: /sdk/toolkit_html/fcinter/create_product_bin.html
+      - name: create_soln
+        href: /sdk/toolkit_html/fcinter/create_soln.html
+      - name: create_state
+        href: /sdk/toolkit_html/fcinter/create_state.html
+      - name: create_time_zone
+        href: /sdk/toolkit_html/fcinter/create_time_zone.html
+      - name: create_update_account
+        href: /sdk/toolkit_html/fcinter/create_update_account.html
+      - name: create_update_contract
+        href: /sdk/toolkit_html/fcinter/create_update_contract.html
+      - name: create_update_mod_level
+        href: /sdk/toolkit_html/fcinter/create_update_mod_level.html
+      - name: create_update_part
+        href: /sdk/toolkit_html/fcinter/create_update_part.html
+      - name: create_update_queue
+        href: /sdk/toolkit_html/fcinter/create_update_queue.html
+      - name: create_update_site
+        href: /sdk/toolkit_html/fcinter/create_update_site.html
+      - name: create_update_wipbin
+        href: /sdk/toolkit_html/fcinter/create_update_wipbin.html
+      - name: deinstall_sp
+        href: /sdk/toolkit_html/fcinter/deinstall_sp.html
+      - name: delete_product_bin
+        href: /sdk/toolkit_html/fcinter/delete_product_bin.html
+      - name: dispatch_solution
+        href: /sdk/toolkit_html/fcinter/dispatch_solution.html
+      - name: forward_solution
+        href: /sdk/toolkit_html/fcinter/forward_solution.html
+      - name: install_sp
+        href: /sdk/toolkit_html/fcinter/install_sp.html
+      - name: link_case_to_workaround
+        href: /sdk/toolkit_html/fcinter/link_case_to_workaround.html
+      - name: link_cr_to_soln
+        href: /sdk/toolkit_html/fcinter/link_cr_to_soln.html
+      - name: modify_product_bin
+        href: /sdk/toolkit_html/fcinter/modify_product_bin.html
+      - name: mooify_sp
+        href: /sdk/toolkit_html/fcinter/modify_sp.html
+      - name: move_solution
+        href: /sdk/toolkit_html/fcinter/move_solution.html
+      - name: move_sp
+        href: /sdk/toolkit_html/fcinter/move_sp.html
+      - name: reinstall_sp
+        href: /sdk/toolkit_html/fcinter/reinstall_sp.html
+      - name: reject_solution
+        href: /sdk/toolkit_html/fcinter/reject_solution.html
+      - name: remove_emp_from_bus_org
+        href: /sdk/toolkit_html/fcinter/remove_emp_from_bus_org.html
+      - name: remove_site_from_bus_org
+        href: /sdk/toolkit_html/fcinter/remove_site_from_bus_org.html
+      - name: unlink_case_from_workaround
+        href: /sdk/toolkit_html/fcinter/unlink_case_from_workaround.html
+      - name: unlink_cr_from_soln
+        href: /sdk/toolkit_html/fcinter/unlink_cr_from_soln.html
+      - name: update_address
+        href: /sdk/toolkit_html/fcinter/update_address.html
+      - name: update_contact
+        href: /sdk/toolkit_html/fcinter/update_contact.html
+      - name: update_price_inst
+        href: /sdk/toolkit_html/fcinter/update_price_inst.html
+      - name: yank_solution
+        href: /sdk/toolkit_html/fcinter/yank_solution.html
+    - name: Properties
+      items:
+      - name: ret_id_num
+        href: /sdk/toolkit_html/ret_id_num.html
+      - name: ret_objid
+        href: /sdk/toolkit_html/ret_objid.html
+      - name: ret_objid2
+        href: /sdk/toolkit_html/ret_objid2.html
+  - name: FCSFA
+    items:
+    - name: Overview
+      href: /sdk/toolkit_html/fcsfa_overview.html
+    - name: Methods
+      items:
+      - name: accept_action_item
+        href: /sdk/toolkit_html/fcsfa/accept_action_item.html
+      - name: assign_action_item
+        href: /sdk/toolkit_html/fcsfa/assign_action_item.html
+      - name: assign_lead
+        href: /sdk/toolkit_html/fcsfa/assign_lead.html
+      - name: change_action_item_status
+        href: /sdk/toolkit_html/fcsfa/change_action_item_status.html
+      - name: change_task_cond
+        href: /sdk/toolkit_html/fcsfa/change_task_cond.html
+      - name: close_opp
+        href: /sdk/toolkit_html/fcsfa/close_opp.html
+      - name: cr_contr_itm
+        href: /sdk/toolkit_html/fcsfa/fcsfa_cr_contr_itm.html
+      - name: create_action_item
+        href: /sdk/toolkit_html/fcsfa/create_action_item.html
+      - name: create_opp
+        href: /sdk/toolkit_html/fcsfa/create_opp.html
+      - name: create_quote
+        href: /sdk/toolkit_html/fcsfa/create_quote.html
+      - name: create_update_lead
+        href: /sdk/toolkit_html/fcsfa/create_update_lead.html
+      - name: dispatch_action_item
+        href: /sdk/toolkit_html/fcsfa/dispatch_action_item.html
+      - name: forward_action_item
+        href: /sdk/toolkit_html/fcsfa/forward_action_item.html
+      - name: lead_opp
+        href: /sdk/toolkit_html/fcsfa/lead_opp.html
+      - name: log_lead_note
+        href: /sdk/toolkit_html/fcsfa/log_lead_note.html
+      - name: log_lead_phone
+        href: /sdk/toolkit_html/fcsfa/log_lead_phone.html
+      - name: lose_opp
+        href: /sdk/toolkit_html/fcsfa/lose_opp.html
+      - name: modify_opp
+        href: /sdk/toolkit_html/fcsfa/modify_opp.html
+      - name: opp_opp
+        href: /sdk/toolkit_html/fcsfa/opp_opp.html
+      - name: reject_action_item
+        href: /sdk/toolkit_html/fcsfa/reject_action_item.html
+      - name: reopen_opp
+        href: /sdk/toolkit_html/fcsfa/reopen_opp.html
+      - name: update_action_item
+        href: /sdk/toolkit_html/fcsfa/update_action_item.html
+      - name: win_opp
+        href: /sdk/toolkit_html/fcsfa/win_opp.html
+      - name: yank_action_item
+        href: /sdk/toolkit_html/fcsfa/yank_action_item.html
+    - name: Properties
+      items:
+      - name: ret_id_num
+        href: /sdk/toolkit_html/ret_id_num.html
+      - name: ret_objid
+        href: /sdk/toolkit_html/ret_objid.html
+      - name: ret_objid2
+        href: /sdk/toolkit_html/ret_objid2.html
+  - name: FCFO
+    items:
+    - name: Overview
+      href: /sdk/toolkit_html/fcfo_overview.html
+    - name: Methods
+      items:
+      - name: add_svc_inter
+        href: /sdk/toolkit_html/fcfo/add_svc_inter.html
+      - name: create_expense_log
+        href: /sdk/toolkit_html/fcfo/create_expense_log.html
+      - name: create_onsite_log
+        href: /sdk/toolkit_html/fcfo/create_onsite_log.html
+      - name: create_time_log
+        href: /sdk/toolkit_html/fcfo/create_time_log.html
+      - name: deinstall_sp
+        href: /sdk/toolkit_html/fcfo/deinstall_sp.html
+      - name: delete_appt
+        href: /sdk/toolkit_html/fcfo/delete_appt.html
+      - name: delete_expense_log
+        href: /sdk/toolkit_html/fcfo/delete_expense_log.html
+      - name: delete_onsite_log
+        href: /sdk/toolkit_html/fcfo/delete_onsite_log.html
+      - name: delete_svc_inter
+        href: /sdk/toolkit_html/fcfo/delete_svc_inter.html
+      - name: delete_time_log
+        href: /sdk/toolkit_html/fcfo/delete_time_log.html
+      - name: dispatch_fe
+        href: /sdk/toolkit_html/fcfo/dispatch_fe.html
+      - name: install_sp
+        href: /sdk/toolkit_html/fcfo/install_sp.html
+      - name: log_parts_used
+        href: /sdk/toolkit_html/fcfo/log_parts_used.html
+      - name: make_appt
+        href: /sdk/toolkit_html/fcfo/make_appt.html
+      - name: modify_appt
+        href: /sdk/toolkit_html/fcfo/modify_appt.html
+      - name: modify_expense_log
+        href: /sdk/toolkit_html/fcfo/modify_expense_log.html
+      - name: modify_sp
+        href: /sdk/toolkit_html/fcfo/modify_sp.html
+      - name: modify_svc_inter
+        href: /sdk/toolkit_html/fcfo/modify_svc_inter.html
+      - name: modify_time_log
+        href: /sdk/toolkit_html/fcfo/modify_time_log.html
+      - name: move_sp
+        href: /sdk/toolkit_html/fcfo/move_sp.html
+      - name: part_transfer
+        href: /sdk/toolkit_html/fcfo/part_transfer.html
+      - name: reinstall_sp
+        href: /sdk/toolkit_html/fcfo/reinstall_sp.html
+    - name: Properties
+      items:
+      - name: ret_id_num
+        href: /sdk/toolkit_html/ret_id_num.html
+      - name: ret_objid
+        href: /sdk/toolkit_html/ret_objid.html
+      - name: ret_objid2
+        href: /sdk/toolkit_html/ret_objid2.html
+      - name: ret_string
+        href: /sdk/toolkit_html/ret_string.html

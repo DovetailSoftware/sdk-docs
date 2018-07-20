@@ -1,8 +1,4 @@
-﻿     LogCaseEmailSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogCaseEmailSetup Class Properties
+﻿### LogCaseEmailSetup Class Properties
 
 For a list of all members of this type, see [LogCaseEmailSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup_members.md).
 
@@ -29,9 +25,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SendEmail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~SendEmail.md) | Specifies if a timebomb be added to Clarify that will cause Rule Manager (if running) to send the email.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

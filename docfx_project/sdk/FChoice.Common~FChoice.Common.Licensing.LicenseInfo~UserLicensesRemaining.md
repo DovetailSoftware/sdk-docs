@@ -1,24 +1,16 @@
-﻿     UserLicensesRemaining Property (LicenseInfo)                                                   
-
-UserLicensesRemaining Property (LicenseInfo)
+﻿### UserLicensesRemaining Property (LicenseInfo)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public ReadOnly Property UserLicensesRemaining As Integer
 
-'Declaration
- 
+public int UserLicensesRemaining {get;}
 
-Public ReadOnly Property UserLicensesRemaining As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public [int](#) UserLicensesRemaining {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

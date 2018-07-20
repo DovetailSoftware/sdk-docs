@@ -1,8 +1,4 @@
-﻿     DaylightSavingsPeriod Class Properties                                                   
-
-fcSDK Documentation
-
-DaylightSavingsPeriod Class Properties
+﻿### DaylightSavingsPeriod Class Properties
 
 For a list of all members of this type, see [DaylightSavingsPeriod members](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StartDate](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod~StartDate.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

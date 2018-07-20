@@ -1,8 +1,4 @@
-﻿     CreateEcoMaterialDetailSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateEcoMaterialDetailSetup Class Members
+﻿### CreateEcoMaterialDetailSetup Class Members
 
 The following tables list the members exposed by [CreateEcoMaterialDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoMaterialDetailSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateEcoMaterialDetailSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoMaterialDetailSetup~_ctor.md) | Initializes a new instance of the CreateEcoMaterialDetailSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRevisionObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoMaterialDetailSetup~PartRevisionObjid.md) | The objid of the part revision of the material that was put in use.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoMaterialDetailSetup~Status.md) | Element from the 'ECO Status' application list. If not set, the default list value is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

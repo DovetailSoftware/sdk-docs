@@ -1,26 +1,18 @@
-﻿     ChangeActionItemStatusSetup Class                                                   
-
-fcSDK Documentation
-
-ChangeActionItemStatusSetup Class
+﻿### ChangeActionItemStatusSetup Class
 
 Used by the [ChangeActionItemStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ChangeActionItemStatus(ChangeActionItemStatusSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ChangeActionItemStatusSetup 
 
 public class ChangeActionItemStatusSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.ChangeActionItemStatusSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

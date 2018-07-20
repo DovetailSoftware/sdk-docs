@@ -1,8 +1,4 @@
-﻿     SchemaCache Class Methods                                                   
-
-fcSDK Documentation
-
-SchemaCache Class Methods
+﻿### SchemaCache Class Methods
 
 For a list of all members of this type, see [SchemaCache members](fcSDK~FChoice.Foundation.Clarify.SchemaCache_members.md).
 
@@ -43,9 +39,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TryIsStringField](fcSDK~FChoice.Foundation.Clarify.SchemaCache~TryIsStringField.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCache](fcSDK~FChoice.Foundation.Clarify.SchemaCache~UpdateCache.md) | Overridden.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

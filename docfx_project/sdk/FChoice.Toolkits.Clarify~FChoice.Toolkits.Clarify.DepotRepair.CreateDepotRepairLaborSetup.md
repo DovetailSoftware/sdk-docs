@@ -1,26 +1,18 @@
-﻿     CreateDepotRepairLaborSetup Class                                                   
-
-fcSDK Documentation
-
-CreateDepotRepairLaborSetup Class
+﻿### CreateDepotRepairLaborSetup Class
 
 Used by the [CreateDepotRepairLabor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~CreateDepotRepairLabor(CreateDepotRepairLaborSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreateDepotRepairLaborSetup 
 
 public class CreateDepotRepairLaborSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairLaborSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

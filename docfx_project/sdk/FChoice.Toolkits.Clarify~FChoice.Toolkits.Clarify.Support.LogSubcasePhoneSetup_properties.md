@@ -1,8 +1,4 @@
-﻿     LogSubcasePhoneSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogSubcasePhoneSetup Class Properties
+﻿### LogSubcasePhoneSetup Class Properties
 
 For a list of all members of this type, see [LogSubcasePhoneSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup_members.md).
 
@@ -29,9 +25,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SubcaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup~SubcaseIDNum.md) | Identifier of the Subcase against which the phone note is being logged.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

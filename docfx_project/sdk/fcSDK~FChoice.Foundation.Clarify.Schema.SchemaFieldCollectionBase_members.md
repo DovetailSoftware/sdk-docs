@@ -1,8 +1,4 @@
-﻿     SchemaFieldCollectionBase Class Members                                                   
-
-fcSDK Documentation
-
-SchemaFieldCollectionBase Class Members
+﻿### SchemaFieldCollectionBase Class Members
 
 The following tables list the members exposed by [SchemaFieldCollectionBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldCollectionBase.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<SchemaFieldBase>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldCollectionBase~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -52,9 +48,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SchemaFieldBase>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SchemaFieldBase>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

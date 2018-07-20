@@ -1,21 +1,17 @@
-﻿     ISchemaView Interface                                                   
-
-fcSDK Documentation
-
-ISchemaView Interface
+﻿### ISchemaView Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Interface ISchemaView 
-   Inherits [ISchemaTableBase](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase.md) 
+   Inherits ISchemaTableBase 
+```
 
-public interface ISchemaView : [ISchemaTableBase](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase.md)  
+```csharp
+public interface ISchemaView : ISchemaTableBase  
+```
 
 #### Requirements
 
@@ -24,8 +20,6 @@ public interface ISchemaView : [ISchemaTableBase](fcSDK~FChoice.Foundation.Schem
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

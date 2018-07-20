@@ -1,17 +1,9 @@
-﻿     SetContactUserPassword Method                                                   
-
-fcSDK Documentation
-
-SetContactUserPassword Method
+﻿### SetContactUserPassword Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Shared Sub SetContactUserPassword( _
    ByVal _username_ As String, _
    ByVal _newPassword_ As String _
@@ -28,11 +20,9 @@ _username_
 
 _newPassword_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

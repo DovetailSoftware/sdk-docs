@@ -1,8 +1,4 @@
-﻿     CreateExpenseLogSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateExpenseLogSetup Class Properties
+﻿### CreateExpenseLogSetup Class Properties
 
 For a list of all members of this type, see [CreateExpenseLogSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup_members.md).
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Resolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup~Resolution.md) | Element from the 'Resolution' application list. If not set the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup~UserName.md) | The user who created the Expense Log. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

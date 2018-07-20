@@ -1,26 +1,18 @@
-﻿     SecondaryTable Property                                                   
-
-fcSDK Documentation
-
-SecondaryTable Property
+﻿### SecondaryTable Property
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
+ReadOnly Property SecondaryTable As ISchemaTable
+```
 
-ReadOnly Property SecondaryTable As [ISchemaTable](fcSDK~FChoice.Foundation.Schema.ISchemaTable.md)
+```csharp
+ISchemaTable SecondaryTable {get;}
+```
 
-[ISchemaTable](fcSDK~FChoice.Foundation.Schema.ISchemaTable.md) SecondaryTable {get;}
-
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

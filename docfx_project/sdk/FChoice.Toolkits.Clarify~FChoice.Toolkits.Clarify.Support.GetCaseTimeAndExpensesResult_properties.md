@@ -1,8 +1,4 @@
-﻿     GetCaseTimeAndExpensesResult Class Properties                                                   
-
-fcSDK Documentation
-
-GetCaseTimeAndExpensesResult Class Properties
+﻿### GetCaseTimeAndExpensesResult Class Properties
 
 For a list of all members of this type, see [GetCaseTimeAndExpensesResult members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) | Objid of the object modified by the API invocation (Inherited from [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [ReturnCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~ReturnCode.md) | Return code of the API call. (Inherited from [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

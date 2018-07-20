@@ -1,6 +1,4 @@
-﻿     GetConnection(String) Method                                                   
-
-GetConnection(String) Method
+﻿### GetConnection(String) Method
 
 A full connection string that is compatible with the underlying database type. See the remarks for information on how to generate safe connection strings.
 
@@ -9,10 +7,7 @@ Gets an [IDbConnection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemD
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads MustOverride Function GetConnection( _
    ByVal _conStr_ As String _
@@ -38,11 +33,9 @@ The connection instance is not open by default. In order to open the connection,
 
 To generate connection strings in a database-agnostic fashion, please see the [ConstructConnectionString](FChoice.Common~FChoice.Common.Data.DbProvider~ConstructConnectionString.md) and the [CreateConnectionString](FChoice.Common~FChoice.Common.Data.DbProvider~CreateConnectionString.md) methods.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

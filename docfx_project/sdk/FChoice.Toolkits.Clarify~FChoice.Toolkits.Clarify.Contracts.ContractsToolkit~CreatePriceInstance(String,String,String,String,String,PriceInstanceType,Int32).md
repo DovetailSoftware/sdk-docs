@@ -1,8 +1,4 @@
-﻿     CreatePriceInstance(String,String,String,String,String,PriceInstanceType,Int32) Method                                                   
-
-fcSDK Documentation
-
-CreatePriceInstance(String,String,String,String,String,PriceInstanceType,Int32) Method
+﻿### CreatePriceInstance(String,String,String,String,String,PriceInstanceType,Int32) Method
 
 The nuber of the part for the Price Instance.
 
@@ -23,11 +19,8 @@ Used to create a new price instance for a support program. This overload takes a
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function CreatePriceInstance( _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
@@ -35,18 +28,21 @@ Public Overloads Function CreatePriceInstance( _
    ByVal _supportProgram_ As String, _
    ByVal _priceProgram_ As String, _
    ByVal _priceType_ As [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md), _
-   ByVal _quantity_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _quantity_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreatePriceInstance( 
+```csharp
+public ToolkitResult CreatePriceInstance( 
    string _partNumber_,
    string _partRevision_,
    string _partDomain_,
    string _supportProgram_,
    string _priceProgram_,
    [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md) _priceType_,
-   [int](#) _quantity_
+   int _quantity_
 )
+```
 
 #### Parameters
 
@@ -80,7 +76,7 @@ The quantity of the part for the Price Instance. If not set, it will default to 
 
 #### Return Value
 
-The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+The following values are populated in the ToolkitResult object returned by the API method:
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Price Instance record.
 
@@ -88,11 +84,7 @@ Remarks
 
 You may specify the part for product based support programs, or leave it blank when creating price instances for either site or independent support programs.  If you do specify a part, you must include its domain and revision (mod level).
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

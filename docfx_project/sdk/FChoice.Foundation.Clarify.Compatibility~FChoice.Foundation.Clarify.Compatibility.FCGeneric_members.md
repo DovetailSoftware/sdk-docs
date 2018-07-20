@@ -1,8 +1,4 @@
-﻿     FCGeneric Class Members                                                   
-
-fcSDK Documentation
-
-FCGeneric Class Members
+﻿### FCGeneric Class Members
 
 The following tables list the members exposed by [FCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric.md).
 
@@ -41,7 +37,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SetNullStringsToEmpty](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric~SetNullStringsToEmpty.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SortOrder](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric~SortOrder.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -90,9 +86,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric~Update.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateAll](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric~UpdateAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

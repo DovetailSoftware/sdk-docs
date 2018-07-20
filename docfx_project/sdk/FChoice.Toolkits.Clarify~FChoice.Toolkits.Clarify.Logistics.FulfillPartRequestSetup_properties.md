@@ -1,8 +1,4 @@
-﻿     FulfillPartRequestSetup Class Properties                                                   
-
-fcSDK Documentation
-
-FulfillPartRequestSetup Class Properties
+﻿### FulfillPartRequestSetup Class Properties
 
 For a list of all members of this type, see [FulfillPartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup_members.md).
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup~UserName.md) | The user who is fulfilling the Part Request. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseTransitions](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup~UseTransitions.md) | Specifies whether or not logistics transitions will be checked and the condition/status of the part request detail will be changed during the fulfill operation   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

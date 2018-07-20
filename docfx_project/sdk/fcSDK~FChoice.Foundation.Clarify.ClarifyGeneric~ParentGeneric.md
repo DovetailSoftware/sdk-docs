@@ -1,22 +1,18 @@
-﻿     ParentGeneric Property (ClarifyGeneric)                                                   
-
-fcSDK Documentation
-
-ParentGeneric Property (ClarifyGeneric)
+﻿### ParentGeneric Property (ClarifyGeneric)
 
 Gets a reference to the parent [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) if this generic is a child
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-Public ReadOnly Property ParentGeneric As [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md)
+Public ReadOnly Property ParentGeneric As ClarifyGeneric
+```
 
-public [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) ParentGeneric {get;}
+```csharp
+public ClarifyGeneric ParentGeneric {get;}
+```
 
 #### Property Value
 
@@ -26,11 +22,9 @@ Remarks
 
 For more examples and information on how to create parent/child generic hierarchies, see the [Traverse](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~Traverse.md) and [TraverseFromParent](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~TraverseFromParent.md) methods.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

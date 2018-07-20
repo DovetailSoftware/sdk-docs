@@ -1,16 +1,9 @@
-﻿     FCList Class                                                   
-
-fcSDK Documentation
-
-FCList Class
+﻿### FCList Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[GuidAttribute](#)("007EE1DD-6614-4833-BB7F-2AB543B42CE9")>
 <[ClassInterfaceAttribute](#)(ClassInterfaceType.None)>
@@ -29,7 +22,7 @@ public sealed class FCList : [IFCList](FChoice.Foundation.Clarify.Compatibility~
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCList**  
 
 #### Requirements
@@ -40,7 +33,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

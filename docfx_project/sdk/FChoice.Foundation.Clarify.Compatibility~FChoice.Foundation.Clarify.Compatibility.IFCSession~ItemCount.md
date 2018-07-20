@@ -1,24 +1,17 @@
-﻿     ItemCount Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-ItemCount Method (IFCSession)
+﻿### ItemCount Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743889)>
+<DispIdAttribute(1610743889)>
 Function ItemCount( _
    ByVal _path_ As String, _
    ByVal _separator_ As String _
 ) As Short
 
-\[[DispIdAttribute](#)(1610743889)\]
+[DispIdAttribute(1610743889)]
 short ItemCount( 
    string _path_,
    string _separator_
@@ -30,11 +23,9 @@ _path_
 
 _separator_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

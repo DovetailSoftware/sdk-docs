@@ -1,18 +1,11 @@
-﻿     LogSubcaseResearchResult Class                                                   
-
-fcSDK Documentation
-
-LogSubcaseResearchResult Class
+﻿### LogSubcaseResearchResult Class
 
 Result from the [LogSubcaseResearch](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubcaseResearch.md) API.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class LogSubcaseResearchResult 
    Inherits [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
@@ -21,7 +14,7 @@ public class LogSubcaseResearchResult : [FChoice.Toolkits.Clarify.ToolkitResult]
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  
       **FChoice.Toolkits.Clarify.Support.LogSubcaseResearchResult**  
 
@@ -33,7 +26,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

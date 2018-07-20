@@ -1,8 +1,4 @@
-﻿     IGlobalStringElementCollection Interface Members                                                   
-
-fcSDK Documentation
-
-IGlobalStringElementCollection Interface Members
+﻿### IGlobalStringElementCollection Interface Members
 
 The following tables list the members exposed by [IGlobalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection.md).
 
@@ -16,7 +12,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [InactiveElements](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~InactiveElements.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -49,9 +45,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [TrimExcess](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~TrimExcess.md) |   |
 | ![ Method](dotnetimages/Method.png) | [TrueForAll](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~TrueForAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

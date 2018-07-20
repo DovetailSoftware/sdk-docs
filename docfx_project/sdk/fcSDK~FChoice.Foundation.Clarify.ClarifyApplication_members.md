@@ -1,8 +1,4 @@
-﻿     ClarifyApplication Class Members                                                   
-
-fcSDK Documentation
-
-ClarifyApplication Class Members
+﻿### ClarifyApplication Class Members
 
 The following tables list the members exposed by [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md).
 
@@ -28,7 +24,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StringCache](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~StringCache.md) | Gets a reference to the [StringCache](fcSDK~FChoice.Foundation.Clarify.StringCache.md) which provides access to the Clarify string DB table and First Choice FCStrings   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TruncateStringFields](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~TruncateStringFields.md) | Gets or sets whether or not to truncate string values if they are too large for the field or throw an error   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -48,7 +44,7 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [IsSessionValid](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~IsSessionValid.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [ValidateEncryptedPassword](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~ValidateEncryptedPassword.md) |   |
 
-[Top](#top)
+
 
 Public Events
 
@@ -56,9 +52,9 @@ Public Events
 | --- | --- | --- |
 | ![Public Event](dotnetimages/publicEvent.png) | [InitializeStatusChange](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~InitializeStatusChange_EV.md) | Event fired during [Initialization](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~Initialize.md), relaying information about the current status of the initialization process.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

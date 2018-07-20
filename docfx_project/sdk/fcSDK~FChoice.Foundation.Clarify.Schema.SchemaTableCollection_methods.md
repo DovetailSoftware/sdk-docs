@@ -1,8 +1,4 @@
-﻿     SchemaTableCollection Class Methods                                                   
-
-fcSDK Documentation
-
-SchemaTableCollection Class Methods
+﻿### SchemaTableCollection Class Methods
 
 For a list of all members of this type, see [SchemaTableCollection members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableCollection_members.md).
 
@@ -43,9 +39,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SchemaTable>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SchemaTable>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

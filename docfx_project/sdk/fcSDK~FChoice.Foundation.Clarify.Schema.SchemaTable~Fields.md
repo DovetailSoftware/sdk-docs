@@ -1,26 +1,17 @@
-﻿     Fields Property (SchemaTable)                                                   
-
-fcSDK Documentation
-
-Fields Property (SchemaTable)
+﻿### Fields Property (SchemaTable)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shadows ReadOnly Property Fields As [SchemaTableFieldCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableFieldCollection.md)
 
 public new [SchemaTableFieldCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableFieldCollection.md) Fields {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

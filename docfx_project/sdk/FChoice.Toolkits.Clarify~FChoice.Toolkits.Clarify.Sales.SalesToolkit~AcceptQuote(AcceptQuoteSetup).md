@@ -1,8 +1,4 @@
-﻿     AcceptQuote(AcceptQuoteSetup) Method                                                   
-
-fcSDK Documentation
-
-AcceptQuote(AcceptQuoteSetup) Method
+﻿### AcceptQuote(AcceptQuoteSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Accept the specified Quote from the queue in which it is currently dispatched. T
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AcceptQuote( _
    ByVal _setupParam_ As [AcceptQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptQuoteSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Quote must be currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

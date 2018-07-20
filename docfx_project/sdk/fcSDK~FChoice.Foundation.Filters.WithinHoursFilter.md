@@ -1,19 +1,11 @@
-﻿     WithinHoursFilter Class                                                   
-
-fcSDK Documentation
-
-WithinHoursFilter Class
+﻿### WithinHoursFilter Class
 
 Filter field on dates that have occurred within a number of hours
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class WithinHoursFilter 
    Inherits [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)
 
@@ -25,7 +17,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       [FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)  
          [FChoice.Foundation.Filters.BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)  
@@ -39,7 +31,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

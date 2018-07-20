@@ -1,22 +1,15 @@
-﻿     DefaultCulture Property                                                   
-
-fcSDK Documentation
-
-DefaultCulture Property
+﻿### DefaultCulture Property
 
 Returns the default [Culture](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cpconcultureinfo.htm) being used by the session.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property DefaultCulture As CultureInfo
 
-Public ReadOnly Property DefaultCulture As [CultureInfo](#)
-
-public [CultureInfo](#) DefaultCulture {get;}
+public CultureInfo DefaultCulture {get;}
 
 #### Property Value
 
@@ -28,11 +21,9 @@ This is the CultureInfo that is used unless the [CurrentCulture](fcSDK~FChoice
 
 This value currently defaults to the [InstalledUICulture](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemGlobalizationCultureInfoClassInstalledUICultureTopic.htm).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     WorkflowObjectInfo Class Methods                                                   
-
-fcSDK Documentation
-
-WorkflowObjectInfo Class Methods
+﻿### WorkflowObjectInfo Class Methods
 
 For a list of all members of this type, see [WorkflowObjectInfo members](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo_members.md).
 
@@ -16,9 +12,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GetQueueableObjectInfo](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo~GetQueueableObjectInfo.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [ObjectTypeExists](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo~ObjectTypeExists.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,22 +1,15 @@
-﻿     GetSafeDoubleFieldValue Method (IDataObject)                                                   
-
-fcSDK Documentation
-
-GetSafeDoubleFieldValue Method (IDataObject)
+﻿### GetSafeDoubleFieldValue Method (IDataObject)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Function GetSafeDoubleFieldValue( _
    ByVal _columnName_ As String _
-) As [Double](#)
+) As Double
 
-[double](#) GetSafeDoubleFieldValue( 
+double GetSafeDoubleFieldValue( 
    string _columnName_
 )
 
@@ -24,11 +17,9 @@ Function GetSafeDoubleFieldValue( _
 
 _columnName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

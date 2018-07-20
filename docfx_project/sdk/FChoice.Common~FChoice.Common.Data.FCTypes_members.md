@@ -1,6 +1,4 @@
-﻿     FCTypes Class Members                                                   
-
-FCTypes Class Members
+﻿### FCTypes Class Members
 
 The following tables list the members exposed by [FCTypes](FChoice.Common~FChoice.Common.Data.FCTypes.md).
 
@@ -29,9 +27,9 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [Varchar](FChoice.Common~FChoice.Common.Data.FCTypes~Varchar.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [VarcharNumber](FChoice.Common~FChoice.Common.Data.FCTypes~VarcharNumber.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

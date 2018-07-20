@@ -1,15 +1,9 @@
-﻿     MsSqlStateManager Class                                                   
-
-MsSqlStateManager Class
+﻿### MsSqlStateManager Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class MsSqlStateManager 
    Inherits [RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)
    Implements [IStateManager](FChoice.Common~FChoice.Common.State.IStateManager.md) 
@@ -18,7 +12,7 @@ public class MsSqlStateManager : [RemoteStateManager](FChoice.Common~FChoice.Com
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Common.State.RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)  
       **FChoice.Common.State.MsSqlStateManager**  
 
@@ -30,7 +24,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

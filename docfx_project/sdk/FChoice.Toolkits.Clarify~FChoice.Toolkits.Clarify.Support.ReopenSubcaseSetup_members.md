@@ -1,8 +1,4 @@
-﻿     ReopenSubcaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-ReopenSubcaseSetup Class Members
+﻿### ReopenSubcaseSetup Class Members
 
 The following tables list the members exposed by [ReopenSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ReopenSubcaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup~_ctor.md) | Initializes a new instance of the ReopenSubcaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup~UserName.md) | The User who rejected the Subcase. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup~WipBin.md) | WipBin to place the Subcase in. If not set, the users default WibBin is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

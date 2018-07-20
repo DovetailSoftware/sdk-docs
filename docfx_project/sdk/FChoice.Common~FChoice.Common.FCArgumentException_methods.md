@@ -1,6 +1,4 @@
-﻿     FCArgumentException Class Methods                                                   
-
-FCArgumentException Class Methods
+﻿### FCArgumentException Class Methods
 
 For a list of all members of this type, see [FCArgumentException members](FChoice.Common~FChoice.Common.FCArgumentException_members.md).
 
@@ -16,9 +14,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

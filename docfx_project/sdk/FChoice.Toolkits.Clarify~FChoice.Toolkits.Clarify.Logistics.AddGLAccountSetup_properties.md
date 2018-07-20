@@ -1,8 +1,4 @@
-﻿     AddGLAccountSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AddGLAccountSetup Class Properties
+﻿### AddGLAccountSetup Class Properties
 
 For a list of all members of this type, see [AddGLAccountSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup_members.md).
 
@@ -22,9 +18,9 @@ The identifier of the Site with which the account is to be associated
 
   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

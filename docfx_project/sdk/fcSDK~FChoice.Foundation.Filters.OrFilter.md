@@ -1,19 +1,11 @@
-﻿     OrFilter Class                                                   
-
-fcSDK Documentation
-
-OrFilter Class
+﻿### OrFilter Class
 
 Logical filter allowing 2 OR (exclusive) filters.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class OrFilter 
    Inherits [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)
 
@@ -25,7 +17,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       [FChoice.Foundation.Filters.LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)  
          **FChoice.Foundation.Filters.OrFilter**  
@@ -38,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

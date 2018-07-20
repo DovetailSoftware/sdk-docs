@@ -1,36 +1,27 @@
-﻿     GetResClausesStr Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetResClausesStr Method (IFCApplication)
+﻿### GetResClausesStr Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743905)>
+<DispIdAttribute(1610743905)>
 Function GetResClausesStr( _
-   ByVal _tblNum_ As [Integer](#) _
+   ByVal _tblNum_ As Integer _
 ) As String
 
-\[[DispIdAttribute](#)(1610743905)\]
+[DispIdAttribute(1610743905)]
 string GetResClausesStr( 
-   [int](#) _tblNum_
+   int _tblNum_
 )
 
 #### Parameters
 
 _tblNum_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

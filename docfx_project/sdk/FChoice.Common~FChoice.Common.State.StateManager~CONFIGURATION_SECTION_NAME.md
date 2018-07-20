@@ -1,24 +1,17 @@
-﻿     CONFIGURATION_SECTION_NAME Field (StateManager)                                                   
-
-CONFIGURATION_SECTION_NAME Field (StateManager)
+﻿### CONFIGURATION_SECTION_NAME Field (StateManager)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Const CONFIGURATION_SECTION_NAME As String
 
 public const string CONFIGURATION_SECTION_NAME
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ListCache Class Members                                                   
-
-fcSDK Documentation
-
-ListCache Class Members
+﻿### ListCache Class Members
 
 The following tables list the members exposed by [ListCache](fcSDK~FChoice.Foundation.Clarify.ListCache.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [GlobalStrings](fcSDK~FChoice.Foundation.Clarify.ListCache~GlobalStrings.md) | Gets a reference to the [GlobalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringListCollection.md) cache of all application pop-up lists in the database   |
 | ![Public Property](dotnetimages/publicProperty.png) | [HierarchicalStrings](fcSDK~FChoice.Foundation.Clarify.ListCache~HierarchicalStrings.md) | Gets a reference to the [HierarchicalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElementCollection.md) cache of all user-defined lists in the database   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -39,7 +35,7 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TryGetHgbstList](fcSDK~FChoice.Foundation.Clarify.ListCache~TryGetHgbstList.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCache](fcSDK~FChoice.Foundation.CacheBase~UpdateCache.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
+
 
 Public Events
 
@@ -47,9 +43,9 @@ Public Events
 | --- | --- | --- |
 | ![Public Event](dotnetimages/publicEvent.png) | [CacheUpdated](fcSDK~FChoice.Foundation.CacheBase~CacheUpdated_EV.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

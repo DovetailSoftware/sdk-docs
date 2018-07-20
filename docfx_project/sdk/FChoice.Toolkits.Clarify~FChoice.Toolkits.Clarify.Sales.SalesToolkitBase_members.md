@@ -1,8 +1,4 @@
-﻿     SalesToolkitBase Class Members                                                   
-
-fcSDK Documentation
-
-SalesToolkitBase Class Members
+﻿### SalesToolkitBase Class Members
 
 The following tables list the members exposed by [SalesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase.md).
 
@@ -12,7 +8,7 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase~ImpersonatorUsername.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -20,9 +16,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [ChangeOpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase~ChangeOpportunityStage.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

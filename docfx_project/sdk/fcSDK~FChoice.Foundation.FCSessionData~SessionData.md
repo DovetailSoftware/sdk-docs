@@ -5,20 +5,18 @@ CRM configurable session data populates this property during [CreateSession](fcS
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public ReadOnly Property SessionData As [Hashtable](#)
+```
 
+```csharp
 public [Hashtable](#) SessionData {get;}
+```
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     DeleteEcoItemSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DeleteEcoItemSetup Class Properties
+﻿### DeleteEcoItemSetup Class Properties
 
 For a list of all members of this type, see [DeleteEcoItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoItemSetup_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [EcoItemObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoItemSetup~EcoItemObjid.md) | The objid of the ECO item object to be deleted   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

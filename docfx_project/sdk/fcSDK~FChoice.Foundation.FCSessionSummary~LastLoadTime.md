@@ -5,14 +5,11 @@ Timestamp when the session was last loaded via [FCApplication.GetSession](fcSDK~
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property LastLoadTime As Date
 
-Public ReadOnly Property LastLoadTime As [Date](#)
-
-public [DateTime](#) LastLoadTime {get;}
+public DateTime LastLoadTime {get;}
 
 #### Property Value
 
@@ -22,11 +19,9 @@ Remarks
 
 Based on [FCSession.LastLoadTime](fcSDK~FChoice.Foundation.FCSession~LastLoadTime.md)
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

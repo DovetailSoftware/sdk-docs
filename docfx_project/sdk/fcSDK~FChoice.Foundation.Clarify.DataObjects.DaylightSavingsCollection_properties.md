@@ -1,8 +1,4 @@
-﻿     DaylightSavingsCollection Class Properties                                                   
-
-fcSDK Documentation
-
-DaylightSavingsCollection Class Properties
+﻿### DaylightSavingsCollection Class Properties
 
 For a list of all members of this type, see [DaylightSavingsCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<DaylightSavingsPeriod>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.Generic.List<DaylightSavingsPeriod>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

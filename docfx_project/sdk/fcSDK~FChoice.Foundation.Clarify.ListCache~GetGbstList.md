@@ -1,8 +1,4 @@
-﻿     GetGbstList Method (ListCache)                                                   
-
-fcSDK Documentation
-
-GetGbstList Method (ListCache)
+﻿### GetGbstList Method (ListCache)
 
 The name of the GBST/application pop-up list
 
@@ -11,10 +7,7 @@ Gets a reference to a [GlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataO
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function GetGbstList( _
    ByVal _listTitle_ As String _
@@ -34,11 +27,9 @@ The name of the GBST/application pop-up list
 
 A [GlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringList.md) representing the specified application pop-up list or a null reference (**Nothing** in Visual Basic) if no list exists with that _listTitle_.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

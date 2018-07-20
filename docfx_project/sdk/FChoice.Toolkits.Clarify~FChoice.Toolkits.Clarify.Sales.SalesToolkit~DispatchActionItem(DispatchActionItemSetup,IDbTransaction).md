@@ -1,8 +1,4 @@
-﻿     DispatchActionItem(DispatchActionItemSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-DispatchActionItem(DispatchActionItemSetup,IDbTransaction) Method
+﻿### DispatchActionItem(DispatchActionItemSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Dispatch the ActionItem to the specified queue. This overload takes a setup obje
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DispatchActionItem( _
    ByVal _setupParam_ As [DispatchActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

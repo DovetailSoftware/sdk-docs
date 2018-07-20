@@ -1,18 +1,11 @@
-﻿     MaximumRowsExceededEventArgs Class                                                   
-
-fcSDK Documentation
-
-MaximumRowsExceededEventArgs Class
+﻿### MaximumRowsExceededEventArgs Class
 
 Delegates handling the [MaximumRowsExceeded](fcSDK~FChoice.Foundation.FCGeneric~MaximumRowsExceeded_EV.md) event will return this object to cue [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) on how to handle large queries.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class MaximumRowsExceededEventArgs 
 
@@ -20,7 +13,7 @@ public class MaximumRowsExceededEventArgs
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.MaximumRowsExceededEventArgs**  
 
 #### Requirements
@@ -31,7 +24,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

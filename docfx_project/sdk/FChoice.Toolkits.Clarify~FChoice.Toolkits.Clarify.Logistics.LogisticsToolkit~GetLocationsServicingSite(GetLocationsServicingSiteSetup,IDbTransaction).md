@@ -1,8 +1,4 @@
-﻿     GetLocationsServicingSite(GetLocationsServicingSiteSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-GetLocationsServicingSite(GetLocationsServicingSiteSetup,IDbTransaction) Method
+﻿### GetLocationsServicingSite(GetLocationsServicingSiteSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Returns a list of the locations (in the proper order) servicing this site. This 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function GetLocationsServicingSite( _
    ByVal _setupParam_ As [GetLocationsServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

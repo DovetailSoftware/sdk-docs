@@ -1,8 +1,4 @@
-﻿     IsInHgbstList(String,String,Boolean,String\[\]) Method                                                   
-
-fcSDK Documentation
-
-IsInHgbstList(String,String,Boolean,String\[\]) Method
+﻿### IsInHgbstList(String,String,Boolean,String\[\]) Method
 
 The title of the user-defined list (HGBST)
 
@@ -13,10 +9,7 @@ An optional list of element titles that defines what level in the user-defined l
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function IsInHgbstList( _
    ByVal _listTitle_ As String, _
@@ -29,7 +22,7 @@ public bool IsInHgbstList(
    string _listTitle_,
    string _elementTitle_,
    bool _throwErrors_,
-   params string\[\] _elementTitles_
+   params string[] _elementTitles_
 )
 
 #### Parameters
@@ -48,11 +41,9 @@ _elementTitles_
 
 An optional list of element titles that defines what level in the user-defined list to search
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     RelationNameCollection Class Properties                                                   
-
-fcSDK Documentation
-
-RelationNameCollection Class Properties
+﻿### RelationNameCollection Class Properties
 
 For a list of all members of this type, see [RelationNameCollection members](fcSDK~FChoice.Foundation.RelationNameCollection_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.ValidatedNameCollection~Item.md) | (Inherited from [FChoice.Foundation.ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](fcSDK~FChoice.Foundation.ValidatedNameCollection~SyncRoot.md) | (Inherited from [FChoice.Foundation.ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

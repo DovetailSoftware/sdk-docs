@@ -1,8 +1,4 @@
-﻿     CheckClearQualityTransition(CheckClearQualityTransitionSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CheckClearQualityTransition(CheckClearQualityTransitionSetup,IDbTransaction) Method
+﻿### CheckClearQualityTransition(CheckClearQualityTransitionSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Determine if a user can change status from an old condition/status to a new cond
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CheckClearQualityTransition( _
    ByVal _setupParam_ As [CheckClearQualityTransitionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CheckClearQualityTransitionSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

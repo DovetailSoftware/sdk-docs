@@ -1,22 +1,14 @@
-﻿     GetTableNumber Method                                                   
-
-fcSDK Documentation
-
-GetTableNumber Method
+﻿### GetTableNumber Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Function GetTableNumber( _
    ByVal _tableName_ As String _
-) As [Integer](#)
+) As Integer
 
-[int](#) GetTableNumber( 
+int GetTableNumber( 
    string _tableName_
 )
 
@@ -24,11 +16,9 @@ Function GetTableNumber( _
 
 _tableName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

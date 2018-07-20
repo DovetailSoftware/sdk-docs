@@ -1,8 +1,4 @@
-﻿     UpdateEcoLaborDetailSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateEcoLaborDetailSetup Class Properties
+﻿### UpdateEcoLaborDetailSetup Class Properties
 
 For a list of all members of this type, see [UpdateEcoLaborDetailSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoLaborDetailSetup_members.md).
 
@@ -18,9 +14,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [LaborType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoLaborDetailSetup~LaborType.md) | Element from the 'Labor Type' application list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoLaborDetailSetup~Status.md) | Element from the 'ECO Status' application list. If not set, the default list value is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

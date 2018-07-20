@@ -1,39 +1,31 @@
-﻿     AppendItem Method (FCList)                                                   
-
-fcSDK Documentation
-
-AppendItem Method (FCList)
+﻿### AppendItem Method (FCList)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub AppendItem( _
-   ByVal _param1_ As [Object](#), _
-   Optional ByVal _param2_ As [Object](#), _
-   Optional ByVal _param3_ As [Object](#), _
-   Optional ByVal _param4_ As [Object](#), _
-   Optional ByVal _param5_ As [Object](#), _
-   Optional ByVal _param6_ As [Object](#), _
-   Optional ByVal _param7_ As [Object](#), _
-   Optional ByVal _param8_ As [Object](#), _
-   Optional ByVal _param9_ As [Object](#) _
+   ByVal _param1_ As Object, _
+   Optional ByVal _param2_ As Object, _
+   Optional ByVal _param3_ As Object, _
+   Optional ByVal _param4_ As Object, _
+   Optional ByVal _param5_ As Object, _
+   Optional ByVal _param6_ As Object, _
+   Optional ByVal _param7_ As Object, _
+   Optional ByVal _param8_ As Object, _
+   Optional ByVal _param9_ As Object _
 ) 
 
 public void AppendItem( 
-   [object](#) _param1_,
-   [object](#) _param2_,
-   [object](#) _param3_,
-   [object](#) _param4_,
-   [object](#) _param5_,
-   [object](#) _param6_,
-   [object](#) _param7_,
-   [object](#) _param8_,
-   [object](#) _param9_
+   object _param1_,
+   object _param2_,
+   object _param3_,
+   object _param4_,
+   object _param5_,
+   object _param6_,
+   object _param7_,
+   object _param8_,
+   object _param9_
 )
 
 #### Parameters
@@ -56,11 +48,9 @@ _param8_
 
 _param9_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

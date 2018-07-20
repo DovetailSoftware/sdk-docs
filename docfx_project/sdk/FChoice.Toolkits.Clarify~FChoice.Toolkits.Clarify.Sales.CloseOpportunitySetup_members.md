@@ -1,8 +1,4 @@
-﻿     CloseOpportunitySetup Class Members                                                   
-
-fcSDK Documentation
-
-CloseOpportunitySetup Class Members
+﻿### CloseOpportunitySetup Class Members
 
 The following tables list the members exposed by [CloseOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CloseOpportunitySetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CloseOpportunitySetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CloseOpportunitySetup~_ctor.md) | Initializes a new instance of the CloseOpportunitySetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CloseOpportunitySetup~Status.md) | Element from the 'Closed Opportunity' application list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CloseOpportunitySetup~UserName.md) | The user who is closing the opportunity. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

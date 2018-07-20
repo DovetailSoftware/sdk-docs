@@ -1,8 +1,4 @@
-﻿     ReopenContractSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ReopenContractSetup Class Properties
+﻿### ReopenContractSetup Class Properties
 
 For a list of all members of this type, see [ReopenContractSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ReopenContractSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ReopenContractSetup~UserName.md) | The user who is reopening the Contract. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ReopenContractSetup~WipBin.md) | The WipBin to place the Contract in.  If not set, the contract is placed in the user’s default WipBin.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

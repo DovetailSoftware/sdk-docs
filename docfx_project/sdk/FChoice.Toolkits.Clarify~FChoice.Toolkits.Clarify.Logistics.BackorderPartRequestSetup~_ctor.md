@@ -1,8 +1,4 @@
-﻿     BackorderPartRequestSetup Constructor                                                   
-
-fcSDK Documentation
-
-BackorderPartRequestSetup Constructor
+﻿### BackorderPartRequestSetup Constructor
 
 Initializes a new instance of the BackorderPartRequestSetup class.
 
@@ -15,11 +11,9 @@ Overload List
 | [BackorderPartRequestSetup Constructor(String,DateTime,Boolean,Int32)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup~_ctor(String,DateTime,Boolean,Int32).md) | Initializes a new instance of the BackorderPartRequestSetup class. This overload takes a set of required parameters for the API.   |
 | [BackorderPartRequestSetup Constructor(String,DateTime,Boolean,String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup~_ctor(String,DateTime,Boolean,String).md) | Initializes a new instance of the BackorderPartRequestSetup class. This overload takes a set of required parameters for the API.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

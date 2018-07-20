@@ -1,14 +1,9 @@
-﻿     GetAdapter(IDbConnection,String) Method                                                   
-
-GetAdapter(IDbConnection,String) Method
+﻿### GetAdapter(IDbConnection,String) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Overrides Function GetAdapter( _
    ByVal _conn_ As [IDbConnection](#), _
@@ -26,11 +21,9 @@ _conn_
 
 _sqlStmt_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

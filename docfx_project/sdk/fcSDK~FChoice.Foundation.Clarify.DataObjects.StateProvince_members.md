@@ -1,8 +1,4 @@
-﻿     StateProvince Class Members                                                   
-
-fcSDK Documentation
-
-StateProvince Class Members
+﻿### StateProvince Class Members
 
 The following tables list the members exposed by [StateProvince](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince.md).
 
@@ -19,7 +15,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ObjectID](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject~ObjectID.md) | (Inherited from [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -32,9 +28,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     DispatchCR(DispatchCRSetup) Method                                                   
-
-fcSDK Documentation
-
-DispatchCR(DispatchCRSetup) Method
+﻿### DispatchCR(DispatchCRSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Dispatch the CR to the specified queue. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DispatchCR( _
    ByVal _setupParam_ As [DispatchCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DispatchCRSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The CR must be in open condition, and not currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

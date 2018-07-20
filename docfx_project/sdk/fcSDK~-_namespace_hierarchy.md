@@ -1,14 +1,8 @@
-﻿     (Global) Namespace Inheritance Hierarchy                                                   
-
-fcSDK Documentation
-
-(Global) Namespace Inheritance Hierarchy
+﻿### (Global) Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-
-See Also
+System.Object  
 
 #### Reference
 

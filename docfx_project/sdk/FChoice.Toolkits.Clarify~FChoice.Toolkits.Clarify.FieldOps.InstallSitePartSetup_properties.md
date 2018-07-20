@@ -1,8 +1,4 @@
-﻿     InstallSitePartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-InstallSitePartSetup Class Properties
+﻿### InstallSitePartSetup Class Properties
 
 For a list of all members of this type, see [InstallSitePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.InstallSitePartSetup_members.md).
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.InstallSitePartSetup~SiteIDNum.md) | The Site Id of the Parent Site where the Site Part is being installed.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.InstallSitePartSetup~UserName.md) | The user who installed the Site Part. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     forward_object Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-forward_object Method (IFCSession)
+﻿### forward_object Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743900)>
+<DispIdAttribute(1610743900)>
 Function forward_object( _
    ByVal _objId_ As String, _
    ByVal _newQueue_ As String, _
@@ -23,7 +16,7 @@ Function forward_object( _
    ByVal _objectType_ As String _
 ) As Short
 
-\[[DispIdAttribute](#)(1610743900)\]
+[DispIdAttribute(1610743900)]
 short forward_object( 
    string _objId_,
    string _newQueue_,
@@ -50,11 +43,9 @@ _genearateTimeBombs_
 
 _objectType_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

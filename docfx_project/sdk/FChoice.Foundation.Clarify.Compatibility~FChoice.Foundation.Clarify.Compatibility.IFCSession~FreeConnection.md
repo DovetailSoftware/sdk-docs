@@ -1,28 +1,18 @@
-﻿     FreeConnection Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-FreeConnection Method (IFCSession)
+﻿### FreeConnection Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743916)>
+' Declaration
+<DispIdAttribute(1610743916)>
 Sub FreeConnection() 
 
-\[[DispIdAttribute](#)(1610743916)\]
+[DispIdAttribute(1610743916)]
 void FreeConnection()
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

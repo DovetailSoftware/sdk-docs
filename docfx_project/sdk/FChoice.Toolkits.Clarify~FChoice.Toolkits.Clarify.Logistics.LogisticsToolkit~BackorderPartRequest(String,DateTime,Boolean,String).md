@@ -1,8 +1,4 @@
-﻿     BackorderPartRequest(String,DateTime,Boolean,String) Method                                                   
-
-fcSDK Documentation
-
-BackorderPartRequest(String,DateTime,Boolean,String) Method
+﻿### BackorderPartRequest(String,DateTime,Boolean,String) Method
 
 Part Request Detail Identifier
 
@@ -17,21 +13,18 @@ Allows for the backordering of inventory parts for a part request. This overload
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function BackorderPartRequest( _
    ByVal _partRequestDetailIDNum_ As String, _
-   ByVal _expectedDate_ As [Date](#), _
+   ByVal _expectedDate_ As Date, _
    ByVal _useTransitions_ As Boolean, _
    ByVal _serialNumber_ As String _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) BackorderPartRequest( 
    string _partRequestDetailIDNum_,
-   [DateTime](#) _expectedDate_,
+   DateTime _expectedDate_,
    bool _useTransitions_,
    string _serialNumber_
 )
@@ -72,11 +65,9 @@ To allow for multiple calls to this API to be performed without extra complex t
 
 **NOTE**: This API requires two other APIs ([PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.md) and [CreatePartRequestDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail.md)) to work correctly.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

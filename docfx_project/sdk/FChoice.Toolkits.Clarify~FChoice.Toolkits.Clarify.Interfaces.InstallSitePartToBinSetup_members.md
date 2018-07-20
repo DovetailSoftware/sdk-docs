@@ -1,8 +1,4 @@
-﻿     InstallSitePartToBinSetup Class Members                                                   
-
-fcSDK Documentation
-
-InstallSitePartToBinSetup Class Members
+﻿### InstallSitePartToBinSetup Class Members
 
 The following tables list the members exposed by [InstallSitePartToBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToBinSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [InstallSitePartToBinSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToBinSetup~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -38,9 +34,9 @@ Identifier of the Site where the part will be installed.
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToBinSetup~UserName.md) | User who performed the install. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

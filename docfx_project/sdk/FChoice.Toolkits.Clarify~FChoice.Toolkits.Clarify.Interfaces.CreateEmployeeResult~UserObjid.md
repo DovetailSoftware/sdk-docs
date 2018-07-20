@@ -1,28 +1,18 @@
-﻿     UserObjid Property                                                   
-
-fcSDK Documentation
-
-UserObjid Property
+﻿### UserObjid Property
 
 Objid of the User record created.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public Property UserObjid As Integer
 
-'Declaration
- 
+public int UserObjid {get; set;}
 
-Public Property UserObjid As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public [int](#) UserObjid {get; set;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

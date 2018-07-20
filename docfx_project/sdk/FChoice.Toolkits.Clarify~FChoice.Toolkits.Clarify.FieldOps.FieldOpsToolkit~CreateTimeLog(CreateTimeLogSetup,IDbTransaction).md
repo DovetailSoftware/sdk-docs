@@ -1,8 +1,4 @@
-﻿     CreateTimeLog(CreateTimeLogSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateTimeLog(CreateTimeLogSetup,IDbTransaction) Method
+﻿### CreateTimeLog(CreateTimeLogSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to create a time log that is related to an onsite log. This overload takes
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateTimeLog( _
    ByVal _setupParam_ As [CreateTimeLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

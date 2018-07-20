@@ -1,8 +1,4 @@
-﻿     FCSession Class Properties                                                   
-
-fcSDK Documentation
-
-FCSession Class Properties
+﻿### FCSession Class Properties
 
 For a list of all members of this type, see [FCSession members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession_members.md).
 
@@ -42,9 +38,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TruncateStringFields](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~TruncateStringFields.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateTime](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~UpdateTime.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

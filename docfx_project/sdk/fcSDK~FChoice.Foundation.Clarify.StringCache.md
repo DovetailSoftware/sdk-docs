@@ -1,18 +1,11 @@
-﻿     StringCache Class                                                   
-
-fcSDK Documentation
-
-StringCache Class
+﻿### StringCache Class
 
 Caches and provides convenient access to string_db and fc_string values
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class StringCache 
    Inherits [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)
@@ -22,7 +15,7 @@ public class StringCache : [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.C
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)  
       [FChoice.Foundation.Clarify.ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)  
          **FChoice.Foundation.Clarify.StringCache**  
@@ -35,7 +28,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

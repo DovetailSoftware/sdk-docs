@@ -1,8 +1,4 @@
-﻿     ChangeCaseContactSetup Class Members                                                   
-
-fcSDK Documentation
-
-ChangeCaseContactSetup Class Members
+﻿### ChangeCaseContactSetup Class Members
 
 The following tables list the members exposed by [ChangeCaseContactSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ChangeCaseContactSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup~_ctor.md) | Initializes a new instance of the ChangeCaseContactSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup~SiteIDNum.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup~UserName.md) | The User who changed the Case. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

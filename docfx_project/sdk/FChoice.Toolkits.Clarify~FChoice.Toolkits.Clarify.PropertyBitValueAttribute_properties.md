@@ -1,8 +1,4 @@
-﻿     PropertyBitValueAttribute Class Properties                                                   
-
-fcSDK Documentation
-
-PropertyBitValueAttribute Class Properties
+﻿### PropertyBitValueAttribute Class Properties
 
 For a list of all members of this type, see [PropertyBitValueAttribute members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

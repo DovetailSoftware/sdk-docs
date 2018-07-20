@@ -1,8 +1,4 @@
-﻿     CreateDialogue(CreateDialogueSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateDialogue(CreateDialogueSetup) Method
+﻿### CreateDialogue(CreateDialogueSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Creates a new Dialogue.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateDialogue( _
    ByVal _createDialogueSetup_ As [CreateDialogueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup.md) _
@@ -30,11 +23,9 @@ _createDialogueSetup_
 
 Setup object for API invocation.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

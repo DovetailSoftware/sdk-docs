@@ -1,15 +1,9 @@
-﻿     XmlLicenseTool Class                                                   
-
-XmlLicenseTool Class
+﻿### XmlLicenseTool Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class XmlLicenseTool 
    Implements [ILicenseTool](FChoice.Common~FChoice.Common.Licensing.ILicenseTool.md) 
 
@@ -17,7 +11,7 @@ public class XmlLicenseTool : [ILicenseTool](FChoice.Common~FChoice.Common.Licen
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.Licensing.XmlLicenseTool**  
 
 #### Requirements
@@ -28,7 +22,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

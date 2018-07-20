@@ -1,8 +1,4 @@
-﻿     UpdateOpportunitySetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateOpportunitySetup Class Properties
+﻿### UpdateOpportunitySetup Class Properties
 
 For a list of all members of this type, see [UpdateOpportunitySetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup_members.md).
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup~UpdateDate.md) | The DateTime the Opportunity was updated. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup~UserName.md) | The user who is updating the opportunity. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

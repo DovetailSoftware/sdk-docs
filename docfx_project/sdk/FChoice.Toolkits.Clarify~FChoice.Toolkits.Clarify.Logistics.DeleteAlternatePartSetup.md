@@ -1,26 +1,18 @@
-﻿     DeleteAlternatePartSetup Class                                                   
-
-fcSDK Documentation
-
-DeleteAlternatePartSetup Class
+﻿### DeleteAlternatePartSetup Class
 
 Used by the [DeleteAlternatePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DeleteAlternatePartSetup 
 
 public class DeleteAlternatePartSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     AssignLeadSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AssignLeadSetup Class Properties
+﻿### AssignLeadSetup Class Properties
 
 For a list of all members of this type, see [AssignLeadSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignLeadSetup_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [LeadObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignLeadSetup~LeadObjid.md) | The objid of the lead being assigned.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [NewOwner](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignLeadSetup~NewOwner.md) | The new user which the lead is assigned to.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

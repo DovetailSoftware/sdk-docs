@@ -1,18 +1,11 @@
-﻿     FieldOpsToolkitBase Class                                                   
-
-fcSDK Documentation
-
-FieldOpsToolkitBase Class
+﻿### FieldOpsToolkitBase Class
 
 This class is intended for internal use by the [FieldOpsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md).
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class FieldOpsToolkitBase 
    Inherits [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)
@@ -21,7 +14,7 @@ public abstract class FieldOpsToolkitBase : [FChoice.Toolkits.Clarify.ToolkitBas
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  
       **FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase**  
          [FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
@@ -34,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

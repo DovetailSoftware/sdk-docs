@@ -1,8 +1,4 @@
-﻿     FCString Class Properties                                                   
-
-fcSDK Documentation
-
-FCString Class Properties
+﻿### FCString Class Properties
 
 For a list of all members of this type, see [FCString members](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCString_members.md).
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Value](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCString~Value.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

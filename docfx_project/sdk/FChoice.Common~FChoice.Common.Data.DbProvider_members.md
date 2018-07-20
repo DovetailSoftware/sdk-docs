@@ -1,6 +1,4 @@
-﻿     DbProvider Class Members                                                   
-
-DbProvider Class Members
+﻿### DbProvider Class Members
 
 The following tables list the members exposed by [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md).
 
@@ -15,7 +13,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RequiresDbNameParameter](FChoice.Common~FChoice.Common.Data.DbProvider~RequiresDbNameParameter.md) | Gets whether or not this provider requires the "dbname" argument for the [CreateConnectionString Method](FChoice.Common~FChoice.Common.Data.DbProvider~CreateConnectionString.md)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.DbProvider~TypeMapper.md) | This property is intended for future use and is not currently used.   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -42,9 +40,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TestConnection](FChoice.Common~FChoice.Common.Data.DbProvider~TestConnection.md) | Overloaded. Executes a test to connect to the database using the default connection string   |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateConnectionParams](FChoice.Common~FChoice.Common.Data.DbProvider~ValidateConnectionParams.md) | Validates the supplied connection parameters against the rules of the underlying provider   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

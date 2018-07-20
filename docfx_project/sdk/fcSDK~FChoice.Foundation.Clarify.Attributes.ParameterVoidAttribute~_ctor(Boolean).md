@@ -1,16 +1,9 @@
-﻿     ParameterVoidAttribute Constructor(Boolean)                                                   
-
-fcSDK Documentation
-
-ParameterVoidAttribute Constructor(Boolean)
+﻿### ParameterVoidAttribute Constructor(Boolean)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function New( _
    ByVal _isVoid_ As Boolean _
@@ -24,11 +17,9 @@ public ParameterVoidAttribute(
 
 _isVoid_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

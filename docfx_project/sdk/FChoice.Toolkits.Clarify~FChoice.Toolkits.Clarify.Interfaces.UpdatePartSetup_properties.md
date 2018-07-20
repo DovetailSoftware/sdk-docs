@@ -1,8 +1,4 @@
-﻿     UpdatePartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdatePartSetup Class Properties
+﻿### UpdatePartSetup Class Properties
 
 For a list of all members of this type, see [UpdatePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartSetup_members.md).
 
@@ -30,9 +26,9 @@ Part number for the part to update
 | ![Public Property](dotnetimages/publicProperty.png) | [WarrantyStartOnShipment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartSetup~WarrantyStartOnShipment.md) | Does the warranty start on shipment?   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Weight](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartSetup~Weight.md) | Unit weight of the part   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

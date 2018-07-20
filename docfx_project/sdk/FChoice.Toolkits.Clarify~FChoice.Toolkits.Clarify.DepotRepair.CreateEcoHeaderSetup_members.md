@@ -1,8 +1,4 @@
-﻿     CreateEcoHeaderSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateEcoHeaderSetup Class Members
+﻿### CreateEcoHeaderSetup Class Members
 
 The following tables list the members exposed by [CreateEcoHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoHeaderSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateEcoHeaderSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoHeaderSetup~_ctor.md) | Initializes a new instance of the CreateEcoHeaderSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -27,9 +23,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoHeaderSetup~StartDate.md) | The DateTime the ECO header goes into effect. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoHeaderSetup~Status.md) | Element from the 'ECO Status' application list. If not set, the default list value is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

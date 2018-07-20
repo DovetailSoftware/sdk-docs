@@ -1,24 +1,17 @@
-﻿     GraceEventLimit Property (LicenseInfo)                                                   
-
-GraceEventLimit Property (LicenseInfo)
+﻿### GraceEventLimit Property (LicenseInfo)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property GraceEventLimit As Integer
 
-Public ReadOnly Property GraceEventLimit As [Integer](#)
+public int GraceEventLimit {get;}
 
-public [int](#) GraceEventLimit {get;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

@@ -1,22 +1,15 @@
-﻿     GetCurrentDate Method (FCSession)                                                   
-
-fcSDK Documentation
-
-GetCurrentDate Method (FCSession)
+﻿### GetCurrentDate Method (FCSession)
 
 Retrieves the DateTime of the CRM database.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Overridable Function GetCurrentDate() As Date
 
-Public Overridable Function GetCurrentDate() As [Date](#)
-
-public virtual [DateTime](#) GetCurrentDate()
+public virtual DateTime GetCurrentDate()
 
 #### Return Value
 
@@ -26,11 +19,9 @@ Remarks
 
 When [ConvertTimeZone](fcSDK~FChoice.Foundation.FCSession~ConvertTimeZone.md) is enabled the return value will be converted to the [LocalTimeZone](fcSDK~FChoice.Foundation.FCSession~LocalTimeZone.md).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

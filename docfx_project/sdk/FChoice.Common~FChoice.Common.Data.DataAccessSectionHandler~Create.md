@@ -1,6 +1,4 @@
-﻿     Create Method (DataAccessSectionHandler)                                                   
-
-Create Method (DataAccessSectionHandler)
+﻿### Create Method (DataAccessSectionHandler)
 
 The configuration settings in a corresponding parent configuration section.
 
@@ -13,22 +11,22 @@ Creates a new configuration handler and adds it to the section handler collectio
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Function Create( _
-   ByVal _parent_ As [Object](#), _
-   ByVal _configContext_ As [Object](#), _
-   ByVal _section_ As [XmlNode](#) _
-) As [Object](#)
+   ByVal _parent_ As Object, _
+   ByVal _configContext_ As Object, _
+   ByVal _section_ As XmlNode _
+) As Object
+```
 
-public [object](#) Create( 
-   [object](#) _parent_,
-   [object](#) _configContext_,
-   [XmlNode](#) _section_
+```csharp
+public object Create (
+   object _parent_,
+   object _configContext_,
+   XmlNode _section_
 )
+```
 
 #### Parameters
 
@@ -52,11 +50,7 @@ Remarks
 
 This method should only be used by the .NET Configuration infrastructure. You should not call this method manually.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

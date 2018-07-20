@@ -1,8 +1,4 @@
-﻿     Add Method (GenericDataRowCollection)                                                   
-
-fcSDK Documentation
-
-Add Method (GenericDataRowCollection)
+﻿### Add Method (GenericDataRowCollection)
 
 The [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) to add.
 
@@ -11,11 +7,7 @@ Adds the specified [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub Add( _
    ByVal _row_ As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) _
 ) 
@@ -34,11 +26,9 @@ Remarks
 
 Add's implementation is delegated to DataRowCollection's [Add](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatarowcollectionclassaddtopic1.htm)
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

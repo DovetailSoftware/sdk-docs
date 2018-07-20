@@ -1,8 +1,4 @@
-﻿     UnpickSetup Constructor(String,Location,Boolean,String\[\])                                                   
-
-fcSDK Documentation
-
-UnpickSetup Constructor(String,Location,Boolean,String\[\])
+﻿### UnpickSetup Constructor(String,Location,Boolean,String\[\])
 
 Part Request Detail Identifier
 
@@ -17,12 +13,9 @@ Initializes a new instance of the UnpickSetup class. This overload takes a set o
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _location_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
@@ -30,12 +23,12 @@ Public Function New( _
    ByVal ParamArray _serialNumbers_() As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public UnpickSetup( 
    string _partRequestDetailIDNum_,
    [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _location_,
    bool _useTransitions_,
-   params string\[\] _serialNumbers_
+   params string[] _serialNumbers_
 )
 
 #### Parameters
@@ -56,11 +49,9 @@ _serialNumbers_
 
 The serial number(s) of the part(s) to unpick (hard unpick)
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

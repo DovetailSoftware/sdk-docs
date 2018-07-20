@@ -1,8 +1,4 @@
-﻿     ConfigItem Class Methods                                                   
-
-fcSDK Documentation
-
-ConfigItem Class Methods
+﻿### ConfigItem Class Methods
 
 For a list of all members of this type, see [ConfigItem members](fcSDK~FChoice.Foundation.DataObjects.ConfigItem_members.md).
 
@@ -17,9 +13,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

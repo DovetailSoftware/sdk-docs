@@ -1,17 +1,11 @@
-﻿     UpdateQueryBatch Class                                                   
-
-UpdateQueryBatch Class
+﻿### UpdateQueryBatch Class
 
 Helper class for grouping INSERT and UPDATE statements together into a single batch without concern for the underlying database type's support for statement batching
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateQueryBatch 
 
 public class UpdateQueryBatch 
@@ -22,7 +16,7 @@ Grouping a number of statements into a single batch can present a challenge if t
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.Data.UpdateQueryBatch**  
 
 #### Requirements
@@ -33,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

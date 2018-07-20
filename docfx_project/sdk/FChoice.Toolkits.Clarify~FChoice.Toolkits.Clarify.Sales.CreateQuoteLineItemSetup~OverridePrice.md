@@ -1,30 +1,21 @@
-﻿     OverridePrice Property (CreateQuoteLineItemSetup)                                                   
-
-fcSDK Documentation
-
-OverridePrice Property (CreateQuoteLineItemSetup)
+﻿### OverridePrice Property (CreateQuoteLineItemSetup)
 
 This is the per-unit price for this line item. If not set, price from the price schedule is used
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property OverridePrice As [Double](#)
+Public Property OverridePrice As Double
 
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [double](#) OverridePrice {get; set;}
+public double OverridePrice {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

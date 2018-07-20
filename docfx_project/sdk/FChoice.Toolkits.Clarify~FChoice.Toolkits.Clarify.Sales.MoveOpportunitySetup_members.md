@@ -1,8 +1,4 @@
-﻿     MoveOpportunitySetup Class Members                                                   
-
-fcSDK Documentation
-
-MoveOpportunitySetup Class Members
+﻿### MoveOpportunitySetup Class Members
 
 The following tables list the members exposed by [MoveOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveOpportunitySetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [MoveOpportunitySetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveOpportunitySetup~_ctor.md) | Initializes a new instance of the MoveOpportunitySetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [NewWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveOpportunitySetup~NewWipBin.md) | The new WipBin into which the Opportunity is to be moved.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [OpportunityIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveOpportunitySetup~OpportunityIDNum.md) | Opportunity Identifier.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

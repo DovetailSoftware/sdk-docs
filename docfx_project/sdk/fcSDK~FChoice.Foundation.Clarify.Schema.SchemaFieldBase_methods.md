@@ -1,8 +1,4 @@
-﻿     SchemaFieldBase Class Methods                                                   
-
-fcSDK Documentation
-
-SchemaFieldBase Class Methods
+﻿### SchemaFieldBase Class Methods
 
 For a list of all members of this type, see [SchemaFieldBase members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase_members.md).
 
@@ -21,9 +17,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [IsNumeric](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase~IsNumeric.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [IsString](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase~IsString.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

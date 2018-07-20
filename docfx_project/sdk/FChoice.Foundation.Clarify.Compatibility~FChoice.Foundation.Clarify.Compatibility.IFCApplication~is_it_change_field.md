@@ -1,24 +1,16 @@
-﻿     is_it_change_field Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-is_it_change_field Method (IFCApplication)
+﻿### is_it_change_field Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743887)>
+' Declaration
+<DispIdAttribute(1610743887)>
 Function is_it_change_field( _
    ByVal _tableName_ As String, _
    ByVal _fieldName_ As String _
 ) As Boolean
 
-\[[DispIdAttribute](#)(1610743887)\]
+[DispIdAttribute(1610743887)]
 bool is_it_change_field( 
    string _tableName_,
    string _fieldName_
@@ -30,11 +22,9 @@ _tableName_
 
 _fieldName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

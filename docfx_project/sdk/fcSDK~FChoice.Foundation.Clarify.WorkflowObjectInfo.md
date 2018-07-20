@@ -1,24 +1,16 @@
-﻿     WorkflowObjectInfo Class                                                   
-
-fcSDK Documentation
-
-WorkflowObjectInfo Class
+﻿### WorkflowObjectInfo Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class WorkflowObjectInfo 
 
 public class WorkflowObjectInfo 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.WorkflowObjectInfo**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

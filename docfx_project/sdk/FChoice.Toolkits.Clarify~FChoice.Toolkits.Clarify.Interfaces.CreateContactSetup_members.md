@@ -1,8 +1,4 @@
-﻿     CreateContactSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateContactSetup Class Members
+﻿### CreateContactSetup Class Members
 
 The following tables list the members exposed by [CreateContactSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContactSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateContactSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContactSetup~_ctor.md) | Initializes a new instance of the CreateContactSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -34,9 +30,9 @@ Identifier of the site for the contact role to create.
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContactSetup~Title.md) | Job title for the Contact   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     ConfigItems Property (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-ConfigItems Property (ClarifyApplication)
+﻿### ConfigItems Property (ClarifyApplication)
 
 Returns a dictionary that contains Clarify config item key/value pairs
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property ConfigItems As [ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md)
 
@@ -26,11 +19,9 @@ Remarks
 
 To access more information about config items besides just their values, use the [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~ConfigItemCache.md) property.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

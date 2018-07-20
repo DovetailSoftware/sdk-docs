@@ -1,15 +1,9 @@
-﻿     OracleStateManager Class                                                   
-
-OracleStateManager Class
+﻿### OracleStateManager Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[ObsoleteAttribute](#)("Remote state management support has been marked obsolete.")>
 Public Class OracleStateManager 
    Inherits [RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)
@@ -20,7 +14,7 @@ public class OracleStateManager : [RemoteStateManager](FChoice.Common~FChoice.Co
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Common.State.RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)  
       **FChoice.Common.State.OracleStateManager**  
 
@@ -32,7 +26,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

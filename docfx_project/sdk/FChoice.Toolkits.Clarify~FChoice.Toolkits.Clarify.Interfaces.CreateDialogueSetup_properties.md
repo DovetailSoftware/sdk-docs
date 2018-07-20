@@ -1,8 +1,4 @@
-﻿     CreateDialogueSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateDialogueSetup Class Properties
+﻿### CreateDialogueSetup Class Properties
 
 For a list of all members of this type, see [CreateDialogueSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup_members.md).
 
@@ -18,9 +14,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup~Title.md) | The title of the dialogue.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup~UserName.md) | The Login Name of user creating the dialogue.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

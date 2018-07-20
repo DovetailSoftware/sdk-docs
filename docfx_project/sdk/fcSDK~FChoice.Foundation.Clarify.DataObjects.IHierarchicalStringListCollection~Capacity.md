@@ -1,26 +1,17 @@
-﻿     Capacity Property (IHierarchicalStringListCollection)                                                   
-
-fcSDK Documentation
-
-Capacity Property (IHierarchicalStringListCollection)
+﻿### Capacity Property (IHierarchicalStringListCollection)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Property Capacity As Integer
 
-Property Capacity As [Integer](#)
+int Capacity {get; set;}
 
-[int](#) Capacity {get; set;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

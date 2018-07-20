@@ -1,16 +1,11 @@
-﻿     CreateProvider() Method                                                   
-
-CreateProvider() Method
+﻿### CreateProvider() Method
 
 Creates a new instance of a [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) object from the default configured provider
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function CreateProvider() As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)
 
@@ -24,11 +19,9 @@ Remarks
 
 It is not necessary to create a new instance of the default [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) every time it is used. Instead, see the [Provider](FChoice.Common~FChoice.Common.Data.DbProviderFactory~Provider.md) property to get a reference to the common instance of the default [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

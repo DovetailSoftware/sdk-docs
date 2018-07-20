@@ -1,8 +1,4 @@
-﻿     CloseCR(CloseCRSetup) Method                                                   
-
-fcSDK Documentation
-
-CloseCR(CloseCRSetup) Method
+﻿### CloseCR(CloseCRSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Close a CR. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CloseCR( _
    ByVal _setupParam_ As [CloseCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup.md) _
@@ -40,11 +33,9 @@ Remarks
 
 The CR must be in a condition/status that allows the transition to the Closed condition.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

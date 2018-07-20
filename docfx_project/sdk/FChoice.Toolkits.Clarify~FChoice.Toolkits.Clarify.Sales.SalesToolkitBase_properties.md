@@ -1,8 +1,4 @@
-﻿     SalesToolkitBase Class Properties                                                   
-
-fcSDK Documentation
-
-SalesToolkitBase Class Properties
+﻿### SalesToolkitBase Class Properties
 
 For a list of all members of this type, see [SalesToolkitBase members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase~ImpersonatorUsername.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

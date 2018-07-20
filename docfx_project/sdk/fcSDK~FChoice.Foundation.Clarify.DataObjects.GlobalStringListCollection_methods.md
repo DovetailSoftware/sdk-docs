@@ -1,8 +1,4 @@
-﻿     GlobalStringListCollection Class Methods                                                   
-
-fcSDK Documentation
-
-GlobalStringListCollection Class Methods
+﻿### GlobalStringListCollection Class Methods
 
 For a list of all members of this type, see [GlobalStringListCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringListCollection_members.md).
 
@@ -42,9 +38,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<IGlobalStringList>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<IGlobalStringList>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

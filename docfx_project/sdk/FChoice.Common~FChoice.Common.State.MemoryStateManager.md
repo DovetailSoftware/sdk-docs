@@ -1,15 +1,9 @@
-﻿     MemoryStateManager Class                                                   
-
-MemoryStateManager Class
+﻿### MemoryStateManager Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class MemoryStateManager 
    Implements [IStateManager](FChoice.Common~FChoice.Common.State.IStateManager.md) 
 
@@ -17,7 +11,7 @@ public class MemoryStateManager : [IStateManager](FChoice.Common~FChoice.Common.
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.State.MemoryStateManager**  
 
 #### Requirements
@@ -28,7 +22,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

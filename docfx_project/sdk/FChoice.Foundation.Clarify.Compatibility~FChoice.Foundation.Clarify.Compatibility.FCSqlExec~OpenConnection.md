@@ -1,17 +1,9 @@
-﻿     OpenConnection Method (FCSqlExec)                                                   
-
-fcSDK Documentation
-
-OpenConnection Method (FCSqlExec)
+﻿### OpenConnection Method (FCSqlExec)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub OpenConnection( _
    ByVal _TheDB_ As String, _
    ByVal _UserName_ As String, _
@@ -40,11 +32,9 @@ _DBServer_
 
 _DBName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

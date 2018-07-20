@@ -1,8 +1,4 @@
-﻿     FCNotLoggedInException Class Members                                                   
-
-fcSDK Documentation
-
-FCNotLoggedInException Class Members
+﻿### FCNotLoggedInException Class Members
 
 The following tables list the members exposed by [FCNotLoggedInException](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCNotLoggedInException.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [FCNotLoggedInException Constructor](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCNotLoggedInException~_ctor(Int32).md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -29,7 +25,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -40,9 +36,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

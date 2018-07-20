@@ -1,26 +1,18 @@
-﻿     CreateSqlExec Method (FCSession)                                                   
-
-fcSDK Documentation
-
-CreateSqlExec Method (FCSession)
+﻿### CreateSqlExec Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-Public Function CreateSqlExec() As [IFCSqlExec](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec.md)
+Public Function CreateSqlExec() As IFCSqlExec
+```
 
-public [IFCSqlExec](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec.md) CreateSqlExec()
+```csharp
+public IFCSqlExec CreateSqlExec()
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

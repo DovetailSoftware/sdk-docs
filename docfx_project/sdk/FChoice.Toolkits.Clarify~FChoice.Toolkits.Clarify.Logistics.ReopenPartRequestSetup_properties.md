@@ -1,8 +1,4 @@
-﻿     ReopenPartRequestSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ReopenPartRequestSetup Class Properties
+﻿### ReopenPartRequestSetup Class Properties
 
 For a list of all members of this type, see [ReopenPartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup~UserName.md) | The user who is reopening the Part Request. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup~WipBin.md) | The WipBin in which to place the Part Request when it is reopened. If not specified, the default WipBin for the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

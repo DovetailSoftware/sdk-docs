@@ -1,8 +1,4 @@
-﻿     UpdateContactByObjidSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateContactByObjidSetup Class Members
+﻿### UpdateContactByObjidSetup Class Members
 
 The following tables list the members exposed by [UpdateContactByObjidSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateContactByObjidSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -37,9 +33,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup~SiteIDNum.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup~Title.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

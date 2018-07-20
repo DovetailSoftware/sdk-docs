@@ -1,8 +1,4 @@
-﻿     LogCRNoteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogCRNoteSetup Class Properties
+﻿### LogCRNoteSetup Class Properties
 
 For a list of all members of this type, see [LogCRNoteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCRNoteSetup_members.md).
 
@@ -18,9 +14,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCRNoteSetup~Notes.md) | Notes concerning the CR to log.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCRNoteSetup~UserName.md) | The user logging a note for the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

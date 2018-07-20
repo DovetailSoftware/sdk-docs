@@ -1,8 +1,4 @@
-﻿     AddInventoryLocationSetup Class Members                                                   
-
-fcSDK Documentation
-
-AddInventoryLocationSetup Class Members
+﻿### AddInventoryLocationSetup Class Members
 
 The following tables list the members exposed by [AddInventoryLocationSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryLocationSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddInventoryLocationSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryLocationSetup~_ctor.md) | Initializes a new instance of the AddInventoryLocationSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -39,9 +35,9 @@ The identifier of the Site with which the inventory location is to be associate
 
   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

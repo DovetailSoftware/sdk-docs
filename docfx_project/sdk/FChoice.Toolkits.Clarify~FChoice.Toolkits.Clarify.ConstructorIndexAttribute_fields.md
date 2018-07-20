@@ -1,8 +1,4 @@
-﻿     ConstructorIndexAttribute Class Fields                                                   
-
-fcSDK Documentation
-
-ConstructorIndexAttribute Class Fields
+﻿### ConstructorIndexAttribute Class Fields
 
 For a list of all members of this type, see [ConstructorIndexAttribute members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute_members.md).
 
@@ -12,9 +8,9 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png) | [Index](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute~Index.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

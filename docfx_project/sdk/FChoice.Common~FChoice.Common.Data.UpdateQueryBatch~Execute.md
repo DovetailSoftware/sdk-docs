@@ -1,20 +1,15 @@
-﻿     Execute Method (UpdateQueryBatch)                                                   
-
-Execute Method (UpdateQueryBatch)
+﻿### Execute Method (UpdateQueryBatch)
 
 Executes the batch if the provider supports statement batching, or nothing if it doesn't
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Function Execute() As Integer
 
-Public Function Execute() As [Integer](#)
-
-public [int](#) Execute()
+public int Execute()
 
 #### Return Value
 
@@ -26,11 +21,9 @@ Not all providers support returning the number of rows affected in all circumsta
 
 **IMPORTANT**: The UpdateQueryBatch does not commit or rollback the transaction instance. It is the responsibility of the caller to ensure that the transaction is properly set up and finished after the batch is executed.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

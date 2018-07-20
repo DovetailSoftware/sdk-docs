@@ -1,6 +1,4 @@
-﻿     IsValidProvider Method                                                   
-
-IsValidProvider Method
+﻿### IsValidProvider Method
 
 The provider name or alias to verify
 
@@ -9,18 +7,18 @@ Gets whether or not the specified alias or name is a valid alias/name for a conf
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Function IsValidProvider( _
    ByVal _providerName_ As String _
 ) As Boolean
+```
 
+```csharp
 public bool IsValidProvider( 
    string _providerName_
 )
+```
 
 #### Parameters
 
@@ -40,13 +38,9 @@ Exceptions
 
 Remarks
 
-For more information on specifying custom data providers, see the guide on [Configuring Custom Data Providers](fcflnet_config_dbprovider.md).
+For more information on specifying custom data providers, see the guide on [Configuring Custom Data Providers](/articles/configuring-database-providers.md).
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

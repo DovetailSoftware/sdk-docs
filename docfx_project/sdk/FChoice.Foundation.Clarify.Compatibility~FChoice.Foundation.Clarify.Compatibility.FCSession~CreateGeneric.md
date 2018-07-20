@@ -1,34 +1,26 @@
-﻿     CreateGeneric Method (FCSession)                                                   
-
-fcSDK Documentation
-
-CreateGeneric Method (FCSession)
+﻿### CreateGeneric Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Function CreateGeneric( _
-   Optional ByVal _dbObjectName_ As [Object](#) _
-) As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md)
+   Optional ByVal _dbObjectName_ As Object _
+) As IFCGeneric
+```
 
-public [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) CreateGeneric( 
-   [object](#) _dbObjectName_
+```csharp
+public IFCGeneric CreateGeneric( 
+   object _dbObjectName_
 )
+```
 
 #### Parameters
 
 _dbObjectName_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

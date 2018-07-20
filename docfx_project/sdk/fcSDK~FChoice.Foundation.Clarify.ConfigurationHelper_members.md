@@ -1,8 +1,4 @@
-﻿     ConfigurationHelper Class Members                                                   
-
-fcSDK Documentation
-
-ConfigurationHelper Class Members
+﻿### ConfigurationHelper Class Members
 
 The following tables list the members exposed by [ConfigurationHelper](fcSDK~FChoice.Foundation.Clarify.ConfigurationHelper.md).
 
@@ -14,9 +10,9 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsOracleAscii7bit](fcSDK~FChoice.Foundation.Clarify.ConfigurationHelper~IsOracleAscii7bit.md) |   |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [RemoveDateTimeMilliseconds](fcSDK~FChoice.Foundation.Clarify.ConfigurationHelper~RemoveDateTimeMilliseconds.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

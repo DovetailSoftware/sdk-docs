@@ -1,8 +1,4 @@
-﻿     CreateCaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateCaseSetup Class Members
+﻿### CreateCaseSetup Class Members
 
 The following tables list the members exposed by [CreateCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateCaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseSetup~_ctor.md) | Initializes a new instance of the CreateCaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,9 +37,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseSetup~Title.md) | Title for the Case.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseSetup~UserName.md) | The User who created the Case. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

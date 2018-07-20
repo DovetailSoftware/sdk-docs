@@ -1,6 +1,4 @@
-﻿     RemoteStateManager Class Properties                                                   
-
-RemoteStateManager Class Properties
+﻿### RemoteStateManager Class Properties
 
 For a list of all members of this type, see [RemoteStateManager members](FChoice.Common~FChoice.Common.State.RemoteStateManager_members.md).
 
@@ -14,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Provider](FChoice.Common~FChoice.Common.State.RemoteStateManager~Provider.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [StateTimeout](FChoice.Common~FChoice.Common.State.RemoteStateManager~StateTimeout.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

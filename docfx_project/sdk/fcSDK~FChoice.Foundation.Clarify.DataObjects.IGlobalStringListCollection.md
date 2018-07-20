@@ -1,21 +1,13 @@
-﻿     IGlobalStringListCollection Interface                                                   
-
-fcSDK Documentation
-
-IGlobalStringListCollection Interface
+﻿### IGlobalStringListCollection Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DefaultMemberAttribute](#)("Item")>
+' Declaration
+<DefaultMemberAttribute("Item")>
 Public Interface IGlobalStringListCollection 
 
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 public interface IGlobalStringListCollection 
 
 #### Requirements
@@ -26,7 +18,7 @@ public interface IGlobalStringListCollection
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

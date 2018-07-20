@@ -1,8 +1,4 @@
-﻿     Update(UpdateQueryBatch) Method                                                   
-
-fcSDK Documentation
-
-Update(UpdateQueryBatch) Method
+﻿### Update(UpdateQueryBatch) Method
 
 Batch under which to do this update.
 
@@ -11,10 +7,7 @@ Commits the row to the database. See FCGeneric's [Update](fcSDK~FChoice.Foundat
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub Update( _
    ByVal _batch_ As [UpdateQueryBatch](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch.md) _
@@ -36,11 +29,9 @@ Remarks
 
 When it is desirable to consolidate many database operations in one round trip to the database this method can be used in conjunction with a [UpdateQueryBatch](FChoice.Common~FChoice.Common.UpdateQueryBatch.md) object.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

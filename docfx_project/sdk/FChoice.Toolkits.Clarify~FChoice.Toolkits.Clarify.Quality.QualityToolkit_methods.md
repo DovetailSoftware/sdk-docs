@@ -1,8 +1,4 @@
-﻿     QualityToolkit Class Methods                                                   
-
-fcSDK Documentation
-
-QualityToolkit Class Methods
+﻿### QualityToolkit Class Methods
 
 For a list of all members of this type, see [QualityToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit_members.md).
 
@@ -33,9 +29,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~UpdateCR.md) | Overloaded. Update an existing CR. This overload takes a setup object.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [YankCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~YankCR.md) | Overloaded. Yank the CR from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LogPartsUsedRemoveSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogPartsUsedRemoveSetup Class Properties
+﻿### LogPartsUsedRemoveSetup Class Properties
 
 For a list of all members of this type, see [LogPartsUsedRemoveSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedRemoveSetup_members.md).
 
@@ -29,9 +25,9 @@ Indicates if the Part should be installed at the top-level of the Site
 | ![Public Property](dotnetimages/publicProperty.png) | [ToLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedRemoveSetup~ToLocation.md) | Inventory location into which the part is being transferred   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedRemoveSetup~UserName.md) | The user who has logged the Part usage. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

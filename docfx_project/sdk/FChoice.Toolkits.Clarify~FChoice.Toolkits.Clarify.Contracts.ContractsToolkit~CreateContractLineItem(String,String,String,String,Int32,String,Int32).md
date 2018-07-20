@@ -1,8 +1,4 @@
-﻿     CreateContractLineItem(String,String,String,String,Int32,String,Int32) Method                                                   
-
-fcSDK Documentation
-
-CreateContractLineItem(String,String,String,String,Int32,String,Int32) Method
+﻿### CreateContractLineItem(String,String,String,String,Int32,String,Int32) Method
 
 Contract Identifier.
 
@@ -23,30 +19,30 @@ Used to create quote/contract line items. This overload takes a set of required 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function CreateContractLineItem( _
    ByVal _contractIDNum_ As String, _
    ByVal _partNumber_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _partRevision_ As String, _
-   ByVal _quantity_ As [Integer](#), _
+   ByVal _quantity_ As Integer, _
    ByVal _priceSchedule_ As String, _
-   ByVal _parentLineItemObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _parentLineItemObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateContractLineItem( 
+```csharp
+public ToolkitResult CreateContractLineItem( 
    string _contractIDNum_,
    string _partNumber_,
    string _partDomain_,
    string _partRevision_,
-   [int](#) _quantity_,
+   int _quantity_,
    string _priceSchedule_,
-   [int](#) _parentLineItemObjid_
+   int _parentLineItemObjid_
 )
+```
 
 #### Parameters
 
@@ -80,7 +76,7 @@ The objid of the parent Line Item.
 
 #### Return Value
 
-The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+The following values are populated in the ToolkitResult object returned by the API method:
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the ContractLineItem.
 
@@ -92,11 +88,7 @@ The API will create a line item, add it to the proper contract/quote, and adjust
 
  The API does not do a few other items in the base GUI function. By and large, they are expected to be supplied with other API calls. For example, line item adjustments are not part of this API. If they are required, the line should be created, and then the adjustment should be applied. Parent/child line items are not provided for in the default API. Also, proration (ClearContracts) is currently hard-coded.  
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

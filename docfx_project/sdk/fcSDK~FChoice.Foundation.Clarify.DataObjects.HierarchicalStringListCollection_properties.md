@@ -1,8 +1,4 @@
-﻿     HierarchicalStringListCollection Class Properties                                                   
-
-fcSDK Documentation
-
-HierarchicalStringListCollection Class Properties
+﻿### HierarchicalStringListCollection Class Properties
 
 For a list of all members of this type, see [HierarchicalStringListCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringListCollection_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<IHierarchicalStringList>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringListCollection~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

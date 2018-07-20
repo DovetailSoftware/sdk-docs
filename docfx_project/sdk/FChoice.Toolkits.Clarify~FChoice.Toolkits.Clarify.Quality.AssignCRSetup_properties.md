@@ -1,8 +1,4 @@
-﻿     AssignCRSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AssignCRSetup Class Properties
+﻿### AssignCRSetup Class Properties
 
 For a list of all members of this type, see [AssignCRSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AssignCRSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AssignCRSetup~UserName.md) | The user who has assigned the CR. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AssignCRSetup~WipBin.md) | User's WipBin in which to place the CR. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

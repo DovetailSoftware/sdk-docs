@@ -1,8 +1,4 @@
-﻿     AppendFilter(String,StringOps,String) Method                                                   
-
-fcSDK Documentation
-
-AppendFilter(String,StringOps,String) Method
+﻿### AppendFilter(String,StringOps,String) Method
 
 Name of the field the filter will be constraining.
 
@@ -15,10 +11,7 @@ Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub AppendFilter( _
    ByVal _fieldName_ As String, _
@@ -46,11 +39,9 @@ _value_
 
 The filter is being applied against this value.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

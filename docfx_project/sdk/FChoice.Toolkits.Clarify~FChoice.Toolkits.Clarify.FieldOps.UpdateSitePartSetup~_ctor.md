@@ -1,8 +1,4 @@
-﻿     UpdateSitePartSetup Constructor                                                   
-
-fcSDK Documentation
-
-UpdateSitePartSetup Constructor
+﻿### UpdateSitePartSetup Constructor
 
 The Objid of the Site Part being modified.
 
@@ -11,19 +7,16 @@ Initializes a new instance of the UpdateSitePartSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _sitePartObjid_ As [Integer](#) _
+   ByVal _sitePartObjid_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public UpdateSitePartSetup( 
-   [int](#) _sitePartObjid_
+   int _sitePartObjid_
 )
 
 #### Parameters
@@ -32,11 +25,9 @@ _sitePartObjid_
 
 The Objid of the Site Part being modified.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

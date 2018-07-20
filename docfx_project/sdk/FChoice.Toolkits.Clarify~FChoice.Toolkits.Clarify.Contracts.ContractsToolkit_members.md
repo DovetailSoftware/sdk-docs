@@ -1,8 +1,4 @@
-﻿     ContractsToolkit Class Members                                                   
-
-fcSDK Documentation
-
-ContractsToolkit Class Members
+﻿### ContractsToolkit Class Members
 
 The following tables list the members exposed by [ContractsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ContractsToolkit Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -20,7 +16,7 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase~ImpersonatorUsername.md) | (Inherited from [FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -47,9 +43,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateSchedule](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~UpdateSchedule.md) | Overloaded. Used to update a contract schedule. This overload takes a set of required parameters for the API.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [YankQuote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~YankQuote.md) | Overloaded. Yank the Quote from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

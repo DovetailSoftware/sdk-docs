@@ -1,17 +1,9 @@
-﻿     SchemaViewJoinCollection Class                                                   
-
-fcSDK Documentation
-
-SchemaViewJoinCollection Class
+﻿### SchemaViewJoinCollection Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class SchemaViewJoinCollection 
    Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of SchemaViewJoin)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
    Implements [FChoice.Foundation.Schema.ISchemaViewJoinCollection](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoinCollection.md) 
@@ -20,7 +12,7 @@ public class SchemaViewJoinCollection : [FChoice.Foundation.DataObjects.DataObje
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Collections.Generic.List<T>](#)  
       [FChoice.Foundation.DataObjects.DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)  
          **FChoice.Foundation.Clarify.Schema.SchemaViewJoinCollection**  
@@ -33,7 +25,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

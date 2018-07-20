@@ -1,17 +1,9 @@
-﻿     LocationCollection Class                                                   
-
-fcSDK Documentation
-
-LocationCollection Class
+﻿### LocationCollection Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LocationCollection 
    Inherits [System.Collections.ObjectModel.Collection(Of Location)](#)
 
@@ -19,7 +11,7 @@ public class LocationCollection : [System.Collections.ObjectModel.Collection<Loc
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Collections.ObjectModel.Collection<T>](#)  
       **FChoice.Toolkits.Clarify.LocationCollection**  
 
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

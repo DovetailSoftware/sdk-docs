@@ -1,18 +1,11 @@
-﻿     CreateActionItem() Method                                                   
-
-fcSDK Documentation
-
-CreateActionItem() Method
+﻿### CreateActionItem() Method
 
 Creates a new Action Item. This overload takes a set of required parameters for the API.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateActionItem() As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
@@ -29,11 +22,9 @@ Remarks
 
 If the new Action Item is related a contact, all three of the contact fields must be supplied. Likewise, if associated to a lead, both lead fields must be supplied.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

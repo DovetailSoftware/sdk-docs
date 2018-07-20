@@ -1,8 +1,4 @@
-﻿     IFCBulk Interface Methods                                                   
-
-fcSDK Documentation
-
-IFCBulk Interface Methods
+﻿### IFCBulk Interface Methods
 
 For a list of all members of this type, see [IFCBulk members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk_members.md).
 
@@ -19,9 +15,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [Update](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~Update.md) |   |
 | ![ Method](dotnetimages/Method.png) | [UpdateAll](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~UpdateAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

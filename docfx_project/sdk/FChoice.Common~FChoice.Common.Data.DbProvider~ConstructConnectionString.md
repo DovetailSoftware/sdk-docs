@@ -1,6 +1,4 @@
-﻿     ConstructConnectionString Method                                                   
-
-ConstructConnectionString Method
+﻿### ConstructConnectionString Method
 
 The set of keys and values that will make up the connection string where key and value are: _key=value;_
 
@@ -9,11 +7,7 @@ Constructs a valid ADO.NET-compliant connection string from the supplied key/val
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Shared Function ConstructConnectionString( _
    ByVal _keyValues_ As NameValueCollection _
 ) As String
@@ -32,11 +26,9 @@ The set of keys and values that will make up the connection string where key and
 
 A properly formatted ADO.NET-compliant connection string.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

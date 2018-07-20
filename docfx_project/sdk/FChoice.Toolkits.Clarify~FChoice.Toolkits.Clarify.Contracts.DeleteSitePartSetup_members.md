@@ -1,8 +1,4 @@
-﻿     DeleteSitePartSetup Class Members                                                   
-
-fcSDK Documentation
-
-DeleteSitePartSetup Class Members
+﻿### DeleteSitePartSetup Class Members
 
 The following tables list the members exposed by [DeleteSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DeleteSitePartSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DeleteSitePartSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DeleteSitePartSetup~_ctor.md) | Initializes a new instance of the DeleteSitePartSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -20,9 +16,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [SitePartObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DeleteSitePartSetup~SitePartObjid.md) | The objid of the Site Part to be deleted.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

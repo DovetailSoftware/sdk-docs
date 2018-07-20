@@ -1,30 +1,21 @@
-﻿     WorkGroupStartDate Property                                                   
-
-fcSDK Documentation
-
-WorkGroupStartDate Property
+﻿### WorkGroupStartDate Property
 
 Date that the Employee started in the Workgroup
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property WorkGroupStartDate As [Date](#)
+Public Property WorkGroupStartDate As Date
 
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [DateTime](#) WorkGroupStartDate {get; set;}
+public DateTime WorkGroupStartDate {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

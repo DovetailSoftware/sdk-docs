@@ -1,6 +1,4 @@
-﻿     StateManagerSectionHandler Class Methods                                                   
-
-StateManagerSectionHandler Class Methods
+﻿### StateManagerSectionHandler Class Methods
 
 For a list of all members of this type, see [StateManagerSectionHandler members](FChoice.Common~FChoice.Common.State.StateManagerSectionHandler_members.md).
 
@@ -10,9 +8,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [Create](FChoice.Common~FChoice.Common.State.StateManagerSectionHandler~Create.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

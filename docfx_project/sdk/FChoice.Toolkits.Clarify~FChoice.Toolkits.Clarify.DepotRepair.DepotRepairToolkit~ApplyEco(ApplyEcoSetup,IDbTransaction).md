@@ -1,8 +1,4 @@
-﻿     ApplyEco(ApplyEcoSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-ApplyEco(ApplyEcoSetup,IDbTransaction) Method
+﻿### ApplyEco(ApplyEcoSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Apply an ECO to a Part Request Detail. This overload takes a setup object and a 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ApplyEco( _
    ByVal _setupParam_ As [ApplyEcoSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

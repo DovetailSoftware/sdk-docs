@@ -1,8 +1,4 @@
-﻿     LogCaseCommitmentSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogCaseCommitmentSetup Class Properties
+﻿### LogCaseCommitmentSetup Class Properties
 
 For a list of all members of this type, see [LogCaseCommitmentSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseCommitmentSetup_members.md).
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseCommitmentSetup~Title.md) | Title of the commitment.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseCommitmentSetup~UserName.md) | The User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

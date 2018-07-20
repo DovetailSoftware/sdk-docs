@@ -1,8 +1,4 @@
-﻿     RejectQuoteSetup Class Members                                                   
-
-fcSDK Documentation
-
-RejectQuoteSetup Class Members
+﻿### RejectQuoteSetup Class Members
 
 The following tables list the members exposed by [RejectQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectQuoteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [RejectQuoteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectQuoteSetup~_ctor.md) | Initializes a new instance of the RejectQuoteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectQuoteSetup~UserName.md) | The user who has rejected the Quote. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectQuoteSetup~WipBin.md) | User's WipBin in which to place the Quote. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

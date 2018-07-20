@@ -1,8 +1,4 @@
-﻿     UpdateDepotRepairMaterial(UpdateDepotRepairMaterialSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-UpdateDepotRepairMaterial(UpdateDepotRepairMaterialSetup,IDbTransaction) Method
+﻿### UpdateDepotRepairMaterial(UpdateDepotRepairMaterialSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Update a Depot Repair Material. This overload takes a setup object and a databas
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateDepotRepairMaterial( _
    ByVal _setupParam_ As [UpdateDepotRepairMaterialSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairMaterialSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

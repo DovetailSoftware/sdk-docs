@@ -1,8 +1,4 @@
-﻿     LogisticsToolkit Class Methods                                                   
-
-fcSDK Documentation
-
-LogisticsToolkit Class Methods
+﻿### LogisticsToolkit Class Methods
 
 For a list of all members of this type, see [LogisticsToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md).
 
@@ -109,9 +105,9 @@ This overload takes a setup object.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdatePartStockingLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartStockingLevel.md) | Overloaded. Updates an existing part restocking authorization level. This overload takes a set of required parameters for the API.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [YankPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~YankPartRequest.md) | Overloaded. Yank the PartRequest from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

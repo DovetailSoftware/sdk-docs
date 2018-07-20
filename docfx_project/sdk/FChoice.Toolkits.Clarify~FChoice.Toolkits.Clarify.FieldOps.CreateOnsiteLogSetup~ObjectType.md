@@ -1,18 +1,11 @@
-﻿     ObjectType Property (CreateOnsiteLogSetup)                                                   
-
-fcSDK Documentation
-
-ObjectType Property (CreateOnsiteLogSetup)
+﻿### ObjectType Property (CreateOnsiteLogSetup)
 
 Specifies whether this Onsite Log is tied to a Case or Subcase.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property ObjectType As [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CaseObjectType.md)
@@ -20,11 +13,9 @@ Public Property ObjectType As [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CaseObjectType.md) ObjectType {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

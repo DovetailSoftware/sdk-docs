@@ -1,8 +1,4 @@
-﻿     FoundationException Class Properties                                                   
-
-fcSDK Documentation
-
-FoundationException Class Properties
+﻿### FoundationException Class Properties
 
 For a list of all members of this type, see [FoundationException members](fcSDK~FChoice.Foundation.FoundationException_members.md).
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

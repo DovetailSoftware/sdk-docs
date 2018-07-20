@@ -1,8 +1,4 @@
-﻿     FCApplication Class Methods                                                   
-
-fcSDK Documentation
-
-FCApplication Class Methods
+﻿### FCApplication Class Methods
 
 For a list of all members of this type, see [FCApplication members](fcSDK~FChoice.Foundation.FCApplication_members.md).
 
@@ -18,9 +14,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [LogInfo](fcSDK~FChoice.Foundation.FCApplication~LogInfo.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [LogWarn](fcSDK~FChoice.Foundation.FCApplication~LogWarn.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

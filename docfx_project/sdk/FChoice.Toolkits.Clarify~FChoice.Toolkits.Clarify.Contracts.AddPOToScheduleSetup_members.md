@@ -1,8 +1,4 @@
-﻿     AddPOToScheduleSetup Class Members                                                   
-
-fcSDK Documentation
-
-AddPOToScheduleSetup Class Members
+﻿### AddPOToScheduleSetup Class Members
 
 The following tables list the members exposed by [AddPOToScheduleSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddPOToScheduleSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~_ctor.md) | Initializes a new instance of the AddPOToScheduleSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [POStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~POStatus.md) | Element from the 'PO Status' application list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ScheduleIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup~ScheduleIDNum.md) | Schedule Identifier.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

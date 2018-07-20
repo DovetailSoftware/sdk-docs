@@ -1,8 +1,4 @@
-﻿     GetAlternatePartsSetup Class Properties                                                   
-
-fcSDK Documentation
-
-GetAlternatePartsSetup Class Properties
+﻿### GetAlternatePartsSetup Class Properties
 
 For a list of all members of this type, see [GetAlternatePartsSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartNumber](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup~PartNumber.md) | The Part number   |
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup~PartRevision.md) | The Part revision   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

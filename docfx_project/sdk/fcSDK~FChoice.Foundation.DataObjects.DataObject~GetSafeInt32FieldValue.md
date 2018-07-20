@@ -1,8 +1,4 @@
-﻿     GetSafeInt32FieldValue Method (DataObject)                                                   
-
-fcSDK Documentation
-
-GetSafeInt32FieldValue Method (DataObject)
+﻿### GetSafeInt32FieldValue Method (DataObject)
 
 Overload List
 
@@ -11,11 +7,9 @@ Overload List
 | [GetSafeInt32FieldValue(String)](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue(String).md) |   |
 | [GetSafeInt32FieldValue(String,Dictionary<String,ColumnInfo>,Object\[\])](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue(String,Dictionary{String,ColumnInfo},Object[]).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     MovePartRequestSetup Class Members                                                   
-
-fcSDK Documentation
-
-MovePartRequestSetup Class Members
+﻿### MovePartRequestSetup Class Members
 
 The following tables list the members exposed by [MovePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [MovePartRequestSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup~_ctor.md) | Initializes a new instance of the MovePartRequestSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [NewWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup~NewWipBin.md) | The new WipBin into which the PartRequest is to be moved.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRequestDetailIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup~PartRequestDetailIDNum.md) | Part Request Detail Identifier   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

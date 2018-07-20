@@ -1,30 +1,21 @@
-﻿     ReinstallDate Property (ReinstallSitePartSetup)                                                   
-
-fcSDK Documentation
-
-ReinstallDate Property (ReinstallSitePartSetup)
+﻿### ReinstallDate Property (ReinstallSitePartSetup)
 
 The DateTime the Site Part was reinstalled. If not set, the current time is used.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property ReinstallDate As [Date](#)
+Public Property ReinstallDate As Date
 
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [DateTime](#) ReinstallDate {get; set;}
+public DateTime ReinstallDate {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ChangePassword Method (FCSession)                                                   
-
-fcSDK Documentation
-
-ChangePassword Method (FCSession)
+﻿### ChangePassword Method (FCSession)
 
 The new password for the **FCSession** user
 
@@ -11,11 +7,7 @@ Change the password for the session user.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub ChangePassword( _
    ByVal _newPassword_ As String _
 ) 
@@ -34,11 +26,9 @@ Remarks
 
 [SetPassword](fcSDK~FChoice.Foundation.FCSession~SetPassword.md) allows changing the password of a non session user.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

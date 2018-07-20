@@ -1,26 +1,22 @@
-﻿     IndexOf(IGlobalStringList,Int32) Method                                                   
-
-fcSDK Documentation
-
-IndexOf(IGlobalStringList,Int32) Method
+﻿### IndexOf(IGlobalStringList,Int32) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Overloads Function IndexOf( _
-   ByVal _item_ As [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md), _
-   ByVal _index_ As [Integer](#) _
-) As [Integer](#)
+   ByVal _item_ As IGlobalStringList, _
+   ByVal _index_ As Integer _
+) As Integer
+```
 
-[int](#) IndexOf( 
-   [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) _item_,
-   [int](#) _index_
+```csharp
+int IndexOf( 
+   IGlobalStringList _item_,
+   int _index_
 )
+```
 
 #### Parameters
 
@@ -28,11 +24,7 @@ _item_
 
 _index_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

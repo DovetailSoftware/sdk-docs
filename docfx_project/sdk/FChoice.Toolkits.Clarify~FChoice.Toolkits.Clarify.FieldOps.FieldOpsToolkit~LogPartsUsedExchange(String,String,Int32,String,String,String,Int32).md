@@ -1,8 +1,4 @@
-﻿     LogPartsUsedExchange(String,String,Int32,String,String,String,Int32) Method                                                   
-
-fcSDK Documentation
-
-LogPartsUsedExchange(String,String,Int32,String,String,String,Int32) Method
+﻿### LogPartsUsedExchange(String,String,Int32,String,String,String,Int32) Method
 
 The Id Number of the related Part Request Detail (if any)
 
@@ -21,30 +17,30 @@ The Quantity of the part being installed
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function LogPartsUsedExchange( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _caseIDNum_ As String, _
-   ByVal _removeSitePartObjid_ As [Integer](#), _
+   ByVal _removeSitePartObjid_ As Integer, _
    ByVal _installPartNumber_ As String, _
    ByVal _installPartRevision_ As String, _
    ByVal _installPartDomain_ As String, _
-   ByVal _installQuantity_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _installQuantity_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogPartsUsedExchange( 
+```csharp
+public ToolkitResult LogPartsUsedExchange( 
    string _partRequestDetailIDNum_,
    string _caseIDNum_,
-   [int](#) _removeSitePartObjid_,
+   int _removeSitePartObjid_,
    string _installPartNumber_,
    string _installPartRevision_,
    string _installPartDomain_,
-   [int](#) _installQuantity_
+   int _installQuantity_
 )
+```
 
 #### Parameters
 
@@ -78,15 +74,11 @@ The Quantity of the part being installed
 
 #### Return Value
 
-The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+The following values are populated in the ToolkitResult object returned by the API method:
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PartUsed.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     DbProviderFactory Class Members                                                   
-
-DbProviderFactory Class Members
+﻿### DbProviderFactory Class Members
 
 The following tables list the members exposed by [DbProviderFactory](FChoice.Common~FChoice.Common.Data.DbProviderFactory.md).
 
@@ -13,7 +11,7 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [ODPNET_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~ODPNET_PROVIDER_NAME.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [ORACLE_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~ORACLE_PROVIDER_NAME.md) | The default provider name of Oracle-based data providers   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,7 +20,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [Provider](FChoice.Common~FChoice.Common.Data.DbProviderFactory~Provider.md) | Gets a reference to the default configured [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance   |
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [ProviderNames](FChoice.Common~FChoice.Common.Data.DbProviderFactory~ProviderNames.md) | Gets the list of available provider names/alias that can be used for displaying to the user or as an argument for the [CreateProvider](FChoice.Common~FChoice.Common.Data.DbProviderFactory~CreateProvider(String).md) method.   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -33,9 +31,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsOracle](FChoice.Common~FChoice.Common.Data.DbProviderFactory~IsOracle.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [IsValidProvider](FChoice.Common~FChoice.Common.Data.DbProviderFactory~IsValidProvider.md) | Gets whether or not the specified alias or name is a valid alias/name for a configured or intrinsic data access provider   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

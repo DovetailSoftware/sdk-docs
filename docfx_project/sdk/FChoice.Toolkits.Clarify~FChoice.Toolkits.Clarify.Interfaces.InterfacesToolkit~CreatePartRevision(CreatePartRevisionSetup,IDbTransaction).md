@@ -1,8 +1,4 @@
-﻿     CreatePartRevision(CreatePartRevisionSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreatePartRevision(CreatePartRevisionSetup,IDbTransaction) Method
+﻿### CreatePartRevision(CreatePartRevisionSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Create a Part Revision (mod_level) This overload takes a setup object and a dat
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreatePartRevision( _
    ByVal _setupParam_ As [CreatePartRevisionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartRevisionSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

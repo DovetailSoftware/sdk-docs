@@ -1,24 +1,17 @@
-﻿     UserLicenseLimit Property (LicenseInfo)                                                   
-
-UserLicenseLimit Property (LicenseInfo)
+﻿### UserLicenseLimit Property (LicenseInfo)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property UserLicenseLimit As Integer
 
-Public ReadOnly Property UserLicenseLimit As [Integer](#)
+public int UserLicenseLimit {get;}
 
-public [int](#) UserLicenseLimit {get;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreatePriceInstanceSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreatePriceInstanceSetup Class Members
+﻿### CreatePriceInstanceSetup Class Members
 
 The following tables list the members exposed by [CreatePriceInstanceSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreatePriceInstanceSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup~_ctor.md) | Initializes a new instance of the CreatePriceInstanceSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -35,9 +31,9 @@ Revision to price
 | ![Public Property](dotnetimages/publicProperty.png) | [PriceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup~PriceType.md) | The type of price being created.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup~StartDate.md) | Start date of the price instance, If not set, the start date of the price program is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

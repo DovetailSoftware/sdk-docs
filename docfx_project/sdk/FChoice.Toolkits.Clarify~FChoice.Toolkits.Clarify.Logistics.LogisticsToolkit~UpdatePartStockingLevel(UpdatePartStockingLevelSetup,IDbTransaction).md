@@ -1,8 +1,4 @@
-﻿     UpdatePartStockingLevel(UpdatePartStockingLevelSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-UpdatePartStockingLevel(UpdatePartStockingLevelSetup,IDbTransaction) Method
+﻿### UpdatePartStockingLevel(UpdatePartStockingLevelSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Updates an existing part restocking authorization level. This overload takes a
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdatePartStockingLevel( _
    ByVal _setupParam_ As [UpdatePartStockingLevelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

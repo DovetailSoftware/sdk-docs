@@ -1,8 +1,4 @@
-﻿     Location Class Members                                                   
-
-fcSDK Documentation
-
-Location Class Members
+﻿### Location Class Members
 
 The following tables list the members exposed by [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [Location Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -21,7 +17,7 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [EMPTY](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~EMPTY.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [PRIMARY_BIN_SUGGESTION_NAME](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~PRIMARY_BIN_SUGGESTION_NAME.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -32,7 +28,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [IsPrimaryBinSuggestion](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~IsPrimaryBinSuggestion.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [LocationName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~LocationName.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -40,9 +36,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~ToString.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

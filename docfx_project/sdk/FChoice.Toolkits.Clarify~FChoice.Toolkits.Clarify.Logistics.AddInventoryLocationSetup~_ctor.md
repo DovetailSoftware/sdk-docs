@@ -1,8 +1,4 @@
-﻿     AddInventoryLocationSetup Constructor                                                   
-
-fcSDK Documentation
-
-AddInventoryLocationSetup Constructor
+﻿### AddInventoryLocationSetup Constructor
 
 Name of the inventory location to add
 
@@ -17,12 +13,9 @@ Initializes a new instance of the AddInventoryLocationSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _locationName_ As String, _
    ByVal _capitalGLAccount_ As String, _
@@ -30,7 +23,7 @@ Public Function New( _
    ByVal _partAuthorizationLevel_ As [PartAuthorizationLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartAuthorizationLevel.md) _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public AddInventoryLocationSetup( 
    string _locationName_,
    string _capitalGLAccount_,
@@ -56,11 +49,9 @@ _partAuthorizationLevel_
 
 The part authorization level for this inventory location
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

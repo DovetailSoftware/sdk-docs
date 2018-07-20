@@ -1,8 +1,4 @@
-﻿     ToolkitVisibleAttribute Class Methods                                                   
-
-fcSDK Documentation
-
-ToolkitVisibleAttribute Class Methods
+﻿### ToolkitVisibleAttribute Class Methods
 
 For a list of all members of this type, see [ToolkitVisibleAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.ToolkitVisibleAttribute_members.md).
 
@@ -15,9 +11,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [IsDefaultAttribute](#) | (Inherited from [System.Attribute](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [Match](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

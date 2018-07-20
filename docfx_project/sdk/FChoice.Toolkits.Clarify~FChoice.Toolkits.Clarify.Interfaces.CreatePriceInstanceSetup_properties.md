@@ -1,8 +1,4 @@
-﻿     CreatePriceInstanceSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreatePriceInstanceSetup Class Properties
+﻿### CreatePriceInstanceSetup Class Properties
 
 For a list of all members of this type, see [CreatePriceInstanceSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup_members.md).
 
@@ -27,9 +23,9 @@ Revision to price
 | ![Public Property](dotnetimages/publicProperty.png) | [PriceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup~PriceType.md) | The type of price being created.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup~StartDate.md) | Start date of the price instance, If not set, the start date of the price program is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

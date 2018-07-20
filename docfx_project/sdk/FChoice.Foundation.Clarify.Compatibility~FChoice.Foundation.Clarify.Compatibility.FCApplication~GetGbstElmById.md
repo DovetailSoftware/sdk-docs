@@ -1,25 +1,17 @@
-﻿     GetGbstElmById Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-GetGbstElmById Method (FCApplication)
+﻿### GetGbstElmById Method (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetGbstElmById( _
    ByVal _listName_ As String, _
-   ByVal _elmObjID_ As [Integer](#) _
+   ByVal _elmObjID_ As Integer _
 ) As String
 
 public string GetGbstElmById( 
    string _listName_,
-   [int](#) _elmObjID_
+   int _elmObjID_
 )
 
 #### Parameters
@@ -28,11 +20,9 @@ _listName_
 
 _elmObjID_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

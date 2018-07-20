@@ -1,8 +1,4 @@
-﻿     ILocaleCache Interface Properties                                                   
-
-fcSDK Documentation
-
-ILocaleCache Interface Properties
+﻿### ILocaleCache Interface Properties
 
 For a list of all members of this type, see [ILocaleCache members](fcSDK~FChoice.Foundation.Clarify.ILocaleCache_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [ServerTimeZone](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~ServerTimeZone.md) |   |
 | ![ Property](dotnetimages/Property.png) | [TimeZones](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~TimeZones.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

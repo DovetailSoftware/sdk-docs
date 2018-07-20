@@ -1,17 +1,9 @@
-﻿     FindAll Method (IHierarchicalStringListCollection)                                                   
-
-fcSDK Documentation
-
-FindAll Method (IHierarchicalStringListCollection)
+﻿### FindAll Method (IHierarchicalStringListCollection)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Function FindAll( _
    ByVal _match_ As [Predicate(Of IHierarchicalStringList)](#) _
 ) As [List(Of IHierarchicalStringList)](#)
@@ -24,11 +16,9 @@ Function FindAll( _
 
 _match_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,23 +1,16 @@
-﻿     LoadColors Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-LoadColors Method (IFCSession)
+﻿### LoadColors Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743910)>
+<DispIdAttribute(1610743910)>
 Sub LoadColors( _
    ByVal _userName_ As String _
 ) 
 
-\[[DispIdAttribute](#)(1610743910)\]
+[DispIdAttribute(1610743910)]
 void LoadColors( 
    string _userName_
 )
@@ -26,11 +19,9 @@ void LoadColors(
 
 _userName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

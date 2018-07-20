@@ -14,13 +14,13 @@ Syntax
 'Declaration
 
 Public ReadOnly Default Property Item( _
-   ByVal _index_ As [Integer](#) _
+   ByVal _index_ As Integer _
 ) As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)
 ```
 
 ```csharp
 public [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) this\[ 
-   [int](#) _index_
+   int _index_
 \]; {get;}
 ```
 
@@ -106,11 +106,9 @@ For Each row As ClarifyDataRow In gQueue
 Next
 ```
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

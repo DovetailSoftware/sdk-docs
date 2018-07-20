@@ -5,11 +5,7 @@ ClarifySession contains session information for a logged-in user and allows for
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ClarifySession 
    Inherits [FChoice.Foundation.FCSession](fcSDK~FChoice.Foundation.FCSession.md)
 
@@ -25,7 +21,7 @@ FCFL.NET sessions are stateful containers that are used to remember information 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.FCSession](fcSDK~FChoice.Foundation.FCSession.md)  
       **FChoice.Foundation.Clarify.ClarifySession**  
 
@@ -37,7 +33,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateCountrySetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateCountrySetup Constructor
+﻿### CreateCountrySetup Constructor
 
 Name of the Country being created
 
@@ -13,21 +9,18 @@ Initializes a new instance of the CreateCountrySetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _country_ As String, _
-   ByVal _countryCode_ As [Integer](#) _
+   ByVal _countryCode_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateCountrySetup( 
    string _country_,
-   [int](#) _countryCode_
+   int _countryCode_
 )
 
 #### Parameters
@@ -40,11 +33,9 @@ _countryCode_
 
 Telephone country code for the Country
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

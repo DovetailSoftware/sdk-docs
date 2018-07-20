@@ -1,8 +1,4 @@
-﻿     CreateContractLineItemSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateContractLineItemSetup Class Members
+﻿### CreateContractLineItemSetup Class Members
 
 The following tables list the members exposed by [CreateContractLineItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateContractLineItemSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -40,9 +36,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UnitsUsed](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup~UnitsUsed.md) | The number of units used for the Line Item.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup~UserName.md) | The username of the user who is creating the Line Item. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

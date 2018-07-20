@@ -1,8 +1,4 @@
-﻿     AddModuleToCRSetup Class Members                                                   
-
-fcSDK Documentation
-
-AddModuleToCRSetup Class Members
+﻿### AddModuleToCRSetup Class Members
 
 The following tables list the members exposed by [AddModuleToCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddModuleToCRSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup~_ctor.md) | Initializes a new instance of the AddModuleToCRSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [FileRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup~FileRevision.md) | Revision information for the file related to the fix.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [FixObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup~FixObjid.md) | Objid of the Fixed CR.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

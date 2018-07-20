@@ -1,8 +1,4 @@
-﻿     ReopenCaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-ReopenCaseSetup Class Members
+﻿### ReopenCaseSetup Class Members
 
 The following tables list the members exposed by [ReopenCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ReopenCaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup~_ctor.md) | Initializes a new instance of the ReopenCaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup~UserName.md) | User who reopened the Case. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup~WipBin.md) | WipBin to place the Case in. If not set, the users default WibBin is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,28 +1,18 @@
-﻿     IsDBTraveler Property (IFCApplication)                                                   
-
-fcSDK Documentation
-
-IsDBTraveler Property (IFCApplication)
+﻿### IsDBTraveler Property (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743819)>
+' Declaration
+<DispIdAttribute(1610743819)>
 ReadOnly Property IsDBTraveler As Boolean
 
-\[[DispIdAttribute](#)(1610743819)\]
+[DispIdAttribute(1610743819)]
 bool IsDBTraveler {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

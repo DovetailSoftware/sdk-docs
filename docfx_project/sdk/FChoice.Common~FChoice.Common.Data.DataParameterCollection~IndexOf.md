@@ -1,6 +1,4 @@
-﻿     IndexOf Method (DataParameterCollection)                                                   
-
-IndexOf Method (DataParameterCollection)
+﻿### IndexOf Method (DataParameterCollection)
 
 The [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) whose index to retrieve.
 
@@ -9,18 +7,18 @@ Returns the index at which this object exists in the collection.
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Function IndexOf( _
-   ByVal _value_ As [Object](#) _
-) As [Integer](#)
+   ByVal _value_ As Object _
+) As Integer
+```
 
-public [int](#) IndexOf( 
-   [object](#) _value_
+```csharp
+public int IndexOf( 
+   object _value_
 )
+```
 
 #### Parameters
 
@@ -40,11 +38,7 @@ This method performs a linear search; therefore, the average execution time is p
 
 This method determines equality by calling [Object.Equals](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemObjectClassEqualsTopic.htm).
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

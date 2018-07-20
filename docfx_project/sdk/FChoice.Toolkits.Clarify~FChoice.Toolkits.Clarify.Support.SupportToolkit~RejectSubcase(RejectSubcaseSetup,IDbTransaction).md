@@ -1,8 +1,4 @@
-﻿     RejectSubcase(RejectSubcaseSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-RejectSubcase(RejectSubcaseSetup,IDbTransaction) Method
+﻿### RejectSubcase(RejectSubcaseSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Reject the Subcase from the queue in which it currently resides, and return it t
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function RejectSubcase( _
    ByVal _setupParam_ As [RejectSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectSubcaseSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

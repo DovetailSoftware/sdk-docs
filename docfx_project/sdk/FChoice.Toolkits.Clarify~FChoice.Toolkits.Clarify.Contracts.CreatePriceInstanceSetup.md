@@ -1,26 +1,18 @@
-﻿     CreatePriceInstanceSetup Class                                                   
-
-fcSDK Documentation
-
-CreatePriceInstanceSetup Class
+﻿### CreatePriceInstanceSetup Class
 
 Used by the [CreatePriceInstance](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~CreatePriceInstance(CreatePriceInstanceSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreatePriceInstanceSetup 
 
 public class CreatePriceInstanceSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Contracts.CreatePriceInstanceSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

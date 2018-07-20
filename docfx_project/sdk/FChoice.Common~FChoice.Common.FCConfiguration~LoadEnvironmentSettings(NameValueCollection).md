@@ -1,6 +1,4 @@
-﻿     LoadEnvironmentSettings(NameValueCollection) Method                                                   
-
-LoadEnvironmentSettings(NameValueCollection) Method
+﻿### LoadEnvironmentSettings(NameValueCollection) Method
 
 A [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsSpecializedNameValueCollectionMembersTopic.htm) of values with which to attempt a load configuration values.
 
@@ -9,10 +7,7 @@ Forces a load of new configuration values, using the supplied collection if poss
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function LoadEnvironmentSettings( _
    ByVal _initialValues_ As NameValueCollection _
@@ -42,11 +37,9 @@ Remarks
 
 Required parameters will be checked and a FCConfiguration will force a reload of settings based on the supplied values when this method is called.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     IFCBulk Interface Properties                                                   
-
-fcSDK Documentation
-
-IFCBulk Interface Properties
+﻿### IFCBulk Interface Properties
 
 For a list of all members of this type, see [IFCBulk members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Name](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~Name.md) |   |
 | ![ Property](dotnetimages/Property.png) | [NoSorting](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~NoSorting.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

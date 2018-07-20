@@ -1,8 +1,4 @@
-﻿     ChangePartRequestStatus(String) Method                                                   
-
-fcSDK Documentation
-
-ChangePartRequestStatus(String) Method
+﻿### ChangePartRequestStatus(String) Method
 
 Part Request Detail Identifier
 
@@ -11,10 +7,7 @@ Causes the specified part request to have a status change from one status to ano
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ChangePartRequestStatus( _
    ByVal _partRequestDetailIDNum_ As String _
@@ -38,11 +31,9 @@ Remarks
 
 This API only changes a Part Request's status. To change the condition of the part request, use one of the supplied APIs such as [ReceivePartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest.md) or [Pick](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick.md).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

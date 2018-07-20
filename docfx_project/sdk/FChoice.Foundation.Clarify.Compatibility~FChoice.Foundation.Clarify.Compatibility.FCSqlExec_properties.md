@@ -1,8 +1,4 @@
-﻿     FCSqlExec Class Properties                                                   
-
-fcSDK Documentation
-
-FCSqlExec Class Properties
+﻿### FCSqlExec Class Properties
 
 For a list of all members of this type, see [FCSqlExec members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Records](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec~Records.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [StayConnected](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec~StayConnected.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

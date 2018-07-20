@@ -1,6 +1,4 @@
-﻿     GetNlsFormat Method                                                   
-
-GetNlsFormat Method
+﻿### GetNlsFormat Method
 
 An instance of an OracleProviderBase implementation that will be used for connecting to the database and retrieving the NLS format.
 
@@ -9,10 +7,7 @@ Executes a query to retrieve the database user's configured NLS format
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shared Function GetNlsFormat( _
    ByVal _provider_ As [OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md) _
@@ -32,11 +27,9 @@ An instance of an OracleProviderBase implementation that will be used for connec
 
 The NLS format string
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UnrelateCaseFromParentCaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UnrelateCaseFromParentCaseSetup Class Properties
+﻿### UnrelateCaseFromParentCaseSetup Class Properties
 
 For a list of all members of this type, see [UnrelateCaseFromParentCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UnrelateCaseFromParentCaseSetup_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [CaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UnrelateCaseFromParentCaseSetup~CaseIDNum.md) | Identifier of the Case being unrelated from its parent Case.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     DepotRepairToolkitBase Class                                                   
-
-fcSDK Documentation
-
-DepotRepairToolkitBase Class
+﻿### DepotRepairToolkitBase Class
 
 Please see [DepotRepairToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md). This class is used internally and not meant to be created by end users.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class DepotRepairToolkitBase 
    Inherits [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)
@@ -21,7 +14,7 @@ public abstract class DepotRepairToolkitBase : [FChoice.Toolkits.Clarify.Toolkit
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  
       **FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkitBase**  
          [FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
@@ -34,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

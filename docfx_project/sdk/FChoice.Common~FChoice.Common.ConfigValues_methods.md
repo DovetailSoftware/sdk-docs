@@ -1,6 +1,4 @@
-﻿     ConfigValues Class Methods                                                   
-
-ConfigValues Class Methods
+﻿### ConfigValues Class Methods
 
 For a list of all members of this type, see [ConfigValues members](FChoice.Common~FChoice.Common.ConfigValues_members.md).
 
@@ -14,10 +12,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GetOptString](FChoice.Common~FChoice.Common.ConfigValues~GetOptString.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GetReqString](FChoice.Common~FChoice.Common.ConfigValues~GetReqString.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [VerifyPositive](FChoice.Common~FChoice.Common.ConfigValues~VerifyPositive.md) |   |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

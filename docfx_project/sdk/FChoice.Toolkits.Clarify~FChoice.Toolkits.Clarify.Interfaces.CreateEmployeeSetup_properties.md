@@ -1,8 +1,4 @@
-﻿     CreateEmployeeSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateEmployeeSetup Class Properties
+﻿### CreateEmployeeSetup Class Properties
 
 For a list of all members of this type, see [CreateEmployeeSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup_members.md).
 
@@ -46,9 +42,9 @@ Is Employee a supervisor?
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkGroup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup~WorkGroup.md) | Element from the 'Workgroup' user defined list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkGroupStartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup~WorkGroupStartDate.md) | Date that the Employee started in the Workgroup   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

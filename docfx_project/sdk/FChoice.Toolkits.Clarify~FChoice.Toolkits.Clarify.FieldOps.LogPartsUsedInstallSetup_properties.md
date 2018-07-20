@@ -1,8 +1,4 @@
-﻿     LogPartsUsedInstallSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogPartsUsedInstallSetup Class Properties
+﻿### LogPartsUsedInstallSetup Class Properties
 
 For a list of all members of this type, see [LogPartsUsedInstallSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedInstallSetup_members.md).
 
@@ -29,9 +25,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRequestDetailIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedInstallSetup~PartRequestDetailIDNum.md) | The Id Number of the related Part Request Detail (if any)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedInstallSetup~UserName.md) | The user who has logged the Part usage. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

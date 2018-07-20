@@ -1,16 +1,9 @@
-﻿     GetStates Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-GetStates Method (FCApplication)
+﻿### GetStates Method (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function GetStates( _
    ByVal _country_ As String _
@@ -24,11 +17,9 @@ public ADODB.Recordset GetStates(
 
 _country_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

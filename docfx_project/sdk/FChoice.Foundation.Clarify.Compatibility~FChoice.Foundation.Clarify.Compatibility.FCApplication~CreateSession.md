@@ -1,34 +1,24 @@
-﻿     CreateSession Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-CreateSession Method (FCApplication)
+﻿### CreateSession Method (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function CreateSession( _
-   Optional ByVal _sessIdValue_ As [Object](#) _
+   Optional ByVal _sessIdValue_ As Object _
 ) As [FCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession.md)
 
 public [FCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession.md) CreateSession( 
-   [object](#) _sessIdValue_
+   object _sessIdValue_
 )
 
 #### Parameters
 
 _sessIdValue_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     IDataObject Interface Properties                                                   
-
-fcSDK Documentation
-
-IDataObject Interface Properties
+﻿### IDataObject Interface Properties
 
 For a list of all members of this type, see [IDataObject members](fcSDK~FChoice.Foundation.DataObjects.IDataObject_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [FieldValues](fcSDK~FChoice.Foundation.DataObjects.IDataObject~FieldValues.md) |   |
 | ![ Property](dotnetimages/Property.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.IDataObject~UniqueID.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

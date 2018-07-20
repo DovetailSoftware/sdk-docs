@@ -1,18 +1,11 @@
-﻿     ConvertTimeZone Property (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-ConvertTimeZone Property (ClarifyApplication)
+﻿### ConvertTimeZone Property (ClarifyApplication)
 
 Gets or sets whether or not to perform time zone conversions when operating with date/time values
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property ConvertTimeZone As Boolean
 
@@ -26,11 +19,9 @@ Remarks
 
 This value is true by default.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

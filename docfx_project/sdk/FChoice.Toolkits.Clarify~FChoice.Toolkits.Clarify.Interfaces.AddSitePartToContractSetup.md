@@ -1,26 +1,18 @@
-﻿     AddSitePartToContractSetup Class                                                   
-
-fcSDK Documentation
-
-AddSitePartToContractSetup Class
+﻿### AddSitePartToContractSetup Class
 
 Used by the [AddSitePartToContract](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AddSitePartToContract(AddSitePartToContractSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AddSitePartToContractSetup 
 
 public class AddSitePartToContractSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

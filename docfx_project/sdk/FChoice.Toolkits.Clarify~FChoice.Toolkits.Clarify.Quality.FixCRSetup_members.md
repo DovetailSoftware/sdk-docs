@@ -1,8 +1,4 @@
-﻿     FixCRSetup Class Members                                                   
-
-fcSDK Documentation
-
-FixCRSetup Class Members
+﻿### FixCRSetup Class Members
 
 The following tables list the members exposed by [FixCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [FixCRSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup~_ctor.md) | Initializes a new instance of the FixCRSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup~Status.md) | The new status for the Change Request. If not set, the default status is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup~UserName.md) | The user fixing the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

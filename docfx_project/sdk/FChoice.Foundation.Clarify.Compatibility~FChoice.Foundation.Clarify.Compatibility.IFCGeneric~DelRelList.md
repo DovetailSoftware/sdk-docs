@@ -1,28 +1,19 @@
-﻿     DelRelList Property (IFCGeneric)                                                   
-
-fcSDK Documentation
-
-DelRelList Property (IFCGeneric)
+﻿### DelRelList Property (IFCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743832)>
+<DispIdAttribute(1610743832)>
 Property DelRelList As String
 
-\[[DispIdAttribute](#)(1610743832)\]
+[DispIdAttribute(1610743832)]
 string DelRelList {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

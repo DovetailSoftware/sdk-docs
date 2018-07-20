@@ -1,26 +1,18 @@
-﻿     LogPartsUsedInstallSetup Class                                                   
-
-fcSDK Documentation
-
-LogPartsUsedInstallSetup Class
+﻿### LogPartsUsedInstallSetup Class
 
 Used by the [LogPartsUsedInstall](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedInstall(LogPartsUsedInstallSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogPartsUsedInstallSetup 
 
 public class LogPartsUsedInstallSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedInstallSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,27 +1,23 @@
-﻿     ClarifySessionData Class                                                   
-
-fcSDK Documentation
-
-ClarifySessionData Class
+﻿### ClarifySessionData Class
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 <SerializableAttribute()>
 Public Class ClarifySessionData 
    Inherits [FChoice.Foundation.FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md)
+```
 
-\[SerializableAttribute()\]
+```csharp
+[SerializableAttribute()]
 public class ClarifySessionData : [FChoice.Foundation.FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md) 
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md)  
       **FChoice.Foundation.Clarify.ClarifySessionData**  
 
@@ -33,7 +29,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

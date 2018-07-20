@@ -1,8 +1,4 @@
-﻿     CreatePriceInstanceSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreatePriceInstanceSetup Class Properties
+﻿### CreatePriceInstanceSetup Class Properties
 
 For a list of all members of this type, see [CreatePriceInstanceSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreatePriceInstanceSetup_members.md).
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Quantity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreatePriceInstanceSetup~Quantity.md) | The quantity of the part for the Price Instance. If not set, it will default to a zero price quantity.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SupportProgram](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreatePriceInstanceSetup~SupportProgram.md) | The support program for which this Price Instance is being created.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

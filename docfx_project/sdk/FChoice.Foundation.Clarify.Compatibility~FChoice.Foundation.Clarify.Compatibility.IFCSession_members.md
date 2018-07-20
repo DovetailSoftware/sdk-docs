@@ -1,8 +1,4 @@
-﻿     IFCSession Interface Members                                                   
-
-fcSDK Documentation
-
-IFCSession Interface Members
+﻿### IFCSession Interface Members
 
 The following tables list the members exposed by [IFCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession.md).
 
@@ -40,7 +36,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [TruncateStringFields](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession~TruncateStringFields.md) |   |
 | ![ Property](dotnetimages/Property.png) | [UpdateTime](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession~UpdateTime.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -120,9 +116,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [use_list](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession~use_list.md) |   |
 | ![ Method](dotnetimages/Method.png) | [yank_object](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession~yank_object.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

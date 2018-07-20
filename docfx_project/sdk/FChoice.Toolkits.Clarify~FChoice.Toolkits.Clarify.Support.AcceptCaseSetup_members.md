@@ -1,8 +1,4 @@
-﻿     AcceptCaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-AcceptCaseSetup Class Members
+﻿### AcceptCaseSetup Class Members
 
 The following tables list the members exposed by [AcceptCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptCaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AcceptCaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptCaseSetup~_ctor.md) | Initializes a new instance of the AcceptCaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptCaseSetup~UserName.md) | The user who has accepted the Case. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptCaseSetup~WipBin.md) | User's WipBin in which to place the Case. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

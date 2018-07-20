@@ -1,8 +1,4 @@
-﻿     LogLeadNoteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogLeadNoteSetup Class Properties
+﻿### LogLeadNoteSetup Class Properties
 
 For a list of all members of this type, see [LogLeadNoteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup~Notes.md) | Notes about the Lead Note logging.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup~UserName.md) | The user who is logging the note. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

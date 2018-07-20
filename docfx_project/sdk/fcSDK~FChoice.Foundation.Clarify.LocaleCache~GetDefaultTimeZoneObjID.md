@@ -1,26 +1,16 @@
-﻿     GetDefaultTimeZoneObjID Method (LocaleCache)                                                   
-
-fcSDK Documentation
-
-GetDefaultTimeZoneObjID Method (LocaleCache)
+﻿### GetDefaultTimeZoneObjID Method (LocaleCache)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public Function GetDefaultTimeZoneObjID() As Integer
 
-'Declaration
- 
+public int GetDefaultTimeZoneObjID()
 
-Public Function GetDefaultTimeZoneObjID() As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public [int](#) GetDefaultTimeZoneObjID()
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

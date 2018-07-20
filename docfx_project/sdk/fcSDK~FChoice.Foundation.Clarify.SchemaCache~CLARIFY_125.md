@@ -1,26 +1,17 @@
-﻿     CLARIFY_125 Field                                                   
-
-fcSDK Documentation
-
-CLARIFY_125 Field
+﻿### CLARIFY_125 Field
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Const CLARIFY_125 As Integer
 
-Public Const CLARIFY_125 As [Integer](#)
+public const int CLARIFY_125
 
-public const [int](#) CLARIFY_125
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

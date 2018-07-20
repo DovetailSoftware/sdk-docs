@@ -1,8 +1,4 @@
-﻿     CreateEcoHeaderSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateEcoHeaderSetup Class Properties
+﻿### CreateEcoHeaderSetup Class Properties
 
 For a list of all members of this type, see [CreateEcoHeaderSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoHeaderSetup_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoHeaderSetup~StartDate.md) | The DateTime the ECO header goes into effect. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoHeaderSetup~Status.md) | Element from the 'ECO Status' application list. If not set, the default list value is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

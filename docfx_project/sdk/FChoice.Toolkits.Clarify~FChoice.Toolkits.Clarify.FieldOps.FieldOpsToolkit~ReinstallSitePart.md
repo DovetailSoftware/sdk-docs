@@ -1,8 +1,4 @@
-﻿     ReinstallSitePart Method                                                   
-
-fcSDK Documentation
-
-ReinstallSitePart Method
+﻿### ReinstallSitePart Method
 
 Used to re-install a site part (and the sub-parts installed underneath it) that have been deinstalled from a site. This overload takes a setup object and a database transaction.
 
@@ -20,11 +16,9 @@ Remarks
 
 If the site part is to be reinstalled in a bin, the bin objid is specified. If it is to be installed under another part, the parent part objid is specified. If the site part is to be installed at the top-level of the site, neither objid is specified.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

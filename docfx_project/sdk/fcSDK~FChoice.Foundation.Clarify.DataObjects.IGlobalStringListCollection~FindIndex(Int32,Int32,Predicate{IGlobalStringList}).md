@@ -7,20 +7,17 @@ FindIndex(Int32,Int32,Predicate<IGlobalStringList>) Method
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Overloads Function FindIndex( _
-   ByVal _startIndex_ As [Integer](#), _
-   ByVal _count_ As [Integer](#), _
+   ByVal _startIndex_ As Integer, _
+   ByVal _count_ As Integer, _
    ByVal _match_ As [Predicate(Of IGlobalStringList)](#) _
-) As [Integer](#)
+) As Integer
 
-[int](#) FindIndex( 
-   [int](#) _startIndex_,
-   [int](#) _count_,
+int FindIndex( 
+   int _startIndex_,
+   int _count_,
    [Predicate<IGlobalStringList>](#) _match_
 )
 
@@ -32,11 +29,9 @@ _count_
 
 _match_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

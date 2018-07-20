@@ -1,8 +1,4 @@
-﻿     DaylightSavingsCollection Class Methods                                                   
-
-fcSDK Documentation
-
-DaylightSavingsCollection Class Methods
+﻿### DaylightSavingsCollection Class Methods
 
 For a list of all members of this type, see [DaylightSavingsCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection_members.md).
 
@@ -43,9 +39,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<DaylightSavingsPeriod>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<DaylightSavingsPeriod>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

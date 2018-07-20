@@ -1,16 +1,11 @@
-﻿     GetDateStatement Method (DbProvider)                                                   
-
-GetDateStatement Method (DbProvider)
+﻿### GetDateStatement Method (DbProvider)
 
 Gets a SQL statement fragment for the database-specific syntax of retrieving the current date (i.e. SYSDATE on Oracle or GETDATE() on MSSQL).
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustOverride Function GetDateStatement() As String
 
@@ -24,11 +19,9 @@ Remarks
 
 The returned string is a fragment of a statement, not an entire statement. It cannot be executed independently
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     RelateCaseToParentCaseSetup Class                                                   
-
-fcSDK Documentation
-
-RelateCaseToParentCaseSetup Class
+﻿### RelateCaseToParentCaseSetup Class
 
 Used by the [RelateCaseToParentCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~RelateCaseToParentCase(RelateCaseToParentCaseSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class RelateCaseToParentCaseSetup 
 
 public class RelateCaseToParentCaseSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdateInventoryLocationSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateInventoryLocationSetup Class Properties
+﻿### UpdateInventoryLocationSetup Class Properties
 
 For a list of all members of this type, see [UpdateInventoryLocationSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup_members.md).
 
@@ -32,9 +28,9 @@ Identifier of the site with which this inventory location is associated
 
   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

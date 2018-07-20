@@ -1,8 +1,4 @@
-﻿     ShipSetup Class Members                                                   
-
-fcSDK Documentation
-
-ShipSetup Class Members
+﻿### ShipSetup Class Members
 
 The following tables list the members exposed by [ShipSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ShipSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~_ctor.md) | Initializes a new instance of the ShipSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,9 +37,9 @@ The site name of the shipment's carrier. The default will be the dummy site (ob
 | ![Public Property](dotnetimages/publicProperty.png) | [WaybillName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~WaybillName.md) | Waybill information for this Part Request shipment   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ZipCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~ZipCode.md) | Zipcode of the site where this Part Request will be shipped   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

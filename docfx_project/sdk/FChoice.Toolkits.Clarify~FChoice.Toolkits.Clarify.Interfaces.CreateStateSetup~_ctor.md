@@ -1,8 +1,4 @@
-﻿     CreateStateSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateStateSetup Constructor
+﻿### CreateStateSetup Constructor
 
 State name
 
@@ -15,19 +11,16 @@ Initializes a new instance of the CreateStateSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _state_ As String, _
    ByVal _fullName_ As String, _
    ByVal _country_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateStateSetup( 
    string _state_,
    string _fullName_,
@@ -48,11 +41,9 @@ _country_
 
 Name of the Country the State will belong to.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

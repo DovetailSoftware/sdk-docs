@@ -1,8 +1,4 @@
-﻿     ClarifyConfigItemCollection Class Members                                                   
-
-fcSDK Documentation
-
-ClarifyConfigItemCollection Class Members
+﻿### ClarifyConfigItemCollection Class Members
 
 The following tables list the members exposed by [ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<ConfigItem>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection~Item.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -52,9 +48,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<ConfigItem>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<ConfigItem>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

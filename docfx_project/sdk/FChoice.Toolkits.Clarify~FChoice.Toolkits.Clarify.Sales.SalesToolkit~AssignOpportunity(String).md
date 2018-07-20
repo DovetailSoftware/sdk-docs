@@ -1,8 +1,4 @@
-﻿     AssignOpportunity(String) Method                                                   
-
-fcSDK Documentation
-
-AssignOpportunity(String) Method
+﻿### AssignOpportunity(String) Method
 
 Opportunity Identifier.
 
@@ -11,10 +7,7 @@ Assign the Opportunity to a new user. This overload takes a set of required para
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AssignOpportunity( _
    ByVal _opportunityIDNum_ As String _
@@ -38,11 +31,9 @@ Remarks
 
 The Opportunity must be in the Open condition, and the user assigning the Opportunity does not have to be the owner of the Opportunity. In base Clarify, the assigner of a Opportunity must be the owner. If either user name is not specified, the “current” user is used. The date/time of the assignment, and the WipBin to place the Opportunity in can also be specified. Allowing a WipBin other than the default one is also an augmentation from base Clarify.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

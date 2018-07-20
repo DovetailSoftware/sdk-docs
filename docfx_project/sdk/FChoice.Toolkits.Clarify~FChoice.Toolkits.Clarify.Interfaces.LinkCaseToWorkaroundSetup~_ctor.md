@@ -1,8 +1,4 @@
-﻿     LinkCaseToWorkaroundSetup Constructor                                                   
-
-fcSDK Documentation
-
-LinkCaseToWorkaroundSetup Constructor
+﻿### LinkCaseToWorkaroundSetup Constructor
 
 Identifier of the Case to link to a Workaround
 
@@ -13,21 +9,18 @@ Initializes a new instance of the LinkCaseToWorkaroundSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _caseIDNum_ As String, _
-   ByVal _workaroundObjid_ As [Integer](#) _
+   ByVal _workaroundObjid_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public LinkCaseToWorkaroundSetup( 
    string _caseIDNum_,
-   [int](#) _workaroundObjid_
+   int _workaroundObjid_
 )
 
 #### Parameters
@@ -40,11 +33,9 @@ _workaroundObjid_
 
 Objid of the Workaround the Case will be linked to
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

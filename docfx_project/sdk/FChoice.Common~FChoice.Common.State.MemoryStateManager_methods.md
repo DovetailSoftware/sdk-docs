@@ -1,6 +1,4 @@
-﻿     MemoryStateManager Class Methods                                                   
-
-MemoryStateManager Class Methods
+﻿### MemoryStateManager Class Methods
 
 For a list of all members of this type, see [MemoryStateManager members](FChoice.Common~FChoice.Common.State.MemoryStateManager_members.md).
 
@@ -18,9 +16,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [ResetTimeout](FChoice.Common~FChoice.Common.State.MemoryStateManager~ResetTimeout.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [SaveState](FChoice.Common~FChoice.Common.State.MemoryStateManager~SaveState.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

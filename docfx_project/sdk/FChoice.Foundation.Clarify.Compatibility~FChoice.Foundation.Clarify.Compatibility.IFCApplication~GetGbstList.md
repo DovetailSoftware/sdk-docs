@@ -1,27 +1,20 @@
-﻿     GetGbstList Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetGbstList Method (IFCApplication)
+﻿### GetGbstList Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743847)>
+<DispIdAttribute(1610743847)>
 Function GetGbstList( _
    ByVal _ListName_ As String, _
-   Optional ByVal _IncludeInactive_ As [Object](#) _
+   Optional ByVal _IncludeInactive_ As Object _
 ) As ADODB.Recordset
 
-\[[DispIdAttribute](#)(1610743847)\]
+[DispIdAttribute(1610743847)]
 ADODB.Recordset GetGbstList( 
    string _ListName_,
-   [object](#) _IncludeInactive_
+   object _IncludeInactive_
 )
 
 #### Parameters
@@ -30,11 +23,9 @@ _ListName_
 
 _IncludeInactive_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

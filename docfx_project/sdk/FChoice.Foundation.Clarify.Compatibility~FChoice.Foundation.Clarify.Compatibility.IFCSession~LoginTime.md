@@ -1,28 +1,19 @@
-﻿     LoginTime Property (IFCSession)                                                   
-
-fcSDK Documentation
-
-LoginTime Property (IFCSession)
+﻿### LoginTime Property (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+<DispIdAttribute(1610743808)>
+ReadOnly Property LoginTime As Date
 
-<[DispIdAttribute](#)(1610743808)>
-ReadOnly Property LoginTime As [Date](#)
+[DispIdAttribute(1610743808)]
+DateTime LoginTime {get;}
 
-\[[DispIdAttribute](#)(1610743808)\]
-[DateTime](#) LoginTime {get;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

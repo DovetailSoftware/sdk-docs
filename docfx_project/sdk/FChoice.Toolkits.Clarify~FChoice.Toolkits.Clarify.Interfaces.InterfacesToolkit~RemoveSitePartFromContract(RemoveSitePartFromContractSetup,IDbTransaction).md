@@ -1,16 +1,9 @@
-﻿     RemoveSitePartFromContract(RemoveSitePartFromContractSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-RemoveSitePartFromContract(RemoveSitePartFromContractSetup,IDbTransaction) Method
+﻿### RemoveSitePartFromContract(RemoveSitePartFromContractSetup,IDbTransaction) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function RemoveSitePartFromContract( _
    ByVal _setupParam_ As [RemoveSitePartFromContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSitePartFromContractSetup.md), _
@@ -28,11 +21,9 @@ _setupParam_
 
 _transaction_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

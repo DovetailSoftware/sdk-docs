@@ -1,25 +1,19 @@
-﻿     InvalidLoggingConfigException Class                                                   
-
-InvalidLoggingConfigException Class
+﻿### InvalidLoggingConfigException Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <SerializableAttribute()>
 Public Class InvalidLoggingConfigException 
    Inherits [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)
 
-\[SerializableAttribute()\]
+[SerializableAttribute()]
 public class InvalidLoggingConfigException : [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Exception](#)  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
@@ -33,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

@@ -11,22 +11,22 @@ Assert it used internally by First Choice products to ensure that internal state
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Shared Sub Assert( _
-   ByVal _errorId_ As [Integer](#), _
+   ByVal _errorId_ As Integer, _
    ByVal _assertionResult_ As Boolean, _
    ByVal _reason_ As String _
 ) 
+```
 
+```csharp
 public static void Assert( 
-   [int](#) _errorId_,
+   int _errorId_,
    bool _assertionResult_,
    string _reason_
 )
+```
 
 #### Parameters
 
@@ -52,11 +52,7 @@ Remarks
 
 Note that the **_reason_** parameter is not localized. Assertions are generally internal state monitors used by programmers and are not intended to be viewed by end users. The reason should be encoded in the language of the developer to aid in troubleshooting.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

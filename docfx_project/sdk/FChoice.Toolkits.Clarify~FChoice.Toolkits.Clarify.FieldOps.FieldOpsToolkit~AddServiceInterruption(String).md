@@ -1,18 +1,11 @@
-﻿     AddServiceInterruption(String) Method                                                   
-
-fcSDK Documentation
-
-AddServiceInterruption(String) Method
+﻿### AddServiceInterruption(String) Method
 
 The identifier of the Case with which this Service Interuption is associated
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AddServiceInterruption( _
    ByVal _caseIDNum_ As String _
@@ -35,11 +28,9 @@ The following values are populated in the [AddServiceInterruptionResult](FChoice
 *   [ScheduleObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult~ScheduleObjid.md) \- The Objid of the Schedule.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult~Objid.md) \- The Objid of the Appointment.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

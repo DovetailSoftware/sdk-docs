@@ -1,16 +1,9 @@
-﻿     ClarifyDataSet Class                                                   
-
-fcSDK Documentation
-
-ClarifyDataSet Class
+﻿### ClarifyDataSet Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class ClarifyDataSet 
    Inherits [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md)
@@ -19,7 +12,7 @@ public class ClarifyDataSet : [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md)  
       **FChoice.Foundation.Clarify.ClarifyDataSet**  
 
@@ -31,7 +24,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

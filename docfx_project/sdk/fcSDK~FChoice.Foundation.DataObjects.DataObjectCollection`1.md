@@ -7,10 +7,7 @@ DataObjectCollection<T> Class
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class DataObjectCollection(Of T As [IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md)) 
    Inherits [System.Collections.Generic.List(Of T)](#)
@@ -24,7 +21,7 @@ _T_
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Collections.Generic.List<T>](#)  
       **FChoice.Foundation.DataObjects.DataObjectCollection<T>**  
          [FChoice.Foundation.Clarify.DataObjects.CountryCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.CountryCollection.md)  
@@ -52,7 +49,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LogCREmailSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogCREmailSetup Class Members
+﻿### LogCREmailSetup Class Members
 
 The following tables list the members exposed by [LogCREmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogCREmailSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup~_ctor.md) | Initializes a new instance of the LogCREmailSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -30,9 +26,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SendEmail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup~SendEmail.md) | Should this email be sent from rulemanager?   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup~UserName.md) | The user logging an email for the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

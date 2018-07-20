@@ -1,8 +1,4 @@
-﻿     CreateQuoteLineItemSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateQuoteLineItemSetup Class Properties
+﻿### CreateQuoteLineItemSetup Class Properties
 
 For a list of all members of this type, see [CreateQuoteLineItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup_members.md).
 
@@ -32,9 +28,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UnitsUsed](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup~UnitsUsed.md) | The number of units used for this line item.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup~UserName.md) | The user who is creating the line item. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

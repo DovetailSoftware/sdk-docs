@@ -1,8 +1,4 @@
-﻿     ChangeCRStatus(ChangeCRStatusSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-ChangeCRStatus(ChangeCRStatusSetup,IDbTransaction) Method
+﻿### ChangeCRStatus(ChangeCRStatusSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Change the status of a CR. This overload takes a setup object and a database tra
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ChangeCRStatus( _
    ByVal _setupParam_ As [ChangeCRStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

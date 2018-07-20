@@ -1,20 +1,18 @@
-﻿     Count Property (DataParameterCollection)                                                   
-
-Count Property (DataParameterCollection)
+﻿### Count Property (DataParameterCollection)
 
 Retrieves the number of parameters actually contained in the DataParameterCollection.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-Public ReadOnly Property Count As [Integer](#)
+Public ReadOnly Property Count As Integer
+```
 
-public [int](#) Count {get;}
+```csharp
+public int Count {get;}
+```
 
 #### Property Value
 
@@ -24,11 +22,7 @@ Remarks
 
 The number of parameters actually contained in the DataParameterCollection.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

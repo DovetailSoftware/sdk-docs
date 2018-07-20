@@ -1,26 +1,18 @@
-﻿     UpdateSubcaseSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateSubcaseSetup Class
+﻿### UpdateSubcaseSetup Class
 
 Used by the [UpdateSubcase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UpdateSubcase(UpdateSubcaseSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateSubcaseSetup 
 
 public class UpdateSubcaseSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.UpdateSubcaseSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

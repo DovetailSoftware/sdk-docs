@@ -1,8 +1,4 @@
-﻿     MovePartRequest(MovePartRequestSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-MovePartRequest(MovePartRequestSetup,IDbTransaction) Method
+﻿### MovePartRequest(MovePartRequestSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Move the PartRequest from one WipBin to another WipBin. This overload takes a se
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function MovePartRequest( _
    ByVal _setupParam_ As [MovePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup.md), _
@@ -52,11 +45,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

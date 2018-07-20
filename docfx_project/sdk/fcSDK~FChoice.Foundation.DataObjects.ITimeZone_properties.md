@@ -1,8 +1,4 @@
-﻿     ITimeZone Interface Properties                                                   
-
-fcSDK Documentation
-
-ITimeZone Interface Properties
+﻿### ITimeZone Interface Properties
 
 For a list of all members of this type, see [ITimeZone members](fcSDK~FChoice.Foundation.DataObjects.ITimeZone_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Name](fcSDK~FChoice.Foundation.DataObjects.ITimeZone~Name.md) |   |
 | ![ Property](dotnetimages/Property.png) | [UtcOffsetSeconds](fcSDK~FChoice.Foundation.DataObjects.ITimeZone~UtcOffsetSeconds.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

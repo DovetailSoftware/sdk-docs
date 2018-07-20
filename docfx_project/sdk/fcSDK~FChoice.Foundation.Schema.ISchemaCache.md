@@ -1,20 +1,16 @@
-﻿     ISchemaCache Interface                                                   
-
-fcSDK Documentation
-
-ISchemaCache Interface
+﻿### ISchemaCache Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Interface ISchemaCache 
+```
 
+```csharp
 public interface ISchemaCache 
+```
 
 #### Requirements
 
@@ -24,9 +20,7 @@ public interface ISchemaCache
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
-
 #### Reference
 
-[ISchemaCache Members](fcSDK~FChoice.Foundation.Schema.ISchemaCache_members.md)  
+[ISchemaCache Members](fcSDK~FChoice.Foundation.Schema.ISchemaCache_members.md)
 [FChoice.Foundation.Schema Namespace](fcSDK~FChoice.Foundation.Schema_namespace.md)

@@ -1,8 +1,4 @@
-﻿     LogPartsUsedExchangeSetup Constructor                                                   
-
-fcSDK Documentation
-
-LogPartsUsedExchangeSetup Constructor
+﻿### LogPartsUsedExchangeSetup Constructor
 
 Initializes a new instance of the LogPartsUsedExchangeSetup class.
 
@@ -15,11 +11,9 @@ Overload List
 | [LogPartsUsedExchangeSetup Constructor(String,String,Int32,String,String,String,String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup~_ctor(String,String,Int32,String,String,String,String).md) | Initializes a new instance of the LogPartsUsedExchangeSetup class. This overload takes a set of required parameters for the API.   |
 | [LogPartsUsedExchangeSetup Constructor(String,String,Int32,String,String,String,Int32)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup~_ctor(String,String,Int32,String,String,String,Int32).md) | Initializes a new instance of the LogPartsUsedExchangeSetup class. This overload takes a set of required parameters for the API.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

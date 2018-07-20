@@ -1,18 +1,11 @@
-﻿     CreateTimeLog(CreateTimeLogSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateTimeLog(CreateTimeLogSetup) Method
+﻿### CreateTimeLog(CreateTimeLogSetup) Method
 
 Setup object for API invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateTimeLog( _
    ByVal _setupParam_ As [CreateTimeLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup.md) _
@@ -35,11 +28,9 @@ The following values are populated in the [CreateTimeLogResult](FChoice.Toolkits
 *   [OnsiteLogObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult~OnsiteLogObjid.md) \- The Objid of the OnsiteLog.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult~Objid.md) \- The Objid of the TimeLog.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ReplicateCR Method                                                   
-
-fcSDK Documentation
-
-ReplicateCR Method
+﻿### ReplicateCR Method
 
 Replicate a CR. This overload takes a set of required parameters for the API.
 
@@ -24,11 +20,9 @@ The new CR is an exact copy of the original with the following exceptions:
 2.  The CR history has next text added to show the start and end of the replicated CR history.
 3.  A new activity log entry is added to show this CR is replicated. Also, an activity log entry is also added to the original CR to note that it has been replicated.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

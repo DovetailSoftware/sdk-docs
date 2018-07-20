@@ -1,8 +1,4 @@
-﻿     UpdateSitePartSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateSitePartSetup Class Members
+﻿### UpdateSitePartSetup Class Members
 
 The following tables list the members exposed by [UpdateSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateSitePartSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateSitePartSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateSitePartSetup~_ctor.md) | Initializes a new instance of the UpdateSitePartSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -34,9 +30,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateSitePartSetup~UserName.md) | The user who is updating the Site Part. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WarrantyDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateSitePartSetup~WarrantyDate.md) | The DateTime the warranty begins for the Site Part.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

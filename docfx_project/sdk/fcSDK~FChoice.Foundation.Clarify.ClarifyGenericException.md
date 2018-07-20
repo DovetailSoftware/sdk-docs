@@ -1,27 +1,19 @@
-﻿     ClarifyGenericException Class                                                   
-
-fcSDK Documentation
-
-ClarifyGenericException Class
+﻿### ClarifyGenericException Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <SerializableAttribute()>
 Public Class ClarifyGenericException 
    Inherits [FChoice.Foundation.GenericException](fcSDK~FChoice.Foundation.GenericException.md)
 
-\[SerializableAttribute()\]
+[SerializableAttribute()]
 public class ClarifyGenericException : [FChoice.Foundation.GenericException](fcSDK~FChoice.Foundation.GenericException.md) 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Exception](#)  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
@@ -37,7 +29,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

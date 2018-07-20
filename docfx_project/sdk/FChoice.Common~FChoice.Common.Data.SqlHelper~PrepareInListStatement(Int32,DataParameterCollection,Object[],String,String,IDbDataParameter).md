@@ -5,27 +5,24 @@ PrepareInListStatement(Int32,DataParameterCollection,Object\[\],String,String,ID
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function PrepareInListStatement( _
-   ByVal _paramBaseNum_ As [Integer](#), _
+   ByVal _paramBaseNum_ As Integer, _
    ByVal _dataParams_ As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md), _
-   ByVal _inList_() As [Object](#), _
+   ByVal _inList_() As Object, _
    ByVal _columnName_ As String, _
    ByVal _text_ As String, _
-   ByVal _parameterTemplate_ As [IDbDataParameter](#) _
+   ByVal _parameterTemplate_ As IDbDataParameter _
 ) As String
 
 public string PrepareInListStatement( 
-   [int](#) _paramBaseNum_,
+   int _paramBaseNum_,
    [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _dataParams_,
-   [object](#)\[\] _inList_,
+   object\[\] _inList_,
    string _columnName_,
    string _text_,
-   [IDbDataParameter](#) _parameterTemplate_
+   IDbDataParameter _parameterTemplate_
 )
 
 #### Parameters
@@ -42,11 +39,9 @@ _text_
 
 _parameterTemplate_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

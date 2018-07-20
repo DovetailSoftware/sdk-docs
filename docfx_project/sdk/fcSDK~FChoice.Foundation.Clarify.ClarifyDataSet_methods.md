@@ -1,8 +1,4 @@
-﻿     ClarifyDataSet Class Methods                                                   
-
-fcSDK Documentation
-
-ClarifyDataSet Class Methods
+﻿### ClarifyDataSet Class Methods
 
 For a list of all members of this type, see [ClarifyDataSet members](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet_members.md).
 
@@ -14,9 +10,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Query](fcSDK~FChoice.Foundation.GenericDataSet~Query.md) | Overloaded.  (Inherited from [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](fcSDK~FChoice.Foundation.GenericDataSet~Update.md) | Overloaded.  (Inherited from [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

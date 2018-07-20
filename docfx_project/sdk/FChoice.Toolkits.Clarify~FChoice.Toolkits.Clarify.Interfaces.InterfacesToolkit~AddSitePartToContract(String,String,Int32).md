@@ -1,8 +1,4 @@
-﻿     AddSitePartToContract(String,String,Int32) Method                                                   
-
-fcSDK Documentation
-
-AddSitePartToContract(String,String,Int32) Method
+﻿### AddSitePartToContract(String,String,Int32) Method
 
 Contract Identifier.
 
@@ -15,22 +11,22 @@ Adds a Site Part to a Contract. This overload takes a set of required parameters
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function AddSitePartToContract( _
    ByVal _contractIDNum_ As String, _
    ByVal _siteIDNum_ As String, _
-   ByVal _sitePartObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _sitePartObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddSitePartToContract( 
+```csharp
+public ToolkitResult AddSitePartToContract( 
    string _contractIDNum_,
    string _siteIDNum_,
-   [int](#) _sitePartObjid_
+   int _sitePartObjid_
 )
+```
 
 #### Parameters
 
@@ -48,13 +44,9 @@ Objid of the SitePart to be added.
 
 #### Return Value
 
-A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

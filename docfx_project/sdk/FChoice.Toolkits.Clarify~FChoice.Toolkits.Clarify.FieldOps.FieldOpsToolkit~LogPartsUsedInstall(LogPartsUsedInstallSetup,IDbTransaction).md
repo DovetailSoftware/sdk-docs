@@ -1,8 +1,4 @@
-﻿     LogPartsUsedInstall(LogPartsUsedInstallSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-LogPartsUsedInstall(LogPartsUsedInstallSetup,IDbTransaction) Method
+﻿### LogPartsUsedInstall(LogPartsUsedInstallSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to install a new site part. This overload takes a setup object and a data
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogPartsUsedInstall( _
    ByVal _setupParam_ As [LogPartsUsedInstallSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedInstallSetup.md), _
@@ -58,11 +51,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

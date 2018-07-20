@@ -1,8 +1,4 @@
-﻿     ChangeActionItemConditionSetup Class Members                                                   
-
-fcSDK Documentation
-
-ChangeActionItemConditionSetup Class Members
+﻿### ChangeActionItemConditionSetup Class Members
 
 The following tables list the members exposed by [ChangeActionItemConditionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemConditionSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ChangeActionItemConditionSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemConditionSetup~_ctor.md) | Initializes a new instance of the ChangeActionItemConditionSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [NewStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemConditionSetup~NewStatus.md) | Element from the 'Open Action Item' application list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemConditionSetup~UserName.md) | The user who is changing the action item condition. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

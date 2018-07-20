@@ -1,8 +1,4 @@
-﻿     ILocaleCache Interface Events                                                   
-
-fcSDK Documentation
-
-ILocaleCache Interface Events
+﻿### ILocaleCache Interface Events
 
 For a list of all members of this type, see [ILocaleCache members](fcSDK~FChoice.Foundation.Clarify.ILocaleCache_members.md).
 
@@ -12,9 +8,9 @@ Public Events
 | --- | --- | --- |
 | ![ Event](dotnetimages/Event.png) | [CacheUpdated](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~CacheUpdated_EV.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

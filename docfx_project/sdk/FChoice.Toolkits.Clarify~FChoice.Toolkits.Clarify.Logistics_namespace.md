@@ -57,7 +57,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [UpdatePartStockingLevelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup.md) | Used by the [UpdatePartStockingLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartStockingLevel(UpdatePartStockingLevelSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [YankPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup.md) | Used by the [YankPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~YankPartRequest(YankPartRequestSetup).md) method as setup data for invocation. |
 
-See Also
+
 
 #### Reference
 

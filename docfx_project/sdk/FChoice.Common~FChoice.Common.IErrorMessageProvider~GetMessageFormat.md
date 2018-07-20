@@ -1,6 +1,4 @@
-﻿     GetMessageFormat Method                                                   
-
-GetMessageFormat Method
+﻿### GetMessageFormat Method
 
 The message ID whose string value to load.
 
@@ -9,10 +7,7 @@ Called by [FCExceptionBase Class](FChoice.Common~FChoice.Common.FCExceptionBase.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Function GetMessageFormat( _
    ByVal _messageId_ As String _
@@ -38,11 +33,9 @@ If you wish to provide internationalized culture-specific error messages, use th
 
 **NOTE:** If a message string cannot be loaded for this message ID, simple return null (**Nothing** in Visual Basic) and an attempt will be made by [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) to load a default string in the default culture (en-US).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

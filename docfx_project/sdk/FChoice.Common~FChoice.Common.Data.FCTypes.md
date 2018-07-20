@@ -1,16 +1,11 @@
-﻿     FCTypes Class                                                   
-
-FCTypes Class
+﻿### FCTypes Class
 
 This class is not currently used and is intended for future products.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public NotInheritable Class FCTypes 
 
@@ -18,7 +13,7 @@ public sealed class FCTypes
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.Data.FCTypes**  
 
 #### Requirements
@@ -29,7 +24,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

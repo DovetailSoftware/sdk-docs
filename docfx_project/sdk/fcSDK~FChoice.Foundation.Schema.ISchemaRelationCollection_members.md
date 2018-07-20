@@ -1,8 +1,4 @@
-﻿     ISchemaRelationCollection Interface Members                                                   
-
-fcSDK Documentation
-
-ISchemaRelationCollection Interface Members
+﻿### ISchemaRelationCollection Interface Members
 
 The following tables list the members exposed by [ISchemaRelationCollection](fcSDK~FChoice.Foundation.Schema.ISchemaRelationCollection.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![ Property](dotnetimages/Property.png) | [Item](fcSDK~FChoice.Foundation.Schema.ISchemaRelationCollection~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

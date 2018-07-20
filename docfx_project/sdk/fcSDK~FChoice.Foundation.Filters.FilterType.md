@@ -1,18 +1,11 @@
-﻿     FilterType Class                                                   
-
-fcSDK Documentation
-
-FilterType Class
+﻿### FilterType Class
 
 This is a helper factory for creation of Filter objects.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit NotInheritable Class FilterType 
 
@@ -24,7 +17,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Filters.FilterType**  
 
 #### Requirements
@@ -35,7 +28,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

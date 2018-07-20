@@ -1,22 +1,17 @@
-﻿     LoadState(Guid,Type) Method                                                   
-
-LoadState(Guid,Type) Method
+﻿### LoadState(Guid,Type) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function LoadState( _
-   ByVal _id_ As [Guid](#), _
+   ByVal _id_ As Guid, _
    ByVal _stateType_ As [Type](#) _
-) As [Object](#)
+) As Object
 
-public static [object](#) LoadState( 
-   [Guid](#) _id_,
+public static object LoadState( 
+   Guid _id_,
    [Type](#) _stateType_
 )
 
@@ -26,11 +21,9 @@ _id_
 
 _stateType_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

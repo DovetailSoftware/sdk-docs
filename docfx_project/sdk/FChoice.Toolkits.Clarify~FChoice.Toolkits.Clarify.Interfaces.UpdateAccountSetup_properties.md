@@ -1,8 +1,4 @@
-﻿     UpdateAccountSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateAccountSetup Class Properties
+﻿### UpdateAccountSetup Class Properties
 
 For a list of all members of this type, see [UpdateAccountSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAccountSetup_members.md).
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAccountSetup~UserName.md) | User creating the Account   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WebSite](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAccountSetup~WebSite.md) | URL of the Account's web site.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

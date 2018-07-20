@@ -1,8 +1,4 @@
-﻿     AddEmployeeToAccountSetup Class Members                                                   
-
-fcSDK Documentation
-
-AddEmployeeToAccountSetup Class Members
+﻿### AddEmployeeToAccountSetup Class Members
 
 The following tables list the members exposed by [AddEmployeeToAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddEmployeeToAccountSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup~_ctor.md) | Initializes a new instance of the AddEmployeeToAccountSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RoleName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup~RoleName.md) | Role for User in the Account .   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup~UserName.md) | Username of the Account team member .   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

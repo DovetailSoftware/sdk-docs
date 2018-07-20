@@ -1,26 +1,18 @@
-﻿     ChangeCaseContactSetup Class                                                   
-
-fcSDK Documentation
-
-ChangeCaseContactSetup Class
+﻿### ChangeCaseContactSetup Class
 
 Used by the [ChangeCaseContact](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeCaseContact(ChangeCaseContactSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ChangeCaseContactSetup 
 
 public class ChangeCaseContactSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

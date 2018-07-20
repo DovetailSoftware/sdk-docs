@@ -1,8 +1,4 @@
-﻿     CreateQueue(CreateQueueSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateQueue(CreateQueueSetup) Method
+﻿### CreateQueue(CreateQueueSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Create a Queue. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateQueue( _
    ByVal _setupParam_ As [CreateQueueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateQueueSetup.md) _
@@ -36,11 +29,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

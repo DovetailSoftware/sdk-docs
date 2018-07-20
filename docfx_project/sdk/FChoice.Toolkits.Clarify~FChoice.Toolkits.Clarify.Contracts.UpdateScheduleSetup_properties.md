@@ -1,8 +1,4 @@
-﻿     UpdateScheduleSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateScheduleSetup Class Properties
+﻿### UpdateScheduleSetup Class Properties
 
 For a list of all members of this type, see [UpdateScheduleSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UpdateScheduleSetup_members.md).
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ScheduleIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UpdateScheduleSetup~ScheduleIDNum.md) | Schedule Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ShipToSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UpdateScheduleSetup~ShipToSiteIDNum.md) | Site Identifier for the shipment of this Schedule.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

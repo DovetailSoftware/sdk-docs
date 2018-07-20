@@ -1,8 +1,4 @@
-﻿     UpdateServiceInterruption Method                                                   
-
-fcSDK Documentation
-
-UpdateServiceInterruption Method
+﻿### UpdateServiceInterruption Method
 
 Used to modify an existing service interruption (appointment). This overload takes a setup object and a database transaction.
 
@@ -21,11 +17,9 @@ A new description can be specified, or the current description can appended by
 
 To use the original appointment time, don’t specify the start_time or end_time. To change the start/end time, specify either both times or specify one time and a duration specified in seconds.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

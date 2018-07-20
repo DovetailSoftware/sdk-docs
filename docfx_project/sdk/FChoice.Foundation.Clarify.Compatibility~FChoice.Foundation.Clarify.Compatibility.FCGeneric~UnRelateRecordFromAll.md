@@ -1,17 +1,9 @@
-﻿     UnRelateRecordFromAll Method (FCGeneric)                                                   
-
-fcSDK Documentation
-
-UnRelateRecordFromAll Method (FCGeneric)
+﻿### UnRelateRecordFromAll Method (FCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub UnRelateRecordFromAll( _
    ByVal _relationName_ As String _
 ) 
@@ -24,11 +16,9 @@ public void UnRelateRecordFromAll(
 
 _relationName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

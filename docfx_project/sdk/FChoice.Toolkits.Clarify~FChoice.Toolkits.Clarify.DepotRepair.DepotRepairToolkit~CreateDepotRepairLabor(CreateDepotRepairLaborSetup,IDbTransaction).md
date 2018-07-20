@@ -1,8 +1,4 @@
-﻿     CreateDepotRepairLabor(CreateDepotRepairLaborSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateDepotRepairLabor(CreateDepotRepairLaborSetup,IDbTransaction) Method
+﻿### CreateDepotRepairLabor(CreateDepotRepairLaborSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Create a Depot Repair Labor to be performed on a Part. This overload takes a set
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateDepotRepairLabor( _
    ByVal _setupParam_ As [CreateDepotRepairLaborSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairLaborSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

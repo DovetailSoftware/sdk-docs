@@ -1,17 +1,9 @@
-﻿     SchemaViewFieldInfo Class                                                   
-
-fcSDK Documentation
-
-SchemaViewFieldInfo Class
+﻿### SchemaViewFieldInfo Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class SchemaViewFieldInfo 
    Inherits [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)
    Implements [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
@@ -20,7 +12,7 @@ public class SchemaViewFieldInfo : [FChoice.Foundation.Clarify.DataObjects.Clari
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  
       [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)  
          **FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfo**  
@@ -33,7 +25,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

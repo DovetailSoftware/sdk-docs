@@ -1,8 +1,4 @@
-﻿     FilterExpression Class Methods                                                   
-
-fcSDK Documentation
-
-FilterExpression Class Methods
+﻿### FilterExpression Class Methods
 
 For a list of all members of this type, see [FilterExpression members](fcSDK~FChoice.Foundation.Filters.FilterExpression_members.md).
 
@@ -44,9 +40,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [WithinHours](fcSDK~FChoice.Foundation.Filters.FilterExpression~WithinHours.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [Yesterday](fcSDK~FChoice.Foundation.Filters.FilterExpression~Yesterday.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     AssignCaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-AssignCaseSetup Class Members
+﻿### AssignCaseSetup Class Members
 
 The following tables list the members exposed by [AssignCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AssignCaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AssignCaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AssignCaseSetup~_ctor.md) | Initializes a new instance of the AssignCaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AssignCaseSetup~UserName.md) | The user who has assigned the Case. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AssignCaseSetup~WipBin.md) | User's WipBin in which to place the Case. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

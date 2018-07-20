@@ -1,8 +1,4 @@
-﻿     AddUserToQueueSetup Constructor                                                   
-
-fcSDK Documentation
-
-AddUserToQueueSetup Constructor
+﻿### AddUserToQueueSetup Constructor
 
 Name of the Queue to which the User will be added.
 
@@ -13,18 +9,15 @@ Initializes a new instance of the AddUserToQueueSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _queue_ As String, _
    ByVal _userName_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public AddUserToQueueSetup( 
    string _queue_,
    string _userName_
@@ -40,11 +33,9 @@ _userName_
 
 Username of the user being added to the Queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

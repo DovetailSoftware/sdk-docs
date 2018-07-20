@@ -1,18 +1,11 @@
-﻿     Process Property (CreateOpportunitySetup)                                                   
-
-fcSDK Documentation
-
-Process Property (CreateOpportunitySetup)
+﻿### Process Property (CreateOpportunitySetup)
 
 The process for the Opportunity. If not set, the default process is used.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property Process As String
@@ -20,11 +13,9 @@ Public Property Process As String
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public string Process {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

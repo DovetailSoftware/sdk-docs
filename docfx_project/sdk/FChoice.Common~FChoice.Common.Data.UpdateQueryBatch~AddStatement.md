@@ -1,6 +1,4 @@
-﻿     AddStatement Method                                                   
-
-AddStatement Method
+﻿### AddStatement Method
 
 An unprepared SQL statement (with the _{n}_ and _{DATE}_ parameters still present)
 
@@ -11,10 +9,7 @@ Adds an unprepared SQL statement (with the _{n}_ and _{DATE}_ parameters still p
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Sub AddStatement( _
    ByVal _sqlStmt_ As String, _
@@ -46,11 +41,9 @@ If the specified provider returns true from its [CanBatchQueries](FChoice.Common
 
 **IMPORTANT**: The UpdateQueryBatch does not commit or rollback the transaction instance. It is the responsibility of the caller to ensure that the transaction is properly set up and finished after the batch is executed.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

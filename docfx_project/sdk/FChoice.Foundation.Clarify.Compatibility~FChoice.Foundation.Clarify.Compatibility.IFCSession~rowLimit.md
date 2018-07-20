@@ -1,28 +1,19 @@
-﻿     rowLimit Property (IFCSession)                                                   
-
-fcSDK Documentation
-
-rowLimit Property (IFCSession)
+﻿### rowLimit Property (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+<DispIdAttribute(1610743841)>
+Property rowLimit As Integer
 
-<[DispIdAttribute](#)(1610743841)>
-Property rowLimit As [Integer](#)
+[DispIdAttribute(1610743841)]
+int rowLimit {get; set;}
 
-\[[DispIdAttribute](#)(1610743841)\]
-[int](#) rowLimit {get; set;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateOnsiteLogSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateOnsiteLogSetup Constructor
+﻿### CreateOnsiteLogSetup Constructor
 
 Specifies whether this Onsite Log is tied to a Case or Subcase.
 
@@ -13,18 +9,15 @@ Initializes a new instance of the CreateOnsiteLogSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _objectType_ As [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CaseObjectType.md), _
    ByVal _objectIDNum_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateOnsiteLogSetup( 
    [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CaseObjectType.md) _objectType_,
    string _objectIDNum_
@@ -40,11 +33,9 @@ _objectIDNum_
 
 Specifies the Id Number of this Onsite Log's Case or Subcase.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

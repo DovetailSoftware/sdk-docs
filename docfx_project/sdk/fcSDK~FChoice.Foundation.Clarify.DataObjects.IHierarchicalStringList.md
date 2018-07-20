@@ -1,16 +1,9 @@
-﻿     IHierarchicalStringList Interface                                                   
-
-fcSDK Documentation
-
-IHierarchicalStringList Interface
+﻿### IHierarchicalStringList Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Interface IHierarchicalStringList 
    Inherits [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
@@ -25,7 +18,7 @@ public interface IHierarchicalStringList : [FChoice.Foundation.DataObjects.IData
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

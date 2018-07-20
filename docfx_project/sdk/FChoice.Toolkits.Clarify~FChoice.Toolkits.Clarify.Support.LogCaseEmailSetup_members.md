@@ -1,8 +1,4 @@
-﻿     LogCaseEmailSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogCaseEmailSetup Class Members
+﻿### LogCaseEmailSetup Class Members
 
 The following tables list the members exposed by [LogCaseEmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogCaseEmailSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~_ctor.md) | Initializes a new instance of the LogCaseEmailSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -37,9 +33,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SendEmail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~SendEmail.md) | Specifies if a timebomb be added to Clarify that will cause Rule Manager (if running) to send the email.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

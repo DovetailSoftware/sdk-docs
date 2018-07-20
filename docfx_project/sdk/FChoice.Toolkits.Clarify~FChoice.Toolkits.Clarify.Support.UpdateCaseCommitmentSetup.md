@@ -1,26 +1,18 @@
-﻿     UpdateCaseCommitmentSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateCaseCommitmentSetup Class
+﻿### UpdateCaseCommitmentSetup Class
 
 Used by the [UpdateCaseCommitment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UpdateCaseCommitment(UpdateCaseCommitmentSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateCaseCommitmentSetup 
 
 public class UpdateCaseCommitmentSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

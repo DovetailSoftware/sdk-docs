@@ -1,22 +1,14 @@
-﻿     GetGbstDefaultObjID Method (IListCache)                                                   
-
-fcSDK Documentation
-
-GetGbstDefaultObjID Method (IListCache)
+﻿### GetGbstDefaultObjID Method (IListCache)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Function GetGbstDefaultObjID( _
    ByVal _listTitle_ As String _
-) As [Integer](#)
+) As Integer
 
-[int](#) GetGbstDefaultObjID( 
+int GetGbstDefaultObjID( 
    string _listTitle_
 )
 
@@ -24,11 +16,9 @@ Function GetGbstDefaultObjID( _
 
 _listTitle_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

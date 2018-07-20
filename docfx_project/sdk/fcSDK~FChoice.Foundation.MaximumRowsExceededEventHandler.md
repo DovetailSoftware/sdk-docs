@@ -1,17 +1,9 @@
-﻿     MaximumRowsExceededEventHandler Delegate                                                   
-
-fcSDK Documentation
-
-MaximumRowsExceededEventHandler Delegate
+﻿### MaximumRowsExceededEventHandler Delegate
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Delegate Sub MaximumRowsExceededEventHandler( _
    ByVal _sender_ As [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md), _
    ByVal _args_ As [MaximumRowsExceededEventArgs](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs.md) _
@@ -36,7 +28,7 @@ _args_
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     InterfacesToolkit Class Methods                                                   
-
-fcSDK Documentation
-
-InterfacesToolkit Class Methods
+﻿### InterfacesToolkit Class Methods
 
 For a list of all members of this type, see [InterfacesToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit_members.md).
 
@@ -83,9 +79,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateWipBin.md) | Overloaded. Update a WipBin. This overload takes a setup object.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [YankSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~YankSolution.md) | Overloaded. Yank the Solution from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

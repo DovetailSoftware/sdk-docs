@@ -1,18 +1,11 @@
-﻿     LogisticsToolkitBase Class                                                   
-
-fcSDK Documentation
-
-LogisticsToolkitBase Class
+﻿### LogisticsToolkitBase Class
 
 This class is intended for internal use by the [LogisticsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md).
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class LogisticsToolkitBase 
    Inherits [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)
@@ -21,7 +14,7 @@ public abstract class LogisticsToolkitBase : [FChoice.Toolkits.Clarify.ToolkitBa
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  
       **FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase**  
          [FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
@@ -34,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

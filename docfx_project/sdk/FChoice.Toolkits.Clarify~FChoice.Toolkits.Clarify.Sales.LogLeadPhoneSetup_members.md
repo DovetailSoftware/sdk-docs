@@ -1,8 +1,4 @@
-﻿     LogLeadPhoneSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogLeadPhoneSetup Class Members
+﻿### LogLeadPhoneSetup Class Members
 
 The following tables list the members exposed by [LogLeadPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogLeadPhoneSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup~_ctor.md) | Initializes a new instance of the LogLeadPhoneSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -30,9 +26,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup~Notes.md) | Notes about the Lead Phone Note logging.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup~UserName.md) | The user who is logging the phone call. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

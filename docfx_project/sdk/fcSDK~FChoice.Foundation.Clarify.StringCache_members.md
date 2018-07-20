@@ -1,8 +1,4 @@
-﻿     StringCache Class Members                                                   
-
-fcSDK Documentation
-
-StringCache Class Members
+﻿### StringCache Class Members
 
 The following tables list the members exposed by [StringCache](fcSDK~FChoice.Foundation.Clarify.StringCache.md).
 
@@ -13,7 +9,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CacheSetName](fcSDK~FChoice.Foundation.Clarify.StringCache~CacheSetName.md) | Overridden.    |
 | ![Public Property](dotnetimages/publicProperty.png) | [CacheType](fcSDK~FChoice.Foundation.Clarify.StringCache~CacheType.md) | Overridden.    |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -25,7 +21,7 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [SupportedLocales](fcSDK~FChoice.Foundation.Clarify.StringCache~SupportedLocales.md) | Returns list of supported locales. Each fc_string has a locale, so all distinct locales are returned by this method.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCache](fcSDK~FChoice.Foundation.CacheBase~UpdateCache.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
+
 
 Public Events
 
@@ -33,9 +29,9 @@ Public Events
 | --- | --- | --- |
 | ![Public Event](dotnetimages/publicEvent.png) | [CacheUpdated](fcSDK~FChoice.Foundation.CacheBase~CacheUpdated_EV.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

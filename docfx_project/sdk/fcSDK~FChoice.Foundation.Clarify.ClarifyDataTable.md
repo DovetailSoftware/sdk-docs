@@ -1,27 +1,20 @@
-﻿     ClarifyDataTable Class                                                   
-
-fcSDK Documentation
-
-ClarifyDataTable Class
+﻿### ClarifyDataTable Class
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 Public Class ClarifyDataTable 
    Inherits [FChoice.Foundation.GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md)
 
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 public class ClarifyDataTable : [FChoice.Foundation.GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md) 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.ComponentModel.MarshalByValueComponent](#)  
       [System.Data.DataTable](#)  
          [FChoice.Foundation.GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md)  
@@ -35,7 +28,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

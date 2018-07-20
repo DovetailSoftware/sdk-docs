@@ -1,8 +1,4 @@
-﻿     InterfacesToolkit Constructor                                                   
-
-fcSDK Documentation
-
-InterfacesToolkit Constructor
+﻿### InterfacesToolkit Constructor
 
 Initializes a new instance of the InterfacesToolkit class.
 
@@ -17,11 +13,9 @@ Remarks
 
 Creating a toolkit requires that you have the application initialized and session object created.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

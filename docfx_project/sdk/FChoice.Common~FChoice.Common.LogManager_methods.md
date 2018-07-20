@@ -1,6 +1,4 @@
-﻿     LogManager Class Methods                                                   
-
-LogManager Class Methods
+﻿### LogManager Class Methods
 
 For a list of all members of this type, see [LogManager members](FChoice.Common~FChoice.Common.LogManager_members.md).
 
@@ -20,9 +18,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SetRootLoggerLevel](FChoice.Common~FChoice.Common.LogManager~SetRootLoggerLevel.md) | Changes the root's logging level (affecting all loggers)   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SetThreadContextValue](FChoice.Common~FChoice.Common.LogManager~SetThreadContextValue.md) | Sets a context variable for this thread.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

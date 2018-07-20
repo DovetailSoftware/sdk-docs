@@ -1,8 +1,4 @@
-﻿     CreateCaseObjid(CreateCaseObjidSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateCaseObjid(CreateCaseObjidSetup) Method
+﻿### CreateCaseObjid(CreateCaseObjidSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Creates a new Case by using know Objids of dependencies to keep from making addi
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateCaseObjid( _
    ByVal _setupParam_ As [CreateCaseObjidSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseObjidSetup.md) _
@@ -37,11 +30,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the Case.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Case.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

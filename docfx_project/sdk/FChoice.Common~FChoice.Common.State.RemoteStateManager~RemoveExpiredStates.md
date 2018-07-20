@@ -1,24 +1,17 @@
-﻿     RemoveExpiredStates Method (RemoteStateManager)                                                   
-
-RemoveExpiredStates Method (RemoteStateManager)
+﻿### RemoveExpiredStates Method (RemoteStateManager)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustOverride Function RemoveExpiredStates() As [Guid()](#)
 
 public abstract [Guid\[\]](#) RemoveExpiredStates()
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

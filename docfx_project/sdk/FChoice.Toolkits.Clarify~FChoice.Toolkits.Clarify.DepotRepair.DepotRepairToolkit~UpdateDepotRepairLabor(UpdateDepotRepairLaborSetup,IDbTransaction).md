@@ -1,8 +1,4 @@
-﻿     UpdateDepotRepairLabor(UpdateDepotRepairLaborSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-UpdateDepotRepairLabor(UpdateDepotRepairLaborSetup,IDbTransaction) Method
+﻿### UpdateDepotRepairLabor(UpdateDepotRepairLaborSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Update a Depot Repair Labor. This overload takes a setup object and a database t
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateDepotRepairLabor( _
    ByVal _setupParam_ As [UpdateDepotRepairLaborSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairLaborSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

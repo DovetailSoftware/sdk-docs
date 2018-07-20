@@ -1,26 +1,16 @@
-﻿     LocaleID Property (IGlobalStringList)                                                   
-
-fcSDK Documentation
-
-LocaleID Property (IGlobalStringList)
+﻿### LocaleID Property (IGlobalStringList)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+ReadOnly Property LocaleID As Integer
 
-'Declaration
- 
+int LocaleID {get;}
 
-ReadOnly Property LocaleID As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-[int](#) LocaleID {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     FChoice.Toolkits.Clarify Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify Namespace
+﻿### FChoice.Toolkits.Clarify Namespace
 
 Root namespace for all the API Toolkit functionality contained in the fcSDK. Shared objects such as [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) and [AdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.md) are contained in this namespace. For more information about a particular toolkit, please consult its individual namespace.
 
@@ -53,8 +49,6 @@ Enumerations
 | ![Enumeration](dotnetimages/Enumeration.png) | [RepairPartDisposition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.RepairPartDisposition.md) | What to do with the repair part when the repair is completed. |
 | ![Enumeration](dotnetimages/Enumeration.png) | [SiteStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteStatus.md) | The status of the Site being created or modified. |
 | ![Enumeration](dotnetimages/Enumeration.png) | [SiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteType.md) | The type of the Site being created of modified. |
-
-See Also
 
 #### Reference
 

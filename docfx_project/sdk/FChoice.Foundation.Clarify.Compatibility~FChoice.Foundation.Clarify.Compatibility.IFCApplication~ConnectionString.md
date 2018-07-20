@@ -1,28 +1,18 @@
-﻿     ConnectionString Property (IFCApplication)                                                   
-
-fcSDK Documentation
-
-ConnectionString Property (IFCApplication)
+﻿### ConnectionString Property (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743813)>
+' Declaration
+<DispIdAttribute(1610743813)>
 ReadOnly Property ConnectionString As String
 
-\[[DispIdAttribute](#)(1610743813)\]
+[DispIdAttribute(1610743813)]
 string ConnectionString {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

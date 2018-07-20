@@ -1,8 +1,4 @@
-﻿     LocaleCache Class Events                                                   
-
-fcSDK Documentation
-
-LocaleCache Class Events
+﻿### LocaleCache Class Events
 
 For a list of all members of this type, see [LocaleCache members](fcSDK~FChoice.Foundation.Clarify.LocaleCache_members.md).
 
@@ -12,9 +8,9 @@ Public Events
 | --- | --- | --- |
 | ![Public Event](dotnetimages/publicEvent.png) | [CacheUpdated](fcSDK~FChoice.Foundation.CacheBase~CacheUpdated_EV.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

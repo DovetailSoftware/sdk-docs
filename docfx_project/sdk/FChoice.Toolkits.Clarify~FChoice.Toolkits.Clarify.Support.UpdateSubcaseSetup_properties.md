@@ -1,8 +1,4 @@
-﻿     UpdateSubcaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateSubcaseSetup Class Properties
+﻿### UpdateSubcaseSetup Class Properties
 
 For a list of all members of this type, see [UpdateSubcaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseSetup_members.md).
 
@@ -20,9 +16,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseSetup~UpdateDate.md) | DateTime the Subcase was updated. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseSetup~UserName.md) | User who updated the Subcase. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

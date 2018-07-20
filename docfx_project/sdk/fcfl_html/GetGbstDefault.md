@@ -1,5 +1,4 @@
-_GetGbstDefault or GetGbstLocalizedDefault_
--------------------------------------------
+### GetGbstDefault or GetGbstLocalizedDefault
 
 **Object and Type**
 
@@ -17,11 +16,7 @@ Public Function GetLocalizedGbstDefault(ByVal ListName As String) As String
 
 GetGbstDefault - This method returns the default string value for a given Application Popup list.
 
-  
-
 GetLocalizedGbstDefault - This method returns the default string value for a given Application Popup list for the FCSession's current culture.
-
-  
 
 The gbst_elm table is cached in the FCApplication object, so this method does not cause a database round-trip.
 

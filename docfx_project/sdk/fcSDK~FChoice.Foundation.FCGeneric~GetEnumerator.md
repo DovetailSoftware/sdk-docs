@@ -1,18 +1,11 @@
-﻿     GetEnumerator Method (FCGeneric)                                                   
-
-fcSDK Documentation
-
-GetEnumerator Method (FCGeneric)
+﻿### GetEnumerator Method (FCGeneric)
 
 Returns an [IEnumerator](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemcollectionsienumeratorclasstopic.htm) for the FCGeneric.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function GetEnumerator() As [IEnumerator](#)
 
@@ -22,11 +15,9 @@ public [IEnumerator](#) GetEnumerator()
 
 Returns an [IEnumerator](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemcollectionsienumeratorclasstopic.htm) for the FCGeneric.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

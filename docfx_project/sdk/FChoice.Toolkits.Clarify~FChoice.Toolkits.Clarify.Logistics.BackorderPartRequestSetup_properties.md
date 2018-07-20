@@ -1,8 +1,4 @@
-﻿     BackorderPartRequestSetup Class Properties                                                   
-
-fcSDK Documentation
-
-BackorderPartRequestSetup Class Properties
+﻿### BackorderPartRequestSetup Class Properties
 
 For a list of all members of this type, see [BackorderPartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup_members.md).
 
@@ -26,9 +22,9 @@ The DateTime the Part Request backordered parts are expected to arrive. If not 
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup~UserName.md) | The user who is backordering the Part Request. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseTransitions](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup~UseTransitions.md) | Specifies whether or not logistics transitions will be checked and the condition/status of the part request detail will be changed during the backorder operation   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

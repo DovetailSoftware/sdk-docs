@@ -1,24 +1,18 @@
-﻿     PerfManager Class                                                   
-
-PerfManager Class
+﻿### PerfManager Class
 
 Provides basic convenience services for instrumenting performance counters in an application
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public NotInheritable Class PerfManager 
 
 public sealed class PerfManager 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.PerfManager**  
 
 #### Requirements
@@ -29,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

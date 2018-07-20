@@ -1,8 +1,4 @@
-﻿     CreateTimeZone(CreateTimeZoneSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateTimeZone(CreateTimeZoneSetup,IDbTransaction) Method
+﻿### CreateTimeZone(CreateTimeZoneSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Creates a Time Zone and relates it to an existing Country. This overload takes a
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateTimeZone( _
    ByVal _setupParam_ As [CreateTimeZoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateTimeZoneSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

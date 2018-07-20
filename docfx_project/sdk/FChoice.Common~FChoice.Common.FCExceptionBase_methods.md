@@ -1,6 +1,4 @@
-﻿     FCExceptionBase Class Methods                                                   
-
-FCExceptionBase Class Methods
+﻿### FCExceptionBase Class Methods
 
 For a list of all members of this type, see [FCExceptionBase members](FChoice.Common~FChoice.Common.FCExceptionBase_members.md).
 
@@ -14,9 +12,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SetMessageProvider](FChoice.Common~FChoice.Common.FCExceptionBase~SetMessageProvider.md) | Sets the [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) that FCExceptionBase will use for loading custom exception error message strings for localization or customization.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,17 +1,9 @@
-﻿     CacheLoadedEventHandler Delegate                                                   
-
-fcSDK Documentation
-
-CacheLoadedEventHandler Delegate
+﻿### CacheLoadedEventHandler Delegate
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Delegate Sub CacheLoadedEventHandler( _
    ByVal _cacheName_ As String, _
    ByVal _isCustom_ As Boolean _
@@ -36,7 +28,7 @@ _isCustom_
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

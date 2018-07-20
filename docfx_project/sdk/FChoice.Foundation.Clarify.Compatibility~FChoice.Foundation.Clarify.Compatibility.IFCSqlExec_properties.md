@@ -1,8 +1,4 @@
-﻿     IFCSqlExec Interface Properties                                                   
-
-fcSDK Documentation
-
-IFCSqlExec Interface Properties
+﻿### IFCSqlExec Interface Properties
 
 For a list of all members of this type, see [IFCSqlExec members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Records](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec~Records.md) |   |
 | ![ Property](dotnetimages/Property.png) | [StayConnected](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec~StayConnected.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

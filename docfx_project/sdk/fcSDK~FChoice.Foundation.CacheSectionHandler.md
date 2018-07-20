@@ -1,24 +1,16 @@
-﻿     CacheSectionHandler Class                                                   
-
-fcSDK Documentation
-
-CacheSectionHandler Class
+﻿### CacheSectionHandler Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CacheSectionHandler 
 
 public class CacheSectionHandler 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.CacheSectionHandler**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

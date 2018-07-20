@@ -1,17 +1,9 @@
-﻿     CompatibilityException Class                                                   
-
-fcSDK Documentation
-
-CompatibilityException Class
+﻿### CompatibilityException Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[ComVisibleAttribute](#)(False)>
 <[GuidAttribute](#)("4EC21DC6-3E55-3633-B289-FCC59D5AF61C")>
 <SerializableAttribute()>
@@ -20,12 +12,12 @@ Public Class CompatibilityException
 
 \[[ComVisibleAttribute](#)(false)\]
 \[[GuidAttribute](#)("4EC21DC6-3E55-3633-B289-FCC59D5AF61C")\]
-\[SerializableAttribute()\]
+[SerializableAttribute()]
 public class CompatibilityException : [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Exception](#)  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
@@ -40,7 +32,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

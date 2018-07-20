@@ -1,22 +1,14 @@
-﻿     RemoveAll Method (IHierarchicalStringElementCollection)                                                   
-
-fcSDK Documentation
-
-RemoveAll Method (IHierarchicalStringElementCollection)
+﻿### RemoveAll Method (IHierarchicalStringElementCollection)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Function RemoveAll( _
    ByVal _match_ As [Predicate(Of IHierarchicalStringElement)](#) _
-) As [Integer](#)
+) As Integer
 
-[int](#) RemoveAll( 
+int RemoveAll( 
    [Predicate<IHierarchicalStringElement>](#) _match_
 )
 
@@ -24,11 +16,9 @@ Function RemoveAll( _
 
 _match_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     IClarifyApplication Interface Methods                                                   
-
-fcSDK Documentation
-
-IClarifyApplication Interface Methods
+﻿### IClarifyApplication Interface Methods
 
 For a list of all members of this type, see [IClarifyApplication members](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication_members.md).
 
@@ -19,9 +15,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [GetSession](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication~GetSession.md) |   |
 | ![ Method](dotnetimages/Method.png) | [IsSessionValid](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication~IsSessionValid.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -7,20 +7,17 @@ Sort(Int32,Int32,IComparer<IGlobalStringElement>) Method
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Overloads Sub Sort( _
-   ByVal _index_ As [Integer](#), _
-   ByVal _count_ As [Integer](#), _
+   ByVal _index_ As Integer, _
+   ByVal _count_ As Integer, _
    ByVal _comparer_ As [IComparer(Of IGlobalStringElement)](#) _
 ) 
 
 void Sort( 
-   [int](#) _index_,
-   [int](#) _count_,
+   int _index_,
+   int _count_,
    [IComparer<IGlobalStringElement>](#) _comparer_
 )
 
@@ -32,11 +29,9 @@ _count_
 
 _comparer_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

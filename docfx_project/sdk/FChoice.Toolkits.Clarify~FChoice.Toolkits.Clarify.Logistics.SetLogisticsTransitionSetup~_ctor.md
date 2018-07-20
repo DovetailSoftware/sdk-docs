@@ -1,8 +1,4 @@
-﻿     SetLogisticsTransitionSetup Constructor                                                   
-
-fcSDK Documentation
-
-SetLogisticsTransitionSetup Constructor
+﻿### SetLogisticsTransitionSetup Constructor
 
 Type of Part Request that this transition applies to
 
@@ -17,12 +13,9 @@ Initializes a new instance of the SetLogisticsTransitionSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestType_ As [PartRequestType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestType.md), _
    ByVal _startCondition_ As [PartRequestCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestCondition.md), _
@@ -30,12 +23,12 @@ Public Function New( _
    ByVal ParamArray _privilegeClasses_() As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public SetLogisticsTransitionSetup( 
    [PartRequestType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestType.md) _partRequestType_,
    [PartRequestCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestCondition.md) _startCondition_,
    [PartRequestCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestCondition.md) _endCondition_,
-   params string\[\] _privilegeClasses_
+   params string[] _privilegeClasses_
 )
 
 #### Parameters
@@ -56,11 +49,9 @@ _privilegeClasses_
 
 An array of Strings which are the names of the privilege classes allowed to perform this transition
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

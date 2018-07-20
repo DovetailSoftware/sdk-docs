@@ -1,30 +1,22 @@
-﻿     ApplyPartRevisionObjid Property (UpdateEcoItemSetup)                                                   
-
-fcSDK Documentation
-
-ApplyPartRevisionObjid Property (UpdateEcoItemSetup)
+### ApplyPartRevisionObjid Property (UpdateEcoItemSetup)
 
 The objid of part revision affected by the ECO, or 0 for no change.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property ApplyPartRevisionObjid As [Integer](#)
+<PropertyBitValueAttribute()>
+Public Property ApplyPartRevisionObjid As Integer
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [int](#) ApplyPartRevisionObjid {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public int ApplyPartRevisionObjid {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

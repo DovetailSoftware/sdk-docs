@@ -6,10 +6,10 @@ FChoice.Foundation.Clarify.AutoDest Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Clarify.AutoDest.AutoDestRule](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule.md)  
 
-See Also
+
 
 #### Reference
 

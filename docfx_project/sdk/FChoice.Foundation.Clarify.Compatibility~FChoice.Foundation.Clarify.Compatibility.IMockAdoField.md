@@ -1,17 +1,9 @@
-﻿     IMockAdoField Interface                                                   
-
-fcSDK Documentation
-
-IMockAdoField Interface
+﻿### IMockAdoField Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[ComVisibleAttribute](#)(True)>
 <[GuidAttribute](#)("F7AED485-957A-4ad6-90C8-7D475C87F9C7")>
 Public Interface IMockAdoField 
@@ -28,7 +20,7 @@ public interface IMockAdoField
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreatePartRequestHeaderSubcase Method                                                   
-
-fcSDK Documentation
-
-CreatePartRequestHeaderSubcase Method
+﻿### CreatePartRequestHeaderSubcase Method
 
 Used to create a new part request header against a subcase.
 
@@ -35,11 +31,9 @@ Use this API to explicitly create part request headers for subcases (as opposed
 
 **NOTE**: The [ContractObjId](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup~ContractObjid.md) property on the [CreatePartRequestHeaderCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md) object should not be set (left as default) unless you need this functionality AND have installed the First Choice ClearCallCenter for ClearLogistics product and schema changes. If you do not have this product and wish to use this functionality, please contact First Choice Software.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

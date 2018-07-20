@@ -1,26 +1,16 @@
-﻿     UniqueID Property (DataObject)                                                   
-
-fcSDK Documentation
-
-UniqueID Property (DataObject)
+﻿### UniqueID Property (DataObject)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public ReadOnly Property UniqueID As Object
 
-'Declaration
- 
+public object UniqueID {get;}
 
-Public ReadOnly Property UniqueID As [Object](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public [object](#) UniqueID {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

@@ -1,16 +1,9 @@
-﻿     ClarifyCacheBase Class                                                   
-
-fcSDK Documentation
-
-ClarifyCacheBase Class
+﻿### ClarifyCacheBase Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class ClarifyCacheBase 
    Inherits [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)
@@ -19,7 +12,7 @@ public abstract class ClarifyCacheBase : [FChoice.Foundation.CacheBase](fcSDK~FC
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)  
       **FChoice.Foundation.Clarify.ClarifyCacheBase**  
          [FChoice.Foundation.Clarify.ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.md)  
@@ -36,7 +29,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,31 +1,29 @@
-﻿     FCInvalidConfigurationException Class                                                   
-
-FCInvalidConfigurationException Class
+﻿### FCInvalidConfigurationException Class
 
 FCInvalidConfigurationException is used when required parameters are missing from the application configuration file, or the parameters specified are invalid for some reason.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 <SerializableAttribute()>
 Public Class FCInvalidConfigurationException 
    Inherits [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)
+```
 
-\[SerializableAttribute()\]
+```csharp
+[SerializableAttribute()]
 public class FCInvalidConfigurationException : [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) 
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.Exception](#)  
-      [System.ApplicationException](#)  
-         [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
-            **FChoice.Common.FCInvalidConfigurationException**  
+System.Object  
+[System.Exception](#)  
+[System.ApplicationException](#)  
+[FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
+**FChoice.Common.FCInvalidConfigurationException**  
 
 #### Requirements
 
@@ -34,8 +32,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-See Also
 
 #### Reference
 

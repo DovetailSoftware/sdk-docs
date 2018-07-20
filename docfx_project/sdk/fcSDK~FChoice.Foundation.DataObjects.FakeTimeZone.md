@@ -1,16 +1,9 @@
-﻿     FakeTimeZone Class                                                   
-
-fcSDK Documentation
-
-FakeTimeZone Class
+﻿### FakeTimeZone Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class FakeTimeZone 
    Inherits [FChoice.Foundation.Clarify.DataObjects.FCTimeZone](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone.md)
@@ -20,7 +13,7 @@ public class FakeTimeZone : [FChoice.Foundation.Clarify.DataObjects.FCTimeZone](
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  
       [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)  
          [FChoice.Foundation.Clarify.DataObjects.FCTimeZone](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone.md)  
@@ -34,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

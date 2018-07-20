@@ -1,8 +1,4 @@
-﻿     DataObjectCollection<T> Class Methods                                                   
-
-fcSDK Documentation
-
-DataObjectCollection<T> Class Methods
+﻿### DataObjectCollection<T> Class Methods
 
 For a list of all members of this type, see [DataObjectCollection<T> members](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1_members.md).
 
@@ -41,10 +37,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [ToArray](#) | (Inherited from [System.Collections.Generic.List<T>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<T>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<T>](#)) |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

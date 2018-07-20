@@ -1,8 +1,4 @@
-﻿     CreateBOMSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateBOMSetup Class Properties
+﻿### CreateBOMSetup Class Properties
 
 For a list of all members of this type, see [CreateBOMSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateBOMSetup_members.md).
 
@@ -18,9 +14,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ParentPartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateBOMSetup~ParentPartRevision.md) | Parent Part Revision   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Quantity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateBOMSetup~Quantity.md) | How many of the Child Part Revisions are in the Parent Part Revision.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

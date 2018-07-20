@@ -1,8 +1,4 @@
-﻿     Item Property (IGlobalStringListCollection)                                                   
-
-fcSDK Documentation
-
-Item Property (IGlobalStringListCollection)
+﻿### Item Property (IGlobalStringListCollection)
 
 Overload List
 
@@ -11,11 +7,9 @@ Overload List
 | [Item(String)](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection~Item(String).md) |   |
 | [Item(Int32)](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection~Item(Int32).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

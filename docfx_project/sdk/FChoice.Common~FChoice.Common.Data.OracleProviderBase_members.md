@@ -1,6 +1,4 @@
-﻿     OracleProviderBase Class Members                                                   
-
-OracleProviderBase Class Members
+﻿### OracleProviderBase Class Members
 
 The following tables list the members exposed by [OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md).
 
@@ -15,7 +13,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RequiresDbNameParameter](FChoice.Common~FChoice.Common.Data.OracleProviderBase~RequiresDbNameParameter.md) | Overridden.    |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.OracleProviderBase~TypeMapper.md) | Overridden.    |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -42,9 +40,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TestConnection](FChoice.Common~FChoice.Common.Data.DbProvider~TestConnection.md) | Overloaded.  (Inherited from [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateConnectionParams](FChoice.Common~FChoice.Common.Data.OracleProviderBase~ValidateConnectionParams.md) | Overridden.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

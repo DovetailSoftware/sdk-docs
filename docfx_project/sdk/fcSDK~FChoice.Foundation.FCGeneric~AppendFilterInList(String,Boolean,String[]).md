@@ -1,8 +1,4 @@
-﻿     AppendFilterInList(String,Boolean,String\[\]) Method                                                   
-
-fcSDK Documentation
-
-AppendFilterInList(String,Boolean,String\[\]) Method
+﻿### AppendFilterInList(String,Boolean,String\[\]) Method
 
 Name of the field the filter will be constraining.
 
@@ -15,22 +11,22 @@ Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Overloads Sub AppendFilterInList( _
    ByVal _fieldName_ As String, _
    ByVal _isIn_ As Boolean, _
    ByVal ParamArray _list_() As String _
 ) 
+```
 
+```csharp
 public void AppendFilterInList( 
    string _fieldName_,
    bool _isIn_,
-   params string\[\] _list_
+   params string[] _list_
 )
+```
 
 #### Parameters
 
@@ -46,11 +42,7 @@ _list_
 
 Array of values to filter on
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

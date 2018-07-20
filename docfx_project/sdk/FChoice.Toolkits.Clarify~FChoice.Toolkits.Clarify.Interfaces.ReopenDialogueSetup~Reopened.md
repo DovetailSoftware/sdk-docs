@@ -1,26 +1,18 @@
-﻿     Reopened Property                                                   
-
-fcSDK Documentation
-
-Reopened Property
+﻿### Reopened Property
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-Public Property Reopened As [Date](#)
+Public Property Reopened As Date
+```
 
-public [DateTime](#) Reopened {get; set;}
+```csharp
+public DateTime Reopened {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     WorkFlowInfo Class Properties                                                   
-
-fcSDK Documentation
-
-WorkFlowInfo Class Properties
+﻿### WorkFlowInfo Class Properties
 
 For a list of all members of this type, see [WorkFlowInfo members](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo_members.md).
 
@@ -44,9 +40,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBinID](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo~WipBinID.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBinRelation](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo~WipBinRelation.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

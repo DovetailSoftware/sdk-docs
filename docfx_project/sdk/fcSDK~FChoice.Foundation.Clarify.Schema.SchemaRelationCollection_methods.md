@@ -1,8 +1,4 @@
-﻿     SchemaRelationCollection Class Methods                                                   
-
-fcSDK Documentation
-
-SchemaRelationCollection Class Methods
+﻿### SchemaRelationCollection Class Methods
 
 For a list of all members of this type, see [SchemaRelationCollection members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelationCollection_members.md).
 
@@ -42,9 +38,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SchemaRelation>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SchemaRelation>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

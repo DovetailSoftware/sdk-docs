@@ -1,22 +1,15 @@
-﻿     BinarySearch(IHierarchicalStringList) Method                                                   
-
-fcSDK Documentation
-
-BinarySearch(IHierarchicalStringList) Method
+﻿### BinarySearch(IHierarchicalStringList) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Overloads Function BinarySearch( _
    ByVal _item_ As [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md) _
-) As [Integer](#)
+) As Integer
 
-[int](#) BinarySearch( 
+int BinarySearch( 
    [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md) _item_
 )
 
@@ -24,11 +17,9 @@ Overloads Function BinarySearch( _
 
 _item_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

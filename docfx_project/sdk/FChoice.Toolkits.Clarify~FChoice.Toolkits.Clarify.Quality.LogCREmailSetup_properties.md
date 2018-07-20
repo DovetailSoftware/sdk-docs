@@ -1,8 +1,4 @@
-﻿     LogCREmailSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogCREmailSetup Class Properties
+﻿### LogCREmailSetup Class Properties
 
 For a list of all members of this type, see [LogCREmailSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup_members.md).
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SendEmail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup~SendEmail.md) | Should this email be sent from rulemanager?   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup~UserName.md) | The user logging an email for the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

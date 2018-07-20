@@ -1,17 +1,11 @@
-﻿     LicenseInfo Class                                                   
-
-LicenseInfo Class
+﻿### LicenseInfo Class
 
 License Details
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LicenseInfo 
    Implements [ILicenseInfo](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo.md) 
 
@@ -19,7 +13,7 @@ public class LicenseInfo : [ILicenseInfo](FChoice.Common~FChoice.Common.Licensin
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.Licensing.LicenseInfo**  
 
 #### Requirements
@@ -30,7 +24,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     Clear Method (ValidatedNameCollection)                                                   
-
-fcSDK Documentation
-
-Clear Method (ValidatedNameCollection)
+﻿### Clear Method (ValidatedNameCollection)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Overridable Sub Clear() 
+```
 
+```csharp
 public virtual void Clear()
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

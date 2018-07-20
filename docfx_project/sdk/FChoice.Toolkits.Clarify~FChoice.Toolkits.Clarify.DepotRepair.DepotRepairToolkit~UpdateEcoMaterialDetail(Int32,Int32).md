@@ -1,8 +1,4 @@
-﻿     UpdateEcoMaterialDetail(Int32,Int32) Method                                                   
-
-fcSDK Documentation
-
-UpdateEcoMaterialDetail(Int32,Int32) Method
+﻿### UpdateEcoMaterialDetail(Int32,Int32) Method
 
 The objid of the ECO detail object to be updated
 
@@ -13,20 +9,20 @@ Update an ECO Material Detail. This overload takes a set of required parameters 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function UpdateEcoMaterialDetail( _
-   ByVal _ecoDetailObjid_ As [Integer](#), _
-   ByVal _partRevisionObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _ecoDetailObjid_ As Integer, _
+   ByVal _partRevisionObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateEcoMaterialDetail( 
-   [int](#) _ecoDetailObjid_,
-   [int](#) _partRevisionObjid_
+```csharp
+public ToolkitResult UpdateEcoMaterialDetail( 
+   int _ecoDetailObjid_,
+   int _partRevisionObjid_
 )
+```
 
 #### Parameters
 
@@ -40,13 +36,9 @@ The objid of the part revision of the material that was put in use.
 
 #### Return Value
 
-A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

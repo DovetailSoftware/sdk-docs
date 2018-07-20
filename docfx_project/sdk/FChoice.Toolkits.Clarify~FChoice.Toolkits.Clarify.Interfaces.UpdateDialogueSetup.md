@@ -1,26 +1,18 @@
-﻿     UpdateDialogueSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateDialogueSetup Class
+﻿### UpdateDialogueSetup Class
 
 Used by the [UpdateDialogue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateDialogue(UpdateDialogueSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateDialogueSetup 
 
 public class UpdateDialogueSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UpdateDialogueSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

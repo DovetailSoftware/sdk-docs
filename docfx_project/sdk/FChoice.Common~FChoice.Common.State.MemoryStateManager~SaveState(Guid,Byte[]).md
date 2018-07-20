@@ -5,18 +5,15 @@ SaveState(Guid,Byte\[\]) Method
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub SaveState( _
-   ByVal _id_ As [Guid](#), _
+   ByVal _id_ As Guid, _
    ByVal _state_() As [Byte](#) _
 ) 
 
 public void SaveState( 
-   [Guid](#) _id_,
+   Guid _id_,
    [byte](#)\[\] _state_
 )
 
@@ -26,11 +23,9 @@ _id_
 
 _state_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

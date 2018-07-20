@@ -1,8 +1,4 @@
-﻿     FChoice.Foundation.Schema Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Foundation.Schema Namespace
+﻿### FChoice.Foundation.Schema Namespace
 
 Interfaces used to access Schema metadata.
 
@@ -28,8 +24,6 @@ Enumerations
 |   | Enumeration | Description |
 | --- | --- | --- |
 | ![Enumeration](dotnetimages/Enumeration.png) | [SchemaRelationCardinality](fcSDK~FChoice.Foundation.Schema.SchemaRelationCardinality.md) |   |
-
-See Also
 
 #### Reference
 

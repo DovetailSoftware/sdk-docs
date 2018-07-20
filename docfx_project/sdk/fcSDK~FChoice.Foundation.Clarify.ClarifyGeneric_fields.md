@@ -1,8 +1,4 @@
-﻿     ClarifyGeneric Class Fields                                                   
-
-fcSDK Documentation
-
-ClarifyGeneric Class Fields
+﻿### ClarifyGeneric Class Fields
 
 For a list of all members of this type, see [ClarifyGeneric members](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric_members.md).
 
@@ -12,9 +8,9 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GuidColumnName](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~GuidColumnName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdateGLAccountSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateGLAccountSetup Class Properties
+﻿### UpdateGLAccountSetup Class Properties
 
 For a list of all members of this type, see [UpdateGLAccountSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup_members.md).
 
@@ -31,9 +27,9 @@ Identifier of the Site with which the account is associated
 
   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

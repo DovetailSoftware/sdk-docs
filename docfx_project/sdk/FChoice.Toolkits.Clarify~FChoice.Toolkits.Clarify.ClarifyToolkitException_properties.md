@@ -1,8 +1,4 @@
-﻿     ClarifyToolkitException Class Properties                                                   
-
-fcSDK Documentation
-
-ClarifyToolkitException Class Properties
+﻿### ClarifyToolkitException Class Properties
 
 For a list of all members of this type, see [ClarifyToolkitException members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ClarifyToolkitException_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

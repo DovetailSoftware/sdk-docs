@@ -1,17 +1,9 @@
-﻿     AdoField Class                                                   
-
-fcSDK Documentation
-
-AdoField Class
+﻿### AdoField Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[ComVisibleAttribute](#)(False)>
 Public Class AdoField 
 
@@ -20,7 +12,7 @@ public class AdoField
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Compatibility.AdoField**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

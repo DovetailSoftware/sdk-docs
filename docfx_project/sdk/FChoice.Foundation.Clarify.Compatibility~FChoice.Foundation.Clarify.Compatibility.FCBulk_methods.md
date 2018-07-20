@@ -1,8 +1,4 @@
-﻿     FCBulk Class Methods                                                   
-
-fcSDK Documentation
-
-FCBulk Class Methods
+﻿### FCBulk Class Methods
 
 For a list of all members of this type, see [FCBulk members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk_members.md).
 
@@ -20,9 +16,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Update.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateAll](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~UpdateAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

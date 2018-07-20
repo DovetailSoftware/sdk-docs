@@ -1,28 +1,19 @@
-﻿     DefinedSize Property (IMockAdoField)                                                   
-
-fcSDK Documentation
-
-DefinedSize Property (IMockAdoField)
+﻿### DefinedSize Property (IMockAdoField)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+<DispIdAttribute(1610743813)>
+ReadOnly Property DefinedSize As Integer
 
-<[DispIdAttribute](#)(1610743813)>
-ReadOnly Property DefinedSize As [Integer](#)
+[DispIdAttribute(1610743813)]
+int DefinedSize {get;}
 
-\[[DispIdAttribute](#)(1610743813)\]
-[int](#) DefinedSize {get;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

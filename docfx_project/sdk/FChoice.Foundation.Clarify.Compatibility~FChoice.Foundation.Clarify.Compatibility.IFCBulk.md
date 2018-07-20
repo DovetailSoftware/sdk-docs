@@ -1,17 +1,9 @@
-﻿     IFCBulk Interface                                                   
-
-fcSDK Documentation
-
-IFCBulk Interface
+﻿### IFCBulk Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[GuidAttribute](#)("3D860A38-CDDA-4653-88DC-F7BB6AD46E94")>
 <[ComVisibleAttribute](#)(True)>
 Public Interface IFCBulk 
@@ -28,7 +20,7 @@ public interface IFCBulk
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

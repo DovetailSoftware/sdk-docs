@@ -1,6 +1,4 @@
-﻿     LicenseCollection Class Members                                                   
-
-LicenseCollection Class Members
+﻿### LicenseCollection Class Members
 
 The following tables list the members exposed by [LicenseCollection](FChoice.Common~FChoice.Common.Licensing.LicenseCollection.md).
 
@@ -10,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LicenseCollection Constructor](FChoice.Common~FChoice.Common.Licensing.LicenseCollection~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -19,7 +17,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Capacity](#) | (Inherited from [System.Collections.CollectionBase](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.CollectionBase](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -29,9 +27,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetEnumerator](#) | (Inherited from [System.Collections.CollectionBase](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](#) | (Inherited from [System.Collections.CollectionBase](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

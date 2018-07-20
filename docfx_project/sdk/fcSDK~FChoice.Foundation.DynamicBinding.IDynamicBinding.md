@@ -1,20 +1,16 @@
-﻿     IDynamicBinding Interface                                                   
-
-fcSDK Documentation
-
-IDynamicBinding Interface
+﻿### IDynamicBinding Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Interface IDynamicBinding 
+```
 
+```csharp
 public interface IDynamicBinding 
+```
 
 #### Requirements
 
@@ -23,8 +19,6 @@ public interface IDynamicBinding
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     EndInitialize Method                                                   
-
-fcSDK Documentation
-
-EndInitialize Method
+﻿### EndInitialize Method
 
 An IAsyncResult that stores state information and any user defined data for this asynchronous operation.
 
@@ -11,10 +7,7 @@ Ends an asynchronous **ClarifyApplication** initialization.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shared Function EndInitialize( _
    ByVal _result_ As [IAsyncResult](#) _
@@ -36,11 +29,9 @@ Remarks
 
 Please see the [Asynchronous Design Pattern Overview](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpguide/html/cpconasynchronousdesignpatternoverview.asp) for more details on using asynchronous methods.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CheckClearQualityTransition Method                                                   
-
-fcSDK Documentation
-
-CheckClearQualityTransition Method
+﻿### CheckClearQualityTransition Method
 
 Determine if a user can change status from an old condition/status to a new condition/status. This overload takes a set of required parameters for the API.
 
@@ -20,11 +16,9 @@ Remarks
 
 Checks the transitions as set up in Clarify’s Policies & Customers.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

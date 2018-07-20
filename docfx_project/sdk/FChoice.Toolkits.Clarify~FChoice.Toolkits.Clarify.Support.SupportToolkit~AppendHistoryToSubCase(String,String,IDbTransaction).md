@@ -1,8 +1,4 @@
-﻿     AppendHistoryToSubCase(String,String,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-AppendHistoryToSubCase(String,String,IDbTransaction) Method
+﻿### AppendHistoryToSubCase(String,String,IDbTransaction) Method
 
 Identifier of the Subcase which the history is being appended.
 
@@ -15,10 +11,7 @@ Append text to a Subcase and Case's history.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub AppendHistoryToSubCase( _
    ByVal _subCaseIdNumber_ As String, _
@@ -46,11 +39,9 @@ _dbTransaction_
 
 Database transaction under which the API will be invoked.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

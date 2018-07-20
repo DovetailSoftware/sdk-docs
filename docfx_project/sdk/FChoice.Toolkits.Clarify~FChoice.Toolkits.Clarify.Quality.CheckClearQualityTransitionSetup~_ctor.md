@@ -1,8 +1,4 @@
-﻿     CheckClearQualityTransitionSetup Constructor                                                   
-
-fcSDK Documentation
-
-CheckClearQualityTransitionSetup Constructor
+﻿### CheckClearQualityTransitionSetup Constructor
 
 The current condition of the Change Request.
 
@@ -19,12 +15,9 @@ Initializes a new instance of the CheckClearQualityTransitionSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _oldCondition_ As String, _
    ByVal _oldStatus_ As String, _
@@ -33,7 +26,7 @@ Public Function New( _
    ByVal _userName_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CheckClearQualityTransitionSetup( 
    string _oldCondition_,
    string _oldStatus_,
@@ -64,11 +57,9 @@ _userName_
 
 The user checking the transition. If not set, the session user is used.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

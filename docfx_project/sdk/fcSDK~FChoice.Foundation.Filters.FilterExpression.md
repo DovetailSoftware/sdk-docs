@@ -1,26 +1,18 @@
-﻿     FilterExpression Class                                                   
-
-fcSDK Documentation
-
-FilterExpression Class
+﻿### FilterExpression Class
 
 Filter expressions offer on non static alternative to [FilterType](fcSDK~FChoice.Foundation.Filters.FilterType.md) for construction of Filter objects.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class FilterExpression 
 
 public class FilterExpression 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Filters.FilterExpression**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

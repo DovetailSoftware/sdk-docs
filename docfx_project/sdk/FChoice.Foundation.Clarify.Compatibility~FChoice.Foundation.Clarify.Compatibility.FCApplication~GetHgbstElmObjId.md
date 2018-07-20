@@ -1,33 +1,25 @@
-﻿     GetHgbstElmObjId Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-GetHgbstElmObjId Method (FCApplication)
+﻿### GetHgbstElmObjId Method (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetHgbstElmObjId( _
    ByVal _element_ As String, _
    ByVal _listName_ As String, _
-   Optional ByVal _Element1_ As [Object](#), _
-   Optional ByVal _Element2_ As [Object](#), _
-   Optional ByVal _Element3_ As [Object](#), _
-   Optional ByVal _Element4_ As [Object](#) _
-) As [Integer](#)
+   Optional ByVal _Element1_ As Object, _
+   Optional ByVal _Element2_ As Object, _
+   Optional ByVal _Element3_ As Object, _
+   Optional ByVal _Element4_ As Object _
+) As Integer
 
-public [int](#) GetHgbstElmObjId( 
+public int GetHgbstElmObjId( 
    string _element_,
    string _listName_,
-   [object](#) _Element1_,
-   [object](#) _Element2_,
-   [object](#) _Element3_,
-   [object](#) _Element4_
+   object _Element1_,
+   object _Element2_,
+   object _Element3_,
+   object _Element4_
 )
 
 #### Parameters
@@ -44,11 +36,9 @@ _Element3_
 
 _Element4_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

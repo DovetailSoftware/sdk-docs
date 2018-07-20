@@ -13,21 +13,18 @@ Writes a ERROR-level log entry if ERROR-level logging is enabled as well as the
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub LogError( _
    ByVal _ex_ As [Exception](#), _
    ByVal _format_ As String, _
-   ByVal ParamArray _args_() As [Object](#) _
+   ByVal ParamArray _args_() As Object _
 ) 
 
 public void LogError( 
    [Exception](#) _ex_,
    string _format_,
-   params [object](#)\[\] _args_
+   params object\[\] _args_
 )
 
 #### Parameters
@@ -48,11 +45,9 @@ Remarks
 
 If the current logger is not configured for ERROR-level logging or lower, this method will do nothing.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

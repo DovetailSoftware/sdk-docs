@@ -1,19 +1,13 @@
-﻿     GracePeriodTimeSpan Enumeration                                                      
-
-GracePeriodTimeSpan Enumeration
+﻿### GracePeriodTimeSpan Enumeration
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Enum GracePeriodTimeSpan 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
 
-public enum GracePeriodTimeSpan : [System.Enum](#) 
+public enum GracePeriodTimeSpan : System.Enum 
 
 Members
 
@@ -25,9 +19,9 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Common.Licensing.GracePeriodTimeSpan**  
 
 #### Requirements
@@ -38,7 +32,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

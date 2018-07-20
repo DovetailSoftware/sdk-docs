@@ -1,36 +1,26 @@
-﻿     StartTransaction Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-StartTransaction Method (IFCSession)
+﻿### StartTransaction Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610747764)>
+' Declaration
+<DispIdAttribute(1610747764)>
 Sub StartTransaction( _
-   Optional ByVal _isolationLevel_ As [Object](#) _
+   Optional ByVal _isolationLevel_ As Object _
 ) 
 
-\[[DispIdAttribute](#)(1610747764)\]
+[DispIdAttribute(1610747764)]
 void StartTransaction( 
-   [object](#) _isolationLevel_
+   object _isolationLevel_
 )
 
 #### Parameters
 
 _isolationLevel_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

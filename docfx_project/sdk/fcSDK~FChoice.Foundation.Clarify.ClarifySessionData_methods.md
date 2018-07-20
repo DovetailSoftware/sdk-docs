@@ -1,8 +1,4 @@
-﻿     ClarifySessionData Class Methods                                                   
-
-fcSDK Documentation
-
-ClarifySessionData Class Methods
+﻿### ClarifySessionData Class Methods
 
 For a list of all members of this type, see [ClarifySessionData members](fcSDK~FChoice.Foundation.Clarify.ClarifySessionData_members.md).
 
@@ -12,9 +8,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [CopyTo](fcSDK~FChoice.Foundation.Clarify.ClarifySessionData~CopyTo.md) | Overridden.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

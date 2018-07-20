@@ -1,22 +1,15 @@
-﻿     GetSafeInt32FieldValue(String) Method                                                   
-
-fcSDK Documentation
-
-GetSafeInt32FieldValue(String) Method
+﻿### GetSafeInt32FieldValue(String) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function GetSafeInt32FieldValue( _
    ByVal _colName_ As String _
-) As [Integer](#)
+) As Integer
 
-public [int](#) GetSafeInt32FieldValue( 
+public int GetSafeInt32FieldValue( 
    string _colName_
 )
 
@@ -24,11 +17,9 @@ public [int](#) GetSafeInt32FieldValue(
 
 _colName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,30 +1,22 @@
-﻿     NormalBusinessHoursMed Property                                                   
-
-fcSDK Documentation
-
-NormalBusinessHoursMed Property
+﻿### NormalBusinessHoursMed Property
 
 Preference for medium priority notifications during normal business hours
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property NormalBusinessHoursMed As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string NormalBusinessHoursMed {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

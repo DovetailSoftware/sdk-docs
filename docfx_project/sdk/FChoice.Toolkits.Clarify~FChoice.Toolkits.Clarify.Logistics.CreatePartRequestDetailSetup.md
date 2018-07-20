@@ -1,19 +1,11 @@
-﻿     CreatePartRequestDetailSetup Class                                                   
-
-fcSDK Documentation
-
-CreatePartRequestDetailSetup Class
+﻿### CreatePartRequestDetailSetup Class
 
 Used by the [CreatePartRequestDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreatePartRequestDetailSetup 
 
 public class CreatePartRequestDetailSetup 
@@ -24,7 +16,7 @@ Remarks
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup**  
 
 #### Requirements
@@ -35,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

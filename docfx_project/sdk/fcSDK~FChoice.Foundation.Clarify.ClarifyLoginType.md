@@ -1,23 +1,19 @@
-﻿     ClarifyLoginType Enumeration                                                     
-
-fcSDK Documentation
-
-ClarifyLoginType Enumeration
+﻿### ClarifyLoginType Enumeration
 
 Provides enumerated values which determine how a given user is logged in when calling [ClarifyApplication.CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Enum ClarifyLoginType 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
+```
 
-public enum ClarifyLoginType : [System.Enum](#) 
+```csharp
+public enum ClarifyLoginType : System.Enum 
+```
 
 Members
 
@@ -32,10 +28,10 @@ For more information on how login behavior works, see the [ClarifyApplication.Cr
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
-         **FChoice.Foundation.Clarify.ClarifyLoginType**  
+System.Object  
+System.ValueType  
+System.Enum  
+**FChoice.Foundation.Clarify.ClarifyLoginType**  
 
 #### Requirements
 
@@ -44,8 +40,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

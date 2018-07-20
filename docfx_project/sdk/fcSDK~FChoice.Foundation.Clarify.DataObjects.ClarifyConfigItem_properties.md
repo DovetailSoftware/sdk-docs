@@ -1,8 +1,4 @@
-﻿     ClarifyConfigItem Class Properties                                                   
-
-fcSDK Documentation
-
-ClarifyConfigItem Class Properties
+﻿### ClarifyConfigItem Class Properties
 
 For a list of all members of this type, see [ClarifyConfigItem members](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem_members.md).
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ValueType](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~ValueType.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [ValueTypeRaw](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~ValueTypeRaw.md) | (Inherited from [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,24 +1,16 @@
-﻿     ConfigurationHelper Class                                                   
-
-fcSDK Documentation
-
-ConfigurationHelper Class
+﻿### ConfigurationHelper Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustInherit NotInheritable Class ConfigurationHelper 
 
 public static class ConfigurationHelper 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.ConfigurationHelper**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

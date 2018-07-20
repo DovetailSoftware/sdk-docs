@@ -1,26 +1,16 @@
-﻿     ObjectID Property (IHierarchicalStringElement)                                                   
-
-fcSDK Documentation
-
-ObjectID Property (IHierarchicalStringElement)
+﻿### ObjectID Property (IHierarchicalStringElement)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+ReadOnly Property ObjectID As Integer
 
-'Declaration
- 
+int ObjectID {get;}
 
-ReadOnly Property ObjectID As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-[int](#) ObjectID {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

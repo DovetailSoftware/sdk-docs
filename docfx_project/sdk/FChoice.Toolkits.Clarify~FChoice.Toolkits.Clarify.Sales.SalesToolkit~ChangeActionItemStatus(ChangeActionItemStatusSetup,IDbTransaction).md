@@ -1,8 +1,4 @@
-﻿     ChangeActionItemStatus(ChangeActionItemStatusSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-ChangeActionItemStatus(ChangeActionItemStatusSetup,IDbTransaction) Method
+﻿### ChangeActionItemStatus(ChangeActionItemStatusSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Cause the specified Action Item to have its status changed. This overload takes 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ChangeActionItemStatus( _
    ByVal _setupParam_ As [ChangeActionItemStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemStatusSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

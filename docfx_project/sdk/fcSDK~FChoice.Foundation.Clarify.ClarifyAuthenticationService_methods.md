@@ -1,8 +1,4 @@
-﻿     ClarifyAuthenticationService Class Methods                                                   
-
-fcSDK Documentation
-
-ClarifyAuthenticationService Class Methods
+﻿### ClarifyAuthenticationService Class Methods
 
 For a list of all members of this type, see [ClarifyAuthenticationService members](fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationService_members.md).
 
@@ -13,9 +9,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [AuthenticateUser](fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationService~AuthenticateUser.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [ReconstructConnectString](fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationService~ReconstructConnectString.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

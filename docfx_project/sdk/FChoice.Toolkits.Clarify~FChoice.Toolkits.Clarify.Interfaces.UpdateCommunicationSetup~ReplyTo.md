@@ -1,28 +1,18 @@
-﻿     ReplyTo Property (UpdateCommunicationSetup)                                                   
-
-fcSDK Documentation
-
-ReplyTo Property (UpdateCommunicationSetup)
+﻿### ReplyTo Property (UpdateCommunicationSetup)
 
 ReplyTo address (usually email address)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Property ReplyTo As String
 
 public string ReplyTo {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,17 +1,11 @@
-﻿     IErrorMessageProvider Interface                                                   
-
-IErrorMessageProvider Interface
+﻿### IErrorMessageProvider Interface
 
 The IErrorMessageProvider is the interface used by [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) to allow other assemblies to provide custom error message resolution.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Interface IErrorMessageProvider 
 
 public interface IErrorMessageProvider 
@@ -28,7 +22,7 @@ You can implement your own error message provider to load error message resource
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

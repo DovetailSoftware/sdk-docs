@@ -1,8 +1,4 @@
-﻿     LogCaseEmail(LogCaseEmailSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-LogCaseEmail(LogCaseEmailSetup,IDbTransaction) Method
+﻿### LogCaseEmail(LogCaseEmailSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Creates an email log against a Case. This overload takes a setup object and a da
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogCaseEmail( _
    ByVal _setupParam_ As [LogCaseEmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     IDataObject Interface Members                                                   
-
-fcSDK Documentation
-
-IDataObject Interface Members
+﻿### IDataObject Interface Members
 
 The following tables list the members exposed by [IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [FieldValues](fcSDK~FChoice.Foundation.DataObjects.IDataObject~FieldValues.md) |   |
 | ![ Property](dotnetimages/Property.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.IDataObject~UniqueID.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -27,9 +23,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.IDataObject~GetSafeInt32FieldValue.md) |   |
 | ![ Method](dotnetimages/Method.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.IDataObject~GetSafeStringFieldValue.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     DeleteEcoDetailSetup Class Members                                                   
-
-fcSDK Documentation
-
-DeleteEcoDetailSetup Class Members
+﻿### DeleteEcoDetailSetup Class Members
 
 The following tables list the members exposed by [DeleteEcoDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoDetailSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DeleteEcoDetailSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoDetailSetup~_ctor.md) | Initializes a new instance of the DeleteEcoDetailSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -20,9 +16,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [EcoDetailObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoDetailSetup~EcoDetailObjid.md) | The objid of the ECO detail object to be deleted   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

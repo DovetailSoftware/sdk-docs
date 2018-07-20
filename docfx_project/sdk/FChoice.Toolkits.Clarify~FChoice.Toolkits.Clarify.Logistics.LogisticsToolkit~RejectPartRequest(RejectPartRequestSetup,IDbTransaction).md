@@ -1,8 +1,4 @@
-﻿     RejectPartRequest(RejectPartRequestSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-RejectPartRequest(RejectPartRequestSetup,IDbTransaction) Method
+﻿### RejectPartRequest(RejectPartRequestSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Reject the PartRequest from the queue in which it currently resides, and return 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function RejectPartRequest( _
    ByVal _setupParam_ As [RejectPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.RejectPartRequestSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

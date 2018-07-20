@@ -1,24 +1,16 @@
-﻿     RelateIntFldByID Method (FCGeneric)                                                   
-
-fcSDK Documentation
-
-RelateIntFldByID Method (FCGeneric)
+﻿### RelateIntFldByID Method (FCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub RelateIntFldByID( _
-   ByVal _objId_ As [Integer](#), _
+   ByVal _objId_ As Integer, _
    ByVal _fieldName_ As String _
 ) 
 
 public void RelateIntFldByID( 
-   [int](#) _objId_,
+   int _objId_,
    string _fieldName_
 )
 
@@ -28,11 +20,9 @@ _objId_
 
 _fieldName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

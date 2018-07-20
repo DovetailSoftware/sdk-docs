@@ -1,8 +1,4 @@
-﻿     SchemaTableFieldCollection Class Properties                                                   
-
-fcSDK Documentation
-
-SchemaTableFieldCollection Class Properties
+﻿### SchemaTableFieldCollection Class Properties
 
 For a list of all members of this type, see [SchemaTableFieldCollection members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableFieldCollection_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<SchemaFieldBase>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableFieldCollection~Item.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

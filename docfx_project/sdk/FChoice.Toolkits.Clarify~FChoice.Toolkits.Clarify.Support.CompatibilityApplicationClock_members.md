@@ -1,8 +1,4 @@
-﻿     CompatibilityApplicationClock Class Members                                                   
-
-fcSDK Documentation
-
-CompatibilityApplicationClock Class Members
+﻿### CompatibilityApplicationClock Class Members
 
 The following tables list the members exposed by [CompatibilityApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CompatibilityApplicationClock.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CompatibilityApplicationClock Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CompatibilityApplicationClock~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -20,9 +16,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [Now](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CompatibilityApplicationClock~Now.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

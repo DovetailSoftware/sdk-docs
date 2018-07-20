@@ -1,8 +1,4 @@
-﻿     SchemaViewJoinCollection Class Members                                                   
-
-fcSDK Documentation
-
-SchemaViewJoinCollection Class Members
+﻿### SchemaViewJoinCollection Class Members
 
 The following tables list the members exposed by [SchemaViewJoinCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewJoinCollection.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<SchemaViewJoin>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.Generic.List<SchemaViewJoin>](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -52,9 +48,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SchemaViewJoin>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SchemaViewJoin>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

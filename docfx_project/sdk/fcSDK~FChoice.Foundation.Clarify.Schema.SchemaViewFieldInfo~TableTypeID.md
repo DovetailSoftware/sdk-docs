@@ -1,26 +1,16 @@
-﻿     TableTypeID Property                                                   
-
-fcSDK Documentation
-
-TableTypeID Property
+﻿### TableTypeID Property
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public ReadOnly Property TableTypeID As Integer
 
-'Declaration
- 
+public int TableTypeID {get;}
 
-Public ReadOnly Property TableTypeID As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public [int](#) TableTypeID {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

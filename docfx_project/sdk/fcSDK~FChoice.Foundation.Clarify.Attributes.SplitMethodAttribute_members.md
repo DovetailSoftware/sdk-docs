@@ -1,8 +1,4 @@
-﻿     SplitMethodAttribute Class Members                                                   
-
-fcSDK Documentation
-
-SplitMethodAttribute Class Members
+﻿### SplitMethodAttribute Class Members
 
 The following tables list the members exposed by [SplitMethodAttribute](fcSDK~FChoice.Foundation.Clarify.Attributes.SplitMethodAttribute.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SplitMethodAttribute Constructor](fcSDK~FChoice.Foundation.Clarify.Attributes.SplitMethodAttribute~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,7 +18,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [NumOfConstructors](fcSDK~FChoice.Foundation.Clarify.Attributes.SplitMethodAttribute~NumOfConstructors.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -33,9 +29,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [IsDefaultAttribute](#) | (Inherited from [System.Attribute](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [Match](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ReopenSubcase(ReopenSubcaseSetup) Method                                                   
-
-fcSDK Documentation
-
-ReopenSubcase(ReopenSubcaseSetup) Method
+﻿### ReopenSubcase(ReopenSubcaseSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Reopens the specified Subcase. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReopenSubcase( _
    ByVal _setupParam_ As [ReopenSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup.md) _
@@ -40,11 +33,9 @@ The [User](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubca
 
 If the [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup~WipBin.md) is not specified the Subcase is placed in the user's default WipBin.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

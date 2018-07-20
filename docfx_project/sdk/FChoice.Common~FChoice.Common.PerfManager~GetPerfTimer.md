@@ -1,17 +1,11 @@
-﻿     GetPerfTimer Method                                                   
-
-GetPerfTimer Method
+﻿### GetPerfTimer Method
 
 Gets the current value of the high-resolution performance counter
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Shared Function GetPerfTimer() As [Long](#)
 
 public static [long](#) GetPerfTimer()
@@ -26,11 +20,9 @@ This method wraps the Win32 API function [QueryPerformanceCounter](http://msdn.m
 
 For more information on instrumenting code to performing timing and performance testing, please see [MSKB Article 172338](http://support.microsoft.com/kb/q172338/) entitled "How to use QueryPerformanceCounter to Time Code."
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

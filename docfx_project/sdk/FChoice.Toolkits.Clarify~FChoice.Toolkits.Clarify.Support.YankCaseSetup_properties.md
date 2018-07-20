@@ -1,8 +1,4 @@
-﻿     YankCaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-YankCaseSetup Class Properties
+﻿### YankCaseSetup Class Properties
 
 For a list of all members of this type, see [YankCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup~WipBin.md) | User's WipBin in which to place the Case. If not set, the UserName's default is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [YankDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup~YankDate.md) | DateTime the Case was yanked. If not set, the current time is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

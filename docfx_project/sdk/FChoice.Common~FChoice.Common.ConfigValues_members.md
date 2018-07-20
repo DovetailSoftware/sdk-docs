@@ -1,6 +1,4 @@
-﻿     ConfigValues Class Members                                                   
-
-ConfigValues Class Members
+﻿### ConfigValues Class Members
 
 The following tables list the members exposed by [ConfigValues](FChoice.Common~FChoice.Common.ConfigValues.md).
 
@@ -22,8 +20,6 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SQL_COMMAND_TIMEOUT](FChoice.Common~FChoice.Common.ConfigValues~SQL_COMMAND_TIMEOUT.md) |   |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [STATEMANAGER_CONFIGFILE](FChoice.Common~FChoice.Common.ConfigValues~STATEMANAGER_CONFIGFILE.md) |   |
 
-[Top](#top)
-
 Public Methods
 
 |   | Name | Description |
@@ -34,10 +30,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GetOptString](FChoice.Common~FChoice.Common.ConfigValues~GetOptString.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GetReqString](FChoice.Common~FChoice.Common.ConfigValues~GetReqString.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [VerifyPositive](FChoice.Common~FChoice.Common.ConfigValues~VerifyPositive.md) |   |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

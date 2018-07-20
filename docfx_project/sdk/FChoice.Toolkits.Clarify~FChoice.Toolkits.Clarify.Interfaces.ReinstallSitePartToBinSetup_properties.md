@@ -1,8 +1,4 @@
-﻿     ReinstallSitePartToBinSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ReinstallSitePartToBinSetup Class Properties
+﻿### ReinstallSitePartToBinSetup Class Properties
 
 For a list of all members of this type, see [ReinstallSitePartToBinSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToBinSetup_members.md).
 
@@ -21,9 +17,9 @@ If [AddActivityLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToBinSetup~UserName.md) | User that re-installed the Site Part. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

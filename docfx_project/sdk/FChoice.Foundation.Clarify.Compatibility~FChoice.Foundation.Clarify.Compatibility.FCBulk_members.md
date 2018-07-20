@@ -1,8 +1,4 @@
-﻿     FCBulk Class Members                                                   
-
-fcSDK Documentation
-
-FCBulk Class Members
+﻿### FCBulk Class Members
 
 The following tables list the members exposed by [FCBulk](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Name](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Name.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [NoSorting](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~NoSorting.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -30,9 +26,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Update.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateAll](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~UpdateAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

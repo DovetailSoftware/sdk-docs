@@ -1,8 +1,4 @@
-﻿     HierarchicalStringShow Class Properties                                                   
-
-fcSDK Documentation
-
-HierarchicalStringShow Class Properties
+﻿### HierarchicalStringShow Class Properties
 
 For a list of all members of this type, see [HierarchicalStringShow members](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringShow_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringShow~Title.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

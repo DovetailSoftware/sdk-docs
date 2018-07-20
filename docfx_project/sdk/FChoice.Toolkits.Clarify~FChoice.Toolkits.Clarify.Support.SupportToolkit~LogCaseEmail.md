@@ -1,8 +1,4 @@
-﻿     LogCaseEmail Method                                                   
-
-fcSDK Documentation
-
-LogCaseEmail Method
+﻿### LogCaseEmail Method
 
 Creates an email log against a Case. This overload takes a set of required parameters for the API.
 
@@ -20,11 +16,9 @@ Remarks
 
 It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~IsCommitmentToCustomer.md) properties. If a com_tmplte record with a title of "send_email_about_case" is found, it will be used to generate the email. If this template is not found, the email will be based on the "send_email_about_obj" template.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

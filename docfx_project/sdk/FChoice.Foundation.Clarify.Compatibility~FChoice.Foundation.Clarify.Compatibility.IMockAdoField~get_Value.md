@@ -1,26 +1,17 @@
-﻿     get_Value Method (IMockAdoField)                                                   
-
-fcSDK Documentation
-
-get_Value Method (IMockAdoField)
+﻿### get_Value Method (IMockAdoField)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Function get_Value() As Object
 
-Function get_Value() As [Object](#)
+object get_Value()
 
-[object](#) get_Value()
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

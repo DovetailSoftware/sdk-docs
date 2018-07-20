@@ -1,8 +1,4 @@
-﻿     IFCList Interface Members                                                   
-
-fcSDK Documentation
-
-IFCList Interface Members
+﻿### IFCList Interface Members
 
 The following tables list the members exposed by [IFCList](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [ItemType](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList~ItemType.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Sorted](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList~Sorted.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -30,9 +26,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [ItemByIndex](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList~ItemByIndex.md) |   |
 | ![ Method](dotnetimages/Method.png) | [Sort](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList~Sort.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

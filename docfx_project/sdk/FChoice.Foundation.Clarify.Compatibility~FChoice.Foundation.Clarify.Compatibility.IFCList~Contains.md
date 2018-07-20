@@ -1,36 +1,27 @@
-﻿     Contains Method (IFCList)                                                   
-
-fcSDK Documentation
-
-Contains Method (IFCList)
+﻿### Contains Method (IFCList)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743814)>
+<DispIdAttribute(1610743814)>
 Function Contains( _
-   ByVal _item_ As [Object](#) _
+   ByVal _item_ As Object _
 ) As Boolean
 
-\[[DispIdAttribute](#)(1610743814)\]
+[DispIdAttribute(1610743814)]
 bool Contains( 
-   [object](#) _item_
+   object _item_
 )
 
 #### Parameters
 
 _item_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

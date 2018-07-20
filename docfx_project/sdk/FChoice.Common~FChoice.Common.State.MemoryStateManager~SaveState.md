@@ -1,6 +1,4 @@
-﻿     SaveState Method (MemoryStateManager)                                                   
-
-SaveState Method (MemoryStateManager)
+﻿### SaveState Method (MemoryStateManager)
 
 Overload List
 
@@ -9,11 +7,9 @@ Overload List
 | [SaveState(Guid,Object)](FChoice.Common~FChoice.Common.State.MemoryStateManager~SaveState(Guid,Object).md) |   |
 | [SaveState(Guid,Byte\[\])](FChoice.Common~FChoice.Common.State.MemoryStateManager~SaveState(Guid,Byte[]).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

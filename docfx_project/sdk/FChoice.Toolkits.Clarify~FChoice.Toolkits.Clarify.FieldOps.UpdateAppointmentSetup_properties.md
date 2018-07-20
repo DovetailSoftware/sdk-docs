@@ -1,8 +1,4 @@
-﻿     UpdateAppointmentSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateAppointmentSetup Class Properties
+﻿### UpdateAppointmentSetup Class Properties
 
 For a list of all members of this type, see [UpdateAppointmentSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateAppointmentSetup_members.md).
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateAppointmentSetup~StartDate.md) | The DateTime the Appointment starts. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateAppointmentSetup~UserName.md) | The user who is updating the Appointment. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

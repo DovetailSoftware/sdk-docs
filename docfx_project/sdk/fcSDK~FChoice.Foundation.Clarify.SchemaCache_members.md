@@ -1,8 +1,4 @@
-﻿     SchemaCache Class Members                                                   
-
-fcSDK Documentation
-
-SchemaCache Class Members
+﻿### SchemaCache Class Members
 
 The following tables list the members exposed by [SchemaCache](fcSDK~FChoice.Foundation.Clarify.SchemaCache.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SchemaCache Constructor](fcSDK~FChoice.Foundation.Clarify.SchemaCache~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -36,7 +32,7 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [CLARIFY_9](fcSDK~FChoice.Foundation.Clarify.SchemaCache~CLARIFY_9.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [CLARIFY_CFO98](fcSDK~FChoice.Foundation.Clarify.SchemaCache~CLARIFY_CFO98.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -57,7 +53,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [VendorSchemaDate](fcSDK~FChoice.Foundation.Clarify.SchemaCache~VendorSchemaDate.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Views](fcSDK~FChoice.Foundation.Clarify.SchemaCache~Views.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -96,7 +92,7 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TryIsStringField](fcSDK~FChoice.Foundation.Clarify.SchemaCache~TryIsStringField.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCache](fcSDK~FChoice.Foundation.Clarify.SchemaCache~UpdateCache.md) | Overridden.    |
 
-[Top](#top)
+
 
 Public Events
 
@@ -105,9 +101,9 @@ Public Events
 | ![Public Event](dotnetimages/publicEvent.png) | [CacheUpdated](fcSDK~FChoice.Foundation.CacheBase~CacheUpdated_EV.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 | ![Public Event](dotnetimages/publicEvent.png) | [SchemaLoadStatusChanged](fcSDK~FChoice.Foundation.Clarify.SchemaCache~SchemaLoadStatusChanged_EV.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

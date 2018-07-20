@@ -1,8 +1,4 @@
-﻿     ColumnInfo Class Properties                                                   
-
-fcSDK Documentation
-
-ColumnInfo Class Properties
+﻿### ColumnInfo Class Properties
 
 For a list of all members of this type, see [ColumnInfo members](fcSDK~FChoice.Foundation.DataObjects.ColumnInfo_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Ordinal](fcSDK~FChoice.Foundation.DataObjects.ColumnInfo~Ordinal.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TableName](fcSDK~FChoice.Foundation.DataObjects.ColumnInfo~TableName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

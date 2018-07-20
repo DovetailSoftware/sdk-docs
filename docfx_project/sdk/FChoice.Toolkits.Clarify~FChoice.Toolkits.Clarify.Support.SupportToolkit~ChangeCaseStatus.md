@@ -1,8 +1,4 @@
-﻿     ChangeCaseStatus Method                                                   
-
-fcSDK Documentation
-
-ChangeCaseStatus Method
+﻿### ChangeCaseStatus Method
 
 Changes the status of a Case. This overload takes a set of required parameters for the API.
 
@@ -20,11 +16,9 @@ Remarks
 
 The Case may be opened or closed, but the status selected must be valid for the current condition. In other words, you cannot assign a Closed condition status to a Case that is currently Open.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,23 +1,16 @@
-﻿     GetStates Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetStates Method (IFCApplication)
+﻿### GetStates Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743855)>
+<DispIdAttribute(1610743855)>
 Function GetStates( _
    ByVal _Country_ As String _
 ) As ADODB.Recordset
 
-\[[DispIdAttribute](#)(1610743855)\]
+[DispIdAttribute(1610743855)]
 ADODB.Recordset GetStates( 
    string _Country_
 )
@@ -26,11 +19,9 @@ ADODB.Recordset GetStates(
 
 _Country_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

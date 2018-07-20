@@ -1,8 +1,4 @@
-﻿     UpdateExpenseLog(Int32,Double,Double) Method                                                   
-
-fcSDK Documentation
-
-UpdateExpenseLog(Int32,Double,Double) Method
+﻿### UpdateExpenseLog(Int32,Double,Double) Method
 
 The Objid of the Expense Log being modified.
 
@@ -13,21 +9,18 @@ The billing rate per unit. If no rate is specified, the labor rate of the perfo
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateExpenseLog( _
-   ByVal _expenseLogObjid_ As [Integer](#), _
-   ByVal _quantity_ As [Double](#), _
-   ByVal _rate_ As [Double](#) _
+   ByVal _expenseLogObjid_ As Integer, _
+   ByVal _quantity_ As Double, _
+   ByVal _rate_ As Double _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateExpenseLog( 
-   [int](#) _expenseLogObjid_,
-   [double](#) _quantity_,
-   [double](#) _rate_
+   int _expenseLogObjid_,
+   double _quantity_,
+   double _rate_
 )
 
 #### Parameters
@@ -48,11 +41,9 @@ The billing rate per unit. If no rate is specified, the labor rate of the perfo
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

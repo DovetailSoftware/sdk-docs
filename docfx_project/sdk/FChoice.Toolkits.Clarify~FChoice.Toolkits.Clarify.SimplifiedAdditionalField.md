@@ -1,24 +1,16 @@
-﻿     SimplifiedAdditionalField Class                                                   
-
-fcSDK Documentation
-
-SimplifiedAdditionalField Class
+﻿### SimplifiedAdditionalField Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class SimplifiedAdditionalField 
 
 public class SimplifiedAdditionalField 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.SimplifiedAdditionalField**  
 
 #### Requirements
@@ -29,7 +21,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

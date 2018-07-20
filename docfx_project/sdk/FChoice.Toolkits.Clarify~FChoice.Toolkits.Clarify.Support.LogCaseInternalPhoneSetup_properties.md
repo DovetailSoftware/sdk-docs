@@ -1,8 +1,4 @@
-﻿     LogCaseInternalPhoneSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogCaseInternalPhoneSetup Class Properties
+﻿### LogCaseInternalPhoneSetup Class Properties
 
 For a list of all members of this type, see [LogCaseInternalPhoneSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup_members.md).
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup~Notes.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup~UserName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     FCSessionData Class Methods                                                   
-
-fcSDK Documentation
-
-FCSessionData Class Methods
+﻿### FCSessionData Class Methods
 
 For a list of all members of this type, see [FCSessionData members](fcSDK~FChoice.Foundation.FCSessionData_members.md).
 
@@ -12,9 +8,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [CopyTo](fcSDK~FChoice.Foundation.FCSessionData~CopyTo.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

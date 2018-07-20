@@ -1,8 +1,4 @@
-﻿     DataObject Class Methods                                                   
-
-fcSDK Documentation
-
-DataObject Class Methods
+﻿### DataObject Class Methods
 
 For a list of all members of this type, see [DataObject members](fcSDK~FChoice.Foundation.DataObjects.DataObject_members.md).
 
@@ -17,9 +13,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

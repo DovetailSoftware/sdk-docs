@@ -1,8 +1,4 @@
-﻿     HierarchicalStringListCollection Class Members                                                   
-
-fcSDK Documentation
-
-HierarchicalStringListCollection Class Members
+﻿### HierarchicalStringListCollection Class Members
 
 The following tables list the members exposed by [HierarchicalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringListCollection.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<IHierarchicalStringList>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringListCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -52,9 +48,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<IHierarchicalStringList>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<IHierarchicalStringList>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

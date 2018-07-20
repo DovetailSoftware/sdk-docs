@@ -1,28 +1,19 @@
-﻿     GetCurrentServerDate Method (FCSession)                                                   
-
-fcSDK Documentation
-
-GetCurrentServerDate Method (FCSession)
+﻿### GetCurrentServerDate Method (FCSession)
 
 Retrieves the DateTime of the CRM database.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Overridable Function GetCurrentServerDate() As Date
 
-Public Overridable Function GetCurrentServerDate() As [Date](#)
+public virtual DateTime GetCurrentServerDate()
 
-public virtual [DateTime](#) GetCurrentServerDate()
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

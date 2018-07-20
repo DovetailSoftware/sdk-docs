@@ -1,8 +1,4 @@
-﻿     AddWorkaroundSetup Constructor(String,String)                                                   
-
-fcSDK Documentation
-
-AddWorkaroundSetup Constructor(String,String)
+﻿### AddWorkaroundSetup Constructor(String,String)
 
 Identifier of the Solution to receive the Workaround.
 
@@ -13,18 +9,15 @@ Initializes a new instance of the AddWorkaroundSetup class. This overload takes 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _solutionIDNum_ As String, _
    ByVal _workaround_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public AddWorkaroundSetup( 
    string _solutionIDNum_,
    string _workaround_
@@ -40,11 +33,9 @@ _workaround_
 
 Text of the Workaround.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

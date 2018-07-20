@@ -1,8 +1,4 @@
-﻿     AssignLeadSetup Constructor                                                   
-
-fcSDK Documentation
-
-AssignLeadSetup Constructor
+﻿### AssignLeadSetup Constructor
 
 The objid of the lead being assigned.
 
@@ -13,20 +9,17 @@ Initializes a new instance of the AssignLeadSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _leadObjid_ As [Integer](#), _
+   ByVal _leadObjid_ As Integer, _
    ByVal _newOwner_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public AssignLeadSetup( 
-   [int](#) _leadObjid_,
+   int _leadObjid_,
    string _newOwner_
 )
 
@@ -40,11 +33,9 @@ _newOwner_
 
 The new user which the lead is assigned to.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

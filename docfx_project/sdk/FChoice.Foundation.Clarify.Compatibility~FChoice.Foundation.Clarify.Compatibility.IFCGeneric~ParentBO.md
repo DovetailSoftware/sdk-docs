@@ -1,28 +1,18 @@
-﻿     ParentBO Property (IFCGeneric)                                                   
-
-fcSDK Documentation
-
-ParentBO Property (IFCGeneric)
+﻿### ParentBO Property (IFCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743847)>
+' Declaration
+<DispIdAttribute(1610743847)>
 Property ParentBO As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md)
 
-\[[DispIdAttribute](#)(1610743847)\]
+[DispIdAttribute(1610743847)]
 [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) ParentBO {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

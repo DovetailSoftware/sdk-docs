@@ -1,8 +1,4 @@
-﻿     StageInventoryToolkit Class Methods                                                   
-
-fcSDK Documentation
-
-StageInventoryToolkit Class Methods
+﻿### StageInventoryToolkit Class Methods
 
 For a list of all members of this type, see [StageInventoryToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.StageInventoryToolkit_members.md).
 
@@ -12,9 +8,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [StageInstallForInventoryBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.StageInventoryToolkit~StageInstallForInventoryBin.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

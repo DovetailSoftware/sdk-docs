@@ -1,8 +1,4 @@
-﻿     ISchemaCache Interface Methods                                                   
-
-fcSDK Documentation
-
-ISchemaCache Interface Methods
+﻿### ISchemaCache Interface Methods
 
 For a list of all members of this type, see [ISchemaCache members](fcSDK~FChoice.Foundation.Schema.ISchemaCache_members.md).
 
@@ -31,9 +27,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [IsValidTableOrView](fcSDK~FChoice.Foundation.Schema.ISchemaCache~IsValidTableOrView.md) |   |
 | ![ Method](dotnetimages/Method.png) | [IsValidView](fcSDK~FChoice.Foundation.Schema.ISchemaCache~IsValidView.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

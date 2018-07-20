@@ -1,8 +1,4 @@
-﻿     UpdateServiceInterruptionSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateServiceInterruptionSetup Class Members
+﻿### UpdateServiceInterruptionSetup Class Members
 
 The following tables list the members exposed by [UpdateServiceInterruptionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateServiceInterruptionSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateServiceInterruptionSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateServiceInterruptionSetup~_ctor.md) | Initializes a new instance of the UpdateServiceInterruptionSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateServiceInterruptionSetup~StartDate.md) | The DateTime the Service Interuption starts. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateServiceInterruptionSetup~UserName.md) | The user who is updating the Service Interuption. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

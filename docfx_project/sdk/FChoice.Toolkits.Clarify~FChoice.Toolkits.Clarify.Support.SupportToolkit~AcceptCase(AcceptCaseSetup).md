@@ -1,8 +1,4 @@
-﻿     AcceptCase(AcceptCaseSetup) Method                                                   
-
-fcSDK Documentation
-
-AcceptCase(AcceptCaseSetup) Method
+﻿### AcceptCase(AcceptCaseSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Accept the specified Case from the queue in which it is currently dispatched. Th
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AcceptCase( _
    ByVal _setupParam_ As [AcceptCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptCaseSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Case must be currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

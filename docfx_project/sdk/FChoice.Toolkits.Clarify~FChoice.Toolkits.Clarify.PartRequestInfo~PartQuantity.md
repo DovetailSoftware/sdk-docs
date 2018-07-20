@@ -1,26 +1,17 @@
-﻿     PartQuantity Field                                                   
-
-fcSDK Documentation
-
-PartQuantity Field
+﻿### PartQuantity Field
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public PartQuantity As Integer
 
-Public PartQuantity As [Integer](#)
+public int PartQuantity
 
-public [int](#) PartQuantity
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

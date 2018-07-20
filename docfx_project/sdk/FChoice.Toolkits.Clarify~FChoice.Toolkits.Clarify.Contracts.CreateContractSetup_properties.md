@@ -1,8 +1,4 @@
-﻿     CreateContractSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateContractSetup Class Properties
+﻿### CreateContractSetup Class Properties
 
 For a list of all members of this type, see [CreateContractSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractSetup_members.md).
 
@@ -40,9 +36,9 @@ Flag to set the contract line items' default start state to one day past the en
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractSetup~Title.md) | The title of the Contract.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractSetup~UserName.md) | The username of the user who is creating the Contract. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

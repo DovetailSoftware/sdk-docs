@@ -1,8 +1,4 @@
-﻿     DeleteDepotRepairMaterial Method                                                   
-
-fcSDK Documentation
-
-DeleteDepotRepairMaterial Method
+﻿### DeleteDepotRepairMaterial Method
 
 Delete a Depot Repair Material. This overload takes a set of required parameters for the API.
 
@@ -16,11 +12,9 @@ Overload List
 | [DeleteDepotRepairMaterial(DeleteDepotRepairMaterialSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~DeleteDepotRepairMaterial(DeleteDepotRepairMaterialSetup).md) | Delete a Depot Repair Material. This overload takes a setup object.   |
 | [DeleteDepotRepairMaterial(DeleteDepotRepairMaterialSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~DeleteDepotRepairMaterial(DeleteDepotRepairMaterialSetup,IDbTransaction).md) | Delete a Depot Repair Material. This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

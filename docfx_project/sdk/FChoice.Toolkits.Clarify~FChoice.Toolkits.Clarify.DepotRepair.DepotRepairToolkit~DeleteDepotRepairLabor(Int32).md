@@ -1,8 +1,4 @@
-﻿     DeleteDepotRepairLabor(Int32) Method                                                   
-
-fcSDK Documentation
-
-DeleteDepotRepairLabor(Int32) Method
+﻿### DeleteDepotRepairLabor(Int32) Method
 
 The objid of the time log object to be deleted
 
@@ -11,18 +7,18 @@ Delete a Depot Repair Part. This overload takes a set of required parameters for
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function DeleteDepotRepairLabor( _
-   ByVal _timeLogObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _timeLogObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteDepotRepairLabor( 
-   [int](#) _timeLogObjid_
+```csharp
+public ToolkitResult DeleteDepotRepairLabor( 
+   int _timeLogObjid_
 )
+```
 
 #### Parameters
 
@@ -32,13 +28,9 @@ The objid of the time log object to be deleted
 
 #### Return Value
 
-A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

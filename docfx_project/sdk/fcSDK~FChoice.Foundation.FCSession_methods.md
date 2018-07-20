@@ -26,9 +26,9 @@ Converts a DateTime from the [server timezone](fcSDK~FChoice.Foundation.Clarify
 | ![Public Method](dotnetimages/publicMethod.png) | [SaveSession](fcSDK~FChoice.Foundation.FCSession~SaveSession.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [SetPassword](fcSDK~FChoice.Foundation.FCSession~SetPassword.md) | Change a user's password   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

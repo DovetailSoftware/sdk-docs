@@ -5,13 +5,10 @@ FillDataSet(DataSet,String\[\],IDbConnection,CommandType,String,DataParameterCol
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Sub FillDataSet( _
-   ByVal _ds_ As [DataSet](#), _
+   ByVal _ds_ As DataSet, _
    ByVal _tableNames_() As String, _
    ByVal _conn_ As [IDbConnection](#), _
    ByVal _cmdType_ As [CommandType](#), _
@@ -21,8 +18,8 @@ Public Overloads Shared Sub FillDataSet( _
 ) 
 
 public static void FillDataSet( 
-   [DataSet](#) _ds_,
-   string\[\] _tableNames_,
+   DataSet _ds_,
+   string[] _tableNames_,
    [IDbConnection](#) _conn_,
    [CommandType](#) _cmdType_,
    string _cmdText_,
@@ -46,11 +43,9 @@ _dataParams_
 
 _fillSchema_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,22 +1,17 @@
-﻿     ExecuteNonQuery(IDbConnection,CommandType,String) Method                                                   
-
-ExecuteNonQuery(IDbConnection,CommandType,String) Method
+﻿### ExecuteNonQuery(IDbConnection,CommandType,String) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function ExecuteNonQuery( _
    ByVal _connection_ As [IDbConnection](#), _
    ByVal _commandType_ As [CommandType](#), _
    ByVal _commandText_ As String _
-) As [Integer](#)
+) As Integer
 
-public static [int](#) ExecuteNonQuery( 
+public static int ExecuteNonQuery( 
    [IDbConnection](#) _connection_,
    [CommandType](#) _commandType_,
    string _commandText_
@@ -30,11 +25,9 @@ _commandType_
 
 _commandText_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

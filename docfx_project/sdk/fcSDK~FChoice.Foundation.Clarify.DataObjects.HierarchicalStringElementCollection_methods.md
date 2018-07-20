@@ -1,8 +1,4 @@
-﻿     HierarchicalStringElementCollection Class Methods                                                   
-
-fcSDK Documentation
-
-HierarchicalStringElementCollection Class Methods
+﻿### HierarchicalStringElementCollection Class Methods
 
 For a list of all members of this type, see [HierarchicalStringElementCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElementCollection_members.md).
 
@@ -43,9 +39,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<IHierarchicalStringElement>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<IHierarchicalStringElement>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

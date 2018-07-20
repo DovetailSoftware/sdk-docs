@@ -1,8 +1,4 @@
-﻿     RestrictionGroup Class Methods                                                   
-
-fcSDK Documentation
-
-RestrictionGroup Class Methods
+﻿### RestrictionGroup Class Methods
 
 For a list of all members of this type, see [RestrictionGroup members](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup_members.md).
 
@@ -17,9 +13,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

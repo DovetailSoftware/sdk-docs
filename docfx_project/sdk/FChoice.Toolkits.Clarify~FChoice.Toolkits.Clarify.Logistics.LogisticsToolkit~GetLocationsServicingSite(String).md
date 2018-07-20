@@ -1,8 +1,4 @@
-﻿     GetLocationsServicingSite(String) Method                                                   
-
-fcSDK Documentation
-
-GetLocationsServicingSite(String) Method
+﻿### GetLocationsServicingSite(String) Method
 
 Identifier of the Site that the inventory locations are servicing
 
@@ -11,10 +7,7 @@ Returns a list of the locations (in the proper order) servicing this site. This 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function GetLocationsServicingSite( _
    ByVal _siteIDNum_ As String _
@@ -36,11 +29,9 @@ The following values are populated in the [GetLocationsServicingSiteResult](FCho
 
 *   [InventoryLocationObjidList](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteResult~InventoryLocationObjidList.md) \- An array of Inventory Location objid's.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

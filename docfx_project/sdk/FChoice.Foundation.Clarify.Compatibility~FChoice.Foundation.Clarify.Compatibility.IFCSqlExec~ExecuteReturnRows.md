@@ -1,23 +1,16 @@
-﻿     ExecuteReturnRows Method (IFCSqlExec)                                                   
-
-fcSDK Documentation
-
-ExecuteReturnRows Method (IFCSqlExec)
+﻿### ExecuteReturnRows Method (IFCSqlExec)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743812)>
+<DispIdAttribute(1610743812)>
 Sub ExecuteReturnRows( _
    ByVal _sqlStatement_ As String _
 ) 
 
-\[[DispIdAttribute](#)(1610743812)\]
+[DispIdAttribute(1610743812)]
 void ExecuteReturnRows( 
    string _sqlStatement_
 )
@@ -26,11 +19,9 @@ void ExecuteReturnRows(
 
 _sqlStatement_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     PartRequestInfo Class Fields                                                   
-
-fcSDK Documentation
-
-PartRequestInfo Class Fields
+﻿### PartRequestInfo Class Fields
 
 For a list of all members of this type, see [PartRequestInfo members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestInfo_members.md).
 
@@ -23,9 +19,9 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [PartRevisionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestInfo~PartRevisionResult.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [SiteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestInfo~SiteResult.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

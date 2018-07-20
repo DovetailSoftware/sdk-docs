@@ -1,30 +1,22 @@
-﻿     SolutionObjid Property                                                   
-
-fcSDK Documentation
-
-SolutionObjid Property
+### SolutionObjid Property
 
 Objid of the Solution to receive the Workaround.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property SolutionObjid As [Integer](#)
+<PropertyBitValueAttribute()>
+Public Property SolutionObjid As Integer
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [int](#) SolutionObjid {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public int SolutionObjid {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

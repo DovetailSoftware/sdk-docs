@@ -1,8 +1,4 @@
-﻿     UpdateContactSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateContactSetup Class Members
+﻿### UpdateContactSetup Class Members
 
 The following tables list the members exposed by [UpdateContactSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateContactSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup~_ctor.md) | Initializes a new instance of the UpdateContactSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -44,9 +40,9 @@ Identifier of the contact's current site.
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup~Title.md) | Job title for the Contact   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup~UserName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     RoleName Property (AddSiteToAccountSetup)                                                   
-
-fcSDK Documentation
-
-RoleName Property (AddSiteToAccountSetup)
+﻿### RoleName Property (AddSiteToAccountSetup)
 
 Name of the Site Role the Site will play for the Account.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property RoleName As String
@@ -24,11 +17,9 @@ Remarks
 
 The rolename must be an Element from the 'Account Site Roles' user defined list or the value **OWNER** .
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateSession Method (IClarifyApplication)                                                   
-
-fcSDK Documentation
-
-CreateSession Method (IClarifyApplication)
+﻿### CreateSession Method (IClarifyApplication)
 
 Overload List
 
@@ -12,11 +8,9 @@ Overload List
 | [CreateSession(String,ClarifyLoginType)](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication~CreateSession(String,ClarifyLoginType).md) |   |
 | [CreateSession(String,String,ClarifyLoginType)](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication~CreateSession(String,String,ClarifyLoginType).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

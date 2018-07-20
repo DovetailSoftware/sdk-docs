@@ -1,20 +1,15 @@
-﻿     ErrorCode Property                                                   
-
-ErrorCode Property
+﻿### ErrorCode Property
 
 Gets the unique error code for this exception.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property ErrorCode As Integer
 
-Public ReadOnly Property ErrorCode As [Integer](#)
-
-public [int](#) ErrorCode {get;}
+public int ErrorCode {get;}
 
 #### Property Value
 
@@ -28,11 +23,9 @@ Remarks
 *   First Choice has reserved error numbers 0 to 1,073,741,824 (0x4000000 hex). Customers should use positive numbers above this range. An easy way to assure this is to always OR your error numbers with 0x4000000.
     
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

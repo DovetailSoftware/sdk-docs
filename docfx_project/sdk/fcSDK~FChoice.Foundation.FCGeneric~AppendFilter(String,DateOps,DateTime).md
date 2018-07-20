@@ -1,8 +1,4 @@
-﻿     AppendFilter(String,DateOps,DateTime) Method                                                   
-
-fcSDK Documentation
-
-AppendFilter(String,DateOps,DateTime) Method
+﻿### AppendFilter(String,DateOps,DateTime) Method
 
 Name of the field the filter will be constraining.
 
@@ -15,21 +11,18 @@ Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub AppendFilter( _
    ByVal _fieldName_ As String, _
    ByVal _operation_ As [DateOps](fcSDK~FChoice.Foundation.DateOps.md), _
-   ByVal _value_ As [Date](#) _
+   ByVal _value_ As Date _
 ) 
 
 public void AppendFilter( 
    string _fieldName_,
    [DateOps](fcSDK~FChoice.Foundation.DateOps.md) _operation_,
-   [DateTime](#) _value_
+   DateTime _value_
 )
 
 #### Parameters
@@ -46,11 +39,9 @@ _value_
 
 The filter is being applied against this **DateTime**.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

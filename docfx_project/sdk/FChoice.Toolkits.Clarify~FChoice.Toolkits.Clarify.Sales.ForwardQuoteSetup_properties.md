@@ -1,8 +1,4 @@
-﻿     ForwardQuoteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ForwardQuoteSetup Class Properties
+﻿### ForwardQuoteSetup Class Properties
 
 For a list of all members of this type, see [ForwardQuoteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardQuoteSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [QuoteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardQuoteSetup~QuoteIDNum.md) | Quote Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardQuoteSetup~UserName.md) | The user who has forwarded the Quote. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CaseTimeAndExpenses Class Properties                                                   
-
-fcSDK Documentation
-
-CaseTimeAndExpenses Class Properties
+﻿### CaseTimeAndExpenses Class Properties
 
 For a list of all members of this type, see [CaseTimeAndExpenses members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses_members.md).
 
@@ -27,9 +23,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TotalPhoneTime](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses~TotalPhoneTime.md) | Total phone time (closed Subcase and phone log for the Case)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TotalResearchTime](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses~TotalResearchTime.md) | Total research time (closed Subcase and research logs for the Case)   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

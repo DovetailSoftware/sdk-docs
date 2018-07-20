@@ -1,28 +1,18 @@
-﻿     Id Property (IFCGeneric)                                                   
-
-fcSDK Documentation
-
-Id Property (IFCGeneric)
+﻿### Id Property (IFCGeneric)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+<DispIdAttribute(1610743838)>
+ReadOnly Property Id As Integer
 
-'Declaration
- 
+[DispIdAttribute(1610743838)]
+int Id {get;}
 
-<[DispIdAttribute](#)(1610743838)>
-ReadOnly Property Id As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-\[[DispIdAttribute](#)(1610743838)\]
-[int](#) Id {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

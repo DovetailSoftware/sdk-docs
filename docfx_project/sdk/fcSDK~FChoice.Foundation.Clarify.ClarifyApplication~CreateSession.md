@@ -1,8 +1,4 @@
-﻿     CreateSession Method (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-CreateSession Method (ClarifyApplication)
+﻿### CreateSession Method (ClarifyApplication)
 
 Creates a new [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) and logs in using the username and password for the application.
 
@@ -26,11 +22,9 @@ Specific inheritable properties, such as [TruncateStringFields](fcSDK~FChoice.Fo
 
  .
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

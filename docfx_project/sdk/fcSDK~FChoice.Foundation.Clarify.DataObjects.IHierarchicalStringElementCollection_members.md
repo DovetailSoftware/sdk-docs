@@ -1,8 +1,4 @@
-﻿     IHierarchicalStringElementCollection Interface Members                                                   
-
-fcSDK Documentation
-
-IHierarchicalStringElementCollection Interface Members
+﻿### IHierarchicalStringElementCollection Interface Members
 
 The following tables list the members exposed by [IHierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [DefaultElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection~DefaultElement.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -46,9 +42,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [TrimExcess](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection~TrimExcess.md) |   |
 | ![ Method](dotnetimages/Method.png) | [TrueForAll](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection~TrueForAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

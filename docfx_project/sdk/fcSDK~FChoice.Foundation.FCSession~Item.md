@@ -7,16 +7,12 @@ Get or set session data indexed by specified key.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Default Property Item( _
    ByVal _key_ As String _
-) As [Object](#)
+) As Object
 
-public [object](#) this\[ 
+public object this\[ 
    string _key_
 \]; {get; set;}
 
@@ -32,11 +28,9 @@ Details about the logged-in user are populated into this collection during [Crea
 
 **Note:** Application developers can use this repository to store session specific data which will last across session lifetimes until [CloseSession](fcSDK~FChoice.Foundation.FCSession~CloseSession.md) is called. You can retrieve a session using [FCApplication.GetSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~GetSession.md).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

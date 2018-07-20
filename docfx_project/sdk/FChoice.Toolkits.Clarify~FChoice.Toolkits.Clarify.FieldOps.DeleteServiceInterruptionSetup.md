@@ -1,26 +1,18 @@
-﻿     DeleteServiceInterruptionSetup Class                                                   
-
-fcSDK Documentation
-
-DeleteServiceInterruptionSetup Class
+﻿### DeleteServiceInterruptionSetup Class
 
 Used by the [DeleteServiceInterruption](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DeleteServiceInterruption(DeleteServiceInterruptionSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DeleteServiceInterruptionSetup 
 
 public class DeleteServiceInterruptionSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.DeleteServiceInterruptionSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

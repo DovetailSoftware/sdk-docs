@@ -1,8 +1,4 @@
-﻿     CreateEcoItem Method                                                   
-
-fcSDK Documentation
-
-CreateEcoItem Method
+﻿### CreateEcoItem Method
 
 Create an Engineering Change Order (ECO) Item. This overload takes a set of required parameters for the API.
 
@@ -24,7 +20,7 @@ Requirements
 
 A valid ECO Header be specified.
 
-See Also
+
 
 #### Reference
 

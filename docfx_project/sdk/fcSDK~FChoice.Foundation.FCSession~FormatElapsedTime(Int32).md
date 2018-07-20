@@ -1,8 +1,4 @@
-﻿     FormatElapsedTime(Int32) Method                                                   
-
-fcSDK Documentation
-
-FormatElapsedTime(Int32) Method
+﻿### FormatElapsedTime(Int32) Method
 
 Numeric value in seconds to be formatted
 
@@ -11,17 +7,16 @@ Formats an numeric value in seconds into a string "DDD HH MMM" where: D=Days, H
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Overridable Function FormatElapsedTime( _
-   ByVal _elapsedTime_ As [Integer](#) _
+   ByVal _elapsedTime_ As Integer _
 ) As String
+```
 
+```csharp
 public virtual string FormatElapsedTime( 
-   [int](#) _elapsedTime_
+   int _elapsedTime_
 )
 
 #### Parameters
@@ -30,11 +25,7 @@ _elapsedTime_
 
 Numeric value in seconds to be formatted
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

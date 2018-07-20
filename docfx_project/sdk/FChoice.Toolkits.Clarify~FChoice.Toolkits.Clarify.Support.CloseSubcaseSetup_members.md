@@ -1,8 +1,4 @@
-﻿     CloseSubcaseSetup Class Members                                                   
-
-fcSDK Documentation
-
-CloseSubcaseSetup Class Members
+﻿### CloseSubcaseSetup Class Members
 
 The following tables list the members exposed by [CloseSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CloseSubcaseSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup~_ctor.md) | Initializes a new instance of the CloseSubcaseSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -30,9 +26,9 @@ Element from the 'Resolution Code' application defined list. If not set, the def
 | ![Public Property](dotnetimages/publicProperty.png) | [Summary](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup~Summary.md) | Information about the closure.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup~UserName.md) | The User who closed the Subcase. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

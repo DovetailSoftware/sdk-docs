@@ -1,8 +1,4 @@
-﻿     UpdateLead(UpdateLeadSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-UpdateLead(UpdateLeadSetup,IDbTransaction) Method
+﻿### UpdateLead(UpdateLeadSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to update a Lead. This overload takes a setup object and a database transac
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateLead( _
    ByVal _setupParam_ As [UpdateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

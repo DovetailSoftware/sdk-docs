@@ -1,8 +1,4 @@
-﻿     UpdateAppointmentSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateAppointmentSetup Class Members
+﻿### UpdateAppointmentSetup Class Members
 
 The following tables list the members exposed by [UpdateAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateAppointmentSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateAppointmentSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateAppointmentSetup~_ctor.md) | Initializes a new instance of the UpdateAppointmentSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -29,9 +25,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateAppointmentSetup~StartDate.md) | The DateTime the Appointment starts. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateAppointmentSetup~UserName.md) | The user who is updating the Appointment. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

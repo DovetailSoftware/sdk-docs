@@ -1,8 +1,4 @@
-﻿     CreateAppointment(DateTime,TimeSpan) Method                                                   
-
-fcSDK Documentation
-
-CreateAppointment(DateTime,TimeSpan) Method
+﻿### CreateAppointment(DateTime,TimeSpan) Method
 
 The DateTime the Appointment starts. If not set, the current time is used.
 
@@ -11,19 +7,16 @@ The length (in seconds) of the appointment. If not specified, it is calculated f
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateAppointment( _
-   ByVal _startDate_ As [Date](#), _
-   ByVal _duration_ As [TimeSpan](#) _
+   ByVal _startDate_ As Date, _
+   ByVal _duration_ As TimeSpan _
 ) As [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md)
 
 public [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md) CreateAppointment( 
-   [DateTime](#) _startDate_,
-   [TimeSpan](#) _duration_
+   DateTime _startDate_,
+   TimeSpan _duration_
 )
 
 #### Parameters
@@ -43,11 +36,9 @@ The following values are populated in the [CreateAppointmentResult](FChoice.Tool
 *   [ScheduleObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult~ScheduleObjid.md) \- The Objid of the Schedule.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult~Objid.md) \- The Objid of the Appointment.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

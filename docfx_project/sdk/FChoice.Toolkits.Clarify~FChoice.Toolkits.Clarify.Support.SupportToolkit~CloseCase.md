@@ -16,11 +16,9 @@ Remarks
 
 If the **CloseSums** property is not set, the API will automatically calculate the log summation for the Case.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

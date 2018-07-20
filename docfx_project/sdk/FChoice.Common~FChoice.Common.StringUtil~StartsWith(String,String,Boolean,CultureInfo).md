@@ -1,27 +1,22 @@
-﻿     StartsWith(String,String,Boolean,CultureInfo) Method                                                   
-
-StartsWith(String,String,Boolean,CultureInfo) Method
+﻿### StartsWith(String,String,Boolean,CultureInfo) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function StartsWith( _
    ByVal _origVal_ As String, _
    ByVal _startVal_ As String, _
    ByVal _ignoreCase_ As Boolean, _
-   ByVal _culture_ As [CultureInfo](#) _
+   ByVal _culture_ As CultureInfo _
 ) As Boolean
 
 public static bool StartsWith( 
    string _origVal_,
    string _startVal_,
    bool _ignoreCase_,
-   [CultureInfo](#) _culture_
+   CultureInfo _culture_
 )
 
 #### Parameters
@@ -34,11 +29,9 @@ _ignoreCase_
 
 _culture_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

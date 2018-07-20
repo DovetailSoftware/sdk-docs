@@ -1,8 +1,4 @@
-﻿     RestrictionClause Class Properties                                                   
-
-fcSDK Documentation
-
-RestrictionClause Class Properties
+﻿### RestrictionClause Class Properties
 
 For a list of all members of this type, see [RestrictionClause members](fcSDK~FChoice.Foundation.Clarify.Schema.RestrictionClause_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [FieldName](fcSDK~FChoice.Foundation.Clarify.Schema.RestrictionClause~FieldName.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TableName](fcSDK~FChoice.Foundation.Clarify.Schema.RestrictionClause~TableName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

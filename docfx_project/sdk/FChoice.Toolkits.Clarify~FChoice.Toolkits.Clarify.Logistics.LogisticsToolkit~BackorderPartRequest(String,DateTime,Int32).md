@@ -1,8 +1,4 @@
-﻿     BackorderPartRequest(String,DateTime,Int32) Method                                                   
-
-fcSDK Documentation
-
-BackorderPartRequest(String,DateTime,Int32) Method
+﻿### BackorderPartRequest(String,DateTime,Int32) Method
 
 Part Request Detail Identifier
 
@@ -15,22 +11,22 @@ Allows for the backordering of inventory parts for a part request. This overload
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function BackorderPartRequest( _
    ByVal _partRequestDetailIDNum_ As String, _
-   ByVal _expectedDate_ As [Date](#), _
-   ByVal _quantity_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _expectedDate_ As Date, _
+   ByVal _quantity_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) BackorderPartRequest( 
+```csharp
+public ToolkitResult BackorderPartRequest( 
    string _partRequestDetailIDNum_,
-   [DateTime](#) _expectedDate_,
-   [int](#) _quantity_
+   DateTime _expectedDate_,
+   int _quantity_
 )
+```
 
 #### Parameters
 
@@ -48,7 +44,7 @@ The number of parts being backordered for this Part Request
 
 #### Return Value
 
-A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Remarks
 
@@ -64,11 +60,7 @@ To allow for multiple calls to this API to be performed without extra complex t
 
 **NOTE**: This API requires two other APIs ([PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.md) and [CreatePartRequestDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail.md)) to work correctly.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

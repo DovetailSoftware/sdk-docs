@@ -1,8 +1,4 @@
-﻿     DispatchActionItemSetup Class Members                                                   
-
-fcSDK Documentation
-
-DispatchActionItemSetup Class Members
+﻿### DispatchActionItemSetup Class Members
 
 The following tables list the members exposed by [DispatchActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DispatchActionItemSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup~_ctor.md) | Initializes a new instance of the DispatchActionItemSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup~Queue.md) | The queue into which the ActionItem is to be dispatched.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup~UserName.md) | The user who has dispatched the ActionItem. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

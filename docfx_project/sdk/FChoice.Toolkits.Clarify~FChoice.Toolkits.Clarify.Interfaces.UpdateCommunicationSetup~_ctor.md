@@ -1,8 +1,4 @@
-﻿     UpdateCommunicationSetup Constructor                                                   
-
-fcSDK Documentation
-
-UpdateCommunicationSetup Constructor
+﻿### UpdateCommunicationSetup Constructor
 
 The unique identifier for the communication to update.
 
@@ -11,17 +7,14 @@ Initializes a new instance of the UpdateCommunicationSetup class.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function New( _
-   ByVal _communicationObjid_ As [Integer](#) _
+   ByVal _communicationObjid_ As Integer _
 )
 
 public UpdateCommunicationSetup( 
-   [int](#) _communicationObjid_
+   int _communicationObjid_
 )
 
 #### Parameters
@@ -30,11 +23,9 @@ _communicationObjid_
 
 The unique identifier for the communication to update.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -6,7 +6,7 @@ FChoice.Toolkits.Clarify.Logistics Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup.md)  
    [FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup.md)  
    [FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup.md)  
@@ -60,7 +60,7 @@ Inheritance Hierarchy
       [FChoice.Toolkits.Clarify.Logistics.PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferResult.md)  
       [FChoice.Toolkits.Clarify.Logistics.PickResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickResult.md)  
 
-See Also
+
 
 #### Reference
 

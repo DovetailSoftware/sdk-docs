@@ -1,8 +1,4 @@
-﻿     ConfigItem Class Members                                                   
-
-fcSDK Documentation
-
-ConfigItem Class Members
+﻿### ConfigItem Class Members
 
 The following tables list the members exposed by [ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md).
 
@@ -25,7 +21,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ValueType](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~ValueType.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ValueTypeRaw](fcSDK~FChoice.Foundation.DataObjects.ConfigItem~ValueTypeRaw.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -38,9 +34,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

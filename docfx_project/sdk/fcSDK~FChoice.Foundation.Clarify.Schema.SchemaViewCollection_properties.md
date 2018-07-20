@@ -1,8 +1,4 @@
-﻿     SchemaViewCollection Class Properties                                                   
-
-fcSDK Documentation
-
-SchemaViewCollection Class Properties
+﻿### SchemaViewCollection Class Properties
 
 For a list of all members of this type, see [SchemaViewCollection members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewCollection_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<SchemaView>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewCollection~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

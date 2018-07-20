@@ -1,17 +1,11 @@
-﻿     LicenseManager Class                                                   
-
-LicenseManager Class
+﻿### LicenseManager Class
 
 Singleton providing access to the current collection of valid First Choice licenses
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public NotInheritable Class LicenseManager 
 
 public sealed class LicenseManager 
@@ -26,7 +20,7 @@ If you install new licenses you will need to re-initialize your application to h
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.Licensing.LicenseManager**  
 
 #### Requirements
@@ -37,7 +31,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

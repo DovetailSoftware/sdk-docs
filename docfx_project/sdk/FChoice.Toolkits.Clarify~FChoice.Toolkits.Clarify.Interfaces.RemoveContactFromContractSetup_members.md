@@ -1,8 +1,4 @@
-﻿     RemoveContactFromContractSetup Class Members                                                   
-
-fcSDK Documentation
-
-RemoveContactFromContractSetup Class Members
+﻿### RemoveContactFromContractSetup Class Members
 
 The following tables list the members exposed by [RemoveContactFromContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveContactFromContractSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [RemoveContactFromContractSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveContactFromContractSetup~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ContactObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveContactFromContractSetup~ContactObjid.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ContractIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveContactFromContractSetup~ContractIDNum.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

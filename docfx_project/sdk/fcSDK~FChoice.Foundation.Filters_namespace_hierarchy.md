@@ -6,7 +6,7 @@ FChoice.Foundation.Filters Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       [FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)  
          [FChoice.Foundation.Filters.BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)  
@@ -47,7 +47,7 @@ Inheritance Hierarchy
    [System.Collections.ObjectModel.Collection<T>](#)  
       [FChoice.Foundation.Filters.FilterCollection](fcSDK~FChoice.Foundation.Filters.FilterCollection.md)  
 
-See Also
+
 
 #### Reference
 

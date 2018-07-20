@@ -1,8 +1,4 @@
-﻿     UpdateAddressSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateAddressSetup Class Members
+﻿### UpdateAddressSetup Class Members
 
 The following tables list the members exposed by [UpdateAddressSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAddressSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateAddressSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAddressSetup~_ctor.md) | Initializes a new instance of the UpdateAddressSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -29,9 +25,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TimeZone](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAddressSetup~TimeZone.md) | Address Timezone   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ZipCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAddressSetup~ZipCode.md) | Address Zipcode   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

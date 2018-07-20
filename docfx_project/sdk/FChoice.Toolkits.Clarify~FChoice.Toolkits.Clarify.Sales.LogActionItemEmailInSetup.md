@@ -1,17 +1,9 @@
-﻿     LogActionItemEmailInSetup Class                                                   
-
-fcSDK Documentation
-
-LogActionItemEmailInSetup Class
+﻿### LogActionItemEmailInSetup Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogActionItemEmailInSetup 
    Inherits [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)
 
@@ -19,7 +11,7 @@ public class LogActionItemEmailInSetup : [FChoice.Toolkits.Clarify.Support.LogEm
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)  
       **FChoice.Toolkits.Clarify.Sales.LogActionItemEmailInSetup**  
 
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

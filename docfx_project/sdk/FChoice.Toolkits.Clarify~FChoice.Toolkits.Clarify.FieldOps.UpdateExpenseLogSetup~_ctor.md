@@ -1,8 +1,4 @@
-﻿     UpdateExpenseLogSetup Constructor                                                   
-
-fcSDK Documentation
-
-UpdateExpenseLogSetup Constructor
+﻿### UpdateExpenseLogSetup Constructor
 
 The Objid of the Expense Log being modified.
 
@@ -15,23 +11,20 @@ Initializes a new instance of the UpdateExpenseLogSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _expenseLogObjid_ As [Integer](#), _
-   ByVal _quantity_ As [Double](#), _
-   ByVal _rate_ As [Double](#) _
+   ByVal _expenseLogObjid_ As Integer, _
+   ByVal _quantity_ As Double, _
+   ByVal _rate_ As Double _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public UpdateExpenseLogSetup( 
-   [int](#) _expenseLogObjid_,
-   [double](#) _quantity_,
-   [double](#) _rate_
+   int _expenseLogObjid_,
+   double _quantity_,
+   double _rate_
 )
 
 #### Parameters
@@ -48,11 +41,9 @@ _rate_
 
 The billing rate per unit. If no rate is specified, the labor rate of the performing employee is used.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

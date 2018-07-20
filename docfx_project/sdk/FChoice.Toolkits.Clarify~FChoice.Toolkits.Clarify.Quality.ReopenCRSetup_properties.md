@@ -1,8 +1,4 @@
-﻿     ReopenCRSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ReopenCRSetup Class Properties
+﻿### ReopenCRSetup Class Properties
 
 For a list of all members of this type, see [ReopenCRSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup~UserName.md) | The user reopening the CR. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup~WipBin.md) | Wipbin of the user to place the reopened CR. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

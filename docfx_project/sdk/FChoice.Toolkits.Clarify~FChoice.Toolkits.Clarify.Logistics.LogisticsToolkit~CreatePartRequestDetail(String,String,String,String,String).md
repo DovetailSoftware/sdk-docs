@@ -1,8 +1,4 @@
-﻿     CreatePartRequestDetail(String,String,String,String,String) Method                                                   
-
-fcSDK Documentation
-
-CreatePartRequestDetail(String,String,String,String,String) Method
+﻿### CreatePartRequestDetail(String,String,String,String,String) Method
 
 Parent Part Request Header Identifier
 
@@ -21,10 +17,7 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreatePartRequestDetail( _
    ByVal _partRequestHeaderIDNum_ As String, _
@@ -77,11 +70,9 @@ This API requires a part request header in addition to a part or site_part. If 
 
 **NOTE**: If using the overload of this API that takes a [CreatePartRequestDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup.md) object, the [ContractItemObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~ContractItemObjid.md) property should not be set (left as default) unless you need this functionality AND have installed the First Choice ClearCallCenter for ClearLogistics product and required schema changes. If you do not have this product and wish to use this functionality, please contact First Choice Software.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     DispatchPartRequestSetup Constructor                                                   
-
-fcSDK Documentation
-
-DispatchPartRequestSetup Constructor
+﻿### DispatchPartRequestSetup Constructor
 
 Part Request Detail Identifier
 
@@ -13,18 +9,15 @@ Initializes a new instance of the DispatchPartRequestSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _queue_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public DispatchPartRequestSetup( 
    string _partRequestDetailIDNum_,
    string _queue_
@@ -40,11 +33,9 @@ _queue_
 
 The queue into which the PartRequest is to be dispatched.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

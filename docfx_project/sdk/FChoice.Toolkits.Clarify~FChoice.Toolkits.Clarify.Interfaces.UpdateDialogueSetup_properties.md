@@ -1,8 +1,4 @@
-﻿     UpdateDialogueSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateDialogueSetup Class Properties
+﻿### UpdateDialogueSetup Class Properties
 
 For a list of all members of this type, see [UpdateDialogueSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateDialogueSetup_members.md).
 
@@ -18,9 +14,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Updated](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateDialogueSetup~Updated.md) | The date and time that the communication was updated.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateDialogueSetup~UserName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

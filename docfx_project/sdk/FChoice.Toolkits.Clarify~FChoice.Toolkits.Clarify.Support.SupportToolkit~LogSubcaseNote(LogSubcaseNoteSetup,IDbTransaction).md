@@ -1,8 +1,4 @@
-﻿     LogSubcaseNote(LogSubcaseNoteSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-LogSubcaseNote(LogSubcaseNoteSetup,IDbTransaction) Method
+﻿### LogSubcaseNote(LogSubcaseNoteSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Creates a note log against a Subcase. This overload takes a setup object and a d
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogSubcaseNote( _
    ByVal _setupParam_ As [LogSubcaseNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

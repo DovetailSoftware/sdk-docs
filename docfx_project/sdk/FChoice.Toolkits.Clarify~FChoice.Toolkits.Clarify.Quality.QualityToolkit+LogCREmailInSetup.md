@@ -7,11 +7,7 @@ QualityToolkit.LogCREmailInSetup Class
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class QualityToolkit.LogCREmailInSetup 
    Inherits [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)
 
@@ -19,7 +15,7 @@ public class QualityToolkit.LogCREmailInSetup : [FChoice.Toolkits.Clarify.Suppor
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)  
       **FChoice.Toolkits.Clarify.Quality.QualityToolkit.LogCREmailInSetup**  
 
@@ -31,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

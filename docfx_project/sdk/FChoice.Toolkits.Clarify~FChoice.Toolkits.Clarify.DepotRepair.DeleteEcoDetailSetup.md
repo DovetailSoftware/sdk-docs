@@ -1,26 +1,18 @@
-﻿     DeleteEcoDetailSetup Class                                                   
-
-fcSDK Documentation
-
-DeleteEcoDetailSetup Class
+﻿### DeleteEcoDetailSetup Class
 
 Used by the [DeleteEcoDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~DeleteEcoDetail(DeleteEcoDetailSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DeleteEcoDetailSetup 
 
 public class DeleteEcoDetailSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoDetailSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

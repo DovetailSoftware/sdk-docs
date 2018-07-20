@@ -1,8 +1,4 @@
-﻿     CreateCommunicationSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateCommunicationSetup Class Members
+﻿### CreateCommunicationSetup Class Members
 
 The following tables list the members exposed by [CreateCommunicationSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCommunicationSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateCommunicationSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCommunicationSetup~_ctor.md) | Initializes a new instance of the CreateCommunicationSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -38,9 +34,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCommunicationSetup~Title.md) | The title or subject line of the communication.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCommunicationSetup~UserName.md) | The Login Name of user creating the communication.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     Address1 Property (ShipSetup)                                                   
-
-fcSDK Documentation
-
-Address1 Property (ShipSetup)
+﻿### Address1 Property (ShipSetup)
 
 Address of the site where this Part Request will be shipped
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property Address1 As String
@@ -20,11 +13,9 @@ Public Property Address1 As String
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public string Address1 {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

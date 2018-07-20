@@ -1,18 +1,11 @@
-﻿     DataFields Property (FCGeneric)                                                   
-
-fcSDK Documentation
-
-DataFields Property (FCGeneric)
+﻿### DataFields Property (FCGeneric)
 
 Collection of data fields that will be returned when [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) is invoked. If no fields are selected all fields are returned.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property DataFields As [DataFieldNameCollection](fcSDK~FChoice.Foundation.DataFieldNameCollection.md)
 
@@ -26,11 +19,9 @@ Remarks
 
 To add a field to be selected during Query call the [Add](fcSDK~FChoice.Foundation.DataFieldNameCollection~Add.md) or [AddRange](fcSDK~FChoice.Foundation.DataFieldNameCollection~AddRange.md) methods.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

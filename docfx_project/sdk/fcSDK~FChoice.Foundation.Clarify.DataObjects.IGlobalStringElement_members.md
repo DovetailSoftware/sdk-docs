@@ -1,8 +1,4 @@
-﻿     IGlobalStringElement Interface Members                                                   
-
-fcSDK Documentation
-
-IGlobalStringElement Interface Members
+﻿### IGlobalStringElement Interface Members
 
 The following tables list the members exposed by [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md).
 
@@ -18,7 +14,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [State](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement~State.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Title](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement~Title.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -26,9 +22,9 @@ Public Methods
 | --- | --- | --- |
 | ![ Method](dotnetimages/Method.png) | [GetLocalizedTitle](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement~GetLocalizedTitle.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

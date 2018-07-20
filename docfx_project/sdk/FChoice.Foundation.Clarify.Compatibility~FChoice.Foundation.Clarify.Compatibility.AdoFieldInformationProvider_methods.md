@@ -1,8 +1,4 @@
-﻿     AdoFieldInformationProvider Class Methods                                                   
-
-fcSDK Documentation
-
-AdoFieldInformationProvider Class Methods
+﻿### AdoFieldInformationProvider Class Methods
 
 For a list of all members of this type, see [AdoFieldInformationProvider members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoFieldInformationProvider_members.md).
 
@@ -12,9 +8,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetAdoFieldInformation](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoFieldInformationProvider~GetAdoFieldInformation.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

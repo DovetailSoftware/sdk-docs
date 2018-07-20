@@ -1,8 +1,4 @@
-﻿     RejectSubcase(String) Method                                                   
-
-fcSDK Documentation
-
-RejectSubcase(String) Method
+﻿### RejectSubcase(String) Method
 
 Subcase Identifier.
 
@@ -11,10 +7,7 @@ Reject the Subcase from the queue in which it currently resides, and return it t
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function RejectSubcase( _
    ByVal _subcaseIDNum_ As String _
@@ -38,11 +31,9 @@ Remarks
 
 The Subcase must be in open condition, and currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

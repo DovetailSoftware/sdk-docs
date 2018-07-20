@@ -1,8 +1,4 @@
-﻿     PartRequestInfo Class Members                                                   
-
-fcSDK Documentation
-
-PartRequestInfo Class Members
+﻿### PartRequestInfo Class Members
 
 The following tables list the members exposed by [PartRequestInfo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestInfo.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [PartRequestInfo Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestInfo~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -31,9 +27,9 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [PartRevisionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestInfo~PartRevisionResult.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [SiteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestInfo~SiteResult.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

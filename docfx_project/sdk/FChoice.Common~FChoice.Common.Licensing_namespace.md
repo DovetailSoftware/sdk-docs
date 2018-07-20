@@ -1,8 +1,4 @@
-﻿     FChoice.Common.Licensing Namespace                                                   
-
-FChoice.Common.Licensing Namespace
-
-First Choice Software Licensing
+﻿### FChoice.Common.Licensing Namespace
 
 Classes
 
@@ -31,8 +27,6 @@ Enumerations
 Remarks
 
 This namespace is for First Choice Software use only. API stability is not guaranteed.
-
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     InstallSitePartToSite Method                                                   
-
-fcSDK Documentation
-
-InstallSitePartToSite Method
+﻿### InstallSitePartToSite Method
 
 Install a Site Part under a Site. This overload takes a set of required parameters for the API.
 
@@ -17,11 +13,9 @@ Overload List
 | [InstallSitePartToSite(InstallSitePartToSiteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~InstallSitePartToSite(InstallSitePartToSiteSetup).md) | Install a Site Part under a Site. This overload takes a setup object.   |
 | [InstallSitePartToSite(InstallSitePartToSiteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~InstallSitePartToSite(InstallSitePartToSiteSetup,IDbTransaction).md) | Install a Site Part under a Site. This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

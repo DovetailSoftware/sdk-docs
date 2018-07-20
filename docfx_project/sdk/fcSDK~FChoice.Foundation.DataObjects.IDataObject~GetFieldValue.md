@@ -1,8 +1,4 @@
-﻿     GetFieldValue Method (IDataObject)                                                   
-
-fcSDK Documentation
-
-GetFieldValue Method (IDataObject)
+﻿### GetFieldValue Method (IDataObject)
 
 Overload List
 
@@ -11,11 +7,9 @@ Overload List
 | [GetFieldValue(String)](fcSDK~FChoice.Foundation.DataObjects.IDataObject~GetFieldValue(String).md) |   |
 | [GetFieldValue(Int32)](fcSDK~FChoice.Foundation.DataObjects.IDataObject~GetFieldValue(Int32).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

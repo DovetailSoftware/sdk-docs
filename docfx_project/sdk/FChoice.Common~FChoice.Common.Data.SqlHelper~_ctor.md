@@ -1,6 +1,4 @@
-﻿     SqlHelper Constructor                                                   
-
-SqlHelper Constructor
+﻿### SqlHelper Constructor
 
 Creates a new instance of SqlHelper with optional initialization parameters
 
@@ -19,11 +17,9 @@ Remarks
 
 All of the optional arguments passed into the constructor can be changed later using the similarly named properties on the SqlHelper instance. These constructor overloads are provided simply for convenience.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

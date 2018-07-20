@@ -1,18 +1,11 @@
-﻿     CreateSession() Method                                                   
-
-fcSDK Documentation
-
-CreateSession() Method
+﻿### CreateSession() Method
 
 Creates a new [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) and logs in using the username and password for the application.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateSession() As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
 
@@ -32,11 +25,9 @@ This method will log in the session using the username and password specified in
 
 The general use case for this method is if you are writing a simple application that performs some type of repetitive, batch, or behind-the-scenes process and requires no user input. Rather than hard-coding a username and password into your application, you can simply use the application user.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

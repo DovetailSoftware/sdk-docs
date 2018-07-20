@@ -1,7 +1,5 @@
 ### AddAttachment
 
----
-
 **Object and Type**
 
 Object  : FCSession

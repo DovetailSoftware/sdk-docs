@@ -1,8 +1,4 @@
-﻿     MoveCaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-MoveCaseSetup Class Properties
+﻿### MoveCaseSetup Class Properties
 
 For a list of all members of this type, see [MoveCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.MoveCaseSetup_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.MoveCaseSetup~CaseIDNum.md) | Case Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [NewWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.MoveCaseSetup~NewWipBin.md) | The new WipBin into which the Case is to be moved.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

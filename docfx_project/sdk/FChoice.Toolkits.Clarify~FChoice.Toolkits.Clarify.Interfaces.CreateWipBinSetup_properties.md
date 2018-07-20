@@ -1,8 +1,4 @@
-﻿     CreateWipBinSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateWipBinSetup Class Properties
+﻿### CreateWipBinSetup Class Properties
 
 For a list of all members of this type, see [CreateWipBinSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateWipBinSetup_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateWipBinSetup~Title.md) | Title of the WipBin   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateWipBinSetup~UserName.md) | User the WipBin is being created for.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

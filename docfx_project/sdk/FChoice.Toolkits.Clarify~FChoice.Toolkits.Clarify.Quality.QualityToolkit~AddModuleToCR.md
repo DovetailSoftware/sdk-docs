@@ -1,8 +1,4 @@
-﻿     AddModuleToCR Method                                                   
-
-fcSDK Documentation
-
-AddModuleToCR Method
+﻿### AddModuleToCR Method
 
 Adding a file Module to a Fixed CR. This overload takes a set of required parameters for the API.
 
@@ -20,11 +16,9 @@ Remarks
 
 There is no integration between this API and your change control system so no validation is possible for the Module [filename](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup~FileName.md) or [revision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup~FileRevision.md).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

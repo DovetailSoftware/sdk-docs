@@ -1,8 +1,4 @@
-﻿     CreateSubcaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateSubcaseSetup Class Properties
+﻿### CreateSubcaseSetup Class Properties
 
 For a list of all members of this type, see [CreateSubcaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateSubcaseSetup_members.md).
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateSubcaseSetup~Title.md) | Title for the Case.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateSubcaseSetup~UserName.md) | The User who created the Subcase. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

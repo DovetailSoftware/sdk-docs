@@ -1,8 +1,4 @@
-﻿     FCSession Class Members                                                   
-
-fcSDK Documentation
-
-FCSession Class Members
+﻿### FCSession Class Members
 
 The following tables list the members exposed by [FCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession.md).
 
@@ -42,7 +38,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TruncateStringFields](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~TruncateStringFields.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateTime](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~UpdateTime.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -124,9 +120,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [use_list](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~use_list.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [yank_object](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~yank_object.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreatePartRequestDetailSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreatePartRequestDetailSetup Class Properties
+﻿### CreatePartRequestDetailSetup Class Properties
 
 For a list of all members of this type, see [CreatePartRequestDetailSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup_members.md).
 
@@ -33,9 +29,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~Status.md) | The new status for the Part Request for the Open condition. If not set, the default status is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~UserName.md) | The user creating the Part Request Detail. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

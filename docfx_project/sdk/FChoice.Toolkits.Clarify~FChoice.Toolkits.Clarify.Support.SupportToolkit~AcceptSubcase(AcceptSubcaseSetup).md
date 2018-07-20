@@ -1,8 +1,4 @@
-﻿     AcceptSubcase(AcceptSubcaseSetup) Method                                                   
-
-fcSDK Documentation
-
-AcceptSubcase(AcceptSubcaseSetup) Method
+﻿### AcceptSubcase(AcceptSubcaseSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Accept the specified Subcase from the queue in which it is currently dispatched.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AcceptSubcase( _
    ByVal _setupParam_ As [AcceptSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Subcase must be currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

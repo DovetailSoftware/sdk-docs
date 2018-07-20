@@ -1,8 +1,4 @@
-﻿     LogCaseResearchSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogCaseResearchSetup Class Properties
+﻿### LogCaseResearchSetup Class Properties
 
 For a list of all members of this type, see [LogCaseResearchSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup_members.md).
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ResearchDuration](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup~ResearchDuration.md) | The length of time for research.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

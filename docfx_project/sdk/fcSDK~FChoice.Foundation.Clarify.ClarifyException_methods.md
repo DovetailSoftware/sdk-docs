@@ -1,8 +1,4 @@
-﻿     ClarifyException Class Methods                                                   
-
-fcSDK Documentation
-
-ClarifyException Class Methods
+﻿### ClarifyException Class Methods
 
 For a list of all members of this type, see [ClarifyException members](fcSDK~FChoice.Foundation.Clarify.ClarifyException_members.md).
 
@@ -15,9 +11,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

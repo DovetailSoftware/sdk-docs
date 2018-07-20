@@ -1,8 +1,4 @@
-﻿     CountryCollection Class Members                                                   
-
-fcSDK Documentation
-
-CountryCollection Class Members
+﻿### CountryCollection Class Members
 
 The following tables list the members exposed by [CountryCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.CountryCollection.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [DefaultCountry](fcSDK~FChoice.Foundation.Clarify.DataObjects.CountryCollection~DefaultCountry.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.CountryCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,9 +49,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<Country>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<Country>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

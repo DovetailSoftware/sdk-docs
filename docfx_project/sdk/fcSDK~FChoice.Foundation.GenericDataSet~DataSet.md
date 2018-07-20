@@ -1,26 +1,18 @@
-﻿     DataSet Property (GenericDataSet)                                                   
-
-fcSDK Documentation
-
-DataSet Property (GenericDataSet)
+﻿### DataSet Property (GenericDataSet)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-Public ReadOnly Property DataSet As [DataSet](#)
+Public ReadOnly Property DataSet As DataSet
+```
 
-public [DataSet](#) DataSet {get;}
+```csharp
+public DataSet DataSet {get;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

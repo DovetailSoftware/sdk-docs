@@ -1,17 +1,9 @@
-﻿     ClarifyConfigItem Class                                                   
-
-fcSDK Documentation
-
-ClarifyConfigItem Class
+﻿### ClarifyConfigItem Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ClarifyConfigItem 
    Inherits [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)
    Implements [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
@@ -20,7 +12,7 @@ public class ClarifyConfigItem : [FChoice.Foundation.DataObjects.ConfigItem](fcS
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  
       [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)  
          **FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem**  
@@ -33,7 +25,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

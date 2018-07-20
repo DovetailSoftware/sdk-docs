@@ -1,8 +1,4 @@
-﻿     GenericDataRowCollection Class Members                                                   
-
-fcSDK Documentation
-
-GenericDataRowCollection Class Members
+﻿### GenericDataRowCollection Class Members
 
 The following tables list the members exposed by [GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md).
 
@@ -21,7 +17,7 @@ Gets the row at the specified index.
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](fcSDK~FChoice.Foundation.GenericDataRowCollection~SyncRoot.md) | Gets an object that can be used to synchronize the collection.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Table](fcSDK~FChoice.Foundation.GenericDataRowCollection~Table.md) | Reference to the [GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md) this collection belongs to.   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -33,9 +29,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Find](fcSDK~FChoice.Foundation.GenericDataRowCollection~Find.md) | Overloaded. Gets the row containing the specified primary key values.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetEnumerator](fcSDK~FChoice.Foundation.GenericDataRowCollection~GetEnumerator.md) | Gets an [IEnumerator](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemcollectionsienumeratorclasstopic.htm) for the collection.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

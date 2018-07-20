@@ -1,8 +1,4 @@
-﻿     IDataObject Interface Methods                                                   
-
-fcSDK Documentation
-
-IDataObject Interface Methods
+﻿### IDataObject Interface Methods
 
 For a list of all members of this type, see [IDataObject members](fcSDK~FChoice.Foundation.DataObjects.IDataObject_members.md).
 
@@ -17,9 +13,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.IDataObject~GetSafeInt32FieldValue.md) |   |
 | ![ Method](dotnetimages/Method.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.IDataObject~GetSafeStringFieldValue.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

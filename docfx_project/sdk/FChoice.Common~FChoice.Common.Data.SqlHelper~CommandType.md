@@ -1,14 +1,9 @@
-﻿     CommandType Property                                                   
-
-CommandType Property
+﻿### CommandType Property
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property CommandType As [CommandType](#)
 
@@ -18,11 +13,9 @@ Remarks
 
 When the [CommandType](frlrfsystemdataidbcommandclasscommandtypetopic.htm) property is set to **StoredProcedure**, set the [CommandText](FChoice.Common~FChoice.Common.Data.SqlHelper~CommandText.md) property to the name of the stored procedure. The user may be required to use escape character syntax if the stored procedure name contains any special characters. The command will call this stored procedure when you call one of the Execute methods.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

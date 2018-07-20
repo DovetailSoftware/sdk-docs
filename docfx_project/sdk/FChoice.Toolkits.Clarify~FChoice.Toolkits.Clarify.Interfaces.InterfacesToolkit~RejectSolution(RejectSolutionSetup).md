@@ -1,8 +1,4 @@
-﻿     RejectSolution(RejectSolutionSetup) Method                                                   
-
-fcSDK Documentation
-
-RejectSolution(RejectSolutionSetup) Method
+﻿### RejectSolution(RejectSolutionSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Reject the Solution from the queue in which it currently resides, and return it 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function RejectSolution( _
    ByVal _setupParam_ As [RejectSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RejectSolutionSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Solution must be in open condition, and currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

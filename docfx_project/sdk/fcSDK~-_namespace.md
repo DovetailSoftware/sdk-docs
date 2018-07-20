@@ -1,10 +1,4 @@
-﻿     (Global) Namespace                                                   
-
-fcSDK Documentation
-
-(Global) Namespace
-
-See Also
+﻿### (Global) Namespace
 
 #### Reference
 

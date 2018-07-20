@@ -1,6 +1,4 @@
-﻿     FChoice.Common.State Namespace                                                   
-
-FChoice.Common.State Namespace
+﻿### FChoice.Common.State Namespace
 
 Classes
 
@@ -19,8 +17,6 @@ Interfaces
 |   | Interface | Description |
 | --- | --- | --- |
 | ![Interface](dotnetimages/Interface.png) | [IStateManager](FChoice.Common~FChoice.Common.State.IStateManager.md) |   |
-
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     AcceptSolutionSetup Constructor                                                   
-
-fcSDK Documentation
-
-AcceptSolutionSetup Constructor
+﻿### AcceptSolutionSetup Constructor
 
 Solution Identifier.
 
@@ -11,17 +7,14 @@ Initializes a new instance of the AcceptSolutionSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _solutionIDNum_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public AcceptSolutionSetup( 
    string _solutionIDNum_
 )
@@ -32,11 +25,9 @@ _solutionIDNum_
 
 Solution Identifier.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

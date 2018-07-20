@@ -1,8 +1,4 @@
-﻿     AddUserToQueue(AddUserToQueueSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-AddUserToQueue(AddUserToQueueSetup,IDbTransaction) Method
+﻿### AddUserToQueue(AddUserToQueueSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Add a User to a Queue. This overload takes a setup object and a database transac
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AddUserToQueue( _
    ByVal _setupParam_ As [AddUserToQueueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

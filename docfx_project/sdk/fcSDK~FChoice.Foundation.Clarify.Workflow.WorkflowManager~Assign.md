@@ -1,23 +1,15 @@
-﻿     Assign Method                                                   
-
-fcSDK Documentation
-
-Assign Method
+﻿### Assign Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function Assign( _
    ByVal _idNum_ As String, _
    ByVal _objectName_ As String, _
    ByVal _newUserName_ As String, _
    ByVal _wipBin_ As String, _
-   ByVal _assignDate_ As [Date](#), _
+   ByVal _assignDate_ As Date, _
    ByVal _currentUserName_ As String, _
    ByVal _generateTimeBomb_ As Boolean _
 ) As [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md)
@@ -27,7 +19,7 @@ public [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md)
    string _objectName_,
    string _newUserName_,
    string _wipBin_,
-   [DateTime](#) _assignDate_,
+   DateTime _assignDate_,
    string _currentUserName_,
    bool _generateTimeBomb_
 )
@@ -48,11 +40,9 @@ _currentUserName_
 
 _generateTimeBomb_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

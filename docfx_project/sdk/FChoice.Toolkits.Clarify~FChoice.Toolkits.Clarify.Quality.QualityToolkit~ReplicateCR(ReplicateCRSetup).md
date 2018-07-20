@@ -1,8 +1,4 @@
-﻿     ReplicateCR(ReplicateCRSetup) Method                                                   
-
-fcSDK Documentation
-
-ReplicateCR(ReplicateCRSetup) Method
+﻿### ReplicateCR(ReplicateCRSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Replicate a CR. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReplicateCR( _
    ByVal _setupParam_ As [ReplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReplicateCRSetup.md) _
@@ -45,11 +38,9 @@ The new CR is an exact copy of the original with the following exceptions:
 2.  The CR history has next text added to show the start and end of the replicated CR history.
 3.  A new activity log entry is added to show this CR is replicated. Also, an activity log entry is also added to the original CR to note that it has been replicated.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

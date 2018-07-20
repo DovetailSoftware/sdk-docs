@@ -1,34 +1,24 @@
-﻿     IsSessionValid Method (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-IsSessionValid Method (ClarifyApplication)
+﻿### IsSessionValid Method (ClarifyApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function IsSessionValid( _
-   ByVal _sessionID_ As [Guid](#) _
+   ByVal _sessionID_ As Guid _
 ) As Boolean
 
 public bool IsSessionValid( 
-   [Guid](#) _sessionID_
+   Guid _sessionID_
 )
 
 #### Parameters
 
 _sessionID_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

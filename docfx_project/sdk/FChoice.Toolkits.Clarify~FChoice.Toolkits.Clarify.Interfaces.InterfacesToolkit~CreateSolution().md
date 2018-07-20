@@ -1,18 +1,11 @@
-﻿     CreateSolution() Method                                                   
-
-fcSDK Documentation
-
-CreateSolution() Method
+﻿### CreateSolution() Method
 
 Create a Solution. This overload takes a set of required parameters for the API.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateSolution() As [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md)
 
@@ -26,11 +19,9 @@ The following values are populated in the [CreateSolutionResult](FChoice.Toolkit
 *   [WorkaroundObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~WorkaroundObjid.md) \- Objid of the Workaround that is created along with the Solution
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~IDNum.md) \- The IDNum of the Solution.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

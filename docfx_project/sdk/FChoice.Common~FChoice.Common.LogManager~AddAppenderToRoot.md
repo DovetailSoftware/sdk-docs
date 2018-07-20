@@ -1,6 +1,4 @@
-﻿     AddAppenderToRoot Method                                                   
-
-AddAppenderToRoot Method
+﻿### AddAppenderToRoot Method
 
 The name of an existing appender to associate with this logger.
 
@@ -9,10 +7,7 @@ Adds an already-prepared appender to the root level (affecting all loggers).
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shared Sub AddAppenderToRoot( _
    ByVal _appenderName_ As String _
@@ -36,11 +31,9 @@ To prepare a rolling file-based appender, see the [AddLogFileAppender](FChoice.
 
 **NOTE:** After you are finished configuring LogManager, you must call [Reconfigure](FChoice.Common~FChoice.Common.LogManager~Reconfigure.md) in order for the changes to fully take effect.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

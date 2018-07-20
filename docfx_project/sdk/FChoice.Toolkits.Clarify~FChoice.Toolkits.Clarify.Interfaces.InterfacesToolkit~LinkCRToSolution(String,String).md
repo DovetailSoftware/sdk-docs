@@ -1,8 +1,4 @@
-﻿     LinkCRToSolution(String,String) Method                                                   
-
-fcSDK Documentation
-
-LinkCRToSolution(String,String) Method
+﻿### LinkCRToSolution(String,String) Method
 
 Identifier of the CR to link to the Solution
 
@@ -13,10 +9,7 @@ Link a CR to a Solution. This overload takes a set of required parameters for th
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LinkCRToSolution( _
    ByVal _crIDNum_ As String, _
@@ -44,11 +37,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the CR.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

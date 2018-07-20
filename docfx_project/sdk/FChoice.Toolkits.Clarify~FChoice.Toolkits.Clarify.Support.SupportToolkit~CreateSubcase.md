@@ -1,8 +1,4 @@
-﻿     CreateSubcase Method                                                   
-
-fcSDK Documentation
-
-CreateSubcase Method
+﻿### CreateSubcase Method
 
 Creates a new Subcase. This overload takes a set of required parameters for the API.
 
@@ -16,11 +12,9 @@ Overload List
 | [CreateSubcase(CreateSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CreateSubcase(CreateSubcaseSetup).md) | Creates a new Subcase. This overload takes a setup object.   |
 | [CreateSubcase(CreateSubcaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CreateSubcase(CreateSubcaseSetup,IDbTransaction).md) | Creates a new Subcase. This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

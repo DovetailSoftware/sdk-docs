@@ -1,18 +1,11 @@
-﻿     SupportToolkitBase Class                                                   
-
-fcSDK Documentation
-
-SupportToolkitBase Class
+﻿### SupportToolkitBase Class
 
 Please see [SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.md). This class is used internally and not meant to be created by end users.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class SupportToolkitBase 
    Inherits [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)
@@ -21,7 +14,7 @@ public abstract class SupportToolkitBase : [FChoice.Toolkits.Clarify.ToolkitBase
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  
       **FChoice.Toolkits.Clarify.Support.SupportToolkitBase**  
          [FChoice.Toolkits.Clarify.Support.SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.md)  
@@ -34,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

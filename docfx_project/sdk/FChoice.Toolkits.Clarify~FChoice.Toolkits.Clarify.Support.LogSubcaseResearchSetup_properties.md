@@ -1,8 +1,4 @@
-﻿     LogSubcaseResearchSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogSubcaseResearchSetup Class Properties
+﻿### LogSubcaseResearchSetup Class Properties
 
 For a list of all members of this type, see [LogSubcaseResearchSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup_members.md).
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SubcaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup~SubcaseIDNum.md) | Identifier of the Subcase against which the research note is being logged.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

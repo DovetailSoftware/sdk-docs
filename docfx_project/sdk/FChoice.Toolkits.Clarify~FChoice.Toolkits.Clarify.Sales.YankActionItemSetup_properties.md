@@ -1,8 +1,4 @@
-﻿     YankActionItemSetup Class Properties                                                   
-
-fcSDK Documentation
-
-YankActionItemSetup Class Properties
+﻿### YankActionItemSetup Class Properties
 
 For a list of all members of this type, see [YankActionItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup~WipBin.md) | User's WipBin in which to place the ActionItem. If not set, the UserName's default is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [YankDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup~YankDate.md) | DateTime the ActionItem was yanked. If not set, the current time is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,16 +1,9 @@
-﻿     GetInstance Method                                                   
-
-fcSDK Documentation
-
-GetInstance Method
+﻿### GetInstance Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shared Function GetInstance( _
    ByVal _cacheSetName_ As String _
@@ -24,11 +17,9 @@ public static [CustomCache](fcSDK~FChoice.Foundation.CustomCache.md) GetInstance
 
 _cacheSetName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

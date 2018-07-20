@@ -1,18 +1,11 @@
-﻿     AdditionalFields Class                                                   
-
-fcSDK Documentation
-
-AdditionalFields Class
+﻿### AdditionalFields Class
 
 Many APIs exposes an instance of this class which is used to allow setting of user defined fields ('x_fields') in a customized Clarify environment. It is also possible to override the fields that are set by the API.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class AdditionalFields 
 
@@ -24,7 +17,7 @@ To set an additional field simply call the [Append](FChoice.Toolkits.Clarify~FCh
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.AdditionalFields**  
 
 #### Requirements
@@ -35,7 +28,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

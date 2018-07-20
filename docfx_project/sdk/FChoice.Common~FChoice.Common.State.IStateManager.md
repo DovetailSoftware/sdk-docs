@@ -1,15 +1,9 @@
-﻿     IStateManager Interface                                                   
-
-IStateManager Interface
+﻿### IStateManager Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Interface IStateManager 
 
 public interface IStateManager 
@@ -22,7 +16,7 @@ public interface IStateManager
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

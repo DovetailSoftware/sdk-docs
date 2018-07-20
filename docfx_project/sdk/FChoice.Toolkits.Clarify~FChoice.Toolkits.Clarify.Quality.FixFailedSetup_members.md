@@ -1,8 +1,4 @@
-﻿     FixFailedSetup Class Members                                                   
-
-fcSDK Documentation
-
-FixFailedSetup Class Members
+﻿### FixFailedSetup Class Members
 
 The following tables list the members exposed by [FixFailedSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [FixFailedSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup~_ctor.md) | Initializes a new instance of the FixFailedSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TestCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup~TestCase.md) | Name of the test case related to the CR Fix being marked as Failed   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup~UserName.md) | The user failing the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

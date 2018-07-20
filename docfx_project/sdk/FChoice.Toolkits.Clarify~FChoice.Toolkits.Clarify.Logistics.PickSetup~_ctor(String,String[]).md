@@ -1,8 +1,4 @@
-﻿     PickSetup Constructor(String,String\[\])                                                   
-
-fcSDK Documentation
-
-PickSetup Constructor(String,String\[\])
+﻿### PickSetup Constructor(String,String\[\])
 
 Part Request Detail Identifier
 
@@ -13,21 +9,18 @@ Initializes a new instance of the PickSetup class. This overload takes a set of 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal ParamArray _serialNumbers_() As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public PickSetup( 
    string _partRequestDetailIDNum_,
-   params string\[\] _serialNumbers_
+   params string[] _serialNumbers_
 )
 
 #### Parameters
@@ -40,11 +33,9 @@ _serialNumbers_
 
 The serial number(s) of the part(s) to pick (hard pick)
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

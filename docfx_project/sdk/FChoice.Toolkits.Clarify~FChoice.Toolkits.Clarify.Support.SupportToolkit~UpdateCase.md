@@ -1,8 +1,4 @@
-﻿     UpdateCase Method                                                   
-
-fcSDK Documentation
-
-UpdateCase Method
+﻿### UpdateCase Method
 
 Updates an existing Case. This overload takes a setup object.
 
@@ -19,11 +15,9 @@ Remarks
 
 If the [User](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseSetup~UserName.md) is not the current owner of the Case and this flag is **true** then the Update will not happen.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

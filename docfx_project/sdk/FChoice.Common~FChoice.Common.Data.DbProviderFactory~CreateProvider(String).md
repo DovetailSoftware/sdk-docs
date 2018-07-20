@@ -1,6 +1,4 @@
-﻿     CreateProvider(String) Method                                                   
-
-CreateProvider(String) Method
+﻿### CreateProvider(String) Method
 
 A provider alias that matches one of the intrinsic provider aliases, one configured in the application configuration file, or a null reference (**Nothing** in Visual Basic) for the default alias
 
@@ -9,18 +7,18 @@ Creates a new instance of a [DbProvider](FChoice.Common~FChoice.Common.Data.DbP
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Overloads Shared Function CreateProvider( _
    ByVal _providerAlias_ As String _
 ) As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)
+```
 
+```csharp
 public static [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) CreateProvider( 
    string _providerAlias_
 )
+```
 
 #### Parameters
 
@@ -40,13 +38,9 @@ Exceptions
 
 Remarks
 
-The three intrinsic aliases are the values for the three constants: [DbProviderFactory.MSSQL_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~MSSQL_PROVIDER_NAME.md), [DbProviderFactory.ORACLE_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~ORACLE_PROVIDER_NAME.md), and [DbProviderFactory.SYBASE_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~SYBASE_PROVIDER_NAME.md).  To configure additional aliases, please see the guide to [Configure Custom Data Providers](fcflnet_config_dbprovider.md).
+The two intrinsic aliases are the values for the two constants: [DbProviderFactory.MSSQL_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~MSSQL_PROVIDER_NAME.md) and [DbProviderFactory.ORACLE_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~ORACLE_PROVIDER_NAME.md). To configure additional aliases, please see the guide to [Configure Custom Data Providers](/articles/configuring-database-providers.md).
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

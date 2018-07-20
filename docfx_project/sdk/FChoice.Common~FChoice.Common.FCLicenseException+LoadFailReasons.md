@@ -7,15 +7,12 @@ LoadFailReasons is used by [FCLicenseException](FChoice.Common~FChoice.Common.FC
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Enum FCLicenseException.LoadFailReasons 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
 
-public enum FCLicenseException.LoadFailReasons : [System.Enum](#) 
+public enum FCLicenseException.LoadFailReasons : System.Enum 
 
 Members
 
@@ -34,9 +31,9 @@ If you encounter an [FCLicenseException](FChoice.Common~FChoice.Common.FCLicens
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Common.FCLicenseException.LoadFailReasons**  
 
 #### Requirements
@@ -47,7 +44,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

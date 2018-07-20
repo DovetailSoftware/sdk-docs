@@ -1,8 +1,4 @@
-﻿     GenericDataRowCollection Class Methods                                                   
-
-fcSDK Documentation
-
-GenericDataRowCollection Class Methods
+﻿### GenericDataRowCollection Class Methods
 
 For a list of all members of this type, see [GenericDataRowCollection members](fcSDK~FChoice.Foundation.GenericDataRowCollection_members.md).
 
@@ -16,9 +12,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Find](fcSDK~FChoice.Foundation.GenericDataRowCollection~Find.md) | Overloaded. Gets the row containing the specified primary key values.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetEnumerator](fcSDK~FChoice.Foundation.GenericDataRowCollection~GetEnumerator.md) | Gets an [IEnumerator](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemcollectionsienumeratorclasstopic.htm) for the collection.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

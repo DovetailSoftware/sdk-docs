@@ -1,8 +1,4 @@
-﻿     CreateAddressSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateAddressSetup Class Members
+﻿### CreateAddressSetup Class Members
 
 The following tables list the members exposed by [CreateAddressSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateAddressSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup~_ctor.md) | Initializes a new instance of the CreateAddressSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -28,9 +24,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TimeZone](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup~TimeZone.md) | Address Timezone.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ZipCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup~ZipCode.md) | Address Zipcode.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

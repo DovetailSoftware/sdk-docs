@@ -1,8 +1,4 @@
-﻿     SalesToolkit Class Members                                                   
-
-fcSDK Documentation
-
-SalesToolkit Class Members
+﻿### SalesToolkit Class Members
 
 The following tables list the members exposed by [SalesToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SalesToolkit Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,7 +17,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ApplicationClock.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase~ImpersonatorUsername.md) | (Inherited from [FChoice.Toolkits.Clarify.Sales.SalesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -68,9 +64,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [YankOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~YankOpportunity.md) | Overloaded. Yank the Opportunity from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [YankQuote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~YankQuote.md) | Overloaded. Yank the Quote from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

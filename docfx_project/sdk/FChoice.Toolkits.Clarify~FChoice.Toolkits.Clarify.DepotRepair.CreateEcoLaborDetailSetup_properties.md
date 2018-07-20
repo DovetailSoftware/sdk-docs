@@ -1,8 +1,4 @@
-﻿     CreateEcoLaborDetailSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateEcoLaborDetailSetup Class Properties
+﻿### CreateEcoLaborDetailSetup Class Properties
 
 For a list of all members of this type, see [CreateEcoLaborDetailSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoLaborDetailSetup_members.md).
 
@@ -18,9 +14,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRevisionObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoLaborDetailSetup~PartRevisionObjid.md) | The objid of the part revision of the material that was put in use.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoLaborDetailSetup~Status.md) | Element from the 'ECO Status' application list. If not set, the default list value is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

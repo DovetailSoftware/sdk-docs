@@ -1,8 +1,4 @@
-﻿     SchemaTable Class Properties                                                   
-
-fcSDK Documentation
-
-SchemaTable Class Properties
+﻿### SchemaTable Class Properties
 
 For a list of all members of this type, see [SchemaTable members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTable_members.md).
 
@@ -27,9 +23,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Views](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTable~Views.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     IStateManager Interface Properties                                                   
-
-IStateManager Interface Properties
+﻿### IStateManager Interface Properties
 
 For a list of all members of this type, see [IStateManager members](FChoice.Common~FChoice.Common.State.IStateManager_members.md).
 
@@ -12,9 +10,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [IsStateSerialized](FChoice.Common~FChoice.Common.State.IStateManager~IsStateSerialized.md) |   |
 | ![ Property](dotnetimages/Property.png) | [StateTimeout](FChoice.Common~FChoice.Common.State.IStateManager~StateTimeout.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

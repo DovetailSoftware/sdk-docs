@@ -1,8 +1,4 @@
-﻿     ClarifyRowCollection Class Properties                                                   
-
-fcSDK Documentation
-
-ClarifyRowCollection Class Properties
+﻿### ClarifyRowCollection Class Properties
 
 For a list of all members of this type, see [ClarifyRowCollection members](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](fcSDK~FChoice.Foundation.GenericDataRowCollection~SyncRoot.md) | Gets an object that can be used to synchronize the collection. (Inherited from [FChoice.Foundation.GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Table](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection~Table.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateCountrySetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateCountrySetup Class Properties
+﻿### CreateCountrySetup Class Properties
 
 For a list of all members of this type, see [CreateCountrySetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCountrySetup_members.md).
 
@@ -18,9 +14,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CurrencyISOCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCountrySetup~CurrencyISOCode.md) | International Standards Organization code for the Country's currency   |
 | ![Public Property](dotnetimages/publicProperty.png) | [CurrencySymbol](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCountrySetup~CurrencySymbol.md) | Currency Symbol   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

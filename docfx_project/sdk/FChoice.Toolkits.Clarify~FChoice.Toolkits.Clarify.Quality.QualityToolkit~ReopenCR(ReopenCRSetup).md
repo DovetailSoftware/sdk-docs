@@ -1,8 +1,4 @@
-﻿     ReopenCR(ReopenCRSetup) Method                                                   
-
-fcSDK Documentation
-
-ReopenCR(ReopenCRSetup) Method
+﻿### ReopenCR(ReopenCRSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Reopen a CR. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReopenCR( _
    ByVal _setupParam_ As [ReopenCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 It must be in a condition other than “Open”, and cannot be dispatched.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

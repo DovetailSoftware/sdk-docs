@@ -1,22 +1,17 @@
-﻿     ExecuteScalar(CommandType,String,DataParameterCollection) Method                                                   
-
-ExecuteScalar(CommandType,String,DataParameterCollection) Method
+﻿### ExecuteScalar(CommandType,String,DataParameterCollection) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function ExecuteScalar( _
    ByVal _commandType_ As [CommandType](#), _
    ByVal _commandText_ As String, _
    ByVal _commandParams_ As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _
-) As [Object](#)
+) As Object
 
-public static [object](#) ExecuteScalar( 
+public static object ExecuteScalar( 
    [CommandType](#) _commandType_,
    string _commandText_,
    [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _commandParams_
@@ -30,11 +25,9 @@ _commandText_
 
 _commandParams_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateTimeLog Method                                                   
-
-fcSDK Documentation
-
-CreateTimeLog Method
+﻿### CreateTimeLog Method
 
 Used to create a time log that is related to an onsite log. This overload takes a setup object and a database transaction.
 
@@ -20,11 +16,9 @@ Remarks
 
 The objid of the onsite log or a case/subcase id must be supplied (but not both). The start time and duration must also be supplied.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

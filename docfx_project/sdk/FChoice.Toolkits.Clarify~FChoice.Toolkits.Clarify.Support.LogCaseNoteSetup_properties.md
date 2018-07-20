@@ -1,8 +1,4 @@
-﻿     LogCaseNoteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LogCaseNoteSetup Class Properties
+﻿### LogCaseNoteSetup Class Properties
 
 For a list of all members of this type, see [LogCaseNoteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup_members.md).
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup~Notes.md) | Notes to be logged to the Case.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LogLeadNote(LogLeadNoteSetup) Method                                                   
-
-fcSDK Documentation
-
-LogLeadNote(LogLeadNoteSetup) Method
+﻿### LogLeadNote(LogLeadNoteSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Log a note for a Lead. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogLeadNote( _
    ByVal _setupParam_ As [LogLeadNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup.md) _
@@ -42,11 +35,9 @@ The objid of the lead must be specified (since no other information on the lead 
 
 The API can generate a time bomb (for business rule notification).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

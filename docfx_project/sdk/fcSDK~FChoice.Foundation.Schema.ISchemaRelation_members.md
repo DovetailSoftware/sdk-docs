@@ -1,8 +1,4 @@
-﻿     ISchemaRelation Interface Members                                                   
-
-fcSDK Documentation
-
-ISchemaRelation Interface Members
+﻿### ISchemaRelation Interface Members
 
 The following tables list the members exposed by [ISchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md).
 
@@ -29,9 +25,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [SourceTable](fcSDK~FChoice.Foundation.Schema.ISchemaRelation~SourceTable.md) |   |
 | ![ Property](dotnetimages/Property.png) | [TargetTable](fcSDK~FChoice.Foundation.Schema.ISchemaRelation~TargetTable.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateEcoMaterialDetail Method                                                   
-
-fcSDK Documentation
-
-CreateEcoMaterialDetail Method
+﻿### CreateEcoMaterialDetail Method
 
 Add a Material Usage Detail to an ECO Header. This overload takes a set of required parameters for the API.
 
@@ -16,11 +12,9 @@ Overload List
 | [CreateEcoMaterialDetail(CreateEcoMaterialDetailSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~CreateEcoMaterialDetail(CreateEcoMaterialDetailSetup).md) | Add a Material Usage Detail to an ECO Header. This overload takes a setup object.   |
 | [CreateEcoMaterialDetail(CreateEcoMaterialDetailSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~CreateEcoMaterialDetail(CreateEcoMaterialDetailSetup,IDbTransaction).md) | Add a Material Usage Detail to an ECO Header. This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

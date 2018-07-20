@@ -51,7 +51,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [YankOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankOpportunitySetup.md) | Used by the [YankOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~YankOpportunity(YankOpportunitySetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [YankQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankQuoteSetup.md) | Used by the [YankQuote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~YankQuote(YankQuoteSetup).md) method as setup data for invocation. |
 
-See Also
+
 
 #### Reference
 

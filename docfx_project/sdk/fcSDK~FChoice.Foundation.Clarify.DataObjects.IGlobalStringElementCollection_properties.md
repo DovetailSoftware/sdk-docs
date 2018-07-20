@@ -1,8 +1,4 @@
-﻿     IGlobalStringElementCollection Interface Properties                                                   
-
-fcSDK Documentation
-
-IGlobalStringElementCollection Interface Properties
+﻿### IGlobalStringElementCollection Interface Properties
 
 For a list of all members of this type, see [IGlobalStringElementCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [InactiveElements](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~InactiveElements.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

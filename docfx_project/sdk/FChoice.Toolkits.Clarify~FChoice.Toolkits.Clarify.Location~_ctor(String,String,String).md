@@ -1,16 +1,9 @@
-﻿     Location Constructor(String,String,String)                                                   
-
-fcSDK Documentation
-
-Location Constructor(String,String,String)
+﻿### Location Constructor(String,String,String)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function New( _
    ByVal _locationName_ As String, _
@@ -32,11 +25,9 @@ _containerName_
 
 _containerIDNum_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

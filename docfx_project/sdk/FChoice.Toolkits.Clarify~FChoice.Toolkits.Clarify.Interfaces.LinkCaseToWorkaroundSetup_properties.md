@@ -1,8 +1,4 @@
-﻿     LinkCaseToWorkaroundSetup Class Properties                                                   
-
-fcSDK Documentation
-
-LinkCaseToWorkaroundSetup Class Properties
+﻿### LinkCaseToWorkaroundSetup Class Properties
 
 For a list of all members of this type, see [LinkCaseToWorkaroundSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup~UserName.md) | User that linked the Case to the Workaround. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkaroundObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup~WorkaroundObjid.md) | Objid of the Workaround the Case will be linked to   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

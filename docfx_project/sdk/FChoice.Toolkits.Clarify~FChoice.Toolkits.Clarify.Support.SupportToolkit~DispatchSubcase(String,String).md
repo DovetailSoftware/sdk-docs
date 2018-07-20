@@ -1,8 +1,4 @@
-﻿     DispatchSubcase(String,String) Method                                                   
-
-fcSDK Documentation
-
-DispatchSubcase(String,String) Method
+﻿### DispatchSubcase(String,String) Method
 
 Subcase Identifier.
 
@@ -13,10 +9,7 @@ Dispatch the Subcase to the specified queue. This overload takes a set of requir
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DispatchSubcase( _
    ByVal _subcaseIDNum_ As String, _
@@ -46,11 +39,9 @@ Remarks
 
 The Subcase must be in open condition, and not currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     CommonException Class Members                                                   
-
-CommonException Class Members
+﻿### CommonException Class Members
 
 The following tables list the members exposed by [CommonException](FChoice.Common~FChoice.Common.CommonException.md).
 
@@ -19,8 +17,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
-
 Public Methods
 
 |   | Name | Description |
@@ -30,10 +26,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetObjectData](FChoice.Common~FChoice.Common.FCExceptionBase~GetObjectData.md) | Sets the [SerializationInfo](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemruntimeserializationserializationinfoclasstopic.htm) object with the parameter name and additional exception information. (Inherited from [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

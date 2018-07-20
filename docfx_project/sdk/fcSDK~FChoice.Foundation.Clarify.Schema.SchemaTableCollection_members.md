@@ -1,8 +1,4 @@
-﻿     SchemaTableCollection Class Members                                                   
-
-fcSDK Documentation
-
-SchemaTableCollection Class Members
+﻿### SchemaTableCollection Class Members
 
 The following tables list the members exposed by [SchemaTableCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableCollection.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<SchemaTable>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,9 +49,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<SchemaTable>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<SchemaTable>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

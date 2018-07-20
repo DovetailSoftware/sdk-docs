@@ -1,8 +1,4 @@
-﻿     CreateCommunicationSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateCommunicationSetup Constructor
+﻿### CreateCommunicationSetup Constructor
 
 The ID of the parent dialogue.
 
@@ -17,15 +13,12 @@ Initializes a new instance of the CreateCommunicationSetup class.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function New( _
    ByVal _dialogueIdNumber_ As String, _
    ByVal _title_ As String, _
-   ByVal _channelObjid_ As [Integer](#), _
+   ByVal _channelObjid_ As Integer, _
    ByVal _sender_ As String, _
    ByVal _recipients_() As String _
 )
@@ -33,9 +26,9 @@ Public Function New( _
 public CreateCommunicationSetup( 
    string _dialogueIdNumber_,
    string _title_,
-   [int](#) _channelObjid_,
+   int _channelObjid_,
    string _sender_,
-   string\[\] _recipients_
+   string[] _recipients_
 )
 
 #### Parameters
@@ -58,11 +51,9 @@ _recipients_
 
 The address of each receipient of the communication.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

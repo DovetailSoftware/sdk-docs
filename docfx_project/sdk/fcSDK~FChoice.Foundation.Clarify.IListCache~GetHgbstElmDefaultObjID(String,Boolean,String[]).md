@@ -1,27 +1,20 @@
-﻿     GetHgbstElmDefaultObjID(String,Boolean,String\[\]) Method                                                   
-
-fcSDK Documentation
-
-GetHgbstElmDefaultObjID(String,Boolean,String\[\]) Method
+﻿### GetHgbstElmDefaultObjID(String,Boolean,String\[\]) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Overloads Function GetHgbstElmDefaultObjID( _
    ByVal _listTitle_ As String, _
    ByVal _throwErrors_ As Boolean, _
    ByVal ParamArray _elementTitles_() As String _
-) As [Integer](#)
+) As Integer
 
-[int](#) GetHgbstElmDefaultObjID( 
+int GetHgbstElmDefaultObjID( 
    string _listTitle_,
    bool _throwErrors_,
-   params string\[\] _elementTitles_
+   params string[] _elementTitles_
 )
 
 #### Parameters
@@ -32,11 +25,9 @@ _throwErrors_
 
 _elementTitles_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

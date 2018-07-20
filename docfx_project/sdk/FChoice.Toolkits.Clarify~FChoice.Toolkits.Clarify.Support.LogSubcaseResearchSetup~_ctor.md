@@ -1,8 +1,4 @@
-﻿     LogSubcaseResearchSetup Constructor                                                   
-
-fcSDK Documentation
-
-LogSubcaseResearchSetup Constructor
+﻿### LogSubcaseResearchSetup Constructor
 
 Identifier of the Subcase against which the research note is being logged.
 
@@ -13,21 +9,18 @@ Initializes a new instance of the LogSubcaseResearchSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _subcaseIDNum_ As String, _
-   ByVal _researchDuration_ As [TimeSpan](#) _
+   ByVal _researchDuration_ As TimeSpan _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public LogSubcaseResearchSetup( 
    string _subcaseIDNum_,
-   [TimeSpan](#) _researchDuration_
+   TimeSpan _researchDuration_
 )
 
 #### Parameters
@@ -40,11 +33,9 @@ _researchDuration_
 
 The length of time for research.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

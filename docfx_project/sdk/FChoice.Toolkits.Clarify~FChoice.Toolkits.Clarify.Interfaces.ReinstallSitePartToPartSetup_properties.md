@@ -1,8 +1,4 @@
-﻿     ReinstallSitePartToPartSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ReinstallSitePartToPartSetup Class Properties
+﻿### ReinstallSitePartToPartSetup Class Properties
 
 For a list of all members of this type, see [ReinstallSitePartToPartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToPartSetup_members.md).
 
@@ -21,9 +17,9 @@ If [AddActivityLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToPartSetup~UserName.md) | User that re-installed the Site Part. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

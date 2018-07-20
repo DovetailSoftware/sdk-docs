@@ -1,8 +1,4 @@
-﻿     LogisticsToolkit Class Properties                                                   
-
-fcSDK Documentation
-
-LogisticsToolkit Class Properties
+﻿### LogisticsToolkit Class Properties
 
 For a list of all members of this type, see [LogisticsToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase~ImpersonatorUsername.md) | (Inherited from [FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

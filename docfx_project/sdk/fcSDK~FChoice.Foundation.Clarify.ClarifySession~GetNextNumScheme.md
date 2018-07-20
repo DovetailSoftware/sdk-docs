@@ -1,8 +1,4 @@
-﻿     GetNextNumScheme Method (ClarifySession)                                                   
-
-fcSDK Documentation
-
-GetNextNumScheme Method (ClarifySession)
+﻿### GetNextNumScheme Method (ClarifySession)
 
 Overload List
 
@@ -11,11 +7,9 @@ Overload List
 | [GetNextNumScheme(String)](fcSDK~FChoice.Foundation.Clarify.ClarifySession~GetNextNumScheme(String).md) |   |
 | [GetNextNumScheme(String,IDbTransaction)](fcSDK~FChoice.Foundation.Clarify.ClarifySession~GetNextNumScheme(String,IDbTransaction).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     SchemaView Class Properties                                                   
-
-fcSDK Documentation
-
-SchemaView Class Properties
+﻿### SchemaView Class Properties
 
 For a list of all members of this type, see [SchemaView members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaView_members.md).
 
@@ -27,9 +23,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeID](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase~TypeID.md) | (Inherited from [FChoice.Foundation.Clarify.Schema.SchemaTableBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

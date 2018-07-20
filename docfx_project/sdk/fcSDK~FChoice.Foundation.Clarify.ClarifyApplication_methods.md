@@ -1,8 +1,4 @@
-﻿     ClarifyApplication Class Methods                                                   
-
-fcSDK Documentation
-
-ClarifyApplication Class Methods
+﻿### ClarifyApplication Class Methods
 
 For a list of all members of this type, see [ClarifyApplication members](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication_members.md).
 
@@ -24,9 +20,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [IsSessionValid](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~IsSessionValid.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [ValidateEncryptedPassword](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~ValidateEncryptedPassword.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

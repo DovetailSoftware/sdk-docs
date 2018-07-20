@@ -1,8 +1,4 @@
-﻿     UpdateSubcaseCommitmentSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateSubcaseCommitmentSetup Class Properties
+﻿### UpdateSubcaseCommitmentSetup Class Properties
 
 For a list of all members of this type, see [UpdateSubcaseCommitmentSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseCommitmentSetup_members.md).
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseCommitmentSetup~UpdateDate.md) | DateTime the Commitment was updated. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseCommitmentSetup~UserName.md) | User who updated the Commitment. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LogCaseNoteSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogCaseNoteSetup Class Members
+﻿### LogCaseNoteSetup Class Members
 
 The following tables list the members exposed by [LogCaseNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogCaseNoteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup~_ctor.md) | Initializes a new instance of the LogCaseNoteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -33,9 +29,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup~Notes.md) | Notes to be logged to the Case.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

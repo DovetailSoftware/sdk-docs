@@ -1,8 +1,4 @@
-﻿     YankSolutionSetup Class Properties                                                   
-
-fcSDK Documentation
-
-YankSolutionSetup Class Properties
+﻿### YankSolutionSetup Class Properties
 
 For a list of all members of this type, see [YankSolutionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.YankSolutionSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.YankSolutionSetup~WipBin.md) | User's WipBin in which to place the Solution. If not set, the UserName's default is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [YankDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.YankSolutionSetup~YankDate.md) | DateTime the Solution was yanked. If not set, the current time is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

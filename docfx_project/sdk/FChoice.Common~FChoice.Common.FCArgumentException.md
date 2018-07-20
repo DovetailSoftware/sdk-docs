@@ -1,23 +1,21 @@
-﻿     FCArgumentException Class                                                   
-
-FCArgumentException Class
+﻿### FCArgumentException Class
 
 FCArgumentException is used to signify that parameters passed into APIs are invalid. It has several static (**Shared** in Visual Basic) methods that make handling required parameters easier.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 <SerializableAttribute()>
 Public Class FCArgumentException 
    Inherits [CommonException](FChoice.Common~FChoice.Common.CommonException.md)
+```
 
-\[SerializableAttribute()\]
+```csharp
+[SerializableAttribute()]
 public class FCArgumentException : [CommonException](FChoice.Common~FChoice.Common.CommonException.md) 
+```
 
 Remarks
 
@@ -25,12 +23,12 @@ Please see the three main static (**Shared** in Visual Basic) on this class for 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.Exception](#)  
-      [System.ApplicationException](#)  
-         [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
-            [FChoice.Common.CommonException](FChoice.Common~FChoice.Common.CommonException.md)  
-               **FChoice.Common.FCArgumentException**  
+System.Object  
+[System.Exception](#)  
+[System.ApplicationException](#)  
+[FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
+[FChoice.Common.CommonException](FChoice.Common~FChoice.Common.CommonException.md)  
+**FChoice.Common.FCArgumentException**  
 
 #### Requirements
 
@@ -39,8 +37,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-See Also
 
 #### Reference
 

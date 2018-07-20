@@ -7,18 +7,18 @@ Creates a new row in the **ClarifyGeneric** with the specified [objId](fcSDK~FC
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Function AddForUpdate( _
-   ByVal _objId_ As [Integer](#) _
-) As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)
+   ByVal _objId_ As Integer _
+) As ClarifyDataRow
+```
 
-public [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) AddForUpdate( 
-   [int](#) _objId_
+```csharp
+public ClarifyDataRow AddForUpdate( 
+   int _objId_
 )
+```
 
 #### Parameters
 
@@ -36,11 +36,7 @@ Use this method when you know the uniqueId of an object in the database and maki
 
 **Note:** The objId must be a legal identifier for the [Table](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~SchemaTable.md) the Generic belongs to.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

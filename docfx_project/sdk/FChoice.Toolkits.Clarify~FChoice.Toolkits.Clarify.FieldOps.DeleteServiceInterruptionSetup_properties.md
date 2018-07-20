@@ -1,8 +1,4 @@
-﻿     DeleteServiceInterruptionSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DeleteServiceInterruptionSetup Class Properties
+﻿### DeleteServiceInterruptionSetup Class Properties
 
 For a list of all members of this type, see [DeleteServiceInterruptionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteServiceInterruptionSetup_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CreateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteServiceInterruptionSetup~CreateDate.md) | The DateTime the Service Interuption was deleted. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteServiceInterruptionSetup~UserName.md) | The user who is deleting the Service Interuption. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateEcoMaterialDetail(CreateEcoMaterialDetailSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateEcoMaterialDetail(CreateEcoMaterialDetailSetup,IDbTransaction) Method
+﻿### CreateEcoMaterialDetail(CreateEcoMaterialDetailSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Add a Material Usage Detail to an ECO Header. This overload takes a setup object
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateEcoMaterialDetail( _
    ByVal _setupParam_ As [CreateEcoMaterialDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoMaterialDetailSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

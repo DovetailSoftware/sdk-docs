@@ -1,8 +1,4 @@
-﻿     AssignLeadSetup Class Members                                                   
-
-fcSDK Documentation
-
-AssignLeadSetup Class Members
+﻿### AssignLeadSetup Class Members
 
 The following tables list the members exposed by [AssignLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignLeadSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AssignLeadSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignLeadSetup~_ctor.md) | Initializes a new instance of the AssignLeadSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [LeadObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignLeadSetup~LeadObjid.md) | The objid of the lead being assigned.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [NewOwner](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignLeadSetup~NewOwner.md) | The new user which the lead is assigned to.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

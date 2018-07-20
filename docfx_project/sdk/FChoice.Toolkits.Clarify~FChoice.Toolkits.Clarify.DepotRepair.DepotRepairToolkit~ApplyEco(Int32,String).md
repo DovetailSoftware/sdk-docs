@@ -1,8 +1,4 @@
-﻿     ApplyEco(Int32,String) Method                                                   
-
-fcSDK Documentation
-
-ApplyEco(Int32,String) Method
+﻿### ApplyEco(Int32,String) Method
 
 Objid of the related Part Request Detail
 
@@ -13,18 +9,15 @@ Apply an ECO to a Part Request Detail. This overload takes a set of required par
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ApplyEco( _
-   ByVal _demandDetailObjid_ As [Integer](#), _
+   ByVal _demandDetailObjid_ As Integer, _
    ByVal _ecoHeaderIDNum_ As String _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ApplyEco( 
-   [int](#) _demandDetailObjid_,
+   int _demandDetailObjid_,
    string _ecoHeaderIDNum_
 )
 
@@ -42,11 +35,9 @@ Identifier of the ECO header
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

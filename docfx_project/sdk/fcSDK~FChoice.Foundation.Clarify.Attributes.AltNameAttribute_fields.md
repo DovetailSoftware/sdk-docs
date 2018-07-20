@@ -1,8 +1,4 @@
-﻿     AltNameAttribute Class Fields                                                   
-
-fcSDK Documentation
-
-AltNameAttribute Class Fields
+﻿### AltNameAttribute Class Fields
 
 For a list of all members of this type, see [AltNameAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.AltNameAttribute_members.md).
 
@@ -12,9 +8,9 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png) | [AltName](fcSDK~FChoice.Foundation.Clarify.Attributes.AltNameAttribute~AltName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

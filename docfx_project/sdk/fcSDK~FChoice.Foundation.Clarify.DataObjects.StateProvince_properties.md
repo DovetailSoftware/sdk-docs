@@ -1,8 +1,4 @@
-﻿     StateProvince Class Properties                                                   
-
-fcSDK Documentation
-
-StateProvince Class Properties
+﻿### StateProvince Class Properties
 
 For a list of all members of this type, see [StateProvince members](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince_members.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ObjectID](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject~ObjectID.md) | (Inherited from [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

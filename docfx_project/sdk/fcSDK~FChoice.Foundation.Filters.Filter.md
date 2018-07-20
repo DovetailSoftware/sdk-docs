@@ -1,19 +1,11 @@
-﻿     Filter Class                                                   
-
-fcSDK Documentation
-
-Filter Class
+﻿### Filter Class
 
 Abstract base of all filters.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustInherit Class Filter 
 
 public abstract class Filter 
@@ -24,7 +16,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Filters.Filter**  
       [FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)  
       [FChoice.Foundation.Filters.LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)  
@@ -37,7 +29,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

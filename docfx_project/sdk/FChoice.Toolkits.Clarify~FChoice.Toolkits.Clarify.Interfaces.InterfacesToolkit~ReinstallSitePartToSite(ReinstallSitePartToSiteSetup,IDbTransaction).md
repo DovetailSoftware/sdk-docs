@@ -1,8 +1,4 @@
-﻿     ReinstallSitePartToSite(ReinstallSitePartToSiteSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-ReinstallSitePartToSite(ReinstallSitePartToSiteSetup,IDbTransaction) Method
+﻿### ReinstallSitePartToSite(ReinstallSitePartToSiteSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Re-Install a Site Part under a Site. This overload takes a setup object and a da
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReinstallSitePartToSite( _
    ByVal _setupParam_ As [ReinstallSitePartToSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToSiteSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

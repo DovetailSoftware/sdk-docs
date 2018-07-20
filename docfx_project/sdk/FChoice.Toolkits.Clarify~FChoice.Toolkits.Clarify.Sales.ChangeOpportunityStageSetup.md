@@ -5,18 +5,14 @@ Used by the [ChangeOpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ChangeOpportunityStageSetup 
 
 public class ChangeOpportunityStageSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStageSetup**  
 
 #### Requirements
@@ -27,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

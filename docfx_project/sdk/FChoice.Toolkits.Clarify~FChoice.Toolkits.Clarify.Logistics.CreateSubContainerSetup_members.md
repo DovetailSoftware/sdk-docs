@@ -1,8 +1,4 @@
-﻿     CreateSubContainerSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateSubContainerSetup Class Members
+﻿### CreateSubContainerSetup Class Members
 
 The following tables list the members exposed by [CreateSubContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateSubContainerSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ContainerName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup~ContainerName.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ParentContainerName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup~ParentContainerName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,35 +1,28 @@
-﻿     AddAttachment Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-AddAttachment Method (IFCSession)
+﻿### AddAttachment Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743898)>
+<DispIdAttribute(1610743898)>
 Function AddAttachment( _
    ByVal _attachmentName_ As String, _
    ByVal _filePath_ As String, _
    ByVal _objectType_ As String, _
    ByVal _idNumber_ As String, _
-   Optional ByVal _objectObjId_ As [Object](#), _
-   Optional ByVal _attachmentType_ As [Object](#) _
+   Optional ByVal _objectObjId_ As Object, _
+   Optional ByVal _attachmentType_ As Object _
 ) As Short
 
-\[[DispIdAttribute](#)(1610743898)\]
+[DispIdAttribute(1610743898)]
 short AddAttachment( 
    string _attachmentName_,
    string _filePath_,
    string _objectType_,
    string _idNumber_,
-   [object](#) _objectObjId_,
-   [object](#) _attachmentType_
+   object _objectObjId_,
+   object _attachmentType_
 )
 
 #### Parameters
@@ -46,11 +39,9 @@ _objectObjId_
 
 _attachmentType_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

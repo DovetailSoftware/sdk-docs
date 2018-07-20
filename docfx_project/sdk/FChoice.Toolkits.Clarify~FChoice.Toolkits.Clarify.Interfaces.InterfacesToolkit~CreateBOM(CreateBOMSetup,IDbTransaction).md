@@ -1,8 +1,4 @@
-﻿     CreateBOM(CreateBOMSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateBOM(CreateBOMSetup,IDbTransaction) Method
+﻿### CreateBOM(CreateBOMSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Creates a Bill Of Materials (BOM) for a Part Revision. This overload takes a set
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateBOM( _
    ByVal _setupParam_ As [CreateBOMSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateBOMSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

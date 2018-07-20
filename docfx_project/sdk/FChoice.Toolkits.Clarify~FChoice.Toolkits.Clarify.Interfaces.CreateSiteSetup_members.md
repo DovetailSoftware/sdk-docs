@@ -1,8 +1,4 @@
-﻿     CreateSiteSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateSiteSetup Class Members
+﻿### CreateSiteSetup Class Members
 
 The following tables list the members exposed by [CreateSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSiteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateSiteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSiteSetup~_ctor.md) | Initializes a new instance of the CreateSiteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -36,9 +32,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSiteSetup~Status.md) | Site status   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SupportOfficeSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSiteSetup~SupportOfficeSiteIDNum.md) | Identifier of the site where the support office is located   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

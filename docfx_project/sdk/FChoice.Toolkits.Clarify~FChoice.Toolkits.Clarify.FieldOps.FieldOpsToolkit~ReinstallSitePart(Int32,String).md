@@ -1,8 +1,4 @@
-﻿     ReinstallSitePart(Int32,String) Method                                                   
-
-fcSDK Documentation
-
-ReinstallSitePart(Int32,String) Method
+﻿### ReinstallSitePart(Int32,String) Method
 
 The Objid of the Site Part being reinstalled.
 
@@ -11,18 +7,15 @@ The Site Id of the Site where the Site Part is being moved.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReinstallSitePart( _
-   ByVal _sitePartObjid_ As [Integer](#), _
+   ByVal _sitePartObjid_ As Integer, _
    ByVal _siteIDNum_ As String _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReinstallSitePart( 
-   [int](#) _sitePartObjid_,
+   int _sitePartObjid_,
    string _siteIDNum_
 )
 
@@ -40,11 +33,9 @@ The Site Id of the Site where the Site Part is being moved.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

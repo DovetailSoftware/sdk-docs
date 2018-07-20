@@ -1,28 +1,18 @@
-﻿     LoginFromFCApp Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-LoginFromFCApp Method (IFCSession)
+﻿### LoginFromFCApp Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743857)>
+' Declaration
+<DispIdAttribute(1610743857)>
 Sub LoginFromFCApp() 
 
-\[[DispIdAttribute](#)(1610743857)\]
+[DispIdAttribute(1610743857)]
 void LoginFromFCApp()
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

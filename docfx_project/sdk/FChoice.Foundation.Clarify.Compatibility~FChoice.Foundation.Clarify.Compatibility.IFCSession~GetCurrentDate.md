@@ -1,28 +1,19 @@
-﻿     GetCurrentDate Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-GetCurrentDate Method (IFCSession)
+﻿### GetCurrentDate Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+<DispIdAttribute(1610743861)>
+Function GetCurrentDate() As Date
 
-<[DispIdAttribute](#)(1610743861)>
-Function GetCurrentDate() As [Date](#)
+[DispIdAttribute(1610743861)]
+DateTime GetCurrentDate()
 
-\[[DispIdAttribute](#)(1610743861)\]
-[DateTime](#) GetCurrentDate()
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     AddServiceInterruption Method                                                   
-
-fcSDK Documentation
-
-AddServiceInterruption Method
+﻿### AddServiceInterruption Method
 
 Adds a service interruption (and creates an appointment record). This overload takes a setup object and a database transaction.
 
@@ -22,11 +18,9 @@ The start/end time can be specified either with both times or with one time and 
 
 Each appointment must be specified for a given case or a piece of equipment (site_part), but both cannot be specified. If a case is specified, the case must have a related site_part.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

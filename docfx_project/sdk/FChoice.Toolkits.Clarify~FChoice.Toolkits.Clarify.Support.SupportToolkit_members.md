@@ -1,8 +1,4 @@
-﻿     SupportToolkit Class Members                                                   
-
-fcSDK Documentation
-
-SupportToolkit Class Members
+﻿### SupportToolkit Class Members
 
 The following tables list the members exposed by [SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SupportToolkit Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -20,7 +16,7 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsInternalLogIndicator](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~IsInternalLogIndicator.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -33,7 +29,7 @@ Exposed only for testability of certain APIs.
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase~ImpersonatorUsername.md) | (Inherited from [FChoice.Toolkits.Clarify.Support.SupportToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseDenormalizedCaseTypeLevels](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase~UseDenormalizedCaseTypeLevels.md) | (Inherited from [FChoice.Toolkits.Clarify.Support.SupportToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -93,9 +89,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [YankCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~YankCase.md) | Overloaded. Yank the Case from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [YankSubcase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~YankSubcase.md) | Overloaded. Yank the Subcase from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

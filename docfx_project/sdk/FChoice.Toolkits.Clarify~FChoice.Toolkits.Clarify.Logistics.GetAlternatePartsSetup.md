@@ -1,26 +1,18 @@
-﻿     GetAlternatePartsSetup Class                                                   
-
-fcSDK Documentation
-
-GetAlternatePartsSetup Class
+﻿### GetAlternatePartsSetup Class
 
 Used by the [GetAlternateParts](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetAlternateParts(GetAlternatePartsSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class GetAlternatePartsSetup 
 
 public class GetAlternatePartsSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

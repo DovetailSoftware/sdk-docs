@@ -1,16 +1,9 @@
-﻿     IFCList Interface                                                   
-
-fcSDK Documentation
-
-IFCList Interface
+﻿### IFCList Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[ComVisibleAttribute](#)(True)>
 <[GuidAttribute](#)("6AFFB191-74AD-4d5f-A2B5-2456A3F5AA9F")>
@@ -28,7 +21,7 @@ public interface IFCList
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

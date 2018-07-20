@@ -1,8 +1,4 @@
-﻿     CustomCache Class Members                                                   
-
-fcSDK Documentation
-
-CustomCache Class Members
+﻿### CustomCache Class Members
 
 The following tables list the members exposed by [CustomCache](fcSDK~FChoice.Foundation.CustomCache.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CacheType](fcSDK~FChoice.Foundation.CustomCache~CacheType.md) | Overridden.    |
 | ![Public Property](dotnetimages/publicProperty.png) | [Data](fcSDK~FChoice.Foundation.CustomCache~Data.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -23,7 +19,7 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GetInstance](fcSDK~FChoice.Foundation.CustomCache~GetInstance.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateCache](fcSDK~FChoice.Foundation.CacheBase~UpdateCache.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
+
 
 Public Events
 
@@ -31,9 +27,9 @@ Public Events
 | --- | --- | --- |
 | ![Public Event](dotnetimages/publicEvent.png) | [CacheUpdated](fcSDK~FChoice.Foundation.CacheBase~CacheUpdated_EV.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

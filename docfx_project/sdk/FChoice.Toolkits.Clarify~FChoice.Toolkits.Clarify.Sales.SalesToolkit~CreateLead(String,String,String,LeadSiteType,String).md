@@ -1,8 +1,4 @@
-﻿     CreateLead(String,String,String,LeadSiteType,String) Method                                                   
-
-fcSDK Documentation
-
-CreateLead(String,String,String,LeadSiteType,String) Method
+﻿### CreateLead(String,String,String,LeadSiteType,String) Method
 
 State for the lead.
 
@@ -19,10 +15,7 @@ Used to create a new Lead. This overload takes a set of required parameters fo
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateLead( _
    ByVal _state_ As String, _
@@ -74,11 +67,9 @@ For almost all of the data, it can be specified, or not.
 
 The user who created the lead, and the date/time of the create can be specified. The API can also generate a time bomb (for business rules). Finally, additional fields may be set.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

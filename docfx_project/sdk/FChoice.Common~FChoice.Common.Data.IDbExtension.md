@@ -1,17 +1,11 @@
-﻿     IDbExtension Interface                                                   
-
-IDbExtension Interface
+﻿### IDbExtension Interface
 
 IDbExtension allows applications to specify database-specific extensions to the DbProvider
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Interface IDbExtension 
 
 public interface IDbExtension 
@@ -24,7 +18,7 @@ public interface IDbExtension
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

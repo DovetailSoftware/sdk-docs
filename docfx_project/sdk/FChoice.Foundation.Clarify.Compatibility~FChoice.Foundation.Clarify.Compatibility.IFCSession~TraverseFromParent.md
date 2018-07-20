@@ -1,18 +1,11 @@
-﻿     TraverseFromParent Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-TraverseFromParent Method (IFCSession)
+﻿### TraverseFromParent Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743881)>
+<DispIdAttribute(1610743881)>
 Function TraverseFromParent( _
    ByRef _generic_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md), _
    ByVal _objectType_ As String, _
@@ -22,7 +15,7 @@ Function TraverseFromParent( _
    ByVal _relation_ As String _
 ) As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md)
 
-\[[DispIdAttribute](#)(1610743881)\]
+[DispIdAttribute(1610743881)]
 [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) TraverseFromParent( 
    out [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _generic_,
    string _objectType_,
@@ -46,11 +39,9 @@ _the_parent_
 
 _relation_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

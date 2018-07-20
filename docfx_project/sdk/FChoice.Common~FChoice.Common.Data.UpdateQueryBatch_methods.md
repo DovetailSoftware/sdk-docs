@@ -1,6 +1,4 @@
-﻿     UpdateQueryBatch Class Methods                                                   
-
-UpdateQueryBatch Class Methods
+﻿### UpdateQueryBatch Class Methods
 
 For a list of all members of this type, see [UpdateQueryBatch members](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch_members.md).
 
@@ -12,9 +10,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Execute](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~Execute.md) | Executes the batch if the provider supports statement batching, or nothing if it doesn't   |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetUniqueParamName](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~GetUniqueParamName.md) | Gets a unique parameter name among all the parameters for all the queries in this batch based off a suggested base name   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     AssignCase(AssignCaseSetup) Method                                                   
-
-fcSDK Documentation
-
-AssignCase(AssignCaseSetup) Method
+﻿### AssignCase(AssignCaseSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Assign the Case to a new user. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AssignCase( _
    ByVal _setupParam_ As [AssignCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AssignCaseSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Case must be in the Open condition, and the user assigning the Case does not have to be the owner of the Case. In base Clarify, the assigner of a Case must be the owner. If either user name is not specified, the “current” user is used. The date/time of the assignment, and the WipBin to place the Case in can also be specified. Allowing a WipBin other than the default one is also an augmentation from base Clarify.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

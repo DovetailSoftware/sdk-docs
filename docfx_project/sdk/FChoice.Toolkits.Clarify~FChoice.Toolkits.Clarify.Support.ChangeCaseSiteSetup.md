@@ -1,26 +1,18 @@
-﻿     ChangeCaseSiteSetup Class                                                   
-
-fcSDK Documentation
-
-ChangeCaseSiteSetup Class
+﻿### ChangeCaseSiteSetup Class
 
 Used by the [ChangeCaseSite](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeCaseSite(ChangeCaseSiteSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ChangeCaseSiteSetup 
 
 public class ChangeCaseSiteSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

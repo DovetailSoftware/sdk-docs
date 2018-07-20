@@ -1,8 +1,4 @@
-﻿     IHierarchicalStringListCollection Interface Methods                                                   
-
-fcSDK Documentation
-
-IHierarchicalStringListCollection Interface Methods
+﻿### IHierarchicalStringListCollection Interface Methods
 
 For a list of all members of this type, see [IHierarchicalStringListCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringListCollection_members.md).
 
@@ -34,9 +30,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [TrimExcess](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringListCollection~TrimExcess.md) |   |
 | ![ Method](dotnetimages/Method.png) | [TrueForAll](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringListCollection~TrueForAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

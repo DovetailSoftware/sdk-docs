@@ -1,8 +1,4 @@
-﻿     CreateQueueSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateQueueSetup Class Properties
+﻿### CreateQueueSetup Class Properties
 
 For a list of all members of this type, see [CreateQueueSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateQueueSetup_members.md).
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Supervisor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateQueueSetup~Supervisor.md) | Username of the supervisor of the Queue   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateQueueSetup~Title.md) | Title of the Queue   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

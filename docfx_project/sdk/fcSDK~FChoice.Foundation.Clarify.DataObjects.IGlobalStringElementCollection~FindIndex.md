@@ -1,8 +1,4 @@
-﻿     FindIndex Method (IGlobalStringElementCollection)                                                   
-
-fcSDK Documentation
-
-FindIndex Method (IGlobalStringElementCollection)
+﻿### FindIndex Method (IGlobalStringElementCollection)
 
 Overload List
 
@@ -12,11 +8,9 @@ Overload List
 | [FindIndex(Int32,Predicate<IGlobalStringElement>)](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~FindIndex(Int32,Predicate{IGlobalStringElement}).md) |   |
 | [FindIndex(Int32,Int32,Predicate<IGlobalStringElement>)](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection~FindIndex(Int32,Int32,Predicate{IGlobalStringElement}).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

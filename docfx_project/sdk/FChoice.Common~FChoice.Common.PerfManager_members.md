@@ -1,6 +1,4 @@
-﻿     PerfManager Class Members                                                   
-
-PerfManager Class Members
+﻿### PerfManager Class Members
 
 The following tables list the members exposed by [PerfManager](FChoice.Common~FChoice.Common.PerfManager.md).
 
@@ -13,7 +11,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsEnabled](FChoice.Common~FChoice.Common.PerfManager~IsEnabled.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsInitialized](FChoice.Common~FChoice.Common.PerfManager~IsInitialized.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -25,9 +23,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GetPerfTimer](FChoice.Common~FChoice.Common.PerfManager~GetPerfTimer.md) | Gets the current value of the high-resolution performance counter   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [Initialize](FChoice.Common~FChoice.Common.PerfManager~Initialize.md) | Allows PerfManager to initialize itself by creating a new PerfMon instance name and preparing all the PerformanceCounter instances   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

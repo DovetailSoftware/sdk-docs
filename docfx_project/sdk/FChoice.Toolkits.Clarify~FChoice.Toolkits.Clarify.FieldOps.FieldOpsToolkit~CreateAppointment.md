@@ -1,8 +1,4 @@
-﻿     CreateAppointment Method                                                   
-
-fcSDK Documentation
-
-CreateAppointment Method
+﻿### CreateAppointment Method
 
 Used to create a new appointment. This overload takes a setup object and a database transaction.
 
@@ -24,11 +20,9 @@ The start/end time can be specified either with both times or with one time and 
 
 Each appointment must be specified for a given employee or a piece of equipment (site_part). Both cannot be specified. A case ID number may be optionally specified.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

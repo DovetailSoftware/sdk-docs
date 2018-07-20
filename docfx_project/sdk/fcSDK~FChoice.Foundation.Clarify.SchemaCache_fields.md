@@ -1,8 +1,4 @@
-﻿     SchemaCache Class Fields                                                   
-
-fcSDK Documentation
-
-SchemaCache Class Fields
+﻿### SchemaCache Class Fields
 
 For a list of all members of this type, see [SchemaCache members](fcSDK~FChoice.Foundation.Clarify.SchemaCache_members.md).
 
@@ -28,9 +24,9 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [CLARIFY_9](fcSDK~FChoice.Foundation.Clarify.SchemaCache~CLARIFY_9.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [CLARIFY_CFO98](fcSDK~FChoice.Foundation.Clarify.SchemaCache~CLARIFY_CFO98.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

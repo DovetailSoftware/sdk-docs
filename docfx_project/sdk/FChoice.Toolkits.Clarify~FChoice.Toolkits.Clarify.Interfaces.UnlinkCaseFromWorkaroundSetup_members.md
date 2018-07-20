@@ -1,8 +1,4 @@
-﻿     UnlinkCaseFromWorkaroundSetup Class Members                                                   
-
-fcSDK Documentation
-
-UnlinkCaseFromWorkaroundSetup Class Members
+﻿### UnlinkCaseFromWorkaroundSetup Class Members
 
 The following tables list the members exposed by [UnlinkCaseFromWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UnlinkCaseFromWorkaroundSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UnlinkCaseFromWorkaroundSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UnlinkCaseFromWorkaroundSetup~_ctor.md) | Initializes a new instance of the UnlinkCaseFromWorkaroundSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UnlinkDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UnlinkCaseFromWorkaroundSetup~UnlinkDate.md) | DateTime the unlinking was done. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UnlinkCaseFromWorkaroundSetup~UserName.md) | User that unlinked the Case from the Workaround. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,28 +1,19 @@
-﻿     Filters Property                                                   
-
-fcSDK Documentation
-
-Filters Property
+﻿### Filters Property
 
 Collection of Filters that belong to this logical grouping.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property Filters As [FilterCollection](fcSDK~FChoice.Foundation.Filters.FilterCollection.md)
 
 public [FilterCollection](fcSDK~FChoice.Foundation.Filters.FilterCollection.md) Filters {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     CreateAppointment(CreateAppointmentSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateAppointment(CreateAppointmentSetup) Method
+﻿### CreateAppointment(CreateAppointmentSetup) Method
 
 Setup object for API invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateAppointment( _
    ByVal _setupParam_ As [CreateAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup.md) _
@@ -35,11 +28,9 @@ The following values are populated in the [CreateAppointmentResult](FChoice.Tool
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult~Objid.md) \- The Objid of the Appointment.
 *   [ScheduleObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult~ScheduleObjid.md) \- The Objid of the Schedule.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     MsSqlStateManager Class Properties                                                   
-
-MsSqlStateManager Class Properties
+﻿### MsSqlStateManager Class Properties
 
 For a list of all members of this type, see [MsSqlStateManager members](FChoice.Common~FChoice.Common.State.MsSqlStateManager_members.md).
 
@@ -14,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Provider](FChoice.Common~FChoice.Common.State.RemoteStateManager~Provider.md) | (Inherited from [FChoice.Common.State.RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [StateTimeout](FChoice.Common~FChoice.Common.State.RemoteStateManager~StateTimeout.md) | (Inherited from [FChoice.Common.State.RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateTimeZoneSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateTimeZoneSetup Class Properties
+﻿### CreateTimeZoneSetup Class Properties
 
 For a list of all members of this type, see [CreateTimeZoneSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateTimeZoneSetup_members.md).
 
@@ -18,9 +14,9 @@ Name of the Country the Timezone will belong to.
 | ![Public Property](dotnetimages/publicProperty.png) | [GMTDifference](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateTimeZoneSetup~GMTDifference.md) | Seconds between the Timezone being created and Greenwich Mean Time (GMT)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TimeZone](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateTimeZoneSetup~TimeZone.md) | Timezone name   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

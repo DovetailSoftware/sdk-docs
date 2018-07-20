@@ -1,8 +1,4 @@
-﻿     UpdateEcoLaborDetailSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateEcoLaborDetailSetup Class Members
+﻿### UpdateEcoLaborDetailSetup Class Members
 
 The following tables list the members exposed by [UpdateEcoLaborDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoLaborDetailSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateEcoLaborDetailSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoLaborDetailSetup~_ctor.md) | Initializes a new instance of the UpdateEcoLaborDetailSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [LaborType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoLaborDetailSetup~LaborType.md) | Element from the 'Labor Type' application list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoLaborDetailSetup~Status.md) | Element from the 'ECO Status' application list. If not set, the default list value is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

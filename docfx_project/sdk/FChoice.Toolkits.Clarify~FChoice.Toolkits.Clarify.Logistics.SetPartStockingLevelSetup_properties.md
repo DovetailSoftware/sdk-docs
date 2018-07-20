@@ -1,8 +1,4 @@
-﻿     SetPartStockingLevelSetup Class Properties                                                   
-
-fcSDK Documentation
-
-SetPartStockingLevelSetup Class Properties
+﻿### SetPartStockingLevelSetup Class Properties
 
 For a list of all members of this type, see [SetPartStockingLevelSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup_members.md).
 
@@ -36,9 +32,9 @@ Quantity of parts to be reordered for this inventory location when reorder level
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup~PartRevision.md) | Part revision of the Part   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup~Queue.md) | The queue to which the reorder part request will be dispatched   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     Query() Method                                                   
-
-fcSDK Documentation
-
-Query() Method
+﻿### Query() Method
 
 Causes the generic object to query the database table or view using the optionally specified data fields, filters, and sort orders
 
@@ -90,11 +86,9 @@ Dim gContact As ClarifyGeneric = gCase.Traverse("case_reporter2contact")
 Next
 ```
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

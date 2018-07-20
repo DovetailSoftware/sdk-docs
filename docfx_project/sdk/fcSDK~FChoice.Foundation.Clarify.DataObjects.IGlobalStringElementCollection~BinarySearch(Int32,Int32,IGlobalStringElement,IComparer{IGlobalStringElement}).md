@@ -7,21 +7,18 @@ BinarySearch(Int32,Int32,IGlobalStringElement,IComparer<IGlobalStringElement>) M
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Overloads Function BinarySearch( _
-   ByVal _index_ As [Integer](#), _
-   ByVal _count_ As [Integer](#), _
+   ByVal _index_ As Integer, _
+   ByVal _count_ As Integer, _
    ByVal _item_ As [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md), _
    ByVal _comparer_ As [IComparer(Of IGlobalStringElement)](#) _
-) As [Integer](#)
+) As Integer
 
-[int](#) BinarySearch( 
-   [int](#) _index_,
-   [int](#) _count_,
+int BinarySearch( 
+   int _index_,
+   int _count_,
    [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md) _item_,
    [IComparer<IGlobalStringElement>](#) _comparer_
 )
@@ -36,11 +33,9 @@ _item_
 
 _comparer_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

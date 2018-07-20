@@ -1,26 +1,17 @@
-﻿     FC_CACHE_PATH_SUFFIX Field                                                   
-
-fcSDK Documentation
-
-FC_CACHE_PATH_SUFFIX Field
+﻿### FC_CACHE_PATH_SUFFIX Field
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Const FC_CACHE_PATH_SUFFIX As String
 
 public const string FC_CACHE_PATH_SUFFIX
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

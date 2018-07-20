@@ -1,24 +1,17 @@
-﻿     StateTimeout Property (RemoteStateManager)                                                   
-
-StateTimeout Property (RemoteStateManager)
+﻿### StateTimeout Property (RemoteStateManager)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Property StateTimeout As TimeSpan
 
-Public Property StateTimeout As [TimeSpan](#)
+public TimeSpan StateTimeout {get; set;}
 
-public [TimeSpan](#) StateTimeout {get; set;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

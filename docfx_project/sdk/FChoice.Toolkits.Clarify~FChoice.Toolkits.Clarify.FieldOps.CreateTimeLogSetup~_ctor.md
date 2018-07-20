@@ -1,8 +1,4 @@
-﻿     CreateTimeLogSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateTimeLogSetup Constructor
+﻿### CreateTimeLogSetup Constructor
 
 The Objid of the Onsite Log that this Time Log is related to.
 
@@ -15,23 +11,20 @@ Initializes a new instance of the CreateTimeLogSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _onsiteLogObjid_ As [Integer](#), _
-   ByVal _startDate_ As [Date](#), _
-   ByVal _duration_ As [TimeSpan](#) _
+   ByVal _onsiteLogObjid_ As Integer, _
+   ByVal _startDate_ As Date, _
+   ByVal _duration_ As TimeSpan _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateTimeLogSetup( 
-   [int](#) _onsiteLogObjid_,
-   [DateTime](#) _startDate_,
-   [TimeSpan](#) _duration_
+   int _onsiteLogObjid_,
+   DateTime _startDate_,
+   TimeSpan _duration_
 )
 
 #### Parameters
@@ -48,11 +41,9 @@ _duration_
 
 The length (in seconds) of the Time Log. If not specified, it is calculated from the start and end times.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

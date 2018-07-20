@@ -1,8 +1,4 @@
-﻿     UpdateDepotRepairLabor(UpdateDepotRepairLaborSetup) Method                                                   
-
-fcSDK Documentation
-
-UpdateDepotRepairLabor(UpdateDepotRepairLaborSetup) Method
+﻿### UpdateDepotRepairLabor(UpdateDepotRepairLaborSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Update a Depot Repair Labor. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateDepotRepairLabor( _
    ByVal _setupParam_ As [UpdateDepotRepairLaborSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairLaborSetup.md) _
@@ -36,11 +29,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the TimeLog.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

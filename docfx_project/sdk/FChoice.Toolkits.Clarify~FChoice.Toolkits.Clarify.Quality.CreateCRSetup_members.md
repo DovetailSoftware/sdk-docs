@@ -1,8 +1,4 @@
-﻿     CreateCRSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateCRSetup Class Members
+﻿### CreateCRSetup Class Members
 
 The following tables list the members exposed by [CreateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateCRSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup~_ctor.md) | Initializes a new instance of the CreateCRSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,9 +37,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup~UserName.md) | The user creating the CR. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [VerificationTest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup~VerificationTest.md) | List of verification tests for the Change Request   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

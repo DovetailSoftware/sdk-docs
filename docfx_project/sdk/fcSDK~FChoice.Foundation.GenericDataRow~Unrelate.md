@@ -1,8 +1,4 @@
-﻿     Unrelate Method                                                   
-
-fcSDK Documentation
-
-Unrelate Method
+﻿### Unrelate Method
 
 Row to unrelate from the current **GenericDataRow**
 
@@ -13,10 +9,7 @@ UnRelate this [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) from
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Sub Unrelate( _
    ByVal _otherRow_ As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md), _
@@ -38,11 +31,9 @@ _relationName_
 
 Name of the relation being unrelated from the given row.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

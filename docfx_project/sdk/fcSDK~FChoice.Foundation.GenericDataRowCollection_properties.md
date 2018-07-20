@@ -1,8 +1,4 @@
-﻿     GenericDataRowCollection Class Properties                                                   
-
-fcSDK Documentation
-
-GenericDataRowCollection Class Properties
+﻿### GenericDataRowCollection Class Properties
 
 For a list of all members of this type, see [GenericDataRowCollection members](fcSDK~FChoice.Foundation.GenericDataRowCollection_members.md).
 
@@ -21,9 +17,9 @@ Gets the row at the specified index.
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](fcSDK~FChoice.Foundation.GenericDataRowCollection~SyncRoot.md) | Gets an object that can be used to synchronize the collection.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Table](fcSDK~FChoice.Foundation.GenericDataRowCollection~Table.md) | Reference to the [GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md) this collection belongs to.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

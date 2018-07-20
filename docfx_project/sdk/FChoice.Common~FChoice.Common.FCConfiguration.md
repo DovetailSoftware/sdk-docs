@@ -1,17 +1,11 @@
-﻿     FCConfiguration Class                                                   
-
-FCConfiguration Class
+﻿### FCConfiguration Class
 
 The FCConfiguration class provides access to the application configuration and ensures that basic required configuration parameters are present.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public NotInheritable Class FCConfiguration 
 
 public sealed class FCConfiguration 
@@ -24,7 +18,7 @@ Values stored in the collection can be modified and new values can be added and 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.FCConfiguration**  
 
 #### Requirements
@@ -35,7 +29,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

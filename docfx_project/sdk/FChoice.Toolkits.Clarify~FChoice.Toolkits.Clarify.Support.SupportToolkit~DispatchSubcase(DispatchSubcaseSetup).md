@@ -1,8 +1,4 @@
-﻿     DispatchSubcase(DispatchSubcaseSetup) Method                                                   
-
-fcSDK Documentation
-
-DispatchSubcase(DispatchSubcaseSetup) Method
+﻿### DispatchSubcase(DispatchSubcaseSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Dispatch the Subcase to the specified queue. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DispatchSubcase( _
    ByVal _setupParam_ As [DispatchSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Subcase must be in open condition, and not currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

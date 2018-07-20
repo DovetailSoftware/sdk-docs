@@ -16,23 +16,12 @@
     "content": [
       {
         "files": [
-          "api/**.yml",
-          "api/index.md"
-        ]
-      },
-      {
-        "files": [
-          "sdk/**.md",
-          "sdk/index.md",
-          "sdk/toc.yml"
-        ]
-      },
-      {
-        "files": [
-          "articles/**.md",
-          "articles/**/toc.yml",
-          "toc.yml",
-          "*.md"
+          "api/*.yml",
+          "sdk/toc.yml",
+          "**.md"
+        ],
+        "exclude": [
+          "partials/**"
         ]
       }
     ],
@@ -75,7 +64,7 @@
     "markdownEngineName": "markdig",
     "noLangKeyword": false,
     "keepFileLink": false,
-    "cleanupCacheHistory": false,
+    "cleanupCacheHistory": true,
     "disableGitFeatures": false
   }
 }

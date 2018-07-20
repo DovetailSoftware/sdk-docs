@@ -1,32 +1,25 @@
-﻿     MapDbNumberToFCName Method                                                   
-
-MapDbNumberToFCName Method
+﻿### MapDbNumberToFCName Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustOverride Function MapDbNumberToFCName( _
-   ByVal _dbNumber_ As [Integer](#) _
+   ByVal _dbNumber_ As Integer _
 ) As String
 
 public abstract string MapDbNumberToFCName( 
-   [int](#) _dbNumber_
+   int _dbNumber_
 )
 
 #### Parameters
 
 _dbNumber_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

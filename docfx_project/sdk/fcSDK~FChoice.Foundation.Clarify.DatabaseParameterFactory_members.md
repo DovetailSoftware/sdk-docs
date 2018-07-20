@@ -1,8 +1,4 @@
-﻿     DatabaseParameterFactory Class Members                                                   
-
-fcSDK Documentation
-
-DatabaseParameterFactory Class Members
+﻿### DatabaseParameterFactory Class Members
 
 The following tables list the members exposed by [DatabaseParameterFactory](fcSDK~FChoice.Foundation.Clarify.DatabaseParameterFactory.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DatabaseParameterFactory Constructor](fcSDK~FChoice.Foundation.Clarify.DatabaseParameterFactory~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -20,7 +16,7 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png) | [EnableSettingStringParameterTypeAndSize](fcSDK~FChoice.Foundation.Clarify.DatabaseParameterFactory~EnableSettingStringParameterTypeAndSize.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -30,9 +26,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Create](fcSDK~FChoice.Foundation.Clarify.DatabaseParameterFactory~Create.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [ShouldStringParameterTypeAndSizeBeSet](fcSDK~FChoice.Foundation.Clarify.DatabaseParameterFactory~ShouldStringParameterTypeAndSizeBeSet.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

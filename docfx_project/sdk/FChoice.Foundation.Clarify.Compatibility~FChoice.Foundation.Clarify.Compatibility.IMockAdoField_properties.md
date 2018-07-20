@@ -1,8 +1,4 @@
-﻿     IMockAdoField Interface Properties                                                   
-
-fcSDK Documentation
-
-IMockAdoField Interface Properties
+﻿### IMockAdoField Interface Properties
 
 For a list of all members of this type, see [IMockAdoField members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [NetValue](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField~NetValue.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Type](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField~Type.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

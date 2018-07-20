@@ -1,8 +1,4 @@
-﻿     ChangeCRStatus(String) Method                                                   
-
-fcSDK Documentation
-
-ChangeCRStatus(String) Method
+﻿### ChangeCRStatus(String) Method
 
 Change Request Identifier
 
@@ -11,10 +7,7 @@ Change the status of a CR. This overload takes a set of required parameters for 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ChangeCRStatus( _
    ByVal _crIDNum_ As String _
@@ -38,11 +31,9 @@ Remarks
 
 The change request may be in any condition, but the new status MUST have the same condition as the change request’s current condition. In other words, you cannot use this API to change the condition of a CR – you must use the proper API (fix, close, reopen) to do that. You may assign notes to the status change, as well as set the time of the status change, and the user who changed the status. The API can also generate a time bomb (for business rule notification).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

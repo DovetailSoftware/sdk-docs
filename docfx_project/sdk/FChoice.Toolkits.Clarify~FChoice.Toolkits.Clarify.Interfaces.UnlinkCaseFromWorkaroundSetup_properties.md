@@ -1,8 +1,4 @@
-﻿     UnlinkCaseFromWorkaroundSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UnlinkCaseFromWorkaroundSetup Class Properties
+﻿### UnlinkCaseFromWorkaroundSetup Class Properties
 
 For a list of all members of this type, see [UnlinkCaseFromWorkaroundSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UnlinkCaseFromWorkaroundSetup_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UnlinkDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UnlinkCaseFromWorkaroundSetup~UnlinkDate.md) | DateTime the unlinking was done. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UnlinkCaseFromWorkaroundSetup~UserName.md) | User that unlinked the Case from the Workaround. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

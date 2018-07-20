@@ -1,8 +1,4 @@
-﻿     IGlobalStringListCollection Interface Properties                                                   
-
-fcSDK Documentation
-
-IGlobalStringListCollection Interface Properties
+﻿### IGlobalStringListCollection Interface Properties
 
 For a list of all members of this type, see [IGlobalStringListCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Capacity](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection~Capacity.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection~Item.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

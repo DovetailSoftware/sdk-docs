@@ -1,16 +1,9 @@
-﻿     PropertyBitValueAttribute Class                                                   
-
-fcSDK Documentation
-
-PropertyBitValueAttribute Class
+﻿### PropertyBitValueAttribute Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Property, 
    AllowMultiple=False, 
@@ -25,7 +18,7 @@ public class PropertyBitValueAttribute : [System.Attribute](#)
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Attribute](#)  
       **FChoice.Toolkits.Clarify.PropertyBitValueAttribute**  
 
@@ -37,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ConfigItemCollection Class Methods                                                   
-
-fcSDK Documentation
-
-ConfigItemCollection Class Methods
+﻿### ConfigItemCollection Class Methods
 
 For a list of all members of this type, see [ConfigItemCollection members](fcSDK~FChoice.Foundation.DataObjects.ConfigItemCollection_members.md).
 
@@ -42,9 +38,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<ConfigItem>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<ConfigItem>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

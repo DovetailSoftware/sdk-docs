@@ -1,8 +1,4 @@
-﻿     CreateChannelSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateChannelSetup Class Properties
+﻿### CreateChannelSetup Class Properties
 
 For a list of all members of this type, see [CreateChannelSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateChannelSetup_members.md).
 
@@ -20,9 +16,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [MediumObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateChannelSetup~MediumObjid.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateChannelSetup~Title.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

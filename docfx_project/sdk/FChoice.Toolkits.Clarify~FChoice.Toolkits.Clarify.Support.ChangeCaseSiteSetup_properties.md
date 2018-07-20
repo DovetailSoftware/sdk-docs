@@ -1,8 +1,4 @@
-﻿     ChangeCaseSiteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ChangeCaseSiteSetup Class Properties
+﻿### ChangeCaseSiteSetup Class Properties
 
 For a list of all members of this type, see [ChangeCaseSiteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup_members.md).
 
@@ -20,9 +16,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup~SiteIDNum.md) | Site Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup~UserName.md) | The User who changed the Case. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     AutoDestRule Class Properties                                                   
-
-fcSDK Documentation
-
-AutoDestRule Class Properties
+﻿### AutoDestRule Class Properties
 
 For a list of all members of this type, see [AutoDestRule members](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RuleText](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule~RuleText.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SuccessfulRuleClause](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule~SuccessfulRuleClause.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

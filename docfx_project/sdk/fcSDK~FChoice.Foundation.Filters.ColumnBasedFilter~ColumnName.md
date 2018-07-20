@@ -1,26 +1,17 @@
-﻿     ColumnName Property                                                   
-
-fcSDK Documentation
-
-ColumnName Property
+﻿### ColumnName Property
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property ColumnName As String
 
 public string ColumnName {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

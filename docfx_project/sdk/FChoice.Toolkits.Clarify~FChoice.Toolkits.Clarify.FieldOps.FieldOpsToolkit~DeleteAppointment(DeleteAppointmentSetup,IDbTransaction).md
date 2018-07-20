@@ -1,8 +1,4 @@
-﻿     DeleteAppointment(DeleteAppointmentSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-DeleteAppointment(DeleteAppointmentSetup,IDbTransaction) Method
+﻿### DeleteAppointment(DeleteAppointmentSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to delete an existing appointment. This overload takes a setup object and a
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DeleteAppointment( _
    ByVal _setupParam_ As [DeleteAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteAppointmentSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

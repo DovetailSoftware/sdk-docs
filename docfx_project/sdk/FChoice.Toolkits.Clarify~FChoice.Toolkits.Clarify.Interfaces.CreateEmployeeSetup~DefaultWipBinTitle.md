@@ -1,18 +1,11 @@
-﻿     DefaultWipBinTitle Property                                                   
-
-fcSDK Documentation
-
-DefaultWipBinTitle Property
+﻿### DefaultWipBinTitle Property
 
 Title of the employee's default WipBin
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property DefaultWipBinTitle As String
@@ -24,11 +17,9 @@ Remarks
 
 If not set, the DefaultWipBinTitle will be set to **default**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

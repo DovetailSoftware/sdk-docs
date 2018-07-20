@@ -1,8 +1,4 @@
-﻿     AdoFieldInformationProvider Class Members                                                   
-
-fcSDK Documentation
-
-AdoFieldInformationProvider Class Members
+﻿### AdoFieldInformationProvider Class Members
 
 The following tables list the members exposed by [AdoFieldInformationProvider](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoFieldInformationProvider.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AdoFieldInformationProvider Constructor](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoFieldInformationProvider~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -20,7 +16,7 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png) | [MaximumFieldSizeForSortableAdoStringFields](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoFieldInformationProvider~MaximumFieldSizeForSortableAdoStringFields.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -28,9 +24,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetAdoFieldInformation](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoFieldInformationProvider~GetAdoFieldInformation.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

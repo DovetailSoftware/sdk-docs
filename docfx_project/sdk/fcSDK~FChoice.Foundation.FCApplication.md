@@ -1,24 +1,16 @@
-﻿     FCApplication Class                                                   
-
-fcSDK Documentation
-
-FCApplication Class
+﻿### FCApplication Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustInherit Class FCApplication 
 
 public abstract class FCApplication 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.FCApplication**  
       [FChoice.Foundation.Clarify.ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)  
 
@@ -30,7 +22,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,23 +1,16 @@
-﻿     is_it_a_table Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-is_it_a_table Method (IFCApplication)
+﻿### is_it_a_table Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743884)>
+<DispIdAttribute(1610743884)>
 Function is_it_a_table( _
    ByVal _tableName_ As String _
 ) As Boolean
 
-\[[DispIdAttribute](#)(1610743884)\]
+[DispIdAttribute(1610743884)]
 bool is_it_a_table( 
    string _tableName_
 )
@@ -26,11 +19,9 @@ bool is_it_a_table(
 
 _tableName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

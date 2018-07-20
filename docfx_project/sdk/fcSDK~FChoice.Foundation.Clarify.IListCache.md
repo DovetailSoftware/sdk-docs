@@ -1,16 +1,9 @@
-﻿     IListCache Interface                                                   
-
-fcSDK Documentation
-
-IListCache Interface
+﻿### IListCache Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Interface IListCache 
 
@@ -24,7 +17,7 @@ public interface IListCache
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

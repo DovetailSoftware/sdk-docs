@@ -1,8 +1,4 @@
-﻿     IFCApplication Interface Members                                                   
-
-fcSDK Documentation
-
-IFCApplication Interface Members
+﻿### IFCApplication Interface Members
 
 The following tables list the members exposed by [IFCApplication](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication.md).
 
@@ -30,7 +26,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [TruncateStringFields](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication~TruncateStringFields.md) |   |
 | ![ Property](dotnetimages/Property.png) | [WorkingDirectory](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication~WorkingDirectory.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -114,9 +110,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [UpdateSchemaCache](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication~UpdateSchemaCache.md) |   |
 | ![ Method](dotnetimages/Method.png) | [ValidateEncryptedPassword](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication~ValidateEncryptedPassword.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

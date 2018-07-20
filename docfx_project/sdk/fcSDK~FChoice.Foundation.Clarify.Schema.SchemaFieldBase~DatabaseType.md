@@ -1,26 +1,17 @@
-﻿     DatabaseType Property (SchemaFieldBase)                                                   
-
-fcSDK Documentation
-
-DatabaseType Property (SchemaFieldBase)
+﻿### DatabaseType Property (SchemaFieldBase)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property DatabaseType As Integer
 
-Public ReadOnly Property DatabaseType As [Integer](#)
+public int DatabaseType {get;}
 
-public [int](#) DatabaseType {get;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

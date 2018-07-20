@@ -1,8 +1,4 @@
-﻿     SupportToolkit Class Methods                                                   
-
-fcSDK Documentation
-
-SupportToolkit Class Methods
+﻿### SupportToolkit Class Methods
 
 For a list of all members of this type, see [SupportToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit_members.md).
 
@@ -64,9 +60,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [YankCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~YankCase.md) | Overloaded. Yank the Case from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [YankSubcase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~YankSubcase.md) | Overloaded. Yank the Subcase from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

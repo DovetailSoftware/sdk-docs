@@ -1,26 +1,18 @@
-﻿     ChangeQuoteStatusSetup Class                                                   
-
-fcSDK Documentation
-
-ChangeQuoteStatusSetup Class
+﻿### ChangeQuoteStatusSetup Class
 
 Used by the [ChangeQuoteStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ChangeQuoteStatus(ChangeQuoteStatusSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ChangeQuoteStatusSetup 
 
 public class ChangeQuoteStatusSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Sales.ChangeQuoteStatusSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

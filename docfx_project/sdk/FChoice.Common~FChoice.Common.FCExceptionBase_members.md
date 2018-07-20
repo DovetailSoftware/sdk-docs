@@ -1,6 +1,4 @@
-﻿     FCExceptionBase Class Members                                                   
-
-FCExceptionBase Class Members
+﻿### FCExceptionBase Class Members
 
 The following tables list the members exposed by [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md).
 
@@ -20,7 +18,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -32,9 +30,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SetMessageProvider](FChoice.Common~FChoice.Common.FCExceptionBase~SetMessageProvider.md) | Sets the [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) that FCExceptionBase will use for loading custom exception error message strings for localization or customization.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

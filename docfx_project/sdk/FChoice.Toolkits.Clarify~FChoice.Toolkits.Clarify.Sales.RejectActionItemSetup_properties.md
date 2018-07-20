@@ -1,8 +1,4 @@
-﻿     RejectActionItemSetup Class Properties                                                   
-
-fcSDK Documentation
-
-RejectActionItemSetup Class Properties
+﻿### RejectActionItemSetup Class Properties
 
 For a list of all members of this type, see [RejectActionItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectActionItemSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectActionItemSetup~UserName.md) | The user who has rejected the ActionItem. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectActionItemSetup~WipBin.md) | User's WipBin in which to place the ActionItem. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

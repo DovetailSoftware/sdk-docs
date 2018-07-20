@@ -1,17 +1,9 @@
-﻿     IFCApplication Interface                                                   
-
-fcSDK Documentation
-
-IFCApplication Interface
+﻿### IFCApplication Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[GuidAttribute](#)("76778FF4-8666-4eba-A60A-DA8D9F743A64")>
 <[ComVisibleAttribute](#)(True)>
 Public Interface IFCApplication 
@@ -28,7 +20,7 @@ public interface IFCApplication
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

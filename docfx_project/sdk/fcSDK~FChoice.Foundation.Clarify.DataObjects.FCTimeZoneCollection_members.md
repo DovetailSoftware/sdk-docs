@@ -1,8 +1,4 @@
-﻿     FCTimeZoneCollection Class Members                                                   
-
-fcSDK Documentation
-
-FCTimeZoneCollection Class Members
+﻿### FCTimeZoneCollection Class Members
 
 The following tables list the members exposed by [FCTimeZoneCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [DefaultTimeZone](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection~DefaultTimeZone.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -53,9 +49,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<FCTimeZone>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<FCTimeZone>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,26 +1,16 @@
-﻿     IsDBTraveler Property (FCApplication)                                                   
-
-fcSDK Documentation
-
-IsDBTraveler Property (FCApplication)
+﻿### IsDBTraveler Property (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public ReadOnly Property IsDBTraveler As Boolean
 
 public bool IsDBTraveler {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,15 +1,9 @@
-﻿     GetCounter Method                                                   
-
-GetCounter Method
+﻿### GetCounter Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetCounter( _
    ByVal _counterName_ As String _
 ) As [PerformanceCounter](#)
@@ -22,11 +16,9 @@ public [PerformanceCounter](#) GetCounter(
 
 _counterName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

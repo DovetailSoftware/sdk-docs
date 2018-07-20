@@ -1,14 +1,9 @@
-﻿     MapDbNameToFCName Method                                                   
-
-MapDbNameToFCName Method
+﻿### MapDbNameToFCName Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustOverride Function MapDbNameToFCName( _
    ByVal _dbName_ As String _
@@ -22,11 +17,9 @@ public abstract string MapDbNameToFCName(
 
 _dbName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

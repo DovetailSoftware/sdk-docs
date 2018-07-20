@@ -1,6 +1,4 @@
-﻿     Add(String,Object) Method                                                   
-
-Add(String,Object) Method
+﻿### Add(String,Object) Method
 
 The name of the parameter to add (without the database-specific bind variable prefix such as @ for Microsoft SQL Server or : for Oracle)
 
@@ -11,20 +9,20 @@ Adds a parameter to this collection for use as a bind variable in the SQL statem
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Overloads Function Add( _
    ByVal _name_ As String, _
-   ByVal _value_ As [Object](#) _
-) As [Integer](#)
+   ByVal _value_ As Object _
+) As Integer
+```
 
-public [int](#) Add( 
+```csharp
+public int Add( 
    string _name_,
-   [object](#) _value_
+   object _value_
 )
+```
 
 #### Parameters
 
@@ -48,11 +46,7 @@ The **_name_** parameter should be a simple name without any database-specific 
 
 The rules for the **_value_** parameter are dictated by the underlying data provider type. In general, basic types will be supported without problems, but database-specific values such as large binary arrays or text fields might require extra preparation. Consult the database vendor's documentation or the .NET Framework SDK documentation for these special considerations.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     DuplicateCR(DuplicateCRSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-DuplicateCR(DuplicateCRSetup,IDbTransaction) Method
+﻿### DuplicateCR(DuplicateCRSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Mark a CR as duplicate of another 'master' CR. This overload takes a setup objec
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DuplicateCR( _
    ByVal _setupParam_ As [DuplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

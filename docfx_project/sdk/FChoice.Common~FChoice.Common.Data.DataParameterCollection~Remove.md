@@ -1,6 +1,4 @@
-﻿     Remove Method (DataParameterCollection)                                                   
-
-Remove Method (DataParameterCollection)
+﻿### Remove Method (DataParameterCollection)
 
 Removes a parameter with the specified name from the collection.
 
@@ -18,11 +16,9 @@ Remarks
 
 The **_name_** parameter is the natural name of the parameter. That is, the unaltered non-provider-specific name. For example, it would be the "name" value, not the "@name" value (for MS SQL Server) or ":name" (for Oracle).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

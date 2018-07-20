@@ -1,24 +1,20 @@
-﻿     CacheBase Class                                                   
-
-fcSDK Documentation
-
-CacheBase Class
+﻿### CacheBase Class
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public MustInherit Class CacheBase 
+```
 
+```csharp
 public abstract class CacheBase 
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.CacheBase**  
       [FChoice.Foundation.Clarify.ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)  
       [FChoice.Foundation.CustomCache](fcSDK~FChoice.Foundation.CustomCache.md)  
@@ -30,8 +26,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

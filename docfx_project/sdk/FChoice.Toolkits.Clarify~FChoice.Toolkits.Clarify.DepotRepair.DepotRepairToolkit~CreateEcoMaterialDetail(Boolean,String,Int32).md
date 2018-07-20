@@ -1,8 +1,4 @@
-﻿     CreateEcoMaterialDetail(Boolean,String,Int32) Method                                                   
-
-fcSDK Documentation
-
-CreateEcoMaterialDetail(Boolean,String,Int32) Method
+﻿### CreateEcoMaterialDetail(Boolean,String,Int32) Method
 
 Indicates if this detail is required (true) or not (false)
 
@@ -15,22 +11,22 @@ Add a Material Usage Detail to an ECO Header. This overload takes a set of requi
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function CreateEcoMaterialDetail( _
    ByVal _isRequired_ As Boolean, _
    ByVal _ecoHeaderIDNum_ As String, _
-   ByVal _partRevisionObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _partRevisionObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateEcoMaterialDetail( 
+```csharp
+public ToolkitResult CreateEcoMaterialDetail( 
    bool _isRequired_,
    string _ecoHeaderIDNum_,
-   [int](#) _partRevisionObjid_
+   int _partRevisionObjid_
 )
+```
 
 #### Parameters
 
@@ -48,13 +44,9 @@ The objid of the part revision of the material that was put in use.
 
 #### Return Value
 
-A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

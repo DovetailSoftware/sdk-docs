@@ -1,24 +1,16 @@
-﻿     GetTableID Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetTableID Method (IFCApplication)
+﻿### GetTableID Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743863)>
+' Declaration
+<DispIdAttribute(1610743863)>
 Function GetTableID( _
    ByVal _TableName_ As String _
-) As [Integer](#)
+) As Integer
 
-\[[DispIdAttribute](#)(1610743863)\]
-[int](#) GetTableID( 
+[DispIdAttribute(1610743863)]
+int GetTableID( 
    string _TableName_
 )
 
@@ -26,11 +18,9 @@ Function GetTableID( _
 
 _TableName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

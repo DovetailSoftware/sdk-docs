@@ -1,8 +1,4 @@
-﻿     CreatePartRequestDetailSetup Constructor(String,Int32,Int32)                                                   
-
-fcSDK Documentation
-
-CreatePartRequestDetailSetup Constructor(String,Int32,Int32)
+﻿### CreatePartRequestDetailSetup Constructor(String,Int32,Int32)
 
 Parent Part Request Header Identifier
 
@@ -15,24 +11,24 @@ Initializes a new instance of the CreatePartRequestDetailSetup class. This overl
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestHeaderIDNum_ As String, _
-   ByVal _quantity_ As [Integer](#), _
-   ByVal _sitePartObjid_ As [Integer](#) _
+   ByVal _quantity_ As Integer, _
+   ByVal _sitePartObjid_ As Integer _
 )
+```
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+```csharp
+[ConstructorIndexAttribute()]
 public CreatePartRequestDetailSetup( 
    string _partRequestHeaderIDNum_,
-   [int](#) _quantity_,
-   [int](#) _sitePartObjid_
+   int _quantity_,
+   int _sitePartObjid_
 )
+```
 
 #### Parameters
 
@@ -48,11 +44,7 @@ _sitePartObjid_
 
 The Objid of the Site Part to which this Part Request will be linked.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

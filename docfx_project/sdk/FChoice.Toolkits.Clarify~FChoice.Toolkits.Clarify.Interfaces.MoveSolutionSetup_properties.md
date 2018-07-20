@@ -1,8 +1,4 @@
-﻿     MoveSolutionSetup Class Properties                                                   
-
-fcSDK Documentation
-
-MoveSolutionSetup Class Properties
+﻿### MoveSolutionSetup Class Properties
 
 For a list of all members of this type, see [MoveSolutionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSolutionSetup_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [NewWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSolutionSetup~NewWipBin.md) | The new WipBin into which the Solution is to be moved.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SolutionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSolutionSetup~SolutionIDNum.md) | Solution Identifier.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

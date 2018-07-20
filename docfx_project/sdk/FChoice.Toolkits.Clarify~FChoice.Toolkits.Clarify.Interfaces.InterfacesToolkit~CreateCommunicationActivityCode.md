@@ -1,28 +1,19 @@
-﻿     CreateCommunicationActivityCode Field                                                   
-
-fcSDK Documentation
-
-CreateCommunicationActivityCode Field
+﻿### CreateCommunicationActivityCode Field
 
 Activity code used for act_entry logs generated when creating a communication.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Shared ReadOnly CreateCommunicationActivityCode As Integer
 
-Public Shared ReadOnly CreateCommunicationActivityCode As [Integer](#)
+public static readonly int CreateCommunicationActivityCode
 
-public static readonly [int](#) CreateCommunicationActivityCode
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

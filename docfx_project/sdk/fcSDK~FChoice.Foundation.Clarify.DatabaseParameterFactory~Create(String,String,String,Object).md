@@ -1,29 +1,22 @@
-﻿     Create(String,String,String,Object) Method                                                   
-
-fcSDK Documentation
-
-Create(String,String,String,Object) Method
+﻿### Create(String,String,String,Object) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function Create( _
    ByVal _paramName_ As String, _
    ByVal _tableName_ As String, _
    ByVal _fieldName_ As String, _
-   ByVal _paramValue_ As [Object](#) _
-) As [IDbDataParameter](#)
+   ByVal _paramValue_ As Object _
+) As IDbDataParameter
 
-public [IDbDataParameter](#) Create( 
+public IDbDataParameter Create( 
    string _paramName_,
    string _tableName_,
    string _fieldName_,
-   [object](#) _paramValue_
+   object _paramValue_
 )
 
 #### Parameters
@@ -36,11 +29,9 @@ _fieldName_
 
 _paramValue_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     DeleteDepotRepairMaterialSetup Class                                                   
-
-fcSDK Documentation
-
-DeleteDepotRepairMaterialSetup Class
+﻿### DeleteDepotRepairMaterialSetup Class
 
 Used by the [DeleteDepotRepairMaterial](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~DeleteDepotRepairMaterial(DeleteDepotRepairMaterialSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DeleteDepotRepairMaterialSetup 
 
 public class DeleteDepotRepairMaterialSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairMaterialSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

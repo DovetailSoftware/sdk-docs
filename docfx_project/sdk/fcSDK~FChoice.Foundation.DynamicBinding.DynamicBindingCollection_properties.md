@@ -1,8 +1,4 @@
-﻿     DynamicBindingCollection Class Properties                                                   
-
-fcSDK Documentation
-
-DynamicBindingCollection Class Properties
+﻿### DynamicBindingCollection Class Properties
 
 For a list of all members of this type, see [DynamicBindingCollection members](fcSDK~FChoice.Foundation.DynamicBinding.DynamicBindingCollection_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.ObjectModel.Collection<IDynamicBinding>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.ObjectModel.Collection<IDynamicBinding>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

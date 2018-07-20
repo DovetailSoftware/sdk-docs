@@ -1,8 +1,4 @@
-﻿     ChangePartRequestStatus Method                                                   
-
-fcSDK Documentation
-
-ChangePartRequestStatus Method
+﻿### ChangePartRequestStatus Method
 
 Causes the specified part request to have a status change from one status to another status – always in the same condition. This overload takes a set of required parameters for the API.
 
@@ -20,11 +16,9 @@ Remarks
 
 This API only changes a Part Request's status. To change the condition of the part request, use one of the supplied APIs such as [ReceivePartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest.md) or [Pick](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick.md).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

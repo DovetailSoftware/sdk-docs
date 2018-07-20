@@ -1,8 +1,4 @@
-﻿     FakeTimeZone Class Properties                                                   
-
-fcSDK Documentation
-
-FakeTimeZone Class Properties
+﻿### FakeTimeZone Class Properties
 
 For a list of all members of this type, see [FakeTimeZone members](fcSDK~FChoice.Foundation.DataObjects.FakeTimeZone_members.md).
 
@@ -20,9 +16,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UtcOffsetSeconds](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone~UtcOffsetSeconds.md) | (Inherited from [FChoice.Foundation.Clarify.DataObjects.FCTimeZone](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

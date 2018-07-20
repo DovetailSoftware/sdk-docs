@@ -1,28 +1,20 @@
-﻿     GlobalStringListCollection Class                                                   
-
-fcSDK Documentation
-
-GlobalStringListCollection Class
+﻿### GlobalStringListCollection Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DefaultMemberAttribute](#)("Item")>
+' Declaration
+<DefaultMemberAttribute("Item")>
 Public Class GlobalStringListCollection 
    Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of IGlobalStringList)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
    Implements [IGlobalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection.md) 
 
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 public class GlobalStringListCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<IGlobalStringList>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md), [IGlobalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection.md)  
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Collections.Generic.List<T>](#)  
       [FChoice.Foundation.DataObjects.DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)  
          **FChoice.Foundation.Clarify.DataObjects.GlobalStringListCollection**  
@@ -35,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdatePartRequestDetailSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdatePartRequestDetailSetup Class Members
+﻿### UpdatePartRequestDetailSetup Class Members
 
 The following tables list the members exposed by [UpdatePartRequestDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdatePartRequestDetailSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup~_ctor.md) | Initializes a new instance of the UpdatePartRequestDetailSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -34,9 +30,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SitePartObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup~SitePartObjid.md) | The Objid of the Site Part specified for this Part Request   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup~Status.md) | The new status for the Part Request for the current condition. If not set, the default status is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

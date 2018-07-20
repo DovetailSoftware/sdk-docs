@@ -1,16 +1,9 @@
-﻿     TraverseFromParent Method (FCSession)                                                   
-
-fcSDK Documentation
-
-TraverseFromParent Method (FCSession)
+﻿### TraverseFromParent Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function TraverseFromParent( _
    ByRef _generic_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md), _
@@ -44,11 +37,9 @@ _parentGeneric_
 
 _relationName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

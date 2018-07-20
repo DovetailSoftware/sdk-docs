@@ -1,6 +1,4 @@
-﻿     ODPOracleProvider Class Members                                                   
-
-ODPOracleProvider Class Members
+﻿### ODPOracleProvider Class Members
 
 The following tables list the members exposed by [ODPOracleProvider](FChoice.Common~FChoice.Common.Data.ODPOracleProvider.md).
 
@@ -10,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ODPOracleProvider Constructor](FChoice.Common~FChoice.Common.Data.ODPOracleProvider~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -23,7 +21,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RequiresDbNameParameter](FChoice.Common~FChoice.Common.Data.OracleProviderBase~RequiresDbNameParameter.md) | (Inherited from [FChoice.Common.Data.OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.OracleProviderBase~TypeMapper.md) | (Inherited from [FChoice.Common.Data.OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -49,9 +47,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TestConnection](FChoice.Common~FChoice.Common.Data.DbProvider~TestConnection.md) | Overloaded.  (Inherited from [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateConnectionParams](FChoice.Common~FChoice.Common.Data.OracleProviderBase~ValidateConnectionParams.md) | (Inherited from [FChoice.Common.Data.OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

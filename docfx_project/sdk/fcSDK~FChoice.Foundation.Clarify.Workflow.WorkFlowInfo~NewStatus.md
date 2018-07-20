@@ -1,26 +1,17 @@
-﻿     NewStatus Property (WorkFlowInfo)                                                   
-
-fcSDK Documentation
-
-NewStatus Property (WorkFlowInfo)
+﻿### NewStatus Property (WorkFlowInfo)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property NewStatus As String
 
 public string NewStatus {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

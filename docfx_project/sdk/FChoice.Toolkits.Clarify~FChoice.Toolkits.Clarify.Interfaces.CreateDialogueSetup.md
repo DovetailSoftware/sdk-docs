@@ -1,26 +1,18 @@
-﻿     CreateDialogueSetup Class                                                   
-
-fcSDK Documentation
-
-CreateDialogueSetup Class
+﻿### CreateDialogueSetup Class
 
 Initializes a new instance of the CreateDialogueSetup class.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreateDialogueSetup 
 
 public class CreateDialogueSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

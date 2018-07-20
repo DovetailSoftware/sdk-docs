@@ -1,8 +1,4 @@
-﻿     IApplicationClock Interface Properties                                                   
-
-fcSDK Documentation
-
-IApplicationClock Interface Properties
+﻿### IApplicationClock Interface Properties
 
 For a list of all members of this type, see [IApplicationClock members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![ Property](dotnetimages/Property.png) | [Now](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock~Now.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

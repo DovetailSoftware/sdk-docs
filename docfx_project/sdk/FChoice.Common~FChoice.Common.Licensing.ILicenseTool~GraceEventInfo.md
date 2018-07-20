@@ -1,6 +1,4 @@
-﻿     GraceEventInfo Method (ILicenseTool)                                                   
-
-GraceEventInfo Method (ILicenseTool)
+﻿### GraceEventInfo Method (ILicenseTool)
 
 Key that identifies a valid First Choice license.
 
@@ -9,11 +7,7 @@ Returns details of the current state of GraceEvents for a given license
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Function GraceEventInfo( _
    ByVal _licenseKey_ As String _
 ) As [Date()](#)
@@ -28,11 +22,9 @@ _licenseKey_
 
 Key that identifies a valid First Choice license.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

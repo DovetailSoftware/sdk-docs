@@ -1,8 +1,4 @@
-﻿     CreateTimeZone(String,String,String) Method                                                   
-
-fcSDK Documentation
-
-CreateTimeZone(String,String,String) Method
+﻿### CreateTimeZone(String,String,String) Method
 
 Timezone name
 
@@ -15,10 +11,7 @@ Creates a Time Zone and relates it to an existing Country. This overload takes a
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateTimeZone( _
    ByVal _timeZone_ As String, _
@@ -56,11 +49,9 @@ Remarks
 
 If the Time Zone already exists it will be related to the [Country](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateTimeZoneSetup~Country.md).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

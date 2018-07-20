@@ -1,26 +1,18 @@
-﻿     AddWorkaroundSetup Class                                                   
-
-fcSDK Documentation
-
-AddWorkaroundSetup Class
+﻿### AddWorkaroundSetup Class
 
 Used by the [AddWorkaround](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AddWorkaround(AddWorkaroundSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AddWorkaroundSetup 
 
 public class AddWorkaroundSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

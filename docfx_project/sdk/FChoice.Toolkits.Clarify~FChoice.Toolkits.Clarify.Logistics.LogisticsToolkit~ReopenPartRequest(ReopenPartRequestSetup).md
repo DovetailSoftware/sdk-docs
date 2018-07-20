@@ -1,8 +1,4 @@
-﻿     ReopenPartRequest(ReopenPartRequestSetup) Method                                                   
-
-fcSDK Documentation
-
-ReopenPartRequest(ReopenPartRequestSetup) Method
+﻿### ReopenPartRequest(ReopenPartRequestSetup) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ReopenPartRequest( _
    ByVal _setupParam_ As [ReopenPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup.md) _
@@ -42,11 +35,9 @@ The Part Request must currently be closed. The WIPBIN in which to place the part
 
 This API will validate that the user has authority to make the status transition.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

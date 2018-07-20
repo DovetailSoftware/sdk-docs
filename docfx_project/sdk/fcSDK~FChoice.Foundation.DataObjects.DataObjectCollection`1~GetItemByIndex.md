@@ -1,34 +1,25 @@
-﻿     GetItemByIndex Method (DataObjectCollection<T>)                                                   
-
-fcSDK Documentation
-
-GetItemByIndex Method (DataObjectCollection<T>)
+﻿### GetItemByIndex Method (DataObjectCollection<T>)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Function GetItemByIndex( _
-   ByVal _index_ As [Integer](#) _
-) As T
+   ByVal _index_ As Integer) As T
+```
 
+```csharp
 public T GetItemByIndex( 
-   [int](#) _index_
+   int _index_
 )
+```
 
 #### Parameters
 
 _index_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

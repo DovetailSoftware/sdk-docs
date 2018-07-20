@@ -1,8 +1,4 @@
-﻿     CloseCaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CloseCaseSetup Class Properties
+﻿### CloseCaseSetup Class Properties
 
 For a list of all members of this type, see [CloseCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup_members.md).
 
@@ -24,9 +20,9 @@ Element from the 'Resolution Code' application defined list. If not set, the def
 | ![Public Property](dotnetimages/publicProperty.png) | [UnitsUsed](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup~UnitsUsed.md) | The number of units to charge against the contract for the Case.  If the Case has no contract, this field must be 0.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup~UserName.md) | The User who closed the Case. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateScheduleSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateScheduleSetup Constructor
+﻿### CreateScheduleSetup Constructor
 
 Contract Identifier.
 
@@ -11,17 +7,14 @@ Initializes a new instance of the CreateScheduleSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _contractIDNum_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateScheduleSetup( 
    string _contractIDNum_
 )
@@ -32,11 +25,9 @@ _contractIDNum_
 
 Contract Identifier.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

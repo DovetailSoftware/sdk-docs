@@ -1,8 +1,4 @@
-﻿     AdoField Class Members                                                   
-
-fcSDK Documentation
-
-AdoField Class Members
+﻿### AdoField Class Members
 
 The following tables list the members exposed by [AdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoField.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AdoField Constructor](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoField~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Length](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoField~Length.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Name](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoField~Name.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

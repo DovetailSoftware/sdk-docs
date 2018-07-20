@@ -1,8 +1,4 @@
-﻿     FieldOpsToolkit Constructor(IFCApplication,IFCSession)                                                   
-
-fcSDK Documentation
-
-FieldOpsToolkit Constructor(IFCApplication,IFCSession)
+﻿### FieldOpsToolkit Constructor(IFCApplication,IFCSession)
 
 The compatibility application under which the toolkit APIs will be executed.
 
@@ -13,10 +9,7 @@ Initializes a new instance of the FieldOpsToolkit class using a Compatibility ap
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function New( _
    ByVal _application_ As [IFCApplication](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication.md), _
@@ -42,11 +35,9 @@ Remarks
 
 If the toolkit session was **created** as a **Contact** session this property is required otherwise errors will result.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     PartTransferResult Class Properties                                                   
-
-fcSDK Documentation
-
-PartTransferResult Class Properties
+﻿### PartTransferResult Class Properties
 
 For a list of all members of this type, see [PartTransferResult members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StandardCost](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~StandardCost.md) | Part Transfer Standard Cost.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TransactionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~TransactionIDNum.md) | Part Transfer Transaction Identifier.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

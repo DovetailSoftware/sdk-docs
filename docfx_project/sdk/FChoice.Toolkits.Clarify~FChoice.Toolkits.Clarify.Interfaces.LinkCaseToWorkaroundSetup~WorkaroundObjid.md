@@ -1,30 +1,22 @@
-﻿     WorkaroundObjid Property (LinkCaseToWorkaroundSetup)                                                   
-
-fcSDK Documentation
-
-WorkaroundObjid Property (LinkCaseToWorkaroundSetup)
+### WorkaroundObjid Property (LinkCaseToWorkaroundSetup)
 
 Objid of the Workaround the Case will be linked to
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property WorkaroundObjid As [Integer](#)
+<PropertyBitValueAttribute()>
+Public Property WorkaroundObjid As Integer
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [int](#) WorkaroundObjid {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public int WorkaroundObjid {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

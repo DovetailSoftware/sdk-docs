@@ -1,8 +1,4 @@
-﻿     DeleteDepotRepairLabor(DeleteDepotRepairLaborSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-DeleteDepotRepairLabor(DeleteDepotRepairLaborSetup,IDbTransaction) Method
+﻿### DeleteDepotRepairLabor(DeleteDepotRepairLaborSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Delete a Depot Repair Part. This overload takes a setup object and a database tr
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DeleteDepotRepairLabor( _
    ByVal _setupParam_ As [DeleteDepotRepairLaborSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairLaborSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

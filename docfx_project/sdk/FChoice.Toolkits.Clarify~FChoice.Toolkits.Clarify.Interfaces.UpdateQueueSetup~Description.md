@@ -1,19 +1,11 @@
-﻿     Description Property (UpdateQueueSetup)                                                   
-
-fcSDK Documentation
-
-Description Property (UpdateQueueSetup)
+﻿### Description Property (UpdateQueueSetup)
 
 Queue description
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property Description As String
 
@@ -24,11 +16,9 @@ Remarks
 
 If this property has not been set no change will occur. If the property is set, even to an empty string, that value reflected in the update.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

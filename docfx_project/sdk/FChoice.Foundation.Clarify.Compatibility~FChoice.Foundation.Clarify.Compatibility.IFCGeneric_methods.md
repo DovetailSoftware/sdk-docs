@@ -1,8 +1,4 @@
-﻿     IFCGeneric Interface Methods                                                   
-
-fcSDK Documentation
-
-IFCGeneric Interface Methods
+﻿### IFCGeneric Interface Methods
 
 For a list of all members of this type, see [IFCGeneric members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric_members.md).
 
@@ -52,9 +48,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [Update](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric~Update.md) |   |
 | ![ Method](dotnetimages/Method.png) | [UpdateAll](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric~UpdateAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

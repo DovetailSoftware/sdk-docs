@@ -1,8 +1,4 @@
-﻿     ClarifyDataTable Class Members                                                   
-
-fcSDK Documentation
-
-ClarifyDataTable Class Members
+﻿### ClarifyDataTable Class Members
 
 The following tables list the members exposed by [ClarifyDataTable](fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable.md).
 
@@ -16,7 +12,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Constraints](#) | (Inherited from [System.Data.DataTable](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Container](#) | (Inherited from [System.ComponentModel.MarshalByValueComponent](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](fcSDK~FChoice.Foundation.GenericDataTable~Count.md) | Number of [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)s currently in the table. (Inherited from [FChoice.Foundation.GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md)) |
-| ![Public Property](dotnetimages/publicProperty.png) | [DataSet](#) | (Inherited from [System.Data.DataTable](#)) |
+| ![Public Property](dotnetimages/publicProperty.png) | DataSet | (Inherited from [System.Data.DataTable](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [DefaultView](#) | (Inherited from [System.Data.DataTable](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [DesignMode](#) | (Inherited from [System.ComponentModel.MarshalByValueComponent](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [DisplayExpression](#) | (Inherited from [System.Data.DataTable](#)) |
@@ -38,7 +34,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Site](#) | (Inherited from [System.Data.DataTable](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TableName](#) | (Inherited from [System.Data.DataTable](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -74,7 +70,7 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [WriteXml](#) | Overloaded.  (Inherited from [System.Data.DataTable](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [WriteXmlSchema](#) | Overloaded.  (Inherited from [System.Data.DataTable](#)) |
 
-[Top](#top)
+
 
 Public Events
 
@@ -92,9 +88,9 @@ Public Events
 | ![Public Event](dotnetimages/publicEvent.png) | [TableClearing](#) | (Inherited from [System.Data.DataTable](#)) |
 | ![Public Event](dotnetimages/publicEvent.png) | [TableNewRow](#) | (Inherited from [System.Data.DataTable](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

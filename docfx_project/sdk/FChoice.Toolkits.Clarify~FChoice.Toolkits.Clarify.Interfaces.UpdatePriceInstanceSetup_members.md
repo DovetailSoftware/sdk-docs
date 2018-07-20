@@ -1,8 +1,4 @@
-﻿     UpdatePriceInstanceSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdatePriceInstanceSetup Class Members
+﻿### UpdatePriceInstanceSetup Class Members
 
 The following tables list the members exposed by [UpdatePriceInstanceSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdatePriceInstanceSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~_ctor.md) | Initializes a new instance of the UpdatePriceInstanceSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -33,9 +29,9 @@ Revision to price
 | ![Public Property](dotnetimages/publicProperty.png) | [PriceProgram](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~PriceProgram.md) | Name of the price program   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup~UpdateDate.md) | Date when the Price was updated, any Date between the start and end date is valid.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

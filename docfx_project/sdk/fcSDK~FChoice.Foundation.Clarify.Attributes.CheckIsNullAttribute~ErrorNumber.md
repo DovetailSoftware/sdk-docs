@@ -1,26 +1,16 @@
-﻿     ErrorNumber Field                                                   
-
-fcSDK Documentation
-
-ErrorNumber Field
+﻿### ErrorNumber Field
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public ReadOnly ErrorNumber As Integer
 
-'Declaration
- 
+public readonly int ErrorNumber
 
-Public ReadOnly ErrorNumber As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public readonly [int](#) ErrorNumber
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

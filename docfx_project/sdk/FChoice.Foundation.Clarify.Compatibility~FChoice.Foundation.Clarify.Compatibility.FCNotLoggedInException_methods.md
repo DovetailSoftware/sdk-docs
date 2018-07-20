@@ -1,8 +1,4 @@
-﻿     FCNotLoggedInException Class Methods                                                   
-
-fcSDK Documentation
-
-FCNotLoggedInException Class Methods
+﻿### FCNotLoggedInException Class Methods
 
 For a list of all members of this type, see [FCNotLoggedInException members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCNotLoggedInException_members.md).
 
@@ -15,9 +11,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

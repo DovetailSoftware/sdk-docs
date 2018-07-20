@@ -1,6 +1,4 @@
-﻿     DataParameterCollection Class Methods                                                   
-
-DataParameterCollection Class Methods
+﻿### DataParameterCollection Class Methods
 
 For a list of all members of this type, see [DataParameterCollection members](FChoice.Common~FChoice.Common.Data.DataParameterCollection_members.md).
 
@@ -20,11 +18,7 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Remove](FChoice.Common~FChoice.Common.Data.DataParameterCollection~Remove.md) | Overloaded. Removes a parameter with the specified name from the collection.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](FChoice.Common~FChoice.Common.Data.DataParameterCollection~RemoveAt.md) | Removes the parameter at the specified index from the collection.   |
 
-[Top](#top)
-
-See Also
-
 #### Reference
 
-[DataParameterCollection Class](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)  
+[DataParameterCollection Class](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)
 [FChoice.Common.Data Namespace](FChoice.Common~FChoice.Common.Data_namespace.md)

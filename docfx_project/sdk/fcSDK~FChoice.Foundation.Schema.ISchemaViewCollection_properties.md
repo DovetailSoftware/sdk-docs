@@ -1,8 +1,4 @@
-﻿     ISchemaViewCollection Interface Properties                                                   
-
-fcSDK Documentation
-
-ISchemaViewCollection Interface Properties
+﻿### ISchemaViewCollection Interface Properties
 
 For a list of all members of this type, see [ISchemaViewCollection members](fcSDK~FChoice.Foundation.Schema.ISchemaViewCollection_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![ Property](dotnetimages/Property.png) | [Item](fcSDK~FChoice.Foundation.Schema.ISchemaViewCollection~Item.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

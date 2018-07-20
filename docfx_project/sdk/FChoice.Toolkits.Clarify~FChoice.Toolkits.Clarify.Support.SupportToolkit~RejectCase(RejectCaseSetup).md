@@ -1,8 +1,4 @@
-﻿     RejectCase(RejectCaseSetup) Method                                                   
-
-fcSDK Documentation
-
-RejectCase(RejectCaseSetup) Method
+﻿### RejectCase(RejectCaseSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Reject the Case from the queue in which it currently resides, and return it to t
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function RejectCase( _
    ByVal _setupParam_ As [RejectCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectCaseSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Case must be in open condition, and currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

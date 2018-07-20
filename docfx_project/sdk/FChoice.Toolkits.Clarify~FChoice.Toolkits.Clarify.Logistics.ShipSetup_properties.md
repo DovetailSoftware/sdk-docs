@@ -1,8 +1,4 @@
-﻿     ShipSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ShipSetup Class Properties
+﻿### ShipSetup Class Properties
 
 For a list of all members of this type, see [ShipSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup_members.md).
 
@@ -33,9 +29,9 @@ The site name of the shipment's carrier. The default will be the dummy site (ob
 | ![Public Property](dotnetimages/publicProperty.png) | [WaybillName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~WaybillName.md) | Waybill information for this Part Request shipment   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ZipCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~ZipCode.md) | Zipcode of the site where this Part Request will be shipped   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

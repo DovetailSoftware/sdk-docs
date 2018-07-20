@@ -1,8 +1,4 @@
-﻿     DeleteById Method                                                   
-
-fcSDK Documentation
-
-DeleteById Method
+﻿### DeleteById Method
 
 The objid of the row to delete
 
@@ -11,17 +7,13 @@ Deletes the row in the table with the specified objid
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub DeleteById( _
-   ByVal _objId_ As [Integer](#) _
+   ByVal _objId_ As Integer _
 ) 
 
 public void DeleteById( 
-   [int](#) _objId_
+   int _objId_
 )
 
 #### Parameters
@@ -38,11 +30,9 @@ During an update, a blind DELETE statement to the database with a WHERE clause 
 
 **NOTE**: No error or other feedback is given if the specified row does not exist.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

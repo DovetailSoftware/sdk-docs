@@ -1,6 +1,4 @@
-﻿     SqlHelper Class Methods                                                   
-
-SqlHelper Class Methods
+﻿### SqlHelper Class Methods
 
 For a list of all members of this type, see [SqlHelper members](FChoice.Common~FChoice.Common.Data.SqlHelper_members.md).
 
@@ -23,9 +21,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [PrepareInListStatement](FChoice.Common~FChoice.Common.Data.SqlHelper~PrepareInListStatement.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [PrepareIntegerListStatement](FChoice.Common~FChoice.Common.Data.SqlHelper~PrepareIntegerListStatement.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

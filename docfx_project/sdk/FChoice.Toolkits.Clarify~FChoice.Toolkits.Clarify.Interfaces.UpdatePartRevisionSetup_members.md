@@ -1,8 +1,4 @@
-﻿     UpdatePartRevisionSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdatePartRevisionSetup Class Members
+﻿### UpdatePartRevisionSetup Class Members
 
 The following tables list the members exposed by [UpdatePartRevisionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartRevisionSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdatePartRevisionSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartRevisionSetup~_ctor.md) | Initializes a new instance of the UpdatePartRevisionSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -39,9 +35,9 @@ Previous revision this PartRevision replaces.
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartRevisionSetup~Status.md) | The status of the revision.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

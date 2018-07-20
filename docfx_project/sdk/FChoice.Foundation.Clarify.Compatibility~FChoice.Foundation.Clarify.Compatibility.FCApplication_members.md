@@ -1,8 +1,4 @@
-﻿     FCApplication Class Members                                                   
-
-fcSDK Documentation
-
-FCApplication Class Members
+﻿### FCApplication Class Members
 
 The following tables list the members exposed by [FCApplication](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [FCApplication Constructor](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -22,7 +18,7 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [LOGFILENAME](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~LOGFILENAME.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [SQLLOGFILENAME](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~SQLLOGFILENAME.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -48,7 +44,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TruncateStringFields](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~TruncateStringFields.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkingDirectory](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~WorkingDirectory.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -133,9 +129,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateSchemaCache](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~UpdateSchemaCache.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateEncryptedPassword](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~ValidateEncryptedPassword.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

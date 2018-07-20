@@ -1,26 +1,18 @@
-﻿     RemoveSiteFromAccountSetup Class                                                   
-
-fcSDK Documentation
-
-RemoveSiteFromAccountSetup Class
+﻿### RemoveSiteFromAccountSetup Class
 
 Used by the [RemoveSiteFromAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~RemoveSiteFromAccount(RemoveSiteFromAccountSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class RemoveSiteFromAccountSetup 
 
 public class RemoveSiteFromAccountSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromAccountSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

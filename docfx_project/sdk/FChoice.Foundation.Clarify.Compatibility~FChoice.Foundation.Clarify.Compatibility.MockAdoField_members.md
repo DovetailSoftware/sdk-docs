@@ -1,8 +1,4 @@
-﻿     MockAdoField Class Members                                                   
-
-fcSDK Documentation
-
-MockAdoField Class Members
+﻿### MockAdoField Class Members
 
 The following tables list the members exposed by [MockAdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockAdoField.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [NetValue](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockAdoField~NetValue.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Type](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockAdoField~Type.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -24,9 +20,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [get_Value](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockAdoField~get_Value.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [set_Value](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockAdoField~set_Value.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

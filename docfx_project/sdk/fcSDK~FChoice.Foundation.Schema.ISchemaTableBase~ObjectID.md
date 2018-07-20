@@ -1,26 +1,16 @@
-﻿     ObjectID Property (ISchemaTableBase)                                                   
-
-fcSDK Documentation
-
-ObjectID Property (ISchemaTableBase)
+﻿### ObjectID Property (ISchemaTableBase)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+ReadOnly Property ObjectID As Object
 
-'Declaration
- 
+object ObjectID {get;}
 
-ReadOnly Property ObjectID As [Object](#)
+[!include[Requirements](../partials/requirements.md)]
 
-[object](#) ObjectID {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

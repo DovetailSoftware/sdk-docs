@@ -1,34 +1,26 @@
-﻿     ParentLineItemObjid Property (CreateContractLineItemSetup)                                                   
-
-fcSDK Documentation
-
-ParentLineItemObjid Property (CreateContractLineItemSetup)
+### ParentLineItemObjid Property (CreateContractLineItemSetup)
 
 The objid of the parent Line Item.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property ParentLineItemObjid As [Integer](#)
+<PropertyBitValueAttribute()>
+Public Property ParentLineItemObjid As Integer
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [int](#) ParentLineItemObjid {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public int ParentLineItemObjid {get; set;}
+```
 
 Remarks
 
 If you wish to make this line item a parent line item, set this property's value to –1.  Otherwise, put the objid of the parent line item in the field. It will be made a child of the parent line item.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

@@ -1,28 +1,19 @@
-﻿     Recipients Property (UpdateCommunicationSetup)                                                   
-
-fcSDK Documentation
-
-Recipients Property (UpdateCommunicationSetup)
+﻿### Recipients Property (UpdateCommunicationSetup)
 
 Array of Recipient addresses (usually email addresses).
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property Recipients As [String()](#)
 
-public [string\[\]](#) Recipients {get; set;}
+public string[] Recipients {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

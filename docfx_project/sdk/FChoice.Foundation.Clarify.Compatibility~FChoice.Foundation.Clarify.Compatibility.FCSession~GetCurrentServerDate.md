@@ -1,26 +1,17 @@
-﻿     GetCurrentServerDate Method (FCSession)                                                   
-
-fcSDK Documentation
-
-GetCurrentServerDate Method (FCSession)
+﻿### GetCurrentServerDate Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Function GetCurrentServerDate() As Date
 
-Public Function GetCurrentServerDate() As [Date](#)
+public DateTime GetCurrentServerDate()
 
-public [DateTime](#) GetCurrentServerDate()
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

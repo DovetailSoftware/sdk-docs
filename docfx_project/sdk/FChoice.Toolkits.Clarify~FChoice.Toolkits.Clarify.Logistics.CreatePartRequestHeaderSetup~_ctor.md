@@ -1,8 +1,4 @@
-﻿     CreatePartRequestHeaderSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreatePartRequestHeaderSetup Constructor
+﻿### CreatePartRequestHeaderSetup Constructor
 
 Contact's first name.
 
@@ -17,12 +13,9 @@ Initializes a new instance of the CreatePartRequestHeaderSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _contactFirstName_ As String, _
    ByVal _contactLastName_ As String, _
@@ -30,7 +23,7 @@ Public Function New( _
    ByVal _shipToSiteIDNum_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreatePartRequestHeaderSetup( 
    string _contactFirstName_,
    string _contactLastName_,
@@ -56,11 +49,9 @@ _shipToSiteIDNum_
 
 Identifier of the Site where this Part Request should be shipped
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

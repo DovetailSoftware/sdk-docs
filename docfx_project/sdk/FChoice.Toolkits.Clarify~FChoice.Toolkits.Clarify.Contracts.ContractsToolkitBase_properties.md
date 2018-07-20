@@ -1,8 +1,4 @@
-﻿     ContractsToolkitBase Class Properties                                                   
-
-fcSDK Documentation
-
-ContractsToolkitBase Class Properties
+﻿### ContractsToolkitBase Class Properties
 
 For a list of all members of this type, see [ContractsToolkitBase members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase~ImpersonatorUsername.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

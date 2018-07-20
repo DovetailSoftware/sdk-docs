@@ -1,8 +1,4 @@
-﻿     AppendFilterBetween(String,Boolean,Int32,Int32) Method                                                   
-
-fcSDK Documentation
-
-AppendFilterBetween(String,Boolean,Int32,Int32) Method
+﻿### AppendFilterBetween(String,Boolean,Int32,Int32) Method
 
 Name of the field the filter will be constraining.
 
@@ -17,24 +13,24 @@ Adds a specialized filter to constrain the results of an **FCGeneric** [Query](f
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Sub AppendFilterBetween( _
    ByVal _fieldName_ As String, _
    ByVal _isBetween_ As Boolean, _
-   ByVal _value1_ As [Integer](#), _
-   ByVal _value2_ As [Integer](#) _
+   ByVal _value1_ As Integer, _
+   ByVal _value2_ As Integer _
 ) 
+```
 
+```csharp
 public void AppendFilterBetween( 
    string _fieldName_,
    bool _isBetween_,
-   [int](#) _value1_,
-   [int](#) _value2_
+   int _value1_,
+   int _value2_
 )
+```
 
 #### Parameters
 
@@ -54,11 +50,7 @@ _value2_
 
 value on the right side of the between clause
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

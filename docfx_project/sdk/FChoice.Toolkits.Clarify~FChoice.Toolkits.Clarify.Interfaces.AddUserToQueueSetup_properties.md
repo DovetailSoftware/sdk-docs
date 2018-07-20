@@ -1,8 +1,4 @@
-﻿     AddUserToQueueSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AddUserToQueueSetup Class Properties
+﻿### AddUserToQueueSetup Class Properties
 
 For a list of all members of this type, see [AddUserToQueueSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup_members.md).
 
@@ -17,9 +13,9 @@ Name of the Queue to which the User will be added.
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup~UserName.md) | Username of the user being added to the Queue.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

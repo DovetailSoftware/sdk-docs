@@ -1,36 +1,26 @@
-﻿     AddSqlParameter Method (IFCSqlExec)                                                   
-
-fcSDK Documentation
-
-AddSqlParameter Method (IFCSqlExec)
+﻿### AddSqlParameter Method (IFCSqlExec)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743816)>
+' Declaration
+<DispIdAttribute(1610743816)>
 Sub AddSqlParameter( _
-   ByVal _value_ As [Object](#) _
+   ByVal _value_ As Object _
 ) 
 
-\[[DispIdAttribute](#)(1610743816)\]
+[DispIdAttribute(1610743816)]
 void AddSqlParameter( 
-   [object](#) _value_
+   object _value_
 )
 
 #### Parameters
 
 _value_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

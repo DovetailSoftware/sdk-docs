@@ -36,7 +36,7 @@ Enumerations
 | ![Enumeration](dotnetimages/Enumeration.png) | [SchemaCommonType](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaCommonType.md) |   |
 | ![Enumeration](dotnetimages/Enumeration.png) | [SchemaDataType](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaDataType.md) |   |
 
-See Also
+
 
 #### Reference
 

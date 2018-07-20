@@ -1,8 +1,4 @@
-﻿     Find Method (GenericDataRowCollection)                                                   
-
-fcSDK Documentation
-
-Find Method (GenericDataRowCollection)
+﻿### Find Method (GenericDataRowCollection)
 
 Gets the row containing the specified primary key values.
 
@@ -15,11 +11,9 @@ Overload List
 | [Find(Object\[\])](fcSDK~FChoice.Foundation.GenericDataRowCollection~Find(Object[]).md) | Gets the row containing the specified primary key values.   |
 | [Find(Object)](fcSDK~FChoice.Foundation.GenericDataRowCollection~Find(Object).md) | Gets the row specified by the primary key value.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

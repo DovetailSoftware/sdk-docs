@@ -1,8 +1,4 @@
-﻿     FCBulk Class Properties                                                   
-
-fcSDK Documentation
-
-FCBulk Class Properties
+﻿### FCBulk Class Properties
 
 For a list of all members of this type, see [FCBulk members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Name](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Name.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [NoSorting](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~NoSorting.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

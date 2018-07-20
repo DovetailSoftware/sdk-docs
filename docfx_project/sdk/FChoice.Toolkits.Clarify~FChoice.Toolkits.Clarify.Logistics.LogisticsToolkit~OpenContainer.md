@@ -1,8 +1,4 @@
-﻿     OpenContainer Method                                                   
-
-fcSDK Documentation
-
-OpenContainer Method
+﻿### OpenContainer Method
 
 Overload List
 
@@ -12,11 +8,9 @@ Overload List
 | [OpenContainer(OpenContainerSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~OpenContainer(OpenContainerSetup).md) |   |
 | [OpenContainer(OpenContainerSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~OpenContainer(OpenContainerSetup,IDbTransaction).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

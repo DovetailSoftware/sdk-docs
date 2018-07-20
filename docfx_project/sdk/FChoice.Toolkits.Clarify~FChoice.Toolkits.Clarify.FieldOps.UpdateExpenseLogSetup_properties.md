@@ -1,8 +1,4 @@
-﻿     UpdateExpenseLogSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateExpenseLogSetup Class Properties
+﻿### UpdateExpenseLogSetup Class Properties
 
 For a list of all members of this type, see [UpdateExpenseLogSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateExpenseLogSetup_members.md).
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Resolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateExpenseLogSetup~Resolution.md) | Element from the 'Resolution' application list. If not set the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateExpenseLogSetup~UserName.md) | The user who is updating the Expense Log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

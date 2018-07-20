@@ -1,8 +1,4 @@
-﻿     UpdateCommunication Method                                                   
-
-fcSDK Documentation
-
-UpdateCommunication Method
+﻿### UpdateCommunication Method
 
 Update a Communication.
 
@@ -15,11 +11,9 @@ Overload List
 | [UpdateCommunication(UpdateCommunicationSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateCommunication(UpdateCommunicationSetup).md) | Update a Communication.   |
 | [UpdateCommunication(UpdateCommunicationSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateCommunication(UpdateCommunicationSetup,IDbTransaction).md) | Update a Communication.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

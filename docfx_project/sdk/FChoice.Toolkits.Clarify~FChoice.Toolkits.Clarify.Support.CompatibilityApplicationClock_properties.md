@@ -1,8 +1,4 @@
-﻿     CompatibilityApplicationClock Class Properties                                                   
-
-fcSDK Documentation
-
-CompatibilityApplicationClock Class Properties
+﻿### CompatibilityApplicationClock Class Properties
 
 For a list of all members of this type, see [CompatibilityApplicationClock members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CompatibilityApplicationClock_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [Now](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CompatibilityApplicationClock~Now.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,20 +1,13 @@
-﻿     error_handler(Int32,String,String,String,Exception) Method                                                   
-
-fcSDK Documentation
-
-error_handler(Int32,String,String,String,Exception) Method
+﻿### error_handler(Int32,String,String,String,Exception) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[ComVisibleAttribute](#)(False)>
 Public Overloads Function error_handler( _
-   ByVal _error_num_ As [Integer](#), _
+   ByVal _error_num_ As Integer, _
    ByVal _objId_ As String, _
    ByVal _source_ As String, _
    ByVal _message_ As String, _
@@ -23,7 +16,7 @@ Public Overloads Function error_handler( _
 
 \[[ComVisibleAttribute](#)(false)\]
 public short error_handler( 
-   [int](#) _error_num_,
+   int _error_num_,
    string _objId_,
    string _source_,
    string _message_,
@@ -42,11 +35,9 @@ _message_
 
 _ex_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

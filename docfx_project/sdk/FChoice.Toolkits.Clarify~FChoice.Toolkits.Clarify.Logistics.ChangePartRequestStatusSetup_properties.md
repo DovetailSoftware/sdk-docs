@@ -1,8 +1,4 @@
-﻿     ChangePartRequestStatusSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ChangePartRequestStatusSetup Class Properties
+﻿### ChangePartRequestStatusSetup Class Properties
 
 For a list of all members of this type, see [ChangePartRequestStatusSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRequestDetailIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup~PartRequestDetailIDNum.md) | Part Request Detail Identifier   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup~UserName.md) | The user who is changing the status of the Part Request. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

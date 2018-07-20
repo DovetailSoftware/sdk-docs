@@ -1,8 +1,4 @@
-﻿     IGlobalStringListCollection Interface Methods                                                   
-
-fcSDK Documentation
-
-IGlobalStringListCollection Interface Methods
+﻿### IGlobalStringListCollection Interface Methods
 
 For a list of all members of this type, see [IGlobalStringListCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection_members.md).
 
@@ -36,9 +32,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [TrimExcess](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection~TrimExcess.md) |   |
 | ![ Method](dotnetimages/Method.png) | [TrueForAll](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection~TrueForAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

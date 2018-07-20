@@ -1,19 +1,11 @@
-﻿     NotStartsWith Method (FilterType)                                                   
-
-fcSDK Documentation
-
-NotStartsWith Method (FilterType)
+﻿### NotStartsWith Method (FilterType)
 
 Filter field on strings that do start with the input to this filter
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Shared Function NotStartsWith( _
    ByVal _columnName_ As String, _
    ByVal _value_ As String _
@@ -30,11 +22,9 @@ _columnName_
 
 _value_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

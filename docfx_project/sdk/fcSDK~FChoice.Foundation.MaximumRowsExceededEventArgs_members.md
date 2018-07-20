@@ -1,8 +1,4 @@
-﻿     MaximumRowsExceededEventArgs Class Members                                                   
-
-fcSDK Documentation
-
-MaximumRowsExceededEventArgs Class Members
+﻿### MaximumRowsExceededEventArgs Class Members
 
 The following tables list the members exposed by [MaximumRowsExceededEventArgs](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [MaximumRowsExceededEventArgs Constructor](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RowsToReturn](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs~RowsToReturn.md) | This value will control the number of rows to be returned from a large query.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TotalPossibleRows](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs~TotalPossibleRows.md) | Readonly count of rows to be returned by the large query that caused this event.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

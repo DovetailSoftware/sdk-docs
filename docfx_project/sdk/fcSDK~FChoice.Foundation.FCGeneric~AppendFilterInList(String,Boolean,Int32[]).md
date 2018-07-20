@@ -15,21 +15,18 @@ Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub AppendFilterInList( _
    ByVal _fieldName_ As String, _
    ByVal _isIn_ As Boolean, _
-   ByVal ParamArray _list_() As [Integer](#) _
+   ByVal ParamArray _list_() As Integer _
 ) 
 
 public void AppendFilterInList( 
    string _fieldName_,
    bool _isIn_,
-   params [int](#)\[\] _list_
+   params int\[\] _list_
 )
 
 #### Parameters
@@ -46,11 +43,9 @@ _list_
 
 Array of values to filter on
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,19 +1,11 @@
-﻿     AndManyFilter Class                                                   
-
-fcSDK Documentation
-
-AndManyFilter Class
+﻿### AndManyFilter Class
 
 Alternative filter to [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md) which allows for more than two sub filters.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AndManyFilter 
    Inherits [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)
 
@@ -21,7 +13,7 @@ public class AndManyFilter : [LogicalFilter](fcSDK~FChoice.Foundation.Filters.Lo
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       [FChoice.Foundation.Filters.LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)  
          **FChoice.Foundation.Filters.AndManyFilter**  
@@ -34,7 +26,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

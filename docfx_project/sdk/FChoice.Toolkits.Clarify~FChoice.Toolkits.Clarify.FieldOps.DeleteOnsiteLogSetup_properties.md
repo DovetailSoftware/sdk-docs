@@ -1,8 +1,4 @@
-﻿     DeleteOnsiteLogSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DeleteOnsiteLogSetup Class Properties
+﻿### DeleteOnsiteLogSetup Class Properties
 
 For a list of all members of this type, see [DeleteOnsiteLogSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteOnsiteLogSetup_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [OnsiteLogObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteOnsiteLogSetup~OnsiteLogObjid.md) | The Objid of the Onsite Log being deleted.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteOnsiteLogSetup~UserName.md) | The user who deleted the Onsite Log. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

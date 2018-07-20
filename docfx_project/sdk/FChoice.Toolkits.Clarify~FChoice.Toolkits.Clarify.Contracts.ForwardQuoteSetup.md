@@ -1,26 +1,18 @@
-﻿     ForwardQuoteSetup Class                                                   
-
-fcSDK Documentation
-
-ForwardQuoteSetup Class
+﻿### ForwardQuoteSetup Class
 
 Used by the [ForwardQuote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~ForwardQuote(ForwardQuoteSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ForwardQuoteSetup 
 
 public class ForwardQuoteSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Contracts.ForwardQuoteSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

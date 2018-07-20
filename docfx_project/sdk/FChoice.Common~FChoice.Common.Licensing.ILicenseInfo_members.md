@@ -1,6 +1,4 @@
-﻿     ILicenseInfo Interface Members                                                   
-
-ILicenseInfo Interface Members
+﻿### ILicenseInfo Interface Members
 
 The following tables list the members exposed by [ILicenseInfo](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo.md).
 
@@ -19,9 +17,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [UserLicensesRemaining](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo~UserLicensesRemaining.md) |   |
 | ![ Property](dotnetimages/Property.png) | [UserRestriction](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo~UserRestriction.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

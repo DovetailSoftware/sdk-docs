@@ -1,24 +1,20 @@
-﻿     Utility Class                                                   
-
-fcSDK Documentation
-
-Utility Class
+﻿### Utility Class
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Class Utility 
+```
 
+```csharp
 public class Utility 
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Utility**  
 
 #### Requirements
@@ -28,8 +24,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-See Also
 
 #### Reference
 

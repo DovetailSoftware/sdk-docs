@@ -1,24 +1,17 @@
-﻿     GetTimeZoneOffset Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetTimeZoneOffset Method (IFCApplication)
+﻿### GetTimeZoneOffset Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743868)>
+<DispIdAttribute(1610743868)>
 Function GetTimeZoneOffset( _
    ByVal _TimeZone_ As String _
-) As [Integer](#)
+) As Integer
 
-\[[DispIdAttribute](#)(1610743868)\]
-[int](#) GetTimeZoneOffset( 
+[DispIdAttribute(1610743868)]
+int GetTimeZoneOffset( 
    string _TimeZone_
 )
 
@@ -26,11 +19,9 @@ Function GetTimeZoneOffset( _
 
 _TimeZone_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

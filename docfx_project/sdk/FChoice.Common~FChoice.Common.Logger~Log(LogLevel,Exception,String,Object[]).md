@@ -13,23 +13,20 @@ Writes a log entry with the specified level (if logging for that level is enable
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub Log( _
    ByVal _level_ As [LogLevel](/sdk/FChoice.Common~FChoice.Common.LogLevel.md), _
    ByVal _ex_ As [Exception](#), _
    ByVal _format_ As String, _
-   ByVal ParamArray _args_() As [Object](#) _
+   ByVal ParamArray _args_() As Object _
 ) 
 
 public void Log( 
    [LogLevel](/sdk/FChoice.Common~FChoice.Common.LogLevel.md) _level_,
    [Exception](#) _ex_,
    string _format_,
-   params [object](#)\[\] _args_
+   params object\[\] _args_
 )
 
 #### Parameters
@@ -54,11 +51,9 @@ Remarks
 
 For details of how string formatting works, please see the details of the [String.Format](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemstringclassformattopic.htm) method.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

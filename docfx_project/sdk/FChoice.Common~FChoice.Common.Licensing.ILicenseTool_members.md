@@ -1,6 +1,4 @@
-﻿     ILicenseTool Interface Members                                                   
-
-ILicenseTool Interface Members
+﻿### ILicenseTool Interface Members
 
 The following tables list the members exposed by [ILicenseTool](FChoice.Common~FChoice.Common.Licensing.ILicenseTool.md).
 
@@ -13,9 +11,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [RetrieveLicenses](FChoice.Common~FChoice.Common.Licensing.ILicenseTool~RetrieveLicenses.md) |   |
 | ![ Method](dotnetimages/Method.png) | [ValidateLockdownData](FChoice.Common~FChoice.Common.Licensing.ILicenseTool~ValidateLockdownData.md) | Validates lock down data.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

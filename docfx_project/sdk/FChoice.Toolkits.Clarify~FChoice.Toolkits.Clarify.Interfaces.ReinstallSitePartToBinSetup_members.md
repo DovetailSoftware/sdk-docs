@@ -1,8 +1,4 @@
-﻿     ReinstallSitePartToBinSetup Class Members                                                   
-
-fcSDK Documentation
-
-ReinstallSitePartToBinSetup Class Members
+﻿### ReinstallSitePartToBinSetup Class Members
 
 The following tables list the members exposed by [ReinstallSitePartToBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToBinSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ReinstallSitePartToBinSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToBinSetup~_ctor.md) | Initializes a new instance of the ReinstallSitePartToBinSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -29,9 +25,9 @@ If [AddActivityLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToBinSetup~UserName.md) | User that re-installed the Site Part. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

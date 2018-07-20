@@ -1,8 +1,4 @@
-﻿     SchemaTable Class Members                                                   
-
-fcSDK Documentation
-
-SchemaTable Class Members
+﻿### SchemaTable Class Members
 
 The following tables list the members exposed by [SchemaTable](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTable.md).
 
@@ -27,7 +23,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Views](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTable~Views.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -40,9 +36,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UnrelateFromAll Method                                                   
-
-fcSDK Documentation
-
-UnrelateFromAll Method
+﻿### UnrelateFromAll Method
 
 Name of the relation being unrelated.
 
@@ -11,11 +7,7 @@ UnRelate this [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) from
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub UnrelateFromAll( _
    ByVal _relationName_ As String _
 ) 
@@ -30,11 +22,9 @@ _relationName_
 
 Name of the relation being unrelated.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

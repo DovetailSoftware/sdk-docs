@@ -1,8 +1,4 @@
-﻿     DispatchQuote(String,String) Method                                                   
-
-fcSDK Documentation
-
-DispatchQuote(String,String) Method
+﻿### DispatchQuote(String,String) Method
 
 Quote Identifier.
 
@@ -13,10 +9,7 @@ Dispatch the Quote to the specified queue. This overload takes a set of required
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DispatchQuote( _
    ByVal _quoteIDNum_ As String, _
@@ -46,11 +39,9 @@ Remarks
 
 The Quote must be in open condition, and not currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

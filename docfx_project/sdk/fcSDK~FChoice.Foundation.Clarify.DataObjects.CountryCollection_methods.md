@@ -1,8 +1,4 @@
-﻿     CountryCollection Class Methods                                                   
-
-fcSDK Documentation
-
-CountryCollection Class Methods
+﻿### CountryCollection Class Methods
 
 For a list of all members of this type, see [CountryCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.CountryCollection_members.md).
 
@@ -42,9 +38,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<Country>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<Country>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

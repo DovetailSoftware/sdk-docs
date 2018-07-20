@@ -1,8 +1,4 @@
-﻿     IsNullFilter Class Methods                                                   
-
-fcSDK Documentation
-
-IsNullFilter Class Methods
+﻿### IsNullFilter Class Methods
 
 For a list of all members of this type, see [IsNullFilter members](fcSDK~FChoice.Foundation.Filters.IsNullFilter_members.md).
 
@@ -13,9 +9,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Render](fcSDK~FChoice.Foundation.Filters.Filter~Render.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateFilter](fcSDK~FChoice.Foundation.Filters.Filter~ValidateFilter.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

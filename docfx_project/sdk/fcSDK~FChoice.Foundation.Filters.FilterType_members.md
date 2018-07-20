@@ -1,8 +1,4 @@
-﻿     FilterType Class Members                                                   
-
-fcSDK Documentation
-
-FilterType Class Members
+﻿### FilterType Class Members
 
 The following tables list the members exposed by [FilterType](fcSDK~FChoice.Foundation.Filters.FilterType.md).
 
@@ -44,9 +40,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [WithinHours](fcSDK~FChoice.Foundation.Filters.FilterType~WithinHours.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [Yesterday](fcSDK~FChoice.Foundation.Filters.FilterType~Yesterday.md) | Filter field on yesterday's date   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

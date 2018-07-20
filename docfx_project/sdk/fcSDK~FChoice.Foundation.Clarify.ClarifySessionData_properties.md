@@ -36,9 +36,9 @@ A session's unique identifier.
 | ![Public Property](dotnetimages/publicProperty.png) | [UserID](fcSDK~FChoice.Foundation.FCSessionData~UserID.md) | UniqueID of the user that created the [Session](fcSDK~FChoice.Foundation.FCSession.md). (Inherited from [FChoice.Foundation.FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](fcSDK~FChoice.Foundation.FCSessionData~UserName.md) | Name of the user that created the [Session](fcSDK~FChoice.Foundation.FCSession.md). (Inherited from [FChoice.Foundation.FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     AddSiteToAccount(AddSiteToAccountSetup) Method                                                   
-
-fcSDK Documentation
-
-AddSiteToAccount(AddSiteToAccountSetup) Method
+﻿### AddSiteToAccount(AddSiteToAccountSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Adds a Site to an existing Account specifying the Site's role in the account. Th
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AddSiteToAccount( _
    ByVal _setupParam_ As [AddSiteToAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToAccountSetup.md) _
@@ -36,11 +29,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Site Role that is created to link the Site to the Account.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

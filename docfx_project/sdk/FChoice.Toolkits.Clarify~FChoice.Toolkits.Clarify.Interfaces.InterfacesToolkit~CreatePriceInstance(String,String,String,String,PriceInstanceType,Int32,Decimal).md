@@ -1,8 +1,4 @@
-﻿     CreatePriceInstance(String,String,String,String,PriceInstanceType,Int32,Decimal) Method                                                   
-
-fcSDK Documentation
-
-CreatePriceInstance(String,String,String,String,PriceInstanceType,Int32,Decimal) Method
+﻿### CreatePriceInstance(String,String,String,String,PriceInstanceType,Int32,Decimal) Method
 
 Part number to price
 
@@ -23,10 +19,7 @@ Creates a Price Instance. This overload takes a set of required parameters for t
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreatePriceInstance( _
    ByVal _partNumber_ As String, _
@@ -34,7 +27,7 @@ Public Overloads Function CreatePriceInstance( _
    ByVal _partRevision_ As String, _
    ByVal _priceProgram_ As String, _
    ByVal _priceType_ As [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md), _
-   ByVal _pricedQuantity_ As [Integer](#), _
+   ByVal _pricedQuantity_ As Integer, _
    ByVal _price_ As [Decimal](#) _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
@@ -44,7 +37,7 @@ public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Toolkit
    string _partRevision_,
    string _priceProgram_,
    [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md) _priceType_,
-   [int](#) _pricedQuantity_,
+   int _pricedQuantity_,
    [decimal](#) _price_
 )
 
@@ -88,11 +81,9 @@ Remarks
 
 You many not have two prices (in the same schedule for the same part and quantity) overlap or have the price's [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup~StartDate.md) or [EndDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup~EndDate.md) extend outside the span of the price program.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

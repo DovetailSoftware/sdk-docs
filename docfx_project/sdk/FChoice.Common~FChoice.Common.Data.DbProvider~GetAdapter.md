@@ -1,6 +1,4 @@
-﻿     GetAdapter Method (DbProvider)                                                   
-
-GetAdapter Method (DbProvider)
+﻿### GetAdapter Method (DbProvider)
 
 Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL) without any options set yet.
 
@@ -14,11 +12,9 @@ Overload List
 | [GetAdapter(IDbConnection)](FChoice.Common~FChoice.Common.Data.DbProvider~GetAdapter(IDbConnection).md) | Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL) initialized to use the specified connection to the database.   |
 | [GetAdapter(IDbConnection,String)](FChoice.Common~FChoice.Common.Data.DbProvider~GetAdapter(IDbConnection,String).md) | Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL) initialized to use the specified connection to the database and the specified SQL statement to execute.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

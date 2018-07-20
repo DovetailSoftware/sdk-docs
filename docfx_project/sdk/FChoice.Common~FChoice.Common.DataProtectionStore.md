@@ -1,21 +1,16 @@
-﻿     DataProtectionStore Enumeration                                                     
-
-DataProtectionStore Enumeration
+﻿### DataProtectionStore Enumeration
 
 DataProtectionStore is used with the [DataProtector](FChoice.Common~FChoice.Common.DataProtector.md) when encrypting or decrypting data. DataProtectionStore tells the DataProtector which key store to use.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Enum DataProtectionStore 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
 
-public enum DataProtectionStore : [System.Enum](#) 
+public enum DataProtectionStore : System.Enum 
 
 Members
 
@@ -26,9 +21,9 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Common.DataProtectionStore**  
 
 #### Requirements
@@ -39,7 +34,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

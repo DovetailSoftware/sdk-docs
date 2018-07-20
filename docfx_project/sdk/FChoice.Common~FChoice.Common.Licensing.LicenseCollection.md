@@ -1,27 +1,21 @@
-﻿     LicenseCollection Class                                                   
-
-LicenseCollection Class
+﻿### LicenseCollection Class
 
 Collection of LicensesHolds a collection of valid licenses.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DefaultMemberAttribute](#)("Item")>
+' Declaration
+<DefaultMemberAttribute("Item")>
 Public NotInheritable Class LicenseCollection 
    Inherits [System.Collections.CollectionBase](#)
 
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 public sealed class LicenseCollection : [System.Collections.CollectionBase](#) 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Collections.CollectionBase](#)  
       **FChoice.Common.Licensing.LicenseCollection**  
 
@@ -33,7 +27,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,26 +1,17 @@
-﻿     ConvertTimeZone Property (FCSession)                                                   
-
-fcSDK Documentation
-
-ConvertTimeZone Property (FCSession)
+﻿### ConvertTimeZone Property (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property ConvertTimeZone As Boolean
 
 public bool ConvertTimeZone {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

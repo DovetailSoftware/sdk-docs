@@ -1,17 +1,9 @@
-﻿     MockAdoField Class                                                   
-
-fcSDK Documentation
-
-MockAdoField Class
+﻿### MockAdoField Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[GuidAttribute](#)("78A3320B-100C-4225-A3C1-58C2A3E73A86")>
 <[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)>
 <[ComVisibleAttribute](#)(True)>
@@ -27,7 +19,7 @@ public class MockAdoField : [IMockAdoField](FChoice.Foundation.Clarify.Compatibi
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Compatibility.MockAdoField**  
 
 #### Requirements
@@ -38,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

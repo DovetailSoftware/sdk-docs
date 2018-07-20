@@ -1,26 +1,18 @@
-﻿     AnyCacheUpdated Event                                                   
-
-fcSDK Documentation
-
-AnyCacheUpdated Event
+﻿### AnyCacheUpdated Event
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-Public Event AnyCacheUpdated As [EventHandler](#)
+Public Event AnyCacheUpdated As EventHandler
+```
 
-public event [EventHandler](#) AnyCacheUpdated
+```csharp
+public event EventHandler AnyCacheUpdated
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

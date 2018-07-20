@@ -1,8 +1,4 @@
-﻿     RemoveSiteFromContractSetup Class Members                                                   
-
-fcSDK Documentation
-
-RemoveSiteFromContractSetup Class Members
+﻿### RemoveSiteFromContractSetup Class Members
 
 The following tables list the members exposed by [RemoveSiteFromContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromContractSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [RemoveSiteFromContractSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromContractSetup~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ContractIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromContractSetup~ContractIDNum.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromContractSetup~SiteIDNum.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

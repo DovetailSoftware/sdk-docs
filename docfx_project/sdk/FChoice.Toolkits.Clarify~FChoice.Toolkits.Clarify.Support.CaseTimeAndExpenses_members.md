@@ -1,8 +1,4 @@
-﻿     CaseTimeAndExpenses Class Members                                                   
-
-fcSDK Documentation
-
-CaseTimeAndExpenses Class Members
+﻿### CaseTimeAndExpenses Class Members
 
 The following tables list the members exposed by [CaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CaseTimeAndExpenses Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses~_ctor().md) |   |
 
-[Top](#top)
+
 
 Public Fields
 
@@ -20,7 +16,7 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [EMPTY](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses~EMPTY.md) | Retrieves an instance of a CaseTimeAndExpenses object that can be used to specify "none specified" when setting the [CloseSums](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup~CloseSums.md) on the [CloseCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup.md) object   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -43,9 +39,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TotalPhoneTime](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses~TotalPhoneTime.md) | Total phone time (closed Subcase and phone log for the Case)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TotalResearchTime](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses~TotalResearchTime.md) | Total research time (closed Subcase and research logs for the Case)   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

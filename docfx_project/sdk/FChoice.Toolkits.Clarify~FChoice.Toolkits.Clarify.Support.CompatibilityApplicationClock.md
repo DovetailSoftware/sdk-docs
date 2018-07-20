@@ -1,17 +1,9 @@
-﻿     CompatibilityApplicationClock Class                                                   
-
-fcSDK Documentation
-
-CompatibilityApplicationClock Class
+﻿### CompatibilityApplicationClock Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CompatibilityApplicationClock 
    Implements [IApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.md) 
 
@@ -19,7 +11,7 @@ public class CompatibilityApplicationClock : [IApplicationClock](FChoice.Toolkit
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.CompatibilityApplicationClock**  
 
 #### Requirements
@@ -30,7 +22,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

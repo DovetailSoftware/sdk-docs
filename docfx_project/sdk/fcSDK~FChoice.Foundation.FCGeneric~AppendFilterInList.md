@@ -1,8 +1,4 @@
-﻿     AppendFilterInList Method                                                   
-
-fcSDK Documentation
-
-AppendFilterInList Method
+﻿### AppendFilterInList Method
 
 Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) against a list of possible Integer values**.**
 
@@ -23,11 +19,9 @@ Filters are a powerful feature that make it easy to limit the rows returned by a
 
 You can call [ClearFilters](fcSDK~FChoice.Foundation.FCGeneric~ClearFilters.md) to remove all the filters being applied to a FCGeneric.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

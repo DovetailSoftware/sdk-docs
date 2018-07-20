@@ -1,26 +1,18 @@
-﻿     UpdateTimeLogSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateTimeLogSetup Class
+﻿### UpdateTimeLogSetup Class
 
 Used by the [UpdateTimeLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~UpdateTimeLog(UpdateTimeLogSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateTimeLogSetup 
 
 public class UpdateTimeLogSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.UpdateTimeLogSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,27 +1,23 @@
-﻿     CreatePartRequestDetailResult Class                                                   
-
-fcSDK Documentation
-
-CreatePartRequestDetailResult Class
+﻿### CreatePartRequestDetailResult Class
 
 Result from the [CreatePartRequestDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail.md) API.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Class CreatePartRequestDetailResult 
-   Inherits [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   Inherits FChoice.Toolkits.Clarify.ToolkitResult
+```
 
-public class CreatePartRequestDetailResult : [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) 
+```csharp
+public class CreatePartRequestDetailResult : FChoice.Toolkits.Clarify.ToolkitResult 
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  
       **FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailResult**  
 
@@ -32,8 +28,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-See Also
 
 #### Reference
 

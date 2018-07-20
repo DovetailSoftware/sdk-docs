@@ -1,6 +1,4 @@
-﻿     ODPOracleProvider Class Methods                                                   
-
-ODPOracleProvider Class Methods
+﻿### ODPOracleProvider Class Methods
 
 For a list of all members of this type, see [ODPOracleProvider members](FChoice.Common~FChoice.Common.Data.ODPOracleProvider_members.md).
 
@@ -28,9 +26,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TestConnection](FChoice.Common~FChoice.Common.Data.DbProvider~TestConnection.md) | Overloaded.  (Inherited from [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateConnectionParams](FChoice.Common~FChoice.Common.Data.OracleProviderBase~ValidateConnectionParams.md) | (Inherited from [FChoice.Common.Data.OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

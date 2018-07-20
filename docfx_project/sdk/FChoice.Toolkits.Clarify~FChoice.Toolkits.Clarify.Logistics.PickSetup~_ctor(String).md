@@ -1,8 +1,4 @@
-﻿     PickSetup Constructor(String)                                                   
-
-fcSDK Documentation
-
-PickSetup Constructor(String)
+﻿### PickSetup Constructor(String)
 
 Part Request Detail Identifier
 
@@ -11,17 +7,14 @@ Initializes a new instance of the PickSetup class. This overload takes a set of 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public PickSetup( 
    string _partRequestDetailIDNum_
 )
@@ -32,11 +25,9 @@ _partRequestDetailIDNum_
 
 Part Request Detail Identifier
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

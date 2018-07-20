@@ -1,8 +1,4 @@
-﻿     UpdateWipBinSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateWipBinSetup Class Properties
+﻿### UpdateWipBinSetup Class Properties
 
 For a list of all members of this type, see [UpdateWipBinSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateWipBinSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateWipBinSetup~Title.md) | Title of the WipBin being updated   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateWipBinSetup~UserName.md) | User the WipBin belongs to   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

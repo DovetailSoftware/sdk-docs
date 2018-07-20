@@ -1,28 +1,19 @@
-﻿     CaseBillableExpenses Property                                                   
-
-fcSDK Documentation
-
-CaseBillableExpenses Property
+﻿### CaseBillableExpenses Property
 
 Captured billable expenses (Case time logs only)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property CaseBillableExpenses As [Decimal](#)
 
 public [decimal](#) CaseBillableExpenses {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

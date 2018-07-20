@@ -1,8 +1,4 @@
-﻿     SchemaRelation Class Properties                                                   
-
-fcSDK Documentation
-
-SchemaRelation Class Properties
+﻿### SchemaRelation Class Properties
 
 For a list of all members of this type, see [SchemaRelation members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation_members.md).
 
@@ -38,9 +34,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetTable](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation~TargetTable.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

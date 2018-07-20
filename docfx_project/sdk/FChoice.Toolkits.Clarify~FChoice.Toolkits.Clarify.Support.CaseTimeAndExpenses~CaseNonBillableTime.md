@@ -1,28 +1,19 @@
-﻿     CaseNonBillableTime Property                                                   
-
-fcSDK Documentation
-
-CaseNonBillableTime Property
+﻿### CaseNonBillableTime Property
 
 Captured non-billable time (Case time logs only)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Property CaseNonBillableTime As TimeSpan
 
-Public Property CaseNonBillableTime As [TimeSpan](#)
+public TimeSpan CaseNonBillableTime {get; set;}
 
-public [TimeSpan](#) CaseNonBillableTime {get; set;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

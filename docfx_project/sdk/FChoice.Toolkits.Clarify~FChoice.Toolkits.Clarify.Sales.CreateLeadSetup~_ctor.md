@@ -1,8 +1,4 @@
-﻿     CreateLeadSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateLeadSetup Constructor
+﻿### CreateLeadSetup Constructor
 
 State for the lead.
 
@@ -19,12 +15,9 @@ Initializes a new instance of the CreateLeadSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _state_ As String, _
    ByVal _country_ As String, _
@@ -33,7 +26,7 @@ Public Function New( _
    ByVal _leadSource_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateLeadSetup( 
    string _state_,
    string _country_,
@@ -64,11 +57,9 @@ _leadSource_
 
 Name of the lead source.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

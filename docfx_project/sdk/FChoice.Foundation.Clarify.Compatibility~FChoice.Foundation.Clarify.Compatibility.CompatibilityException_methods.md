@@ -1,8 +1,4 @@
-﻿     CompatibilityException Class Methods                                                   
-
-fcSDK Documentation
-
-CompatibilityException Class Methods
+﻿### CompatibilityException Class Methods
 
 For a list of all members of this type, see [CompatibilityException members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.CompatibilityException_members.md).
 
@@ -15,9 +11,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

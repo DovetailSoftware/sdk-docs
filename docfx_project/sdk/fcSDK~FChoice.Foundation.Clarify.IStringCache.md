@@ -1,16 +1,9 @@
-﻿     IStringCache Interface                                                   
-
-fcSDK Documentation
-
-IStringCache Interface
+﻿### IStringCache Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Interface IStringCache 
 
@@ -24,7 +17,7 @@ public interface IStringCache
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

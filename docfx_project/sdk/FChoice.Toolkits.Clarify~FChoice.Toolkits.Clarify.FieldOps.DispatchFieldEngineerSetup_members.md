@@ -1,8 +1,4 @@
-﻿     DispatchFieldEngineerSetup Class Members                                                   
-
-fcSDK Documentation
-
-DispatchFieldEngineerSetup Class Members
+﻿### DispatchFieldEngineerSetup Class Members
 
 The following tables list the members exposed by [DispatchFieldEngineerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DispatchFieldEngineerSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup~_ctor.md) | Initializes a new instance of the DispatchFieldEngineerSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -44,9 +40,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkOrder](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup~WorkOrder.md) | The Id Number of the work order. If blank, "." is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ZipCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup~ZipCode.md) | The zipcode used to overide the default site alternate zipcode.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

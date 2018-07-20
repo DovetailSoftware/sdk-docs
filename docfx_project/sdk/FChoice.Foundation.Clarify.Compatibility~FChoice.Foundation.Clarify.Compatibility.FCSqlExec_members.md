@@ -1,8 +1,4 @@
-﻿     FCSqlExec Class Members                                                   
-
-fcSDK Documentation
-
-FCSqlExec Class Members
+﻿### FCSqlExec Class Members
 
 The following tables list the members exposed by [FCSqlExec](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec.md).
 
@@ -14,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Records](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec~Records.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [StayConnected](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec~StayConnected.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -27,9 +23,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [FreeConnection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec~FreeConnection.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [OpenConnection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec~OpenConnection.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

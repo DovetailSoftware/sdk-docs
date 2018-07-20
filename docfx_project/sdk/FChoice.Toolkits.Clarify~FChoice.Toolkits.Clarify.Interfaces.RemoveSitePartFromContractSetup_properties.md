@@ -1,8 +1,4 @@
-﻿     RemoveSitePartFromContractSetup Class Properties                                                   
-
-fcSDK Documentation
-
-RemoveSitePartFromContractSetup Class Properties
+﻿### RemoveSitePartFromContractSetup Class Properties
 
 For a list of all members of this type, see [RemoveSitePartFromContractSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSitePartFromContractSetup_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ContractIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSitePartFromContractSetup~ContractIDNum.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SitePartObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSitePartFromContractSetup~SitePartObjid.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

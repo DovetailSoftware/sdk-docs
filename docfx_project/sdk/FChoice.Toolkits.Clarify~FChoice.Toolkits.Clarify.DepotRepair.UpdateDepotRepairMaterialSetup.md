@@ -1,26 +1,18 @@
-﻿     UpdateDepotRepairMaterialSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateDepotRepairMaterialSetup Class
+﻿### UpdateDepotRepairMaterialSetup Class
 
 Used by the [UpdateDepotRepairMaterial](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateDepotRepairMaterial(UpdateDepotRepairMaterialSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateDepotRepairMaterialSetup 
 
 public class UpdateDepotRepairMaterialSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairMaterialSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

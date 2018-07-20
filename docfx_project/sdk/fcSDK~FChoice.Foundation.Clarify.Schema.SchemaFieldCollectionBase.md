@@ -1,28 +1,21 @@
-﻿     SchemaFieldCollectionBase Class                                                   
-
-fcSDK Documentation
-
-SchemaFieldCollectionBase Class
+﻿### SchemaFieldCollectionBase Class
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 Public MustInherit Class SchemaFieldCollectionBase 
    Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of SchemaFieldBase)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
    Implements [FChoice.Foundation.Schema.ISchemaFieldCollection](fcSDK~FChoice.Foundation.Schema.ISchemaFieldCollection.md) 
 
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 public abstract class SchemaFieldCollectionBase : [FChoice.Foundation.DataObjects.DataObjectCollection<SchemaFieldBase>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md), [FChoice.Foundation.Schema.ISchemaFieldCollection](fcSDK~FChoice.Foundation.Schema.ISchemaFieldCollection.md)  
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Collections.Generic.List<T>](#)  
       [FChoice.Foundation.DataObjects.DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)  
          **FChoice.Foundation.Clarify.Schema.SchemaFieldCollectionBase**  
@@ -37,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

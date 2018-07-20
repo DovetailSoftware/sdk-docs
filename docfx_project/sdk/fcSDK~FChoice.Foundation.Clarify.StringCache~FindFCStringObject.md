@@ -1,8 +1,4 @@
-﻿     FindFCStringObject Method (StringCache)                                                   
-
-fcSDK Documentation
-
-FindFCStringObject Method (StringCache)
+﻿### FindFCStringObject Method (StringCache)
 
 Overload List
 
@@ -11,11 +7,9 @@ Overload List
 | [FindFCStringObject(Int32,CultureInfo)](fcSDK~FChoice.Foundation.Clarify.StringCache~FindFCStringObject(Int32,CultureInfo).md) |   |
 | [FindFCStringObject(String,String,CultureInfo)](fcSDK~FChoice.Foundation.Clarify.StringCache~FindFCStringObject(String,String,CultureInfo).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

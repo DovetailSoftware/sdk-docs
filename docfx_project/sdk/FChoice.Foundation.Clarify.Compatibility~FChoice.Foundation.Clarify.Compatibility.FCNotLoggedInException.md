@@ -1,29 +1,21 @@
-﻿     FCNotLoggedInException Class                                                   
-
-fcSDK Documentation
-
-FCNotLoggedInException Class
+﻿### FCNotLoggedInException Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[ComVisibleAttribute](#)(False)>
 <SerializableAttribute()>
 Public Class FCNotLoggedInException 
    Inherits [CompatibilityException](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.CompatibilityException.md)
 
 \[[ComVisibleAttribute](#)(false)\]
-\[SerializableAttribute()\]
+[SerializableAttribute()]
 public class FCNotLoggedInException : [CompatibilityException](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.CompatibilityException.md) 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Exception](#)  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
@@ -38,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

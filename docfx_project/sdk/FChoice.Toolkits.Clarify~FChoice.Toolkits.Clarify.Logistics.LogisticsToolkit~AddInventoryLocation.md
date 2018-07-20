@@ -1,8 +1,4 @@
-﻿     AddInventoryLocation Method                                                   
-
-fcSDK Documentation
-
-AddInventoryLocation Method
+﻿### AddInventoryLocation Method
 
 Used to add inventory locations to the system.  
 
@@ -29,11 +25,9 @@ Used to add inventory locations to the system.
 
 This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

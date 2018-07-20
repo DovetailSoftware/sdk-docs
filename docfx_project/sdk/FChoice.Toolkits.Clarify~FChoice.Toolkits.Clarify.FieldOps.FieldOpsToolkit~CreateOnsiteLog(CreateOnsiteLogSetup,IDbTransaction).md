@@ -1,8 +1,4 @@
-﻿     CreateOnsiteLog(CreateOnsiteLogSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateOnsiteLog(CreateOnsiteLogSetup,IDbTransaction) Method
+﻿### CreateOnsiteLog(CreateOnsiteLogSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to create an onsite log that is related to a case or subcase. This overload
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateOnsiteLog( _
    ByVal _setupParam_ As [CreateOnsiteLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateOnsiteLogSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

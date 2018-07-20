@@ -1,8 +1,4 @@
-﻿     UpdateInventoryBinSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateInventoryBinSetup Class Members
+﻿### UpdateInventoryBinSetup Class Members
 
 The following tables list the members exposed by [UpdateInventoryBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateInventoryBinSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup~_ctor.md) | Initializes a new instance of the UpdateInventoryBinSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [IsActive](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup~IsActive.md) | Specifies whether this inventory bin is active (true) or inactive (false)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [NewBinName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup~NewBinName.md) | New name of the inventory bin   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

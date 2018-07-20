@@ -1,6 +1,4 @@
-﻿     LicenseInfo Class Properties                                                   
-
-LicenseInfo Class Properties
+﻿### LicenseInfo Class Properties
 
 For a list of all members of this type, see [LicenseInfo members](FChoice.Common~FChoice.Common.Licensing.LicenseInfo_members.md).
 
@@ -19,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserLicensesRemaining](FChoice.Common~FChoice.Common.Licensing.LicenseInfo~UserLicensesRemaining.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserRestriction](FChoice.Common~FChoice.Common.Licensing.LicenseInfo~UserRestriction.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

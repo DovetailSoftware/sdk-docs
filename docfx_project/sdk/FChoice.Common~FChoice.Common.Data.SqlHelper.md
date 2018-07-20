@@ -1,17 +1,11 @@
-﻿     SqlHelper Class                                                   
-
-SqlHelper Class
+﻿### SqlHelper Class
 
 Provides a convenience and data provider-agnostic wrapper around ADO.NET
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class SqlHelper 
 
 public class SqlHelper 
@@ -26,7 +20,7 @@ When used as an instance, however, SqlHelper is **NOT** thread safe. Multiple th
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Common.Data.SqlHelper**  
 
 #### Requirements
@@ -37,7 +31,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     SupportToolkit Class Properties                                                   
-
-fcSDK Documentation
-
-SupportToolkit Class Properties
+﻿### SupportToolkit Class Properties
 
 For a list of all members of this type, see [SupportToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit_members.md).
 
@@ -17,9 +13,9 @@ Exposed only for testability of certain APIs.
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase~ImpersonatorUsername.md) | (Inherited from [FChoice.Toolkits.Clarify.Support.SupportToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseDenormalizedCaseTypeLevels](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase~UseDenormalizedCaseTypeLevels.md) | (Inherited from [FChoice.Toolkits.Clarify.Support.SupportToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

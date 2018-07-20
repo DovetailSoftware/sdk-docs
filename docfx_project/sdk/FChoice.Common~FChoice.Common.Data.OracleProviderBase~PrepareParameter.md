@@ -1,22 +1,16 @@
-﻿     PrepareParameter Method (OracleProviderBase)                                                   
-
-PrepareParameter Method (OracleProviderBase)
+﻿### PrepareParameter Method (OracleProviderBase)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Overrides Sub PrepareParameter( _
-   ByVal _param_ As [IDbDataParameter](#), _
+   ByVal _param_ As IDbDataParameter, _
    ByVal _cmdType_ As [CommandType](#) _
 ) 
 
 public override void PrepareParameter( 
-   [IDbDataParameter](#) _param_,
+   IDbDataParameter _param_,
    [CommandType](#) _cmdType_
 )
 
@@ -26,11 +20,9 @@ _param_
 
 _cmdType_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

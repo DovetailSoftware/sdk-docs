@@ -1,8 +1,4 @@
-﻿     CreateContractSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateContractSetup Class Properties
+﻿### CreateContractSetup Class Properties
 
 For a list of all members of this type, see [CreateContractSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContractSetup_members.md).
 
@@ -38,9 +34,9 @@ The maximum amount of time allowed by the Contract for a customer service repr
 | ![Public Property](dotnetimages/publicProperty.png) | [UnitType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContractSetup~UnitType.md) | The type of units the object is delivered in   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseSpecialConsiderations](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContractSetup~UseSpecialConsiderations.md) | Does Contract have special considerations?   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

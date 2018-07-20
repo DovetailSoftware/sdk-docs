@@ -1,23 +1,19 @@
-﻿     IsInFilter Class                                                   
-
-fcSDK Documentation
-
-IsInFilter Class
+﻿### IsInFilter Class
 
 Filter on fields that are in the input array
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Class IsInFilter 
    Inherits [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)
+```
 
+```csharp
 public class IsInFilter : [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md) 
+```
 
 Example
 
@@ -25,10 +21,11 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
-      [FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)  
-         **FChoice.Foundation.Filters.IsInFilter**  
+System.Object  
+[FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
+[FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)  
+
+**FChoice.Foundation.Filters.IsInFilter**  
 
 #### Requirements
 
@@ -37,8 +34,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

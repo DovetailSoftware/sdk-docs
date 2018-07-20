@@ -1,8 +1,4 @@
-﻿     UpdatePartRevisionSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdatePartRevisionSetup Class Properties
+﻿### UpdatePartRevisionSetup Class Properties
 
 For a list of all members of this type, see [UpdatePartRevisionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartRevisionSetup_members.md).
 
@@ -31,9 +27,9 @@ Previous revision this PartRevision replaces.
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartRevisionSetup~Status.md) | The status of the revision.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,16 +1,9 @@
-﻿     HierarchicalStringElement Class                                                   
-
-fcSDK Documentation
-
-HierarchicalStringElement Class
+﻿### HierarchicalStringElement Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class HierarchicalStringElement 
    Inherits [ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)
@@ -20,7 +13,7 @@ public class HierarchicalStringElement : [ClarifyDataObject](fcSDK~FChoice.Found
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  
       [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)  
          **FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElement**  
@@ -33,7 +26,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

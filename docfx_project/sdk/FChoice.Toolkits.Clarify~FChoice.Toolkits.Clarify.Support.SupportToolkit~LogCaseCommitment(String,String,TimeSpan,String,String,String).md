@@ -1,8 +1,4 @@
-﻿     LogCaseCommitment(String,String,TimeSpan,String,String,String) Method                                                   
-
-fcSDK Documentation
-
-LogCaseCommitment(String,String,TimeSpan,String,String,String) Method
+﻿### LogCaseCommitment(String,String,TimeSpan,String,String,String) Method
 
 Identifier of the Case against which the Committment is being logged.
 
@@ -21,15 +17,12 @@ Creates a  commitment against a Case. This overload takes a set of required par
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogCaseCommitment( _
    ByVal _caseIDNum_ As String, _
    ByVal _title_ As String, _
-   ByVal _priorWarning_ As [TimeSpan](#), _
+   ByVal _priorWarning_ As TimeSpan, _
    ByVal _contactFirstName_ As String, _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String _
@@ -38,7 +31,7 @@ Public Overloads Function LogCaseCommitment( _
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogCaseCommitment( 
    string _caseIDNum_,
    string _title_,
-   [TimeSpan](#) _priorWarning_,
+   TimeSpan _priorWarning_,
    string _contactFirstName_,
    string _contactLastName_,
    string _contactPhone_
@@ -76,11 +69,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Log.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

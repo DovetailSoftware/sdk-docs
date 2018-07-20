@@ -1,23 +1,15 @@
-﻿     EncryptDBPassword Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-EncryptDBPassword Method (IFCApplication)
+﻿### EncryptDBPassword Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743902)>
+' Declaration
+<DispIdAttribute(1610743902)>
 Function EncryptDBPassword( _
    ByVal _password_ As String _
 ) As String
 
-\[[DispIdAttribute](#)(1610743902)\]
+[DispIdAttribute(1610743902)]
 string EncryptDBPassword( 
    string _password_
 )
@@ -26,11 +18,9 @@ string EncryptDBPassword(
 
 _password_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

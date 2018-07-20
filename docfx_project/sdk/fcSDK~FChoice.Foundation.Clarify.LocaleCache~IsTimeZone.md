@@ -1,16 +1,9 @@
-﻿     IsTimeZone Method (LocaleCache)                                                   
-
-fcSDK Documentation
-
-IsTimeZone Method (LocaleCache)
+﻿### IsTimeZone Method (LocaleCache)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function IsTimeZone( _
    ByVal _tzName_ As String _
@@ -24,11 +17,9 @@ public bool IsTimeZone(
 
 _tzName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

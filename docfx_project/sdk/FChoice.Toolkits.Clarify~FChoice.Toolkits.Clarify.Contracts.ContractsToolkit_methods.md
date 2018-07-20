@@ -1,8 +1,4 @@
-﻿     ContractsToolkit Class Methods                                                   
-
-fcSDK Documentation
-
-ContractsToolkit Class Methods
+﻿### ContractsToolkit Class Methods
 
 For a list of all members of this type, see [ContractsToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md).
 
@@ -31,9 +27,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateSchedule](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~UpdateSchedule.md) | Overloaded. Used to update a contract schedule. This overload takes a set of required parameters for the API.   |
 | ![Public Method](dotnetimages/publicMethod.png) | [YankQuote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~YankQuote.md) | Overloaded. Yank the Quote from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

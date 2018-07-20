@@ -1,26 +1,22 @@
-﻿     ValidatedNameCollection Class                                                   
-
-fcSDK Documentation
-
-ValidatedNameCollection Class
+﻿### ValidatedNameCollection Class
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 Public MustInherit Class ValidatedNameCollection 
+```
 
-\[[DefaultMemberAttribute](#)("Item")\]
+```csharp
+[DefaultMemberAttribute("Item")]
 public abstract class ValidatedNameCollection 
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.ValidatedNameCollection**  
       [FChoice.Foundation.DataFieldNameCollection](fcSDK~FChoice.Foundation.DataFieldNameCollection.md)  
       [FChoice.Foundation.RelationNameCollection](fcSDK~FChoice.Foundation.RelationNameCollection.md)  
@@ -33,7 +29,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

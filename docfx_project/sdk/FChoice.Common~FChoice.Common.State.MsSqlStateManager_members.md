@@ -1,6 +1,4 @@
-﻿     MsSqlStateManager Class Members                                                   
-
-MsSqlStateManager Class Members
+﻿### MsSqlStateManager Class Members
 
 The following tables list the members exposed by [MsSqlStateManager](FChoice.Common~FChoice.Common.State.MsSqlStateManager.md).
 
@@ -10,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [MsSqlStateManager Constructor](FChoice.Common~FChoice.Common.State.MsSqlStateManager~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,7 +20,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Provider](FChoice.Common~FChoice.Common.State.RemoteStateManager~Provider.md) | (Inherited from [FChoice.Common.State.RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [StateTimeout](FChoice.Common~FChoice.Common.State.RemoteStateManager~StateTimeout.md) | (Inherited from [FChoice.Common.State.RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -39,9 +37,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [ResetTimeout](FChoice.Common~FChoice.Common.State.MsSqlStateManager~ResetTimeout.md) | Overridden.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [SaveState](FChoice.Common~FChoice.Common.State.MsSqlStateManager~SaveState.md) | Overloaded. Overridden.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

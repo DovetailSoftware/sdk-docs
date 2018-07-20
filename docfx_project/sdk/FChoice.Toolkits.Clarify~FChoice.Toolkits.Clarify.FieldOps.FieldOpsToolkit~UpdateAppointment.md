@@ -1,8 +1,4 @@
-﻿     UpdateAppointment Method                                                   
-
-fcSDK Documentation
-
-UpdateAppointment Method
+﻿### UpdateAppointment Method
 
 Used to modify an existing appointment. This overload takes a setup object and a database transaction.
 
@@ -19,11 +15,9 @@ Remarks
 
 The start/end time can be specified either with both times or with one time and a duration. The duration is specified in seconds.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

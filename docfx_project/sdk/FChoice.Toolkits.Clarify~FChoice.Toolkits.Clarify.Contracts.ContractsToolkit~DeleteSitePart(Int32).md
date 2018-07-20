@@ -1,8 +1,4 @@
-﻿     DeleteSitePart(Int32) Method                                                   
-
-fcSDK Documentation
-
-DeleteSitePart(Int32) Method
+﻿### DeleteSitePart(Int32) Method
 
 The objid of the Site Part to be deleted.
 
@@ -11,18 +7,18 @@ Used to delete a site_part in Clarify, and then unrelate the site_part from all 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function DeleteSitePart( _
-   ByVal _sitePartObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _sitePartObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteSitePart( 
-   [int](#) _sitePartObjid_
+```csharp
+public ToolkitResult DeleteSitePart( 
+   int _sitePartObjid_
 )
+```
 
 #### Parameters
 
@@ -32,13 +28,9 @@ The objid of the Site Part to be deleted.
 
 #### Return Value
 
-A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

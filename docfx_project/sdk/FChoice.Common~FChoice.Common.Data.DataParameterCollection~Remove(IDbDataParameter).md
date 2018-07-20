@@ -1,6 +1,4 @@
-﻿     Remove(IDbDataParameter) Method                                                   
-
-Remove(IDbDataParameter) Method
+﻿### Remove(IDbDataParameter) Method
 
 The parameter to remove from the collection.
 
@@ -9,18 +7,18 @@ Removes a parameter from the collection.
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Overloads Sub Remove( _
-   ByVal _param_ As [IDbDataParameter](#) _
+   ByVal _param_ As IDbDataParameter _
 ) 
+```
 
+```csharp
 public void Remove( 
-   [IDbDataParameter](#) _param_
+   IDbDataParameter _param_
 )
+```
 
 #### Parameters
 
@@ -32,11 +30,7 @@ Remarks
 
 If the parameter passed in is null or does not already exist in the collection, nothing will happen and no error will be thrown. Otherwise, the parameter will be removed from the collection.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

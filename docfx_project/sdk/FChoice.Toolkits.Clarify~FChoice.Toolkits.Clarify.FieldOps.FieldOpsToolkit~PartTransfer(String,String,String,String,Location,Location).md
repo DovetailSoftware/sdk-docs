@@ -1,8 +1,4 @@
-﻿     PartTransfer(String,String,String,String,Location,Location) Method                                                   
-
-fcSDK Documentation
-
-PartTransfer(String,String,String,String,Location,Location) Method
+﻿### PartTransfer(String,String,String,String,Location,Location) Method
 
 Part number for the Part Request
 
@@ -21,10 +17,7 @@ Initializes a new instance of the PartTransferSetup class. This overload takes a
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function PartTransfer( _
    ByVal _partNumber_ As String, _
@@ -78,11 +71,9 @@ The following values are populated in the [PartTransferResult](FChoice.Toolkits.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~Objid.md) \- Objid of the Part Transfer record.
 *   [TransactionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~TransactionIDNum.md) \- Part Transfer Transaction Identifier.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

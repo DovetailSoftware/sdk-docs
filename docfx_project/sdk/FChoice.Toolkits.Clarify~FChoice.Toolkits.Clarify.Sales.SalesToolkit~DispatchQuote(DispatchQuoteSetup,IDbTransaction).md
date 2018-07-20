@@ -1,8 +1,4 @@
-﻿     DispatchQuote(DispatchQuoteSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-DispatchQuote(DispatchQuoteSetup,IDbTransaction) Method
+﻿### DispatchQuote(DispatchQuoteSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Dispatch the Quote to the specified queue. This overload takes a setup object an
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DispatchQuote( _
    ByVal _setupParam_ As [DispatchQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchQuoteSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

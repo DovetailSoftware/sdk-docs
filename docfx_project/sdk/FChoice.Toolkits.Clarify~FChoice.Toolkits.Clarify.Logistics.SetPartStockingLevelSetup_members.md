@@ -1,8 +1,4 @@
-﻿     SetPartStockingLevelSetup Class Members                                                   
-
-fcSDK Documentation
-
-SetPartStockingLevelSetup Class Members
+﻿### SetPartStockingLevelSetup Class Members
 
 The following tables list the members exposed by [SetPartStockingLevelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SetPartStockingLevelSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup~_ctor.md) | Initializes a new instance of the SetPartStockingLevelSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -44,9 +40,9 @@ Quantity of parts to be reordered for this inventory location when reorder level
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup~PartRevision.md) | Part revision of the Part   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup~Queue.md) | The queue to which the reorder part request will be dispatched   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

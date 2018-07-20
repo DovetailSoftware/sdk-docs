@@ -1,6 +1,4 @@
-﻿     FCInvalidConfigurationException Class Methods                                                   
-
-FCInvalidConfigurationException Class Methods
+﻿### FCInvalidConfigurationException Class Methods
 
 For a list of all members of this type, see [FCInvalidConfigurationException members](FChoice.Common~FChoice.Common.FCInvalidConfigurationException_members.md).
 
@@ -13,9 +11,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

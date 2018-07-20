@@ -1,17 +1,9 @@
-﻿     Item Property (ConfigItemCache)                                                   
-
-fcSDK Documentation
-
-Item Property (ConfigItemCache)
+﻿### Item Property (ConfigItemCache)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public ReadOnly Default Property Item( _
    ByVal _key_ As String _
 ) As [ClarifyConfigItem](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem.md)
@@ -24,11 +16,9 @@ public [ClarifyConfigItem](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyC
 
 _key_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

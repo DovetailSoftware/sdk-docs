@@ -1,8 +1,4 @@
-﻿     UpdateCRSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateCRSetup Class Properties
+﻿### UpdateCRSetup Class Properties
 
 For a list of all members of this type, see [UpdateCRSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.UpdateCRSetup_members.md).
 
@@ -30,9 +26,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.UpdateCRSetup~UpdateDate.md) | DateTime the CR was updated. If not set, the current date time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.UpdateCRSetup~UserName.md) | The user updating the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

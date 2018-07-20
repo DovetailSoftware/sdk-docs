@@ -1,28 +1,18 @@
-﻿     QueryEmptyToNull Property (FCSessionData)                                                   
-
-fcSDK Documentation
-
-QueryEmptyToNull Property (FCSessionData)
+﻿### QueryEmptyToNull Property (FCSessionData)
 
 Session option that cues [Generics](fcSDK~FChoice.Foundation.FCGeneric.md) to convert filters on empty strings into filters on [Queries](fcSDK~FChoice.Foundation.FCGeneric~Query.md) that check Is NULL or IS NOT NULL.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Property QueryEmptyToNull As Boolean
 
 public bool QueryEmptyToNull {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

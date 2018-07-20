@@ -1,26 +1,18 @@
-﻿     CreateExpenseLogSetup Class                                                   
-
-fcSDK Documentation
-
-CreateExpenseLogSetup Class
+﻿### CreateExpenseLogSetup Class
 
 Used by the [CreateExpenseLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~CreateExpenseLog(CreateExpenseLogSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class CreateExpenseLogSetup 
 
 public class CreateExpenseLogSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

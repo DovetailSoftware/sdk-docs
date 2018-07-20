@@ -9,15 +9,48 @@ grep -rl '#vbnet' . | xargs sed -i "s/#vbnet/\`\`\`vbnet/g"
 grep -rl '```csharp' . | xargs sed -i "s/```csharp/\`\`\`csharp/g"
 
 grep -rl '\[String\](#)' . | xargs sed -i "s/\[String\](#)/String/g"
+grep -rl '\[System\.Object\](#)' sdk | xargs sed -i "s/\[System\.Object\](#)/System.Object/g"
 grep -rl '\[Short\](#)' . | xargs sed -i "s/\[Short\](#)/Short/g"
 grep -rl '\[Boolean\](#)' . | xargs sed -i "s/\[Boolean\](#)/Boolean/g"
+grep -rl '\[Integer\](#)' sdk | xargs sed -i "s/\[Integer\](#)/Integer/g"
 grep -rl '\[NameValueCollection\](#)' . | xargs sed -i "s/\[NameValueCollection\](#)/NameValueCollection/g"
 grep -rl '\[SerializableAttribute\](#)' . | xargs sed -i "s/\[SerializableAttribute\](#)/SerializableAttribute/g"
+grep -rl '\[DateTime\](#)' . | xargs sed -i "s/\[DateTime\](#)/DateTime/g"
+grep -rl '\[Date\](#)' . | xargs sed -i "s/\[Date\](#)/Date/g"
 
 grep -rl '\[string\](#)' . | xargs sed -i "s/\[string\](#)/string/g"
 grep -rl '\[short\](#)' . | xargs sed -i "s/\[short\](#)/short/g"
 grep -rl '\[bool\](#)' . | xargs sed -i "s/\[bool\](#)/bool/g"
+grep -rl '\[int\](#)' sdk | xargs sed -i "s/\[int\](#)/int/g"
+grep -rl '\[object\](#)' sdk | xargs sed -i "s/\[object\](#)/object/g"
+grep -rl '\[ParameterDirection\](#)' sdk | xargs sed -i "s/\[ParameterDirection\](#)/ParameterDirection/g"
+grep -rl '\[ICollection\](#)' sdk | xargs sed -i "s/\[ICollection\](#)/ICollection/g"
+grep -rl '\[TimeSpan\](#)' sdk | xargs sed -i "s/\[TimeSpan\](#)/TimeSpan/g"
 
 grep -rl '\[System.Object\](#)' . | xargs sed -i "s/\[System.Object\](#)/\[System.Object\](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.110).aspx)/g"
 
 grep -rl 'fcSDK Documentation\n' . | xargs sed -i "s/fcSDK Documentation/### Parameters/g"
+grep -rl 'See Also' . | xargs sed -i "s/See Also//g"
+grep -rl '\[Top\](#top)' . | xargs sed -i "s/\[Top\](#top)//g"
+
+grep -zol '#### Requirements.*family' *ValidatedNameCollection*.md
+
+
+^#### Requirements\n\n.*family
+\[!include\[Requirements\](../partials/requirements.md)\]
+
+---
+(\A)[\w\s\(\)]+
+
+###
+---
+###
+---
+(\A)[\w\s\(\)\,]+
+
+fcSDK Documentation
+
+
+---
+###
+---

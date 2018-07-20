@@ -1,18 +1,11 @@
-﻿     AllowOpportunity Property (UpdateQueueSetup)                                                   
-
-fcSDK Documentation
-
-AllowOpportunity Property (UpdateQueueSetup)
+﻿### AllowOpportunity Property (UpdateQueueSetup)
 
 Should Queue allow Opportunities
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property AllowOpportunity As Boolean
@@ -20,11 +13,9 @@ Public Property AllowOpportunity As Boolean
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public bool AllowOpportunity {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

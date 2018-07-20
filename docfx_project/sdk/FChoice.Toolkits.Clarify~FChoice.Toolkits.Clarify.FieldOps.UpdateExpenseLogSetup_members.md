@@ -1,8 +1,4 @@
-﻿     UpdateExpenseLogSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateExpenseLogSetup Class Members
+﻿### UpdateExpenseLogSetup Class Members
 
 The following tables list the members exposed by [UpdateExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateExpenseLogSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateExpenseLogSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateExpenseLogSetup~_ctor.md) | Initializes a new instance of the UpdateExpenseLogSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -30,9 +26,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Resolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateExpenseLogSetup~Resolution.md) | Element from the 'Resolution' application list. If not set the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateExpenseLogSetup~UserName.md) | The user who is updating the Expense Log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

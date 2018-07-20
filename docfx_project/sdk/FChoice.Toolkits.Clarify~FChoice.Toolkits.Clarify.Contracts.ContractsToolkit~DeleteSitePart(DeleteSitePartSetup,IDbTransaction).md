@@ -1,8 +1,4 @@
-﻿     DeleteSitePart(DeleteSitePartSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-DeleteSitePart(DeleteSitePartSetup,IDbTransaction) Method
+﻿### DeleteSitePart(DeleteSitePartSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to delete a site_part in Clarify, and then unrelate the site_part from all 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DeleteSitePart( _
    ByVal _setupParam_ As [DeleteSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DeleteSitePartSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,28 +1,19 @@
-﻿     CapturedResearchTime Property                                                   
-
-fcSDK Documentation
-
-CapturedResearchTime Property
+﻿### CapturedResearchTime Property
 
 Captured research time.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Property CapturedResearchTime As TimeSpan
 
-Public Property CapturedResearchTime As [TimeSpan](#)
+public TimeSpan CapturedResearchTime {get; set;}
 
-public [TimeSpan](#) CapturedResearchTime {get; set;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     InternalUseOnlyNotes Property (LogCaseResearchSetup)                                                   
-
-fcSDK Documentation
-
-InternalUseOnlyNotes Property (LogCaseResearchSetup)
+﻿### InternalUseOnlyNotes Property (LogCaseResearchSetup)
 
 Notes for internal use only.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property InternalUseOnlyNotes As String
@@ -20,11 +13,9 @@ Public Property InternalUseOnlyNotes As String
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public string InternalUseOnlyNotes {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

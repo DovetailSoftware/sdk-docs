@@ -1,26 +1,16 @@
-﻿     DisplayOrder Property                                                   
-
-fcSDK Documentation
-
-DisplayOrder Property
+﻿### DisplayOrder Property
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public ReadOnly Property DisplayOrder As Integer
 
-'Declaration
- 
+public int DisplayOrder {get;}
 
-Public ReadOnly Property DisplayOrder As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public [int](#) DisplayOrder {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

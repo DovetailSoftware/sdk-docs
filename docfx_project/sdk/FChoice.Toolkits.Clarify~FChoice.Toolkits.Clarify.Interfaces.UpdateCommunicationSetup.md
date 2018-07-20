@@ -1,26 +1,18 @@
-﻿     UpdateCommunicationSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateCommunicationSetup Class
+﻿### UpdateCommunicationSetup Class
 
 Used by the [UpdateCommunication](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateCommunication(UpdateCommunicationSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateCommunicationSetup 
 
 public class UpdateCommunicationSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UpdateCommunicationSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

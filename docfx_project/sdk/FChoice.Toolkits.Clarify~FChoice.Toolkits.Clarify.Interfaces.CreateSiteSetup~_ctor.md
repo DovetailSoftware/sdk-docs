@@ -1,8 +1,4 @@
-﻿     CreateSiteSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateSiteSetup Constructor
+﻿### CreateSiteSetup Constructor
 
 Type of the site
 
@@ -15,23 +11,20 @@ Initializes a new instance of the CreateSiteSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _siteType_ As [SiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteType.md), _
    ByVal _status_ As [SiteStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteStatus.md), _
-   ByVal _primaryAddressObjid_ As [Integer](#) _
+   ByVal _primaryAddressObjid_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateSiteSetup( 
    [SiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteType.md) _siteType_,
    [SiteStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteStatus.md) _status_,
-   [int](#) _primaryAddressObjid_
+   int _primaryAddressObjid_
 )
 
 #### Parameters
@@ -48,11 +41,9 @@ _primaryAddressObjid_
 
 Primary Address of the site
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

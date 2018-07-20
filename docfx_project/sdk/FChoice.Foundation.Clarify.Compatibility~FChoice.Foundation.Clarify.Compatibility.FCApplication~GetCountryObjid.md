@@ -1,22 +1,14 @@
-﻿     GetCountryObjid Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-GetCountryObjid Method (FCApplication)
+﻿### GetCountryObjid Method (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetCountryObjid( _
    ByVal _Country_ As String _
-) As [Integer](#)
+) As Integer
 
-public [int](#) GetCountryObjid( 
+public int GetCountryObjid( 
    string _Country_
 )
 
@@ -24,11 +16,9 @@ public [int](#) GetCountryObjid(
 
 _Country_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

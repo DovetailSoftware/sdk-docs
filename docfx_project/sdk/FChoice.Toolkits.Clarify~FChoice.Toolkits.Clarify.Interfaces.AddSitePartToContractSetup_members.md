@@ -1,8 +1,4 @@
-﻿     AddSitePartToContractSetup Class Members                                                   
-
-fcSDK Documentation
-
-AddSitePartToContractSetup Class Members
+﻿### AddSitePartToContractSetup Class Members
 
 The following tables list the members exposed by [AddSitePartToContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddSitePartToContractSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup~_ctor.md) | Initializes a new instance of the AddSitePartToContractSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup~SiteIDNum.md) | Identifier of site where the site part is located.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SitePartObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup~SitePartObjid.md) | Objid of the SitePart to be added.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     SetMessageProvider Method                                                   
-
-SetMessageProvider Method
+﻿### SetMessageProvider Method
 
 An implementation of [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md).
 
@@ -9,11 +7,7 @@ Sets the [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProv
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Shared Sub SetMessageProvider( _
    ByVal _provider_ As [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) _
 ) 
@@ -32,11 +26,9 @@ Remarks
 
 Setting this property will override all error message resolution in for all exceptions deriving from this class. Please see the documentation for [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) on the details of providing custom error messages.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

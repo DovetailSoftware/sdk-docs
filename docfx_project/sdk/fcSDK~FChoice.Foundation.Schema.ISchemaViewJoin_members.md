@@ -1,8 +1,4 @@
-﻿     ISchemaViewJoin Interface Members                                                   
-
-fcSDK Documentation
-
-ISchemaViewJoin Interface Members
+﻿### ISchemaViewJoin Interface Members
 
 The following tables list the members exposed by [ISchemaViewJoin](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin.md).
 
@@ -19,9 +15,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [SecondaryAlias](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin~SecondaryAlias.md) |   |
 | ![ Property](dotnetimages/Property.png) | [SecondaryTable](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin~SecondaryTable.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     FieldOpsToolkitBase Class Members                                                   
-
-fcSDK Documentation
-
-FieldOpsToolkitBase Class Members
+﻿### FieldOpsToolkitBase Class Members
 
 The following tables list the members exposed by [FieldOpsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase~ImpersonatorUsername.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

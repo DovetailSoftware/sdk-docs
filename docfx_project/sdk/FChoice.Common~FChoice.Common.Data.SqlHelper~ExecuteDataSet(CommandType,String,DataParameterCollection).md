@@ -1,6 +1,4 @@
-﻿     ExecuteDataSet(CommandType,String,DataParameterCollection) Method                                                   
-
-ExecuteDataSet(CommandType,String,DataParameterCollection) Method
+﻿### ExecuteDataSet(CommandType,String,DataParameterCollection) Method
 
 The [CommandType](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataCommandTypeClassTopic.htm) to use when executing the _commandText_ statement.
 
@@ -13,18 +11,15 @@ Executes the the specified parameterized SQL command with the specified paramete
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function ExecuteDataSet( _
    ByVal _commandType_ As [CommandType](#), _
    ByVal _commandText_ As String, _
    ByVal _commandParams_ As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _
-) As [DataSet](#)
+) As DataSet
 
-public static [DataSet](#) ExecuteDataSet( 
+public static DataSet ExecuteDataSet( 
    [CommandType](#) _commandType_,
    string _commandText_,
    [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _commandParams_
@@ -58,11 +53,9 @@ In no case will the DataSet returned be a null reference (**Nothing** in Visual 
 
 When the _commandType_ parameter is set to **StoredProcedure**, set the _commandText_ parameter to the name of the stored procedure. The user may be required to use escape character syntax if the stored procedure name contains any special characters. The command will call this stored procedure when you call one of the Execute methods.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

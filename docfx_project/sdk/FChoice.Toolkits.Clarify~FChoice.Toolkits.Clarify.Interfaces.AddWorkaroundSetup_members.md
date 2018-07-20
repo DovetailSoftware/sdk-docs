@@ -1,8 +1,4 @@
-﻿     AddWorkaroundSetup Class Members                                                   
-
-fcSDK Documentation
-
-AddWorkaroundSetup Class Members
+﻿### AddWorkaroundSetup Class Members
 
 The following tables list the members exposed by [AddWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddWorkaroundSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SolutionObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup~SolutionObjid.md) | Objid of the Solution to receive the Workaround.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Workaround](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup~Workaround.md) | Text of the Workaround.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

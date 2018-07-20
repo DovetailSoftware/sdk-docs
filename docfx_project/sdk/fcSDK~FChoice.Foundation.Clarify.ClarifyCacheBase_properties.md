@@ -1,8 +1,4 @@
-﻿     ClarifyCacheBase Class Properties                                                   
-
-fcSDK Documentation
-
-ClarifyCacheBase Class Properties
+﻿### ClarifyCacheBase Class Properties
 
 For a list of all members of this type, see [ClarifyCacheBase members](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [CacheSetName](fcSDK~FChoice.Foundation.CacheBase~CacheSetName.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [CacheType](fcSDK~FChoice.Foundation.CacheBase~CacheType.md) | (Inherited from [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

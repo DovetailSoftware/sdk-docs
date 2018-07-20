@@ -1,17 +1,9 @@
-﻿     IApplicationClock Interface                                                   
-
-fcSDK Documentation
-
-IApplicationClock Interface
+﻿### IApplicationClock Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Interface IApplicationClock 
 
 public interface IApplicationClock 
@@ -24,7 +16,7 @@ public interface IApplicationClock
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

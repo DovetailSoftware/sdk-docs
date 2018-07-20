@@ -1,16 +1,9 @@
-﻿     DataObject Class                                                   
-
-fcSDK Documentation
-
-DataObject Class
+﻿### DataObject Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class DataObject 
    Implements [IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
@@ -19,7 +12,7 @@ public abstract class DataObject : [IDataObject](fcSDK~FChoice.Foundation.DataOb
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.DataObjects.DataObject**  
       [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)  
       [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)  
@@ -33,7 +26,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

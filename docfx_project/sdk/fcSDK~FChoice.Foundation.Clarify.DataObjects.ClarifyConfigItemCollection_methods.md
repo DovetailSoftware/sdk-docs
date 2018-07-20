@@ -1,8 +1,4 @@
-﻿     ClarifyConfigItemCollection Class Methods                                                   
-
-fcSDK Documentation
-
-ClarifyConfigItemCollection Class Methods
+﻿### ClarifyConfigItemCollection Class Methods
 
 For a list of all members of this type, see [ClarifyConfigItemCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection_members.md).
 
@@ -42,9 +38,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TrimExcess](#) | (Inherited from [System.Collections.Generic.List<ConfigItem>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TrueForAll](#) | (Inherited from [System.Collections.Generic.List<ConfigItem>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

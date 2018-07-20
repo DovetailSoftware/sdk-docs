@@ -1,8 +1,4 @@
-﻿     CreatePartSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreatePartSetup Class Members
+﻿### CreatePartSetup Class Members
 
 The following tables list the members exposed by [CreatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreatePartSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartSetup~_ctor.md) | Initializes a new instance of the CreatePartSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -35,9 +31,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [WarrantyStartOnShipment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartSetup~WarrantyStartOnShipment.md) | Does the warranty start on shipment?   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Weight](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartSetup~Weight.md) | Unit weight of the part   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

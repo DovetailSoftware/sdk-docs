@@ -1,8 +1,4 @@
-﻿     LogCaseEmailIn(LogCaseEmailInSetup) Method                                                   
-
-fcSDK Documentation
-
-LogCaseEmailIn(LogCaseEmailInSetup) Method
+﻿### LogCaseEmailIn(LogCaseEmailInSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Creates an email in log against a Case.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogCaseEmailIn( _
    ByVal _setup_ As [LogCaseEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailInSetup.md) _
@@ -30,11 +23,9 @@ _setup_
 
 Setup object for API invocation.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

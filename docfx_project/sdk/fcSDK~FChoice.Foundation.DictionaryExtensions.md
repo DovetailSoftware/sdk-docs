@@ -1,16 +1,9 @@
-﻿     DictionaryExtensions Class                                                   
-
-fcSDK Documentation
-
-DictionaryExtensions Class
+﻿### DictionaryExtensions Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[ExtensionAttribute](#)()>
 Public MustInherit NotInheritable Class DictionaryExtensions 
@@ -20,7 +13,7 @@ public static class DictionaryExtensions
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.DictionaryExtensions**  
 
 #### Requirements
@@ -31,7 +24,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

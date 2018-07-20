@@ -1,19 +1,11 @@
-﻿     LogCaseEmailInSetup Class                                                   
-
-fcSDK Documentation
-
-LogCaseEmailInSetup Class
+﻿### LogCaseEmailInSetup Class
 
 Used by the [LogCaseEmailIn](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseEmailIn(LogCaseEmailInSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class LogCaseEmailInSetup 
    Inherits [LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)
 
@@ -21,7 +13,7 @@ public class LogCaseEmailInSetup : [LogEmailInSetup](FChoice.Toolkits.Clarify~FC
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)  
       **FChoice.Toolkits.Clarify.Support.LogCaseEmailInSetup**  
 
@@ -33,7 +25,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

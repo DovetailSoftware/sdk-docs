@@ -1,8 +1,4 @@
-﻿     RemoveEmployeeFromAccountSetup Class Members                                                   
-
-fcSDK Documentation
-
-RemoveEmployeeFromAccountSetup Class Members
+﻿### RemoveEmployeeFromAccountSetup Class Members
 
 The following tables list the members exposed by [RemoveEmployeeFromAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveEmployeeFromAccountSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [RemoveEmployeeFromAccountSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveEmployeeFromAccountSetup~_ctor.md) | Initializes a new instance of the RemoveEmployeeFromAccountSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RoleName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveEmployeeFromAccountSetup~RoleName.md) | Employee Role to be removing from the Account   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveEmployeeFromAccountSetup~UserName.md) | Username of the Employee to be removed from the Account.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

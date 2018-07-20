@@ -1,8 +1,4 @@
-﻿     SoundsLikeFilter Class Members                                                   
-
-fcSDK Documentation
-
-SoundsLikeFilter Class Members
+﻿### SoundsLikeFilter Class Members
 
 The following tables list the members exposed by [SoundsLikeFilter](fcSDK~FChoice.Foundation.Filters.SoundsLikeFilter.md).
 
@@ -13,7 +9,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ColumnName](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter~ColumnName.md) | (Inherited from [FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Value](fcSDK~FChoice.Foundation.Filters.SoundsLikeFilter~Value.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -22,9 +18,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Render](fcSDK~FChoice.Foundation.Filters.Filter~Render.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateFilter](fcSDK~FChoice.Foundation.Filters.Filter~ValidateFilter.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

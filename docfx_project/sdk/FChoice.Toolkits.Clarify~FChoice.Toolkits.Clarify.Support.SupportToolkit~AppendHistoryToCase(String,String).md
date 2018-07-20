@@ -1,8 +1,4 @@
-﻿     AppendHistoryToCase(String,String) Method                                                   
-
-fcSDK Documentation
-
-AppendHistoryToCase(String,String) Method
+﻿### AppendHistoryToCase(String,String) Method
 
 Identifier of the Case which the history is being appended.
 
@@ -13,10 +9,7 @@ Append text to a Case's history.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Sub AppendHistoryToCase( _
    ByVal _caseIdNumber_ As String, _
@@ -38,11 +31,9 @@ _stringToAppendToHistory_
 
 Text to append to the case history.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

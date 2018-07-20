@@ -1,16 +1,9 @@
-﻿     LogCREmailIn(LogCREmailInSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-LogCREmailIn(LogCREmailInSetup,IDbTransaction) Method
+﻿### LogCREmailIn(LogCREmailInSetup,IDbTransaction) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function LogCREmailIn( _
    ByVal _setup_ As [QualityToolkit.LogCREmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit+LogCREmailInSetup.md), _
@@ -28,11 +21,9 @@ _setup_
 
 _transaction_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

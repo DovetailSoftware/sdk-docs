@@ -1,6 +1,4 @@
-﻿     StateManager Class Methods                                                   
-
-StateManager Class Methods
+﻿### StateManager Class Methods
 
 For a list of all members of this type, see [StateManager members](FChoice.Common~FChoice.Common.State.StateManager_members.md).
 
@@ -18,9 +16,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [ResetTimeout](FChoice.Common~FChoice.Common.State.StateManager~ResetTimeout.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SaveState](FChoice.Common~FChoice.Common.State.StateManager~SaveState.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     IGlobalStringList Interface Members                                                   
-
-fcSDK Documentation
-
-IGlobalStringList Interface Members
+﻿### IGlobalStringList Interface Members
 
 The following tables list the members exposed by [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md).
 
@@ -20,9 +16,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [ObjectID](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList~ObjectID.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Title](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList~Title.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

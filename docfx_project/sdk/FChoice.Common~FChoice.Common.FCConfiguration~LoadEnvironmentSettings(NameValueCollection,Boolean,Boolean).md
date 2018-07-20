@@ -1,6 +1,4 @@
-﻿     LoadEnvironmentSettings(NameValueCollection,Boolean,Boolean) Method                                                   
-
-LoadEnvironmentSettings(NameValueCollection,Boolean,Boolean) Method
+﻿### LoadEnvironmentSettings(NameValueCollection,Boolean,Boolean) Method
 
 A [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsSpecializedNameValueCollectionMembersTopic.htm) of values with which to attempt a load configuration values.
 
@@ -13,10 +11,7 @@ Retrieves the current configuration values or loads new ones if no current ones 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function LoadEnvironmentSettings( _
    ByVal _initialValues_ As NameValueCollection, _
@@ -58,11 +53,9 @@ Remarks
 
 If **_initialValues_** is null (**Nothing** in Visual Basic), an attempt will be made to load the settings from the application configuration settings. If the collection is not null, does not contain all the required values, and **_checkRequired_** is true, an exception will be thrown.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     Insert Method (DataParameterCollection)                                                   
-
-Insert Method (DataParameterCollection)
+﻿### Insert Method (DataParameterCollection)
 
 The index at which to insert the parameter
 
@@ -11,20 +9,20 @@ Inserts the parameter at the specified index in the collection.
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Sub Insert( _
-   ByVal _index_ As [Integer](#), _
-   ByVal _value_ As [Object](#) _
+   ByVal _index_ As Integer, _
+   ByVal _value_ As Object _
 ) 
+```
 
+```csharp
 public void Insert( 
-   [int](#) _index_,
-   [object](#) _value_
+   int _index_,
+   object _value_
 )
+```
 
 #### Parameters
 
@@ -42,11 +40,7 @@ All parameters with higher indexes then this parameter will be shifted down one 
 
 Only instances of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbDataParameterClassTopic.htm) can be added to this collection.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

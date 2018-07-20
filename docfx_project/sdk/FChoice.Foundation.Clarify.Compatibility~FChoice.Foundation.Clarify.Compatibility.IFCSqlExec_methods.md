@@ -1,8 +1,4 @@
-﻿     IFCSqlExec Interface Methods                                                   
-
-fcSDK Documentation
-
-IFCSqlExec Interface Methods
+﻿### IFCSqlExec Interface Methods
 
 For a list of all members of this type, see [IFCSqlExec members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec_members.md).
 
@@ -17,9 +13,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [FreeConnection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec~FreeConnection.md) |   |
 | ![ Method](dotnetimages/Method.png) | [OpenConnection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec~OpenConnection.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

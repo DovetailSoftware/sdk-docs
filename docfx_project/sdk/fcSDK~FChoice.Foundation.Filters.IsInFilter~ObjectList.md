@@ -1,26 +1,17 @@
-﻿     ObjectList Property                                                   
-
-fcSDK Documentation
-
-ObjectList Property
+﻿### ObjectList Property
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property ObjectList As Array
 
-Public ReadOnly Property ObjectList As [Array](#)
+public Array ObjectList {get;}
 
-public [Array](#) ObjectList {get;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

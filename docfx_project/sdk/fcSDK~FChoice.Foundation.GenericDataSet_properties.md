@@ -1,8 +1,4 @@
-﻿     GenericDataSet Class Properties                                                   
-
-fcSDK Documentation
-
-GenericDataSet Class Properties
+﻿### GenericDataSet Class Properties
 
 For a list of all members of this type, see [GenericDataSet members](fcSDK~FChoice.Foundation.GenericDataSet_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SortGenerics](fcSDK~FChoice.Foundation.GenericDataSet~SortGenerics.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.GenericDataSet~UniqueID.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

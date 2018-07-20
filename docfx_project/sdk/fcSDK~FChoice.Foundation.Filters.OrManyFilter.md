@@ -1,19 +1,11 @@
-﻿     OrManyFilter Class                                                   
-
-fcSDK Documentation
-
-OrManyFilter Class
+﻿### OrManyFilter Class
 
 Alternative filter to [OrFilter](fcSDK~FChoice.Foundation.Filters.OrFilter.md) which allows for more than two sub filters.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class OrManyFilter 
    Inherits [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)
 
@@ -21,7 +13,7 @@ public class OrManyFilter : [LogicalFilter](fcSDK~FChoice.Foundation.Filters.Log
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       [FChoice.Foundation.Filters.LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)  
          **FChoice.Foundation.Filters.OrManyFilter**  
@@ -34,7 +26,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

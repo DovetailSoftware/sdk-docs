@@ -1,22 +1,14 @@
-﻿     Yank Method                                                   
-
-fcSDK Documentation
-
-Yank Method
+﻿### Yank Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function Yank( _
    ByVal _idNum_ As String, _
    ByVal _objectName_ As String, _
    ByVal _wipBin_ As String, _
-   ByVal _yankDate_ As [Date](#), _
+   ByVal _yankDate_ As Date, _
    ByVal _userName_ As String, _
    ByVal _generateTimeBomb_ As Boolean _
 ) As [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md)
@@ -25,7 +17,7 @@ public [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md)
    string _idNum_,
    string _objectName_,
    string _wipBin_,
-   [DateTime](#) _yankDate_,
+   DateTime _yankDate_,
    string _userName_,
    bool _generateTimeBomb_
 )
@@ -44,11 +36,9 @@ _userName_
 
 _generateTimeBomb_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

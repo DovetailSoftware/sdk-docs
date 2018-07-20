@@ -1,8 +1,4 @@
-﻿     YankActionItem(YankActionItemSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-YankActionItem(YankActionItemSetup,IDbTransaction) Method
+﻿### YankActionItem(YankActionItemSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Yank the ActionItem from its current location to a new owner's WipBin. This over
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function YankActionItem( _
    ByVal _setupParam_ As [YankActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

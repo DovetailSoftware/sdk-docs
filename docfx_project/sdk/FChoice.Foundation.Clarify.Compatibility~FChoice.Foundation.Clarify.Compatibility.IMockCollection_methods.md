@@ -14,9 +14,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [Item](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection~Item.md) |   |
 | ![ Method](dotnetimages/Method.png) | [Remove](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection~Remove.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

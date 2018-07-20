@@ -1,8 +1,4 @@
-﻿     ChangeActionItemCondition(ChangeActionItemConditionSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-ChangeActionItemCondition(ChangeActionItemConditionSetup,IDbTransaction) Method
+﻿### ChangeActionItemCondition(ChangeActionItemConditionSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to change the condition and (optionally) a status for the specified Actio
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ChangeActionItemCondition( _
    ByVal _setupParam_ As [ChangeActionItemConditionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemConditionSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

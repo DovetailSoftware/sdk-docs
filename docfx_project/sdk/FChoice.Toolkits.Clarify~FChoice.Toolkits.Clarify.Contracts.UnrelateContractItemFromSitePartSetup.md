@@ -1,26 +1,18 @@
-﻿     UnrelateContractItemFromSitePartSetup Class                                                   
-
-fcSDK Documentation
-
-UnrelateContractItemFromSitePartSetup Class
+﻿### UnrelateContractItemFromSitePartSetup Class
 
 Used by the [UnrelateContractItemFromSitePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~UnrelateContractItemFromSitePart(UnrelateContractItemFromSitePartSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UnrelateContractItemFromSitePartSetup 
 
 public class UnrelateContractItemFromSitePartSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Contracts.UnrelateContractItemFromSitePartSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

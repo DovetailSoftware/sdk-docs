@@ -1,8 +1,4 @@
-﻿     RestrictionGroup Class Properties                                                   
-
-fcSDK Documentation
-
-RestrictionGroup Class Properties
+﻿### RestrictionGroup Class Properties
 
 For a list of all members of this type, see [RestrictionGroup members](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Restrictions](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup~Restrictions.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

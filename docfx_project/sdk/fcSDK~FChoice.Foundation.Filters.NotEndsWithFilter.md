@@ -1,19 +1,11 @@
-﻿     NotEndsWithFilter Class                                                   
-
-fcSDK Documentation
-
-NotEndsWithFilter Class
+﻿### NotEndsWithFilter Class
 
 Filter field on strings that do end with the input to this filter
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class NotEndsWithFilter 
    Inherits [NotLikeFilter](fcSDK~FChoice.Foundation.Filters.NotLikeFilter.md)
 
@@ -25,7 +17,7 @@ Example
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  
       [FChoice.Foundation.Filters.ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)  
          [FChoice.Foundation.Filters.OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md)  
@@ -41,7 +33,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     GetHgbstElmDefault Method (ListCache)                                                   
-
-fcSDK Documentation
-
-GetHgbstElmDefault Method (ListCache)
+﻿### GetHgbstElmDefault Method (ListCache)
 
 The title of the user-defined list (HGBST)
 
@@ -13,10 +9,7 @@ Gets the title of the default element for the given level in a user-defined list
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function GetHgbstElmDefault( _
    ByVal _listTitle_ As String, _
@@ -25,7 +18,7 @@ Public Function GetHgbstElmDefault( _
 
 public string GetHgbstElmDefault( 
    string _listTitle_,
-   params string\[\] _elementTitles_
+   params string[] _elementTitles_
 )
 
 #### Parameters
@@ -46,11 +39,9 @@ Remarks
 
 If the specified _listTitle_ or any of the elements specified _elementTitles_ does not exist, an exception will be thrown.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

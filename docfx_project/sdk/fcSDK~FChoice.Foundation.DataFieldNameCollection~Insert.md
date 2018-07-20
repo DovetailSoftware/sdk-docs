@@ -1,24 +1,17 @@
-﻿     Insert Method (DataFieldNameCollection)                                                   
-
-fcSDK Documentation
-
-Insert Method (DataFieldNameCollection)
+﻿### Insert Method (DataFieldNameCollection)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overrides Sub Insert( _
-   ByVal _index_ As [Integer](#), _
+   ByVal _index_ As Integer, _
    ByVal _name_ As String _
 ) 
 
 public override void Insert( 
-   [int](#) _index_,
+   int _index_,
    string _name_
 )
 
@@ -28,11 +21,9 @@ _index_
 
 _name_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

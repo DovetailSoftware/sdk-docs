@@ -1,8 +1,4 @@
-﻿     AddSiteToContract(AddSiteToContractSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-AddSiteToContract(AddSiteToContractSetup,IDbTransaction) Method
+﻿### AddSiteToContract(AddSiteToContractSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Adds a site to an existing Contract. This overload takes a setup object and a da
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AddSiteToContract( _
    ByVal _setupParam_ As [AddSiteToContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToContractSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     AddEmployeeToAccountSetup Class                                                   
-
-fcSDK Documentation
-
-AddEmployeeToAccountSetup Class
+﻿### AddEmployeeToAccountSetup Class
 
 Used by the [AddEmployeeToAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AddEmployeeToAccount(AddEmployeeToAccountSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class AddEmployeeToAccountSetup 
 
 public class AddEmployeeToAccountSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

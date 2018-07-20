@@ -1,8 +1,4 @@
-﻿     DeleteAlternatePartSetup Constructor                                                   
-
-fcSDK Documentation
-
-DeleteAlternatePartSetup Constructor
+﻿### DeleteAlternatePartSetup Constructor
 
 The Part number
 
@@ -21,12 +17,9 @@ Initializes a new instance of the DeleteAlternatePartSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
@@ -36,7 +29,7 @@ Public Function New( _
    ByVal _alternatePartDomain_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public DeleteAlternatePartSetup( 
    string _partNumber_,
    string _partRevision_,
@@ -72,11 +65,9 @@ _alternatePartDomain_
 
 The Alternate Part domain
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

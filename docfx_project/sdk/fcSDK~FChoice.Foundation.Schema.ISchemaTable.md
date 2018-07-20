@@ -1,16 +1,9 @@
-﻿     ISchemaTable Interface                                                   
-
-fcSDK Documentation
-
-ISchemaTable Interface
+﻿### ISchemaTable Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Interface ISchemaTable 
    Inherits [ISchemaTableBase](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase.md) 
@@ -25,7 +18,7 @@ public interface ISchemaTable : [ISchemaTableBase](fcSDK~FChoice.Foundation.Sche
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

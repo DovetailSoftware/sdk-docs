@@ -1,8 +1,4 @@
-﻿     UpdateServiceInterruptionSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateServiceInterruptionSetup Class Properties
+﻿### UpdateServiceInterruptionSetup Class Properties
 
 For a list of all members of this type, see [UpdateServiceInterruptionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateServiceInterruptionSetup_members.md).
 
@@ -20,9 +16,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateServiceInterruptionSetup~StartDate.md) | The DateTime the Service Interuption starts. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateServiceInterruptionSetup~UserName.md) | The user who is updating the Service Interuption. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

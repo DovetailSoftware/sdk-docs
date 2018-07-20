@@ -1,26 +1,17 @@
-﻿     DefaultCountry Property                                                   
-
-fcSDK Documentation
-
-DefaultCountry Property
+﻿### DefaultCountry Property
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property DefaultCountry As [Country](fcSDK~FChoice.Foundation.Clarify.DataObjects.Country.md)
 
 public [Country](fcSDK~FChoice.Foundation.Clarify.DataObjects.Country.md) DefaultCountry {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

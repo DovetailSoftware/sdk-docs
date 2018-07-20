@@ -1,18 +1,11 @@
-﻿     assign_object Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-assign_object Method (IFCSession)
+﻿### assign_object Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743897)>
+<DispIdAttribute(1610743897)>
 Function assign_object( _
    ByVal _objId_ As String, _
    ByRef _newUser_ As String, _
@@ -23,7 +16,7 @@ Function assign_object( _
    ByVal _objectType_ As String _
 ) As Short
 
-\[[DispIdAttribute](#)(1610743897)\]
+[DispIdAttribute(1610743897)]
 short assign_object( 
    string _objId_,
    out string _newUser_,
@@ -50,11 +43,9 @@ _generateTimeBombs_
 
 _objectType_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

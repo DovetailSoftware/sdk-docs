@@ -1,8 +1,4 @@
-﻿     UpdatePartStockingLevelSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdatePartStockingLevelSetup Class Members
+﻿### UpdatePartStockingLevelSetup Class Members
 
 The following tables list the members exposed by [UpdatePartStockingLevelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdatePartStockingLevelSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup~_ctor.md) | Initializes a new instance of the UpdatePartStockingLevelSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -46,9 +42,9 @@ Quantity of parts to be reordered for this inventory location when reorder level
 | ![Public Property](dotnetimages/publicProperty.png) | [ToBinName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup~ToBinName.md) | The name of the bin to which the record will be moved. If not set or blank, no move occurs.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ToQueue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup~ToQueue.md) | The new name of the queue to which the reorder part request will be dispatched   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

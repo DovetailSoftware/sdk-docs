@@ -1,8 +1,4 @@
-﻿     AddModuleToCR(AddModuleToCRSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-AddModuleToCR(AddModuleToCRSetup,IDbTransaction) Method
+﻿### AddModuleToCR(AddModuleToCRSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Adding a file Module to a Fixed CR. This overload takes a setup object and a dat
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AddModuleToCR( _
    ByVal _setupParam_ As [AddModuleToCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

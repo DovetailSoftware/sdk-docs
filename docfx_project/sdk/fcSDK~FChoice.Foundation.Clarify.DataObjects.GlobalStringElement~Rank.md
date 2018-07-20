@@ -1,26 +1,16 @@
-﻿     Rank Property (GlobalStringElement)                                                   
-
-fcSDK Documentation
-
-Rank Property (GlobalStringElement)
+﻿### Rank Property (GlobalStringElement)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public ReadOnly Property Rank As Integer
 
-'Declaration
- 
+public int Rank {get;}
 
-Public ReadOnly Property Rank As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public [int](#) Rank {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

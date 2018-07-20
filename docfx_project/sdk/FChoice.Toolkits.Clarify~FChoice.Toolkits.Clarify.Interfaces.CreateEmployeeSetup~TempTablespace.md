@@ -1,18 +1,11 @@
-﻿     TempTablespace Property                                                   
-
-fcSDK Documentation
-
-TempTablespace Property
+﻿### TempTablespace Property
 
 Temporary Oracle Tablespace for the user
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property TempTablespace As String
@@ -24,11 +17,9 @@ Remarks
 
 This property only affects Oracle based Clarify installations. If left blank the temporary tablespace will be set to **temp**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

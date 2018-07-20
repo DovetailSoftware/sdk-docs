@@ -1,8 +1,4 @@
-﻿     ForwardActionItemSetup Constructor                                                   
-
-fcSDK Documentation
-
-ForwardActionItemSetup Constructor
+﻿### ForwardActionItemSetup Constructor
 
 ActionItem Identifier.
 
@@ -13,18 +9,15 @@ Initializes a new instance of the ForwardActionItemSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _actionItemIDNum_ As String, _
    ByVal _newQueue_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public ForwardActionItemSetup( 
    string _actionItemIDNum_,
    string _newQueue_
@@ -40,11 +33,9 @@ _newQueue_
 
 The new queue into which the ActionItem is to be forwarded.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

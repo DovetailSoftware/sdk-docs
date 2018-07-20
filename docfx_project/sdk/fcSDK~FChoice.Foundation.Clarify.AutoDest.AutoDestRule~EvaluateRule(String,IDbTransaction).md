@@ -1,23 +1,16 @@
-﻿     EvaluateRule(String,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-EvaluateRule(String,IDbTransaction) Method
+﻿### EvaluateRule(String,IDbTransaction) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function EvaluateRule( _
    ByVal _rootIdentifier_ As String, _
    ByVal _transaction_ As [IDbTransaction](#) _
 ) As [String()](#)
 
-public [string\[\]](#) EvaluateRule( 
+public string[] EvaluateRule( 
    string _rootIdentifier_,
    [IDbTransaction](#) _transaction_
 )
@@ -28,11 +21,9 @@ _rootIdentifier_
 
 _transaction_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

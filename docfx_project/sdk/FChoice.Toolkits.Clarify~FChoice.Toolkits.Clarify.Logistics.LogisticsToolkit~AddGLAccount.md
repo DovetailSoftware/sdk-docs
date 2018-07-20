@@ -1,8 +1,4 @@
-﻿     AddGLAccount Method                                                   
-
-fcSDK Documentation
-
-AddGLAccount Method
+﻿### AddGLAccount Method
 
 Used to add expense and capital GL accounts to Clarify. This overload takes a set of required parameters for the API.
 
@@ -16,11 +12,9 @@ Overload List
 | [AddGLAccount(AddGLAccountSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddGLAccount(AddGLAccountSetup).md) | Used to add expense and capital GL accounts to Clarify. This overload takes a setup object.   |
 | [AddGLAccount(AddGLAccountSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddGLAccount(AddGLAccountSetup,IDbTransaction).md) | Used to add expense and capital GL accounts to Clarify. This overload takes a setup object and a database transaction.   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     GenericDataTable Class Events                                                   
-
-fcSDK Documentation
-
-GenericDataTable Class Events
+﻿### GenericDataTable Class Events
 
 For a list of all members of this type, see [GenericDataTable members](fcSDK~FChoice.Foundation.GenericDataTable_members.md).
 
@@ -22,9 +18,9 @@ Public Events
 | ![Public Event](dotnetimages/publicEvent.png) | [TableClearing](#) | (Inherited from [System.Data.DataTable](#)) |
 | ![Public Event](dotnetimages/publicEvent.png) | [TableNewRow](#) | (Inherited from [System.Data.DataTable](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

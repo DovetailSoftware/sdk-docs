@@ -1,8 +1,4 @@
-﻿     AddModuleToCRSetup Constructor                                                   
-
-fcSDK Documentation
-
-AddModuleToCRSetup Constructor
+﻿### AddModuleToCRSetup Constructor
 
 Objid of the Fixed CR.
 
@@ -13,20 +9,17 @@ Initializes a new instance of the AddModuleToCRSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _fixObjid_ As [Integer](#), _
+   ByVal _fixObjid_ As Integer, _
    ByVal _fileName_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public AddModuleToCRSetup( 
-   [int](#) _fixObjid_,
+   int _fixObjid_,
    string _fileName_
 )
 
@@ -40,11 +33,9 @@ _fileName_
 
 Name of the file related to the fix.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

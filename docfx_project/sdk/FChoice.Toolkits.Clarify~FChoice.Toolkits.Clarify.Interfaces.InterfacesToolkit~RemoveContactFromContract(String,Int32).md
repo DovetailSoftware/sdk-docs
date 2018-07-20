@@ -1,26 +1,22 @@
-﻿     RemoveContactFromContract(String,Int32) Method                                                   
-
-fcSDK Documentation
-
-RemoveContactFromContract(String,Int32) Method
+﻿### RemoveContactFromContract(String,Int32) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function RemoveContactFromContract( _
    ByVal _contractIDNum_ As String, _
-   ByVal _contactObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _contactObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RemoveContactFromContract( 
+```csharp
+public ToolkitResult RemoveContactFromContract( 
    string _contractIDNum_,
-   [int](#) _contactObjid_
+   int _contactObjid_
 )
+```
 
 #### Parameters
 
@@ -28,11 +24,7 @@ _contractIDNum_
 
 _contactObjid_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

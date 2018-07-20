@@ -1,8 +1,4 @@
-﻿     ReopenCRSetup Constructor                                                   
-
-fcSDK Documentation
-
-ReopenCRSetup Constructor
+﻿### ReopenCRSetup Constructor
 
 Identifier of the CR being reopened.
 
@@ -11,17 +7,14 @@ Initializes a new instance of the ReopenCRSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _crIDNum_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public ReopenCRSetup( 
    string _crIDNum_
 )
@@ -32,11 +25,9 @@ _crIDNum_
 
 Identifier of the CR being reopened.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

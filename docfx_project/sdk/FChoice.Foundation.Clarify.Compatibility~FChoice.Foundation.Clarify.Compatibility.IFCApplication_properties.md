@@ -1,8 +1,4 @@
-﻿     IFCApplication Interface Properties                                                   
-
-fcSDK Documentation
-
-IFCApplication Interface Properties
+﻿### IFCApplication Interface Properties
 
 For a list of all members of this type, see [IFCApplication members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication_members.md).
 
@@ -30,9 +26,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [TruncateStringFields](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication~TruncateStringFields.md) |   |
 | ![ Property](dotnetimages/Property.png) | [WorkingDirectory](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication~WorkingDirectory.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

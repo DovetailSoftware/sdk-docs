@@ -1,8 +1,4 @@
-﻿     SetLogisticsTransition(SetLogisticsTransitionSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-SetLogisticsTransition(SetLogisticsTransitionSetup,IDbTransaction) Method
+﻿### SetLogisticsTransition(SetLogisticsTransitionSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Allows you to create or modify Logistics Transitions in the database. This overl
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function SetLogisticsTransition( _
    ByVal _setupParam_ As [SetLogisticsTransitionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

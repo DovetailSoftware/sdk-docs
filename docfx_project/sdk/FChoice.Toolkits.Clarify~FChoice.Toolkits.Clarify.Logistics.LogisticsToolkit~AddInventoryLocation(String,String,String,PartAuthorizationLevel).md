@@ -1,8 +1,4 @@
-﻿     AddInventoryLocation(String,String,String,PartAuthorizationLevel) Method                                                   
-
-fcSDK Documentation
-
-AddInventoryLocation(String,String,String,PartAuthorizationLevel) Method
+﻿### AddInventoryLocation(String,String,String,PartAuthorizationLevel) Method
 
 Name of the inventory location to add
 
@@ -19,10 +15,7 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AddInventoryLocation( _
    ByVal _locationName_ As String, _
@@ -62,11 +55,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Inventory Location record.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

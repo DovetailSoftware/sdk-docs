@@ -1,26 +1,18 @@
-﻿     DefaultString Property (ISchemaField)                                                   
-
-fcSDK Documentation
-
-DefaultString Property (ISchemaField)
+﻿### DefaultString Property (ISchemaField)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 ReadOnly Property DefaultString As String
+```
 
+```csharp
 string DefaultString {get;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

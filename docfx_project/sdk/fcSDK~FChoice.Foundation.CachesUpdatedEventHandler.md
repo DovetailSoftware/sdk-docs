@@ -1,24 +1,16 @@
-﻿     CachesUpdatedEventHandler Delegate                                                   
-
-fcSDK Documentation
-
-CachesUpdatedEventHandler Delegate
+﻿### CachesUpdatedEventHandler Delegate
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Delegate Sub CachesUpdatedEventHandler( _
    ByVal _cacheNames_() As String, _
    ByVal _cacheType_ As [CacheType](fcSDK~FChoice.Foundation.CacheType.md) _
 ) 
 
 public delegate void CachesUpdatedEventHandler( 
-   string\[\] _cacheNames_,
+   string[] _cacheNames_,
    [CacheType](fcSDK~FChoice.Foundation.CacheType.md) _cacheType_
 )
 
@@ -36,7 +28,7 @@ _cacheType_
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

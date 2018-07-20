@@ -1,8 +1,4 @@
-﻿     InstallSitePartToSite(String,String,String,String,Int32) Method                                                   
-
-fcSDK Documentation
-
-InstallSitePartToSite(String,String,String,String,Int32) Method
+﻿### InstallSitePartToSite(String,String,String,String,Int32) Method
 
 Identifier of the Site where the part will be installed.
 
@@ -19,26 +15,26 @@ Install a Site Part under a Site. This overload takes a set of required paramete
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function InstallSitePartToSite( _
    ByVal _siteIDNum_ As String, _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
    ByVal _partDomain_ As String, _
-   ByVal _quantity_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _quantity_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) InstallSitePartToSite( 
+```csharp
+public ToolkitResult InstallSitePartToSite( 
    string _siteIDNum_,
    string _partNumber_,
    string _partRevision_,
    string _partDomain_,
-   [int](#) _quantity_
+   int _quantity_
 )
+```
 
 #### Parameters
 
@@ -64,15 +60,11 @@ The number of units to install
 
 #### Return Value
 
-The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+The following values are populated in the ToolkitResult object returned by the API method:
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the SitePart.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateWipBinSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateWipBinSetup Class Members
+﻿### CreateWipBinSetup Class Members
 
 The following tables list the members exposed by [CreateWipBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateWipBinSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateWipBinSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateWipBinSetup~_ctor.md) | Initializes a new instance of the CreateWipBinSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateWipBinSetup~Title.md) | Title of the WipBin   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateWipBinSetup~UserName.md) | User the WipBin is being created for.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

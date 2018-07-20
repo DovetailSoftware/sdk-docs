@@ -1,8 +1,4 @@
-﻿     CloseOpportunity(String) Method                                                   
-
-fcSDK Documentation
-
-CloseOpportunity(String) Method
+﻿### CloseOpportunity(String) Method
 
 Opportunity Identifier.
 
@@ -11,10 +7,7 @@ Closes the Opportunity. This overload takes a set of required parameters for the
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CloseOpportunity( _
    ByVal _opportunityIDNum_ As String _
@@ -38,11 +31,9 @@ Remarks
 
 The status may be specified (in closed opportunity condition) for the opportunity, as well as the user name of the closer, and the date/time of the close. The API can also generate a time bomb (for business rule notification).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

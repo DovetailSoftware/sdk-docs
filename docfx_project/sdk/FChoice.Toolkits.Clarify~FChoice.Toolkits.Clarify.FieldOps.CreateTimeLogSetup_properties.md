@@ -1,8 +1,4 @@
-﻿     CreateTimeLogSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateTimeLogSetup Class Properties
+﻿### CreateTimeLogSetup Class Properties
 
 For a list of all members of this type, see [CreateTimeLogSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup_members.md).
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup~UserName.md) | The user who created the Time Log. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkCenter](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup~WorkCenter.md) | Element from the 'Work Center' application list. If not set the default list value is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

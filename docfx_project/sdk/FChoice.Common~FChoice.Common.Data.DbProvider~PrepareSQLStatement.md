@@ -1,6 +1,4 @@
-﻿     PrepareSQLStatement Method (DbProvider)                                                   
-
-PrepareSQLStatement Method (DbProvider)
+﻿### PrepareSQLStatement Method (DbProvider)
 
 The statement to prepare and format
 
@@ -13,10 +11,7 @@ Prepares and formats a SQL statement according to the rules of the underlying da
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustOverride Function PrepareSQLStatement( _
    ByVal _sqlStmt_ As String, _
@@ -64,11 +59,9 @@ This statement can then be executed against the database using an ADO.NET [IDbCo
 
 **NOTE**: [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) will automatically call this method during Execute* methods like [ExecuteNonQuery](FChoice.Common~FChoice.Common.Data.SqlHelper~ExecuteNonQuery.md) or [ExecuteDataSet](FChoice.Common~FChoice.Common.Data.SqlHelper~ExecuteDataSet.md). Generally, this method should not be called directly, only through [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

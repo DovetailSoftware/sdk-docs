@@ -1,8 +1,4 @@
-﻿     ForwardSolution(String,String) Method                                                   
-
-fcSDK Documentation
-
-ForwardSolution(String,String) Method
+﻿### ForwardSolution(String,String) Method
 
 Solution Identifier.
 
@@ -13,10 +9,7 @@ Reject-forward the Solution from one queue to another. This overload takes a set
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ForwardSolution( _
    ByVal _solutionIDNum_ As String, _
@@ -46,11 +39,9 @@ Remarks
 
 The Solution must be in open condition, and not currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

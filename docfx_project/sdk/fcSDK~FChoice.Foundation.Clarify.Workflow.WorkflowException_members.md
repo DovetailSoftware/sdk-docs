@@ -1,8 +1,4 @@
-﻿     WorkflowException Class Members                                                   
-
-fcSDK Documentation
-
-WorkflowException Class Members
+﻿### WorkflowException Class Members
 
 The following tables list the members exposed by [WorkflowException](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowException.md).
 
@@ -21,7 +17,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StackTrace](#) | (Inherited from [System.Exception](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetSite](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -32,9 +28,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

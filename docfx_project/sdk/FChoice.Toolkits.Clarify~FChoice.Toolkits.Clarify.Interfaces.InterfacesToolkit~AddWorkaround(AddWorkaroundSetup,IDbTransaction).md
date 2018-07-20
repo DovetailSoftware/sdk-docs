@@ -1,8 +1,4 @@
-﻿     AddWorkaround(AddWorkaroundSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-AddWorkaround(AddWorkaroundSetup,IDbTransaction) Method
+﻿### AddWorkaround(AddWorkaroundSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Add a new Workaround to an existing Solution. This overload takes a setup object
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AddWorkaround( _
    ByVal _setupParam_ As [AddWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

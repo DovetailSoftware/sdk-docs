@@ -1,24 +1,16 @@
-﻿     GetDefaultStateObjid Method (IFCApplication)                                                   
-
-fcSDK Documentation
-
-GetDefaultStateObjid Method (IFCApplication)
+﻿### GetDefaultStateObjid Method (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743857)>
+' Declaration
+<DispIdAttribute(1610743857)>
 Function GetDefaultStateObjid( _
    ByVal _Country_ As String _
-) As [Integer](#)
+) As Integer
 
-\[[DispIdAttribute](#)(1610743857)\]
-[int](#) GetDefaultStateObjid( 
+[DispIdAttribute(1610743857)]
+int GetDefaultStateObjid( 
    string _Country_
 )
 
@@ -26,11 +18,9 @@ Function GetDefaultStateObjid( _
 
 _Country_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

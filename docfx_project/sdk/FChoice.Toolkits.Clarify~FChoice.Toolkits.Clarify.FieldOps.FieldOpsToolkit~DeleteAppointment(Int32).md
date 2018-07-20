@@ -1,26 +1,22 @@
-﻿     DeleteAppointment(Int32) Method                                                   
-
-fcSDK Documentation
-
-DeleteAppointment(Int32) Method
+﻿### DeleteAppointment(Int32) Method
 
 The Objid of the Appointment being deleted.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function DeleteAppointment( _
-   ByVal _appointmentObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _appointmentObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteAppointment( 
-   [int](#) _appointmentObjid_
+```csharp
+public ToolkitResult DeleteAppointment( 
+   int _appointmentObjid_
 )
+```
 
 #### Parameters
 
@@ -30,13 +26,9 @@ The Objid of the Appointment being deleted.
 
 #### Return Value
 
-A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

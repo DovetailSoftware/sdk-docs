@@ -1,8 +1,4 @@
-﻿     AutoDestRule Class Members                                                   
-
-fcSDK Documentation
-
-AutoDestRule Class Members
+﻿### AutoDestRule Class Members
 
 The following tables list the members exposed by [AutoDestRule](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule.md).
 
@@ -16,7 +12,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RuleText](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule~RuleText.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SuccessfulRuleClause](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule~SuccessfulRuleClause.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -26,9 +22,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [RetrieveRule](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule~RetrieveRule.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [RunRule](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule~RunRule.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

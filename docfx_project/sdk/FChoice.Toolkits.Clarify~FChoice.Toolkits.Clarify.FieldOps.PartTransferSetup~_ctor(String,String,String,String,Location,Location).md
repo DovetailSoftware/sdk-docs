@@ -1,8 +1,4 @@
-﻿     PartTransferSetup Constructor(String,String,String,String,Location,Location)                                                   
-
-fcSDK Documentation
-
-PartTransferSetup Constructor(String,String,String,String,Location,Location)
+﻿### PartTransferSetup Constructor(String,String,String,String,Location,Location)
 
 Part number for the Part Request
 
@@ -21,12 +17,9 @@ Initializes a new instance of the PartTransferSetup class. This overload takes a
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
@@ -36,7 +29,7 @@ Public Function New( _
    ByVal _tolocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public PartTransferSetup( 
    string _partNumber_,
    string _partRevision_,
@@ -72,11 +65,9 @@ _tolocation_
 
 Inventory location and bin (or GL account) into which the part is being transferred
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

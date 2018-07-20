@@ -1,20 +1,15 @@
-﻿     ExecuteScalar(String) Method                                                   
-
-ExecuteScalar(String) Method
+﻿### ExecuteScalar(String) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function ExecuteScalar( _
    ByVal _commandText_ As String _
-) As [Object](#)
+) As Object
 
-public static [object](#) ExecuteScalar( 
+public static object ExecuteScalar( 
    string _commandText_
 )
 
@@ -22,11 +17,9 @@ public static [object](#) ExecuteScalar(
 
 _commandText_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

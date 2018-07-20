@@ -1,8 +1,4 @@
-﻿     CreateStateSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateStateSetup Class Members
+﻿### CreateStateSetup Class Members
 
 The following tables list the members exposed by [CreateStateSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateStateSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateStateSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateStateSetup~_ctor.md) | Initializes a new instance of the CreateStateSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -26,9 +22,9 @@ Name of the Country the State will belong to.
 | ![Public Property](dotnetimages/publicProperty.png) | [IsDefault](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateStateSetup~IsDefault.md) | Is this the default State for the country?   |
 | ![Public Property](dotnetimages/publicProperty.png) | [State](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateStateSetup~State.md) | State name   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

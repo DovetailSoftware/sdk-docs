@@ -1,19 +1,11 @@
-﻿     RelationNameCollection Class                                                   
-
-fcSDK Documentation
-
-RelationNameCollection Class
+﻿### RelationNameCollection Class
 
 Collection of Relations
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class RelationNameCollection 
    Inherits [ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)
 
@@ -21,7 +13,7 @@ public class RelationNameCollection : [ValidatedNameCollection](fcSDK~FChoice.Fo
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)  
       **FChoice.Foundation.RelationNameCollection**  
 
@@ -33,7 +25,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,11 +1,10 @@
-_RemoveAllGenerics_
--------------------
+### RemoveAllGenerics
 
 **Object and Type**
 
 Object  : FCBulk
 
-Type     : Method
+Type    : Method
 
 **Prototype**
 

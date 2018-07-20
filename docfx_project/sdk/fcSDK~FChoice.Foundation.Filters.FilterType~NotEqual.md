@@ -1,8 +1,4 @@
-﻿     NotEqual Method (FilterType)                                                   
-
-fcSDK Documentation
-
-NotEqual Method (FilterType)
+﻿### NotEqual Method (FilterType)
 
 Filter field on data that does not equal the input to this filter
 
@@ -16,11 +12,9 @@ Overload List
 | [NotEqual(String,String)](fcSDK~FChoice.Foundation.Filters.FilterType~NotEqual(String,String).md) |   |
 | [NotEqual(String,DateTime)](fcSDK~FChoice.Foundation.Filters.FilterType~NotEqual(String,DateTime).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

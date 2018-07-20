@@ -1,8 +1,4 @@
-﻿     CreateAppointmentSetup Constructor(DateTime,TimeSpan)                                                   
-
-fcSDK Documentation
-
-CreateAppointmentSetup Constructor(DateTime,TimeSpan)
+﻿### CreateAppointmentSetup Constructor(DateTime,TimeSpan)
 
 The DateTime the Appointment starts. If not set, the current time is used.
 
@@ -13,21 +9,18 @@ Initializes a new instance of the CreateAppointmentSetup class. This overload ta
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _startDate_ As [Date](#), _
-   ByVal _duration_ As [TimeSpan](#) _
+   ByVal _startDate_ As Date, _
+   ByVal _duration_ As TimeSpan _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateAppointmentSetup( 
-   [DateTime](#) _startDate_,
-   [TimeSpan](#) _duration_
+   DateTime _startDate_,
+   TimeSpan _duration_
 )
 
 #### Parameters
@@ -40,11 +33,9 @@ _duration_
 
 The length (in seconds) of the appointment. If not specified, it is calculated from the start and end times.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,17 +1,9 @@
-﻿     ExecuteSQLNoReturn Method (FCSession)                                                   
-
-fcSDK Documentation
-
-ExecuteSQLNoReturn Method (FCSession)
+﻿### ExecuteSQLNoReturn Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub ExecuteSQLNoReturn( _
    ByVal _sql_ As String _
 ) 
@@ -24,11 +16,9 @@ public void ExecuteSQLNoReturn(
 
 _sql_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

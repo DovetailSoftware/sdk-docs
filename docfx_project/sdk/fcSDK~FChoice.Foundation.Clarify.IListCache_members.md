@@ -1,8 +1,4 @@
-﻿     IListCache Interface Members                                                   
-
-fcSDK Documentation
-
-IListCache Interface Members
+﻿### IListCache Interface Members
 
 The following tables list the members exposed by [IListCache](fcSDK~FChoice.Foundation.Clarify.IListCache.md).
 
@@ -15,7 +11,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [GlobalStrings](fcSDK~FChoice.Foundation.Clarify.IListCache~GlobalStrings.md) |   |
 | ![ Property](dotnetimages/Property.png) | [HierarchicalStrings](fcSDK~FChoice.Foundation.Clarify.IListCache~HierarchicalStrings.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -39,7 +35,7 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [TryGetHgbstList](fcSDK~FChoice.Foundation.Clarify.IListCache~TryGetHgbstList.md) | Overloaded.    |
 | ![ Method](dotnetimages/Method.png) | [UpdateCache](fcSDK~FChoice.Foundation.Clarify.IListCache~UpdateCache.md) |   |
 
-[Top](#top)
+
 
 Public Events
 
@@ -47,9 +43,9 @@ Public Events
 | --- | --- | --- |
 | ![ Event](dotnetimages/Event.png) | [CacheUpdated](fcSDK~FChoice.Foundation.Clarify.IListCache~CacheUpdated_EV.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

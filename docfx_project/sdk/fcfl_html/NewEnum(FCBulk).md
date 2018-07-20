@@ -1,9 +1,8 @@
-_NewEnum(FCBulk)_
------------------
+### NewEnum(FCBulk)
 
 **Object and Type**
 
-Object  :               FCBulk
+Object   : FCBulk
 
 Type     : Method
 

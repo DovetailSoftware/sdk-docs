@@ -32,7 +32,7 @@ Dim connStr As String = FCConfiguration.Current(ConfigValues.CONNECT_STRING)
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
 
 **FChoice.Common.ConfigValues**  
 
@@ -44,7 +44,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-See Also
+
 
 #### Reference
 

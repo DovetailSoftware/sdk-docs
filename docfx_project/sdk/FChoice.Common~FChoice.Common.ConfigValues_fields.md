@@ -1,6 +1,4 @@
-﻿     ConfigValues Class Fields                                                   
-
-ConfigValues Class Fields
+﻿### ConfigValues Class Fields
 
 For a list of all members of this type, see [ConfigValues members](FChoice.Common~FChoice.Common.ConfigValues_members.md).
 
@@ -21,10 +19,6 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SQL_BIG_QUERY_TIME_THRESHOLD](FChoice.Common~FChoice.Common.ConfigValues~SQL_BIG_QUERY_TIME_THRESHOLD.md) |   |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SQL_COMMAND_TIMEOUT](FChoice.Common~FChoice.Common.ConfigValues~SQL_COMMAND_TIMEOUT.md) |   |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [STATEMANAGER_CONFIGFILE](FChoice.Common~FChoice.Common.ConfigValues~STATEMANAGER_CONFIGFILE.md) |   |
-
-[Top](#top)
-
-See Also
 
 #### Reference
 

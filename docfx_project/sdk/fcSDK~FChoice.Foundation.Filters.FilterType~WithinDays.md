@@ -1,8 +1,4 @@
-﻿     WithinDays Method (FilterType)                                                   
-
-fcSDK Documentation
-
-WithinDays Method (FilterType)
+﻿### WithinDays Method (FilterType)
 
 Filter field on dates that have occurred within a number of days
 
@@ -13,11 +9,9 @@ Overload List
 | [WithinDays(String,Int32)](fcSDK~FChoice.Foundation.Filters.FilterType~WithinDays(String,Int32).md) |   |
 | [WithinDays(String,Decimal)](fcSDK~FChoice.Foundation.Filters.FilterType~WithinDays(String,Decimal).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

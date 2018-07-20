@@ -1,8 +1,4 @@
-﻿     IFCApplication Interface Methods                                                   
-
-fcSDK Documentation
-
-IFCApplication Interface Methods
+﻿### IFCApplication Interface Methods
 
 For a list of all members of this type, see [IFCApplication members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication_members.md).
 
@@ -88,9 +84,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [UpdateSchemaCache](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication~UpdateSchemaCache.md) |   |
 | ![ Method](dotnetimages/Method.png) | [ValidateEncryptedPassword](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication~ValidateEncryptedPassword.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

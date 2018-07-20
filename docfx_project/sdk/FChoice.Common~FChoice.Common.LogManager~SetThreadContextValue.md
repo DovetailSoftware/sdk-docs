@@ -1,6 +1,4 @@
-﻿     SetThreadContextValue Method                                                   
-
-SetThreadContextValue Method
+﻿### SetThreadContextValue Method
 
 The key or name to use for this variable.
 
@@ -11,10 +9,7 @@ Sets a context variable for this thread.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Shared Sub SetThreadContextValue( _
    ByVal _key_ As String, _
@@ -46,11 +41,9 @@ You can then set two thread context values for key "user" and key "session" and 
 
 For more information on configuring LogManager and defining appenders and layouts, please consult the user guide for your application.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

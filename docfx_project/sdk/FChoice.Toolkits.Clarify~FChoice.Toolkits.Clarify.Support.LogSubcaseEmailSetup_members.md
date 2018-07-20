@@ -1,8 +1,4 @@
-﻿     LogSubcaseEmailSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogSubcaseEmailSetup Class Members
+﻿### LogSubcaseEmailSetup Class Members
 
 The following tables list the members exposed by [LogSubcaseEmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseEmailSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogSubcaseEmailSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseEmailSetup~_ctor.md) | Initializes a new instance of the LogSubcaseEmailSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -37,9 +33,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SubcaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseEmailSetup~SubcaseIDNum.md) | Identifier of the Subcase against which the email is being logged.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseEmailSetup~UserName.md) | User who created the log. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

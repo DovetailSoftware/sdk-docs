@@ -1,21 +1,17 @@
-﻿     SchemaRelationCardinality Enumeration                                                        
-
-fcSDK Documentation
-
-SchemaRelationCardinality Enumeration
+﻿### SchemaRelationCardinality Enumeration
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Enum SchemaRelationCardinality 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
+```
 
-public enum SchemaRelationCardinality : [System.Enum](#) 
+```csharp
+public enum SchemaRelationCardinality : System.Enum 
+```
 
 Members
 
@@ -29,10 +25,10 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
-         **FChoice.Foundation.Schema.SchemaRelationCardinality**  
+System.Object  
+System.ValueType  
+System.Enum  
+**FChoice.Foundation.Schema.SchemaRelationCardinality**  
 
 #### Requirements
 
@@ -41,8 +37,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

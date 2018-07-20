@@ -1,22 +1,15 @@
-﻿     SyncRoot Property (FCGeneric)                                                   
-
-fcSDK Documentation
-
-SyncRoot Property (FCGeneric)
+﻿### SyncRoot Property (FCGeneric)
 
 Gets an object that can be used to synchronize access to the **FCGeneric**.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public ReadOnly Property SyncRoot As Object
 
-Public ReadOnly Property SyncRoot As [Object](#)
-
-public [object](#) SyncRoot {get;}
+public object SyncRoot {get;}
 
 #### Property Value
 
@@ -26,11 +19,9 @@ Remarks
 
 This is a common .NET Framework pattern please see [check out this example](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsICollectionClassSyncRootTopic.htm).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdateAddressSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateAddressSetup Class Properties
+﻿### UpdateAddressSetup Class Properties
 
 For a list of all members of this type, see [UpdateAddressSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAddressSetup_members.md).
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TimeZone](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAddressSetup~TimeZone.md) | Address Timezone   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ZipCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAddressSetup~ZipCode.md) | Address Zipcode   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

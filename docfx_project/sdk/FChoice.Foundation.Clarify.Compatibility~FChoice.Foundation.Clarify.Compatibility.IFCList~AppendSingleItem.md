@@ -1,36 +1,26 @@
-﻿     AppendSingleItem Method (IFCList)                                                   
-
-fcSDK Documentation
-
-AppendSingleItem Method (IFCList)
+﻿### AppendSingleItem Method (IFCList)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743817)>
+' Declaration
+<DispIdAttribute(1610743817)>
 Sub AppendSingleItem( _
-   ByVal _param1_ As [Object](#) _
+   ByVal _param1_ As Object _
 ) 
 
-\[[DispIdAttribute](#)(1610743817)\]
+[DispIdAttribute(1610743817)]
 void AppendSingleItem( 
-   [object](#) _param1_
+   object _param1_
 )
 
 #### Parameters
 
 _param1_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

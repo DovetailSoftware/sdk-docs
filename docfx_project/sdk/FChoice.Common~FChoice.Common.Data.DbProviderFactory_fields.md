@@ -1,6 +1,4 @@
-﻿     DbProviderFactory Class Fields                                                   
-
-DbProviderFactory Class Fields
+﻿### DbProviderFactory Class Fields
 
 For a list of all members of this type, see [DbProviderFactory members](FChoice.Common~FChoice.Common.Data.DbProviderFactory_members.md).
 
@@ -13,9 +11,9 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png) | [ODPNET_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~ODPNET_PROVIDER_NAME.md) |   |
 | ![Public Field](dotnetimages/publicField.png) | [ORACLE_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~ORACLE_PROVIDER_NAME.md) | The default provider name of Oracle-based data providers   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

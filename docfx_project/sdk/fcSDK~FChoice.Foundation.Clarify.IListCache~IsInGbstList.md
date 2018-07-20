@@ -1,16 +1,9 @@
-﻿     IsInGbstList Method (IListCache)                                                   
-
-fcSDK Documentation
-
-IsInGbstList Method (IListCache)
+﻿### IsInGbstList Method (IListCache)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Function IsInGbstList( _
    ByVal _listTitle_ As String, _
@@ -28,11 +21,9 @@ _listTitle_
 
 _element_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

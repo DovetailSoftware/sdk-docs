@@ -1,22 +1,15 @@
-﻿     ItemByIndex Method (FCList)                                                   
-
-fcSDK Documentation
-
-ItemByIndex Method (FCList)
+﻿### ItemByIndex Method (FCList)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function ItemByIndex( _
    ByVal _index_ As Short _
-) As [Object](#)
+) As Object
 
-public [object](#) ItemByIndex( 
+public object ItemByIndex( 
    short _index_
 )
 
@@ -24,11 +17,9 @@ public [object](#) ItemByIndex(
 
 _index_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

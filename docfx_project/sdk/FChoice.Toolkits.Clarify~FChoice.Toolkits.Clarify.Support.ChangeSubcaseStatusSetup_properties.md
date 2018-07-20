@@ -1,8 +1,4 @@
-﻿     ChangeSubcaseStatusSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ChangeSubcaseStatusSetup Class Properties
+﻿### ChangeSubcaseStatusSetup Class Properties
 
 For a list of all members of this type, see [ChangeSubcaseStatusSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeSubcaseStatusSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SubcaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeSubcaseStatusSetup~SubcaseIDNum.md) | Subcase Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeSubcaseStatusSetup~UserName.md) | The User who changed the Subcase. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     FulfillCommitment(Int32) Method                                                   
-
-fcSDK Documentation
-
-FulfillCommitment(Int32) Method
+﻿### FulfillCommitment(Int32) Method
 
 Log Objid of the log to be fulfilled.
 
@@ -11,18 +7,18 @@ Fulfills a previously unfulfilled commitment. This overload takes a set of requi
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function FulfillCommitment( _
-   ByVal _logObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _logObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) FulfillCommitment( 
-   [int](#) _logObjid_
+```csharp
+public ToolkitResult FulfillCommitment( 
+   int _logObjid_
 )
+```
 
 #### Parameters
 
@@ -32,13 +28,9 @@ Log Objid of the log to be fulfilled.
 
 #### Return Value
 
-A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

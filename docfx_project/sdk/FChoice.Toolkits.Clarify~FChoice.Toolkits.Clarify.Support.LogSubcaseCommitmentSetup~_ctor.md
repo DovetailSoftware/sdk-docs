@@ -1,8 +1,4 @@
-﻿     LogSubcaseCommitmentSetup Constructor                                                   
-
-fcSDK Documentation
-
-LogSubcaseCommitmentSetup Constructor
+﻿### LogSubcaseCommitmentSetup Constructor
 
 Identifier of the Subcase against which the commitment is being logged.
 
@@ -21,26 +17,23 @@ Initializes a new instance of the LogSubcaseCommitmentSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _subcaseIDNum_ As String, _
    ByVal _title_ As String, _
-   ByVal _priorWarning_ As [TimeSpan](#), _
+   ByVal _priorWarning_ As TimeSpan, _
    ByVal _contactFirstName_ As String, _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public LogSubcaseCommitmentSetup( 
    string _subcaseIDNum_,
    string _title_,
-   [TimeSpan](#) _priorWarning_,
+   TimeSpan _priorWarning_,
    string _contactFirstName_,
    string _contactLastName_,
    string _contactPhone_
@@ -72,11 +65,9 @@ _contactPhone_
 
 Contact's phone number.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

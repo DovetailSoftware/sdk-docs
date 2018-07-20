@@ -1,8 +1,4 @@
-﻿     CreateAppointmentSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateAppointmentSetup Class Properties
+﻿### CreateAppointmentSetup Class Properties
 
 For a list of all members of this type, see [CreateAppointmentSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup_members.md).
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup~StartDate.md) | The DateTime the Appointment starts. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup~UserName.md) | The user who created the Appointment. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LogContractNoteSetup Class Members                                                   
-
-fcSDK Documentation
-
-LogContractNoteSetup Class Members
+﻿### LogContractNoteSetup Class Members
 
 The following tables list the members exposed by [LogContractNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [LogContractNoteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup~_ctor.md) | Initializes a new instance of the LogContractNoteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -27,9 +23,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup~Notes.md) | The notes being logged to the Contract.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup~UserName.md) | The user who is logging the Contract Note. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

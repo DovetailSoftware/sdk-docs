@@ -1,6 +1,4 @@
-﻿     LogWarn Method (Logger)                                                   
-
-LogWarn Method (Logger)
+﻿### LogWarn Method (Logger)
 
 Writes a WARN-level log entry if WARN-level logging is enabled.
 
@@ -17,11 +15,9 @@ Remarks
 
 If the current logger is not configured for WARN-level logging or lower, these methods will do nothing.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

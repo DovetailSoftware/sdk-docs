@@ -1,8 +1,4 @@
-﻿     FacadePropertyAttribute Class Properties                                                   
-
-fcSDK Documentation
-
-FacadePropertyAttribute Class Properties
+﻿### FacadePropertyAttribute Class Properties
 
 For a list of all members of this type, see [FacadePropertyAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.FacadePropertyAttribute_members.md).
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SetupExpression](fcSDK~FChoice.Foundation.Clarify.Attributes.FacadePropertyAttribute~SetupExpression.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

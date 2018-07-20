@@ -1,8 +1,4 @@
-﻿     LogPartsUsedExchangeSetup Constructor(String,Int32,String,String,String,Int32)                                                   
-
-fcSDK Documentation
-
-LogPartsUsedExchangeSetup Constructor(String,Int32,String,String,String,Int32)
+﻿### LogPartsUsedExchangeSetup Constructor(String,Int32,String,String,String,Int32)
 
 The Id Number of the related Part Request Detail (if any)
 
@@ -21,30 +17,30 @@ Initializes a new instance of the LogPartsUsedExchangeSetup class. This overload
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
-   ByVal _removeSitePartObjid_ As [Integer](#), _
+   ByVal _removeSitePartObjid_ As Integer, _
    ByVal _installPartNumber_ As String, _
    ByVal _installPartRevision_ As String, _
    ByVal _installPartDomain_ As String, _
-   ByVal _installQuantity_ As [Integer](#) _
+   ByVal _installQuantity_ As Integer _
 )
+```
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+```csharp
+[ConstructorIndexAttribute()]
 public LogPartsUsedExchangeSetup( 
    string _partRequestDetailIDNum_,
-   [int](#) _removeSitePartObjid_,
+   int _removeSitePartObjid_,
    string _installPartNumber_,
    string _installPartRevision_,
    string _installPartDomain_,
-   [int](#) _installQuantity_
+   int _installQuantity_
 )
+```
 
 #### Parameters
 
@@ -72,11 +68,7 @@ _installQuantity_
 
 The Quantity of the part being installed
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

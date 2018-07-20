@@ -1,8 +1,4 @@
-﻿     ChangeOpportunityStageSetup Constructor                                                   
-
-fcSDK Documentation
-
-ChangeOpportunityStageSetup Constructor
+﻿### ChangeOpportunityStageSetup Constructor
 
 Opportunity Identifier.
 
@@ -13,18 +9,15 @@ Initializes a new instance of the ChangeOpportunityStageSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _opportunityIDNum_ As String, _
    ByVal _stage_ As [OpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.OpportunityStage.md) _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public ChangeOpportunityStageSetup( 
    string _opportunityIDNum_,
    [OpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.OpportunityStage.md) _stage_
@@ -40,11 +33,9 @@ _stage_
 
 The new sales stage for the Opportunity.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

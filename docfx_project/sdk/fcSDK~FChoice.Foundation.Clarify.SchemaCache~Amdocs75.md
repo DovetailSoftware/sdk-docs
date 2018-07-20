@@ -1,26 +1,17 @@
-﻿     Amdocs75 Field                                                   
-
-fcSDK Documentation
-
-Amdocs75 Field
+﻿### Amdocs75 Field
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Const Amdocs75 As Integer
 
-Public Const Amdocs75 As [Integer](#)
+public const int Amdocs75
 
-public const [int](#) Amdocs75
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

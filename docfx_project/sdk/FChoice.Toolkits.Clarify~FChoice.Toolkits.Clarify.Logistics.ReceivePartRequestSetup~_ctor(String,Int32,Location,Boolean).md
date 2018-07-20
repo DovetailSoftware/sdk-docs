@@ -1,8 +1,4 @@
-﻿     ReceivePartRequestSetup Constructor(String,Int32,Location,Boolean)                                                   
-
-fcSDK Documentation
-
-ReceivePartRequestSetup Constructor(String,Int32,Location,Boolean)
+﻿### ReceivePartRequestSetup Constructor(String,Int32,Location,Boolean)
 
 Part Request Detail Identifier
 
@@ -17,23 +13,20 @@ Initializes a new instance of the ReceivePartRequestSetup class. This overload t
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
-   ByVal _quantity_ As [Integer](#), _
+   ByVal _quantity_ As Integer, _
    ByVal _toLocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
    ByVal _useTransitions_ As Boolean _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public ReceivePartRequestSetup( 
    string _partRequestDetailIDNum_,
-   [int](#) _quantity_,
+   int _quantity_,
    [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _toLocation_,
    bool _useTransitions_
 )
@@ -56,11 +49,9 @@ _useTransitions_
 
 Specifies whether or not to change the Part Request condition
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

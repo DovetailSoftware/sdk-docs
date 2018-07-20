@@ -1,8 +1,4 @@
-﻿     CreateGeneric Method (ClarifyDataSet)                                                   
-
-fcSDK Documentation
-
-CreateGeneric Method (ClarifyDataSet)
+﻿### CreateGeneric Method (ClarifyDataSet)
 
 Creates a new [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) based on the specified table or view name
 
@@ -15,11 +11,9 @@ Overload List
 | [CreateGeneric(String)](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet~CreateGeneric(String).md) | Creates a new [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) based on the specified table or view name   |
 | [CreateGeneric(Int32,String,String)](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet~CreateGeneric(Int32,String,String).md) | Creates a new [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md), traversing from a specified root object type and objid using the specified relation   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

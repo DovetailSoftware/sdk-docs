@@ -1,16 +1,9 @@
-﻿     GetMtmTableName Method (IClarifyApplication)                                                   
-
-fcSDK Documentation
-
-GetMtmTableName Method (IClarifyApplication)
+﻿### GetMtmTableName Method (IClarifyApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Function GetMtmTableName( _
    ByVal _relation_ As [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md) _
@@ -24,11 +17,9 @@ string GetMtmTableName(
 
 _relation_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

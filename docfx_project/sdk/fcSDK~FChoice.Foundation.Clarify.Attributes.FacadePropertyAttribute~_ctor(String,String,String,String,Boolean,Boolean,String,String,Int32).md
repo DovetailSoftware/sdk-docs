@@ -1,17 +1,10 @@
-﻿     FacadePropertyAttribute Constructor(String,String,String,String,Boolean,Boolean,String,String,Int32)                                                   
-
-fcSDK Documentation
-
-FacadePropertyAttribute Constructor(String,String,String,String,Boolean,Boolean,String,String,Int32)
+﻿### FacadePropertyAttribute Constructor(String,String,String,String,Boolean,Boolean,String,String,Int32)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Function New( _
    ByVal _propertyName_ As String, _
    ByVal _propertyType_ As String, _
@@ -21,9 +14,11 @@ Public Function New( _
    ByVal _isParamArray_ As Boolean, _
    ByVal _methodName_ As String, _
    ByVal _indexes_ As String, _
-   ByVal _checkIsNullErrorNumber_ As [Integer](#) _
+   ByVal _checkIsNullErrorNumber_ As Integer _
 )
+```
 
+```csharp
 public FacadePropertyAttribute( 
    string _propertyName_,
    string _propertyType_,
@@ -33,8 +28,9 @@ public FacadePropertyAttribute(
    bool _isParamArray_,
    string _methodName_,
    string _indexes_,
-   [int](#) _checkIsNullErrorNumber_
+   int _checkIsNullErrorNumber_
 )
+```
 
 #### Parameters
 
@@ -56,11 +52,7 @@ _indexes_
 
 _checkIsNullErrorNumber_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

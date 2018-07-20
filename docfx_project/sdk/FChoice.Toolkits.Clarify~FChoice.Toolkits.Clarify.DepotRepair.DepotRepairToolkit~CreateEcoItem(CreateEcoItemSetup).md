@@ -1,8 +1,4 @@
-﻿     CreateEcoItem(CreateEcoItemSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateEcoItem(CreateEcoItemSetup) Method
+﻿### CreateEcoItem(CreateEcoItemSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Create an Engineering Change Order (ECO) Item. This overload takes a setup objec
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateEcoItem( _
    ByVal _setupParam_ As [CreateEcoItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoItemSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The objid of the ECO item created is returned in the object property ret_objid.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

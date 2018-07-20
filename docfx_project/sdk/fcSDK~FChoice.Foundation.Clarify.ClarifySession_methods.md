@@ -30,9 +30,9 @@ Converts a DateTime from the [server timezone](fcSDK~FChoice.Foundation.Clarify
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SetContactUserPassword](fcSDK~FChoice.Foundation.Clarify.ClarifySession~SetContactUserPassword.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [SetPassword](fcSDK~FChoice.Foundation.FCSession~SetPassword.md) | Change a user's password (Inherited from [FChoice.Foundation.FCSession](fcSDK~FChoice.Foundation.FCSession.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

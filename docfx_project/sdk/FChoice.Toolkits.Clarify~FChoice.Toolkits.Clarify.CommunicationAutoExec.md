@@ -1,21 +1,17 @@
-﻿     CommunicationAutoExec Enumeration                                                     
-
-fcSDK Documentation
-
-CommunicationAutoExec Enumeration
+﻿### CommunicationAutoExec Enumeration
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Enum CommunicationAutoExec 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
+```
 
-public enum CommunicationAutoExec : [System.Enum](#) 
+```csharp
+public enum CommunicationAutoExec : System.Enum 
+```
 
 Members
 
@@ -26,9 +22,9 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Toolkits.Clarify.CommunicationAutoExec**  
 
 #### Requirements
@@ -39,7 +35,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

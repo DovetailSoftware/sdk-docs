@@ -1,32 +1,25 @@
-﻿     IsStateExpired Method (RemoteStateManager)                                                   
-
-IsStateExpired Method (RemoteStateManager)
+﻿### IsStateExpired Method (RemoteStateManager)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public MustOverride Function IsStateExpired( _
-   ByVal _id_ As [Guid](#) _
+   ByVal _id_ As Guid _
 ) As Boolean
+```
 
+```csharp
 public abstract bool IsStateExpired( 
-   [Guid](#) _id_
+   Guid _id_
 )
+```
 
 #### Parameters
 
 _id_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

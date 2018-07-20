@@ -1,8 +1,4 @@
-﻿     SupportToolkitBase Class Members                                                   
-
-fcSDK Documentation
-
-SupportToolkitBase Class Members
+﻿### SupportToolkitBase Class Members
 
 The following tables list the members exposed by [SupportToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ImpersonatorUsername](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase~ImpersonatorUsername.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseDenormalizedCaseTypeLevels](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase~UseDenormalizedCaseTypeLevels.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

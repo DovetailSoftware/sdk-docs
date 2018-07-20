@@ -1,8 +1,4 @@
-﻿     GetDefaultState Method (ILocaleCache)                                                   
-
-fcSDK Documentation
-
-GetDefaultState Method (ILocaleCache)
+﻿### GetDefaultState Method (ILocaleCache)
 
 Overload List
 
@@ -11,11 +7,9 @@ Overload List
 | [GetDefaultState()](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~GetDefaultState().md) |   |
 | [GetDefaultState(String)](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~GetDefaultState(String).md) |   |
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

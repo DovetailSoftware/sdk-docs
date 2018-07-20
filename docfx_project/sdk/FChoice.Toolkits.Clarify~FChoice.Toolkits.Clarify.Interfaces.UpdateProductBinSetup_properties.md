@@ -1,8 +1,4 @@
-﻿     UpdateProductBinSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateProductBinSetup Class Properties
+﻿### UpdateProductBinSetup Class Properties
 
 For a list of all members of this type, see [UpdateProductBinSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateProductBinSetup_members.md).
 
@@ -21,9 +17,9 @@ Objid of the Bin to be updated
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateProductBinSetup~UpdateDate.md) | Date when the Bin was updated   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateProductBinSetup~UserName.md) | User creating the bin. If not set, the default is the session user.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     UpdateSitePartSetup Constructor(Int32,String)                                                   
-
-fcSDK Documentation
-
-UpdateSitePartSetup Constructor(Int32,String)
+﻿### UpdateSitePartSetup Constructor(Int32,String)
 
 Objid of the Site Part to be updated
 
@@ -13,20 +9,17 @@ Initializes a new instance of the UpdateSitePartSetup class. This overload takes
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _sitePartObjid_ As [Integer](#), _
+   ByVal _sitePartObjid_ As Integer, _
    ByVal _serialNumber_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public UpdateSitePartSetup( 
-   [int](#) _sitePartObjid_,
+   int _sitePartObjid_,
    string _serialNumber_
 )
 
@@ -40,11 +33,9 @@ _serialNumber_
 
 Serial number of the Site Part
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     SchemaViewFieldInfo Class Members                                                   
-
-fcSDK Documentation
-
-SchemaViewFieldInfo Class Members
+﻿### SchemaViewFieldInfo Class Members
 
 The following tables list the members exposed by [SchemaViewFieldInfo](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfo.md).
 
@@ -23,7 +19,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ViewField](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfo~ViewField.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ViewID](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfo~ViewID.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -36,9 +32,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeInt32FieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeInt32FieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [GetSafeStringFieldValue](fcSDK~FChoice.Foundation.DataObjects.DataObject~GetSafeStringFieldValue.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

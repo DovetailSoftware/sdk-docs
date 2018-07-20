@@ -1,8 +1,4 @@
-﻿     UpdatePartSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdatePartSetup Class Members
+﻿### UpdatePartSetup Class Members
 
 The following tables list the members exposed by [UpdatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdatePartSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartSetup~_ctor.md) | Initializes a new instance of the UpdatePartSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -38,9 +34,9 @@ Part number for the part to update
 | ![Public Property](dotnetimages/publicProperty.png) | [WarrantyStartOnShipment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartSetup~WarrantyStartOnShipment.md) | Does the warranty start on shipment?   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Weight](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartSetup~Weight.md) | Unit weight of the part   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

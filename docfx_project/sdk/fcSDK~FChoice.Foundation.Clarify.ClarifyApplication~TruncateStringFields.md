@@ -1,18 +1,11 @@
-﻿     TruncateStringFields Property (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-TruncateStringFields Property (ClarifyApplication)
+﻿### TruncateStringFields Property (ClarifyApplication)
 
 Gets or sets whether or not to truncate string values if they are too large for the field or throw an error
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property TruncateStringFields As Boolean
 
@@ -30,11 +23,9 @@ This is an inheritable property. New sessions created will inherit the value of 
 
 Changes made to this property will not be reflected in already existing sessions.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

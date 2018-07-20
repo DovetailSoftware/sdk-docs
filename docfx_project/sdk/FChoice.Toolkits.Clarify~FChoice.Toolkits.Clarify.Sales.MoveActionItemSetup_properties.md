@@ -1,8 +1,4 @@
-﻿     MoveActionItemSetup Class Properties                                                   
-
-fcSDK Documentation
-
-MoveActionItemSetup Class Properties
+﻿### MoveActionItemSetup Class Properties
 
 For a list of all members of this type, see [MoveActionItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveActionItemSetup_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ActionItemIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveActionItemSetup~ActionItemIDNum.md) | ActionItem Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [NewWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveActionItemSetup~NewWipBin.md) | The new WipBin into which the ActionItem is to be moved.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

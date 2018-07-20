@@ -1,8 +1,4 @@
-﻿     MoveSitePartToSiteSetup Constructor                                                   
-
-fcSDK Documentation
-
-MoveSitePartToSiteSetup Constructor
+﻿### MoveSitePartToSiteSetup Constructor
 
 Objid of the Site Part to be moved
 
@@ -13,20 +9,17 @@ Initializes a new instance of the MoveSitePartToSiteSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _sitePartObjid_ As [Integer](#), _
+   ByVal _sitePartObjid_ As Integer, _
    ByVal _parentSiteIDNum_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public MoveSitePartToSiteSetup( 
-   [int](#) _sitePartObjid_,
+   int _sitePartObjid_,
    string _parentSiteIDNum_
 )
 
@@ -40,11 +33,9 @@ _parentSiteIDNum_
 
 Identifier of the parent Site the Site Part is being moved under
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,26 +1,22 @@
-﻿     ChangeUserConfigItem(String,Int32) Method                                                   
-
-fcSDK Documentation
-
-ChangeUserConfigItem(String,Int32) Method
+﻿### ChangeUserConfigItem(String,Int32) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Sub ChangeUserConfigItem( _
    ByVal _configItemName_ As String, _
-   ByVal _newValue_ As [Integer](#) _
+   ByVal _newValue_ As Integer _
 ) 
+```
 
+```csharp
 public void ChangeUserConfigItem( 
    string _configItemName_,
-   [int](#) _newValue_
+   int _newValue_
 )
+```
 
 #### Parameters
 
@@ -28,11 +24,7 @@ _configItemName_
 
 _newValue_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

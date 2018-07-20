@@ -1,8 +1,4 @@
-﻿     InitialResponseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-InitialResponseSetup Class Properties
+﻿### InitialResponseSetup Class Properties
 
 For a list of all members of this type, see [InitialResponseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.InitialResponseSetup_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ResponseDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.InitialResponseSetup~ResponseDate.md) | DateTime the response was made. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.InitialResponseSetup~UserName.md) | The User who made the response. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

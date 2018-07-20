@@ -1,8 +1,4 @@
-﻿     GlobalStringElementCollection Class Properties                                                   
-
-fcSDK Documentation
-
-GlobalStringElementCollection Class Properties
+﻿### GlobalStringElementCollection Class Properties
 
 For a list of all members of this type, see [GlobalStringElementCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringElementCollection_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [InactiveElements](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringElementCollection~InactiveElements.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringElementCollection~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

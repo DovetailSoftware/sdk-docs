@@ -1,16 +1,9 @@
-﻿     ParameterDefaultValueAttribute Class                                                   
-
-fcSDK Documentation
-
-ParameterDefaultValueAttribute Class
+﻿### ParameterDefaultValueAttribute Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Parameter, 
    AllowMultiple=True, 
@@ -25,7 +18,7 @@ public class ParameterDefaultValueAttribute : [System.Attribute](#)
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Attribute](#)  
       **FChoice.Foundation.Clarify.Attributes.ParameterDefaultValueAttribute**  
 
@@ -37,7 +30,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

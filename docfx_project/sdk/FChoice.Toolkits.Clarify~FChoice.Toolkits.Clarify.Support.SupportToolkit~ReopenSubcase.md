@@ -1,8 +1,4 @@
-﻿     ReopenSubcase Method                                                   
-
-fcSDK Documentation
-
-ReopenSubcase Method
+﻿### ReopenSubcase Method
 
 Reopens the specified Subcase. This overload takes a set of required parameters for the API.
 
@@ -22,11 +18,9 @@ The [User](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubca
 
 If the [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup~WipBin.md) is not specified the Subcase is placed in the user's default WipBin.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

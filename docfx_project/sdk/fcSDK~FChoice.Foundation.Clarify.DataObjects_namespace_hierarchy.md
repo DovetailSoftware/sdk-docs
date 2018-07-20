@@ -6,7 +6,7 @@ FChoice.Foundation.Clarify.DataObjects Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  
       [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)  
          [FChoice.Foundation.Clarify.DataObjects.Country](fcSDK~FChoice.Foundation.Clarify.DataObjects.Country.md)  
@@ -45,7 +45,7 @@ Inheritance Hierarchy
          [FChoice.Foundation.DataObjects.ConfigItemCollection](fcSDK~FChoice.Foundation.DataObjects.ConfigItemCollection.md)  
             [FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md)  
 
-See Also
+
 
 #### Reference
 

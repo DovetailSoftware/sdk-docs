@@ -1,8 +1,4 @@
-﻿     AddLocationServicingSiteSetup Class Members                                                   
-
-fcSDK Documentation
-
-AddLocationServicingSiteSetup Class Members
+﻿### AddLocationServicingSiteSetup Class Members
 
 The following tables list the members exposed by [AddLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddLocationServicingSiteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup~_ctor.md) | Initializes a new instance of the AddLocationServicingSiteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -26,9 +22,9 @@ The identifier of the Site that the inventory location is servicing
 
   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LogPartsUsedConsumeSetup Constructor(String,String,String,String,String)                                                   
-
-fcSDK Documentation
-
-LogPartsUsedConsumeSetup Constructor(String,String,String,String,String)
+﻿### LogPartsUsedConsumeSetup Constructor(String,String,String,String,String)
 
 The Id Number of the related Part Request Detail (if any)
 
@@ -19,12 +15,9 @@ Initializes a new instance of the LogPartsUsedConsumeSetup class. This overload 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _installPartNumber_ As String, _
@@ -33,7 +26,7 @@ Public Function New( _
    ByVal _installSerialNumber_ As String _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public LogPartsUsedConsumeSetup( 
    string _partRequestDetailIDNum_,
    string _installPartNumber_,
@@ -64,11 +57,9 @@ _installSerialNumber_
 
 The Serial Number of the part being installed
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

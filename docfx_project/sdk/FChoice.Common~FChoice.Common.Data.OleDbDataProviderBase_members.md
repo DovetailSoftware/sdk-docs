@@ -1,6 +1,4 @@
-﻿     OleDbDataProviderBase Class Members                                                   
-
-OleDbDataProviderBase Class Members
+﻿### OleDbDataProviderBase Class Members
 
 The following tables list the members exposed by [OleDbDataProviderBase](FChoice.Common~FChoice.Common.Data.OleDbDataProviderBase.md).
 
@@ -15,7 +13,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RequiresDbNameParameter](FChoice.Common~FChoice.Common.Data.DbProvider~RequiresDbNameParameter.md) | Gets whether or not this provider requires the "dbname" argument for the [CreateConnectionString Method](FChoice.Common~FChoice.Common.Data.DbProvider~CreateConnectionString.md) (Inherited from [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.DbProvider~TypeMapper.md) | This property is intended for future use and is not currently used. (Inherited from [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -40,9 +38,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [TestConnection](FChoice.Common~FChoice.Common.Data.DbProvider~TestConnection.md) | Overloaded.  (Inherited from [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateConnectionParams](FChoice.Common~FChoice.Common.Data.OleDbDataProviderBase~ValidateConnectionParams.md) | Overridden.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     RestrictionClause Class Members                                                   
-
-fcSDK Documentation
-
-RestrictionClause Class Members
+﻿### RestrictionClause Class Members
 
 The following tables list the members exposed by [RestrictionClause](fcSDK~FChoice.Foundation.Clarify.Schema.RestrictionClause.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [RestrictionClause Constructor](fcSDK~FChoice.Foundation.Clarify.Schema.RestrictionClause~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -22,9 +18,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [FieldName](fcSDK~FChoice.Foundation.Clarify.Schema.RestrictionClause~FieldName.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TableName](fcSDK~FChoice.Foundation.Clarify.Schema.RestrictionClause~TableName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

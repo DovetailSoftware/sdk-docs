@@ -1,23 +1,15 @@
-﻿     RepairPartDisposition Enumeration                                                      
-
-fcSDK Documentation
-
-RepairPartDisposition Enumeration
+﻿### RepairPartDisposition Enumeration
 
 What to do with the repair part when the repair is completed.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Enum RepairPartDisposition 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
 
-public enum RepairPartDisposition : [System.Enum](#) 
+public enum RepairPartDisposition : System.Enum 
 
 Members
 
@@ -29,9 +21,9 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Toolkits.Clarify.RepairPartDisposition**  
 
 #### Requirements
@@ -42,7 +34,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

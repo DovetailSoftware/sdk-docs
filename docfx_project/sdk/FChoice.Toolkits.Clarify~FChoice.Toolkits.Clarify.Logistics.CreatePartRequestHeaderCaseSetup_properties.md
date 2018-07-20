@@ -1,8 +1,4 @@
-﻿     CreatePartRequestHeaderCaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreatePartRequestHeaderCaseSetup Class Properties
+﻿### CreatePartRequestHeaderCaseSetup Class Properties
 
 For a list of all members of this type, see [CreatePartRequestHeaderCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup_members.md).
 
@@ -26,9 +22,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ShipToSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup~ShipToSiteIDNum.md) | Identifier of the Site where this Part Request is being shipped   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup~UserName.md) | The user who is creating the Part Request. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

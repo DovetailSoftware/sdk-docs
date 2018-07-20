@@ -1,8 +1,4 @@
-﻿     CreateEcoHeader(DateTime,DateTime) Method                                                   
-
-fcSDK Documentation
-
-CreateEcoHeader(DateTime,DateTime) Method
+﻿### CreateEcoHeader(DateTime,DateTime) Method
 
 The DateTime the ECO header goes into effect. If not set, the current time is used.
 
@@ -13,19 +9,16 @@ Create an Engineering Change Order (ECO) Header. This overload takes a set of re
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateEcoHeader( _
-   ByVal _startDate_ As [Date](#), _
-   ByVal _endDate_ As [Date](#) _
+   ByVal _startDate_ As Date, _
+   ByVal _endDate_ As Date _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateEcoHeader( 
-   [DateTime](#) _startDate_,
-   [DateTime](#) _endDate_
+   DateTime _startDate_,
+   DateTime _endDate_
 )
 
 #### Parameters
@@ -42,11 +35,9 @@ The DateTime the ECO header becomes obsolete. If not set, the current time is u
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

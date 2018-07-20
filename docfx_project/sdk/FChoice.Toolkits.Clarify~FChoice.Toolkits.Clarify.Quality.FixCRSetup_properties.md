@@ -1,8 +1,4 @@
-﻿     FixCRSetup Class Properties                                                   
-
-fcSDK Documentation
-
-FixCRSetup Class Properties
+﻿### FixCRSetup Class Properties
 
 For a list of all members of this type, see [FixCRSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup_members.md).
 
@@ -18,9 +14,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup~Status.md) | The new status for the Change Request. If not set, the default status is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup~UserName.md) | The user fixing the CR. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

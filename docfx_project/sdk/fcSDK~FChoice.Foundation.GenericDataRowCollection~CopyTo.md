@@ -1,8 +1,4 @@
-﻿     CopyTo Method (GenericDataRowCollection)                                                   
-
-fcSDK Documentation
-
-CopyTo Method (GenericDataRowCollection)
+﻿### CopyTo Method (GenericDataRowCollection)
 
 The one-dimensional [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatainternaldatacollectionbaseclasscopytotopic.htm) to copy the current object's elements into.
 
@@ -13,19 +9,15 @@ Copies all the elements of the current GenericDataRowCollection to a one-dimensi
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Sub CopyTo( _
-   ByVal _array_ As [Array](#), _
-   ByVal _index_ As [Integer](#) _
+   ByVal _array_ As Array, _
+   ByVal _index_ As Integer _
 ) 
 
 public void CopyTo( 
-   [Array](#) _array_,
-   [int](#) _index_
+   Array _array_,
+   int _index_
 )
 
 #### Parameters
@@ -42,11 +34,9 @@ Remarks
 
 The implementation of CopyTo is delegated to DataRowCollection's [CopyTo](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatainternaldatacollectionbaseclasscopytotopic.htm)
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

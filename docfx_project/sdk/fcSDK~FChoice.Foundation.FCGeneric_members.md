@@ -10,7 +10,7 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [MIN_DATE](fcSDK~FChoice.Foundation.FCGeneric~MIN_DATE.md) | Minimum possible date that is allowed to be entered for a date field.   |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [NOW_DATE](fcSDK~FChoice.Foundation.FCGeneric~NOW_DATE.md) | When date fields are set to this value the current server datetime will be entered instead.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -45,7 +45,7 @@ Sets an optional WHERE clause constraint. (**WARNING:** See remarks for potentia
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](fcSDK~FChoice.Foundation.FCGeneric~SyncRoot.md) | Gets an object that can be used to synchronize access to the **FCGeneric**.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TableName](fcSDK~FChoice.Foundation.FCGeneric~TableName.md) | Returns the name of the database table this FCGeneric is based on.   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -67,7 +67,7 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) | Overloaded. Updates changes to a single [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)   |
 | ![Public Method](dotnetimages/publicMethod.png) | [UpdateAll](fcSDK~FChoice.Foundation.FCGeneric~UpdateAll.md) | Overloaded. Updates all modified rows of the **FCGeneric**.   |
 
-[Top](#top)
+
 
 Public Events
 
@@ -75,9 +75,9 @@ Public Events
 | --- | --- | --- |
 | ![Public Event](dotnetimages/publicEvent.png) | [MaximumRowsExceeded](fcSDK~FChoice.Foundation.FCGeneric~MaximumRowsExceeded_EV.md) | This event is fired when the [MaximumRows](fcSDK~FChoice.Foundation.FCGeneric~MaximumRows.md) property is set and a [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) operation has returned too many rows.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

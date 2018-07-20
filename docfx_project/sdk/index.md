@@ -1,2 +1,1 @@
-# COM Compatibility API Reference
-
+# API Reference

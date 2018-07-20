@@ -1,16 +1,9 @@
-﻿     AutoDest Method (FCSession)                                                   
-
-fcSDK Documentation
-
-AutoDest Method (FCSession)
+﻿### AutoDest Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function AutoDest( _
    ByVal _the_object_ As String, _
@@ -32,11 +25,9 @@ _operation_
 
 _idNumber_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

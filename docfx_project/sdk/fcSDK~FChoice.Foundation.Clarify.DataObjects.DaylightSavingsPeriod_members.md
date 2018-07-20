@@ -1,8 +1,4 @@
-﻿     DaylightSavingsPeriod Class Members                                                   
-
-fcSDK Documentation
-
-DaylightSavingsPeriod Class Members
+﻿### DaylightSavingsPeriod Class Members
 
 The following tables list the members exposed by [DaylightSavingsPeriod](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod.md).
 
@@ -17,7 +13,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StartDate](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod~StartDate.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -32,9 +28,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Intersects](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod~Intersects.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [IsDateInRange](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod~IsDateInRange.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

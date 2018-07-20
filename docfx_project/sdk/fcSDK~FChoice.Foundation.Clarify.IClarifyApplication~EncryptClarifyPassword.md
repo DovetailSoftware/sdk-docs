@@ -1,17 +1,9 @@
-﻿     EncryptClarifyPassword Method (IClarifyApplication)                                                   
-
-fcSDK Documentation
-
-EncryptClarifyPassword Method (IClarifyApplication)
+﻿### EncryptClarifyPassword Method (IClarifyApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Function EncryptClarifyPassword( _
    ByVal _password_ As String _
 ) As String
@@ -24,11 +16,9 @@ string EncryptClarifyPassword(
 
 _password_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

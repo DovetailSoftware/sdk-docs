@@ -1,8 +1,4 @@
-﻿     PartTransferSetup Class Properties                                                   
-
-fcSDK Documentation
-
-PartTransferSetup Class Properties
+﻿### PartTransferSetup Class Properties
 
 For a list of all members of this type, see [PartTransferSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup_members.md).
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TransferDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup~TransferDate.md) | The DateTime the Parts are transferred. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup~UserName.md) | The user who is transferring the Part. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

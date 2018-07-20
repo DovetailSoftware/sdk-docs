@@ -1,8 +1,4 @@
-﻿     OpenContainerSetup Class Properties                                                   
-
-fcSDK Documentation
-
-OpenContainerSetup Class Properties
+﻿### OpenContainerSetup Class Properties
 
 For a list of all members of this type, see [OpenContainerSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.OpenContainerSetup_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ContainerName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.OpenContainerSetup~ContainerName.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

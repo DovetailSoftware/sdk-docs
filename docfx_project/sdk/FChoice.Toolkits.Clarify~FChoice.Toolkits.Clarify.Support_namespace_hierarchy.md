@@ -6,7 +6,7 @@ FChoice.Toolkits.Clarify.Support Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.Support.AcceptCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptCaseSetup.md)  
    [FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup.md)  
    [FChoice.Toolkits.Clarify.Support.AssignCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AssignCaseSetup.md)  
@@ -80,7 +80,7 @@ Inheritance Hierarchy
       [FChoice.Toolkits.Clarify.Support.LogSubcasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneResult.md)  
       [FChoice.Toolkits.Clarify.Support.LogSubcaseResearchResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchResult.md)  
 
-See Also
+
 
 #### Reference
 

@@ -1,16 +1,9 @@
-﻿     build_mtm_name Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-build_mtm_name Method (FCApplication)
+﻿### build_mtm_name Method (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function build_mtm_name( _
    ByVal _tableName_ As String, _
@@ -32,11 +25,9 @@ _relationName_
 
 _inverseRelationName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

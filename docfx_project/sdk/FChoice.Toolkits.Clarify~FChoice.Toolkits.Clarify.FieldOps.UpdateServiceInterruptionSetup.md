@@ -1,26 +1,18 @@
-﻿     UpdateServiceInterruptionSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateServiceInterruptionSetup Class
+﻿### UpdateServiceInterruptionSetup Class
 
 Used by the [UpdateServiceInterruption](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~UpdateServiceInterruption(UpdateServiceInterruptionSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateServiceInterruptionSetup 
 
 public class UpdateServiceInterruptionSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.UpdateServiceInterruptionSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

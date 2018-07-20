@@ -1,18 +1,11 @@
-﻿     CreateExpenseLog(CreateExpenseLogSetup) Method                                                   
-
-fcSDK Documentation
-
-CreateExpenseLog(CreateExpenseLogSetup) Method
+﻿### CreateExpenseLog(CreateExpenseLogSetup) Method
 
 Setup object for API invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateExpenseLog( _
    ByVal _setupParam_ As [CreateExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup.md) _
@@ -35,11 +28,9 @@ The following values are populated in the [CreateExpenseLogResult](FChoice.Toolk
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult~Objid.md) \- The Objid of the ExpenseLog.
 *   [OnsiteLogObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult~OnsiteLogObjid.md) \- The Objid of the OnsiteLog.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

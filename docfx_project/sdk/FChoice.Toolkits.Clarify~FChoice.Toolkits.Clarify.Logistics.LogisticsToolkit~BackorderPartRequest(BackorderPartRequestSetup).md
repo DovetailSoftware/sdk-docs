@@ -1,8 +1,4 @@
-﻿     BackorderPartRequest(BackorderPartRequestSetup) Method                                                   
-
-fcSDK Documentation
-
-BackorderPartRequest(BackorderPartRequestSetup) Method
+﻿### BackorderPartRequest(BackorderPartRequestSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Allows for the backordering of inventory parts for a part request. This overload
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function BackorderPartRequest( _
    ByVal _setupParam_ As [BackorderPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup.md) _
@@ -48,11 +41,9 @@ To allow for multiple calls to this API to be performed without extra complex t
 
 **NOTE**: This API requires two other APIs ([PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.md) and [CreatePartRequestDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail.md)) to work correctly.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

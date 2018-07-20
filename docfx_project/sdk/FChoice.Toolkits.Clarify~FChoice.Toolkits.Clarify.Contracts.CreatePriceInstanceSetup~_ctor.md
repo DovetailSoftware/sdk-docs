@@ -1,8 +1,4 @@
-﻿     CreatePriceInstanceSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreatePriceInstanceSetup Constructor
+﻿### CreatePriceInstanceSetup Constructor
 
 The nuber of the part for the Price Instance.
 
@@ -23,12 +19,9 @@ Initializes a new instance of the CreatePriceInstanceSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
@@ -36,10 +29,10 @@ Public Function New( _
    ByVal _supportProgram_ As String, _
    ByVal _priceProgram_ As String, _
    ByVal _priceType_ As [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md), _
-   ByVal _quantity_ As [Integer](#) _
+   ByVal _quantity_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreatePriceInstanceSetup( 
    string _partNumber_,
    string _partRevision_,
@@ -47,7 +40,7 @@ public CreatePriceInstanceSetup(
    string _supportProgram_,
    string _priceProgram_,
    [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md) _priceType_,
-   [int](#) _quantity_
+   int _quantity_
 )
 
 #### Parameters
@@ -80,11 +73,9 @@ _quantity_
 
 The quantity of the part for the Price Instance. If not set, it will default to a zero price quantity.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

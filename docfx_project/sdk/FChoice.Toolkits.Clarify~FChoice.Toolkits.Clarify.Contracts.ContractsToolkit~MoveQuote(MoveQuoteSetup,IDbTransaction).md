@@ -1,8 +1,4 @@
-﻿     MoveQuote(MoveQuoteSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-MoveQuote(MoveQuoteSetup,IDbTransaction) Method
+﻿### MoveQuote(MoveQuoteSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Move the Quote from one WipBin to another WipBin. This overload takes a setup ob
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function MoveQuote( _
    ByVal _setupParam_ As [MoveQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.MoveQuoteSetup.md), _
@@ -52,11 +45,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

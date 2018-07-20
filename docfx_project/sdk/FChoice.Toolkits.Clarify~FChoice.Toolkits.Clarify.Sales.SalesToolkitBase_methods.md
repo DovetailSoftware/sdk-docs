@@ -1,8 +1,4 @@
-﻿     SalesToolkitBase Class Methods                                                   
-
-fcSDK Documentation
-
-SalesToolkitBase Class Methods
+﻿### SalesToolkitBase Class Methods
 
 For a list of all members of this type, see [SalesToolkitBase members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase_members.md).
 
@@ -12,9 +8,9 @@ Public Methods
 | --- | --- | --- |
 | ![Public Method](dotnetimages/publicMethod.png) | [ChangeOpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase~ChangeOpportunityStage.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

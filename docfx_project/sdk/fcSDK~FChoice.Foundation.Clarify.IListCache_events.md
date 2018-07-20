@@ -1,8 +1,4 @@
-﻿     IListCache Interface Events                                                   
-
-fcSDK Documentation
-
-IListCache Interface Events
+﻿### IListCache Interface Events
 
 For a list of all members of this type, see [IListCache members](fcSDK~FChoice.Foundation.Clarify.IListCache_members.md).
 
@@ -12,9 +8,9 @@ Public Events
 | --- | --- | --- |
 | ![ Event](dotnetimages/Event.png) | [CacheUpdated](fcSDK~FChoice.Foundation.Clarify.IListCache~CacheUpdated_EV.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

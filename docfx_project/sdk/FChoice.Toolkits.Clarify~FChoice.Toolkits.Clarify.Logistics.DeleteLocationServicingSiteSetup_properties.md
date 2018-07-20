@@ -1,8 +1,4 @@
-﻿     DeleteLocationServicingSiteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-DeleteLocationServicingSiteSetup Class Properties
+﻿### DeleteLocationServicingSiteSetup Class Properties
 
 For a list of all members of this type, see [DeleteLocationServicingSiteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteLocationServicingSiteSetup_members.md).
 
@@ -20,9 +16,9 @@ Identifier of the Site that the inventory location was servicing
 
   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

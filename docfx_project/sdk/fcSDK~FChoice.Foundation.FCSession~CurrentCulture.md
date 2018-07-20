@@ -1,32 +1,23 @@
-﻿     CurrentCulture Property (FCSession)                                                   
-
-fcSDK Documentation
-
-CurrentCulture Property (FCSession)
+﻿### CurrentCulture Property (FCSession)
 
 Returns the [Culture](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cpconcultureinfo.htm) being used by the session.
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Property CurrentCulture As CultureInfo
 
-Public Property CurrentCulture As [CultureInfo](#)
-
-public [CultureInfo](#) CurrentCulture {get; set;}
+public CultureInfo CurrentCulture {get; set;}
 
 #### Property Value
 
 Returns the [Culture](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cpconcultureinfo.htm) being used by the session.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     AndManyFilter Class Members                                                   
-
-fcSDK Documentation
-
-AndManyFilter Class Members
+﻿### AndManyFilter Class Members
 
 The following tables list the members exposed by [AndManyFilter](fcSDK~FChoice.Foundation.Filters.AndManyFilter.md).
 
@@ -12,7 +8,7 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [Filters](fcSDK~FChoice.Foundation.Filters.LogicalFilter~Filters.md) | Collection of Filters that belong to this logical grouping. (Inherited from [FChoice.Foundation.Filters.LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -22,9 +18,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Render](fcSDK~FChoice.Foundation.Filters.Filter~Render.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateFilter](fcSDK~FChoice.Foundation.Filters.Filter~ValidateFilter.md) | (Inherited from [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

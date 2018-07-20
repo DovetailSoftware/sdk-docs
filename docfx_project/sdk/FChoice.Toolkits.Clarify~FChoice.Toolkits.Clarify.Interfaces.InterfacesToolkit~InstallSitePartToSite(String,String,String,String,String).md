@@ -1,8 +1,4 @@
-﻿     InstallSitePartToSite(String,String,String,String,String) Method                                                   
-
-fcSDK Documentation
-
-InstallSitePartToSite(String,String,String,String,String) Method
+﻿### InstallSitePartToSite(String,String,String,String,String) Method
 
 Identifier of the Site where the part will be installed.
 
@@ -19,10 +15,7 @@ Install a Site Part under a Site. This overload takes a set of required paramete
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function InstallSitePartToSite( _
    ByVal _siteIDNum_ As String, _
@@ -68,11 +61,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the SitePart.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

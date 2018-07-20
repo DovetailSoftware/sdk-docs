@@ -1,26 +1,18 @@
-﻿     ChangeSubcaseStatusSetup Class                                                   
-
-fcSDK Documentation
-
-ChangeSubcaseStatusSetup Class
+﻿### ChangeSubcaseStatusSetup Class
 
 Used by the [ChangeSubcaseStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeSubcaseStatus(ChangeSubcaseStatusSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ChangeSubcaseStatusSetup 
 
 public class ChangeSubcaseStatusSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Support.ChangeSubcaseStatusSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

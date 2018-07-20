@@ -1,8 +1,4 @@
-﻿     YankOpportunity(YankOpportunitySetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-YankOpportunity(YankOpportunitySetup,IDbTransaction) Method
+﻿### YankOpportunity(YankOpportunitySetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Yank the Opportunity from its current location to a new owner's WipBin. This ove
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function YankOpportunity( _
    ByVal _setupParam_ As [YankOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankOpportunitySetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

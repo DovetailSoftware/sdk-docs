@@ -1,16 +1,11 @@
-﻿     CommandText Property (UpdateQueryBatch)                                                   
-
-CommandText Property (UpdateQueryBatch)
+﻿### CommandText Property (UpdateQueryBatch)
 
 Gets the current command text that will be executed when the [Execute Method](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~Execute.md) is called
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property CommandText As [StringBuilder](#)
 
@@ -24,11 +19,9 @@ Remarks
 
 Calls to the [AddStatement Method](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~AddStatement.md) will modify the value of this property. Statements cannot be removed or changed once they are added. The batch must be discarded and rebuilt in order to change any of the statements.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

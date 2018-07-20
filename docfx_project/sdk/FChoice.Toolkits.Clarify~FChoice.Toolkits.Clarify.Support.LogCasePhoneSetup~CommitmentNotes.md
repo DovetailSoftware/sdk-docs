@@ -1,18 +1,11 @@
-﻿     CommitmentNotes Property (LogCasePhoneSetup)                                                   
-
-fcSDK Documentation
-
-CommitmentNotes Property (LogCasePhoneSetup)
+﻿### CommitmentNotes Property (LogCasePhoneSetup)
 
 Notes for the commitment if one is being generated.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property CommitmentNotes As String
@@ -20,11 +13,9 @@ Public Property CommitmentNotes As String
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public string CommitmentNotes {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

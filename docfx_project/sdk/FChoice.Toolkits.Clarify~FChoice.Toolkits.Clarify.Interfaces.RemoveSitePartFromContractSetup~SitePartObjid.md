@@ -1,28 +1,20 @@
-﻿     SitePartObjid Property (RemoveSitePartFromContractSetup)                                                   
-
-fcSDK Documentation
-
-SitePartObjid Property (RemoveSitePartFromContractSetup)
+### SitePartObjid Property (RemoveSitePartFromContractSetup)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property SitePartObjid As [Integer](#)
+<PropertyBitValueAttribute()>
+Public Property SitePartObjid As Integer
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [int](#) SitePartObjid {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public int SitePartObjid {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

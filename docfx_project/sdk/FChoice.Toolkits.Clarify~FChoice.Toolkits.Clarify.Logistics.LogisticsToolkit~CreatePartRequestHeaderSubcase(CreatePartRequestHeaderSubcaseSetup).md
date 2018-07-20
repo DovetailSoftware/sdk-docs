@@ -1,8 +1,4 @@
-﻿     CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup) Method                                                   
-
-fcSDK Documentation
-
-CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup) Method
+﻿### CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreatePartRequestHeaderSubcase( _
    ByVal _setupParam_ As [CreatePartRequestHeaderSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md) _
@@ -45,11 +38,9 @@ Use this API to explicitly create part request headers for subcases (as opposed
 
 **NOTE**: The [ContractObjId](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup~ContractObjid.md) property on the [CreatePartRequestHeaderCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md) object should not be set (left as default) unless you need this functionality AND have installed the First Choice ClearCallCenter for ClearLogistics product and schema changes. If you do not have this product and wish to use this functionality, please contact First Choice Software.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

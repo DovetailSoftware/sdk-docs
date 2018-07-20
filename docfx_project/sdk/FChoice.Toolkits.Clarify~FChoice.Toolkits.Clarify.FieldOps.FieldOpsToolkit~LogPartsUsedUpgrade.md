@@ -1,8 +1,4 @@
-﻿     LogPartsUsedUpgrade Method                                                   
-
-fcSDK Documentation
-
-LogPartsUsedUpgrade Method
+﻿### LogPartsUsedUpgrade Method
 
 Used to upgrade an existing site part with a new site part. This overload takes a setup object and a database transaction.
 
@@ -33,11 +29,9 @@ For the site part being removed, the objid of the part to be removed must be sp
 
 When the log parts used action occurs, the API will change the condition of the part request (if one is listed in the arguments) to either the condition of: Part Used or Update Inv. If there are no inventory movements, the former condition will be used. If  either the install or remove part are moved to/from inventory, the condition will be set to Update Inv. In both cases, the API will set the status of the part request to the default status for the condition, and will validate the ClearLogistics transitions to make sure that the user who is logging the action can perform the state transition.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

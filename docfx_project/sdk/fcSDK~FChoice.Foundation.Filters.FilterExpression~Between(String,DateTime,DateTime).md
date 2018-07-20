@@ -1,27 +1,20 @@
-﻿     Between(String,DateTime,DateTime) Method                                                   
-
-fcSDK Documentation
-
-Between(String,DateTime,DateTime) Method
+﻿### Between(String,DateTime,DateTime) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function Between( _
    ByVal _columnName_ As String, _
-   ByVal _value1_ As [Date](#), _
-   ByVal _value2_ As [Date](#) _
+   ByVal _value1_ As Date, _
+   ByVal _value2_ As Date _
 ) As [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)
 
 public [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md) Between( 
    string _columnName_,
-   [DateTime](#) _value1_,
-   [DateTime](#) _value2_
+   DateTime _value1_,
+   DateTime _value2_
 )
 
 #### Parameters
@@ -32,11 +25,9 @@ _value1_
 
 _value2_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

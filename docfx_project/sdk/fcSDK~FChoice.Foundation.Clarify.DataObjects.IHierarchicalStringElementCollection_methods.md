@@ -1,8 +1,4 @@
-﻿     IHierarchicalStringElementCollection Interface Methods                                                   
-
-fcSDK Documentation
-
-IHierarchicalStringElementCollection Interface Methods
+﻿### IHierarchicalStringElementCollection Interface Methods
 
 For a list of all members of this type, see [IHierarchicalStringElementCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection_members.md).
 
@@ -35,9 +31,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [TrimExcess](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection~TrimExcess.md) |   |
 | ![ Method](dotnetimages/Method.png) | [TrueForAll](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection~TrueForAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

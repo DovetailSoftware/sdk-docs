@@ -1,16 +1,9 @@
-﻿     IGlobalStringElement Interface                                                   
-
-fcSDK Documentation
-
-IGlobalStringElement Interface
+﻿### IGlobalStringElement Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Interface IGlobalStringElement 
    Inherits [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
@@ -25,7 +18,7 @@ public interface IGlobalStringElement : [FChoice.Foundation.DataObjects.IDataObj
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

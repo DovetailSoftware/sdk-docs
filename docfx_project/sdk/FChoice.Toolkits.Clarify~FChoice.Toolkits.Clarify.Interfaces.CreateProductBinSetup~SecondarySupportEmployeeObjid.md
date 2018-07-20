@@ -1,34 +1,26 @@
-﻿     SecondarySupportEmployeeObjid Property (CreateProductBinSetup)                                                   
-
-fcSDK Documentation
-
-SecondarySupportEmployeeObjid Property (CreateProductBinSetup)
+### SecondarySupportEmployeeObjid Property (CreateProductBinSetup)
 
 Objid of the secondary support Employee.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property SecondarySupportEmployeeObjid As [Integer](#)
+<PropertyBitValueAttribute()>
+Public Property SecondarySupportEmployeeObjid As Integer
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [int](#) SecondarySupportEmployeeObjid {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public int SecondarySupportEmployeeObjid {get; set;}
+```
 
 Remarks
 
 Note: this is an Employee not a User.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

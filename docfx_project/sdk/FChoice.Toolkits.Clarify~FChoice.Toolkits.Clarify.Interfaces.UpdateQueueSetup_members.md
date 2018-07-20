@@ -1,8 +1,4 @@
-﻿     UpdateQueueSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateQueueSetup Class Members
+﻿### UpdateQueueSetup Class Members
 
 The following tables list the members exposed by [UpdateQueueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateQueueSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateQueueSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateQueueSetup~_ctor.md) | Initializes a new instance of the UpdateQueueSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -34,9 +30,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Supervisor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateQueueSetup~Supervisor.md) | Username of the supervisor of the Queue   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateQueueSetup~Title.md) | Title of the Queue   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

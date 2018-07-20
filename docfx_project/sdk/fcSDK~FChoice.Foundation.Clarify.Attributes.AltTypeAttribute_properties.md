@@ -1,8 +1,4 @@
-﻿     AltTypeAttribute Class Properties                                                   
-
-fcSDK Documentation
-
-AltTypeAttribute Class Properties
+﻿### AltTypeAttribute Class Properties
 
 For a list of all members of this type, see [AltTypeAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.AltTypeAttribute_members.md).
 
@@ -13,9 +9,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Method](fcSDK~FChoice.Foundation.Clarify.Attributes.AltTypeAttribute~Method.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

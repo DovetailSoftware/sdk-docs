@@ -1,8 +1,4 @@
-﻿     WorkflowManager Class Methods                                                   
-
-fcSDK Documentation
-
-WorkflowManager Class Methods
+﻿### WorkflowManager Class Methods
 
 For a list of all members of this type, see [WorkflowManager members](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager_members.md).
 
@@ -34,9 +30,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Reject](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~Reject.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [Yank](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~Yank.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

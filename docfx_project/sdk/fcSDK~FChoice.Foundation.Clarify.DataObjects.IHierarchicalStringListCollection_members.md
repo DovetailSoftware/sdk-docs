@@ -1,8 +1,4 @@
-﻿     IHierarchicalStringListCollection Interface Members                                                   
-
-fcSDK Documentation
-
-IHierarchicalStringListCollection Interface Members
+﻿### IHierarchicalStringListCollection Interface Members
 
 The following tables list the members exposed by [IHierarchicalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringListCollection.md).
 
@@ -13,7 +9,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Capacity](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringListCollection~Capacity.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringListCollection~Item.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -43,9 +39,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [TrimExcess](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringListCollection~TrimExcess.md) |   |
 | ![ Method](dotnetimages/Method.png) | [TrueForAll](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringListCollection~TrueForAll.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

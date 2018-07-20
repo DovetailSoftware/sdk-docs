@@ -1,8 +1,4 @@
-﻿     CreateOpportunity(String,String,Single) Method                                                   
-
-fcSDK Documentation
-
-CreateOpportunity(String,String,Single) Method
+﻿### CreateOpportunity(String,String,Single) Method
 
 The name of the Opportunity.
 
@@ -15,10 +11,7 @@ Used to create a new Opportunity. This overload takes a set of required paramete
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateOpportunity( _
    ByVal _opportunityName_ As String, _
@@ -54,11 +47,9 @@ Remarks
 
 The opportunity name must be specified. All other data is optional. The account, contact, territory, stage, source, currency, and process may be specified. Also, an amount and a probability may be specified. The API can generate a time bomb for business rules, or not.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

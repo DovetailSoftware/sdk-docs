@@ -1,8 +1,4 @@
-﻿     CreateInteraction(CreateInteractionSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateInteraction(CreateInteractionSetup,IDbTransaction) Method
+﻿### CreateInteraction(CreateInteractionSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Creates an Interaction in Clarify. This overload takes a setup object and a data
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateInteraction( _
    ByVal _setupParam_ As [CreateInteractionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup.md), _
@@ -50,11 +43,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

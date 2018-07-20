@@ -1,36 +1,28 @@
-﻿     RemoveGeneric Method (IFCBulk)                                                   
-
-fcSDK Documentation
-
-RemoveGeneric Method (IFCBulk)
+﻿### RemoveGeneric Method (IFCBulk)
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[DispIdAttribute](#)(1610743817)>
+<DispIdAttribute(1610743817)>
 Sub RemoveGeneric( _
    ByVal _generic_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _
 ) 
+```
 
-\[[DispIdAttribute](#)(1610743817)\]
+```csharp
+[DispIdAttribute(1610743817)]
 void RemoveGeneric( 
    [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _generic_
 )
+```
 
 #### Parameters
 
 _generic_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

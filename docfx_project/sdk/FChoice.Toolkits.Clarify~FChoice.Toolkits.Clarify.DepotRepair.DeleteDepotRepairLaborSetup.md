@@ -1,26 +1,18 @@
-﻿     DeleteDepotRepairLaborSetup Class                                                   
-
-fcSDK Documentation
-
-DeleteDepotRepairLaborSetup Class
+﻿### DeleteDepotRepairLaborSetup Class
 
 Used by the [DeleteDepotRepairLabor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~DeleteDepotRepairLabor(DeleteDepotRepairLaborSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DeleteDepotRepairLaborSetup 
 
 public class DeleteDepotRepairLaborSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairLaborSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

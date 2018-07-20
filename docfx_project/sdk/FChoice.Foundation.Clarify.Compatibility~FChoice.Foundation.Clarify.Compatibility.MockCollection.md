@@ -1,17 +1,9 @@
-﻿     MockCollection Class                                                   
-
-fcSDK Documentation
-
-MockCollection Class
+﻿### MockCollection Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[ComVisibleAttribute](#)(True)>
 <[GuidAttribute](#)("9D9620BB-8673-4265-B6BC-A6EF0A536F60")>
 <[ClassInterfaceAttribute](#)(ClassInterfaceType.None)>
@@ -25,7 +17,7 @@ public class MockCollection : [IMockCollection](FChoice.Foundation.Clarify.Compa
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Compatibility.MockCollection**  
 
 #### Requirements
@@ -36,7 +28,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

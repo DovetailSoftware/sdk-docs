@@ -1,8 +1,4 @@
-﻿     ClarifyDataSet Class Properties                                                   
-
-fcSDK Documentation
-
-ClarifyDataSet Class Properties
+﻿### ClarifyDataSet Class Properties
 
 For a list of all members of this type, see [ClarifyDataSet members](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SortGenerics](fcSDK~FChoice.Foundation.GenericDataSet~SortGenerics.md) | (Inherited from [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.GenericDataSet~UniqueID.md) | (Inherited from [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     TodayFilter Class Properties                                                   
-
-fcSDK Documentation
-
-TodayFilter Class Properties
+﻿### TodayFilter Class Properties
 
 For a list of all members of this type, see [TodayFilter members](fcSDK~FChoice.Foundation.Filters.TodayFilter_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Value2](fcSDK~FChoice.Foundation.Filters.BetweenFilter~Value2.md) | (Inherited from [FChoice.Foundation.Filters.BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Value2Present](fcSDK~FChoice.Foundation.Filters.BetweenFilter~Value2Present.md) | (Inherited from [FChoice.Foundation.Filters.BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

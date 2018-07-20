@@ -1,18 +1,11 @@
-﻿     Queue Property (CreateCRSetup)                                                   
-
-fcSDK Documentation
-
-Queue Property (CreateCRSetup)
+﻿### Queue Property (CreateCRSetup)
 
 Queue where the CR will be dispatched.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property Queue As String
@@ -26,11 +19,9 @@ If not set, the CR will be located in the user's default WipBin.
 
 If set, a timebomb will be created for the Dispatch operation.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

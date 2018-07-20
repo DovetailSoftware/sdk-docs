@@ -1,8 +1,4 @@
-﻿     LocationCollection Class Methods                                                   
-
-fcSDK Documentation
-
-LocationCollection Class Methods
+﻿### LocationCollection Class Methods
 
 For a list of all members of this type, see [LocationCollection members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LocationCollection_members.md).
 
@@ -21,9 +17,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](#) | (Inherited from [System.Collections.ObjectModel.Collection<Location>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ToLegacyString](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LocationCollection~ToLegacyString.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

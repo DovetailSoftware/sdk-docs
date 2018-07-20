@@ -1,8 +1,4 @@
-﻿     IFCGeneric Interface Properties                                                   
-
-fcSDK Documentation
-
-IFCGeneric Interface Properties
+﻿### IFCGeneric Interface Properties
 
 For a list of all members of this type, see [IFCGeneric members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric_members.md).
 
@@ -41,9 +37,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [SetNullStringsToEmpty](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric~SetNullStringsToEmpty.md) |   |
 | ![ Property](dotnetimages/Property.png) | [SortOrder](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric~SortOrder.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

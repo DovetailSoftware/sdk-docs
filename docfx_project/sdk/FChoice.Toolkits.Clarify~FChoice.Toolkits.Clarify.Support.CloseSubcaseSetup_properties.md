@@ -1,8 +1,4 @@
-﻿     CloseSubcaseSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CloseSubcaseSetup Class Properties
+﻿### CloseSubcaseSetup Class Properties
 
 For a list of all members of this type, see [CloseSubcaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup_members.md).
 
@@ -22,9 +18,9 @@ Element from the 'Resolution Code' application defined list. If not set, the def
 | ![Public Property](dotnetimages/publicProperty.png) | [Summary](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup~Summary.md) | Information about the closure.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup~UserName.md) | The User who closed the Subcase. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

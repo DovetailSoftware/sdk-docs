@@ -1,8 +1,4 @@
-﻿     AssignQuoteSetup Class Properties                                                   
-
-fcSDK Documentation
-
-AssignQuoteSetup Class Properties
+﻿### AssignQuoteSetup Class Properties
 
 For a list of all members of this type, see [AssignQuoteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AssignQuoteSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AssignQuoteSetup~UserName.md) | The user who has assigned the Quote. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AssignQuoteSetup~WipBin.md) | User's WipBin in which to place the Quote. If not set, the UserName's default is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

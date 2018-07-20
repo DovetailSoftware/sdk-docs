@@ -1,8 +1,4 @@
-﻿     CreateDepotRepairLaborSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateDepotRepairLaborSetup Class Properties
+﻿### CreateDepotRepairLaborSetup Class Properties
 
 For a list of all members of this type, see [CreateDepotRepairLaborSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairLaborSetup_members.md).
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairLaborSetup~UserName.md) | The user creating the Labor entry. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkCenter](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairLaborSetup~WorkCenter.md) | Indicates where labor was performed   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

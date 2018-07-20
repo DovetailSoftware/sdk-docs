@@ -1,22 +1,14 @@
-﻿     MapObjectNameToTableID Method                                                   
-
-fcSDK Documentation
-
-MapObjectNameToTableID Method
+﻿### MapObjectNameToTableID Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Shared Function MapObjectNameToTableID( _
    ByVal _objectName_ As String _
-) As [Integer](#)
+) As Integer
 
-public static [int](#) MapObjectNameToTableID( 
+public static int MapObjectNameToTableID( 
    string _objectName_
 )
 
@@ -24,11 +16,9 @@ public static [int](#) MapObjectNameToTableID(
 
 _objectName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

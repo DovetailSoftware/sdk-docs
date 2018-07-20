@@ -1,8 +1,4 @@
-﻿     DuplicateCR(String,String) Method                                                   
-
-fcSDK Documentation
-
-DuplicateCR(String,String) Method
+﻿### DuplicateCR(String,String) Method
 
 Identifier of the CR being marked as a duplicate.
 
@@ -13,10 +9,7 @@ Mark a CR as duplicate of another 'master' CR. This overload takes a set of requ
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function DuplicateCR( _
    ByVal _crIDNum_ As String, _
@@ -46,11 +39,9 @@ Remarks
 
 The condition of the CR is changed to **CR Duplicate/Closed**.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

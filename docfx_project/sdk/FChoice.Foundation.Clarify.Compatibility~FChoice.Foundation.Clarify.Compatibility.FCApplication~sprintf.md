@@ -1,35 +1,27 @@
-﻿     sprintf Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-sprintf Method (FCApplication)
+﻿### sprintf Method (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function sprintf( _
    ByVal _inputString_ As String, _
-   Optional ByVal _arg1_ As [Object](#), _
-   Optional ByVal _arg2_ As [Object](#), _
-   Optional ByVal _arg3_ As [Object](#), _
-   Optional ByVal _arg4_ As [Object](#), _
-   Optional ByVal _arg5_ As [Object](#), _
-   Optional ByVal _arg6_ As [Object](#) _
+   Optional ByVal _arg1_ As Object, _
+   Optional ByVal _arg2_ As Object, _
+   Optional ByVal _arg3_ As Object, _
+   Optional ByVal _arg4_ As Object, _
+   Optional ByVal _arg5_ As Object, _
+   Optional ByVal _arg6_ As Object _
 ) As String
 
 public string sprintf( 
    string _inputString_,
-   [object](#) _arg1_,
-   [object](#) _arg2_,
-   [object](#) _arg3_,
-   [object](#) _arg4_,
-   [object](#) _arg5_,
-   [object](#) _arg6_
+   object _arg1_,
+   object _arg2_,
+   object _arg3_,
+   object _arg4_,
+   object _arg5_,
+   object _arg6_
 )
 
 #### Parameters
@@ -48,11 +40,9 @@ _arg5_
 
 _arg6_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

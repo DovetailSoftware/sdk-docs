@@ -1,8 +1,4 @@
-﻿     FilterCollection Class Members                                                   
-
-fcSDK Documentation
-
-FilterCollection Class Members
+﻿### FilterCollection Class Members
 
 The following tables list the members exposed by [FilterCollection](fcSDK~FChoice.Foundation.Filters.FilterCollection.md).
 
@@ -13,7 +9,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.ObjectModel.Collection<Filter>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.ObjectModel.Collection<Filter>](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -29,9 +25,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [Remove](#) | (Inherited from [System.Collections.ObjectModel.Collection<Filter>](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [RemoveAt](#) | (Inherited from [System.Collections.ObjectModel.Collection<Filter>](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

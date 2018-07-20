@@ -1,21 +1,14 @@
-﻿     PartRequestType Enumeration                                                         
-
-fcSDK Documentation
-
-PartRequestType Enumeration
+﻿### PartRequestType Enumeration
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Enum PartRequestType 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
 
-public enum PartRequestType : [System.Enum](#) 
+public enum PartRequestType : System.Enum 
 
 Members
 
@@ -30,9 +23,9 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
+System.Object  
+   System.ValueType  
+      System.Enum  
          **FChoice.Toolkits.Clarify.PartRequestType**  
 
 #### Requirements
@@ -43,7 +36,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

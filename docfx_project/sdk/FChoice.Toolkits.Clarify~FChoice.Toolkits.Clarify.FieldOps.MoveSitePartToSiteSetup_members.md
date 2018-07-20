@@ -1,8 +1,4 @@
-﻿     MoveSitePartToSiteSetup Class Members                                                   
-
-fcSDK Documentation
-
-MoveSitePartToSiteSetup Class Members
+﻿### MoveSitePartToSiteSetup Class Members
 
 The following tables list the members exposed by [MoveSitePartToSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToSiteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [MoveSitePartToSiteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToSiteSetup~_ctor.md) | Initializes a new instance of the MoveSitePartToSiteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SitePartObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToSiteSetup~SitePartObjid.md) | The Objid of the Site Part being moved.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToSiteSetup~UserName.md) | The user who has moved the SitePartToSite. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

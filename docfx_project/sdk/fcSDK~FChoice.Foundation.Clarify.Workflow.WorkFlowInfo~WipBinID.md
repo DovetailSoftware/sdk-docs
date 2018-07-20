@@ -1,26 +1,16 @@
-﻿     WipBinID Property                                                   
-
-fcSDK Documentation
-
-WipBinID Property
+﻿### WipBinID Property
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public ReadOnly Property WipBinID As Integer
 
-'Declaration
- 
+public int WipBinID {get;}
 
-Public ReadOnly Property WipBinID As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public [int](#) WipBinID {get;}
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

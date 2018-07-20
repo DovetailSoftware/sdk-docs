@@ -1,8 +1,4 @@
-﻿     MoveSitePartToSite(MoveSitePartToSiteSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-MoveSitePartToSite(MoveSitePartToSiteSetup,IDbTransaction) Method
+﻿### MoveSitePartToSite(MoveSitePartToSiteSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to move an existing site part from its current location to the top-level a
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function MoveSitePartToSite( _
    ByVal _setupParam_ As [MoveSitePartToSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToSiteSetup.md), _
@@ -52,11 +45,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

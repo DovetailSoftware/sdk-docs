@@ -1,6 +1,4 @@
-﻿     DataAccessSectionHandler Class Methods                                                   
-
-DataAccessSectionHandler Class Methods
+﻿### DataAccessSectionHandler Class Methods
 
 For a list of all members of this type, see [DataAccessSectionHandler members](FChoice.Common~FChoice.Common.Data.DataAccessSectionHandler_members.md).
 
@@ -8,11 +6,7 @@ Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |
-| ![Public Method](dotnetimages/publicMethod.png) | [Create](FChoice.Common~FChoice.Common.Data.DataAccessSectionHandler~Create.md) | Creates a new configuration handler and adds it to the section handler collection.   |
-
-[Top](#top)
-
-See Also
+| ![Public Method](dotnetimages/publicMethod.png) | [Create](FChoice.Common~FChoice.Common.Data.DataAccessSectionHandler~Create.md) | Creates a new configuration handler and adds it to the section handler collection. |
 
 #### Reference
 

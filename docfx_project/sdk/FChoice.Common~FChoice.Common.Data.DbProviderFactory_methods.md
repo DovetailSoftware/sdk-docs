@@ -1,6 +1,4 @@
-﻿     DbProviderFactory Class Methods                                                   
-
-DbProviderFactory Class Methods
+﻿### DbProviderFactory Class Methods
 
 For a list of all members of this type, see [DbProviderFactory members](FChoice.Common~FChoice.Common.Data.DbProviderFactory_members.md).
 
@@ -13,9 +11,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsOracle](FChoice.Common~FChoice.Common.Data.DbProviderFactory~IsOracle.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [IsValidProvider](FChoice.Common~FChoice.Common.Data.DbProviderFactory~IsValidProvider.md) | Gets whether or not the specified alias or name is a valid alias/name for a configured or intrinsic data access provider   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

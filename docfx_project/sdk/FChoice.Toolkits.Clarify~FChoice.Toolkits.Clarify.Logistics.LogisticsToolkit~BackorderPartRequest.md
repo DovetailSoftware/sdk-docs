@@ -1,8 +1,4 @@
-﻿     BackorderPartRequest Method                                                   
-
-fcSDK Documentation
-
-BackorderPartRequest Method
+﻿### BackorderPartRequest Method
 
 Allows for the backordering of inventory parts for a part request. This overload takes a set of required parameters for the API.
 
@@ -33,11 +29,9 @@ To allow for multiple calls to this API to be performed without extra complex t
 
 **NOTE**: This API requires two other APIs ([PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.md) and [CreatePartRequestDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail.md)) to work correctly.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

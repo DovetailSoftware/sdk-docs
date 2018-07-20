@@ -1,8 +1,4 @@
-﻿     UpdateProductBinSetup Class Members                                                   
-
-fcSDK Documentation
-
-UpdateProductBinSetup Class Members
+﻿### UpdateProductBinSetup Class Members
 
 The following tables list the members exposed by [UpdateProductBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateProductBinSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdateProductBinSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateProductBinSetup~_ctor.md) | Initializes a new instance of the UpdateProductBinSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -29,9 +25,9 @@ Objid of the Bin to be updated
 | ![Public Property](dotnetimages/publicProperty.png) | [UpdateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateProductBinSetup~UpdateDate.md) | Date when the Bin was updated   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateProductBinSetup~UserName.md) | User creating the bin. If not set, the default is the session user.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

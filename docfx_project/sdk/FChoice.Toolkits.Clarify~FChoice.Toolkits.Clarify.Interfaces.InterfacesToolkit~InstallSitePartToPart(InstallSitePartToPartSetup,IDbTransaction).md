@@ -1,8 +1,4 @@
-﻿     InstallSitePartToPart(InstallSitePartToPartSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-InstallSitePartToPart(InstallSitePartToPartSetup,IDbTransaction) Method
+﻿### InstallSitePartToPart(InstallSitePartToPartSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Install a Site Part under another Site Part. This overload takes a setup object 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function InstallSitePartToPart( _
    ByVal _setupParam_ As [InstallSitePartToPartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToPartSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

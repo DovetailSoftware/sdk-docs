@@ -1,24 +1,16 @@
-﻿     NVarcharNumber Field                                                   
-
-NVarcharNumber Field
+﻿### NVarcharNumber Field
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
+Public Const NVarcharNumber As Integer
 
-'Declaration
- 
+public const int NVarcharNumber
 
-Public Const NVarcharNumber As [Integer](#)
+[!include[Requirements](../partials/requirements.md)]
 
-public const [int](#) NVarcharNumber
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CheckIsNullAttribute Class Fields                                                   
-
-fcSDK Documentation
-
-CheckIsNullAttribute Class Fields
+﻿### CheckIsNullAttribute Class Fields
 
 For a list of all members of this type, see [CheckIsNullAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.CheckIsNullAttribute_members.md).
 
@@ -12,9 +8,9 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png) | [ErrorNumber](fcSDK~FChoice.Foundation.Clarify.Attributes.CheckIsNullAttribute~ErrorNumber.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

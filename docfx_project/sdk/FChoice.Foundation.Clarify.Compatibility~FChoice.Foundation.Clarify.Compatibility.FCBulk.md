@@ -1,17 +1,9 @@
-﻿     FCBulk Class                                                   
-
-fcSDK Documentation
-
-FCBulk Class
+﻿### FCBulk Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[ClassInterfaceAttribute](#)(ClassInterfaceType.None)>
 <[GuidAttribute](#)("DDBC0BE8-F58D-4bde-B658-6FB1E0851C4C")>
 <[ProgIdAttribute](#)("FCFLCompat.FCBulk")>
@@ -29,7 +21,7 @@ public sealed class FCBulk : [IFCBulk](FChoice.Foundation.Clarify.Compatibility~
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCBulk**  
 
 #### Requirements
@@ -40,7 +32,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     LogSubcaseEmailResult Class Properties                                                   
-
-fcSDK Documentation
-
-LogSubcaseEmailResult Class Properties
+﻿### LogSubcaseEmailResult Class Properties
 
 For a list of all members of this type, see [LogSubcaseEmailResult members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseEmailResult_members.md).
 
@@ -16,9 +12,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ReturnCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~ReturnCode.md) | Return code of the API call. (Inherited from [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [StatusChangeObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseEmailResult~StatusChangeObjid.md) | The Objid of the StatusChange.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,30 +1,20 @@
-﻿     PartMaximum Property (SetPartStockingLevelSetup)                                                   
-
-fcSDK Documentation
-
-PartMaximum Property (SetPartStockingLevelSetup)
+﻿### PartMaximum Property (SetPartStockingLevelSetup)
 
 Maximum quantity of parts allowed in this inventory location
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property PartMaximum As Short
 
 \[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
 public short PartMaximum {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

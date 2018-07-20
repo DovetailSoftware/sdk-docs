@@ -1,6 +1,4 @@
-﻿     ReadBinary Method                                                   
-
-ReadBinary Method
+﻿### ReadBinary Method
 
 The stream from which to read the [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm)
 
@@ -9,18 +7,18 @@ Reads a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDat
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Shared Function ReadBinary( _
-   ByVal _str_ As [Stream](#) _
-) As [DataSet](#)
+   ByVal _str_ As Stream _
+) As DataSet
+```
 
-public static [DataSet](#) ReadBinary( 
-   [Stream](#) _str_
+```csharp
+public static DataSet ReadBinary( 
+   Stream _str_
 )
+```
 
 #### Parameters
 
@@ -40,11 +38,7 @@ The binary stream must have been written using the [WriteBinary](FChoice.Common~
 
 **IMPORTANT**: The [ReadBinary](FChoice.Common~FChoice.Common.Data.DataSetSurrogate~ReadBinary.md) and [WriteBinary](FChoice.Common~FChoice.Common.Data.DataSetSurrogate~WriteBinary.md) methods only support simple DataSets with tables, columns, rows (with data) and relationships. All other information will be lost. This includes keys, constraints, extended properties, etc
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

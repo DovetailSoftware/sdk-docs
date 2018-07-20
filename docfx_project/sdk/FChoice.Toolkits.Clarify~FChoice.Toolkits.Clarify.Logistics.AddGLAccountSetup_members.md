@@ -1,8 +1,4 @@
-﻿     AddGLAccountSetup Class Members                                                   
-
-fcSDK Documentation
-
-AddGLAccountSetup Class Members
+﻿### AddGLAccountSetup Class Members
 
 The following tables list the members exposed by [AddGLAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddGLAccountSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup~_ctor.md) | Initializes a new instance of the AddGLAccountSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -30,9 +26,9 @@ The identifier of the Site with which the account is to be associated
 
   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

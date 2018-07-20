@@ -1,8 +1,4 @@
-﻿     ReceivePartRequestSetup Class Members                                                   
-
-fcSDK Documentation
-
-ReceivePartRequestSetup Class Members
+﻿### ReceivePartRequestSetup Class Members
 
 The following tables list the members exposed by [ReceivePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ReceivePartRequestSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -41,9 +37,9 @@ Specifies whether the received stock should be routed to test (true) or not (fa
 | ![Public Property](dotnetimages/publicProperty.png) | [UseTransitions](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~UseTransitions.md) | Specifies whether or not to change the Part Request condition   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WaybillName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~WaybillName.md) | Waybill information for this Part Request receipt   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

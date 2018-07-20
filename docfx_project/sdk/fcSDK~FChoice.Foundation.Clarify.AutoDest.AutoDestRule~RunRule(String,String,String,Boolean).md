@@ -1,16 +1,9 @@
-﻿     RunRule(String,String,String,Boolean) Method                                                   
-
-fcSDK Documentation
-
-RunRule(String,String,String,Boolean) Method
+﻿### RunRule(String,String,String,Boolean) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function RunRule( _
    ByVal _ruleTitle_ As String, _
@@ -19,7 +12,7 @@ Public Overloads Shared Function RunRule( _
    ByRef _isAutoDispatch_ As Boolean _
 ) As [String()](#)
 
-public static [string\[\]](#) RunRule( 
+public static string[] RunRule( 
    string _ruleTitle_,
    string _ruleText_,
    string _rootObjectId_,
@@ -36,11 +29,9 @@ _rootObjectId_
 
 _isAutoDispatch_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

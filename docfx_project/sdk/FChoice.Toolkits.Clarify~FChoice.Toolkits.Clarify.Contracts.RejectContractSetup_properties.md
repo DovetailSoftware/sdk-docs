@@ -1,8 +1,4 @@
-﻿     RejectContractSetup Class Properties                                                   
-
-fcSDK Documentation
-
-RejectContractSetup Class Properties
+﻿### RejectContractSetup Class Properties
 
 For a list of all members of this type, see [RejectContractSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RejectContractSetup_members.md).
 
@@ -17,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RejectContractSetup~Status.md) | Element from the 'Contract Status' application list. If not set, the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RejectContractSetup~UserName.md) | The user who has rejected the Contract. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

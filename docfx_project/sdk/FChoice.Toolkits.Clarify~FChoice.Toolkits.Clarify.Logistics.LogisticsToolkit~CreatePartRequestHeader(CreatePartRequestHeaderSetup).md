@@ -1,8 +1,4 @@
-﻿     CreatePartRequestHeader(CreatePartRequestHeaderSetup) Method                                                   
-
-fcSDK Documentation
-
-CreatePartRequestHeader(CreatePartRequestHeaderSetup) Method
+﻿### CreatePartRequestHeader(CreatePartRequestHeaderSetup) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreatePartRequestHeader( _
    ByVal _setupParam_ As [CreatePartRequestHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup.md) _
@@ -49,11 +42,9 @@ To create a Part Request Header for a case or subcase, without respect for dashe
 
 **NOTE**: The [ContractObjId](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup~ContractObjid.md) property on the [CreatePartRequestHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup.md) object should not be set (left as default) unless you need this functionality AND have installed the First Choice ClearCallCenter for ClearLogistics product and schema changes. If you do not have this product and wish to use this functionality, please contact First Choice Software.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

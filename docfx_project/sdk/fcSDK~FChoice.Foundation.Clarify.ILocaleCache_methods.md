@@ -1,8 +1,4 @@
-﻿     ILocaleCache Interface Methods                                                   
-
-fcSDK Documentation
-
-ILocaleCache Interface Methods
+﻿### ILocaleCache Interface Methods
 
 For a list of all members of this type, see [ILocaleCache members](fcSDK~FChoice.Foundation.Clarify.ILocaleCache_members.md).
 
@@ -34,9 +30,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [SetServerTimeZoneToMachineTimeZone](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~SetServerTimeZoneToMachineTimeZone.md) |   |
 | ![ Method](dotnetimages/Method.png) | [UpdateCache](fcSDK~FChoice.Foundation.Clarify.ILocaleCache~UpdateCache.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

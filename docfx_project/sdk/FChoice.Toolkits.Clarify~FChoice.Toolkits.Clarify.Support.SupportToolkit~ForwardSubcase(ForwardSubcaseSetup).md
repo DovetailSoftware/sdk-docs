@@ -1,8 +1,4 @@
-﻿     ForwardSubcase(ForwardSubcaseSetup) Method                                                   
-
-fcSDK Documentation
-
-ForwardSubcase(ForwardSubcaseSetup) Method
+﻿### ForwardSubcase(ForwardSubcaseSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Reject-forward the Subcase from one queue to another. This overload takes a setu
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ForwardSubcase( _
    ByVal _setupParam_ As [ForwardSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardSubcaseSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Subcase must be in open condition, and not currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

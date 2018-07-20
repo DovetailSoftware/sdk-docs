@@ -1,19 +1,11 @@
-﻿     AutoInstall Property (CreateContractLineItemSetup)                                                   
-
-fcSDK Documentation
-
-AutoInstall Property (CreateContractLineItemSetup)
+﻿### AutoInstall Property (CreateContractLineItemSetup)
 
 Specifies whether to install the Line Item.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
 Public Property AutoInstall As Boolean
 
@@ -24,11 +16,9 @@ Remarks
 
 If AutoInstall = True, a QuotedSiteIDNum must be supplied.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

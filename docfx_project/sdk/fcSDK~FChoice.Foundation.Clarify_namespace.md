@@ -1,8 +1,4 @@
-﻿FChoice.Foundation.Clarify Namespace
-
-fcSDK Documentation
-
-FChoice.Foundation.Clarify Namespace
+﻿### FChoice.Foundation.Clarify Namespace
 
 The **FChoice.Foundation.Clarify** namespace provides the main classes for data and application access to Clarify systems.  
 
@@ -12,10 +8,7 @@ Classes
 
 |   | Class | Description |
 | --- | --- | --- |
-| ![Class](dotnetimages/Class.png) | [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) | 
-**ClarifyApplication** is the starting point for using **FCFL.NET** against a Clarify database system.
-
- |
+| ![Class](dotnetimages/Class.png) | [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) **ClarifyApplication** is the starting point for using **FCFL.NET** against a Clarify database system. |
 | ![Class](dotnetimages/Class.png) | [ClarifyAuthenticationResult](fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationResult.md) |   |
 | ![Class](dotnetimages/Class.png) | [ClarifyAuthenticationService](fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationService.md) |   |
 | ![Class](dotnetimages/Class.png) | [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md) |   |
@@ -65,8 +58,6 @@ Enumerations
 Remarks
 
 To get started using **FCFL.NET** and the **FChoice.Foundation.Clarify** assembly read the Getting Started guide or the class documentation for [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md).
-
-See Also
 
 #### Reference
 

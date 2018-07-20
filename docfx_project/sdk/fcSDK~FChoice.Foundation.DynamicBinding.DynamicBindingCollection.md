@@ -1,17 +1,9 @@
-﻿     DynamicBindingCollection Class                                                   
-
-fcSDK Documentation
-
-DynamicBindingCollection Class
+﻿### DynamicBindingCollection Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DynamicBindingCollection 
    Inherits [System.Collections.ObjectModel.Collection(Of IDynamicBinding)](#)
 
@@ -19,7 +11,7 @@ public class DynamicBindingCollection : [System.Collections.ObjectModel.Collecti
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [System.Collections.ObjectModel.Collection<T>](#)  
       **FChoice.Foundation.DynamicBinding.DynamicBindingCollection**  
 
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateLeadSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateLeadSetup Class Properties
+﻿### CreateLeadSetup Class Properties
 
 For a list of all members of this type, see [CreateLeadSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup_members.md).
 
@@ -35,9 +31,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup~Title.md) | Title for the lead.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup~UserName.md) | The user who is creating the lead. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

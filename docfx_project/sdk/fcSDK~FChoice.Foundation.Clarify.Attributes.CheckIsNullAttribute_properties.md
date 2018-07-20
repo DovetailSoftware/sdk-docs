@@ -1,8 +1,4 @@
-﻿     CheckIsNullAttribute Class Properties                                                   
-
-fcSDK Documentation
-
-CheckIsNullAttribute Class Properties
+﻿### CheckIsNullAttribute Class Properties
 
 For a list of all members of this type, see [CheckIsNullAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.CheckIsNullAttribute_members.md).
 
@@ -12,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     IStringCache Interface Members                                                   
-
-fcSDK Documentation
-
-IStringCache Interface Members
+﻿### IStringCache Interface Members
 
 The following tables list the members exposed by [IStringCache](fcSDK~FChoice.Foundation.Clarify.IStringCache.md).
 
@@ -13,7 +9,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [CacheSetName](fcSDK~FChoice.Foundation.Clarify.IStringCache~CacheSetName.md) |   |
 | ![ Property](dotnetimages/Property.png) | [CacheType](fcSDK~FChoice.Foundation.Clarify.IStringCache~CacheType.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -25,7 +21,7 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [SupportedLocales](fcSDK~FChoice.Foundation.Clarify.IStringCache~SupportedLocales.md) |   |
 | ![ Method](dotnetimages/Method.png) | [UpdateCache](fcSDK~FChoice.Foundation.Clarify.IStringCache~UpdateCache.md) |   |
 
-[Top](#top)
+
 
 Public Events
 
@@ -33,9 +29,9 @@ Public Events
 | --- | --- | --- |
 | ![ Event](dotnetimages/Event.png) | [CacheUpdated](fcSDK~FChoice.Foundation.Clarify.IStringCache~CacheUpdated_EV.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

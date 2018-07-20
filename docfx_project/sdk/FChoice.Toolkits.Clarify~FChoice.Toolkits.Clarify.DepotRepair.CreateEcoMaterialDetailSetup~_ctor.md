@@ -1,8 +1,4 @@
-﻿     CreateEcoMaterialDetailSetup Constructor                                                   
-
-fcSDK Documentation
-
-CreateEcoMaterialDetailSetup Constructor
+﻿### CreateEcoMaterialDetailSetup Constructor
 
 Indicates if this detail is required (true) or not (false)
 
@@ -15,23 +11,20 @@ Initializes a new instance of the CreateEcoMaterialDetailSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _isRequired_ As Boolean, _
    ByVal _ecoHeaderIDNum_ As String, _
-   ByVal _partRevisionObjid_ As [Integer](#) _
+   ByVal _partRevisionObjid_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public CreateEcoMaterialDetailSetup( 
    bool _isRequired_,
    string _ecoHeaderIDNum_,
-   [int](#) _partRevisionObjid_
+   int _partRevisionObjid_
 )
 
 #### Parameters
@@ -48,11 +41,9 @@ _partRevisionObjid_
 
 The objid of the part revision of the material that was put in use.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

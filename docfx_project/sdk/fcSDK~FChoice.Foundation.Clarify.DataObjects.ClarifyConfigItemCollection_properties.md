@@ -1,8 +1,4 @@
-﻿     ClarifyConfigItemCollection Class Properties                                                   
-
-fcSDK Documentation
-
-ClarifyConfigItemCollection Class Properties
+﻿### ClarifyConfigItemCollection Class Properties
 
 For a list of all members of this type, see [ClarifyConfigItemCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<ConfigItem>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection~Item.md) | Overloaded.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

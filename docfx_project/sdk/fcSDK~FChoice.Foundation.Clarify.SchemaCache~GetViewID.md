@@ -1,22 +1,14 @@
-﻿     GetViewID Method                                                   
-
-fcSDK Documentation
-
-GetViewID Method
+﻿### GetViewID Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function GetViewID( _
    ByVal _viewName_ As String _
-) As [Integer](#)
+) As Integer
 
-public [int](#) GetViewID( 
+public int GetViewID( 
    string _viewName_
 )
 
@@ -24,11 +16,9 @@ public [int](#) GetViewID(
 
 _viewName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

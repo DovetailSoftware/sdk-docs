@@ -1,8 +1,4 @@
-﻿     CreateContractLineItemSetup Constructor(String,String,String,String,Int32,String,Int32)                                                   
-
-fcSDK Documentation
-
-CreateContractLineItemSetup Constructor(String,String,String,String,Int32,String,Int32)
+﻿### CreateContractLineItemSetup Constructor(String,String,String,String,Int32,String,Int32)
 
 Contract Identifier.
 
@@ -23,32 +19,32 @@ Initializes a new instance of the CreateContractLineItemSetup class. This overlo
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _contractIDNum_ As String, _
    ByVal _partNumber_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _partRevision_ As String, _
-   ByVal _quantity_ As [Integer](#), _
+   ByVal _quantity_ As Integer, _
    ByVal _priceSchedule_ As String, _
-   ByVal _parentLineItemObjid_ As [Integer](#) _
+   ByVal _parentLineItemObjid_ As Integer _
 )
+```
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+```csharp
+[ConstructorIndexAttribute()]
 public CreateContractLineItemSetup( 
    string _contractIDNum_,
    string _partNumber_,
    string _partDomain_,
    string _partRevision_,
-   [int](#) _quantity_,
+   int _quantity_,
    string _priceSchedule_,
-   [int](#) _parentLineItemObjid_
+   int _parentLineItemObjid_
 )
+```
 
 #### Parameters
 
@@ -80,11 +76,7 @@ _parentLineItemObjid_
 
 The objid of the parent Line Item.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

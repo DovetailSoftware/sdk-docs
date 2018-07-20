@@ -1,16 +1,9 @@
-﻿     IHierarchicalStringElement Interface                                                   
-
-fcSDK Documentation
-
-IHierarchicalStringElement Interface
+﻿### IHierarchicalStringElement Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Interface IHierarchicalStringElement 
    Inherits [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
@@ -25,7 +18,7 @@ public interface IHierarchicalStringElement : [FChoice.Foundation.DataObjects.ID
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

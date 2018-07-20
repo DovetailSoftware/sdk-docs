@@ -1,32 +1,25 @@
-﻿     ReleaseLicenses Method                                                   
-
-ReleaseLicenses Method
+﻿### ReleaseLicenses Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Sub ReleaseLicenses( _
-   ByVal _context_ As [Object](#) _
+   ByVal _context_ As Object _
 ) 
 
 public void ReleaseLicenses( 
-   [object](#) _context_
+   object _context_
 )
 
 #### Parameters
 
 _context_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

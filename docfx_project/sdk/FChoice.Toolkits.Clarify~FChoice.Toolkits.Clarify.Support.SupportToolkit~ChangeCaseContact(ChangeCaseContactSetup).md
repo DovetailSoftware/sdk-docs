@@ -1,8 +1,4 @@
-﻿     ChangeCaseContact(ChangeCaseContactSetup) Method                                                   
-
-fcSDK Documentation
-
-ChangeCaseContact(ChangeCaseContactSetup) Method
+﻿### ChangeCaseContact(ChangeCaseContactSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Changes the contact for a Case. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ChangeCaseContact( _
    ByVal _setupParam_ As [ChangeCaseContactSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup.md) _
@@ -38,11 +31,9 @@ Remarks
 
 The Case phone and alternate phone are also changed.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

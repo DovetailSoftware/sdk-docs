@@ -1,22 +1,17 @@
-﻿     ExecuteScalarInList Method                                                   
-
-ExecuteScalarInList Method
+﻿### ExecuteScalarInList Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function ExecuteScalarInList( _
-   ByVal _inList_() As [Object](#), _
+   ByVal _inList_() As Object, _
    ByVal _columnName_ As String _
-) As [Object](#)
+) As Object
 
-public [object](#) ExecuteScalarInList( 
-   [object](#)\[\] _inList_,
+public object ExecuteScalarInList( 
+   object\[\] _inList_,
    string _columnName_
 )
 
@@ -26,11 +21,9 @@ _inList_
 
 _columnName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

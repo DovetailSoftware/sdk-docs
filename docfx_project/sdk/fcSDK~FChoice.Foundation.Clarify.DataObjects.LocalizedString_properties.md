@@ -1,8 +1,4 @@
-﻿     LocalizedString Class Properties                                                   
-
-fcSDK Documentation
-
-LocalizedString Class Properties
+﻿### LocalizedString Class Properties
 
 For a list of all members of this type, see [LocalizedString members](fcSDK~FChoice.Foundation.Clarify.DataObjects.LocalizedString_members.md).
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UniqueID](fcSDK~FChoice.Foundation.DataObjects.DataObject~UniqueID.md) | (Inherited from [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Value](fcSDK~FChoice.Foundation.Clarify.DataObjects.LocalizedString~Value.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

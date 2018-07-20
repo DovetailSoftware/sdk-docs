@@ -1,16 +1,9 @@
-﻿     StageInventoryToolkit Class                                                   
-
-fcSDK Documentation
-
-StageInventoryToolkit Class
+﻿### StageInventoryToolkit Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Class StageInventoryToolkit 
 
@@ -18,7 +11,7 @@ public class StageInventoryToolkit
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.StageInventoryToolkit**  
 
 #### Requirements
@@ -29,7 +22,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

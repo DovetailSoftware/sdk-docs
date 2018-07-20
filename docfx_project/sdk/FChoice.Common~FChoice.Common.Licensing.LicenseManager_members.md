@@ -1,6 +1,4 @@
-﻿     LicenseManager Class Members                                                   
-
-LicenseManager Class Members
+﻿### LicenseManager Class Members
 
 The following tables list the members exposed by [LicenseManager](FChoice.Common~FChoice.Common.Licensing.LicenseManager.md).
 
@@ -11,7 +9,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [Instance](FChoice.Common~FChoice.Common.Licensing.LicenseManager~Instance.md) | Since this class is a [Singleton](http://c2.com/cgi/wiki?SingletonPattern) you must use this property to call instance methods.   |
 | ![Public Property](dotnetimages/publicProperty.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsInitialized](FChoice.Common~FChoice.Common.Licensing.LicenseManager~IsInitialized.md) | True if the singleton has been initialized.   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -26,9 +24,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [ReserveLicense](FChoice.Common~FChoice.Common.Licensing.LicenseManager~ReserveLicense.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [VerifyLicense](FChoice.Common~FChoice.Common.Licensing.LicenseManager~VerifyLicense.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

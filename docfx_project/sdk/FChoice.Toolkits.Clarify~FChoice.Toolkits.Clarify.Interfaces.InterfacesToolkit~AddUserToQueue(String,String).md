@@ -1,8 +1,4 @@
-﻿     AddUserToQueue(String,String) Method                                                   
-
-fcSDK Documentation
-
-AddUserToQueue(String,String) Method
+﻿### AddUserToQueue(String,String) Method
 
 Name of the Queue to which the User will be added.
 
@@ -13,10 +9,7 @@ Add a User to a Queue. This overload takes a set of required parameters for the 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function AddUserToQueue( _
    ByVal _queue_ As String, _
@@ -44,11 +37,9 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Queue the user was added to.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

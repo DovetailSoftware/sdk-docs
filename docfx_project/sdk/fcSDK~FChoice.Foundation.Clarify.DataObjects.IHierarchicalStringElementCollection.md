@@ -1,21 +1,13 @@
-﻿     IHierarchicalStringElementCollection Interface                                                   
-
-fcSDK Documentation
-
-IHierarchicalStringElementCollection Interface
+﻿### IHierarchicalStringElementCollection Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DefaultMemberAttribute](#)("Item")>
+' Declaration
+<DefaultMemberAttribute("Item")>
 Public Interface IHierarchicalStringElementCollection 
 
-\[[DefaultMemberAttribute](#)("Item")\]
+[DefaultMemberAttribute("Item")]
 public interface IHierarchicalStringElementCollection 
 
 #### Requirements
@@ -26,7 +18,7 @@ public interface IHierarchicalStringElementCollection
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

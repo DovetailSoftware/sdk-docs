@@ -1,26 +1,17 @@
-﻿     ConfigItemCache Property (IClarifyApplication)                                                   
-
-fcSDK Documentation
-
-ConfigItemCache Property (IClarifyApplication)
+﻿### ConfigItemCache Property (IClarifyApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 ReadOnly Property ConfigItemCache As [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.md)
 
 [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.md) ConfigItemCache {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

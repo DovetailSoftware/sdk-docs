@@ -1,8 +1,4 @@
-﻿     ReinstallSitePartToBinSetup Constructor                                                   
-
-fcSDK Documentation
-
-ReinstallSitePartToBinSetup Constructor
+﻿### ReinstallSitePartToBinSetup Constructor
 
 Objid of the Site Part being re-installed
 
@@ -15,23 +11,20 @@ Initializes a new instance of the ReinstallSitePartToBinSetup class.
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()>
+<ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _sitePartObjid_ As [Integer](#), _
+   ByVal _sitePartObjid_ As Integer, _
    ByVal _siteIDNum_ As String, _
-   ByVal _parentBinObjid_ As [Integer](#) _
+   ByVal _parentBinObjid_ As Integer _
 )
 
-\[[ConstructorIndexAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.md)()\]
+[ConstructorIndexAttribute()]
 public ReinstallSitePartToBinSetup( 
-   [int](#) _sitePartObjid_,
+   int _sitePartObjid_,
    string _siteIDNum_,
-   [int](#) _parentBinObjid_
+   int _parentBinObjid_
 )
 
 #### Parameters
@@ -48,11 +41,9 @@ _parentBinObjid_
 
 Objid of the parent Bin this Part will be re-installed under.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

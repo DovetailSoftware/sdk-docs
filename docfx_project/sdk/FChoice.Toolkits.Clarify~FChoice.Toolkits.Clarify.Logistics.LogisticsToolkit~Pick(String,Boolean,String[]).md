@@ -13,10 +13,7 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function Pick( _
    ByVal _partRequestDetailIDNum_ As String, _
@@ -27,7 +24,7 @@ Public Overloads Function Pick( _
 public [PickResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickResult.md) Pick( 
    string _partRequestDetailIDNum_,
    bool _useTransitions_,
-   params string\[\] _serialNumbers_
+   params string[] _serialNumbers_
 )
 
 #### Parameters
@@ -62,11 +59,9 @@ To allow for multiple calls to this API to be performed without extra complex t
 
 **NOTE**: This API must be called in conjunction with the [PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.md) API to work correctly.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

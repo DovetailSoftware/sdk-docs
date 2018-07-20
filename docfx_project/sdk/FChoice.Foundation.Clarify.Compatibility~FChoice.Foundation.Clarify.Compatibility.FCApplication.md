@@ -1,17 +1,9 @@
-﻿     FCApplication Class                                                   
-
-fcSDK Documentation
-
-FCApplication Class
+﻿### FCApplication Class
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 <[ComVisibleAttribute](#)(True)>
 <[GuidAttribute](#)("96EFBAF6-4FA0-4f71-A012-910F6CF61120")>
 <[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)>
@@ -29,7 +21,7 @@ public sealed class FCApplication : [IFCApplication](FChoice.Foundation.Clarify.
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCApplication**  
 
 #### Requirements
@@ -40,7 +32,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 
-See Also
+
 
 #### Reference
 

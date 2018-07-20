@@ -1,8 +1,4 @@
-﻿     MoveQuoteSetup Class Members                                                   
-
-fcSDK Documentation
-
-MoveQuoteSetup Class Members
+﻿### MoveQuoteSetup Class Members
 
 The following tables list the members exposed by [MoveQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveQuoteSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [MoveQuoteSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveQuoteSetup~_ctor.md) | Initializes a new instance of the MoveQuoteSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -21,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [NewWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveQuoteSetup~NewWipBin.md) | The new WipBin into which the Quote is to be moved.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [QuoteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveQuoteSetup~QuoteIDNum.md) | Quote Identifier.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

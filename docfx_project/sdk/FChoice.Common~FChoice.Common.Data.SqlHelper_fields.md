@@ -1,6 +1,4 @@
-﻿     SqlHelper Class Fields                                                   
-
-SqlHelper Class Fields
+﻿### SqlHelper Class Fields
 
 For a list of all members of this type, see [SqlHelper members](FChoice.Common~FChoice.Common.Data.SqlHelper_members.md).
 
@@ -10,9 +8,9 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png) | [IN_LIST_TOKEN](FChoice.Common~FChoice.Common.Data.SqlHelper~IN_LIST_TOKEN.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

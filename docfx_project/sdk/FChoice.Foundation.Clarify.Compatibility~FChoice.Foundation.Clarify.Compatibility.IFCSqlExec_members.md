@@ -1,8 +1,4 @@
-﻿     IFCSqlExec Interface Members                                                   
-
-fcSDK Documentation
-
-IFCSqlExec Interface Members
+﻿### IFCSqlExec Interface Members
 
 The following tables list the members exposed by [IFCSqlExec](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec.md).
 
@@ -13,7 +9,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Records](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec~Records.md) |   |
 | ![ Property](dotnetimages/Property.png) | [StayConnected](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec~StayConnected.md) |   |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -26,9 +22,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [FreeConnection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec~FreeConnection.md) |   |
 | ![ Method](dotnetimages/Method.png) | [OpenConnection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec~OpenConnection.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

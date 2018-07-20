@@ -1,8 +1,4 @@
-﻿     ConfigItemCache Class Properties                                                   
-
-fcSDK Documentation
-
-ConfigItemCache Class Properties
+﻿### ConfigItemCache Class Properties
 
 For a list of all members of this type, see [ConfigItemCache members](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ConfigItems](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache~ConfigItems.md) | Gets the collection of global config items   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache~Item.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     LicenseManager Class Methods                                                   
-
-LicenseManager Class Methods
+﻿### LicenseManager Class Methods
 
 For a list of all members of this type, see [LicenseManager members](FChoice.Common~FChoice.Common.Licensing.LicenseManager_members.md).
 
@@ -17,9 +15,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [ReserveLicense](FChoice.Common~FChoice.Common.Licensing.LicenseManager~ReserveLicense.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [VerifyLicense](FChoice.Common~FChoice.Common.Licensing.LicenseManager~VerifyLicense.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

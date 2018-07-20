@@ -1,26 +1,18 @@
-﻿     ReinstallSitePartToBinSetup Class                                                   
-
-fcSDK Documentation
-
-ReinstallSitePartToBinSetup Class
+﻿### ReinstallSitePartToBinSetup Class
 
 Used by the [ReinstallSitePartToBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~ReinstallSitePartToBin(ReinstallSitePartToBinSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class ReinstallSitePartToBinSetup 
 
 public class ReinstallSitePartToBinSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToBinSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

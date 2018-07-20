@@ -1,6 +1,4 @@
-﻿     DataParameterCollection Constructor(IDbDataParameter\[\])                                                   
-
-DataParameterCollection Constructor(IDbDataParameter\[\])
+﻿### DataParameterCollection Constructor(IDbDataParameter\[\])
 
 An array of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) classes which will be used to initially populate the new collection.
 
@@ -9,18 +7,18 @@ Creates a new instance of DataParameterCollection using the default [DbProvider]
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Function New( _
-   ByVal _parameters_() As [IDbDataParameter](#) _
+   ByVal _parameters_() As IDbDataParameter _
 )
+```
 
+```csharp
 public DataParameterCollection( 
-   [IDbDataParameter](#)\[\] _parameters_
+   IDbDataParameter\[\] _parameters_
 )
+```
 
 #### Parameters
 
@@ -28,11 +26,7 @@ _parameters_
 
 An array of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) classes which will be used to initially populate the new collection.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

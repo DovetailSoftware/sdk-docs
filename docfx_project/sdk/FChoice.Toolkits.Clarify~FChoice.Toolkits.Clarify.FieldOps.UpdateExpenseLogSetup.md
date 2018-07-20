@@ -1,26 +1,18 @@
-﻿     UpdateExpenseLogSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateExpenseLogSetup Class
+﻿### UpdateExpenseLogSetup Class
 
 Used by the [UpdateExpenseLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~UpdateExpenseLog(UpdateExpenseLogSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateExpenseLogSetup 
 
 public class UpdateExpenseLogSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.UpdateExpenseLogSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

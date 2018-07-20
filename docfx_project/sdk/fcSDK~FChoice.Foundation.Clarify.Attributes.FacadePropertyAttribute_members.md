@@ -1,8 +1,4 @@
-﻿     FacadePropertyAttribute Class Members                                                   
-
-fcSDK Documentation
-
-FacadePropertyAttribute Class Members
+﻿### FacadePropertyAttribute Class Members
 
 The following tables list the members exposed by [FacadePropertyAttribute](fcSDK~FChoice.Foundation.Clarify.Attributes.FacadePropertyAttribute.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [FacadePropertyAttribute Constructor](fcSDK~FChoice.Foundation.Clarify.Attributes.FacadePropertyAttribute~_ctor.md) | Overloaded.    |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -29,7 +25,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SetupExpression](fcSDK~FChoice.Foundation.Clarify.Attributes.FacadePropertyAttribute~SetupExpression.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
+
 
 Public Methods
 
@@ -43,9 +39,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [IsDefaultAttribute](#) | (Inherited from [System.Attribute](#)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [Match](#) | (Inherited from [System.Attribute](#)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

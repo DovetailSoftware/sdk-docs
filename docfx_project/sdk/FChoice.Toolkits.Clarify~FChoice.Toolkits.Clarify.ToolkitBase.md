@@ -1,18 +1,11 @@
-﻿     ToolkitBase Class                                                   
-
-fcSDK Documentation
-
-ToolkitBase Class
+﻿### ToolkitBase Class
 
 This class is used internally and not meant to be created by end users.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public MustInherit Class ToolkitBase 
 
@@ -20,7 +13,7 @@ public abstract class ToolkitBase
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.ToolkitBase**  
       [FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase.md)  
       [FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkitBase.md)  
@@ -39,7 +32,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     GetAdapter(IDbConnection,String) Method                                                   
-
-GetAdapter(IDbConnection,String) Method
+﻿### GetAdapter(IDbConnection,String) Method
 
 The database connection this adapter should use when performing database operations
 
@@ -11,10 +9,7 @@ Gets a database type-specific DbDataAdapter instance for this provider type (i.e
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads MustOverride Function GetAdapter( _
    ByVal _conn_ As [IDbConnection](#), _
@@ -40,11 +35,9 @@ The SQL statement to use as the SELECT command for this adapter
 
 A DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL), initialized to use the specified connection and SELECT SQL statement
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

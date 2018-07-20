@@ -1,23 +1,19 @@
-﻿     CacheType Enumeration                                                      
-
-fcSDK Documentation
-
-CacheType Enumeration
+﻿### CacheType Enumeration
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[FlagsAttribute](#)()>
+<FlagsAttribute()>
 Public Enum CacheType 
-   Inherits [System.Enum](#)
+   Inherits System.Enum
+```
 
-\[[FlagsAttribute](#)()\]
-public enum CacheType : [System.Enum](#) 
+```csharp
+[FlagsAttribute()]
+public enum CacheType : System.Enum 
+```
 
 Members
 
@@ -29,10 +25,10 @@ Members
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.ValueType](#)  
-      [System.Enum](#)  
-         **FChoice.Foundation.CacheType**  
+System.Object  
+System.ValueType  
+System.Enum  
+**FChoice.Foundation.CacheType**  
 
 #### Requirements
 
@@ -41,8 +37,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

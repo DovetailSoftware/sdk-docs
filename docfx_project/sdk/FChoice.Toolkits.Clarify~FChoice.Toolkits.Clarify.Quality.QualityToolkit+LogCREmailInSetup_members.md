@@ -12,7 +12,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [QualityToolkit.LogCREmailInSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit+LogCREmailInSetup~_ctor.md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -30,9 +30,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Subject](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup~Subject.md) | (Inherited from [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup~UserName.md) | User who created the log. If not set, the session user is used. (Inherited from [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)) |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

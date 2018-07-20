@@ -1,8 +1,4 @@
-﻿     UpdateContactByObjidSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateContactByObjidSetup Class Properties
+﻿### UpdateContactByObjidSetup Class Properties
 
 For a list of all members of this type, see [UpdateContactByObjidSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup_members.md).
 
@@ -29,9 +25,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup~SiteIDNum.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup~Title.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

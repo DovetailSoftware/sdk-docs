@@ -1,8 +1,4 @@
-﻿     GetHgbstElmObjID(String,String,Boolean,String\[\]) Method                                                   
-
-fcSDK Documentation
-
-GetHgbstElmObjID(String,String,Boolean,String\[\]) Method
+﻿### GetHgbstElmObjID(String,String,Boolean,String\[\]) Method
 
 The title of the user-defined list (HGBST)
 
@@ -13,23 +9,20 @@ One or more element titles which define the level in the list to retrieve
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function GetHgbstElmObjID( _
    ByVal _listTitle_ As String, _
    ByVal _elementTitle_ As String, _
    ByVal _throwErrors_ As Boolean, _
    ByVal ParamArray _elementTitles_() As String _
-) As [Integer](#)
+) As Integer
 
-public [int](#) GetHgbstElmObjID( 
+public int GetHgbstElmObjID( 
    string _listTitle_,
    string _elementTitle_,
    bool _throwErrors_,
-   params string\[\] _elementTitles_
+   params string[] _elementTitles_
 )
 
 #### Parameters
@@ -48,11 +41,9 @@ _elementTitles_
 
 One or more element titles which define the level in the list to retrieve
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

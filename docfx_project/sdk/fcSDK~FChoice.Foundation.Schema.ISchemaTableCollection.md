@@ -1,22 +1,18 @@
-﻿     ISchemaTableCollection Interface                                                   
-
-fcSDK Documentation
-
-ISchemaTableCollection Interface
+﻿### ISchemaTableCollection Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 Public Interface ISchemaTableCollection 
+```
 
-\[[DefaultMemberAttribute](#)("Item")\]
+```csharp
+[DefaultMemberAttribute("Item")]
 public interface ISchemaTableCollection 
+```
 
 #### Requirements
 
@@ -25,8 +21,6 @@ public interface ISchemaTableCollection
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

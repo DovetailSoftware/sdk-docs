@@ -1,6 +1,4 @@
-﻿     LicenseInfo Class Members                                                   
-
-LicenseInfo Class Members
+﻿### LicenseInfo Class Members
 
 The following tables list the members exposed by [LicenseInfo](FChoice.Common~FChoice.Common.Licensing.LicenseInfo.md).
 
@@ -19,9 +17,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserLicensesRemaining](FChoice.Common~FChoice.Common.Licensing.LicenseInfo~UserLicensesRemaining.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserRestriction](FChoice.Common~FChoice.Common.Licensing.LicenseInfo~UserRestriction.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

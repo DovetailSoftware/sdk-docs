@@ -1,28 +1,18 @@
-﻿     CommitTransaction Method (IFCSession)                                                   
-
-fcSDK Documentation
-
-CommitTransaction Method (IFCSession)
+﻿### CommitTransaction Method (IFCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610747765)>
+' Declaration
+<DispIdAttribute(1610747765)>
 Sub CommitTransaction() 
 
-\[[DispIdAttribute](#)(1610747765)\]
+[DispIdAttribute(1610747765)]
 void CommitTransaction()
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

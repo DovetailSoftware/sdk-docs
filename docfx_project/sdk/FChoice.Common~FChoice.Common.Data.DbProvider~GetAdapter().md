@@ -1,16 +1,11 @@
-﻿     GetAdapter() Method                                                   
-
-GetAdapter() Method
+﻿### GetAdapter() Method
 
 Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL) without any options set yet.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads MustOverride Function GetAdapter() As [DbDataAdapter](#)
 
@@ -20,11 +15,9 @@ public abstract [DbDataAdapter](#) GetAdapter()
 
 A DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL)
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     ApplyEcoSetup Class Properties                                                   
-
-fcSDK Documentation
-
-ApplyEcoSetup Class Properties
+﻿### ApplyEcoSetup Class Properties
 
 For a list of all members of this type, see [ApplyEcoSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup_members.md).
 
@@ -15,9 +11,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [EcoHeaderIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup~EcoHeaderIDNum.md) | Identifier of the ECO header   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup~UserName.md) | The user applying the ECO. If not set, the Toolkit session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

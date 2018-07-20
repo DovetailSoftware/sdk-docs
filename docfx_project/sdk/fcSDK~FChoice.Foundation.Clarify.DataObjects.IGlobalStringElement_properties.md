@@ -1,8 +1,4 @@
-﻿     IGlobalStringElement Interface Properties                                                   
-
-fcSDK Documentation
-
-IGlobalStringElement Interface Properties
+﻿### IGlobalStringElement Interface Properties
 
 For a list of all members of this type, see [IGlobalStringElement members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement_members.md).
 
@@ -18,9 +14,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [State](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement~State.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Title](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement~Title.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

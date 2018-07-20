@@ -1,17 +1,9 @@
-﻿     Item Property (StateCollection)                                                   
-
-fcSDK Documentation
-
-Item Property (StateCollection)
+﻿### Item Property (StateCollection)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Shadows ReadOnly Default Property Item( _
    ByVal _name_ As String, _
    ByVal _isFullName_ As Boolean _
@@ -28,11 +20,9 @@ _name_
 
 _isFullName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

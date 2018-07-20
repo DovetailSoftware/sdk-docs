@@ -1,8 +1,4 @@
-﻿     AddContactToContractSetup Class Members                                                   
-
-fcSDK Documentation
-
-AddContactToContractSetup Class Members
+﻿### AddContactToContractSetup Class Members
 
 The following tables list the members exposed by [AddContactToContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddContactToContractSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddContactToContractSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddContactToContractSetup~_ctor.md) | Initializes a new instance of the AddContactToContractSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -27,9 +23,9 @@ Identifies to which Contract the Contact will be added.
   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddContactToContractSetup~SiteIDNum.md) | Identifies the Site where the added Contact is located.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

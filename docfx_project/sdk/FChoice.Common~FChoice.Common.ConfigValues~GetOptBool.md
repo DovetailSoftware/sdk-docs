@@ -1,6 +1,4 @@
-﻿     GetOptBool Method                                                   
-
-GetOptBool Method
+﻿### GetOptBool Method
 
 Overload List
 
@@ -9,11 +7,7 @@ Overload List
 | [GetOptBool(Boolean,String,NameValueCollection)](FChoice.Common~FChoice.Common.ConfigValues~GetOptBool(Boolean,String,NameValueCollection).md) |   |
 | [GetOptBool(Boolean,String)](FChoice.Common~FChoice.Common.ConfigValues~GetOptBool(Boolean,String).md) |   |
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

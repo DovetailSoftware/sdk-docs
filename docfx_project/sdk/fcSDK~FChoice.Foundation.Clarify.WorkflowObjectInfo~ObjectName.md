@@ -1,26 +1,17 @@
-﻿     ObjectName Property (WorkflowObjectInfo)                                                   
-
-fcSDK Documentation
-
-ObjectName Property (WorkflowObjectInfo)
+﻿### ObjectName Property (WorkflowObjectInfo)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Property ObjectName As String
 
 public string ObjectName {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

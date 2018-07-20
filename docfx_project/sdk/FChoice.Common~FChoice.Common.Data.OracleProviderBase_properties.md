@@ -1,6 +1,4 @@
-﻿     OracleProviderBase Class Properties                                                   
-
-OracleProviderBase Class Properties
+﻿### OracleProviderBase Class Properties
 
 For a list of all members of this type, see [OracleProviderBase members](FChoice.Common~FChoice.Common.Data.OracleProviderBase_members.md).
 
@@ -15,9 +13,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RequiresDbNameParameter](FChoice.Common~FChoice.Common.Data.OracleProviderBase~RequiresDbNameParameter.md) | Overridden.    |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.OracleProviderBase~TypeMapper.md) | Overridden.    |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

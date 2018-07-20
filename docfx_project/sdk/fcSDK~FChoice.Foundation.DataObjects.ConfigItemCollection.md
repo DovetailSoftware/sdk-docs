@@ -1,33 +1,29 @@
-﻿     ConfigItemCollection Class                                                   
-
-fcSDK Documentation
-
-ConfigItemCollection Class
+﻿### ConfigItemCollection Class
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
-<[DefaultMemberAttribute](#)("Item")>
+<DefaultMemberAttribute("Item")>
 <SerializableAttribute()>
 Public MustInherit Class ConfigItemCollection 
    Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of ConfigItem)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
+```
 
-\[[DefaultMemberAttribute](#)("Item")\]
-\[SerializableAttribute()\]
+```csharp
+[DefaultMemberAttribute("Item")]
+[SerializableAttribute()]
 public abstract class ConfigItemCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<ConfigItem>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md) 
+```
 
 Inheritance Hierarchy
 
-[System.Object](#)  
-   [System.Collections.Generic.List<T>](#)  
-      [FChoice.Foundation.DataObjects.DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)  
-         **FChoice.Foundation.DataObjects.ConfigItemCollection**  
-            [FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md)  
+System.Object  
+[System.Collections.Generic.List<T>](#)  
+[FChoice.Foundation.DataObjects.DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)  
+**FChoice.Foundation.DataObjects.ConfigItemCollection**  
+[FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md)  
 
 #### Requirements
 
@@ -36,8 +32,6 @@ Inheritance Hierarchy
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-See Also
 
 #### Reference
 

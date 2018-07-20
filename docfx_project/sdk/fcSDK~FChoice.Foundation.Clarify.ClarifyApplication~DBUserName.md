@@ -1,18 +1,11 @@
-﻿     DBUserName Property (ClarifyApplication)                                                   
-
-fcSDK Documentation
-
-DBUserName Property (ClarifyApplication)
+﻿### DBUserName Property (ClarifyApplication)
 
 Name of the database user the application object is using to connect to the database.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public ReadOnly Property DBUserName As String
 
@@ -22,11 +15,9 @@ public string DBUserName {get;}
 
 Application database username
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

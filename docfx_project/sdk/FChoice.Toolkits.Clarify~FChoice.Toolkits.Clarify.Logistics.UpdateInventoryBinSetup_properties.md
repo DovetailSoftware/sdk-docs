@@ -1,8 +1,4 @@
-﻿     UpdateInventoryBinSetup Class Properties                                                   
-
-fcSDK Documentation
-
-UpdateInventoryBinSetup Class Properties
+﻿### UpdateInventoryBinSetup Class Properties
 
 For a list of all members of this type, see [UpdateInventoryBinSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup_members.md).
 
@@ -14,9 +10,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [IsActive](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup~IsActive.md) | Specifies whether this inventory bin is active (true) or inactive (false)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [NewBinName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup~NewBinName.md) | New name of the inventory bin   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,18 +1,11 @@
-﻿     ChangeOpportunityStage(ChangeOpportunityStageSetup) Method                                                   
-
-fcSDK Documentation
-
-ChangeOpportunityStage(ChangeOpportunityStageSetup) Method
+﻿### ChangeOpportunityStage(ChangeOpportunityStageSetup) Method
 
 Setup object for API invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function ChangeOpportunityStage( _
    ByVal _setupParam_ As [ChangeOpportunityStageSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStageSetup.md) _
@@ -32,11 +25,9 @@ Setup object for API invocation.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,26 +1,16 @@
-﻿     Description Property (HierarchicalStringList)                                                   
-
-fcSDK Documentation
-
-Description Property (HierarchicalStringList)
+﻿### Description Property (HierarchicalStringList)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public ReadOnly Property Description As String
 
 public string Description {get;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

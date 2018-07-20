@@ -1,8 +1,4 @@
-﻿     AcceptActionItem Method                                                   
-
-fcSDK Documentation
-
-AcceptActionItem Method
+﻿### AcceptActionItem Method
 
 Accept the specified ActionItem from the queue in which it is currently dispatched. This overload takes a set of required parameters for the API.
 
@@ -20,11 +16,9 @@ Remarks
 
 The ActionItem must be currently dispatched to a queue.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

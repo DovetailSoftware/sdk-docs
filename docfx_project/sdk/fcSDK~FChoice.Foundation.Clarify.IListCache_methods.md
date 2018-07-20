@@ -1,8 +1,4 @@
-﻿     IListCache Interface Methods                                                   
-
-fcSDK Documentation
-
-IListCache Interface Methods
+﻿### IListCache Interface Methods
 
 For a list of all members of this type, see [IListCache members](fcSDK~FChoice.Foundation.Clarify.IListCache_members.md).
 
@@ -28,9 +24,9 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [TryGetHgbstList](fcSDK~FChoice.Foundation.Clarify.IListCache~TryGetHgbstList.md) | Overloaded.    |
 | ![ Method](dotnetimages/Method.png) | [UpdateCache](fcSDK~FChoice.Foundation.Clarify.IListCache~UpdateCache.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

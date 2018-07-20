@@ -1,16 +1,9 @@
-﻿     GetTableRels Method (FCApplication)                                                   
-
-fcSDK Documentation
-
-GetTableRels Method (FCApplication)
+﻿### GetTableRels Method (FCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Function GetTableRels( _
    ByVal _tableName_ As String, _
@@ -28,11 +21,9 @@ _tableName_
 
 _allowOneToMany_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     CreateAccountSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateAccountSetup Class Properties
+﻿### CreateAccountSetup Class Properties
 
 For a list of all members of this type, see [CreateAccountSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAccountSetup_members.md).
 
@@ -27,9 +23,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAccountSetup~UserName.md) | The User creating the Account.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WebSite](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAccountSetup~WebSite.md) | URL of the web site for the Account.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

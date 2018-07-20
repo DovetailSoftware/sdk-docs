@@ -1,8 +1,4 @@
-﻿     CreateDepotRepairMaterialSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateDepotRepairMaterialSetup Class Properties
+﻿### CreateDepotRepairMaterialSetup Class Properties
 
 For a list of all members of this type, see [CreateDepotRepairMaterialSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairMaterialSetup_members.md).
 
@@ -24,9 +20,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairMaterialSetup~UserName.md) | The user creating the Material entry. If not set the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkCenter](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairMaterialSetup~WorkCenter.md) | Indicates where material was used   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

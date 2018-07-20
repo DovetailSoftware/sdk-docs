@@ -1,28 +1,19 @@
-﻿     CaseActualResearchTime Property                                                   
-
-fcSDK Documentation
-
-CaseActualResearchTime Property
+﻿### CaseActualResearchTime Property
 
 Actual research time for the Case
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
+Public Property CaseActualResearchTime As TimeSpan
 
-Public Property CaseActualResearchTime As [TimeSpan](#)
+public TimeSpan CaseActualResearchTime {get; set;}
 
-public [TimeSpan](#) CaseActualResearchTime {get; set;}
+[!include[Requirements](../partials/requirements.md)]
 
-#### Requirements
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
 
 #### Reference
 

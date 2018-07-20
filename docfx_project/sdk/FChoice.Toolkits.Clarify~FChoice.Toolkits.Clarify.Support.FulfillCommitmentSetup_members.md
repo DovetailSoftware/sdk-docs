@@ -1,8 +1,4 @@
-﻿     FulfillCommitmentSetup Class Members                                                   
-
-fcSDK Documentation
-
-FulfillCommitmentSetup Class Members
+﻿### FulfillCommitmentSetup Class Members
 
 The following tables list the members exposed by [FulfillCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [FulfillCommitmentSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup~_ctor.md) | Initializes a new instance of the FulfillCommitmentSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -23,9 +19,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [LogObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup~LogObjid.md) | Log Objid of the log to be fulfilled.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup~UserName.md) | The User who fulfilled the Commitment. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

@@ -1,26 +1,18 @@
-﻿     MoveSitePartToBinSetup Class                                                   
-
-fcSDK Documentation
-
-MoveSitePartToBinSetup Class
+﻿### MoveSitePartToBinSetup Class
 
 Used by the [MoveSitePartToBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~MoveSitePartToBin(MoveSitePartToBinSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class MoveSitePartToBinSetup 
 
 public class MoveSitePartToBinSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToBinSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

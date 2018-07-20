@@ -1,26 +1,22 @@
-﻿     RemoveSitePartFromContract(String,Int32) Method                                                   
-
-fcSDK Documentation
-
-RemoveSitePartFromContract(String,Int32) Method
+﻿### RemoveSitePartFromContract(String,Int32) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
  
-
 Public Overloads Function RemoveSitePartFromContract( _
    ByVal _contractIDNum_ As String, _
-   ByVal _sitePartObjid_ As [Integer](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _sitePartObjid_ As Integer _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RemoveSitePartFromContract( 
+```csharp
+public ToolkitResult RemoveSitePartFromContract( 
    string _contractIDNum_,
-   [int](#) _sitePartObjid_
+   int _sitePartObjid_
 )
+```
 
 #### Parameters
 
@@ -28,11 +24,7 @@ _contractIDNum_
 
 _sitePartObjid_
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

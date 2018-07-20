@@ -1,8 +1,4 @@
-﻿     CreateContractLineItem(CreateContractLineItemSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateContractLineItem(CreateContractLineItemSetup,IDbTransaction) Method
+﻿### CreateContractLineItem(CreateContractLineItemSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Used to create quote/contract line items. This overload takes a setup object and
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateContractLineItem( _
    ByVal _setupParam_ As [CreateContractLineItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup.md), _
@@ -54,11 +47,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

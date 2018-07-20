@@ -1,24 +1,20 @@
-﻿     FCSessionData Class                                                   
-
-fcSDK Documentation
-
-FCSessionData Class
+﻿### FCSessionData Class
 
 Repository for session data which is retained by the [FCApplication](fcSDK~FChoice.Foundation.FCApplication.md) between session uses.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 <SerializableAttribute()>
 Public MustInherit Class FCSessionData 
+```
 
-\[SerializableAttribute()\]
+```csharp
+[SerializableAttribute()]
 public abstract class FCSessionData 
+```
 
 Remarks
 
@@ -28,7 +24,7 @@ All session related information is stored in the **FCSessionData** object for us
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Foundation.FCSessionData**  
       [FChoice.Foundation.Clarify.ClarifySessionData](fcSDK~FChoice.Foundation.Clarify.ClarifySessionData.md)  
 
@@ -40,7 +36,7 @@ Inheritance Hierarchy
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

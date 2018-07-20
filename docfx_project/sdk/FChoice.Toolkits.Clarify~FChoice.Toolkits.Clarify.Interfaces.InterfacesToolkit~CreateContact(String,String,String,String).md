@@ -1,8 +1,4 @@
-﻿     CreateContact(String,String,String,String) Method                                                   
-
-fcSDK Documentation
-
-CreateContact(String,String,String,String) Method
+﻿### CreateContact(String,String,String,String) Method
 
 Contact first name
 
@@ -17,10 +13,7 @@ Creates a Contact. This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateContact( _
    ByVal _firstName_ As String, _
@@ -66,11 +59,9 @@ A default contact role for the [Site](FChoice.Toolkits.Clarify~FChoice.Toolkits.
 
 If you need to create duplicate contacts (same first name, last name, phone), you may use the [AllowDuplicateContact](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase~AllowDuplicateContact.md) property.
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

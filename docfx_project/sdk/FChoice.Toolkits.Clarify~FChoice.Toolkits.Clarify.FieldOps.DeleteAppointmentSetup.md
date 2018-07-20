@@ -1,26 +1,18 @@
-﻿     DeleteAppointmentSetup Class                                                   
-
-fcSDK Documentation
-
-DeleteAppointmentSetup Class
+﻿### DeleteAppointmentSetup Class
 
 Used by the [DeleteAppointment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DeleteAppointment(DeleteAppointmentSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class DeleteAppointmentSetup 
 
 public class DeleteAppointmentSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.DeleteAppointmentSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

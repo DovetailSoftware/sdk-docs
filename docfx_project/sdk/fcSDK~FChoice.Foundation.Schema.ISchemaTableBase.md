@@ -1,16 +1,9 @@
-﻿     ISchemaTableBase Interface                                                   
-
-fcSDK Documentation
-
-ISchemaTableBase Interface
+﻿### ISchemaTableBase Interface
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Interface ISchemaTableBase 
 
@@ -24,7 +17,7 @@ public interface ISchemaTableBase
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
-See Also
+
 
 #### Reference
 

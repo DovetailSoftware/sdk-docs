@@ -1,8 +1,4 @@
-﻿     CreateContractSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateContractSetup Class Members
+﻿### CreateContractSetup Class Members
 
 The following tables list the members exposed by [CreateContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContractSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateContractSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContractSetup~_ctor.md) | Initializes a new instance of the CreateContractSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -46,9 +42,9 @@ The maximum amount of time allowed by the Contract for a customer service repr
 | ![Public Property](dotnetimages/publicProperty.png) | [UnitType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContractSetup~UnitType.md) | The type of units the object is delivered in   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseSpecialConsiderations](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContractSetup~UseSpecialConsiderations.md) | Does Contract have special considerations?   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

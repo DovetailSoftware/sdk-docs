@@ -1,6 +1,4 @@
-﻿     DataParameterCollection Constructor(Int32)                                                   
-
-DataParameterCollection Constructor(Int32)
+﻿### DataParameterCollection Constructor(Int32)
 
 The initial capacity for this collection.
 
@@ -9,18 +7,18 @@ Creates a new instance of DataParameterCollection based on the default [DbProvi
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Function New( _
-   ByVal _capacity_ As [Integer](#) _
+   ByVal _capacity_ As Integer _
 )
+```
 
+```csharp
 public DataParameterCollection( 
-   [int](#) _capacity_
+   int _capacity_
 )
+```
 
 #### Parameters
 
@@ -28,11 +26,7 @@ _capacity_
 
 The initial capacity for this collection.
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

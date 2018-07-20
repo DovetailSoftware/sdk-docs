@@ -1,14 +1,9 @@
-﻿     ExecuteReader(CommandType,String,DataParameterCollection) Method                                                   
-
-ExecuteReader(CommandType,String,DataParameterCollection) Method
+﻿### ExecuteReader(CommandType,String,DataParameterCollection) Method
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Shared Function ExecuteReader( _
    ByVal _commandType_ As [CommandType](#), _
@@ -30,11 +25,9 @@ _commandText_
 
 _commandParams_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

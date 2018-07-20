@@ -1,22 +1,14 @@
-﻿     get_item Method (FCSession)                                                   
-
-fcSDK Documentation
-
-get_item Method (FCSession)
+﻿### get_item Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function get_item( _
    ByVal _key_ As String _
-) As [Object](#)
+) As Object
 
-public [object](#) get_item( 
+public object get_item( 
    string _key_
 )
 
@@ -24,11 +16,9 @@ public [object](#) get_item(
 
 _key_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

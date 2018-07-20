@@ -1,8 +1,4 @@
-﻿     CreateCRSetup Class Properties                                                   
-
-fcSDK Documentation
-
-CreateCRSetup Class Properties
+﻿### CreateCRSetup Class Properties
 
 For a list of all members of this type, see [CreateCRSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup_members.md).
 
@@ -33,9 +29,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup~UserName.md) | The user creating the CR. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [VerificationTest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup~VerificationTest.md) | List of verification tests for the Change Request   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

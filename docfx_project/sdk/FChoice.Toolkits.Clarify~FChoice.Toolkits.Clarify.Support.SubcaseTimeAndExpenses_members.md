@@ -1,8 +1,4 @@
-﻿     SubcaseTimeAndExpenses Class Members                                                   
-
-fcSDK Documentation
-
-SubcaseTimeAndExpenses Class Members
+﻿### SubcaseTimeAndExpenses Class Members
 
 The following tables list the members exposed by [SubcaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SubcaseTimeAndExpenses Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses~_ctor().md) |   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -25,9 +21,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [TotalNonBillableExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses~TotalNonBillableExpenses.md) | Captured non-billable expenses.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TotalNonBillableTime](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses~TotalNonBillableTime.md) | Captured non-billable time.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

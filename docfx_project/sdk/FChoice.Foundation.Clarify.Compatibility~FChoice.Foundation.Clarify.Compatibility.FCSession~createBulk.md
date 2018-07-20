@@ -1,17 +1,9 @@
-﻿     createBulk Method (FCSession)                                                   
-
-fcSDK Documentation
-
-createBulk Method (FCSession)
+﻿### createBulk Method (FCSession)
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Function createBulk( _
    ByVal _bulkName_ As String _
 ) As [IFCBulk](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk.md)
@@ -24,11 +16,9 @@ public [IFCBulk](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Cla
 
 _bulkName_
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

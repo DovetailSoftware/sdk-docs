@@ -1,8 +1,4 @@
-﻿     IGlobalStringList Interface Properties                                                   
-
-fcSDK Documentation
-
-IGlobalStringList Interface Properties
+﻿### IGlobalStringList Interface Properties
 
 For a list of all members of this type, see [IGlobalStringList members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList_members.md).
 
@@ -20,9 +16,9 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [ObjectID](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList~ObjectID.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Title](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList~Title.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

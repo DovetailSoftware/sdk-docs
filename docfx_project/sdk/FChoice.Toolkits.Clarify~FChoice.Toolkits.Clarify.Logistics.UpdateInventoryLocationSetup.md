@@ -1,26 +1,18 @@
-﻿     UpdateInventoryLocationSetup Class                                                   
-
-fcSDK Documentation
-
-UpdateInventoryLocationSetup Class
+﻿### UpdateInventoryLocationSetup Class
 
 Used by the [UpdateInventoryLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryLocation(UpdateInventoryLocationSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
-
+' Declaration
 Public Class UpdateInventoryLocationSetup 
 
 public class UpdateInventoryLocationSetup 
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    **FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup**  
 
 #### Requirements
@@ -31,7 +23,7 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
 
-See Also
+
 
 #### Reference
 

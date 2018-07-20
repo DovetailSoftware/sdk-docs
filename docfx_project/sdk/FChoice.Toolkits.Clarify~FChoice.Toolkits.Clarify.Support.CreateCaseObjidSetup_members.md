@@ -1,8 +1,4 @@
-﻿     CreateCaseObjidSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateCaseObjidSetup Class Members
+﻿### CreateCaseObjidSetup Class Members
 
 The following tables list the members exposed by [CreateCaseObjidSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseObjidSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateCaseObjidSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseObjidSetup~_ctor.md) | Initializes a new instance of the CreateCaseObjidSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -40,9 +36,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Title](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseObjidSetup~Title.md) | Title for the Case.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseObjidSetup~UserName.md) | The User who created the Case. If not set, the session user is used.   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

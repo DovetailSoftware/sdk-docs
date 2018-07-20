@@ -1,28 +1,20 @@
-﻿     PasswordRequired Property (FCSessionData)                                                   
-
-fcSDK Documentation
-
-PasswordRequired Property (FCSessionData)
+﻿### PasswordRequired Property (FCSessionData)
 
 Session option denoting whether a password was used to create a session.
 
 Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
- 
 
 Public Property PasswordRequired As Boolean
+```
 
+```csharp
 public bool PasswordRequired {get; set;}
+```
 
-#### Requirements
-
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
-
-See Also
+[!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 

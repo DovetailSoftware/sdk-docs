@@ -1,6 +1,4 @@
-﻿     XmlLicenseTool Class Properties                                                   
-
-XmlLicenseTool Class Properties
+﻿### XmlLicenseTool Class Properties
 
 For a list of all members of this type, see [XmlLicenseTool members](FChoice.Common~FChoice.Common.Licensing.XmlLicenseTool_members.md).
 
@@ -10,9 +8,9 @@ Public Properties
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [XmlFilePath](FChoice.Common~FChoice.Common.Licensing.XmlLicenseTool~XmlFilePath.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

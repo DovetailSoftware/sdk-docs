@@ -1,8 +1,4 @@
-﻿     CreateEcoLaborDetail(CreateEcoLaborDetailSetup,IDbTransaction) Method                                                   
-
-fcSDK Documentation
-
-CreateEcoLaborDetail(CreateEcoLaborDetailSetup,IDbTransaction) Method
+﻿### CreateEcoLaborDetail(CreateEcoLaborDetailSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -13,10 +9,7 @@ Add a Labor Detail to a ECO Header. This overload takes a setup object and a dat
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function CreateEcoLaborDetail( _
    ByVal _setupParam_ As [CreateEcoLaborDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoLaborDetailSetup.md), _
@@ -46,11 +39,9 @@ Example
 
 **Developer Walkthrough - Transaction support**
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

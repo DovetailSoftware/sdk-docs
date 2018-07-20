@@ -1,8 +1,4 @@
-﻿     SchemaCacheHelper Class Methods                                                   
-
-fcSDK Documentation
-
-SchemaCacheHelper Class Methods
+﻿### SchemaCacheHelper Class Methods
 
 For a list of all members of this type, see [SchemaCacheHelper members](fcSDK~FChoice.Foundation.Clarify.SchemaCacheHelper_members.md).
 
@@ -14,9 +10,9 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [DoesMsSqlColumnExist](fcSDK~FChoice.Foundation.Clarify.SchemaCacheHelper~DoesMsSqlColumnExist.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [DoesOracleColumnExist](fcSDK~FChoice.Foundation.Clarify.SchemaCacheHelper~DoesOracleColumnExist.md) |   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

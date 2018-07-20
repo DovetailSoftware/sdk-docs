@@ -1,8 +1,4 @@
-﻿     CreateDepotRepairMaterialSetup Class Members                                                   
-
-fcSDK Documentation
-
-CreateDepotRepairMaterialSetup Class Members
+﻿### CreateDepotRepairMaterialSetup Class Members
 
 The following tables list the members exposed by [CreateDepotRepairMaterialSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairMaterialSetup.md).
 
@@ -12,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreateDepotRepairMaterialSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairMaterialSetup~_ctor.md) | Initializes a new instance of the CreateDepotRepairMaterialSetup class.   |
 
-[Top](#top)
+
 
 Public Properties
 
@@ -32,9 +28,9 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairMaterialSetup~UserName.md) | The user creating the Material entry. If not set the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkCenter](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairMaterialSetup~WorkCenter.md) | Indicates where material was used   |
 
-[Top](#top)
 
-See Also
+
+
 
 #### Reference
 

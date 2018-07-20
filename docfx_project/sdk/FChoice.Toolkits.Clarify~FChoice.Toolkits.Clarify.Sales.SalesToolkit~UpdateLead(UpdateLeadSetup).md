@@ -1,8 +1,4 @@
-﻿     UpdateLead(UpdateLeadSetup) Method                                                   
-
-fcSDK Documentation
-
-UpdateLead(UpdateLeadSetup) Method
+﻿### UpdateLead(UpdateLeadSetup) Method
 
 Setup object for API invocation.
 
@@ -11,10 +7,7 @@ Used to update a Lead. This overload takes a setup object.
 Syntax
 
 ```vbnet
-```csharp
-
-'Declaration
- 
+' Declaration
 
 Public Overloads Function UpdateLead( _
    ByVal _setupParam_ As [UpdateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup.md) _
@@ -44,11 +37,9 @@ For updates, if data is specified it it will be set. If left blank (“”), th
 
 The user who updated the lead, and the date/time of the update can be specified. The API can also generate a time bomb (for business rules).
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 

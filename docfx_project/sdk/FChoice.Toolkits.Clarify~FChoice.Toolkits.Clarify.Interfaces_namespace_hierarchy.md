@@ -6,7 +6,7 @@ FChoice.Toolkits.Clarify.Interfaces Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
-[System.Object](#)  
+System.Object  
    [FChoice.Toolkits.Clarify.Interfaces.AcceptSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AcceptSolutionSetup.md)  
    [FChoice.Toolkits.Clarify.Interfaces.AddContactToContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddContactToContractSetup.md)  
    [FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup.md)  
@@ -86,7 +86,7 @@ Inheritance Hierarchy
       [FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeResult.md)  
       [FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md)  
 
-See Also
+
 
 #### Reference
 

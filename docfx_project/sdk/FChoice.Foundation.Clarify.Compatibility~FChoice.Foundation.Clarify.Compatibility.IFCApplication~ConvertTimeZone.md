@@ -1,28 +1,19 @@
-﻿     ConvertTimeZone Property (IFCApplication)                                                   
-
-fcSDK Documentation
-
-ConvertTimeZone Property (IFCApplication)
+﻿### ConvertTimeZone Property (IFCApplication)
 
 Syntax
 
 ```vbnet
-```csharp
+' Declaration
 
-'Declaration
- 
-
-<[DispIdAttribute](#)(1610743817)>
+<DispIdAttribute(1610743817)>
 Property ConvertTimeZone As Boolean
 
-\[[DispIdAttribute](#)(1610743817)\]
+[DispIdAttribute(1610743817)]
 bool ConvertTimeZone {get; set;}
 
-#### Requirements
+[!include[Requirements](../partials/requirements.md)]
 
-**Platforms:** Windows 98, Windows NT 4.0, Windows Millennium Edition, Windows 2000, Windows XP Home Edition, Windows XP Professional, Windows Server 2003 family
 
-See Also
 
 #### Reference
 
