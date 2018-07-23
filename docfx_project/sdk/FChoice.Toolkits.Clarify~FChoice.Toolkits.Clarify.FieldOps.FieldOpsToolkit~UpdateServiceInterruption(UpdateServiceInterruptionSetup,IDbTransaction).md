@@ -43,7 +43,7 @@ To use the original appointment time, don’t specify the start_time or end_time
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

@@ -41,7 +41,7 @@ The condition of the CR is changed to **CR Duplicate/Closed**.
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

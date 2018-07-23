@@ -5,15 +5,18 @@ This is a helper factory for creation of Filter objects.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustInherit NotInheritable Class FilterType 
+```
 
+```csharp
 public static class FilterType 
+```
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

@@ -41,7 +41,7 @@ If a transition does not yet exist for the conditions and request type, a new tr
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

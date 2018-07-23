@@ -41,7 +41,7 @@ This is augmented functionality from base Clarify, as a contract cannot be re-op
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

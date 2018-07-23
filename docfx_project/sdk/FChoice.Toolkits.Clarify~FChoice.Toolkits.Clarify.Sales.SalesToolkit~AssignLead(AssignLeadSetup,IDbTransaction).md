@@ -41,7 +41,7 @@ The Lead must be in the Open condition, and the user assigning the Lead does not
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

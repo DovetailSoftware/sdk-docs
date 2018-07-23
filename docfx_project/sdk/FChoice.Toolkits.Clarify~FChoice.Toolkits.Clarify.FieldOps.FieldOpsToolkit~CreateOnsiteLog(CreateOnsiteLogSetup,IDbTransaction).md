@@ -41,7 +41,7 @@ The object type and id of the focus object  (the case or subcase) must be suppl
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

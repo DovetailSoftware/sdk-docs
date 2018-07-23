@@ -13,7 +13,7 @@ public class LikeFilter : [OperationFilter](fcSDK~FChoice.Foundation.Filters.Ope
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

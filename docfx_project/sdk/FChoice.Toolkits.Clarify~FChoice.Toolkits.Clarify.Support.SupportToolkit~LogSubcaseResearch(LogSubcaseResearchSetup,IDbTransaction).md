@@ -41,7 +41,7 @@ It is possible to create a Commitment with this log. To do so set the [Commitmen
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

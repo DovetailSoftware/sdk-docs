@@ -49,7 +49,7 @@ To create a Part Request Header for a case or subcase, without respect for dashe
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

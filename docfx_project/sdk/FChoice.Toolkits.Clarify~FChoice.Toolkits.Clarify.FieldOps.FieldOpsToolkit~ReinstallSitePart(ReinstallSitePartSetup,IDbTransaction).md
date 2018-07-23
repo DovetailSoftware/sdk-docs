@@ -41,7 +41,7 @@ If the site part is to be reinstalled in a bin, the bin objid is specified. If i
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

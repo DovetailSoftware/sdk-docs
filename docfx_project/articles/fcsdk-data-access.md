@@ -2,7 +2,7 @@
 
 One of the basic and most important services the fcSDK offers (through FCFL.NET) is data access. You can use FCFL.NET to query, insert, update, and delete data in your Clarify™ database. fcSDK is designed to work within the rules of the Clarify™ system. This means that, if used properly, the fcSDK will read data written by other Clarify™ clients and also write data that is compatibile with them.
 
-Querying Data
+### Querying Data
 
 To query data with FCFL.NET, define a ClarifyGeneric for each table or view from which you wish to query, specify the relations that connect them (if at all) and then, if necessary, specify which fields to return, filters, and sorts to restrict the query.
 
@@ -59,7 +59,7 @@ Next
 
 In the above example, the site table query is setup to find the proper rows and sort them in the proper order -- sites whose type is 1 and sort them by their ID, descending. Next, the ClarifyGeneric is queried. Note that most of the queries that are done involve multiple ClarifyGenerics in which case the Query method on the ClarifyDataSet object is used to query them all as part of a single transaction.	Once the query is executed, the results are displayed to the console. For each site row returned by the query, this example prints out some information about that site.
 
-## Query Limitation
+### Query Limitation
 
 In most cases, queries will be unconstrained. That is, the query will return back as many rows as is possible. All of the records will be returned and put into the ClarifyGeneric's Rows collection.
 
@@ -137,7 +137,7 @@ Private Sub gCase_MaximumRowsExceeded( ByVal sender As FCGeneric, ByVal args As 
   ' To cancel the query
   args.CancelQuery = True
 End Sub
-
+```
 
 This example demonstrates how to constrain queries using the MaximumRows property. To gain finer-grained control over the behavior exhibited when the MaximumRows limit is exceeded, add an event handler to the MaximumRowsExceeded event. In this event handler, the total rows that would be returned if this were an unconstrained query can be retrieved using the TotalPossibleRows property on the MaximumRowsExceededEventArgs object instance. Likewise, the event handler can tell ClarifyGeneric to cancel the query altogether (using the CancelQuery property), or to redefine the row limit on the query (using the RowsToReturn property). Redefining the query is useful, for example, if the row limit is 100 rows and 101 rows are returned. Since there is only one extra row, it would be helpful to just return all 101 rows instead of hard-limiting the results to 100 rows.
 
@@ -169,9 +169,10 @@ ClarifyDataRow row = gCase[0];
 
 // Set the alt_address field
 row["alt_address"] = "Hello!"; 
+```
 
 [Visual Basic] 
-
+```vbnet
 ' Get the desired row (the first one, in this example)
 Dim row As ClarifyDataRow = gCase(0)
 
@@ -180,7 +181,6 @@ row("alt_address") = "Hello!"
 ```
 
 The second pattern used to modify data in a ClarifyGeneric is to relate or unrelate records. There are several convenience methods on ClarifyGeneric and ClarifyDataRow which help with setting up or removing different types of relations. The most common of these methods is the RelateRecord method on the ClarifyDataRow object. This method allows two records to be related using a specified relation name. For example, to relate a specific case to a site:
-
 
 [C#] 
 ```csharp
@@ -281,12 +281,11 @@ WARNING: The above example is not complete and is for illustration purposes only
 
 IMPORTANT: Updates, Deletes, and Inserts are not valid on view-based ClarifyGenerics or ClarifyGenerics queried using the IsDistinct flag.
 
-Updating A Row Without Querying First
+### Updating A Row Without Querying First
 
 For instances where the objid of a particular record is known and only a small bit of data needs to be updated (a few fields), it would be inefficient to query the row for the sole purpose of updating one or a few fields. This would involve two database round trips. It would be more efficient to create a new row in memory which reprepsents the real row in the database, change only the fields necessary, and then update the database using only a single database round trip. The AddForUpdate method on a ClarifyGeneric instance provides a convenient way to do this. This method will return a special row with no data in it. No query is executed to produce the row, it is created according to cached ADP/Schema data. The row's field values can then be changed as necessary. Only fields whose values have changed will be updated in the database when committing the operation.
 
-
-Deleting Data
+### Deleting Data
 
 There are two main ways to delete a record in the database using FCFL.NET:
 
@@ -309,13 +308,14 @@ IMPORTANT: Updates, Deletes, and Inserts are not valid on view-based ClarifyGene
 Committing Your Changes
 When all the desired changes have been performed on a row, ClarifyGeneric, or generics in a ClarifyDataSet, the operation must be committed to the database. There are three methods available depending on how large of scope of update is required:
 
-Single Row: Call Update on the specific ClarifyDataRow
+* Single Row: Call Update on the specific ClarifyDataRow
    (NOTE: Except for rows which have been deleted. These rows are no longer valid and cannot be accessed. Deletions can only take affect by calling Update on the ClarifyGeneric or Update on the ClarifyDataSet).
-Multiple Rows, Single Table: Call Update on the specific ClarifyGeneric.
-Multiple Rows, Multiple Tables in the same ClarifyDataSet: Call Update on the specific ClarifyDataSet.
+* Multiple Rows, Single Table: Call Update on the specific ClarifyGeneric.
+* Multiple Rows, Multiple Tables in the same ClarifyDataSet: Call Update on the specific ClarifyDataSet.
+
 Once one of these methods is called, the changes are immediately made to the database. Calling Update on a ClarifyGeneric or Update on a ClarifyDataSet processes all the rows as part of a single database transaction.
 
-Handling NULL Values
+### Handling NULL Values
 
 In the Clarify™ system, most fields are non-NULLable. There are a few exceptions, but non-null is generally the case. In the rare instances when NULL values must be dealt with, this section will cover how to use NULL values with ClarifyGeneric.
 
@@ -323,20 +323,20 @@ It is important to understand that NULL is not the same thing as an empty string
 
 There are four major circumstances in which NULL values will be a concern. The first is querying data, the second is testing for a NULL value in a field, the third is converting NULLs to empty strings, and the fourth is writing data.
 
-Querying NULL Data
+### Querying NULL Data
 
 ClarifyGeneric provides a convient way to filter on NULL values by using the AppendFilterIsNull method. This method allows a given field to be filtered on its NULL or non-NULL state. Alternatively, the QueryEmptyToNull property on a ClarifyGeneric can be set before the Query method is called. Next, call AppendFilter and use the StringOps.Equal operation and a value of String.Empty. ClarifyGeneric will then process the empty string appropriately according to the rules of the underlying database. Either way is acceptable and depends on the specific circumstance and usage pattern.
 
-Testing NULL Data
+### Testing NULL Data
 
 To test a specific field in a ClarifyDataRow for a NULL value, compare it to the System.DBNull.Value object from the .NET Framework.
 
-Converting NULL Strings to Empty Strings
+### Converting NULL Strings to Empty Strings
 
 To have ClarifyGeneric automatically convert all NULL values to String.Empty, set the SetNullStringsToEmpty property to true. When accessing a field on a specific ClarifyDataRow, which is actually NULL underneath, String.Empty will be returned instead. If Update is later called, ClarifyGeneric will recognize that the field is still NULL (NOT String.Empty, assuming it was not directly modified) and not update the database.
 
 NOTE: To have this behavior be the default for all ClarifyGenerics in the session, set the SetNullStringsToEmpty property on the current ClarifySession. instance.
 
-Writing NULL Data
+### Writing NULL Data
 
 To set a field on a ClarifyDataRow to NULL and have it saved to the database as NULL, simply set the value of the field to DBNull.Value. For more information on updating the value of a field in a ClarifyDataRow, see the section above called Updating Data

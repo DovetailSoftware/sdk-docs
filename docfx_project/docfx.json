@@ -16,6 +16,7 @@
     "content": [
       {
         "files": [
+          "articles/toc.yml",
           "api/*.yml",
           "sdk/toc.yml",
           "**.md"

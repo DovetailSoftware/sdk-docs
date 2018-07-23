@@ -8,12 +8,15 @@ Syntax
 ' Declaration
 Public Class FilterCollection 
    Inherits [System.Collections.ObjectModel.Collection(Of Filter)](#)
+```
 
+```csharp
 public class FilterCollection : [System.Collections.ObjectModel.Collection<Filter>](#) 
+```
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

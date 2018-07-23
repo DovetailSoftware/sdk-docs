@@ -13,7 +13,7 @@ public class OnFilter : [BetweenFilter](fcSDK~FChoice.Foundation.Filters.Between
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

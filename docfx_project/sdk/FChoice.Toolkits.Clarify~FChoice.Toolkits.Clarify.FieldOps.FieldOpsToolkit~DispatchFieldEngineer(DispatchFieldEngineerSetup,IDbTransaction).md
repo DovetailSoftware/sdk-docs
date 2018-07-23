@@ -41,7 +41,7 @@ The contact and site for the dispatch will be derived from the case/subcase. If 
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

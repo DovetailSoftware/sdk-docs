@@ -5,15 +5,18 @@ Filter on fields that are null
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Public Class IsNullFilter 
    Inherits [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)
+```
 
+```csharp
 public class IsNullFilter : [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md) 
+```
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

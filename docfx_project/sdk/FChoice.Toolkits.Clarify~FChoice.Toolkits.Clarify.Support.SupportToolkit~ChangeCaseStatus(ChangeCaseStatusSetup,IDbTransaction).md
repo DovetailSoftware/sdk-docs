@@ -41,7 +41,7 @@ The Case may be opened or closed, but the status selected must be valid for the 
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

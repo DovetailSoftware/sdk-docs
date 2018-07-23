@@ -41,7 +41,7 @@ The WipBin to place the Opportunity in may also be specified. This is augmented 
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

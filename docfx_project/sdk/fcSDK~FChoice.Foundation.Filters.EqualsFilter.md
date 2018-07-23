@@ -13,7 +13,7 @@ public class EqualsFilter : [OperationFilter](fcSDK~FChoice.Foundation.Filters.O
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

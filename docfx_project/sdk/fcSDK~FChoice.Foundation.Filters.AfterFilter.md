@@ -13,7 +13,7 @@ public class AfterFilter : [MoreThanFilter](fcSDK~FChoice.Foundation.Filters.Mor
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

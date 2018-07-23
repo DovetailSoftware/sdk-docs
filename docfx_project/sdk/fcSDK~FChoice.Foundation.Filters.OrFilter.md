@@ -13,7 +13,7 @@ public class OrFilter : [LogicalFilter](fcSDK~FChoice.Foundation.Filters.Logical
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

@@ -17,7 +17,7 @@ public abstract class ColumnBasedFilter : [Filter](fcSDK~FChoice.Foundation.Filt
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

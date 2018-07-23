@@ -43,7 +43,7 @@ When a site_part is moved, all sub-site_parts underneath it are also moved.
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

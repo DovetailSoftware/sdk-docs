@@ -41,7 +41,7 @@ This API will give a new rank to the. All other ranks are changed as necessary.
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

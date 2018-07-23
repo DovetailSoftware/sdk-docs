@@ -13,7 +13,7 @@ public class ContainsFilter : [LikeFilter](fcSDK~FChoice.Foundation.Filters.Like
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

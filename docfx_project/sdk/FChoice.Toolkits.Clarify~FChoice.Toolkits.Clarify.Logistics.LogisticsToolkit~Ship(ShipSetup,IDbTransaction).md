@@ -51,7 +51,7 @@ If no carrier name is provided, the dummy site will be used (objid of -2).
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

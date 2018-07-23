@@ -13,7 +13,7 @@ public class TodayFilter : [OnFilter](fcSDK~FChoice.Foundation.Filters.OnFilter.
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

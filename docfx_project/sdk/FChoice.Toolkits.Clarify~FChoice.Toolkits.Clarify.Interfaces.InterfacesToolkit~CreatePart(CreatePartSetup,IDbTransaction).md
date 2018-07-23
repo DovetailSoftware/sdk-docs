@@ -41,7 +41,7 @@ Just calling this API will **NOT** cause the part to be visible in Clarify. Ther
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

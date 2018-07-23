@@ -17,7 +17,7 @@ public class IsInFilter : [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.C
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

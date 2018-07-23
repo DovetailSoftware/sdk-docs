@@ -41,7 +41,7 @@ The quote may be in any valid condition, but the status selected MUST be valid f
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

@@ -13,7 +13,7 @@ public class OlderThanHoursFilter : [LessThanFilter](fcSDK~FChoice.Foundation.Fi
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

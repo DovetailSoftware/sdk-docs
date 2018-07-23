@@ -43,7 +43,7 @@ If you need to create duplicate contacts (same first name, last name, phone), yo
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

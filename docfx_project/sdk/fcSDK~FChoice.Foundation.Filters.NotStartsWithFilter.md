@@ -13,7 +13,7 @@ public class NotStartsWithFilter : [NotLikeFilter](fcSDK~FChoice.Foundation.Filt
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

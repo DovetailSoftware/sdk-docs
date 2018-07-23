@@ -13,7 +13,7 @@ public class StartsWithFilter : [LikeFilter](fcSDK~FChoice.Foundation.Filters.Li
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

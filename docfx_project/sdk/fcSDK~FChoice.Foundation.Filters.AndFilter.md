@@ -13,7 +13,7 @@ public class AndFilter : [LogicalFilter](fcSDK~FChoice.Foundation.Filters.Logica
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

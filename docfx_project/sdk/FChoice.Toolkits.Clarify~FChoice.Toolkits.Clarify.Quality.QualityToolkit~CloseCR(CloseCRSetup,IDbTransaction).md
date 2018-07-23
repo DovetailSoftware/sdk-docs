@@ -41,7 +41,7 @@ The CR must be in a condition/status that allows the transition to the Closed co
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

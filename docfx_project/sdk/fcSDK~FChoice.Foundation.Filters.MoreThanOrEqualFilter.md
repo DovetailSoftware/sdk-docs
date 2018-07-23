@@ -13,7 +13,7 @@ public class MoreThanOrEqualFilter : [OperationFilter](fcSDK~FChoice.Foundation.
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 

@@ -41,7 +41,7 @@ The Opportunity must be in the Open condition, and the user assigning the Opport
 
 Example
 
-**Developer Walkthrough - Transaction support**
+[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

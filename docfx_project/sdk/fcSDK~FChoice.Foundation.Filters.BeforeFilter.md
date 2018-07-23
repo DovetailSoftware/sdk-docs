@@ -13,7 +13,7 @@ public class BeforeFilter : [LessThanFilter](fcSDK~FChoice.Foundation.Filters.Le
 
 Example
 
-**Developer Walkthrough - Advanced Filtering**
+[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 Inheritance Hierarchy
 
