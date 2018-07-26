@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function CompareTo( _
    ByVal _obj_ As Object _
 ) As Integer
+```
 
+```csharp
 public int CompareTo( 
    object _obj_
 )
+```
 
 #### Parameters
 
 _obj_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function HasConstructorParameterPair( _
    ByVal _constructorIndex_ As Integer, _
    ByVal _parameterIndex_ As Integer _
 ) As Boolean
+```
 
+```csharp
 public bool HasConstructorParameterPair( 
    int _constructorIndex_,
    int _parameterIndex_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _constructorIndex_
 _parameterIndex_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

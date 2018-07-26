@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function LastIndexOf( _
    ByVal _item_ As [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) _
 ) As Integer
+```
 
+```csharp
 int LastIndexOf( 
    [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) _item_
 )
+```
 
 #### Parameters
 
 _item_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

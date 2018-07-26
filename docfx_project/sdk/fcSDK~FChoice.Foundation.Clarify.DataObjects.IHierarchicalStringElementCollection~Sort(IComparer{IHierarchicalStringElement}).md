@@ -1,29 +1,26 @@
-﻿     Sort(IComparer<IHierarchicalStringElement>) Method                                                   
-
-fcSDK Documentation
-
-Sort(IComparer<IHierarchicalStringElement>) Method
+﻿### Sort(IComparer<IHierarchicalStringElement>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub Sort( _
-   ByVal _comparer_ As [IComparer(Of IHierarchicalStringElement)](#) _
-) 
-
-void Sort( 
-   [IComparer<IHierarchicalStringElement>](#) _comparer_
+   ByVal _comparer_ As IComparer(Of IHierarchicalStringElement) _
 )
+```
+
+```csharp
+void Sort( 
+   IComparer<IHierarchicalStringElement> _comparer_
+)
+```
 
 #### Parameters
 
 _comparer_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

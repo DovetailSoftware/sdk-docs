@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetGbstElmObjid( _
    ByVal _listName_ As String, _
    ByVal _element_ As String _
 ) As Integer
+```
 
+```csharp
 public int GetGbstElmObjid( 
    string _listName_,
    string _element_
 )
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _listName_
 _element_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

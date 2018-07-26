@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property MaxLength As Integer
+'Declaration
 
+Public ReadOnly Property MaxLength As Integer
+```
+
+```csharp
 public int MaxLength {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

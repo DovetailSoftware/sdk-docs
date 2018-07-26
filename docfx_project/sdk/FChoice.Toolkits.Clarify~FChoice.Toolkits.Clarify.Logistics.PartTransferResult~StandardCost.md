@@ -5,15 +5,16 @@ Part Transfer Standard Cost.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property StandardCost As [Decimal](#)
+Public Property StandardCost As Decimal
+```
 
-public [decimal](#) StandardCost {get; set;}
+```csharp
+public decimal StandardCost {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

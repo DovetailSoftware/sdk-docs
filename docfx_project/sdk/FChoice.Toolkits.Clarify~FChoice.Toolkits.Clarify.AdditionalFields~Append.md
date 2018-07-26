@@ -11,18 +11,22 @@ Adds a field to be updated during the API invocation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub Append( _
    ByVal _field_ As String, _
-   ByVal _fieldType_ As [AdditionalFieldType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFieldType.md), _
+   ByVal _fieldType_ As AdditionalFieldType, _
    ByVal _val_ As Object _
 ) 
+```
 
+```csharp
 public void Append( 
    string _field_,
-   [AdditionalFieldType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFieldType.md) _fieldType_,
+   AdditionalFieldType _fieldType_,
    object _val_
 )
+```
 
 #### Parameters
 
@@ -39,8 +43,6 @@ _val_
 Value to put into the database field. This must be the appropriate type
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

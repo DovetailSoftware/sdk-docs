@@ -5,14 +5,16 @@ Gets a value indicating whether the current [GenericDataRow](fcSDK~FChoice.Foun
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property IsNew As Boolean
+'Declaration
 
+Public ReadOnly Property IsNew As Boolean
+```
+
+```csharp
 public bool IsNew {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

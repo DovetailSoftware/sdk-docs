@@ -3,11 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public MustInherit Class RemoteStateManager 
-   Implements [IStateManager](FChoice.Common~FChoice.Common.State.IStateManager.md) 
+'Declaration
 
-public abstract class RemoteStateManager : [IStateManager](FChoice.Common~FChoice.Common.State.IStateManager.md)  
+Public MustInherit Class RemoteStateManager 
+   Implements IStateManager 
+```
+
+```csharp
+public abstract class RemoteStateManager : IStateManager  
+```
 
 Inheritance Hierarchy
 
@@ -23,8 +27,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

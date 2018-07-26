@@ -19,27 +19,30 @@ Creates a Price Instance. This overload takes a set of required parameters for t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreatePriceInstance( _
    ByVal _partNumber_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _partRevision_ As String, _
    ByVal _priceProgram_ As String, _
-   ByVal _priceType_ As [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md), _
+   ByVal _priceType_ As PriceInstanceType, _
    ByVal _pricedQuantity_ As Integer, _
-   ByVal _price_ As [Decimal](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _price_ As Decimal _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreatePriceInstance( 
+```csharp
+public ToolkitResult CreatePriceInstance( 
    string _partNumber_,
    string _partDomain_,
    string _partRevision_,
    string _priceProgram_,
-   [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md) _priceType_,
+   PriceInstanceType _priceType_,
    int _pricedQuantity_,
-   [decimal](#) _price_
+   decimal _price_
 )
+```
 
 #### Parameters
 
@@ -73,7 +76,7 @@ Price of the part
 
 #### Return Value
 
-The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+The following values are populated in the ToolkitResult object returned by the API method:
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PriceInstance.
 
@@ -82,8 +85,6 @@ Remarks
 You many not have two prices (in the same schedule for the same part and quantity) overlap or have the price's [StartDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup~StartDate.md) or [EndDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup~EndDate.md) extend outside the span of the price program.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -15,12 +15,12 @@ Syntax
 
 Public Overloads Function Unpick( _
    ByVal _setupParam_ As [UnpickSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) Unpick( 
    [UnpickSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

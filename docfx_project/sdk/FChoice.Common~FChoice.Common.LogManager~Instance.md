@@ -5,11 +5,14 @@ Gets the singleton instance of LogManager.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shared ReadOnly Property Instance As [LogManager](FChoice.Common~FChoice.Common.LogManager.md)
+Public Shared ReadOnly Property Instance As LogManager
+```
 
-public static [LogManager](FChoice.Common~FChoice.Common.LogManager.md) Instance {get;}
+```csharp
+public static LogManager Instance {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 It is not necessary to do anything with the instance of LogManager. This is provided only for internal use in First Choice .NET products.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,17 +7,20 @@ LogDebug(String,Object\[\]) Method
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Sub LogDebug( _
    ByVal _format_ As String, _
    ByVal ParamArray _args_() As Object _
 ) 
+```
 
+```csharp
 public static void LogDebug( 
    string _format_,
    params object\[\] _args_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _format_
 _args_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

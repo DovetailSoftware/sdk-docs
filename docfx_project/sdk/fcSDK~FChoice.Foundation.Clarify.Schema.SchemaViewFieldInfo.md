@@ -3,12 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Class SchemaViewFieldInfo 
-   Inherits [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)
-   Implements [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
+'Declaration
 
-public class SchemaViewFieldInfo : [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md), [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md)  
+Public Class SchemaViewFieldInfo 
+   Inherits FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject
+   Implements FChoice.Foundation.DataObjects.IDataObject 
+```
+
+```csharp
+public class SchemaViewFieldInfo : FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject, FChoice.Foundation.DataObjects.IDataObject  
+```
 
 Inheritance Hierarchy
 
@@ -24,8 +28,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

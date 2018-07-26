@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Sub RemoveAt( _
    ByVal _index_ As Integer _
-) 
+)
+```
 
+```csharp
 void RemoveAt( 
    int _index_
 )
+```
 
 #### Parameters
 
 _index_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

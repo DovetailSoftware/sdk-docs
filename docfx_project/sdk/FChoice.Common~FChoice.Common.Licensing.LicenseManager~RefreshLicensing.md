@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Sub RefreshLicensing() 
+'Declaration
 
+Public Sub RefreshLicensing() 
+```
+
+```csharp
 public void RefreshLicensing()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

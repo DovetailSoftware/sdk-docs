@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function AuthenticateContact( _
    ByVal _username_ As String, _
    ByVal _password_ As String _
 ) As Boolean
+```
 
+```csharp
 public static bool AuthenticateContact( 
    string _username_,
    string _password_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _username_
 _password_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

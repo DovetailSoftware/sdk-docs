@@ -5,15 +5,16 @@ Clears all sort operations that have been [appended](fcSDK~FChoice.Foundation.F
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub ClearSorts() 
+```
 
+```csharp
 public void ClearSorts()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

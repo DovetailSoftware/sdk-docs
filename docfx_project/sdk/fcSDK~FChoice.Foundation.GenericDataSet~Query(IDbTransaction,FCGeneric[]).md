@@ -1,23 +1,22 @@
-﻿     Query(IDbTransaction,FCGeneric\[\]) Method                                                   
-
-fcSDK Documentation
-
-Query(IDbTransaction,FCGeneric\[\]) Method
+﻿### Query(IDbTransaction,FCGeneric\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub Query( _
-   ByVal _trans_ As [IDbTransaction](#), _
-   ByVal ParamArray _generics_() As [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) _
+   ByVal _trans_ As IDbTransaction, _
+   ByVal ParamArray _generics_() As FCGeneric _
 ) 
+```
 
+```csharp
 public void Query( 
-   [IDbTransaction](#) _trans_,
-   params [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)\[\] _generics_
+   IDbTransaction _trans_,
+   params FCGeneric\[\] _generics_
 )
+```
 
 #### Parameters
 
@@ -26,8 +25,6 @@ _trans_
 _generics_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

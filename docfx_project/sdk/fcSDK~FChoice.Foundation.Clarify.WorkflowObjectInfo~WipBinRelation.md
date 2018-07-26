@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property WipBinRelation As String
+'Declaration
 
+Public Property WipBinRelation As String
+```
+
+```csharp
 public string WipBinRelation {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

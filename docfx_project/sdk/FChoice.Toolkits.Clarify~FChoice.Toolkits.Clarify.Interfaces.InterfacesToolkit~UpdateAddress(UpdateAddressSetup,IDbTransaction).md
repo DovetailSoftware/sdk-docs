@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function UpdateAddress( _
    ByVal _setupParam_ As [UpdateAddressSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAddressSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateAddress( 
    [UpdateAddressSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAddressSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

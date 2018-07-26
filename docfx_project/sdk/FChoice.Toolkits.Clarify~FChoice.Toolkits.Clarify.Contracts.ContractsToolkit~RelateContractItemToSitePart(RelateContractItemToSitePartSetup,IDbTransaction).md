@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function RelateContractItemToSitePart( _
    ByVal _setupParam_ As [RelateContractItemToSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RelateContractItemToSitePart( 
    [RelateContractItemToSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property IsQueueableObject As Boolean
+```
 
+```csharp
 public bool IsQueueableObject {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

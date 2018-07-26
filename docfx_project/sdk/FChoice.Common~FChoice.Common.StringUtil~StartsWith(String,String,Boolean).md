@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function StartsWith( _
    ByVal _origVal_ As String, _
    ByVal _startVal_ As String, _
    ByVal _ignoreCase_ As Boolean _
 ) As Boolean
+```
 
+```csharp
 public static bool StartsWith( 
    string _origVal_,
    string _startVal_,
    bool _ignoreCase_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _startVal_
 _ignoreCase_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

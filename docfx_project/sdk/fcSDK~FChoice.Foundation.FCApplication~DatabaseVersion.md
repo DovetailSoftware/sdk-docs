@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property DatabaseVersion As [Version](#)
+'Declaration
 
-public [Version](#) DatabaseVersion {get;}
+Public ReadOnly Property DatabaseVersion As Version
+```
+
+```csharp
+public Version DatabaseVersion {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

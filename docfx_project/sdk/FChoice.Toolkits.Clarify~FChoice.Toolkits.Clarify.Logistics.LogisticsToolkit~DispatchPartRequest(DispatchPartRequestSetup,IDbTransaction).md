@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function DispatchPartRequest( _
    ByVal _setupParam_ As [DispatchPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchPartRequest( 
    [DispatchPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

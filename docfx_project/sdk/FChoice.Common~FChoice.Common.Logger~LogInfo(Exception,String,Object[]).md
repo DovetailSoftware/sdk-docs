@@ -1,6 +1,4 @@
-﻿     LogInfo(Exception,String,Object\[\]) Method                                                   
-
-LogInfo(Exception,String,Object\[\]) Method
+﻿### LogInfo(Exception,String,Object\[\]) Method
 
 The exception that is related to this entry. The details of the exception will be written to the configured appender(s).
 
@@ -13,19 +11,22 @@ Writes a INFO-level log entry if INFO-level logging is enabled as well as the de
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub LogInfo( _
-   ByVal _ex_ As [Exception](#), _
+   ByVal _ex_ As Exception, _
    ByVal _format_ As String, _
    ByVal ParamArray _args_() As Object _
 ) 
+```
 
+```csharp
 public void LogInfo( 
-   [Exception](#) _ex_,
+   Exception _ex_,
    string _format_,
-   params object\[\] _args_
+   params object[] _args_
 )
+```
 
 #### Parameters
 
@@ -46,8 +47,6 @@ Remarks
 If the current logger is not configured for INFO-level logging or lower, this method will do nothing.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

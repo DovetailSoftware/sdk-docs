@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Function GetAllLicenseInformation() As [ILicenseInfo()](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo.md)
+'Declaration
 
-public [ILicenseInfo\[\]](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo.md) GetAllLicenseInformation()
+Public Function GetAllLicenseInformation() As ILicenseInfo()
+```
+
+```csharp
+public ILicenseInfo[] GetAllLicenseInformation()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

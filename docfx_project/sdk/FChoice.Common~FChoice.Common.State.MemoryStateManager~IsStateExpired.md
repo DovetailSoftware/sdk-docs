@@ -4,6 +4,7 @@ Syntax
 
 ```vbnet
 ' Declaration
+
 Public Function IsStateExpired( _
    ByVal _id_ As Guid _
 ) As Boolean

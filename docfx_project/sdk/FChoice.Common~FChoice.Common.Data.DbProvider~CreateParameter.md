@@ -9,16 +9,20 @@ Creates a new IDbDataParameter of the specific underlying type for this database
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public MustOverride Function CreateParameter( _
    ByVal _name_ As String, _
    ByVal _value_ As Object _
 ) As IDbDataParameter
+```
 
+```csharp
 public abstract IDbDataParameter CreateParameter( 
    string _name_,
    object _value_
 )
+```
 
 #### Parameters
 
@@ -36,11 +40,9 @@ An IDbDataParameter instance which can be added to a parameter collection for a 
 
 Remarks
 
-See [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) for more information on how to use data parameters.
+See DataParameterCollection for more information on how to use data parameters.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

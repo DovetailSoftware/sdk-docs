@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub build_lists( _
    ByVal _int_fld1_ As String, _
@@ -16,12 +16,14 @@ Public Sub build_lists( _
    ByVal _str_val2_ As String, _
    ByVal _date_fld1_ As String, _
    ByVal _date_val1_ As String, _
-   ByRef _fld_list_ As [IFCList](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList.md), _
-   ByRef _type_list_ As [IFCList](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList.md), _
-   ByRef _val_list_ As [IFCList](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList.md), _
+   ByRef _fld_list_ As IFCList, _
+   ByRef _type_list_ As IFCList, _
+   ByRef _val_list_ As IFCList, _
    ByRef _list_used_ As Short _
 ) 
+```
 
+```csharp
 public void build_lists( 
    string _int_fld1_,
    int _int_val1_,
@@ -33,11 +35,12 @@ public void build_lists(
    string _str_val2_,
    string _date_fld1_,
    string _date_val1_,
-   ref [IFCList](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList.md) _fld_list_,
-   ref [IFCList](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList.md) _type_list_,
-   ref [IFCList](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList.md) _val_list_,
+   ref IFCList _fld_list_,
+   ref IFCList _type_list_,
+   ref IFCList _val_list_,
    ref short _list_used_
 )
+```
 
 #### Parameters
 
@@ -70,8 +73,6 @@ _val_list_
 _list_used_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

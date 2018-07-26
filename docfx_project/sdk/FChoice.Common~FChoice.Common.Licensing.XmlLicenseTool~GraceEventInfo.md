@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GraceEventInfo( _
    ByVal _licenseKey_ As String _
-) As [Date()](#)
+) As Date()
+```
 
-public [DateTime\[\]](#) GraceEventInfo( 
+```csharp
+public DateTime[] GraceEventInfo( 
    string _licenseKey_
 )
+```
 
 #### Parameters
 
 _licenseKey_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

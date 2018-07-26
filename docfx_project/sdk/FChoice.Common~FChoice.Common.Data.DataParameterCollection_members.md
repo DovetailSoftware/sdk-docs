@@ -1,6 +1,6 @@
 ﻿### DataParameterCollection Class Members
 
-The following tables list the members exposed by [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md).
+The following tables list the members exposed by DataParameterCollection.
 
 Public Constructors
 

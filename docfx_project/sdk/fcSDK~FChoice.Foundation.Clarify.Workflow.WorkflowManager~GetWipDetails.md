@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub GetWipDetails( _
-   ByVal _wipGen_ As [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md), _
-   ByVal _info_ As [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md) _
+   ByVal _wipGen_ As ClarifyGeneric, _
+   ByVal _info_ As WorkFlowInfo _
 ) 
+```
 
+```csharp
 public void GetWipDetails( 
-   [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) _wipGen_,
-   [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md) _info_
+   ClarifyGeneric _wipGen_,
+   WorkFlowInfo _info_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _wipGen_
 _info_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

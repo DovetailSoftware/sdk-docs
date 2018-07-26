@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property ad_auto As Boolean
+'Declaration
 
+Public Property ad_auto As Boolean
+```
+
+```csharp
 public bool ad_auto {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

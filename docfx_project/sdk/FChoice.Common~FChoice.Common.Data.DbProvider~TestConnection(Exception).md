@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function TestConnection( _
-   ByRef _outEx_ As [Exception](#) _
+   ByRef _outEx_ As Exception _
 ) As Boolean
+```
 
+```csharp
 public bool TestConnection( 
-   out [Exception](#) _outEx_
+   out Exception _outEx_
 )
+```
 
 #### Parameters
 
 _outEx_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shadows Sub Add( _
-   ByVal _loc_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _
+   ByVal _loc_ As Location _
 ) 
+```
 
+```csharp
 public new void Add( 
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _loc_
+   Location _loc_
 )
+```
 
 #### Parameters
 
 _loc_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

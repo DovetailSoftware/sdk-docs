@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function CloseCR( _
    ByVal _setupParam_ As [CloseCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CloseCR( 
    [CloseCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

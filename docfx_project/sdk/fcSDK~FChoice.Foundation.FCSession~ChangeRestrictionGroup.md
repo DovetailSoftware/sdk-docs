@@ -9,16 +9,20 @@ Changes the [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionG
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Overridable Sub ChangeRestrictionGroup( _
    ByVal _newGroupName_ As String, _
    ByVal _saveChange_ As Boolean _
 ) 
+```
 
+```csharp
 public virtual void ChangeRestrictionGroup( 
    string _newGroupName_,
    bool _saveChange_
 )
+```
 
 #### Parameters
 
@@ -31,8 +35,6 @@ _saveChange_
 Make the new [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md) permanent.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

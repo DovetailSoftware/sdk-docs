@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function LogLeadPhone( _
    ByVal _setupParam_ As [LogLeadPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogLeadPhone( 
    [LogLeadPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

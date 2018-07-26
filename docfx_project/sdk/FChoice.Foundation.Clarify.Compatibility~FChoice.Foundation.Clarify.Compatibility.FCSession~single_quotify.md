@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function single_quotify( _
    ByVal _inputString_ As String _
 ) As String
+```
 
+```csharp
 public string single_quotify( 
    string _inputString_
 )
+```
 
 #### Parameters
 
 _inputString_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

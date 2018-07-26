@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743864)>
 Function Count() As Integer
+```
 
+```csharp
 [DispIdAttribute(1610743864)]
 int Count()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function UpdateCaseCommitment( _
    ByVal _setupParam_ As [UpdateCaseCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateCaseCommitment( 
    [UpdateCaseCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

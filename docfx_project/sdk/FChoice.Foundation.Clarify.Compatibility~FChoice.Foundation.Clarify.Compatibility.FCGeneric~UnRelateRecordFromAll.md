@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub UnRelateRecordFromAll( _
    ByVal _relationName_ As String _
 ) 
+```
 
+```csharp
 public void UnRelateRecordFromAll( 
    string _relationName_
 )
+```
 
 #### Parameters
 
 _relationName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

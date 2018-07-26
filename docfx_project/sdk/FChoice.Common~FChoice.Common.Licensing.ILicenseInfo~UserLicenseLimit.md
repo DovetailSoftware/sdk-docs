@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 ReadOnly Property UserLicenseLimit As Integer
+```
 
+```csharp
 int UserLicenseLimit {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

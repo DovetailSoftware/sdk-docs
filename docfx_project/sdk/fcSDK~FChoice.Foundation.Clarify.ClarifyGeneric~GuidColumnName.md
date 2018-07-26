@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared ReadOnly GuidColumnName As String
+```
 
+```csharp
 public static readonly string GuidColumnName
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

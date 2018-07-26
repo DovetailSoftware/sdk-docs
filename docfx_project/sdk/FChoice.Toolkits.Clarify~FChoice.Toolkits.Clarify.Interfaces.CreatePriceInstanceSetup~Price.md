@@ -5,17 +5,18 @@ Price of the part
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property Price As [Decimal](#)
+<PropertyBitValueAttribute()>
+Public Property Price As Decimal
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [decimal](#) Price {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public decimal Price {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

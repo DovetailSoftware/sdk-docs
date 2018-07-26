@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 ReadOnly Property UtcOffsetSeconds As Integer
+```
 
+```csharp
 int UtcOffsetSeconds {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

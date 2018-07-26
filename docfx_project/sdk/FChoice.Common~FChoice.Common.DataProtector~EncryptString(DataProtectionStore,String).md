@@ -9,17 +9,20 @@ Encrypts a string and returns a Base64-encoded string representing the encrypted
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function EncryptString( _
    ByVal _keyStore_ As [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md), _
    ByVal _plainText_ As String _
 ) As String
+```
 
+```csharp
 public static string EncryptString( 
    [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md) _keyStore_,
    string _plainText_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ Remarks
 ![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

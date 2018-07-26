@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ConvertDate( _
    ByVal _date_ As Date, _
-   ByVal _toZone_ As [ITimeZone](fcSDK~FChoice.Foundation.DataObjects.ITimeZone.md) _
+   ByVal _toZone_ As ITimeZone _
 ) As Date
+```
 
+```csharp
 public DateTime ConvertDate( 
    DateTime _date_,
-   [ITimeZone](fcSDK~FChoice.Foundation.DataObjects.ITimeZone.md) _toZone_
+   ITimeZone _toZone_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _date_
 _toZone_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Function CurrentSessions() As [FCSessionSummary()](fcSDK~FChoice.Foundation.FCSessionSummary.md)
+Function CurrentSessions() As FCSessionSummary()
+```
 
-[FCSessionSummary\[\]](fcSDK~FChoice.Foundation.FCSessionSummary.md) CurrentSessions()
+```csharp
+FCSessionSummary[] CurrentSessions()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

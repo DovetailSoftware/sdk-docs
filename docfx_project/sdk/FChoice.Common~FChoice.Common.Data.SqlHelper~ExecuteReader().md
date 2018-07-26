@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Function ExecuteReader() As [IDataReader](#)
+Public Overloads Function ExecuteReader() As IDataReader
+```
 
-public [IDataReader](#) ExecuteReader()
+```csharp
+public IDataReader ExecuteReader()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

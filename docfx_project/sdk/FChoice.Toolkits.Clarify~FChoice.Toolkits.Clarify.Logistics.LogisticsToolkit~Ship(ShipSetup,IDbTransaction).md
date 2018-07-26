@@ -15,12 +15,12 @@ Syntax
 
 Public Overloads Function Ship( _
    ByVal _setupParam_ As [ShipSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) Ship( 
    [ShipSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

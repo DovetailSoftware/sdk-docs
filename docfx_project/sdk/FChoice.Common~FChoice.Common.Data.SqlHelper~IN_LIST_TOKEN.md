@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Const IN_LIST_TOKEN As String
+'Declaration
 
+Public Const IN_LIST_TOKEN As String
+```
+
+```csharp
 public const string IN_LIST_TOKEN
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     Contains(Object\[\]) Method                                                   
-
-fcSDK Documentation
-
-Contains(Object\[\]) Method
+﻿### Contains(Object[]) Method
 
 The value of the primary key to test for.
 
@@ -11,15 +7,18 @@ Test if one ore more [GenericDataRows](fcSDK~FChoice.Foundation.GenericDataRow.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function Contains( _
    ByVal _keys_() As Object _
 ) As Boolean
+```
 
+```csharp
 public bool Contains( 
    object\[\] _keys_
 )
+```
 
 #### Parameters
 
@@ -32,8 +31,6 @@ Remarks
 The implementation of Contains is delegated to DataRowCollection's [Contains](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatarowcollectionclasscontainstopic.htm).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

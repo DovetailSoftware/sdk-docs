@@ -9,17 +9,20 @@ Executes the the specified SQL against the database using the default [DbProvi
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function ExecuteDataSet( _
-   ByVal _commandType_ As [CommandType](#), _
+   ByVal _commandType_ As CommandType, _
    ByVal _commandText_ As String _
 ) As DataSet
+```
 
+```csharp
 public static DataSet ExecuteDataSet( 
-   [CommandType](#) _commandType_,
+   CommandType _commandType_,
    string _commandText_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ In no case will the DataSet returned be a null reference (**Nothing** in Visual 
 When the _commandType_ parameter is set to **StoredProcedure**, set the _commandText_ parameter to the name of the stored procedure. The user may be required to use escape character syntax if the stored procedure name contains any special characters. The command will call this stored procedure when you call one of the Execute methods.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

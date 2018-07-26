@@ -3,13 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class HierarchicalStringList 
-   Inherits [ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)
-   Implements [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md), [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
+   Inherits ClarifyDataObject
+   Implements IHierarchicalStringList, FChoice.Foundation.DataObjects.IDataObject 
+```
 
-public class HierarchicalStringList : [ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md), [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md), [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md)  
+```csharp
+public class HierarchicalStringList : ClarifyDataObject, IHierarchicalStringList, FChoice.Foundation.DataObjects.IDataObject  
+```
 
 Inheritance Hierarchy
 
@@ -25,8 +28,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

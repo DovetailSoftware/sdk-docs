@@ -3,7 +3,8 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub AppendFilter( _
    ByVal _fcGeneric_ As Object, _
    ByVal _fieldName_ As String, _
@@ -11,7 +12,9 @@ Public Sub AppendFilter( _
    ByVal _filterValue_ As Object, _
    Optional ByVal _isAndOr_ As Object _
 ) 
+```
 
+```csharp
 public void AppendFilter( 
    object _fcGeneric_,
    string _fieldName_,
@@ -19,6 +22,7 @@ public void AppendFilter(
    object _filterValue_,
    object _isAndOr_
 )
+```
 
 #### Parameters
 
@@ -33,8 +37,6 @@ _filterValue_
 _isAndOr_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

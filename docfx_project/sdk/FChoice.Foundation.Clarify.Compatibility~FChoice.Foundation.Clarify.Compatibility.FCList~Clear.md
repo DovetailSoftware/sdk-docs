@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub Clear() 
+```
 
+```csharp
 public void Clear()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

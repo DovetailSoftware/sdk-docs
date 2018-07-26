@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property ErrorOnQueryTooBig As Boolean
+'Declaration
 
+Public Property ErrorOnQueryTooBig As Boolean
+```
+
+```csharp
 public bool ErrorOnQueryTooBig {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

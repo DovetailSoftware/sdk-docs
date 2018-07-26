@@ -15,12 +15,12 @@ Syntax
 
 Public Overloads Function PartTransfer( _
    ByVal _setupParam_ As [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md)
 
 public [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md) PartTransfer( 
    [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

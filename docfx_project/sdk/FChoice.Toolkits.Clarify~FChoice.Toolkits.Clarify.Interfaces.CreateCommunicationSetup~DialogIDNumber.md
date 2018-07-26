@@ -5,14 +5,16 @@ The ID of the parent dialogue.
 Syntax
 
 ```vbnet
-' Declaration
-Public Property DialogIDNumber As String
+'Declaration
 
+Public Property DialogIDNumber As String
+```
+
+```csharp
 public string DialogIDNumber {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

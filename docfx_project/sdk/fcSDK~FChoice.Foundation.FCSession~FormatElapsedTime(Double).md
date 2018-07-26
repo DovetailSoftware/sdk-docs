@@ -7,15 +7,18 @@ Formats an numeric value in seconds into a string "DDD HH MMM" where: D=Days, H
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Overridable Function FormatElapsedTime( _
    ByVal _elapsedTime_ As Double _
 ) As String
+```
 
+```csharp
 public virtual string FormatElapsedTime( 
    double _elapsedTime_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _elapsedTime_
 Numeric value in seconds to be formatted
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

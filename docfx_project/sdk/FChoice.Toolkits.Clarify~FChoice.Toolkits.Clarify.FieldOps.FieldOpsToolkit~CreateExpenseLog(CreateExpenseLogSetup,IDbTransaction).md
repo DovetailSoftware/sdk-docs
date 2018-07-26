@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function CreateExpenseLog( _
    ByVal _setupParam_ As [CreateExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [CreateExpenseLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult.md)
 
 public [CreateExpenseLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult.md) CreateExpenseLog( 
    [CreateExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

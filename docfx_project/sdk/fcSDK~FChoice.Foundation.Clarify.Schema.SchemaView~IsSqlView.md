@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property IsSqlView As Boolean
+'Declaration
 
+Public ReadOnly Property IsSqlView As Boolean
+```
+
+```csharp
 public bool IsSqlView {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

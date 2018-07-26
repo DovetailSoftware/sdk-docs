@@ -5,15 +5,16 @@ Email addresses of persons CC'd on the email being logged.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property CCList As String
+```
 
+```csharp
 public string CCList {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

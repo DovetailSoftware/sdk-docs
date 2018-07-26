@@ -1,25 +1,24 @@
-﻿     LogWarn(Exception,String,Object\[\]) Method                                                   
-
-fcSDK Documentation
-
-LogWarn(Exception,String,Object\[\]) Method
+﻿### LogWarn(Exception,String,Object\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Sub LogWarn( _
-   ByVal _ex_ As [Exception](#), _
+   ByVal _ex_ As Exception, _
    ByVal _format_ As String, _
    ByVal ParamArray _args_() As Object _
 ) 
+```
 
+```csharp
 public static void LogWarn( 
-   [Exception](#) _ex_,
+   Exception _ex_,
    string _format_,
-   params object\[\] _args_
+   params object[] _args_
 )
+```
 
 #### Parameters
 
@@ -30,8 +29,6 @@ _format_
 _args_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

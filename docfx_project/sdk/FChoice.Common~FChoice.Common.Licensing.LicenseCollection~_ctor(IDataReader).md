@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _licenseReader_ As [IDataReader](#) _
+   ByVal _licenseReader_ As IDataReader _
 )
+```
 
+```csharp
 public LicenseCollection( 
-   [IDataReader](#) _licenseReader_
+   IDataReader _licenseReader_
 )
+```
 
 #### Parameters
 
 _licenseReader_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

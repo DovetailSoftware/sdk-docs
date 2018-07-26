@@ -3,12 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Class SchemaTableField 
-   Inherits [SchemaFieldBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md)
-   Implements [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md), [FChoice.Foundation.Schema.ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md) 
+'Declaration
 
-public class SchemaTableField : [SchemaFieldBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md), [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md), [FChoice.Foundation.Schema.ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md)  
+Public Class SchemaTableField 
+   Inherits SchemaFieldBase
+   Implements FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaField 
+```
+
+```csharp
+public class SchemaTableField : SchemaFieldBase, FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaField  
+```
 
 Inheritance Hierarchy
 
@@ -25,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

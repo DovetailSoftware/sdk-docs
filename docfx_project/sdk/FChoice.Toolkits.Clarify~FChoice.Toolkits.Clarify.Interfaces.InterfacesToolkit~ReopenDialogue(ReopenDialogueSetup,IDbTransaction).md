@@ -7,12 +7,12 @@ Syntax
 
 Public Overloads Function ReopenDialogue( _
    ByVal _setup_ As [ReopenDialogueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReopenDialogueSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReopenDialogue( 
    [ReopenDialogueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReopenDialogueSetup.md) _setup_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

@@ -44,8 +44,6 @@ System.Object
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-
-
 #### Reference
 
 [ConfigValues Members](FChoice.Common~FChoice.Common.ConfigValues_members.md)  

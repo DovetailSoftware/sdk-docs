@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property OwnerRelation As String
+'Declaration
 
+Public ReadOnly Property OwnerRelation As String
+```
+
+```csharp
 public string OwnerRelation {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

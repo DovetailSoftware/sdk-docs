@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function GetSubcaseTimeAndExpenses( _
    ByVal _setupParam_ As [GetSubcaseTimeAndExpensesSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [GetSubcaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult.md)
 
 public [GetSubcaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult.md) GetSubcaseTimeAndExpenses( 
    [GetSubcaseTimeAndExpensesSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Function SupportedLocales() As [IEnumerable(Of CultureInfo)](#)
+Function SupportedLocales() As IEnumerable(Of CultureInfo)
+```
 
-[IEnumerable<CultureInfo>](#) SupportedLocales()
+```csharp
+IEnumerable<CultureInfo> SupportedLocales()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

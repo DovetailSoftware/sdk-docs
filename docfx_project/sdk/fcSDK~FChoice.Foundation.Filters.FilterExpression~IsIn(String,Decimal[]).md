@@ -1,23 +1,22 @@
-﻿     IsIn(String,Decimal\[\]) Method                                                   
-
-fcSDK Documentation
-
-IsIn(String,Decimal\[\]) Method
+﻿### IsIn(String,Decimal\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function IsIn( _
    ByVal _columnName_ As String, _
-   ByVal ParamArray _values_() As [Decimal](#) _
-) As [IsInFilter](fcSDK~FChoice.Foundation.Filters.IsInFilter.md)
+   ByVal ParamArray _values_() As Decimal _
+) As IsInFilter
+```
 
-public [IsInFilter](fcSDK~FChoice.Foundation.Filters.IsInFilter.md) IsIn( 
+```csharp
+public IsInFilter IsIn( 
    string _columnName_,
-   params [decimal](#)\[\] _values_
+   params decimal[] _values_
 )
+```
 
 #### Parameters
 
@@ -26,8 +25,6 @@ _columnName_
 _values_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

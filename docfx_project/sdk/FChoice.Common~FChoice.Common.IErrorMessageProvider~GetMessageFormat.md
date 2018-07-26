@@ -7,15 +7,18 @@ Called by [FCExceptionBase Class](FChoice.Common~FChoice.Common.FCExceptionBase.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function GetMessageFormat( _
    ByVal _messageId_ As String _
 ) As String
+```
 
+```csharp
 string GetMessageFormat( 
    string _messageId_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ If you wish to provide internationalized culture-specific error messages, use th
 **NOTE:** If a message string cannot be loaded for this message ID, simple return null (**Nothing** in Visual Basic) and an attempt will be made by [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) to load a default string in the default culture (en-US).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

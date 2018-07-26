@@ -3,16 +3,19 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Sub set_item( _
    ByVal _key_ As String, _
    ByVal _newValue_ As Object _
-) 
+)
+```
 
+```csharp
 void set_item( 
    string _key_,
    object _newValue_
 )
+```
 
 #### Parameters
 
@@ -21,8 +24,6 @@ _key_
 _newValue_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

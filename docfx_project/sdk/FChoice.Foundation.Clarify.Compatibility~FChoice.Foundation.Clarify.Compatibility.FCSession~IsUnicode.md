@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function IsUnicode( _
    ByVal _testString_ As String _
 ) As Object
+```
 
+```csharp
 public object IsUnicode( 
    string _testString_
 )
+```
 
 #### Parameters
 
 _testString_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

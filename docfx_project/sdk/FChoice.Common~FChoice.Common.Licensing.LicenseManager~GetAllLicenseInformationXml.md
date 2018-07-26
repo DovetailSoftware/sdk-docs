@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Function GetAllLicenseInformationXml() As String
+'Declaration
 
+Public Function GetAllLicenseInformationXml() As String
+```
+
+```csharp
 public string GetAllLicenseInformationXml()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

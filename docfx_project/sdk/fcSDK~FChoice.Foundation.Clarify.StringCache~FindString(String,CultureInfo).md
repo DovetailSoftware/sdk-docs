@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function FindString( _
    ByVal _stringName_ As String, _
    ByVal _culture_ As CultureInfo _
 ) As String
+```
 
+```csharp
 public string FindString( 
    string _stringName_,
    CultureInfo _culture_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _stringName_
 _culture_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub Sort() 
+```
 
+```csharp
 public void Sort()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

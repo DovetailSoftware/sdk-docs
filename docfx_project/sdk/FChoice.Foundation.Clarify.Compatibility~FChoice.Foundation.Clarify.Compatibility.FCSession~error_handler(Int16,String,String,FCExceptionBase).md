@@ -3,23 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[ComVisibleAttribute](#)(False)>
+<ComVisibleAttribute(False)>
 Public Overloads Function error_handler( _
    ByVal _errorNum_ As Short, _
    ByVal _objId_ As String, _
    ByVal _source_ As String, _
-   ByVal _exception_ As [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) _
+   ByVal _exception_ As FCExceptionBase _
 ) As Short
+```
 
-\[[ComVisibleAttribute](#)(false)\]
+```csharp
+[ComVisibleAttribute(false)]
 public short error_handler( 
    short _errorNum_,
    string _objId_,
    string _source_,
-   [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) _exception_
+   FCExceptionBase _exception_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _source_
 _exception_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

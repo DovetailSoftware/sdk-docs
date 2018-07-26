@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function SetPartStockingLevel( _
    ByVal _setupParam_ As [SetPartStockingLevelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) SetPartStockingLevel( 
    [SetPartStockingLevelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

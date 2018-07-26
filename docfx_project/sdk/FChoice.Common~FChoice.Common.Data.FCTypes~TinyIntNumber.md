@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Const TinyIntNumber As Integer
+'Declaration
 
+Public Const TinyIntNumber As Integer
+```
+
+```csharp
 public const int TinyIntNumber
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

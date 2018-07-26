@@ -9,17 +9,20 @@ Links a given appender to the specified .NET type-identified logger.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Sub AddAppenderToLogger( _
    ByVal _appenderName_ As String, _
-   ByVal _typeBeingLogged_ As [Type](#) _
+   ByVal _typeBeingLogged_ As Type _
 ) 
+```
 
+```csharp
 public static void AddAppenderToLogger( 
    string _appenderName_,
-   [Type](#) _typeBeingLogged_
+   Type _typeBeingLogged_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ To prepare a rolling file-based appender, see the [AddLogFileAppender](FChoice.
 **NOTE:** After you are finished configuring LogManager, you must call [Reconfigure](FChoice.Common~FChoice.Common.LogManager~Reconfigure.md) in order for the changes to fully take effect.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

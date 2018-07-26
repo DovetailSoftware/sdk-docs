@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property Parameters As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)
+Public ReadOnly Property Parameters As DataParameterCollection
+```
 
-public [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) Parameters {get;}
+```csharp
+public DataParameterCollection Parameters {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

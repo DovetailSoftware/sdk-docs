@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ImpersonatorUserName As String
+```
 
+```csharp
 public string ImpersonatorUserName
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

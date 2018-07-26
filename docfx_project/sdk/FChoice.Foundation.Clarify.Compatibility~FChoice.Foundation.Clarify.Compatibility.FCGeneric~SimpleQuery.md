@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub SimpleQuery( _
    ByVal _dbObjectName_ As String _
 ) 
+```
 
+```csharp
 public void SimpleQuery( 
    string _dbObjectName_
 )
+```
 
 #### Parameters
 
 _dbObjectName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

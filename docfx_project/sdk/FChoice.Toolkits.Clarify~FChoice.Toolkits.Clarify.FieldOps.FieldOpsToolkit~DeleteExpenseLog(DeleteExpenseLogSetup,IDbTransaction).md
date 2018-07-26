@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function DeleteExpenseLog( _
    ByVal _setupParam_ As [DeleteExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteExpenseLogSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteExpenseLog( 
    [DeleteExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteExpenseLogSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

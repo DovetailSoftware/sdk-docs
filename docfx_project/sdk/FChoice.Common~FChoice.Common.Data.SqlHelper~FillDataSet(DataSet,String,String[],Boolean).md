@@ -1,11 +1,9 @@
-﻿     FillDataSet(DataSet,String,String\[\],Boolean) Method                                                   
-
-FillDataSet(DataSet,String,String\[\],Boolean) Method
+﻿### FillDataSet(DataSet,String,String\[\],Boolean) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Sub FillDataSet( _
    ByVal _ds_ As DataSet, _
@@ -13,13 +11,16 @@ Public Overloads Shared Sub FillDataSet( _
    ByVal _tableNames_() As String, _
    ByVal _fillSchema_ As Boolean _
 ) 
+```
 
+```csharp
 public static void FillDataSet( 
    DataSet _ds_,
    string _sqlStmt_,
    string[] _tableNames_,
    bool _fillSchema_
 )
+```
 
 #### Parameters
 
@@ -32,8 +33,6 @@ _tableNames_
 _fillSchema_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,11 +5,14 @@ Executes the the SQL specified in the [CommandText Property](FChoice.Common~FCho
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ExecuteDataSet() As DataSet
+```
 
+```csharp
 public DataSet ExecuteDataSet()
+```
 
 #### Return Value
 
@@ -22,8 +25,6 @@ Not all providers return a DataSet with the same structure if no results are r
 In no case will the DataSet returned be a null reference (**Nothing** in Visual Basic).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

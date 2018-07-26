@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property CheckIsNullErrorNumber As Integer
+'Declaration
 
+Public ReadOnly Property CheckIsNullErrorNumber As Integer
+```
+
+```csharp
 public int CheckIsNullErrorNumber {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

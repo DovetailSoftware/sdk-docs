@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function MoveCase( _
    ByVal _setupParam_ As [MoveCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.MoveCaseSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) MoveCase( 
    [MoveCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.MoveCaseSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

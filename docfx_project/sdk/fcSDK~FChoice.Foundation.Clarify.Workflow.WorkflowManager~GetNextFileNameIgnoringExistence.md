@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetNextFileNameIgnoringExistence( _
    ByVal _fileName_ As String, _
    ByVal _basePath_ As String _
 ) As String
+```
 
+```csharp
 public string GetNextFileNameIgnoringExistence( 
    string _fileName_,
    string _basePath_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _fileName_
 _basePath_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

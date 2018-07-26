@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743834)>
 Function CurrentSessions() As String
+```
 
+```csharp
 [DispIdAttribute(1610743834)]
 string CurrentSessions()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

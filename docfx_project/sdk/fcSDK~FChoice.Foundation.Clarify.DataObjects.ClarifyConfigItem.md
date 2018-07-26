@@ -3,12 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Class ClarifyConfigItem 
-   Inherits [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)
-   Implements [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
+'Declaration
 
-public class ClarifyConfigItem : [FChoice.Foundation.DataObjects.ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md), [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md)  
+Public Class ClarifyConfigItem 
+   Inherits FChoice.Foundation.DataObjects.ConfigItem
+   Implements FChoice.Foundation.DataObjects.IDataObject 
+```
+
+```csharp
+public class ClarifyConfigItem : FChoice.Foundation.DataObjects.ConfigItem, FChoice.Foundation.DataObjects.IDataObject
+```
 
 Inheritance Hierarchy
 
@@ -24,8 +28,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

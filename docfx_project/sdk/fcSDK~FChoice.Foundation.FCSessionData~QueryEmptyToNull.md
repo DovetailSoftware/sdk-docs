@@ -5,14 +5,16 @@ Session option that cues [Generics](fcSDK~FChoice.Foundation.FCGeneric.md) to c
 Syntax
 
 ```vbnet
-' Declaration
-Public Property QueryEmptyToNull As Boolean
+'Declaration
 
+Public Property QueryEmptyToNull As Boolean
+```
+
+```csharp
 public bool QueryEmptyToNull {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

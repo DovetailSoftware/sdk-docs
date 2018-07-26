@@ -5,11 +5,14 @@ Gets an object that can be used to synchronize access to this instance of the Da
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property SyncRoot As Object
+```
 
+```csharp
 public object SyncRoot {get;}
+```
 
 #### Property Value
 

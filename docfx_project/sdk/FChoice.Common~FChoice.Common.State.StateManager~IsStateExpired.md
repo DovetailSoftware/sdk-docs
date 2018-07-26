@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function IsStateExpired( _
    ByVal _id_ As Guid _
@@ -14,6 +14,7 @@ Public Shared Function IsStateExpired( _
 public static bool IsStateExpired( 
    Guid _id_
 )
+```
 
 #### Parameters
 

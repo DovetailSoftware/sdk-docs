@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743867)>
 Sub CloseAllGenerics() 
+```
 
+```csharp
 [DispIdAttribute(1610743867)]
 void CloseAllGenerics()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

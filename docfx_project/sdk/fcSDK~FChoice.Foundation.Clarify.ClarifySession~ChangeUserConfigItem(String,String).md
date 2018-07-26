@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub ChangeUserConfigItem( _
    ByVal _configItemName_ As String, _
    ByVal _newValue_ As String _
 ) 
+```
 
+```csharp
 public void ChangeUserConfigItem( 
    string _configItemName_,
    string _newValue_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _configItemName_
 _newValue_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-ReadOnly Property IsSecondaryOuter As Boolean
+'Declaration
 
+ReadOnly Property IsSecondaryOuter As Boolean
+```
+
+```csharp
 bool IsSecondaryOuter {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

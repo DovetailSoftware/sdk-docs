@@ -5,15 +5,16 @@ User login type
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property LoginType As Integer
+```
 
+```csharp
 public int LoginType {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

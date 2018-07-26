@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overridable Function ShouldStringParameterTypeAndSizeBeSet() As Boolean
+```
 
+```csharp
 public virtual bool ShouldStringParameterTypeAndSizeBeSet()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

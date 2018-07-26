@@ -7,14 +7,18 @@ UnRelate this [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) from
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub UnrelateFromAll( _
    ByVal _relationName_ As String _
 ) 
+```
 
+```csharp
 public void UnrelateFromAll( 
    string _relationName_
 )
+```
 
 #### Parameters
 
@@ -23,8 +27,6 @@ _relationName_
 Name of the relation being unrelated.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

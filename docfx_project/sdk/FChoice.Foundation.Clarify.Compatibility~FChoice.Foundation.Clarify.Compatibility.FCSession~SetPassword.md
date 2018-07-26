@@ -3,18 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub SetPassword( _
    ByVal _loginName_ As String, _
    ByVal _password_ As String, _
    ByVal _loginType_ As String _
 ) 
+```
 
+```csharp
 public void SetPassword( 
    string _loginName_,
    string _password_,
    string _loginType_
 )
+```
 
 #### Parameters
 
@@ -25,8 +29,6 @@ _password_
 _loginType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

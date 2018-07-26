@@ -5,15 +5,16 @@ When set to **true** the query will be canceled.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property CancelQuery As Boolean
+```
 
+```csharp
 public bool CancelQuery {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,15 +5,16 @@ DEFAULT_APPLICATION_NAME Field
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Const DEFAULT_APPLICATION_NAME As String
+```
 
+```csharp
 public const string DEFAULT_APPLICATION_NAME
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function is_it_a_field( _
    ByVal _tableName_ As String, _
    ByVal _fieldName_ As String _
 ) As Boolean
+```
 
+```csharp
 public bool is_it_a_field( 
    string _tableName_,
    string _fieldName_
 )
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _tableName_
 _fieldName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

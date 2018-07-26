@@ -1,18 +1,19 @@
-﻿     FCLicenseException.LoadFailReasons Enumeration                                                         
-
-FCLicenseException.LoadFailReasons Enumeration
+﻿### FCLicenseException.LoadFailReasons Enumeration
 
 LoadFailReasons is used by [FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseException.md) to provide a specific reason why license procurement failed for the product.
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Enum FCLicenseException.LoadFailReasons 
    Inherits System.Enum
+```
 
+```csharp
 public enum FCLicenseException.LoadFailReasons : System.Enum 
+```
 
 Members
 
@@ -43,8 +44,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

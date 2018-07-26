@@ -3,11 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Class ODPOracleProvider 
-   Inherits [OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)
+'Declaration
 
-public class ODPOracleProvider : [OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md) 
+Public Class ODPOracleProvider 
+   Inherits OracleProviderBase
+```
+
+```csharp
+public class ODPOracleProvider : OracleProviderBase
+```
 
 Inheritance Hierarchy
 
@@ -23,8 +27,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property IsPrimaryBinSuggestion As Boolean
+'Declaration
 
+Public Property IsPrimaryBinSuggestion As Boolean
+```
+
+```csharp
 public bool IsPrimaryBinSuggestion {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743871)>
 Sub MovePreviousAbsolute() 
+```
 
+```csharp
 [DispIdAttribute(1610743871)]
 void MovePreviousAbsolute()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

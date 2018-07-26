@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub Sort() 
+```
 
+```csharp
 void Sort()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

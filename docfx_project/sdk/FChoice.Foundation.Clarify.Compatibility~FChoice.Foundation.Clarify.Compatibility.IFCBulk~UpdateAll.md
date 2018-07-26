@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
-<DispIdAttribute(1610743820)>
-Sub UpdateAll() 
+'Declaration
 
+<DispIdAttribute(1610743820)>
+Sub UpdateAll()
+```
+
+```csharp
 [DispIdAttribute(1610743820)]
 void UpdateAll()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

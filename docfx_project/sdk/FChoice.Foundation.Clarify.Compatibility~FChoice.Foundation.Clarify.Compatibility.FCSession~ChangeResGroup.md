@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub ChangeResGroup( _
    ByVal _newGroup_ As String, _
    Optional ByVal _saveToDB_ As Object _
 ) 
+```
 
+```csharp
 public void ChangeResGroup( 
    string _newGroup_,
    object _saveToDB_
 )
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _newGroup_
 _saveToDB_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

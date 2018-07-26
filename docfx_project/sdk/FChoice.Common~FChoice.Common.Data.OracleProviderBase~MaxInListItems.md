@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overrides ReadOnly Property MaxInListItems As Integer
+```
 
+```csharp
 public override int MaxInListItems {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

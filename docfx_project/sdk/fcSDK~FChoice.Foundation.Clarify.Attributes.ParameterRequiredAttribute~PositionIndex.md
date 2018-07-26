@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly positionIndex As Integer
+```
 
+```csharp
 public readonly int positionIndex
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

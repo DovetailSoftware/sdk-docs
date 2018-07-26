@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743909)>
 Function GetNumGenerics() As Integer
+```
 
+```csharp
 [DispIdAttribute(1610743909)]
 int GetNumGenerics()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

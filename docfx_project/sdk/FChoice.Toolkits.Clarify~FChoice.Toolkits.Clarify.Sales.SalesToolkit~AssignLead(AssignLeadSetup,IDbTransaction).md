@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function AssignLead( _
    ByVal _setupParam_ As [AssignLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignLeadSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AssignLead( 
    [AssignLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignLeadSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

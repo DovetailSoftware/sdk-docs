@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function CreateCase( _
    ByVal _setupParam_ As [CreateCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateCase( 
    [CreateCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

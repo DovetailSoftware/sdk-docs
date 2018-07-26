@@ -21,10 +21,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [PrepareInListStatement](FChoice.Common~FChoice.Common.Data.SqlHelper~PrepareInListStatement.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [PrepareIntegerListStatement](FChoice.Common~FChoice.Common.Data.SqlHelper~PrepareIntegerListStatement.md) |   |
 
-
-
-
-
 #### Reference
 
 [SqlHelper Class](FChoice.Common~FChoice.Common.Data.SqlHelper.md)  

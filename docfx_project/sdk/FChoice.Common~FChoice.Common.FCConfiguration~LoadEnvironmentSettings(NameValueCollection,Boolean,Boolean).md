@@ -11,19 +11,22 @@ Retrieves the current configuration values or loads new ones if no current ones 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function LoadEnvironmentSettings( _
    ByVal _initialValues_ As NameValueCollection, _
    ByVal _checkRequired_ As Boolean, _
    ByVal _forceLoad_ As Boolean _
 ) As NameValueCollection
+```
 
+```csharp
 public static NameValueCollection LoadEnvironmentSettings( 
    NameValueCollection _initialValues_,
    bool _checkRequired_,
    bool _forceLoad_
 )
+```
 
 #### Parameters
 
@@ -54,8 +57,6 @@ Remarks
 If **_initialValues_** is null (**Nothing** in Visual Basic), an attempt will be made to load the settings from the application configuration settings. If the collection is not null, does not contain all the required values, and **_checkRequired_** is true, an exception will be thrown.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,29 +1,26 @@
-﻿     CopyTo(IHierarchicalStringList\[\]) Method                                                   
-
-fcSDK Documentation
-
-CopyTo(IHierarchicalStringList\[\]) Method
+﻿### CopyTo(IHierarchicalStringList\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub CopyTo( _
-   ByVal _array_() As [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md) _
-) 
-
-void CopyTo( 
-   [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md)\[\] _array_
+   ByVal _array_() As IHierarchicalStringList _
 )
+```
+
+```csharp
+void CopyTo( 
+   IHierarchicalStringList[] _array_
+)
+```
 
 #### Parameters
 
 _array_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

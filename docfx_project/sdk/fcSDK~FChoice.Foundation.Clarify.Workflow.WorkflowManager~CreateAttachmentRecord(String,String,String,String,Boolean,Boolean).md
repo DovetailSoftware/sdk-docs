@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateAttachmentRecord( _
    ByVal _idNumber_ As String, _
@@ -13,7 +13,9 @@ Public Overloads Function CreateAttachmentRecord( _
    ByVal _attachmentsAnywhere_ As Boolean, _
    ByVal _createActEntry_ As Boolean _
 ) As Integer
+```
 
+```csharp
 public int CreateAttachmentRecord( 
    string _idNumber_,
    string _attachmentName_,
@@ -22,6 +24,7 @@ public int CreateAttachmentRecord(
    bool _attachmentsAnywhere_,
    bool _createActEntry_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ _attachmentsAnywhere_
 _createActEntry_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

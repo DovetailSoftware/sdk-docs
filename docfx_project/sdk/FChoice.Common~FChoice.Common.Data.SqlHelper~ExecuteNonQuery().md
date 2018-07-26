@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ExecuteNonQuery() As Integer
+```
 
+```csharp
 public int ExecuteNonQuery()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

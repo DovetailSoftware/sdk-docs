@@ -5,15 +5,16 @@ Total billable expenses (closed Subcase and Case expense logs)
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property TotalNonBillableExpenses As [Decimal](#)
+Public Property TotalNonBillableExpenses As Decimal
+```
 
-public [decimal](#) TotalNonBillableExpenses {get; set;}
+```csharp
+public decimal TotalNonBillableExpenses {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property Connection As [IDbConnection](#)
+'Declaration
 
-public [IDbConnection](#) Connection {get; set;}
+Public Property Connection As IDbConnection
+```
+
+```csharp
+public IDbConnection Connection {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

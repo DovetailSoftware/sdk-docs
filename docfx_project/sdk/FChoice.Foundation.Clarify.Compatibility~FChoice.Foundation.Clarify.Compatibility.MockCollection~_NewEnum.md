@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Function _NewEnum() As [IEnumerator](#)
+'Declaration
 
-public [IEnumerator](#) _NewEnum()
+Public Function _NewEnum() As IEnumerator
+```
+
+```csharp
+public IEnumerator _NewEnum()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function ItemByIndex( _
    ByVal _index_ As Short _
 ) As Object
+```
 
+```csharp
 public object ItemByIndex( 
    short _index_
 )
+```
 
 #### Parameters
 
 _index_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

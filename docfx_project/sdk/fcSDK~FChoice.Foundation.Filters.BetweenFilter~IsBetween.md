@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property IsBetween As Boolean
+'Declaration
 
+Public ReadOnly Property IsBetween As Boolean
+```
+
+```csharp
 public bool IsBetween {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

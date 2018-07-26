@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function GetLocationsServicingSite( _
    ByVal _setupParam_ As [GetLocationsServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [GetLocationsServicingSiteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteResult.md)
 
 public [GetLocationsServicingSiteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteResult.md) GetLocationsServicingSite( 
    [GetLocationsServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetTimeZoneOffset( _
    ByVal _timeZoneName_ As String _
 ) As Integer
+```
 
+```csharp
 public int GetTimeZoneOffset( 
    string _timeZoneName_
 )
+```
 
 #### Parameters
 
 _timeZoneName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

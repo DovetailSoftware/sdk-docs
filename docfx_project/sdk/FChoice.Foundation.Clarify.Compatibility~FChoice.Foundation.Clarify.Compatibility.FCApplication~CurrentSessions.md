@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function CurrentSessions() As String
+```
 
+```csharp
 public string CurrentSessions()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

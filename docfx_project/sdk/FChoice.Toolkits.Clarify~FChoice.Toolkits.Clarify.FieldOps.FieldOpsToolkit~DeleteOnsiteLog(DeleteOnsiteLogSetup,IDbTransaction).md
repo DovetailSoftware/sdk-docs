@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function DeleteOnsiteLog( _
    ByVal _setupParam_ As [DeleteOnsiteLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteOnsiteLogSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteOnsiteLog( 
    [DeleteOnsiteLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteOnsiteLogSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

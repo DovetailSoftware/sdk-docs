@@ -5,15 +5,16 @@ The Priority of the dialogue.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property Priority As String
+```
 
+```csharp
 public string Priority {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

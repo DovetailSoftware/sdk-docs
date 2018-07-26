@@ -5,15 +5,16 @@ Creates a new Dialogue.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Function CreateDialogue() As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+Public Overloads Function CreateDialogue() As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateDialogue()
+```csharp
+public ToolkitResult CreateDialogue()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

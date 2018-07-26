@@ -5,21 +5,24 @@ Adds a specialized filter to constrain the results of an **FCGeneric** [Query](f
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub AppendFilterBetween( _
    ByVal _fieldName_ As String, _
    ByVal _isBetween_ As Boolean, _
-   ByVal _value1_ As [Decimal](#), _
-   ByVal _value2_ As [Decimal](#) _
+   ByVal _value1_ As Decimal, _
+   ByVal _value2_ As Decimal _
 ) 
+```
 
+```csharp
 public void AppendFilterBetween( 
    string _fieldName_,
    bool _isBetween_,
-   [decimal](#) _value1_,
-   [decimal](#) _value2_
+   decimal _value1_,
+   decimal _value2_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _value1_
 _value2_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

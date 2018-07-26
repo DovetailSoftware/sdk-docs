@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function AddServiceInterruption( _
    ByVal _setupParam_ As [AddServiceInterruptionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [AddServiceInterruptionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.md)
 
 public [AddServiceInterruptionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.md) AddServiceInterruption( 
    [AddServiceInterruptionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function get_Value() As Object
+```
 
+```csharp
 public object get_Value()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub RelateRecords( _
-   ByVal _otherGeneric_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md), _
+   ByVal _otherGeneric_ As IFCGeneric, _
    ByVal _relationName_ As String _
 ) 
+```
 
+```csharp
 public void RelateRecords( 
-   [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _otherGeneric_,
+   IFCGeneric _otherGeneric_,
    string _relationName_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _otherGeneric_
 _relationName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,17 +5,18 @@ Initializes a new instance of the CreateSolutionSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New()
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateSolutionSetup()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

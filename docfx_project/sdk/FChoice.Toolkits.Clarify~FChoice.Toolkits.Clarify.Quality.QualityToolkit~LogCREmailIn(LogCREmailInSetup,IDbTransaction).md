@@ -7,12 +7,12 @@ Syntax
 
 Public Overloads Function LogCREmailIn( _
    ByVal _setup_ As [QualityToolkit.LogCREmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit+LogCREmailInSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogCREmailIn( 
    [QualityToolkit.LogCREmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit+LogCREmailInSetup.md) _setup_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Overrides Function LoadState( _
    ByVal _id_ As Guid _
-) As [Byte()](#)
+) As Byte()
+```
 
-public override [byte\[\]](#) LoadState( 
+```csharp
+public override byte[] LoadState( 
    Guid _id_
 )
+```
 
 #### Parameters
 
 _id_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

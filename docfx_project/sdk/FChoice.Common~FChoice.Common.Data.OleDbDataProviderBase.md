@@ -5,12 +5,15 @@ Abstract base class for OleDb-based custom data providers
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustInherit Class OleDbDataProviderBase 
-   Inherits [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)
+   Inherits DbProvider
+```
 
-public abstract class OleDbDataProviderBase : [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) 
+```csharp
+public abstract class OleDbDataProviderBase : DbProvider
+```
 
 Remarks
 
@@ -29,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

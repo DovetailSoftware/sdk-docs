@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function IsInGbstLst( _
    ByVal _listName_ As String, _
    ByVal _element_ As String _
 ) As Boolean
+```
 
+```csharp
 public bool IsInGbstLst( 
    string _listName_,
    string _element_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _listName_
 _element_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

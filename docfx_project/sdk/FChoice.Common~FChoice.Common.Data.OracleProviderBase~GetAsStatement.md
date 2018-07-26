@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overrides Function GetAsStatement( _
    ByVal _name_ As String _
 ) As String
+```
 
+```csharp
 public override string GetAsStatement( 
    string _name_
 )
+```
 
 #### Parameters
 
 _name_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

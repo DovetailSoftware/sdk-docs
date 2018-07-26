@@ -5,11 +5,14 @@ Timezone being used by the application.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property ServerTimeZone As [ITimeZone](fcSDK~FChoice.Foundation.DataObjects.ITimeZone.md)
+Public Property ServerTimeZone As ITimeZone
+```
 
-public [ITimeZone](fcSDK~FChoice.Foundation.DataObjects.ITimeZone.md) ServerTimeZone {get; set;}
+```csharp
+public ITimeZone ServerTimeZone {get; set;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 This timezone is used when [converting](fcSDK~FChoice.Foundation.FCSession~ConvertDate.md) from session to server time
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

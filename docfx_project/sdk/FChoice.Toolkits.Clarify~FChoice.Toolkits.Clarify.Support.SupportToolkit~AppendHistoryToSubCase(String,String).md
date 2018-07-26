@@ -9,17 +9,20 @@ Append text to a Subcase and Case's history.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub AppendHistoryToSubCase( _
    ByVal _subCaseIdNumber_ As String, _
    ByVal _stringToAppendToHistory_ As String _
 ) 
+```
 
+```csharp
 public void AppendHistoryToSubCase( 
    string _subCaseIdNumber_,
    string _stringToAppendToHistory_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _stringToAppendToHistory_
 Text to append to the case and subcase history.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

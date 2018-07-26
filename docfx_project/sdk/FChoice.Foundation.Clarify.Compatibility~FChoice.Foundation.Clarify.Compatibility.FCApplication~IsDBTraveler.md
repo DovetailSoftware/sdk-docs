@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property IsDBTraveler As Boolean
+'Declaration
 
+Public ReadOnly Property IsDBTraveler As Boolean
+```
+
+```csharp
 public bool IsDBTraveler {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

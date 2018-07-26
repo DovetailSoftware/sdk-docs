@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub AddForUpdate( _
    ByVal _TheObjid_ As Integer _
 ) 
+```
 
+```csharp
 public void AddForUpdate( 
    int _TheObjid_
 )
+```
 
 #### Parameters
 
 _TheObjid_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

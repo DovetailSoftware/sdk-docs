@@ -3,16 +3,17 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 <DispIdAttribute(1610743837)>
 ReadOnly Property BOF As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743837)]
 bool BOF {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

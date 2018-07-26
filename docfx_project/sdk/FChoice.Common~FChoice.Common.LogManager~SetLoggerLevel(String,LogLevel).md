@@ -9,17 +9,20 @@ Changes a specific logger's (specified by name) logging level.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Sub SetLoggerLevel( _
    ByVal _loggerName_ As String, _
-   ByVal _level_ As [LogLevel](/sdk/FChoice.Common~FChoice.Common.LogLevel.md) _
+   ByVal _level_ As LogLevel _
 ) 
+```
 
+```csharp
 public static void SetLoggerLevel( 
    string _loggerName_,
-   [LogLevel](/sdk/FChoice.Common~FChoice.Common.LogLevel.md) _level_
+   LogLevel _level_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ Remarks
 **NOTE:** After you are finished configuring LogManager, you must call [Reconfigure](FChoice.Common~FChoice.Common.LogManager~Reconfigure.md) in order for the changes to fully take effect.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

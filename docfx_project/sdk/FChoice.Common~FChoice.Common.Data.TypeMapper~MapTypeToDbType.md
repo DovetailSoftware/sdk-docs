@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overridable Function MapTypeToDbType( _
-   ByVal _type_ As [Type](#) _
-) As [Type](#)
+   ByVal _type_ As Type _
+) As Type
+```
 
-public virtual [Type](#) MapTypeToDbType( 
-   [Type](#) _type_
+```csharp
+public virtual Type MapTypeToDbType( 
+   Type _type_
 )
+```
 
 #### Parameters
 
 _type_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

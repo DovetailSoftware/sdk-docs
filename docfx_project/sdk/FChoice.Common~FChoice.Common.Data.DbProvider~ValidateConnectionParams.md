@@ -13,7 +13,7 @@ Validates the supplied connection parameters against the rules of the underlying
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustOverride Function ValidateConnectionParams( _
    ByVal _dbServer_ As String, _
@@ -21,13 +21,16 @@ Public MustOverride Function ValidateConnectionParams( _
    ByVal _dbUser_ As String, _
    ByVal _dbPass_ As String _
 ) As Boolean
+```
 
+```csharp
 public abstract bool ValidateConnectionParams( 
    string _dbServer_,
    string _dbName_,
    string _dbUser_,
    string _dbPass_
 )
+```
 
 #### Parameters
 
@@ -52,8 +55,6 @@ The password to use for authentication
 True if the parameters are valid according to the provider, or False if they are not
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

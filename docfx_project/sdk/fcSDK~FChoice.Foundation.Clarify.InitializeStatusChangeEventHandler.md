@@ -3,14 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Delegate Sub InitializeStatusChangeEventHandler( _
-   ByVal _statusType_ As [InitStatusChangeType](fcSDK~FChoice.Foundation.Clarify.InitStatusChangeType.md) _
-) 
+'Declaration
 
+Public Delegate Sub InitializeStatusChangeEventHandler( _
+   ByVal _statusType_ As InitStatusChangeType _
+) 
+```
+
+```csharp
 public delegate void InitializeStatusChangeEventHandler( 
-   [InitStatusChangeType](fcSDK~FChoice.Foundation.Clarify.InitStatusChangeType.md) _statusType_
+   InitStatusChangeType _statusType_
 )
+```
 
 #### Parameters
 
@@ -23,8 +27,6 @@ _statusType_
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

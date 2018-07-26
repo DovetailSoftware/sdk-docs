@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function ExecuteReader( _
-   ByVal _commandType_ As [CommandType](#), _
+   ByVal _commandType_ As CommandType, _
    ByVal _commandText_ As String _
-) As [IDataReader](#)
+) As IDataReader
+```
 
-public static [IDataReader](#) ExecuteReader( 
-   [CommandType](#) _commandType_,
+```csharp
+public static IDataReader ExecuteReader( 
+   CommandType _commandType_,
    string _commandText_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _commandType_
 _commandText_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

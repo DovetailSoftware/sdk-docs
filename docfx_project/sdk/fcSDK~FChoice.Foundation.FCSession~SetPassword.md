@@ -11,18 +11,22 @@ Change a user's password
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub SetPassword( _
    ByVal _inUsername_ As String, _
    ByVal _newPass_ As String, _
    ByVal _LoginType_ As Integer _
 ) 
+```
 
+```csharp
 public void SetPassword( 
    string _inUsername_,
    string _newPass_,
    int _LoginType_
 )
+```
 
 #### Parameters
 
@@ -43,8 +47,6 @@ Remarks
 [ChangePassword](fcSDK~FChoice.Foundation.FCSession~ChangePassword.md) allows changing the password of the session user.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

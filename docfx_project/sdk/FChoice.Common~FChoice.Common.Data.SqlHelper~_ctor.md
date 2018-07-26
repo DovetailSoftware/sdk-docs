@@ -19,8 +19,6 @@ All of the optional arguments passed into the constructor can be changed later u
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
 [SqlHelper Class](FChoice.Common~FChoice.Common.Data.SqlHelper.md)  

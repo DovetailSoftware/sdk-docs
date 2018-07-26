@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetParameterIndex( _
    ByVal _constructorIndex_ As Integer _
 ) As Integer
+```
 
+```csharp
 public int GetParameterIndex( 
    int _constructorIndex_
 )
+```
 
 #### Parameters
 
 _constructorIndex_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

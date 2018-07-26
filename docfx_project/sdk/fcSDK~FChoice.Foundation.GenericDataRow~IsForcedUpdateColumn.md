@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function IsForcedUpdateColumn( _
    ByVal _col_ As [DataColumn](#) _
 ) As Boolean
+```
 
+```csharp
 public bool IsForcedUpdateColumn( 
    [DataColumn](#) _col_
 )
+```
 
 #### Parameters
 
 _col_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

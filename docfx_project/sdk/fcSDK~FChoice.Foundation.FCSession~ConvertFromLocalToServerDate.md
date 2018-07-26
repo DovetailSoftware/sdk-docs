@@ -7,15 +7,18 @@ Converts a DateTime from the [session timezone](fcSDK~FChoice.Foundation.FCSess
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overridable Function ConvertFromLocalToServerDate( _
    ByVal _date_ As Date _
 ) As Date
+```
 
+```csharp
 public virtual DateTime ConvertFromLocalToServerDate( 
    DateTime _date_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _date_
 date to convert
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

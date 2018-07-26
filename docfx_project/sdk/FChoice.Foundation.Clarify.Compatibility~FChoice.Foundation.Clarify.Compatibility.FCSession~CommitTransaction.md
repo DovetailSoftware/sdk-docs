@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Sub CommitTransaction() 
+'Declaration
 
+Public Sub CommitTransaction() 
+```
+
+```csharp
 public void CommitTransaction()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

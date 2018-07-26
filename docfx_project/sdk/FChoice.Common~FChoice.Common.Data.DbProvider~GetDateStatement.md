@@ -5,11 +5,14 @@ Gets a SQL statement fragment for the database-specific syntax of retrieving the
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustOverride Function GetDateStatement() As String
+```
 
+```csharp
 public abstract string GetDateStatement()
+```
 
 #### Return Value
 
@@ -20,8 +23,6 @@ Remarks
 The returned string is a fragment of a statement, not an entire statement. It cannot be executed independently
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

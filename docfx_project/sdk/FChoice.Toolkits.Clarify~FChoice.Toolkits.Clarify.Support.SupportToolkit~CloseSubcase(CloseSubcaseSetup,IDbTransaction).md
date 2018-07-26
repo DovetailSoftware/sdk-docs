@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function CloseSubcase( _
    ByVal _setupParam_ As [CloseSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CloseSubcase( 
    [CloseSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

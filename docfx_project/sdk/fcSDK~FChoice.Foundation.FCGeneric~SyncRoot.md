@@ -5,11 +5,14 @@ Gets an object that can be used to synchronize access to the **FCGeneric**.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property SyncRoot As Object
+```
 
+```csharp
 public object SyncRoot {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 This is a common .NET Framework pattern please see [check out this example](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsICollectionClassSyncRootTopic.htm).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

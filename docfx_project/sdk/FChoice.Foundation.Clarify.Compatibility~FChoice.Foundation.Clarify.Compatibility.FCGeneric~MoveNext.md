@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub MoveNext() 
+```
 
+```csharp
 public void MoveNext()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

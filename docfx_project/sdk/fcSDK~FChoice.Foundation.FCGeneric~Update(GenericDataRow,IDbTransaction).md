@@ -4,22 +4,25 @@ Row being updated.
 
 Transaction under which to do this update
 
-Updates changes to a single [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) under the context of a Transaction
+Updates changes to a single GenericDataRow under the context of a Transaction
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub Update( _
-   ByVal _row_ As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _row_ As GenericDataRow, _
+   ByVal _transaction_ As IDbTransaction _
 ) 
+```
 
+```csharp
 public void Update( 
-   [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) _row_,
-   [IDbTransaction](#) _transaction_
+   GenericDataRow _row_,
+   IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _transaction_
 Transaction under which to do this update
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

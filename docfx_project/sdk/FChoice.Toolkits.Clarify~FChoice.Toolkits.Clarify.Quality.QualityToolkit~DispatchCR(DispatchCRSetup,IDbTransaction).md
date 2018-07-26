@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function DispatchCR( _
    ByVal _setupParam_ As [DispatchCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DispatchCRSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchCR( 
    [DispatchCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DispatchCRSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

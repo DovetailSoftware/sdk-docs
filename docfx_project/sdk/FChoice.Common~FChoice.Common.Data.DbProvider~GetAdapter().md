@@ -5,19 +5,20 @@ Gets a database type-specific DbDataAdapter instance for this provider type (i.e
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads MustOverride Function GetAdapter() As [DbDataAdapter](#)
+Public Overloads MustOverride Function GetAdapter() As DbDataAdapter
+```
 
-public abstract [DbDataAdapter](#) GetAdapter()
+```csharp
+public abstract DbDataAdapter GetAdapter()
+```
 
 #### Return Value
 
 A DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

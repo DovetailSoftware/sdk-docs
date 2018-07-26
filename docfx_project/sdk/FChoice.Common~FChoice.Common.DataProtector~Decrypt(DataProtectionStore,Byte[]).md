@@ -9,17 +9,20 @@ Decrypts a byte array of data into a new byte array of unencrypted data
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function Decrypt( _
-   ByVal _keyStore_ As [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md), _
-   ByVal _cipherBytes_() As [Byte](#) _
-) As [Byte()](#)
+   ByVal _keyStore_ As DataProtectionStore, _
+   ByVal _cipherBytes_() As Byte _
+) As Byte()
+```
 
-public static [byte\[\]](#) Decrypt( 
-   [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md) _keyStore_,
-   [byte](#)\[\] _cipherBytes_
+```csharp
+public static byte[] Decrypt( 
+   DataProtectionStore _keyStore_,
+   byte[] _cipherBytes_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ Remarks
 ![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

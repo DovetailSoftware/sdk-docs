@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Sub AddElement( _
-   ByVal _element_ As [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md), _
+   ByVal _element_ As IGlobalStringElement, _
    ByVal _addToList_ As Boolean _
-) 
+)
+```
 
+```csharp
 void AddElement( 
-   [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md) _element_,
+   IGlobalStringElement _element_,
    bool _addToList_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _element_
 _addToList_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

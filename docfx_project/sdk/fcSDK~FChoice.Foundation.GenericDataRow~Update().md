@@ -5,19 +5,20 @@ Commits the row to the database. See FCGeneric's [Update](fcSDK~FChoice.Foundat
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub Update() 
+```
 
+```csharp
 public void Update()
+```
 
 Remarks
 
 **NOTE:** This method calls [FCGeneric.Update](fcSDK~FChoice.Foundation.FCGeneric~Update(GenericDataRow).md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

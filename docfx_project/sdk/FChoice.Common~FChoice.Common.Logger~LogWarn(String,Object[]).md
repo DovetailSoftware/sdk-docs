@@ -1,6 +1,4 @@
-﻿     LogWarn(String,Object\[\]) Method                                                   
-
-LogWarn(String,Object\[\]) Method
+﻿### LogWarn(String,Object\[\]) Method
 
 A format string with replacement parameters  that will be replaced by the **_args_** parameters.
 
@@ -11,17 +9,20 @@ Writes a WARN-level log entry if WARN-level logging is enabled.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub LogWarn( _
    ByVal _format_ As String, _
    ByVal ParamArray _args_() As Object _
 ) 
+```
 
+```csharp
 public void LogWarn( 
    string _format_,
    params object\[\] _args_
 )
+```
 
 #### Parameters
 
@@ -38,8 +39,6 @@ Remarks
 If the current logger is not configured for WARN-level logging or lower, this method will do nothing.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

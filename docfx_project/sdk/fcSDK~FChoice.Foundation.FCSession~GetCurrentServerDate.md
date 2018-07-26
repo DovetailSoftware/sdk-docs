@@ -5,15 +5,16 @@ Retrieves the DateTime of the CRM database.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overridable Function GetCurrentServerDate() As Date
+```
 
+```csharp
 public virtual DateTime GetCurrentServerDate()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

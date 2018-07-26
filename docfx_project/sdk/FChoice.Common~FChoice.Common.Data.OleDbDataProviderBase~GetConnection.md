@@ -9,8 +9,6 @@ Overload List
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
 [OleDbDataProviderBase Class](FChoice.Common~FChoice.Common.Data.OleDbDataProviderBase.md)  

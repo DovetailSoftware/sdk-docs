@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Sub UpdateCaches( _
-   ByVal _cacheType_ As [CacheType](fcSDK~FChoice.Foundation.CacheType.md) _
+   ByVal _cacheType_ As CacheType _
 ) 
+```
 
+```csharp
 public static void UpdateCaches( 
-   [CacheType](fcSDK~FChoice.Foundation.CacheType.md) _cacheType_
+   CacheType _cacheType_
 )
+```
 
 #### Parameters
 
 _cacheType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

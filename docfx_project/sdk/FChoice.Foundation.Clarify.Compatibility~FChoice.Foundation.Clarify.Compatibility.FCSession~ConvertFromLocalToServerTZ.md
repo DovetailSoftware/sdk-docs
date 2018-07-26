@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function ConvertFromLocalToServerTZ( _
    ByVal _convertDate_ As Date _
 ) As Date
+```
 
+```csharp
 public DateTime ConvertFromLocalToServerTZ( 
    DateTime _convertDate_
 )
+```
 
 #### Parameters
 
 _convertDate_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

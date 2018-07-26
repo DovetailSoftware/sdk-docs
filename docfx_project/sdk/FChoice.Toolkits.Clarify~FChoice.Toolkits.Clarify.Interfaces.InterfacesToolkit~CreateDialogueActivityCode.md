@@ -5,15 +5,16 @@ Activity code used for act_entry logs generated when creating a dialogue.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared ReadOnly CreateDialogueActivityCode As Integer
+```
 
+```csharp
 public static readonly int CreateDialogueActivityCode
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,6 +1,4 @@
-﻿     LogError(Exception,String,Object\[\]) Method                                                   
-
-LogError(Exception,String,Object\[\]) Method
+﻿### LogError(Exception,String,Object\[\]) Method
 
 The exception that is related to this entry. The details of the exception will be written to the configured appender(s).
 
@@ -13,19 +11,22 @@ Writes a ERROR-level log entry if ERROR-level logging is enabled as well as the
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub LogError( _
-   ByVal _ex_ As [Exception](#), _
+   ByVal _ex_ As Exception, _
    ByVal _format_ As String, _
    ByVal ParamArray _args_() As Object _
 ) 
+```
 
+```csharp
 public void LogError( 
-   [Exception](#) _ex_,
+   Exception _ex_,
    string _format_,
-   params object\[\] _args_
+   params object[] _args_
 )
+```
 
 #### Parameters
 
@@ -46,8 +47,6 @@ Remarks
 If the current logger is not configured for ERROR-level logging or lower, this method will do nothing.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub Reverse() 
+```
 
+```csharp
 void Reverse()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

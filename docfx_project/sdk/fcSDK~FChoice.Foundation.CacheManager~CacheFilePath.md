@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Shared ReadOnly Property CacheFilePath As String
+'Declaration
 
+Public Shared ReadOnly Property CacheFilePath As String
+```
+
+```csharp
 public static string CacheFilePath {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function CreateLead( _
    ByVal _setupParam_ As [CreateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateLead( 
    [CreateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

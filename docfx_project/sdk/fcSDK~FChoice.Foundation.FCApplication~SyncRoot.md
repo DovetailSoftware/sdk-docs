@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared ReadOnly SyncRoot As Object
+```
 
+```csharp
 public static readonly object SyncRoot
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

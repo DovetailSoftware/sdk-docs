@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610747765)>
 Sub CommitTransaction() 
+```
 
+```csharp
 [DispIdAttribute(1610747765)]
 void CommitTransaction()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

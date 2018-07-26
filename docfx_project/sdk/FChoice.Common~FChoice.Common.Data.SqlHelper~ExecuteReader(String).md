@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function ExecuteReader( _
    ByVal _commandText_ As String _
-) As [IDataReader](#)
+) As IDataReader
+```
 
-public static [IDataReader](#) ExecuteReader( 
+```csharp
+public static IDataReader ExecuteReader( 
    string _commandText_
 )
+```
 
 #### Parameters
 
 _commandText_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

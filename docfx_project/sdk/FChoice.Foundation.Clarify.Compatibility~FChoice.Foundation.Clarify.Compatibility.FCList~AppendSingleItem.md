@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub AppendSingleItem( _
    ByVal _appendItem_ As Object _
 ) 
+```
 
+```csharp
 public void AppendSingleItem( 
    object _appendItem_
 )
+```
 
 #### Parameters
 
 _appendItem_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,14 +5,16 @@ Gets the custom [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMes
 Syntax
 
 ```vbnet
-' Declaration
-Public Shared ReadOnly Property MessageProvider As [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md)
+'Declaration
 
-public static [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) MessageProvider {get;}
+Public Shared ReadOnly Property MessageProvider As IErrorMessageProvider
+```
+
+```csharp
+public static IErrorMessageProvider MessageProvider {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

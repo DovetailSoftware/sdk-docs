@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Delegate Sub SchemaLoadStatusEventHandler( _
    ByVal _sender_ As Object, _
-   ByVal _newStatus_ As [SchemaLoadStatusType](fcSDK~FChoice.Foundation.Clarify.SchemaLoadStatusType.md) _
+   ByVal _newStatus_ As SchemaLoadStatusType _
 ) 
+```
 
+```csharp
 public delegate void SchemaLoadStatusEventHandler( 
    object _sender_,
-   [SchemaLoadStatusType](fcSDK~FChoice.Foundation.Clarify.SchemaLoadStatusType.md) _newStatus_
+   SchemaLoadStatusType _newStatus_
 )
+```
 
 #### Parameters
 
@@ -27,8 +31,6 @@ _newStatus_
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

@@ -5,11 +5,14 @@ Returns the number of rows currently populated by the [Query](fcSDK~FChoice.Fou
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property Count As Integer
+```
 
+```csharp
 public int Count {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 This value is the same as calling [Rows.Count](fcSDK~FChoice.Foundation.GenericDataTable~Count.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

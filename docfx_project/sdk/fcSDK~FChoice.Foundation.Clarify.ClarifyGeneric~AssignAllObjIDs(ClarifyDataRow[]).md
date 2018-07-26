@@ -1,29 +1,26 @@
-﻿     AssignAllObjIDs(ClarifyDataRow\[\]) Method                                                   
-
-fcSDK Documentation
-
-AssignAllObjIDs(ClarifyDataRow\[\]) Method
+﻿### AssignAllObjIDs(ClarifyDataRow\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub AssignAllObjIDs( _
-   ByVal _rows_() As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) _
+   ByVal _rows_() As ClarifyDataRow _
 ) 
+```
 
+```csharp
 public void AssignAllObjIDs( 
-   [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)\[\] _rows_
+   ClarifyDataRow\[\] _rows_
 )
+```
 
 #### Parameters
 
 _rows_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

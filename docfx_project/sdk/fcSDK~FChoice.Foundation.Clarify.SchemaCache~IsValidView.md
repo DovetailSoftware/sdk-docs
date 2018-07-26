@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function IsValidView( _
    ByVal _viewName_ As String _
 ) As Boolean
+```
 
+```csharp
 public bool IsValidView( 
    string _viewName_
 )
+```
 
 #### Parameters
 
 _viewName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,17 +9,20 @@ Links a given appender to the specified logger name.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Sub AddAppenderToLogger( _
    ByVal _appenderName_ As String, _
    ByVal _loggerName_ As String _
 ) 
+```
 
+```csharp
 public static void AddAppenderToLogger( 
    string _appenderName_,
    string _loggerName_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ To prepare a rolling file-based appender, see the [AddLogFileAppender](FChoice.
 **NOTE:** After you are finished configuring LogManager, you must call [Reconfigure](FChoice.Common~FChoice.Common.LogManager~Reconfigure.md) in order for the changes to fully take effect.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

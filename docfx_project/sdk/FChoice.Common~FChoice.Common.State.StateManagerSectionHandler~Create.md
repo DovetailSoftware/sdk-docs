@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function Create( _
    ByVal _parent_ As Object, _
    ByVal _configContext_ As Object, _
-   ByVal _section_ As [XmlNode](#) _
+   ByVal _section_ As XmlNode _
 ) As Object
+```
 
+```csharp
 public object Create( 
    object _parent_,
    object _configContext_,
-   [XmlNode](#) _section_
+   XmlNode _section_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _configContext_
 _section_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

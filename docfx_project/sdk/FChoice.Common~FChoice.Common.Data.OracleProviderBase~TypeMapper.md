@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Overrides ReadOnly Property TypeMapper As [TypeMapper](FChoice.Common~FChoice.Common.Data.TypeMapper.md)
+'Declaration
 
-public override [TypeMapper](FChoice.Common~FChoice.Common.Data.TypeMapper.md) TypeMapper {get;}
+Public Overrides ReadOnly Property TypeMapper As TypeMapper
+```
+
+```csharp
+public override TypeMapper TypeMapper {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

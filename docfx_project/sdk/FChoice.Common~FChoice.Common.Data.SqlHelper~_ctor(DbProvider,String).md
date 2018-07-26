@@ -9,17 +9,20 @@ Creates a new instance of SqlHelper using the specified [DbProvider](FChoice.Com
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _dataProvider_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md), _
+   ByVal _dataProvider_ As DbProvider, _
    ByVal _cmdTxt_ As String _
 )
+```
 
+```csharp
 public SqlHelper( 
-   [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _dataProvider_,
+   DbProvider _dataProvider_,
    string _cmdTxt_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _cmdTxt_
 The text command to execute. The default value is an empty string ("").
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

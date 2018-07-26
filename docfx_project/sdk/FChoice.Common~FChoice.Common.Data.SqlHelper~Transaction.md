@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property Transaction As [IDbTransaction](#)
+'Declaration
 
-public [IDbTransaction](#) Transaction {get; set;}
+Public Property Transaction As IDbTransaction
+```
+
+```csharp
+public IDbTransaction Transaction {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

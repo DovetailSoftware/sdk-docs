@@ -5,15 +5,16 @@ Returns list of supported locales. Each fc_string has a locale, so all distinct 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Function SupportedLocales() As [IEnumerable(Of CultureInfo)](#)
+Public Function SupportedLocales() As IEnumerable(Of CultureInfo)
+```
 
-public [IEnumerable<CultureInfo>](#) SupportedLocales()
+```csharp
+public IEnumerable<CultureInfo> SupportedLocales()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

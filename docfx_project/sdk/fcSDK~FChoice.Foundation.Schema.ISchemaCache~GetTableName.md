@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function GetTableName( _
    ByVal _tableNum_ As Integer _
 ) As String
+```
 
+```csharp
 string GetTableName( 
    int _tableNum_
 )
+```
 
 #### Parameters
 
 _tableNum_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

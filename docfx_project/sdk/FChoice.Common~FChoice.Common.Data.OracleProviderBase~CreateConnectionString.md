@@ -3,7 +3,8 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Overrides Function CreateConnectionString( _
    ByVal _dbServer_ As String, _
    ByVal _dbName_ As String, _
@@ -11,7 +12,9 @@ Public Overrides Function CreateConnectionString( _
    ByVal _dbPass_ As String, _
    ByVal _extraParams_ As String _
 ) As String
+```
 
+```csharp
 public override string CreateConnectionString( 
    string _dbServer_,
    string _dbName_,
@@ -19,6 +22,7 @@ public override string CreateConnectionString(
    string _dbPass_,
    string _extraParams_
 )
+```
 
 #### Parameters
 
@@ -33,8 +37,6 @@ _dbPass_
 _extraParams_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

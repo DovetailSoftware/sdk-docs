@@ -5,14 +5,16 @@ Session option which disables data conversions when values are set for [Generic
 Syntax
 
 ```vbnet
-' Declaration
-Public Property DisableDataConversion As Boolean
+'Declaration
 
+Public Property DisableDataConversion As Boolean
+```
+
+```csharp
 public bool DisableDataConversion {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

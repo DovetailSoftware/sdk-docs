@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub AddSqlParameter( _
    ByVal _value_ As Object _
 ) 
+```
 
+```csharp
 public void AddSqlParameter( 
    object _value_
 )
+```
 
 #### Parameters
 
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

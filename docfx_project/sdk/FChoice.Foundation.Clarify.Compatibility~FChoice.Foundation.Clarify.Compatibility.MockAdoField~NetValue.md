@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[ComVisibleAttribute](#)(False)>
+<ComVisibleAttribute(False)>
 Public Property NetValue As Object
+```
 
-\[[ComVisibleAttribute](#)(false)\]
+```csharp
+[ComVisibleAttribute(false)]
 public object NetValue {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub LogEx( _
    ByVal _logLevel_ As String, _
    ByVal _logMessage_ As String _
 ) 
+```
 
+```csharp
 public void LogEx( 
    string _logLevel_,
    string _logMessage_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _logLevel_
 _logMessage_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

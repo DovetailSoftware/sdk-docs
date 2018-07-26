@@ -5,11 +5,14 @@ Gets or sets whether or not to perform time zone conversions when operating with
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property ConvertTimeZone As Boolean
+```
 
+```csharp
 public bool ConvertTimeZone {get; set;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 This value is true by default.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

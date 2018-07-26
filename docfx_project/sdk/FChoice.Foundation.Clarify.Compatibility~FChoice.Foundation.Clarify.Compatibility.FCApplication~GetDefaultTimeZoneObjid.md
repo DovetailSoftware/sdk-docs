@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Function GetDefaultTimeZoneObjid() As Integer
+'Declaration
 
+Public Function GetDefaultTimeZoneObjid() As Integer
+```
+
+```csharp
 public int GetDefaultTimeZoneObjid()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

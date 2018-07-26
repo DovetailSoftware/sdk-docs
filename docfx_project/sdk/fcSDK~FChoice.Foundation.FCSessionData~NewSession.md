@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property NewSession As Boolean
+'Declaration
 
+Public Property NewSession As Boolean
+```
+
+```csharp
 public bool NewSession {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

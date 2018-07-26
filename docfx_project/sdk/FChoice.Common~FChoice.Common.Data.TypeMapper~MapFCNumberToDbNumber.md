@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public MustOverride Function MapFCNumberToDbNumber( _
    ByVal _fcNumber_ As Integer _
 ) As Integer
+```
 
+```csharp
 public abstract int MapFCNumberToDbNumber( 
    int _fcNumber_
 )
+```
 
 #### Parameters
 
 _fcNumber_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

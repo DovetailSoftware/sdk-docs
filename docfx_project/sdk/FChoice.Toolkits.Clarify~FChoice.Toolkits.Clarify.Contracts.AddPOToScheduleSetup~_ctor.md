@@ -20,7 +20,7 @@ Public Function New( _
    ByVal _contractIDNum_ As String, _
    ByVal _scheduleIDNum_ As String, _
    ByVal _poIDNum_ As String, _
-   ByVal _poAmount_ As [Decimal](#) _
+   ByVal _poAmount_ As Decimal _
 )
 ```
 
@@ -30,7 +30,7 @@ public AddPOToScheduleSetup(
    string _contractIDNum_,
    string _scheduleIDNum_,
    string _poIDNum_,
-   [decimal](#) _poAmount_
+   decimal _poAmount_
 )
 ```
 

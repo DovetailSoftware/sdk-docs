@@ -5,15 +5,16 @@ The Login Name of user creating the communication.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property UserName As String
+```
 
+```csharp
 public string UserName {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

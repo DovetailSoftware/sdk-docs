@@ -5,19 +5,22 @@ This method is intended to be used internally by First Choice .NET products.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function GetLicenseLoadError( _
-   ByVal _ex_ As [Exception](#), _
+   ByVal _ex_ As Exception, _
    ByVal _errorId_ As Integer, _
-   ByVal _reason_ As [FCLicenseException.LoadFailReasons](FChoice.Common~FChoice.Common.FCLicenseException+LoadFailReasons.md) _
-) As [FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseException.md)
+   ByVal _reason_ As FCLicenseException.LoadFailReasons _
+) As FCLicenseException
+```
 
-public static [FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseException.md) GetLicenseLoadError( 
-   [Exception](#) _ex_,
+```csharp
+public static FCLicenseException GetLicenseLoadError( 
+   Exception _ex_,
    int _errorId_,
-   [FCLicenseException.LoadFailReasons](FChoice.Common~FChoice.Common.FCLicenseException+LoadFailReasons.md) _reason_
+   FCLicenseException.LoadFailReasons _reason_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ _errorId_
 _reason_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

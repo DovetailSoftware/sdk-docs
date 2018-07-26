@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub Query() 
+```
 
+```csharp
 public void Query()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

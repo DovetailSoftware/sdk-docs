@@ -1,29 +1,26 @@
-﻿     Sort(IComparer<IGlobalStringElement>) Method                                                   
-
-fcSDK Documentation
-
-Sort(IComparer<IGlobalStringElement>) Method
+﻿### Sort(IComparer<IGlobalStringElement>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub Sort( _
-   ByVal _comparer_ As [IComparer(Of IGlobalStringElement)](#) _
-) 
-
-void Sort( 
-   [IComparer<IGlobalStringElement>](#) _comparer_
+   ByVal _comparer_ As IComparer(Of IGlobalStringElement) _
 )
+```
+
+```csharp
+void Sort( 
+   IComparer<IGlobalStringElement> _comparer_
+)
+```
 
 #### Parameters
 
 _comparer_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

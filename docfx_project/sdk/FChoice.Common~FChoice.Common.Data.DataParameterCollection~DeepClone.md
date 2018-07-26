@@ -7,11 +7,11 @@ Syntax
 ```vbnet
 'Declaration
 
-Public Function DeepClone() As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)
+Public Function DeepClone() As DataParameterCollection
 ```
 
 ```csharp
-public [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) DeepClone()
+public DataParameterCollection DeepClone()
 ```
 
 #### Return Value

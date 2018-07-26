@@ -3,24 +3,25 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ComVisibleAttribute](#)(False)>
+'Declaration
+<ComVisibleAttribute(False)>
 Default Property Item( _
    ByVal _index_ As Object _
-) As [IMockAdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField.md)
+) As IMockAdoField
+```
 
-\[[ComVisibleAttribute](#)(false)\]
-[IMockAdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField.md) this\[ 
+```csharp
+[ComVisibleAttribute(false)]
+IMockAdoField this[
    object _index_
-\]; {get; set;}
+]; {get; set;}
+```
 
 #### Parameters
 
 _index_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

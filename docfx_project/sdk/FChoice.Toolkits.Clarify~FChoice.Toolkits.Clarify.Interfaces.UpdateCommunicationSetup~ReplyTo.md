@@ -5,14 +5,16 @@ ReplyTo address (usually email address)
 Syntax
 
 ```vbnet
-' Declaration
-Public Property ReplyTo As String
+'Declaration
 
+Public Property ReplyTo As String
+```
+
+```csharp
 public string ReplyTo {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

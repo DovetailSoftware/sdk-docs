@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743892)>
-Sub UpdateSchemaCache() 
+Sub UpdateSchemaCache()
+```
 
+```csharp
 [DispIdAttribute(1610743892)]
 void UpdateSchemaCache()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

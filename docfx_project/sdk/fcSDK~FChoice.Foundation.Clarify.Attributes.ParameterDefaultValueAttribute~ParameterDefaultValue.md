@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly parameterDefaultValue As String
+```
 
+```csharp
 public readonly string parameterDefaultValue
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,13 +1,9 @@
-﻿     BinarySearch(Int32,Int32,IHierarchicalStringElement,IComparer<IHierarchicalStringElement>) Method                                                   
-
-fcSDK Documentation
-
-BinarySearch(Int32,Int32,IHierarchicalStringElement,IComparer<IHierarchicalStringElement>) Method
+﻿### BinarySearch(Int32,Int32,IHierarchicalStringElement,IComparer<IHierarchicalStringElement>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function BinarySearch( _
    ByVal _index_ As Integer, _
@@ -15,13 +11,16 @@ Overloads Function BinarySearch( _
    ByVal _item_ As [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md), _
    ByVal _comparer_ As [IComparer(Of IHierarchicalStringElement)](#) _
 ) As Integer
+```
 
+```csharp
 int BinarySearch( 
    int _index_,
    int _count_,
    [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md) _item_,
    [IComparer<IHierarchicalStringElement>](#) _comparer_
 )
+```
 
 #### Parameters
 
@@ -34,8 +33,6 @@ _item_
 _comparer_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

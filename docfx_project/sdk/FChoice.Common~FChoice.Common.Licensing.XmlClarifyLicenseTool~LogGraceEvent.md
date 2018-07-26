@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub LogGraceEvent( _
    ByVal _licenseKey_ As String _
 ) 
+```
 
+```csharp
 public void LogGraceEvent( 
    string _licenseKey_
 )
+```
 
 #### Parameters
 
 _licenseKey_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

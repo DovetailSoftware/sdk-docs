@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property DecimalPrecision As Integer
+'Declaration
 
+Public ReadOnly Property DecimalPrecision As Integer
+```
+
+```csharp
 public int DecimalPrecision {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

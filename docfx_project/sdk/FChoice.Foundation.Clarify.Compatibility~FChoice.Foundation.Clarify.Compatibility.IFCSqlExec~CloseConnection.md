@@ -3,16 +3,17 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 <DispIdAttribute(1610743814)>
 Sub CloseConnection() 
+```
 
+```csharp
 [DispIdAttribute(1610743814)]
 void CloseConnection()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

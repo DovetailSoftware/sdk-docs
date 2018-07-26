@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetNextNumScheme( _
    ByVal _schemeName_ As String _
 ) As String
+```
 
+```csharp
 public string GetNextNumScheme( 
    string _schemeName_
 )
+```
 
 #### Parameters
 
 _schemeName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

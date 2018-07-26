@@ -5,14 +5,16 @@ Objid of the User record created.
 Syntax
 
 ```vbnet
-' Declaration
-Public Property UserObjid As Integer
+'Declaration
 
+Public Property UserObjid As Integer
+```
+
+```csharp
 public int UserObjid {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

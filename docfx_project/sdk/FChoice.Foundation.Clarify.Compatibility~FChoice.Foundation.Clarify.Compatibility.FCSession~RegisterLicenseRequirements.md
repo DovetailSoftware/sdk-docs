@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[ComVisibleAttribute](#)(False)>
+<ComVisibleAttribute(False)>
 Public Sub RegisterLicenseRequirements( _
    ByVal _productId_ As Integer _
 ) 
+```
 
-\[[ComVisibleAttribute](#)(false)\]
+```csharp
+[ComVisibleAttribute(false)]
 public void RegisterLicenseRequirements( 
    int _productId_
 )
+```
 
 #### Parameters
 
 _productId_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

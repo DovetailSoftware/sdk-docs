@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared ReadOnly IsClarifyClassicClientLineReturnCompatible As Boolean
+```
 
+```csharp
 public static readonly bool IsClarifyClassicClientLineReturnCompatible
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,15 +5,16 @@ Element from the 'Mail Log Action Type' user defined list. If not set, the defau
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property MailLogActionType As String
+```
 
+```csharp
 public string MailLogActionType {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

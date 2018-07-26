@@ -9,17 +9,20 @@ Writes a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataD
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Sub WriteBinary( _
    ByVal _ds_ As DataSet, _
    ByVal _str_ As Stream _
 ) 
+```
 
+```csharp
 public static void WriteBinary( 
    DataSet _ds_,
    Stream _str_
 )
+```
 
 #### Parameters
 

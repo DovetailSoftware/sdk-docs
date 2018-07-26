@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Sub LoginFromFCApp() 
+'Declaration
 
+Public Sub LoginFromFCApp() 
+```
+
+```csharp
 public void LoginFromFCApp()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

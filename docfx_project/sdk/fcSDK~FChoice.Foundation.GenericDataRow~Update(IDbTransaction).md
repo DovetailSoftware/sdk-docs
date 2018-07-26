@@ -7,15 +7,18 @@ Commits the row to the database. See FCGeneric's [Update](fcSDK~FChoice.Foundat
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub Update( _
-   ByVal _trans_ As [IDbTransaction](#) _
+   ByVal _trans_ As IDbTransaction _
 ) 
+```
 
+```csharp
 public void Update( 
-   [IDbTransaction](#) _trans_
+   IDbTransaction _trans_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ Remarks
 Use this method when it is desired to execute database actions under the context of a Transaction.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

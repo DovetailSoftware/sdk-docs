@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub LoadUserVersions( _
    Optional ByVal _userName_ As Object _
 ) 
+```
 
+```csharp
 public void LoadUserVersions( 
    object _userName_
 )
+```
 
 #### Parameters
 
 _userName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

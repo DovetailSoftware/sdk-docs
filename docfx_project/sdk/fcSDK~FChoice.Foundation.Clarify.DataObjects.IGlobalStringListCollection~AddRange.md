@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Sub AddRange( _
-   ByVal _collection_ As [IEnumerable(Of IGlobalStringList)](#) _
-) 
-
-void AddRange( 
-   [IEnumerable<IGlobalStringList>](#) _collection_
+   ByVal _collection_ As IEnumerable(Of IGlobalStringList) _
 )
+```
+
+```csharp
+void AddRange( 
+   IEnumerable<IGlobalStringList> _collection_
+)
+```
 
 #### Parameters
 
 _collection_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

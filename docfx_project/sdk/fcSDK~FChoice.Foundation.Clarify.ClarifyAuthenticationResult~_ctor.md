@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New()
+```
 
+```csharp
 public ClarifyAuthenticationResult()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

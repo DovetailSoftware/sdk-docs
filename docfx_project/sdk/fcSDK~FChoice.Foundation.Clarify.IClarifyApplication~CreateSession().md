@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Overloads Function CreateSession() As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
+Overloads Function CreateSession() As ClarifySession
+```
 
-[ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) CreateSession()
+```csharp
+ClarifySession CreateSession()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

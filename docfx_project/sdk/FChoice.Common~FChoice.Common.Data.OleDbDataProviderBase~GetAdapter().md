@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Overrides Function GetAdapter() As [DbDataAdapter](#)
+Public Overloads Overrides Function GetAdapter() As DbDataAdapter
+```
 
-public override [DbDataAdapter](#) GetAdapter()
+```csharp
+public override DbDataAdapter GetAdapter()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,10 +5,14 @@ Logger is used by classes throughout First Choice .NET-based products to write l
 Syntax
 
 ```vbnet
-' Declaration
-Public Class Logger 
+'Declaration
 
+Public Class Logger 
+```
+
+```csharp
 public class Logger 
+```
 
 Remarks
 
@@ -26,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

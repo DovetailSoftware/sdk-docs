@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function ForwardCR( _
    ByVal _setupParam_ As [ForwardCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ForwardCRSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardCR( 
    [ForwardCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ForwardCRSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

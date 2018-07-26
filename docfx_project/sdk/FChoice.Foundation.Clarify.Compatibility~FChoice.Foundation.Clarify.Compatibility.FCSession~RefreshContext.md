@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub RefreshContext() 
+```
 
+```csharp
 public void RefreshContext()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

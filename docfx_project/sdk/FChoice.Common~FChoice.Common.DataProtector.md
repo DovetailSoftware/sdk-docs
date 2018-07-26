@@ -5,11 +5,14 @@ Provides easy access to the Windows Data Protection API (DPAPI) for encrypting
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public NotInheritable Class DataProtector 
+```
 
+```csharp
 public sealed class DataProtector 
+```
 
 Remarks
 
@@ -29,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

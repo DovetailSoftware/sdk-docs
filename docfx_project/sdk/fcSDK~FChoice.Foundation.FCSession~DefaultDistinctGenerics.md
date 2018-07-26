@@ -5,15 +5,16 @@ Sets whether or not newly created generic objects will have IsDistinct set to 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property DefaultDistinctGenerics As Boolean
+```
 
+```csharp
 public bool DefaultDistinctGenerics {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

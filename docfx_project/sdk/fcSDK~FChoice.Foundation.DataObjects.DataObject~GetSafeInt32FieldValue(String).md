@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetSafeInt32FieldValue( _
    ByVal _colName_ As String _
 ) As Integer
+```
 
+```csharp
 public int GetSafeInt32FieldValue( 
    string _colName_
 )
+```
 
 #### Parameters
 
 _colName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

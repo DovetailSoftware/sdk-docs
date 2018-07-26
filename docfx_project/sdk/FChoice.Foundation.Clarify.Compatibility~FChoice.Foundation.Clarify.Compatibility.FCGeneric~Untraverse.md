@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub Untraverse() 
+```
 
+```csharp
 public void Untraverse()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

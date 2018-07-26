@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function FulfillCommitment( _
    ByVal _setupParam_ As [FulfillCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) FulfillCommitment( 
    [FulfillCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

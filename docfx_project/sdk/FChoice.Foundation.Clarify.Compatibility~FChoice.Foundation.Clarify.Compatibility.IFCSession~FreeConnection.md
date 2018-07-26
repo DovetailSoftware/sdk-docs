@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743916)>
 Sub FreeConnection() 
+```
 
+```csharp
 [DispIdAttribute(1610743916)]
 void FreeConnection()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Overrides Function GetConnection() As [IDbConnection](#)
+Public Overloads Overrides Function GetConnection() As IDbConnection
+```
 
-public override [IDbConnection](#) GetConnection()
+```csharp
+public override IDbConnection GetConnection()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

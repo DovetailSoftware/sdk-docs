@@ -7,14 +7,18 @@ Generates a string using the same obfuscation algorithm that is compatible with
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function EncryptClarifyPassword( _
    ByVal _password_ As String _
 ) As String
+```
 
+```csharp
 public string EncryptClarifyPassword( 
    string _password_
 )
+```
 
 #### Parameters
 
@@ -31,8 +35,6 @@ Remarks
 This string can be used for password comparison and authentication of users and web users in the Clarify system.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

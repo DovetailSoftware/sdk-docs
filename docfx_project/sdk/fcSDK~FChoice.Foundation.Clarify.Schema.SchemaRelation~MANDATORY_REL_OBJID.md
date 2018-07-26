@@ -3,14 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Public Const MANDATORY_REL_OBJID As Integer
+```
 
+```csharp
 public const int MANDATORY_REL_OBJID
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

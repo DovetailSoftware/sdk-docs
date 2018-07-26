@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743821)>
 Property TruncateStringFields As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743821)]
 bool TruncateStringFields {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

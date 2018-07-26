@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property ChannelObjid As Integer
+'Declaration
 
+Public Property ChannelObjid As Integer
+```
+
+```csharp
 public int ChannelObjid {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

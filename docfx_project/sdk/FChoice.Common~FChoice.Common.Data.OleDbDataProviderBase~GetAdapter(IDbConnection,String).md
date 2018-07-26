@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Overrides Function GetAdapter( _
-   ByVal _conn_ As [IDbConnection](#), _
+   ByVal _conn_ As IDbConnection, _
    ByVal _sqlStmt_ As String _
-) As [DbDataAdapter](#)
+) As DbDataAdapter
+```
 
-public override [DbDataAdapter](#) GetAdapter( 
-   [IDbConnection](#) _conn_,
+```csharp
+public override DbDataAdapter GetAdapter( 
+   IDbConnection _conn_,
    string _sqlStmt_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _conn_
 _sqlStmt_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

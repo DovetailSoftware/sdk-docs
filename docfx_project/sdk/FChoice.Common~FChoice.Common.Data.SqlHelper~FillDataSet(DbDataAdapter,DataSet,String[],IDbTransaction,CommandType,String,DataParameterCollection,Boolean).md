@@ -1,4 +1,4 @@
-﻿### FillDataSet(DbDataAdapter,DataSet,String\[\],IDbTransaction,CommandType,String,DataParameterCollection,Boolean) Method
+﻿### FillDataSet(DbDataAdapter,DataSet,String[],IDbTransaction,CommandType,String,DataParameterCollection,Boolean) Method
 
 Syntax
 
@@ -6,26 +6,26 @@ Syntax
 'Declaration
 
 Public Overloads Shared Sub FillDataSet( _
-   ByVal _adapter_ As [DbDataAdapter](#), _
+   ByVal _adapter_ As DbDataAdapter, _
    ByVal _ds_ As DataSet, _
    ByVal _tableNames_() As String, _
-   ByVal _transaction_ As [IDbTransaction](#), _
-   ByVal _cmdType_ As [CommandType](#), _
+   ByVal _transaction_ As IDbTransaction, _
+   ByVal _cmdType_ As CommandType, _
    ByVal _cmdText_ As String, _
-   ByVal _dataParams_ As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md), _
+   ByVal _dataParams_ As DataParameterCollection, _
    ByVal _fillSchema_ As Boolean _
 ) 
 ```
 
 ```csharp
 public static void FillDataSet( 
-   [DbDataAdapter](#) _adapter_,
+   DbDataAdapter _adapter_,
    DataSet _ds_,
    string[] _tableNames_,
-   [IDbTransaction](#) _transaction_,
-   [CommandType](#) _cmdType_,
+   IDbTransaction _transaction_,
+   CommandType _cmdType_,
    string _cmdText_,
-   [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _dataParams_,
+   DataParameterCollection _dataParams_,
    bool _fillSchema_
 )
 ```

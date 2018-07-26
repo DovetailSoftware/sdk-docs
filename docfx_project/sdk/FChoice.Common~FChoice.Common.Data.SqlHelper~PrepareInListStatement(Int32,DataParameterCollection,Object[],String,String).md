@@ -1,27 +1,28 @@
-﻿     PrepareInListStatement(Int32,DataParameterCollection,Object\[\],String,String) Method                                                   
-
-PrepareInListStatement(Int32,DataParameterCollection,Object\[\],String,String) Method
+﻿### PrepareInListStatement(Int32,DataParameterCollection,Object\[\],String,String) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function PrepareInListStatement( _
    ByVal _paramBaseNum_ As Integer, _
-   ByVal _dataParams_ As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md), _
+   ByVal _dataParams_ As DataParameterCollection, _
    ByVal _inList_() As Object, _
    ByVal _columnName_ As String, _
    ByVal _text_ As String _
 ) As String
+```
 
+```csharp
 public string PrepareInListStatement( 
    int _paramBaseNum_,
-   [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _dataParams_,
+   DataParameterCollection _dataParams_,
    object\[\] _inList_,
    string _columnName_,
    string _text_
 )
+```
 
 #### Parameters
 
@@ -36,8 +37,6 @@ _columnName_
 _text_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

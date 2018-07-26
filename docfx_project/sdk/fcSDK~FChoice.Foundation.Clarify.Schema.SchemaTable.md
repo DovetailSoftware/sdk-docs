@@ -3,13 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class SchemaTable 
-   Inherits [SchemaTableBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase.md)
-   Implements [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md), [FChoice.Foundation.Schema.ISchemaTable](fcSDK~FChoice.Foundation.Schema.ISchemaTable.md), [FChoice.Foundation.Schema.ISchemaTableBase](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase.md) 
+   Inherits SchemaTableBase
+   Implements FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaTable, FChoice.Foundation.Schema.ISchemaTableBase 
+```
 
-public class SchemaTable : [SchemaTableBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase.md), [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md), [FChoice.Foundation.Schema.ISchemaTable](fcSDK~FChoice.Foundation.Schema.ISchemaTable.md), [FChoice.Foundation.Schema.ISchemaTableBase](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase.md)  
+```csharp
+public class SchemaTable : SchemaTableBase, FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaTable, FChoice.Foundation.Schema.ISchemaTableBase
+```
 
 Inheritance Hierarchy
 
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

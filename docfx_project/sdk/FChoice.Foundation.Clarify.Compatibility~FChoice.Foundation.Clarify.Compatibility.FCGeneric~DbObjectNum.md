@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property DbObjectNum As Integer
+'Declaration
 
+Public ReadOnly Property DbObjectNum As Integer
+```
+
+```csharp
 public int DbObjectNum {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

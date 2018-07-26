@@ -7,15 +7,18 @@ Removes, if necessary, the parameter name prefix on a given parameter name
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustOverride Function RemoveParameterNamePrefix( _
    ByVal _name_ As String _
 ) As String
+```
 
+```csharp
 public abstract string RemoveParameterNamePrefix( 
    string _name_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ The parameter name with an optional parameter name prefix
 The parameter name without any name prefix
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

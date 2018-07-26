@@ -5,11 +5,14 @@ Gets an [IDbConnection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemD
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads MustOverride Function GetConnection() As [IDbConnection](#)
+Public Overloads MustOverride Function GetConnection() As IDbConnection
+```
 
-public abstract [IDbConnection](#) GetConnection()
+```csharp
+public abstract IDbConnection GetConnection()
+```
 
 #### Return Value
 
@@ -20,8 +23,6 @@ Remarks
 The connection instance is not open by default. In order to open the connection, use the [Open](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbConnectionClassTopic.htm) method on the [IDbConnection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbConnectionClassTopic.htm) reference returned by this method.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

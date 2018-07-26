@@ -5,10 +5,14 @@ Returns the unique identifier for the session's logged-in user.
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property UserID As Object
+'Declaration
 
+Public ReadOnly Property UserID As Object
+```
+
+```csharp
 public object UserID {get;}
+```
 
 #### Property Value
 
@@ -19,8 +23,6 @@ Remarks
 Based on [FCSession.UserID](fcSDK~FChoice.Foundation.FCSession~UserID.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

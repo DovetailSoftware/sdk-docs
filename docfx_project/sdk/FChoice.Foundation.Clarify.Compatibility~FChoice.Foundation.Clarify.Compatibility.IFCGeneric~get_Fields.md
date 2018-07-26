@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function get_Fields( _
    ByVal _index_ As Object _
 ) As Object
+```
 
+```csharp
 object get_Fields( 
    object _index_
 )
+```
 
 #### Parameters
 
 _index_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

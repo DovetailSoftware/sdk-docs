@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Const MaximumFieldSizeForSortableAdoStringFields As Integer
+```
 
+```csharp
 public const int MaximumFieldSizeForSortableAdoStringFields
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

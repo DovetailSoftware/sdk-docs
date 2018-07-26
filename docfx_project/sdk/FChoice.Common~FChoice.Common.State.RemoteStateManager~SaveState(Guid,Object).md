@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub SaveState( _
    ByVal _id_ As Guid, _
    ByVal _state_ As Object _
 ) 
+```
 
+```csharp
 public void SaveState( 
    Guid _id_,
    object _state_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _id_
 _state_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,14 +5,16 @@ Part Transfer Transaction Identifier.
 Syntax
 
 ```vbnet
-' Declaration
-Public Property TransactionIDNum As String
+'Declaration
 
+Public Property TransactionIDNum As String
+```
+
+```csharp
 public string TransactionIDNum {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

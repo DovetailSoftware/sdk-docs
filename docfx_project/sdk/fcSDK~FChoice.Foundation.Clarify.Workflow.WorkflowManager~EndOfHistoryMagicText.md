@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared ReadOnly EndOfHistoryMagicText As String
+```
 
+```csharp
 public static readonly string EndOfHistoryMagicText
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

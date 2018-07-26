@@ -7,15 +7,18 @@ Causes the generic object to query the database table or view using the specifi
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads MustOverride Sub Query( _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) 
+```
 
+```csharp
 public abstract void Query( 
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _transaction_
 An active/open database [IDbTransaction](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbTransactionClassTopic.htm) object in which this query will participate.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

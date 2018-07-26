@@ -5,17 +5,18 @@ Initializes a new instance of the CreateContractSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New()
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateContractSetup()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

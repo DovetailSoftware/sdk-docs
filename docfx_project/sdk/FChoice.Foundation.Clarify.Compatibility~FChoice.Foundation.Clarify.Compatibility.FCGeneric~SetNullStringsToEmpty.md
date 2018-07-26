@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property SetNullStringsToEmpty As Boolean
+```
 
+```csharp
 public bool SetNullStringsToEmpty {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

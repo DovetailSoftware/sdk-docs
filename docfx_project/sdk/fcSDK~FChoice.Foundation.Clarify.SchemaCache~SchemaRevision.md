@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property SchemaRevision As String
+'Declaration
 
+Public ReadOnly Property SchemaRevision As String
+```
+
+```csharp
 public string SchemaRevision {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

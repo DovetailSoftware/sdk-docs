@@ -1,29 +1,26 @@
-﻿     Sort(Comparison<IGlobalStringList>) Method                                                   
-
-fcSDK Documentation
-
-Sort(Comparison<IGlobalStringList>) Method
+﻿### Sort(Comparison<IGlobalStringList>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub Sort( _
-   ByVal _comparison_ As [Comparison(Of IGlobalStringList)](#) _
-) 
-
-void Sort( 
-   [Comparison<IGlobalStringList>](#) _comparison_
+   ByVal _comparison_ As Comparison(Of IGlobalStringList) _
 )
+```
+
+```csharp
+void Sort( 
+   Comparison<IGlobalStringList> _comparison_
+)
+```
 
 #### Parameters
 
 _comparison_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

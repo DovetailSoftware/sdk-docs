@@ -15,8 +15,6 @@ Overload List
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
 [SqlHelper Class](FChoice.Common~FChoice.Common.Data.SqlHelper.md)  

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function GetFieldValue( _
    ByVal _colName_ As String _
 ) As Object
+```
 
+```csharp
 object GetFieldValue( 
    string _colName_
 )
+```
 
 #### Parameters
 
 _colName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

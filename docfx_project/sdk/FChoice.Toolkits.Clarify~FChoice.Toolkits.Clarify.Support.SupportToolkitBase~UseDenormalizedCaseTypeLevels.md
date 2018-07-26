@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property UseDenormalizedCaseTypeLevels As Boolean
+```
 
+```csharp
 public bool UseDenormalizedCaseTypeLevels {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

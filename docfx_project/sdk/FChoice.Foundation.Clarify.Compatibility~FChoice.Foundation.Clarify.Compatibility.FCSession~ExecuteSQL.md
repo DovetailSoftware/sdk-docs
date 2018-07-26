@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub ExecuteSQL( _
    ByVal _sql_ As String, _
    ByRef _records_ As ADODB.Recordset _
 ) 
+```
 
+```csharp
 public void ExecuteSQL( 
    string _sql_,
    out ADODB.Recordset _records_
 )
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _sql_
 _records_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

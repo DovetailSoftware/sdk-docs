@@ -7,15 +7,18 @@ Creates a new instance of SqlHelper using the specified command text (SQL state
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _cmdTxt_ As String _
 )
+```
 
+```csharp
 public SqlHelper( 
    string _cmdTxt_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _cmdTxt_
 The text command to execute. The default value is an empty string ("").
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

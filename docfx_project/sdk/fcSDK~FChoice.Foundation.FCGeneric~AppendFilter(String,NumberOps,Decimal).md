@@ -2,7 +2,7 @@
 
 Name of the field the filter will be constraining.
 
-The type of filter being applied. See the [NumberOps](fcSDK~FChoice.Foundation.NumberOps.md) enumeration.
+The type of filter being applied. See the NumberOps enumeration.
 
 The filter is being applied against this value.
 
@@ -11,19 +11,22 @@ Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub AppendFilter( _
    ByVal _fieldName_ As String, _
-   ByVal _operation_ As [NumberOps](fcSDK~FChoice.Foundation.NumberOps.md), _
-   ByVal _value_ As [Decimal](#) _
+   ByVal _operation_ As NumberOps, _
+   ByVal _value_ As Decimal _
 ) 
+```
 
+```csharp
 public void AppendFilter( 
    string _fieldName_,
-   [NumberOps](fcSDK~FChoice.Foundation.NumberOps.md) _operation_,
-   [decimal](#) _value_
+   NumberOps _operation_,
+   decimal _value_
 )
+```
 
 #### Parameters
 
@@ -33,15 +36,13 @@ Name of the field the filter will be constraining.
 
 _operation_
 
-The type of filter being applied. See the [NumberOps](fcSDK~FChoice.Foundation.NumberOps.md) enumeration.
+The type of filter being applied. See the NumberOps enumeration.
 
 _value_
 
 The filter is being applied against this value.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

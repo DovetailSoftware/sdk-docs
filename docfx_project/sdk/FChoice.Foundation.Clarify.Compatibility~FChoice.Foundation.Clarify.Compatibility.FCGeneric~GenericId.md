@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property GenericId As String
+'Declaration
 
+Public Property GenericId As String
+```
+
+```csharp
 public string GenericId {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

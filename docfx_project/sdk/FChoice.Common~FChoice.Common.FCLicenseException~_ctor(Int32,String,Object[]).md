@@ -1,11 +1,9 @@
-﻿     FCLicenseException Constructor(Int32,String,Object\[\])                                                   
-
-FCLicenseException Constructor(Int32,String,Object\[\])
+﻿### FCLicenseException Constructor(Int32,String,Object\[\])
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _errorId_ As Integer, _
@@ -18,6 +16,7 @@ public FCLicenseException(
    string _messageId_,
    params object\[\] _args_
 )
+```
 
 #### Parameters
 
@@ -28,8 +27,6 @@ _messageId_
 _args_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

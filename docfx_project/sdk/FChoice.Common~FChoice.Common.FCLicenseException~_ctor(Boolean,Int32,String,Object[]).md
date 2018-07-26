@@ -1,11 +1,9 @@
-﻿     FCLicenseException Constructor(Boolean,Int32,String,Object\[\])                                                   
-
-FCLicenseException Constructor(Boolean,Int32,String,Object\[\])
+﻿### FCLicenseException Constructor(Boolean,Int32,String,Object\[\])
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _loggingEnabled_ As Boolean, _
@@ -13,13 +11,16 @@ Public Function New( _
    ByVal _messageId_ As String, _
    ByVal ParamArray _args_() As Object _
 )
+```
 
+```csharp
 public FCLicenseException( 
    bool _loggingEnabled_,
    int _errorId_,
    string _messageId_,
-   params object\[\] _args_
+   params object[] _args_
 )
+```
 
 #### Parameters
 
@@ -32,8 +33,6 @@ _messageId_
 _args_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

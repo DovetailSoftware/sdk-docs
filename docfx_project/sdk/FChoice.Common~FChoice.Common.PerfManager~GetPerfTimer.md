@@ -5,10 +5,14 @@ Gets the current value of the high-resolution performance counter
 Syntax
 
 ```vbnet
-' Declaration
-Public Shared Function GetPerfTimer() As [Long](#)
+'Declaration
 
-public static [long](#) GetPerfTimer()
+Public Shared Function GetPerfTimer() As Long
+```
+
+```csharp
+public static long GetPerfTimer()
+```
 
 #### Return Value
 
@@ -21,8 +25,6 @@ This method wraps the Win32 API function [QueryPerformanceCounter](http://msdn.m
 For more information on instrumenting code to performing timing and performance testing, please see [MSKB Article 172338](http://support.microsoft.com/kb/q172338/) entitled "How to use QueryPerformanceCounter to Time Code."
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

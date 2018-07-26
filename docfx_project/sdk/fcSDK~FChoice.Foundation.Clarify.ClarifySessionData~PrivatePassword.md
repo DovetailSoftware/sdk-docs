@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property PrivatePassword As String
+'Declaration
 
+Public Property PrivatePassword As String
+```
+
+```csharp
 public string PrivatePassword {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

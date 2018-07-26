@@ -5,15 +5,16 @@ Captured billable expenses.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property TotalBillableExpenses As [Decimal](#)
+Public Property TotalBillableExpenses As Decimal
+```
 
-public [decimal](#) TotalBillableExpenses {get; set;}
+```csharp
+public decimal TotalBillableExpenses {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

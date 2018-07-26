@@ -3,7 +3,8 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Overrides Function IsStateExpired( _
    ByVal _id_ As Guid _
 ) As Boolean

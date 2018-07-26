@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Sub TrimExcess() 
+```
 
+```csharp
 void TrimExcess()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

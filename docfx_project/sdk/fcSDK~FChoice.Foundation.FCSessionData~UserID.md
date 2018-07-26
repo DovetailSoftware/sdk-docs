@@ -5,14 +5,16 @@ UniqueID of the user that created the [Session](fcSDK~FChoice.Foundation.FCSessi
 Syntax
 
 ```vbnet
-' Declaration
-Public Property UserID As Object
+'Declaration
 
+Public Property UserID As Object
+```
+
+```csharp
 public object UserID {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

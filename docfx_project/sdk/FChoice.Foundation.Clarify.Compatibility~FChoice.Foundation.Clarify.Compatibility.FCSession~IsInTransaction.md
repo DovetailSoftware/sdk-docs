@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property IsInTransaction As Boolean
+'Declaration
 
+Public ReadOnly Property IsInTransaction As Boolean
+```
+
+```csharp
 public bool IsInTransaction {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

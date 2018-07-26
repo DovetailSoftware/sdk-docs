@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Function GetDefaultState() As [StateProvince](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince.md)
+Public Overloads Function GetDefaultState() As StateProvince
+```
 
-public [StateProvince](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince.md) GetDefaultState()
+```csharp
+public StateProvince GetDefaultState()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

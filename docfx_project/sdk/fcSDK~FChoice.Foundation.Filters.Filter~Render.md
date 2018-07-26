@@ -3,18 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Overridable Function Render( _
-   ByVal _fcSession_ As [FCSession](fcSDK~FChoice.Foundation.FCSession.md), _
-   ByVal _gen_ As [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md), _
-   ByVal _dbHelper_ As [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) _
-) As String
+'Declaration
 
+Public Overridable Function Render( _
+   ByVal _fcSession_ As FCSession, _
+   ByVal _gen_ As FCGeneric, _
+   ByVal _dbHelper_ As SqlHelper _
+) As String
+```
+
+```csharp
 public virtual string Render( 
-   [FCSession](fcSDK~FChoice.Foundation.FCSession.md) _fcSession_,
-   [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) _gen_,
-   [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) _dbHelper_
+   FCSession _fcSession_,
+   FCGeneric _gen_,
+   SqlHelper _dbHelper_
 )
+```
 
 #### Parameters
 
@@ -25,8 +29,6 @@ _gen_
 _dbHelper_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

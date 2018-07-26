@@ -7,15 +7,18 @@ Commits the row to the database. See FCGeneric's [Update](fcSDK~FChoice.Foundat
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub Update( _
-   ByVal _batch_ As [UpdateQueryBatch](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch.md) _
+   ByVal _batch_ As UpdateQueryBatch _
 ) 
+```
 
+```csharp
 public void Update( 
-   [UpdateQueryBatch](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch.md) _batch_
+   UpdateQueryBatch _batch_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ Remarks
 When it is desirable to consolidate many database operations in one round trip to the database this method can be used in conjunction with a [UpdateQueryBatch](FChoice.Common~FChoice.Common.UpdateQueryBatch.md) object.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

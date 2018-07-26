@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function BinarySearch( _
-   ByVal _item_ As [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) _
+   ByVal _item_ As IGlobalStringList _
 ) As Integer
+```
 
+```csharp
 int BinarySearch( 
-   [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) _item_
+   IGlobalStringList _item_
 )
+```
 
 #### Parameters
 
 _item_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

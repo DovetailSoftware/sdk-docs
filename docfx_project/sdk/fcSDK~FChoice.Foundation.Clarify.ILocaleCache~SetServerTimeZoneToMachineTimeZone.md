@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Sub SetServerTimeZoneToMachineTimeZone() 
+```
 
+```csharp
 void SetServerTimeZoneToMachineTimeZone()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

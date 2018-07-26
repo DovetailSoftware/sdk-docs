@@ -7,15 +7,18 @@ Removes the parameter at the specified index from the collection.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub RemoveAt( _
    ByVal _index_ As Integer _
 ) 
+```
 
+```csharp
 public void RemoveAt( 
    int _index_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ Remarks
 All parameters with higher indexes then this parameter will be shifted down one in index to fill the gap.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

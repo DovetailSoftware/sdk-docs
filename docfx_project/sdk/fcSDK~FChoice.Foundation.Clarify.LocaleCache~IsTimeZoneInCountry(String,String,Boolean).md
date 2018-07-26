@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function IsTimeZoneInCountry( _
    ByVal _countryName_ As String, _
    ByVal _tzName_ As String, _
    ByVal _isFullTzName_ As Boolean _
 ) As Boolean
+```
 
+```csharp
 public bool IsTimeZoneInCountry( 
    string _countryName_,
    string _tzName_,
    bool _isFullTzName_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _tzName_
 _isFullTzName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

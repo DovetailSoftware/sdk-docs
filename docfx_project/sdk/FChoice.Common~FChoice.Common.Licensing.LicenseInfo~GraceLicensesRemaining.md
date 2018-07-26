@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property GraceLicensesRemaining As Integer
+'Declaration
 
+Public ReadOnly Property GraceLicensesRemaining As Integer
+```
+
+```csharp
 public int GraceLicensesRemaining {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,10 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public NotInheritable Class StateManager 
+'Declaration
 
+Public NotInheritable Class StateManager 
+```
+
+```csharp
 public sealed class StateManager 
+```
 
 Inheritance Hierarchy
 
@@ -20,8 +24,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

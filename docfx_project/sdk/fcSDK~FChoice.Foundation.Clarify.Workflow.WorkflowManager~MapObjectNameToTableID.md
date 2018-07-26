@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Function MapObjectNameToTableID( _
    ByVal _objectName_ As String _
 ) As Integer
+```
 
+```csharp
 public static int MapObjectNameToTableID( 
    string _objectName_
 )
+```
 
 #### Parameters
 
 _objectName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

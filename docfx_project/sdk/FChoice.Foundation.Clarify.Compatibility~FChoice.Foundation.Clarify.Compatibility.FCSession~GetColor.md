@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetColor( _
    ByVal _purpose_ As String _
 ) As String
+```
 
+```csharp
 public string GetColor( 
    string _purpose_
 )
+```
 
 #### Parameters
 
 _purpose_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,16 +9,20 @@ Gets the objid of the specified element by rank in the specified application pop
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetGbstElmRankObjID( _
    ByVal _listTitle_ As String, _
    ByVal _elementRank_ As Integer _
 ) As Integer
+```
 
+```csharp
 public int GetGbstElmRankObjID( 
    string _listTitle_,
    int _elementRank_
 )
+```
 
 #### Parameters
 
@@ -39,8 +43,6 @@ Remarks
 If the no list exists with the specified _listTitle_, an exception will be thrown.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

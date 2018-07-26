@@ -5,10 +5,14 @@ Sets an optional WHERE clause constraint. (**WARNING:** See remarks for potentia
 Syntax
 
 ```vbnet
-' Declaration
-Public Property RawFilter As String
+'Declaration
 
+Public Property RawFilter As String
+```
+
+```csharp
 public string RawFilter {get; set;}
+```
 
 #### Property Value
 
@@ -19,8 +23,6 @@ Remarks
 **WARNING**: Setting this property can expose your application to SQL injection attacks. Please [read this best practices guide](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/dnnetsec/html/SecNetch12.asp) published by Microsoft.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

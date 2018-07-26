@@ -9,16 +9,20 @@ Used to compare the [UniqueIDs](fcSDK~FChoice.Foundation.GenericDataRow~UniqueI
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Function AreIDsEqual( _
    ByVal _id1_ As Object, _
    ByVal _id2_ As Object _
 ) As Boolean
+```
 
+```csharp
 public static bool AreIDsEqual( 
    object _id1_,
    object _id2_
 )
+```
 
 #### Parameters
 
@@ -39,8 +43,6 @@ Remarks
 In the Foundation namespace we do not know how the Unique Identifiers of a **GenericDataRow** are implemented. Use this method whenever comparing GenericDataRows in the Foundation namespace.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

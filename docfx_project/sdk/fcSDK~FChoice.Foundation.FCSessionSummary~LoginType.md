@@ -3,19 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property LoginType As Integer
+```
 
+```csharp
 public int LoginType {get;}
+```
 
-Remarks
+[!include[Requirements]emarks
 
 Based on [FCSession.LoginType](fcSDK~FChoice.Foundation.FCSession~LoginType.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

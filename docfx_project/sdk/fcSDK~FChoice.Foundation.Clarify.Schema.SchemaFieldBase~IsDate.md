@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function IsDate() As Boolean
+```
 
+```csharp
 public bool IsDate()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

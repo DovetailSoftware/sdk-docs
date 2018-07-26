@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public MustOverride Function RemoveExpiredStates() As [Guid()](#)
+Public MustOverride Function RemoveExpiredStates() As Guid()
+```
 
-public abstract [Guid\[\]](#) RemoveExpiredStates()
+```csharp
+public abstract Guid[] RemoveExpiredStates()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

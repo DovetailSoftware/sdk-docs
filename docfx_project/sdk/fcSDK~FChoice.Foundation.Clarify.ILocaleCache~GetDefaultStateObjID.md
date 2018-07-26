@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function GetDefaultStateObjID( _
    ByVal _countryName_ As String _
 ) As Integer
+```
 
+```csharp
 int GetDefaultStateObjID( 
    string _countryName_
 )
+```
 
 #### Parameters
 
 _countryName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

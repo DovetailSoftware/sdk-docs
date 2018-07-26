@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustOverride Function MapFCNameToDbName( _
    ByVal _fcName_ As String _
 ) As String
+```
 
+```csharp
 public abstract string MapFCNameToDbName( 
    string _fcName_
 )
+```
 
 #### Parameters
 
 _fcName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

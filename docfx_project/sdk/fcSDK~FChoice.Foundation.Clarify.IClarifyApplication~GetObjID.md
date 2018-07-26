@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function GetObjID( _
    ByVal _tableName_ As String _
 ) As Integer
+```
 
+```csharp
 int GetObjID( 
    string _tableName_
 )
+```
 
 #### Parameters
 
 _tableName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

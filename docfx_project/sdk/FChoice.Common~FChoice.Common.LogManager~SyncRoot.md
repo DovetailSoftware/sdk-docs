@@ -5,19 +5,20 @@ Gets an object that can be used to synchronize access to LogManager.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared ReadOnly SyncRoot As Object
+```
 
+```csharp
 public static readonly object SyncRoot
+```
 
 #### Field Value
 
 An object that can be used to synchronize access to LogManager.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

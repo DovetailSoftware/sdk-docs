@@ -5,10 +5,14 @@ Singleton providing access to the current collection of valid First Choice licen
 Syntax
 
 ```vbnet
-' Declaration
-Public NotInheritable Class LicenseManager 
+'Declaration
 
+Public NotInheritable Class LicenseManager 
+```
+
+```csharp
 public sealed class LicenseManager 
+```
 
 Remarks
 
@@ -30,8 +34,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

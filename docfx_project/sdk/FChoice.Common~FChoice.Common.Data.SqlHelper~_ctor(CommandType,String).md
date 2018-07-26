@@ -9,17 +9,20 @@ Creates a new instance of SqlHelper with the specified [CommandType](FChoice.Com
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _inCmdType_ As [CommandType](#), _
+   ByVal _inCmdType_ As CommandType, _
    ByVal _cmdTxt_ As String _
 )
+```
 
+```csharp
 public SqlHelper( 
-   [CommandType](#) _inCmdType_,
+   CommandType _inCmdType_,
    string _cmdTxt_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ Remarks
 When the _inCmdType_ parameter is set to **StoredProcedure**, set the _cmdText_ parameter to the name of the stored procedure. The user may be required to use escape character syntax if the stored procedure name contains any special characters. The command will call this stored procedure when you call one of the Execute methods.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

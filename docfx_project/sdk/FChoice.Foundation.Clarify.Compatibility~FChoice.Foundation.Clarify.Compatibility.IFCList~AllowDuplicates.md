@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743808)>
 Property AllowDuplicates As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743808)]
 bool AllowDuplicates {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

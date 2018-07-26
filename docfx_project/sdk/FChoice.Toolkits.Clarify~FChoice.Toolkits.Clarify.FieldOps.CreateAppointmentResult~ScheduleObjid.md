@@ -5,14 +5,16 @@ The Objid of the Schedule.
 Syntax
 
 ```vbnet
-' Declaration
-Public Property ScheduleObjid As Integer
+'Declaration
 
+Public Property ScheduleObjid As Integer
+```
+
+```csharp
 public int ScheduleObjid {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

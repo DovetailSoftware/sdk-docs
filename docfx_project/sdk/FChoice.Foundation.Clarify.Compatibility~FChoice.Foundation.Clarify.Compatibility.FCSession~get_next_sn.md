@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function get_next_sn( _
    ByVal _the_ind_ As Short _
 ) As Object
+```
 
+```csharp
 public object get_next_sn( 
    short _the_ind_
 )
+```
 
 #### Parameters
 
 _the_ind_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

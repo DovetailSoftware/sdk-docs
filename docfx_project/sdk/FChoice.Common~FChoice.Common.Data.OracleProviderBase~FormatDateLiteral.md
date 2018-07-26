@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Overrides Function FormatDateLiteral( _
    ByVal _value_ As Date _
 ) As String
+```
 
+```csharp
 public override string FormatDateLiteral( 
    DateTime _value_
 )
+```
 
 #### Parameters
 
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

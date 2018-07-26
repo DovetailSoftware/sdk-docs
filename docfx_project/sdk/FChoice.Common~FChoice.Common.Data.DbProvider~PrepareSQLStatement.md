@@ -11,19 +11,22 @@ Prepares and formats a SQL statement according to the rules of the underlying da
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustOverride Function PrepareSQLStatement( _
    ByVal _sqlStmt_ As String, _
-   ByVal _cmdType_ As [CommandType](#), _
-   ByVal _commandParams_ As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _
+   ByVal _cmdType_ As CommandType, _
+   ByVal _commandParams_ As DataParameterCollection _
 ) As String
+```
 
+```csharp
 public abstract string PrepareSQLStatement( 
    string _sqlStmt_,
-   [CommandType](#) _cmdType_,
-   [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _commandParams_
+   CommandType _cmdType_,
+   DataParameterCollection _commandParams_
 )
+```
 
 #### Parameters
 
@@ -60,8 +63,6 @@ This statement can then be executed against the database using an ADO.NET [IDbCo
 **NOTE**: [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) will automatically call this method during Execute* methods like [ExecuteNonQuery](FChoice.Common~FChoice.Common.Data.SqlHelper~ExecuteNonQuery.md) or [ExecuteDataSet](FChoice.Common~FChoice.Common.Data.SqlHelper~ExecuteDataSet.md). Generally, this method should not be called directly, only through [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

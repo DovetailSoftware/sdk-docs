@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetDbVersion( _
    ByVal _force_ As Boolean _
-) As [Version](#)
+) As Version
+```
 
-public [Version](#) GetDbVersion( 
+```csharp
+public Version GetDbVersion( 
    bool _force_
 )
+```
 
 #### Parameters
 
 _force_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

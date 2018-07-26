@@ -9,19 +9,22 @@ Name of the field to sort by
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub AppendSort( _
    ByVal _fieldName_ As String, _
    ByVal _isAscending_ As Boolean, _
    ByVal _checkField_ As Boolean _
 ) 
+```
 
+```csharp
 public void AppendSort( 
    string _fieldName_,
    bool _isAscending_,
    bool _checkField_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ _checkField_
 **true** to validate whether the field specified in _fieldName_ is a valid field on this table. **false** to add the _fieldName_ without any verification.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

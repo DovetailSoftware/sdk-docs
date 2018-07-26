@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shared Function RemoveExpiredStates() As [Guid()](#)
+Public Shared Function RemoveExpiredStates() As Guid()
+```
 
-public static [Guid\[\]](#) RemoveExpiredStates()
+```csharp
+public static Guid[] RemoveExpiredStates()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

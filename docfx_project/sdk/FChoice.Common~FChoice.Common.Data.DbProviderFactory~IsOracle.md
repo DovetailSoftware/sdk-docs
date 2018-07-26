@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function IsOracle() As Boolean
+```
 
+```csharp
 public static bool IsOracle()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

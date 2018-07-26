@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function ContainsColumn( _
    ByVal _columnName_ As String _
 ) As Boolean
+```
 
+```csharp
 public bool ContainsColumn( 
    string _columnName_
 )
+```
 
 #### Parameters
 
 _columnName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,19 +7,22 @@ GetSafeBooleanFieldValue(String,Dictionary<String,ColumnInfo>,Object\[\]) Method
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function GetSafeBooleanFieldValue( _
    ByVal _columnName_ As String, _
    ByVal _columnMap_ As [Dictionary(Of String,ColumnInfo)](#), _
    ByVal _values_() As Object _
 ) As Boolean
+```
 
+```csharp
 public static bool GetSafeBooleanFieldValue( 
    string _columnName_,
    [Dictionary<string,ColumnInfo>](#) _columnMap_,
    object\[\] _values_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _columnMap_
 _values_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

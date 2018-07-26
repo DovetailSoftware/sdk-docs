@@ -7,14 +7,18 @@ Converts a DateTime value to a string according to the specific format of the u
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public MustOverride Function FormatDateLiteral( _
    ByVal _value_ As Date _
 ) As String
+```
 
+```csharp
 public abstract string FormatDateLiteral( 
    DateTime _value_
 )
+```
 
 #### Parameters
 
@@ -31,8 +35,6 @@ Remarks
 The resultant string can be used directly in a SQL statement. For example, the date will be formatted as  'yyyy-MM-dd HH:mm:ss.fff' for MSSQL or a TO_DATE(yourdate, 'yyyy-mm-dd hh24:mi:ss') function call will be returned for Oracle.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

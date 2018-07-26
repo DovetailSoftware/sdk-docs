@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Shared ReadOnly Property Log As [Logger](FChoice.Common~FChoice.Common.Logger.md)
+'Declaration
 
-public static [Logger](FChoice.Common~FChoice.Common.Logger.md) Log {get;}
+Public Shared ReadOnly Property Log As Logger
+```
+
+```csharp
+public static Logger Log {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

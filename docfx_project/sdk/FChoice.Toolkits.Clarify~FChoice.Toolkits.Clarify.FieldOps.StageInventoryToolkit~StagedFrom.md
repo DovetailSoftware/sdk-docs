@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Shared ReadOnly StagedFrom As Integer
+'Declaration
 
+Public Shared ReadOnly StagedFrom As Integer
+```
+
+```csharp
 public static readonly int StagedFrom
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

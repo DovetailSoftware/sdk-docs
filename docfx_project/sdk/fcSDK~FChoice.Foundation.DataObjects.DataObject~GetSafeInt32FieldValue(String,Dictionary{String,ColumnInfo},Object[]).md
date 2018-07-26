@@ -1,25 +1,24 @@
-﻿     GetSafeInt32FieldValue(String,Dictionary<String,ColumnInfo>,Object\[\]) Method                                                   
-
-fcSDK Documentation
-
-GetSafeInt32FieldValue(String,Dictionary<String,ColumnInfo>,Object\[\]) Method
+﻿### GetSafeInt32FieldValue(String,Dictionary<String,ColumnInfo>,Object\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function GetSafeInt32FieldValue( _
    ByVal _columnName_ As String, _
-   ByVal _columnMap_ As [Dictionary(Of String,ColumnInfo)](#), _
+   ByVal _columnMap_ As Dictionary(Of String,ColumnInfo), _
    ByVal _values_() As Object _
 ) As Integer
+```
 
+```csharp
 public static int GetSafeInt32FieldValue( 
    string _columnName_,
-   [Dictionary<string,ColumnInfo>](#) _columnMap_,
+   Dictionary<string,ColumnInfo> _columnMap_,
    object\[\] _values_
 )
+```
 
 #### Parameters
 
@@ -30,8 +29,6 @@ _columnMap_
 _values_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

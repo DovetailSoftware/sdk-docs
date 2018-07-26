@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743870)>
 Sub CloseSession() 
+```
 
+```csharp
 [DispIdAttribute(1610743870)]
 void CloseSession()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

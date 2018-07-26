@@ -1,21 +1,22 @@
-﻿     FillDataSet(DataSet,String\[\]) Method                                                   
-
-FillDataSet(DataSet,String\[\]) Method
+﻿### FillDataSet(DataSet,String\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub FillDataSet( _
    ByVal _ds_ As DataSet, _
    ByVal ParamArray _tableNames_() As String _
 ) 
+```
 
+```csharp
 public void FillDataSet( 
    DataSet _ds_,
    params string[] _tableNames_
 )
+```
 
 #### Parameters
 
@@ -24,8 +25,6 @@ _ds_
 _tableNames_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

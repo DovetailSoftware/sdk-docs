@@ -7,17 +7,20 @@ Name of the field to sort by
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub AppendSort( _
    ByVal _fieldName_ As String, _
    ByVal _isAscending_ As Boolean _
 ) 
+```
 
+```csharp
 public void AppendSort( 
    string _fieldName_,
    bool _isAscending_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _isAscending_
 **true** if the sort order is Ascending. **false** if it is Descending.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

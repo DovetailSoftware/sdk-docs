@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610747766)>
 Sub RollbackTransaction() 
+```
 
+```csharp
 [DispIdAttribute(1610747766)]
 void RollbackTransaction()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

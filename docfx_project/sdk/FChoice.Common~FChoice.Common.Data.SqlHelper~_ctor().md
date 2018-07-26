@@ -5,15 +5,16 @@ Creates a new instance of SqlHelper using the default [DbProvider](FChoice.Commo
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New()
+```
 
+```csharp
 public SqlHelper()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

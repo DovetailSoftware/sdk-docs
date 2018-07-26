@@ -7,23 +7,24 @@ set_Value Method (MockAdoField)
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub set_Value( _
    ByVal _newValue_ As Object _
 ) 
+```
 
+```csharp
 public void set_Value( 
    object _newValue_
 )
+```
 
 #### Parameters
 
 _newValue_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

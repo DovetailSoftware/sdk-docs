@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Sub InsertRange( _
    ByVal _index_ As Integer, _
-   ByVal _collection_ As [IEnumerable(Of IGlobalStringList)](#) _
-) 
+   ByVal _collection_ As IEnumerable(Of IGlobalStringList) _
+)
+```
 
+```csharp
 void InsertRange( 
    int _index_,
-   [IEnumerable<IGlobalStringList>](#) _collection_
+   IEnumerable<IGlobalStringList> _collection_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _index_
 _collection_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

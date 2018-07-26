@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function DispatchSubcase( _
    ByVal _setupParam_ As [DispatchSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchSubcase( 
    [DispatchSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743823)>
 ReadOnly Property IsDBUnicode As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743823)]
 bool IsDBUnicode {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

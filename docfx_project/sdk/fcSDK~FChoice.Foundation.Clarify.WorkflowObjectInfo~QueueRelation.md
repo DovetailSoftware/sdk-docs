@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property QueueRelation As String
+'Declaration
 
+Public Property QueueRelation As String
+```
+
+```csharp
 public string QueueRelation {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

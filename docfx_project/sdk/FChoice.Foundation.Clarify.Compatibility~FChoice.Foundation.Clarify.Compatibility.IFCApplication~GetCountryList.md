@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743852)>
 Function GetCountryList() As ADODB.Recordset
+```
 
+```csharp
 [DispIdAttribute(1610743852)]
 ADODB.Recordset GetCountryList()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

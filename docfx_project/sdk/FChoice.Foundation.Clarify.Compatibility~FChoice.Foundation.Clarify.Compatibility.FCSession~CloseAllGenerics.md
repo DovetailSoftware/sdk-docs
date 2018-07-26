@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub CloseAllGenerics() 
+```
 
+```csharp
 public void CloseAllGenerics()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

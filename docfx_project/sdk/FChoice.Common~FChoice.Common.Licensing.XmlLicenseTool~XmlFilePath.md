@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property XmlFilePath As String
+'Declaration
 
+Public ReadOnly Property XmlFilePath As String
+```
+
+```csharp
 public string XmlFilePath {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

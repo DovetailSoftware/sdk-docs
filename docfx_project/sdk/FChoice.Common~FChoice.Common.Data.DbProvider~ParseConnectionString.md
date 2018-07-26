@@ -7,14 +7,18 @@ Parses a connection string into name-value pairs
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Function ParseConnectionString( _
    ByVal _connectStr_ As String _
 ) As NameValueCollection
+```
 
+```csharp
 public static NameValueCollection ParseConnectionString( 
    string _connectStr_
 )
+```
 
 #### Parameters
 
@@ -31,8 +35,6 @@ Remarks
 A trailing semi-colon is not required. For more information about the format of the connection string and possible parameters, please see the [SqlConnection.ConnectionString](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatasqlclientsqlconnectionclassconnectionstringtopic.htm) property documentation. Oracle and other connection strings follow the same general rules and expose most of the same parameters as a [SqlConnection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataSqlClientSqlConnectionClassTopic.htm) connection string.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

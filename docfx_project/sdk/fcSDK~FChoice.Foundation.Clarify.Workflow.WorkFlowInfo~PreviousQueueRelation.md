@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property PreviousQueueRelation As String
+'Declaration
 
+Public ReadOnly Property PreviousQueueRelation As String
+```
+
+```csharp
 public string PreviousQueueRelation {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

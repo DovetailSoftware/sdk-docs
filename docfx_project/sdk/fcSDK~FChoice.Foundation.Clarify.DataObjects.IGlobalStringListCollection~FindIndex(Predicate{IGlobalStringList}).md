@@ -1,29 +1,26 @@
-﻿     FindIndex(Predicate<IGlobalStringList>) Method                                                   
-
-fcSDK Documentation
-
-FindIndex(Predicate<IGlobalStringList>) Method
+﻿### FindIndex(Predicate<IGlobalStringList>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function FindIndex( _
-   ByVal _match_ As [Predicate(Of IGlobalStringList)](#) _
+   ByVal _match_ As Predicate(Of IGlobalStringList) _
 ) As Integer
+```
 
+```csharp
 int FindIndex( 
-   [Predicate<IGlobalStringList>](#) _match_
+   Predicate<IGlobalStringList> _match_
 )
+```
 
 #### Parameters
 
 _match_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

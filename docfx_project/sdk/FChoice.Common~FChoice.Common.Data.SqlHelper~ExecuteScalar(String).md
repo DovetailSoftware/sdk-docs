@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function ExecuteScalar( _
    ByVal _commandText_ As String _
 ) As Object
+```
 
+```csharp
 public static object ExecuteScalar( 
    string _commandText_
 )
+```
 
 #### Parameters
 
 _commandText_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

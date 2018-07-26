@@ -5,11 +5,14 @@ Returns the login name for the session's logged-in user.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property UserName As String
+```
 
+```csharp
 public string UserName {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 Based on [FCSession.Username](fcSDK~FChoice.Foundation.FCSession~UserName.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

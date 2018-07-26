@@ -9,17 +9,20 @@ Formats a bitwise AND statement according to the language features of the underl
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustOverride Function GetBitwiseAndStatement( _
    ByVal _operand1_ As Object, _
    ByVal _operand2_ As Object _
 ) As String
+```
 
+```csharp
 public abstract string GetBitwiseAndStatement( 
    object _operand1_,
    object _operand2_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 MSSQL and Oracle 9 and later recognize the standard C-style bitwise AND statement syntax (x & y). However, Oracle 8i and earlier required the use of the bitand() function to evaluate bitwise AND statements. This method helps SQL statement writers use AND syntax in their queries without concerns of the differences in database types.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,23 +1,23 @@
-﻿     PrepareInListStatement(Int32\[\],String,String) Method                                                   
-
-PrepareInListStatement(Int32\[\],String,String) Method
-
+﻿### PrepareInListStatement(Int32[],String,String) Method
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function PrepareInListStatement( _
    ByVal _inList_() As Integer, _
    ByVal _columnName_ As String, _
    ByVal _text_ As String _
 ) As String
+```
 
+```csharp
 public string PrepareInListStatement( 
-   int\[\] _inList_,
+   int[] _inList_,
    string _columnName_,
    string _text_
 )
+```
 
 #### Parameters
 
@@ -28,8 +28,6 @@ _columnName_
 _text_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

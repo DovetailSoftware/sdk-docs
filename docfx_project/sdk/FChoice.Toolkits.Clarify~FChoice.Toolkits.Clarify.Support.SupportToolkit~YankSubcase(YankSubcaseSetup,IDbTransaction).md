@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function YankSubcase( _
    ByVal _setupParam_ As [YankSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankSubcaseSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankSubcase( 
    [YankSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankSubcaseSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

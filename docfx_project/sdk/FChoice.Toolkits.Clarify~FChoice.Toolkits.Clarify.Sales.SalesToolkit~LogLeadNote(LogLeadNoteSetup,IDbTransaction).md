@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function LogLeadNote( _
    ByVal _setupParam_ As [LogLeadNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogLeadNote( 
    [LogLeadNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

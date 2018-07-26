@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Function IsInteger() As Boolean
+'Declaration
 
+Public Function IsInteger() As Boolean
+```
+
+```csharp
 public bool IsInteger()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

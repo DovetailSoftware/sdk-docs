@@ -3,25 +3,28 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[ComVisibleAttribute](#)(False)>
+<ComVisibleAttribute(False)>
 Overloads Function error_handler( _
    ByVal _errorNum_ As Integer, _
    ByVal _objId_ As String, _
    ByVal _source_ As String, _
    ByVal _message_ As String, _
-   ByVal _ex_ As [Exception](#) _
+   ByVal _ex_ As Exception _
 ) As Short
+```
 
-\[[ComVisibleAttribute](#)(false)\]
+```csharp
+[ComVisibleAttribute(false)]
 short error_handler( 
    int _errorNum_,
    string _objId_,
    string _source_,
    string _message_,
-   [Exception](#) _ex_
+   Exception _ex_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ _message_
 _ex_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

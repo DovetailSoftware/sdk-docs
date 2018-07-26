@@ -11,19 +11,22 @@ Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub AppendFilter( _
    ByVal _fieldName_ As String, _
-   ByVal _operation_ As [DateOps](fcSDK~FChoice.Foundation.DateOps.md), _
+   ByVal _operation_ As DateOps, _
    ByVal _value_ As Date _
 ) 
+```
 
+```csharp
 public void AppendFilter( 
    string _fieldName_,
-   [DateOps](fcSDK~FChoice.Foundation.DateOps.md) _operation_,
+   DateOps _operation_,
    DateTime _value_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ _value_
 The filter is being applied against this **DateTime**.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

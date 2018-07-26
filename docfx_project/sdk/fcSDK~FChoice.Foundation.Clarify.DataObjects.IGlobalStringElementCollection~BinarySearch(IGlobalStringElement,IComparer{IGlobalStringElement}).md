@@ -1,23 +1,22 @@
-﻿     BinarySearch(IGlobalStringElement,IComparer<IGlobalStringElement>) Method                                                   
-
-fcSDK Documentation
-
-BinarySearch(IGlobalStringElement,IComparer<IGlobalStringElement>) Method
+﻿### BinarySearch(IGlobalStringElement,IComparer<IGlobalStringElement>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function BinarySearch( _
-   ByVal _item_ As [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md), _
-   ByVal _comparer_ As [IComparer(Of IGlobalStringElement)](#) _
+   ByVal _item_ As IGlobalStringElement, _
+   ByVal _comparer_ As IComparer(Of IGlobalStringElement) _
 ) As Integer
+```
 
+```csharp
 int BinarySearch( 
-   [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md) _item_,
-   [IComparer<IGlobalStringElement>](#) _comparer_
+   IGlobalStringElement _item_,
+   IComparer<IGlobalStringElement> _comparer_
 )
+```
 
 #### Parameters
 
@@ -26,8 +25,6 @@ _item_
 _comparer_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

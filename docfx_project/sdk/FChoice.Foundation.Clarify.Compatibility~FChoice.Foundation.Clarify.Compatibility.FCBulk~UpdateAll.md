@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Sub UpdateAll() 
+'Declaration
 
+Public Sub UpdateAll() 
+```
+
+```csharp
 public void UpdateAll()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

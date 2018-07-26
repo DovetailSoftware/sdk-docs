@@ -1,8 +1,4 @@
-﻿     AppendFilterInList(String,Boolean,Decimal\[\]) Method                                                   
-
-fcSDK Documentation
-
-AppendFilterInList(String,Boolean,Decimal\[\]) Method
+﻿### AppendFilterInList(String,Boolean,Decimal\[\]) Method
 
 Name of the field the filter will be constraining.
 
@@ -15,19 +11,22 @@ Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub AppendFilterInList( _
    ByVal _fieldName_ As String, _
    ByVal _isIn_ As Boolean, _
-   ByVal ParamArray _list_() As [Decimal](#) _
+   ByVal ParamArray _list_() As Decimal _
 ) 
+```
 
+```csharp
 public void AppendFilterInList( 
    string _fieldName_,
    bool _isIn_,
-   params [decimal](#)\[\] _list_
+   params decimal\[\] _list_
 )
+```
 
 #### Parameters
 
@@ -44,8 +43,6 @@ _list_
 Array of values to filter on
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

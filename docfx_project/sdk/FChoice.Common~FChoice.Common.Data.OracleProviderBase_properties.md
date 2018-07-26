@@ -13,10 +13,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RequiresDbNameParameter](FChoice.Common~FChoice.Common.Data.OracleProviderBase~RequiresDbNameParameter.md) | Overridden.    |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.OracleProviderBase~TypeMapper.md) | Overridden.    |
 
-
-
-
-
 #### Reference
 
 [OracleProviderBase Class](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)  

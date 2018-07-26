@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub AppendHistoryToCR( _
    ByVal _idNumber_ As String, _
    ByVal _stringToAppendToHistory_ As String _
 ) 
+```
 
+```csharp
 public void AppendHistoryToCR( 
    string _idNumber_,
    string _stringToAppendToHistory_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _idNumber_
 _stringToAppendToHistory_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

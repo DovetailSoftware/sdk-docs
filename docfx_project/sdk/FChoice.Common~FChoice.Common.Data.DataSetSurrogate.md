@@ -5,11 +5,14 @@ Reads or writes a DataSet as a compact binary stream.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class DataSetSurrogate 
+```
 
+```csharp
 public class DataSetSurrogate 
+```
 
 Remarks
 

@@ -7,15 +7,18 @@ Returns the name of the physical MTM table for a given MTM relationship using th
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetMtmTableName( _
-   ByVal _relation_ As [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md) _
+   ByVal _relation_ As SchemaRelation _
 ) As String
+```
 
+```csharp
 public string GetMtmTableName( 
-   [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md) _relation_
+   SchemaRelation _relation_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ The MTM relation from which the MTM table name is to be generated
 The name of the physical MTM table for a given MTM relationship using the Clarify MTM naming conventions
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

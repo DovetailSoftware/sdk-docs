@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function is_rel_mandatory( _
    ByVal _tableNum_ As Integer, _
    ByVal _relationName_ As String _
 ) As Boolean
+```
 
+```csharp
 public bool is_rel_mandatory( 
    int _tableNum_,
    string _relationName_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _tableNum_
 _relationName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743855)>
 Property Distinct As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743855)]
 bool Distinct {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

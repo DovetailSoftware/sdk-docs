@@ -9,16 +9,20 @@ Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub AppendFilterIsNull( _
    ByVal _fieldName_ As String, _
    ByVal _isNull_ As Boolean _
 ) 
+```
 
+```csharp
 public void AppendFilterIsNull( 
    string _fieldName_,
    bool _isNull_
 )
+```
 
 #### Parameters
 
@@ -37,8 +41,6 @@ Filters are a powerful feature that make it easy to limit the rows returned by a
 You can call [ClearFilters](fcSDK~FChoice.Foundation.FCGeneric~ClearFilters.md) to remove all the filters being applied to a FCGeneric.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

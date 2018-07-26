@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function ForwardActionItem( _
    ByVal _setupParam_ As [ForwardActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardActionItem( 
    [ForwardActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

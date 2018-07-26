@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function GetSafeStringFieldValue( _
    ByVal _colName_ As String _
 ) As String
+```
 
+```csharp
 string GetSafeStringFieldValue( 
    string _colName_
 )
+```
 
 #### Parameters
 
 _colName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,12 +5,15 @@ DataProtectionStore is used with the [DataProtector](FChoice.Common~FChoice.Comm
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Enum DataProtectionStore 
    Inherits System.Enum
+```
 
+```csharp
 public enum DataProtectionStore : System.Enum 
+```
 
 Members
 
@@ -33,8 +36,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

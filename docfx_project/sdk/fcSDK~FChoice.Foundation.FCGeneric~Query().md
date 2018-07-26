@@ -5,15 +5,16 @@ Causes the generic object to query the database table or view using the option
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads MustOverride Sub Query() 
+Public Overloads MustOverride Sub Query()
+```
 
+```csharp
 public abstract void Query()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,13 +3,17 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <SerializableAttribute()>
 Public Class StateManagerException 
-   Inherits [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)
+   Inherits FChoice.Common.FCExceptionBase
+```
 
+```csharp
 [SerializableAttribute()]
-public class StateManagerException : [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) 
+public class StateManagerException : FChoice.Common.FCExceptionBase 
+```
 
 Inheritance Hierarchy
 
@@ -26,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

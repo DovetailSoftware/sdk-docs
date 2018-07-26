@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function MakeFullHistoryDirty( _
    ByVal _currentHistory_ As String _
 ) As String
+```
 
+```csharp
 public static string MakeFullHistoryDirty( 
    string _currentHistory_
 )
+```
 
 #### Parameters
 
 _currentHistory_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

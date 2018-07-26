@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Sub CloseConnection() 
+'Declaration
 
+Public Sub CloseConnection() 
+```
+
+```csharp
 public void CloseConnection()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

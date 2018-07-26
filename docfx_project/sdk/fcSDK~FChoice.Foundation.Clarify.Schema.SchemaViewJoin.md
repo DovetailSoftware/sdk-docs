@@ -3,12 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Class SchemaViewJoin 
-   Inherits [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)
-   Implements [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md), [FChoice.Foundation.Schema.ISchemaViewJoin](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin.md) 
+'Declaration
 
-public class SchemaViewJoin : [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md), [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md), [FChoice.Foundation.Schema.ISchemaViewJoin](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin.md)  
+Public Class SchemaViewJoin 
+   Inherits FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject
+   Implements FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaViewJoin 
+```
+
+```csharp
+public class SchemaViewJoin : FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject, FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaViewJoin  
+```
 
 Inheritance Hierarchy
 
@@ -24,8 +28,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

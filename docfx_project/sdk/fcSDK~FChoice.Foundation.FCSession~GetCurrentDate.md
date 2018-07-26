@@ -5,11 +5,14 @@ Retrieves the DateTime of the CRM database.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overridable Function GetCurrentDate() As Date
+```
 
+```csharp
 public virtual DateTime GetCurrentDate()
+```
 
 #### Return Value
 
@@ -20,8 +23,6 @@ Remarks
 When [ConvertTimeZone](fcSDK~FChoice.Foundation.FCSession~ConvertTimeZone.md) is enabled the return value will be converted to the [LocalTimeZone](fcSDK~FChoice.Foundation.FCSession~LocalTimeZone.md).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

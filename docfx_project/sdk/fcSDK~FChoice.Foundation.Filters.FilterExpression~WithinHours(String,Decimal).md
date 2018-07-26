@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function WithinHours( _
    ByVal _columnName_ As String, _
-   ByVal _value_ As [Decimal](#) _
-) As [WithinHoursFilter](fcSDK~FChoice.Foundation.Filters.WithinHoursFilter.md)
+   ByVal _value_ As Decimal _
+) As WithinHoursFilter
 
-public [WithinHoursFilter](fcSDK~FChoice.Foundation.Filters.WithinHoursFilter.md) WithinHours( 
+public WithinHoursFilter WithinHours( 
    string _columnName_,
-   [decimal](#) _value_
+   decimal _value_
 )
+```
 
 #### Parameters
 
@@ -22,8 +23,6 @@ _columnName_
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

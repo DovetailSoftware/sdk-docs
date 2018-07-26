@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overrides Sub UpdateCache() 
+Public Overrides Sub UpdateCache()
+```
 
+```csharp
 public override void UpdateCache()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

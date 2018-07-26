@@ -8,10 +8,6 @@ Public Fields
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png) | [IN_LIST_TOKEN](FChoice.Common~FChoice.Common.Data.SqlHelper~IN_LIST_TOKEN.md) |   |
 
-
-
-
-
 #### Reference
 
 [SqlHelper Class](FChoice.Common~FChoice.Common.Data.SqlHelper.md)  

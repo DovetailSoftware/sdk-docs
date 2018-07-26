@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ComVisibleAttribute](#)(False)>
-Public Property CurrentNetTransaction As [IDbTransaction](#)
+'Declaration
 
-\[[ComVisibleAttribute](#)(false)\]
-public [IDbTransaction](#) CurrentNetTransaction {get; set;}
+<ComVisibleAttribute(False)>
+Public Property CurrentNetTransaction As IDbTransaction
+```
+
+```csharp
+[ComVisibleAttribute(false)]
+public IDbTransaction CurrentNetTransaction {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

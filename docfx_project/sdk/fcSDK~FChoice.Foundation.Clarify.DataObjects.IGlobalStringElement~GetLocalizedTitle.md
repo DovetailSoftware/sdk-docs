@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function GetLocalizedTitle( _
    ByVal _specificCulture_ As CultureInfo _
 ) As String
+```
 
+```csharp
 string GetLocalizedTitle( 
    CultureInfo _specificCulture_
 )
+```
 
 #### Parameters
 
 _specificCulture_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

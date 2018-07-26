@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Const PRIMARY_BIN_SUGGESTION_NAME As String
+```
 
+```csharp
 public const string PRIMARY_BIN_SUGGESTION_NAME
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

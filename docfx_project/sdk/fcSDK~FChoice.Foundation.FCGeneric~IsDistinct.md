@@ -5,15 +5,16 @@ Is this a Generic that should query for only discinct rows.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property IsDistinct As Boolean
+```
 
+```csharp
 public bool IsDistinct {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

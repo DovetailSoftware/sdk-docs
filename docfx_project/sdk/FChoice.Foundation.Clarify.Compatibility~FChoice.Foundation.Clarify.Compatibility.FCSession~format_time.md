@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function format_time( _
    ByVal _totalTime_ As Integer _
 ) As String
+```
 
+```csharp
 public string format_time( 
    int _totalTime_
 )
+```
 
 #### Parameters
 
 _totalTime_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,7 +5,7 @@ This method is intended to be used internally by First Choice .NET products.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function GetProductLicenseError( _
    ByVal _errorId_ As Integer, _
@@ -16,6 +16,7 @@ public static [FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseExcept
    int _errorId_,
    int _productId_
 )
+```
 
 #### Parameters
 
@@ -24,8 +25,6 @@ _errorId_
 _productId_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

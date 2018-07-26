@@ -3,18 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetAdoFieldInformation( _
    ByVal _fieldName_ As String, _
-   ByVal _dataType_ As [Type](#), _
+   ByVal _dataType_ As Type, _
    ByVal _maxLength_ As Integer _
-) As [AdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoField.md)
+) As AdoField
+```
 
-public [AdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoField.md) GetAdoFieldInformation( 
+```csharp
+public AdoField GetAdoFieldInformation( 
    string _fieldName_,
-   [Type](#) _dataType_,
+   Type _dataType_,
    int _maxLength_
 )
+```
 
 #### Parameters
 
@@ -25,8 +29,6 @@ _dataType_
 _maxLength_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

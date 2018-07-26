@@ -6,12 +6,12 @@ Syntax
 ' Declaration
 
 Public Function New( _
-   ByVal _transaction_ As [IDbTransaction](#), _
+   ByVal _transaction_ As IDbTransaction, _
    ByVal _ds_ As [ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) _
 )
 
 public WorkflowManager( 
-   [IDbTransaction](#) _transaction_,
+   IDbTransaction _transaction_,
    [ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) _ds_
 )
 

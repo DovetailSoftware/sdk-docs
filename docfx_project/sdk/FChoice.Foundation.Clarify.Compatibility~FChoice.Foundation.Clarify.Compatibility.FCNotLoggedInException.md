@@ -3,15 +3,19 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ComVisibleAttribute](#)(False)>
+'Declaration
+
+<ComVisibleAttribute(False)>
 <SerializableAttribute()>
 Public Class FCNotLoggedInException 
-   Inherits [CompatibilityException](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.CompatibilityException.md)
+   Inherits CompatibilityException
+```
 
-\[[ComVisibleAttribute](#)(false)\]
+```csharp
+[ComVisibleAttribute(false)]
 [SerializableAttribute()]
-public class FCNotLoggedInException : [CompatibilityException](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.CompatibilityException.md) 
+public class FCNotLoggedInException : CompatibilityException 
+```
 
 Inheritance Hierarchy
 
@@ -29,8 +33,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
-
-
 
 #### Reference
 

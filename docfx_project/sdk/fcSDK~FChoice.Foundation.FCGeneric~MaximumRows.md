@@ -5,13 +5,16 @@ Controls the maximum number of rows to be returned by the Genric Query.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property MaximumRows As Integer
+```
 
+```csharp
 public int MaximumRows {get; set;}
+```
 
-Remarks
+[!include[Requirements]emarks
 
 The default value of this property is set by the Generic's [Session.MaximumRows](fcSDK~FChoice.Foundation.FCSession~MaximumRows.md).
 
@@ -20,8 +23,6 @@ When this value is set the default operation will result in the number of rows r
 Alternatively the [MaximumRowsExceeded](fcSDK~FChoice.Foundation.FCGeneric~MaximumRowsExceeded_EV.md) event can give greater control of how Queries returning too many rows are handled.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

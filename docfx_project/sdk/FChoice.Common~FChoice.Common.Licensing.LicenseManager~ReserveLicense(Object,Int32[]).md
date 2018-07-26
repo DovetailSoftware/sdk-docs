@@ -1,21 +1,22 @@
-﻿     ReserveLicense(Object,Int32\[\]) Method                                                   
-
-ReserveLicense(Object,Int32\[\]) Method
+﻿### ReserveLicense(Object,Int32\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub ReserveLicense( _
    ByVal _context_ As Object, _
    ByVal _productIds_() As Integer _
 ) 
+```
 
+```csharp
 public void ReserveLicense( 
    object _context_,
-   int\[\] _productIds_
+   int[] _productIds_
 )
+```
 
 #### Parameters
 
@@ -24,8 +25,6 @@ _context_
 _productIds_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

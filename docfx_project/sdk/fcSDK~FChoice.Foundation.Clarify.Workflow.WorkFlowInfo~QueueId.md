@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property QueueId As Integer
+'Declaration
 
+Public ReadOnly Property QueueId As Integer
+```
+
+```csharp
 public int QueueId {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

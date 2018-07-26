@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Const EnableSettingStringParameterTypeAndSize As String
+```
 
+```csharp
 public const string EnableSettingStringParameterTypeAndSize
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

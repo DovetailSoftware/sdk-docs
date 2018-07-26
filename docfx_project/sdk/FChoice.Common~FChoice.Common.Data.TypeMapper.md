@@ -5,10 +5,14 @@ This class is not currently used and is intended for future products.
 Syntax
 
 ```vbnet
-' Declaration
-Public MustInherit Class TypeMapper 
+'Declaration
 
+Public MustInherit Class TypeMapper 
+```
+
+```csharp
 public abstract class TypeMapper 
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

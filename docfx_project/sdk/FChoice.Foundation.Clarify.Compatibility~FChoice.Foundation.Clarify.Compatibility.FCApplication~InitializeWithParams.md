@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[ComVisibleAttribute](#)(False)>
+<ComVisibleAttribute(False)>
 Public Sub InitializeWithParams( _
    ByVal _envParams_ As NameValueCollection _
 ) 
+```
 
-\[[ComVisibleAttribute](#)(false)\]
+```csharp
+[ComVisibleAttribute(false)]
 public void InitializeWithParams( 
    NameValueCollection _envParams_
 )
+```
 
 #### Parameters
 
 _envParams_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

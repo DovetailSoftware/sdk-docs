@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub AppendFilter( _
    ByVal _fieldName_ As String, _
    ByVal _value_ As Boolean _
 ) 
+```
 
+```csharp
 public void AppendFilter( 
    string _fieldName_,
    bool _value_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _fieldName_
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

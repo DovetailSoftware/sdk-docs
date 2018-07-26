@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function ReopenCR( _
    ByVal _setupParam_ As [ReopenCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReopenCR( 
    [ReopenCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

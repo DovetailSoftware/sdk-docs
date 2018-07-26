@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Overrides ReadOnly Property RequiresDbNameParameter As Boolean
+'Declaration
 
+Public Overrides ReadOnly Property RequiresDbNameParameter As Boolean
+```
+
+```csharp
 public override bool RequiresDbNameParameter {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,21 +1,22 @@
-﻿     SaveState(Guid,Byte\[\]) Method                                                   
-
-SaveState(Guid,Byte\[\]) Method
+﻿### SaveState(Guid,Byte\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub SaveState( _
    ByVal _id_ As Guid, _
-   ByVal _state_() As [Byte](#) _
-) 
+   ByVal _state_() As Byte _
+)
+```
 
+```csharp
 void SaveState( 
    Guid _id_,
-   [byte](#)\[\] _state_
+   byte[] _state_
 )
+```
 
 #### Parameters
 
@@ -24,8 +25,6 @@ _id_
 _state_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

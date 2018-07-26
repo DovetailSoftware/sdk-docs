@@ -1,8 +1,4 @@
-﻿     FChoice.Foundation.DataObjects Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Foundation.DataObjects Namespace
+﻿### FChoice.Foundation.DataObjects Namespace
 
 Collections and support classes that wrap access to database tables.
 
@@ -24,7 +20,7 @@ Interfaces
 |   | Interface | Description |
 | --- | --- | --- |
 | ![Interface](dotnetimages/Interface.png) | [IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) |   |
-| ![Interface](dotnetimages/Interface.png) | [ITimeZone](fcSDK~FChoice.Foundation.DataObjects.ITimeZone.md) |   |
+| ![Interface](dotnetimages/Interface.png) | ITimeZone |   |
 
 Enumerations
 
@@ -32,8 +28,6 @@ Enumerations
 | --- | --- | --- |
 | ![Enumeration](dotnetimages/Enumeration.png) | [ConfigItemScope](fcSDK~FChoice.Foundation.DataObjects.ConfigItemScope.md) |   |
 | ![Enumeration](dotnetimages/Enumeration.png) | [ConfigItemValueType](fcSDK~FChoice.Foundation.DataObjects.ConfigItemValueType.md) |   |
-
-
 
 #### Reference
 

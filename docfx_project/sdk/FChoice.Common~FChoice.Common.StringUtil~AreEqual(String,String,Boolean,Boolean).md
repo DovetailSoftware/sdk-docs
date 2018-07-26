@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function AreEqual( _
    ByVal _firstVal_ As String, _
@@ -11,13 +11,16 @@ Public Overloads Shared Function AreEqual( _
    ByVal _ignoreCase_ As Boolean, _
    ByVal _cultureNeutral_ As Boolean _
 ) As Boolean
+```
 
+```csharp
 public static bool AreEqual( 
    string _firstVal_,
    string _secondVal_,
    bool _ignoreCase_,
    bool _cultureNeutral_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _ignoreCase_
 _cultureNeutral_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

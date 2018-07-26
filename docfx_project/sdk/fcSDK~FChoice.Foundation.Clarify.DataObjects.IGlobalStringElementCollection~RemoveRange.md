@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Sub RemoveRange( _
    ByVal _index_ As Integer, _
    ByVal _count_ As Integer _
-) 
+)
+```
 
+```csharp
 void RemoveRange( 
    int _index_,
    int _count_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _index_
 _count_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

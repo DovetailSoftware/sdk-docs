@@ -7,15 +7,18 @@ Creates a new instance of a query batch using the specified transaction and the 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _trans_ As [IDbTransaction](#) _
+   ByVal _trans_ As IDbTransaction _
 )
+```
 
+```csharp
 public UpdateQueryBatch( 
-   [IDbTransaction](#) _trans_
+   IDbTransaction _trans_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The transaction must be open and ready against an open database connection
 **IMPORTANT**: The UpdateQueryBatch does not commit or rollback the transaction instance. It is the responsibility of the caller to ensure that the transaction is properly set up and finished after the batch is executed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

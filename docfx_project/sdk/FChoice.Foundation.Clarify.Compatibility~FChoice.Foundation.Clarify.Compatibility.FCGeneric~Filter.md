@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property Filter As String
+'Declaration
 
+Public Property Filter As String
+```
+
+```csharp
 public string Filter {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

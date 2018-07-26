@@ -5,17 +5,18 @@ The amount of the Purchase Order.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property POAmount As [Decimal](#)
+<PropertyBitValueAttribute()>
+Public Property POAmount As Decimal
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [decimal](#) POAmount {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public decimal POAmount {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function GetGbstDefaultObjID( _
    ByVal _listTitle_ As String _
 ) As Integer
+```
 
+```csharp
 int GetGbstDefaultObjID( 
    string _listTitle_
 )
+```
 
 #### Parameters
 
 _listTitle_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

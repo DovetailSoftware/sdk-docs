@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function LastIndexOf( _
-   ByVal _item_ As [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md) _
+   ByVal _item_ As IHierarchicalStringElement _
 ) As Integer
+```
 
+```csharp
 int LastIndexOf( 
-   [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md) _item_
+   IHierarchicalStringElement _item_
 )
+```
 
 #### Parameters
 
 _item_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

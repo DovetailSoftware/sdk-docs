@@ -3,16 +3,17 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 <DispIdAttribute(1610743851)>
 Property QueryEmptyToNull As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743851)]
 bool QueryEmptyToNull {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

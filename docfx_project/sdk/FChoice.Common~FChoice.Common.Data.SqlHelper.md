@@ -5,10 +5,14 @@ Provides a convenience and data provider-agnostic wrapper around ADO.NET
 Syntax
 
 ```vbnet
-' Declaration
-Public Class SqlHelper 
+'Declaration
 
+Public Class SqlHelper 
+```
+
+```csharp
 public class SqlHelper 
+```
 
 Remarks
 
@@ -30,8 +34,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

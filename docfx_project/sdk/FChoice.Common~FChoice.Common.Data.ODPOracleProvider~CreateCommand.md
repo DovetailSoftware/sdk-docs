@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Overrides Function CreateCommand( _
-   ByVal _dbConnection_ As [IDbConnection](#) _
-) As [IDbCommand](#)
+'Declaration
 
-public override [IDbCommand](#) CreateCommand( 
-   [IDbConnection](#) _dbConnection_
+Public Overrides Function CreateCommand( _
+   ByVal _dbConnection_ As IDbConnection _
+) As IDbCommand
+```
+
+```csharp
+public override IDbCommand CreateCommand( 
+   IDbConnection _dbConnection_
 )
+```
 
 #### Parameters
 
 _dbConnection_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

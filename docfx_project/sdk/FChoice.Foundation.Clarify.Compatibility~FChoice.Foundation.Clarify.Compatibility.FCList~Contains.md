@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function Contains( _
    ByVal _item_ As Object _
 ) As Boolean
+```
 
+```csharp
 public bool Contains( 
    object _item_
 )
+```
 
 #### Parameters
 
 _item_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

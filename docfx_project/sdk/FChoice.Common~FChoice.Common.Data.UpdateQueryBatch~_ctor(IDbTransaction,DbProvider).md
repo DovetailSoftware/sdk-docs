@@ -9,17 +9,20 @@ Creates a new instance of a query batch using the specified transaction and a sp
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _trans_ As [IDbTransaction](#), _
-   ByVal _prov_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _
+   ByVal _trans_ As IDbTransaction, _
+   ByVal _prov_ As DbProvider _
 )
+```
 
+```csharp
 public UpdateQueryBatch( 
-   [IDbTransaction](#) _trans_,
-   [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _prov_
+   IDbTransaction _trans_,
+   DbProvider _prov_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ The transaction must be open and ready against an open database connection.
 **IMPORTANT**: The UpdateQueryBatch does not commit or rollback the transaction instance. It is the responsibility of the caller to ensure that the transaction is properly set up and finished after the batch is executed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

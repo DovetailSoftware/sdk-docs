@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property Ordinal As Integer
+'Declaration
 
+Public ReadOnly Property Ordinal As Integer
+```
+
+```csharp
 public int Ordinal {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

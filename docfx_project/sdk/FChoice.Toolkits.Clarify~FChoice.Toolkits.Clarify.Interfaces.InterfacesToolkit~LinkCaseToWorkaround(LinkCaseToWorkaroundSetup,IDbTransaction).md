@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function LinkCaseToWorkaround( _
    ByVal _setupParam_ As [LinkCaseToWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LinkCaseToWorkaround( 
    [LinkCaseToWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

@@ -3,20 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub StageInstallForInventoryBin( _
    ByVal _partUsedObjid_ As Integer, _
    ByVal _locationName_ As String, _
    ByVal _locationBinName_ As String, _
    ByVal _stagedAs_ As Integer _
 ) 
+```
 
+```csharp
 public void StageInstallForInventoryBin( 
    int _partUsedObjid_,
    string _locationName_,
    string _locationBinName_,
    int _stagedAs_
 )
+```
 
 #### Parameters
 
@@ -29,8 +33,6 @@ _locationBinName_
 _stagedAs_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

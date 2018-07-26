@@ -15,7 +15,8 @@ Creates a basic connection string from the basic common required elements accord
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public MustOverride Function CreateConnectionString( _
    ByVal _dbServer_ As String, _
    ByVal _dbName_ As String, _
@@ -23,7 +24,9 @@ Public MustOverride Function CreateConnectionString( _
    ByVal _dbPass_ As String, _
    ByVal _extraParams_ As String _
 ) As String
+```
 
+```csharp
 public abstract string CreateConnectionString( 
    string _dbServer_,
    string _dbName_,
@@ -31,6 +34,7 @@ public abstract string CreateConnectionString(
    string _dbPass_,
    string _extraParams_
 )
+```
 
 #### Parameters
 
@@ -63,8 +67,6 @@ Remarks
 **NOTE**: This method does not validate the format of the _extraParams_ argument. If the the value of _extraParams_ is invalid, the connection string may not work properly.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

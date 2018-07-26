@@ -5,14 +5,16 @@ Sender's address (usually email address)
 Syntax
 
 ```vbnet
-' Declaration
-Public Property Sender As String
+'Declaration
 
+Public Property Sender As String
+```
+
+```csharp
 public string Sender {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

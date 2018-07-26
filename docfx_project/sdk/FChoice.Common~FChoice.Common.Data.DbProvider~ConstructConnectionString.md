@@ -7,14 +7,17 @@ Constructs a valid ADO.NET-compliant connection string from the supplied key/val
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Public Shared Function ConstructConnectionString( _
    ByVal _keyValues_ As NameValueCollection _
 ) As String
+```
 
+```csharp
 public static string ConstructConnectionString( 
    NameValueCollection _keyValues_
 )
+```
 
 #### Parameters
 
@@ -27,8 +30,6 @@ The set of keys and values that will make up the connection string where key and
 A properly formatted ADO.NET-compliant connection string.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

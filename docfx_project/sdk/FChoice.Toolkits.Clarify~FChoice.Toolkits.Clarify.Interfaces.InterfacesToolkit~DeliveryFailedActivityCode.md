@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared ReadOnly DeliveryFailedActivityCode As Integer
+```
 
+```csharp
 public static readonly int DeliveryFailedActivityCode
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

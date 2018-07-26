@@ -3,29 +3,32 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub CreateParticipantActivityEntry( _
    ByVal _activityCode_ As Integer, _
    ByVal _userObjid_ As Integer, _
    ByVal _activityDate_ As Date, _
    ByVal _additionalInfo_ As String, _
-   ByVal _objectRow_ As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md), _
-   ByVal _actEntryRow_ As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md), _
-   ByVal _clarifyGenericsToUpdate_ As [IList(Of ClarifyGeneric)](#), _
+   ByVal _objectRow_ As ClarifyDataRow, _
+   ByVal _actEntryRow_ As ClarifyDataRow, _
+   ByVal _clarifyGenericsToUpdate_ As IList(Of ClarifyGeneric), _
    ByVal _parentRelation_ As String _
 ) 
+```
 
+```csharp
 public void CreateParticipantActivityEntry( 
    int _activityCode_,
    int _userObjid_,
    DateTime _activityDate_,
    string _additionalInfo_,
-   [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) _objectRow_,
-   [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) _actEntryRow_,
-   [IList<ClarifyGeneric>](#) _clarifyGenericsToUpdate_,
+   ClarifyDataRow _objectRow_,
+   ClarifyDataRow _actEntryRow_,
+   IList<ClarifyGeneric> _clarifyGenericsToUpdate_,
    string _parentRelation_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ _clarifyGenericsToUpdate_
 _parentRelation_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

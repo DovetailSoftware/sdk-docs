@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Function GetApplicationStates() As [Object()](#)
+Public Overloads Function GetApplicationStates() As Object()
+```
 
-public [object\[\]](#) GetApplicationStates()
+```csharp
+public object[] GetApplicationStates()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

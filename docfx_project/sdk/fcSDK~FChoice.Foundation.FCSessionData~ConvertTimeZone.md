@@ -5,15 +5,16 @@ Session option: Gets whether or not any [DateTimes](ms-help://MS.NETFrameworkSD
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property ConvertTimeZone As Boolean
+```
 
+```csharp
 public bool ConvertTimeZone {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

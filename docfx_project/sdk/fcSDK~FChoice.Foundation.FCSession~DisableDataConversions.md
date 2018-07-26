@@ -5,11 +5,14 @@ Sets whether data conversions happen when [GenericDataRow](fcSDK~FChoice.Foundat
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property DisableDataConversions As Boolean
+```
 
+```csharp
 public bool DisableDataConversions {get; set;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 This property overrides [ConvertTimeZone](fcSDK~FChoice.Foundation.FCSession~ConvertTimeZone.md) and [SetNullStringsToEmpty](fcSDK~FChoice.Foundation.FCSession~SetNullStringsToEmpty.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

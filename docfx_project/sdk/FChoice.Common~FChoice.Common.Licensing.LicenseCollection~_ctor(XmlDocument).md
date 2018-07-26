@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _xmlDocument_ As [XmlDocument](#) _
+   ByVal _xmlDocument_ As XmlDocument _
 )
+```
 
+```csharp
 public LicenseCollection( 
-   [XmlDocument](#) _xmlDocument_
+   XmlDocument _xmlDocument_
 )
+```
 
 #### Parameters
 
 _xmlDocument_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

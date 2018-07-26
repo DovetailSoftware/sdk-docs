@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property AllowOutbound As Boolean
+'Declaration
 
+Public Property AllowOutbound As Boolean
+```
+
+```csharp
 public bool AllowOutbound {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

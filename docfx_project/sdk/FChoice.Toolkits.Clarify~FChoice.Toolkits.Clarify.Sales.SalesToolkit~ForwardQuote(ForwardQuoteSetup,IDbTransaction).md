@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function ForwardQuote( _
    ByVal _setupParam_ As [ForwardQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardQuoteSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardQuote( 
    [ForwardQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardQuoteSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

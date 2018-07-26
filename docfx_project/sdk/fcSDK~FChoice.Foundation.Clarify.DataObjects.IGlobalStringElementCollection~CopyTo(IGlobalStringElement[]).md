@@ -1,29 +1,26 @@
-﻿     CopyTo(IGlobalStringElement\[\]) Method                                                   
-
-fcSDK Documentation
-
-CopyTo(IGlobalStringElement\[\]) Method
+﻿### CopyTo(IGlobalStringElement\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub CopyTo( _
-   ByVal _array_() As [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md) _
-) 
-
-void CopyTo( 
-   [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md)\[\] _array_
+   ByVal _array_() As IGlobalStringElement _
 )
+```
+
+```csharp
+void CopyTo( 
+   IGlobalStringElement[] _array_
+)
+```
 
 #### Parameters
 
 _array_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function MoreThan( _
    ByVal _columnName_ As String, _
-   ByVal _value_ As [Decimal](#) _
-) As [MoreThanFilter](fcSDK~FChoice.Foundation.Filters.MoreThanFilter.md)
+   ByVal _value_ As Decimal _
+) As MoreThanFilter
+```
 
-public [MoreThanFilter](fcSDK~FChoice.Foundation.Filters.MoreThanFilter.md) MoreThan( 
+```csharp
+public MoreThanFilter MoreThan( 
    string _columnName_,
-   [decimal](#) _value_
+   decimal _value_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _columnName_
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,19 +9,22 @@ An optional list of element titles that defines what level in the user-defined l
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function IsInHgbstList( _
    ByVal _listTitle_ As String, _
    ByVal _elementTitle_ As String, _
    ByVal ParamArray _elementTitles_() As String _
 ) As Boolean
+```
 
+```csharp
 public bool IsInHgbstList( 
    string _listTitle_,
    string _elementTitle_,
    params string[] _elementTitles_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ _elementTitles_
 An optional list of element titles that defines what level in the user-defined list to search
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

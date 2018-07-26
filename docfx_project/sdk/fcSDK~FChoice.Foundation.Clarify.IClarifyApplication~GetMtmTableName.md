@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function GetMtmTableName( _
    ByVal _relation_ As [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md) _
 ) As String
+```
 
+```csharp
 string GetMtmTableName( 
    [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md) _relation_
 )
+```
 
 #### Parameters
 
 _relation_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

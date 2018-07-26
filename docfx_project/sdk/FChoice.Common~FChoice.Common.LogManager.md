@@ -5,10 +5,14 @@ LogManager provides access to the logging subsystem so that classes and write lo
 Syntax
 
 ```vbnet
-' Declaration
-Public NotInheritable Class LogManager 
+'Declaration
 
+Public NotInheritable Class LogManager 
+```
+
+```csharp
 public sealed class LogManager 
+```
 
 Remarks
 
@@ -28,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

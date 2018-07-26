@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property LongValue As [Long](#)
+Public ReadOnly Property LongValue As Long
+```
 
-public [long](#) LongValue {get;}
+```csharp
+public long LongValue {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,8 +9,11 @@ Type     : Property
 **Prototype**
 
 Public Property Get ServerTimeZone() As String
+```
 
-Public Property Let ServerTimeZone(ByVal NewTimeZone As String)
+```csharp
+public Property Let ServerTimeZone(ByVal NewTimeZone As String)
+```
 
 **Description**
 

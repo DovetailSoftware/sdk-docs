@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property DbObjectName As String
+'Declaration
 
+Public Property DbObjectName As String
+```
+
+```csharp
 public string DbObjectName {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

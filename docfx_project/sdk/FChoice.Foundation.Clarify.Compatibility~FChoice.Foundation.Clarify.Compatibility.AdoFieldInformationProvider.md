@@ -3,14 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ComVisibleAttribute](#)(False)>
-<[GuidAttribute](#)("EFCE1EFA-CE35-3D45-9722-07CF53F13778")>
-Public Class AdoFieldInformationProvider 
+'Declaration
 
-\[[ComVisibleAttribute](#)(false)\]
-\[[GuidAttribute](#)("EFCE1EFA-CE35-3D45-9722-07CF53F13778")\]
+<ComVisibleAttribute(False)>
+<GuidAttribute("EFCE1EFA-CE35-3D45-9722-07CF53F13778")>
+Public Class AdoFieldInformationProvider 
+```
+
+```csharp
+[ComVisibleAttribute(false)]
+[GuidAttribute("EFCE1EFA-CE35-3D45-9722-07CF53F13778")]
 public class AdoFieldInformationProvider 
+```
 
 Inheritance Hierarchy
 
@@ -24,8 +28,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
-
-
 
 #### Reference
 

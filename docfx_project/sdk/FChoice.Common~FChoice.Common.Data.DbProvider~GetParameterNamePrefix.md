@@ -5,11 +5,14 @@ Gets the prefix used by the underlying database type for parameters in a paramet
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustOverride Function GetParameterNamePrefix() As String
+```
 
+```csharp
 public abstract string GetParameterNamePrefix()
+```
 
 #### Return Value
 
@@ -20,8 +23,6 @@ Remarks
 Some database and/or provider types do not use prefixes for parameters, or do not use parameter names at all. One example of this is the OleDb provider uses "?" for all parameters instead of a prefix + name. In this case, [String.Empty](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemStringClassEmptyTopic.htm) will be returned.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

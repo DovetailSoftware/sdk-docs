@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetCountryList() As ADODB.Recordset
+```
 
+```csharp
 public ADODB.Recordset GetCountryList()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

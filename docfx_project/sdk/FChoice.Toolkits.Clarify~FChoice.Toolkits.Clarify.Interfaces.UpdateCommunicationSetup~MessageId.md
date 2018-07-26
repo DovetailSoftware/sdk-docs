@@ -5,14 +5,16 @@ The ID of the message for the communication.
 Syntax
 
 ```vbnet
-' Declaration
-Public Property MessageId As String
+'Declaration
 
+Public Property MessageId As String
+```
+
+```csharp
 public string MessageId {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

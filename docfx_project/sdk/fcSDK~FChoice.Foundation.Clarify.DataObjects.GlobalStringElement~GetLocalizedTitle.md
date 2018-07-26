@@ -8,7 +8,9 @@ Syntax
 Public Function GetLocalizedTitle( _
    ByVal _specificCulture_ As CultureInfo _
 ) As String
+```
 
+```csharp
 public string GetLocalizedTitle( 
    CultureInfo _specificCulture_
 )

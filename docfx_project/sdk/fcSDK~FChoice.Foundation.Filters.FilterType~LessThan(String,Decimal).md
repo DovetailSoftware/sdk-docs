@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function LessThan( _
    ByVal _columnName_ As String, _
-   ByVal _value_ As [Decimal](#) _
-) As [LessThanFilter](fcSDK~FChoice.Foundation.Filters.LessThanFilter.md)
+   ByVal _value_ As Decimal _
+) As LessThanFilter
+```
 
-public static [LessThanFilter](fcSDK~FChoice.Foundation.Filters.LessThanFilter.md) LessThan( 
+```csharp
+public static LessThanFilter LessThan( 
    string _columnName_,
-   [decimal](#) _value_
+   decimal _value_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _columnName_
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

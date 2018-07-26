@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function get_dt_fields( _
    ByVal _tableName_ As String _
 ) As String
+```
 
+```csharp
 public string get_dt_fields( 
    string _tableName_
 )
+```
 
 #### Parameters
 
 _tableName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

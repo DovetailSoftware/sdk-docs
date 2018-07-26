@@ -7,15 +7,18 @@ Logs the occurrence of a grace event.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Sub LogGraceEvent( _
    ByVal _licenseKey_ As String _
 ) 
+```
 
+```csharp
 void LogGraceEvent( 
    string _licenseKey_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _licenseKey_
 Key that identifies a valid First Choice license.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,12 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ComVisibleAttribute](#)(False)>
-Public Class AdoField 
+'Declaration
 
-\[[ComVisibleAttribute](#)(false)\]
+<ComVisibleAttribute(False)>
+Public Class AdoField 
+```
+
+```csharp
+[ComVisibleAttribute(false)]
 public class AdoField 
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
-
-
 
 #### Reference
 

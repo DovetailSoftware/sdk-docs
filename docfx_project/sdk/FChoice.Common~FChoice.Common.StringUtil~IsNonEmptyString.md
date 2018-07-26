@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Function IsNonEmptyString( _
    ByVal _val_ As String _
 ) As Boolean
+```
 
+```csharp
 public static bool IsNonEmptyString( 
    string _val_
 )
+```
 
 #### Parameters
 
 _val_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,11 +5,14 @@ Returns the name of the database table this FCGeneric is based on.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property TableName As String
+```
 
+```csharp
 public string TableName {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 The TableName is set when the FCGeneric is constructed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

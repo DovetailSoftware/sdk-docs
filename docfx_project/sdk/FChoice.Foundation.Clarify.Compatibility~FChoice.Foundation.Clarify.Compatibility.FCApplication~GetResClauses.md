@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetResClauses( _
    ByVal _tblNum_ As Integer, _
    ByRef _clauses_ As String _
 ) As Boolean
+```
 
+```csharp
 public bool GetResClauses( 
    int _tblNum_,
    ref string _clauses_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _tblNum_
 _clauses_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

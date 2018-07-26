@@ -5,15 +5,16 @@ Session option that cues [Generics](fcSDK~FChoice.Foundation.FCGeneric.md) to i
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property IncludeRelations As Boolean
+```
 
+```csharp
 public bool IncludeRelations {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

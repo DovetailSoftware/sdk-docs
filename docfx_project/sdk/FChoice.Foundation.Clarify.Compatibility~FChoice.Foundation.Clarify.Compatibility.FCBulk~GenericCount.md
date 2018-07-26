@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GenericCount() As Integer
+```
 
+```csharp
 public int GenericCount()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

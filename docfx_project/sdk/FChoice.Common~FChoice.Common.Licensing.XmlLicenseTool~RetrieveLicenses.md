@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Function RetrieveLicenses() As [LicenseCollection](FChoice.Common~FChoice.Common.Licensing.LicenseCollection.md)
+Public Function RetrieveLicenses() As LicenseCollection
+```
 
-public [LicenseCollection](FChoice.Common~FChoice.Common.Licensing.LicenseCollection.md) RetrieveLicenses()
+```csharp
+public LicenseCollection RetrieveLicenses()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

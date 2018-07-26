@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function IsDateInRange( _
    ByVal _testDate_ As Date _
 ) As Boolean
+```
 
+```csharp
 public bool IsDateInRange( 
    DateTime _testDate_
 )
+```
 
 #### Parameters
 
 _testDate_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

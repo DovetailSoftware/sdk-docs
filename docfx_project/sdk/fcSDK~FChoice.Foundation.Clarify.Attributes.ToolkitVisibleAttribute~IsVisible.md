@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly IsVisible As Boolean
+```
 
+```csharp
 public readonly bool IsVisible
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

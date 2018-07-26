@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Function ToArray() As [IGlobalStringList()](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md)
+Function ToArray() As IGlobalStringList()
+```
 
-[IGlobalStringList\[\]](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) ToArray()
+```csharp
+IGlobalStringList[] ToArray()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function ExecuteNonQuery( _
    ByVal _commandText_ As String _
 ) As Integer
+```
 
+```csharp
 public static int ExecuteNonQuery( 
    string _commandText_
 )
+```
 
 #### Parameters
 
 _commandText_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

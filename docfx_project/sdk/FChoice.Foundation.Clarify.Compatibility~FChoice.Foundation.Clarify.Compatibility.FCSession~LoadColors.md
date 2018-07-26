@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub LoadColors( _
    ByVal _userName_ As String _
 ) 
+```
 
+```csharp
 public void LoadColors( 
    string _userName_
 )
+```
 
 #### Parameters
 
 _userName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

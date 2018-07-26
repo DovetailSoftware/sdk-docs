@@ -13,7 +13,7 @@ Adds a specialized filter to constrain the results of an **FCGeneric** [Query](f
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub AppendFilterBetween( _
    ByVal _fieldName_ As String, _
@@ -21,13 +21,16 @@ Public Overloads Sub AppendFilterBetween( _
    ByVal _value1_ As Date, _
    ByVal _value2_ As Date _
 ) 
+```
 
+```csharp
 public void AppendFilterBetween( 
    string _fieldName_,
    bool _isBetween_,
    DateTime _value1_,
    DateTime _value2_
 )
+```
 
 #### Parameters
 
@@ -48,8 +51,6 @@ _value2_
 value on the right side of the between clause
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

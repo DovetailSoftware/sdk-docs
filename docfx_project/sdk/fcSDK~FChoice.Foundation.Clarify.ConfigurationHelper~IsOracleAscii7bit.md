@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared ReadOnly IsOracleAscii7bit As Boolean
+```
 
+```csharp
 public static readonly bool IsOracleAscii7bit
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

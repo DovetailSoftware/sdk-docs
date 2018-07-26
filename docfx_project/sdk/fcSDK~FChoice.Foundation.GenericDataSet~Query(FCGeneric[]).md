@@ -1,29 +1,26 @@
-﻿     Query(FCGeneric\[\]) Method                                                   
-
-fcSDK Documentation
-
-Query(FCGeneric\[\]) Method
+﻿### Query(FCGeneric\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub Query( _
-   ByVal ParamArray _generics_() As [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) _
+   ByVal ParamArray _generics_() As FCGeneric _
 ) 
+```
 
+```csharp
 public void Query( 
-   params [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)\[\] _generics_
+   params FCGeneric\[\] _generics_
 )
+```
 
 #### Parameters
 
 _generics_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

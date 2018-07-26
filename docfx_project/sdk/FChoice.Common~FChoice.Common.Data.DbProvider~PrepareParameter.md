@@ -9,16 +9,20 @@ Prepares a parameter for the specified type of query according to the rules of t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Overridable Sub PrepareParameter( _
    ByVal _param_ As IDbDataParameter, _
-   ByVal _cmdType_ As [CommandType](#) _
+   ByVal _cmdType_ As CommandType _
 ) 
+```
 
+```csharp
 public virtual void PrepareParameter( 
    IDbDataParameter _param_,
-   [CommandType](#) _cmdType_
+   CommandType _cmdType_
 )
+```
 
 #### Parameters
 
@@ -35,8 +39,6 @@ Remarks
 Different database types and even different query types within the same database type have different requirements for how parameters must be named or formatted. This method allows the specific DbProvider to prepare the parameter as appropriate.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

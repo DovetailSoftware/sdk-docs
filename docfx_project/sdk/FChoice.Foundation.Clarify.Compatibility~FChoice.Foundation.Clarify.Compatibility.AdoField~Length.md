@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property Length As Integer
+'Declaration
 
+Public Property Length As Integer
+```
+
+```csharp
 public int Length {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

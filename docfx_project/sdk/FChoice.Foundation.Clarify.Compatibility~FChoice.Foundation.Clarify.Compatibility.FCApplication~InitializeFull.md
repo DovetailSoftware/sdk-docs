@@ -3,7 +3,8 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub InitializeFull( _
    ByVal _LoginName_ As String, _
    ByVal _password_ As String, _
@@ -20,7 +21,9 @@ Public Sub InitializeFull( _
    Optional ByVal _fcSqlExecLogging_ As Object, _
    Optional ByVal _NoCacheFile_ As Object _
 ) 
+```
 
+```csharp
 public void InitializeFull( 
    string _LoginName_,
    string _password_,
@@ -37,6 +40,7 @@ public void InitializeFull(
    object _fcSqlExecLogging_,
    object _NoCacheFile_
 )
+```
 
 #### Parameters
 
@@ -69,8 +73,6 @@ _fcSqlExecLogging_
 _NoCacheFile_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

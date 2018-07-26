@@ -1,25 +1,24 @@
-﻿     Sort(Int32,Int32,IComparer<IHierarchicalStringList>) Method                                                   
-
-fcSDK Documentation
-
-Sort(Int32,Int32,IComparer<IHierarchicalStringList>) Method
+﻿### Sort(Int32,Int32,IComparer<IHierarchicalStringList>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub Sort( _
    ByVal _index_ As Integer, _
    ByVal _count_ As Integer, _
-   ByVal _comparer_ As [IComparer(Of IHierarchicalStringList)](#) _
-) 
+   ByVal _comparer_ As IComparer(Of IHierarchicalStringList) _
+)
+```
 
+```csharp
 void Sort( 
    int _index_,
    int _count_,
-   [IComparer<IHierarchicalStringList>](#) _comparer_
+   IComparer<IHierarchicalStringList> _comparer_
 )
+```
 
 #### Parameters
 
@@ -30,8 +29,6 @@ _count_
 _comparer_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

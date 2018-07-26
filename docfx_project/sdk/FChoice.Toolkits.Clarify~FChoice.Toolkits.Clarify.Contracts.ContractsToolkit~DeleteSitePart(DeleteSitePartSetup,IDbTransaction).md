@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function DeleteSitePart( _
    ByVal _setupParam_ As [DeleteSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DeleteSitePartSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteSitePart( 
    [DeleteSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DeleteSitePartSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

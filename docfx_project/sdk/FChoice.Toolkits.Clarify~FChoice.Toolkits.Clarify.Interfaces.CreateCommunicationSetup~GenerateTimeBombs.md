@@ -5,15 +5,16 @@ Specifies if timebombs should be created.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property GenerateTimeBombs As Boolean
+```
 
+```csharp
 public bool GenerateTimeBombs {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property UseParticipantActEntryModel As Boolean
+'Declaration
 
+Public Property UseParticipantActEntryModel As Boolean
+```
+
+```csharp
 public bool UseParticipantActEntryModel {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,16 +9,20 @@ Gets the value of an element with the specified objid in the specified applicati
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetGbstElmByID( _
    ByVal _listTitle_ As String, _
    ByVal _elmObjID_ As Integer _
 ) As String
+```
 
+```csharp
 public string GetGbstElmByID( 
    string _listTitle_,
    int _elmObjID_
 )
+```
 
 #### Parameters
 
@@ -39,8 +43,6 @@ Remarks
 If the no list exists with the specified _listTitle_, an exception will be thrown.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function UpdateAppointment( _
    ByVal _setupParam_ As [UpdateAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateAppointmentSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateAppointment( 
    [UpdateAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateAppointmentSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function ExecuteNonQuery( _
-   ByVal _connection_ As [IDbConnection](#), _
-   ByVal _commandType_ As [CommandType](#), _
+   ByVal _connection_ As IDbConnection, _
+   ByVal _commandType_ As CommandType, _
    ByVal _commandText_ As String _
 ) As Integer
+```
 
+```csharp
 public static int ExecuteNonQuery( 
-   [IDbConnection](#) _connection_,
-   [CommandType](#) _commandType_,
+   IDbConnection _connection_,
+   CommandType _commandType_,
    string _commandText_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _commandType_
 _commandText_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

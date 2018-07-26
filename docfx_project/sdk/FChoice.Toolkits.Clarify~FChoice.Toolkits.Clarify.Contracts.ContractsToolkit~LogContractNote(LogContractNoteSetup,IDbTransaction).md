@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function LogContractNote( _
    ByVal _setupParam_ As [LogContractNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogContractNote( 
    [LogContractNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

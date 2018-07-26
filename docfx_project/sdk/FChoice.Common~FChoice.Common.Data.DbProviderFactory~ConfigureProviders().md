@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Sub ConfigureProviders() 
+```
 
+```csharp
 public static void ConfigureProviders()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

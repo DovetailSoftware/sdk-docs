@@ -9,17 +9,20 @@ Sets a context variable for this thread.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Sub SetThreadContextValue( _
    ByVal _key_ As String, _
    ByVal _value_ As String _
 ) 
+```
 
+```csharp
 public static void SetThreadContextValue( 
    string _key_,
    string _value_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ You can then set two thread context values for key "user" and key "session" and 
 For more information on configuring LogManager and defining appenders and layouts, please consult the user guide for your application.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

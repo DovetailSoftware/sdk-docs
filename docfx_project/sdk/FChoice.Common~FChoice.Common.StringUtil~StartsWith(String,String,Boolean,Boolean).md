@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function StartsWith( _
    ByVal _origVal_ As String, _
@@ -11,13 +11,16 @@ Public Overloads Shared Function StartsWith( _
    ByVal _ignoreCase_ As Boolean, _
    ByVal _cultureNeutral_ As Boolean _
 ) As Boolean
+```
 
+```csharp
 public static bool StartsWith( 
    string _origVal_,
    string _startVal_,
    bool _ignoreCase_,
    bool _cultureNeutral_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _ignoreCase_
 _cultureNeutral_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

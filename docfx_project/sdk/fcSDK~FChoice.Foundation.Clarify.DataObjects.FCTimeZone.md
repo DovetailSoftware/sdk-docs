@@ -3,13 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class FCTimeZone 
-   Inherits [ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)
-   Implements [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md), [FChoice.Foundation.DataObjects.ITimeZone](fcSDK~FChoice.Foundation.DataObjects.ITimeZone.md) 
+   Inherits ClarifyDataObject
+   Implements FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.DataObjects.ITimeZone 
+```
 
-public class FCTimeZone : [ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md), [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md), [FChoice.Foundation.DataObjects.ITimeZone](fcSDK~FChoice.Foundation.DataObjects.ITimeZone.md)  
+```csharp
+public class FCTimeZone : ClarifyDataObject, FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.DataObjects.ITimeZone
+```
 
 Inheritance Hierarchy
 
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

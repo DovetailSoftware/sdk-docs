@@ -5,15 +5,16 @@ Name of the user that created the [Session](fcSDK~FChoice.Foundation.FCSession.m
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property UserName As String
+```
 
+```csharp
 public string UserName {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

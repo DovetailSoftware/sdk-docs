@@ -7,15 +7,18 @@ Executes a query to retrieve the database user's configured NLS format
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function GetNlsFormat( _
-   ByVal _provider_ As [OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md) _
+   ByVal _provider_ As OracleProviderBase _
 ) As String
+```
 
+```csharp
 public static string GetNlsFormat( 
-   [OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md) _provider_
+   OracleProviderBase _provider_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ An instance of an OracleProviderBase implementation that will be used for connec
 The NLS format string
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

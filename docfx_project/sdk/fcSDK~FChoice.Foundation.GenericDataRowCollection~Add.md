@@ -1,34 +1,36 @@
 ﻿### Add Method (GenericDataRowCollection)
 
-The [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) to add.
+The GenericDataRow to add.
 
-Adds the specified [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) to the collection.
+Adds the specified GenericDataRow to the collection.
 
 Syntax
 
 ```vbnet
-' Declaration
-Public Sub Add( _
-   ByVal _row_ As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) _
-) 
+'Declaration
 
+Public Sub Add( _
+   ByVal _row_ As GenericDataRow _
+) 
+```
+
+```csharp
 public void Add( 
-   [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) _row_
+   GenericDataRow _row_
 )
+```
 
 #### Parameters
 
 _row_
 
-The [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) to add.
+The GenericDataRow to add.
 
 Remarks
 
 Add's implementation is delegated to DataRowCollection's [Add](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatarowcollectionclassaddtopic1.htm)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

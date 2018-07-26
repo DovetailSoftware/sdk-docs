@@ -5,19 +5,20 @@ Sets whether or not newly created generic objects will truncate string fields 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property TruncateStringFields As Boolean
+```
 
+```csharp
 public bool TruncateStringFields {get; set;}
+```
 
 #### Property Value
 
 Returns whether or not newly created generic objects will truncate string fields if they are too long.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

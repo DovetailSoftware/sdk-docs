@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overrides Function GetParameterNamePrefix() As String
+```
 
+```csharp
 public override string GetParameterNamePrefix()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

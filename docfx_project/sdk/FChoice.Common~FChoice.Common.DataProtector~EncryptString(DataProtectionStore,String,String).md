@@ -11,19 +11,22 @@ Encrypts a string, using the specified entropy, and returns a Base64-encoded str
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function EncryptString( _
    ByVal _keyStore_ As [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md), _
    ByVal _plainText_ As String, _
    ByVal _entropy_ As String _
 ) As String
+```
 
+```csharp
 public static string EncryptString( 
    [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md) _keyStore_,
    string _plainText_,
    string _entropy_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ It is important not to lose the entropy used to encrypt this data. If the entrop
 ![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Const SQLLOGFILENAME As String
+```
 
+```csharp
 public const string SQLLOGFILENAME
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

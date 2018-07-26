@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function ReinstallSitePartToBin( _
    ByVal _setupParam_ As [ReinstallSitePartToBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToBinSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReinstallSitePartToBin( 
    [ReinstallSitePartToBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToBinSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

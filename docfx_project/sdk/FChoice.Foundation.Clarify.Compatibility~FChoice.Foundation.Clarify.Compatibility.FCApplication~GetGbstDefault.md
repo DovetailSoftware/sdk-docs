@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetGbstDefault( _
    ByVal _listName_ As String _
 ) As String
+```
 
+```csharp
 public string GetGbstDefault( 
    string _listName_
 )
+```
 
 #### Parameters
 
 _listName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

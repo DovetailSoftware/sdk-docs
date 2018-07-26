@@ -34,8 +34,6 @@ Inheritance Hierarchy
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
-
-
 #### Reference
 
 [DataAccessSectionHandler Members](FChoice.Common~FChoice.Common.Data.DataAccessSectionHandler_members.md)  

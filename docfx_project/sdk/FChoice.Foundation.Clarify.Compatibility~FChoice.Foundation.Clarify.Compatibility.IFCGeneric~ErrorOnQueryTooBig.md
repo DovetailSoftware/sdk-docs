@@ -3,16 +3,17 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 <DispIdAttribute(1610743830)>
 Property ErrorOnQueryTooBig As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743830)]
 bool ErrorOnQueryTooBig {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

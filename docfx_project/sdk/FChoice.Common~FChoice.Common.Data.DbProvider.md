@@ -5,7 +5,7 @@ Abstract base class for database providers used by [SqlHelper](FChoice.Common~FC
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Public MustInherit Class DbProvider 
 ```
 

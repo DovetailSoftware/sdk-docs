@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly IsVoid As Boolean
+'Declaration
 
+Public ReadOnly IsVoid As Boolean
+```
+
+```csharp
 public readonly bool IsVoid
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,11 +5,14 @@ Executes the batch if the provider supports statement batching, or nothing if it
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function Execute() As Integer
+```
 
+```csharp
 public int Execute()
+```
 
 #### Return Value
 
@@ -22,8 +25,6 @@ Not all providers support returning the number of rows affected in all circumsta
 **IMPORTANT**: The UpdateQueryBatch does not commit or rollback the transaction instance. It is the responsibility of the caller to ensure that the transaction is properly set up and finished after the batch is executed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

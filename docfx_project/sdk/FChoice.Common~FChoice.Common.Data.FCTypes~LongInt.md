@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Const LongInt As String
+```
 
+```csharp
 public const string LongInt
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

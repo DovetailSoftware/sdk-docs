@@ -5,14 +5,16 @@ The Objid of the OnsiteLog.
 Syntax
 
 ```vbnet
-' Declaration
-Public Property OnsiteLogObjid As Integer
+'Declaration
 
+Public Property OnsiteLogObjid As Integer
+```
+
+```csharp
 public int OnsiteLogObjid {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

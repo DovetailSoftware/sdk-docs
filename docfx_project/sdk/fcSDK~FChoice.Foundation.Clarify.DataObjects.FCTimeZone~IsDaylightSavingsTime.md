@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function IsDaylightSavingsTime( _
    ByVal _testDate_ As Date _
 ) As Boolean
+```
 
+```csharp
 public bool IsDaylightSavingsTime( 
    DateTime _testDate_
 )
+```
 
 #### Parameters
 
 _testDate_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

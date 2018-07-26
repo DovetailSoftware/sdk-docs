@@ -5,11 +5,14 @@ Gets or sets whether or not to truncate string values if they are too large for
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property TruncateStringFields As Boolean
+```
 
+```csharp
 public bool TruncateStringFields {get; set;}
+```
 
 #### Property Value
 
@@ -24,8 +27,6 @@ This is an inheritable property. New sessions created will inherit the value of 
 Changes made to this property will not be reflected in already existing sessions.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Function GetDbVersion() As [Version](#)
+Public Overloads Function GetDbVersion() As Version
+```
 
-public [Version](#) GetDbVersion()
+```csharp
+public Version GetDbVersion()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly ConversionExpression As String
+'Declaration
 
+Public ReadOnly ConversionExpression As String
+```
+
+```csharp
 public readonly string ConversionExpression
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

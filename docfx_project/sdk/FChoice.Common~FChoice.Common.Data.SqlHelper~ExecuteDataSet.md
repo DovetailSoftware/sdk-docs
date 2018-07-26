@@ -25,8 +25,6 @@ In no case will the DataSet returned be a null reference (**Nothing** in Visual 
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
 [SqlHelper Class](FChoice.Common~FChoice.Common.Data.SqlHelper.md)  

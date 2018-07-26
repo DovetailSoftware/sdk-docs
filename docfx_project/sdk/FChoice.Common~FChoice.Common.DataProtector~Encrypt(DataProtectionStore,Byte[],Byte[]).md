@@ -11,19 +11,22 @@ Encrypts a byte array using the specified entropy
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function Encrypt( _
-   ByVal _keyStore_ As [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md), _
-   ByVal _plainBytes_() As [Byte](#), _
-   ByVal _entropy_() As [Byte](#) _
-) As [Byte()](#)
+   ByVal _keyStore_ As DataProtectionStore, _
+   ByVal _plainBytes_() As Byte, _
+   ByVal _entropy_() As Byte _
+) As Byte()
+```
 
-public static [byte\[\]](#) Encrypt( 
-   [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md) _keyStore_,
-   [byte](#)\[\] _plainBytes_,
-   [byte](#)\[\] _entropy_
+```csharp
+public static byte[] Encrypt( 
+   DataProtectionStore _keyStore_,
+   byte[] _plainBytes_,
+   byte[] _entropy_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ It is important not to lose the entropy used to encrypt this data. If the entrop
 ![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

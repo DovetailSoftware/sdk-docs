@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Sub ForEach( _
-   ByVal _action_ As [Action(Of IHierarchicalStringList)](#) _
-) 
-
-void ForEach( 
-   [Action<IHierarchicalStringList>](#) _action_
+   ByVal _action_ As Action(Of IHierarchicalStringList) _
 )
+```
+
+```csharp
+void ForEach( 
+   Action<IHierarchicalStringList> _action_
+)
+```
 
 #### Parameters
 
 _action_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

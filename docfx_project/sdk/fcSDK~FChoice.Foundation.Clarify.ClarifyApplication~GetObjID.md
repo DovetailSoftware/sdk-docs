@@ -7,14 +7,18 @@ Gets the next objid for the given table
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetObjID( _
    ByVal _tableName_ As String _
 ) As Integer
+```
 
+```csharp
 public int GetObjID( 
    string _tableName_
 )
+```
 
 #### Parameters
 
@@ -39,8 +43,6 @@ If caching of objids is enabled, the next objid will be retrieved from the local
 To configure caching, set the OBJID_CACHE_SIZE config item to the quantity of objid values to be reserved at a time, and then restart the application.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

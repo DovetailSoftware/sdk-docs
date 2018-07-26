@@ -1,29 +1,26 @@
-﻿     Sort(Comparison<IHierarchicalStringList>) Method                                                   
-
-fcSDK Documentation
-
-Sort(Comparison<IHierarchicalStringList>) Method
+﻿### Sort(Comparison<IHierarchicalStringList>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub Sort( _
-   ByVal _comparison_ As [Comparison(Of IHierarchicalStringList)](#) _
-) 
-
-void Sort( 
-   [Comparison<IHierarchicalStringList>](#) _comparison_
+   ByVal _comparison_ As Comparison(Of IHierarchicalStringList) _
 )
+```
+
+```csharp
+void Sort( 
+   Comparison<IHierarchicalStringList> _comparison_
+)
+```
 
 #### Parameters
 
 _comparison_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

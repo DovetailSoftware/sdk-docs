@@ -13,21 +13,24 @@ Used to add purchase orders to schedules of contracts. This overload takes a set
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddPOToSchedule( _
    ByVal _contractIDNum_ As String, _
    ByVal _scheduleIDNum_ As String, _
    ByVal _poIDNum_ As String, _
-   ByVal _poAmount_ As [Decimal](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _poAmount_ As Decimal _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddPOToSchedule( 
+```csharp
+public ToolkitResult AddPOToSchedule( 
    string _contractIDNum_,
    string _scheduleIDNum_,
    string _poIDNum_,
-   [decimal](#) _poAmount_
+   decimal _poAmount_
 )
+```
 
 #### Parameters
 
@@ -49,7 +52,7 @@ The amount of the Purchase Order.
 
 #### Return Value
 
-The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+The following values are populated in the ToolkitResult object returned by the API method:
 
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the PO.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PO.
@@ -59,8 +62,6 @@ Remarks
 The PO number cannot be defined already for the schedule.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

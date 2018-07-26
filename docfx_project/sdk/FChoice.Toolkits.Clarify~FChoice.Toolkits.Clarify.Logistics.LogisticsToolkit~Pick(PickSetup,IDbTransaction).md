@@ -15,12 +15,12 @@ Syntax
 
 Public Overloads Function Pick( _
    ByVal _setupParam_ As [PickSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [PickResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickResult.md)
 
 public [PickResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickResult.md) Pick( 
    [PickSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

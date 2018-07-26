@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743857)>
 Sub LoginFromFCApp() 
+```
 
+```csharp
 [DispIdAttribute(1610743857)]
 void LoginFromFCApp()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

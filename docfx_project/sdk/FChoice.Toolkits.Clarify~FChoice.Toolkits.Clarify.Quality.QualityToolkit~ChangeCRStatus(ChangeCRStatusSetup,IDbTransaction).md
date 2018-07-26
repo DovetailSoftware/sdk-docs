@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function ChangeCRStatus( _
    ByVal _setupParam_ As [ChangeCRStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeCRStatus( 
    [ChangeCRStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

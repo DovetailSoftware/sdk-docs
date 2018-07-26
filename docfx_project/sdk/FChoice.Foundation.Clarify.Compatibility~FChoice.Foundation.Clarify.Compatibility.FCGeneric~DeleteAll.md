@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Sub DeleteAll() 
+'Declaration
 
+Public Sub DeleteAll() 
+```
+
+```csharp
 public void DeleteAll()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

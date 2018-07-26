@@ -5,10 +5,14 @@ Collection of application parameters being used by the application object.
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property Configuration As NameValueCollection
+'Declaration
 
+Public ReadOnly Property Configuration As NameValueCollection
+```
+
+```csharp
 public NameValueCollection Configuration {get;}
+```
 
 #### Property Value
 
@@ -19,8 +23,6 @@ Remarks
 The values in this collection are populated by the application configuration file.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

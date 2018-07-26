@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub AssignAllObjids() 
+```
 
+```csharp
 public void AssignAllObjids()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

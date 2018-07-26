@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function ReinstallSitePart( _
    ByVal _setupParam_ As [ReinstallSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.ReinstallSitePartSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReinstallSitePart( 
    [ReinstallSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.ReinstallSitePartSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

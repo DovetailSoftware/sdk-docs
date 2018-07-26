@@ -9,16 +9,20 @@ Copies all the elements of the current GenericDataRowCollection to a one-dimensi
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub CopyTo( _
    ByVal _array_ As Array, _
    ByVal _index_ As Integer _
 ) 
+```
 
+```csharp
 public void CopyTo( 
    Array _array_,
    int _index_
 )
+```
 
 #### Parameters
 
@@ -35,8 +39,6 @@ Remarks
 The implementation of CopyTo is delegated to DataRowCollection's [CopyTo](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatainternaldatacollectionbaseclasscopytotopic.htm)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

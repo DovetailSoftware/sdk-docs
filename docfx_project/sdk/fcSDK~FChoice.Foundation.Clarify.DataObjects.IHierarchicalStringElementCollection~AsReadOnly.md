@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Function AsReadOnly() As [ReadOnlyCollection(Of IHierarchicalStringElement)](#)
+Function AsReadOnly() As ReadOnlyCollection(Of IHierarchicalStringElement)
+```
 
-[ReadOnlyCollection<IHierarchicalStringElement>](#) AsReadOnly()
+```csharp
+ReadOnlyCollection<IHierarchicalStringElement> AsReadOnly()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

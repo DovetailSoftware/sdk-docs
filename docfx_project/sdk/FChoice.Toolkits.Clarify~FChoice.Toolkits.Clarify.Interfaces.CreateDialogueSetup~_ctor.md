@@ -5,15 +5,16 @@ Initializes a new instance of the CreateDialogueSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New()
+```
 
+```csharp
 public CreateDialogueSetup()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

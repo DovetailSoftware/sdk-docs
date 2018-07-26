@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly constructorIndex As Integer
+```
 
+```csharp
 public readonly int constructorIndex
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

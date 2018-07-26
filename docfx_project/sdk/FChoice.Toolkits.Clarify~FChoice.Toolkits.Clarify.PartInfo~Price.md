@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Price As [Decimal](#)
+Public Price As Decimal
+```
 
-public [decimal](#) Price
+```csharp
+public decimal Price
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

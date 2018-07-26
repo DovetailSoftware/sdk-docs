@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Const CLARIFY_6X As Integer
+```
 
+```csharp
 public const int CLARIFY_6X
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

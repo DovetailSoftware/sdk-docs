@@ -6,8 +6,11 @@ Syntax
 ' Declaration
 
 Public Sub MoveLast() 
+```
 
+```csharp
 public void MoveLast()
+```
 
 [!include[Requirements](../partials/requirements.md)]
 

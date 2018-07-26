@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shared Sub DeInitialize() 
+Public Shared Sub DeInitialize()
+```
 
+```csharp
 public static void DeInitialize()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

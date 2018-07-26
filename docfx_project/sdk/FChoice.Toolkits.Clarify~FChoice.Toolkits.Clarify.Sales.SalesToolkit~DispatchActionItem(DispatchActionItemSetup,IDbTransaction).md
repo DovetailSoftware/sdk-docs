@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function DispatchActionItem( _
    ByVal _setupParam_ As [DispatchActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchActionItem( 
    [DispatchActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

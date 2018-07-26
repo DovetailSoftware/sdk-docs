@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function IsCountry( _
    ByVal _countryName_ As String _
 ) As Boolean
+```
 
+```csharp
 public bool IsCountry( 
    string _countryName_
 )
+```
 
 #### Parameters
 
 _countryName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

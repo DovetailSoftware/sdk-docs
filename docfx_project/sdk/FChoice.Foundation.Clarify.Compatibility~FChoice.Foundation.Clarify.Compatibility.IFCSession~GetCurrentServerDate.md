@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743862)>
 Function GetCurrentServerDate() As Date
+```
 
+```csharp
 [DispIdAttribute(1610743862)]
 DateTime GetCurrentServerDate()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

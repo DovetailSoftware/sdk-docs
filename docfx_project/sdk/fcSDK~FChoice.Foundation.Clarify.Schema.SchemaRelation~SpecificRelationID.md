@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property SpecificRelationID As Integer
+'Declaration
 
+Public ReadOnly Property SpecificRelationID As Integer
+```
+
+```csharp
 public int SpecificRelationID {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

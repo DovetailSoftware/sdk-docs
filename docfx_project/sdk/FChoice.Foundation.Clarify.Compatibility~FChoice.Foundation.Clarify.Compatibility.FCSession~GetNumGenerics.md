@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetNumGenerics() As Integer
+```
 
+```csharp
 public int GetNumGenerics()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

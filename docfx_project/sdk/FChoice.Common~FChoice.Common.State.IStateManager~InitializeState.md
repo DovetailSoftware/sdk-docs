@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Sub InitializeState( _
    ByVal _id_ As Guid _
 ) 
+```
 
+```csharp
 void InitializeState( 
    Guid _id_
 )
+```
 
 #### Parameters
 
 _id_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

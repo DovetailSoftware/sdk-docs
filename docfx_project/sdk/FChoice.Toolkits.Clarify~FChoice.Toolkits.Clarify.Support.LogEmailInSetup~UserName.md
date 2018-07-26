@@ -5,15 +5,16 @@ User who created the log. If not set, the session user is used.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property UserName As String
+```
 
+```csharp
 public string UserName {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,15 +5,16 @@ Gets a value indicating whether this [GenericDataRow](fcSDK~FChoice.Foundation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property IsAddForUpdate As Boolean
+```
 
+```csharp
 public bool IsAddForUpdate {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

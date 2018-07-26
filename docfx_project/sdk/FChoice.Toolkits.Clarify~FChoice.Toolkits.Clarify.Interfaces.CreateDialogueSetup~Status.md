@@ -5,15 +5,16 @@ The initial status of the dialogue.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property Status As String
+```
 
+```csharp
 public string Status {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

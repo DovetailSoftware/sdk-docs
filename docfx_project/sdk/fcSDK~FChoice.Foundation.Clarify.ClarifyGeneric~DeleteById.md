@@ -7,14 +7,18 @@ Deletes the row in the table with the specified objid
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub DeleteById( _
    ByVal _objId_ As Integer _
 ) 
+```
 
+```csharp
 public void DeleteById( 
    int _objId_
 )
+```
 
 #### Parameters
 
@@ -31,8 +35,6 @@ During an update, a blind DELETE statement to the database with a WHERE clause 
 **NOTE**: No error or other feedback is given if the specified row does not exist.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,10 +5,14 @@ IDbExtension allows applications to specify database-specific extensions to the 
 Syntax
 
 ```vbnet
-' Declaration
-Public Interface IDbExtension 
+'Declaration
 
+Public Interface IDbExtension 
+```
+
+```csharp
 public interface IDbExtension 
+```
 
 #### Requirements
 
@@ -17,8 +21,6 @@ public interface IDbExtension
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

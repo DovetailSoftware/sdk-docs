@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetHgbstElmDefault( _
    ByVal _listName_ As String, _
@@ -12,7 +12,9 @@ Public Function GetHgbstElmDefault( _
    Optional ByVal _element3_ As Object, _
    Optional ByVal _element4_ As Object _
 ) As String
+```
 
+```csharp
 public string GetHgbstElmDefault( 
    string _listName_,
    object _element1_,
@@ -20,6 +22,7 @@ public string GetHgbstElmDefault(
    object _element3_,
    object _element4_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _element3_
 _element4_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

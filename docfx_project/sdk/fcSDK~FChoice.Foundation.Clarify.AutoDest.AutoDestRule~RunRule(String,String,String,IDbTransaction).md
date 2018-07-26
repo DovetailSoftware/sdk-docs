@@ -9,14 +9,14 @@ Public Overloads Shared Function RunRule( _
    ByVal _ruleTitle_ As String, _
    ByVal _ruleText_ As String, _
    ByVal _rootObjectId_ As String, _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [String()](#)
 
 public static string[] RunRule( 
    string _ruleTitle_,
    string _ruleText_,
    string _rootObjectId_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

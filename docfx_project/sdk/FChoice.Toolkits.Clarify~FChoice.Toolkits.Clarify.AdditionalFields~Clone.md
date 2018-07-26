@@ -5,15 +5,16 @@ This method is used internally and not meant to be used by end users.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function Clone() As Object
+```
 
+```csharp
 public object Clone()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

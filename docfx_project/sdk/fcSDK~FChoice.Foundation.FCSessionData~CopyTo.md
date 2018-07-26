@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Overridable Sub CopyTo( _
    ByVal _newData_ As [FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md) _
 ) 
+```
 
+```csharp
 public virtual void CopyTo( 
    [FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md) _newData_
 )
+```
 
 #### Parameters
 
 _newData_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

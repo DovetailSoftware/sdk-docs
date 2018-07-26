@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Const FloatNumber As Integer
+'Declaration
 
+Public Const FloatNumber As Integer
+```
+
+```csharp
 public const int FloatNumber
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

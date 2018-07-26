@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetDefaultCountry() As String
+```
 
+```csharp
 public string GetDefaultCountry()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Provided for legacy compatibility support, this method will parse an FC.ENV-styl
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function ParseFcEnvFile( _
    ByVal _filePath_ As String _
 ) As NameValueCollection
+```
 
+```csharp
 public static NameValueCollection ParseFcEnvFile( 
    string _filePath_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ Remarks
 If you wish to use an FC.ENV-style file to configure your application, you can use this file to produce a set of configuration values. If you wish to then pass them to [LoadEnvironmentSettings](FChoice.Common~FChoice.Common.FCConfiguration~LoadEnvironmentSettings.md), you must first construct the connection string and assign the value with the key [ConfigValues.CONNECT_STRING](FChoice.Common~FChoice.Common.ConfigValues~CONNECT_STRING.md). To produce a provider-specific connection string from a set of values (db_type, db_server, db_name, etc), use the [CreateConnectionString](FChoice.Common~FChoice.Common.Data.DbProvider~CreateConnectionString.md) method on the current provider: [DbProviderFactory.Provider](FChoice.Common~FChoice.Common.Data.DbProviderFactory~Provider.md).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

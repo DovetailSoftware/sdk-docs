@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function NotBetween( _
    ByVal _columnName_ As String, _
-   ByVal _value1_ As [Decimal](#), _
-   ByVal _value2_ As [Decimal](#) _
-) As [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)
+   ByVal _value1_ As Decimal, _
+   ByVal _value2_ As Decimal _
+) As BetweenFilter
+```
 
-public static [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md) NotBetween( 
+```csharp
+public static BetweenFilter NotBetween( 
    string _columnName_,
-   [decimal](#) _value1_,
-   [decimal](#) _value2_
+   decimal _value1_,
+   decimal _value2_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _value1_
 _value2_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

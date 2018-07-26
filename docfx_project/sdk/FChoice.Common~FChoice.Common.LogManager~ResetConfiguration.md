@@ -5,18 +5,20 @@ Resets the log configuration and configuration file back to defaults (root level
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Sub ResetConfiguration() 
+```
 
+```csharp
 public static void ResetConfiguration()
+```
 
-Remarks
+#### Remarks
 
 **WARNING:** Call this only if you're sure you wish to lose all logging configuration and reset back to nothing.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

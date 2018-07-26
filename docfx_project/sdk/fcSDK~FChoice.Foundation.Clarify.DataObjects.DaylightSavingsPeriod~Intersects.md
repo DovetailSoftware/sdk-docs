@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function Intersects( _
    ByVal _input_ As [DaylightSavingsPeriod](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod.md) _
 ) As Boolean
+```
 
+```csharp
 public bool Intersects( 
    [DaylightSavingsPeriod](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod.md) _input_
 )
+```
 
 #### Parameters
 
 _input_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Executes the the specified SQL using the default [DbProvider](FChoice.Common~FCh
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function ExecuteDataSet( _
    ByVal _commandText_ As String _
 ) As DataSet
+```
 
+```csharp
 public static DataSet ExecuteDataSet( 
    string _commandText_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Not all providers return a DataSet with the same structure if no results are r
 In no case will the DataSet returned be a null reference (**Nothing** in Visual Basic).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

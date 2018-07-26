@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743822)>
 Property NoRes As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743822)]
 bool NoRes {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,17 +5,18 @@ Initializes a new instance of the CreateActionItemSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New()
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateActionItemSetup()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

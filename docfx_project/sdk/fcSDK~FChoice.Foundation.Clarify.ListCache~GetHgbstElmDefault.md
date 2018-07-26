@@ -9,17 +9,20 @@ Gets the title of the default element for the given level in a user-defined list
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetHgbstElmDefault( _
    ByVal _listTitle_ As String, _
    ByVal ParamArray _elementTitles_() As String _
 ) As String
+```
 
+```csharp
 public string GetHgbstElmDefault( 
    string _listTitle_,
    params string[] _elementTitles_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 If the specified _listTitle_ or any of the elements specified _elementTitles_ does not exist, an exception will be thrown.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

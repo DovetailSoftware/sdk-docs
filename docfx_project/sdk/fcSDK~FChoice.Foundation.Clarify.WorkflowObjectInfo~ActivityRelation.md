@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property ActivityRelation As String
+'Declaration
 
+Public Property ActivityRelation As String
+```
+
+```csharp
 public string ActivityRelation {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,15 +5,16 @@ Email address of the recipients of the email being logged.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property Recipient As String
+```
 
+```csharp
 public string Recipient {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function AcceptQuote( _
    ByVal _setupParam_ As [AcceptQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptQuoteSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AcceptQuote( 
    [AcceptQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptQuoteSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

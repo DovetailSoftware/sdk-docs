@@ -1,23 +1,22 @@
-﻿     FindLastIndex(Int32,Predicate<IGlobalStringElement>) Method                                                   
-
-fcSDK Documentation
-
-FindLastIndex(Int32,Predicate<IGlobalStringElement>) Method
+﻿### FindLastIndex(Int32,Predicate<IGlobalStringElement>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function FindLastIndex( _
    ByVal _startIndex_ As Integer, _
-   ByVal _match_ As [Predicate(Of IGlobalStringElement)](#) _
+   ByVal _match_ As Predicate(Of IGlobalStringElement) _
 ) As Integer
+```
 
+```csharp
 int FindLastIndex( 
    int _startIndex_,
-   [Predicate<IGlobalStringElement>](#) _match_
+   Predicate<IGlobalStringElement> _match_
 )
+```
 
 #### Parameters
 
@@ -26,8 +25,6 @@ _startIndex_
 _match_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

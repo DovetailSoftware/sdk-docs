@@ -7,12 +7,12 @@ Syntax
 
 Public Overloads Function LogActionItemEmailIn( _
    ByVal _setup_ As [LogActionItemEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogActionItemEmailInSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogActionItemEmailIn( 
    [LogActionItemEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogActionItemEmailInSetup.md) _setup_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function RemoveAll( _
-   ByVal _match_ As [Predicate(Of IGlobalStringElement)](#) _
+   ByVal _match_ As Predicate(Of IGlobalStringElement) _
 ) As Integer
+```
 
+```csharp
 int RemoveAll( 
-   [Predicate<IGlobalStringElement>](#) _match_
+   Predicate<IGlobalStringElement> _match_
 )
+```
 
 #### Parameters
 
 _match_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

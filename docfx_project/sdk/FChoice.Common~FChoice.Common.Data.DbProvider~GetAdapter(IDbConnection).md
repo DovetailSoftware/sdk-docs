@@ -7,15 +7,18 @@ Gets a database type-specific DbDataAdapter instance for this provider type (i.e
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads MustOverride Function GetAdapter( _
-   ByVal _conn_ As [IDbConnection](#) _
-) As [DbDataAdapter](#)
+   ByVal _conn_ As IDbConnection _
+) As DbDataAdapter
+```
 
-public abstract [DbDataAdapter](#) GetAdapter( 
-   [IDbConnection](#) _conn_
+```csharp
+public abstract DbDataAdapter GetAdapter( 
+   IDbConnection _conn_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ The database connection this adapter should use when performing database operati
 A DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL), initialized to use the specified connection
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

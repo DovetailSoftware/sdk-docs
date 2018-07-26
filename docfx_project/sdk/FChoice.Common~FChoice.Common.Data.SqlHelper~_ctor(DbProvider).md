@@ -7,15 +7,18 @@ Creates a new instance of SqlHelper with the specified [DbProvider](FChoice.Comm
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _dataProvider_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _
+   ByVal _dataProvider_ As DbProvider _
 )
+```
 
+```csharp
 public SqlHelper( 
-   [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _dataProvider_
+   DbProvider _dataProvider_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _dataProvider_
 The specific [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance that this instance of SqlHelper should use when performing database operations
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

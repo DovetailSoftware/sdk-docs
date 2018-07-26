@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function get_item( _
    ByVal _key_ As String _
 ) As Object
+```
 
+```csharp
 object get_item( 
    string _key_
 )
+```
 
 #### Parameters
 
 _key_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

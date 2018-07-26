@@ -7,15 +7,18 @@ Formats a **TimeSpan** into a string "DDD HH MMM" where: D=Days, H=Hours, M=Min
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Overridable Function FormatElapsedTime( _
    ByVal _ts_ As TimeSpan _
 ) As String
+```
 
+```csharp
 public virtual string FormatElapsedTime( 
    TimeSpan _ts_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _ts_
 TimeSpan to be formatted
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

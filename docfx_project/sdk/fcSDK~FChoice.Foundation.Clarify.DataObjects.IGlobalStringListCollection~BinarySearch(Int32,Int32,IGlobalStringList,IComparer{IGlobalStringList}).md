@@ -1,27 +1,26 @@
-﻿     BinarySearch(Int32,Int32,IGlobalStringList,IComparer<IGlobalStringList>) Method                                                   
-
-fcSDK Documentation
-
-BinarySearch(Int32,Int32,IGlobalStringList,IComparer<IGlobalStringList>) Method
+﻿### BinarySearch(Int32,Int32,IGlobalStringList,IComparer<IGlobalStringList>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function BinarySearch( _
    ByVal _index_ As Integer, _
    ByVal _count_ As Integer, _
-   ByVal _item_ As [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md), _
-   ByVal _comparer_ As [IComparer(Of IGlobalStringList)](#) _
+   ByVal _item_ As IGlobalStringList, _
+   ByVal _comparer_ As IComparer(Of IGlobalStringList) _
 ) As Integer
+```
 
+```csharp
 int BinarySearch( 
    int _index_,
    int _count_,
-   [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) _item_,
-   [IComparer<IGlobalStringList>](#) _comparer_
+   IGlobalStringList _item_,
+   IComparer<IGlobalStringList> _comparer_
 )
+```
 
 #### Parameters
 
@@ -34,8 +33,6 @@ _item_
 _comparer_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

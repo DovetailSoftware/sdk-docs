@@ -5,11 +5,14 @@ Creates a new instance of a [DbProvider](FChoice.Common~FChoice.Common.Data.DbP
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function CreateProvider() As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)
+```
 
+```csharp
 public static [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) CreateProvider()
+```
 
 #### Return Value
 

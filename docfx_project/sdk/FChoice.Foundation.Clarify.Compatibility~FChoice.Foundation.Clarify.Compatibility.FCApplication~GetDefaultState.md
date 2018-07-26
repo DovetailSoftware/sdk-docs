@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetDefaultState( _
    ByVal _country_ As String _
 ) As String
+```
 
+```csharp
 public string GetDefaultState( 
    string _country_
 )
+```
 
 #### Parameters
 
 _country_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

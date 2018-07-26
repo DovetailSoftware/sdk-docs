@@ -5,19 +5,20 @@ Returns whether or not the DataRestrictions feature is enabled or disabled.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property DisableRestrictions As Boolean
+```
 
+```csharp
 public bool DisableRestrictions {get; set;}
+```
 
 #### Property Value
 
 Returns whether or not the DataRestrictions feature is enabled or disabled.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

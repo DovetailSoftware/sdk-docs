@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function AddAlternatePart( _
    ByVal _setupParam_ As [AddAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddAlternatePart( 
    [AddAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

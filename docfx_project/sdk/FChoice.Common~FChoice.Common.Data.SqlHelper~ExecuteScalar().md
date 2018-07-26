@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ExecuteScalar() As Object
+```
 
+```csharp
 public object ExecuteScalar()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

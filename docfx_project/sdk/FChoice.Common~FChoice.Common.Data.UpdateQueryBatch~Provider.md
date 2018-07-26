@@ -5,10 +5,14 @@ Gets the provider that this batch is using
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property Provider As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)
+'Declaration
 
-public [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) Provider {get;}
+Public ReadOnly Property Provider As DbProvider
+```
+
+```csharp
+public DbProvider Provider {get;}
+```
 
 #### Property Value
 
@@ -19,8 +23,6 @@ Remarks
 This value is read-only to prevent changing providers in the middle of a batch process. Note that the provider on the [SqlHelper Property](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~SqlHelper.md) can be changed. This might have adverse effects on the batching process and is not recommended.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property SortOrder As String
+'Declaration
 
+Public Property SortOrder As String
+```
+
+```csharp
 public string SortOrder {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

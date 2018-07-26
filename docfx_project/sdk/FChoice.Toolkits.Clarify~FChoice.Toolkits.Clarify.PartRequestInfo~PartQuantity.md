@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public PartQuantity As Integer
+```
 
+```csharp
 public int PartQuantity
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

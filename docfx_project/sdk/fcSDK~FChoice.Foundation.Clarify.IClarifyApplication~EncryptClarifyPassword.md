@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function EncryptClarifyPassword( _
    ByVal _password_ As String _
 ) As String
+```
 
+```csharp
 string EncryptClarifyPassword( 
    string _password_
 )
+```
 
 #### Parameters
 
 _password_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

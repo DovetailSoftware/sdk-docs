@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function FindString( _
    ByVal _StringID_ As Object _
 ) As String
+```
 
+```csharp
 public string FindString( 
    object _StringID_
 )
+```
 
 #### Parameters
 
 _StringID_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

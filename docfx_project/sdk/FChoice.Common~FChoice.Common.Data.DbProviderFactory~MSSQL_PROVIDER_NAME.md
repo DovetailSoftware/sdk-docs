@@ -5,19 +5,20 @@ The default provider name of MSSQL-based data providers
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Const MSSQL_PROVIDER_NAME As String
+```
 
+```csharp
 public const string MSSQL_PROVIDER_NAME
+```
 
 Remarks
 
 Please see _remarks_ section of the [DbProvider.ProviderName](FChoice.Common~FChoice.Common.Data.DbProvider~ProviderName.md) property documentation for more information on the significance of this value.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

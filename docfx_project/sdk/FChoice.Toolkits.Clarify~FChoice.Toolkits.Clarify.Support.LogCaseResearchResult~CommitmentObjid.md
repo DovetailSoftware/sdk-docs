@@ -5,14 +5,16 @@ The Objid of the Commitment.
 Syntax
 
 ```vbnet
-' Declaration
-Public Property CommitmentObjid As Integer
+'Declaration
 
+Public Property CommitmentObjid As Integer
+```
+
+```csharp
 public int CommitmentObjid {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

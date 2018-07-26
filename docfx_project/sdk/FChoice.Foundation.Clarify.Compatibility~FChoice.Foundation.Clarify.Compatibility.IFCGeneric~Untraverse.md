@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743860)>
 Sub Untraverse() 
+```
 
+```csharp
 [DispIdAttribute(1610743860)]
 void Untraverse()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

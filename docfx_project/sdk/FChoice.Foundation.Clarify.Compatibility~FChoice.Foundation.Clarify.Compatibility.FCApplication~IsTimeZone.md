@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function IsTimeZone( _
    ByVal _timeZoneName_ As String _
 ) As Boolean
+```
 
+```csharp
 public bool IsTimeZone( 
    string _timeZoneName_
 )
+```
 
 #### Parameters
 
 _timeZoneName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

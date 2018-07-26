@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Sub FreeConnection() 
+'Declaration
 
+Public Sub FreeConnection() 
+```
+
+```csharp
 public void FreeConnection()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

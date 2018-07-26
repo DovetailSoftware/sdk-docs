@@ -5,11 +5,14 @@ Gets the collection of all parameters for all queries to be executed by this bat
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property Parameters As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)
+Public ReadOnly Property Parameters As DataParameterCollection
+```
 
-public [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) Parameters {get;}
+```csharp
+public DataParameterCollection Parameters {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 While the parameters in this collection can be manipulated, this could cause instability during the batching process and is not recommended.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

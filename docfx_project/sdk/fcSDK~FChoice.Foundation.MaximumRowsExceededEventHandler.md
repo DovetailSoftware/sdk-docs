@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Delegate Sub MaximumRowsExceededEventHandler( _
-   ByVal _sender_ As [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md), _
-   ByVal _args_ As [MaximumRowsExceededEventArgs](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs.md) _
-) 
+'Declaration
 
+Public Delegate Sub MaximumRowsExceededEventHandler( _
+   ByVal _sender_ As FCGeneric, _
+   ByVal _args_ As MaximumRowsExceededEventArgs _
+) 
+```
+
+```csharp
 public delegate void MaximumRowsExceededEventHandler( 
-   [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) _sender_,
-   [MaximumRowsExceededEventArgs](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs.md) _args_
+   FCGeneric _sender_,
+   MaximumRowsExceededEventArgs _args_
 )
+```
 
 #### Parameters
 
@@ -27,8 +31,6 @@ _args_
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

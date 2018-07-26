@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub ExecuteSQLNoReturn( _
    ByVal _sql_ As String _
 ) 
+```
 
+```csharp
 public void ExecuteSQLNoReturn( 
    string _sql_
 )
+```
 
 #### Parameters
 
 _sql_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

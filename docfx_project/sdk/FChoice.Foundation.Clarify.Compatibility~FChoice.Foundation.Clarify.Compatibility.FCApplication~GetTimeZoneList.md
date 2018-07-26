@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetTimeZoneList() As ADODB.Recordset
+```
 
+```csharp
 public ADODB.Recordset GetTimeZoneList()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

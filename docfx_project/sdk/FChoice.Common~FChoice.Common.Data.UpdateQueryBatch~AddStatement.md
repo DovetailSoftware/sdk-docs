@@ -9,17 +9,20 @@ Adds an unprepared SQL statement (with the _{n}_ and _{DATE}_ parameters still p
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub AddStatement( _
    ByVal _sqlStmt_ As String, _
-   ByVal _cmdParams_ As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _
+   ByVal _cmdParams_ As DataParameterCollection _
 ) 
+```
 
+```csharp
 public void AddStatement( 
    string _sqlStmt_,
-   [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _cmdParams_
+   DataParameterCollection _cmdParams_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ If the specified provider returns true from its [CanBatchQueries](FChoice.Common
 **IMPORTANT**: The UpdateQueryBatch does not commit or rollback the transaction instance. It is the responsibility of the caller to ensure that the transaction is properly set up and finished after the batch is executed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

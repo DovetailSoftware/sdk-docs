@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function FileExists( _
    ByVal _path_ As String _
 ) As Boolean
+```
 
+```csharp
 public bool FileExists( 
    string _path_
 )
+```
 
 #### Parameters
 
 _path_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

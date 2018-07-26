@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function MoveActionItem( _
    ByVal _setupParam_ As [MoveActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveActionItemSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) MoveActionItem( 
    [MoveActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveActionItemSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

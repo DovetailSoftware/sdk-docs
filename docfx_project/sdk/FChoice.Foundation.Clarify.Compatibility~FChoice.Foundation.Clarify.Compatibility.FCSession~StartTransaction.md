@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub StartTransaction( _
    Optional ByVal _isolationLevel_ As Object _
 ) 
+```
 
+```csharp
 public void StartTransaction( 
    object _isolationLevel_
 )
+```
 
 #### Parameters
 
 _isolationLevel_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

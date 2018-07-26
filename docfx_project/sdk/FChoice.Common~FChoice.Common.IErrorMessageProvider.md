@@ -5,10 +5,14 @@ The IErrorMessageProvider is the interface used by [FCExceptionBase](FChoice.Com
 Syntax
 
 ```vbnet
-' Declaration
-Public Interface IErrorMessageProvider 
+'Declaration
 
+Public Interface IErrorMessageProvider 
+```
+
+```csharp
 public interface IErrorMessageProvider 
+```
 
 Remarks
 
@@ -21,8 +25,6 @@ You can implement your own error message provider to load error message resource
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

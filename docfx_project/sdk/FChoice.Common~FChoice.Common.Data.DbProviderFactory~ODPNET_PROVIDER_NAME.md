@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Const ODPNET_PROVIDER_NAME As String
+```
 
+```csharp
 public const string ODPNET_PROVIDER_NAME
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

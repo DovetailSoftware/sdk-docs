@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function CreateSolution( _
    ByVal _setupParam_ As [CreateSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md)
 
 public [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md) CreateSolution( 
    [CreateSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

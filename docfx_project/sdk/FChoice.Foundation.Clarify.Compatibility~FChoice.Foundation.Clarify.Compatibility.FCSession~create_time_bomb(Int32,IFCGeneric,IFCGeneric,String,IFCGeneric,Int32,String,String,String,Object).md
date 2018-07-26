@@ -3,35 +3,38 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[ComVisibleAttribute](#)(False)>
+<ComVisibleAttribute(False)>
 Public Overloads Sub create_time_bomb( _
    ByVal _timeBombFlag_ As Integer, _
-   ByRef _timeBombRecord_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md), _
-   ByVal _mainRecord_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md), _
+   ByRef _timeBombRecord_ As IFCGeneric, _
+   ByVal _mainRecord_ As IFCGeneric, _
    ByVal _t_save_ As String, _
-   ByVal _activityRecord_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md), _
+   ByVal _activityRecord_ As IFCGeneric, _
    ByVal _emp_rec_ As Integer, _
    ByVal _t_date_ As String, _
    ByVal _focus_obj_ As String, _
    ByVal _escalate_time_ As String, _
    Optional ByVal _new_generic_ As Object _
 ) 
+```
 
-\[[ComVisibleAttribute](#)(false)\]
+```csharp
+[ComVisibleAttribute(false)]
 public void create_time_bomb( 
    int _timeBombFlag_,
-   ref [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _timeBombRecord_,
-   [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _mainRecord_,
+   ref IFCGeneric _timeBombRecord_,
+   IFCGeneric _mainRecord_,
    string _t_save_,
-   [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _activityRecord_,
+   IFCGeneric _activityRecord_,
    int _emp_rec_,
    string _t_date_,
    string _focus_obj_,
    string _escalate_time_,
    object _new_generic_
 )
+```
 
 #### Parameters
 
@@ -56,8 +59,6 @@ _escalate_time_
 _new_generic_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

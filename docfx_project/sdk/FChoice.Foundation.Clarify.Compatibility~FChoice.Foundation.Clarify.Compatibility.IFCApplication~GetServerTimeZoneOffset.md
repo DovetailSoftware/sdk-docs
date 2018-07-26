@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743869)>
 Function GetServerTimeZoneOffset() As Integer
+```
 
+```csharp
 [DispIdAttribute(1610743869)]
 int GetServerTimeZoneOffset()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

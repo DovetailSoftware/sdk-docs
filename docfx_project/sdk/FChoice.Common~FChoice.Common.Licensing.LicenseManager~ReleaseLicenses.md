@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub ReleaseLicenses( _
    ByVal _context_ As Object _
 ) 
+```
 
+```csharp
 public void ReleaseLicenses( 
    object _context_
 )
+```
 
 #### Parameters
 
 _context_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

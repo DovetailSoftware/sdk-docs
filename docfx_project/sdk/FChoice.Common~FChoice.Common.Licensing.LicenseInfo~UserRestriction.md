@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property UserRestriction As [LicenseUserRestrictionType](FChoice.Common~FChoice.Common.Licensing.LicenseUserRestrictionType.md)
+'Declaration
 
-public [LicenseUserRestrictionType](FChoice.Common~FChoice.Common.Licensing.LicenseUserRestrictionType.md) UserRestriction {get;}
+Public ReadOnly Property UserRestriction As LicenseUserRestrictionType
+```
+
+```csharp
+public LicenseUserRestrictionType UserRestriction {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

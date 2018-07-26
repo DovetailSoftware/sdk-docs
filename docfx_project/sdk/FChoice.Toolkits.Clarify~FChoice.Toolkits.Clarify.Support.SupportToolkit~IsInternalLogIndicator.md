@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared IsInternalLogIndicator As String
+```
 
+```csharp
 public static string IsInternalLogIndicator
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

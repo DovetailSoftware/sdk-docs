@@ -5,11 +5,14 @@ Returns the login type of the logged-in user.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property LoginType As Integer
+```
 
+```csharp
 public int LoginType {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 Login type is a CRM specific value.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

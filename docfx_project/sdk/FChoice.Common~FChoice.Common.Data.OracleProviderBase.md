@@ -5,12 +5,15 @@ Abstract base class for Oracle-based custom data providers
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustInherit Class OracleProviderBase 
-   Inherits [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)
+   Inherits DbProvider
+```
 
-public abstract class OracleProviderBase : [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) 
+```csharp
+public abstract class OracleProviderBase : DbProvider
+```
 
 Remarks
 
@@ -30,8 +33,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

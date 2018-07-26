@@ -11,9 +11,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [MaxInListItems](FChoice.Common~FChoice.Common.Data.OracleProviderBase~MaxInListItems.md) | Overridden.    |
 | ![Public Property](dotnetimages/publicProperty.png) | [ProviderName](FChoice.Common~FChoice.Common.Data.OracleProviderBase~ProviderName.md) | Overridden.    |
 | ![Public Property](dotnetimages/publicProperty.png) | [RequiresDbNameParameter](FChoice.Common~FChoice.Common.Data.OracleProviderBase~RequiresDbNameParameter.md) | Overridden.    |
-| ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.OracleProviderBase~TypeMapper.md) | Overridden.    |
-
-
+| ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.OracleProviderBase~TypeMapper.md) | Overridden. |
 
 Public Methods
 
@@ -39,10 +37,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png) | [SetDatabaseParameterTypeForClobText](FChoice.Common~FChoice.Common.Data.DbProvider~SetDatabaseParameterTypeForClobText.md) | (Inherited from [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [TestConnection](FChoice.Common~FChoice.Common.Data.DbProvider~TestConnection.md) | Overloaded.  (Inherited from [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)) |
 | ![Public Method](dotnetimages/publicMethod.png) | [ValidateConnectionParams](FChoice.Common~FChoice.Common.Data.OracleProviderBase~ValidateConnectionParams.md) | Overridden.    |
-
-
-
-
 
 #### Reference
 

@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Sub RollbackTransaction() 
+'Declaration
 
+Public Sub RollbackTransaction() 
+```
+
+```csharp
 public void RollbackTransaction()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

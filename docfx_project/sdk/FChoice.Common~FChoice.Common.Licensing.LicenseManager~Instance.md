@@ -5,19 +5,20 @@ Since this class is a [Singleton](http://c2.com/cgi/wiki?SingletonPattern) you 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shared ReadOnly Property Instance As [LicenseManager](FChoice.Common~FChoice.Common.Licensing.LicenseManager.md)
+Public Shared ReadOnly Property Instance As LicenseManager
+```
 
-public static [LicenseManager](FChoice.Common~FChoice.Common.Licensing.LicenseManager.md) Instance {get;}
+```csharp
+public static LicenseManager Instance {get;}
+```
 
 Remarks
 
 Please use this property to access the **Licenses** property.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

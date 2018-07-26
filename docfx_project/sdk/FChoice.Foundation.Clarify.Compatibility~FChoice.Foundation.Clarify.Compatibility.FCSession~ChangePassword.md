@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub ChangePassword( _
    ByVal _password_ As String _
 ) 
+```
 
+```csharp
 public void ChangePassword( 
    string _password_
 )
+```
 
 #### Parameters
 
 _password_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

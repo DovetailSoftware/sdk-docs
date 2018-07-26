@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public MustOverride Function GetCurrentStates() As [Object()](#)
+Public MustOverride Function GetCurrentStates() As Object()
+```
 
-public abstract [object\[\]](#) GetCurrentStates()
+```csharp
+public abstract object[] GetCurrentStates()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Sub Reconfigure() 
+```
 
+```csharp
 public static void Reconfigure()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

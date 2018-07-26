@@ -5,17 +5,18 @@ Initializes a new instance of the CreateAccountSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New()
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateAccountSetup()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

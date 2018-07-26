@@ -5,11 +5,14 @@ Gets or sets the current configuration settings or null if none are currently co
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Property Current As NameValueCollection
+```
 
+```csharp
 public static NameValueCollection Current {get; set;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 If none are loaded, call [LoadEnvironmentSettings](FChoice.Common~FChoice.Common.FCConfiguration~LoadEnvironmentSettings.md) to load values.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

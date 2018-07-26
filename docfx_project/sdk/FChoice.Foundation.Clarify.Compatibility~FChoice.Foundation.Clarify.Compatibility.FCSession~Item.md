@@ -3,24 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ComVisibleAttribute](#)(False)>
+'Declaration
+
+<ComVisibleAttribute(False)>
 Public Default Property Item( _
    ByVal _key_ As String _
 ) As Object
+```
 
-\[[ComVisibleAttribute](#)(false)\]
-public object this\[ 
+```csharp
+[ComVisibleAttribute(false)]
+public object this[ 
    string _key_
-\]; {get; set;}
+]; {get; set;}
+```
 
 #### Parameters
 
 _key_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

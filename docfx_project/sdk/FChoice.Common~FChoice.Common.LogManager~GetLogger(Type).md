@@ -12,13 +12,13 @@ Syntax
 'Declaration
 
 Public Overloads Shared Function GetLogger( _
-   ByVal _loggerType_ As [Type](#) _
-) As [Logger](FChoice.Common~FChoice.Common.Logger.md)
+   ByVal _loggerType_ As Type _
+) As Logger
 ```
 
 ```csharp
-public static [Logger](FChoice.Common~FChoice.Common.Logger.md) GetLogger( 
-   [Type](#) _loggerType_
+public static Logger GetLogger( 
+   Type _loggerType_
 )
 ```
 

@@ -8,15 +8,11 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SqlHelper Constructor](FChoice.Common~FChoice.Common.Data.SqlHelper~_ctor.md) | Overloaded.    |
 
-
-
 Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png) | [IN_LIST_TOKEN](FChoice.Common~FChoice.Common.Data.SqlHelper~IN_LIST_TOKEN.md) |   |
-
-
 
 Public Properties
 
@@ -50,10 +46,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GetTableAsDataSet](FChoice.Common~FChoice.Common.Data.SqlHelper~GetTableAsDataSet.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [PrepareInListStatement](FChoice.Common~FChoice.Common.Data.SqlHelper~PrepareInListStatement.md) | Overloaded.    |
 | ![Public Method](dotnetimages/publicMethod.png) | [PrepareIntegerListStatement](FChoice.Common~FChoice.Common.Data.SqlHelper~PrepareIntegerListStatement.md) |   |
-
-
-
-
 
 #### Reference
 

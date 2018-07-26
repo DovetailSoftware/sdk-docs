@@ -19,7 +19,7 @@ Initializes a new instance of the UpdatePriceInstanceSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -28,10 +28,12 @@ Public Function New( _
    ByVal _partRevision_ As String, _
    ByVal _priceProgram_ As String, _
    ByVal _pricedQuantity_ As Integer, _
-   ByVal _price_ As [Decimal](#), _
+   ByVal _price_ As Decimal, _
    ByVal _updateDate_ As Date _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdatePriceInstanceSetup( 
    string _partNumber_,
@@ -39,9 +41,10 @@ public UpdatePriceInstanceSetup(
    string _partRevision_,
    string _priceProgram_,
    int _pricedQuantity_,
-   [decimal](#) _price_,
+   decimal _price_,
    DateTime _updateDate_
 )
+```
 
 #### Parameters
 
@@ -74,8 +77,6 @@ _updateDate_
 Date when the Price was updated, any Date between the start and end date is valid.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

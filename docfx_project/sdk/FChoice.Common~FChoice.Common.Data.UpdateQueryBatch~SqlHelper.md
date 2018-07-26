@@ -5,10 +5,14 @@ Gets the instance of a [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property SqlHelper As [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md)
+'Declaration
 
-public [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) SqlHelper {get;}
+Public ReadOnly Property SqlHelper As SqlHelper
+```
+
+```csharp
+public SqlHelper SqlHelper {get;}
+```
 
 #### Property Value
 
@@ -19,8 +23,6 @@ Remarks
 While it is possible to change properties, add/remove parameters, and change providers and other properties on this instance, it could cause instability during the batching process and is not recommended.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

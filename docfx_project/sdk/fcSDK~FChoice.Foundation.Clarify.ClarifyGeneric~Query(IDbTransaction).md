@@ -7,15 +7,18 @@ Causes the generic object to query the database table or view using the specifi
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Overrides Sub Query( _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) 
+```
 
+```csharp
 public override void Query( 
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 This example shows how to set up several generics in a hierarchy, query the parent and then iterate through the rows and display the results of the query.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,11 +5,14 @@ Gets the current command text that will be executed when the [Execute Method](FC
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property CommandText As [StringBuilder](#)
+Public ReadOnly Property CommandText As StringBuilder
+```
 
-public [StringBuilder](#) CommandText {get;}
+```csharp
+public StringBuilder CommandText {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 Calls to the [AddStatement Method](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~AddStatement.md) will modify the value of this property. Statements cannot be removed or changed once they are added. The batch must be discarded and rebuilt in order to change any of the statements.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

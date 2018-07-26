@@ -6,14 +6,14 @@ Syntax
 'Declaration
 
 Public Overloads Sub Update( _
-   ByVal _transaction_ As [IDbTransaction](#), _
+   ByVal _transaction_ As IDbTransaction, _
    ByVal ParamArray _generics_() As [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) _
 ) 
 ```
 
 ```csharp
 public void Update( 
-   [IDbTransaction](#) _transaction_,
+   IDbTransaction _transaction_,
    params [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)\[\] _generics_
 )
 ```

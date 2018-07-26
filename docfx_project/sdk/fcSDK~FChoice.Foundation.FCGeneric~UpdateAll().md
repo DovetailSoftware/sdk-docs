@@ -5,19 +5,20 @@ Updates all modified rows of the **FCGeneric**.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub UpdateAll() 
+```
 
+```csharp
 public void UpdateAll()
+```
 
 Remarks
 
 This method commits all modified rows to the database and is equivalent to calling [Update](fcSDK~FChoice.Foundation.FCGeneric~Update(GenericDataRow).md) on each row of the **FCGeneric**.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

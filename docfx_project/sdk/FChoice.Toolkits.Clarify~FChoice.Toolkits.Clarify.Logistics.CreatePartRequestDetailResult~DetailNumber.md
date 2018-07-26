@@ -5,14 +5,16 @@ Detail Number.
 Syntax
 
 ```vbnet
-' Declaration
-Public Property DetailNumber As String
+'Declaration
 
+Public Property DetailNumber As String
+```
+
+```csharp
 public string DetailNumber {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

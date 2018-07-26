@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[DispIdAttribute](#)(-4)>
-Function NewEnum() As [IEnumerator](#)
+'Declaration
 
-\[[DispIdAttribute](#)(-4)\]
-[IEnumerator](#) NewEnum()
+<DispIdAttribute(-4)>
+Function NewEnum() As IEnumerator
+```
+
+```csharp
+[DispIdAttribute(-4)]
+IEnumerator NewEnum()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

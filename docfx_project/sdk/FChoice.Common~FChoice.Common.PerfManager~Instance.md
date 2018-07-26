@@ -5,11 +5,14 @@ Retreives a reference to the singleton instance of PerfManager
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shared ReadOnly Property Instance As [PerfManager](FChoice.Common~FChoice.Common.PerfManager.md)
+Public Shared ReadOnly Property Instance As PerfManager
+```
 
-public static [PerfManager](FChoice.Common~FChoice.Common.PerfManager.md) Instance {get;}
+```csharp
+public static PerfManager Instance {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 Most of the methods on PerfManager are instance methods and require a reference to a specific instance. There is only one singleton instance of PerfManager available. Use this property to retrieve a reference to it.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -6,12 +6,13 @@ Syntax
 ' Declaration
 
 Public Shared ReadOnly RemoveDateTimeMilliseconds As Boolean
+```
 
+```csharp
 public static readonly bool RemoveDateTimeMilliseconds
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

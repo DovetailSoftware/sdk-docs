@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Sub Initialize( _
-   ByVal _licenseTool_ As [ILicenseTool](FChoice.Common~FChoice.Common.Licensing.ILicenseTool.md) _
+   ByVal _licenseTool_ As ILicenseTool _
 ) 
+```
 
+```csharp
 public static void Initialize( 
-   [ILicenseTool](FChoice.Common~FChoice.Common.Licensing.ILicenseTool.md) _licenseTool_
+   ILicenseTool _licenseTool_
 )
+```
 
 #### Parameters
 
 _licenseTool_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

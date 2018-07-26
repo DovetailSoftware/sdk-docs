@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743828)>
 Property ThrowErrors As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743828)]
 bool ThrowErrors {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property MediumObjid As Integer
+'Declaration
 
+Public Property MediumObjid As Integer
+```
+
+```csharp
 public int MediumObjid {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function TotalCount() As Integer
+```
 
+```csharp
 public int TotalCount()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,8 +9,6 @@ Overload List
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
 [OracleProviderBase Class](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md)  

@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ComVisibleAttribute](#)(False)>
-Public ReadOnly Property CurrentConnection As [IDbConnection](#)
+'Declaration
 
-\[[ComVisibleAttribute](#)(false)\]
-public [IDbConnection](#) CurrentConnection {get;}
+<ComVisibleAttribute(False)>
+Public ReadOnly Property CurrentConnection As IDbConnection
+```
+
+```csharp
+[ComVisibleAttribute(false)]
+public IDbConnection CurrentConnection {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

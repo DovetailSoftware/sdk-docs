@@ -7,15 +7,18 @@ Gets a unique parameter name among all the parameters for all the queries in thi
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetUniqueParamName( _
    ByVal _baseName_ As String _
 ) As String
+```
 
+```csharp
 public string GetUniqueParamName( 
    string _baseName_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ The desired name for the parameter
 The desired name with numbers appended as necessary to guarantee uniqueness
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

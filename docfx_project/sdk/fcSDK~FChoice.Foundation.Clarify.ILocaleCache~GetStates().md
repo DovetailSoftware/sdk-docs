@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Overloads Function GetStates() As [StateCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection.md)
+Overloads Function GetStates() As StateCollection
+```
 
-[StateCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection.md) GetStates()
+```csharp
+StateCollection GetStates()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

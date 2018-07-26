@@ -5,11 +5,14 @@ Gets the unique error code for this exception.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property ErrorCode As Integer
+```
 
+```csharp
 public int ErrorCode {get;}
+```
 
 #### Property Value
 
@@ -24,8 +27,6 @@ Remarks
     
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

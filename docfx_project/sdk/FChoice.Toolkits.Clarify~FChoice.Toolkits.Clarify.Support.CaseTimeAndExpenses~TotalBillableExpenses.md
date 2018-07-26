@@ -7,9 +7,9 @@ Syntax
 ```vbnet
 ' Declaration
 
-Public Property TotalBillableExpenses As [Decimal](#)
+Public Property TotalBillableExpenses As Decimal
 
-public [decimal](#) TotalBillableExpenses {get; set;}
+public decimal TotalBillableExpenses {get; set;}
 
 [!include[Requirements](../partials/requirements.md)]
 

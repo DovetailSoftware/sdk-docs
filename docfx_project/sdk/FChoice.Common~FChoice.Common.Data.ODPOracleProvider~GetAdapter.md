@@ -10,8 +10,6 @@ Overload List
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
 [ODPOracleProvider Class](FChoice.Common~FChoice.Common.Data.ODPOracleProvider.md)  

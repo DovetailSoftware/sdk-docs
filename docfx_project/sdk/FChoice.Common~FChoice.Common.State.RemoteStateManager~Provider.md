@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property Provider As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)
+'Declaration
 
-public [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) Provider {get;}
+Public ReadOnly Property Provider As DbProvider
+```
+
+```csharp
+public DbProvider Provider {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

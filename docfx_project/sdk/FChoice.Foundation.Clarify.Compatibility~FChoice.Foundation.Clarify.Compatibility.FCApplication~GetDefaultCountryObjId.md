@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Function GetDefaultCountryObjId() As Integer
+'Declaration
 
+Public Function GetDefaultCountryObjId() As Integer
+```
+
+```csharp
 public int GetDefaultCountryObjId()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

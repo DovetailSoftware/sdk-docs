@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub Dispose() 
+```
 
+```csharp
 public void Dispose()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

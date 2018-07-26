@@ -10,13 +10,13 @@ Syntax
 'Declaration
 
 Public Overloads Sub CopyTo( _
-   ByVal _otherCol_ As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _
+   ByVal _otherCol_ As DataParameterCollection _
 ) 
 ```
 
 ```csharp
 public void CopyTo( 
-   [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _otherCol_
+   DataParameterCollection _otherCol_
 )
 ```
 

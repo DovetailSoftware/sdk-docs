@@ -3,14 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ObsoleteAttribute](#)("Remote state management support has been marked obsolete.")>
-Public Class OracleStateManager 
-   Inherits [RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)
-   Implements [IStateManager](FChoice.Common~FChoice.Common.State.IStateManager.md) 
+'Declaration
 
-\[[ObsoleteAttribute](#)("Remote state management support has been marked obsolete.")\]
-public class OracleStateManager : [RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md), [IStateManager](FChoice.Common~FChoice.Common.State.IStateManager.md)  
+<ObsoleteAttribute("Remote state management support has been marked obsolete.")>
+Public Class OracleStateManager 
+   Inherits RemoteStateManager
+   Implements IStateManager 
+```
+
+```csharp
+[ObsoleteAttribute("Remote state management support has been marked obsolete.")]
+public class OracleStateManager : RemoteStateManager, IStateManager  
+```
 
 Inheritance Hierarchy
 
@@ -25,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

@@ -7,12 +7,12 @@ Syntax
 
 Public Overloads Function LogSubcaseInternalPhone( _
    ByVal _setupParam_ As [LogSubcaseInternalPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseInternalPhoneSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [LogSubcasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneResult.md)
 
 public [LogSubcasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneResult.md) LogSubcaseInternalPhone( 
    [LogSubcaseInternalPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseInternalPhoneSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

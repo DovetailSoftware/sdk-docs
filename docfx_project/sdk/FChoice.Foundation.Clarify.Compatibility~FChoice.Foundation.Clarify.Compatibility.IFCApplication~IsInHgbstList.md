@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743873)>
 Function IsInHgbstList( _
@@ -14,7 +14,9 @@ Function IsInHgbstList( _
    Optional ByVal _Element3_ As Object, _
    Optional ByVal _Element4_ As Object _
 ) As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743873)]
 bool IsInHgbstList( 
    string _TheElement_,
@@ -24,6 +26,7 @@ bool IsInHgbstList(
    object _Element3_,
    object _Element4_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ _Element3_
 _Element4_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

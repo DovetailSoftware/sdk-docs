@@ -1,23 +1,24 @@
-﻿     StateManagerException Constructor(Int32,String,Object\[\])                                                   
-
-StateManagerException Constructor(Int32,String,Object\[\])
+﻿### StateManagerException Constructor(Int32,String,Object\[\])
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _errorId_ As Integer, _
    ByVal _messageId_ As String, _
    ByVal ParamArray _args_() As Object _
 )
+```
 
+```csharp
 public StateManagerException( 
    int _errorId_,
    string _messageId_,
-   params object\[\] _args_
+   params object[] _args_
 )
+```
 
 #### Parameters
 
@@ -28,8 +29,6 @@ _messageId_
 _args_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

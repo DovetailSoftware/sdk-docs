@@ -5,15 +5,16 @@ Queries will retrieve all relation fields for the Generic
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property IncludeRelations As Boolean
+```
 
+```csharp
 public bool IncludeRelations {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

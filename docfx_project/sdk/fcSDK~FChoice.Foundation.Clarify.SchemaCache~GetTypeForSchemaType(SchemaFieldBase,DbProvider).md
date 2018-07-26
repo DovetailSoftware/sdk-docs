@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetTypeForSchemaType( _
-   ByVal _field_ As [SchemaFieldBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md), _
-   ByVal _provider_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _
-) As [Type](#)
+   ByVal _field_ As SchemaFieldBase, _
+   ByVal _provider_ As DbProvider _
+) As Type
+```
 
-public [Type](#) GetTypeForSchemaType( 
-   [SchemaFieldBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md) _field_,
-   [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _provider_
+```csharp
+public Type GetTypeForSchemaType( 
+   SchemaFieldBase _field_,
+   DbProvider _provider_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _field_
 _provider_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743869)>
 Function active_connection() As ADODB.Connection
+```
 
+```csharp
 [DispIdAttribute(1610743869)]
 ADODB.Connection active_connection()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

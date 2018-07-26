@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overridable Function AreLargeTextFieldsClobs() As Boolean
+```
 
+```csharp
 public virtual bool AreLargeTextFieldsClobs()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Sub Log( _
    ByVal _level_ As [LogLevel](/sdk/FChoice.Common~FChoice.Common.LogLevel.md), _
    ByVal _format_ As String, _
    ByVal ParamArray _args_() As Object _
 ) 
+```
 
+```csharp
 public static void Log( 
    [LogLevel](/sdk/FChoice.Common~FChoice.Common.LogLevel.md) _level_,
    string _format_,
    params object\[\] _args_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _format_
 _args_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

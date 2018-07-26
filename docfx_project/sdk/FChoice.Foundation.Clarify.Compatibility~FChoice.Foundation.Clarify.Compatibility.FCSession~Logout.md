@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub Logout() 
+```
 
+```csharp
 public void Logout()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

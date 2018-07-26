@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Function GetDefaultCountry() As [Country](fcSDK~FChoice.Foundation.Clarify.DataObjects.Country.md)
+Function GetDefaultCountry() As Country
+```
 
-[Country](fcSDK~FChoice.Foundation.Clarify.DataObjects.Country.md) GetDefaultCountry()
+```csharp
+Country GetDefaultCountry()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

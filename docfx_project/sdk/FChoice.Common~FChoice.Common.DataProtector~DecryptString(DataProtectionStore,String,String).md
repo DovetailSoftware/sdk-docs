@@ -11,19 +11,22 @@ Decrypts, using the specified entropy, data which was encoded into a string usi
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function DecryptString( _
    ByVal _keyStore_ As [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md), _
    ByVal _encryptedText_ As String, _
    ByVal _entropy_ As String _
 ) As String
+```
 
+```csharp
 public static string DecryptString( 
    [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md) _keyStore_,
    string _encryptedText_,
    string _entropy_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ This method expects the payload to be a byte array which contains the UTF8-encod
 ![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

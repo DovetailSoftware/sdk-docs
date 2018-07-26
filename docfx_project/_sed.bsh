@@ -26,6 +26,8 @@ grep -rl '\[object\](#)' sdk | xargs sed -i "s/\[object\](#)/object/g"
 grep -rl '\[ParameterDirection\](#)' sdk | xargs sed -i "s/\[ParameterDirection\](#)/ParameterDirection/g"
 grep -rl '\[ICollection\](#)' sdk | xargs sed -i "s/\[ICollection\](#)/ICollection/g"
 grep -rl '\[TimeSpan\](#)' sdk | xargs sed -i "s/\[TimeSpan\](#)/TimeSpan/g"
+grep -rl '\[IDbCommand\](#)' sdk | xargs sed -i "s/\[IDbCommand\](#)/IDbCommand/g"
+grep -rl '\[IDbConnection\](#)' sdk | xargs sed -i "s/\[IDbConnection\](#)/IDbConnection/g"
 
 grep -rl '\[System.Object\](#)' . | xargs sed -i "s/\[System.Object\](#)/\[System.Object\](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.110).aspx)/g"
 

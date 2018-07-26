@@ -5,14 +5,16 @@ Objid of the Employee record created.
 Syntax
 
 ```vbnet
-' Declaration
-Public Property EmployeeObjid As Integer
+'Declaration
 
+Public Property EmployeeObjid As Integer
+```
+
+```csharp
 public int EmployeeObjid {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

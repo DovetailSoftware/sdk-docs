@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function IsValidField( _
    ByVal _objectName_ As String, _
    ByVal _fieldName_ As String, _
    ByRef _isRelation_ As Boolean _
 ) As Boolean
+```
 
+```csharp
 public bool IsValidField( 
    string _objectName_,
    string _fieldName_,
    out bool _isRelation_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _fieldName_
 _isRelation_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

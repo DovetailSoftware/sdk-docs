@@ -5,17 +5,18 @@ The amount for the Opportunity.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property Amount As [Decimal](#)
+<PropertyBitValueAttribute()>
+Public Property Amount As Decimal
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [decimal](#) Amount {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public decimal Amount {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

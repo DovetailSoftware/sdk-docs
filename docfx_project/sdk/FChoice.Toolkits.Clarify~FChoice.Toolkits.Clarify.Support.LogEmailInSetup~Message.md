@@ -5,15 +5,16 @@ Body of the email being logged.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property Message As String
+```
 
+```csharp
 public string Message {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

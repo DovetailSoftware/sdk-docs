@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function YankActionItem( _
    ByVal _setupParam_ As [YankActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankActionItem( 
    [YankActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

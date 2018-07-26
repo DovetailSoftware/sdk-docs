@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Overrides Sub PrepareParameter( _
    ByVal _param_ As IDbDataParameter, _
-   ByVal _cmdType_ As [CommandType](#) _
+   ByVal _cmdType_ As CommandType _
 ) 
+```
 
+```csharp
 public override void PrepareParameter( 
    IDbDataParameter _param_,
-   [CommandType](#) _cmdType_
+   CommandType _cmdType_
 )
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _param_
 _cmdType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

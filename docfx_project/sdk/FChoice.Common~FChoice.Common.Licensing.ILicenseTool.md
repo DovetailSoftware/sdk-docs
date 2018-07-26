@@ -5,10 +5,14 @@ Supports First Choice licensing.
 Syntax
 
 ```vbnet
-' Declaration
-Public Interface ILicenseTool 
+'Declaration
 
+Public Interface ILicenseTool 
+```
+
+```csharp
 public interface ILicenseTool 
+```
 
 Remarks
 
@@ -21,8 +25,6 @@ For internal First Choice use only.
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

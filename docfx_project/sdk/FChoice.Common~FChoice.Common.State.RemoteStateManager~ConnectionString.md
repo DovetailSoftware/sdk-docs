@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property ConnectionString As String
+'Declaration
 
+Public ReadOnly Property ConnectionString As String
+```
+
+```csharp
 public string ConnectionString {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

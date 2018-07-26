@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743889)>
 Function is_rel_exclusive( _
@@ -12,7 +12,9 @@ Function is_rel_exclusive( _
    ByRef _tbl_fld_ As String, _
    ByRef _objid_fld_ As String _
 ) As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743889)]
 bool is_rel_exclusive( 
    int _tbl_num_,
@@ -20,6 +22,7 @@ bool is_rel_exclusive(
    ref string _tbl_fld_,
    ref string _objid_fld_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _tbl_fld_
 _objid_fld_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

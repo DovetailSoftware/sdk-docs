@@ -7,14 +7,18 @@ Obfuscates a database password using the Clarify DB password obfuscation algorit
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function EncryptDBPassword( _
    ByVal _password_ As String _
 ) As String
+```
 
+```csharp
 public string EncryptDBPassword( 
    string _password_
 )
+```
 
 #### Parameters
 
@@ -31,8 +35,6 @@ Remarks
 This password can be used in a connection string to log a user directly into the database.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

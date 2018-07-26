@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly ErrorNumber As Integer
+'Declaration
 
+Public ReadOnly ErrorNumber As Integer
+```
+
+```csharp
 public readonly int ErrorNumber
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

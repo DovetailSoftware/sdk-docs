@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub Log( _
    ByVal _TheMessageType_ As Object, _
    ByVal _TheMessage_ As Object _
 ) 
+```
 
+```csharp
 public void Log( 
    object _TheMessageType_,
    object _TheMessage_
 )
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _TheMessageType_
 _TheMessage_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

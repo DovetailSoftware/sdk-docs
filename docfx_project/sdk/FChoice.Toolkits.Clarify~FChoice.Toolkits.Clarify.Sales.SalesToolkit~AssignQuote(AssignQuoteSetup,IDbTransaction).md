@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function AssignQuote( _
    ByVal _setupParam_ As [AssignQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignQuoteSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AssignQuote( 
    [AssignQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignQuoteSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

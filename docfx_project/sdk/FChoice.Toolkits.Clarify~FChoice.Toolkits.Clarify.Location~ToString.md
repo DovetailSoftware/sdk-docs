@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Overrides Function ToString() As String
+'Declaration
 
+Public Overrides Function ToString() As String
+```
+
+```csharp
 public override string ToString()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

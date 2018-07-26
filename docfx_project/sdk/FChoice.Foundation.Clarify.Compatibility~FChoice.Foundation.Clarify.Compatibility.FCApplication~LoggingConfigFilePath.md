@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property LoggingConfigFilePath As String
+'Declaration
 
+Public Property LoggingConfigFilePath As String
+```
+
+```csharp
 public string LoggingConfigFilePath {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

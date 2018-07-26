@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743870)>
 Function GetTimeZoneList() As ADODB.Recordset
+```
 
+```csharp
 [DispIdAttribute(1610743870)]
 ADODB.Recordset GetTimeZoneList()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

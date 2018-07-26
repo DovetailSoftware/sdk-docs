@@ -3,13 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustInherit Class SchemaFieldBase 
-   Inherits [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)
-   Implements [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md), [FChoice.Foundation.Schema.ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md) 
+   Inherits FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject
+   Implements FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaField 
+```
 
-public abstract class SchemaFieldBase : [FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md), [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md), [FChoice.Foundation.Schema.ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md)  
+```csharp
+public abstract class SchemaFieldBase : FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject, FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaField
+```
 
 Inheritance Hierarchy
 
@@ -27,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

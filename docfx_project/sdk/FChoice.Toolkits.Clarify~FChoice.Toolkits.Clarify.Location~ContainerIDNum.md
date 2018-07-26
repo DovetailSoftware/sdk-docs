@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property ContainerIDNum As String
+'Declaration
 
+Public Property ContainerIDNum As String
+```
+
+```csharp
 public string ContainerIDNum {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,25 +1,24 @@
-﻿     Sort(Int32,Int32,IComparer<IGlobalStringList>) Method                                                   
-
-fcSDK Documentation
-
-Sort(Int32,Int32,IComparer<IGlobalStringList>) Method
+﻿### Sort(Int32,Int32,IComparer<IGlobalStringList>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub Sort( _
    ByVal _index_ As Integer, _
    ByVal _count_ As Integer, _
-   ByVal _comparer_ As [IComparer(Of IGlobalStringList)](#) _
-) 
+   ByVal _comparer_ As IComparer(Of IGlobalStringList) _
+)
+```
 
+```csharp
 void Sort( 
    int _index_,
    int _count_,
-   [IComparer<IGlobalStringList>](#) _comparer_
+   IComparer<IGlobalStringList> _comparer_
 )
+```
 
 #### Parameters
 
@@ -30,8 +29,6 @@ _count_
 _comparer_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

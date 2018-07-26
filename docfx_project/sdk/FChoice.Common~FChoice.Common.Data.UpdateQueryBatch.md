@@ -5,10 +5,14 @@ Helper class for grouping INSERT and UPDATE statements together into a single ba
 Syntax
 
 ```vbnet
-' Declaration
-Public Class UpdateQueryBatch 
+'Declaration
 
+Public Class UpdateQueryBatch 
+```
+
+```csharp
 public class UpdateQueryBatch 
+```
 
 Remarks
 
@@ -26,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

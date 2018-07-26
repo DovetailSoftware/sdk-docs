@@ -3,10 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Interface IStateManager 
+'Declaration
 
+Public Interface IStateManager 
+```
+
+```csharp
 public interface IStateManager 
+```
 
 #### Requirements
 
@@ -15,8 +19,6 @@ public interface IStateManager
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

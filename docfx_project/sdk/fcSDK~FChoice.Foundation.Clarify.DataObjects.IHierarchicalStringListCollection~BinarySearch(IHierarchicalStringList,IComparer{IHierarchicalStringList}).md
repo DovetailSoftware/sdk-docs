@@ -7,17 +7,20 @@ BinarySearch(IHierarchicalStringList,IComparer<IHierarchicalStringList>) Method
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function BinarySearch( _
    ByVal _item_ As [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md), _
    ByVal _comparer_ As [IComparer(Of IHierarchicalStringList)](#) _
 ) As Integer
+```
 
+```csharp
 int BinarySearch( 
    [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md) _item_,
    [IComparer<IHierarchicalStringList>](#) _comparer_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _item_
 _comparer_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

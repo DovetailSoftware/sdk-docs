@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly isParamArray As Boolean
+```
 
+```csharp
 public readonly bool isParamArray
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

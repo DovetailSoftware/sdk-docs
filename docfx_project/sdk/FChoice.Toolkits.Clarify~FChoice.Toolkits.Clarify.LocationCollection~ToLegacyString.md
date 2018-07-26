@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Function ToLegacyString() As String
+'Declaration
 
+Public Function ToLegacyString() As String
+```
+
+```csharp
 public string ToLegacyString()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

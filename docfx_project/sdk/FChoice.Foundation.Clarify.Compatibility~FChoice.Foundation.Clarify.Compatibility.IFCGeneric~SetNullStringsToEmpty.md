@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743823)>
 Property SetNullStringsToEmpty As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743823)]
 bool SetNullStringsToEmpty {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

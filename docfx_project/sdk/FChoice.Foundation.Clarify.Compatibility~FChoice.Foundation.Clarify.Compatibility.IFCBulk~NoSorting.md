@@ -3,16 +3,17 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 <DispIdAttribute(1610743808)>
 Property NoSorting As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743808)]
 bool NoSorting {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property clarify_ver As String
+'Declaration
 
+Public ReadOnly Property clarify_ver As String
+```
+
+```csharp
 public string clarify_ver {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

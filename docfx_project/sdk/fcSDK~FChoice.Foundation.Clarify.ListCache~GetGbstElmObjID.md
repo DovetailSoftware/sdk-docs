@@ -9,16 +9,20 @@ Gets the objid of the specified element in the specified application pop-up list
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetGbstElmObjID( _
    ByVal _listTitle_ As String, _
    ByVal _elementTitle_ As String _
 ) As Integer
+```
 
+```csharp
 public int GetGbstElmObjID( 
    string _listTitle_,
    string _elementTitle_
 )
+```
 
 #### Parameters
 
@@ -39,8 +43,6 @@ Remarks
 If the no list exists with the specified _listTitle_, an exception will be thrown.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

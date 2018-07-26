@@ -5,15 +5,16 @@ Activity code used for act_entry logs generated when creating a communication.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared ReadOnly CreateCommunicationActivityCode As Integer
+```
 
+```csharp
 public static readonly int CreateCommunicationActivityCode
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

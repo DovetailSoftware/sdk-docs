@@ -9,17 +9,20 @@ Gets whether or not the specified element value exists in a given application po
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function IsInGbstList( _
    ByVal _listTitle_ As String, _
    ByVal _element_ As String _
 ) As Boolean
+```
 
+```csharp
 public bool IsInGbstList( 
    string _listTitle_,
    string _element_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 If no list is found with the title of _listTitle_, or the value does not exist in this list, false is returned. Otherwise, true is returned.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

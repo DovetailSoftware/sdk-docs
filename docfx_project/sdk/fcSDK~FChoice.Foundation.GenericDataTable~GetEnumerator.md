@@ -5,15 +5,16 @@ Returns an enumerator that can iterate through the [GenericDataTable](fcSDK~FCho
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Function GetEnumerator() As [IEnumerator](#)
+Public Function GetEnumerator() As IEnumerator
+```
 
-public [IEnumerator](#) GetEnumerator()
+```csharp
+public IEnumerator GetEnumerator()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

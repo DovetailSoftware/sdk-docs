@@ -11,18 +11,22 @@ Checks to see whether the given parameter is null (**Nothing** in Visual Basic).
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Sub CheckIsNull( _
    ByVal _errorId_ As Integer, _
    ByVal _paramName_ As String, _
    ByVal _val_ As Object _
 ) 
+```
 
+```csharp
 public static void CheckIsNull( 
    int _errorId_,
    string _paramName_,
    object _val_
 )
+```
 
 #### Parameters
 
@@ -49,8 +53,6 @@ Remarks
 If **_val_** is null (**Nothing** in Visual Basic), and FCArgumentException is thrown using the supplied **_errorId_**.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743839)>
 Function FileExists( _
    ByVal _path_ As String _
 ) As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743839)]
 bool FileExists( 
    string _path_
 )
+```
 
 #### Parameters
 
 _path_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ComVisibleAttribute](#)(False)>
-Public ReadOnly Property DbHelper As [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md)
+'Declaration
 
-\[[ComVisibleAttribute](#)(false)\]
-public [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) DbHelper {get;}
+<ComVisibleAttribute(False)>
+Public ReadOnly Property DbHelper As SqlHelper
+```
+
+```csharp
+[ComVisibleAttribute(false)]
+public SqlHelper DbHelper {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

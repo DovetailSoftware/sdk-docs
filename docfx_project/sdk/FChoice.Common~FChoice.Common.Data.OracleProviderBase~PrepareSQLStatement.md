@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overrides Function PrepareSQLStatement( _
    ByVal _sqlStmt_ As String, _
-   ByVal _cmdType_ As [CommandType](#), _
-   ByVal _commandParams_ As [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _
+   ByVal _cmdType_ As CommandType, _
+   ByVal _commandParams_ As DataParameterCollection _
 ) As String
+```
 
+```csharp
 public override string PrepareSQLStatement( 
    string _sqlStmt_,
-   [CommandType](#) _cmdType_,
-   [DataParameterCollection](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md) _commandParams_
+   CommandType _cmdType_,
+   DataParameterCollection _commandParams_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _cmdType_
 _commandParams_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

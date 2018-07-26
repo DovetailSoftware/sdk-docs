@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustOverride ReadOnly Property SearchableFieldPrefix As String
+```
 
+```csharp
 public abstract string SearchableFieldPrefix {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

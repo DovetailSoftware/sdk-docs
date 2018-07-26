@@ -5,19 +5,20 @@ Returns the login name for the session's logged-in user.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property UserName As String
+```
 
+```csharp
 public string UserName {get;}
+```
 
 #### Property Value
 
 Returns the login name for the session's logged-in user.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

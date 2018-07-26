@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743844)>
 Function RankIsInGbstLst( _
    ByVal _ListName_ As String, _
    ByVal _Rank_ As Integer _
 ) As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743844)]
 bool RankIsInGbstLst( 
    string _ListName_,
    int _Rank_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _ListName_
 _Rank_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

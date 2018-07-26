@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[ComVisibleAttribute](#)(False)>
+<ComVisibleAttribute(False)>
 Public Sub let_Fields( _
    ByVal _index_ As Object, _
    ByVal _newValue_ As Object _
 ) 
+```
 
-\[[ComVisibleAttribute](#)(false)\]
+```csharp
+[ComVisibleAttribute(false)]
 public void let_Fields( 
    object _index_,
    object _newValue_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _index_
 _newValue_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

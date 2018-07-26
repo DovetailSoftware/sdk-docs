@@ -5,13 +5,16 @@ Collection of LicensesHolds a collection of valid licenses.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 <DefaultMemberAttribute("Item")>
 Public NotInheritable Class LicenseCollection 
-   Inherits [System.Collections.CollectionBase](#)
+   Inherits System.Collections.CollectionBase
+```
 
+```csharp
 [DefaultMemberAttribute("Item")]
-public sealed class LicenseCollection : [System.Collections.CollectionBase](#) 
+public sealed class LicenseCollection : System.Collections.CollectionBase 
+```
 
 Inheritance Hierarchy
 
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
-
-
 
 #### Reference
 

@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743834)>
 ReadOnly Property hist_change As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743834)]
 bool hist_change {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

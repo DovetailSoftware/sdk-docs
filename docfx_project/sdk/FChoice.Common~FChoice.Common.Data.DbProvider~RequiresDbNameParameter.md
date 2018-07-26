@@ -5,10 +5,14 @@ Gets whether or not this provider requires the "dbname" argument for the [Create
 Syntax
 
 ```vbnet
-' Declaration
-Public MustOverride ReadOnly Property RequiresDbNameParameter As Boolean
+'Declaration
 
+Public MustOverride ReadOnly Property RequiresDbNameParameter As Boolean
+```
+
+```csharp
 public abstract bool RequiresDbNameParameter {get;}
+```
 
 #### Property Value
 
@@ -19,8 +23,6 @@ Remarks
 This property is helpful for application developers writing utilities and user interfaces for collecting database connection information from a user in a database-agnostic way. This allows programmatic control on whether a "DB Name:" field should be displayed or not.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

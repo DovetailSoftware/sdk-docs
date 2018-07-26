@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function VerifyLicense( _
    ByVal _productId_ As Integer _
 ) As Boolean
+```
 
+```csharp
 public bool VerifyLicense( 
    int _productId_
 )
+```
 
 #### Parameters
 
 _productId_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

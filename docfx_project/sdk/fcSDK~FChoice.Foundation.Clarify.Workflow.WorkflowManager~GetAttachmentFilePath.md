@@ -3,20 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetAttachmentFilePath( _
    ByVal _idNumber_ As String, _
    ByVal _basePath_ As String, _
    ByVal _fileName_ As String, _
-   ByVal _attachMode_ As [AttachmentFolderMode](fcSDK~FChoice.Foundation.Clarify.Workflow.AttachmentFolderMode.md) _
+   ByVal _attachMode_ As AttachmentFolderMode _
 ) As String
+```
 
+```csharp
 public string GetAttachmentFilePath( 
    string _idNumber_,
    string _basePath_,
    string _fileName_,
-   [AttachmentFolderMode](fcSDK~FChoice.Foundation.Clarify.Workflow.AttachmentFolderMode.md) _attachMode_
+   AttachmentFolderMode _attachMode_
 )
+```
 
 #### Parameters
 
@@ -29,8 +33,6 @@ _fileName_
 _attachMode_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

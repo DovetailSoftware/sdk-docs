@@ -14,10 +14,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Parameters](FChoice.Common~FChoice.Common.Data.SqlHelper~Parameters.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Transaction](FChoice.Common~FChoice.Common.Data.SqlHelper~Transaction.md) |   |
 
-
-
-
-
 #### Reference
 
 [SqlHelper Class](FChoice.Common~FChoice.Common.Data.SqlHelper.md)  

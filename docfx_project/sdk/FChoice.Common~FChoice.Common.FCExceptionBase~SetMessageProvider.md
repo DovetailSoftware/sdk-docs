@@ -7,14 +7,18 @@ Sets the [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProv
 Syntax
 
 ```vbnet
-' Declaration
-Public Shared Sub SetMessageProvider( _
-   ByVal _provider_ As [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) _
-) 
+'Declaration
 
+Public Shared Sub SetMessageProvider( _
+   ByVal _provider_ As IErrorMessageProvider _
+) 
+```
+
+```csharp
 public static void SetMessageProvider( 
-   [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) _provider_
+   IErrorMessageProvider _provider_
 )
+```
 
 #### Parameters
 
@@ -27,8 +31,6 @@ Remarks
 Setting this property will override all error message resolution in for all exceptions deriving from this class. Please see the documentation for [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) on the details of providing custom error messages.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

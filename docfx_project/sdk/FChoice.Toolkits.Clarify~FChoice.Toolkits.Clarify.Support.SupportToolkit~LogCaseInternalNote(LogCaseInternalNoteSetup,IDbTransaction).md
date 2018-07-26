@@ -7,12 +7,12 @@ Syntax
 
 Public Overloads Function LogCaseInternalNote( _
    ByVal _setupParam_ As [LogCaseInternalNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalNoteSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [LogCaseNoteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteResult.md)
 
 public [LogCaseNoteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteResult.md) LogCaseInternalNote( 
    [LogCaseInternalNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalNoteSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function IsSessionValid( _
    ByVal _sessionID_ As Guid _
 ) As Boolean
+```
 
+```csharp
 public bool IsSessionValid( 
    Guid _sessionID_
 )
+```
 
 #### Parameters
 
 _sessionID_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

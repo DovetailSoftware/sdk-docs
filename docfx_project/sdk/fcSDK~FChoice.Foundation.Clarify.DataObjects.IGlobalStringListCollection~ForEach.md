@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Sub ForEach( _
-   ByVal _action_ As [Action(Of IGlobalStringList)](#) _
-) 
-
-void ForEach( 
-   [Action<IGlobalStringList>](#) _action_
+   ByVal _action_ As Action(Of IGlobalStringList) _
 )
+```
+
+```csharp
+void ForEach( 
+   Action<IGlobalStringList> _action_
+)
+```
 
 #### Parameters
 
 _action_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function RankIsInGbstLst( _
    ByVal _listName_ As String, _
    ByVal _rank_ As Integer _
 ) As Boolean
+```
 
+```csharp
 public bool RankIsInGbstLst( 
    string _listName_,
    int _rank_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _listName_
 _rank_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

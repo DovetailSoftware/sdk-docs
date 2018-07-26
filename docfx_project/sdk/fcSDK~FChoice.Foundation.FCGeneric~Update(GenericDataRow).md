@@ -2,20 +2,23 @@
 
 Row being updated.
 
-Updates changes to a single [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)
+Updates changes to a single GenericDataRow
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Sub Update( _
-   ByVal _row_ As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) _
+   ByVal _row_ As GenericDataRow _
 ) 
+```
 
+```csharp
 public void Update( 
-   [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) _row_
+   GenericDataRow _row_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ Remarks
 This method commits any changes to this to the database.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

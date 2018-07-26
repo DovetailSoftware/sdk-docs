@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub TraverseFromRoot( _
    ByVal _RootObjid_ As Integer, _
    ByVal _TblName_ As String, _
    ByVal _RootRel_ As String _
 ) 
+```
 
+```csharp
 public void TraverseFromRoot( 
    int _RootObjid_,
    string _TblName_,
    string _RootRel_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _TblName_
 _RootRel_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,15 +5,16 @@ Session option that cues [Generics](fcSDK~FChoice.Foundation.FCGeneric.md) to m
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property EmptyNullStrings As Boolean
+```
 
+```csharp
 public bool EmptyNullStrings {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

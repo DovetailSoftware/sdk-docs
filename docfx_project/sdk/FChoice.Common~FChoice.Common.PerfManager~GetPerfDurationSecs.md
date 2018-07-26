@@ -7,15 +7,18 @@ Returns the number of seconds that have elapsed since a specified time
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function GetPerfDurationSecs( _
-   ByVal _startTicks_ As [Long](#) _
-) As [Decimal](#)
+   ByVal _startTicks_ As Long _
+) As Decimal
+```
 
-public static [decimal](#) GetPerfDurationSecs( 
-   [long](#) _startTicks_
+```csharp
+public static decimal GetPerfDurationSecs( 
+   long _startTicks_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ See the [GetPerfTimer Method](FChoice.Common~FChoice.Common.PerfManager~GetPerfT
 For more information on instrumenting code to performing timing and performance testing, please see [MSKB Article 172338](http://support.microsoft.com/kb/q172338/) entitled "How to use QueryPerformanceCounter to Time Code."
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

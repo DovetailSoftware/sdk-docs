@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function AddSitePartToContract( _
    ByVal _setupParam_ As [AddSitePartToContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddSitePartToContract( 
    [AddSitePartToContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

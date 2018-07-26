@@ -5,11 +5,14 @@ Retrieves the current configuration values or loads new ones if no current ones 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function LoadEnvironmentSettings() As NameValueCollection
+```
 
+```csharp
 public static NameValueCollection LoadEnvironmentSettings()
+```
 
 #### Return Value
 
@@ -20,8 +23,6 @@ Remarks
 This method will not force a reload of configuration values and will check for required parameters
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

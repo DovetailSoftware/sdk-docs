@@ -4,21 +4,25 @@ The row which the current **GenericDataRow** is being related to.
 
 The relation name
 
-Relate a given row to this [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) via a [SchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) name.
+Relate a given row to this GenericDataRow via a [SchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) name.
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub RelateRecord( _
-   ByVal _otherRow_ As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md), _
+   ByVal _otherRow_ As GenericDataRow, _
    ByVal _relationName_ As String _
 ) 
+```
 
+```csharp
 public void RelateRecord( 
-   [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) _otherRow_,
+   GenericDataRow _otherRow_,
    string _relationName_
 )
+```
 
 #### Parameters
 
@@ -35,8 +39,6 @@ Remarks
 The **relationName** must be a valid relation available between the two Generic's object types.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

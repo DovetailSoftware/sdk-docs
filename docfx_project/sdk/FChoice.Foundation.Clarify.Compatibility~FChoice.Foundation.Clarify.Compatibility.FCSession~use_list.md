@@ -3,21 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub use_list( _
-   ByVal _generic_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md), _
+   ByVal _generic_ As IFCGeneric, _
    ByVal _fieldList_ As Object, _
    ByVal _typeList_ As Object, _
    ByVal _valueList_ As Object _
 ) 
+```
 
+```csharp
 public void use_list( 
-   [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _generic_,
+   IFCGeneric _generic_,
    object _fieldList_,
    object _typeList_,
    object _valueList_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _typeList_
 _valueList_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

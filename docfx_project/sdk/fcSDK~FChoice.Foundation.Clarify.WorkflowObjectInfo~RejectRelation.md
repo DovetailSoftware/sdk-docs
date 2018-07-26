@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property RejectRelation As String
+'Declaration
 
+Public Property RejectRelation As String
+```
+
+```csharp
 public string RejectRelation {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

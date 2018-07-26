@@ -5,11 +5,14 @@ Sets whether or not this **FCGeneric** will convert a null reference (**Nothing*
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property SetNullStringsToEmpty As Boolean
+```
 
+```csharp
 public bool SetNullStringsToEmpty {get; set;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 This setting only affects Oracle **DbProviders**.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

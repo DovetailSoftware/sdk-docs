@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Overridable Function HasPermission( _
    ByVal _permission_ As String _
 ) As Boolean
+```
 
+```csharp
 public virtual bool HasPermission( 
    string _permission_
 )
+```
 
 #### Parameters
 
 _permission_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

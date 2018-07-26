@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743812)>
 Property ConvertTimeZone As Boolean
+```
 
+```csharp
 [DispIdAttribute(1610743812)]
 bool ConvertTimeZone {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

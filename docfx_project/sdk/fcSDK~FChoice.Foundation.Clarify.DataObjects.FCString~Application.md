@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property Application As String
+'Declaration
 
+Public ReadOnly Property Application As String
+```
+
+```csharp
 public string Application {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

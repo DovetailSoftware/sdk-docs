@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property NoSorting As Boolean
+'Declaration
 
+Public Property NoSorting As Boolean
+```
+
+```csharp
 public bool NoSorting {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

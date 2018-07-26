@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Function MapFCNameToFCNumber( _
    ByVal _fcName_ As String _
 ) As Integer
+```
 
+```csharp
 public static int MapFCNameToFCNumber( 
    string _fcName_
 )
+```
 
 #### Parameters
 
 _fcName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Const FC_CACHE_PATH_SUFFIX As String
+```
 
+```csharp
 public const string FC_CACHE_PATH_SUFFIX
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

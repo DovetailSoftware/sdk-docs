@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function AcceptCR( _
    ByVal _setupParam_ As [AcceptCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AcceptCRSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AcceptCR( 
    [AcceptCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AcceptCRSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

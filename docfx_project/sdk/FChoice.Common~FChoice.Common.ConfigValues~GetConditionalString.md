@@ -9,8 +9,6 @@ Overload List
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
 [ConfigValues Class](FChoice.Common~FChoice.Common.ConfigValues.md)  

@@ -1,29 +1,26 @@
-﻿     CopyTo(IGlobalStringList\[\]) Method                                                   
-
-fcSDK Documentation
-
-CopyTo(IGlobalStringList\[\]) Method
+﻿### CopyTo(IGlobalStringList\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Sub CopyTo( _
-   ByVal _array_() As [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) _
-) 
-
-void CopyTo( 
-   [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md)\[\] _array_
+   ByVal _array_() As IGlobalStringList _
 )
+```
+
+```csharp
+void CopyTo( 
+   IGlobalStringList[] _array_
+)
+```
 
 #### Parameters
 
 _array_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

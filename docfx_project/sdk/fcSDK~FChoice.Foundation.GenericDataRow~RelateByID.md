@@ -4,21 +4,25 @@ Unique Id of a row you wish to relate to this **GenericDataRow.**
 
 The relation name
 
-Relate a unique identifier to this [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) via a [SchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) name.
+Relate a unique identifier to this GenericDataRow via a [SchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) name.
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Sub RelateByID( _
    ByVal _uniqueId_ As Object, _
    ByVal _relationName_ As String _
 ) 
+```
 
+```csharp
 public void RelateByID( 
    object _uniqueId_,
    string _relationName_
 )
+```
 
 #### Parameters
 
@@ -31,8 +35,6 @@ _relationName_
 The relation name
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

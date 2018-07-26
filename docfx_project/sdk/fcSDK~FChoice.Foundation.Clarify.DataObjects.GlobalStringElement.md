@@ -3,13 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class GlobalStringElement 
-   Inherits [ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md)
-   Implements [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md), [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
+   Inherits ClarifyDataObject
+   Implements IGlobalStringElement, FChoice.Foundation.DataObjects.IDataObject 
+```
 
-public class GlobalStringElement : [ClarifyDataObject](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.md), [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md), [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md)  
+```csharp
+public class GlobalStringElement : ClarifyDataObject, IGlobalStringElement, FChoice.Foundation.DataObjects.IDataObject  
+```
 
 Inheritance Hierarchy
 
@@ -25,8 +28,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

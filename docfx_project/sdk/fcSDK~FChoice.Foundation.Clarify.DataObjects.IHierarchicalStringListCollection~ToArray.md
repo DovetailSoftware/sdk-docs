@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Function ToArray() As [IHierarchicalStringList()](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md)
+Function ToArray() As IHierarchicalStringList()
+```
 
-[IHierarchicalStringList\[\]](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md) ToArray()
+```csharp
+IHierarchicalStringList[] ToArray()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

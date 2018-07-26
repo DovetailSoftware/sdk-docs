@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly AltType As String
+```
 
+```csharp
 public readonly string AltType
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

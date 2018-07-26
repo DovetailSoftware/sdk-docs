@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function ChangeCaseContact( _
    ByVal _setupParam_ As [ChangeCaseContactSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
 
 public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeCaseContact( 
    [ChangeCaseContactSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters

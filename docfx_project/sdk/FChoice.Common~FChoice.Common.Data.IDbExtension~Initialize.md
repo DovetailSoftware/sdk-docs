@@ -9,17 +9,20 @@ Initialize is called by the DbProvider when loading extensions. This method allo
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Sub Initialize( _
    ByVal _provider_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md), _
-   ByVal _extensionConfig_ As [XmlNode](#) _
+   ByVal _extensionConfig_ As XmlNode _
 ) 
+```
 
+```csharp
 void Initialize( 
    [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _provider_,
-   [XmlNode](#) _extensionConfig_
+   XmlNode _extensionConfig_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _extensionConfig_
 The XML configuration specified for this extension in the application configuration file
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

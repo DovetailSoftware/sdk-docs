@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ComVisibleAttribute](#)(False)>
-<[GuidAttribute](#)("4EC21DC6-3E55-3633-B289-FCC59D5AF61C")>
+'Declaration
+<ComVisibleAttribute(False)>
+<GuidAttribute("4EC21DC6-3E55-3633-B289-FCC59D5AF61C")>
 <SerializableAttribute()>
 Public Class CompatibilityException 
-   Inherits [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)
+   Inherits FChoice.Common.FCExceptionBase
+```
 
-\[[ComVisibleAttribute](#)(false)\]
-\[[GuidAttribute](#)("4EC21DC6-3E55-3633-B289-FCC59D5AF61C")\]
+```csharp
+[ComVisibleAttribute(false)]
+[GuidAttribute("4EC21DC6-3E55-3633-B289-FCC59D5AF61C")]
 [SerializableAttribute()]
-public class CompatibilityException : [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) 
+public class CompatibilityException : FChoice.Common.FCExceptionBase 
+```
 
 Inheritance Hierarchy
 
@@ -31,8 +34,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
-
-
 
 #### Reference
 

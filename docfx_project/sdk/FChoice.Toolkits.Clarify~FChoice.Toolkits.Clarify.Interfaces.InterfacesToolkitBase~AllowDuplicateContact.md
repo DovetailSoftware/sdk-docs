@@ -5,11 +5,14 @@ Should the [CreateContact](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Int
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property AllowDuplicateContact As Boolean
+```
 
+```csharp
 public bool AllowDuplicateContact {get; set;}
+```
 
 #### Property Value
 
@@ -23,8 +26,6 @@ Default value is **false.**
 Please note this only works if the unique index (defined by default in Clarify) to be non-unique.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

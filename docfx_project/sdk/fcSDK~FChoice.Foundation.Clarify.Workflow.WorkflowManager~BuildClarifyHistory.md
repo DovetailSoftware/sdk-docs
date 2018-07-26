@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function BuildClarifyHistory( _
    ByVal _currentHistory_ As String, _
    ByVal _appendHistory_ As String _
 ) As String
+```
 
+```csharp
 public static string BuildClarifyHistory( 
    string _currentHistory_,
    string _appendHistory_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _currentHistory_
 _appendHistory_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

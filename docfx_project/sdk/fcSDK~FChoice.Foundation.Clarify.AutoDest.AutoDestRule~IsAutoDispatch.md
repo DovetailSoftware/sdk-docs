@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property IsAutoDispatch As Boolean
+'Declaration
 
+Public ReadOnly Property IsAutoDispatch As Boolean
+```
+
+```csharp
 public bool IsAutoDispatch {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

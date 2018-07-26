@@ -5,15 +5,16 @@ Session option which makes Generics have [IsDistinct](fcSDK~FChoice.Foundation.F
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property DefaultDistinctGenerics As Boolean
+```
 
+```csharp
 public bool DefaultDistinctGenerics {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

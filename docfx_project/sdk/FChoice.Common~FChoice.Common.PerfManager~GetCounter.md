@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetCounter( _
    ByVal _counterName_ As String _
-) As [PerformanceCounter](#)
+) As PerformanceCounter
+```
 
-public [PerformanceCounter](#) GetCounter( 
+```csharp
+public PerformanceCounter GetCounter( 
    string _counterName_
 )
+```
 
 #### Parameters
 
 _counterName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

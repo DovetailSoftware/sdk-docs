@@ -5,19 +5,20 @@ Name of the database user the application object is using to connect to the data
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property DBUserName As String
+```
 
+```csharp
 public string DBUserName {get;}
+```
 
 #### Property Value
 
 Application database username
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

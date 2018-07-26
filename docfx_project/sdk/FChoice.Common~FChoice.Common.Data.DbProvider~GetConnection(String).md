@@ -7,15 +7,18 @@ Gets an [IDbConnection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemD
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads MustOverride Function GetConnection( _
    ByVal _conStr_ As String _
-) As [IDbConnection](#)
+) As IDbConnection
+```
 
-public abstract [IDbConnection](#) GetConnection( 
+```csharp
+public abstract IDbConnection GetConnection( 
    string _conStr_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ The connection instance is not open by default. In order to open the connection,
 To generate connection strings in a database-agnostic fashion, please see the [ConstructConnectionString](FChoice.Common~FChoice.Common.Data.DbProvider~ConstructConnectionString.md) and the [CreateConnectionString](FChoice.Common~FChoice.Common.Data.DbProvider~CreateConnectionString.md) methods.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

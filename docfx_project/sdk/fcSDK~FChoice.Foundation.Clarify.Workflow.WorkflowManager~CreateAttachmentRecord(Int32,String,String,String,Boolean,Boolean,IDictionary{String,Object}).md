@@ -1,13 +1,9 @@
-﻿     CreateAttachmentRecord(Int32,String,String,String,Boolean,Boolean,IDictionary<String,Object>) Method                                                   
-
-fcSDK Documentation
-
-CreateAttachmentRecord(Int32,String,String,String,Boolean,Boolean,IDictionary<String,Object>) Method
+﻿### CreateAttachmentRecord(Int32,String,String,String,Boolean,Boolean,IDictionary<String,Object>) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateAttachmentRecord( _
    ByVal _objectObjId_ As Integer, _
@@ -18,7 +14,9 @@ Public Overloads Function CreateAttachmentRecord( _
    ByVal _createActEntry_ As Boolean, _
    ByVal _docPathFields_ As [IDictionary(Of String,Object)](#) _
 ) As Integer
+```
 
+```csharp
 public int CreateAttachmentRecord( 
    int _objectObjId_,
    string _attachmentName_,
@@ -28,6 +26,7 @@ public int CreateAttachmentRecord(
    bool _createActEntry_,
    [IDictionary<string,object>](#) _docPathFields_
 )
+```
 
 #### Parameters
 
@@ -46,8 +45,6 @@ _createActEntry_
 _docPathFields_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

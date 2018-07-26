@@ -5,14 +5,16 @@ The unique identifier for the communication to update.
 Syntax
 
 ```vbnet
-' Declaration
-Public Property CommunicationObjid As Integer
+'Declaration
 
+Public Property CommunicationObjid As Integer
+```
+
+```csharp
 public int CommunicationObjid {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

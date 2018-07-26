@@ -19,7 +19,7 @@ Initializes a new instance of the CreatePriceInstanceSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -27,21 +27,24 @@ Public Function New( _
    ByVal _partDomain_ As String, _
    ByVal _partRevision_ As String, _
    ByVal _priceProgram_ As String, _
-   ByVal _priceType_ As [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md), _
+   ByVal _priceType_ As PriceInstanceType, _
    ByVal _pricedQuantity_ As Integer, _
-   ByVal _price_ As [Decimal](#) _
+   ByVal _price_ As Decimal _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreatePriceInstanceSetup( 
    string _partNumber_,
    string _partDomain_,
    string _partRevision_,
    string _priceProgram_,
-   [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md) _priceType_,
+   PriceInstanceType _priceType_,
    int _pricedQuantity_,
-   [decimal](#) _price_
+   decimal _price_
 )
+```
 
 #### Parameters
 
@@ -49,7 +52,7 @@ _partNumber_
 
 Part number to price
 
-_partDomain_
+_patDomain_
 
 Domain of the part
 
@@ -74,8 +77,6 @@ _price_
 Price of the part
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

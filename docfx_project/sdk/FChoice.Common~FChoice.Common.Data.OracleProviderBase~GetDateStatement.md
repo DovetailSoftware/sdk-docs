@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overrides Function GetDateStatement() As String
+```
 
+```csharp
 public override string GetDateStatement()
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

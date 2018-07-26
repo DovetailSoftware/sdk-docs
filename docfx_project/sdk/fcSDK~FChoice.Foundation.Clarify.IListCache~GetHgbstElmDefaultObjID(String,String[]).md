@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function GetHgbstElmDefaultObjID( _
    ByVal _listTitle_ As String, _
    ByVal ParamArray _elementTitles_() As String _
 ) As Integer
+```
 
+```csharp
 int GetHgbstElmDefaultObjID( 
    string _listTitle_,
    params string[] _elementTitles_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _listTitle_
 _elementTitles_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

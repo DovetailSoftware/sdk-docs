@@ -5,11 +5,14 @@ This class is not currently used and is intended for future products.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public NotInheritable Class FCTypes 
+```
 
+```csharp
 public sealed class FCTypes 
+```
 
 Inheritance Hierarchy
 

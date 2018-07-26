@@ -13,12 +13,12 @@ Syntax
 
 Public Overloads Function GetCaseTimeAndExpenses( _
    ByVal _setupParam_ As [GetCaseTimeAndExpensesSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesSetup.md), _
-   ByVal _transaction_ As [IDbTransaction](#) _
+   ByVal _transaction_ As IDbTransaction _
 ) As [GetCaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult.md)
 
 public [GetCaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult.md) GetCaseTimeAndExpenses( 
    [GetCaseTimeAndExpensesSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesSetup.md) _setupParam_,
-   [IDbTransaction](#) _transaction_
+   IDbTransaction _transaction_
 )
 
 #### Parameters
