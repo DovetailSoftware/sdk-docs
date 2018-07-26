@@ -5,17 +5,18 @@ Total weight of the pieces being shipped for this Part Request
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property TotalWeight As Double
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public double TotalWeight {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

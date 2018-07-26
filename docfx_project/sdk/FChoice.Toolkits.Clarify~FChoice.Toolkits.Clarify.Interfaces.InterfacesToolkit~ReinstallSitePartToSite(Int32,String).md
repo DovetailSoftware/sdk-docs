@@ -9,17 +9,20 @@ Re-Install a Site Part under a Site. This overload takes a set of required param
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReinstallSitePartToSite( _
    ByVal _sitePartObjid_ As Integer, _
    ByVal _siteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReinstallSitePartToSite( 
+```csharp
+public ToolkitResult ReinstallSitePartToSite( 
    int _sitePartObjid_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ Identifier of the Site where the Site Part will be re-installed
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

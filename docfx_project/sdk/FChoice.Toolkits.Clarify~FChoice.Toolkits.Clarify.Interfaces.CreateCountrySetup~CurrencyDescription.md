@@ -5,20 +5,22 @@ Currency description
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property CurrencyDescription As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string CurrencyDescription {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Only used if a new Currency is created by entering a [Currency](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCountrySetup~Currency.md) name that is not already present.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

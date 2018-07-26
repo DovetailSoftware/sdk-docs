@@ -9,19 +9,22 @@ Initializes a new instance of the UnlinkCRFromSolutionSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _crIDNum_ As String, _
    ByVal _solutionIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UnlinkCRFromSolutionSetup( 
    string _crIDNum_,
    string _solutionIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _solutionIDNum_
 Identifier of the Solution to unlink from the CR
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

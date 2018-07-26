@@ -5,10 +5,14 @@ Used by the [ReinstallSitePartToSite](FChoice.Toolkits.Clarify~FChoice.Toolkits
 Syntax
 
 ```vbnet
-' Declaration
-Public Class ReinstallSitePartToSiteSetup 
+'Declaration
 
-public class ReinstallSitePartToSiteSetup 
+Public Class ReinstallSitePartToSiteSetup 
+```
+
+```csharp
+public class ReinstallSitePartToSiteSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

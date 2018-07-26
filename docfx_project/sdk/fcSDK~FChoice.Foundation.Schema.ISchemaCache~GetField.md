@@ -3,16 +3,19 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function GetField( _
    ByVal _objetName_ As String, _
    ByVal _fieldName_ As String _
-) As [ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md)
+) As ISchemaField
+```
 
-[ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md) GetField( 
+```csharp
+ISchemaField GetField( 
    string _objetName_,
    string _fieldName_
 )
+```
 
 #### Parameters
 
@@ -21,8 +24,6 @@ _objetName_
 _fieldName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

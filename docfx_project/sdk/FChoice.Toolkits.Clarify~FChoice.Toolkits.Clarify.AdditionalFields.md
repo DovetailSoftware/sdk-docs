@@ -5,13 +5,16 @@ Many APIs exposes an instance of this class which is used to allow setting of us
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class AdditionalFields 
+```
 
-public class AdditionalFields 
+```csharp
+public class AdditionalFields
+```
 
-Remarks
+#### Remarks
 
 To set an additional field simply call the [Append](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields~Append.md) method on the API's AdditionalField property.
 
@@ -27,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

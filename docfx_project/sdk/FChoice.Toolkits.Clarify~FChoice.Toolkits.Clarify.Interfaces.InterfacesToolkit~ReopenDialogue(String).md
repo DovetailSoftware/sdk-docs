@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReopenDialogue( _
    ByVal _idNumber_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReopenDialogue( 
+```csharp
+public ToolkitResult ReopenDialogue( 
    string _idNumber_
 )
+```
 
 #### Parameters
 
 _idNumber_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

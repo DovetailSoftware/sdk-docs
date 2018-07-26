@@ -5,16 +5,18 @@ Contract Identifier.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property ContractIDNum As String
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<AttributeUsageAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)>
+Public Property ContractIDNum As String
+```
+
+```csharp
+[PropertyBitValueAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)]
 public string ContractIDNum {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

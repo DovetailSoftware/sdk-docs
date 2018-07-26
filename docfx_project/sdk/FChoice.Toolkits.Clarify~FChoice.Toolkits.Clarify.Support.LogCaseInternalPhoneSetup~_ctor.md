@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -12,7 +12,9 @@ Public Function New( _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public LogCaseInternalPhoneSetup( 
    string _caseIDNum_,
@@ -20,6 +22,7 @@ public LogCaseInternalPhoneSetup(
    string _contactLastName_,
    string _contactPhone_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _contactLastName_
 _contactPhone_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,17 +5,18 @@ Element from the 'Terms and Conditions' user list. If not set, the default list
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property Terms As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string Terms {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,17 +5,18 @@ Offline privilege class
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property OfflinePrivilegeClass As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string OfflinePrivilegeClass {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

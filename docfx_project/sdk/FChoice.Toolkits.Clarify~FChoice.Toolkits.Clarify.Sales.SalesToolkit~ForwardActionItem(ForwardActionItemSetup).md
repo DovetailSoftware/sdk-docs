@@ -7,15 +7,18 @@ Reject-forward the ActionItem from one queue to another. This overload takes a s
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ForwardActionItem( _
-   ByVal _setupParam_ As [ForwardActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ForwardActionItemSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardActionItem( 
-   [ForwardActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup.md) _setupParam_
+```csharp
+public ToolkitResult ForwardActionItem( 
+   ForwardActionItemSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The ActionItem must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

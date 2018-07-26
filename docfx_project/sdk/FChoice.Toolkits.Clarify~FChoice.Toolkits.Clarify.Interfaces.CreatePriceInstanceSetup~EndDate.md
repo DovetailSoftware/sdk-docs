@@ -5,17 +5,18 @@ End date of the price instance, If not set, the end date of the price program is
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property EndDate As Date
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public DateTime EndDate {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

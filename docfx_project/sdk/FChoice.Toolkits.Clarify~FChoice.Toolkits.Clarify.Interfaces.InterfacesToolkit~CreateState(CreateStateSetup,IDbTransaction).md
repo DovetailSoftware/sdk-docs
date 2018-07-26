@@ -9,17 +9,20 @@ Create a State (Provence) and relate it to an existing Country. This overload ta
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateState( _
-   ByVal _setupParam_ As [CreateStateSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateStateSetup.md), _
+   ByVal _setupParam_ As CreateStateSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateState( 
-   [CreateStateSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateStateSetup.md) _setupParam_,
+```csharp
+public ToolkitResult CreateState( 
+   CreateStateSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

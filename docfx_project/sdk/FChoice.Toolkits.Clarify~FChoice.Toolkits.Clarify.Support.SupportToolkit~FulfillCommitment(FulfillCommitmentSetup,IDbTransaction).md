@@ -9,17 +9,20 @@ Fulfills a previously unfulfilled commitment. This overload takes a setup object
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function FulfillCommitment( _
-   ByVal _setupParam_ As [FulfillCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup.md), _
+   ByVal _setupParam_ As FulfillCommitmentSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) FulfillCommitment( 
-   [FulfillCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup.md) _setupParam_,
+```csharp
+public ToolkitResult FulfillCommitment( 
+   FulfillCommitmentSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

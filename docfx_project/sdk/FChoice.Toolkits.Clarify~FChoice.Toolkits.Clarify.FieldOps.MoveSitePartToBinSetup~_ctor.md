@@ -9,19 +9,22 @@ Initializes a new instance of the MoveSitePartToBinSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _sitePartObjid_ As Integer, _
    ByVal _parentBinObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public MoveSitePartToBinSetup( 
    int _sitePartObjid_,
    int _parentBinObjid_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _parentBinObjid_
 The Objid of the Parent Site Bin where the Site Part is being moved.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

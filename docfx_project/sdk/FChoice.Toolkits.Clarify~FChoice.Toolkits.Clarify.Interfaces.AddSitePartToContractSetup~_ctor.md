@@ -11,7 +11,7 @@ Initializes a new instance of the AddSitePartToContractSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _siteIDNum_ As String, _
    ByVal _sitePartObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AddSitePartToContractSetup( 
    string _contractIDNum_,
    string _siteIDNum_,
    int _sitePartObjid_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _sitePartObjid_
 Objid of the SitePart to be added.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

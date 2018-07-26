@@ -7,15 +7,18 @@ Yank the Opportunity from its current location to a new owner's WipBin. This ove
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankOpportunity( _
-   ByVal _setupParam_ As [YankOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankOpportunitySetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ YankOpportunitySetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankOpportunity( 
-   [YankOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankOpportunitySetup.md) _setupParam_
+```csharp
+public ToolkitResult YankOpportunity( 
+   YankOpportunitySetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The WipBin to place the Opportunity in may also be specified. This is augmented function from base Clarify, where the Opportunity is always placed in the default WipBin.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

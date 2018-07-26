@@ -7,15 +7,18 @@ Re-Install a Site Part under another Site Part. This overload takes a setup obje
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReinstallSitePartToPart( _
-   ByVal _setupParam_ As [ReinstallSitePartToPartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToPartSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ReinstallSitePartToPartSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReinstallSitePartToPart( 
-   [ReinstallSitePartToPartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToPartSetup.md) _setupParam_
+```csharp
+public ToolkitResult ReinstallSitePartToPart( 
+   ReinstallSitePartToPartSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ Setup object for API invocation.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function Between( _
    ByVal _columnName_ As String, _
    ByVal _value1_ As String, _
    ByVal _value2_ As String _
-) As [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)
+) As BetweenFilter
+```
 
-public static [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md) Between( 
+```csharp
+public static BetweenFilter Between( 
    string _columnName_,
    string _value1_,
    string _value2_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _value1_
 _value2_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _type_ As String _
 )
+```
 
+```csharp
 public AltTypeAttribute( 
    string _type_
 )
+```
 
 #### Parameters
 
 _type_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

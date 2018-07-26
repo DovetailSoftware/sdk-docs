@@ -9,19 +9,22 @@ The length (in seconds) of the Time Log. If not specified, it is calculated from
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateTimeLog( _
    ByVal _onsiteLogObjid_ As Integer, _
    ByVal _startDate_ As Date, _
    ByVal _duration_ As TimeSpan _
-) As [CreateTimeLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.md)
+) As CreateTimeLogResult
+```
 
-public [CreateTimeLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.md) CreateTimeLog( 
+```csharp
+public CreateTimeLogResult CreateTimeLog( 
    int _onsiteLogObjid_,
    DateTime _startDate_,
    TimeSpan _duration_
 )
+```
 
 #### Parameters
 
@@ -39,14 +42,12 @@ The length (in seconds) of the Time Log. If not specified, it is calculated from
 
 #### Return Value
 
-The following values are populated in the [CreateTimeLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.md) object returned by the API method:
+The following values are populated in the CreateTimeLogResult object returned by the API method:
 
-*   [OnsiteLogObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult~OnsiteLogObjid.md) \- The Objid of the OnsiteLog.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult~Objid.md) \- The Objid of the TimeLog.
+*   OnsiteLogObjid \- The Objid of the OnsiteLog.
+*   Objid \- The Objid of the TimeLog.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

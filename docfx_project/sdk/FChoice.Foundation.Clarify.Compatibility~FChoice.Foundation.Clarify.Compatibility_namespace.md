@@ -1,8 +1,4 @@
-﻿     FChoice.Foundation.Clarify.Compatibility Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Foundation.Clarify.Compatibility Namespace
+﻿### FChoice.Foundation.Clarify.Compatibility Namespace
 
 Classes
 
@@ -33,8 +29,6 @@ Interfaces
 | ![Interface](dotnetimages/Interface.png) | [IFCSqlExec](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec.md) |   |
 | ![Interface](dotnetimages/Interface.png) | [IMockAdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField.md) |   |
 | ![Interface](dotnetimages/Interface.png) | [IMockCollection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection.md) |   |
-
-
 
 #### Reference
 

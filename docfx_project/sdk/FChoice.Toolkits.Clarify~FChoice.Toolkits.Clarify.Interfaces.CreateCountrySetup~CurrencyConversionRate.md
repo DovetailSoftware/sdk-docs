@@ -5,21 +5,22 @@ Conversion rate for the currency
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property CurrencyConversionRate As Double
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public double CurrencyConversionRate {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Only used if a new Currency is created by entering a country [Currency](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCountrySetup~Currency.md) name that is not already present.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,17 +9,20 @@ Used to delete an existing expense log. This overload takes a setup object and a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DeleteExpenseLog( _
-   ByVal _setupParam_ As [DeleteExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteExpenseLogSetup.md), _
+   ByVal _setupParam_ As DeleteExpenseLogSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteExpenseLog( 
-   [DeleteExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteExpenseLogSetup.md) _setupParam_,
+```csharp
+public ToolkitResult DeleteExpenseLog( 
+   DeleteExpenseLogSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

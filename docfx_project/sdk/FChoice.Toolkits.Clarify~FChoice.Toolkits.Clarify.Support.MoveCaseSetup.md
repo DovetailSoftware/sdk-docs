@@ -5,10 +5,14 @@ Used by the [MoveCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Suppor
 Syntax
 
 ```vbnet
-' Declaration
-Public Class MoveCaseSetup 
+'Declaration
 
-public class MoveCaseSetup 
+Public Class MoveCaseSetup 
+```
+
+```csharp
+public class MoveCaseSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

@@ -5,16 +5,18 @@ Inventory bin from which the part is being transferred
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property FromBin As String
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property FromBin As String
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public string FromBin {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

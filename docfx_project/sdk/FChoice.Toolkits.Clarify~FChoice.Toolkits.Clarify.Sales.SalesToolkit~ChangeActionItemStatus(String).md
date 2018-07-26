@@ -7,15 +7,18 @@ Cause the specified Action Item to have its status changed. This overload takes 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeActionItemStatus( _
    ByVal _actionItemIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeActionItemStatus( 
+```csharp
+public ToolkitResult ChangeActionItemStatus( 
    string _actionItemIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The object may be in any valid condition, but the status selected MUST be valid for the current condition.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

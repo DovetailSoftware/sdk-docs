@@ -8,14 +8,15 @@ Syntax
 Public Overloads Function IsNotIn( _
    ByVal _columnName_ As String, _
    ByVal ParamArray _values_() As String _
-) As [IsInFilter](fcSDK~FChoice.Foundation.Filters.IsInFilter.md)
+) As IsInFilter
 ```
 
 ```csharp
-public [IsInFilter](fcSDK~FChoice.Foundation.Filters.IsInFilter.md) IsNotIn( 
+public IsInFilter IsNotIn( 
    string _columnName_,
    params string[] _values_
 )
+```
 ```
 
 #### Parameters

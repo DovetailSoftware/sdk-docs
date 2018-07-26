@@ -9,17 +9,20 @@ Update a Depot Repair Material. This overload takes a set of required parameters
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateDepotRepairMaterial( _
    ByVal _materialLogObjid_ As Integer, _
-   ByVal _disposition_ As [RepairPartDisposition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.RepairPartDisposition.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _disposition_ As RepairPartDisposition _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateDepotRepairMaterial( 
+```csharp
+public ToolkitResult UpdateDepotRepairMaterial( 
    int _materialLogObjid_,
-   [RepairPartDisposition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.RepairPartDisposition.md) _disposition_
+   RepairPartDisposition _disposition_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the MaterialLog.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

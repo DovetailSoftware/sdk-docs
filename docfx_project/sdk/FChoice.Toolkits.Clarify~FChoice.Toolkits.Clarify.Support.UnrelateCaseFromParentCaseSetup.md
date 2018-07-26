@@ -5,10 +5,14 @@ Used by the [UnrelateCaseFromParentCase](FChoice.Toolkits.Clarify~FChoice.Toolk
 Syntax
 
 ```vbnet
-' Declaration
-Public Class UnrelateCaseFromParentCaseSetup 
+'Declaration
 
-public class UnrelateCaseFromParentCaseSetup 
+Public Class UnrelateCaseFromParentCaseSetup 
+```
+
+```csharp
+public class UnrelateCaseFromParentCaseSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

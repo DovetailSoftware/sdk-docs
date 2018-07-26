@@ -7,15 +7,18 @@ Change the condition of a CR to Fixed. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function FixCR( _
-   ByVal _setupParam_ As [FixCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ FixCRSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) FixCR( 
-   [FixCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup.md) _setupParam_
+```csharp
+public ToolkitResult FixCR( 
+   FixCRSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 The CR condition will become Fixed even if it was already Closed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

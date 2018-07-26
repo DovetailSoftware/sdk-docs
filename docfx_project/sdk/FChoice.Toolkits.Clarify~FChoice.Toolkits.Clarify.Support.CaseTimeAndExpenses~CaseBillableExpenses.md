@@ -5,15 +5,16 @@ Captured billable expenses (Case time logs only)
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property CaseBillableExpenses As Decimal
+```
 
+```csharp
 public decimal CaseBillableExpenses {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

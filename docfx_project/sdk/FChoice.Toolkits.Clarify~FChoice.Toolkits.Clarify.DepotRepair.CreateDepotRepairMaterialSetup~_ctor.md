@@ -11,21 +11,24 @@ Initializes a new instance of the CreateDepotRepairMaterialSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _demandDetailObjid_ As Integer, _
    ByVal _partRevisionObjid_ As Integer, _
-   ByVal _disposition_ As [RepairPartDisposition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.RepairPartDisposition.md) _
+   ByVal _disposition_ As RepairPartDisposition _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateDepotRepairMaterialSetup( 
    int _demandDetailObjid_,
    int _partRevisionObjid_,
-   [RepairPartDisposition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.RepairPartDisposition.md) _disposition_
+   RepairPartDisposition _disposition_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _disposition_
 Indicates how the material relates to the depot repair part.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

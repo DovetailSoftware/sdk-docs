@@ -1,18 +1,20 @@
-﻿### ErrorNumber Property (IFCSession)
+### ErrorNumber Property (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743832)>
 Property ErrorNumber As Short
+```
 
+```csharp
 [DispIdAttribute(1610743832)]
 short ErrorNumber {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

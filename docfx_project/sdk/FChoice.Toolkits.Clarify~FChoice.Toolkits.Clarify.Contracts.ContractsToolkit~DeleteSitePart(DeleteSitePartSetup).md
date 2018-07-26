@@ -7,15 +7,18 @@ Used to delete a site_part in Clarify, and then unrelate the site_part from all 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DeleteSitePart( _
-   ByVal _setupParam_ As [DeleteSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DeleteSitePartSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ DeleteSitePartSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteSitePart( 
-   [DeleteSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DeleteSitePartSetup.md) _setupParam_
+```csharp
+public ToolkitResult DeleteSitePart( 
+   DeleteSitePartSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ Setup object for API invocation.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

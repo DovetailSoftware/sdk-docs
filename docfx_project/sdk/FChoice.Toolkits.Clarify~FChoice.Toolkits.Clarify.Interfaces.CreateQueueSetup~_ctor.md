@@ -27,7 +27,7 @@ Initializes a new instance of the CreateQueueSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -43,7 +43,9 @@ Public Function New( _
    ByVal _allowSubcase_ As Boolean, _
    ByVal _allowActionItem_ As Boolean _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateQueueSetup( 
    string _title_,
@@ -58,6 +60,7 @@ public CreateQueueSetup(
    bool _allowSubcase_,
    bool _allowActionItem_
 )
+```
 
 #### Parameters
 
@@ -106,8 +109,6 @@ _allowActionItem_
 Should Queue allow Action Items
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

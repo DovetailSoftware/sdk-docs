@@ -7,15 +7,18 @@ Assign the PartRequest to a new user. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AssignPartRequest( _
-   ByVal _setupParam_ As [AssignPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ AssignPartRequestSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AssignPartRequest( 
-   [AssignPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup.md) _setupParam_
+```csharp
+public ToolkitResult AssignPartRequest( 
+   AssignPartRequestSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The PartRequest must be in the Open condition, and the user assigning the PartRequest does not have to be the owner of the PartRequest. In base Clarify, the assigner of a PartRequest must be the owner. If either user name is not specified, the “current” user is used. The date/time of the assignment, and the WipBin to place the PartRequest in can also be specified. Allowing a WipBin other than the default one is also an augmentation from base Clarify.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

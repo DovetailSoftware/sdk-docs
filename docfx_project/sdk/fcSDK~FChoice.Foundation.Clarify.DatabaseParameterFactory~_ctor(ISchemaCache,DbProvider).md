@@ -3,17 +3,19 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _schemaCache_ As [ISchemaCache](fcSDK~FChoice.Foundation.Schema.ISchemaCache.md), _
-   ByVal _dbProvider_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _
-)
+   ByVal _schemaCache_ As ISchemaCache, _
+   ByVal _dbProvider_ As DbProvider _
+)```
 
+```csharp
 public DatabaseParameterFactory( 
-   [ISchemaCache](fcSDK~FChoice.Foundation.Schema.ISchemaCache.md) _schemaCache_,
-   [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _dbProvider_
+   ISchemaCache _schemaCache_,
+   DbProvider _dbProvider_
 )
+```
 
 #### Parameters
 
@@ -22,8 +24,6 @@ _schemaCache_
 _dbProvider_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

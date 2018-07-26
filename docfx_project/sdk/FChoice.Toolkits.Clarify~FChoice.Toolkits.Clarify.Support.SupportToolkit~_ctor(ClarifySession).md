@@ -7,15 +7,16 @@ Initializes a new instance of the SupportToolkit class using a [ClarifySession](
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _session_ As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) _
+   ByVal _session_ As ClarifySession _
 )
+```
 
-public SupportToolkit( 
-   [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) _session_
-)
+```csharp
+public SupportToolkit(ClarifySession _session)
+```
 
 #### Parameters
 
@@ -28,8 +29,6 @@ Remarks
 If the toolkit session was [created](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession(String,String,ClarifyLoginType).md) as a [Contact](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md) session this property is required otherwise errors will result.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

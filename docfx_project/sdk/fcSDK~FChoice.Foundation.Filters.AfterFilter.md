@@ -5,11 +5,15 @@ Filter field on dates coming after the input to this filter
 Syntax
 
 ```vbnet
-' Declaration
-Public Class AfterFilter 
-   Inherits [MoreThanFilter](fcSDK~FChoice.Foundation.Filters.MoreThanFilter.md)
+'Declaration
 
-public class AfterFilter : [MoreThanFilter](fcSDK~FChoice.Foundation.Filters.MoreThanFilter.md) 
+Public Class AfterFilter 
+   Inherits MoreThanFilter
+```
+
+```csharp
+public class AfterFilter : MoreThanFilter 
+```
 
 Example
 
@@ -31,8 +35,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

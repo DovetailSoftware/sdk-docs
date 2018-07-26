@@ -3,19 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function FindFCStringObject( _
    ByVal _applicationName_ As String, _
    ByVal _stringName_ As String, _
    ByVal _culture_ As CultureInfo _
-) As [FCString](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCString.md)
+) As FCString
 
 [FCString](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCString.md) FindFCStringObject( 
    string _applicationName_,
    string _stringName_,
    CultureInfo _culture_
 )
+```
 
 #### Parameters
 
@@ -26,8 +27,6 @@ _stringName_
 _culture_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

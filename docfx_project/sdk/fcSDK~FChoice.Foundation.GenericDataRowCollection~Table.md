@@ -1,19 +1,20 @@
 ﻿### Table Property (GenericDataRowCollection)
 
-Reference to the [GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md) this collection belongs to.
+Reference to the GenericDataTable this collection belongs to.
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property Table As [GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md)
+Public ReadOnly Property Table As GenericDataTable
+```
 
-public [GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md) Table {get;}
+```csharp
+public GenericDataTable Table {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

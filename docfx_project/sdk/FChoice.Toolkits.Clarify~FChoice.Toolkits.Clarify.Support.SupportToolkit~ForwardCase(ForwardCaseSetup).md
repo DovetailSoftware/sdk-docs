@@ -7,15 +7,18 @@ Reject-forward the Case from one queue to another. This overload takes a setup o
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ForwardCase( _
-   ByVal _setupParam_ As [ForwardCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardCaseSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ForwardCaseSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardCase( 
-   [ForwardCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardCaseSetup.md) _setupParam_
+```csharp
+public ToolkitResult ForwardCase( 
+   ForwardCaseSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Case must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function GetGbstList( _
    ByVal _listTitle_ As String _
-) As [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md)
+) As IGlobalStringList
+```
 
-[IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) GetGbstList( 
+```csharp
+IGlobalStringList GetGbstList( 
    string _listTitle_
 )
+```
 
 #### Parameters
 
 _listTitle_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

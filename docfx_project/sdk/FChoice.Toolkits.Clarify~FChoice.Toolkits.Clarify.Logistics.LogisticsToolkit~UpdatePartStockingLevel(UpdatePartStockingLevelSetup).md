@@ -7,15 +7,18 @@ Updates an existing part restocking authorization level. This overload takes a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdatePartStockingLevel( _
-   ByVal _setupParam_ As [UpdatePartStockingLevelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdatePartStockingLevelSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdatePartStockingLevel( 
-   [UpdatePartStockingLevelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdatePartStockingLevel( 
+   UpdatePartStockingLevelSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Part Authorization record.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

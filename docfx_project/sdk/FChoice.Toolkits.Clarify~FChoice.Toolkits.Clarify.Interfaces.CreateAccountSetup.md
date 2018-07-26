@@ -5,10 +5,14 @@ Used by the [CreateAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.I
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CreateAccountSetup 
+'Declaration
 
-public class CreateAccountSetup 
+Public Class CreateAccountSetup 
+```
+
+```csharp
+public class CreateAccountSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

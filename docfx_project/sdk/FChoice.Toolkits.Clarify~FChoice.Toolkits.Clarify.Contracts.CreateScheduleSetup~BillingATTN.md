@@ -5,20 +5,22 @@ The name of the Attention person at billing site.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property BillingATTN As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string BillingATTN {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If this field is set to “CLEAR”, the BillingATTN field is set to the empty string.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

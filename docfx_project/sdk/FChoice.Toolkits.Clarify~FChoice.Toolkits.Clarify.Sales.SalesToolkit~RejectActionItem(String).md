@@ -7,15 +7,18 @@ Reject the ActionItem from the queue in which it currently resides, and return i
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RejectActionItem( _
    ByVal _actionItemIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RejectActionItem( 
+```csharp
+public ToolkitResult RejectActionItem( 
    string _actionItemIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The ActionItem must be in open condition, and currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

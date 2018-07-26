@@ -5,11 +5,13 @@ Creates a Contract. This overload takes a set of required parameters for the API
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Function CreateContract() As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+Public Overloads Function CreateContract() As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateContract()
+```csharp
+public ToolkitResult CreateContract()
 
 #### Return Value
 
@@ -19,8 +21,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the Contract.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

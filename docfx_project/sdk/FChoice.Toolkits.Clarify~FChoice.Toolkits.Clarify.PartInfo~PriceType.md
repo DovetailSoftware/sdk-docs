@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public PriceType As [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md)
+Public PriceType As PriceInstanceType
+```
 
-public [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md) PriceType
+```csharp
+public PriceInstanceType PriceType
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

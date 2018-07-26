@@ -9,17 +9,20 @@ Used to relate sites to the inventory locations that service them. This overload
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddLocationServicingSite( _
-   ByVal _setupParam_ As [AddLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup.md), _
+   ByVal _setupParam_ As AddLocationServicingSiteSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddLocationServicingSite( 
-   [AddLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AddLocationServicingSite( 
+   AddLocationServicingSiteSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

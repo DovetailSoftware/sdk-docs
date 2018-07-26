@@ -3,14 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DefaultMemberAttribute("Item")>
 Public Class GlobalStringListCollection 
-   Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of IGlobalStringList)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
-   Implements [IGlobalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection.md) 
+   Inherits FChoice.Foundation.DataObjects.DataObjectCollection(Of IGlobalStringList)
+   Implements IGlobalStringListCollection 
+```
 
+```csharp
 [DefaultMemberAttribute("Item")]
-public class GlobalStringListCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<IGlobalStringList>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md), [IGlobalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection.md)  
+public class GlobalStringListCollection : FChoice.Foundation.DataObjects.DataObjectCollection<IGlobalStringList>, IGlobalStringListCollection
+```
 
 Inheritance Hierarchy
 
@@ -18,7 +22,6 @@ System.Object
    [System.Collections.Generic.List<T>](#)  
       [FChoice.Foundation.DataObjects.DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)  
          **FChoice.Foundation.Clarify.DataObjects.GlobalStringListCollection**  
-
 #### Requirements
 
 **Namespace:** [FChoice.Foundation.Clarify.DataObjects](fcSDK~FChoice.Foundation.Clarify.DataObjects_namespace.md)
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

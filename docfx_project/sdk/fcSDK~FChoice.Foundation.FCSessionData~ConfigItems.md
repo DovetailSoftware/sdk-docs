@@ -5,19 +5,20 @@ Collection of CRM session configuration items.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property ConfigItems As [ConfigItemCollection](fcSDK~FChoice.Foundation.DataObjects.ConfigItemCollection.md)
+Public Property ConfigItems As ConfigItemCollection
+```
 
-public [ConfigItemCollection](fcSDK~FChoice.Foundation.DataObjects.ConfigItemCollection.md) ConfigItems {get; set;}
+```csharp
+public ConfigItemCollection ConfigItems {get; set;}
+```
 
 #### Property Value
 
 A [ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md) which contains instances of [ClarifyConfigItem](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem.md) which represent each config item for the specified user in the Clarify database.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

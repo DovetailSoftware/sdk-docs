@@ -7,15 +7,18 @@ Apply an ECO to a Part Request Detail. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ApplyEco( _
-   ByVal _setupParam_ As [ApplyEcoSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ApplyEcoSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ApplyEco( 
-   [ApplyEcoSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup.md) _setupParam_
+```csharp
+public ToolkitResult ApplyEco( 
+   ApplyEcoSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ Setup object for API invocation.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

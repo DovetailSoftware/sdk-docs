@@ -5,16 +5,18 @@ Should Queue allow Demand Details
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property AllowDemandDetail As Boolean
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property AllowDemandDetail As Boolean
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public bool AllowDemandDetail {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

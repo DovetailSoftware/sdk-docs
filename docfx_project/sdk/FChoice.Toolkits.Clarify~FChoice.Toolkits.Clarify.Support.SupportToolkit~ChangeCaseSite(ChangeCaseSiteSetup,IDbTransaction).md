@@ -9,17 +9,20 @@ Changes the Site of a Case. This overload takes a setup object and a database tr
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeCaseSite( _
-   ByVal _setupParam_ As [ChangeCaseSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup.md), _
+   ByVal _setupParam_ As ChangeCaseSiteSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeCaseSite( 
-   [ChangeCaseSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ChangeCaseSite( 
+   ChangeCaseSiteSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

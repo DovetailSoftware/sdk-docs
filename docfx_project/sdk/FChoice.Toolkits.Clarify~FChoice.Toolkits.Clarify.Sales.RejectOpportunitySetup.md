@@ -5,10 +5,14 @@ Used by the [RejectOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clari
 Syntax
 
 ```vbnet
-' Declaration
-Public Class RejectOpportunitySetup 
+'Declaration
 
-public class RejectOpportunitySetup 
+Public Class RejectOpportunitySetup 
+```
+
+```csharp
+public class RejectOpportunitySetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

@@ -5,15 +5,16 @@ The Priority of the communication.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property Priority As [Nullable(Of CommunicationPriority)](#)
+Public Property Priority As Nullable(Of CommunicationPriority)
+```
 
-public [Nullable<CommunicationPriority>](#) Priority {get; set;}
+```csharp
+public Nullable<CommunicationPriority> Priority {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

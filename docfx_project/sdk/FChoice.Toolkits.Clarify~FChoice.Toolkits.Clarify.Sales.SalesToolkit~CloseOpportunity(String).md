@@ -7,15 +7,18 @@ Closes the Opportunity. This overload takes a set of required parameters for the
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CloseOpportunity( _
    ByVal _opportunityIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CloseOpportunity( 
+```csharp
+public ToolkitResult CloseOpportunity( 
    string _opportunityIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The status may be specified (in closed opportunity condition) for the opportunity, as well as the user name of the closer, and the date/time of the close. The API can also generate a time bomb (for business rule notification).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property DataSet As [ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md)
+Public ReadOnly Property DataSet As ClarifyDataSet
+```
 
-public [ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) DataSet {get;}
+```csharp
+public ClarifyDataSet DataSet {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

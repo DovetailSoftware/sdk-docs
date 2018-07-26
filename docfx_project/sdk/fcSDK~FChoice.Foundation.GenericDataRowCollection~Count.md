@@ -5,15 +5,16 @@ Gets the total number of elements in a collection.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property Count As Integer
+```
 
+```csharp
 public int Count {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

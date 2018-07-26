@@ -3,18 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743886)>
 Sub RelateIntFldByID( _
    ByVal _objId_ As Integer, _
    ByVal _the_field_ As String _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743886)]
 void RelateIntFldByID( 
    int _objId_,
    string _the_field_
 )
+```
 
 #### Parameters
 
@@ -23,8 +27,6 @@ _objId_
 _the_field_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

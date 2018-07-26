@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetTableOrView( _
    ByVal _tableName_ As String _
-) As [SchemaTableBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase.md)
+) As SchemaTableBase
+```
 
-public [SchemaTableBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase.md) GetTableOrView( 
+```csharp
+public SchemaTableBase GetTableOrView( 
    string _tableName_
 )
+```
 
 #### Parameters
 
 _tableName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

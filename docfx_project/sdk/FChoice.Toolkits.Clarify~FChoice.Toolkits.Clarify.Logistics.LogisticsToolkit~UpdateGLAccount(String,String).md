@@ -9,17 +9,20 @@ Used to modify existing GL accounts. This overload takes a set of required param
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateGLAccount( _
    ByVal _currentName_ As String, _
    ByVal _siteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateGLAccount( 
+```csharp
+public ToolkitResult UpdateGLAccount( 
    string _currentName_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Inventory Location record.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

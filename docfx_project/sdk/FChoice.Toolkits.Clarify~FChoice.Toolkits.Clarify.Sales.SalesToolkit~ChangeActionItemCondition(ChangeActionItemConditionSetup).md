@@ -7,15 +7,18 @@ Used to change the condition and (optionally) a status for the specified Actio
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeActionItemCondition( _
-   ByVal _setupParam_ As [ChangeActionItemConditionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemConditionSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ChangeActionItemConditionSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeActionItemCondition( 
-   [ChangeActionItemConditionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemConditionSetup.md) _setupParam_
+```csharp
+public ToolkitResult ChangeActionItemCondition( 
+   ChangeActionItemConditionSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -35,8 +38,6 @@ Remarks
 The Action Item ID and the condition is required, but no other data is. The API can also generate a time bomb (for business rule notification).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

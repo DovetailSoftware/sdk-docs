@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property BaseRelation As [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md)
+'Declaration
 
-public [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md) BaseRelation {get;}
+Public ReadOnly Property BaseRelation As SchemaRelation
+```
+
+```csharp
+public SchemaRelation BaseRelation {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

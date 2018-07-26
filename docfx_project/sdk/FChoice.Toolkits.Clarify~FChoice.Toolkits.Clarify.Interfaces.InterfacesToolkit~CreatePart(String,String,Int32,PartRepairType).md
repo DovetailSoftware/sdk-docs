@@ -13,21 +13,24 @@ Create a Part. This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreatePart( _
    ByVal _partNumber_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _warrantyDays_ As Integer, _
-   ByVal _repairType_ As [PartRepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRepairType.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _repairType_ As PartRepairType _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreatePart( 
+```csharp
+public ToolkitResult CreatePart( 
    string _partNumber_,
    string _partDomain_,
    int _warrantyDays_,
-   [PartRepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRepairType.md) _repairType_
+   PartRepairType _repairType_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ Remarks
 Just calling this API will **NOT** cause the part to be visible in Clarify. There must be at least one [Part Revision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreatePartRevision.md) present to view a Part.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

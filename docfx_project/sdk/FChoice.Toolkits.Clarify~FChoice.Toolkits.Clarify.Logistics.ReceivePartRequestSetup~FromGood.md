@@ -5,16 +5,18 @@ Specifies whether the received inventory from is good stock (true) or bad stock
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property FromGood As Boolean
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property FromGood As Boolean
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public bool FromGood {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

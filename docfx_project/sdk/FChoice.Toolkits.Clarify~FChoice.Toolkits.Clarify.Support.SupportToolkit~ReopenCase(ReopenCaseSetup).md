@@ -7,15 +7,18 @@ Reopens the specified Case. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReopenCase( _
-   ByVal _setupParam_ As [ReopenCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ReopenCaseSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReopenCase( 
-   [ReopenCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup.md) _setupParam_
+```csharp
+public ToolkitResult ReopenCase( 
+   ReopenCaseSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ The [User](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseS
 If the [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup~WipBin.md) is not specified the Case is placed in the user's default WipBin.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

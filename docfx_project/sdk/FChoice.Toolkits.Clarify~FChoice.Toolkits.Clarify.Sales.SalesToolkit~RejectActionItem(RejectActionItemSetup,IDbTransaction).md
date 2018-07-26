@@ -9,17 +9,20 @@ Reject the ActionItem from the queue in which it currently resides, and return i
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RejectActionItem( _
-   ByVal _setupParam_ As [RejectActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectActionItemSetup.md), _
+   ByVal _setupParam_ As RejectActionItemSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RejectActionItem( 
-   [RejectActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectActionItemSetup.md) _setupParam_,
+```csharp
+public ToolkitResult RejectActionItem( 
+   RejectActionItemSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

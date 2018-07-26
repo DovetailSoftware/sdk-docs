@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Function GetObjectInfo( _
    ByVal _objectName_ As String _
-) As [WorkflowObjectInfo](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo.md)
+) As WorkflowObjectInfo
+```
 
-public static [WorkflowObjectInfo](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo.md) GetObjectInfo( 
+```csharp
+public static WorkflowObjectInfo GetObjectInfo( 
    string _objectName_
 )
+```
 
 #### Parameters
 
 _objectName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

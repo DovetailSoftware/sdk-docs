@@ -3,15 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DefaultMemberAttribute("Item")>
 Public MustInherit Class SchemaFieldCollectionBase 
-   Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of SchemaFieldBase)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
-   Implements [FChoice.Foundation.Schema.ISchemaFieldCollection](fcSDK~FChoice.Foundation.Schema.ISchemaFieldCollection.md) 
+   Inherits FChoice.Foundation.DataObjects.DataObjectCollection(Of SchemaFieldBase)
+   Implements FChoice.Foundation.Schema.ISchemaFieldCollection 
+```
 
+```csharp
 [DefaultMemberAttribute("Item")]
-public abstract class SchemaFieldCollectionBase : [FChoice.Foundation.DataObjects.DataObjectCollection<SchemaFieldBase>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md), [FChoice.Foundation.Schema.ISchemaFieldCollection](fcSDK~FChoice.Foundation.Schema.ISchemaFieldCollection.md)  
+public abstract class SchemaFieldCollectionBase : FChoice.Foundation.DataObjects.DataObjectCollection<SchemaFieldBase>, FChoice.Foundation.Schema.ISchemaFieldCollection
+```
 
 Inheritance Hierarchy
 
@@ -29,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

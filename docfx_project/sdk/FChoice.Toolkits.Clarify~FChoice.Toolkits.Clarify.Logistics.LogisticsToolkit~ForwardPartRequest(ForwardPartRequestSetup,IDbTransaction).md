@@ -9,17 +9,20 @@ Reject-forward the PartRequest from one queue to another. This overload takes a 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ForwardPartRequest( _
-   ByVal _setupParam_ As [ForwardPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ForwardPartRequestSetup.md), _
+   ByVal _setupParam_ As ForwardPartRequestSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardPartRequest( 
-   [ForwardPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ForwardPartRequestSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ForwardPartRequest( 
+   ForwardPartRequestSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

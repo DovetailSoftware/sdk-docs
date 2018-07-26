@@ -11,17 +11,20 @@ This overload takes a setup object and a database transaction.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function PartTransfer( _
-   ByVal _setupParam_ As [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup.md), _
+   ByVal _setupParam_ As PartTransferSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md)
+) As PartTransferResult
+```
 
-public [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md) PartTransfer( 
-   [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup.md) _setupParam_,
+```csharp
+public PartTransferResult PartTransfer( 
+   PartTransferSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -35,7 +38,7 @@ Database transaction under which the API will be invoked.
 
 #### Return Value
 
-A [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A PartTransferResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Remarks
 
@@ -43,7 +46,7 @@ As in Clarify, the transfer can be from good or bad stock and can be to good or 
 
 This API checks part authorization levels for auto-replenishment, and will automatically work with that engine.
 
-To use primary bin suggestions/recommendations, please see the remarks on the [ToLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup~ToLocation.md) and/or [FromLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup~FromLocation.md) properties on the [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup.md) object.
+To use primary bin suggestions/recommendations, please see the remarks on the ToLocation and/or FromLocation properties on the [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup.md) object.
 
 This API supports transferring parts by quantity or a specific serial number.
 
@@ -52,8 +55,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

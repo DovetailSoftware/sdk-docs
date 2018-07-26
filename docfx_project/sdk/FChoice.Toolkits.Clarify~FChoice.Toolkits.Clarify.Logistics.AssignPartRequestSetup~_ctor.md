@@ -7,17 +7,20 @@ Initializes a new instance of the AssignPartRequestSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AssignPartRequestSetup( 
    string _partRequestDetailIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _partRequestDetailIDNum_
 Part Request Detail Identifier
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

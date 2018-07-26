@@ -5,15 +5,18 @@ Setup object for API invocation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReinstallSitePart( _
-   ByVal _setupParam_ As [ReinstallSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.ReinstallSitePartSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ReinstallSitePartSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReinstallSitePart( 
-   [ReinstallSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.ReinstallSitePartSetup.md) _setupParam_
+```csharp
+public ToolkitResult ReinstallSitePart( 
+   ReinstallSitePartSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ Setup object for API invocation.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,10 +5,14 @@ Used by the [MoveOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify
 Syntax
 
 ```vbnet
-' Declaration
-Public Class MoveOpportunitySetup 
+'Declaration
 
-public class MoveOpportunitySetup 
+Public Class MoveOpportunitySetup 
+```
+
+```csharp
+public class MoveOpportunitySetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-ReadOnly Property ListCache As [IListCache](fcSDK~FChoice.Foundation.Clarify.IListCache.md)
+ReadOnly Property ListCache As IListCache
+```
 
-[IListCache](fcSDK~FChoice.Foundation.Clarify.IListCache.md) ListCache {get;}
+```csharp
+IListCache ListCache {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,16 +5,18 @@ Model number of the part
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property ModelNumber As String
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property ModelNumber As String
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public string ModelNumber {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

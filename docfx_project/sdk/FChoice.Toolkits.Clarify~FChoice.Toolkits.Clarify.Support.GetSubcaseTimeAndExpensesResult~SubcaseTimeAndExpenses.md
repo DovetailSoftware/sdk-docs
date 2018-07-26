@@ -5,15 +5,16 @@ Contains the sums and totals calculated before closing a Case.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property SubcaseTimeAndExpenses As [SubcaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses.md)
+Public Property SubcaseTimeAndExpenses As SubcaseTimeAndExpenses
+```
 
-public [SubcaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses.md) SubcaseTimeAndExpenses {get; set;}
+```csharp
+public SubcaseTimeAndExpenses SubcaseTimeAndExpenses {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

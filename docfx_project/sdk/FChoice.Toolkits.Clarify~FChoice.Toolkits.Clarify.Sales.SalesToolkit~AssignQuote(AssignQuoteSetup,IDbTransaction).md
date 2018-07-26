@@ -9,17 +9,20 @@ Assign the Quote to a new user. This overload takes a setup object and a databas
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AssignQuote( _
-   ByVal _setupParam_ As [AssignQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignQuoteSetup.md), _
+   ByVal _setupParam_ As AssignQuoteSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AssignQuote( 
-   [AssignQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignQuoteSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AssignQuote( 
+   AssignQuoteSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

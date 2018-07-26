@@ -5,10 +5,14 @@ Used by the [ClosePartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarif
 Syntax
 
 ```vbnet
-' Declaration
-Public Class ClosePartRequestSetup 
+'Declaration
 
-public class ClosePartRequestSetup 
+Public Class ClosePartRequestSetup 
+```
+
+```csharp
+public class ClosePartRequestSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

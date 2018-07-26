@@ -9,17 +9,20 @@ Causes the specified part request to be closed. This overload takes a setup obje
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ClosePartRequest( _
-   ByVal _setupParam_ As [ClosePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup.md), _
+   ByVal _setupParam_ As ClosePartRequestSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ClosePartRequest( 
-   [ClosePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ClosePartRequest( 
+   ClosePartRequestSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

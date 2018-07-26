@@ -15,7 +15,7 @@ Initializes a new instance of the InstallSitePartToBinSetup class. This overload
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -25,7 +25,9 @@ Public Function New( _
    ByVal _partDomain_ As String, _
    ByVal _serialNumber_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public InstallSitePartToBinSetup( 
    string _siteIDNum_,
@@ -34,6 +36,7 @@ public InstallSitePartToBinSetup(
    string _partDomain_,
    string _serialNumber_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ _serialNumber_
 Serial number of the part installed
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,24 +1,26 @@
 ﻿### Location Property (AddInventoryBinSetup)
 
-A reference to a [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) object which specifies the name of the bin to create and the name of the location in which to create it
+A reference to a Location object which specifies the name of the bin to create and the name of the location in which to create it
 
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property Location As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md)
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) Location {get; set;}
+<PropertyBitValueAttribute()>
+Public Property Location As Location
+```
 
-Remarks
+```csharp
+[PropertyBitValueAttribute()]
+public Location Location {get; set;}
+```
 
-When creating an instance of a [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) object for this API, both the location name and the bin name must be specified in the [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) object's constructor.
+#### Remarks
+
+When creating an instance of a Location object for this API, both the location name and the bin name must be specified in the Location object's constructor.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

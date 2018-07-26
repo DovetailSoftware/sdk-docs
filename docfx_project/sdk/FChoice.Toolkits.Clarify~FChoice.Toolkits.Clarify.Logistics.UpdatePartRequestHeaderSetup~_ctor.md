@@ -7,17 +7,20 @@ Initializes a new instance of the UpdatePartRequestHeaderSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestHeaderIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdatePartRequestHeaderSetup( 
    string _partRequestHeaderIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _partRequestHeaderIDNum_
 Part Request Header Identifier
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

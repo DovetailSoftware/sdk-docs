@@ -1,19 +1,20 @@
-﻿### rel_type Property (IFCGeneric)
+### rel_type Property (IFCGeneric)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743816)>
 ReadOnly Property rel_type As Short
+```
 
+```csharp
 [DispIdAttribute(1610743816)]
 short rel_type {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,19 +9,22 @@ Initializes a new instance of the DeleteLocationServicingSiteSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _siteIDNum_ As String, _
    ByVal _locationName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DeleteLocationServicingSiteSetup( 
    string _siteIDNum_,
    string _locationName_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _locationName_
 The inventory location being removed
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

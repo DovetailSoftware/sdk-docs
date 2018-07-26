@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-ReadOnly Property LocaleCache As [ILocaleCache](fcSDK~FChoice.Foundation.Clarify.ILocaleCache.md)
+ReadOnly Property LocaleCache As ILocaleCache
+```
 
-[ILocaleCache](fcSDK~FChoice.Foundation.Clarify.ILocaleCache.md) LocaleCache {get;}
+```csharp
+ILocaleCache LocaleCache {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

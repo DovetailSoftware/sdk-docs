@@ -9,17 +9,20 @@ Used to remove an existing site part. This overload takes a setup object and a d
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogPartsUsedRemove( _
-   ByVal _setupParam_ As [LogPartsUsedRemoveSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedRemoveSetup.md), _
+   ByVal _setupParam_ As LogPartsUsedRemoveSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogPartsUsedRemove( 
-   [LogPartsUsedRemoveSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedRemoveSetup.md) _setupParam_,
+```csharp
+public ToolkitResult LogPartsUsedRemove( 
+   LogPartsUsedRemoveSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

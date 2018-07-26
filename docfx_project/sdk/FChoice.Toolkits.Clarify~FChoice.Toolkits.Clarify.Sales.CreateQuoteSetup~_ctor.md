@@ -7,17 +7,21 @@ Initializes a new instance of the CreateQuoteSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _quoteTitle_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateQuoteSetup( 
    string _quoteTitle_
 )
+```
+```
 
 #### Parameters
 
@@ -26,8 +30,6 @@ _quoteTitle_
 The title of the Quote.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,13 +5,17 @@ ClarifySession contains session information for a logged-in user and allows for
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Class ClarifySession 
-   Inherits [FChoice.Foundation.FCSession](fcSDK~FChoice.Foundation.FCSession.md)
+   Inherits FChoice.Foundation.FCSession
+```
 
-public class ClarifySession : [FChoice.Foundation.FCSession](fcSDK~FChoice.Foundation.FCSession.md) 
+```csharp
+public class ClarifySession : FChoice.Foundation.FCSession
+```
 
-Remarks
+#### Remarks
 
 To create a session, see [ClarifyApplication.CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md).
 
@@ -32,8 +36,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

@@ -1,9 +1,9 @@
-﻿### AddAttachment Method (IFCSession)
+### AddAttachment Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743898)>
 Function AddAttachment( _
@@ -14,7 +14,9 @@ Function AddAttachment( _
    Optional ByVal _objectObjId_ As Object, _
    Optional ByVal _attachmentType_ As Object _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743898)]
 short AddAttachment( 
    string _attachmentName_,
@@ -24,6 +26,7 @@ short AddAttachment(
    object _objectObjId_,
    object _attachmentType_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ _objectObjId_
 _attachmentType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

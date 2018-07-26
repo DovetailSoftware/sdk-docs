@@ -7,15 +7,18 @@ Reject the Quote from the queue in which it currently resides, and return it to 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RejectQuote( _
-   ByVal _setupParam_ As [RejectQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RejectQuoteSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ RejectQuoteSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RejectQuote( 
-   [RejectQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RejectQuoteSetup.md) _setupParam_
+```csharp
+public ToolkitResult RejectQuote( 
+   RejectQuoteSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Quote must be in open condition, and currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

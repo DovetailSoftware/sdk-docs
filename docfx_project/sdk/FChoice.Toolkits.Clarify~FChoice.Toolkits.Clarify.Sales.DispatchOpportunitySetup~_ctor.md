@@ -1,4 +1,4 @@
-﻿### DispatchOpportunitySetup Constructor
+### DispatchOpportunitySetup Constructor
 
 Opportunity Identifier.
 
@@ -9,19 +9,22 @@ Initializes a new instance of the DispatchOpportunitySetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _opportunityIDNum_ As String, _
    ByVal _queue_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DispatchOpportunitySetup( 
    string _opportunityIDNum_,
    string _queue_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _queue_
 The queue into which the Opportunity is to be dispatched.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

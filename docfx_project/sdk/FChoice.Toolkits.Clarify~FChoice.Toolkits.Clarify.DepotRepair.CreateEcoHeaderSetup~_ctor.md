@@ -9,19 +9,22 @@ Initializes a new instance of the CreateEcoHeaderSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _startDate_ As Date, _
    ByVal _endDate_ As Date _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateEcoHeaderSetup( 
    DateTime _startDate_,
    DateTime _endDate_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _endDate_
 The DateTime the ECO header becomes obsolete. If not set, the current time is used.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

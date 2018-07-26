@@ -5,10 +5,14 @@ Used by the [CreateEcoItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.D
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CreateEcoItemSetup 
+'Declaration
 
-public class CreateEcoItemSetup 
+Public Class CreateEcoItemSetup 
+```
+
+```csharp
+public class CreateEcoItemSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

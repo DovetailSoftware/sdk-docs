@@ -5,16 +5,18 @@ The names of the restocking location/bin
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property Location As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md)
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) Location {get; set;}
+<PropertyBitValueAttribute()>
+Public Property Location As Location
+```
+
+```csharp
+[PropertyBitValueAttribute()]
+public Location Location {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

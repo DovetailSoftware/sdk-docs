@@ -7,17 +7,20 @@ Initializes a new instance of the UpdateTimeLogSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _timeLogObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateTimeLogSetup( 
    int _timeLogObjid_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _timeLogObjid_
 The Objid of the Time Log being modified.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,15 +5,16 @@ Total non-billable time (closed Subcase and Case time logs)
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property TotalNonBillableTime As TimeSpan
+```
 
+```csharp
 public TimeSpan TotalNonBillableTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

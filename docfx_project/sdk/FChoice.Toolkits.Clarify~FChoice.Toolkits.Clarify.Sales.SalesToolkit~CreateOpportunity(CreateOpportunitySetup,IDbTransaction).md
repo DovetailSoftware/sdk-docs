@@ -9,17 +9,20 @@ Used to create a new Opportunity. This overload takes a setup object and a datab
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateOpportunity( _
-   ByVal _setupParam_ As [CreateOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateOpportunitySetup.md), _
+   ByVal _setupParam_ As CreateOpportunitySetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateOpportunity( 
-   [CreateOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateOpportunitySetup.md) _setupParam_,
+```csharp
+public ToolkitResult CreateOpportunity( 
+   CreateOpportunitySetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

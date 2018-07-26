@@ -2,7 +2,7 @@
 
 A provider alias that matches one of the intrinsic provider aliases, one configured in the application configuration file, or a null reference (**Nothing** in Visual Basic) for the default alias
 
-Creates a new instance of a [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) object from the specified provider alias
+Creates a new instance of a DbProvider object from the specified provider alias
 
 Syntax
 
@@ -11,11 +11,11 @@ Syntax
 
 Public Overloads Shared Function CreateProvider( _
    ByVal _providerAlias_ As String _
-) As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)
+) As DbProvider
 ```
 
 ```csharp
-public static [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) CreateProvider( 
+public static DbProvider CreateProvider( 
    string _providerAlias_
 )
 ```
@@ -28,17 +28,17 @@ A provider alias that matches one of the intrinsic provider aliases, one configu
 
 #### Return Value
 
-A new [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance configured for the given alias
+A new DbProvider instance configured for the given alias
 
 Exceptions
 
 | Exception | Description |
 | --- | --- |
-| [CommonException](FChoice.Common~FChoice.Common.CommonException.md) | Error Code 5012 No provider with the specified alias is configured |
+| CommonException | Error Code 5012 No provider with the specified alias is configured |
 
 Remarks
 
-The two intrinsic aliases are the values for the two constants: [DbProviderFactory.MSSQL_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~MSSQL_PROVIDER_NAME.md) and [DbProviderFactory.ORACLE_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~ORACLE_PROVIDER_NAME.md). To configure additional aliases, please see the guide to [Configure Custom Data Providers](/articles/configuring-database-providers.md).
+The two intrinsic aliases are the values for the two constants: [DbProviderFactory.MSSQL_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~MSSQL_PROVIDER_NAME.md) and DbProviderFactory.ORACLE_PROVIDER_NAME. To configure additional aliases, please see the guide to [Configure Custom Data Providers](/articles/configuring-database-providers.md).
 
 [!include[Requirements](../partials/requirements.md)]
 

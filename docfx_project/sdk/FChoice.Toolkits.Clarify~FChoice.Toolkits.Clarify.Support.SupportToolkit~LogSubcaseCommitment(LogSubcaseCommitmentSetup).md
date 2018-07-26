@@ -7,15 +7,18 @@ Creates a commitment against a Subcase. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogSubcaseCommitment( _
-   ByVal _setupParam_ As [LogSubcaseCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseCommitmentSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ LogSubcaseCommitmentSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogSubcaseCommitment( 
-   [LogSubcaseCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseCommitmentSetup.md) _setupParam_
+```csharp
+public ToolkitResult LogSubcaseCommitment( 
+   LogSubcaseCommitmentSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Log.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

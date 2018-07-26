@@ -5,10 +5,14 @@ Used by the [RelateContractItemToSitePart](FChoice.Toolkits.Clarify~FChoice.Too
 Syntax
 
 ```vbnet
-' Declaration
-Public Class RelateContractItemToSitePartSetup 
+'Declaration
 
-public class RelateContractItemToSitePartSetup 
+Public Class RelateContractItemToSitePartSetup 
+```
+
+```csharp
+public class RelateContractItemToSitePartSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

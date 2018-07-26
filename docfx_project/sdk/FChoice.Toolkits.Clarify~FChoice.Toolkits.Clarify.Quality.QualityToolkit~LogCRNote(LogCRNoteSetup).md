@@ -7,15 +7,18 @@ Used to create a note log against a CR. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCRNote( _
-   ByVal _setupParam_ As [LogCRNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCRNoteSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ LogCRNoteSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogCRNote( 
-   [LogCRNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCRNoteSetup.md) _setupParam_
+```csharp
+public ToolkitResult LogCRNote( 
+   LogCRNoteSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 Allows for the assigning of notes and internal use only text. The date the note is logged can be set, as well as the user who logs the note. Additional fields on the log_cr_note can also be set as well as a time bomb (for the note log), which allows notifications to be generated based on the event.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

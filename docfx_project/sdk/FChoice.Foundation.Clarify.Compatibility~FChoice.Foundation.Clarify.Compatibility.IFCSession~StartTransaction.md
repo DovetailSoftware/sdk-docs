@@ -3,24 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610747764)>
 Sub StartTransaction( _
    Optional ByVal _isolationLevel_ As Object _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610747764)]
 void StartTransaction( 
    object _isolationLevel_
 )
+```
 
 #### Parameters
 
 _isolationLevel_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

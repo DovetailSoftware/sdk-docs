@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function GetElementByObjectId( _
    ByVal _objectId_ As Integer _
-) As [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md)
+) As IGlobalStringElement
+```
 
-[IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md) GetElementByObjectId( 
+```csharp
+IGlobalStringElement GetElementByObjectId( 
    int _objectId_
 )
+```
 
 #### Parameters
 
 _objectId_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,17 +9,20 @@ Allows for the fulfilling of inventory parts for a part request. This overload t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function FulfillPartRequest( _
-   ByVal _setupParam_ As [FulfillPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup.md), _
+   ByVal _setupParam_ As FulfillPartRequestSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) FulfillPartRequest( 
-   [FulfillPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup.md) _setupParam_,
+```csharp
+public ToolkitResult FulfillPartRequest( 
+   FulfillPartRequestSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -52,8 +55,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shadows ReadOnly Property ConfigItems As [ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md)
+Public Shadows ReadOnly Property ConfigItems As ClarifyConfigItemCollection
+```
 
-public new [ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md) ConfigItems {get;}
+```csharp
+public new ClarifyConfigItemCollection ConfigItems {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

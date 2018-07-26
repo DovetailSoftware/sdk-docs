@@ -7,15 +7,18 @@ Update a Depot Repair Labor. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateDepotRepairLabor( _
-   ByVal _setupParam_ As [UpdateDepotRepairLaborSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairLaborSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdateDepotRepairLaborSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateDepotRepairLabor( 
-   [UpdateDepotRepairLaborSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairLaborSetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdateDepotRepairLabor( 
+   UpdateDepotRepairLaborSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the TimeLog.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

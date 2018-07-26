@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetDateFields( _
    ByVal _objectName_ As String _
-) As [SchemaFieldBase()](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md)
+) As SchemaFieldBase()
+```
 
-public [SchemaFieldBase\[\]](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md) GetDateFields( 
+```csharp
+public SchemaFieldBase[] GetDateFields( 
    string _objectName_
 )
+```
 
 #### Parameters
 
 _objectName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

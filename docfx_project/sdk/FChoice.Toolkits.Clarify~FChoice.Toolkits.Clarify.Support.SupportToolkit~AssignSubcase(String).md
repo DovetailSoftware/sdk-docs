@@ -7,15 +7,18 @@ Assign the Subcase to a new user. This overload takes a set of required paramete
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AssignSubcase( _
    ByVal _subcaseIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AssignSubcase( 
+```csharp
+public ToolkitResult AssignSubcase( 
    string _subcaseIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Subcase must be in the Open condition, and the user assigning the Subcase does not have to be the owner of the Subcase. In base Clarify, the assigner of a Subcase must be the owner. If either user name is not specified, the “current” user is used. The date/time of the assignment, and the WipBin to place the Subcase in can also be specified. Allowing a WipBin other than the default one is also an augmentation from base Clarify.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

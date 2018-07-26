@@ -13,7 +13,7 @@ Initializes a new instance of the BackorderPartRequestSetup class. This overload
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -22,7 +22,9 @@ Public Function New( _
    ByVal _useTransitions_ As Boolean, _
    ByVal _serialNumber_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public BackorderPartRequestSetup( 
    string _partRequestDetailIDNum_,
@@ -30,6 +32,7 @@ public BackorderPartRequestSetup(
    bool _useTransitions_,
    string _serialNumber_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ _serialNumber_
 The serial number of the part used to backorder this Part Request
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

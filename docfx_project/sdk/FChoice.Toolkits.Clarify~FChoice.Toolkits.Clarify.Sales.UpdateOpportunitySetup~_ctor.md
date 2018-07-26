@@ -7,17 +7,20 @@ Initializes a new instance of the UpdateOpportunitySetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _opportunityIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateOpportunitySetup( 
    string _opportunityIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _opportunityIDNum_
 Opportunity Identifier.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

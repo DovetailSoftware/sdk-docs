@@ -9,17 +9,20 @@ Allows you to create or modify Logistics Transitions in the database. This overl
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function SetLogisticsTransition( _
-   ByVal _setupParam_ As [SetLogisticsTransitionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup.md), _
+   ByVal _setupParam_ As SetLogisticsTransitionSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) SetLogisticsTransition( 
-   [SetLogisticsTransitionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup.md) _setupParam_,
+```csharp
+public ToolkitResult SetLogisticsTransition( 
+   SetLogisticsTransitionSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

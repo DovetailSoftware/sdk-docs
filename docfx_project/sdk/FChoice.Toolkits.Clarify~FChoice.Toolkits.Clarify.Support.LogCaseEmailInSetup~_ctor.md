@@ -11,7 +11,7 @@ Body of the email being logged.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _caseIDNum_ As String, _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _recipient_ As String, _
    ByVal _message_ As String _
 )
+```
 
+```csharp
 public LogCaseEmailInSetup( 
    string _caseIDNum_,
    string _sender_,
    string _recipient_,
    string _message_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ _message_
 Body of the email being logged.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

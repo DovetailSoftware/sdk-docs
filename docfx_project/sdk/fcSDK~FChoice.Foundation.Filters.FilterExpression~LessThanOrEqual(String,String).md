@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LessThanOrEqual( _
    ByVal _columnName_ As String, _
    ByVal _value_ As String _
-) As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)
+) As Filter
+```
 
-public [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) LessThanOrEqual( 
+```csharp
+public Filter LessThanOrEqual( 
    string _columnName_,
    string _value_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _columnName_
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

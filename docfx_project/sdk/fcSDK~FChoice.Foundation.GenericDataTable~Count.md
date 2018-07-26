@@ -5,15 +5,16 @@ Number of [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)s currentl
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property Count As Integer
+```
 
+```csharp
 public int Count {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

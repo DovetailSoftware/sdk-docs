@@ -5,23 +5,24 @@ Specifies whether or not to change the Part Request condition
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property UseTransitions As Boolean
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public bool UseTransitions {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Setting this value to false allows for multiple calls to the API to be performed without extra complex transitions being added to the system. By default, the value is true.
 
 **NOTE**: The last call to [ReceivePartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest.md) in the chain of calls should have this value set to true to ensure the transitions are checked and the condition/status is updated properly.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateChannel( _
-   ByVal _setup_ As [CreateChannelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateChannelSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setup_ CreateChannelSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateChannel( 
-   [CreateChannelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateChannelSetup.md) _setup_
+```csharp
+public ToolkitResult CreateChannel( 
+   CreateChannelSetup _setup_
 )
+```
 
 #### Parameters
 
 _setup_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

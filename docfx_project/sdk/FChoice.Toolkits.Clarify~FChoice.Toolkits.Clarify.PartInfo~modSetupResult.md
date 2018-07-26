@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public modSetupResult As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+Public modSetupResult As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) modSetupResult
+```csharp
+public ToolkitResult modSetupResult
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property UniqueID As Guid
+'Declaration
 
+Public ReadOnly Property UniqueID As Guid
+```
+
+```csharp
 public Guid UniqueID {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

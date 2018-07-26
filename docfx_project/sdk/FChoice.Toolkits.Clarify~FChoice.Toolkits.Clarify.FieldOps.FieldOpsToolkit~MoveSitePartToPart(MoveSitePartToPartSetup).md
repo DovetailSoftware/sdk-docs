@@ -7,15 +7,18 @@ Move the SitePartToPart from one WipBin to another WipBin. This overload takes a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function MoveSitePartToPart( _
-   ByVal _setupParam_ As [MoveSitePartToPartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToPartSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ MoveSitePartToPartSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) MoveSitePartToPart( 
-   [MoveSitePartToPartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToPartSetup.md) _setupParam_
+```csharp
+public ToolkitResult MoveSitePartToPart( 
+   MoveSitePartToPartSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ The new WipBin must belong to the same user as the first WipBin. The move operat
 Note: This API allows you to move a queueable object from one WipBin to another, even if the object is currently dispatched. Since WipBins are internal to a user, there really is no reason that you shouldn’t be able to move the interal (to a user) location of the object. This is an enhancement to base Clarify function, which requires that the object not be dispatched to be moved.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

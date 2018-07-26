@@ -7,15 +7,18 @@ Used to remove the relationship between a site and a location servicing it. This
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DeleteLocationServicingSite( _
-   ByVal _setupParam_ As [DeleteLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteLocationServicingSiteSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ DeleteLocationServicingSiteSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteLocationServicingSite( 
-   [DeleteLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteLocationServicingSiteSetup.md) _setupParam_
+```csharp
+public ToolkitResult DeleteLocationServicingSite( 
+   DeleteLocationServicingSiteSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 As a result of a call to this API, all of the other locations that service this site will have their ranks changed as necessary.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -13,11 +13,11 @@ Syntax
 
 Public Overloads Shared Function GetLogger( _
    ByVal _loggerName_ As String _
-) As [Logger](FChoice.Common~FChoice.Common.Logger.md)
+) As Logger
 ```
 
 ```csharp
-public static [Logger](FChoice.Common~FChoice.Common.Logger.md) GetLogger( 
+public static Logger GetLogger( 
    string _loggerName_
 )
 ```

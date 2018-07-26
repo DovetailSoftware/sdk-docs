@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property site_id As Short
+'Declaration
 
+Public ReadOnly Property site_id As Short
+```
+
+```csharp
 public short site_id {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

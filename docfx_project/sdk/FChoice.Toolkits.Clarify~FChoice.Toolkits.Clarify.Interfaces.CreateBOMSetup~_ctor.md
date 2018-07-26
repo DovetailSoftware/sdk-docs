@@ -19,7 +19,7 @@ Initializes a new instance of the CreateBOMSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -31,7 +31,9 @@ Public Function New( _
    ByVal _childPartRevision_ As String, _
    ByVal _quantity_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateBOMSetup( 
    string _parentPartNumber_,
@@ -42,6 +44,7 @@ public CreateBOMSetup(
    string _childPartRevision_,
    int _quantity_
 )
+```
 
 #### Parameters
 
@@ -74,8 +77,6 @@ _quantity_
 How many of the Child Part Revisions are in the Parent Part Revision.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

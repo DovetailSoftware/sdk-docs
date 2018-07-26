@@ -9,17 +9,20 @@ Assign the CR to a new user. This overload takes a setup object and a database t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AssignCR( _
-   ByVal _setupParam_ As [AssignCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AssignCRSetup.md), _
+   ByVal _setupParam_ As AssignCRSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AssignCR( 
-   [AssignCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AssignCRSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AssignCR( 
+   AssignCRSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

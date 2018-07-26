@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _isVoid_ As Boolean _
 )
+```
 
+```csharp
 public FacadeVoidAttribute( 
    bool _isVoid_
 )
+```
 
 #### Parameters
 
 _isVoid_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

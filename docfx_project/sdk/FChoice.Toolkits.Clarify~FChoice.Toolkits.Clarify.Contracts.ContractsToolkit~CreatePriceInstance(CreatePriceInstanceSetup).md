@@ -7,15 +7,18 @@ Used to create a new price instance for a support program. This overload takes a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreatePriceInstance( _
-   ByVal _setupParam_ As [CreatePriceInstanceSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreatePriceInstanceSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreatePriceInstanceSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreatePriceInstance( 
-   [CreatePriceInstanceSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreatePriceInstanceSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreatePriceInstance( 
+   CreatePriceInstanceSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 You may specify the part for product based support programs, or leave it blank when creating price instances for either site or independent support programs.  If you do specify a part, you must include its domain and revision (mod level).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

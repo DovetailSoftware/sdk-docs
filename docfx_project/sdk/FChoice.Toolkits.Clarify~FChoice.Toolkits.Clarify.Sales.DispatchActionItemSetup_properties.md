@@ -1,4 +1,4 @@
-﻿### DispatchActionItemSetup Class Properties
+### DispatchActionItemSetup Class Properties
 
 For a list of all members of this type, see [DispatchActionItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup_members.md).
 
@@ -11,10 +11,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [GenerateTimeBombs](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup~GenerateTimeBombs.md) | Specifies if timebombs should be created.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup~Queue.md) | The queue into which the ActionItem is to be dispatched.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup~UserName.md) | The user who has dispatched the ActionItem. If not set, the Toolkit session user is used.   |
-
-
-
-
 
 #### Reference
 

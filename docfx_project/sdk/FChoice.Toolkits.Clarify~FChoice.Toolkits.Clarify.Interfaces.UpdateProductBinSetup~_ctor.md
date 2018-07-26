@@ -7,17 +7,20 @@ Initializes a new instance of the UpdateProductBinSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _binObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateProductBinSetup( 
    int _binObjid_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _binObjid_
 Objid of the Bin to be updated
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

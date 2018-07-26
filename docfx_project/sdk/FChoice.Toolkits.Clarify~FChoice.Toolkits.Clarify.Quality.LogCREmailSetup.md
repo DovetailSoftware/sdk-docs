@@ -5,10 +5,14 @@ Used by the [LogCREmail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Qual
 Syntax
 
 ```vbnet
-' Declaration
-Public Class LogCREmailSetup 
+'Declaration
 
-public class LogCREmailSetup 
+Public Class LogCREmailSetup 
+```
+
+```csharp
+public class LogCREmailSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

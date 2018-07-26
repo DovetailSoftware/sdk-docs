@@ -5,10 +5,14 @@ Used by the [AssignLead](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sale
 Syntax
 
 ```vbnet
-' Declaration
-Public Class AssignLeadSetup 
+'Declaration
 
-public class AssignLeadSetup 
+Public Class AssignLeadSetup 
+```
+
+```csharp
+public class AssignLeadSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

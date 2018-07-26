@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743846)>
 Property LocalTimeZone As String
+```
 
+```csharp
 [DispIdAttribute(1610743846)]
 string LocalTimeZone {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

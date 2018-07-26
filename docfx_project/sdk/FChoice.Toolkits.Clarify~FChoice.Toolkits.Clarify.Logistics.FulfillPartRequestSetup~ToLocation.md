@@ -5,20 +5,22 @@ The destination inventory location and bin for the parts used to fulfill this P
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property ToLocation As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md)
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) ToLocation {get; set;}
+<PropertyBitValueAttribute()>
+Public Property ToLocation As Location
+```
 
-Remarks
+```csharp
+[PropertyBitValueAttribute()]
+public Location ToLocation {get; set;}
+```
 
-To use a primary bin suggestion/recommendation that has been previously configured, use the [special constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~_ctor(String,Boolean).md) for the [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) object and set the _isPrimaryBinSuggestion_ parameter to true.
+#### Remarks
+
+To use a primary bin suggestion/recommendation that has been previously configured, use the [special constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~_ctor(String,Boolean).md) for the Location object and set the _isPrimaryBinSuggestion_ parameter to true.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetSafeDoubleFieldValue( _
    ByVal _columnName_ As String _
 ) As Double
+```
 
+```csharp
 public double GetSafeDoubleFieldValue( 
    string _columnName_
 )
+```
 
 #### Parameters
 
 _columnName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

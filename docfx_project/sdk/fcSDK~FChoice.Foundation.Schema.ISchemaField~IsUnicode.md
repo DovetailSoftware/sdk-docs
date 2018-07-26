@@ -3,15 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+As Boolean
+```
+
+```csharp
+boolaration
 
 ReadOnly Property IsUnicode As Boolean
 
 bool IsUnicode {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

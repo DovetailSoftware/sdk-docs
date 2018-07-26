@@ -9,18 +9,18 @@ Syntax
 
 <SerializableAttribute()>
 Public Class FCLicenseException 
-   Inherits [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)
+   Inherits FCExceptionBase
 ```
 
 ```csharp
 [SerializableAttribute()]
-public class FCLicenseException : [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) 
-```
+public class FCLicenseException : FCExceptionBase
+``` 
 
 Inheritance Hierarchy
 
 System.Object  
-[System.Exception](#)  
+System.Exception  
 [System.ApplicationException](#)  
 [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
 **FChoice.Common.FCLicenseException**  

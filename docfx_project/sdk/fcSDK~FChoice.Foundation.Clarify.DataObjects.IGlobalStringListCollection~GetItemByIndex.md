@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function GetItemByIndex( _
    ByVal _index_ As Integer _
-) As [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md)
+) As IGlobalStringList
+```
 
-[IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) GetItemByIndex( 
+```csharp
+IGlobalStringList GetItemByIndex( 
    int _index_
 )
+```
 
 #### Parameters
 
 _index_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

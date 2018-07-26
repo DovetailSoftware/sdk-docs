@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _subcaseIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public LogSubcaseInternalNoteSetup( 
    string _subcaseIDNum_
 )
+```
 
 #### Parameters
 
 _subcaseIDNum_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

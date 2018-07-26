@@ -7,15 +7,18 @@ Reject the Subcase from the queue in which it currently resides, and return it t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RejectSubcase( _
-   ByVal _setupParam_ As [RejectSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectSubcaseSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ RejectSubcaseSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RejectSubcase( 
-   [RejectSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectSubcaseSetup.md) _setupParam_
+```csharp
+public ToolkitResult RejectSubcase( 
+   RejectSubcaseSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Subcase must be in open condition, and currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Reopen a CR. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReopenCR( _
-   ByVal _setupParam_ As [ReopenCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ReopenCRSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReopenCR( 
-   [ReopenCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup.md) _setupParam_
+```csharp
+public ToolkitResult ReopenCR( 
+   ReopenCRSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 It must be in a condition other than “Open”, and cannot be dispatched.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

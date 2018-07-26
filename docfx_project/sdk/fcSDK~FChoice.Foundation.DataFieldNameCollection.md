@@ -3,11 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Class DataFieldNameCollection 
-   Inherits [ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)
+'Declaration
 
-public class DataFieldNameCollection : [ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md) 
+Public Class DataFieldNameCollection 
+   Inherits ValidatedNameCollection
+```
+
+```csharp
+public class DataFieldNameCollection : ValidatedNameCollection
+``` 
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

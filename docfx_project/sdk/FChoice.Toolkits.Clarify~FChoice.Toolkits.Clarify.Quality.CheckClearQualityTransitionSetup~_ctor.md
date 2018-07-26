@@ -15,7 +15,7 @@ Initializes a new instance of the CheckClearQualityTransitionSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -25,7 +25,9 @@ Public Function New( _
    ByVal _newStatus_ As String, _
    ByVal _userName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CheckClearQualityTransitionSetup( 
    string _oldCondition_,
@@ -34,6 +36,7 @@ public CheckClearQualityTransitionSetup(
    string _newStatus_,
    string _userName_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ _userName_
 The user checking the transition. If not set, the session user is used.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

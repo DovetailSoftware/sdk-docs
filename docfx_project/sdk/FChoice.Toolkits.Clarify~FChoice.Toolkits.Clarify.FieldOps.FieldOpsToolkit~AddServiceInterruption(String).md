@@ -5,15 +5,18 @@ The identifier of the Case with which this Service Interuption is associated
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddServiceInterruption( _
    ByVal _caseIDNum_ As String _
-) As [AddServiceInterruptionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.md)
+) As AddServiceInterruptionResult
+```
 
-public [AddServiceInterruptionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.md) AddServiceInterruption( 
+```csharp
+public AddServiceInterruptionResult AddServiceInterruption( 
    string _caseIDNum_
 )
+```
 
 #### Parameters
 
@@ -23,14 +26,12 @@ The identifier of the Case with which this Service Interuption is associated
 
 #### Return Value
 
-The following values are populated in the [AddServiceInterruptionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.md) object returned by the API method:
+The following values are populated in the AddServiceInterruptionResult object returned by the API method:
 
-*   [ScheduleObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult~ScheduleObjid.md) \- The Objid of the Schedule.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult~Objid.md) \- The Objid of the Appointment.
+*   ScheduleObjid \- The Objid of the Schedule.
+*   Objid \- The Objid of the Appointment.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

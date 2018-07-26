@@ -7,15 +7,18 @@ Update an Opportunity. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateOpportunity( _
-   ByVal _setupParam_ As [UpdateOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdateOpportunitySetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateOpportunity( 
-   [UpdateOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdateOpportunity( 
+   UpdateOpportunitySetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The id of the opportunity must be specified. All other data is optional. The account, contact, territory, stage, source, currency, and process may be specified. Also, an amount and a probability may be specified. The API can generate a time bomb for business rules, or not.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

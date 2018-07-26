@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _containerName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public SealContainerSetup( 
    string _containerName_
 )
+```
 
 #### Parameters
 
 _containerName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

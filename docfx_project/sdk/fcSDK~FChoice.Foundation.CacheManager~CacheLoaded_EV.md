@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Event CacheLoaded As [CacheLoadedEventHandler](fcSDK~FChoice.Foundation.CacheLoadedEventHandler.md)
+Public Event CacheLoaded As CacheLoadedEventHandler
+```
 
-public event [CacheLoadedEventHandler](fcSDK~FChoice.Foundation.CacheLoadedEventHandler.md) CacheLoaded
+```csharp
+public event CacheLoadedEventHandler CacheLoaded
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

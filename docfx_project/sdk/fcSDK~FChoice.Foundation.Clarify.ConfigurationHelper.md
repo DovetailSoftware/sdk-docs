@@ -3,10 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public MustInherit NotInheritable Class ConfigurationHelper 
+'Declaration
 
-public static class ConfigurationHelper 
+Public MustInherit NotInheritable Class ConfigurationHelper 
+```
+
+```csharp
+public static class ConfigurationHelper
+```
 
 Inheritance Hierarchy
 
@@ -20,8 +24,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

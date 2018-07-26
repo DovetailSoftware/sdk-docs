@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property BulkCollection As [IMockCollection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection.md)
+'Declaration
 
-public [IMockCollection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection.md) BulkCollection {get;}
+Public ReadOnly Property BulkCollection As IMockCollection
+```
+
+```csharp
+public IMockCollection BulkCollection {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

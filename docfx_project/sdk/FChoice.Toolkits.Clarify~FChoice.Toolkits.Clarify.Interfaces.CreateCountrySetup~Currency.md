@@ -5,21 +5,22 @@ Name of the Currency used by the Country
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property Currency As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string Currency {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If the Currency name is not found a new currency one is created based on the Currency properties of this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

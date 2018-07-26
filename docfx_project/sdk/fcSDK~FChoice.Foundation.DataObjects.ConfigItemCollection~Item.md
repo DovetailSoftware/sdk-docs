@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shadows ReadOnly Default Property Item( _
    ByVal _itemName_ As String _
-) As [ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md)
+) As ConfigItem
+```
 
-public new [ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md) this\[ 
+```csharp
+public new ConfigItem this[ 
    string _itemName_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
 _itemName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

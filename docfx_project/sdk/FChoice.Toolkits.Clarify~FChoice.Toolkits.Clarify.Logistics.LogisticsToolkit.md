@@ -5,12 +5,15 @@ Provides APIs for ClearLogistics Spares Manager and Order Operations. Methods 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class LogisticsToolkit 
-   Inherits [LogisticsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase.md)
+   Inherits LogisticsToolkitBase
+```
 
-public class LogisticsToolkit : [LogisticsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase.md) 
+```csharp
+public class LogisticsToolkit : LogisticsToolkitBase
+``` 
 
 Inheritance Hierarchy
 
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

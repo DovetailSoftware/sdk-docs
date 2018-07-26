@@ -5,21 +5,22 @@ Address State.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property State As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string State {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Please set [IsShortState](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup~IsShortState.md) property depending on whether or not the state name is abbreviated.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

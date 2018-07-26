@@ -5,13 +5,16 @@ Caches and provides convenient access to ADP Schema information
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class SchemaCache 
-   Inherits [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)
-   Implements [FChoice.Foundation.Schema.ISchemaCache](fcSDK~FChoice.Foundation.Schema.ISchemaCache.md) 
+   Inherits ClarifyCacheBase
+   Implements FChoice.Foundation.Schema.ISchemaCache
+```
 
-public class SchemaCache : [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md), [FChoice.Foundation.Schema.ISchemaCache](fcSDK~FChoice.Foundation.Schema.ISchemaCache.md)  
+```csharp
+public class SchemaCache : ClarifyCacheBase, FChoice.Foundation.Schema.ISchemaCache
+```
 
 Inheritance Hierarchy
 
@@ -27,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

@@ -9,19 +9,22 @@ Initializes a new instance of the UpdateSitePartSetup class. This overload takes
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _sitePartObjid_ As Integer, _
    ByVal _serialNumber_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateSitePartSetup( 
    int _sitePartObjid_,
    string _serialNumber_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _serialNumber_
 Serial number of the Site Part
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

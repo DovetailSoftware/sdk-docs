@@ -5,15 +5,16 @@ Retrieves an instance of a CaseTimeAndExpenses object that can be used to specif
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shared ReadOnly EMPTY As [CaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses.md)
+Public Shared ReadOnly EMPTY As CaseTimeAndExpenses
+```
 
+```csharp
 public static readonly [CaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses.md) EMPTY
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

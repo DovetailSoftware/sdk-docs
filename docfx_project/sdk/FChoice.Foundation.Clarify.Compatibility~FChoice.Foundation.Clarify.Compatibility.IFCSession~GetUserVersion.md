@@ -3,24 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743919)>
 Function GetUserVersion( _
    ByVal _formName_ As String _
 ) As String
+```
 
+```csharp
 [DispIdAttribute(1610743919)]
 string GetUserVersion( 
    string _formName_
 )
+```
 
 #### Parameters
 
 _formName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,17 +9,20 @@ This API deletes an existing time log. This overload takes a setup object and a 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DeleteTimeLog( _
-   ByVal _setupParam_ As [DeleteTimeLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteTimeLogSetup.md), _
+   ByVal _setupParam_ As DeleteTimeLogSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteTimeLog( 
-   [DeleteTimeLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteTimeLogSetup.md) _setupParam_,
+```csharp
+public ToolkitResult DeleteTimeLog( 
+   DeleteTimeLogSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

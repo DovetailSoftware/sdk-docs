@@ -1,20 +1,22 @@
-﻿### SiteIDNum Property (DispatchFieldEngineerSetup)
+### SiteIDNum Property (DispatchFieldEngineerSetup)
 
 The Site Id of the site to respond to if the case/subcase site is different.
 
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property SiteIDNum As String
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property SiteIDNum As String
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public string SiteIDNum {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,17 +7,20 @@ Initializes a new instance of the AddServiceInterruptionSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _caseIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AddServiceInterruptionSetup( 
    string _caseIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _caseIDNum_
 The identifier of the Case with which this Service Interuption is associated
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public RepairType As [PartRepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRepairType.md)
+Public RepairType As PartRepairType
+```
 
-public [PartRepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRepairType.md) RepairType
+```csharp
+public PartRepairType RepairType
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

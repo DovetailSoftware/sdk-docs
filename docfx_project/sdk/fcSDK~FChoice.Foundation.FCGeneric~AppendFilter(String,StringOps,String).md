@@ -6,7 +6,7 @@ The type of filter being applied. See the [StringOps](fcSDK~FChoice.Foundation.
 
 The filter is being applied against this value.
 
-Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) against a **String** [DataField](fcSDK~FChoice.Foundation.FCGeneric~DataFields.md).
+Adds a filter to constrain the results of an **FCGeneric** Query against a **String** DataField.
 
 Syntax
 
@@ -15,7 +15,7 @@ Syntax
 
 Public Overloads Sub AppendFilter( _
    ByVal _fieldName_ As String, _
-   ByVal _operation_ As [StringOps](fcSDK~FChoice.Foundation.StringOps.md), _
+   ByVal _operation_ As StringOps, _
    ByVal _value_ As String _
 ) 
 ```
@@ -23,7 +23,7 @@ Public Overloads Sub AppendFilter( _
 ```csharp
 public void AppendFilter( 
    string _fieldName_,
-   [StringOps](fcSDK~FChoice.Foundation.StringOps.md) _operation_,
+   StringOps _operation_,
    string _value_
 )
 ```

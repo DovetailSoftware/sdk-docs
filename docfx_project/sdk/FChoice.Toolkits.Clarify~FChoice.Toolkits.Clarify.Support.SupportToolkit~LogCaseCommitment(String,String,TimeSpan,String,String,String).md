@@ -17,7 +17,7 @@ Creates a  commitment against a Case. This overload takes a set of required par
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCaseCommitment( _
    ByVal _caseIDNum_ As String, _
@@ -26,9 +26,11 @@ Public Overloads Function LogCaseCommitment( _
    ByVal _contactFirstName_ As String, _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogCaseCommitment( 
+```csharp
+public ToolkitResult LogCaseCommitment( 
    string _caseIDNum_,
    string _title_,
    TimeSpan _priorWarning_,
@@ -36,6 +38,7 @@ public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Toolkit
    string _contactLastName_,
    string _contactPhone_
 )
+```
 
 #### Parameters
 
@@ -70,8 +73,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Log.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _isVisible_ As Boolean _
 )
+```
 
+```csharp
 public ToolkitVisibleAttribute( 
    bool _isVisible_
 )
+```
 
 #### Parameters
 
 _isVisible_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

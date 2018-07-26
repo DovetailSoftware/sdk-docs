@@ -5,11 +5,15 @@ Alternative filter to [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md)
 Syntax
 
 ```vbnet
-' Declaration
-Public Class AndManyFilter 
-   Inherits [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)
+'Declaration
 
-public class AndManyFilter : [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md) 
+Public Class AndManyFilter 
+   Inherits LogicalFilter
+```
+
+```csharp
+public class AndManyFilter : LogicalFilter
+```
 
 Inheritance Hierarchy
 
@@ -25,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

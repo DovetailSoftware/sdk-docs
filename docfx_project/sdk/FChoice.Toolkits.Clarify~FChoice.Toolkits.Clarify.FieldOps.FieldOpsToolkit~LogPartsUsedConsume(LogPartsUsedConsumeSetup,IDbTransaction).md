@@ -9,17 +9,20 @@ Used to consume an existing site part or an inventory part. This overload ta
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogPartsUsedConsume( _
-   ByVal _setupParam_ As [LogPartsUsedConsumeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedConsumeSetup.md), _
+   ByVal _setupParam_ As LogPartsUsedConsumeSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogPartsUsedConsume( 
-   [LogPartsUsedConsumeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedConsumeSetup.md) _setupParam_,
+```csharp
+public ToolkitResult LogPartsUsedConsume( 
+   LogPartsUsedConsumeSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -52,8 +55,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

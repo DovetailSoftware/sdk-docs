@@ -7,15 +7,18 @@ Replicate a CR. This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReplicateCR( _
    ByVal _crIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReplicateCR( 
+```csharp
+public ToolkitResult ReplicateCR( 
    string _crIDNum_
 )
+```
 
 #### Parameters
 
@@ -39,8 +42,6 @@ The new CR is an exact copy of the original with the following exceptions:
 3.  A new activity log entry is added to show this CR is replicated. Also, an activity log entry is also added to the original CR to note that it has been replicated.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

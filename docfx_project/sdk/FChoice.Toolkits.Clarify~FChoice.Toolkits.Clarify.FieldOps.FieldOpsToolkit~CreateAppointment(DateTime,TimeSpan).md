@@ -7,17 +7,20 @@ The length (in seconds) of the appointment. If not specified, it is calculated f
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateAppointment( _
    ByVal _startDate_ As Date, _
    ByVal _duration_ As TimeSpan _
-) As [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md)
+) As CreateAppointmentResult
+```
 
-public [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md) CreateAppointment( 
+```csharp
+public CreateAppointmentResult CreateAppointment( 
    DateTime _startDate_,
    TimeSpan _duration_
 )
+```
 
 #### Parameters
 
@@ -31,14 +34,12 @@ The length (in seconds) of the appointment. If not specified, it is calculated f
 
 #### Return Value
 
-The following values are populated in the [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md) object returned by the API method:
+The following values are populated in the CreateAppointmentResult object returned by the API method:
 
-*   [ScheduleObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult~ScheduleObjid.md) \- The Objid of the Schedule.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult~Objid.md) \- The Objid of the Appointment.
+*   ScheduleObjid \- The Objid of the Schedule.
+*   Objid \- The Objid of the Appointment.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

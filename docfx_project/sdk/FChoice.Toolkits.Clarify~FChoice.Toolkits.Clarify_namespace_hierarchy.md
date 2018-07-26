@@ -59,7 +59,7 @@ System.Object
 [FChoice.Toolkits.Clarify.SimplifiedAdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalFields.md)  
 [System.Collections.ObjectModel.Collection<T>](#)  
 [FChoice.Toolkits.Clarify.LocationCollection](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LocationCollection.md)  
-[System.Exception](#)  
+System.Exception  
 [FChoice.Toolkits.Clarify.ClarifyToolkitException](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ClarifyToolkitException.md)  
 
 #### Reference

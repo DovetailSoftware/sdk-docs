@@ -7,15 +7,18 @@ Reject the CR from the queue in which it currently resides, and return it to the
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RejectCR( _
    ByVal _cridnum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RejectCR( 
+```csharp
+public ToolkitResult RejectCR( 
    string _cridnum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The CR must be in open condition, and currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

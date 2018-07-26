@@ -7,15 +7,18 @@ Add a new Workaround to an existing Solution. This overload takes a setup object
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddWorkaround( _
-   ByVal _setupParam_ As [AddWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ AddWorkaroundSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddWorkaround( 
-   [AddWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup.md) _setupParam_
+```csharp
+public ToolkitResult AddWorkaround( 
+   AddWorkaroundSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Workaround.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

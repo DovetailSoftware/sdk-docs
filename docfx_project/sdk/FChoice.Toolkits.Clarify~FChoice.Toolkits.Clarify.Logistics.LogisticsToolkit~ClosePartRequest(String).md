@@ -7,15 +7,18 @@ Causes the specified part request to be closed. This overload takes a set of req
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ClosePartRequest( _
    ByVal _partRequestDetailIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ClosePartRequest( 
+```csharp
+public ToolkitResult ClosePartRequest( 
    string _partRequestDetailIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 This API will validate that the user has the authority to close the part request. If this is the last part request detail that was open for the part request header, the header is also closed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

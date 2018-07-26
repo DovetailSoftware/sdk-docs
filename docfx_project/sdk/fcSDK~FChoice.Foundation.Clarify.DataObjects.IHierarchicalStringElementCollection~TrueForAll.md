@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
-Function TrueForAll( _
-   ByVal _match_ As [Predicate(Of IHierarchicalStringElement)](#) _
-) As Boolean
+'Declaration
 
+Function TrueForAll( _
+   ByVal _match_ As Predicate(Of IHierarchicalStringElement) _
+) As Boolean
+```
+
+```csharp
 bool TrueForAll( 
-   [Predicate<IHierarchicalStringElement>](#) _match_
+   Predicate<IHierarchicalStringElement> _match_
 )
+```
 
 #### Parameters
 
 _match_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

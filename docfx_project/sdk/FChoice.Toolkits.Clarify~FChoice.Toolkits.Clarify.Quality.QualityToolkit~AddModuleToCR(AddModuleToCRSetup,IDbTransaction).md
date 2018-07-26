@@ -9,17 +9,20 @@ Adding a file Module to a Fixed CR. This overload takes a setup object and a dat
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddModuleToCR( _
-   ByVal _setupParam_ As [AddModuleToCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup.md), _
+   ByVal _setupParam_ As AddModuleToCRSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddModuleToCR( 
-   [AddModuleToCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AddModuleToCR( 
+   AddModuleToCRSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

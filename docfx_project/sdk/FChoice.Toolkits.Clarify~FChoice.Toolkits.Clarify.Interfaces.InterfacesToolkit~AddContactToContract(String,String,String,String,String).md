@@ -15,7 +15,7 @@ Adds a Contact to an existing Contract. This overload takes a set of required pa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddContactToContract( _
    ByVal _contractIDNum_ As String, _
@@ -23,15 +23,18 @@ Public Overloads Function AddContactToContract( _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String, _
    ByVal _siteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddContactToContract( 
+```csharp
+public ToolkitResult AddContactToContract( 
    string _contractIDNum_,
    string _contactFirstName_,
    string _contactLastName_,
    string _contactPhone_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -62,8 +65,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Contract the Contact was added to.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

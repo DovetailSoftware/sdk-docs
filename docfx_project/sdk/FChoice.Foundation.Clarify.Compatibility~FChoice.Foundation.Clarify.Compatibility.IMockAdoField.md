@@ -3,14 +3,17 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ComVisibleAttribute](#)(True)>
-<[GuidAttribute](#)("F7AED485-957A-4ad6-90C8-7D475C87F9C7")>
+'Declaration
+<ComVisibleAttribute(True)>
+<GuidAttribute("F7AED485-957A-4ad6-90C8-7D475C87F9C7")>
 Public Interface IMockAdoField 
+```
 
-\[[ComVisibleAttribute](#)(true)\]
-\[[GuidAttribute](#)("F7AED485-957A-4ad6-90C8-7D475C87F9C7")\]
+```csharp
+[ComVisibleAttribute(true)]
+[GuidAttribute("F7AED485-957A-4ad6-90C8-7D475C87F9C7")]
 public interface IMockAdoField 
+```
 
 #### Requirements
 
@@ -19,8 +22,6 @@ public interface IMockAdoField
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
-
-
 
 #### Reference
 

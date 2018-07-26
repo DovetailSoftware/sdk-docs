@@ -5,15 +5,16 @@ The delivery status of the communication ([CommunicationDeliveryStatus](FChoic
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property DeliveryStatus As [CommunicationDeliveryStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationDeliveryStatus.md)
+Public Property DeliveryStatus As CommunicationDeliveryStatus
+```
 
-public [CommunicationDeliveryStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationDeliveryStatus.md) DeliveryStatus {get; set;}
+```csharp
+public CommunicationDeliveryStatus DeliveryStatus {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

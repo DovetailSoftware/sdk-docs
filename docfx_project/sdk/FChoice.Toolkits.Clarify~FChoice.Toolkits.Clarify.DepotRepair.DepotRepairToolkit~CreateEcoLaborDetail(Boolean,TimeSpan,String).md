@@ -11,19 +11,22 @@ Add a Labor Detail to a ECO Header. This overload takes a set of required parame
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateEcoLaborDetail( _
    ByVal _isRequired_ As Boolean, _
    ByVal _elapsedTime_ As TimeSpan, _
    ByVal _ecoHeaderIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateEcoLaborDetail( 
+```csharp
+public ToolkitResult CreateEcoLaborDetail( 
    bool _isRequired_,
    TimeSpan _elapsedTime_,
    string _ecoHeaderIDNum_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Identifier of the ECO header
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

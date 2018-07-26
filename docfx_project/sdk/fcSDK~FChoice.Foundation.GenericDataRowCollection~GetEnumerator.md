@@ -5,19 +5,20 @@ Gets an [IEnumerator](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemcol
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Function GetEnumerator() As [IEnumerator](#)
+Public Function GetEnumerator() As IEnumerator
+```
 
-public [IEnumerator](#) GetEnumerator()
+```csharp
+public IEnumerator GetEnumerator()
+```
 
 #### Return Value
 
 An [IEnumerator](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemcollectionsienumeratorclasstopic.htm) for the collection.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,10 +5,14 @@ Used by the [AcceptCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Qualit
 Syntax
 
 ```vbnet
-' Declaration
-Public Class AcceptCRSetup 
+'Declaration
 
-public class AcceptCRSetup 
+Public Class AcceptCRSetup 
+```
+
+```csharp
+public class AcceptCRSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

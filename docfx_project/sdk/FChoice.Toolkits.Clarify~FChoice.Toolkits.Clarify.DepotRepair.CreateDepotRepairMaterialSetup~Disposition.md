@@ -5,16 +5,18 @@ Indicates how the material relates to the depot repair part.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property Disposition As [RepairPartDisposition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.RepairPartDisposition.md)
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [RepairPartDisposition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.RepairPartDisposition.md) Disposition {get; set;}
+<PropertyBitValueAttribute()>
+Public Property Disposition As RepairPartDisposition
+```
+
+```csharp
+[PropertyBitValueAttribute()]
+public RepairPartDisposition Disposition {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

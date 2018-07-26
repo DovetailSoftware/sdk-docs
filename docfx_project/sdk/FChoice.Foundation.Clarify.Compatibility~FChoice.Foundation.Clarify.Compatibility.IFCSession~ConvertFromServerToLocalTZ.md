@@ -1,27 +1,28 @@
-﻿### ConvertFromServerToLocalTZ Method (IFCSession)
+### ConvertFromServerToLocalTZ Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743872)>
 Function ConvertFromServerToLocalTZ( _
    ByVal _convertDate_ As Date _
 ) As Date
+```
 
+```csharp
 [DispIdAttribute(1610743872)]
 DateTime ConvertFromServerToLocalTZ( 
    DateTime _convertDate_
 )
+```
 
 #### Parameters
 
 _convertDate_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

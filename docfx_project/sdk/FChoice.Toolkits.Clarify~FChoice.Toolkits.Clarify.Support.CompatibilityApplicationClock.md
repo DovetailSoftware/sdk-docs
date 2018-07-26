@@ -3,11 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Class CompatibilityApplicationClock 
    Implements [IApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.md) 
+```
 
-public class CompatibilityApplicationClock : [IApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.md)  
+```csharp
+public class CompatibilityApplicationClock : [IApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.md) 
+```
 
 Inheritance Hierarchy
 
@@ -21,8 +25,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

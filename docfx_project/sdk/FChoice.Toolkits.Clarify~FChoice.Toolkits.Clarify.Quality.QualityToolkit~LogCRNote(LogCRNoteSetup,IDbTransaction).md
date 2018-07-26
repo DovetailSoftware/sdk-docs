@@ -9,17 +9,20 @@ Used to create a note log against a CR. This overload takes a setup object and a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCRNote( _
-   ByVal _setupParam_ As [LogCRNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCRNoteSetup.md), _
+   ByVal _setupParam_ As LogCRNoteSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogCRNote( 
-   [LogCRNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCRNoteSetup.md) _setupParam_,
+```csharp
+public ToolkitResult LogCRNote( 
+   LogCRNoteSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

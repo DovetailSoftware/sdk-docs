@@ -5,12 +5,15 @@ Provides APIs to allow you to modify Logistics Field Operations objects such as 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class FieldOpsToolkit 
-   Inherits [FieldOpsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase.md)
+   Inherits FieldOpsToolkitBase
+```
 
-public class FieldOpsToolkit : [FieldOpsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase.md) 
+```csharp
+public class FieldOpsToolkit : FieldOpsToolkitBase
+``` 
 
 Inheritance Hierarchy
 
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

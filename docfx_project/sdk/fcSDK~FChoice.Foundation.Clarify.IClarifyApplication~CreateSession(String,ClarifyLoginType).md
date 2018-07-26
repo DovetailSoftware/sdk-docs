@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function CreateSession( _
    ByVal _userName_ As String, _
-   ByVal _loginType_ As [ClarifyLoginType](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md) _
-) As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
+   ByVal _loginType_ As ClarifyLoginType _
+) As ClarifySession
+```
 
-[ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) CreateSession( 
+```csharp
+ClarifySession CreateSession( 
    string _userName_,
-   [ClarifyLoginType](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md) _loginType_
+   ClarifyLoginType _loginType_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _userName_
 _loginType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

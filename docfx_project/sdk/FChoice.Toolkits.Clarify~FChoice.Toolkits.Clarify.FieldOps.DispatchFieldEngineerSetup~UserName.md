@@ -1,25 +1,26 @@
-﻿### UserName Property (DispatchFieldEngineerSetup)
+### UserName Property (DispatchFieldEngineerSetup)
 
 The user who has dispatched the FieldEngineer. If not set, the Toolkit session user is used.
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property UserName As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string UserName {get; set;}
+```
 
-Remarks
+#### Remarks
 
 When this property is not specified. This API method will attempt to use the toolkit session's **UserName**. If the toolkit session was **created** as a **Contact** session this property is required otherwise errors will result.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

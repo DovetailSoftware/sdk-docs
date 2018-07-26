@@ -13,7 +13,7 @@ Initializes a new instance of the CreateInteractionSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -22,7 +22,9 @@ Public Function New( _
    ByVal _contactPhone_ As String, _
    ByVal _duration_ As TimeSpan _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateInteractionSetup( 
    string _contactFirstName_,
@@ -30,6 +32,7 @@ public CreateInteractionSetup(
    string _contactPhone_,
    TimeSpan _duration_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ _duration_
 Duration of the Interaction
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

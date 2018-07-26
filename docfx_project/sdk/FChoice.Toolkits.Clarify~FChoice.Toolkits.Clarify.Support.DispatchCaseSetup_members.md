@@ -1,4 +1,4 @@
-﻿### DispatchCaseSetup Class Members
+### DispatchCaseSetup Class Members
 
 The following tables list the members exposed by [DispatchCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchCaseSetup.md).
 
@@ -19,10 +19,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [GenerateTimeBombs](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchCaseSetup~GenerateTimeBombs.md) | Specifies if timebombs should be created.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchCaseSetup~Queue.md) | The queue into which the Case is to be dispatched.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchCaseSetup~UserName.md) | The user who has dispatched the Case. If not set, the Toolkit session user is used.   |
-
-
-
-
 
 #### Reference
 

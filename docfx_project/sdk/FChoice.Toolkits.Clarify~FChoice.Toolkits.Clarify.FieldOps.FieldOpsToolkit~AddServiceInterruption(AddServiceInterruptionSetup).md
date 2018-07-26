@@ -5,15 +5,18 @@ Setup object for API invocation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddServiceInterruption( _
-   ByVal _setupParam_ As [AddServiceInterruptionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup.md) _
-) As [AddServiceInterruptionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.md)
+   ByVal _setupParam_ As AddServiceInterruptionSetup _
+) As AddServiceInterruptionResult
+```
 
-public [AddServiceInterruptionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.md) AddServiceInterruption( 
-   [AddServiceInterruptionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup.md) _setupParam_
+```csharp
+public AddServiceInterruptionResult AddServiceInterruption( 
+   AddServiceInterruptionSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -23,14 +26,12 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [AddServiceInterruptionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.md) object returned by the API method:
+The following values are populated in the AddServiceInterruptionResult object returned by the API method:
 
-*   [ScheduleObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult~ScheduleObjid.md) \- The Objid of the Schedule.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult~Objid.md) \- The Objid of the Appointment.
+*   ScheduleObjid \- The Objid of the Schedule.
+*   Objid \- The Objid of the Appointment.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

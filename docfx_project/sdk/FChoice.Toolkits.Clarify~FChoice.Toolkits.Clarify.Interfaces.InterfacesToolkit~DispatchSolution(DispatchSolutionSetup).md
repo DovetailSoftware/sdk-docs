@@ -7,15 +7,18 @@ Dispatch the Solution to the specified queue. This overload takes a setup object
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DispatchSolution( _
-   ByVal _setupParam_ As [DispatchSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DispatchSolutionSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ DispatchSolutionSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchSolution( 
-   [DispatchSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DispatchSolutionSetup.md) _setupParam_
+```csharp
+public ToolkitResult DispatchSolution( 
+   DispatchSolutionSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Solution must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

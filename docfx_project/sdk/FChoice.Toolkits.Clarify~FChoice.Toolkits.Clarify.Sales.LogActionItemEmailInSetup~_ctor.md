@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _taskId_ As String, _
@@ -11,13 +11,16 @@ Public Function New( _
    ByVal _recipient_ As String, _
    ByVal _message_ As String _
 )
+```
 
+```csharp
 public LogActionItemEmailInSetup( 
    string _taskId_,
    string _sender_,
    string _recipient_,
    string _message_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _recipient_
 _message_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

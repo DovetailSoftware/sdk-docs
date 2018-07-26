@@ -9,17 +9,20 @@ Move the SitePartToPart from one WipBin to another WipBin. This overload takes a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function MoveSitePartToPart( _
-   ByVal _setupParam_ As [MoveSitePartToPartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToPartSetup.md), _
+   ByVal _setupParam_ As MoveSitePartToPartSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) MoveSitePartToPart( 
-   [MoveSitePartToPartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToPartSetup.md) _setupParam_,
+```csharp
+public ToolkitResult MoveSitePartToPart( 
+   MoveSitePartToPartSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

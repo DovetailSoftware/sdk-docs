@@ -12,14 +12,14 @@ Syntax
 'Declaration
 
 Public Overloads Shared Function EncryptString( _
-   ByVal _keyStore_ As [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md), _
+   ByVal _keyStore_ As DataProtectionStore, _
    ByVal _plainText_ As String _
 ) As String
 ```
 
 ```csharp
 public static string EncryptString( 
-   [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md) _keyStore_,
+   DataProtectionStore _keyStore_,
    string _plainText_
 )
 ```

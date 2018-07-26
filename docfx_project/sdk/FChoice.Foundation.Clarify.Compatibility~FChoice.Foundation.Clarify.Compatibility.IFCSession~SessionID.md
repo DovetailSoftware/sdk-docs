@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743843)>
 ReadOnly Property SessionID As String
+```
 
+```csharp
 [DispIdAttribute(1610743843)]
 string SessionID {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

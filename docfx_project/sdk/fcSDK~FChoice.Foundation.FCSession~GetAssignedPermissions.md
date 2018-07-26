@@ -5,7 +5,7 @@ Syntax
 ```vbnet
 'Declaration
 
-Public Overridable Function GetAssignedPermissions() As [String()](#)
+Public Overridable Function GetAssignedPermissions() As String()
 ```
 
 ```csharp

@@ -9,17 +9,20 @@ Assign the ActionItem to a new user. This overload takes a setup object and a da
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AssignActionItem( _
-   ByVal _setupParam_ As [AssignActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignActionItemSetup.md), _
+   ByVal _setupParam_ As AssignActionItemSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AssignActionItem( 
-   [AssignActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignActionItemSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AssignActionItem( 
+   AssignActionItemSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

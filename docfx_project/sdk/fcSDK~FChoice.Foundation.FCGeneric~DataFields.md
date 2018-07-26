@@ -5,11 +5,14 @@ Collection of data fields that will be returned when [Query](fcSDK~FChoice.Foun
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property DataFields As [DataFieldNameCollection](fcSDK~FChoice.Foundation.DataFieldNameCollection.md)
+Public ReadOnly Property DataFields As DataFieldNameCollection
+```
 
-public [DataFieldNameCollection](fcSDK~FChoice.Foundation.DataFieldNameCollection.md) DataFields {get;}
+```csharp
+public DataFieldNameCollection DataFields {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 To add a field to be selected during Query call the [Add](fcSDK~FChoice.Foundation.DataFieldNameCollection~Add.md) or [AddRange](fcSDK~FChoice.Foundation.DataFieldNameCollection~AddRange.md) methods.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

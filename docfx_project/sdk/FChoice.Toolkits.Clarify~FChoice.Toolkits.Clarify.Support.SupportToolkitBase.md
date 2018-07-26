@@ -5,12 +5,15 @@ Please see [SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Su
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustInherit Class SupportToolkitBase 
-   Inherits [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)
+   Inherits FChoice.Toolkits.Clarify.ToolkitBase
+```
 
-public abstract class SupportToolkitBase : [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md) 
+```csharp
+public abstract class SupportToolkitBase : FChoice.Toolkits.Clarify.ToolkitBase
+``` 
 
 Inheritance Hierarchy
 
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

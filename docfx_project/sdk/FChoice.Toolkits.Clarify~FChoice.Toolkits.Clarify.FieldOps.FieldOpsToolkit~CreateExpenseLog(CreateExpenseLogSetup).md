@@ -5,15 +5,18 @@ Setup object for API invocation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateExpenseLog( _
-   ByVal _setupParam_ As [CreateExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup.md) _
-) As [CreateExpenseLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult.md)
+   ByVal _setupParam_ As CreateExpenseLogSetup _
+) As CreateExpenseLogResult
+```
 
-public [CreateExpenseLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult.md) CreateExpenseLog( 
-   [CreateExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup.md) _setupParam_
+```csharp
+public CreateExpenseLogResult CreateExpenseLog( 
+   CreateExpenseLogSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -23,14 +26,12 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [CreateExpenseLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult.md) object returned by the API method:
+The following values are populated in the CreateExpenseLogResult object returned by the API method:
 
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult~Objid.md) \- The Objid of the ExpenseLog.
-*   [OnsiteLogObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult~OnsiteLogObjid.md) \- The Objid of the OnsiteLog.
+*   Objid \- The Objid of the ExpenseLog.
+*   OnsiteLogObjid \- The Objid of the OnsiteLog.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

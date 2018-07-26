@@ -7,15 +7,18 @@ Reject-forward the CR from one queue to another. This overload takes a setup obj
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ForwardCR( _
-   ByVal _setupParam_ As [ForwardCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ForwardCRSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ForwardCRSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardCR( 
-   [ForwardCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ForwardCRSetup.md) _setupParam_
+```csharp
+public ToolkitResult ForwardCR( 
+   ForwardCRSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The CR must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

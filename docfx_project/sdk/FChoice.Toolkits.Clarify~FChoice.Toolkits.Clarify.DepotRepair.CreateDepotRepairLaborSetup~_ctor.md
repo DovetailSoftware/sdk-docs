@@ -11,7 +11,7 @@ Initializes a new instance of the CreateDepotRepairLaborSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _startDate_ As Date, _
    ByVal _duration_ As TimeSpan _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateDepotRepairLaborSetup( 
    int _demandDetailObjid_,
    DateTime _startDate_,
    TimeSpan _duration_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _duration_
 Length of time required to do the work, in seconds
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

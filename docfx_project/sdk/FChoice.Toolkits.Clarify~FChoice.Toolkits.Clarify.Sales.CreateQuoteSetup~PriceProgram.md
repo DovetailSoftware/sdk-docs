@@ -5,20 +5,22 @@ Name of the price program for the Quote.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property PriceProgram As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string PriceProgram {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Must be a price program from the database. If not specified, "US Std Price List" is used.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

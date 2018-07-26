@@ -27,7 +27,7 @@ Public Overloads Function CreatePriceInstance( _
    ByVal _partDomain_ As String, _
    ByVal _supportProgram_ As String, _
    ByVal _priceProgram_ As String, _
-   ByVal _priceType_ As [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md), _
+   ByVal _priceType_ As PriceInstanceType, _
    ByVal _quantity_ As Integer _
 ) As ToolkitResult
 ```
@@ -39,7 +39,7 @@ public ToolkitResult CreatePriceInstance(
    string _partDomain_,
    string _supportProgram_,
    string _priceProgram_,
-   [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md) _priceType_,
+   PriceInstanceType _priceType_,
    int _quantity_
 )
 ```
@@ -78,7 +78,7 @@ The quantity of the part for the Price Instance. If not set, it will default to 
 
 The following values are populated in the ToolkitResult object returned by the API method:
 
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Price Instance record.
+*   Objid \- Objid of the Price Instance record.
 
 Remarks
 

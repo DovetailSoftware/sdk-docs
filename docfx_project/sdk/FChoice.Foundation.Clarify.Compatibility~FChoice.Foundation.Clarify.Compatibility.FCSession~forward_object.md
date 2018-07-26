@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function forward_object( _
    ByVal _objId_ As String, _
@@ -14,7 +14,9 @@ Public Function forward_object( _
    ByVal _generateTimeBombs_ As Boolean, _
    ByVal _objectType_ As String _
 ) As Short
+```
 
+```csharp
 public short forward_object( 
    string _objId_,
    string _newQueue_,
@@ -24,6 +26,7 @@ public short forward_object(
    bool _generateTimeBombs_,
    string _objectType_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _generateTimeBombs_
 _objectType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

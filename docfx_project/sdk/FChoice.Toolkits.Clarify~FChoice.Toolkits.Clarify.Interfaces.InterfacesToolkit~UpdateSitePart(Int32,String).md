@@ -9,17 +9,20 @@ Update a Site Part This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateSitePart( _
    ByVal _sitePartObjid_ As Integer, _
    ByVal _serialNumber_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateSitePart( 
+```csharp
+public ToolkitResult UpdateSitePart( 
    int _sitePartObjid_,
    string _serialNumber_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the SitePart.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

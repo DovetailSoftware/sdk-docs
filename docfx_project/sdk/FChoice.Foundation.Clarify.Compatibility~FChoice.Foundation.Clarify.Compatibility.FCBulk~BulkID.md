@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property BulkID As Short
+'Declaration
 
+Public Property BulkID As Short
+```
+
+```csharp
 public short BulkID {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

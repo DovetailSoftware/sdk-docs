@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743861)>
 Sub SimpleQuery( _
    ByVal _obj_name_ As String _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743861)]
 void SimpleQuery( 
    string _obj_name_
 )
+```
 
 #### Parameters
 
 _obj_name_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

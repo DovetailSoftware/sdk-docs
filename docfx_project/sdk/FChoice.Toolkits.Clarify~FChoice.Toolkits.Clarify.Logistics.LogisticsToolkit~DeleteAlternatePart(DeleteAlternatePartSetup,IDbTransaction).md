@@ -9,17 +9,20 @@ Causes the second part/revision listed to be removed as an alternate part for th
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DeleteAlternatePart( _
-   ByVal _setupParam_ As [DeleteAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.md), _
+   ByVal _setupParam_ As DeleteAlternatePartSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteAlternatePart( 
-   [DeleteAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.md) _setupParam_,
+```csharp
+public ToolkitResult DeleteAlternatePart( 
+   DeleteAlternatePartSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

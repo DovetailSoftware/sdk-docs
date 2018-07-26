@@ -7,15 +7,18 @@ Update a Contract. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateContract( _
-   ByVal _setupParam_ As [UpdateContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContractSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdateContractSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateContract( 
-   [UpdateContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContractSetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdateContract( 
+   UpdateContractSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -31,8 +34,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the Contract.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

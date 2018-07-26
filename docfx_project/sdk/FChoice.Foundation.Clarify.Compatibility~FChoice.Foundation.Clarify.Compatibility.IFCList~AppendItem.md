@@ -3,7 +3,8 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743816)>
 Sub AppendItem( _
    ByVal _param1_ As Object, _
@@ -16,7 +17,9 @@ Sub AppendItem( _
    Optional ByVal _param8_ As Object, _
    Optional ByVal _param9_ As Object _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743816)]
 void AppendItem( 
    object _param1_,
@@ -29,6 +32,7 @@ void AppendItem(
    object _param8_,
    object _param9_
 )
+```
 
 #### Parameters
 
@@ -51,8 +55,6 @@ _param8_
 _param9_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

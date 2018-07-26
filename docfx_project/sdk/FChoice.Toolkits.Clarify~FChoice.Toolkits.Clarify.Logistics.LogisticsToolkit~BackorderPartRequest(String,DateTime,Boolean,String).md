@@ -13,21 +13,24 @@ Allows for the backordering of inventory parts for a part request. This overload
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function BackorderPartRequest( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _expectedDate_ As Date, _
    ByVal _useTransitions_ As Boolean, _
    ByVal _serialNumber_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) BackorderPartRequest( 
+```csharp
+public ToolkitResult BackorderPartRequest( 
    string _partRequestDetailIDNum_,
    DateTime _expectedDate_,
    bool _useTransitions_,
    string _serialNumber_
 )
+```
 
 #### Parameters
 
@@ -66,8 +69,6 @@ To allow for multiple calls to this API to be performed without extra complex t
 **NOTE**: This API requires two other APIs ([PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.md) and [CreatePartRequestDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail.md)) to work correctly.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

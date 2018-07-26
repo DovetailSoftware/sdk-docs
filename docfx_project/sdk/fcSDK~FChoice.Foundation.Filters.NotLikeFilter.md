@@ -5,11 +5,15 @@ Filter field on strings that are not like the filter input
 Syntax
 
 ```vbnet
-' Declaration
-Public Class NotLikeFilter 
-   Inherits [LikeFilter](fcSDK~FChoice.Foundation.Filters.LikeFilter.md)
+'Declaration
 
-public class NotLikeFilter : [LikeFilter](fcSDK~FChoice.Foundation.Filters.LikeFilter.md) 
+Public Class NotLikeFilter 
+   Inherits LikeFilter
+```
+
+```csharp
+public class NotLikeFilter : LikeFilter 
+```
 
 Example
 
@@ -34,8 +38,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

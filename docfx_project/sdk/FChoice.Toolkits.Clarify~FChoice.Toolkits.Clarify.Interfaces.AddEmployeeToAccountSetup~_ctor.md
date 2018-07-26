@@ -9,19 +9,22 @@ Initializes a new instance of the AddEmployeeToAccountSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _userName_ As String, _
    ByVal _accountIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AddEmployeeToAccountSetup( 
    string _userName_,
    string _accountIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _accountIDNum_
 Identifier of the Account the Employee is being added to .
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

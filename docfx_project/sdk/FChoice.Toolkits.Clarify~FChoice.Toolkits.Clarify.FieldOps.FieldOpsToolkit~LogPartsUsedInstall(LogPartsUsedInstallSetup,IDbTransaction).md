@@ -9,17 +9,20 @@ Used to install a new site part. This overload takes a setup object and a data
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogPartsUsedInstall( _
-   ByVal _setupParam_ As [LogPartsUsedInstallSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedInstallSetup.md), _
+   ByVal _setupParam_ As LogPartsUsedInstallSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogPartsUsedInstall( 
-   [LogPartsUsedInstallSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedInstallSetup.md) _setupParam_,
+```csharp
+public ToolkitResult LogPartsUsedInstall( 
+   LogPartsUsedInstallSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -52,8 +55,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Closes the specified Case that is currently open. This overload takes a set of r
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CloseCase( _
    ByVal _caseIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CloseCase( 
+```csharp
+public ToolkitResult CloseCase( 
    string _caseIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 If the [CloseSums](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup~CloseSums.md) property is not set, the API will automatically calculate the log summation for the Case.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,11 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Class SchemaViewFieldInfoCollection 
-   Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of SchemaViewFieldInfo)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
+'Declaration
 
-public class SchemaViewFieldInfoCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<SchemaViewFieldInfo>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md) 
+Public Class SchemaViewFieldInfoCollection 
+   Inherits FChoice.Foundation.DataObjects.DataObjectCollection(Of SchemaViewFieldInfo)
+```
+
+```csharp
+public class SchemaViewFieldInfoCollection : FChoice.Foundation.DataObjects.DataObjectCollection<SchemaViewFieldInfo>
+```
 
 Inheritance Hierarchy
 
@@ -23,8 +27,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

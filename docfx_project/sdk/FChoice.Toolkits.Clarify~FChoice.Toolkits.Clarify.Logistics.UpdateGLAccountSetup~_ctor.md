@@ -9,19 +9,22 @@ Initializes a new instance of the UpdateGLAccountSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _currentName_ As String, _
    ByVal _siteIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateGLAccountSetup( 
    string _currentName_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _siteIDNum_
 Identifier of the Site with which the account is associated
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

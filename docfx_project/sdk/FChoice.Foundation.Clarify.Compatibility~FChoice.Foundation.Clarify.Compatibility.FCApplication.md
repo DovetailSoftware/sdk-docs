@@ -3,21 +3,25 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[ComVisibleAttribute](#)(True)>
-<[GuidAttribute](#)("96EFBAF6-4FA0-4f71-A012-910F6CF61120")>
-<[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)>
-<[ProgIdAttribute](#)("FCFLCompat.FCApplication")>
-<[ClassInterfaceAttribute](#)(ClassInterfaceType.None)>
-Public NotInheritable Class FCApplication 
-   Implements [IFCApplication](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication.md) 
+'Declaration
 
-\[[ComVisibleAttribute](#)(true)\]
-\[[GuidAttribute](#)("96EFBAF6-4FA0-4f71-A012-910F6CF61120")\]
-\[[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)\]
-\[[ProgIdAttribute](#)("FCFLCompat.FCApplication")\]
-\[[ClassInterfaceAttribute](#)(ClassInterfaceType.None)\]
-public sealed class FCApplication : [IFCApplication](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication.md)  
+<ComVisibleAttribute(True)>
+<GuidAttribute("96EFBAF6-4FA0-4f71-A012-910F6CF61120")>
+<IDispatchImplAttribute(IDispatchImplType.CompatibleImpl)>
+<ProgIdAttribute("FCFLCompat.FCApplication")>
+<ClassInterfaceAttribute(ClassInterfaceType.None)>
+Public NotInheritable Class FCApplication 
+   Implements IFCApplication 
+```
+
+```csharp
+[ComVisibleAttribute(true)]
+[GuidAttribute("96EFBAF6-4FA0-4f71-A012-910F6CF61120")]
+[IDispatchImplAttribute(IDispatchImplType.CompatibleImpl)]
+[ProgIdAttribute("FCFLCompat.FCApplication")]
+[ClassInterfaceAttribute(ClassInterfaceType.None)]
+public sealed class FCApplication : IFCApplication  
+```
 
 Inheritance Hierarchy
 
@@ -31,8 +35,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
-
-
 
 #### Reference
 

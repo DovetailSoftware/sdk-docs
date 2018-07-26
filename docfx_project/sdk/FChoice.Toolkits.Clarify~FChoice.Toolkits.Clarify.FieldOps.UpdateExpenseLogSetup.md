@@ -5,10 +5,14 @@ Used by the [UpdateExpenseLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarif
 Syntax
 
 ```vbnet
-' Declaration
-Public Class UpdateExpenseLogSetup 
+'Declaration
 
-public class UpdateExpenseLogSetup 
+Public Class UpdateExpenseLogSetup 
+```
+
+```csharp
+public class UpdateExpenseLogSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

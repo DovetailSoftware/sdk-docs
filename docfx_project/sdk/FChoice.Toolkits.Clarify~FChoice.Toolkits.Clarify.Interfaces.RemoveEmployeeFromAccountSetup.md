@@ -5,10 +5,14 @@ Used by the [RemoveEmployeeFromAccount](FChoice.Toolkits.Clarify~FChoice.Toolki
 Syntax
 
 ```vbnet
-' Declaration
-Public Class RemoveEmployeeFromAccountSetup 
+'Declaration
 
-public class RemoveEmployeeFromAccountSetup 
+Public Class RemoveEmployeeFromAccountSetup 
+```
+
+```csharp
+public class RemoveEmployeeFromAccountSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

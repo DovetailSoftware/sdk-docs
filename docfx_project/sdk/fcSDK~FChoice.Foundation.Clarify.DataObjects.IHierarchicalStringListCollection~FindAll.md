@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function FindAll( _
-   ByVal _match_ As [Predicate(Of IHierarchicalStringList)](#) _
-) As [List(Of IHierarchicalStringList)](#)
+   ByVal _match_ As Predicate(Of IHierarchicalStringList) _
+) As List(Of IHierarchicalStringList)
+```
 
-[List<IHierarchicalStringList>](#) FindAll( 
-   [Predicate<IHierarchicalStringList>](#) _match_
+```csharp
+List<IHierarchicalStringList> FindAll( 
+   Predicate<IHierarchicalStringList> _match_
 )
+```
 
 #### Parameters
 
 _match_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

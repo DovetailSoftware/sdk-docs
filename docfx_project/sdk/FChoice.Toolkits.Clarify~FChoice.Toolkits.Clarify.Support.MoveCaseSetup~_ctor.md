@@ -9,19 +9,22 @@ Initializes a new instance of the MoveCaseSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _caseIDNum_ As String, _
    ByVal _newWipBin_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public MoveCaseSetup( 
    string _caseIDNum_,
    string _newWipBin_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _newWipBin_
 The new WipBin into which the Case is to be moved.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

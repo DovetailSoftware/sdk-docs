@@ -3,23 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _ds_ As [ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) _
-)
+   ByVal _ds_ As ClarifyDataSet _
+)```
 
+```csharp
 public WorkflowManager( 
-   [ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) _ds_
+   ClarifyDataSet _ds_
 )
+```
 
 #### Parameters
 
 _ds_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,18 +5,20 @@ Quote/Contract Identifier.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property ContractIDNum As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string ContractIDNum {get; set;}
+```
 
-Requirements
+[equirements
 
 The Quote/Contract must already exist and have at least one valid schedule.
-
-
 
 #### Reference
 

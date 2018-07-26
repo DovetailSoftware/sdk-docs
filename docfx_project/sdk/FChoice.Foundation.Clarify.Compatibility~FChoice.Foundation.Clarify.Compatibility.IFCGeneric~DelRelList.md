@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743832)>
 Property DelRelList As String
+```
 
+```csharp
 [DispIdAttribute(1610743832)]
 string DelRelList {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

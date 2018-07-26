@@ -7,15 +7,18 @@ Dispatch the Quote to the specified queue. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DispatchQuote( _
-   ByVal _setupParam_ As [DispatchQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchQuoteSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ DispatchQuoteSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchQuote( 
-   [DispatchQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchQuoteSetup.md) _setupParam_
+```csharp
+public ToolkitResult DispatchQuote( 
+   DispatchQuoteSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Quote must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

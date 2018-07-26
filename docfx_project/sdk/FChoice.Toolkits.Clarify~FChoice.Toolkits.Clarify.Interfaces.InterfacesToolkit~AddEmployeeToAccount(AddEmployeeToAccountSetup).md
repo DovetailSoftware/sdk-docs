@@ -7,15 +7,18 @@ Add an Employee as a team member to an Account with a specified role. This overl
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddEmployeeToAccount( _
-   ByVal _setupParam_ As [AddEmployeeToAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ AddEmployeeToAccountSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddEmployeeToAccount( 
-   [AddEmployeeToAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup.md) _setupParam_
+```csharp
+public ToolkitResult AddEmployeeToAccount( 
+   AddEmployeeToAccountSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 If no [RoleName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup~RoleName.md) is specified then the default role name is used.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

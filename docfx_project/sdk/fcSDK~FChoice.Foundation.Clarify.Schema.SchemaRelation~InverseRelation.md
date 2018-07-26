@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property InverseRelation As [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md)
+'Declaration
 
-public [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md) InverseRelation {get;}
+Public ReadOnly Property InverseRelation As SchemaRelation
+```
+
+```csharp
+public SchemaRelation InverseRelation {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

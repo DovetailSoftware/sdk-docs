@@ -7,17 +7,20 @@ Initializes a new instance of the ReplicateCRSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _crIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public ReplicateCRSetup( 
    string _crIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _crIDNum_
 Identifier of the CR being replicated.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,14 +3,13 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 ReadOnly Property Now As Date
 
 DateTime Now {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

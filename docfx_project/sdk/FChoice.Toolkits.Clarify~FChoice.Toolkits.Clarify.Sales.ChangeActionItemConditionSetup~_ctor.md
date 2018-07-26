@@ -9,19 +9,22 @@ Initializes a new instance of the ChangeActionItemConditionSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _actionItemIDNum_ As String, _
    ByVal _newcondition_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public ChangeActionItemConditionSetup( 
    string _actionItemIDNum_,
    string _newcondition_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _newcondition_
 The new condition for the Action Item
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

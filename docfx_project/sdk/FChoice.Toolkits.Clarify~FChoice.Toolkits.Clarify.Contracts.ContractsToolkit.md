@@ -5,12 +5,15 @@ Provides APIs to allow you to modify ClearContracts objects, including contracts
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class ContractsToolkit 
-   Inherits [ContractsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase.md)
+   Inherits ContractsToolkitBase
+```
 
-public class ContractsToolkit : [ContractsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase.md) 
+```csharp
+public class ContractsToolkit : ContractsToolkitBase 
+```
 
 Inheritance Hierarchy
 
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

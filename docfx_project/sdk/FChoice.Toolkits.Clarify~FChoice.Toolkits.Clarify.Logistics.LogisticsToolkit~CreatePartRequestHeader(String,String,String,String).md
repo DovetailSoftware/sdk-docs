@@ -15,21 +15,24 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreatePartRequestHeader( _
    ByVal _contactFirstName_ As String, _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String, _
    ByVal _shipToSiteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreatePartRequestHeader( 
+```csharp
+public ToolkitResult CreatePartRequestHeader( 
    string _contactFirstName_,
    string _contactLastName_,
    string _contactPhone_,
    string _shipToSiteIDNum_
 )
+```
 
 #### Parameters
 
@@ -67,8 +70,6 @@ To create a Part Request Header for a case or subcase, without respect for dashe
 **NOTE**: The [ContractObjId](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup~ContractObjid.md) property on the [CreatePartRequestHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup.md) object should not be set (left as default) unless you need this functionality AND have installed the First Choice ClearCallCenter for ClearLogistics product and schema changes. If you do not have this product and wish to use this functionality, please contact First Choice Software.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

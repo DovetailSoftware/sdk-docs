@@ -5,10 +5,14 @@ Used by the [ForwardActionItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clari
 Syntax
 
 ```vbnet
-' Declaration
-Public Class ForwardActionItemSetup 
+'Declaration
 
-public class ForwardActionItemSetup 
+Public Class ForwardActionItemSetup 
+```
+
+```csharp
+public class ForwardActionItemSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

@@ -5,10 +5,14 @@ Used by the [AssignActionItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarif
 Syntax
 
 ```vbnet
-' Declaration
-Public Class AssignActionItemSetup 
+'Declaration
 
-public class AssignActionItemSetup 
+Public Class AssignActionItemSetup 
+```
+
+```csharp
+public class AssignActionItemSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

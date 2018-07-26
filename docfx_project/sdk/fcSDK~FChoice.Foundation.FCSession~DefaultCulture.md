@@ -5,11 +5,14 @@ Returns the default [Culture](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cp
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property DefaultCulture As CultureInfo
+```
 
+```csharp
 public CultureInfo DefaultCulture {get;}
+```
 
 #### Property Value
 
@@ -22,8 +25,6 @@ This is the CultureInfo that is used unless the [CurrentCulture](fcSDK~FChoice
 This value currently defaults to the [InstalledUICulture](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemGlobalizationCultureInfoClassInstalledUICultureTopic.htm).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,19 +9,22 @@ Initializes a new instance of the UpdateScheduleSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _contractIDNum_ As String, _
    ByVal _scheduleIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateScheduleSetup( 
    string _contractIDNum_,
    string _scheduleIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _scheduleIDNum_
 Schedule Identifier.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RemoveSiteFromContract( _
    ByVal _contractIDNum_ As String, _
    ByVal _siteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RemoveSiteFromContract( 
+```csharp
+public ToolkitResult RemoveSiteFromContract( 
    string _contractIDNum_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _contractIDNum_
 _siteIDNum_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

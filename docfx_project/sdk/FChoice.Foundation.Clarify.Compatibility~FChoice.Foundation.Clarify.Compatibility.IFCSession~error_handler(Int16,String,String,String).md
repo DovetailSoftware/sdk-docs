@@ -1,9 +1,9 @@
-﻿### error_handler(Int16,String,String,String) Method
+### error_handler(Int16,String,String,String) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743882)>
 Overloads Function error_handler( _
@@ -12,7 +12,9 @@ Overloads Function error_handler( _
    ByVal _source_ As String, _
    ByVal _message_ As String _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743882)]
 short error_handler( 
    short _errorNum_,
@@ -20,6 +22,7 @@ short error_handler(
    string _source_,
    string _message_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _source_
 _message_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

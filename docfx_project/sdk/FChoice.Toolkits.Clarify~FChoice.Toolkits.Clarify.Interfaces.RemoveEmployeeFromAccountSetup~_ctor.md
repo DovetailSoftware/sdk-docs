@@ -11,7 +11,7 @@ Initializes a new instance of the RemoveEmployeeFromAccountSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _accountIDNum_ As String, _
    ByVal _roleName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public RemoveEmployeeFromAccountSetup( 
    string _userName_,
    string _accountIDNum_,
    string _roleName_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _roleName_
 Employee Role to be removing from the Account
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

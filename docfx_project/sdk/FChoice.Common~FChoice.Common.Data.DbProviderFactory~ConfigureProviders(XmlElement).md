@@ -6,13 +6,13 @@ Syntax
 'Declaration
 
 Public Overloads Shared Sub ConfigureProviders( _
-   ByVal _parentElm_ As [XmlElement](#) _
+   ByVal _parentElm_ As XmlElement _
 ) 
 ```
 
 ```csharp
 public static void ConfigureProviders( 
-   [XmlElement](#) _parentElm_
+   XmlElement _parentElm_
 )
 ```
 

@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743917)>
 Sub LoadUserVersions( _
    Optional ByVal _userName_ As Object _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743917)]
 void LoadUserVersions( 
    object _userName_
 )
+```
 
 #### Parameters
 
 _userName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetElementByRank( _
    ByVal _rank_ As Integer _
-) As [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md)
+) As IGlobalStringElement
+```
 
-public [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md) GetElementByRank( 
+```csharp
+public IGlobalStringElement GetElementByRank( 
    int _rank_
 )
+```
 
 #### Parameters
 
 _rank_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

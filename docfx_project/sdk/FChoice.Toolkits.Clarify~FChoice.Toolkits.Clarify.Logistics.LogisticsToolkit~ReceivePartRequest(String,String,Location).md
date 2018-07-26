@@ -13,19 +13,22 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReceivePartRequest( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _serialNumber_ As String, _
-   ByVal _toLocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _toLocation_ As Location _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReceivePartRequest( 
+```csharp
+public ToolkitResult ReceivePartRequest( 
    string _partRequestDetailIDNum_,
    string _serialNumber_,
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _toLocation_
+   Location _toLocation_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ To allow for multiple calls to this API to be performed without extra complex t
 **NOTE**: This API must be called in conjunction with the [PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.md) API to work correctly.  
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,19 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DefaultMemberAttribute("Item")>
 Public Class FCTimeZoneCollection 
-   Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of FCTimeZone)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
+   Inherits FChoice.Foundation.DataObjects.DataObjectCollection(Of FCTimeZone)
+```
 
+```csharp
 [DefaultMemberAttribute("Item")]
-public class FCTimeZoneCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<FCTimeZone>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md) 
+public class FCTimeZoneCollection : FChoice.Foundation.DataObjects.DataObjectCollection<FCTimeZone>
+``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  
@@ -25,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

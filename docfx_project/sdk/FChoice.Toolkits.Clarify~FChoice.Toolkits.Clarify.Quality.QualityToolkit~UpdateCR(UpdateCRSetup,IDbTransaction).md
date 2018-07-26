@@ -9,17 +9,20 @@ Update an existing CR. This overload takes a setup object and a database transa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateCR( _
-   ByVal _setupParam_ As [UpdateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.UpdateCRSetup.md), _
+   ByVal _setupParam_ As UpdateCRSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateCR( 
-   [UpdateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.UpdateCRSetup.md) _setupParam_,
+```csharp
+public ToolkitResult UpdateCR( 
+   UpdateCRSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

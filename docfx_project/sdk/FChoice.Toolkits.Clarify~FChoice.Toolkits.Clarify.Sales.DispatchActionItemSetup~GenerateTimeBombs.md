@@ -1,21 +1,20 @@
-﻿### GenerateTimeBombs Property (DispatchActionItemSetup)
+### GenerateTimeBombs Property (DispatchActionItemSetup)
 
 Specifies if timebombs should be created.
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property GenerateTimeBombs As Boolean
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+[PropertyBitValueAttribute()]
 public bool GenerateTimeBombs {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

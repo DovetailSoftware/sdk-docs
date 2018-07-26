@@ -15,23 +15,26 @@ Used to create a new Lead. This overload takes a set of required parameters fo
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateLead( _
    ByVal _state_ As String, _
    ByVal _country_ As String, _
    ByVal _timeZone_ As String, _
-   ByVal _siteType_ As [LeadSiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LeadSiteType.md), _
+   ByVal _siteType_ As LeadSiteType, _
    ByVal _leadSource_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateLead( 
+```csharp
+public ToolkitResult CreateLead( 
    string _state_,
    string _country_,
    string _timeZone_,
-   [LeadSiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LeadSiteType.md) _siteType_,
+   LeadSiteType _siteType_,
    string _leadSource_
 )
+```
 
 #### Parameters
 
@@ -57,9 +60,9 @@ Name of the lead source.
 
 #### Return Value
 
-The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+The following values are populated in the ToolkitResult object returned by the API method:
 
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Lead.
+*   Objid \- The Objid of the Lead.
 
 Remarks
 
@@ -68,8 +71,6 @@ For almost all of the data, it can be specified, or not.
 The user who created the lead, and the date/time of the create can be specified. The API can also generate a time bomb (for business rules). Finally, additional fields may be set.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

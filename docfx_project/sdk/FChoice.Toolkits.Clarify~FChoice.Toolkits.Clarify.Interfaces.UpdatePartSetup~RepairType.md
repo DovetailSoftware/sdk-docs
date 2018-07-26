@@ -5,17 +5,18 @@ Type of repair. One of "Repairable" or "Expendable"
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property RepairType As [PartRepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRepairType.md)
+<PropertyBitValueAttribute()>
+Public Property RepairType As PartRepairType
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [PartRepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRepairType.md) RepairType {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public PartRepairType RepairType {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

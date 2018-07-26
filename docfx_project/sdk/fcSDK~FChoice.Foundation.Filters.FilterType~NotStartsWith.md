@@ -5,16 +5,20 @@ Filter field on strings that do start with the input to this filter
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Function NotStartsWith( _
    ByVal _columnName_ As String, _
    ByVal _value_ As String _
-) As [NotStartsWithFilter](fcSDK~FChoice.Foundation.Filters.NotStartsWithFilter.md)
+) As NotStartsWithFilter
+```
 
-public static [NotStartsWithFilter](fcSDK~FChoice.Foundation.Filters.NotStartsWithFilter.md) NotStartsWith( 
+```csharp
+public static NotStartsWithFilter NotStartsWith( 
    string _columnName_,
    string _value_
 )
+```
 
 #### Parameters
 
@@ -23,8 +27,6 @@ _columnName_
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

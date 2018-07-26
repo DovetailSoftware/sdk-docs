@@ -1,9 +1,9 @@
-﻿### reject_object Method (IFCSession)
+### reject_object Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743902)>
 Function reject_object( _
@@ -15,7 +15,9 @@ Function reject_object( _
    ByVal _genearateTimeBombs_ As Boolean, _
    ByVal _objectType_ As String _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743902)]
 short reject_object( 
    string _objId_,
@@ -26,6 +28,7 @@ short reject_object(
    bool _genearateTimeBombs_,
    string _objectType_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ _genearateTimeBombs_
 _objectType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

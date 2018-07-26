@@ -5,11 +5,15 @@ Abstract filter for operation type filters.
 Syntax
 
 ```vbnet
-' Declaration
-Public MustInherit Class OperationFilter 
-   Inherits [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)
+'Declaration
 
-public abstract class OperationFilter : [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md) 
+Public MustInherit Class OperationFilter 
+   Inherits ColumnBasedFilter
+```
+
+```csharp
+public abstract class OperationFilter : ColumnBasedFilter
+```
 
 Example
 
@@ -35,8 +39,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

@@ -5,16 +5,18 @@ The maximum amount of time allowed by the Contract for a customer service repr
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property PhoneResponseDuration As TimeSpan
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property PhoneResponseDuration As TimeSpan
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public TimeSpan PhoneResponseDuration {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

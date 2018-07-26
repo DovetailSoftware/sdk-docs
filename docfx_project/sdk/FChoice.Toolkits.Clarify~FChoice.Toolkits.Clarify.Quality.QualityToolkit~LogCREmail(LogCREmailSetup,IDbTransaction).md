@@ -9,17 +9,20 @@ Used to create a email log for a CR. This overload takes a setup object and a 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCREmail( _
-   ByVal _setupParam_ As [LogCREmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup.md), _
+   ByVal _setupParam_ As LogCREmailSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogCREmail( 
-   [LogCREmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup.md) _setupParam_,
+```csharp
+public ToolkitResult LogCREmail( 
+   LogCREmailSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

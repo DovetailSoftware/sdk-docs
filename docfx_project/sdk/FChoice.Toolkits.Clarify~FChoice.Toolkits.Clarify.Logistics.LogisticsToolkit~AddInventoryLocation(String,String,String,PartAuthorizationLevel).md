@@ -15,21 +15,24 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddInventoryLocation( _
    ByVal _locationName_ As String, _
    ByVal _capitalGLAccount_ As String, _
    ByVal _siteIDNum_ As String, _
-   ByVal _partAuthorizationLevel_ As [PartAuthorizationLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartAuthorizationLevel.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _partAuthorizationLevel_ As PartAuthorizationLevel _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddInventoryLocation( 
+```csharp
+public ToolkitResult AddInventoryLocation( 
    string _locationName_,
    string _capitalGLAccount_,
    string _siteIDNum_,
-   [PartAuthorizationLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartAuthorizationLevel.md) _partAuthorizationLevel_
+   PartAuthorizationLevel _partAuthorizationLevel_
 )
+```
 
 #### Parameters
 
@@ -56,8 +59,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Inventory Location record.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

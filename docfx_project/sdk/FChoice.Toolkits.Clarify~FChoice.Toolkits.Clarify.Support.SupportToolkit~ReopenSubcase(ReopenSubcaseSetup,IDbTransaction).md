@@ -9,17 +9,20 @@ Reopens the specified Subcase. This overload takes a setup object and a database
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReopenSubcase( _
-   ByVal _setupParam_ As [ReopenSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup.md), _
+   ByVal _setupParam_ As ReopenSubcaseSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReopenSubcase( 
-   [ReopenSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ReopenSubcase( 
+   ReopenSubcaseSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

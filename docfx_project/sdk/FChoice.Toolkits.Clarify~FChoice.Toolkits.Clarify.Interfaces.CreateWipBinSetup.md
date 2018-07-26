@@ -5,10 +5,14 @@ Used by the [CreateWipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.In
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CreateWipBinSetup 
+'Declaration
 
-public class CreateWipBinSetup 
+Public Class CreateWipBinSetup 
+```
+
+```csharp
+public class CreateWipBinSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

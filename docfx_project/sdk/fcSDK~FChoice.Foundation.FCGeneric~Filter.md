@@ -5,12 +5,16 @@ This is the root filter used to constrain rows returned during [Query](fcSDK~FCh
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public ReadOnly Property Filter As [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md)
+```
 
+```csharp
 public [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md) Filter {get;}
+```
 
-Remarks
+#### Remarks
 
 Since the root filter is an [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md) all filters added to it will be seperated with ANDs.
 
@@ -19,8 +23,6 @@ Example
 [**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

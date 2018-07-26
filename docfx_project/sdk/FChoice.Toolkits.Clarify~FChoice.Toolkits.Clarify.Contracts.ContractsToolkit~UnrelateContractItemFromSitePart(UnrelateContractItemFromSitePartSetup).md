@@ -7,15 +7,18 @@ Used to unrelate a Site Part from a contract line item. This overload takes a se
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UnrelateContractItemFromSitePart( _
-   ByVal _setupParam_ As [UnrelateContractItemFromSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UnrelateContractItemFromSitePartSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UnrelateContractItemFromSitePartSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UnrelateContractItemFromSitePart( 
-   [UnrelateContractItemFromSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UnrelateContractItemFromSitePartSetup.md) _setupParam_
+```csharp
+public ToolkitResult UnrelateContractItemFromSitePart( 
+   UnrelateContractItemFromSitePartSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The line item’s objid must be specified, along with the details for locating the site_part.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function RunRule( _
    ByVal _ruleTitle_ As String, _
@@ -11,8 +11,10 @@ Public Overloads Shared Function RunRule( _
    ByVal _rootObjectId_ As String, _
    ByRef _isAutoDispatch_ As Boolean, _
    ByVal _transaction_ As IDbTransaction _
-) As [String()](#)
+) As String()
+```
 
+```csharp
 public static string[] RunRule( 
    string _ruleTitle_,
    string _ruleText_,
@@ -20,6 +22,7 @@ public static string[] RunRule(
    out bool _isAutoDispatch_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _isAutoDispatch_
 _transaction_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

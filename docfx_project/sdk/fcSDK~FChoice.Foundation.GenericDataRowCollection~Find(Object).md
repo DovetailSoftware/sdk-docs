@@ -7,15 +7,18 @@ Gets the row specified by the primary key value.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function Find( _
    ByVal _key_ As Object _
-) As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)
+) As GenericDataRow
+```
 
-public [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) Find( 
+```csharp
+public GenericDataRow Find( 
    object _key_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ Remarks
 The implementation of Find is delegated to DataRowCollection's [Find](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatarowcollectionclassfindtopic1.htm).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

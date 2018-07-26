@@ -7,15 +7,18 @@ Builds a list of the alternate parts (table_partnum_view) for the specified part
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetAlternateParts( _
-   ByVal _setupParam_ As [GetAlternatePartsSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup.md) _
-) As [GetAlternatePartsResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult.md)
+   ByVal _setupParam_ As GetAlternatePartsSetup _
+) As GetAlternatePartsResult
+```
 
-public [GetAlternatePartsResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult.md) GetAlternateParts( 
-   [GetAlternatePartsSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup.md) _setupParam_
+```csharp
+public GetAlternatePartsResult GetAlternateParts( 
+   GetAlternatePartsSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -25,13 +28,11 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [GetAlternatePartsResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult.md) object returned by the API method:
+The following values are populated in the GetAlternatePartsResult object returned by the API method:
 
-*   [AlternatePartList](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult~AlternatePartList.md) \- An array of Alternate Part objid's.
+*   AlternatePartList \- An array of Alternate Part objid's.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

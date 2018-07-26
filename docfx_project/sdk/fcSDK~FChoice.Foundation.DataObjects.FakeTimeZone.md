@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class FakeTimeZone 
    Inherits FChoice.Foundation.Clarify.DataObjects.FCTimeZone

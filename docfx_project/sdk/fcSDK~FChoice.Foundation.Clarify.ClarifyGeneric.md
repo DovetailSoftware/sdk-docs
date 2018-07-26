@@ -13,13 +13,13 @@ Syntax
 
 <DefaultMemberAttribute("Item")>
 Public Class ClarifyGeneric 
-   Inherits [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)
+   Inherits FChoice.Foundation.FCGeneric
 ```
 
 ```csharp
 [DefaultMemberAttribute("Item")]
-public class ClarifyGeneric : [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) 
-```
+public class ClarifyGeneric : FChoice.Foundation.FCGeneric
+``` 
 
 Remarks
 
@@ -72,8 +72,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

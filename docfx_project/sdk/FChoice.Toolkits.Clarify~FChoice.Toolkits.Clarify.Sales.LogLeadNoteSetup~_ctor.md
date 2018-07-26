@@ -7,17 +7,20 @@ Initializes a new instance of the LogLeadNoteSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _leadObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public LogLeadNoteSetup( 
    int _leadObjid_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _leadObjid_
 The objid of the lead for the note log.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

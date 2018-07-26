@@ -15,7 +15,7 @@ Initializes a new instance of the CreatePartRequestHeaderSubcaseSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -25,7 +25,9 @@ Public Function New( _
    ByVal _shipToSiteIDNum_ As String, _
    ByVal _caseIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreatePartRequestHeaderSubcaseSetup( 
    string _contactFirstName_,
@@ -34,6 +36,7 @@ public CreatePartRequestHeaderSubcaseSetup(
    string _shipToSiteIDNum_,
    string _caseIDNum_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ _caseIDNum_
 Identifier of the Subcase with which this Part Request is associated
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

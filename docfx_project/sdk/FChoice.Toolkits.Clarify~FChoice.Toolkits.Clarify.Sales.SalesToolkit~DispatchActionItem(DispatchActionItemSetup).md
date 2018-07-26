@@ -7,15 +7,18 @@ Dispatch the ActionItem to the specified queue. This overload takes a setup obje
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DispatchActionItem( _
-   ByVal _setupParam_ As [DispatchActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ DispatchActionItemSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchActionItem( 
-   [DispatchActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup.md) _setupParam_
+```csharp
+public ToolkitResult DispatchActionItem( 
+   DispatchActionItemSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The ActionItem must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

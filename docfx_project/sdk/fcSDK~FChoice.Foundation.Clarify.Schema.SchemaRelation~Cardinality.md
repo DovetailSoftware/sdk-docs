@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property Cardinality As [SchemaRelationCardinality](fcSDK~FChoice.Foundation.Schema.SchemaRelationCardinality.md)
+Public ReadOnly Property Cardinality As SchemaRelationCardinality
+```
 
-public [SchemaRelationCardinality](fcSDK~FChoice.Foundation.Schema.SchemaRelationCardinality.md) Cardinality {get;}
+```csharp
+public SchemaRelationCardinality Cardinality {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

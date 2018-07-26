@@ -13,21 +13,24 @@ Changes the contact for a Case. This overload takes a set of required parameters
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeCaseContact( _
    ByVal _caseIDNum_ As String, _
    ByVal _contactFirstName_ As String, _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeCaseContact( 
+```csharp
+public ToolkitResult ChangeCaseContact( 
    string _caseIDNum_,
    string _contactFirstName_,
    string _contactLastName_,
    string _contactPhone_
 )
+```
 
 #### Parameters
 
@@ -56,8 +59,6 @@ Remarks
 The Case phone and alternate phone are also changed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

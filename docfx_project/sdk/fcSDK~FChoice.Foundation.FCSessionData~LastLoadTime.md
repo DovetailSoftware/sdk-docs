@@ -5,15 +5,16 @@ Timestamp when the session was last loaded via [GetSession](fcSDK~FChoice.Founda
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property LastLoadTime As Date
+```
 
+```csharp
 public DateTime LastLoadTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

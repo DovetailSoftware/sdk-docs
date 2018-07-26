@@ -7,13 +7,13 @@ Syntax
 
 <SerializableAttribute()>
 Public Class ClarifySessionData 
-   Inherits [FChoice.Foundation.FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md)
+   Inherits FChoice.Foundation.FCSessionData
 ```
 
 ```csharp
 [SerializableAttribute()]
-public class ClarifySessionData : [FChoice.Foundation.FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md) 
-```
+public class ClarifySessionData : FChoice.Foundation.FCSessionData
+``` 
 
 Inheritance Hierarchy
 
@@ -28,8 +28,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

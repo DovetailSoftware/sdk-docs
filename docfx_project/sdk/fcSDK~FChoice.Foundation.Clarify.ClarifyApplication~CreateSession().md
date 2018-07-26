@@ -5,11 +5,14 @@ Creates a new [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Function CreateSession() As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
+Public Overloads Function CreateSession() As ClarifySession
+```
 
-public [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) CreateSession()
+```csharp
+public ClarifySessionCreateSession()
+```
 
 #### Return Value
 
@@ -26,8 +29,6 @@ This method will log in the session using the username and password specified in
 The general use case for this method is if you are writing a simple application that performs some type of repetitive, batch, or behind-the-scenes process and requires no user input. Rather than hard-coding a username and password into your application, you can simply use the application user.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

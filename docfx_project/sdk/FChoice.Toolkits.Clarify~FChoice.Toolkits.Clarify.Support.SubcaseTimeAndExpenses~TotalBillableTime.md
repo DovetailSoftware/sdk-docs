@@ -5,15 +5,16 @@ Captured billable time.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property TotalBillableTime As TimeSpan
+```
 
+```csharp
 public TimeSpan TotalBillableTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

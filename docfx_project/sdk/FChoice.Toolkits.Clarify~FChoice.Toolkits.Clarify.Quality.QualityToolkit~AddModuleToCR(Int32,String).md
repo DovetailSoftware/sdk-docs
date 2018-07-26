@@ -9,17 +9,20 @@ Adding a file Module to a Fixed CR. This overload takes a set of required parame
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddModuleToCR( _
    ByVal _fixObjid_ As Integer, _
    ByVal _fileName_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddModuleToCR( 
+```csharp
+public ToolkitResult AddModuleToCR( 
    int _fixObjid_,
    string _fileName_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 There is no integration between this API and your change control system so no validation is possible for the Module [filename](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup~FileName.md) or [revision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup~FileRevision.md).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

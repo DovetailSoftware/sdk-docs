@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743880)>
 Sub AddForUpdate( _
    ByVal _TheObjid_ As Integer _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743880)]
 void AddForUpdate( 
    int _TheObjid_
 )
+```
 
 #### Parameters
 
 _TheObjid_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,17 +9,20 @@ Creates a research log against a Subcase. This overload takes a setup object a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogSubcaseResearch( _
-   ByVal _setupParam_ As [LogSubcaseResearchSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup.md), _
+   ByVal _setupParam_ As LogSubcaseResearchSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [LogSubcaseResearchResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchResult.md)
+) As LogSubcaseResearchResult
+```
 
-public [LogSubcaseResearchResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchResult.md) LogSubcaseResearch( 
-   [LogSubcaseResearchSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup.md) _setupParam_,
+```csharp
+public LogSubcaseResearchResult LogSubcaseResearch( 
+   LogSubcaseResearchSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -33,19 +36,17 @@ Database transaction under which the API will be invoked.
 
 #### Return Value
 
-A [LogSubcaseResearchResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A LogSubcaseResearchResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Remarks
 
-It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup~IsCommitmentToCustomer.md) properties
+It is possible to create a Commitment with this log. To do so set the CommitmentDueDate and CommitmentTitle and IsCommitmentToCustomer properties
 
 Example
 
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

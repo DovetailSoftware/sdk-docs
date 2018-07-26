@@ -5,11 +5,13 @@ Create Account (business org) This overload takes a set of required parameters f
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Function CreateAccount() As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+Public Overloads Function CreateAccount() As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateAccount()
+```csharp
+public ToolkitResult CreateAccount()
 
 #### Return Value
 
@@ -19,8 +21,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the Account.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

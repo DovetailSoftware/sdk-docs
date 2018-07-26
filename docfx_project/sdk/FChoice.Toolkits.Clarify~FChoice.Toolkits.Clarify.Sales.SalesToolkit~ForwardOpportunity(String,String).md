@@ -9,17 +9,20 @@ Reject-forward the Opportunity from one queue to another. This overload takes a 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ForwardOpportunity( _
    ByVal _opportunityIDNum_ As String, _
    ByVal _newQueue_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardOpportunity( 
+```csharp
+public ToolkitResult ForwardOpportunity( 
    string _opportunityIDNum_,
    string _newQueue_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The Opportunity must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,21 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogSubcaseInternalPhone( _
    ByVal _subcaseIDNum_ As String, _
    ByVal _contactFirstName_ As String, _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String _
-) As [LogSubcasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneResult.md)
+) As LogSubcasePhoneResult
+```
 
-public [LogSubcasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneResult.md) LogSubcaseInternalPhone( 
+```csharp
+public LogSubcasePhoneResult LogSubcaseInternalPhone( 
    string _subcaseIDNum_,
    string _contactFirstName_,
    string _contactLastName_,
    string _contactPhone_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _contactLastName_
 _contactPhone_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

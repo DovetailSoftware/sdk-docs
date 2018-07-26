@@ -1,19 +1,18 @@
-﻿     DataObjectCollection<T> Class                                                   
-
-fcSDK Documentation
-
-DataObjectCollection<T> Class
+﻿### DataObjectCollection<T> Class
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public MustInherit Class DataObjectCollection(Of T As [IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md)) 
-   Inherits [System.Collections.Generic.List(Of T)](#)
+Public MustInherit Class DataObjectCollection(Of T As IDataObject) 
+   Inherits System.Collections.Generic.List(Of T)
+```
 
-public abstract class DataObjectCollection<T\> : [System.Collections.Generic.List<T>](#) 
-where T: [IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md)
+```csharp
+public abstract class DataObjectCollection<T\> : System.Collections.Generic.List<T> 
+where T: [IDataObject
+```
 
 Type Parameters
 
@@ -48,8 +47,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

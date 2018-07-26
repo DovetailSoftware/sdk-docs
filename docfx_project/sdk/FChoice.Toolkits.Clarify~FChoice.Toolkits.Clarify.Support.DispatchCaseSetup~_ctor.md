@@ -1,4 +1,4 @@
-﻿### DispatchCaseSetup Constructor
+### DispatchCaseSetup Constructor
 
 Case Identifier.
 
@@ -9,19 +9,22 @@ Initializes a new instance of the DispatchCaseSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _caseIDNum_ As String, _
    ByVal _queue_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DispatchCaseSetup( 
    string _caseIDNum_,
    string _queue_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _queue_
 The queue into which the Case is to be dispatched.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

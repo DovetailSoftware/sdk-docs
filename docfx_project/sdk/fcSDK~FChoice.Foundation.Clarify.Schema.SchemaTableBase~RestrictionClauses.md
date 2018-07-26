@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property RestrictionClauses As [RestrictionClause()](fcSDK~FChoice.Foundation.Clarify.Schema.RestrictionClause.md)
+Public ReadOnly Property RestrictionClauses As RestrictionClause()
+```
 
-public [RestrictionClause\[\]](fcSDK~FChoice.Foundation.Clarify.Schema.RestrictionClause.md) RestrictionClauses {get;}
+```csharp
+public RestrictionClause[] RestrictionClauses {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

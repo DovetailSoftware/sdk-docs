@@ -3,23 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Constructor, 
+<AttributeUsageAttribute(ValidOn=AttributeTargets.Constructor, 
    AllowMultiple=False, 
    Inherited=True)>
 Public Class ConstructorIndexAttribute 
-   Inherits [System.Attribute](#)
+   Inherits System.Attribute
+```
 
-\[[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Constructor, 
+```csharp
+[AttributeUsageAttribute(ValidOn=AttributeTargets.Constructor, 
    AllowMultiple=false, 
-   Inherited=true)\]
-public class ConstructorIndexAttribute : [System.Attribute](#) 
+   Inherited=true)]
+public class ConstructorIndexAttribute : System.Attribute
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Attribute](#)  
+   System.Attribute  
       **FChoice.Toolkits.Clarify.ConstructorIndexAttribute**  
 
 #### Requirements
@@ -29,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

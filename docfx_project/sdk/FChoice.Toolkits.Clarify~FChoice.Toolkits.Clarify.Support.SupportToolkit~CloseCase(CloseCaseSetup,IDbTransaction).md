@@ -9,17 +9,20 @@ Closes the specified Case that is currently open. This overload takes a setup ob
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CloseCase( _
-   ByVal _setupParam_ As [CloseCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup.md), _
+   ByVal _setupParam_ As CloseCaseSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CloseCase( 
-   [CloseCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup.md) _setupParam_,
+```csharp
+public ToolkitResult CloseCase( 
+   CloseCaseSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

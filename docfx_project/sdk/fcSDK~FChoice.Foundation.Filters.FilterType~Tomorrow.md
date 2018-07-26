@@ -5,22 +5,24 @@ Filter field on tomorrow's date
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Function Tomorrow( _
    ByVal _columnName_ As String _
-) As [TomorrowFilter](fcSDK~FChoice.Foundation.Filters.TomorrowFilter.md)
+) As TomorrowFilter
+```
 
-public static [TomorrowFilter](fcSDK~FChoice.Foundation.Filters.TomorrowFilter.md) Tomorrow( 
+```csharp
+public static TomorrowFilter Tomorrow( 
    string _columnName_
 )
+```
 
 #### Parameters
 
 _columnName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

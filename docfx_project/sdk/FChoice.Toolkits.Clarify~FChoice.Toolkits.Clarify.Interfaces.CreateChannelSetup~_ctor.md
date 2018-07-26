@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _mediumObjid_ As Integer, _
    ByVal _designation_ As String _
 )
+```
 
+```csharp
 public CreateChannelSetup( 
    int _mediumObjid_,
    string _designation_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _mediumObjid_
 _designation_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

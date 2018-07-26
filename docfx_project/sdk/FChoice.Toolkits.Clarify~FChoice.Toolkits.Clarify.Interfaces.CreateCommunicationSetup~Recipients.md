@@ -7,7 +7,7 @@ Syntax
 ```vbnet
 'Declaration
 
-Public Property Recipients As [String()](#)
+Public Property Recipients As String()
 ```
 
 ```csharp

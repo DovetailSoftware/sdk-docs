@@ -5,20 +5,22 @@ Specifies whether (true) or not (false) the first part/rev should be made an alt
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property IsReciprocal As Boolean
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property IsReciprocal As Boolean
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public bool IsReciprocal {get; set;}
+```
 
 #### Property Value
 
 Whether (true) or not (false) the first part/rev should be made an alternate of the second part
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

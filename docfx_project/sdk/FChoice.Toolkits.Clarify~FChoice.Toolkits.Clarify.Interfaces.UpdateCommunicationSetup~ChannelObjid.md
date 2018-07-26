@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property ChannelObjid As [Nullable(Of Integer)](#)
+'Declaration
 
-public [Nullable<int>](#) ChannelObjid {get; set;}
+Public Property ChannelObjid As Nullable(Of Integer)
+```
+
+```csharp
+public Nullable<int> ChannelObjid {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

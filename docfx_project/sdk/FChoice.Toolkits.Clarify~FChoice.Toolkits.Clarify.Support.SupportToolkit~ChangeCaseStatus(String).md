@@ -7,15 +7,18 @@ Changes the status of a Case. This overload takes a set of required parameters f
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeCaseStatus( _
    ByVal _caseIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeCaseStatus( 
+```csharp
+public ToolkitResult ChangeCaseStatus( 
    string _caseIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Case may be opened or closed, but the status selected must be valid for the current condition. In other words, you cannot assign a Closed condition status to a Case that is currently Open.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

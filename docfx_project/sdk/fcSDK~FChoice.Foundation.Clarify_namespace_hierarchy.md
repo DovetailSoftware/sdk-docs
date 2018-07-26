@@ -1,8 +1,4 @@
-﻿     FChoice.Foundation.Clarify Namespace Inheritance Hierarchy                                                   
-
-fcSDK Documentation
-
-FChoice.Foundation.Clarify Namespace Inheritance Hierarchy
+﻿### FChoice.Foundation.Clarify Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
@@ -39,15 +35,13 @@ System.Object
    [System.Data.DataRow](#)  
       [FChoice.Foundation.GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)  
          [FChoice.Foundation.Clarify.ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)  
-   [System.Exception](#)  
+   System.Exception  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             [FChoice.Foundation.Clarify.ClarifyException](fcSDK~FChoice.Foundation.Clarify.ClarifyException.md)  
             [FChoice.Foundation.FoundationException](fcSDK~FChoice.Foundation.FoundationException.md)  
                [FChoice.Foundation.GenericException](fcSDK~FChoice.Foundation.GenericException.md)  
                   [FChoice.Foundation.Clarify.ClarifyGenericException](fcSDK~FChoice.Foundation.Clarify.ClarifyGenericException.md)  
-
-
 
 #### Reference
 

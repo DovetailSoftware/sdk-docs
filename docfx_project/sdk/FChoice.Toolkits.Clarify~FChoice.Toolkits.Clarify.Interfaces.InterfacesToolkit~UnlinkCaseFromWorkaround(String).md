@@ -7,15 +7,18 @@ Unlink Case from Workaround. This overload takes a set of required parameters fo
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UnlinkCaseFromWorkaround( _
    ByVal _caseIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UnlinkCaseFromWorkaround( 
+```csharp
+public ToolkitResult UnlinkCaseFromWorkaround( 
    string _caseIDNum_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Workaround.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

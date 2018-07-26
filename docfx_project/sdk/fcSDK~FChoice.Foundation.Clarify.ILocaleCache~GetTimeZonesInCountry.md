@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function GetTimeZonesInCountry( _
    ByVal _countryName_ As String _
-) As [FCTimeZoneCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection.md)
+) As FCTimeZoneCollection
+```
 
-[FCTimeZoneCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection.md) GetTimeZonesInCountry( 
+```csharp
+FCTimeZoneCollection GetTimeZonesInCountry( 
    string _countryName_
 )
+```
 
 #### Parameters
 
 _countryName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

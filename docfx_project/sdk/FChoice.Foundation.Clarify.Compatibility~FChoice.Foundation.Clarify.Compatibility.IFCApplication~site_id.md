@@ -1,18 +1,20 @@
-﻿### site_id Property (IFCApplication)
+### site_id Property (IFCApplication)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743820)>
 ReadOnly Property site_id As Short
+```
 
+```csharp
 [DispIdAttribute(1610743820)]
 short site_id {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

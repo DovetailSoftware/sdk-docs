@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shadows ReadOnly Default Property Item( _
    ByVal _relationName_ As String _
-) As [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md)
+) As SchemaRelation
+```
 
-public new [SchemaRelation](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.md) this\[ 
+```csharp
+public new SchemaRelation this[ 
    string _relationName_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
 _relationName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

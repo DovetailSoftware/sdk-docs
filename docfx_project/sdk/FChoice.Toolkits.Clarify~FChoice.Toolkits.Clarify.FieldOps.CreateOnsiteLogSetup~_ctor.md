@@ -9,19 +9,22 @@ Initializes a new instance of the CreateOnsiteLogSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _objectType_ As [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CaseObjectType.md), _
+   ByVal _objectType_ As CaseObjectType, _
    ByVal _objectIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateOnsiteLogSetup( 
-   [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CaseObjectType.md) _objectType_,
+   CaseObjectType _objectType_,
    string _objectIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _objectIDNum_
 Specifies the Id Number of this Onsite Log's Case or Subcase.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,11 +5,15 @@ Filter field on today's date
 Syntax
 
 ```vbnet
-' Declaration
-Public Class TodayFilter 
-   Inherits [OnFilter](fcSDK~FChoice.Foundation.Filters.OnFilter.md)
+'Declaration
 
-public class TodayFilter : [OnFilter](fcSDK~FChoice.Foundation.Filters.OnFilter.md) 
+Public Class TodayFilter 
+   Inherits OnFilter
+```
+
+```csharp
+public class TodayFilter : OnFilter 
+```
 
 Example
 
@@ -31,8 +35,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

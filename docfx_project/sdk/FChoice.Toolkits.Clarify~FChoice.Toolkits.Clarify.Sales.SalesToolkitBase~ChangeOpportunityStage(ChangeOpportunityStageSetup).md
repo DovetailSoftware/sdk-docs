@@ -5,15 +5,18 @@ Setup object for API invocation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeOpportunityStage( _
-   ByVal _setupParam_ As [ChangeOpportunityStageSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStageSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ChangeOpportunityStageSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeOpportunityStage( 
-   [ChangeOpportunityStageSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStageSetup.md) _setupParam_
+```csharp
+public ToolkitResult ChangeOpportunityStage( 
+   ChangeOpportunityStageSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ Setup object for API invocation.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

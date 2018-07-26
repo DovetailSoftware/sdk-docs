@@ -9,19 +9,22 @@ Initializes a new instance of the ForwardQuoteSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _quoteIDNum_ As String, _
    ByVal _newQueue_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public ForwardQuoteSetup( 
    string _quoteIDNum_,
    string _newQueue_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _newQueue_
 The new queue into which the Quote is to be forwarded.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

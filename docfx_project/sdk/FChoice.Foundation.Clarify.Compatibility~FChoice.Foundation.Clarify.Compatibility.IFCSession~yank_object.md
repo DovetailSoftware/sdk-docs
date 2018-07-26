@@ -1,9 +1,9 @@
-﻿### yank_object Method (IFCSession)
+### yank_object Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743903)>
 Function yank_object( _
@@ -14,7 +14,9 @@ Function yank_object( _
    ByVal _genearateTimeBombs_ As Boolean, _
    ByVal _objectType_ As String _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743903)]
 short yank_object( 
    string _objId_,
@@ -24,6 +26,7 @@ short yank_object(
    bool _genearateTimeBombs_,
    string _objectType_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ _genearateTimeBombs_
 _objectType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

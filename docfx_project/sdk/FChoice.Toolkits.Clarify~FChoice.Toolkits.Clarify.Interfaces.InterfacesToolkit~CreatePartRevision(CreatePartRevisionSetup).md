@@ -7,15 +7,18 @@ Create a Part Revision (mod_level) This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreatePartRevision( _
-   ByVal _setupParam_ As [CreatePartRevisionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartRevisionSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreatePartRevisionSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreatePartRevision( 
-   [CreatePartRevisionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartRevisionSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreatePartRevision( 
+   CreatePartRevisionSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PartRevision.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

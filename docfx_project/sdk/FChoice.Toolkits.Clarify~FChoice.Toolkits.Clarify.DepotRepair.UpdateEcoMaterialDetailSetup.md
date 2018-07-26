@@ -5,10 +5,14 @@ Used by the [UpdateEcoMaterialDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits
 Syntax
 
 ```vbnet
-' Declaration
-Public Class UpdateEcoMaterialDetailSetup 
+'Declaration
 
-public class UpdateEcoMaterialDetailSetup 
+Public Class UpdateEcoMaterialDetailSetup 
+```
+
+```csharp
+public class UpdateEcoMaterialDetailSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

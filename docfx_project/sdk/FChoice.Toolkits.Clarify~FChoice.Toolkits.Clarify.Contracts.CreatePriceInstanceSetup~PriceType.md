@@ -5,15 +5,18 @@ The price type for the Price Instance.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property PriceType As [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md)
+<PropertyBitValueAttribute()>
+Public Property PriceType As PriceInstanceType
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md) PriceType {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public PriceInstanceType PriceType {get; set;}
+```
 
-Remarks
+#### Remarks
 
 The following values are used:
 
@@ -22,8 +25,6 @@ The following values are used:
 *   2=percent of option list (not supported at this time)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

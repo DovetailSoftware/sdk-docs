@@ -5,21 +5,22 @@ First name of the lead for the action item.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property LeadFirstName As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string LeadFirstName {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If this property is set to an empty string the relation to the current Contact will be removed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

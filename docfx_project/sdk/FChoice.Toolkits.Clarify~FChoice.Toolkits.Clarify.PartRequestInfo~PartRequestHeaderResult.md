@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public PartRequestHeaderResult As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+Public PartRequestHeaderResult As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) PartRequestHeaderResult
+```csharp
+public ToolkitResult PartRequestHeaderResult
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

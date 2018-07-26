@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shared ReadOnly EMPTY As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md)
+Public Shared ReadOnly EMPTY As Location
+```
 
-public static readonly [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) EMPTY
+```csharp
+public static readonly Location EMPTY
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

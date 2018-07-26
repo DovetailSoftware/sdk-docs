@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function Find( _
-   ByVal _match_ As [Predicate(Of IGlobalStringList)](#) _
-) As [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md)
+   ByVal _match_ As Predicate(Of IGlobalStringList) _
+) As IGlobalStringList
+```
 
-[IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) Find( 
-   [Predicate<IGlobalStringList>](#) _match_
+```csharp
+IGlobalStringList Find( 
+   Predicate<IGlobalStringList> _match_
 )
+```
 
 #### Parameters
 
 _match_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

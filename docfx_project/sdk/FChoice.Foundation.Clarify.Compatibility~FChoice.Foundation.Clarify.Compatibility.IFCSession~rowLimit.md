@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743841)>
 Property rowLimit As Integer
+```
 
+```csharp
 [DispIdAttribute(1610743841)]
 int rowLimit {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

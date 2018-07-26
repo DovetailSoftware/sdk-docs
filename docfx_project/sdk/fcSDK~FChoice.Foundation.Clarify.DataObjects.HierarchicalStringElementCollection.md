@@ -3,14 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DefaultMemberAttribute("Item")>
 Public Class HierarchicalStringElementCollection 
-   Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of IHierarchicalStringElement)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
-   Implements [IHierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection.md) 
+   Inherits FChoice.Foundation.DataObjects.DataObjectCollection(Of IHierarchicalStringElement)
+   Implements IHierarchicalStringElementCollection 
+```
 
+```csharp
 [DefaultMemberAttribute("Item")]
-public class HierarchicalStringElementCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<IHierarchicalStringElement>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md), [IHierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection.md)  
+public class HierarchicalStringElementCollection : FChoice.Foundation.DataObjects.DataObjectCollection<IHierarchicalStringElement>, IHierarchicalStringElementCollection
+```
 
 Inheritance Hierarchy
 
@@ -26,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

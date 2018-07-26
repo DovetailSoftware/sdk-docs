@@ -1,31 +1,34 @@
 ﻿### Initialize(NameValueCollection) Method
 
-The configuration values to use for [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)
+The configuration values to use for ClarifyApplication
 
 Initializes ClarifyApplication using values in the specified [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsSpecializedNameValueCollectionClassTopic.htm)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function Initialize( _
    ByVal _configValues_ As NameValueCollection _
-) As [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)
+) As ClarifyApplication
+```
 
-public static [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) Initialize( 
+```csharp
+public static ClarifyApplication Initialize( 
    NameValueCollection _configValues_
 )
+```
 
 #### Parameters
 
 _configValues_
 
-The configuration values to use for [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)
+The configuration values to use for ClarifyApplication
 
 #### Return Value
 
-The newly created and initialized singleton instance of [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)
+The newly created and initialized singleton instance of ClarifyApplication
 
 Remarks
 
@@ -36,8 +39,6 @@ Initialize requires one configuration parameter: The database connection string.
 For more information on configuring .NET applications via configuration file, see [Configuration Applications](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cpconconfiguringnetframeworkapplications.htm) in the .NET Framework SDK documentation.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

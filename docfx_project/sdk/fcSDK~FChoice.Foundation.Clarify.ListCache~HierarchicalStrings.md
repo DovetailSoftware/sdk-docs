@@ -5,11 +5,14 @@ Gets a reference to the [HierarchicalStringListCollection](fcSDK~FChoice.Founda
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property HierarchicalStrings As [IHierarchicalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringListCollection.md)
+Public ReadOnly Property HierarchicalStrings As IHierarchicalStringListCollection
+```
 
-public [IHierarchicalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringListCollection.md) HierarchicalStrings {get;}
+```csharp
+public IHierarchicalStringListCollection HierarchicalStrings {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 The GetHgbst* methods provide an easy-to-use API for accessing user-defined lists. It is recommend that these be used instead of directly accessing the master HGBST collection itself.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

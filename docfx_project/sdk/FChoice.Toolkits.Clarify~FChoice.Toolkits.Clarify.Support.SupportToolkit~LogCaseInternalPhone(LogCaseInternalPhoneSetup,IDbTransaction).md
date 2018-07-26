@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCaseInternalPhone( _
-   ByVal _setupParam_ As [LogCaseInternalPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup.md), _
+   ByVal _setupParam_ As LogCaseInternalPhoneSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [LogCasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneResult.md)
+) As LogCasePhoneResult
+```
 
-public [LogCasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneResult.md) LogCaseInternalPhone( 
-   [LogCaseInternalPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup.md) _setupParam_,
+```csharp
+public LogCasePhoneResult LogCaseInternalPhone( 
+   LogCaseInternalPhoneSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _setupParam_
 _transaction_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

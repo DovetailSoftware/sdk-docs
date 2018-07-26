@@ -3,17 +3,19 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _transaction_ As IDbTransaction, _
-   ByVal _ds_ As [ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) _
-)
+   ByVal _ds_ As ClarifyDataSet _
+)```
 
+```csharp
 public WorkflowManager( 
    IDbTransaction _transaction_,
-   [ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) _ds_
+   ClarifyDataSet _ds_
 )
+```
 
 #### Parameters
 
@@ -22,8 +24,6 @@ _transaction_
 _ds_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

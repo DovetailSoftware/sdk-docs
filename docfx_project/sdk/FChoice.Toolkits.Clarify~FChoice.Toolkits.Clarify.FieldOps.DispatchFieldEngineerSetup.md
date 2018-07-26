@@ -1,14 +1,18 @@
-﻿### DispatchFieldEngineerSetup Class
+### DispatchFieldEngineerSetup Class
 
 Used by the [DispatchFieldEngineer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DispatchFieldEngineer(DispatchFieldEngineerSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-' Declaration
-Public Class DispatchFieldEngineerSetup 
+'Declaration
 
+Public Class DispatchFieldEngineerSetup 
+```
+
+```csharp
 public class DispatchFieldEngineerSetup 
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

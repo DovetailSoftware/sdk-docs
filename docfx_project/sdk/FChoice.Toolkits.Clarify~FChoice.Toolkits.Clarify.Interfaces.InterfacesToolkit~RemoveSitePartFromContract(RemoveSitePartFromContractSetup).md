@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RemoveSitePartFromContract( _
-   ByVal _setupParam_ As [RemoveSitePartFromContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSitePartFromContractSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ RemoveSitePartFromContractSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RemoveSitePartFromContract( 
-   [RemoveSitePartFromContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSitePartFromContractSetup.md) _setupParam_
+```csharp
+public ToolkitResult RemoveSitePartFromContract( 
+   RemoveSitePartFromContractSetup _setupParam_
 )
+```
 
 #### Parameters
 
 _setupParam_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

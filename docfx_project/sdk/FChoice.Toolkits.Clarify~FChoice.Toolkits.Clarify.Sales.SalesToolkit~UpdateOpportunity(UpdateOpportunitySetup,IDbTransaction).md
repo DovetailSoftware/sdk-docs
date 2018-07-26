@@ -9,17 +9,20 @@ Update an Opportunity. This overload takes a setup object and a database transac
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateOpportunity( _
-   ByVal _setupParam_ As [UpdateOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup.md), _
+   ByVal _setupParam_ As UpdateOpportunitySetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateOpportunity( 
-   [UpdateOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup.md) _setupParam_,
+```csharp
+public ToolkitResult UpdateOpportunity( 
+   UpdateOpportunitySetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

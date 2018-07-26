@@ -5,21 +5,22 @@ Instance Name of the Site Part
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property InstanceName As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string InstanceName {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If this is "#default", the Instance Name is set to the PArt Number and the Part Revision of the Site Part.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

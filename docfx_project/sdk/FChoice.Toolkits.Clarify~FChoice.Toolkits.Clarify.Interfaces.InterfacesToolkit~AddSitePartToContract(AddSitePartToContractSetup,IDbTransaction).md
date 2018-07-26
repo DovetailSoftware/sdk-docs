@@ -9,17 +9,20 @@ Adds a Site Part to a Contract. This overload takes a setup object and a databas
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddSitePartToContract( _
-   ByVal _setupParam_ As [AddSitePartToContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup.md), _
+   ByVal _setupParam_ As AddSitePartToContractSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddSitePartToContract( 
-   [AddSitePartToContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AddSitePartToContract( 
+   AddSitePartToContractSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

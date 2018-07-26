@@ -9,17 +9,20 @@ Adds a site to an existing Contract. This overload takes a setup object and a da
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddSiteToContract( _
-   ByVal _setupParam_ As [AddSiteToContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToContractSetup.md), _
+   ByVal _setupParam_ As AddSiteToContractSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddSiteToContract( 
-   [AddSiteToContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToContractSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AddSiteToContract( 
+   AddSiteToContractSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

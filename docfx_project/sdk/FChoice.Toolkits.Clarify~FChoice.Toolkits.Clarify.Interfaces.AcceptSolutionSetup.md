@@ -5,12 +5,16 @@ Used by the [AcceptSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Class AcceptSolutionSetup 
+```
 
-public class AcceptSolutionSetup 
+```csharp
+public class AcceptSolutionSetup
+```
 
-Remarks
+#### Remarks
 
 The solution must be currently dispatched to a queue.  
 The solution must be currently dispatched to a queue.
@@ -24,8 +28,6 @@ Requirements
 
 The solution must be currently dispatched to a queue.  
 The solution must be currently dispatched to a queue.
-
-
 
 #### Reference
 

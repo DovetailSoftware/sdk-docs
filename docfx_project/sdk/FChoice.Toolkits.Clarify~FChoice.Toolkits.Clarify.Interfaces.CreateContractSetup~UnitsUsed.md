@@ -5,7 +5,7 @@ Number of units used
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <PropertyBitValueAttribute()>
 Public Property UnitsUsed As Double

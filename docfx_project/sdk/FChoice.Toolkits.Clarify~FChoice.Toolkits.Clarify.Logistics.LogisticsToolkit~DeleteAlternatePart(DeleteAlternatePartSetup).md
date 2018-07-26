@@ -7,15 +7,18 @@ Causes the second part/revision listed to be removed as an alternate part for th
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DeleteAlternatePart( _
-   ByVal _setupParam_ As [DeleteAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ DeleteAlternatePartSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteAlternatePart( 
-   [DeleteAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.md) _setupParam_
+```csharp
+public ToolkitResult DeleteAlternatePart( 
+   DeleteAlternatePartSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ Setup object for API invocation.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property OtmOtofAndMtmRelations As [ICollection(Of SchemaRelation)](#)
+Public ReadOnly Property OtmOtofAndMtmRelations As ICollection(Of SchemaRelation)
+```
 
-public [ICollection<SchemaRelation>](#) OtmOtofAndMtmRelations {get;}
+```csharp
+public ICollection<SchemaRelation> OtmOtofAndMtmRelations {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

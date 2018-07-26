@@ -7,17 +7,20 @@ Initializes a new instance of the AssignCaseSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _caseIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AssignCaseSetup( 
    string _caseIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _caseIDNum_
 Case Identifier.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

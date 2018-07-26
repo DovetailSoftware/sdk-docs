@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property ForcedUpdateColumns As [DataColumn()](#)
+Public ReadOnly Property ForcedUpdateColumns As DataColumn()
+```
 
-public [DataColumn\[\]](#) ForcedUpdateColumns {get;}
+```csharp
+public DataColumn[] ForcedUpdateColumns {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

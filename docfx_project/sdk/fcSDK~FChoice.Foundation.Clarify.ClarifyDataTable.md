@@ -3,14 +3,17 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DefaultMemberAttribute("Item")>
 Public Class ClarifyDataTable 
-   Inherits [FChoice.Foundation.GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md)
+   Inherits FChoice.Foundation.GenericDataTable
+```
 
+```csharp
 [DefaultMemberAttribute("Item")]
-public class ClarifyDataTable : [FChoice.Foundation.GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md) 
+public class ClarifyDataTable : FChoice.Foundation.GenericDataTable
+``` 
 
 Inheritance Hierarchy
 
@@ -27,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

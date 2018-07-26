@@ -13,21 +13,24 @@ Creates a phone log against a Case. This overload takes a set of required param
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCasePhone( _
    ByVal _caseIDNum_ As String, _
    ByVal _contactFirstName_ As String, _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String _
-) As [LogCasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneResult.md)
+) As LogCasePhoneResult
+```
 
-public [LogCasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneResult.md) LogCasePhone( 
+```csharp
+public LogCasePhoneResult LogCasePhone( 
    string _caseIDNum_,
    string _contactFirstName_,
    string _contactLastName_,
    string _contactPhone_
 )
+```
 
 #### Parameters
 
@@ -49,19 +52,17 @@ Contact's phone number.
 
 #### Return Value
 
-The following values are populated in the [LogCasePhoneResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneResult.md) object returned by the API method:
+The following values are populated in the LogCasePhoneResult object returned by the API method:
 
-*   [CommitmentObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneResult~CommitmentObjid.md) \- The Objid of the Commitment.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneResult~Objid.md) \- The Objid of the Log.
-*   [StatusChangeObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneResult~StatusChangeObjid.md) \- The Objid of the StatusChange.
+*   CommitmentObjid \- The Objid of the Commitment.
+*   Objid \- The Objid of the Log.
+*   StatusChangeObjid \- The Objid of the StatusChange.
 
 Remarks
 
-It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup~IsCommitmentToCustomer.md) properties.
+It is possible to create a Commitment with this log. To do so set the CommitmentDueDate and CommitmentTitle and IsCommitmentToCustomer properties.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

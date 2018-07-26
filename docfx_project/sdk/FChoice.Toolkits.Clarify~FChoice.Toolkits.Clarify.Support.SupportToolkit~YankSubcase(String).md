@@ -7,15 +7,18 @@ Yank the Subcase from its current location to a new owner's WipBin. This overloa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankSubcase( _
    ByVal _subcaseIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankSubcase( 
+```csharp
+public ToolkitResult YankSubcase( 
    string _subcaseIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The WipBin to place the Subcase in may also be specified. This is augmented function from base Clarify, where the Subcase is always placed in the default WipBin.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

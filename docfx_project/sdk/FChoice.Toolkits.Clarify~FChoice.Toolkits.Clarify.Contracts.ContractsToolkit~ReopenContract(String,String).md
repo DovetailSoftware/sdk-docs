@@ -9,17 +9,20 @@ Causes the specified contract to be reopened. This overload takes a set of requi
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReopenContract( _
    ByVal _contractIDNum_ As String, _
    ByVal _status_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReopenContract( 
+```csharp
+public ToolkitResult ReopenContract( 
    string _contractIDNum_,
    string _status_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 This is augmented functionality from base Clarify, as a contract cannot be re-opened via the Clarify GUI. The date/time of the reopen, the person performing the reopen, the WIPBIN to place the contract in, and the new status of the contract can be specified. The person who reopens the contract becomes the new owner.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

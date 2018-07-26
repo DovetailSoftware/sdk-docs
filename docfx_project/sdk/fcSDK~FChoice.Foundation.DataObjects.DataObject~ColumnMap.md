@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property ColumnMap As [IDictionary](#)
+'Declaration
 
-public [IDictionary](#) ColumnMap {get;}
+Public ReadOnly Property ColumnMap As IDictionary
+```
+
+```csharp
+public IDictionary ColumnMap {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

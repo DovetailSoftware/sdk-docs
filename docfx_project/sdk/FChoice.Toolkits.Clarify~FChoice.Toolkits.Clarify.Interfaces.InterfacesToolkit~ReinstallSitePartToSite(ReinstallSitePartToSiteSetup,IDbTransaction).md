@@ -9,17 +9,20 @@ Re-Install a Site Part under a Site. This overload takes a setup object and a da
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReinstallSitePartToSite( _
-   ByVal _setupParam_ As [ReinstallSitePartToSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToSiteSetup.md), _
+   ByVal _setupParam_ As ReinstallSitePartToSiteSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReinstallSitePartToSite( 
-   [ReinstallSitePartToSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToSiteSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ReinstallSitePartToSite( 
+   ReinstallSitePartToSiteSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

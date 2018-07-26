@@ -5,15 +5,16 @@ Collection of Filters that belong to this logical grouping.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property Filters As [FilterCollection](fcSDK~FChoice.Foundation.Filters.FilterCollection.md)
+Public ReadOnly Property Filters As FilterCollection
+```
 
-public [FilterCollection](fcSDK~FChoice.Foundation.Filters.FilterCollection.md) Filters {get;}
+```csharp
+public FilterCollection Filters {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

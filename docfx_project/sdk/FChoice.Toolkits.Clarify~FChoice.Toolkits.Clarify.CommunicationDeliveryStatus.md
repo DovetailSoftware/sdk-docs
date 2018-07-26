@@ -3,12 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Enum CommunicationDeliveryStatus 
    Inherits System.Enum
+```
 
-public enum CommunicationDeliveryStatus : System.Enum 
+```csharp
+public enum CommunicationDeliveryStatus : System.Enum
+```
 
 Members
 
@@ -35,8 +38,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

@@ -3,12 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DefaultMemberAttribute("Item")>
 Public Interface IGlobalStringElementCollection 
+```
 
+```csharp
 [DefaultMemberAttribute("Item")]
 public interface IGlobalStringElementCollection 
+```
 
 #### Requirements
 
@@ -17,8 +21,6 @@ public interface IGlobalStringElementCollection
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

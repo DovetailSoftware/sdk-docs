@@ -1,8 +1,4 @@
-﻿     BinarySearch(IHierarchicalStringList,IComparer<IHierarchicalStringList>) Method                                                   
-
-fcSDK Documentation
-
-BinarySearch(IHierarchicalStringList,IComparer<IHierarchicalStringList>) Method
+﻿### BinarySearch(IHierarchicalStringList,IComparer<IHierarchicalStringList>) Method
 
 Syntax
 
@@ -10,15 +6,15 @@ Syntax
 'Declaration
 
 Overloads Function BinarySearch( _
-   ByVal _item_ As [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md), _
-   ByVal _comparer_ As [IComparer(Of IHierarchicalStringList)](#) _
+   ByVal _item_ As IHierarchicalStringList, _
+   ByVal _comparer_ As IComparer(Of IHierarchicalStringList) _
 ) As Integer
 ```
 
 ```csharp
 int BinarySearch( 
-   [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md) _item_,
-   [IComparer<IHierarchicalStringList>](#) _comparer_
+   IHierarchicalStringList _item_,
+   IComparer<IHierarchicalStringList> _comparer_
 )
 ```
 

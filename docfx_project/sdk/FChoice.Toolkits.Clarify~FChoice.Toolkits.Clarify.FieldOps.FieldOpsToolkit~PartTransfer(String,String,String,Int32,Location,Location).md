@@ -17,25 +17,28 @@ Initializes a new instance of the PartTransferSetup class. This overload takes a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function PartTransfer( _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _quantity_ As Integer, _
-   ByVal _fromlocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
-   ByVal _tolocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _
-) As [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md)
+   ByVal _fromlocation_ As Location, _
+   ByVal _tolocation_ As Location _
+) As PartTransferResult
+```
 
-public [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md) PartTransfer( 
+```csharp
+public PartTransferResult PartTransfer( 
    string _partNumber_,
    string _partRevision_,
    string _partDomain_,
    int _quantity_,
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _fromlocation_,
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _tolocation_
+   Location _fromlocation_,
+   Location _tolocation_
 )
+```
 
 #### Parameters
 
@@ -65,15 +68,13 @@ Inventory location and bin (or GL account) into which the part is being transfe
 
 #### Return Value
 
-The following values are populated in the [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md) object returned by the API method:
+The following values are populated in the PartTransferResult object returned by the API method:
 
-*   [StandardCost](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~StandardCost.md) \- Part Transfer Standard Cost.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~Objid.md) \- Objid of the Part Transfer record.
-*   [TransactionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~TransactionIDNum.md) \- Part Transfer Transaction Identifier.
+*   StandardCost \- Part Transfer Standard Cost.
+*   Objid \- Objid of the Part Transfer record.
+*   TransactionIDNum \- Part Transfer Transaction Identifier.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

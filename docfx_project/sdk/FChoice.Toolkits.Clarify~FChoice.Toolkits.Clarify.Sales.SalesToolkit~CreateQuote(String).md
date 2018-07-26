@@ -7,15 +7,18 @@ Used to create a new Quote. This overload takes a set of required parameters for
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateQuote( _
    ByVal _quoteTitle_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateQuote( 
+```csharp
+public ToolkitResult CreateQuote( 
    string _quoteTitle_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ This API requires that a valid opportunity exists. This differs a little from th
 Additional fields may be set on either the contract or contr_schedule table. To set a field on table_contract, just use the field name. To set a field on the contr_schedule table, place “sched:” before the name of the field. For example, to set the “x_foo” field on the contr_schedule table, use a field name of “sched:x_foo”.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

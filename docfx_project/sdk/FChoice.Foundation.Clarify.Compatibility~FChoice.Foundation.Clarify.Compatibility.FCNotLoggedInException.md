@@ -20,7 +20,7 @@ public class FCNotLoggedInException : CompatibilityException
 Inheritance Hierarchy
 
 System.Object  
-   [System.Exception](#)  
+   System.Exception  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             [FChoice.Foundation.Clarify.Compatibility.CompatibilityException](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.CompatibilityException.md)  

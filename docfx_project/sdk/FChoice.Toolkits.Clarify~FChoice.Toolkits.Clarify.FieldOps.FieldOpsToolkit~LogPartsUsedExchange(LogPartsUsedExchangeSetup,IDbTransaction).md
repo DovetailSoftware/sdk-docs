@@ -9,17 +9,20 @@ Used to replace an existing site part with a new site part. This overload takes 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogPartsUsedExchange( _
-   ByVal _setupParam_ As [LogPartsUsedExchangeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup.md), _
+   ByVal _setupParam_ As LogPartsUsedExchangeSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogPartsUsedExchange( 
-   [LogPartsUsedExchangeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup.md) _setupParam_,
+```csharp
+public ToolkitResult LogPartsUsedExchange( 
+   LogPartsUsedExchangeSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -54,8 +57,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

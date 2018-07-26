@@ -5,15 +5,16 @@ Gets the collection of rows that belong to this table.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shadows ReadOnly Property Rows As [GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md)
+Public Shadows ReadOnly Property Rows As GenericDataRowCollection
+```
 
-public new [GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md) Rows {get;}
+```csharp
+public new GenericDataRowCollection Rows {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

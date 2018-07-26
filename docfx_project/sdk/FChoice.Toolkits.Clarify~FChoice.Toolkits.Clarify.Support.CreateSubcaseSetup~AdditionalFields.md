@@ -5,17 +5,18 @@ Allows the specification of additional fields to be updated as part of API invoc
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public ReadOnly Property AdditionalFields As [AdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.md)
+<PropertyBitValueAttribute()>
+Public ReadOnly Property AdditionalFields As AdditionalFields
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [AdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.md) AdditionalFields {get;}
+```csharp
+[PropertyBitValueAttribute()]
+public AdditionalFields AdditionalFields {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

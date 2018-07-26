@@ -5,7 +5,8 @@ The number of units used for this line item.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <PropertyBitValueAttribute()>
 Public Property UnitsUsed As Double
 ```
@@ -20,8 +21,6 @@ Remarks
 If supplied, this is the number of units used. If = 0 (default), then all units are initially available.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

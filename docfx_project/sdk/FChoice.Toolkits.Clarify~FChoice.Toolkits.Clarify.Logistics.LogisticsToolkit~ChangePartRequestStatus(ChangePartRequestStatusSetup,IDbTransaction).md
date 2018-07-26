@@ -9,17 +9,20 @@ Causes the specified part request to have a status change from one status to ano
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangePartRequestStatus( _
-   ByVal _setupParam_ As [ChangePartRequestStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup.md), _
+   ByVal _setupParam_ As ChangePartRequestStatusSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangePartRequestStatus( 
-   [ChangePartRequestStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ChangePartRequestStatus( 
+   ChangePartRequestStatusSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

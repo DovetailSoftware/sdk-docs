@@ -11,19 +11,22 @@ Remove a Site from an Account. This overload takes a set of required parameters 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RemoveSiteFromAccount( _
    ByVal _siteIDNum_ As String, _
    ByVal _accountIDNum_ As String, _
    ByVal _roleName_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RemoveSiteFromAccount( 
+```csharp
+public ToolkitResult RemoveSiteFromAccount( 
    string _siteIDNum_,
    string _accountIDNum_,
    string _roleName_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Name of the Site's role being removed from the Account
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

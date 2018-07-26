@@ -5,21 +5,22 @@ Title of the employee's default WipBin
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property DefaultWipBinTitle As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string DefaultWipBinTitle {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If not set, the DefaultWipBinTitle will be set to **default**
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function EvaluateRule( _
    ByVal _rootIdentifier_ As String _
-) As [String()](#)
+) As String()
+```
 
+```csharp
 public string[] EvaluateRule( 
    string _rootIdentifier_
 )
+```
 
 #### Parameters
 
 _rootIdentifier_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

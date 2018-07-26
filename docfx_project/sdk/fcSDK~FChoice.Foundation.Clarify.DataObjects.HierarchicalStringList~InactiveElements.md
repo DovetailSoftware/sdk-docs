@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property InactiveElements As [IHierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection.md)
+Public ReadOnly Property InactiveElements As IHierarchicalStringElementCollection
+```
 
-public [IHierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection.md) InactiveElements {get;}
+```csharp
+public IHierarchicalStringElementCollection InactiveElements {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

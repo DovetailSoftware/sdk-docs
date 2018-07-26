@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-ReadOnly Property RestrictionGroups As [RestrictionGroupCollection](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroupCollection.md)
+ReadOnly Property RestrictionGroups As RestrictionGroupCollection
+```
 
-[RestrictionGroupCollection](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroupCollection.md) RestrictionGroups {get;}
+```csharp
+RestrictionGroupCollection RestrictionGroups {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

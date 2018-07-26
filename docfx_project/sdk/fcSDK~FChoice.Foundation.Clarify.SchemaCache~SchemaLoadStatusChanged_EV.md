@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Event SchemaLoadStatusChanged As [SchemaLoadStatusEventHandler](fcSDK~FChoice.Foundation.Clarify.SchemaLoadStatusEventHandler.md)
+Public Event SchemaLoadStatusChanged As SchemaLoadStatusEventHandler
+```
 
-public event [SchemaLoadStatusEventHandler](fcSDK~FChoice.Foundation.Clarify.SchemaLoadStatusEventHandler.md) SchemaLoadStatusChanged
+```csharp
+public event SchemaLoadStatusEventHandler SchemaLoadStatusChanged
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

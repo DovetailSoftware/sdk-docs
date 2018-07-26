@@ -5,10 +5,14 @@ Used by the [UpdateTimeLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.F
 Syntax
 
 ```vbnet
-' Declaration
-Public Class UpdateTimeLogSetup 
+'Declaration
 
-public class UpdateTimeLogSetup 
+Public Class UpdateTimeLogSetup 
+```
+
+```csharp
+public class UpdateTimeLogSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

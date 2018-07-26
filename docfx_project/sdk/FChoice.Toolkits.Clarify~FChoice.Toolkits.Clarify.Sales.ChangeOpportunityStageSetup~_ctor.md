@@ -9,19 +9,22 @@ Initializes a new instance of the ChangeOpportunityStageSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _opportunityIDNum_ As String, _
    ByVal _stage_ As [OpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.OpportunityStage.md) _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public ChangeOpportunityStageSetup( 
    string _opportunityIDNum_,
    [OpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.OpportunityStage.md) _stage_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _stage_
 The new sales stage for the Opportunity.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

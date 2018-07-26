@@ -7,7 +7,7 @@ Syntax
 <DispIdAttribute(1610743853)>
 Function GetResTbl( _
    ByVal _tblNum_ As Integer, _
-   ByRef _the_res_ As [String()](#) _
+   ByRef _the_res_ As String() _
 ) As Boolean
 ```
 

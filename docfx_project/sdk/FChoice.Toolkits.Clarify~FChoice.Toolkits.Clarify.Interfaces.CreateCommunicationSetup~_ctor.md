@@ -13,7 +13,7 @@ Initializes a new instance of the CreateCommunicationSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _dialogueIdNumber_ As String, _
@@ -22,7 +22,9 @@ Public Function New( _
    ByVal _sender_ As String, _
    ByVal _recipients_() As String _
 )
+```
 
+```csharp
 public CreateCommunicationSetup( 
    string _dialogueIdNumber_,
    string _title_,
@@ -30,6 +32,7 @@ public CreateCommunicationSetup(
    string _sender_,
    string[] _recipients_
 )
+```
 
 #### Parameters
 
@@ -52,8 +55,6 @@ _recipients_
 The address of each receipient of the communication.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

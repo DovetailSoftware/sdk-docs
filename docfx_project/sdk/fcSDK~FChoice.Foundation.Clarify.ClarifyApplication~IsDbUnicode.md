@@ -5,13 +5,16 @@ Gets whether or not any columns in the Clarify database are flagged as supportin
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[ObsoleteAttribute](#)("Use the SchemaCache IsDatabaseUnicode property")>
+<ObsoleteAttribute("Use the SchemaCache IsDatabaseUnicode property")>
 Public ReadOnly Property IsDbUnicode As Boolean
+```
 
-\[[ObsoleteAttribute](#)("Use the SchemaCache IsDatabaseUnicode property")\]
+```csharp
+[ObsoleteAttribute("Use the SchemaCache IsDatabaseUnicode property")]
 public bool IsDbUnicode {get;}
+```
 
 #### Property Value
 
@@ -22,8 +25,6 @@ Remarks
 For more information on what constitutes a column that supports Unicode or how to configure your database to support unicode input, consult the FCFL.NET Installation and User guides.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

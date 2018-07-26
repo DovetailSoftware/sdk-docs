@@ -7,17 +7,20 @@ Initializes a new instance of the YankQuoteSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _quoteIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public YankQuoteSetup( 
    string _quoteIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _quoteIDNum_
 Quote Identifier.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

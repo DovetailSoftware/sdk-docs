@@ -1,20 +1,22 @@
-﻿### Description Property (DispatchFieldEngineerSetup)
+### Description Property (DispatchFieldEngineerSetup)
 
 The description of the Dispatch FE. If left blank, it is set to the title of the Case or Subcase.
 
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property Description As String
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property Description As String
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public string Description {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

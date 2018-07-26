@@ -11,19 +11,22 @@ Used to relate sites to the inventory locations that service them. This overload
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddLocationServicingSite( _
    ByVal _siteIDNum_ As String, _
    ByVal _locationName_ As String, _
    ByVal _locationRank_ As Short _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddLocationServicingSite( 
+```csharp
+public ToolkitResult AddLocationServicingSite( 
    string _siteIDNum_,
    string _locationName_,
    short _locationRank_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Inventory Role record.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

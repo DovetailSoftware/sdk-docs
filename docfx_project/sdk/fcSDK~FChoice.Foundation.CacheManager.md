@@ -3,10 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CacheManager 
+'Declaration
 
-public class CacheManager 
+Public Class CacheManager 
+```
+
+```csharp
+public class CacheManager
+```
 
 Inheritance Hierarchy
 
@@ -20,8 +24,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

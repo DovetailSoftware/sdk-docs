@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shadows ReadOnly Default Property Item( _
    ByVal _index_ As Integer _
-) As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)
+) As ClarifyDataRow
+```
 
-public new [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) this\[ 
+```csharp
+public new ClarifyDataRow this[ 
    int _index_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
 _index_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

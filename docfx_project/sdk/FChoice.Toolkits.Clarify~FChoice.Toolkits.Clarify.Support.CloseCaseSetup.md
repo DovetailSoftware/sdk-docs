@@ -5,10 +5,14 @@ Used by the [CloseCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Suppo
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CloseCaseSetup 
+'Declaration
 
-public class CloseCaseSetup 
+Public Class CloseCaseSetup 
+```
+
+```csharp
+public class CloseCaseSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

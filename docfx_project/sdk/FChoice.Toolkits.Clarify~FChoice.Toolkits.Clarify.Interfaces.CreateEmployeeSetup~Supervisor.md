@@ -5,21 +5,22 @@ Employee's supervisor
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property Supervisor As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string Supervisor {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Enter the [LoginName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup~LoginName.md) of an existing employee that is [designated as a supervisor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup~IsSupervisor.md).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Updates an existing Subcase. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateSubcase( _
-   ByVal _setupParam_ As [UpdateSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdateSubcaseSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateSubcase( 
-   [UpdateSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseSetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdateSubcase( 
+   UpdateSubcaseSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ Setup object for API invocation.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,17 +9,20 @@ Dispatch the Subcase to the specified queue. This overload takes a set of requir
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DispatchSubcase( _
    ByVal _subcaseIDNum_ As String, _
    ByVal _queue_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchSubcase( 
+```csharp
+public ToolkitResult DispatchSubcase( 
    string _subcaseIDNum_,
    string _queue_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The Subcase must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

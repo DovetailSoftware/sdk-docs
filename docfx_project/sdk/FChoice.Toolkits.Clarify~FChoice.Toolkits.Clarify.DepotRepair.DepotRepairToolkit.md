@@ -5,12 +5,15 @@ Provides APIs to modify Logistics Depot Repair objects such as Engineering Chang
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class DepotRepairToolkit 
-   Inherits [DepotRepairToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkitBase.md)
+   Inherits DepotRepairToolkitBase
+```
 
-public class DepotRepairToolkit : [DepotRepairToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkitBase.md) 
+```csharp
+public class DepotRepairToolkit : DepotRepairToolkitBase
+```
 
 Inheritance Hierarchy
 
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

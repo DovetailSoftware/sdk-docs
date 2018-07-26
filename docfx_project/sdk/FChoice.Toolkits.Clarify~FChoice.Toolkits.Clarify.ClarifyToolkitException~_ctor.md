@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _message_ As String _
 )
+```
 
+```csharp
 public ClarifyToolkitException( 
    string _message_
 )
+```
 
 #### Parameters
 
 _message_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

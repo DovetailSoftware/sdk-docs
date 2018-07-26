@@ -3,14 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DefaultMemberAttribute("Item")>
 Public Class GlobalStringElementCollection 
-   Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of IGlobalStringElement)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
-   Implements [IGlobalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection.md) 
+   Inherits FChoice.Foundation.DataObjects.DataObjectCollection(Of IGlobalStringElement)
+   Implements IGlobalStringElementCollection 
+```
 
+```csharp
 [DefaultMemberAttribute("Item")]
-public class GlobalStringElementCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<IGlobalStringElement>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md), [IGlobalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection.md)  
+public class GlobalStringElementCollection : FChoice.Foundation.DataObjects.DataObjectCollection<IGlobalStringElement>, IGlobalStringElementCollection
+```
 
 Inheritance Hierarchy
 
@@ -26,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

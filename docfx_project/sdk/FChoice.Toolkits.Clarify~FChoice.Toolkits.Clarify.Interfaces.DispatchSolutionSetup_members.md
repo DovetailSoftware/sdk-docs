@@ -1,4 +1,4 @@
-﻿### DispatchSolutionSetup Class Members
+### DispatchSolutionSetup Class Members
 
 The following tables list the members exposed by [DispatchSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DispatchSolutionSetup.md).
 
@@ -19,10 +19,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DispatchSolutionSetup~Queue.md) | The queue into which the Solution is to be dispatched.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SolutionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DispatchSolutionSetup~SolutionIDNum.md) | Solution Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DispatchSolutionSetup~UserName.md) | The user who has dispatched the Solution. If not set, the Toolkit session user is used.   |
-
-
-
-
 
 #### Reference
 

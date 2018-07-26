@@ -5,11 +5,14 @@ Gets a reference to the [StringCache](fcSDK~FChoice.Foundation.Clarify.StringCa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property StringCache As [IStringCache](fcSDK~FChoice.Foundation.Clarify.IStringCache.md)
+Public ReadOnly Property StringCache As IStringCache
+```
 
-public [IStringCache](fcSDK~FChoice.Foundation.Clarify.IStringCache.md) StringCache {get;}
+```csharp
+public IStringCache StringCache {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 See the documentation for [StringCache](fcSDK~FChoice.Foundation.Clarify.StringCache.md) for more information on how to access and work with Clarify strings and First Choice FCStrings in FCFL.NET.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

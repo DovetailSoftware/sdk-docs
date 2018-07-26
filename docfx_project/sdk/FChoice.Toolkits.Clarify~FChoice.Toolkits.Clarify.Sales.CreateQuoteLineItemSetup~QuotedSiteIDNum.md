@@ -5,20 +5,22 @@ Site Identifier for auto-install process.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property QuotedSiteIDNum As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string QuotedSiteIDNum {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If AutoInstall = True, this must be supplied.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

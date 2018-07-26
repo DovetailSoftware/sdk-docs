@@ -7,17 +7,20 @@ Initializes a new instance of the UpdateAccountSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _accountIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateAccountSetup( 
    string _accountIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _accountIDNum_
 Identifier of the Account being updated
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

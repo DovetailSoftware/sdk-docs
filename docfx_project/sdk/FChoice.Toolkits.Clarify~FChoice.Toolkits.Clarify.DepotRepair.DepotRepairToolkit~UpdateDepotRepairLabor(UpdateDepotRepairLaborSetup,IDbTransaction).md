@@ -9,17 +9,20 @@ Update a Depot Repair Labor. This overload takes a setup object and a database t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateDepotRepairLabor( _
-   ByVal _setupParam_ As [UpdateDepotRepairLaborSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairLaborSetup.md), _
+   ByVal _setupParam_ As UpdateDepotRepairLaborSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateDepotRepairLabor( 
-   [UpdateDepotRepairLaborSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairLaborSetup.md) _setupParam_,
+```csharp
+public ToolkitResult UpdateDepotRepairLabor( 
+   UpdateDepotRepairLaborSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

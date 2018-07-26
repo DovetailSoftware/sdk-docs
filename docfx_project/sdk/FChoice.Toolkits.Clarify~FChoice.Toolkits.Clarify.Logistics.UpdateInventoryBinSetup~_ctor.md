@@ -9,19 +9,22 @@ Initializes a new instance of the UpdateInventoryBinSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _currentLocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
+   ByVal _currentLocation_ As Location, _
    ByVal _newBinName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateInventoryBinSetup( 
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _currentLocation_,
+   Location _currentLocation_,
    string _newBinName_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _newBinName_
 New name of the inventory bin
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

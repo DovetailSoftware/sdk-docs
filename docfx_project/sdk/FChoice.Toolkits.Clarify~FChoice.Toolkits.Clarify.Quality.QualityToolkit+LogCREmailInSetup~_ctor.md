@@ -1,13 +1,9 @@
-﻿     QualityToolkit.LogCREmailInSetup Constructor                                                   
-
-fcSDK Documentation
-
-QualityToolkit.LogCREmailInSetup Constructor
+﻿### QualityToolkit.LogCREmailInSetup Constructor
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _crIDNum_ As String, _
@@ -15,13 +11,16 @@ Public Function New( _
    ByVal _recipient_ As String, _
    ByVal _message_ As String _
 )
+```
 
+```csharp
 public QualityToolkit.LogCREmailInSetup( 
    string _crIDNum_,
    string _sender_,
    string _recipient_,
    string _message_
 )
+```
 
 #### Parameters
 
@@ -34,8 +33,6 @@ _recipient_
 _message_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

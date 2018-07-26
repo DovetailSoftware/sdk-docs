@@ -7,15 +7,18 @@ Creates a note log against a Case. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCaseNote( _
-   ByVal _setupParam_ As [LogCaseNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup.md) _
-) As [LogCaseNoteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteResult.md)
+   ByVal _setupParam_ As LogCaseNoteSetup _
+) As LogCaseNoteResult
+```
 
-public [LogCaseNoteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteResult.md) LogCaseNote( 
-   [LogCaseNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup.md) _setupParam_
+```csharp
+public LogCaseNoteResult LogCaseNote( 
+   LogCaseNoteSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -25,19 +28,17 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [LogCaseNoteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteResult.md) object returned by the API method:
+The following values are populated in the LogCaseNoteResult object returned by the API method:
 
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteResult~Objid.md) \- The Objid of the Log.
-*   [CommitmentObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteResult~CommitmentObjid.md) \- The Objid of the Commitment.
-*   [StatusChangeObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteResult~StatusChangeObjid.md) \- The Objid of the StatusChange.
+*   Objid \- The Objid of the Log.
+*   CommitmentObjid \- The Objid of the Commitment.
+*   StatusChangeObjid \- The Objid of the StatusChange.
 
 Remarks
 
-It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup~IsCommitmentToCustomer.md) properties.
+It is possible to create a Commitment with this log. To do so set the CommitmentDueDate and CommitmentTitle and IsCommitmentToCustomer properties.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

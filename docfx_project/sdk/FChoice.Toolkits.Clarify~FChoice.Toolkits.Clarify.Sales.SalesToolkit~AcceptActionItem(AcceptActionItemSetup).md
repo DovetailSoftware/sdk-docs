@@ -7,15 +7,18 @@ Accept the specified ActionItem from the queue in which it is currently dispatch
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AcceptActionItem( _
-   ByVal _setupParam_ As [AcceptActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ AcceptActionItemSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AcceptActionItem( 
-   [AcceptActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup.md) _setupParam_
+```csharp
+public ToolkitResult AcceptActionItem( 
+   AcceptActionItemSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The ActionItem must be currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

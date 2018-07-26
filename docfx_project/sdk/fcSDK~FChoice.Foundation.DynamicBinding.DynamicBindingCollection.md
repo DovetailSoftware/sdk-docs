@@ -3,13 +3,17 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Class DynamicBindingCollection 
-   Inherits [System.Collections.ObjectModel.Collection(Of IDynamicBinding)](#)
+   Inherits System.Collections.ObjectModel.Collection(Of IDynamicBinding)
+```
 
-public class DynamicBindingCollection : [System.Collections.ObjectModel.Collection<IDynamicBinding>](#) 
+```csharp
+public class DynamicBindingCollection : System.Collections.ObjectModel.Collection<IDynamicBinding> 
+```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.ObjectModel.Collection<T>](#)  
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Creates an Interaction in Clarify. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateInteraction( _
-   ByVal _setupParam_ As [CreateInteractionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateInteractionSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateInteraction( 
-   [CreateInteractionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateInteraction( 
+   CreateInteractionSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -35,8 +38,6 @@ Remarks
 An interaction stores information on communications with Contacts.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

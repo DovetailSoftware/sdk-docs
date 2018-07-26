@@ -5,15 +5,18 @@ Setup object for API invocation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogPartsUsedExchange( _
-   ByVal _setupParam_ As [LogPartsUsedExchangeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ LogPartsUsedExchangeSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogPartsUsedExchange( 
-   [LogPartsUsedExchangeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup.md) _setupParam_
+```csharp
+public ToolkitResult LogPartsUsedExchange( 
+   LogPartsUsedExchangeSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PartUsed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

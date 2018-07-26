@@ -9,17 +9,20 @@ Closes the specified Subcase. This overload takes a setup object and a database 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CloseSubcase( _
-   ByVal _setupParam_ As [CloseSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup.md), _
+   ByVal _setupParam_ As CloseSubcaseSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CloseSubcase( 
-   [CloseSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup.md) _setupParam_,
+```csharp
+public ToolkitResult CloseSubcase( 
+   CloseSubcaseSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

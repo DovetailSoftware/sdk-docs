@@ -9,19 +9,22 @@ Initializes a new instance of the LogCaseResearchSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _caseIDNum_ As String, _
    ByVal _researchDuration_ As TimeSpan _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public LogCaseResearchSetup( 
    string _caseIDNum_,
    TimeSpan _researchDuration_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _researchDuration_
 The length of time for research.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

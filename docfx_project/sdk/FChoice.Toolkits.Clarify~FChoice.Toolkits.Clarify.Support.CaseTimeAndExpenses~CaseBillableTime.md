@@ -5,15 +5,16 @@ Captured billable time (Case time logs only)
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property CaseBillableTime As TimeSpan
+```
 
+```csharp
 public TimeSpan CaseBillableTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

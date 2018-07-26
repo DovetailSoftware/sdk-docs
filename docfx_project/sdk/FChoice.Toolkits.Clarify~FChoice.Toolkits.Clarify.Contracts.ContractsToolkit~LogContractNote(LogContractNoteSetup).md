@@ -7,15 +7,18 @@ Causes a note log to be created and added to the specified contract. This overlo
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogContractNote( _
-   ByVal _setupParam_ As [LogContractNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ LogContractNoteSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogContractNote( 
-   [LogContractNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup.md) _setupParam_
+```csharp
+public ToolkitResult LogContractNote( 
+   LogContractNoteSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 It logs the note with the user name specified. There can be Internal Use notes added. It allows the setting of optional fields on the notes_log record with the use of the AdditionalFields object.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

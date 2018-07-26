@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property RestrictedFields As [SchemaFieldBase()](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md)
+Public ReadOnly Property RestrictedFields As SchemaFieldBase()
+```
 
-public [SchemaFieldBase\[\]](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md) RestrictedFields {get;}
+```csharp
+public SchemaFieldBase[] RestrictedFields {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

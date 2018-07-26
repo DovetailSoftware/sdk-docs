@@ -9,17 +9,20 @@ Move the PartRequest from one WipBin to another WipBin. This overload takes a se
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function MovePartRequest( _
-   ByVal _setupParam_ As [MovePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup.md), _
+   ByVal _setupParam_ As MovePartRequestSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) MovePartRequest( 
-   [MovePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup.md) _setupParam_,
+```csharp
+public ToolkitResult MovePartRequest( 
+   MovePartRequestSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

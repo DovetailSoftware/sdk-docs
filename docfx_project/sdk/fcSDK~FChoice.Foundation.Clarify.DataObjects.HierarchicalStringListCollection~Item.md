@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shadows ReadOnly Default Property Item( _
    ByVal _title_ As String _
-) As [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md)
+) As IHierarchicalStringList
+```
 
-public new [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md) this\[ 
+```csharp
+public new IHierarchicalStringList this[ 
    string _title_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
 _title_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,27 +1,28 @@
-﻿### SetNullStringToEmpty Method (IFCSession)
+### SetNullStringToEmpty Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743914)>
 Function SetNullStringToEmpty( _
    ByVal _inputString_ As Object _
 ) As Object
+```
 
+```csharp
 [DispIdAttribute(1610743914)]
 object SetNullStringToEmpty( 
    object _inputString_
 )
+```
 
 #### Parameters
 
 _inputString_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -13,7 +13,7 @@ Initializes a new instance of the CreateContactSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -22,7 +22,9 @@ Public Function New( _
    ByVal _phone_ As String, _
    ByVal _siteIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateContactSetup( 
    string _firstName_,
@@ -30,6 +32,7 @@ public CreateContactSetup(
    string _phone_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ _siteIDNum_
 Identifier of the site for the contact role to create.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

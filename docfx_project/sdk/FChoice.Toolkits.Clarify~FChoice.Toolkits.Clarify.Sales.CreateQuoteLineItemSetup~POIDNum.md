@@ -5,20 +5,22 @@ Purchase Order Identifier.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property POIDNum As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string POIDNum {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Must be a valid purchase order number for the specified PriceSchedule.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

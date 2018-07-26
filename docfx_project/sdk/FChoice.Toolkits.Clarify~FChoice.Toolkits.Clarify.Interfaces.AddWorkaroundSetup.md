@@ -5,10 +5,14 @@ Used by the [AddWorkaround](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.I
 Syntax
 
 ```vbnet
-' Declaration
-Public Class AddWorkaroundSetup 
+'Declaration
 
-public class AddWorkaroundSetup 
+Public Class AddWorkaroundSetup 
+```
+
+```csharp
+public class AddWorkaroundSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

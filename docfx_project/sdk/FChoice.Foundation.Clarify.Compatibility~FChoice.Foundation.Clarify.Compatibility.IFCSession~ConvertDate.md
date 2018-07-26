@@ -1,9 +1,9 @@
-﻿### ConvertDate Method (IFCSession)
+### ConvertDate Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743871)>
 Function ConvertDate( _
@@ -11,13 +11,16 @@ Function ConvertDate( _
    ByVal _fromTimeZone_ As String, _
    ByVal _toTimeZone_ As String _
 ) As Date
+```
 
+```csharp
 [DispIdAttribute(1610743871)]
 DateTime ConvertDate( 
    DateTime _convertDate_,
    string _fromTimeZone_,
    string _toTimeZone_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ _fromTimeZone_
 _toTimeZone_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

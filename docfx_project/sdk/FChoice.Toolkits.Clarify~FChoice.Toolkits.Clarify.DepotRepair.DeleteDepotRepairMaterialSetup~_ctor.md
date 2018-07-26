@@ -7,17 +7,20 @@ Initializes a new instance of the DeleteDepotRepairMaterialSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _materialLogObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DeleteDepotRepairMaterialSetup( 
    int _materialLogObjid_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _materialLogObjid_
 The objid of the material log object to be deleted
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,7 +7,7 @@ Syntax
 ```vbnet
 'Declaration
 
-Public Shared ReadOnly Property ProviderNames As [String()](#)
+Public Shared ReadOnly Property ProviderNames As String()
 ```
 
 ```csharp

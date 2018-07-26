@@ -9,17 +9,20 @@ Reject-forward the Solution from one queue to another. This overload takes a set
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ForwardSolution( _
    ByVal _solutionIDNum_ As String, _
    ByVal _newQueue_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardSolution( 
+```csharp
+public ToolkitResult ForwardSolution( 
    string _solutionIDNum_,
    string _newQueue_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The Solution must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

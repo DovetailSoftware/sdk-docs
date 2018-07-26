@@ -5,13 +5,17 @@ Filter field on dates that have occurred within a number of days
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Class WithinDaysFilter 
-   Inherits [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)
+   Inherits BetweenFilter
+```
 
-public class WithinDaysFilter : [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md) 
+```csharp
+public class WithinDaysFilter : BetweenFilter
+```
 
-Example
+#### Example
 
 [**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
@@ -30,8 +34,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

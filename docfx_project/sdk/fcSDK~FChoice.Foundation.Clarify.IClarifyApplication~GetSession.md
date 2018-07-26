@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function GetSession( _
    ByVal _sessionID_ As Guid _
-) As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
+) As ClarifySession
+```
 
-[ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) GetSession( 
+```csharp
+ClarifySession GetSession( 
    Guid _sessionID_
 )
+```
 
 #### Parameters
 
 _sessionID_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743879)>
 Function Init_Object( _
-   ByRef _generic_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md), _
+   ByRef _generic_ As IFCGeneric, _
    ByVal _objectType_ As String, _
    ByVal _dataFields_ As String, _
    ByVal _bulkName_ As String _
-) As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md)
+) As IFCGeneric
+```
 
+```csharp
 [DispIdAttribute(1610743879)]
-[IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) Init_Object( 
-   out [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _generic_,
+IFCGeneric Init_Object( 
+   out IFCGeneric _generic_,
    string _objectType_,
    string _dataFields_,
    string _bulkName_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _dataFields_
 _bulkName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

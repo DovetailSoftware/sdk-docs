@@ -9,17 +9,20 @@ Delete a Depot Repair Material. This overload takes a setup object and a databas
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DeleteDepotRepairMaterial( _
-   ByVal _setupParam_ As [DeleteDepotRepairMaterialSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairMaterialSetup.md), _
+   ByVal _setupParam_ As DeleteDepotRepairMaterialSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteDepotRepairMaterial( 
-   [DeleteDepotRepairMaterialSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairMaterialSetup.md) _setupParam_,
+```csharp
+public ToolkitResult DeleteDepotRepairMaterial( 
+   DeleteDepotRepairMaterialSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

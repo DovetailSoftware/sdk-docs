@@ -5,11 +5,15 @@ Filter field on strings sound like the input to this filter
 Syntax
 
 ```vbnet
-' Declaration
-Public Class SoundsLikeFilter 
-   Inherits [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)
+'Declaration
 
-public class SoundsLikeFilter : [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md) 
+Public Class SoundsLikeFilter 
+   Inherits ColumnBasedFilter
+```
+
+```csharp
+public class SoundsLikeFilter : ColumnBasedFilter 
+```
 
 Example
 
@@ -29,8 +33,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

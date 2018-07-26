@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetViewField( _
    ByVal _viewName_ As String, _
    ByVal _fieldName_ As String _
-) As [SchemaViewField](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewField.md)
+) As SchemaViewField
+```
 
-public [SchemaViewField](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewField.md) GetViewField( 
+```csharp
+public SchemaViewField GetViewField( 
    string _viewName_,
    string _fieldName_
 )
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _viewName_
 _fieldName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

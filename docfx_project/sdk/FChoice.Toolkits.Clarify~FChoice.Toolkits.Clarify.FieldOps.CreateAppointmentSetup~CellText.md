@@ -5,21 +5,22 @@ The short description of the Appointment.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property CellText As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string CellText {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If not specified, it will default to the Appointment Type and the Appointment start and end dates.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

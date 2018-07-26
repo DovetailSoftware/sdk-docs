@@ -9,17 +9,20 @@ Change the condition of a CR to Fixed. This overload takes a setup object and a 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function FixCR( _
-   ByVal _setupParam_ As [FixCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup.md), _
+   ByVal _setupParam_ As FixCRSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) FixCR( 
-   [FixCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup.md) _setupParam_,
+```csharp
+public ToolkitResult FixCR( 
+   FixCRSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

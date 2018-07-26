@@ -9,17 +9,20 @@ Captures all the summed times (such as phone log time, billable and non-billable
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetCaseTimeAndExpenses( _
-   ByVal _setupParam_ As [GetCaseTimeAndExpensesSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesSetup.md), _
+   ByVal _setupParam_ As GetCaseTimeAndExpensesSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [GetCaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult.md)
+) As GetCaseTimeAndExpensesResult
+```
 
-public [GetCaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult.md) GetCaseTimeAndExpenses( 
-   [GetCaseTimeAndExpensesSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesSetup.md) _setupParam_,
+```csharp
+public GetCaseTimeAndExpensesResult GetCaseTimeAndExpenses( 
+   GetCaseTimeAndExpensesSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -33,7 +36,7 @@ Database transaction under which the API will be invoked.
 
 #### Return Value
 
-A [GetCaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A GetCaseTimeAndExpensesResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Remarks
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

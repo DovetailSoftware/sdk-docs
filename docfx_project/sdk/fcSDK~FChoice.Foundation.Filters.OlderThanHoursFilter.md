@@ -5,11 +5,15 @@ Filter field on dates that are older than a number of hours
 Syntax
 
 ```vbnet
-' Declaration
-Public Class OlderThanHoursFilter 
-   Inherits [LessThanFilter](fcSDK~FChoice.Foundation.Filters.LessThanFilter.md)
+'Declaration
 
-public class OlderThanHoursFilter : [LessThanFilter](fcSDK~FChoice.Foundation.Filters.LessThanFilter.md) 
+Public Class OlderThanHoursFilter 
+   Inherits LessThanFilter
+```
+
+```csharp
+public class OlderThanHoursFilter : LessThanFilter
+```
 
 Example
 
@@ -31,8 +35,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

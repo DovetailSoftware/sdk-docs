@@ -5,10 +5,14 @@ Used by the [InstallSitePartToBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Cl
 Syntax
 
 ```vbnet
-' Declaration
-Public Class InstallSitePartToBinSetup 
+'Declaration
 
-public class InstallSitePartToBinSetup 
+Public Class InstallSitePartToBinSetup 
+```
+
+```csharp
+public class InstallSitePartToBinSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

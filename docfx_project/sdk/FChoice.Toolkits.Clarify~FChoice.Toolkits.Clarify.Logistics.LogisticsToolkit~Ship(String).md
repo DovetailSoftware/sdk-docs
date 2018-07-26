@@ -9,15 +9,18 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function Ship( _
    ByVal _partRequestDetailIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) Ship( 
+```csharp
+public ToolkitResult Ship( 
    string _partRequestDetailIDNum_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ If no carrier name is provided, the dummy site will be used (objid of -2).
 **NOTE**: This API will validate that the user has authority to make the status transition.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

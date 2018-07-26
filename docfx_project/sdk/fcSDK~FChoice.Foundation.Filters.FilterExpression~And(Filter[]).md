@@ -1,29 +1,26 @@
-﻿     And(Filter\[\]) Method                                                   
-
-fcSDK Documentation
-
-And(Filter\[\]) Method
+﻿### And(Filter\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function And( _
-   ByVal ParamArray _filters_() As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _
-) As [AndManyFilter](fcSDK~FChoice.Foundation.Filters.AndManyFilter.md)
+   ByVal ParamArray _filters_() As Filter _
+) As AndManyFilter
+```
 
-public [AndManyFilter](fcSDK~FChoice.Foundation.Filters.AndManyFilter.md) And( 
-   params [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)\[\] _filters_
+```csharp
+public AndManyFilter And( 
+   params Filter\[\] _filters_
 )
+```
 
 #### Parameters
 
 _filters_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

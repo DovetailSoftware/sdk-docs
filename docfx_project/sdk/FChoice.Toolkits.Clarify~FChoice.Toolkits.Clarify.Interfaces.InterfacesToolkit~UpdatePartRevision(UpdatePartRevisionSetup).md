@@ -7,15 +7,18 @@ Update a Part Revision (mod_level) This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdatePartRevision( _
-   ByVal _setupParam_ As [UpdatePartRevisionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartRevisionSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdatePartRevisionSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdatePartRevision( 
-   [UpdatePartRevisionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartRevisionSetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdatePartRevision( 
+   UpdatePartRevisionSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PartRevision.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

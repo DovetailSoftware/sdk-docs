@@ -5,13 +5,16 @@ This event is fired when the [MaximumRows](fcSDK~FChoice.Foundation.FCGeneric~Ma
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Event MaximumRowsExceeded As [MaximumRowsExceededEventHandler](fcSDK~FChoice.Foundation.MaximumRowsExceededEventHandler.md)
+Public Event MaximumRowsExceeded As MaximumRowsExceededEventHandler
+```
 
-public event [MaximumRowsExceededEventHandler](fcSDK~FChoice.Foundation.MaximumRowsExceededEventHandler.md) MaximumRowsExceeded
+```csharp
+public event MaximumRowsExceededEventHandler MaximumRowsExceeded
+```
 
-Event Data
+#### Event Data
 
 The event handler receives an argument of type [MaximumRowsExceededEventArgs](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs.md) containing data related to this event. The following **MaximumRowsExceededEventArgs** properties provide information specific to this event.
 
@@ -22,8 +25,6 @@ The event handler receives an argument of type [MaximumRowsExceededEventArgs](fc
 | [TotalPossibleRows](fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs~TotalPossibleRows.md) | Readonly count of rows to be returned by the large query that caused this event. |
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetTableOrViewByID( _
    ByVal _typeID_ As Integer _
-) As [SchemaTableBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase.md)
+) As SchemaTableBase
+```
 
-public [SchemaTableBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase.md) GetTableOrViewByID( 
+```csharp
+public SchemaTableBase GetTableOrViewByID( 
    int _typeID_
 )
+```
 
 #### Parameters
 
 _typeID_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

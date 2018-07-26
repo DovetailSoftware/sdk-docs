@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _col_ As [DataColumn](#) _
+   ByVal _col_ As DataColumn _
 )
+```
 
+```csharp
 public ColumnInfo( 
-   [DataColumn](#) _col_
+   DataColumn _col_
 )
+```
 
 #### Parameters
 
 _col_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Method, 
+<AttributeUsageAttribute(ValidOn=AttributeTargets.Method, 
    AllowMultiple=True, 
    Inherited=True)>
 Public Class SplitMethodAttribute 
-   Inherits [System.Attribute](#)
+   Inherits System.Attribute
+```
 
-\[[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Method, 
+```csharp
+[AttributeUsageAttribute(ValidOn=AttributeTargets.Method, 
    AllowMultiple=true, 
-   Inherited=true)\]
-public class SplitMethodAttribute : [System.Attribute](#) 
+   Inherited=true)]
+public class SplitMethodAttribute : System.Attribute
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Attribute](#)  
+   System.Attribute  
       **FChoice.Foundation.Clarify.Attributes.SplitMethodAttribute**  
 
 #### Requirements
@@ -29,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

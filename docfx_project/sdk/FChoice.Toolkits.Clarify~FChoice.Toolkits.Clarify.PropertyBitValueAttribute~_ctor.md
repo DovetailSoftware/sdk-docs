@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _val_ As Integer _
 )
+```
 
+```csharp
 public PropertyBitValueAttribute( 
    int _val_
 )
+```
 
 #### Parameters
 
 _val_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

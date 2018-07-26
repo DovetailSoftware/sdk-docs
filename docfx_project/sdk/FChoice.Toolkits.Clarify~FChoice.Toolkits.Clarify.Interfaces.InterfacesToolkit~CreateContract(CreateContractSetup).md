@@ -7,15 +7,18 @@ Creates a Contract. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateContract( _
-   ByVal _setupParam_ As [CreateContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContractSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateContractSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateContract( 
-   [CreateContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContractSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateContract( 
+   CreateContractSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -31,8 +34,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Contract.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

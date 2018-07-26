@@ -5,11 +5,14 @@ Holds summary totals from the [PrecloseCase](/sdk/toolkit_html/fccs/preclose_cas
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class CaseTimeAndExpenses 
+```
 
-public class CaseTimeAndExpenses 
+```csharp
+public class CaseTimeAndExpenses
+```
 
 Inheritance Hierarchy
 
@@ -23,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

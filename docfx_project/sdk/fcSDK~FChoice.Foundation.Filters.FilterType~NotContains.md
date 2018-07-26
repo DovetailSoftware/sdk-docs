@@ -5,17 +5,20 @@ Filter field on strings that do not contain the input to this filter
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function NotContains( _
    ByVal _columnName_ As String, _
    ByVal _value_ As String _
-) As [NotContainsFilter](fcSDK~FChoice.Foundation.Filters.NotContainsFilter.md)
+) As NotContainsFilter
+```
 
-public static [NotContainsFilter](fcSDK~FChoice.Foundation.Filters.NotContainsFilter.md) NotContains( 
+```csharp
+public static NotContainsFilter NotContains( 
    string _columnName_,
    string _value_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _columnName_
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

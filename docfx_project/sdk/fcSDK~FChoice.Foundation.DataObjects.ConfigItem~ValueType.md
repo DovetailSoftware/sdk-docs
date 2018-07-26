@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property ValueType As [ConfigItemValueType](fcSDK~FChoice.Foundation.DataObjects.ConfigItemValueType.md)
+Public ReadOnly Property ValueType As ConfigItemValueType
+```
 
-public [ConfigItemValueType](fcSDK~FChoice.Foundation.DataObjects.ConfigItemValueType.md) ValueType {get;}
+```csharp
+public ConfigItemValueType ValueType {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

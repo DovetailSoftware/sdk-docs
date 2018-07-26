@@ -9,17 +9,20 @@ Dispatch the CR to the specified queue. This overload takes a set of required pa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DispatchCR( _
    ByVal _cridnum_ As String, _
    ByVal _queue_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchCR( 
+```csharp
+public ToolkitResult DispatchCR( 
    string _cridnum_,
    string _queue_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The CR must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

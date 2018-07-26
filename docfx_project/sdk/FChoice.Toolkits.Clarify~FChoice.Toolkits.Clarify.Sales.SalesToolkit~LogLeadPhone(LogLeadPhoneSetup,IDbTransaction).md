@@ -9,17 +9,20 @@ Log a phone call for a Lead. This overload takes a setup object and a database t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogLeadPhone( _
-   ByVal _setupParam_ As [LogLeadPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup.md), _
+   ByVal _setupParam_ As LogLeadPhoneSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogLeadPhone( 
-   [LogLeadPhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup.md) _setupParam_,
+```csharp
+public ToolkitResult LogLeadPhone( 
+   LogLeadPhoneSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function GetCache( _
    ByVal _name_ As String _
-) As [CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)
+) As CacheBase
+```
 
-public static [CacheBase](fcSDK~FChoice.Foundation.CacheBase.md) GetCache( 
+```csharp
+public static CacheBase GetCache( 
    string _name_
 )
+```
 
 #### Parameters
 
 _name_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

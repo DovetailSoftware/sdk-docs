@@ -7,15 +7,18 @@ Creates a Contact. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateContact( _
-   ByVal _setupParam_ As [CreateContactSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContactSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateContactSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateContact( 
-   [CreateContactSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContactSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateContact( 
+   CreateContactSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ A default contact role for the [Site](FChoice.Toolkits.Clarify~FChoice.Toolkits.
 If you need to create duplicate contacts (same first name, last name, phone), you may use the [AllowDuplicateContact](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase~AllowDuplicateContact.md) property.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Mark a CR as duplicate of another 'master' CR. This overload takes a setup objec
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DuplicateCR( _
-   ByVal _setupParam_ As [DuplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ DuplicateCRSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DuplicateCR( 
-   [DuplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup.md) _setupParam_
+```csharp
+public ToolkitResult DuplicateCR( 
+   DuplicateCRSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The condition of the CR is changed to **CR Duplicate/Closed**.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

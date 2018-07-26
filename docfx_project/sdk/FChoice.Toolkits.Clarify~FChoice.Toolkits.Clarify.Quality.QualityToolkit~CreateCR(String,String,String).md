@@ -11,19 +11,22 @@ Create a new Change Request (CR). This overload takes a set of required paramete
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateCR( _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
    ByVal _partDomain_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateCR( 
+```csharp
+public ToolkitResult CreateCR( 
    string _partNumber_,
    string _partRevision_,
    string _partDomain_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ Remarks
 Unless a [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup~Queue.md) is specified the CR is located in the owners default WipBin.  
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

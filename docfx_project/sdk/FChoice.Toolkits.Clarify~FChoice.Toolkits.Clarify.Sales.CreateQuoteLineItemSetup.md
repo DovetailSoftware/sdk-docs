@@ -5,10 +5,14 @@ Used by the [CreateQuoteLineItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Cla
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CreateQuoteLineItemSetup 
+'Declaration
 
-public class CreateQuoteLineItemSetup 
+Public Class CreateQuoteLineItemSetup 
+```
+
+```csharp
+public class CreateQuoteLineItemSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

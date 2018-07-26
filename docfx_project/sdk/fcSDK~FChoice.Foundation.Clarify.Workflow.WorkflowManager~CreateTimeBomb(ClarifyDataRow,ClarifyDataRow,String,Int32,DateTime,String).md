@@ -3,25 +3,27 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateTimeBomb( _
-   ByVal _mainRecord_ As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md), _
-   ByVal _activityRecord_ As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md), _
+   ByVal _mainRecord_ As ClarifyDataRow, _
+   ByVal _activityRecord_ As ClarifyDataRow, _
    ByVal _action_ As String, _
    ByVal _employeeId_ As Integer, _
    ByVal _timebombDate_ As Date, _
    ByVal _focusObjectName_ As String _
-) As [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md)
+) As ClarifyGeneric```
 
-public [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) CreateTimeBomb( 
-   [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) _mainRecord_,
-   [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) _activityRecord_,
+```csharp
+public ClarifyGeneric CreateTimeBomb( 
+   ClarifyDataRow _mainRecord_,
+   ClarifyDataRow _activityRecord_,
    string _action_,
    int _employeeId_,
    DateTime _timebombDate_,
    string _focusObjectName_
 )
+```
 
 #### Parameters
 
@@ -38,8 +40,6 @@ _timebombDate_
 _focusObjectName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

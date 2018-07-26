@@ -7,15 +7,18 @@ Update Price Instance. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdatePriceInstance( _
-   ByVal _setupParam_ As [UpdatePriceInstanceSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdatePriceInstanceSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdatePriceInstance( 
-   [UpdatePriceInstanceSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdatePriceInstance( 
+   UpdatePriceInstanceSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PriceInstance.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

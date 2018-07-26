@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetByNumber( _
    ByVal _tableID_ As Integer _
-) As [SchemaTable](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTable.md)
+) As SchemaTable
+```
 
-public [SchemaTable](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTable.md) GetByNumber( 
+```csharp
+public SchemaTable GetByNumber( 
    int _tableID_
 )
+```
 
 #### Parameters
 
 _tableID_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,20 +5,22 @@ The new WipBin into which the PartRequest is to be moved.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property NewWipBin As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string NewWipBin {get; set;}
+```
 
-Remarks
+#### Remarks
 
 The specified WipBin name must be valid for the current owner.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

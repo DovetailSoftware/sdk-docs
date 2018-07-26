@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property CommunicationRoleType As [CommunicationRoleType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationRoleType.md)
+Public Property CommunicationRoleType As CommunicationRoleType
+```
 
-public [CommunicationRoleType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationRoleType.md) CommunicationRoleType {get; set;}
+```csharp
+public CommunicationRoleType CommunicationRoleType {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

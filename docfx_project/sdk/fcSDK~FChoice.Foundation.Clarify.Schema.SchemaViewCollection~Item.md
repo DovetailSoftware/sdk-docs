@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shadows ReadOnly Default Property Item( _
    ByVal _viewName_ As String _
-) As [SchemaView](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaView.md)
+) As SchemaView
+```
 
-public new [SchemaView](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaView.md) this\[ 
+```csharp
+public new SchemaView this[ 
    string _viewName_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
 _viewName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

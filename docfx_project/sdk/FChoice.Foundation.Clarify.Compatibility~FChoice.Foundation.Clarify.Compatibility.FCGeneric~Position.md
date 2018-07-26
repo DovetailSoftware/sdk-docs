@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property Position As Short
+'Declaration
 
+Public Property Position As Short
+```
+
+```csharp
 public short Position {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

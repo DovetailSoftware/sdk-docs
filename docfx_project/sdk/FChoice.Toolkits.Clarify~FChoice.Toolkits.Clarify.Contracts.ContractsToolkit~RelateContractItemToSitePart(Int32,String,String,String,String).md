@@ -15,7 +15,7 @@ Used to relate (or unrelate) a Site Part from a contract line item. This overl
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RelateContractItemToSitePart( _
    ByVal _contractObjid_ As Integer, _
@@ -23,15 +23,18 @@ Public Overloads Function RelateContractItemToSitePart( _
    ByVal _partDomain_ As String, _
    ByVal _partRevision_ As String, _
    ByVal _serialNumber_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RelateContractItemToSitePart( 
+```csharp
+public ToolkitResult RelateContractItemToSitePart( 
    int _contractObjid_,
    string _partNumber_,
    string _partDomain_,
    string _partRevision_,
    string _serialNumber_
 )
+```
 
 #### Parameters
 
@@ -64,8 +67,6 @@ Remarks
 The line item’s objid is specified, along with the details for locating the site_part.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

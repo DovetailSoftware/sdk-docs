@@ -5,10 +5,14 @@ Used by the [RejectCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Supp
 Syntax
 
 ```vbnet
-' Declaration
-Public Class RejectCaseSetup 
+'Declaration
 
-public class RejectCaseSetup 
+Public Class RejectCaseSetup 
+```
+
+```csharp
+public class RejectCaseSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

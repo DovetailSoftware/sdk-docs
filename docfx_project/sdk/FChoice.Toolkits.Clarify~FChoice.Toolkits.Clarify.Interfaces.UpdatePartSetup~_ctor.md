@@ -11,7 +11,7 @@ Initializes a new instance of the UpdatePartSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _partDomain_ As String, _
    ByVal _warrantyDays_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdatePartSetup( 
    string _partNumber_,
    string _partDomain_,
    int _warrantyDays_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _warrantyDays_
 Number of warranty days for the part
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

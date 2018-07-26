@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _isUnicode_ As Boolean _
 )
+```
 
+```csharp
 public AdoFieldInformationProvider( 
    bool _isUnicode_
 )
+```
 
 #### Parameters
 
 _isUnicode_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

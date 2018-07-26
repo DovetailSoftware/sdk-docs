@@ -7,15 +7,18 @@ Yank the Case from its current location to a new owner's WipBin. This overload t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankCase( _
-   ByVal _setupParam_ As [YankCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ YankCaseSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankCase( 
-   [YankCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup.md) _setupParam_
+```csharp
+public ToolkitResult YankCase( 
+   YankCaseSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The WipBin to place the Case in may also be specified. This is augmented function from base Clarify, where the Case is always placed in the default WipBin.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

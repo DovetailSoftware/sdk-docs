@@ -5,14 +5,16 @@ The direction of the message ([CommunicationDirection](FChoice.Toolkits.Clarify~
 Syntax
 
 ```vbnet
-' Declaration
-Public Property Direction As [Nullable(Of CommunicationDirection)](#)
+'Declaration
 
-public [Nullable<CommunicationDirection>](#) Direction {get; set;}
+Public Property Direction As Nullable(Of CommunicationDirection)
+```
+
+```csharp
+public Nullable<CommunicationDirection> Direction {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

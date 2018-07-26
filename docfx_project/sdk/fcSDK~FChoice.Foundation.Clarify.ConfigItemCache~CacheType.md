@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overrides ReadOnly Property CacheType As [CacheType](fcSDK~FChoice.Foundation.CacheType.md)
+Public Overrides ReadOnly Property CacheType As CacheType
+```
 
-public override [CacheType](fcSDK~FChoice.Foundation.CacheType.md) CacheType {get;}
+```csharp
+public override CacheType CacheType {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

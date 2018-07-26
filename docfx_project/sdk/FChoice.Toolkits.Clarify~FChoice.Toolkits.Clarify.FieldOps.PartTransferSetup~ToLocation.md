@@ -5,16 +5,18 @@ Inventory location and bin (or GL account) into which the part is being transfe
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property ToLocation As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md)
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) ToLocation {get; set;}
+<PropertyBitValueAttribute()>
+Public Property ToLocation As Location
+```
+
+```csharp
+[PropertyBitValueAttribute()]
+public Location ToLocation {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

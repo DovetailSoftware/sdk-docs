@@ -7,15 +7,18 @@ Used to add expense and capital GL accounts to Clarify. This overload takes a se
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddGLAccount( _
-   ByVal _setupParam_ As [AddGLAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ AddGLAccountSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddGLAccount( 
-   [AddGLAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup.md) _setupParam_
+```csharp
+public ToolkitResult AddGLAccount( 
+   AddGLAccountSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Inventory Location record.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Creates a Bill Of Materials (BOM) for a Part Revision. This overload takes a set
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateBOM( _
-   ByVal _setupParam_ As [CreateBOMSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateBOMSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateBOMSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateBOM( 
-   [CreateBOMSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateBOMSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateBOM( 
+   CreateBOMSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the BOM.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

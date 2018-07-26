@@ -9,19 +9,22 @@ Initializes a new instance of the FulfillPartRequestSetup class. This overload t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _serialNumber_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public FulfillPartRequestSetup( 
    string _partRequestDetailIDNum_,
    string _serialNumber_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _serialNumber_
 The serial number of the part used to fulfill this Part Request
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

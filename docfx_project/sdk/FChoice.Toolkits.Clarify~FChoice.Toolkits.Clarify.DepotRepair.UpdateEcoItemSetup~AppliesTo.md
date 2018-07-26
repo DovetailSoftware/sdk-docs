@@ -5,16 +5,18 @@ This must be either 5148 to apply the ECO item to an ECO header, or 329 to apply
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property AppliesTo As [EcoItemAppliesTo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.EcoItemAppliesTo.md)
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [EcoItemAppliesTo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.EcoItemAppliesTo.md) AppliesTo {get; set;}
+<PropertyBitValueAttribute()>
+Public Property AppliesTo As EcoItemAppliesTo
+```
+
+```csharp
+[PropertyBitValueAttribute()]
+public EcoItemAppliesTo AppliesTo {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

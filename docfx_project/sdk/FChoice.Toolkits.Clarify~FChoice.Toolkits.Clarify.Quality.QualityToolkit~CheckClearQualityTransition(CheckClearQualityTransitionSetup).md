@@ -7,15 +7,18 @@ Determine if a user can change status from an old condition/status to a new cond
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CheckClearQualityTransition( _
-   ByVal _setupParam_ As [CheckClearQualityTransitionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CheckClearQualityTransitionSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CheckClearQualityTransitionSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CheckClearQualityTransition( 
-   [CheckClearQualityTransitionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CheckClearQualityTransitionSetup.md) _setupParam_
+```csharp
+public ToolkitResult CheckClearQualityTransition( 
+   CheckClearQualityTransitionSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 Checks the transitions as set up in Clarify’s Policies & Customers.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

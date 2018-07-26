@@ -5,15 +5,18 @@ Setup object for API invocation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateContainer( _
-   ByVal _setupParam_ As [CreateContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateContainerSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateContainerSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateContainer( 
-   [CreateContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateContainerSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateContainer( 
+   CreateContainerSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _setupParam_
 Setup object for API invocation.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

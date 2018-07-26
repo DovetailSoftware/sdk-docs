@@ -5,11 +5,11 @@ Syntax
 ```vbnet
 'Declaration
 
-Function RetrieveLicenses() As [LicenseCollection](FChoice.Common~FChoice.Common.Licensing.LicenseCollection.md)
+Function RetrieveLicenses() As LicenseCollection
 ```
 
 ```csharp
-[LicenseCollection](FChoice.Common~FChoice.Common.Licensing.LicenseCollection.md) RetrieveLicenses()
+LicenseCollection RetrieveLicenses()
 ```
 
 [!include[Requirements](../partials/requirements.md)]

@@ -2,19 +2,23 @@
 
 The globally unique identifier for the desired session.
 
-Retrieves an [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) previously created by [CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md).
+Retrieves an ClarifySession previously created by [CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md).
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Overridable Function GetSession( _
    ByVal _sessionID_ As Guid _
-) As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
+) As ClarifySession
+```
 
-public virtual [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) GetSession( 
+```csharp
+public virtual ClarifySession GetSession( 
    Guid _sessionID_
 )
+```
 
 #### Parameters
 
@@ -24,7 +28,7 @@ The globally unique identifier for the desired session.
 
 #### Return Value
 
-The [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) with the specified **_sessionID_**.
+The ClarifySession with the specified **_sessionID_**.
 
 Exceptions
 
@@ -37,8 +41,6 @@ Remarks
 The ID of a session is accessible via the [SessionID](fcSDK~FChoice.Foundation.FCSession~SessionID.md) property.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

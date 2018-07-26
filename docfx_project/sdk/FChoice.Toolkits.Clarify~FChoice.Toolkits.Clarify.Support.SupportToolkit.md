@@ -7,12 +7,15 @@ Methods on the [SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarif
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class SupportToolkit 
-   Inherits [SupportToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase.md)
+   Inherits SupportToolkitBase
+```
 
-public class SupportToolkit : [SupportToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase.md) 
+```csharp
+public class SupportToolkit : SupportToolkitBase
+``` 
 
 Inheritance Hierarchy
 
@@ -28,8 +31,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

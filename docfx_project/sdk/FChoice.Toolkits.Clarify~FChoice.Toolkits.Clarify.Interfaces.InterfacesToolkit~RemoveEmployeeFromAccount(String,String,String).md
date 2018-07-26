@@ -11,19 +11,22 @@ Remove an Employee from an Account. This overload takes a set of required parame
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RemoveEmployeeFromAccount( _
    ByVal _userName_ As String, _
    ByVal _accountIDNum_ As String, _
    ByVal _roleName_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RemoveEmployeeFromAccount( 
+```csharp
+public ToolkitResult RemoveEmployeeFromAccount( 
    string _userName_,
    string _accountIDNum_,
    string _roleName_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Employee Role to be removing from the Account
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

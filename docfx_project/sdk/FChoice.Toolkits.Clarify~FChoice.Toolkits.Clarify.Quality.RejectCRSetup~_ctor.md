@@ -7,17 +7,20 @@ Initializes a new instance of the RejectCRSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _cridnum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public RejectCRSetup( 
    string _cridnum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _cridnum_
 CR Identifier.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

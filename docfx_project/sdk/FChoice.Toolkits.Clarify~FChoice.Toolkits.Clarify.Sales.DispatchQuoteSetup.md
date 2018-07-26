@@ -1,14 +1,18 @@
-﻿### DispatchQuoteSetup Class
+### DispatchQuoteSetup Class
 
 Used by the [DispatchQuote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~DispatchQuote(DispatchQuoteSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-' Declaration
-Public Class DispatchQuoteSetup 
+'Declaration
 
+Public Class DispatchQuoteSetup 
+```
+
+```csharp
 public class DispatchQuoteSetup 
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

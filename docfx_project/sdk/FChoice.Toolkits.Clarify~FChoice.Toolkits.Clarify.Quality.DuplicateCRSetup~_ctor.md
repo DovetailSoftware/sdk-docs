@@ -9,19 +9,22 @@ Initializes a new instance of the DuplicateCRSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _crIDNum_ As String, _
    ByVal _masterCRIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DuplicateCRSetup( 
    string _crIDNum_,
    string _masterCRIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _masterCRIDNum_
 Identifier of the 'master' CR this CR duplicates.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

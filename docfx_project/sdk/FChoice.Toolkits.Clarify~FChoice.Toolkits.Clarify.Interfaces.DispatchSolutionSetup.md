@@ -1,14 +1,18 @@
-﻿### DispatchSolutionSetup Class
+### DispatchSolutionSetup Class
 
 Used by the [DispatchSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~DispatchSolution(DispatchSolutionSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-' Declaration
-Public Class DispatchSolutionSetup 
+'Declaration
 
+Public Class DispatchSolutionSetup 
+```
+
+```csharp
 public class DispatchSolutionSetup 
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

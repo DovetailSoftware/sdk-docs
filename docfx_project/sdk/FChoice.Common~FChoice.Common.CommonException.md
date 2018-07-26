@@ -11,12 +11,13 @@ Syntax
 
 <SerializableAttribute()>
 Public Class CommonException 
-   Inherits [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)
+   Inherits FCExceptionBase
 ```
 
 ```csharp
 [SerializableAttribute()]
-public class CommonException : [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) 
+public class CommonException : FCExceptionBase
+```
 
 Remarks
 
@@ -25,7 +26,7 @@ This exception is thrown whenever the FChoice.Common classes encounter problems.
 Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.110).aspx)
-[System.Exception](#)  
+System.Exception  
 [System.ApplicationException](#)  
 [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
 

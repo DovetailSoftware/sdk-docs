@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 ReadOnly Default Property Item( _
    ByVal _name_ As String _
-) As [ISchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md)
+) As ISchemaRelation
+```
 
-[ISchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) this\[ 
+```csharp
+ISchemaRelation this[ 
    string _name_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
 _name_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

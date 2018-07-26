@@ -5,11 +5,15 @@ Filter field for values that occur between the two filter inputs
 Syntax
 
 ```vbnet
-' Declaration
-Public Class BetweenFilter 
-   Inherits [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)
+'Declaration
 
-public class BetweenFilter : [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md) 
+Public Class BetweenFilter 
+   Inherits ColumnBasedFilter
+```
+
+```csharp
+public class BetweenFilter : ColumnBasedFilter
+```
 
 Example
 
@@ -33,8 +37,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

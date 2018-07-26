@@ -5,20 +5,22 @@ The OnlyOpen property, which defaults to true, is checked before updating the ca
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property OnlyOpen As Boolean
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public bool OnlyOpen {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If the property is set to true, only Open cases will have their contact changed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

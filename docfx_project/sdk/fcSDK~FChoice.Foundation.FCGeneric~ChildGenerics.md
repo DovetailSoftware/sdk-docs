@@ -5,11 +5,14 @@ Returns a dictionary (keyed by parent to child relation name) of child generics 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property ChildGenerics As [ICollection(Of FCGeneric)](#)
+Public ReadOnly Property ChildGenerics As ICollection(Of FCGeneric)
+```
 
-public [ICollection<FCGeneric>](#) ChildGenerics {get;}
+```csharp
+public ICollection<FCGeneric> ChildGenerics {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 Changes to the dictionary will have no effect on the **FCGeneric**.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

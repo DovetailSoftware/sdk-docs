@@ -7,15 +7,18 @@ Reopen a CR. This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReopenCR( _
    ByVal _crIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReopenCR( 
+```csharp
+public ToolkitResult ReopenCR( 
    string _crIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 It must be in a condition other than “Open”, and cannot be dispatched.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

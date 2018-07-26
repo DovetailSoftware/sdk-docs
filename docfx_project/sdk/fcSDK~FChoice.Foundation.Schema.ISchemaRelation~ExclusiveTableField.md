@@ -3,14 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
-ReadOnly Property ExclusiveTableField As [ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md)
+'Declaration
+ReadOnly Property ExclusiveTableField As ISchemaField
+```
 
-[ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md) ExclusiveTableField {get;}
+```csharp
+ISchemaField ExclusiveTableField {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

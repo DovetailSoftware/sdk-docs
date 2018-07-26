@@ -1,20 +1,22 @@
-﻿### WorkOrder Property
+### WorkOrder Property
 
 The Id Number of the work order. If blank, "." is used.
 
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property WorkOrder As String
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property WorkOrder As String
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public string WorkOrder {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

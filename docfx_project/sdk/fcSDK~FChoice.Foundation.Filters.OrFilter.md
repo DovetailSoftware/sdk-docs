@@ -5,11 +5,15 @@ Logical filter allowing 2 OR (exclusive) filters.
 Syntax
 
 ```vbnet
-' Declaration
-Public Class OrFilter 
-   Inherits [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)
+'Declaration
 
-public class OrFilter : [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md) 
+Public Class OrFilter 
+   Inherits LogicalFilter
+```
+
+```csharp
+public class OrFilter : LogicalFilter
+```
 
 Example
 
@@ -29,8 +33,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

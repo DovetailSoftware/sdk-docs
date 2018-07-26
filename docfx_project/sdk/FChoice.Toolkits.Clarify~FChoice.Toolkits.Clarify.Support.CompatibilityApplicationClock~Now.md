@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property Now As Date
+'Declaration
 
+Public ReadOnly Property Now As Date
+```
+
+```csharp
 public DateTime Now {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

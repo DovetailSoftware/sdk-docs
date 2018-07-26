@@ -7,17 +7,20 @@ Database transaction under which the API will be invoked.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function SealContainer( _
-   ByVal _setupParam_ As [SealContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SealContainerSetup.md), _
+   ByVal _setupParam_ As SealContainerSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) SealContainer( 
-   [SealContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SealContainerSetup.md) _setupParam_,
+```csharp
+public ToolkitResult SealContainer( 
+   SealContainerSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

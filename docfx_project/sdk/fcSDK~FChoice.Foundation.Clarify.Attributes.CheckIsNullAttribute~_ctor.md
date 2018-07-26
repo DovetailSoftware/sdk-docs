@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _errorNumber_ As Integer _
 )
+```
 
+```csharp
 public CheckIsNullAttribute( 
    int _errorNumber_
 )
+```
 
 #### Parameters
 
 _errorNumber_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

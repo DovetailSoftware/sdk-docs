@@ -7,15 +7,18 @@ Closes the specified Subcase. This overload takes a set of required parameters f
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CloseSubcase( _
    ByVal _subcaseIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CloseSubcase( 
+```csharp
+public ToolkitResult CloseSubcase( 
    string _subcaseIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 The Subcase must be in open condition.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

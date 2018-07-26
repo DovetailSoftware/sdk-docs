@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _clarifySession_ As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) _
+   ByVal _clarifySession_ As ClarifySession _
 )
+```
 
+```csharp
 public ClarifyApplicationClock( 
-   [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) _clarifySession_
+   ClarifySession _clarifySession_
 )
+```
 
 #### Parameters
 
 _clarifySession_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,11 +5,14 @@ Gets a reference to the [LocaleCache](fcSDK~FChoice.Foundation.Clarify.LocaleCa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property LocaleCache As [ILocaleCache](fcSDK~FChoice.Foundation.Clarify.ILocaleCache.md)
+Public ReadOnly Property LocaleCache As ILocaleCache
+```
 
-public [ILocaleCache](fcSDK~FChoice.Foundation.Clarify.ILocaleCache.md) LocaleCache {get;}
+```csharp
+public ILocaleCache LocaleCache {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 See the documentation for [LocaleCache](fcSDK~FChoice.Foundation.Clarify.LocaleCache.md) for more information on how to access and work with locale information in FCFL.NET.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

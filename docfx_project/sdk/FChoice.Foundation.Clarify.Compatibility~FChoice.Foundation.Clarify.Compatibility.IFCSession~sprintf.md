@@ -3,7 +3,8 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743868)>
 Function sprintf( _
    ByVal _inputString_ As String, _
@@ -14,7 +15,9 @@ Function sprintf( _
    Optional ByVal _arg5_ As Object, _
    Optional ByVal _arg6_ As Object _
 ) As String
+```
 
+```csharp
 [DispIdAttribute(1610743868)]
 string sprintf( 
    string _inputString_,
@@ -25,6 +28,7 @@ string sprintf(
    object _arg5_,
    object _arg6_
 )
+```
 
 #### Parameters
 
@@ -43,8 +47,6 @@ _arg5_
 _arg6_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

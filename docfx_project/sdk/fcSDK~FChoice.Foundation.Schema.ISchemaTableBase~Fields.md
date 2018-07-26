@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-ReadOnly Property Fields As [ISchemaFieldCollection](fcSDK~FChoice.Foundation.Schema.ISchemaFieldCollection.md)
+ReadOnly Property Fields As ISchemaFieldCollection
+```
 
-[ISchemaFieldCollection](fcSDK~FChoice.Foundation.Schema.ISchemaFieldCollection.md) Fields {get;}
+```csharp
+ISchemaFieldCollection Fields {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

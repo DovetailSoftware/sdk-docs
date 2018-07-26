@@ -9,17 +9,20 @@ Dispatch the Solution to the specified queue. This overload takes a set of requi
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DispatchSolution( _
    ByVal _solutionIDNum_ As String, _
    ByVal _queue_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchSolution( 
+```csharp
+public ToolkitResult DispatchSolution( 
    string _solutionIDNum_,
    string _queue_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The Solution must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

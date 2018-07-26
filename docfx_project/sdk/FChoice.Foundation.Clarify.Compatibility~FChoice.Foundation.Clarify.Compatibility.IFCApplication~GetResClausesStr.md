@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743905)>
 Function GetResClausesStr( _
    ByVal _tblNum_ As Integer _
 ) As String
+```
 
+```csharp
 [DispIdAttribute(1610743905)]
 string GetResClausesStr( 
    int _tblNum_
 )
+```
 
 #### Parameters
 
 _tblNum_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

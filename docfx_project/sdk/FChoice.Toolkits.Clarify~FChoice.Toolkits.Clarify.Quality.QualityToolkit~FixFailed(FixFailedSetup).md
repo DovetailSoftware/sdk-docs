@@ -7,15 +7,18 @@ Change the condition of a Change Request from Fixed to Open. This overload takes
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function FixFailed( _
-   ByVal _setupParam_ As [FixFailedSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ FixFailedSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) FixFailed( 
-   [FixFailedSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup.md) _setupParam_
+```csharp
+public ToolkitResult FixFailed( 
+   FixFailedSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 The CR must be in a condition/status that allows the transition to the Open.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

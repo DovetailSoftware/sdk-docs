@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads ReadOnly Property Item( _
    ByVal _title_ As String _
-) As [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md)
+) As IGlobalStringList
+```
 
-[IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) Item( 
+```csharp
+IGlobalStringList Item( 
    string _title_
 ) {get;}
+```
 
 #### Parameters
 
 _title_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shadows ReadOnly Property Fields As [SchemaViewFieldCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldCollection.md)
+Public Shadows ReadOnly Property Fields As SchemaViewFieldCollection
+```
 
-public new [SchemaViewFieldCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldCollection.md) Fields {get;}
+```csharp
+public new SchemaViewFieldCollection Fields {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -27,7 +27,7 @@ Create a Queue. This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateQueue( _
    ByVal _title_ As String, _
@@ -41,9 +41,11 @@ Public Overloads Function CreateQueue( _
    ByVal _allowSolution_ As Boolean, _
    ByVal _allowSubcase_ As Boolean, _
    ByVal _allowActionItem_ As Boolean _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateQueue( 
+```csharp
+public ToolkitResult CreateQueue( 
    string _title_,
    bool _allowCR_,
    bool _allowCase_,
@@ -56,6 +58,7 @@ public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Toolkit
    bool _allowSubcase_,
    bool _allowActionItem_
 )
+```
 
 #### Parameters
 
@@ -110,8 +113,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

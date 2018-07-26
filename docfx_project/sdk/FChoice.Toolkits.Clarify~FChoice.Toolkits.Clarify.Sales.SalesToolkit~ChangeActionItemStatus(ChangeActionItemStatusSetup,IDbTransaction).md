@@ -9,17 +9,20 @@ Cause the specified Action Item to have its status changed. This overload takes 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeActionItemStatus( _
-   ByVal _setupParam_ As [ChangeActionItemStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemStatusSetup.md), _
+   ByVal _setupParam_ As ChangeActionItemStatusSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeActionItemStatus( 
-   [ChangeActionItemStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemStatusSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ChangeActionItemStatus( 
+   ChangeActionItemStatusSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property LoginTime As [Nullable(Of Date)](#)
+```
 
+```csharp
 public [Nullable<DateTime>](#) LoginTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

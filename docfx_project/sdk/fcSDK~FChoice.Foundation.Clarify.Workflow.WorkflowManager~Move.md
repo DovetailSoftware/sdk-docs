@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function Move( _
    ByVal _idNum_ As String, _
    ByVal _objectName_ As String, _
    ByVal _newWipBin_ As String _
-) As [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md)
+) As WorkFlowInfo
+```
 
-public [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md) Move( 
+```csharp
+public WorkFlowInfo Move( 
    string _idNum_,
    string _objectName_,
    string _newWipBin_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _objectName_
 _newWipBin_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

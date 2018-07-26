@@ -3,11 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Interface ISchemaTableBase 
+```
 
+```csharp
 public interface ISchemaTableBase 
+```
 
 #### Requirements
 
@@ -16,8 +19,6 @@ public interface ISchemaTableBase
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

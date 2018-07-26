@@ -5,15 +5,16 @@ DateTime the log was created. If not set, the current time is used
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property LogDate As [Nullable(Of Date)](#)
+Public Property LogDate As Nullable(Of Date)
+```
 
-public [Nullable<DateTime>](#) LogDate {get; set;}
+```csharp
+public Nullable<DateTime> LogDate {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

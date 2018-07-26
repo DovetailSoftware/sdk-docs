@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _locationName_ As String, _
    ByVal _containerName_ As String, _
    ByVal _containerIDNum_ As String _
 )
+```
 
+```csharp
 public Location( 
    string _locationName_,
    string _containerName_,
    string _containerIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _containerName_
 _containerIDNum_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,10 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Interface IApplicationClock 
+'Declaration
 
+Public Interface IApplicationClock 
+```
+
+```csharp
 public interface IApplicationClock 
+```
 
 #### Requirements
 
@@ -15,8 +19,6 @@ public interface IApplicationClock
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

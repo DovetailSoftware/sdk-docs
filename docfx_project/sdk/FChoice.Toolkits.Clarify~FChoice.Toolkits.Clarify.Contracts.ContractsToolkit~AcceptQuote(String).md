@@ -7,15 +7,18 @@ Accept the specified Quote from the queue in which it is currently dispatched. T
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AcceptQuote( _
    ByVal _quoteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AcceptQuote( 
+```csharp
+public ToolkitResult AcceptQuote( 
    string _quoteIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Quote must be currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

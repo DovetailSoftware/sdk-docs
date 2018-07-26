@@ -7,15 +7,18 @@ Create Account (business org) This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateAccount( _
-   ByVal _setupParam_ As [CreateAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAccountSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateAccountSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateAccount( 
-   [CreateAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAccountSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateAccount( 
+   CreateAccountSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -31,8 +34,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the Account.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

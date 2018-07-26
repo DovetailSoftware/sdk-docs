@@ -8,12 +8,12 @@ Syntax
 'Declaration
 
 Public Class ClarifyApplication 
-   Inherits [FChoice.Foundation.FCApplication](fcSDK~FChoice.Foundation.FCApplication.md)
-   Implements [IClarifyApplication](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication.md) 
+   Inherits FChoice.Foundation.FCApplication
+   Implements IClarifyApplication
 ```
 
 ```csharp
-public class ClarifyApplication : [FChoice.Foundation.FCApplication](fcSDK~FChoice.Foundation.FCApplication.md), [IClarifyApplication](fcSDK~FChoice.Foundation.Clarify.IClarifyApplication.md)  
+public class ClarifyApplication : FChoice.Foundation.FCApplication, IClarifyApplication
 ```
 
 Remarks

@@ -3,24 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743876)>
 Sub ChangePassword( _
    ByVal _password_ As String _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743876)]
 void ChangePassword( 
    string _password_
 )
+```
 
 #### Parameters
 
 _password_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

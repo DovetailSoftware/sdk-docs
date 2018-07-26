@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public ReadOnly Default Property Item( _
    ByVal _key_ As String _
-) As [ClarifyConfigItem](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem.md)
+) As ClarifyConfigItem
+```
 
-public [ClarifyConfigItem](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem.md) this\[ 
+```csharp
+public ClarifyConfigItem this[ 
    string _key_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
 _key_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

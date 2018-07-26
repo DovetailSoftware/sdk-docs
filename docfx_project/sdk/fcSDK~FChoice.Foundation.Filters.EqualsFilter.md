@@ -5,11 +5,15 @@ Filter field on data that equals the input to this filter
 Syntax
 
 ```vbnet
-' Declaration
-Public Class EqualsFilter 
-   Inherits [OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md)
+'Declaration
 
-public class EqualsFilter : [OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md) 
+Public Class EqualsFilter 
+   Inherits OperationFilter
+```
+
+```csharp
+public class EqualsFilter : OperationFilter 
+```
 
 Example
 
@@ -30,8 +34,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

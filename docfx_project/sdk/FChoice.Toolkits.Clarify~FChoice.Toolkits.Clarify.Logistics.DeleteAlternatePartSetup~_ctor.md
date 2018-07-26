@@ -17,7 +17,7 @@ Initializes a new instance of the DeleteAlternatePartSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -28,7 +28,9 @@ Public Function New( _
    ByVal _alternatePartRevision_ As String, _
    ByVal _alternatePartDomain_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DeleteAlternatePartSetup( 
    string _partNumber_,
@@ -38,6 +40,7 @@ public DeleteAlternatePartSetup(
    string _alternatePartRevision_,
    string _alternatePartDomain_
 )
+```
 
 #### Parameters
 
@@ -66,8 +69,6 @@ _alternatePartDomain_
 The Alternate Part domain
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

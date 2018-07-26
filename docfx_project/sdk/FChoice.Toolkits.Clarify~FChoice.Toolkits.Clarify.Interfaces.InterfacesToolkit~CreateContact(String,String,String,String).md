@@ -13,21 +13,24 @@ Creates a Contact. This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateContact( _
    ByVal _firstName_ As String, _
    ByVal _lastName_ As String, _
    ByVal _phone_ As String, _
    ByVal _siteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateContact( 
+```csharp
+public ToolkitResult CreateContact( 
    string _firstName_,
    string _lastName_,
    string _phone_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -60,8 +63,6 @@ A default contact role for the [Site](FChoice.Toolkits.Clarify~FChoice.Toolkits.
 If you need to create duplicate contacts (same first name, last name, phone), you may use the [AllowDuplicateContact](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase~AllowDuplicateContact.md) property.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

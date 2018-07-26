@@ -5,20 +5,22 @@ Identifier for the parent Site of the Site being created.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property ParentSiteIDNum As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string ParentSiteIDNum {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If this property is set to an empty string the relation to the parent Site will be removed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

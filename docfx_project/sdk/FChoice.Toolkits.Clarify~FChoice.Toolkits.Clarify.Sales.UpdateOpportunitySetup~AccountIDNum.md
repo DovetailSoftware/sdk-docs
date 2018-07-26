@@ -5,20 +5,22 @@ Account Identifier.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property AccountIDNum As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string AccountIDNum {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If this property is set to an empty string the relation to the current Account will be removed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

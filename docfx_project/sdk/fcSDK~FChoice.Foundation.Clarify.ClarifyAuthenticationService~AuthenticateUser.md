@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function AuthenticateUser( _
    ByVal _username_ As String, _
    ByVal _password_ As String _
-) As [ClarifyAuthenticationResult](fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationResult.md)
+) As ClarifyAuthenticationResult
+```
 
-public [ClarifyAuthenticationResult](fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationResult.md) AuthenticateUser( 
+```csharp
+public ClarifyAuthenticationResult AuthenticateUser( 
    string _username_,
    string _password_
 )
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _username_
 _password_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,12 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustInherit Class ClarifyCacheBase 
-   Inherits [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)
+   Inherits FChoice.Foundation.CacheBase
+```
 
-public abstract class ClarifyCacheBase : [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md) 
+```csharp
+public abstract class ClarifyCacheBase : FChoice.Foundation.CacheBase
+``` 
 
 Inheritance Hierarchy
 
@@ -28,8 +31,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

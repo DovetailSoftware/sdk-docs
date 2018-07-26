@@ -5,10 +5,14 @@ Used by the [LogPartsUsedInstall](FChoice.Toolkits.Clarify~FChoice.Toolkits.Cla
 Syntax
 
 ```vbnet
-' Declaration
-Public Class LogPartsUsedInstallSetup 
+'Declaration
 
-public class LogPartsUsedInstallSetup 
+Public Class LogPartsUsedInstallSetup 
+```
+
+```csharp
+public class LogPartsUsedInstallSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

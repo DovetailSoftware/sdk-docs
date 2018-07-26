@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property DataType As ADODB.DataTypeEnum
+```
 
+```csharp
 public ADODB.DataTypeEnum DataType {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -11,19 +11,22 @@ Update a Part Revision (mod_level) This overload takes a set of required parame
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdatePartRevision( _
    ByVal _partNumber_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _partRevision_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdatePartRevision( 
+```csharp
+public ToolkitResult UpdatePartRevision( 
    string _partNumber_,
    string _partDomain_,
    string _partRevision_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PartRevision.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

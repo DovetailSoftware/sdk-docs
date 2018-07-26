@@ -7,10 +7,14 @@ This setup should not be used on its own.
 Syntax
 
 ```vbnet
-' Declaration
-Public MustInherit Class LogEmailInSetup 
+'Declaration
 
+Public MustInherit Class LogEmailInSetup 
+```
+
+```csharp
 public abstract class LogEmailInSetup 
+```
 
 Inheritance Hierarchy
 
@@ -28,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

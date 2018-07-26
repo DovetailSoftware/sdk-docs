@@ -1,12 +1,12 @@
 ﻿### SqlHelper Constructor(DbProvider,CommandType,String)
 
-The specific [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance that this instance of SqlHelper should use when performing database operations
+The specific DbProvider instance that this instance of SqlHelper should use when performing database operations
 
 The [CommandType](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataCommandTypeClassTopic.htm) this instance of SqlHelper should use when executing the _cmdTxt_ statement.
 
 The text command to execute. The default value is an empty string ("").
 
-Creates a new instance of SqlHelper with the specified [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance, [CommandType](FChoice.Common~FChoice.Common.Data.SqlHelper~CommandType.md) and command text (SQL statement)
+Creates a new instance of SqlHelper with the specified DbProvider instance, CommandType and command text (SQL statement)
 
 Syntax
 
@@ -14,7 +14,7 @@ Syntax
 'Declaration
 
 Public Function New( _
-   ByVal _dataProvider_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md), _
+   ByVal _dataProvider_ As DbProvider, _
    ByVal _inCmdType_ As CommandType, _
    ByVal _cmdTxt_ As String _
 )
@@ -22,7 +22,7 @@ Public Function New( _
 
 ```csharp
 public SqlHelper( 
-   [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _dataProvider_,
+   DbProvider _dataProvider_,
    CommandType _inCmdType_,
    string _cmdTxt_
 )
@@ -32,7 +32,7 @@ public SqlHelper(
 
 _dataProvider_
 
-The specific [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance that this instance of SqlHelper should use when performing database operations
+The specific DbProvider instance that this instance of SqlHelper should use when performing database operations
 
 _inCmdType_
 

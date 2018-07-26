@@ -5,19 +5,20 @@ When date fields are set to this value the current server datetime will be enter
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared ReadOnly NOW_DATE As Date
+```
 
+```csharp
 public static readonly DateTime NOW_DATE
+```
 
 #### Field Value
 
 When date fields are set to this value the current server datetime will be entered instead.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

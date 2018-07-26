@@ -5,16 +5,18 @@ The maximum amount of time allowed by the Contract for a field engineer to arr
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property OnsiteResponseDuration As TimeSpan
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property OnsiteResponseDuration As TimeSpan
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public TimeSpan OnsiteResponseDuration {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

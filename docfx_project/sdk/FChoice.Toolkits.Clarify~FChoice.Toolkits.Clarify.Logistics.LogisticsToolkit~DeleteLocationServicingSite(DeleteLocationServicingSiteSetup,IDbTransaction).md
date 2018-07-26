@@ -9,17 +9,20 @@ Used to remove the relationship between a site and a location servicing it. This
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DeleteLocationServicingSite( _
-   ByVal _setupParam_ As [DeleteLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteLocationServicingSiteSetup.md), _
+   ByVal _setupParam_ As DeleteLocationServicingSiteSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteLocationServicingSite( 
-   [DeleteLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteLocationServicingSiteSetup.md) _setupParam_,
+```csharp
+public ToolkitResult DeleteLocationServicingSite( 
+   DeleteLocationServicingSiteSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

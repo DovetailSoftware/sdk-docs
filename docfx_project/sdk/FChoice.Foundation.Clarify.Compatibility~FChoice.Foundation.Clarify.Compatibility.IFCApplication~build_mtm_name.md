@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743878)>
 Function build_mtm_name( _
@@ -11,13 +11,16 @@ Function build_mtm_name( _
    ByVal _relationName_ As String, _
    ByVal _inverseRelatioName_ As String _
 ) As String
+```
 
+```csharp
 [DispIdAttribute(1610743878)]
 string build_mtm_name( 
    string _tableName_,
    string _relationName_,
    string _inverseRelatioName_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ _relationName_
 _inverseRelatioName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

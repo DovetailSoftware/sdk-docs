@@ -5,11 +5,14 @@ Filter on strings that end with the input to this filter
 Syntax
 
 ```vbnet
-' Declaration
-Public Class EndsWithFilter 
-   Inherits [LikeFilter](fcSDK~FChoice.Foundation.Filters.LikeFilter.md)
+'Declaration
 
-public class EndsWithFilter : [LikeFilter](fcSDK~FChoice.Foundation.Filters.LikeFilter.md) 
+Public Class EndsWithFilter 
+   Inherits LikeFilter
+```
+
+```csharp
+public class EndsWithFilter : LikeFilter 
 
 Example
 
@@ -31,8 +34,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

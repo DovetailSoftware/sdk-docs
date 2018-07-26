@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _isRequired_ As Boolean _
 )
+```
 
+```csharp
 public ParameterRequiredAttribute( 
    bool _isRequired_
 )
+```
 
 #### Parameters
 
 _isRequired_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[ObsoleteAttribute](#)("Use the SchemaCache IsDatabaseUnicode property")>
+<ObsoleteAttribute("Use the SchemaCache IsDatabaseUnicode property")>
 ReadOnly Property IsDbUnicode As Boolean
+```
 
-\[[ObsoleteAttribute](#)("Use the SchemaCache IsDatabaseUnicode property")\]
+```csharp
+[ObsoleteAttribute("Use the SchemaCache IsDatabaseUnicode property")]
 bool IsDbUnicode {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

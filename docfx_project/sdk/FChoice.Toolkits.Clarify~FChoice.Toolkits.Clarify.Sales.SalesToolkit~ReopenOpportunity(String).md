@@ -7,15 +7,18 @@ Causes the specified Opportunity to be reopened. This overload takes a set of re
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReopenOpportunity( _
    ByVal _opportunityIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReopenOpportunity( 
+```csharp
+public ToolkitResult ReopenOpportunity( 
    string _opportunityIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The status may be specified (in Open Lead condition) for the Opportunity, as well as the user name of the opener, and the date/time of the reopen. The WIPBIN to place the opportunity in may be specified. The API can also generate a time bomb (for business rule notification).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

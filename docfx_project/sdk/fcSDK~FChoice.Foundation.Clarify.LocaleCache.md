@@ -5,13 +5,16 @@ Caches and provides convenient access to country, state, and time zone informati
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class LocaleCache 
-   Inherits [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)
-   Implements [ILocaleCache](fcSDK~FChoice.Foundation.Clarify.ILocaleCache.md) 
+   Inherits ClarifyCacheBase
+   Implements ILocaleCache
+```
 
-public class LocaleCache : [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md), [ILocaleCache](fcSDK~FChoice.Foundation.Clarify.ILocaleCache.md)  
+```csharp
+public class LocaleCache : ClarifyCacheBase, ILocaleCache
+```  
 
 Inheritance Hierarchy
 
@@ -27,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

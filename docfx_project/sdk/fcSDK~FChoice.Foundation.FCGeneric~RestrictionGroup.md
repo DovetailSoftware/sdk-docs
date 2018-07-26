@@ -5,14 +5,16 @@ Override the Session Data Restriction Group of this Generic. The [ChangeRestrict
 Syntax
 
 ```vbnet
-' Declaration
-Public Property RestrictionGroup As [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md)
+'Declaration
 
-public [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md) RestrictionGroup {get; set;}
+Public Property RestrictionGroup As RestrictionGroup
+```
+
+```csharp
+public RestrictionGroup RestrictionGroup {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

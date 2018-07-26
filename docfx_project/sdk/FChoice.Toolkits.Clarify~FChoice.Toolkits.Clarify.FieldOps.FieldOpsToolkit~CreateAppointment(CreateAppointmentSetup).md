@@ -5,15 +5,18 @@ Setup object for API invocation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateAppointment( _
-   ByVal _setupParam_ As [CreateAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup.md) _
-) As [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md)
+   ByVal _setupParam_ As CreateAppointmentSetup _
+) As CreateAppointmentResult
+```
 
-public [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md) CreateAppointment( 
-   [CreateAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup.md) _setupParam_
+```csharp
+public CreateAppointmentResult CreateAppointment( 
+   CreateAppointmentSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -23,14 +26,12 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md) object returned by the API method:
+The following values are populated in the CreateAppointmentResult object returned by the API method:
 
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult~Objid.md) \- The Objid of the Appointment.
-*   [ScheduleObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult~ScheduleObjid.md) \- The Objid of the Schedule.
+*   Objid \- The Objid of the Appointment.
+*   ScheduleObjid \- The Objid of the Schedule.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

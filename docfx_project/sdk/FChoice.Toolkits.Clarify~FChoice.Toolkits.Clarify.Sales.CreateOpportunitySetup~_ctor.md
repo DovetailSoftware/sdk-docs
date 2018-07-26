@@ -11,7 +11,7 @@ Initializes a new instance of the CreateOpportunitySetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _salesStage_ As String, _
    ByVal _probability_ As [Single](#) _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateOpportunitySetup( 
    string _opportunityName_,
    string _salesStage_,
    [float](#) _probability_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _probability_
 Probability of opportunity close.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

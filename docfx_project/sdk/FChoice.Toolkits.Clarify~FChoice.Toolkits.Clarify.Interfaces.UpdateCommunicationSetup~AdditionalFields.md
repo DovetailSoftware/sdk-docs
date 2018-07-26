@@ -5,15 +5,16 @@ Allows the specification of additional fields to be updated as part of API invoc
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property AdditionalFields As [SimplifiedAdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalFields.md)
+Public ReadOnly Property AdditionalFields As SimplifiedAdditionalFields
+```
 
-public [SimplifiedAdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalFields.md) AdditionalFields {get;}
+```csharp
+public SimplifiedAdditionalFields AdditionalFields {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

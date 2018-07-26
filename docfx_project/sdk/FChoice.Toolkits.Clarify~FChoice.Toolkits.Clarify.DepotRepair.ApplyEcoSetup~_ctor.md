@@ -9,19 +9,22 @@ Initializes a new instance of the ApplyEcoSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _demandDetailObjid_ As Integer, _
    ByVal _ecoHeaderIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public ApplyEcoSetup( 
    int _demandDetailObjid_,
    string _ecoHeaderIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _ecoHeaderIDNum_
 Identifier of the ECO header
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

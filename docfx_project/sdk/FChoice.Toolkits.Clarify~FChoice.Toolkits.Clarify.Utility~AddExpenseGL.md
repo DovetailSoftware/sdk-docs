@@ -6,8 +6,8 @@ Syntax
 'Declaration
 
 Public Shared Sub AddExpenseGL( _
-   ByVal _logisticsToolkit_ As [LogisticsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md), _
-   ByVal _session_ As [FCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession.md), _
+   ByVal _logisticsToolkit_ As LogisticsToolkit, _
+   ByVal _session_ As FCSession, _
    ByVal _accountName_ As String, _
    ByVal _siteIDNum_ As String _
 ) 
@@ -15,8 +15,8 @@ Public Shared Sub AddExpenseGL( _
 
 ```csharp
 public static void AddExpenseGL( 
-   [LogisticsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md) _logisticsToolkit_,
-   [FCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession.md) _session_,
+   LogisticsToolkit _logisticsToolkit_,
+   FCSession _session_,
    string _accountName_,
    string _siteIDNum_
 )

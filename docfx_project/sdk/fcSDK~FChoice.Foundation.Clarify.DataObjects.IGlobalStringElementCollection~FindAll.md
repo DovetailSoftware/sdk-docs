@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function FindAll( _
-   ByVal _match_ As [Predicate(Of IGlobalStringElement)](#) _
-) As [List(Of IGlobalStringElement)](#)
+   ByVal _match_ As Predicate(Of IGlobalStringElement) _
+) As List(Of IGlobalStringElement)
+```
 
-[List<IGlobalStringElement>](#) FindAll( 
-   [Predicate<IGlobalStringElement>](#) _match_
+```csharp
+List<IGlobalStringElement> FindAll( 
+   Predicate<IGlobalStringElement> _match_
 )
+```
 
 #### Parameters
 
 _match_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

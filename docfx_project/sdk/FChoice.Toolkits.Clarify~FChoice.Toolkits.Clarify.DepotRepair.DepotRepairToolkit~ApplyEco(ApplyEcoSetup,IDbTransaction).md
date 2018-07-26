@@ -9,17 +9,20 @@ Apply an ECO to a Part Request Detail. This overload takes a setup object and a 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ApplyEco( _
-   ByVal _setupParam_ As [ApplyEcoSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup.md), _
+   ByVal _setupParam_ As ApplyEcoSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ApplyEco( 
-   [ApplyEcoSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ApplyEco( 
+   ApplyEcoSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

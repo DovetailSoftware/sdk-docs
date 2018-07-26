@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743811)>
 Sub Execute( _
    ByVal _SqlStr_ As String _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743811)]
 void Execute( 
    string _SqlStr_
 )
+```
 
 #### Parameters
 
 _SqlStr_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

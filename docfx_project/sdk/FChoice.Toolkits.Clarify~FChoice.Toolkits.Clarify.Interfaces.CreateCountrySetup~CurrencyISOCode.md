@@ -5,21 +5,22 @@ International Standards Organization code for the Country's currency
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property CurrencyISOCode As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string CurrencyISOCode {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Only used if a new Currency is created by entering a [Currency](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCountrySetup~Currency.md) name that is not already present.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

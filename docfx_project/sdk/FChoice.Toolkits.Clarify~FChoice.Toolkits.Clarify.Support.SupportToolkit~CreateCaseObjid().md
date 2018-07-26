@@ -5,11 +5,13 @@ Creates a new Case by using know Objids of dependencies to keep from making addi
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Function CreateCaseObjid() As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+Public Overloads Function CreateCaseObjid() As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateCaseObjid()
+```csharp
+public ToolkitResult CreateCaseObjid()
 
 #### Return Value
 
@@ -19,8 +21,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Case.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

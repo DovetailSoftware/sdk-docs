@@ -25,7 +25,9 @@ Public Function New( _
    ByVal _partRevision_ As String, _
    ByVal _quantity_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreatePartRequestDetailSetup( 
    string _partRequestHeaderIDNum_,
@@ -34,6 +36,7 @@ public CreatePartRequestDetailSetup(
    string _partRevision_,
    int _quantity_
 )
+```
 ```
 
 #### Parameters

@@ -23,11 +23,11 @@ Initializes a new instance of the SetPartStockingLevelSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _location_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
+   ByVal _location_ As Location, _
    ByVal _queue_ As String, _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
@@ -37,10 +37,12 @@ Public Function New( _
    ByVal _partReorderLevel_ As Short, _
    ByVal _partReorderQuantity_ As Short _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public SetPartStockingLevelSetup( 
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _location_,
+   Location _location_,
    string _queue_,
    string _partNumber_,
    string _partRevision_,
@@ -50,6 +52,7 @@ public SetPartStockingLevelSetup(
    short _partReorderLevel_,
    short _partReorderQuantity_
 )
+```
 
 #### Parameters
 
@@ -90,8 +93,6 @@ _partReorderQuantity_
 Quantity of parts to be reordered for this inventory location when reorder level is reached
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

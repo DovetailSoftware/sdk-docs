@@ -9,17 +9,20 @@ Dispatch the Quote to the specified queue. This overload takes a set of required
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DispatchQuote( _
    ByVal _quoteIDNum_ As String, _
    ByVal _queue_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchQuote( 
+```csharp
+public ToolkitResult DispatchQuote( 
    string _quoteIDNum_,
    string _queue_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The Quote must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

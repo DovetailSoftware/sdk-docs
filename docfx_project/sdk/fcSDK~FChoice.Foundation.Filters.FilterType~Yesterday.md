@@ -5,23 +5,24 @@ Filter field on yesterday's date
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function Yesterday( _
    ByVal _columnName_ As String _
-) As [YesterdayFilter](fcSDK~FChoice.Foundation.Filters.YesterdayFilter.md)
+) As YesterdayFilter
+```
 
-public static [YesterdayFilter](fcSDK~FChoice.Foundation.Filters.YesterdayFilter.md) Yesterday( 
+```csharp
+public static YesterdayFilter Yesterday( 
    string _columnName_
 )
+```
 
 #### Parameters
 
 _columnName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

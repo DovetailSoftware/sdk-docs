@@ -5,10 +5,14 @@ Used by the [LogCasePhone](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Su
 Syntax
 
 ```vbnet
-' Declaration
-Public Class LogCasePhoneSetup 
+'Declaration
 
-public class LogCasePhoneSetup 
+Public Class LogCasePhoneSetup 
+```
+
+```csharp
+public class LogCasePhoneSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

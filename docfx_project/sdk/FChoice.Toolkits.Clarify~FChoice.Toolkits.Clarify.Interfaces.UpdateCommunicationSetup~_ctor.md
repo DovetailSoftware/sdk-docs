@@ -7,15 +7,18 @@ Initializes a new instance of the UpdateCommunicationSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _communicationObjid_ As Integer _
 )
+```
 
+```csharp
 public UpdateCommunicationSetup( 
    int _communicationObjid_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _communicationObjid_
 The unique identifier for the communication to update.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

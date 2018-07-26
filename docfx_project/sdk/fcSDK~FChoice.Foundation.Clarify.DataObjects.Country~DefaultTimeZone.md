@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property DefaultTimeZone As [FCTimeZone](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone.md)
+Public ReadOnly Property DefaultTimeZone As FCTimeZone
+```
 
-public [FCTimeZone](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone.md) DefaultTimeZone {get;}
+```csharp
+public FCTimeZone DefaultTimeZone {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

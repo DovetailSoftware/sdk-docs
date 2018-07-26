@@ -7,15 +7,18 @@ Create a Solution. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateSolution( _
-   ByVal _setupParam_ As [CreateSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup.md) _
-) As [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md)
+   ByVal _setupParam_ As CreateSolutionSetup _
+) As CreateSolutionResult
+```
 
-public [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md) CreateSolution( 
-   [CreateSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup.md) _setupParam_
+```csharp
+public CreateSolutionResult CreateSolution( 
+   CreateSolutionSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -25,15 +28,13 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md) object returned by the API method:
+The following values are populated in the CreateSolutionResult object returned by the API method:
 
-*   [WorkaroundObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~WorkaroundObjid.md) \- Objid of the Workaround that is created along with the Solution
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~Objid.md) \- The Objid of the Solution.
-*   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~IDNum.md) \- The IDNum of the Solution.
+*   WorkaroundObjid \- Objid of the Workaround that is created along with the Solution
+*   Objid \- The Objid of the Solution.
+*   IDNum \- The IDNum of the Solution.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

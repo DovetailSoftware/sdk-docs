@@ -3,12 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Interface IGlobalStringList 
-   Inherits [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md) 
+   Inherits FChoice.Foundation.DataObjects.IDataObject
+```
 
-public interface IGlobalStringList : [FChoice.Foundation.DataObjects.IDataObject](fcSDK~FChoice.Foundation.DataObjects.IDataObject.md)  
+```csharp 
+public interface IGlobalStringList : FChoice.Foundation.DataObjects.IDataObject
+```  
 
 #### Requirements
 
@@ -17,8 +20,6 @@ public interface IGlobalStringList : [FChoice.Foundation.DataObjects.IDataObject
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

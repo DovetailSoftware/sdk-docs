@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _propertyName_ As String, _
    ByVal _docSummary_ As String _
 )
+```
 
+```csharp
 public OutputPropertyAttribute( 
    string _propertyName_,
    string _docSummary_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _propertyName_
 _docSummary_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

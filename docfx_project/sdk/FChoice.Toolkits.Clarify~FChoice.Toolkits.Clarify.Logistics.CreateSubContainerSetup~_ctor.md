@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _containerName_ As String, _
    ByVal _parentContainerName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateSubContainerSetup( 
    string _containerName_,
    string _parentContainerName_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _containerName_
 _parentContainerName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

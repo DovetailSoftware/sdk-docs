@@ -21,13 +21,16 @@ Public Function New( _
    ByVal _useTransitions_ As Boolean, _
    ByVal _quantity_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public FulfillPartRequestSetup( 
    string _partRequestDetailIDNum_,
    bool _useTransitions_,
    int _quantity_
 )
+```
 ```
 
 #### Parameters

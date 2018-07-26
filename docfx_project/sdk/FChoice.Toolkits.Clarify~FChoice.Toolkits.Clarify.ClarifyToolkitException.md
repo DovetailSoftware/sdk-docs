@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Class ClarifyToolkitException 
-   Inherits [System.Exception](#)
+'Declaration
 
-public class ClarifyToolkitException : [System.Exception](#) 
+Public Class ClarifyToolkitException 
+   Inherits System.Exception
+```
+
+```csharp
+public class ClarifyToolkitException : System.Exception
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Exception](#)  
+   System.Exception  
       **FChoice.Toolkits.Clarify.ClarifyToolkitException**  
 
 #### Requirements
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

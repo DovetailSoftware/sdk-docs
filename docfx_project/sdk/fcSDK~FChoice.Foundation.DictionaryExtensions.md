@@ -3,15 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[ExtensionAttribute](#)()>
+<ExtensionAttribute()>
 Public MustInherit NotInheritable Class DictionaryExtensions 
+```
 
-\[[ExtensionAttribute](#)()\]
-public static class DictionaryExtensions 
+```csharp
+[ExtensionAttribute()]
+public static class DictionaryExtensions
+```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.DictionaryExtensions**  
@@ -23,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

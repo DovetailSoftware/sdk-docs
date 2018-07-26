@@ -7,15 +7,18 @@ Accept the specified PartRequest from the queue in which it is currently dispatc
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AcceptPartRequest( _
    ByVal _partRequestDetailIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AcceptPartRequest( 
+```csharp
+public ToolkitResult AcceptPartRequest( 
    string _partRequestDetailIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The PartRequest must be currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

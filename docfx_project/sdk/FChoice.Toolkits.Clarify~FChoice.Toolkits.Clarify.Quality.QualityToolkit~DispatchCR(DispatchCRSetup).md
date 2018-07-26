@@ -7,15 +7,18 @@ Dispatch the CR to the specified queue. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DispatchCR( _
-   ByVal _setupParam_ As [DispatchCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DispatchCRSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ DispatchCRSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchCR( 
-   [DispatchCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DispatchCRSetup.md) _setupParam_
+```csharp
+public ToolkitResult DispatchCR( 
+   DispatchCRSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The CR must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -6,14 +6,10 @@ Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |
-| ![Public Method](dotnetimages/publicMethod.png) | [GetBaseException](#) | (Inherited from [System.Exception](#)) |
-| ![Public Method](dotnetimages/publicMethod.png) | [GetObjectData](#) | (Inherited from [System.Exception](#)) |
-| ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from [System.Exception](#)) |
-| ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from [System.Exception](#)) |
-
-
-
-
+| ![Public Method](dotnetimages/publicMethod.png) | [GetBaseException](#) | (Inherited from System.Exception) |
+| ![Public Method](dotnetimages/publicMethod.png) | [GetObjectData](#) | (Inherited from System.Exception) |
+| ![Public Method](dotnetimages/publicMethod.png) | [GetType](#) | (Inherited from System.Exception) |
+| ![Public Method](dotnetimages/publicMethod.png) | [ToString](#) | (Inherited from System.Exception) |
 
 #### Reference
 

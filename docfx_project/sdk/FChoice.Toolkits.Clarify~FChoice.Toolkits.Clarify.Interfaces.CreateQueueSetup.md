@@ -5,10 +5,14 @@ Used by the [CreateQueue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Int
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CreateQueueSetup 
+'Declaration
 
-public class CreateQueueSetup 
+Public Class CreateQueueSetup 
+```
+
+```csharp
+public class CreateQueueSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

@@ -7,7 +7,7 @@ Syntax
 
 Public Overloads Sub Update( _
    ByVal _transaction_ As IDbTransaction, _
-   ByVal ParamArray _generics_() As [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) _
+   ByVal ParamArray _generics_() As FCGeneric _
 ) 
 ```
 

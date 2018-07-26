@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743891)>
 Function format_time( _
    ByVal _totalTime_ As Integer _
 ) As String
+```
 
+```csharp
 [DispIdAttribute(1610743891)]
 string format_time( 
    int _totalTime_
 )
+```
 
 #### Parameters
 
 _totalTime_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

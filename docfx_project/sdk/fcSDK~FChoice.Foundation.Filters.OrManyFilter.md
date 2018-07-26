@@ -5,11 +5,15 @@ Alternative filter to [OrFilter](fcSDK~FChoice.Foundation.Filters.OrFilter.md) w
 Syntax
 
 ```vbnet
-' Declaration
-Public Class OrManyFilter 
-   Inherits [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)
+'Declaration
 
-public class OrManyFilter : [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md) 
+Public Class OrManyFilter 
+   Inherits LogicalFilter
+```
+
+```csharp
+public class OrManyFilter : LogicalFilter 
+```
 
 Inheritance Hierarchy
 
@@ -25,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

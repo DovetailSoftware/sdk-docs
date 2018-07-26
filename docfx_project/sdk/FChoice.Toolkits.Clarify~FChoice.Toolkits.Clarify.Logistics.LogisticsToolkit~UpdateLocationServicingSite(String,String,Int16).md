@@ -11,19 +11,22 @@ Used to change the order of the locations servicing a site. This overload takes 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateLocationServicingSite( _
    ByVal _siteIDNum_ As String, _
    ByVal _locationName_ As String, _
    ByVal _locationRank_ As Short _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateLocationServicingSite( 
+```csharp
+public ToolkitResult UpdateLocationServicingSite( 
    string _siteIDNum_,
    string _locationName_,
    short _locationRank_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ Remarks
 This API will give a new rank to the. All other ranks are changed as necessary.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

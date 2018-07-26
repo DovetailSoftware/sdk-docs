@@ -11,21 +11,24 @@ Initializes a new instance of the UnpickSetup class. This overload takes a set o
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
-   ByVal _location_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
+   ByVal _location_ As Location, _
    ByVal _useTransitions_ As Boolean _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UnpickSetup( 
    string _partRequestDetailIDNum_,
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _location_,
+   Location _location_,
    bool _useTransitions_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _useTransitions_
 Specifies whether or not to check logistics transitions and change the condition/status of the Part Request Detail during the Unpick operation
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743899)>
 Function GetTableFields( _
    ByVal _tableName_ As String _
 ) As ADODB.Recordset
+```
 
+```csharp
 [DispIdAttribute(1610743899)]
 ADODB.Recordset GetTableFields( 
    string _tableName_
 )
+```
 
 #### Parameters
 
 _tableName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

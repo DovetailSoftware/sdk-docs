@@ -3,26 +3,30 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function CreateActivityEntryRow( _
    ByVal _activityCode_ As Integer, _
    ByVal _activityName_ As String, _
    ByVal _userObjid_ As Integer, _
    ByVal _activityDate_ As Date, _
    ByVal _addnl_info_ As String, _
-   ByVal _objectRow_ As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md), _
-   ByVal _clarifyGenericsToUpdate_ As [IList(Of ClarifyGeneric)](#) _
-) As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)
+   ByVal _objectRow_ As ClarifyDataRow, _
+   ByVal _clarifyGenericsToUpdate_ As IList(Of ClarifyGeneric) _
+) As ClarifyDataRow
+```
 
-public [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) CreateActivityEntryRow( 
+```csharp
+public ClarifyDataRow CreateActivityEntryRow( 
    int _activityCode_,
    string _activityName_,
    int _userObjid_,
    DateTime _activityDate_,
    string _addnl_info_,
-   [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) _objectRow_,
-   [IList<ClarifyGeneric>](#) _clarifyGenericsToUpdate_
+   ClarifyDataRow _objectRow_,
+   IList<ClarifyGeneric> _clarifyGenericsToUpdate_
 )
+```
 
 #### Parameters
 
@@ -41,8 +45,6 @@ _objectRow_
 _clarifyGenericsToUpdate_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

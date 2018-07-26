@@ -7,15 +7,18 @@ Create an Employee in Clarify This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateEmployee( _
-   ByVal _setupParam_ As [CreateEmployeeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup.md) _
-) As [CreateEmployeeResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeResult.md)
+   ByVal _setupParam_ As CreateEmployeeSetup _
+) As CreateEmployeeResult
+```
 
-public [CreateEmployeeResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeResult.md) CreateEmployee( 
-   [CreateEmployeeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup.md) _setupParam_
+```csharp
+public CreateEmployeeResult CreateEmployee( 
+   CreateEmployeeSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -25,18 +28,16 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [CreateEmployeeResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeResult.md) object returned by the API method:
+The following values are populated in the CreateEmployeeResult object returned by the API method:
 
-*   [EmployeeObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeResult~EmployeeObjid.md) \- Objid of the Employee record created.
-*   [UserObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeResult~UserObjid.md) \- Objid of the User record created.
+*   EmployeeObjid \- Objid of the Employee record created.
+*   UserObjid \- Objid of the User record created.
 
 Remarks
 
 Also creates a user login for the database system tables as required by Clarify.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

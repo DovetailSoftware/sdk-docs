@@ -5,11 +5,15 @@ Filter
 Syntax
 
 ```vbnet
-' Declaration
-Public Class YesterdayFilter 
-   Inherits [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)
+'Declaration
 
-public class YesterdayFilter : [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md) 
+Public Class YesterdayFilter 
+   Inherits BetweenFilter
+```
+
+```csharp
+public class YesterdayFilter : BetweenFilter
+```
 
 Example
 
@@ -30,8 +34,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

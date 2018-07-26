@@ -7,15 +7,18 @@ Change the condition of a CR to Fixed. This overload takes a set of required par
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function FixCR( _
    ByVal _crIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) FixCR( 
+```csharp
+public ToolkitResult FixCR( 
    string _crIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 The CR condition will become Fixed even if it was already Closed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

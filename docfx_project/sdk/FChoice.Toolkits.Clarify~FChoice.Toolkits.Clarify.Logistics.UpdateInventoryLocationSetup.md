@@ -5,10 +5,14 @@ Used by the [UpdateInventoryLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits
 Syntax
 
 ```vbnet
-' Declaration
-Public Class UpdateInventoryLocationSetup 
+'Declaration
 
-public class UpdateInventoryLocationSetup 
+Public Class UpdateInventoryLocationSetup 
+```
+
+```csharp
+public class UpdateInventoryLocationSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

@@ -3,7 +3,8 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743874)>
 Function GetHgbstElmObjId( _
    ByVal _TheElement_ As String, _
@@ -13,7 +14,9 @@ Function GetHgbstElmObjId( _
    Optional ByVal _Element3_ As Object, _
    Optional ByVal _Element4_ As Object _
 ) As Integer
+```
 
+```csharp
 [DispIdAttribute(1610743874)]
 int GetHgbstElmObjId( 
    string _TheElement_,
@@ -23,6 +26,7 @@ int GetHgbstElmObjId(
    object _Element3_,
    object _Element4_
 )
+```
 
 #### Parameters
 
@@ -39,8 +43,6 @@ _Element3_
 _Element4_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

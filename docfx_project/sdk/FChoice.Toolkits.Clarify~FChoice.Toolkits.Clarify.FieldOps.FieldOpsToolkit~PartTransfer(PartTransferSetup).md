@@ -5,15 +5,18 @@ Setup object for API invocation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function PartTransfer( _
-   ByVal _setupParam_ As [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup.md) _
-) As [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md)
+   ByVal _setupParam_ As PartTransferSetup _
+) As PartTransferResult
+```
 
-public [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md) PartTransfer( 
-   [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup.md) _setupParam_
+```csharp
+public PartTransferResult PartTransfer( 
+   PartTransferSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -23,15 +26,13 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.md) object returned by the API method:
+The following values are populated in the PartTransferResult object returned by the API method:
 
-*   [StandardCost](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~StandardCost.md) \- Part Transfer Standard Cost.
-*   [TransactionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~TransactionIDNum.md) \- Part Transfer Transaction Identifier.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult~Objid.md) \- Objid of the Part Transfer record.
+*   StandardCost \- Part Transfer Standard Cost.
+*   TransactionIDNum \- Part Transfer Transaction Identifier.
+*   Objid \- Objid of the Part Transfer record.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

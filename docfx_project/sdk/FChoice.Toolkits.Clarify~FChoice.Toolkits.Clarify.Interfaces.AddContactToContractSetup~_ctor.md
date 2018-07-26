@@ -15,7 +15,7 @@ Initializes a new instance of the AddContactToContractSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -25,7 +25,9 @@ Public Function New( _
    ByVal _contactPhone_ As String, _
    ByVal _siteIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AddContactToContractSetup( 
    string _contractIDNum_,
@@ -34,6 +36,7 @@ public AddContactToContractSetup(
    string _contactPhone_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ _siteIDNum_
 Identifies the Site where the added Contact is located.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

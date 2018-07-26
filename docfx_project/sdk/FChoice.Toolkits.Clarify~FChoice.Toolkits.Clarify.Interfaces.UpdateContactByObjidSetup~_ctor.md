@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _contactObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateContactByObjidSetup( 
    int _contactObjid_
 )
+```
 
 #### Parameters
 
 _contactObjid_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

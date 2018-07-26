@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _session_ As [IFCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession.md) _
+   ByVal _session_ As IFCSession _
 )
+```
 
+```csharp
 public CompatibilityApplicationClock( 
-   [IFCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession.md) _session_
+   IFCSession _session_
 )
+```
 
 #### Parameters
 
 _session_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

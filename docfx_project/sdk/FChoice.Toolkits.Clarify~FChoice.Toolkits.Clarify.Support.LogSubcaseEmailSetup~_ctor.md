@@ -7,17 +7,20 @@ Initializes a new instance of the LogSubcaseEmailSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _subcaseIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public LogSubcaseEmailSetup( 
    string _subcaseIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _subcaseIDNum_
 Identifier of the Subcase against which the email is being logged.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

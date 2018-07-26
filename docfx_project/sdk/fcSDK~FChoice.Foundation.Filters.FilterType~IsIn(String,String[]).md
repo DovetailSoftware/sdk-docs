@@ -8,11 +8,11 @@ Syntax
 Public Overloads Shared Function IsIn( _
    ByVal _columnName_ As String, _
    ByVal ParamArray _values_() As String _
-) As [IsInFilter](fcSDK~FChoice.Foundation.Filters.IsInFilter.md)
+) As IsInFilter
 ```
 
 ```csharp
-public static [IsInFilter](fcSDK~FChoice.Foundation.Filters.IsInFilter.md) IsIn( 
+public static IsInFilter IsIn( 
    string _columnName_,
    params string[] _values_
 )

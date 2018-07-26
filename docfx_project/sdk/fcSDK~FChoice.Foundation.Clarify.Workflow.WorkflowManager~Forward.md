@@ -3,7 +3,8 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function Forward( _
    ByVal _idNum_ As String, _
    ByVal _objectName_ As String, _
@@ -12,9 +13,11 @@ Public Function Forward( _
    ByVal _userName_ As String, _
    ByVal _generateTimeBomb_ As Boolean, _
    ByVal _notes_ As String _
-) As [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md)
+) As WorkFlowInfo
+```
 
-public [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md) Forward( 
+```csharp
+public WorkFlowInfo Forward( 
    string _idNum_,
    string _objectName_,
    string _newQueueName_,
@@ -23,6 +26,7 @@ public [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md)
    bool _generateTimeBomb_,
    string _notes_
 )
+```
 
 #### Parameters
 
@@ -41,8 +45,6 @@ _generateTimeBomb_
 _notes_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

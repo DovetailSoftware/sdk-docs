@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Shadows Function Add( _
-   ByVal _filter_ As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _
-) As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)
+'Declaration
 
-public new [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) Add( 
-   [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _filter_
+Public Shadows Function Add( _
+   ByVal _filter_ As Filter _
+) As Filter
+```
+
+```csharp
+public new Filter Add( 
+   Filter _filter_
 )
+```
 
 #### Parameters
 
 _filter_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

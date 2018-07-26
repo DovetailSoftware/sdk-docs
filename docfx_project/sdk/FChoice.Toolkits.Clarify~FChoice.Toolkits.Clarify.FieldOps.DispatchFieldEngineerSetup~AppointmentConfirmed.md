@@ -1,4 +1,4 @@
-﻿### AppointmentConfirmed Property
+### AppointmentConfirmed Property
 
 Indicates if the Appointment confirmed.
 

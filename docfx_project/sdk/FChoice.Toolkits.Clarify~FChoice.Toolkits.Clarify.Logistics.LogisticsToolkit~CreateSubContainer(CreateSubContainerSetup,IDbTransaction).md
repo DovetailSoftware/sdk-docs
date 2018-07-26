@@ -7,17 +7,20 @@ Database transaction under which the API will be invoked.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateSubContainer( _
-   ByVal _setupParam_ As [CreateSubContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup.md), _
+   ByVal _setupParam_ As CreateSubContainerSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateSubContainer( 
-   [CreateSubContainerSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup.md) _setupParam_,
+```csharp
+public ToolkitResult CreateSubContainer( 
+   CreateSubContainerSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _tableName_ As String, _
    ByVal _fieldName_ As String, _
    ByVal _clause_ As String _
 )
+```
 
+```csharp
 public RestrictionClause( 
    string _tableName_,
    string _fieldName_,
    string _clause_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _fieldName_
 _clause_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

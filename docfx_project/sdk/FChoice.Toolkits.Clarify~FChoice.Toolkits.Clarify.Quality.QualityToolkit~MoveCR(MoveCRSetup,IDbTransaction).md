@@ -9,17 +9,20 @@ Move the CR from one WipBin to another WipBin. This overload takes a setup objec
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function MoveCR( _
-   ByVal _setupParam_ As [MoveCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.MoveCRSetup.md), _
+   ByVal _setupParam_ As MoveCRSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) MoveCR( 
-   [MoveCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.MoveCRSetup.md) _setupParam_,
+```csharp
+public ToolkitResult MoveCR( 
+   MoveCRSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

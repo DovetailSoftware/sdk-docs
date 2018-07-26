@@ -9,17 +9,20 @@ Changes the status of a Case. This overload takes a setup object and a database 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeCaseStatus( _
-   ByVal _setupParam_ As [ChangeCaseStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup.md), _
+   ByVal _setupParam_ As ChangeCaseStatusSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeCaseStatus( 
-   [ChangeCaseStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ChangeCaseStatus( 
+   ChangeCaseStatusSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

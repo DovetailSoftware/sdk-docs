@@ -9,17 +9,20 @@ Reject-forward the Opportunity from one queue to another. This overload takes a 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ForwardOpportunity( _
-   ByVal _setupParam_ As [ForwardOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardOpportunitySetup.md), _
+   ByVal _setupParam_ As ForwardOpportunitySetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardOpportunity( 
-   [ForwardOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardOpportunitySetup.md) _setupParam_,
+```csharp
+public ToolkitResult ForwardOpportunity( 
+   ForwardOpportunitySetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Closes the Opportunity. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CloseOpportunity( _
-   ByVal _setupParam_ As [CloseOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CloseOpportunitySetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CloseOpportunitySetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CloseOpportunity( 
-   [CloseOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CloseOpportunitySetup.md) _setupParam_
+```csharp
+public ToolkitResult CloseOpportunity( 
+   CloseOpportunitySetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The status may be specified (in closed opportunity condition) for the opportunity, as well as the user name of the closer, and the date/time of the close. The API can also generate a time bomb (for business rule notification).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

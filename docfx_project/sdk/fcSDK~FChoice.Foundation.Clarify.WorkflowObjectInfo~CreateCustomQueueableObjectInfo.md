@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Function CreateCustomQueueableObjectInfo( _
    ByVal _objName_ As String, _
    ByVal _useCache_ As Boolean _
-) As [WorkflowObjectInfo](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo.md)
+) As WorkflowObjectInfo
+```
 
-public static [WorkflowObjectInfo](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo.md) CreateCustomQueueableObjectInfo( 
+```csharp
+public static WorkflowObjectInfo CreateCustomQueueableObjectInfo( 
    string _objName_,
    bool _useCache_
 )
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _objName_
 _useCache_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

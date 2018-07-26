@@ -5,15 +5,18 @@ Setup object for API invocation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateTimeLog( _
-   ByVal _setupParam_ As [CreateTimeLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup.md) _
-) As [CreateTimeLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.md)
+   ByVal _setupParam_ As CreateTimeLogSetup _
+) As CreateTimeLogResult
+```
 
-public [CreateTimeLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.md) CreateTimeLog( 
-   [CreateTimeLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup.md) _setupParam_
+```csharp
+public CreateTimeLogResult CreateTimeLog( 
+   CreateTimeLogSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -23,14 +26,12 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [CreateTimeLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.md) object returned by the API method:
+The following values are populated in the CreateTimeLogResult object returned by the API method:
 
-*   [OnsiteLogObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult~OnsiteLogObjid.md) \- The Objid of the OnsiteLog.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult~Objid.md) \- The Objid of the TimeLog.
+*   OnsiteLogObjid \- The Objid of the OnsiteLog.
+*   Objid \- The Objid of the TimeLog.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

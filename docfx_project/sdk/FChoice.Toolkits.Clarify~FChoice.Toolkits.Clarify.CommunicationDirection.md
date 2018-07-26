@@ -3,11 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Enum CommunicationDirection 
    Inherits System.Enum
+```
 
-public enum CommunicationDirection : System.Enum 
+```csharp
+public enum CommunicationDirection : System.Enum
+```
 
 Members
 
@@ -32,8 +36,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

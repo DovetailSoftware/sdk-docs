@@ -1,27 +1,28 @@
-﻿### ItemByIndex Method (IFCList)
+### ItemByIndex Method (IFCList)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743815)>
 Function ItemByIndex( _
    ByVal _index_ As Short _
 ) As Object
+```
 
+```csharp
 [DispIdAttribute(1610743815)]
 object ItemByIndex( 
    short _index_
 )
+```
 
 #### Parameters
 
 _index_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

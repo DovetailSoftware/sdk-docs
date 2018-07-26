@@ -5,16 +5,20 @@ Filter field on strings that do end with the input to this filter
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Function NotEndsWith( _
    ByVal _columnName_ As String, _
    ByVal _value_ As String _
-) As [NotEndsWithFilter](fcSDK~FChoice.Foundation.Filters.NotEndsWithFilter.md)
+) As NotEndsWithFilter
+```
 
-public static [NotEndsWithFilter](fcSDK~FChoice.Foundation.Filters.NotEndsWithFilter.md) NotEndsWith( 
+```csharp
+public static NotEndsWithFilter NotEndsWith( 
    string _columnName_,
    string _value_
 )
+```
 
 #### Parameters
 
@@ -23,8 +27,6 @@ _columnName_
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

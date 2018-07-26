@@ -9,17 +9,20 @@ Yank the Solution from its current location to a new owner's WipBin. This overlo
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankSolution( _
-   ByVal _setupParam_ As [YankSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.YankSolutionSetup.md), _
+   ByVal _setupParam_ As YankSolutionSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankSolution( 
-   [YankSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.YankSolutionSetup.md) _setupParam_,
+```csharp
+public ToolkitResult YankSolution( 
+   YankSolutionSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

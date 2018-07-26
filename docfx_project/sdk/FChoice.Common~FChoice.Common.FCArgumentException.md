@@ -9,12 +9,12 @@ Syntax
 
 <SerializableAttribute()>
 Public Class FCArgumentException 
-   Inherits [CommonException](FChoice.Common~FChoice.Common.CommonException.md)
+   Inherits CommonException
 ```
 
 ```csharp
 [SerializableAttribute()]
-public class FCArgumentException : [CommonException](FChoice.Common~FChoice.Common.CommonException.md) 
+public class FCArgumentException : CommonException 
 ```
 
 Remarks
@@ -24,7 +24,7 @@ Please see the three main static (**Shared** in Visual Basic) on this class for 
 Inheritance Hierarchy
 
 System.Object  
-[System.Exception](#)  
+System.Exception  
 [System.ApplicationException](#)  
 [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
 [FChoice.Common.CommonException](FChoice.Common~FChoice.Common.CommonException.md)  

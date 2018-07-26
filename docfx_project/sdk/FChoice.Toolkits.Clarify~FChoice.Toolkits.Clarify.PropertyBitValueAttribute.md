@@ -3,23 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Property, 
+<AttributeUsageAttribute(ValidOn=AttributeTargets.Property, 
    AllowMultiple=False, 
    Inherited=True)>
 Public Class PropertyBitValueAttribute 
-   Inherits [System.Attribute](#)
+   Inherits System.Attribute
+```
 
-\[[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Property, 
+```csharp
+[AttributeUsageAttribute(ValidOn=AttributeTargets.Property, 
    AllowMultiple=false, 
-   Inherited=true)\]
-public class PropertyBitValueAttribute : [System.Attribute](#) 
+   Inherited=true)]
+public class PropertyBitValueAttribute : System.Attribute
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Attribute](#)  
+   System.Attribute  
       **FChoice.Toolkits.Clarify.PropertyBitValueAttribute**  
 
 #### Requirements
@@ -29,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

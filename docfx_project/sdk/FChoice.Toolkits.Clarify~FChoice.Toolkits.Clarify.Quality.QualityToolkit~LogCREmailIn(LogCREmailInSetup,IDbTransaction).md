@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCREmailIn( _
    ByVal _setup_ As [QualityToolkit.LogCREmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit+LogCREmailInSetup.md), _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogCREmailIn( 
+```csharp
+public ToolkitResult LogCREmailIn( 
    [QualityToolkit.LogCREmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit+LogCREmailInSetup.md) _setup_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _setup_
 _transaction_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

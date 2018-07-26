@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function RetrieveRule( _
    ByVal _ruleTitle_ As String, _
    ByVal _ruleOperation_ As String _
-) As [AutoDestRule](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule.md)
+) As AutoDestRule
+```
 
-public static [AutoDestRule](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule.md) RetrieveRule( 
+```csharp
+public static AutoDestRule RetrieveRule( 
    string _ruleTitle_,
    string _ruleOperation_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _ruleTitle_
 _ruleOperation_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

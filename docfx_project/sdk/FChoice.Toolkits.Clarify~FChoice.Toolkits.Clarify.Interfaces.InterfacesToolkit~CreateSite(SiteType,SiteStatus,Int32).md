@@ -14,16 +14,16 @@ Syntax
 'Declaration
  
 Public Overloads Function CreateSite( _
-   ByVal _siteType_ As [SiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteType.md), _
-   ByVal _status_ As [SiteStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteStatus.md), _
+   ByVal _siteType_ As SiteType, _
+   ByVal _status_ As SiteStatus, _
    ByVal _primaryAddressObjid_ As Integer _
 ) As ToolkitResult
 ```
 
 ```csharp
 public ToolkitResult CreateSite( 
-   [SiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteType.md) _siteType_,
-   [SiteStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteStatus.md) _status_,
+   SiteType _siteType_,
+   SiteStatus _status_,
    int _primaryAddressObjid_
 )
 ```
@@ -46,8 +46,8 @@ Primary Address of the site
 
 The following values are populated in the ToolkitResult object returned by the API method:
 
-*   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the Site.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Site.
+*   IDNum \- The IDNum of the Site.
+*   Objid \- The Objid of the Site.
 
 [!include[Requirements](../partials/requirements.md)]
 

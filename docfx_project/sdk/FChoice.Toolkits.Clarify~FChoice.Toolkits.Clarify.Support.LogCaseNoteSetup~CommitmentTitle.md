@@ -5,23 +5,24 @@ Title of the commitment.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property CommitmentTitle As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string CommitmentTitle {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Required if setting a Commitment.
 
 The Commitment title usually comes from and element in the user-defined list 'COMMITMENT', but this is not required.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

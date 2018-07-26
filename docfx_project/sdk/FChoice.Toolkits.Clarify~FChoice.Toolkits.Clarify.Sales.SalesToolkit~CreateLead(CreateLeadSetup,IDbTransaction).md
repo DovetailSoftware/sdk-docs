@@ -9,17 +9,20 @@ Used to create a new Lead. This overload takes a setup object and a database t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateLead( _
-   ByVal _setupParam_ As [CreateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup.md), _
+   ByVal _setupParam_ As CreateLeadSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateLead( 
-   [CreateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup.md) _setupParam_,
+```csharp
+public ToolkitResult CreateLead( 
+   CreateLeadSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

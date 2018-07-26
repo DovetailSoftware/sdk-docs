@@ -9,19 +9,22 @@ Initializes a new instance of the ReinstallSitePartSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _sitePartObjid_ As Integer, _
    ByVal _siteIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public ReinstallSitePartSetup( 
    int _sitePartObjid_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _siteIDNum_
 The Site Id of the Site where the Site Part is being moved.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

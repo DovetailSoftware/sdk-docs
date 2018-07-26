@@ -7,15 +7,18 @@ Changes the Site of a Case. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeCaseSite( _
-   ByVal _setupParam_ As [ChangeCaseSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ChangeCaseSiteSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeCaseSite( 
-   [ChangeCaseSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup.md) _setupParam_
+```csharp
+public ToolkitResult ChangeCaseSite( 
+   ChangeCaseSiteSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 Any related Site Parts and Contracts for the Case are unrelated.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shadows ReadOnly Property Table As [ClarifyDataTable](fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable.md)
+Public Shadows ReadOnly Property Table As ClarifyDataTable
+```
 
-public new [ClarifyDataTable](fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable.md) Table {get;}
+```csharp
+public new ClarifyDataTable Table {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

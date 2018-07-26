@@ -9,17 +9,20 @@ Add a new Workaround to an existing Solution. This overload takes a setup object
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddWorkaround( _
-   ByVal _setupParam_ As [AddWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup.md), _
+   ByVal _setupParam_ As AddWorkaroundSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddWorkaround( 
-   [AddWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AddWorkaround( 
+   AddWorkaroundSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

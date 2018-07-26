@@ -17,7 +17,7 @@ Creates a new Address. This overload takes a set of required parameters for the 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateAddress( _
    ByVal _address1_ As String, _
@@ -26,9 +26,11 @@ Public Overloads Function CreateAddress( _
    ByVal _zipCode_ As String, _
    ByVal _country_ As String, _
    ByVal _timeZone_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateAddress( 
+```csharp
+public ToolkitResult CreateAddress( 
    string _address1_,
    string _city_,
    string _state_,
@@ -36,6 +38,7 @@ public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Toolkit
    string _country_,
    string _timeZone_
 )
+```
 
 #### Parameters
 
@@ -70,8 +73,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Address.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,7 +5,8 @@ Number of units purchased
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <PropertyBitValueAttribute()>
 Public Property UnitsPurchased As Double
 ```

@@ -1,20 +1,22 @@
-﻿### SubcaseIDNum Property (DispatchSubcaseSetup)
+### SubcaseIDNum Property (DispatchSubcaseSetup)
 
 Subcase Identifier.
 
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property SubcaseIDNum As String
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property SubcaseIDNum As String
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public string SubcaseIDNum {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

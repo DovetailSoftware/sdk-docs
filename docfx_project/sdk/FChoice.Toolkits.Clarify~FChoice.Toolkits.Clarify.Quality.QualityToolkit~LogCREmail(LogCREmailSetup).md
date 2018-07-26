@@ -7,15 +7,18 @@ Used to create a email log for a CR. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCREmail( _
-   ByVal _setupParam_ As [LogCREmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ LogCREmailSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogCREmail( 
-   [LogCREmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup.md) _setupParam_
+```csharp
+public ToolkitResult LogCREmail( 
+   LogCREmailSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 The date the email is logged can be set, as well as the user who logs the email. Additional fields on the log_email record can also be set as well as a time bomb (for the email_log), which allows notifications to be generated based on the event. In addition, the proper time_bomb can be optionally created that will cause rulemanager to send out the email.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

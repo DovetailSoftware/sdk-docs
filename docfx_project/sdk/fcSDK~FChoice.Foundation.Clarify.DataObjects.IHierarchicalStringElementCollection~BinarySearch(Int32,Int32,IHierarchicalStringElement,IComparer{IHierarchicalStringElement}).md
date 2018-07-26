@@ -8,8 +8,8 @@ Syntax
 Overloads Function BinarySearch( _
    ByVal _index_ As Integer, _
    ByVal _count_ As Integer, _
-   ByVal _item_ As [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md), _
-   ByVal _comparer_ As [IComparer(Of IHierarchicalStringElement)](#) _
+   ByVal _item_ As IHierarchicalStringElement, _
+   ByVal _comparer_ As IComparer(Of IHierarchicalStringElement) _
 ) As Integer
 ```
 
@@ -17,8 +17,8 @@ Overloads Function BinarySearch( _
 int BinarySearch( 
    int _index_,
    int _count_,
-   [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md) _item_,
-   [IComparer<IHierarchicalStringElement>](#) _comparer_
+   IHierarchicalStringElement _item_,
+   IComparer<IHierarchicalStringElement> _comparer_
 )
 ```
 

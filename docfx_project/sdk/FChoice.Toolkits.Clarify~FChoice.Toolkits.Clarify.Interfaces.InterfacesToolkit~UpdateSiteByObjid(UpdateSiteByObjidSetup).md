@@ -7,15 +7,18 @@ Update Site identified by Objid. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateSiteByObjid( _
-   ByVal _setupParam_ As [UpdateSiteByObjidSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdateSiteByObjidSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateSiteByObjid( 
-   [UpdateSiteByObjidSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdateSiteByObjid( 
+   UpdateSiteByObjidSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -31,8 +34,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the Site.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

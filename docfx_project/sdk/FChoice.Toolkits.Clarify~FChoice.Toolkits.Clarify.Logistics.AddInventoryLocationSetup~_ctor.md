@@ -13,23 +13,26 @@ Initializes a new instance of the AddInventoryLocationSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _locationName_ As String, _
    ByVal _capitalGLAccount_ As String, _
    ByVal _siteIDNum_ As String, _
-   ByVal _partAuthorizationLevel_ As [PartAuthorizationLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartAuthorizationLevel.md) _
+   ByVal _partAuthorizationLevel_ As PartAuthorizationLevel _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AddInventoryLocationSetup( 
    string _locationName_,
    string _capitalGLAccount_,
    string _siteIDNum_,
-   [PartAuthorizationLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartAuthorizationLevel.md) _partAuthorizationLevel_
+   PartAuthorizationLevel _partAuthorizationLevel_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ _partAuthorizationLevel_
 The part authorization level for this inventory location
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

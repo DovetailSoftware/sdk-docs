@@ -9,17 +9,20 @@ Link a CR to a Solution. This overload takes a setup object and a database trans
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LinkCRToSolution( _
-   ByVal _setupParam_ As [LinkCRToSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCRToSolutionSetup.md), _
+   ByVal _setupParam_ As LinkCRToSolutionSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LinkCRToSolution( 
-   [LinkCRToSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCRToSolutionSetup.md) _setupParam_,
+```csharp
+public ToolkitResult LinkCRToSolution( 
+   LinkCRToSolutionSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

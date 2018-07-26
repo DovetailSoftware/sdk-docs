@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _contractIDNum_ As String, _
    ByVal _sitePartObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public RemoveSitePartFromContractSetup( 
    string _contractIDNum_,
    int _sitePartObjid_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _contractIDNum_
 _sitePartObjid_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

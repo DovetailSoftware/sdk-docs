@@ -1,29 +1,26 @@
-﻿     Or(Filter\[\]) Method                                                   
-
-fcSDK Documentation
-
-Or(Filter\[\]) Method
+﻿### Or(Filter\[\]) Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function Or( _
-   ByVal ParamArray _filters_() As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _
-) As [OrManyFilter](fcSDK~FChoice.Foundation.Filters.OrManyFilter.md)
+   ByVal ParamArray _filters_() As Filter _
+) As OrManyFilter
+```
 
-public [OrManyFilter](fcSDK~FChoice.Foundation.Filters.OrManyFilter.md) Or( 
-   params [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)\[\] _filters_
+```csharp
+public OrManyFilter Or( 
+   params Filter\[\] _filters_
 )
+```
 
 #### Parameters
 
 _filters_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

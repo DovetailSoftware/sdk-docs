@@ -3,24 +3,25 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 <DispIdAttribute(1610743814)>
 Sub ChangeGenericsOrdering( _
-   ByVal _generic_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _
-) 
+   ByVal _generic_ As IFCGeneric _
+)
+```
 
+```csharp
 [DispIdAttribute(1610743814)]
 void ChangeGenericsOrdering( 
-   [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _generic_
+   IFCGeneric _generic_
 )
+```
 
 #### Parameters
 
 _generic_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

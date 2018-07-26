@@ -5,11 +5,15 @@ Filter field that are less than or equal to the filter input
 Syntax
 
 ```vbnet
-' Declaration
-Public Class LessThanOrEqualFilter 
-   Inherits [OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md)
+'Declaration
 
-public class LessThanOrEqualFilter : [OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md) 
+Public Class LessThanOrEqualFilter 
+   Inherits OperationFilter
+```
+
+```csharp
+public class LessThanOrEqualFilter : OperationFilter 
+```
 
 Example
 
@@ -30,8 +34,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

@@ -3,12 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Enum CommunicationRoleType 
    Inherits System.Enum
+```
 
-public enum CommunicationRoleType : System.Enum 
+```csharp
+public enum CommunicationRoleType : System.Enum
+```
 
 Members
 
@@ -34,8 +37,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

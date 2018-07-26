@@ -1,9 +1,9 @@
-﻿### assign_object Method (IFCSession)
+### assign_object Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743897)>
 Function assign_object( _
@@ -15,7 +15,9 @@ Function assign_object( _
    ByVal _generateTimeBombs_ As Boolean, _
    ByVal _objectType_ As String _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743897)]
 short assign_object( 
    string _objId_,
@@ -26,6 +28,7 @@ short assign_object(
    bool _generateTimeBombs_,
    string _objectType_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ _generateTimeBombs_
 _objectType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

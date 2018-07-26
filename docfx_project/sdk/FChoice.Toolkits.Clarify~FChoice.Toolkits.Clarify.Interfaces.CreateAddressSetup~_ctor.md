@@ -17,7 +17,7 @@ Initializes a new instance of the CreateAddressSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -28,7 +28,9 @@ Public Function New( _
    ByVal _country_ As String, _
    ByVal _timeZone_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateAddressSetup( 
    string _address1_,
@@ -38,6 +40,7 @@ public CreateAddressSetup(
    string _country_,
    string _timeZone_
 )
+```
 
 #### Parameters
 
@@ -66,8 +69,6 @@ _timeZone_
 Address Timezone.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

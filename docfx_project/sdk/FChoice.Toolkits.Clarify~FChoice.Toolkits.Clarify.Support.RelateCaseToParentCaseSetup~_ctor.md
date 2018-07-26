@@ -9,19 +9,22 @@ Initializes a new instance of the RelateCaseToParentCaseSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _caseIDNum_ As String, _
    ByVal _parentCaseIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public RelateCaseToParentCaseSetup( 
    string _caseIDNum_,
    string _parentCaseIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _parentCaseIDNum_
 Identifier of a oarent Case in the relation.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

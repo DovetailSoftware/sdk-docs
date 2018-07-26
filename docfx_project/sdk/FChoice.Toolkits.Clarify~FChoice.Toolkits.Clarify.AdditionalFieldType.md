@@ -5,12 +5,15 @@ The type of database field being updated by the [AdditionalField](FChoice.Toolki
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Enum AdditionalFieldType 
    Inherits System.Enum
+```
 
-public enum AdditionalFieldType : System.Enum 
+```csharp
+public enum AdditionalFieldType : System.Enum
+```
 
 Members
 
@@ -35,8 +38,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

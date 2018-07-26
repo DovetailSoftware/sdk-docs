@@ -5,21 +5,22 @@ Part class for the part to create.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property PartClass As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string PartClass {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Only used by DE engine.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

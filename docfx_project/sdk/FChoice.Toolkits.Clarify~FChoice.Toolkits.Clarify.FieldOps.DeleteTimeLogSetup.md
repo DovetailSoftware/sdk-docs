@@ -5,10 +5,14 @@ Used by the [DeleteTimeLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.F
 Syntax
 
 ```vbnet
-' Declaration
-Public Class DeleteTimeLogSetup 
+'Declaration
 
-public class DeleteTimeLogSetup 
+Public Class DeleteTimeLogSetup 
+```
+
+```csharp
+public class DeleteTimeLogSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

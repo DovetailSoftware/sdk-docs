@@ -7,15 +7,18 @@ Yank the PartRequest from its current location to a new owner's WipBin. This ove
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankPartRequest( _
-   ByVal _setupParam_ As [YankPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ YankPartRequestSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankPartRequest( 
-   [YankPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup.md) _setupParam_
+```csharp
+public ToolkitResult YankPartRequest( 
+   YankPartRequestSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The WipBin to place the PartRequest in may also be specified. This is augmented function from base Clarify, where the PartRequest is always placed in the default WipBin.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,17 +9,20 @@ Create an Engineering Change Order (ECO) Header. This overload takes a setup obj
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateEcoHeader( _
-   ByVal _setupParam_ As [CreateEcoHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoHeaderSetup.md), _
+   ByVal _setupParam_ As CreateEcoHeaderSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateEcoHeader( 
-   [CreateEcoHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoHeaderSetup.md) _setupParam_,
+```csharp
+public ToolkitResult CreateEcoHeader( 
+   CreateEcoHeaderSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

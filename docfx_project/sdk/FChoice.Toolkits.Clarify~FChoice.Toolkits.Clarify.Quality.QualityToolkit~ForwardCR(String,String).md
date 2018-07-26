@@ -9,17 +9,20 @@ Reject-forward the CR from one queue to another. This overload takes a set of re
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ForwardCR( _
    ByVal _cridnum_ As String, _
    ByVal _newQueue_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardCR( 
+```csharp
+public ToolkitResult ForwardCR( 
    string _cridnum_,
    string _newQueue_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The CR must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

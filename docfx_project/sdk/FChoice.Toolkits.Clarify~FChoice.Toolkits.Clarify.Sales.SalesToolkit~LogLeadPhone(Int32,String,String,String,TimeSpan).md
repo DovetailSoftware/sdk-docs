@@ -15,7 +15,7 @@ Log a phone call for a Lead. This overload takes a set of required parameters fo
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogLeadPhone( _
    ByVal _leadObjid_ As Integer, _
@@ -23,15 +23,18 @@ Public Overloads Function LogLeadPhone( _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String, _
    ByVal _duration_ As TimeSpan _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogLeadPhone( 
+```csharp
+public ToolkitResult LogLeadPhone( 
    int _leadObjid_,
    string _contactFirstName_,
    string _contactLastName_,
    string _contactPhone_,
    TimeSpan _duration_
 )
+```
 
 #### Parameters
 
@@ -70,8 +73,6 @@ There are a variety of optional items that can be set, including the action ty
 The API can also generate a time bomb (for business rule notification).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

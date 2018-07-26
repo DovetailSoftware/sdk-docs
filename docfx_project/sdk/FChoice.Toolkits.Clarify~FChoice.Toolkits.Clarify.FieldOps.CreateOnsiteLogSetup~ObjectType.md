@@ -5,17 +5,18 @@ Specifies whether this Onsite Log is tied to a Case or Subcase.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property ObjectType As [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CaseObjectType.md)
+<PropertyBitValueAttribute()>
+Public Property ObjectType As CaseObjectType
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CaseObjectType.md) ObjectType {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public CaseObjectType ObjectType {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

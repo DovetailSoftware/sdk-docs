@@ -5,13 +5,16 @@ Represents a summary view of the session for reporting purposes.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class FCSessionSummary 
+```
 
-public class FCSessionSummary 
+```csharp
+public class FCSessionSummary
+```
 
-Remarks
+#### Remarks
 
 [FCApplication.CurrentSessions](fcSDK~FChoice.Foundation.FCApplication~CurrentSessions.md) returns an Array of **FCSessionSummary** objects for viewing basic information about the sessions currently running.
 
@@ -27,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

@@ -5,11 +5,14 @@ Returns a dictionary that contains Clarify config item key/value pairs
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property ConfigItems As [ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md)
+Public ReadOnly Property ConfigItems As ClarifyConfigItemCollection
+```
 
-public [ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md) ConfigItems {get;}
+```csharp
+public ClarifyConfigItemCollection ConfigItems {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 To access more information about config items besides just their values, use the [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~ConfigItemCache.md) property.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,10 +5,14 @@ Used by the [UpdateCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Qualit
 Syntax
 
 ```vbnet
-' Declaration
-Public Class UpdateCRSetup 
+'Declaration
 
-public class UpdateCRSetup 
+Public Class UpdateCRSetup 
+```
+
+```csharp
+public class UpdateCRSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

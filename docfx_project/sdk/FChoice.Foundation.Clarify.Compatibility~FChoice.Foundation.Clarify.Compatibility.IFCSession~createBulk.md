@@ -3,24 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743874)>
 Function createBulk( _
    ByVal _bulkName_ As String _
-) As [IFCBulk](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk.md)
+) As IFCBulk
+```
 
+```csharp
 [DispIdAttribute(1610743874)]
-[IFCBulk](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk.md) createBulk( 
+IFCBulk createBulk( 
    string _bulkName_
 )
+```
 
 #### Parameters
 
 _bulkName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

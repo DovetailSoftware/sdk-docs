@@ -7,15 +7,18 @@ Used to create a Quote/Contract line item. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateQuoteLineItem( _
-   ByVal _setupParam_ As [CreateQuoteLineItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateQuoteLineItemSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateQuoteLineItem( 
-   [CreateQuoteLineItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateQuoteLineItem( 
+   CreateQuoteLineItemSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ The API will create a line item, add it to the proper contract/quote, and adjust
  The API does not do a few other items in the base GUI function. By and large, they are expected to be supplied with other API calls. For example, line item adjustments are not part of this API. If they are required, the line should be created, and then the adjustment should be applied. Parent/child line items are not provided for in the default API. Also, proration (ClearContracts) is currently hard-coded.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

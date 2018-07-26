@@ -8,12 +8,12 @@ Syntax
 'Declaration
 
 Public Class IsInFilter 
-   Inherits [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)
+   Inherits ColumnBasedFilter
 ```
 
 ```csharp
-public class IsInFilter : [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md) 
-```
+public class IsInFilter : ColumnBasedFilter
+``` 
 
 Example
 

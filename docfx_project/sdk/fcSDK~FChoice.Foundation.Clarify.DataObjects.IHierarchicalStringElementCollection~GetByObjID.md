@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function GetByObjID( _
    ByVal _objectID_ As Integer _
-) As [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md)
+) As IHierarchicalStringElement
+```
 
-[IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md) GetByObjID( 
+```csharp
+IHierarchicalStringElement GetByObjID( 
    int _objectID_
 )
+```
 
 #### Parameters
 
 _objectID_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

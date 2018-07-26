@@ -5,10 +5,14 @@ Used by the [AddGLAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Lo
 Syntax
 
 ```vbnet
-' Declaration
-Public Class AddGLAccountSetup 
+'Declaration
 
-public class AddGLAccountSetup 
+Public Class AddGLAccountSetup 
+```
+
+```csharp
+public class AddGLAccountSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

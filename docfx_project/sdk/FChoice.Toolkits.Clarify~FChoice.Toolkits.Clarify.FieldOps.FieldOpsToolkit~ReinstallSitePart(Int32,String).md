@@ -7,17 +7,20 @@ The Site Id of the Site where the Site Part is being moved.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReinstallSitePart( _
    ByVal _sitePartObjid_ As Integer, _
    ByVal _siteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReinstallSitePart( 
+```csharp
+public ToolkitResult ReinstallSitePart( 
    int _sitePartObjid_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ The Site Id of the Site where the Site Part is being moved.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

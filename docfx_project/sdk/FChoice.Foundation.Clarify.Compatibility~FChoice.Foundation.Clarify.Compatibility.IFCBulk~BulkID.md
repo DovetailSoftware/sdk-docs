@@ -1,18 +1,20 @@
-﻿### BulkID Property (IFCBulk)
+### BulkID Property (IFCBulk)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743812)>
 Property BulkID As Short
+```
 
+```csharp
 [DispIdAttribute(1610743812)]
 short BulkID {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

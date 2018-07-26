@@ -9,19 +9,22 @@ Initializes a new instance of the PickSetup class. This overload takes a set of 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal ParamArray _serialNumbers_() As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public PickSetup( 
    string _partRequestDetailIDNum_,
    params string[] _serialNumbers_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _serialNumbers_
 The serial number(s) of the part(s) to pick (hard pick)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

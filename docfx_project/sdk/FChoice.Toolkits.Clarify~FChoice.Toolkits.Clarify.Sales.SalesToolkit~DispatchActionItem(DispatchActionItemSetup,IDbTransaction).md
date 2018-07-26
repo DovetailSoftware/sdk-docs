@@ -9,17 +9,20 @@ Dispatch the ActionItem to the specified queue. This overload takes a setup obje
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DispatchActionItem( _
-   ByVal _setupParam_ As [DispatchActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup.md), _
+   ByVal _setupParam_ As DispatchActionItemSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchActionItem( 
-   [DispatchActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup.md) _setupParam_,
+```csharp
+public ToolkitResult DispatchActionItem( 
+   DispatchActionItemSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

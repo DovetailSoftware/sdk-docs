@@ -5,21 +5,22 @@ The instance name for the Site Part.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property InstanceName As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string InstanceName {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If not set, the instance name is automatically created for you.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Used to add inventory bins to existing locations. This overload takes a setup ob
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddInventoryBin( _
-   ByVal _setupParam_ As [AddInventoryBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryBinSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ AddInventoryBinSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddInventoryBin( 
-   [AddInventoryBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryBinSetup.md) _setupParam_
+```csharp
+public ToolkitResult AddInventoryBin( 
+   AddInventoryBinSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Inventory Bin record.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

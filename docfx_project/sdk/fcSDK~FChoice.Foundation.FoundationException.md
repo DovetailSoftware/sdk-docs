@@ -5,18 +5,22 @@ The exception that is thrown when an error occurs in Foundation.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <SerializableAttribute()>
 Public Class FoundationException 
-   Inherits [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)
+   Inherits FChoice.Common.FCExceptionBase
+```
 
+```csharp
 [SerializableAttribute()]
-public class FoundationException : [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) 
+public class FoundationException : FChoice.Common.FCExceptionBase 
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Exception](#)  
+   System.Exception  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             **FChoice.Foundation.FoundationException**  
@@ -30,8 +34,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

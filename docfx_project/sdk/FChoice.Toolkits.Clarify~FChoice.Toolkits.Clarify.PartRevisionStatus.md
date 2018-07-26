@@ -5,12 +5,15 @@ Status of the Part Revision
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Enum PartRevisionStatus 
    Inherits System.Enum
+```
 
+```csharp
 public enum PartRevisionStatus : System.Enum 
+```
 
 Members
 
@@ -34,8 +37,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

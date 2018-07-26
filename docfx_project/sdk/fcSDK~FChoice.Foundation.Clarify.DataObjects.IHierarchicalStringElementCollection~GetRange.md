@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function GetRange( _
    ByVal _index_ As Integer, _
    ByVal _count_ As Integer _
-) As [List(Of IHierarchicalStringElement)](#)
+) As List(Of IHierarchicalStringElement)
+```
 
-[List<IHierarchicalStringElement>](#) GetRange( 
+```csharp
+List<IHierarchicalStringElement> GetRange( 
    int _index_,
    int _count_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _index_
 _count_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

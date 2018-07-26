@@ -9,17 +9,20 @@ Reject-forward the PartRequest from one queue to another. This overload takes a 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ForwardPartRequest( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _newQueue_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardPartRequest( 
+```csharp
+public ToolkitResult ForwardPartRequest( 
    string _partRequestDetailIDNum_,
    string _newQueue_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The PartRequest must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

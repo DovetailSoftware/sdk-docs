@@ -9,19 +9,22 @@ Initializes a new instance of the MovePartRequestSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _newWipBin_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public MovePartRequestSetup( 
    string _partRequestDetailIDNum_,
    string _newWipBin_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ Remarks
 The specified part request detail must be open and the specified WipBin name must be valid for the current owner.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

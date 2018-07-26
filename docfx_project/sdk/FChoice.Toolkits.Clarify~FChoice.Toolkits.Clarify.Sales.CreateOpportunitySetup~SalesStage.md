@@ -5,21 +5,22 @@ Sales stage for the opportunity.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property SalesStage As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string SalesStage {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Must be a valid cycle stage from the database.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

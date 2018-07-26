@@ -7,15 +7,18 @@ Changes the contact for a Case. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeCaseContact( _
-   ByVal _setupParam_ As [ChangeCaseContactSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ChangeCaseContactSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeCaseContact( 
-   [ChangeCaseContactSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup.md) _setupParam_
+```csharp
+public ToolkitResult ChangeCaseContact( 
+   ChangeCaseContactSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Case phone and alternate phone are also changed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

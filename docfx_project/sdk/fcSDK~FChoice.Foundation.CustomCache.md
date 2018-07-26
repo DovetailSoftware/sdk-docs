@@ -3,12 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class CustomCache 
-   Inherits [CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)
+   Inherits CacheBase
+```
 
-public class CustomCache : [CacheBase](fcSDK~FChoice.Foundation.CacheBase.md) 
+```csharp
+public class CustomCache : CacheBase
+``` 
 
 Inheritance Hierarchy
 
@@ -23,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

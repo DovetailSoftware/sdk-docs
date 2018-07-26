@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function GetViewFieldInfoByID( _
    ByVal _viewID_ As Integer, _
    ByVal _fieldID_ As Integer _
-) As [SchemaViewFieldInfo](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfo.md)
+) As SchemaViewFieldInfo
+```
 
-public [SchemaViewFieldInfo](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfo.md) GetViewFieldInfoByID( 
+```csharp
+public SchemaViewFieldInfo GetViewFieldInfoByID( 
    int _viewID_,
    int _fieldID_
 )
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _viewID_
 _fieldID_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

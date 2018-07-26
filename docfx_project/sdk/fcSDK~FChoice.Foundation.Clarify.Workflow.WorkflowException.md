@@ -3,18 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <SerializableAttribute()>
 Public Class WorkflowException 
-   Inherits [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)
+   Inherits FChoice.Common.FCExceptionBase
+```
 
+```csharp
 [SerializableAttribute()]
-public class WorkflowException : [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) 
+public class WorkflowException : FChoice.Common.FCExceptionBase
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Exception](#)  
+   System.Exception  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             **FChoice.Foundation.Clarify.Workflow.WorkflowException**  
@@ -26,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

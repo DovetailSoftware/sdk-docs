@@ -8,12 +8,12 @@ Syntax
 'Declaration
 
 Public MustInherit Class ColumnBasedFilter 
-   Inherits [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)
+   Inherits Filter
 ```
 
 ```csharp
-public abstract class ColumnBasedFilter : [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) 
-```
+public abstract class ColumnBasedFilter : Filter
+``` 
 
 Example
 

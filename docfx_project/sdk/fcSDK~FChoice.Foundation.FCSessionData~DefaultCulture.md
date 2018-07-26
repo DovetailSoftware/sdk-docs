@@ -5,19 +5,20 @@ Default culture of the user session.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared ReadOnly DefaultCulture As CultureInfo
+```
 
+```csharp
 public static readonly CultureInfo DefaultCulture
+```
 
 Remarks
 
 This currently defaults to the [InstalledUICulture](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemGlobalizationCultureInfoClassInstalledUICultureTopic.htm).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

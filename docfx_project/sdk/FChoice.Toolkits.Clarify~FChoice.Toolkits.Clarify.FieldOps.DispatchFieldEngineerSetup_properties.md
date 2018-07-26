@@ -1,4 +1,4 @@
-﻿### DispatchFieldEngineerSetup Class Properties
+### DispatchFieldEngineerSetup Class Properties
 
 For a list of all members of this type, see [DispatchFieldEngineerSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup_members.md).
 
@@ -31,10 +31,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup~UserName.md) | The user who has dispatched the FieldEngineer. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WorkOrder](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup~WorkOrder.md) | The Id Number of the work order. If blank, "." is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ZipCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup~ZipCode.md) | The zipcode used to overide the default site alternate zipcode.   |
-
-
-
-
 
 #### Reference
 

@@ -5,18 +5,22 @@ The exception that is thrown when an error occurs in the [Generic](fcSDK~FChoic
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <SerializableAttribute()>
 Public Class GenericException 
-   Inherits [FoundationException](fcSDK~FChoice.Foundation.FoundationException.md)
+   Inherits FoundationException
+```
 
+```csharp
 [SerializableAttribute()]
-public class GenericException : [FoundationException](fcSDK~FChoice.Foundation.FoundationException.md) 
+public class GenericException : FoundationException
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Exception](#)  
+   System.Exception  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             [FChoice.Foundation.FoundationException](fcSDK~FChoice.Foundation.FoundationException.md)  
@@ -30,8 +34,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

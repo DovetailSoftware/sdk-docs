@@ -5,21 +5,22 @@ Name of the territory for the Opportunity.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property Territory As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string Territory {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Must be a valid territory from the database. If not specified, the default territory is used.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,14 +5,18 @@ Caches global config items and provides access to the global [ClarifyConfigItem
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DefaultMemberAttribute("Item")>
 Public Class ConfigItemCache 
-   Inherits [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)
+   Inherits ClarifyCacheBase
+```
+
+```csharp
 
 [DefaultMemberAttribute("Item")]
-public class ConfigItemCache : [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md) 
+public class ConfigItemCache : ClarifyCacheBase
+``` 
 
 Inheritance Hierarchy
 
@@ -28,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

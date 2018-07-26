@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Event CachesUpdated As [CachesUpdatedEventHandler](fcSDK~FChoice.Foundation.CachesUpdatedEventHandler.md)
+Public Event CachesUpdated As CachesUpdatedEventHandler
+```
 
-public event [CachesUpdatedEventHandler](fcSDK~FChoice.Foundation.CachesUpdatedEventHandler.md) CachesUpdated
+```csharp
+public event CachesUpdatedEventHandler CachesUpdated
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

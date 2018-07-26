@@ -9,15 +9,18 @@ This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function PartTransfer( _
-   ByVal _setupParam_ As [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup.md) _
-) As [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferResult.md)
+   ByVal _setupParam_ As PartTransferSetup _
+) As PartTransferResult
+```
 
-public [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferResult.md) PartTransfer( 
-   [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup.md) _setupParam_
+```csharp
+public PartTransferResult PartTransfer( 
+   PartTransferSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -27,11 +30,11 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [PartTransferResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferResult.md) object returned by the API method:
+The following values are populated in the PartTransferResult object returned by the API method:
 
-*   [StandardCost](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferResult~StandardCost.md) \- Part Transfer Standard Cost.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferResult~Objid.md) \- Objid of the Part Transfer record.
-*   [TransactionIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferResult~TransactionIDNum.md) \- Part Transfer Transaction Identifier.
+*   StandardCost \- Part Transfer Standard Cost.
+*   Objid \- Objid of the Part Transfer record.
+*   TransactionIDNum \- Part Transfer Transaction Identifier.
 
 Remarks
 
@@ -39,13 +42,11 @@ As in Clarify, the transfer can be from good or bad stock and can be to good or 
 
 This API checks part authorization levels for auto-replenishment, and will automatically work with that engine.
 
-To use primary bin suggestions/recommendations, please see the remarks on the [ToLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup~ToLocation.md) and/or [FromLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup~FromLocation.md) properties on the [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup.md) object.
+To use primary bin suggestions/recommendations, please see the remarks on the ToLocation and/or FromLocation properties on the [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup.md) object.
 
 This API supports transferring parts by quantity or a specific serial number.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

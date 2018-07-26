@@ -5,10 +5,14 @@ Used by the [InstallSitePartToPart](FChoice.Toolkits.Clarify~FChoice.Toolkits.C
 Syntax
 
 ```vbnet
-' Declaration
-Public Class InstallSitePartToPartSetup 
+'Declaration
 
-public class InstallSitePartToPartSetup 
+Public Class InstallSitePartToPartSetup 
+```
+
+```csharp
+public class InstallSitePartToPartSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

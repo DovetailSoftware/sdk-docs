@@ -5,16 +5,18 @@ Preference for high priority notifications during normal business hours
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property NormalBusinessHoursHigh As String
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property NormalBusinessHoursHigh As String
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public string NormalBusinessHoursHigh {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

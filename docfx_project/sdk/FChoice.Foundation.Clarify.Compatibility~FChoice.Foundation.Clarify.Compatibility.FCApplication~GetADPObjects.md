@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetADPObjects( _
    Optional ByVal _ObjectTypes_ As Object _
 ) As ADODB.Recordset
+```
 
+```csharp
 public ADODB.Recordset GetADPObjects( 
    object _ObjectTypes_
 )
+```
 
 #### Parameters
 
 _ObjectTypes_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

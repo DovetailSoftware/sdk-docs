@@ -5,15 +5,16 @@ Array of addresses for BCC Recipients.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property BCCRecipients As [String()](#)
+Public Property BCCRecipients As String()
+```
 
+```csharp
 public string[] BCCRecipients {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

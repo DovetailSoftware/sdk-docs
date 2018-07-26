@@ -5,13 +5,16 @@ This class is used internally and not meant to be created by end users.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public MustInherit Class ToolkitBase 
+```
 
+```csharp
 public abstract class ToolkitBase 
+```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.ToolkitBase**  
@@ -31,8 +34,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

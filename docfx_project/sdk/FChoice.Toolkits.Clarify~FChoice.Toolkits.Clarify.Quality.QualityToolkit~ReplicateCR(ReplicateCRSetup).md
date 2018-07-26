@@ -7,15 +7,18 @@ Replicate a CR. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReplicateCR( _
-   ByVal _setupParam_ As [ReplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReplicateCRSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ReplicateCRSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReplicateCR( 
-   [ReplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReplicateCRSetup.md) _setupParam_
+```csharp
+public ToolkitResult ReplicateCR( 
+   ReplicateCRSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -39,8 +42,6 @@ The new CR is an exact copy of the original with the following exceptions:
 3.  A new activity log entry is added to show this CR is replicated. Also, an activity log entry is also added to the original CR to note that it has been replicated.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

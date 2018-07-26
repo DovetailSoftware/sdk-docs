@@ -7,15 +7,18 @@ Adding a file Module to a Fixed CR. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddModuleToCR( _
-   ByVal _setupParam_ As [AddModuleToCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ AddModuleToCRSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddModuleToCR( 
-   [AddModuleToCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup.md) _setupParam_
+```csharp
+public ToolkitResult AddModuleToCR( 
+   AddModuleToCRSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 There is no integration between this API and your change control system so no validation is possible for the Module [filename](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup~FileName.md) or [revision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup~FileRevision.md).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

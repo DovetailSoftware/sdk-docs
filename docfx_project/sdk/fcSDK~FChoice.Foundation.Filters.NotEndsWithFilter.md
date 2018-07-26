@@ -5,11 +5,15 @@ Filter field on strings that do end with the input to this filter
 Syntax
 
 ```vbnet
-' Declaration
-Public Class NotEndsWithFilter 
-   Inherits [NotLikeFilter](fcSDK~FChoice.Foundation.Filters.NotLikeFilter.md)
+'Declaration
 
-public class NotEndsWithFilter : [NotLikeFilter](fcSDK~FChoice.Foundation.Filters.NotLikeFilter.md) 
+Public Class NotEndsWithFilter 
+   Inherits NotLikeFilter
+```
+
+```csharp
+public class NotEndsWithFilter : NotLikeFilter
+```
 
 Example
 
@@ -32,8 +36,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

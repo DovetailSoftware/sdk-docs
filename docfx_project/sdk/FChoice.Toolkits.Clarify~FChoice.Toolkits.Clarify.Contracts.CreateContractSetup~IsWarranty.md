@@ -5,21 +5,22 @@ Flag to set the contract line items' default start state to one day past the en
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property IsWarranty As Boolean
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public bool IsWarranty {get; set;}
+```
 
-Remarks
+#### Remarks
 
 For service parts, the "end of warranty" is the service end date.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

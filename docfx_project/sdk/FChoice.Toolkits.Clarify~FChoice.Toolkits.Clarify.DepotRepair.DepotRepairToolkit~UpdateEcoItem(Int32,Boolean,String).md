@@ -11,19 +11,22 @@ Update an ECO Item. This overload takes a set of required parameters for the API
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateEcoItem( _
    ByVal _ecoItemObjid_ As Integer, _
    ByVal _isActive_ As Boolean, _
    ByVal _ecoHeaderIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateEcoItem( 
+```csharp
+public ToolkitResult UpdateEcoItem( 
    int _ecoItemObjid_,
    bool _isActive_,
    string _ecoHeaderIDNum_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Identifier of the ECO header
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

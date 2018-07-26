@@ -7,15 +7,18 @@ Creates an email log against a Case. This overload takes a set of required param
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCaseEmail( _
    ByVal _caseIDNum_ As String _
-) As [LogCaseEmailResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult.md)
+) As LogCaseEmailResult
+```
 
-public [LogCaseEmailResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult.md) LogCaseEmail( 
+```csharp
+public LogCaseEmailResult LogCaseEmail( 
    string _caseIDNum_
 )
+```
 
 #### Parameters
 
@@ -25,19 +28,17 @@ Identifier of the Case against which the email is being logged.
 
 #### Return Value
 
-The following values are populated in the [LogCaseEmailResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult.md) object returned by the API method:
+The following values are populated in the LogCaseEmailResult object returned by the API method:
 
-*   [StatusChangeObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult~StatusChangeObjid.md) \- The Objid of the StatusChange.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult~Objid.md) \- The Objid of the Log.
-*   [CommitmentObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult~CommitmentObjid.md) \- The Objid of the Commitment.
+*   StatusChangeObjid \- The Objid of the StatusChange.
+*   Objid \- The Objid of the Log.
+*   CommitmentObjid \- The Objid of the Commitment.
 
 Remarks
 
-It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~IsCommitmentToCustomer.md) properties
+It is possible to create a Commitment with this log. To do so set the CommitmentDueDate and CommitmentTitle and IsCommitmentToCustomer properties
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

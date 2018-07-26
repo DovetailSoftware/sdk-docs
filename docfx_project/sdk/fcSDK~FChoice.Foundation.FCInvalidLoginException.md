@@ -5,18 +5,22 @@ Thrown when credentials for a Session cannot be authenticated
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <SerializableAttribute()>
 Public Class FCInvalidLoginException 
-   Inherits [FoundationException](fcSDK~FChoice.Foundation.FoundationException.md)
+   Inherits FoundationException
+```
 
+```csharp
 [SerializableAttribute()]
-public class FCInvalidLoginException : [FoundationException](fcSDK~FChoice.Foundation.FoundationException.md) 
+public class FCInvalidLoginException : FoundationException
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Exception](#)  
+   System.Exception  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             [FChoice.Foundation.FoundationException](fcSDK~FChoice.Foundation.FoundationException.md)  
@@ -29,8 +33,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

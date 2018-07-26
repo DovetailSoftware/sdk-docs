@@ -3,11 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Class ClarifyDataRow 
-   Inherits [FChoice.Foundation.GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)
+'Declaration
 
-public class ClarifyDataRow : [FChoice.Foundation.GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) 
+Public Class ClarifyDataRow 
+   Inherits FChoice.Foundation.GenericDataRow
+```
+
+```csharp
+public class ClarifyDataRow : FChoice.Foundation.GenericDataRow
+``` 
 
 Inheritance Hierarchy
 
@@ -23,8 +27,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

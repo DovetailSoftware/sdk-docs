@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function GetCultureForCultureName( _
    ByVal _cultureName_ As String, _
    ByVal _requestingObjType_ As String, _
    ByVal _itemID_ As String _
 ) As CultureInfo
+```
 
+```csharp
 public static CultureInfo GetCultureForCultureName( 
    string _cultureName_,
    string _requestingObjType_,
    string _itemID_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _requestingObjType_
 _itemID_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

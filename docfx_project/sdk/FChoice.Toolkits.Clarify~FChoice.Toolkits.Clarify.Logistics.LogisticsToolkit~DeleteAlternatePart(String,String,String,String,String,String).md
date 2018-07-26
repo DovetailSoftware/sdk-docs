@@ -17,7 +17,7 @@ Causes the second part/revision listed to be removed as an alternate part for th
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DeleteAlternatePart( _
    ByVal _partNumber_ As String, _
@@ -26,9 +26,11 @@ Public Overloads Function DeleteAlternatePart( _
    ByVal _alternatePartNumber_ As String, _
    ByVal _alternatePartRevision_ As String, _
    ByVal _alternatePartDomain_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteAlternatePart( 
+```csharp
+public ToolkitResult DeleteAlternatePart( 
    string _partNumber_,
    string _partRevision_,
    string _partDomain_,
@@ -36,6 +38,7 @@ public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Toolkit
    string _alternatePartRevision_,
    string _alternatePartDomain_
 )
+```
 
 #### Parameters
 
@@ -68,8 +71,6 @@ The Alternate Part domain
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

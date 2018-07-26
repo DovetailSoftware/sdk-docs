@@ -6,13 +6,13 @@ Syntax
 'Declaration
 
 Overloads Function BinarySearch( _
-   ByVal _item_ As [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md) _
+   ByVal _item_ As IHierarchicalStringElement _
 ) As Integer
 ```
 
 ```csharp
 int BinarySearch( 
-   [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md) _item_
+   IHierarchicalStringElement _item_
 )
 ```
 

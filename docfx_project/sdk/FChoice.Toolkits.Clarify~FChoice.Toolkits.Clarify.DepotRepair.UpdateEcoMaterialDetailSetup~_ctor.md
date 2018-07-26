@@ -9,19 +9,22 @@ Initializes a new instance of the UpdateEcoMaterialDetailSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _ecoDetailObjid_ As Integer, _
    ByVal _partRevisionObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateEcoMaterialDetailSetup( 
    int _ecoDetailObjid_,
    int _partRevisionObjid_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _partRevisionObjid_
 The objid of the part revision of the material that was put in use.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

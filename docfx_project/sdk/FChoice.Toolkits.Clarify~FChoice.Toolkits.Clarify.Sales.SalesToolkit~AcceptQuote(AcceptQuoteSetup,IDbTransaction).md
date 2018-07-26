@@ -9,17 +9,20 @@ Accept the specified Quote from the queue in which it is currently dispatched. T
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AcceptQuote( _
-   ByVal _setupParam_ As [AcceptQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptQuoteSetup.md), _
+   ByVal _setupParam_ As AcceptQuoteSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AcceptQuote( 
-   [AcceptQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptQuoteSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AcceptQuote( 
+   AcceptQuoteSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

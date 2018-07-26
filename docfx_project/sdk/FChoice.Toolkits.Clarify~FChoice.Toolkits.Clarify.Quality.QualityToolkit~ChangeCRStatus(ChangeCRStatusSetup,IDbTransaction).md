@@ -9,17 +9,20 @@ Change the status of a CR. This overload takes a setup object and a database tra
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeCRStatus( _
-   ByVal _setupParam_ As [ChangeCRStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup.md), _
+   ByVal _setupParam_ As ChangeCRStatusSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeCRStatus( 
-   [ChangeCRStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ChangeCRStatus( 
+   ChangeCRStatusSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

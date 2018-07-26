@@ -7,17 +7,20 @@ Initializes a new instance of the RejectSolutionSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _solutionIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public RejectSolutionSetup( 
    string _solutionIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _solutionIDNum_
 Solution Identifier.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

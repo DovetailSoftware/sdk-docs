@@ -7,15 +7,18 @@ Update an existing Action Item. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateActionItem( _
-   ByVal _setupParam_ As [UpdateActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateActionItemSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdateActionItemSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateActionItem( 
-   [UpdateActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateActionItemSetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdateActionItem( 
+   UpdateActionItemSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -37,8 +40,6 @@ Virtually all of the data is optional – only the Action Item ID is required. F
 To relate a contact to the action item, supply all three of the contact fields. Likewise, to associate a Lead to the Action Item supply both lead fields.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,23 +5,24 @@ Create a Solution. This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Function CreateSolution() As [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md)
+Public Overloads Function CreateSolution() As CreateSolutionResult
+```
 
-public [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md) CreateSolution()
+```csharp
+public CreateSolutionResult CreateSolution()
+```
 
 #### Return Value
 
-The following values are populated in the [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md) object returned by the API method:
+The following values are populated in the CreateSolutionResult object returned by the API method:
 
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~Objid.md) \- The Objid of the Solution.
-*   [WorkaroundObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~WorkaroundObjid.md) \- Objid of the Workaround that is created along with the Solution
-*   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult~IDNum.md) \- The IDNum of the Solution.
+*   Objid \- The Objid of the Solution.
+*   WorkaroundObjid \- Objid of the Workaround that is created along with the Solution
+*   IDNum \- The IDNum of the Solution.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

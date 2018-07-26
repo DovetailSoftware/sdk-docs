@@ -5,15 +5,16 @@ Gets the login type used when the session user was logged in
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shadows ReadOnly Property LoginType As [ClarifyLoginType](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md)
+Public Shadows ReadOnly Property LoginType As ClarifyLoginType
+```
 
-public new [ClarifyLoginType](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md) LoginType {get;}
+```csharp
+public new ClarifyLoginType LoginType {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,10 +5,14 @@ Used by the [ChangeOpportunityStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits
 Syntax
 
 ```vbnet
-' Declaration
-Public Class ChangeOpportunityStatusSetup 
+'Declaration
 
-public class ChangeOpportunityStatusSetup 
+Public Class ChangeOpportunityStatusSetup 
+```
+
+```csharp
+public class ChangeOpportunityStatusSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

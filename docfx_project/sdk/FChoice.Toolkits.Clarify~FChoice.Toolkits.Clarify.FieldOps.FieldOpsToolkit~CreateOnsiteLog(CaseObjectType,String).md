@@ -7,17 +7,21 @@ Specifies the Id Number of this Onsite Log's Case or Subcase.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateOnsiteLog( _
-   ByVal _objectType_ As [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CaseObjectType.md), _
+   ByVal _objectType_ As CaseObjectType, _
    ByVal _objectIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateOnsiteLog( 
-   [CaseObjectType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CaseObjectType.md) _objectType_,
+```csharp
+public ToolkitResult CreateOnsiteLog( 
+   CaseObjectType _objectType_,
    string _objectIDNum_
 )
+```
+```
 
 #### Parameters
 
@@ -31,13 +35,11 @@ Specifies the Id Number of this Onsite Log's Case or Subcase.
 
 #### Return Value
 
-The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) object returned by the API method:
+The following values are populated in the ToolkitResult object returned by the API method:
 
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Onsite Log record.
+*   Objid \- Objid of the Onsite Log record.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

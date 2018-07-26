@@ -5,10 +5,14 @@ Used by the [CreatePartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clar
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CreatePartRevisionSetup 
+'Declaration
 
-public class CreatePartRevisionSetup 
+Public Class CreatePartRevisionSetup 
+```
+
+```csharp
+public class CreatePartRevisionSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

@@ -5,16 +5,18 @@ Inventory location (or expense GL) and bin from which to transfer the part
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property FromLocation As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md)
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) FromLocation {get; set;}
+<PropertyBitValueAttribute()>
+Public Property FromLocation As Location
+```
+
+```csharp
+[PropertyBitValueAttribute()]
+public Location FromLocation {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

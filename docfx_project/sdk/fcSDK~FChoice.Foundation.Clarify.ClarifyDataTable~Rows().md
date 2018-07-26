@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shadows ReadOnly Property Rows As [ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md)
+Public Shadows ReadOnly Property Rows As ClarifyRowCollection
+```
 
-public new [ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md) Rows {get;}
+```csharp
+public new ClarifyRowCollection Rows {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

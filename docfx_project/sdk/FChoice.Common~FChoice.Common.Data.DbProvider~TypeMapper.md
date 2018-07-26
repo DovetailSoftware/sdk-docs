@@ -7,11 +7,11 @@ Syntax
 ```vbnet
 'Declaration
 
-Public MustOverride ReadOnly Property TypeMapper As [TypeMapper](FChoice.Common~FChoice.Common.Data.TypeMapper.md)
+Public MustOverride ReadOnly Property TypeMapper As TypeMapper
 ```
 
 ```csharp
-public abstract [TypeMapper](FChoice.Common~FChoice.Common.Data.TypeMapper.md) TypeMapper {get;}
+public abstract TypeMapper TypeMapper {get;}
 ```
 
 ### Remarks

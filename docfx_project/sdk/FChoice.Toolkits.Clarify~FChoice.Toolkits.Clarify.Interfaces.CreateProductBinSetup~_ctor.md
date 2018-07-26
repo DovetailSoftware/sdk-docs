@@ -9,19 +9,22 @@ Initializes a new instance of the CreateProductBinSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _binName_ As String, _
    ByVal _siteIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateProductBinSetup( 
    string _binName_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _siteIDNum_
 Identifier of the site where the bin is created
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

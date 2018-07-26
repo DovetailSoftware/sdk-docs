@@ -7,15 +7,18 @@ Captures all the summed times (such as phone log time, billable and non-billable
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetCaseTimeAndExpenses( _
    ByVal _caseIDNum_ As String _
-) As [GetCaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult.md)
+) As GetCaseTimeAndExpensesResult
+```
 
-public [GetCaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult.md) GetCaseTimeAndExpenses( 
+```csharp
+public GetCaseTimeAndExpensesResult GetCaseTimeAndExpenses( 
    string _caseIDNum_
 )
+```
 
 #### Parameters
 
@@ -25,17 +28,15 @@ Case Identifier.
 
 #### Return Value
 
-The following values are populated in the [GetCaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult.md) object returned by the API method:
+The following values are populated in the GetCaseTimeAndExpensesResult object returned by the API method:
 
-*   [CaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult~CaseTimeAndExpenses.md) \- Contains the sums and totals of time and expenses calculated before closing a Case.
+*   CaseTimeAndExpenses \- Contains the sums and totals of time and expenses calculated before closing a Case.
 
 Remarks
 
 There are a number of bugs with the default Clarify close Case summation on the form. There are not sufficient fields defined in the close_case record for the graphical fields they show. Hence, the data doesn't always make sense. For example, the total phone time captured should be the total of the phone time captured for the Case and for all general subcases. But the GUI form points that field to the total for the phone logs captured for the Case (not showing the Subcase). Hence, this API defines the data as captured from the real data.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

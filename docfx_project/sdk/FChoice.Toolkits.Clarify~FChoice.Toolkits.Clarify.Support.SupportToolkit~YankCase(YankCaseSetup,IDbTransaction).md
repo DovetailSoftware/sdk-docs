@@ -9,17 +9,20 @@ Yank the Case from its current location to a new owner's WipBin. This overload t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankCase( _
-   ByVal _setupParam_ As [YankCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup.md), _
+   ByVal _setupParam_ As YankCaseSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankCase( 
-   [YankCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup.md) _setupParam_,
+```csharp
+public ToolkitResult YankCase( 
+   YankCaseSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 

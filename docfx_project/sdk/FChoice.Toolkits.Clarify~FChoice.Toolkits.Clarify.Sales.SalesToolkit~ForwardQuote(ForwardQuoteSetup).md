@@ -7,15 +7,18 @@ Reject-forward the Quote from one queue to another. This overload takes a setup 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ForwardQuote( _
-   ByVal _setupParam_ As [ForwardQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardQuoteSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ForwardQuoteSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ForwardQuote( 
-   [ForwardQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardQuoteSetup.md) _setupParam_
+```csharp
+public ToolkitResult ForwardQuote( 
+   ForwardQuoteSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Quote must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

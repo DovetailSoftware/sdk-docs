@@ -7,15 +7,18 @@ Yank the Quote from its current location to a new owner's WipBin. This overload 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankQuote( _
-   ByVal _setupParam_ As [YankQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankQuoteSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ YankQuoteSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankQuote( 
-   [YankQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankQuoteSetup.md) _setupParam_
+```csharp
+public ToolkitResult YankQuote( 
+   YankQuoteSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The WipBin to place the Quote in may also be specified. This is augmented function from base Clarify, where the Quote is always placed in the default WipBin.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

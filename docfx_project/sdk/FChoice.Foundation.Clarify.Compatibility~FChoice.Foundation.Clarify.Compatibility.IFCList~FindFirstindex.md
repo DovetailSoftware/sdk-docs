@@ -1,27 +1,28 @@
-﻿### FindFirstindex Method (IFCList)
+### FindFirstindex Method (IFCList)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743819)>
 Function FindFirstindex( _
    ByVal _param1_ As Object _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743819)]
 short FindFirstindex( 
    object _param1_
 )
+```
 
 #### Parameters
 
 _param1_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

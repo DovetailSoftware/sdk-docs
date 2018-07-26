@@ -11,19 +11,22 @@ Adds a Site to an existing Account specifying the Site's role in the account. Th
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddSiteToAccount( _
    ByVal _siteIDNum_ As String, _
    ByVal _accountIDNum_ As String, _
    ByVal _roleName_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddSiteToAccount( 
+```csharp
+public ToolkitResult AddSiteToAccount( 
    string _siteIDNum_,
    string _accountIDNum_,
    string _roleName_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Site Role that is created to link the Site to the Account.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Initializes a new instance of the UpdateDialogueSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _idNumber_ As String _
 )
+```
 
+```csharp
 public UpdateDialogueSetup( 
    string _idNumber_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _idNumber_
 The ID Number of the dialogue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateContactByObjid( _
-   ByVal _setupParam_ As [UpdateContactByObjidSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdateContactByObjidSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateContactByObjid( 
-   [UpdateContactByObjidSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdateContactByObjid( 
+   UpdateContactByObjidSetup _setupParam_
 )
+```
 
 #### Parameters
 
 _setupParam_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

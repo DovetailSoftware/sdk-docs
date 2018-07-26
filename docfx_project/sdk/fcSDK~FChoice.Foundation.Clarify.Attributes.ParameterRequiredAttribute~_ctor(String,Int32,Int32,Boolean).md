@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _method_ As String, _
@@ -11,13 +11,16 @@ Public Function New( _
    ByVal _positionIndex_ As Integer, _
    ByVal _isParamArray_ As Boolean _
 )
+```
 
+```csharp
 public ParameterRequiredAttribute( 
    string _method_,
    int _constructorIndex_,
    int _positionIndex_,
    bool _isParamArray_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _positionIndex_
 _isParamArray_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

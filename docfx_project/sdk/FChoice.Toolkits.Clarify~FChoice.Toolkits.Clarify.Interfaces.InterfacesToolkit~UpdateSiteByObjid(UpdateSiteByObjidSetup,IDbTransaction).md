@@ -9,17 +9,20 @@ Update Site identified by Objid. This overload takes a setup object and a databa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateSiteByObjid( _
-   ByVal _setupParam_ As [UpdateSiteByObjidSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup.md), _
+   ByVal _setupParam_ As UpdateSiteByObjidSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateSiteByObjid( 
-   [UpdateSiteByObjidSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup.md) _setupParam_,
+```csharp
+public ToolkitResult UpdateSiteByObjid( 
+   UpdateSiteByObjidSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

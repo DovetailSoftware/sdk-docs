@@ -13,23 +13,26 @@ Initializes a new instance of the ReceivePartRequestSetup class. This overload t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _serialNumber_ As String, _
-   ByVal _toLocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
+   ByVal _toLocation_ As Location, _
    ByVal _useTransitions_ As Boolean _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public ReceivePartRequestSetup( 
    string _partRequestDetailIDNum_,
    string _serialNumber_,
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _toLocation_,
+   Location _toLocation_,
    bool _useTransitions_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ _useTransitions_
 Specifies whether or not to change the Part Request condition
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

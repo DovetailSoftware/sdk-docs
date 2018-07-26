@@ -9,17 +9,20 @@ Used to add expense and capital GL accounts to Clarify. This overload takes a se
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddGLAccount( _
-   ByVal _setupParam_ As [AddGLAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup.md), _
+   ByVal _setupParam_ As AddGLAccountSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddGLAccount( 
-   [AddGLAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AddGLAccount( 
+   AddGLAccountSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

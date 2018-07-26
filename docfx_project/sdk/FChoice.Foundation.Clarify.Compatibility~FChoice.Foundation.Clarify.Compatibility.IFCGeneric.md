@@ -5,16 +5,16 @@ Syntax
 ```vbnet
 'Declaration
 
-<[ComVisibleAttribute](#)(True)>
+<ComVisibleAttribute(True)>
 <DefaultMemberAttribute("Item")>
-<[GuidAttribute](#)("545582EE-2D64-4869-AC88-7D1B5031A960")>
+<GuidAttribute("545582EE-2D64-4869-AC88-7D1B5031A960")>
 Public Interface IFCGeneric 
 ```
 
 ```csharp
-\[[ComVisibleAttribute](#)(true)\]
+[ComVisibleAttribute(true)]
 [DefaultMemberAttribute("Item")]
-\[[GuidAttribute](#)("545582EE-2D64-4869-AC88-7D1B5031A960")\]
+[GuidAttribute("545582EE-2D64-4869-AC88-7D1B5031A960")]
 public interface IFCGeneric 
 ```
 
@@ -25,8 +25,6 @@ public interface IFCGeneric
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
-
-
 
 #### Reference
 

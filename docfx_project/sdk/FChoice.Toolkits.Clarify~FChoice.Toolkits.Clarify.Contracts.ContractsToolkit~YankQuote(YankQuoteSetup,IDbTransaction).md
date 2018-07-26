@@ -9,17 +9,20 @@ Yank the Quote from its current location to a new owner's WipBin. This overload 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankQuote( _
-   ByVal _setupParam_ As [YankQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.YankQuoteSetup.md), _
+   ByVal _setupParam_ As YankQuoteSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankQuote( 
-   [YankQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.YankQuoteSetup.md) _setupParam_,
+```csharp
+public ToolkitResult YankQuote( 
+   YankQuoteSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

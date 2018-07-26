@@ -9,17 +9,20 @@ Used to relate (or unrelate) a Site Part from a contract line item. This overl
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RelateContractItemToSitePart( _
-   ByVal _setupParam_ As [RelateContractItemToSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup.md), _
+   ByVal _setupParam_ As RelateContractItemToSitePartSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RelateContractItemToSitePart( 
-   [RelateContractItemToSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup.md) _setupParam_,
+```csharp
+public ToolkitResult RelateContractItemToSitePart( 
+   RelateContractItemToSitePartSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

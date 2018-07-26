@@ -5,10 +5,14 @@ Used by the [LogCaseResearch](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify
 Syntax
 
 ```vbnet
-' Declaration
-Public Class LogCaseResearchSetup 
+'Declaration
 
-public class LogCaseResearchSetup 
+Public Class LogCaseResearchSetup 
+```
+
+```csharp
+public class LogCaseResearchSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

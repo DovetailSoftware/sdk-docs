@@ -9,19 +9,22 @@ Initializes a new instance of the ChangeCaseSiteSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _caseIDNum_ As String, _
    ByVal _siteIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public ChangeCaseSiteSetup( 
    string _caseIDNum_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _siteIDNum_
 Site Identifier.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

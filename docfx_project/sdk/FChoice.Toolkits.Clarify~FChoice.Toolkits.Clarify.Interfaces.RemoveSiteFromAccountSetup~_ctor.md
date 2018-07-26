@@ -11,7 +11,7 @@ Initializes a new instance of the RemoveSiteFromAccountSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _accountIDNum_ As String, _
    ByVal _roleName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public RemoveSiteFromAccountSetup( 
    string _siteIDNum_,
    string _accountIDNum_,
    string _roleName_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _roleName_
 Name of the Site's role being removed from the Account
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

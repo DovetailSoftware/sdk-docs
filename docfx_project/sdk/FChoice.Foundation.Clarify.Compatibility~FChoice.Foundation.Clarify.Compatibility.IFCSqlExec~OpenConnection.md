@@ -3,7 +3,8 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743813)>
 Sub OpenConnection( _
    ByVal _TheDB_ As String, _
@@ -12,7 +13,9 @@ Sub OpenConnection( _
    ByVal _DBServer_ As String, _
    ByVal _DBName_ As String _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743813)]
 void OpenConnection( 
    string _TheDB_,
@@ -21,6 +24,7 @@ void OpenConnection(
    string _DBServer_,
    string _DBName_
 )
+```
 
 #### Parameters
 
@@ -35,8 +39,6 @@ _DBServer_
 _DBName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,10 +5,14 @@ Returns the session's unique identifier.
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property SessionID As Guid
+'Declaration
 
+Public ReadOnly Property SessionID As Guid
+```
+
+```csharp
 public Guid SessionID {get;}
+```
 
 #### Property Value
 
@@ -19,8 +23,6 @@ Remarks
 Based on [FCSession.SessionID](fcSDK~FChoice.Foundation.FCSession~SessionID.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

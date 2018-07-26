@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743812)>
 Sub ExecuteReturnRows( _
    ByVal _sqlStatement_ As String _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743812)]
 void ExecuteReturnRows( 
    string _sqlStatement_
 )
+```
 
 #### Parameters
 
 _sqlStatement_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

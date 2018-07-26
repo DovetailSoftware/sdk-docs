@@ -5,24 +5,24 @@ Syntax
 ```vbnet
 'Declaration
 
-<[GuidAttribute](#)("2888C9FF-F557-4CEA-BDDF-08DF16715D6E")>
-<[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)>
-<[ComVisibleAttribute](#)(True)>
+<GuidAttribute("2888C9FF-F557-4CEA-BDDF-08DF16715D6E")>
+<IDispatchImplAttribute(IDispatchImplType.CompatibleImpl)>
+<ComVisibleAttribute(True)>
 <DefaultMemberAttribute("Item")>
-<[ClassInterfaceAttribute](#)(ClassInterfaceType.None)>
-<[ProgIdAttribute](#)("FCFLCompat.FCGeneric")>
+<ClassInterfaceAttribute(ClassInterfaceType.None)>
+<ProgIdAttribute("FCFLCompat.FCGeneric")>
 Public NotInheritable Class FCGeneric 
-   Implements [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) 
+   Implements IFCGeneric 
 ```
 
 ```csharp
-\[[GuidAttribute](#)("2888C9FF-F557-4CEA-BDDF-08DF16715D6E")\]
-\[[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)\]
-\[[ComVisibleAttribute](#)(true)\]
+[GuidAttribute("2888C9FF-F557-4CEA-BDDF-08DF16715D6E")]
+[IDispatchImplAttribute(IDispatchImplType.CompatibleImpl)]
+[ComVisibleAttribute(true)]
 [DefaultMemberAttribute("Item")]
-\[[ClassInterfaceAttribute](#)(ClassInterfaceType.None)\]
-\[[ProgIdAttribute](#)("FCFLCompat.FCGeneric")\]
-public sealed class FCGeneric : [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md)  
+[ClassInterfaceAttribute(ClassInterfaceType.None)]
+[ProgIdAttribute("FCFLCompat.FCGeneric")]
+public sealed class FCGeneric : IFCGeneric  
 ```
 
 Inheritance Hierarchy
@@ -37,8 +37,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
-
-
 
 #### Reference
 

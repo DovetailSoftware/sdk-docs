@@ -10,9 +10,11 @@ Syntax
 Public Shared Function GetProductLicenseError( _
    ByVal _errorId_ As Integer, _
    ByVal _productId_ As Integer _
-) As [FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseException.md)
+) As FCLicenseException
+```
 
-public static [FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseException.md) GetProductLicenseError( 
+```csharp
+public static FCLicenseException GetProductLicenseError( 
    int _errorId_,
    int _productId_
 )

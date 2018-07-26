@@ -15,25 +15,28 @@ Initializes a new instance of the CreateEcoItemSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _appliesTo_ As [EcoItemAppliesTo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.EcoItemAppliesTo.md), _
+   ByVal _appliesTo_ As EcoItemAppliesTo, _
    ByVal _isActive_ As Boolean, _
    ByVal _ecoHeaderIDNum_ As String, _
    ByVal _applyPartRevisionObjid_ As Integer, _
    ByVal _resultPartRevisionObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateEcoItemSetup( 
-   [EcoItemAppliesTo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.EcoItemAppliesTo.md) _appliesTo_,
+   EcoItemAppliesTo _appliesTo_,
    bool _isActive_,
    string _ecoHeaderIDNum_,
    int _applyPartRevisionObjid_,
    int _resultPartRevisionObjid_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ _resultPartRevisionObjid_
 The objid of resulting part revision after applying the ECO, or 0 for no change.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

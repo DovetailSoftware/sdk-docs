@@ -5,10 +5,14 @@ Used by the [ChangeCaseContact](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clari
 Syntax
 
 ```vbnet
-' Declaration
-Public Class ChangeCaseContactSetup 
+'Declaration
 
-public class ChangeCaseContactSetup 
+Public Class ChangeCaseContactSetup 
+```
+
+```csharp
+public class ChangeCaseContactSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

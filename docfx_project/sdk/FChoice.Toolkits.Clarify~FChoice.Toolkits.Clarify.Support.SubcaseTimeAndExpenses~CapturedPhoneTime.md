@@ -5,15 +5,16 @@ Captured phone time.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property CapturedPhoneTime As TimeSpan
+```
 
+```csharp
 public TimeSpan CapturedPhoneTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

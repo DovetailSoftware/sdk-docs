@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
-<DefaultMemberAttribute("Item")>
-<[GuidAttribute](#)("772CB7F1-F6D6-4783-9390-979DE87386C9")>
-<[ComVisibleAttribute](#)(True)>
-Public Interface IFCSession 
+'Declaration
 
+<DefaultMemberAttribute("Item")>
+<GuidAttribute("772CB7F1-F6D6-4783-9390-979DE87386C9")>
+<ComVisibleAttribute(True)>
+Public Interface IFCSession 
+```
+
+```csharp
 [DefaultMemberAttribute("Item")]
-\[[GuidAttribute](#)("772CB7F1-F6D6-4783-9390-979DE87386C9")\]
-\[[ComVisibleAttribute](#)(true)\]
+[GuidAttribute("772CB7F1-F6D6-4783-9390-979DE87386C9")]
+[ComVisibleAttribute(true)]
 public interface IFCSession 
+```
 
 #### Requirements
 
@@ -21,8 +25,6 @@ public interface IFCSession
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
-
-
 
 #### Reference
 

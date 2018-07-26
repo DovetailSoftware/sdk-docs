@@ -5,10 +5,14 @@ Initializes a new instance of the CreateDialogueSetup class.
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CreateDialogueSetup 
+'Declaration
 
-public class CreateDialogueSetup 
+Public Class CreateDialogueSetup 
+```
+
+```csharp
+public class CreateDialogueSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

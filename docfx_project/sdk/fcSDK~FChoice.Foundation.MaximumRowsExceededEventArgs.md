@@ -5,11 +5,14 @@ Delegates handling the [MaximumRowsExceeded](fcSDK~FChoice.Foundation.FCGeneric~
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class MaximumRowsExceededEventArgs 
+```
 
-public class MaximumRowsExceededEventArgs 
+```csharp
+public class MaximumRowsExceededEventArgs
+```
 
 Inheritance Hierarchy
 
@@ -23,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

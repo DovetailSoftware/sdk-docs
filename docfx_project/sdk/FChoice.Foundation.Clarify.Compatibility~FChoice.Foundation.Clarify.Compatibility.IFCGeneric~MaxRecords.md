@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610744064)>
 Property MaxRecords As Integer
+```
 
+```csharp
 [DispIdAttribute(1610744064)]
 int MaxRecords {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

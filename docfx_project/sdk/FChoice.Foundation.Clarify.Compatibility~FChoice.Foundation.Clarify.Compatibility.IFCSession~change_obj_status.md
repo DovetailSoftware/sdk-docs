@@ -1,9 +1,9 @@
-﻿### change_obj_status Method (IFCSession)
+### change_obj_status Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743892)>
 Function change_obj_status( _
@@ -15,7 +15,9 @@ Function change_obj_status( _
    ByVal _generateTimeBombs_ As Boolean, _
    ByVal _objectType_ As String _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743892)]
 short change_obj_status( 
    string _objId_,
@@ -26,6 +28,7 @@ short change_obj_status(
    bool _generateTimeBombs_,
    string _objectType_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ _generateTimeBombs_
 _objectType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

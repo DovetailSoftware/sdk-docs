@@ -9,17 +9,20 @@ Adds a site to an existing Contract. This overload takes a set of required param
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddSiteToContract( _
    ByVal _contractIDNum_ As String, _
    ByVal _siteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddSiteToContract( 
+```csharp
+public ToolkitResult AddSiteToContract( 
    string _contractIDNum_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ Identifier of the Site to add to the Contract.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743840)>
 Function GetGbstDefault( _
    ByVal _ListName_ As String _
 ) As String
+```
 
+```csharp
 [DispIdAttribute(1610743840)]
 string GetGbstDefault( 
    string _ListName_
 )
+```
 
 #### Parameters
 
 _ListName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _propertyName_ As String, _
@@ -11,13 +11,16 @@ Public Function New( _
    ByVal _defaultValue_ As String, _
    ByVal _setupExpression_ As String _
 )
+```
 
+```csharp
 public FacadePropertyAttribute( 
    string _propertyName_,
    string _propertyType_,
    string _defaultValue_,
    string _setupExpression_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _defaultValue_
 _setupExpression_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

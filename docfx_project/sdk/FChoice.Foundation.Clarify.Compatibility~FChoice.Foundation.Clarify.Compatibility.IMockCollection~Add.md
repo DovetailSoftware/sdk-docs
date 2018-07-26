@@ -3,7 +3,8 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1)>
 Sub Add( _
    ByRef _Item_ As Object, _
@@ -11,7 +12,9 @@ Sub Add( _
    Optional ByRef _Before_ As Object, _
    Optional ByRef _After_ As Object _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1)]
 void Add( 
    ref object _Item_,
@@ -19,6 +22,7 @@ void Add(
    ref object _Before_,
    ref object _After_
 )
+```
 
 #### Parameters
 
@@ -31,8 +35,6 @@ _Before_
 _After_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

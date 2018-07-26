@@ -5,10 +5,14 @@ Used by the [UnlinkCaseFromWorkaround](FChoice.Toolkits.Clarify~FChoice.Toolkit
 Syntax
 
 ```vbnet
-' Declaration
-Public Class UnlinkCaseFromWorkaroundSetup 
+'Declaration
 
-public class UnlinkCaseFromWorkaroundSetup 
+Public Class UnlinkCaseFromWorkaroundSetup 
+```
+
+```csharp
+public class UnlinkCaseFromWorkaroundSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

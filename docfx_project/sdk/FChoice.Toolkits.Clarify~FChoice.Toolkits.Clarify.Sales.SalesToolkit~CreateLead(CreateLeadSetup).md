@@ -7,15 +7,18 @@ Used to create a new Lead. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateLead( _
-   ByVal _setupParam_ As [CreateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateLeadSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateLead( 
-   [CreateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateLead( 
+   CreateLeadSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ For almost all of the data, it can be specified, or not.
 The user who created the lead, and the date/time of the create can be specified. The API can also generate a time bomb (for business rules). Finally, additional fields may be set.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

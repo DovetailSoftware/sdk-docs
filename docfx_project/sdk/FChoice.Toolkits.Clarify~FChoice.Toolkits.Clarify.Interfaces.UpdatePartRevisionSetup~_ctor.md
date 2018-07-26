@@ -11,7 +11,7 @@ Initializes a new instance of the UpdatePartRevisionSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _partDomain_ As String, _
    ByVal _partRevision_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdatePartRevisionSetup( 
    string _partNumber_,
    string _partDomain_,
    string _partRevision_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _partRevision_
 Revision to create
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

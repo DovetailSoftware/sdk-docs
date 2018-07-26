@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function Exists( _
-   ByVal _match_ As [Predicate(Of IHierarchicalStringList)](#) _
+   ByVal _match_ As Predicate(Of IHierarchicalStringList) _
 ) As Boolean
+```
 
+```csharp
 bool Exists( 
-   [Predicate<IHierarchicalStringList>](#) _match_
+   Predicate<IHierarchicalStringList> _match_
 )
+```
 
 #### Parameters
 
 _match_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

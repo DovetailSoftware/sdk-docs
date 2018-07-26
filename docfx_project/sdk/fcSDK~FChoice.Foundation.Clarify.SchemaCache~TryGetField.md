@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function TryGetField( _
    ByVal _objectName_ As String, _
    ByVal _fieldName_ As String _
-) As [SchemaFieldBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md)
+) As SchemaFieldBase
+```
 
-public [SchemaFieldBase](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.md) TryGetField( 
+```csharp
+public SchemaFieldBase TryGetField( 
    string _objectName_,
    string _fieldName_
 )
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _objectName_
 _fieldName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

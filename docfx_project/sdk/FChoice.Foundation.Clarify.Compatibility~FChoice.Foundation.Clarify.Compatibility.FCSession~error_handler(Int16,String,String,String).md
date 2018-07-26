@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function error_handler( _
    ByVal _error_num_ As Short, _
@@ -11,13 +11,16 @@ Public Overloads Function error_handler( _
    ByVal _source_ As String, _
    ByVal _message_ As String _
 ) As Short
+```
 
+```csharp
 public short error_handler( 
    short _error_num_,
    string _objId_,
    string _source_,
    string _message_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _source_
 _message_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

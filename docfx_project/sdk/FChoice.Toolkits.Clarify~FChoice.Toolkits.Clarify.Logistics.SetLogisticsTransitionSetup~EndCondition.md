@@ -5,16 +5,18 @@ Ending condition of the Part Request for this transition
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property EndCondition As [PartRequestCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestCondition.md)
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [PartRequestCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestCondition.md) EndCondition {get; set;}
+<PropertyBitValueAttribute()>
+Public Property EndCondition As PartRequestCondition
+```
+
+```csharp
+[PropertyBitValueAttribute()]
+public PartRequestCondition EndCondition {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

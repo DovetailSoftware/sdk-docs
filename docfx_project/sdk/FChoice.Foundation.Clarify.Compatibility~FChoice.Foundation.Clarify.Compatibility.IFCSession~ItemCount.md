@@ -1,21 +1,24 @@
-﻿### ItemCount Method (IFCSession)
+### ItemCount Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743889)>
 Function ItemCount( _
    ByVal _path_ As String, _
    ByVal _separator_ As String _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743889)]
 short ItemCount( 
    string _path_,
    string _separator_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _path_
 _separator_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -18,12 +18,15 @@ Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _quantity_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public FulfillPartRequestSetup( 
    string _partRequestDetailIDNum_,
    int _quantity_
 )
+```
 ```
 
 #### Parameters

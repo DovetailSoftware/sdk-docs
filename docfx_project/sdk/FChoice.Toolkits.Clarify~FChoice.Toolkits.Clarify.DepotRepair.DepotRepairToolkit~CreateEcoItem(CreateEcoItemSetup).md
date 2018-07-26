@@ -7,15 +7,18 @@ Create an Engineering Change Order (ECO) Item. This overload takes a setup objec
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateEcoItem( _
-   ByVal _setupParam_ As [CreateEcoItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoItemSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateEcoItemSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateEcoItem( 
-   [CreateEcoItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoItemSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateEcoItem( 
+   CreateEcoItemSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The objid of the ECO item created is returned in the object property ret_objid.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

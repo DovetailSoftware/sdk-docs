@@ -11,19 +11,22 @@ Used to create a new Opportunity. This overload takes a set of required paramete
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateOpportunity( _
    ByVal _opportunityName_ As String, _
    ByVal _salesStage_ As String, _
    ByVal _probability_ As [Single](#) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateOpportunity( 
+```csharp
+public ToolkitResult CreateOpportunity( 
    string _opportunityName_,
    string _salesStage_,
    [float](#) _probability_
 )
+```
 
 #### Parameters
 
@@ -48,8 +51,6 @@ Remarks
 The opportunity name must be specified. All other data is optional. The account, contact, territory, stage, source, currency, and process may be specified. Also, an amount and a probability may be specified. The API can generate a time bomb for business rules, or not.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

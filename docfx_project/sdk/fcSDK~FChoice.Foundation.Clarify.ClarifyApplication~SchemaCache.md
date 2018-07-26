@@ -5,11 +5,14 @@ Gets a reference to the [SchemaCache](fcSDK~FChoice.Foundation.Clarify.SchemaCa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property SchemaCache As [SchemaCache](fcSDK~FChoice.Foundation.Clarify.SchemaCache.md)
+Public ReadOnly Property SchemaCache As SchemaCache
+```
 
-public [SchemaCache](fcSDK~FChoice.Foundation.Clarify.SchemaCache.md) SchemaCache {get;}
+```csharp
+public SchemaCache SchemaCache {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 See the documentation for [SchemaCache](fcSDK~FChoice.Foundation.Clarify.SchemaCache.md) for more information on how to access and work with Clarify ADP schema information in FCFL.NET.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

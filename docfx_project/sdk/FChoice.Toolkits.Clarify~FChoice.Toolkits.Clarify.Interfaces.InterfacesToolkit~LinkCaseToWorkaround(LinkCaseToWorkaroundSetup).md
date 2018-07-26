@@ -7,15 +7,18 @@ Link a Case to a Workaround. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LinkCaseToWorkaround( _
-   ByVal _setupParam_ As [LinkCaseToWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ LinkCaseToWorkaroundSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LinkCaseToWorkaround( 
-   [LinkCaseToWorkaroundSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup.md) _setupParam_
+```csharp
+public ToolkitResult LinkCaseToWorkaround( 
+   LinkCaseToWorkaroundSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Case.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function IsCountry( _
    ByVal _countryName_ As String _
@@ -12,14 +12,13 @@ Function IsCountry( _
 bool IsCountry( 
    string _countryName_
 )
+```
 
 #### Parameters
 
 _countryName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

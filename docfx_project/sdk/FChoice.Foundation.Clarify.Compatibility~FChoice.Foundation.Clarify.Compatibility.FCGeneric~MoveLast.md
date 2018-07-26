@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub MoveLast() 
 ```
@@ -13,8 +13,6 @@ public void MoveLast()
 ```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

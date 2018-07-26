@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-ReadOnly Property FieldValues As [Object()](#)
+ReadOnly Property FieldValues As Object()
+```
 
-[object\[\]](#) FieldValues {get;}
+```csharp
+object[] FieldValues {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

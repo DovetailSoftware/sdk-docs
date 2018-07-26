@@ -9,17 +9,20 @@ Updates an existing Subcase. This overload takes a setup object and a database t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateSubcase( _
-   ByVal _setupParam_ As [UpdateSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseSetup.md), _
+   ByVal _setupParam_ As UpdateSubcaseSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateSubcase( 
-   [UpdateSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseSetup.md) _setupParam_,
+```csharp
+public ToolkitResult UpdateSubcase( 
+   UpdateSubcaseSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

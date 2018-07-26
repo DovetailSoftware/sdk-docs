@@ -9,17 +9,20 @@ Move the Case from one WipBin to another WipBin. This overload takes a setup obj
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function MoveCase( _
-   ByVal _setupParam_ As [MoveCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.MoveCaseSetup.md), _
+   ByVal _setupParam_ As MoveCaseSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) MoveCase( 
-   [MoveCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.MoveCaseSetup.md) _setupParam_,
+```csharp
+public ToolkitResult MoveCase( 
+   MoveCaseSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

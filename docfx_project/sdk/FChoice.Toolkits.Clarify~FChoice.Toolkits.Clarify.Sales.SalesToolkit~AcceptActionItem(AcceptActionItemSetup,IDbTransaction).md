@@ -9,17 +9,20 @@ Accept the specified ActionItem from the queue in which it is currently dispatch
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AcceptActionItem( _
-   ByVal _setupParam_ As [AcceptActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup.md), _
+   ByVal _setupParam_ As AcceptActionItemSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AcceptActionItem( 
-   [AcceptActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AcceptActionItem( 
+   AcceptActionItemSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

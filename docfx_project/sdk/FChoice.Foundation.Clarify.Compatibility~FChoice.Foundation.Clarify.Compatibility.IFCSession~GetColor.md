@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743911)>
 Function GetColor( _
    ByVal _purpose_ As String _
 ) As String
+```
 
+```csharp
 [DispIdAttribute(1610743911)]
 string GetColor( 
    string _purpose_
 )
+```
 
 #### Parameters
 
 _purpose_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

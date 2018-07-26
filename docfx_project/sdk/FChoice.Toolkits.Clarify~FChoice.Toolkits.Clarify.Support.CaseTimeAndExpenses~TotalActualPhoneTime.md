@@ -5,15 +5,16 @@ Actual phone time (closed subcase only)
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property TotalActualPhoneTime As TimeSpan
+```
 
+```csharp
 public TimeSpan TotalActualPhoneTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property DaylightSavingsPeriods As [DaylightSavingsCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection.md)
+Public ReadOnly Property DaylightSavingsPeriods As DaylightSavingsCollection
+```
 
-public [DaylightSavingsCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection.md) DaylightSavingsPeriods {get;}
+```csharp
+public DaylightSavingsCollection DaylightSavingsPeriods {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

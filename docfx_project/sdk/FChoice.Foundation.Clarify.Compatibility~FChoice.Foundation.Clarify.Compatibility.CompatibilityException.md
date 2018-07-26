@@ -4,6 +4,7 @@ Syntax
 
 ```vbnet
 'Declaration
+
 <ComVisibleAttribute(False)>
 <GuidAttribute("4EC21DC6-3E55-3633-B289-FCC59D5AF61C")>
 <SerializableAttribute()>
@@ -21,7 +22,7 @@ public class CompatibilityException : FChoice.Common.FCExceptionBase
 Inheritance Hierarchy
 
 System.Object  
-   [System.Exception](#)  
+   System.Exception  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             **FChoice.Foundation.Clarify.Compatibility.CompatibilityException**  

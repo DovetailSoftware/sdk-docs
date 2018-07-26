@@ -3,11 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Interface IListCache 
+```
 
+```csharp
 public interface IListCache 
+```
 
 #### Requirements
 
@@ -16,8 +19,6 @@ public interface IListCache
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

@@ -5,15 +5,16 @@ Total research time (closed Subcase and research logs for the Case)
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property TotalResearchTime As TimeSpan
+```
 
+```csharp
 public TimeSpan TotalResearchTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

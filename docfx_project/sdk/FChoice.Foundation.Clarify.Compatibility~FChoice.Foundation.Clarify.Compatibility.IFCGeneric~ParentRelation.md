@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743845)>
 Property ParentRelation As String
+```
 
+```csharp
 [DispIdAttribute(1610743845)]
 string ParentRelation {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

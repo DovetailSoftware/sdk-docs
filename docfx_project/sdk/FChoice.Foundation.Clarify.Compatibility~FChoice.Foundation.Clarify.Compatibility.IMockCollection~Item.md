@@ -1,26 +1,28 @@
-﻿### Item Method (IMockCollection)
+### Item Method (IMockCollection)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(0)>
 Function Item( _
    ByRef _Index_ As Object _
 ) As Object
+```
 
+```csharp
 [DispIdAttribute(0)]
 object Item( 
    ref object _Index_
 )
+```
 
 #### Parameters
 
 _Index_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

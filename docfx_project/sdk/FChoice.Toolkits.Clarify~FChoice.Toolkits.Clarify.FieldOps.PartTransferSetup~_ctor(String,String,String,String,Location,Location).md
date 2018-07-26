@@ -17,7 +17,7 @@ Initializes a new instance of the PartTransferSetup class. This overload takes a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -25,19 +25,22 @@ Public Function New( _
    ByVal _partRevision_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _serialNumber_ As String, _
-   ByVal _fromlocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
-   ByVal _tolocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _
+   ByVal _fromlocation_ As Location, _
+   ByVal _tolocation_ As Location _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public PartTransferSetup( 
    string _partNumber_,
    string _partRevision_,
    string _partDomain_,
    string _serialNumber_,
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _fromlocation_,
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _tolocation_
+   Location _fromlocation_,
+   Location _tolocation_
 )
+```
 
 #### Parameters
 
@@ -66,8 +69,6 @@ _tolocation_
 Inventory location and bin (or GL account) into which the part is being transferred
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

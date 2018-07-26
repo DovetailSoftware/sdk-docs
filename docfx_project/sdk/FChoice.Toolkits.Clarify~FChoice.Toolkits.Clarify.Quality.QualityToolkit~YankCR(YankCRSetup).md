@@ -7,15 +7,18 @@ Yank the CR from its current location to a new owner's WipBin. This overload tak
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankCR( _
-   ByVal _setupParam_ As [YankCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.YankCRSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ YankCRSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankCR( 
-   [YankCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.YankCRSetup.md) _setupParam_
+```csharp
+public ToolkitResult YankCR( 
+   YankCRSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The WipBin to place the CR in may also be specified. This is augmented function from base Clarify, where the CR is always placed in the default WipBin.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function ReconstructConnectString( _
    ByVal _inUsername_ As String, _

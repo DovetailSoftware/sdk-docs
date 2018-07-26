@@ -7,17 +7,20 @@ Initializes a new instance of the UpdateSiteSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _siteIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateSiteSetup( 
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _siteIDNum_
 Identifier for the site being updated.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -4,22 +4,25 @@ The user or login name of the user
 
 The type of login to perform using the specified **_userName_**.
 
-Creates a new [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) and performs a passwordless login for the specified user and [ClarifyLoginType](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md).
+Creates a new ClarifySession and performs a passwordless login for the specified user and [ClarifyLoginType](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md).
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Overridable Function CreateSession( _
    ByVal _userName_ As String, _
-   ByVal _loginType_ As [ClarifyLoginType](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md) _
-) As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
+   ByVal _loginType_ As ClarifyLoginType _
+) As ClarifySession
+```
 
-public virtual [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) CreateSession( 
+```csharp
+public virtual ClarifySession CreateSession( 
    string _userName_,
-   [ClarifyLoginType](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md) _loginType_
+   ClarifyLoginType _loginType_
 )
+```
 
 #### Parameters
 
@@ -33,7 +36,7 @@ The type of login to perform using the specified **_userName_**.
 
 #### Return Value
 
-A [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) logged in using the specified **_userName_**.
+A ClarifySession logged in using the specified **_userName_**.
 
 Remarks
 
@@ -46,8 +49,6 @@ This method will log in the session using the given username and no password.
 The general use case for this method is if you're using your Clarify system to support another application that already provides authentication and authorization services. It is assumed that you have properly validated that the current user is authorized to log in and does not need to go through the Clarify authentication process and incur a performance delay.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

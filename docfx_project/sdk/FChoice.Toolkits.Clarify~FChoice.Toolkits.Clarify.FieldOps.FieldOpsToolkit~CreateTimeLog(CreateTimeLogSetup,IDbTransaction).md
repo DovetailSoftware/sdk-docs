@@ -9,17 +9,20 @@ Used to create a time log that is related to an onsite log. This overload takes
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateTimeLog( _
-   ByVal _setupParam_ As [CreateTimeLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup.md), _
+   ByVal _setupParam_ As CreateTimeLogSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [CreateTimeLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.md)
+) As CreateTimeLogResult
+```
 
-public [CreateTimeLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.md) CreateTimeLog( 
-   [CreateTimeLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup.md) _setupParam_,
+```csharp
+public CreateTimeLogResult CreateTimeLog( 
+   CreateTimeLogSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -33,7 +36,7 @@ Database transaction under which the API will be invoked.
 
 #### Return Value
 
-A [CreateTimeLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A CreateTimeLogResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Remarks
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

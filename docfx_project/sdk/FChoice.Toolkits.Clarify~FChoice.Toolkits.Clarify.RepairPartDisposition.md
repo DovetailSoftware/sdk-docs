@@ -5,11 +5,15 @@ What to do with the repair part when the repair is completed.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Enum RepairPartDisposition 
    Inherits System.Enum
+```
 
+```csharp
 public enum RepairPartDisposition : System.Enum 
+```
 
 Members
 
@@ -33,8 +37,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

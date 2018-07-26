@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function RelatedRows( _
-   ByVal _otherGen_ As [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) _
-) As [ClarifyDataRow()](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)
+   ByVal _otherGen_ As ClarifyGeneric _
+) As ClarifyDataRow()
+```
 
-public [ClarifyDataRow\[\]](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) RelatedRows( 
-   [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) _otherGen_
+```csharp
+public ClarifyDataRow[] RelatedRows( 
+   ClarifyGeneric _otherGen_
 )
+```
 
 #### Parameters
 
 _otherGen_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

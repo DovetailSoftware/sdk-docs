@@ -5,21 +5,22 @@ The new status for the Case.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property NewStatus As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string NewStatus {get; set;}
+```
 
-Remarks
+#### Remarks
 
 The new status must be valid for the current condition of the Subcase.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

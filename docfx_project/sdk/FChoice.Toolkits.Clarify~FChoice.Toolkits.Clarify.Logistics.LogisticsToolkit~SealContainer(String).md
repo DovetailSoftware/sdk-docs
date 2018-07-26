@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function SealContainer( _
    ByVal _containerName_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) SealContainer( 
+```csharp
+public ToolkitResult SealContainer( 
    string _containerName_
 )
+```
 
 #### Parameters
 
 _containerName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

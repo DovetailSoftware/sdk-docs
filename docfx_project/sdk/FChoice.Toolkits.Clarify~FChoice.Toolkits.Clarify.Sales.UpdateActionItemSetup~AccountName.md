@@ -5,21 +5,22 @@ Name of the account to relate to the action item.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property AccountName As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string AccountName {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If the property is set to an empty string the relation to the current Account will be removed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

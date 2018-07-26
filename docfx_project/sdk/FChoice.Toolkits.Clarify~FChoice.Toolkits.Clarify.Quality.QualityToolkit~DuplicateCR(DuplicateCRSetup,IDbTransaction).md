@@ -9,17 +9,20 @@ Mark a CR as duplicate of another 'master' CR. This overload takes a setup objec
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DuplicateCR( _
-   ByVal _setupParam_ As [DuplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup.md), _
+   ByVal _setupParam_ As DuplicateCRSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DuplicateCR( 
-   [DuplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup.md) _setupParam_,
+```csharp
+public ToolkitResult DuplicateCR( 
+   DuplicateCRSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

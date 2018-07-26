@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shadows ReadOnly Default Property Item( _
    ByVal _name_ As String _
-) As [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md)
+) As RestrictionGroup
+```
 
-public new [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md) this\[ 
+```csharp
+public new RestrictionGroup this[ 
    string _name_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
 _name_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

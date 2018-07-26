@@ -11,7 +11,7 @@ Initializes a new instance of the CreateEcoMaterialDetailSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _ecoHeaderIDNum_ As String, _
    ByVal _partRevisionObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateEcoMaterialDetailSetup( 
    bool _isRequired_,
    string _ecoHeaderIDNum_,
    int _partRevisionObjid_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _partRevisionObjid_
 The objid of the part revision of the material that was put in use.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

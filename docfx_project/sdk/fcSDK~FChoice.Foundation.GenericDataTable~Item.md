@@ -7,14 +7,18 @@ Returns the row found at the given index.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public ReadOnly Default Property Item( _
    ByVal _index_ As Integer _
-) As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)
+) As GenericDataRow
+```
 
-public [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) this\[ 
+```csharp
+public GenericDataRow this[ 
    int _index_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
@@ -27,8 +31,6 @@ The zero-based index of the element to get.
 The element at the specified index.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

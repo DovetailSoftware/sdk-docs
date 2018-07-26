@@ -5,19 +5,20 @@ Event fired during [Initialization](fcSDK~FChoice.Foundation.Clarify.ClarifyAppl
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Event InitializeStatusChange As [InitializeStatusChangeEventHandler](fcSDK~FChoice.Foundation.Clarify.InitializeStatusChangeEventHandler.md)
+Public Event InitializeStatusChange As InitializeStatusChangeEventHandler
+```
 
-public event [InitializeStatusChangeEventHandler](fcSDK~FChoice.Foundation.Clarify.InitializeStatusChangeEventHandler.md) InitializeStatusChange
+```csharp
+public event InitializeStatusChangeEventHandler InitializeStatusChange
+```
 
-Remarks
+#### Remarks
 
 Add an event handler to this event to receive feedback on where in the initialization process ClarifyApplication currently is. The [InitStatusChangeType](fcSDK~FChoice.Foundation.Clarify.InitStatusChangeType.md) enumeration contains the initialization states.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

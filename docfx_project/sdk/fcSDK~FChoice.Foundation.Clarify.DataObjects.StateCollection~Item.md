@@ -3,16 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shadows ReadOnly Default Property Item( _
    ByVal _name_ As String, _
    ByVal _isFullName_ As Boolean _
-) As [StateProvince](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince.md)
+) As StateProvince
+```
 
-public new [StateProvince](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince.md) this\[ 
+```csharp
+public new StateProvince this[ 
    string _name_,
    bool _isFullName_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
@@ -21,8 +25,6 @@ _name_
 _isFullName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

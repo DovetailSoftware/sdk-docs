@@ -3,23 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Method, 
+<AttributeUsageAttribute(ValidOn=AttributeTargets.Method, 
    AllowMultiple=True, 
    Inherited=True)>
 Public Class ToolkitResultPropertyAttribute 
-   Inherits [System.Attribute](#)
+   Inherits System.Attribute
+```
 
-\[[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Method, 
+```csharp
+[AttributeUsageAttribute(ValidOn=AttributeTargets.Method, 
    AllowMultiple=true, 
-   Inherited=true)\]
-public class ToolkitResultPropertyAttribute : [System.Attribute](#) 
+   Inherited=true)]
+public class ToolkitResultPropertyAttribute : System.Attribute
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Attribute](#)  
+   System.Attribute  
       **FChoice.Toolkits.Clarify.ToolkitResultPropertyAttribute**  
 
 #### Requirements
@@ -29,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

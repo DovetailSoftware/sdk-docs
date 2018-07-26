@@ -5,11 +5,14 @@ Returns the singleton instance of ClarifyApplication if initialized.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Shared ReadOnly Property Instance As [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)
+Public Shared ReadOnly Property Instance As ClarifyApplication
+```
 
-public static [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) Instance {get;}
+```csharp
+public static ClarifyApplication Instance {get;}
+```
 
 #### Property Value
 
@@ -19,15 +22,14 @@ Exceptions
 
 | Exception | Description |
 | --- | --- |
-| [FoundationException](fcSDK~FChoice.Foundation.FoundationException.md) | The application is not yet initialized. Call ClarifyApplication.Initialize first. |
+|
+ FoundationException | The application is not yet initialized. Call ClarifyApplication.Initialize first. |
 
 Remarks
 
 If not already initialized, an exception will be thrown. First call [Initialize](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~Initialize.md).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

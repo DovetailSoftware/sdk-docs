@@ -5,21 +5,22 @@ Name of the Site Role the Site will play for the Account.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property RoleName As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string RoleName {get; set;}
+```
 
-Remarks
+#### Remarks
 
 The rolename must be an Element from the 'Account Site Roles' user defined list or the value **OWNER** .
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

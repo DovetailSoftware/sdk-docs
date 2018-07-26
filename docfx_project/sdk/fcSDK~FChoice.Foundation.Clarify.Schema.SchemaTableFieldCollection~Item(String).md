@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shadows ReadOnly Property Item( _
    ByVal _fieldName_ As String _
-) As [SchemaTableField](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableField.md)
+) As SchemaTableField
+```
 
-public new [SchemaTableField](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableField.md) Item( 
+```csharp
+public new SchemaTableField Item( 
    string _fieldName_
 ) {get;}
+```
 
 #### Parameters
 
 _fieldName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

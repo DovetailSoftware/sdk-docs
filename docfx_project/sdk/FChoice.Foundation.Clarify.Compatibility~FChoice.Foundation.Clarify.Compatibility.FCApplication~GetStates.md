@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetStates( _
    ByVal _country_ As String _
 ) As ADODB.Recordset
+```
 
+```csharp
 public ADODB.Recordset GetStates( 
    string _country_
 )
+```
 
 #### Parameters
 
 _country_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

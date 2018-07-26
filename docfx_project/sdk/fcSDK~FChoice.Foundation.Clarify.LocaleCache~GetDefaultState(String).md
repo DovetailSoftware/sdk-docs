@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetDefaultState( _
    ByVal _countryName_ As String _
-) As [StateProvince](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince.md)
+) As StateProvince
+```
 
-public [StateProvince](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince.md) GetDefaultState( 
+```csharp
+public StateProvince GetDefaultState( 
    string _countryName_
 )
+```
 
 #### Parameters
 
 _countryName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

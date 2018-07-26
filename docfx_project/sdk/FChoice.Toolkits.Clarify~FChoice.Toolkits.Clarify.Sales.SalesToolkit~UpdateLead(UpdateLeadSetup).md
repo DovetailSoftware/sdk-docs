@@ -7,15 +7,18 @@ Used to update a Lead. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateLead( _
-   ByVal _setupParam_ As [UpdateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdateLeadSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateLead( 
-   [UpdateLeadSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdateLead( 
+   UpdateLeadSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ For updates, if data is specified it it will be set. If left blank (“”), th
 The user who updated the lead, and the date/time of the update can be specified. The API can also generate a time bomb (for business rules).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

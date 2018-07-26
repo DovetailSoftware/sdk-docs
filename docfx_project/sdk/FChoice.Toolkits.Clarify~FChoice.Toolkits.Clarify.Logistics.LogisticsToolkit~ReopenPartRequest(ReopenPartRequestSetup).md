@@ -9,15 +9,18 @@ This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReopenPartRequest( _
-   ByVal _setupParam_ As [ReopenPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ReopenPartRequestSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReopenPartRequest( 
-   [ReopenPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup.md) _setupParam_
+```csharp
+public ToolkitResult ReopenPartRequest( 
+   ReopenPartRequestSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ The Part Request must currently be closed. The WIPBIN in which to place the part
 This API will validate that the user has authority to make the status transition.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function copy( _
    Optional ByVal _use_generic_ As Object _
-) As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md)
+) As IFCGeneric
+```
 
-public [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) copy( 
+```csharp
+public IFCGeneric copy( 
    object _use_generic_
 )
+```
 
 #### Parameters
 
 _use_generic_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

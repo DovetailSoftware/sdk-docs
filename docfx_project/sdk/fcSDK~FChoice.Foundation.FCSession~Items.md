@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property Items As [IDictionary](#)
+Public ReadOnly Property Items As IDictionary
+```
 
-public [IDictionary](#) Items {get;}
+```csharp
+public IDictionary Items {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

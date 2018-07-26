@@ -9,17 +9,20 @@ Update a Depot Repair Material. This overload takes a setup object and a databas
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateDepotRepairMaterial( _
-   ByVal _setupParam_ As [UpdateDepotRepairMaterialSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairMaterialSetup.md), _
+   ByVal _setupParam_ As UpdateDepotRepairMaterialSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateDepotRepairMaterial( 
-   [UpdateDepotRepairMaterialSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairMaterialSetup.md) _setupParam_,
+```csharp
+public ToolkitResult UpdateDepotRepairMaterial( 
+   UpdateDepotRepairMaterialSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

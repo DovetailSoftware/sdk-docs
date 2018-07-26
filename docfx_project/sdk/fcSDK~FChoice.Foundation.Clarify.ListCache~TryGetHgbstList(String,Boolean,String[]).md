@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function TryGetHgbstList( _
    ByVal _listTitle_ As String, _
    ByVal _throwErrors_ As Boolean, _
    ByVal ParamArray _elementTitles_() As String _
-) As [IHierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection.md)
+) As IHierarchicalStringElementCollection
+```
 
-public [IHierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection.md) TryGetHgbstList( 
+```csharp
+public IHierarchicalStringElementCollection TryGetHgbstList( 
    string _listTitle_,
    bool _throwErrors_,
    params string[] _elementTitles_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _throwErrors_
 _elementTitles_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

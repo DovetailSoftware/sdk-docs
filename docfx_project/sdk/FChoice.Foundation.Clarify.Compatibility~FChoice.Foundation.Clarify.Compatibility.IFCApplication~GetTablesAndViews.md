@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743896)>
 Function GetTablesAndViews( _
    Optional ByVal _TablesOnly_ As Object _
 ) As ADODB.Recordset
+```
 
+```csharp
 [DispIdAttribute(1610743896)]
 ADODB.Recordset GetTablesAndViews( 
    object _TablesOnly_
 )
+```
 
 #### Parameters
 
 _TablesOnly_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,13 +3,17 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Class DaylightSavingsCollection 
-   Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of DaylightSavingsPeriod)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
+   Inherits FChoice.Foundation.DataObjects.DataObjectCollection(Of DaylightSavingsPeriod)
+```
 
-public class DaylightSavingsCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<DaylightSavingsPeriod>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md) 
+```csharp
+public class DaylightSavingsCollection : FChoice.Foundation.DataObjects.DataObjectCollection<DaylightSavingsPeriod> 
+```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  
@@ -23,8 +27,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

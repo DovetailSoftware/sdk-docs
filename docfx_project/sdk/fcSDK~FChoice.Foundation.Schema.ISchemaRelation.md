@@ -3,10 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Interface ISchemaRelation 
+'Declaration
 
+Public Interface ISchemaRelation 
+```
+
+```csharp
 public interface ISchemaRelation 
+```
 
 #### Requirements
 
@@ -15,8 +19,6 @@ public interface ISchemaRelation
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

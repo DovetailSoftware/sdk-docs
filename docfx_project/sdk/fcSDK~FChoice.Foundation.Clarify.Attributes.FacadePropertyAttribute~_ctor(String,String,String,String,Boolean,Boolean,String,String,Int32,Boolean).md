@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _propertyName_ As String, _
@@ -17,7 +17,9 @@ Public Function New( _
    ByVal _checkIsNullErrorNumber_ As Integer, _
    ByVal _readOnly_ As Boolean _
 )
+```
 
+```csharp
 public FacadePropertyAttribute( 
    string _propertyName_,
    string _propertyType_,
@@ -30,6 +32,7 @@ public FacadePropertyAttribute(
    int _checkIsNullErrorNumber_,
    bool _readOnly_
 )
+```
 
 #### Parameters
 
@@ -54,8 +57,6 @@ _checkIsNullErrorNumber_
 _readOnly_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

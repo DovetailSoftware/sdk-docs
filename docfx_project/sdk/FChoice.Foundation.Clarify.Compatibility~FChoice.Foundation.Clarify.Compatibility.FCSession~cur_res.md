@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property cur_res As [IMockCollection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection.md)
+Public Property cur_res As IMockCollection
+```
 
-public [IMockCollection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection.md) cur_res {get; set;}
+```csharp
+public IMockCollection cur_res {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

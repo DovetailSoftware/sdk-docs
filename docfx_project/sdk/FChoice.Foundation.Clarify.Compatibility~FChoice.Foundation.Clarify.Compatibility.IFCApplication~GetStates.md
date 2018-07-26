@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743855)>
 Function GetStates( _
    ByVal _Country_ As String _
 ) As ADODB.Recordset
+```
 
+```csharp
 [DispIdAttribute(1610743855)]
 ADODB.Recordset GetStates( 
    string _Country_
 )
+```
 
 #### Parameters
 
 _Country_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,11 +5,14 @@ Gets a reference to the [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.Confi
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property ConfigItemCache As [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.md)
+Public ReadOnly Property ConfigItemCache As ConfigItemCache
+```
 
-public [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.md) ConfigItemCache {get;}
+```csharp
+public ConfigItemCache ConfigItemCache {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 To quickly access config item values, use the [ConfigItems](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~ConfigItems.md) property on ClarifyApplication.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

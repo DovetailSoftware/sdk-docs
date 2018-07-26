@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function EvaluateRule( _
    ByVal _rootIdentifier_ As String, _
    ByVal _transaction_ As IDbTransaction _
-) As [String()](#)
+) As String()
+```
 
+```csharp
 public string[] EvaluateRule( 
    string _rootIdentifier_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _rootIdentifier_
 _transaction_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

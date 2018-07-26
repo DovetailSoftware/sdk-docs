@@ -9,17 +9,20 @@ Add a User to a Queue. This overload takes a setup object and a database transac
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddUserToQueue( _
-   ByVal _setupParam_ As [AddUserToQueueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup.md), _
+   ByVal _setupParam_ As AddUserToQueueSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddUserToQueue( 
-   [AddUserToQueueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AddUserToQueue( 
+   AddUserToQueueSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

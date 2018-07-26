@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function Add( _
    ByVal _fieldName_ As String, _
    ByVal _fieldValue_ As Object _
-) As [SimplifiedAdditionalField](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalField.md)
+) As SimplifiedAdditionalField
+```
 
-public [SimplifiedAdditionalField](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalField.md) Add( 
+```csharp
+public SimplifiedAdditionalField Add( 
    string _fieldName_,
    object _fieldValue_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _fieldName_
 _fieldValue_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

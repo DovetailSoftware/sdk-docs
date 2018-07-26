@@ -3,11 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Interface IStringCache 
+```
 
+```csharp
 public interface IStringCache 
+```
 
 #### Requirements
 
@@ -16,8 +19,6 @@ public interface IStringCache
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

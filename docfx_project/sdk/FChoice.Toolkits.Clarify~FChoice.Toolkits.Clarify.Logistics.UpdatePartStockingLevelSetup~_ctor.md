@@ -15,25 +15,28 @@ Initializes a new instance of the UpdatePartStockingLevelSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _currentLocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
+   ByVal _currentLocation_ As Location, _
    ByVal _queue_ As String, _
    ByVal _partNumber_ As String, _
    ByVal _partRevision_ As String, _
    ByVal _partDomain_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdatePartStockingLevelSetup( 
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _currentLocation_,
+   Location _currentLocation_,
    string _queue_,
    string _partNumber_,
    string _partRevision_,
    string _partDomain_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ _partDomain_
 Part domain for the Part
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

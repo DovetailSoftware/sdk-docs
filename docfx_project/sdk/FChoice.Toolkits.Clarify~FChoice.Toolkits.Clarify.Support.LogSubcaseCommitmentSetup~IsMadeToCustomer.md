@@ -5,16 +5,18 @@ Specifies if the commitment is to the customer (True) or by the customer (Fals
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property IsMadeToCustomer As Boolean
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property IsMadeToCustomer As Boolean
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public bool IsMadeToCustomer {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,17 +5,20 @@ Filter field on strings that are like the filter input
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function Like( _
    ByVal _columnName_ As String, _
    ByVal _value_ As String _
-) As [LikeFilter](fcSDK~FChoice.Foundation.Filters.LikeFilter.md)
+) As LikeFilter
+```
 
-public static [LikeFilter](fcSDK~FChoice.Foundation.Filters.LikeFilter.md) Like( 
+```csharp
+public static LikeFilter Like( 
    string _columnName_,
    string _value_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _columnName_
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

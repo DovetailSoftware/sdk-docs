@@ -9,19 +9,22 @@ The billing rate per unit. If no rate is specified, the labor rate of the perfo
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateExpenseLog( _
    ByVal _expenseLogObjid_ As Integer, _
    ByVal _quantity_ As Double, _
    ByVal _rate_ As Double _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateExpenseLog( 
+```csharp
+public ToolkitResult UpdateExpenseLog( 
    int _expenseLogObjid_,
    double _quantity_,
    double _rate_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ The billing rate per unit. If no rate is specified, the labor rate of the perfo
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

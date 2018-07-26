@@ -3,11 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Interface ITimeZone 
+```
 
+```csharp
 public interface ITimeZone 
+```
 
 #### Requirements
 
@@ -16,8 +19,6 @@ public interface ITimeZone
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

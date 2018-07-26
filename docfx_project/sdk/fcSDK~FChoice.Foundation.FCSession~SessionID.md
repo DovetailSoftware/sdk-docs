@@ -5,10 +5,14 @@ Returns the session's unique identifier.
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property SessionID As Guid
+'Declaration
 
+Public ReadOnly Property SessionID As Guid
+```
+
+```csharp
 public Guid SessionID {get;}
+```
 
 #### Property Value
 
@@ -19,8 +23,6 @@ Remarks
 This identifier is used to re-use a session that has already been created via [GetSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~GetSession.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,9 +1,9 @@
-﻿### dispatch_object Method (IFCSession)
+### dispatch_object Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743899)>
 Function dispatch_object( _
@@ -14,7 +14,9 @@ Function dispatch_object( _
    ByVal _generateTimeBombs_ As Boolean, _
    ByVal _objectType_ As String _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743899)]
 short dispatch_object( 
    string _objId_,
@@ -24,6 +26,7 @@ short dispatch_object(
    bool _generateTimeBombs_,
    string _objectType_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ _generateTimeBombs_
 _objectType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

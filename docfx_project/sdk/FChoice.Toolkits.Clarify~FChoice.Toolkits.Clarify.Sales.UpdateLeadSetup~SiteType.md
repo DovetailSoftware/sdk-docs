@@ -5,17 +5,18 @@ The type of the site for the lead.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property SiteType As [LeadSiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LeadSiteType.md)
+<PropertyBitValueAttribute()>
+Public Property SiteType As LeadSiteType
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [LeadSiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LeadSiteType.md) SiteType {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public LeadSiteType SiteType {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

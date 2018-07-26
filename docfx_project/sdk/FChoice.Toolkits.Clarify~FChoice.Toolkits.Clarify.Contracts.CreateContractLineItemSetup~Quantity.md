@@ -5,21 +5,22 @@ The quantity of the part for the Line Item.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property Quantity As Integer
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public int Quantity {get; set;}
+```
 
-Remarks
+#### Remarks
 
 The units available is calcularted from this number.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

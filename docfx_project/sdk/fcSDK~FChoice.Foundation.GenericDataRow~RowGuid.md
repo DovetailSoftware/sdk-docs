@@ -5,10 +5,14 @@ Unique row identifier
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property RowGuid As Guid
+'Declaration
 
+Public ReadOnly Property RowGuid As Guid
+```
+
+```csharp
 public Guid RowGuid {get;}
+```
 
 #### Property Value
 
@@ -19,8 +23,6 @@ Remarks
 Used internally for reconciling rows after updates are complete.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

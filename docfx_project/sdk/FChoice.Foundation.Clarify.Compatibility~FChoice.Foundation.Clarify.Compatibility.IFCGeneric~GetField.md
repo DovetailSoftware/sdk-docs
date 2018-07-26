@@ -1,26 +1,28 @@
-﻿### GetField Method (IFCGeneric)
+### GetField Method (IFCGeneric)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743875)>
 Function GetField( _
    ByVal _fieldName_ As String _
 ) As Object
+```
 
+```csharp
 [DispIdAttribute(1610743875)]
 object GetField( 
    string _fieldName_
 )
+```
 
 #### Parameters
 
 _fieldName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,15 +5,18 @@ Initializes ClarifyApplication using the application configuration.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Shared Function Initialize() As [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)
+Public Overloads Shared Function Initialize() As ClarifyApplication
+```
 
-public static [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) Initialize()
+```csharp
+public static ClarifyApplication Initialize()
+```
 
 #### Return Value
 
-The newly created and initialized singleton instance of [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)
+The newly created and initialized singleton instance of ClarifyApplication
 
 Remarks
 
@@ -24,8 +27,6 @@ Initialize requires one configuration parameter: The database connection string.
 For more information on configuring .NET applications via configuration file, see [Configuration Applications](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cpconconfiguringnetframeworkapplications.htm) in the .NET Framework SDK documentation.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

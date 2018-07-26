@@ -9,18 +9,18 @@ Syntax
 
 <SerializableAttribute()>
 Public Class FCInvalidConfigurationException 
-   Inherits [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)
+   Inherits FCExceptionBase
 ```
 
 ```csharp
 [SerializableAttribute()]
-public class FCInvalidConfigurationException : [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) 
+public class FCInvalidConfigurationException : FCExceptionBase 
 ```
 
 Inheritance Hierarchy
 
 System.Object  
-[System.Exception](#)  
+System.Exception  
 [System.ApplicationException](#)  
 [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
 **FChoice.Common.FCInvalidConfigurationException**  

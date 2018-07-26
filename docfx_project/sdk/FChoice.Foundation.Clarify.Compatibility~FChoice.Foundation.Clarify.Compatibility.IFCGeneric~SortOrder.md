@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743834)>
 Property SortOrder As String
+```
 
+```csharp
 [DispIdAttribute(1610743834)]
 string SortOrder {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

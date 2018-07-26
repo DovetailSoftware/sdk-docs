@@ -7,15 +7,18 @@ Close a CR. This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CloseCR( _
    ByVal _crIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CloseCR( 
+```csharp
+public ToolkitResult CloseCR( 
    string _crIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 The CR must be in a condition/status that allows the transition to the Closed condition.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

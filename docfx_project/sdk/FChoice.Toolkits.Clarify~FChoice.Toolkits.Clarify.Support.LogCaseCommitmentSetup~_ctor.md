@@ -17,7 +17,7 @@ Initializes a new instance of the LogCaseCommitmentSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -28,7 +28,9 @@ Public Function New( _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public LogCaseCommitmentSetup( 
    string _caseIDNum_,
@@ -38,6 +40,7 @@ public LogCaseCommitmentSetup(
    string _contactLastName_,
    string _contactPhone_
 )
+```
 
 #### Parameters
 
@@ -66,8 +69,6 @@ _contactPhone_
 Contact's phone number.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

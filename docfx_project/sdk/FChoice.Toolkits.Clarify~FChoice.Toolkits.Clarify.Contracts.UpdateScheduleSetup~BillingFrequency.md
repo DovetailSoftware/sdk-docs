@@ -5,17 +5,18 @@ Specifies how often will this Schedule induce billing.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property BillingFrequency As [BillingFrequency](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.BillingFrequency.md)
+<PropertyBitValueAttribute()>
+Public Property BillingFrequency As BillingFrequency
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [BillingFrequency](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.BillingFrequency.md) BillingFrequency {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public BillingFrequency BillingFrequency {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743812)>
 ReadOnly Property Type As Integer
+```
 
+```csharp
 [DispIdAttribute(1610743812)]
 int Type {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

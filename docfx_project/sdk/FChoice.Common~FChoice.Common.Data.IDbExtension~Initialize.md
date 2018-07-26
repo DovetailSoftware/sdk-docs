@@ -12,14 +12,14 @@ Syntax
 'Declaration
 
 Sub Initialize( _
-   ByVal _provider_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md), _
+   ByVal _provider_ As DbProvider, _
    ByVal _extensionConfig_ As XmlNode _
 ) 
 ```
 
 ```csharp
 void Initialize( 
-   [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _provider_,
+   DbProvider _provider_,
    XmlNode _extensionConfig_
 )
 ```

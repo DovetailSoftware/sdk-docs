@@ -13,21 +13,24 @@ Creates a new Case. This overload takes a set of required parameters for the API
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateCase( _
    ByVal _siteIDNum_ As String, _
    ByVal _contactFirstName_ As String, _
    ByVal _contactLastName_ As String, _
    ByVal _contactPhone_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateCase( 
+```csharp
+public ToolkitResult CreateCase( 
    string _siteIDNum_,
    string _contactFirstName_,
    string _contactLastName_,
    string _contactPhone_
 )
+```
 
 #### Parameters
 
@@ -55,8 +58,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Case.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

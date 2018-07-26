@@ -5,15 +5,16 @@ Array of addresses for CC Recipients.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property CCRecipients As [String()](#)
+Public Property CCRecipients As String()
+```
 
+```csharp
 public string[] CCRecipients {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

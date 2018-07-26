@@ -7,14 +7,14 @@ Syntax
 
 Public Overloads Sub SaveState( _
    ByVal _id_ As Guid, _
-   ByVal _state_() As [Byte](#) _
+   ByVal _state_() As Byte _
 ) 
 ```
 
 ```csharp
 public void SaveState( 
    Guid _id_,
-   [byte](#)\[\] _state_
+   byte[] _state_
 )
 ```
 

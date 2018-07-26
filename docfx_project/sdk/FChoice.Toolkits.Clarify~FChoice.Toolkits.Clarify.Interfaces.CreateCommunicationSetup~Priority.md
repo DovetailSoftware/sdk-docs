@@ -5,15 +5,16 @@ The Priority of the communication.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property Priority As [CommunicationPriority](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationPriority.md)
+Public Property Priority As CommunicationPriority
+```
 
-public [CommunicationPriority](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationPriority.md) Priority {get; set;}
+```csharp
+public CommunicationPriority Priority {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

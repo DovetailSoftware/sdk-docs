@@ -9,17 +9,20 @@ Re-Install a Site Part under a Product Bin. This overload takes a setup object a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReinstallSitePartToBin( _
-   ByVal _setupParam_ As [ReinstallSitePartToBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToBinSetup.md), _
+   ByVal _setupParam_ As ReinstallSitePartToBinSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReinstallSitePartToBin( 
-   [ReinstallSitePartToBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToBinSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ReinstallSitePartToBin( 
+   ReinstallSitePartToBinSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

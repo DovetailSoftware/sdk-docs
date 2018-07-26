@@ -5,16 +5,17 @@ Holds one or more filters. This collection is used by filters that allow childre
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Class FilterCollection 
-   Inherits [System.Collections.ObjectModel.Collection(Of Filter)](#)
+   Inherits System.Collections.ObjectModel.Collection(Of Filter)
 ```
 
 ```csharp
-public class FilterCollection : [System.Collections.ObjectModel.Collection<Filter>](#) 
+public class FilterCollection : System.Collections.ObjectModel.Collection<Filter> 
 ```
 
-Example
+#### Example
 
 [**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
@@ -31,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

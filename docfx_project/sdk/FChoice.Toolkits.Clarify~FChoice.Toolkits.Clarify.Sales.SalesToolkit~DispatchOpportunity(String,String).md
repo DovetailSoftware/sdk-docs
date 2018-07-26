@@ -9,17 +9,20 @@ Dispatch the Opportunity to the specified queue. This overload takes a set of re
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DispatchOpportunity( _
    ByVal _opportunityIDNum_ As String, _
    ByVal _queue_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchOpportunity( 
+```csharp
+public ToolkitResult DispatchOpportunity( 
    string _opportunityIDNum_,
    string _queue_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The Opportunity must be in open condition, and not currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

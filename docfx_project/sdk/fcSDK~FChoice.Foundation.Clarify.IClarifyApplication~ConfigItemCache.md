@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-ReadOnly Property ConfigItemCache As [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.md)
+ReadOnly Property ConfigItemCache As ConfigItemCache
+```
 
-[ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.md) ConfigItemCache {get;}
+```csharp
+ConfigItemCache ConfigItemCache {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

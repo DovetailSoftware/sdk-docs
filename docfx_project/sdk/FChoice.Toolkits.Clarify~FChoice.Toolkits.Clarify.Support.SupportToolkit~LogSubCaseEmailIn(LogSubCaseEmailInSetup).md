@@ -7,15 +7,18 @@ Creates an email in log against a Subcase.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogSubCaseEmailIn( _
-   ByVal _setup_ As [LogSubCaseEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubCaseEmailInSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setup_ LogSubCaseEmailInSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogSubCaseEmailIn( 
-   [LogSubCaseEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubCaseEmailInSetup.md) _setup_
+```csharp
+public ToolkitResult LogSubCaseEmailIn( 
+   LogSubCaseEmailInSetup _setup_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _setup_
 Setup object for API invocation.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

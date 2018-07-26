@@ -9,17 +9,20 @@ Changes the Site of a Case. This overload takes a set of required parameters for
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeCaseSite( _
    ByVal _caseIDNum_ As String, _
    ByVal _siteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeCaseSite( 
+```csharp
+public ToolkitResult ChangeCaseSite( 
    string _caseIDNum_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 Any related Site Parts and Contracts for the Case are unrelated.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

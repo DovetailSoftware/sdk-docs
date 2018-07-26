@@ -1,9 +1,9 @@
-﻿### check_cl_trans Method (IFCSession)
+### check_cl_trans Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743904)>
 Function check_cl_trans( _
@@ -12,7 +12,9 @@ Function check_cl_trans( _
    ByVal _reqType_ As String, _
    ByVal _userName_ As String _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743904)]
 short check_cl_trans( 
    string _oldCondition_,
@@ -20,6 +22,7 @@ short check_cl_trans(
    string _reqType_,
    string _userName_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _reqType_
 _userName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

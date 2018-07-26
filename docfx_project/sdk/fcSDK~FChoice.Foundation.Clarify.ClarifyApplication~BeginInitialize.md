@@ -9,17 +9,20 @@ Begins an asynchronous **ClarifyApplication** initialization.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function BeginInitialize( _
    ByVal _callback_ As [AsyncCallback](#), _
    ByVal _state_ As Object _
-) As [IAsyncResult](#)
+) As IAsyncResult
+```
 
-public static [IAsyncResult](#) BeginInitialize( 
-   [AsyncCallback](#) _callback_,
+```csharp
+public static IAsyncResult BeginInitialize( 
+   AsyncCallback _callback_,
    object _state_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ The **BeginInitialize** method starts an asynchronous initialization of the **Cl
 Your callback method should call [EndInitialize](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~EndInitialize.md) to complete the operation. Please see the [Asynchronous Design Pattern Overview](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpguide/html/cpconasynchronousdesignpatternoverview.asp) for more details on using asynchronous methods.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Gets a reference to a [GlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataO
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetGbstList( _
    ByVal _listTitle_ As String _
-) As [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md)
+) As IGlobalStringList
+```
 
-public [IGlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.md) GetGbstList( 
+```csharp
+public IGlobalStringList GetGbstList( 
    string _listTitle_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ The name of the GBST/application pop-up list
 A [GlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringList.md) representing the specified application pop-up list or a null reference (**Nothing** in Visual Basic) if no list exists with that _listTitle_.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

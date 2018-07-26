@@ -7,17 +7,20 @@ An optional list of element titles specifying the level in the user-defined list
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetHgbstList( _
    ByVal _listTitle_ As String, _
    ByVal ParamArray _elementTitles_() As String _
-) As [IHierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection.md)
+) As IHierarchicalStringElementCollection
+```
 
-public [IHierarchicalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection.md) GetHgbstList( 
+```csharp
+public IHierarchicalStringElementCollection GetHgbstList( 
    string _listTitle_,
    params string[] _elementTitles_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _elementTitles_
 An optional list of element titles specifying the level in the user-defined list to retrieve
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

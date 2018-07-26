@@ -3,14 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[GuidAttribute](#)("3D860A38-CDDA-4653-88DC-F7BB6AD46E94")>
-<[ComVisibleAttribute](#)(True)>
-Public Interface IFCBulk 
+'Declaration
 
-\[[GuidAttribute](#)("3D860A38-CDDA-4653-88DC-F7BB6AD46E94")\]
-\[[ComVisibleAttribute](#)(true)\]
+<GuidAttribute("3D860A38-CDDA-4653-88DC-F7BB6AD46E94")>
+<ComVisibleAttribute(True)>
+Public Interface IFCBulk 
+```
+
+```csharp
+[GuidAttribute("3D860A38-CDDA-4653-88DC-F7BB6AD46E94")]
+[ComVisibleAttribute(true)]
 public interface IFCBulk 
+```
 
 #### Requirements
 
@@ -19,8 +23,6 @@ public interface IFCBulk
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
-
-
 
 #### Reference
 

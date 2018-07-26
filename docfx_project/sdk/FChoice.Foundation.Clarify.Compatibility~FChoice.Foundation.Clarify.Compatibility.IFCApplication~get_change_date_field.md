@@ -3,24 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743888)>
 Function get_change_date_field( _
    ByVal _tableName_ As String _
 ) As String
+```
 
+```csharp
 [DispIdAttribute(1610743888)]
 string get_change_date_field( 
    string _tableName_
 )
+```
 
 #### Parameters
 
 _tableName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

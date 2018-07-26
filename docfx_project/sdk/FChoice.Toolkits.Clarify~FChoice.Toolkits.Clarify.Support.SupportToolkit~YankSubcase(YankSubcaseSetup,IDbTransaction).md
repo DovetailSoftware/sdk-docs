@@ -9,17 +9,20 @@ Yank the Subcase from its current location to a new owner's WipBin. This overloa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankSubcase( _
-   ByVal _setupParam_ As [YankSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankSubcaseSetup.md), _
+   ByVal _setupParam_ As YankSubcaseSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankSubcase( 
-   [YankSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankSubcaseSetup.md) _setupParam_,
+```csharp
+public ToolkitResult YankSubcase( 
+   YankSubcaseSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 

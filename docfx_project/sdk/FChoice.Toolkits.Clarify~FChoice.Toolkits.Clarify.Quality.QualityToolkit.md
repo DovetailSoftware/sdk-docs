@@ -5,12 +5,15 @@ Provides APIs to allow you to modify the basic ClearQuality object: the Change R
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class QualityToolkit 
-   Inherits [QualityToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkitBase.md)
+   Inherits QualityToolkitBase
+```
 
-public class QualityToolkit : [QualityToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkitBase.md) 
+```csharp
+public class QualityToolkit : QualityToolkitBase
+``` 
 
 Inheritance Hierarchy
 
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

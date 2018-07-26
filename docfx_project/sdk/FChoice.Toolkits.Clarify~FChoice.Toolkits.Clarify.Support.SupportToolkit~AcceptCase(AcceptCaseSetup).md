@@ -7,15 +7,18 @@ Accept the specified Case from the queue in which it is currently dispatched. Th
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AcceptCase( _
-   ByVal _setupParam_ As [AcceptCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptCaseSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ AcceptCaseSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AcceptCase( 
-   [AcceptCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptCaseSetup.md) _setupParam_
+```csharp
+public ToolkitResult AcceptCase( 
+   AcceptCaseSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Case must be currently dispatched to a queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

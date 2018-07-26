@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _table_ As [DataTable](#) _
+   ByVal _table_ As DataTable _
 )
+```
 
+```csharp
 public RestrictionGroupCollection( 
-   [DataTable](#) _table_
+   DataTable _table_
 )
+```
 
 #### Parameters
 
 _table_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

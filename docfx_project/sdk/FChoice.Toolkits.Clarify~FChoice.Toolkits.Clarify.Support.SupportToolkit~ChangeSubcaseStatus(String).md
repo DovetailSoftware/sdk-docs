@@ -7,15 +7,18 @@ Changes the status of a Subcase. This overload takes a set of required parameter
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeSubcaseStatus( _
    ByVal _subcaseIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeSubcaseStatus( 
+```csharp
+public ToolkitResult ChangeSubcaseStatus( 
    string _subcaseIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The Subcase may be opened or closed, but the status selected must be valid for the current condition. In other words, you cannot assign a Closed condition status to a Subcase that is currently Open.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

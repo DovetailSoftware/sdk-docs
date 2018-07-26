@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _method_ As String _
 )
+```
 
+```csharp
 public ParameterVoidAttribute( 
    string _method_
 )
+```
 
 #### Parameters
 
 _method_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

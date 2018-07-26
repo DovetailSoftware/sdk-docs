@@ -9,17 +9,20 @@ Install a Site Part under a Product Bin. This overload takes a setup object and
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function InstallSitePartToBin( _
-   ByVal _setupParam_ As [InstallSitePartToBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToBinSetup.md), _
+   ByVal _setupParam_ As InstallSitePartToBinSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) InstallSitePartToBin( 
-   [InstallSitePartToBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToBinSetup.md) _setupParam_,
+```csharp
+public ToolkitResult InstallSitePartToBin( 
+   InstallSitePartToBinSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

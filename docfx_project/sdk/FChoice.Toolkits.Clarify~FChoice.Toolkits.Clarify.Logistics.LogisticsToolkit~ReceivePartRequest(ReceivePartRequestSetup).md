@@ -9,15 +9,18 @@ This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReceivePartRequest( _
-   ByVal _setupParam_ As [ReceivePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ReceivePartRequestSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReceivePartRequest( 
-   [ReceivePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup.md) _setupParam_
+```csharp
+public ToolkitResult ReceivePartRequest( 
+   ReceivePartRequestSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ To allow for multiple calls to this API to be performed without extra complex t
 **NOTE**: This API must be called in conjunction with the [PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.md) API to work correctly.  
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

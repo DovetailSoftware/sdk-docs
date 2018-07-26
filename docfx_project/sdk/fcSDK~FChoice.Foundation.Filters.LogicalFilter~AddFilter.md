@@ -7,14 +7,18 @@ This method is called to add a filter to a logical grouping
 Syntax
 
 ```vbnet
-' Declaration
-Public Function AddFilter( _
-   ByVal _filter_ As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _
-) As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)
+'Declaration
 
-public [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) AddFilter( 
-   [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _filter_
+Public Function AddFilter( _
+   ByVal _filter_ As Filter _
+) As Filter
+```
+
+```csharp
+public Filter AddFilter( 
+   Filter _filter_
 )
+```
 
 #### Parameters
 
@@ -27,8 +31,6 @@ Example
 [**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

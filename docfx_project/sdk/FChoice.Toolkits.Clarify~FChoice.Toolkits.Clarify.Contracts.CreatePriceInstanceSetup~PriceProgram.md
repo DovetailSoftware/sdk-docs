@@ -5,20 +5,22 @@ The title of the Price Program for this Price Instance. If blank then "US Std Pr
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property PriceProgram As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string PriceProgram {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Must be supplied and must be a valid Price Program.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

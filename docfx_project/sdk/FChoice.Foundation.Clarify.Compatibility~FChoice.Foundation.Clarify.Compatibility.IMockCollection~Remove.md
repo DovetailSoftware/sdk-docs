@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(3)>
 Sub Remove( _
    ByRef _Index_ As Object _
 ) 
+```
 
+```csharp
 [DispIdAttribute(3)]
 void Remove( 
    ref object _Index_
 )
+```
 
 #### Parameters
 
 _Index_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -11,21 +11,24 @@ Initializes a new instance of the ReceivePartRequestSetup class. This overload t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _quantity_ As Integer, _
-   ByVal _toLocation_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _
+   ByVal _toLocation_ As Location _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public ReceivePartRequestSetup( 
    string _partRequestDetailIDNum_,
    int _quantity_,
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _toLocation_
+   Location _toLocation_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _toLocation_
 Inventory location (or expense GL) into which the stock will be received
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

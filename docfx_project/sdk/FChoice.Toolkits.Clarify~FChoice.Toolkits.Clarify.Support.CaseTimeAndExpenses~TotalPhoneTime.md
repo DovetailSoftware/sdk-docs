@@ -5,15 +5,16 @@ Total phone time (closed Subcase and phone log for the Case)
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property TotalPhoneTime As TimeSpan
+```
 
+```csharp
 public TimeSpan TotalPhoneTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

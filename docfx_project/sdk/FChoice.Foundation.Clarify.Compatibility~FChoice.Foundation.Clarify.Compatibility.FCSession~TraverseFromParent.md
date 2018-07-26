@@ -3,25 +3,28 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function TraverseFromParent( _
-   ByRef _generic_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md), _
+   ByRef _generic_ As IFCGeneric, _
    ByVal _objectType_ As String, _
    ByVal _dataFields_ As String, _
    ByVal _bulkName_ As String, _
-   ByVal _parentGeneric_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md), _
+   ByVal _parentGeneric_ As IFCGeneric, _
    ByVal _relationName_ As String _
-) As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md)
+) As IFCGeneric
+```
 
-public [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) TraverseFromParent( 
-   ref [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _generic_,
+```csharp
+public IFCGeneric TraverseFromParent( 
+   ref IFCGeneric _generic_,
    string _objectType_,
    string _dataFields_,
    string _bulkName_,
-   [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _parentGeneric_,
+   IFCGeneric _parentGeneric_,
    string _relationName_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ _parentGeneric_
 _relationName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

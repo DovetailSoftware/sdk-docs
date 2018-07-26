@@ -9,19 +9,22 @@ Initializes a new instance of the LogContractNoteSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _contractIDNum_ As String, _
    ByVal _notes_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public LogContractNoteSetup( 
    string _contractIDNum_,
    string _notes_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _notes_
 The notes being logged to the Contract.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

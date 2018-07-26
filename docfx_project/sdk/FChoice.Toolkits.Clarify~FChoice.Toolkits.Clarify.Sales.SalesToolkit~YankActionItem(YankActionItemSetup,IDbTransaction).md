@@ -9,17 +9,20 @@ Yank the ActionItem from its current location to a new owner's WipBin. This over
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankActionItem( _
-   ByVal _setupParam_ As [YankActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup.md), _
+   ByVal _setupParam_ As YankActionItemSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankActionItem( 
-   [YankActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup.md) _setupParam_,
+```csharp
+public ToolkitResult YankActionItem( 
+   YankActionItemSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

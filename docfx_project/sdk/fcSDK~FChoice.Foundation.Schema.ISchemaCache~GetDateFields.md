@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function GetDateFields( _
    ByVal _tableName_ As String _
-) As [IEnumerable](#)
+) As IEnumerable
+```
 
-[IEnumerable](#) GetDateFields( 
+```csharp
+IEnumerable GetDateFields( 
    string _tableName_
 )
+```
 
 #### Parameters
 
 _tableName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,10 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Class RemoveContactFromContractSetup 
+'Declaration
 
-public class RemoveContactFromContractSetup 
+Public Class RemoveContactFromContractSetup 
+```
+
+```csharp
+public class RemoveContactFromContractSetup
+```
 
 Inheritance Hierarchy
 
@@ -20,8 +24,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

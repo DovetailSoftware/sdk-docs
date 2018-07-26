@@ -7,17 +7,20 @@ Initializes a new instance of the CloseCaseSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _caseIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CloseCaseSetup( 
    string _caseIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _caseIDNum_
 Identifier of the Case being closed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

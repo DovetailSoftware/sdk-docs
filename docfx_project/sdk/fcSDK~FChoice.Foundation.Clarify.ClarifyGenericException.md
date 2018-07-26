@@ -3,18 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <SerializableAttribute()>
 Public Class ClarifyGenericException 
-   Inherits [FChoice.Foundation.GenericException](fcSDK~FChoice.Foundation.GenericException.md)
+   Inherits FChoice.Foundation.GenericException
+```
 
+```csharp
 [SerializableAttribute()]
-public class ClarifyGenericException : [FChoice.Foundation.GenericException](fcSDK~FChoice.Foundation.GenericException.md) 
+public class ClarifyGenericException : FChoice.Foundation.GenericException
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Exception](#)  
+   System.Exception  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             [FChoice.Foundation.FoundationException](fcSDK~FChoice.Foundation.FoundationException.md)  
@@ -28,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property InactiveElements As [IGlobalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection.md)
+Public ReadOnly Property InactiveElements As IGlobalStringElementCollection
+```
 
-public [IGlobalStringElementCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection.md) InactiveElements {get;}
+```csharp
+public IGlobalStringElementCollection InactiveElements {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743831)>
 WriteOnly Property DataProtectorEntropy As String
+```
 
+```csharp
 [DispIdAttribute(1610743831)]
 string DataProtectorEntropy {set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

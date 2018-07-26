@@ -7,11 +7,11 @@ Syntax
 ```vbnet
 'Declaration
 
-Public Function GetEnumerator() As [IEnumerator](#)
+Public Function GetEnumerator() As IEnumerator
 ```
 
 ```csharp
-public [IEnumerator](#) GetEnumerator()
+public IEnumerator GetEnumerator()
 ```
 
 #### Return Value

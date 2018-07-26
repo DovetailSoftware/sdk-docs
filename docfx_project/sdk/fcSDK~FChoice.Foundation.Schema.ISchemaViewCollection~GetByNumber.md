@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function GetByNumber( _
    ByVal _number_ As Object _
-) As [ISchemaView](fcSDK~FChoice.Foundation.Schema.ISchemaView.md)
+) As ISchemaView
+```
 
-[ISchemaView](fcSDK~FChoice.Foundation.Schema.ISchemaView.md) GetByNumber( 
+```csharp
+ISchemaView GetByNumber( 
    object _number_
 )
+```
 
 #### Parameters
 
 _number_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

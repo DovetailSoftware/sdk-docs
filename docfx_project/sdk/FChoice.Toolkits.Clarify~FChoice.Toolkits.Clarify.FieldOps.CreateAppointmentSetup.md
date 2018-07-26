@@ -5,10 +5,14 @@ Used by the [CreateAppointment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clari
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CreateAppointmentSetup 
+'Declaration
 
-public class CreateAppointmentSetup 
+Public Class CreateAppointmentSetup 
+```
+
+```csharp
+public class CreateAppointmentSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

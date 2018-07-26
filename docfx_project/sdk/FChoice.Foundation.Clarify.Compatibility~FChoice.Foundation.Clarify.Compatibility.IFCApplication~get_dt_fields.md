@@ -3,25 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743897)>
 Function get_dt_fields( _
    ByVal _tableName_ As String _
 ) As String
+```
 
+```csharp
 [DispIdAttribute(1610743897)]
 string get_dt_fields( 
    string _tableName_
 )
+```
 
 #### Parameters
 
 _tableName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

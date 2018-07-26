@@ -5,10 +5,14 @@ Filter expressions offer on non static alternative to [FilterType](fcSDK~FChoice
 Syntax
 
 ```vbnet
-' Declaration
-Public Class FilterExpression 
+'Declaration
 
-public class FilterExpression 
+Public Class FilterExpression 
+```
+
+```csharp
+public class FilterExpression
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

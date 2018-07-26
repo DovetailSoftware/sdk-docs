@@ -15,7 +15,7 @@ Initializes a new instance of the LogPartsUsedInstallSetup class. This overload 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -25,7 +25,9 @@ Public Function New( _
    ByVal _installPartDomain_ As String, _
    ByVal _installSerialNumber_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public LogPartsUsedInstallSetup( 
    string _partRequestDetailIDNum_,
@@ -34,6 +36,7 @@ public LogPartsUsedInstallSetup(
    string _installPartDomain_,
    string _installSerialNumber_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ _installSerialNumber_
 The Serial Number of the part being installed
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

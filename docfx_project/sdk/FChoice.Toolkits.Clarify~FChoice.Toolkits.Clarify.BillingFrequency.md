@@ -5,12 +5,15 @@ The billing frequency of the Contract Schedule being created or updated.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Enum BillingFrequency 
    Inherits System.Enum
+```
 
-public enum BillingFrequency : System.Enum 
+```csharp
+public enum BillingFrequency : System.Enum
+```
 
 Members
 
@@ -36,8 +39,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Create a Site. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateSite( _
-   ByVal _setupParam_ As [CreateSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSiteSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateSiteSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateSite( 
-   [CreateSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSiteSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateSite( 
+   CreateSiteSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -31,8 +34,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Site.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

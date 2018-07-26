@@ -5,20 +5,22 @@ Notes about the Change Request. If not set, no notes are logged.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property Description As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string Description {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If set, a time bomb will be generated.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

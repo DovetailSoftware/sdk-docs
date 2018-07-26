@@ -7,14 +7,14 @@ Syntax
 
 <DispIdAttribute(1610743817)>
 Sub RemoveGeneric( _
-   ByVal _generic_ As [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _
+   ByVal _generic_ As IFCGeneric _
 ) 
 ```
 
 ```csharp
 [DispIdAttribute(1610743817)]
 void RemoveGeneric( 
-   [IFCGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.md) _generic_
+   IFCGeneric _generic_
 )
 ```
 

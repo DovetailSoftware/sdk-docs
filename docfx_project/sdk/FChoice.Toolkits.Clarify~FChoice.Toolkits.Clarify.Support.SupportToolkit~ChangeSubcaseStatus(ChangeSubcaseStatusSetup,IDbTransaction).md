@@ -9,17 +9,20 @@ Changes the status of a Subcase. This overload takes a setup object and a databa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeSubcaseStatus( _
-   ByVal _setupParam_ As [ChangeSubcaseStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeSubcaseStatusSetup.md), _
+   ByVal _setupParam_ As ChangeSubcaseStatusSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeSubcaseStatus( 
-   [ChangeSubcaseStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeSubcaseStatusSetup.md) _setupParam_,
+```csharp
+public ToolkitResult ChangeSubcaseStatus( 
+   ChangeSubcaseStatusSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

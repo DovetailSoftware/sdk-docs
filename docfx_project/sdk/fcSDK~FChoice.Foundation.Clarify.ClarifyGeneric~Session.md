@@ -5,18 +5,20 @@ Gets a reference to the parent [ClarifySession](fcSDK~FChoice.Foundation.Clarif
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property Session As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
+'Declaration
 
-public [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) Session {get;}
+Public ReadOnly Property Session As ClarifySession
+```
+
+```csharp
+public ClarifySession Session {get;}
+```
 
 #### Property Value
 
 The parent [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) of this generic.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

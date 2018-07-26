@@ -9,17 +9,20 @@ Used to install a site part. This overload takes a setup object and a database t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function InstallSitePart( _
-   ByVal _setupParam_ As [InstallSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.InstallSitePartSetup.md), _
+   ByVal _setupParam_ As InstallSitePartSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) InstallSitePart( 
-   [InstallSitePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.InstallSitePartSetup.md) _setupParam_,
+```csharp
+public ToolkitResult InstallSitePart( 
+   InstallSitePartSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

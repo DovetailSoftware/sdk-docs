@@ -9,17 +9,20 @@ Allows for the fulfilling of inventory parts for a part request. This overload t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function FulfillPartRequest( _
    ByVal _partRequestDetailIDNum_ As String, _
    ByVal _serialNumber_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) FulfillPartRequest( 
+```csharp
+public ToolkitResult FulfillPartRequest( 
    string _partRequestDetailIDNum_,
    string _serialNumber_
 )
+```
 
 #### Parameters
 
@@ -48,8 +51,6 @@ To use primary bin suggestions/recommendations, please see the remarks on the [T
 To allow for multiple calls to this API to be performed without extra complex transitions being added to the system, set the [UseTransitions](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup~UseTransitions.md) property of the [FulfillPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup.md) object, or the _useTransitions_ parameter of the respective overloads to false. Note that the last call to [FulfillPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest.md) in the chain of calls should have this value set to true to ensure the transitions are checked and the condition/status is updated properly.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

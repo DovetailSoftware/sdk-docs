@@ -11,7 +11,7 @@ Initializes a new instance of the AddLocationServicingSiteSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _locationName_ As String, _
    ByVal _locationRank_ As Short _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AddLocationServicingSiteSetup( 
    string _siteIDNum_,
    string _locationName_,
    short _locationRank_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _locationRank_
 The rank of this inventory location at the associated site
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

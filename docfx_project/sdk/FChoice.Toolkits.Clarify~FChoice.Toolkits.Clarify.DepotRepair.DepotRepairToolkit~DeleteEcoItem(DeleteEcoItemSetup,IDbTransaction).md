@@ -9,17 +9,20 @@ Delete an ECO Item. This overload takes a setup object and a database transactio
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DeleteEcoItem( _
-   ByVal _setupParam_ As [DeleteEcoItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoItemSetup.md), _
+   ByVal _setupParam_ As DeleteEcoItemSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DeleteEcoItem( 
-   [DeleteEcoItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoItemSetup.md) _setupParam_,
+```csharp
+public ToolkitResult DeleteEcoItem( 
+   DeleteEcoItemSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

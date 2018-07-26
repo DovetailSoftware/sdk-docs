@@ -9,17 +9,20 @@ Determine if a user can change status from an old condition/status to a new cond
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CheckClearQualityTransition( _
-   ByVal _setupParam_ As [CheckClearQualityTransitionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CheckClearQualityTransitionSetup.md), _
+   ByVal _setupParam_ As CheckClearQualityTransitionSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CheckClearQualityTransition( 
-   [CheckClearQualityTransitionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CheckClearQualityTransitionSetup.md) _setupParam_,
+```csharp
+public ToolkitResult CheckClearQualityTransition( 
+   CheckClearQualityTransitionSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

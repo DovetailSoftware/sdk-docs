@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shadows ReadOnly Default Property Item( _
    ByVal _countryName_ As String _
-) As [Country](fcSDK~FChoice.Foundation.Clarify.DataObjects.Country.md)
+) As Country
+```
 
-public new [Country](fcSDK~FChoice.Foundation.Clarify.DataObjects.Country.md) this\[ 
+```csharp
+public new Country this[ 
    string _countryName_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
 _countryName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

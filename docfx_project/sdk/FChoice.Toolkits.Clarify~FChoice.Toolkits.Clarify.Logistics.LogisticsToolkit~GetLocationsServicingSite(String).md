@@ -7,15 +7,18 @@ Returns a list of the locations (in the proper order) servicing this site. This 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetLocationsServicingSite( _
    ByVal _siteIDNum_ As String _
-) As [GetLocationsServicingSiteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteResult.md)
+) As GetLocationsServicingSiteResult
+```
 
-public [GetLocationsServicingSiteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteResult.md) GetLocationsServicingSite( 
+```csharp
+public GetLocationsServicingSiteResult GetLocationsServicingSite( 
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -25,13 +28,11 @@ Identifier of the Site that the inventory locations are servicing
 
 #### Return Value
 
-The following values are populated in the [GetLocationsServicingSiteResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteResult.md) object returned by the API method:
+The following values are populated in the GetLocationsServicingSiteResult object returned by the API method:
 
-*   [InventoryLocationObjidList](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteResult~InventoryLocationObjidList.md) \- An array of Inventory Location objid's.
+*   InventoryLocationObjidList \- An array of Inventory Location objid's.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

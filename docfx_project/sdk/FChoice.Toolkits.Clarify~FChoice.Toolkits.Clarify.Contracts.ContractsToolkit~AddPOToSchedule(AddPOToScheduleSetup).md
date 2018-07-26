@@ -7,15 +7,18 @@ Used to add purchase orders to schedules of contracts. This overload takes a set
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddPOToSchedule( _
-   ByVal _setupParam_ As [AddPOToScheduleSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ AddPOToScheduleSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddPOToSchedule( 
-   [AddPOToScheduleSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup.md) _setupParam_
+```csharp
+public ToolkitResult AddPOToSchedule( 
+   AddPOToScheduleSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -35,8 +38,6 @@ Remarks
 The PO number cannot be defined already for the schedule.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

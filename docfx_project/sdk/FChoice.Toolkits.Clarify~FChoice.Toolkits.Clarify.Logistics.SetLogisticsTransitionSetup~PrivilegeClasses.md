@@ -5,21 +5,22 @@ An array of Strings which are the names of the privilege classes allowed to perf
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property PrivilegeClasses As [String()](#)
+<PropertyBitValueAttribute()>
+Public Property PrivilegeClasses As String()
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string[] PrivilegeClasses {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If this string array contains "ALLCLASSES", all privclasses can make the transition. If this string array contains "NOCLASSES", no privclasses can make this transition  
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

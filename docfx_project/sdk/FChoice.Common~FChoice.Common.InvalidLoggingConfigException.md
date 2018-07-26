@@ -4,6 +4,7 @@ Syntax
 
 ```vbnet
 'Declaration
+
 <SerializableAttribute()>
 Public Class InvalidLoggingConfigException 
    Inherits FCExceptionBase
@@ -17,7 +18,7 @@ public class InvalidLoggingConfigException : FCExceptionBase
 Inheritance Hierarchy
 
 System.Object  
-   [System.Exception](#)  
+   System.Exception  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             **FChoice.Common.InvalidLoggingConfigException**  

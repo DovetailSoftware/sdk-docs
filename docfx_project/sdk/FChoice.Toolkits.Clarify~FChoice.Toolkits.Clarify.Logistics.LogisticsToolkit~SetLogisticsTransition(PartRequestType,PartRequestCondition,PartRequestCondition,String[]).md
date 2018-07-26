@@ -13,21 +13,24 @@ Allows you to create or modify Logistics Transitions in the database. This overl
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function SetLogisticsTransition( _
-   ByVal _partRequestType_ As [PartRequestType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestType.md), _
-   ByVal _startCondition_ As [PartRequestCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestCondition.md), _
-   ByVal _endCondition_ As [PartRequestCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestCondition.md), _
+   ByVal _partRequestType_ As PartRequestType, _
+   ByVal _startCondition_ As PartRequestCondition, _
+   ByVal _endCondition_ As PartRequestCondition, _
    ByVal ParamArray _privilegeClasses_() As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) SetLogisticsTransition( 
-   [PartRequestType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestType.md) _partRequestType_,
-   [PartRequestCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestCondition.md) _startCondition_,
-   [PartRequestCondition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestCondition.md) _endCondition_,
+```csharp
+public ToolkitResult SetLogisticsTransition( 
+   PartRequestType _partRequestType_,
+   PartRequestCondition _startCondition_,
+   PartRequestCondition _endCondition_,
    params string[] _privilegeClasses_
 )
+```
 
 #### Parameters
 
@@ -56,8 +59,6 @@ Remarks
 If a transition does not yet exist for the conditions and request type, a new transition is created. Otherwise, the existing transition is modified.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

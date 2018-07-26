@@ -5,10 +5,14 @@ Used by the [CloseOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarif
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CloseOpportunitySetup 
+'Declaration
 
-public class CloseOpportunitySetup 
+Public Class CloseOpportunitySetup 
+```
+
+```csharp
+public class CloseOpportunitySetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

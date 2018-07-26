@@ -5,10 +5,14 @@ Used by the [YankSubcase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sup
 Syntax
 
 ```vbnet
-' Declaration
-Public Class YankSubcaseSetup 
+'Declaration
 
-public class YankSubcaseSetup 
+Public Class YankSubcaseSetup 
+```
+
+```csharp
+public class YankSubcaseSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

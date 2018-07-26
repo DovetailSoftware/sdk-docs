@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743822)>
 ReadOnly Property records As ADODB.Recordset
+```
 
+```csharp
 [DispIdAttribute(1610743822)]
 ADODB.Recordset records {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

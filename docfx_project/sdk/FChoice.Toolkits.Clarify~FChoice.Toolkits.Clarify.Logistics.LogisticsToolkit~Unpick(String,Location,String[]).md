@@ -13,19 +13,22 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function Unpick( _
    ByVal _partRequestDetailIDNum_ As String, _
-   ByVal _location_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
+   ByVal _location_ As Location, _
    ByVal ParamArray _serialNumbers_() As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) Unpick( 
+```csharp
+public ToolkitResult Unpick( 
    string _partRequestDetailIDNum_,
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _location_,
+   Location _location_,
    params string[] _serialNumbers_
 )
+```
 
 #### Parameters
 
@@ -56,8 +59,6 @@ To allow for multiple calls to this API to be performed without extra complex t
 If the part request was created using a serialized site part, then in order to unpick an inventory part you must use one of the serial numbers variants of this API and specify new serial numbers or use the keyword "inventory" as the only serial number. Specifying "inventory" as the only serial number will force this API to ignore the serial number stored in the part request and allow the unpick to occur from inventory parts.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

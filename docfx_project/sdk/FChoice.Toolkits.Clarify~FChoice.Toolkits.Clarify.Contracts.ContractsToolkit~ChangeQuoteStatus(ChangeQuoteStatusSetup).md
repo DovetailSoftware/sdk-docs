@@ -7,15 +7,18 @@ Causes the specified quote to have its status changed. This overload takes a set
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeQuoteStatus( _
-   ByVal _setupParam_ As [ChangeQuoteStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ChangeQuoteStatusSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ChangeQuoteStatusSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeQuoteStatus( 
-   [ChangeQuoteStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ChangeQuoteStatusSetup.md) _setupParam_
+```csharp
+public ToolkitResult ChangeQuoteStatus( 
+   ChangeQuoteStatusSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The quote may be in any valid condition, but the status selected MUST be valid for the current condition. In other words, you cannot assign an Active Contract condition status to a quote that is currently in Quote condition.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

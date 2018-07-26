@@ -9,15 +9,18 @@ This overload takes a set of required parameters for the API.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ReopenPartRequest( _
    ByVal _partRequestDetailIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ReopenPartRequest( 
+```csharp
+public ToolkitResult ReopenPartRequest( 
    string _partRequestDetailIDNum_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ The Part Request must currently be closed. The WIPBIN in which to place the part
 This API will validate that the user has authority to make the status transition.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

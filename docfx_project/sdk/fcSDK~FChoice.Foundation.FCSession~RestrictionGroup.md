@@ -5,18 +5,20 @@ Returns the data restriction group being used by the session.
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property RestrictionGroup As [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md)
+'Declaration
 
-public [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md) RestrictionGroup {get;}
+Public ReadOnly Property RestrictionGroup As RestrictionGroup
+```
+
+```csharp
+public RestrictionGroup RestrictionGroup {get;}
+```
 
 #### Property Value
 
 Returns the data restriction group being used by the session.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

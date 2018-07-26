@@ -7,15 +7,18 @@ Ends an asynchronous **ClarifyApplication** initialization.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function EndInitialize( _
-   ByVal _result_ As [IAsyncResult](#) _
-) As [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md)
+   ByVal _result_ As IAsyncResult _
+) As ClarifyApplication
+```
 
-public static [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) EndInitialize( 
-   [IAsyncResult](#) _result_
+```csharp
+public static ClarifyApplication EndInitialize( 
+   IAsyncResult _result_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ Remarks
 Please see the [Asynchronous Design Pattern Overview](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpguide/html/cpconasynchronousdesignpatternoverview.asp) for more details on using asynchronous methods.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

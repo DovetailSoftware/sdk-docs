@@ -11,20 +11,20 @@ Syntax
 ```vbnet
 'Declaration
 
-Public Overloads Function AddNew() As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)
+Public Overloads Function AddNew() As ClarifyDataRow
 ```
 
 ```csharp
-public [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) AddNew()
+public ClarifyDataRow AddNew()
 ```
 
 #### Return Value
 
-A new [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) with the same fields as the current **ClarifyGeneric** present.
+A new ClarifyDataRow with the same fields as the current **ClarifyGeneric** present.
 
 Remarks
 
-All fields are initialized with their default values (i.e. NULL for relations, 0 for integer fields, etc). You can set individual fields using the [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) [indexer](fcSDK~FChoice.Foundation.GenericDataRow~Item.md) and relate rows using one of the relate methods, such as [RelateRecord](fcSDK~FChoice.Foundation.GenericDataRow~RelateRecord.md). You can relate newly-added rows to other rows (even other newly-added rows). [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) will resolve the objIds of new records properly when [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) or [UpdateAll](fcSDK~FChoice.Foundation.FCGeneric~UpdateAll.md) is called.
+All fields are initialized with their default values (i.e. NULL for relations, 0 for integer fields, etc). You can set individual fields using the [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) indexer and relate rows using one of the relate methods, such as RelateRecord. You can relate newly-added rows to other rows (even other newly-added rows). [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) will resolve the objIds of new records properly when Update or [UpdateAll](fcSDK~FChoice.Foundation.FCGeneric~UpdateAll.md) is called.
 
 If you do not supply an objId, **ClarifyGeneric**  will generate a proper objId for the newly-added row. A custom objId can be provided and **ClarifyGeneric** will not tamper with the objId. It is the responsibility of the caller to ensure that the custom objId is unique within the system, otherwise data corruption could occur.
 

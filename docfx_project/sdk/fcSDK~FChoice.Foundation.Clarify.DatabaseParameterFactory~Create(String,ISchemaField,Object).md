@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function Create( _
    ByVal _paramName_ As String, _
-   ByVal _schemaField_ As [ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md), _
+   ByVal _schemaField_ As ISchemaField, _
    ByVal _paramValue_ As Object _
 ) As IDbDataParameter
+```
 
+```csharp
 public IDbDataParameter Create( 
    string _paramName_,
-   [ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md) _schemaField_,
+   ISchemaField _schemaField_,
    object _paramValue_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _schemaField_
 _paramValue_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

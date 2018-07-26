@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function And( _
-   ByVal _filter1_ As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md), _
-   ByVal _filter2_ As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _
-) As [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md)
+   ByVal _filter1_ As Filter, _
+   ByVal _filter2_ As Filter _
+) As AndFilter
+```
 
-public [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md) And( 
-   [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _filter1_,
-   [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _filter2_
+```csharp
+public AndFilter And( 
+   Filter _filter1_,
+   Filter _filter2_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _filter1_
 _filter2_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

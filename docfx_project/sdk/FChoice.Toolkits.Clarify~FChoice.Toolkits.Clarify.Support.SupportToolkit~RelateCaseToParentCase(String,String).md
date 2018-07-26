@@ -9,17 +9,20 @@ Relates a Case to a specified parent Case. This overload takes a set of required
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RelateCaseToParentCase( _
    ByVal _caseIDNum_ As String, _
    ByVal _parentCaseIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RelateCaseToParentCase( 
+```csharp
+public ToolkitResult RelateCaseToParentCase( 
    string _caseIDNum_,
    string _parentCaseIDNum_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The parent Case cannot be a descendent of the child Case.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

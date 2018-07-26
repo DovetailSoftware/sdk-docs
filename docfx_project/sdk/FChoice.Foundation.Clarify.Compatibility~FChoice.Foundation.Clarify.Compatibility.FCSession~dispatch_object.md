@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function dispatch_object( _
    ByVal _objId_ As String, _
@@ -13,7 +13,9 @@ Public Function dispatch_object( _
    ByVal _generateTimeBombs_ As Boolean, _
    ByVal _objectType_ As String _
 ) As Short
+```
 
+```csharp
 public short dispatch_object( 
    string _objId_,
    string _queueName_,
@@ -22,6 +24,7 @@ public short dispatch_object(
    bool _generateTimeBombs_,
    string _objectType_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ _generateTimeBombs_
 _objectType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

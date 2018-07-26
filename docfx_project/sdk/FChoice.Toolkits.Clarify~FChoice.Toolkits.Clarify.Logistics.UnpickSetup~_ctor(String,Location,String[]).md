@@ -11,21 +11,24 @@ Initializes a new instance of the UnpickSetup class. This overload takes a set o
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partRequestDetailIDNum_ As String, _
-   ByVal _location_ As [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md), _
+   ByVal _location_ As Location, _
    ByVal ParamArray _serialNumbers_() As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UnpickSetup( 
    string _partRequestDetailIDNum_,
-   [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.md) _location_,
+   Location _location_,
    params string[] _serialNumbers_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _serialNumbers_
 The serial number(s) of the part(s) to unpick (hard unpick)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

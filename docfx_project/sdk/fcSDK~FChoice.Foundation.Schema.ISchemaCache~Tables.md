@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-ReadOnly Property Tables As [ISchemaTableCollection](fcSDK~FChoice.Foundation.Schema.ISchemaTableCollection.md)
+ReadOnly Property Tables As ISchemaTableCollection
+```
 
-[ISchemaTableCollection](fcSDK~FChoice.Foundation.Schema.ISchemaTableCollection.md) Tables {get;}
+```csharp
+ISchemaTableCollection Tables {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

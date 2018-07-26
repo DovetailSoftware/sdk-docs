@@ -7,15 +7,18 @@ Add a User to a Queue. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddUserToQueue( _
-   ByVal _setupParam_ As [AddUserToQueueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ AddUserToQueueSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddUserToQueue( 
-   [AddUserToQueueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup.md) _setupParam_
+```csharp
+public ToolkitResult AddUserToQueue( 
+   AddUserToQueueSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Queue the user was added to.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

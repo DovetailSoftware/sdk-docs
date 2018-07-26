@@ -7,17 +7,20 @@ Initializes a new instance of the DeleteTimeLogSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _timeLogObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DeleteTimeLogSetup( 
    int _timeLogObjid_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _timeLogObjid_
 The Objid of the Time Log being deleted.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

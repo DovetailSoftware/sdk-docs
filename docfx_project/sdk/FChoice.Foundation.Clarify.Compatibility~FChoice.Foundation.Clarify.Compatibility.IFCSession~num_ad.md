@@ -1,18 +1,20 @@
-﻿### num_ad Property (IFCSession)
+### num_ad Property (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743835)>
 Property num_ad As Short
+```
 
+```csharp
 [DispIdAttribute(1610743835)]
 short num_ad {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

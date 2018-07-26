@@ -5,11 +5,14 @@ Creates a new Action Item. This overload takes a set of required parameters for 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Overloads Function CreateActionItem() As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+Public Overloads Function CreateActionItem() As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateActionItem()
+```csharp
+public ToolkitResult CreateActionItem()
+```
 
 #### Return Value
 
@@ -23,8 +26,6 @@ Remarks
 If the new Action Item is related a contact, all three of the contact fields must be supplied. Likewise, if associated to a lead, both lead fields must be supplied.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

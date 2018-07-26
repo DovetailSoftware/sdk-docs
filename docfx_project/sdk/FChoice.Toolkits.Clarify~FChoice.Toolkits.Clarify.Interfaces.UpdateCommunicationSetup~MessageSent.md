@@ -5,15 +5,16 @@ The date and time that the communication was sent.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property MessageSent As Date
+```
 
+```csharp
 public DateTime MessageSent {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

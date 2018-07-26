@@ -9,17 +9,20 @@ Reject the Subcase from the queue in which it currently resides, and return it t
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RejectSubcase( _
-   ByVal _setupParam_ As [RejectSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectSubcaseSetup.md), _
+   ByVal _setupParam_ As RejectSubcaseSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RejectSubcase( 
-   [RejectSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectSubcaseSetup.md) _setupParam_,
+```csharp
+public ToolkitResult RejectSubcase( 
+   RejectSubcaseSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

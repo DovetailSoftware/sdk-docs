@@ -11,7 +11,7 @@ Initializes a new instance of the CreateTimeLogSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _startDate_ As Date, _
    ByVal _duration_ As TimeSpan _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateTimeLogSetup( 
    int _onsiteLogObjid_,
    DateTime _startDate_,
    TimeSpan _duration_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _duration_
 The length (in seconds) of the Time Log. If not specified, it is calculated from the start and end times.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

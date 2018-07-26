@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Sub InitializeManager( _
    ByVal _applicationName_ As String, _

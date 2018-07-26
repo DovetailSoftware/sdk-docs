@@ -5,16 +5,18 @@ For any Billing Frequency except "OneTime," select whether the customer is bille
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property BillingOption As [BillingOption](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.BillingOption.md)
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [BillingOption](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.BillingOption.md) BillingOption {get; set;}
+<PropertyBitValueAttribute()>
+Public Property BillingOption As BillingOption
+```
+
+```csharp
+[PropertyBitValueAttribute()]
+public BillingOption BillingOption {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

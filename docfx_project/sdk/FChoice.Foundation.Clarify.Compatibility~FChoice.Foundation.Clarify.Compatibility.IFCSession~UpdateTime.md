@@ -1,19 +1,20 @@
-﻿### UpdateTime Property (IFCSession)
+### UpdateTime Property (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743809)>
 ReadOnly Property UpdateTime As Date
+```
 
+```csharp
 [DispIdAttribute(1610743809)]
 DateTime UpdateTime {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

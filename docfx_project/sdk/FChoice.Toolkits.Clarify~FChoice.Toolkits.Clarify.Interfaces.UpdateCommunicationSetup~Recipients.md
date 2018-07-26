@@ -5,15 +5,16 @@ Array of Recipient addresses (usually email addresses).
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property Recipients As [String()](#)
+Public Property Recipients As String()
+```
 
+```csharp
 public string[] Recipients {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

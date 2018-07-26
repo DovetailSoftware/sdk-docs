@@ -5,11 +5,15 @@ Filter field on dates occuring on the the input to this filter
 Syntax
 
 ```vbnet
-' Declaration
-Public Class OnFilter 
-   Inherits [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)
+'Declaration
 
-public class OnFilter : [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md) 
+Public Class OnFilter 
+   Inherits BetweenFilter
+```
+
+```csharp
+public class OnFilter : BetweenFilter
+```
 
 Example
 
@@ -32,8 +36,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

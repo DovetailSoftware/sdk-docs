@@ -3,24 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743915)>
 Sub ExecuteSQLNoReturn( _
    ByVal _sql_ As String _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743915)]
 void ExecuteSQLNoReturn( 
    string _sql_
 )
+```
 
 #### Parameters
 
 _sql_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

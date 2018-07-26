@@ -9,17 +9,20 @@ Remove an Employee from an Account. This overload takes a setup object and a dat
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RemoveEmployeeFromAccount( _
-   ByVal _setupParam_ As [RemoveEmployeeFromAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveEmployeeFromAccountSetup.md), _
+   ByVal _setupParam_ As RemoveEmployeeFromAccountSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RemoveEmployeeFromAccount( 
-   [RemoveEmployeeFromAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveEmployeeFromAccountSetup.md) _setupParam_,
+```csharp
+public ToolkitResult RemoveEmployeeFromAccount( 
+   RemoveEmployeeFromAccountSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

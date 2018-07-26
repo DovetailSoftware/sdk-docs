@@ -5,18 +5,20 @@ Time that the phone call lasted.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property Duration As TimeSpan
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public TimeSpan Duration {get; set;}
+```
 
-Requirements
+[equirements
 
 Must be specified as a number greater than zero.
-
-
 
 #### Reference
 

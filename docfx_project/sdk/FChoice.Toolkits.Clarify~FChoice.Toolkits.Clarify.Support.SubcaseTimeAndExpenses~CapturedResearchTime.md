@@ -5,15 +5,16 @@ Captured research time.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property CapturedResearchTime As TimeSpan
+```
 
+```csharp
 public TimeSpan CapturedResearchTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

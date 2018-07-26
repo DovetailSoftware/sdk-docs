@@ -5,15 +5,16 @@ The delivery status of the communication ([CommunicationDeliveryStatus](FChoic
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property DeliveryStatus As [Nullable(Of CommunicationDeliveryStatus)](#)
+Public Property DeliveryStatus As Nullable(Of CommunicationDeliveryStatus)
+```
 
-public [Nullable<CommunicationDeliveryStatus>](#) DeliveryStatus {get; set;}
+```csharp
+public Nullable<CommunicationDeliveryStatus> DeliveryStatus {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -2,20 +2,23 @@
 
 The session under which the toolkit APIs will be executed.
 
-Initializes a new instance of the FieldOpsToolkit class using a [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) object.
+Initializes a new instance of the FieldOpsToolkit class using a ClarifySession object.
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _session_ As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) _
+   ByVal _session_ As ClarifySession _
 )
+```
 
+```csharp
 public FieldOpsToolkit( 
-   [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) _session_
+   ClarifySession _session_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ Remarks
 If the toolkit session was **created** as a **Contact** session this property is required otherwise errors will result.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

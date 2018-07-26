@@ -1,14 +1,18 @@
-﻿### DispatchOpportunitySetup Class
+### DispatchOpportunitySetup Class
 
 Used by the [DispatchOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~DispatchOpportunity(DispatchOpportunitySetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-' Declaration
-Public Class DispatchOpportunitySetup 
+'Declaration
 
+Public Class DispatchOpportunitySetup 
+```
+
+```csharp
 public class DispatchOpportunitySetup 
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

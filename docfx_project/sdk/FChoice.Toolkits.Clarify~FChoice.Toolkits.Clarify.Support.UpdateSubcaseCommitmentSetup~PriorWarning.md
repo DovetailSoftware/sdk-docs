@@ -5,7 +5,7 @@ How long before the Commitment expires will the owner will be warned.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <PropertyBitValueAttribute()>
 Public Property PriorWarning As TimeSpan

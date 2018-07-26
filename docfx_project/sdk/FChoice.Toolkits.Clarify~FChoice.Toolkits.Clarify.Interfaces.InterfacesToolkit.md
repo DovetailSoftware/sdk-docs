@@ -5,12 +5,15 @@ Provides APIs to allow you to modify common Clarify objects such as Contacts, Si
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class InterfacesToolkit 
-   Inherits [InterfacesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase.md)
+   Inherits InterfacesToolkitBase
+```
 
-public class InterfacesToolkit : [InterfacesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase.md) 
+```csharp
+public class InterfacesToolkit : InterfacesToolkitBase
+``` 
 
 Inheritance Hierarchy
 
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class FCString 
    Inherits ClarifyDataObject
@@ -14,7 +14,7 @@ Public Class FCString
 public class FCString : ClarifyDataObject, FChoice.Foundation.DataObjects.IDataObject  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

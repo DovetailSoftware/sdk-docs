@@ -3,15 +3,19 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DefaultMemberAttribute("Item")>
 Public Class CountryCollection 
-   Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of Country)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
+   Inherits FChoice.Foundation.DataObjects.DataObjectCollection(Of Country)
+```
 
+```csharp
 [DefaultMemberAttribute("Item")]
-public class CountryCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<Country>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md) 
+public class CountryCollection : FChoice.Foundation.DataObjects.DataObjectCollection<Country> 
+```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  
@@ -25,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _methodName_ As String _
 )
+```
 
+```csharp
 public SplitMethodAttribute( 
    string _methodName_
 )
+```
 
 #### Parameters
 
 _methodName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,15 +7,18 @@ Update a Dialogue.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateDialogue( _
-   ByVal _updateDialogueSetup_ As [UpdateDialogueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateDialogueSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _updateDialogueSetup_ UpdateDialogueSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateDialogue( 
-   [UpdateDialogueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateDialogueSetup.md) _updateDialogueSetup_
+```csharp
+public ToolkitResult UpdateDialogue( 
+   UpdateDialogueSetup _updateDialogueSetup_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _updateDialogueSetup_
 Setup object for API invocation.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

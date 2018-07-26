@@ -5,10 +5,14 @@ Used by the [UpdateEcoLaborDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Cl
 Syntax
 
 ```vbnet
-' Declaration
-Public Class UpdateEcoLaborDetailSetup 
+'Declaration
 
-public class UpdateEcoLaborDetailSetup 
+Public Class UpdateEcoLaborDetailSetup 
+```
+
+```csharp
+public class UpdateEcoLaborDetailSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

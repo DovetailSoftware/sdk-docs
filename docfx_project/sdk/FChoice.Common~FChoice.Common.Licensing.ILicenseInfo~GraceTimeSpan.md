@@ -4,11 +4,11 @@ Syntax
 
 ```vbnet
 'Declaration
-ReadOnly Property GraceTimeSpan As [GracePeriodTimeSpan](FChoice.Common~FChoice.Common.Licensing.GracePeriodTimeSpan.md)
+ReadOnly Property GraceTimeSpan As GracePeriodTimeSpan
 ```
 
 ```csharp
-[GracePeriodTimeSpan](FChoice.Common~FChoice.Common.Licensing.GracePeriodTimeSpan.md) GraceTimeSpan {get;}
+GracePeriodTimeSpan GraceTimeSpan {get;}
 ```
 
 [!include[Requirements](../partials/requirements.md)]

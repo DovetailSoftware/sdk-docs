@@ -3,7 +3,8 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743888)>
 Function GetItem( _
    ByVal _path_ As String, _
@@ -11,7 +12,9 @@ Function GetItem( _
    ByVal _stopItem_ As Short, _
    ByVal _separator_ As String _
 ) As String
+```
 
+```csharp
 [DispIdAttribute(1610743888)]
 string GetItem( 
    string _path_,
@@ -19,6 +22,7 @@ string GetItem(
    short _stopItem_,
    string _separator_
 )
+```
 
 #### Parameters
 
@@ -31,8 +35,6 @@ _stopItem_
 _separator_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

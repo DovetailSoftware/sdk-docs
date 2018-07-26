@@ -15,7 +15,7 @@ Initializes a new instance of the CreatePartRequestDetailSetup class. This overl
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -25,7 +25,9 @@ Public Function New( _
    ByVal _partRevision_ As String, _
    ByVal _serialNumber_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreatePartRequestDetailSetup( 
    string _partRequestHeaderIDNum_,
@@ -34,6 +36,7 @@ public CreatePartRequestDetailSetup(
    string _partRevision_,
    string _serialNumber_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ _serialNumber_
 The serial number of the Site Part specified for this Part Request
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

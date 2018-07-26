@@ -5,11 +5,15 @@ Logical filter allowing 2 AND (inclusive) filters.
 Syntax
 
 ```vbnet
-' Declaration
-Public Class AndFilter 
-   Inherits [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md)
+'Declaration
 
-public class AndFilter : [LogicalFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter.md) 
+Public Class AndFilter 
+   Inherits LogicalFilter
+```
+
+```csharp
+public class AndFilter : LogicalFilter
+```
 
 Example
 
@@ -29,8 +33,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

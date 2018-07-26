@@ -9,17 +9,20 @@ Update an ECO Material Detail. This overload takes a setup object and a database
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateEcoMaterialDetail( _
-   ByVal _setupParam_ As [UpdateEcoMaterialDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoMaterialDetailSetup.md), _
+   ByVal _setupParam_ As UpdateEcoMaterialDetailSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateEcoMaterialDetail( 
-   [UpdateEcoMaterialDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoMaterialDetailSetup.md) _setupParam_,
+```csharp
+public ToolkitResult UpdateEcoMaterialDetail( 
+   UpdateEcoMaterialDetailSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

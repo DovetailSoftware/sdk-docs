@@ -5,20 +5,22 @@ Identifier of the Site where the Employee is located.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property SiteIDNum As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string SiteIDNum {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Must be a valid Site Identifier
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

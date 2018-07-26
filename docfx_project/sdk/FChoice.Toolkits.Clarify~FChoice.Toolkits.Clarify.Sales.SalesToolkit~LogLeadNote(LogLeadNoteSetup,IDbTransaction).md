@@ -9,17 +9,20 @@ Log a note for a Lead. This overload takes a setup object and a database transac
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogLeadNote( _
-   ByVal _setupParam_ As [LogLeadNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup.md), _
+   ByVal _setupParam_ As LogLeadNoteSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogLeadNote( 
-   [LogLeadNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup.md) _setupParam_,
+```csharp
+public ToolkitResult LogLeadNote( 
+   LogLeadNoteSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

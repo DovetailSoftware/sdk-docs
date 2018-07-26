@@ -5,16 +5,18 @@ How long before the Commitment expires will the owner will be warned. If not set
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property CommitmentPriorWarning As TimeSpan
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property CommitmentPriorWarning As TimeSpan
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public TimeSpan CommitmentPriorWarning {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

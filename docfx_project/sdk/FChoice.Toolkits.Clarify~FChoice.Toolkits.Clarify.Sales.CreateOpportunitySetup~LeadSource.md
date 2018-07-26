@@ -5,21 +5,22 @@ Lead source for the opportunity.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property LeadSource As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string LeadSource {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Must be a valid lead source from the database. If not specified, the default lead source is used.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

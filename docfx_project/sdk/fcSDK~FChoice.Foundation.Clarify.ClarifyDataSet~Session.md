@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property Session As [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
+'Declaration
 
-public [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) Session {get;}
+Public ReadOnly Property Session As ClarifySession
+```
+
+```csharp
+public ClarifySessionSession {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

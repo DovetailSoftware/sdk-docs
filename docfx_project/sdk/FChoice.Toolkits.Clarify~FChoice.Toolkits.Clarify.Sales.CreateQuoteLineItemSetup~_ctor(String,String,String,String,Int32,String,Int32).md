@@ -31,7 +31,9 @@ Public Function New( _
    ByVal _priceSchedule_ As String, _
    ByVal _parentLineItemObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateQuoteLineItemSetup( 
    string _contractIDNum_,
@@ -42,6 +44,7 @@ public CreateQuoteLineItemSetup(
    string _priceSchedule_,
    int _parentLineItemObjid_
 )
+```
 ```
 
 #### Parameters

@@ -9,17 +9,20 @@ Used to move an existing site part from its current location to the top-level a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function MoveSitePartToSite( _
-   ByVal _setupParam_ As [MoveSitePartToSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToSiteSetup.md), _
+   ByVal _setupParam_ As MoveSitePartToSiteSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) MoveSitePartToSite( 
-   [MoveSitePartToSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToSiteSetup.md) _setupParam_,
+```csharp
+public ToolkitResult MoveSitePartToSite( 
+   MoveSitePartToSiteSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

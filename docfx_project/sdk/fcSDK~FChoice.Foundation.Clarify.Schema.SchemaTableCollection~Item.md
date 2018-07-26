@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shadows ReadOnly Default Property Item( _
    ByVal _tableName_ As String _
-) As [SchemaTable](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTable.md)
+) As SchemaTable
+```
 
-public new [SchemaTable](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTable.md) this\[ 
+```csharp
+public new SchemaTable this[ 
    string _tableName_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
 _tableName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,26 +1,25 @@
-﻿     Get<T,V> Method                                                   
-
-fcSDK Documentation
-
-Get<T,V> Method
+﻿### Get<T,V> Method
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[ExtensionAttribute](#)()>
+<ExtensionAttribute()>
 Public Shared Function Get
     (Of T,V)( _
-   ByVal _dictionary_ As [IDictionary(Of T,V)](#), _
+   ByVal _dictionary_ As IDictionary(Of T,V), _
    ByVal _key_ As T _
 ) As V
+```
 
-\[[ExtensionAttribute](#)()\]
+```csharp
+[ExtensionAttribute()]
 public static V Get<T,V>( 
-   [IDictionary<T,V>](#) _dictionary_,
+   IDictionary<T,V> _dictionary_,
    T _key_
 )
+```
 
 #### Parameters
 
@@ -35,8 +34,6 @@ _T_
 _V_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

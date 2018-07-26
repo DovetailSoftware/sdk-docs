@@ -9,17 +9,20 @@ Used to create an onsite log that is related to a case or subcase. This overload
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateOnsiteLog( _
-   ByVal _setupParam_ As [CreateOnsiteLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateOnsiteLogSetup.md), _
+   ByVal _setupParam_ As CreateOnsiteLogSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateOnsiteLog( 
-   [CreateOnsiteLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateOnsiteLogSetup.md) _setupParam_,
+```csharp
+public ToolkitResult CreateOnsiteLog( 
+   CreateOnsiteLogSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

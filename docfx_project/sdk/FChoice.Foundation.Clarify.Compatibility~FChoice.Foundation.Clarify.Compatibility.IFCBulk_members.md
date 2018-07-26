@@ -1,6 +1,6 @@
 ﻿### IFCBulk Interface Members
 
-The following tables list the members exposed by [IFCBulk](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk.md).
+The following tables list the members exposed by IFCBulk.
 
 Public Properties
 
@@ -9,8 +9,6 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [BulkID](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~BulkID.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Name](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~Name.md) |   |
 | ![ Property](dotnetimages/Property.png) | [NoSorting](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~NoSorting.md) |   |
-
-
 
 Public Methods
 
@@ -24,10 +22,6 @@ Public Methods
 | ![ Method](dotnetimages/Method.png) | [RemoveGeneric](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~RemoveGeneric.md) |   |
 | ![ Method](dotnetimages/Method.png) | [Update](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~Update.md) |   |
 | ![ Method](dotnetimages/Method.png) | [UpdateAll](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~UpdateAll.md) |   |
-
-
-
-
 
 #### Reference
 

@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function Accept( _
    ByVal _idNum_ As String, _
@@ -12,9 +12,11 @@ Public Function Accept( _
    ByVal _acceptDate_ As Date, _
    ByVal _userName_ As String, _
    ByVal _generateTimeBomb_ As Boolean _
-) As [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md)
+) As WorkFlowInfo
+```
 
-public [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md) Accept( 
+```csharp
+public WorkFlowInfo Accept( 
    string _idNum_,
    string _objectName_,
    string _wipBin_,
@@ -22,6 +24,7 @@ public [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md)
    string _userName_,
    bool _generateTimeBomb_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ _userName_
 _generateTimeBomb_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,10 +5,14 @@ Used by the [CreateProductBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarif
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CreateProductBinSetup 
+'Declaration
 
-public class CreateProductBinSetup 
+Public Class CreateProductBinSetup 
+```
+
+```csharp
+public class CreateProductBinSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

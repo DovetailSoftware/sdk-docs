@@ -9,7 +9,7 @@ System.Object
 [FChoice.Common.State.OracleStateManager](FChoice.Common~FChoice.Common.State.OracleStateManager.md)  
 [FChoice.Common.State.StateManager](FChoice.Common~FChoice.Common.State.StateManager.md)  
 [FChoice.Common.State.StateManagerSectionHandler](FChoice.Common~FChoice.Common.State.StateManagerSectionHandler.md)  
-[System.Exception](#)  
+System.Exception  
 [System.ApplicationException](#)  
 [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
 [FChoice.Common.State.StateManagerException](FChoice.Common~FChoice.Common.State.StateManagerException.md)  

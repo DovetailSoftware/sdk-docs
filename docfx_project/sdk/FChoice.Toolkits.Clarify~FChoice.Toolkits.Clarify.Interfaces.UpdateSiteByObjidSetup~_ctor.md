@@ -7,17 +7,20 @@ Initializes a new instance of the UpdateSiteByObjidSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _siteObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateSiteByObjidSetup( 
    int _siteObjid_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _siteObjid_
 Objid of the Site being updated
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,17 +5,18 @@ Type of Part Request that this transition applies to
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property PartRequestType As [PartRequestType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestType.md)
+<PropertyBitValueAttribute()>
+Public Property PartRequestType As PartRequestType
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [PartRequestType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestType.md) PartRequestType {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public PartRequestType PartRequestType {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

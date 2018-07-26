@@ -9,12 +9,12 @@ Syntax
 
 <SerializableAttribute()>
 Public MustInherit Class FCExceptionBase 
-   Inherits [System.ApplicationException](#)
+   Inherits System.ApplicationException
 ```
 
 ```csharp
 [SerializableAttribute()]
-public abstract class FCExceptionBase : [System.ApplicationException](#) 
+public abstract class FCExceptionBase : System.ApplicationException 
 ```
 
 Remarks
@@ -38,7 +38,7 @@ Remarks
 Inheritance Hierarchy
 
 System.Object  
-[System.Exception](#)  
+System.Exception  
 [System.ApplicationException](#)  
 **FChoice.Common.FCExceptionBase**  
 [FChoice.Common.CommonException](FChoice.Common~FChoice.Common.CommonException.md)  

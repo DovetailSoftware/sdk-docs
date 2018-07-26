@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property ChildTable As [SchemaTable](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTable.md)
+Public ReadOnly Property ChildTable As SchemaTable
+```
 
-public [SchemaTable](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTable.md) ChildTable {get;}
+```csharp
+public SchemaTable ChildTable {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

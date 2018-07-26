@@ -1,4 +1,4 @@
-﻿### DispatchSolutionSetup Constructor
+### DispatchSolutionSetup Constructor
 
 Solution Identifier.
 
@@ -9,19 +9,22 @@ Initializes a new instance of the DispatchSolutionSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _solutionIDNum_ As String, _
    ByVal _queue_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DispatchSolutionSetup( 
    string _solutionIDNum_,
    string _queue_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _queue_
 The queue into which the Solution is to be dispatched.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

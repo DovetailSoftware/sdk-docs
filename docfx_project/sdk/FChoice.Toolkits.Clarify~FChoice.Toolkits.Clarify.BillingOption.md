@@ -5,11 +5,15 @@ The billing option of the Contract Schedule being created or updated.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Enum BillingOption 
    Inherits System.Enum
+```
 
-public enum BillingOption : System.Enum 
+```csharp
+public enum BillingOption : System.Enum
+```
 
 Members
 
@@ -32,8 +36,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

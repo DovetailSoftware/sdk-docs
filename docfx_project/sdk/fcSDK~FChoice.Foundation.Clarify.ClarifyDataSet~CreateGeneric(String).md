@@ -6,7 +6,7 @@ CreateGeneric(String) Method
 
 The name of the table or view on which the new generic will be based.
 
-Creates a new [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) based on the specified table or view name
+Creates a new ClarifyGeneric based on the specified table or view name
 
 Syntax
 
@@ -15,11 +15,11 @@ Syntax
 
 Public Overloads Overridable Function CreateGeneric( _
    ByVal _tableName_ As String _
-) As [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md)
+) As ClarifyGeneric
 ```
 
 ```csharp
-public virtual [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) CreateGeneric( 
+public virtual ClarifyGeneric CreateGeneric( 
    string _tableName_
 )
 ```
@@ -32,7 +32,7 @@ The name of the table or view on which the new generic will be based.
 
 #### Return Value
 
-A new [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) based on the specified table or view name
+A new ClarifyGeneric based on the specified table or view name
 
 Remarks
 

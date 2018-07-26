@@ -5,12 +5,15 @@ What type of Site is being linked to the Lead
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Enum LeadSiteType 
    Inherits System.Enum
+```
 
-public enum LeadSiteType : System.Enum 
+```csharp
+public enum LeadSiteType : System.Enum
+```
 
 Members
 
@@ -33,8 +36,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

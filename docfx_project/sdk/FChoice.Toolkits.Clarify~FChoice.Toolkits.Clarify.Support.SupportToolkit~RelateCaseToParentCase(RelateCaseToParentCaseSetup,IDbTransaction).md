@@ -9,17 +9,20 @@ Relates a Case to a specified parent Case. This overload takes a setup object an
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RelateCaseToParentCase( _
-   ByVal _setupParam_ As [RelateCaseToParentCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup.md), _
+   ByVal _setupParam_ As RelateCaseToParentCaseSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RelateCaseToParentCase( 
-   [RelateCaseToParentCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup.md) _setupParam_,
+```csharp
+public ToolkitResult RelateCaseToParentCase( 
+   RelateCaseToParentCaseSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

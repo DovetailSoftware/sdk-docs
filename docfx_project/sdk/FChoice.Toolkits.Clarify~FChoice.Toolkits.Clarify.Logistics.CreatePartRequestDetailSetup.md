@@ -5,12 +5,16 @@ Used by the [CreatePartRequestDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Class CreatePartRequestDetailSetup 
+```
 
-public class CreatePartRequestDetailSetup 
+```csharp
+public class CreatePartRequestDetailSetup
+```
 
-Remarks
+#### Remarks
 
 **NOTE**: The [ContractItemObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~ContractItemObjid.md) property should not be set (left as default) unless you need this functionality AND have installed the First Choice ClearCallCenter for ClearLogistics product and schema changes. If you do not have this product and wish to use this functionality, please contact First Choice Software.
 
@@ -26,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

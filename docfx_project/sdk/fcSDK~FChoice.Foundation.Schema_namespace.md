@@ -11,7 +11,7 @@ Interfaces
 | ![Interface](dotnetimages/Interface.png) | [ISchemaFieldCollection](fcSDK~FChoice.Foundation.Schema.ISchemaFieldCollection.md) |   |
 | ![Interface](dotnetimages/Interface.png) | [ISchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) |   |
 | ![Interface](dotnetimages/Interface.png) | [ISchemaRelationCollection](fcSDK~FChoice.Foundation.Schema.ISchemaRelationCollection.md) |   |
-| ![Interface](dotnetimages/Interface.png) | [ISchemaTable](fcSDK~FChoice.Foundation.Schema.ISchemaTable.md) |   |
+| ![Interface](dotnetimages/Interface.png) | ISchemaTable |   |
 | ![Interface](dotnetimages/Interface.png) | [ISchemaTableBase](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase.md) |   |
 | ![Interface](dotnetimages/Interface.png) | [ISchemaTableCollection](fcSDK~FChoice.Foundation.Schema.ISchemaTableCollection.md) |   |
 | ![Interface](dotnetimages/Interface.png) | [ISchemaView](fcSDK~FChoice.Foundation.Schema.ISchemaView.md) |   |

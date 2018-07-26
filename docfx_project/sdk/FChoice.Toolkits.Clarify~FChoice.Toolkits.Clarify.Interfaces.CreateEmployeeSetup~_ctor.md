@@ -19,7 +19,7 @@ Initializes a new instance of the CreateEmployeeSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -31,7 +31,9 @@ Public Function New( _
    ByVal _email_ As String, _
    ByVal _onlinePrivilegeClass_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateEmployeeSetup( 
    string _firstName_,
@@ -42,6 +44,7 @@ public CreateEmployeeSetup(
    string _email_,
    string _onlinePrivilegeClass_
 )
+```
 
 #### Parameters
 
@@ -74,8 +77,6 @@ _onlinePrivilegeClass_
 Online privilege class
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

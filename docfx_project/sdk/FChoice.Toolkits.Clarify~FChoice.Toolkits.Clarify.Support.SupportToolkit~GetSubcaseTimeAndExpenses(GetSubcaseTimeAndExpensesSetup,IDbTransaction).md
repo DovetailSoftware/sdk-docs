@@ -9,17 +9,20 @@ Captures all the summed times (such as phone log time, billable and non-billable
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetSubcaseTimeAndExpenses( _
-   ByVal _setupParam_ As [GetSubcaseTimeAndExpensesSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesSetup.md), _
+   ByVal _setupParam_ As GetSubcaseTimeAndExpensesSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [GetSubcaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult.md)
+) As GetSubcaseTimeAndExpensesResult
+```
 
-public [GetSubcaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult.md) GetSubcaseTimeAndExpenses( 
-   [GetSubcaseTimeAndExpensesSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesSetup.md) _setupParam_,
+```csharp
+public GetSubcaseTimeAndExpensesResult GetSubcaseTimeAndExpenses( 
+   GetSubcaseTimeAndExpensesSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -33,7 +36,7 @@ Database transaction under which the API will be invoked.
 
 #### Return Value
 
-A [GetSubcaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A GetSubcaseTimeAndExpensesResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Remarks
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

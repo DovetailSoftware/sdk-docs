@@ -6,12 +6,13 @@ Syntax
 
 ```vbnet
 'Declaration
+
 Public Class IsNullFilter 
-   Inherits [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md)
+   Inherits ColumnBasedFilter
 ```
 
 ```csharp
-public class IsNullFilter : [ColumnBasedFilter](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.md) 
+public class IsNullFilter : ColumnBasedFilter
 ```
 
 Example
@@ -32,8 +33,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

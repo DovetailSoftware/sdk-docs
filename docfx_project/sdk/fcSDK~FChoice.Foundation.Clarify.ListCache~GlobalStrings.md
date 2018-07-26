@@ -5,11 +5,14 @@ Gets a reference to the [GlobalStringListCollection](fcSDK~FChoice.Foundation.C
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property GlobalStrings As [IGlobalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection.md)
+Public ReadOnly Property GlobalStrings As IGlobalStringListCollection
+```
 
-public [IGlobalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection.md) GlobalStrings {get;}
+```csharp
+public IGlobalStringListCollection GlobalStrings {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 The GetGgbst* methods provide an easy-to-use API for accessing user-defined lists. It is recommend that these be used instead of directly accessing the master GBST collection itself.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

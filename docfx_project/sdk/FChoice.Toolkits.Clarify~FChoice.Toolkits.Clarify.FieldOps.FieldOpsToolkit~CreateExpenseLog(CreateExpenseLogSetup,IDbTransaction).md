@@ -9,17 +9,20 @@ Used to create a new expense log that is related to an onsite log. This overloa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateExpenseLog( _
-   ByVal _setupParam_ As [CreateExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup.md), _
+   ByVal _setupParam_ As CreateExpenseLogSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [CreateExpenseLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult.md)
+) As CreateExpenseLogResult
+```
 
-public [CreateExpenseLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult.md) CreateExpenseLog( 
-   [CreateExpenseLogSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup.md) _setupParam_,
+```csharp
+public CreateExpenseLogResult CreateExpenseLog( 
+   CreateExpenseLogSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -33,7 +36,7 @@ Database transaction under which the API will be invoked.
 
 #### Return Value
 
-A [CreateExpenseLogResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A CreateExpenseLogResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Remarks
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

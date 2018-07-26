@@ -7,15 +7,18 @@ Close a CR. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CloseCR( _
-   ByVal _setupParam_ As [CloseCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CloseCRSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CloseCR( 
-   [CloseCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup.md) _setupParam_
+```csharp
+public ToolkitResult CloseCR( 
+   CloseCRSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 The CR must be in a condition/status that allows the transition to the Closed condition.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

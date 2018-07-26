@@ -7,7 +7,7 @@ Syntax
 
 Public Function GetResTbl( _
    ByVal _tblNum_ As Integer, _
-   ByRef _restructionFieldNames_ As [String()](#) _
+   ByRef _restructionFieldNames_ As String() _
 ) As Boolean
 ```
 

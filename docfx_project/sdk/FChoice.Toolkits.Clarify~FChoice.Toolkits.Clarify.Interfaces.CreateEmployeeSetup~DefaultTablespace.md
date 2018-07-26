@@ -5,21 +5,22 @@ Default Oracle Tablespace for the user
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property DefaultTablespace As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string DefaultTablespace {get; set;}
+```
 
-Remarks
+#### Remarks
 
 This property only affects Oracle based Clarify installations. If left blank the default tablespace will be set to **users**
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

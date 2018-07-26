@@ -5,17 +5,20 @@ Filter field on strings sound like the input to this filter
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function SoundsLike( _
    ByVal _columnName_ As String, _
    ByVal _value_ As String _
-) As [SoundsLikeFilter](fcSDK~FChoice.Foundation.Filters.SoundsLikeFilter.md)
+) As SoundsLikeFilter
+```
 
-public static [SoundsLikeFilter](fcSDK~FChoice.Foundation.Filters.SoundsLikeFilter.md) SoundsLike( 
+```csharp
+public static SoundsLikeFilter SoundsLike( 
    string _columnName_,
    string _value_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _columnName_
 _value_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

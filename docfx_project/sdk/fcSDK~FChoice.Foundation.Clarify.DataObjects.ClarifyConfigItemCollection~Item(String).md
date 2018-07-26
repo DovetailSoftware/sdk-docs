@@ -3,23 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shadows ReadOnly Property Item( _
    ByVal _itemName_ As String _
-) As [ClarifyConfigItem](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem.md)
+) As ClarifyConfigItem```
 
-public new [ClarifyConfigItem](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem.md) Item( 
+```csharp
+public new ClarifyConfigItem Item( 
    string _itemName_
 ) {get;}
+```
 
 #### Parameters
 
 _itemName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

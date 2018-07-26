@@ -7,15 +7,18 @@ Used to create a note log against a CR. This overload takes a set of required pa
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCRNote( _
    ByVal _crIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogCRNote( 
+```csharp
+public ToolkitResult LogCRNote( 
    string _crIDNum_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 Allows for the assigning of notes and internal use only text. The date the note is logged can be set, as well as the user who logs the note. Additional fields on the log_cr_note can also be set as well as a time bomb (for the note log), which allows notifications to be generated based on the event.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

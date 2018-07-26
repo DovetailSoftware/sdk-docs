@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property Scope As [ConfigItemScope](fcSDK~FChoice.Foundation.DataObjects.ConfigItemScope.md)
+Public ReadOnly Property Scope As ConfigItemScope
+```
 
-public [ConfigItemScope](fcSDK~FChoice.Foundation.DataObjects.ConfigItemScope.md) Scope {get;}
+```csharp
+public ConfigItemScope Scope {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

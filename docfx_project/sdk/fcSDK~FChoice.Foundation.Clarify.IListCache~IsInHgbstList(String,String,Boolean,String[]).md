@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function IsInHgbstList( _
    ByVal _listTitle_ As String, _
@@ -11,13 +11,16 @@ Overloads Function IsInHgbstList( _
    ByVal _throwErrors_ As Boolean, _
    ByVal ParamArray _elementTitles_() As String _
 ) As Boolean
+```
 
+```csharp
 bool IsInHgbstList( 
    string _listTitle_,
    string _elementTitle_,
    bool _throwErrors_,
    params string[] _elementTitles_
 )
+```
 
 #### Parameters
 
@@ -30,8 +33,6 @@ _throwErrors_
 _elementTitles_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

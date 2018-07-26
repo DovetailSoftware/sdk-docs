@@ -2,7 +2,7 @@
 
 The [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) to use instead of the default provider.
 
-Creates an empty new instance of DataParameterCollection with a default initial capacity based on the specified [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md).
+Creates an empty new instance of DataParameterCollection with a default initial capacity based on the specified DbProvider.
 
 Syntax
 
@@ -10,13 +10,13 @@ Syntax
 'Declaration
 
 Public Function New( _
-   ByVal _accessProvider_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _
+   ByVal _accessProvider_ As DbProvider _
 )
 ```
 
 ```csharp
 public DataParameterCollection( 
-   [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _accessProvider_
+   DbProvider _accessProvider_
 )
 ```
 

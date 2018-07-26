@@ -5,12 +5,15 @@ Provides APIs that allow you to emulate much of the functionality in the Clari
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class SalesToolkit 
-   Inherits [SalesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase.md)
+   Inherits SalesToolkitBase
+```
 
-public class SalesToolkit : [SalesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase.md) 
+```csharp
+public class SalesToolkit : SalesToolkitBase
+``` 
 
 Inheritance Hierarchy
 
@@ -26,8 +29,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

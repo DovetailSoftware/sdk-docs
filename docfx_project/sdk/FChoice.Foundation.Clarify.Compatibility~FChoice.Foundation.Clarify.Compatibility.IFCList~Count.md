@@ -1,19 +1,20 @@
-﻿### Count Property (IFCList)
+### Count Property (IFCList)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743813)>
 ReadOnly Property Count As Short
+```
 
+```csharp
 [DispIdAttribute(1610743813)]
 short Count {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Function FindLast( _
-   ByVal _match_ As [Predicate(Of IHierarchicalStringElement)](#) _
-) As [IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md)
+   ByVal _match_ As Predicate(Of IHierarchicalStringElement) _
+) As IHierarchicalStringElement
+```
 
-[IHierarchicalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.md) FindLast( 
-   [Predicate<IHierarchicalStringElement>](#) _match_
+```csharp
+IHierarchicalStringElement FindLast( 
+   Predicate<IHierarchicalStringElement> _match_
 )
+```
 
 #### Parameters
 
 _match_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

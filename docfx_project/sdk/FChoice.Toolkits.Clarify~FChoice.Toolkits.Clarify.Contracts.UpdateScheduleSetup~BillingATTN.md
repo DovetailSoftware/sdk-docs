@@ -5,20 +5,22 @@ Specifies the to who's attention the billing is direct.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property BillingATTN As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string BillingATTN {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If this property has not been set no change will occur. If the property is set, even to an empty string, that value reflected in the update.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

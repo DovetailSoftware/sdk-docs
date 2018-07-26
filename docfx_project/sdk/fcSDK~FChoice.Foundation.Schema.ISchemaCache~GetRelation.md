@@ -3,16 +3,19 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function GetRelation( _
    ByVal _tableName_ As String, _
    ByVal _relationName_ As String _
-) As [ISchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md)
+) As ISchemaRelation
+```
 
-[ISchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) GetRelation( 
+```csharp
+ISchemaRelation GetRelation( 
    string _tableName_,
    string _relationName_
 )
+```
 
 #### Parameters
 
@@ -21,8 +24,6 @@ _tableName_
 _relationName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

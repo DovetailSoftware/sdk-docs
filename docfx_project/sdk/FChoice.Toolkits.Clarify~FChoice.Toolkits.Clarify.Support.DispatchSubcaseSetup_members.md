@@ -1,4 +1,4 @@
-﻿### DispatchSubcaseSetup Class Members
+### DispatchSubcaseSetup Class Members
 
 The following tables list the members exposed by [DispatchSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup.md).
 
@@ -19,10 +19,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup~Queue.md) | The queue into which the Subcase is to be dispatched.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SubcaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup~SubcaseIDNum.md) | Subcase Identifier.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup~UserName.md) | The user who has dispatched the Subcase. If not set, the Toolkit session user is used.   |
-
-
-
-
 
 #### Reference
 

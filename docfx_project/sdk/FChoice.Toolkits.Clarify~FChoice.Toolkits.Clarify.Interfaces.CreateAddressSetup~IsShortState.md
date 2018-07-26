@@ -5,12 +5,14 @@ Is the [State property](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interf
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property IsShortState As Boolean
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public bool IsShortState {get; set;}
 
 Example
@@ -18,8 +20,6 @@ Example
 The [State](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup~State.md) property is set to 'TX' thus IsShortState is true. When the State property is set to 'Texas' IsShortState should be false.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

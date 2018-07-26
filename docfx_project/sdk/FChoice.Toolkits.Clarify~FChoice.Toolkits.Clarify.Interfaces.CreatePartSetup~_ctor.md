@@ -13,23 +13,26 @@ Initializes a new instance of the CreatePartSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _partNumber_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _warrantyDays_ As Integer, _
-   ByVal _repairType_ As [PartRepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRepairType.md) _
+   ByVal _repairType_ As PartRepairType _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreatePartSetup( 
    string _partNumber_,
    string _partDomain_,
    int _warrantyDays_,
-   [PartRepairType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRepairType.md) _repairType_
+   PartRepairType _repairType_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ _repairType_
 Type of repair. One of "Repairable" or "Expendable"
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,11 +5,15 @@ Abstract filter for logical filter types.
 Syntax
 
 ```vbnet
-' Declaration
-Public MustInherit Class LogicalFilter 
-   Inherits [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)
+'Declaration
 
-public abstract class LogicalFilter : [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) 
+Public MustInherit Class LogicalFilter 
+   Inherits Filter
+```
+
+```csharp
+public abstract class LogicalFilter : Filter 
+```
 
 Example
 
@@ -32,8 +36,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

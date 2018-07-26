@@ -5,15 +5,16 @@ Captured non-billable time (Case time logs only)
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property CaseNonBillableTime As TimeSpan
+```
 
+```csharp
 public TimeSpan CaseNonBillableTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

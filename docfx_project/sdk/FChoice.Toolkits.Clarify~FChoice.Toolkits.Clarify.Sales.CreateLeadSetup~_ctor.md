@@ -15,7 +15,7 @@ Initializes a new instance of the CreateLeadSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -25,7 +25,9 @@ Public Function New( _
    ByVal _siteType_ As [LeadSiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LeadSiteType.md), _
    ByVal _leadSource_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateLeadSetup( 
    string _state_,
@@ -34,6 +36,7 @@ public CreateLeadSetup(
    [LeadSiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LeadSiteType.md) _siteType_,
    string _leadSource_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ _leadSource_
 Name of the lead source.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

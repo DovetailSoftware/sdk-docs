@@ -9,17 +9,20 @@ Yank the CR from its current location to a new owner's WipBin. This overload tak
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankCR( _
-   ByVal _setupParam_ As [YankCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.YankCRSetup.md), _
+   ByVal _setupParam_ As YankCRSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankCR( 
-   [YankCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.YankCRSetup.md) _setupParam_,
+```csharp
+public ToolkitResult YankCR( 
+   YankCRSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -5,12 +5,16 @@ Abstract base of all filters.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public MustInherit Class Filter 
+```
 
+```csharp
 public abstract class Filter 
+```
 
-Example
+#### Example
 
 [**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
@@ -28,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

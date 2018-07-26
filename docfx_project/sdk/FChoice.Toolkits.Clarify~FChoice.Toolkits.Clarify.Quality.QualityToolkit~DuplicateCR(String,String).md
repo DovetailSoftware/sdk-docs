@@ -9,17 +9,20 @@ Mark a CR as duplicate of another 'master' CR. This overload takes a set of requ
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DuplicateCR( _
    ByVal _crIDNum_ As String, _
    ByVal _masterCRIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DuplicateCR( 
+```csharp
+public ToolkitResult DuplicateCR( 
    string _crIDNum_,
    string _masterCRIDNum_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The condition of the CR is changed to **CR Duplicate/Closed**.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

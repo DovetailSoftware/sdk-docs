@@ -5,15 +5,16 @@ Captured research time (Case research logs only)
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property CaseResearchTime As TimeSpan
+```
 
+```csharp
 public TimeSpan CaseResearchTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

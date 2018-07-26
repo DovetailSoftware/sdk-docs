@@ -1,19 +1,20 @@
-﻿### LoginTime Property (IFCSession)
+### LoginTime Property (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743808)>
 ReadOnly Property LoginTime As Date
+```
 
+```csharp
 [DispIdAttribute(1610743808)]
 DateTime LoginTime {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

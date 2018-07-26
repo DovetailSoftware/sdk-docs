@@ -5,11 +5,15 @@ Filter field that are more than the filter input
 Syntax
 
 ```vbnet
-' Declaration
-Public Class MoreThanFilter 
-   Inherits [OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md)
+'Declaration
 
-public class MoreThanFilter : [OperationFilter](fcSDK~FChoice.Foundation.Filters.OperationFilter.md) 
+Public Class MoreThanFilter 
+   Inherits OperationFilter
+```
+
+```csharp
+public class MoreThanFilter : OperationFilter 
+```
 
 Example
 
@@ -31,8 +35,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

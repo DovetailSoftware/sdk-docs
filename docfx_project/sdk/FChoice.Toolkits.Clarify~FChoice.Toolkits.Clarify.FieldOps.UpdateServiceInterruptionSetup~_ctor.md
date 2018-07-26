@@ -7,17 +7,20 @@ Initializes a new instance of the UpdateServiceInterruptionSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _appointmentObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateServiceInterruptionSetup( 
    int _appointmentObjid_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _appointmentObjid_
 The Objid of the Appointment being modified.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

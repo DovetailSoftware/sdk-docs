@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetHgbstList( _
    ByVal _listName_ As String, _
@@ -13,7 +13,9 @@ Public Function GetHgbstList( _
    Optional ByVal _Element4_ As Object, _
    Optional ByVal _includeInactive_ As Object _
 ) As ADODB.Recordset
+```
 
+```csharp
 public ADODB.Recordset GetHgbstList( 
    string _listName_,
    object _Element1_,
@@ -22,6 +24,7 @@ public ADODB.Recordset GetHgbstList(
    object _Element4_,
    object _includeInactive_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ _Element4_
 _includeInactive_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

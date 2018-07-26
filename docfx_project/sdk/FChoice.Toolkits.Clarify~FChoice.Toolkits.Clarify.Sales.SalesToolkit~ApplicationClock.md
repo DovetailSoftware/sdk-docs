@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property ApplicationClock As [IApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.md)
+'Declaration
 
-public [IApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.md) ApplicationClock {get; set;}
+Public Property ApplicationClock As IApplicationClock
+```
+
+```csharp
+public IApplicationClock ApplicationClock {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

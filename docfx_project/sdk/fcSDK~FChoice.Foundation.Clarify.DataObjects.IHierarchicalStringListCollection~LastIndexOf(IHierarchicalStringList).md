@@ -6,13 +6,13 @@ Syntax
 'Declaration
 
 Overloads Function LastIndexOf( _
-   ByVal _item_ As [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md) _
+   ByVal _item_ As IHierarchicalStringList _
 ) As Integer
 ```
 
 ```csharp
 int LastIndexOf( 
-   [IHierarchicalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.md) _item_
+   IHierarchicalStringList _item_
 )
 ```
 

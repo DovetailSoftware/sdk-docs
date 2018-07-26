@@ -1,9 +1,9 @@
-﻿### move_object Method (IFCSession)
+### move_object Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743901)>
 Function move_object( _
@@ -11,13 +11,16 @@ Function move_object( _
    ByVal _newWipBin_ As String, _
    ByVal _objectType_ As String _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743901)]
 short move_object( 
    string _objId_,
    string _newWipBin_,
    string _objectType_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ _newWipBin_
 _objectType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

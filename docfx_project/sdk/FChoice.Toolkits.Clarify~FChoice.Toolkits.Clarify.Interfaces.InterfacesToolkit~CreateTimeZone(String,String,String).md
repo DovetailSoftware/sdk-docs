@@ -11,19 +11,22 @@ Creates a Time Zone and relates it to an existing Country. This overload takes a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateTimeZone( _
    ByVal _timeZone_ As String, _
    ByVal _fullName_ As String, _
    ByVal _country_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateTimeZone( 
+```csharp
+public ToolkitResult CreateTimeZone( 
    string _timeZone_,
    string _fullName_,
    string _country_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ Remarks
 If the Time Zone already exists it will be related to the [Country](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateTimeZoneSetup~Country.md).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

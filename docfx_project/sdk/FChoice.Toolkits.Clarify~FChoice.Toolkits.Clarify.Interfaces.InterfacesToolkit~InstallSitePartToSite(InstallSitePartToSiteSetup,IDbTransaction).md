@@ -9,17 +9,20 @@ Install a Site Part under a Site. This overload takes a setup object and a datab
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function InstallSitePartToSite( _
-   ByVal _setupParam_ As [InstallSitePartToSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToSiteSetup.md), _
+   ByVal _setupParam_ As InstallSitePartToSiteSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) InstallSitePartToSite( 
-   [InstallSitePartToSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToSiteSetup.md) _setupParam_,
+```csharp
+public ToolkitResult InstallSitePartToSite( 
+   InstallSitePartToSiteSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

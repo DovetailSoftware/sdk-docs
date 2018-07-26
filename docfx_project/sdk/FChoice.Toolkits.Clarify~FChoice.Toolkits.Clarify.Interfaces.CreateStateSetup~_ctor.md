@@ -11,7 +11,7 @@ Initializes a new instance of the CreateStateSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _fullName_ As String, _
    ByVal _country_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateStateSetup( 
    string _state_,
    string _fullName_,
    string _country_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _country_
 Name of the Country the State will belong to.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

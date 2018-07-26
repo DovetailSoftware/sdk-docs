@@ -5,7 +5,7 @@ Syntax
 ```vbnet
 'Declaration
 
-Public ReadOnly Property Restrictions As [String()](#)
+Public ReadOnly Property Restrictions As String()
 ```
 
 ```csharp

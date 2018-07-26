@@ -1,4 +1,4 @@
-﻿### DispatchCRSetup Constructor
+### DispatchCRSetup Constructor
 
 CR Identifier.
 
@@ -9,19 +9,22 @@ Initializes a new instance of the DispatchCRSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _cridnum_ As String, _
    ByVal _queue_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DispatchCRSetup( 
    string _cridnum_,
    string _queue_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _queue_
 The queue into which the CR is to be dispatched.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

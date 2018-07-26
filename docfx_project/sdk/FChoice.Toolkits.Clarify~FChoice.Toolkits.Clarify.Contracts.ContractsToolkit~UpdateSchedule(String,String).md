@@ -9,17 +9,20 @@ Used to update a contract schedule. This overload takes a set of required parame
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateSchedule( _
    ByVal _contractIDNum_ As String, _
    ByVal _scheduleIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateSchedule( 
+```csharp
+public ToolkitResult UpdateSchedule( 
    string _contractIDNum_,
    string _scheduleIDNum_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Remarks
 The contract ID must be specified, and the ID of the schedule is also specified. You may specify the bill-to or ship-to site, the price program, and the code list values. In addition, you may specify a variety of dates.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

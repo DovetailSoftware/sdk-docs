@@ -7,17 +7,20 @@ Initializes a new instance of the AcceptSolutionSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _solutionIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AcceptSolutionSetup( 
    string _solutionIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _solutionIDNum_
 Solution Identifier.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

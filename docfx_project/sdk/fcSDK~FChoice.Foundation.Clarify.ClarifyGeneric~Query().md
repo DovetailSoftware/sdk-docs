@@ -14,7 +14,7 @@ Public Overloads Overrides Sub Query()
 public override void Query()
 ```
 
-Remarks
+#### Remarks
 
 This method causes the generic object to query the database table or view using any specified data fields, filters, and/or sort orders. The query retrieves 0 or more rows.
 
@@ -87,8 +87,6 @@ Next
 ```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

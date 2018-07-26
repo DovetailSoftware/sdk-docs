@@ -9,17 +9,20 @@ Create a Solution. This overload takes a setup object and a database transaction
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateSolution( _
-   ByVal _setupParam_ As [CreateSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup.md), _
+   ByVal _setupParam_ As CreateSolutionSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md)
+) As CreateSolutionResult
+```
 
-public [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md) CreateSolution( 
-   [CreateSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup.md) _setupParam_,
+```csharp
+public CreateSolutionResult CreateSolution( 
+   CreateSolutionSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -33,15 +36,13 @@ Database transaction under which the API will be invoked.
 
 #### Return Value
 
-A [CreateSolutionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A CreateSolutionResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Example
 
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

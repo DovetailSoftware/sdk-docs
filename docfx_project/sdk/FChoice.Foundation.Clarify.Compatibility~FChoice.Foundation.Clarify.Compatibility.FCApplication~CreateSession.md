@@ -3,22 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Function CreateSession( _
    Optional ByVal _sessIdValue_ As Object _
-) As [FCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession.md)
+) As FCSession
+```
 
-public [FCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession.md) CreateSession( 
+```csharp
+public FCSession CreateSession( 
    object _sessIdValue_
 )
+```
 
 #### Parameters
 
 _sessIdValue_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

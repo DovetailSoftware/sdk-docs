@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateSubContainer( _
    ByVal _containerName_ As String, _
    ByVal _parentContainerName_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateSubContainer( 
+```csharp
+public ToolkitResult CreateSubContainer( 
    string _containerName_,
    string _parentContainerName_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _containerName_
 _parentContainerName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

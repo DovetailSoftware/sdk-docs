@@ -11,21 +11,24 @@ Initializes a new instance of the CreateSiteSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
-   ByVal _siteType_ As [SiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteType.md), _
-   ByVal _status_ As [SiteStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteStatus.md), _
+   ByVal _siteType_ As SiteType, _
+   ByVal _status_ As SiteStatus, _
    ByVal _primaryAddressObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateSiteSetup( 
-   [SiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteType.md) _siteType_,
-   [SiteStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteStatus.md) _status_,
+   SiteType _siteType_,
+   SiteStatus _status_,
    int _primaryAddressObjid_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _primaryAddressObjid_
 Primary Address of the site
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

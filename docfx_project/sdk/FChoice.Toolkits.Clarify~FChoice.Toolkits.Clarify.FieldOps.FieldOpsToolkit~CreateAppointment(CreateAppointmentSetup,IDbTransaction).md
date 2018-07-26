@@ -9,17 +9,20 @@ Used to create a new appointment. This overload takes a setup object and a datab
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateAppointment( _
-   ByVal _setupParam_ As [CreateAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup.md), _
+   ByVal _setupParam_ As CreateAppointmentSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md)
+) As CreateAppointmentResult
+```
 
-public [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md) CreateAppointment( 
-   [CreateAppointmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup.md) _setupParam_,
+```csharp
+public CreateAppointmentResult CreateAppointment( 
+   CreateAppointmentSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -33,7 +36,7 @@ Database transaction under which the API will be invoked.
 
 #### Return Value
 
-A [CreateAppointmentResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A CreateAppointmentResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Remarks
 
@@ -46,8 +49,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

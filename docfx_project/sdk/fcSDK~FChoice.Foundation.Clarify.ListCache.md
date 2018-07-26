@@ -5,13 +5,16 @@ Caches and provides convenient access methods for GBST and HGBST list structures
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class ListCache 
-   Inherits [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)
-   Implements [IListCache](fcSDK~FChoice.Foundation.Clarify.IListCache.md) 
+   Inherits ClarifyCacheBase
+   Implements IListCache
+```
 
-public class ListCache : [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md), [IListCache](fcSDK~FChoice.Foundation.Clarify.IListCache.md)  
+```csharp
+public class ListCache : ClarifyCacheBase, IListCache
+```
 
 Inheritance Hierarchy
 
@@ -27,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

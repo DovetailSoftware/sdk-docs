@@ -5,10 +5,14 @@ Used by the [CheckClearQualityTransition](FChoice.Toolkits.Clarify~FChoice.Tool
 Syntax
 
 ```vbnet
-' Declaration
-Public Class CheckClearQualityTransitionSetup 
+'Declaration
 
-public class CheckClearQualityTransitionSetup 
+Public Class CheckClearQualityTransitionSetup 
+```
+
+```csharp
+public class CheckClearQualityTransitionSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

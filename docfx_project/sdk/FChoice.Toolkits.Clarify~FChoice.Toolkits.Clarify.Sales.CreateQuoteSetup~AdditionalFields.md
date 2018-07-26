@@ -5,21 +5,22 @@ Allows the specification of additional fields to be updated as part of API invoc
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public ReadOnly Property AdditionalFields As [AdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.md)
+<PropertyBitValueAttribute()>
+Public ReadOnly Property AdditionalFields As AdditionalFields
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [AdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.md) AdditionalFields {get;}
+```csharp
+[PropertyBitValueAttribute()]
+public AdditionalFields AdditionalFields {get;}
+```
 
-Remarks
+#### Remarks
 
 Additional fields may be set on either the contract or contr_schedule table. To set a field on table_contract, just use the field name. To set a field on the contr_schedule table, place “sched:” before the name of the field. For example, to set the “x_foo” field on the contr_schedule table, use a field name of “sched:x_foo”.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

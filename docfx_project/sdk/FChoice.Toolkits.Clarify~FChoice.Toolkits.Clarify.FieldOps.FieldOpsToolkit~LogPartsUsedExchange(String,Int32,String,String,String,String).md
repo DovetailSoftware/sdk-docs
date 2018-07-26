@@ -15,7 +15,7 @@ The Serial Number of the part being installed
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogPartsUsedExchange( _
    ByVal _partRequestDetailIDNum_ As String, _
@@ -24,9 +24,11 @@ Public Overloads Function LogPartsUsedExchange( _
    ByVal _installPartRevision_ As String, _
    ByVal _installPartDomain_ As String, _
    ByVal _installSerialNumber_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogPartsUsedExchange( 
+```csharp
+public ToolkitResult LogPartsUsedExchange( 
    string _partRequestDetailIDNum_,
    int _removeSitePartObjid_,
    string _installPartNumber_,
@@ -34,6 +36,7 @@ public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Toolkit
    string _installPartDomain_,
    string _installSerialNumber_
 )
+```
 
 #### Parameters
 
@@ -68,8 +71,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PartUsed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

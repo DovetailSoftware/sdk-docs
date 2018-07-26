@@ -3,14 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
-ReadOnly Property Relation As [ISchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md)
+'Declaration
+ReadOnly Property Relation As ISchemaRelation
+```
 
-[ISchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) Relation {get;}
+```csharp
+ISchemaRelation Relation {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

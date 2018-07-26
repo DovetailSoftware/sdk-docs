@@ -11,7 +11,7 @@ Initializes a new instance of the UpdateEcoItemSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _isActive_ As Boolean, _
    ByVal _ecoHeaderIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateEcoItemSetup( 
    int _ecoItemObjid_,
    bool _isActive_,
    string _ecoHeaderIDNum_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _ecoHeaderIDNum_
 Identifier of the ECO header
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

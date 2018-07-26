@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads ReadOnly Property Item( _
    ByVal _name_ As String _
-) As [ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md)
+) As ISchemaField
+```
 
-[ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md) Item( 
+```csharp
+ISchemaField Item( 
    string _name_
 ) {get;}
+```
 
 #### Parameters
 
 _name_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

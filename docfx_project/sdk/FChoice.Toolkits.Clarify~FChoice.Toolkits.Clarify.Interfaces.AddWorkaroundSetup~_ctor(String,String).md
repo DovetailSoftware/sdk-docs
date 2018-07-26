@@ -9,19 +9,22 @@ Initializes a new instance of the AddWorkaroundSetup class. This overload takes 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _solutionIDNum_ As String, _
    ByVal _workaround_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AddWorkaroundSetup( 
    string _solutionIDNum_,
    string _workaround_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _workaround_
 Text of the Workaround.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

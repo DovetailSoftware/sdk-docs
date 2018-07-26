@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Property ErrorNumber As Short
+'Declaration
 
+Public Property ErrorNumber As Short
+```
+
+```csharp
 public short ErrorNumber {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

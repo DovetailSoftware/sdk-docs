@@ -5,11 +5,14 @@ Gets a reference to the [ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property Rows As [ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md)
+Public ReadOnly Property Rows As ClarifyRowCollection
+```
 
-public [ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md) Rows {get;}
+```csharp
+public ClarifyRowCollection Rows {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 This property is similar to the [Item](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~Item.md) property of [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md). The rows for this generic can be accessed using either property.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

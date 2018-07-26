@@ -9,17 +9,20 @@ Create a Product Bin This overload takes a set of required parameters for the AP
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateProductBin( _
    ByVal _binName_ As String, _
    ByVal _siteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateProductBin( 
+```csharp
+public ToolkitResult CreateProductBin( 
    string _binName_,
    string _siteIDNum_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ A unique [BinName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.
 If the Bin being created exists under another Bin you need to set the [Parent BinObjd](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateProductBinSetup~ParentBinObjid.md) 
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

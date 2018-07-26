@@ -6,11 +6,11 @@ Syntax
 'Declaration
 
 Overloads ReadOnly Property Item( _
-   ByVal _number_ As Integer) As [ISchemaView](fcSDK~FChoice.Foundation.Schema.ISchemaView.md)
+   ByVal _number_ As Integer) As ISchemaView
 ```
 
 ```csharp
-[ISchemaView](fcSDK~FChoice.Foundation.Schema.ISchemaView.md) Item( 
+ISchemaView Item( 
    int _number_
 ) {get;}
 ```

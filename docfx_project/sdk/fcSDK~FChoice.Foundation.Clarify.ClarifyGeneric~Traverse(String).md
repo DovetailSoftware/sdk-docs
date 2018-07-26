@@ -15,11 +15,11 @@ Syntax
 
 Public Function Traverse( _
    ByVal _relationName_ As String _
-) As [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md)
+) As ClarifyGeneric
 ```
 
 ```csharp
-public [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) Traverse( 
+public ClarifyGeneric Traverse( 
    string _relationName_
 )
 ```

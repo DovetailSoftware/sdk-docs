@@ -7,17 +7,20 @@ Initializes a new instance of the CreateContractSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _title_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateContractSetup( 
    string _title_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _title_
 The title of the Contract.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

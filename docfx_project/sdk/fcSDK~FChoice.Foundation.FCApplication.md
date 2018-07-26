@@ -3,12 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public MustInherit Class FCApplication 
+```
 
+```csharp
 public abstract class FCApplication 
+```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.FCApplication**  
@@ -21,8 +25,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

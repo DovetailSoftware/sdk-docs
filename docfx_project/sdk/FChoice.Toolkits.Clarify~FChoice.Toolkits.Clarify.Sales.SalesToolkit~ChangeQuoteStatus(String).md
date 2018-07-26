@@ -7,15 +7,18 @@ Cause the specified Quote to have its status changed. This overload takes a set
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeQuoteStatus( _
    ByVal _quoteIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeQuoteStatus( 
+```csharp
+public ToolkitResult ChangeQuoteStatus( 
    string _quoteIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The object may be in any valid condition, but the status selected MUST be valid for the current condition.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

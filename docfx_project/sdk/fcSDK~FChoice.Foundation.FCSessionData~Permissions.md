@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property Permissions As [IDictionary(Of String,Boolean)](#)
+Public ReadOnly Property Permissions As IDictionary(Of String,Boolean)
+```
 
-public [IDictionary<string,bool>](#) Permissions {get;}
+```csharp
+public IDictionary<string,bool> Permissions {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,19 +9,22 @@ Initializes a new instance of the AssignLeadSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _leadObjid_ As Integer, _
    ByVal _newOwner_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AssignLeadSetup( 
    int _leadObjid_,
    string _newOwner_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _newOwner_
 The new user which the lead is assigned to.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

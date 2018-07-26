@@ -7,17 +7,20 @@ Initializes a new instance of the DeleteSitePartSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _sitePartObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DeleteSitePartSetup( 
    int _sitePartObjid_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _sitePartObjid_
 The objid of the Site Part to be deleted.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

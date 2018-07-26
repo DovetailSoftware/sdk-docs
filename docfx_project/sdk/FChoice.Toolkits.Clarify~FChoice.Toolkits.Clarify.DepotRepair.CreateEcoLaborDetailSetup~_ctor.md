@@ -11,7 +11,7 @@ Initializes a new instance of the CreateEcoLaborDetailSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _elapsedTime_ As TimeSpan, _
    ByVal _ecoHeaderIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateEcoLaborDetailSetup( 
    bool _isRequired_,
    TimeSpan _elapsedTime_,
    string _ecoHeaderIDNum_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _ecoHeaderIDNum_
 Identifier of the ECO header
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

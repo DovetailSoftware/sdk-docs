@@ -1,8 +1,8 @@
 ﻿### AddNew(ClarifyDataRow) Method
 
-Row to be duplicated that is based on the same [Table](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~SchemaTable.md).
+Row to be duplicated that is based on the same Table.
 
-Adds a new row, copying values from the specified original row, and schedules it for creation in the database when [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) is called.
+Adds a new row, copying values from the specified original row, and schedules it for creation in the database when Update is called.
 
 Syntax
 
@@ -10,13 +10,13 @@ Syntax
 'Declaration
 
 Public Overloads Function AddNew( _
-   ByVal _rowToDuplicate_ As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) _
-) As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)
+   ByVal _rowToDuplicate_ As ClarifyDataRow _
+) As ClarifyDataRow
 ```
 
 ```csharp
-public [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) AddNew( 
-   [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) _rowToDuplicate_
+public ClarifyDataRow AddNew( 
+   ClarifyDataRow _rowToDuplicate_
 )
 ```
 
@@ -24,11 +24,11 @@ public [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) AddN
 
 _rowToDuplicate_
 
-Row to be duplicated that is based on the same [Table](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~SchemaTable.md).
+Row to be duplicated that is based on the same Table.
 
 #### Return Value
 
- A new [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) with the same fields and values as the **rowToDuplicate**.
+ A new ClarifyDataRow with the same fields and values as the **rowToDuplicate**.
 
 Remarks
 

@@ -5,19 +5,20 @@ Timestamp when the session was created.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property CreationTime As Date
+```
 
+```csharp
 public DateTime CreationTime {get;}
+```
 
 #### Property Value
 
 Timestamp when the session was created.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

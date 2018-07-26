@@ -5,15 +5,16 @@ Readonly count of rows to be returned by the large query that caused this event
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public ReadOnly Property TotalPossibleRows As Integer
+```
 
+```csharp
 public int TotalPossibleRows {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

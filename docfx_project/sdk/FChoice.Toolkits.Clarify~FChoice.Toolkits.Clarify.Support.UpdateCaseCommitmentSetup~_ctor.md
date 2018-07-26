@@ -11,7 +11,7 @@ Initializes a new instance of the UpdateCaseCommitmentSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _commitmentDate_ As Date, _
    ByVal _commitmentObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateCaseCommitmentSetup( 
    string _caseIDNum_,
    DateTime _commitmentDate_,
    int _commitmentObjid_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _commitmentObjid_
 Objid of the commitment to update.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

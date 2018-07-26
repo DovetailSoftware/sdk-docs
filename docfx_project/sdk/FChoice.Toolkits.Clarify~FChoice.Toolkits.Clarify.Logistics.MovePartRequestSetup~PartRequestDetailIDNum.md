@@ -5,20 +5,22 @@ Part Request Detail Identifier
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property PartRequestDetailIDNum As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string PartRequestDetailIDNum {get; set;}
+```
 
-Remarks
+#### Remarks
 
 The specified part request detail must be open.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

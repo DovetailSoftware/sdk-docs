@@ -5,19 +5,20 @@ Returns the [Culture](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cpconcult
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property CurrentCulture As CultureInfo
+```
 
+```csharp
 public CultureInfo CurrentCulture {get; set;}
+```
 
 #### Property Value
 
 Returns the [Culture](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cpconcultureinfo.htm) being used by the session.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

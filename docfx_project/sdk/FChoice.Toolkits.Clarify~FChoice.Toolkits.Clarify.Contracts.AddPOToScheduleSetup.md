@@ -5,12 +5,16 @@ Used by the [AddPOToSchedule](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Class AddPOToScheduleSetup 
+```
 
+```csharp
 public class AddPOToScheduleSetup 
+```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup**  
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

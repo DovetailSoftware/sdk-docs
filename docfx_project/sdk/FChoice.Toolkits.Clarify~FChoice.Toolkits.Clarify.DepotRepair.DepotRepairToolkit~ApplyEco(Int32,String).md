@@ -9,17 +9,20 @@ Apply an ECO to a Part Request Detail. This overload takes a set of required par
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ApplyEco( _
    ByVal _demandDetailObjid_ As Integer, _
    ByVal _ecoHeaderIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ApplyEco( 
+```csharp
+public ToolkitResult ApplyEco( 
    int _demandDetailObjid_,
    string _ecoHeaderIDNum_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ Identifier of the ECO header
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

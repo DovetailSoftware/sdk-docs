@@ -15,7 +15,7 @@ Install a Site Part under another Site Part. This overload takes a set of requir
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function InstallSitePartToPart( _
    ByVal _siteIDNum_ As String, _
@@ -23,15 +23,18 @@ Public Overloads Function InstallSitePartToPart( _
    ByVal _partRevision_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _serialNumber_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) InstallSitePartToPart( 
+```csharp
+public ToolkitResult InstallSitePartToPart( 
    string _siteIDNum_,
    string _partNumber_,
    string _partRevision_,
    string _partDomain_,
    string _serialNumber_
 )
+```
 
 #### Parameters
 
@@ -62,8 +65,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the SitePart.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

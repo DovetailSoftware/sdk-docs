@@ -3,17 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743814)>
 Property WorkingDirectory As String
+```
 
+```csharp
 [DispIdAttribute(1610743814)]
 string WorkingDirectory {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,17 +7,20 @@ The new sales stage for the Opportunity.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function ChangeOpportunityStage( _
    ByVal _opportunityIDNum_ As String, _
-   ByVal _stage_ As [OpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.OpportunityStage.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _stage_ As OpportunityStage _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) ChangeOpportunityStage( 
+```csharp
+public ToolkitResult ChangeOpportunityStage( 
    string _opportunityIDNum_,
-   [OpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.OpportunityStage.md) _stage_
+   OpportunityStage _stage_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ The new sales stage for the Opportunity.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

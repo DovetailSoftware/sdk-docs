@@ -5,10 +5,14 @@ Used by the [UpdateInventoryBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clar
 Syntax
 
 ```vbnet
-' Declaration
-Public Class UpdateInventoryBinSetup 
+'Declaration
 
-public class UpdateInventoryBinSetup 
+Public Class UpdateInventoryBinSetup 
+```
+
+```csharp
+public class UpdateInventoryBinSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

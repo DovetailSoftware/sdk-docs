@@ -5,21 +5,22 @@ The new sales stage for the Opportunity.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property Stage As [OpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.OpportunityStage.md)
+<PropertyBitValueAttribute()>
+Public Property Stage As OpportunityStage
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [OpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.OpportunityStage.md) Stage {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public OpportunityStage Stage {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Must be a valid cycle stage from the database.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

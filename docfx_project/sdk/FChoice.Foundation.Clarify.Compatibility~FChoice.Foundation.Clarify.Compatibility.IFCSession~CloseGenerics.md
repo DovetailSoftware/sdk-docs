@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743887)>
 Sub CloseGenerics( _
@@ -19,7 +19,9 @@ Sub CloseGenerics( _
    Optional ByVal _Generic9_ As Object, _
    Optional ByVal _Generic10_ As Object _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743887)]
 void CloseGenerics( 
    short _NumGenerics_,
@@ -34,6 +36,7 @@ void CloseGenerics(
    object _Generic9_,
    object _Generic10_
 )
+```
 
 #### Parameters
 
@@ -60,8 +63,6 @@ _Generic9_
 _Generic10_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

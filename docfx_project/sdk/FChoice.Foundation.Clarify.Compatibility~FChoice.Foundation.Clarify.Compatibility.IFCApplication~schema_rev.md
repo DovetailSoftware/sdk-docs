@@ -1,19 +1,20 @@
-﻿### schema_rev Property (IFCApplication)
+### schema_rev Property (IFCApplication)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743811)>
 ReadOnly Property schema_rev As Short
+```
 
+```csharp
 [DispIdAttribute(1610743811)]
 short schema_rev {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

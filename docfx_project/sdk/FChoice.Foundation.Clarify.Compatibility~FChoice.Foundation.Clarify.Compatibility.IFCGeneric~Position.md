@@ -1,18 +1,20 @@
-﻿### Position Property (IFCGeneric)
+### Position Property (IFCGeneric)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743843)>
 Property Position As Short
+```
 
+```csharp
 [DispIdAttribute(1610743843)]
 short Position {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

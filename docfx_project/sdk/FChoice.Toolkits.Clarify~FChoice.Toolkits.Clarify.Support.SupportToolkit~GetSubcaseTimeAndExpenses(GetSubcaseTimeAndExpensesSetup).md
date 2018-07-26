@@ -7,15 +7,18 @@ Captures all the summed times (such as phone log time, billable and non-billable
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetSubcaseTimeAndExpenses( _
-   ByVal _setupParam_ As [GetSubcaseTimeAndExpensesSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesSetup.md) _
-) As [GetSubcaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult.md)
+   ByVal _setupParam_ As GetSubcaseTimeAndExpensesSetup _
+) As GetSubcaseTimeAndExpensesResult
+```
 
-public [GetSubcaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult.md) GetSubcaseTimeAndExpenses( 
-   [GetSubcaseTimeAndExpensesSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesSetup.md) _setupParam_
+```csharp
+public GetSubcaseTimeAndExpensesResult GetSubcaseTimeAndExpenses( 
+   GetSubcaseTimeAndExpensesSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -25,17 +28,15 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [GetSubcaseTimeAndExpensesResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult.md) object returned by the API method:
+The following values are populated in the GetSubcaseTimeAndExpensesResult object returned by the API method:
 
-*   [SubcaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult~SubcaseTimeAndExpenses.md) \- Contains the sums and totals calculated before closing a Case.
+*   SubcaseTimeAndExpenses \- Contains the sums and totals calculated before closing a Case.
 
 Remarks
 
 There are a number of bugs with the default Clarify close Case summation on the form. There are not sufficient fields defined in the close_case record for the graphical fields they show. Hence, the data doesn't always make sense. For example, the total phone time captured should be the total of the phone time captured for the Case and for all general subcases. But the GUI form points that field to the total for the phone logs captured for the Case (not showing the Subcase). Hence, this API defines the data as captured from the real data.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

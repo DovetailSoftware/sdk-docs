@@ -7,15 +7,18 @@ Yank the ActionItem from its current location to a new owner's WipBin. This over
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function YankActionItem( _
    ByVal _actionItemIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) YankActionItem( 
+```csharp
+public ToolkitResult YankActionItem( 
    string _actionItemIDNum_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ Remarks
 The WipBin to place the ActionItem in may also be specified. This is augmented function from base Clarify, where the ActionItem is always placed in the default WipBin.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

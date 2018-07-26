@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _dbProvider_ As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _
+   ByVal _dbProvider_ As DbProvider _
 )
+```
 
+```csharp
 public DatabaseParameterFactory( 
-   [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) _dbProvider_
+   DbProvider _dbProvider_
 )
+```
 
 #### Parameters
 
 _dbProvider_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

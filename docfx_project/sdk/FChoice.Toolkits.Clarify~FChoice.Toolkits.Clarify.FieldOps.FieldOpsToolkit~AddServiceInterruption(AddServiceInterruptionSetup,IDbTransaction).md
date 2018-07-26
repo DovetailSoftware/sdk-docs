@@ -9,17 +9,20 @@ Adds a service interruption (and creates an appointment record). This overload 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddServiceInterruption( _
-   ByVal _setupParam_ As [AddServiceInterruptionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup.md), _
+   ByVal _setupParam_ As AddServiceInterruptionSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [AddServiceInterruptionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.md)
+) As AddServiceInterruptionResult
+```
 
-public [AddServiceInterruptionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.md) AddServiceInterruption( 
-   [AddServiceInterruptionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup.md) _setupParam_,
+```csharp
+public AddServiceInterruptionResult AddServiceInterruption( 
+   AddServiceInterruptionSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -33,7 +36,7 @@ Database transaction under which the API will be invoked.
 
 #### Return Value
 
-A [AddServiceInterruptionResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A AddServiceInterruptionResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Remarks
 
@@ -46,8 +49,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

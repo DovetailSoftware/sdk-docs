@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function AddAttachment( _
    ByVal _attachmentName_ As String, _
@@ -13,7 +13,9 @@ Public Function AddAttachment( _
    Optional ByVal _objectObjId_ As Object, _
    Optional ByVal _attachmentType_ As Object _
 ) As Short
+```
 
+```csharp
 public short AddAttachment( 
    string _attachmentName_,
    string _filePath_,
@@ -22,6 +24,7 @@ public short AddAttachment(
    object _objectObjId_,
    object _attachmentType_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ _objectObjId_
 _attachmentType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

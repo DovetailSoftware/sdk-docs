@@ -6,11 +6,11 @@ Syntax
 
 ```vbnet
 'Declaration
-Public Shared Property Provider As [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)
+Public Shared Property Provider As DbProvider
 ```
 
 ```csharp
-public static [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) Provider {get; set;}
+public static DbProvider Provider {get; set;}
 ```
 
 #### Property Value

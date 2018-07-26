@@ -7,15 +7,18 @@ Creates a new Action Item. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateActionItem( _
-   ByVal _setupParam_ As [CreateActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateActionItemSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateActionItemSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateActionItem( 
-   [CreateActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateActionItemSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateActionItem( 
+   CreateActionItemSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -35,8 +38,6 @@ Remarks
 If the new Action Item is related a contact, all three of the contact fields must be supplied. Likewise, if associated to a lead, both lead fields must be supplied.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

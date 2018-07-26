@@ -9,17 +9,20 @@ Link a CR to a Solution. This overload takes a set of required parameters for th
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LinkCRToSolution( _
    ByVal _crIDNum_ As String, _
    ByVal _solutionIDNum_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LinkCRToSolution( 
+```csharp
+public ToolkitResult LinkCRToSolution( 
    string _crIDNum_,
    string _solutionIDNum_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the CR.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

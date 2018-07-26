@@ -11,7 +11,7 @@ Initializes a new instance of the CreateCRSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _partRevision_ As String, _
    ByVal _partDomain_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreateCRSetup( 
    string _partNumber_,
    string _partRevision_,
    string _partDomain_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _partDomain_
 Part domain of part for the Change Request
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

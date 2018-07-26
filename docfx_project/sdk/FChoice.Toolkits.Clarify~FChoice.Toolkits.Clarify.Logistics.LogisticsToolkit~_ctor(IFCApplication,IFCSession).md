@@ -9,17 +9,20 @@ Initializes a new instance of the LogisticsToolkit class using a Compatibility a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
-   ByVal _application_ As [IFCApplication](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication.md), _
-   ByVal _session_ As [IFCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession.md) _
+   ByVal _application_ As IFCApplication, _
+   ByVal _session_ As IFCSession _
 )
+```
 
+```csharp
 public LogisticsToolkit( 
-   [IFCApplication](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication.md) _application_,
-   [IFCSession](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession.md) _session_
+   IFCApplication _application_,
+   IFCSession _session_
 )
+```
 
 #### Parameters
 
@@ -33,11 +36,9 @@ The compatibility session under which the toolkit APIs will be executed.
 
 Remarks
 
-If the toolkit session was [created](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession(String,String,ClarifyLoginType).md) as a [Contact](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md) session this property is required otherwise errors will result.
+If the toolkit session was [created](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession(String,String,ClarifyLoginType).md) as a Contact session this property is required otherwise errors will result.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

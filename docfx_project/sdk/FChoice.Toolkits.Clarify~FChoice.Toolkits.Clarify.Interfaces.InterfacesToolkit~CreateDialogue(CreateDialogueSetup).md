@@ -7,15 +7,18 @@ Creates a new Dialogue.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateDialogue( _
-   ByVal _createDialogueSetup_ As [CreateDialogueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _createDialogueSetup_ CreateDialogueSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateDialogue( 
-   [CreateDialogueSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup.md) _createDialogueSetup_
+```csharp
+public ToolkitResult CreateDialogue( 
+   CreateDialogueSetup _createDialogueSetup_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _createDialogueSetup_
 Setup object for API invocation.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

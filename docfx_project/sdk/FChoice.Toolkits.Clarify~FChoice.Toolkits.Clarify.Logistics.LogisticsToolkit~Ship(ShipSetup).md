@@ -9,15 +9,18 @@ This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function Ship( _
-   ByVal _setupParam_ As [ShipSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ ShipSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) Ship( 
-   [ShipSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup.md) _setupParam_
+```csharp
+public ToolkitResult Ship( 
+   ShipSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ If no carrier name is provided, the dummy site will be used (objid of -2).
 **NOTE**: This API will validate that the user has authority to make the status transition.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

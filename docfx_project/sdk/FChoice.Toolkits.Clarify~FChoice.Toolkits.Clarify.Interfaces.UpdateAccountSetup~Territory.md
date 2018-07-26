@@ -5,23 +5,24 @@ Territory of the Account.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property Territory As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string Territory {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Must be a valid Territory name from table 'territory'.
 
 If the property is set to an empty string the relation to the current Territory will be removed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

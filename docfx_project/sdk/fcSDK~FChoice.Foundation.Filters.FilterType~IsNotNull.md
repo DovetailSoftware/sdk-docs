@@ -5,22 +5,24 @@ Filter on fields that are not null
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 Public Shared Function IsNotNull( _
    ByVal _columnName_ As String _
-) As [IsNullFilter](fcSDK~FChoice.Foundation.Filters.IsNullFilter.md)
+) As IsNullFilter
+```
 
-public static [IsNullFilter](fcSDK~FChoice.Foundation.Filters.IsNullFilter.md) IsNotNull( 
+```csharp
+public static IsNullFilter IsNotNull( 
    string _columnName_
 )
+```
 
 #### Parameters
 
 _columnName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,19 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
-<[GuidAttribute](#)("78A3320B-100C-4225-A3C1-58C2A3E73A86")>
-<[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)>
-<[ComVisibleAttribute](#)(True)>
-<[ClassInterfaceAttribute](#)(ClassInterfaceType.None)>
-Public Class MockAdoField 
-   Implements [IMockAdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField.md) 
+'Declaration
 
-\[[GuidAttribute](#)("78A3320B-100C-4225-A3C1-58C2A3E73A86")\]
-\[[IDispatchImplAttribute](#)(IDispatchImplType.CompatibleImpl)\]
-\[[ComVisibleAttribute](#)(true)\]
-\[[ClassInterfaceAttribute](#)(ClassInterfaceType.None)\]
-public class MockAdoField : [IMockAdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField.md)  
+<GuidAttribute("78A3320B-100C-4225-A3C1-58C2A3E73A86")>
+<IDispatchImplAttribute(IDispatchImplType.CompatibleImpl)>
+<ComVisibleAttribute(True)>
+<ClassInterfaceAttribute(ClassInterfaceType.None)>
+Public Class MockAdoField 
+   Implements IMockAdoField 
+```
+
+```csharp
+[GuidAttribute("78A3320B-100C-4225-A3C1-58C2A3E73A86")]
+[IDispatchImplAttribute(IDispatchImplType.CompatibleImpl)]
+[ComVisibleAttribute(true)]
+[ClassInterfaceAttribute(ClassInterfaceType.None)]
+public class MockAdoField : IMockAdoField  
+```
 
 Inheritance Hierarchy
 
@@ -29,8 +33,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
-
-
 
 #### Reference
 

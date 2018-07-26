@@ -5,23 +5,24 @@ Indicates if the Part should be installed at the top-level of the Site
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 <[ObsoleteAttribute](#)("This property has no effect")>
 Public Property InstallAtSite As Boolean
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 \[[ObsoleteAttribute](#)("This property has no effect")\]
 public bool InstallAtSite {get; set;}
+```
 
-Remarks
+#### Remarks
 
 **This property is obsolete as it has no effect on this API call.**
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

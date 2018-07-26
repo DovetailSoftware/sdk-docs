@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _propertyName_ As String, _
@@ -13,7 +13,9 @@ Public Function New( _
    ByVal _docSummary_ As String, _
    ByVal _typeConversionExpression_ As String _
 )
+```
 
+```csharp
 public OutputPropertyAttribute( 
    string _propertyName_,
    string _facadePropertyName_,
@@ -22,6 +24,7 @@ public OutputPropertyAttribute(
    string _docSummary_,
    string _typeConversionExpression_
 )
+```
 
 #### Parameters
 
@@ -38,8 +41,6 @@ _docSummary_
 _typeConversionExpression_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,17 +9,20 @@ Update a Communication.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateCommunication( _
-   ByVal _setup_ As [UpdateCommunicationSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateCommunicationSetup.md), _
+   ByVal _setup_ As UpdateCommunicationSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateCommunication( 
-   [UpdateCommunicationSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateCommunicationSetup.md) _setup_,
+```csharp
+public ToolkitResult UpdateCommunication( 
+   UpdateCommunicationSetup _setup_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _transaction_
 Database transaction under which the API will be invoked.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

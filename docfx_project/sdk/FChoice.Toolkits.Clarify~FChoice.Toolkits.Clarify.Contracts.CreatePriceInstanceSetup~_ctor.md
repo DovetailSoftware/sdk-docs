@@ -19,7 +19,7 @@ Initializes a new instance of the CreatePriceInstanceSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -31,7 +31,9 @@ Public Function New( _
    ByVal _priceType_ As [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md), _
    ByVal _quantity_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreatePriceInstanceSetup( 
    string _partNumber_,
@@ -42,6 +44,7 @@ public CreatePriceInstanceSetup(
    [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md) _priceType_,
    int _quantity_
 )
+```
 
 #### Parameters
 
@@ -74,8 +77,6 @@ _quantity_
 The quantity of the part for the Price Instance. If not set, it will default to a zero price quantity.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

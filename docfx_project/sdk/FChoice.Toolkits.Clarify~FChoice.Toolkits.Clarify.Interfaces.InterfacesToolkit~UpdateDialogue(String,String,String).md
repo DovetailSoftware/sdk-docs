@@ -11,19 +11,22 @@ Update a Dialogue.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateDialogue( _
    ByVal _idNumber_ As String, _
    ByVal _newTitle_ As String, _
    ByVal _newPriority_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateDialogue( 
+```csharp
+public ToolkitResult UpdateDialogue( 
    string _idNumber_,
    string _newTitle_,
    string _newPriority_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ _newPriority_
 The Priority of the dialogue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

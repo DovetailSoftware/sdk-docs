@@ -1,14 +1,18 @@
-﻿### DispatchCRSetup Class
+### DispatchCRSetup Class
 
 Used by the [DispatchCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~DispatchCR(DispatchCRSetup).md) method as setup data for invocation.
 
 Syntax
 
 ```vbnet
-' Declaration
-Public Class DispatchCRSetup 
+'Declaration
 
+Public Class DispatchCRSetup 
+```
+
+```csharp
 public class DispatchCRSetup 
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

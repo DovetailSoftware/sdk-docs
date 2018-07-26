@@ -9,17 +9,20 @@ Dispatch the Opportunity to the specified queue. This overload takes a setup obj
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function DispatchOpportunity( _
-   ByVal _setupParam_ As [DispatchOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchOpportunitySetup.md), _
+   ByVal _setupParam_ As DispatchOpportunitySetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) DispatchOpportunity( 
-   [DispatchOpportunitySetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchOpportunitySetup.md) _setupParam_,
+```csharp
+public ToolkitResult DispatchOpportunity( 
+   DispatchOpportunitySetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

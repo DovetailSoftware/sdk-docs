@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property Views As [SchemaViewCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewCollection.md)
+Public ReadOnly Property Views As SchemaViewCollection
+```
 
-public [SchemaViewCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewCollection.md) Views {get;}
+```csharp
+public SchemaViewCollection Views {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

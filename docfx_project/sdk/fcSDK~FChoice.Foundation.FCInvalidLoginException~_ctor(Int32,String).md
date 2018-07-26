@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _errorId_ As Integer, _
    ByVal _username_ As String _
 )
+```
 
+```csharp
 public FCInvalidLoginException( 
    int _errorId_,
    string _username_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _errorId_
 _username_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

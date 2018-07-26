@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property DeleteRelationsToUnrelate As [RelationNameCollection](fcSDK~FChoice.Foundation.RelationNameCollection.md)
+Public ReadOnly Property DeleteRelationsToUnrelate As RelationNameCollection
+```
 
-public [RelationNameCollection](fcSDK~FChoice.Foundation.RelationNameCollection.md) DeleteRelationsToUnrelate {get;}
+```csharp
+public RelationNameCollection DeleteRelationsToUnrelate {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

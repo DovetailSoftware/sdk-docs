@@ -1,6 +1,6 @@
 ﻿### ISchemaTable Interface Members
 
-The following tables list the members exposed by [ISchemaTable](fcSDK~FChoice.Foundation.Schema.ISchemaTable.md).
+The following tables list the members exposed by ISchemaTable.
 
 Public Properties
 
@@ -8,10 +8,6 @@ Public Properties
 | --- | --- | --- |
 | ![ Property](dotnetimages/Property.png) | [Relationships](fcSDK~FChoice.Foundation.Schema.ISchemaTable~Relationships.md) |   |
 | ![ Property](dotnetimages/Property.png) | [Views](fcSDK~FChoice.Foundation.Schema.ISchemaTable~Views.md) |   |
-
-
-
-
 
 #### Reference
 

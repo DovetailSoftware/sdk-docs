@@ -3,15 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-ReadOnly Property Countries As [CountryCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.CountryCollection.md)
+ReadOnly Property Countries As CountryCollection
+```
 
-[CountryCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.CountryCollection.md) Countries {get;}
+```csharp
+CountryCollection Countries {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

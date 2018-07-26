@@ -3,17 +3,19 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Shared Function GetQueueableObjectInfo( _
    ByVal _objectName_ As String, _
    ByVal _createCustomIfNotFound_ As Boolean _
-) As [WorkflowObjectInfo](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo.md)
+) As WorkflowObjectInfo```
 
-public static [WorkflowObjectInfo](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo.md) GetQueueableObjectInfo( 
+```csharp
+public static WorkflowObjectInfo GetQueueableObjectInfo( 
    string _objectName_,
    bool _createCustomIfNotFound_
 )
+```
 
 #### Parameters
 
@@ -22,8 +24,6 @@ _objectName_
 _createCustomIfNotFound_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

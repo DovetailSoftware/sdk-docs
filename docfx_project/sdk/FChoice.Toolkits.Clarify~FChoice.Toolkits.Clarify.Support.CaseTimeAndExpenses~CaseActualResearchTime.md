@@ -5,15 +5,16 @@ Actual research time for the Case
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property CaseActualResearchTime As TimeSpan
+```
 
+```csharp
 public TimeSpan CaseActualResearchTime {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

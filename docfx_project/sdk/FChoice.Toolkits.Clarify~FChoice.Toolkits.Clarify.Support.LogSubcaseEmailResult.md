@@ -5,12 +5,15 @@ Result from the [LogSubcaseEmail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clar
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class LogSubcaseEmailResult 
-   Inherits [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   Inherits FChoice.Toolkits.Clarify.ToolkitResult
+```
 
-public class LogSubcaseEmailResult : [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) 
+```csharp
+public class LogSubcaseEmailResult : FChoice.Toolkits.Clarify.ToolkitResult
+``` 
 
 Inheritance Hierarchy
 
@@ -25,8 +28,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

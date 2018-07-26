@@ -1,20 +1,22 @@
-﻿### SolutionIDNum Property (DispatchSolutionSetup)
+### SolutionIDNum Property (DispatchSolutionSetup)
 
 Solution Identifier.
 
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property SolutionIDNum As String
+'Declaration
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+<PropertyBitValueAttribute()>
+Public Property SolutionIDNum As String
+```
+
+```csharp
+[PropertyBitValueAttribute()]
 public string SolutionIDNum {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,17 +7,20 @@ Initializes a new instance of the RejectContractSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _contractIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public RejectContractSetup( 
    string _contractIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _contractIDNum_
 Contract Identifier.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

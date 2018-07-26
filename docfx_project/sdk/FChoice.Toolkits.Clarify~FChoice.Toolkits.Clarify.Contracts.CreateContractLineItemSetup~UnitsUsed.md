@@ -5,7 +5,7 @@ The number of units used for the Line Item.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <PropertyBitValueAttribute()>
 Public Property UnitsUsed As Double

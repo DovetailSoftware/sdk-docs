@@ -1,9 +1,9 @@
-﻿### accept_object Method (IFCSession)
+### accept_object Method (IFCSession)
 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <DispIdAttribute(1610743895)>
 Function accept_object( _
@@ -14,7 +14,9 @@ Function accept_object( _
    ByVal _generateTimebombs_ As Boolean, _
    ByVal _objectType_ As String _
 ) As Short
+```
 
+```csharp
 [DispIdAttribute(1610743895)]
 short accept_object( 
    string _objId_,
@@ -24,6 +26,7 @@ short accept_object(
    bool _generateTimebombs_,
    string _objectType_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ _generateTimebombs_
 _objectType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -15,7 +15,7 @@ Initializes a new instance of the LogLeadPhoneSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -25,7 +25,9 @@ Public Function New( _
    ByVal _contactPhone_ As String, _
    ByVal _duration_ As TimeSpan _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public LogLeadPhoneSetup( 
    int _leadObjid_,
@@ -34,6 +36,7 @@ public LogLeadPhoneSetup(
    string _contactPhone_,
    TimeSpan _duration_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ _duration_
 Time that the phone call lasted.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _locationName_ As String, _
    ByVal _isPrimaryBinSuggestion_ As Boolean _
 )
+```
 
+```csharp
 public Location( 
    string _locationName_,
    bool _isPrimaryBinSuggestion_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _locationName_
 _isPrimaryBinSuggestion_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

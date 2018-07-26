@@ -15,7 +15,7 @@ Initializes a new instance of the UpdateContactSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -25,7 +25,9 @@ Public Function New( _
    ByVal _siteIDNum_ As String, _
    ByVal _roleName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateContactSetup( 
    string _firstName_,
@@ -34,6 +36,7 @@ public UpdateContactSetup(
    string _siteIDNum_,
    string _roleName_
 )
+```
 
 #### Parameters
 
@@ -58,8 +61,6 @@ _roleName_
 Current role for the Contact at their site. Element from the 'Contact Role' application list. If not set, the default list value is used.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

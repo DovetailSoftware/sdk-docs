@@ -10,7 +10,7 @@ System.Object
    [FChoice.Common.LogManager](FChoice.Common~FChoice.Common.LogManager.md)  
    [FChoice.Common.PerfManager](FChoice.Common~FChoice.Common.PerfManager.md)  
    [FChoice.Common.StringUtil](FChoice.Common~FChoice.Common.StringUtil.md)  
-   [System.Exception](#)  
+   System.Exception  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             [FChoice.Common.CommonException](FChoice.Common~FChoice.Common.CommonException.md)  
@@ -19,8 +19,6 @@ System.Object
             [FChoice.Common.FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseException.md)  
             [FChoice.Common.InvalidLoggingConfigException](FChoice.Common~FChoice.Common.InvalidLoggingConfigException.md)  
             [FChoice.Common.State.StateManagerException](FChoice.Common~FChoice.Common.State.StateManagerException.md)  
-
-
 
 #### Reference
 

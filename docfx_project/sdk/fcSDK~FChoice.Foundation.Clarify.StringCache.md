@@ -5,13 +5,16 @@ Caches and provides convenient access to string_db and fc_string values
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Class StringCache 
-   Inherits [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)
-   Implements [IStringCache](fcSDK~FChoice.Foundation.Clarify.IStringCache.md) 
+   Inherits ClarifyCacheBase
+   Implements IStringCache 
+```
 
-public class StringCache : [ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md), [IStringCache](fcSDK~FChoice.Foundation.Clarify.IStringCache.md)  
+```csharp
+public class StringCache : ClarifyCacheBase, IStringCache
+```  
 
 Inheritance Hierarchy
 
@@ -27,8 +30,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

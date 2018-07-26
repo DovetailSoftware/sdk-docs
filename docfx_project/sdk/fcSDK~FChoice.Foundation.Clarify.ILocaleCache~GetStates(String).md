@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Overloads Function GetStates( _
    ByVal _countryName_ As String _
-) As [StateCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection.md)
+) As StateCollection
+```
 
-[StateCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection.md) GetStates( 
+```csharp
+StateCollection GetStates( 
    string _countryName_
 )
+```
 
 #### Parameters
 
 _countryName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function IsValidTableOrView( _
    ByVal _objectName_ As String _
 ) As Boolean
+```
 
+```csharp
 bool IsValidTableOrView( 
    string _objectName_
 )
+```
 
 #### Parameters
 
 _objectName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

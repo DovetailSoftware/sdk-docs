@@ -3,17 +3,20 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function New( _
    ByVal _defaultValue_ As String, _
    ByVal _method_ As String _
 )
+```
 
+```csharp
 public ParameterDefaultValueAttribute( 
    string _defaultValue_,
    string _method_
 )
+```
 
 #### Parameters
 
@@ -22,8 +25,6 @@ _defaultValue_
 _method_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

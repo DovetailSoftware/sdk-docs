@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function RemoveContactFromContract( _
-   ByVal _setupParam_ As [RemoveContactFromContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveContactFromContractSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ RemoveContactFromContractSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) RemoveContactFromContract( 
-   [RemoveContactFromContractSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveContactFromContractSetup.md) _setupParam_
+```csharp
+public ToolkitResult RemoveContactFromContract( 
+   RemoveContactFromContractSetup _setupParam_
 )
+```
 
 #### Parameters
 
 _setupParam_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

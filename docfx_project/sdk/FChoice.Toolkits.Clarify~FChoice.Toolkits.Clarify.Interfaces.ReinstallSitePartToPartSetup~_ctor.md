@@ -11,7 +11,7 @@ Initializes a new instance of the ReinstallSitePartToPartSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _siteIDNum_ As String, _
    ByVal _parentSitePartObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public ReinstallSitePartToPartSetup( 
    int _sitePartObjid_,
    string _siteIDNum_,
    int _parentSitePartObjid_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _parentSitePartObjid_
 Objid of the parent Site Part this Part will be re-installed under.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

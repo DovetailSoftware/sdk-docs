@@ -5,20 +5,22 @@ Site Identifier for the shipment of this Schedule.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property ShipToSiteIDNum As String
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public string ShipToSiteIDNum {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If this is set to the empty string (“”) or “IGNORE”, no change is made in the site.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -3,18 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743887)>
 Sub RelateByID( _
    ByVal _objId_ As Integer, _
    ByVal _relationName_ As String _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743887)]
 void RelateByID( 
    int _objId_,
    string _relationName_
 )
+```
 
 #### Parameters
 
@@ -23,8 +27,6 @@ _objId_
 _relationName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

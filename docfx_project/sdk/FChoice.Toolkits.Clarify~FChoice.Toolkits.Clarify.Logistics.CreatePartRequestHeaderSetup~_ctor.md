@@ -13,7 +13,7 @@ Initializes a new instance of the CreatePartRequestHeaderSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -22,7 +22,9 @@ Public Function New( _
    ByVal _contactPhone_ As String, _
    ByVal _shipToSiteIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public CreatePartRequestHeaderSetup( 
    string _contactFirstName_,
@@ -30,6 +32,7 @@ public CreatePartRequestHeaderSetup(
    string _contactPhone_,
    string _shipToSiteIDNum_
 )
+```
 
 #### Parameters
 
@@ -50,8 +53,6 @@ _shipToSiteIDNum_
 Identifier of the Site where this Part Request should be shipped
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

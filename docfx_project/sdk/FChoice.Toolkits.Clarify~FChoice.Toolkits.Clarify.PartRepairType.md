@@ -5,12 +5,15 @@ Repair Type of the Part being created or modified.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Enum PartRepairType 
    Inherits System.Enum
+```
 
-public enum PartRepairType : System.Enum 
+```csharp
+public enum PartRepairType : System.Enum
+```
 
 Members
 
@@ -33,8 +36,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

@@ -3,14 +3,16 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public ReadOnly Property TableField As [SchemaTableField](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableField.md)
+'Declaration
 
-public [SchemaTableField](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableField.md) TableField {get;}
+Public ReadOnly Property TableField As SchemaTableField
+```
+
+```csharp
+public SchemaTableField TableField {get;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

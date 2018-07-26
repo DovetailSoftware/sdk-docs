@@ -1,8 +1,4 @@
-﻿     Find(Object\[\]) Method                                                   
-
-fcSDK Documentation
-
-Find(Object\[\]) Method
+﻿### Find(Object\[\]) Method
 
 An array of primary key values to find. The type of the array is Object.
 
@@ -11,15 +7,18 @@ Gets the row containing the specified primary key values.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function Find( _
    ByVal _keys_() As Object _
-) As [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)
+) As GenericDataRow
+```
 
-public [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) Find( 
+```csharp
+public GenericDataRow Find( 
    object\[\] _keys_
 )
+```
 
 #### Parameters
 
@@ -32,8 +31,6 @@ Remarks
 The implementation of Find is delegated to DataRowCollection's [Find](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatarowcollectionclassfindtopic2.htm).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

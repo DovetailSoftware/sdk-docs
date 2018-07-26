@@ -7,15 +7,18 @@ Log a note for a Lead. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogLeadNote( _
-   ByVal _setupParam_ As [LogLeadNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ LogLeadNoteSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogLeadNote( 
-   [LogLeadNoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup.md) _setupParam_
+```csharp
+public ToolkitResult LogLeadNote( 
+   LogLeadNoteSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ The objid of the lead must be specified (since no other information on the lead 
 The API can generate a time bomb (for business rule notification).
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

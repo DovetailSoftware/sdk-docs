@@ -5,14 +5,16 @@ The restriction group being used by the session.
 Syntax
 
 ```vbnet
-' Declaration
-Public Property CurResGroup As [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md)
+'Declaration
 
-public [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md) CurResGroup {get; set;}
+Public Property CurResGroup As RestrictionGroup
+```
+
+```csharp
+public RestrictionGroup CurResGroup {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

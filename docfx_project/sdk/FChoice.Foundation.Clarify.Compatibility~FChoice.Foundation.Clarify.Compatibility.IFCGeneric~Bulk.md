@@ -3,16 +3,18 @@
 Syntax
 
 ```vbnet
-' Declaration
-<DispIdAttribute(1610743851)>
-Property Bulk As [IFCBulk](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk.md)
+'Declaration
 
+<DispIdAttribute(1610743851)>
+Property Bulk As IFCBulk
+```
+
+```csharp
 [DispIdAttribute(1610743851)]
-[IFCBulk](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk.md) Bulk {get; set;}
+IFCBulk Bulk {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

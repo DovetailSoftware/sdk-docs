@@ -7,15 +7,18 @@ Fulfills a previously unfulfilled commitment. This overload takes a setup object
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function FulfillCommitment( _
-   ByVal _setupParam_ As [FulfillCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ FulfillCommitmentSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) FulfillCommitment( 
-   [FulfillCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup.md) _setupParam_
+```csharp
+public ToolkitResult FulfillCommitment( 
+   FulfillCommitmentSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ Setup object for API invocation.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

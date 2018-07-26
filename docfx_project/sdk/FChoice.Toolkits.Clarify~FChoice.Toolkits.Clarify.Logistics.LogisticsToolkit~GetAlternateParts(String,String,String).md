@@ -11,19 +11,22 @@ Builds a list of the alternate parts (table_partnum_view) for the specified part
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetAlternateParts( _
    ByVal _partNumber_ As String, _
    ByVal _partDomain_ As String, _
    ByVal _partRevision_ As String _
-) As [GetAlternatePartsResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult.md)
+) As GetAlternatePartsResult
+```
 
-public [GetAlternatePartsResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult.md) GetAlternateParts( 
+```csharp
+public GetAlternatePartsResult GetAlternateParts( 
    string _partNumber_,
    string _partDomain_,
    string _partRevision_
 )
+```
 
 #### Parameters
 
@@ -41,13 +44,11 @@ The Part revision
 
 #### Return Value
 
-The following values are populated in the [GetAlternatePartsResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult.md) object returned by the API method:
+The following values are populated in the GetAlternatePartsResult object returned by the API method:
 
-*   [AlternatePartList](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult~AlternatePartList.md) \- An array of Alternate Part objid's.
+*   AlternatePartList \- An array of Alternate Part objid's.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

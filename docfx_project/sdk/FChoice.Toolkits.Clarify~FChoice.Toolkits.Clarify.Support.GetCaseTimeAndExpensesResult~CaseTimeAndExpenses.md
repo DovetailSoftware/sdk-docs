@@ -5,19 +5,20 @@ Contains the sums and totals of time and expenses calculated before closing a Ca
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public Property CaseTimeAndExpenses As [CaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses.md)
+Public Property CaseTimeAndExpenses As CaseTimeAndExpenses
+```
 
-public [CaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses.md) CaseTimeAndExpenses {get; set;}
+```csharp
+public CaseTimeAndExpenses CaseTimeAndExpenses {get; set;}
+```
 
-Remarks
+#### Remarks
 
 This object can be used when calling [CloseCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CloseCase.md) to set the [CloseSums](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup~CloseSums.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

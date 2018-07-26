@@ -9,17 +9,20 @@ Builds a list of the alternate parts (table_partnum_view) for the specified part
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function GetAlternateParts( _
-   ByVal _setupParam_ As [GetAlternatePartsSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup.md), _
+   ByVal _setupParam_ As GetAlternatePartsSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [GetAlternatePartsResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult.md)
+) As GetAlternatePartsResult
+```
 
-public [GetAlternatePartsResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult.md) GetAlternateParts( 
-   [GetAlternatePartsSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup.md) _setupParam_,
+```csharp
+public GetAlternatePartsResult GetAlternateParts( 
+   GetAlternatePartsSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -33,15 +36,13 @@ Database transaction under which the API will be invoked.
 
 #### Return Value
 
-A [GetAlternatePartsResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A GetAlternatePartsResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 Example
 
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

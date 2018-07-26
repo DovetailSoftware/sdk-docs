@@ -5,20 +5,22 @@ Specifies whether to install the Line Item.
 Syntax
 
 ```vbnet
-' Declaration
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+'Declaration
+
+<PropertyBitValueAttribute()>
 Public Property AutoInstall As Boolean
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public bool AutoInstall {get; set;}
+```
 
-Remarks
+#### Remarks
 
 If AutoInstall = True, a QuotedSiteIDNum must be supplied.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

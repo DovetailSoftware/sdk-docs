@@ -3,10 +3,14 @@
 Syntax
 
 ```vbnet
-' Declaration
-Public Interface ISchemaViewJoinCollection 
+'Declaration
 
+Public Interface ISchemaViewJoinCollection 
+```
+
+```csharp
 public interface ISchemaViewJoinCollection 
+```
 
 #### Requirements
 
@@ -15,8 +19,6 @@ public interface ISchemaViewJoinCollection
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

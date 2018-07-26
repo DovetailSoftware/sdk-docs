@@ -3,7 +3,7 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function GetLocalizedTitle( _
    ByVal _specificCulture_ As CultureInfo _
@@ -14,14 +14,13 @@ Public Function GetLocalizedTitle( _
 public string GetLocalizedTitle( 
    CultureInfo _specificCulture_
 )
+```
 
 #### Parameters
 
 _specificCulture_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

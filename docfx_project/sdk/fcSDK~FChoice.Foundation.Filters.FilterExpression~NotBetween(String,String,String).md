@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function NotBetween( _
    ByVal _columnName_ As String, _
    ByVal _value1_ As String, _
    ByVal _value2_ As String _
-) As [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md)
+) As BetweenFilter
+```
 
-public [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md) NotBetween( 
+```csharp
+public BetweenFilter NotBetween( 
    string _columnName_,
    string _value1_,
    string _value2_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _value1_
 _value2_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

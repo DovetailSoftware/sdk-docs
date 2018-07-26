@@ -3,27 +3,30 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Class Or  _
+<AttributeUsageAttribute(ValidOn=AttributeTargets.Class Or  _
     AttributeTargets.Struct Or  _
     AttributeTargets.Method, 
    AllowMultiple=False, 
    Inherited=True)>
 Public Class ToolkitVisibleAttribute 
-   Inherits [System.Attribute](#)
+   Inherits System.Attribute
+```
 
-\[[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Class | 
+```csharp
+[AttributeUsageAttribute(ValidOn=AttributeTargets.Class | 
     AttributeTargets.Struct | 
     AttributeTargets.Method, 
    AllowMultiple=false, 
-   Inherited=true)\]
-public class ToolkitVisibleAttribute : [System.Attribute](#) 
+   Inherited=true)]
+public class ToolkitVisibleAttribute : System.Attribute 
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Attribute](#)  
+   System.Attribute  
       **FChoice.Foundation.Clarify.Attributes.ToolkitVisibleAttribute**  
 
 #### Requirements
@@ -33,8 +36,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

@@ -9,17 +9,20 @@ Create an Engineering Change Order (ECO) Header. This overload takes a set of re
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateEcoHeader( _
    ByVal _startDate_ As Date, _
    ByVal _endDate_ As Date _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateEcoHeader( 
+```csharp
+public ToolkitResult CreateEcoHeader( 
    DateTime _startDate_,
    DateTime _endDate_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ The DateTime the ECO header becomes obsolete. If not set, the current time is u
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

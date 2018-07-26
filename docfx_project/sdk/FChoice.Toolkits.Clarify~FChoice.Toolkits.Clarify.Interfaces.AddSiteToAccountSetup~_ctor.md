@@ -11,7 +11,7 @@ Initializes a new instance of the AddSiteToAccountSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
@@ -19,13 +19,16 @@ Public Function New( _
    ByVal _accountIDNum_ As String, _
    ByVal _roleName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AddSiteToAccountSetup( 
    string _siteIDNum_,
    string _accountIDNum_,
    string _roleName_
 )
+```
 
 #### Parameters
 
@@ -42,8 +45,6 @@ _roleName_
 Name of the Site Role the Site will play for the Account.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

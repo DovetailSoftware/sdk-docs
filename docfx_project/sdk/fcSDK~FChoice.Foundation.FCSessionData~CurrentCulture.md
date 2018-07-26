@@ -5,15 +5,16 @@ The Culture being used by the session.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Property CurrentCulture As CultureInfo
+```
 
+```csharp
 public CultureInfo CurrentCulture {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

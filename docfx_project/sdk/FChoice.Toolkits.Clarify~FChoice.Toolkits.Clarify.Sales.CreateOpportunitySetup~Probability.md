@@ -5,21 +5,22 @@ Probability of opportunity close.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
+<PropertyBitValueAttribute()>
 Public Property Probability As [Single](#)
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
+```csharp
+[PropertyBitValueAttribute()]
 public [float](#) Probability {get; set;}
+```
 
-Remarks
+#### Remarks
 
 Must be a numeric value between 0 and 1.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

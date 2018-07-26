@@ -7,15 +7,18 @@ Create a Product Bin This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateProductBin( _
-   ByVal _setupParam_ As [CreateProductBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateProductBinSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ CreateProductBinSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateProductBin( 
-   [CreateProductBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateProductBinSetup.md) _setupParam_
+```csharp
+public ToolkitResult CreateProductBin( 
+   CreateProductBinSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -36,8 +39,6 @@ A unique [BinName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.
 If the Bin being created exists under another Bin you need to set the [Parent BinObjd](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateProductBinSetup~ParentBinObjid.md) 
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

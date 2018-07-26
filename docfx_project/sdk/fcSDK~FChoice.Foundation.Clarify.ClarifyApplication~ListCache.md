@@ -5,11 +5,14 @@ Gets a reference to the [ListCache](fcSDK~FChoice.Foundation.Clarify.ListCache.m
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-Public ReadOnly Property ListCache As [IListCache](fcSDK~FChoice.Foundation.Clarify.IListCache.md)
+Public ReadOnly Property ListCache As IListCache
+```
 
-public [IListCache](fcSDK~FChoice.Foundation.Clarify.IListCache.md) ListCache {get;}
+```csharp
+public IListCache ListCache {get;}
+```
 
 #### Property Value
 
@@ -20,8 +23,6 @@ Remarks
 See the documentation for [ListCache](fcSDK~FChoice.Foundation.Clarify.ListCache.md) for more information on how to access and work with Clarify lists in FCFL.NET.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

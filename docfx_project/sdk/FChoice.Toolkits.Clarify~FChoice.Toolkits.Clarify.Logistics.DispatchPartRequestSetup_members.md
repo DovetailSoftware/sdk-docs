@@ -1,4 +1,4 @@
-﻿### DispatchPartRequestSetup Class Members
+### DispatchPartRequestSetup Class Members
 
 The following tables list the members exposed by [DispatchPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup.md).
 
@@ -19,10 +19,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRequestDetailIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup~PartRequestDetailIDNum.md) | Part Request Detail Identifier   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup~Queue.md) | The queue into which the PartRequest is to be dispatched.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup~UserName.md) | The user who has dispatched the PartRequest. If not set, the Toolkit session user is used.   |
-
-
-
-
 
 #### Reference
 

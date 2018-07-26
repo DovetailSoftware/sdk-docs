@@ -7,15 +7,18 @@ Used to modify the name or the active flag of an existing bin. This overload tak
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UpdateInventoryBin( _
-   ByVal _setupParam_ As [UpdateInventoryBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UpdateInventoryBinSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UpdateInventoryBin( 
-   [UpdateInventoryBinSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup.md) _setupParam_
+```csharp
+public ToolkitResult UpdateInventoryBin( 
+   UpdateInventoryBinSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ Remarks
 **NOTE**: This API cannot move a bin to another location, only rename it at the existing location.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

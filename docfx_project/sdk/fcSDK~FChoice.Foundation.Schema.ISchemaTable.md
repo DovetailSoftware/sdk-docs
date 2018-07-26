@@ -3,12 +3,15 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Interface ISchemaTable 
-   Inherits [ISchemaTableBase](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase.md) 
+   Inherits ISchemaTableBase
+```
 
-public interface ISchemaTable : [ISchemaTableBase](fcSDK~FChoice.Foundation.Schema.ISchemaTableBase.md)  
+```csharp 
+public interface ISchemaTable : ISchemaTableBase
+```  
 
 #### Requirements
 
@@ -17,8 +20,6 @@ public interface ISchemaTable : [ISchemaTableBase](fcSDK~FChoice.Foundation.Sche
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

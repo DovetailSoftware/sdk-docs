@@ -7,15 +7,18 @@ Creates an email log against a Case. This overload takes a setup object.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCaseEmail( _
-   ByVal _setupParam_ As [LogCaseEmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup.md) _
-) As [LogCaseEmailResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult.md)
+   ByVal _setupParam_ As LogCaseEmailSetup _
+) As LogCaseEmailResult
+```
 
-public [LogCaseEmailResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult.md) LogCaseEmail( 
-   [LogCaseEmailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup.md) _setupParam_
+```csharp
+public LogCaseEmailResult LogCaseEmail( 
+   LogCaseEmailSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -25,19 +28,17 @@ Setup object for API invocation.
 
 #### Return Value
 
-The following values are populated in the [LogCaseEmailResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult.md) object returned by the API method:
+The following values are populated in the LogCaseEmailResult object returned by the API method:
 
-*   [CommitmentObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult~CommitmentObjid.md) \- The Objid of the Commitment.
-*   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult~Objid.md) \- The Objid of the Log.
-*   [StatusChangeObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult~StatusChangeObjid.md) \- The Objid of the StatusChange.
+*   CommitmentObjid \- The Objid of the Commitment.
+*   Objid \- The Objid of the Log.
+*   StatusChangeObjid \- The Objid of the StatusChange.
 
 Remarks
 
-It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup~IsCommitmentToCustomer.md) properties
+It is possible to create a Commitment with this log. To do so set the CommitmentDueDate and CommitmentTitle and IsCommitmentToCustomer properties
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

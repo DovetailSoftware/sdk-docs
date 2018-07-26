@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 Function GetChangeDateField( _
    ByVal _tableName_ As String _
-) As [ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md)
+) As ISchemaField
+```
 
-[ISchemaField](fcSDK~FChoice.Foundation.Schema.ISchemaField.md) GetChangeDateField( 
+```csharp
+ISchemaField GetChangeDateField( 
    string _tableName_
 )
+```
 
 #### Parameters
 
 _tableName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

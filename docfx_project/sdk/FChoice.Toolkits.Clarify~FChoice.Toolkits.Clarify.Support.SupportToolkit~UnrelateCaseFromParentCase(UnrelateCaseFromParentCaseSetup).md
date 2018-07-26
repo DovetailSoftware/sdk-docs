@@ -7,15 +7,18 @@ Unrelates the specified Case from the current parent Case. This overload takes a
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function UnrelateCaseFromParentCase( _
-   ByVal _setupParam_ As [UnrelateCaseFromParentCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UnrelateCaseFromParentCaseSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setupParam_ UnrelateCaseFromParentCaseSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) UnrelateCaseFromParentCase( 
-   [UnrelateCaseFromParentCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UnrelateCaseFromParentCaseSetup.md) _setupParam_
+```csharp
+public ToolkitResult UnrelateCaseFromParentCase( 
+   UnrelateCaseFromParentCaseSetup _setupParam_
 )
+```
 
 #### Parameters
 
@@ -28,8 +31,6 @@ Setup object for API invocation.
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

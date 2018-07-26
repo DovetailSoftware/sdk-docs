@@ -18,7 +18,7 @@ Syntax
 'Declaration
  
 Public Overloads Function CreateEcoItem( _
-   ByVal _appliesTo_ As [EcoItemAppliesTo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.EcoItemAppliesTo.md), _
+   ByVal _appliesTo_ As EcoItemAppliesTo, _
    ByVal _isActive_ As Boolean, _
    ByVal _ecoHeaderIDNum_ As String, _
    ByVal _applyPartRevisionObjid_ As Integer, _
@@ -28,7 +28,7 @@ Public Overloads Function CreateEcoItem( _
 
 ```csharp
 public ToolkitResult CreateEcoItem( 
-   [EcoItemAppliesTo](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.EcoItemAppliesTo.md) _appliesTo_,
+   EcoItemAppliesTo _appliesTo_,
    bool _isActive_,
    string _ecoHeaderIDNum_,
    int _applyPartRevisionObjid_,

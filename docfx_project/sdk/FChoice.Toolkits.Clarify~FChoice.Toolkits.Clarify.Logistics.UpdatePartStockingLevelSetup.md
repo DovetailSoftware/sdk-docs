@@ -5,10 +5,14 @@ Used by the [UpdatePartStockingLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits
 Syntax
 
 ```vbnet
-' Declaration
-Public Class UpdatePartStockingLevelSetup 
+'Declaration
 
-public class UpdatePartStockingLevelSetup 
+Public Class UpdatePartStockingLevelSetup 
+```
+
+```csharp
+public class UpdatePartStockingLevelSetup
+```
 
 Inheritance Hierarchy
 
@@ -22,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

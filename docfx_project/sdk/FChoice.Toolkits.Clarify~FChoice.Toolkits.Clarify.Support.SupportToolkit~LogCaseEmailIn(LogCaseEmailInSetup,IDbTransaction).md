@@ -9,17 +9,20 @@ Creates an email in log against a Case.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogCaseEmailIn( _
-   ByVal _setup_ As [LogCaseEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailInSetup.md), _
+   ByVal _setup_ As LogCaseEmailInSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogCaseEmailIn( 
-   [LogCaseEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailInSetup.md) _setup_,
+```csharp
+public ToolkitResult LogCaseEmailIn( 
+   LogCaseEmailInSetup _setup_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -32,8 +35,6 @@ _transaction_
 Database transaction under which the API will be invoked.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

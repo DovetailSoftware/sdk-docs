@@ -7,17 +7,20 @@ Initializes a new instance of the LogCaseEmailSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _caseIDNum_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public LogCaseEmailSetup( 
    string _caseIDNum_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _caseIDNum_
 Identifier of the Case against which the email is being logged.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

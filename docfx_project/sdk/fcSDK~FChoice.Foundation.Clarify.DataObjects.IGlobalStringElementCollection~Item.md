@@ -3,22 +3,23 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 ReadOnly Default Property Item( _
    ByVal _title_ As String _
-) As [IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md)
+) As IGlobalStringElement
+```
 
-[IGlobalStringElement](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.md) this\[ 
+```csharp
+IGlobalStringElement this[ 
    string _title_
-\]; {get;}
+]; {get;}
+```
 
 #### Parameters
 
 _title_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

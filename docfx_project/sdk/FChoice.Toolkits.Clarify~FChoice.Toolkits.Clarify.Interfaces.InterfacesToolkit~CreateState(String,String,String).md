@@ -11,19 +11,22 @@ Create a State (Provence) and relate it to an existing Country. This overload ta
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateState( _
    ByVal _state_ As String, _
    ByVal _fullName_ As String, _
    ByVal _country_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateState( 
+```csharp
+public ToolkitResult CreateState( 
    string _state_,
    string _fullName_,
    string _country_
 )
+```
 
 #### Parameters
 
@@ -46,8 +49,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the State.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

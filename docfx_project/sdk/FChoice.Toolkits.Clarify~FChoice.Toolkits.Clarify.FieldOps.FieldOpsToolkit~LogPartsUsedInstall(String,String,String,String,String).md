@@ -13,7 +13,7 @@ The Serial Number of the part being installed
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogPartsUsedInstall( _
    ByVal _partRequestDetailIDNum_ As String, _
@@ -21,15 +21,18 @@ Public Overloads Function LogPartsUsedInstall( _
    ByVal _installPartRevision_ As String, _
    ByVal _installPartDomain_ As String, _
    ByVal _installSerialNumber_ As String _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogPartsUsedInstall( 
+```csharp
+public ToolkitResult LogPartsUsedInstall( 
    string _partRequestDetailIDNum_,
    string _installPartNumber_,
    string _installPartRevision_,
    string _installPartDomain_,
    string _installSerialNumber_
 )
+```
 
 #### Parameters
 
@@ -60,8 +63,6 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PartUsed.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

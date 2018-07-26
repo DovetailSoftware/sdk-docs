@@ -3,23 +3,24 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Shared Function GetInstance( _
    ByVal _cacheSetName_ As String _
-) As [CustomCache](fcSDK~FChoice.Foundation.CustomCache.md)
+) As CustomCache
+```
 
-public static [CustomCache](fcSDK~FChoice.Foundation.CustomCache.md) GetInstance( 
+```csharp
+public static CustomCache GetInstance( 
    string _cacheSetName_
 )
+```
 
 #### Parameters
 
 _cacheSetName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,8 +1,4 @@
-﻿     FChoice.Foundation.Clarify.Compatibility Namespace Inheritance Hierarchy                                                   
-
-fcSDK Documentation
-
-FChoice.Foundation.Clarify.Compatibility Namespace Inheritance Hierarchy
+﻿### FChoice.Foundation.Clarify.Compatibility Namespace Inheritance Hierarchy
 
 Inheritance Hierarchy
 
@@ -17,13 +13,11 @@ System.Object
    [FChoice.Foundation.Clarify.Compatibility.FCSqlExec](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec.md)  
    [FChoice.Foundation.Clarify.Compatibility.MockAdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockAdoField.md)  
    [FChoice.Foundation.Clarify.Compatibility.MockCollection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockCollection.md)  
-   [System.Exception](#)  
+   System.Exception  
       [System.ApplicationException](#)  
          [FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
             [FChoice.Foundation.Clarify.Compatibility.CompatibilityException](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.CompatibilityException.md)  
                [FChoice.Foundation.Clarify.Compatibility.FCNotLoggedInException](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCNotLoggedInException.md)  
-
-
 
 #### Reference
 

@@ -5,14 +5,16 @@ The direction of the message ([CommunicationDirection](FChoice.Toolkits.Clarify~
 Syntax
 
 ```vbnet
-' Declaration
-Public Property Direction As [CommunicationDirection](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationDirection.md)
+'Declaration
 
-public [CommunicationDirection](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationDirection.md) Direction {get; set;}
+Public Property Direction As CommunicationDirection
+```
+
+```csharp
+public CommunicationDirection Direction {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

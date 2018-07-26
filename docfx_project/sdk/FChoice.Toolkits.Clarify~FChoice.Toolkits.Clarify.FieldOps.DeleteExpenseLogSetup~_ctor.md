@@ -7,17 +7,20 @@ Initializes a new instance of the DeleteExpenseLogSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _expenseLogObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DeleteExpenseLogSetup( 
    int _expenseLogObjid_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _expenseLogObjid_
 The Objid of the Expense Log being deleted.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

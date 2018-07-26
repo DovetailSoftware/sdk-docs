@@ -5,17 +5,18 @@ Type of the site
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property SiteType As [SiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteType.md)
+<PropertyBitValueAttribute()>
+Public Property SiteType As SiteType
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [SiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteType.md) SiteType {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public SiteType SiteType {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

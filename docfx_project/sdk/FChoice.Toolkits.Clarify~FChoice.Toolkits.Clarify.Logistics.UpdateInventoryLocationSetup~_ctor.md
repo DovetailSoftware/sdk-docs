@@ -7,17 +7,20 @@ Initializes a new instance of the UpdateInventoryLocationSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _currentName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public UpdateInventoryLocationSetup( 
    string _currentName_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _currentName_
 Current name of the inventory location
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -7,17 +7,20 @@ Initializes a new instance of the DeleteEcoItemSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _ecoItemObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public DeleteEcoItemSetup( 
    int _ecoItemObjid_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _ecoItemObjid_
 The objid of the ECO item object to be deleted
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

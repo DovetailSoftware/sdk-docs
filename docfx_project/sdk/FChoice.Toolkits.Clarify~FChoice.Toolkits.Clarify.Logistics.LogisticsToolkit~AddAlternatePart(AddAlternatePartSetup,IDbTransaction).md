@@ -9,17 +9,20 @@ Causes the second part/revision listed to become an alternate part of the first 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function AddAlternatePart( _
-   ByVal _setupParam_ As [AddAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup.md), _
+   ByVal _setupParam_ As AddAlternatePartSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) AddAlternatePart( 
-   [AddAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup.md) _setupParam_,
+```csharp
+public ToolkitResult AddAlternatePart( 
+   AddAlternatePartSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -40,8 +43,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

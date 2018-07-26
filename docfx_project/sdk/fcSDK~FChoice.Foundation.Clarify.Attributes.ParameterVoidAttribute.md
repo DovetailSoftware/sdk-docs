@@ -3,23 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Parameter, 
+<AttributeUsageAttribute(ValidOn=AttributeTargets.Parameter, 
    AllowMultiple=True, 
    Inherited=True)>
 Public Class ParameterVoidAttribute 
-   Inherits [System.Attribute](#)
+   Inherits System.Attribute
+```
 
-\[[AttributeUsageAttribute](#)(ValidOn=AttributeTargets.Parameter, 
+```csharp
+[AttributeUsageAttribute(ValidOn=AttributeTargets.Parameter, 
    AllowMultiple=true, 
-   Inherited=true)\]
-public class ParameterVoidAttribute : [System.Attribute](#) 
+   Inherited=true)]
+public class ParameterVoidAttribute : System.Attribute
+```
 
 Inheritance Hierarchy
 
 System.Object  
-   [System.Attribute](#)  
+   System.Attribute  
       **FChoice.Foundation.Clarify.Attributes.ParameterVoidAttribute**  
 
 #### Requirements
@@ -29,8 +32,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
-
-
 
 #### Reference
 

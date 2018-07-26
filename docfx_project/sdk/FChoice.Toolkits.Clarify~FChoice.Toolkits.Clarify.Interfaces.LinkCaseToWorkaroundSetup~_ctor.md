@@ -9,19 +9,22 @@ Initializes a new instance of the LinkCaseToWorkaroundSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _caseIDNum_ As String, _
    ByVal _workaroundObjid_ As Integer _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public LinkCaseToWorkaroundSetup( 
    string _caseIDNum_,
    int _workaroundObjid_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _workaroundObjid_
 Objid of the Workaround the Case will be linked to
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

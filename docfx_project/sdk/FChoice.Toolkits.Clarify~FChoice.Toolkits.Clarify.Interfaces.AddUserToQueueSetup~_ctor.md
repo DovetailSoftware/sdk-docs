@@ -9,19 +9,22 @@ Initializes a new instance of the AddUserToQueueSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _queue_ As String, _
    ByVal _userName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AddUserToQueueSetup( 
    string _queue_,
    string _userName_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _userName_
 Username of the user being added to the Queue.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -9,17 +9,20 @@ Used to upgrade an existing site part with a new site part. This overload takes 
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function LogPartsUsedUpgrade( _
-   ByVal _setupParam_ As [LogPartsUsedUpgradeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedUpgradeSetup.md), _
+   ByVal _setupParam_ As LogPartsUsedUpgradeSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) LogPartsUsedUpgrade( 
-   [LogPartsUsedUpgradeSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedUpgradeSetup.md) _setupParam_,
+```csharp
+public ToolkitResult LogPartsUsedUpgrade( 
+   LogPartsUsedUpgradeSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -54,8 +57,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

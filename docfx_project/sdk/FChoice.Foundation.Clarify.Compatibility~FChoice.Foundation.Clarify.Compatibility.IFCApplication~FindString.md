@@ -3,24 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743838)>
 Function FindString( _
    ByVal _StringID_ As Object _
 ) As String
+```
 
+```csharp
 [DispIdAttribute(1610743838)]
 string FindString( 
    object _StringID_
 )
+```
 
 #### Parameters
 
 _StringID_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

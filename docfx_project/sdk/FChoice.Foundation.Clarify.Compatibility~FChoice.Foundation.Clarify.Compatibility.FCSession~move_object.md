@@ -3,19 +3,22 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Function move_object( _
    ByVal _objId_ As String, _
    ByVal _newWipBin_ As String, _
    ByVal _objectType_ As String _
 ) As Short
+```
 
+```csharp
 public short move_object( 
    string _objId_,
    string _newWipBin_,
    string _objectType_
 )
+```
 
 #### Parameters
 
@@ -26,8 +29,6 @@ _newWipBin_
 _objectType_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

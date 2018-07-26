@@ -9,19 +9,22 @@ Initializes a new instance of the AddModuleToCRSetup class.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _fixObjid_ As Integer, _
    ByVal _fileName_ As String _
 )
+```
 
+```csharp
 [ConstructorIndexAttribute()]
 public AddModuleToCRSetup( 
    int _fixObjid_,
    string _fileName_
 )
+```
 
 #### Parameters
 
@@ -34,8 +37,6 @@ _fileName_
 Name of the file related to the fix.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

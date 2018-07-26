@@ -5,17 +5,18 @@ Site status
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
-<[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()>
-Public Property Status As [SiteStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteStatus.md)
+<PropertyBitValueAttribute()>
+Public Property Status As SiteStatus
+```
 
-\[[PropertyBitValueAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)()\]
-public [SiteStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SiteStatus.md) Status {get; set;}
+```csharp
+[PropertyBitValueAttribute()]
+public SiteStatus Status {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

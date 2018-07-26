@@ -3,24 +3,26 @@
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
+
 <DispIdAttribute(1610743913)>
 Sub RemoveAllGenericsInABulk( _
    ByVal _bulkName_ As String _
 ) 
+```
 
+```csharp
 [DispIdAttribute(1610743913)]
 void RemoveAllGenericsInABulk( 
    string _bulkName_
 )
+```
 
 #### Parameters
 
 _bulkName_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

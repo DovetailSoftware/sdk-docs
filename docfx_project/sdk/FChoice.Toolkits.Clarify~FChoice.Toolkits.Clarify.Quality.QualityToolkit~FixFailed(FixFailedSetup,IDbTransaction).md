@@ -9,17 +9,20 @@ Change the condition of a Change Request from Fixed to Open. This overload takes
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function FixFailed( _
-   ByVal _setupParam_ As [FixFailedSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup.md), _
+   ByVal _setupParam_ As FixFailedSetup, _
    ByVal _transaction_ As IDbTransaction _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) FixFailed( 
-   [FixFailedSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup.md) _setupParam_,
+```csharp
+public ToolkitResult FixFailed( 
+   FixFailedSetup _setupParam_,
    IDbTransaction _transaction_
 )
+```
 
 #### Parameters
 
@@ -44,8 +47,6 @@ Example
 [**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

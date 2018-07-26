@@ -7,15 +7,18 @@ Creates a new Communication.
 Syntax
 
 ```vbnet
-' Declaration
+'Declaration
 
 Public Overloads Function CreateCommunication( _
-   ByVal _setup_ As [CreateCommunicationSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCommunicationSetup.md) _
-) As [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)
+   ByVal _setup_ CreateCommunicationSetup _
+) As ToolkitResult
+```
 
-public [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) CreateCommunication( 
-   [CreateCommunicationSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCommunicationSetup.md) _setup_
+```csharp
+public ToolkitResult CreateCommunication( 
+   CreateCommunicationSetup _setup_
 )
+```
 
 #### Parameters
 
@@ -24,8 +27,6 @@ _setup_
 Setup object for API invocation.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 
