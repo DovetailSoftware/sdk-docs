@@ -2,7 +2,7 @@
 
 Part Number of the part to install
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### CreateChannelSetup Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

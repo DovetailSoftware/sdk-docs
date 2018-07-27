@@ -1,6 +1,6 @@
 ﻿### ColumnName Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Application Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

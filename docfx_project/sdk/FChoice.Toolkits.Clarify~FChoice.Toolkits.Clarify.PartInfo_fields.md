@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [PartInfo members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartInfo_members.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ﻿### EndsWith Method (FilterExpression)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

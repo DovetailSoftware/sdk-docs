@@ -1,6 +1,6 @@
 ﻿### RelatedRows Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

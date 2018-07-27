@@ -1,6 +1,6 @@
 ### BulkID Property (IFCBulk)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 New title of the Queue
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

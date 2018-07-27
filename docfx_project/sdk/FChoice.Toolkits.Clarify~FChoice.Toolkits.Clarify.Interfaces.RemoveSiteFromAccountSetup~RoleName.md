@@ -2,7 +2,7 @@
 
 Name of the Site's role being removed from the Account
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -8,7 +8,7 @@ Number of warranty days for the part
 
 Initializes a new instance of the UpdatePartSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

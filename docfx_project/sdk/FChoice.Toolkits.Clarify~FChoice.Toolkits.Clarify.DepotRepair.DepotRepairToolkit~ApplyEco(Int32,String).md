@@ -6,7 +6,7 @@ Identifier of the ECO header
 
 Apply an ECO to a Part Request Detail. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

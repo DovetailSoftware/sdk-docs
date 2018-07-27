@@ -4,7 +4,7 @@ Session data indexer
 
 Get or set session data indexed by specified key.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _key_
 
 Session data indexer
 
-Remarks
+#### Remarks
 
 Details about the logged-in user are populated into this collection during [CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md).
 

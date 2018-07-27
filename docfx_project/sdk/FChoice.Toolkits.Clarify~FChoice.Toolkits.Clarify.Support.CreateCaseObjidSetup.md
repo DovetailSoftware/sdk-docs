@@ -2,7 +2,7 @@
 
 Used by the [CreateCaseObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CreateCaseObjid(CreateCaseObjidSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class CreateCaseObjidSetup
 public class CreateCaseObjidSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.CreateCaseObjidSetup**  

@@ -6,7 +6,7 @@ This overload takes a set of required parameters for the API.
 
 Causes the specified part request to be reopened.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ Causes the specified part request to be reopened.
 
 This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Part Request must currently be closed. The WIPBIN in which to place the part request can be specified, which is an augmentation to base Clarify. If no WIPBIN is specified, the default is used.
 

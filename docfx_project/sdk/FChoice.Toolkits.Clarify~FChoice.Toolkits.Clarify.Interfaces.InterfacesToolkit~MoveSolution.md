@@ -4,7 +4,7 @@ Move the Solution from one WipBin to another WipBin. This overload takes a set o
 
 Move the Solution from one WipBin to another WipBin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [MoveSolution(MoveSolutionSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~MoveSolution(MoveSolutionSetup).md) | Move the Solution from one WipBin to another WipBin. This overload takes a setup object.   |
 | [MoveSolution(MoveSolutionSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~MoveSolution(MoveSolutionSetup,IDbTransaction).md) | Move the Solution from one WipBin to another WipBin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The new WipBin must belong to the same user as the first WipBin. The move operation does not change the ownership of the Solution, nor is an activity log or time bomb generated for the action.
 

@@ -1,6 +1,6 @@
 ﻿### QueueName Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

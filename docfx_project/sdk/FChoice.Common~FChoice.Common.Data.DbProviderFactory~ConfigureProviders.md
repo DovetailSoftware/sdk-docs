@@ -1,6 +1,6 @@
 ﻿### ConfigureProviders Method
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -9,8 +9,6 @@ Overload List
 | [ConfigureProviders(XmlElement)](FChoice.Common~FChoice.Common.Data.DbProviderFactory~ConfigureProviders(XmlElement).md) |   |
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

@@ -1,6 +1,6 @@
 ﻿### Exists Method (IGlobalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Joins Property (SchemaView)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

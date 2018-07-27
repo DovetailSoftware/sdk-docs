@@ -2,7 +2,7 @@
 
 Company name for the lead.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

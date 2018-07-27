@@ -2,7 +2,7 @@
 
 What type of Site is being linked to the Lead
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -22,7 +22,7 @@ Members
 | **Business** | Business site |
 | **Individual** | Individual site |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

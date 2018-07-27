@@ -1,6 +1,6 @@
 ﻿### CopyTo(Int32,IGlobalStringList\[\],Int32,Int32) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

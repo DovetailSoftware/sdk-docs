@@ -1,6 +1,6 @@
 ﻿### CacheType Property (CacheBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

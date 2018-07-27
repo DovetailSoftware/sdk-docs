@@ -8,7 +8,7 @@ The entropy, or "password" to use to decrypt this data. The value must be the sa
 
 Decrypts a byte array of data, using the specified entropy, into a new byte array of unencrypted data
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -42,7 +42,7 @@ _entropy_
 
 The entropy, or "password" to use to decrypt this data. The value must be the same as was used to originally encrypt the data
 
-Remarks
+#### Remarks
 
 ![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 

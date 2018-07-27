@@ -2,7 +2,7 @@
 
 The User who closed the Subcase. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

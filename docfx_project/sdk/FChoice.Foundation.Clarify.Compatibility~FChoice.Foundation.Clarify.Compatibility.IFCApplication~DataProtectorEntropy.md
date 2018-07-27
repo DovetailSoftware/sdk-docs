@@ -1,6 +1,6 @@
 ﻿### DataProtectorEntropy Property (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

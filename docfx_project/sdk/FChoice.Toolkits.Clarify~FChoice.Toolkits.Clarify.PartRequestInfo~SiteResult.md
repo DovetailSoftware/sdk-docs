@@ -1,6 +1,6 @@
 ﻿### SiteResult Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

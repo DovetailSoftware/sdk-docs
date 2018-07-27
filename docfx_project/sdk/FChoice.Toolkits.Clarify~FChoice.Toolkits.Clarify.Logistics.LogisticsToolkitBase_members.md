@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [LogisticsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

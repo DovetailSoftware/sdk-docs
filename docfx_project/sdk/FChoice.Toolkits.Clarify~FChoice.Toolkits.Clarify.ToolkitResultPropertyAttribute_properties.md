@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ToolkitResultPropertyAttribute members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResultPropertyAttribute_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ﻿### RemoveExpiredStates Method (IStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

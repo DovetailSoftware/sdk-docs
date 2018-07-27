@@ -6,7 +6,7 @@ The queue into which the CR is to be dispatched.
 
 Dispatch the CR to the specified queue. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ The queue into which the CR is to be dispatched.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The CR must be in open condition, and not currently dispatched to a queue.
 

@@ -2,7 +2,7 @@
 
 Used by the [GetCaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~GetCaseTimeAndExpenses(GetCaseTimeAndExpensesSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class GetCaseTimeAndExpensesSetup
 public class GetCaseTimeAndExpensesSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesSetup**  

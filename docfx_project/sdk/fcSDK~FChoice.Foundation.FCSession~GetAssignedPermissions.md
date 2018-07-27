@@ -1,6 +1,6 @@
 ﻿### GetAssignedPermissions Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

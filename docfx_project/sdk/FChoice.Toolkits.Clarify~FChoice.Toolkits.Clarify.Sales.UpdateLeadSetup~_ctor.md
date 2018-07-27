@@ -4,7 +4,7 @@ The objid of the lead being updated.
 
 Initializes a new instance of the UpdateLeadSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

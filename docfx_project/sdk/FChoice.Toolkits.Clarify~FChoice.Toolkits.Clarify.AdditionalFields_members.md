@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [AdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

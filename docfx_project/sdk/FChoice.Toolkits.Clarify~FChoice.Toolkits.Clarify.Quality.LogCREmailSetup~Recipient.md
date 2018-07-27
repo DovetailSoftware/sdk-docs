@@ -2,7 +2,7 @@
 
 The email address of the intended recipient of the email log.  
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

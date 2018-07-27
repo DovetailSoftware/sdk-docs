@@ -2,7 +2,7 @@
 
 User performing the Interaction
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

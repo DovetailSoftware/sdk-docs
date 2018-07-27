@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Used to relate sites to the inventory locations that service them. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

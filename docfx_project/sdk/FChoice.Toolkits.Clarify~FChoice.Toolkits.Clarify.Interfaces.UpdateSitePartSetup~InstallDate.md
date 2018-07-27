@@ -2,7 +2,7 @@
 
 DateTime the Site Part was installed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

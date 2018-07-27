@@ -1,6 +1,6 @@
 ﻿### IHierarchicalStringElement Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

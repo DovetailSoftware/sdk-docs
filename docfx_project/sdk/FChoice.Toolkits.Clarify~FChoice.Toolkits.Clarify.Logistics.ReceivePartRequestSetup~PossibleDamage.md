@@ -2,7 +2,7 @@
 
 Specifies whether the received inventory is possibly damaged (true) or not (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

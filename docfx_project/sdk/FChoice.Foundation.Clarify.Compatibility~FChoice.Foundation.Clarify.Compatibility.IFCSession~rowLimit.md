@@ -1,6 +1,6 @@
 ﻿### rowLimit Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

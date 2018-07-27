@@ -6,7 +6,7 @@ Allow for the updating of part request headers.
 
 This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

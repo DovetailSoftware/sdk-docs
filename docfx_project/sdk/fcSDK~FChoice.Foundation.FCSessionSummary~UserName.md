@@ -2,7 +2,7 @@
 
 Returns the login name for the session's logged-in user.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public string UserName {get;}
 
 Returns the login name for the session's logged-in user.
 
-Remarks
+#### Remarks
 
 Based on [FCSession.Username](fcSDK~FChoice.Foundation.FCSession~UserName.md)
 

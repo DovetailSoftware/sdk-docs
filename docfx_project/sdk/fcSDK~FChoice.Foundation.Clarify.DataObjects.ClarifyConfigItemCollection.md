@@ -1,6 +1,6 @@
 ﻿### ClarifyConfigItemCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class ClarifyConfigItemCollection
 public class ClarifyConfigItemCollection : FChoice.Foundation.DataObjects.ConfigItemCollection
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  

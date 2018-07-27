@@ -2,7 +2,7 @@
 
 The Site Id of the site to respond to if the case/subcase site is different.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### IsTimeZone Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

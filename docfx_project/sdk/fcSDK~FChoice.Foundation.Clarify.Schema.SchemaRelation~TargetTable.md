@@ -1,6 +1,6 @@
 ﻿### TargetTable Property (SchemaRelation)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Identifier of the CR being marked as FixFailed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

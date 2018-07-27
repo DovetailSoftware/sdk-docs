@@ -1,6 +1,6 @@
 ﻿### active_connection Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

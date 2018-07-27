@@ -2,7 +2,7 @@
 
 Currency description
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

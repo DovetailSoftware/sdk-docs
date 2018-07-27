@@ -2,7 +2,7 @@
 
 Result from the [AddServiceInterruption](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~AddServiceInterruption.md) API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class AddServiceInterruptionResult
 public class AddServiceInterruptionResult : FChoice.Toolkits.Clarify.ToolkitResult
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  

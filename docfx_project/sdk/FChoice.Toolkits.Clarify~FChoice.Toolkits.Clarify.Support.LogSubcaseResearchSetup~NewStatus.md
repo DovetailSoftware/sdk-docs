@@ -2,7 +2,7 @@
 
 New status for the Subcase.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

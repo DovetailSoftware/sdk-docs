@@ -2,7 +2,7 @@
 
 Result from the [GetAlternateParts](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetAlternateParts.md) API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class GetAlternatePartsResult
 public class GetAlternatePartsResult : FChoice.Toolkits.Clarify.ToolkitResult
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  

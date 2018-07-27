@@ -2,7 +2,7 @@
 
 Specifies whether the received stock should be routed to test (true) or not (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

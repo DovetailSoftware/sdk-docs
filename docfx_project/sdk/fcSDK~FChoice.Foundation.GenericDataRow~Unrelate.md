@@ -6,7 +6,7 @@ Name of the relation being unrelated from the given row.
 
 UnRelate this [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) from a single row related to it via the given relation name.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [DbProviderFactory](FChoice.Common~FChoice.Common.Data.DbProviderFactory.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -13,7 +13,7 @@ Public Fields
 
 
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -30,10 +30,6 @@ Public Methods
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [CreateProvider](FChoice.Common~FChoice.Common.Data.DbProviderFactory~CreateProvider.md) | Overloaded. Creates a new instance of a [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) object from the default configured provider   |
 | ![Public Method](dotnetimages/publicMethod.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [IsOracle](FChoice.Common~FChoice.Common.Data.DbProviderFactory~IsOracle.md) |   |
 | ![Public Method](dotnetimages/publicMethod.png) | [IsValidProvider](FChoice.Common~FChoice.Common.Data.DbProviderFactory~IsValidProvider.md) | Gets whether or not the specified alias or name is a valid alias/name for a configured or intrinsic data access provider   |
-
-
-
-
 
 #### Reference
 

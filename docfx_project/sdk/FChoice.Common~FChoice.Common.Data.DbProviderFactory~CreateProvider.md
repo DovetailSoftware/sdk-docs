@@ -4,7 +4,7 @@ Creates a new instance of a [DbProvider](FChoice.Common~FChoice.Common.Data.DbP
 
 Creates a new instance of a [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) object from the default or specified provider alias
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,8 +12,6 @@ Overload List
 | [CreateProvider(String)](FChoice.Common~FChoice.Common.Data.DbProviderFactory~CreateProvider(String).md) | Creates a new instance of a [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) object from the specified provider alias   |
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

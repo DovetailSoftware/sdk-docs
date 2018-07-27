@@ -1,6 +1,6 @@
 ﻿### IListCache Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The status of the Site being created or modified.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Members
 | **Inactive** |   |
 | **Obsolete** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

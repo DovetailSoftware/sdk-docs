@@ -1,6 +1,6 @@
 ﻿### IsEnabled Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

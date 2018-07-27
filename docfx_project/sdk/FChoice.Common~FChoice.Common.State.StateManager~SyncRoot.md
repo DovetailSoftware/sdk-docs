@@ -1,6 +1,6 @@
 ﻿### SyncRoot Field (StateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [DbProvider members](FChoice.Common~FChoice.Common.Data.DbProvider_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -12,10 +12,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [ProviderName](FChoice.Common~FChoice.Common.Data.DbProvider~ProviderName.md) | A general provider type or key to classify this provider   |
 | ![Public Property](dotnetimages/publicProperty.png) | [RequiresDbNameParameter](FChoice.Common~FChoice.Common.Data.DbProvider~RequiresDbNameParameter.md) | Gets whether or not this provider requires the "dbname" argument for the [CreateConnectionString Method](FChoice.Common~FChoice.Common.Data.DbProvider~CreateConnectionString.md)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.DbProvider~TypeMapper.md) | This property is intended for future use and is not currently used.   |
-
-
-
-
 
 #### Reference
 

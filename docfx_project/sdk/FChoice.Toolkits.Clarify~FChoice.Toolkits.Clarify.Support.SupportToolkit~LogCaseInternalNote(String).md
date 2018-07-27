@@ -1,6 +1,6 @@
 ﻿### LogCaseInternalNote(String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

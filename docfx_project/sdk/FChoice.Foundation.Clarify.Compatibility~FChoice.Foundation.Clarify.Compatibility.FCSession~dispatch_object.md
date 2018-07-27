@@ -1,6 +1,6 @@
 ﻿### dispatch_object Method (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

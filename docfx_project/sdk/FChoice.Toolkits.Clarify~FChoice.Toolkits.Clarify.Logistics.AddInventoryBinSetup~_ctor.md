@@ -4,7 +4,7 @@ A reference to a Location object which specifies the name of the bin to create a
 
 Initializes a new instance of the AddInventoryBinSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

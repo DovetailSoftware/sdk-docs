@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [SchemaTableCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableCollection.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -12,7 +12,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

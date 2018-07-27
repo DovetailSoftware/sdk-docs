@@ -2,7 +2,7 @@
 
 Used by the [UpdateOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~UpdateOpportunity(UpdateOpportunitySetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UpdateOpportunitySetup
 public class UpdateOpportunitySetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup**  

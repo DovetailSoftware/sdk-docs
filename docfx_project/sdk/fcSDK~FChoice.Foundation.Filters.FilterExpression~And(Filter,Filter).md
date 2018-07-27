@@ -1,6 +1,6 @@
 ﻿### And(Filter,Filter) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

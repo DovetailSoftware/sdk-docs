@@ -2,7 +2,7 @@
 
 Log an error or warning message
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

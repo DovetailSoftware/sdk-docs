@@ -1,6 +1,6 @@
 ﻿### LogDate Property (LogSubcaseInternalPhoneSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

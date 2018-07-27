@@ -2,7 +2,7 @@
 
 DataProtectionStore is used with the [DataProtector](FChoice.Common~FChoice.Common.DataProtector.md) when encrypting or decrypting data. DataProtectionStore tells the DataProtector which key store to use.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -22,7 +22,7 @@ Members
 | **UseMachineStore** | Specifies that the DataProtector should use the machine key store. This means that data encrypted with this key can be decrypted by any user on this machine. The key will not work on any other computer. |
 | **UseUserStore** | Specifies that the DataProtector should use the user key store. This means that data encrypted with this key can be decrypted by ONLY this user and ONLY on this computer. |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

@@ -1,6 +1,6 @@
 ﻿### Render Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

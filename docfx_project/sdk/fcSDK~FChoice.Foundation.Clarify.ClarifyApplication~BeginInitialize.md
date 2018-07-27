@@ -6,7 +6,7 @@ A user-provided object that distinguishes this particular asynchronous request f
 
 Begins an asynchronous **ClarifyApplication** initialization.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ A user-provided object that distinguishes this particular asynchronous request f
 
 An IAsyncResult that references the asynchronous initialization.
 
-Remarks
+#### Remarks
 
 The **BeginInitialize** method starts an asynchronous initialization of the **ClarifyApplication**.
 

@@ -2,7 +2,7 @@
 
 Used by the [AssignCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~AssignCR(AssignCRSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class AssignCRSetup
 public class AssignCRSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Quality.AssignCRSetup**  

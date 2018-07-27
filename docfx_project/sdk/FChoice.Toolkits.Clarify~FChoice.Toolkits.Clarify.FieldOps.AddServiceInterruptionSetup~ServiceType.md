@@ -2,7 +2,7 @@
 
 Element from the 'Employee Sched Type' application list. If not set the default list value is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

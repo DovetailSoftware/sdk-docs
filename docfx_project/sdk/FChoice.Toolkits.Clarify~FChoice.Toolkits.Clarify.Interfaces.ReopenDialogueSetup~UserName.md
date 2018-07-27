@@ -1,6 +1,6 @@
 ﻿### UserName Property (ReopenDialogueSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

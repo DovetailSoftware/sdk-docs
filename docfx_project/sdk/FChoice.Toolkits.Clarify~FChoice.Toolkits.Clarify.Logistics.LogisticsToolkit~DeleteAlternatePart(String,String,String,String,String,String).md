@@ -14,7 +14,7 @@ The Alternate Part domain
 
 Causes the second part/revision listed to be removed as an alternate part for the first. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

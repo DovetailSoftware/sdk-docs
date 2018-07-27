@@ -1,6 +1,6 @@
 ﻿### StringUtil Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public MustInherit NotInheritable Class StringUtil
 public static class StringUtil
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 

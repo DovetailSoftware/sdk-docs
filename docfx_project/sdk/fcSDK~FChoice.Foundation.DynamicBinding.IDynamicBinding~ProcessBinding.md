@@ -1,6 +1,6 @@
 ﻿### ProcessBinding Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

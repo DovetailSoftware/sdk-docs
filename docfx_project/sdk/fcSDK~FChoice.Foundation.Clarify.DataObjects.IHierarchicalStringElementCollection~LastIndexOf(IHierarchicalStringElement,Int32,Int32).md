@@ -1,6 +1,6 @@
 ﻿### LastIndexOf(IHierarchicalStringElement,Int32,Int32) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

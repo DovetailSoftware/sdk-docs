@@ -1,8 +1,4 @@
-﻿     QualityToolkit.LogCREmailInSetup Class Members                                                   
-
-fcSDK Documentation
-
-QualityToolkit.LogCREmailInSetup Class Members
+﻿### QualityToolkit.LogCREmailInSetup Class Members
 
 The following tables list the members exposed by [QualityToolkit.LogCREmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit+LogCREmailInSetup.md).
 
@@ -14,7 +10,7 @@ Public Constructors
 
 
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -29,8 +25,6 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Sender](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup~Sender.md) | Email address of the sender of the email being logged. (Inherited from [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Subject](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup~Subject.md) | (Inherited from [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup~UserName.md) | User who created the log. If not set, the session user is used. (Inherited from [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)) |
-
-
 
 
 

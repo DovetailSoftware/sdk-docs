@@ -2,7 +2,7 @@
 
 Inventory location (or expense GL) into which the stock will be received
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

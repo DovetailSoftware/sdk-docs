@@ -8,7 +8,7 @@ The entropy, or "password" to use to decrypt this data. The value must be the sa
 
 Decrypts, using the specified entropy, data which was encoded into a string using the Base64 encoding scheme
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -46,7 +46,7 @@ The entropy, or "password" to use to decrypt this data. The value must be the sa
 
 The decrypted contents of this message as a string
 
-Remarks
+#### Remarks
 
 This method expects the payload to be a byte array which contains the UTF8-encoded bytes of a string that was encrypted using the [EncryptString Method](FChoice.Common~FChoice.Common.DataProtector~EncryptString.md).
 

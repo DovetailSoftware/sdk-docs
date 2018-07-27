@@ -2,7 +2,7 @@
 
 Returns the session's unique identifier.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public Guid SessionID {get;}
 
 Returns the session's unique identifier.
 
-Remarks
+#### Remarks
 
 Based on [FCSession.SessionID](fcSDK~FChoice.Foundation.FCSession~SessionID.md)
 

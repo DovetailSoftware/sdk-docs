@@ -8,7 +8,7 @@ Array of values to filter on
 
 Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) against a list of possible Decimal values**.**
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

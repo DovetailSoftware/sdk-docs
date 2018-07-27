@@ -4,7 +4,7 @@ ActionItem Identifier.
 
 Initializes a new instance of the RejectActionItemSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

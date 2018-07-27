@@ -2,7 +2,7 @@
 
 How many units in this price instance.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

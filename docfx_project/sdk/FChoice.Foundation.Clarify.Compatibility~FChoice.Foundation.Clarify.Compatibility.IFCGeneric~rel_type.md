@@ -1,6 +1,6 @@
 ### rel_type Property (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

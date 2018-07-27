@@ -2,7 +2,7 @@
 
 The process for the Opportunity.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Which type of case object is being affected
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -22,7 +22,7 @@ Members
 | **Case** | Case object |
 | **Subcase** | Subcase object |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

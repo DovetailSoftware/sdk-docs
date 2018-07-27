@@ -1,6 +1,6 @@
 ﻿### GetApplicationStates(Type) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

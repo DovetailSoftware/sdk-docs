@@ -2,7 +2,7 @@
 
 Returns the [Culture](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cpconcultureinfo.htm) being used by the session.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Traverse Method                                                   
 
-fcSDK Documentation
+### fcSDK Documentation
 
 Traverse Method
 
@@ -8,13 +8,13 @@ Creates a child generic that is related to this generic through the specified re
 
 Creates a child generic that is related to this generic through the specified relation
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
 | [Traverse](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~Traverse(String).md) | Creates a child generic that is related to this generic through the specified relation   |
 
-Remarks
+#### Remarks
 
 The new child generic is related and linked to the parent. When the parent is queried or updated, the new generic will be queried or updated as well.
 

@@ -1,6 +1,6 @@
 ﻿### ContactPhone Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

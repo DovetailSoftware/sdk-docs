@@ -10,7 +10,7 @@ Contact's phone number.
 
 Creates a phone log against a Case. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -58,7 +58,7 @@ The following values are populated in the LogCasePhoneResult object returned by 
 *   Objid \- The Objid of the Log.
 *   StatusChangeObjid \- The Objid of the StatusChange.
 
-Remarks
+#### Remarks
 
 It is possible to create a Commitment with this log. To do so set the CommitmentDueDate and CommitmentTitle and IsCommitmentToCustomer properties.
 

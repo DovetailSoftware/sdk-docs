@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [StateManager members](FChoice.Common~FChoice.Common.State.StateManager_members.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |

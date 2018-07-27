@@ -1,6 +1,6 @@
 ﻿### WorkflowManager Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class WorkflowManager
 public class WorkflowManager
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.Workflow.WorkflowManager**  

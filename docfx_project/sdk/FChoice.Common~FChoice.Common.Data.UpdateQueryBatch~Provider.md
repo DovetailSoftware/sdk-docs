@@ -2,7 +2,7 @@
 
 Gets the provider that this batch is using
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public DbProvider Provider {get;}
 
 The provider that this batch is using
 
-Remarks
+#### Remarks
 
 This value is read-only to prevent changing providers in the middle of a batch process. Note that the provider on the [SqlHelper Property](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~SqlHelper.md) can be changed. This might have adverse effects on the batching process and is not recommended.
 

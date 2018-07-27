@@ -1,6 +1,6 @@
 ﻿### HierarchicalStringList Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class HierarchicalStringList
 public class HierarchicalStringList : ClarifyDataObject, IHierarchicalStringList, FChoice.Foundation.DataObjects.IDataObject  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

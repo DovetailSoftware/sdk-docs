@@ -2,7 +2,7 @@
 
 Total non-billable time (closed Subcase and Case time logs)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

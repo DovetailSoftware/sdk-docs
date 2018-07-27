@@ -2,7 +2,7 @@
 
 Opportunity Identifier.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

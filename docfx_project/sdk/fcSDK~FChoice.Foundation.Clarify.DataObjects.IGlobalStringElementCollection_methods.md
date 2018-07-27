@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [IGlobalStringElementCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

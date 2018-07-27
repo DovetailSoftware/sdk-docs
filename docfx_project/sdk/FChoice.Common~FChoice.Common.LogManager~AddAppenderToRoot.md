@@ -4,7 +4,7 @@ The name of an existing appender to associate with this logger.
 
 Adds an already-prepared appender to the root level (affecting all loggers).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _appenderName_
 
 The name of an existing appender to associate with this logger.
 
-Remarks
+#### Remarks
 
 This will not clear out any existing appenders that may be configured for the root, it will merely add it to the list. The only way to clear the appenders for a logger (including the root) is to call [ResetConfiguration](FChoice.Common~FChoice.Common.LogManager~ResetConfiguration.md) and reconfigure all the loggers again.   
 

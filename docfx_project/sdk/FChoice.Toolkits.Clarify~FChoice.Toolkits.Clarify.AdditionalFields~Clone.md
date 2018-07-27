@@ -2,7 +2,7 @@
 
 This method is used internally and not meant to be used by end users.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [FieldOpsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

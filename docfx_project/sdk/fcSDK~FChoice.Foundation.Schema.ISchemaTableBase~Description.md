@@ -1,6 +1,6 @@
 ﻿### Description Property (ISchemaTableBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

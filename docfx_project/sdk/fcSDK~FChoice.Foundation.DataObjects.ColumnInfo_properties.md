@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ColumnInfo members](fcSDK~FChoice.Foundation.DataObjects.ColumnInfo_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

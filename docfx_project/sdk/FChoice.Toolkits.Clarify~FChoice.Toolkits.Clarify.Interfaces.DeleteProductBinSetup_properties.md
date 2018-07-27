@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [DeleteProductBinSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DeleteProductBinSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

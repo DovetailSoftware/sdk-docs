@@ -1,6 +1,6 @@
 ﻿### CONFIGURATION_SECTION_NAME Field (StateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

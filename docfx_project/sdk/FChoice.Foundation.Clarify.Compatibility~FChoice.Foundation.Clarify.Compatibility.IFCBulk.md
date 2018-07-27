@@ -1,6 +1,6 @@
 ﻿### IFCBulk Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### ToolkitResultPropertyAttribute Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

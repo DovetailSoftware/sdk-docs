@@ -2,7 +2,7 @@
 
 Gets a value indicating whether the [GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md) is synchronized.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

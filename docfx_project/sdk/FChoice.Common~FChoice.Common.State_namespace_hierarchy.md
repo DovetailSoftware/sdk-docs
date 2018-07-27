@@ -1,6 +1,6 @@
-﻿### FChoice.Common.State Namespace Inheritance Hierarchy
+﻿### FChoice.Common.State Namespace #### Inheritance Hierarchy
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 [FChoice.Common.State.MemoryStateManager](FChoice.Common~FChoice.Common.State.MemoryStateManager.md)  

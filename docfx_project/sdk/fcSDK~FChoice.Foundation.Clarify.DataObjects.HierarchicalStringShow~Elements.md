@@ -1,6 +1,6 @@
 ﻿### Elements Property (HierarchicalStringShow)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Table Property (ClarifyDataRow)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

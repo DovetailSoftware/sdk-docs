@@ -1,6 +1,6 @@
 ﻿### get_Fields Method (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

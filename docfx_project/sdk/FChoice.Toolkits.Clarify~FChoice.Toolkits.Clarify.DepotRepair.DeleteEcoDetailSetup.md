@@ -2,7 +2,7 @@
 
 Used by the [DeleteEcoDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~DeleteEcoDetail(DeleteEcoDetailSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class DeleteEcoDetailSetup
 public class DeleteEcoDetailSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoDetailSetup**  

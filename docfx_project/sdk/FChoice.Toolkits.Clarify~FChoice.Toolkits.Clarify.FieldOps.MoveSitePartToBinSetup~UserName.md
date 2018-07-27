@@ -2,7 +2,7 @@
 
 The user who has moved the SitePartToBin. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

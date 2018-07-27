@@ -2,7 +2,7 @@
 
 Identifier of the site with which this inventory location is associated
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Used by the [RelateContractItemToSitePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~RelateContractItemToSitePart(RelateContractItemToSitePartSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class RelateContractItemToSitePartSetup
 public class RelateContractItemToSitePartSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup**  

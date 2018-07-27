@@ -2,7 +2,7 @@
 
 Identifier of the Case being reopened.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

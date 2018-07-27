@@ -2,7 +2,7 @@
 
 The new queue into which the PartRequest is to be forwarded.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### LicenseExpirationDate Property (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

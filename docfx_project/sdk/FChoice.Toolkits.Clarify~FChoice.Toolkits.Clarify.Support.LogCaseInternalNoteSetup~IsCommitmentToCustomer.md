@@ -1,6 +1,6 @@
 ﻿### IsCommitmentToCustomer Property (LogCaseInternalNoteSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

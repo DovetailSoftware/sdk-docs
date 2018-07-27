@@ -1,6 +1,6 @@
 ﻿### ImpersonatorUsername Property (SalesToolkitBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### DbHelper Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

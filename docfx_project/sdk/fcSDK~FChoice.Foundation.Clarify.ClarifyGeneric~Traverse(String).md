@@ -8,7 +8,7 @@ The name of the relation on the parent that points to the desired child object
 
 Creates a child generic that is related to this generic through the specified relation
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ The name of the relation on the parent that points to the desired child object
 
 The newly-created and related child generic
 
-Remarks
+#### Remarks
 
 The new child generic is related and linked to the parent. When the parent is queried or updated, the new generic will be queried or updated as well.
 

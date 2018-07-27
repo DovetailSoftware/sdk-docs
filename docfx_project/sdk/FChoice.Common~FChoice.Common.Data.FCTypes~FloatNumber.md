@@ -1,6 +1,6 @@
 ﻿### FloatNumber Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Contact's new first name.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

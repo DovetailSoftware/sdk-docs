@@ -6,7 +6,7 @@ The new queue into which the Opportunity is to be forwarded.
 
 Initializes a new instance of the ForwardOpportunitySetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

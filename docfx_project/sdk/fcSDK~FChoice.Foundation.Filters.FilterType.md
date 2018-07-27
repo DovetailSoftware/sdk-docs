@@ -2,7 +2,7 @@
 
 This is a helper factory for creation of Filter objects.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ Example
 
 [**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Filters.FilterType**  

@@ -1,6 +1,6 @@
 ﻿### GraceEventInfo Method (XmlClarifyLicenseTool)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

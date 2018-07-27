@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [GetAlternatePartsSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

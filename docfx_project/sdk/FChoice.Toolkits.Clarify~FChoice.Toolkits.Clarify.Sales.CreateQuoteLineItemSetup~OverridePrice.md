@@ -2,7 +2,7 @@
 
 This is the per-unit price for this line item. If not set, price from the price schedule is used
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

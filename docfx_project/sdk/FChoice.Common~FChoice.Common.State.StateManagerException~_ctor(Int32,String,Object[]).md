@@ -1,6 +1,6 @@
 ﻿### StateManagerException Constructor(Int32,String,Object\[\])
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

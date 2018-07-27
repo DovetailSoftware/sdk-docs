@@ -1,6 +1,6 @@
 ﻿### CommitmentDueDate Property (LogCaseInternalNoteSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

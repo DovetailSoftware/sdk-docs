@@ -1,6 +1,6 @@
 ﻿### TypeID Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### ClarifyAuthenticationResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ The parameter name with an optional parameter name prefix
 
 Removes, if necessary, the parameter name prefix on a given parameter name
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

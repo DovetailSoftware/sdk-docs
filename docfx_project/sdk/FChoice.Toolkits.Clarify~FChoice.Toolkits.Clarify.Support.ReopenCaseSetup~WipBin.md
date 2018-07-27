@@ -2,7 +2,7 @@
 
 WipBin to place the Case in. If not set, the users default WibBin is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Part class for the part to create.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

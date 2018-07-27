@@ -1,6 +1,6 @@
 ﻿### Tables Property (SchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

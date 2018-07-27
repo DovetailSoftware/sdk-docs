@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ClarifyApplication members](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

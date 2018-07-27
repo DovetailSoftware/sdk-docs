@@ -1,6 +1,6 @@
 ﻿### GlobalStringElement Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class GlobalStringElement
 public class GlobalStringElement : ClarifyDataObject, IGlobalStringElement, FChoice.Foundation.DataObjects.IDataObject  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

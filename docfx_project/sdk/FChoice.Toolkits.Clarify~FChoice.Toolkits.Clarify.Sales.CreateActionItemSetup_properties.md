@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [CreateActionItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateActionItemSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -8,7 +8,7 @@ Name of the Site's role being removed from the Account
 
 Remove a Site from an Account. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

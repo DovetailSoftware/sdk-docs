@@ -2,7 +2,7 @@
 
 The type of the site for the lead.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

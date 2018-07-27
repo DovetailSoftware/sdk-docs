@@ -1,6 +1,6 @@
 ﻿### FCGeneric Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -25,7 +25,7 @@ Public NotInheritable Class FCGeneric
 public sealed class FCGeneric : IFCGeneric  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCGeneric**  

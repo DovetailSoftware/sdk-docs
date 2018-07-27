@@ -1,6 +1,6 @@
 ﻿### SchemaLoadStatusEventHandler Delegate
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

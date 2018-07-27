@@ -1,6 +1,6 @@
 ﻿### Culture Property (LocalizedString)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Title of the Interaction
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

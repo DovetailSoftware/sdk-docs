@@ -2,7 +2,7 @@
 
 Used by the [UpdateCaseCommitment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UpdateCaseCommitment(UpdateCaseCommitmentSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UpdateCaseCommitmentSetup
 public class UpdateCaseCommitmentSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup**  

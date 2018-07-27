@@ -1,6 +1,6 @@
 ﻿### CommunicationRoleType Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

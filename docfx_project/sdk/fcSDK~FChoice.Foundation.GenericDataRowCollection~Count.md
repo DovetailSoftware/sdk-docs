@@ -2,7 +2,7 @@
 
 Gets the total number of elements in a collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

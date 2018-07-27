@@ -1,6 +1,6 @@
 ﻿### MapTimeBombActionToFlag Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

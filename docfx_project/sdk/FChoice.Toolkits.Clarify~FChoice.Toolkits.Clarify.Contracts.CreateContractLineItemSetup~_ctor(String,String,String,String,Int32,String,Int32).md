@@ -16,7 +16,7 @@ The objid of the parent Line Item.
 
 Initializes a new instance of the CreateContractLineItemSetup class. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

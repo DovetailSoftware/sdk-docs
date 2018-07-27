@@ -4,7 +4,7 @@ Used to consume an existing site part or an inventory part. This overload ta
 
 Used to consume an existing site part or an inventory part.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -15,7 +15,7 @@ Overload List
 | [LogPartsUsedConsume(LogPartsUsedConsumeSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedConsume(LogPartsUsedConsumeSetup).md) |   |
 | [LogPartsUsedConsume(LogPartsUsedConsumeSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedConsume(LogPartsUsedConsumeSetup,IDbTransaction).md) | Used to consume an existing site part or an inventory part. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 Each log parts used transaction must be related to either a case or a part request detail. If it is related to both, the part request detail must be linked to the case.
 

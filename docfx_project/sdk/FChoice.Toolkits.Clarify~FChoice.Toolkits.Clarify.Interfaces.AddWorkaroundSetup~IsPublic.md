@@ -2,7 +2,7 @@
 
 Is Workaround public?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Used by the [AssignOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AssignOpportunity(AssignOpportunitySetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class AssignOpportunitySetup
 public class AssignOpportunitySetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Sales.AssignOpportunitySetup**  

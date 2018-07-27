@@ -2,7 +2,7 @@
 
 Used by the [CheckClearQualityTransition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~CheckClearQualityTransition(CheckClearQualityTransitionSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class CheckClearQualityTransitionSetup
 public class CheckClearQualityTransitionSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Quality.CheckClearQualityTransitionSetup**  

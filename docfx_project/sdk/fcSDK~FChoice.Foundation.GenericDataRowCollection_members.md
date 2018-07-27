@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ Gets the row at the specified index.
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

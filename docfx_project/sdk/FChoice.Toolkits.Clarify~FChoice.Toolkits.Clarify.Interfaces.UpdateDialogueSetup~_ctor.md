@@ -4,7 +4,7 @@ The ID Number of the dialogue.
 
 Initializes a new instance of the UpdateDialogueSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ The identifier of the Site with which the account is to be associated
 
 Initializes a new instance of the AddGLAccountSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

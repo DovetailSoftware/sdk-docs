@@ -1,6 +1,6 @@
 ﻿### PasswordRequired Property (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

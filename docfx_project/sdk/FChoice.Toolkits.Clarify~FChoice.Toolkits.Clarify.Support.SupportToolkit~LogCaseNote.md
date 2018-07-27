@@ -4,7 +4,7 @@ Creates a note log against a Case. This overload takes a set of required paramet
 
 Creates a note log against a Case.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [LogCaseNote(LogCaseNoteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseNote(LogCaseNoteSetup).md) | Creates a note log against a Case. This overload takes a setup object.   |
 | [LogCaseNote(LogCaseNoteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseNote(LogCaseNoteSetup,IDbTransaction).md) | Creates a note log against a Case. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup~IsCommitmentToCustomer.md) properties.
 

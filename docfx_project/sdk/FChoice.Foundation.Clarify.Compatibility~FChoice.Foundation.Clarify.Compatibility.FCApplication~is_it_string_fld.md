@@ -1,6 +1,6 @@
 ﻿### is_it_string_fld Method (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

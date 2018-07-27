@@ -1,6 +1,6 @@
 ﻿### NoRes Property (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Element from the 'Case Type' application defined list. If not set, the default list value is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

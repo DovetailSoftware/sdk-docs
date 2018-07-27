@@ -1,6 +1,6 @@
 ﻿### StateManager Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public NotInheritable Class StateManager
 public sealed class StateManager 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.State.StateManager**  

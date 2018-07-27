@@ -1,6 +1,6 @@
 ﻿### IsStateExpired Method (OracleStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

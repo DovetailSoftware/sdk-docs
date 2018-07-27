@@ -1,6 +1,6 @@
 ﻿### GetGbstList(String,Object) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

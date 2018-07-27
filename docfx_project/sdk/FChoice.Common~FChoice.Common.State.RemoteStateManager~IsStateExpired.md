@@ -1,6 +1,6 @@
 ﻿### IsStateExpired Method (RemoteStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

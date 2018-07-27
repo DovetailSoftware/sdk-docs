@@ -1,6 +1,6 @@
 ﻿### IncludeRelations Property (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

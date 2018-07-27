@@ -4,7 +4,7 @@ An active/open database [IDbTransaction](ms-help://MS.NETFrameworkSDKv1.1/cpref
 
 Causes the generic object to query the database table or view using the specified active transaction and, optionally, specified data fields, filters, and sort orders
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### TargetName Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

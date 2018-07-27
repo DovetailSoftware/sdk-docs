@@ -2,7 +2,7 @@
 
 Email address for the lead.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

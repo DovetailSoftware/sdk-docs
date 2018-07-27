@@ -2,7 +2,7 @@
 
 Solution Identifier.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

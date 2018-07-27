@@ -2,7 +2,7 @@
 
 IDbExtension allows applications to specify database-specific extensions to the DbProvider
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

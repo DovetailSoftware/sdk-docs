@@ -2,7 +2,7 @@
 
 DateTime the warranty expires.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

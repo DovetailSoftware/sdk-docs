@@ -1,6 +1,6 @@
 ﻿### IsParamArray Property (FacadePropertyAttribute)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The new WipBin into which the Solution is to be moved.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

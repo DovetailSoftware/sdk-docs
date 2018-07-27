@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Causes a note log to be created and added to the specified contract. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the NotesLog.
 
-Remarks
+#### Remarks
 
 It logs the note with the user name specified. There can be Internal Use notes added. It allows the setting of optional fields on the notes_log record with the use of the AdditionalFields object.
 

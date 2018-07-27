@@ -2,7 +2,7 @@
 
 The title or subject line of the communication.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

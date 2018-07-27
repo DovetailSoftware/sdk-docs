@@ -2,7 +2,7 @@
 
 Used by the [DeleteDepotRepairMaterial](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~DeleteDepotRepairMaterial(DeleteDepotRepairMaterialSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class DeleteDepotRepairMaterialSetup
 public class DeleteDepotRepairMaterialSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairMaterialSetup**  

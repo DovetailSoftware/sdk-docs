@@ -1,6 +1,6 @@
 ﻿### SetServerTimeZoneToMachineTimeZone Method (LocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

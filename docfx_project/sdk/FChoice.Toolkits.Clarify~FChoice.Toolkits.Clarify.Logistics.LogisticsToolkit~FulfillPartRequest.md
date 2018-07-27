@@ -4,7 +4,7 @@ Allows for the fulfilling of inventory parts for a part request. This overload t
 
 Allows for the fulfilling of inventory parts for a part request.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -15,7 +15,7 @@ Overload List
 | [FulfillPartRequest(FulfillPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest(FulfillPartRequestSetup).md) | Allows for the fulfilling of inventory parts for a part request. This overload takes a setup object.   |
 | [FulfillPartRequest(FulfillPartRequestSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest(FulfillPartRequestSetup,IDbTransaction).md) | Allows for the fulfilling of inventory parts for a part request. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 As in base Clarify, if a partial fulfill is performed, the part request is broken up into two new part requests. The first is for the fulfill (and the quantities are changed). The new part request will be created to hold the rest of the units that did not get fulfilled.
 

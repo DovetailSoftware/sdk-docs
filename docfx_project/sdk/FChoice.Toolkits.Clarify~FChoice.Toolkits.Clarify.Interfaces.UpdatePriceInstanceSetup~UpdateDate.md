@@ -2,7 +2,7 @@
 
 Date when the Price was updated, any Date between the start and end date is valid.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

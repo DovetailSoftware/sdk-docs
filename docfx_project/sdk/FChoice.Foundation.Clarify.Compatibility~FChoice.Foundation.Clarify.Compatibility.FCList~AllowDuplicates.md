@@ -1,6 +1,6 @@
 ﻿### AllowDuplicates Property (FCList)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

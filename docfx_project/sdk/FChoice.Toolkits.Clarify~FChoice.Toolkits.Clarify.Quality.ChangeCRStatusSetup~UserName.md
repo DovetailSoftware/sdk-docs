@@ -2,7 +2,7 @@
 
 The user changing CR status. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

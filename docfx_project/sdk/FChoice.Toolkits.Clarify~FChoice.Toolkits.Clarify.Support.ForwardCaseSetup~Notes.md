@@ -2,7 +2,7 @@
 
 The reason the Case was rejected from the queue into which it was dispatched.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

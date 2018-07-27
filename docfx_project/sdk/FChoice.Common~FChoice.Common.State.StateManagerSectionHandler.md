@@ -1,6 +1,6 @@
 ﻿### StateManagerSectionHandler Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class StateManagerSectionHandler
 public class StateManagerSectionHandler 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.State.StateManagerSectionHandler**  

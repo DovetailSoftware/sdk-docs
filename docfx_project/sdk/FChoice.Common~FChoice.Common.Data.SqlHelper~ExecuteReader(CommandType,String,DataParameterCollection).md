@@ -1,6 +1,6 @@
 ﻿### ExecuteReader(CommandType,String,DataParameterCollection) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

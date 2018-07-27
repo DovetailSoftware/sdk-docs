@@ -6,7 +6,7 @@ The new queue into which the PartRequest is to be forwarded.
 
 Initializes a new instance of the ForwardPartRequestSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Used by the [UpdateQueue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateQueue(UpdateQueueSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UpdateQueueSetup
 public class UpdateQueueSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UpdateQueueSetup**  

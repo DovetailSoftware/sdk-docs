@@ -2,7 +2,7 @@
 
 Region for the Site
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

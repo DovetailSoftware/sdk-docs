@@ -2,7 +2,7 @@
 
 Sets whether or not newly created generic objects will convert a null reference (**Nothing** in Visual Basic) to empty strings.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public bool SetNullStringsToEmpty {get; set;}
 
 Sets whether or not newly created generic objects will convert a null reference (**Nothing** in Visual Basic) to empty strings.
 
-Remarks
+#### Remarks
 
 This setting only affects Oracle **DbProviders**.
 

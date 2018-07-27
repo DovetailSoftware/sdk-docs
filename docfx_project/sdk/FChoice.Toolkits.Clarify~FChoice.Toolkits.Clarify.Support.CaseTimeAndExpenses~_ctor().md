@@ -1,6 +1,6 @@
 ﻿### CaseTimeAndExpenses Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

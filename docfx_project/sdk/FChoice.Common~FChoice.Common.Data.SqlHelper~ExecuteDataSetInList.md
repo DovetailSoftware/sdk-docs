@@ -2,7 +2,7 @@
 
 Executes a specially formatted SQL statement specified in the [CommandText Property](FChoice.Common~FChoice.Common.Data.SqlHelper~CommandText.md)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Move the Opportunity from one WipBin to another WipBin. This overload takes a se
 
 Move the Opportunity from one WipBin to another WipBin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [MoveOpportunity(MoveOpportunitySetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~MoveOpportunity(MoveOpportunitySetup).md) | Move the Opportunity from one WipBin to another WipBin. This overload takes a setup object.   |
 | [MoveOpportunity(MoveOpportunitySetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~MoveOpportunity(MoveOpportunitySetup,IDbTransaction).md) | Move the Opportunity from one WipBin to another WipBin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The new WipBin must belong to the same user as the first WipBin. The move operation does not change the ownership of the Opportunity, nor is an activity log or time bomb generated for the action.
 

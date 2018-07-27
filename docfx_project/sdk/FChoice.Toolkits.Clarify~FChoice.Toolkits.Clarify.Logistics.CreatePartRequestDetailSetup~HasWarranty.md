@@ -2,7 +2,7 @@
 
 Specifies whether this Part Request Detail is under warranty (true) or not (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

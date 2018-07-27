@@ -2,7 +2,7 @@
 
 Type of the site
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

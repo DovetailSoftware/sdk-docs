@@ -2,7 +2,7 @@
 
 Commitment Objid for the contact of the commitment. If not set, the contact for the Case is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

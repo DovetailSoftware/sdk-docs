@@ -2,7 +2,7 @@
 
 Gets whether or not First Choice Data Restriction technology is enabled for this Clarify database.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public bool DataRestrictionsEnabled {get;}
 
 Whether or not First Choice Data Restriction technology is enabled for this Clarify database.
 
-Remarks
+#### Remarks
 
 When ClarifyApplication is initializing, it determines whether the data restriction tables and configuration is loaded and will set this value to true, otherwise it is always false.
 

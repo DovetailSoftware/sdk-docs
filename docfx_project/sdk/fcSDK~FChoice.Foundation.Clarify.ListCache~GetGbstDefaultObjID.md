@@ -4,7 +4,7 @@ The name of the GBST/application pop-up list
 
 Gets the objid of the default element for a given application pop-up list.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The name of the GBST/application pop-up list
 
 The objid of the default element for this list
 
-Remarks
+#### Remarks
 
 If the no list exists with the specified _listTitle_, an exception will be thrown.
 

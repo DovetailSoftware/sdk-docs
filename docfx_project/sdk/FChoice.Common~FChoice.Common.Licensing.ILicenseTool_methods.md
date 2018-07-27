@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ILicenseTool members](FChoice.Common~FChoice.Common.Licensing.ILicenseTool_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

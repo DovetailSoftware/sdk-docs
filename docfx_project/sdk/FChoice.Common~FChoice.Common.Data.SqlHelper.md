@@ -2,7 +2,7 @@
 
 Provides a convenience and data provider-agnostic wrapper around ADO.NET
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class SqlHelper
 public class SqlHelper 
 ```
 
-Remarks
+#### Remarks
 
 SqlHelper can be used either as an instance or statically.
 
@@ -22,7 +22,7 @@ When used statically, SqlHelper is thread safe. Concurrent threads can call the 
 
 When used as an instance, however, SqlHelper is **NOT** thread safe. Multiple threads should not use the same instance of SqlHelper.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.Data.SqlHelper**  

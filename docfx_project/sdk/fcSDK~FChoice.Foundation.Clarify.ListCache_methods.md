@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ListCache members](fcSDK~FChoice.Foundation.Clarify.ListCache_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

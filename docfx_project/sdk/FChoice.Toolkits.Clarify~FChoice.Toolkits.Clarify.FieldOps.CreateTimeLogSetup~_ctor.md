@@ -8,7 +8,7 @@ The length (in seconds) of the Time Log. If not specified, it is calculated from
 
 Initializes a new instance of the CreateTimeLogSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

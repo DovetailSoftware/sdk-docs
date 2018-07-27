@@ -2,7 +2,7 @@
 
 Wipbin of the user to place the reopened CR. If not set, the UserName's default is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

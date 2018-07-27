@@ -2,7 +2,7 @@
 
 Name of the bin to create
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

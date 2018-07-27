@@ -12,7 +12,7 @@ The Serial Number of the part being installed
 
 Initializes a new instance of the LogPartsUsedConsumeSetup class. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Collection of CRM session configuration items.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

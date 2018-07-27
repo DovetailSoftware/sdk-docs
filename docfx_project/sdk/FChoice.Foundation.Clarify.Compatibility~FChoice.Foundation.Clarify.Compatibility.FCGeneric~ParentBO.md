@@ -1,6 +1,6 @@
 ﻿### ParentBO Property (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

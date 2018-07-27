@@ -6,7 +6,7 @@ This overload takes a set of required parameters for the API.
 
 Allows for the unpicking (unreserving) of inventory parts for a part request.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -40,7 +40,7 @@ Allows for the unpicking (unreserving) of inventory parts for a part request.
 
 This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 This API will search in the specified location and bin (for good or bad inventory), and will unreserve it for the part request only if it was previously reserved.
 

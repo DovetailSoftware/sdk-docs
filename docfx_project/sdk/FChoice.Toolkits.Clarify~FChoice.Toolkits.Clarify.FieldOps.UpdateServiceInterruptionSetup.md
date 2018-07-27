@@ -2,7 +2,7 @@
 
 Used by the [UpdateServiceInterruption](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~UpdateServiceInterruption(UpdateServiceInterruptionSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UpdateServiceInterruptionSetup
 public class UpdateServiceInterruptionSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.UpdateServiceInterruptionSetup**  

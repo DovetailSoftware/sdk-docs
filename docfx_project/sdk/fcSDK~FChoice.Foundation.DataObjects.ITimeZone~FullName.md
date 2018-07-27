@@ -1,6 +1,6 @@
 ﻿### FullName Property (ITimeZone)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

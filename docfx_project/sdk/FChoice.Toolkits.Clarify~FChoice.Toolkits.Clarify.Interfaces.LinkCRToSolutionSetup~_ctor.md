@@ -6,7 +6,7 @@ Identifier of the Solution to link to the CR
 
 Initializes a new instance of the LinkCRToSolutionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

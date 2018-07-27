@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Adds a Site to an existing Account specifying the Site's role in the account. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

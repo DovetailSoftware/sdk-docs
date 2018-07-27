@@ -1,6 +1,6 @@
 ﻿### FCTimeZoneCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

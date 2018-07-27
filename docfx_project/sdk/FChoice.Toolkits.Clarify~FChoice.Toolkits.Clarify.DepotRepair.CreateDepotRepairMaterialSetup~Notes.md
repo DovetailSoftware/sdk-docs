@@ -2,7 +2,7 @@
 
 Description area for the material usage activity.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

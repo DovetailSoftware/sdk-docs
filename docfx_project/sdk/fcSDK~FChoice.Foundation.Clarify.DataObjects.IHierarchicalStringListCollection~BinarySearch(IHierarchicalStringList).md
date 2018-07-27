@@ -1,6 +1,6 @@
 ﻿### BinarySearch(IHierarchicalStringList) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

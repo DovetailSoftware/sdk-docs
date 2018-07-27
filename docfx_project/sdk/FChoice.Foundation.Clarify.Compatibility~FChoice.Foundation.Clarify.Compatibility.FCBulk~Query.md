@@ -1,6 +1,6 @@
 ﻿### Query Method (FCBulk)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

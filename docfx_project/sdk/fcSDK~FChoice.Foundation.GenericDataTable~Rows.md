@@ -2,7 +2,7 @@
 
 Gets the collection of rows that belong to this table.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

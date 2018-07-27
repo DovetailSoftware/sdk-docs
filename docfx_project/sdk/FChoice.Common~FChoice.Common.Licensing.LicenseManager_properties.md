@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [LicenseManager members](FChoice.Common~FChoice.Common.Licensing.LicenseManager_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

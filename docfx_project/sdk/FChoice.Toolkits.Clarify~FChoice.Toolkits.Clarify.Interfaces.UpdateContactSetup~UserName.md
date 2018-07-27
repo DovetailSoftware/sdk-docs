@@ -1,6 +1,6 @@
 ﻿### UserName Property (UpdateContactSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

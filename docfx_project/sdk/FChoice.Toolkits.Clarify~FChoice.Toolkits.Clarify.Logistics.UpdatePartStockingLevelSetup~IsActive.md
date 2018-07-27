@@ -2,7 +2,7 @@
 
 Specifies whether this restocking is entry active (true) or inactive (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

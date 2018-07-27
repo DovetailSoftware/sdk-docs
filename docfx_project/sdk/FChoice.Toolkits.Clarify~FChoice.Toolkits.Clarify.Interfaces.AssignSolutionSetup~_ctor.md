@@ -4,7 +4,7 @@ Solution Identifier.
 
 Initializes a new instance of the AssignSolutionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

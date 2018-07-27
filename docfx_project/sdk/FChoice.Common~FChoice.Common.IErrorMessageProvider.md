@@ -2,7 +2,7 @@
 
 The IErrorMessageProvider is the interface used by [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) to allow other assemblies to provide custom error message resolution.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Interface IErrorMessageProvider
 public interface IErrorMessageProvider 
 ```
 
-Remarks
+#### Remarks
 
 You can implement your own error message provider to load error message resources from other sources. If you implement this interface and wish to use it, simply call the [SetMessageProvider](FChoice.Common~FChoice.Common.FCExceptionBase~SetMessageProvider.md) static (**Shared** in Visual Basic) method on the [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) class.
 

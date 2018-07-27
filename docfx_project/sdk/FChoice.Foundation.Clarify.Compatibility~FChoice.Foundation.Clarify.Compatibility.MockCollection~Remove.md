@@ -1,6 +1,6 @@
 ﻿### Remove Method (MockCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

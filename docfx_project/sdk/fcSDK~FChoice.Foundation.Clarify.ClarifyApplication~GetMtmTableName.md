@@ -4,7 +4,7 @@ The MTM relation from which the MTM table name is to be generated
 
 Returns the name of the physical MTM table for a given MTM relationship using the Clarify MTM naming conventions
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ The type of query being performed
 
 Prepares a parameter for the specified type of query according to the rules of the underlying database type
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _cmdType_
 
 The type of query being performed
 
-Remarks
+#### Remarks
 
 Different database types and even different query types within the same database type have different requirements for how parameters must be named or formatted. This method allows the specific DbProvider to prepare the parameter as appropriate.
 

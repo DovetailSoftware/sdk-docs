@@ -1,6 +1,6 @@
-﻿### (Global) Namespace Inheritance Hierarchy
+﻿### (Global) Namespace #### Inheritance Hierarchy
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 

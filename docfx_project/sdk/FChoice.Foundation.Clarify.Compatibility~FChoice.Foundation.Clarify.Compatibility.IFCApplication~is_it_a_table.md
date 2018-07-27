@@ -1,6 +1,6 @@
 ﻿### is_it_a_table Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

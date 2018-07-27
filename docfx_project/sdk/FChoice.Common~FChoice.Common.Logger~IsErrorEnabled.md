@@ -1,6 +1,6 @@
 ﻿### IsErrorEnabled Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

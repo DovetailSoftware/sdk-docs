@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to create a work order to dispatch a field engineer to a site. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ Database transaction under which the API will be invoked.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The contact and site for the dispatch will be derived from the case/subcase. If this is not correct, the address for the site for the dispatch can be specified in the site id field. If some of the contact or site information need to be overridden, the phone and address fields are used to pass in the new information.
 

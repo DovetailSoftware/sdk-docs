@@ -2,7 +2,7 @@
 
 Used by the [AcceptQuote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~AcceptQuote(AcceptQuoteSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class AcceptQuoteSetup
 public class AcceptQuoteSetup 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Contracts.AcceptQuoteSetup**  

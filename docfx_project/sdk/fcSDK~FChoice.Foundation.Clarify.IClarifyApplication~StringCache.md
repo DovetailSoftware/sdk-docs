@@ -1,6 +1,6 @@
 ﻿### StringCache Property (IClarifyApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

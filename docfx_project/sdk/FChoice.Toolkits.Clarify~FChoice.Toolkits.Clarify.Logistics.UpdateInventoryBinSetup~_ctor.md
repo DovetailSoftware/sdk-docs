@@ -6,7 +6,7 @@ New name of the inventory bin
 
 Initializes a new instance of the UpdateInventoryBinSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

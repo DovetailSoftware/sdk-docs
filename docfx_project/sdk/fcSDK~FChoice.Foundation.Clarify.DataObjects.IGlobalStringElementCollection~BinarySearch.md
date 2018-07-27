@@ -1,6 +1,6 @@
 ﻿### BinarySearch Method (IGlobalStringElementCollection)
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

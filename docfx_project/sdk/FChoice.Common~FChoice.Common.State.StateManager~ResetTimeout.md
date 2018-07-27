@@ -1,6 +1,6 @@
 ﻿### ResetTimeout Method (StateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

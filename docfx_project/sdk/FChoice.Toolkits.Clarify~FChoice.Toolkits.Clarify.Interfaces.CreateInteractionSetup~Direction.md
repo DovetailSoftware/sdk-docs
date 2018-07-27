@@ -2,7 +2,7 @@
 
 Element from the 'Interaction Direction' user defined list. If not set, the default list value is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

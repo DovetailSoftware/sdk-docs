@@ -6,7 +6,7 @@ Used to create a new part request header.
 
 This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -35,7 +35,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Header.
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the Header.
 
-Remarks
+#### Remarks
 
 If using the [CreatePartRequestHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup.md) variant of this API, and if the [CaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup~CaseIDNum.md) property on the [CreatePartRequestHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup.md) object is set to a value, and there is a dash ("-") in the identifier, it will be assumed that it is a subcase identifier. Otherwise, it will be treated as a case identifier.
 

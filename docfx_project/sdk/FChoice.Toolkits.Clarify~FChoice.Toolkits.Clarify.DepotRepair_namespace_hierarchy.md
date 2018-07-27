@@ -1,10 +1,6 @@
-﻿     FChoice.Toolkits.Clarify.DepotRepair Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Toolkits.Clarify.DepotRepair Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify.DepotRepair Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup.md)  

@@ -6,7 +6,7 @@ The type which represents the name of the logger that is to start using the appe
 
 Links a given appender to the specified .NET type-identified logger.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _typeBeingLogged_
 
 The type which represents the name of the logger that is to start using the appender.
 
-Remarks
+#### Remarks
 
 This will not clear out any existing appenders that may be configured for that logger, it will merely add it to the list. The only way to clear the appenders for a logger is to call [ResetConfiguration](FChoice.Common~FChoice.Common.LogManager~ResetConfiguration.md) and reconfigure all the loggers again.   
 

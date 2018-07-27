@@ -1,6 +1,6 @@
 ﻿### IsDbUnicode Property (IClarifyApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

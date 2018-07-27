@@ -2,7 +2,7 @@
 
 Returns the name of the database table this FCGeneric is based on.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public string TableName {get;}
 
 Returns the name of the database table this FCGeneric is based on.
 
-Remarks
+#### Remarks
 
 The TableName is set when the FCGeneric is constructed.
 

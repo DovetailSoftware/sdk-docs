@@ -2,7 +2,7 @@
 
 Time that the phone call lasted.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

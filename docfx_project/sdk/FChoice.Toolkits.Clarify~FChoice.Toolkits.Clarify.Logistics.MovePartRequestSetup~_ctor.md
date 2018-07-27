@@ -6,7 +6,7 @@ The new WipBin into which the PartRequest is to be moved.
 
 Initializes a new instance of the MovePartRequestSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -36,7 +36,7 @@ _newWipBin_
 
 The new WipBin into which the PartRequest is to be moved.
 
-Remarks
+#### Remarks
 
 The specified part request detail must be open and the specified WipBin name must be valid for the current owner.
 

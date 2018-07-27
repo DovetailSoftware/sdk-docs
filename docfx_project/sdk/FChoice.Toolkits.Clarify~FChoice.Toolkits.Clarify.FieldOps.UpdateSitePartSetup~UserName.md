@@ -2,7 +2,7 @@
 
 The user who is updating the Site Part. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

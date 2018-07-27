@@ -1,6 +1,6 @@
 ﻿### ChangeGenericsOrdering Method (IFCBulk)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

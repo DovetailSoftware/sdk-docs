@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Used to add purchase orders to schedules of contracts. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -33,7 +33,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the PO.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PO.
 
-Remarks
+#### Remarks
 
 The PO number cannot be defined already for the schedule.
 

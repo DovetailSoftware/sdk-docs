@@ -2,7 +2,7 @@
 
 Should Queue allow Contracts
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

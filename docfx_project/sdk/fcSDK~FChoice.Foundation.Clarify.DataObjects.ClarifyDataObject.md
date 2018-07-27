@@ -1,6 +1,6 @@
 ﻿### ClarifyDataObject Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public MustInherit Class ClarifyDataObject
 public abstract class ClarifyDataObject : FChoice.Foundation.DataObjects.DataObject, FChoice.Foundation.DataObjects.IDataObject
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

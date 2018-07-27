@@ -1,6 +1,6 @@
 ﻿### IsAutoDispatch Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

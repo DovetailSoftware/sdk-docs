@@ -1,6 +1,6 @@
 ﻿### Sort(Int32,Int32,IComparer<IGlobalStringElement>) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

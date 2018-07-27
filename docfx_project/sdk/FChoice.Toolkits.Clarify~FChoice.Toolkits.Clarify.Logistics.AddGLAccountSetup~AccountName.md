@@ -2,7 +2,7 @@
 
 Name of the General Ledger account
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

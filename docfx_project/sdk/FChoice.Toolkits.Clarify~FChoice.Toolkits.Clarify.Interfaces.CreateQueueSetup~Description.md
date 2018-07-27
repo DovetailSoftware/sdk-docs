@@ -2,7 +2,7 @@
 
 Queue description
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

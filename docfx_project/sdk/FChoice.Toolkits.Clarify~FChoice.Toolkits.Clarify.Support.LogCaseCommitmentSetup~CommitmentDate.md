@@ -2,7 +2,7 @@
 
 DateTime of when the commitment is due. If not set, the LogDate is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ The [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDa
 
 Inserts the parameter at the specified index in the collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _value_
 
 The [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbDataParameterClassTopic.htm) to insert into the collection
 
-Remarks
+#### Remarks
 
 All parameters with higher indexes then this parameter will be shifted down one in index to accomodates the new parameter.  
 

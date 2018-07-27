@@ -2,7 +2,7 @@
 
 Returns a [Logger](FChoice.Common~FChoice.Common.Logger.md) useful for logging application events or errors to the logging system.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public [Logger](FChoice.Common~FChoice.Common.Logger.md) Log {get;}
 
 Returns a [Logger](FChoice.Common~FChoice.Common.Logger.md) useful for logging application events or errors to the logging system.
 
-Remarks
+#### Remarks
 
 Optionally you can use the [LogManager](FChoice.Common~FChoice.Common.LogManager.md) to create your own logger objects.
 

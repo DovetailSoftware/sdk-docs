@@ -1,6 +1,6 @@
 ﻿### FCBulk Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Public NotInheritable Class FCBulk
 public sealed class FCBulk : IFCBulk  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCBulk**  

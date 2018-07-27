@@ -2,7 +2,7 @@
 
 The Quantity of the Site Part being installed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

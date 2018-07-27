@@ -2,7 +2,7 @@
 
 FCExceptionBase is the base exception from which all other First Choice exception classes derive. It provides pluggable error message strings which allows for easy runtime customization and localization of error messages.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,7 +17,7 @@ Public MustInherit Class FCExceptionBase
 public abstract class FCExceptionBase : System.ApplicationException 
 ```
 
-Remarks
+#### Remarks
 
 **Notes to implementors**: 
 
@@ -35,7 +35,7 @@ Remarks
 
 * * *
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.Exception  

@@ -1,6 +1,6 @@
 ﻿### MsSqlStateManager Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class MsSqlStateManager
 public class MsSqlStateManager : RemoteStateManager, IStateManager  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Common.State.RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)  

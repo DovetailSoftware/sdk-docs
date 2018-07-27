@@ -1,6 +1,6 @@
 ﻿### RankIsInGbstLst Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

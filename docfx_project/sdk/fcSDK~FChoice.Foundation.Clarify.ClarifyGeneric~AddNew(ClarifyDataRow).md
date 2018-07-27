@@ -4,7 +4,7 @@ Row to be duplicated that is based on the same Table.
 
 Adds a new row, copying values from the specified original row, and schedules it for creation in the database when Update is called.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Row to be duplicated that is based on the same Table.
 
  A new ClarifyDataRow with the same fields and values as the **rowToDuplicate**.
 
-Remarks
+#### Remarks
 
 This method effectively copies a **ClarifyDataRow**. All available fields from the **rowToDuplicate** parameter are copied into the new row even if the field is not currently populated in this **ClarifyGeneric**. 
 

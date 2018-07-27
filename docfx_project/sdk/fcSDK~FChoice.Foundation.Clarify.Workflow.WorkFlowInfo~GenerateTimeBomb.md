@@ -1,6 +1,6 @@
 ﻿### GenerateTimeBomb Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -8,7 +8,7 @@ Causes the specified part request to have units received against it.
 
 This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -40,7 +40,7 @@ Database transaction under which the API will be invoked.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 This API creates the part transaction (including standard costs), part instance records, receive parts records, activity logs and, optionally, generates a time bomb (for business rule notification). This API ensures that the transition from the current condition to the Received condition (for the specified user) is allowed is _useTransitions_ is true (the default), that an inventory location's bin does not have a negative level of any part (except for expense GLs), and part authorization levels for auto-replenishment (and will automatically work with that engine).
 

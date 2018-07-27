@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Used to add inventory bins to existing locations. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

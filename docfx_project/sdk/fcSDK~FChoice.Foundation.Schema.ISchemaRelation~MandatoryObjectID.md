@@ -1,6 +1,6 @@
 ﻿### MandatoryObjectID Property (ISchemaRelation)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

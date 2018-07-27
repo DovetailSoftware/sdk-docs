@@ -6,7 +6,7 @@ The stream which will receive the binary from the [DataSet](ms-help://MS.NETFram
 
 Writes a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm) to a binary stream
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _str_
 
 The stream which will receive the binary from the [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm)
 
-Remarks
+#### Remarks
 
 [WriteBinary](FChoice.Common~FChoice.Common.Data.DataSetSurrogate~WriteBinary.md) writes the [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm) using a specific binary encoding scheme which can only be read by [ReadBinary](FChoice.Common~FChoice.Common.Data.DataSetSurrogate~ReadBinary.md).
 
@@ -43,8 +43,6 @@ Remarks
 **IMPORTANT**: The [ReadBinary](FChoice.Common~FChoice.Common.Data.DataSetSurrogate~ReadBinary.md) and [WriteBinary](FChoice.Common~FChoice.Common.Data.DataSetSurrogate~WriteBinary.md) methods only support simple DataSets with tables, columns, rows (with data) and relationships. All other information will be lost. This includes keys, constraints, extended properties, etc
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

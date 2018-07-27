@@ -2,7 +2,7 @@
 
 The total number of parts picked.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

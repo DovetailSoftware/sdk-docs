@@ -2,7 +2,7 @@
 
 Used by the [AcceptOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AcceptOpportunity(AcceptOpportunitySetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class AcceptOpportunitySetup
 public class AcceptOpportunitySetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Sales.AcceptOpportunitySetup**  

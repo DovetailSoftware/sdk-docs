@@ -4,7 +4,7 @@ Move the Case from one WipBin to another WipBin. This overload takes a set of re
 
 Move the Case from one WipBin to another WipBin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [MoveCase(MoveCaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~MoveCase(MoveCaseSetup).md) | Move the Case from one WipBin to another WipBin. This overload takes a setup object.   |
 | [MoveCase(MoveCaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~MoveCase(MoveCaseSetup,IDbTransaction).md) | Move the Case from one WipBin to another WipBin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The new WipBin must belong to the same user as the first WipBin. The move operation does not change the ownership of the Case, nor is an activity log or time bomb generated for the action.
 

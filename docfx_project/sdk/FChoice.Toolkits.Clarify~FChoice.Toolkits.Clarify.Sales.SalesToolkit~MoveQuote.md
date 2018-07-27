@@ -4,7 +4,7 @@ Move the Quote from one WipBin to another WipBin. This overload takes a set of r
 
 Move the Quote from one WipBin to another WipBin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [MoveQuote(MoveQuoteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~MoveQuote(MoveQuoteSetup).md) | Move the Quote from one WipBin to another WipBin. This overload takes a setup object.   |
 | [MoveQuote(MoveQuoteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~MoveQuote(MoveQuoteSetup,IDbTransaction).md) | Move the Quote from one WipBin to another WipBin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The new WipBin must belong to the same user as the first WipBin. The move operation does not change the ownership of the Quote, nor is an activity log or time bomb generated for the action.
 

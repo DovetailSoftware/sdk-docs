@@ -1,6 +1,6 @@
 ﻿### GetTableNumber Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

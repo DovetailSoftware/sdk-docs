@@ -2,7 +2,7 @@
 
 The DateTime the Purchase Order will expire. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

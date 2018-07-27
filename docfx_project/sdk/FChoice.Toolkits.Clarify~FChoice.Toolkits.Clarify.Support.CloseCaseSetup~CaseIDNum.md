@@ -2,7 +2,7 @@
 
 Identifier of the Case being closed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

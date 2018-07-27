@@ -1,6 +1,6 @@
 ﻿### Relationships Property (ISchemaTable)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

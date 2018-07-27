@@ -2,7 +2,7 @@
 
 Thrown when credentials for a Session cannot be authenticated
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,7 +17,7 @@ Public Class FCInvalidLoginException
 public class FCInvalidLoginException : FoundationException
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Exception  

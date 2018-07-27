@@ -1,6 +1,6 @@
 ﻿### ExpirationDate Property (LicenseInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Used by the [CreateTimeLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~CreateTimeLog(CreateTimeLogSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class CreateTimeLogSetup
 public class CreateTimeLogSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup**  

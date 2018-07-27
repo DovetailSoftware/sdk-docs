@@ -2,7 +2,7 @@
 
 Captured billable expenses.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Should the Commitment generate email notifications for the commitment time and prior warning time.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

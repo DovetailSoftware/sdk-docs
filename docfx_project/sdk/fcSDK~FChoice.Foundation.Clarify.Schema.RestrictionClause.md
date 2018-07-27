@@ -1,6 +1,6 @@
 ﻿### RestrictionClause Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class RestrictionClause
 public class RestrictionClause
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.Schema.RestrictionClause**  

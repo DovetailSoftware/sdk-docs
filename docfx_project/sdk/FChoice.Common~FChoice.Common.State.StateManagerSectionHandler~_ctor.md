@@ -1,6 +1,6 @@
 ﻿### StateManagerSectionHandler Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

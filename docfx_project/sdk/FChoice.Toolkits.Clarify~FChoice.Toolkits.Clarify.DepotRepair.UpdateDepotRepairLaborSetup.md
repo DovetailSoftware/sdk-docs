@@ -2,7 +2,7 @@
 
 Used by the [UpdateDepotRepairLabor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateDepotRepairLabor(UpdateDepotRepairLaborSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UpdateDepotRepairLaborSetup
 public class UpdateDepotRepairLaborSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairLaborSetup**  

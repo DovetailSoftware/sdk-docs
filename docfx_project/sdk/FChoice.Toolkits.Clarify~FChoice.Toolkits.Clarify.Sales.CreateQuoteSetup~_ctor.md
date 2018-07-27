@@ -4,7 +4,7 @@ The title of the Quote.
 
 Initializes a new instance of the CreateQuoteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -20,7 +20,6 @@ Public Function New( _
 public CreateQuoteSetup( 
    string _quoteTitle_
 )
-```
 ```
 
 #### Parameters

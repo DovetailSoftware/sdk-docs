@@ -1,6 +1,6 @@
 ﻿### ILocaleCache Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

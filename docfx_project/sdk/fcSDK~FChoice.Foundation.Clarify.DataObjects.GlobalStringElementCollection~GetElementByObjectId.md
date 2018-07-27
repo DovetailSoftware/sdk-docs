@@ -1,6 +1,6 @@
 ﻿### GetElementByObjectId Method (GlobalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

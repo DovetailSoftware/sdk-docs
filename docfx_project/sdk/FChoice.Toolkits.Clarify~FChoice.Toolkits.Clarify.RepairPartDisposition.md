@@ -2,7 +2,7 @@
 
 What to do with the repair part when the repair is completed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Members
 | **Removed** |   |
 | **Used** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

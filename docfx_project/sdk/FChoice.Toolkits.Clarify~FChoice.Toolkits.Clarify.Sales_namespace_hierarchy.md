@@ -1,10 +1,6 @@
-﻿     FChoice.Toolkits.Clarify.Sales Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Toolkits.Clarify.Sales Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify.Sales Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup.md)  
@@ -51,8 +47,6 @@ System.Object
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  
       [FChoice.Toolkits.Clarify.Sales.SalesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase.md)  
          [FChoice.Toolkits.Clarify.Sales.SalesToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit.md)  
-
-
 
 #### Reference
 

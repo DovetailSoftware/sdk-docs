@@ -2,7 +2,7 @@
 
 Objid of the Bin to place the Site Part into
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Add(Location) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

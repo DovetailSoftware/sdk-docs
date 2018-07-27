@@ -1,6 +1,6 @@
 ﻿### DBPROVIDER_CONFIGFILE Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

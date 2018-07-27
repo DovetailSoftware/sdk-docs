@@ -1,6 +1,6 @@
 ﻿### ChangePassword Method (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

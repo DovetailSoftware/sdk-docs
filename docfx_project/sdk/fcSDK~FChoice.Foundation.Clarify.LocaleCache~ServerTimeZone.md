@@ -1,6 +1,6 @@
 ﻿### ServerTimeZone Property (LocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

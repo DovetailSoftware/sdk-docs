@@ -12,7 +12,7 @@ Current role for the Contact at their site. Element from the 'Contact Role' appl
 
 Update a Contact. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,6 @@ public ToolkitResult UpdateContact(
    string _siteIDNum_,
    string _roleName_
 )
-```
 ```
 
 #### Parameters

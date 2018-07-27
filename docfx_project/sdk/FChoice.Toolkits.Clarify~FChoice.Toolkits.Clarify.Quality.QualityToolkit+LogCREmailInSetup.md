@@ -1,10 +1,6 @@
-﻿     QualityToolkit.LogCREmailInSetup Class                                                   
+﻿### QualityToolkit.LogCREmailInSetup Class
 
-fcSDK Documentation
-
-QualityToolkit.LogCREmailInSetup Class
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,7 +13,7 @@ Public Class QualityToolkit.LogCREmailInSetup
 public class QualityToolkit.LogCREmailInSetup : FChoice.Toolkits.Clarify.Support.LogEmailInSetup
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)  

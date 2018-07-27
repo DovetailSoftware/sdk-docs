@@ -1,6 +1,6 @@
 ﻿### ConfigItem Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public MustInherit Class ConfigItem
 public abstract class ConfigItem : DataObject, IDataObject
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

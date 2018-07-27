@@ -2,7 +2,7 @@
 
 Used by the [RejectOpportunity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~RejectOpportunity(RejectOpportunitySetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class RejectOpportunitySetup
 public class RejectOpportunitySetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Sales.RejectOpportunitySetup**  

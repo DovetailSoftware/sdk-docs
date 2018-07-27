@@ -6,7 +6,7 @@ The relation name
 
 Relate a unique identifier to this GenericDataRow via a [SchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) name.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

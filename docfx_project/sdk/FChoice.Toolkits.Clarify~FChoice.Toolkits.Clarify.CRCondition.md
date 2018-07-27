@@ -1,6 +1,6 @@
 ﻿### CRCondition Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -22,7 +22,7 @@ Members
 | **Fixed** |   |
 | **Open** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

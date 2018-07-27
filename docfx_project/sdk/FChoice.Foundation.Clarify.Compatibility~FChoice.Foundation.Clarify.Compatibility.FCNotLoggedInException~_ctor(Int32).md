@@ -1,6 +1,6 @@
 ﻿### FCNotLoggedInException Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

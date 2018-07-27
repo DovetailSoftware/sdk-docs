@@ -16,7 +16,7 @@ The objid of the parent line item.
 
 Initializes a new instance of the CreateQuoteLineItemSetup class. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -44,7 +44,6 @@ public CreateQuoteLineItemSetup(
    string _priceSchedule_,
    int _parentLineItemObjid_
 )
-```
 ```
 
 #### Parameters

@@ -1,6 +1,6 @@
 ﻿### LogActionItemEmailInSetup Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

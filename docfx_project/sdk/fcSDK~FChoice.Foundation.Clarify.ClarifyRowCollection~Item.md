@@ -1,6 +1,6 @@
 ﻿### Item Property (ClarifyRowCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### hist_change Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

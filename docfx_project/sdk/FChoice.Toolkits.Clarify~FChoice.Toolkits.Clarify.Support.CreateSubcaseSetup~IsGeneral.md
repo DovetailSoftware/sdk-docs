@@ -2,7 +2,7 @@
 
 Specifies if this is a general Subcase (True), or administrative (False).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

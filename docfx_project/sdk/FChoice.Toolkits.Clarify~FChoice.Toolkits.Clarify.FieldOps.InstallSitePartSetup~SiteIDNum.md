@@ -2,7 +2,7 @@
 
 The Site Id of the Parent Site where the Site Part is being installed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

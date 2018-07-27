@@ -2,7 +2,7 @@
 
 Number of units used
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

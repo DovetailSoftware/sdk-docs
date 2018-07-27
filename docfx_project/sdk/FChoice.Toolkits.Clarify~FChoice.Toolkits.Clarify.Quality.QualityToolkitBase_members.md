@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [QualityToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkitBase.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

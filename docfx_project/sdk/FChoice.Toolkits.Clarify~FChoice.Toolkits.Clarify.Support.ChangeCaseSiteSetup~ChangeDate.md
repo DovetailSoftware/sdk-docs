@@ -2,7 +2,7 @@
 
 DateTime the change was made. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

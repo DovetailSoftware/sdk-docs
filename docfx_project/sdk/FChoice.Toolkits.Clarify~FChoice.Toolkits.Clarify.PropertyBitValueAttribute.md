@@ -1,6 +1,6 @@
 ﻿### PropertyBitValueAttribute Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ Public Class PropertyBitValueAttribute
 public class PropertyBitValueAttribute : System.Attribute
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Attribute  

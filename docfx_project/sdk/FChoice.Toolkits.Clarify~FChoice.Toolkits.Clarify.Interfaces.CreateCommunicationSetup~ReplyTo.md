@@ -2,7 +2,7 @@
 
 ReplyTo address (usually email address)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

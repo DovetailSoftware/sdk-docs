@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [DepotRepairToolkitBase members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkitBase_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

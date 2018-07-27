@@ -4,7 +4,7 @@ Reject-forward the Case from one queue to another. This overload takes a set of 
 
 Reject-forward the Case from one queue to another.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ForwardCase(ForwardCaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ForwardCase(ForwardCaseSetup).md) | Reject-forward the Case from one queue to another. This overload takes a setup object.   |
 | [ForwardCase(ForwardCaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ForwardCase(ForwardCaseSetup,IDbTransaction).md) | Reject-forward the Case from one queue to another. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Case must be in open condition, and not currently dispatched to a queue.
 

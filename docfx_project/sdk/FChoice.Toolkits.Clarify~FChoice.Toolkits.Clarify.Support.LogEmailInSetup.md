@@ -4,7 +4,7 @@ Setup that is common to both [LogCaseEmailInSetup](FChoice.Toolkits.Clarify~FCho
 
 This setup should not be used on its own.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public MustInherit Class LogEmailInSetup
 public abstract class LogEmailInSetup 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.LogEmailInSetup**  

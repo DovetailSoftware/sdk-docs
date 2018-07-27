@@ -1,6 +1,6 @@
 ﻿### IsVoid Field (FacadeVoidAttribute)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

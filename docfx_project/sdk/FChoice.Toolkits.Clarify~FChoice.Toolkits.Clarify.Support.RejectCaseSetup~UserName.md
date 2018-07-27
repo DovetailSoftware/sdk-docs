@@ -2,7 +2,7 @@
 
 The user who has rejected the Case. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

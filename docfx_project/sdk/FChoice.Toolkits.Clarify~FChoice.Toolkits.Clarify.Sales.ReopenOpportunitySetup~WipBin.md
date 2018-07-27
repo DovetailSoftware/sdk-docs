@@ -2,7 +2,7 @@
 
 User's WipBin to place the Opportunity in. It not set the current user's default is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [TodayFilter members](fcSDK~FChoice.Foundation.Filters.TodayFilter_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

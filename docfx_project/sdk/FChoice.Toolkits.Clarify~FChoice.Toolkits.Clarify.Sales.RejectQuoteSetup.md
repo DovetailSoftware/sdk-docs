@@ -2,7 +2,7 @@
 
 Used by the [RejectQuote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~RejectQuote(RejectQuoteSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class RejectQuoteSetup
 public class RejectQuoteSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Sales.RejectQuoteSetup**  

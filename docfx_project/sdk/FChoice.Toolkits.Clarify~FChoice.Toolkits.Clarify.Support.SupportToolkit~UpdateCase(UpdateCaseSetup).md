@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Updates an existing Case. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Setup object for API invocation.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 If the [User](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseSetup~UserName.md) is not the current owner of the Case and this flag is **true** then the Update will not happen.
 

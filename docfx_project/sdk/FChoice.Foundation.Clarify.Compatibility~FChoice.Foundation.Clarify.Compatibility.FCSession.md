@@ -1,6 +1,6 @@
 ﻿### FCSession Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -24,7 +24,7 @@ Public NotInheritable Class FCSession
 public sealed class FCSession : IFCSession  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCSession**  

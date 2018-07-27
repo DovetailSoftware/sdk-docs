@@ -2,7 +2,7 @@
 
 Gets the transaction specified when this UpdateQueryBatch instance was created
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public IDbTransaction Transaction {get;}
 
 The transaction specified when this UpdateQueryBatch instance was created
 
-Remarks
+#### Remarks
 
 **IMPORTANT**: The UpdateQueryBatch does not commit or rollback the transaction instance. It is the responsibility of the caller to ensure that the transaction is properly set up and finished after the batch is executed.
 

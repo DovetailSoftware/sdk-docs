@@ -1,6 +1,6 @@
 ﻿### CreateChannel(CreateChannelSetup,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

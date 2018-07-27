@@ -2,7 +2,7 @@
 
 Used by the [LogSubcaseCommitment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubcaseCommitment(LogSubcaseCommitmentSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class LogSubcaseCommitmentSetup
 public class LogSubcaseCommitmentSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.LogSubcaseCommitmentSetup**  

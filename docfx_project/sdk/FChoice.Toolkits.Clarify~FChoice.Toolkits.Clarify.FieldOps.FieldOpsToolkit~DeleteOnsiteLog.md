@@ -4,7 +4,7 @@ Used to delete an existing onsite log. This overload takes a setup object and a
 
 Used to delete an existing onsite log.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

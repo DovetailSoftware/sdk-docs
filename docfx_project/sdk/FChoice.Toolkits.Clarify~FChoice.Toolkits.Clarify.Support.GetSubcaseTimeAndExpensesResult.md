@@ -2,7 +2,7 @@
 
 Result from the [GetSubcaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~GetSubcaseTimeAndExpenses.md) API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class GetSubcaseTimeAndExpensesResult
 public class GetSubcaseTimeAndExpensesResult : FChoice.Toolkits.Clarify.ToolkitResult
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  

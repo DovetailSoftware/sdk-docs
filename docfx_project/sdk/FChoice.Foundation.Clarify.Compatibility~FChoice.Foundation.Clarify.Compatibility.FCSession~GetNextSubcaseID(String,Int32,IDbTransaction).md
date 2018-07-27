@@ -1,6 +1,6 @@
 ﻿### GetNextSubcaseID(String,Int32,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

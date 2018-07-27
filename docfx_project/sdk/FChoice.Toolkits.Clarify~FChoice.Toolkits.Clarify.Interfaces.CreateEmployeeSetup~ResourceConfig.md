@@ -2,7 +2,7 @@
 
 The resource config that the Employee should be placed in
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

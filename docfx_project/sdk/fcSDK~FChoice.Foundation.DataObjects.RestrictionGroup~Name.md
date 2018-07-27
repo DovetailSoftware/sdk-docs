@@ -1,6 +1,6 @@
 ﻿### Name Property (RestrictionGroup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

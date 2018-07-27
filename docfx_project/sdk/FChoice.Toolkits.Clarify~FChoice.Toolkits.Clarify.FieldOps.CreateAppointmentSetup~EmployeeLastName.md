@@ -2,7 +2,7 @@
 
 The last name of the Employee that the Appointment is for.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

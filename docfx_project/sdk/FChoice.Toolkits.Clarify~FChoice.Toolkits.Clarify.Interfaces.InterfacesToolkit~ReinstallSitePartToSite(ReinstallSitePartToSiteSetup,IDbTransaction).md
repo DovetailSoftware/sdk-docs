@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Re-Install a Site Part under a Site. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

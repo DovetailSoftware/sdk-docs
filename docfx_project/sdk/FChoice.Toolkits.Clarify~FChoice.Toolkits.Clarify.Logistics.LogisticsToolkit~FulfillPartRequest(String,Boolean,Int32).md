@@ -8,7 +8,7 @@ The number of parts being fulfilled for this Part Request
 
 Allows for the fulfilling of inventory parts for a part request. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -46,7 +46,7 @@ The number of parts being fulfilled for this Part Request
 
 If a partial fulfill occurs then a new PartRequestDetail is created for the remaining items waiting to be fullfilled. When this occurs the ToolkitResult will be populated with the objid and id number of the PartRequestDetail that was just created.
 
-Remarks
+#### Remarks
 
 As in base Clarify, if a partial fulfill is performed, the part request is broken up into two new part requests. The first is for the fulfill (and the quantities are changed). The new part request will be created to hold the rest of the units that did not get fulfilled.
 

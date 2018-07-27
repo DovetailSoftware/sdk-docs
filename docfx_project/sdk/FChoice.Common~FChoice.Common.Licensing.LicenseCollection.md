@@ -2,7 +2,7 @@
 
 Collection of LicensesHolds a collection of valid licenses.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public NotInheritable Class LicenseCollection
 public sealed class LicenseCollection : System.Collections.CollectionBase 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.CollectionBase](#)  

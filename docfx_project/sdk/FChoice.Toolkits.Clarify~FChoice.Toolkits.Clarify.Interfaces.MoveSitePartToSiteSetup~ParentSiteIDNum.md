@@ -2,7 +2,7 @@
 
 Identifier of the parent Site the Site Part is being moved under
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -8,7 +8,7 @@ Used to create a new part request detail.
 
 This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -40,7 +40,7 @@ Database transaction under which the API will be invoked.
 
 A CreatePartRequestDetailResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 This API requires a part request header in addition to a part or site_part. If the site_part record is already known, it can be specified using _sitePartObjid_ parameter or the SitePartObjid property on the CreatePartRequestDetailSetup object. Otherwise, the part_num, mod_level, and domain define the part (which can be specified either via parameters to one of this API's overloads, or via the respective properties on the CreatePartRequestDetailSetup object). If a serialized site_part was specified, the serial number should be specified instead of quantity. Otherwise, the quantity must be specified.
 

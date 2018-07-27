@@ -1,22 +1,18 @@
-﻿     FindLastIndex(Predicate<IHierarchicalStringList>) Method                                                   
+﻿### FindLastIndex(Predicate<IHierarchicalStringList>) Method
 
-fcSDK Documentation
-
-FindLastIndex(Predicate<IHierarchicalStringList>) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
 
 Overloads Function FindLastIndex( _
-   ByVal _match_ As [Predicate(Of IHierarchicalStringList)](#) _
+   ByVal _match_ As Predicate(Of IHierarchicalStringList) _
 ) As Integer
 ```
 
 ```csharp
 int FindLastIndex( 
-   [Predicate<IHierarchicalStringList>](#) _match_
+   Predicate<IHierarchicalStringList> _match_
 )
 ```
 

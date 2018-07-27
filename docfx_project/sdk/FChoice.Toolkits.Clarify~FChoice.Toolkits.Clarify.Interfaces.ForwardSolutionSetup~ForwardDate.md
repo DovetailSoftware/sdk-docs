@@ -2,7 +2,7 @@
 
 DateTime the Solution was forwarded. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

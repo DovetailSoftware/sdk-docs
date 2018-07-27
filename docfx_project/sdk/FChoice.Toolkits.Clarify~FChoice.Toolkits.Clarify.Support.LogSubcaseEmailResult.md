@@ -2,7 +2,7 @@
 
 Result from the [LogSubcaseEmail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubcaseEmail.md) API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class LogSubcaseEmailResult
 public class LogSubcaseEmailResult : FChoice.Toolkits.Clarify.ToolkitResult
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md)  

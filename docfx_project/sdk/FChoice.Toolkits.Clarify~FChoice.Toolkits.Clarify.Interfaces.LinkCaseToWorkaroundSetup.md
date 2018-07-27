@@ -2,7 +2,7 @@
 
 Used by the [LinkCaseToWorkaround](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~LinkCaseToWorkaround(LinkCaseToWorkaroundSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class LinkCaseToWorkaroundSetup
 public class LinkCaseToWorkaroundSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup**  

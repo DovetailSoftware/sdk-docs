@@ -4,14 +4,14 @@ Writes a INFO-level log entry if INFO-level logging is enabled.
 
 Writes an  INFO-level log entry if INFO-level logging is enabled.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
 | [LogInfo(String,Object\[\])](FChoice.Common~FChoice.Common.Logger~LogInfo(String,Object[]).md) | Writes a INFO-level log entry if INFO-level logging is enabled.   |
 | [LogInfo(Exception,String,Object\[\])](FChoice.Common~FChoice.Common.Logger~LogInfo(Exception,String,Object[]).md) | Writes a INFO-level log entry if INFO-level logging is enabled as well as the details of an exception that was caught.   |
 
-Remarks
+#### Remarks
 
 If the current logger is not configured for INFO-level logging or lower, these methods will do nothing.
 

@@ -2,7 +2,7 @@
 
 Time Zone for the lead.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

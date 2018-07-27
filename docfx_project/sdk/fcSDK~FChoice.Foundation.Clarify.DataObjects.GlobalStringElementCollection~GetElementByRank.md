@@ -1,6 +1,6 @@
 ﻿### GetElementByRank Method (GlobalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

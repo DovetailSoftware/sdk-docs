@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [ILicenseInfo](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

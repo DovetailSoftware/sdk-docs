@@ -2,7 +2,7 @@
 
 FCLicenseException is used when a licensed product attempts to obtain a license key from the installed set of keys and either cannot find its key or an error occurs retreiving the list of licenses.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,7 +17,7 @@ Public Class FCLicenseException
 public class FCLicenseException : FCExceptionBase
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.Exception  

@@ -4,7 +4,7 @@ Reject-forward the Solution from one queue to another. This overload takes a set
 
 Reject-forward the Solution from one queue to another.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ForwardSolution(ForwardSolutionSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~ForwardSolution(ForwardSolutionSetup).md) | Reject-forward the Solution from one queue to another. This overload takes a setup object.   |
 | [ForwardSolution(ForwardSolutionSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~ForwardSolution(ForwardSolutionSetup,IDbTransaction).md) | Reject-forward the Solution from one queue to another. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Solution must be in open condition, and not currently dispatched to a queue.
 

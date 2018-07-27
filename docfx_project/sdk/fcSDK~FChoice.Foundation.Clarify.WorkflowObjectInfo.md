@@ -1,6 +1,6 @@
 ﻿### WorkflowObjectInfo Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class WorkflowObjectInfo
 public class WorkflowObjectInfo
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.WorkflowObjectInfo**  

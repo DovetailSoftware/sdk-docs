@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [UpdateQueryBatch members](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 Notes for the status change.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### OracleStateManager Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class OracleStateManager
 public class OracleStateManager : RemoteStateManager, IStateManager  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Common.State.RemoteStateManager](FChoice.Common~FChoice.Common.State.RemoteStateManager.md)  

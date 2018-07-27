@@ -2,7 +2,7 @@
 
 Returns the data restriction group being used by the session.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

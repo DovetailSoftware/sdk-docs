@@ -2,7 +2,7 @@
 
 The type of units the object is delivered in
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

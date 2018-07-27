@@ -1,6 +1,6 @@
 ﻿### DaylightSavingsCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

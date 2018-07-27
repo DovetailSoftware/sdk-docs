@@ -2,7 +2,7 @@
 
 Objid of the Solution to receive the Workaround.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

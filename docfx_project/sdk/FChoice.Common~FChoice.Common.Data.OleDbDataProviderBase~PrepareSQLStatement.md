@@ -1,6 +1,6 @@
 ﻿### PrepareSQLStatement Method (OleDbDataProviderBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

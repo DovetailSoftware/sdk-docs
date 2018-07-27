@@ -4,7 +4,7 @@ Retrieves the current configuration values or loads new ones if no current ones 
 
 Causes FCConfiguration to reload it's current configuration values (if forced) or return the current values.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [LoadEnvironmentSettings(NameValueCollection)](FChoice.Common~FChoice.Common.FCConfiguration~LoadEnvironmentSettings(NameValueCollection).md) | Forces a load of new configuration values, using the supplied collection if possible.   |
 | [LoadEnvironmentSettings(NameValueCollection,Boolean,Boolean)](FChoice.Common~FChoice.Common.FCConfiguration~LoadEnvironmentSettings(NameValueCollection,Boolean,Boolean).md) | Retrieves the current configuration values or loads new ones if no current ones are available, using the specified collection if possible.   |
 
-Remarks
+#### Remarks
 
 This should generally be called once per application by the "Main" method or class which initializes the application.
 

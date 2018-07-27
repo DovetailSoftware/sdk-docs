@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [NotContainsFilter members](fcSDK~FChoice.Foundation.Filters.NotContainsFilter_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

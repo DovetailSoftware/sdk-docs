@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [IStringCache members](fcSDK~FChoice.Foundation.Clarify.IStringCache_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

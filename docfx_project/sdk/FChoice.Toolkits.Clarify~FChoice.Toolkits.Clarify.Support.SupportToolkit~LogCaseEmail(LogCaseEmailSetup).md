@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Creates an email log against a Case. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ The following values are populated in the LogCaseEmailResult object returned by 
 *   Objid \- The Objid of the Log.
 *   StatusChangeObjid \- The Objid of the StatusChange.
 
-Remarks
+#### Remarks
 
 It is possible to create a Commitment with this log. To do so set the CommitmentDueDate and CommitmentTitle and IsCommitmentToCustomer properties
 

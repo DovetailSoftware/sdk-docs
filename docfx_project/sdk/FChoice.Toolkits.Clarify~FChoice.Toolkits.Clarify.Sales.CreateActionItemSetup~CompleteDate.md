@@ -2,7 +2,7 @@
 
 The DateTime the Action Item is to be completed. If not set, it will be set to one week after the start date.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

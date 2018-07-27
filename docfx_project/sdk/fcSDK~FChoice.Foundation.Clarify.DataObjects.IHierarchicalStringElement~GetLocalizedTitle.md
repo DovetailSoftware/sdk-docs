@@ -1,6 +1,6 @@
 ﻿### GetLocalizedTitle Method (IHierarchicalStringElement)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

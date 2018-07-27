@@ -1,6 +1,6 @@
 ﻿### GetSafeDoubleFieldValue(String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

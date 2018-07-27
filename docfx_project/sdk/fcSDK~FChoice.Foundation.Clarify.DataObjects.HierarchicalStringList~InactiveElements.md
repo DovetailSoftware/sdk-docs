@@ -1,6 +1,6 @@
 ﻿### InactiveElements Property (HierarchicalStringList)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

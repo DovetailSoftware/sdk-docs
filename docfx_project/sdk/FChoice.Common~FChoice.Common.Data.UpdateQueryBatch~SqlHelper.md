@@ -2,7 +2,7 @@
 
 Gets the instance of a [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) class that is used by this batch to manage parameters and execute statements
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public SqlHelper SqlHelper {get;}
 
 The instance of a [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) class that is used by this batch to manage parameters and execute statements
 
-Remarks
+#### Remarks
 
 While it is possible to change properties, add/remove parameters, and change providers and other properties on this instance, it could cause instability during the batching process and is not recommended.
 

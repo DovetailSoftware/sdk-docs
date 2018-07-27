@@ -1,8 +1,4 @@
-﻿     FChoice.Toolkits.Clarify.Interfaces Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify.Interfaces Namespace
+﻿### FChoice.Toolkits.Clarify.Interfaces Namespace
 
 Provides APIs to allow you to modify common Clarify objects such as Contacts, Sites, Addresses, Solutions, Contracts, Parts, and more. Methods on the [InterfacesToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit.md) object allow you to [create](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateSolution.md), [modify](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateSite.md), [dispatch](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~DispatchSolution.md), [accept](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AcceptSolution.md), [reject](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~RejectSolution.md), [assign](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AssignSolution.md), [yank](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~YankSolution.md), and [move](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~MoveSolution.md), among many others operations.
 

@@ -1,12 +1,8 @@
 ﻿### ClarifyGeneric Class                                                   
 
-fcSDK Documentation
-
-ClarifyGeneric Class
-
 Provides core Clarify business logic and managed access to Clarify data.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -21,7 +17,7 @@ Public Class ClarifyGeneric
 public class ClarifyGeneric : FChoice.Foundation.FCGeneric
 ``` 
 
-Remarks
+#### Remarks
 
 This is the core business object in FCFL.NET.  Each instance of ClarifyGeneric represents records from tables and views in the Clarify database.  The generic object allows you to query the database for rows in the table or view, add new table rows, or update or delete existing table rows (**NOTE**: updates are only available for tables, views are read-only).
 
@@ -59,7 +55,7 @@ gSite.Query()
 ' This queries both gSite and gAddr gSite.Query()
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)  

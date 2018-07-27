@@ -1,6 +1,6 @@
 ﻿### LogCREmailIn(LogCREmailInSetup,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

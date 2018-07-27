@@ -1,10 +1,6 @@
-﻿     FChoice.Toolkits.Clarify.Quality Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Toolkits.Clarify.Quality Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify.Quality Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.Quality.AcceptCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AcceptCRSetup.md)  
@@ -32,8 +28,6 @@ System.Object
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  
       [FChoice.Toolkits.Clarify.Quality.QualityToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkitBase.md)  
          [FChoice.Toolkits.Clarify.Quality.QualityToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit.md)  
-
-
 
 #### Reference
 

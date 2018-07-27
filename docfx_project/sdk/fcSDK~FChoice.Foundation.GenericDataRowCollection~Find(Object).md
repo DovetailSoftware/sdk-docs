@@ -4,7 +4,7 @@ The primary key value of the [GenericDataRow](fcSDK~FChoice.Foundation.GenericD
 
 Gets the row specified by the primary key value.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _key_
 
 The primary key value of the [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) to find.
 
-Remarks
+#### Remarks
 
 The implementation of Find is delegated to DataRowCollection's [Find](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatarowcollectionclassfindtopic1.htm).
 

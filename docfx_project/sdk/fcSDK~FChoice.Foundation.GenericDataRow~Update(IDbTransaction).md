@@ -4,7 +4,7 @@ Transaction under which to do this update.
 
 Commits the row to the database. See FCGeneric's [Update](fcSDK~FChoice.Foundation.FCGeneric~Update(GenericDataRow).md) for details.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _trans_
 
 Transaction under which to do this update.
 
-Remarks
+#### Remarks
 
 **NOTE:** This method calls [FCGeneric.Update](fcSDK~FChoice.Foundation.FCGeneric~Update(GenericDataRow).md)
 

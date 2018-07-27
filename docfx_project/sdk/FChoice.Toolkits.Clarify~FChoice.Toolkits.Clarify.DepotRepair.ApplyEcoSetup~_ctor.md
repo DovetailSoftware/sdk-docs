@@ -6,7 +6,7 @@ Identifier of the ECO header
 
 Initializes a new instance of the ApplyEcoSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

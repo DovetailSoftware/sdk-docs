@@ -4,7 +4,7 @@ Objid of the Site being updated
 
 Initializes a new instance of the UpdateSiteByObjidSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Item Property (IGlobalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

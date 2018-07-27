@@ -6,7 +6,7 @@ The queue into which the Solution is to be dispatched.
 
 Initializes a new instance of the DispatchSolutionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

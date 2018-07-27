@@ -2,7 +2,7 @@
 
 The Objid of the Service Interuption being deleted.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

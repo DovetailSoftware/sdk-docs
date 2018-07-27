@@ -1,6 +1,6 @@
 ﻿### GetSafeInt32FieldValue(String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

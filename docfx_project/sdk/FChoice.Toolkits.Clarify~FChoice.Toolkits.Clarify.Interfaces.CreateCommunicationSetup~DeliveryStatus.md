@@ -2,7 +2,7 @@
 
 The delivery status of the communication ([CommunicationDeliveryStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationDeliveryStatus.md)).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

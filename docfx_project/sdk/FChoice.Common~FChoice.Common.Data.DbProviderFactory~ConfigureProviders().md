@@ -1,6 +1,6 @@
 ﻿### ConfigureProviders() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

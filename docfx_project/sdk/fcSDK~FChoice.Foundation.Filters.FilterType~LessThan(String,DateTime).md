@@ -1,6 +1,6 @@
 ﻿### LessThan(String,DateTime) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,6 @@ public static LessThanFilter LessThan(
    string _columnName_,
    DateTime _value_
 )
-```
 ```
 
 #### Parameters

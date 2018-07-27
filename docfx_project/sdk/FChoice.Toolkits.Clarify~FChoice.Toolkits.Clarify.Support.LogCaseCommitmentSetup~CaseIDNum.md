@@ -2,7 +2,7 @@
 
 Identifier of the Case against which the Committment is being logged.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

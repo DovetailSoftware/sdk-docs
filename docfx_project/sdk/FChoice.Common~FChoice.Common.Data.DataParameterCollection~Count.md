@@ -2,7 +2,7 @@
 
 Retrieves the number of parameters actually contained in the DataParameterCollection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public int Count {get;}
 
 Count is always the actual number of parameters in the collection, not it's capacity. The Capacity is managed internally and will increase as necessary to handle new parameters.
 
-Remarks
+#### Remarks
 
 The number of parameters actually contained in the DataParameterCollection.
 

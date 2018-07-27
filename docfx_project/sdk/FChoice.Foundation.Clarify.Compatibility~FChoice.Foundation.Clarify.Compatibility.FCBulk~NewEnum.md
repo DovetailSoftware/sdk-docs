@@ -1,6 +1,6 @@
 ﻿### NewEnum Method (FCBulk)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

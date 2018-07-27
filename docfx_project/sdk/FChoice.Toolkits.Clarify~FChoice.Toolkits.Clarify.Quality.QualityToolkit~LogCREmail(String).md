@@ -4,7 +4,7 @@ Identifier of the CR being logged.
 
 Used to create a email log for a CR. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the EmailLog.
 
-Remarks
+#### Remarks
 
 The date the email is logged can be set, as well as the user who logs the email. Additional fields on the log_email record can also be set as well as a time bomb (for the email_log), which allows notifications to be generated based on the event. In addition, the proper time_bomb can be optionally created that will cause rulemanager to send out the email.
 

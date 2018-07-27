@@ -4,7 +4,7 @@ Creates a new [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.
 
 Creates a new [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) object through which most access to the Clarify System occurs.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [CreateSession(String,ClarifyLoginType)](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession(String,ClarifyLoginType).md) | Creates a new [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) and performs a passwordless login for the specified user and [ClarifyLoginType](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md).   |
 | [CreateSession(String,String,ClarifyLoginType)](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession(String,String,ClarifyLoginType).md) | Creates a new [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) and performs a login using the specified username, password, and [ClarifyLoginType](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md).   |
 
-Remarks
+#### Remarks
 
 There is no way to create a ClarifySession that is not already logged in.
 

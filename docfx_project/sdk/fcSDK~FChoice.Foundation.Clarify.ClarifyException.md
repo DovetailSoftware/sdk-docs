@@ -1,6 +1,6 @@
 ﻿### ClarifyException Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class ClarifyException
 public class ClarifyException : FChoice.Common.FCExceptionBase 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Exception  

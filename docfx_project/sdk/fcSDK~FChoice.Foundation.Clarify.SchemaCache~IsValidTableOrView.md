@@ -1,6 +1,6 @@
 ﻿### IsValidTableOrView Method (SchemaCache)
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

@@ -8,7 +8,7 @@ Objid of the parent Bin this Part will be re-installed under.
 
 Re-Install a Site Part under a Product Bin. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

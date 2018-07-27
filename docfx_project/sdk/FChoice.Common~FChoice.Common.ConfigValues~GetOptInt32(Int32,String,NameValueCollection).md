@@ -1,6 +1,6 @@
 ﻿### GetOptInt32(Int32,String,NameValueCollection) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

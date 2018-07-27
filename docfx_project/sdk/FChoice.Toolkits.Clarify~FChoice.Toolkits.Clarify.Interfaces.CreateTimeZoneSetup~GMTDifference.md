@@ -2,7 +2,7 @@
 
 Seconds between the Timezone being created and Greenwich Mean Time (GMT)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

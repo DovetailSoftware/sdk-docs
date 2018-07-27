@@ -16,7 +16,7 @@ Allows parts to be transferred independent of a part request to fix order errors
 
 This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -76,7 +76,7 @@ The following values are populated in the PartTransferResult object returned by 
 *   StandardCost \- Part Transfer Standard Cost.
 *   Objid \- Objid of the Part Transfer record.
 
-Remarks
+#### Remarks
 
 As in Clarify, the transfer can be from good or bad stock and can be to good or bad stock.
 

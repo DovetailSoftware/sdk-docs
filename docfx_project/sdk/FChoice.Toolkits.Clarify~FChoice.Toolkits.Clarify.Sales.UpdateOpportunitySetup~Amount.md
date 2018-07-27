@@ -2,7 +2,7 @@
 
 The amount for the Opportunity.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

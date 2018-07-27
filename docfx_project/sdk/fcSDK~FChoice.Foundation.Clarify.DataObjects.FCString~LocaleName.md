@@ -1,6 +1,6 @@
 ﻿### LocaleName Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### SchemaTableBase Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public MustInherit Class SchemaTableBase
 public abstract class SchemaTableBase : FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject, FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaTableBase  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

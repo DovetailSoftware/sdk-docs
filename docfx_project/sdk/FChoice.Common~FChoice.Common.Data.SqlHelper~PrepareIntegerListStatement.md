@@ -1,6 +1,6 @@
 ﻿### PrepareIntegerListStatement Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,8 +1,4 @@
-﻿     FChoice.Foundation.Clarify.Workflow Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Foundation.Clarify.Workflow Namespace
+﻿### FChoice.Foundation.Clarify.Workflow Namespace
 
 Classes
 
@@ -17,8 +13,6 @@ Enumerations
 |   | Enumeration | Description |
 | --- | --- | --- |
 | ![Enumeration](dotnetimages/Enumeration.png) | [AttachmentFolderMode](fcSDK~FChoice.Foundation.Clarify.Workflow.AttachmentFolderMode.md) |   |
-
-
 
 #### Reference
 

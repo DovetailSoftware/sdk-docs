@@ -8,7 +8,7 @@ Length of time required to do the work, in seconds
 
 Create a Depot Repair Labor to be performed on a Part. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

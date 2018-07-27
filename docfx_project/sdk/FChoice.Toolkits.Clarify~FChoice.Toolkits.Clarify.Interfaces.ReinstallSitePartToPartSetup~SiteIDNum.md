@@ -2,7 +2,7 @@
 
 Identifier of the Site where the Site Part will be re-installed
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

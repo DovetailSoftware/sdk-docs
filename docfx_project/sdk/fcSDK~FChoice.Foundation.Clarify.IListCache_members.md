@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [IListCache](fcSDK~FChoice.Foundation.Clarify.IListCache.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -13,7 +13,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

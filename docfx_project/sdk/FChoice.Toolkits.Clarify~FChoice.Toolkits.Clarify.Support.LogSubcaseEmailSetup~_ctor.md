@@ -4,7 +4,7 @@ Identifier of the Subcase against which the email is being logged.
 
 Initializes a new instance of the LogSubcaseEmailSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Reject-forward the Quote from one queue to another. This overload takes a set of
 
 Reject-forward the Quote from one queue to another.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ForwardQuote(ForwardQuoteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ForwardQuote(ForwardQuoteSetup).md) | Reject-forward the Quote from one queue to another. This overload takes a setup object.   |
 | [ForwardQuote(ForwardQuoteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ForwardQuote(ForwardQuoteSetup,IDbTransaction).md) | Reject-forward the Quote from one queue to another. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Quote must be in open condition, and not currently dispatched to a queue.
 

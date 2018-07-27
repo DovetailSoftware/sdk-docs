@@ -4,7 +4,7 @@ The name of the GBST/Application Pop-up list
 
 Gets the default string value for a given application pop-up list.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The name of the GBST/Application Pop-up list
 
 The default value for this GBST/Application Pop-up list
 
-Remarks
+#### Remarks
 
 If the no list exists with the specified _listTitle_, an exception will be thrown.
 

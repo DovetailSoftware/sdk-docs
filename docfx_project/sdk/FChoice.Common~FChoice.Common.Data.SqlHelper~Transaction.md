@@ -1,6 +1,6 @@
 ﻿### Transaction Property (SqlHelper)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

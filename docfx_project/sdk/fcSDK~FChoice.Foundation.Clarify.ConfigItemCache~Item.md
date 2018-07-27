@@ -1,6 +1,6 @@
 ﻿### Item Property (ConfigItemCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

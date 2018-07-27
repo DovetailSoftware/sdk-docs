@@ -2,7 +2,7 @@
 
 Gets the current command text that will be executed when the [Execute Method](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~Execute.md) is called
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public StringBuilder CommandText {get;}
 
 The current command text that will be executed when the [Execute Method](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~Execute.md) is called or a concatenation of all statements that were executed during calls to the [AddStatement Method](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~AddStatement.md) if the provider does not support batching
 
-Remarks
+#### Remarks
 
 Calls to the [AddStatement Method](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~AddStatement.md) will modify the value of this property. Statements cannot be removed or changed once they are added. The batch must be discarded and rebuilt in order to change any of the statements.
 

@@ -1,6 +1,6 @@
 ﻿### LogSubcaseInternalNoteSetup Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Creates a new instance of SqlHelper using the default [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

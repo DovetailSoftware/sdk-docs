@@ -4,7 +4,7 @@ Creates an Interaction in Clarify. This overload takes a set of required paramet
 
 Creates an Interaction in Clarify.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [CreateInteraction(CreateInteractionSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateInteraction(CreateInteractionSetup).md) | Creates an Interaction in Clarify. This overload takes a setup object.   |
 | [CreateInteraction(CreateInteractionSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateInteraction(CreateInteractionSetup,IDbTransaction).md) | Creates an Interaction in Clarify. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 An interaction stores information on communications with Contacts.
 

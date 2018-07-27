@@ -2,7 +2,7 @@
 
 The number of units to charge against the contract for the Case.  If the Case has no contract, this field must be 0.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

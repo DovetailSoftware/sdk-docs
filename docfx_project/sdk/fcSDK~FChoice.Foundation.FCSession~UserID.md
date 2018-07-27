@@ -2,7 +2,7 @@
 
 Returns the unique identifier for the session's logged-in user.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

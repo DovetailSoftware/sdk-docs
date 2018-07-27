@@ -1,6 +1,6 @@
 ﻿### GetCounter Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

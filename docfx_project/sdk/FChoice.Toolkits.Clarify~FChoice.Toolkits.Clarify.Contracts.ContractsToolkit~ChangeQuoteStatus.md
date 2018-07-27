@@ -4,7 +4,7 @@ Causes the specified quote to have its status changed. This overload takes a set
 
 Causes the specified quote to have its status changed.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ChangeQuoteStatus(ChangeQuoteStatusSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~ChangeQuoteStatus(ChangeQuoteStatusSetup).md) | Causes the specified quote to have its status changed. This overload takes a setup object.   |
 | [ChangeQuoteStatus(ChangeQuoteStatusSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~ChangeQuoteStatus(ChangeQuoteStatusSetup,IDbTransaction).md) | Causes the specified quote to have its status changed. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The quote may be in any valid condition, but the status selected MUST be valid for the current condition. In other words, you cannot assign an Active Contract condition status to a quote that is currently in Quote condition.
 

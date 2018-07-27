@@ -2,7 +2,7 @@
 
 The number of units for this line item.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Capacity Property (IHierarchicalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### DefaultElement Property (IHierarchicalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

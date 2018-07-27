@@ -1,6 +1,6 @@
 ﻿### IsReadOnly Property (ValidatedNameCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

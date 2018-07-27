@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

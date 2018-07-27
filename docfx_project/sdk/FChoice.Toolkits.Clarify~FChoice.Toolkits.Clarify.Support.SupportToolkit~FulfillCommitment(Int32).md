@@ -4,7 +4,7 @@ Log Objid of the log to be fulfilled.
 
 Fulfills a previously unfulfilled commitment. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

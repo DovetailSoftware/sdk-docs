@@ -6,7 +6,7 @@ Site Identifier.
 
 Changes the Site of a Case. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ Site Identifier.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 Any related Site Parts and Contracts for the Case are unrelated.
 

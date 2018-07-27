@@ -2,7 +2,7 @@
 
 Estimated amount of time, in seconds, required to perform the work.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

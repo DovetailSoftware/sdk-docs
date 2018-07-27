@@ -6,7 +6,7 @@ Text of the Workaround.
 
 Add a new Workaround to an existing Solution. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Is the Employee currently active?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

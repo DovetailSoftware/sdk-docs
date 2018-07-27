@@ -6,7 +6,7 @@ The new sales stage for the Opportunity.
 
 Initializes a new instance of the ChangeOpportunityStageSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

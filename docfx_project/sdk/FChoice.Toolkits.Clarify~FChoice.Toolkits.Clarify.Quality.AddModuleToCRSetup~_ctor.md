@@ -6,7 +6,7 @@ Name of the file related to the fix.
 
 Initializes a new instance of the AddModuleToCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

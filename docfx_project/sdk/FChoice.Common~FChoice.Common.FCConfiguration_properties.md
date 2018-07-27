@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [FCConfiguration members](FChoice.Common~FChoice.Common.FCConfiguration_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 The title of the Contract.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

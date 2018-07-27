@@ -2,7 +2,7 @@
 
 Default culture of the user session.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Shared ReadOnly DefaultCulture As CultureInfo
 public static readonly CultureInfo DefaultCulture
 ```
 
-Remarks
+#### Remarks
 
 This currently defaults to the [InstalledUICulture](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemGlobalizationCultureInfoClassInstalledUICultureTopic.htm).
 

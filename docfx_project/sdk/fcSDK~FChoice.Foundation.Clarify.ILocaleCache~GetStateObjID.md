@@ -1,6 +1,6 @@
 ﻿### GetStateObjID Method (ILocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

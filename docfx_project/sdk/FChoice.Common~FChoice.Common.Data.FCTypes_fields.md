@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [FCTypes members](FChoice.Common~FChoice.Common.Data.FCTypes_members.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |

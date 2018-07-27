@@ -1,6 +1,6 @@
 ﻿### Create Method (StateManagerSectionHandler)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

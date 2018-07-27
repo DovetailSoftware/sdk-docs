@@ -2,7 +2,7 @@
 
 Used by the [ReopenSubcase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ReopenSubcase(ReopenSubcaseSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class ReopenSubcaseSetup
 public class ReopenSubcaseSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup**  

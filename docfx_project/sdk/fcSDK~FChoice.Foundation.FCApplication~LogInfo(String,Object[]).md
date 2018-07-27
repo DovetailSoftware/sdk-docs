@@ -1,10 +1,6 @@
-﻿     LogInfo(String,Object\[\]) Method                                                   
+﻿### LogInfo(String,Object\[\]) Method
 
-fcSDK Documentation
-
-LogInfo(String,Object\[\]) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,10 +1,6 @@
-﻿     FChoice.Foundation.Clarify.Schema Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Foundation.Clarify.Schema Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Foundation.Clarify.Schema Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.Clarify.Schema.RestrictionClause](fcSDK~FChoice.Foundation.Clarify.Schema.RestrictionClause.md)  
@@ -29,8 +25,6 @@ System.Object
          [FChoice.Foundation.Clarify.Schema.SchemaViewCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewCollection.md)  
          [FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfoCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfoCollection.md)  
          [FChoice.Foundation.Clarify.Schema.SchemaViewJoinCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewJoinCollection.md)  
-
-
 
 #### Reference
 

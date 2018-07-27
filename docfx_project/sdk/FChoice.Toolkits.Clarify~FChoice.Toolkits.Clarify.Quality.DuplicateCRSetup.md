@@ -2,7 +2,7 @@
 
 Used by the [DuplicateCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~DuplicateCR(DuplicateCRSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class DuplicateCRSetup
 public class DuplicateCRSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup**  

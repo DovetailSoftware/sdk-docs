@@ -2,7 +2,7 @@
 
 Queue where the CR will be dispatched.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

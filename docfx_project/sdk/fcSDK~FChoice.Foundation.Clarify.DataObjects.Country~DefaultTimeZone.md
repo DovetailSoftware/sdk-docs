@@ -1,6 +1,6 @@
 ﻿### DefaultTimeZone Property (Country)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

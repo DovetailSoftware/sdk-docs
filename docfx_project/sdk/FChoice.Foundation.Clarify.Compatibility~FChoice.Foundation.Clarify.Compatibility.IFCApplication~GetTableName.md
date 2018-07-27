@@ -1,6 +1,6 @@
 ﻿### GetTableName Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

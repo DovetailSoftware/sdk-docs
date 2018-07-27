@@ -2,7 +2,7 @@
 
 This method is intended to be used internally by First Choice .NET products.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

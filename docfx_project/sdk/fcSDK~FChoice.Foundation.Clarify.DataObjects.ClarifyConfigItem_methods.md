@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ClarifyConfigItem members](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -6,7 +6,7 @@ The DateTime the ECO header becomes obsolete. If not set, the current time is u
 
 Initializes a new instance of the CreateEcoHeaderSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

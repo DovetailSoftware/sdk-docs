@@ -1,6 +1,6 @@
 ﻿### FreeConnection Method (FCSqlExec)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

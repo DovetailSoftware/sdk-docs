@@ -2,7 +2,7 @@
 
 Test case name for the Change Request closing
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

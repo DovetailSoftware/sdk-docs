@@ -2,7 +2,7 @@
 
 The part number for this line item.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Reopened Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

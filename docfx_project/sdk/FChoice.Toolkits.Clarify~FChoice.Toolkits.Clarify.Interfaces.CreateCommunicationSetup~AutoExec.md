@@ -2,7 +2,7 @@
 
 Indicator for user or automatic execution ([CommunicationAutoExec](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAutoExec.md)).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

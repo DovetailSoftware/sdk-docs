@@ -1,6 +1,6 @@
 ﻿### LocalTimeZoneOffset Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

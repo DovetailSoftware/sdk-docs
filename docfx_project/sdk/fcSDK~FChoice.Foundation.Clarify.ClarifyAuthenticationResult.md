@@ -1,10 +1,6 @@
 ﻿### ClarifyAuthenticationResult Class
 
-fcSDK Documentation
-
-ClarifyAuthenticationResult Class
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +12,7 @@ Public Class ClarifyAuthenticationResult
 public class ClarifyAuthenticationResult 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.ClarifyAuthenticationResult**  

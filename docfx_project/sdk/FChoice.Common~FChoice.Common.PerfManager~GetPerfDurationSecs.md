@@ -4,7 +4,7 @@ The number of ticks representing a point in time from which this duration starte
 
 Returns the number of seconds that have elapsed since a specified time
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

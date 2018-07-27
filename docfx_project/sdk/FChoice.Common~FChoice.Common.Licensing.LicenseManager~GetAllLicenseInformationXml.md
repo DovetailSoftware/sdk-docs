@@ -1,6 +1,6 @@
 ﻿### GetAllLicenseInformationXml Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [SplitMethodAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.SplitMethodAttribute_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

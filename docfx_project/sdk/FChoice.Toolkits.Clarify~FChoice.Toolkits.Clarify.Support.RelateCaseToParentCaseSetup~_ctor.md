@@ -6,7 +6,7 @@ Identifier of a oarent Case in the relation.
 
 Initializes a new instance of the RelateCaseToParentCaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

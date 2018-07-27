@@ -6,7 +6,7 @@ Causes the specified part request to be shipped.
 
 This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the ship_parts record.
 
-Remarks
+#### Remarks
 
 By default, all the shipping information parameters will default to the Part Request Header's shipping site and contact information. 
 

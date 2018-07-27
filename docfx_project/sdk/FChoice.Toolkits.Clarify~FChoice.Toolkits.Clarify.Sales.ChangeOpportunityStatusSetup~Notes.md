@@ -2,7 +2,7 @@
 
 Notes about the Opportunity status change.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

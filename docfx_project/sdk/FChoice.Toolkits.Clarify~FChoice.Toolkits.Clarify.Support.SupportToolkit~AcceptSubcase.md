@@ -4,7 +4,7 @@ Accept the specified Subcase from the queue in which it is currently dispatched.
 
 Accept the specified Subcase from the queue in which it is currently dispatched.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AcceptSubcase(AcceptSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AcceptSubcase(AcceptSubcaseSetup).md) | Accept the specified Subcase from the queue in which it is currently dispatched. This overload takes a setup object.   |
 | [AcceptSubcase(AcceptSubcaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AcceptSubcase(AcceptSubcaseSetup,IDbTransaction).md) | Accept the specified Subcase from the queue in which it is currently dispatched. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Subcase must be currently dispatched to a queue.
 

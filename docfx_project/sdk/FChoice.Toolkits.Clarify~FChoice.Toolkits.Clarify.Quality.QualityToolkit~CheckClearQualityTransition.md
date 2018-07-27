@@ -4,7 +4,7 @@ Determine if a user can change status from an old condition/status to a new cond
 
 Determine if a user can change status from an old condition/status to a new condition/status.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [CheckClearQualityTransition(CheckClearQualityTransitionSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~CheckClearQualityTransition(CheckClearQualityTransitionSetup).md) | Determine if a user can change status from an old condition/status to a new condition/status. This overload takes a setup object.   |
 | [CheckClearQualityTransition(CheckClearQualityTransitionSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~CheckClearQualityTransition(CheckClearQualityTransitionSetup,IDbTransaction).md) | Determine if a user can change status from an old condition/status to a new condition/status. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 Checks the transitions as set up in Clarify’s Policies & Customers.
 

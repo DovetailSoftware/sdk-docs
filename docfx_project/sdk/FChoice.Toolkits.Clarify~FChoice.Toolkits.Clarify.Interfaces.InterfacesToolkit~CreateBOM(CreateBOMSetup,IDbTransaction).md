@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Creates a Bill Of Materials (BOM) for a Part Revision. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

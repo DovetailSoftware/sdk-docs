@@ -2,7 +2,7 @@
 
 Description of the ECO material detail
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

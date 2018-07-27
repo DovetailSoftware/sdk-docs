@@ -2,7 +2,7 @@
 
 Used by the [DeleteAppointment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DeleteAppointment(DeleteAppointmentSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class DeleteAppointmentSetup
 public class DeleteAppointmentSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.DeleteAppointmentSetup**  

@@ -2,7 +2,7 @@
 
 Gets a reference to the [LocaleCache](fcSDK~FChoice.Foundation.Clarify.LocaleCache.md) which provides access to city/state/country/time zone information.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public ILocaleCache LocaleCache {get;}
 
 A reference to the [LocaleCache](fcSDK~FChoice.Foundation.Clarify.LocaleCache.md)
 
-Remarks
+#### Remarks
 
 See the documentation for [LocaleCache](fcSDK~FChoice.Foundation.Clarify.LocaleCache.md) for more information on how to access and work with locale information in FCFL.NET.
 

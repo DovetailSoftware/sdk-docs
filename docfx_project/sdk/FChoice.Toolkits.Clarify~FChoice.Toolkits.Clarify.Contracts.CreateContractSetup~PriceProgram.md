@@ -2,7 +2,7 @@
 
 The title of the Price Program for this Contract. If not set, then "US Std Price List" will be used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

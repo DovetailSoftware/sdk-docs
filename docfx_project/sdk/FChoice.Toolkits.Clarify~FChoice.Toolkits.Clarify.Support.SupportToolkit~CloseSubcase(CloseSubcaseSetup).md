@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Closes the specified Subcase. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The newly created CloseCase object.
 
-Remarks
+#### Remarks
 
 The Subcase must be in open condition.
 

@@ -1,6 +1,6 @@
 ﻿### CompatibilityApplicationClock Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class CompatibilityApplicationClock
 public class CompatibilityApplicationClock : [IApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.md) 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.CompatibilityApplicationClock**  

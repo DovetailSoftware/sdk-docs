@@ -4,7 +4,7 @@ Title of the WipBin
 
 Create a WipBin. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

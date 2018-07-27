@@ -1,6 +1,6 @@
 ﻿### IsString Method (ISchemaField)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

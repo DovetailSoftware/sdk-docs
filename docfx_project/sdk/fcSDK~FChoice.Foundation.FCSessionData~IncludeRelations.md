@@ -2,7 +2,7 @@
 
 Session option that cues [Generics](fcSDK~FChoice.Foundation.FCGeneric.md) to include all relation data fields during [Queries](fcSDK~FChoice.Foundation.FCGeneric~Query.md)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

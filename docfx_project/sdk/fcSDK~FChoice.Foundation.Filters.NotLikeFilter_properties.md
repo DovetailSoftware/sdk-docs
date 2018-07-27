@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [NotLikeFilter members](fcSDK~FChoice.Foundation.Filters.NotLikeFilter_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 Notes to be added as Internal Use Only notes on the Lead Note Log.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Captured non-billable expenses (Case time logs only)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

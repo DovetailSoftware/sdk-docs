@@ -2,7 +2,7 @@
 
 Objid of the parent Bin this Part will be installed under
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

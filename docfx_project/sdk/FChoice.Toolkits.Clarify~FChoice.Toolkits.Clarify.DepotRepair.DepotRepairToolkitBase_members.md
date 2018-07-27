@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [DepotRepairToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkitBase.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

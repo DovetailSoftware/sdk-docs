@@ -8,7 +8,7 @@ Objid of the parent Site Part this Part will be re-installed under.
 
 Initializes a new instance of the ReinstallSitePartToPartSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

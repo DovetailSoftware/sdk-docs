@@ -2,7 +2,7 @@
 
 Type of Pricing being used for the Price Instance
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Members
 | **PercentOfOptionList** |   |
 | **PercentOfProduct** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

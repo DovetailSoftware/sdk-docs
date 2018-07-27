@@ -1,6 +1,6 @@
 ﻿### SupportedLocales Method (IStringCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

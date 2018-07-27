@@ -1,6 +1,6 @@
 ﻿### DoesOracleColumnExist Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

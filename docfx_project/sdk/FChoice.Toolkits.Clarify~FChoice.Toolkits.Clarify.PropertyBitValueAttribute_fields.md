@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [PropertyBitValueAttribute members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute_members.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |

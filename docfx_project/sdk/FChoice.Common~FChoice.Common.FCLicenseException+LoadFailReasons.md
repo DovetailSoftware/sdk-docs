@@ -2,7 +2,7 @@
 
 LoadFailReasons is used by [FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseException.md) to provide a specific reason why license procurement failed for the product.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,11 +26,11 @@ Members
 | **MissingSiteId** | The license requested does not contain a valid site ID. |
 | **MissingTables** | The license tables required by First Choice Licensing are not installed in the database. |
 
-Remarks
+#### Remarks
 
 If you encounter an [FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseException.md) during operation of a First Choice product, please contact First Choice support immediately at [support@fchoice.com](mailto:support@fchoice.com).
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

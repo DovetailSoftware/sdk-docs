@@ -10,7 +10,7 @@ The number of parts being backordered for this Part Request
 
 Allows for the backordering of inventory parts for a part request. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -54,7 +54,7 @@ The number of parts being backordered for this Part Request
 
 A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 As in base Clarify, if a partial backorder is performed, the part request is broken up into two new part requests. The first is for the backorder (and the quantities are changed). The new part request will be created to hold the rest of the units that did not get backordered.
 

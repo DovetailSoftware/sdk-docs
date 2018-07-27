@@ -4,7 +4,7 @@ The title of the Contract.
 
 Initializes a new instance of the CreateContractSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

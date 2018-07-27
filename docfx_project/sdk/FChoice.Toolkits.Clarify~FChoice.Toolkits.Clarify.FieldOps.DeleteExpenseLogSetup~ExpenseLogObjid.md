@@ -2,7 +2,7 @@
 
 The Objid of the Expense Log being deleted.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

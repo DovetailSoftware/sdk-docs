@@ -8,7 +8,7 @@ Name of the Site's role being removed from the Account
 
 Initializes a new instance of the RemoveSiteFromAccountSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

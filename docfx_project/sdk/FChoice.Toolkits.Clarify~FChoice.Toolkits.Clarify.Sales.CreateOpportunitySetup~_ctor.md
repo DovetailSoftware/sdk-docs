@@ -8,7 +8,7 @@ Probability of opportunity close.
 
 Initializes a new instance of the CreateOpportunitySetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

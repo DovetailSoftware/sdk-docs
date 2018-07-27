@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [FCNotLoggedInException members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCNotLoggedInException_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

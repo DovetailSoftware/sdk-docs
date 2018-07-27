@@ -1,6 +1,6 @@
 ﻿### GraceEventsRemaining Property (ILicenseInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

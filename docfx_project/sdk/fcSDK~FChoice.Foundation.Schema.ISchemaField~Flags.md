@@ -1,6 +1,6 @@
 ﻿### Flags Property (ISchemaField)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

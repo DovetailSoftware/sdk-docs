@@ -1,6 +1,6 @@
 ﻿### Ordinal Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

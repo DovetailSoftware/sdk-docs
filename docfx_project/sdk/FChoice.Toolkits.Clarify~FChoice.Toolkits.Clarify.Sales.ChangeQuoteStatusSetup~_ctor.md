@@ -4,7 +4,7 @@ Quote Identifier.
 
 Initializes a new instance of the ChangeQuoteStatusSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### ParameterReadOnlyAttribute Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ Public Class ParameterReadOnlyAttribute
 public class ParameterReadOnlyAttribute : System.Attribute
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Attribute  

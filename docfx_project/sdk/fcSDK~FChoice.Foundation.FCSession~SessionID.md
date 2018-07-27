@@ -2,7 +2,7 @@
 
 Returns the session's unique identifier.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public Guid SessionID {get;}
 
 Returns the session's unique identifier.
 
-Remarks
+#### Remarks
 
 This identifier is used to re-use a session that has already been created via [GetSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~GetSession.md)
 

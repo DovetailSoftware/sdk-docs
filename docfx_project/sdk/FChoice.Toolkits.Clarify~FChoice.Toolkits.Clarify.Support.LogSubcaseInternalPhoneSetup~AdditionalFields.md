@@ -1,6 +1,6 @@
 ﻿### AdditionalFields Property (LogSubcaseInternalPhoneSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

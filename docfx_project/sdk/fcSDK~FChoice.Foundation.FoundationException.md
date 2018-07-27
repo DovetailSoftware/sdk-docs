@@ -2,7 +2,7 @@
 
 The exception that is thrown when an error occurs in Foundation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,7 +17,7 @@ Public Class FoundationException
 public class FoundationException : FChoice.Common.FCExceptionBase 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Exception  

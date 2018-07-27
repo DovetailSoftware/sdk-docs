@@ -1,6 +1,6 @@
 ﻿### GetSession Method (IClarifyApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

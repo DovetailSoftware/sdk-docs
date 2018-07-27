@@ -2,7 +2,7 @@
 
 Notes concerning the contract
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

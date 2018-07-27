@@ -2,7 +2,7 @@
 
 The quantity of the part for the Price Instance. If not set, it will default to a zero price quantity.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

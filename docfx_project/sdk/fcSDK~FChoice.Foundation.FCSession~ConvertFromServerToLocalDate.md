@@ -4,7 +4,7 @@ date to convert
 
 Converts a DateTime from the [server timezone](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~ServerTimeZone.md) to the [session timezone](fcSDK~FChoice.Foundation.FCSession~LocalTimeZone.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

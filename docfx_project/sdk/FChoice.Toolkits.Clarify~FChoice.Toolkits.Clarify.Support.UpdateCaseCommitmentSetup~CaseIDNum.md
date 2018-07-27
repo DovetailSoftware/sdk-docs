@@ -2,7 +2,7 @@
 
 Identifier of the Case.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

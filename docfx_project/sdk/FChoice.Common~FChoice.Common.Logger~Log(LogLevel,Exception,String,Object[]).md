@@ -10,7 +10,7 @@ Arguments to use in replacing variables in the **_format_** string.
 
 Writes a log entry with the specified level (if logging for that level is enabled) with details about an exception that was caught.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -50,7 +50,7 @@ _args_
 
 Arguments to use in replacing variables in the **_format_** string.
 
-Remarks
+#### Remarks
 
 For details of how string formatting works, please see the details of the [String.Format](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemstringclassformattopic.htm) method.
 

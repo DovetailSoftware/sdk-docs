@@ -6,7 +6,7 @@ One or more element titles which define the level in the list to retrieve
 
 Gets the title of the default element for the given level in a user-defined list (HGBST).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ One or more element titles which define the level in the list to retrieve
 
 The title of the default element for the given level in the specified user-defined list
 
-Remarks
+#### Remarks
 
 If the specified _listTitle_ or any of the elements specified _elementTitles_ does not exist, an exception will be thrown.
 

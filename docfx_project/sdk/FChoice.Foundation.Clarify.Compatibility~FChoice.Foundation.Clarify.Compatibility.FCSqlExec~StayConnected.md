@@ -1,6 +1,6 @@
 ﻿### StayConnected Property (FCSqlExec)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Username of the user being added to the Queue.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The Login Name of user creating the dialogue.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

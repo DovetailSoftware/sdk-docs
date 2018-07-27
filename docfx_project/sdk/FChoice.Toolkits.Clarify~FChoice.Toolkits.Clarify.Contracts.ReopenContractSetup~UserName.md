@@ -2,7 +2,7 @@
 
 The user who is reopening the Contract. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

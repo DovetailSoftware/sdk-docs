@@ -2,7 +2,7 @@
 
 Wait time for the Interaction
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

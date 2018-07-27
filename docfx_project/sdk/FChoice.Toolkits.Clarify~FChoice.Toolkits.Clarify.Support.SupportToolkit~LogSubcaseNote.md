@@ -4,7 +4,7 @@ Creates a note log against a Subcase. This overload takes a set of required para
 
 Creates a note log against a Subcase.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [LogSubcaseNote(LogSubcaseNoteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubcaseNote(LogSubcaseNoteSetup).md) | Creates a note log against a Subcase. This overload takes a setup object.   |
 | [LogSubcaseNote(LogSubcaseNoteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubcaseNote(LogSubcaseNoteSetup,IDbTransaction).md) | Creates a note log against a Subcase. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup~IsCommitmentToCustomer.md) properties
 

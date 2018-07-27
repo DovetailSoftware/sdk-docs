@@ -1,6 +1,6 @@
 ﻿### RemoveState Method (RemoteStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

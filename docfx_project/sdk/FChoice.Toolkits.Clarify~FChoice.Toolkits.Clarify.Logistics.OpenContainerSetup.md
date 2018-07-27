@@ -1,6 +1,6 @@
 ﻿### OpenContainerSetup Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class OpenContainerSetup
 public class OpenContainerSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Logistics.OpenContainerSetup**  

@@ -1,6 +1,6 @@
 ﻿### RelationFlags Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

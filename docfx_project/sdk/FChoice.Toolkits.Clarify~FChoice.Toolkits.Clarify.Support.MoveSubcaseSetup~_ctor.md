@@ -6,7 +6,7 @@ The new WipBin into which the Subcase is to be moved.
 
 Initializes a new instance of the MoveSubcaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

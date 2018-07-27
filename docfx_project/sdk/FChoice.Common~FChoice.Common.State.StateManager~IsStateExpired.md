@@ -1,6 +1,6 @@
 ﻿### IsStateExpired Method (StateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

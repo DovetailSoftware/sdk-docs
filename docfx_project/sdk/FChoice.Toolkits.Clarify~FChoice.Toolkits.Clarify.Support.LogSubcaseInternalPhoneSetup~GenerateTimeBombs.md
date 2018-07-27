@@ -1,6 +1,6 @@
 ﻿### GenerateTimeBombs Property (LogSubcaseInternalPhoneSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

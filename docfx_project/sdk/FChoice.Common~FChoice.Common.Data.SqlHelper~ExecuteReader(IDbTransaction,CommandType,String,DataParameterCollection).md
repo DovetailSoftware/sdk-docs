@@ -1,6 +1,6 @@
 ﻿### ExecuteReader(IDbTransaction,CommandType,String,DataParameterCollection) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

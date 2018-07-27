@@ -1,6 +1,6 @@
 ﻿### Connection Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

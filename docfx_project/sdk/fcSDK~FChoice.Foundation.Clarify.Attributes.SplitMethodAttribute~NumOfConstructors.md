@@ -1,6 +1,6 @@
 ﻿### NumOfConstructors Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

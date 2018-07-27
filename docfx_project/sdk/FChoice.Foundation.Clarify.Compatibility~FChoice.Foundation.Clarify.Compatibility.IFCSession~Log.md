@@ -1,6 +1,6 @@
 ﻿### Log Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

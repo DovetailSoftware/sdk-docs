@@ -1,8 +1,4 @@
-﻿     FChoice.Foundation.Clarify.Attributes Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Foundation.Clarify.Attributes Namespace
+﻿### FChoice.Foundation.Clarify.Attributes Namespace
 
 Classes
 

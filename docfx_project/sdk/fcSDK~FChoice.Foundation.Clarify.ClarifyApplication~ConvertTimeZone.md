@@ -2,7 +2,7 @@
 
 Gets or sets whether or not to perform time zone conversions when operating with date/time values
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public bool ConvertTimeZone {get; set;}
 
 Whether or not to perform time zone conversions when operating with date/time values
 
-Remarks
+#### Remarks
 
 This value is true by default.
 

@@ -1,6 +1,6 @@
 ﻿### ParameterRequiredAttribute Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ Public Class ParameterRequiredAttribute
 public class ParameterRequiredAttribute : System.Attribute
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Attribute  

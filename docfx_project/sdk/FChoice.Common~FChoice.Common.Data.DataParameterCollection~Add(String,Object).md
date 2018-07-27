@@ -6,7 +6,7 @@ The value of the parameter that will be passed to the database as part of the qu
 
 Adds a parameter to this collection for use as a bind variable in the SQL statement.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ The value of the parameter that will be passed to the database as part of the qu
 
 The index in the collection at which the new parameters was added.
 
-Remarks
+#### Remarks
 
 This method will create a new instance of an [IDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidataparameterclasstopic.htm) of the underlying type that matches the data provider specified by the default [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md), or the one passed into the constructor. For example, if the data provider is Microsoft SQL Server, this method will add a SqlParameter to the collection.
 

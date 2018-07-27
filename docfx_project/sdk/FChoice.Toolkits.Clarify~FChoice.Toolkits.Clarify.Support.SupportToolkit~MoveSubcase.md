@@ -4,7 +4,7 @@ Move the Subcase from one WipBin to another WipBin. This overload takes a set of
 
 Move the Subcase from one WipBin to another WipBin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [MoveSubcase(MoveSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~MoveSubcase(MoveSubcaseSetup).md) | Move the Subcase from one WipBin to another WipBin. This overload takes a setup object.   |
 | [MoveSubcase(MoveSubcaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~MoveSubcase(MoveSubcaseSetup,IDbTransaction).md) | Move the Subcase from one WipBin to another WipBin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The new WipBin must belong to the same user as the first WipBin. The move operation does not change the ownership of the Subcase, nor is an activity log or time bomb generated for the action.
 

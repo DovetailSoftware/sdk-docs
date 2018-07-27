@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Creates a new Case by using know Objids of dependencies to keep from making additional database round trips to look up the Objids. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Views Property (ISchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

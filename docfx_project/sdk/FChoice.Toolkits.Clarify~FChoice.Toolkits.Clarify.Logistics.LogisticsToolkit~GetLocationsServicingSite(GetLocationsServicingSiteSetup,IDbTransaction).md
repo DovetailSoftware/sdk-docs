@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Returns a list of the locations (in the proper order) servicing this site. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Gets an object that can be used to synchronize access to LogManager.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

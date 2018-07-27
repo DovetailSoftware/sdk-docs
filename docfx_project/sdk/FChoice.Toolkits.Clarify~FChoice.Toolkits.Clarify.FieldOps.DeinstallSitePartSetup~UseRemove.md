@@ -2,7 +2,7 @@
 
 Specifies if activity entry records should be set to "Remove" (true) or "De-Installed" (false).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

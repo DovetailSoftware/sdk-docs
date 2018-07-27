@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Create an Employee in Clarify This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -33,7 +33,7 @@ The following values are populated in the CreateEmployeeResult object returned b
 *   EmployeeObjid \- Objid of the Employee record created.
 *   UserObjid \- Objid of the User record created.
 
-Remarks
+#### Remarks
 
 Also creates a user login for the database system tables as required by Clarify.
 

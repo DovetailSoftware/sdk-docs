@@ -4,7 +4,7 @@ Creates a new Case by using know Objids of dependencies to keep from making addi
 
 Creates a new Case by using know Objids of dependencies to keep from making additional database round trips to look up the Objids.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

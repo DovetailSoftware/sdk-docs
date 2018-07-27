@@ -4,7 +4,7 @@ The set of keys and values that will make up the connection string where key and
 
 Constructs a valid ADO.NET-compliant connection string from the supplied key/value pairs.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

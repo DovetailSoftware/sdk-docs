@@ -2,7 +2,7 @@
 
 DateTime the CR was reopened. If not set, the current date time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

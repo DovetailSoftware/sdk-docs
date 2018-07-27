@@ -1,6 +1,6 @@
 ﻿### CheckIsNullErrorNumber Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

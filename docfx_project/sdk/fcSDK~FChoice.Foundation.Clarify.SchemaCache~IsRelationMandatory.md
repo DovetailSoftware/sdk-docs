@@ -1,6 +1,6 @@
 ﻿### IsRelationMandatory Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

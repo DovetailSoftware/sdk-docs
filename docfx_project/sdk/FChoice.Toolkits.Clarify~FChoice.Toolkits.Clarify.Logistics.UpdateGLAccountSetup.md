@@ -2,7 +2,7 @@
 
 Used by the [UpdateGLAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateGLAccount(UpdateGLAccountSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UpdateGLAccountSetup
 public class UpdateGLAccountSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup**  

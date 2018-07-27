@@ -8,7 +8,7 @@ Allow for the updating of part request details.
 
 This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

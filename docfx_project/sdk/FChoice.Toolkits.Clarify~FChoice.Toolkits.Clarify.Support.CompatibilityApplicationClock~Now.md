@@ -1,6 +1,6 @@
 ﻿### Now Property (CompatibilityApplicationClock)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

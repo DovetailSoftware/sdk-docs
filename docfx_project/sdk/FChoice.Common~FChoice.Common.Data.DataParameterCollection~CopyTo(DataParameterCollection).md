@@ -4,7 +4,7 @@ The destination parameter collection which will receive the contents of this par
 
 Copies the parameters in this collection to the specified collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _otherCol_
 
 The destination parameter collection which will receive the contents of this parameter collection.
 
-Remarks
+#### Remarks
 
 This method performs a shallow copy. That is, each element is **NOT** cloned, but a reference to the same parameter is copied into the destination collection.
 

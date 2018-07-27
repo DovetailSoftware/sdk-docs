@@ -2,7 +2,7 @@
 
 The DateTime the warranty begins for the Site Part.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

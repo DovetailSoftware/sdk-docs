@@ -8,7 +8,7 @@ A collection of parameters to use as replacements for the parameterized sections
 
 Executes the the specified parameterized SQL command with the specified parameters against the database using the default [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) and returns the results as a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -46,7 +46,7 @@ A collection of parameters to use as replacements for the parameterized sections
 
 A [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm) with zero or more [DataTable](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatatableclasstopic.htm) objects each containing zero or more rows.
 
-Remarks
+#### Remarks
 
 The parameters in the _commandParams_ parameter must be in the same ordinal number as the parameters specified in the _commandText_ parameter. For example, if the "nameVal" parameter is to replace the _{0}_ parameter in the _commandText_, it must be the first (zero position) parameter in the _commandParams_ collection.
 

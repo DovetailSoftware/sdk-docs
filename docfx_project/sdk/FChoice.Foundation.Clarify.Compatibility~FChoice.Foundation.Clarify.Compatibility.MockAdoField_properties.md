@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [MockAdoField members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockAdoField_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

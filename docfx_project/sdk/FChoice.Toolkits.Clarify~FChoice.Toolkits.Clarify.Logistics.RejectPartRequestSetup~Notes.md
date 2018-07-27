@@ -2,7 +2,7 @@
 
 The reason the PartRequest was rejected from the queue into which it was dispatched.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

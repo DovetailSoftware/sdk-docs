@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [WorkFlowInfo members](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

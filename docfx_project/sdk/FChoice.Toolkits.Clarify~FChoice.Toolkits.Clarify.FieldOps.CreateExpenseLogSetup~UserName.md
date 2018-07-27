@@ -2,7 +2,7 @@
 
 The user who created the Expense Log. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

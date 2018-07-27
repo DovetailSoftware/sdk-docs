@@ -1,6 +1,6 @@
 ﻿### PartAuthorizationLevel Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -21,7 +21,7 @@ Members
 | **AuthorizedPartsOnly** |   |
 | **None** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

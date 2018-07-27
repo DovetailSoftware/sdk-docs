@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [FCSqlExec members](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 Used by the [AcceptPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AcceptPartRequest(AcceptPartRequestSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class AcceptPartRequestSetup
 public class AcceptPartRequestSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup**  

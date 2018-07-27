@@ -12,7 +12,7 @@ Identifier of the Subcase with which this Part Request is associated
 
 Initializes a new instance of the CreatePartRequestHeaderSubcaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

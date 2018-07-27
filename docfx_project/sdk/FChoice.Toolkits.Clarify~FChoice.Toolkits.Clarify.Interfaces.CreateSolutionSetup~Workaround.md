@@ -2,7 +2,7 @@
 
 Text of the first Workaround for the Solution.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

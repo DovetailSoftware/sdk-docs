@@ -4,7 +4,7 @@ Identifier of the Subcase being reopened.
 
 Initializes a new instance of the ReopenSubcaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

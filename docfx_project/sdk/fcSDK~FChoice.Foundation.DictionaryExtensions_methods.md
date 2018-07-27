@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [DictionaryExtensions members](fcSDK~FChoice.Foundation.DictionaryExtensions_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 ObjId of the Site Part to de-install
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

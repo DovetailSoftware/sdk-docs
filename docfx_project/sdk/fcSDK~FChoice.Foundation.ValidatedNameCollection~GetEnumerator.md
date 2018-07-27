@@ -1,6 +1,6 @@
 ﻿### GetEnumerator Method (ValidatedNameCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

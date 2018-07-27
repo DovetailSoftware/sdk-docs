@@ -1,6 +1,6 @@
 ﻿### CreateActivityEntryRow Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

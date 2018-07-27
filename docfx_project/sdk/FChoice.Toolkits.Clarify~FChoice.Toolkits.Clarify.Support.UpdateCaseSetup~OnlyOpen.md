@@ -2,7 +2,7 @@
 
 The OnlyOpen property, which defaults to true, is checked before updating the case.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

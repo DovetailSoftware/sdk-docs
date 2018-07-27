@@ -2,7 +2,7 @@
 
 Used by the [LogCaseCommitment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseCommitment(LogCaseCommitmentSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class LogCaseCommitmentSetup
 public class LogCaseCommitmentSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.LogCaseCommitmentSetup**  

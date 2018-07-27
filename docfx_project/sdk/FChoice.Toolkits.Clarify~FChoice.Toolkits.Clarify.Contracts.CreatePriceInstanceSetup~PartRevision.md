@@ -2,7 +2,7 @@
 
 The revision of the part for the Price Instance.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

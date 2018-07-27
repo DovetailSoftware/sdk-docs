@@ -2,7 +2,7 @@
 
 User login type
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

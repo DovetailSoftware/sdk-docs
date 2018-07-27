@@ -2,7 +2,7 @@
 
 This must be either 5148 to apply the ECO item to an ECO header, or 329 to apply the ECO item to a part revision.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

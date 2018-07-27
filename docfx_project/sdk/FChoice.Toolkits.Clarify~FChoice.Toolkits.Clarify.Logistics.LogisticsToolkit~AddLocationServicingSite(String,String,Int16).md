@@ -8,7 +8,7 @@ The rank of this inventory location at the associated site
 
 Used to relate sites to the inventory locations that service them. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

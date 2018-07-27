@@ -2,7 +2,7 @@
 
 Captured billable time.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### GetNextFileNameIgnoringExistence Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

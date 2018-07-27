@@ -6,7 +6,7 @@ Identifier of the 'master' CR this CR duplicates.
 
 Initializes a new instance of the DuplicateCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

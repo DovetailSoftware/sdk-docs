@@ -1,6 +1,6 @@
 ﻿### FacadePropertyAttribute Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ Public Class FacadePropertyAttribute
 public class FacadePropertyAttribute : System.Attribute
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Attribute  

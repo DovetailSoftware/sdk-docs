@@ -1,6 +1,6 @@
 ﻿### IsValidRelation Method (SchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

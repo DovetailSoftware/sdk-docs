@@ -2,7 +2,7 @@
 
 The DateTime the shipping occurs for the Site Part.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

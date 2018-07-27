@@ -1,6 +1,6 @@
 ﻿### StageInstallForInventoryBin Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

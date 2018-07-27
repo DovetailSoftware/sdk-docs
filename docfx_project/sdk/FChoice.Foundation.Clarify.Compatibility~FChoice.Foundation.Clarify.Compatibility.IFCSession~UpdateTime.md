@@ -1,6 +1,6 @@
 ### UpdateTime Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

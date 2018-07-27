@@ -1,6 +1,6 @@
 ﻿### CommitmentPriorWarning Property (LogSubcaseInternalPhoneSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

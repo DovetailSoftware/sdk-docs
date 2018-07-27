@@ -1,6 +1,6 @@
 ﻿### TextNumber Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

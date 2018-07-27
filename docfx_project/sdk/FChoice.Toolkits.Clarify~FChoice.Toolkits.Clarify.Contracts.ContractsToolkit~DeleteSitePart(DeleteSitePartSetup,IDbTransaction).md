@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to delete a site_part in Clarify, and then unrelate the site_part from all other related records. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### SchemaRevision Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

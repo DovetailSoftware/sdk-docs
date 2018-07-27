@@ -2,7 +2,7 @@
 
 Specifies whether this account is company owned (true) or customer owned (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

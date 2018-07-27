@@ -1,6 +1,6 @@
 ﻿### get_next_sn Method (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

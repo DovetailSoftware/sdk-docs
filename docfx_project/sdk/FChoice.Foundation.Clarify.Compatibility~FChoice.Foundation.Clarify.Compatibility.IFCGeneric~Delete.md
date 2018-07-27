@@ -1,6 +1,6 @@
 ﻿### Delete Method (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

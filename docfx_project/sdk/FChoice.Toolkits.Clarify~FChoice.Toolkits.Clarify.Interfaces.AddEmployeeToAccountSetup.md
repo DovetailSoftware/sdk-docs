@@ -2,7 +2,7 @@
 
 Used by the [AddEmployeeToAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AddEmployeeToAccount(AddEmployeeToAccountSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class AddEmployeeToAccountSetup
 public class AddEmployeeToAccountSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup**  

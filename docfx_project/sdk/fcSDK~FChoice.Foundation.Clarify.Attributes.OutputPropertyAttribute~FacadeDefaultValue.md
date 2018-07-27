@@ -1,6 +1,6 @@
 ﻿### FacadeDefaultValue Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

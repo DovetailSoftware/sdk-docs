@@ -2,7 +2,7 @@
 
 The serial number of the part being Received for this Part Request
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -16,7 +16,7 @@ The quantity of the part for the Price Instance. If not set, it will default to 
 
 Used to create a new price instance for a support program. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -80,7 +80,7 @@ The following values are populated in the ToolkitResult object returned by the A
 
 *   Objid \- Objid of the Price Instance record.
 
-Remarks
+#### Remarks
 
 You may specify the part for product based support programs, or leave it blank when creating price instances for either site or independent support programs.  If you do specify a part, you must include its domain and revision (mod level).
 

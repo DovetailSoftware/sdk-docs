@@ -2,7 +2,7 @@
 
 The number of units to install
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

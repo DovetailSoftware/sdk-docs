@@ -1,6 +1,6 @@
 ﻿### IsCountry Method (ILocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

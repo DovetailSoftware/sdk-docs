@@ -4,7 +4,7 @@ A valid ADO.NET connection string to parse (in the format of name=value;name2=va
 
 Parses a connection string into name-value pairs
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ A valid ADO.NET connection string to parse (in the format of name=value;name2=va
 
 A [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsSpecializedNameValueCollectionClassTopic.htm) of the name-value pairs contained in the connection string
 
-Remarks
+#### Remarks
 
 A trailing semi-colon is not required. For more information about the format of the connection string and possible parameters, please see the [SqlConnection.ConnectionString](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatasqlclientsqlconnectionclassconnectionstringtopic.htm) property documentation. Oracle and other connection strings follow the same general rules and expose most of the same parameters as a [SqlConnection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataSqlClientSqlConnectionClassTopic.htm) connection string.
 

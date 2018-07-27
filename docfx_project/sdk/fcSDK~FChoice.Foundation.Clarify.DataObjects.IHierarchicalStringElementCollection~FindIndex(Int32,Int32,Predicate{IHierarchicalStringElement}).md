@@ -1,6 +1,6 @@
 ﻿### FindIndex(Int32,Int32,Predicate<IHierarchicalStringElement>) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

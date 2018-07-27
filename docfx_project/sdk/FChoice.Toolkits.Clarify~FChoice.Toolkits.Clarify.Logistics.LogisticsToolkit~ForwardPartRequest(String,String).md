@@ -6,7 +6,7 @@ The new queue into which the PartRequest is to be forwarded.
 
 Reject-forward the PartRequest from one queue to another. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ The new queue into which the PartRequest is to be forwarded.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The PartRequest must be in open condition, and not currently dispatched to a queue.
 

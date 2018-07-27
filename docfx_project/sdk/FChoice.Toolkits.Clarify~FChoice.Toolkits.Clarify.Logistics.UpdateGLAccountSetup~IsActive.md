@@ -2,7 +2,7 @@
 
 Specifies whether this account is active (true) or inactive (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

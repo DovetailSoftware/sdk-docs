@@ -2,7 +2,7 @@
 
 Sets whether or not newly created generic objects will truncate string fields if they are too long.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

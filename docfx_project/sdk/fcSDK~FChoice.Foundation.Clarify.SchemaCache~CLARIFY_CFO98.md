@@ -1,6 +1,6 @@
 ﻿### CLARIFY_CFO98 Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

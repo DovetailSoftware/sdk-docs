@@ -1,6 +1,6 @@
 ﻿### TryIsFieldSearchable Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

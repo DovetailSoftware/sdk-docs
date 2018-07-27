@@ -1,6 +1,6 @@
 ﻿### RunRule(String,String,String,Boolean,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

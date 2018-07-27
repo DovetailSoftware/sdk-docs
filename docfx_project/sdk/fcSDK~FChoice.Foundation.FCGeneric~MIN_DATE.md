@@ -2,7 +2,7 @@
 
 Minimum possible date that is allowed to be entered for a date field.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

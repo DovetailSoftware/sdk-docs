@@ -2,7 +2,7 @@
 
 The text description of the ECO header.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

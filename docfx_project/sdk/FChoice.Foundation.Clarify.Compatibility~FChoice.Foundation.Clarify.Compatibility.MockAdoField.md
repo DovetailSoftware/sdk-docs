@@ -1,6 +1,6 @@
 ﻿### MockAdoField Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -21,7 +21,7 @@ Public Class MockAdoField
 public class MockAdoField : IMockAdoField  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.Compatibility.MockAdoField**  

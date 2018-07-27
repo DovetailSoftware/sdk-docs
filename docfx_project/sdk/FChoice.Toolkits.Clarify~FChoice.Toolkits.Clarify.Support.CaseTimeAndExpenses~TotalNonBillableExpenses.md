@@ -2,7 +2,7 @@
 
 Total billable expenses (closed Subcase and Case expense logs)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

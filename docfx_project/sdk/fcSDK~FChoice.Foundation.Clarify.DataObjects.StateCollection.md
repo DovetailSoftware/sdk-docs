@@ -1,6 +1,6 @@
 ﻿### StateCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

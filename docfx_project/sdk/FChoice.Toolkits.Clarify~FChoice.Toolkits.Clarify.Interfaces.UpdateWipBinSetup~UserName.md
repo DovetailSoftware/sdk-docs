@@ -2,7 +2,7 @@
 
 User the WipBin belongs to
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### EvaluateRule(String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### GetInstance Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

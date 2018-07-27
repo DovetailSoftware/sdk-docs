@@ -2,7 +2,7 @@
 
 The billing frequency of the Contract Schedule being created or updated.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -25,7 +25,7 @@ Members
 | **Quarterly** | Billed every quarter |
 | **SemiAnnual** | Billed twice annually |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

@@ -2,7 +2,7 @@
 
 Gets whether or not any columns in the Clarify database are flagged as supporting Unicode characters.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -20,7 +20,7 @@ public bool IsDbUnicode {get;}
 
 Whether or not any columns in the Clarify database are flagged as supporting Unicode characters.
 
-Remarks
+#### Remarks
 
 For more information on what constitutes a column that supports Unicode or how to configure your database to support unicode input, consult the FCFL.NET Installation and User guides.
 

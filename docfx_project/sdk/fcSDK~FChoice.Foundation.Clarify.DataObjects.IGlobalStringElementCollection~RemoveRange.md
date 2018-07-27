@@ -1,6 +1,6 @@
 ﻿### RemoveRange Method (IGlobalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

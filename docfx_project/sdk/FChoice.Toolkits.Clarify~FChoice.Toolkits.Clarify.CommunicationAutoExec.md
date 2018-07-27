@@ -1,6 +1,6 @@
 ﻿### CommunicationAutoExec Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -20,7 +20,7 @@ Members
 | **Automatic** |   |
 | **User** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

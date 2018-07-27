@@ -2,7 +2,7 @@
 
 The user creating the Labor entry. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

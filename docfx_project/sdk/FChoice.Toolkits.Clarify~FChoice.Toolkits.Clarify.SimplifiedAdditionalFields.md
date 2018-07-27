@@ -1,6 +1,6 @@
 ﻿### SimplifiedAdditionalFields Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class SimplifiedAdditionalFields
 public class SimplifiedAdditionalFields : [System.Collections.Generic.List<SimplifiedAdditionalField>](#) 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  

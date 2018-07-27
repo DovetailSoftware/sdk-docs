@@ -4,7 +4,7 @@ The GenericDataRow to add.
 
 Adds the specified GenericDataRow to the collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _row_
 
 The GenericDataRow to add.
 
-Remarks
+#### Remarks
 
 Add's implementation is delegated to DataRowCollection's [Add](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatarowcollectionclassaddtopic1.htm)
 

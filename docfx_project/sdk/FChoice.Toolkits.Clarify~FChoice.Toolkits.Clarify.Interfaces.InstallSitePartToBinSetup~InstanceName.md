@@ -2,7 +2,7 @@
 
 The instance name for the Site Part.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

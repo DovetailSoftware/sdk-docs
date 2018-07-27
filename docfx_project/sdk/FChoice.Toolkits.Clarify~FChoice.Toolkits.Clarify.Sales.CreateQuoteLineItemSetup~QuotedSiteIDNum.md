@@ -2,7 +2,7 @@
 
 Site Identifier for auto-install process.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

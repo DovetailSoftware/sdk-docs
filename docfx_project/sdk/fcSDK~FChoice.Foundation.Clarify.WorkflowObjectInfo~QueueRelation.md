@@ -1,6 +1,6 @@
 ﻿### QueueRelation Property (WorkflowObjectInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

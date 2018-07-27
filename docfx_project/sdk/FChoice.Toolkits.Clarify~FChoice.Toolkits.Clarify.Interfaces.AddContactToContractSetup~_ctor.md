@@ -12,7 +12,7 @@ Identifies the Site where the added Contact is located.
 
 Initializes a new instance of the AddContactToContractSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

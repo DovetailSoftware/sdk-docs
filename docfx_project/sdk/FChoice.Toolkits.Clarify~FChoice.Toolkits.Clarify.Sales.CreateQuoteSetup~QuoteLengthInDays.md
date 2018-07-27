@@ -2,7 +2,7 @@
 
 The number of days the Quote is valid.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

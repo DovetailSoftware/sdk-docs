@@ -4,7 +4,7 @@ The objid of the ECO item object to be deleted
 
 Delete an ECO Item. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Returns the login type of the logged-in user.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public int LoginType {get;}
 
 Returns the login type of the logged-in user.
 
-Remarks
+#### Remarks
 
 Login type is a CRM specific value.
 

@@ -1,6 +1,6 @@
 ﻿### ValueTypeRaw Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

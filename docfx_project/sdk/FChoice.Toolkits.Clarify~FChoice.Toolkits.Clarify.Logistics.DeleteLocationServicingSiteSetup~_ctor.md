@@ -6,7 +6,7 @@ The inventory location being removed
 
 Initializes a new instance of the DeleteLocationServicingSiteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

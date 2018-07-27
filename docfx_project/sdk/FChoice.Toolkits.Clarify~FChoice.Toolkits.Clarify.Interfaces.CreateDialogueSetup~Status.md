@@ -2,7 +2,7 @@
 
 The initial status of the dialogue.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

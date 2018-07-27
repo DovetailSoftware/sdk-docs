@@ -2,7 +2,7 @@
 
 Should Queue allow Subcases
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,8 +1,4 @@
-﻿     FChoice.Foundation.Filters Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Foundation.Filters Namespace
+﻿### FChoice.Foundation.Filters Namespace
 
 Classes
 

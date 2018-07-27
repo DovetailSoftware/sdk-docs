@@ -1,6 +1,6 @@
 ﻿### SyncRoot Property (ValidatedNameCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

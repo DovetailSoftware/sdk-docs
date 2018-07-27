@@ -2,7 +2,7 @@
 
 Inventory location (or expense GL) from which to receive.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

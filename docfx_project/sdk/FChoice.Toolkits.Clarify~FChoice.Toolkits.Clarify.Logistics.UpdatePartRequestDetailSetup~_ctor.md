@@ -4,7 +4,7 @@ Part Request Detail Identifier
 
 Initializes a new instance of the UpdatePartRequestDetailSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

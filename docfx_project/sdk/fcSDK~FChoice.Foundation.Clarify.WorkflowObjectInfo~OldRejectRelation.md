@@ -1,6 +1,6 @@
 ﻿### OldRejectRelation Property (WorkflowObjectInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Name Property (FCTimeZone)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Used by the [DeleteOnsiteLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DeleteOnsiteLog(DeleteOnsiteLogSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class DeleteOnsiteLogSetup
 public class DeleteOnsiteLogSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.DeleteOnsiteLogSetup**  

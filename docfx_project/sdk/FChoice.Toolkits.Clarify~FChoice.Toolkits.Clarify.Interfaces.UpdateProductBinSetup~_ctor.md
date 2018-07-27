@@ -4,7 +4,7 @@ Objid of the Bin to be updated
 
 Initializes a new instance of the UpdateProductBinSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

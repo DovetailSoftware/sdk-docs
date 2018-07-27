@@ -6,7 +6,7 @@ The new queue into which the Subcase is to be forwarded.
 
 Initializes a new instance of the ForwardSubcaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

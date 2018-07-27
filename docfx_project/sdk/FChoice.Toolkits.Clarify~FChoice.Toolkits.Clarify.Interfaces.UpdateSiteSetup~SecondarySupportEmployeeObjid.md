@@ -2,7 +2,7 @@
 
 Objid of the secondary support Employee.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Property SecondarySupportEmployeeObjid As Integer
 public int SecondarySupportEmployeeObjid {get; set;}
 ```
 
-Remarks
+#### Remarks
 
 If set to -2 the Employee is unrelated
 

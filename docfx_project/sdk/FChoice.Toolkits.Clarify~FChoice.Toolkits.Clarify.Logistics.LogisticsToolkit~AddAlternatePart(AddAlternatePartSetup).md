@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Causes the second part/revision listed to become an alternate part of the first one listed. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

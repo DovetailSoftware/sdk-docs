@@ -1,6 +1,6 @@
 ﻿### GracePeriodTimeSpan Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -21,7 +21,7 @@ Members
 | **Month** |   |
 | **Week** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

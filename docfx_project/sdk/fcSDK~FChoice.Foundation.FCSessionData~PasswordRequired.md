@@ -2,7 +2,7 @@
 
 Session option denoting whether a password was used to create a session.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

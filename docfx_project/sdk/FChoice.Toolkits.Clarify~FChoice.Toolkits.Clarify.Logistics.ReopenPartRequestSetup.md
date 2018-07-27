@@ -2,7 +2,7 @@
 
 Used by the [ReopenPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReopenPartRequest(ReopenPartRequestSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class ReopenPartRequestSetup
 public class ReopenPartRequestSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup**  

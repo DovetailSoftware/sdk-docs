@@ -1,6 +1,6 @@
 ﻿### IsStateSerialized Property (MemoryStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 DateTime the Contract was rejected. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

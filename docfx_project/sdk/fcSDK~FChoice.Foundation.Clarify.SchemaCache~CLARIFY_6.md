@@ -1,6 +1,6 @@
 ﻿### CLARIFY_6 Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

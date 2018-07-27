@@ -6,7 +6,7 @@ Identifier of the Site with which the account is associated
 
 Used to modify existing GL accounts. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

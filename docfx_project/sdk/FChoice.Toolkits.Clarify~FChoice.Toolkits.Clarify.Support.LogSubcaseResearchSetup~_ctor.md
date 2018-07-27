@@ -6,7 +6,7 @@ The length of time for research.
 
 Initializes a new instance of the LogSubcaseResearchSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -24,7 +24,6 @@ public LogSubcaseResearchSetup(
    string _subcaseIDNum_,
    TimeSpan _researchDuration_
 )
-```
 ```
 
 #### Parameters

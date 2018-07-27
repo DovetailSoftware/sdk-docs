@@ -2,7 +2,7 @@
 
 Date when the Bin was updated
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

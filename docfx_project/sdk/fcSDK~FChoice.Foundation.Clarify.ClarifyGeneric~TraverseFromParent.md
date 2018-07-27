@@ -2,7 +2,7 @@
 
 Makes this generic a child that is related to the specified parent generic through the specified relation
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _parentGeneric_
 
 _relationName_
 
-Remarks
+#### Remarks
 
 This generic will be related and linked to the parent. When the parent is queried or updated, this generic will be queried or updated as well.
 

@@ -1,6 +1,6 @@
 ﻿### LogSubcaseInternalPhoneSetup Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class LogSubcaseInternalPhoneSetup
 public class LogSubcaseInternalPhoneSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.LogSubcaseInternalPhoneSetup**  

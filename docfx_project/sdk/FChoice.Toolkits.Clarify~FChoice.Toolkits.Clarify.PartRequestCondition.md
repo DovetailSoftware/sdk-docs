@@ -1,6 +1,6 @@
 ﻿### PartRequestCondition Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Members
 | **Unpicked** |   |
 | **UpdateInventory** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

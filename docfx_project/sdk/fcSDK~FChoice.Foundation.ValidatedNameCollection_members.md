@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -13,7 +13,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](fcSDK~FChoice.Foundation.ValidatedNameCollection~Item.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](fcSDK~FChoice.Foundation.ValidatedNameCollection~SyncRoot.md) |   |
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

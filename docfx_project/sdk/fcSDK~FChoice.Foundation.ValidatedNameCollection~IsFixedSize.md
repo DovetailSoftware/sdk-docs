@@ -1,6 +1,6 @@
 ﻿# IsFixedSize Property (ValidatedNameCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

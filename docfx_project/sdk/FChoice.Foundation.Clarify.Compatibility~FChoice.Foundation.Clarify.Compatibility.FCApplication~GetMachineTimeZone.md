@@ -1,6 +1,6 @@
 ﻿### GetMachineTimeZone Property (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

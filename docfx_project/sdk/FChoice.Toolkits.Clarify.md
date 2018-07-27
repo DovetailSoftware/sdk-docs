@@ -1,10 +1,6 @@
-﻿     FChoice.Toolkits.Clarify Assembly                                                   
+﻿### FChoice.Toolkits.Clarify Assembly
 
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify Assembly
-
-Namespaces
+#### Namespaces
 
 | Namespace | Description |
 | --- | --- |

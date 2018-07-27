@@ -1,6 +1,6 @@
 ﻿### CreateSession() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

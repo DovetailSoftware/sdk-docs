@@ -2,7 +2,7 @@
 
 Used by the [DispatchSubcase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~DispatchSubcase(DispatchSubcaseSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class DispatchSubcaseSetup
 public class DispatchSubcaseSetup 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup**  

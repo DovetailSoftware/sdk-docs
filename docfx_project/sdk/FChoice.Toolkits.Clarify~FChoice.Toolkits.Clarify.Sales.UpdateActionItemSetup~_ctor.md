@@ -4,7 +4,7 @@ ActionItem Identifier.
 
 Initializes a new instance of the UpdateActionItemSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

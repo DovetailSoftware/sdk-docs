@@ -4,7 +4,7 @@ An active/open database [IDbTransaction](ms-help://MS.NETFrameworkSDKv1.1/cpref
 
 Causes the generic object to query the database table or view using the specified active transaction and, optionally, specified data fields, filters, and sort orders
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _transaction_
 
 An active/open database [IDbTransaction](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbTransactionClassTopic.htm) object in which this query will participate.
 
-Remarks
+#### Remarks
 
 **NOTE**: This method is provided to support the [Query Method](fcSDK~FChoice.Foundation.GenericDataSet~Query.md) on [ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) and is not intended for direct use. However, if needed, please consider the following information about specifying a transaction. The provided [IDbTransaction](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbTransactionClassTopic.htm) is expected to be open, connected, and live. Once this generic's query is complete, the transaction will **NOT** be closed or committed. If an error occurs, the transaction will be rolled back and an exception thrown.
 

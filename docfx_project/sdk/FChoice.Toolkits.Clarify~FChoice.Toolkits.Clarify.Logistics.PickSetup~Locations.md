@@ -2,7 +2,7 @@
 
 Specifies the inventory locations which will be searched in order to find the parts to pick for this Part Request.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

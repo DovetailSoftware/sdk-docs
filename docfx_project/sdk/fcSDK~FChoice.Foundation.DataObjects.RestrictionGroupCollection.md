@@ -1,6 +1,6 @@
 ﻿### RestrictionGroupCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class RestrictionGroupCollection
 public class RestrictionGroupCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<RestrictionGroup>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md) 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 [System.Collections.Generic.List<T>](#)  

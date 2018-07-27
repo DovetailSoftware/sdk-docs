@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Create a Depot Repair Labor to be performed on a Part. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

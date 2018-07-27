@@ -2,7 +2,7 @@
 
 The key to the [FCConfiguration](FChoice.Common~FChoice.Common.FCConfiguration.md) collection which contains the configured switch for enabling or disabling database query batching.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public static readonly string ENABLE_BATCH
 
 A key used by the FCConfiguration collection.
 
-Remarks
+#### Remarks
 
 Note that the value returned from the FCConfiguration collection using this key will override whatever the default setting of the database provider is. However, if the database provider does not support batching (e.g. Oracle), setting this value will not affect batching behavior.
 

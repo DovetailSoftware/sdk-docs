@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [FCTimeZoneCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 Indicates the id of the GL transaction associated with this material usage
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

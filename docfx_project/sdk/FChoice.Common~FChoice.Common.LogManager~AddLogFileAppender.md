@@ -6,7 +6,7 @@ The full or relative path to the file to create or use for logging. If one exist
 
 Creates a new rolling log file appender and adds it to the configuration for use elsewhere.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _fileName_
 
 The full or relative path to the file to create or use for logging. If one exists, it will be appended to.
 
-Remarks
+#### Remarks
 
 This will create an initialize the appender. Nothing will be written to the file until this appender is associated with the root logger or any loggers in the hierarchy. See the [AddAppenderToRoot](FChoice.Common~FChoice.Common.LogManager~AddAppenderToRoot.md) and [AddAppenderToLogger](FChoice.Common~FChoice.Common.LogManager~AddAppenderToLogger.md) methods for more information on how to do this association.
 

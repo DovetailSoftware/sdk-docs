@@ -1,6 +1,6 @@
 ﻿### BuildClarifyHistory Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

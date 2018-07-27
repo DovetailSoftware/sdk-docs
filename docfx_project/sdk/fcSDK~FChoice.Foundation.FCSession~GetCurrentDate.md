@@ -2,7 +2,7 @@
 
 Retrieves the DateTime of the CRM database.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public virtual DateTime GetCurrentDate()
 
 Current DateTime of the CRM database.
 
-Remarks
+#### Remarks
 
 When [ConvertTimeZone](fcSDK~FChoice.Foundation.FCSession~ConvertTimeZone.md) is enabled the return value will be converted to the [LocalTimeZone](fcSDK~FChoice.Foundation.FCSession~LocalTimeZone.md).
 

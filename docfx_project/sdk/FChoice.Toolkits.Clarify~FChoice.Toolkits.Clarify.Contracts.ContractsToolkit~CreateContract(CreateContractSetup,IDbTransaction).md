@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to create a new contract. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

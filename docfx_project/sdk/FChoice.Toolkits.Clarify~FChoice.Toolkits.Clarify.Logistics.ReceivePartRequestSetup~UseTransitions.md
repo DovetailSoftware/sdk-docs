@@ -2,7 +2,7 @@
 
 Specifies whether or not to change the Part Request condition
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Used to modify existing GL accounts. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

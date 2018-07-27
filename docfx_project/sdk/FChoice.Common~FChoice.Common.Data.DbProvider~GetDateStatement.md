@@ -2,7 +2,7 @@
 
 Gets a SQL statement fragment for the database-specific syntax of retrieving the current date (i.e. SYSDATE on Oracle or GETDATE() on MSSQL).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public abstract string GetDateStatement()
 
 A SQL statement fragment for the database-specific syntax of retrieving the current date
 
-Remarks
+#### Remarks
 
 The returned string is a fragment of a statement, not an entire statement. It cannot be executed independently
 

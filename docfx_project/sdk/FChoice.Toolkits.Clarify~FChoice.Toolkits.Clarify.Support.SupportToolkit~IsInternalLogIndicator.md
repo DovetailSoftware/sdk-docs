@@ -1,6 +1,6 @@
 ﻿### IsInternalLogIndicator Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### PartRequestInfo Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class PartRequestInfo
 public class PartRequestInfo
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.PartRequestInfo**  

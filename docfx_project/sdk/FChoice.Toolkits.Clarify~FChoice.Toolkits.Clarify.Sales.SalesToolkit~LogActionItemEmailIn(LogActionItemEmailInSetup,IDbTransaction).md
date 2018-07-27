@@ -1,6 +1,6 @@
 ﻿### LogActionItemEmailIn(LogActionItemEmailInSetup,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

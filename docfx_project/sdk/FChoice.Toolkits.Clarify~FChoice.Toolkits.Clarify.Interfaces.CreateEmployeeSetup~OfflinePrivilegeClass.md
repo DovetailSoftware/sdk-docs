@@ -2,7 +2,7 @@
 
 Offline privilege class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

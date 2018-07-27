@@ -1,6 +1,6 @@
 ﻿### SourceTable Property (SchemaRelation)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

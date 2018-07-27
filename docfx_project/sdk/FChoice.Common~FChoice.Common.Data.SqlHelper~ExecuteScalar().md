@@ -1,6 +1,6 @@
 ﻿### ExecuteScalar() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

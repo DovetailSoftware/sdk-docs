@@ -1,6 +1,6 @@
 ﻿### VendorSchemaDate Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

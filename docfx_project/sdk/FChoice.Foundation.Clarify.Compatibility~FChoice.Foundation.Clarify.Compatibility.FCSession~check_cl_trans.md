@@ -1,6 +1,6 @@
 ﻿### check_cl_trans Method (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Identifier of the Case being reopened.
 
 Initializes a new instance of the ReopenCaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

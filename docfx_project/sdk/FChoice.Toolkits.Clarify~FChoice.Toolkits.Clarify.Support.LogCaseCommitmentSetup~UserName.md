@@ -2,7 +2,7 @@
 
 The User who created the log. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ The password to obfuscate
 
 Obfuscates a database password using the Clarify DB password obfuscation algorithm.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The password to obfuscate
 
 A password obfuscated using the Clarify DB password obfuscation algorithm
 
-Remarks
+#### Remarks
 
 This password can be used in a connection string to log a user directly into the database.
 

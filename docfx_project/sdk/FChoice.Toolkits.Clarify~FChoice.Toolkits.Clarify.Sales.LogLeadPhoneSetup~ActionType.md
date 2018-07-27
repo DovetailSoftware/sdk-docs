@@ -2,7 +2,7 @@
 
 Element from the 'Phone Log Action Type' user list. If not set, the default list value is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

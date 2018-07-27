@@ -1,6 +1,6 @@
 ﻿### IDNum Property (WorkFlowInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

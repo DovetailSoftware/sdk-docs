@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [SchemaViewFieldInfoCollection members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfoCollection_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

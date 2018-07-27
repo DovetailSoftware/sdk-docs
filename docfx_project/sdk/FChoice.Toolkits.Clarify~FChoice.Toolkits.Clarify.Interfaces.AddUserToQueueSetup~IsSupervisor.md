@@ -2,7 +2,7 @@
 
 Is the User a Queue supervisor?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

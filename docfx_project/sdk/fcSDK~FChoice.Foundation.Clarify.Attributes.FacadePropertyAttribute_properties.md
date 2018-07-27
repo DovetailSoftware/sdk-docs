@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [FacadePropertyAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.FacadePropertyAttribute_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

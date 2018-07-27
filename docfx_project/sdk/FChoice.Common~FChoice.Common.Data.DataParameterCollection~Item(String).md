@@ -4,7 +4,7 @@ The name of the parameter whose value to get or set.
 
 Gets or sets the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) associated with the specific name in the collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The name of the parameter whose value to get or set.
 
 The [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) associated with the specific name.
 
-Remarks
+#### Remarks
 
 The **_name_** argument is the natural name of the parameter. That is, it does not have any data provider-specific prefixes such as "@" for Microsoft SQL Server, or ":" for Oracle.
 

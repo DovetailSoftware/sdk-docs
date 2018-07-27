@@ -1,6 +1,6 @@
 ﻿### Now Property (IApplicationClock)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

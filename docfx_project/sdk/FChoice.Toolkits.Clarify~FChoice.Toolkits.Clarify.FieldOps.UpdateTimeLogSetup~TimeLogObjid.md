@@ -2,7 +2,7 @@
 
 The Objid of the Time Log being modified.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Gets a reference to the [ListCache](fcSDK~FChoice.Foundation.Clarify.ListCache.md) which provides access to Clarify user defined and global lists
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public IListCache ListCache {get;}
 
 A reference to the [ListCache](fcSDK~FChoice.Foundation.Clarify.ListCache.md)
 
-Remarks
+#### Remarks
 
 See the documentation for [ListCache](fcSDK~FChoice.Foundation.Clarify.ListCache.md) for more information on how to access and work with Clarify lists in FCFL.NET.
 

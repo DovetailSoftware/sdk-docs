@@ -2,7 +2,7 @@
 
 The main phone used to overide the contact main phone.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

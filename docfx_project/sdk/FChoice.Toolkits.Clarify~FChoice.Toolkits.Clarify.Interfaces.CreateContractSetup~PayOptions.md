@@ -2,7 +2,7 @@
 
 Method of payment for the Contract
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

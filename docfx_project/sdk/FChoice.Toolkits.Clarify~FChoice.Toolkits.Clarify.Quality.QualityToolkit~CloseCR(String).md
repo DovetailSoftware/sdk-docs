@@ -4,7 +4,7 @@ Change Request Identifier
 
 Close a CR. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the CloseBug.
 
-Remarks
+#### Remarks
 
 The CR must be in a condition/status that allows the transition to the Closed condition.
 

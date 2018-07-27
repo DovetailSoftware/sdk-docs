@@ -1,6 +1,6 @@
 ﻿### ForEach Method (IGlobalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

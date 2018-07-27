@@ -1,6 +1,6 @@
 ﻿### Parent Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

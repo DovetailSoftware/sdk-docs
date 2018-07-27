@@ -2,7 +2,7 @@
 
 Specifies whether the fulfilled inventory is from good stock (true) or bad stock (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

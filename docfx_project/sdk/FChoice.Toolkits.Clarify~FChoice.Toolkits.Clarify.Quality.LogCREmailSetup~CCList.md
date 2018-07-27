@@ -2,7 +2,7 @@
 
 Additional recipients to be included on the carbon copy (CC) of the email.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

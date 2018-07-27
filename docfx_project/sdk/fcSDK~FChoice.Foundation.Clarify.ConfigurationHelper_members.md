@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [ConfigurationHelper](fcSDK~FChoice.Foundation.Clarify.ConfigurationHelper.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |

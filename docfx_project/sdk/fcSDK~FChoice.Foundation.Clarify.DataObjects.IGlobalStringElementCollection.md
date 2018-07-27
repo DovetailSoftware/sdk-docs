@@ -1,6 +1,6 @@
 ﻿### IGlobalStringElementCollection Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

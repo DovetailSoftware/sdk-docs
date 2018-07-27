@@ -2,7 +2,7 @@
 
 Contact fax number
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

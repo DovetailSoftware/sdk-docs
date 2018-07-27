@@ -2,7 +2,7 @@
 
 Creates a new collection using the same parameters.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public DataParameterCollection Clone()
 
 A new collection with copies of the references to the same parameters.
 
-Remarks
+#### Remarks
 
 Note that this is not a deep clone. A new collection is created with new references pointing to the same underlying parameter objects. For a true deep clone (both the collection AND the parameters, see the [DeepClone](FChoice.Common~FChoice.Common.Data.DataParameterCollection~DeepClone.md) method).
 

@@ -2,7 +2,7 @@
 
 Unique row identifier
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public Guid RowGuid {get;}
 
 Unique row identifier
 
-Remarks
+#### Remarks
 
 Used internally for reconciling rows after updates are complete.
 

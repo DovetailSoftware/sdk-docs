@@ -1,6 +1,6 @@
 ﻿### LocalizedTitle Property (IHierarchicalStringElement)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

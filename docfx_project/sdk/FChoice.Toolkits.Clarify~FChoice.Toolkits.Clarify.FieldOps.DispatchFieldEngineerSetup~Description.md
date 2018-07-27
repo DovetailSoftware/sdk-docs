@@ -2,7 +2,7 @@
 
 The description of the Dispatch FE. If left blank, it is set to the title of the Case or Subcase.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

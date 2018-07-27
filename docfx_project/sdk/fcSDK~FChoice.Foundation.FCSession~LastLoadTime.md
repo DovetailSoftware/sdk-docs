@@ -2,7 +2,7 @@
 
 Timestamp when the session was last loaded via [FCApplication.GetSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~GetSession.md)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

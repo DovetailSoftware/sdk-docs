@@ -1,6 +1,6 @@
 ﻿### Records Property (FCSqlExec)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

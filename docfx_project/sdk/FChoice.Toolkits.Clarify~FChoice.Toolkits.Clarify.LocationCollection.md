@@ -1,6 +1,6 @@
 ﻿### LocationCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class LocationCollection
 public class LocationCollection : System.Collections.ObjectModel.Collection<Location> 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.ObjectModel.Collection<T>](#)  

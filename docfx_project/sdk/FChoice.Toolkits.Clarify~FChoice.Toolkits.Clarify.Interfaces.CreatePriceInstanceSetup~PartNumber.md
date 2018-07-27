@@ -2,7 +2,7 @@
 
 Part number to price
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

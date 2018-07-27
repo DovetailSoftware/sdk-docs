@@ -4,7 +4,7 @@ Subcase Identifier.
 
 Yank the Subcase from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Subcase Identifier.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The WipBin to place the Subcase in may also be specified. This is augmented function from base Clarify, where the Subcase is always placed in the default WipBin.
 

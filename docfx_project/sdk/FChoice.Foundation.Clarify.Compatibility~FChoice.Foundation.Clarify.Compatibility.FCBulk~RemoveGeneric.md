@@ -1,6 +1,6 @@
 ﻿### RemoveGeneric Method (FCBulk)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

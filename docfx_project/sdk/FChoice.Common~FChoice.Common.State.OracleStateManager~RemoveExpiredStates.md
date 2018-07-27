@@ -1,6 +1,6 @@
 ﻿### RemoveExpiredStates Method (OracleStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

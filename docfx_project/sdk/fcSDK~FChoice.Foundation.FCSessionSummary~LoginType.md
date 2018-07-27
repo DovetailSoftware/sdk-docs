@@ -1,6 +1,6 @@
 ﻿### LoginType Property (FCSessionSummary)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

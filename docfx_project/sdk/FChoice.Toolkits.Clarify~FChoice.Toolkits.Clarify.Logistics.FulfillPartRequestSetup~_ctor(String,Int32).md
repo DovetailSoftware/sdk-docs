@@ -8,7 +8,7 @@ The number of parts being fulfilled for this Part Request
 
 Initializes a new instance of the FulfillPartRequestSetup class. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,6 @@ public FulfillPartRequestSetup(
    string _partRequestDetailIDNum_,
    int _quantity_
 )
-```
 ```
 
 #### Parameters

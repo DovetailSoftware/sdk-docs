@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [StringUtil](FChoice.Common~FChoice.Common.StringUtil.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

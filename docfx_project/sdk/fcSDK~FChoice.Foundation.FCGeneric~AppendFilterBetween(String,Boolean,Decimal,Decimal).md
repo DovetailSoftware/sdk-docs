@@ -2,7 +2,7 @@
 
 Adds a specialized filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) to be between two Decimal values.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

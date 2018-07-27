@@ -1,6 +1,6 @@
 ﻿### Distinct Property (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

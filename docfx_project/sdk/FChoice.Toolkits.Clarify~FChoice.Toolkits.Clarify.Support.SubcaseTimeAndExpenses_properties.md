@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [SubcaseTimeAndExpenses members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

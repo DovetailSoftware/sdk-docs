@@ -1,6 +1,6 @@
 ﻿### FindLast Method (IHierarchicalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

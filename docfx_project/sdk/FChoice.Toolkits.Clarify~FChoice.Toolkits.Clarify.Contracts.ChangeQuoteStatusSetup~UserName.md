@@ -2,7 +2,7 @@
 
 The username of the user who is changing the Quote status. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

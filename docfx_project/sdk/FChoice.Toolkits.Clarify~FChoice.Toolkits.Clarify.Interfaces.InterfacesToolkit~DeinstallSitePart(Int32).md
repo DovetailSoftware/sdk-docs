@@ -4,7 +4,7 @@ ObjId of the Site Part to de-install
 
 DeInstall a Site Part. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

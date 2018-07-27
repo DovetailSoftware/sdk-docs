@@ -1,6 +1,6 @@
 ﻿### RetrieveLicenses Method (XmlClarifyLicenseTool)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

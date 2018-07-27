@@ -2,13 +2,13 @@
 
 Remove the session from [FCApplication](fcSDK~FChoice.Foundation.FCApplication.md) and any Licenses it may be holding.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
 | [CloseSession](fcSDK~FChoice.Foundation.FCSession~CloseSession().md) |   |
 
-Remarks
+#### Remarks
 
 [FCApplication.CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md) creates a session and keeps a reference to it so that it may be later retrieved via [SessionID](fcSDK~FChoice.Foundation.FCSession~SessionID.md). **FCApplication** keeps a reference to help reduce the overhead of authentication and retrieval of possibly extensive session data. Thus it is important for long running applications to call this method when they are finished with the session object.
 

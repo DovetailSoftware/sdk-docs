@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [MoveOpportunitySetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveOpportunitySetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

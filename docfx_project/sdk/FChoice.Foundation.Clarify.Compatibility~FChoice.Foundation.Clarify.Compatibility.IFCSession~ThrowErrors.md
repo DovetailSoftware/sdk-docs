@@ -1,6 +1,6 @@
 ﻿### ThrowErrors Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

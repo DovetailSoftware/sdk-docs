@@ -1,6 +1,6 @@
 ﻿### ConfigureStringDatabaseParameter Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

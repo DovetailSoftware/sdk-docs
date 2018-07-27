@@ -2,7 +2,7 @@
 
 Should an activity log be created for the move?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

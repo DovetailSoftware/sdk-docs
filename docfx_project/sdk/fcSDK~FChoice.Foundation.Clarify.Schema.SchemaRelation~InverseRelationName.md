@@ -1,6 +1,6 @@
 ﻿### InverseRelationName Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

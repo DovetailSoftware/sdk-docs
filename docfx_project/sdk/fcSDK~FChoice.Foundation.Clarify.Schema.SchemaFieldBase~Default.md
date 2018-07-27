@@ -1,6 +1,6 @@
 ﻿### Default Property (SchemaFieldBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

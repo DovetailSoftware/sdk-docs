@@ -2,7 +2,7 @@
 
 DateTime the Opportunity was yanked. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

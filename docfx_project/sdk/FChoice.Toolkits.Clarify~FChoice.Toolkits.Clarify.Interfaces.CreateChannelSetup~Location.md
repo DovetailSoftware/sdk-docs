@@ -1,6 +1,6 @@
 ﻿### Location Property (CreateChannelSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### rel_type Property (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

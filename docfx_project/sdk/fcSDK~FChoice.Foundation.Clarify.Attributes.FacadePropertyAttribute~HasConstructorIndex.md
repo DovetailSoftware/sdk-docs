@@ -1,6 +1,6 @@
 ﻿### HasConstructorIndex Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

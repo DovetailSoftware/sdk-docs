@@ -2,7 +2,7 @@
 
 For a serialized part, the serial number referenced by this line item.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

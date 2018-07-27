@@ -2,7 +2,7 @@
 
 Used by the [InstallSitePartToPart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~InstallSitePartToPart(InstallSitePartToPartSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class InstallSitePartToPartSetup
 public class InstallSitePartToPartSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToPartSetup**  

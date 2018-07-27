@@ -2,7 +2,7 @@
 
 Session option that cues [Generics](fcSDK~FChoice.Foundation.FCGeneric.md) to convert filters on empty strings into filters on [Queries](fcSDK~FChoice.Foundation.FCGeneric~Query.md) that check Is NULL or IS NOT NULL.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

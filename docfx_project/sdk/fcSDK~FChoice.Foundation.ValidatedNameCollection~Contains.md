@@ -1,6 +1,6 @@
 ﻿### Contains Method (ValidatedNameCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

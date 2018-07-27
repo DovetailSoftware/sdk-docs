@@ -1,6 +1,6 @@
 ﻿### ConfigureProviders(XmlElement) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -21,8 +21,6 @@ public static void ConfigureProviders(
 _parentElm_
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

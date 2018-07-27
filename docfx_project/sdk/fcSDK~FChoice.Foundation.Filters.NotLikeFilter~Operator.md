@@ -1,6 +1,6 @@
 ﻿### Operator Property (NotLikeFilter)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

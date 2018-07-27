@@ -2,7 +2,7 @@
 
 The type of object the ECO item being created or updated applies to.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -22,7 +22,7 @@ Members
 | **EcoHeader** | ECOHeader object |
 | **PartRevision** | Part Revision object |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

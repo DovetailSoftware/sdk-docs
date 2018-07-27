@@ -1,6 +1,6 @@
 ﻿### get_fields_types_lens Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

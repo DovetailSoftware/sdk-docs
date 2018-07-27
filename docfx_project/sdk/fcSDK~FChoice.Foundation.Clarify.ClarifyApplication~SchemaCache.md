@@ -2,7 +2,7 @@
 
 Gets a reference to the [SchemaCache](fcSDK~FChoice.Foundation.Clarify.SchemaCache.md) which provides access to the Clarify ADP schema information
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public SchemaCache SchemaCache {get;}
 
 A reference to the [SchemaCache](fcSDK~FChoice.Foundation.Clarify.SchemaCache.md)
 
-Remarks
+#### Remarks
 
 See the documentation for [SchemaCache](fcSDK~FChoice.Foundation.Clarify.SchemaCache.md) for more information on how to access and work with Clarify ADP schema information in FCFL.NET.
 

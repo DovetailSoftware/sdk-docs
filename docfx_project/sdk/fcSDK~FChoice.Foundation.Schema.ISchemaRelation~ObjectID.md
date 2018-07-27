@@ -1,6 +1,6 @@
 ﻿### ObjectID Property (ISchemaRelation)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

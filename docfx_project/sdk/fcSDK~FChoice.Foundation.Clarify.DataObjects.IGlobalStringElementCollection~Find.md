@@ -1,6 +1,6 @@
 ﻿### Find Method (IGlobalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

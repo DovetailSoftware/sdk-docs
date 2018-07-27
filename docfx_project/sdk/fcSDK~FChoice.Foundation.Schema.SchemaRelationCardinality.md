@@ -1,6 +1,6 @@
 ﻿### SchemaRelationCardinality Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Members
 | **OneToOneForeign** |   |
 | **OneToOnePrimary** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

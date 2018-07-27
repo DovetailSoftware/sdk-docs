@@ -1,6 +1,6 @@
 ﻿### DataType Property (ISchemaField)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

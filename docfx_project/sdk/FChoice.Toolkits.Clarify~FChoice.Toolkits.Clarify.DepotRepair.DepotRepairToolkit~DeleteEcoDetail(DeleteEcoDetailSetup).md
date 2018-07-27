@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Delete an ECO Detail. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

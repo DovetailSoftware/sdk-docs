@@ -2,7 +2,7 @@
 
 Return code of the API call.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public short ReturnCode {get; set;}
 
 Will usually be zero or a negative number representing an error condition.
 
-Remarks
+#### Remarks
 
 This property is provided primarily for compatibility with previous Toolkit coding practices that do not use structured error handling.
 

@@ -1,6 +1,6 @@
 ﻿### NewPhone Property (UpdateContactByObjidSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

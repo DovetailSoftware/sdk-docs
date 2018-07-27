@@ -2,7 +2,7 @@
 
 Executes a statement against the database to retrieve the current date/time on the database
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public abstract DateTime GetDBDate()
 
 The current date and time on the database server
 
-Remarks
+#### Remarks
 
 The date and time returned by this method will be in the database's time zone. If the application is configured for a different time zone, conversion must be done manually. For information on performing time zone conversions using **FCFL.NET**, please see the following methods on the [FCSession](FChoice.Foundation~FChoice.Foundation.FCSession.md) class: [ChangeDate](FChoice.Foundation~FChoice.Foundation.FCSession~ConvertDate.md), [ConvertFromLocalToServerDate](FChoice.Foundation~FChoice.Foundation.FCSession~ConvertFromLocalToServerDate.md), and [ConvertFromServerToLocalDate](FChoice.Foundation~FChoice.Foundation.FCSession~ConvertFromLocalToServerDate.md).
 

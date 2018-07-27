@@ -2,7 +2,7 @@
 
 Name of the Country the Timezone will belong to.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

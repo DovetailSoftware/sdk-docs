@@ -8,7 +8,7 @@ Part domain of part for the Change Request
 
 Create a new Change Request (CR). This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -48,7 +48,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the CR.
 
-Remarks
+#### Remarks
 
 Unless a [Queue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup~Queue.md) is specified the CR is located in the owners default WipBin.  
 

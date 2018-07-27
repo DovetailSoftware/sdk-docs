@@ -6,7 +6,7 @@ The new WipBin into which the Quote is to be moved.
 
 Initializes a new instance of the MoveQuoteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

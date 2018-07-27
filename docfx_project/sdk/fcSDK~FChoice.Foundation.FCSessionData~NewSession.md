@@ -1,6 +1,6 @@
 ﻿### NewSession Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

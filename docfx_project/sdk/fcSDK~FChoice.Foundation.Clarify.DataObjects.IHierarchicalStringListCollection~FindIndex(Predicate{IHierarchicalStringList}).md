@@ -1,22 +1,18 @@
-﻿     FindIndex(Predicate<IHierarchicalStringList>) Method                                                   
+﻿### FindIndex(Predicate<IHierarchicalStringList>) Method
 
-fcSDK Documentation
-
-FindIndex(Predicate<IHierarchicalStringList>) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
 
 Overloads Function FindIndex( _
-   ByVal _match_ As [Predicate(Of IHierarchicalStringList)](#) _
+   ByVal _match_ As Predicate(Of IHierarchicalStringList) _
 ) As Integer
 ```
 
 ```csharp
 int FindIndex( 
-   [Predicate<IHierarchicalStringList>](#) _match_
+   Predicate<IHierarchicalStringList> _match_
 )
 ```
 

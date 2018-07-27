@@ -1,6 +1,6 @@
 ﻿### FormatDateLiteral Method (OracleProviderBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

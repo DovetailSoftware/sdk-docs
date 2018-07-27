@@ -1,6 +1,6 @@
 ﻿### SchemaViewFieldInfoCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class SchemaViewFieldInfoCollection
 public class SchemaViewFieldInfoCollection : FChoice.Foundation.DataObjects.DataObjectCollection<SchemaViewFieldInfo>
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  

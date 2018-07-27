@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -35,7 +35,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

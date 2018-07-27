@@ -1,6 +1,6 @@
 ﻿### CacheType Property (LocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

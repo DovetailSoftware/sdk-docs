@@ -1,17 +1,17 @@
 ﻿### RemoveAll Method (IGlobalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
 Function RemoveAll( _
-   ByVal _match_ As [Predicate(Of IGlobalStringList)](#) _
+   ByVal _match_ As Predicate(Of IGlobalStringList) _
 ) As Integer
 ```
 
 ```csharp
 int RemoveAll( 
-   [Predicate<IGlobalStringList>](#) _match_
+   Predicate<IGlobalStringList> _match_
 )
 ```
 

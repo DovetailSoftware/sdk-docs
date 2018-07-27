@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [FCSession](fcSDK~FChoice.Foundation.FCSession.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Returns the session's unique identifier.
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

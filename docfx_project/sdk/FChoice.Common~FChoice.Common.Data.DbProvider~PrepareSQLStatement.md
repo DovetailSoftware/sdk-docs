@@ -8,7 +8,7 @@ Parameters for the parameterized query or stored procedure
 
 Prepares and formats a SQL statement according to the rules of the underlying database type
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -46,7 +46,7 @@ Parameters for the parameterized query or stored procedure
 
 A formatted and prepared string, ready to be executed against the database
 
-Remarks
+#### Remarks
 
 This method will replace special tokens with statements or parameter names according to the type of query and parameters passed in. For example, the _{DATE}_ token will be replaced with the database type's special date statement (as returned by the [GetDateStatement Method](FChoice.Common~FChoice.Common.Data.DbProvider~GetDateStatement.md)). Parameters are specified using the _{n}_ syntax where _n_ is an ascending number. The number of _{n}_ parameters must match the number of parameters specified in the _commandParams_ argument.
 

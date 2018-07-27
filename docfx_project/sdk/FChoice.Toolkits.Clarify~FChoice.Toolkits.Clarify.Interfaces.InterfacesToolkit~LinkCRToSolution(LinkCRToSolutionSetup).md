@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Link a CR to a Solution. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

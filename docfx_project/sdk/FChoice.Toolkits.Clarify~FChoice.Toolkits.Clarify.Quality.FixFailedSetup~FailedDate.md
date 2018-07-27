@@ -2,7 +2,7 @@
 
 DateTime the CR was maked as FixFailed. If not set, the current date time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

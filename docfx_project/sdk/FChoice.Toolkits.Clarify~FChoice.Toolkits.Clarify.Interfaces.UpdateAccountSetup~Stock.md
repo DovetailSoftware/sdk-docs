@@ -2,7 +2,7 @@
 
 Stock symbol
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

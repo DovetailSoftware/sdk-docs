@@ -1,6 +1,6 @@
 ﻿### PasswordRequired Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

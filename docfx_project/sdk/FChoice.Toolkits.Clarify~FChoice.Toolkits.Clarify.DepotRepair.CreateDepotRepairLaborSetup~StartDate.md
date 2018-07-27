@@ -2,7 +2,7 @@
 
 The DateTime the Labor began. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### GetItemByIndex Method (IHierarchicalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

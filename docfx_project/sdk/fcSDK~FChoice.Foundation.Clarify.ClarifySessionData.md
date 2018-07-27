@@ -1,6 +1,6 @@
 ﻿### ClarifySessionData Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class ClarifySessionData
 public class ClarifySessionData : FChoice.Foundation.FCSessionData
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md)  

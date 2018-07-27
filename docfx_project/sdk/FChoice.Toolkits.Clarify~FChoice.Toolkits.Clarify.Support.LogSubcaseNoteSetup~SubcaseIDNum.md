@@ -2,7 +2,7 @@
 
 Identifier of the Subcase against which the note is being logged.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

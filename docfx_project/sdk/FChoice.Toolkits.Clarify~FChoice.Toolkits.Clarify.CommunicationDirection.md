@@ -1,6 +1,6 @@
 ﻿### CommunicationDirection Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -22,7 +22,7 @@ Members
 | **Outbound** |   |
 | **Unknown** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

@@ -2,7 +2,7 @@
 
 Notes about the CR being markd FixFailed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

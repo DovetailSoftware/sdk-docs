@@ -4,7 +4,7 @@ The identifier of the Case with which this Service Interuption is associated
 
 Initializes a new instance of the AddServiceInterruptionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

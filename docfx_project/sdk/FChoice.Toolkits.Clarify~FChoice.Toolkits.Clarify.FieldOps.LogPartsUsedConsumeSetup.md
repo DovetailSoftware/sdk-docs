@@ -2,7 +2,7 @@
 
 Used by the [LogPartsUsedConsume](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedConsume(LogPartsUsedConsumeSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class LogPartsUsedConsumeSetup
 public class LogPartsUsedConsumeSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedConsumeSetup**  

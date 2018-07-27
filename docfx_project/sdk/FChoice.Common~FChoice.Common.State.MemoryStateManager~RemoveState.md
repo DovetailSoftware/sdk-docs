@@ -1,6 +1,6 @@
 ﻿### RemoveState Method (MemoryStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

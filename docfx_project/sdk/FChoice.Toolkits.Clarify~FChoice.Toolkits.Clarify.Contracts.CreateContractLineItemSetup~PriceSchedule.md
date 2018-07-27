@@ -2,7 +2,7 @@
 
 Name of the schedule from the Contract to put the Line Item on.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

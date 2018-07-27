@@ -1,6 +1,6 @@
 ﻿### CacheUpdated Event (IStringCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

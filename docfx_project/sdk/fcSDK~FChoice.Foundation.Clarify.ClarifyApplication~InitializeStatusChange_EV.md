@@ -2,7 +2,7 @@
 
 Event fired during [Initialization](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~Initialize.md), relaying information about the current status of the initialization process.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

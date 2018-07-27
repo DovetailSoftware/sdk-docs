@@ -1,6 +1,6 @@
 ﻿### GetSafeDoubleFieldValue Method (IDataObject)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

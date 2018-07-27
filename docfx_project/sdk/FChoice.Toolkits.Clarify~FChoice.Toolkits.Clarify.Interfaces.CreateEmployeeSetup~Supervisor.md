@@ -2,7 +2,7 @@
 
 Employee's supervisor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

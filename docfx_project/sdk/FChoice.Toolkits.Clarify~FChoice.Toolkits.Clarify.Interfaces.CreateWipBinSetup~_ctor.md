@@ -4,7 +4,7 @@ Title of the WipBin
 
 Initializes a new instance of the CreateWipBinSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

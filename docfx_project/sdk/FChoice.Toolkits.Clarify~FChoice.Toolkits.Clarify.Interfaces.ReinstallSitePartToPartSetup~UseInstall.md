@@ -2,7 +2,7 @@
 
 If [AddActivityLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToPartSetup~AddActivityLog.md) is true. Should the activity be listed as an Install (**true)** or just a Re-Installed (**false**)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

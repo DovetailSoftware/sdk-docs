@@ -1,10 +1,6 @@
-﻿     FindLastIndex(Predicate<IHierarchicalStringElement>) Method                                                   
+﻿### FindLastIndex(Predicate<IHierarchicalStringElement>) Method
 
-fcSDK Documentation
-
-FindLastIndex(Predicate<IHierarchicalStringElement>) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

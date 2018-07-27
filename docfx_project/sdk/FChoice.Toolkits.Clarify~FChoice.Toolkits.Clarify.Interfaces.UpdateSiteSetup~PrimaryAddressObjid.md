@@ -2,7 +2,7 @@
 
 Primary Address of the site.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

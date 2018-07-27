@@ -2,7 +2,7 @@
 
 Name of the queue to dispatch the Case to. If not set, the Case is not initially dispatched.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### single_quotify Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

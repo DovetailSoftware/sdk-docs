@@ -1,6 +1,6 @@
 ﻿### CachesUpdated Event
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

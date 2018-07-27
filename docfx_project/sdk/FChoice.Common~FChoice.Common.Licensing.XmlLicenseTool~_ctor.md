@@ -1,6 +1,6 @@
 ﻿### XmlLicenseTool Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

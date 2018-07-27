@@ -2,7 +2,7 @@
 
 Should Queue allow Cases
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

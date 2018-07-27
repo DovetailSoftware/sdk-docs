@@ -2,7 +2,7 @@
 
 How long before the Commitment expires will the owner will be warned.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

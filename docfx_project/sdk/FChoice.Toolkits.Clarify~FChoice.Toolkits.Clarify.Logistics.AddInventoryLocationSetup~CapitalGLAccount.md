@@ -2,7 +2,7 @@
 
 The name of the Capital GL account with which this inventory location is to be associated
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

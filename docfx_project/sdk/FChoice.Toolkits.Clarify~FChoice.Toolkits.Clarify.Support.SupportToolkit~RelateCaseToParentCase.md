@@ -4,7 +4,7 @@ Relates a Case to a specified parent Case. This overload takes a set of required
 
 Relates a Case to a specified parent Case.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [RelateCaseToParentCase(RelateCaseToParentCaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~RelateCaseToParentCase(RelateCaseToParentCaseSetup).md) | Relates a Case to a specified parent Case. This overload takes a setup object.   |
 | [RelateCaseToParentCase(RelateCaseToParentCaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~RelateCaseToParentCase(RelateCaseToParentCaseSetup,IDbTransaction).md) | Relates a Case to a specified parent Case. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The parent Case cannot be a descendent of the child Case.
 

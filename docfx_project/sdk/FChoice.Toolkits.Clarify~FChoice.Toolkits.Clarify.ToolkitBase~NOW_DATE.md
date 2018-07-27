@@ -2,7 +2,7 @@
 
 Date constant that tells FCFL.NET to use the database's current DateTime.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Shared ReadOnly NOW_DATE As Date
 public static readonly DateTime NOW_DATE
 ```
 
-Remarks
+#### Remarks
 
 Use this constant when setting API properties of type **DateTime**. The API will use the database's current time the update was executed for the property's value.
 

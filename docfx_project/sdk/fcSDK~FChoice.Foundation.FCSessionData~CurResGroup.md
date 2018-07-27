@@ -2,7 +2,7 @@
 
 The restriction group being used by the session.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

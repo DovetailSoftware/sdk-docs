@@ -8,7 +8,7 @@ The Priority of the dialogue.
 
 Update a Dialogue.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

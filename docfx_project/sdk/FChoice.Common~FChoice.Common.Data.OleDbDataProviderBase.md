@@ -2,7 +2,7 @@
 
 Abstract base class for OleDb-based custom data providers
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,11 +15,11 @@ Public MustInherit Class OleDbDataProviderBase
 public abstract class OleDbDataProviderBase : DbProvider
 ```
 
-Remarks
+#### Remarks
 
 Inherit from this class to implement a custom data provider based on the OleDb client in ADO.NET.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)  

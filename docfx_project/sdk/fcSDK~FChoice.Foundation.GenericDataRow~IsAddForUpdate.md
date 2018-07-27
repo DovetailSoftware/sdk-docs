@@ -2,7 +2,7 @@
 
 Gets a value indicating whether this [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) was added via [AddForUpdate](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~AddForUpdate.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

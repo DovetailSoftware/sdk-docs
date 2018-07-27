@@ -4,7 +4,7 @@ The parameter to remove from the collection.
 
 Removes a parameter from the collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _param_
 
 The parameter to remove from the collection.
 
-Remarks
+#### Remarks
 
 If the parameter passed in is null or does not already exist in the collection, nothing will happen and no error will be thrown. Otherwise, the parameter will be removed from the collection.
 

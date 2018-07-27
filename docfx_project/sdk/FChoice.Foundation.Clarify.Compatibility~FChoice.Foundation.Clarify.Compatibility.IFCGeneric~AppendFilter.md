@@ -1,6 +1,6 @@
 ﻿### AppendFilter Method (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

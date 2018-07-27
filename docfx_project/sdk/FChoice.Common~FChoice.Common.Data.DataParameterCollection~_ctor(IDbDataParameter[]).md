@@ -4,7 +4,7 @@ An array of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlr
 
 Creates a new instance of DataParameterCollection using the default [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) and populated with an initial array of data parameters.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

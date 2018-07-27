@@ -1,6 +1,6 @@
 ﻿### DefaultValue Property (ColumnInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Now Property (ClarifyApplicationClock)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

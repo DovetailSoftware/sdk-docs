@@ -6,7 +6,7 @@ The text command to execute. The default value is an empty string ("").
 
 Creates a new instance of SqlHelper using the specified [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance and command text (SQL statement) and the [CommandType](FChoice.Common~FChoice.Common.Data.SqlHelper~CommandType.md) set to **Text**
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

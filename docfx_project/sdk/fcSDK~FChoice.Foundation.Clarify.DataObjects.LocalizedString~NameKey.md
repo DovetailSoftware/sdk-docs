@@ -1,6 +1,6 @@
 ﻿### NameKey Property (LocalizedString)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

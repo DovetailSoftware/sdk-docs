@@ -1,6 +1,6 @@
 ﻿### CacheLoadedEventHandler Delegate
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

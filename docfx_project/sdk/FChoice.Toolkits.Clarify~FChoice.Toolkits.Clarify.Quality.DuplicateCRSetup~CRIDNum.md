@@ -2,7 +2,7 @@
 
 Identifier of the CR being marked as a duplicate.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

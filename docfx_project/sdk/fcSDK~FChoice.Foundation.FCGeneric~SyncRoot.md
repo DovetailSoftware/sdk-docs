@@ -2,7 +2,7 @@
 
 Gets an object that can be used to synchronize access to the **FCGeneric**.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public object SyncRoot {get;}
 
 Gets an object that can be used to synchronize access to the **FCGeneric**.
 
-Remarks
+#### Remarks
 
 This is a common .NET Framework pattern please see [check out this example](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsICollectionClassSyncRootTopic.htm).
 

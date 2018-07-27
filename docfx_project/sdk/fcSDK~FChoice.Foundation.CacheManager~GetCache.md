@@ -1,6 +1,6 @@
 ﻿### GetCache Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

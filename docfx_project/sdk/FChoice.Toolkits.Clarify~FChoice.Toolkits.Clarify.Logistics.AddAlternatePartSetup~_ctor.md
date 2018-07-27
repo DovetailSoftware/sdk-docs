@@ -14,7 +14,7 @@ The Alternate Part domain
 
 Initializes a new instance of the AddAlternatePartSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Probability of opportunity close.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

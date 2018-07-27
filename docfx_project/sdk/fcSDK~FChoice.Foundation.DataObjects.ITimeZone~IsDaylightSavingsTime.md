@@ -1,6 +1,6 @@
 ﻿### IsDaylightSavingsTime Method (ITimeZone)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

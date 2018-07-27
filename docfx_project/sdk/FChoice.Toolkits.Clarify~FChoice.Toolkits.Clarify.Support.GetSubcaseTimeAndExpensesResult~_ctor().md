@@ -1,6 +1,6 @@
 ﻿### GetSubcaseTimeAndExpensesResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

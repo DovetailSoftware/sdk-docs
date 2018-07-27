@@ -2,7 +2,7 @@
 
 Quote/Contract Identifier.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

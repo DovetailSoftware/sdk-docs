@@ -4,7 +4,7 @@ CR Identifier.
 
 Initializes a new instance of the AcceptCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

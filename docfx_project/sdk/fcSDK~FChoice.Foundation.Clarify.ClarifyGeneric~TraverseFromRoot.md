@@ -1,6 +1,6 @@
 ﻿### TraverseFromRoot Method (ClarifyGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to relate sites to the inventory locations that service them. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The price type for the Price Instance.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

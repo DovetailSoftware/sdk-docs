@@ -2,7 +2,7 @@
 
 Specifies the proxy to use for the activity entry record.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

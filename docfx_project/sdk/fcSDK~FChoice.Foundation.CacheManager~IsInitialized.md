@@ -1,6 +1,6 @@
 ﻿### IsInitialized Property (CacheManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

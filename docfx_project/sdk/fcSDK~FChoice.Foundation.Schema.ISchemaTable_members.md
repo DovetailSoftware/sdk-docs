@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by ISchemaTable.
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

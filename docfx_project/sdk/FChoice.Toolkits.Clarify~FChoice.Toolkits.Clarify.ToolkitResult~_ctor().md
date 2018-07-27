@@ -1,6 +1,6 @@
 ﻿### ToolkitResult Constructor()
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

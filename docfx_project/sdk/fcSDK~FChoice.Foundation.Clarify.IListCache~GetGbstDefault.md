@@ -1,6 +1,6 @@
 ﻿### GetGbstDefault Method (IListCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### GetTableAsDataSet(String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

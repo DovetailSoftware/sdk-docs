@@ -2,7 +2,7 @@
 
 Valid numeric filtering operations for methods such as [AppendFilter](fcSDK~FChoice.Foundation.FCGeneric~AppendFilter(String,NumberOps,Int32).md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Members
 | **WithinDays** | The selected field must be a datetime. The filter will return rows that occurred are within the given number of days before or after. |
 | **WithinHours** | The selected field must be a datetime. The filter will return rows that occurred are within the given number of hours before or after. |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

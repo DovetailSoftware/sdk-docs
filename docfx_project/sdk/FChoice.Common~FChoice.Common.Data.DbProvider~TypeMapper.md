@@ -2,7 +2,7 @@
 
 This property is intended for future use and is not currently used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

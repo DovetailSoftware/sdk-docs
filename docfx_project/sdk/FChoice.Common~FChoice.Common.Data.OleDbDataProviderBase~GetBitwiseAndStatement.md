@@ -1,6 +1,6 @@
 ﻿### GetBitwiseAndStatement Method (OleDbDataProviderBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

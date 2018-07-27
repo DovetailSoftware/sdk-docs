@@ -2,7 +2,7 @@
 
 Is the [State property](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAddressSetup~State.md) abbreviated or is it the full name of the State
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

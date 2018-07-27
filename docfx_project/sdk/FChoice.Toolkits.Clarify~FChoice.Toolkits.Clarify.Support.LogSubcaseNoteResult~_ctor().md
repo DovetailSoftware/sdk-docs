@@ -1,6 +1,6 @@
 ﻿### LogSubcaseNoteResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

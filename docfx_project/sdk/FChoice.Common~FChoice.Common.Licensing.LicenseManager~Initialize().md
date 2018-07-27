@@ -1,6 +1,6 @@
 ﻿### Initialize() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

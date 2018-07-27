@@ -2,7 +2,7 @@
 
 Current name of the account
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

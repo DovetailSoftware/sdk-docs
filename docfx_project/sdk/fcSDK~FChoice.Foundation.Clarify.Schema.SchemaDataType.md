@@ -1,6 +1,6 @@
 ﻿### SchemaDataType Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -28,7 +28,7 @@ Members
 | **TinyInt** |   |
 | **VarChar** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

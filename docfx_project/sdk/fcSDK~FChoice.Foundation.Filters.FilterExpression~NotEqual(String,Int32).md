@@ -1,6 +1,6 @@
 ﻿### NotEqual(String,Int32) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### GetDefaultState() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

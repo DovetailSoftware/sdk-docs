@@ -1,6 +1,6 @@
 ﻿### GetDBDate Method (OracleProviderBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

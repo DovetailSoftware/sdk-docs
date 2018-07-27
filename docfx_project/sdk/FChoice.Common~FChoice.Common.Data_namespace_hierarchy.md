@@ -1,8 +1,8 @@
-﻿     FChoice.Common.Data Namespace Inheritance Hierarchy                                                   
+﻿     FChoice.Common.Data Namespace #### Inheritance Hierarchy                                                   
 
-FChoice.Common.Data Namespace Inheritance Hierarchy
+FChoice.Common.Data Namespace #### Inheritance Hierarchy
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 [FChoice.Common.Data.DataAccessSectionHandler](FChoice.Common~FChoice.Common.Data.DataAccessSectionHandler.md)  

@@ -2,7 +2,7 @@
 
 Captured phone time (Case phone logs only)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

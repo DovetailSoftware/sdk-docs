@@ -1,6 +1,6 @@
 ﻿### IsNonEmptyString Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

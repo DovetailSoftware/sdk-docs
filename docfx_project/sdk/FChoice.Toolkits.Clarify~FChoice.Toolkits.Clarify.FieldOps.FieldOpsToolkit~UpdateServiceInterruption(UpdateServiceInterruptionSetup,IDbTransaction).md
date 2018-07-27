@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to modify an existing service interruption (appointment). This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ Database transaction under which the API will be invoked.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 A new description can be specified, or the current description can appended by using  “+” as the first character of the text to add to the original description.
 

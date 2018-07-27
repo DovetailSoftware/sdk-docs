@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [ContractsToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

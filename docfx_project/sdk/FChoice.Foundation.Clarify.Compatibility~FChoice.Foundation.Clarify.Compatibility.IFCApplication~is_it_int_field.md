@@ -1,6 +1,6 @@
 ﻿### is_it_int_field Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

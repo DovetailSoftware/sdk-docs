@@ -2,7 +2,7 @@
 
 Exposed only for testability of certain APIs.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

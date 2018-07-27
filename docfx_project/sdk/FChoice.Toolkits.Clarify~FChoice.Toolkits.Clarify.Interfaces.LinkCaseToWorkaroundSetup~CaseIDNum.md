@@ -2,7 +2,7 @@
 
 Identifier of the Case to link to a Workaround
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

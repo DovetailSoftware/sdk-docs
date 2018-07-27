@@ -2,7 +2,7 @@
 
 Employee pager number
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

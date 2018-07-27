@@ -2,7 +2,7 @@
 
 Returns Unique Identifier of this row in the database.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public object UniqueID {get;}
 
 Returns Unique Identifier of this row in the database.
 
-Remarks
+#### Remarks
 
 The actual type of the object returned will vary on the CRM being implemented. For example in Clarify this value is the **objId** field and is an [Int32](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemInt32ClassTopic.htm).
 

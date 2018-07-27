@@ -8,7 +8,7 @@ Specifies whether or not to retrieve the current configuration values (if availa
 
 Retrieves the current configuration values or loads new ones if no current ones are available, using the specified collection if possible.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -46,13 +46,13 @@ Specifies whether or not to retrieve the current configuration values (if availa
 
 A [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsSpecializedNameValueCollectionMembersTopic.htm) of values produced by loading the environment settings either from the provided collection, from the current application configuration, or a merge of both.
 
-Exceptions
+#### Exceptions
 
 | Exception | Description |
 | --- | --- |
 | [FCInvalidConfigurationException](FChoice.Common~FChoice.Common.FCInvalidConfigurationException.md) | One or more required configuration values was not found either in the provided initialValues collection or in the application configuration settings and checkRequired is set to true. |
 
-Remarks
+#### Remarks
 
 If **_initialValues_** is null (**Nothing** in Visual Basic), an attempt will be made to load the settings from the application configuration settings. If the collection is not null, does not contain all the required values, and **_checkRequired_** is true, an exception will be thrown.
 

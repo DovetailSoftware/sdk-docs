@@ -1,6 +1,6 @@
 ﻿### active_connection Method (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

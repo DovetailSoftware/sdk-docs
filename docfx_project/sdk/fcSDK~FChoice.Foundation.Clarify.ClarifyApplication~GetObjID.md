@@ -4,7 +4,7 @@ The name of the table whose next objid to retreive.
 
 Gets the next objid for the given table
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,13 +30,13 @@ The name of the table whose next objid to retreive.
 
 The next objid for this table.
 
-Exceptions
+#### Exceptions
 
 | Exception | Description |
 | --- | --- |
 | [ClarifyException](fcSDK~FChoice.Foundation.Clarify.ClarifyException.md) | The table with the specified name could not be found or it is a view. |
 
-Remarks
+#### Remarks
 
 If caching of objids is enabled, the next objid will be retrieved from the local cache. If caching is disabled, a database query will be executed to retrieve the next id.
 

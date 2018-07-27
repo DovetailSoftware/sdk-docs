@@ -12,7 +12,7 @@ The identifier of the Case with which this Part Request is associated
 
 Initializes a new instance of the CreatePartRequestHeaderCaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

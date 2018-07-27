@@ -2,7 +2,7 @@
 
 LogLevel is an enumeration of supported logging levels. This is used in conjunction with [LogManager](FChoice.Common~FChoice.Common.LogManager.md) and [Logger](FChoice.Common~FChoice.Common.Logger.md) to control how log messages are filtered or written to the output appender.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ Members
 | **UNDEFINED** | This level is provided only for compatibility and is not used. |
 | **WARN** | The WARN level symbolizes events in the system that systems administrators and developers should be aware of and should probably be fixed soon. |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

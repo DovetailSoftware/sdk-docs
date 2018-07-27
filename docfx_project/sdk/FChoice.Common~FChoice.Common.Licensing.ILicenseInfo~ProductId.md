@@ -1,6 +1,6 @@
 ﻿### ProductId Property (ILicenseInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

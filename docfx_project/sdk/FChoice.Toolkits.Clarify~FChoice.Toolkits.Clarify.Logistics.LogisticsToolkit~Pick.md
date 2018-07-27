@@ -6,7 +6,7 @@ This overload takes a set of required parameters for the API.
 
 Allows for multiple pick actions to occur against a part request.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -40,7 +40,7 @@ Allows for multiple pick actions to occur against a part request.
 
 This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 This API will perform a soft pick (reserve) on all quantity or serialized parts, based on the part number/site_part of the specified part request, in all of the specified locations until all of the necessary inventory has been reserved, or there are no more locations from which to pick. This API will also validate that the part request can be transitioned for the specified user (or current user if no user is specified).
 

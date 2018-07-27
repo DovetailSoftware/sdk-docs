@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [StateCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

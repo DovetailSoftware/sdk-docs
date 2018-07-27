@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Allows for the fulfilling of inventory parts for a part request. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Setup object for API invocation.
 
 If a partial fulfill occurs then a new PartRequestDetail is created for the remaining items waiting to be fullfilled. When this occurs the [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) will be populated with the objid and id number of the PartRequestDetail that was just created.
 
-Remarks
+#### Remarks
 
 As in base Clarify, if a partial fulfill is performed, the part request is broken up into two new part requests. The first is for the fulfill (and the quantities are changed). The new part request will be created to hold the rest of the units that did not get fulfilled.
 

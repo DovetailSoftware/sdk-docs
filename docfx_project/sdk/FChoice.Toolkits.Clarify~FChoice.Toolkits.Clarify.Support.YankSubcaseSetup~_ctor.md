@@ -4,7 +4,7 @@ Subcase Identifier
 
 Initializes a new instance of the YankSubcaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

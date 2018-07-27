@@ -2,7 +2,7 @@
 
 The maximum amount of time allowed by the Contract for a customer service representative to contact the customer by telephone
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

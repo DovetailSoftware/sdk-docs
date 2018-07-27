@@ -1,6 +1,6 @@
 ﻿### SiteIDNum Property (ChangeCaseContactSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

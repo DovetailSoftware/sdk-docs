@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [IErrorMessageProvider members](FChoice.Common~FChoice.Common.IErrorMessageProvider_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

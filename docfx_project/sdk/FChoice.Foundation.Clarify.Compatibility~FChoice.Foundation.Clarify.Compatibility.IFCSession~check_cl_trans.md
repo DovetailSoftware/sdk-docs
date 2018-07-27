@@ -1,6 +1,6 @@
 ### check_cl_trans Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

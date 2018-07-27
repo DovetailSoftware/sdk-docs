@@ -2,7 +2,7 @@
 
 New title for the WipBin
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

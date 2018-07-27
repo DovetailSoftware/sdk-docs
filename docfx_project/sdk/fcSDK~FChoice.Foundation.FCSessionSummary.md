@@ -2,7 +2,7 @@
 
 Represents a summary view of the session for reporting purposes.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public class FCSessionSummary
 
 [FCApplication.CurrentSessions](fcSDK~FChoice.Foundation.FCApplication~CurrentSessions.md) returns an Array of **FCSessionSummary** objects for viewing basic information about the sessions currently running.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.FCSessionSummary**  

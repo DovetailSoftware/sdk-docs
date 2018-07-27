@@ -2,7 +2,7 @@
 
 Used by the [DeleteServiceInterruption](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DeleteServiceInterruption(DeleteServiceInterruptionSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class DeleteServiceInterruptionSetup
 public class DeleteServiceInterruptionSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.DeleteServiceInterruptionSetup**  

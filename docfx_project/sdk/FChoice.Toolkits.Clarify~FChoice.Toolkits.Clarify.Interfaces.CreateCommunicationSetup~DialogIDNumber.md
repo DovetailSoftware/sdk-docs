@@ -2,7 +2,7 @@
 
 The ID of the parent dialogue.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

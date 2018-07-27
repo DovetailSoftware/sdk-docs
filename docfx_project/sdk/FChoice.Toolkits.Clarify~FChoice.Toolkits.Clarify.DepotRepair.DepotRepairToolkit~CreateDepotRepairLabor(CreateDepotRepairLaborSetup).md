@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Create a Depot Repair Labor to be performed on a Part. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

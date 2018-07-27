@@ -2,7 +2,7 @@
 
 Caches and provides convenient access to country, state, and time zone information
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class LocaleCache
 public class LocaleCache : ClarifyCacheBase, ILocaleCache
 ```  
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)  

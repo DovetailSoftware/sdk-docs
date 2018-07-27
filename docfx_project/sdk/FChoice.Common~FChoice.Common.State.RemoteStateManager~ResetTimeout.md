@@ -1,6 +1,6 @@
 ﻿### ResetTimeout Method (RemoteStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 This class is intended for internal use by the [LogisticsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public MustInherit Class LogisticsToolkitBase
 public abstract class LogisticsToolkitBase : FChoice.Toolkits.Clarify.ToolkitBase
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  

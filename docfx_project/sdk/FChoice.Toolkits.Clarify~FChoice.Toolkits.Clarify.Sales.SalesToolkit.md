@@ -2,7 +2,7 @@
 
 Provides APIs that allow you to emulate much of the functionality in the Clarify ClearSales module. The [SalesToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit.md) object exposes methods that allow you to modify aspects of Quotes, Action Items, Opportunities, and Leads, and more.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class SalesToolkit
 public class SalesToolkit : SalesToolkitBase
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  

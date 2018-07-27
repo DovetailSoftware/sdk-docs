@@ -1,6 +1,6 @@
 ﻿### IMockCollection Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

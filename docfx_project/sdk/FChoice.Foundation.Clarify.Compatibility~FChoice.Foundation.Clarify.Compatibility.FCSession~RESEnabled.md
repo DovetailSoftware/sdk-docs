@@ -1,6 +1,6 @@
 ﻿### RESEnabled Property (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

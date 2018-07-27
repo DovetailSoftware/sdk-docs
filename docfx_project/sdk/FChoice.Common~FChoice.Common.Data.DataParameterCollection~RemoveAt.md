@@ -4,7 +4,7 @@ The index of the parameter to remove.
 
 Removes the parameter at the specified index from the collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _index_
 
 The index of the parameter to remove.
 
-Remarks
+#### Remarks
 
 All parameters with higher indexes then this parameter will be shifted down one in index to fill the gap.
 

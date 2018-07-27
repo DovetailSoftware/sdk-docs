@@ -1,6 +1,6 @@
 ﻿### ArraySize Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The Alternate Part revision
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

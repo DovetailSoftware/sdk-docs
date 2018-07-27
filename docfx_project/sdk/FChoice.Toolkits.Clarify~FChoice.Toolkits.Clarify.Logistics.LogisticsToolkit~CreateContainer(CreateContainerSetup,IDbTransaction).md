@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Database transaction under which the API will be invoked.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

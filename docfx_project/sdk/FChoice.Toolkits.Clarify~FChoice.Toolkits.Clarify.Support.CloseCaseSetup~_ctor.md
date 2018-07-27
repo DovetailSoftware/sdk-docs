@@ -4,7 +4,7 @@ Identifier of the Case being closed.
 
 Initializes a new instance of the CloseCaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

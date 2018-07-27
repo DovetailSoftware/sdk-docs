@@ -1,6 +1,6 @@
 ﻿### InitializeStatusChangeEventHandler Delegate
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

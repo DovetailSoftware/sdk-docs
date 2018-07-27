@@ -1,6 +1,6 @@
 ﻿### Alias Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### CacheType Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Members
 | **Data** |   |
 | **Schema** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

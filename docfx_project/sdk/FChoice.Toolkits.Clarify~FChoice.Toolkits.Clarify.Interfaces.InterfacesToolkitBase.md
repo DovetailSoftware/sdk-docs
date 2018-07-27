@@ -2,7 +2,7 @@
 
 Please see [InterfacesToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit.md). This class is used internally and not meant to be created by end users.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public MustInherit Class InterfacesToolkitBase
 public abstract class InterfacesToolkitBase : FChoice.Toolkits.Clarify.ToolkitBase
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  

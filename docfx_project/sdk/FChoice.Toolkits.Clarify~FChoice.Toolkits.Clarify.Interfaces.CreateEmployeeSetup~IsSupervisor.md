@@ -2,7 +2,7 @@
 
 Is Employee a supervisor?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### UpdateTime Property (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

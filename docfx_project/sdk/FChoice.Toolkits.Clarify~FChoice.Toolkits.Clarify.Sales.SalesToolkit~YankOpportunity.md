@@ -4,7 +4,7 @@ Yank the Opportunity from its current location to a new owner's WipBin. This ove
 
 Yank the Opportunity from its current location to a new owner's WipBin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [YankOpportunity(YankOpportunitySetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~YankOpportunity(YankOpportunitySetup).md) | Yank the Opportunity from its current location to a new owner's WipBin. This overload takes a setup object.   |
 | [YankOpportunity(YankOpportunitySetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~YankOpportunity(YankOpportunitySetup,IDbTransaction).md) | Yank the Opportunity from its current location to a new owner's WipBin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The WipBin to place the Opportunity in may also be specified. This is augmented function from base Clarify, where the Opportunity is always placed in the default WipBin.
 

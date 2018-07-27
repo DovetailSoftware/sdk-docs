@@ -2,7 +2,7 @@
 
 The key to the [FCConfiguration](FChoice.Common~FChoice.Common.FCConfiguration.md) collection which contains the configured database connection string.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

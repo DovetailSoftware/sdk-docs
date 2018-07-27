@@ -2,7 +2,7 @@
 
 Is this a Generic that should query for only discinct rows.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

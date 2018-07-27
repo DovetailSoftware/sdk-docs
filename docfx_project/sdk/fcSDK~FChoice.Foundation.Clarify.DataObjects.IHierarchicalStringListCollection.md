@@ -1,6 +1,6 @@
 ﻿### IHierarchicalStringListCollection Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

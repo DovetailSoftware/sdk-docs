@@ -1,6 +1,6 @@
 ﻿### AddSqlParameter Method (IFCSqlExec)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Delete a Depot Repair Part. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

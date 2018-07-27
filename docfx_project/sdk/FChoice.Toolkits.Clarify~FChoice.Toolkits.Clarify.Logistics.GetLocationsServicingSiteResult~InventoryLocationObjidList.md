@@ -2,7 +2,7 @@
 
 An array of Inventory Location objid's.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

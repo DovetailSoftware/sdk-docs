@@ -2,7 +2,7 @@
 
 The quantity of parts that will trigger a reorder Part Request to be created for this inventory location
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

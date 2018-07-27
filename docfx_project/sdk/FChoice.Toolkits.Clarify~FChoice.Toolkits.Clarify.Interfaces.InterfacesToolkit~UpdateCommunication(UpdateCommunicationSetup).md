@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Update a Communication.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

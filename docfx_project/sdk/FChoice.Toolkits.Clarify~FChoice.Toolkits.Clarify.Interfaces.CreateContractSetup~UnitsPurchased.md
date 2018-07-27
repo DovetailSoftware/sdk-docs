@@ -2,7 +2,7 @@
 
 Number of units purchased
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

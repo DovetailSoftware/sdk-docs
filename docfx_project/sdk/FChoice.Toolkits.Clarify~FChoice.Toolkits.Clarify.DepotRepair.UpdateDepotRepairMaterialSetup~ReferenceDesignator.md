@@ -2,7 +2,7 @@
 
 Describes a reference location or designation for the part.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ The plain, or unencrypted, bytes to encrypt
 
 Encrypts a byte array
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ The plain, or unencrypted, bytes to encrypt
 
 A byte array representing the encrypted version of the original _plainBytes_ payload
 
-Remarks
+#### Remarks
 
 ![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 

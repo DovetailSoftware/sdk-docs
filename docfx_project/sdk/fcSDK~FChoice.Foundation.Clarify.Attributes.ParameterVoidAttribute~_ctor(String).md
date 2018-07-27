@@ -1,6 +1,6 @@
 ﻿### ParameterVoidAttribute Constructor(String)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

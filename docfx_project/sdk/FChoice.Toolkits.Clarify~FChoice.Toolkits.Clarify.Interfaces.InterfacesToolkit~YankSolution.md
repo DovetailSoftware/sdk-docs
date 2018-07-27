@@ -4,7 +4,7 @@ Yank the Solution from its current location to a new owner's WipBin. This overlo
 
 Yank the Solution from its current location to a new owner's WipBin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [YankSolution(YankSolutionSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~YankSolution(YankSolutionSetup).md) | Yank the Solution from its current location to a new owner's WipBin. This overload takes a setup object.   |
 | [YankSolution(YankSolutionSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~YankSolution(YankSolutionSetup,IDbTransaction).md) | Yank the Solution from its current location to a new owner's WipBin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The WipBin to place the Solution in may also be specified. This is augmented function from base Clarify, where the Solution is always placed in the default WipBin.
 

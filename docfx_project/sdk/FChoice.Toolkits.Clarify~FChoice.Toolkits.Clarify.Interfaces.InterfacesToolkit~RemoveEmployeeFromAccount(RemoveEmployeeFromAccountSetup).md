@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Remove an Employee from an Account. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

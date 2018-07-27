@@ -4,7 +4,7 @@ Part Request Detail Identifier
 
 Initializes a new instance of the RejectPartRequestSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

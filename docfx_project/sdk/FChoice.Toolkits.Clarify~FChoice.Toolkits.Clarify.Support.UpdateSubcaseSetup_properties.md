@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [UpdateSubcaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

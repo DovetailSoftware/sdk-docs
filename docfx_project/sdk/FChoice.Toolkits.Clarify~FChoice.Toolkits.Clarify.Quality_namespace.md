@@ -1,10 +1,4 @@
-﻿     FChoice.Toolkits.Clarify.Quality Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify.Quality Namespace
-
- 
+﻿### FChoice.Toolkits.Clarify.Quality Namespace
 
 Provides APIs to allow you to modify the basic ClearQuality object: the Change Request.
 
@@ -39,8 +33,6 @@ Classes
 | ![Class](dotnetimages/Class.png) | [ReplicateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReplicateCRSetup.md) | Used by the [ReplicateCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ReplicateCR(ReplicateCRSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [UpdateCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.UpdateCRSetup.md) | Used by the [UpdateCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~UpdateCR(UpdateCRSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [YankCRSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.YankCRSetup.md) | Used by the [YankCR](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~YankCR(YankCRSetup).md) method as setup data for invocation. |
-
-
 
 #### Reference
 

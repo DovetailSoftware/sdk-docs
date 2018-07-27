@@ -1,6 +1,6 @@
 ﻿### CreateSession(String,ClarifyLoginType) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

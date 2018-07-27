@@ -12,7 +12,7 @@ Additional key/value pairs separated by a semi-colon (;).
 
 Creates a basic connection string from the basic common required elements according the rules of the specific database type
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -62,7 +62,7 @@ Additional key/value pairs separated by a semi-colon (;).
 
 A properly formatted, ADO.NET-compliant connection string.
 
-Remarks
+#### Remarks
 
 **NOTE**: This method does not validate the format of the _extraParams_ argument. If the the value of _extraParams_ is invalid, the connection string may not work properly.
 

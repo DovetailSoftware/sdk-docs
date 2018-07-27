@@ -1,6 +1,6 @@
 ﻿### MethodName Property (OutputPropertyAttribute)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

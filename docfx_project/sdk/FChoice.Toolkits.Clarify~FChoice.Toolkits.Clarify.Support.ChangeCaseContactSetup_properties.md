@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ChangeCaseContactSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to de-install a site part (and the sub-parts installed underneath it) from a site. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

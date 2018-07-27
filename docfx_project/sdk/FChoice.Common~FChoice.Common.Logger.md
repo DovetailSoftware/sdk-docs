@@ -2,7 +2,7 @@
 
 Logger is used by classes throughout First Choice .NET-based products to write logging entries.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,11 +14,11 @@ Public Class Logger
 public class Logger 
 ```
 
-Remarks
+#### Remarks
 
 Use [LogManager.GetLogger](FChoice.Common~FChoice.Common.LogManager~GetLogger.md) to retrieve a specific logger. Once an instance is obtained, use the various Log methods to write logging events to configured logging appenders.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.Logger**  

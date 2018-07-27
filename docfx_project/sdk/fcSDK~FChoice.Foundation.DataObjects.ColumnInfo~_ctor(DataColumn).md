@@ -1,6 +1,6 @@
 ﻿### ColumnInfo Constructor(DataColumn)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

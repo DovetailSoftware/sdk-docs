@@ -2,7 +2,7 @@
 
 Title of the employee's default WipBin
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

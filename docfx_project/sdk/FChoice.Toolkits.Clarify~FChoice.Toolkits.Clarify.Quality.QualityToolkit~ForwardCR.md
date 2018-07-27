@@ -4,7 +4,7 @@ Reject-forward the CR from one queue to another. This overload takes a set of re
 
 Reject-forward the CR from one queue to another.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ForwardCR(ForwardCRSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ForwardCR(ForwardCRSetup).md) | Reject-forward the CR from one queue to another. This overload takes a setup object.   |
 | [ForwardCR(ForwardCRSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ForwardCR(ForwardCRSetup,IDbTransaction).md) | Reject-forward the CR from one queue to another. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The CR must be in open condition, and not currently dispatched to a queue.
 

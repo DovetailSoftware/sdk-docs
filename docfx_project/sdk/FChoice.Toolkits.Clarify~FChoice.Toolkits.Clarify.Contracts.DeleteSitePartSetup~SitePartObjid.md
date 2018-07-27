@@ -2,7 +2,7 @@
 
 The objid of the Site Part to be deleted.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

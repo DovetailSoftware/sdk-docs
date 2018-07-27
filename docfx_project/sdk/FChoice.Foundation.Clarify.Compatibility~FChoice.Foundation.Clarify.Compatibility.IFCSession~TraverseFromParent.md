@@ -1,6 +1,6 @@
 ﻿### TraverseFromParent Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

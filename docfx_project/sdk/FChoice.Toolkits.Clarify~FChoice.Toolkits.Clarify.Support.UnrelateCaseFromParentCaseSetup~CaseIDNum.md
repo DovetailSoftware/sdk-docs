@@ -2,7 +2,7 @@
 
 Identifier of the Case being unrelated from its parent Case.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

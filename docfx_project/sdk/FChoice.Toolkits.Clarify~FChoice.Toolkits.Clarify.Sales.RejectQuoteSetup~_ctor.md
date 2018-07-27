@@ -4,7 +4,7 @@ Quote Identifier.
 
 Initializes a new instance of the RejectQuoteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

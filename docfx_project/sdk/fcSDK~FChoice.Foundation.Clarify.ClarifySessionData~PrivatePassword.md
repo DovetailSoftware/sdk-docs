@@ -1,6 +1,6 @@
 ﻿### PrivatePassword Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

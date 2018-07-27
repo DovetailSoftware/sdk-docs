@@ -1,6 +1,6 @@
 ﻿### SQL_BIG_QUERY_TIME_THRESHOLD Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

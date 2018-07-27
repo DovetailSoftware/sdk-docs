@@ -1,6 +1,6 @@
 ﻿### Reconfigure() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

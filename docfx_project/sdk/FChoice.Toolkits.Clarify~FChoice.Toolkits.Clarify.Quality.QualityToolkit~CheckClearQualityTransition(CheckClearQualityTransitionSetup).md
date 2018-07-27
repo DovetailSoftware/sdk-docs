@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Determine if a user can change status from an old condition/status to a new condition/status. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Setup object for API invocation.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 Checks the transitions as set up in Clarify’s Policies & Customers.
 

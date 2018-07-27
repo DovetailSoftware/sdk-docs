@@ -2,7 +2,7 @@
 
 Sets whether or not this **FCGeneric** will convert filters on empty strings into filters on [Queries](fcSDK~FChoice.Foundation.FCGeneric~Query.md) that check IS NULL or IS NOT NULL.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

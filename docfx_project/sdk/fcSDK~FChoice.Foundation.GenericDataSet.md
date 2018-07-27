@@ -1,6 +1,6 @@
 ﻿### GenericDataSet Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

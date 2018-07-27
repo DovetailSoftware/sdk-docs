@@ -1,6 +1,6 @@
 ﻿### RemoveSitePartFromContract(RemoveSitePartFromContractSetup,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

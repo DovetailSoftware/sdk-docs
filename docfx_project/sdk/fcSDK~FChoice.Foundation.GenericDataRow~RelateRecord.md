@@ -6,7 +6,7 @@ The relation name
 
 Relate a given row to this GenericDataRow via a [SchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) name.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _relationName_
 
 The relation name
 
-Remarks
+#### Remarks
 
 The **relationName** must be a valid relation available between the two Generic's object types.
 

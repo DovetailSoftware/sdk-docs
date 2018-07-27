@@ -2,7 +2,7 @@
 
 The user who is closing the opportunity. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

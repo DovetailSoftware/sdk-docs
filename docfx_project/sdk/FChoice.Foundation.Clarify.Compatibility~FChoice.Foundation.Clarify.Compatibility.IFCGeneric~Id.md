@@ -1,6 +1,6 @@
 ﻿### Id Property (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

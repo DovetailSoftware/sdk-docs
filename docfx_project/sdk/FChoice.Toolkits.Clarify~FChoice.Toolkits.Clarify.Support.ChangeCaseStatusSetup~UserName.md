@@ -2,7 +2,7 @@
 
 The User who changed the Case. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

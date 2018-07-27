@@ -2,7 +2,7 @@
 
 The queue to which the reorder part request will be dispatched
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

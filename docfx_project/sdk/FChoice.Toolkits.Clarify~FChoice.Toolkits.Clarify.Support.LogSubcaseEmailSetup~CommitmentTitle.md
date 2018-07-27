@@ -2,7 +2,7 @@
 
 Title of the commitment.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The objid of resulting part revision after applying the ECO, or 0 for no change.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

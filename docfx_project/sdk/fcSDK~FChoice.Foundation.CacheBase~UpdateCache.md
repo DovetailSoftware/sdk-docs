@@ -1,12 +1,13 @@
 ﻿### UpdateCache Method (CacheBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
 
 Public Overridable Sub UpdateCache() 
 ```
+
 ```csharp
 public virtual void UpdateCache()
 ```

@@ -1,6 +1,6 @@
 ### forward_object Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

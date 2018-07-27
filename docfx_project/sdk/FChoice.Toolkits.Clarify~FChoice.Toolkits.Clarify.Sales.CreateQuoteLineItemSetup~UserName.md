@@ -2,7 +2,7 @@
 
 The user who is creating the line item. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The objid of the ECO detail object to be updated
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

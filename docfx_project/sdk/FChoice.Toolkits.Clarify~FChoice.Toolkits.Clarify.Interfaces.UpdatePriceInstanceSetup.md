@@ -2,7 +2,7 @@
 
 Used by the [UpdatePriceInstance](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdatePriceInstance(UpdatePriceInstanceSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UpdatePriceInstanceSetup
 public class UpdatePriceInstanceSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup**  

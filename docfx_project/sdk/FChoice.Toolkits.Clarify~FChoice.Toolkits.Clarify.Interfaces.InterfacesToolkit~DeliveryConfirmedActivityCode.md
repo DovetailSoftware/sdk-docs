@@ -1,6 +1,6 @@
 ﻿### DeliveryConfirmedActivityCode Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

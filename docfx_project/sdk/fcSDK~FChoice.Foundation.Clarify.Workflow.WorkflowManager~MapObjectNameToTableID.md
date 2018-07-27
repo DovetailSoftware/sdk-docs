@@ -1,6 +1,6 @@
 ﻿### MapObjectNameToTableID Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

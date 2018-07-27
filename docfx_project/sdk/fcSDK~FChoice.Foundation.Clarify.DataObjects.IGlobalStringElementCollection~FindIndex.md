@@ -1,6 +1,6 @@
 ﻿### FindIndex Method (IGlobalStringElementCollection)
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

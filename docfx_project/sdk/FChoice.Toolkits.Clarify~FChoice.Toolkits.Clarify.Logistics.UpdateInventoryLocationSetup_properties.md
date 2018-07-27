@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [UpdateInventoryLocationSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

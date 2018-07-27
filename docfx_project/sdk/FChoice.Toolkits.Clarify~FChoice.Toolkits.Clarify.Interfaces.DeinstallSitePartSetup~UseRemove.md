@@ -2,7 +2,7 @@
 
 Is this a remove (**true**) or de-Install (**false**) activity?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

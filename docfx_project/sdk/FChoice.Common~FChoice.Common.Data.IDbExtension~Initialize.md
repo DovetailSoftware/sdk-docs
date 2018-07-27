@@ -6,7 +6,7 @@ The XML configuration specified for this extension in the application configurat
 
 Initialize is called by the DbProvider when loading extensions. This method allows extensions to have a chance to perform initialization and start-up tasks.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

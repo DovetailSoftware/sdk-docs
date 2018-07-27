@@ -1,6 +1,6 @@
 ﻿### SchemaRelationCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class SchemaRelationCollection
 public class SchemaRelationCollection : FChoice.Foundation.DataObjects.DataObjectCollection<SchemaRelation>, FChoice.Foundation.Schema.ISchemaRelationCollection  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  

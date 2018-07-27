@@ -1,6 +1,6 @@
 ﻿### ObjectTypeExists Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### DecimalValue Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

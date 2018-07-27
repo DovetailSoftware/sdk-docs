@@ -2,7 +2,7 @@
 
 Provides a view into the FCApplication's currently running sessions.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public FCSessionSummary[] CurrentSessions()
 
 An Array of [FCSessionSummary](fcSDK~FChoice.Foundation.FCSessionSummary.md) objects representing the current running sessions.
 
-Remarks
+#### Remarks
 
 This method is present for administrative purposes. It could be used to find out how many users are logged into the system or to Retrieve and call [CloseSession](fcSDK~FChoice.Foundation.FCSession~CloseSession.md) on unused session objects.
 

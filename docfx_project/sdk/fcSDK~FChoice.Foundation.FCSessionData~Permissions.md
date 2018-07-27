@@ -1,6 +1,6 @@
 ﻿### Permissions Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

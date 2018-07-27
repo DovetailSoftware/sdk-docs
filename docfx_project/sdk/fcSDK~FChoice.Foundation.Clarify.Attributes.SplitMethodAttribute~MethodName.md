@@ -1,6 +1,6 @@
 ﻿### MethodName Property (SplitMethodAttribute)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

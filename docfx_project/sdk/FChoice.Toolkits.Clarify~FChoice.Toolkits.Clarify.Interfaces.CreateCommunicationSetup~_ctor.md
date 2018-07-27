@@ -10,7 +10,7 @@ The address of each receipient of the communication.
 
 Initializes a new instance of the CreateCommunicationSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

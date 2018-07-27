@@ -1,6 +1,6 @@
 ﻿### LongIntNumber Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

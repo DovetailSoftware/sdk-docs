@@ -1,6 +1,6 @@
 ﻿### ContractsToolkitBase Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public MustInherit Class ContractsToolkitBase
 public abstract class ContractsToolkitBase : FChoice.Toolkits.Clarify.ToolkitBase 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  

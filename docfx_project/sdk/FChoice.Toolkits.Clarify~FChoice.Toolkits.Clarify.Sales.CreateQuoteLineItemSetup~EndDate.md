@@ -2,7 +2,7 @@
 
 The DateTime the Quote Line Item ends. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

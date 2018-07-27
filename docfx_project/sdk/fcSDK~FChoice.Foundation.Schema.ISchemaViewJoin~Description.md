@@ -1,6 +1,6 @@
 ﻿### Description Property (ISchemaViewJoin)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### XmlLicenseTool Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class XmlLicenseTool
 public class XmlLicenseTool : ILicenseTool  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.Licensing.XmlLicenseTool**  

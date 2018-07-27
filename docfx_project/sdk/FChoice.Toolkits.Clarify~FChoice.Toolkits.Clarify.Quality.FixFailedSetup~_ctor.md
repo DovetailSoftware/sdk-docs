@@ -4,7 +4,7 @@ Identifier of the CR being marked as FixFailed.
 
 Initializes a new instance of the FixFailedSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Used by the [AddUserToQueue](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AddUserToQueue(AddUserToQueueSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class AddUserToQueueSetup
 public class AddUserToQueueSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup**  

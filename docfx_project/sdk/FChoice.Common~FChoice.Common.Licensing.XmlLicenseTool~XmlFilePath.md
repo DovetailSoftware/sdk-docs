@@ -1,6 +1,6 @@
 ﻿### XmlFilePath Property (XmlLicenseTool)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

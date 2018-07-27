@@ -1,6 +1,6 @@
 ﻿### build_hist Method (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### ReopenDialogue(ReopenDialogueSetup) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

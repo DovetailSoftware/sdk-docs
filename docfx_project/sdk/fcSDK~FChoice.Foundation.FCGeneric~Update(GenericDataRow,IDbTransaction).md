@@ -6,7 +6,7 @@ Transaction under which to do this update
 
 Updates changes to a single GenericDataRow under the context of a Transaction
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

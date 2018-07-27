@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [DeleteEcoDetailSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoDetailSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

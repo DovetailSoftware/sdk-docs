@@ -4,14 +4,14 @@ Causes the generic object to query the database table or view using the option
 
 Causes the generic object to query the database table or view using the optionally specified data fields, filters, and sort orders
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
 | [Query()](fcSDK~FChoice.Foundation.FCGeneric~Query().md) | Causes the generic object to query the database table or view using the optionally specified data fields, filters, and sort orders   |
 | [Query(IDbTransaction)](fcSDK~FChoice.Foundation.FCGeneric~Query(IDbTransaction).md) | Causes the generic object to query the database table or view using the specified active transaction and, optionally, specified data fields, filters, and sort orders   |
 
-Remarks
+#### Remarks
 
 This method causes the generic object to query the database table or view using any specified data fields, filters, and/or sort orders. The query retrieves 0 or more rows.
 

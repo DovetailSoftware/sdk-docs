@@ -1,6 +1,6 @@
 ﻿### GetViewField Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

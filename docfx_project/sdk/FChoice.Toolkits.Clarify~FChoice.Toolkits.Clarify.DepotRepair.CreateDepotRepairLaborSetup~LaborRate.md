@@ -2,7 +2,7 @@
 
 This is the labor rate for the employee performing the labor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### GetCurrentStates Method (RemoteStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

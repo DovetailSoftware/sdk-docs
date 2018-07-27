@@ -6,7 +6,7 @@ Used to create a new part request detail.
 
 This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -35,7 +35,7 @@ The following values are populated in the CreatePartRequestDetailResult object r
 *   Objid \- The Objid of the DemandDetail.
 *   DetailNumber \- Detail Number.
 
-Remarks
+#### Remarks
 
 This API requires a part request header in addition to a part or site_part. If the site_part record is already known, it can be specified using _sitePartObjid_ parameter or the SitePartObjid property on the CreatePartRequestDetailSetup object. Otherwise, the part_num, mod_level, and domain define the part (which can be specified either via parameters to one of this API's overloads, or via the respective properties on the CreatePartRequestDetailSetup object). If a serialized site_part was specified, the serial number should be specified instead of quantity. Otherwise, the quantity must be specified.
 

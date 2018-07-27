@@ -24,7 +24,7 @@ Enumerations
 | ![Enumeration](dotnetimages/Enumeration.png) | [GracePeriodTimeSpan](FChoice.Common~FChoice.Common.Licensing.GracePeriodTimeSpan.md) |   |
 | ![Enumeration](dotnetimages/Enumeration.png) | [LicenseUserRestrictionType](FChoice.Common~FChoice.Common.Licensing.LicenseUserRestrictionType.md) |   |
 
-Remarks
+#### Remarks
 
 This namespace is for First Choice Software use only. API stability is not guaranteed.
 

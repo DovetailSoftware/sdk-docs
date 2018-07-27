@@ -1,6 +1,6 @@
 ﻿### IDKey Property (LocalizedString)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

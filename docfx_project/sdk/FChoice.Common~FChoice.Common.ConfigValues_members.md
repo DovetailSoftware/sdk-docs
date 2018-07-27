@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [ConfigValues](FChoice.Common~FChoice.Common.ConfigValues.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -20,7 +20,7 @@ Public Fields
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [SQL_COMMAND_TIMEOUT](FChoice.Common~FChoice.Common.ConfigValues~SQL_COMMAND_TIMEOUT.md) |   |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [STATEMANAGER_CONFIGFILE](FChoice.Common~FChoice.Common.ConfigValues~STATEMANAGER_CONFIGFILE.md) |   |
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

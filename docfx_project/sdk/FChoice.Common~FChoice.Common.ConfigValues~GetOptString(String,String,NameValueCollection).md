@@ -1,6 +1,6 @@
 ﻿### GetOptString(String,String,NameValueCollection) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

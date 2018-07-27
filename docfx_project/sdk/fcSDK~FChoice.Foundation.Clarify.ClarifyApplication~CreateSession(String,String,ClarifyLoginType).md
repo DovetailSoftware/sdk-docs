@@ -8,7 +8,7 @@ The type of login to perform using the specified **_userName_**
 
 Creates a new ClarifySession and performs a login using the specified username, password, and [ClarifyLoginType](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -46,7 +46,7 @@ The type of login to perform using the specified **_userName_**
 
 A ClarifySession logged in using the specified **_userName_** and **_password_**
 
-Remarks
+#### Remarks
 
 This method will log in the session using the given username, password, and login type before returning.
 

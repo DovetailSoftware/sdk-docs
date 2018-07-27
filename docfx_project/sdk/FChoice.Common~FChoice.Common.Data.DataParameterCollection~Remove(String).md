@@ -4,7 +4,7 @@ The natural name of the parameter to remove from the collection.
 
 Removes a parameter with the specified name from the collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _name_
 
 The natural name of the parameter to remove from the collection.
 
-Remarks
+#### Remarks
 
 The **_name_** parameter is the natural name of the parameter. That is, the unaltered non-provider-specific name. For example, it would be the "name" value, not the "@name" value (for MS SQL Server) or ":name" (for Oracle).
 

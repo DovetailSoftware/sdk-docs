@@ -1,6 +1,6 @@
 ﻿### ColumnMap Property (IDataObject)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

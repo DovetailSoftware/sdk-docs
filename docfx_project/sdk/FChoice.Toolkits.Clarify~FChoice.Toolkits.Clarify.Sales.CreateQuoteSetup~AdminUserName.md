@@ -2,7 +2,7 @@
 
 Administrator login.  If not set, the current user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

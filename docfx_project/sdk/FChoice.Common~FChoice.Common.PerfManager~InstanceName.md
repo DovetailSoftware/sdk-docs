@@ -2,7 +2,7 @@
 
 Gets the instance name for this application as it will appear in the PerfMon utility
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public string InstanceName {get;}
 
 The instance name for this application as it will appear in the PerfMon utility.
 
-Remarks
+#### Remarks
 
 This value can be set in the application configuration by specifying the "fchoice.perfmoninstancename" _appSetting_, or by specifying a value in the configuration programmatically using [ConfigValues.PERF_INSTANCE_NAME](FChoice.Common~FChoice.Common.ConfigValues~PERF_INSTANCE_NAME.md) constant as the key name.
 

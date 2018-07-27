@@ -2,7 +2,7 @@
 
 Specifies whether (true) or not (false) the first part/rev should be made an alternate of the second part
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

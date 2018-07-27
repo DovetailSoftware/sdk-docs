@@ -2,7 +2,7 @@
 
 FAX number for the account
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

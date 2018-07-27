@@ -1,6 +1,6 @@
 ﻿### BuildUserVersionProc Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

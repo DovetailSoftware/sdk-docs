@@ -1,6 +1,6 @@
 ﻿### CreateActivityLogEntry(Int32,Int32,DateTime,String,ClarifyDataRow,ClarifyDataRow,WorkflowObjectInfo) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

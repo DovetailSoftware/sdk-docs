@@ -1,6 +1,6 @@
 ﻿### Value Property (SoundsLikeFilter)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

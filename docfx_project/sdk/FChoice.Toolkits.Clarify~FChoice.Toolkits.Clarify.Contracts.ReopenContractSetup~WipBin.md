@@ -2,7 +2,7 @@
 
 The WipBin to place the Contract in.  If not set, the contract is placed in the user’s default WipBin.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

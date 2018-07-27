@@ -2,7 +2,7 @@
 
 Sets whether or not new newly created generic objects  convert filters on empty strings into filters on [Queries](fcSDK~FChoice.Foundation.FCGeneric~Query.md) that check Is NULL or IS NOT NULL.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

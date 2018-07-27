@@ -1,6 +1,6 @@
 ﻿### RemoveExpiredStates Method (MsSqlStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

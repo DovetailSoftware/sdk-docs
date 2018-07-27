@@ -4,7 +4,7 @@ Numeric value in seconds to be formatted
 
 Formats an numeric value in seconds into a string "DDD HH MMM" where: D=Days, H=Hours, M=Minutes
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

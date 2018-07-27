@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [StringUtil members](FChoice.Common~FChoice.Common.StringUtil_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

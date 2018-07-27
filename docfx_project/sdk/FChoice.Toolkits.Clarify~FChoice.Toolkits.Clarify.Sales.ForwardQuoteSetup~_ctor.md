@@ -6,7 +6,7 @@ The new queue into which the Quote is to be forwarded.
 
 Initializes a new instance of the ForwardQuoteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

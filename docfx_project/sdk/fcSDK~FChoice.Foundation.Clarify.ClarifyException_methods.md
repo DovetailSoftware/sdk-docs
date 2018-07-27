@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ClarifyException members](fcSDK~FChoice.Foundation.Clarify.ClarifyException_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ﻿### PropertyBitValueAttribute Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

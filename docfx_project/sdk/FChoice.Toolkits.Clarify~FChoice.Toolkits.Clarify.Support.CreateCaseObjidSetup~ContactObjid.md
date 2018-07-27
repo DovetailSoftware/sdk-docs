@@ -2,7 +2,7 @@
 
 Contact Objid that represents the contact for the Case.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

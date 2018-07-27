@@ -1,6 +1,6 @@
 ﻿### ResetTimeout Method (OracleStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

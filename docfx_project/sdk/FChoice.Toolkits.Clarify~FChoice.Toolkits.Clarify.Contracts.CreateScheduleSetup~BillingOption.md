@@ -2,7 +2,7 @@
 
 For any Billing Frequency except "One Time," select whether the customer is billed in advance or after the fact.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

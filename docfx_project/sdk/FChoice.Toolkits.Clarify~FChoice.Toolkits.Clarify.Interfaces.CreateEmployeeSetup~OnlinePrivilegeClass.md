@@ -2,7 +2,7 @@
 
 Online privilege class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

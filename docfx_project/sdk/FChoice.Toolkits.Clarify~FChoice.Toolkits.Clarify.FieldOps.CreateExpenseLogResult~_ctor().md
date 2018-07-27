@@ -1,6 +1,6 @@
 ﻿### CreateExpenseLogResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 **FCSession** contains session information for a logged-in user and allows for manipulation of data in the CRM system as that user.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,13 +16,13 @@ Public MustInherit Class FCSession
 public abstract class FCSession 
 ```
 
-Remarks
+#### Remarks
 
 To create a session, see [FCApplication.CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md).
 
 FCFL.NET sessions are stateful containers that are used to remember information about a user during their session using the system. They also provide access to manipulate data and settings in the CRM system.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 **FChoice.Foundation.FCSession**  

@@ -2,7 +2,7 @@
 
 Gets a reference to the [HierarchicalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElementCollection.md) cache of all user-defined lists in the database
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public IHierarchicalStringListCollection HierarchicalStrings {get;}
 
 A reference to the [HierarchicalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElementCollection.md) cache of all user-defined lists in the database
 
-Remarks
+#### Remarks
 
 The GetHgbst* methods provide an easy-to-use API for accessing user-defined lists. It is recommend that these be used instead of directly accessing the master HGBST collection itself.
 

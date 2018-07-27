@@ -2,7 +2,7 @@
 
 Timezone name
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

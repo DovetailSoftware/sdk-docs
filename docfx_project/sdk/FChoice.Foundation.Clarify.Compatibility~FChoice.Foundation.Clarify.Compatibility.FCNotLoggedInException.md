@@ -1,6 +1,6 @@
 ﻿### FCNotLoggedInException Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,7 +17,7 @@ Public Class FCNotLoggedInException
 public class FCNotLoggedInException : CompatibilityException 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Exception  

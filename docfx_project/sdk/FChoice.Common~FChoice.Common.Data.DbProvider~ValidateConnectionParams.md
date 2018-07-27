@@ -10,7 +10,7 @@ The password to use for authentication
 
 Validates the supplied connection parameters against the rules of the underlying provider
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

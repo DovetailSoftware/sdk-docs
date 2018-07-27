@@ -6,7 +6,7 @@ This overload takes a set of required parameters for the API.
 
 Used to create a new part request header against a subcase.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ Used to create a new part request header against a subcase.
 
 This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 Use this API to explicitly create part request headers for subcases (as opposed to cases or subcases). This is useful if the case ID numbering scheme contains dashes ('-').
 

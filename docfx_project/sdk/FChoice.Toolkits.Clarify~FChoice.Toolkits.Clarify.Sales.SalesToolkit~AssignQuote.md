@@ -4,7 +4,7 @@ Assign the Quote to a new user. This overload takes a set of required parameters
 
 Assign the Quote to a new user.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AssignQuote(AssignQuoteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AssignQuote(AssignQuoteSetup).md) | Assign the Quote to a new user. This overload takes a setup object.   |
 | [AssignQuote(AssignQuoteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AssignQuote(AssignQuoteSetup,IDbTransaction).md) | Assign the Quote to a new user. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Quote must be in the Open condition, and the user assigning the Quote does not have to be the owner of the Quote. In base Clarify, the assigner of a Quote must be the owner. If either user name is not specified, the “current” user is used. The date/time of the assignment, and the WipBin to place the Quote in can also be specified. Allowing a WipBin other than the default one is also an augmentation from base Clarify.
 

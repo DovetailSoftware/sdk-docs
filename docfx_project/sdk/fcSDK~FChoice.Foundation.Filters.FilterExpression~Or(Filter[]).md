@@ -1,6 +1,6 @@
 ﻿### Or(Filter\[\]) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

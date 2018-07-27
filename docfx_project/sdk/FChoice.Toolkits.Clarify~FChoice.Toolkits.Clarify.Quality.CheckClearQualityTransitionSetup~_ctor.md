@@ -12,7 +12,7 @@ The user checking the transition. If not set, the session user is used.
 
 Initializes a new instance of the CheckClearQualityTransitionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

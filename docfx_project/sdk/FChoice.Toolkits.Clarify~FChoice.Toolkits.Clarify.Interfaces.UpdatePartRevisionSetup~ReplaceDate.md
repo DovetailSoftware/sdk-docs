@@ -2,7 +2,7 @@
 
 DateTime this part replaced the previous one.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

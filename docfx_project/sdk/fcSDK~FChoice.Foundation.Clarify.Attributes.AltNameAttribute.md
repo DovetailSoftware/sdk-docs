@@ -1,6 +1,6 @@
 ﻿### AltNameAttribute Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Public Class AltNameAttribute
 public class AltNameAttribute : System.Attribute
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Attribute  

@@ -4,7 +4,7 @@ Contract Identifier.
 
 Initializes a new instance of the CreateScheduleSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -20,7 +20,6 @@ Public Function New( _
 public CreateScheduleSetup( 
    string _contractIDNum_
 )
-```
 ```
 
 #### Parameters

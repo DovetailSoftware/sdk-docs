@@ -1,6 +1,6 @@
 ### schema_rev Property (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### DoesColumnExist Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### SchemaCommonType Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -24,7 +24,7 @@ Members
 | **Integer** |   |
 | **String** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

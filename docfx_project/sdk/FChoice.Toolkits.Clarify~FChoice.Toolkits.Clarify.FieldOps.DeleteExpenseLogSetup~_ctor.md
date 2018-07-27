@@ -4,7 +4,7 @@ The Objid of the Expense Log being deleted.
 
 Initializes a new instance of the DeleteExpenseLogSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

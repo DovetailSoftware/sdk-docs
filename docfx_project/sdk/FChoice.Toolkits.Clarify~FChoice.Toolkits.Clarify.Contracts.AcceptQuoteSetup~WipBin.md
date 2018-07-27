@@ -2,7 +2,7 @@
 
 User's WipBin in which to place the Quote. If not set, the UserName's default is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

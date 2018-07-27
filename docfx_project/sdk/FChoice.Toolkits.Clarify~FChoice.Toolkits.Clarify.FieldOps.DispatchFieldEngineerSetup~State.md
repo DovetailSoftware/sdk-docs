@@ -2,7 +2,7 @@
 
 The state used to overide the default site alternate state.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

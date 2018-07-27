@@ -6,7 +6,7 @@ The provider to use for any database-type-specific operations that UpdateQueryBa
 
 Creates a new instance of a query batch using the specified transaction and a specific provider
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _prov_
 
 The provider to use for any database-type-specific operations that UpdateQueryBatch may need to perform
 
-Remarks
+#### Remarks
 
 The transaction must be open and ready against an open database connection.
 

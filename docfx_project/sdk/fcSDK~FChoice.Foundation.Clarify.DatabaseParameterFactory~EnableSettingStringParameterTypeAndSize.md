@@ -1,6 +1,6 @@
 ﻿### EnableSettingStringParameterTypeAndSize Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

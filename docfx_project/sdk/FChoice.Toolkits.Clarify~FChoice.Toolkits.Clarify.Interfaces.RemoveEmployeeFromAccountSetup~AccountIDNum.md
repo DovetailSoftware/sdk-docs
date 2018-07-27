@@ -2,7 +2,7 @@
 
 Identifier for the Account the Employee will be removed from.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

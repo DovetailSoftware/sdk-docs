@@ -1,10 +1,6 @@
-﻿     FChoice.Foundation.Clarify.Compatibility Assembly                                                   
+﻿### FChoice.Foundation.Clarify.Compatibility Assembly
 
-fcSDK Documentation
-
-FChoice.Foundation.Clarify.Compatibility Assembly
-
-Namespaces
+#### Namespaces
 
 | Namespace | Description |
 | --- | --- |

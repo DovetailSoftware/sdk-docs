@@ -1,6 +1,6 @@
-﻿### FChoice.Foundation.Clarify.Workflow Namespace Inheritance Hierarchy
+﻿### FChoice.Foundation.Clarify.Workflow Namespace #### Inheritance Hierarchy
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.Clarify.Workflow.WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md)  

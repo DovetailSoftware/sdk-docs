@@ -4,7 +4,7 @@ Identifier of the CR being replicated.
 
 Initializes a new instance of the ReplicateCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

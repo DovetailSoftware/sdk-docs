@@ -4,7 +4,7 @@ Yank the Subcase from its current location to a new owner's WipBin. This overloa
 
 Yank the Subcase from its current location to a new owner's WipBin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [YankSubcase(YankSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~YankSubcase(YankSubcaseSetup).md) | Yank the Subcase from its current location to a new owner's WipBin. This overload takes a setup object.   |
 | [YankSubcase(YankSubcaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~YankSubcase(YankSubcaseSetup,IDbTransaction).md) | Yank the Subcase from its current location to a new owner's WipBin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The WipBin to place the Subcase in may also be specified. This is augmented function from base Clarify, where the Subcase is always placed in the default WipBin.
 

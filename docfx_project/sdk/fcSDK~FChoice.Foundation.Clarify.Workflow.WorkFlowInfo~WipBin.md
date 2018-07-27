@@ -1,6 +1,6 @@
 ﻿### WipBin Property (WorkFlowInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

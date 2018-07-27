@@ -1,6 +1,6 @@
 ﻿### PrimaryAlias Property (SchemaViewJoin)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

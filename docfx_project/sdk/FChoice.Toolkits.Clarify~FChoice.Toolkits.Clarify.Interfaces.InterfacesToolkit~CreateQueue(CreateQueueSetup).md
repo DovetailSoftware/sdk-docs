@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Create a Queue. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

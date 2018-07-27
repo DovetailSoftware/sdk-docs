@@ -2,7 +2,7 @@
 
 Username of the supervisor of the Queue
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

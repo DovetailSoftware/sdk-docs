@@ -4,7 +4,7 @@ An instance of an OracleProviderBase implementation that will be used for connec
 
 Executes a query to retrieve the database user's configured NLS format
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

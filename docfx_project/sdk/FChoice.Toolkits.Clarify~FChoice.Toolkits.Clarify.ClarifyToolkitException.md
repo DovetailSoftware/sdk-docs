@@ -1,6 +1,6 @@
 ﻿### ClarifyToolkitException Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class ClarifyToolkitException
 public class ClarifyToolkitException : System.Exception
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Exception  

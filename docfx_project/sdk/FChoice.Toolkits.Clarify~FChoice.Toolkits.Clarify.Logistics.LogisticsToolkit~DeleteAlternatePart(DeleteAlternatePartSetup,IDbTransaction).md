@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Causes the second part/revision listed to be removed as an alternate part for the first. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

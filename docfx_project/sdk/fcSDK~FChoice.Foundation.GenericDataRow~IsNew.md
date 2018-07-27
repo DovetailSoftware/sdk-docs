@@ -2,7 +2,7 @@
 
 Gets a value indicating whether the current [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) was [added](/sdk/fcSDK~FChoice.Foundation.FCGeneric~AddNew.md) and not yet [committed](fcSDK~FChoice.Foundation.FCGeneric~Update.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

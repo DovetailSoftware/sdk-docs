@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ClarifySessionData members](fcSDK~FChoice.Foundation.Clarify.ClarifySessionData_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ﻿### Accept Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

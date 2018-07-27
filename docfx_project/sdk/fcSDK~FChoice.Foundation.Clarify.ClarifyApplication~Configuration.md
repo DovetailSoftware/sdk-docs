@@ -2,7 +2,7 @@
 
 Collection of application parameters being used by the application object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public NameValueCollection Configuration {get;}
 
 Collection of application parameters being used by the application object.
 
-Remarks
+#### Remarks
 
 The values in this collection are populated by the application configuration file.
 

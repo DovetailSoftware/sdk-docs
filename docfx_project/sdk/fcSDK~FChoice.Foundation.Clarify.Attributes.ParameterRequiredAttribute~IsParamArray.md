@@ -1,6 +1,6 @@
 ﻿### isParamArray Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### StateTimeout Property (StateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

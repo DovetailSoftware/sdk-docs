@@ -20,7 +20,7 @@ Quantity of parts to be reordered for this inventory location when reorder level
 
 Initializes a new instance of the SetPartStockingLevelSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

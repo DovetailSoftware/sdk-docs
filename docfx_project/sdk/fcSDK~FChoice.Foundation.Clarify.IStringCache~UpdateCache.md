@@ -1,6 +1,6 @@
 ﻿### UpdateCache Method (IStringCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

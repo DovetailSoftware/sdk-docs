@@ -2,7 +2,7 @@
 
 Specifies if activity entry records should be created.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

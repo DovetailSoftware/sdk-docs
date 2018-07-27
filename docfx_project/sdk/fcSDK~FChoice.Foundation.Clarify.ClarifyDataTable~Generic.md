@@ -1,6 +1,6 @@
 ﻿### Generic Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

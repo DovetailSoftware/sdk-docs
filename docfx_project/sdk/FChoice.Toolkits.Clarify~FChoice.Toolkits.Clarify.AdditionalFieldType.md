@@ -2,7 +2,7 @@
 
 The type of database field being updated by the [AdditionalField](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.md) property.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -24,7 +24,7 @@ Members
 | **Long** | Database integer type |
 | **String** | Database string type (Char, Varchar, Text) |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

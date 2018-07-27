@@ -4,7 +4,7 @@ Formats an numeric value in seconds into a string "DDD HH MMM" where: D=Days, H
 
 Formats a given span of time into the string "DDD HH MMM" where: D=Days, H=Hours, M=Minutes
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

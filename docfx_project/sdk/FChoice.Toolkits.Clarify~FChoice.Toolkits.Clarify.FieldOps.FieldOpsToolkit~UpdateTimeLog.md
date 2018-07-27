@@ -4,7 +4,7 @@ Used to modify an existing time log. This overload takes a setup object and a d
 
 Used to modify an existing time log.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

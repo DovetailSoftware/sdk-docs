@@ -1,13 +1,13 @@
 ﻿### CacheUpdated Event (ILocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
 
 Event CacheUpdated As EventHandler
 ```
-```csharp
+csharp
 event EventHandler CacheUpdated
 ```
 

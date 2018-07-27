@@ -2,7 +2,7 @@
 
 The length of time prior to the due date that a warning should be issued.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

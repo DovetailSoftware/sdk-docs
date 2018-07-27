@@ -1,6 +1,6 @@
 ﻿### is_it_unicode Method (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

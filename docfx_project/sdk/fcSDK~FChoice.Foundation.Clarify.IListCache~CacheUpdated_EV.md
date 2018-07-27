@@ -1,12 +1,13 @@
 ﻿### CacheUpdated Event (IListCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
 
 Event CacheUpdated As EventHandler
 ```
+
 ```csharp
 event EventHandler CacheUpdated
 ```

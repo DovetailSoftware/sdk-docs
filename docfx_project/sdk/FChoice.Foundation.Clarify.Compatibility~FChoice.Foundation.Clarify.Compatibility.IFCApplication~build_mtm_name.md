@@ -1,6 +1,6 @@
 ﻿### build_mtm_name Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

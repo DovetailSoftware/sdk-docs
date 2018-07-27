@@ -6,7 +6,7 @@ Identifier of the Site where the Site Part will be re-installed
 
 Initializes a new instance of the ReinstallSitePartToSiteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

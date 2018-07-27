@@ -1,6 +1,6 @@
 ﻿### AutoDestRule Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class AutoDestRule
 public class AutoDestRule
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.AutoDest.AutoDestRule**  

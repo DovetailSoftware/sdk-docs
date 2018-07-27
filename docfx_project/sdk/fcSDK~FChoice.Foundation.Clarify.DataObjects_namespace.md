@@ -1,8 +1,4 @@
-﻿     FChoice.Foundation.Clarify.DataObjects Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Foundation.Clarify.DataObjects Namespace
+﻿### FChoice.Foundation.Clarify.DataObjects Namespace
 
 The **FChoice.Foundation.Clarify.DataObjects** namespace contains classes which represent commonly used objects in the Clarify system such as user-defined lists, countries/states/timezones, and localized strings.
 

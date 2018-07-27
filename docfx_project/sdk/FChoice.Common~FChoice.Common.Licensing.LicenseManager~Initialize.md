@@ -2,7 +2,7 @@
 
 License Manager is initialized automatically during application initialization.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

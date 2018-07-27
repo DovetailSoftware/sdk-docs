@@ -1,6 +1,6 @@
 ﻿### CommunicationAddress Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class CommunicationAddress
 public class CommunicationAddress 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.CommunicationAddress**  

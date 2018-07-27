@@ -2,7 +2,7 @@
 
 Retrieves an instance of a CaseTimeAndExpenses object that can be used to specify "none specified" when setting the [CloseSums](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup~CloseSums.md) on the [CloseCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup.md) object
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Element from the 'Installed Prod Sched Class' application list. If not set the default list value is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

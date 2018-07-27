@@ -1,6 +1,6 @@
 ﻿### AppendFilter Method (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

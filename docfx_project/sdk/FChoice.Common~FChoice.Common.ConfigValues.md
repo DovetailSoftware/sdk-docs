@@ -4,7 +4,7 @@ ConfigValues Class
 
 ConfigValues is a collection of string constants used for strongly-typing the keys used to access the common configuration items in the [FCConfiguration](FChoice.Common~FChoice.Common.FCConfiguration.md) collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,11 +16,11 @@ Public MustInherit NotInheritable Class ConfigValues
 public static class ConfigValues 
 ```
 
-Remarks
+#### Remarks
 
 ConfigValues is used similar to .NET enumeration type.
 
-Example
+#### Example
 
 ```csharp
 string connStr = FCConfiguration.Current[ConfigValues.CONNECT_STRING];
@@ -30,7 +30,7 @@ string connStr = FCConfiguration.Current[ConfigValues.CONNECT_STRING];
 Dim connStr As String = FCConfiguration.Current(ConfigValues.CONNECT_STRING)
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 

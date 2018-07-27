@@ -1,6 +1,6 @@
 ﻿### CompatibilityApplicationClock Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

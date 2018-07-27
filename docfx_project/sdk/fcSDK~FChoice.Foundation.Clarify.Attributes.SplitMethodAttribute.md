@@ -1,6 +1,6 @@
 ﻿### SplitMethodAttribute Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ Public Class SplitMethodAttribute
 public class SplitMethodAttribute : System.Attribute
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Attribute  

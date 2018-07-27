@@ -4,7 +4,7 @@ The Objid of the Service Interuption being deleted.
 
 Initializes a new instance of the DeleteServiceInterruptionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

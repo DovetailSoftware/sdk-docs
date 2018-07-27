@@ -4,7 +4,7 @@ Cause the specified Opportunity to have its status changed. This overload takes
 
 Cause the specified Opportunity to have its status changed.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ChangeOpportunityStatus(ChangeOpportunityStatusSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ChangeOpportunityStatus(ChangeOpportunityStatusSetup).md) | Cause the specified Opportunity to have its status changed. This overload takes a setup object.   |
 | [ChangeOpportunityStatus(ChangeOpportunityStatusSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ChangeOpportunityStatus(ChangeOpportunityStatusSetup,IDbTransaction).md) | Cause the specified Opportunity to have its status changed. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The object may be in any valid condition, but the status selected MUST be valid for the current condition. The API can also generate a time bomb (for business rule notification).
 

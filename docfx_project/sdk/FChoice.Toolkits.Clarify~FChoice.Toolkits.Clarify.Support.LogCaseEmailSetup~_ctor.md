@@ -4,7 +4,7 @@ Identifier of the Case against which the email is being logged.
 
 Initializes a new instance of the LogCaseEmailSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

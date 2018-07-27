@@ -2,13 +2,13 @@
 
 The following tables list the members exposed by [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png)![static (Shared in Visual Basic)](dotnetimages/static.png) | [GuidColumnName](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~GuidColumnName.md) |   |
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ Sets whether or not this **FCGeneric** will have the DataRestrictions feature en
 | ![Public Property](dotnetimages/publicProperty.png) | [SyncRoot](fcSDK~FChoice.Foundation.FCGeneric~SyncRoot.md) | Gets an object that can be used to synchronize access to the **FCGeneric**. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TableName](fcSDK~FChoice.Foundation.FCGeneric~TableName.md) | Returns the name of the database table this FCGeneric is based on. (Inherited from [FChoice.Foundation.FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)) |
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

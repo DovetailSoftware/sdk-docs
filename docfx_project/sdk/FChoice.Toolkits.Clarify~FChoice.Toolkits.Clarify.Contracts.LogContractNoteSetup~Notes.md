@@ -2,7 +2,7 @@
 
 The notes being logged to the Contract.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

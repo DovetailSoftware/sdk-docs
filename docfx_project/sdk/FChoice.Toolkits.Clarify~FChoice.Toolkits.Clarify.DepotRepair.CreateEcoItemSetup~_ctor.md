@@ -12,7 +12,7 @@ The objid of resulting part revision after applying the ECO, or 0 for no chang
 
 Initializes a new instance of the CreateEcoItemSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

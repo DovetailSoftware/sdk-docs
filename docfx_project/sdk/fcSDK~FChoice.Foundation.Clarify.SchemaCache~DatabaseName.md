@@ -1,6 +1,6 @@
 ﻿### DatabaseName Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

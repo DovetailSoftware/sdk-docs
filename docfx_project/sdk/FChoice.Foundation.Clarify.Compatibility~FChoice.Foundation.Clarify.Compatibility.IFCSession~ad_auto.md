@@ -1,6 +1,6 @@
 ﻿### ad_auto Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

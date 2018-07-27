@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [TypeMapper](FChoice.Common~FChoice.Common.Data.TypeMapper.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

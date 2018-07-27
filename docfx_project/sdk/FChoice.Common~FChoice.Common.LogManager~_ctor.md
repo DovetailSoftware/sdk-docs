@@ -1,6 +1,6 @@
 ﻿### LogManager Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

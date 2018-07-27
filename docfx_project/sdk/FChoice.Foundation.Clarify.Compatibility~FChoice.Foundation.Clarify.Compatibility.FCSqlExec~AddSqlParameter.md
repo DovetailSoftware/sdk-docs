@@ -1,6 +1,6 @@
 ﻿### AddSqlParameter Method (FCSqlExec)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### ISchemaRelationCollection Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

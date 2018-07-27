@@ -1,6 +1,6 @@
 ﻿### Intersects Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

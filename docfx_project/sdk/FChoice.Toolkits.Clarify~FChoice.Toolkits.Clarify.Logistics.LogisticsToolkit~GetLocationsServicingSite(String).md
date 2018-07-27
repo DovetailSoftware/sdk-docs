@@ -4,7 +4,7 @@ Identifier of the Site that the inventory locations are servicing
 
 Returns a list of the locations (in the proper order) servicing this site. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [ISchemaView](fcSDK~FChoice.Foundation.Schema.ISchemaView.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

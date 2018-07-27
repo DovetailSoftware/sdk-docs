@@ -2,7 +2,7 @@
 
 Summary information about the closure.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

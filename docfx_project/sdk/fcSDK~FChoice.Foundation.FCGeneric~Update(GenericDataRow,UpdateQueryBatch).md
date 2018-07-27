@@ -6,7 +6,7 @@ Batch under which to do this update.
 
 Updates changes to a single GenericDataRow as part of a batch operation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _batch_
 
 Batch under which to do this update.
 
-Remarks
+#### Remarks
 
 This method commits any changes to this to the database.
 

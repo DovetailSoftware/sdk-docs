@@ -2,7 +2,7 @@
 
 The short description of the Appointment.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

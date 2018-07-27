@@ -10,7 +10,7 @@ Type of repair. One of "Repairable" or "Expendable"
 
 Initializes a new instance of the CreatePartSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

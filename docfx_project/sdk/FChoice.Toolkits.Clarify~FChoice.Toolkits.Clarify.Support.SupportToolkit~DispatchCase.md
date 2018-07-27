@@ -4,7 +4,7 @@ Dispatch the Case to the specified queue. This overload takes a set of required 
 
 Dispatch the Case to the specified queue.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [DispatchCase(DispatchCaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~DispatchCase(DispatchCaseSetup).md) | Dispatch the Case to the specified queue. This overload takes a setup object.   |
 | [DispatchCase(DispatchCaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~DispatchCase(DispatchCaseSetup,IDbTransaction).md) | Dispatch the Case to the specified queue. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Case must be in open condition, and not currently dispatched to a queue.
 

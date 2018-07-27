@@ -1,6 +1,6 @@
 ﻿### ImpersonatorUsername Property (LogisticsToolkitBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

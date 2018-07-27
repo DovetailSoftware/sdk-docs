@@ -1,6 +1,6 @@
 ﻿### SplitMethodAttribute Constructor(String)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

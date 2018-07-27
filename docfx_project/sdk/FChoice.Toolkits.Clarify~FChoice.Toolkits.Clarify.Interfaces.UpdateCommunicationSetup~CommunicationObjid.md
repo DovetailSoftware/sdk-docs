@@ -2,7 +2,7 @@
 
 The unique identifier for the communication to update.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

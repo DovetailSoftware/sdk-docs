@@ -1,6 +1,6 @@
 ﻿### LocaleID Property (IGlobalStringList)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

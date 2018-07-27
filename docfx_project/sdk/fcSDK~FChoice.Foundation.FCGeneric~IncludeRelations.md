@@ -2,7 +2,7 @@
 
 Queries will retrieve all relation fields for the Generic
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

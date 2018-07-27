@@ -2,7 +2,7 @@
 
 Specifies whether the received inventory is (true) or is not (false) properly packed
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

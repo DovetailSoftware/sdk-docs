@@ -2,7 +2,7 @@
 
 The exception that is thrown when an error occurs in the [Generic](fcSDK~FChoice.Foundation.FCGeneric.md) classes in Foundation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,7 +17,7 @@ Public Class GenericException
 public class GenericException : FoundationException
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Exception  

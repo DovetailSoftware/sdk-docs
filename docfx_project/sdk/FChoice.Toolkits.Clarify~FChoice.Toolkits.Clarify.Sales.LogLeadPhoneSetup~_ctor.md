@@ -12,7 +12,7 @@ Time that the phone call lasted.
 
 Initializes a new instance of the LogLeadPhoneSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### ExecuteScalar(IDbTransaction,CommandType,String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

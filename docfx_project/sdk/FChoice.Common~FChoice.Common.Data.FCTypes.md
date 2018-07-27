@@ -2,7 +2,7 @@
 
 This class is not currently used and is intended for future products.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public NotInheritable Class FCTypes
 public sealed class FCTypes 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.Data.FCTypes**  

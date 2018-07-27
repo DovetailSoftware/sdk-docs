@@ -4,7 +4,7 @@ Identifier of the CR being logged.
 
 Initializes a new instance of the LogCREmailSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

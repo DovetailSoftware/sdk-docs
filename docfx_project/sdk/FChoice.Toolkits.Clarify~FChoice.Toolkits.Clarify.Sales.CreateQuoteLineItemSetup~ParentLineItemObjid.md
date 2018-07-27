@@ -2,7 +2,7 @@
 
 The objid of the parent line item.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Property ParentLineItemObjid As Integer
 public int ParentLineItemObjid {get; set;}
 ```
 
-Remarks
+#### Remarks
 
 If this line item will be a parent line item, set this property to –1. Otherwise, set it to the objid of the parent line item in the field. It will be made a child of the parent line item. If the line item is to be a stand-alone item (the item is not a parent or child), set this value to –2.
 

@@ -1,6 +1,6 @@
 ﻿### CommitmentPriorWarning Property (LogCaseInternalNoteSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

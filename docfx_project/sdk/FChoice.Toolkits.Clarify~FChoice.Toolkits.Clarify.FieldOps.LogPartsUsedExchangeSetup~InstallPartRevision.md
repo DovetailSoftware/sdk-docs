@@ -2,7 +2,7 @@
 
 The Part Revision of the part being installed
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

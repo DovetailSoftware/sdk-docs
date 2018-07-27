@@ -1,6 +1,6 @@
 ﻿### ParentGeneric Property (ClarifyDataRow)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Notes about the Onsite Log.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

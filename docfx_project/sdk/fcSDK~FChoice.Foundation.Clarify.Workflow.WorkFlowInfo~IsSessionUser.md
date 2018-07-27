@@ -1,6 +1,6 @@
 ﻿### IsSessionUser Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

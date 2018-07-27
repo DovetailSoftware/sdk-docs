@@ -1,6 +1,6 @@
 ﻿### UtcOffsetSeconds Property (FCTimeZone)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

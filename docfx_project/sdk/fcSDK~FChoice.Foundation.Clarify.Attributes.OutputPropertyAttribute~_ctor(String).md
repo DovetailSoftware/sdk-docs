@@ -1,6 +1,6 @@
 ﻿### OutputPropertyAttribute Constructor(String)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

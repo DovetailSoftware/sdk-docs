@@ -4,7 +4,7 @@ Changes the contact for a Case. This overload takes a set of required parameters
 
 Changes the contact for a Case.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ChangeCaseContact(ChangeCaseContactSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeCaseContact(ChangeCaseContactSetup).md) | Changes the contact for a Case. This overload takes a setup object.   |
 | [ChangeCaseContact(ChangeCaseContactSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeCaseContact(ChangeCaseContactSetup,IDbTransaction).md) | Changes the contact for a Case. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Case phone and alternate phone are also changed.
 

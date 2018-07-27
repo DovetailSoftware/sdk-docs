@@ -2,7 +2,7 @@
 
 Gets the custom [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) if one is specified.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

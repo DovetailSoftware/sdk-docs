@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Dispatch the FieldEngineer to the specified queue. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Dispatch FE record.
 
-Remarks
+#### Remarks
 
 The FieldEngineer must be in open condition, and not currently dispatched to a queue.
 

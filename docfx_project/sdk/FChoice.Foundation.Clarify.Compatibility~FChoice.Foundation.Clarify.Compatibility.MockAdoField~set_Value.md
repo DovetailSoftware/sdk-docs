@@ -1,10 +1,6 @@
 ﻿### set_Value Method (MockAdoField)
 
-fcSDK Documentation
-
-set_Value Method (MockAdoField)
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

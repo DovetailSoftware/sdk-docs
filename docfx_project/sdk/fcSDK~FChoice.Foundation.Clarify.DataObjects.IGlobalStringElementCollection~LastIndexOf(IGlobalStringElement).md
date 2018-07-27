@@ -1,6 +1,6 @@
 ﻿### LastIndexOf(IGlobalStringElement) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

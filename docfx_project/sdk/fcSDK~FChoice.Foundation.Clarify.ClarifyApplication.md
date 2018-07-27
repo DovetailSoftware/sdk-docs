@@ -2,7 +2,7 @@
 
 **ClarifyApplication** is the starting point for using **FCFL.NET** against a Clarify database system.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,13 +16,13 @@ Public Class ClarifyApplication
 public class ClarifyApplication : FChoice.Foundation.FCApplication, IClarifyApplication
 ```
 
-Remarks
+#### Remarks
 
 [Initialize](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~Initialize.md) connects **ClarifyApplication** to the Clarify database and loads the cache and data object hierarchy.
 
 Once the application is initialized, you can access cache data like the [SchemaCache](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~SchemaCache.md), [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~ConfigItemCache.md), [LocaleCache](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~LocaleCache.md), [ListCache](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~ListCache.md), and [StringCache](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~StringCache.md), or you can create session using [CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md) and access the managed data access functionality using [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md).
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 [FChoice.Foundation.FCApplication](fcSDK~FChoice.Foundation.FCApplication.md)  

@@ -1,6 +1,6 @@
 ﻿### Hours Property (UpdateContactByObjidSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

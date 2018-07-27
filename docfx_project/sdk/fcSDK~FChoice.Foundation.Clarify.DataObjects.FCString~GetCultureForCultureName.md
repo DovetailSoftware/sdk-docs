@@ -1,6 +1,6 @@
 ﻿### GetCultureForCultureName Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

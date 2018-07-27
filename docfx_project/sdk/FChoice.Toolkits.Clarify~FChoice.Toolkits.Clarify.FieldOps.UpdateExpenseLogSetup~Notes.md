@@ -2,7 +2,7 @@
 
 Notes that will update the notes field on the onsite log
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

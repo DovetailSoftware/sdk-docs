@@ -1,6 +1,6 @@
 ﻿### IsDebugEnabled Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

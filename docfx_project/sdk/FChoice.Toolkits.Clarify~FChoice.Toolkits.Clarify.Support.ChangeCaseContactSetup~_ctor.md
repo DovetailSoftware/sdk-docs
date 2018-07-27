@@ -10,7 +10,7 @@ Contact's phone number.
 
 Initializes a new instance of the ChangeCaseContactSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

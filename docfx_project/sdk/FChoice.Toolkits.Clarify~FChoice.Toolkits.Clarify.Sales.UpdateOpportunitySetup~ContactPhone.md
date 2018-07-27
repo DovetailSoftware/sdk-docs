@@ -2,7 +2,7 @@
 
 Contact's phone number.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

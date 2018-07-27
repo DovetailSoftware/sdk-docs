@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [DataObjectCollection<T> members](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

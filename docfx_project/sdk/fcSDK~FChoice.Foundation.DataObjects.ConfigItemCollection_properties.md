@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ConfigItemCollection members](fcSDK~FChoice.Foundation.DataObjects.ConfigItemCollection_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 Should an activity log be created?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

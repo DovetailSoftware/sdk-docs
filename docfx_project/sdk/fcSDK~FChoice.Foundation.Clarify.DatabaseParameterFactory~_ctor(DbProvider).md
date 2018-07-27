@@ -1,6 +1,6 @@
 ﻿### DatabaseParameterFactory Constructor(DbProvider)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

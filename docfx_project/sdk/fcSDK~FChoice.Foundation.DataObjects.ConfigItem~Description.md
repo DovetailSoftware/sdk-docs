@@ -1,6 +1,6 @@
 ﻿### Description Property (ConfigItem)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

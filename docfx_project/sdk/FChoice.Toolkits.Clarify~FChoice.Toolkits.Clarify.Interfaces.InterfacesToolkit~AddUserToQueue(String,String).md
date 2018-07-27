@@ -6,7 +6,7 @@ Username of the user being added to the Queue.
 
 Add a User to a Queue. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

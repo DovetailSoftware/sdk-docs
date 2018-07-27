@@ -4,7 +4,7 @@ The Id Number of the related Part Request Detail (if any)
 
 The Objid of the Site Part being removed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

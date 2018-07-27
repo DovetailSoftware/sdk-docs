@@ -1,6 +1,6 @@
 ﻿### ChangeGenericsOrdering Method (FCBulk)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

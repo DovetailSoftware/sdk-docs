@@ -2,7 +2,7 @@
 
 Caches and provides convenient access to ADP Schema information
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class SchemaCache
 public class SchemaCache : ClarifyCacheBase, FChoice.Foundation.Schema.ISchemaCache
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)  

@@ -1,8 +1,4 @@
-﻿     AppendFilterInList(String,Boolean,DateTime\[\]) Method                                                   
-
-fcSDK Documentation
-
-AppendFilterInList(String,Boolean,DateTime\[\]) Method
+﻿### AppendFilterInList(String,Boolean,DateTime\[\]) Method
 
 Name of the field the filter will be constraining.
 
@@ -12,7 +8,7 @@ Array of values to filter on
 
 Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) against a list of possible DateTime values**.**
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

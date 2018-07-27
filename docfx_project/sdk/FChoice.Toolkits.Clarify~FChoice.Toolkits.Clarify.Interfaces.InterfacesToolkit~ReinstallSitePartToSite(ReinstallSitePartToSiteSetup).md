@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Re-Install a Site Part under a Site. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Change Request Identifier
 
 Initializes a new instance of the CloseCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

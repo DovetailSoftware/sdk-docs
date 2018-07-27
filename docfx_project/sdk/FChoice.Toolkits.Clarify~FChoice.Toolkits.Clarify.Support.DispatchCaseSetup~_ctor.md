@@ -6,7 +6,7 @@ The queue into which the Case is to be dispatched.
 
 Initializes a new instance of the DispatchCaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

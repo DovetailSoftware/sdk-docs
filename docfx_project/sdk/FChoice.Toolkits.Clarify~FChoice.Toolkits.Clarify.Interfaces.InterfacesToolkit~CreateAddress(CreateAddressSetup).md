@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Creates a new Address. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

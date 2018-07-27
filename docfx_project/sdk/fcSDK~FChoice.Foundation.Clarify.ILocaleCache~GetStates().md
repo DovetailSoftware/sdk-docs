@@ -1,6 +1,6 @@
 ﻿### GetStates() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Current name of the inventory location
 
 Initializes a new instance of the UpdateInventoryLocationSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

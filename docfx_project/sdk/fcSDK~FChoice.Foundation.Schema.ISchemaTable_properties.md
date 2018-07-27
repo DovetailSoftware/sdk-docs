@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ISchemaTable members](fcSDK~FChoice.Foundation.Schema.ISchemaTable_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

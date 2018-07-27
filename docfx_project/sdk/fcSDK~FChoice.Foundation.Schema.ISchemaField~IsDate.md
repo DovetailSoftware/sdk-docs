@@ -1,6 +1,6 @@
 ﻿### IsDate Method (ISchemaField)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

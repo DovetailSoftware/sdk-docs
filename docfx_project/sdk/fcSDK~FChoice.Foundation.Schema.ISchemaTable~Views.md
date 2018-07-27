@@ -1,6 +1,6 @@
 ﻿### Views Property (ISchemaTable)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

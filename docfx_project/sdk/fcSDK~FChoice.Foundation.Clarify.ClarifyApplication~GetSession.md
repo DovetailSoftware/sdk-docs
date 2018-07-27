@@ -4,7 +4,7 @@ The globally unique identifier for the desired session.
 
 Retrieves an ClarifySession previously created by [CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,13 +30,13 @@ The globally unique identifier for the desired session.
 
 The ClarifySession with the specified **_sessionID_**.
 
-Exceptions
+#### Exceptions
 
 | Exception | Description |
 | --- | --- |
 | [ClarifyException](fcSDK~FChoice.Foundation.Clarify.ClarifyException.md) | A session with the specified ID does not exist or has been closed. |
 
-Remarks
+#### Remarks
 
 The ID of a session is accessible via the [SessionID](fcSDK~FChoice.Foundation.FCSession~SessionID.md) property.
 

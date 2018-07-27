@@ -1,6 +1,6 @@
 ﻿### DefaultTimeZone Property (FCTimeZoneCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

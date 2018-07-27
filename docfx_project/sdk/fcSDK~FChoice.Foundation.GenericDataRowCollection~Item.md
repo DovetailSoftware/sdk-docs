@@ -6,7 +6,7 @@ Gets the row at the specified index.
 
 In C#, this property is the indexer for the **GenericDataRowCollection** class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The zero-based index of the row to return.
 
 The specified [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md).
 
-Remarks
+#### Remarks
 
 Use the [Contains](fcSDK~FChoice.Foundation.GenericDataRowCollection~Contains.md) method to determine if a given value exists in the key column of a row.
 

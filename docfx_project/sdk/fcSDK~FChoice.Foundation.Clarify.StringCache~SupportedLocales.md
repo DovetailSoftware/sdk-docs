@@ -2,7 +2,7 @@
 
 Returns list of supported locales. Each fc_string has a locale, so all distinct locales are returned by this method.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

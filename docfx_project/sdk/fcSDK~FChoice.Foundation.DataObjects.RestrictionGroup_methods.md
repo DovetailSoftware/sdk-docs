@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [RestrictionGroup members](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

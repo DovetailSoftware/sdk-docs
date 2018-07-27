@@ -1,6 +1,6 @@
 ﻿### RemoveState Method (OracleStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ The name of the logger to retrieve.
 
 Retrieves a logger for the given logger name.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The name of the logger to retrieve.
 
 The logger configured for the specified logger name.
 
-Remarks
+#### Remarks
 
 It is generally a good idea to declare a logger once at the top of your class as a static member. Though this method does very little and has very little impact on performance, it makes the code easier to read by having access to the log whenever and wherever rather than being forced to retrieve it every time it's needed.
 

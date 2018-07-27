@@ -2,7 +2,7 @@
 
 Salutation for the Contact
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

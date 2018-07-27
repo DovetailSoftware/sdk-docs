@@ -2,7 +2,7 @@
 
 The user who is changing the opportunity stage. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

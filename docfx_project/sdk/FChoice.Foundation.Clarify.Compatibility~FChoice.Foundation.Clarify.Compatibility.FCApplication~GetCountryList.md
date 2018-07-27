@@ -1,6 +1,6 @@
 ﻿### GetCountryList Method (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

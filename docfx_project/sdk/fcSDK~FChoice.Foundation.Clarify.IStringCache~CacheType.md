@@ -1,6 +1,6 @@
 ﻿### CacheType Property (IStringCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

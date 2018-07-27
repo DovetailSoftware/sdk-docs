@@ -1,6 +1,6 @@
 ﻿### SimpleQuery Method (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

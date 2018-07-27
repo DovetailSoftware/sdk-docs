@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ColumnBasedFilter members](fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

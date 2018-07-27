@@ -1,6 +1,6 @@
 ﻿### db_type Property (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -12,7 +12,7 @@ The user checking the transition. If not set, the session user is used.
 
 Determine if a user can change status from an old condition/status to a new condition/status. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -62,7 +62,7 @@ The user checking the transition. If not set, the session user is used.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 Checks the transitions as set up in Clarify’s Policies & Customers.
 

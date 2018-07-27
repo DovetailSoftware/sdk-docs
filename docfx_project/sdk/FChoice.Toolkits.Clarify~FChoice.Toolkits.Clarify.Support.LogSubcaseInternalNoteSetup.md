@@ -1,6 +1,6 @@
 ﻿### LogSubcaseInternalNoteSetup Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class LogSubcaseInternalNoteSetup
 public class LogSubcaseInternalNoteSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.LogSubcaseInternalNoteSetup**  

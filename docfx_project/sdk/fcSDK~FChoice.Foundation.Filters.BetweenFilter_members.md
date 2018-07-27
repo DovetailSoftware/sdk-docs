@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [BetweenFilter](fcSDK~FChoice.Foundation.Filters.BetweenFilter.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

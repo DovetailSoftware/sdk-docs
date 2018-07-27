@@ -2,7 +2,7 @@
 
 Clears all sort operations that have been [appended](fcSDK~FChoice.Foundation.FCGeneric~AppendSort.md) to this generic.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

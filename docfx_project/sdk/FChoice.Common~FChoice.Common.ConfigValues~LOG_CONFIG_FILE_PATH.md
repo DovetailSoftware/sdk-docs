@@ -1,6 +1,6 @@
 ﻿### LOG_CONFIG_FILE_PATH Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

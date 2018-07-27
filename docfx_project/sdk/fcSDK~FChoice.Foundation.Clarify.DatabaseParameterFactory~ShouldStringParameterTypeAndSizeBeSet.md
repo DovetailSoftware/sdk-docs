@@ -1,6 +1,6 @@
 ﻿### ShouldStringParameterTypeAndSizeBeSet Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

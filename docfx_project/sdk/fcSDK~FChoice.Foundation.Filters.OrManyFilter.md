@@ -2,7 +2,7 @@
 
 Alternative filter to [OrFilter](fcSDK~FChoice.Foundation.Filters.OrFilter.md) which allows for more than two sub filters.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class OrManyFilter
 public class OrManyFilter : LogicalFilter 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  

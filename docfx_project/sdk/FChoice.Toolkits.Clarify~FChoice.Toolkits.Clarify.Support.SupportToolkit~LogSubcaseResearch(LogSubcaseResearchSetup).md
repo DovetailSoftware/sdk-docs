@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Creates a research log against a Subcase. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ The following values are populated in the LogSubcaseResearchResult object return
 *   CommitmentObjid \- The Objid of the Commitment.
 *   Objid \- The Objid of the Log.
 
-Remarks
+#### Remarks
 
 It is possible to create a Commitment with this log. To do so set the CommitmentDueDate and CommitmentTitle and IsCommitmentToCustomer properties
 

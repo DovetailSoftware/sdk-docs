@@ -2,7 +2,7 @@
 
 Element from the 'Note Log Action Type' user defined list. If not set, the default list value is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

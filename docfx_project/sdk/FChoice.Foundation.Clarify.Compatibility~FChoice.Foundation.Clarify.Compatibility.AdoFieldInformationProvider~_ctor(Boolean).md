@@ -1,6 +1,6 @@
 ﻿### AdoFieldInformationProvider Constructor(Boolean)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

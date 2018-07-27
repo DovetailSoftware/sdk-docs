@@ -1,6 +1,6 @@
 ﻿### IsPrimaryBinSuggestion Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

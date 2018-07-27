@@ -1,6 +1,6 @@
 ﻿### WipBinID Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### ClarifyAuthenticationService Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class ClarifyAuthenticationService
 public class ClarifyAuthenticationService
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.ClarifyAuthenticationService**  

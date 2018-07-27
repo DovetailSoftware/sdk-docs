@@ -4,7 +4,7 @@ Reject-forward the Subcase from one queue to another. This overload takes a set 
 
 Reject-forward the Subcase from one queue to another.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ForwardSubcase(ForwardSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ForwardSubcase(ForwardSubcaseSetup).md) | Reject-forward the Subcase from one queue to another. This overload takes a setup object.   |
 | [ForwardSubcase(ForwardSubcaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ForwardSubcase(ForwardSubcaseSetup,IDbTransaction).md) | Reject-forward the Subcase from one queue to another. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Subcase must be in open condition, and not currently dispatched to a queue.
 

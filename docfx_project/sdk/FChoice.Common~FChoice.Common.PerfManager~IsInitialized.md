@@ -1,6 +1,6 @@
 ﻿### IsInitialized Property (PerfManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

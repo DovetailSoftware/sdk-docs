@@ -1,6 +1,6 @@
 ﻿### ValidateLockdownData Method (XmlLicenseTool)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

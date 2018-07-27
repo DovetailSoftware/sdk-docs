@@ -2,7 +2,7 @@
 
 Is the ECO item active (true) or inactive (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

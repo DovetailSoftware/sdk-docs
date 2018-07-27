@@ -1,6 +1,6 @@
 ﻿### ToolkitVisibleAttribute Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Public Class ToolkitVisibleAttribute
 public class ToolkitVisibleAttribute : System.Attribute 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Attribute  

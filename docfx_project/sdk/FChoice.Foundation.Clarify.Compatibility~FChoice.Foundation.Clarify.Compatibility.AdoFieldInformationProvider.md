@@ -1,6 +1,6 @@
 ﻿### AdoFieldInformationProvider Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class AdoFieldInformationProvider
 public class AdoFieldInformationProvider 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.Compatibility.AdoFieldInformationProvider**  

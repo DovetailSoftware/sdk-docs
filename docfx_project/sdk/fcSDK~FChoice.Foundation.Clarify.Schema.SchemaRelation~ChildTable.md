@@ -1,6 +1,6 @@
 ﻿### ChildTable Property (SchemaRelation)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

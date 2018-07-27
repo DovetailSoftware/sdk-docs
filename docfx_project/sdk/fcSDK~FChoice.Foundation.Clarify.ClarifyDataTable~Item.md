@@ -1,6 +1,6 @@
 ﻿### Item Property (ClarifyDataTable)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

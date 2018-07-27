@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Delete a Depot Repair Material. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

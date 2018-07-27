@@ -2,7 +2,7 @@
 
 Provides a way of customized data access using [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) objects that abstract database access
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public NotInheritable Class DbProviderFactory
 public sealed class DbProviderFactory 
 ```
 
-Remarks
+#### Remarks
 
 For more information on customizing the data providers that DbProviderFactory can produce, please see the guide to [Configuring Custom Data Providers](/articles/configuring-database-providers.md).
 
@@ -22,7 +22,7 @@ For more information on creating a custom data provider, see the [DbProvider Cla
 
 This class and all its methods and properties are thread safe.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.Data.DbProviderFactory**  

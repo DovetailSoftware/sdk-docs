@@ -2,7 +2,7 @@
 
 Used by the [CreateContractLineItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~CreateContractLineItem(CreateContractLineItemSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class CreateContractLineItemSetup
 public class CreateContractLineItemSetup 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup**  

@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [LogCaseResearchResult members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchResult_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -4,7 +4,7 @@ The new password for the **FCSession** user
 
 Change the password for the session user.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _newPassword_
 
 The new password for the **FCSession** user
 
-Remarks
+#### Remarks
 
 [SetPassword](fcSDK~FChoice.Foundation.FCSession~SetPassword.md) allows changing the password of a non session user.
 

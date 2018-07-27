@@ -2,7 +2,7 @@
 
 Element from the 'Case Type' application defined list. If not set, no change is made.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

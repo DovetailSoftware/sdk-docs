@@ -6,7 +6,7 @@ The text command to execute. The default value is an empty string ("").
 
 Creates a new instance of SqlHelper with the specified [CommandType](FChoice.Common~FChoice.Common.Data.SqlHelper~CommandType.md) and command text (SQL statement)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _cmdTxt_
 
 The text command to execute. The default value is an empty string ("").
 
-Remarks
+#### Remarks
 
 When the _inCmdType_ parameter is set to **StoredProcedure**, set the _cmdText_ parameter to the name of the stored procedure. The user may be required to use escape character syntax if the stored procedure name contains any special characters. The command will call this stored procedure when you call one of the Execute methods.
 

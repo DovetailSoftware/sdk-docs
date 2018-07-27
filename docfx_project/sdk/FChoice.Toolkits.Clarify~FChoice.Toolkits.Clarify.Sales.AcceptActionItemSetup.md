@@ -2,7 +2,7 @@
 
 Used by the [AcceptActionItem](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AcceptActionItem(AcceptActionItemSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class AcceptActionItemSetup
 public class AcceptActionItemSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup**  

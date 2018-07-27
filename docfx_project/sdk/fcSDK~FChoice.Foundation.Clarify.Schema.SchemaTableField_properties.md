@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [SchemaTableField members](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableField_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

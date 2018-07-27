@@ -1,6 +1,6 @@
 ﻿### RelateByID Method (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

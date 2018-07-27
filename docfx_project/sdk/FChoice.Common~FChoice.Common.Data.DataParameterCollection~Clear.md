@@ -2,7 +2,7 @@
 
 Removes all parameters from this collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Sub Clear()
 public void Clear()
 ```
 
-Remarks
+#### Remarks
 
 All parameters will be removed from the collection and the [Count](FChoice.Common~FChoice.Common.Data.DataParameterCollection~Count.md) property will be set to zero.
 

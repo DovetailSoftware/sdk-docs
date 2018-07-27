@@ -2,7 +2,7 @@
 
 The ID of the message for the communication.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

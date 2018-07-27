@@ -6,7 +6,7 @@ The new WipBin into which the ActionItem is to be moved.
 
 Initializes a new instance of the MoveActionItemSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

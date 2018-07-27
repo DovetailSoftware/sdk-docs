@@ -1,6 +1,6 @@
 ﻿### Remove Method (ValidatedNameCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

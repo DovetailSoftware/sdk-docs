@@ -10,7 +10,7 @@ The amount of the Purchase Order.
 
 Initializes a new instance of the AddPOToScheduleSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

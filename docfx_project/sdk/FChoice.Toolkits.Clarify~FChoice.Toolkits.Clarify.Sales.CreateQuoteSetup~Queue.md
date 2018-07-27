@@ -2,7 +2,7 @@
 
 The queue to dispatch the Quote to. If not set, no dispatch takes place.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ The objid of the Site Part to be deleted.
 
 Used to delete a site_part in Clarify, and then unrelate the site_part from all other related records. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

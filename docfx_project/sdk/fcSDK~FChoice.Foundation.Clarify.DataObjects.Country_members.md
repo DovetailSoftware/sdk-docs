@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [Country](fcSDK~FChoice.Foundation.Clarify.DataObjects.Country.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -20,7 +20,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

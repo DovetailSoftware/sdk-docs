@@ -1,6 +1,6 @@
 ﻿### ILicenseInfo Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ The length of time for research.
 
 Initializes a new instance of the LogCaseResearchSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

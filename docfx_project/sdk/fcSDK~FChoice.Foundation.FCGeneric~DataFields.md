@@ -2,7 +2,7 @@
 
 Collection of data fields that will be returned when [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) is invoked. If no fields are selected all fields are returned.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public DataFieldNameCollection DataFields {get;}
 
 Collection of data fields that will be returned when [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) is invoked.
 
-Remarks
+#### Remarks
 
 To add a field to be selected during Query call the [Add](fcSDK~FChoice.Foundation.DataFieldNameCollection~Add.md) or [AddRange](fcSDK~FChoice.Foundation.DataFieldNameCollection~AddRange.md) methods.
 

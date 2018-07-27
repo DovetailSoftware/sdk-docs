@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [FCInvalidConfigurationException](FChoice.Common~FChoice.Common.FCInvalidConfigurationException.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

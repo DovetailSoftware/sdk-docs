@@ -1,6 +1,6 @@
 ﻿### ClarifyDataSet Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

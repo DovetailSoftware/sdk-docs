@@ -1,14 +1,10 @@
 ﻿### CreateGeneric(String) Method
 
-fcSDK Documentation
-
-CreateGeneric(String) Method
-
 The name of the table or view on which the new generic will be based.
 
 Creates a new ClarifyGeneric based on the specified table or view name
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +30,7 @@ The name of the table or view on which the new generic will be based.
 
 A new ClarifyGeneric based on the specified table or view name
 
-Remarks
+#### Remarks
 
 **NOTE**: Generics based on views cannot be updated, modified, or related to other generics, rows, or values.
 

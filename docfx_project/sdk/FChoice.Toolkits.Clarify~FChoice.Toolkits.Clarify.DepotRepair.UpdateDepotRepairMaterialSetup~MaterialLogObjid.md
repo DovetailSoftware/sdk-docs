@@ -2,7 +2,7 @@
 
 The objid of the material log object to be updated
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [LessThanOrEqualFilter members](fcSDK~FChoice.Foundation.Filters.LessThanOrEqualFilter_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

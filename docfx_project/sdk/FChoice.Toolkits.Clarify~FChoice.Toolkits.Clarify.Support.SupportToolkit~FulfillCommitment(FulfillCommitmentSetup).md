@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Fulfills a previously unfulfilled commitment. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

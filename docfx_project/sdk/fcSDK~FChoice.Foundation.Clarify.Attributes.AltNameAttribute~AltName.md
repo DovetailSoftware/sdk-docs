@@ -1,6 +1,6 @@
 ﻿### AltName Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

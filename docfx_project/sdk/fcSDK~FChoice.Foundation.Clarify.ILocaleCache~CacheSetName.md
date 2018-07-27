@@ -1,6 +1,6 @@
 ﻿### CacheSetName Property (ILocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

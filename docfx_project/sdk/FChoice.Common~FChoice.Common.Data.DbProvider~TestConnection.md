@@ -2,7 +2,7 @@
 
 Executes a test to connect to the database using the default connection string
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

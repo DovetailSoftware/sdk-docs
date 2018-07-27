@@ -2,7 +2,7 @@
 
 Specifies whether the part is being transferred from good stock (true) or bad stock (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

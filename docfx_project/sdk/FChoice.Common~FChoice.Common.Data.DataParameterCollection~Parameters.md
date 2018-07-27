@@ -2,7 +2,7 @@
 
 Retrieves a collection of the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) objects in this collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,13 +18,11 @@ public ICollection Parameters {get;}
 
 A collection of the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) objects in this collection.
 
-Remarks
+#### Remarks
 
 This property retrieves a collection of just the parameters, not the names.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

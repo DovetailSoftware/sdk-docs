@@ -4,7 +4,7 @@ Cause the specified Quote to have its status changed. This overload takes a set
 
 Cause the specified Quote to have its status changed.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ChangeQuoteStatus(ChangeQuoteStatusSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ChangeQuoteStatus(ChangeQuoteStatusSetup).md) | Cause the specified Quote to have its status changed. This overload takes a setup object.   |
 | [ChangeQuoteStatus(ChangeQuoteStatusSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ChangeQuoteStatus(ChangeQuoteStatusSetup,IDbTransaction).md) | Cause the specified Quote to have its status changed. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The object may be in any valid condition, but the status selected MUST be valid for the current condition.
 

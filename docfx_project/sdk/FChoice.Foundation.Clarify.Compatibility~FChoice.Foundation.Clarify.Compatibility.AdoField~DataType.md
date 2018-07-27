@@ -1,6 +1,6 @@
 ﻿### DataType Property (AdoField)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

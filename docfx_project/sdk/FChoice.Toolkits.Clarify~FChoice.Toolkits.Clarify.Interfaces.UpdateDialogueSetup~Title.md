@@ -2,7 +2,7 @@
 
 The title of the dialogue.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

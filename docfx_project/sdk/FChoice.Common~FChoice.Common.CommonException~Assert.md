@@ -8,7 +8,7 @@ A description of what the assertion represents and why it is important.
 
 Assert it used internally by First Choice products to ensure that internal state and data is consistent with expected norms.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -42,13 +42,13 @@ _reason_
 
 A description of what the assertion represents and why it is important.
 
-Exceptions
+#### Exceptions
 
 | Exception | Description |
 | --- | --- |
 | [CommonException](FChoice.Common~FChoice.Common.CommonException.md) | The assertion failed. |
 
-Remarks
+#### Remarks
 
 Note that the **_reason_** parameter is not localized. Assertions are generally internal state monitors used by programmers and are not intended to be viewed by end users. The reason should be encoded in the language of the developer to aid in troubleshooting.
 

@@ -1,6 +1,6 @@
 ﻿### IsInTransaction Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

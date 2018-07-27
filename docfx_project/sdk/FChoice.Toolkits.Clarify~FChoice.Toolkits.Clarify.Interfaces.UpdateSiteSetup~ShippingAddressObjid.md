@@ -2,7 +2,7 @@
 
 Shipping Address of the site. If not set, the [primary address](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteSetup~PrimaryAddressObjid.md) is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

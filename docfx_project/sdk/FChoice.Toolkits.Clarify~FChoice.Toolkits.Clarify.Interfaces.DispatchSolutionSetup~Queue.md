@@ -2,7 +2,7 @@
 
 The queue into which the Solution is to be dispatched.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

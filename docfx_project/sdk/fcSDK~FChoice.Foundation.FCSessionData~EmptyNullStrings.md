@@ -2,7 +2,7 @@
 
 Session option that cues [Generics](fcSDK~FChoice.Foundation.FCGeneric.md) to make Null fields be empty strings. Specifically for Oracle.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

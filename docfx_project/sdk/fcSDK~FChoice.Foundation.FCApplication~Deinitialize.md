@@ -2,7 +2,7 @@
 
 Unloads the FCApplication singleton from the current AppDomain.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

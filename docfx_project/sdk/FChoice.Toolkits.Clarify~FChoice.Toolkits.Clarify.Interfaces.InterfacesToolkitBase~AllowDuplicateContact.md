@@ -2,7 +2,7 @@
 
 Should the [CreateContact](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateContact.md) or [UpdateContact](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UpdateContact.md) methods allow the creation or update of a Contact with the same first name, last name, telephone number as another Contact in the system.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ public bool AllowDuplicateContact {get; set;}
 A [Boolean](mscorlib~System.Boolean.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.  
 A [Void](mscorlib~System.Void.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.A [Boolean](mscorlib~System.Boolean.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 Default value is **false.**
 

@@ -2,7 +2,7 @@
 
 Gets a reference to the default configured [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,7 +17,7 @@ public static DbProvider Provider {get; set;}
 
 A reference to the default configured [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance
 
-Remarks
+#### Remarks
 
 While the CreateProvider Method will return a new default provider instance, it creates a new one every time. It is more efficient to use the primary default provider instance. [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) implementations are required to be thread safe, so it is OK to use a single instance in this fashion.
 

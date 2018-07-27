@@ -2,7 +2,7 @@
 
 Used by the [AddLocationServicingSite](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddLocationServicingSite(AddLocationServicingSiteSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class AddLocationServicingSiteSetup
 public class AddLocationServicingSiteSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup**  

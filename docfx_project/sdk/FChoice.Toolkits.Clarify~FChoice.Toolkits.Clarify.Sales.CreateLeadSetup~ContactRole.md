@@ -2,7 +2,7 @@
 
 Element from the 'Contact Role' user list. If not set, the default list value is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

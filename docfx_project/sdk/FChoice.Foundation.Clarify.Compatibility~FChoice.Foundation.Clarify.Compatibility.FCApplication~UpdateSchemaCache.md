@@ -1,6 +1,6 @@
 ﻿### UpdateSchemaCache Method (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

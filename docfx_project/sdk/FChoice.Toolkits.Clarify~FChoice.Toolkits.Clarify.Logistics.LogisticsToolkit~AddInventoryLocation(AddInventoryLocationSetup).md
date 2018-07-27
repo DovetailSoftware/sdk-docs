@@ -6,7 +6,7 @@ Used to add inventory locations to the system.
 
 This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

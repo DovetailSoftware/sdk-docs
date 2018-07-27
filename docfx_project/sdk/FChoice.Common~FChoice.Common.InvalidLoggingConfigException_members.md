@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [InvalidLoggingConfigException](FChoice.Common~FChoice.Common.InvalidLoggingConfigException.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

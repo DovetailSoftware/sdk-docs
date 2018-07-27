@@ -2,7 +2,7 @@
 
 This is the root filter used to constrain rows returned during [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) operations. Initially there are no filters present with filters being added using the [AddFilter](fcSDK~FChoice.Foundation.Filters.LogicalFilter~AddFilter.md) method.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

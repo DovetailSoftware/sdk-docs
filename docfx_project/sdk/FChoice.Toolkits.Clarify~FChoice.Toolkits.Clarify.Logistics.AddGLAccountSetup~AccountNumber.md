@@ -2,7 +2,7 @@
 
 The number for the General Ledger account
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

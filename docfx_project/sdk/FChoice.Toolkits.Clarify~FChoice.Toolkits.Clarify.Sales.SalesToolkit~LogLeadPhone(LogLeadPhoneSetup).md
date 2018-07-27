@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Log a phone call for a Lead. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PhoneLog.
 
-Remarks
+#### Remarks
 
 The objid of the lead must be specified (since no other information on the lead is unique), and the description (phone text).  A contact for the log must be specified. If the lead is also the contact (and not a real contact), then leave the first, last, and phone fields blank, and this will use the lead as the contact. The length of the phone call (in seconds) must be supplied.
 

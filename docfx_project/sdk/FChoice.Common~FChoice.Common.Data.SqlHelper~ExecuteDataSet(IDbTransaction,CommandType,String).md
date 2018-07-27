@@ -8,7 +8,7 @@ The text command to execute. The default value is an empty string ("").
 
 Executes the the specified SQL using the provided database transaction and returns the results as a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -46,7 +46,7 @@ The text command to execute. The default value is an empty string ("").
 
 A [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm) with zero or more [DataTable](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatatableclasstopic.htm) objects each containing zero or more rows.
 
-Remarks
+#### Remarks
 
 The _transaction_ parameter must be an open and live transaction. After the call to this method, the transaction will remain live and open.
 

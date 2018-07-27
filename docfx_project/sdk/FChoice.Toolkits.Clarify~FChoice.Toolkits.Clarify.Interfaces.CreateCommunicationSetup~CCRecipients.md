@@ -2,7 +2,7 @@
 
 Array of addresses for CC Recipients.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

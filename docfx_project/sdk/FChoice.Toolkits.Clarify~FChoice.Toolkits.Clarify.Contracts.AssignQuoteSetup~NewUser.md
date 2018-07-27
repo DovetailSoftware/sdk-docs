@@ -2,7 +2,7 @@
 
 The new user to which the Quote is to be assigned.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

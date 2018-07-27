@@ -1,6 +1,6 @@
 ﻿### Midnight Property (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

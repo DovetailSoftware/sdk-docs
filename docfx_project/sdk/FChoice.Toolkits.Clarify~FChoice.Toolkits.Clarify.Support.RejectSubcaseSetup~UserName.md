@@ -2,7 +2,7 @@
 
 The user who has rejected the Subcase. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

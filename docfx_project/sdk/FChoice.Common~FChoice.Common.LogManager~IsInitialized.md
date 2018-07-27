@@ -2,7 +2,7 @@
 
 Gets whether or not LogManager has been properly initialized.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

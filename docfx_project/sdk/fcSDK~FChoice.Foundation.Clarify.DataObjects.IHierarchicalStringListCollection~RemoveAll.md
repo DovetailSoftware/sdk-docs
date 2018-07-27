@@ -1,17 +1,17 @@
 ﻿### RemoveAll Method (IHierarchicalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
 Function RemoveAll( _
-   ByVal _match_ As [Predicate(Of IHierarchicalStringList)](#) _
+   ByVal _match_ As Predicate(Of IHierarchicalStringList) _
 ) As Integer
 ```
 
 ```csharp
 int RemoveAll( 
-   [Predicate<IHierarchicalStringList>](#) _match_
+   Predicate<IHierarchicalStringList> _match_
 )
 ```
 

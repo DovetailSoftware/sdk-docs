@@ -1,6 +1,6 @@
 ﻿### GraceLicensesRemaining Property (LicenseInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### FCLicenseException Constructor(Boolean,Int32,String,Object\[\])
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

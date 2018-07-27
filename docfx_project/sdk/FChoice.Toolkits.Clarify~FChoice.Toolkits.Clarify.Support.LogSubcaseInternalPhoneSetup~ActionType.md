@@ -1,6 +1,6 @@
 ﻿### ActionType Property (LogSubcaseInternalPhoneSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Resets the log configuration and configuration file back to defaults (root level set to INFO with no appenders).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

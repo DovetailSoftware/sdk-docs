@@ -2,7 +2,7 @@
 
 When date fields are set to this value the current server datetime will be entered instead.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

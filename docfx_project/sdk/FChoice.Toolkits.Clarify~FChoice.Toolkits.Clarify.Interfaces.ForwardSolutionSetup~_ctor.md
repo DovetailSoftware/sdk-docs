@@ -6,7 +6,7 @@ The new queue into which the Solution is to be forwarded.
 
 Initializes a new instance of the ForwardSolutionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

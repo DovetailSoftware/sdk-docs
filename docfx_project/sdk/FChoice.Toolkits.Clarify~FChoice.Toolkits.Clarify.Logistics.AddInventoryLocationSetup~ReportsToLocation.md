@@ -2,7 +2,7 @@
 
 Name of the inventory location to which this new inventory location reports
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Dispatch the Subcase to the specified queue. This overload takes a set of requir
 
 Dispatch the Subcase to the specified queue.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [DispatchSubcase(DispatchSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~DispatchSubcase(DispatchSubcaseSetup).md) | Dispatch the Subcase to the specified queue. This overload takes a setup object.   |
 | [DispatchSubcase(DispatchSubcaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~DispatchSubcase(DispatchSubcaseSetup,IDbTransaction).md) | Dispatch the Subcase to the specified queue. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Subcase must be in open condition, and not currently dispatched to a queue.
 

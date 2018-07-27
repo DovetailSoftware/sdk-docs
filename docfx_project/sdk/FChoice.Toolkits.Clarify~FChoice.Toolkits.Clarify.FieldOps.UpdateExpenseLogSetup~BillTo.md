@@ -2,7 +2,7 @@
 
 Element from the 'Bill To Time' application list. If not set the default list value is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

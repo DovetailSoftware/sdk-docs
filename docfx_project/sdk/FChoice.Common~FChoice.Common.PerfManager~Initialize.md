@@ -2,7 +2,7 @@
 
 Allows PerfManager to initialize itself by creating a new PerfMon instance name and preparing all the PerformanceCounter instances
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### StateManagerException Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class StateManagerException
 public class StateManagerException : FChoice.Common.FCExceptionBase 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Exception  

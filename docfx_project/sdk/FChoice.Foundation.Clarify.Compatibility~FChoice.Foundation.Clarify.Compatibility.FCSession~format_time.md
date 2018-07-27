@@ -1,6 +1,6 @@
 ﻿### format_time Method (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

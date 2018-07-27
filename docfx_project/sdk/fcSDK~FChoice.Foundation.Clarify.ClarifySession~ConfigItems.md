@@ -1,6 +1,6 @@
 ﻿### ConfigItems Property (ClarifySession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

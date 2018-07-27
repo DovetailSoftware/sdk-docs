@@ -1,6 +1,6 @@
 ﻿### HasPermission Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

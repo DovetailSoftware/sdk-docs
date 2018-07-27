@@ -1,6 +1,6 @@
 ﻿### _NewEnum Method (IMockCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

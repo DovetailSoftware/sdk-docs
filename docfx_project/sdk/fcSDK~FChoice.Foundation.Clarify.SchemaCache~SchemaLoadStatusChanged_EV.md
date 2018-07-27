@@ -1,6 +1,6 @@
 ﻿### SchemaLoadStatusChanged Event
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

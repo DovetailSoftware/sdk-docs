@@ -1,6 +1,6 @@
 ﻿### CommunicationPriority Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -21,7 +21,7 @@ Members
 | **Normal** |   |
 | **Urgent** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

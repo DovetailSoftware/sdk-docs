@@ -6,7 +6,7 @@ Allows parts to be transferred independent of a part request to fix order errors
 
 This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -36,7 +36,7 @@ The following values are populated in the PartTransferResult object returned by 
 *   Objid \- Objid of the Part Transfer record.
 *   TransactionIDNum \- Part Transfer Transaction Identifier.
 
-Remarks
+#### Remarks
 
 As in Clarify, the transfer can be from good or bad stock and can be to good or bad stock.
 

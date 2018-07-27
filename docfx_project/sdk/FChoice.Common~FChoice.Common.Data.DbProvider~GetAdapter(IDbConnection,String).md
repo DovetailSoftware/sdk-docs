@@ -6,7 +6,7 @@ The SQL statement to use as the SELECT command for this adapter
 
 Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL) initialized to use the specified connection to the database and the specified SQL statement to execute.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

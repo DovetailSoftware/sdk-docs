@@ -1,6 +1,6 @@
 ﻿### DataRestrictionsEnabled Property (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

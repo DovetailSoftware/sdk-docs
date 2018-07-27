@@ -2,7 +2,7 @@
 
 Title of the CR.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

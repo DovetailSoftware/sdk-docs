@@ -1,6 +1,6 @@
 ﻿### LoadState(Guid,Type) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

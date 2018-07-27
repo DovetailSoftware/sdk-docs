@@ -2,7 +2,7 @@
 
 Used by the [ChangeOpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase~ChangeOpportunityStage.md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class ChangeOpportunityStageSetup
 public class ChangeOpportunityStageSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStageSetup**  

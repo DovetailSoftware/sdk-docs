@@ -8,7 +8,7 @@ The filter is being applied against this value.
 
 Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) against a numeric [DataField](fcSDK~FChoice.Foundation.FCGeneric~DataFields.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

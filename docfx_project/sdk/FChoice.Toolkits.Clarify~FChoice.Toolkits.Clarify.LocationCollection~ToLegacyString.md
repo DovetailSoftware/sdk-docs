@@ -1,6 +1,6 @@
 ﻿### ToLegacyString Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

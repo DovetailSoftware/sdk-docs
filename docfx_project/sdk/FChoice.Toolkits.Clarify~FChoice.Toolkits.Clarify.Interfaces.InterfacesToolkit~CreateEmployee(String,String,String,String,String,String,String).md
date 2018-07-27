@@ -16,7 +16,7 @@ Online privilege class
 
 Create an Employee in Clarify This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -81,7 +81,7 @@ The following values are populated in the CreateEmployeeResult object returned b
 *   UserObjid \- Objid of the User record created.
 *   EmployeeObjid \- Objid of the Employee record created.
 
-Remarks
+#### Remarks
 
 Also creates a user login for the database system tables as required by Clarify.
 

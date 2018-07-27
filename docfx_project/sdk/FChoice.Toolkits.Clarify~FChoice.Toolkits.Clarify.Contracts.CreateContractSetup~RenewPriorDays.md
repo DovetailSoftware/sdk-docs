@@ -2,7 +2,7 @@
 
 The number of days to renew the Contract before the ExpireDate.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

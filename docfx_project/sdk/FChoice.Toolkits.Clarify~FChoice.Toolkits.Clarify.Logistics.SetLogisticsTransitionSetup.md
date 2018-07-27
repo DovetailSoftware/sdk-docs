@@ -2,7 +2,7 @@
 
 Used by the [SetLogisticsTransition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetLogisticsTransition(SetLogisticsTransitionSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class SetLogisticsTransitionSetup
 public class SetLogisticsTransitionSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup**  

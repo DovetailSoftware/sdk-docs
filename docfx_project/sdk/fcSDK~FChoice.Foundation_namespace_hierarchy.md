@@ -1,6 +1,6 @@
-﻿### FChoice.Foundation Namespace Inheritance Hierarchy
+﻿### FChoice.Foundation Namespace #### Inheritance Hierarchy
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)     [FChoice.Foundation.Clarify.ClarifyCacheBase](fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.md)  

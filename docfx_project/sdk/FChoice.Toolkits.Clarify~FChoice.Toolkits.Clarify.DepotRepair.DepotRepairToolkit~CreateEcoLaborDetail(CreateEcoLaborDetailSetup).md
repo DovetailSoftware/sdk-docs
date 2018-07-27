@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Add a Labor Detail to a ECO Header. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

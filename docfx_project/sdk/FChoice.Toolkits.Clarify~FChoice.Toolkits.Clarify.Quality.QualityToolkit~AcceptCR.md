@@ -4,7 +4,7 @@ Accept the specified CR from the queue in which it is currently dispatched. This
 
 Accept the specified CR from the queue in which it is currently dispatched.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AcceptCR(AcceptCRSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~AcceptCR(AcceptCRSetup).md) | Accept the specified CR from the queue in which it is currently dispatched. This overload takes a setup object.   |
 | [AcceptCR(AcceptCRSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~AcceptCR(AcceptCRSetup,IDbTransaction).md) | Accept the specified CR from the queue in which it is currently dispatched. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The CR must be currently dispatched to a queue.
 

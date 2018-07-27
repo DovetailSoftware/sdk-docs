@@ -1,12 +1,8 @@
 ﻿### AddNew() Method
 
-fcSDK Documentation
-
-AddNew() Method
-
 Adds a new row and schedules it for creation in the database when [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) is called
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -22,7 +18,7 @@ public ClarifyDataRow AddNew()
 
 A new ClarifyDataRow with the same fields as the current **ClarifyGeneric** present.
 
-Remarks
+#### Remarks
 
 All fields are initialized with their default values (i.e. NULL for relations, 0 for integer fields, etc). You can set individual fields using the [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) indexer and relate rows using one of the relate methods, such as RelateRecord. You can relate newly-added rows to other rows (even other newly-added rows). [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) will resolve the objIds of new records properly when Update or [UpdateAll](fcSDK~FChoice.Foundation.FCGeneric~UpdateAll.md) is called.
 

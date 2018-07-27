@@ -2,7 +2,7 @@
 
 Objid of contract with which to link this Part Request -- see remarks for special usage  
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Property ContractObjid As Integer
 public int ContractObjid {get; set;}
 ```
 
-Remarks
+#### Remarks
 
 **NOTE**: This property should not be set (left as default) unless you need this functionality AND have installed the First Choice ClearCallCenter for ClearLogistics product and schema changes. If you do not have this product and wish to use this functionality, please contact First Choice Software.
 

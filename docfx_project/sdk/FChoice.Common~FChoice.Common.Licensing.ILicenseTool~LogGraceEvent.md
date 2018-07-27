@@ -4,7 +4,7 @@ Key that identifies a valid First Choice license.
 
 Logs the occurrence of a grace event.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

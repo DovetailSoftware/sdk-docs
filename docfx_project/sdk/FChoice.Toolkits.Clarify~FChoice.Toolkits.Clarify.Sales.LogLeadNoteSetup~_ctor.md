@@ -4,7 +4,7 @@ The objid of the lead for the note log.
 
 Initializes a new instance of the LogLeadNoteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

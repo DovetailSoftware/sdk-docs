@@ -1,6 +1,6 @@
 ﻿### Add Method (ValidatedNameCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

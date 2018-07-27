@@ -1,6 +1,6 @@
 ﻿### Sort(Int32,Int32,IComparer<IHierarchicalStringList>) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

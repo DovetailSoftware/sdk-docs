@@ -1,6 +1,6 @@
 ﻿### DefaultState Property (StateCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

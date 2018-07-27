@@ -1,6 +1,6 @@
 ﻿### db_name Property (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

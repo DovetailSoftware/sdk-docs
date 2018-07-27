@@ -1,6 +1,6 @@
 ﻿### cur_res Property (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

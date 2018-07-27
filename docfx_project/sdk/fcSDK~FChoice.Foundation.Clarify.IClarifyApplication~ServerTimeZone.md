@@ -1,6 +1,6 @@
 ﻿### ServerTimeZone Property (IClarifyApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

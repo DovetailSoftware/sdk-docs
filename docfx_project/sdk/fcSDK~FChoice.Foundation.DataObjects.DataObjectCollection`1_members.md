@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [DataObjectCollection<T>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -10,7 +10,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [Count](#) | (Inherited from [System.Collections.Generic.List<T>](#)) |
 | ![Public Property](dotnetimages/publicProperty.png) | [Item](#) | (Inherited from [System.Collections.Generic.List<T>](#)) |
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

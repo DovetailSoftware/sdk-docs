@@ -2,7 +2,7 @@
 
 The objid of the ECO item object to be deleted
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

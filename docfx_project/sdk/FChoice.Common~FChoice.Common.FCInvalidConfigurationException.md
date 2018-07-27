@@ -2,7 +2,7 @@
 
 FCInvalidConfigurationException is used when required parameters are missing from the application configuration file, or the parameters specified are invalid for some reason.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,7 +17,7 @@ Public Class FCInvalidConfigurationException
 public class FCInvalidConfigurationException : FCExceptionBase 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.Exception  

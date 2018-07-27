@@ -1,6 +1,6 @@
 ﻿### IsValidView Method (ISchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The Part domain
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

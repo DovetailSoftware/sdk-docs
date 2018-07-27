@@ -2,7 +2,7 @@
 
 Indicates that the Contract can be identified in queries or reports as being eligible for renewal (true) or not (false).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

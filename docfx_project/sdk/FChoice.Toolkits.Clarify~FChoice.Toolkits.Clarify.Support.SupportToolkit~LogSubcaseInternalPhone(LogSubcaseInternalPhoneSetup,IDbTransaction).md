@@ -1,6 +1,6 @@
 ﻿### LogSubcaseInternalPhone(LogSubcaseInternalPhoneSetup,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

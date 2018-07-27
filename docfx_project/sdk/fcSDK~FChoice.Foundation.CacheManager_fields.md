@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [CacheManager members](fcSDK~FChoice.Foundation.CacheManager_members.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |

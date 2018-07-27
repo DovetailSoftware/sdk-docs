@@ -1,6 +1,6 @@
 ﻿### UseDenormalizedCaseTypeLevels Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [ISchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [LocaleCache members](fcSDK~FChoice.Foundation.Clarify.LocaleCache_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

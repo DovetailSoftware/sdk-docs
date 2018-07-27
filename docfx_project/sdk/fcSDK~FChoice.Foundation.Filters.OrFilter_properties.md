@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [OrFilter members](fcSDK~FChoice.Foundation.Filters.OrFilter_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

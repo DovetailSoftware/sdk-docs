@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Create an Engineering Change Order (ECO) Header. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

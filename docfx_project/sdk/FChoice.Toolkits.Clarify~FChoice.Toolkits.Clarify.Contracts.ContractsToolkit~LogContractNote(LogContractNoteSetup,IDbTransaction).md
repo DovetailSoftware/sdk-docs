@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Causes a note log to be created and added to the specified contract. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -8,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DataParameterCollection Constructor](FChoice.Common~FChoice.Common.Data.DataParameterCollection~_ctor.md) | Overloaded.    |
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -22,7 +22,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

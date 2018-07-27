@@ -8,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [DataAccessSectionHandler Constructor](FChoice.Common~FChoice.Common.Data.DataAccessSectionHandler~_ctor.md) |   |
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

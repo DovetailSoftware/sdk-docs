@@ -1,6 +1,6 @@
 ﻿### FCFlags Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

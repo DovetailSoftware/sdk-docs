@@ -4,14 +4,14 @@ Initializes ClarifyApplication using the application configuration.
 
 Initializes ClarifyApplication using the application configuration or the specified [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsSpecializedNameValueCollectionClassTopic.htm)
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
 | [Initialize()](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~Initialize().md) | Initializes ClarifyApplication using the application configuration.   |
 | [Initialize(NameValueCollection)](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~Initialize(NameValueCollection).md) | Initializes ClarifyApplication using values in the specified [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsSpecializedNameValueCollectionClassTopic.htm)   |
 
-Remarks
+#### Remarks
 
 Initialize can only be called once per application domain. Once initialized, [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) cannot be uninitialized or reinitialized in that application domain.
 

@@ -2,7 +2,7 @@
 
 Type of repair. One of "Repairable" or "Expendable"
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

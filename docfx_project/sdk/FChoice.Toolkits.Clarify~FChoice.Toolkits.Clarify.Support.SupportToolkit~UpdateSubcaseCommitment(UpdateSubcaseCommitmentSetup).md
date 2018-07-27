@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Updates a commitment against a Subcase. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

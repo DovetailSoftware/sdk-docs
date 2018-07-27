@@ -2,7 +2,7 @@
 
 Name of the Country being created
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

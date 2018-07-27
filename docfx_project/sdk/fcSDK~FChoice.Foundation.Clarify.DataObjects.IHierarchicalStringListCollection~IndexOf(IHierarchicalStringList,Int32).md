@@ -1,6 +1,6 @@
 ﻿### IndexOf(IHierarchicalStringList,Int32) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -8,7 +8,7 @@ Objid of the parent Bin this Part will be re-installed under.
 
 Initializes a new instance of the ReinstallSitePartToBinSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

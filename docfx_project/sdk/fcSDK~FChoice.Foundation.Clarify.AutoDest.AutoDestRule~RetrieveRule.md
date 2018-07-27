@@ -1,6 +1,6 @@
 ﻿### RetrieveRule Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

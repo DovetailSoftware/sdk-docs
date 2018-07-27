@@ -2,7 +2,7 @@
 
 Used by the [ChangeQuoteStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~ChangeQuoteStatus(ChangeQuoteStatusSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class ChangeQuoteStatusSetup
 public class ChangeQuoteStatusSetup 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Contracts.ChangeQuoteStatusSetup**  

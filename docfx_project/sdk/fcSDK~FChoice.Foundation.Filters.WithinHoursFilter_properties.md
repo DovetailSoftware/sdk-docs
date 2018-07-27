@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [WithinHoursFilter members](fcSDK~FChoice.Foundation.Filters.WithinHoursFilter_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

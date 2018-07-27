@@ -1,6 +1,6 @@
 ﻿### CompatibilityException Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ Public Class CompatibilityException
 public class CompatibilityException : FChoice.Common.FCExceptionBase 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Exception  

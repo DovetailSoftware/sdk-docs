@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [DataProtector members](FChoice.Common~FChoice.Common.DataProtector_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

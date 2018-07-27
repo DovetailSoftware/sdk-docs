@@ -12,7 +12,7 @@ The serial number of the site part for thie Line Item.
 
 Initializes a new instance of the RelateContractItemToSitePartSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

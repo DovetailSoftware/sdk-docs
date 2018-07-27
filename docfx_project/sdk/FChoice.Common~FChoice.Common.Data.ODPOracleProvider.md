@@ -1,6 +1,6 @@
 ﻿### ODPOracleProvider Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class ODPOracleProvider
 public class ODPOracleProvider : OracleProviderBase
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Common.Data.DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md)  

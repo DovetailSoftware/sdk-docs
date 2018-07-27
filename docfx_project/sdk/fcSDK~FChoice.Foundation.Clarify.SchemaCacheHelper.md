@@ -1,6 +1,6 @@
 ﻿### SchemaCacheHelper Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public MustInherit NotInheritable Class SchemaCacheHelper
 public static class SchemaCacheHelper 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.SchemaCacheHelper**  

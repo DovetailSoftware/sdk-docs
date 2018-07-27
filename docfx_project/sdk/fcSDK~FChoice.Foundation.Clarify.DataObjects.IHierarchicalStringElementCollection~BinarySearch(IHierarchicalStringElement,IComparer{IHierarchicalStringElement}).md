@@ -1,6 +1,6 @@
 ﻿### BinarySearch(IHierarchicalStringElement,IComparer<IHierarchicalStringElement>) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

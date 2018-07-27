@@ -1,6 +1,6 @@
-﻿### FChoice.Foundation.Clarify.Compatibility Namespace Inheritance Hierarchy
+﻿### FChoice.Foundation.Clarify.Compatibility Namespace #### Inheritance Hierarchy
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.Clarify.Compatibility.AdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoField.md)  

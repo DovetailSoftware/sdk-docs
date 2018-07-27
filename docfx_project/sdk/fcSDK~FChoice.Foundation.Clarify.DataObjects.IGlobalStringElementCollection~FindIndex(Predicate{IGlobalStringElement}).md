@@ -1,6 +1,6 @@
 ﻿### FindIndex(Predicate<IGlobalStringElement>) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

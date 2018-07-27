@@ -2,7 +2,7 @@
 
 Timestamp when the session was created.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

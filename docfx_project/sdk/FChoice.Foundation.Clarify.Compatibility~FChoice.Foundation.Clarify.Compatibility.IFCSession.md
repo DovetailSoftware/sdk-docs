@@ -1,6 +1,6 @@
 ﻿### IFCSession Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

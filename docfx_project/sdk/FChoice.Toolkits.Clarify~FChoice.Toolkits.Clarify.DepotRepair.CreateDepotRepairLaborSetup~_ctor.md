@@ -8,7 +8,7 @@ Length of time required to do the work, in seconds
 
 Initializes a new instance of the CreateDepotRepairLaborSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

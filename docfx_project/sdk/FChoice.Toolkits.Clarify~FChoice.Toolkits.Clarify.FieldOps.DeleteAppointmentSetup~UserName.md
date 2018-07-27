@@ -2,7 +2,7 @@
 
 The user who deleted the Appointment. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

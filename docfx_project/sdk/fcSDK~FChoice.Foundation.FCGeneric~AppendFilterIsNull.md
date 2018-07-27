@@ -6,7 +6,7 @@ Name of the field the filter will be constraining.
 
 Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) against NULL or NOT NULL fields.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _isNull_
 
 **true** if searching for NULLvalues
 
-Remarks
+#### Remarks
 
 Filters are a powerful feature that make it easy to limit the rows returned by a [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md). You may call filter methods multiple times resulting in each successive filter further constraining the rows returned.
 

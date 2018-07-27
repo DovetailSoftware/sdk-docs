@@ -6,7 +6,7 @@ The queue into which the Subcase is to be dispatched.
 
 Initializes a new instance of the DispatchSubcaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

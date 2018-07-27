@@ -2,7 +2,7 @@
 
 User that performed the de-install.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

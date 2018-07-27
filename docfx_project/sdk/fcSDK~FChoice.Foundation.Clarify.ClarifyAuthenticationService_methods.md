@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ClarifyAuthenticationService members](fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationService_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 Repair Type of the Part being created or modified.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -22,7 +22,7 @@ Members
 | **Expendable** | Part cannot be repaired |
 | **Repairable** | Part is repairable |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

@@ -4,14 +4,14 @@ Writes a DEBUG-level log entry if DEBUG-level logging is enabled.
 
 Writes a DEBUG-level log entry if DEBUG level logging is enabled.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
 | [LogDebug(String,Object\[\])](FChoice.Common~FChoice.Common.Logger~LogDebug(String,Object[]).md) | Writes a DEBUG-level log entry if DEBUG-level logging is enabled.   |
 | [LogDebug(Exception,String,Object\[\])](FChoice.Common~FChoice.Common.Logger~LogDebug(Exception,String,Object[]).md) | Writes a DEBUG-level log entry if DEBUG-level logging is enabled with details of an exception that was caught.   |
 
-Remarks
+#### Remarks
 
 If the current logger is not configured for DEBUG-level logging, these methods will do nothing.
 

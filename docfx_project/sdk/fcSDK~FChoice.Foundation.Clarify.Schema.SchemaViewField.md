@@ -1,6 +1,6 @@
 ﻿### SchemaViewField Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class SchemaViewField
 public class SchemaViewField : SchemaFieldBase, FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaField  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

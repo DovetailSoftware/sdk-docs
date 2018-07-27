@@ -2,7 +2,7 @@
 
 Notes about the Expense Log.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

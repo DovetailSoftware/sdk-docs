@@ -1,6 +1,6 @@
 ﻿### Type Property (MockAdoField)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

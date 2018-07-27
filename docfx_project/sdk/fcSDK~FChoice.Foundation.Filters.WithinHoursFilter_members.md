@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [WithinHoursFilter](fcSDK~FChoice.Foundation.Filters.WithinHoursFilter.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

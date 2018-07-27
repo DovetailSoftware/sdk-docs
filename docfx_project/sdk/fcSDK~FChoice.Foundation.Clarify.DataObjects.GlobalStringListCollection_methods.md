@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [GlobalStringListCollection members](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringListCollection_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

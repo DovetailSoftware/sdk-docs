@@ -4,7 +4,7 @@ The DateTime the Appointment starts. If not set, the current time is used.
 
 The length (in seconds) of the appointment. If not specified, it is calculated from the start and end times.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Opportunity Identifier.
 
 Initializes a new instance of the ReopenOpportunitySetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

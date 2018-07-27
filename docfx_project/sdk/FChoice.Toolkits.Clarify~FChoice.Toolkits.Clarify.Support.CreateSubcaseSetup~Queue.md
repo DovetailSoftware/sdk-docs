@@ -2,7 +2,7 @@
 
 Name of the queue to dispatch the Subcase to. If not set, the Subcase is not initially dispatched.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

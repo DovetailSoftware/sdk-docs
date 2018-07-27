@@ -2,7 +2,7 @@
 
 Name of the user that created the [Session](fcSDK~FChoice.Foundation.FCSession.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

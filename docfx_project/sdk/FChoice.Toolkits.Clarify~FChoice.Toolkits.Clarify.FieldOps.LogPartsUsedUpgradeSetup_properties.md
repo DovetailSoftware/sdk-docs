@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [LogPartsUsedUpgradeSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedUpgradeSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

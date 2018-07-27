@@ -4,7 +4,7 @@ The length (in seconds) of the appointment. If not specified, it is calculated f
 
 The DateTime the Appointment ends. If not set, the start time and duration is used to calculate the end time.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

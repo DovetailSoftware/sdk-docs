@@ -2,7 +2,7 @@
 
 Specifies if activity entry records should be set to "Install (Move)" (true) or "Move" (false).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

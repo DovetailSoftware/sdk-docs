@@ -4,7 +4,7 @@ The unique identifier for the communication to update.
 
 Initializes a new instance of the UpdateCommunicationSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

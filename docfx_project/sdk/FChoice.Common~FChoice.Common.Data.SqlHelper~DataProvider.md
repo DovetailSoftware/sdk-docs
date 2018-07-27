@@ -1,6 +1,6 @@
 ﻿### DataProvider Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

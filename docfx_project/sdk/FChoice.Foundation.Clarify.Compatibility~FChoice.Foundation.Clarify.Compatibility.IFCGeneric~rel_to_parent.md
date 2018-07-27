@@ -1,6 +1,6 @@
 ﻿### rel_to_parent Property (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

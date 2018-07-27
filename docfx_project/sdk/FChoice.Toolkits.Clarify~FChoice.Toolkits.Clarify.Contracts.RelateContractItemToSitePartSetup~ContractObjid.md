@@ -2,7 +2,7 @@
 
 The objid of the Contract for this Line Item.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

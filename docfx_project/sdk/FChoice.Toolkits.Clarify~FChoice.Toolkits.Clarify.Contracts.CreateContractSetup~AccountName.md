@@ -2,7 +2,7 @@
 
 Name of the Account that the Contract is related to.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

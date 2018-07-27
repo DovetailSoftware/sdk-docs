@@ -8,7 +8,7 @@ The entropy, or "password" to use to decrypt this data. The value must be the sa
 
 Encrypts a string, using the specified entropy, and returns a Base64-encoded string representing the encrypted output
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -42,7 +42,7 @@ _entropy_
 
 The entropy, or "password" to use to decrypt this data. The value must be the same as was used to originally encrypt the data
 
-Remarks
+#### Remarks
 
 It is important not to lose the entropy used to encrypt this data. If the entropy is lost, the data cannot be decrypted. If the entropy must be stored, do not store it with the encrypted payload.
 

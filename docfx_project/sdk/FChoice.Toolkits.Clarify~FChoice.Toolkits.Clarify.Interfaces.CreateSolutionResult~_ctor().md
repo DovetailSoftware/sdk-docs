@@ -1,6 +1,6 @@
 ﻿### CreateSolutionResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Quantity of parts to be reordered for this inventory location when reorder level is reached
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

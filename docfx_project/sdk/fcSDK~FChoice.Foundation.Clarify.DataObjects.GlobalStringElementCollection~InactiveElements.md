@@ -1,6 +1,6 @@
 ﻿### InactiveElements Property (GlobalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

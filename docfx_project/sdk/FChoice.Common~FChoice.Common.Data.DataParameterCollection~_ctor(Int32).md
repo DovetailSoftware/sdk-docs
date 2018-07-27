@@ -4,7 +4,7 @@ The initial capacity for this collection.
 
 Creates a new instance of DataParameterCollection based on the default [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) with the specified initial capacity.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

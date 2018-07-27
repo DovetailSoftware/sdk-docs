@@ -1,6 +1,6 @@
 ﻿### PartRequestHeaderResult Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

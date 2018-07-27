@@ -1,6 +1,6 @@
 ﻿### AddRange Method (IHierarchicalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

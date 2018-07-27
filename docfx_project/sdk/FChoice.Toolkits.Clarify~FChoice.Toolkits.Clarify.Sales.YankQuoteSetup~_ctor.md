@@ -4,7 +4,7 @@ Quote Identifier.
 
 Initializes a new instance of the YankQuoteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

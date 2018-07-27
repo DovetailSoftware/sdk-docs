@@ -1,6 +1,6 @@
 ﻿### SetServerTimeZoneToMachineTimeZone Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

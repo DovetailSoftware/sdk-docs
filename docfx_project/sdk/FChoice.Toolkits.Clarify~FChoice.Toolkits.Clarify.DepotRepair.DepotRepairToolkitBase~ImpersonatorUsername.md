@@ -1,6 +1,6 @@
 ﻿### ImpersonatorUsername Property (DepotRepairToolkitBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

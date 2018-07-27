@@ -1,6 +1,6 @@
 ﻿### ToString Method (Location)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

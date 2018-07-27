@@ -2,7 +2,7 @@
 
 Indicates how the material relates to the depot repair part.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

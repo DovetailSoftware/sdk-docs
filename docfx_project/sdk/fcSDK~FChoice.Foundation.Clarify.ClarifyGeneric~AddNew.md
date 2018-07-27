@@ -1,21 +1,17 @@
 ﻿### AddNew Method (ClarifyGeneric)
 
-fcSDK Documentation
-
-AddNew Method (ClarifyGeneric)
-
 Adds a new row and schedules it for creation in the database when [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) is called
 
 Adds a new row, optionally copying values from an existing row, and schedules it for creation in the database when [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) is called.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
 | [AddNew()](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~AddNew().md) | Adds a new row and schedules it for creation in the database when [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) is called   |
 | [AddNew(ClarifyDataRow)](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~AddNew(ClarifyDataRow).md) | Adds a new row, copying values from the specified original row, and schedules it for creation in the database when [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) is called.   |
 
-Remarks
+#### Remarks
 
 All fields are initialized with their default values (i.e. NULL for relations, 0 for integer fields, etc). You can set individual fields using the [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) [indexer](fcSDK~FChoice.Foundation.GenericDataRow~Item.md) and relate rows using one of the relate methods, such as [RelateRecord](fcSDK~FChoice.Foundation.GenericDataRow~RelateRecord.md). You can relate newly-added rows to other rows (even other newly-added rows). [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md) will resolve the objids of new records properly when [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) or [UpdateAll](fcSDK~FChoice.Foundation.FCGeneric~UpdateAll.md) is called.
 

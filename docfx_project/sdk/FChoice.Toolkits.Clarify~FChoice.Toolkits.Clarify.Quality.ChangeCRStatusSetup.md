@@ -2,7 +2,7 @@
 
 Used by the [ChangeCRStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ChangeCRStatus(ChangeCRStatusSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class ChangeCRStatusSetup
 public class ChangeCRStatusSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup**  

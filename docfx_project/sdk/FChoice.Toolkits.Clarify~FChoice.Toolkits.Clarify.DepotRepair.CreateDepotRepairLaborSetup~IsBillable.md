@@ -2,7 +2,7 @@
 
 Indicates whether labor is billable.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

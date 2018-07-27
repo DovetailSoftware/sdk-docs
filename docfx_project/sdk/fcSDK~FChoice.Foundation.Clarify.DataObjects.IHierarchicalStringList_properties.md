@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [IHierarchicalStringList members](fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

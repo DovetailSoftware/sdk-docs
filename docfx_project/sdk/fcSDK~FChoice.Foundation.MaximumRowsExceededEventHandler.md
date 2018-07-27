@@ -1,6 +1,6 @@
 ﻿### MaximumRowsExceededEventHandler Delegate
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

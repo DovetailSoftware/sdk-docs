@@ -2,7 +2,7 @@
 
 Setup object for API invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

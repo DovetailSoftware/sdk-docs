@@ -1,6 +1,6 @@
 ﻿### Count Method (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

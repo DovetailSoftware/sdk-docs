@@ -1,6 +1,6 @@
 ﻿### GetStateObjid Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

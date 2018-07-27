@@ -1,6 +1,6 @@
 ﻿### SetDatabaseParameterTypeForClobText Method (DbProvider)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

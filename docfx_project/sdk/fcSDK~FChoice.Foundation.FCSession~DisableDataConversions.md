@@ -2,7 +2,7 @@
 
 Sets whether data conversions happen when [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow~Item.md) fields are modified.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public bool DisableDataConversions {get; set;}
 
 Sets whether data conversions happen when [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow~Item.md) fields are modified.
 
-Remarks
+#### Remarks
 
 This property overrides [ConvertTimeZone](fcSDK~FChoice.Foundation.FCSession~ConvertTimeZone.md) and [SetNullStringsToEmpty](fcSDK~FChoice.Foundation.FCSession~SetNullStringsToEmpty.md)
 

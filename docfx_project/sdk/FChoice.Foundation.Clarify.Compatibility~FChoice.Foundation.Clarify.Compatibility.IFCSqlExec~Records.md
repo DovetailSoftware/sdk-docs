@@ -1,6 +1,6 @@
 ﻿### Records Property (IFCSqlExec)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

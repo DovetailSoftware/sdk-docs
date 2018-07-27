@@ -2,7 +2,7 @@
 
 Timestamp when the session was last loaded via [FCApplication.GetSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~GetSession.md)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public DateTime LastLoadTime {get;}
 
 Timestamp when the session was last loaded via [FCApplication.GetSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~GetSession.md)
 
-Remarks
+#### Remarks
 
 Based on [FCSession.LastLoadTime](fcSDK~FChoice.Foundation.FCSession~LastLoadTime.md)
 

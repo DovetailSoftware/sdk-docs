@@ -1,6 +1,6 @@
 ﻿### ISchemaRelation Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### DictionaryExtensions Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

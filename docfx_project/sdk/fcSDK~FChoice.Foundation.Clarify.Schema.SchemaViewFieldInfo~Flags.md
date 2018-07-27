@@ -1,6 +1,6 @@
 ﻿### Flags Property (SchemaViewFieldInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Caches global config items and provides access to the global [ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ Public Class ConfigItemCache
 public class ConfigItemCache : ClarifyCacheBase
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)  

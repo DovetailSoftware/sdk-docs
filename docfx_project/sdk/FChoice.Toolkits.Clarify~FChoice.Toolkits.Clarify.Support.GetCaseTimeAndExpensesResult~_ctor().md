@@ -1,6 +1,6 @@
 ﻿### GetCaseTimeAndExpensesResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

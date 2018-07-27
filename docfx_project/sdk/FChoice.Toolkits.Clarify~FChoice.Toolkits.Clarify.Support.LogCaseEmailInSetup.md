@@ -2,7 +2,7 @@
 
 Used by the [LogCaseEmailIn](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseEmailIn(LogCaseEmailInSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class LogCaseEmailInSetup
 public class LogCaseEmailInSetup : LogEmailInSetup
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)  

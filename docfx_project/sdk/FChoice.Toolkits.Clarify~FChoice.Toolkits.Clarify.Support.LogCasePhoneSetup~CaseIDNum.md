@@ -2,7 +2,7 @@
 
 Identifier of the Case against which the phone note is being logged.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

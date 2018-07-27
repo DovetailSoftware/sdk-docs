@@ -4,7 +4,7 @@ Identifier of the Subcase against which the note is being logged.
 
 Initializes a new instance of the LogSubcaseNoteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

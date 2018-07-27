@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [UpdateTimeLogSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateTimeLogSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

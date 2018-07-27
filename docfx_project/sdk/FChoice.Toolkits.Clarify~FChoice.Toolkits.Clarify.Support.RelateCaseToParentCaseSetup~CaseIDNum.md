@@ -2,7 +2,7 @@
 
 Identifier of the child Case in the relation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

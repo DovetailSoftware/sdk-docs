@@ -6,7 +6,7 @@ Hashed password to validate against.
 
 True if the Clarify instance is less than version 9.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -44,7 +44,7 @@ True if the Clarify instance is less than version 9.
 
 True if the password validates.
 
-Remarks
+#### Remarks
 
 This method reproduces Clarify style authentication. Normally you would pull the hashed password out of a database and compare it against the password entered by the user.
 

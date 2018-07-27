@@ -1,6 +1,6 @@
 ﻿### ValidatedNameCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public MustInherit Class ValidatedNameCollection
 public abstract class ValidatedNameCollection 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.ValidatedNameCollection**  

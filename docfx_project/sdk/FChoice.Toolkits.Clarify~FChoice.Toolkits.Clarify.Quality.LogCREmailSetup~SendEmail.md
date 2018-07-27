@@ -2,7 +2,7 @@
 
 Should this email be sent from rulemanager?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

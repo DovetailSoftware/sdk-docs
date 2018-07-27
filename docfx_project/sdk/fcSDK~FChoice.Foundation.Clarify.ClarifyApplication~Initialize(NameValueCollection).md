@@ -4,7 +4,7 @@ The configuration values to use for ClarifyApplication
 
 Initializes ClarifyApplication using values in the specified [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsSpecializedNameValueCollectionClassTopic.htm)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The configuration values to use for ClarifyApplication
 
 The newly created and initialized singleton instance of ClarifyApplication
 
-Remarks
+#### Remarks
 
 Initialize can only be called once per application domain. Once initialized, [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) cannot be uninitialized or reinitialized in that application domain.
 

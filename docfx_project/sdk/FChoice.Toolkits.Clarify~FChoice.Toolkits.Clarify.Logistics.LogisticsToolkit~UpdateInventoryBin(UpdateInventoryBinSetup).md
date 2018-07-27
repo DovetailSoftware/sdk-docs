@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Used to modify the name or the active flag of an existing bin. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Inventory Bin record.
 
-Remarks
+#### Remarks
 
 **NOTE**: This API cannot move a bin to another location, only rename it at the existing location.
 

@@ -1,6 +1,6 @@
 ﻿### UpdateAll Method (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

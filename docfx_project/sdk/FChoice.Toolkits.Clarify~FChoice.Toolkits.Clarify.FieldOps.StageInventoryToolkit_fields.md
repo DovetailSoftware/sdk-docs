@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [StageInventoryToolkit members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.StageInventoryToolkit_members.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |

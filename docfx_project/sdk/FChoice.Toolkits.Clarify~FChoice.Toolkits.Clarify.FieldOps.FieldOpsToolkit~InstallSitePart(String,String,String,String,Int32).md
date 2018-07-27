@@ -10,7 +10,7 @@ Part Domain of the Site Part
 
 The Quantity of the Site Part being installed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

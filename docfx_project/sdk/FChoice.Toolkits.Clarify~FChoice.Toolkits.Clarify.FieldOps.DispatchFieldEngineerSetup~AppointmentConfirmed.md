@@ -2,7 +2,7 @@
 
 Indicates if the Appointment confirmed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

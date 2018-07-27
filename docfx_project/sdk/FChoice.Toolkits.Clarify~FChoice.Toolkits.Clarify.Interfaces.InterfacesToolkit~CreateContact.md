@@ -4,7 +4,7 @@ Creates a Contact. This overload takes a setup object.
 
 Creates a Contact.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [CreateContact(CreateContactSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateContact(CreateContactSetup,IDbTransaction).md) | Creates a Contact. This overload takes a setup object and a database transaction.   |
 | [CreateContact(String,String,String,String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateContact(String,String,String,String).md) | Creates a Contact. This overload takes a set of required parameters for the API.   |
 
-Remarks
+#### Remarks
 
 A default contact role for the [Site](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContactSetup~SiteIDNum.md) is automatically created if no [role name](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContactSetup~RoleName.md) is defined.
 

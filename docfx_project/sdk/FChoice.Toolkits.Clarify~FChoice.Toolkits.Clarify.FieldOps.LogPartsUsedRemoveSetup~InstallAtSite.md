@@ -2,7 +2,7 @@
 
 Indicates if the Part should be installed at the top-level of the Site
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

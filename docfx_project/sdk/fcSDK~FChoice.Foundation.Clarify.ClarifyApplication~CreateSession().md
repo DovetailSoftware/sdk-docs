@@ -2,7 +2,7 @@
 
 Creates a new [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) and logs in using the username and password for the application.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public ClarifySessionCreateSession()
 
 A new ClarifySession instance that is logged in using the application username and password.
 
-Remarks
+#### Remarks
 
 This method will log in the session using the username and password specified in the application connection string configuration variable.
 

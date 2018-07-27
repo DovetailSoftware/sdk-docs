@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [StateProvince members](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

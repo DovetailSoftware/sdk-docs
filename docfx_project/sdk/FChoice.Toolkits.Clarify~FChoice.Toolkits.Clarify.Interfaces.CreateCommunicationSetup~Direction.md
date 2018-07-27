@@ -2,7 +2,7 @@
 
 The direction of the message ([CommunicationDirection](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationDirection.md)).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

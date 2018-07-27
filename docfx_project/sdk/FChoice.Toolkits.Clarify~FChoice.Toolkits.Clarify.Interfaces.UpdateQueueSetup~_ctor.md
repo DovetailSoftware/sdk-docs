@@ -4,7 +4,7 @@ Title of the Queue
 
 Initializes a new instance of the UpdateQueueSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

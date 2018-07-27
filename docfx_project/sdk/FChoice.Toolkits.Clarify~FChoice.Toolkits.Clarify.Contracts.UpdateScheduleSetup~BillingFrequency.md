@@ -2,7 +2,7 @@
 
 Specifies how often will this Schedule induce billing.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

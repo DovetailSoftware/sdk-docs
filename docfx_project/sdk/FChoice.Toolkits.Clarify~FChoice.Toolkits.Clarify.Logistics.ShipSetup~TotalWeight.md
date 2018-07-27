@@ -2,7 +2,7 @@
 
 Total weight of the pieces being shipped for this Part Request
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

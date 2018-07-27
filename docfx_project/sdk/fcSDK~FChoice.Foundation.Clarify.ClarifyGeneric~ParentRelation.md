@@ -2,7 +2,7 @@
 
 Gets a reference to the [ISchemaRelation](fcSDK~FChoice.Foundation.Schema.ISchemaRelation.md) schema object which represents the relation used to traverse from the [ParentGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~ParentGeneric.md)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

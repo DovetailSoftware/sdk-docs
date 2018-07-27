@@ -2,7 +2,7 @@
 
 Notes about the Time Log.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

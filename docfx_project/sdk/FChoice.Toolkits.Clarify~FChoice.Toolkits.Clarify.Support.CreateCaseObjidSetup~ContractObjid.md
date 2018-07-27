@@ -2,7 +2,7 @@
 
 Contract Objid for the Case. If not set, there is no contract.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

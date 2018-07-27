@@ -1,9 +1,5 @@
 ﻿### CreateGeneric(Int32,String,String) Method
 
-fcSDK Documentation
-
-CreateGeneric(Int32,String,String) Method
-
 The objid of the object from which this generic will traverse
 
 The object type (table name) of the object from which to traverse
@@ -12,7 +8,7 @@ The relation from the parent to use when traversing this generic from the speci
 
 Creates a new ClarifyGeneric, traversing from a specified root object type and objid using the specified relation
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -50,7 +46,7 @@ The relation from the parent to use when traversing this generic from the speci
 
 A new ClarifyGeneric initialized with the specified table (child of the specified relation) and related to the specified parent root object
 
-Remarks
+#### Remarks
 
 This method sets a query for a generic object, given a root object table name, the objid for a row in that table, and the relation to follow from that row to this generic obj. This method saves querying the root object (as a parent object) when it is not needed otherwise. This method requires that you already have the objid of the object from which you wish to traverse. For example, the current user's objid is cached in the current ClarifySession data. It would be inefficient to make a special query to the user table to retrieve the row simply to retrieve the objid when it's already available in the session data. Instead, this method will allow you to traverse straight to child objects knowing only the user's objid.
 

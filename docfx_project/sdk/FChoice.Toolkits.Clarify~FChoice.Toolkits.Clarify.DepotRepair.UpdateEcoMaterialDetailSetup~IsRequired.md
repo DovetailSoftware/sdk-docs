@@ -2,7 +2,7 @@
 
 Indicates if this detail is required (true) or not (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

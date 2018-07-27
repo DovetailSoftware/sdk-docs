@@ -4,7 +4,7 @@ Identifier of the CR being set to Fixed.
 
 Initializes a new instance of the FixCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

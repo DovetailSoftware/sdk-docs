@@ -1,6 +1,6 @@
 ﻿### AddGeneric Method (FCBulk)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

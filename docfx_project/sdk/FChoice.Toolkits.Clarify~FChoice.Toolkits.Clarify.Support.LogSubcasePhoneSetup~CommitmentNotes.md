@@ -2,7 +2,7 @@
 
 Notes for the commitment if one is being generated.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

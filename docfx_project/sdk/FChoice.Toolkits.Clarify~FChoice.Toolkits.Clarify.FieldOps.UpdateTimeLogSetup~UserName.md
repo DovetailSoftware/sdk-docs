@@ -2,7 +2,7 @@
 
 The user who is updating the Time Log. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

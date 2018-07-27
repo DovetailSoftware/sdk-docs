@@ -1,6 +1,6 @@
 ﻿### IsStateSerialized Property (RemoteStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

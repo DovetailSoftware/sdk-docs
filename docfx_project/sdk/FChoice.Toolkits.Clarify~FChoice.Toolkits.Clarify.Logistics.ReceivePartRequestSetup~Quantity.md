@@ -2,7 +2,7 @@
 
 The number of parts being received for this Part Request
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

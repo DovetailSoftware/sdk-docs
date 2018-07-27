@@ -1,6 +1,6 @@
 ﻿### TestConnection(Exception) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

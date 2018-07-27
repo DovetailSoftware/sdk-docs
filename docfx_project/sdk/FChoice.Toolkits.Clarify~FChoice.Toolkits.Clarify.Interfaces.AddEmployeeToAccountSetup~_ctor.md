@@ -6,7 +6,7 @@ Identifier of the Account the Employee is being added to .
 
 Initializes a new instance of the AddEmployeeToAccountSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

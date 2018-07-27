@@ -2,7 +2,7 @@
 
 Name of the inventory location to add
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

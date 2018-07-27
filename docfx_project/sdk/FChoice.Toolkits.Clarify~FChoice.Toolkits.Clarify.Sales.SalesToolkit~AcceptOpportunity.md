@@ -4,7 +4,7 @@ Accept the specified Opportunity from the queue in which it is currently dispatc
 
 Accept the specified Opportunity from the queue in which it is currently dispatched.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AcceptOpportunity(AcceptOpportunitySetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AcceptOpportunity(AcceptOpportunitySetup).md) | Accept the specified Opportunity from the queue in which it is currently dispatched. This overload takes a setup object.   |
 | [AcceptOpportunity(AcceptOpportunitySetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AcceptOpportunity(AcceptOpportunitySetup,IDbTransaction).md) | Accept the specified Opportunity from the queue in which it is currently dispatched. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Opportunity must be currently dispatched to a queue.
 

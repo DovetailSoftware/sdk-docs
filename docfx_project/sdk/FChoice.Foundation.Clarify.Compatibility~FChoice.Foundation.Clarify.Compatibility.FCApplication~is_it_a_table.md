@@ -1,6 +1,6 @@
 ﻿### is_it_a_table Method (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Executes the the SQL specified in the [CommandText Property](FChoice.Common~FCho
 
 Executes the the specified SQL against the database using the specified [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) and returns the results as a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm)
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -17,7 +17,7 @@ Overload List
 | [ExecuteDataSet(IDbTransaction,CommandType,String)](FChoice.Common~FChoice.Common.Data.SqlHelper~ExecuteDataSet(IDbTransaction,CommandType,String).md) | Executes the the specified SQL using the provided database transaction and returns the results as a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm)   |
 | [ExecuteDataSet(IDbTransaction,CommandType,String,DataParameterCollection)](FChoice.Common~FChoice.Common.Data.SqlHelper~ExecuteDataSet(IDbTransaction,CommandType,String,DataParameterCollection).md) | Executes the the specified SQL with the specified parameters using the provided database transaction and returns the results as a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm)   |
 
-Remarks
+#### Remarks
 
 Not all providers return a DataSet with the same structure if no results are returned by the query. Some providers return an empty DataSet. Some providers return a DataSet with a single DataTable which contains zero rows. Test for tables and rows using the Count property on the DataSet and any DataTables before assuming any Tables or Rows exist. 
 

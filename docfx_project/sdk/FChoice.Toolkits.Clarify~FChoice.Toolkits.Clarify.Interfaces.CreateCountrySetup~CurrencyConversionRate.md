@@ -2,7 +2,7 @@
 
 Conversion rate for the currency
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

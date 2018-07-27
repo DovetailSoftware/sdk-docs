@@ -6,7 +6,7 @@ A collection of parameters to use with the supplied _sqlStmt_ parameter. The num
 
 Adds an unprepared SQL statement (with the _{n}_ and _{DATE}_ parameters still present) to the list of statements to execute during the batch or executes it immediately if batching is not available or disabled
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _cmdParams_
 
 A collection of parameters to use with the supplied _sqlStmt_ parameter. The number of parameters must match the number of _{n}_ arguments in the SQL statement. Each parameter in the collection must have a unique name with respect to all the other parameters in all the other queries in this batch. To guarantee uniqueness among parameters, see the [GetUniqueParamName Method](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~GetUniqueParamName.md).
 
-Remarks
+#### Remarks
 
 Once added, the statement is rewritten to make the parameter names unique among all the statements. Once added a statement cannot be removed. The entire batch must be discarded and rebuilt.
 

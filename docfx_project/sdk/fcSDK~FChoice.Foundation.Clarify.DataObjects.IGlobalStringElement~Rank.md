@@ -1,6 +1,6 @@
 ﻿### Rank Property (IGlobalStringElement)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

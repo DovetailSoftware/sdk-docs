@@ -6,7 +6,7 @@ The index in the array at which to start copying parameters
 
 Copies the parameters in this collection to the specified array.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _index_
 
 The index in the array at which to start copying parameters
 
-Remarks
+#### Remarks
 
 The specified array's element type must be compatible with [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm).
 

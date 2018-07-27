@@ -1,6 +1,6 @@
 ﻿### IsNumeric Method (SchemaFieldBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

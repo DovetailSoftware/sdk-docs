@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ClarifyAuthenticationResult members](fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationResult_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

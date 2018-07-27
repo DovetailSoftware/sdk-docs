@@ -1,6 +1,6 @@
 ﻿### GetDbVersion(Boolean) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

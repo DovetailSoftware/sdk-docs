@@ -2,7 +2,7 @@
 
 Specifies the to who's attention the billing is direct.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

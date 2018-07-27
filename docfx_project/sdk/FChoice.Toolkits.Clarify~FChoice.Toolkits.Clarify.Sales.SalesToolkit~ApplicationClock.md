@@ -1,6 +1,6 @@
 ﻿### ApplicationClock Property (SalesToolkit)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

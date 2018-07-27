@@ -1,6 +1,6 @@
 ﻿### GetItemByIndex Method (IGlobalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

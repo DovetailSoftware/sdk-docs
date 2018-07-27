@@ -4,7 +4,7 @@ Reject the CR from the queue in which it currently resides, and return it to the
 
 Reject the CR from the queue in which it currently resides, and return it to the owner.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [RejectCR(RejectCRSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~RejectCR(RejectCRSetup).md) | Reject the CR from the queue in which it currently resides, and return it to the owner. This overload takes a setup object.   |
 | [RejectCR(RejectCRSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~RejectCR(RejectCRSetup,IDbTransaction).md) | Reject the CR from the queue in which it currently resides, and return it to the owner. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The CR must be in open condition, and currently dispatched to a queue.
 

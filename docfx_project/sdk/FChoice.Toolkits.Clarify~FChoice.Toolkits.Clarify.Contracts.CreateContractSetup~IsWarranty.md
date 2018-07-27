@@ -2,7 +2,7 @@
 
 Flag to set the contract line items' default start state to one day past the end of the part's warranty period (true) or not (false).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

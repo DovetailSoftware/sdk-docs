@@ -4,7 +4,7 @@ Used to modify the name or the active flag of an existing bin. This overload tak
 
 Used to modify the name or the active flag of an existing bin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [UpdateInventoryBin(UpdateInventoryBinSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryBin(UpdateInventoryBinSetup).md) | Used to modify the name or the active flag of an existing bin. This overload takes a setup object.   |
 | [UpdateInventoryBin(UpdateInventoryBinSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryBin(UpdateInventoryBinSetup,IDbTransaction).md) | Used to modify the name or the active flag of an existing bin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 **NOTE**: This API cannot move a bin to another location, only rename it at the existing location.
 

@@ -1,6 +1,6 @@
 ﻿### GetCurrentStates Method (MsSqlStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

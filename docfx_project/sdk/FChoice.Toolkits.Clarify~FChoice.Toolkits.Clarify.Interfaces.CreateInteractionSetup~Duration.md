@@ -2,7 +2,7 @@
 
 Duration of the Interaction
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Key that identifies a valid First Choice license.
 
 Returns details of the current state of GraceEvents for a given license
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

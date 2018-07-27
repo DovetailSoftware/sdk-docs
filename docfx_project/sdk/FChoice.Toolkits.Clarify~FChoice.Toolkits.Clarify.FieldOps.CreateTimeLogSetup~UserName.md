@@ -2,7 +2,7 @@
 
 The user who created the Time Log. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### GetItemByIndex Method (DataObjectCollection<T>)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

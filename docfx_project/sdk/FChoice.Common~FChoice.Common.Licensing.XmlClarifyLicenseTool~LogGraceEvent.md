@@ -1,6 +1,6 @@
 ﻿### LogGraceEvent Method (XmlClarifyLicenseTool)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

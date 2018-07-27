@@ -6,7 +6,7 @@ Make the new [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.Restriction
 
 Changes the [RestrictionGroup](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.md) the session is currently using. The change can be made permanent.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

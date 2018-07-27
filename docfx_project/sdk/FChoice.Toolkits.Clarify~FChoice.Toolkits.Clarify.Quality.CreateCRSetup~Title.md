@@ -2,7 +2,7 @@
 
 The title of the Change Request
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

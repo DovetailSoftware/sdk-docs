@@ -1,6 +1,6 @@
 ﻿### ClarifyRowCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class ClarifyRowCollection
 public class ClarifyRowCollection : FChoice.Foundation.GenericDataRowCollection
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.GenericDataRowCollection](fcSDK~FChoice.Foundation.GenericDataRowCollection.md)  

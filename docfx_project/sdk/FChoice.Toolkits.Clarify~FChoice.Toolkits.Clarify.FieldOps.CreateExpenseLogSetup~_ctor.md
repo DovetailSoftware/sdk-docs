@@ -4,7 +4,7 @@ The Objid of the Onsite Log that this Expense Log is related to.
 
 Initializes a new instance of the CreateExpenseLogSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

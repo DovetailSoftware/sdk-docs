@@ -2,7 +2,7 @@
 ```
 
 ```csharp
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

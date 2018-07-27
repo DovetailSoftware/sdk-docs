@@ -1,6 +1,6 @@
 ﻿### PRIMARY_BIN_SUGGESTION_NAME Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

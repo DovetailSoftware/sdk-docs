@@ -6,7 +6,7 @@ The value of the parameter that will be passed to the database as part of the qu
 
 Creates a new IDbDataParameter of the specific underlying type for this database provider type (i.e. SqlHelper for MSSQL, etc)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ The value of the parameter that will be passed to the database as part of the qu
 
 An IDbDataParameter instance which can be added to a parameter collection for a query
 
-Remarks
+#### Remarks
 
 See DataParameterCollection for more information on how to use data parameters.
 

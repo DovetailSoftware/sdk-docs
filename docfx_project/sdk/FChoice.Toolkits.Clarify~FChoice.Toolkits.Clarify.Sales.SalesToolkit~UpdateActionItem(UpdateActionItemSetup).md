@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Update an existing Action Item. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -33,7 +33,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the ActionItem.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the ActionItem.
 
-Remarks
+#### Remarks
 
 Virtually all of the data is optional – only the Action Item ID is required. For most of the input fields, blank values if will result in no change to the existing Action Item. To clear a data item (for example, the contact), set the data field to “CLEAR”. It is possible to modify the title, notes, contact, account, lead, opportunity, task type, priority, status (within the same condition), start date, and the completion date.
 

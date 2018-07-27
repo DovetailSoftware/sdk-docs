@@ -1,6 +1,6 @@
 ﻿### IsSynchronized Property (ValidatedNameCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,8 +13,6 @@ public bool IsSynchronized {get;}
 ```
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

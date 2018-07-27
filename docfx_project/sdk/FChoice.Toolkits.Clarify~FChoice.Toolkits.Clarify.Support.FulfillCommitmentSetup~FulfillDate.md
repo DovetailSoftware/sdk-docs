@@ -2,7 +2,7 @@
 
 DateTime the Commitment was fulfilled. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

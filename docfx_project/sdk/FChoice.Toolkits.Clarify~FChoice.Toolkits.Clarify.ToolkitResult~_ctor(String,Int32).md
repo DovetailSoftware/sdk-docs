@@ -1,6 +1,6 @@
 ﻿### ToolkitResult Constructor(String,Int32)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

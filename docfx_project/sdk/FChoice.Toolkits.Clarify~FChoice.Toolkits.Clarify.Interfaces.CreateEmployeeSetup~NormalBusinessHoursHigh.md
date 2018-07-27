@@ -2,7 +2,7 @@
 
 Preference for high priority notifications during normal business hours
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

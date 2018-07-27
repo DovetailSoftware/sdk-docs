@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Used to add expense and capital GL accounts to Clarify. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

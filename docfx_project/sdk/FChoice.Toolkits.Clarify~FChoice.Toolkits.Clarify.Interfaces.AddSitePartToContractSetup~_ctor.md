@@ -8,7 +8,7 @@ Objid of the SitePart to be added.
 
 Initializes a new instance of the AddSitePartToContractSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

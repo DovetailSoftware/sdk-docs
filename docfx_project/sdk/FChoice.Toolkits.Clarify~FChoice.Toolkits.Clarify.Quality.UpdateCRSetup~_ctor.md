@@ -4,7 +4,7 @@ Identifier of the CR being updated.
 
 Initializes a new instance of the UpdateCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

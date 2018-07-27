@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Used to change the condition and (optionally) a status for the specified Action Item. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -33,7 +33,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the ActionItem.
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the ActionItem.
 
-Remarks
+#### Remarks
 
 The Action Item ID and the condition is required, but no other data is. The API can also generate a time bomb (for business rule notification).
 

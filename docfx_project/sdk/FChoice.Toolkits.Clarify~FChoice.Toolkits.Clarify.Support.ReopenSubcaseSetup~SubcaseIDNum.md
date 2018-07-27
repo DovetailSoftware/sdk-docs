@@ -2,7 +2,7 @@
 
 Identifier of the Subcase being reopened.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

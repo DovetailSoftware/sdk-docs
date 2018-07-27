@@ -2,7 +2,7 @@
 
 Identifier of the Case being updated.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

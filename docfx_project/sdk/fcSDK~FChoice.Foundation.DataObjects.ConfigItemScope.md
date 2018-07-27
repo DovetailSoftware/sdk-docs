@@ -1,6 +1,6 @@
 ﻿### ConfigItemScope Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -21,7 +21,7 @@ Members
 | **Person** |   |
 | **Workgroup** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

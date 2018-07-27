@@ -2,7 +2,7 @@
 
 Used by the [LogPartsUsedUpgrade](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedUpgrade(LogPartsUsedUpgradeSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class LogPartsUsedUpgradeSetup
 public class LogPartsUsedUpgradeSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedUpgradeSetup**  

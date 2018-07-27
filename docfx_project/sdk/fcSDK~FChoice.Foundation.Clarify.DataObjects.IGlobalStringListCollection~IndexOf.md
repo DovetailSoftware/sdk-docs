@@ -1,6 +1,6 @@
 ﻿### IndexOf Method (IGlobalStringListCollection)
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

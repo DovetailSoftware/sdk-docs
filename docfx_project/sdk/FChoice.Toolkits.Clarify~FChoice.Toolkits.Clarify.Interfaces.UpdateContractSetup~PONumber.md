@@ -2,7 +2,7 @@
 
 Purchase Order number
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Number of warranty days for the part
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The Objid of the Time Log being deleted.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

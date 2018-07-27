@@ -2,7 +2,7 @@
 
 Used by the [ChangeActionItemStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ChangeActionItemStatus(ChangeActionItemStatusSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class ChangeActionItemStatusSetup
 public class ChangeActionItemStatusSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Sales.ChangeActionItemStatusSetup**  

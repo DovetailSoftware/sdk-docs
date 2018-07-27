@@ -4,7 +4,7 @@ The objid of the ECO detail object to be updated
 
 Initializes a new instance of the UpdateEcoLaborDetailSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

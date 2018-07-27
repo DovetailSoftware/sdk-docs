@@ -6,7 +6,7 @@ The objid of the element to retrieve
 
 Gets the value of an element with the specified objid in the specified application pop-up list
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ The objid of the element to retrieve
 
 The value of the specified element
 
-Remarks
+#### Remarks
 
 If the no list exists with the specified _listTitle_, an exception will be thrown.
 

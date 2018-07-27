@@ -2,7 +2,7 @@
 
 Objid of the Site Part to be updated
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

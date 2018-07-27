@@ -6,7 +6,7 @@ Indicates how the material relates to the depot repair part.
 
 Update a Depot Repair Material. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

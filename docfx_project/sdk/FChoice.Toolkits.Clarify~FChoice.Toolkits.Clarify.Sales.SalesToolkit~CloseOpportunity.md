@@ -4,7 +4,7 @@ Closes the Opportunity. This overload takes a set of required parameters for the
 
 Closes the Opportunity.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

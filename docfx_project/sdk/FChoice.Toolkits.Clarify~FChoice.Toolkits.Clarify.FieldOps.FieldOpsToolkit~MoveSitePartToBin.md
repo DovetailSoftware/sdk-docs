@@ -4,7 +4,7 @@ Move the SitePartToBin from one WipBin to another WipBin. This overload takes a 
 
 Used to move an existing site part from its current location to a product bin within the Clarify site configuration.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [MoveSitePartToBin(MoveSitePartToBinSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~MoveSitePartToBin(MoveSitePartToBinSetup).md) | Move the SitePartToBin from one WipBin to another WipBin. This overload takes a setup object.   |
 | [MoveSitePartToBin(MoveSitePartToBinSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~MoveSitePartToBin(MoveSitePartToBinSetup,IDbTransaction).md) | Used to move an existing site part from its current location to a product bin within the Clarify site configuration. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The site part to be moved must be current (not de-installed).
 

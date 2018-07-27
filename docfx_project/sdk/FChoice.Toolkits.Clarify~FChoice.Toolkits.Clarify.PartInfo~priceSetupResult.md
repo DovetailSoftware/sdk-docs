@@ -1,6 +1,6 @@
 ﻿### priceSetupResult Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

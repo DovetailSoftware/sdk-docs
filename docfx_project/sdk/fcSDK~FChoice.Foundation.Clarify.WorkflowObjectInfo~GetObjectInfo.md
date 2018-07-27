@@ -1,6 +1,6 @@
 ﻿### GetObjectInfo Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

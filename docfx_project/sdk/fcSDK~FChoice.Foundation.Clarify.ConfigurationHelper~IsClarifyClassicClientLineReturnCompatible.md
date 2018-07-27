@@ -1,6 +1,6 @@
 ﻿### IsClarifyClassicClientLineReturnCompatible Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

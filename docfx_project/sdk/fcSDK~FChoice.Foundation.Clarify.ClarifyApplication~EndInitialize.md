@@ -4,7 +4,7 @@ An IAsyncResult that stores state information and any user defined data for this
 
 Ends an asynchronous **ClarifyApplication** initialization.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _result_
 
 An IAsyncResult that stores state information and any user defined data for this asynchronous operation.
 
-Remarks
+#### Remarks
 
 **EndInitialize** completes the asynchronous initialization operation started in [BeginInitialize](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~BeginInitialize.md).
 

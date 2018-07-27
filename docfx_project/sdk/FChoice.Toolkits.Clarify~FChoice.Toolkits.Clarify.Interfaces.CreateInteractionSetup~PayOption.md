@@ -2,7 +2,7 @@
 
 Element from the 'Interaction Pay Option' user defined list. If not set, the default list value is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

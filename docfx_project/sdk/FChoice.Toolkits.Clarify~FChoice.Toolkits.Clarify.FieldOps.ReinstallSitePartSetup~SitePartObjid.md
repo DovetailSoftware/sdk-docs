@@ -2,7 +2,7 @@
 
 The Objid of the Site Part being reinstalled.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

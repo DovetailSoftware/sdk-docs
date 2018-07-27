@@ -2,7 +2,7 @@
 
 Previous part number this PartRevision replaces.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

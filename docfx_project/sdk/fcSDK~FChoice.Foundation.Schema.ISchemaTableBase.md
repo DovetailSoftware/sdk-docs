@@ -1,6 +1,6 @@
 ﻿### ISchemaTableBase Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

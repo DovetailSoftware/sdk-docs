@@ -2,7 +2,7 @@
 
 The Priority of the communication.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

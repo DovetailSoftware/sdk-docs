@@ -1,6 +1,6 @@
 ﻿### Sort(Comparison<IGlobalStringElement>) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

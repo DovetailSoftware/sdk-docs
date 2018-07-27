@@ -4,7 +4,7 @@ Subcase Identifier.
 
 Initializes a new instance of the ChangeSubcaseStatusSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

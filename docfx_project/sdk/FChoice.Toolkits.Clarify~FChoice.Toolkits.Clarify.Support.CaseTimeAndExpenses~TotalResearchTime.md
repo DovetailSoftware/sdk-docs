@@ -2,7 +2,7 @@
 
 Total research time (closed Subcase and research logs for the Case)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

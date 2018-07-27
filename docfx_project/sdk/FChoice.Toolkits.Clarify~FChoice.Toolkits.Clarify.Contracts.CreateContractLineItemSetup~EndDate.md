@@ -2,7 +2,7 @@
 
 The end DateTime for the Line Item. If not set, the CreateDate plus 1 year is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

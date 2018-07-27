@@ -8,7 +8,7 @@ Database transaction under which the API will be invoked.
 
 Append text to a Subcase and Case's history.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

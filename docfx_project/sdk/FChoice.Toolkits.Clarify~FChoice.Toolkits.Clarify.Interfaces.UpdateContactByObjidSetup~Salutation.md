@@ -1,6 +1,6 @@
 ﻿### Salutation Property (UpdateContactByObjidSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

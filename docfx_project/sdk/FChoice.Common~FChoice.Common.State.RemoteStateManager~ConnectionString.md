@@ -1,6 +1,6 @@
 ﻿### ConnectionString Property (RemoteStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

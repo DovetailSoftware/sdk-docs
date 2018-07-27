@@ -1,6 +1,6 @@
 ### GetConfigItem Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

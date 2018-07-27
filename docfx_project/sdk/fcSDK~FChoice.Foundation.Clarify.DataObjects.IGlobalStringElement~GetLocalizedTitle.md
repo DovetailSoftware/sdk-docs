@@ -1,6 +1,6 @@
 ﻿### GetLocalizedTitle Method (IGlobalStringElement)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

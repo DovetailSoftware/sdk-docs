@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ClarifyDataObject members](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

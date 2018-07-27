@@ -4,7 +4,7 @@ The objid of the row to delete
 
 Deletes the row in the table with the specified objid
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _objId_
 
 The objid of the row to delete
 
-Remarks
+#### Remarks
 
 This method will flag a specific objid in the current generic's table for deletion. No action is taken until [Update](fcSDK~FChoice.Foundation.FCGeneric~Update.md) or [UpdateAll](fcSDK~FChoice.Foundation.FCGeneric~UpdateAll.md) is called.
 

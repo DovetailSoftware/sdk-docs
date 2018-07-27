@@ -1,6 +1,6 @@
 ﻿### Item Property (SchemaTableCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### WorkflowManager Constructor(ClarifyDataSet)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

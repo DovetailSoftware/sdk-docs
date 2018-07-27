@@ -1,6 +1,6 @@
 ﻿### ReadOnly Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

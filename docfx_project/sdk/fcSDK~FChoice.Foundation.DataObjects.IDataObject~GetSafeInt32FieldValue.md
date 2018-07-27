@@ -1,6 +1,6 @@
 ﻿### GetSafeInt32FieldValue Method (IDataObject)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -8,7 +8,7 @@ The objid of the part revision of the material that was put in use.
 
 Add a Material Usage Detail to an ECO Header. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

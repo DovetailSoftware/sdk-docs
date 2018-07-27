@@ -1,6 +1,6 @@
 ﻿### GetTimeZonesInCountry Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,6 @@ Function GetTimeZonesInCountry( _
 ADODB.Recordset GetTimeZonesInCountry( 
    string _Country_
 )
-```
 ```
 
 #### Parameters

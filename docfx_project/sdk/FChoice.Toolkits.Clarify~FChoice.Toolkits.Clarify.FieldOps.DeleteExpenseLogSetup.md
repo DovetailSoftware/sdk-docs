@@ -2,7 +2,7 @@
 
 Used by the [DeleteExpenseLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DeleteExpenseLog(DeleteExpenseLogSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class DeleteExpenseLogSetup
 public class DeleteExpenseLogSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.DeleteExpenseLogSetup**  

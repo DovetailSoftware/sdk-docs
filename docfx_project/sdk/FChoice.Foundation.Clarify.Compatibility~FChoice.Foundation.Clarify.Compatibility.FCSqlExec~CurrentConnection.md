@@ -1,6 +1,6 @@
 ﻿### CurrentConnection Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

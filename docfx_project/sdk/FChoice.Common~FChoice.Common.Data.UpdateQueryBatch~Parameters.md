@@ -2,7 +2,7 @@
 
 Gets the collection of all parameters for all queries to be executed by this batch
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public DataParameterCollection Parameters {get;}
 
 The collection of all parameters for all queries to be executed by this batch or the parameters used by the last query executed during the last call to the [AddStatement Method](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch~AddStatement.md) if the provider does not support batching.
 
-Remarks
+#### Remarks
 
 While the parameters in this collection can be manipulated, this could cause instability during the batching process and is not recommended.
 

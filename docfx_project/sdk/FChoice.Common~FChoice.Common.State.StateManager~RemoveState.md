@@ -1,6 +1,6 @@
 ﻿### RemoveState Method (StateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

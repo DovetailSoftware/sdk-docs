@@ -1,8 +1,8 @@
-﻿     FChoice.Common.Licensing Namespace Inheritance Hierarchy                                                   
+﻿     FChoice.Common.Licensing Namespace #### Inheritance Hierarchy                                                   
 
-FChoice.Common.Licensing Namespace Inheritance Hierarchy
+FChoice.Common.Licensing Namespace #### Inheritance Hierarchy
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Common.Licensing.LicenseInfo](FChoice.Common~FChoice.Common.Licensing.LicenseInfo.md)  

@@ -1,6 +1,6 @@
 ﻿### ActionType Property (LogSubcaseInternalNoteSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

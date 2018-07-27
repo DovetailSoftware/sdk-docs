@@ -4,7 +4,7 @@ Reject the Case from the queue in which it currently resides, and return it to t
 
 Reject the Case from the queue in which it currently resides, and return it to the owner.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [RejectCase(RejectCaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~RejectCase(RejectCaseSetup).md) | Reject the Case from the queue in which it currently resides, and return it to the owner. This overload takes a setup object.   |
 | [RejectCase(RejectCaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~RejectCase(RejectCaseSetup,IDbTransaction).md) | Reject the Case from the queue in which it currently resides, and return it to the owner. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Case must be in open condition, and currently dispatched to a queue.
 

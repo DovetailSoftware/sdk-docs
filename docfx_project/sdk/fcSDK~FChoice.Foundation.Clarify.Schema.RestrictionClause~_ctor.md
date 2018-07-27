@@ -1,6 +1,6 @@
 ﻿### RestrictionClause Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

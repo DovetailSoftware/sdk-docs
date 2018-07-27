@@ -1,6 +1,6 @@
 ﻿### FindFCString(Int32,CultureInfo) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

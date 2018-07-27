@@ -2,7 +2,7 @@
 
 The DateTime the Service ends for the Site Part.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

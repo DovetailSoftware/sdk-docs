@@ -1,6 +1,6 @@
 ﻿### UserLicenseLimit Property (LicenseInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

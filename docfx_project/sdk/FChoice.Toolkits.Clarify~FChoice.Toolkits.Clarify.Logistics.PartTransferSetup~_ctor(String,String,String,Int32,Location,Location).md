@@ -14,7 +14,7 @@ Inventory location and bin (or GL account) into which the part is being transfe
 
 Initializes a new instance of the PartTransferSetup class. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Identifier of the Case to unlink from the Workaround
 
 Initializes a new instance of the UnlinkCaseFromWorkaroundSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

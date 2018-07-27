@@ -4,7 +4,7 @@ Reopen a CR. This overload takes a set of required parameters for the API.
 
 Reopen a CR.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ReopenCR(ReopenCRSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ReopenCR(ReopenCRSetup).md) | Reopen a CR. This overload takes a setup object.   |
 | [ReopenCR(ReopenCRSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ReopenCR(ReopenCRSetup,IDbTransaction).md) | Reopen a CR. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 It must be in a condition other than “Open”, and cannot be dispatched.
 

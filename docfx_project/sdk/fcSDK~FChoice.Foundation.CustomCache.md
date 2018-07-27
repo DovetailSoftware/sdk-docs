@@ -1,6 +1,6 @@
 ﻿### CustomCache Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class CustomCache
 public class CustomCache : CacheBase
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)  

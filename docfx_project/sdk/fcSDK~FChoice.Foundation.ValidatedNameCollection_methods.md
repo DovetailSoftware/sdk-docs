@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ValidatedNameCollection members](fcSDK~FChoice.Foundation.ValidatedNameCollection_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

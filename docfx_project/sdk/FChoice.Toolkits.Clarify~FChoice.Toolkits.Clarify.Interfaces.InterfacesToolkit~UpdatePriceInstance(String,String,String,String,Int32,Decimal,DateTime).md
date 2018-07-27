@@ -16,7 +16,7 @@ Date when the Price was updated, any Date between the start and end date is vali
 
 Update Price Instance. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Used by the [GetSubcaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~GetSubcaseTimeAndExpenses(GetSubcaseTimeAndExpensesSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class GetSubcaseTimeAndExpensesSetup
 public class GetSubcaseTimeAndExpensesSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesSetup**  

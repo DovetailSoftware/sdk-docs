@@ -6,7 +6,7 @@ The value of the element to verify
 
 Gets whether or not the specified element value exists in a given application pop-up list
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ The value of the element to verify
 
 Whether not the specified element value exists in this application pop-up list
 
-Remarks
+#### Remarks
 
 If no list is found with the title of _listTitle_, or the value does not exist in this list, false is returned. Otherwise, true is returned.
 

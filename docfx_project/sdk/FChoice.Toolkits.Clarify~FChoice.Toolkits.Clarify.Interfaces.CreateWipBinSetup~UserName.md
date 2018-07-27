@@ -2,7 +2,7 @@
 
 User the WipBin is being created for.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

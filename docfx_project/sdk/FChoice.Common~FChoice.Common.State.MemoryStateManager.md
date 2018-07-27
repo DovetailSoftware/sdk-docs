@@ -1,6 +1,6 @@
 ﻿### MemoryStateManager Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class MemoryStateManager
 public class MemoryStateManager : IStateManager  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.State.MemoryStateManager**  

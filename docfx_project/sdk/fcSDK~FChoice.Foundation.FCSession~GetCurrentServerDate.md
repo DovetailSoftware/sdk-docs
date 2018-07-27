@@ -2,7 +2,7 @@
 
 Retrieves the DateTime of the CRM database.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

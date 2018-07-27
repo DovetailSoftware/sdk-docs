@@ -2,7 +2,7 @@
 
 Represents a row of data in a [GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,11 +17,11 @@ Public MustInherit Class GenericDataRow
 public abstract class GenericDataRow : [System.Data.DataRow](#) 
 ```
 
-Remarks
+#### Remarks
 
 **GenericDataRow**
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 [System.Data.DataRow](#)  

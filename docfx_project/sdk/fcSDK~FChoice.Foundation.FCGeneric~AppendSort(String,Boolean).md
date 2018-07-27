@@ -4,7 +4,7 @@ Name of the field to sort by
 
 **true** if the sort order is Ascending. **false** if it is Descending.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### SpecificRelationID Property (SchemaViewJoin)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

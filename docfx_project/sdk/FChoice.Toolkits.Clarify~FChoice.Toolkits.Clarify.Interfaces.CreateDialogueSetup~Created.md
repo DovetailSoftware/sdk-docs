@@ -2,7 +2,7 @@
 
 The date and time that the dialogue was created.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -8,7 +8,7 @@ Inventory location (or expense GL) into which the stock will be received
 
 Initializes a new instance of the ReceivePartRequestSetup class. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

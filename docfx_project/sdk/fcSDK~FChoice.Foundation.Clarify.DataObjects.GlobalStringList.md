@@ -1,6 +1,6 @@
 ﻿### GlobalStringList Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class GlobalStringList
 public class GlobalStringList : ClarifyDataObject, IGlobalStringList, FChoice.Foundation.DataObjects.IDataObject  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

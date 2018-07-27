@@ -1,6 +1,6 @@
 ﻿### CloseGenerics Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

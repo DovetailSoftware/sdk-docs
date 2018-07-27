@@ -4,7 +4,7 @@ Identifier of the Case against which the email is being logged.
 
 Creates an email log against a Case. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ The following values are populated in the LogCaseEmailResult object returned by 
 *   Objid \- The Objid of the Log.
 *   CommitmentObjid \- The Objid of the Commitment.
 
-Remarks
+#### Remarks
 
 It is possible to create a Commitment with this log. To do so set the CommitmentDueDate and CommitmentTitle and IsCommitmentToCustomer properties
 

@@ -4,7 +4,7 @@ A reference to a [Location](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Lo
 
 Used to add inventory bins to existing locations. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

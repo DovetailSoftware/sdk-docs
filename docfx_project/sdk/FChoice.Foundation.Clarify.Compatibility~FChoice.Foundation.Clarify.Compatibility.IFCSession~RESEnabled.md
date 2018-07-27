@@ -1,6 +1,6 @@
 ﻿### RESEnabled Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

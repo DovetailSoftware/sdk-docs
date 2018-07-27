@@ -1,6 +1,6 @@
 ﻿### ReopenDialogueSetup Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class ReopenDialogueSetup
 public class ReopenDialogueSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.ReopenDialogueSetup**  

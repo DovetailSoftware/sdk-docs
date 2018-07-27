@@ -1,6 +1,6 @@
 ﻿### InitializeState Method (StateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

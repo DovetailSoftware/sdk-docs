@@ -1,6 +1,6 @@
 ﻿### WorkflowException Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class WorkflowException
 public class WorkflowException : FChoice.Common.FCExceptionBase
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Exception  

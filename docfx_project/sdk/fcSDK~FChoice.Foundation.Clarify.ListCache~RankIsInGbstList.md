@@ -6,7 +6,7 @@ The rank of the element to verify
 
 Gets whether or not an element with the specified rank exists in an application pop-up list
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ The rank of the element to verify
 
 Whether or not an element with the specified rank exists in an application pop-up list
 
-Remarks
+#### Remarks
 
 If no list with title _listTitle_ exists, false is returned. Otherwise, true or false is returned depending on whether an element with the specified _rank_ exists in the specified list.
 

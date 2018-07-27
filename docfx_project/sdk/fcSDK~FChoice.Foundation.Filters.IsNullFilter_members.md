@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [IsNullFilter](fcSDK~FChoice.Foundation.Filters.IsNullFilter.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -11,7 +11,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

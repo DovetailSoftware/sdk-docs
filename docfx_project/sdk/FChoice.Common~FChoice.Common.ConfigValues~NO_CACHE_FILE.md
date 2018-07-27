@@ -2,7 +2,7 @@
 
 The key to the [FCConfiguration](FChoice.Common~FChoice.Common.FCConfiguration.md) collection which contains the configured switch which controls whether First Choice applications will cache application data.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

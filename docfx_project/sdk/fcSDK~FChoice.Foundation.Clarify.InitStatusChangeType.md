@@ -1,6 +1,6 @@
 ﻿### InitStatusChangeType Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -21,7 +21,7 @@ Members
 | **Completed** | Initialization is complete. |
 | **Started** | Initialization has started |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

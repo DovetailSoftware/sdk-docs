@@ -4,7 +4,7 @@ The objid of the ECO detail object to be deleted
 
 Initializes a new instance of the DeleteEcoDetailSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

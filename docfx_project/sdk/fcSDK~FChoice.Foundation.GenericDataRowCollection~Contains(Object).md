@@ -4,7 +4,7 @@ The value of the primary key to test for.
 
 Test if a single [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) is already in the collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _key_
 
 The value of the primary key to test for.
 
-Remarks
+#### Remarks
 
 The implementation of Contains is delegated to DataRowCollection's [Contains](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatarowcollectionclasscontainstopic.htm).
 

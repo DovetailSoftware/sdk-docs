@@ -4,7 +4,7 @@ Identifier of the Subcase against which the email is being logged.
 
 Creates an email log against a Subcase. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ The following values are populated in the LogSubcaseEmailResult object returned 
 *   StatusChangeObjid \- The Objid of the StatusChange.
 *   Objid \- The Objid of the Log.
 
-Remarks
+#### Remarks
 
 It is possible to create a Commitment with this log. To do so set the CommitmentDueDate and CommitmentTitle and IsCommitmentToCustomer properties
 

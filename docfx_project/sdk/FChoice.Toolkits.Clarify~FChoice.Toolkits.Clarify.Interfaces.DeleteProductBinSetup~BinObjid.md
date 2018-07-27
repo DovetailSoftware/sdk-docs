@@ -2,7 +2,7 @@
 
 Objid of the Bin to delete
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

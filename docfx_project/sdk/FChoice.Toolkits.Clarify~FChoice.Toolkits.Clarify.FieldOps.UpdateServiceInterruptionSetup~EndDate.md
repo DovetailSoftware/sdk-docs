@@ -2,7 +2,7 @@
 
 The DateTime the Service Interuption ends. If not set, the start time and duration is used to calculate the end time.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

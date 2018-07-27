@@ -1,6 +1,6 @@
 ﻿### Add(String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

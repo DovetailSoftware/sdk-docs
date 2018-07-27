@@ -8,7 +8,7 @@ The Part revision
 
 Initializes a new instance of the GetAlternatePartsSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

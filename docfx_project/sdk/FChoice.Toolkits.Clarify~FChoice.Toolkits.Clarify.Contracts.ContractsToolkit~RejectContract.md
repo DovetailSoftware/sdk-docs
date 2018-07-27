@@ -4,7 +4,7 @@ Reject the Contract from the queue in which it currently resides, and return it 
 
 Reject the Contract from the queue in which it currently resides, and return it to the owner.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [RejectContract(RejectContractSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~RejectContract(RejectContractSetup).md) | Reject the Contract from the queue in which it currently resides, and return it to the owner. This overload takes a setup object.   |
 | [RejectContract(RejectContractSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~RejectContract(RejectContractSetup,IDbTransaction).md) | Reject the Contract from the queue in which it currently resides, and return it to the owner. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Contract must be in open condition, and currently dispatched to a queue.
 

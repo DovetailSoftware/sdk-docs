@@ -1,6 +1,6 @@
 ﻿### LogSubcaseInternalNote(LogSubcaseInternalNoteSetup) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

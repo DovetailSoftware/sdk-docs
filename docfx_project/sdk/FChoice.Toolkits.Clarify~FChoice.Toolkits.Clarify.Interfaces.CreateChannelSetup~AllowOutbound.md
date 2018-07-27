@@ -1,6 +1,6 @@
 ﻿### AllowOutbound Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

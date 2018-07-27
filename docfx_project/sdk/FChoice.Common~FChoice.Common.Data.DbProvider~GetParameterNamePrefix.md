@@ -2,7 +2,7 @@
 
 Gets the prefix used by the underlying database type for parameters in a parameterized query
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public abstract string GetParameterNamePrefix()
 
 The prefix used by the underlying database type for parameters in a parameterized query (i.e. "@" for MSSQL) or [String.Empty](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemStringClassEmptyTopic.htm) for providers which do not use prefixes or parameter names
 
-Remarks
+#### Remarks
 
 Some database and/or provider types do not use prefixes for parameters, or do not use parameter names at all. One example of this is the OleDb provider uses "?" for all parameters instead of a prefix + name. In this case, [String.Empty](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemStringClassEmptyTopic.htm) will be returned.
 

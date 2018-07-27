@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Unrelates the specified Case from the current parent Case. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

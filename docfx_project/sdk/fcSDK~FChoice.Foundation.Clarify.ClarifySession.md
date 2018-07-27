@@ -2,7 +2,7 @@
 
 ClarifySession contains session information for a logged-in user and allows for manipulation of data in the Clarify system as that user.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ To start accessing data, see the [CreateGeneric](fcSDK~FChoice.Foundation.Clari
 
 FCFL.NET sessions are stateful containers that are used to remember information about a user during their session using the system. They also provide access to manipulate data and settings in the Clarify system.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.FCSession](fcSDK~FChoice.Foundation.FCSession.md)  

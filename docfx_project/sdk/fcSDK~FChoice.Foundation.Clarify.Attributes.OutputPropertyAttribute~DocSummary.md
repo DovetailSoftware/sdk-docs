@@ -1,6 +1,6 @@
 ﻿### DocSummary Property (OutputPropertyAttribute)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Used by the [LinkCRToSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~LinkCRToSolution(LinkCRToSolutionSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class LinkCRToSolutionSetup
 public class LinkCRToSolutionSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.LinkCRToSolutionSetup**  

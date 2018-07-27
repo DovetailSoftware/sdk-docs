@@ -6,7 +6,7 @@ The DateTime the Appointment ends. If not set, the start time and duration is 
 
 Initializes a new instance of the CreateAppointmentSetup class. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

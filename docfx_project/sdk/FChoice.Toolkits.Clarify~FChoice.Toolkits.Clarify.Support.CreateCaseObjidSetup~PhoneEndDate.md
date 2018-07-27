@@ -2,7 +2,7 @@
 
 If there is a phone log, this is the DateTime that the call ended. If not set, the Case creation time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

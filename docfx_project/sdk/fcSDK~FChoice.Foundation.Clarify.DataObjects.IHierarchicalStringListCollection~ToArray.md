@@ -1,6 +1,6 @@
 ﻿### ToArray Method (IHierarchicalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

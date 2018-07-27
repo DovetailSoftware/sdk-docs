@@ -2,7 +2,7 @@
 
 The billing period starting DateTime for the Schedule. If not set no change is made.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

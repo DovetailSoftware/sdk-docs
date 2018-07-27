@@ -2,7 +2,7 @@
 
 Creates a new instance of SqlHelper with optional initialization parameters
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -13,7 +13,7 @@ Overload List
 | [SqlHelper Constructor(DbProvider,String)](FChoice.Common~FChoice.Common.Data.SqlHelper~_ctor(DbProvider,String).md) | Creates a new instance of SqlHelper using the specified [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance and command text (SQL statement) and the [CommandType](FChoice.Common~FChoice.Common.Data.SqlHelper~CommandType.md) set to **Text**   |
 | [SqlHelper Constructor(DbProvider,CommandType,String)](FChoice.Common~FChoice.Common.Data.SqlHelper~_ctor(DbProvider,CommandType,String).md) | Creates a new instance of SqlHelper with the specified [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance, [CommandType](FChoice.Common~FChoice.Common.Data.SqlHelper~CommandType.md) and command text (SQL statement)   |
 
-Remarks
+#### Remarks
 
 All of the optional arguments passed into the constructor can be changed later using the similarly named properties on the SqlHelper instance. These constructor overloads are provided simply for convenience.
 

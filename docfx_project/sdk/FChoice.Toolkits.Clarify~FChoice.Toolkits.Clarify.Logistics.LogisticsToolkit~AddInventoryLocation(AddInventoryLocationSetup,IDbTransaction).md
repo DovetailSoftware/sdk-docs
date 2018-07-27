@@ -8,7 +8,7 @@ Used to add inventory locations to the system.
 
 This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

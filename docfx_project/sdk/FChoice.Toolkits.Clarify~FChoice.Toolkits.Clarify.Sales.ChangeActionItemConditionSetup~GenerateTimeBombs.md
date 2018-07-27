@@ -2,7 +2,7 @@
 
 Specifies if timebombs should be created.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

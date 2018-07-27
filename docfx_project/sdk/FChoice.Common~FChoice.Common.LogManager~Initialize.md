@@ -2,7 +2,7 @@
 
 Initializes the LogManager.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Shared Sub Initialize()
 public static void Initialize()
 ```
 
-Remarks
+#### Remarks
 
 It is not necessary to call this method as LogManager will initialize itself. This method is provided for special circumstances where LogManager's initialization must be delayed.
 

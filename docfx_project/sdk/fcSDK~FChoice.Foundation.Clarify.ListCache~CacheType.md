@@ -1,6 +1,6 @@
 ﻿### CacheType Property (ListCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

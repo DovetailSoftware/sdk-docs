@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [AltNameAttribute members](fcSDK~FChoice.Foundation.Clarify.Attributes.AltNameAttribute_members.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ﻿### TryGetHgbstList(String,Boolean,Boolean,String\[\]) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

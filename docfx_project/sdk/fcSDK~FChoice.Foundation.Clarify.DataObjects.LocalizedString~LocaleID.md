@@ -1,6 +1,6 @@
 ﻿### LocaleID Property (LocalizedString)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

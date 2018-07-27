@@ -2,7 +2,7 @@
 
 Used by the [UnrelateCaseFromParentCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UnrelateCaseFromParentCase(UnrelateCaseFromParentCaseSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UnrelateCaseFromParentCaseSetup
 public class UnrelateCaseFromParentCaseSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.UnrelateCaseFromParentCaseSetup**  

@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [AddUserToQueueSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

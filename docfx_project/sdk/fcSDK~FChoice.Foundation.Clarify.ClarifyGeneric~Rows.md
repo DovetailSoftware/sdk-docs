@@ -2,7 +2,7 @@
 
 Gets a reference to the [ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md) which contains all the rows queried for this generic
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public ClarifyRowCollection Rows {get;}
 
 A [ClarifyRowCollection](fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.md) containing the rows for this generic
 
-Remarks
+#### Remarks
 
 This property is similar to the [Item](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~Item.md) property of [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md). The rows for this generic can be accessed using either property.
 

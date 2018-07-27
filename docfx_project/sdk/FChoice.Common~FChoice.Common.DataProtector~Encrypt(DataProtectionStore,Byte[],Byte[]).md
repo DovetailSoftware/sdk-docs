@@ -8,7 +8,7 @@ The entropy, or "password" to use to encryptthis data. The value must be used to
 
 Encrypts a byte array using the specified entropy
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -46,7 +46,7 @@ The entropy, or "password" to use to encryptthis data. The value must be used to
 
 A byte array representing the encrypted version of the original _plainBytes_ payload
 
-Remarks
+#### Remarks
 
 It is important not to lose the entropy used to encrypt this data. If the entropy is lost, the data cannot be decrypted. If the entropy must be stored, do not store it with the encrypted payload.
 

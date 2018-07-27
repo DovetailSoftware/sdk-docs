@@ -4,7 +4,7 @@ A provider alias that matches one of the intrinsic provider aliases, one configu
 
 Creates a new instance of a DbProvider object from the specified provider alias
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,13 +30,13 @@ A provider alias that matches one of the intrinsic provider aliases, one configu
 
 A new DbProvider instance configured for the given alias
 
-Exceptions
+#### Exceptions
 
 | Exception | Description |
 | --- | --- |
 | CommonException | Error Code 5012 No provider with the specified alias is configured |
 
-Remarks
+#### Remarks
 
 The two intrinsic aliases are the values for the two constants: [DbProviderFactory.MSSQL_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~MSSQL_PROVIDER_NAME.md) and DbProviderFactory.ORACLE_PROVIDER_NAME. To configure additional aliases, please see the guide to [Configure Custom Data Providers](/articles/configuring-database-providers.md).
 

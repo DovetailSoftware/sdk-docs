@@ -1,6 +1,6 @@
 ﻿### ApplicationName Property (StateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

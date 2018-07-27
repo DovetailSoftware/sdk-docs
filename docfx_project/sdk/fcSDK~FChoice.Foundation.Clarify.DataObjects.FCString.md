@@ -1,6 +1,6 @@
 ﻿### FCString Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

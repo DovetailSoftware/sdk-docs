@@ -2,7 +2,7 @@
 
 Name of the database user the application object is using to connect to the database.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

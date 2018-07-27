@@ -1,6 +1,6 @@
 ﻿### Initialize(ILicenseTool) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

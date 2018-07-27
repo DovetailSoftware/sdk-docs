@@ -1,6 +1,6 @@
 ﻿### IStateManager Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

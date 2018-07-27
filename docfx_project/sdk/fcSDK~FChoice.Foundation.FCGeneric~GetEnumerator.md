@@ -2,7 +2,7 @@
 
 Returns an [IEnumerator](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemcollectionsienumeratorclasstopic.htm) for the FCGeneric.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

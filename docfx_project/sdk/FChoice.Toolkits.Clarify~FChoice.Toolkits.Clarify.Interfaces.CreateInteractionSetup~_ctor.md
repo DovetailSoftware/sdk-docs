@@ -10,7 +10,7 @@ Duration of the Interaction
 
 Initializes a new instance of the CreateInteractionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

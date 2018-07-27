@@ -6,7 +6,7 @@ The current value to assign to this variable for this thread.
 
 Sets a context variable for this thread.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _value_
 
 The current value to assign to this variable for this thread.
 
-Remarks
+#### Remarks
 
 This variable allows you to add contextual information to your log entries (like the session ID or username of the currently logged-in user, etc. This applies only when using manual configuration of LogManager through configuration file. In the <layout> section of an appender, you can add the value of a thread context variable using the following syntax:
 

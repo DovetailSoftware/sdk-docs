@@ -6,7 +6,7 @@ The new WipBin into which the CR is to be moved.
 
 Initializes a new instance of the MoveCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

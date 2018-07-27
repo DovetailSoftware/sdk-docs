@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [CreateScheduleSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateScheduleSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

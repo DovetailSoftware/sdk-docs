@@ -1,6 +1,6 @@
 ﻿### RemoveSiteFromContractSetup Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class RemoveSiteFromContractSetup
 public class RemoveSiteFromContractSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromContractSetup**  

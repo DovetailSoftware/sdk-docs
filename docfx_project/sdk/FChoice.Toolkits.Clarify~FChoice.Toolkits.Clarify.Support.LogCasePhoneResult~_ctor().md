@@ -1,6 +1,6 @@
 ﻿### LogCasePhoneResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

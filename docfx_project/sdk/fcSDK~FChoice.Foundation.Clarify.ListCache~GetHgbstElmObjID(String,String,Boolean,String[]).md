@@ -6,7 +6,7 @@ The title of the element whose objid to get
 
 One or more element titles which define the level in the list to retrieve
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

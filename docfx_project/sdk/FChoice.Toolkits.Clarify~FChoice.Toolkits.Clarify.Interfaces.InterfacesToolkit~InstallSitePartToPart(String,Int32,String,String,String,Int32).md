@@ -14,7 +14,7 @@ The number of units to install
 
 Install a Site Part under another Site Part. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

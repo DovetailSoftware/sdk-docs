@@ -1,6 +1,6 @@
 ﻿### Fax Property (UpdateContactByObjidSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

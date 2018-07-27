@@ -1,10 +1,6 @@
-﻿     FChoice.Toolkits.Clarify.Interfaces Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Toolkits.Clarify.Interfaces Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify.Interfaces Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.Interfaces.AcceptSolutionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AcceptSolutionSetup.md)  

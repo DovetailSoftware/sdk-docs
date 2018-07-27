@@ -4,7 +4,7 @@ Reopens the specified Case. This overload takes a set of required parameters for
 
 Reopens the specified Case.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ReopenCase(ReopenCaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ReopenCase(ReopenCaseSetup).md) | Reopens the specified Case. This overload takes a setup object.   |
 | [ReopenCase(ReopenCaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ReopenCase(ReopenCaseSetup,IDbTransaction).md) | Reopens the specified Case. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The [User](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup~UserName.md) that reopens the Case becomes the new owner.
 

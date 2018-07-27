@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [UpdateSiteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

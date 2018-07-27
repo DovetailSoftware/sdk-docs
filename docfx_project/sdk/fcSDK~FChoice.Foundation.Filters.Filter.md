@@ -2,7 +2,7 @@
 
 Abstract base of all filters.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public abstract class Filter
 
 [**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Filters.Filter**  

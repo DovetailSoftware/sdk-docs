@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ODPOracleProvider members](FChoice.Common~FChoice.Common.Data.ODPOracleProvider_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

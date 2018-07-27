@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Used to create a new Lead. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Lead.
 
-Remarks
+#### Remarks
 
 For almost all of the data, it can be specified, or not.
 

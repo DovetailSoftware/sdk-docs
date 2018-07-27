@@ -1,6 +1,6 @@
 ﻿### ContractIDNum Property (RemoveContactFromContractSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

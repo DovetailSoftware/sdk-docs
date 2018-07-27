@@ -1,6 +1,6 @@
 ﻿### Length Property (ISchemaField)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

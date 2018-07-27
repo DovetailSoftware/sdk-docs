@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [OracleProviderBase](FChoice.Common~FChoice.Common.Data.OracleProviderBase.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -13,7 +13,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [RequiresDbNameParameter](FChoice.Common~FChoice.Common.Data.OracleProviderBase~RequiresDbNameParameter.md) | Overridden.    |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.OracleProviderBase~TypeMapper.md) | Overridden. |
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

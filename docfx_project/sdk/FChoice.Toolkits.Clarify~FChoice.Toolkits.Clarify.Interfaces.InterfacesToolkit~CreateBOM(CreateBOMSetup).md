@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Creates a Bill Of Materials (BOM) for a Part Revision. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

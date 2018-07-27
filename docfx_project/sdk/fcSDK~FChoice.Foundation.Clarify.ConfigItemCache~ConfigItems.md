@@ -2,7 +2,7 @@
 
 Gets the collection of global config items
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

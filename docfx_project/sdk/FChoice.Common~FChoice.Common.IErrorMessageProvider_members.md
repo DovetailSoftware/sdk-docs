@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 Returns the singleton instance of ClarifyApplication if initialized.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,14 +18,14 @@ public static ClarifyApplication Instance {get;}
 
 The singleton instance of ClarifyApplication if initialized.
 
-Exceptions
+#### Exceptions
 
 | Exception | Description |
 | --- | --- |
 |
  FoundationException | The application is not yet initialized. Call ClarifyApplication.Initialize first. |
 
-Remarks
+#### Remarks
 
 If not already initialized, an exception will be thrown. First call [Initialize](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~Initialize.md).
 

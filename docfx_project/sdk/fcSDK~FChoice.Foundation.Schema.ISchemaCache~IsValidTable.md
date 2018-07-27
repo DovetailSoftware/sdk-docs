@@ -1,6 +1,6 @@
 ﻿### IsValidTable Method (ISchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

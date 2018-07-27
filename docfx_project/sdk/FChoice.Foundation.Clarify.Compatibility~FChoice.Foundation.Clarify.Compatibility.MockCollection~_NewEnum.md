@@ -1,6 +1,6 @@
 ﻿### _NewEnum Method (MockCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

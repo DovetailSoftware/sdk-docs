@@ -2,7 +2,7 @@
 
 Gets the maximum number of items the underlying database type supports in an IN() or NOT IN() SQL clause
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

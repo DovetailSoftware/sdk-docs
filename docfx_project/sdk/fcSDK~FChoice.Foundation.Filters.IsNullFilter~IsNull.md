@@ -1,6 +1,6 @@
 ﻿### IsNull Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### IDataObject Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

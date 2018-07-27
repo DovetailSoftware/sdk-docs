@@ -1,6 +1,6 @@
 ﻿### RemoveSiteFromContractSetup Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

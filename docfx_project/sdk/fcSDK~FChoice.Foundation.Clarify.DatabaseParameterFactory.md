@@ -1,6 +1,6 @@
 ﻿### DatabaseParameterFactory Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class DatabaseParameterFactory
 public class DatabaseParameterFactory
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.DatabaseParameterFactory**  

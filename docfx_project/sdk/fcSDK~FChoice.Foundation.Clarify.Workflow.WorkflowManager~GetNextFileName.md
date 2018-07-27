@@ -1,6 +1,6 @@
 ﻿### GetNextFileName Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

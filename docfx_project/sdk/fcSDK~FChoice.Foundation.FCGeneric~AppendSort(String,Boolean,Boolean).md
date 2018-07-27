@@ -6,7 +6,7 @@ Name of the field to sort by
 
 **true** to validate whether the field specified in _fieldName_ is a valid field on this table. **false** to add the _fieldName_ without any verification.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

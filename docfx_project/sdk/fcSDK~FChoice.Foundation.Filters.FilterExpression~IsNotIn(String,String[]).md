@@ -1,6 +1,6 @@
 ﻿### IsNotIn(String,String\[\]) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,6 @@ public IsInFilter IsNotIn(
    string _columnName_,
    params string[] _values_
 )
-```
 ```
 
 #### Parameters

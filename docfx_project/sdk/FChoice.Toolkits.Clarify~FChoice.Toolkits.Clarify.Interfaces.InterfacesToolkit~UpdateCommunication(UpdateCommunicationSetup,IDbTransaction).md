@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Update a Communication.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

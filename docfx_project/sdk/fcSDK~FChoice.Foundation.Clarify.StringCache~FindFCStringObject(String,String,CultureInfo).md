@@ -1,6 +1,6 @@
 ﻿### FindFCStringObject(String,String,CultureInfo) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

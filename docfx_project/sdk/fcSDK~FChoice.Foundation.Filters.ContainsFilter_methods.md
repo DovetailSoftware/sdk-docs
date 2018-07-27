@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ContainsFilter members](fcSDK~FChoice.Foundation.Filters.ContainsFilter_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

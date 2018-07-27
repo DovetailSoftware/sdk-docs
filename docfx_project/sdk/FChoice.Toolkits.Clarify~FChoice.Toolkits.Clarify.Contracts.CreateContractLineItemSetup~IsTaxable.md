@@ -2,7 +2,7 @@
 
 Indicates if the Line Item is taxable (true) or not (false).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### get_fields_types_lens Method (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

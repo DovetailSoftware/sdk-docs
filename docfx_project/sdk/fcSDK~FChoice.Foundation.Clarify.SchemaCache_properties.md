@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [SchemaCache members](fcSDK~FChoice.Foundation.Clarify.SchemaCache_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ﻿### Yank Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

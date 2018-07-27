@@ -1,6 +1,6 @@
 ﻿### LicenseExpirationDate Property (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

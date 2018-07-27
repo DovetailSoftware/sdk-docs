@@ -2,7 +2,7 @@
 
 Reference to the GenericDataTable this collection belongs to.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

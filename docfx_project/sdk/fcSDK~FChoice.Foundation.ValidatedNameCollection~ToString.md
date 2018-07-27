@@ -1,6 +1,6 @@
 ﻿### ToString Method (ValidatedNameCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

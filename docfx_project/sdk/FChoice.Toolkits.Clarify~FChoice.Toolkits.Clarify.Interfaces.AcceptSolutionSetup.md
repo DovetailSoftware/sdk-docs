@@ -2,7 +2,7 @@
 
 Used by the [AcceptSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AcceptSolution(AcceptSolutionSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ public class AcceptSolutionSetup
 The solution must be currently dispatched to a queue.  
 The solution must be currently dispatched to a queue.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.AcceptSolutionSetup**  

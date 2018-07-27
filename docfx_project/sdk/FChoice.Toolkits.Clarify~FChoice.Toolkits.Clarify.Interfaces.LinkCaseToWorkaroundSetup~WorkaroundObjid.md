@@ -2,7 +2,7 @@
 
 Objid of the Workaround the Case will be linked to
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

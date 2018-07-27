@@ -4,7 +4,7 @@ The session under which the toolkit APIs will be executed.
 
 Initializes a new instance of the FieldOpsToolkit class using a ClarifySession object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _session_
 
 The session under which the toolkit APIs will be executed.
 
-Remarks
+#### Remarks
 
 If the toolkit session was **created** as a **Contact** session this property is required otherwise errors will result.
 

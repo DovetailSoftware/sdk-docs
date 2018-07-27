@@ -6,7 +6,7 @@ Retrieves a logger for the given type name.
 
 Retrieves a logger for the given logger or type name.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

@@ -1,6 +1,6 @@
 ﻿### TruncateStringFields Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

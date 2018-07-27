@@ -6,7 +6,7 @@ Identifier of the site where the bin is created
 
 Initializes a new instance of the CreateProductBinSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

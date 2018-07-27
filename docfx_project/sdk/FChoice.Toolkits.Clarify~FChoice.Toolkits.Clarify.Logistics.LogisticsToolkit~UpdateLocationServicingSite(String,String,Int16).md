@@ -8,7 +8,7 @@ The rank of this inventory location at the associated site
 
 Used to change the order of the locations servicing a site. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -48,7 +48,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Inventory Role record.
 
-Remarks
+#### Remarks
 
 This API will give a new rank to the. All other ranks are changed as necessary.
 

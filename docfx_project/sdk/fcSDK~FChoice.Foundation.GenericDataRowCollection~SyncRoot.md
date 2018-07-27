@@ -2,7 +2,7 @@
 
 Gets an object that can be used to synchronize the collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

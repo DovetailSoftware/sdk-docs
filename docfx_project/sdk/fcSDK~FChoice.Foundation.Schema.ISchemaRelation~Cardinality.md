@@ -1,6 +1,6 @@
 ﻿### Cardinality Property (ISchemaRelation)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

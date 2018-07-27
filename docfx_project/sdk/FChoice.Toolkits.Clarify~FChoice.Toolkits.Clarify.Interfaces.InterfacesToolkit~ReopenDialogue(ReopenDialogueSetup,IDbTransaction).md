@@ -1,6 +1,6 @@
 ﻿### ReopenDialogue(ReopenDialogueSetup,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

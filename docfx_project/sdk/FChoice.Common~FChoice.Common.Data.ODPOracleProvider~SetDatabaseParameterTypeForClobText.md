@@ -1,6 +1,6 @@
 ﻿### SetDatabaseParameterTypeForClobText Method (ODPOracleProvider)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ The queue into which the ActionItem is to be dispatched.
 
 Initializes a new instance of the DispatchActionItemSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

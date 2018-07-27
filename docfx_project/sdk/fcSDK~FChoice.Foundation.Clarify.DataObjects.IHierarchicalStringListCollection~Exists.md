@@ -1,6 +1,6 @@
 ﻿### Exists Method (IHierarchicalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ A [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystem
 
 Forces a load of new configuration values, using the supplied collection if possible.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,13 +30,13 @@ A [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystem
 
 A [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsSpecializedNameValueCollectionMembersTopic.htm) of values produced by loading the environment settings either from the provided collection, from the current application configuration, or a merge of both.
 
-Exceptions
+#### Exceptions
 
 | Exception | Description |
 | --- | --- |
 | [FCInvalidConfigurationException](FChoice.Common~FChoice.Common.FCInvalidConfigurationException.md) | One or more required configuration values was not found in the specified initialValues collection. |
 
-Remarks
+#### Remarks
 
 Required parameters will be checked and a FCConfiguration will force a reload of settings based on the supplied values when this method is called.
 

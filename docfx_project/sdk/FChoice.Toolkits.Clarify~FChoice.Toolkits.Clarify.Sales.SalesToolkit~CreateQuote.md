@@ -4,7 +4,7 @@ Used to create a new Quote. This overload takes a set of required parameters for
 
 Used to create a new Quote.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [CreateQuote(CreateQuoteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~CreateQuote(CreateQuoteSetup).md) | Used to create a new Quote. This overload takes a setup object.   |
 | [CreateQuote(CreateQuoteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~CreateQuote(CreateQuoteSetup,IDbTransaction).md) | Used to create a new Quote. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 This API requires that a valid opportunity exists. This differs a little from the Clarify GUI, which creates the opportunity as part of the create quote. That can be done with the APIs, but there is extra flexibility provided.
 

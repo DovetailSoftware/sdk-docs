@@ -4,7 +4,7 @@ Objid of the Bin to delete
 
 Initializes a new instance of the DeleteProductBinSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

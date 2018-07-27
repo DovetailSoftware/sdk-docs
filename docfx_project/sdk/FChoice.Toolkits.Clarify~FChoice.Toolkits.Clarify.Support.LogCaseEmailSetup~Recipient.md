@@ -2,7 +2,7 @@
 
 List of email addresses the email is sent to.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

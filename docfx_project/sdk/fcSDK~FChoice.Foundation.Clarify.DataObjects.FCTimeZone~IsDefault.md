@@ -1,6 +1,6 @@
 ﻿### IsDefault Property (FCTimeZone)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

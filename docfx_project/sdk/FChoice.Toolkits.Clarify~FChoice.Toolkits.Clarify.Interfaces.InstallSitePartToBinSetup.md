@@ -2,7 +2,7 @@
 
 Used by the [InstallSitePartToBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~InstallSitePartToBin(InstallSitePartToBinSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class InstallSitePartToBinSetup
 public class InstallSitePartToBinSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToBinSetup**  

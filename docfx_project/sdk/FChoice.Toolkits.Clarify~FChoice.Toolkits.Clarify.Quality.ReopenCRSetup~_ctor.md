@@ -4,7 +4,7 @@ Identifier of the CR being reopened.
 
 Initializes a new instance of the ReopenCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

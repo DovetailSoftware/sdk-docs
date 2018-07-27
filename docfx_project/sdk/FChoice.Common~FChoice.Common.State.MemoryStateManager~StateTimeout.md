@@ -1,6 +1,6 @@
 ﻿### StateTimeout Property (MemoryStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

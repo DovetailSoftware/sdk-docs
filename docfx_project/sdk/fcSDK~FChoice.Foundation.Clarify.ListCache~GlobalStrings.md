@@ -2,7 +2,7 @@
 
 Gets a reference to the [GlobalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringListCollection.md) cache of all application pop-up lists in the database
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public IGlobalStringListCollection GlobalStrings {get;}
 
 A reference to the [GlobalStringListCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringListCollection.md) cache of all application pop-up lists in the database
 
-Remarks
+#### Remarks
 
 The GetGgbst* methods provide an easy-to-use API for accessing user-defined lists. It is recommend that these be used instead of directly accessing the master GBST collection itself.
 

@@ -2,7 +2,7 @@
 
 The inventory location being removed
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

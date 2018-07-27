@@ -2,7 +2,7 @@
 
 Supports First Choice licensing.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Interface ILicenseTool
 public interface ILicenseTool 
 ```
 
-Remarks
+#### Remarks
 
 For internal First Choice use only.
 

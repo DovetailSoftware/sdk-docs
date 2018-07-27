@@ -2,7 +2,7 @@
 
 Email addresses of persons CC'd on the email being logged.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

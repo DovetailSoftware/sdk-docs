@@ -1,6 +1,6 @@
 ﻿### SchemaViewJoinCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class SchemaViewJoinCollection
 public class SchemaViewJoinCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<SchemaViewJoin>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md), [FChoice.Foundation.Schema.ISchemaViewJoinCollection](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoinCollection.md) 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  

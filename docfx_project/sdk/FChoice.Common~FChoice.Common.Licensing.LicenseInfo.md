@@ -2,7 +2,7 @@
 
 License Details
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class LicenseInfo
 public class LicenseInfo : [ILicenseInfo](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo.md)  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.Licensing.LicenseInfo**  

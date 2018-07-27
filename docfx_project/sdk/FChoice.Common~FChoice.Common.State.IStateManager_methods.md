@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [IStateManager members](FChoice.Common~FChoice.Common.State.IStateManager_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

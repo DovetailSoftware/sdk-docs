@@ -6,7 +6,7 @@ The title of the element to verify
 
 An optional list of element titles that defines what level in the user-defined list to search
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

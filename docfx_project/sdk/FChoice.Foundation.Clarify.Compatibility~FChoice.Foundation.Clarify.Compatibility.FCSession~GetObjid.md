@@ -1,6 +1,6 @@
 ﻿### GetObjid Method (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

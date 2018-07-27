@@ -2,7 +2,7 @@
 
 The inventory location and bin to update
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

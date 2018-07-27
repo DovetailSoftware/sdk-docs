@@ -1,6 +1,6 @@
 ﻿### AltTypeAttribute Constructor(String)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

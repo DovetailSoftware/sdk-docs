@@ -1,6 +1,6 @@
 ﻿### ToolkitResultPropertyAttribute Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ Public Class ToolkitResultPropertyAttribute
 public class ToolkitResultPropertyAttribute : System.Attribute
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Attribute  

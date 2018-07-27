@@ -12,7 +12,7 @@ Part domain for the Part
 
 Initializes a new instance of the UpdatePartStockingLevelSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The WipBin in which to place the Part Request when it is reopened. If not specified, the default WipBin for the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

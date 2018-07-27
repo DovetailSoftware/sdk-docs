@@ -6,7 +6,7 @@ A string of text to encrypt
 
 Encrypts a string and returns a Base64-encoded string representing the encrypted output
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _plainText_
 
 A string of text to encrypt
 
-Remarks
+#### Remarks
 
 ![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 

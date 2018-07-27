@@ -12,7 +12,7 @@ The number of parts requested
 
 Initializes a new instance of the CreatePartRequestDetailSetup class. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -36,7 +36,6 @@ public CreatePartRequestDetailSetup(
    string _partRevision_,
    int _quantity_
 )
-```
 ```
 
 #### Parameters

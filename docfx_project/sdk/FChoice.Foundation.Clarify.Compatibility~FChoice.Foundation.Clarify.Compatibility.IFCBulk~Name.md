@@ -1,6 +1,6 @@
 ﻿### Name Property (IFCBulk)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### GetRelation Method (ISchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

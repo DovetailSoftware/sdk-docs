@@ -2,7 +2,7 @@
 
 Provides enumerated values which determine how a given user is logged in when calling [ClarifyApplication.CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -22,11 +22,11 @@ Members
 | **Contact** | Specifies that a Contact or "web user" login should be attempted. |
 | **User** | Specifies that a regular user login should be attempted. |
 
-Remarks
+#### Remarks
 
 For more information on how login behavior works, see the [ClarifyApplication.CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md) method.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

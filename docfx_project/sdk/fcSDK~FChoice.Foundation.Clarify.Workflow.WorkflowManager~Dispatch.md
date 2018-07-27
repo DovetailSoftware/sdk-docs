@@ -1,6 +1,6 @@
 ﻿### Dispatch Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

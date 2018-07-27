@@ -1,6 +1,6 @@
 ﻿### BinarySearch(IGlobalStringList,IComparer<IGlobalStringList>) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

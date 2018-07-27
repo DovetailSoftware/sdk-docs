@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

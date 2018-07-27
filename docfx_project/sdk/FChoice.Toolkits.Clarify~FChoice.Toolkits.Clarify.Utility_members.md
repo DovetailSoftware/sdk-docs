@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [Utility](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Utility.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

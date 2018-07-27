@@ -2,7 +2,7 @@
 
 The status of the revision.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Caches and provides convenient access methods for GBST and HGBST list structures
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class ListCache
 public class ListCache : ClarifyCacheBase, IListCache
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)  

@@ -1,6 +1,6 @@
 ﻿### PartRequestType Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -24,7 +24,7 @@ Members
 | **Replenishment** |   |
 | **ReturnForCredit** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

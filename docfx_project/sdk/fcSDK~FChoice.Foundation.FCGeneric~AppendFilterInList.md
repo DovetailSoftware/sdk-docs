@@ -4,7 +4,7 @@ Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice
 
 Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) against a list of possible values**.**
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -13,7 +13,7 @@ Overload List
 | [AppendFilterInList(String,Boolean,DateTime\[\])](fcSDK~FChoice.Foundation.FCGeneric~AppendFilterInList(String,Boolean,DateTime[]).md) | Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) against a list of possible DateTime values**.**   |
 | [AppendFilterInList(String,Boolean,String\[\])](fcSDK~FChoice.Foundation.FCGeneric~AppendFilterInList(String,Boolean,String[]).md) | Adds a filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) against a list of possible String values**.**   |
 
-Remarks
+#### Remarks
 
 Filters are a powerful feature that make it easy to limit the rows returned by a [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md). You may call filter methods multiple times resulting in each successive filter further constraining the rows returned.
 

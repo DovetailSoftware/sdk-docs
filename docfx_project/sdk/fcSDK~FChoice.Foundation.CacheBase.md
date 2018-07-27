@@ -1,6 +1,6 @@
 ﻿### CacheBase Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public MustInherit Class CacheBase
 public abstract class CacheBase 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.CacheBase**  

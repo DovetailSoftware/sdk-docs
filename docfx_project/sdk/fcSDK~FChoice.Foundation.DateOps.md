@@ -2,7 +2,7 @@
 
 Valid date filtering operations for methods such as [AppendFilter](fcSDK~FChoice.Foundation.FCGeneric~AppendFilter(String,DateOps,DateTime).md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ Members
 | **Tomorrow** | Return rows that occur tomorrow. |
 | **Yesterday** | Return rows that occurred yesterday. |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

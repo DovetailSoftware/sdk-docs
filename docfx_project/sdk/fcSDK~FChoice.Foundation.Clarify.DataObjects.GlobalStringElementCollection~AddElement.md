@@ -1,6 +1,6 @@
 ﻿### AddElement Method (GlobalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

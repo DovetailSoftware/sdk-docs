@@ -1,6 +1,6 @@
 ﻿### IsDataRestricted Property (ISchemaTableBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

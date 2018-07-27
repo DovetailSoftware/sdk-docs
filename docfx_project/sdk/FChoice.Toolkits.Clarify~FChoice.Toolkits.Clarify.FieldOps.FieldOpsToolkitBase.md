@@ -2,7 +2,7 @@
 
 This class is intended for internal use by the [FieldOpsToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public MustInherit Class FieldOpsToolkitBase
 public abstract class FieldOpsToolkitBase : FChoice.Toolkits.Clarify.ToolkitBase
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  

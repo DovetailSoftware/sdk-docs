@@ -2,7 +2,7 @@
 
 Objid of the parent Site Part this Part will be re-installed under.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

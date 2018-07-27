@@ -6,7 +6,7 @@ Identifier of the Site to add to the Contract.
 
 Initializes a new instance of the AddSiteToContractSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

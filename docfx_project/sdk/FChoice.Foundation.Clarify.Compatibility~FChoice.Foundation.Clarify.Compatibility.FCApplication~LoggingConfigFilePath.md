@@ -1,6 +1,6 @@
 ﻿### LoggingConfigFilePath Property (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

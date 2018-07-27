@@ -4,7 +4,7 @@ The objid of the material log object to be deleted
 
 Initializes a new instance of the DeleteDepotRepairMaterialSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

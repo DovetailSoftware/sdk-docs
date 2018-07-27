@@ -1,6 +1,6 @@
 ﻿### RelationPhysicalName Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

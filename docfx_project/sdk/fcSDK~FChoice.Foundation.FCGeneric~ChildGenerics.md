@@ -2,7 +2,7 @@
 
 Returns a dictionary (keyed by parent to child relation name) of child generics belonging to this **FCGeneric**.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public ICollection<FCGeneric> ChildGenerics {get;}
 
 Returns a dictionary (keyed by parent to child relation name) of child generics belonging to this **FCGeneric**.
 
-Remarks
+#### Remarks
 
 Changes to the dictionary will have no effect on the **FCGeneric**.
 

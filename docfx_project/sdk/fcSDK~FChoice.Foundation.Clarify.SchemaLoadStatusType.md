@@ -1,6 +1,6 @@
 ﻿### SchemaLoadStatusType Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -24,7 +24,7 @@ Members
 | **TablesLoaded** |   |
 | **ViewsLoaded** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

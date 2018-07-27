@@ -16,7 +16,7 @@ Online privilege class
 
 Initializes a new instance of the CreateEmployeeSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

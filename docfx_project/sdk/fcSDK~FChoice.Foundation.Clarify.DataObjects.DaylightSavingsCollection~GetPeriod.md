@@ -1,6 +1,6 @@
 ﻿### GetPeriod Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

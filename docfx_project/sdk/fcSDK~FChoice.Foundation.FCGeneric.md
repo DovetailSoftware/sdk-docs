@@ -2,7 +2,7 @@
 
 Provides core CRM business logic and managed access to data.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public MustInherit Class FCGeneric
 public abstract class FCGeneric 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.FCGeneric**  

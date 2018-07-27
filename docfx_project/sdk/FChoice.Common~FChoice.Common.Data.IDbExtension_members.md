@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [IDbExtension](FChoice.Common~FChoice.Common.Data.IDbExtension.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [OracleStateManager members](FChoice.Common~FChoice.Common.State.OracleStateManager_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

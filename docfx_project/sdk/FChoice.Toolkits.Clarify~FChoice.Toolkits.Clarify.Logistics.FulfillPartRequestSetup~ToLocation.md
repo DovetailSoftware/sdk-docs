@@ -2,7 +2,7 @@
 
 The destination inventory location and bin for the parts used to fulfill this Part Request
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

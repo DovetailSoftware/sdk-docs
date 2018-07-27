@@ -1,6 +1,6 @@
 ### num_ad Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

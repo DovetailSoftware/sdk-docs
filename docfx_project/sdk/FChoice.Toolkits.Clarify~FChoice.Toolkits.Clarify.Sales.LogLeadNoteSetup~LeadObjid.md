@@ -2,7 +2,7 @@
 
 The objid of the lead for the note log.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

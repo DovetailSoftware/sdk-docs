@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [FakeTimeZone](fcSDK~FChoice.Foundation.DataObjects.FakeTimeZone.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -18,7 +18,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

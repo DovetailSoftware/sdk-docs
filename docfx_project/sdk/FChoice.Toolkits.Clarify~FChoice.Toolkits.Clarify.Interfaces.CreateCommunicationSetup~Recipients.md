@@ -2,7 +2,7 @@
 
 Array of Recipient addresses (usually email addresses).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

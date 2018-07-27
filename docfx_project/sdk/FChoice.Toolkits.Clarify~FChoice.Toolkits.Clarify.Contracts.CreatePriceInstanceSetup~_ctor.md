@@ -16,7 +16,7 @@ The quantity of the part for the Price Instance. If not set, it will default to 
 
 Initializes a new instance of the CreatePriceInstanceSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

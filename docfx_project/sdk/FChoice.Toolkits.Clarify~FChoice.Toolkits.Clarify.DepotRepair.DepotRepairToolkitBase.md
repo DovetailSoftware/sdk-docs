@@ -2,7 +2,7 @@
 
 Please see [DepotRepairToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md). This class is used internally and not meant to be created by end users.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public MustInherit Class DepotRepairToolkitBase
 public abstract class DepotRepairToolkitBase : FChoice.Toolkits.Clarify.ToolkitBase
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.ToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.md)  

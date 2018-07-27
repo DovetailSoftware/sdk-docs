@@ -4,7 +4,7 @@ CommonException Class
 
 CommonException is the exception class used throughout the FChoice.Common and FChoice.Common.Data namespaces. It provides localized error messages with unique error identifiers.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,11 +19,11 @@ Public Class CommonException
 public class CommonException : FCExceptionBase
 ```
 
-Remarks
+#### Remarks
 
 This exception is thrown whenever the FChoice.Common classes encounter problems. They should generally be rare and are usually related to invalid configuration settings or some type of major error from which .NET or First Choice products cannot recover.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.110).aspx)
 System.Exception  

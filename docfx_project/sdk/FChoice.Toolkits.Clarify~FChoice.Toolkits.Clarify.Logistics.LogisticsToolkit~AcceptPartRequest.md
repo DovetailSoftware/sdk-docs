@@ -4,7 +4,7 @@ Accept the specified PartRequest from the queue in which it is currently dispatc
 
 Accept the specified PartRequest from the queue in which it is currently dispatched.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AcceptPartRequest(AcceptPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AcceptPartRequest(AcceptPartRequestSetup).md) | Accept the specified PartRequest from the queue in which it is currently dispatched. This overload takes a setup object.   |
 | [AcceptPartRequest(AcceptPartRequestSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AcceptPartRequest(AcceptPartRequestSetup,IDbTransaction).md) | Accept the specified PartRequest from the queue in which it is currently dispatched. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The PartRequest must be currently dispatched to a queue.
 

@@ -2,7 +2,7 @@
 
 Specifies if the commitment is to the customer (True) or by the customer (False).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

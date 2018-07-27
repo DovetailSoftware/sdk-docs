@@ -2,7 +2,7 @@
 
 Gets a reference to the parent [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) of this generic.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

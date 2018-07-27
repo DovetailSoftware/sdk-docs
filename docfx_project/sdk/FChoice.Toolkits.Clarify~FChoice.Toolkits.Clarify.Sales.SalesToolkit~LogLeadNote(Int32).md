@@ -4,7 +4,7 @@ The objid of the lead for the note log.
 
 Log a note for a Lead. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The following values are populated in the ToolkitResult object returned by the A
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the NoteLog.
 
-Remarks
+#### Remarks
 
 The objid of the lead must be specified (since no other information on the lead is unique), and the description (note text). A internal use only text field can be supplied. The user who logged the note, and when can be indicated.
 

@@ -1,6 +1,6 @@
 ﻿### MockCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ Public Class MockCollection
 public class MockCollection : IMockCollection  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.Compatibility.MockCollection**  

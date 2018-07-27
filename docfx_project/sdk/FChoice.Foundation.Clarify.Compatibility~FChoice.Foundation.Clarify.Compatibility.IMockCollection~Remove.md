@@ -1,6 +1,6 @@
 ﻿### Remove Method (IMockCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

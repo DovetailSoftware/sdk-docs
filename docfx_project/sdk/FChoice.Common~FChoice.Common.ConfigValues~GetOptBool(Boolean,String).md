@@ -1,6 +1,6 @@
 ﻿## GetOptBool(Boolean,String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

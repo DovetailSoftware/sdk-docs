@@ -1,6 +1,6 @@
 ﻿### SecondaryAlias Property (ISchemaViewJoin)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

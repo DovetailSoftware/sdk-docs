@@ -1,6 +1,6 @@
 ﻿### VerifyLicense Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

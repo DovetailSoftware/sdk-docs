@@ -1,6 +1,6 @@
 ﻿### LogSubcaseEmailResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### IsDirty Property (LocationCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

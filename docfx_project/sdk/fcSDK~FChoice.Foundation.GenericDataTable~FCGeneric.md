@@ -1,6 +1,6 @@
 ﻿### FCGeneric Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

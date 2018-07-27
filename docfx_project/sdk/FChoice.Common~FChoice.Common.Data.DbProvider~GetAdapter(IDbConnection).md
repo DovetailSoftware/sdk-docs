@@ -4,7 +4,7 @@ The database connection this adapter should use when performing database operati
 
 Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL) initialized to use the specified connection to the database.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ The [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemda
 
 Returns the index at which this object exists in the collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemda
 
 The zero-based index of the first occurrence of value within the entire DataParameterCollection, if found; otherwise, -1.
 
-Remarks
+#### Remarks
 
 The DataParameterCollection is searched forward starting at the first element and ending at the last element.  
 

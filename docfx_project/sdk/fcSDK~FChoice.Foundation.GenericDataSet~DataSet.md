@@ -1,6 +1,6 @@
 ﻿### DataSet Property (GenericDataSet)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

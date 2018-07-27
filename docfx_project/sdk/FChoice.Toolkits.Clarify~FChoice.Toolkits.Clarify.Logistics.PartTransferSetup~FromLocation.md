@@ -2,7 +2,7 @@
 
 Inventory location (or expense GL) and bin from which to transfer the part
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

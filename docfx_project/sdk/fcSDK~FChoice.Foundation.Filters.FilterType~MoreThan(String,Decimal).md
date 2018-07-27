@@ -1,6 +1,6 @@
 ﻿### MoreThan(String,Decimal) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ The Objid of the Parent Site Bin where the Site Part is being moved.
 
 Initializes a new instance of the MoveSitePartToBinSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

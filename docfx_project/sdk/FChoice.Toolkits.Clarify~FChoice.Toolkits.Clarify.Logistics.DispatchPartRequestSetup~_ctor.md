@@ -6,7 +6,7 @@ The queue into which the PartRequest is to be dispatched.
 
 Initializes a new instance of the DispatchPartRequestSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

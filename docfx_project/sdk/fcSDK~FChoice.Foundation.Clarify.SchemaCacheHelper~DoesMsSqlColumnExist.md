@@ -1,6 +1,6 @@
 ﻿### DoesMsSqlColumnExist Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

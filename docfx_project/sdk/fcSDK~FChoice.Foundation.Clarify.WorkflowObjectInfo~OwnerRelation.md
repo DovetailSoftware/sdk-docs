@@ -1,6 +1,6 @@
 ﻿### OwnerRelation Property (WorkflowObjectInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

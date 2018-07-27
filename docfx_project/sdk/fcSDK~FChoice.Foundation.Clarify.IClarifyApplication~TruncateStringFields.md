@@ -1,6 +1,6 @@
 ﻿### TruncateStringFields Property (IClarifyApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

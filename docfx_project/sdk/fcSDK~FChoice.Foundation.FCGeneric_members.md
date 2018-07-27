@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -12,7 +12,7 @@ Public Fields
 
 
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ Sets an optional WHERE clause constraint. (**WARNING:** See remarks for potentia
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

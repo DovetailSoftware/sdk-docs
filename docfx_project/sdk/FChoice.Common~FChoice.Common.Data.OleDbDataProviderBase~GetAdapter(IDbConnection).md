@@ -1,6 +1,6 @@
 ﻿### GetAdapter(IDbConnection) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

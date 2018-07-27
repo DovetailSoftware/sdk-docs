@@ -1,6 +1,6 @@
 ﻿### TinyInt Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

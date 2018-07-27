@@ -4,7 +4,7 @@ The Objid of the Time Log being modified.
 
 Initializes a new instance of the UpdateTimeLogSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

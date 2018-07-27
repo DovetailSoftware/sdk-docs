@@ -1,6 +1,6 @@
 ﻿### ApplicationName Property (RemoteStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

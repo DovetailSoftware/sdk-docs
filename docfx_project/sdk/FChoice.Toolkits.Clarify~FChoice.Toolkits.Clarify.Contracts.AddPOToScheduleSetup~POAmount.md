@@ -2,7 +2,7 @@
 
 The amount of the Purchase Order.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

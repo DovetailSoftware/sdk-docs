@@ -2,7 +2,7 @@
 
 Specifies if the API should add the email notifications for the commitment time and prior warning time.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

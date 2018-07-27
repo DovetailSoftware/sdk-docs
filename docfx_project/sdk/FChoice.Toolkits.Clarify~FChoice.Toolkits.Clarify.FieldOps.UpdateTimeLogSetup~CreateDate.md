@@ -2,7 +2,7 @@
 
 The DateTime the Time Log was modified. If not set, the current time is used.The DateTime the Time Log starts. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Identifier of the Case against which the note is being logged.
 
 Initializes a new instance of the LogCaseNoteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

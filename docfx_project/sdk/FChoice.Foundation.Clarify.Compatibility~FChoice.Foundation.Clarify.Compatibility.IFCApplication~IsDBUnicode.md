@@ -1,6 +1,6 @@
 ﻿### IsDBUnicode Property (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

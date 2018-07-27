@@ -1,6 +1,6 @@
 ﻿### ImpersonatorUsername Property (QualityToolkitBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

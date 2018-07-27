@@ -1,8 +1,4 @@
-﻿     FChoice.Toolkits.Clarify.DepotRepair Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify.DepotRepair Namespace
+﻿### FChoice.Toolkits.Clarify.DepotRepair Namespace
 
 Provides APIs to allow you to modify Logistics Depot Repair objects such as Engineering Change Orders (ECOs), labor, and material costs.  Methods on the [DepotRepairToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md) object allow you to [create](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~CreateEcoHeader.md), [modify](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoItem.md), and [delete](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~DeleteEcoItem.md) ECO headers and details, [apply ECOs](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~ApplyEco.md), [create](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~CreateEcoLaborDetail.md) and [modify](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoLaborDetail.md) labor records, and [create](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~CreateEcoMaterialDetail.md)/[modify](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoMaterialDetail.md) material records, and more.
 

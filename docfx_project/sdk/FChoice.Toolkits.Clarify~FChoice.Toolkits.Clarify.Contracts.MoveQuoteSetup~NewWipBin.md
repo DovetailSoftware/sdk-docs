@@ -2,7 +2,7 @@
 
 The new WipBin into which the Quote is to be moved.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

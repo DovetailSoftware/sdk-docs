@@ -1,6 +1,6 @@
 ﻿### GetAsStatement Method (OracleProviderBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

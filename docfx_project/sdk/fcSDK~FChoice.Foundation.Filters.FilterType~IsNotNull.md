@@ -2,7 +2,7 @@
 
 Filter on fields that are not null
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

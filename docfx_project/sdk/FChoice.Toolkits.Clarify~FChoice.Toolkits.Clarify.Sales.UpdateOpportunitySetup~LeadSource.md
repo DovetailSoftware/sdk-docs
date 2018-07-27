@@ -2,7 +2,7 @@
 
 Lead source for the opportunity.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

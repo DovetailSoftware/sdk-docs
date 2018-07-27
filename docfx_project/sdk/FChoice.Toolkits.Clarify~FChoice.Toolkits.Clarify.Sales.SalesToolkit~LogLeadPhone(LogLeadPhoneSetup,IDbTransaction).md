@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Log a phone call for a Lead. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

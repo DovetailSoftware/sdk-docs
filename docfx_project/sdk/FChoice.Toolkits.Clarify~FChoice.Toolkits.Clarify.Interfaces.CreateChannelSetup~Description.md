@@ -1,6 +1,6 @@
 ﻿### Description Property (CreateChannelSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

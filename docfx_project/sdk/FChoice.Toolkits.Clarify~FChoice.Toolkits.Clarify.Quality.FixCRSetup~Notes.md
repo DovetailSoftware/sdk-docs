@@ -2,7 +2,7 @@
 
 Notes about the CR's the Fix.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

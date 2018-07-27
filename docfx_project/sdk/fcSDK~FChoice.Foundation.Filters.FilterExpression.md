@@ -2,7 +2,7 @@
 
 Filter expressions offer on non static alternative to [FilterType](fcSDK~FChoice.Foundation.Filters.FilterType.md) for construction of Filter objects.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class FilterExpression
 public class FilterExpression
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Filters.FilterExpression**  

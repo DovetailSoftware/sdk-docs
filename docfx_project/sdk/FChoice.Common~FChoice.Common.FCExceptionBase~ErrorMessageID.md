@@ -2,7 +2,7 @@
 
 Gets the message identifier for this exception.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public string ErrorMessageID {get;}
 
 The message identifier for this exception.
 
-Remarks
+#### Remarks
 
 The error message identifier is used by FCExceptionBase to look up actual user-friendly, localized and/or implementation-customized messages. This is the key used to look up a resource string.
 

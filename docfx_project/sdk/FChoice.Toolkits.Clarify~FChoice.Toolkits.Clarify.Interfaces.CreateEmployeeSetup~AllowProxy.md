@@ -2,7 +2,7 @@
 
 Allow proxy use?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Accept the specified Case from the queue in which it is currently dispatched. Th
 
 Accept the specified Case from the queue in which it is currently dispatched.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AcceptCase(AcceptCaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AcceptCase(AcceptCaseSetup).md) | Accept the specified Case from the queue in which it is currently dispatched. This overload takes a setup object.   |
 | [AcceptCase(AcceptCaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AcceptCase(AcceptCaseSetup,IDbTransaction).md) | Accept the specified Case from the queue in which it is currently dispatched. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Case must be currently dispatched to a queue.
 

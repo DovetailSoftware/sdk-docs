@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [ILicenseTool](FChoice.Common~FChoice.Common.Licensing.ILicenseTool.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

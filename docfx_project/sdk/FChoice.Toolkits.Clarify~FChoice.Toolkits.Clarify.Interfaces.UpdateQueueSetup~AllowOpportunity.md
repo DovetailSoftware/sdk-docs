@@ -2,7 +2,7 @@
 
 Should Queue allow Opportunities
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

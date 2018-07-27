@@ -2,7 +2,7 @@
 
 Comments for the Site Part
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

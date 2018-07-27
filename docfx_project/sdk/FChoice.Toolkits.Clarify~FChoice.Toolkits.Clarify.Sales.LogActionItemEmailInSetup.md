@@ -1,6 +1,6 @@
 ﻿### LogActionItemEmailInSetup Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class LogActionItemEmailInSetup
 public class LogActionItemEmailInSetup : FChoice.Toolkits.Clarify.Support.LogEmailInSetup
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.Support.LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md)  

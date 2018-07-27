@@ -1,6 +1,6 @@
 ﻿### IsSqlView Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

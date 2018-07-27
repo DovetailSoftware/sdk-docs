@@ -2,7 +2,7 @@
 
 The Objid of the Onsite Log that this Time Log is related to.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

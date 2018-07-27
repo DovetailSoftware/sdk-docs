@@ -1,6 +1,6 @@
 ﻿### GetTypeForSchemaType(SchemaFieldBase) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

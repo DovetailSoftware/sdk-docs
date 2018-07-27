@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 DeInstall a Site Part. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

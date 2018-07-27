@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [Logger members](FChoice.Common~FChoice.Common.Logger_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

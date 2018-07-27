@@ -1,6 +1,6 @@
 ﻿### ImpersonatorUsername Property (FieldOpsToolkitBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

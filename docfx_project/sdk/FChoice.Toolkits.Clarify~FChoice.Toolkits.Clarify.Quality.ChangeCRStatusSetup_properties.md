@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ChangeCRStatusSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

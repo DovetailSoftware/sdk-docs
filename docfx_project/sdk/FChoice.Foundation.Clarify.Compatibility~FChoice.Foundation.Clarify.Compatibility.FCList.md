@@ -1,6 +1,6 @@
 ﻿### FCList Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Public NotInheritable Class FCList
 public sealed class FCList : IFCList  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCList**  

@@ -1,6 +1,6 @@
 ﻿### CurrentNetTransaction Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

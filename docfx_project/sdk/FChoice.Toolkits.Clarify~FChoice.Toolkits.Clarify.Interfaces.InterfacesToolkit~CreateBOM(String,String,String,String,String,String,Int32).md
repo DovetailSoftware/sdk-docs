@@ -16,7 +16,7 @@ How many of the Child Part Revisions are in the Parent Part Revision.
 
 Creates a Bill Of Materials (BOM) for a Part Revision. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

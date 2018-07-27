@@ -10,7 +10,7 @@ An array of Strings which are the names of the privilege classes allowed to perf
 
 Initializes a new instance of the SetLogisticsTransitionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Delete a Depot Repair Material. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

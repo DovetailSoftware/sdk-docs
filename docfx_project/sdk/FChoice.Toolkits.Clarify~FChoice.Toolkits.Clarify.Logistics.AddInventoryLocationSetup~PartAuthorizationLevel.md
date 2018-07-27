@@ -2,7 +2,7 @@
 
 The part authorization level for this inventory location
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The billing rate per unit. If no rate is specified, the labor rate of the performing employee is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

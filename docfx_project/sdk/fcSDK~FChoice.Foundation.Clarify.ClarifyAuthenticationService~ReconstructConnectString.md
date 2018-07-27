@@ -1,6 +1,6 @@
 ﻿### ReconstructConnectString Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

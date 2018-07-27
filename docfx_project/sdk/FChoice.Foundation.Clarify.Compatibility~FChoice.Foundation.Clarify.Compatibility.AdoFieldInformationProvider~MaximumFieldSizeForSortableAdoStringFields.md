@@ -1,6 +1,6 @@
 ﻿### MaximumFieldSizeForSortableAdoStringFields Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

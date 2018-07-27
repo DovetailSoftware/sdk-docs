@@ -2,14 +2,14 @@
 
 The following tables list the members exposed by [CacheBase](fcSDK~FChoice.Foundation.CacheBase.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [CacheSetName](fcSDK~FChoice.Foundation.CacheBase~CacheSetName.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [CacheType](fcSDK~FChoice.Foundation.CacheBase~CacheType.md) |   |
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

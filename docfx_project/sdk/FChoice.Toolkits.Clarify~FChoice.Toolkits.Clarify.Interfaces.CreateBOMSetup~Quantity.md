@@ -2,7 +2,7 @@
 
 How many of the Child Part Revisions are in the Parent Part Revision.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

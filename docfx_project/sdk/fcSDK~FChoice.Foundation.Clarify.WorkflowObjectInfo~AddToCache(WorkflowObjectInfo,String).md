@@ -1,6 +1,6 @@
 ﻿### AddToCache(WorkflowObjectInfo,String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

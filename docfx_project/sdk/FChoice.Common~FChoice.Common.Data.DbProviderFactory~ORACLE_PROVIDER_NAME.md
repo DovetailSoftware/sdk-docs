@@ -2,7 +2,7 @@
 
 The default provider name of Oracle-based data providers
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Const ORACLE_PROVIDER_NAME As String
 public const string ORACLE_PROVIDER_NAME
 ```
 
-Remarks
+#### Remarks
 
 Please see _remarks_ section of the [DbProvider.ProviderName](FChoice.Common~FChoice.Common.Data.DbProvider~ProviderName.md) property documentation for more information on the significance of this value.
 

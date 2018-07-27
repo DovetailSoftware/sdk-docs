@@ -2,7 +2,7 @@
 
 Fax number for the lead.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

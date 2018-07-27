@@ -1,6 +1,6 @@
 ﻿### IsVisible Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

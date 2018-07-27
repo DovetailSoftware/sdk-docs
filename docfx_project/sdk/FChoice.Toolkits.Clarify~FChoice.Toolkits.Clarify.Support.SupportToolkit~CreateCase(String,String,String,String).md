@@ -10,7 +10,7 @@ Contact's phone number.
 
 Creates a new Case. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

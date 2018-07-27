@@ -1,6 +1,6 @@
 ﻿### Operator Property (LikeFilter)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

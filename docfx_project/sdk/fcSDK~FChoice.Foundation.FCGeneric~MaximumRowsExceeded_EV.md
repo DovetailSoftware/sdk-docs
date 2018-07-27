@@ -2,7 +2,7 @@
 
 This event is fired when the [MaximumRows](fcSDK~FChoice.Foundation.FCGeneric~MaximumRows.md) property is set and a [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) operation has returned too many rows.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

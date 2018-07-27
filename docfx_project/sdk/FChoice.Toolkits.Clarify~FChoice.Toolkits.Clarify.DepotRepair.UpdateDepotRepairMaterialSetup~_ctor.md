@@ -6,7 +6,7 @@ Indicates how the material relates to the depot repair part.
 
 Initializes a new instance of the UpdateDepotRepairMaterialSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

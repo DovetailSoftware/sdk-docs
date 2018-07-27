@@ -4,7 +4,7 @@ An array of primary key values to find. The type of the array is Object.
 
 Gets the row containing the specified primary key values.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _keys_
 
 An array of primary key values to find. The type of the array is Object.
 
-Remarks
+#### Remarks
 
 The implementation of Find is delegated to DataRowCollection's [Find](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatadatarowcollectionclassfindtopic2.htm).
 

@@ -1,6 +1,6 @@
 ### SitePartObjid Property (RemoveSitePartFromContractSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

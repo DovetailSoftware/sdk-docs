@@ -1,6 +1,6 @@
 ﻿### UpdateCache Method (ILocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

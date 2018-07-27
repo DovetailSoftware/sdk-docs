@@ -1,6 +1,6 @@
 ﻿### IsTimeZoneInCountry(String,String,Boolean) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

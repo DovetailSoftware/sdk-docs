@@ -1,6 +1,6 @@
 ﻿### UpdateAll Method (IFCBulk)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

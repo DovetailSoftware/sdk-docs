@@ -1,6 +1,6 @@
 ﻿### InvalidLoggingConfigException Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class InvalidLoggingConfigException
 public class InvalidLoggingConfigException : FCExceptionBase 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Exception  

@@ -1,6 +1,6 @@
 ﻿### ActiveElements Property (IHierarchicalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

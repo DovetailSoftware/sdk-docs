@@ -2,7 +2,7 @@
 
 Since this class is a [Singleton](http://c2.com/cgi/wiki?SingletonPattern) you must use this property to call instance methods.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Shared ReadOnly Property Instance As LicenseManager
 public static LicenseManager Instance {get;}
 ```
 
-Remarks
+#### Remarks
 
 Please use this property to access the **Licenses** property.
 

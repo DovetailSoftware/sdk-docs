@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [LogActionItemEmailInSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogActionItemEmailInSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

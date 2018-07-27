@@ -2,7 +2,7 @@
 
 The new status for the Change Request. If not set, the default status is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

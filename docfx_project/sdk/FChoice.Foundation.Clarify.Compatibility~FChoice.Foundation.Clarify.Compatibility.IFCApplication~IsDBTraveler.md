@@ -1,6 +1,6 @@
 ﻿### IsDBTraveler Property (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### is_it_searchable Method (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

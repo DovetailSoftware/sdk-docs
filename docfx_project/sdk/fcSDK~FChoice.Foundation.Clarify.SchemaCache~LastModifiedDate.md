@@ -1,6 +1,6 @@
 ﻿### LastModifiedDate Property (SchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

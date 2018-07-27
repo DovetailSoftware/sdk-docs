@@ -2,7 +2,7 @@
 
 The names of the restocking location/bin
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

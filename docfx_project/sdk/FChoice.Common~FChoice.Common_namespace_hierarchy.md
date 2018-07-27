@@ -1,6 +1,6 @@
-﻿### FChoice.Common Namespace Inheritance Hierarchy
+﻿### FChoice.Common Namespace #### Inheritance Hierarchy
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Common.ConfigValues](FChoice.Common~FChoice.Common.ConfigValues.md)  

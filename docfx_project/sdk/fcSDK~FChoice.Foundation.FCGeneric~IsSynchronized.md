@@ -2,7 +2,7 @@
 
 Gets a value indicating whether access to the **FCGeneric** is synchronized (thread-safe).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public bool IsSynchronized {get;}
 
 **true** if access to the **FCGeneric** is synchronized (thread-safe); otherwise, **false**.
 
-Remarks
+#### Remarks
 
 This is a common .NET Framework pattern please [see this example](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemcollectionsicollectionclassissynchronizedtopic.htm).
 

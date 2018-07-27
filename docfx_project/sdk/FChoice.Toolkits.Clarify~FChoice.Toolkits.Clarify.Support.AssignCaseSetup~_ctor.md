@@ -4,7 +4,7 @@ Case Identifier.
 
 Initializes a new instance of the AssignCaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

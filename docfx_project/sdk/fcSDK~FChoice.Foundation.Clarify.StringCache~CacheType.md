@@ -1,6 +1,6 @@
 ﻿### CacheType Property (StringCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Indicates whether material is billable.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

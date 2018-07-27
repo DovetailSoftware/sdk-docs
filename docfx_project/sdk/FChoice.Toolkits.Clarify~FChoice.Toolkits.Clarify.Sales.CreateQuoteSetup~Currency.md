@@ -2,7 +2,7 @@
 
 Name of the currency for the Quote.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

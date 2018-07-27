@@ -1,6 +1,6 @@
 ﻿### IsForcedUpdateColumn Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

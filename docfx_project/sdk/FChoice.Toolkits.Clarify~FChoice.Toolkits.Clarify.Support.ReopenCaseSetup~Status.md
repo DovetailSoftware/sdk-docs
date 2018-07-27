@@ -2,7 +2,7 @@
 
 New status for the Case. If not set, the default status for 'Open' condition is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Link a Case to a Workaround. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

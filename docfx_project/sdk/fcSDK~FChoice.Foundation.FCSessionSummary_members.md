@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [FCSessionSummary](fcSDK~FChoice.Foundation.FCSessionSummary.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

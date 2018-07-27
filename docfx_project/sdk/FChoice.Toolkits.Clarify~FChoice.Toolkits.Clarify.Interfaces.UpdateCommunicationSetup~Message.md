@@ -2,7 +2,7 @@
 
 The body text of the communication.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

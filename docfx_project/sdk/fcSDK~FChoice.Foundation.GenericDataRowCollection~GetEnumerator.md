@@ -2,7 +2,7 @@
 
 Gets an [IEnumerator](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemcollectionsienumeratorclasstopic.htm) for the collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

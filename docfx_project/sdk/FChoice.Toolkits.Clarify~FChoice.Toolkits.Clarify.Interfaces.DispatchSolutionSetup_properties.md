@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [DispatchSolutionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DispatchSolutionSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

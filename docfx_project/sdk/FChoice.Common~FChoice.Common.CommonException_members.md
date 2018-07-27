@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [CommonException](FChoice.Common~FChoice.Common.CommonException.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -17,7 +17,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [StackTrace](#) | (Inherited from System.Exception) |
 | ![Public Property](dotnetimages/publicProperty.png) | [TargetSite](#) | (Inherited from System.Exception) |
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

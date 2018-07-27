@@ -8,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [CreatePartRequestDetailResult Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailResult~_ctor().md) |   |
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

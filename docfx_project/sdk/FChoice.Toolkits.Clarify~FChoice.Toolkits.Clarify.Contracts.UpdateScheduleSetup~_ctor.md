@@ -6,7 +6,7 @@ Schedule Identifier.
 
 Initializes a new instance of the UpdateScheduleSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

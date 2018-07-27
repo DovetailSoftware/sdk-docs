@@ -2,7 +2,7 @@
 
 The user who is receiving the Part Request. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

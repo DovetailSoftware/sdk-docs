@@ -4,7 +4,7 @@ Row being updated.
 
 Updates changes to a single GenericDataRow
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _row_
 
 Row being updated.
 
-Remarks
+#### Remarks
 
 This method commits any changes to this to the database.
 

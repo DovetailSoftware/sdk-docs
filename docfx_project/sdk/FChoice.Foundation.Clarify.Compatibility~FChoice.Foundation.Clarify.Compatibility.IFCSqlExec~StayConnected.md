@@ -1,6 +1,6 @@
 ﻿### StayConnected Property (IFCSqlExec)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Indicates if a serialized part is to be moved if it already exists as an active Site Part
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

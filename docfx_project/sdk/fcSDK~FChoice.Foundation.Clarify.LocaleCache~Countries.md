@@ -1,6 +1,6 @@
 ﻿### Countries Property (LocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

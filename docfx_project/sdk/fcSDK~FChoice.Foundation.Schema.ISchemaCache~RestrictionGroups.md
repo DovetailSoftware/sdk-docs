@@ -1,6 +1,6 @@
 ﻿### RestrictionGroups Property (ISchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

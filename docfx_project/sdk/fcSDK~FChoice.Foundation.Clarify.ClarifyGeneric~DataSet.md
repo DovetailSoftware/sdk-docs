@@ -1,6 +1,6 @@
 ﻿### DataSet Property (ClarifyGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The support program for which this Price Instance is being created.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

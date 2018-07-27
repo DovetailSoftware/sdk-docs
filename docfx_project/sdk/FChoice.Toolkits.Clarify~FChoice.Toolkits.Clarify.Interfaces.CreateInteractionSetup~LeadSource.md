@@ -2,7 +2,7 @@
 
 Name of the person that provided the lead
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

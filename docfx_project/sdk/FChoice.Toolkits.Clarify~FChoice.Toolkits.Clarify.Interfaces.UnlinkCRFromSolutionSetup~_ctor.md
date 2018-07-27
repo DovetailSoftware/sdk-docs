@@ -6,7 +6,7 @@ Identifier of the Solution to unlink from the CR
 
 Initializes a new instance of the UnlinkCRFromSolutionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

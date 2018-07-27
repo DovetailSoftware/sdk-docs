@@ -6,7 +6,7 @@ Id of the second object being compared.
 
 Used to compare the [UniqueIDs](fcSDK~FChoice.Foundation.GenericDataRow~UniqueId.md) of two GenericDataRows.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ Id of the second object being compared.
 
 The result indicates if the two Unique Identifies are the same.
 
-Remarks
+#### Remarks
 
 In the Foundation namespace we do not know how the Unique Identifiers of a **GenericDataRow** are implemented. Use this method whenever comparing GenericDataRows in the Foundation namespace.
 

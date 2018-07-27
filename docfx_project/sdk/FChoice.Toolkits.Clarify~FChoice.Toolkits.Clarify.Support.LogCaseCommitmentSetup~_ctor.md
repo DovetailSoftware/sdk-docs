@@ -14,7 +14,7 @@ Contact's phone number.
 
 Initializes a new instance of the LogCaseCommitmentSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Update a Depot Repair Labor. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

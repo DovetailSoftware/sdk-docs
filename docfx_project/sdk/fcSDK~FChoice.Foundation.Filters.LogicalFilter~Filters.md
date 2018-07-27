@@ -2,7 +2,7 @@
 
 Collection of Filters that belong to this logical grouping.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Additional notes for the log.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

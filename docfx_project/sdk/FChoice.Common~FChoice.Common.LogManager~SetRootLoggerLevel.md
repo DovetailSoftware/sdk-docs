@@ -4,7 +4,7 @@ The level at which the root should start logging.
 
 Changes the root's logging level (affecting all loggers)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _level_
 
 The level at which the root should start logging.
 
-Remarks
+#### Remarks
 
 **NOTE:** After you are finished configuring LogManager, you must call [Reconfigure](FChoice.Common~FChoice.Common.LogManager~Reconfigure.md) in order for the changes to fully take effect.
 

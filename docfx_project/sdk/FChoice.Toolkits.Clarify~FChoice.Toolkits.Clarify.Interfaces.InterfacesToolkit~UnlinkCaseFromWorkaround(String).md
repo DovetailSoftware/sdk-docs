@@ -4,7 +4,7 @@ Identifier of the Case to unlink from the Workaround
 
 Unlink Case from Workaround. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

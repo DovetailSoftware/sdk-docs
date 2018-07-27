@@ -1,6 +1,6 @@
 ﻿### FCTimeZone Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class FCTimeZone
 public class FCTimeZone : ClarifyDataObject, FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.DataObjects.ITimeZone
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

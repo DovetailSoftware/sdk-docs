@@ -6,7 +6,7 @@ Arguments to use in replacing variables in the **_format_** string.
 
 Writes a WARN-level log entry if WARN-level logging is enabled.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _args_
 
 Arguments to use in replacing variables in the **_format_** string.
 
-Remarks
+#### Remarks
 
 If the current logger is not configured for WARN-level logging or lower, this method will do nothing.
 

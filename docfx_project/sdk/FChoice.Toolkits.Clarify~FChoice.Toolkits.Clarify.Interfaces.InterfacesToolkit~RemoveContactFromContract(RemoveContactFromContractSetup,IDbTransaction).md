@@ -1,6 +1,6 @@
 ﻿### RemoveContactFromContract(RemoveContactFromContractSetup,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

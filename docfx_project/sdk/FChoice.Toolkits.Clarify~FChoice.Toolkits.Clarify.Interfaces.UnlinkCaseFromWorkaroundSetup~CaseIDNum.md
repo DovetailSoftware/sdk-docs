@@ -2,7 +2,7 @@
 
 Identifier of the Case to unlink from the Workaround
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

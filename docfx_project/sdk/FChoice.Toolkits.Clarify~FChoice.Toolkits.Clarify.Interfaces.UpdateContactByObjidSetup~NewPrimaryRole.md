@@ -1,6 +1,6 @@
 ﻿### NewPrimaryRole Property (UpdateContactByObjidSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

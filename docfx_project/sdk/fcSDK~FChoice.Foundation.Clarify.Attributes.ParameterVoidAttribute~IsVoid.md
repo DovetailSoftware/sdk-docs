@@ -1,6 +1,6 @@
 ﻿### isVoid Field (ParameterVoidAttribute)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

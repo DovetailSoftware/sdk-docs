@@ -2,7 +2,7 @@
 
 New status for the Subcase. If not set, the default status for Open Condition is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

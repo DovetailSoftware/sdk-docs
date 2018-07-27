@@ -2,7 +2,7 @@
 
 Invoice number
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Identifier of the CR being reopened.
 
 Reopen a CR. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Identifier of the CR being reopened.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 It must be in a condition other than “Open”, and cannot be dispatched.
 

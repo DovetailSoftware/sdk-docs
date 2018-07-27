@@ -1,6 +1,6 @@
 ﻿### DataProtectionEntropy Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

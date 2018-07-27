@@ -2,7 +2,7 @@
 
 Revision information for the file related to the fix.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

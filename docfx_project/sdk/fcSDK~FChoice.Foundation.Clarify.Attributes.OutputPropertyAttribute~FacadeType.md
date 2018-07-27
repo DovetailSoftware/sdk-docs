@@ -1,6 +1,6 @@
 ﻿### FacadeType Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

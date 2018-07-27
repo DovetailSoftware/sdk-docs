@@ -2,7 +2,7 @@
 
 Gets or sets the current configuration settings or null if none are currently configured.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public static NameValueCollection Current {get; set;}
 
 The current configuration settings.
 
-Remarks
+#### Remarks
 
 If none are loaded, call [LoadEnvironmentSettings](FChoice.Common~FChoice.Common.FCConfiguration~LoadEnvironmentSettings.md) to load values.
 

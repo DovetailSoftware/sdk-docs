@@ -8,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ToolkitResultPropertyAttribute Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResultPropertyAttribute~_ctor.md) |   |
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -16,7 +16,7 @@ Public Properties
 | ![Public Property](dotnetimages/publicProperty.png) | [PropertyName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResultPropertyAttribute~PropertyName.md) |   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TypeId](#) | (Inherited from [System.Attribute](#)) |
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

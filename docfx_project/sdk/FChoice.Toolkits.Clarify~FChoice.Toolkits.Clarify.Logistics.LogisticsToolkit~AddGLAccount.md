@@ -4,7 +4,7 @@ Used to add expense and capital GL accounts to Clarify. This overload takes a se
 
 Used to add expense and capital GL accounts to Clarify.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

@@ -2,7 +2,7 @@
 
 Sender's address (usually email address)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

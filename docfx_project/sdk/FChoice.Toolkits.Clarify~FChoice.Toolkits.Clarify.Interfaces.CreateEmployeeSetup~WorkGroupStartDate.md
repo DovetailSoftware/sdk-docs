@@ -2,7 +2,7 @@
 
 Date that the Employee started in the Workgroup
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

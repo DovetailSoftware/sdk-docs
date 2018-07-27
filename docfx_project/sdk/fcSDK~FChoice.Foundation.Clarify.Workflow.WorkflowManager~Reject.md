@@ -1,6 +1,6 @@
 ﻿### Reject Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

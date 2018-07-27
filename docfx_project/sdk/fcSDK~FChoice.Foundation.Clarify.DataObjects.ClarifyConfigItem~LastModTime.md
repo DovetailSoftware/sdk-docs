@@ -1,6 +1,6 @@
 ﻿### LastModTime Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

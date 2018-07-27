@@ -2,7 +2,7 @@
 
 Returns the unique identifier for the session's logged-in user.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public object UserID {get;}
 
 Returns the unique identifier for the session's logged-in user.
 
-Remarks
+#### Remarks
 
 Based on [FCSession.UserID](fcSDK~FChoice.Foundation.FCSession~UserID.md)
 

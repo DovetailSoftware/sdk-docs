@@ -2,7 +2,7 @@
 
 The user who is performed the action specified by the Onsite Log. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

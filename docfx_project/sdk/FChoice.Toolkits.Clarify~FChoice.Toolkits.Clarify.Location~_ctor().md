@@ -1,6 +1,6 @@
 ﻿### Location Constructor()
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

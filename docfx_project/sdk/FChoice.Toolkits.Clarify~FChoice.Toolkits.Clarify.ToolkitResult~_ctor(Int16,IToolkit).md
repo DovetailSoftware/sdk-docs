@@ -1,6 +1,6 @@
 ﻿### ToolkitResult Constructor(Int16,IToolkit)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

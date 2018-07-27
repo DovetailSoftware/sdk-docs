@@ -1,6 +1,6 @@
 ﻿### ISchemaViewCollection Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 ```csharp

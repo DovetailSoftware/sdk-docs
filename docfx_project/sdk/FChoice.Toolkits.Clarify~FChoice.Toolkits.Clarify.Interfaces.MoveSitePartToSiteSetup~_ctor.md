@@ -6,7 +6,7 @@ Identifier of the parent Site the Site Part is being moved under
 
 Initializes a new instance of the MoveSitePartToSiteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

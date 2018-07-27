@@ -1,6 +1,6 @@
 ﻿### create_time_bomb(IFCGeneric,IFCGeneric,String,IFCGeneric,String,Int32,String,String,String,Object) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

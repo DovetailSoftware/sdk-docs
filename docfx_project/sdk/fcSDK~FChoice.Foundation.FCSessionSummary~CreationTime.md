@@ -2,7 +2,7 @@
 
 Timestamp when the session was created.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public DateTime CreationTime {get;}
 
 Timestamp when the session was created.
 
-Remarks
+#### Remarks
 
 Based on [FCSession.CreationTime](fcSDK~FChoice.Foundation.FCSession~CreationTime.md)
 

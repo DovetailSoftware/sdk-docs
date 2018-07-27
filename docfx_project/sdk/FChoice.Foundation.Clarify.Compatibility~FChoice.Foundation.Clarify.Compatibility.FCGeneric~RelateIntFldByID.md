@@ -1,6 +1,6 @@
 ﻿### RelateIntFldByID Method (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Returns the login name for the session's logged-in user.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

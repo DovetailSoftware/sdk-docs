@@ -1,6 +1,6 @@
 ﻿### UniqueID Property (GenericDataSet)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

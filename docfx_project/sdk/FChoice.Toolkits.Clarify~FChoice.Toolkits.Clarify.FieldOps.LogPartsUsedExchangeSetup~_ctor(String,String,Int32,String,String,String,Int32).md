@@ -16,7 +16,7 @@ The Quantity of the part being installed
 
 Initializes a new instance of the LogPartsUsedExchangeSetup class. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

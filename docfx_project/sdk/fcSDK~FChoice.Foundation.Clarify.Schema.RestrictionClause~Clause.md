@@ -1,6 +1,6 @@
 ﻿### Clause Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ The DateTime value to convert
 
 Converts a DateTime value to a string according to the specific format of the underlying database type
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The DateTime value to convert
 
 A literal string that is compatible with the underlying database.
 
-Remarks
+#### Remarks
 
 The resultant string can be used directly in a SQL statement. For example, the date will be formatted as  'yyyy-MM-dd HH:mm:ss.fff' for MSSQL or a TO_DATE(yourdate, 'yyyy-mm-dd hh24:mi:ss') function call will be returned for Oracle.
 

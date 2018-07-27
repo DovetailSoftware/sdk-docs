@@ -1,6 +1,6 @@
 ﻿### Method Property (AltTypeAttribute)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

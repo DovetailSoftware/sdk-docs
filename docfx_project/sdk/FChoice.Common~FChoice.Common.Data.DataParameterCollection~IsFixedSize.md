@@ -2,7 +2,7 @@
 
 Retrieves a value indicating whether or not this collection has a fixed size.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public bool IsFixedSize {get;}
 
 False. This value is always false because DataParameterCollection does not support being fixed-size.
 
-Remarks
+#### Remarks
 
 This value is always false since DataParameterCollection does not support being fixed in size.
 

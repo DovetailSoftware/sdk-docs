@@ -1,6 +1,6 @@
 ﻿### IsSearchable Property (SchemaFieldBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

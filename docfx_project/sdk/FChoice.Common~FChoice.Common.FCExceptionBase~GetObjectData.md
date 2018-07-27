@@ -6,7 +6,7 @@ The contextual information about the source or destination.
 
 Sets the [SerializationInfo](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemruntimeserializationserializationinfoclasstopic.htm) object with the parameter name and additional exception information.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -33,7 +33,7 @@ _context_
 
 The contextual information about the source or destination.
 
-Remarks
+#### Remarks
 
 **GetObjectData** sets a [SerializationInfo](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemruntimeserializationserializationinfoclasstopic.htm) with all the exception object data targeted for serialization. During deserialization, the exception object is reconstituted from the **SerializationInfo** transmitted over the stream.
 

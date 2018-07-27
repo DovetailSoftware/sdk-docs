@@ -4,7 +4,7 @@ An implementation of [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErro
 
 Sets the [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) that FCExceptionBase will use for loading custom exception error message strings for localization or customization.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _provider_
 
 An implementation of [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md).
 
-Remarks
+#### Remarks
 
 Setting this property will override all error message resolution in for all exceptions deriving from this class. Please see the documentation for [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) on the details of providing custom error messages.
 

@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [StateProvince](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -17,7 +17,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

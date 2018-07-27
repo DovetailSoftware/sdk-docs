@@ -4,7 +4,7 @@ Opportunity Identifier.
 
 Initializes a new instance of the RejectOpportunitySetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Adds a parameter to this collection for use as a bind variable in the SQL statem
 
 Adds a parameter to this collection for use as a bind variable in the SQL statement.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -13,13 +13,11 @@ Overload List
 | [Add(String,Object,IDbDataParameter)](FChoice.Common~FChoice.Common.Data.DataParameterCollection~Add(String,Object,IDbDataParameter).md) |   |
 | [Add(String,IDbDataParameter)](FChoice.Common~FChoice.Common.Data.DataParameterCollection~Add(String,IDbDataParameter).md) | Adds a parameter to this collection for passing to the database and in replacing parameters in the SQL statement.   |
 
-Remarks
+#### Remarks
 
 The parameters added to this collection are stored in order and are used by [SqlHelper](FChoice.Common~FChoice.Common.Data.SqlHelper.md) to replace the parameter tokens in the SQL statement in the order in which they appear.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

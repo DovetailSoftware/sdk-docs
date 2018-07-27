@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to create a new expense log that is related to an onsite log. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ Database transaction under which the API will be invoked.
 
 A CreateExpenseLogResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The objid of the onsite log or a case/subcase id must be supplied (but not both). If you do not specify a billing rate, the employee’s labor rate will be used.
 

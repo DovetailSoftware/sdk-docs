@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ISchemaViewCollection members](fcSDK~FChoice.Foundation.Schema.ISchemaViewCollection_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

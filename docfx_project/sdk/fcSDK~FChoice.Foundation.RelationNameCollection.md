@@ -2,7 +2,7 @@
 
 Collection of Relations
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class RelationNameCollection
 public class RelationNameCollection : ValidatedNameCollection
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)  

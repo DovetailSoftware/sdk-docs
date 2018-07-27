@@ -1,6 +1,6 @@
 ﻿### DoubleValue Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

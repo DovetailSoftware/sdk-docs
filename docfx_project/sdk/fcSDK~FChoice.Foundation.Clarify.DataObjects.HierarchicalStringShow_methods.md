@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [HierarchicalStringShow members](fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringShow_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

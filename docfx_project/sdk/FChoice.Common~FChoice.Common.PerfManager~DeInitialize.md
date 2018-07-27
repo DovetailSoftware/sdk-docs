@@ -1,6 +1,6 @@
 ﻿### DeInitialize Method (PerfManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

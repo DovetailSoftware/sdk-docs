@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to modify an existing expense log. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

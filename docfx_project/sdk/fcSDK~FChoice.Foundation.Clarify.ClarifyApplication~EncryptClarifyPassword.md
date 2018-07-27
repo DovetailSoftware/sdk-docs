@@ -4,7 +4,7 @@ The plain-text password to obfuscate
 
 Generates a string using the same obfuscation algorithm that is compatible with the Clarify Thin Client.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The plain-text password to obfuscate
 
 A password obfuscated using the Clarify obfuscation algorithm
 
-Remarks
+#### Remarks
 
 This string can be used for password comparison and authentication of users and web users in the Clarify system.
 

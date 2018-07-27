@@ -8,7 +8,7 @@ Objid of the commitment to update.
 
 Initializes a new instance of the UpdateCaseCommitmentSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

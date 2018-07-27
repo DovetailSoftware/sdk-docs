@@ -1,6 +1,6 @@
 ﻿### ValidateFilter Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

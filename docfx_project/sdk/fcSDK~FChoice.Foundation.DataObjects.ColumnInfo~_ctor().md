@@ -1,6 +1,6 @@
 ﻿### ColumnInfo Constructor()
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The title of the queue to dispatch the new Contract to.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

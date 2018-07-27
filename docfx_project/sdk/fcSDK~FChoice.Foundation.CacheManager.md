@@ -1,6 +1,6 @@
 ﻿### CacheManager Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class CacheManager
 public class CacheManager
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.CacheManager**  

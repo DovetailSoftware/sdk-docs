@@ -1,6 +1,6 @@
 ﻿### QualityToolkit.LogCREmailInSetup Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

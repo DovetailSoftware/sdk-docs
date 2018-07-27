@@ -1,6 +1,6 @@
 ﻿### Reverse() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

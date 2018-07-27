@@ -2,7 +2,7 @@
 
 Element from the 'Closed' application defined list. If not set, the default list value is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

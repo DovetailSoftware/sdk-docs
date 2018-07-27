@@ -1,6 +1,6 @@
 ﻿### StatusRelation Property (WorkflowObjectInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

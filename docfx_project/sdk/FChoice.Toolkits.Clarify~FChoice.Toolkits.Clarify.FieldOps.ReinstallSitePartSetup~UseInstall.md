@@ -2,7 +2,7 @@
 
 Specifies if activity entry records should be set to "Install" (true) or "Re-Installed" (false).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

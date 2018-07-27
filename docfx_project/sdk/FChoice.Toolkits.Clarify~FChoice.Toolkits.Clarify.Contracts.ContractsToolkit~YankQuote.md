@@ -4,7 +4,7 @@ Yank the Quote from its current location to a new owner's WipBin. This overload 
 
 Yank the Quote from its current location to a new owner's WipBin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [YankQuote(YankQuoteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~YankQuote(YankQuoteSetup).md) | Yank the Quote from its current location to a new owner's WipBin. This overload takes a setup object.   |
 | [YankQuote(YankQuoteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~YankQuote(YankQuoteSetup,IDbTransaction).md) | Yank the Quote from its current location to a new owner's WipBin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The WipBin to place the Quote in may also be specified. This is augmented function from base Clarify, where the Quote is always placed in the default WipBin.
 

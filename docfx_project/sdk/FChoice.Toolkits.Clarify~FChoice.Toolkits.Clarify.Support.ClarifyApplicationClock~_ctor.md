@@ -1,6 +1,6 @@
 ﻿### ClarifyApplicationClock Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [FCExceptionBase members](FChoice.Common~FChoice.Common.FCExceptionBase_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

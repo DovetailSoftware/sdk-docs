@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to create a new appointment. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ Database transaction under which the API will be invoked.
 
 A CreateAppointmentResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The start/end time can be specified either with both times or with one time and a duration. The duration is specified in seconds.
 

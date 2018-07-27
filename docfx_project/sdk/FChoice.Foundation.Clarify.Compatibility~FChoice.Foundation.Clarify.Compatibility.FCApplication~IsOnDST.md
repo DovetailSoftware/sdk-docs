@@ -1,6 +1,6 @@
 ﻿### IsOnDST Method (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

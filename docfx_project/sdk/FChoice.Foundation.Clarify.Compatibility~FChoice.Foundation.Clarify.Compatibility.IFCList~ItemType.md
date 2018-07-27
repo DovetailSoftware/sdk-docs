@@ -1,6 +1,6 @@
 ﻿### ItemType Property (IFCList)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### LogSubcaseInternalNote(LogSubcaseInternalNoteSetup,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The quantity of parts to be removed. If not set, then the entire quantity will be removed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

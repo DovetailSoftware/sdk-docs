@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [ISchemaFieldCollection](fcSDK~FChoice.Foundation.Schema.ISchemaFieldCollection.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

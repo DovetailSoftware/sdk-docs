@@ -1,6 +1,6 @@
 ﻿### create_act_entry(IFCGeneric,String,Int32,Int32,String,IFCGeneric,String,String,Object) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

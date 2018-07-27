@@ -1,6 +1,6 @@
 ﻿### AppendHistoryToCR(String,String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

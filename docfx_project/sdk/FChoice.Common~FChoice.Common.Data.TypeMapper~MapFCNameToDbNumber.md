@@ -1,6 +1,6 @@
 ﻿### MapFCNameToDbNumber Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

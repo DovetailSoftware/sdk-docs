@@ -4,7 +4,7 @@ Create a Product Bin This overload takes a set of required parameters for the AP
 
 Create a Product Bin
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [CreateProductBin(CreateProductBinSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateProductBin(CreateProductBinSetup).md) | Create a Product Bin This overload takes a setup object.   |
 | [CreateProductBin(CreateProductBinSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~CreateProductBin(CreateProductBinSetup,IDbTransaction).md) | Create a Product Bin This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 A unique [BinName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateProductBinSetup~BinName.md) must be provided.
 

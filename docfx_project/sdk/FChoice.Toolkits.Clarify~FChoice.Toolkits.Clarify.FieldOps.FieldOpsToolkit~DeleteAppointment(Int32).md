@@ -2,7 +2,7 @@
 
 The Objid of the Appointment being deleted.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

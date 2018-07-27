@@ -2,7 +2,7 @@
 
 Employee start date
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

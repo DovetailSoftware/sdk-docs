@@ -2,7 +2,7 @@
 
 Array of addresses for BCC Recipients.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

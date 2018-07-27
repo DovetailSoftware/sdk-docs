@@ -1,6 +1,6 @@
 ﻿### is_rel_exclusive Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

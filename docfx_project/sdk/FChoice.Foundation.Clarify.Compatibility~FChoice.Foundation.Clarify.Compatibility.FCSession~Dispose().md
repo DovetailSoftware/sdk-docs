@@ -1,6 +1,6 @@
 ﻿### Dispose() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Gets the singleton instance of LogManager.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public static LogManager Instance {get;}
 
 The singleton instance of LogManager.
 
-Remarks
+#### Remarks
 
 It is not necessary to do anything with the instance of LogManager. This is provided only for internal use in First Choice .NET products.
 

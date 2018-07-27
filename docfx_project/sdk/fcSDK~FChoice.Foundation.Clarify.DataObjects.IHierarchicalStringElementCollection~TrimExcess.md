@@ -1,6 +1,6 @@
 ﻿### TrimExcess Method (IHierarchicalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### RefreshLicensing Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

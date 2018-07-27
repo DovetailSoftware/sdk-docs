@@ -1,6 +1,6 @@
 ﻿### is_rel_exclusive Method (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

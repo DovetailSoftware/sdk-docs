@@ -1,6 +1,6 @@
 ﻿### DatabaseTable Property (WorkFlowInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

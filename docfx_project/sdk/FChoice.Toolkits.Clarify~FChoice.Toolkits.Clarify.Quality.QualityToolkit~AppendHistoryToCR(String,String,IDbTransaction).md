@@ -1,6 +1,6 @@
 ﻿### AppendHistoryToCR(String,String,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

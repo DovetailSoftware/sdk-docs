@@ -1,6 +1,6 @@
 ﻿### SchemaViewFieldCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class SchemaViewFieldCollection
 public class SchemaViewFieldCollection : SchemaFieldCollectionBase, FChoice.Foundation.Schema.ISchemaFieldCollection  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  

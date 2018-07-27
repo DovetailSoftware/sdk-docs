@@ -8,7 +8,7 @@ The Objid of the Site Part being removed.
 
 Initializes a new instance of the LogPartsUsedRemoveSetup class. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

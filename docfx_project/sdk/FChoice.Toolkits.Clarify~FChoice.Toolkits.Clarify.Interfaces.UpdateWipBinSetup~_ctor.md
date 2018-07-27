@@ -4,7 +4,7 @@ Title of the WipBin being updated
 
 Initializes a new instance of the UpdateWipBinSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

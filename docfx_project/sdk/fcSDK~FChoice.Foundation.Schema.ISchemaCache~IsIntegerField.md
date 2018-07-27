@@ -1,6 +1,6 @@
 ﻿### IsIntegerField Method (ISchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

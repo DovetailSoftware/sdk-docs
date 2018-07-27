@@ -6,7 +6,7 @@ Name of the Integer field which will receive the unique identifier of the **othe
 
 Relate a given row's identifier to an Integer field present on this GenericDataRow.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _intFieldName_
 
 Name of the Integer field which will receive the unique identifier of the **otherRow.**
 
-Remarks
+#### Remarks
 
 This relation method does not require that there be a relation present between the two rows being related. It is recommended that you use [RelateRecord](fcSDK~FChoice.Foundation.GenericDataRow~RelateRecord.md) whenever possible.
 

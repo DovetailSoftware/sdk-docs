@@ -4,14 +4,14 @@ Updates an existing Case. This overload takes a setup object.
 
 Updates an existing Case.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
 | [UpdateCase(UpdateCaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UpdateCase(UpdateCaseSetup).md) | Updates an existing Case. This overload takes a setup object.   |
 | [UpdateCase(UpdateCaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UpdateCase(UpdateCaseSetup,IDbTransaction).md) | Updates an existing Case. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 If the [User](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseSetup~UserName.md) is not the current owner of the Case and this flag is **true** then the Update will not happen.
 

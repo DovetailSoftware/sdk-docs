@@ -1,6 +1,6 @@
 ﻿### CachesUpdatedEventHandler Delegate
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

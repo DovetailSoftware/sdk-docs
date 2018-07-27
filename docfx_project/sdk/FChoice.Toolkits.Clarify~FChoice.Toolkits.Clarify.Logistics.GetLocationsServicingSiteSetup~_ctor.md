@@ -4,7 +4,7 @@ Identifier of the Site that the inventory locations are servicing
 
 Initializes a new instance of the GetLocationsServicingSiteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

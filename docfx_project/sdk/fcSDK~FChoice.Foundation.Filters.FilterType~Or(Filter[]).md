@@ -1,10 +1,6 @@
-﻿     Or(Filter\[\]) Method                                                   
+﻿### Or(Filter\[\]) Method
 
-fcSDK Documentation
-
-Or(Filter\[\]) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

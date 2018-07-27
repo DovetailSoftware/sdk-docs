@@ -4,7 +4,7 @@ Move the SitePartToBin from one WipBin to another WipBin. This overload takes a 
 
 Move the SitePartToBin from one WipBin to another WipBin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [MoveSitePartToBin(MoveSitePartToBinSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~MoveSitePartToBin(MoveSitePartToBinSetup).md) | Move the SitePartToBin from one WipBin to another WipBin. This overload takes a setup object.   |
 | [MoveSitePartToBin(MoveSitePartToBinSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~MoveSitePartToBin(MoveSitePartToBinSetup,IDbTransaction).md) | Move the SitePartToBin from one WipBin to another WipBin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The new WipBin must belong to the same user as the first WipBin. The move operation does not change the ownership of the SitePartToBin, nor is an activity log or time bomb generated for the action.
 

@@ -2,7 +2,7 @@
 
 Identifier of the Solution to link to the CR
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

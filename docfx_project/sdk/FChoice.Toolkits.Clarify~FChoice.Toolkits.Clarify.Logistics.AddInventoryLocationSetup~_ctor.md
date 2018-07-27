@@ -10,7 +10,7 @@ The part authorization level for this inventory location
 
 Initializes a new instance of the AddInventoryLocationSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

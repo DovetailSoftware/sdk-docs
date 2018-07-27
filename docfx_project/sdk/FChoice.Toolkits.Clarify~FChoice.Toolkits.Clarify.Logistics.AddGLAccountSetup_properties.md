@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [AddGLAccountSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

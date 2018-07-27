@@ -6,7 +6,7 @@ The new queue into which the CR is to be forwarded.
 
 Initializes a new instance of the ForwardCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

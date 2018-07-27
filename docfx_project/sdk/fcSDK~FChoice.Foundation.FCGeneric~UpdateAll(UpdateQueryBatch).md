@@ -4,7 +4,7 @@ Batch under which to do this update.
 
 Updates all modified rows of the **FCGeneric** as part of a batch operation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _batch_
 
 Batch under which to do this update.
 
-Remarks
+#### Remarks
 
 This method commits all modified rows to the database and is equivalent to calling [Update](fcSDK~FChoice.Foundation.FCGeneric~Update(GenericDataRow,UpdateQueryBatch).md) on each row of the **FCGeneric**.
 

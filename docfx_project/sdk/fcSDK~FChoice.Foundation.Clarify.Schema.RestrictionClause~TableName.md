@@ -1,6 +1,6 @@
 ﻿### TableName Property (RestrictionClause)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Returns whether or not the DataRestrictions feature is enabled or disabled.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

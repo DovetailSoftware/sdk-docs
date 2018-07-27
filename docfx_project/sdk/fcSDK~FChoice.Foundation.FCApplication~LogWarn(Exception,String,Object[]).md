@@ -1,6 +1,6 @@
 ﻿### LogWarn(Exception,String,Object\[\]) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Called by First Choice Software applications to notify the session that a  License is required.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -22,7 +22,7 @@ public void RegisterLicenseRequirements(
 
 _productId_
 
-Remarks
+#### Remarks
 
 **NOTE:** These methods are for First Choice Software use only.
 

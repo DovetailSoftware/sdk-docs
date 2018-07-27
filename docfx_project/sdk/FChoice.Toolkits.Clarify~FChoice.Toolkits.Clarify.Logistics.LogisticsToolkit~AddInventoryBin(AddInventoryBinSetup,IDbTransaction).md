@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to add inventory bins to existing locations. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

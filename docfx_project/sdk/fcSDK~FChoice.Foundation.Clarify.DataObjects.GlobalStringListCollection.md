@@ -1,6 +1,6 @@
 ﻿### GlobalStringListCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class GlobalStringListCollection
 public class GlobalStringListCollection : FChoice.Foundation.DataObjects.DataObjectCollection<IGlobalStringList>, IGlobalStringListCollection
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  

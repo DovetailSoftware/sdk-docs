@@ -2,7 +2,7 @@
 
 Email address of the sender of the email being logged.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

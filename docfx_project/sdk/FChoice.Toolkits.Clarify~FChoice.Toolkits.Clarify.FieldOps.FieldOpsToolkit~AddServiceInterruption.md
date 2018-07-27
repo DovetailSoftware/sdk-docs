@@ -4,7 +4,7 @@ Adds a service interruption (and creates an appointment record). This overload 
 
 Adds a service interruption (and creates an appointment record).
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AddServiceInterruption(AddServiceInterruptionSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~AddServiceInterruption(AddServiceInterruptionSetup).md) |   |
 | [AddServiceInterruption(AddServiceInterruptionSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~AddServiceInterruption(AddServiceInterruptionSetup,IDbTransaction).md) | Adds a service interruption (and creates an appointment record). This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The start/end time can be specified either with both times or with one time and a duration. The duration is specified in seconds.
 

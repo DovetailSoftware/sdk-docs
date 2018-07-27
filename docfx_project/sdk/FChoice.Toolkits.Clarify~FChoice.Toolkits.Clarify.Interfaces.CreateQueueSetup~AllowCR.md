@@ -2,7 +2,7 @@
 
 Should Queue allow CRs
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The Objid of the Site Part being deinstalled.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

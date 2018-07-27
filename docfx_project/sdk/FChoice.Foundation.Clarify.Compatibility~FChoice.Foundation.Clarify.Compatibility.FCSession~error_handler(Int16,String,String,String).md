@@ -1,6 +1,6 @@
 ﻿### error_handler(Int16,String,String,String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

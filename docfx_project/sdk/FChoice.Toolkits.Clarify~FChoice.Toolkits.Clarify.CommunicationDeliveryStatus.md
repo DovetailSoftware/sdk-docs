@@ -1,6 +1,6 @@
 ﻿### CommunicationDeliveryStatus Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -24,7 +24,7 @@ Members
 | **Received** |   |
 | **Sent** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

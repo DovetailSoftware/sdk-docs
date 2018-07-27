@@ -2,7 +2,7 @@
 
 Stage the opportunity being created or modified is in.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -24,7 +24,7 @@ Members
 | **Opportunity** |   |
 | **Win** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

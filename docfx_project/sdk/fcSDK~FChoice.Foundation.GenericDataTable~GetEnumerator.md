@@ -2,7 +2,7 @@
 
 Returns an enumerator that can iterate through the [GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

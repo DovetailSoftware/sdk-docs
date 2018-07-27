@@ -1,6 +1,6 @@
 ### change_obj_status Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

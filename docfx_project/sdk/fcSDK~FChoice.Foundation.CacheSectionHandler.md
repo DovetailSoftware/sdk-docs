@@ -1,6 +1,6 @@
 ﻿### CacheSectionHandler Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class CacheSectionHandler
 public class CacheSectionHandler
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.CacheSectionHandler**  

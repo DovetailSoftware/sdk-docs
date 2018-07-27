@@ -2,7 +2,7 @@
 
 Minimum quantity of parts allowed in this inventory location
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

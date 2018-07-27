@@ -1,6 +1,6 @@
 ﻿### GetByNumber Method (ISchemaViewCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

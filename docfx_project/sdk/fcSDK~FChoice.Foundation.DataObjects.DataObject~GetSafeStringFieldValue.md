@@ -1,6 +1,6 @@
 ﻿### GetSafeStringFieldValue Method (DataObject)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

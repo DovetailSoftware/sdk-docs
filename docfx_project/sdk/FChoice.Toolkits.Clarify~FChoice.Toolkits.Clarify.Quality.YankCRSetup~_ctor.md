@@ -4,7 +4,7 @@ CR Identifier.
 
 Initializes a new instance of the YankCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

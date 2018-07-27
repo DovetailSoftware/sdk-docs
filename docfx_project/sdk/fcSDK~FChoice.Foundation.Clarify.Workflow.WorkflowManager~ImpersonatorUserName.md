@@ -1,6 +1,6 @@
 ﻿### ImpersonatorUserName Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

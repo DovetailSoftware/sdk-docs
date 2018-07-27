@@ -6,7 +6,7 @@ Site Identifier.
 
 Initializes a new instance of the ChangeCaseSiteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

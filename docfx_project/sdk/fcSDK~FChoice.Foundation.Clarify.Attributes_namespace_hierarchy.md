@@ -1,10 +1,6 @@
-﻿     FChoice.Foundation.Clarify.Attributes Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Foundation.Clarify.Attributes Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Foundation.Clarify.Attributes Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Attribute](#)  
@@ -20,8 +16,6 @@ System.Object
       [FChoice.Foundation.Clarify.Attributes.ParameterVoidAttribute](fcSDK~FChoice.Foundation.Clarify.Attributes.ParameterVoidAttribute.md)  
       [FChoice.Foundation.Clarify.Attributes.SplitMethodAttribute](fcSDK~FChoice.Foundation.Clarify.Attributes.SplitMethodAttribute.md)  
       [FChoice.Foundation.Clarify.Attributes.ToolkitVisibleAttribute](fcSDK~FChoice.Foundation.Clarify.Attributes.ToolkitVisibleAttribute.md)  
-
-
 
 #### Reference
 

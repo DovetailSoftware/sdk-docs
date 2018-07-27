@@ -2,7 +2,7 @@
 
 The new user which the lead is assigned to.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

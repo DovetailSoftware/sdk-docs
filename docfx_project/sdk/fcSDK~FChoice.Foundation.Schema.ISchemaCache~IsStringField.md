@@ -1,6 +1,6 @@
 ﻿### IsStringField Method (ISchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

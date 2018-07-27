@@ -2,7 +2,7 @@
 
 The DateTime the Labor entry is updated. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

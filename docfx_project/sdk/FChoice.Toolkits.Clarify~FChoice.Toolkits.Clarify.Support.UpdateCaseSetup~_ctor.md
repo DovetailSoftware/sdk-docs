@@ -4,7 +4,7 @@ Identifier of the Case being updated.
 
 Initializes a new instance of the UpdateCaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

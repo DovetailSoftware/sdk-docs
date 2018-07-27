@@ -2,7 +2,7 @@
 
 Notes about the Action Item status change.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

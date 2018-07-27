@@ -1,5 +1,5 @@
 ﻿### PrepareInListStatement(Int32[],String,String) Method
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

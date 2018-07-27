@@ -6,7 +6,7 @@ The encrypted bytes to decrypt
 
 Decrypts a byte array of data into a new byte array of unencrypted data
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _cipherBytes_
 
 The encrypted bytes to decrypt
 
-Remarks
+#### Remarks
 
 ![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 

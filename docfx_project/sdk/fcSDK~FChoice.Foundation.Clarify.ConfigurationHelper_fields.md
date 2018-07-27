@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ConfigurationHelper members](fcSDK~FChoice.Foundation.Clarify.ConfigurationHelper_members.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |

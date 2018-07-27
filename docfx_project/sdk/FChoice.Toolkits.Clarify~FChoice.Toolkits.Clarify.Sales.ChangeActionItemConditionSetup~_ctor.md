@@ -6,7 +6,7 @@ The new condition for the Action Item
 
 Initializes a new instance of the ChangeActionItemConditionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

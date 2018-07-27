@@ -2,7 +2,7 @@
 
 Gets a reference to the [StringCache](fcSDK~FChoice.Foundation.Clarify.StringCache.md) which provides access to the Clarify string DB table and First Choice FCStrings
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public IStringCache StringCache {get;}
 
 A reference to the [StringCache](fcSDK~FChoice.Foundation.Clarify.StringCache.md)
 
-Remarks
+#### Remarks
 
 See the documentation for [StringCache](fcSDK~FChoice.Foundation.Clarify.StringCache.md) for more information on how to access and work with Clarify strings and First Choice FCStrings in FCFL.NET.
 

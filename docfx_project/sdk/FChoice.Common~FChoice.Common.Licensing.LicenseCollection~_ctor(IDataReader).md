@@ -1,6 +1,6 @@
 ﻿### LicenseCollection Constructor(IDataReader)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

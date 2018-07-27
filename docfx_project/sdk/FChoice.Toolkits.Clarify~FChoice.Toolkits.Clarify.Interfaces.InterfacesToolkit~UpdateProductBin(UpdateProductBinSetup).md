@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Update a Product Bin. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

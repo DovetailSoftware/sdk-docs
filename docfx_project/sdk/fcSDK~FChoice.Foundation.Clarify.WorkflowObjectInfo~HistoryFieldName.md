@@ -1,6 +1,6 @@
 ﻿### HistoryFieldName Property (WorkflowObjectInfo)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

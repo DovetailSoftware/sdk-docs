@@ -2,7 +2,7 @@
 
 Job hours for the contact
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

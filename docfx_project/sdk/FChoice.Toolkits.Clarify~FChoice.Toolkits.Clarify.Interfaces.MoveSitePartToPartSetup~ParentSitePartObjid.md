@@ -2,7 +2,7 @@
 
 Objid of the parent Site Part this [Site Part](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToPartSetup~SitePartObjid.md) will be placed into
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

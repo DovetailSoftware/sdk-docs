@@ -1,6 +1,6 @@
 ﻿### Scope Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

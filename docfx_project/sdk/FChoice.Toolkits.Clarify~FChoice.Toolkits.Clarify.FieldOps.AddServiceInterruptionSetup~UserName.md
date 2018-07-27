@@ -2,7 +2,7 @@
 
 The user who is adding the Service Interuption. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

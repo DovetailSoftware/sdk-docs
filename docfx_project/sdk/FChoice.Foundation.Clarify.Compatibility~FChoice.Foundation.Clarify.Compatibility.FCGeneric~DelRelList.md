@@ -1,6 +1,6 @@
 ﻿### DelRelList Property (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,10 +1,6 @@
-﻿     LogWarn(String,Object\[\]) Method                                                   
+﻿### LogWarn(String,Object\[\]) Method
 
-fcSDK Documentation
-
-LogWarn(String,Object\[\]) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

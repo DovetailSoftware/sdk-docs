@@ -1,6 +1,6 @@
 ﻿### XmlClarifyLicenseTool Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class XmlClarifyLicenseTool
 public class XmlClarifyLicenseTool : ILicenseTool
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.Licensing.XmlClarifyLicenseTool**  

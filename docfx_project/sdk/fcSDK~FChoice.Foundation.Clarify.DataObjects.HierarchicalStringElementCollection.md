@@ -1,6 +1,6 @@
 ﻿### HierarchicalStringElementCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class HierarchicalStringElementCollection
 public class HierarchicalStringElementCollection : FChoice.Foundation.DataObjects.DataObjectCollection<IHierarchicalStringElement>, IHierarchicalStringElementCollection
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  

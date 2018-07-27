@@ -2,7 +2,7 @@
 
 Specifies if only the owner should be allow to modify the Subcase.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

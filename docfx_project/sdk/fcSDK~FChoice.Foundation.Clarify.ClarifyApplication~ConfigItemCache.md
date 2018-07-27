@@ -2,7 +2,7 @@
 
 Gets a reference to the [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.md) for accessing Clarify config items.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public ConfigItemCache ConfigItemCache {get;}
 
 A reference to the [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.md)
 
-Remarks
+#### Remarks
 
 To quickly access config item values, use the [ConfigItems](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~ConfigItems.md) property on ClarifyApplication.
 

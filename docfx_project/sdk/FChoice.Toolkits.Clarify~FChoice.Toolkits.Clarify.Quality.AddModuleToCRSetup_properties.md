@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [AddModuleToCRSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

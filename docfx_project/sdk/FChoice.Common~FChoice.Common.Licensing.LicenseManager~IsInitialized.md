@@ -2,7 +2,7 @@
 
 True if the singleton has been initialized.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

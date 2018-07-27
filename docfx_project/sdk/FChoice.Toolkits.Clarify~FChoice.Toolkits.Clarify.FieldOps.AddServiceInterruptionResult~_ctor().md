@@ -1,6 +1,6 @@
 ﻿### AddServiceInterruptionResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

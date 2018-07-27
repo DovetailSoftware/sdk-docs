@@ -1,6 +1,6 @@
 ﻿### Item Property (RestrictionGroupCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

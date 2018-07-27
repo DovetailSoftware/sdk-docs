@@ -1,6 +1,6 @@
 ﻿### PartTransferResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

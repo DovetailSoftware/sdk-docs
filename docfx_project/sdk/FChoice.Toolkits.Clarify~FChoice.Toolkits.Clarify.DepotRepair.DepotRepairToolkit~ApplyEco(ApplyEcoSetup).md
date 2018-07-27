@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Apply an ECO to a Part Request Detail. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

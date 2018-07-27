@@ -1,6 +1,6 @@
 ﻿### ClarifyDataSet Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class ClarifyDataSet
 public class ClarifyDataSet : FChoice.Foundation.GenericDataSet
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.GenericDataSet](fcSDK~FChoice.Foundation.GenericDataSet.md)  

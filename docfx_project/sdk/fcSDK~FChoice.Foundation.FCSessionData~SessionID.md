@@ -2,7 +2,7 @@
 
 A session's unique identifier.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

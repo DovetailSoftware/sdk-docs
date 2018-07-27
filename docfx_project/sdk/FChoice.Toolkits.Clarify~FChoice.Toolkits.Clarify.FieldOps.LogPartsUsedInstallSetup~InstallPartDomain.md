@@ -2,7 +2,7 @@
 
 The Part Domain of the part being installed
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

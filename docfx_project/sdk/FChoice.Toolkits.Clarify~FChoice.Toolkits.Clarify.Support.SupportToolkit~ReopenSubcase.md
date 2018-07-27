@@ -4,7 +4,7 @@ Reopens the specified Subcase. This overload takes a set of required parameters 
 
 Reopens the specified Subcase.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ReopenSubcase(ReopenSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ReopenSubcase(ReopenSubcaseSetup).md) | Reopens the specified Subcase. This overload takes a setup object.   |
 | [ReopenSubcase(ReopenSubcaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ReopenSubcase(ReopenSubcaseSetup,IDbTransaction).md) | Reopens the specified Subcase. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The [User](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup~UserName.md) that reopens the Subcase becomes the new owner.
 

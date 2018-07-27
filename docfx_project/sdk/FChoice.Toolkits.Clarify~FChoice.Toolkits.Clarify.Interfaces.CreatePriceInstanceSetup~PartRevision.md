@@ -2,7 +2,7 @@
 
 Revision to price
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### IsInteger Method (SchemaFieldBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

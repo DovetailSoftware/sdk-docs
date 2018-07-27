@@ -2,7 +2,7 @@
 
 Provides easy access to the Windows Data Protection API (DPAPI) for encrypting and decrypting data values
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,13 +14,13 @@ Public NotInheritable Class DataProtector
 public sealed class DataProtector 
 ```
 
-Remarks
+#### Remarks
 
 **![warning](/images/warning.gif) WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 For more information on Windows Data Protection, please see this technical article on MSDN called [Windows Data Protection](http://msdn.microsoft.com/library/en-us/dnsecure/html/windataprotection-dpapi.asp).
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.DataProtector**  

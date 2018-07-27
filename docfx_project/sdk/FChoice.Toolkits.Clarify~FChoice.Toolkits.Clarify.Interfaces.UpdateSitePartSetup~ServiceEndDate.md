@@ -2,7 +2,7 @@
 
 DateTime the service ends.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ The identifier of the Case with which this Part Usage is associated
 
 The Objid of the Site Part being removed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

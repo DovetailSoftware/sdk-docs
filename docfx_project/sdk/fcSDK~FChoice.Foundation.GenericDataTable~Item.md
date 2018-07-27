@@ -4,7 +4,7 @@ The zero-based index of the element to get.
 
 Returns the row found at the given index.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

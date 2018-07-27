@@ -2,7 +2,7 @@
 
 Used by the [DeleteAlternatePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class DeleteAlternatePartSetup
 public class DeleteAlternatePartSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup**  

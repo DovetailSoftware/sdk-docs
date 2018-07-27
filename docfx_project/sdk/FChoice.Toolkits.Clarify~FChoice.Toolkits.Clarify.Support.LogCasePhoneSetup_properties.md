@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [LogCasePhoneSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

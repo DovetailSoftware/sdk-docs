@@ -2,7 +2,7 @@
 
 The rank of this inventory location at the associated site
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

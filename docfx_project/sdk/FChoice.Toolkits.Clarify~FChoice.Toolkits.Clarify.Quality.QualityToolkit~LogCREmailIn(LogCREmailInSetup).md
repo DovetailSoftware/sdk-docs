@@ -1,6 +1,6 @@
 ﻿### LogCREmailIn(LogCREmailInSetup) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

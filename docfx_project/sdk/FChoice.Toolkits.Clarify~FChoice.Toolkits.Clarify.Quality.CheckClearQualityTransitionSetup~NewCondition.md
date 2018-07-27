@@ -2,7 +2,7 @@
 
 The new condition for the Change Request.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

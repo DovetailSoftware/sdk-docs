@@ -2,7 +2,7 @@
 
 Used by the [RelateCaseToParentCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~RelateCaseToParentCase(RelateCaseToParentCaseSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class RelateCaseToParentCaseSetup
 public class RelateCaseToParentCaseSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup**  

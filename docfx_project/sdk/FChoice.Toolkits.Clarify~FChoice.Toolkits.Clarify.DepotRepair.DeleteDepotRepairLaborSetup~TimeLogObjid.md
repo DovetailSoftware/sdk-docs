@@ -2,7 +2,7 @@
 
 The objid of the time log object to be deleted
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

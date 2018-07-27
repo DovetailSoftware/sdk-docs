@@ -2,7 +2,7 @@
 
 Filter field on dates occuring on the the input to this filter
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

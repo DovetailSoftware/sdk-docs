@@ -1,6 +1,6 @@
 ﻿### ValidateConnectionParams Method (OleDbDataProviderBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

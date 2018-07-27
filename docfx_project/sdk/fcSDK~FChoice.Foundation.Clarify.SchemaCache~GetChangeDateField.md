@@ -1,6 +1,6 @@
 ﻿### GetChangeDateField Method (SchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

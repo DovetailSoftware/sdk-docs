@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [DataObject members](fcSDK~FChoice.Foundation.DataObjects.DataObject_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

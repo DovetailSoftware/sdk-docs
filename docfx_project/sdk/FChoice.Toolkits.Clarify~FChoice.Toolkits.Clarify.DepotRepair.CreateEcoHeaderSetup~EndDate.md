@@ -2,7 +2,7 @@
 
 The DateTime the ECO header becomes obsolete. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

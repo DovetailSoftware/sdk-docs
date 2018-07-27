@@ -2,7 +2,7 @@
 
 The length of time for research.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

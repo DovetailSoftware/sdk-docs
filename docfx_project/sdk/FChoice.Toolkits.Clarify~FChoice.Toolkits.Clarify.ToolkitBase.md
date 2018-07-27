@@ -2,7 +2,7 @@
 
 This class is used internally and not meant to be created by end users.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

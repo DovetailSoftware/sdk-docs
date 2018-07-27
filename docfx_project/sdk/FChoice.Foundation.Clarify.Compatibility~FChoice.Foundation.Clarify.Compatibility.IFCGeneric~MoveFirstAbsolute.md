@@ -1,6 +1,6 @@
 ﻿### MoveFirstAbsolute Method (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

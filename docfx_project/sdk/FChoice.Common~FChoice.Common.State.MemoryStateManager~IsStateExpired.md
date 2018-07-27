@@ -1,6 +1,6 @@
 ﻿### IsStateExpired Method (MemoryStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

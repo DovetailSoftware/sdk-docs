@@ -4,7 +4,7 @@ Dispatch the Solution to the specified queue. This overload takes a set of requi
 
 Dispatch the Solution to the specified queue.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [DispatchSolution(DispatchSolutionSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~DispatchSolution(DispatchSolutionSetup).md) | Dispatch the Solution to the specified queue. This overload takes a setup object.   |
 | [DispatchSolution(DispatchSolutionSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~DispatchSolution(DispatchSolutionSetup,IDbTransaction).md) | Dispatch the Solution to the specified queue. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Solution must be in open condition, and not currently dispatched to a queue.
 

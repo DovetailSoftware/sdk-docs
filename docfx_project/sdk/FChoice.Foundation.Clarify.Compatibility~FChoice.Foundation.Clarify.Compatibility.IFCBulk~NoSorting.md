@@ -1,6 +1,6 @@
 ﻿### NoSorting Property (IFCBulk)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

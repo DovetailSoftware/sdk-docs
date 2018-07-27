@@ -2,7 +2,7 @@
 
 Set this value if you wish the new Bin to be a child of this Parent Bin.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Property ParentBinObjid As Integer
 public int ParentBinObjid {get; set;}
 ```
 
-Remarks
+#### Remarks
 
 The SiteIDNum of the parent bin must match the [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateProductBinSetup~SiteIDNum.md) of this bin.
 

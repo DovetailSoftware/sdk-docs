@@ -1,6 +1,6 @@
 ﻿### GetReqString(String,NameValueCollection) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

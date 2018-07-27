@@ -1,6 +1,6 @@
 ﻿### PrimaryTable Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

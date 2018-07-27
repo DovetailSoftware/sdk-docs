@@ -2,7 +2,7 @@
 
 Creates a new Dialogue.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

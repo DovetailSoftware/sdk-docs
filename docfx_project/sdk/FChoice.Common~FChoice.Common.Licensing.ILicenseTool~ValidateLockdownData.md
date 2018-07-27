@@ -4,7 +4,7 @@ Lock down data used for licensing.
 
 Validates lock down data.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

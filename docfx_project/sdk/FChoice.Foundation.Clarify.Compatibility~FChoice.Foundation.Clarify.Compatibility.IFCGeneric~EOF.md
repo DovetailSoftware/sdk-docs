@@ -1,6 +1,6 @@
 ﻿### EOF Property (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

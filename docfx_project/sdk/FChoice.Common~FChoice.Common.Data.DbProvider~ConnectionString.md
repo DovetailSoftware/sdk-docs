@@ -2,7 +2,7 @@
 
 Gets or sets the connection string this provider will use for database connections
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,7 +17,7 @@ public virtual string ConnectionString {get; set;}
 
 The connection string this provider will use for database connections
 
-Remarks
+#### Remarks
 
 This value is normally the value specified in the application configuration file. However, it can be set to another connection string at which point the provider will use the newly specified value.
 

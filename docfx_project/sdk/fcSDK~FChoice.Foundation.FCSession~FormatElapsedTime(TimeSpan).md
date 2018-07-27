@@ -4,7 +4,7 @@ TimeSpan to be formatted
 
 Formats a **TimeSpan** into a string "DDD HH MMM" where: D=Days, H=Hours, M=Minutes
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [FixCRSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

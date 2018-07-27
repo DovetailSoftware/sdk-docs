@@ -1,6 +1,6 @@
 ﻿### ColumnInfo Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class ColumnInfo
 public class ColumnInfo
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.DataObjects.ColumnInfo**  

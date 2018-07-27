@@ -2,7 +2,7 @@
 
 The user who has forwarded the ActionItem. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

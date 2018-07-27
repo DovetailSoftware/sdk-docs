@@ -2,7 +2,7 @@
 
 Is the Solution public?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

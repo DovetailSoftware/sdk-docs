@@ -2,7 +2,7 @@
 
 Identifier of the Contract to update
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

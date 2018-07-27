@@ -1,6 +1,6 @@
 ﻿### UniqueID Property (IDataObject)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

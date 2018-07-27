@@ -2,7 +2,7 @@
 
 Name of the Currency used by the Country
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

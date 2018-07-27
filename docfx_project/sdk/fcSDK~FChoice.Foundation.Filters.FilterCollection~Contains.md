@@ -1,6 +1,6 @@
 ﻿### Contains Method (FilterCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

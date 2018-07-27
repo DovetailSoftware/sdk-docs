@@ -1,6 +1,6 @@
 ﻿### ISchemaViewJoin Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

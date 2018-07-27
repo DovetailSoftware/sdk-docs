@@ -2,7 +2,7 @@
 
 Objid of the User record created.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

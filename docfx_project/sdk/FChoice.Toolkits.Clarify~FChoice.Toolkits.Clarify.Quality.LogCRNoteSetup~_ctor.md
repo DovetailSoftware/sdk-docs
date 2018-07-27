@@ -4,7 +4,7 @@ Identifier of the CR being logged.
 
 Initializes a new instance of the LogCRNoteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

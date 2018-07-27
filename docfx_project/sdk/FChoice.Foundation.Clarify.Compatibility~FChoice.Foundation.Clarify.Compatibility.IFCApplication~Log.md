@@ -1,6 +1,6 @@
 ﻿### Log Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

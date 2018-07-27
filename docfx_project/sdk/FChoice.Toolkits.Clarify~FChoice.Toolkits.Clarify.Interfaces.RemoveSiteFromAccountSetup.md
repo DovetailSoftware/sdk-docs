@@ -2,7 +2,7 @@
 
 Used by the [RemoveSiteFromAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~RemoveSiteFromAccount(RemoveSiteFromAccountSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class RemoveSiteFromAccountSetup
 public class RemoveSiteFromAccountSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromAccountSetup**  

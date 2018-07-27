@@ -1,6 +1,6 @@
 ﻿### UtcOffsetSeconds Property (ITimeZone)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

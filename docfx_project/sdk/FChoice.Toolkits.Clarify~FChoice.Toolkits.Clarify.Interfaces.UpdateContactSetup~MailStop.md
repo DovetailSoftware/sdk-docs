@@ -2,7 +2,7 @@
 
 Mail stop for Contact
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### DocSummary Property (ToolkitResultPropertyAttribute)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

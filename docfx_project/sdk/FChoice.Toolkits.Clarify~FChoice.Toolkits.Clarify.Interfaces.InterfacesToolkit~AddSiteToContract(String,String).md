@@ -6,7 +6,7 @@ Identifier of the Site to add to the Contract.
 
 Adds a site to an existing Contract. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The number of parts being transferred
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

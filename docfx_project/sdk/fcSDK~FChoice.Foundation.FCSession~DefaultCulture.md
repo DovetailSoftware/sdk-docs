@@ -2,7 +2,7 @@
 
 Returns the default [Culture](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cpconcultureinfo.htm) being used by the session.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public CultureInfo DefaultCulture {get;}
 
 Returns the default [Culture](ms-help://MS.NETFrameworkSDKv1.1/cpguidenf/html/cpconcultureinfo.htm) being used by the session.
 
-Remarks
+#### Remarks
 
 This is the CultureInfo that is used unless the [CurrentCulture](fcSDK~FChoice.Foundation.FCSession~CurrentCulture.md) property is set.
 

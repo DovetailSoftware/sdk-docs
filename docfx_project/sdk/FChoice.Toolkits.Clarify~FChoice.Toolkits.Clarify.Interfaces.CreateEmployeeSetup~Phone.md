@@ -2,7 +2,7 @@
 
 Employee phone number
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

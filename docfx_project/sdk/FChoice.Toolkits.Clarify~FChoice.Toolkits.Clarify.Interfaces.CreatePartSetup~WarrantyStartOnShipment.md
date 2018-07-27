@@ -2,7 +2,7 @@
 
 Does the warranty start on shipment?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

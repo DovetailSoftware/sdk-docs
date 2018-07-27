@@ -2,7 +2,7 @@
 
 Specifies whether this is an expense account (true) or a GL account (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

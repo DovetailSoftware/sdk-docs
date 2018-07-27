@@ -1,6 +1,6 @@
 ﻿### GetByNumber Method (SchemaTableCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

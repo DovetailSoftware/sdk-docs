@@ -1,10 +1,6 @@
-﻿     FChoice.Foundation.Clarify.DataObjects Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Foundation.Clarify.DataObjects Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Foundation.Clarify.DataObjects Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

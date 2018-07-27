@@ -1,6 +1,6 @@
 ﻿### Title Property (GlobalStringElement)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

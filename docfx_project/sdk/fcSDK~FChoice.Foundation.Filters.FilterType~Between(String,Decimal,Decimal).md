@@ -1,6 +1,6 @@
 ﻿### Between(String,Decimal,Decimal) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

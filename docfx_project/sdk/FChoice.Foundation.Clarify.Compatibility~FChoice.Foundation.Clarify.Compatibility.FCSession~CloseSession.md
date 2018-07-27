@@ -1,6 +1,6 @@
 ﻿### CloseSession Method (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

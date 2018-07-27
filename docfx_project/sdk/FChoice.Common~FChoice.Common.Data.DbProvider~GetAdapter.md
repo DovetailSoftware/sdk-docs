@@ -4,7 +4,7 @@ Gets a database type-specific DbDataAdapter instance for this provider type (i.e
 
 Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL)
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -13,8 +13,6 @@ Overload List
 | [GetAdapter(IDbConnection,String)](FChoice.Common~FChoice.Common.Data.DbProvider~GetAdapter(IDbConnection,String).md) | Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL) initialized to use the specified connection to the database and the specified SQL statement to execute.   |
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

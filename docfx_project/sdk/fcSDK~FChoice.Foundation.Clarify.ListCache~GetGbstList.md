@@ -4,7 +4,7 @@ The name of the GBST/application pop-up list
 
 Gets a reference to a [GlobalStringList](fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringList.md) object representing an application pop-up list in the database
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

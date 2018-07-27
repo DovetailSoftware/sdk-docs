@@ -1,6 +1,6 @@
 ﻿### CreateTimeLogResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### MaxInListItems Property (OracleProviderBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

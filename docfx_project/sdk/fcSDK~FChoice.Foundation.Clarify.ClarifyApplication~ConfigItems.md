@@ -2,7 +2,7 @@
 
 Returns a dictionary that contains Clarify config item key/value pairs
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public ClarifyConfigItemCollection ConfigItems {get;}
 
 A dictionary that contains Clarify config item key/value pairs.
 
-Remarks
+#### Remarks
 
 To access more information about config items besides just their values, use the [ConfigItemCache](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~ConfigItemCache.md) property.
 

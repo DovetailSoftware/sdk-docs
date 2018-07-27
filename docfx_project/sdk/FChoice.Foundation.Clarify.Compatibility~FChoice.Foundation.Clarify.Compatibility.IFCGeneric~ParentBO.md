@@ -1,6 +1,6 @@
 ### ParentBO Property (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

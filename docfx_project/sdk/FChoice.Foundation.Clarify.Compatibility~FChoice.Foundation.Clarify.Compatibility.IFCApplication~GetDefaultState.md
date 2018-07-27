@@ -1,6 +1,6 @@
 ﻿### GetDefaultState Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### DisplayOrder Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

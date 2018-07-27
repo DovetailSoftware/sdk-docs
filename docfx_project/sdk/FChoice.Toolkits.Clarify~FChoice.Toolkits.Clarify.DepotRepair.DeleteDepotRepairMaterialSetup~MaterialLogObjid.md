@@ -2,7 +2,7 @@
 
 The objid of the material log object to be deleted
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

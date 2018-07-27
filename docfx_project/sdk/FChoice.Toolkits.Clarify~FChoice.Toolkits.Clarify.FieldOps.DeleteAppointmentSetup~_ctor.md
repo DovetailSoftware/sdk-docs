@@ -4,7 +4,7 @@ The Objid of the Appointment being deleted.
 
 Initializes a new instance of the DeleteAppointmentSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [GenericDataTable members](fcSDK~FChoice.Foundation.GenericDataTable_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

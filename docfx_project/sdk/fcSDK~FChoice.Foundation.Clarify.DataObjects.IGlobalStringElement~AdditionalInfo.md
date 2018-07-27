@@ -1,6 +1,6 @@
 ﻿### AdditionalInfo Property (IGlobalStringElement)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

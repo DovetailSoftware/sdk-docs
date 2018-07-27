@@ -2,7 +2,7 @@
 
 Contract expiration date
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

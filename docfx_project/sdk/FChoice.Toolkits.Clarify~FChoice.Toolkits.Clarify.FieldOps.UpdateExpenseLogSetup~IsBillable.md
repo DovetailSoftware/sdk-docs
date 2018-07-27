@@ -2,7 +2,7 @@
 
 Specifies if the Expense Log is billable.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

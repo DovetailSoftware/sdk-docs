@@ -2,7 +2,7 @@
 
 Holds summary totals from the [PrecloseCase](/sdk/toolkit_html/fccs/preclose_case.md) API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class CaseTimeAndExpenses
 public class CaseTimeAndExpenses
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses**  

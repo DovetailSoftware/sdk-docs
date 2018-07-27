@@ -2,7 +2,7 @@
 
 Initial status.  Element from the 'Open' application defined list. If not set, the default list value is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

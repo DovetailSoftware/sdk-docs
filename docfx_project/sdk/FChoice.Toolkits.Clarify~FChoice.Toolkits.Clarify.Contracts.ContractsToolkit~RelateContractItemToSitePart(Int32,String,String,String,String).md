@@ -12,7 +12,7 @@ The serial number of the site part for thie Line Item.
 
 Used to relate (or unrelate) a Site Part from a contract line item. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -62,7 +62,7 @@ The serial number of the site part for thie Line Item.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The line item’s objid is specified, along with the details for locating the site_part.
 

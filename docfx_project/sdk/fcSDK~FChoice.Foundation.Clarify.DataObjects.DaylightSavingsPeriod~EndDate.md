@@ -1,6 +1,6 @@
 ﻿### EndDate Property (DaylightSavingsPeriod)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

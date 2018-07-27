@@ -1,6 +1,6 @@
 ﻿### CaseIDNum Property (LogCaseInternalPhoneSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

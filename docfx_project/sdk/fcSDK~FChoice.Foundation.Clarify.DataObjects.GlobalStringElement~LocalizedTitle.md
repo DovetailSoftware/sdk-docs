@@ -1,6 +1,6 @@
 ﻿### LocalizedTitle Property (GlobalStringElement)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

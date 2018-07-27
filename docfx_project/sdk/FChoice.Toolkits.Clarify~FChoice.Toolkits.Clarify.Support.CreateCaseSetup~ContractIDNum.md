@@ -2,7 +2,7 @@
 
 Contract Identifier for the Case. If not set, no Contract is related to the Case.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

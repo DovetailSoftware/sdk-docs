@@ -8,7 +8,7 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ToolkitResult Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~_ctor.md) | Overloaded. |
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

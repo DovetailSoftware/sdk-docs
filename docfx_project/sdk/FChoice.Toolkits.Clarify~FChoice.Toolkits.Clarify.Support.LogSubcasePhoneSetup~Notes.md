@@ -2,7 +2,7 @@
 
 Notes to be logged to the Case.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

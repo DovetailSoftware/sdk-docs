@@ -1,8 +1,4 @@
-﻿ClarifyAuthenticationResult Class Members
-
-fcSDK Documentation
-
-ClarifyAuthenticationResult Class Members
+﻿### ClarifyAuthenticationResult Class Members
 
 The following tables list the members exposed by [ClarifyAuthenticationResult](fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationResult.md).
 
@@ -14,7 +10,7 @@ Public Constructors
 
 
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

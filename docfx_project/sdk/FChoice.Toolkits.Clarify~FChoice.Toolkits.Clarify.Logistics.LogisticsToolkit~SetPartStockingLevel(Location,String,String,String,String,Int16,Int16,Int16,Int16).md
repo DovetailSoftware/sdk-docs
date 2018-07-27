@@ -20,7 +20,7 @@ Quantity of parts to be reordered for this inventory location when reorder level
 
 Creates a part restocking authorization level. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

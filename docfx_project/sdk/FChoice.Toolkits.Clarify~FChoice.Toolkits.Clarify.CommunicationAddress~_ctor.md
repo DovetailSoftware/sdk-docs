@@ -1,6 +1,6 @@
 ﻿### CommunicationAddress Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

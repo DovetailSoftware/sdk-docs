@@ -4,7 +4,7 @@ Gets or sets the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html
 
 Gets or sets the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) associated with the specific name or index in the collection.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,8 +12,6 @@ Overload List
 | [Item(Int32)](FChoice.Common~FChoice.Common.Data.DataParameterCollection~Item(Int32).md) | Gets or sets the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) associated with index in the collection.   |
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

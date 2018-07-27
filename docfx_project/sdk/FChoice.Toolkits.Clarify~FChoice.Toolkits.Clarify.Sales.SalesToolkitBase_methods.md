@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [SalesToolkitBase members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

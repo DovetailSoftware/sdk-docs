@@ -1,6 +1,6 @@
 ﻿### Name Property (SchemaTableBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

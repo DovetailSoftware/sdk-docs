@@ -4,7 +4,7 @@ Opportunity Identifier.
 
 Accept the specified Opportunity from the queue in which it is currently dispatched. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Opportunity Identifier.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The Opportunity must be currently dispatched to a queue.
 

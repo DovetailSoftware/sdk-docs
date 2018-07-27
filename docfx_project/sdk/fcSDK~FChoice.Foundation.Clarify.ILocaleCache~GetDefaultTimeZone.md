@@ -1,6 +1,6 @@
 ﻿### GetDefaultTimeZone Method (ILocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

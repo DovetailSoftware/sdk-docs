@@ -2,7 +2,7 @@
 
 The queue into which the Opportunity is to be dispatched.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

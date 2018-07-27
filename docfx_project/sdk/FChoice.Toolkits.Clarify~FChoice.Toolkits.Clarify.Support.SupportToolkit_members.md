@@ -10,7 +10,7 @@ Public Constructors
 
 
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -18,7 +18,7 @@ Public Fields
 
 
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ Exposed only for testability of certain APIs.
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

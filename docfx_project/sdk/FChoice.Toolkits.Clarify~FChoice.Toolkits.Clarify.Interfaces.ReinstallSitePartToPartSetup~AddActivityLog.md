@@ -2,7 +2,7 @@
 
 Should an activity log be created for the re-installation?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

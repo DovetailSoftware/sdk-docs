@@ -1,6 +1,6 @@
 ﻿### EncryptClarifyPassword Method (IClarifyApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

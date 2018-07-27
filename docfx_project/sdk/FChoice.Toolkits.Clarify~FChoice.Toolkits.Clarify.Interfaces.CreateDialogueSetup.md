@@ -2,7 +2,7 @@
 
 Initializes a new instance of the CreateDialogueSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class CreateDialogueSetup
 public class CreateDialogueSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup**  

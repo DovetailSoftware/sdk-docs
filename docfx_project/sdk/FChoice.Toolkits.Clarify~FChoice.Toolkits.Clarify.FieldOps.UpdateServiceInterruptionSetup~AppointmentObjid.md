@@ -2,7 +2,7 @@
 
 The Objid of the Appointment being modified.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

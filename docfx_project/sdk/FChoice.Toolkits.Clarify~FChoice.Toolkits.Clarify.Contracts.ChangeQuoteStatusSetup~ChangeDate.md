@@ -2,7 +2,7 @@
 
 The DateTime the Quote Status was changed. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

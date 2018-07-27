@@ -4,7 +4,7 @@ An open, live transaction in which this batch will participate
 
 Creates a new instance of a query batch using the specified transaction and the default provider
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -26,7 +26,7 @@ _trans_
 
 An open, live transaction in which this batch will participate
 
-Remarks
+#### Remarks
 
 The transaction must be open and ready against an open database connection
 

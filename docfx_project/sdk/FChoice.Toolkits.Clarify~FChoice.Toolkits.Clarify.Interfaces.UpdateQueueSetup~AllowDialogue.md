@@ -2,7 +2,7 @@
 
 Should Queue allow Dialogs
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

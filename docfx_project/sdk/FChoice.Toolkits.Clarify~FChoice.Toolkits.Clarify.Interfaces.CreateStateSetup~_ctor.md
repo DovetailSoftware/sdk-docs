@@ -8,7 +8,7 @@ Name of the Country the State will belong to.
 
 Initializes a new instance of the CreateStateSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Actual research time (closed subcase only)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

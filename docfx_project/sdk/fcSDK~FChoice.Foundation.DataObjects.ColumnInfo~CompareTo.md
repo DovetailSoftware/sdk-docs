@@ -1,6 +1,6 @@
 ﻿### CompareTo Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

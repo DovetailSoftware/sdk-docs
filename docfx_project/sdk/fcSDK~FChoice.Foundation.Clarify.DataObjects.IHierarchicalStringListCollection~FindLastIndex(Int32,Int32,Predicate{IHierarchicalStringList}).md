@@ -1,10 +1,6 @@
-﻿     FindLastIndex(Int32,Int32,Predicate<IHierarchicalStringList>) Method                                                   
+﻿### FindLastIndex(Int32,Int32,Predicate<IHierarchicalStringList>) Method
 
-fcSDK Documentation
-
-FindLastIndex(Int32,Int32,Predicate<IHierarchicalStringList>) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +8,7 @@ Syntax
 Overloads Function FindLastIndex( _
    ByVal _startIndex_ As Integer, _
    ByVal _count_ As Integer, _
-   ByVal _match_ As [Predicate(Of IHierarchicalStringList)](#) _
+   ByVal _match_ As Predicate(Of IHierarchicalStringList) _
 ) As Integer
 ```
 
@@ -20,7 +16,7 @@ Overloads Function FindLastIndex( _
 int FindLastIndex( 
    int _startIndex_,
    int _count_,
-   [Predicate<IHierarchicalStringList>](#) _match_
+   Predicate<IHierarchicalStringList> _match_
 )
 ```
 

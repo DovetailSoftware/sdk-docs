@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [UnrelateContractItemFromSitePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UnrelateContractItemFromSitePartSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

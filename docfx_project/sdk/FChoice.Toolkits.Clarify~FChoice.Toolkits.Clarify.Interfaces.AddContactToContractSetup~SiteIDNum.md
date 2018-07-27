@@ -2,7 +2,7 @@
 
 Identifies the Site where the added Contact is located.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

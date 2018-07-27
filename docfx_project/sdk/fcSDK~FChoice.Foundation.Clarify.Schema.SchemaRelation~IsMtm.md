@@ -1,6 +1,6 @@
 ﻿### IsMtm Property (SchemaRelation)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

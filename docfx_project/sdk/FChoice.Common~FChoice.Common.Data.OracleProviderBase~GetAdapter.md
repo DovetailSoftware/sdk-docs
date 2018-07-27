@@ -1,6 +1,6 @@
 ﻿### GetAdapter Method (OracleProviderBase)
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

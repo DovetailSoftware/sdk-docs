@@ -4,7 +4,7 @@ The [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) to use inste
 
 Creates an empty new instance of DataParameterCollection with a default initial capacity based on the specified DbProvider.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

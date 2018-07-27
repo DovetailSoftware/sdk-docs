@@ -1,6 +1,6 @@
 ﻿### AddRange Method (IGlobalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

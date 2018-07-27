@@ -2,7 +2,7 @@
 
 Body of the email being logged.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

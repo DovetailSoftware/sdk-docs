@@ -4,7 +4,7 @@ The DateTime the Appointment starts. If not set, the current time is used.
 
 The DateTime the Appointment ends. If not set, the start time and duration is used to calculate the end time.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

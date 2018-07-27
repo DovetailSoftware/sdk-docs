@@ -1,6 +1,6 @@
 ﻿### GetOptInt32(Int32,String,String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

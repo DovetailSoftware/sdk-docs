@@ -6,7 +6,7 @@ Identifier of a oarent Case in the relation.
 
 Relates a Case to a specified parent Case. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ Identifier of a oarent Case in the relation.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The parent Case cannot be a descendent of the child Case.
 

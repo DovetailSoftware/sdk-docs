@@ -6,7 +6,7 @@ This overload takes a set of required parameters for the API.
 
 Allows parts to be transferred independent of a part request to fix order errors, correct inventory variances, move parts from one inventory location (or account) to another (without having to relate that movement to a part request), and scrap parts out of inventory.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -30,7 +30,7 @@ Allows parts to be transferred independent of a part request to fix order errors
 
 This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 As in Clarify, the transfer can be from good or bad stock and can be to good or bad stock.
 

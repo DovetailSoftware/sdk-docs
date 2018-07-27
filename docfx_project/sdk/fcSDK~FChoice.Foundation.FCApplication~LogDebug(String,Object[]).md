@@ -1,10 +1,6 @@
-﻿     LogDebug(String,Object\[\]) Method                                                   
+﻿### LogDebug(String,Object\[\]) Method
 
-fcSDK Documentation
-
-LogDebug(String,Object\[\]) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### MaxLength Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

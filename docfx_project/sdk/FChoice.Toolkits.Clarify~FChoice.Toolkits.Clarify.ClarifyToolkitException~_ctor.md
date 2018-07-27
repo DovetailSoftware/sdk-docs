@@ -1,6 +1,6 @@
 ﻿### ClarifyToolkitException Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

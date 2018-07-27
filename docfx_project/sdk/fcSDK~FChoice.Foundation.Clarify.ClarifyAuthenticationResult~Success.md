@@ -1,6 +1,6 @@
 ﻿### Success Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

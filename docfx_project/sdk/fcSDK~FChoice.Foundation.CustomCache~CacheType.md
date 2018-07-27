@@ -1,6 +1,6 @@
 ﻿### CacheType Property (CustomCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

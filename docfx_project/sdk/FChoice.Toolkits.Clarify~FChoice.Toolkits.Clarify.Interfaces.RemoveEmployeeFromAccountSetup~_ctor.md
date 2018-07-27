@@ -8,7 +8,7 @@ Employee Role to be removing from the Account
 
 Initializes a new instance of the RemoveEmployeeFromAccountSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

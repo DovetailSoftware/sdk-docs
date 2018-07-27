@@ -1,6 +1,6 @@
 ﻿### Flags Property (SchemaTableBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ ActionItem Identifier.
 
 Initializes a new instance of the YankActionItemSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

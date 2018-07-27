@@ -2,7 +2,7 @@
 
 Gets whether or not a password was used when [CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md) was called.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

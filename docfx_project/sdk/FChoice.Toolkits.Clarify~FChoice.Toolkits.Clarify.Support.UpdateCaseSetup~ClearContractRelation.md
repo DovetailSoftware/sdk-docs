@@ -2,7 +2,7 @@
 
 If **true** the Contract will be unrelated from the Case.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### Restrictions Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

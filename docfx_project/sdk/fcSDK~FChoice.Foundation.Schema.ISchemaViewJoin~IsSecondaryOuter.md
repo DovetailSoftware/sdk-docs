@@ -1,6 +1,6 @@
 ﻿### IsSecondaryOuter Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

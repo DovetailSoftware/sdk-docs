@@ -2,7 +2,7 @@
 
 Previous domain this PartRevision replaces.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

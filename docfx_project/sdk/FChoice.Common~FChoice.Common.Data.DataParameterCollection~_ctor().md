@@ -2,7 +2,7 @@
 
 Creates an empty new instance of DataParameterCollection using the default [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) with a default initial capacity.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

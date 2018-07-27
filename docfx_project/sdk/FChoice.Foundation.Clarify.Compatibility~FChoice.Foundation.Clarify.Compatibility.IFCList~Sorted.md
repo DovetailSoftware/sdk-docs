@@ -1,6 +1,6 @@
 ﻿### Sorted Property (IFCList)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

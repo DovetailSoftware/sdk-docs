@@ -1,10 +1,6 @@
-﻿     FindIndex(Predicate<IHierarchicalStringElement>) Method                                                   
+﻿### FindIndex(Predicate<IHierarchicalStringElement>) Method
 
-fcSDK Documentation
-
-FindIndex(Predicate<IHierarchicalStringElement>) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

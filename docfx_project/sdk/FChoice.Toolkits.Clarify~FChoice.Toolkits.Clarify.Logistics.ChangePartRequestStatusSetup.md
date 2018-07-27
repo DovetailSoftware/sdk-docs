@@ -2,7 +2,7 @@
 
 Used by the [ChangePartRequestStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus(ChangePartRequestStatusSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class ChangePartRequestStatusSetup
 public class ChangePartRequestStatusSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup**  

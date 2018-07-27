@@ -2,7 +2,7 @@
 
 Notes concerning the CR to log.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

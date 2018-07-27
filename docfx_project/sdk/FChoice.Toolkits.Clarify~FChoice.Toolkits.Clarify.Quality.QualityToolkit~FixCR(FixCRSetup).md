@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Change the condition of a CR to Fixed. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -32,7 +32,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the FixBug.
 
-Remarks
+#### Remarks
 
 The CR condition will become Fixed even if it was already Closed.
 

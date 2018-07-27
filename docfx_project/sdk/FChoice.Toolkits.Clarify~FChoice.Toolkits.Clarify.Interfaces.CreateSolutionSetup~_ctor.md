@@ -2,7 +2,7 @@
 
 Initializes a new instance of the CreateSolutionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

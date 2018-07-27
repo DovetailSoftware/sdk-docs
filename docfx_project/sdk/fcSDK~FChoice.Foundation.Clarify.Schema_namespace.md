@@ -1,8 +1,4 @@
-﻿     FChoice.Foundation.Clarify.Schema Namespace                                                   
-
-fcSDK Documentation
-
-FChoice.Foundation.Clarify.Schema Namespace
+﻿### FChoice.Foundation.Clarify.Schema Namespace
 
 The **FChoice.Foundation.Clarify.Schema** namespace contains classes which allow object-oriented access to the Clarify system Schema (ADP) objects.
 
@@ -35,8 +31,6 @@ Enumerations
 | --- | --- | --- |
 | ![Enumeration](dotnetimages/Enumeration.png) | [SchemaCommonType](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaCommonType.md) |   |
 | ![Enumeration](dotnetimages/Enumeration.png) | [SchemaDataType](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaDataType.md) |   |
-
-
 
 #### Reference
 

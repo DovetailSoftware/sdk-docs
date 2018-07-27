@@ -2,7 +2,7 @@
 
 The title of the Price Program for this Schedule. If not set, then the value is not changed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

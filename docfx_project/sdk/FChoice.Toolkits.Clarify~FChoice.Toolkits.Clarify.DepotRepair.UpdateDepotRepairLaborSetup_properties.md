@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [UpdateDepotRepairLaborSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairLaborSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

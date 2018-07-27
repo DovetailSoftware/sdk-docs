@@ -1,6 +1,6 @@
 ﻿### IndexOf(IGlobalStringList,Int32) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

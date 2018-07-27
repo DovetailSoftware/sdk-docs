@@ -1,6 +1,6 @@
 ﻿### GetTableOrView Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ Serial number of the Site Part
 
 Update a Site Part This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 DateTime the Site Part was de-instaled
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

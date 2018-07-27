@@ -4,7 +4,7 @@ Identifier for the site being updated.
 
 Initializes a new instance of the UpdateSiteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

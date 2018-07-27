@@ -1,6 +1,6 @@
 ﻿### TypeMapper Property (OracleProviderBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

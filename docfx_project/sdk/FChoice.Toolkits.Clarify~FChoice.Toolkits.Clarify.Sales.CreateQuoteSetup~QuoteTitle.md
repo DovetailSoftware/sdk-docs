@@ -2,7 +2,7 @@
 
 The title of the Quote.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

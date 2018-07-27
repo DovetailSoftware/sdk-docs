@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to re-install a site part (and the sub-parts installed underneath it) that have been deinstalled from a site. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ Database transaction under which the API will be invoked.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 If the site part is to be reinstalled in a bin, the bin objid is specified. If it is to be installed under another part, the parent part objid is specified. If the site part is to be installed at the top-level of the site, neither objid is specified.
 

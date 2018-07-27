@@ -2,7 +2,7 @@
 
 Specifies if the Time Log is billable.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

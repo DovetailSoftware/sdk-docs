@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [DeleteAppointmentSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteAppointmentSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

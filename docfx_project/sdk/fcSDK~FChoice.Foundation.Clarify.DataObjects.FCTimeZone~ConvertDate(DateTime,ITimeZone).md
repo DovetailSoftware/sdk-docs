@@ -1,6 +1,6 @@
 ﻿### ConvertDate(DateTime,ITimeZone) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

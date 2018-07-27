@@ -12,7 +12,7 @@ Name of the lead source.
 
 Used to create a new Lead. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -64,7 +64,7 @@ The following values are populated in the ToolkitResult object returned by the A
 
 *   Objid \- The Objid of the Lead.
 
-Remarks
+#### Remarks
 
 For almost all of the data, it can be specified, or not.
 

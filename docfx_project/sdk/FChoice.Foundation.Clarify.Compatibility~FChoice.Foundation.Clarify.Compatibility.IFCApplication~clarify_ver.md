@@ -1,6 +1,6 @@
 ﻿### clarify_ver Property (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

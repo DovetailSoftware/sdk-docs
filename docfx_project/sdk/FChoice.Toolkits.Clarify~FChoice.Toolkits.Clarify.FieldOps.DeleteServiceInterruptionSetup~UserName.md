@@ -2,7 +2,7 @@
 
 The user who is deleting the Service Interuption. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The number of units used for this line item.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Property UnitsUsed As Double
 public double UnitsUsed {get; set;}
 ```
 
-Remarks
+#### Remarks
 
 If supplied, this is the number of units used. If = 0 (default), then all units are initially available.
 

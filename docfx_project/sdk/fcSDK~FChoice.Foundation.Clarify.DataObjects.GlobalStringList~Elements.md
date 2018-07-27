@@ -1,6 +1,6 @@
 ﻿### Elements Property (GlobalStringList)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

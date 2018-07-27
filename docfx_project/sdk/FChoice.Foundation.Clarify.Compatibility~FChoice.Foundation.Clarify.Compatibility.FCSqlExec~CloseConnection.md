@@ -1,6 +1,6 @@
 ﻿### CloseConnection Method (FCSqlExec)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

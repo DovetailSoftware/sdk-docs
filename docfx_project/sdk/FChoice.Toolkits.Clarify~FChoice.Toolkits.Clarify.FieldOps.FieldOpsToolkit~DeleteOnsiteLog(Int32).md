@@ -2,7 +2,7 @@
 
 The Objid of the Onsite Log being deleted.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

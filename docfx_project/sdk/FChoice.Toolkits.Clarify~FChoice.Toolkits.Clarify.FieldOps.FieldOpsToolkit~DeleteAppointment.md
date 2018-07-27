@@ -4,7 +4,7 @@ Used to delete an existing appointment. This overload takes a setup object and a
 
 Used to delete an existing appointment.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

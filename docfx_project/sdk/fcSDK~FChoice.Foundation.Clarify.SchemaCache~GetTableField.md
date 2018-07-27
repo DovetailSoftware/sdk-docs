@@ -1,6 +1,6 @@
 ﻿### GetTableField Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

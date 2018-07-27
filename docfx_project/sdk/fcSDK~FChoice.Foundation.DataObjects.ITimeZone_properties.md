@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ITimeZone members](fcSDK~FChoice.Foundation.DataObjects.ITimeZone_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

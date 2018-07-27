@@ -1,6 +1,6 @@
 ﻿### WorkFlowInfo Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Causes the generic object to query the database table or view using the optionally specified data fields, filters, and sort orders
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

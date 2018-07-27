@@ -1,6 +1,6 @@
 ﻿### UpdateCache Method (SchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

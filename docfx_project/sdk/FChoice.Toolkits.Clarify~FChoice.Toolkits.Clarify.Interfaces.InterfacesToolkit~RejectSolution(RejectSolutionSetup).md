@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Reject the Solution from the queue in which it currently resides, and return it to the owner. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Setup object for API invocation.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The Solution must be in open condition, and currently dispatched to a queue.
 

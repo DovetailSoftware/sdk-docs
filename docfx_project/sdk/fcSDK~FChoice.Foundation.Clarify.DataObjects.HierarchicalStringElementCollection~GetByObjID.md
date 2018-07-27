@@ -1,6 +1,6 @@
 ﻿### GetByObjID Method (HierarchicalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

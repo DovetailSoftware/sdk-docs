@@ -2,7 +2,7 @@
 
 Notes about the Part Request Header update
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

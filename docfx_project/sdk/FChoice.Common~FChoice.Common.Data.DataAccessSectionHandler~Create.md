@@ -8,7 +8,7 @@ The [System.Xml.XmlNode](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsyste
 
 Creates a new configuration handler and adds it to the section handler collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -46,7 +46,7 @@ The [System.Xml.XmlNode](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsyste
 
 Always null (**Nothing** in Visual Basic). This method initializes [DbProviderFactory](FChoice.Common~FChoice.Common.Data.DbProviderFactory.md) with the specified providers.
 
-Remarks
+#### Remarks
 
 This method should only be used by the .NET Configuration infrastructure. You should not call this method manually.
 

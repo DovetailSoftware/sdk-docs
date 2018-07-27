@@ -2,7 +2,7 @@
 
 The description of the Service Interuption.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

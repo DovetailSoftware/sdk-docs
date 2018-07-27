@@ -2,7 +2,7 @@
 
 The secondary address used to overide the default site secondary address.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

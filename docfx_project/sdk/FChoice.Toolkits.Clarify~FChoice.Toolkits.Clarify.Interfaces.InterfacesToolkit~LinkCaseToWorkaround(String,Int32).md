@@ -6,7 +6,7 @@ Objid of the Workaround the Case will be linked to
 
 Link a Case to a Workaround. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

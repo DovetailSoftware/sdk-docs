@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Update Site identified by Objid. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

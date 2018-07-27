@@ -1,6 +1,6 @@
 ﻿### Distinct Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

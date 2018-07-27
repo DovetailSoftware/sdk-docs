@@ -1,10 +1,6 @@
-﻿     LogError(String,Object\[\]) Method                                                   
+﻿### LogError(String,Object\[\]) Method
 
-fcSDK Documentation
-
-LogError(String,Object\[\]) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

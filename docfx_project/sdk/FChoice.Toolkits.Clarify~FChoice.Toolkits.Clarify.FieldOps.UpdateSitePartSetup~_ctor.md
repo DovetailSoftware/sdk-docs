@@ -4,7 +4,7 @@ The Objid of the Site Part being modified.
 
 Initializes a new instance of the UpdateSitePartSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

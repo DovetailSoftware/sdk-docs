@@ -4,7 +4,7 @@ Allows you to create or modify Logistics Transitions in the database. This overl
 
 Allows you to create or modify Logistics Transitions in the database.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [SetLogisticsTransition(SetLogisticsTransitionSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetLogisticsTransition(SetLogisticsTransitionSetup).md) | Allows you to create or modify Logistics Transitions in the database. This overload takes a setup object.   |
 | [SetLogisticsTransition(SetLogisticsTransitionSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetLogisticsTransition(SetLogisticsTransitionSetup,IDbTransaction).md) | Allows you to create or modify Logistics Transitions in the database. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 If a transition does not yet exist for the conditions and request type, a new transition is created. Otherwise, the existing transition is modified.
 

@@ -1,6 +1,6 @@
 ﻿### DeliveryFailedActivityCode Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

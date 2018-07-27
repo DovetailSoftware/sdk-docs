@@ -1,6 +1,6 @@
 ﻿### SchemaTable Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class SchemaTable
 public class SchemaTable : SchemaTableBase, FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaTable, FChoice.Foundation.Schema.ISchemaTableBase
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

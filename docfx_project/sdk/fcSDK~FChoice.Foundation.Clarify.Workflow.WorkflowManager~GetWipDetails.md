@@ -1,6 +1,6 @@
 ﻿### GetWipDetails Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

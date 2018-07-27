@@ -2,7 +2,7 @@
 
 The name of the bin to which the record will be moved. If not set or blank, no move occurs.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

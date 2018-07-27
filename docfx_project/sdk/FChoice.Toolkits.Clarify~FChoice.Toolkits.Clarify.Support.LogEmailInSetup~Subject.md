@@ -1,6 +1,6 @@
 ﻿### Subject Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

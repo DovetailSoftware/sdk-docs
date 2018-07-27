@@ -1,6 +1,6 @@
 ﻿### is_it_searchable Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

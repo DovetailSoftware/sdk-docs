@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -45,7 +45,7 @@ Returns the session's unique identifier.
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

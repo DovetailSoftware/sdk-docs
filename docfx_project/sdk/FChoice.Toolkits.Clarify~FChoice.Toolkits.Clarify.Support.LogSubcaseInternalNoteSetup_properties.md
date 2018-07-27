@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [LogSubcaseInternalNoteSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseInternalNoteSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

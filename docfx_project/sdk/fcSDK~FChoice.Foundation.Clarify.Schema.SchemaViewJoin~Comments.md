@@ -1,6 +1,6 @@
 ﻿### Comments Property (SchemaViewJoin)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

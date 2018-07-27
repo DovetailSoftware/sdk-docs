@@ -2,7 +2,7 @@
 
 The DateTime the Site Part was shipped. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

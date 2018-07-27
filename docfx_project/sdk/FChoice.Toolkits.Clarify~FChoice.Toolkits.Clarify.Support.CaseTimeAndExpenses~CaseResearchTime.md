@@ -2,7 +2,7 @@
 
 Captured research time (Case research logs only)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

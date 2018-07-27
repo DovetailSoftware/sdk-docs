@@ -1,6 +1,6 @@
 ﻿### NewStatus Property (LogCaseInternalNoteSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

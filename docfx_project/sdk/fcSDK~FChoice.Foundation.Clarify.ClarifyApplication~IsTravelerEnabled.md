@@ -2,7 +2,7 @@
 
 Gets whether or not the Clarify Traveler product is installed and enabled for this database.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### RemoveContactFromContractSetup Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class RemoveContactFromContractSetup
 public class RemoveContactFromContractSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.RemoveContactFromContractSetup**  

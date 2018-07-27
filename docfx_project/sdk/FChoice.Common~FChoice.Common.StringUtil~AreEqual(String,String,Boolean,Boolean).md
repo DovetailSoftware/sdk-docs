@@ -1,6 +1,6 @@
 ﻿### AreEqual(String,String,Boolean,Boolean) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### get_dt_fields Method (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

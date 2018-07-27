@@ -1,6 +1,6 @@
 ﻿### ConfigItemValueType Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Members
 | **String** |   |
 | **Unknown** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

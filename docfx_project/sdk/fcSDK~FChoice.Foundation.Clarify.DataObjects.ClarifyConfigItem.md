@@ -1,6 +1,6 @@
 ﻿### ClarifyConfigItem Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class ClarifyConfigItem
 public class ClarifyConfigItem : FChoice.Foundation.DataObjects.ConfigItem, FChoice.Foundation.DataObjects.IDataObject
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

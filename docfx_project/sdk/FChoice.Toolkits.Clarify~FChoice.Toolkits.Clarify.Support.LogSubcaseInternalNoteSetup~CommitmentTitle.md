@@ -1,6 +1,6 @@
 ﻿### CommitmentTitle Property (LogSubcaseInternalNoteSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

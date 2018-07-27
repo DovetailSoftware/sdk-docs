@@ -2,7 +2,7 @@
 
 Notes about the status change for the Change Request.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

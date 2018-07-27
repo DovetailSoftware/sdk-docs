@@ -1,6 +1,6 @@
 ﻿### SchemaViewCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class SchemaViewCollection
 public class SchemaViewCollection : FChoice.Foundation.DataObjects.DataObjectCollection<SchemaView>, FChoice.Foundation.Schema.ISchemaViewCollection  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  

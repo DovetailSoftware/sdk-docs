@@ -1,6 +1,6 @@
 ### Count Property (IFCList)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

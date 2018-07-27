@@ -1,6 +1,6 @@
 ﻿### AddRange Method (DataFieldNameCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

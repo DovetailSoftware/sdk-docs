@@ -1,6 +1,6 @@
 ﻿### GetAdapter Method (OleDbDataProviderBase)
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

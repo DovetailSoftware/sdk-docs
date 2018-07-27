@@ -1,6 +1,6 @@
 ﻿### GetTimeZoneObjid Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

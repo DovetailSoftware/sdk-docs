@@ -2,7 +2,7 @@
 
 Specifies whether this inventory location is active (true) or inactive (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

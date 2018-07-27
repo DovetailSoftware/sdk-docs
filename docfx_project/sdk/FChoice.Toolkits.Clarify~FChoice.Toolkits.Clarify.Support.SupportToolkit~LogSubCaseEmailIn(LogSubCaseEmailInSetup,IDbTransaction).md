@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Creates an email in log against a Subcase.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

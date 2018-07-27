@@ -1,6 +1,6 @@
 ﻿### IsOracleAscii7bit Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

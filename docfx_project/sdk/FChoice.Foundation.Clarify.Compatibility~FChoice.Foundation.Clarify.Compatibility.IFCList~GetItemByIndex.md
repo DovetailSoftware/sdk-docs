@@ -1,6 +1,6 @@
 ﻿### GetItemByIndex Method (IFCList)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

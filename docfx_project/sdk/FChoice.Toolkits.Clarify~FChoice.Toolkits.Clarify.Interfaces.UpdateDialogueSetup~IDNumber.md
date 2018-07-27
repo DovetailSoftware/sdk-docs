@@ -2,7 +2,7 @@
 
 The ID NUmber of the dialogue.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

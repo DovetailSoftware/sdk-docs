@@ -2,7 +2,7 @@
 
 The name of the Price Schedule for this line item.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

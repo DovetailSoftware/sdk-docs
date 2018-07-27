@@ -2,7 +2,7 @@
 
 Title of the WipBin being updated
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

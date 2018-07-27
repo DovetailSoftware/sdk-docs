@@ -4,7 +4,7 @@ Gets or sets data stored in a specified column.
 
 In C#, this property is the indexer for the **GenericDataRow** class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

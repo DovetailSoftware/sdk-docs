@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ISchemaViewJoin members](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

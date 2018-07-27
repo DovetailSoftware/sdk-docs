@@ -6,7 +6,7 @@ The queue into which the Opportunity is to be dispatched.
 
 Initializes a new instance of the DispatchOpportunitySetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

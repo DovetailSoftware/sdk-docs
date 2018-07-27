@@ -1,10 +1,6 @@
-﻿     FChoice.Foundation.DataObjects Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Foundation.DataObjects Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Foundation.DataObjects Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.ColumnInfo](fcSDK~FChoice.Foundation.DataObjects.ColumnInfo.md)  
@@ -55,8 +51,6 @@ System.Object
          [FChoice.Foundation.DataObjects.ConfigItemCollection](fcSDK~FChoice.Foundation.DataObjects.ConfigItemCollection.md)  
             [FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.md)  
          [FChoice.Foundation.DataObjects.RestrictionGroupCollection](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroupCollection.md)  
-
-
 
 #### Reference
 

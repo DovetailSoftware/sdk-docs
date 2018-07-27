@@ -2,7 +2,7 @@
 
 Creates a new instance of the DataAccessSectionHandler. This is usually only called by the .NET Configuration facility.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

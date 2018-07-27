@@ -1,6 +1,6 @@
 ﻿### Query(FCGeneric\[\]) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

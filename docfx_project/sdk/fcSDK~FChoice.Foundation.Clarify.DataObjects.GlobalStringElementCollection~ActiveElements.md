@@ -1,6 +1,6 @@
 ﻿### ActiveElements Property (GlobalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

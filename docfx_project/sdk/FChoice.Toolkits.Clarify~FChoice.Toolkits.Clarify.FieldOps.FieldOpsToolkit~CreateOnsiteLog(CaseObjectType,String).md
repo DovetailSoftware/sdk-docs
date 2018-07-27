@@ -4,7 +4,7 @@ Specifies whether this Onsite Log is tied to a Case or Subcase.
 
 Specifies the Id Number of this Onsite Log's Case or Subcase.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -20,7 +20,6 @@ public ToolkitResult CreateOnsiteLog(
    CaseObjectType _objectType_,
    string _objectIDNum_
 )
-```
 ```
 
 #### Parameters

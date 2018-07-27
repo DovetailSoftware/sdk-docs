@@ -1,6 +1,6 @@
 ﻿### DataObjectCollection<T> Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ Type Parameters
 
 _T_
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  

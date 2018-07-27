@@ -10,7 +10,7 @@ Public Constructors
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

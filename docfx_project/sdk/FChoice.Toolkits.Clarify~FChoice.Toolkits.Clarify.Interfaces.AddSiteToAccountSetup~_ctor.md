@@ -8,7 +8,7 @@ Name of the Site Role the Site will play for the Account.
 
 Initializes a new instance of the AddSiteToAccountSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

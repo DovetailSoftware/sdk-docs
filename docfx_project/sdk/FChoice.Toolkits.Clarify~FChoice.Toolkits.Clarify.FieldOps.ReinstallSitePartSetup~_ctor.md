@@ -6,7 +6,7 @@ The Site Id of the Site where the Site Part is being moved.
 
 Initializes a new instance of the ReinstallSitePartSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

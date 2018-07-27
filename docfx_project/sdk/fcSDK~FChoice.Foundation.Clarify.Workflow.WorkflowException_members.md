@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [WorkflowException](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowException.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

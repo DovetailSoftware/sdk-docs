@@ -1,6 +1,6 @@
 ﻿### GetAdapter() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

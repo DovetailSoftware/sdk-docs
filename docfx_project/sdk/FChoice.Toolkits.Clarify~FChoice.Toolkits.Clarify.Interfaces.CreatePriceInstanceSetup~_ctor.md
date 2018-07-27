@@ -16,7 +16,7 @@ Price of the part
 
 Initializes a new instance of the CreatePriceInstanceSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

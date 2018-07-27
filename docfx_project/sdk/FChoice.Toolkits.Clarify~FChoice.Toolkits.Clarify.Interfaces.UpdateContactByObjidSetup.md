@@ -1,6 +1,6 @@
 ﻿### UpdateContactByObjidSetup Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class UpdateContactByObjidSetup
 public class UpdateContactByObjidSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup**  

@@ -4,7 +4,7 @@ Reject-forward the Opportunity from one queue to another. This overload takes a 
 
 Reject-forward the Opportunity from one queue to another.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ForwardOpportunity(ForwardOpportunitySetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ForwardOpportunity(ForwardOpportunitySetup).md) | Reject-forward the Opportunity from one queue to another. This overload takes a setup object.   |
 | [ForwardOpportunity(ForwardOpportunitySetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~ForwardOpportunity(ForwardOpportunitySetup,IDbTransaction).md) | Reject-forward the Opportunity from one queue to another. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Opportunity must be in open condition, and not currently dispatched to a queue.
 

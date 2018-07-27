@@ -1,6 +1,6 @@
 ﻿### Operator Property (LessThanFilter)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

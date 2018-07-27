@@ -2,7 +2,7 @@
 
 Serial number of the part installed
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

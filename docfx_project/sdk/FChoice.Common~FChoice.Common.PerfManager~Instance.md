@@ -2,7 +2,7 @@
 
 Retreives a reference to the singleton instance of PerfManager
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public static PerfManager Instance {get;}
 
 A reference to the singleton instance of PerfManager
 
-Remarks
+#### Remarks
 
 Most of the methods on PerfManager are instance methods and require a reference to a specific instance. There is only one singleton instance of PerfManager available. Use this property to retrieve a reference to it.
 

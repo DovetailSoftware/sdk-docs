@@ -2,7 +2,7 @@
 
 The closed condition status for the Change Request. If not set, the default closed condition status is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### ObjectID Property (IHierarchicalStringElement)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

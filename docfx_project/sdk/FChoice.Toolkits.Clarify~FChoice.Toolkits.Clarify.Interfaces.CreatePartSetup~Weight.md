@@ -2,7 +2,7 @@
 
 Unit weight of the part
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### IsStateExpired Method (MsSqlStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

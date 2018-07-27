@@ -4,7 +4,7 @@ Identifier of the Case being unrelated from its parent Case.
 
 Unrelates the specified Case from the current parent Case. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

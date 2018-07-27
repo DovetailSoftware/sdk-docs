@@ -4,7 +4,7 @@ The desired name for the parameter
 
 Gets a unique parameter name among all the parameters for all the queries in this batch based off a suggested base name
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

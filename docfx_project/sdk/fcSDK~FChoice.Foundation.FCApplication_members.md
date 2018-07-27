@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [FCApplication](fcSDK~FChoice.Foundation.FCApplication.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -10,7 +10,7 @@ Public Fields
 
 
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

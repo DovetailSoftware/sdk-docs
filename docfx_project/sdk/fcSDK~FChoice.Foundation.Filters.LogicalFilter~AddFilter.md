@@ -4,7 +4,7 @@ Input filter to the grouping
 
 This method is called to add a filter to a logical grouping
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

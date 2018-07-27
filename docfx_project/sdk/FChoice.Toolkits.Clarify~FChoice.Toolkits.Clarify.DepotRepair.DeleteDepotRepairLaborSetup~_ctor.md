@@ -4,7 +4,7 @@ The objid of the time log object to be deleted
 
 Initializes a new instance of the DeleteDepotRepairLaborSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

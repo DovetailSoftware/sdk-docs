@@ -10,7 +10,7 @@ Duration of the Interaction
 
 Creates an Interaction in Clarify. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -57,7 +57,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the Interaction.
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the Interaction.
 
-Remarks
+#### Remarks
 
 An interaction stores information on communications with Contacts.
 

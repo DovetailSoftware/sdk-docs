@@ -1,6 +1,6 @@
 ﻿### LogCaseInternalPhone(LogCaseInternalPhoneSetup) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

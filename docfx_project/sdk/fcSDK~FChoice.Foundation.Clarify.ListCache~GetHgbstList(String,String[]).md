@@ -4,7 +4,7 @@ The title of the user-defined list (HGBST)
 
 An optional list of element titles specifying the level in the user-defined list to retrieve
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

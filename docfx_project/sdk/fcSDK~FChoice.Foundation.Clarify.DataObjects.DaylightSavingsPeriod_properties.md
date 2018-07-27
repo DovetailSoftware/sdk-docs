@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [DaylightSavingsPeriod members](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

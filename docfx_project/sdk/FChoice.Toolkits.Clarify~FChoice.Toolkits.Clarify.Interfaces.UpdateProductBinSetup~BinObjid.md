@@ -2,7 +2,7 @@
 
 Objid of the Bin to be updated
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

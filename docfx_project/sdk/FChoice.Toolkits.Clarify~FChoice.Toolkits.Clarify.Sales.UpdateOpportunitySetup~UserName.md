@@ -2,7 +2,7 @@
 
 The user who is updating the opportunity. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

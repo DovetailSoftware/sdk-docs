@@ -1,6 +1,6 @@
 ﻿### StartsWith(String,String,Boolean,CultureInfo) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

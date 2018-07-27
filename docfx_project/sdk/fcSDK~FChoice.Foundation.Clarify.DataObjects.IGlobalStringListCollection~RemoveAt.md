@@ -1,6 +1,6 @@
 ﻿### RemoveAt Method (IGlobalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

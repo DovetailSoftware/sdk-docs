@@ -2,7 +2,7 @@
 
 Notes about the Change Request. If not set, no notes are logged.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

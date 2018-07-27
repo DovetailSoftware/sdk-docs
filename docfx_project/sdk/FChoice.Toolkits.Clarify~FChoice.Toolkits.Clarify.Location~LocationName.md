@@ -1,6 +1,6 @@
 ﻿### LocationName Property (Location)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

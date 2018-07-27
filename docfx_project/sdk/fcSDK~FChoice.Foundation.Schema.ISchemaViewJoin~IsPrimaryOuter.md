@@ -1,6 +1,6 @@
 ﻿### IsPrimaryOuter Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

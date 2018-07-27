@@ -1,10 +1,6 @@
-﻿     FChoice.Toolkits.Clarify.Support Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Toolkits.Clarify.Support Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify.Support Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.Support.AcceptCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptCaseSetup.md)  

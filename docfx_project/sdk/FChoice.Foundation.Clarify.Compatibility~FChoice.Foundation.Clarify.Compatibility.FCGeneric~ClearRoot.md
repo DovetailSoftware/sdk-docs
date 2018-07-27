@@ -1,6 +1,6 @@
 ﻿### ClearRoot Method (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

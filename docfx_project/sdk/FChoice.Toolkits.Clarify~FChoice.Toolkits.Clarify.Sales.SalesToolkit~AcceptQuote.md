@@ -4,7 +4,7 @@ Accept the specified Quote from the queue in which it is currently dispatched. T
 
 Accept the specified Quote from the queue in which it is currently dispatched.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AcceptQuote(AcceptQuoteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AcceptQuote(AcceptQuoteSetup).md) | Accept the specified Quote from the queue in which it is currently dispatched. This overload takes a setup object.   |
 | [AcceptQuote(AcceptQuoteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AcceptQuote(AcceptQuoteSetup,IDbTransaction).md) | Accept the specified Quote from the queue in which it is currently dispatched. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Quote must be currently dispatched to a queue.
 

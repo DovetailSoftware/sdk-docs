@@ -1,6 +1,6 @@
 ﻿### GetLocationsServicingSiteResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

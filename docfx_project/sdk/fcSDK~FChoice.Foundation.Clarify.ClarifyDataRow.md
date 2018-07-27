@@ -1,6 +1,6 @@
 ﻿### ClarifyDataRow Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class ClarifyDataRow
 public class ClarifyDataRow : FChoice.Foundation.GenericDataRow
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Data.DataRow](#)  

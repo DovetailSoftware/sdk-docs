@@ -1,6 +1,6 @@
 ﻿### RestrictedFields Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

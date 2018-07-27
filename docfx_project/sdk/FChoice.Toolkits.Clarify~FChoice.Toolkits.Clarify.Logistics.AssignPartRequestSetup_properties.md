@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [AssignPartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

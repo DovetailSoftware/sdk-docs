@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [LinkCRToSolutionSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCRToSolutionSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

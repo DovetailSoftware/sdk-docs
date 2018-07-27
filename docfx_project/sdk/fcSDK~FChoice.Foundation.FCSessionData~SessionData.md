@@ -2,7 +2,7 @@
 
 CRM configurable session data populates this property during [CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

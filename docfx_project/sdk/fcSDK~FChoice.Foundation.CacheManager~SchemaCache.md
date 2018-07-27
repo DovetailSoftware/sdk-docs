@@ -1,6 +1,6 @@
 ﻿### SchemaCache Property (CacheManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

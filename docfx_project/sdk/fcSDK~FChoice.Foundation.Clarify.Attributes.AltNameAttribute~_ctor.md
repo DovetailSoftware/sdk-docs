@@ -1,6 +1,6 @@
 ﻿### AltNameAttribute Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

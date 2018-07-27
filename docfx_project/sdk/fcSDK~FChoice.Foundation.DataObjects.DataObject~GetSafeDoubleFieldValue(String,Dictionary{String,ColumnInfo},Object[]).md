@@ -1,6 +1,6 @@
 ﻿### GetSafeDoubleFieldValue(String,Dictionary<String,ColumnInfo>,Object\[\]) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

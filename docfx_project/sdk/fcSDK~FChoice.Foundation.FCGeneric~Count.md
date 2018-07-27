@@ -2,7 +2,7 @@
 
 Returns the number of rows currently populated by the [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) or [AddNew](/sdk/fcSDK~FChoice.Foundation.FCGeneric~AddNew.md) methods.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public int Count {get;}
 
 Returns the number of rows currently populated by the [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) or [AddNew](/sdk/fcSDK~FChoice.Foundation.FCGeneric~AddNew.md) methods.
 
-Remarks
+#### Remarks
 
 This value is the same as calling [Rows.Count](fcSDK~FChoice.Foundation.GenericDataTable~Count.md)
 

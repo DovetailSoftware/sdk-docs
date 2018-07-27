@@ -1,6 +1,6 @@
 ﻿### Tables Property (ISchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

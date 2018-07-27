@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [SchemaCacheHelper](fcSDK~FChoice.Foundation.Clarify.SchemaCacheHelper.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

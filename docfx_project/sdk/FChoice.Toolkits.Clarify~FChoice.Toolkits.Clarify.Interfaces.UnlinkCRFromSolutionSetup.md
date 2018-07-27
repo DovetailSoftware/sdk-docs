@@ -2,7 +2,7 @@
 
 Used by the [UnlinkCRFromSolution](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~UnlinkCRFromSolution(UnlinkCRFromSolutionSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UnlinkCRFromSolutionSetup
 public class UnlinkCRFromSolutionSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.UnlinkCRFromSolutionSetup**  

@@ -1,6 +1,6 @@
 ﻿### CreateConnectionString Method (OracleProviderBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

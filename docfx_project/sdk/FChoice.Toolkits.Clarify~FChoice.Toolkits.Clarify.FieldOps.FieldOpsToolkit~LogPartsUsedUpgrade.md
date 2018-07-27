@@ -4,7 +4,7 @@ Used to upgrade an existing site part with a new site part. This overload takes 
 
 Used to upgrade an existing site part with a new site part.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -15,7 +15,7 @@ Overload List
 | [LogPartsUsedUpgrade(LogPartsUsedUpgradeSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedUpgrade(LogPartsUsedUpgradeSetup).md) |   |
 | [LogPartsUsedUpgrade(LogPartsUsedUpgradeSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedUpgrade(LogPartsUsedUpgradeSetup,IDbTransaction).md) | Used to upgrade an existing site part with a new site part. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 Each log parts used transaction must be related to either a case or a part request detail. If it is related to both, the part request detail must be linked to the case.
 

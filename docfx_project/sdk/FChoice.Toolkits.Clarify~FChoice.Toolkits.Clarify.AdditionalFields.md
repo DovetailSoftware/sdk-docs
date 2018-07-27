@@ -2,7 +2,7 @@
 
 Many APIs exposes an instance of this class which is used to allow setting of user defined fields ('x_fields') in a customized Clarify environment. It is also possible to override the fields that are set by the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public class AdditionalFields
 
 To set an additional field simply call the [Append](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields~Append.md) method on the API's AdditionalField property.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.AdditionalFields**  

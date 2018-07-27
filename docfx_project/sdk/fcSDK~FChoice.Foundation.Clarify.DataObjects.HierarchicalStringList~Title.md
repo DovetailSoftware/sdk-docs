@@ -1,6 +1,6 @@
 ﻿### Title Property (HierarchicalStringList)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

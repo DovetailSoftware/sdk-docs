@@ -1,6 +1,6 @@
 ﻿### Table Property (SchemaTableField)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The Invoice Number for the Site Part
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -8,7 +8,7 @@ The filter is being applied against this value.
 
 Adds a filter to constrain the results of an **FCGeneric** Query against a numeric DataField.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

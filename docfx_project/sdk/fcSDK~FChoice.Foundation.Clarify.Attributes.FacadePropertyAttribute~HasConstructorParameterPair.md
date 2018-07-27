@@ -1,6 +1,6 @@
 ﻿### HasConstructorParameterPair Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Used by the [UpdateExpenseLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~UpdateExpenseLog(UpdateExpenseLogSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UpdateExpenseLogSetup
 public class UpdateExpenseLogSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.UpdateExpenseLogSetup**  

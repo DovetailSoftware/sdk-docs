@@ -2,7 +2,7 @@
 
 Filter field on yesterday's date
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

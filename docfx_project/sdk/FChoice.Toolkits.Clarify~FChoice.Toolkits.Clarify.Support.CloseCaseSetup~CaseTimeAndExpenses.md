@@ -2,7 +2,7 @@
 
 Object containing sums information for the case closing.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

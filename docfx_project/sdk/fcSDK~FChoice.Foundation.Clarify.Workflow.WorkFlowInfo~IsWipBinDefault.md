@@ -1,6 +1,6 @@
 ﻿### IsWipBinDefault Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

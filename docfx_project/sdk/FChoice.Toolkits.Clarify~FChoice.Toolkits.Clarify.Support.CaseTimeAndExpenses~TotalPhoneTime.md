@@ -2,7 +2,7 @@
 
 Total phone time (closed Subcase and phone log for the Case)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

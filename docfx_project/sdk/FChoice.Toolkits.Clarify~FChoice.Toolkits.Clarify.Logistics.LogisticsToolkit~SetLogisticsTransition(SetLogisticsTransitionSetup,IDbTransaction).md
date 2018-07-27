@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Allows you to create or modify Logistics Transitions in the database. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ Database transaction under which the API will be invoked.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 If a transition does not yet exist for the conditions and request type, a new transition is created. Otherwise, the existing transition is modified.
 

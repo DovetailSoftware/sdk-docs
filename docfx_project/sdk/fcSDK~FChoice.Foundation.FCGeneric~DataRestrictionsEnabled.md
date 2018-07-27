@@ -2,7 +2,7 @@
 
 Sets whether or not this **FCGeneric** will have the DataRestrictions feature enabled if available.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public bool DataRestrictionsEnabled {get; set;}
 
 Returns whether or not this **FCGeneric** will have the DataRestrictions feature enabled if available.
 
-Remarks
+#### Remarks
 
 Setting this value to **true** will only work if the DataRestriction support schema is present. Setting this value to **false** will disable DataRestriction support.
 

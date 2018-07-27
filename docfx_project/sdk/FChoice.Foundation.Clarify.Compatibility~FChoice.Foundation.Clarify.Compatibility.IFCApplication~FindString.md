@@ -1,6 +1,6 @@
 ﻿### FindString Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

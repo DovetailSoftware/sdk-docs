@@ -2,7 +2,7 @@
 
 Gets the unique error code for this exception.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public int ErrorCode {get;}
 
 A unique integer that identifies this exception instance.
 
-Remarks
+#### Remarks
 
 **Note to implementors**:
 

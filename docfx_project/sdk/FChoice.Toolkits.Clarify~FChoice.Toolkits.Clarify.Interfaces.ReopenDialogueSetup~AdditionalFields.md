@@ -1,6 +1,6 @@
 ﻿### AdditionalFields Property (ReopenDialogueSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

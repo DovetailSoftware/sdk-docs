@@ -2,7 +2,7 @@
 
 Creates a new instance of a query batch using the specified transaction and optional provider
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

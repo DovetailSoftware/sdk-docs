@@ -1,6 +1,6 @@
 ﻿### ClarifyDataTable Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class ClarifyDataTable
 public class ClarifyDataTable : FChoice.Foundation.GenericDataTable
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.ComponentModel.MarshalByValueComponent](#)  

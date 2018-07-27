@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Creates a new Subcase. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,6 @@ Public Overloads Function CreateSubcase( _
 public ToolkitResult CreateSubcase( 
    CreateSubcaseSetup _setupParam_
 )
-```
 ```
 
 #### Parameters

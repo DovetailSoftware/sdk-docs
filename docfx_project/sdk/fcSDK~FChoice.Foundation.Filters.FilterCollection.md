@@ -2,7 +2,7 @@
 
 Holds one or more filters. This collection is used by filters that allow children such as [OrFilter](fcSDK~FChoice.Foundation.Filters.OrFilter.md) and [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ public class FilterCollection : System.Collections.ObjectModel.Collection<Filter
 
 [**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.ObjectModel.Collection<T>](#)  

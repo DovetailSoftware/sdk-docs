@@ -4,7 +4,7 @@ Objid of the Address to be updated
 
 Initializes a new instance of the UpdateAddressSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -6,7 +6,7 @@ The new WipBin into which the Case is to be moved.
 
 Initializes a new instance of the MoveCaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

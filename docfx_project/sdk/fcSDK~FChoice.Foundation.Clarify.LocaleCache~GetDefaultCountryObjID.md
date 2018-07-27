@@ -1,6 +1,6 @@
 ﻿### GetDefaultCountryObjID Method (LocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

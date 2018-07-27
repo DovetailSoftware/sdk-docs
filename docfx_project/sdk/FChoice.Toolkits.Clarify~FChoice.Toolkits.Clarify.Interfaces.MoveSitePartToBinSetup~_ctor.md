@@ -6,7 +6,7 @@ Objid of the Bin to place the Site Part into
 
 Initializes a new instance of the MoveSitePartToBinSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

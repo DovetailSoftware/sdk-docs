@@ -1,6 +1,6 @@
 ﻿### Item(Int32) Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,6 +14,7 @@ Overloads Property Item( _
 IGlobalStringList Item( 
    int _index_
 ) {get; set;}
+```
 
 #### Parameters
 

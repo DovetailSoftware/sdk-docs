@@ -1,6 +1,6 @@
 ﻿### GetDefaultTimeZoneObjID Method (LocaleCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

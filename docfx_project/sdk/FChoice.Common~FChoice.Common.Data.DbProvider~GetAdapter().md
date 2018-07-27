@@ -2,7 +2,7 @@
 
 Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL) without any options set yet.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

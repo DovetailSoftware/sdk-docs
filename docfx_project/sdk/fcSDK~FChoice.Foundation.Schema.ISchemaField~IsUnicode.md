@@ -1,6 +1,6 @@
 ﻿### IsUnicode Property (ISchemaField)
 
-Syntax
+#### Syntax
 
 ```vbnet
 As Boolean

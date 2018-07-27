@@ -2,7 +2,7 @@
 
 Element from the 'Quote Status' application list. If not set, the default status for the Active Contract condition is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

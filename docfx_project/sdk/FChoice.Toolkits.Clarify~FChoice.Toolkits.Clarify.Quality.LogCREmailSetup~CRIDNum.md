@@ -2,7 +2,7 @@
 
 Identifier of the CR being logged.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

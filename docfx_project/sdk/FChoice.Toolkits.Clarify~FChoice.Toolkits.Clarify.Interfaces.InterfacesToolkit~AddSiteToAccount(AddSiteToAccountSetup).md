@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Adds a Site to an existing Account specifying the Site's role in the account. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Name of the price program
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

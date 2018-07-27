@@ -2,7 +2,7 @@
 
 FCArgumentException is used to signify that parameters passed into APIs are invalid. It has several static (**Shared** in Visual Basic) methods that make handling required parameters easier.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,11 +17,11 @@ Public Class FCArgumentException
 public class FCArgumentException : CommonException 
 ```
 
-Remarks
+#### Remarks
 
 Please see the three main static (**Shared** in Visual Basic) on this class for information on how to help protect your APIs against invalid input data: [CheckIndexBounds](FChoice.Common~FChoice.Common.FCArgumentException~CheckIndexBounds.md), [CheckIsEmpty](FChoice.Common~FChoice.Common.FCArgumentException~CheckIsEmpty.md), [CheckIsNull](FChoice.Common~FChoice.Common.FCArgumentException~CheckIsNull.md).
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.Exception  

@@ -2,7 +2,7 @@
 
 Valid string filtering operations for methods such as [AppendFilter](fcSDK~FChoice.Foundation.FCGeneric~AppendFilter(String,StringOps,String).md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -36,7 +36,7 @@ Members
 | **SoundsLike** | Return rows where the selected field sounds like the given string. |
 | **StartsWith** | Return rows where the selected field starts with the given string. |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

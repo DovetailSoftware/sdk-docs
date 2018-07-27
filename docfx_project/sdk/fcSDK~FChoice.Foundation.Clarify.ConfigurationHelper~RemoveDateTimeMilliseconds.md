@@ -1,6 +1,6 @@
 ﻿### RemoveDateTimeMilliseconds Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

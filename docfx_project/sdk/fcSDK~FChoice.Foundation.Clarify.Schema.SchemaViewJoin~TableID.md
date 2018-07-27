@@ -1,6 +1,6 @@
 ﻿### TableID Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

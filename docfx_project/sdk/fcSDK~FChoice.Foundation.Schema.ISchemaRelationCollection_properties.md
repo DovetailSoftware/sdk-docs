@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ISchemaRelationCollection members](fcSDK~FChoice.Foundation.Schema.ISchemaRelationCollection_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

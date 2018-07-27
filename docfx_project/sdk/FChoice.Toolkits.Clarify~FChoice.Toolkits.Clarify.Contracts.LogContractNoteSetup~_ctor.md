@@ -6,7 +6,7 @@ The notes being logged to the Contract.
 
 Initializes a new instance of the LogContractNoteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

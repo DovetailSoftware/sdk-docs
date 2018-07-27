@@ -4,7 +4,7 @@ Replicate a CR. This overload takes a set of required parameters for the API.
 
 Replicate a CR.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ReplicateCR(ReplicateCRSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ReplicateCR(ReplicateCRSetup).md) | Replicate a CR. This overload takes a setup object.   |
 | [ReplicateCR(ReplicateCRSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~ReplicateCR(ReplicateCRSetup,IDbTransaction).md) | Replicate a CR. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The new CR is an exact copy of the original with the following exceptions:
 

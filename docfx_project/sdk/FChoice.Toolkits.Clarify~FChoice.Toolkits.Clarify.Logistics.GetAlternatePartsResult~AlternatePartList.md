@@ -2,7 +2,7 @@
 
 An array of Alternate Part objid's.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

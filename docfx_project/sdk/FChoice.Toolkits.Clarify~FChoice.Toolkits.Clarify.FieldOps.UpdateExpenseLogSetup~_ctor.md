@@ -8,7 +8,7 @@ The billing rate per unit. If no rate is specified, the labor rate of the perfo
 
 Initializes a new instance of the UpdateExpenseLogSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

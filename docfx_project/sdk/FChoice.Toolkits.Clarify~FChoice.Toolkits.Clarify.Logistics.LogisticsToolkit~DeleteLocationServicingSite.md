@@ -4,7 +4,7 @@ Used to remove the relationship between a site and a location servicing it. This
 
 Used to remove the relationship between a site and a location servicing it.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [DeleteLocationServicingSite(DeleteLocationServicingSiteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteLocationServicingSite(DeleteLocationServicingSiteSetup).md) | Used to remove the relationship between a site and a location servicing it. This overload takes a setup object.   |
 | [DeleteLocationServicingSite(DeleteLocationServicingSiteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteLocationServicingSite(DeleteLocationServicingSiteSetup,IDbTransaction).md) | Used to remove the relationship between a site and a location servicing it. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 As a result of a call to this API, all of the other locations that service this site will have their ranks changed as necessary.
 

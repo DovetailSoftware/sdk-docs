@@ -2,7 +2,7 @@
 
 Objid of SitePart for the Case.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Property SitePartObjid As Integer
 public int SitePartObjid {get; set;}
 ```
 
-Remarks
+#### Remarks
 
 If set, [PartNumber](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseSetup~PartNumber.md), [PartDomain](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseSetup~PartDomain.md), and [PartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseSetup~PartRevision.md) properties are ignored.
 

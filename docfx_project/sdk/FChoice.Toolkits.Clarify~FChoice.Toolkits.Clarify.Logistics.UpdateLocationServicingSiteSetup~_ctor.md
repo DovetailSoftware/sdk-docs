@@ -8,7 +8,7 @@ The rank of this inventory location at the associated site
 
 Initializes a new instance of the UpdateLocationServicingSiteSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

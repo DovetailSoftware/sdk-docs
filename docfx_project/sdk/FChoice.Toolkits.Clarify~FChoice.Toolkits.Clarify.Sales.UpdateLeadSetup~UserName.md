@@ -2,7 +2,7 @@
 
 The user who is updating the lead. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

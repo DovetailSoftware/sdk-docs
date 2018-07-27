@@ -2,7 +2,7 @@
 
 The Priority of the dialogue.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

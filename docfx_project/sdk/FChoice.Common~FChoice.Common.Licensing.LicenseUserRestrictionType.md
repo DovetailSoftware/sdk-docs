@@ -1,6 +1,6 @@
 ﻿### LicenseUserRestrictionType Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -20,7 +20,7 @@ Members
 | **ConcurrentUsers** |   |
 | **None** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

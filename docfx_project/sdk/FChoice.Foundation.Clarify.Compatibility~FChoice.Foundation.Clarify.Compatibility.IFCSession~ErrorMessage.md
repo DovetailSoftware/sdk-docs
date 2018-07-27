@@ -1,6 +1,6 @@
 ﻿### ErrorMessage Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

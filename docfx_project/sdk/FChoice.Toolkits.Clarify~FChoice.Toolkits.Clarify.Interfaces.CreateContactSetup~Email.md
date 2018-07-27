@@ -2,7 +2,7 @@
 
 Contact email address
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

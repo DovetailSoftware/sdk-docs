@@ -1,6 +1,6 @@
 ﻿### AsReadOnly Method (IHierarchicalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

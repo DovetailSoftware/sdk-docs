@@ -1,6 +1,6 @@
 ### get_next_sn Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,10 +1,6 @@
-﻿     GetSafeBooleanFieldValue(String,Dictionary<String,ColumnInfo>,Object\[\]) Method                                                   
+﻿### GetSafeBooleanFieldValue(String,Dictionary<String,ColumnInfo>,Object\[\]) Method
 
-fcSDK Documentation
-
-GetSafeBooleanFieldValue(String,Dictionary<String,ColumnInfo>,Object\[\]) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

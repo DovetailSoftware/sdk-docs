@@ -1,6 +1,6 @@
 ﻿### DecimalNumber Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

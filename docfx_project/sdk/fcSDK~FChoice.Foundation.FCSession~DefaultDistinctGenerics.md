@@ -2,7 +2,7 @@
 
 Sets whether or not newly created generic objects will have IsDistinct set to include all relation data fields during [Queries](fcSDK~FChoice.Foundation.FCGeneric~Query.md).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

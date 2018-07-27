@@ -2,7 +2,7 @@
 
 The title of the Price Program for this Price Instance. If blank then "US Std Price List" will be used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

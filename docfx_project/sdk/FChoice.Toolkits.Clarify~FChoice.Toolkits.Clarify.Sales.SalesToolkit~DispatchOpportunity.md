@@ -4,7 +4,7 @@ Dispatch the Opportunity to the specified queue. This overload takes a set of re
 
 Dispatch the Opportunity to the specified queue.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [DispatchOpportunity(DispatchOpportunitySetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~DispatchOpportunity(DispatchOpportunitySetup).md) | Dispatch the Opportunity to the specified queue. This overload takes a setup object.   |
 | [DispatchOpportunity(DispatchOpportunitySetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~DispatchOpportunity(DispatchOpportunitySetup,IDbTransaction).md) | Dispatch the Opportunity to the specified queue. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Opportunity must be in open condition, and not currently dispatched to a queue.
 

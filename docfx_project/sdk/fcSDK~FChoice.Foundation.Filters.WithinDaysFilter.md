@@ -2,7 +2,7 @@
 
 Filter field on dates that have occurred within a number of days
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ public class WithinDaysFilter : BetweenFilter
 
 [**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  

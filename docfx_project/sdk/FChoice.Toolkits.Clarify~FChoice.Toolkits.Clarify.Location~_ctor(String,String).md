@@ -1,6 +1,6 @@
 ﻿### Location Constructor(String,String)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

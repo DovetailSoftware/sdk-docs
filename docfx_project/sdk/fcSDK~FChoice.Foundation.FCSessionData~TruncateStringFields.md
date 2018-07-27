@@ -2,7 +2,7 @@
 
 Session option that cues [Generics](fcSDK~FChoice.Foundation.FCGeneric.md) to truncate strings that exceed database field lengths when assigned to a [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow~Item.md)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

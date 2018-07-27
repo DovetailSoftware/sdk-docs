@@ -1,6 +1,6 @@
 ﻿### GetAlternatePartsResult Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -16,7 +16,7 @@ How many of the Child Part Revisions are in the Parent Part Revision.
 
 Initializes a new instance of the CreateBOMSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### TimeStampFieldName Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

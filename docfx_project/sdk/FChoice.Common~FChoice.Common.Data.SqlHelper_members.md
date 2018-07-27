@@ -8,13 +8,13 @@ Public Constructors
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [SqlHelper Constructor](FChoice.Common~FChoice.Common.Data.SqlHelper~_ctor.md) | Overloaded.    |
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Field](dotnetimages/publicField.png) | [IN_LIST_TOKEN](FChoice.Common~FChoice.Common.Data.SqlHelper~IN_LIST_TOKEN.md) |   |
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -28,7 +28,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

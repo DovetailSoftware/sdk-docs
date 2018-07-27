@@ -1,6 +1,6 @@
 ﻿### GetConnection(String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The type of price being created.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

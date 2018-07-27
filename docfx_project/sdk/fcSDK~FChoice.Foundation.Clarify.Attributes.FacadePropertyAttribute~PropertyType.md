@@ -1,6 +1,6 @@
 ﻿### PropertyType Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

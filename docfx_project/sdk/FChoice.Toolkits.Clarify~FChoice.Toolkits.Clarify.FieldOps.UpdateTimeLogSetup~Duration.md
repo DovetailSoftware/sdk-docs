@@ -2,7 +2,7 @@
 
 The length (in seconds) of the Time Log. If not specified, it is calculated from the start and end times.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

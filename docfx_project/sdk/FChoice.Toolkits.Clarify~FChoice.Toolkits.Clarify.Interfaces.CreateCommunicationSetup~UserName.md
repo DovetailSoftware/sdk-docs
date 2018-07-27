@@ -2,7 +2,7 @@
 
 The Login Name of user creating the communication.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Every Toolkit API method will return this class or one derived from it as their result.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class ToolkitResult
 public class ToolkitResult 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 **FChoice.Toolkits.Clarify.ToolkitResult**  

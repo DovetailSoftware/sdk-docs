@@ -2,7 +2,7 @@
 
 Name of the currency for the Opportunity.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

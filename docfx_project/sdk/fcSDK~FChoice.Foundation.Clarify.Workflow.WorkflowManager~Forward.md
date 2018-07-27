@@ -1,6 +1,6 @@
 ﻿### Forward Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

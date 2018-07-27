@@ -1,6 +1,6 @@
 ﻿### LessThan(String,DateTime) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

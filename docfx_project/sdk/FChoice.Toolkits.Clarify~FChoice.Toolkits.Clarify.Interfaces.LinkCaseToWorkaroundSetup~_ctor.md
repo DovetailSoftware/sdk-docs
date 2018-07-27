@@ -6,7 +6,7 @@ Objid of the Workaround the Case will be linked to
 
 Initializes a new instance of the LinkCaseToWorkaroundSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

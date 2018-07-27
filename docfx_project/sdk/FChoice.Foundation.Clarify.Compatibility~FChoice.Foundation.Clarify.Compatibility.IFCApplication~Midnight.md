@@ -1,6 +1,6 @@
 ﻿### Midnight Property (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

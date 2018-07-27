@@ -2,7 +2,7 @@
 
 The number of units that are being applied to the Onsite Log.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

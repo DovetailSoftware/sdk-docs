@@ -4,7 +4,7 @@ Adding a file Module to a Fixed CR. This overload takes a set of required parame
 
 Adding a file Module to a Fixed CR.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AddModuleToCR(AddModuleToCRSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~AddModuleToCR(AddModuleToCRSetup).md) | Adding a file Module to a Fixed CR. This overload takes a setup object.   |
 | [AddModuleToCR(AddModuleToCRSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~AddModuleToCR(AddModuleToCRSetup,IDbTransaction).md) | Adding a file Module to a Fixed CR. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 There is no integration between this API and your change control system so no validation is possible for the Module [filename](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup~FileName.md) or [revision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup~FileRevision.md).
 

@@ -2,7 +2,7 @@
 
 Stock symbol for the Account.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

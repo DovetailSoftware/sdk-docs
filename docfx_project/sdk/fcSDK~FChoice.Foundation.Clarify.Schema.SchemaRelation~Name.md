@@ -1,6 +1,6 @@
 ﻿### Name Property (SchemaRelation)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

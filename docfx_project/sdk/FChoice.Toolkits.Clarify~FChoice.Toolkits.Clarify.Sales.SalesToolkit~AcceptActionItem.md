@@ -4,7 +4,7 @@ Accept the specified ActionItem from the queue in which it is currently dispatch
 
 Accept the specified ActionItem from the queue in which it is currently dispatched.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AcceptActionItem(AcceptActionItemSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AcceptActionItem(AcceptActionItemSetup).md) | Accept the specified ActionItem from the queue in which it is currently dispatched. This overload takes a setup object.   |
 | [AcceptActionItem(AcceptActionItemSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~AcceptActionItem(AcceptActionItemSetup,IDbTransaction).md) | Accept the specified ActionItem from the queue in which it is currently dispatched. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The ActionItem must be currently dispatched to a queue.
 

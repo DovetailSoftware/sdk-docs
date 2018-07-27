@@ -1,6 +1,6 @@
 ﻿### Description Property (ISchemaRelation)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

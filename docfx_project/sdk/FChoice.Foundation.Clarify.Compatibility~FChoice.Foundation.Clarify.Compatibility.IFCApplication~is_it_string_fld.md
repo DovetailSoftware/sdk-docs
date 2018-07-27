@@ -1,6 +1,6 @@
 ﻿### is_it_string_fld Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

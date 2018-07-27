@@ -2,7 +2,7 @@
 
 Filter on strings that end with the input to this filter
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

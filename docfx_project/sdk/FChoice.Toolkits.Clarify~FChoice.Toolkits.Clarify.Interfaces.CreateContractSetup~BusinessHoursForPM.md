@@ -2,7 +2,7 @@
 
 Specific hours when preventive maintainence is allowed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

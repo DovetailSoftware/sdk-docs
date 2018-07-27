@@ -2,7 +2,7 @@
 
 Gets or sets whether or not to truncate string values if they are too large for the field or throw an error
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public bool TruncateStringFields {get; set;}
 
 Whether or not to truncate string values if they are too large for the field or throw an error
 
-Remarks
+#### Remarks
 
 When setting a string value to a string field using [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md), this property will determine what to do if the value specified is longer than the allowable length for the field.
 

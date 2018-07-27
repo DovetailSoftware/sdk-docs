@@ -4,7 +4,7 @@ Adds a specialized filter to constrain the results of an **FCGeneric** [Query](f
 
 Adds a specialized filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) to be between two values.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AppendFilterBetween(String,Boolean,Decimal,Decimal)](fcSDK~FChoice.Foundation.FCGeneric~AppendFilterBetween(String,Boolean,Decimal,Decimal).md) | Adds a specialized filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) to be between two Decimal values.   |
 | [AppendFilterBetween(String,Boolean,DateTime,DateTime)](fcSDK~FChoice.Foundation.FCGeneric~AppendFilterBetween(String,Boolean,DateTime,DateTime).md) | Adds a specialized filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) to be between two DateTime values.   |
 
-Remarks
+#### Remarks
 
 Filters are a powerful feature that make it easy to limit the rows returned by a [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md). You may call filter methods multiple times resulting in each successive filter further constraining the rows returned.
 

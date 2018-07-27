@@ -1,6 +1,6 @@
 ﻿### FindLastIndex(Int32,Int32,Predicate<IGlobalStringList>) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

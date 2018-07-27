@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [LogEmailInSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -6,7 +6,7 @@ The new user which the lead is assigned to.
 
 Initializes a new instance of the AssignLeadSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

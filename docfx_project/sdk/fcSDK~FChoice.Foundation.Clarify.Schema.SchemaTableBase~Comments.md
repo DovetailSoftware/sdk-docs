@@ -1,6 +1,6 @@
 ﻿### Comments Property (SchemaTableBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

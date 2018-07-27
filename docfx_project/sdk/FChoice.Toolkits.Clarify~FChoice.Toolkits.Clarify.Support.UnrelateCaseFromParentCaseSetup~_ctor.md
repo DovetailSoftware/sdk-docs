@@ -4,7 +4,7 @@ Identifier of the Case being unrelated from its parent Case.
 
 Initializes a new instance of the UnrelateCaseFromParentCaseSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

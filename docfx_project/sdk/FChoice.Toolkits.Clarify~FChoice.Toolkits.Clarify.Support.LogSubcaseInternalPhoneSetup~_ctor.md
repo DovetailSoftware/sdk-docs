@@ -1,6 +1,6 @@
 ﻿### LogSubcaseInternalPhoneSetup Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

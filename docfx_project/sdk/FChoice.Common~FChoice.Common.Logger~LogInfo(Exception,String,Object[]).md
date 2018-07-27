@@ -8,7 +8,7 @@ Arguments to use in replacing variables in the **_format_** string.
 
 Writes a INFO-level log entry if INFO-level logging is enabled as well as the details of an exception that was caught.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -42,7 +42,7 @@ _args_
 
 Arguments to use in replacing variables in the **_format_** string.
 
-Remarks
+#### Remarks
 
 If the current logger is not configured for INFO-level logging or lower, this method will do nothing.
 

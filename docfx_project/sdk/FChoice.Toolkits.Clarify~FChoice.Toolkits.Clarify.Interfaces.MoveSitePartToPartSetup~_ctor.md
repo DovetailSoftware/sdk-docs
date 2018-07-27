@@ -6,7 +6,7 @@ Objid of the parent Site Part this [Site Part](FChoice.Toolkits.Clarify~FChoice.
 
 Initializes a new instance of the MoveSitePartToPartSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

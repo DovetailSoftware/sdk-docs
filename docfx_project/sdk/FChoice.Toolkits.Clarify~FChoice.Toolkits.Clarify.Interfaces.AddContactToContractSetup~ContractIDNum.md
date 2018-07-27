@@ -2,7 +2,7 @@
 
 Identifies to which Contract the Contact will be added.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -55,7 +55,7 @@ Enumerations
 | ![Enumeration](dotnetimages/Enumeration.png) | [InitStatusChangeType](fcSDK~FChoice.Foundation.Clarify.InitStatusChangeType.md) |   |
 | ![Enumeration](dotnetimages/Enumeration.png) | [SchemaLoadStatusType](fcSDK~FChoice.Foundation.Clarify.SchemaLoadStatusType.md) |   |
 
-Remarks
+#### Remarks
 
 To get started using **FCFL.NET** and the **FChoice.Foundation.Clarify** assembly read the Getting Started guide or the class documentation for [ClarifyApplication](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md).
 

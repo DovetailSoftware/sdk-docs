@@ -6,7 +6,7 @@ The identifier of the Site with which the account is to be associated
 
 Used to add expense and capital GL accounts to Clarify. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

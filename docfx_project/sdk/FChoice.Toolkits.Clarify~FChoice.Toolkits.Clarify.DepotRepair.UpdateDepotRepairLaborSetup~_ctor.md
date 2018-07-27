@@ -4,7 +4,7 @@ The objid of the time log object to be updated
 
 Initializes a new instance of the UpdateDepotRepairLaborSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

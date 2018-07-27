@@ -1,6 +1,6 @@
 ﻿### MaximumRowsExceededEventArgs Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ The stream from which to read the [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpr
 
 Reads a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm) from a binary stream
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The stream from which to read the [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpr
 
 A populated [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm), or null (**Nothing** in Visual Basic) if the stream was invalid or written using an older version of [DataSetSurrogate](FChoice.Common~FChoice.Common.Data.DataSetSurrogate.md)
 
-Remarks
+#### Remarks
 
 The binary stream must have been written using the [WriteBinary](FChoice.Common~FChoice.Common.Data.DataSetSurrogate~WriteBinary.md) method as it uses a specific binary encoding scheme.
 

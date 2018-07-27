@@ -1,6 +1,6 @@
 ﻿### ProviderName Property (OracleProviderBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

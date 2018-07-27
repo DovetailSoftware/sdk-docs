@@ -1,6 +1,6 @@
 ﻿### DataFieldNameCollection Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public Class DataFieldNameCollection
 public class DataFieldNameCollection : ValidatedNameCollection
 ``` 
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.ValidatedNameCollection](fcSDK~FChoice.Foundation.ValidatedNameCollection.md)  

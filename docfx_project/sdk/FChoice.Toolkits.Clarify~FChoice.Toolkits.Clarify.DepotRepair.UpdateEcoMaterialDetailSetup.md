@@ -2,7 +2,7 @@
 
 Used by the [UpdateEcoMaterialDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit~UpdateEcoMaterialDetail(UpdateEcoMaterialDetailSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UpdateEcoMaterialDetailSetup
 public class UpdateEcoMaterialDetailSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoMaterialDetailSetup**  

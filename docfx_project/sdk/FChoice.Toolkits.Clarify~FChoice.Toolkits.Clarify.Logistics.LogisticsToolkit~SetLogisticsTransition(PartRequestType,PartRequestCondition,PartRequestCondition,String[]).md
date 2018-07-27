@@ -10,7 +10,7 @@ An array of Strings which are the names of the privilege classes allowed to perf
 
 Allows you to create or modify Logistics Transitions in the database. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -54,7 +54,7 @@ An array of Strings which are the names of the privilege classes allowed to perf
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 If a transition does not yet exist for the conditions and request type, a new transition is created. Otherwise, the existing transition is modified.
 

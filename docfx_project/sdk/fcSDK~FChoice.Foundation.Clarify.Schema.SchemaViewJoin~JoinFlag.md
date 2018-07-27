@@ -1,6 +1,6 @@
 ﻿### JoinFlag Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

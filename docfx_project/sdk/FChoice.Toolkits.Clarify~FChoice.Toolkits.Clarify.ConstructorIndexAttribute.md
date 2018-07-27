@@ -1,6 +1,6 @@
 ﻿### ConstructorIndexAttribute Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ Public Class ConstructorIndexAttribute
 public class ConstructorIndexAttribute : System.Attribute
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.Attribute  

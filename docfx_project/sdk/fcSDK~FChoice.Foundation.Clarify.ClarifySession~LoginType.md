@@ -2,7 +2,7 @@
 
 Gets the login type used when the session user was logged in
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

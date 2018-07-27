@@ -2,7 +2,7 @@
 
 Serial number of the SitePart for the Case (if there is one).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

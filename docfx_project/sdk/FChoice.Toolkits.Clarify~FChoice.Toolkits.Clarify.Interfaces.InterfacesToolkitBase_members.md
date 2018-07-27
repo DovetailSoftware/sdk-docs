@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [InterfacesToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

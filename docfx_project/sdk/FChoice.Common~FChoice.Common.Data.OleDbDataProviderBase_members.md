@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [OleDbDataProviderBase](FChoice.Common~FChoice.Common.Data.OleDbDataProviderBase.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

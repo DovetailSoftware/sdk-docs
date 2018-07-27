@@ -1,6 +1,6 @@
 ﻿### ApplicationClock Property (QualityToolkit)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### SetupExpression Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The Objid of the Parent Site Bin where the Site Part is being installed.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

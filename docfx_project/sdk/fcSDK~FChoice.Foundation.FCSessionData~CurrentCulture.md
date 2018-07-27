@@ -2,7 +2,7 @@
 
 The Culture being used by the session.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

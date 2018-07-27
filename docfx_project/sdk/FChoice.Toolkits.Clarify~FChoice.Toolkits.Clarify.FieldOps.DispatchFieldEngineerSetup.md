@@ -2,7 +2,7 @@
 
 Used by the [DispatchFieldEngineer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~DispatchFieldEngineer(DispatchFieldEngineerSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class DispatchFieldEngineerSetup
 public class DispatchFieldEngineerSetup 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup**  

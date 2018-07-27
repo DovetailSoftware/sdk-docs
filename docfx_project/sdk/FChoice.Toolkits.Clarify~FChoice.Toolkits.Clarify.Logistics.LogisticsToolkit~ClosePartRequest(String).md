@@ -4,7 +4,7 @@ Part Request Detail Identifier
 
 Causes the specified part request to be closed. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Part Request Detail Identifier
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 This API will validate that the user has the authority to close the part request. If this is the last part request detail that was open for the part request header, the header is also closed.
 

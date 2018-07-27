@@ -4,7 +4,7 @@ Changes the status of a Case. This overload takes a set of required parameters f
 
 Changes the status of a Case.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ChangeCaseStatus(ChangeCaseStatusSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeCaseStatus(ChangeCaseStatusSetup).md) | Changes the status of a Case. This overload takes a setup object.   |
 | [ChangeCaseStatus(ChangeCaseStatusSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeCaseStatus(ChangeCaseStatusSetup,IDbTransaction).md) | Changes the status of a Case. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Case may be opened or closed, but the status selected must be valid for the current condition. In other words, you cannot assign a Closed condition status to a Case that is currently Open.
 

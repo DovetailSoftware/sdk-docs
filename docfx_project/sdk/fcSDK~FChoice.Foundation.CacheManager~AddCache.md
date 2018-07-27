@@ -1,6 +1,6 @@
 ﻿### AddCache Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

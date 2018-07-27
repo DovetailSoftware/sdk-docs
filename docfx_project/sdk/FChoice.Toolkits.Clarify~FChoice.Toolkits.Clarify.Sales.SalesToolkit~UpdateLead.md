@@ -4,7 +4,7 @@ Used to update a Lead. This overload takes a setup object.
 
 Used to update a Lead.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

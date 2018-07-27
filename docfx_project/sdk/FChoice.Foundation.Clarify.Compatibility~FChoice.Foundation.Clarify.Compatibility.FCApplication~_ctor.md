@@ -1,6 +1,6 @@
 ﻿### FCApplication Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

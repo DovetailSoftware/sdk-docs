@@ -2,7 +2,7 @@
 
 Specifies whether the Part Request should be closed if all of the inventory for this Part Request is received (or an overage). If it is already closed, and no other details exist for the header, this parameter specifies whether the Part Request Header should be closed as well.  
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

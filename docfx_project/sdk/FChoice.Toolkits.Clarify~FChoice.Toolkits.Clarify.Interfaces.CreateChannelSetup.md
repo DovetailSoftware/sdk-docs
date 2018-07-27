@@ -1,6 +1,6 @@
 ﻿### CreateChannelSetup Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class CreateChannelSetup
 public class CreateChannelSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Interfaces.CreateChannelSetup**  

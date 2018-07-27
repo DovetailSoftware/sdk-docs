@@ -1,10 +1,6 @@
-﻿     FChoice.Toolkits.Clarify.FieldOps Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Toolkits.Clarify.FieldOps Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify.FieldOps Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup.md)  

@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Updates an existing part restocking authorization level. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

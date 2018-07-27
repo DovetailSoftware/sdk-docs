@@ -1,6 +1,6 @@
 ﻿### ChangeUserConfigItem(String,Double) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

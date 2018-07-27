@@ -6,7 +6,7 @@ The new WipBin into which the Opportunity is to be moved.
 
 Initializes a new instance of the MoveOpportunitySetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

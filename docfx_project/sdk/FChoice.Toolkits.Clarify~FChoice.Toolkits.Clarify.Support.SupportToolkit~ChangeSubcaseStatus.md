@@ -4,7 +4,7 @@ Changes the status of a Subcase. This overload takes a set of required parameter
 
 Changes the status of a Subcase.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [ChangeSubcaseStatus(ChangeSubcaseStatusSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeSubcaseStatus(ChangeSubcaseStatusSetup).md) | Changes the status of a Subcase. This overload takes a setup object.   |
 | [ChangeSubcaseStatus(ChangeSubcaseStatusSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeSubcaseStatus(ChangeSubcaseStatusSetup,IDbTransaction).md) | Changes the status of a Subcase. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Subcase may be opened or closed, but the status selected must be valid for the current condition. In other words, you cannot assign a Closed condition status to a Subcase that is currently Open.
 

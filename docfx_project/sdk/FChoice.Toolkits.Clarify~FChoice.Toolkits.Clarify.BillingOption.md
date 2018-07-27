@@ -2,7 +2,7 @@
 
 The billing option of the Contract Schedule being created or updated.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -22,7 +22,7 @@ Members
 | **InAdvance** | Billed in advance |
 | **InArrears** | Billed in arrears |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

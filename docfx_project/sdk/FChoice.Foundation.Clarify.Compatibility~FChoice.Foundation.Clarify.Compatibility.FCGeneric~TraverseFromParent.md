@@ -1,6 +1,6 @@
 ﻿### TraverseFromParent Method (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

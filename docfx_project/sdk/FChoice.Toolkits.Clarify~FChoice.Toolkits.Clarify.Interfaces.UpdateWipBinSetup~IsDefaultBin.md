@@ -2,7 +2,7 @@
 
 Is the WipBin the user's default?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

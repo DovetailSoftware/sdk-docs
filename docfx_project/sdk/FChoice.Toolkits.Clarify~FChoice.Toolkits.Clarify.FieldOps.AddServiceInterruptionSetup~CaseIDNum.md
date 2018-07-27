@@ -2,7 +2,7 @@
 
 The identifier of the Case with which this Service Interuption is associated
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

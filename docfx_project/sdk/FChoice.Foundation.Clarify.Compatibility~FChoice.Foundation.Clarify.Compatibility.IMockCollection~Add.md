@@ -1,6 +1,6 @@
 ﻿### Add Method (IMockCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

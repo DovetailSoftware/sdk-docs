@@ -1,6 +1,6 @@
 ﻿### CommunicationRoleType Enumeration
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Members
 | **ReplyTo** |   |
 | **Sender** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    System.ValueType  

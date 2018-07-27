@@ -2,7 +2,7 @@
 
 Activity code used for act_entry logs generated when creating a communication.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

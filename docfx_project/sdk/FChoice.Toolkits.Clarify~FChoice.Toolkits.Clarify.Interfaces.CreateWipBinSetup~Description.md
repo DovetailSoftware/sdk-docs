@@ -2,7 +2,7 @@
 
 WipBin description
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

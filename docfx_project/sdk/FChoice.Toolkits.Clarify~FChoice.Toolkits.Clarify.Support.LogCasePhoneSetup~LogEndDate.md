@@ -2,7 +2,7 @@
 
 DateTime of the end of the phone call. If not set, the LogDate is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

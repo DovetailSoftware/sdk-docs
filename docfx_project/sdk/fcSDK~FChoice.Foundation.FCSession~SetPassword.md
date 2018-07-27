@@ -8,7 +8,7 @@ The login type of the user. This value is CRM specific.
 
 Change a user's password
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -42,7 +42,7 @@ _LoginType_
 
 The login type of the user. This value is CRM specific.
 
-Remarks
+#### Remarks
 
 [ChangePassword](fcSDK~FChoice.Foundation.FCSession~ChangePassword.md) allows changing the password of the session user.
 

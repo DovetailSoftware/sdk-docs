@@ -1,6 +1,6 @@
 ﻿### Sort() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

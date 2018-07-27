@@ -2,7 +2,7 @@
 
 Refresh the session information for the logged-in user.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

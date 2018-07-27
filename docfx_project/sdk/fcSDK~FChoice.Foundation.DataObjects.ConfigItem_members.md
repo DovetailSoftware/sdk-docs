@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [ConfigItem](fcSDK~FChoice.Foundation.DataObjects.ConfigItem.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

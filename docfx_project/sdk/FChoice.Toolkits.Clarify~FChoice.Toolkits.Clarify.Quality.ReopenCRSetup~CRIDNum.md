@@ -2,7 +2,7 @@
 
 Identifier of the CR being reopened.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

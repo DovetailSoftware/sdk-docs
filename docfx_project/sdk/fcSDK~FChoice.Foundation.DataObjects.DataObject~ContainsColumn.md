@@ -1,6 +1,6 @@
 ﻿### ContainsColumn Method (DataObject)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,10 +1,6 @@
-﻿     FChoice.Toolkits.Clarify.Contracts Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Toolkits.Clarify.Contracts Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Toolkits.Clarify.Contracts Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Toolkits.Clarify.Contracts.AcceptQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AcceptQuoteSetup.md)  

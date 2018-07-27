@@ -16,7 +16,7 @@ Date when the Price was updated, any Date between the start and end date is vali
 
 Initializes a new instance of the UpdatePriceInstanceSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

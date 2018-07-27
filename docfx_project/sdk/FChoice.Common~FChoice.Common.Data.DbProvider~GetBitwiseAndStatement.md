@@ -6,7 +6,7 @@ The second operand in a bitwise AND equation (the '_y_' in the statement 'x & y'
 
 Formats a bitwise AND statement according to the language features of the underlying database type
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ The second operand in a bitwise AND equation (the '_y_' in the statement 'x & y'
 
 A properly formatted bitwise AND equation that will be recognized by the underlying database type.
 
-Remarks
+#### Remarks
 
 MSSQL and Oracle 9 and later recognize the standard C-style bitwise AND statement syntax (x & y). However, Oracle 8i and earlier required the use of the bitand() function to evaluate bitwise AND statements. This method helps SQL statement writers use AND syntax in their queries without concerns of the differences in database types.
 

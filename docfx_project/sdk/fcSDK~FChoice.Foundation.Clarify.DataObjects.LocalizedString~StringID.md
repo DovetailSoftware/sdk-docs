@@ -1,6 +1,6 @@
 ﻿### StringID Property (LocalizedString)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### CommandText Property (SqlHelper)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

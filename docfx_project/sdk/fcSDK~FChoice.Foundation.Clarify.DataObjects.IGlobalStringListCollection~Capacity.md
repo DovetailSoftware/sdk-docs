@@ -1,6 +1,6 @@
 ﻿### Capacity Property (IGlobalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

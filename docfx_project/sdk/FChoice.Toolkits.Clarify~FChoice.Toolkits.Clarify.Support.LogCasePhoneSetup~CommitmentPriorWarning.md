@@ -2,7 +2,7 @@
 
 The length of time preceding the commitment expiration in which the owner will be warned. If not set, no prior warning is given.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

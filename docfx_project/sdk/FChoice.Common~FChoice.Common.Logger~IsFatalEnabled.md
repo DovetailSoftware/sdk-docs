@@ -1,6 +1,6 @@
 ﻿### IsFatalEnabled Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

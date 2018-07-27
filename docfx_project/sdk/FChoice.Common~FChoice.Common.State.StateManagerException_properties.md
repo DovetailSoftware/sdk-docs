@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [StateManagerException members](FChoice.Common~FChoice.Common.State.StateManagerException_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

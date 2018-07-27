@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [YesterdayFilter](fcSDK~FChoice.Foundation.Filters.YesterdayFilter.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

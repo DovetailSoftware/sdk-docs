@@ -2,7 +2,7 @@
 
 Is this table an Many To Many mapping table?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

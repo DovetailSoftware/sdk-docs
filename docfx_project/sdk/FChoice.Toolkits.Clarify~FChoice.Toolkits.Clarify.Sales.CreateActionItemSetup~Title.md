@@ -2,7 +2,7 @@
 
 Title of the Action Item.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

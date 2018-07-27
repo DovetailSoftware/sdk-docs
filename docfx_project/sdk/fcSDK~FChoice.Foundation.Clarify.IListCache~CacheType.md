@@ -1,6 +1,6 @@
 ﻿### CacheType Property (IListCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

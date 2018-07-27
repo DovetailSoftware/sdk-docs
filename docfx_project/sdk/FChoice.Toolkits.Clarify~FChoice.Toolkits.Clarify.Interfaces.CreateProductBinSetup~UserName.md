@@ -2,7 +2,7 @@
 
 User creating the bin. If not set, the default is the session user.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

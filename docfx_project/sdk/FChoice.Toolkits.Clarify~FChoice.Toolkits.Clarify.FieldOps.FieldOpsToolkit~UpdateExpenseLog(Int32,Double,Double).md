@@ -6,7 +6,7 @@ The number of units that are being applied to the Onsite Log.
 
 The billing rate per unit. If no rate is specified, the labor rate of the performing employee is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

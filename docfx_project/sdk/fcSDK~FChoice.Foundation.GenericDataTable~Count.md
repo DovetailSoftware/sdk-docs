@@ -2,7 +2,7 @@
 
 Number of [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md)s currently in the table.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

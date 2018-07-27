@@ -1,6 +1,6 @@
 ﻿### ExecuteNonQuery(IDbConnection,CommandType,String) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

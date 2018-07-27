@@ -1,6 +1,6 @@
 ﻿### UseDatabaseLogins Property (InterfacesToolkitBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The type of the Site being created of modified.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -25,7 +25,7 @@ Members
 | **Reseller** |   |
 | **Vendor** |   |
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 System.ValueType  

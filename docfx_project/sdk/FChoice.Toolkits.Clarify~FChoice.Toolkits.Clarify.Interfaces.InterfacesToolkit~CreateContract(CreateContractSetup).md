@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Creates a Contract. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

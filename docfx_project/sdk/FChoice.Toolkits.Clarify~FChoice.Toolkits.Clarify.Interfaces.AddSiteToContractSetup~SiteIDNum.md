@@ -2,7 +2,7 @@
 
 Identifier of the Site to add to the Contract.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

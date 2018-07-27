@@ -1,6 +1,6 @@
 ﻿### ExecuteNonQuery() Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

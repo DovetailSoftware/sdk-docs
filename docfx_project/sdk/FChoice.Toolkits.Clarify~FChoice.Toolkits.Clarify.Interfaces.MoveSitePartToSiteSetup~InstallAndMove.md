@@ -2,7 +2,7 @@
 
 If [AddActivityLog](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToSiteSetup~AddActivityLog.md) is true. Should the activity be listed as an Install/Move (**true)** or just a Move (**false**)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

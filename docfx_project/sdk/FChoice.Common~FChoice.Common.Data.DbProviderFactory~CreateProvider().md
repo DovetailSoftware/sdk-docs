@@ -2,7 +2,7 @@
 
 Creates a new instance of a DbProvider object from the default configured provider
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,13 +18,11 @@ public static DbProvider CreateProvider()
 
 A new DbProvider instance for the configured default alias
 
-Remarks
+#### Remarks
 
 It is not necessary to create a new instance of the default DbProvider every time it is used. Instead, see the Provider property to get a reference to the common instance of the default DbProvider.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 

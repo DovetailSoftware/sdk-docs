@@ -2,7 +2,7 @@
 
 User that unlinked the Case from the Workaround. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

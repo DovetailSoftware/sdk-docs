@@ -2,7 +2,7 @@
 
 List of cc recipients for the email.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

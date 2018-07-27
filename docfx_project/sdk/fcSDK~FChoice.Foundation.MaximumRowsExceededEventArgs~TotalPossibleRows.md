@@ -2,7 +2,7 @@
 
 Readonly count of rows to be returned by the large query that caused this event.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

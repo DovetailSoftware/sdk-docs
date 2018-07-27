@@ -2,7 +2,7 @@
 
 Delegates handling the [MaximumRowsExceeded](fcSDK~FChoice.Foundation.FCGeneric~MaximumRowsExceeded_EV.md) event will return this object to cue [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md) on how to handle large queries.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class MaximumRowsExceededEventArgs
 public class MaximumRowsExceededEventArgs
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.MaximumRowsExceededEventArgs**  

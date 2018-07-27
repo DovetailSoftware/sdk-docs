@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Creates a phone log against a Case. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ The following values are populated in the LogCasePhoneResult object returned by 
 *   StatusChangeObjid \- The Objid of the StatusChange.
 *   Objid \- The Objid of the Log.
 
-Remarks
+#### Remarks
 
 It is possible to create a Commitment with this log. To do so set the CommitmentDueDate and CommitmentTitle and IsCommitmentToCustomer properties.
 

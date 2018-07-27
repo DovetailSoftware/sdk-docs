@@ -12,7 +12,7 @@ The objid of resulting part revision after applying the ECO, or 0 for no chang
 
 Create an Engineering Change Order (ECO) Item. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -62,7 +62,7 @@ The objid of resulting part revision after applying the ECO, or 0 for no chang
 
 A ToolkitResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The objid of the ECO item created is returned in the object property ret_objid.
 

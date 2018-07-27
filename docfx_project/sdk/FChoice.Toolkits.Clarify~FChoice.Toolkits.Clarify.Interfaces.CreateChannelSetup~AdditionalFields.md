@@ -1,6 +1,6 @@
 ﻿### AdditionalFields Property (CreateChannelSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

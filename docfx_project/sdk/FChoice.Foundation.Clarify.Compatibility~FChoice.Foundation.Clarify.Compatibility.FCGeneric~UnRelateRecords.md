@@ -1,6 +1,6 @@
 ﻿### UnRelateRecords Method (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

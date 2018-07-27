@@ -2,7 +2,7 @@
 
 User who performed the update. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

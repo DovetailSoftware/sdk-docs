@@ -2,7 +2,7 @@
 
 The user updating the Material entry. If not set, the Toolkit session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

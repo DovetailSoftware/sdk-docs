@@ -2,7 +2,7 @@
 
 Sales stage for the opportunity.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Contains the sums and totals calculated before closing a Case.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

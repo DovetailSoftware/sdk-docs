@@ -4,7 +4,7 @@ Used to change the order of the locations servicing a site. This overload takes 
 
 Used to change the order of the locations servicing a site.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [UpdateLocationServicingSite(UpdateLocationServicingSiteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateLocationServicingSite(UpdateLocationServicingSiteSetup).md) | Used to change the order of the locations servicing a site. This overload takes a setup object.   |
 | [UpdateLocationServicingSite(UpdateLocationServicingSiteSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateLocationServicingSite(UpdateLocationServicingSiteSetup,IDbTransaction).md) | Used to change the order of the locations servicing a site. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 This API will give a new rank to the. All other ranks are changed as necessary.
 

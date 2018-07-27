@@ -2,7 +2,7 @@
 
 Does Contract have special considerations?
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

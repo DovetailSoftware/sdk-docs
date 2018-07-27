@@ -1,6 +1,16 @@
 // replace html links with md links
 grep -rl '.html)' . | xargs sed -i "s/.html)/.md)/g"
 
+grep -rl '^Overload List' *.md | xargs sed -i "s/Overload List/#### Overload List/g"
+grep -rl '^Public Fields' *.md | xargs sed -i "s/Public Fields/#### Public Fields/g"
+grep -rl '^Public Methods' *.md | xargs sed -i "s/Public Methods/#### Public Methods/g"
+grep -rl '^Inheritance Hierarchy' *.md | xargs sed -i "s/Inheritance Hierarchy/#### Inheritance Hierarchy/g"
+grep -rl '^Public Properties' *.md | xargs sed -i "s/Public Properties/#### Public Properties/g"
+grep -rl '^Exceptions' *.md | xargs sed -i "s/Exceptions/#### Exceptions/g"
+grep -rl '^#### Exceptions)' *.md | xargs sed -i "s/Exceptions)/Exceptions/g"
+grep -rl '^#### Syntax)' *.md | xargs sed -i "s/Syntax)/Syntax/g"
+grep -rl '^#### Remarks)' *.md | xargs sed -i "s/Remarks)/Remarks/g"
+
 grep -rl '\*   \[Visual Basic\](#Syntax-VBAll)' . | xargs sed -i "s/\*   \[Visual Basic\](#Syntax-VBAll)/#vbnet/g"
 
 grep -rl '\*   \[C#\](#Syntax-CS)' . | xargs sed -i "s/\*   \[C#\](#Syntax-CS)/```csharp/g"

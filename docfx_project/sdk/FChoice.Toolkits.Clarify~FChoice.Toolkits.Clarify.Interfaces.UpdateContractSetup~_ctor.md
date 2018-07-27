@@ -4,7 +4,7 @@ Identifier of the Contract to update
 
 Initializes a new instance of the UpdateContractSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

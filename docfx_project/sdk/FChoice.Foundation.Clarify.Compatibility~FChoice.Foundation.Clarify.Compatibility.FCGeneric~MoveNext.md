@@ -1,6 +1,6 @@
 ﻿### MoveNext Method (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

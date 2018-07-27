@@ -2,7 +2,7 @@
 
 Gets the current value of the high-resolution performance counter
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public static long GetPerfTimer()
 
 A value representing the number of "ticks" since a specific time in history. The start time may vary from system to system and is only intended to be used from measuring from one recent instant in time to another recent instant in time with great accuracy for the purpose of timing the duration of operations in code.
 
-Remarks
+#### Remarks
 
 This method wraps the Win32 API function [QueryPerformanceCounter](http://msdn.microsoft.com/library/en-us/winui/winui/windowsuserinterface/windowing/timers/timerreference/timerfunctions/queryperformancecounter.asp).
 

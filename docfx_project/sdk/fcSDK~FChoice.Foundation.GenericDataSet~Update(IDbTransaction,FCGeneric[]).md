@@ -1,6 +1,6 @@
 ﻿### Update(IDbTransaction,FCGeneric\[\]) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

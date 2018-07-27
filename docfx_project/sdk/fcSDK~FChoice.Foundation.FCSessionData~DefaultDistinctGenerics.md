@@ -2,7 +2,7 @@
 
 Session option which makes Generics have [IsDistinct](fcSDK~FChoice.Foundation.FCGeneric~IsDistinct.md) enable by default.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

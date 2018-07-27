@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Creates a new Dialogue.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

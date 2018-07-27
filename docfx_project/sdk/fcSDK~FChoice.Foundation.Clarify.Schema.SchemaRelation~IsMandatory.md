@@ -1,6 +1,6 @@
 ﻿### IsMandatory Property (SchemaRelation)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

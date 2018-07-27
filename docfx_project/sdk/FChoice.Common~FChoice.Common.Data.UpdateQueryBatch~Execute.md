@@ -2,7 +2,7 @@
 
 Executes the batch if the provider supports statement batching, or nothing if it doesn't
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public int Execute()
 
 The number of rows affected, if available, or -2 if no statements were executed
 
-Remarks
+#### Remarks
 
 Not all providers support returning the number of rows affected in all circumstances. Different providers return different results in this case. Usually the number is -1 or 0. Otherwise, the number should be a positive number indicating the number of rows inserted and/or updated.
 

@@ -2,7 +2,7 @@
 
 Timezone being used by the application.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public ITimeZone ServerTimeZone {get; set;}
 
 Timezone being used by the application.
 
-Remarks
+#### Remarks
 
 This timezone is used when [converting](fcSDK~FChoice.Foundation.FCSession~ConvertDate.md) from session to server time
 

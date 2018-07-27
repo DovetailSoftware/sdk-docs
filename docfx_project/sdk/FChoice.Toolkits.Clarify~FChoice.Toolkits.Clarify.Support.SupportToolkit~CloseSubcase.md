@@ -4,7 +4,7 @@ Closes the specified Subcase. This overload takes a set of required parameters f
 
 Closes the specified Subcase.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [CloseSubcase(CloseSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CloseSubcase(CloseSubcaseSetup).md) | Closes the specified Subcase. This overload takes a setup object.   |
 | [CloseSubcase(CloseSubcaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CloseSubcase(CloseSubcaseSetup,IDbTransaction).md) | Closes the specified Subcase. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Subcase must be in open condition.
 

@@ -4,7 +4,7 @@ Creates a phone log against a Subcase. This overload takes a set of required pa
 
 Creates a phone log against a Subcase.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [LogSubcasePhone(LogSubcasePhoneSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubcasePhone(LogSubcasePhoneSetup).md) | Creates a phone log against a Subcase. This overload takes a setup object.   |
 | [LogSubcasePhone(LogSubcasePhoneSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubcasePhone(LogSubcasePhoneSetup,IDbTransaction).md) | Creates a phone log against a Subcase. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup~IsCommitmentToCustomer.md) properties
 

@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to install a site part. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ Database transaction under which the API will be invoked.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The part can be installed at the top level of the site, under another site part or in a bin. If the part revision to be installed has a bill of materials (BOM), that BOM will also be installed at the site under the new site part. If the sub-parts are serial tracked, the API will generate the proper new serial numbers for the sub-parts. If the part to be installed is serialized, and the quantity is > 1, the API will generate individual parts (sub-parts only).
 

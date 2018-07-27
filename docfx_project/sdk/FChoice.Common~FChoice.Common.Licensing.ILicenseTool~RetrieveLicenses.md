@@ -1,6 +1,6 @@
 ﻿### RetrieveLicenses Method (ILicenseTool)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

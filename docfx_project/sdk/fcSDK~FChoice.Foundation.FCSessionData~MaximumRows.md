@@ -1,6 +1,6 @@
 ﻿### MaximumRows Property (FCSessionData)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

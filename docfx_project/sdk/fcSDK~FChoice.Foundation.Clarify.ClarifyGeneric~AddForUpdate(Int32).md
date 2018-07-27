@@ -4,7 +4,7 @@ The objid of the row to use for updating
 
 Creates a new row in the **ClarifyGeneric** with the specified [objId](fcSDK~FChoice.Foundation.GenericDataRow~UniqueID.md) which will be used to update an existing row in the database rather than inserting a new one.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The objid of the row to use for updating
 
 A newly created row populated with the specified objid
 
-Remarks
+#### Remarks
 
 Use this method when you know the uniqueId of an object in the database and making a database query to retrieve the row would be inefficient. Use the **GenericDataRow** returned to update the generic. When you are finished calling one of the **Update** methods on the **FCGeneric** or **GenericDataRow** will commit the changes to the database.
 

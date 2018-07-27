@@ -1,6 +1,6 @@
 ﻿### PriceType Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

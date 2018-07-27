@@ -1,6 +1,6 @@
 ﻿### CacheLoaded Event
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

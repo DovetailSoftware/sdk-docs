@@ -12,7 +12,7 @@ Name of the lead source.
 
 Initializes a new instance of the CreateLeadSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

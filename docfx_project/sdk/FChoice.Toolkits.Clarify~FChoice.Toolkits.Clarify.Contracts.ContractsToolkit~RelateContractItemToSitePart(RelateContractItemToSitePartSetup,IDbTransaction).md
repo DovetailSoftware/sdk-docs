@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to relate (or unrelate) a Site Part from a contract line item. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

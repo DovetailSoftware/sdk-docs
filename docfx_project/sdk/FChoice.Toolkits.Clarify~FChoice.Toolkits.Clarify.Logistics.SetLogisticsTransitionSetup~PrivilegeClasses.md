@@ -2,7 +2,7 @@
 
 An array of Strings which are the names of the privilege classes allowed to perform this transition
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

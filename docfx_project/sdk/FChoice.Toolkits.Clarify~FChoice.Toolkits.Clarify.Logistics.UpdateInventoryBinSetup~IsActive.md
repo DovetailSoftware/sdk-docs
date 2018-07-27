@@ -2,7 +2,7 @@
 
 Specifies whether this inventory bin is active (true) or inactive (false)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

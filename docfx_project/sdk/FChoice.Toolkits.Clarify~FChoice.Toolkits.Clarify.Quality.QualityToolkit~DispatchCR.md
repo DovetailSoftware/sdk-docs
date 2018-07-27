@@ -4,7 +4,7 @@ Dispatch the CR to the specified queue. This overload takes a set of required pa
 
 Dispatch the CR to the specified queue.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [DispatchCR(DispatchCRSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~DispatchCR(DispatchCRSetup).md) | Dispatch the CR to the specified queue. This overload takes a setup object.   |
 | [DispatchCR(DispatchCRSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~DispatchCR(DispatchCRSetup,IDbTransaction).md) | Dispatch the CR to the specified queue. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The CR must be in open condition, and not currently dispatched to a queue.
 

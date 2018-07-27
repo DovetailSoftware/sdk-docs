@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [WorkflowManager members](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

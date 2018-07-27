@@ -1,6 +1,6 @@
 ﻿### CreateSqlExec Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

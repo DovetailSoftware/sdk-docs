@@ -8,7 +8,7 @@ Identifier of the ECO header
 
 Initializes a new instance of the UpdateEcoItemSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

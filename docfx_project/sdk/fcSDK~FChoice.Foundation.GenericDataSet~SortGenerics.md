@@ -1,6 +1,6 @@
 ﻿### SortGenerics Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

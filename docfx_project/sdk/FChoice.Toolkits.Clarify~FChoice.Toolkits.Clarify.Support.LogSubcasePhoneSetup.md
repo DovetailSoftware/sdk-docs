@@ -2,7 +2,7 @@
 
 Used by the [LogSubcasePhone](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubcasePhone(LogSubcasePhoneSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class LogSubcasePhoneSetup
 public class LogSubcasePhoneSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup**  

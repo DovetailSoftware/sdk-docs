@@ -4,7 +4,7 @@ The objid of the Site Part to be deleted.
 
 Initializes a new instance of the DeleteSitePartSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

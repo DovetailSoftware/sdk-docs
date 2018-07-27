@@ -1,6 +1,6 @@
 ﻿### DaylightSavingsPeriod Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class DaylightSavingsPeriod
 public class DaylightSavingsPeriod : ClarifyDataObject, FChoice.Foundation.DataObjects.IDataObject
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

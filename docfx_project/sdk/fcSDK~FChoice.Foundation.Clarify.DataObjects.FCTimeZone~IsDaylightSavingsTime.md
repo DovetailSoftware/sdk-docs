@@ -1,6 +1,6 @@
 ﻿### IsDaylightSavingsTime Method (FCTimeZone)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

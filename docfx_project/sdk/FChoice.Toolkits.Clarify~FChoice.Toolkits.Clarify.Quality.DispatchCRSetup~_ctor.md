@@ -6,7 +6,7 @@ The queue into which the CR is to be dispatched.
 
 Initializes a new instance of the DispatchCRSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -8,7 +8,7 @@ The value of the string parameter to verify.
 
 Checks whether or not the supplied string value is null (**Nothing** in Visual Basic) or empty (trimmed length equals zero).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -42,13 +42,13 @@ _val_
 
 The value of the string parameter to verify.
 
-Exceptions
+#### Exceptions
 
 | Exception | Description |
 | --- | --- |
 | [FCArgumentException](FChoice.Common~FChoice.Common.FCArgumentException.md) | The string value is null or empty. |
 
-Remarks
+#### Remarks
 
 If the **_val_** parameter is null (**Nothing** in Visual Basic) or empty (trimmed length equals zero) an FCArgumentException will be thrown using the supplied **_errorId_**.
 

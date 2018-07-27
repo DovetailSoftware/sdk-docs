@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [YankActionItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -6,7 +6,7 @@ Element from the 'Quote Status' application list. If not set, the default statu
 
 Initializes a new instance of the ReopenContractSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

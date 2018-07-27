@@ -2,7 +2,7 @@
 
 Returns an enumerator for the entire collection
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public IEnumerator GetEnumerator()
 
 An [IEnumerator](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsIEnumeratorClassTopic.htm) for the collection
 
-Remarks
+#### Remarks
 
 This returns an enumerator of each parameter in the collection, not the name/parameter pairs.
 

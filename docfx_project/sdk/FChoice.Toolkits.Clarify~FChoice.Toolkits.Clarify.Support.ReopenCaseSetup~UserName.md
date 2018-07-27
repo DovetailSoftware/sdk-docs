@@ -2,7 +2,7 @@
 
 User who reopened the Case. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

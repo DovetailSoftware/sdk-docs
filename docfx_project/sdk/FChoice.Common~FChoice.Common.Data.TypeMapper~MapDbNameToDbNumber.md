@@ -1,6 +1,6 @@
 ﻿### MapDbNameToDbNumber Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

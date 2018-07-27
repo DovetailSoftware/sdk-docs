@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Remove a Site from an Account. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

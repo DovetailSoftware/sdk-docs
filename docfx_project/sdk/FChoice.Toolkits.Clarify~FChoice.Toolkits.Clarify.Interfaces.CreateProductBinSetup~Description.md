@@ -2,7 +2,7 @@
 
 Bin description
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

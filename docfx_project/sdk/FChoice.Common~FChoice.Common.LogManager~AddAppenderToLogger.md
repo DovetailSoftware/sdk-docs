@@ -4,14 +4,14 @@ Links a given appender to the specified .NET type-identified logger.
 
 Links a logger configuration to an already-prepared appender.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
 | [AddAppenderToLogger(String,Type)](FChoice.Common~FChoice.Common.LogManager~AddAppenderToLogger(String,Type).md) | Links a given appender to the specified .NET type-identified logger.   |
 | [AddAppenderToLogger(String,String)](FChoice.Common~FChoice.Common.LogManager~AddAppenderToLogger(String,String).md) | Links a given appender to the specified logger name.   |
 
-Remarks
+#### Remarks
 
 This will not clear out any existing appenders that may be configured for that logger, it will merely add it to the list. The only way to clear the appenders for a logger is to call [ResetConfiguration](FChoice.Common~FChoice.Common.LogManager~ResetConfiguration.md) and reconfigure all the loggers again.
 

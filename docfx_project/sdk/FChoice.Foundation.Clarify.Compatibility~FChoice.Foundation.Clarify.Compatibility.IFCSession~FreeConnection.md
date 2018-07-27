@@ -1,6 +1,6 @@
 ﻿### FreeConnection Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

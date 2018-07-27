@@ -1,6 +1,6 @@
 ﻿### ISchemaView Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

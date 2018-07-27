@@ -4,7 +4,7 @@ The zero-based index of the element to get or set.
 
 Gets or sets the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) associated with index in the collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,6 +18,7 @@ Public Overloads Property Item( _
 public IDbDataParameter Item( 
    int _index_
 ) {get; set;}
+```
 
 #### Parameters
 

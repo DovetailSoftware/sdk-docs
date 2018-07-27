@@ -1,6 +1,6 @@
 ﻿### ISchemaCache Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

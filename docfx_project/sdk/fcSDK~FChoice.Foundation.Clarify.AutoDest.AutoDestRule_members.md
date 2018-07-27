@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [AutoDestRule](fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -14,7 +14,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

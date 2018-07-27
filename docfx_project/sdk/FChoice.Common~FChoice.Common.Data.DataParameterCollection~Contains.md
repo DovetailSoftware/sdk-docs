@@ -4,7 +4,7 @@ The [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemda
 
 Determines whether or not this collection contains the specified parameter.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemda
 
 Whether or not this collection contains the specified parameter.
 
-Remarks
+#### Remarks
 
 If the value specified is not an instance of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm), or is null (**Nothing** in Visual Basic), it will be ignored and the result will be false.
 

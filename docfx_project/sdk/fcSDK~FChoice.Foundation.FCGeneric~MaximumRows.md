@@ -2,7 +2,7 @@
 
 Controls the maximum number of rows to be returned by the Genric Query.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Retrieves the current configuration values or loads new ones if no current ones are available.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public static NameValueCollection LoadEnvironmentSettings()
 
 A [NameValueCollection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemCollectionsSpecializedNameValueCollectionMembersTopic.htm) of values produced by loading the environment settings either from the provided collection, from the current application configuration, or a merge of both.
 
-Remarks
+#### Remarks
 
 This method will not force a reload of configuration values and will check for required parameters
 

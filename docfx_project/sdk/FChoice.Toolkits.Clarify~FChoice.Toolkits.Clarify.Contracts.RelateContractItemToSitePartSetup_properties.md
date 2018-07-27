@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [RelateContractItemToSitePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

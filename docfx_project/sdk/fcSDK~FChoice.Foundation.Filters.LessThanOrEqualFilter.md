@@ -2,7 +2,7 @@
 
 Filter field that are less than or equal to the filter input
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -19,7 +19,7 @@ Example
 
 [**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  

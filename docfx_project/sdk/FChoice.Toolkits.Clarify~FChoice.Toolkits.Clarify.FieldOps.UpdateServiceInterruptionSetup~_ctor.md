@@ -4,7 +4,7 @@ The Objid of the Appointment being modified.
 
 Initializes a new instance of the UpdateServiceInterruptionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

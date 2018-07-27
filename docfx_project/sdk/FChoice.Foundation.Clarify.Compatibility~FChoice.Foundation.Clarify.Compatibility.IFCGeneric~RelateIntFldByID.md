@@ -1,6 +1,6 @@
 ﻿### RelateIntFldByID Method (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

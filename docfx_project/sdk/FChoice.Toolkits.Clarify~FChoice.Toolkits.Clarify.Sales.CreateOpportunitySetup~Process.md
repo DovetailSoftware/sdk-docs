@@ -2,7 +2,7 @@
 
 The process for the Opportunity. If not set, the default process is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

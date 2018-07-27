@@ -6,7 +6,7 @@ An instance of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/f
 
 Adds a parameter to this collection for passing to the database and in replacing parameters in the SQL statement.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _param_
 
 An instance of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbDataParameterClassTopic.htm) to add to this collection.
 
-Remarks
+#### Remarks
 
 The **_name_** parameter should be a simple name without any database-specific prefix such as "@" for SQL Server or ":" for Oracle. The SqlHelper will take care of adding the specific prefix.
 

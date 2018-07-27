@@ -1,6 +1,6 @@
 ﻿### Add(String,Object,IDbDataParameter) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

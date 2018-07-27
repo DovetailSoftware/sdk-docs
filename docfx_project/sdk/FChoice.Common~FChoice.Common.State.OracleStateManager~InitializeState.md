@@ -1,6 +1,6 @@
 ﻿### InitializeState Method (OracleStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

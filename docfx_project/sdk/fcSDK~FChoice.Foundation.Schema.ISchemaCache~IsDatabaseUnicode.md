@@ -1,6 +1,6 @@
 ﻿### IsDatabaseUnicode Property (ISchemaCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

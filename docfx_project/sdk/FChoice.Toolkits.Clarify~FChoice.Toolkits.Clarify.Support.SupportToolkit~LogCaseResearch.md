@@ -4,7 +4,7 @@ Creates a research log against a Case. This overload takes a set of required p
 
 Creates a research log against a Case.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [LogCaseResearch(LogCaseResearchSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseResearch(LogCaseResearchSetup).md) | Creates a research log against a Case. This overload takes a setup object.   |
 | [LogCaseResearch(LogCaseResearchSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseResearch(LogCaseResearchSetup,IDbTransaction).md) | Creates a research log against a Case. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 It is possible to create a Commitment with this log. To do so set the [CommitmentDueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup~CommitmentDueDate.md) and [CommitmentTitle](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup~CommitmentTitle.md) and [IsCommitmentToCustomer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup~IsCommitmentToCustomer.md) properties
 

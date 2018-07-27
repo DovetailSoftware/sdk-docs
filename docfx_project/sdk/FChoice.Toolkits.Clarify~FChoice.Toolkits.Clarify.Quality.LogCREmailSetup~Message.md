@@ -2,7 +2,7 @@
 
 The text (body) of the email message included in the log.  
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,12 +1,13 @@
 ﻿### CacheUpdated Event (CacheBase)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
 
 Public Event CacheUpdated As EventHandler
 ```
+
 ```csharp
 public event EventHandler CacheUpdated
 ```

@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Adds a site to an existing Contract. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

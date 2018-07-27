@@ -1,6 +1,6 @@
 ﻿### GetGbstListElements Method (ListCache)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

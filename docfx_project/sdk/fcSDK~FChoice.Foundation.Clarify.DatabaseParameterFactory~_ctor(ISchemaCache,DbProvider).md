@@ -1,6 +1,6 @@
 ﻿### DatabaseParameterFactory Constructor(ISchemaCache,DbProvider)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### auto_dest Method (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -8,7 +8,7 @@ Objid of the parent Site Part this Part will be re-installed under.
 
 Re-Install a Site Part under another Site Part. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,10 +1,6 @@
-﻿     CopyTo(Int32,IHierarchicalStringList\[\],Int32,Int32) Method                                                   
+﻿### CopyTo(Int32,IHierarchicalStringList\[\],Int32,Int32) Method
 
-fcSDK Documentation
-
-CopyTo(Int32,IHierarchicalStringList\[\],Int32,Int32) Method
-
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### CreateParticipantActivityEntry Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

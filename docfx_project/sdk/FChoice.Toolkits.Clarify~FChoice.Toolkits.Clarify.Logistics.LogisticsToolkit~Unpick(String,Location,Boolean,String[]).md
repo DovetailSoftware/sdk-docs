@@ -12,7 +12,7 @@ Allows for the unpicking (unreserving) of inventory parts for a part request.
 
 This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -56,7 +56,7 @@ The serial number(s) of the part(s) to unpick (hard unpick)
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 This API will search in the specified location and bin (for good or bad inventory), and will unreserve it for the part request only if it was previously reserved.
 

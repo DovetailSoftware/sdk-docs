@@ -1,6 +1,6 @@
 ﻿### StageInventoryToolkit Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class StageInventoryToolkit
 public class StageInventoryToolkit
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.FieldOps.StageInventoryToolkit**  

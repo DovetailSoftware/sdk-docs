@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by IFCBulk.
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -10,7 +10,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Name](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~Name.md) |   |
 | ![ Property](dotnetimages/Property.png) | [NoSorting](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk~NoSorting.md) |   |
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

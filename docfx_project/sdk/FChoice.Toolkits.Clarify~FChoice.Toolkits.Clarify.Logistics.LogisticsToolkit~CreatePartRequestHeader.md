@@ -6,7 +6,7 @@ This overload takes a set of required parameters for the API.
 
 Used to create a new part request header.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -25,7 +25,7 @@ Used to create a new part request header.
 
 This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 If using the [CreatePartRequestHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup.md) variant of this API, and if the [CaseIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup~CaseIDNum.md) property on the [CreatePartRequestHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup.md) object is set to a value, and there is a dash ("-") in the identifier, it will be assumed that it is a subcase identifier. Otherwise, it will be treated as a case identifier.
 

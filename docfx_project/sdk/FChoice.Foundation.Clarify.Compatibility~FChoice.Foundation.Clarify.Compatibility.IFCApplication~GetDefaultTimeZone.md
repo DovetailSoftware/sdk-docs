@@ -1,6 +1,6 @@
 ﻿### GetDefaultTimeZone Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

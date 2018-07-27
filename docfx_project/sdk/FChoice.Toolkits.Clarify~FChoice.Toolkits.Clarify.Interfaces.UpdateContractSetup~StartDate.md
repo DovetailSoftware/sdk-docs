@@ -2,7 +2,7 @@
 
 Contract starting date
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

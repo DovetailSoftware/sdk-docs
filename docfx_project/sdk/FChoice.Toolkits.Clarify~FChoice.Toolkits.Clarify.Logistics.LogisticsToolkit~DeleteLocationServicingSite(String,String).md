@@ -6,7 +6,7 @@ The inventory location being removed
 
 Used to remove the relationship between a site and a location servicing it. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -40,7 +40,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- Objid of the Inventory Role record.
 
-Remarks
+#### Remarks
 
 As a result of a call to this API, all of the other locations that service this site will have their ranks changed as necessary.
 

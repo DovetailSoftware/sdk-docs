@@ -1,6 +1,6 @@
 ﻿### GenerateTimeBombs Property (UpdateCommunicationSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

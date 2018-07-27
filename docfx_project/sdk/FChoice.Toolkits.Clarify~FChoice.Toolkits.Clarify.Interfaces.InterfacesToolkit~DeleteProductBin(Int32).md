@@ -4,7 +4,7 @@ Objid of the Bin to delete
 
 Delete a Product Bin. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ Reject the ActionItem from the queue in which it currently resides, and return i
 
 Reject the ActionItem from the queue in which it currently resides, and return it to the owner.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [RejectActionItem(RejectActionItemSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~RejectActionItem(RejectActionItemSetup).md) | Reject the ActionItem from the queue in which it currently resides, and return it to the owner. This overload takes a setup object.   |
 | [RejectActionItem(RejectActionItemSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit~RejectActionItem(RejectActionItemSetup,IDbTransaction).md) | Reject the ActionItem from the queue in which it currently resides, and return it to the owner. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The ActionItem must be in open condition, and currently dispatched to a queue.
 

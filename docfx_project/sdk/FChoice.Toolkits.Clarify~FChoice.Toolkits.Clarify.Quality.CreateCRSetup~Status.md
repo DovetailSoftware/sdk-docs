@@ -2,7 +2,7 @@
 
 The initial open condition status for the Change Request. If not set, the default open condition status is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

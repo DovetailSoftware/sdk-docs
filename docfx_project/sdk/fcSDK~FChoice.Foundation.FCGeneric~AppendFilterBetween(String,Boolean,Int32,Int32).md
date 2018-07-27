@@ -10,7 +10,7 @@ value on the right side of the between clause
 
 Adds a specialized filter to constrain the results of an **FCGeneric** [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) to be between two Integer values.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### IsSessionValid Method (ClarifyApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

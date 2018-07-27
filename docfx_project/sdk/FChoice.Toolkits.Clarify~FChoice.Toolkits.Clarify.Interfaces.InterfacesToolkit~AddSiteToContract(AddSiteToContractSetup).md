@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Adds a site to an existing Contract. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

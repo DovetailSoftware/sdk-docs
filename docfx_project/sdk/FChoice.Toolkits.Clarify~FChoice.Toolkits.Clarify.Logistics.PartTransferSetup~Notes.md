@@ -2,7 +2,7 @@
 
 Notes about the Part Transfer
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

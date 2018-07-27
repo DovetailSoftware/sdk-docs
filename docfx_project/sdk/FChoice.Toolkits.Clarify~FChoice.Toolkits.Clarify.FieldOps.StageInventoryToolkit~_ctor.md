@@ -1,6 +1,6 @@
 ﻿### StageInventoryToolkit Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

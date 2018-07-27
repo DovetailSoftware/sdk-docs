@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by ITimeZone.
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -10,7 +10,7 @@ Public Properties
 | ![ Property](dotnetimages/Property.png) | [Name](fcSDK~FChoice.Foundation.DataObjects.ITimeZone~Name.md) |   |
 | ![ Property](dotnetimages/Property.png) | [UtcOffsetSeconds](fcSDK~FChoice.Foundation.DataObjects.ITimeZone~UtcOffsetSeconds.md) |   |
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -1,6 +1,6 @@
 ﻿### SimplifiedAdditionalField Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class SimplifiedAdditionalField
 public class SimplifiedAdditionalField
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.SimplifiedAdditionalField**  

@@ -1,6 +1,6 @@
 ﻿### FCSqlExec Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Public NotInheritable Class FCSqlExec
 public sealed class FCSqlExec : IFCSqlExec  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCSqlExec**  

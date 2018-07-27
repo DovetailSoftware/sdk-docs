@@ -4,7 +4,7 @@ Mark a CR as duplicate of another 'master' CR. This overload takes a set of requ
 
 Mark a CR as duplicate of another 'master' CR.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [DuplicateCR(DuplicateCRSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~DuplicateCR(DuplicateCRSetup).md) | Mark a CR as duplicate of another 'master' CR. This overload takes a setup object.   |
 | [DuplicateCR(DuplicateCRSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~DuplicateCR(DuplicateCRSetup,IDbTransaction).md) | Mark a CR as duplicate of another 'master' CR. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The condition of the CR is changed to **CR Duplicate/Closed**.
 

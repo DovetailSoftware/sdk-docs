@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [FCApplication members](fcSDK~FChoice.Foundation.FCApplication_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

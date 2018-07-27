@@ -1,6 +1,6 @@
 ﻿### QueryEmptyToNull Property (FCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

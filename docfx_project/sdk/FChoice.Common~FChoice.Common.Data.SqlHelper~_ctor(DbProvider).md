@@ -4,7 +4,7 @@ The specific [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) ins
 
 Creates a new instance of SqlHelper with the specified [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) instance
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

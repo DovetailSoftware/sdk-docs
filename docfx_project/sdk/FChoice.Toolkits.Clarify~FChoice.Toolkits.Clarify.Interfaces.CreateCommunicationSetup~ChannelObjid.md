@@ -1,6 +1,6 @@
 ﻿### ChannelObjid Property (CreateCommunicationSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

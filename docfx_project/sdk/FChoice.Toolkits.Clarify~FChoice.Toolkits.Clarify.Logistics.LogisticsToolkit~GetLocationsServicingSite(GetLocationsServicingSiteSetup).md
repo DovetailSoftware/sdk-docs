@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Returns a list of the locations (in the proper order) servicing this site. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

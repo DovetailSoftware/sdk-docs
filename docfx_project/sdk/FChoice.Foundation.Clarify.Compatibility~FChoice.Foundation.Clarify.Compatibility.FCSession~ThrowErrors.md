@@ -1,6 +1,6 @@
 ﻿### ThrowErrors Property (FCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Description of the ECO labor detail
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### NVarcharNumber Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

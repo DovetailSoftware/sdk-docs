@@ -6,7 +6,7 @@ Username of the user being added to the Queue.
 
 Initializes a new instance of the AddUserToQueueSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

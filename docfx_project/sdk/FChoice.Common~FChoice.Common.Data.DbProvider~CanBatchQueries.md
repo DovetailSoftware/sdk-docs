@@ -2,7 +2,7 @@
 
 Specifies whether the underlying database type for this provider can support multiple SQL statements per database round-trip
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public virtual bool CanBatchQueries {get;}
 
 Whether the underlying database type for this provider can support multiple SQL statements per database round-trip
 
-Remarks
+#### Remarks
 
 This value is normally the natural value according to the provider, but can be overridden by using the "fchoice.enablebatch" (or [ConfigValues.ENABLE_BATCH Field](FChoice.Common~FChoice.Common.ConfigValues~ENABLE_BATCH.md)) configuration parameter.
 

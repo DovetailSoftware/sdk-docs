@@ -2,7 +2,7 @@
 
 A reference to a Location object which specifies the name of the bin to create and the name of the location in which to create it
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

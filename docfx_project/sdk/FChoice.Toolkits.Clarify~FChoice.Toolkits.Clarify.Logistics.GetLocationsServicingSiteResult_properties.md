@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [GetLocationsServicingSiteResult members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteResult_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

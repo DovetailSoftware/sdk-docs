@@ -6,7 +6,7 @@ A Base64 encoded string representing the encrypted bytes to decrypt
 
 Decrypts data which was encoded into a string using the Base64 encoding scheme
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ A Base64 encoded string representing the encrypted bytes to decrypt
 
 The decrypted contents of this message as a string
 
-Remarks
+#### Remarks
 
 This method expects the payload to be a byte array which contains the UTF8-encoded bytes of a string that was encrypted using the [EncryptString Method](FChoice.Common~FChoice.Common.DataProtector~EncryptString.md).
 

@@ -1,6 +1,6 @@
 ﻿### SQL_COMMAND_TIMEOUT Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

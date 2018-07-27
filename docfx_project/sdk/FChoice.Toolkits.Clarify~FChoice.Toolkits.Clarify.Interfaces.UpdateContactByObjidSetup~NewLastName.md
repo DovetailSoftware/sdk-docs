@@ -1,6 +1,6 @@
 ﻿### NewLastName Property (UpdateContactByObjidSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

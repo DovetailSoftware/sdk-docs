@@ -2,7 +2,7 @@
 
 Comment for the Site Part installation
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

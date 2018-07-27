@@ -1,6 +1,6 @@
 ### auto_dest Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Notes about the Lead Phone Note logging.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

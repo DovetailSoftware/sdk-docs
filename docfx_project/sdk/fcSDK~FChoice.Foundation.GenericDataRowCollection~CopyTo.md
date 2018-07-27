@@ -6,7 +6,7 @@ The destination [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemd
 
 Copies all the elements of the current GenericDataRowCollection to a one-dimensional [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemarrayclasstopic.htm), starting at the specified index.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _index_
 
 The destination [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatainternaldatacollectionbaseclasscopytotopic.htm) index to start copying into.
 
-Remarks
+#### Remarks
 
 The implementation of CopyTo is delegated to DataRowCollection's [CopyTo](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatainternaldatacollectionbaseclasscopytotopic.htm)
 

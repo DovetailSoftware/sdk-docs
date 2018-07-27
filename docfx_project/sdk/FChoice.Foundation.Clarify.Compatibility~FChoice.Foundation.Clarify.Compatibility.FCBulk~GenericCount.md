@@ -1,6 +1,6 @@
 ﻿### GenericCount Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

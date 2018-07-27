@@ -1,6 +1,6 @@
-﻿### FChoice.Foundation.Schema Namespace Inheritance Hierarchy
+﻿### FChoice.Foundation.Schema Namespace #### Inheritance Hierarchy
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 

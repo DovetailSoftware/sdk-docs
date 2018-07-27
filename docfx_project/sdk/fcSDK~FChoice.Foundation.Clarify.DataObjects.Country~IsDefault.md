@@ -1,6 +1,6 @@
 ﻿### IsDefault Property (Country)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

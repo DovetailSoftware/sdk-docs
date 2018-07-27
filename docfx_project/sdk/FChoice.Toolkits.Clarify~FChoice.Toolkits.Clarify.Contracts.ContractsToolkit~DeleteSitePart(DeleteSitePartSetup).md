@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Used to delete a site_part in Clarify, and then unrelate the site_part from all other related records. This overload takes a setup object.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

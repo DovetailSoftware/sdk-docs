@@ -1,6 +1,6 @@
 ﻿### IFCSqlExec Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### ConfigurationHelper Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public MustInherit NotInheritable Class ConfigurationHelper
 public static class ConfigurationHelper
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.ConfigurationHelper**  

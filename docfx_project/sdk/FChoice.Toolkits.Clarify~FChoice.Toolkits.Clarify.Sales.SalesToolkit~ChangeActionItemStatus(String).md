@@ -4,7 +4,7 @@ Action Item Identifier.
 
 Cause the specified Action Item to have its status changed. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ Action Item Identifier.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 The object may be in any valid condition, but the status selected MUST be valid for the current condition.
 

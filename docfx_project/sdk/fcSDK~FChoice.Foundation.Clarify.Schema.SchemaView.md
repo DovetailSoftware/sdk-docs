@@ -1,6 +1,6 @@
 ﻿### SchemaView Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class SchemaView
 public class SchemaView : SchemaTableBase, FChoice.Foundation.DataObjects.IDataObject, FChoice.Foundation.Schema.ISchemaTableBase, FChoice.Foundation.Schema.ISchemaView
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.DataObjects.DataObject](fcSDK~FChoice.Foundation.DataObjects.DataObject.md)  

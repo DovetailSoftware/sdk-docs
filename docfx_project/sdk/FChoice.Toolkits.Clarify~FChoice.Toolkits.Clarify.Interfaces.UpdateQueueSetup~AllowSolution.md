@@ -2,7 +2,7 @@
 
 Should Queue allow Solutions
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

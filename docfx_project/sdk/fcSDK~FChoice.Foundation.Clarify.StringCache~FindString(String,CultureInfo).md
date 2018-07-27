@@ -1,6 +1,6 @@
 ﻿### FindString(String,CultureInfo) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### SecondaryTable Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

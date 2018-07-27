@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [DataProtector](FChoice.Common~FChoice.Common.DataProtector.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

@@ -6,7 +6,7 @@ The new WipBin into which the Solution is to be moved.
 
 Initializes a new instance of the MoveSolutionSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Used by the [UpdatePartStockingLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartStockingLevel(UpdatePartStockingLevelSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UpdatePartStockingLevelSetup
 public class UpdatePartStockingLevelSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup**  

@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [FCTypes](FChoice.Common~FChoice.Common.Data.FCTypes.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |

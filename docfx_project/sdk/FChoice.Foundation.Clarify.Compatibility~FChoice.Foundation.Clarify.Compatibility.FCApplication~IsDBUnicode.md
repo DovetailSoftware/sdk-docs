@@ -1,6 +1,6 @@
 ﻿### IsDBUnicode Property (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### SetServerTimeZoneToMachineTimeZone Method (FCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

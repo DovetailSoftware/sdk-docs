@@ -4,7 +4,7 @@ Updates changes to a single [GenericDataRow](fcSDK~FChoice.Foundation.GenericDa
 
 Update methods commit changes to the database.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [Update(GenericDataRow,IDbTransaction)](fcSDK~FChoice.Foundation.FCGeneric~Update(GenericDataRow,IDbTransaction).md) | Updates changes to a single [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) under the context of a Transaction   |
 | [Update(GenericDataRow,UpdateQueryBatch)](fcSDK~FChoice.Foundation.FCGeneric~Update(GenericDataRow,UpdateQueryBatch).md) | Updates changes to a single [GenericDataRow](fcSDK~FChoice.Foundation.GenericDataRow.md) as part of a batch operation.   |
 
-Remarks
+#### Remarks
 
 If no changes have been made these methods will do nothing.
 

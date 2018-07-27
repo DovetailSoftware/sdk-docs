@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Add a new Workaround to an existing Solution. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

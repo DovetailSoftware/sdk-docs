@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Used to install a new site part. This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -38,7 +38,7 @@ Database transaction under which the API will be invoked.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 Each log parts used transaction must be related to either a case or a part request detail. If it is related to both, the part request detail must be linked to the case.
 

@@ -2,7 +2,7 @@
 
 Job title for the Contact
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

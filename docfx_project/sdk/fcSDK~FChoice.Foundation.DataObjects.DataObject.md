@@ -1,6 +1,6 @@
 ﻿### DataObject Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

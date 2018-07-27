@@ -1,6 +1,6 @@
 ﻿### ForEach Method (IHierarchicalStringListCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ The Objid of the Onsite Log being deleted.
 
 Initializes a new instance of the DeleteOnsiteLogSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

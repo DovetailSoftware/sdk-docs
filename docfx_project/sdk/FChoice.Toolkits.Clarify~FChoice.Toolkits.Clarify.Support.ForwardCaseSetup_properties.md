@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ForwardCaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardCaseSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

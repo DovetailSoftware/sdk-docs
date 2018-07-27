@@ -4,7 +4,7 @@ Used to remove an existing site part. This overload takes a setup object and a d
 
 Used to remove an existing site part.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -13,7 +13,7 @@ Overload List
 | [LogPartsUsedRemove(LogPartsUsedRemoveSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedRemove(LogPartsUsedRemoveSetup).md) |   |
 | [LogPartsUsedRemove(LogPartsUsedRemoveSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit~LogPartsUsedRemove(LogPartsUsedRemoveSetup,IDbTransaction).md) | Used to remove an existing site part. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 Each log parts used transaction must be related to either a case or a part request detail. If it is related to both, the part request detail must be linked to the case.
 

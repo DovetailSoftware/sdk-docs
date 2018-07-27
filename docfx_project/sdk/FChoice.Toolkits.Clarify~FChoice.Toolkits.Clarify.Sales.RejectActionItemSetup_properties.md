@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [RejectActionItemSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectActionItemSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

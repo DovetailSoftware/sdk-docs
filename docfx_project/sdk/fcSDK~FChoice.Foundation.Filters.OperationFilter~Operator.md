@@ -1,6 +1,6 @@
 ﻿### Operator Property (OperationFilter)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

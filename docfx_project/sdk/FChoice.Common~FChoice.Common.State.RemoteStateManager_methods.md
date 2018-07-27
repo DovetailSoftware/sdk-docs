@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [RemoteStateManager members](FChoice.Common~FChoice.Common.State.RemoteStateManager_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

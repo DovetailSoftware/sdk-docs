@@ -4,7 +4,7 @@ Used to delete an existing expense log. This overload takes a setup object and a
 
 Used to delete an existing expense log.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

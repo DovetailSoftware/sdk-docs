@@ -1,6 +1,6 @@
 ﻿### FCApplication Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -23,7 +23,7 @@ Public NotInheritable Class FCApplication
 public sealed class FCApplication : IFCApplication  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Foundation.Clarify.Compatibility.FCApplication**  

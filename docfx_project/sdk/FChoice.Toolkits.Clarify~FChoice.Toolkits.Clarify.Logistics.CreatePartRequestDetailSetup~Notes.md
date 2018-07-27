@@ -2,7 +2,7 @@
 
 Notes about the Part Request Detail creation
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

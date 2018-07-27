@@ -2,7 +2,7 @@
 
 Provides basic convenience services for instrumenting performance counters in an application
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public NotInheritable Class PerfManager
 public sealed class PerfManager 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.PerfManager**  

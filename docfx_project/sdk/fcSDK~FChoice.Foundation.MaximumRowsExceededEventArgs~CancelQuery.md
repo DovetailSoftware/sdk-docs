@@ -2,7 +2,7 @@
 
 When set to **true** the query will be canceled.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

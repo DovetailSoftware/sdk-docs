@@ -2,7 +2,7 @@
 
 Log Objid of the log to be fulfilled.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Property LogObjid As Integer
 public int LogObjid {get; set;}
 ```
 
-Remarks
+#### Remarks
 
 The commitment objid supplied must be for an open, unfulfilled commitment.
 

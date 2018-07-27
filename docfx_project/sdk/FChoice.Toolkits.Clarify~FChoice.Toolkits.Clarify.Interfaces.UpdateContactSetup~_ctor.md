@@ -12,7 +12,7 @@ Current role for the Contact at their site. Element from the 'Contact Role' appl
 
 Initializes a new instance of the UpdateContactSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

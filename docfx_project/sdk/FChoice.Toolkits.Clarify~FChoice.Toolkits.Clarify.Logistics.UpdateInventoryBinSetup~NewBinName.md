@@ -2,7 +2,7 @@
 
 New name of the inventory bin
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

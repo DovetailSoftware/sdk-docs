@@ -1,6 +1,6 @@
 ﻿### SchemaFieldCollectionBase Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public MustInherit Class SchemaFieldCollectionBase
 public abstract class SchemaFieldCollectionBase : FChoice.Foundation.DataObjects.DataObjectCollection<SchemaFieldBase>, FChoice.Foundation.Schema.ISchemaFieldCollection
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [System.Collections.Generic.List<T>](#)  

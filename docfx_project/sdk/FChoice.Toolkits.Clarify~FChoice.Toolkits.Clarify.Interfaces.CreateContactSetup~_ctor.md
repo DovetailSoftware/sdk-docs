@@ -10,7 +10,7 @@ Identifier of the site for the contact role to create.
 
 Initializes a new instance of the CreateContactSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [GenericException](fcSDK~FChoice.Foundation.GenericException.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ Public Properties
 
 
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

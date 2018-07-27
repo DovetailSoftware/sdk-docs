@@ -1,6 +1,6 @@
 ﻿### IStringCache Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

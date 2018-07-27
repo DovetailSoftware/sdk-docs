@@ -12,7 +12,7 @@ Identifies the Site where the added Contact is located.
 
 Adds a Contact to an existing Contract. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

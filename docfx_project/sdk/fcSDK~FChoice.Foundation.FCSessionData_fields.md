@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [FCSessionData members](fcSDK~FChoice.Foundation.FCSessionData_members.md).
 
-Public Fields
+#### Public Fields
 
 |   | Name | Description |
 | --- | --- | --- |

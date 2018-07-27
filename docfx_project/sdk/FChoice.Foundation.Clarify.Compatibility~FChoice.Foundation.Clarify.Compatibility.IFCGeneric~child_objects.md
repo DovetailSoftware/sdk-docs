@@ -1,6 +1,6 @@
 ﻿### child_objects Property (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

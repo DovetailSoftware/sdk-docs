@@ -1,6 +1,6 @@
 ﻿### SealContainerSetup Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -12,7 +12,7 @@ Public Class SealContainerSetup
 public class SealContainerSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Logistics.SealContainerSetup**  

@@ -2,7 +2,7 @@
 
 Start date of the price instance, If not set, the start date of the price program is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ﻿### MsSqlStateManager Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

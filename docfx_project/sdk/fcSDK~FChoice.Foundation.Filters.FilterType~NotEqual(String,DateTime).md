@@ -1,6 +1,6 @@
 ﻿### NotEqual(String,DateTime) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

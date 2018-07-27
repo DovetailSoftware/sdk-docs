@@ -4,7 +4,7 @@ ObjId of the Site Part to de-install
 
 Initializes a new instance of the DeinstallSitePartSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

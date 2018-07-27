@@ -6,7 +6,7 @@ Database transaction under which the API will be invoked.
 
 Creates a new Communication.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

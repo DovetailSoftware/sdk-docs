@@ -1,6 +1,6 @@
 ﻿### GetSafeBooleanFieldValue Method (IDataObject)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

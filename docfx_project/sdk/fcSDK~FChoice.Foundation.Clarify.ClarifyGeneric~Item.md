@@ -1,14 +1,12 @@
 ﻿### Item Property (ClarifyGeneric)
 
-fcSDK Documentation
-
-Item Property (ClarifyGeneric)
+### Item Property (ClarifyGeneric)
 
 The zero-based index of the [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) to get
 
 Gets the [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) at the specified index in this [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +32,7 @@ The zero-based index of the [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.Cl
 
 The [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) at the specified index in the collection
 
-Remarks
+#### Remarks
 
 This property provides the ability to access a specific [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) in the collection by using the following syntax: gCase\[0\] (gCase(0) in Visual Basic).
 

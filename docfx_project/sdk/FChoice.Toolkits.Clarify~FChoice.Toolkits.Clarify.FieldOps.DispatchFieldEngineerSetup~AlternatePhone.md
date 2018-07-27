@@ -2,7 +2,7 @@
 
 The alternate phone used to overide the contact alternate phone.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

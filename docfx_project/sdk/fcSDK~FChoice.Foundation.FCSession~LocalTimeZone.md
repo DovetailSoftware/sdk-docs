@@ -2,7 +2,7 @@
 
 The [TimeZone](fcSDK~FChoice.Foundation.DataObjects.ITimeZone.md) being used by the session.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -18,7 +18,7 @@ public ITimeZone LocalTimeZone {get; set;}
 
 The [TimeZone](fcSDK~FChoice.Foundation.DataObjects.ITimeZone.md) being used by the session.
 
-Remarks
+#### Remarks
 
 This setting works together with [ConvertTimeZone](fcSDK~FChoice.Foundation.FCSession~ConvertTimeZone.md) and [ServerTimeZone](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~ServerTimeZone.md)
 

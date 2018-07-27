@@ -1,6 +1,6 @@
 ﻿### LocalizedTitle Property (HierarchicalStringElement)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

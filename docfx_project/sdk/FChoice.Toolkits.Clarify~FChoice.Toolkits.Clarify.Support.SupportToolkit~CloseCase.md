@@ -4,7 +4,7 @@ Closes the specified Case that is currently open. This overload takes a set of r
 
 Closes the specified Case that is currently open.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [CloseCase(CloseCaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CloseCase(CloseCaseSetup).md) | Closes the specified Case that is currently open. This overload takes a setup object.   |
 | [CloseCase(CloseCaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CloseCase(CloseCaseSetup,IDbTransaction).md) | Closes the specified Case that is currently open. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 If the **CloseSums** property is not set, the API will automatically calculate the log summation for the Case.
 

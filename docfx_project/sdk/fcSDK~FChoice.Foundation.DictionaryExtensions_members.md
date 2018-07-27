@@ -2,7 +2,7 @@
 
 The following tables list the members exposed by [DictionaryExtensions](fcSDK~FChoice.Foundation.DictionaryExtensions.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

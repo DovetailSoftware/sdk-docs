@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [SimplifiedAdditionalFields members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalFields_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

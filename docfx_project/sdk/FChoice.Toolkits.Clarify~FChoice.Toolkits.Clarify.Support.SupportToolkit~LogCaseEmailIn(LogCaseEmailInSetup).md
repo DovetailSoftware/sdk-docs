@@ -4,7 +4,7 @@ Setup object for API invocation.
 
 Creates an email in log against a Case.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

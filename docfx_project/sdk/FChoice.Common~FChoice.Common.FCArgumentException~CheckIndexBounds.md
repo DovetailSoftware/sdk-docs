@@ -10,7 +10,7 @@ The current total of elements in the collection against which to verify the inde
 
 Used to verify that an indexer property get on a collection object contains an index that is within the bounds of collection.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -50,13 +50,13 @@ _maxBound_
 
 The current total of elements in the collection against which to verify the index value.
 
-Exceptions
+#### Exceptions
 
 | Exception | Description |
 | --- | --- |
 | [FCArgumentException](FChoice.Common~FChoice.Common.FCArgumentException.md) | index was greater than or equal to maxBound. |
 
-Remarks
+#### Remarks
 
 Index is expected to be a zero-based index value into the collection. If index is greater than or equal to maxBound, an FCArgumentException will be thrown using the error ID supplied.
 

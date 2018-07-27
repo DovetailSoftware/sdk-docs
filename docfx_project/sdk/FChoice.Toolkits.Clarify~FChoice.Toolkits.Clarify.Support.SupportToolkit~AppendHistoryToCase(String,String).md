@@ -6,7 +6,7 @@ Text to append to the case history.
 
 Append text to a Case's history.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

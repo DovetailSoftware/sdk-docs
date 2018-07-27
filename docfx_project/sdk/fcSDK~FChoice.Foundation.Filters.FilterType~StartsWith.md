@@ -2,7 +2,7 @@
 
 Filter field on strings that start with the input to this filter
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

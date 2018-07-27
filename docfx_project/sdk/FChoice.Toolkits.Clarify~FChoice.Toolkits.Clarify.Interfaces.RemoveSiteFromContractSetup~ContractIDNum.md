@@ -1,6 +1,6 @@
 ﻿### ContractIDNum Property (RemoveSiteFromContractSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

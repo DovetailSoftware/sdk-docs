@@ -1,6 +1,6 @@
 ﻿### InsertRange Method (IHierarchicalStringElementCollection)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

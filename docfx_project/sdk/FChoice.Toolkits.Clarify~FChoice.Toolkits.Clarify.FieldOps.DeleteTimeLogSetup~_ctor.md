@@ -4,7 +4,7 @@ The Objid of the Time Log being deleted.
 
 Initializes a new instance of the DeleteTimeLogSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

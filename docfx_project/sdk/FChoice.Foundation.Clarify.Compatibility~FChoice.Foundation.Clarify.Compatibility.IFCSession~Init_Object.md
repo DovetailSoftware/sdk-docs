@@ -1,6 +1,6 @@
 ﻿### Init_Object Method (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

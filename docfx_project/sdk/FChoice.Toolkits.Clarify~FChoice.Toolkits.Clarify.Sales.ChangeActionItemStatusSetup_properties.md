@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ChangeActionItemStatusSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemStatusSetup_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

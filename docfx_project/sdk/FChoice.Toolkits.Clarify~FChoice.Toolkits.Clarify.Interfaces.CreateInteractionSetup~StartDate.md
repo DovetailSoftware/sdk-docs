@@ -2,7 +2,7 @@
 
 DateTime Interaction began
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

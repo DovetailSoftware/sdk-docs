@@ -2,7 +2,7 @@
 
 Actual phone time (closed subcase only)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

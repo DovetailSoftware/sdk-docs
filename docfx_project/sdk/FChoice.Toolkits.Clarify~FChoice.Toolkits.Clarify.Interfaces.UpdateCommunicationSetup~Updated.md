@@ -2,7 +2,7 @@
 
 The date and time that the communication was updated.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

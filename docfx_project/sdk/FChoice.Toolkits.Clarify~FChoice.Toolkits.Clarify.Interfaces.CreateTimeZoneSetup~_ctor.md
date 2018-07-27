@@ -8,7 +8,7 @@ Name of the Country the Timezone will belong to.
 
 Initializes a new instance of the CreateTimeZoneSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 The Alternate Part domain
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

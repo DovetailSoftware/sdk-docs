@@ -1,6 +1,6 @@
 ﻿### NoRes Property (IFCSession)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

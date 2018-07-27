@@ -4,7 +4,7 @@ Accept the specified Solution from the queue in which it is currently dispatched
 
 Accept the specified Solution from the queue in which it is currently dispatched.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [AcceptSolution(AcceptSolutionSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AcceptSolution(AcceptSolutionSetup).md) | Accept the specified Solution from the queue in which it is currently dispatched. This overload takes a setup object.   |
 | [AcceptSolution(AcceptSolutionSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit~AcceptSolution(AcceptSolutionSetup,IDbTransaction).md) | Accept the specified Solution from the queue in which it is currently dispatched. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The Solution must be currently dispatched to a queue.
 

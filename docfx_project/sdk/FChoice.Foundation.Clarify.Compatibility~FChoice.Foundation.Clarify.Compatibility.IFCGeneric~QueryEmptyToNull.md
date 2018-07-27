@@ -1,6 +1,6 @@
 ﻿### QueryEmptyToNull Property (IFCGeneric)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

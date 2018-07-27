@@ -1,6 +1,6 @@
 ﻿### CopyTo(IHierarchicalStringElement\[\]) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

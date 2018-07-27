@@ -1,6 +1,6 @@
 ﻿### ITimeZone Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

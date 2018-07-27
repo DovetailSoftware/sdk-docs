@@ -2,7 +2,7 @@
 
 The user failing the CR. If not set, the session user is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

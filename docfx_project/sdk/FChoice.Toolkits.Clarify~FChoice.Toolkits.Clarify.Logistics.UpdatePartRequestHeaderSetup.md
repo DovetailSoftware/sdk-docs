@@ -2,7 +2,7 @@
 
 Used by the [UpdatePartRequestHeader](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartRequestHeader(UpdatePartRequestHeaderSetup).md) method as setup data for invocation.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public Class UpdatePartRequestHeaderSetup
 public class UpdatePartRequestHeaderSetup
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup**  

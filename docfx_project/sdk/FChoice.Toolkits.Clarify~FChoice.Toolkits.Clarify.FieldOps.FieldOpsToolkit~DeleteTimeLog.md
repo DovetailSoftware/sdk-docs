@@ -4,7 +4,7 @@ This API deletes an existing time log. This overload takes a setup object and a 
 
 This API deletes an existing time log.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |

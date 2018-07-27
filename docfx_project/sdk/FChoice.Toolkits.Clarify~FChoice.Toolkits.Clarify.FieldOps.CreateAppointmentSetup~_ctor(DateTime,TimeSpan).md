@@ -6,7 +6,7 @@ The length (in seconds) of the appointment. If not specified, it is calculated f
 
 Initializes a new instance of the CreateAppointmentSetup class. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -4,7 +4,7 @@ The message ID whose string value to load.
 
 Called by [FCExceptionBase Class](FChoice.Common~FChoice.Common.FCExceptionBase.md) when a specific error message string resource is required.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,7 +30,7 @@ The message ID whose string value to load.
 
 The value of the string resource for this message ID and current culture.
 
-Remarks
+#### Remarks
 
 If you wish to provide internationalized culture-specific error messages, use the [CultureInfo.CurrentCulture](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemGlobalizationCultureInfoClassCurrentCultureTopic.htm) property to determine which culture's resource to return.
 

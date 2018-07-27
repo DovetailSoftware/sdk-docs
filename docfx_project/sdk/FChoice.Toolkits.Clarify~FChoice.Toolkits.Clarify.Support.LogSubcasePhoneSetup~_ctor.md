@@ -10,7 +10,7 @@ Contact's phone number.
 
 Initializes a new instance of the LogSubcasePhoneSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

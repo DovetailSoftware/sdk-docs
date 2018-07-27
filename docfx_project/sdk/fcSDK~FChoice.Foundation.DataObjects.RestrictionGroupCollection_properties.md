@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [RestrictionGroupCollection members](fcSDK~FChoice.Foundation.DataObjects.RestrictionGroupCollection_members.md).
 
-Public Properties
+#### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |

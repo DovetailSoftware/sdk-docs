@@ -2,7 +2,7 @@
 
 The new queue into which the Solution is to be forwarded.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

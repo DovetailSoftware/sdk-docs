@@ -2,7 +2,7 @@
 
 Specifies if a timebomb be added to Clarify that will cause Rule Manager (if running) to send the email.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Identifier of the Case against which the email in is being logged.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

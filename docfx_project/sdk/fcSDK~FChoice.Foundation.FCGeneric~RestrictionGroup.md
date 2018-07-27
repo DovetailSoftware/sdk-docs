@@ -2,7 +2,7 @@
 
 Override the Session Data Restriction Group of this Generic. The [ChangeRestrictionGroup](fcSDK~FChoice.Foundation.FCGeneric~ChangeRestrictionGroup.md) method is available as a helper.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

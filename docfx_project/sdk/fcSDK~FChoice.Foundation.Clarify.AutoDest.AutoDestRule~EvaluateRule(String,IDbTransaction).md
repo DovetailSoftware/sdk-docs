@@ -1,6 +1,6 @@
 ﻿### EvaluateRule(String,IDbTransaction) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -8,7 +8,7 @@ Allows parts to be transferred independent of a part request to fix order errors
 
 This overload takes a setup object and a database transaction.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -40,7 +40,7 @@ Database transaction under which the API will be invoked.
 
 A PartTransferResult instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Remarks
+#### Remarks
 
 As in Clarify, the transfer can be from good or bad stock and can be to good or bad stock.
 

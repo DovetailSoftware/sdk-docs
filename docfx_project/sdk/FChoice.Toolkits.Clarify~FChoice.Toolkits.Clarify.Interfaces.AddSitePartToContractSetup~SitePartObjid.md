@@ -2,7 +2,7 @@
 
 Objid of the SitePart to be added.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

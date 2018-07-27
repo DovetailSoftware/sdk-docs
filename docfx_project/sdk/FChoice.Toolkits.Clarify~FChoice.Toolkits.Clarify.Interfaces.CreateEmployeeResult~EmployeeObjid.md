@@ -2,7 +2,7 @@
 
 Objid of the Employee record created.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

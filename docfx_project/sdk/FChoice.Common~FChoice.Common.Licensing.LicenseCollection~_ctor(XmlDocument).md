@@ -1,6 +1,6 @@
 ﻿### LicenseCollection Constructor(XmlDocument)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

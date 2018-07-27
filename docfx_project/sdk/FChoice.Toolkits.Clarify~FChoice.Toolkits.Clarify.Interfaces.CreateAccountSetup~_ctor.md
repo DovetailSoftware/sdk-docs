@@ -2,7 +2,7 @@
 
 Initializes a new instance of the CreateAccountSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

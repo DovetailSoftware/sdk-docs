@@ -1,6 +1,6 @@
 ﻿### RootTable Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

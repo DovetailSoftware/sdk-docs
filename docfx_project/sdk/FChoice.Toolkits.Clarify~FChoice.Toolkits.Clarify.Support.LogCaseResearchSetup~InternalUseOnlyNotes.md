@@ -2,7 +2,7 @@
 
 Notes for internal use only.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 This value will control the number of rows to be returned from a large query.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

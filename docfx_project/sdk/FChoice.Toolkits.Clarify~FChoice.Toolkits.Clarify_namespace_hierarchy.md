@@ -1,6 +1,6 @@
-﻿### FChoice.Toolkits.Clarify Namespace Inheritance Hierarchy
+﻿### FChoice.Toolkits.Clarify Namespace #### Inheritance Hierarchy
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 [FChoice.Toolkits.Clarify.AdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.md)  

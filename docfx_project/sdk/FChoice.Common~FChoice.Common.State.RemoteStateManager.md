@@ -1,6 +1,6 @@
 ﻿### RemoteStateManager Class
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -13,7 +13,7 @@ Public MustInherit Class RemoteStateManager
 public abstract class RemoteStateManager : IStateManager  
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.State.RemoteStateManager**  

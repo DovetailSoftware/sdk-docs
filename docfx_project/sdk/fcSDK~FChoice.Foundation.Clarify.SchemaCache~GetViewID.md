@@ -1,6 +1,6 @@
 ﻿### GetViewID Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

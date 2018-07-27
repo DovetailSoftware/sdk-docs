@@ -1,6 +1,6 @@
 ﻿### IGlobalStringListCollection Interface
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 Caches and provides convenient access to string_db and fc_string values
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -16,7 +16,7 @@ Public Class StringCache
 public class StringCache : ClarifyCacheBase, IStringCache
 ```  
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.CacheBase](fcSDK~FChoice.Foundation.CacheBase.md)  

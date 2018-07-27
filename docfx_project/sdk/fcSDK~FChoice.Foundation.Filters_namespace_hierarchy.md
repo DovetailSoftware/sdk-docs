@@ -1,10 +1,6 @@
-﻿     FChoice.Foundation.Filters Namespace Inheritance Hierarchy                                                   
+﻿### FChoice.Foundation.Filters Namespace #### Inheritance Hierarchy
 
-fcSDK Documentation
-
-FChoice.Foundation.Filters Namespace Inheritance Hierarchy
-
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  

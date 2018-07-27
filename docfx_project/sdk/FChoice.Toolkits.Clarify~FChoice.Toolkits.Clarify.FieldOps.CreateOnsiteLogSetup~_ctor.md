@@ -6,7 +6,7 @@ Specifies the Id Number of this Onsite Log's Case or Subcase.
 
 Initializes a new instance of the CreateOnsiteLogSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

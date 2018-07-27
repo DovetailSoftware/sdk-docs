@@ -1,6 +1,6 @@
 ﻿### Sort(IComparer<IHierarchicalStringElement>) Method
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

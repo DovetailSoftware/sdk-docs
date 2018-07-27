@@ -2,7 +2,7 @@
 
 Singleton providing access to the current collection of valid First Choice licenses
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -14,7 +14,7 @@ Public NotInheritable Class LicenseManager
 public sealed class LicenseManager 
 ```
 
-Remarks
+#### Remarks
 
 Please access the License Manager via the [Instance](FChoice.Common~FChoice.Common.Licensing.LicenseManager~Instance.md) property.
 
@@ -22,7 +22,7 @@ If multiple licenses for the same product are present the manager does its best 
 
 If you install new licenses you will need to re-initialize your application to have the new licenses become available.
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    **FChoice.Common.Licensing.LicenseManager**  

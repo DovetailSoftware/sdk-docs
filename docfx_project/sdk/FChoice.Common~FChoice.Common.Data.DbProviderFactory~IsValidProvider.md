@@ -4,7 +4,7 @@ The provider name or alias to verify
 
 Gets whether or not the specified alias or name is a valid alias/name for a configured or intrinsic data access provider
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -30,13 +30,13 @@ The provider name or alias to verify
 
 Whether or not the specified alias or name is a valid alias/name for a configured or intrinsic data access provider
 
-Exceptions
+#### Exceptions
 
 | Exception | Description |
 | --- | --- |
 | [ArgumentNullException](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemargumentnullexceptionclasstopic.htm) | _key_ is a null reference (**Nothing** in Visual Basic) |
 
-Remarks
+#### Remarks
 
 For more information on specifying custom data providers, see the guide on [Configuring Custom Data Providers](/articles/configuring-database-providers.md).
 

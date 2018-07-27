@@ -24,7 +24,7 @@ Should Queue allow Action Items
 
 Initializes a new instance of the CreateQueueSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

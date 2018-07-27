@@ -1,6 +1,6 @@
 ﻿### IsStateSerialized Property (IStateManager)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

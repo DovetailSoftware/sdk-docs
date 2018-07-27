@@ -4,7 +4,7 @@ Contract Identifier.
 
 Initializes a new instance of the RejectContractSetup class.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

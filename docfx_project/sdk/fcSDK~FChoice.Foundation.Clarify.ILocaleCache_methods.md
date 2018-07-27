@@ -2,7 +2,7 @@
 
 For a list of all members of this type, see [ILocaleCache members](fcSDK~FChoice.Foundation.Clarify.ILocaleCache_members.md).
 
-Public Methods
+#### Public Methods
 
 |   | Name | Description |
 | --- | --- | --- |

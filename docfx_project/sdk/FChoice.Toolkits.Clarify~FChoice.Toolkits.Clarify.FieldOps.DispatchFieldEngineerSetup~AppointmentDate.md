@@ -2,7 +2,7 @@
 
 The DateTime of the Appointment. If not set, the current time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

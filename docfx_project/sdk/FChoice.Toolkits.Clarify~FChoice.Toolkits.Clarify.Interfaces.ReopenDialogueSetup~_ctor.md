@@ -1,6 +1,6 @@
 ﻿### ReopenDialogueSetup Constructor
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

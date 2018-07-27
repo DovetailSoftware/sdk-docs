@@ -10,7 +10,7 @@ The amount of the Purchase Order.
 
 Used to add purchase orders to schedules of contracts. This overload takes a set of required parameters for the API.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -57,7 +57,7 @@ The following values are populated in the ToolkitResult object returned by the A
 *   [IDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~IDNum.md) \- The IDNum of the PO.
 *   [Objid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult~Objid.md) \- The Objid of the PO.
 
-Remarks
+#### Remarks
 
 The PO number cannot be defined already for the schedule.
 

@@ -10,7 +10,7 @@ The Part Domain of the part being installed
 
 The Serial Number of the part being installed
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

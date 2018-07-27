@@ -1,6 +1,6 @@
 ﻿### is_rel_mandatory Method (IFCApplication)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -2,7 +2,7 @@
 
 When Change Request was closed. If not set, the current date time is used.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

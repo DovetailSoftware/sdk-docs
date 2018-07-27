@@ -4,7 +4,7 @@ Move the CR from one WipBin to another WipBin. This overload takes a set of requ
 
 Move the CR from one WipBin to another WipBin.
 
-Overload List
+#### Overload List
 
 | Overload | Description |
 | --- | --- |
@@ -12,7 +12,7 @@ Overload List
 | [MoveCR(MoveCRSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~MoveCR(MoveCRSetup).md) | Move the CR from one WipBin to another WipBin. This overload takes a setup object.   |
 | [MoveCR(MoveCRSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit~MoveCR(MoveCRSetup,IDbTransaction).md) | Move the CR from one WipBin to another WipBin. This overload takes a setup object and a database transaction.   |
 
-Remarks
+#### Remarks
 
 The new WipBin must belong to the same user as the first WipBin. The move operation does not change the ownership of the CR, nor is an activity log or time bomb generated for the action.
 

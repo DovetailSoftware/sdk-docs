@@ -2,7 +2,7 @@
 
 Provides a [Generic](fcSDK~FChoice.Foundation.FCGeneric.md) with data storage that integrates with [DataSets](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/vbcon/html/vbcondatasets.asp).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -17,7 +17,7 @@ Public MustInherit Class GenericDataTable
 public abstract class GenericDataTable : [System.Data.DataTable](#) 
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
 [System.ComponentModel.MarshalByValueComponent](#)  

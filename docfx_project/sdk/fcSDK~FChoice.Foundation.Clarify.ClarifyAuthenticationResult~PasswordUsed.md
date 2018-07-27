@@ -1,6 +1,6 @@
 ﻿### PasswordUsed Property
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

@@ -1,6 +1,6 @@
 ### ContactObjid Property (UpdateContactByObjidSetup)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

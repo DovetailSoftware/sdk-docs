@@ -6,7 +6,7 @@ The destination [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystema
 
 Copies all the [rows](/sdk/fcSDK~FChoice.Foundation.FCGeneric~Rows.md) of the current **FCGeneric** into to a one-dimensional [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemarrayclasstopic.htm).
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -34,7 +34,7 @@ _index_
 
 The destination [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemarrayclasstopic.htm) index to start copying into.
 
-Remarks
+#### Remarks
 
 Please see the GenericDataRowCollection's [CopyTo](fcSDK~FChoice.Foundation.GenericDataRowCollection~CopyTo.md)
 

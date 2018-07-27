@@ -2,7 +2,7 @@
 
 Identifier of the 'master' CR this CR duplicates.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

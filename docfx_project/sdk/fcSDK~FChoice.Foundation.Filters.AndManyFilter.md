@@ -2,7 +2,7 @@
 
 Alternative filter to [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md) which allows for more than two sub filters.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
@@ -15,7 +15,7 @@ Public Class AndManyFilter
 public class AndManyFilter : LogicalFilter
 ```
 
-Inheritance Hierarchy
+#### Inheritance Hierarchy
 
 System.Object  
    [FChoice.Foundation.Filters.Filter](fcSDK~FChoice.Foundation.Filters.Filter.md)  

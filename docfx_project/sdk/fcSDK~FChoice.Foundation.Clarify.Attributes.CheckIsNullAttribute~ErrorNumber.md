@@ -1,6 +1,6 @@
 ﻿### ErrorNumber Field
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

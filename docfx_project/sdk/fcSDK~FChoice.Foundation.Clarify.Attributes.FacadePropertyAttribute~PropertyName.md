@@ -1,6 +1,6 @@
 ﻿### PropertyName Property (FacadePropertyAttribute)
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration

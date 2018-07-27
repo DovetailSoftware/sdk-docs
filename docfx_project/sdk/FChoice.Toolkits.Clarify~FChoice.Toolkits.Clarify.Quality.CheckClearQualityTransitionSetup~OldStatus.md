@@ -2,7 +2,7 @@
 
 The current status of the Change Request.
 
-Syntax
+#### Syntax
 
 ```vbnet
 'Declaration
