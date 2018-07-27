@@ -6,7 +6,7 @@ These APIs can be used in custom web pages, the Clarify thick-client GUI, or in 
 
 Functions are provided to allow you to create, modify, close, dispatch, accept, reject, assign, yank, move, change status, log notes, reopen, and more.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -48,11 +48,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [LogCasePhoneSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup.md) | Used by the [LogCasePhone](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCasePhone(LogCasePhoneSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [LogCaseResearchResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchResult.md) | Result from the [LogCaseResearch](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseResearch.md) API. |
 | ![Class](dotnetimages/Class.png) | [LogCaseResearchSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup.md) | Used by the [LogCaseResearch](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseResearch(LogCaseResearchSetup).md) method as setup data for invocation. |
-| ![Class](dotnetimages/Class.png) | [LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md) | 
-Setup that is common to both [LogCaseEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailInSetup.md) and [LogSubcaseEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubCaseEmailInSetup.md).
-
-This setup should not be used on its own.
-
+| ![Class](dotnetimages/Class.png) | [LogEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.md) | Setup that is common to both [LogCaseEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailInSetup.md) and [LogSubcaseEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubCaseEmailInSetup.md).<br><br>This setup should not be used on its own.
  |
 | ![Class](dotnetimages/Class.png) | [LogSubcaseCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseCommitmentSetup.md) | Used by the [LogSubcaseCommitment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubcaseCommitment(LogSubcaseCommitmentSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [LogSubCaseEmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubCaseEmailInSetup.md) | Used by the [LogSubCaseEmailIn](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogSubCaseEmailIn(LogSubCaseEmailInSetup).md) method as setup data for invocation. |
@@ -74,11 +70,7 @@ This setup should not be used on its own.
 | ![Class](dotnetimages/Class.png) | [ReopenCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup.md) | Used by the [ReopenCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ReopenCase(ReopenCaseSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [ReopenSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup.md) | Used by the [ReopenSubcase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ReopenSubcase(ReopenSubcaseSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [SubcaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses.md) | Holds summary totals from the [PrecloseSubcase](/sdk/toolkit_html/fccs/preclose_subcase.md) API. |
-| ![Class](dotnetimages/Class.png) | [SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.md) | Provides APIs to allow you to modify basic ClearSupport objects such as Case and Subcase.
-
-Methods on the [SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.md) object allow you to [create](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CreateCase.md), [modify](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UpdateCase.md), [close](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CloseCase.md), [dispatch](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~DispatchCase.md), [accept](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AcceptCase.md), [reject](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~RejectCase.md), [assign](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AssignCase.md), [yank](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~YankCase.md), [move](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~MoveCase.md), [change status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeCaseStatus.md), [log notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseNote.md), [reopen](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ReopenCase.md), and more.
-
- |
+| ![Class](dotnetimages/Class.png) | [SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.md) | Provides APIs to allow you to modify basic ClearSupport objects such as Case and Subcase.<br><br>Methods on the [SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.md) object allow you to [create](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CreateCase.md), [modify](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UpdateCase.md), [close](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CloseCase.md), [dispatch](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~DispatchCase.md), [accept](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AcceptCase.md), [reject](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~RejectCase.md), [assign](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~AssignCase.md), [yank](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~YankCase.md), [move](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~MoveCase.md), [change status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeCaseStatus.md), [log notes](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~LogCaseNote.md), [reopen](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ReopenCase.md), and more. |
 | ![Class](dotnetimages/Class.png) | [SupportToolkitBase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase.md) | Please see [SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.md). This class is used internally and not meant to be created by end users. |
 | ![Class](dotnetimages/Class.png) | [UnrelateCaseFromParentCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UnrelateCaseFromParentCaseSetup.md) | Used by the [UnrelateCaseFromParentCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UnrelateCaseFromParentCase(UnrelateCaseFromParentCaseSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [UpdateCaseCommitmentSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup.md) | Used by the [UpdateCaseCommitment](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UpdateCaseCommitment(UpdateCaseCommitmentSetup).md) method as setup data for invocation. |
@@ -88,13 +80,11 @@ Methods on the [SupportToolkit](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarif
 | ![Class](dotnetimages/Class.png) | [YankCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup.md) | Used by the [YankCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~YankCase(YankCaseSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [YankSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankSubcaseSetup.md) | Used by the [YankSubcase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~YankSubcase(YankSubcaseSetup).md) method as setup data for invocation. |
 
-Interfaces
+#### Interfaces
 
 |   | Interface | Description |
 | --- | --- | --- |
 | ![Interface](dotnetimages/Interface.png) | [IApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.md) |   |
-
-
 
 #### Reference
 

@@ -1,6 +1,6 @@
 ﻿### FChoice.Common.State Namespace
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -12,7 +12,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [StateManagerException](FChoice.Common~FChoice.Common.State.StateManagerException.md) |   |
 | ![Class](dotnetimages/Class.png) | [StateManagerSectionHandler](FChoice.Common~FChoice.Common.State.StateManagerSectionHandler.md) |   |
 
-Interfaces
+#### Interfaces
 
 |   | Interface | Description |
 | --- | --- | --- |

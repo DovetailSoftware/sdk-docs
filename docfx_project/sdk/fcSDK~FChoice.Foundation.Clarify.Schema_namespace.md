@@ -2,7 +2,7 @@
 
 The **FChoice.Foundation.Clarify.Schema** namespace contains classes which allow object-oriented access to the Clarify system Schema (ADP) objects.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -25,7 +25,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [SchemaViewJoin](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewJoin.md) |   |
 | ![Class](dotnetimages/Class.png) | [SchemaViewJoinCollection](fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewJoinCollection.md) |   |
 
-Enumerations
+#### Enumerations
 
 |   | Enumeration | Description |
 | --- | --- | --- |

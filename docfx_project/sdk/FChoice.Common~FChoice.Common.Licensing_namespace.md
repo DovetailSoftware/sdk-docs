@@ -1,6 +1,6 @@
 ﻿### FChoice.Common.Licensing Namespace
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -10,14 +10,14 @@ Classes
 | ![Class](dotnetimages/Class.png) | [XmlClarifyLicenseTool](FChoice.Common~FChoice.Common.Licensing.XmlClarifyLicenseTool.md) |   |
 | ![Class](dotnetimages/Class.png) | [XmlLicenseTool](FChoice.Common~FChoice.Common.Licensing.XmlLicenseTool.md) |   |
 
-Interfaces
+#### Interfaces
 
 |   | Interface | Description |
 | --- | --- | --- |
 | ![Interface](dotnetimages/Interface.png) | [ILicenseInfo](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo.md) |   |
 | ![Interface](dotnetimages/Interface.png) | [ILicenseTool](FChoice.Common~FChoice.Common.Licensing.ILicenseTool.md) | Supports First Choice licensing. |
 
-Enumerations
+#### Enumerations
 
 |   | Enumeration | Description |
 | --- | --- | --- |

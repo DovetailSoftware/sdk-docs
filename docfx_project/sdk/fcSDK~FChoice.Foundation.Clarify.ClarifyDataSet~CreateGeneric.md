@@ -13,8 +13,6 @@ Creates a new [ClarifyGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.m
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
 [ClarifyDataSet Class](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md)  

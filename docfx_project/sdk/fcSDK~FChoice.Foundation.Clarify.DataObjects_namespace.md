@@ -2,7 +2,7 @@
 
 The **FChoice.Foundation.Clarify.DataObjects** namespace contains classes which represent commonly used objects in the Clarify system such as user-defined lists, countries/states/timezones, and localized strings.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -29,7 +29,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [StateCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection.md) |   |
 | ![Class](dotnetimages/Class.png) | [StateProvince](fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince.md) |   |
 
-Interfaces
+#### Interfaces
 
 |   | Interface | Description |
 | --- | --- | --- |

@@ -2,13 +2,13 @@
 
 Support for updating relations between objects that require information that is not yet loaded or available.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
 | ![Class](dotnetimages/Class.png) | [DynamicBindingCollection](fcSDK~FChoice.Foundation.DynamicBinding.DynamicBindingCollection.md) |   |
 
-Interfaces
+#### Interfaces
 
 |   | Interface | Description |
 | --- | --- | --- |

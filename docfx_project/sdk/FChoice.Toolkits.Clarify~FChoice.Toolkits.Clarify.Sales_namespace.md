@@ -4,7 +4,7 @@ This toolkit provides functions to allow you to emulate the Clarify ClearSales m
 
 Functions included allow you to modify aspects of Quotes, Action Items, Opportunities, and Leads.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |

@@ -18,7 +18,7 @@ public Location FromLocation {get; set;}
 
 #### Remarks
 
-If this parameter is set to [Location.EMPTY](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.Location~EMPTY.md), the inventory will be searched for the received part. If found, that location will be used.
+If this parameter is set to [Location.EMPTY](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~EMPTY.md), the inventory will be searched for the received part. If found, that location will be used.
 
 To use a primary bin suggestion/recommendation that has been previously configured, use the [special constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location~_ctor(String,Boolean).md) for the Location object and set the _isPrimaryBinSuggestion_ parameter to true.
 

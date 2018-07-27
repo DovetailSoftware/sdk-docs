@@ -2,7 +2,7 @@
 
 Root namespace for all the API Toolkit functionality contained in the fcSDK. Shared objects such as [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) and [AdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.md) are contained in this namespace. For more information about a particular toolkit, please consult its individual namespace.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [ToolkitResultPropertyAttribute](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResultPropertyAttribute.md) |   |
 | ![Class](dotnetimages/Class.png) | [Utility](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Utility.md) |   |
 
-Enumerations
+#### Enumerations
 
 |   | Enumeration | Description |
 | --- | --- | --- |

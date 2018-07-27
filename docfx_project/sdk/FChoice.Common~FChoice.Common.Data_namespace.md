@@ -2,7 +2,7 @@
 
 The **FChoice.Common.Data** namespace provides data access services to First Choice .NET-based products.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [TypeMapper](FChoice.Common~FChoice.Common.Data.TypeMapper.md) | This class is not currently used and is intended for future products. |
 | ![Class](dotnetimages/Class.png) | [UpdateQueryBatch](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch.md) | Helper class for grouping INSERT and UPDATE statements together into a single batch without concern for the underlying database type's support for statement batching |
 
-Interfaces
+#### Interfaces
 
 |   | Interface | Description |
 | --- | --- | --- |

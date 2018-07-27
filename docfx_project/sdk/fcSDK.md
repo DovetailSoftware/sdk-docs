@@ -1,13 +1,12 @@
 ﻿### fcSDK Assembly
 
-Namespaces
+#### Namespaces
 
 | Namespace | Description |
 | --- | --- |
 | [(Global)](fcSDK~-_namespace.md) |   |
 | [FChoice.Foundation](fcSDK~FChoice.Foundation_namespace.md) | Base implementation of core CRM capabilities. |
-| [FChoice.Foundation.Clarify](fcSDK~FChoice.Foundation.Clarify_namespace.md) | The **FChoice.Foundation.Clarify** namespace provides the main classes for data and application access to Clarify systems.  
-The **FChoice.Foundation.Clarify** assembly contains classes that provide low-level access to Clarify database systems. **FChoice.Foundation.Clarify** is part of the First Choice **FCFL.NET** product. |
+| [FChoice.Foundation.Clarify](fcSDK~FChoice.Foundation.Clarify_namespace.md) | The **FChoice.Foundation.Clarify** namespace provides the main classes for data and application access to Clarify systems.<br><br>The **FChoice.Foundation.Clarify** assembly contains classes that provide low-level access to Clarify database systems. **FChoice.Foundation.Clarify** is part of the First Choice **FCFL.NET** product. |
 | [FChoice.Foundation.Clarify.Attributes](fcSDK~FChoice.Foundation.Clarify.Attributes_namespace.md) |   |
 | [FChoice.Foundation.Clarify.AutoDest](fcSDK~FChoice.Foundation.Clarify.AutoDest_namespace.md) | The **FChoice.Foundation.Clarify.AutoDest** namespace provides Auto Destination rule processing support which is used frequently within the Clarify system. |
 | [FChoice.Foundation.Clarify.DataObjects](fcSDK~FChoice.Foundation.Clarify.DataObjects_namespace.md) | The **FChoice.Foundation.Clarify.DataObjects** namespace contains classes which represent commonly used objects in the Clarify system such as user-defined lists, countries/states/timezones, and localized strings. |

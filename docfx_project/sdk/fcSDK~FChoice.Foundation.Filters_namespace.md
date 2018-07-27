@@ -1,6 +1,6 @@
 ﻿### FChoice.Foundation.Filters Namespace
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |

@@ -20,7 +20,7 @@ The current date and time on the database server
 
 #### Remarks
 
-The date and time returned by this method will be in the database's time zone. If the application is configured for a different time zone, conversion must be done manually. For information on performing time zone conversions using **FCFL.NET**, please see the following methods on the [FCSession](FChoice.Foundation~FChoice.Foundation.FCSession.md) class: [ChangeDate](FChoice.Foundation~FChoice.Foundation.FCSession~ConvertDate.md), [ConvertFromLocalToServerDate](FChoice.Foundation~FChoice.Foundation.FCSession~ConvertFromLocalToServerDate.md), and [ConvertFromServerToLocalDate](FChoice.Foundation~FChoice.Foundation.FCSession~ConvertFromLocalToServerDate.md).
+The date and time returned by this method will be in the database's time zone. If the application is configured for a different time zone, conversion must be done manually. For information on performing time zone conversions using **FCFL.NET**, please see the following methods on the [FCSession](fcSDK~FChoice.Foundation.FCSession.md) class: [ChangeDate](fcSDK~FChoice.Foundation.FCSession~ConvertDate.md), [ConvertFromLocalToServerDate](fcSDK~FChoice.Foundation.FCSession~ConvertFromLocalToServerDate.md), and [ConvertFromServerToLocalDate](fcSDK~FChoice.Foundation.FCSession~ConvertFromServerToLocalDate.md).
 
 [!include[Requirements](../partials/requirements.md)]
 

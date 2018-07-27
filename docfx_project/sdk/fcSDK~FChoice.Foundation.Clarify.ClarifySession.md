@@ -19,7 +19,7 @@ public class ClarifySession : FChoice.Foundation.FCSession
 
 To create a session, see [ClarifyApplication.CreateSession](fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~CreateSession.md).
 
-To start accessing data, see the [CreateGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifySession~CreateGeneric.md) method.
+To start accessing data, see the [CreateGeneric](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet~CreateGeneric.md) method.
 
 FCFL.NET sessions are stateful containers that are used to remember information about a user during their session using the system. They also provide access to manipulate data and settings in the Clarify system.
 

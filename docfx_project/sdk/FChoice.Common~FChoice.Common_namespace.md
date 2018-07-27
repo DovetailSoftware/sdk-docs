@@ -2,7 +2,7 @@
 
 The **FChoice.Common** namespace provides configuration, logging, and error management services to First Choice .NET-based products.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -20,13 +20,13 @@ Classes
 | ![Class](dotnetimages/Class.png) | [PerfManager](FChoice.Common~FChoice.Common.PerfManager.md) | Provides basic convenience services for instrumenting performance counters in an application |
 | ![Class](dotnetimages/Class.png) | [StringUtil](FChoice.Common~FChoice.Common.StringUtil.md) |   |
 
-Interfaces
+#### Interfaces
 
 |   | Interface | Description |
 | --- | --- | --- |
 | ![Interface](dotnetimages/Interface.png) | [IErrorMessageProvider](FChoice.Common~FChoice.Common.IErrorMessageProvider.md) | The IErrorMessageProvider is the interface used by [FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md) to allow other assemblies to provide custom error message resolution. |
 
-Enumerations
+#### Enumerations
 
 |   | Enumeration | Description |
 | --- | --- | --- |

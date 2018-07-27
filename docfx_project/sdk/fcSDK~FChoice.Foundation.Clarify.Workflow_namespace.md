@@ -1,6 +1,6 @@
 ﻿### FChoice.Foundation.Clarify.Workflow Namespace
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -8,7 +8,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [WorkFlowInfo](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.md) |   |
 | ![Class](dotnetimages/Class.png) | [WorkflowManager](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager.md) |   |
 
-Enumerations
+#### Enumerations
 
 |   | Enumeration | Description |
 | --- | --- | --- |

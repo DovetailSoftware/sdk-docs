@@ -16,8 +16,8 @@ public bool AllowDuplicateContact {get; set;}
 
 #### Property Value
 
-A [Boolean](mscorlib~System.Boolean.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.  
-A [Void](mscorlib~System.Void.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.A [Boolean](mscorlib~System.Boolean.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A [Void](https://msdn.microsoft.com/en-us/library/system.void.aspx) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
+A [Boolean](https://msdn.microsoft.com/en-us/library/system.boolean.aspx) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
 #### Remarks
 

@@ -30,7 +30,7 @@ Batch under which to do this update.
 
 **NOTE:** This method calls [FCGeneric.Update](fcSDK~FChoice.Foundation.FCGeneric~Update(GenericDataRow,UpdateQueryBatch).md)
 
-When it is desirable to consolidate many database operations in one round trip to the database this method can be used in conjunction with a [UpdateQueryBatch](FChoice.Common~FChoice.Common.UpdateQueryBatch.md) object.
+When it is desirable to consolidate many database operations in one round trip to the database this method can be used in conjunction with a [UpdateQueryBatch](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch.md) object.
 
 [!include[Requirements](../partials/requirements.md)]
 

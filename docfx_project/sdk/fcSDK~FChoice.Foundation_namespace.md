@@ -2,7 +2,7 @@
 
 Base implementation of core CRM capabilities.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -36,7 +36,7 @@ Delegates
 | ![Delegate](dotnetimages/Delegate.png) | [CachesUpdatedEventHandler](fcSDK~FChoice.Foundation.CachesUpdatedEventHandler.md) |   |
 | ![Delegate](dotnetimages/Delegate.png) | [MaximumRowsExceededEventHandler](fcSDK~FChoice.Foundation.MaximumRowsExceededEventHandler.md) |   |
 
-Enumerations
+#### Enumerations
 
 |   | Enumeration | Description |
 | --- | --- | --- |

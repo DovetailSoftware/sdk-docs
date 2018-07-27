@@ -4,7 +4,7 @@ The **FChoice.Foundation.Clarify** namespace provides the main classes for data 
 
 The **FChoice.Foundation.Clarify** assembly contains classes that provide low-level access to Clarify database systems. **FChoice.Foundation.Clarify** is part of the First Choice **FCFL.NET** product.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -31,7 +31,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [StringCache](fcSDK~FChoice.Foundation.Clarify.StringCache.md) | Caches and provides convenient access to string_db and fc_string values |
 | ![Class](dotnetimages/Class.png) | [WorkflowObjectInfo](fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo.md) |   |
 
-Interfaces
+#### Interfaces
 
 |   | Interface | Description |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ Delegates
 | ![Delegate](dotnetimages/Delegate.png) | [InitializeStatusChangeEventHandler](fcSDK~FChoice.Foundation.Clarify.InitializeStatusChangeEventHandler.md) |   |
 | ![Delegate](dotnetimages/Delegate.png) | [SchemaLoadStatusEventHandler](fcSDK~FChoice.Foundation.Clarify.SchemaLoadStatusEventHandler.md) |   |
 
-Enumerations
+#### Enumerations
 
 |   | Enumeration | Description |
 | --- | --- | --- |

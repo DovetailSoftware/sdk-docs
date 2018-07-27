@@ -1,6 +1,6 @@
 ﻿### FChoice.Foundation.Clarify.Compatibility Namespace
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
@@ -17,7 +17,7 @@ Classes
 | ![Class](dotnetimages/Class.png) | [MockAdoField](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockAdoField.md) |   |
 | ![Class](dotnetimages/Class.png) | [MockCollection](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockCollection.md) |   |
 
-Interfaces
+#### Interfaces
 
 |   | Interface | Description |
 | --- | --- | --- |

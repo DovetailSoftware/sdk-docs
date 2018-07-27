@@ -20,7 +20,7 @@ public [CaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.S
 
 If set, this property overrides the calculation of the Case summation.
 
-[PrecloseCase](/sdk/toolkit_html/fccs/preclose_case.md) returns a [CaseSums](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.PrecloseCaseResult~CaseSums.md) object useful for using with this property. If using the CaseSums result from PrecloseCase, any log entries between calling PrecloseCase and [CloseCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CloseCase.md) will not be included in the summation.
+**PrecloseCase** returns a **CaseSums** object useful for using with this property. If using the CaseSums result from PrecloseCase, any log entries between calling PrecloseCase and [CloseCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~CloseCase.md) will not be included in the summation.
 
 [!include[Requirements](../partials/requirements.md)]
 

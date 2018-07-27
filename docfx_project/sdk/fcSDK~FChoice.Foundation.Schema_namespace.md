@@ -1,8 +1,8 @@
 ﻿### FChoice.Foundation.Schema Namespace
 
-Interfaces used to access Schema metadata.
+#### Interfaces used to access Schema metadata.
 
-Interfaces
+#### Interfaces
 
 |   | Interface | Description |
 | --- | --- | --- |
@@ -19,7 +19,7 @@ Interfaces
 | ![Interface](dotnetimages/Interface.png) | [ISchemaViewJoin](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin.md) |   |
 | ![Interface](dotnetimages/Interface.png) | [ISchemaViewJoinCollection](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoinCollection.md) |   |
 
-Enumerations
+#### Enumerations
 
 |   | Enumeration | Description |
 | --- | --- | --- |

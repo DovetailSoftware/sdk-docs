@@ -6,7 +6,7 @@ These APIs can be used in custom web pages, the Clarify thick-client GUI, or in 
 
 Functions are provided to allow you to create, modify, close, dispatch, accept, reject, assign, yank, move, change status, log notes, reopen, fix, and more.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |

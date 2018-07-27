@@ -2,7 +2,7 @@
 
 The **FChoice.Foundation.Clarify.AutoDest** namespace provides Auto Destination rule processing support which is used frequently within the Clarify system.
 
-Classes
+#### Classes
 
 |   | Class | Description |
 | --- | --- | --- |
