@@ -1,10 +1,7 @@
 ### YamlMime:ManagedReference
 - name: Articles
   href: articles/
-  homepage: articles/index.md
 - name: .Net Api Reference
   href: api/
-  homepage: api/index.md
-- name: COM Compatibility Api Reference
+- name: COM Api Reference
   href: sdk/
-  homepage: sdk/index.md

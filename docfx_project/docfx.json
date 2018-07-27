@@ -16,10 +16,14 @@
     "content": [
       {
         "files": [
+          "api/toc.yml",
+          "api/**.md"
           "articles/toc.yml",
-          "api/*.yml",
+          "articles/**.md",
           "sdk/toc.yml",
-          "**.md"
+          "sdk/**.md"
+          "toc.yml",
+          "*.md"
         ],
         "exclude": [
           "partials/**"
