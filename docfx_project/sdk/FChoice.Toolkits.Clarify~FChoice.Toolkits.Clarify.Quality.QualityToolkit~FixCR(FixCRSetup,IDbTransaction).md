@@ -44,7 +44,7 @@ The CR condition will become Fixed even if it was already Closed.
 
 Example
 
-[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
+[**Developer Walkthrough - Transaction Support**](../articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

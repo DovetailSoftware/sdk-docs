@@ -44,7 +44,7 @@ The WipBin to place the CR in may also be specified. This is augmented function 
 
 Example
 
-[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
+[**Developer Walkthrough - Transaction Support**](../articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

@@ -44,7 +44,7 @@ This API only changes a Part Request's status. To change the condition of the pa
 
 Example
 
-[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
+[**Developer Walkthrough - Transaction Support**](../articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

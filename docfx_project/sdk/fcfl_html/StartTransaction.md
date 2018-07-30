@@ -23,4 +23,4 @@ IsolationLevel No                            An option
 
 **Example**
 
-Please see [Developer Walkthrough - Transaction support](/articles/walkthroughs/transaction.md)
+Please see [Developer Walkthrough - Transaction support](../../articles/walkthroughs/transaction.md)

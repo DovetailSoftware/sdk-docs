@@ -40,7 +40,7 @@ A GetAlternatePartsResult instance with no properties set. The properties (Objid
 
 Example
 
-[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
+[**Developer Walkthrough - Transaction Support**](../articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

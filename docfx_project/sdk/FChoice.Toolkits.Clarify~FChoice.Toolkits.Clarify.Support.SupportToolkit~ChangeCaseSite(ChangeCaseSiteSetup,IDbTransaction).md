@@ -44,7 +44,7 @@ Any related Site Parts and Contracts for the Case are unrelated.
 
 Example
 
-[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
+[**Developer Walkthrough - Transaction Support**](../articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

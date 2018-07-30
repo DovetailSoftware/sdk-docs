@@ -44,7 +44,7 @@ If the [CloseSums](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.Clo
 
 Example
 
-[**Developer Walkthrough - Transaction Support**](/articles/walkthroughs/transaction.md)
+[**Developer Walkthrough - Transaction Support**](../articles/walkthroughs/transaction.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

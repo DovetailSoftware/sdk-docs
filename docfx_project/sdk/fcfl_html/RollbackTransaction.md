@@ -23,4 +23,4 @@ Care should be made when using database transactions to make sure all possible p
 
 **Example**
 
-Please see [Developer Walkthrough - Transaction support](/articles/walkthroughs/transaction.md)
+Please see [Developer Walkthrough - Transaction support](../../articles/walkthroughs/transaction.md)

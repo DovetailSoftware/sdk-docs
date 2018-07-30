@@ -17,7 +17,7 @@ public class IsInFilter : ColumnBasedFilter
 
 Example
 
-[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
+[**Developer Walkthrough - Advanced Filtering**](../articles/walkthroughs/filtering.md)
 
 #### Inheritance Hierarchy
 

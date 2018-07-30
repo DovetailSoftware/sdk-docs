@@ -16,7 +16,7 @@ public sealed class DbProviderFactory
 
 #### Remarks
 
-For more information on customizing the data providers that DbProviderFactory can produce, please see the guide to [Configuring Custom Data Providers](/articles/configuring-database-providers.md).
+For more information on customizing the data providers that DbProviderFactory can produce, please see the guide to [Configuring Custom Data Providers](../articles/configuring-database-providers.md).
 
 For more information on creating a custom data provider, see the [DbProvider Class](FChoice.Common~FChoice.Common.Data.DbProvider.md) documentation.
 

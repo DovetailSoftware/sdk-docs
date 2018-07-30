@@ -38,7 +38,7 @@ A new DbProvider instance configured for the given alias
 
 #### Remarks
 
-The two intrinsic aliases are the values for the two constants: [DbProviderFactory.MSSQL_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~MSSQL_PROVIDER_NAME.md) and DbProviderFactory.ORACLE_PROVIDER_NAME. To configure additional aliases, please see the guide to [Configure Custom Data Providers](/articles/configuring-database-providers.md).
+The two intrinsic aliases are the values for the two constants: [DbProviderFactory.MSSQL_PROVIDER_NAME](FChoice.Common~FChoice.Common.Data.DbProviderFactory~MSSQL_PROVIDER_NAME.md) and DbProviderFactory.ORACLE_PROVIDER_NAME. To configure additional aliases, please see the guide to [Configure Custom Data Providers](../articles/configuring-database-providers.md).
 
 [!include[Requirements](../partials/requirements.md)]
 

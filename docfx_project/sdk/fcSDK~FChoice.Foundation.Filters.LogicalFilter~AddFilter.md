@@ -28,7 +28,7 @@ Input filter to the grouping
 
 Example
 
-[**Developer Walkthrough - Advanced Filtering**](/articles/walkthroughs/filtering.md)
+[**Developer Walkthrough - Advanced Filtering**](../articles/walkthroughs/filtering.md)
 
 [!include[Requirements](../partials/requirements.md)]
 

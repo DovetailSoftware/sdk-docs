@@ -38,7 +38,7 @@ Whether or not the specified alias or name is a valid alias/name for a configure
 
 #### Remarks
 
-For more information on specifying custom data providers, see the guide on [Configuring Custom Data Providers](/articles/configuring-database-providers.md).
+For more information on specifying custom data providers, see the guide on [Configuring Custom Data Providers](../articles/configuring-database-providers.md).
 
 [!include[Requirements](../partials/requirements.md)]
 
