@@ -17,11 +17,11 @@
       {
         "files": [
           "api/toc.yml",
-          "api/**.md"
+          "api/**.md",
           "articles/toc.yml",
           "articles/**.md",
           "sdk/toc.yml",
-          "sdk/**.md"
+          "sdk/**.md",
           "toc.yml",
           "*.md"
         ],
