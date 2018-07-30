@@ -14,6 +14,7 @@ Public Property IsShortState As Boolean
 ```csharp
 [PropertyBitValueAttribute()]
 public bool IsShortState {get; set;}
+```
 
 Example
 

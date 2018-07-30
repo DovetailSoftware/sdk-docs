@@ -8,11 +8,11 @@ License Details
 'Declaration
 
 Public Class LicenseInfo 
-   Implements [ILicenseInfo](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo.md) 
+   Implements ILicenseInfo 
 ```
 
 ```csharp
-public class LicenseInfo : [ILicenseInfo](FChoice.Common~FChoice.Common.Licensing.ILicenseInfo.md)  
+public class LicenseInfo : ILicenseInfo  
 ```
 
 #### Inheritance Hierarchy

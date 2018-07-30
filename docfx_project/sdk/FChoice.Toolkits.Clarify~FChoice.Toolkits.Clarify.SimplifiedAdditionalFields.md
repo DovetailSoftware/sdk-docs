@@ -6,11 +6,11 @@
 'Declaration
 
 Public Class SimplifiedAdditionalFields 
-   Inherits [System.Collections.Generic.List(Of SimplifiedAdditionalField)](#)
+   Inherits System.Collections.Generic.List(Of SimplifiedAdditionalField)
 ```
 
 ```csharp
-public class SimplifiedAdditionalFields : [System.Collections.Generic.List<SimplifiedAdditionalField>](#) 
+public class SimplifiedAdditionalFields : System.Collections.Generic.List<SimplifiedAdditionalField> 
 ```
 
 #### Inheritance Hierarchy

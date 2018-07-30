@@ -5,15 +5,16 @@ The objid of the lead.
 #### Syntax
 
 ```vbnet
-```csharp
-
 'Declaration
 
 <PropertyBitValueAttribute()>
 Public Property LeadObjid As Integer
+```
 
+```csharp
 [PropertyBitValueAttribute()]
 public int LeadObjid {get; set;}
+```
 
 [!include[Requirements](../partials/requirements.md)]
 

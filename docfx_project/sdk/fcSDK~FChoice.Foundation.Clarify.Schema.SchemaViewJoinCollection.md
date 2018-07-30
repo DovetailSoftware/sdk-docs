@@ -6,12 +6,12 @@
 'Declaration
 
 Public Class SchemaViewJoinCollection 
-   Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of SchemaViewJoin)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
-   Implements [FChoice.Foundation.Schema.ISchemaViewJoinCollection](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoinCollection.md) 
+   Inherits FChoice.Foundation.DataObjects.DataObjectCollection(Of SchemaViewJoin)
+   Implements FChoice.Foundation.Schema.ISchemaViewJoinCollection 
 ```
 
 ```csharp
-public class SchemaViewJoinCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<SchemaViewJoin>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md), [FChoice.Foundation.Schema.ISchemaViewJoinCollection](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoinCollection.md) 
+public class SchemaViewJoinCollection : FChoice.Foundation.DataObjects.DataObjectCollection<SchemaViewJoin>, FChoice.Foundation.Schema.ISchemaViewJoinCollection 
 ```
 
 #### Inheritance Hierarchy

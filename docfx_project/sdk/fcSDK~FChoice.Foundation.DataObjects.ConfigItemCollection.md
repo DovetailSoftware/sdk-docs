@@ -8,13 +8,13 @@
 <DefaultMemberAttribute("Item")>
 <SerializableAttribute()>
 Public MustInherit Class ConfigItemCollection 
-   Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of ConfigItem)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
+   Inherits FChoice.Foundation.DataObjects.DataObjectCollection(Of ConfigItem)
 ```
 
 ```csharp
 [DefaultMemberAttribute("Item")]
 [SerializableAttribute()]
-public abstract class ConfigItemCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<ConfigItem>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md) 
+public abstract class ConfigItemCollection : FChoice.Foundation.DataObjects.DataObjectCollection<ConfigItem> 
 ```
 
 #### Inheritance Hierarchy

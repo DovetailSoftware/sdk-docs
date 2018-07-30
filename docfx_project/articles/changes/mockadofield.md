@@ -2,7 +2,7 @@
 
 ## MockAdoField Object
 
-In the past, code accessing FCFL Generic Fields was in fact being returned a [ADO Field object](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ado270/htm/mdobjfieldpme.asp?frame=false&hidetoc=true). Most developers were not aware of this as by default the return value of the ADO Field object is the field value. However, for whatever reason, some applications would use other properties of the ADO Field. To maintain compatibility we have implemented a subset of the ADO Field object called MockADOField. For more information on this matter please see [FCGeneric Object Changes](../object-changes.md).
+In the past, code accessing FCFL Generic Fields was in fact being returned a [ADO Field object](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/ado270/htm/mdobjfieldpme.asp?frame=false&hidetoc=true). Most developers were not aware of this as by default the return value of the ADO Field object is the field value. However, for whatever reason, some applications would use other properties of the ADO Field. To maintain compatibility we have implemented a subset of the ADO Field object called MockADOField. For more information on this matter please see [FCGeneric Object Changes](fcgeneric-changes.md).
 
 ### ProgID
 

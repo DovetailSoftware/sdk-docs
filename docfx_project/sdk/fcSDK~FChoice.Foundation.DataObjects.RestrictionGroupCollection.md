@@ -7,12 +7,12 @@
 
 <DefaultMemberAttribute("Item")>
 Public Class RestrictionGroupCollection 
-   Inherits [FChoice.Foundation.DataObjects.DataObjectCollection(Of RestrictionGroup)](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md)
+   Inherits FChoice.Foundation.DataObjects.DataObjectCollection(Of RestrictionGroup)
 ```
 
 ```csharp
 [DefaultMemberAttribute("Item")]
-public class RestrictionGroupCollection : [FChoice.Foundation.DataObjects.DataObjectCollection<RestrictionGroup>](fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.md) 
+public class RestrictionGroupCollection : FChoice.Foundation.DataObjects.DataObjectCollection<RestrictionGroup> 
 ```
 
 #### Inheritance Hierarchy

@@ -9,12 +9,12 @@ Provides a [Generic](fcSDK~FChoice.Foundation.FCGeneric.md) with data storage 
 
 <DefaultMemberAttribute("Item")>
 Public MustInherit Class GenericDataTable 
-   Inherits [System.Data.DataTable](#)
+   Inherits System.Data.DataTable
 ```
 
 ```csharp
 [DefaultMemberAttribute("Item")]
-public abstract class GenericDataTable : [System.Data.DataTable](#) 
+public abstract class GenericDataTable : System.Data.DataTable 
 ```
 
 #### Inheritance Hierarchy

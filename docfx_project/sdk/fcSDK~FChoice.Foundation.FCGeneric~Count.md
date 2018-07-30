@@ -1,6 +1,6 @@
 ﻿### Count Property (FCGeneric)
 
-Returns the number of rows currently populated by the [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) or [AddNew](/sdk/fcSDK~FChoice.Foundation.FCGeneric~AddNew.md) methods.
+Returns the number of rows currently populated by the [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) or [AddNew](/sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~AddNew.md) methods.
 
 #### Syntax
 
@@ -16,7 +16,7 @@ public int Count {get;}
 
 #### Property Value
 
-Returns the number of rows currently populated by the [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) or [AddNew](/sdk/fcSDK~FChoice.Foundation.FCGeneric~AddNew.md) methods.
+Returns the number of rows currently populated by the [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) or [AddNew](/sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~AddNew.md) methods.
 
 #### Remarks
 

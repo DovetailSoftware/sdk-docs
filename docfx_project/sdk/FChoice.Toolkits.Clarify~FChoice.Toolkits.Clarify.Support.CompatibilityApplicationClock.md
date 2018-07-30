@@ -6,11 +6,11 @@
 'Declaration
 
 Public Class CompatibilityApplicationClock 
-   Implements [IApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.md) 
+   Implements IApplicationClock 
 ```
 
 ```csharp
-public class CompatibilityApplicationClock : [IApplicationClock](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.md) 
+public class CompatibilityApplicationClock : IApplicationClock 
 ```
 
 #### Inheritance Hierarchy

@@ -18,9 +18,7 @@ The Log Manager uses an XML Configuration file. The configuration is easily read
 
 1. Copy one of the sample logging configuration files from your fcSDK installation directory to an appropriate working directory.
 1. Edit the sample logging configuration file as appropriate for your needs.
-		For example, if you are logging to a file, you'll probably want to set the File param of the RollingFileAppender entry to tell the Log Manager the path and filename of where you want your log file to be located.
-
-		Refer to the [Logging Config File Samples](logging-samples.md) documentation for more details on and examples of logging configuration files.
+		For example, if you are logging to a file, you'll probably want to set the File param of the RollingFileAppender entry to tell the Log Manager the path and filename of where you want your log file to be located.<br><br>Refer to the [Logging Config File Samples](logging-samples.md) documentation for more details on and examples of logging configuration files.
 1. Tell LogManager which logging config file to use. This can be accomplished in one of two ways:
 	1. Set the *fchoice.logconfigfile* application setting in your application configuration (.config) file (see [Configuring fcSDK](../basic-configuration.md) for more information on configuring **fcSDK**).
 	1. Programmatically set the *LogConfigFilePath* property of LogManager before initializing ClarifyApplication

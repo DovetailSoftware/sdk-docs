@@ -1,6 +1,6 @@
 ﻿### CaseTimeAndExpenses Class
 
-Holds summary totals from the [PrecloseCase](/sdk/toolkit_html/fccs/preclose_case.md) API.
+Holds summary totals from the [PrecloseCase](toolkit_html/fccs/preclose_case.md) API.
 
 #### Syntax
 

@@ -32,13 +32,11 @@ The **FChoice.Common** namespace provides configuration, logging, and error mana
 | --- | --- | --- |
 | ![Enumeration](dotnetimages/Enumeration.png) | [DataProtectionStore](FChoice.Common~FChoice.Common.DataProtectionStore.md) | DataProtectionStore is used with the [DataProtector](FChoice.Common~FChoice.Common.DataProtector.md) when encrypting or decrypting data. DataProtectionStore tells the DataProtector which key store to use. |
 | ![Enumeration](dotnetimages/Enumeration.png) | [FCLicenseException.LoadFailReasons](FChoice.Common~FChoice.Common.FCLicenseException+LoadFailReasons.md) | LoadFailReasons is used by [FCLicenseException](FChoice.Common~FChoice.Common.FCLicenseException.md) to provide a specific reason why license procurement failed for the product. |
-| ![Enumeration](dotnetimages/Enumeration.png) | [LogLevel](/sdk/FChoice.Common~FChoice.Common.LogLevel.md) | LogLevel is an enumeration of supported logging levels. This is used in conjunction with [LogManager](FChoice.Common~FChoice.Common.LogManager.md) and [Logger](FChoice.Common~FChoice.Common.Logger.md) to control how log messages are filtered or written to the output appender. |
+| ![Enumeration](dotnetimages/Enumeration.png) | [LogLevel](FChoice.Common~FChoice.Common.LogLevel.md) | LogLevel is an enumeration of supported logging levels. This is used in conjunction with [LogManager](FChoice.Common~FChoice.Common.LogManager.md) and [Logger](FChoice.Common~FChoice.Common.Logger.md) to control how log messages are filtered or written to the output appender. |
 
 #### Remarks
 
 The FChoice.Common namespace is largely intended to be used by First Choice .NET products only. While public for your convenience, usage of any of these classes directly (except for Configuration or Logging) is discouraged.
-
-
 
 #### Reference
 

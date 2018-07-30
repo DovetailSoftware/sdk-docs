@@ -6,14 +6,14 @@ This walkthrough will provide an overview of the basic usage pattern involved in
 
 The Toolkit APIs are split up into logical groupings with each group of APIs having their own namespace.
 
-* Contracts	[FChoice.Toolkits.Clarify.Contracts](../api/FChoice.Toolkits.Clarify.Contracts.md)
-* Depot Repair	[FChoice.Toolkits.Clarify.DepotRepair](../api/FChoice.Toolkits.Clarify.DepotRepair.md)
-* Field Operations	[FChoice.Toolkits.Clarify.FieldOps](../api/FChoice.Toolkits.Clarify.FieldOps.md)
-* Interfaces	[FChoice.Toolkits.Clarify.Interfaces](../api/FChoice.Toolkits.Clarify.Interfaces.md)
-* Logistics	[FChoice.Toolkits.Clarify.Logistics](../api/FChoice.Toolkits.Clarify.Logistics.md)
-* Quality	[FChoice.Toolkits.Clarify.Quality](../api/FChoice.Toolkits.Clarify.Quality.md)
-* Sales	[FChoice.Toolkits.Clarify.Sales](../api/FChoice.Toolkits.Clarify.Sales.md)
-* Support	[FChoice.Toolkits.Clarify.Support](../api/FChoice.Toolkits.Clarify.Support.md)
+* Contracts	[FChoice.Toolkits.Clarify.Contracts](../../api/FChoice.Toolkits.Clarify.Contracts.md)
+* Depot Repair	[FChoice.Toolkits.Clarify.DepotRepair](../../api/FChoice.Toolkits.Clarify.DepotRepair.md)
+* Field Operations	[FChoice.Toolkits.Clarify.FieldOps](../../api/FChoice.Toolkits.Clarify.FieldOps.md)
+* Interfaces	[FChoice.Toolkits.Clarify.Interfaces](../../api/FChoice.Toolkits.Clarify.Interfaces.md)
+* Logistics	[FChoice.Toolkits.Clarify.Logistics](../../api/FChoice.Toolkits.Clarify.Logistics.md)
+* Quality	[FChoice.Toolkits.Clarify.Quality](../../api/FChoice.Toolkits.Clarify.Quality.md)
+* Sales	[FChoice.Toolkits.Clarify.Sales](../../api/FChoice.Toolkits.Clarify.Sales.md)
+* Support	[FChoice.Toolkits.Clarify.Support](../../api/FChoice.Toolkits.Clarify.Support.md)
 
 ## Using API methods
 

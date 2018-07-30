@@ -14,7 +14,7 @@ Public Property FeeBased As Boolean
 ```csharp
 [PropertyBitValueAttribute()]
 public bool FeeBased {get; set;}
-``
+```
 
 [!include[Requirements](../partials/requirements.md)]
 

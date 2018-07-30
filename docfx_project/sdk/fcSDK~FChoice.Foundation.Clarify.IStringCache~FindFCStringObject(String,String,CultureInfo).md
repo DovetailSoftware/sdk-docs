@@ -10,8 +10,10 @@ Overloads Function FindFCStringObject( _
    ByVal _stringName_ As String, _
    ByVal _culture_ As CultureInfo _
 ) As FCString
+```
 
-[FCString](fcSDK~FChoice.Foundation.Clarify.DataObjects.FCString.md) FindFCStringObject( 
+```csharp
+FCString FindFCStringObject( 
    string _applicationName_,
    string _stringName_,
    CultureInfo _culture_

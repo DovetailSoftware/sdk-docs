@@ -12,6 +12,7 @@ Public Overloads Function CreateContract() As ToolkitResult
 
 ```csharp
 public ToolkitResult CreateContract()
+```
 
 #### Return Value
 

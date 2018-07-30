@@ -7,12 +7,12 @@ DateTime the Quote was accepted. If not set, the current time is used.
 ```vbnet
 'Declaration
 
-<AttributeUsageAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)>
+<AttributeUsageAttribute()>
 Public Property AcceptDate As Date
 ```
 
 ```csharp
-[PropertyBitValueAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)]
+[PropertyBitValueAttribute()]
 public DateTime AcceptDate {get; set;}
 ```
 

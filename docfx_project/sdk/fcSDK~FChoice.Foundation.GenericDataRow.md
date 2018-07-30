@@ -9,12 +9,12 @@ Represents a row of data in a [GenericDataTable](fcSDK~FChoice.Foundation.Generi
 
 <DefaultMemberAttribute("Item")>
 Public MustInherit Class GenericDataRow 
-   Inherits [System.Data.DataRow](#)
+   Inherits System.Data.DataRow
 ```
 
 ```csharp
 [DefaultMemberAttribute("Item")]
-public abstract class GenericDataRow : [System.Data.DataRow](#) 
+public abstract class GenericDataRow : System.Data.DataRow 
 ```
 
 #### Remarks

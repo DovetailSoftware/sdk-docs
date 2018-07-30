@@ -11,7 +11,7 @@ Public Shared ReadOnly EMPTY As CaseTimeAndExpenses
 ```
 
 ```csharp
-public static readonly [CaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses.md) EMPTY
+public static readonly CaseTimeAndExpenses EMPTY
 ```
 
 [!include[Requirements](../partials/requirements.md)]

@@ -14,7 +14,7 @@ Public Overloads Sub Update( _
 ```csharp
 public void Update( 
    IDbTransaction _transaction_,
-   params [FCGeneric](fcSDK~FChoice.Foundation.FCGeneric.md)\[\] _generics_
+   params FCGeneric[] _generics_
 )
 ```
 

@@ -2,18 +2,18 @@
 
 This walkthrough will cover four of the fundamental objects in FCFL.NET:
 
-* [ClarifyApplication](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) - Only one instance is present per application.
-* [ClarifySession](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) - Represents a user's connection to the database.
-* [ClarifyGeneric](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet~CreateGeneric.md) - Workhorse object for doing data retrieval, insertion and modification.
-* [ClarifyDataSet](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) - Allows grouping ClarifyGeneric object database operations.
+* [ClarifyApplication](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) - Only one instance is present per application.
+* [ClarifySession](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) - Represents a user's connection to the database.
+* [ClarifyGeneric](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet~CreateGeneric.md) - Workhorse object for doing data retrieval, insertion and modification.
+* [ClarifyDataSet](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) - Allows grouping ClarifyGeneric object database operations.
 
 ## Clarify Application
 
-The [ClarifyApplication](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) object instance represents an application that will connect to the Clarify database. ClarifyApplication is a [Singleton](http://en.wikipedia.org/wiki/Singleton_pattern) and only one instance is ever in the runtime. After having been initialized (see below), the Singleton instance of ClarifyApplication can be accessed using the [Instance](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~Instance.md) static (**Shared** in Visual Basic) property.
+The [ClarifyApplication](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) object instance represents an application that will connect to the Clarify database. ClarifyApplication is a [Singleton](http://en.wikipedia.org/wiki/Singleton_pattern) and only one instance is ever in the runtime. After having been initialized (see below), the Singleton instance of ClarifyApplication can be accessed using the [Instance](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyApplication~Instance.md) static (**Shared** in Visual Basic) property.
 
 ### Initializing the Application Object
 
-Before you can call any **FCFL.NET** methods the application object needs to be initialized. This is done using the [Initialize](../sdk/FChoice.Common~FChoice.Common.Data.IDbExtension~Initialize.md) method. The Initialize method readies the ClarifyApplication instance by performing actions such as:
+Before you can call any **FCFL.NET** methods the application object needs to be initialized. This is done using the [Initialize](../../sdk/FChoice.Common~FChoice.Common.Data.IDbExtension~Initialize.md) method. The Initialize method readies the ClarifyApplication instance by performing actions such as:
 
 * Loading application configuration
 * Caching schema and application data
@@ -21,7 +21,7 @@ Before you can call any **FCFL.NET** methods the application object needs to be 
 
 #### Basic Initialization
 
-For [Initialize](../sdk/FChoice.Common~FChoice.Common.Data.IDbExtension~Initialize.md) to work correctly you must have your [configuration file](../fcsdk-configuration.md) set up with the minimum required [application configuration settings](../basic-configuration.md). Please see the [Generic Example](#generic-example) below to view a basic Initialization in action.
+For [Initialize](../../sdk/FChoice.Common~FChoice.Common.Data.IDbExtension~Initialize.md) to work correctly you must have your [configuration file](../fcsdk-configuration.md) set up with the minimum required [application configuration settings](../basic-configuration.md). Please see the [Generic Example](#generic-example) below to view a basic Initialization in action.
 
 #### Manual Configuration Initialization
 
@@ -55,7 +55,7 @@ ClarifyApplication app = ClarifyApplication.Initialize( config );
 
 ### Clarify Session 
 
-The [ClarifySession](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) object represents a single user's connection to the database. All session operations or objects created from the session do so as the session user. The session can also be used as storage similar to ASP or ASP.NET's Session object. ClarifySession objects are created using the [CreateSession](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~CreateSession.md) method on ClarifyApplication.
+The [ClarifySession](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) object represents a single user's connection to the database. All session operations or objects created from the session do so as the session user. The session can also be used as storage similar to ASP or ASP.NET's Session object. ClarifySession objects are created using the [CreateSession](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~CreateSession.md) method on ClarifyApplication.
 
 In a single session application, such as a Windows Forms application, you would initialize the application object and create a single session object for use throughout your application.
 
@@ -63,35 +63,35 @@ In a multi-session application, such as a web application, the application objec
 
 #### Sessions in a Web Environment
 
-In a web application, creating and destroying session objects for each request is expensive. [CreateSession](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~CreateSession.md) avoids this by caching the session's data for you at the application level.
+In a web application, creating and destroying session objects for each request is expensive. [CreateSession](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~CreateSession.md) avoids this by caching the session's data for you at the application level.
 
-The session object exposes a [SessionID](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~SessionID.md) property for you to use to uniquely identify the session and to later retrieve it. The SessionID can be saved in the web application's session object or as a cookie in the browser. When the web page loads the application will retrieve the SessionID and pass it to the [CreateSession](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~CreateSession.md) method to retrieve a reference to the already-existing ClarifySession object instance.
+The session object exposes a [SessionID](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~SessionID.md) property for you to use to uniquely identify the session and to later retrieve it. The SessionID can be saved in the web application's session object or as a cookie in the browser. When the web page loads the application will retrieve the SessionID and pass it to the [CreateSession](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~CreateSession.md) method to retrieve a reference to the already-existing ClarifySession object instance.
 
-When the web user's session ends [CloseSession](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~CloseSession.md) should be called to remove the session from the application.
+When the web user's session ends [CloseSession](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~CloseSession.md) should be called to remove the session from the application.
 
 ### Clarify Generic 
 
-The [ClarifyGeneric](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet~CreateGeneric.md) object provides functionality to retrieve, update and insert data against a Clarify instance -- respecting the special requirements imposed by the Clarify system and thick client. Each generic object represents a single table or view in the Clarify database. Generics are created using the [CreateGeneric](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~CreateGeneric.md) method on a [ClarifyDataSet](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) instance.
+The [ClarifyGeneric](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet~CreateGeneric.md) object provides functionality to retrieve, update and insert data against a Clarify instance -- respecting the special requirements imposed by the Clarify system and thick client. Each generic object represents a single table or view in the Clarify database. Generics are created using the [CreateGeneric](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~CreateGeneric.md) method on a [ClarifyDataSet](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) instance.
 
 The normal lifecycle of a generic is:
 
 * Generic creation
-* [Append filters](../sdk/fcSDK~FChoice.Foundation.FCGeneric~AppendFilter.md) or [sort order](../sdk/fcSDK~FChoice.Foundation.FCGeneric~AppendSort.md)
-* [Query](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Query.md) data
-* View and/or modify the [rows](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable~Rows().md) returned by the query
-* [Add new rows](../sdk/fcSDK~FChoice.Foundation.FCGeneric~AddNew.md) to the generic
+* [Append filters](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~AppendFilter.md) or [sort order](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~AppendSort.md)
+* [Query](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Query.md) data
+* View and/or modify the [rows](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable~Rows().md) returned by the query
+* [Add new rows](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~AddNew.md) to the generic
 
 See the [Generic Example](#generic-example) below to see a basic sample of data retrieval using a generic.
 
 #### Generic DataRows
 
-Generics are representations of database tables or views. As database tables or views contain rows of data so do generics. A generic has a [Rows](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable~Rows.md) property that exposes a collection of [ClarifyDataRow](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) objects.
+Generics are representations of database tables or views. As database tables or views contain rows of data so do generics. A generic has a [Rows](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable~Rows.md) property that exposes a collection of [ClarifyDataRow](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) objects.
 
-When executing a query, a generic object builds and executes a SQL query and places the results in the [Rows](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable~Rows().md) collection. This collection can be enumerated (using for each in C# or For Each in Visual Basic), or [indexed directly by row number](../sdk/fcSDK~FChoice.Foundation.GenericDataRowCollection~Item.md).
+When executing a query, a generic object builds and executes a SQL query and places the results in the [Rows](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable~Rows().md) collection. This collection can be enumerated (using for each in C# or For Each in Visual Basic), or [indexed directly by row number](../../sdk/fcSDK~FChoice.Foundation.GenericDataRowCollection~Item.md).
 
 Index the row by fieldname to access or modify data for a field within the row.
 
-To add a row to the generic and schedule it for insertion into the database, call the [AddNew](../sdk/fcSDK~FChoice.Foundation.FCGeneric~AddNew().md) method.
+To add a row to the generic and schedule it for insertion into the database, call the [AddNew](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~AddNew().md) method.
 
 #### *Accessing Generic DataRows*
 
@@ -174,9 +174,9 @@ It is often the case that you will want to query a table (for example, the case 
 
 **NOTE:** The concepts of "child" and "parent", when referring to generics, is not necessarily the same as the natural "child" and "parent" concepts in terms of the database. For example, one might think of an OTM relation as a "parent"->"children" relationship where the "O" is the parent. Generics can be linked OTM or MTO. The concept of a "parent" generic or "child" generic doesn't refer to the relationship cardinality, it refers to which generic traversed from which and in what order they will be processed during a Query or Update operation.
 
-* Child generics are created via [Traverse](../sdk/fcSDK~FChoice.Foundation.FCGeneric~Traverse.md), [TraverseFromParent](../sdk/fcSDK~FChoice.Foundation.FCGeneric~TraverseFromParent.md), or [TraverseFromRoot](../sdk/fcSDK~FChoice.Foundation.FCGeneric~TraverseFromRoot.md)
+* Child generics are created via [Traverse](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~Traverse.md), [TraverseFromParent](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~TraverseFromParent.md), or [TraverseFromRoot](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~TraverseFromRoot.md)
 * It is possible for a generic to be both a parent generic and have child generics related to it, thus creating a generic hierarchy.
-* [Querying](../sdk/fcSDK~FChoice.Foundation.FCGeneric~Query.md) a generic in a hierarchy actually queries the top most parent generic in the hierarchy, which in turn populates all the generics in the hierarchy. You only need to call [Query](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Query.md) once on the hierarchy.
+* [Querying](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~Query.md) a generic in a hierarchy actually queries the top most parent generic in the hierarchy, which in turn populates all the generics in the hierarchy. You only need to call [Query](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Query.md) once on the hierarchy.
 * After the Generic Hierarchy is populated, it is easy to navigate to the related child or parent generic's rows using [ClarifyDataRow.RelatedRows](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow~RelatedRows.md).
 
 The following example shows how to relate a case generic to a site and iterate through their rows.
@@ -282,15 +282,15 @@ Next
 
 ### Clarify DataSet 
 
-[ClarifyDataSet](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) objects are responsible for storing the data of as well as producing generics. Also, ClarifyDataSet provides methods which allow a group of ClarifyGenerics to be [Queried](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Query.md) or [Updated](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Update.md) at the same time within the same database transaction. ClarifyDataSets can be created by using the new operator and passing an instance of a [ClarifySession](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) to the constructor.
+[ClarifyDataSet](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md) objects are responsible for storing the data of as well as producing generics. Also, ClarifyDataSet provides methods which allow a group of ClarifyGenerics to be [Queried](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Query.md) or [Updated](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Update.md) at the same time within the same database transaction. ClarifyDataSets can be created by using the new operator and passing an instance of a [ClarifySession](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifySession.md) to the constructor.
 
 #### Convenience and Integrity
 
 It is often necessary to do multiple operations on a set of generics at the same time for convenience and database integrity.
 
-For example, when querying three unrelated tables you would normally have to call Query on each generic. ClarifyDataSet provides the convenient [Query](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Query.md) method which can take a list of ClarifyGenerics to query as a transaction.
+For example, when querying three unrelated tables you would normally have to call Query on each generic. ClarifyDataSet provides the convenient [Query](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Query.md) method which can take a list of ClarifyGenerics to query as a transaction.
 
-Maintaining application integrity when updating the database is paramount when inserting or updating multiple generic rows. It is important that all updates take place or none of them do. This is known as a transaction. The [Update](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Update.md) method on a ClarifyDataSet acts as a transactional wrapper for generic operations. It is similar to the Query method in that it takes a list of ClarifyGeneric objects to update and performs the update operations on them in a single transaction.
+Maintaining application integrity when updating the database is paramount when inserting or updating multiple generic rows. It is important that all updates take place or none of them do. This is known as a transaction. The [Update](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Update.md) method on a ClarifyDataSet acts as a transactional wrapper for generic operations. It is similar to the Query method in that it takes a list of ClarifyGeneric objects to update and performs the update operations on them in a single transaction.
 
 #### Update/Insert Statement Batching
 
@@ -298,7 +298,7 @@ On database platforms that support statement batching (i.e. Microsoft SQL Server
 
 #### Generic DataSet Membership
 
-Generics created via the [CreateGeneric](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~CreateGeneric.md) method on an instance of ClarifyDataSet. The underlying data of the ClarifyGenerics are stored in the ClarifyDataSet. ClarifyGenerics from different ClarifyDataSets cannot be related. ClarifyGenerics created via Traversal methods are always members of their parent generic's ClarifyDataSet. A ClarifyGeneric cannot be moved or removed from its containing ClarifyDataSet.
+Generics created via the [CreateGeneric](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~CreateGeneric.md) method on an instance of ClarifyDataSet. The underlying data of the ClarifyGenerics are stored in the ClarifyDataSet. ClarifyGenerics from different ClarifyDataSets cannot be related. ClarifyGenerics created via Traversal methods are always members of their parent generic's ClarifyDataSet. A ClarifyGeneric cannot be moved or removed from its containing ClarifyDataSet.
 
 #### *Using ClarifyDataSets*
 

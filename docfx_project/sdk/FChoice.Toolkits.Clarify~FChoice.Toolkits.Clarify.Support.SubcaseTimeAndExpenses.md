@@ -1,6 +1,6 @@
 ﻿### SubcaseTimeAndExpenses Class
 
-Holds summary totals from the [PrecloseSubcase](/sdk/toolkit_html/fccs/preclose_subcase.md) API.
+Holds summary totals from the [PrecloseSubcase](toolkit_html/fccs/preclose_subcase.md) API.
 
 #### Syntax
 
@@ -26,8 +26,6 @@ System.Object
 **Platforms:** Windows XP, Windows Server 2003 and 2008 family
 
 **Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
-
-
 
 #### Reference
 

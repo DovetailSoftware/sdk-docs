@@ -23,7 +23,6 @@ public int GetStateObjid(
 _country_
 
 _state_
-```
 
 [!include[Requirements](../partials/requirements.md)]
 
