@@ -54,7 +54,7 @@ The following properties are new in FCFLCompat.FCSession.
 
 | New Property | Comments |
 |:--- |:--- |
-| CurrentCulture | The culture to use for converting or displaying numbers, dates, and other culturally-sensitive data. This value must be a valid RFC 1766 culture/locale specifier (i.e. en-US - a lower-case two-or-three-letter ISO-639 or ISO 639-2 language code followed by a hyphen "-" then a two or three letter subculture code as defined by ISO-3166 Alpha 2). For more information on what culture specifiers are allowed and how to deal with conflict cultures and neutral cultures, please see the .NET Framework SDK documentation for the [CultureInfo]() class. |
+| CurrentCulture | The culture to use for converting or displaying numbers, dates, and other culturally-sensitive data. This value must be a valid RFC 1766 culture/locale specifier (i.e. en-US - a lower-case two-or-three-letter ISO-639 or ISO 639-2 language code followed by a hyphen "-" then a two or three letter subculture code as defined by ISO-3166 Alpha 2). For more information on what culture specifiers are allowed and how to deal with conflict cultures and neutral cultures, please see the .NET Framework SDK documentation for the [CultureInfo](https://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.aspx) class. |
 
 ## New Methods
 

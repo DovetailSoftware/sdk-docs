@@ -271,6 +271,6 @@ To learn how to run and use the Data Verifier, please see the section titled [Ov
 
 ### Review SDK Documentation
 
-After installation, the next step to getting started with the **fcSDK** is to review the SDK documentation in this document. A good place to start is the [Introduction Section]().
+After installation, the next step to getting started with the **fcSDK** is to review the SDK documentation in this document. A good place to start is the [Introduction Section](../index.md).
 
 The SDK documentation includes information on getting started programming with the **fcSDK**, working with the same applications, limitations and known issues, API reference, and specifics on many of the features included with the **fcSDK**.

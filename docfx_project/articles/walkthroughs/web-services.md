@@ -40,7 +40,7 @@ To retrieve the WSDL (Web Service Description Language) for a particular web ser
 
 Replace 'localhost' with the fcSDK Web Services server and 'FChoice.WebServices.Clarify' with the correct virtual directory where the web services are installed.
 
-If you are using the [fcSDK Web Services Client for .NET]() to access the web services, then you probably will not need to use the WSDLs for the web services.
+If you are using the **fcSDK Web Services Client for .NET** to access the web services, then you probably will not need to use the WSDLs for the web services.
 
 ### Protocol Classes
 
@@ -63,7 +63,7 @@ The web services convert these protocol classes to the real type counterparts wh
 
 ### Web Service Sessions and Authentication
 
-The ClarifyApplication Web Service ( ClarifyApplicationSrv ) is the starting point for all client applications consuming the fcSDK Web Services. From here CreateSession() is called to create a ClarifySession on the web services server which will live until either Logout() is called on the ClarifySessionSrv, or a configurable timeout period is reached. This method returns an authentication token which will be passed in the SOAP header of each web service call which requires authentication. The server will read the authentication token from the SOAP header and match it back up to a ClarifySession that was previously created using ClarifyApplicationWS.CreateSession(). If it can not find a ClarifySession to match to due to invalid authentication token or an expired session, the API will throw an exception. Each ClarifySession consumes a fcSDK license, so it's important to call Logout() on the Clarify Session Web Service after use so that the license can be released. If you are using the [fcSDK Web Services Client for .NET](), then the SOAP headers and the controlling of authentication token is handled for you.
+The ClarifyApplication Web Service ( ClarifyApplicationSrv ) is the starting point for all client applications consuming the fcSDK Web Services. From here CreateSession() is called to create a ClarifySession on the web services server which will live until either Logout() is called on the ClarifySessionSrv, or a configurable timeout period is reached. This method returns an authentication token which will be passed in the SOAP header of each web service call which requires authentication. The server will read the authentication token from the SOAP header and match it back up to a ClarifySession that was previously created using ClarifyApplicationWS.CreateSession(). If it can not find a ClarifySession to match to due to invalid authentication token or an expired session, the API will throw an exception. Each ClarifySession consumes a fcSDK license, so it's important to call Logout() on the Clarify Session Web Service after use so that the license can be released. If you are using the **fcSDK Web Services Client for .NET**, then the SOAP headers and the controlling of authentication token is handled for you.
 
 ### fcSDK Web Services Client for .NET
 

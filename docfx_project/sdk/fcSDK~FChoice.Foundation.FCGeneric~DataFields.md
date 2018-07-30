@@ -20,7 +20,7 @@ Collection of data fields that will be returned when [Query](fcSDK~FChoice.Foun
 
 #### Remarks
 
-To add a field to be selected during Query call the [Add](fcSDK~FChoice.Foundation.DataFieldNameCollection~Add.md) or [AddRange](fcSDK~FChoice.Foundation.DataFieldNameCollection~AddRange.md) methods.
+To add a field to be selected during Query call the [AddRange](fcSDK~FChoice.Foundation.DataFieldNameCollection~AddRange.md) method.
 
 [!include[Requirements](../partials/requirements.md)]
 

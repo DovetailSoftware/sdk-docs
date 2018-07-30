@@ -6,16 +6,16 @@ During **FCFL.NET** initialization, frequently used and seldom updated data is p
 
 ### Cache Lifecycle
 
-The cached objects are loaded during [ClarifyApplication]() initialization. If enabled, cache objects will be persisted to the file system (cache files) as it is much faster to load the cache objects directly from the file system rather than the database.
+The cached objects are loaded during [ClarifyApplication](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.md) initialization. If enabled, cache objects will be persisted to the file system (cache files) as it is much faster to load the cache objects directly from the file system rather than the database.
 
 During initialization:
 
 * If up-to-date cache files are found to be already on the system the application is initialized from the cache files.
-* If cache files are present but found to be out-of-date they are refreshed from the database. For example, this happens to the [SchemaCache](/api/FChoice.Foundation.Clarify.SchemaCache.yml) when the Clarify Schema has been updated.
+* If cache files are present but found to be out-of-date they are refreshed from the database. For example, this happens to the [SchemaCache](../api/FChoice.Foundation.Clarify.SchemaCache.yml) when the Clarify Schema has been updated.
 * If cache files are not present data is cached from the database and saved to cache files.
 * Custom caches loaded.
 
-Creation of cache files [can be disabled]() using a configuration setting. The [location of the cache files]() is also configurable.
+Creation of cache files [can be disabled](basic-configuration.md#fcsdk-configuration-keys) using a configuration setting (fchoice.nocachefile). The [location of the cache files](basic-configuration.md#fcsdk-configuration-keys) is also configurable (fchoice.cachefilepath).
 
 ### Refreshing the Cache
 
@@ -61,7 +61,7 @@ The **fcSDK** comes with four built-in caches available through properties on Cl
 
 #### Schema Cache
 
-The [SchemaCache](/api/FChoice.Foundation.Clarify.SchemaCache.yml) allows you to programmatically browse the Clarify Schema at runtime. You can find out what [Fields]() are in a [View]() or what [Relationships]() are present for a [Table]().
+The [SchemaCache](../api/FChoice.Foundation.Clarify.SchemaCache.yml) allows you to programmatically browse the Clarify Schema at runtime. You can find out what [Fields](../api/FChoice.Foundation.Clarify.SchemaViewField.yml) are in a [View](../api/FChoice.Foundation.Clarify.SchemaView.yml) or what [Relationships](../api/FChoice.Foundation.Clarify.RelationCollection.yml) are present for a [Table](../api/FChoice.Foundation.Clarify.SchemaTable.yml).
 
 #### *Schema Cache Usage Example*
 
@@ -105,23 +105,23 @@ Next
 
 #### List Cache
 
-The [ListCache](/api/FChoice.Foundation.Clarify.ListCache.yml) provides access to user defined ([HierarchicalStrings]()) and global ([GlobalStrings]()) lists.
+The [ListCache](../api/FChoice.Foundation.Clarify.ListCache.yml) provides access to user defined ([HierarchicalStrings](../sdk/fcSDK~FChoice.Foundation.Clarify.IListCache~HierarchicalStrings.md)) and global ([GlobalStrings](../sdk/fcSDK~FChoice.Foundation.Clarify.IListCache~GlobalStrings.md)) lists.
 
 #### Locale Cache
 
-The [LocaleCache](/api/FChoice.Foundation.Clarify.LocaleCache.yml) provides access to [Country](), [State]() and [TimeZone]() information.
+The [LocaleCache](../api/FChoice.Foundation.Clarify.LocaleCache.yml) provides access to [Country](../sdk/fcSDK~FChoice.Foundation.Clarify.LocaleCache~Countries.md), [State](../sdk/fcSDK~FChoice.Foundation.Clarify.DataObjects.Country~States.md) and [TimeZone](../sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup~TimeZone.md) information.
 
 For more information on how TimeZones are used in **fcSDK** see also [Time Zone Handling](time-zones.md).
 
 #### String Cache
 
-The [StringCache](/api/FChoice.Foundation.Clarify.StringCache.yml) allows access to all the localizable application strings present in the string_db or fc_string tables.
+The [StringCache](../api/FChoice.Foundation.Clarify.StringCache.yml) allows access to all the localizable application strings present in the string_db or fc_string tables.
 
 This cache is slightly different in that it does not expose a collection and its accessor methods start with “Find”.
 
 #### Custom Caches
 
-Data that is often accessed and seldom updated can benefit from caching. fcSDK's built-in caches attempt to cover basic Clarify and Dovetail database objects that meet this criteria. However, custom Clarify implementations may data that could also benefit from caching. By editing the application configuration file one or more [Custom Cache Providers]() can be added and automatically put into memory during initialization.
+Data that is often accessed and seldom updated can benefit from caching. fcSDK's built-in caches attempt to cover basic Clarify and Dovetail database objects that meet this criteria. However, custom Clarify implementations may data that could also benefit from caching. By editing the application configuration file one or more [Custom Cache Providers](custom-cache-configuration.md) can be added and automatically put into memory during initialization.
 
 While caching of often used, read-only data can greatly boost application performance please be aware that there are downsides to caching:
 
@@ -131,6 +131,6 @@ While caching of often used, read-only data can greatly boost application perfor
 
 #### 
 
-* [Basic Configuration]()
-* [Time Zone Handling]()
+* [Basic Configuration](basic-configuration.md)
+* [Time Zone Handling](time-zones.md)
 * [Configuring Custom Data Providers](configuring-database-providers.md)

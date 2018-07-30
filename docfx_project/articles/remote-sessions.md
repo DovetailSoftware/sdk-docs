@@ -4,7 +4,7 @@ When a new user is logged in using CreateSession there is a session management m
 
 ## Memory State Manager
 
-The most common and default session provider is the [MemoryStateManager](/api/FChoice.Common.State.MemoryStateManager.yml). Nothing special needs to be done to use this manager. The only setting you may wish to change is the session timeout which is talked about in Configuring a State Manager below. The rest of this document will discuss the other, more complex, type of manager Remote State Managers.
+The most common and default session provider is the [MemoryStateManager](../api/FChoice.Common.State.MemoryStateManager.yml). Nothing special needs to be done to use this manager. The only setting you may wish to change is the session timeout which is talked about in Configuring a State Manager below. The rest of this document will discuss the other, more complex, type of manager Remote State Managers.
 
 ## Remote State Managers
 
@@ -12,10 +12,10 @@ Remote State Managers allow sessions to be shared across many different web serv
 
 The ability to use a single session across multiple web servers allows your application to scale on demand. If the number of users hitting your current web server are starting to hurt performance with Remote State Managers enabled you can easily throw more web servers at the problem.
 
-* [Database Setup]()
+* [Database Setup](#database-setup)
 * [State Managers](#state-managers)
-* [Classic Web Application Configuration]()
-* [&lt;stateManager&gt; Element Schema]()
+* [Classic Web Application Configuration](#classic-web-application-configuration)
+* [&lt;stateManager&gt; Element Schema](#statemanager-element-schema)
 
 ## Database Setup
 
@@ -32,11 +32,11 @@ There are SQL scripts for each supported database system in the **fcSDK** instal
 * MSSQL- *&lt;fcSDK Install Directory&gt;/sql/remotesession/mssql_remotesession.sql*
 * Oracle - *&lt;fcSDK Install Directory&gt;/sql/remotesession/oracle_remotesession.sql*
 
-**Important** - The SQL scripts are designed to be edited before execution. Please read the script comments in the individual files for further assistance. If you need help on how to execute SQL scripts please see the [**fcSDK** Installation Guide]().
+**Important** - The SQL scripts are designed to be edited before execution. Please read the script comments in the individual files for further assistance. If you need help on how to execute SQL scripts please see the [**fcSDK** Installation Guide](installation-guide.md).
 
 ## State Managers
 
-The [StateManager](/api/FChoice.Common.State.StateManager.yml) object abstracts the act of storing and retrieving the user's session data. In order to take advantage of Remote Sessions you need to configure your application to use an appropriate state manager. You also need to do the following configuration if you wish to set the timeout of the [MemoryStateManager]().
+The [StateManager](../api/FChoice.Common.State.StateManager.yml) object abstracts the act of storing and retrieving the user's session data. In order to take advantage of Remote Sessions you need to configure your application to use an appropriate state manager. You also need to do the following configuration if you wish to set the timeout of the [MemoryStateManager](../sdk/FChoice.Common~FChoice.Common.State.MemoryStateManager.md).
 
 The **fcSDK** provides the following state managers:
 
@@ -51,10 +51,10 @@ The **fcSDK** provides the following state managers:
 
 ### Configuring a State Manager
 
-The first time that the [StateManager]() is accessed it looks in the .NET configuration file for a specific configuration section called "stateManager".
+The first time that the [StateManager](../sdk/FChoice.Common~FChoice.Common.State.StateManager.md) is accessed it looks in the .NET configuration file for a specific configuration section called "stateManager".
 
 You must define this section at the top of the configuration file in the "configSections" element.
-Following the configSection comes the "stateManager" element which will contain the details of the state manager configuration. See the [stateManager schema]() for more details.
+Following the configSection comes the "stateManager" element which will contain the details of the state manager configuration. See the [stateManager schema](#statemanager-element-schema) for more details.
 
 For example:
 

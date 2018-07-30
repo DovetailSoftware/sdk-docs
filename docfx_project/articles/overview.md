@@ -10,11 +10,11 @@ The **fcSDK** is a software development kit for writing applications, using .NET
 
 **FCFL.NET** is based on and emulates the successful First Choice FCFL platform. **FCFL.NET** provides most of the same concepts and employs the same basic paradigms as FCFL. If you know how to write FCFL programs, it will be very easy to move up to **FCFL.NET**.
 
-**FCFL.NET** has two major components: The [FChoice.Common]() assembly and the [FChoice.Foundation.Clarify]() assembly.
+**FCFL.NET** has two major components: The [FChoice.Common](../sdk/FChoice.Common~FChoice.Common_namespace.md) assembly and the [FChoice.Foundation.Clarify](../sdk/fcSDK~FChoice.Foundation.Clarify_namespace.md) assembly.
 
-The [FChoice.Common]() assembly is designed to provide basic application services such as configuration, logging, cross-platform database access, and structured, localized error handling. [FChoice.Common]() will be used by multiple First Choice products and can be used independently of First Choice products by First Choice customers directly.
+The [FChoice.Common](../sdk/FChoice.Common~FChoice.Common_namespace.md) assembly is designed to provide basic application services such as configuration, logging, cross-platform database access, and structured, localized error handling. [FChoice.Common](../sdk/FChoice.Common~FChoice.Common_namespace.md) will be used by multiple First Choice products and can be used independently of First Choice products by First Choice customers directly.
 
-The [FChoice.Foundation.Clarify]() assembly provides a specific implementation of the [FChoice.Foundation]() abstraction layer for Amdocs Clarify&trade; CRM systems. This assembly adds extra functionality above [FChoice.Foundation]() that is specific to Clarify systems. For example, object-oriented access to cached frequently-used data allows easy access to user-defined lists (HGBST's) and global string lists (GBST's) via the ListCache property of ClarifyApplication, country, state, and time zone information via the LocaleCache property, and ADP schema information via the SchemaCache property, and much more. For more specific inforamtion on Clarify-specific features in the [FChoice.Foundation.Clarify]() assembly, see the [API reference for the FChoice.Foundation.Clarify]() namespace.
+The [FChoice.Foundation.Clarify](../sdk/fcSDK~FChoice.Foundation.Clarify_namespace.md) assembly provides a specific implementation of the [FChoice.Foundation](../sdk/fcSDK~FChoice.Foundation_namespace.md) abstraction layer for Amdocs Clarify&trade; CRM systems. This assembly adds extra functionality above [FChoice.Foundation](../sdk/fcSDK~FChoice.Foundation_namespace.md) that is specific to Clarify systems. For example, object-oriented access to cached frequently-used data allows easy access to user-defined lists (HGBST's) and global string lists (GBST's) via the ListCache property of ClarifyApplication, country, state, and time zone information via the LocaleCache property, and ADP schema information via the SchemaCache property, and much more. For more specific inforamtion on Clarify-specific features in the [FChoice.Foundation.Clarify](../sdk/fcSDK~FChoice.Foundation.Clarify_namespace.md) assembly, see the [API reference for the FChoice.Foundation.Clarify](../sdk/fcSDK~FChoice.Foundation.Clarify_namespace.md) namespace.
 
 ## API Toolkits
 
@@ -22,7 +22,7 @@ The API Toolkits provide convenient business logic wrappers for most of the comm
 
 The toolkits cover some or all of the functionality in the Classic Client that are associated with ClearSupport, ClearLogistics, ClearQuality, and several others.
 
-The API Toolkits in the **fcSDK** are divided into functional areas that map closely to Clarify&trade; products. For example, the [FChoice.Toolkits.Clarify.Support]() namespace and, specifically, the [SupportToolkit]() object reflect most or all of the functionality in the ClearSupport product for Clarify&trade;.
+The API Toolkits in the **fcSDK** are divided into functional areas that map closely to Clarify&trade; products. For example, the [FChoice.Toolkits.Clarify.Support](../api/FChoice.Toolkits.Clarify.Support.md) namespace and, specifically, the [SupportToolkit](../sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.md) object reflect most or all of the functionality in the ClearSupport product for Clarify&trade;.
 
 For more information on how to get started writing applications using the API Toolkits, please see the developer walkthrough of [Toolkit Fundamentals](walkthroughs/toolkit.md).
 
@@ -50,7 +50,7 @@ For more information on how to get started writing applications using the Web Se
 
 ## Utilities
 
-The **fcSDK** ships with several utilities to help you manage your Clarify database, configure the **fcSDK** and other tasks. For more information on these utilities, see the [Utilities Overview]() section of this documentation.
+The **fcSDK** ships with several utilities to help you manage your Clarify database, configure the **fcSDK** and other tasks. For more information on these utilities, see the [Utilities Overview](fcsdk-utilities.md) section of this documentation.
 
 ## Samples and Examples
 

@@ -89,8 +89,8 @@ The following properties are new in FCFLCompat.FCApplication.
 
 | New Property | Comments |
 |:--- |:--- |
-| LoggingConfigFilePath | The path and filename of a valid logging configuration file. Refer to the [Configuration Changes](configuration-changes.md) section of this document for more details.<br/>**Note:** You must set this property before calling [FCApplication.Initialize]() for it to take effect. |
-| DataProtectorEntropy | Essentially the "password" that was used to encrypt data protected configuration parameters. Please see [Basic Configuration](/articles/basic-configuration.md) for Data Protection details.<br/>**Note:** You must set this property before calling [FCApplication.Initialize]() for it to take effect. |
+| LoggingConfigFilePath | The path and filename of a valid logging configuration file. Refer to the [Configuration Changes](configuration-changes.md) section of this document for more details.<br/>**Note:** You must set this property before calling [FCApplication.Initialize](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~Initialize.md) for it to take effect. |
+| DataProtectorEntropy | Essentially the "password" that was used to encrypt data protected configuration parameters. Please see [Basic Configuration](../basic-configuration.md) for Data Protection details.<br/>**Note:** You must set this property before calling [FCApplication.Initialize](../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication~Initialize.md) for it to take effect. |
 
 ## New Methods
 
@@ -98,4 +98,4 @@ The following methods are new in FCFLCompat.FCApplication.
 
 | New Method | Comments |
 |:--- |:--- |
-| LogEx(string logLevel, string logMessage) | Alternate logging method that allows setting the log level. This method is similar to [Logger.Log]() except that the log level is a string representation of the [LogLevel]() enumeration (e.g "DEBUG", "INFO", "ERROR"). |
+| LogEx(string logLevel, string logMessage) | Alternate logging method that allows setting the log level. This method is similar to [Logger.Log](../sdk/FChoice.Common~FChoice.Common.Logger~Log.md) except that the log level is a string representation of the [LogLevel](../sdk/FChoice.Common~FChoice.Common.LogLevel.md) enumeration (e.g "DEBUG", "INFO", "ERROR"). |

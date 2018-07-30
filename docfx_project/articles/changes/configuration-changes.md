@@ -13,7 +13,7 @@ login_name=sa
 db_password=sa
 ```
 
-While the Compatibility Layer can still be configured using an fc.env file like the one above, in the compatibility layer you can use all of the **fcSDK** application [configuration settings](/articles/basic-configuration.md) for better control of the application and database settings. For example, the following fc.env file effectively replaces the previous example and disables performance counters.
+While the Compatibility Layer can still be configured using an fc.env file like the one above, in the compatibility layer you can use all of the **fcSDK** application [configuration settings](../basic-configuration.md) for better control of the application and database settings. For example, the following fc.env file effectively replaces the previous example and disables performance counters.
 
 ```
 ;begin fc.env file...
