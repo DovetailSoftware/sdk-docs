@@ -5,11 +5,11 @@
 ```vbnet
 'Declaration
 
-ReadOnly Property Joins As [ISchemaViewJoinCollection](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoinCollection.md)
+ReadOnly Property Joins As ISchemaViewJoinCollection
 ```
 
 ```csharp
-[ISchemaViewJoinCollection](fcSDK~FChoice.Foundation.Schema.ISchemaViewJoinCollection.md) Joins {get;}
+ISchemaViewJoinCollection Joins {get;}
 ```
 
 [!include[Requirements](../partials/requirements.md)]

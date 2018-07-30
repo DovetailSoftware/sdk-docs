@@ -12,7 +12,7 @@ Public Overloads Function CreateAttachmentRecord( _
    ByVal _objectType_ As String, _
    ByVal _attachmentsAnywhere_ As Boolean, _
    ByVal _createActEntry_ As Boolean, _
-   ByVal _docPathFields_ As [IDictionary(Of String,Object)](#) _
+   ByVal _docPathFields_ As IDictionary(Of String,Object) _
 ) As Integer
 ```
 
@@ -24,7 +24,7 @@ public int CreateAttachmentRecord(
    string _objectType_,
    bool _attachmentsAnywhere_,
    bool _createActEntry_,
-   [IDictionary<string,object>](#) _docPathFields_
+   IDictionary<string,object> _docPathFields_
 )
 ```
 

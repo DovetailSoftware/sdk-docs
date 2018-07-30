@@ -6,13 +6,13 @@
 'Declaration
 
 Public Shadows Function Contains( _
-   ByVal _filter_ As [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _
+   ByVal _filter_ As Filter _
 ) As Boolean
 ```
 
 ```csharp
 public new bool Contains( 
-   [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) _filter_
+   Filter _filter_
 )
 ```
 

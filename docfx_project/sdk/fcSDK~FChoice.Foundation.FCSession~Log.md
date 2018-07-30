@@ -7,11 +7,11 @@ Returns a [Logger](FChoice.Common~FChoice.Common.Logger.md) useful for logging 
 ```vbnet
 'Declaration
 
-Public ReadOnly Property Log As [Logger](FChoice.Common~FChoice.Common.Logger.md)
+Public ReadOnly Property Log As Logger
 ```
 
 ```csharp
-public [Logger](FChoice.Common~FChoice.Common.Logger.md) Log {get;}
+public Logger Log {get;}
 ```
 
 #### Property Value

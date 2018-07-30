@@ -12,7 +12,7 @@ Public Overloads Function WithinHours( _
 ```
 
 ```csharp
-public [WithinHoursFilter](fcSDK~FChoice.Foundation.Filters.WithinHoursFilter.md) WithinHours( 
+public WithinHoursFilter WithinHours( 
    string _columnName_,
    int _value_
 )

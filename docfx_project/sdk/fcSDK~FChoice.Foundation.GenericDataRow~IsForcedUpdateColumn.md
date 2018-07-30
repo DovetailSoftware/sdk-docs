@@ -6,13 +6,13 @@
 'Declaration
 
 Public Function IsForcedUpdateColumn( _
-   ByVal _col_ As [DataColumn](#) _
+   ByVal _col_ As DataColumn _
 ) As Boolean
 ```
 
 ```csharp
 public bool IsForcedUpdateColumn( 
-   [DataColumn](#) _col_
+   DataColumn _col_
 )
 ```
 

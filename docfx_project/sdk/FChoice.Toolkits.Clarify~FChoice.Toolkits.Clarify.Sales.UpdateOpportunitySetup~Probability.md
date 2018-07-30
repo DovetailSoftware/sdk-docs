@@ -8,12 +8,12 @@ The probability for the Opportunity.
 'Declaration
 
 <PropertyBitValueAttribute()>
-Public Property Probability As [Single](#)
+Public Property Probability As Single
 ```
 
 ```csharp
 [PropertyBitValueAttribute()]
-public [float](#) Probability {get; set;}
+public float Probability {get; set;}
 ```
 
 #### Remarks

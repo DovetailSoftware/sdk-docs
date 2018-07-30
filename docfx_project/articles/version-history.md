@@ -49,8 +49,8 @@
 <ul>
 <li>API Toolkits:
   <ul>
-    <li>Modified [create_employee](/toolkit_html/fcinter/create_employee.md) API to use new SQL statements: CREATE LOGIN and CREATE USER instead of sp_adduser and sp_addlogin system stored procedures in order to create new user login names - MS SQL databases only.<br/>
-<b>IMPORTANT NOTE</b>: Please see create_employee API [notes](/toolkit_html/fcinter/create_employee.md#notes_3_4_3) for explanation of the implications regarding certain versions of MS SQL RDBMS.</li>
+    <li>Modified [create_employee](../sdk/toolkit_html/fcinter/create_employee.md) API to use new SQL statements: CREATE LOGIN and CREATE USER instead of sp_adduser and sp_addlogin system stored procedures in order to create new user login names - MS SQL databases only.<br/>
+<b>IMPORTANT NOTE</b>: Please see create_employee API [notes](../sdk/toolkit_html/fcinter/create_employee.md#notes_3_4_3) for explanation of the implications regarding certain versions of MS SQL RDBMS.</li>
     <li>Fixed an error occurring when a new case phone log was added while case history was returned as null because no initial notes are required at the time of case creation.</li>
   </ul>
 </li>
@@ -101,7 +101,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>API Toolkits:
   <ul>
     <li>
-      <b>IMPORTANT CHANGE</b>: Subcase ID Number generation is now handled by a new stored procedure (<i>fc_next_subcase_seq</i>). This stored procedure needs to be compiled to your database. The <b>Create Subcase</b> API will not operate properly without this stored procedure being loaded into the database. See the [Install Required Stored Procedures](fcsdk_install.md#installstoredprocedures) section of the Installation instructions for more information.
+      <b>IMPORTANT CHANGE</b>: Subcase ID Number generation is now handled by a new stored procedure (<i>fc_next_subcase_seq</i>). This stored procedure needs to be compiled to your database. The <b>Create Subcase</b> API will not operate properly without this stored procedure being loaded into the database. See the [Install Required Stored Procedures](installation-guide.md#installstoredprocedures) section of the Installation instructions for more information.
     </li>
     <li>Fixed a bug which would result in a "badly formed where clause" message received while evaluating an Auto Destination rule with a condition in queue path.</li>
   </ul>
@@ -120,7 +120,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>Install the new version of
   <!--DXMETADATA start type="Variable" name="ProductTitle" -->fcSDK
   <!--DXMETADATA end -->.</li>
-<li>[Install the required stored procedures](fcsdk_install.md#installstoredprocedures), which includes the new <i>fc_next_subcase_seq</i> procedure for subcase ID generation.
+<li>[Install the required stored procedures](installation-guide.md#installstoredprocedures), which includes the new <i>fc_next_subcase_seq</i> procedure for subcase ID generation.
 </ul>
 <h3>Version 3.3.8</h3>
 <ul>
@@ -185,7 +185,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <ul>
 <li>Core:
   <ul>
-    <li>Improved performance for [AppendFilterInList](fcSDK~FChoice.Foundation.FCGeneric~AppendFilterInList.md) queries against non-unicode string fields, allowing the database to optimize the query.</li>
+    <li>Improved performance for [AppendFilterInList](../sdk/fcSDK~FChoice.Foundation.FCGeneric~AppendFilterInList.md) queries against non-unicode string fields, allowing the database to optimize the query.</li>
     <li>Fixed bug where the field size for web user login_name was based on the user login_name size when used as a parameter for contact login.</li>
   </ul>
 </li>
@@ -314,7 +314,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>Core:
   <ul>
     <li>LocaleCache: Improved handling of daylight savings periods to support periods which span multiple years. For example, in New Zealand, daylight savings starts in September and ends in April.</li>
-    <li><b style="color:red;">BREAKING API CHANGE</b> to the [DaylightSavingsCollection](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection.md). This collection had a string based indexer by year which has been replaced with the [GetPeriod](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection~GetPeriod.md) method.</li>
+    <li><b style="color:red;">BREAKING API CHANGE</b> to the [DaylightSavingsCollection](../sdk/fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection.md). This collection had a string based indexer by year which has been replaced with the [GetPeriod](../sdk/fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection~GetPeriod.md) method.</li>
   </ul>
 </li>
 <li>Data Verifier:
@@ -419,7 +419,7 @@ This only affects employees (users), not contacts (web_users).</li>
   <ul>
     <li>Fixed a bug in APIs which increment part request header sequence numbers within a transaction. Sequence incrementation is now enlisted in the current transaction.
       <br/>
-      <p><b style="color:red;">Important:</b> Oracle users should [reapply the stored procedures](fcsdk_install.html#installstoredprocedures). Part of this fix involves an update to the <i>fc_next_pr_seq</i> stored procedure.</p>
+      <p><b style="color:red;">Important:</b> Oracle users should [reapply the stored procedures](installation-guide.md#installstoredprocedures). Part of this fix involves an update to the <i>fc_next_pr_seq</i> stored procedure.</p>
     </li>
   </ul>
 </li>
@@ -471,13 +471,13 @@ This only affects employees (users), not contacts (web_users).</li>
 </li>
 <li>API Toolkits:
   <ul>
-    <li>Enhanced the <code>[Yank API](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~Yank.md)</code> so that it creates a participant record for the user from which the workflow object was yanked. This enables for creation of a business rule to notify the user when an object was yanked from them. Note this requires the optional exclusive relation from participant2user be added to your schema.</li>
-    <li>When <code>[Creating an Attachment Record](fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~CreateAttachmentRecord.md)</code> the doc_inst record created is now related to the activity entry generated for that attachment activity.</li>
+    <li>Enhanced the <code>[Yank API](../sdk/fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~Yank.md)</code> so that it creates a participant record for the user from which the workflow object was yanked. This enables for creation of a business rule to notify the user when an object was yanked from them. Note this requires the optional exclusive relation from participant2user be added to your schema.</li>
+    <li>When <code>[Creating an Attachment Record](../sdk/fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager~CreateAttachmentRecord.md)</code> the doc_inst record created is now related to the activity entry generated for that attachment activity.</li>
   </ul>
 </li>
 <li>Core:
   <ul>
-    <li><code>[ClarifyGenerics](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md)</code> have a new property <code>[DataRestrictionGroup](fcSDK~FChoice.Foundation.FCGeneric~RestrictionGroup.md)</code> which now allows generic level control of the data restriction group used. Previously the restiction group was only settable at the <code>[ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)</code> level. When a ClarifyGeneric is created it will default to the session's restriction group. There is also a new convenience method on ClarifyGeneric for [changing restriction group by name](fcSDK~FChoice.Foundation.FCGeneric~ChangeRestrictionGroup.md).</li>
+    <li><code>[ClarifyGenerics](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.md)</code> have a new property <code>[DataRestrictionGroup](../sdk/fcSDK~FChoice.Foundation.FCGeneric~RestrictionGroup.md)</code> which now allows generic level control of the data restriction group used. Previously the restiction group was only settable at the <code>[ClarifySession](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)</code> level. When a ClarifyGeneric is created it will default to the session's restriction group. There is also a new convenience method on ClarifyGeneric for [changing restriction group by name](../sdk/fcSDK~FChoice.Foundation.FCGeneric~ChangeRestrictionGroup.md).</li>
   </ul>
 </li>
 </ul>
@@ -558,7 +558,7 @@ This only affects employees (users), not contacts (web_users).</li>
     <li>Contact authentication now requires that the contact have active contact and web_user records</li>
     <li>Added new Generic filter creation overloads for AND and OR filters. These new over loads allow you to give an array of Filters which you need to be ANDed or ORed together. Previously you could only apply AND and OR to two filters at a time.</li>
     <li>Added better error prevention for LocaleCache and ListCache. This will prevent most cache-releated Application start-up errors.</li>
-    <li>API added for making it easier to generate ClarifyGeneric filters. See the [FilterExpression class.](fcSDK~FChoice.Foundation.Filters.FilterExpression.md)</li>
+    <li>API added for making it easier to generate ClarifyGeneric filters. See the [FilterExpression class.](../sdk/fcSDK~FChoice.Foundation.Filters.FilterExpression.md)</li>
   </ul>
 </li>
 <li>Data Verifier:
@@ -700,7 +700,7 @@ This only affects employees (users), not contacts (web_users).</li>
   <li>Compatibility:
     <ul>
       <li><b style="color:red;">Security Support Added</b>
-        <br/> To help avoid SQL Injection attacks we have added support to FCSqlExec for binding parameters (via [AddSqlParameter](AddSqlParameter.md)). We recommend that all SQL queries built using user input should executed with FCSqlExec using bind parameters. For more information see the [Execute](Execute.md) and [ExecuteReturnRows](ExecuteReturnRows.md) for examples.</li>
+        <br/> To help avoid SQL Injection attacks we have added support to FCSqlExec for binding parameters (via [AddSqlParameter](../sdk/fcfl_html/AddSqlParameter.md)). We recommend that all SQL queries built using user input should executed with FCSqlExec using bind parameters. For more information see the [Execute](../sdk/fcfl_html/Execute.md) and [ExecuteReturnRows](../sdk/fcfl_html/ExecuteReturnRows.md) for examples.</li>
     </ul>
   </li>
 </ul>
@@ -832,7 +832,7 @@ This only affects employees (users), not contacts (web_users).</li>
   </ul>
   <ul>
     <li>Oracle queries involving large text fields (Long, CLOB) now set the field's data type based on existing fields in the database rather than the version of the database platform.</li>
-    <li>Dovetail SDK performance counters are now disabled by default. The configuration [documentation has been updated](fcsdk_config_basic.html#fchoice-perfcountersenabled) to reflect this.</li>
+    <li>Dovetail SDK performance counters are now disabled by default. The configuration [documentation has been updated](basic-configuration.md#fchoice-perfcountersenabled) to reflect this.</li>
   </ul>
 </li>
 <li>Compatibility:
@@ -888,7 +888,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <ul>
 <li>Core:
   <ul>
-    <li>The <code>[fchoice.clarify.ignoredatetimemilliseconds](fcsdk_config_basic.html#fchoice.clarify.ignoredatetimemilliseconds)</code> configuration setting was not being honored for change date fields and for normal DateTime fields when the ConvertTimeZone session property was false.</li>
+    <li>The <code>[fchoice.clarify.ignoredatetimemilliseconds](basic-configuration.md#fchoice.clarify.ignoredatetimemilliseconds)</code> configuration setting was not being honored for change date fields and for normal DateTime fields when the ConvertTimeZone session property was false.</li>
   </ul>
 </li>
 <li>Compatibility:
@@ -976,7 +976,7 @@ This only affects employees (users), not contacts (web_users).</li>
 </ul>
 <li>Core:</li>
 <ul>
-  <li>ClarifyApplication can now be removed from the AppDomain using [DeInitialize](fcSDK~FChoice.Foundation.FCApplication~DeInitialize.md)</li>
+  <li>ClarifyApplication can now be removed from the AppDomain using [DeInitialize](../sdk/fcSDK~FChoice.Foundation.FCApplication~DeInitialize.md)</li>
 </ul>
 </ul>
 <h3>Version 2.2.6</h3>
@@ -991,7 +991,7 @@ This only affects employees (users), not contacts (web_users).</li>
 </li>
 <li>Compatibility:</li>
 <ul>
-  <li>FCApplication: Added [GetLocalizedGbstElmById](GetGbstElmByID.md) and [GetLocalizedGbstDefault](GetGbstDefault.md) methods.</li>
+  <li>FCApplication: Added [GetLocalizedGbstElmById](../sdk/fcfl_html/GetGbstElmByID.md) and [GetLocalizedGbstDefault](../sdk/fcfl_html/GetGbstDefault.md) methods.</li>
 </ul>
 </ul>
 <h3>Version 2.2.5</h3>
@@ -999,7 +999,7 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>API Toolkits:
   <ul>
     <li>Fixed bug involving improperly formatted datetimes when using the AdditionalFields property in Toolkit APIs. The FCSession's
-      [CurrentCulture](fcSDK~FChoice.Foundation.FCSession~CurrentCulture.md) is now used to properly format the datetime.</li>
+      [CurrentCulture](../sdk/fcSDK~FChoice.Foundation.FCSession~CurrentCulture.md) is now used to properly format the datetime.</li>
     <li>FCCL - [FullfillPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest.md) result now includes the objid and id_number of the PartRequestDetail created when a partial fulfill occurs.</li>
   </ul>
 </li>
@@ -1021,7 +1021,7 @@ This only affects employees (users), not contacts (web_users).</li>
 </li>
 <li>General:
   <ul>
-    <li>The fcSDK installer now requires that .Net 1.1 Service Pack 1 be present. This is due to a breaking change in .Net 2.0 that affects [Performance Counter](fcsdk_install.html#security) support. Please see [this solution](http://www.dovetailsoftware.com/resources/solutions/235_fcSDK_Installer_ends.aspx) for more details.</li>
+    <li>The fcSDK installer now requires that .Net 1.1 Service Pack 1 be present. This is due to a breaking change in .Net 2.0 that affects [Counteration-guide](installation-guide.md#security) support. Please see [this solution](http://www.dovetailsoftware.com/resources/solutions/235_fcSDK_Installer_ends.aspx) for more details.</li>
   </ul>
 </li>
 </ul>
@@ -1060,18 +1060,18 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>Core</li>
 <ul>
   <li>
-    <p><b style="color:red;">BREAKING API CHANGE</b> (.NET APIs only, Compatibility unaffected): FCGeneric.Filter has been renamed to [FCGeneric.RawFilter](fcSDK~FChoice.Foundation.FCGeneric~RawFilter.md). This was done to make room for the new Query Filtering mechansim.</p>
+    <p><b style="color:red;">BREAKING API CHANGE</b> (.NET APIs only, Compatibility unaffected): FCGeneric.Filter has been renamed to [FCGeneric.RawFilter](../sdk/fcSDK~FChoice.Foundation.FCGeneric~RawFilter.md). This was done to make room for the new Query Filtering mechansim.</p>
   </li>
   <li>There is a new Query Filtering mechanism in place that allows for more complex filters against Generic objects. Please take a look at the [Developer Walkthrough - Advanced Filtering](walkthroughs/filtering.md) for more information.</li>
   <li>
-    <p>New optional <code>[fchoice.clarify.ignoredatetimemilliseconds](fcsdk_config_basic.md#fchoice-clarify-ignoredatetimemilliseconds)</code> configration setting added to better support compatiblity with older versions of Clarify Classic Client.</p>
+    <p>New optional <code>[fchoice.clarify.ignoredatetimemilliseconds](basic-configuration.md#fchoice-clarify-ignoredatetimemilliseconds)</code> configration setting added to better support compatiblity with older versions of Clarify Classic Client.</p>
   </li>
   <li>Fixed login bug where an Employee's <i>last_login</i> was being incorrectly updated during a Contact login of the same <i>login_name</i>.</li>
-  <li>On MSSQL [ClarifySession.SetPassword()](fcSDK~FChoice.Foundation.FCSession~SetPassword.md) no longer requires that the application user have sysadmin rights.</li>
+  <li>On MSSQL [ClarifySession.SetPassword()](../sdk/fcSDK~FChoice.Foundation.FCSession~SetPassword.md) no longer requires that the application user have sysadmin rights.</li>
   <li>
     <p><b style="color:red;">BREAKING API CHANGE</b> (.NET APIs only, Compatibility unaffected): The string/name overloads (as opposed to the ID overloads) of the <code>GetFCString</code> method on <code>StringCache</code> now require another parameter: <code>applicationName</code> since application name is a required parameter to generate unique name identifiers for individual FC Strings. The lack of an <code>applicationName</code> argument was an oversight in previous versions of the fcSDK.</p>
     <p><b>IMPORTANT NOTE FOR CUSTOMERS USING CUSTOMIZED fcSDK ERROR MESSAGES</b>:</p>
-    <p> Any existing strings that were imported via the fcerrors.dat and/or customized will have to be updated to have a proper application name. The default application name for all errors in the fcSDK is "fcSDK". If you wish to have multiple customized error messages for multiple instances of the fcSDK, you can override the application name using the [fchoice.fcstringappnameforerrors](fcsdk_config_basic.md) configuration setting. For more information, see the [Basic Configuration Guide](fcsdk_config_basic.md)</p>
+    <p> Any existing strings that were imported via the fcerrors.dat and/or customized will have to be updated to have a proper application name. The default application name for all errors in the fcSDK is "fcSDK". If you wish to have multiple customized error messages for multiple instances of the fcSDK, you can override the application name using the [fchoice.fcstringappnameforerrors](basic-configuration.md) configuration setting. For more information, see the [Basic Configuration Guide](basic-configuration.md)</p>
   </li>
 </ul>
 <li>Auto Destination</li>
@@ -1082,11 +1082,11 @@ This only affects employees (users), not contacts (web_users).</li>
 <li>Compatibility</li>
 <ul>
   <li>Fixed the interaction between FCGeneric.Delete() and cursor movement methods (MoveNext, EOF).</li>
-  <li>[FCApplication.InitializeFull()](fcSDK~FChoice.Foundation.Clarify.Compatibility.FCApplication~InitializeFull.md) was not utilizing settings contained in fc.env. Configuration settings from the fc.env file are now pulled in but database authentication settings like <i>fchoice.dbtype</i> and <i>fchoice.connectionstring</i> are ignored.</li>
+  <li>[FCApplication.InitializeFull()](../sdk/fcSDK~FChoice.Foundation.Clarify.Compatibility.FCApplication~InitializeFull.md) was not utilizing settings contained in fc.env. Configuration settings from the fc.env file are now pulled in but database authentication settings like <i>fchoice.dbtype</i> and <i>fchoice.connectionstring</i> are ignored.</li>
 </ul>
 <li>API Toolkits</li>
 <ul>
-  <li>All Toolkit setup objects that require a User session now have a [UserName](fcSDK~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup~UserName.md) property which if present is required when the ClarifySession's [login type](fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md) is Contact.</li>
+  <li>All Toolkit setup objects that require a User session now have a [UserName](../sdk/fcSDK~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup~UserName.md) property which if present is required when the ClarifySession's [login type](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyLoginType.md) is Contact.</li>
   <li>Fixed datetime localization issues when APIs are invoked using non-US cultures.</li>
 </ul>
 </ul>
@@ -1209,11 +1209,11 @@ Fixes and Additions:
       <li>Data: SqlHelper now catches exceptions thrown by the database client and ensures that they are logged (which used to not happen in all cases when FCFL.NET was used through the Compatibility layer). Also, error information will appear in the query summary to allow log filtering.</li>
       <li>
         <b style="color:red;">BREAKING API CHANGE</b> (.NET APIs only, Compatibility unaffected): The concept of a bulk has been completely removed from the .NET core APIs (FChoice.Foundation and FChoice.Foundation.Clarify). The compatibility layer (FChoice.Foundation.Clarify.Compatibility, or FCFLCompat.dll) is unaffected and will still behave like normal. <i>Existing applications written to the COM layer <b>WILL NOT</b> be affected by this change.</i> In order to work with <code>ClarifyGeneric</code>, you must first create a new <code>ClarifyDataSet</code> object. The <code>CreateGeneric</code> method has been moved from <code>ClarifySession</code> to <code>ClarifyDataSet</code>.
-        <br> For more information on how to make the move from using <code>ClarifyBulk</code> and <code>ClarifySession.CreateGeneric</code> to <code>ClarifyDataSet</code>, please see the updated [<b>FCFL.NET</b> Developer Walkthrough](walkthroughs/fcfl-net-objects.md) of fundamental objects in <b>FCFL.NET</b> as well as the API documentation for the <code>[ClarifyDataSet](fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md)</code> object.
+        <br> For more information on how to make the move from using <code>ClarifyBulk</code> and <code>ClarifySession.CreateGeneric</code> to <code>ClarifyDataSet</code>, please see the updated [<b>FCFL.NET</b> Developer Walkthrough](walkthroughs/fcfl-net-objects.md) of fundamental objects in <b>FCFL.NET</b> as well as the API documentation for the <code>[ClarifyDataSet](../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.md)</code> object.
       </li>
       <li><code>LogManager</code> was not handling invalid configurations well. A stack overflow would occur when attempting to alert the user about the bad configuration.</li>
-      <li>On Oracle 8.0.x and earlier databases, strings with non ascii or extended ascii charcters non ASCII strings would cause garbage data to be inserted into the database. <b>This setting effectively disables Unicode support for Oracle 8.0.x or earlier databases.</b> Non-ASCII charcters are converted to question marks (?). There is an application configuration setting [fchoice.oracle.forceascii7bit](fcsdk_config_basic.md) to control this behavior.</li>
-      <li>Multiline text fields do not always display properly in the Clarify windows client if there are carriage returns present. CRLF is now converted to LF. An application config setting [fchoice.clarify.convertcarriagereturns](fcsdk_config_basic.md) was added to control this behavior.</li>
+      <li>On Oracle 8.0.x and earlier databases, strings with non ascii or extended ascii charcters non ASCII strings would cause garbage data to be inserted into the database. <b>This setting effectively disables Unicode support for Oracle 8.0.x or earlier databases.</b> Non-ASCII charcters are converted to question marks (?). There is an application configuration setting [fchoice.oracle.forceascii7bit](basic-configuration.md) to control this behavior.</li>
+      <li>Multiline text fields do not always display properly in the Clarify windows client if there are carriage returns present. CRLF is now converted to LF. An application config setting [fchoice.clarify.convertcarriagereturns](basic-configuration.md) was added to control this behavior.</li>
     </ul>
   </li>
   <li>Compatibility
@@ -1243,7 +1243,7 @@ Fixes and Additions:
               <CODE>MaxRecords</CODE> issue.</li>
           </ul>
         </li>
-        <li>For FC.env files, application configuration settings will now override classic FC.env database parameters. The [Configuration Changes](compat_configuration.md) document discusses this feature.</li>
+        <li>For FC.env files, application configuration settings will now override classic FC.env database parameters. The [Configuration Changes](changes/compat_configuration.md) document discusses this feature.</li>
         <li><code>GetState</code> and <code>GetCountry</code> methods were not throwing exceptions for invalid states or countries.</li>
     </ul>
     <li>AutoDestination
@@ -1328,14 +1328,14 @@ Fixes and Additions:
     </li>
     <li>Performance Counters
       <ul>
-        <li>Performance counter functionality can now be disabled for individual applications. See the [Basic Configuration](fcsdk_config_basic.md) guide for more information.</li>
+        <li>Performance counter functionality can now be disabled for individual applications. See the [Basic Configuration](basic-configuration.md) guide for more information.</li>
         <li>Installer now prompts to set required performance counter permissions for all operating systems.</li>
       </ul>
     </li>
   </li>
   <li>Data Verifier now supports Oracle 7 and 8.0 databases.</li>
   <li>Data: SqlHelper now logs whether a query is considered "large" to allow filtering of large and small queries. Please see the new
-    [logging config sample documentation](logging_sample_largesql.md) which shows how to redirect logging output for large queries.</li>
+    [logging config sample documentation](logging/large-queries.md) which shows how to redirect logging output for large queries.</li>
 </ul>
 </p>
 <p>Installation:
@@ -1403,6 +1403,4 @@ Fixes and Additions:
   </ul>
 </p>
 <h3>Version 1.0</h3>
-<p>
-  Initial Release
-</p>
+<p>Initial Release</p>

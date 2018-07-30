@@ -13,13 +13,13 @@ Gets the [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) a
 
 Public ReadOnly Default Property Item( _
    ByVal _index_ As Integer _
-) As [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)
+) As ClarifyDataRow
 ```
 
 ```csharp
-public [ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md) this\[ 
+public ClarifyDataRow this[ 
    int _index_
-\]; {get;}
+]; {get;}
 ```
 
 #### Parameters

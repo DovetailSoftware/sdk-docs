@@ -6,15 +6,15 @@
 'Declaration
 
 Sub ProcessBinding( _
-   ByVal _changedRows_ As [IDictionary(Of FCGeneric,IDictionary(Of Guid,GenericDataRow))](#), _
-   ByVal _batch_ As [UpdateQueryBatch](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch.md) _
+   ByVal _changedRows_ As IDictionary(Of FCGeneric,IDictionary(Of Guid,GenericDataRow)), _
+   ByVal _batch_ As UpdateQueryBatch _
 ) 
 ```
 
 ```csharp
 void ProcessBinding( 
-   [IDictionary<FCGeneric,IDictionary<Guid,GenericDataRow>>](#) _changedRows_,
-   [UpdateQueryBatch](FChoice.Common~FChoice.Common.Data.UpdateQueryBatch.md) _batch_
+   IDictionary<FCGeneric,IDictionary<Guid,GenericDataRow>> _changedRows_,
+   UpdateQueryBatch _batch_
 )
 ```
 

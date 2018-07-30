@@ -14,7 +14,7 @@ Initializes a new instance of the ChangeOpportunityStageSetup class.
 <ConstructorIndexAttribute()>
 Public Function New( _
    ByVal _opportunityIDNum_ As String, _
-   ByVal _stage_ As [OpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.OpportunityStage.md) _
+   ByVal _stage_ As OpportunityStage _
 )
 ```
 
@@ -22,7 +22,7 @@ Public Function New( _
 [ConstructorIndexAttribute()]
 public ChangeOpportunityStageSetup( 
    string _opportunityIDNum_,
-   [OpportunityStage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.OpportunityStage.md) _stage_
+   OpportunityStage _stage_
 )
 ```
 

@@ -5,11 +5,11 @@
 ```vbnet
 'Declaration
 
-Public Property LoginTime As [Nullable(Of Date)](#)
+Public Property LoginTime As Nullable(Of Date)
 ```
 
 ```csharp
-public [Nullable<DateTime>](#) LoginTime {get; set;}
+public Nullable<DateTime> LoginTime {get; set;}
 ```
 
 [!include[Requirements](../partials/requirements.md)]

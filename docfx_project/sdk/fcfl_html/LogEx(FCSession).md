@@ -12,12 +12,12 @@ Public Sub LogEx(logLevel as String, logMessage As String)
 
 **Description**
 
-Alternate logging method that allows setting the log level. This method is similar to [Logger.Log](/sdk/FChoice.Common~FChoice.Common.Logger~Log.md) except that the log level is a string representation of the [LogLevel](/sdk/FChoice.Common~FChoice.Common.LogLevel.md) enumeration (e.g "DEBUG", "INFO", "ERROR").
+Alternate logging method that allows setting the log level. This method is similar to [Logger.Log](../FChoice.Common~FChoice.Common.Logger~Log.md) except that the log level is a string representation of the [LogLevel](../FChoice.Common~FChoice.Common.LogLevel.md) enumeration (e.g "DEBUG", "INFO", "ERROR").
 
 #### Parameters
 **Parameter Name                Required?             Description                                                                                          **
 
-logLevel                               Yes                         A string representation of the [LogLevel](/sdk/FChoice.Common~FChoice.Common.LogLevel.md) enumeration (e.g "DEBUG", "INFO", "ERROR").
+logLevel                               Yes                         A string representation of the [LogLevel](../FChoice.Common~FChoice.Common.LogLevel.md) enumeration (e.g "DEBUG", "INFO", "ERROR").
 
 logMessage                         Yes                        The message to be logged.
 

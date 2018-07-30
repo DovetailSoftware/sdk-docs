@@ -7,11 +7,11 @@ CRM configurable session data populates this property during [CreateSession](fcS
 ```vbnet
 'Declaration
 
-Public ReadOnly Property SessionData As [Hashtable](#)
+Public ReadOnly Property SessionData As Hashtable
 ```
 
 ```csharp
-public [Hashtable](#) SessionData {get;}
+public Hashtable SessionData {get;}
 ```
 
 [!include[Requirements](../partials/requirements.md)]

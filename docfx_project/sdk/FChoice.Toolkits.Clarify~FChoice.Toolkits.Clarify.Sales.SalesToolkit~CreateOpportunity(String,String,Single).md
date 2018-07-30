@@ -16,7 +16,7 @@ Used to create a new Opportunity. This overload takes a set of required paramete
 Public Overloads Function CreateOpportunity( _
    ByVal _opportunityName_ As String, _
    ByVal _salesStage_ As String, _
-   ByVal _probability_ As [Single](#) _
+   ByVal _probability_ As Single _
 ) As ToolkitResult
 ```
 
@@ -24,7 +24,7 @@ Public Overloads Function CreateOpportunity( _
 public ToolkitResult CreateOpportunity( 
    string _opportunityName_,
    string _salesStage_,
-   [float](#) _probability_
+   float _probability_
 )
 ```
 

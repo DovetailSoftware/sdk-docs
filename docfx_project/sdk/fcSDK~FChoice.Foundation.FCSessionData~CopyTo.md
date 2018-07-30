@@ -6,13 +6,13 @@
 'Declaration
 
 Public Overridable Sub CopyTo( _
-   ByVal _newData_ As [FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md) _
+   ByVal _newData_ As FCSessionData _
 ) 
 ```
 
 ```csharp
 public virtual void CopyTo( 
-   [FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md) _newData_
+   FCSessionData _newData_
 )
 ```
 

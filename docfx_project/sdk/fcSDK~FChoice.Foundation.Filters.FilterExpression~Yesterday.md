@@ -7,11 +7,11 @@
 
 Public Function Yesterday( _
    ByVal _columnName_ As String _
-) As [YesterdayFilter](fcSDK~FChoice.Foundation.Filters.YesterdayFilter.md)
+) As YesterdayFilter
 ```
 
 ```csharp
-public [YesterdayFilter](fcSDK~FChoice.Foundation.Filters.YesterdayFilter.md) Yesterday( 
+public YesterdayFilter Yesterday( 
    string _columnName_
 )
 ```

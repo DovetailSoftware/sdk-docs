@@ -8,12 +8,12 @@ Object containing sums information for the case closing.
 'Declaration
 
 <PropertyBitValueAttribute()>
-Public Property CaseTimeAndExpenses As [CaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses.md)
+Public Property CaseTimeAndExpenses As CaseTimeAndExpenses
 ```
 
 ```csharp
 [PropertyBitValueAttribute()]
-public [CaseTimeAndExpenses](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses.md) CaseTimeAndExpenses {get; set;}
+public CaseTimeAndExpenses CaseTimeAndExpenses {get; set;}
 ```
 
 #### Remarks

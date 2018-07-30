@@ -17,7 +17,7 @@ Initializes a new instance of the CreateOpportunitySetup class.
 Public Function New( _
    ByVal _opportunityName_ As String, _
    ByVal _salesStage_ As String, _
-   ByVal _probability_ As [Single](#) _
+   ByVal _probability_ As Single _
 )
 ```
 
@@ -26,7 +26,7 @@ Public Function New( _
 public CreateOpportunitySetup( 
    string _opportunityName_,
    string _salesStage_,
-   [float](#) _probability_
+   float _probability_
 )
 ```
 

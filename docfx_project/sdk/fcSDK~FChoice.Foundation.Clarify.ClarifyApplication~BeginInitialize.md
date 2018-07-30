@@ -12,7 +12,7 @@ Begins an asynchronous **ClarifyApplication** initialization.
 'Declaration
 
 Public Shared Function BeginInitialize( _
-   ByVal _callback_ As [AsyncCallback](#), _
+   ByVal _callback_ As AsyncCallback, _
    ByVal _state_ As Object _
 ) As IAsyncResult
 ```

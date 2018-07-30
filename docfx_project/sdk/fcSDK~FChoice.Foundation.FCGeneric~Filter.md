@@ -7,11 +7,11 @@ This is the root filter used to constrain rows returned during [Query](fcSDK~FCh
 ```vbnet
 'Declaration
 
-Public ReadOnly Property Filter As [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md)
+Public ReadOnly Property Filter As AndFilter
 ```
 
 ```csharp
-public [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md) Filter {get;}
+public AndFilter Filter {get;}
 ```
 
 #### Remarks

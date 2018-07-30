@@ -28,7 +28,7 @@ Public Function New( _
    ByVal _partDomain_ As String, _
    ByVal _supportProgram_ As String, _
    ByVal _priceProgram_ As String, _
-   ByVal _priceType_ As [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md), _
+   ByVal _priceType_ As PriceInstanceType, _
    ByVal _quantity_ As Integer _
 )
 ```
@@ -41,7 +41,7 @@ public CreatePriceInstanceSetup(
    string _partDomain_,
    string _supportProgram_,
    string _priceProgram_,
-   [PriceInstanceType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PriceInstanceType.md) _priceType_,
+   PriceInstanceType _priceType_,
    int _quantity_
 )
 ```

@@ -6,13 +6,13 @@
 'Declaration
 
 Public Function Intersects( _
-   ByVal _input_ As [DaylightSavingsPeriod](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod.md) _
+   ByVal _input_ As DaylightSavingsPeriod _
 ) As Boolean
 ```
 
 ```csharp
 public bool Intersects( 
-   [DaylightSavingsPeriod](fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod.md) _input_
+   DaylightSavingsPeriod _input_
 )
 ```
 

@@ -6,14 +6,14 @@
 'Declaration
 
 Public Overloads Function LogCREmailIn( _
-   ByVal _setup_ As [QualityToolkit.LogCREmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit+LogCREmailInSetup.md), _
+   ByVal _setup_ As QualityToolkit.LogCREmailInSetup, _
    ByVal _transaction_ As IDbTransaction _
 ) As ToolkitResult
 ```
 
 ```csharp
 public ToolkitResult LogCREmailIn( 
-   [QualityToolkit.LogCREmailInSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit+LogCREmailInSetup.md) _setup_,
+   QualityToolkit.LogCREmailInSetup _setup_,
    IDbTransaction _transaction_
 )
 ```

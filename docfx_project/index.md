@@ -44,11 +44,13 @@ Supplies syntax, code samples, and related information for each class in the **f
 * [FChoice.Common Namespace](api/FChoice.Common.md)<br/>Provides basic supporting services like configuration, logging, and error management services to Dovetail .NET-based products.
 * [FChoice.Foundation.Clarify Namespace](api/FChoice.Foundation.Clarify.md)<br/>Provides Clarify-specific authentication, business logic, and data access for Clarify databases.
 * Individual Toolkit Namespaces:
-    * [FChoice.Toolkits.Clarify.Contracts](api/FChoice.Toolkits.Clarify.Contracts.md) - API Toolkit for ClearContracts operations
-    * [FChoice.Toolkits.Clarify.DepotRepair](api/FChoice.Toolkits.Clarify.DepotRepair.md) - API Toolkit for Depot Repair operations
-    * [FChoice.Toolkits.Clarify.FieldOps](api/FChoice.Toolkits.Clarify.FieldOps.md) - API Toolkit for Field Operations
-    * [FChoice.Toolkits.Clarify.Interfaces](api/FChoice.Toolkits.Clarify.Interfaces.md) - API Toolkit for core operations such as sites and contact manipulation
-    * [FChoice.Toolkits.Clarify.Logistics](api/FChoice.Toolkits.Clarify.Logistics.md) - API Toolkit for ClearLogistics operations
-    * [FChoice.Toolkits.Clarify.Quality](api/FChoice.Toolkits.Clarify.Quality.md) - API Toolkit for ClearQuality operations
-    * [FChoice.Toolkits.Clarify.Sales](api/FChoice.Toolkits.Clarify.Sales.md) - API Toolkit for ClearSales operations
-    * [FChoice.Toolkits.Clarify.Support](api/FChoice.Toolkits.Clarify.Support.md) - API Toolkit for ClearSupport operations
+    * [FChoice.Toolkits.Clarify.Contracts](sdk/
+    FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts_namespace.md) - API Toolkit for ClearContracts operations
+    * [FChoice.Toolkits.Clarify.DepotRepair](sdk/
+    FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair_namespace.md) - API Toolkit for Depot Repair operations
+    * [FChoice.Toolkits.Clarify.FieldOps](sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps_namespace.md) - API Toolkit for Field Operations
+    * [FChoice.Toolkits.Clarify.Interfaces](sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces_namespace.md) - API Toolkit for core operations such as sites and contact manipulation
+    * [FChoice.Toolkits.Clarify.Logistics](sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md) - API Toolkit for ClearLogistics operations
+    * [FChoice.Toolkits.Clarify.Quality](sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality_namespace.md) - API Toolkit for ClearQuality operations
+    * [FChoice.Toolkits.Clarify.Sales](sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales_namespace.md) - API Toolkit for ClearSales operations
+    * [FChoice.Toolkits.Clarify.Support](sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support_namespace.md) - API Toolkit for ClearSupport operations

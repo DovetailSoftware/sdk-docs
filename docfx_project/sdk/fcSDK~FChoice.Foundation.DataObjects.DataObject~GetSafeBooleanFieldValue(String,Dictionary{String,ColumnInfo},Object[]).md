@@ -7,7 +7,7 @@
 
 Public Overloads Shared Function GetSafeBooleanFieldValue( _
    ByVal _columnName_ As String, _
-   ByVal _columnMap_ As [Dictionary(Of String,ColumnInfo)](#), _
+   ByVal _columnMap_ As Dictionary(Of String,ColumnInfo), _
    ByVal _values_() As Object _
 ) As Boolean
 ```
@@ -15,8 +15,8 @@ Public Overloads Shared Function GetSafeBooleanFieldValue( _
 ```csharp
 public static bool GetSafeBooleanFieldValue( 
    string _columnName_,
-   [Dictionary<string,ColumnInfo>](#) _columnMap_,
-   object\[\] _values_
+   Dictionary<string,ColumnInfo> _columnMap_,
+   object[] _values_
 )
 ```
 

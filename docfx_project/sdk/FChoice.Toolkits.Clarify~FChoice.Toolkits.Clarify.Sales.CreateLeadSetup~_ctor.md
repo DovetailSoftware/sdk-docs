@@ -22,7 +22,7 @@ Public Function New( _
    ByVal _state_ As String, _
    ByVal _country_ As String, _
    ByVal _timeZone_ As String, _
-   ByVal _siteType_ As [LeadSiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LeadSiteType.md), _
+   ByVal _siteType_ As LeadSiteType, _
    ByVal _leadSource_ As String _
 )
 ```
@@ -33,7 +33,7 @@ public CreateLeadSetup(
    string _state_,
    string _country_,
    string _timeZone_,
-   [LeadSiteType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LeadSiteType.md) _siteType_,
+   LeadSiteType _siteType_,
    string _leadSource_
 )
 ```

@@ -9,7 +9,9 @@ Public Overloads Function WithinHours( _
    ByVal _columnName_ As String, _
    ByVal _value_ As Decimal _
 ) As WithinHoursFilter
+```
 
+```csharp
 public WithinHoursFilter WithinHours( 
    string _columnName_,
    decimal _value_

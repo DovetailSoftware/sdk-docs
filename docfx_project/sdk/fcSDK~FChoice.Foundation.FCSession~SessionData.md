@@ -5,11 +5,11 @@
 ```vbnet
 'Declaration
 
-Public ReadOnly Property SessionData As [FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md)
+Public ReadOnly Property SessionData As FCSessionData
 ```
 
 ```csharp
-public [FCSessionData](fcSDK~FChoice.Foundation.FCSessionData.md) SessionData {get;}
+public FCSessionData SessionData {get;}
 ```
 
 [!include[Requirements](../partials/requirements.md)]
