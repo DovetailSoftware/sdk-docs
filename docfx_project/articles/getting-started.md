@@ -19,6 +19,6 @@ The **fcSDK** supports a great many environments. You can write web-based ASP.NE
 
 The **fcSDK** programs can be written in any .NET CLS-compliant language. The .NET-based languages (C#, VB.NET, Jscript.NET) are the most common, and provide the quickest path to writing **fcSDK** programs. But other languages and environments are possible. Older COM-based languages, as well as older web environments (JScript or VBScript) are also possible using the **fcSDK** [COM Compatibility Layer](compatibility-guide.md).
 
-## About Java™ Support
+## About Java&trade; Support
 
-The **fcSDK** is based on the Microsoft™ .NET Framework environment. As such, it does not natively support Java™ programs and environments.
+The **fcSDK** is based on the Microsoft&trade; .NET Framework environment. As such, it does not natively support Java&trade; programs and environments.

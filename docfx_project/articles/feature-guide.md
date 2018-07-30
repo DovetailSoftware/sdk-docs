@@ -13,7 +13,7 @@ MTM table support
 Change date/change fields
 Cached common data available
 Cached schema (available in the **fcSDK**, but not in Clarify's system)
-Case sensitive fields (s_ fields) – Oracle™ only
+Case sensitive fields (s_ fields) – Oracle&trade; only
 Exclusive relations
 Mandatory relations
 When you commit multiple objects in a single transaction, the condition object is committed first, and then the objects are committed in order of their table number. This is done to minimize deadlock issues
@@ -25,7 +25,7 @@ The crucial design point for the **fcSDK** is that you should not (and will not)
 
 ## .NET Object Oriented and Managed Code Environment
 
-Since **fcSDK** is based on the [Microsoft™ .NET Framework](http://www.microsoft.com/net/), it inherently gains powerful features such as an object-oriented, managed code, highly secure operating environment. The features and advantages of the Microsoft™ .NET Framework are too numerous to list here, but a few of the major ones are:
+Since **fcSDK** is based on the [Microsoft&trade; .NET Framework](http://www.microsoft.com/net/), it inherently gains powerful features such as an object-oriented, managed code, highly secure operating environment. The features and advantages of the Microsoft&trade; .NET Framework are too numerous to list here, but a few of the major ones are:
 
 * Common Language Runtime (CLR)
 
@@ -47,7 +47,7 @@ Since **fcSDK** is based on the [Microsoft™ .NET Framework](http://www.microso
 
     The .NET FCL provides standardized access to modern technologies and standards such as XML, SOAP (Web Services), TCP/IP, HTTP, and other networking protocols, etc. This allows the **fcSDK** to support more features and standards out-of-the-box by taking advantage of the standard features in the .NET Framework which is well tested and widely used in the development community.
 
-* Multi-threaded runtime - Microsoft™ .NET was written from the ground up and does not inherit any of the design restrictions imposed by previous Microsoft™ technologies such as COM. This means that .NET components are fully multithreaded and able to be used from multiple threads without any restrictions from the Framework itself as was true in a COM environment (STA, MTA, etc).
+* Multi-threaded runtime - Microsoft&trade; .NET was written from the ground up and does not inherit any of the design restrictions imposed by previous Microsoft&trade; technologies such as COM. This means that .NET components are fully multithreaded and able to be used from multiple threads without any restrictions from the Framework itself as was true in a COM environment (STA, MTA, etc).
 
     The **fcSDK** engine is built to be completely thread safe and to take advantage of the .NET multi-threaded paradigm. This yields large gains in both scalability and performance. The single-threaded nature of the FCApplication was perhaps the largest performance bottleneck with FCFL, due to limitations in the base COM subsystem. This meant that cached item requests were all passed in a serialized manner to the cache management routines.
 
@@ -55,13 +55,13 @@ Since **fcSDK** is based on the [Microsoft™ .NET Framework](http://www.microso
 
 * Open, standardized, and multi-platform
 
-    The Microsoft™ .NET Common Language Infrastructure (CLI) which defines all the core operating principles behind how the CLR works was published by Microsoft™ as a [standard](http://www.ecma-international.org/publications/standards/ecma-335.htm) to the [ECMA International](http://www.ecma-international.org/) standards body in December of 2002. Along with this standard, Microsoft™ submitted a [standard for C#](http://www.ecma-international.org/publications/standards/ecma-334.htm) as a language to accompany the CLI. Later, both standards were later adopted by the [International Standards Organization](http://www.iso.org/) (ISO) as [ISO 23270 - C# Language Specification](http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=36768&ICS1=35&ICS2=60&ICS3=) and [ISO 23271 - Common Language Infrastructure](http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=36769&ICS1=35&ICS2=60&ICS3=).
+    The Microsoft&trade; .NET Common Language Infrastructure (CLI) which defines all the core operating principles behind how the CLR works was published by Microsoft&trade; as a [standard](http://www.ecma-international.org/publications/standards/ecma-335.htm) to the [ECMA International](http://www.ecma-international.org/) standards body in December of 2002. Along with this standard, Microsoft&trade; submitted a [standard for C#](http://www.ecma-international.org/publications/standards/ecma-334.htm) as a language to accompany the CLI. Later, both standards were later adopted by the [International Standards Organization](http://www.iso.org/) (ISO) as [ISO 23270 - C# Language Specification](http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=36768&ICS1=35&ICS2=60&ICS3=) and [ISO 23271 - Common Language Infrastructure](http://www.iso.org/iso/en/CatalogueDetailPage.CatalogueDetail?CSNUMBER=36769&ICS1=35&ICS2=60&ICS3=).
 
-    Microsoft™ officially supports .NET on Windows 98, Windows 2000, Windows XP, and Windows 2003 Server. Since .NET is an open standard, there have been several 3rd party implementations on other platforms such as Microsoft™'s own [Shared Source CLI implementation](http://msdn.microsoft.com/net/sscli/) for Windows and FreeBSD (which has been adapted for other platforms including Linux).
+    Microsoft&trade; officially supports .NET on Windows 98, Windows 2000, Windows XP, and Windows 2003 Server. Since .NET is an open standard, there have been several 3rd party implementations on other platforms such as Microsoft&trade;'s own [Shared Source CLI implementation](http://msdn.microsoft.com/net/sscli/) for Windows and FreeBSD (which has been adapted for other platforms including Linux).
 
     There have been several open source implementations of the CLI and C# standards, most notable are the [Mono Project](http://www.mono-project.com/) by [Ximian and Novell](http://www.novell.com/linux/ximian.html) and the [DotGNU/Portable.NET Project](http://www.dotgnu.org/) by the [GNU Project/Free Software Foundation](http://www.gnu.org/).
 
-    Dovetail Software is considering the possibility of releasing a version of **fcSDK** for the [Mono](http://www.mono-project.com/) platform. This could potentially allow **fcSDK** to run on Sun Microsystems™ Solaris™, Hewlett Packard™ HP-UX™, and several Linux distributions in addition to Microsoft™ Windows™. Support for **fcSDK** for the Mono platform will be based on customer demand. If this is of interest to you, please contact Dovetail Software.
+    Dovetail Software is considering the possibility of releasing a version of **fcSDK** for the [Mono](http://www.mono-project.com/) platform. This could potentially allow **fcSDK** to run on Sun Microsystems&trade; Solaris&trade;, Hewlett Packard&trade; HP-UX&trade;, and several Linux distributions in addition to Microsoft&trade; Windows&trade;. Support for **fcSDK** for the Mono platform will be based on customer demand. If this is of interest to you, please contact Dovetail Software.
 
 ## Performance Enhancements
 
@@ -71,8 +71,8 @@ Here are some of the inherent and designed performance enhancements in the **fcS
 
 * Multi-threading. All .NET objects, when called from a COM client, are seen as 'Free-Threaded', 'Multi-Threaded Apartment' (MTA), or 'Both'. Previous products were either 'Apartment' or 'Single-Threaded Apartment' which could cause blocking in a multi-user system (like a Web Application).
 * The **fcSDK** benefits from the well-designed, well-tested, and high-performing data structures and objects that are provided natively in the .NET Framework Base Class Library (BCL).
-* All major data access used by or through the **fcSDK** uses SQL prepared statements and bind variable support. This allows Microsoft™ SQL Server™ and Oracle™ to cache the execution plan of a statement, allowing it to execute faster on subsequent calls.
-* Support for batching of SQL INSERT and UPDATE Statements (for Microsoft™ SQL Server™ only)
+* All major data access used by or through the **fcSDK** uses SQL prepared statements and bind variable support. This allows Microsoft&trade; SQL Server&trade; and Oracle&trade; to cache the execution plan of a statement, allowing it to execute faster on subsequent calls.
+* Support for batching of SQL INSERT and UPDATE Statements (for Microsoft&trade; SQL Server&trade; only)
 * Other SQL improvements have been made in the base SQL generated by **fcSDK**
 More objects are cached than in previous products. This allows for faster access and fewer database round-trips.
 

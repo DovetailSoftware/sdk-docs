@@ -28,9 +28,9 @@ For example:
 
 In the example a single custom DbProvider is defined using the using the "provider" element. It is possible to configure one or more providers in this way.
 
-### Example of a custom provider: The Oracle™ Data Provider for .NET
+### Example of a custom provider: The Oracle&trade; Data Provider for .NET
 
-The **fcSDK** includes a custom provider which uses the Oracle™ Data Provider for .NET rather than the Microsoft ADO.NET provider for Oracle which ships with the .NET Framework. If you wish to use this provider, refer to the configuration example above.
+The **fcSDK** includes a custom provider which uses the Oracle&trade; Data Provider for .NET rather than the Microsoft ADO.NET provider for Oracle which ships with the .NET Framework. If you wish to use this provider, refer to the configuration example above.
 
 ### <provider> Element Schema
 

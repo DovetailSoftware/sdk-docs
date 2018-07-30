@@ -51,7 +51,7 @@ update adp_sch_info set fc_flags = 0
 
 **NOTES:**
 
-* These statements will work against both Microsoft™ SQL Server and Oracle™.
+* These statements will work against both Microsoft&trade; SQL Server and Oracle&trade;.
 * Adding this column will NOT affect the functioning of base Clarify in any way. The column will be ignored by all Clarify applications.
 * As of version 11.1, Clarify offers you the option of creating a "Unicode" database. Even if you take that option you must still execute the above statements.
 

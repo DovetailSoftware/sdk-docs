@@ -2,7 +2,7 @@
 
 ## What is the fcSDK?
 
-The **fcSDK** is a software development kit for writing applications, using .NET, to access Clarify™ databases. This kit includes code libraries, documentation, examples, sample applications, and utilities to help with configuration and database management. The core of the **fcSDK** is comprised of two main sets of libraries: the **FCFL.NET** libraries and the API Toolkit libraries.
+The **fcSDK** is a software development kit for writing applications, using .NET, to access Clarify&trade; databases. This kit includes code libraries, documentation, examples, sample applications, and utilities to help with configuration and database management. The core of the **fcSDK** is comprised of two main sets of libraries: the **FCFL.NET** libraries and the API Toolkit libraries.
 
 ## FCFL.NET
 
@@ -14,7 +14,7 @@ The **fcSDK** is a software development kit for writing applications, using .NET
 
 The [FChoice.Common]() assembly is designed to provide basic application services such as configuration, logging, cross-platform database access, and structured, localized error handling. [FChoice.Common]() will be used by multiple First Choice products and can be used independently of First Choice products by First Choice customers directly.
 
-The [FChoice.Foundation.Clarify]() assembly provides a specific implementation of the [FChoice.Foundation]() abstraction layer for Amdocs Clarify™ CRM systems. This assembly adds extra functionality above [FChoice.Foundation]() that is specific to Clarify systems. For example, object-oriented access to cached frequently-used data allows easy access to user-defined lists (HGBST's) and global string lists (GBST's) via the ListCache property of ClarifyApplication, country, state, and time zone information via the LocaleCache property, and ADP schema information via the SchemaCache property, and much more. For more specific inforamtion on Clarify-specific features in the [FChoice.Foundation.Clarify]() assembly, see the [API reference for the FChoice.Foundation.Clarify]() namespace.
+The [FChoice.Foundation.Clarify]() assembly provides a specific implementation of the [FChoice.Foundation]() abstraction layer for Amdocs Clarify&trade; CRM systems. This assembly adds extra functionality above [FChoice.Foundation]() that is specific to Clarify systems. For example, object-oriented access to cached frequently-used data allows easy access to user-defined lists (HGBST's) and global string lists (GBST's) via the ListCache property of ClarifyApplication, country, state, and time zone information via the LocaleCache property, and ADP schema information via the SchemaCache property, and much more. For more specific inforamtion on Clarify-specific features in the [FChoice.Foundation.Clarify]() assembly, see the [API reference for the FChoice.Foundation.Clarify]() namespace.
 
 ## API Toolkits
 
@@ -22,7 +22,7 @@ The API Toolkits provide convenient business logic wrappers for most of the comm
 
 The toolkits cover some or all of the functionality in the Classic Client that are associated with ClearSupport, ClearLogistics, ClearQuality, and several others.
 
-The API Toolkits in the **fcSDK** are divided into functional areas that map closely to Clarify™ products. For example, the [FChoice.Toolkits.Clarify.Support]() namespace and, specifically, the [SupportToolkit]() object reflect most or all of the functionality in the ClearSupport product for Clarify™.
+The API Toolkits in the **fcSDK** are divided into functional areas that map closely to Clarify&trade; products. For example, the [FChoice.Toolkits.Clarify.Support]() namespace and, specifically, the [SupportToolkit]() object reflect most or all of the functionality in the ClearSupport product for Clarify&trade;.
 
 For more information on how to get started writing applications using the API Toolkits, please see the developer walkthrough of [Toolkit Fundamentals](walkthroughs/toolkit.md).
 
@@ -42,7 +42,7 @@ For a sampling of some of the great new features in the **fcSDK**, please the th
 
 ## Web Services
 
-The Web Services provide a web service interface into many of the **fcSDK** features such as querying and modifiying data as well as invoking API Toolkit methods. These web services are built using the SOAP standards defined by the W3C, which means you can use them with any langauge or platform that supports the HTTP protocol such as Java™. The **fcSDK** ships with a client assembly for .NET which makes calling the web services very similar to native **FCFL.NET** and API Toolkit calls.
+The Web Services provide a web service interface into many of the **fcSDK** features such as querying and modifiying data as well as invoking API Toolkit methods. These web services are built using the SOAP standards defined by the W3C, which means you can use them with any langauge or platform that supports the HTTP protocol such as Java&trade;. The **fcSDK** ships with a client assembly for .NET which makes calling the web services very similar to native **FCFL.NET** and API Toolkit calls.
 
 **Note:** The Web Services have been moved to to a public GitHub repository: [Dovetail SDK Web Services](https://github.com/DovetailSoftware/dovetail-sdk-web-services). Please use the services there to view the code, fork it, etc. The documentation provided here is still applicable, but Web Services are not included as part of the **fcSDK** installation.
 

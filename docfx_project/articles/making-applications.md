@@ -2,13 +2,13 @@
 
 ## Introduction to Internationalization and the fcSDK
 
-The **fcSDK** is globally aware. It takes advantage of the comprehensive globalization/internationalization support in the Microsoft™ .NET Framework (for more information on the globalization and localization support in the .NET Framework, please read the guide 'Developing World-Ready Applications' in the .NET Framework SDK documentation). This allows the **fcSDK** to easily support multiple cultures and locales.
+The **fcSDK** is globally aware. It takes advantage of the comprehensive globalization/internationalization support in the Microsoft&trade; .NET Framework (for more information on the globalization and localization support in the .NET Framework, please read the guide 'Developing World-Ready Applications' in the .NET Framework SDK documentation). This allows the **fcSDK** to easily support multiple cultures and locales.
 
 When developing world-ready applications, one of the primary concern that developers face is interpreting user input string/text data into strongly typed data types. This is especially important with number and date/time formats. A good guideline for developing a world-ready application is to handle these conversions and interpretations as soon as possible after the user has submitted the data. This usually means processing the conversion in the UI layer (web application or windows application) before passing the data further down into libraries and the data access layer.
  
 The **fcSDK** follows this design guidelines and only takes strongly-typed data structures such as the .NET Framework intrinsic types "Int32", "DateTime", "Decimal", etc. It is the responsibility of the application using the **fcSDK** to handle the culturally-sensitive conversions of these values.
 
-Since the **fcSDK** does not do any conversions of types from strings, there are no internationalization issues caused by the **fcSDK** itself in terms of storing or retrieving values to or from the database. Since the **fcSDK** works directly with the Clarify™ database and trusts that the data is consistent and culturally sensitive, it is possible that bad data in the database could be returned in a culturally insensitive way. If you input data into your database using means other than the **fcSDK**, you must be sure that these other means are doing so in a culturally-sensitive way.
+Since the **fcSDK** does not do any conversions of types from strings, there are no internationalization issues caused by the **fcSDK** itself in terms of storing or retrieving values to or from the database. Since the **fcSDK** works directly with the Clarify&trade; database and trusts that the data is consistent and culturally sensitive, it is possible that bad data in the database could be returned in a culturally insensitive way. If you input data into your database using means other than the **fcSDK**, you must be sure that these other means are doing so in a culturally-sensitive way.
 
 ## Using the fcSDK to help build world-ready applications
 

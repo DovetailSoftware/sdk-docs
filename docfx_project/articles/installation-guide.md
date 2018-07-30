@@ -10,7 +10,7 @@ The **fcSDK** ships as a single ZIP file, containing the installation package fo
 
 ## Upgrading from FCFL/COM
 
-FCFL/COM and the **fcSDK** can run side-by-side on the same computer. Each can be configured to run against the same or different Clarify™ database instances without issue. The **fcSDK** requires a few schema modifications in addition to those required by the FCFL/COM installation. Please read the [Schema Modification](#schema-modification) section later in this document for more information on what these extra requirements are.
+FCFL/COM and the **fcSDK** can run side-by-side on the same computer. Each can be configured to run against the same or different Clarify&trade; database instances without issue. The **fcSDK** requires a few schema modifications in addition to those required by the FCFL/COM installation. Please read the [Schema Modification](#schema-modification) section later in this document for more information on what these extra requirements are.
 
 ## Installing the **fcSDK** using the Installation Package
 
@@ -75,7 +75,7 @@ sprocs | SQL scripts used for installing stored procedures required by the **fcS
 
 The **fcSDK** requires certain schema modifications and can benefit from certain optional modifications.
 
-In order to modify the schema of your Clarify™ database, you must have Dovetail SchemaEditor or the correct database administration tools for your specific Clarify™ version and database platform. Files needed for Schema Modification are in the schema folder located in the **fcSDK** installation directory.
+In order to modify the schema of your Clarify&trade; database, you must have Dovetail SchemaEditor or the correct database administration tools for your specific Clarify&trade; version and database platform. Files needed for Schema Modification are in the schema folder located in the **fcSDK** installation directory.
 
 ### Using Dovetail SchemaEditor for Schema Modifications
 

@@ -1,6 +1,6 @@
 # Accessing Data With ClarifyGeneric
 
-One of the basic and most important services the fcSDK offers (through FCFL.NET) is data access. You can use FCFL.NET to query, insert, update, and delete data in your Clarify™ database. fcSDK is designed to work within the rules of the Clarify™ system. This means that, if used properly, the fcSDK will read data written by other Clarify™ clients and also write data that is compatibile with them.
+One of the basic and most important services the fcSDK offers (through FCFL.NET) is data access. You can use FCFL.NET to query, insert, update, and delete data in your Clarify&trade; database. fcSDK is designed to work within the rules of the Clarify&trade; system. This means that, if used properly, the fcSDK will read data written by other Clarify&trade; clients and also write data that is compatibile with them.
 
 ### Querying Data
 
@@ -57,7 +57,7 @@ For Each siteRow As ClarifyDataRow In gSite
 Next 
 ```
 
-In the above example, the site table query is setup to find the proper rows and sort them in the proper order -- sites whose type is 1 and sort them by their ID, descending. Next, the ClarifyGeneric is queried. Note that most of the queries that are done involve multiple ClarifyGenerics in which case the Query method on the ClarifyDataSet object is used to query them all as part of a single transaction.	Once the query is executed, the results are displayed to the console. For each site row returned by the query, this example prints out some information about that site.
+In the above example, the site table query is setup to find the proper rows and sort them in the proper order -- sites whose type is 1 and sort them by their ID, descending. Next, the ClarifyGeneric is queried. Note that most of the queries that are done involve multiple ClarifyGenerics in which case the Query method on the ClarifyDataSet object is used to query them all as part of a single transaction.  Once the query is executed, the results are displayed to the console. For each site row returned by the query, this example prints out some information about that site.
 
 ### Query Limitation
 
@@ -177,7 +177,7 @@ row["alt_address"] = "Hello!";
 Dim row As ClarifyDataRow = gCase(0)
 
 ' Set the alt_address field
-row("alt_address") = "Hello!"	
+row("alt_address") = "Hello!" 
 ```
 
 The second pattern used to modify data in a ClarifyGeneric is to relate or unrelate records. There are several convenience methods on ClarifyGeneric and ClarifyDataRow which help with setting up or removing different types of relations. The most common of these methods is the RelateRecord method on the ClarifyDataRow object. This method allows two records to be related using a specified relation name. For example, to relate a specific case to a site:
@@ -195,7 +195,7 @@ caseRow.RelateRecord(siteRow, "case_reporter2site");
 caseRow.RelateRecord(siteRow, "case_reporter2site")
 ```
 
-Relations can be called from either side, FCFL.NET will relate the records correctly regardless of which side of the relation is being related. For example, a case row can be related to a site row, or a site row can be related to a case row and FCFL.NET will write the correct records to the database to ensure that the two records are related properly, according to the rules of the Clarify™ system.
+Relations can be called from either side, FCFL.NET will relate the records correctly regardless of which side of the relation is being related. For example, a case row can be related to a site row, or a site row can be related to a case row and FCFL.NET will write the correct records to the database to ensure that the two records are related properly, according to the rules of the Clarify&trade; system.
 
 NOTE: It is possible to relate two new records (that do not yet have assigned objids). FCFL.NET will assign the objids and resolve the relationships when updates are committed. See below for more information on adding new records and committing changes.
 
@@ -277,7 +277,7 @@ row.RelateRecord( gSite(0), "contact_role2site" )
 row.Update() 
 ```
 
-WARNING: The above example is not complete and is for illustration purposes only. It may leave your contact_role table in an invalid state and may cause other application using this database (such as the Clarify™ thick client) to fail.
+WARNING: The above example is not complete and is for illustration purposes only. It may leave your contact_role table in an invalid state and may cause other application using this database (such as the Clarify&trade; thick client) to fail.
 
 IMPORTANT: Updates, Deletes, and Inserts are not valid on view-based ClarifyGenerics or ClarifyGenerics queried using the IsDistinct flag.
 
@@ -298,7 +298,7 @@ NOTE: After calling the Delete method on a row, the row will be invalid. No furt
 
 When a row is deleted, all relations that point to that record (rows in other tables including MTM tables) will be NULL'd out (or the MTM row deleted in the case of MTM relationships). Nothing will point to that record any longer. If the related rows have mandatory relations, they will be pointed to the mandatory (-2) row.
 
-WARNING: Deleting records may leave your Clarify™ data in an inconsistent state and could cause other clients to fail when operating against the same database. Deleting data can leave required relationships unfulfilled, among other problems. For mass deletions/purges, please use a special Purge/Archive tool.
+WARNING: Deleting records may leave your Clarify&trade; data in an inconsistent state and could cause other clients to fail when operating against the same database. Deleting data can leave required relationships unfulfilled, among other problems. For mass deletions/purges, please use a special Purge/Archive tool.
 
 NOTE: If Delete is called on a row that was just created as a result of the AddNew method, the row will become invalidated and will not be inserted or deleted. The row will no longer be valid and cannot be manipulated further. See above warning about deleting rows for for more information.
 
@@ -317,9 +317,9 @@ Once one of these methods is called, the changes are immediately made to the dat
 
 ### Handling NULL Values
 
-In the Clarify™ system, most fields are non-NULLable. There are a few exceptions, but non-null is generally the case. In the rare instances when NULL values must be dealt with, this section will cover how to use NULL values with ClarifyGeneric.
+In the Clarify&trade; system, most fields are non-NULLable. There are a few exceptions, but non-null is generally the case. In the rare instances when NULL values must be dealt with, this section will cover how to use NULL values with ClarifyGeneric.
 
-It is important to understand that NULL is not the same thing as an empty string (''). The empty string is a non-null value which simply has no string data in it. If you attempt to use one for the other, it will fail. In Microsoft™ SQL Server™ and Sybase™, for example, (with a non-nullable field), an empty or populated string are the only two valid values. The database will not allow a NULL value.
+It is important to understand that NULL is not the same thing as an empty string (''). The empty string is a non-null value which simply has no string data in it. If you attempt to use one for the other, it will fail. In Microsoft&trade; SQL Server&trade; and Sybase&trade;, for example, (with a non-nullable field), an empty or populated string are the only two valid values. The database will not allow a NULL value.
 
 There are four major circumstances in which NULL values will be a concern. The first is querying data, the second is testing for a NULL value in a field, the third is converting NULLs to empty strings, and the fourth is writing data.
 
