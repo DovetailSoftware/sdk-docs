@@ -118,7 +118,7 @@ There are several methods that can be called on ClarifySessionWS for getting ses
 
 #### Accessing and Modifying Data using the Web Services Client
 
-The ClarifyDataAccessWS class provides a means of doing ClarifyGeneric queries and data modifications. Please refer to the [Accessing Data with the Web Services]() guide for more details.
+The ClarifyDataAccessWS class provides a means of doing ClarifyGeneric queries and data modifications. Please refer to the **Accessing Data with the Web Services** guide for more details.
 
 #### Accessing the API Toolkits using the Web Services Client
 
