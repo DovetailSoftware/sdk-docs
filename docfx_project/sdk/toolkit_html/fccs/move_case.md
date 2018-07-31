@@ -2,7 +2,6 @@ move_case
 ---------
 
 Public Function move_case(ByVal case_id As String, _
-
                           ByVal new_wipbin As String) As Integer
 
 **Description**
@@ -16,9 +15,7 @@ This API causes the specified case to be moved from one WIPBin to another WIPBin
 
 case_id                                  Yes                         The case to move
 
-new_wipbin                          Yes                         The WIPBin to move the case to. If left blank, the case is moved to the  
-
-                                                                 user's default WIPBin
+new_wipbin                          Yes                         The WIPBin to move the case to. If left blank, the case is moved to the user's default WIPBin
 
 **Returns**
 
@@ -34,7 +31,7 @@ new_wipbin                          Yes        
 
 -4                                             New WIPBIN is same as old - no move needed
 
-**Examples  **
+**Examples**
 
  Move case number 'C154' to the default WIPBin for the current owner.
 

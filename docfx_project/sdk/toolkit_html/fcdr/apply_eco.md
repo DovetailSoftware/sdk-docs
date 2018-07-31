@@ -2,7 +2,6 @@ _apply_eco_
 -----------
 
 Public Function apply_eco(ByVal demand_dtl_objid As Long, _
-
               ByVal eco_code As String,
 
   ByVal perf_by As String,
@@ -50,7 +49,7 @@ different time is not supplied.
 
 -8                                             Specified user not in database
 
-**Examples  **
+**Examples**
 
  Apply ECO 5 against Part Repair 268435470.
 

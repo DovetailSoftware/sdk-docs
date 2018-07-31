@@ -2,11 +2,8 @@ fulfill_commitment
 ------------------
 
 Public Function fulfill_commitment(ByVal log_objid As Long, _
-
                                    ByVal fulfill_date As String, _
-
                                    ByVal user_name As String, _
-
                                    ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -48,7 +45,7 @@ gen_time_bombs                 Yes               
 
 -7                                             Cannot find Employee record for specified user
 
-**Examples  **
+**Examples**
 
  Fulfill the commitment with the objid of 268435457.  The fulfill is is performed by the current user and is fulfilled at the current time. Generate a time bomb.
 
@@ -75,5 +72,4 @@ var ret_int = fccs.fulfill_commitment(268435500,
 Dim ret_int As Integer
 
 ret_int = fccs.fulfill_commitment(268435500, _
-
                "11/23/97 22:00:00", "dave", True)

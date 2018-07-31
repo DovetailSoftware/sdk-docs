@@ -11,69 +11,38 @@ CreateContractList
 ------------------
 
 Public Function create_contract(ByVal contract_id As String, _
-
                 ByVal title_str As String, ByVal create_date As String, _
-
                 ByVal acct_id As String, ByVal acct_name As String, _
-
                 ByVal first_name As String, ByVal last_name As String, _
-
                 ByVal phone_num As String, ByVal type_str As String, _
-
                 ByVal term_str As String, ByVal curr_str As String, _
-
                 ByVal new_status As String, ByVal admin_name As String, _
-
                 ByVal bill_to_site_id As String, ByVal ship_to_site_id As String, _
-
                 ByVal eff_date As String, ByVal exp_date As String, _
-
                 ByVal start_date As String, ByVal end_date As String, _
-
                 ByVal user_name As String, ByVal queue_name As String, _
-
                 ByVal warranty As Boolean, ByVal evergreen As Boolean, _
-
                 ByVal renew_prior As Long, ByVal gen_time_bombs As Boolean, _
-
                 ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                 ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function create_contract_list(ByVal contract_id As String, _
-
                 ByVal title_str As String, ByVal create_date As String, _
-
                 ByVal acct_id As String, ByVal acct_name As String, _
-
                 ByVal first_name As String, ByVal last_name As String, _
-
                 ByVal phone_num As String, ByVal type_str As String, _
-
                 ByVal term_str As String, ByVal curr_str As String, _
-
                 ByVal new_status As String, ByVal admin_name As String, _
-
                 ByVal bill_to_site_id As String, ByVal ship_to_site_id As String, _
-
                 ByVal eff_date As String, ByVal exp_date As String, _
-
                 ByVal start_date As String, ByVal end_date As String, _
-
                 ByVal user_name As String, ByVal queue_name As String, _
-
                 ByVal warranty As Boolean, ByVal evergreen As Boolean, _
-
                 ByVal renew_prior As Long, ByVal gen_time_bombs As Boolean, _
-
                 Optional fld_list As Variant, Optional type_list As Variant, _
-
                 Optional val_list As Variant) As Integer
 
 **Description**
@@ -201,7 +170,7 @@ ret_id_num                            Output    �
 
 ret_objid                                Output                   Returns the objid of the newly created contract
 
-**Examples  **
+**Examples**
 
  Create a new contract with title 'White House'. Specify the account of 'Major Movers', and contact of 'George Bush'. Also, generate a time bomb. All other information is defaulted.  Contract ID and objid are returned.
 
@@ -210,13 +179,9 @@ ret_objid                                Output 
 **JavaScript:**
 
 var ret_int = cl_cc.create_contract_list( "", "White House", _
-
                 "", "", "White House", "George", "Bush", _
-
                 "", "", "", "", "", "", "", "", "", _
-
                 "", "", "", "", "", "", "", "", "TRUE", _
-
                 "", 0, "", "", "", "")
 
 **Visual Basic:**
@@ -228,13 +193,9 @@ Dim objid        As Long
 Dim contract_id  As String
 
 ret_int = cl_cc.create_contract_list( "", "White House", _
-
                 "", "", "White House", "George", "Bush", _
-
                 "", "", "", "", "", "", "", "", "", _
-
                 "", "", "", "", "", "", "", "", "TRUE", _
-
                 "", 0, "", "", "", "")
 
 If ret_int = 0 Then
@@ -282,13 +243,9 @@ type_list.AppendItem("Date");
 val_list.AppendItem("1/1/99");
 
 var ret_int = cl_cc.create_contract_list(contract_id, "White House", _
-
                 "", "", "White House", "George", "Bush", "", _
-
                 "", "", "", "", "", "", "", "", "", "", _
-
                 "", "", "", "", "", "", "TRUE", _
-
                 fld_list, type_list, val_list)
 
 **Visual Basic:**
@@ -312,13 +269,9 @@ type_list.ItemType = "String"
 val_list.ItemType = "String"
 
 ret_int = cl_cc.create_contract_list(contract_id, "White House", _
-
                 "", "", "White House", "George", "Bush", "", _
-
                 "", "", "", "", "", "", "", "", "", "", _
-
                 "", "", "", "", "", "", "TRUE", _
-
                 fld_list, type_list, val_list)
 
 If ret_int = 0 Then

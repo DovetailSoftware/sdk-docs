@@ -8,39 +8,24 @@ reject_quote
 ------------
 
 Public Function reject_action_item(ByVal the_id As String, _
-
                                    ByVal reject_date As String, _
-
                                    ByVal wipbin As String, _
-
                                    ByVal notes As String, _
-
                                    ByVal user_name As String, _
-
                                    ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function reject_opportunity(ByVal the_id As String, _
-
                                    ByVal reject_date As String, _
-
                                    ByVal wipbin As String, _
-
                                    ByVal notes As String, _
-
                                    ByVal user_name As String, _
-
                                    ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function reject_quote(ByVal the_id As String, _
-
                              ByVal reject_date As String, _
-
                              ByVal wipbin As String, _
-
                              ByVal notes As String, _
-
                              ByVal user_name As String, _
-
                              ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -88,7 +73,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Cannot find REJECT activity string
 
-**Examples  **
+**Examples**
 
  Reject action item number '154' to the default WIPBin. The reject has no notes, is performed by the current user and is rejected at the current time. Generate a time bomb.
 
@@ -115,5 +100,4 @@ var ret_int = fcsfa.reject_quote("Q2", "11/23/97 22:00:00", "East",
 Dim ret_int As Integer
 
 ret_int = fcsfa.reject_quote("Q2", "11/23/97 22:00:00", "East", _
-
                       "Some notes", "dave", False)

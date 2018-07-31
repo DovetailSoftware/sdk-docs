@@ -2,23 +2,14 @@ _create_dr_labor_
 -------------------
 
 Public Function create_dr_labor(ByVal demand_dtl_objid As Long, _
-
                           ByVal labor_type As String, _
-
                           ByVal start_time As String, _
-
                           ByVal duration As Long, _
-
                           ByVal billable As Integer, _
-
                           ByVal bill_to As String, _
-
                           ByVal wrk_center As String, _
-
                           ByVal tl_rate As Double, _
-
                           ByVal perf_by As String, _
-
                           ByVal creation_time As String) As Integer
 
 **Description**
@@ -74,7 +65,7 @@ different time is not supplied.
 
 ret_objid                                Output                   Returns the objid of the newly created time log record
 
-**Examples  **
+**Examples**
 
  Create a billable labor segment against Part Repair 268435465. The default labor type was used, it started at 1:00 pm on September 9th, 1998, and lasted 10 minutes (600 seconds). All other defaults are used.
 
@@ -89,5 +80,4 @@ var ret_int = fcdr.create_dr_labor(268435465, "", "09/09/1998 13:00", 600, 1,
 Dim ret_int As Integer
 
 ret_int = fcdr.create_dr_labor(268435465, "", "09/09/1998 13:00", 600, 1, _
-
                              "", 0, "", 0, "", "", "", "")

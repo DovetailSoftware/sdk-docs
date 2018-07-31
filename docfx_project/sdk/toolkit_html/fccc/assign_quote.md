@@ -2,15 +2,11 @@ assign_quote
 ------------
 
 Public Function assign_quote(ByVal quote_id As String, _
-
                              ByVal new_user As String, _
-
                              ByVal wipbin_name As String, _
-
                              ByVal assign_date As String,
 
                              ByVal user_name As String, _
-
                              ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -32,9 +28,7 @@ wipbin_name                        No          
 
 If left blank, the quote is placed in the user's default WIPBin
 
-assign_date                          No                           When was the quote assigned. If this parameter is left blank, the quote
-
-is assigned at the current time
+assign_date                          No                           When was the quote assigned. If this parameter is left blank, the quote is assigned at the current time
 
 user_name                             No                           The user who assigned the quote. If left blank, the current user performs
 
@@ -60,7 +54,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Could not find gbst_elm string for ASSIGN with rank = 10500
 
-**Examples  **
+**Examples**
 
  Assign quote number '154' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
@@ -81,7 +75,6 @@ WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't genera
 **JavaScript:**
 
 var ret_int = fc_cc.assign_quote("Q2", "marty", "Urgent", _
-
                             "11/23/2001 22:00:00", "sam", False)
 
 **Visual Basic:**
@@ -89,5 +82,4 @@ var ret_int = fc_cc.assign_quote("Q2", "marty", "Urgent", _
 Dim ret_int As Integer
 
 ret_int = fc_cc.assign_quote("Q2", "marty", "Urgent", _
-
                             "11/23/2001 22:00:00", "sam", False)

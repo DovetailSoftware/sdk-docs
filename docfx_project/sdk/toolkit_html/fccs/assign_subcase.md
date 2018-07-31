@@ -2,15 +2,10 @@ assign_subcase
 --------------
 
 Public Function assign_subcase(ByVal subcase_id As String, _
-
                                ByVal new_user As String, _
-
                                ByVal wipbin_name As String, _
-
                                ByVal assign_date As String, _
-
              ByVal user_name As String, _
-
              ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -30,9 +25,7 @@ wipbin_name                        No          
 
 subcase). If left blank, the subcase is placed in the user's default WIPBin
 
-assign_date                          No                           When was the subcase assigned. If this parameter is left blank, the subcase
-
-is assigned at the current time
+assign_date                          No                           When was the subcase assigned. If this parameter is left blank, the subcase is assigned at the current time
 
 user_name                             No                           The user who assigned the subcase If left blank, the current user performs
 
@@ -58,7 +51,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Cannot find gbst_elm rank 10500 for string ASSIGN
 
-**Examples  **
+**Examples**
 
  Assign subcase number '10-1' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
@@ -85,5 +78,4 @@ var ret_int = fccs.assign_subcase("2-3", "marty", "Urgent",
 Dim ret_int As Integer
 
 ret_int = fccs.assign_subcase("2-3", "marty", "Urgent", _
-
                            "11/23/97 22:00:00", "sam", False)

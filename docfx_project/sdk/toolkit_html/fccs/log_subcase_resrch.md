@@ -5,49 +5,28 @@ log_subcase_ resrch_list
 --------------------------
 
 Public Function log_subcase_resrch(ByVal subcase_id As String, _
-
                     ByVal action_type As String, ByVal note_str As String, _
-
                     ByVal int_use As String, ByVal log_date As String, _
-
                     ByVal research_time As Long, ByVal user_name As String, _
-
                     ByVal new_stat As String, ByVal cmit_title As String, _
-
                     ByVal cmit_notes As String, ByVal cmit_due As String, _
-
                     ByVal cmit_prior As Long, ByVal cmit_to As Boolean, _
-
                     ByVal gen_time_bombs As Boolean, ByVal int_fld1 As String, _
-
                     ByVal int_val1 As Long, ByVal int_fld2 As String, _
-
                     ByVal int_val2 As Long, ByVal str_fld1 As String, _
-
                     ByVal str_val1 As String, ByVal str_fld2 As String, _
-
                     ByVal str_val2 As String, ByVal date_fld1 As String, _
-
                     ByVal date_val1 As String) As Integer
 
 Public Function log_subcase_resrch_list(ByVal subcase_id As String, _
-
                    ByVal action_type As String, ByVal note_str As String, _
-
                    ByVal int_use As String, ByVal log_date As String, _
-
                    ByVal research_time As Long, ByVal user_name As String, _
-
                    ByVal new_stat As String, ByVal cmit_title As String, _
-
                    ByVal cmit_notes As String, ByVal cmit_due As String, _
-
                    ByVal cmit_prior As Long, ByVal cmit_to As Boolean, _
-
                    ByVal gen_time_bombs As Boolean, _
-
                    Optional fld_list As Variant, Optional type_list As Variant, _
-
                    Optional val_list As Variant) As Integer
 
 **Description**
@@ -159,7 +138,7 @@ log_objid                               Output  
 
 -13                                           Could not find the com_tmplte for COMMITMENT
 
-**Examples  **
+**Examples**
 
  Create a research log of 4 minutes for subcase number 'C154-1'. Set the notes for the log, and no other information. Generate a time bomb.
 
@@ -178,9 +157,7 @@ var ret_int = fccs.log_subcase_resrch("C154-1", "", "Some notes", "",
    Dim ret_int   As Integer
 
 ret_int = fccs.log_subcase_resrch("C154-1", "", "Some notes", "", _
-
               "", 240, "", "", "", "", "", 0, True, True, _
-
               "", 0, "", 0, "", "", "", "", "", "")
 
 **List version:**
@@ -196,7 +173,6 @@ var ret_int = fccs.log_subcase_resrch_list("C154-1", "", "Some notes", "",
    Dim ret_int     As Integer
 
 ret_int = fccs.log_subcase_resrch_list("C154-1", "", "Some notes", "", _
-
               "", 240, "", "", "", "", "", 0, True, True)
 
  Create a 3 minute research log for subcase number '2-2'. Set action code of 'Engineering Research', some note text, and internal use only text. Have the note logged by marty on November 23, 1997 at 10PM. Change the status to "Working". Also, create a commitment for January 1, 1999 at 8:00AM, with a title, notes, and a prior warning of 1 hour (with the commitment being made by the contact). Generate some additional fields, but do not generate a time bomb.
@@ -222,17 +198,11 @@ var ret_int = fccs.log_subcase_resrch("2-2", "Engineering Research",
    Dim ret_int   As Integer
 
 ret_int = fccs.log_subcase_resrch("2-2", "Engineering Research", _
-
              "Some notes", _
-
              "Internal use", "11/23/97 22:00:00", 180, "marty", _
-
              "Working", "Commit title", "Commit notes", "1/1/1999 8:00:00", _
-
              3600, False, True, "x_close_int1", 1, "x_close_int2", 456, _
-
              "x_summary2", "More text", "", "", "x_other_date", _
-
              "1/1/99")
 
 **List version:**
@@ -314,11 +284,7 @@ type_list.AppendItem "Date"
 val_list.AppendItem "1/1/99"
 
 ret_int = fccs.log_subcase_resrch_list("2-2", "Engineering Research", _
-
              "Some notes", "Internal use", "11/23/97 22:00:00", 180, _
-
              "marty", "Working", "Commit title", "Commit notes", _
-
              "1/1/1999 8:00:00", 3600, False, True, fld_list, _
-
              type_list, val_list)

@@ -2,17 +2,11 @@ modify_time_log
 -----------------
 
 Public Function modify_time_log(ByVal time_log_objid As Long, _
-
                   ByVal creation_time As String, ByVal perf_by As String, _
-
                   ByVal notes As String, ByVal user_name As String, _
-
                   ByVal time_type As String, ByVal start_time As String, _
-
                   ByVal duration As Long, ByVal billable As Long, _
-
                   ByVal bill_to As String, ByVal wrk_center As String, _
-
                   ByVal resolution As String) As Integer
 
 **Description**
@@ -86,7 +80,7 @@ resolution                              No     
 
 -11                                           Cannot find the 'T & E Log' activity string with rank = 8700
 
-**Examples  **
+**Examples**
 
  Update an existing appointment. Set all the data that you can set. Change the start time and set the end time with the original end time from the appointment by using "-1".
 
@@ -97,9 +91,7 @@ resolution                              No     
 ret_int = fcfo.modify_svc_inter(268435465, "A new description",
 
       "12/1/98 16:00:00", "-1", 600, _
-
                                  "Appt type", "Appt subtype", "sa", _
-
                                  "9/9/98")
 
 **JavaScript:**
@@ -119,7 +111,6 @@ var ret_int = fcfo.modify_svc_inter(268435465, "A new description",
    Dim ret_int   As Integer
 
 ret_int = fcfo.modify_svc_inter(268435465, "+for api", "", "", 0, _
-
                                  "-1", "-1", "", "")
 
 **JavaScript:**

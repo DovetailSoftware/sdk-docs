@@ -2,11 +2,8 @@ yank_subcase
 ------------
 
 Public Function yank_subcase(ByVal subcase_id As String, _
-
                 ByVal wipbin_name As String, ByVal yank_date As String, _
-
                 ByVal user_name As String, _
-
                 ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -18,17 +15,13 @@ This API causes the specified subcase to be yanked from the current location to 
 
 subcase_id                            Yes                         The subcase to yank
 
-wipbin                                    No                           The WIPBin to place the subcase in. If left blank, the default WIPBin for
-
-                                                                                the user is used
+wipbin                                    No                           The WIPBin to place the subcase in. If left blank, the default WIPBin for the user is used
 
 yank_date                             No                           When was the subcase yanked. If this parameter is left blank, the yank
 
 occurs at the current time
 
-user_name                             No                           The user who yanked the subcase. If left blank, the current user performs
-
-the yank
+user_name                             No                           The user who yanked the subcase. If left blank, the current user performs the yank
 
 gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
 
@@ -48,7 +41,7 @@ gen_time_bombs                 Yes               
 
 -5                                             Cannot find the YANK activity string
 
-**Examples  **
+**Examples**
 
  Yank subcase number 'C154-1' by the current user at the current date/time. Place in the default WIPBin, generate a time bomb.
 
@@ -75,5 +68,4 @@ var ret_int = fccs.yank_subcase("2-2", "Urgent", "11/23/97 22:00:00", "dave",
 Dim ret_int As Integer
 
 ret_int = fccs.yank_subcase("2-2", "Urgent", "11/23/97 22:00:00", _
-
                             "dave", True)

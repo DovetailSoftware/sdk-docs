@@ -2,7 +2,6 @@ set_cl_transition
 -------------------
 
 Public Function set_cl_transition(request_type As String, start_cond As String, _
-
                                   end_cond As String, privclasses As String) As Long
 
 **Description**
@@ -38,7 +37,7 @@ string to "NOCLASSES", no privclasses can make this transition
 
 -4                                             Too many transitions are already defined. Cannot add a new transition
 
-**Examples  **
+**Examples**
 
  Add a transition from RQST Open to Fulfilled for "Advance Exchange" type. The transition is for privclasses "CSR" and "System Administrator".
 
@@ -47,7 +46,6 @@ string to "NOCLASSES", no privclasses can make this transition
 Dim ret_int As Integer
 
 ret_int = fccl.set_cl_transition("Advance Exchange", "RQST Open", "Fulfilled", _
-
                                  "CSR, System Administrator")
 
 **Javascript:**
@@ -63,7 +61,6 @@ var ret_int = fccl.set_cl_transition("Advance Exchange", "RQST Open", "Fulfilled
 Dim ret_int As Integer
 
 ret_int = fccl.set_cl_transition("Advance Exchange", "RQST Open", "Fulfilled", _
-
                                  "ALLCLASSES")
 
 **Javascript:**

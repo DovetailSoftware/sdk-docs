@@ -8,33 +8,21 @@ yank_quote
 ----------
 
 Public Function yank_action_item(ByVal the_id As String, _
-
                                  ByVal wipbin As String, _
-
                                  ByVal yank_date As String, _
-
                                  ByVal user_name As String, _
-
                                  ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function yank_opportunity(ByVal the_id As String, _
-
                                  ByVal wipbin As String, _
-
                                  ByVal yank_date As String, _
-
                                  ByVal user_name As String, _
-
                                  ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function yank_quote(ByVal the_id As String, _
-
                                  ByVal wipbin As String, _
-
                                  ByVal yank_date As String, _
-
                                  ByVal user_name As String, _
-
                                  ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -70,7 +58,7 @@ gen_time_bombs                 Yes               
 
 -5                                             Cannot find the YANK activity string
 
-**Examples  **
+**Examples**
 
  Yank action item number '154' by the current user at the current date/time. Place in the default WIPBin, generate a time bomb.
 

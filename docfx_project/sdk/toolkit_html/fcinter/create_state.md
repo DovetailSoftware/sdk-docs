@@ -2,11 +2,8 @@ create_state
 ------------
 
 Public Function create_state(ByVal state As String, _
-
                              ByVal full_name As String, _
-
                              ByVal is_default As Boolean, _
-
                              ByVal country As String) As Integer
 
 **Description**
@@ -49,7 +46,6 @@ Dim ret_int     As Integer
 Dim state_objid As Long
 
 ret_int = fcinter.create_state("Confusion", _
-
                                "The state of confusion", false, "USA")
 
  If ret_int = 0 Then
@@ -75,7 +71,6 @@ Dim ret_int     As Integer
 Dim state_objid As Long
 
 ret_int = fcinter.create_state("Confusion", _
-
                                "The state of confusion", true, "USA")
 
  If ret_int = 0 Then

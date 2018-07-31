@@ -5,53 +5,30 @@ log_case_phone_list
 ---------------------
 
 Public Function log_case_phone(ByVal case_id As String, _
-
                 ByVal cont_first As String, ByVal cont_last As String, _
-
                 ByVal cont_phone As String, ByVal action_type As String, _
-
                 ByVal note_str As String, ByVal int_use As String, _
-
                 ByVal log_date As String, ByVal log_end_date As String, _
-
                 ByVal user_name As String, ByVal new_stat As String, _
-
                 ByVal cmit_title As String, ByVal cmit_notes As String, _
-
                 ByVal cmit_due As String, ByVal cmit_prior As Long, _
-
                 ByVal cmit_to As Boolean, ByVal gen_time_bombs As Boolean, _
-
                 ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                 ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function log_case_phone_list(ByVal case_id As String, _
-
                 ByVal cont_first As String, ByVal cont_last As String, _
-
                 ByVal cont_phone As String, ByVal action_type As String, _
-
                 ByVal note_str As String, ByVal int_use As String, _
-
                 ByVal log_date As String, ByVal log_end_date As String, _
-
                 ByVal user_name As String, ByVal new_stat As String, _
-
                 ByVal cmit_title As String, ByVal cmit_notes As String, _
-
                 ByVal cmit_due As String, ByVal cmit_prior As Long, _
-
                 ByVal cmit_to As Boolean, ByVal gen_time_bombs As Boolean, _
-
                 Optional fld_list As Variant, Optional type_list As Variant, _
-
                 Optional val_list As Variant) As Integer
 
 **Description**
@@ -171,7 +148,7 @@ val_list                                   Yes
 
 -14                                           Could not find the com_tmplte for COMMITMENT
 
-**Examples  **
+**Examples**
 
  Create a phone log for case number 'C154'. The call was made with Bill Clinton. Set the notes for the log, and no other information. Generate a time bomb.
 
@@ -190,11 +167,8 @@ var ret_int = fccs.log_case_phone("C154", "Bill", "Clinton", "555-555-1234",
    Dim ret_int   As Integer
 
 ret_int = fccs.log_case_phone_list("C154", "Bill", "Clinton", _
-
               "555-555-1234", "", "Some notes", "", "", "", "", _
-
               "", "", "", "", 0, True, True, _
-
               "", 0, "", 0, "", "", "", "", "", "")
 
 **List version:**
@@ -212,7 +186,6 @@ var ret_int = fccs.log_case_phone_list("C154", "Bill", "Clinton",
    Dim ret_int     As Integer
 
 ret_int = fccs.log_case_phone("C154", "Bill", "Clinton", "555-555-1234", _
-
               "", "Some notes", "", "", "", "", "", "", "", "", 0, True, True)
 
  Create a 3 minute phone log made by Bill Clinton for case number '2'. Set action code of 'Incoming call', some note text, and internal use only text. Have the note logged by marty on November 23, 1997 at 10PM. Change the status to "Working". Also, create a commitment for January 1, 1999 at 8:00AM, with a title, notes, and a prior warning of 1 hour (with the commitment being made by the contact). Generate some additional fields, but do not generate a time bomb.
@@ -240,17 +213,11 @@ var ret_int = fccs.log_case_phone("2", "Bill", "Clinton", "555-555-1234",
    Dim ret_int   As Integer
 
 ret_int = fccs.log_case_phone("2", "Bill", "Clinton", "555-555-1234", _
-
               "Incoming call", "Some notes", "Internal notes", _
-
               "11/23/97 22:00:00", "11/23/97 22:03:00", "marty", _
-
               "Working", "Commit title", "Commit notes", "1/1/1999 8:00:00", _
-
               3600, False, True, "x_close_int1", 1, "x_close_int2", 456, _
-
               "x_summary2", "More text", "", "", "x_other_date", _
-
               "1/1/99")
 
 **List version:**
@@ -334,11 +301,7 @@ type_list.AppendItem "Date"
 val_list.AppendItem "1/1/99"
 
 ret_int = fccs.log_case_phone_list("2", "Bill", "Clinton", "555-555-1234", _
-
               "Incoming call", "Some notes", "Internal notes", _
-
               "11/23/97 22:00:00", "11/23/97 22:03:00", "marty", _
-
               "Working", "Commit title", "Commit notes", "1/1/1999 8:00:00", _
-
               3600, False, True, fld_list, type_list, val_list)

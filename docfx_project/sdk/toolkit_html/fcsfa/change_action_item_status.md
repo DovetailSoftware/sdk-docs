@@ -8,39 +8,24 @@ change_quote_status
 ---------------------
 
 Public Function change_action_item_status(ByVal the_id As String, _
-
                                    ByVal new_status As String, _
-
                                    ByVal change_date As String, _
-
                                    ByVal notes As String, _
-
                                    ByVal local_user_name As String, _
-
                                    ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function change_opportunity_status(ByVal the_id As String, _
-
                                    ByVal new_status As String, _
-
                                    ByVal change_date As String, _
-
                                    ByVal notes As String, _
-
                                    ByVal local_user_name As String, _
-
                                    ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function change_quote_status(ByVal the_id As String, _
-
                                     ByVal new_status As String, _
-
                                     ByVal change_date As String, _
-
                                     ByVal notes As String, _
-
                                     ByVal local_user_name As String, _
-
                                     ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -82,7 +67,7 @@ gen_time_bombs                 Yes               
 
 -5                                             Cannot find the CHANGE STATUS activity string
 
-**Examples  **
+**Examples**
 
  Change status for opportunity number '154' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
 
@@ -109,5 +94,4 @@ var ret_int = fcsfa.change_quote_status("2", "Solved", "11/23/97 22:00:00",
 Dim ret_int As Integer
 
 ret_int = fcsfa.change_quote_status("2", "Solved", "11/23/97 22:00:00", _
-
                                     "Some notes", "dave", False)

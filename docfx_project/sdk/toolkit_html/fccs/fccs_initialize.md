@@ -14,7 +14,7 @@ FCApp                                   Yes �
 
 FCSess                                   Yes                         FCSession object
 
-**Examples  **
+**Examples**
 
  Create and initialize a new FCCS object.
 

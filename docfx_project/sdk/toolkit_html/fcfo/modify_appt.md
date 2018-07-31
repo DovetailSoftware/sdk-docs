@@ -2,15 +2,10 @@ modify_appt
 -----------
 
 Public Function modify_appt(ByVal appt_objid As Long, _
-
                   ByVal start_time As String, ByVal end_time As String, _
-
                   ByVal duration As Long, ByVal description As String, _
-
                   ByVal cell_text As String, ByVal appt_class As String, _
-
                   ByVal appt_type As String, ByVal user_name As String, _
-
                   ByVal creation_time As String) As Integer
 
 **Description**
@@ -74,7 +69,7 @@ creation_time                        No         
 
 -10                                           Cannot find specified Appt Type
 
-**Examples  **
+**Examples**
 
  Update an existing appointment. Set all the data that you can set. Change the start time and end time for the appointment.
 
@@ -83,9 +78,7 @@ creation_time                        No         
    Dim ret_int   As Integer
 
 ret_int = fcfo.modify_appt(268435457, "12/1/98 16:00:00", "", 1800, _
-
                             "A new description", "New cell text", _
-
  "Appt type", "Appt subtype", "Fred", "9/9/98")
 
 **JavaScript:**
@@ -103,11 +96,9 @@ var ret_int = fcfo.modify_appt(268435457, "12/1/98 16:00:00", "", 1800,
    Dim ret_int   As Integer
 
 ret_int = fcfo.modify_appt(268435466, "12/1/98 16:00:00", "", 3600, _
-
                             "", "", "", "", "", "")
 
 **JavaScript:**
 
 var ret_int = fcfo.modify_appt(268435466, "12/1/98 16:00:00", "", 3600,_
-
                             "", "", "", "", "", "");

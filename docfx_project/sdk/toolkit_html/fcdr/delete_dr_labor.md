@@ -28,7 +28,7 @@ creation_time                        No         
 
 -3                                             Related Demand Dtl record is not in database
 
-**Examples  **
+**Examples**
 
  Delete Time Log 268435463.
 

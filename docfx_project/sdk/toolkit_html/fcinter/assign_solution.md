@@ -2,15 +2,10 @@ assign_solution
 ---------------
 
 Public Function assign_solution(ByVal solution_id As String, _
-
                                 ByVal new_user As String, _
-
                                 ByVal wipbin As String, _
-
                                 ByVal assign_date As String, _
-
                                 ByVal user_name As String, _
-
                                 ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -58,7 +53,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Could not find gbst_elm string for ASSIGN with rank equal to 10500
 
-**Examples  **
+**Examples**
 
  Assign solution number '154' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
@@ -67,7 +62,6 @@ gen_time_bombs                 Yes               
 Dim ret_int As Integer
 
 ret_int = fcinter.assign_solution("154", "marty", "", _
-
                                   "", "", true)
 
 **Javascript:**
@@ -85,7 +79,6 @@ WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't genera
 Dim ret_int As Integer
 
 ret_int = fcinter.assign_solution("4", "marty", "Urgent", _
-
  "11/23/97 22:00:00", "sam", false)
 
 **Javascript:**

@@ -5,35 +5,21 @@ create_contact_list
 ---------------------
 
 Public Function create_contact(ByVal first As String, ByVal last As String, _
-
        ByVal phone As String, ByVal site_id As String, ByVal role As String, _
-
        ByVal fax As String, ByVal email As String, ByVal mail_stop As String, _
-
        ByVal the_title As String, ByVal hours As String, _
-
        ByVal salutation As String, _
-
        ByVal int_fld1 As String, ByVal int_val1 As Long, ByVal int_fld2 As String, _
-
        ByVal int_val2 As Long, ByVal str_fld1 As String, ByVal str_val1 As String, _
-
        ByVal str_fld2 As String, ByVal str_val2 As String, _
-
        ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function create_contact_list(ByVal first As String, _
-
        ByVal last As String, ByVal phone As String, ByVal site_id As String, _
-
        ByVal role As String, ByVal fax As String, ByVal email As String, _
-
        ByVal mail_stop As String, ByVal the_title As String, _
-
        ByVal hours As String, ByVal salutation As String, _
-
        Optional fld_list As Variant, Optional type_list As Variant, _
-
        Optional val_list As Variant) As Integer
 
 **Description**
@@ -119,12 +105,10 @@ Dim ret_int       As Integer
 
 Dim contact_objid As Long
 
-ret_int = fcinter.create_contact("Mary", "Smith", - "555-1213", _
-
+ret_int = fcinter.create_contact("Mary", "Smith", "555-1213", _
           "43", "End User", "555-1314", "mary@com.net", "Stop 33", _    
 
           "Boss", "", "Ms.", "", 0, "", 0, _
-
           "", "", "", "", "", "")
 
  If ret_int = 0 Then
@@ -135,7 +119,7 @@ ret_int = fcinter.create_contact("Mary", "Smith", - "555-1213", _
 
 **Javascript:**
 
-var ret_int = fcinter.create_contact("Mary", "Smith", �"555-1213",
+var ret_int = fcinter.create_contact("Mary", "Smith", "555-1213",
 
               "43", "End User", "555-1314", "mary@com.net", "Stop 33",
 

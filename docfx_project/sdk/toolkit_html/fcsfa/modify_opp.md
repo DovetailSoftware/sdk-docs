@@ -5,95 +5,52 @@ modify_opp_list
 -----------------
 
 Public Function modify_opp(ByVal opp_id As String, _
-
                            ByVal opp_name As String, _
-
                            ByVal acct_id As String, _
-
                            ByVal con_first As String, _
-
                            ByVal con_last As String, _
-
                            ByVal con_phone As String, _
-
                            ByVal terr_name As String, _
-
                            ByVal amt As Currency, _
-
                            ByVal close_date As String, _
-
                            ByVal lead_source As String, _
-
                            ByVal the_currency As String, _
-
                            ByVal prob As String, _
-
                            ByVal process As String, _
-
                            ByVal mod_date As String, _
-
                            ByVal user_name As String, _
-
                            ByVal gen_time_bombs As Boolean, _
-
                            ByVal int_fld1 As String, _
-
                            ByVal int_val1 As Long, _
-
                            ByVal int_fld2 As String, _
-
                            ByVal int_val2 As Long, _
-
                            ByVal str_fld1 As String, _
-
                            ByVal str_val1 As String, _
-
                            ByVal str_fld2 As String, _
-
                            ByVal str_val2 As String, _
-
                            ByVal date_fld1 As String, _
-
                            ByVal date_val1 As String) As Integer
 
 Public Function modify_opp_list(
 
                            ByVal opp_id As String, _
-
                            ByVal opp_name As String, _
-
                            ByVal acct_id As String, _
-
                            ByVal con_first As String, _
-
                            ByVal con_last As String, _
-
                            ByVal con_phone As String, _
-
                            ByVal terr_name As String, _
-
                            ByVal amt As Currency, _
-
                            ByVal close_date As String, _
-
                            ByVal lead_source As String, _
-
                            ByVal the_currency As String, _
-
                            ByVal prob As String, _
-
                            ByVal process As String, _
-
                            ByVal mod_date As String, _
-
                            ByVal user_name As String, _
-
                            ByVal gen_time_bombs As Boolean, _
-
                            Optional fld_list As Variant, _
-
                            Optional type_list As Variant, _
-
                            Optional val_list As Variant) As Integer
 
 **Description**
@@ -195,7 +152,7 @@ val_list                                   Yes
 
 -11                                           Cannot find the Modify Opp activity string
 
-**Examples  **
+**Examples**
 
  Modify opportunity 33. Specify an account, clear the contact, and leave all other data alone. Generate time bombs. Also, specify a new string field.
 
@@ -216,9 +173,7 @@ val_list                                   Yes
 Dim opp_id     As String
 
   ret_int = fcsfa_obj.modify_opp("33", "", "AN_CUST2", "CLEAR", "", "", "", _
-
               -1, "", "", "", "", "", "", "", True, "", 0, "", 0, _
-
               "x_str_fld", "Data value", "", "", "", "")
 
 **List version:**
@@ -260,9 +215,7 @@ type_list.AppendItem("String")
 val_list.AppendItem("Data value")
 
    ret_int = fcsfa_obj.modify_opp("33", "", "AN_CUST2", "CLEAR", "", "", "", _
-
               -1, "", "", "", "", "", "", "", True, fld_list, _
-
               type_list, val_list)
 
 move_action_item
@@ -275,15 +228,12 @@ move_quote
 ----------
 
 Public Function move_action_item(ByVal the_id As String, _
-
                                  ByVal new_wipbin As String) As Integer
 
 Public Function move_opportunity(ByVal the_id As String, _
-
                                  ByVal new_wipbin As String) As Integer
 
 Public Function move_quote(ByVal the_id As String, _
-
                            ByVal new_wipbin As String) As Integer
 
 **Description**
@@ -313,7 +263,7 @@ new_wipbin                          Yes        
 
 -4                                             New WIPBIN is same as old - no move needed
 
-**Examples  **
+**Examples**
 
  Move action item number '154' to the default WIPBin for the current owner.
 

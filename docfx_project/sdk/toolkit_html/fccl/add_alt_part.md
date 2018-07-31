@@ -2,11 +2,8 @@ add_alt_part
 --------------
 
 Public Function add_alt_part(ByVal part_num As String, ByVal rev As String, _
-
          ByVal domain As String, ByVal alt_part As String, _
-
                              ByVal alt_rev As String, ByVal alt_domain As String, _
-
                              ByVal is_reciprocal As Boolean) As Integer
 
 **Description**
@@ -61,7 +58,6 @@ is_reciprocal                         Yes       �
 Dim ret_int As Integer
 
 ret_int = fccl.add_alt_part("MS Word", "7.0", "Product", "WordPerfect", _
-
                             "7.0", "Product", False)
 
 **Javascript:**
@@ -77,7 +73,6 @@ var ret_int = fccl.add_alt_part("MS Word", "7.0", "Product", "WordPerfect",
 Dim ret_int As Integer
 
 ret_int = fccl.add_alt_part("MS Word", "7.0", "Product", "WordPerfect", _
-
                             "7.0", "Product", True)
 
 **Javascript:**

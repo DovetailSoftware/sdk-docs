@@ -5,53 +5,31 @@ fix_cr_list
 -------------
 
 Public Function fix_cr(ByVal cr_id As String, _
-
                        ByVal the_status As String, _
-
                        ByVal notes As String, _
-
                        ByVal user_name As String, _
-
                        ByVal fix_date As String, _
-
                        ByVal gen_time_bombs As Boolean, _
-
            ByVal int_fld1 As String, _
-
            ByVal int_val1 As Long, _
-
            ByVal int_fld2 As String, _
-
            ByVal int_val2 As Long, _           
 
                        ByVal str_fld1 As String, _
-
                        ByVal str_val1 As String, _
-
                        ByVal str_fld2 As String, _
-
                        ByVal str_val2 As String, _
-
                        ByVal date_fld1 As String, _
-
                        ByVal date_val1 As String) As Integer
 
 Public Function fix_cr_list(ByVal cr_id As String, _
-
     ByVal the_status As String, _
-
     ByVal notes As String, _
-
                             ByVal user_name As String, _
-
                             ByVal fix_date As String, _
-
                             ByVal gen_time_bombs As Boolean, _
-
                             Optional fld_list As Variant, _
-
     Optional type_list As Variant, _
-
                             Optional val_list As Variant) As Integer
 
 **Description**
@@ -123,7 +101,7 @@ val_list                                   No�
 
 ret_objid                                Output                   Returns the objid of the fixed cr
 
-**Examples  **
+**Examples**
 
  Fix CR '2' using the default status and some notes. Gary performed the fix at 8AM on March 29, 1999. Generate a time bomb.  The second field version illustrates how to set additional fields.
 
@@ -136,9 +114,7 @@ Dim ret_int     As Integer
    Dim fix_objid   As Long
 
 ret_int = fccq.fix_cr("2", "", "Notes about fix", "gary", _
-
        "3/29/99 08:00:00", True, "", 0, "", 0, _
-
        "", "", "", "", "", "")
 
  If ret_int = 0 Then
@@ -166,13 +142,9 @@ Dim ret_int     As Integer
    Dim fix_objid   As Long
 
 ret_int = fccq.fix_cr("2", "", "Notes about fix", "gary", _
-
        "3/29/99 08:00:00", True, "x_fix_1", 1, _
-
        "x_fix_2", 2, _
-
        "x_summary2", "More text", "", "", _
-
        "x_other_Date", "1/1/99")
 
  If ret_int = 0 Then
@@ -234,9 +206,7 @@ type_list.AppendItem "Date"
 val_list.AppendItem "1/1/99"
 
 ret_int = fccq.fix_cr_list("2", "", "Notes about fix", "gary", _
-
             "3/29/99 08:00:00", True, fld_list, _
-
                            type_list, val_list)
 
  If ret_int = 0 Then

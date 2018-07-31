@@ -2,23 +2,14 @@ _modify_eco_dtl_
 ------------------
 
 Public Function modify_eco_dtl(ByVal eco_dtl_objid As Long, _
-
                          ByVal detail_type As String, _
-
                          ByVal required As Long, _
-
                          ByVal status As String, _
-
                          ByVal labor_type As String, _
-
                          ByVal elapsed_time As Long, _
-
                          ByVal location As String, _
-
                          ByVal description As String, _
-
                          ByVal eco_hdr_code As String, _
-
                          ByVal mod_level_objid As Long) As Integer
 
 **Description**
@@ -68,7 +59,7 @@ mod_level_objid                  No              
 
 -7                                             Specified Mod Level  is not in database
 
-**Examples  **
+**Examples**
 
  Modify a "Labor" ECO detail to change the status to expired.
 

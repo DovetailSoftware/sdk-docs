@@ -2,15 +2,10 @@ link_case_to_workaround
 -------------------------
 
 Public Function link_case_to_workaround(ByVal case_id As String, _
-
                                         ByVal work_objid As Long, _
-
                                         ByVal link_date As String, _
-
                                         ByVal user_name As String, _
-
                                         ByVal create_time_bomb As Boolean) _
-
                                         As Integer
 
 **Description**
@@ -57,7 +52,6 @@ create_time_bomb               Yes                
 Dim ret_int    As Integer
 
 ret_int = fcinter.link_case_to_workaround("55", 268435676, _
-
                                           "", "", true)
 
 **Javascript:**

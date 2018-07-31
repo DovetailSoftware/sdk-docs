@@ -20,7 +20,7 @@ TheFCSession                    Yes             �
 
 No return values
 
-**Examples  **
+**Examples**
 
 **JavaScript:**
 

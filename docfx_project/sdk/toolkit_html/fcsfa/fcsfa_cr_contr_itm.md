@@ -5,108 +5,58 @@ cr_contr_itm_list
 -------------------
 
 Public Function cr_contr_itm(ByVal contract_id As String, _
-
                              ByVal user_name As String, _
-
                              ByVal create_date As String, _
-
                              ByVal start_date As String, _
-
                              ByVal end_date As String, _
-
                              ByVal part_num As String, _
-
                              ByVal domain As String, _
-
                              ByVal rev As String, _
-
                              ByVal quantity As Long, _
-
                              ByVal price_schedule As String, _
-
                              ByVal oride_price As String, _
-
                              ByVal units_used As Double, _
-
                              ByVal serial_num As String, _
-
                              ByVal is_taxable As Boolean, _
-
                              ByVal install_it As Boolean, _
-
                              ByVal comments As String, _
-
                              ByVal quoted_site As String, _
-
                              ByVal serviced_at_site As String, _
-
                              ByVal parent_objid As Long, _
-
                              ByVal po_num As String, _
-
                              Optional fld_list As Variant, _
-
                              Optional type_list As Variant, _
-
                              Optional val_list As Variant) As Integer
 
 Public Function cr_contr_itm_list(ByVal contract_id As String, _
-
                              ByVal user_name As String, _
-
                              ByVal create_date As String, _
-
                              ByVal start_date As String, _
-
                              ByVal end_date As String, _
-
                              ByVal part_num As String, _
-
                              ByVal domain As String, _
-
                              ByVal rev As String, _
-
                              ByVal quantity As Long, _
-
                              ByVal price_schedule As String, _
-
                              ByVal oride_price As String, _
-
                              ByVal units_used As Double, _
-
                              ByVal serial_num As String, _
-
                              ByVal is_taxable As Boolean, _
-
                              ByVal install_it As Boolean, _
-
                              ByVal comments As String, _
-
                              ByVal quoted_site As String, _
-
                              ByVal serviced_at_site As String, _
-
                              ByVal parent_objid As Long, _
-
                              ByVal po_num As String, _
-
                              ByVal int_fld1 As String, _
-
                              ByVal int_val1 As Long, _
-
                              ByVal int_fld2 As String, _
-
                              ByVal int_val2 As Long, _
-
                              ByVal str_fld1 As String, _
-
                              ByVal str_val1 As String, _  
                              ByVal str_fld2 As String, _
-
                              ByVal str_val2 As String, _
-
                              ByVal date_fld1 As String, _
-
                              ByVal date_val1 As String) As Integer
 
 **Description**
@@ -123,7 +73,7 @@ A purchase order number may be specified. If it is, it must be a valid purchase 
 
 If it is serialized part (quantity 1), the serial number may be specified. You may also specify the taxable state, and if the part is to be auto-installed. If it is, you must supply the site that it will be installed at. You may also specify the serviced at site, as well as additional fields.
 
-If  you wish to make this a parent line item, put -1 in the parent_objid argument. Else, put the objid of the parent line item in the field. It will be made a child of the parent line item. If the line item is to be a stand-alone item (the item is not a parent or child), put a �2 in the parent_objid argument.
+If  you wish to make this a parent line item, put -1 in the parent_objid argument. Else, put the objid of the parent line item in the field. It will be made a child of the parent line item. If the line item is to be a stand-alone item (the item is not a parent or child), put a -2 in the parent_objid argument.
 
 The API does not do a few other items in the base GUI function. By and large, they are expected to be supplied with other API calls. For example, line item adjustments are not part of this API. If they are required, the line should be created, and then the adjustment should be applied. Parent/child line items are not provided for in the default API. Also, proration (ClearContracts) is currently hard-coded.
 
@@ -135,11 +85,7 @@ The objid of the newly-created contract line item will be returned in _fcsfa.ret
 
 contract_id                            Yes                         The quote/contract for the line item
 
-user_name                             No                           The user who created the line item. If left blank, the current user performs
-
-the create. For business rules, it defaults to the user_name who is
-
-executing the cbbatch
+user_name                             No                           The user who created the line item. If left blank, the current user performs the create. For business rules, it defaults to the user_name who is executing the cbbatch
 
 create_date                           No                           Line item creation date. If left blank, current date/time is used
 
@@ -173,19 +119,13 @@ install_it                                 Yes 
 
 comments                              No                           Comments about the line item
 
-quoted_site                           No                           Site ID of the site for auto-install. If auto-install = True, this must be
-
-supplied
+quoted_site                           No                           Site ID of the site for auto-install. If auto-install = True, this must be supplied
 
 serviced_at_site                   No                           The site ID of the site servicing the line
 
-parent_objid                         Yes                         The objid of the parent line item. If set to �1 then this is a parent line item
+parent_objid                         Yes                         The objid of the parent line item. If set to -1 then this is a parent line item. If set to -2 then this is a stand-alone item.
 
-                                                                                If set to �2 then this is a stand-alone item.
-
-po_num                                 No                           Purchase order number for this line item. Must be a valid purchase order
-
-number for the schedule specified above
+po_num                                 No                           Purchase order number for this line item. Must be a valid purchase order number for the schedule specified above
 
 int_fld1, int_fld2                   No                           Names of additional fields to write
 
@@ -199,17 +139,11 @@ str_val1, str_val2                               
 
 date_val1
 
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
+fld_list                                    Yes                         List of additional field names to write. List must be present, but does not need to have any items in the list
 
-                                                                                need to have any items in the list
+type_list                                                Yes                         List of additional field data types to write. List must be present, but does not need to have any items in the list
 
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+val_list                                   Yes                         List of additional field values to write. List must be present, but does not need to have any items in the list
 
 **Returns**
 
@@ -251,13 +185,13 @@ val_list                                   Yes
 
 -19                                           The specified product is priced as a percentage of parent, but no parent was given
 
--20                                           The specified product is priced as a percentage of child � not supported for this API
+-20                                           The specified product is priced as a percentage of child - not supported for this API
 
 -21                                           The specified purchase order is not found for the contract schedule.
 
 -22                                           The mod_level is not found for the parent contract item.
 
-**Examples  **
+**Examples**
 
  Create a new line item for quote "2".  A total of 3 Notebooks are quoted for the default schedule. Add a comment, and relate to purchase order '222'.
 
@@ -278,11 +212,8 @@ var ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity",
    Dim ret_int    As Integer
 
 ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity", _
-
                    "", 3, "Default Schedule", "", 0, "", True, False, _
-
                    "A Comment", "", "", -1, "222", "x_int1", 44, "", 0, "", _
-
                    "", "", "", "", "")
 
 **List version:**
@@ -326,9 +257,6 @@ type_list.AppendItem("Long")
 val_list.AppendItem("44")
 
 ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity", _
-
                    "", 3, "Default Schedule", "", 0, "", True, False, _
-
           "A Comment", "", "", -1, "222", fld_list, _
-
           type_list, val_list)

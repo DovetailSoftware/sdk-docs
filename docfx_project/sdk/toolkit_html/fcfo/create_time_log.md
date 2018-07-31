@@ -2,19 +2,12 @@ create_time_log
 -----------------
 
 Public Function create_time_log(ByVal onsite_objid As Long, _
-
                   ByVal id_num As String, ByVal creation_time As String, _
-
       ByVal notes As String, ByVal perf_by As String, _
-
                   ByVal user_name As String, ByVal time_type As String, _
-
       ByVal start_time As String, ByVal duration As Long, _
-
                   ByVal billable As Long, ByVal bill_to As String, _
-
       ByVal wrk_center As String, _
-
 ByVal resolution As String) As Integer
 
 **Description**
@@ -88,7 +81,7 @@ ret_objid                                The obji
 
 ret_objid2                              The objid of the new onsite object is returned by this parameter.
 
-**Examples  **
+**Examples**
 
  Create a new time log related to onsite log 268435522. The creation time is 10:55 am on September 11, 1998. A sample note is passed, and the resolution will be "Completed". The user will default, and the performing user will be set to "db". This default time type is billable to the customer. The process started in the default work center at 10:00 am and lasted for 10 minutes. Once created, the new objid will be passed back in the tl_objid field.
 
@@ -99,11 +92,8 @@ ret_objid2                              The objid o
 Dim tl_objid As Long
 
 ret_int = fcfo.create_expense_log(268435522, "", "09/11/98 10:55:00", _
-
                                    "time log note", "db", "", "", _
-
         "09/11/98 10:00:00", 600, 1, "Customer", _
-
         "", "Completed")
 
    If ret_int = 0 Then
@@ -133,9 +123,7 @@ if (ret_int == 0){ var tl_objid = fcfo.ret_objid; }
 Dim tl_objid As Long
 
 ret_int = fcfo.create_expense_log(268435463, "", "", "", "", "",_
-
                                    "", "09/09/1998 12:00", 120, 0, "", _
-
                                    "", "")
 
    If ret_int = 0 Then

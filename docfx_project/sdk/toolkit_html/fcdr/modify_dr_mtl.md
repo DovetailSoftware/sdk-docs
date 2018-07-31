@@ -3,29 +3,17 @@
 **modify_dr_mtl**
 
 Public Function modify_dr_mtl(ByVal mtl_log_objid As Long, _
-
                          ByVal repair_code As String, _
-
                          ByVal failure_code As String, _
-
                          ByVal mod_level As Long, _
-
                          ByVal billable As Integer, _
-
                          ByVal bill_to As String, _
-
                          ByVal wrk_center As String, _
-
                          ByVal disposition As Integer, _
-
                          ByVal ref_designator As String, _
-
                          ByVal notes As String, _
-
                          ByVal transaction_id As String, _
-
                          ByVal perf_by As String, _
-
                          ByVal creation_time As String) As Integer
 
 **Description**
@@ -85,7 +73,7 @@ different time is not supplied.
 
 -8                                             nable to find Standard Cost for part revision
 
-**Examples  **
+**Examples**
 
  Change material applied in mtl_log 268435465. The job was done by user "db" in the Lab, billable to the customer. No other changes are being made at this time.
 

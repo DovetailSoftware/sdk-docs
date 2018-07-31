@@ -2,11 +2,8 @@ change_pr_status
 ------------------
 
 Public Function change_pr_status(ByVal pr_id As String, _
-
                                  ByVal new_status As String, ByVal change_date As String, _
-
                                  ByVal note_str As String, ByVal user_name As String, _
-
                                  ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -44,7 +41,7 @@ gen_time_bombs                 Yes               
 
 -5                                             The employee record for the specified user cannot be found
 
-**Examples  **
+**Examples**
 
  Joe changed the status of  part request '1-14' to "Warehouse" on July 1 at noon. Generate a time bomb.
 
@@ -53,7 +50,6 @@ gen_time_bombs                 Yes               
 Dim ret_int As Integer
 
 ret_int = fccl.change_pr_status("1-14", "Warehouse", "7/1/2001 12:00:00", _
-
                                "Some notes", "joe", True)
 
 **Javascript:**

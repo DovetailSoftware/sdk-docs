@@ -2,19 +2,12 @@ create_product_bin
 --------------------
 
 Public Function create_product_bin(ByVal bin_name As String, _
-
                                    ByVal site_id As String, _
-
                                    ByVal bin_objid As Long, _
-
                                    ByVal description As String, _
-
                                    ByVal prim_supp As Long, _
-
                                    ByVal sec_supp As Long, _
-
                                    ByVal user_name As String, _
-
                                    ByVal create_date As String) As Integer
 
 **Description**
@@ -81,7 +74,6 @@ Dim ret_int    As Integer
 Dim bin_objid  As Long
 
 ret_int = fcinter.create_product_bin("Hardware", "42", -1, "Description here", _
-
              268435457, -1, "kent", "")
 
  If ret_int = 0 Then

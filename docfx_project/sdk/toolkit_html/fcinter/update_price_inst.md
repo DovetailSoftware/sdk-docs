@@ -2,17 +2,11 @@ update_price_inst
 -------------------
 
 Public Function update_price_inst(ByVal part_num As String, _
-
                 ByVal domain As String, _
-
                 ByVal mod_level As String, _
-
                 ByVal price_prog As String, _
-
                 ByVal priced_qty As Long, _
-
                 ByVal price As String, _
-
                 ByVal the_date As String) As Integer   
 
 **Description**
@@ -63,7 +57,6 @@ the_date                                    
 Dim ret_int       As Integer
 
 ret_int = fcinter.update_price_inst("MS Word", "Product", "", "Spring", _
-
                                     1, "5.55", "3/31/2000")
 
 **Javascript:**

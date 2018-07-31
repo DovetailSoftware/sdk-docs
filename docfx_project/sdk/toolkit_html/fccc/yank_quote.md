@@ -2,9 +2,7 @@ yank_quote
 ----------
 
 Public Function yank_quote(ByVal quote_id As String, _
-
                 ByVal wipbin_name As String, ByVal yank_date As String, _
-
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -16,9 +14,7 @@ This API causes the specified quote to be yanked from the current location to a 
 
 quote_id                                                Yes                         The quote to yank
 
-wipbin_name                        No                           The WIPBin to place the quote in. If left blank, the default WIPBin for
-
-                                                                                the user is used
+wipbin_name                        No                           The WIPBin to place the quote in. If left blank, the default WIPBin for the user is used
 
 yank_date                             No                           When was the quote yanked. If this parameter is left blank, the yank
 
@@ -46,7 +42,7 @@ gen_time_bombs                 Yes               
 
 -5                                             Cannot find the YANK activity string with rank = 4100
 
-**Examples  **
+**Examples**
 
  Yank quote number '154' by the current user at the current date/time. Place in the default WIPBin, generate a time bomb.
 

@@ -2,15 +2,10 @@ _create_eco_item_
 -------------------
 
 Public Function create_eco_item( _
-
                          ByVal focus_type As Long, _
-
                          ByVal active As Long, _
-
                          ByVal eco_hdr_code As String, _
-
                          ByVal apply_mod_level As Long, _
-
                          ByVal result_mod_level As Long) As Integer
 
 **Description**
@@ -50,7 +45,7 @@ result_mod_level                 Yes              
 
 ret_objid                                Output                   Returns the objid of the newly created ECO Item
 
-**Examples  **
+**Examples**
 
  Create a new ECO item. It will relate to ECO Header "8", be active, and change part 268435464 to part 268435465.
 

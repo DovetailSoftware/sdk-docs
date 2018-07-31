@@ -5,61 +5,34 @@ create_address_list
 ---------------------
 
 Public Function create_address(ByVal addr1 As String, _
-
                                ByVal addr2 As String, _
-
                                ByVal city As String, _
-
  ByVal state As String, _
-
                                ByVal short_state As Boolean, _
-
                                ByVal zip As String, _
-
                                ByVal country As String, _
-
                                ByVal time_zone As String, _
-
                                ByVal int_fld1 As String, _
-
                                ByVal int_val1 As Long, _
-
                                ByVal int_fld2 As String, _
-
                                ByVal int_val2 As Long, _
-
                                ByVal str_fld1 As String, _
-
                                ByVal str_val1 As String, _
-
                                ByVal str_fld2 As String, _
-
                                ByVal str_val2 As String, _
-
                                ByVal date_fld1 As String, _
-
                                ByVal date_val1 As String) As Integer
 
 Public Function create_address_list(ByVal addr1 As String, _
-
                                     ByVal addr2 As String, _
-
                                     ByVal city As String, _
-
                                     ByVal state As String, _
-
                                     ByVal short_state As Boolean, _
-
                                     ByVal zip As String, _
-
                                     ByVal country As String, _
-
                                     ByVal time_zone As String, _
-
                                     Optional fld_list As Variant, _
-
                                     Optional type_list As Variant, _
-
                                     Optional val_list As Variant) As Integer
 
 **Description**
@@ -148,11 +121,8 @@ Dim ret_int        As Integer
 Dim address_objid  As Long
 
 ret_int = fcinter.create_address("101 Main St.", "Suite 100",_
-
                                  "Austin", "TX", true, "78759", "USA", _
-
                                  "CST", "", 0, "", 0, "", "", _
-
                                  "", "", "", "")
 
  If ret_int = 0 Then

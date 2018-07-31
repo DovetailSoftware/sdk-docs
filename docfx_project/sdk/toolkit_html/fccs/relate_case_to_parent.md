@@ -2,7 +2,6 @@ relate_case_to_parent
 -----------------------
 
 Public Function relate_case_to_parent(ByVal case_id As String, _
-
                             ByVal parent_id As String) As Integer
 
 **Description**
@@ -32,7 +31,7 @@ parent_id                               Yes   �
 
 -5                                             The new parent is already related as the parent of the case
 
-**Examples  **
+**Examples**
 
  Relate case 5 to have a new parent of case 66.
 

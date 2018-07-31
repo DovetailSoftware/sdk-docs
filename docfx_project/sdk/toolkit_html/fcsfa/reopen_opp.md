@@ -2,15 +2,10 @@ reopen_opp
 ----------
 
 Function reopen_opp(ByVal opp_id As String, _
-
                     ByVal the_status As String, _
-
                     ByVal wipbin As String, _
-
                     ByVal reopen_date As String, _
-
                     ByVal user_name As String, _
-
                     ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -60,7 +55,7 @@ gen_time_bombs                 Yes               
 
 -7                                             Cannot find the specified WIPBIN
 
-**Examples  **
+**Examples**
 
  Reopen opportunity "32" at the current time with the current user. Put in status "Active now". Put in WIPBIN "Important". Generate a time bomb.
 

@@ -2,11 +2,8 @@ reject_subcase
 --------------
 
 Public Function reject_subcase(ByVal subcase_id As String, _
-
                 ByVal reject_date As String, ByVal wipbin_name As String, _
-
                 ByVal note_str As String, ByVal user_name As String, _
-
                 ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -18,13 +15,9 @@ This API causes the specified subcase to be rejected from the queue it is in, an
 
 subcase_id                            Yes                         The subcase to reject-forward
 
-reject_date                            No                           When was the subcase rejected. If this parameter is left blank, the subcase
+reject_date                            No                           When was the subcase rejected. If this parameter is left blank, the subcase is rejected at the current time
 
-is rejected at the current time
-
-wipbin                                    No                           The WIPBin to place the subcase in. If left blank, the default WIPBin
-
-                                                                                is used
+wipbin                                    No                           The WIPBin to place the subcase in. If left blank, the default WIPBin is used
 
 notes                                      No                           Optional notes about the reject
 
@@ -52,7 +45,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Cannot find REJECT activity string
 
-**Examples  **
+**Examples**
 
  Reject subcase number 'C154-1' to the default WIPBin. The reject has no notes, is performed by the current user and is rejected at the current time. Generate a time bomb.
 
@@ -79,5 +72,4 @@ var ret_int = fccs.reject_subcase("2-2", "11/23/97 22:00:00", "East",
 Dim ret_int As Integer
 
 ret_int = fccs.reject_subcase("2-2", "11/23/97 22:00:00", "East", _
-
                               "Some notes", "dave", False)

@@ -2,15 +2,10 @@ forward_case
 ------------
 
 Public Function forward_case(ByVal case_id As String, _
-
                              ByVal new_queue As String, _
-
                              ByVal forward_date As String, _
-
                              ByVal note_str As String, _
-
                              ByVal user_name As String, _
-
                              ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -24,9 +19,7 @@ case_id                                  Yes �
 
 new_queue                           Yes                         The queue to forward to
 
-forward_date                        No                           When was the case forwarded. If this parameter is left blank, the case
-
-is forwarded at the current time
+forward_date                        No                           When was the case forwarded. If this parameter is left blank, the case is forwarded at the current time
 
 notes                                      No                           Optional notes about the reject-forward
 
@@ -56,7 +49,7 @@ gen_time_bombs                 Yes               
 
 -7                                             Can not forward Case to specified queue
 
-**Examples  **
+**Examples**
 
  Reject-forward case number 'C154' to queue 'Hardware'. The reject-forward has no notes, is performed by the current user and is forwarded at the current time. Generate a time bomb.
 
@@ -83,5 +76,4 @@ var ret_int = fccs.forward_case("2", "Software", "11/23/97 22:00:00",
 Dim ret_int As Integer
 
 ret_int = fccs.forward_case("2", "Software", "11/23/97 22:00:00", _
-
                             "Some notes", "dave", False)

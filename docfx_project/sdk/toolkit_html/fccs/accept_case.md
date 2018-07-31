@@ -2,13 +2,9 @@ accept_case
 -----------
 
 Public Function accept_case(ByVal case_id As String, _
-
                             ByVal accept_date As String, _
-
                             ByVal wipbin_name As String, _
-
           ByVal user_name As String, _
-
           ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -20,9 +16,7 @@ This API causes the specified case to be accepted from a dispatched queue. The c
 
 case_id                                  Yes                         The case to accept
 
-accept_date                          No                           When was the case accepted. If this parameter is left blank, the case
-
-is accepted at the current time
+accept_date                          No                           When was the case accepted. If this parameter is left blank, the case is accepted at the current time
 
 wipbin_name                        No                           The WIPBin to place the case in (for the user who accepted case)
 
@@ -79,5 +73,4 @@ var ret_int = fccs.accept_case("2", "11/23/97 22:00:00", "Urgent",
 Dim ret_int As Integer
 
 ret_int = fccs.accept_case("2", "11/23/97 22:00:00", "Urgent", _
-
                            "marty", False)

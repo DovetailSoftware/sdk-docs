@@ -2,13 +2,9 @@ create_onsite_log
 -------------------
 
 Public Function create_onsite_log(ByVal object_type As String, _
-
                   ByVal object_id As String, ByVal creation_time As String, _
-
                   ByVal last_modified As String, ByVal notes As String, _
-
                   ByVal resolution As String, ByVal user_name As String, _
-
                   ByVal perf_by As String) As Integer
 
 **Description**
@@ -58,7 +54,7 @@ perf_by                                  No  
 
 ret_objid                                The objid of the new onsite log object is returned by this parameter.       
 
-**Examples  **
+**Examples**
 
  Create a new onsite log related to Case "3". The creation time is 4:00 pm on September 10, 1998. A sample note is shown, and the resolution will be the list default. The user and performing user will both default to the current Clarify user. Once created, the new objid will be placed in the ol_objid variable.
 
@@ -69,9 +65,7 @@ ret_objid                                The obji
 Dim ol_objid As Long
 
 ret_int = fcfo.create_onsite_log("CASE", "3", _
-
 "09/10/98 16:00:00", "", _
-
 "New Onsite Log note", "", "", "")
 
    If ret_int = 0 Then
@@ -99,7 +93,6 @@ if (ret_int == 0){ var ol_objid = fcfo.ret_objid; }
 Dim ol_objid As Long
 
 ret_int = fcfo.create_onsite_log("SUBCASE", "4-1", "", "", _
-
                                   "", "", "", "")
 
    If ret_int = 0 Then

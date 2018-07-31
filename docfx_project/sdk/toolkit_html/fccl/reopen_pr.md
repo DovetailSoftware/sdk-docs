@@ -2,11 +2,8 @@ reopen_pr
 ---------
 
 Public Function reopen_pr(ByVal pr_id As String, _
-
                           ByVal new_status As String, ByVal wipbin_name As String, _
-
                           ByVal reopen_date As String, ByVal user_name As String, _
-
                           ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -58,7 +55,7 @@ gen_time_bombs                 Yes               �
 
 -9                                             The employee record for the specified user cannot be found
 
-**Examples  **
+**Examples**
 
  Reopen part request number '1-14' to WIPBin 'Hardware'.  The status should be "Reopen again!", and it was performed by Cindy. The reopen occurs on August 1, 2001. Generate a time bomb.
 
@@ -67,7 +64,6 @@ gen_time_bombs                 Yes               �
 Dim ret_int As Integer
 
 ret_int = fccl.reopen_pr("1-14", "Reopen again!", "Hardware", "8/1/2001", _
-
                          "cindy", True)
 
 **Javascript:**

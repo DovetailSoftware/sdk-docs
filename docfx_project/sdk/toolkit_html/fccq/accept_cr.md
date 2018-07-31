@@ -2,13 +2,9 @@ accept_cr
 ---------
 
 Public Function accept_cr(ByVal cr_id As String, _
-
                           ByVal accept_date As String, _
-
                           ByVal wipbin_name As String, _
-
         ByVal user_name As String, _
-
         ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -20,9 +16,7 @@ This API causes the specified change request to be accepted from a dispatched qu
 
 cr_id                                       Yes                         The change request to accept
 
-accept_date                          No                           When was the change request accepted. If this parameter is left blank, the CR
-
-is accepted at the current time
+accept_date                          No                           When was the change request accepted. If this parameter is left blank, the CR is accepted at the current time
 
 wipbin_name                        No                           The WIPBin to place the change request in (for the user who accepted CR)
 
@@ -73,7 +67,6 @@ var ret_int = fccq.accept_cr("10", "", "", "", true);
 Dim ret_int As Integer
 
 ret_int = fccq.accept_cr("2", "11/23/97 22:00:00", "Urgent", _
-
                          "marty", False)
 
 **JavaScript:**

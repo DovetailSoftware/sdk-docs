@@ -2,11 +2,8 @@ unlink_case_from_workaround
 -----------------------------
 
 Public Function unlink_case_from_workaround(ByVal case_id As String, _
-
                                             ByVal unlink_date As String, _
-
                                             ByVal user_name As String, _
-
                                             ByVal create_time_bomb As Boolean)
 
                                             As Integer

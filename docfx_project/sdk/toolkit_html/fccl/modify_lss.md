@@ -2,7 +2,6 @@ modify_lss
 ----------
 
 Public Function modify_lss(ByVal site_id As String, _
-
                            ByVal loc_name As String, ByVal loc_rank As Integer) As Integer
 
 **Description**

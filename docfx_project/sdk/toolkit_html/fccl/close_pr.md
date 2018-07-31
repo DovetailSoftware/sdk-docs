@@ -2,11 +2,8 @@ close_pr
 --------
 
 Public Function close_pr(ByVal pr_id As String, _
-
                          ByVal new_status As String, ByVal close_date As String, _
-
                          ByVal user_name As String, ByVal gen_time_bombs As Boolean) _
-
                          As Integer
 
 **Description**
@@ -22,9 +19,7 @@ new_status                           No       �
 
 condition status is used
 
-close_date                             No                           When was the part request closed. If this parameter is left blank, it
-
-is closed at the current time
+close_date                             No                           When was the part request closed. If this parameter is left blank, it is closed at the current time
 
 user_name                             No                           The user who closed the part request. If left blank, the current user
 
@@ -56,7 +51,7 @@ gen_time_bombs                 Yes               
 
 -9                                             The employee record for the specified user cannot be found
 
-**Examples  **
+**Examples**
 
  Close part request '154-1'. Jack closed it on February 10th, and it should be put in status "Really closed". Generate a time bomb.
 
@@ -65,7 +60,6 @@ gen_time_bombs                 Yes               
 Dim ret_int As Integer
 
 ret_int = fccl.close_pr("154-1", "Really closed", "2/10/2001 14:50:00", _
-
 "jack", True)
 
 **Javascript:**

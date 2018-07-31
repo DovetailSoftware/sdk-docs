@@ -2,17 +2,11 @@ create_country
 --------------
 
 Public Function create_country(ByVal cname As String, _
-
                                ByVal c_code As Long, _
-
                                ByVal the_currency As String, _
-
                                ByVal symbol As String, _
-
                                ByVal desc As String, _
-
                                ByVal conv_rate As Double, _
-
                                ByVal iso_code As String) As Integer
 
 **Description**
@@ -61,7 +55,6 @@ iso_code                                    
 Dim ret_int       As Integer
 
 ret_int = fcinter.create_country("Fooland", 42, "", "", "", _
-
                                  0, "")
 
 **Javascript:**
@@ -77,7 +70,6 @@ var ret_int = fcinter.create_country("Fooland", 42, "", "", "",
 Dim ret_int       As Integer
 
 ret_int = fcinter.create_country("Fooland", 42, "FD", "F$", _
-
                                  "Foo Dollars", 4.3, "FDD")
 
 **Javascript:**

@@ -5,45 +5,26 @@ log_contract_note_list
 ------------------------
 
 Public Function log_contract_note(contract_id As String, _
-
                                  action_type As String, note_str As String, _
-
                                  int_use As String, log_date As String, _
-
                                  user_name As String, _
-
                                  gen_time_bombs As Boolean, _
-
                                  int_fld1 As String, int_val1 As Long, _
-
                                  int_fld2 As String, int_val2 As Long, _
-
                                  str_fld1 As String, str_val1 As String, _
-
                                  str_fld2 As String, str_val2 As String, _
-
                                  date_fld1 As String, date_val1 As String _
-
                                  ) As Integer
 
 Public Function log_contract_note_list(contract_id As String, _
-
                                       action_type As String, _
-
                                       note_str As String, _
-
                                       int_use As String, _
-
                                       log_date As String, _
-
                                       user_name As String, _
-
                                       gen_time_bombs As Boolean, _
-
                                       Optional fld_list As Variant, _
-
                                       Optional type_list As Variant, _
-
                                       Optional val_list As Variant) As Integer
 
 **Description**
@@ -105,7 +86,7 @@ val_list                                   Yes
 
 ret_objid                                objid of the created notes log record
 
-**Examples  **
+**Examples**
 
  Move quote number '154' to the default WIPBin for the current owner.
 

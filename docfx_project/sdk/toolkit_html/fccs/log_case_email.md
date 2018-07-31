@@ -5,63 +5,35 @@ log_case_ email_list
 ----------------------
 
 Public Function log_case_email(ByVal case_id As String, _
-
                     ByVal action_type As String, _
-
                     ByVal log_date As String, ByVal message As String, _
-
                     ByVal recipient As String, ByVal cc_list As String, _
-
                     ByVal user_name As String, ByVal new_stat As String, _
-
-                    ByVal cmit_title As String, ByVal cmit_notes As String, _                                     
-
+                    ByVal cmit_title As String, ByVal cmit_notes As String, _
                     ByVal cmit_due As String, ByVal cmit_prior As Long, _
-
                     ByVal cmit_to As Boolean, ByVal cmit_action_type As String, _
-
                     ByVal cmit_contact_objid As Long, _
-
   ByVal gen_time_bombs As Boolean, _
-
                     ByVal send_email As Boolean, _
-
                     ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                     ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                     ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                     ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                     ByVal date_fld1 As String, _
-
                     ByVal date_val1 As String) As Integer
 
 Public Function log_case_email_list(ByVal case_id As String, _
-
                     ByVal action_type As String, _
-
                     ByVal log_date As String, ByVal message As String, _
-
                     ByVal recipient As String, ByVal cc_list As String, _
-
                     ByVal user_name As String, ByVal new_stat As String, _
-
                     ByVal cmit_title As String, ByVal cmit_notes As String, _
-
                     ByVal cmit_due As String, ByVal cmit_prior As Long, _
-
                     ByVal cmit_to As Boolean, ByVal cmit_action_type As String, _
-
                     ByVal cmit_contact_objid As Long, _
-
   ByVal gen_time_bombs As Boolean, _
-
                     ByVal send_email As Boolean, Optional fld_list As Variant, _
-
                     Optional type_list As Variant, _
-
                     Optional val_list As Variant) As Integer
 
 **Description**
@@ -188,7 +160,7 @@ val_list                                   Yes
 
 -15                                           Cannot find the specified contact
 
-**Examples  **
+**Examples**
 
  Create an email to send to 'joe@fred.com' for case C154. Set the message for the log, and no other information. Do not send the email, just log it. Generate a time bomb.
 
@@ -207,9 +179,7 @@ val_list                                   Yes
    Dim ret_int   As Integer
 
    ret_int = fccs.log_case_email("C154", "", "", "Email message", _
-
           "joe@fred.com", "", "", "", "", "", "", 0, True, "", 0, True, False, _
-
           "", 0, "", 0, "", "", "", "", "", "")
 
 **List version:**
@@ -227,9 +197,7 @@ val_list                                   Yes
    Dim ret_int     As Integer
 
    ret_int = fccs.log_case_email_list("C154", "", "", "Email message", _
-
               "joe@fred.com", "", "", "", "", "", "", 0, True, "", _
-
               0, True, False)
 
  Send an email for case '2' with a recieipient, and a list of "cc" recipients. Send as internal email. Send from "sam", on November 23, 1997 at 10PM. Change the status to "Working". Also, create a commitment for January 1, 1999 at 8:00AM, with a title, notes, and a prior warning of 1 hour (with the commitment being made by the contact). Generate some additional fields, but do not generate a time bomb. Send the email.
@@ -259,19 +227,12 @@ val_list                                   Yes
    Dim ret_int   As Integer
 
    ret_int = fccs.log_case_email("2", "Internal Email", _
-
               "11/23/97 22:00:00", "Email message", "joe@fred.com", _
-
            "mary@fred.com, cathy@fred.com", "sam", "Working", _
-
            "Commit title", "Commit notes", "1/1/1999 8:00:00", _
-
               3600, False, "", 0, False, True, _
-
            "x_close_int1", 1, "x_close_int2", 456, _
-
            "x_summary2", "More text", "", "", _
-
   "x_other_date", "1/1/99")        
 
 **List version:**
@@ -353,11 +314,7 @@ type_list.AppendItem "Date"
 val_list.AppendItem "1/1/99"
 
    ret_int = fccs.log_case_email("2", "Internal Email", _
-
               "11/23/97 22:00:00", "Email message", "joe@fred.com", _
-
            "mary@fred.com, cathy@fred.com", "sam", "Working", _
-
            "Commit title", "Commit notes", "1/1/1999 8:00:00", _
-
               3600, False, "", 0, False, True, fld_list, type_list, val_list)

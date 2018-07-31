@@ -2,13 +2,9 @@ add_gl_account
 ----------------
 
 Public Function add_gl_account(ByVal acct_name As String, _
-
                                ByVal account_type As String, ByVal desc_str As String, _
-
                                ByVal account_no As String, ByVal is_exp As Boolean, _
-
                                ByVal is_active As Boolean, ByVal is_company As Boolean, _
-
                                ByVal site_id As String) As Integer
 
 **Description**
@@ -63,7 +59,6 @@ site_id                                    Ye
 Dim ret_int As Integer
 
 ret_int = fccl.add_gl_account("myaccount", "", "A description", "1234", _
-
                               True, True, True, "1")
 
 **Javascript:**
@@ -79,7 +74,6 @@ var ret_int = fccl.add_gl_account("myaccount", "", "A description", "1234",
 Dim ret_int As Integer
 
 ret_int = fccl.add_gl_account("myaccount1", "", "A description", "1234", _
-
                               False, False, False, "1")
 
 **Javascript:**

@@ -2,11 +2,8 @@ assign_lead
 -----------
 
 Public Function assign_lead(ByVal lead_objid As Long, _
-
                             ByVal new_owner As String, _
-
                             ByVal assign_date As String, _
-
                             ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -38,7 +35,7 @@ gen_time_bombs                 Yes               
 
 -3                                             The LEAD activity string is not found
 
-**Examples  **
+**Examples**
 
  Assign action item number '10' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 

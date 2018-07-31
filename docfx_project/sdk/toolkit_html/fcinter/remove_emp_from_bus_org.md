@@ -2,9 +2,7 @@ remove_emp_from_bus_org
 ---------------------------
 
 Public Function remove_emp_from_bus_org(ByVal user_name As String, _
-
                                         ByVal acct_id As String, _
-
                                         ByVal role_name As String) As Integer
 
 **Description**
@@ -39,7 +37,6 @@ role_name                              Yes    �
 Dim ret_int    As Integer
 
 ret_int = fcinter.remove_emp_from_bus_org("michelle", "AN_CUST2", _
-
                                           "Manager")
 
 **Javascript:**

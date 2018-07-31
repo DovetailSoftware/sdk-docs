@@ -5,43 +5,25 @@ install_sp_list
 -----------------
 
 Public Function install_sp(ByVal site_id As String, _
-
 ByVal part_num As String, ByVal mod_level As String, _
-
 ByVal domain As String, ByVal quantity As Long, _
-
 ByVal serial_num As String, ByVal parent_bin_objid As Long, _
-
 ByVal parent_sp_objid As Long, ByVal instance_name As String, _
-
 ByVal comment As String, ByVal part_status As String, _
-
 ByVal invoice_no As String, ByVal user_name As String, _
-
 ByVal install_date As String, ByVal ship_date As String, _
-
 ByVal add_activity As Boolean) As Integer
 
 Public Function install_sp_list(ByVal site_id As String, _
-
 ByVal part_num As String, ByVal mod_level As String, _
-
 ByVal domain As String, ByVal quantity As Long, _
-
 ByVal serial_num As String, ByVal parent_bin_objid As Long, _
-
 ByVal parent_sp_objid As Long, ByVal instance_name As String, _
-
 ByVal comment As String, ByVal part_status As String, _
-
 ByVal invoice_no As String, ByVal user_name As String, _
-
 ByVal install_date As String, ByVal ship_date As String, _
-
 ByVal add_activity As Boolean, Optional fld_list As Variant, _
-
 Optional type_list As Variant, Optional val_list As Variant) _
-
 As Integer
 
 **Description**
@@ -168,9 +150,7 @@ Dim ret_int    As Integer
 Dim sp_objid   As Long
 
 ret_int = fcfo.install_sp("1234", "MS Word", "7.0", "Product", 1, _
-
            "xyzzy", 0, 0, "", "", "Installed/Good", "", _
-
            "", "", "", True)
 
    If ret_int = 0 Then
@@ -198,11 +178,8 @@ Dim ret_int    As Integer
 Dim sp_objid   As Long
 
 ret_int = fcfo.install_sp("444", "QuantPart", "", "Quantity", 30, _
-
            "", 268435457, 0, "", "", "", "", "", _
-
           "3/1/98", "2/1/98", False, "x_long", 22, "", _
-
 0, "x_string", "Hello!!", "", "", "", "")
 
    If ret_int = 0 Then

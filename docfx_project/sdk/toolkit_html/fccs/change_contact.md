@@ -2,19 +2,12 @@ change_contact
 --------------
 
 Public Function change_contact(ByVal case_id As String, _
-
                                ByVal f_name As String, _
-
                                ByVal l_name As String, _
-
                                ByVal phone_num As String, _
-
                                ByVal site_id As String, _
-
                                ByVal change_date As String, _
-
                                ByVal user_name As String, _
-
                                ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -72,7 +65,7 @@ gen_time_bombs                 Yes               
 
 -11                                           No employee record exists for the specified user
 
-**Examples  **
+**Examples**
 
  Change contact for case number 'C154' to Joe Jackson. Don't change the site. The change is performed by the current user and is changed at the current time. Generate a time bomb.
 
@@ -87,7 +80,6 @@ var ret_int = fccs.change_contact("C154", "Joe", "Jackson", "555-1212", "",
 Dim ret_int As Integer
 
 ret_int = fccs.change_contact("C154", "Joe", "Jackson", "555-1212", "", _
-
                               "", "", True)
 
  Change contact and site for case number '2' at 10PM on November 23rd of 1997 to 'Mary Smith' at site '43'. Change should be logged as performed by Patty. Don't generate a time bomb.
@@ -103,5 +95,4 @@ var ret_int = fccs.change_contact("2", "Mary", "Smith", "555-5555", "43",
 Dim ret_int As Integer
 
 ret_int = fccs.change_contact("2", "Mary", "Smith", "555-5555", "43", _
-
                               "11/23/97 22:00:00", "patty", False)

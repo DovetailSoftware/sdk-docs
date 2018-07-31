@@ -2,16 +2,11 @@ reject_cr
 ---------
 
 Public Function reject_cr(ByVal cr_id As String, _
-
-  ByVal reject_date As String, _
-
-                          ByVal wipbin As String, _
-
-  ByVal notes As String, _
-
-                          ByVal user_name As String, _
-
-                          ByVal gen_time_bombs As Boolean) As Integer
+  						ByVal reject_date As String, _
+                        ByVal wipbin As String, _
+						ByVal notes As String, _
+                        ByVal user_name As String, _
+                        ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
 
@@ -22,13 +17,9 @@ This API causes the specified change request to be rejected from the queue it is
 
 cr_id                                       Yes                         The change request to reject-forward
 
-reject_date                            No                           When was the change request rejected. If this parameter is left blank, the CR
+reject_date                            No                           When was the change request rejected. If this parameter is left blank, the CR is rejected at the current time
 
-is rejected at the current time
-
-wipbin                                    No                           The WIPBin to place the change request in. If left blank, the default WIPBin
-
-                                                                                is used
+wipbin                                    No                           The WIPBin to place the change request in. If left blank, the default WIPBin is used
 
 notes                                      No                           Notes about the reject
 
@@ -56,7 +47,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Cannot find gbst_elm rank 2600 for string RETURN
 
-**Examples  **
+**Examples**
 
  Reject change request number '10' to the default WIPBin. The reject has no notes, is performed by the current user and is rejected at the current time. Generate a time bomb.
 
@@ -77,7 +68,6 @@ var ret_int = fccq.reject_cr("10", "", "", "", "", true);
 Dim ret_int As Integer
 
 ret_int = fccq.reject_cr("2", "11/23/97 22:00:00", "East", _
-
                          "Some notes", "steven", False)
 
 **JavaScript:**

@@ -39,7 +39,7 @@ The code in this example is written in JavaScript for inclusion in ASP pages.
 
   var boSite = FCSession.CreateGeneric('site');
 
-  boSite.QueryEmptyToNull = true;  // Not needed � it's the default!
+  boSite.QueryEmptyToNull = true;  // Not needed - it's the default!
 
   boSite.Query();
 

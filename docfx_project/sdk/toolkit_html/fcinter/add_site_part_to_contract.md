@@ -2,9 +2,7 @@ add_site_part_to_contract
 -----------------------------
 
 Public Function add_site_part_to_contract(ByVal contract_id As String, _
-
                                           ByVal site_id As String, _
-
                                           ByVal sp_objid As Long) As Integer
 
 **Description**

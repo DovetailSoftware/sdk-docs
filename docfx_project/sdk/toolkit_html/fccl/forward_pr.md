@@ -2,11 +2,8 @@ forward_pr
 ----------
 
 Public Function forward_pr(ByVal pr_id As String, _
-
                            ByVal new_queue As String, ByVal forward_date As String, _
-
                            ByVal note_str As String, ByVal user_name As String, _
-
                            ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -20,9 +17,7 @@ pr_id                                     �
 
 queue_name                         Yes                         The queue to forward to
 
-forward_date                        No                           When was the part request forwarded. If this parameter is left blank, the PR
-
-is forwarded at the current time
+forward_date                        No                           When was the part request forwarded. If this parameter is left blank, the PR is forwarded at the current time
 
 note_str                                 No                           Optional notes about the forward
 
@@ -50,7 +45,7 @@ gen_time_bombs                 Yes               
 
 -6                                             The FORWARD activity string is not found with rank = 1100
 
-**Examples  **
+**Examples**
 
  Forward part request number '1-14' to queue 'Hardware'. The forward is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
@@ -71,7 +66,6 @@ var ret_int = fccl.forward_pr("1-14", "Hardware", "", "", "", true);
 Dim ret_int As Integer
 
 ret_int = fccl.dispatch_pr("2-1", "Software", "11/23/01 22:00:00", _
-
                           "Notes about forward", "nancy", False)
 
 **Javascript:**

@@ -2,15 +2,10 @@ modify_eco_item
 -------------------
 
 Public Function modify_eco_item(ByVal eco_mod_role_objid As Long, _
-
                           ByVal focus_type As Long, _
-
                           ByVal active As Long, _
-
                           ByVal eco_hdr_code As String, _
-
                           ByVal applies_to_mod As Long, _
-
                           ByVal results_in_mod As Long)
 
 **Description**
@@ -62,7 +57,7 @@ results_in_mod                    No            �
 
 -7                                             Specified Role Name and Apply-to Mod Level already exists in database
 
-**Examples  **
+**Examples**
 
  Modify ECO item 268435460, to result in part 268435465.
 

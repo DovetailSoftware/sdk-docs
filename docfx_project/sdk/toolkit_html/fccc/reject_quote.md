@@ -2,11 +2,8 @@ reject_quote
 ------------
 
 Public Function reject_quote(ByVal quote_id As String, _
-
                          ByVal reject_date As String, ByVal wipbin_name As String, _
-
                          ByVal note_str As String, ByVal user_name As String, _
-
                          ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -18,9 +15,7 @@ This API causes the specified quote to be rejected from the queue it is in, and 
 
 quote_id                                                Yes                         The quote to reject-forward
 
-reject_date                            No                           When was the quote rejected. If this parameter is left blank, the quote
-
-is rejected at the current time
+reject_date                            No                           When was the quote rejected. If this parameter is left blank, the quote is rejected at the current time
 
 wipbin_name                        No                           The WIPBin to place the quote in. If left blank, the default WIPBin is used
 
@@ -48,7 +43,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Cannot find REJECT activity string with rank = 2600
 
-**Examples  **
+**Examples**
 
  Reject quote number '154' to the default WIPBin. The reject has no notes, is performed by the current user and is rejected at the current time. Generate a time bomb.
 
@@ -67,7 +62,6 @@ ret_int = fc_cc.reject_quote("154", "", "", "", "", True)
 **JavaScript:**
 
 var ret_int = fc_cc.reject_quote("Q2", "11/23/2001 22:00:00", "East", _
-
                                 "Some notes", "Sam", False)
 
 **Visual Basic:**
@@ -75,5 +69,4 @@ var ret_int = fc_cc.reject_quote("Q2", "11/23/2001 22:00:00", "East", _
 Dim ret_int As Integer
 
 ret_int = fc_cc.reject_quote("Q2", "11/23/2001 22:00:00", "East", _
-
                                 "Some notes", "Sam", False)

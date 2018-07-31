@@ -2,11 +2,8 @@ reopen_contract
 ---------------
 
 Public Function reopen_contract(ByVal contract_id As String, _
-
                 ByVal wipbin_name As String, ByVal status_str As String, _
-
                 ByVal reopen_date As String, ByVal user_name As String, _
-
                 ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -56,7 +53,7 @@ gen_time_bombs                 Yes               
 
 -7                                             Employee record not found for specified user
 
-**Examples  **
+**Examples**
 
  Reopen contract number 'C154' by the current user at the current date/time. Place in the default WIPBin with the default status, and generate a time bomb.
 
@@ -75,7 +72,6 @@ ret_int = fc_cc.reopen_contract("C154", "", "", "", "", True)
 **JavaScript:**
 
 var ret_int = fc_cc.reopen_contract("2", "Urgent", "User Error", _
-
                                "11/23/2001 22:00:00", "sam", False)
 
 **Visual Basic:**
@@ -83,5 +79,4 @@ var ret_int = fc_cc.reopen_contract("2", "Urgent", "User Error", _
 Dim ret_int As Integer
 
 ret_int = fc_cc.reopen_contract("2", "Urgent", "User Error", _
-
                                "11/23/2001 22:00:00", "sam", False)

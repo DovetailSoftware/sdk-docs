@@ -2,17 +2,11 @@ create_expense_log
 --------------------
 
 Public Function create_expense_log(ByVal onsite_objid As Long, _
-
                   ByVal id_num As String, ByVal creation_time As String, _
-
                   ByVal notes As String, ByVal perf_by As String, _
-
                   ByVal user_name As String, ByVal expense_type As String, _
-
                   ByVal quantity As Double, ByVal the_rate As Double, _
-
                   ByVal billable As Long, ByVal bill_to As String, _
-
                   ByVal resolution As String) As Integer
 
 **Description**
@@ -84,7 +78,7 @@ ret_objid                                The obji
 
 ret_objid2                              The objid of the new onsite object is returned by this parameter.
 
-**Examples  **
+**Examples**
 
  Create a new expense log related to onsite log 268435499. The creation time is 10:30 am on September 11, 1998. A sample note is passed, and the resolution will be "Completed". The user will default, and the performing user will be set to "db". This default expense type is billable to the "Customer". Once created, the new objid will be placed in the el_objid variable.
 
@@ -95,9 +89,7 @@ ret_objid2                              The objid o
 Dim el_objid As Long
 
 ret_int = fcfo.create_expense_log(268435499, "", "09/11/98 10:30:00", _
-
                                   "expense log note", "db", "", "", 1, _
-
        4.5, 1, "Customer", "Completed")
 
    If ret_int = 0 Then
@@ -125,7 +117,6 @@ if (ret_int == 0){ var el_objid = fcfo.ret_objid; }
 Dim el_objid As Long
 
 ret_int = fcfo.create_expense_log(268435463, "", "", "", "", "", _
-
                                    "", 1.5, 3.33, 0, "", "")
 
    If ret_int = 0 Then

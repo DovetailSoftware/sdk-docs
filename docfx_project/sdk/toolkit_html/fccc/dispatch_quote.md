@@ -2,9 +2,7 @@ dispatch_quote
 --------------
 
 Public Function dispatch_quote(ByVal quote_id As String, _
-
               ByVal queue_name As String, ByVal disp_date As String, _
-
               ByVal user_name As String, ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -18,9 +16,7 @@ quote_id                                    
 
 queue_name                         Yes                         The queue to dispatch to
 
-disp_date                              No                           When was the quote dispatched. If this parameter is left blank, the quote
-
-is dispatched at the current time
+disp_date                              No                           When was the quote dispatched. If this parameter is left blank, the quote is dispatched at the current time
 
 user_name                             No                           The user who dispatched the quote. If left blank, the current user performs
 
@@ -48,7 +44,7 @@ gen_time_bombs                 Yes               
 
 -7                                             The specified queue does not allow dispatches of the quote
 
-**Examples  **
+**Examples**
 
  Dispatch quote number '154' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
@@ -67,7 +63,6 @@ ret_int = fc_cc.dispatch_quote("154", "Hardware", "", "", True)
 **JavaScript:**
 
 var ret_int = fc_cc.dispatch_quote("Q2", "Software", "11/23/2001 22:00:00", _
-
                               "sam", False)
 
 **Visual Basic:**
@@ -75,5 +70,4 @@ var ret_int = fc_cc.dispatch_quote("Q2", "Software", "11/23/2001 22:00:00", _
 Dim ret_int As Integer
 
 ret_int = fc_cc.dispatch_quote("Q2", "Software", "11/23/2001 22:00:00", _
-
                               "sam", False)

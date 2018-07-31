@@ -3,23 +3,14 @@
 **modify_dr_labor**
 
 Public Function modify_dr_labor(ByVal time_log_objid As Long, _
-
                          ByVal labor_type As String, _
-
                          ByVal start_time As String, _
-
                          ByVal duration As Long, _
-
                          ByVal billable As Integer, _
-
                          ByVal bill_to As String, _
-
                          ByVal wrk_center As String, _
-
                          ByVal tl_rate As Double, _
-
                          ByVal perf_by As String, _
-
                          ByVal creation_time As String) As Integer
 
 **Description**
@@ -73,7 +64,7 @@ different time is not supplied.
 
 -8                             Specified User is not in database                              
 
-**Examples  **
+**Examples**
 
  Change labor applied in time_log 268435465. The job was done by user "db" in the Lab, billable to the customer. No other changes are being made at this time.
 

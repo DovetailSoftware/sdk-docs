@@ -2,11 +2,8 @@ reject_case
 -----------
 
 Public Function reject_case(ByVal case_id As String, _
-
                 ByVal reject_date As String, ByVal wipbin_name As String, _
-
                 ByVal note_str As String, ByVal user_name As String, _
-
                 ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -18,13 +15,9 @@ This API causes the specified case to be rejected from the queue it is in, and r
 
 case_id                                  Yes                         The case to reject-forward
 
-reject_date                            No                           When was the case rejected. If this parameter is left blank, the case
+reject_date                            No                           When was the case rejected. If this parameter is left blank, the case is rejected at the current time
 
-is rejected at the current time
-
-wipbin                                    No                           The WIPBin to place the case in. If left blank, the default WIPBin
-
-                                                                                is used
+wipbin                                    No                           The WIPBin to place the case in. If left blank, the default WIPBin is used
 
 notes                                      No                           Optional notes about the reject
 
@@ -52,7 +45,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Cannot find REJECT activity string
 
-**Examples  **
+**Examples**
 
  Reject case number 'C154' to the default WIPBin. The reject has no notes, is performed by the current user and is rejected at the current time. Generate a time bomb.
 
@@ -79,5 +72,4 @@ var ret_int = fccs.reject_case("2", "11/23/97 22:00:00", "East",
 Dim ret_int As Integer
 
 ret_int = fccs.reject_case("2", "11/23/97 22:00:00", "East", _
-
                            "Some notes", "dave", False)

@@ -2,15 +2,10 @@ forward_solution
 ----------------
 
 Public Function forward_solution(ByVal solution_id As String, _
-
                                  ByVal new_queue As String, _
-
                                  ByVal forward_date As String, _
-
                                  ByVal notes As String, _
-
                                  ByVal user_name As String, _
-
                                  ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -56,7 +51,7 @@ gen_time_bombs                 Yes               
 
 -7                                             Can not forward Solution to specified queue
 
-**Examples  **
+**Examples**
 
  Forward solution number '14' to queue 'Hardware'. The forward is performed by the current user and is forwarded at the current time. Generate a time bomb.
 
@@ -65,7 +60,6 @@ gen_time_bombs                 Yes               
 Dim ret_int As Integer
 
 ret_int = fcinter.forward_solution("14", "Hardware", "", _
-
                                    "", "", true)
 
 **Javascript:**
@@ -81,9 +75,7 @@ var ret_int = fcinter.forward_solution("14", "Hardware", "",
 Dim ret_int As Integer
 
 ret_int = fcinter.forward_solution("2", "Software", _
-
                                     "11/23/97 22:00:00", _
-
                                     "Notes about forward", "nancy", false)
 
 **Javascript:**

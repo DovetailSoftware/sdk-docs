@@ -4,21 +4,13 @@ add_po_to_sched
 -----------------
 
 Public Function add_po_to_sched(ByVal contract_id As String, _
-
                                 ByVal sched_id As String, _
-
                                 ByVal po_num As String, _
-
                                 ByVal pay_option As String, _
-
                                 ByVal pay_terms As String, _
-
                                 ByVal po_amt As String, _
-
                                 ByVal po_date As String, _
-
                                 ByVal expire_date As String, _
-
                                 ByVal po_status As String) As Integer
 
 **Description**
@@ -83,9 +75,7 @@ ret_objid                                Output 
 **JavaScript:**
 
    var ret_int = fc_cc.add_po_to_sched("22", "Default Schedule", "123", _
-
                                    "Check",  "Net 10", "155.55", _
-
                                    "01/01/2001", "11/01/2002", "Issued")
 
 **      Visual Basic:**
@@ -97,9 +87,7 @@ ret_objid                                Output 
    Dim po_objid   As Long
 
    ret_int = fc_cc.add_po_to_sched("22", "Default Schedule", "123", _
-
                                    "Check",  "Net 10", "155.55", _
-
                                    "01/01/2001", "11/01/2002", "Issued")
 
    If ret_int = 0 Then

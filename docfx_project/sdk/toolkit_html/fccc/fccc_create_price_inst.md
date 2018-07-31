@@ -11,39 +11,23 @@ CreatePriceInstList
 -------------------
 
 Public Function create_price_inst(ByVal part_num As String, _
-
                 ByVal mod_level As String, ByVal domain As String, _
-
                 ByVal support_prog As String, ByVal price_prog As String, _
-
                 ByVal price_type As Integer, ByVal priced_qty As Long, _
-
                 ByVal price As Double, ByVal eff_date As String, _
-
                 ByVal exp_date As String, ByVal int_fld1 As String, _
-
                 ByVal int_val1 As Long, ByVal int_fld2 As String, _
-
                 ByVal int_val2 As Long, ByVal str_fld1 As String, _
-
                 ByVal str_val1 As String, ByVal str_fld2 As String, _
-
                 ByVal str_val2 As String, ByVal date_fld1 As String, _
-
                 ByVal date_val1 As String) As Integer
 
 Public Function create_price_inst_list(ByVal part_num As String, _
-
              ByVal mod_level As String, ByVal domain As String, _
-
              ByVal support_prog As String, ByVal price_prog As String, _
-
              ByVal price_type As Long, ByVal price_qty As Long, _
-
              ByVal price As Double, ByVal eff_date As String, _
-
              ByVal exp_date As String, Optional fld_list As Variant, _
-
              Optional type_list As Variant, Optional val_list As Variant) As Integer
 
 **Description**
@@ -121,7 +105,7 @@ date_val1
 | -13 | Price type is not yet supported |
 | ret_objid | Output<br/><br/>Returns the objid of the newly created price instance |
 
-**Examples  **
+**Examples**
 
 Create a new price instance for product 'Kudzu' software under the 'Kudzu Phone Support' support program.  Associate this price instance with the 'US Std Price List'.  Use a fixed price type with 50 units costing 100 dollars.
 
@@ -130,11 +114,8 @@ Create a new price instance for product 'Kudzu' software under the 'Kudzu Phone 
 **JavaScript:**
 
 var ret_int = fc_cc.create_price_inst( "Kudzu", "2000", "Software Part", _
-
                                     "Kudzu Phone Support", "US Std Price List", _
-
                                     0, 50, 100, "","", "", 0, "", 0, "", _
-
                                     "", "", "", "", "")
 
 **Visual Basic:**
@@ -144,11 +125,8 @@ var ret_int = fc_cc.create_price_inst( "Kudzu", "2000", "Software Part", _
    Dim objid           As Long
 
 ret_int = fc_cc.create_price_inst( "Kudzu", "2000", "Software Part", _
-
                                     "Kudzu Phone Support", "US Std Price List", _
-
                                     0, 50, 100, "","", "", 0, "", 0, "", _
-
                                     "", "", "", "", "")
 
 **List version:**
@@ -188,9 +166,7 @@ type_list.AppendItem("Date");
 val_list.AppendItem("1/1/99");
 
 ret_int = fc_cc.create_price_inst_list("Kudzu", "2000", "Software Part", _
-
                                          "Kudzu Phone Support", "US Std Price List", 0, _
-
                                          50, 100, "", "", fld_list, type_list, val_list)
 
  **Visual Basic:**
@@ -212,7 +188,5 @@ ret_int = fc_cc.create_price_inst_list("Kudzu", "2000", "Software Part", _
  val_list.ItemType = "String"
 
 ret_int = fc_cc.create_price_inst_list("Kudzu", "2000", "Software Part", _
-
                                          "Kudzu Phone Support", "US Std Price List", 0, _
-
                                          50, 100, "", "", fld_list, type_list, val_list)

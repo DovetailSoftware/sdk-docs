@@ -28,7 +28,7 @@ ret_string                               Output �
 
 servicing this site
 
-**Examples  **
+**Examples**
 
  Get the locations servicing the site "42".
 

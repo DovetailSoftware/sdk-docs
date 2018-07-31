@@ -2,11 +2,8 @@ yank_case
 ---------
 
 Public Function yank_case(ByVal case_id As String, _
-
                 ByVal wipbin_name As String, ByVal yank_date As String, _
-
                 ByVal user_name As String, _
-
                 ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -18,13 +15,9 @@ This API causes the specified case to be yanked from the current location to a n
 
 case_id                                  Yes                         The case to yank
 
-wipbin                                    No                           The WIPBin to place the case in. If left blank, the default WIPBin for
+wipbin                                    No                           The WIPBin to place the case in. If left blank, the default WIPBin for the user is used
 
-                                                                                the user is used
-
-yank_date                             No                           When was the case yanked. If this parameter is left blank, the yank
-
-occurs at the current time
+yank_date                             No                           When was the case yanked. If this parameter is left blank, the yank occurs at the current time
 
 user_name                             No                           The user who yanked the case. If left blank, the current user performs
 
@@ -48,7 +41,7 @@ gen_time_bombs                 Yes               
 
 -5                                             Cannot find the YANK activity string
 
-**Examples  **
+**Examples**
 
  Yank case number 'C154' by the current user at the current date/time. Place in the default WIPBin, generate a time bomb.
 

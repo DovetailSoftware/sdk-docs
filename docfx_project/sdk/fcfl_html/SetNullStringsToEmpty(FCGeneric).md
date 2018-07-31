@@ -23,7 +23,7 @@ If this property is set to False, then **FCFL** will not alter the value of the 
 
 When you create a new generic (with the FCSession.CreateGeneric method), the value of FCSession. SetNullStringsToEmpty  is automatically filled in to this property. Thus, if you wish to have SetNullStringsToEmpty  set to the same value for all generic BOs,  you can set the value you wish in the FCSession object, and ignore this property on each generic object.\
 
-The only "problem" with this property is that when it is set to True, you cannot set the value of a string field to the empty string � **FCFL** will ignore it. This is not a common operation, but if you wish to accomplish it, just change the FCGeneric's property back to False.
+The only "problem" with this property is that when it is set to True, you cannot set the value of a string field to the empty string - **FCFL** will ignore it. This is not a common operation, but if you wish to accomplish it, just change the FCGeneric's property back to False.
 
 **Note**: This only applies to Oracle databases and string fields. All other fields are unaffected by this property.
 

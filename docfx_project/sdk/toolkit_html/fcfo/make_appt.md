@@ -2,19 +2,12 @@ make_appt
 ---------
 
 Public Function make_appt(ByVal description As String, _
-
       ByVal start_time As String, ByVal end_time As String, _
-
       ByVal duration As Long, ByVal cell_text As String, _
-
       ByVal emp_first As String, ByVal emp_last As String, _
-
       ByVal site_part_objid As Long, ByVal appt_type As String, _
-
       ByVal appt_sub_type As String, ByVal case_id As String, _
-
       ByVal user_name As String, ByVal creation_time As String) _
-
       As Integer
 
 **Description**
@@ -103,9 +96,7 @@ Dim ap_objid   As Long
 ret_int = fcfo.make_appt("test description", "10/11/98 11:00:00", _      
 
            "", 600, "Cell text", "sa", "sa", 0, _
-
            "Field Service", "Warranty Upgrade", "1", _
-
            "sa", "")
 
    If ret_int = 0 Then
@@ -135,7 +126,6 @@ Dim ap_objid   As Long
 ret_int = fcfo.make_appt("test description", "10/11/98 11:00:00", _      
 
            "9/11/98 12:00:00", 0, "Cell text", "", "", _
-
            268435458, "", "", "", "Joe", "10/1/98 8:00:00")
 
    If ret_int = 0 Then

@@ -2,9 +2,7 @@ modify_inv_bin
 ----------------
 
 Public Function modify_inv_bin(ByVal old_name As String, _
-
                                ByVal new_name As String, ByVal loc_name As String, _
-
                                ByVal is_active As Boolean)
 
 **Description**

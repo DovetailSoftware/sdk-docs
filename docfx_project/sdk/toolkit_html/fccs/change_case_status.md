@@ -2,15 +2,10 @@ change_case_status
 --------------------
 
 Public Function change_case_status(ByVal case_id As String, _
-
                                    ByVal new_status As String, _
-
                                    ByVal change_date As String, _
-
                                    ByVal note_str As String, _
-
                                    ByVal user_name As String, _
-
                                    ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -24,9 +19,7 @@ case_id                                  Yes �
 
 new_status                           No                           The new status for the case
 
-change_date                         No                           When was the case status changed. If this parameter is left blank, the case
-
-is status changed at the current time
+change_date                         No                           When was the case status changed. If this parameter is left blank, the case is status changed at the current time
 
 note_str                                 No                           Notes for the status change
 
@@ -52,7 +45,7 @@ defined for the current object's condition)
 
 -4                                             Cannot find the CHANGE STATUS activity string
 
-**Examples  **
+**Examples**
 
  Change status for case number 'C154' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
 
@@ -79,5 +72,4 @@ var ret_int = fccs.change_case_status("2", "Solved", "11/23/97 22:00:00",
 Dim ret_int As Integer
 
 ret_int = fccs.change_case_status("2", "Solved", "11/23/97 22:00:00", _
-
                                   "Some notes", "dave", False)

@@ -2,13 +2,9 @@ yank_solution
 -------------
 
 Public Function yank_solution(ByVal solution_id As String, _
-
                               ByVal wipbin As String, _
-
                               ByVal yank_date As String, _
-
                               ByVal user_name As String, _
-
                               ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -48,7 +44,7 @@ gen_time_bombs                 Yes               
 
 -5                                             Cannot find the activity string for "Yank" rank equal to 4100
 
-**Examples  **
+**Examples**
 
  Yank solution number '14' to WIPBin 'Hardware'.  The yank occurs on August 1, 1998, and is performed by Marty. Generate a time bomb.
 
@@ -57,7 +53,6 @@ gen_time_bombs                 Yes               
 Dim ret_int As Integer
 
 ret_int = fcinter.yank_solution("14", "Hardware", _
-
                                 "8/1/98", "marty", true)
 
 **Javascript:**

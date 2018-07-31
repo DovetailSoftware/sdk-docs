@@ -8,33 +8,21 @@ dispatch_quote
 --------------
 
 Public Function dispatch_action_item(ByVal the_id As String, _
-
                                      ByVal queue_name As String, _
-
                                      ByVal disp_date As String, _
-
                                      ByVal user_name As String, _
-
                                      ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function dispatch_opportunity(ByVal the_id As String, _
-
                                      ByVal queue_name As String, _
-
                                      ByVal disp_date As String, _
-
                                      ByVal user_name As String, _
-
                                      ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function dispatch_quote(ByVal the_id As String, _
-
                                ByVal queue_name As String, _
-
                                ByVal disp_date As String, _
-
                                ByVal user_name As String, _
-
                                ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -80,7 +68,7 @@ gen_time_bombs                 Yes               
 
 -8                                             Cannot find the employee record for the designated user
 
-**Examples  **
+**Examples**
 
  Dispatch action item number '154' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
@@ -107,5 +95,4 @@ var ret_int = fcsfa.dispatch_quote("2", "Software",
 Dim ret_int As Integer
 
 ret_int = fcsfa.dispatch_quote("2", "Software", "11/23/97 22:00:00", _
-
                                "dave", False)

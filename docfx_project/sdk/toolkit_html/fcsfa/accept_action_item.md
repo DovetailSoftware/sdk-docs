@@ -8,33 +8,21 @@ accept_quote
 ------------
 
 Public Function accept_action_item(ByVal the_id As String, _
-
                                    ByVal accept_date As String, _
-
                                    ByVal wipbin As String, _
-
                                    ByVal user_name As String, _
-
                  ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function accept_opportunity(ByVal the_id As String, _
-
                                    ByVal accept_date As String, _
-
                                    ByVal wipbin As String, _
-
                                    ByVal user_name As String, _
-
                  ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function accept_quote(ByVal the_id As String, _
-
                              ByVal accept_date As String, _
-
                              ByVal wipbin As String, _
-
                              ByVal user_name As String, _
-
            ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -106,5 +94,4 @@ var ret_int = fcsfa.accept_quote("2", "11/23/97 22:00:00", "Urgent",
 Dim ret_int As Integer
 
 ret_int = fcsfa.accept_quote("2", "11/23/97 22:00:00", "Urgent", _
-
                              "marty", False)

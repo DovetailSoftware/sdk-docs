@@ -5,101 +5,54 @@ create_quote_list
 -------------------
 
 Public Function create_quote_list(ByVal quote_title As String, _
-
                                   ByVal account_id As String, _
-
                                   ByVal site_id As String, _
-
                                   ByVal opp_id As String, _
-
                                   ByVal first As String, _
-
                                   ByVal last As String, _
-
                                   ByVal phone As String, _
-
                                   ByVal status As String, _
-
                                   ByVal bill_to_site As String, _
-
                                   ByVal ship_to_site As String, _
-
                                   ByVal the_curr As String, _
-
                                   ByVal price_prog As String, _
-
                                   ByVal queue As String, _
-
                                   ByVal admin_user As String, _
-
                                   ByVal create_date As String, _
-
                                   ByVal user_name As String, _
-
                                   ByVal quote_len As Integer, _
-
                                   ByVal gen_time_bombs As Boolean, _
-
                                   ByVal int_fld1 As String, _
-
                                   ByVal int_val1 As Long, _
-
                                   ByVal int_fld2 As String, _
-
                                   ByVal int_val2 As Long, _
-
                                   ByVal str_fld1 As String, _
-
                                   ByVal str_val1 As    String, _
-
                                   ByVal str_fld2 As String, _
-
                                   ByVal str_val2 As String,
-
                                   ByVal date_fld1 As String, _
-
                                   ByVal date_val1 As String) As Integer
 
 Public Function create_quote_list(ByVal quote_title As String, _
-
                                   ByVal account_id As String, _
-
                                   ByVal site_id As String, _
-
                                   ByVal opp_id As String, _
-
                                   ByVal first As String, _
-
                                   ByVal last As String, _
-
                                   ByVal phone As String, _
-
                                   ByVal status As String, _
-
                                   ByVal bill_to_site As String, _
-
                                   ByVal ship_to_site As String, _
-
                                   ByVal the_curr As String, _
-
                                   ByVal price_prog As String, _
-
                                   ByVal queue As String, _
-
                                   ByVal admin_user As String, _
-
                                   ByVal create_date As String, _
-
                                   ByVal user_name As String, _
-
                                   ByVal quote_len As Integer, _
-
                                   ByVal gen_time_bombs As Boolean, _
-
                                   Optional fld_list As Variant, _
-
                                   Optional type_list As Variant, _
-
                                   Optional val_list As Variant) As Integer
 
 **Description**
@@ -218,7 +171,7 @@ val_list                                   Yes
 
 -17                                           Cannot find the Dispatch Activity string
 
-**Examples  **
+**Examples**
 
  Create a new quote good for 60 days. Relate it to account "AN_CUST1", site "1", and opportunity "4". Relate it to a contact, and set the status to "Need Approval". Relate the bill-to and ship-to sites to "4" and "6". Use the default currency and do not dispatch to a queue. Set the administrator to "Fred", and the user to "Marty". Set an extra string field on the contract, and one on the contr_schedule.
 
@@ -241,11 +194,8 @@ var ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4",
    Dim ret_int    As Integer
 
 ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4", _
-
                    "Test", "Customer", "222-2222", "Need Approval", "4", _
-
                    "6", "", "", "fred", "", "marty", 60, True, _
-
                    "", 0, "", 0, "x_fld", "The value", "sched:x_sched_field",
 
                    "Field on contract schedule", "", "")
@@ -303,9 +253,6 @@ type_list.AppendItem("String")
 val_list.AppendItem("Field on contract schedule")
 
 ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4", _
-
                    "Test", "Customer", "222-2222", "Need Approval", "4", _
-
                    "6", "", "", "fred", "", "marty", 60, True, _
-
        type_list, val_list)

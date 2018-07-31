@@ -2,9 +2,7 @@ delete_onsite_log
 -------------------
 
 Public Function delete_onsite_log(ByVal onsite_log_objid As Long, _
-
                   ByVal note_date As String, _
-
                   ByVal user_name As String) As Integer
 
 **Description**

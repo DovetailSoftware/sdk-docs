@@ -5,91 +5,49 @@ create_cr_list
 ----------------
 
 Public Function create_cr(ByVal part_num As String, _
-
                           ByVal mod_level As String, _
-
                           ByVal domain As String, ByVal the_title As String, _
-
         ByVal status As String, ByVal note_log As String, _
-
         ByVal cr_type As String, ByVal priority As String, _
-
                           ByVal frequency As String, _
-
                           ByVal found_on As String, ByVal op_sys As String, _
-
                           ByVal memory As String, ByVal cr_class As String, _
-
                           ByVal intro_phase As String, _
-
                           ByVal test_class As String, _
-
                           ByVal fixed_in As String, ByVal test As String, _
-
                           ByVal queue_name As String, _
-
                           ByVal user_name As String, ByVal cr_date As String, _
-
                           ByVal gen_time_bombs As Boolean, _
-
                           ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                           ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                           ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                           ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                           ByVal date_fld1 As String, ByVal date_val1 As String) _
-
                           As Integer
 
 Public Function create_cr_list(ByVal part_num As String, _
-
        ByVal mod_level As String, _
-
        ByVal domain As String, _
-
        ByVal the_title As String, _
-
        ByVal status As String, _
-
        ByVal note_log As String, _
-
        ByVal cr_type As String, _
-
        ByVal priority As String, _
-
        ByVal frequency As String, _
-
        ByVal found_on As String, _
-
        ByVal op_sys As String, _
-
        ByVal memory As String, _
-
        ByVal cr_class As String, _
-
        ByVal intro_phase As String, _
-
        ByVal test_class As String, _
-
        ByVal fixed_in As String, _
-
        ByVal test As String, _
-
        ByVal queue_name As String, _
-
        ByVal user_name As String, _
-
        ByVal cr_date As String, _
-
                                ByVal gen_time_bombs As Boolean, _
-
        Optional fld_list As Variant, _
-
                                Optional type_list As Variant, _
-
        Optional val_list As Variant) As Integer
 
 **Description**
@@ -207,7 +165,7 @@ ret_objid                                Output 
 
 ret_id_num                            Output                   Returns the id of the change request
 
-**Examples  **
+**Examples**
 
  Create a new change request. Specify the part of MS Word, revision 1.2. Use the default values for the code list, and generate a time bomb. Add notes from the file "note.txt", and dispatch to queue "High".  The second field version illustrates how to set additional fields.
 
@@ -222,17 +180,11 @@ Dim bug_id_num  As String
 Dim bug_objid   As Long
 
 ret_int = fccq.create_cr("MS Word"", "1.2", "Product", _
-
                          "CR Title", _
-
                 "", "note.txt", "", "", "", "", "", "", _
-
                 "", "", "", "", "Some tests to run", _
-
                 "High", _
-
           "", "", True, "", 0, "", 0, "", "", "", _
-
           "", "", "")
 
  If ret_int = 0 Then
@@ -278,19 +230,13 @@ Dim bug_id_num  As String
 Dim bug_objid   As Long
 
 ret_int = fccq.create_cr("MS Word"", "1.2", "Product", _
-
                          "CR Title", _
-
                 "", "note.txt", "", "", "", "", "", "", _
-
                 "", "", "", "", "Some tests to run", _
-
                 "High", _
-
           "", "", True, "x_create_1", 1, "x_create_2", 2,
 
           "x_summary2", "More text", "", "", _
-
           "x_other_date", "1/1/99")
 
  If ret_int = 0 Then
@@ -362,17 +308,11 @@ type_list.AppendItem("Date");
 val_list.AppendItem("1/1/99");
 
 ret_int = fccq.create_cr_list("MS Word", "1.2", "Product", _
-
                               "CR Title", "", "note.txt", "", _
-
                               "", "", "", _
-
                               "", "", "", "", "", "", _
-
                               "Some tests to run", _
-
                               "High", "", "", True, _
-
                               fld_list, type_list, val_list)
 
  If ret_int = 0 Then

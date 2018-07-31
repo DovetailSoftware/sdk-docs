@@ -2,13 +2,9 @@ dispatch_cr
 -----------
 
 Public Function dispatch_cr(ByVal cr_id As String, _
-
     ByVal queue_name As String, _
-
                             ByVal disp_date As String, _
-
     ByVal user_name As String, _
-
                             ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -48,7 +44,7 @@ gen_time_bombs                 Yes               
 
 -7                                             Not allowed to dispatch a CR to the specified queue
 
-**Examples  **
+**Examples**
 
  Dispatch change request number '10' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 

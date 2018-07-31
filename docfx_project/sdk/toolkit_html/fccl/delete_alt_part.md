@@ -2,11 +2,8 @@ delete_alt_part
 -----------------
 
 Public Function delete_alt_part(ByVal part_num As String, _
-
                                 ByVal rev As String, ByVal domain As String, _
-
                                 ByVal alt_part As String, ByVal alt_rev As String, _
-
                                 ByVal alt_domain As String) As Integer
 
 **Description**
@@ -57,7 +54,6 @@ alt_domain                            Yes      
 Dim ret_int As Integer
 
 ret_int = fccl.delete_alt_part("MS Word", "7.0", "Product", "WordPerfect", _
-
                               "7.0", "Product")
 
 **Javascript:**

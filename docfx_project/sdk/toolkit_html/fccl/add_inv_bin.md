@@ -2,7 +2,6 @@ add_inv_bin
 -------------
 
 Public Function add_inv_bin(ByVal bin_name As String, _
-
         ByVal loc_name As String, ByVal is_active As Boolean)
 
 **Description**

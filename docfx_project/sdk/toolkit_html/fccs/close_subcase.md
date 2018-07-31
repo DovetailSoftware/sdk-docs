@@ -5,55 +5,31 @@ close_subcase_list
 --------------------
 
 Public Function close_subcase(ByVal subcase_id As String, _
-
                               ByVal the_status As String, _
-
                               ByVal resolution_str As String, _
-
                               ByVal summary_str As String, _
-
                               ByVal user_name As String, _
-
                               ByVal close_date As String, _
-
                               ByVal gen_time_bombs As Boolean, _
-
                               ByVal int_fld1 As String, _
-
                               ByVal int_val1 As Long, ByVal int_fld2 As String, _
-
                               ByVal int_val2 As Long, ByVal str_fld1 As String, _
-
                               ByVal str_val1 As String, _
-
                               ByVal str_fld2 As String, _
-
                               ByVal str_val2 As String, _
-
                               ByVal date_fld1 As String, _
-
                               ByVal date_val1 As String) As Integer
 
 Public Function close_subcase_list(ByVal subcase_id As String, _
-
                                    ByVal the_status As String, _
-
                                    ByVal resolution_str As String, _
-
                                    ByVal summary_str As String, _
-
                                    ByVal user_name As String, _
-
                                    ByVal close_date As String, _
-
                                    ByVal units_used As Double, _
-
                                    ByVal gen_time_bombs As Boolean, _
-
                                    Optional fld_list As Variant, _
-
                                    Optional type_list As Variant, _
-
                                    Optional val_list As Variant) As Integer
 
 **Description**
@@ -127,7 +103,7 @@ val_list                                   Yes
 
 -15                                           No employee record was found for the specified user
 
-**Examples  **
+**Examples**
 
  Close subcase number 'C154-1'. Use the default status and resolution code. Add no summary text, and let the close be by the default user at the current date/time. There are no additional fields to write. Generate a time bomb.
 
@@ -144,7 +120,6 @@ var ret_int = fccs.close_subcase("C154-1", "", "", "", "", "", true, "", 0,
    Dim ret_int     As Integer
 
 ret_int = fccs.close_subcase("C154-1", "", "", "", "", "", True, "", 0, _
-
                      "", 0, "", "", "", "", "", "")
 
 **List version:**
@@ -180,13 +155,9 @@ var ret_int = fccs.close_subcase("2-1", "Closed-final", "Software Shipped",
    Dim ret_int     As Integer
 
 ret_int = fccs.close_subcase("2-1", "Closed-final", "Software Shipped", _
-
                 "Auto-close", "marty", "11/23/97 22:00:00", _
-
                 True, "x_close_int1", 1, "x_close_int2", 456, _
-
                 "x_summary2", "More text", "", "", _
-
                 "x_other_date", "1/1/99")
 
 **List version:**
@@ -266,7 +237,5 @@ type_list.AppendItem "Date"
 val_list.AppendItem "1/1/99"
 
 ret_int = fccs.close_subcase_list("2-1", "Closed-final", "Software Shipped", _
-
                 "Auto-close", "marty", "11/23/97 22:00:00", _
-
                 True, fld_list, type_list, val_list)

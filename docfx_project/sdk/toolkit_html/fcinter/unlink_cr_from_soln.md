@@ -5,13 +5,9 @@ unlink_cr_from_soln
   
 
 Public Function unlink_cr_from_soln(ByVal cr_id As String, _
-
                                     ByVal soln_id As String, _
-
                                     ByVal unlink_date As String, _
-
                                     ByVal user_name As String, _
-
                                     ByVal create_time_bomb As Boolean) As Integer
 
 **Description**

@@ -2,15 +2,10 @@ modify_svc_inter
 ------------------
 
 Public Function modify_svc_inter(ByVal appt_objid As Long, _
-
                   ByVal desc As String, ByVal start_time As String, _
-
                   ByVal end_time As String, ByVal duration As Long, _
-
                   ByVal svc_class As String, ByVal svc_type As String, _
-
                   ByVal user_name As String, ByVal creation_time As String) _
-
       As Integer
 
 **Description**
@@ -78,7 +73,7 @@ creation_time                        No         
 
 -13                                           Cannot find the 'Replace Appt' activity string with rank = 6300
 
-**Examples  **
+**Examples**
 
  Update an existing appointment. Set all the data that you can set. Change the start time and set the end time to the original end time from the appointment by using "-1".
 
@@ -87,11 +82,8 @@ creation_time                        No         
    Dim ret_int   As Integer
 
 ret_int = fcfo.modify_svc_inter(268435465, "A new description", _
-
      "12/1/98 16:00:00", "-1", 600, _
-
                                 "Appt type", "Appt subtype",  "sa", _
-
                                 "9/9/98")
 
 **JavaScript:**
@@ -111,7 +103,6 @@ var ret_int = fcfo.modify_svc_inter(268435465, "A new description",
    Dim ret_int   As Integer
 
 ret_int = fcfo.modify_svc_inter(268435465, "+for api", "", "", 0, _
-
                                 "", "", "", "")
 
 **JavaScript:**

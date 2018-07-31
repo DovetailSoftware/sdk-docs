@@ -2,21 +2,13 @@ _create_eco_dtl_
 ------------------
 
 Public Function create_eco_dtl(ByVal detail_type As String, _
-
                         ByVal required As Long, _
-
                         ByVal status As String, _
-
                         ByVal labor_type As String, _
-
                         ByVal elapsed_time As Long, _
-
                         ByVal location As String, _
-
                         ByVal description As String, _
-
                         ByVal eco_hdr_code As String, _
-
                         ByVal mod_level_objid As Long) As Integer
 
 **Description**
@@ -74,7 +66,7 @@ mod_level_objid                  Yes**            �
 
 ret_objid                                Output                   Returns the objid of the newly created ECO Detail
 
-**Examples  **
+**Examples**
 
  Create a labor ECO detail attached to ECO "8". The estimated time is 10 minutes (600 seconds).
 

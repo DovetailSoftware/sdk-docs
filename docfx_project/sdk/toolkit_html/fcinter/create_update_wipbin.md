@@ -2,13 +2,9 @@ create_update_wipbin
 ----------------------
 
 Public Function create_update_wipbin(ByVal title As String, _
-
                                      ByVal new_title As String, _
-
                                      ByVal description As String, _
-
                                      ByVal user_name As String,_
-
                                      ByVal def_bin As Boolean) As Integer
 
 **Description**
@@ -63,7 +59,6 @@ Dim ret_int      As Integer
 Dim wipbin_objid As Long
 
 ret_int = fcinter.create_update_wipbin("Important", "",_
-
                                        "A description.", "gary", true)
 
  If ret_int = 0 Then
@@ -87,7 +82,6 @@ var ret_int = fcinter.create_update_wipbin("Important", "",
 Dim ret_int    As Integer
 
 ret_int = fcinter.create_update_wipbin("Important", "Important Issues", _
-
             "CLEAR", "", false)
 
 **Javascript:**

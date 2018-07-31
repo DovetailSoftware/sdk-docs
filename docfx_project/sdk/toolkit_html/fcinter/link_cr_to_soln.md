@@ -2,13 +2,9 @@ link_cr_to_soln
 -----------------
 
 Public Function link_cr_to_soln(ByVal cr_id As String, _
-
                                 ByVal soln_id As String, _
-
                                 ByVal link_date As String, _
-
                                 ByVal user_name As String, _
-
                                 ByVal create_time_bomb As Boolean) As Integer
 
 **Description**

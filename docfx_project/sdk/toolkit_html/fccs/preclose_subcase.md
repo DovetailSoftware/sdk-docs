@@ -38,7 +38,7 @@ The results of the API are returned in the string _ret_id_num_. The values are s
 * 5. Captured non-billable expenses
 * 6. Captured billable expenses
 
-**Examples  **
+**Examples**
 
  Preclose subcase number 'C154-1'. Get the value for the captured phone logs, and for the captured billable expenses.
 

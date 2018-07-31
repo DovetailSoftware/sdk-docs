@@ -1,17 +1,11 @@
-  
-
 yank_cr
 -------
 
 Public Function yank_cr(ByVal cr_id As String, _
-
-ByVal wipbin As String, _
-
-                        ByVal yank_date As String, _
-
-ByVal user_name As String, _
-
-                        ByVal gen_time_bombs As Boolean) As Integer
+			ByVal wipbin As String, _
+            ByVal yank_date As String, _
+			ByVal user_name As String, _
+            ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
 
@@ -52,7 +46,7 @@ gen_time_bombs                 Yes               
 
 -5                                             Cannot find gbst_elm rank 4100 for string YANKED
 
-**Examples  **
+**Examples**
 
  Yank change request number '10' by the current user at the current date/time. Place in the default WIPBin and generate a time bomb.
 
@@ -73,7 +67,6 @@ var ret_int = fccq.yank_cr("10", "", "", "", true);
 Dim ret_int As Integer
 
 ret_int = fccq.yank_cr("2", "Urgent", "11/23/97 22:00:00", _
-
                        "dave", False)
 
 **Javascript:**

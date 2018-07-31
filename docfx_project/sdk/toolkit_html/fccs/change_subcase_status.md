@@ -2,15 +2,10 @@ change_subcase_status
 -----------------------
 
 Public Function change_subcase_status(ByVal subcase_id As String, _
-
                                       ByVal new_status As String, _
-
                                       ByVal change_date As String, _
-
                                       ByVal note_str As String, _
-
                                       ByVal user_name As String, _
-
                                       ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -52,7 +47,7 @@ defined for the current object's condition)
 
 -4                                             Cannot find the CHANGE STATUS activity string
 
-**Examples  **
+**Examples**
 
  Change status for subcase number 'C154-1' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
 
@@ -79,5 +74,4 @@ var ret_int = fccs.change_subcase_status("2-2", "Solved", "11/23/97 22:00:00",
 Dim ret_int As Integer
 
 ret_int = fccs.change_subcase_status("2-2", "Solved", "11/23/97 22:00:00", _
-
                                      "Some notes", "dave", False)

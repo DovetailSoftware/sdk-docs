@@ -2,13 +2,9 @@ check_cq_trans
 ----------------
 
 Public Function check_cq_trans(ByVal old_cond As String, _
-
        ByVal old_stat As String, _
-
                                ByVal new_cond As String, _
-
        ByVal new_stat As String, _
-
                                ByVal user_name As String) As Integer
 
 **Description**
@@ -44,7 +40,7 @@ user_name                             Yes     �
 
 -12                                           New status not found for new condition
 
-**Examples  **
+**Examples**
 
  Check if Sam can transition from "In research" in "Open" condition to "Fixed" status in the "Fixed" condition.
 
@@ -53,7 +49,6 @@ user_name                             Yes     �
 Dim ret_int As Integer
 
 ret_int = fccq.check_cq_trans("Open", "In research", "Fixed", _
-
                               "Fixed", "sam")
 
 **JavaScript:**

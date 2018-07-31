@@ -2,9 +2,7 @@ get_alt_parts
 ---------------
 
 Public Function get_alt_parts(ByVal part_num As String, _
-
                               ByVal domain_name As String, ByVal mod_level As String) _
-
                               As Integer
 
 **Description**
@@ -38,7 +36,7 @@ mod_level                              Yes    �
 
 ret_string                               Output                   Returns a pipe delimited list of alternate parts found
 
-**Examples  **
+**Examples**
 
  Get the alternate parts for MS Word 7.0:
 

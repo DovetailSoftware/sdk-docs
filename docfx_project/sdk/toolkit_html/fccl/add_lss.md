@@ -2,9 +2,7 @@ add_lss
 -------
 
 Public Function add_lss(ByVal site_id As String, _
-
                         ByVal loc_name As String, ByVal is_active As Boolean, _
-
                         ByVal loc_rank As Integer) As Integer
 
 **Description**

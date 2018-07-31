@@ -2,11 +2,8 @@ assign_pr
 ---------
 
 Public Function assign_pr(ByVal pr_id As String, _
-
                           ByVal new_user As String, ByVal wipbin_name As String, _
-
                           ByVal assign_date As String, ByVal user_name As String, _
-
                           ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -26,9 +23,7 @@ wipbin_name                        No          
 
 the part request). If left blank, it is placed in the user's default WIPBin
 
-assign_date                          No                           When was the part request assigned. If this parameter is left blank, it
-
-is assigned at the current time
+assign_date                          No                           When was the part request assigned. If this parameter is left blank, it is assigned at the current time
 
 user_name                             No                           The user who assigned the part request. If left blank, the current
 
@@ -54,7 +49,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Could not find gbst_elm string for ASSIGN with rank 10500
 
-**Examples  **
+**Examples**
 
  Assign part request number '154-1' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
@@ -77,7 +72,6 @@ WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't genera
 Dim ret_int As Integer
 
 ret_int = fccl.assign_pr("2-4", "marty", "Urgent", "11/23/01 22:00:00", _
-
                         "sam", False)
 
 **Javascript:**

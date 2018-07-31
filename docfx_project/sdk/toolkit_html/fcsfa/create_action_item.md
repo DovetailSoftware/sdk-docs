@@ -4,102 +4,55 @@ create_action_item
 create_action_item_list
 -------------------------
 
-Public Function create_action_item(ByVal title As String,
-
+Public Function create_action_item(ByVal title As String, _
                                    ByVal notes As String, _
-
                                    ByVal first_name As String, _
-
                                    ByVal last_name As String, _
-
                                    ByVal phone As String, _
-
                                    ByVal acct_name As String, _
-
                                    ByVal lead_first As String, _
-
                                    ByVal lead_last As String, _
-
                                    ByVal opp_id As String, _
-
                                    ByVal the_type As String, _
-
                                    ByVal priority As String, _
-
                                    ByVal start_date As String, _
-
                                    ByVal due_date As String, _
-
                                    ByVal complete_date As String, _
-
                                    ByVal status As String, _
-
                                    ByVal create_date As String, _
-
                                    ByVal user_name As String, _
-
                                    ByVal gen_time_bombs As Boolean, _
-
                                    ByVal int_fld1 As String, _
-
                                    ByVal int_val1 As Long, _
-
                                    ByVal int_fld2 As String, _
-
                                    ByVal int_val2 As Long, _
-
                                    ByVal str_fld1 As String, _
-
                                    ByVal str_val1 As String, _
-
                                    ByVal str_fld2 As String, _
-
                                    ByVal str_val2 As String, _
-
                                    ByVal date_fld1 As String, _
-
                                    ByVal date_val1 As String) As Integer
 
 Public Function create_action_item_list(ByVal title As String, _
-
                                         ByVal notes As String, _
-
                                         ByVal first_name As String, _
-
                                         ByVal last_name As String, _
-
                                         ByVal phone As String, _
-
                                         ByVal acct_name As String, _
-
                                         ByVal lead_first As String, _
-
                                         ByVal lead_last As String, _
-
                                         ByVal opp_id As String, _
-
                                         ByVal the_type As String, _
-
                                         ByVal priority As String, _
-
                                         ByVal start_date As String, _
-
                                    ByVal due_date As String, _
-
                                         ByVal complete_date As String, _
-
                                         ByVal status As String, _
-
                                         ByVal create_date As String, _
-
                                         ByVal user_name As String, _
-
                                         ByVal gen_time_bombs As Boolean, _
-
                                         Optional fld_list As Variant, _
-
                                         Optional type_list As Variant, _
-
                                         Optional val_list As Variant) As Integer
 
 **Description**
@@ -210,7 +163,7 @@ but does not need to have any items in the list
 
 -11                                           The employee record for the specified user could not be found
 
-**Examples  **
+**Examples**
 
  Create a new action item. Give a title and notes for the action item. The contact is 'Bill Gates'. The account is 'Microsoft.' A status, type, and priority are given. Create the action item on Janurary 1st, set to start on January 2nd, and to expire at the end of the month. Generate time bombs, and set a user-defined field.
 
@@ -233,13 +186,9 @@ var ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill",
    Dim ret_int    As Integer
 
 ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill", _
-
             "Gates", "206-555-1212", "Microsoft", "", "", "", _
-
    "Fax", "High", "1/2/00", "1/30/00", "Not Started", _
-
    "1/1/00", "", True, "", 0, "", 0, "x_str1", _
-
    "A value", "", "", "", "")
 
 **List version:**
@@ -307,9 +256,6 @@ type_list.AppendItem("String")
 val_list.AppendItem("More text")
 
 ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill", _
-
             "Gates", "206-555-1212", "Microsoft", "", "", "", _
-
    "Fax", "High", "1/2/00", "1/30/00", "Not Started", _
-
    "1/1/00", "", True, fld_list, type_list, val_list)

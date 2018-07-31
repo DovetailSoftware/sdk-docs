@@ -5,89 +5,49 @@ create_update_part_list
 -------------------------
 
 Public Function create_update_part(ByVal part_num As String, _
-
                                    ByVal domain As String, _
-
                                    ByVal notes As String, ByVal desc As String, _
-
                                    ByVal model_num As String, _
-
                                    ByVal warr_days As Long, _
-
                                    ByVal start_on_ship As Boolean, _
-
                                    ByVal unit_measure As String, _
-
                                    ByVal family As String, _
-
                                    ByVal the_line As String, _
-
                                    ByVal repair_type As String, _
-
                                    ByVal part_type As String, _
-
                                    ByVal weight As String, _
-
                                    ByVal dimension As String, _
-
                                    ByVal class As String, _
-
                                    ByVal int_fld1 As String, _
-
                                    ByVal int_val1 As Long, _
-
                                    ByVal int_fld2 As String, _
-
                                    ByVal int_val2 As Long, _
-
                                    ByVal str_fld1 As String, _
-
                                    ByVal str_val1 As String, _
-
                                    ByVal str_fld2 As String, _
-
                                    ByVal str_val2 As String, _
-
                                    ByVal date_fld1 As String, _
-
                                    ByVal date_val1 As String) As Integer
 
 Public Function create_update_part_list(ByVal part_num As String, _
-
                                         ByVal domain As String, _
-
                                         ByVal notes As String, _
-
                                         ByVal desc As String, _
-
                                         ByVal model_num As String, _
-
                                         ByVal warr_days As Long, _
-
                                         ByVal start_on_ship As Boolean, _
-
                                         ByVal unit_measure As String, _
-
                                         ByVal family As String, _
-
                                         ByVal the_line As String, _
-
                                         ByVal repair_type As String, _
-
                                         ByVal part_type As String, _
-
                                         ByVal weight As String, _
-
                                         ByVal dimension As String, _
-
                                         ByVal class As String, _
-
                                         Optional fld_list As Variant, _
-
                                         Optional type_list As Variant,
 
                                         Optional val_list As Variant), _
-
                                         As Integer
 
 **Description**
@@ -194,23 +154,14 @@ Dim ret_int    As Integer
 Dim part_objid As Long
 
 ret_int = fcinter.create_update_part("Attachments Anywhere", _
-
                                      "Product", _
-
                                      "Some notes", _
-
                                      "A good product description",_
-
                                      "Model 42", _
-
                                      30, true, "Each", "Software", _
-
                                      "Workflow Series", _
-
                                      "Expendable", "Software", "2.3", _
-
                                      "2x2x3", "", "", 0, _
-
                                      "", 0, "", "", "", "","","")
 
  If ret_int = 0 Then

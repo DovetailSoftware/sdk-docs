@@ -11,83 +11,47 @@ make_pr_header_subcase_list
 -------------------------------
 
 Public Function make_pr_header(ByVal first_name As String, _
-
                                ByVal last_name As String, ByVal phone_num As String, _
-
                                ByVal ship_site_id As String, ByVal bill_site_id As String, _
-
                                ByVal case_id As String, ByVal pay_method As String, _
-
                                ByVal pay_terms As String, ByVal priority_str As String, _
-
                                ByVal user_name As String, ByVal note_str As String, _
-
                                ByVal create_date As String, ByVal contract_objid As Long, _
-
                                ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                                ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                                ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                                ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                                ByVal date_fld1 As String, ByVal date_val1 As String) _
-
                                As Integer
 
 Public Function make_pr_header_list(ByVal first_name As String, _
-
                                ByVal last_name As String, ByVal phone_num As String, _
-
                                ByVal ship_site_id As String, ByVal bill_site_id As String, _
-
                                ByVal case_id As String, ByVal pay_method As String, _
-
                                ByVal pay_terms As String, ByVal priority_str As String, _
-
                                ByVal user_name As String, ByVal note_str As String, _
-
                                ByVal create_date As String, ByVal contract_objid As Long, _
-
                                Optional fld_list As Variant, Optional type_list As Variant, _
-
                                Optional val_list As Variant) As Integer
 
 Public Function make_pr_header_case_list(ByVal first_name As String, _
-
                                ByVal last_name As String, ByVal phone_num As String, _
-
                                ByVal ship_site_id As String, ByVal bill_site_id As String, _
-
                                ByVal case_id As String, ByVal pay_method As String, _
-
                                ByVal pay_terms As String, ByVal priority_str As String, _
-
                                ByVal user_name As String, ByVal note_str As String, _
-
                                ByVal create_date As String, ByVal contract_objid As Long, _
-
                                Optional fld_list As Variant, Optional type_list As Variant, _
-
                                Optional val_list As Variant) As Integer
 
 Public Function make_pr_header_subcase_list(ByVal first_name As String, _
-
                                ByVal last_name As String, ByVal phone_num As String, _
-
                                ByVal ship_site_id As String, ByVal bill_site_id As String, _
-
                                ByVal case_id As String, ByVal pay_method As String, _
-
                                ByVal pay_terms As String, ByVal priority_str As String, _
-
                                ByVal user_name As String, ByVal note_str As String, _
-
                                ByVal create_date As String, ByVal contract_objid As Long, _
-
                                Optional fld_list As Variant, Optional type_list As Variant, _
-
                                Optional val_list As Variant) As Integer
 
 **Description**
@@ -183,7 +147,7 @@ str_val1, str_val2, date_val1                         �
 
 ret_id_num                            Output                   Returns the header id of the newly created part request
 
-**Examples  **
+**Examples**
 
  Create a new part request header. Specify the site of 'First Choice', and contact of Jack Lacy. Also, generate a time bomb. All other information is defaulted.
 
@@ -196,9 +160,7 @@ Dim ret_int   As Integer
 Dim hdr_num   As String
 
 ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905", _
-
                               "First Choice", "", "", "", "", "", "", _
-
                               "", "", 0, "", 0, "", 0, "", "", "", "", "", "")
 
 If ret_int = 0 Then
@@ -238,9 +200,7 @@ type_list.ItemType = "String"
 val_list.ItemType = "String"
 
 ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905", _
-
                                    "First Choice", "", "", "", "", "", "", _
-
                                    "", "", 0, fld_list, type_list, val_list)
 
 If ret_int = 0 Then
@@ -278,11 +238,8 @@ Dim hdr_num   As String
 Dim err       As String
 
 ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905", "First Choice", _
-
                              "site2", "Case42", "Check", "Net 10", "Priority 1", "sa", _
-
                              "notes", "11/11/01", 0, "x_int1", 20, "", 0, "x_str1", _
-
                              "Value 1", "", "", "", "")
 
 If ret_int = 0 Then
@@ -320,11 +277,8 @@ Dim val_list    As New List
  ' Assume lists are filled in already
 
 ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905", _
-
                                   "First Choice", "site2", "Case42", "Check", _
-
                                   "Net 10", "Priority 1", "sa", "notes", _
-
                                   "11/11/2001", 0, fld_list, type_list, val_list)
 
 If ret_int = 0 Then

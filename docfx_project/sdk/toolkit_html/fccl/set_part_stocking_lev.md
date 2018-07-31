@@ -2,15 +2,10 @@ set_part_stocking_lev
 -----------------------
 
 Public Function set_part_stocking_lev(ByVal bin_name As String, _
-
                            ByVal location_name As String, ByVal queue_name As String, _
-
                            ByVal part_number As String, ByVal mod_level As String, _
-
                            ByVal domain_name As String, ByVal part_minimum As Integer, _
-
                            ByVal part_maximum As Integer, ByVal part_rol As Integer, _
-
                            ByVal part_roq As Integer, ByVal is_active As Boolean) As Integer
 
 **Description**
@@ -78,7 +73,7 @@ is_active                                   �
 
 ret_objid                                Output                   Returns the objid of the \[newly created\] part stocking location
 
-**Examples  **
+**Examples**
 
  Set a reorder for Bin 2 in Austin for the "CD Rom" part. Set levels and dispatch queue to "High".
 
@@ -87,7 +82,6 @@ ret_objid                                Output 
 Dim ret_int As Integer
 
 ret_int = fccl.set_part_stocking_lev("Bin 2", "Austin", "High", "CD Rom", "", _
-
                                          "Quantity", 2, 100, 10, 20, True)
 
 **Javascript:**

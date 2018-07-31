@@ -2,31 +2,18 @@ _create_dr_mtl_
 -----------------
 
 Public Function create_dr_mtl(ByVal demand_dtl_objid As Long, _
-
                          ByVal repair_code As String, _
-
                          ByVal failure_code As String, _
-
                          ByVal mod_level As Long, _
-
                          ByVal billable As Integer, _
-
                          ByVal bill_to As String, _
-
                          ByVal wrk_center As String, _
-
                          ByVal disposition As Integer, _
-
                          ByVal ref_designator As String, _
-
                          ByVal notes As String, _
-
                          ByVal transaction_id As String, _
-
                          ByVal perf_by As String, _
-
                          ByVal creation_time As String _
-
                          ) As Integer
 
 **Description**
@@ -88,7 +75,7 @@ different time is not supplied.
 
 ret_objid                                Output                   Returns the objid of the newly created material log record
 
-**Examples  **
+**Examples**
 
  Apply usage of Part 268435465 against Part Repair 268435466. The job was done by user "db", billable to the customer. All other defaults are used.
 

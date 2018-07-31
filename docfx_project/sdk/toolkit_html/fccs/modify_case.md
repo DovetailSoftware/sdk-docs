@@ -5,45 +5,26 @@ modify_case_list
 ------------------
 
 Public Function modify_case(ByVal case_id As String, _
-
                 ByVal priority_str As String, ByVal severity_str As String, _
-
                 ByVal case_type As String, ByVal user_name As String, _
-
                 ByVal mod_date As String, ByVal only_owner As Boolean, _
-
                 ByVal gen_time_bombs As Boolean, _
-
                 ByVal the_title As String, ByVal ml_obj As Long, _
-
                 ByVal sp_obj As Long, ByVal contr_obj As Long, _
-
                 ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                 ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function modify_case_list(ByVal case_id As String, _
-
                 ByVal priority_str As String, ByVal severity_str As String, _
-
                 ByVal case_type As String, ByVal user_name As String, _
-
                 ByVal mod_date As String, ByVal only_owner As Boolean, _
-
                 ByVal gen_time_bombs As Boolean, _
-
                 ByVal the_title As String, ByVal ml_obj As Long, _
-
                 ByVal sp_obj As Long, ByVal contr_obj As Long, _
-
                 Optional fld_list As Variant, Optional type_list As Variant, _
-
                 Optional val_list As Variant) As Integer
 
 **Description**
@@ -65,25 +46,15 @@ severity_str                           No      �
 
 case_type                              No                           The new case_type for the case. If left blank, no change is made
 
-user_name                             No                           The user who modified the case. If left blank, the current user performs
+user_name                             No                           The user who modified the case. If left blank, the current user performs the modify
 
-the modify
+the_title                                 No                           The case title. If empty (""), no change is made. To clear the title field, use the string "CLEARFIELD."
 
-the_title                                 No                           The case title. If empty (""), no change is made. To clear the title field, use
+ml_obj                                    No                           Objid of the mod_level (part revision) related to the case. If 0 is used, no change is made. If set to -999, the relation is cleared (set to NULL).
 
-the string "CLEARFIELD."
+sp_obj                                    No                           Objid of the site_part related to the case. If 0 is used, no change is made. If set to -999, the relation is cleared (set to NULL).
 
-ml_obj                                    No                           Objid of the mod_level (part revision) related to the case. If 0 is used, no
-
-change is made. If set to �999, the relation is cleared (set to NULL).
-
-sp_obj                                    No                           Objid of the site_part related to the case. If 0 is used, no
-
-change is made. If set to �999, the relation is cleared (set to NULL).
-
-contr_obj                               No                           Objid of the contract related to the case. If 0 is used, no
-
-change is made. If set to �999, the relation is cleared (set to NULL).
+contr_obj                               No                           Objid of the contract related to the case. If 0 is used, no change is made. If set to -999, the relation is cleared (set to NULL).
 
 mod_date                              No                           The date/time the case was modified. If left blank, current date/time is used
 
@@ -103,17 +74,11 @@ str_val1, str_val2                               
 
 date_val1
 
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
+fld_list                                    Yes                         List of additional field names to write. List must be present, but does not need to have any items in the list
 
-                                                                                need to have any items in the list
+type_list                                                Yes                         List of additional field data types to write. List must be present, but does not need to have any items in the list
 
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+val_list                                   Yes                         List of additional field values to write. List must be present, but does not need to have any items in the list
 
 **Returns**
 
@@ -141,7 +106,7 @@ val_list                                   Yes
 
 True
 
-**Examples  **
+**Examples**
 
  Modify case 'C154'. Change the priority, but nothing else. Do not write any other fields. Any user can make the change. Also, generate a time bomb. All other information is defaulted.
 
@@ -158,7 +123,6 @@ var ret_int = fccs.modify_case("C154", "High", "", "", "", "", 0, 0, 0,
    Dim ret_int   As Integer
 
 ret_int = fccs.modify_case("C154", "High", "", "", "", "", 0, 0, 0, _
-
                       "", False, True, "", 0, "", 0, "", "", "", "", "", "")
 
 **List version:**
@@ -174,7 +138,6 @@ var ret_int = fccs.modify_case_list("C154", "High", "", "", "", "",
    Dim ret_int     As Integer
 
 ret_int = fccs.modify_case_list("C154", "High", "", "", "", "", _
-
                    0, 0, 0, "", False, True)
 
  Modify case '2'. It is modified on November 23, 1997 at 10PM by marty. Make sure that marty is the owner of the case to modify it. The severity is 'Low' and the case type is set to 'Question'. The title is changed, and the contract is set, and the mod_level and site_part are cleared. There are no time bombs generated, and some additional fields are also filled in.
@@ -200,15 +163,10 @@ var ret_int = fccs.modify_case("2", "", "Low", "Question", "marty",
    Dim ret_int   As Integer
 
 ret_int = fccs.modify_case("2", "", "Low", "Question", "marty", _
-
                       "New title", -999, -999, 268435458, _
-
                       "11/23/97 22:00:00", True, False, _
-
                       "x_close_int1", 1, "x_close_int2", _
-
                       456, "x_summary2", "More text", "", "", _
-
                          "x_other_date", "1/1/99")
 
 **List version:**
@@ -288,9 +246,6 @@ type_list.AppendItem "Date"
 val_list.AppendItem "1/1/99"
 
 ret_int = fccs.modify_case_list("2", "", "Low", "Question", "marty", _
-
                            "New title", -999, -999, 268435458, _
-
                            "11/23/97 22:00:00", True, False, _
-
                            fld_list, type_list, val_list)

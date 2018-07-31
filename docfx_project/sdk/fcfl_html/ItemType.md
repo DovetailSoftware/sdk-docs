@@ -37,7 +37,7 @@ variant                                    Li
 
 0 Cannot set property - invalid type.
 
-1 Cannot set property � already set.
+1 Cannot set property - already set.
 
 **Example**
 

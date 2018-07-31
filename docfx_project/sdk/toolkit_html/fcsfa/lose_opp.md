@@ -2,15 +2,10 @@ lose_opp
 --------
 
 Public Function lose_opp(opp_id As String, _
-
                          new_status As String, _
-
                          the_note As String, _
-
                          user_name As String, _
-
                          change_date As String, _
-
                          gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -54,7 +49,7 @@ gen_time_bombs                 Yes               
 
 0                                              No errors
 
--1                                             An invalid condition was supplied (internal error � should not ever occur)
+-1                                             An invalid condition was supplied (internal error - should not ever occur)
 
 -2                                             The opportunity specified cannot be found
 
@@ -70,7 +65,7 @@ gen_time_bombs                 Yes               
 
 -8                                             Cannot find the activity code for the status change event
 
-**Examples  **
+**Examples**
 
  Mark opportunity '44' as lost. Add some notes, and the change occurs now and is performed by the current user. Assume that we'll use the default status. Generate a time bomb.
 
@@ -97,5 +92,4 @@ var ret_int = fcsfa.lose_opp("42", "Another status", "Some notes!!",
 Dim ret_int As Integer
 
 ret_int = fcsfa.lose_opp("42", "Another status", "Some notes!!", _
-
                          "dave", "11/23/97 22:00:00", False)

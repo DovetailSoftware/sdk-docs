@@ -2,13 +2,9 @@ dispatch_solution
 -----------------
 
 Public Function dispatch_solution(ByVal solution_id As String, _
-
                                   ByVal queue_name As String, _
-
                                   ByVal disp_date As String, _
-
                                   ByVal user_name As String, _
-
                                   ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -52,7 +48,7 @@ gen_time_bombs                 Yes               
 
 -7                                             The specified queue does not allow dispatches of solutions
 
-**Examples  **
+**Examples**
 
  Dispatch solution number '14' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
@@ -61,7 +57,6 @@ gen_time_bombs                 Yes               
 Dim ret_int As Integer
 
 ret_int = fcinter.dispatch_solution("14", "Hardware", _
-
                                      "", "", true)
 
 **Javascript:**
@@ -77,9 +72,7 @@ var ret_int = fcinter.dispatch_solution("14", "Hardware",
 Dim ret_int As Integer
 
 ret_int = fcinter.dispatch_solution("2", "Software", _
-
                                     "11/23/97 22:00:00", _
-
                                     "nancy", false)
 
 **Javascript:**

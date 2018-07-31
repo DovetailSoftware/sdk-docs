@@ -2,9 +2,7 @@ delete_appt
 -----------
 
 Public Function delete_appt(ByVal appt_objid As Long, _
-
       ByVal user_name As String, _
-
 ByVal creation_time As String) As Integer
 
 **Description**

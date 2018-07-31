@@ -2,13 +2,9 @@ dispatch_subcase
 ----------------
 
 Public Function dispatch_subcase(ByVal subcase_id As String, _
-
                                  ByVal queue_name As String, _
-
                                  ByVal disp_date As String, _
-
                                  ByVal user_name As String, _
-
                                  ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -22,9 +18,7 @@ subcase_id                            Yes      
 
 queue_name                         Yes                         The queue to dispatch to
 
-disp_date                              No                           When was the subcase dispatched. If this parameter is left blank, the subcase
-
-is dispatched at the current time
+disp_date                              No                           When was the subcase dispatched. If this parameter is left blank, the subcase is dispatched at the current time
 
 user_name                             No                           The user who dispatched the subcase. If left blank, the current user performs
 
@@ -54,7 +48,7 @@ gen_time_bombs                 Yes               
 
 -8                                             Cannot find the employee record for the designated user
 
-**Examples  **
+**Examples**
 
  Dispatch subcase number 'C154-1' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
@@ -81,5 +75,4 @@ var ret_int = fccs.dispatch_subcase("2-2", "Software",
 Dim ret_int As Integer
 
 ret_int = fccs.dispatch_subcase("2-2", "Software", "11/23/97 22:00:00", _
-
                                 "dave", False)

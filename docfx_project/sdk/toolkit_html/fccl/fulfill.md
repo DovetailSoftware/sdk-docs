@@ -5,43 +5,25 @@ fulfill_no_trans
 ------------------
 
 Public Function fulfill(ByVal dtl_num As String, _
-
                         ByVal is_fulfill As Boolean, ByVal quantity_num As Integer, _
-
                         ByVal from_loc As String, ByVal from_bin As String, _
-
                         ByVal from_cont As String, ByVal from_good As Boolean, _
-
                         ByVal to_loc As String, ByVal to_bin As String, _
-
                         ByVal to_cont As String, ByVal to_good As Boolean, _
-
                         ByVal serial_num As String, ByVal new_status As String, _
-
                         ByVal expected_date As String, ByVal user_name As String, _
-
                         ByVal fulfill_date As String, ByVal gen_time_bombs As Boolean) _
-
                         As Integer
 
 Public Function fulfill_no_trans(ByVal dtl_num As String, _
-
                         ByVal is_fulfill As Boolean, ByVal quantity_num As Integer, _
-
                         ByVal from_loc As String, ByVal from_bin As String, _
-
                         ByVal from_cont As String, ByVal from_good As Boolean, _
-
                         ByVal to_loc As String, ByVal to_bin As String, _
-
                         ByVal to_cont As String, ByVal to_good As Boolean, _
-
                         ByVal serial_num As String, ByVal new_status As String, _
-
                         ByVal expected_date As String, ByVal user_name As String, _
-
                         ByVal fulfill_date As String, ByVal gen_time_bombs As Boolean) _
-
                         As Integer
 
 **Description**
@@ -75,11 +57,7 @@ quantity_num                       Yes          
 
 from_loc                                No                           The inventory location to fulfill from
 
-from_bin                                No                           The inventory bin to fulfill from. If from a container, put the container name
-
-in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in
-
-this field
+from_bin                                No                           The inventory bin to fulfill from. If from a container, put the container name in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field
 
 from_cont                              No                           If transferring from a container, put the container number in this field
 
@@ -87,27 +65,15 @@ from_good                            No       
 
 to_loc                                     No                           The inventory location to fulfill to
 
-to_bin                                    No                           The inventory bin to fulfill to. If to a container, put the container name
-
-in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in
-
-this field
+to_bin                                    No                           The inventory bin to fulfill to. If to a container, put the container name in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field
 
 to_cont                                  No                           If transferring to a container, put the container number in this field
 
 to_good                                 No                           Is the inventory fulfilled to good (= True) or bad ( = False)
 
-serial_num                             No                           Optional serial number. If specified, it will be used. Otherwise, the serial
+serial_num                             No                           Optional serial number. If specified, it will be used. Otherwise, the serial number is taken from the part request. If you want to specify multiple serialized parts to fulfill at one time, separate the serial numbers with a pipe character
 
-number is taken from the part request. If you want to specify multiple
-
-serialized parts to fulfill at one time, separate the serial numbers with a
-
-pipe character
-
-new_status                           No                           The new status of the part request. If blank, default status of the new
-
-                                                                                condition (Fulfilled or Backordered) will be used
+new_status                           No                           The new status of the part request. If blank, default status of the new condition (Fulfilled or Backordered) will be used
 
 expected_date                      No                           For backorders, when is the inventory expected?
 
@@ -115,9 +81,7 @@ user_name                             No      
 
 performs the fulfill.
 
-fulfill_date                             No                           When was the part request fulfilled. If this parameter is left blank, the PR
-
-is fulfilled at the current time
+fulfill_date                             No                           When was the part request fulfilled. If this parameter is left blank, the PR is fulfilled at the current time
 
 gen_time_bombs                 Yes                         Should a time_bomb be generated
 
@@ -135,9 +99,7 @@ gen_time_bombs                 Yes               
 
 -4                                             There are no units that need to be fulfilled for the part request
 
--5                                             No transition exists between current condition and
-
-condition Fulfilled/Backordered
+-5                                             No transition exists between current condition and condition Fulfilled/Backordered
 
 -6                                             User's privclass does not allow to transition between
 
@@ -159,9 +121,7 @@ part request's condition and condition Fulfilled/Backordered
 
 -14                                           The part request is currently dispatched to a queue
 
--15                                           A serial number was specified, but it is for a part instance that is a different part or revision
-
-than the part for the part request
+-15                                           A serial number was specified, but it is for a part instance that is a different part or revision than the part for the part request
 
 -16                                           The "from" container is sealed
 
@@ -219,9 +179,9 @@ than the part for the part request
 
 -221                                         The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created.
 
-**Note:** Any other error codes between -200 and �299 are from part transfer. Add 200 to the error code, and check the error code in the part transfer section of this document.
+**Note:** Any other error codes between -200 and -299 are from part transfer. Add 200 to the error code, and check the error code in the part transfer section of this document.
 
-**Examples  **
+**Examples**
 
  Fulfill 3 units of inventory for part request number '1-14' from Austin's Container 44 (name of Fred) to Expense GL "EXPGL. All inventory is good. Go to status "Fulfilled OK!". The fulfill is performed by Dan on January 1, 2001. Generate time bombs.
 
@@ -230,9 +190,7 @@ than the part for the part request
 Dim ret_int As Integer
 
 ret_int = fccl.fulfill("1-14", True, 3, "Austin", "Fred", "44", True, _
-
 "EXPGL", "", "", True, "", "Fulfilled OK!", "", "dan", _
-
 "1/1/2001", True)
 
 **Javascript:**
@@ -250,9 +208,7 @@ var ret_int = fccl.fulfill("1-14", true, 3, "Austin", "Fred", "44", true,
 Dim ret_int As Integer
 
 ret_int = fccl.fulfill("1-14", True, 3, "Austin", "Fred", "44", True, _
-
                        "San Jose", "PRIM_BIN_LOC", "", True, "", _
-
                        "Fulfilled OK!", "", "dan", "1/1/2001", True)
 
 **Javascript:**
@@ -270,7 +226,6 @@ var ret_int = fccl.fulfill("1-14", true, 3, "Austin", "Fred", "44", true,
 Dim ret_int As Integer
 
 ret_int = fccl.fulfill("2-1", False, 4, "", "", "", True, "", "", _
-
                        "", True, "", "", "11/15/2001", "", "", False)
 
 **Javascript:**

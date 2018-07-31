@@ -2,15 +2,10 @@ reject_solution
 ---------------
 
 Public Function reject_solution(ByVal solution_id As String, _
-
                                 ByVal reject_date As String, _
-
                                 ByVal wipbin As String, _
-
                                 ByVal notes As String, _
-
                                 ByVal user_name As String, _
-
                                 ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -52,7 +47,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Cannot find activity string REJECT with rank equal to 2600
 
-**Examples  **
+**Examples**
 
  Reject solution number '14' to WIPBin 'Hardware'.  The reject occurs on August 1, 1998, and is performed by Marty. Generate a time bomb.
 
@@ -61,7 +56,6 @@ gen_time_bombs                 Yes               
 Dim ret_int As Integer
 
 ret_int = fcinter.reject_solution("14", "8/1/98", "Hardware", _
-
                                   "Some notes", "marty", true)
 
 **Javascript:**

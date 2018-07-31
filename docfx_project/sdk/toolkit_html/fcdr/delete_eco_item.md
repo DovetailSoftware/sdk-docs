@@ -20,7 +20,7 @@ eco_item_objid                     Yes           
 
 -1                                             Specified ECO Item is not in database
 
-**Examples  **
+**Examples**
 
  Delete ECO Item 268435463.
 

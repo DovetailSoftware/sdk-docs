@@ -5,85 +5,46 @@ modify _sp_list
 -----------------
 
 Public Function modify_sp(ByVal sp_objid As Long, _
-
                           ByVal instance_name As String, _
-
                           ByVal serial_num As String, _
-
                           ByVal invoice_no As String, _
-
                           ByVal ship_date As String, _
-
                           ByVal install_date As String, _
-
                           ByVal warranty_date As String, _
-
                           ByVal quantity As Long, _
-
                           ByVal part_status As String, _
-
                           ByVal comments As String, _
-
                           ByVal service_end_dt As String, _
-
                           ByVal user_name As String, _
-
                           ByVal mod_level As String, _
-
                           ByVal add_activity As Boolean, _
-
         ByVal int_fld1 As String, _
-
         ByVal int_val1 As Long, _
-
         ByVal int_fld2 As String, _
-
         ByVal int_val2 As Long, _
-
         ByVal str_fld1 As String, _
-
         ByVal str_val1 As String, _
-
         ByVal str_fld2 As String, _
-
         ByVal str_val2 As String, _
-
         ByVal date_fld1 As String, _
-
         ByVal date_val1 As Long) As Integer
 
 Public Function modify_sp_list(ByVal sp_objid As Long, _
-
              ByVal instance_name As String, _
-
              ByVal serial_num As String, _
-
              ByVal invoice_no As String, _
-
              ByVal ship_date As String, _
-
              ByVal install_date As String, _
-
              ByVal warranty_date As String, _
-
              ByVal quantity As Long, _
-
              ByVal part_status As String, _
-
              ByVal comments As String, _
-
              ByVal service_end_dt As String, _
-
              ByVal user_name As String, _
-
              ByVal mod_level As String, _
-
              ByVal add_activity As Boolean, _
-
              Optional fld_list As Variant, _
-
              Optional type_list As Variant, _
-
              Optional val_list As Variant) As Integer
 
 **Description**
@@ -192,9 +153,7 @@ val_list                                   No�
 Dim ret_int    As Integer
 
 ret_int = fcinter.modify_sp(268435460, "", "1234.56", "", _
-
                             "", "", "", 1, "", _
-
              "", "", "", "", true)
 
 **Javascript:**
@@ -214,7 +173,6 @@ var ret_int = fcinter.modify_sp(268435460, "", "1234.56", "",
 Dim ret_int    As Integer
 
 ret_int = fcinter.modify_sp(268435444, "", "", "", "", "", "", 1, "", _
-
              "", "07/12/2000", "Joe Shumaker", "", true)
 
 **Javascript:**

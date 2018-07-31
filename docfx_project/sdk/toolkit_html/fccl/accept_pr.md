@@ -2,11 +2,8 @@ accept_pr
 ---------
 
 Public Function accept_pr(ByVal pr_id As String, _
-
       ByVal accept_date As String, ByVal wipbin_name As String, _
-
       ByVal user_name As String, ByVal gen_time_bombs As Boolean) _
-
                           As Integer
 
 **Description**
@@ -18,9 +15,7 @@ This API causes the specified part request to be accepted from a dispatched queu
 
 pr_id                                       Yes                         The part request to accept
 
-accept_date                          No                           When was the part request accepted. If this parameter is left blank, the PR
-
-is accepted at the current time
+accept_date                          No                           When was the part request accepted. If this parameter is left blank, the PR is accepted at the current time
 
 wipbin_name                        No                           The WIPBin to place the part request in (for the user who accepted PR)
 

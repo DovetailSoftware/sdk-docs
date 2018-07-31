@@ -43,8 +43,6 @@ The code in this example is written in Visual Basic.
 
   ' Rest of code here
 
-   �
-
   Exit Sub
 
 too_many:

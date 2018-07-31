@@ -2,13 +2,9 @@ accept_solution
 ---------------
 
 Public Function accept_solution(ByVal solution_id As String, _
-
                                 ByVal accept_date As String, _
-
                                 ByVal wipbin As String, _
-
               ByVal user_name As String, _
-
               ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -75,7 +71,6 @@ WIPBin named 'Urgent'. Don't generate a time bomb.
 Dim ret_int As Integer
 
 ret_int = fcinter.accept_solution("2", "11/23/97 22:00:00",_
-
  "Urgent","marty", false)
 
 **Javascript:**

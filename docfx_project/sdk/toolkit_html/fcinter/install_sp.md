@@ -5,93 +5,50 @@ install_sp_list
 -----------------
 
 Public Function install_sp(ByVal site_id As String, _
-
                            ByVal part_num As String, _
-
          ByVal mod_level As String, _
-
          ByVal domain As String, _
-
          ByVal quantity As Long, _
-
          ByVal serial_num As String, _
-
          ByVal parent_bin_objid As Long, _
-
          ByVal parent_sp_objid As Long, _
-
          ByVal instance_name As String, _
-
          ByVal comment As String, _
-
          ByVal part_status As String, _
-
          ByVal invoice_no As String, _
-
          ByVal user_name As String, _
-
          ByVal install_date As String, _
-
          ByVal ship_date As String, _
-
          ByVal add_activity As Boolean, _
-
          ByVal int_fld1 As String, _
-
          ByVal int_val1 As Long, _
-
          ByVal int_fld2 As String, _
-
          ByVal int_val2 As Long, _
-
          ByVal str_fld1 As String, _
-
          ByVal str_val1 As String, _
-
          ByVal str_fld2 As String, _
-
          ByVal str_val2 As String, _
-
          ByVal date_fld1 As String, _
-
          ByVal date_val1 As Long) As Integer
 
 Public Function install_sp_list(ByVal site_id As String, _
-
                                 ByVal part_num As String, _
-
               ByVal mod_level As String, _
-
               ByVal domain As String, _
-
               ByVal quantity As Long, _
-
               ByVal serial_num As String, _
-
               ByVal parent_bin_objid As Long, _
-
               ByVal parent_sp_objid As Long, _
-
               ByVal instance_name As String, _
-
               ByVal comment As String, _
-
               ByVal part_status As String, _
-
               ByVal invoice_no As String, _
-
               ByVal user_name As String, _
-
               ByVal install_date As String, _
-
               ByVal ship_date As String, _
-
               ByVal add_activity As Boolean, _
-
               Optional fld_list As Variant, _
-
               Optional type_list As Variant, _
-
               Optional val_list As Variant) As Integer
 
 **Description**
@@ -220,11 +177,9 @@ Dim ret_int    As Integer
 Dim sp_objid   As Long
 
 ret_int = fcinter.install_sp("1234", "MS Word", "7.0", _
-
                              "Product", 1, "xyzzy", _      
 
               0, 0, "", "", "Installed/Good", _
-
               "", "", "", "", true)
 
  If ret_int = 0 Then
@@ -252,15 +207,10 @@ var ret_int = fcinter.install_sp("1234", "MS Word", "7.0",
 Dim ret_int    As Integer
 
 ret_int = fcinter.install_sp("444", "QuantPart", "", "Quantity", _
-
  30, "", 268435457, 0, "", "", "", "",_
-
               "", "3/1/98", _
-
               "2/1/98", true, "x_my_long", 22, "", 0, _
-
               "x_my_str_field", "Hello!!", "", _
-
  "", "","")
 
 **Javascript:**

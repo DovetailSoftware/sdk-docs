@@ -24,7 +24,7 @@ cont_name                            Yes      �
 
 -3                                             The parent container is currently sealed
 
-**Examples  **
+**Examples**
 
  Open container Fred.
 

@@ -2,23 +2,14 @@ ship
 ----
 
 Public Function ship(ByVal dtl_num As String, _
-
                      ByVal site_name As String, ByVal address_1 As String, _
-
                      ByVal address_2 As String, ByVal city_name As String, _
-
                      ByVal state_name As String, ByVal zip_code As String, _
-
                      ByVal country_name As String, ByVal f_name As String, _
-
                      ByVal l_name As String, ByVal waybill_name As String, _
-
                      ByVal pack_list As String, ByVal piece_count As Long, _
-
                      ByVal total_weight As Double, ByVal status_str As String, _
-
                      ByVal ship_date As String, ByVal user_name As String, _
-
                      ByVal carrier_name As String, ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -104,7 +95,7 @@ gen_time_bombs                 Yes               
 
 -13                                           Cannot find the specified carrier site
 
-**Examples  **
+**Examples**
 
  Ship part request number '1-14' using an address and a status of "All Shipped". Fill in other shipping information, and  it was performed by Cindy. The shipping occurs on August 1, 2001. Generate a time bomb.
 
@@ -113,11 +104,8 @@ gen_time_bombs                 Yes               
 Dim ret_int As Integer
 
 ret_int = fccl.ship("1-14", "A site", "101 Main Street", "Suite 101", _
-
                     "Any city", "Any State", "11111", "Country", "Joe", _
-
                     "Customer", "Waybill 1234", "Packed all of it!", _
-
                     4, 4.56, "All Shipped", "8/1/2001 8:11:00", "cindy", "Fed Ex", True)
 
 **Javascript:**
@@ -137,7 +125,6 @@ var ret_int = fccl.ship("1-14", "A site", "101 Main Street", "Suite 101",
 Dim ret_int As Integer
 
 ret_int = fccl.ship("2-1", "", "", "", "", "", "", "", "", "", _
-
 "Waybill 1234", "Packed all of it!", 4, 4.56, "", "", "", "", False)
 
 **Javascript:**

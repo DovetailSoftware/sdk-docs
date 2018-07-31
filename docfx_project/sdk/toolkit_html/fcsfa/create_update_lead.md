@@ -4,122 +4,64 @@ create_update_lead
 create_update_lead_list
 -------------------------
 
-Public Function create_update_lead(ByVal lead_objid As Long, _                              
-
-                                   ByVal first_name As String, _
-
+Public Function create_update_lead(ByVal lead_objid As Long, _                                   ByVal first_name As String, _
                                    ByVal last_name As String, _
-
                                    ByVal phone As String, _
-
                                    ByVal fax As String, _
-
                                    ByVal address As String, _
-
                                    ByVal address_2 As String, _
-
                                    ByVal city As String, _
-
                                    ByVal state As String, _
-
                                    ByVal postal_code As String, _
-
                                    ByVal country As String, _
-
                                    ByVal time_zone As String, _
-
                                    ByVal e_mail As String, _
-
                                    ByVal the_title As String, _
-
                                    ByVal company_name As String, _
-
                                    ByVal site_name As String, _
-
                                    ByVal site_type As String, _
-
                                    ByVal rating As String, _
-
                                    ByVal contact_role As String, _
-
                                    ByVal lead_source As String, _
-
                                    ByVal user_name As String, _
-
                                    ByVal create_date As String, _
-
                                    ByVal gen_time_bombs As Boolean, _
-
                                    ByVal int_fld1 As String, _
-
                                    ByVal int_val1 As Long, _
-
                                    ByVal int_fld2 As String, _
-
                                    ByVal int_val2 As Long, _
-
                                    ByVal str_fld1 As String, _
-
                                    ByVal str_val1 As String, _
-
                                    ByVal str_fld2 As String, _
-
                                    ByVal str_val2 As String, _
-
                                    ByVal date_fld1 As String, _
-
                                    ByVal date_val1 As String) As Integer
 
-Public Function create_update_lead_list(ByVal lead_objid As Long, _                              
-
+Public Function create_update_lead_list(ByVal lead_objid As Long, _ 
                        ByVal first_name As String, _
-
                        ByVal last_name As String, _
-
                        ByVal phone As String, _
-
                        ByVal fax As String, _
-
                        ByVal address As String, _
-
                        ByVal address_2 As String, _
-
                        ByVal city As String, _
-
                        ByVal state As String, _
-
                        ByVal postal_code As String, _
-
                        ByVal country As String, _
-
                        ByVal time_zone As String, _
-
                        ByVal e_mail As String, _
-
                        ByVal the_title As String, _
-
                        ByVal company_name As String, _
-
                        ByVal site_name As String, _
-
                        ByVal site_type As String, _
-
                        ByVal rating As String, _
-
                        ByVal contact_role As String, _
-
                        ByVal lead_source As String, _
-
                        ByVal user_name As String, _
-
                        ByVal create_date As String, _
-
                        ByVal gen_time_bombs As Boolean, _
-
                        Optional fld_list As Variant, _
-
                        Optional type_list As Variant, _
-
                        Optional val_list As Variant) As Integer
 
 **Description**
@@ -246,7 +188,7 @@ but does not need to have any items in the list
 
 -10                                           The specified lead could not be found to update
 
-**Examples  **
+**Examples**
 
  Create a new lead. Set most of the fields. Joe created it on January 1, 1999. Generate time bombs, and set a user-defined field.
 
@@ -275,15 +217,10 @@ Dim lead_objid As Long
 lead_objid = -1
 
 ret_int = fcsfa.create_update_lead(lead_objid, "First", "Last", "Phone", _
-
           "Fax", "110 Main St", "Suite 701", "Sharon", _
-
           "MA", "02067", "USA", "EST", "email", "Title", _
-
           "Company", "Sitename", "Business", "Warm", "Default", _
-
           "Default Lead Source", "joe", "1/1/99", True, _
-
           "x_col_val", 44, "", 0, "", "", "", "", "", "")
 
 **List version:**
@@ -331,13 +268,8 @@ val_list.AppendItem("44")
 lead_objid = -1
 
 ret_int = fcsfa.create_update_lead(lead_objid, "First", "Last", "Phone", _
-
           "Fax", "110 Main St", "Suite 701", "Sharon", _
-
           "MA", "02067", "USA", "EST", "email", "Title", _
-
           "Company", "Sitename", "Business", "Warm", "Default", _
-
           "Default Lead Source", "joe", "1/1/99", True, _
-
           fld_list, type_list, val_list)

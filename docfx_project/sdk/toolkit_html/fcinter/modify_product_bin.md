@@ -2,17 +2,11 @@ modify_product_bin
 --------------------
 
 Public Function modify_product_bin(ByVal bin_objid As Long, _
-
                                    ByVal bin_name As String, _
-
                                    ByVal description As String, _
-
                                    ByVal prim_supp As Long, _
-
                                    ByVal sec_supp As Long, _
-
                                    ByVal user_name As String, _
-
                                    ByVal mod_date As String) As Integer
 
 **Description**
@@ -26,21 +20,15 @@ bin_objid                               Yes   �
 
 bin_name                               No                           New name of the bin. If no change is to be made, set the bin_name to ""
 
-description                            No                           New description of the bin. If no change is to be made, use "". If you wish to clear
+description                            No                           New description of the bin. If no change is to be made, use "". If you wish to clear out the description, set this argument to "CLEAR"
 
-out the description, set this argument to "CLEAR"
-
-prim_supp                             No                          Objid of the primary support employee. If you do not wish to change this value,
-
-use 0. If you wish to clear out the primary support employee, set this argument to
+prim_supp                             No                          Objid of the primary support employee. If you do not wish to change this value, use 0. If you wish to clear out the primary support employee, set this argument to
 
 -1.
 
-sec_supp                               No                          Objid of the secondary support employee. If you do not wish to change this value,
+sec_supp                               No                          Objid of the secondary support employee. If you do not wish to change this value, use 0. If you wish to clear out the primary support employee, set this argument to
 
-use 0. If you wish to clear out the primary support employee, set this argument to
-
-�1.
+-1.
 
 user_name                             No                           Name of the user who modified the bin. If blank, the current user is used
 
@@ -75,7 +63,6 @@ modify_date                          No        
 Dim ret_int    As Integer
 
 ret_int = fcinter.modify_product_bin(268435460, "Software", "CLEAR", _
-
              0, -1, "", "")
 
 **Javascript:**

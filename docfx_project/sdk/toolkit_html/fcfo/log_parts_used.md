@@ -2,31 +2,18 @@ log_parts_used
 ----------------
 
 Public Function log_parts_used(ByVal dtl_num As String, _
-
                   ByVal case_id As String, ByVal pu_type As String, _
-
                   ByVal parent_sp As Long, ByVal install_at_site As Boolean, _
-
                   ByVal remove_sp As Long, ByVal to_loc As String, _
-
                   ByVal to_bin As String, ByVal to_cont As String, _
-
                   ByVal to_good As Boolean, ByVal fail_code As String, _
-
                   ByVal inst_part As String, ByVal inst_rev As String, _
-
                   ByVal inst_domain As String, ByVal inst_serial As String, _
-
                   ByVal inst_qty As Long, ByVal inst_price As String, _
-
                   ByVal from_loc As String, ByVal from_bin As String, _
-
                   ByVal from_cont As String, ByVal from_good As Boolean, _
-
                   ByVal engineer_name As String, ByVal user_name As String, _
-
                   ByVal allow_move As Boolean, ByVal log_date As String, _
-
                   ByVal log_objid As Long) As Integer
 
 **Description**
@@ -64,87 +51,53 @@ dtl_num                                 No   
 
 case_id                                  No                           The ID number of the related case (if one is related)
 
-pu_type                                 Yes                         The type of the log parts used. One of: Exchange, Consume, Install, Remove,
+pu_type                                 Yes                         The type of the log parts used. One of: Exchange, Consume, Install, Remove, Upgrade
 
-                                                                                Upgrade
-
-parent_sp                              No                           If a part is being installed, and it should be installed underneath a site_part,
-
-                                                                                this field contains the objid of the parent site_part
+parent_sp                              No                           If a part is being installed, and it should be installed underneath a site_part, this field contains the objid of the parent site_part
 
 install_at_site                       Yes                         For installing parts, should the part be installed at the top-level of the site?
 
 remove_sp                            No                           For removing parts, this is the objid of the site_part to remove
 
-to_loc                                     No                           For removing parts, this is the inventory location (or expense GL) to transfer
-
-                                                                                the part to (if it is being transferred to inventory)
+to_loc                                     No                           For removing parts, this is the inventory location (or expense GL) to transfer  the part to (if it is being transferred to inventory)
 
 to_bin                                    No                           The bin to transfer the removed site_part to
 
-to_cont                                  No                           The id_number of the container. If not using a container, this argument should be
-
-blank. If you are using a container, the to_bin argument should be the container
-
-name.
+to_cont                                  No                           The id_number of the container. If not using a container, this argument should be blank. If you are using a container, the to_bin argument should be the container name.
 
 to_good                                 Yes                         Should the removed site_part be placed as good or bad stock in inventory
 
-fail_code                                No                           For removing parts, what is the failure code (dropdown list). If left blank, the
+fail_code                                No                           For removing parts, what is the failure code (dropdown list). If left blank, the  default code is used
 
-                                                                                default code is used
+inst_part                                                No                           For installing parts, the part_number to install. If a part request is specified, the default part is taken from the part request
 
-inst_part                                                No                           For installing parts, the part_number to install. If a part request is specified,
+inst_rev                                 No                           For installing parts, the revision (mod_level) to install. If a part request is specified, the default part revision is taken from the part request
 
-                                                                                the default part is taken from the part request
-
-inst_rev                                 No                           For installing parts, the revision (mod_level) to install. If a part request is
-
-specified, the default part revision is taken from the part request
-
-inst_domain                          No                           For installing parts, the domain of the part to install. If a part request
-
-is specified, the default part domain is taken from the part request
+inst_domain                          No                           For installing parts, the domain of the part to install. If a part request is specified, the default part domain is taken from the part request
 
 inst_serial                              No                           If the part to be installed is serialized, this is the serial number
 
 inst_qty                                 No                           For installing parts, the quantity of parts to install
 
-inst_price                              No                           For installing parts, the price (per part) to use. If left blank, the default US
+inst_price                              No                           For installing parts, the price (per part) to use. If left blank, the default US List price is used. For inventory-only transactions, this field may contain the part number, revision, domain, quantity, and serial number of the part (all separated by '|' characters) to remove to inventory. See above for more details
 
-                                                                                List price is used. For inventory-only transactions, this field may contain the
-
-part number, revision, domain, quantity, and serial number of the part (all separated by '|' characters) to remove to inventory. See above for more details
-
-from_loc                                No                           If the installed part is pulled from inventory, this is the inventory location
-
-                                                                                (or expense GL)
+from_loc                                No                           If the installed part is pulled from inventory, this is the inventory location (or expense GL)
 
 from_bin                                No                           The bin that the installed part is pulled from
 
-from_cont                              No                           The id_number of the container. If not using a container, this argument should be
-
-blank. If you are using a container, the to_bin argument should be the container
-
-name
+from_cont                              No                           The id_number of the container. If not using a container, this argument should be blank. If you are using a container, the to_bin argument should be the container name
 
 from_good                            No                           Was the installed part pulled from good or bad stock?
 
-engineer_name                     No                           The login_name of the engineer who performed the parts used action. If
-
-                                                                                left blank, the current user is used
+engineer_name                     No                           The login_name of the engineer who performed the parts used action. If left blank, the current user is used
 
 user_name                             No                           The name of the user who logged the action. If left blank, the current user is used.
 
-allow_move                           Yes                         If a serialized part is to be installed, and it already exists as an active
-
-site _part, should we allow the move to occur?
+allow_move                           Yes                         If a serialized part is to be installed, and it already exists as an active site _part, should we allow the move to occur?
 
 log_date                                                No                           When was the action? If left blank, the current time is used
 
-log_objid                               No                           If you wish to perform only the inventory movements for this log_pu, then
-
-set this argument to �99 as input
+log_objid                               No                           If you wish to perform only the inventory movements for this log_pu, then set this argument to -99 as input
 
 **Returns**
 
@@ -190,9 +143,7 @@ set this argument to �99 as input
 
 -19                                           Cannot find the "Part Used Variance" expense GL account
 
--20                                           If serial number tracked, the specified serial number is not found at the "from_bin" � it's
-
-                                                at another location
+-20                                           If serial number tracked, the specified serial number is not found at the "from_bin" - it's at another location
 
 -21                                           Quantity must be 1 if serial number specified
 
@@ -208,9 +159,7 @@ set this argument to �99 as input
 
 -27                                           Removing a site_part, but no site_part is specified, and the part request (if using one) is not on a site_part
 
--28                                           Upgrade transaction specified, but the part number or serial number for the install and remove
-
-                                                parts do not agree
+-28                                           Upgrade transaction specified, but the part number or serial number for the install and remove parts do not agree
 
 -29                                           Trying to install a site_part, but it already exists, and the allow_move flag is set to False
 
@@ -240,29 +189,21 @@ set this argument to �99 as input
 
 -42                                           Cannot find employee record for specified user in database
 
--100 -> -199                            Any errors between �100 and �199 are from the call to install site_part. See the documentation
+-100 -> -199                            Any errors between -100 and -199 are from the call to install site_part. See the documentation for install_sp in this manual. For example, -101 from this API is the same as -1 from the other
 
-                                                for install_sp in this manual. For example, -101 from this API is the same as �1 from the other
+-200 -> -299                            Any errors between -200 and -299 are from deinstall site_part. See the documentation for deinstall_sp in this manual. For example, -201 from this API is the same as -1 from the other
 
--200 -> -299                            Any errors between �200 and �299 are from deinstall site_part. See the documentation for deinstall_sp in this manual. For example, -201 from this API is the same as �1 from the other
-
--300 -> -399                            Any errors between �300 and �399 are from the call to part_transfer. See the documentation
-
-                                                for part_transfer in this manual. For example, -301 from this API is the same as �1 from the
+-300 -> -399                            Any errors between -300 and -399 are from the call to part_transfer. See the documentation for part_transfer in this manual. For example, -301 from this API is the same as -1 from the
 
 other. These codes are for the transfer "to" transaction (remove site_part)
 
--400 -> -499                            Any errors between �400 and �499 are from the call to part_transfer. See the documentation
-
-                                                for part_transfer in this manual. For example, -401 from this API is the same as �1 from the
+-400 -> -499                            Any errors between -400 and -499 are from the call to part_transfer. See the documentation for part_transfer in this manual. For example, -401 from this API is the same as -1 from the
 
 other. These codes are for the transfer "from" transaction (install site_part)
 
--500 -> -599                            Any errors between �500 and �599 are from move_sp. See the documentation for move_sp in this manual. For example, -501 from this API is the same as �1 from the other
+-500 -> -599                            Any errors between -500 and -599 are from move_sp. See the documentation for move_sp in this manual. For example, -501 from this API is the same as -1 from the other
 
--600 -> -699                            Any errors between �600 and �699 are from the call to reinstall_sp. See the documentation
-
-                                                for reinstall_sp in this manual
+-600 -> -699                            Any errors between -600 and -699 are from the call to reinstall_sp. See the documentation for reinstall_sp in this manual
 
 ret_objid                                The objid of the new part_used object is returned by this parameter.
 
@@ -277,15 +218,10 @@ Dim ret_int    As Integer
 Dim log_objid  As Long
 
 ret_int = fcfo.log_parts_used("14-1", "23", "Exchange", 268435566, _
-
     False, 0, "Austin", "Restock", "", False, _
-
     "Failure code3", "MS Word", "7.0", _
-
     "Product", "1234", 1, "", "San Jose", _
-
     "Bin 4", "", True, "Fred", "sa", True, _
-
     "2/20/98 9:25:00")
 
    If ret_int = 0 Then
@@ -319,11 +255,8 @@ Dim ret_int    As Integer
 Dim log_objid  As Long
 
 ret_int = fcfo.log_parts_used("2-2", "", "Install", 0, True, 0, _
-
    "", "", "", True, "", "", "", "", _
-
    "", 5, "", "", "", "", True, _
-
    "", "",False, "")
 
    If ret_int = 0 Then

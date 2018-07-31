@@ -5,57 +5,32 @@ create_soln_list
 ------------------
 
 Public Function create_soln(ByVal the_title As String, _
-
                             ByVal description As String, _
-
                             ByVal workaround As String, _
-
                             ByVal is_public As Boolean, _
-
                             ByVal res_code As String, _
-
                             ByVal queue_name As String, _
-
                             ByVal create_date As String, _
-
                             ByVal user_name As String, _
-
                             ByVal create_time_bomb As Boolean, _
-
                             ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                             ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                             ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                             ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                             ByVal date_fld1 As String, _
-
                             ByVal date_val1 As String) As Integer
 
 Public Function create_soln_list(ByVal the_title As String, _
-
                                  ByVal description As String, _
-
                                  ByVal workaround As String, _
-
                                  ByVal is_public As Boolean, _
-
                                  ByVal res_code As String, _
-
                                  ByVal queue_name As String, _
-
                                  ByVal create_date As String, _
-
                                  ByVal user_name As String, _
-
                                  ByVal create_time_bomb As Boolean, _
-
                                  Optional fld_list As Variant, _
-
                                  Optional type_list As Variant, _
-
                                  Optional val_list As Variant) As Integer
 
 **Description**
@@ -148,11 +123,8 @@ Dim soln_objid As Long
 Dim work_objid As Long
 
 ret_int = fcinter.create_soln("The Solution","There is a problem", _
-
                               "No current workaround", true, "", "High",_
-
                               "11/11/1998 11:00:00", "joe", true ,"", 0, _
-
                               "", 0, "", "", "", "", "", "")
 
  If ret_int = 0 Then

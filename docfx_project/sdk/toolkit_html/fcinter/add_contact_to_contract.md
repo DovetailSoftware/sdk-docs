@@ -2,13 +2,9 @@ add_contact_to_contract
 -------------------------
 
 Public Function add_contact_to_contract(ByVal contract_id As String, _
-
                                         ByVal f_name As String, _
-
                                         ByVal l_name As String, _
-
                                         ByVal phone_num As String, _
-
                                         ByVal site_id As String) As Integer
 
 **Description**
@@ -59,7 +55,6 @@ Dim ret_int       As Integer
 Dim contact_objid As Long
 
 ret_int = fcinter.add_contact_to_contract("AMD 1", "John", _
-
                                           "Smith", "5121234567", "2")
 
  If ret_int = 0 Then

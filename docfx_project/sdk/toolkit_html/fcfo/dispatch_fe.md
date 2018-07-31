@@ -2,31 +2,18 @@ dispatch_fe
 -----------
 
 Public Function dispatch_fe(ByVal case_id As String, _
-
                   ByVal user_name As String, ByVal dispatch_time As String, _
-
       ByVal work_order As String, ByVal appointment_time As String, _
-
                   ByVal duration As Long, ByVal description As String, _
-
       ByVal cont_fname As String, ByVal cont_lname As String, _
-
       ByVal address1 As String, ByVal address2 As String, _
-
       ByVal city As String, ByVal state As String, _
-
       ByVal zipcode As String, ByVal main_phone As String, _
-
       ByVal alt_phone As String, ByVal site_id As Long, _
-
       ByVal pay_method As String, ByVal ref_number As String, _
-
       ByVal notes As String, ByVal requested_eta As String, _
-
       ByVal appt_confirm As Long, ByVal cell_text As String, _
-
       ByVal proxy As String, ByVal removed As Long, _
-
       ByVal gen_time_bomb As Boolean) As Integer
 
 **Description**
@@ -131,15 +118,10 @@ ret_objid                                The obji
 Dim ret_int As Integer
 
    ret_int = fcfo.dispatch_fe("3", "sa", "", "work order" & _
-
                                DatePart("m", Date), "", 0, "", _
-
                 "Sam", "Tyson", "112 Jupiter Hollow", _
-
                 "Shack #69", "Jupiter", "MN", "88775", _
-
                 "512-418-2905", "",0,  "", "", "", "", _
-
                 0, "", "", 0, True)
 
 **JavaScript:**
@@ -163,9 +145,7 @@ Dim ret_int As Integer
 Dim ret_int As Integer
 
    ret_int = fcfo.dispatch_fe("42-2", "", "", "", "", 0, "", _
-
                 "", "", "", "", "", "", "", "", "", _
-
                 0,  "", "", "", "", 0, "", "", 0, False)
 
 **JavaScript:**

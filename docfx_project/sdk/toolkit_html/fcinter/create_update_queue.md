@@ -2,33 +2,19 @@ create_update_queue
 ---------------------
 
 Public Function create_update_queue(ByVal title As String, _
-
                                     ByVal personal As Boolean, _
-
                                     ByVal description As String, _
-
                                     ByVal allow_bug As Integer, _
-
                                     ByVal allow_case As Integer, _
-
                                     ByVal allow_contract As Integer, _
-
                                     ByVal allow_dialogue As Integer, _
-
                                     ByVal allow_dmnd_dtl As Integer, _
-
                                     ByVal allow_job As Integer, _
-
                                     ByVal allow_opp As Integer, _
-
                                     ByVal allow_probdesc As Integer, _
-
                                     ByVal allow_subcase As Integer, _
-
                                     ByVal allow_task As Integer, _
-
                                     ByVal supervisor As String, _
-
                                     ByVal new_title As String) As Integer
 
 **Description**
@@ -101,7 +87,6 @@ Dim ret_int     As Integer
 Dim queue_objid As Long
 
 ret_int = fcinter.create_update_queue("Urgent", false, "A new queue", _
-
                                       1, 1, 1, 1, 1, 1, 1, 1, 1, 1, "", "")
 
  If ret_int = 0 Then
@@ -125,9 +110,7 @@ var ret_int = fcinter.create_update_queue("Urgent", false, "A new queue",
 Dim ret_int    As Integer
 
 ret_int = fcinter.create_update_queue("Urgent", false, "CLEAR", _
-
                                       -1, -1, -1, -1, 0, -1, -1, -1,_
-
                                       -1, -1, "", "Really Urgent")
 
 **Javascript:**

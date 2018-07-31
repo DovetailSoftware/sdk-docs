@@ -5,45 +5,26 @@ create_subcase_list
 ---------------------
 
 Public Function create_subcase(ByVal case_id As String, _
-
                 ByVal the_title As String, ByVal is_general As Boolean, _
-
                 ByVal priority_str As String, ByVal severity_str As String, _
-
                 ByVal status_str As String, ByVal note_str As String, _
-
                 ByVal queue_name As String, ByVal cr_date As String, _
-
                 ByVal due_date As String, ByVal prior_warn As Long, _
-
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
-
                 ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                 ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function create_subcase_list(ByVal case_id As String, _
-
                 ByVal the_title As String, ByVal is_general As Boolean, _
-
                 ByVal priority_str As String, ByVal severity_str As String, _
-
                 ByVal status_str As String, ByVal note_str As String, _
-
                 ByVal queue_name As String, ByVal cr_date As String, _
-
                 ByVal due_date As String, ByVal prior_warn As Long, _
-
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
-
                 Optional fld_list As Variant, Optional type_list As Variant, _
-
                 Optional val_list As Variant) As Integer
 
 **Description**
@@ -151,7 +132,7 @@ in the database
 
 -25                                           Could not locate an employee record for the specified user
 
-**Examples  **
+**Examples**
 
  Create a general subcase for case number 'C154'. Set a title and use the default priority, severity, status, user_name and dates. Make no prior warning, have no notes, and set no additional fields. Generate a time bomb.
 
@@ -170,9 +151,7 @@ var ret_int = fccs.create_subcase("C154", "Subcase Title", true,
    Dim ret_int    As Integer
 
 ret_int = fccs.create_subcase("C154", "Subcase Title", True, _
-
           "", "", "", "", "", "", "", 0, "", True, _
-
           "", 0, "", 0, "", "", "", "", "", "")
 
 **List version:**
@@ -188,7 +167,6 @@ var ret_int = fccs.create_subcase_list("C154", "Subcase Title", true,
    Dim ret_int     As Integer
 
 ret_int = fccs.create_subcase_list("C154", "Subcase Title", True, _
-
           "", "", "", "", "", "", "", 0, "", True)
 
  Create an administrative subcase for case number '2'. Set a title, priority, severity, status, notes, creation date, due date, a prior warning of two hours, and dispatch it to 'Queue 2'. Set it so that marty created the case, and add some additional fields. Do not generate a time bomb.
@@ -214,15 +192,10 @@ var ret_int = fccs.create_subcase("2", "A title", false, "High",
    Dim ret_int    As Integer
 
 ret_int = fccs.create_subcase("2", "A title", False, "High", _
-
           "Low", "Solving", "Some notes", "Queue 2", _
-
           "11/23/97 16:00:00", "11/24/97 13:00:00", 7200, _
-
           "marty", False, "x_create_int1", 1, "x_create_int2", _
-
           456, "x_summary2", "More text", "", "", _
-
           "x_other_date", "1/1/99")
 
 **List version:**
@@ -302,9 +275,6 @@ type_list.AppendItem("Date")
 val_list.AppendItem("1/1/99")
 
 ret_int = fccs.create_subcase_list("2", "A title", False, "High", _
-
           "Low", "Solving", "Some notes", "Queue 2", _
-
           "11/23/97 16:00:00", "11/24/97 13:00:00", 7200, _
-
           "marty", False, type_list, val_list)

@@ -2,27 +2,16 @@ part_transfer
 -------------
 
 Public Function part_transfer(ByVal part_num As String, _
-
                               ByVal mod_level As String, ByVal domain_name As String, _
-
                               ByVal quantity_num As Long, ByVal serial_num As String, _
-
                               ByVal from_loc As String, ByVal from_bin As String, _
-
                               ByVal from_cont As String, ByVal from_good As Boolean, _
-
                               ByVal to_loc As String, ByVal to_bin As String, _
-
                               ByVal to_cont As String, ByVal to_good As Boolean, _
-
                               ByVal user_name As String, ByVal trans_date As String, _
-
                               ByVal ref_id As String, ByVal note_str As String, _
-
                               ByVal gen_time_bombs As Boolean, ByVal fifo_flag As Integer, _
-
                               ByVal update_cost As String, ByVal update_source As String, _
-
                               ByVal trans_id As String, ByVal std_cost As String) As Integer
 
 **Description**
@@ -39,9 +28,9 @@ The FIFO flag has three possible values:
 
  0 - No FIFO costing used
 
- 1 � FIFO costing is used
+ 1 - FIFO costing is used
 
- 2 � Use the cost specified in the update_cost field
+ 2 - Use the cost specified in the update_cost field
 
 The update cost field is the cost per unit of the transfer, and is used in two cases: 1) if the preceding field is set to 2, this is the cost of the transfer. 2) If the flag is set = 1, then this is the cost of the transfer, and FIFO records will be created. This is only valid for transfers from Expense GL accounts.
 
@@ -180,9 +169,7 @@ available to increment the count
 
 -40                                           Invalid value for fifo_flag specified.
 
--41                                           You are attempting to add units to an existing part transfer, but the part transfer
-
-is for a serialized part
+-41                                           You are attempting to add units to an existing part transfer, but the part transfer is for a serialized part
 
 -42                                           You are attempting to add units to an existing part transfer, but the supplied
 
@@ -194,7 +181,7 @@ ret_num                                 Output 
 
 ret_objid                                Output                   Returns the objid of the part transfer record
 
-**Examples  **
+**Examples**
 
  Transfer 20 units of Accounting 101 from an expense GL account to the primary bin in Austin. All stock is good. Use FIFO costing.
 
@@ -207,11 +194,8 @@ ret_objid                                Output 
     Dim std_cost  As String
 
 ret_int = fccl.part_transfer("Accounting", "101", "QuantityDomain", 20, _
-
                   "", "EXPGL", "", "", True, "Austin", _
-
                   "PRIM_BIN_REC", "", True, "", "", "", "", _
-
                   True, 1, "", "", "", "")
 
 trans_id = fccl.ret_string
@@ -239,11 +223,8 @@ Dim trans_id  As String
 Dim std_cost  As String
 
 ret_int = fccl.part_transfer("MS Word", "7.0", "Product", 1, "555666", _
-
                             "Austin", "Bin 1", "", True, "San Jose", _
-
                             "Receiving", "", False, "fred", "7/30/2001 5:13:00", _
-
                             "Ref ID3", "Some notes", False, 0, "", "", "", "")
 
 trans_id = fccl.ret_string
@@ -271,9 +252,7 @@ Dim trans_id  As String
 Dim std_cost  As String
 
 ret_int = fccl.part_transfer("Notebook", "", "Product", 15, "", _
-
                             "EXPGL", "", "", True, "Austin", "Fred", "44", _
-
                              False, "fred", "7/30/2001 5:13:00", "Ref ID3", _                        
 
                             "Some notes", False, 1, ".34", "MySource", "", "")
@@ -305,7 +284,6 @@ Dim std_cost  As String
 trans_id = "42"
 
 ret_int = fccl.part_transfer("", "", "", 4, "", "", "", "", True, "", "", "", _
-
                             True, "", "", "", "", True, 1, "", "", trans_id, "")
 
 trans_id = fccl.ret_string

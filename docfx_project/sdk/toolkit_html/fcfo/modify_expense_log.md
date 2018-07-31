@@ -2,25 +2,15 @@ modify_expense_log
 --------------------
 
 Public Function modify_expense_log(ByVal expense_log_objid As Long, _
-
                                    ByVal creation_time As String, _
-
                                    ByVal perf_by As String, _
-
                                    ByVal notes As String, _
-
                                    ByVal user_name As String, _
-
                                    ByVal expense_type As String, _
-
                                    ByVal quantity As Double, _
-
                                    ByVal the_rate As Double, _
-
                                    ByVal billable As Long, _
-
                                    ByVal bill_to As String, _
-
                                    ByVal resolution As String) As Integer
 
 **Description**
@@ -97,7 +87,6 @@ resolution                              No     
    Dim ret_int   As Integer
 
 ret_int = fcfo.modify_expense_log(268435600, "joe", "Some notes here", "fred", _
-
      "", 6, 3.45, 0, "", "")
 
 **JavaScript:**

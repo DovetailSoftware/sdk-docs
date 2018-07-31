@@ -2,15 +2,10 @@ change_task_cond
 ------------------
 
 Public Function change_task_cond(ByVal task_id As String, _
-
                                  ByVal new_cond As String, _
-
                                  ByVal new_status As String, _
-
                                  ByVal user_name As String, _
-
                                  ByVal change_date As String, _
-
                                  ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -58,7 +53,7 @@ gen_time_bombs                 Yes               
 
 -8                                             Cannot find the activity string for "Change Condition"
 
-**Examples  **
+**Examples**
 
  Change condition and status for action item '44' to Not Started/Working. Generate a time bomb.
 
@@ -73,7 +68,6 @@ var ret_int = fcsfa.change_task_cond("44", "Not Started", "Working", "",
 Dim ret_int As Integer
 
 ret_int = fcsfa.change_task_cond("44", "Not Started", "Working", "", _
-
                                      "", True)
 
  Change to the default status for action item "55" on 1/1/2005. The change was performed by "Fred". Do not generate a time bomb.

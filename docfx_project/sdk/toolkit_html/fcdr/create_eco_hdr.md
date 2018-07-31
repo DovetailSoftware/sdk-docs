@@ -2,19 +2,12 @@ create_eco_hdr
 ----------------
 
 Public Function create_eco_hdr(ByVal eco_title As String, _
-
              ByVal eco_type As String, _
-
              ByVal create_date As String, _
-
              ByVal eff_type As String, _
-
              ByVal start_date As String, _
-
              ByVal end_date As String, _
-
              ByVal status As String, _
-
              ByVal description As String) As Integer
 
 **Description**

@@ -2,13 +2,9 @@ accept_subcase
 --------------
 
 Public Function accept_subcase(ByVal subcase_id As String, _
-
                                ByVal accept_date As String, _
-
                                ByVal wipbin As String, _
-
              ByVal user_name As String, _
-
              ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -85,5 +81,4 @@ var ret_int = fccs.accept_subcase("2-3", "11/23/97 22:00:00", "Urgent",
 Dim ret_int As Integer
 
 ret_int = fccs.accept_subcase("2-3", "11/23/97 22:00:00", "Urgent", _
-
                            "marty", False)

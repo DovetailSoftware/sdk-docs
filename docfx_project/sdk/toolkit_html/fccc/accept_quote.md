@@ -3,13 +3,9 @@
 ---
 
 Public Function accept_quote(ByVal quote_id As String, _
-
                              ByVal accept_date As String, _
-
                              ByVal wipbin_name As String, _
-
                              ByVal user_name As String, _
-
                              ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -21,9 +17,7 @@ This API cause the specified quote to be accepted from a dispatched queue. The q
 
 quote_id                                                Yes                         The quote to accept
 
-accept_date                          No                           When was the quote accepted. If this parameter is left blank, the quote
-
-is accepted at the current time
+accept_date                          No                           When was the quote accepted. If this parameter is left blank, the quote is accepted at the current time
 
 wipbin_name                        No                           The WIPBin to place the quote in (for the user who accepted the quote)
 

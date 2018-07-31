@@ -2,9 +2,7 @@ relate_contr_itm_to_sp
 --------------------------
 
 Public Function relate_contr_itm_to_sp(ByVal contr_objid As Long, _
-
                 ByVal part_num As String, ByVal domain As String, _
-
                 ByVal rev As String, ByVal serial_num As String) As Integer
 
 **Description**
@@ -36,7 +34,7 @@ serial_num                             Yes     
 
 -3                                             Could not find the specified site_part
 
-**Examples  **
+**Examples**
 
  Relate a contract line item with 'MS Word version 6.0', serial number 'ABC'.
 
@@ -45,7 +43,6 @@ serial_num                             Yes     
 **JavaScript:**
 
     Var ret_int = fc_cc.relate_contr_itm_to_sp(268435457, "MS Word", "Product", _
-
                                         "6.0", "ABC")
 
 **Visual Basic:**
@@ -53,7 +50,6 @@ serial_num                             Yes     
    Dim ret_int As Integer
 
    ret_int = fc_cc.relate_contr_itm_to_sp(268435457, "MS Word", "Product", _
-
                                          "6.0", "ABC")
 
  Unrelate that same contract line item.

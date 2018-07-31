@@ -2,13 +2,9 @@ close_opp
 ---------
 
 Function close_opp(ByVal opp_id As String, _
-
                    ByVal the_status As String, _
-
                    ByVal close_date As String, _
-
                    ByValu user_name As String, _
-
                    ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -54,7 +50,7 @@ gen_time_bombs                 Yes               
 
 -7                                             The employee for the specified user cannot be found
 
-**Examples  **
+**Examples**
 
  Close opportunity "32" at the current time with the current user. Put in closed status "close now". Generate a time bomb.
 

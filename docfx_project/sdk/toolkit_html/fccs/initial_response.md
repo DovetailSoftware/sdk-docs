@@ -2,13 +2,9 @@ initial_response
 ----------------
 
 Public Function initial_response(ByVal case_id As String, _
-
                                  ByVal resp_date As String, _
-
                                  ByVal user_name As String, _
-
                                  ByVal via_phone As Boolean, _
-
                                  ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -52,7 +48,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Cannot find Employee record for specified user
 
-**Examples  **
+**Examples**
 
  Mark an initial response for case 'C154' via a phone call. The logging is performed by the current user and is performed at the current time. Generate a time bomb.
 
@@ -79,5 +75,4 @@ var ret_int = fccs.initial_response("2", "11/23/97 22:00:00", "dave",
 Dim ret_int As Integer
 
 ret_int = fccs.initial_response("2", "11/23/97 22:00:00", "dave", _
-
                                 False, False)

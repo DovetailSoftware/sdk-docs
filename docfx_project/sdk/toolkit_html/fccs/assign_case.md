@@ -2,15 +2,10 @@ assign_case
 -----------
 
 Public Function assign_case(ByVal case_id As String, _
-
                             ByVal new_user As String, _
-
                             ByVal wipbin_name As String, _
-
                             ByVal assign_date As String, _
-
           ByVal user_name As String, _
-
           ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -30,9 +25,7 @@ wipbin_name                        No          
 
 case). If left blank, the case is placed in the user's default WIPBin
 
-assign_date                          No                           When was the case assigned. If this parameter is left blank, the case
-
-is assigned at the current time
+assign_date                          No                           When was the case assigned. If this parameter is left blank, the case is assigned at the current time
 
 user_name                             No                           The user who assigned the case If left blank, the current user performs
 
@@ -58,7 +51,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Cannot find gbst_elm rank 10500 for string ASSIGN
 
-**Examples  **
+**Examples**
 
  Assign case number '10' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
@@ -85,5 +78,4 @@ var ret_int = fccs.assign_case("2", "marty", "Urgent",
 Dim ret_int As Integer
 
 ret_int = fccs.assign_case("2", "marty", "Urgent", _
-
                            "11/23/97 22:00:00", "sam", False)

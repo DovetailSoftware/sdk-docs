@@ -2,17 +2,11 @@ create_bom
 ----------
 
 Public Function create_bom(ByVal parent_part As String, _
-
                            ByVal parent_dom As String, _
-
                            ByVal parent_rev As String, _
-
                            ByVal child_part As String, _
-
                            ByVal child_dom As String, _
-
                            ByVal child_rev As String, _
-
                            ByVal quantity As Long) As Integer
 
 **Description**
@@ -65,7 +59,6 @@ Dim ret_int    As Integer
 Dim bom_objid  As Long
 
 ret_int = fcinter.create_bom("Computer", "Product","1.0", _
-
                              "Battery","Quantity", "", 2)
 
  If ret_int = 0 Then

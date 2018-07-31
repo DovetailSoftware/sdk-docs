@@ -2,15 +2,10 @@ forward_cr
 ----------
 
 Public Function forward_cr(ByVal cr_id As String, _
-
-   ByVal new_queue As String, _
-
+						   ByVal new_queue As String, _
                            ByVal forward_date As String, _
-
-   ByVal notes As String, _
-
+						   ByVal notes As String, _
                            ByVal user_name As String, _
-
                            ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -54,7 +49,7 @@ gen_time_bombs                 Yes               
 
 -7                                             Not allowed to forward a CR to the specified queue
 
-**Examples  **
+**Examples**
 
  Reject-forward change request number '10' to queue 'Hardware'. The reject-forward has no notes, is performed by the current user and is forwarded at the current time. Generate a time bomb.
 
@@ -75,7 +70,6 @@ var ret_int = fccq.forward_cr("10", "Hardware", "", "", "", true);
 Dim ret_int As Integer
 
 ret_int = fccq.forward_cr("2", "Software", "11/23/97 22:00:00", _
-
                           "Some notes", "ann", False)
 
 **JavaScript:**

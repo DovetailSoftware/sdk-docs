@@ -2,9 +2,7 @@ create_container
 ----------------
 
 Public Function create_container(ByVal cont_name As String, _
-
                                  ByVal the_loc As String, ByVal bin_name As String, _
-
                                  ByVal parent_cont As String) As Integer
 
 **Description**
@@ -42,7 +40,7 @@ parent_cont                          No        
 
 ret_objid                                Output                   Returns the objid of the newly created container
 
-**Examples  **
+**Examples**
 
  Create a new container, Joe at Austin, Bin 1.
 

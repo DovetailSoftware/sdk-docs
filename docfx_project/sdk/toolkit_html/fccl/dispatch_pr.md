@@ -2,11 +2,8 @@ dispatch_pr
 -----------
 
 Public Function dispatch_pr(ByVal pr_id As String, _
-
                             ByVal queue_name As String, ByVal disp_date As String, _
-
                             ByVal user_name As String, ByVal gen_time_bombs As Boolean) _
-
                             As Integer
 
 **Description**
@@ -20,9 +17,7 @@ pr_id                                     �
 
 queue_name                         Yes                         The queue to dispatch to
 
-disp_date                              No                           When was the part request dispatched. If this parameter is left blank, the PR
-
-is dispatched at the current time
+disp_date                              No                           When was the part request dispatched. If this parameter is left blank, the PR is dispatched at the current time
 
 user_name                             No                           The user who dispatched the part request. If left blank, the current user
 
@@ -50,7 +45,7 @@ gen_time_bombs                 Yes               
 
 -7                                             The specified queue does not allow dispatches of part requests
 
-**Examples  **
+**Examples**
 
  Dispatch part request number '1-14' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
@@ -71,7 +66,6 @@ var ret_int = fccl.dispatch_pr("1-14", "Hardware", "", "", true);
 Dim ret_int As Integer
 
 ret_int = fccl.dispatch_pr("2-1", "Software", "11/23/01 22:00:00", _
-
                        "nancy", False)
 
 **Javascript:**

@@ -30,7 +30,7 @@ new_wipbin_name               Yes                �
 
 -4                                             New WIPBIN is same as old - no move needed
 
-**Examples  **
+**Examples**
 
  Move part request number '1-14' to WIPBin 'Hardware'.
 

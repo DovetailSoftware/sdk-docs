@@ -2,15 +2,10 @@ modify_gl_account
 -------------------
 
 Public Function modify_gl_account(ByVal old_name As String, _
-
                                   ByVal new_name As String, ByVal account_type As String, _
-
                                   ByVal desc_str As String, ByVal account_no As String, _
-
                                   ByVal is_exp As Boolean, ByVal is_active As Boolean, _
-
                                   ByVal is_company As Boolean, ByVal site_id As String) _
-
                                   As Integer
 
 **Description**
@@ -67,7 +62,6 @@ site_id                                    Ye
 Dim ret_int As Integer
 
 ret_int = fccl.modify_gl_account("myaccount", "youraccount", "description", _
-
                                 "12345", False, False, False, "2")
 
 **Javascript:**

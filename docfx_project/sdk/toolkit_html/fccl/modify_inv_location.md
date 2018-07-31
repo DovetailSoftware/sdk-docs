@@ -2,15 +2,10 @@ modify_inv_location
 ---------------------
 
 Public Function modify_inv_location(ByVal old_name As String, _
-
                                  ByVal new_name As String, ByVal account_type As String, _
-
                                  ByVal desc_str As String, ByVal reports_to_loc As String, _
-
                                  ByVal cap_gl_acct As String, ByVal is_active As Boolean, _
-
                                  ByVal is_company As Boolean, ByVal site_id As String, _
-
                                  ByVal trans_auth_str As String) As Integer
 
 **Description**
@@ -77,7 +72,6 @@ trans_auth_str                      No          �
 Dim ret_int As Integer
 
 ret_int = fccl.modify_inv_location("Austin", "Round Rock", "", "", "", _
-
                      "", True, True, "", "")
 
 **Javascript:**
@@ -93,7 +87,6 @@ var ret_int = fccl.modify_inv_location("Austin", "Round Rock", "", "", "",
 Dim ret_int As Integer
 
 ret_int = fccl.modify_inv_location("Austin", "Round Rock", "", "New desc", _
-
                                   "Dallas", "NewCapGL", True, True, "2", "none")
 
 **Javascript:**

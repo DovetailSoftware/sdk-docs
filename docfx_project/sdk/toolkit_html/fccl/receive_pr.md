@@ -5,51 +5,29 @@ receive_pr_no_trans
 ---------------------
 
 Public Function receive_pr(pr_num As String, _
-
                            ByVal from_loc As String, ByVal from_bin As String, _
-
                            ByVal from_cont As String, ByVal from_good As Boolean, _
-
                            ByVal to_loc As String, ByVal to_bin As String, _
-
                            ByVal to_cont As String, ByVal to_good As Boolean, _
-
                            ByVal quantity_num As Long, ByVal serial_num As String, _
-
                            ByVal status_str As String, ByVal carrier_name As String, _
-
                            ByVal waybill_name As String, ByVal poss_damage As Boolean, _
-
                            ByVal not_prop_pack As Boolean, ByVal route_to_test As Boolean, _
-
                            ByVal user_name As String, ByVal receive_date As String, _
-
                            ByVal auto_close As Boolean, ByVal gen_time_bombs As Boolean) _
-
                            As Integer
 
 Public Function receive_pr_no_trans(pr_num As String, _
-
                            ByVal from_loc As String, ByVal from_bin As String, _
-
                            ByVal from_cont As String, ByVal from_good As Boolean, _
-
                            ByVal to_loc As String, ByVal to_bin As String, _
-
                            ByVal to_cont As String, ByVal to_good As Boolean, _
-
                            ByVal quantity_num As Long, ByVal serial_num As String, _
-
                            ByVal status_str As String, ByVal carrier_name As String, _
-
                            ByVal waybill_name As String, ByVal poss_damage As Boolean, _
-
                            ByVal not_prop_pack As Boolean, ByVal route_to_test As Boolean, _
-
                            ByVal user_name As String, ByVal receive_date As String, _
-
                            ByVal auto_close As Boolean, ByVal gen_time_bombs As Boolean) _
-
                            As Integer
 
 **Description**
@@ -121,13 +99,9 @@ user_name                             No      
 
 performs the receive.
 
-receive_date                         No                           When was the part request received. If this parameter is left blank, the PR
+receive_date                         No                           When was the part request received. If this parameter is left blank, the PR is received at the current time
 
-is received at the current time
-
-auto_close                            Yes                         If all of the inventory for this part request is received (or an overrage), should
-
-                                                                                the part request be closed as well? And if it is closed, and no other details
+auto_close                            Yes                         If all of the inventory for this part request is received (or an overrage), should the part request be closed as well? And if it is closed, and no other details
 
 exist for the header, should the header be closed as well?
 
@@ -201,9 +175,9 @@ gen_time_bombs                 Yes               
 
 -121                                         The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created.
 
-**Note:** Any other error codes between -100 and �199 are from part transfer. Add 100 to the error code, and check the error code in the part transfer section of this document.
+**Note:** Any other error codes between -100 and -199 are from part transfer. Add 100 to the error code, and check the error code in the part transfer section of this document.
 
-**Examples  **
+**Examples**
 
  Receive against part request number '1-14'. Receive from expense GL 'EXPGL' and to the primary bin at the Austin location. All inventory is good. Receive 12 units. Auto-close. Generate time bombs.
 
@@ -212,9 +186,7 @@ gen_time_bombs                 Yes               
 Dim ret_int As Integer
 
 ret_int = fccl.receive_pr("1-14", "EXPGL", "", "", True, "Austin", _
-
                            "PRIM_BIN_REC", "", True, 12, "", "", "", "", _
-
                            False, False, False, "", "",True, True)
 
 **Javascript:**
@@ -232,11 +204,8 @@ var ret_int = fccl.receive_pr("1-14", "EXPGL", "", "", True, "Austin",
 Dim ret_int As Integer
 
 ret_int = fccl.receive_pr("2-1", "Austin", "Bin 1", "", True, "Austin", _
-
                          "Fred", "44", False, 1, "A123", "Received QA", _
-
                          "Site 1", "Waybil 34843834", True, False, True, _
-
                          "sam", "11/23/01 22:00:00", False, False)
 
 **Javascript:**

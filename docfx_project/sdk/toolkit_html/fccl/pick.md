@@ -11,35 +11,23 @@ pick_sn_no_trans
 ------------------
 
 Public Function pick(ByVal dtl_num As String, _
-
                      ByVal locs_str As String, ByVal use_good As Boolean, _
-
                      ByVal user_name As String, ByVal pick_date As String, _
-
                      ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function pick_sn(ByVal dtl_num As String, _
-
                         ByVal locs_str As String, ByVal use_good As Boolean, _
-
                         ByVal user_name As String, ByVal pick_date As String, _
-
                         ByVal serial_no As String, ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function pick_no_trans(ByVal dtl_num As String, _
-
                      ByVal locs_str As String, ByVal use_good As Boolean, _
-
                      ByVal user_name As String, ByVal pick_date As String, _
-
                      ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function pick_sn_no_trans (ByVal dtl_num As String, _
-
                         ByVal locs_str As String, ByVal use_good As Boolean, _
-
                         ByVal user_name As String, ByVal pick_date As String, _
-
                         ByVal serial_no As String, ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -87,9 +75,7 @@ user_name                             No      
 
 performs the pick.
 
-pick_date                               No                           When was the part request picked. If this parameter is left blank, the PR
-
-is picked at the current time
+pick_date                               No                           When was the part request picked. If this parameter is left blank, the PR is picked at the current time
 
 tot_num_picked                   Yes                         Returns the number of items picked
 
@@ -135,7 +121,7 @@ specified "from" bin
 
 ret_num                                 Output                   Total number of parts picked for this part request
 
-**Examples  **
+**Examples**
 
  Pick inventory for part request number '1-14'. Use the location_servicing_locations to search. The pick is performed by Dan on January 1, 2001, and is from bad inventory. Generate time bombs.
 
@@ -162,7 +148,6 @@ Dim ret_int As Integer
 Dim tot_num As Integer
 
 ret_int = fccl.pick("2-1", "Austin:Bin 1|Austin:Bin 2|Austin:Fred:44", _
-
                     True, "", "", True)
 
 tot_num = fccl.ret_num

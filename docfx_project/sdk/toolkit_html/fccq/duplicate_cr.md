@@ -2,15 +2,10 @@ duplicate_cr
 ------------
 
 Public Function duplicate_cr(ByVal cr_id As String, _
-
      ByVal the_status As String, _
-
                              ByVal master_cr As String, _
-
      ByVal user_name As String, _
-
                              ByVal close_date As String, _
-
                              ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -68,7 +63,7 @@ gen_time_bombs                 Yes               
 
 -21                                           Cannot find the specified user's employee record for relating time bomb
 
-**Examples  **
+**Examples**
 
  Mark CR '2' as a duplicate of CR '4' with a new status of 'Double Entry". Gary performed the close at 8AM on March 29, 1999. Generate a time bomb.
 
@@ -77,7 +72,6 @@ gen_time_bombs                 Yes               
 Dim ret_int As Integer
 
 ret_int = fccq.duplicate_cr("2", "Double Entry", "4", "gary", _
-
        "3/29/99 08:00:00", True)
 
 **JavaScript:**

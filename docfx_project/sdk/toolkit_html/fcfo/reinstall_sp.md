@@ -2,13 +2,9 @@ reinstall_sp
 ------------
 
 Public Function reinstall_sp(ByVal sp_objid As Long, _
-
                   ByVal site_id As String, ByVal parent_bin_objid As Long, _
-
                   ByVal parent_sp_objid As Long, ByVal user_name As String, _
-
                   ByVal reinst_date As String, ByVal add_activity As Boolean, _
-
                   ByVal use_install As Boolean) As Integer
 
 **Description**
@@ -83,7 +79,6 @@ use_install                             Yes    �
 Dim ret_int    As Integer
 
 ret_int = fcfo.reinstall_sp(268435444, "2", 0, 0, "Joe", _
-
  "3/1/98 12:00:00", True, False)
 
 **JavaScript:**
@@ -99,7 +94,6 @@ var ret_int = fcfo.reinstall_sp(268435444, "2", 0, 0, "Joe",
 Dim ret_int    As Integer
 
 ret_int = fcfo.reinstall_sp(268435457, "S1", 268435466, 0, "", "", _
-
                              False, False)
 
 **JavaScript:**

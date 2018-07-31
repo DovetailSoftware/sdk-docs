@@ -2,9 +2,7 @@ add_user_to_queue
 -------------------
 
 Public Function add_user_to_queue(ByVal queue As String, _
-
                                   ByVal user_name As String, _
-
                                   ByVal supervisor As Boolean) As Integer
 
 **Description**

@@ -49,9 +49,7 @@ the change status
 
 gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
 
-wipbin                                    No                           The WIPBin to place the change request in. If left blank, the default WIPBin
-
-                                                                                is used (for reopen_cr)
+wipbin                                    No                           The WIPBin to place the change request in. If left blank, the default WIPBin is used (for reopen_cr)
 
 test_case                               No                           Test case string for closure (for close_cr and fix_failed)
 
@@ -75,7 +73,7 @@ date_val1
 
 All return codes are defined by which API is called, as this API is simply a wrapper.
 
-**Examples  **
+**Examples**
 
 Change status for change request number '10' to a new status and condition. The change status is performed by the current user and is changed at the current time. Generate a time bomb.
 

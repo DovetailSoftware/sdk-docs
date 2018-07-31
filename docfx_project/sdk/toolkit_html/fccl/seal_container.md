@@ -24,7 +24,7 @@ cont_name                            Yes      �
 
 -3                                             One or more of the child containers is still open
 
-**Examples  **
+**Examples**
 
  Seal container Fred.
 

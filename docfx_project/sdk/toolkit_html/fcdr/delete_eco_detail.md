@@ -20,7 +20,7 @@ eco_dtl_objid                       Yes         �
 
 -1                                             Specified ECO Detail is not in database
 
-**Examples  **
+**Examples**
 
  Delete ECO Detail 268435463.
 

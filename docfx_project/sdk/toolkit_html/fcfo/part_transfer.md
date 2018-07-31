@@ -2,27 +2,16 @@ part_transfer
 -------------
 
 Public Function part_transfer(ByVal part_num As String, _
-
                   ByVal mod_level As String, ByVal domain_name As String, _
-
                   ByVal quantity_num As Long, ByVal serial_num As String, _
-
                   ByVal from_loc As String, ByVal from_bin As String, _
-
                   ByVal from_cont As String, ByVal from_good As Boolean, _
-
                   ByVal to_loc As String, ByVal to_bin As String, _
-
                   ByVal to_cont As String, ByVal to_good As Boolean, _
-
                   ByVal user_name As String, ByVal trans_date As String, _
-
                   ByVal ref_id As String, ByVal note_str As String, _
-
                   ByVal gen_time_bombs As Boolean, ByVal fifo_flag As Integer, _
-
                   ByVal update_cost As String, ByVal update_source As String, _
-
                   trans_id As String, ByVal std_cost As String) As Integer
 
 **Description**
@@ -39,9 +28,9 @@ The FIFO flag has three possible values:
 
  0 - No FIFO costing used
 
- 1 � FIFO costing is used
+ 1 - FIFO costing is used
 
- 2 � Use the cost specified in the update_cost field
+ 2 - Use the cost specified in the update_cost field
 
 The update cost field is the cost per unit of the transfer, and is used in two cases: 1) if the preceding field is set to 2, this is the cost of the transfer. 2) If the flag is set = 1, then this is the cost of the transfer, and FIFO records will be created. This is only valid for transfers from Expense GL accounts.
 
@@ -184,7 +173,7 @@ ret_string                               The trans
 
 ret_num                                 The standard cost of the transaction
 
-**Examples  **
+**Examples**
 
  Transfer 20 units of Accounting 101 from an expense GL account to the primary bin in Austin. All stock is good. Use FIFO costing.
 
@@ -197,11 +186,8 @@ ret_num                                 The stan
    Dim std_cost  As String
 
 ret_int = fcfo.part_transfer("Accounting", "101", "QuantityDomain", _
-
   20, "", "EXPGL", "", "", True, "Austin", _
-
   "PRIM_BIN_REC", "", True, "", "", "", _
-
   "", True, 1, "", "", trans_id, std_cost)
 
    If ret_int = 0 Then
@@ -235,15 +221,10 @@ var ret_int = fcfo.part_transfer("Accounting", "101", "QuantityDomain",
    Dim std_cost  As String
 
 ret_int = fcfo.part_transfer("MS Word", "7.0", "Product", 1, _
-
   "555666", "Austin", "Bin 1", "", True, _
-
   "San Jose", "Receiving", "", False, _
-
   "fred", "7/30/98 5:13:00", "Ref ID3", _
-
   "Some notes", False, 0, "", "", _
-
   trans_id, std_cost)
 
    If ret_int = 0 Then
@@ -281,15 +262,10 @@ if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
    Dim std_cost  As String
 
 ret_int = fcfo.part_transfer("Notebook", "", "Product", 15, "", _
-
                               "EXPGL", "", "", True, "Austin", _
-
                               "Fred", "44", False, "fred", _
-
                               "7/30/98 5:13:00", "Ref ID3", _
-
                               "Some notes", False, 1, ".34", "MySource", _
-
       trans_id, std_cost)
 
    If ret_int = 0 Then
@@ -329,11 +305,8 @@ Dim ret_int   As Integer
 trans_id = "42"
 
 ret_int = fcfo.part_transfer("", "", "", 4, "","", "", _
-
                               "", True, "", "", "", True, "", _
-
                               "", "", "", True, 1, "", "", _
-
       trans_id, std_cost)
 
    If ret_int = 0 Then

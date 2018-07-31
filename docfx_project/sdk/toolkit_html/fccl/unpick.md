@@ -11,43 +11,27 @@ unpick_sn_no_trans
 --------------------
 
 Public Function unpick(ByVal dtl_num As String, _
-
                        ByVal loc_name As String, ByVal bin_name As String, _
-
                        ByVal cont_num As String, ByVal use_good As Boolean, _
-
                        ByVal user_name As String, ByVal unpick_date As String, _
-
                        ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function unpick_sn(ByVal dtl_num As String, ByVal loc_name As String, _
-
                           ByVal bin_name As String, ByVal cont_num As String, _
-
                           ByVal use_good As Boolean, ByVal user_name As String, _
-
                           ByVal unpick_date As String, ByVal serial_no As String, _
-
                           ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function unpick_no_trans(ByVal dtl_num As String, _
-
                        ByVal loc_name As String, ByVal bin_name As String, _
-
                        ByVal cont_num As String, ByVal use_good As Boolean, _
-
                        ByVal user_name As String, ByVal unpick_date As String, _
-
                        ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function unpick_sn_no_trans (ByVal dtl_num As String, ByVal loc_name As String, _
-
                           ByVal bin_name As String, ByVal cont_num As String, _
-
                           ByVal use_good As Boolean, ByVal user_name As String, _
-
                           ByVal unpick_date As String, ByVal serial_no As String, _
-
                           ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -87,9 +71,7 @@ user_name                             No      
 
 performs the unpick.
 
-unpick_date                          No                           When was the part request unpicked. If this parameter is left blank, the PR
-
-is unpicked at the current time
+unpick_date                          No                           When was the part request unpicked. If this parameter is left blank, the PR is unpicked at the current time
 
 gen_time_bombs                 Yes                         Should a time_bomb be generated
 
@@ -137,7 +119,7 @@ specified "from" bin
 
 -121                                         The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created.
 
-**Examples  **
+**Examples**
 
  Unpick inventory for part request number '1-14' from Austin's Bin 12. The unpick is performed by Dan on January 1, 2001, and is from bad inventory. Generate time bombs.
 
@@ -146,7 +128,6 @@ specified "from" bin
 Dim ret_int As Integer
 
 ret_int = fccl.unpick("1-14", "Austin", "Bin 12", "", False, "dan", _
-
      "1/1/2001", True)
 
 **Javascript:**

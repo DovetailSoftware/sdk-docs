@@ -5,53 +5,30 @@ log_cr_note_list
 ------------------
 
 Public Function log_cr_note(ByVal cr_id As String, _
-
                             ByVal notes As String, _
-
           ByVal int_use As String, _
-
           ByVal log_date As String, _
-
           ByVal user_name As String, _
-
           ByVal gen_time_bombs As Boolean, _
-
           ByVal int_fld1 As String, _
-
           ByVal int_val1 As Long, _
-
           ByVal int_fld2 As String, _
-
           ByVal int_val2 As Long, _
-
                             ByVal str_fld1 As String, _
-
                             ByVal str_val1 As String, _
-
                             ByVal str_fld2 As String, _
-
                             ByVal str_val2 As String, _
-
                             ByVal date_fld1 As String, _
-
                             ByVal date_val1 As String) As Integer
 
 Public Function log_cr_note_list(ByVal cr_id As String, _
-
                                  ByVal notes As String, _
-
                                  ByVal int_use As String, _
-
                                  ByVal log_date As String, _
-
                                  ByVal user_name As String, _
-
                                  ByVal gen_time_bombs As Boolean, _
-
          Optional fld_list As Variant, _
-
                                  Optional val_list As Variant, _
-
          Optional type_list As Variant) As Integer
 
 **Description**
@@ -109,7 +86,7 @@ val_list                                   No�
 
 ret_objid                                Output                   Returns the objid of the note
 
-**Examples  **
+**Examples**
 
  Create a note log for CR number '2'. Set the notes for the log, and indicate that it's internal use only. Have the note logged by marty on November 23, 1997 at 10PM. Don't generate a time bomb (for business rule notification).  The second field version illustrates how to set additional fields.
 
@@ -122,9 +99,7 @@ ret_objid                                Output 
 Dim log_objid As Long
 
 ret_int = fccq.log_cr_note("2", "Some notes", "Internal text", _
-
       "11/23/97 22:00:00", "marty", False, _
-
       "", 0, "", 0, "", "", "", "", "", "")
 
  If ret_int = 0 Then
@@ -152,13 +127,9 @@ var ret_int = fccq.log_cr_note("2", "Some notes", "Internal text",
 Dim log_objid As Long
 
 ret_int = fccq.log_cr_note("2", "Some notes", "Internal text", _
-
       "11/23/97 22:00:00", "marty", False, _
-
                            "x_close_int1", 1, "x_close_int2", 456, _
-
                            "x_summary2", "More text", "", "", _
-
       "x_other_date", "1/1/99")
 
  If ret_int = 0 Then
@@ -220,11 +191,8 @@ type_list.AppendItem "Date"
 val_list.AppendItem "1/1/99"
 
 ret_int = fccq.log_cr_note_list("2", "Some notes", _
-
                                 "Internal text", _
-
            "11/23/97 22:00:00", "marty", False, _
-
             fld_list, type_list, val_list)
 
  If ret_int = 0 Then

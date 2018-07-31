@@ -2,9 +2,7 @@ add_site_to_bus_org
 -----------------------
 
 Public Function add_site_to_bus_org(ByVal site_id As String, _
-
                                     ByVal acct_id As String, _
-
                                     ByVal role_name As String) As Integer
 
 **Description**

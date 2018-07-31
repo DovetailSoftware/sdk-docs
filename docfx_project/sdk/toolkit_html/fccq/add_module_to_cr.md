@@ -2,9 +2,7 @@ add_module_to_cr
 ------------------
 
 Public Function add_module_to_cr(ByVal fix_objid As Long, _
-
    Byval file As String, _
-
                                  ByVal rev As String) As Integer
 
 **Description**
@@ -30,7 +28,7 @@ rev                                      �
 
 -2                                             A fixed module file was not provided
 
-**Examples  **
+**Examples**
 
  Add file 'foo.c', revision 3.32 to a specific fix_bug record.
 

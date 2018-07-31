@@ -5,53 +5,30 @@ add_workaround_list
 ---------------------
 
 Public Function add_workaround(ByVal soln_id As String, _
-
                                ByVal soln_objid As Long, _
-
                                ByVal workaround As String, _
-
                                ByVal is_public As Boolean, _
-
-                               ByVal create_date As String,
-
+                               ByVal create_date As String, _
                                ByVal res_code As String, _ 
-
                                ByVal int_fld1 As String, _
-
                                ByVal int_val1 As Long, _
-
                                ByVal int_fld2 As String, _
-
                                ByVal int_val2 As Long, _
-
                                ByVal str_fld1 As String, _
-
                                ByVal str_val1 As String, _
-
                                ByVal str_fld2 As String, _
-
                                ByVal str_val2 As String, _
-
                                ByVal date_fld1 As String, _
-
                                ByVal date_val1 As String) As Integer
 
 Public Function add_workaround_list(ByVal soln_id As String, _
-
                                     ByVal soln_objid As Long, _
-
                                     ByVal workaround As String, _
-
                                     ByVal is_public As Boolean, _
-
                                     ByVal create_date As String, _
-
-                                    ByVal res_code As String,
-
+                                    ByVal res_code As String, _
                                     Optional fld_list As Variant, _
-
                                     Optional type_list As Variant, _
-
                                     Optional val_list As Variant) As Integer
 
 **Description**
@@ -126,11 +103,8 @@ Dim ret_int          As Integer
 Dim workaround_objid As Long
 
 ret_int = fcinter.add_workaround("44", 0, _
-
                                  "No current workaround", true, _
-
                                  "11/11/1998 11:00:00", "", "", 0, _
-
                                  "", 0, "", "", "", "", "", "")
 
    If ret_int = 0 Then

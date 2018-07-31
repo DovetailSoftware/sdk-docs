@@ -5,53 +5,30 @@ log_case_commit_list
 ----------------------
 
 Public Function log_case_commit(ByVal case_id As String, _
-
                     ByVal the_title As String, ByVal action_type As String, _
-
                     ByVal log_date As String, ByVal commit_date As String, _
-
                     ByVal prior_warn As Long, ByVal made_to As Boolean, _
-
                     ByVal cont_first As String, ByVal cont_last As String, _
-
                     ByVal cont_phone As String, ByVal note_str As String, _
-
                     ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
-
                     ByVal generate_commit_email As Boolean, _
-
                     ByVal int_fld1 As String, _          
-
                     ByVal int_val1 As Long, ByVal int_fld2 As String, _
-
                     ByVal int_val2 As Long, ByVal str_fld1 As String, _
-
                     ByVal str_val1 As String, ByVal str_fld2 As String, _
-
                     ByVal str_val2 As String, ByVal date_fld1 As String, _
-
                     ByVal date_val1 As String) As Integer
 
 Public Function log_case_commit_list(ByVal case_id As String, _
-
                     ByVal the_title As String, ByVal action_type As String, _
-
                     ByVal log_date As String, ByVal commit_date As String, _
-
                     ByVal prior_warn As Long, ByVal made_to As Boolean, _
-
                     ByVal cont_first As String, ByVal cont_last As String, _
-
                     ByVal cont_phone As String, ByVal note_str As String, _
-
                     ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
-
                     ByVal generate_commit_email As Boolean, _
-
                     Optional fld_list As Variant, _
-
                     Optional type_list As Variant,
-
                     Optional val_list As Variant) As Integer
 
 **Description**
@@ -153,7 +130,7 @@ commitment expires)
 
 -11                                           Cannot find the employee record for the specified user
 
-**Examples  **
+**Examples**
 
  Create a log for case number 'C154'. Set a title and use the default action code, log date, and user. Make the commitment to "Bill Clinton", and make the commitment expire on the default (log) date. Make no prior warning, have no notes, and set no additional fields. Generate a time bomb, and the commitement emails.
 
@@ -172,9 +149,7 @@ var ret_int = fccs.log_case_commit("C154", "A title", "", "", "", 0, true,
    Dim ret_int   As Integer
 
 ret_int = fccs.log_case_commit("C154", "A title", "", "", "", 0, True, _
-
           "Bill", "Clinton", "555-555-1234", "", "", True, True, _
-
           "", 0, "", 0, "", "", "", "", "", "")
 
 **List version:**
@@ -192,7 +167,6 @@ var ret_int = fccs.log_case_commit_list("C154", "A title", "", "",
    Dim ret_int     As Integer
 
 ret_int = fccs.log_case_commit_list("C154", "A title", "", "", "", 0, True, _
-
           "Bill", "Clinton", "555-555-1234", "", "", True, True)
 
  Create a log for case number '2'. Set a title, action code, log date, and user. Make the commitment by "Bill Clinton", and make the commitment expire on '1/1/99'. Make a prior warning for two hours, have some notes, and additional fields. Generate neither a time bomb, nor the commitement emails.
@@ -218,15 +192,10 @@ var ret_int = fccs.log_case_commit("2", "A title", "External Commitment",
    Dim ret_int   As Integer
 
 ret_int = fccs.log_case_commit("2", "A title", "External Commitment", _
-
           "11/23/97 22:00:00", "1/1/99", 7200, False, _
-
           "Bill", "Clinton", "555-555-1234", "Some notes", "marty", _
-
           False, False, "x_close_int1", 1, "x_close_int2", 456, _
-
           "x_summary2", "More text", "", "", _
-
           "x_other_date", "1/1/99")
 
 **List version:**
@@ -306,9 +275,6 @@ type_list.AppendItem "Date"
 val_list.AppendItem "1/1/99"
 
 ret_int = fccs.log_case_commit_list("2", "A title", "External Commitment", _
-
           "11/23/97 22:00:00", "1/1/99", 7200, False, _
-
           "Bill", "Clinton", "555-555-1234", "Some notes", "marty", _
-
           False, False, fld_list, type_list, val_list)

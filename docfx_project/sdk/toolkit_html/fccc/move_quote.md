@@ -2,7 +2,6 @@
 **move_quote**
 
 Public Function move_quote(ByVal quote_id As String, _
-
                            ByVal new_wipbin As String) As Integer
 
 **Description**
@@ -32,7 +31,7 @@ new_wipbin                          Yes        
 
 -4                                             New WIPBIN is same as old - no move needed
 
-**Examples  **
+**Examples**
 
  Move quote number '154' to the default WIPBin for the current owner.
 

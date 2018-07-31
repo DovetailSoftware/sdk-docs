@@ -2,17 +2,11 @@ mod_part_stocking_lev
 -----------------------
 
 Public Function mod_part_stocking_lev(ByVal bin_name As String, _
-
                            ByVal to_bin As String, ByVal location_name As String, _
-
                            ByVal queue_name As String, ByVal to_queue As String, _
-
                            ByVal part_number As String, ByVal mod_level As String, _
-
                            ByVal domain_name As String, ByVal part_minimum As Integer, _
-
                            ByVal part_maximum As Integer, ByVal part_rol As Integer, _
-
                            ByVal part_roq As Integer, ByVal is_active As Boolean) As Integer
 
 **Description**
@@ -88,7 +82,7 @@ is_active                                   �
 
 -16                                           The specified part stocking record does not exist
 
-**Examples  **
+**Examples**
 
  Move the restock record from bin 2 to bin 3. Change the queue from high to low, and don't change the minimum or maximum.
 
@@ -97,9 +91,7 @@ is_active                                   �
 Dim ret_int As Integer
 
 ret_int = fccl.mod_part_stocking_lev("Bin 2", "Bin 3", "Austin", "High", _
-
                        "Low", "CD Rom", "", "Quantity", -1, -1, _
-
                        15, 2, True)
 
 **Javascript:**

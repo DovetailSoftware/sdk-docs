@@ -5,51 +5,29 @@ log_cr_email_list
 -------------------
 
 Public Function log_cr_email(ByVal cr_id As String, _
-
                             ByVal log_date As String, ByVal message As String, _
-
                             ByVal recipient As String, ByVal cc_list As String, _
-
                             ByVal user_name As String, _
-
     ByVal gen_time_bombs As Boolean, _
-
                             ByVal send_email As Boolean, _
-
                             ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                             ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                             ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                             ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                             ByVal date_fld1 As String, _
-
     ByVal date_val1 As String) _
-
                             As Integer
 
 Public Function log_cr_email_list(ByVal cr_id As String, _
-
                                   ByVal log_date As String, _
-
     ByVal message As String, _
-
                                   ByVal recipient As String, _
-
     ByVal cc_list As String, _
-
                                   ByVal user_name As String, _
-
     ByVal gen_time_bombs As Boolean, _
-
                                   ByVal send_email As Boolean, _
-
                                   Optional fld_list As Variant, _
-
                                   Optional type_list As Variant, _
-
                                   Optional val_list As Variant) As Integer
 
 **Description**
@@ -113,7 +91,7 @@ val_list                                   No�
 
 ret_objid                                Output                   Returns the objid of the email_log
 
-**Examples  **
+**Examples**
 
  Create an email_log for CR number '2'. Set the message for the log. Set the recipient to be joe@company.com, and also CC the email to mary@company.com and sally@company.com Have the email logged by marty on November 23, 1997 at 10PM. Generate a time bomb (for business rule notification), and also generate a time_bomb so that rulemanager will send out the email. The second field version illustrates how to set additional fields.
 
@@ -126,15 +104,10 @@ ret_objid                                Output 
 Dim log_objid As Long
 
 ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
-
 "This is an outgoing email", _
-
 "joe@company.com", _
-
 "mary@company.com,sally@company.com", _
-
       "marty", True, True, _
-
       "", 0, "", 0, "", "", "", "", "", "")
 
  If ret_int = 0 Then
@@ -146,13 +119,9 @@ ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
 **JavaScript:**
 
 var ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
-
 "This is an outgoing email", _
-
 "joe@company.com", _
-
 "mary@company.com,sally@company.com", _
-
                            "marty", True, True, _ 
 
       "", 0, "", 0, "", "", "", "", "", "");
@@ -168,19 +137,12 @@ var ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
 Dim log_objid As Long
 
 ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
-
 "This is an outgoing email", _
-
 "joe@company.com", _
-
 "mary@company.com,sally@company.com", _
-
       "marty", True, True, _
-
                            "x_int1", 1, "x_int2", 456, _
-
                            "x_summary2", "More text", "", "", _
-
       "x_other_date", "1/1/99")
 
  If ret_int = 0 Then
@@ -192,15 +154,10 @@ ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
 **JavaScript:**
 
 var ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
-
 "This is an outgoing email", _
-
 "joe@company.com", _
-
 "mary@company.com,sally@company.com", _
-
       "marty", True, True, _
-
                            "x_int1", 1, "x_int2", 456,
 
                            "x_summary2", "More text", "", "",
@@ -248,15 +205,10 @@ type_list.AppendItem "Date"
 val_list.AppendItem "1/1/99"
 
 ret_int = fccq.log_cr_email_list("2", "11/23/97 22:00:00",_
-
 "This is an outgoing email", _
-
 "joe@company.com", _
-
 "mary@company.com,sally@company.com", _
-
       "marty", True, True, _
-
        fld_list, type_list, val_list)
 
  If ret_int = 0 Then
@@ -298,15 +250,10 @@ type_list.AppendItem("Date");
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccq.log_cr_email_list("2", "11/23/97 22:00:00",_
-
 "This is an outgoing email", _
-
 "joe@company.com", _
-
 "mary@company.com,sally@company.com", _
-
       "marty", True, True, _
-
       fld_list, type_list, val_list);
 
  if (ret_int == 0) { var log_objid = fccq.ret_objid; }

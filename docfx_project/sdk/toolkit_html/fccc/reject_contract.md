@@ -2,11 +2,8 @@ reject_contract
 ---------------
 
 Public Function reject_contract(ByVal contract_id As String, _
-
                            ByVal status_str As String, ByVal notes_str As String, _
-
                            ByVal user_name As String, ByVal reject_date As String, _
-
                            ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -50,14 +47,13 @@ gen_time_bomb                   Yes             �
 
 -7                                             Employee record not found for specified user
 
-**Examples  **
+**Examples**
 
  Joe rejected contract '42' on January 1st with some notes, and put it in status 'Customer bankrupt." Generate a time bomb.
 
 **JavaScript:**
 
 Var ret_int = fc_cc.reject_contract("42", "Customer bankrupt", "Some notes", _
-
                                   "Joe", "1/1/99 8:00:00", True)
 
 **Visual Basic:**
@@ -65,7 +61,6 @@ Var ret_int = fc_cc.reject_contract("42", "Customer bankrupt", "Some notes", _
    Dim ret_int    As Integer
 
    ret_int = fc_cc.reject_contract("42", "Customer bankrupt", "Some notes", _
-
                                   "Joe", "1/1/99 8:00:00", True)
 
  The current user rejects contract '33' at the current date and time. Use the default status, and nothing else is added, and don't add a time bomb.

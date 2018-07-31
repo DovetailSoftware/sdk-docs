@@ -7,79 +7,44 @@ create_employee_list
 Public Function create_employee(
 
             ByVal first_name As String, ByVal last_name As String, _
-
             ByVal login_name As String, ByVal password As String, _
-
             ByVal site_id As String, ByVal e_mail As String, _
-
             ByVal phone As String, ByVal pager As String, _
-
             ByVal online_priv_class As String, ByVal offline_priv_class As String, _
-
             ByVal Id As String, ByVal is_active As Boolean, _
-
             ByVal allow_proxy As Boolean, ByVal start_date As String, _
-
             ByVal supervisor As String, ByVal work_group As String, _
-
             ByVal work_group_start As String, ByVal labor_rate As String, _
-
             ByVal is_supervisor As Boolean, ByVal is_fe As Boolean, _
-
             ByVal normal_biz_high As String, ByVal normal_biz_mid As String, _
-
             ByVal normal_biz_low As String, ByVal after_biz_high As String, _
-
             ByVal after_biz_mid As String, ByVal after_biz_low As String, _
-
             ByVal def_wipbin_title As String, ByVal rc_config As String, _
-
             ByVal def_tablespace As String, ByVal temp_tablespace As String, _
-
             ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
             ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
             ByVal str_fld1 As String, ByVal str_val1 As String, _
-
             ByVal str_fld2 As String, ByVal str_val2 As String, _
-
             ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function create_employee_list(
 
             ByVal first_name As String, ByVal last_name As String, _
-
             ByVal login_name As String, ByVal password As String, _
-
             ByVal site_id As String, ByVal e_mail As String, _
-
             ByVal phone As String, ByVal pager As String, _
-
             ByVal online_priv_class As String, ByVal offline_priv_class As String, _
-
             ByVal Id As String, ByVal is_active As Boolean, _
-
             ByVal allow_proxy As Boolean, ByVal start_date As String, _
-
             ByVal supervisor As String, ByVal work_group As String, _
-
             ByVal work_group_start As String, ByVal labor_rate As String, _
-
             ByVal is_supervisor As Boolean, ByVal is_fe As Boolean, _
-
             ByVal normal_biz_high As String, ByVal normal_biz_mid As String, _
-
             ByVal normal_biz_low As String, ByVal after_biz_high As String, _
-
             ByVal after_biz_mid As String, ByVal after_biz_low As String, _
-
             ByVal def_wipbin_title As String, ByVal rc_config As String, _
-
             ByVal def_tablespace As String, ByVal temp_tablespace As String, _
-
             Optional fld_list As Variant, Optional type_list As Variant, _
-
             Optional val_list As Variant) As Integer
 
 **Description**
@@ -142,17 +107,17 @@ is_supervisor                        Yes        �
 
 is_fe                                       Yes                         Is this employee a field engineer?
 
-normal_biz_high                  No                           Notification Preference - Normal Business Hours � High Priority
+normal_biz_high                  No                           Notification Preference - Normal Business Hours - High Priority
 
-normal_biz_mid                    No                           Notification Preference � Normal Business Hours � Medium Priority
+normal_biz_mid                    No                           Notification Preference - Normal Business Hours - Medium Priority
 
-normal_biz_low                    No                           Notification Preference � Normal Business Hours � Low Priority
+normal_biz_low                    No                           Notification Preference - Normal Business Hours - Low Priority
 
-after_biz_high                      No                           Notification Preference � After Business Hours � High Priority
+after_biz_high                      No                           Notification Preference - After Business Hours - High Priority
 
-after _biz_mid                       No                           Notification Preference � After Business Hours � Medium Priority
+after _biz_mid                       No                           Notification Preference - After Business Hours - Medium Priority
 
-after _biz_low                       No                           Notification Preference � After Business Hours � Low Priority
+after _biz_low                       No                           Notification Preference - After Business Hours - Low Priority
 
 def_wipbin_title                   No                           Title of employee's default wipbin. If left blank, it will be "default"
 
@@ -327,43 +292,24 @@ date_fld1 = ""
 date_val1 = ""
 
    ret_int = fcinter.create_employee(first_name, last_name, _
-
                      login_name, password, _
-
  site_id, e_mail, _
-
                      phone, pager, _
-
 online_priv_class, offline_priv_class, _
-
                      Id, is_active, _
-
                      allow_proxy, start_date, _
-
                      supervisor, work_group, _
-
                      work_group_start, labor_rate, _
-
                      is_supervisor, is_fe, _
-
                      normal_biz_high, normal_biz_mid, _
-
                      normal_biz_low, after_biz_high, _
-
                      after_biz_mid, after_biz_low, _
-
                      def_wipbin_title, rc_config, _
-
 def_tablespace, temp_tablespace, _
-
  int_fld1, int_val1, _
-
                      int_fld2, int_val2, _
-
                      str_fld1, str_val1, _
-
                      str_fld2, str_val2, _
-
                      date_fld1, date_val1)
 
    If ret_int = 0

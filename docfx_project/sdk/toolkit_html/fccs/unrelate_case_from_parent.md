@@ -22,7 +22,7 @@ case_id                                  Yes �
 
 -2                                             The specified case does not have a parent case
 
-**Examples  **
+**Examples**
 
  Unrelate case 5 from its parent case.
 

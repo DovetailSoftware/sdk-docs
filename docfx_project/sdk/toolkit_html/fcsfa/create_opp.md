@@ -5,93 +5,50 @@ create_opp_list
 -----------------
 
 Public Function create_opp(ByVal opp_name As String, _
-
                            ByVal acct_id As String, _
-
                            ByVal con_first As String, _
-
                            ByVal con_last As String, _
-
                            ByVal con_phone As String, _
-
                            ByVal terr_name As String, _
-
                            ByVal amt As Currency, _
-
                            ByVal close_date As String, _
-
                            ByVal sales_stage As String, _
-
                            ByVal lead_source As String, _
-
                            ByVal the_currency As String, _
-
                            ByVal prob As String, _
-
                            ByVal process As String, _
-
                            ByVal user_name As String, _
-
                            ByVal create_date As String, _
-
                            ByVal gen_time_bombs As Boolean, _
-
                            ByVal int_fld1 As String, _
-
                            ByVal int_val1 As Long, _
-
                            ByVal int_fld2 As String, _
-
                            ByVal int_val2 As Long, _
-
                            ByVal str_fld1 As String, _
-
                            ByVal str_val1 As    String, _
-
                            ByVal str_fld2 As String, _
-
-                           ByVal str_val2 As String,
-
+                           ByVal str_val2 As String, _
                            ByVal date_fld1 As String, _
-
                            ByVal date_val1 As String) As Integer
 
 Public Function create_opp_list(ByVal opp_name As String, _
-
                                 ByVal acct_id As String, _
-
                                 ByVal con_first As String, _
-
                                 ByVal con_last As String, _
-
                                 ByVal con_phone As String, _
-
                                 ByVal terr_name As String, _
-
                                 ByVal amt As Currency, _
-
                                 ByVal close_date As String, _
-
                                 ByVal sales_stage As String, _
-
                                 ByVal lead_source As String, _
-
                                 ByVal the_currency As String, _
-
                                 ByVal prob As String, _
-
                                 ByVal process As String, _
-
                                 ByVal user_name As String, _
-
                                 ByVal create_date As String, _
-
                                 ByVal gen_time_bombs As Boolean, _
-
                                 Optional fld_list As Variant, _
-
                                 Optional type_list As Variant, _
-
                                 Optional val_list As Variant) As Integer
 
 **Description**
@@ -192,7 +149,7 @@ val_list                                   Yes
 
 -14                                           Cannot find the Lost activity string
 
-**Examples  **
+**Examples**
 
  Create a new opportunity. Specify an account, a contact, a territory, an amount (123.33), a close date, the stage, the source, the currency, a probability of .5, a process of 'default'. Use the current user name and time. Generate time bombs. Also, specify a new string field.
 
@@ -215,11 +172,8 @@ val_list                                   Yes
 Dim opp_id     As String
 
    ret_int = fcsfa.create_opp("My opp", "AN_CUST1", "a", "b", "c", "The World", _
-
                         "123.33", "1/1/00", "Lost", "Default", "US Dollar", _
-
                         ".5", "default", "", "", True, "", 0, "", 0, _
-
                         "x_objective", "foobar", "", "", "", "")
 
 **List version:**
@@ -263,9 +217,6 @@ type_list.AppendItem("String")
 val_list.AppendItem("foobar")
 
    ret_int = fcsfa.create_opp("My opp", "AN_CUST1", "a", "b", "c", "The World", _
-
                         "123.33", "1/1/00", "Lost", "Default", "US Dollar", _
-
             ".5", "default", "", "", True, fld_list, _
-
             type_list, val_list)

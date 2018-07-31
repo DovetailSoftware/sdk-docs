@@ -5,65 +5,36 @@ make_pr_detail_list
 ---------------------
 
 Public Function make_pr_detail(ByVal hdr_num As String, _
-
                              ByVal queue_name As String, ByVal part_num As String, _
-
                              ByVal domain_name As String, ByVal mod_level As String, _
-
                              ByVal serial_no As String, ByVal quantity_num As Integer, _
-
                              ByVal sp_rec_objid As Long, ByVal sp_rec_recordtype As String, _
-
                              ByVal dtl_type As String, ByVal priority_str As String, _
-
                              ByVal ship_via As String, ByVal carrier_name As String, _
-
                              ByVal user_name As String, ByVal warranty As Integer, _
-
                              ByVal note_str As String, ByVal status_str As String, _
-
   ByVal create_date As String, ByVal due_date As String, _
-
                               ByVal gen_time_bombs As Boolean, _
-
                              ByVal contr_itm_objid As Long, _
-
                              ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                              ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                              ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                              ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                              ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function make_pr_detail_list(ByVal hdr_num As String, _
-
                              ByVal queue_name As String, ByVal part_num As String, _
-
                              ByVal domain_name As String, ByVal mod_level As String, _
-
                              ByVal serial_no As String, ByVal quantity_num As Integer, _
-
                              ByVal sp_rec_objid As Long, ByVal sp_rec_recordtype As String, _
-
                              ByVal dtl_type As String, ByVal priority_str As String, _
-
                              ByVal ship_via As String, ByVal carrier_name As String, _
-
                              ByVal user_name As String, ByVal warranty As Integer, _
-
   ByVal note_str As String, _
-
                              ByVal status_str As String, ByVal create_date As String, _
-
                              ByVal due_date As String, ByVal gen_time_bombs As Boolean, _
-
                              ByVal contr_itm_objid As Long, Optional fld_list As Variant, _
-
                              Optional type_list As Variant, Optional val_list As Variant) _
-
                              As Integer
 
 **Description**
@@ -197,7 +168,7 @@ ret_id_num                            Output    �
 
 ret_objid                                Output                   Returns the objid of the newly created part request detail
 
-**Examples  **
+**Examples**
 
  Create a new part request detail for PR header '1'. Make it 1 unit of "Attachments Anywhere, version 2.12"., with serial number 'A456'. Make it a "Return For Credit" type. Generate a time bomb. All other information is defaulted.
 
@@ -208,15 +179,10 @@ ret_objid                                Output 
 Dim ret_int   As Integer
 
 ret_int = fccl.make_pr_detail("1", "", "Attachments Anywhere", _
-
                            "2.12", "First Choice", "A456", 1, 0, "", _
-
                               "Return For Credit", "", "", _
-
                               "", "", 0, "", "", "", _
-
                               "", True, 0, "", 0, "", 0, "", "", _
-
                               "", "", "", "")
 
 **Javascript:**
@@ -252,13 +218,9 @@ type_list.ItemType = "String"
 val_list.ItemType = "String"
 
 ret_int = fccl.make_pr_detail_list("1", "", "Attachments Anywhere", _
-
                                    "2.12", "First Choice", "A456", 1, 0, "", _
-
                                    "Return For Credit", "", "", "", "", 0,"", _
-
                                    "", "", "", True, 0, fld_list, _
-
                                    type_list, val_list)
 
 **Javascript:**
@@ -288,17 +250,11 @@ var ret_int = fccl.make_pr_detail_list("1", "", "Attachments Anywhere",
 Dim ret_int   As Integer
 
 ret_int = fccl.make_pr_detail("42", "Low", "Zipcode Reverse Directory", _
-
                             "1.00", "First Choice", "", 22, 0, "", _
-
                                "Return For Credit", "Priority 1", "Overnight", _
-
                                 "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
-
                                 "2/1/2001 15:00:00", True, 0, "int_fld1", 30, _
-
                                 "", 0, "str_fld1", "Hello!!", _
-
                                 "", "", "", "")
 
 **Javascript:**
@@ -332,15 +288,10 @@ Dim val_list    As New List
 ' Assume lists are filled in already
 
 ret_int = fccl.make_pr_detail_list("42", "Low", "Zipcode Reverse Dir", _
-
                                    "1.00", "First Choice", "", 22, 0, "", _
-
                                    "Return For Credit", "Priority 1", "Overnight", _
-
                                    "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
-
                                    "2/1/2001 15:00:00", True, 0, fld_list, _
-
                                    type_list, val_list)
 
 **Javascript:**
@@ -376,17 +327,11 @@ Dim sp_objid  As Long
 sp_objid = 268435123
 
 ret_int = fccl.make_pr_detail("42", "Low", "Zipcode Reverse Directory", _
-
                             "1.00", "First Choice", "", 22, sp_objid, "site_part", _
-
                                "Return For Credit", "Priority 1", "Overnight", _
-
                                 "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
-
                                 "2/1/2001 15:00:00", True, 0, "int_fld1", 30, _
-
                                 "", 0, "str_fld1", "Hello!!", _
-
                                 "", "", "", "")
 
 **Javascript:**
@@ -426,15 +371,10 @@ sp_objid = 268435123
 ' Assume lists are filled in already
 
 ret_int = fccl.make_pr_detail_list("42", "Low", "Zipcode Reverse Dir", _
-
                                    "1.00", "First Choice", "", 22, sp_objid, "site_part", _
-
                                    "Return For Credit", "Priority 1", "Overnight", _
-
                                    "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
-
                                    "2/1/2001 15:00:00", True, 0, fld_list, _
-
                                    type_list, val_list)
 
 **Javascript:**

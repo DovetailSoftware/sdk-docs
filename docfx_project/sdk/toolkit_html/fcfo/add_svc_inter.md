@@ -2,15 +2,10 @@ add_svc_inter
 ---------------
 
 Public Function add_svc_inter(ByVal case_id As String, _
-
                   ByVal sp_objid As Long, ByVal description As String, _
-
 ByVal start_time As String, ByVal end_time As String, _
-
                   ByVal duration As Long, ByVal svc_class As String, _
-
                   ByVal svc_type As String, ByVal user_name As String, _
-
                   ByVal creation_time As String) As Integer
 
 **Description**
@@ -97,7 +92,6 @@ Dim ret_int    As Integer
 Dim ap_objid   As Long
 
    ret_int = fcfo.add_svc_inter("C102", 0, "test by case", _
-
                                 "9/12/99 11:00:00", "9/12/99 11:10:00", 600, _                    
 
                     "", "", "sa", "7/23/99 2:57:59")
@@ -127,7 +121,6 @@ Dim ret_int    As Integer
 Dim ap_objid   As Long
 
    ret_int = fcfo.add_svc_inter("", 268435458, "test by site part", _
-
                     "9/12/99 11:00:00", "9/12/99 12:00:00", _     
 
                    0, "", "", "", "7/23/99 2:57:59")

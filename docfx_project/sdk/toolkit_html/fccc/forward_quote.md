@@ -2,11 +2,8 @@ forward_quote
 -------------
 
 Public Function forward_quote(ByVal quote_id As String, _
-
                          ByVal new_queue As String, ByVal forward_date As String, _
-
                          ByVal note_str As String, ByVal user_name As String, _
-
                          ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -20,9 +17,7 @@ quote_id                                    
 
 new_queue                           Yes                         The queue to forward to
 
-forward_date                        No                           When was the quote forwarded. If this parameter is left blank, the quote
-
-is forwarded at the current time
+forward_date                        No                           When was the quote forwarded. If this parameter is left blank, the quote is forwarded at the current time
 
 note_str                                 No                           Optional notes about the reject-forward
 
@@ -50,7 +45,7 @@ gen_time_bombs                 Yes               
 
 -6                                             The FORWARD activity string is not found with rank = 1100
 
-**Examples  **
+**Examples**
 
  Reject-forward quote number '154' to queue 'Hardware'. The reject-forward has no notes, is performed by the current user and is forwarded at the current time. Generate a time bomb.
 
@@ -69,7 +64,6 @@ ret_int = fc_cc.forward_quote("154", "Hardware", "", "", "", True)
 **JavaScript:**
 
 Var ret_int = fc_cc.forward_quote("Q2", "Software", "11/23/2001 22:00:00", _
-
                              "Some notes", "sam", False)
 
  **Visual Basic:**
@@ -77,5 +71,4 @@ Var ret_int = fc_cc.forward_quote("Q2", "Software", "11/23/2001 22:00:00", _
 Dim ret_int As Integer
 
 ret_int = fc_cc.forward_quote("Q2", "Software", "11/23/2001 22:00:00", _
-
                              "Some notes", "sam", False)

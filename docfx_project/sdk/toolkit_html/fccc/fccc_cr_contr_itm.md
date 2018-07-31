@@ -172,7 +172,7 @@ val_list                                   Yes
 
 ret_objid                                Output                   Returns the objid of the newly created contract item
 
-**Examples  **
+**Examples**
 
 Create a new line item for quote '2'.  A total of 3 Notebooks are quoted for the default schedule. Add a comment, and relate to purchase order '222'.
 

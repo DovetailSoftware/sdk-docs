@@ -2,7 +2,6 @@ move_solution
 -------------
 
 Public Function move_solution(ByVal solution_id As String, _
-
                               ByVal new_wipbin As String) As Integer
 
 **Description**
@@ -32,7 +31,7 @@ new_wipbin                          Yes        
 
 -4                                             New WIPBIN is same as old - no move needed
 
-**Examples  **
+**Examples**
 
  Move solution number '14' to WIPBin 'Hardware'.
 

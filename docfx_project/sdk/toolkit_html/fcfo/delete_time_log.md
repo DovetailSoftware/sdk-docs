@@ -2,9 +2,7 @@ delete_time_log
 -----------------
 
 Public Function delete_time_log(ByVal time_log_objid As Long, _
-
                   ByVal last_modified As String, _
-
                   ByVal user_name As String) As Integer
 
 **Description**

@@ -5,95 +5,51 @@ create_update_account_list
 ----------------------------
 
 Public Function create_update_account(ByVal acct_name As String, _
-
                                       ByVal desc As String, _
-
                                       ByVal territory As String, _
-
                                       ByVal stock As String, _
-
                                       ByVal fiscal_yr As String, _
-
                                       ByVal the_type As String, _
-
                                       ByVal size As String, _
-
                                       ByVal revenue As String, _
-
                                       ByVal ownership As String, _
-
                                       ByVal phone As String, _
-
                                       ByVal fax As String, _
-
                                       ByVal web_site As String, _
-
                                       ByVal user_name As String, _
-
                                       ByVal create_date As String, _
-
                                       ByVal gen_time_bombs As Boolean, _
-
                                       ByVal acct_id As String, _
-
                                       ByVal int_fld1 As String, _
-
                                       ByVal int_val1 As Long, -_
-
                                       ByVal int_fld2 As String, _
-
                                       ByVal int_val2 As Long, _
-
                                       ByVal str_fld1 As String, _
-
                                       ByVal str_val1 As String, _
-
                                       ByVal str_fld2 As String, _
-
-                                      ByVal str_val2 As String, �_
-
+                                      ByVal str_val2 As String, _
                                       ByVal date_fld1 As String, _
-
                                       ByVal date_val1 As String As Integer
 
 Public Function create_update_account_list(ByVal acct_name As String, _
-
                                            ByVal desc As String, _
-
                                            ByVal territory As String, _
-
                                            ByVal stock As String, _
-
                                            ByVal fiscal_yr As String, _
-
                                            ByVal the_type As String, _
-
                                            ByVal size As String, _
-
                                            ByVal revenue As String, _
-
                                            ByVal ownership As String, _
-
                                            ByVal phone As String, _
-
                                            ByVal fax As String, _
-
                                            ByVal web_site As String, _
-
                                            ByVal user_name As String, _
-
                                            ByVal create_date As String, _
-
                                            ByVal gen_time_bombs As Boolean, _
-
                                            ByVal acct_id As String, _
-
                                            Optional fld_list As Variant, _
-
                                            Optional type_list As Variant, _
-
                                            Optional val_list As Variant) _
-
                                            As Integer
 
 **Description**
@@ -202,21 +158,13 @@ Dim ret_int         As Integer
 Dim account_objid   As Long
 
    ret_int = fcinter.create_update_account("New account", _
-
                                            "Description", "The World", _
-
                                            "ACCT", "YEAR", "Customer",_
-
  "10 - 99", _
-
                                            "$1M - 5M", "Private", _
-
                                            "333-333-3333", "333-333-3334", _
-
                                            "www.acct.com",  _
-
  "", "", true, "", "", 0, "", 0, _
-
                    "", "", "", "", "", "")
 
  If ret_int = 0 Then
@@ -260,21 +208,13 @@ Dim type_list     As List
 Dim val_list      As List
 
    ret_int = fcinter.create_update_account_list("New account", _
-
                                                "Description", _
-
                                                "The World", "ACCT", "YEAR", _
-
                                                "Customer", "10 - 99", _
-
                                                "$1M - 5M", "Private", _
-
                                                "333-333-3333", _
-
                                                "333-333-3334", "www.acct.com", _
-
                                                "", "", true, "", _
-
                                                fld_list, type_list, val_list)
 
  If ret_int = 0 Then
@@ -316,13 +256,9 @@ Dim acct_id   As String
    acct_id = "AN_CUST44"
 
    ret_int = fcinter.create_update_account("", "", "CLEAR", "IBM", "", _
-
                                            "", "", "", "", _
-
                                            "", "", "", "", "", true, acct_id, _
-
                                            "", 0, "", 0, "", "", _
-
                                                                                                "", "", "", "")
 
 **Javascript:**

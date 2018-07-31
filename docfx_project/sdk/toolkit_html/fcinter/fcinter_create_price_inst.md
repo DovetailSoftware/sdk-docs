@@ -2,21 +2,13 @@ create_price_inst
 -------------------
 
 Public Function create_price_inst(ByVal part_num As String, _
-
                                   ByVal domain As String, _
-
                                   ByVal mod_level As String, _
-
                                   ByVal price_prog As String, _
-
                                   ByVal price_type As Integer, _
-
                                   ByVal priced_qty As Long, _
-
                                   ByVal price As String, _
-
                                   ByVal start_date As String, _
-
                                   ByVal end_date As String) As Integer
 
 **Description**
@@ -95,11 +87,8 @@ Dim ret_int          As Integer
 Dim price_inst_objid As Long
 
 ret_int = fcinter.create_price_inst("MS Word", "Product",_
-
                                     "","Spring", _
-
                                     0, 1, "45.54","3/2/2000", _
-
                                    "6/1/2000")
 
  If ret_int = 0 Then
@@ -127,9 +116,7 @@ Dim ret_int          As Integer
 Dim price_inst_objid As Long
 
 ret_int = fcinter.create_price_inst("MS Word", "Product", "",_
-
                                     "US Std Price List", _
-
                                     0, 2, "99.99", "", "")
 
  If ret_int = 0 Then

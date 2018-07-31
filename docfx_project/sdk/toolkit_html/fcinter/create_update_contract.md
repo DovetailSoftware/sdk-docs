@@ -5,95 +5,51 @@ create_update_contract_list
 -----------------------------
 
 Public Function create_update_contract(ByVal contract_id As String, _
-
                                        ByVal contract_type As String, _
-
                                  ByVal status As String, _
-
                                  ByVal po_number As String, _
-
                                  ByVal pay_options As String, _
-
                                  ByVal phone_resp As Long, _
-
                                  ByVal onsite_resp As Long, _
-
                                  ByVal hours_for_pm As String, _
-
                                  ByVal start_date As String, _
-
                                  ByVal expire_date As String, _
-
                                  ByVal unit_type As String, _
-
                                  ByVal units_purch As Double, _
-
                                  ByVal units_used As Double, _
-
                                  ByVal units_avail As Double, _
-
                                  ByVal spec_consid As Long, _
-
                                  ByVal notes As String, _
-
                                  ByVal int_fld1 As String, _
-
                                  ByVal int_val1 As Long, _
-
                                  ByVal int_fld2 As String, _
-
                                  ByVal int_val2 As Long, _
-
                                  ByVal str_fld1 As String, _
-
                                  ByVal str_val1 As String, _
-
                                  ByVal str_fld2 As String, _
-
                                  ByVal str_val2 As String, _
-
                                  ByVal date_fld1 As String, _
-
                                  ByVal date_val1 As String) As Integer
 
 Public Function create_update_contract_list(ByVal contract_id As String, _
-
                                             ByVal contract_type As String, _
-
                                             ByVal status As String, _
-
                                             ByVal po_number As String, _
-
                                             ByVal pay_options As String, _
-
                                             ByVal phone_resp As Long, _
-
                                             ByVal onsite_resp As Long, _
-
                                             ByVal hours_for_pm As String, _
-
                                             ByVal start_date As String, _
-
                                             ByVal expire_date As String, _
-
                                             ByVal unit_type As String, _
-
                                             ByVal units_purch As Double, _
-
                                             ByVal units_used As Double, _
-
                                             ByVal units_avail As Double, _
-
                                             ByVal spec_consid As Long, _
-
                                             ByVal notes As String, _
-
                                             Optional fld_list As Variant, _
-
                                             Optional type_list As Variant, _
-
                                             Optional val_list As Variant) _
-
                                             As Integer
 
 **Description**
@@ -208,19 +164,12 @@ Dim ret_int        As Integer
 Dim contract_objid As Long
 
 ret_int = fcinter.create_update_contract("","Software Support", _
-
                                          "", "PO1234", _
-
                                          "", 3600, 86400, "", _
-
                                          "1/1/2000 8:00:00", _
-
                                          "12/31/2000 8:00:00", "Call",_
-
                                          50, 0, 50, 1, "Good contract!", _
-
                                          "", 0, "", _
-
                                             0, "", "", "", "", "", "")
 
  If ret_int = 0 Then

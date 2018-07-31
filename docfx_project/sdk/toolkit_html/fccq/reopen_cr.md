@@ -2,16 +2,11 @@ reopen_cr
 ---------
 
 Public Function reopen_cr(ByVal cr_id As String, _
-
-  ByVal the_status As String, _
-
-                          ByVal wipbin As String, _
-
-  ByVal user_name As String, _
-
-                          ByVal reopen_date As String, _
-
-                          ByVal gen_time_bombs As Boolean) As Integer
+						ByVal the_status As String, _
+						ByVal wipbin As String, _
+						ByVal user_name As String, _
+                        ByVal reopen_date As String, _
+                        ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
 
@@ -26,9 +21,7 @@ status                                     N
 
 for CR Open condition is used
 
-wipbin                                    No                           The WIPBin to place the CR in. If left blank, the default WIPBin for
-
-                                                                                the user is used
+wipbin                                    No                           The WIPBin to place the CR in. If left blank, the default WIPBin for the user is used
 
 user_name                             No                           The user who reopened the CR. If left blank, the current user performs
 
@@ -72,7 +65,7 @@ gen_time_bombs                 Yes               
 
 -20                                           Cannot find the specified user's employee record for relating time bomb
 
-**Examples  **
+**Examples**
 
  Reopen CR number '10' by the current user at the current date/time. Place in the default WIPBin with the default status, and generate a time bomb.
 
@@ -93,7 +86,6 @@ var ret_int = fccq.reopen_cr("10", "", "", "", "", true);
 Dim ret_int As Integer
 
 ret_int = fccq.reopen_cr("2", "User Error", "Urgent", _
-
                          "jeanne", "11/23/97 22:00:00", False)
 
 **JavaScript:**

@@ -5,93 +5,50 @@ update_action_item_list
 -------------------------
 
 Public Function update_action_item(ByVal task_id As String, _
-
                                    ByVal title As String, _
-
                                    ByVal notes As String, _
-
                                    ByVal first_name As String, _
-
                                    ByVal last_name As String, _
-
                                    ByVal phone As String, _
-
                                    ByVal acct_name As String, _
-
                                    ByVal lead_first As String, _
-
                                    ByVal lead_last As String, _
-
                                    ByVal opp_id As String, _
-
                                    ByVal the_type As String, _
-
                                    ByVal priority As String, _
-
                                    ByVal start_date As String, _
-
                                    ByVal complete_date As String, _
-
                                    ByVal status As String, _
-
                                    ByVal update_date As String, _
-
                                    ByVal int_fld1 As String, _
-
                                    ByVal int_val1 As Long, _
-
                                    ByVal int_fld2 As String, _
-
                                    ByVal int_val2 As Long, _
-
                                    ByVal str_fld1 As String, _
-
                                    ByVal str_val1 As String, _
-
                                    ByVal str_fld2 As String, _
-
                                    ByVal str_val2 As String, _
-
                                    ByVal date_fld1 As String, _
-
                                    ByVal date_val1 As String) As Integer
 
 Public Function update_action_item_list(ByVal task_id As String, _
-
                                         ByVal title As String, _
-
                                         ByVal notes As String, _
-
                                         ByVal first_name As String, _
-
                                         ByVal last_name As String, _
-
                                         ByVal phone As String, _
-
                                         ByVal acct_name As String, _
-
                                         ByVal lead_first As String, _
-
                                         ByVal lead_last As String, _
-
                                         ByVal opp_id As String, _
-
                                         ByVal the_type As String, _
-
                                         ByVal priority As String, _
-
                                         ByVal start_date As String, _
-
                                         ByVal complete_date As String, _
-
                                         ByVal status As String, _
-
                                         ByVal update_date As String, _
-
                                         Optional fld_list As Variant, _
-
                                         Optional type_list As Variant, _
-
                                         Optional val_list As Variant) As Integer
 
 **Description**
@@ -205,7 +162,7 @@ but does not need to have any items in the list
 
 -11                                           The specified priority cannot be found
 
-**Examples  **
+**Examples**
 
  Update action item '9'. Specify a new title and notes. Specify a new contact and lead, but clear out the opportunity, and account. Also specify a new task type and priority. Leave the start/due times alone, but specify a new status. Set a user-defined field
 
@@ -226,11 +183,8 @@ but does not need to have any items in the list
    Dim ret_int    As Integer
 
    ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",_
-
                    "Doe", "555-1212", "CLEAR", "Lead", "Guy", "CLEAR", _
-
                    "Fax", "Low", "", "", "NewStat", "", "x_int1", 44, "", 0, _
-
                    "", "", "", "", "", "")
 
 **List version:**
@@ -274,9 +228,6 @@ type_list.AppendItem("Long")
 val_list.AppendItem("44")
 
    ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",_
-
                    "Doe", "555-1212", "CLEAR", "Lead", "Guy", "CLEAR", _
-
                    "Fax", "Low", "", "", "NewStat", "", fld_list, _
-
                    type_list, val_list)

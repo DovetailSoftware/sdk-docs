@@ -5,45 +5,26 @@ create_update_schedule_list
 -----------------------------
 
 Public Function create_update_schedule(ByVal contract_id As String, _
-
                 ByVal is_create As Boolean, ByVal sched_id As String, _
-
                 ByVal bill_site As String, ByVal bill_attn As String, _
-
                 ByVal ship_site As String, ByVal price_prog As String, _
-
                 ByVal bill_freq As String, ByVal bill_option As String, _
-
                 ByVal period_start_dt As String, ByVal first_bill_dt As String, _
-
                 ByVal chg_start_dt As String, ByVal chg_end_dt As String, _
-
                 ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                 ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function create_update_schedule_list(ByVal contract_id As String, _
-
                 ByVal is_create As Boolean, ByVal sched_id As String, _
-
                 ByVal bill_site As String, ByVal bill_attn As String, _
-
                 ByVal ship_site As String, ByVal price_prog As String, _
-
                 ByVal bill_freq As String, ByVal bill_option As String, _
-
                 ByVal period_start_dt As String, ByVal first_bill_dt As String, _
-
                 ByVal chg_start_dt As String, ByVal chg_end_dt As String, _
-
                 Optional fld_list As Variant, Optional type_list As Variant, _
-
                 Optional val_list As Variant) As Integer
 
 **Description**
@@ -143,20 +124,16 @@ date_val1
 
 ret_objid                                Output                   Returns the objid of the newly created schedule
 
-**Examples  **
+**Examples**
 
  Create a new schedule for contract '42'. Give sites and attention person. Supply a price program, and other options. Specify a value for an extra field named 'x_other_string'.
 
 **JavaScript:**
 
    var ret_int = fc_cc.create_update_schedule( "42", True, "New Schedule", "Site 42", _
-
                                         "Attn: Joe Francis", "Site 44", "March Prices", _
-
                                         "Monthly", "In Advance", "", "", "", "", _
-
                                         "", 0, "", 0, "x_other_string", "Value here!", _
-
                                         "", "", "", "")
 
 **Visual Basic:**
@@ -164,13 +141,9 @@ ret_objid                                Output 
    Dim ret_int As Integer
 
    ret_int = fc_cc.create_update_schedule( "42", True, "New Schedule", "Site 42", _
-
                                         "Attn: Joe Francis", "Site 44", "March Prices", _
-
                                         "Monthly", "In Advance", "", "", "", "", _
-
                                         "", 0, "", 0, "x_other_string", "Value here!", _
-
                                         "", "", "", "")
 
  Update the same contract. Clear the attention field, and change the billing frequency.
@@ -178,9 +151,7 @@ ret_objid                                Output 
 **JavaScript:**
 
 var ret_int = fc_cc.create_update_schedule("42", False, "New Schedule", _
-
                         "", "CLEAR", "IGNORE", "", "Quarterly", "", "", "", "", _
-
                         "", "", 0, "", 0, "", "", "", "", "", "")
 
 **Visual Basic:**
@@ -188,7 +159,5 @@ var ret_int = fc_cc.create_update_schedule("42", False, "New Schedule", _
    Dim ret_int As Integer
 
    ret_int = fc_cc.create_update_schedule("42", False, "New Schedule", _
-
                         "", "CLEAR", "IGNORE", "", "Quarterly", "", "", "", "", _
-
                         "", "", 0, "", 0, "", "", "", "", "", "")

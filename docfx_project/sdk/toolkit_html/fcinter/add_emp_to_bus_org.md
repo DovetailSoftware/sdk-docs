@@ -2,9 +2,7 @@ add_emp_to_bus_org
 ----------------------
 
 Public Function add_emp_to_bus_org(ByVal user_name As String, _
-
                                    ByVal acct_id As String, _
-
                                    ByVal role_name As String) As Integer
 
 **Description**
@@ -47,7 +45,6 @@ Dim ret_int    As Integer
 Dim emp_objid  As Long
 
 ret_int = fcinter.add_emp_to_bus_org("jeanne", "AN_CUST1", _
-
                                      "Executive Sponsor")
 
  If ret_int = 0 Then

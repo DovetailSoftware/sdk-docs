@@ -2,9 +2,7 @@ remove_site_from_bus_org
 ----------------------------
 
 Public Function remove_site_from_bus_org(ByVal site_id As String, _
-
                                          ByVal acct_id As String, _
-
                                          ByVal role_name As String) As Integer
 
 **Description**
@@ -41,7 +39,6 @@ role_name                              Yes    �
 Dim ret_int    As Integer
 
 ret_int = fcinter.remove_site_from_bus_org("3", "AN_CUST2", _
-
                                            "Development")
 
 **Javascript:**

@@ -2,15 +2,10 @@ change_cr_status
 ------------------
 
 Public Function change_cr_status(ByVal cr_id As String, _
-
    ByVal new_status As String, _
-
    ByVal change_date As String, _
-
    ByVal notes As String, _
-
    ByVal user_name As String, _
-
    ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -62,7 +57,7 @@ gen_time_bombs                 Yes               
 
 -17                                           Cannot find the specified user's employee record for relating time bomb
 
-**Examples  **
+**Examples**
 
  Change status for change request number '10' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
 
@@ -83,9 +78,7 @@ var ret_int = fccq.change_cr_status("10", "", "", "", "", true);
 Dim ret_int As Integer
 
 ret_int = fccq.change_cr_status("2", "Solved", _
-
                                 "11/23/97 22:00:00", _
-
                                 "Some notes", "mark", False)
 
 **JavaScript:**

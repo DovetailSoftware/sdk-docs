@@ -2,15 +2,10 @@ log_lead_note
 ---------------
 
 Public Function log_lead_note(ByVal lead_objid As Long, _
-
                               ByVal the_text As String, _
-
                               ByVal iuo As String, _
-
                               ByVal log_date As String, _
-
                               ByVal user_name As String, _
-
                               ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -46,7 +41,7 @@ gen_time_bombs                 Yes               
 
 -3                                             The NOTES activity string is not found
 
-**Examples  **
+**Examples**
 
  Sam logged a note on December 12, 2000 (at 11AM) for a lead. The text is "Hello there", with some internal use only text as well. Generate time bombs.
 
@@ -63,9 +58,7 @@ var ret_int = fcsfa.log_lead_note(268435458, "Hello there",
 Dim ret_int As Integer
 
 ret_int = fcsfa.log_lead_note(268435458, "Hello there", _
-
                     "This customer is a pain", "12/12/2000 11:00:00", _
-
                     "sam", True)
 
  Log notes for the same lead. Only log text, and do it now for the current user. Don't generate a time bomb.

@@ -2,11 +2,8 @@ reject_pr
 ---------
 
 Public Function reject_pr(ByVal pr_id As String, _
-
                           ByVal reject_date As String, ByVal wipbin_name As String, _
-
                           ByVal note_str As String, ByVal user_name As String, _
-
                           ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -48,7 +45,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Cannot find REJECT activity string with rank = 2600
 
-**Examples  **
+**Examples**
 
  Reject part request number '1-14' to WIPBin 'Hardware'.  The reject occurs on August 1, 2001, and is performed by Marty. Generate a time bomb.
 

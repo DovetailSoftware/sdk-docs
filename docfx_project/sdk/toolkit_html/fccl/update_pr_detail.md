@@ -5,49 +5,28 @@ update_pr_detail_list
 -----------------------
 
 Public Function update_pr_detail(ByVal dtl_num As String, _
-
                         ByVal part_num As String, ByVal domain_name As String, _
-
                         ByVal mod_level As String, ByVal serial_no As String, _
-
                         ByVal quantity_num As Long, ByVal sp_objid As Long, _
-
                         ByVal dtl_type As String, ByVal priority_str As String, _
-
                         ByVal ship_via As String, ByVal carrier_name As String, _
-
                         ByVal warranty As Integer, ByVal note_str As String, _
-
                         ByVal status_str as String, ByVal int_fld1 As String, _
-
                         ByVal int_val1 As Long, ByVal int_fld2 As String, _
-
                         ByVal int_val2 As Long, ByVal str_fld1 As String, _
-
                         ByVal str_val1 As String, ByVal str_fld2 As String, _
-
                         ByVal str_val2 As String, ByVal date_fld1 As String, _
-
                         ByVal date_val1 As String) As Integer
 
 Public Function update_pr_detail_list(ByVal dtl_num As String, _
-
                         ByVal part_num As String, ByVal domain_name As String, _
-
                         ByVal mod_level As String, ByVal serial_no As String, _
-
                         ByVal quantity_num As Long, ByVal sp_objid As Long, _
-
                         ByVal dtl_type As String, ByVal priority_str As String, _
-
                         ByVal ship_via As String, ByVal carrier_name As String, _
-
                         ByVal warranty As Integer, ByVal note_str As String, _
-
                         ByVal status_str As String, Optional fld_list As Variant, _
-
                         Optional type_list As Variant, Optional val_list As Variant) _
-
                         As Integer
 
 **Description**
@@ -131,7 +110,7 @@ str_val1, str_val2, date_val1                         �
 
 -10                                           The site_part record does not have a related part revision
 
-**Examples  **
+**Examples**
 
  Update part request '3-3'. Change the part to 'MS Word, revision 7.0' (no site_part). Change the ship_via, and one extra field.
 
@@ -144,9 +123,7 @@ Dim sp_objid As Long
 sp_objid = 0
 
 ret_int = fccl.update_pr_detail("3-3", "MS Word", "Product", "7.0", "", _
-
                    1, sp_objid, "", "", "Fedex","", 0, "","","", _
-
                    0, "", 0, "detail_notes", "xyzzy", "", "", "", "")
 
 **Javascript:**
@@ -168,9 +145,7 @@ Dim sp_objid As Long
 sp_objid = 0
 
 ret_int = fccl.update_pr_detail("3-3", "MS Word", "Product", "7.0", "123", _
-
                    1, sp_objid, "", "", "", "UPS", 0, "Some notes", _
-
   "", "", 0, "", 0, "", "", "", "", "", "")
 
 **Javascript:**

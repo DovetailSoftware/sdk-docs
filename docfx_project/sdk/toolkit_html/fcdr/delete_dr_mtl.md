@@ -28,7 +28,7 @@ creation_time                        No         
 
 -3                                             Related Demand Detail record is not in database
 
-**Examples  **
+**Examples**
 
  Delete material log 268435463.
 

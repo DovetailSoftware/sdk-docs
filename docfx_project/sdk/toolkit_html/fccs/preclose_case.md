@@ -58,7 +58,7 @@ The results of the API are returned in the string _ret_id_num_. The values are s
 
 14) Captured billable expenses (case time logs only)
 
-**Examples  **
+**Examples**
 
  Preclose case number 'C154'. Get the value for the captured and total phone logs, and for the captured and total billable expenses.
 

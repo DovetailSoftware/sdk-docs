@@ -2,11 +2,8 @@ create_time_zone
 ------------------
 
 Public Function create_time_zone(ByVal time_zone As String, _
-
                                  ByVal full_name As String, _
-
                                  ByVal country As String, _
-
                                  ByVal gmt_diff As Long) As Integer
 
 **Description**
@@ -51,7 +48,6 @@ Dim ret_int  As Integer
 Dim tz_objid As Long
 
 ret_int = fcinter.create_time_zone("FST", "Foo Standard Time", _
-
                                    "USA", 14400)
 
  If ret_int = 0 Then

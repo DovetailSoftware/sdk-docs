@@ -5,69 +5,38 @@ create_case_objid_list
 ------------------------
 
 Public Function create_case_objid(ByVal site_id As String, _
-
                 ByVal f_name As String, ByVal l_name As String, _
-
                 ByVal phone_num As String, ByVal part_num As String, _
-
                 ByVal mod_level As String, ByVal domain_name As String, _
-
                 ByVal serial_no As String, ByVal sp_objid As Long, _
-
                 ByVal contract_id As String, ByVal the_title As String, _
-
                 ByVal case_type As String, ByVal priority_str As String, _
-
                 ByVal severity_str As String, ByVal status_str As String, _
-
                 ByVal phone_log As String, ByVal queue_name As String, _
-
                 ByVal cr_date As String, ByVal phone_end_date As String, _
-
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
-
                 ByVal contact_objid As Integer, ByVal site_objid As Integer,_
-
                 ByVal ml_objid As Integer, ByVal contract_objid As Integer, ByVal addr_objid As Integer,_
-
                 ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                 ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                 Byval str_fld1 As String, ByVal str_val1 As String, _
-
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function create_case_objid_list(ByVal site_id As String, _
-
                 ByVal f_name As String, ByVal l_name As String, _
-
                 ByVal phone_num As String, ByVal part_num As String, _
-
                 ByVal mod_level As String, ByVal domain_name As String, _
-
                 ByVal serial_no As String, ByVal sp_objid As Long, _
-
                 ByVal contract_id As String, ByVal the_title As String, _
-
                 ByVal case_type As String, ByVal priority_str As String, _
-
                 ByVal severity_str As String, ByVal status_str As String, _
-
                 ByVal phone_log As String, ByVal queue_name As String, _
-
                 ByVal cr_date As String, ByVal phone_end_date As String, _
-
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
-
                 ByVal contact_objid As Integer, ByVal site_objid As Integer,_
-
                 ByVal ml_objid As Integer, ByVal contract_objid As Integer, ByVal addr_objid As Integer,_
-
                 Optional fld_list As Variant, Optional type_list As Variant, _
-
                 Optional val_list As Variant) As Integer
 
 **Description**

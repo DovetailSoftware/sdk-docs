@@ -5,33 +5,20 @@ modify_subcase_list
 ---------------------
 
 Public Function modify_subcase(ByVal subcase_id As String, _
-
                 ByVal priority_str As String, ByVal severity_str As String, _
-
                 ByVal user_name As String, ByVal mod_date As String, _
-
                 ByVal only_owner As Boolean, ByVal gen_time_bombs As Boolean, _
-
                 ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                 ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function modify_subcase_list(ByVal subcase_id As String, _
-
                 ByVal priority_str As String, ByVal severity_str As String, _
-
                 ByVal user_name As String, ByVal mod_date As String, _
-
                 ByVal only_owner As Boolean, ByVal gen_time_bombs As Boolean, _
-
                 Optional fld_list As Variant, Optional type_list As Variant, _
-
                 Optional val_list As Variant) As Integer
 
 **Description**
@@ -111,7 +98,7 @@ val_list                                   Yes
 
 to True
 
-**Examples  **
+**Examples**
 
  Modify subcase 'C154-1'. Change the priority, but nothing else. Do not write any other fields. Any user can make the change. Also, generate a time bomb. All other information is defaulted.
 
@@ -128,7 +115,6 @@ var ret_int = fccs.modify_subcase("C154-1", "High", "", "", "", false, true,
    Dim ret_int   As Integer
 
 ret_int = fccs.modify_subcase("C154-1", "High", "", "", "", False, True, _
-
                       "", 0, "", 0, "", "", "", "", "", "")
 
 **List version:**
@@ -166,13 +152,9 @@ var ret_int = fccs.modify_subcase("2-2", "", "Low", "marty",
    Dim ret_int   As Integer
 
 ret_int = fccs.modify_subcase("2-2", "", "Low", "marty", _
-
                       "11/23/97 22:00:00", True, False, _
-
                       "x_close_int1", 1, "x_close_int2", _
-
                       456, "x_summary2", "More text", "", "", _
-
                          "x_other_date", "1/1/99")
 
 **List version:**
@@ -250,7 +232,5 @@ type_list.AppendItem "Date"
 val_list.AppendItem "1/1/99"
 
 ret_int = fccs.modify_subcase_list("2-2", "", "Low", "marty", _
-
                            "11/23/97 22:00:00", True, False, _
-
                            fld_list, type_list, val_list)

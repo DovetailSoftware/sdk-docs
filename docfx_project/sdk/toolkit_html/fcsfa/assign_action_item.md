@@ -8,39 +8,24 @@ assign_quote
 ------------
 
 Public Function assign_action_item(ByVal the_id As String, _
-
                                    ByVal new_user As String, _
-
                                    ByVal wipbin_name As String, _
-
                                    ByVal assign_date As String, _
-
                  ByVal user_name As String, _
-
                  ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function assign_opportunity(ByVal the_id As String, _
-
                                    ByVal new_user As String, _
-
                                    ByVal wipbin_name As String, _
-
                                    ByVal assign_date As String, _
-
                  ByVal user_name As String, _
-
                  ByVal gen_time_bombs As Boolean) As Integer
 
 Public Function assign_quote(ByVal the_id As String, _
-
                              ByVal new_user As String, _
-
                              ByVal wipbin_name As String, _
-
                              ByVal assign_date As String, _
-
            ByVal user_name As String, _
-
            ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -88,7 +73,7 @@ gen_time_bombs                 Yes               
 
 -6                                             Cannot find gbst_elm rank 10500 for string ASSIGN
 
-**Examples  **
+**Examples**
 
  Assign action item number '10' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
@@ -115,5 +100,4 @@ var ret_int = fcsfa.assign_quote("2", "marty", "Urgent",
 Dim ret_int As Integer
 
 ret_int = fcsfa.assign_quote("2", "marty", "Urgent", _
-
                              "11/23/97 22:00:00", "sam", False)

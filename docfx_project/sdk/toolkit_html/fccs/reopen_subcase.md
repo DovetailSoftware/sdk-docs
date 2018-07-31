@@ -2,11 +2,8 @@ reopen_subcase
 --------------
 
 Public Function reopen_subcase(ByVal subcase_id As String, _
-
                 ByVal wipbin_name As String, ByVal status_str As String, _
-
                 ByVal reopen_date As String, ByVal user_name As String, _
-
                 ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -18,13 +15,9 @@ This API causes the specified subcase to be reopened. The date/time of the reope
 
 subcase_id                            Yes                         The subcase to reopen
 
-wipbin_name                        No                           The WIPBin to place the subcase in. If left blank, the default WIPBin for
+wipbin_name                        No                           The WIPBin to place the subcase in. If left blank, the default WIPBin for the user is used
 
-                                                                                the user is used
-
-status_str                              No                           The new status for the subcase. If no status is specified, the default status
-
-for Open Condition is used
+status_str                              No                           The new status for the subcase. If no status is specified, the default status for Open Condition is used
 
 reopen_date                          No                           When was the subcase reopened. If this parameter is left blank, the reopen
 
@@ -56,7 +49,7 @@ gen_time_bombs                 Yes               
 
 -7                                             Cannot find the employee record for the specified user
 
-**Examples  **
+**Examples**
 
  Reopen subcase number 'C154-1' by the current user at the current date/time. Place in the default WIPBin with the default status, and generate a time bomb.
 
@@ -83,5 +76,4 @@ var ret_int = fccs.reopen_subcase("2-2", "Urgent", "User Error",
 Dim ret_int As Integer
 
 ret_int = fccs.reopen_subcase("2-2", "Urgent", "User Error", _
-
                               "11/23/97 22:00:00", "dave", True)

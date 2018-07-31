@@ -2,11 +2,8 @@ yank_pr
 -------
 
 Public Function yank_pr(ByVal pr_id As String, _
-
                         ByVal wipbin_name As String, ByVal yank_date As String, _
-
                         ByVal user_name As String, ByVal gen_time_bombs As Boolean) _
-
                         As Integer
 
 **Description**
@@ -44,7 +41,7 @@ gen_time_bombs                 Yes               
 
 -5                                             Cannot find the YANK activity string with rank 4100
 
-**Examples  **
+**Examples**
 
  Yank part request number '1-14' to WIPBin 'Hardware'.  The yank occurs on August 1, 2001, and is performed by Marty. Generate a time bomb.
 

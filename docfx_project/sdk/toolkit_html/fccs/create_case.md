@@ -5,61 +5,34 @@ create_case_list
 ------------------
 
 Public Function create_case(ByVal site_id As String, _
-
                 ByVal f_name As String, ByVal l_name As String, _
-
                 ByVal phone_num As String, ByVal part_num As String, _
-
                 ByVal mod_level As String, ByVal domain_name As String, _
-
                 ByVal serial_no As String, ByVal sp_objid As Long, _
-
                 ByVal contract_id As String, ByVal the_title As String, _
-
                 ByVal case_type As String, ByVal priority_str As String, _
-
                 ByVal severity_str As String, ByVal status_str As String, _
-
                 ByVal phone_log As String, ByVal queue_name As String, _
-
                 ByVal cr_date As String, ByVal phone_end_date As String, _
-
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
-
                 ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                 ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                 Byval str_fld1 As String, ByVal str_val1 As String, _
-
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function create_case_list(ByVal site_id As String, _
-
                 ByVal f_name As String, ByVal l_name As String, _
-
                 ByVal phone_num As String, ByVal part_num As String, _
-
                 ByVal mod_level As String, ByVal domain_name As String, _
-
                 ByVal serial_no As String, ByVal sp_objid As Long, _
-
                 ByVal contract_id As String, ByVal the_title As String, _
-
                 ByVal case_type As String, ByVal priority_str As String, _
-
                 ByVal severity_str As String, ByVal status_str As String, _
-
                 ByVal phone_log As String, ByVal queue_name As String, _
-
                 ByVal cr_date As String, ByVal phone_end_date As String, _
-
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
-
                 Optional fld_list As Variant, Optional type_list As Variant, _
-
                 Optional val_list As Variant) As Integer
 
 **Description**
@@ -203,7 +176,7 @@ val_list                                   Yes
 
 -25                                           Could not locate an employee record for the specified user
 
-**Examples  **
+**Examples**
 
  Create a new case. Specify the site of 'White House', and contact of Bill Clinton. Also, generate a time bomb. All other information is defaulted.
 
@@ -232,11 +205,8 @@ var ret_int = fccs.create_case("White House", "Bill", "Clinton",
    Dim ret_int    As Integer
 
 ret_int = fccs.create_case("White House", "Bill", "Clinton", _
-
           "555-555-1234", "", "", "", "", 0, "", "", "", _
-
           "", "", "", "", "", "", "", "", True, "", 0, _
-
           "", 0, "", "", "", "", "", "")
 
    If ret_int = 0 Then
@@ -268,9 +238,7 @@ var ret_int = fccs.create_case_list("White House", "Bill", "Clinton",
    Dim ret_int     As Integer
 
 ret_int = fccs.create_case_list("White House", "Bill", "Clinton", _
-
           "555-555-1234", "", "", "", "", 0, "", "", "", _
-
           "", "", "", "", "", "", "", "", True)
 
    If ret_int = 0 Then
@@ -314,19 +282,12 @@ var ret_int = fccs.create_case("White House", "Bill", "Clinton",
    Dim ret_int    As Integer
 
 ret_int = fccs.create_case("White House", "Bill", "Clinton", _
-
           "555-555-1234", "MS Word", "7.0", "Software", _
-
           "1234", 0, "ABCD", "The title", "Problem", _
-
           "High", "Medium", "Solving", "Some phone notes", _
-
           "Important", "11/23/97 22:00:00", "11/23/97 22:15:00", _
-
           "marty", True, "x_create_int1", 1, _
-
           "x_create_int2", 456, "x_summary2", "More text", _
-
           "", "", "", "")
 
    If ret_int = 0 Then
@@ -412,15 +373,10 @@ type_list.AppendItem("String")
 val_list.AppendItem("More text")
 
 ret_int = fccs.create_case_list("White House", "Bill", "Clinton", _
-
           "555-555-1234", "MS Word", "7.0", "Software", _
-
           "1234", 0, "ABCD", "The title", "Problem", _
-
           "High", "Medium", "Solving", "Some phone notes", _
-
           "Important", "11/23/97 22:00:00", "11/23/97 22:15:00", _
-
           "marty", True, fld_list, type_list, val_list)
 
    If ret_int = 0 Then

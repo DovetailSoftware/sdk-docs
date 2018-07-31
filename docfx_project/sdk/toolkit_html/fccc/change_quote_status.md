@@ -2,15 +2,10 @@ change_quote_status
 ---------------------
 
 Public Function change_quote_status(ByVal quote_id As String, _
-
                                     ByVal new_status As String, _
-
                                     ByVal change_date As String, _
-
                                     ByVal note_str As String, _
-
                                     ByVal user_name As String, _
-
                                     ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -24,9 +19,7 @@ quote_id                                    
 
 new_status                           No                           The new status for the quote
 
-change_date                         No                           When was the quote status changed. If this parameter is left blank, the quote
-
-is status changed at the current time
+change_date                         No                           When was the quote status changed. If this parameter is left blank, the quote is status changed at the current time
 
 note_str                                 No                           Notes for the status change
 
@@ -50,7 +43,7 @@ gen_time_bombs                 Yes               
 
 -4                                             Cannot find the CHANGE STATUS activity string with rank = 13900
 
-**Examples  **
+**Examples**
 
  Change status for quote number '154' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
 

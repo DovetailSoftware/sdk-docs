@@ -1,14 +1,10 @@
 move_sp
 -------
 
-Public Function move_sp(ByVal sp_objid As Long,
-
+Public Function move_sp(ByVal sp_objid As Long, _
                   ByVal move_date As String, ByVal parent_sp_objid As Long, _
-
                   ByVal site_id As String, ByVal parent_bin_objid As Long, _
-
                   ByVal add_activity As Boolean, ByVal user_name As String, _
-
                   ByVal install_and_move As Boolean) As Integer
 
 **Description**
@@ -88,7 +84,7 @@ another part
 
 -13                                           No site part OBJID was specified
 
-**Examples  **
+**Examples**
 
  Move site_part 268435457 to the top level of site "4". Generate activity logs. Sam performs the move.
 

@@ -2,9 +2,7 @@ delete_product_bin
 --------------------
 
 Public Function delete_product_bin(ByVal bin_objid As Long, _
-
                                    ByVal user_name As String, _
-
                                    ByVal delete_date As String) As Integer
 
 **Description**

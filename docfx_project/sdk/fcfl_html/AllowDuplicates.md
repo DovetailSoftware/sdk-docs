@@ -17,7 +17,7 @@ This property tells whether to allow an item to be placed in a list if an item o
 
 **Values**
 
-**Value                     Description                                                                                                          **
+**Value**                    **Description**
 
 FALSE                   Do not allow items to be inserted into the list if it already exists in the list.
 
@@ -53,6 +53,6 @@ list.AllowDuplicates = FALSE
 
 list.AppendItem 1
 
-' list still has the numbers 2, 3, 4, 5, 2 and 1 � notice that the duplicate 2
+' list still has the numbers 2, 3, 4, 5, 2 and 1 - notice that the duplicate 2
 
 ' is still in the list

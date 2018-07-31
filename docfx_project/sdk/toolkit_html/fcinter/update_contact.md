@@ -8,59 +8,34 @@ update_contact_objid_list
 ---------------------------
 
 Public Function update_contact(ByVal first As String, ByVal last As String, _
-
        ByVal phone As String, ByVal site_id As String, ByVal role As String, _
-
        ByVal fax As String, ByVal email As String, ByVal mail_stop As String, _
-
        ByVal the_title As String, ByVal hours As String, _
-
        ByVal salutation As String, ByVal new_first As String, _
-
        ByVal new_last As String, ByVal new_phone As String, _
-
        ByVal new_prim_site_id As String, ByVal new_prim_role As String, _
-
        ByVal int_fld1 As String, ByVal int_val1 As Long, ByVal int_fld2 As String, _
-
        ByVal int_val2 As Long, ByVal str_fld1 As String, ByVal str_val1 As String, _
-
        ByVal str_fld2 As String, ByVal str_val2 As String, _
-
        ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function update_contact_list(ByVal first As String, _
-
        ByVal last As String, ByVal phone As String, ByVal site_id As String, _
-
        ByVal role As String, ByVal fax As String, ByVal email As String, _
-
        ByVal mail_stop As String, ByVal the_title As String, _
-
        ByVal hours As String, ByVal salutation As String, _
-
        ByVal new_first As String, ByVal new_last As String, _
-
        ByVal new_phone As String, ByVal new_prim_site_id As String, _
-
        ByVal new_prim_role As String, Optional fld_list As Variant, _
-
        Optional type_list As Variant, Optional val_list As Variant) As Integer
 
 Public Function update_contact_objid_list(ByVal contact_objid As Integer, _
-
        ByVal site_id As String, ByVal role As String, ByVal fax As String, _
-
        ByVal email As String, ByVal mail_stop As String, ByVal the_title As String, _
-
        ByVal hours As String, ByVal salutation As String, _
-
        ByVal new_first As String, ByVal new_last As String, _
-
        ByVal new_phone As String, ByVal new_prim_site_id As String, _
-
        ByVal new_prim_role As String, Optional fld_list As Variant, _
-
        Optional type_list As Variant, Optional val_list As Variant) As Integer
 
 **Description**
@@ -179,11 +154,8 @@ ret_objid                                Output 
 Dim ret_int    As Integer
 
 ret_int = fcinter.update_contact("Mary", "Smith", "555-1213", _
-
           "43", "End User", "", "", "", "", "","", "Jones", _
-
 "555-2222", "", "", "", 0, "", 0, "", "", "", "", _
-
           "", "")
 
 **Javascript:**
@@ -203,11 +175,8 @@ var ret_int = fcinter.update_contact("Mary", "Smith",
 Dim ret_int    As Integer
 
 ret_int = fcinter.update_contact("Mary", "Jones", "555-2222", _
-
           "43", "End User", "", "", "", "", "","", "", _
-
 "","", "Supervisor", "", 0, "", 0, "", "", "", "", _
-
           "", "")
 
 **Javascript:**

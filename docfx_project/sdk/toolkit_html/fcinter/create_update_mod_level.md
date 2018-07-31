@@ -2,23 +2,14 @@ create_update_mod_level
 -------------------------
 
 Public Function create_update_mod_level(ByVal part_num As String, _
-
                                         ByVal domain As String, _
-
                                         ByVal mod_level As String, _
-
                                         ByVal replaces_part As String, _
-
                                         ByVal replaces_dom As String, _
-
                                         ByVal replaces_rev As String, _
-
                                         ByVal replaces_date As String, _
-
                                         ByVal status As String, _
-
                                         ByVal change_ml As Boolean, _
-
                                         ByVal new_ml As String) As Integer
 
 **Description**
@@ -85,11 +76,8 @@ Dim ret_int   As Integer
 Dim mod_level As Long
 
 ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory", _
-
                                           "Product", "2.4", "",_
-
                                           "", "", _
-
                                           "", "", false, "")
 
  If ret_int = 0 Then
@@ -115,15 +103,10 @@ var ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory",
 Dim ret_int   As Integer
 
 ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory", _
-
                                           "Product", "2.4", _
-
                                           "Zipcode Reverse Directory", _
-
                                           "Product", "2.3",_
-
                                           "1/23/98 8:00:00", _
-
                                           "", false, "")
 
 **Javascript:**

@@ -7,43 +7,26 @@ update_pr_header_list
 -----------------------
 
 Public Function update_pr_header(ByVal hdr_num As String, _
-
                                ByVal first_name As String, ByVal last_name As String, _
-
                                ByVal phone_num As String, ByVal ship_site_id As String, _
-
                                ByVal bill_site_id As String, ByVal case_id As String, _
-
                                ByVal pay_method As String, ByVal pay_terms As String, _
-
                                ByVal priority_str As String, ByVal note_str As String, _
-
                                ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                                ByVal int_fld2 As String, ByVal int_val2 As Long, _
-
                                ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                                ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                                ByVal date_fld1 As String, ByVal date_val1 As String) _
-
                                As Integer
 
 Public Function update_pr_header_list(ByVal hdr_num As String, _
-
                                ByVal first_name As String, ByVal last_name As String, _
-
                                ByVal phone_num As String, ByVal ship_site_id As String, _
-
                                ByVal bill_site_id As String, ByVal case_id As String, _
-
                                ByVal pay_method As String, ByVal pay_terms As String, _
-
                                ByVal priority_str As String, ByVal note_str As String, _                                                                 
 
                                Optional fld_list As Variant, Optional type_list As Variant, _
-
                                Optional val_list As Variant) As Integer
 
 **Description**
@@ -113,7 +96,7 @@ date_val1
 
 -8                                             The specified priority is not found
 
-**Examples  **
+**Examples**
 
  Update part request header '1'. Change the contact to Sara Grinch, change the billing site ID to 43, the case ID to 14,  the payment terms and method, and one extra field.
 
@@ -122,11 +105,8 @@ date_val1
 Dim ret_int As Integer
 
 ret_int = fccl.update_pr_header("1", "Sara", "Grinch", "555-1212", "", _
-
                                 "43", "14", "Cash", "Net 10", "", "", "", 0, _
-
                                 "",0, "x_extra_field", "a_value", "", "", "", _
-
                                 "")
 
 **Javascript:**
@@ -146,9 +126,7 @@ var ret_int = fccl.update_pr_header("1", "Sara", "Grinch", "555-1212", "",
 Dim ret_int As Integer
 
 ret_int = fccl.update_pr_header("33", "", "", "", "55", "", _
-
                                 "", "", "", "Priority 1", "CLEAR", "", _
-
                                 0, "", 0, "", "", "", "", "", "")
 
 **Javascript:**

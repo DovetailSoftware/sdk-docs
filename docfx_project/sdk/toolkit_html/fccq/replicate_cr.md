@@ -2,11 +2,8 @@ replicate_cr
 ------------
 
 Public Function replicate_cr (ByVal cr_id As String, _
-
-ByVal user_name As String, _
-
+							  ByVal user_name As String, _
                               ByVal rep_date As String, _
-
                               ByVal gen_time_bombs As Boolean) As Integer
 
 **Description**
@@ -58,7 +55,7 @@ ret_objid                                Output 
 
 ret_id_num                            Output                   Returns the id of the replicated change request
 
-**Examples  **
+**Examples**
 
  Tony replicates CR '10' at 10PM on November 23rd of 1997. Generate a time bomb.
 
@@ -71,7 +68,6 @@ Dim replicate_id_num As String
 Dim ret_int          As Integer
 
 ret_int = fccq.replicate_cr("10", "tony", _
-
                             "11/23/97 22:00:00", True)
 
  If ret_int = 0 Then

@@ -5,63 +5,35 @@ create_interact_list
 ----------------------
 
 Public Function create_interact(ByVal the_title As String, _
-
                      ByVal the_notes As String, ByVal first As String, _
-
                      ByVal last As String, ByVal phone As String, _
-
                      ByVal zipcode As String, ByVal reason1 As String, _
-
                      ByVal reason2 As String, ByVal prod_name As String, _
-
                      ByVal direction As String, ByVal the_type As String, _
-
                      ByVal origin As String, ByVal done_in_one As Boolean, _
-
                      ByVal result As String, ByVal fee_based As Boolean, _
-
                      ByVal pay_option As String, ByVal lead_source As String, _
-
                      ByVal start_date As String, ByVal duration As Long, _
-
                      ByVal wait_time As Long, ByVal entered_time As Long, _
-
                      ByVal user_name As String, ByVal gen_time_bomb As Boolean, _
-
                      ByVal int_fld1 As String, ByVal int_val1 As Long, _
-
                      ByVal str_fld1 As String, ByVal str_val1 As String, _
-
                      ByVal str_fld2 As String, ByVal str_val2 As String, _
-
                      ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
 
 Public Function create_interact_list(ByVal the_title As String, _
-
                      ByVal the_notes As String, ByVal first As String, _
-
                      ByVal last As String, ByVal phone As String, _
-
                      ByVal zipcode As String, ByVal reason1 As String, _
-
                      ByVal reason2 As String, ByVal prod_name As String, _
-
                      ByVal direction As String, ByVal the_type As String, _
-
                      ByVal origin As String, ByVal done_in_one As Boolean, _
-
                      ByVal result As String, ByVal fee_based As Boolean, _
-
                      ByVal pay_option As String, ByVal lead_source As String, _
-
                      ByVal start_date As String, ByVal duration As Long, _
-
                      ByVal wait_time As Long, ByVal entered_time As Long, _
-
                      ByVal user_name As String, ByVal gen_time_bomb As Boolean, _
-
                      Optional fld_list As Variant, Optional type_list As Variant, _
-
                      Optional val_list As Variant) As Integer
 
 **Description**
@@ -250,25 +222,15 @@ date_fld1 = ""
 date_val1 = ""
 
    ret_int = fcinter.create_interact(the_title, the_notes, first, last, _
-
                      phone, zipcode, reason1, reason2, _
-
                      prod_name, direction, the_type, origin, _
-
                      done_in_one, result, fee_based, pay_option, _
-
                      lead_source, start_date, duration, _
-
                      wait_time, entered_time, user_name, _
-
                      gen_time_bomb, _
-
                      int_fld1, int_val1, _
-
                      str_fld1, str_val1, _
-
                      str_fld2, str_val2, _
-
                      date_fld1, date_val1)
 
    If ret_int = 0
