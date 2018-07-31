@@ -18,37 +18,20 @@ Public Function modify_expense_log(ByVal expense_log_objid As Long, _
 This API modifies an existing expense log record in the Clarify database. You must pass in a valid expense log objid (which is returned by the _create_expsense_log_ API). You can specify the a variety of data items for the expense, including who performed the expense, notes, and a quantity and rate for the expense. If you do not specify a value for one of the arguments, the value in the existing record is not updated.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-expense_log_objid              Yes                         The OBJID of the expense log to modify
-
-creation_time                        No                           When is the log modified? If left blank, it will be modified at the current
-
-                                                                                time. Used for time_bomb creation.
-
-perf_by                                  No                           The user who modified the time log. If left blank, the current user
-
-performs the modify
-
-notes                                      No                           The updated notes for the onsite log
-
-user_name                             No                           The user who is recording the modification of the expense log. If left blank, the
-
-current user records the modify
-
-expense_type                       No                           Value from the EXPENSE_TYPE code list
-
-quantity                                 Yes                         Quantity for the expense log
-
-the_rate                                 Yes                         Rate for the expense log
-
-billable                                   No                           Indicates if this expense is billable
-
-bill_to                                     No                           Indicates who this expense log will be billed to, from the BILL_TO_EXPENSE
-
-                                                                                list in Policies and Customers
-
-resolution                              No                           Value from the RESOLUTION_CODE list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| expense_log_objid | Yes | The OBJID of the expense log to modify |
+| creation_time | No | When is the log modified? If left blank, it will be modified at the current time. Used for time_bomb creation. |
+| perf_by | No | The user who modified the time log. If left blank, the current user performs the modify |
+| notes | No | The updated notes for the onsite log |
+| user_name | No | The user who is recording the modification of the expense log. If left blank, the current user records the modify |
+| expense_type | No | Value from the EXPENSE_TYPE code list |
+| quantity | Yes | Quantity for the expense log |
+| the_rate | Yes | Rate for the expense log |
+| billable | No | Indicates if this expense is billable |
+| bill_to | No | Indicates who this expense log will be billed to, from the BILL_TO_EXPENSE list in Policies and Customers |
+| resolution | No | Value from the RESOLUTION_CODE list |
 
 **Returns**
 

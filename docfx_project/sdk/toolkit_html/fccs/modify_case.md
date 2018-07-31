@@ -36,53 +36,30 @@ The argument _only_owner_ allows you to specify that only the current owner of t
 There are four arguments to this method that allow you to change (or clear) various parameters. The title, mod_level objid, site_part objid, and contract objid can be set (if you wish), or can be left alone (with "" for title, and 0 for the others), or can be cleared (with "CLEARFIELD" for title, and -999 for the others). This is an augmentation from the base ClearBasic APIs that do not provide this functionality. These arguments are particularly useful in web settings.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         The case to modify
-
-priority_str                            No                           The new priority for the case. If left blank, no change is made
-
-severity_str                           No                           The new severity for the case. If left blank, no change is made
-
-case_type                              No                           The new case_type for the case. If left blank, no change is made
-
-user_name                             No                           The user who modified the case. If left blank, the current user performs the modify
-
-the_title                                 No                           The case title. If empty (""), no change is made. To clear the title field, use the string "CLEARFIELD."
-
-ml_obj                                    No                           Objid of the mod_level (part revision) related to the case. If 0 is used, no change is made. If set to -999, the relation is cleared (set to NULL).
-
-sp_obj                                    No                           Objid of the site_part related to the case. If 0 is used, no change is made. If set to -999, the relation is cleared (set to NULL).
-
-contr_obj                               No                           Objid of the contract related to the case. If 0 is used, no change is made. If set to -999, the relation is cleared (set to NULL).
-
-mod_date                              No                           The date/time the case was modified. If left blank, current date/time is used
-
-only_owner                           Yes                         Should only the owner of the case be allowed to modify it?
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | The case to modify |
+| priority_str | No | The new priority for the case. If left blank, no change is made |
+| severity_str | No | The new severity for the case. If left blank, no change is made |
+| case_type | No | The new case_type for the case. If left blank, no change is made |
+| user_name | No | The user who modified the case. If left blank, the current user performs the modify |
+| the_title | No | The case title. If empty (""), no change is made. To clear the title field, use the string "CLEARFIELD." |
+| ml_obj | No | Objid of the mod_level (part revision) related to the case. If 0 is used, no change is made. If set to -999, the relation is cleared (set to NULL). |
+| sp_obj | No | Objid of the site_part related to the case. If 0 is used, no change is made. If set to -999, the relation is cleared (set to NULL). |
+| contr_obj | No | Objid of the contract related to the case. If 0 is used, no change is made. If set to -999, the relation is cleared (set to NULL). |
+| mod_date | No | The date/time the case was modified. If left blank, current date/time is used |
+| only_owner | Yes | Should only the owner of the case be allowed to modify it? |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value | Meaning | **
 
 0                                              No errors
 

@@ -18,18 +18,16 @@ Public Sub UnRelateRecords(ByVal o_obj As FCGeneric, _
 
 This method will unrelate the current record in a generic object from the current record in the other specified object via the relation specified.
 
-The relation specified must be valid for the generic object that the method is called on (not the generic object that is the first argument). You may unrelate the objects from either side.
-
-For example, suppose you wish to unrelate a case generic object and a site_part generic object. You could make the unrelate call from either object.
+The relation specified must be valid for the generic object that the method is called on (not the generic object that is the first argument). You may unrelate the objects from either side.for example, suppose you wish to unrelate a case generic object and a site_part generic object. You could make the unrelate call from either object.
 
 You must update one or the other objects via the Update or UpdateAll method for the relation to be cleared.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-o_obj                                      Yes                         The other object to unrelate from
-
-the_rel                                    Yes                         The relation to use to find the objects to unrelate
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| o_obj | Yes | The other object to unrelate from |
+| the_rel | Yes | The relation to use to find the objects to unrelate |
 
 **Error Codes**
 

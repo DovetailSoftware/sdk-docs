@@ -45,59 +45,35 @@ All five fields must be defined. If one is blank, just put two pipes next to eac
 Four error codes (-32, -33, -37, -38) are supplied for this option.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-dtl_num                                 No                           The ID number of the related part request detail (if one is related)
-
-case_id                                  No                           The ID number of the related case (if one is related)
-
-pu_type                                 Yes                         The type of the log parts used. One of: Exchange, Consume, Install, Remove, Upgrade
-
-parent_sp                              No                           If a part is being installed, and it should be installed underneath a site_part, this field contains the objid of the parent site_part
-
-install_at_site                       Yes                         For installing parts, should the part be installed at the top-level of the site?
-
-remove_sp                            No                           For removing parts, this is the objid of the site_part to remove
-
-to_loc                                     No                           For removing parts, this is the inventory location (or expense GL) to transfer  the part to (if it is being transferred to inventory)
-
-to_bin                                    No                           The bin to transfer the removed site_part to
-
-to_cont                                  No                           The id_number of the container. If not using a container, this argument should be blank. If you are using a container, the to_bin argument should be the container name.
-
-to_good                                 Yes                         Should the removed site_part be placed as good or bad stock in inventory
-
-fail_code                                No                           For removing parts, what is the failure code (dropdown list). If left blank, the  default code is used
-
-inst_part                                                No                           For installing parts, the part_number to install. If a part request is specified, the default part is taken from the part request
-
-inst_rev                                 No                           For installing parts, the revision (mod_level) to install. If a part request is specified, the default part revision is taken from the part request
-
-inst_domain                          No                           For installing parts, the domain of the part to install. If a part request is specified, the default part domain is taken from the part request
-
-inst_serial                              No                           If the part to be installed is serialized, this is the serial number
-
-inst_qty                                 No                           For installing parts, the quantity of parts to install
-
-inst_price                              No                           For installing parts, the price (per part) to use. If left blank, the default US List price is used. For inventory-only transactions, this field may contain the part number, revision, domain, quantity, and serial number of the part (all separated by '|' characters) to remove to inventory. See above for more details
-
-from_loc                                No                           If the installed part is pulled from inventory, this is the inventory location (or expense GL)
-
-from_bin                                No                           The bin that the installed part is pulled from
-
-from_cont                              No                           The id_number of the container. If not using a container, this argument should be blank. If you are using a container, the to_bin argument should be the container name
-
-from_good                            No                           Was the installed part pulled from good or bad stock?
-
-engineer_name                     No                           The login_name of the engineer who performed the parts used action. If left blank, the current user is used
-
-user_name                             No                           The name of the user who logged the action. If left blank, the current user is used.
-
-allow_move                           Yes                         If a serialized part is to be installed, and it already exists as an active site _part, should we allow the move to occur?
-
-log_date                                                No                           When was the action? If left blank, the current time is used
-
-log_objid                               No                           If you wish to perform only the inventory movements for this log_pu, then set this argument to -99 as input
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| dtl_num | No | The ID number of the related part request detail (if one is related) |
+| case_id | No | The ID number of the related case (if one is related) |
+| pu_type | Yes | The type of the log parts used. One of: Exchange, Consume, Install, Remove, Upgrade |
+| parent_sp | No | If a part is being installed, and it should be installed underneath a site_part, this field contains the objid of the parent site_part |
+| install_at_site | Yes | For installing parts, should the part be installed at the top-level of the site? |
+| remove_sp | No | For removing parts, this is the objid of the site_part to remove |
+| to_loc | No | For removing parts, this is the inventory location (or expense GL) to transfer  the part to (if it is being transferred to inventory) |
+| to_bin | No | The bin to transfer the removed site_part to |
+| to_cont | No | The id_number of the container. If not using a container, this argument should be blank. If you are using a container, the to_bin argument should be the container name. |
+| to_good | Yes | Should the removed site_part be placed as good or bad stock in inventory |
+| fail_code | No | For removing parts, what is the failure code (dropdown list). If left blank, the  default code is used |
+| inst_part | No | For installing parts, the part_number to install. If a part request is specified, the default part is taken from the part request |
+| inst_rev | No | For installing parts, the revision (mod_level) to install. If a part request is specified, the default part revision is taken from the part request |
+| inst_domain | No | For installing parts, the domain of the part to install. If a part request is specified, the default part domain is taken from the part request |
+| inst_serial | No | If the part to be installed is serialized, this is the serial number |
+| inst_qty | No | For installing parts, the quantity of parts to install |
+| inst_price | No | For installing parts, the price (per part) to use. If left blank, the default US List price is used. For inventory-only transactions, this field may contain the part number, revision, domain, quantity, and serial number of the part (all separated by '|' characters) to remove to inventory. See above for more details |
+| from_loc | No | If the installed part is pulled from inventory, this is the inventory location (or expense GL) |
+| from_bin | No | The bin that the installed part is pulled from |
+| from_cont | No | The id_number of the container. If not using a container, this argument should be blank. If you are using a container, the to_bin argument should be the container name |
+| from_good | No | Was the installed part pulled from good or bad stock? |
+| engineer_name | No | The login_name of the engineer who performed the parts used action. If left blank, the current user is used |
+| user_name | No | The name of the user who logged the action. If left blank, the current user is used. |
+| allow_move | Yes | If a serialized part is to be installed, and it already exists as an active site _part, should we allow the move to occur? |
+| log_date | No | When was the action? If left blank, the current time is used |
+| log_objid | No | If you wish to perform only the inventory movements for this log_pu, then set this argument to -99 as input |
 
 **Returns**
 
@@ -193,13 +169,9 @@ log_objid                               No    
 
 -200 -> -299                            Any errors between -200 and -299 are from deinstall site_part. See the documentation for deinstall_sp in this manual. For example, -201 from this API is the same as -1 from the other
 
--300 -> -399                            Any errors between -300 and -399 are from the call to part_transfer. See the documentation for part_transfer in this manual. For example, -301 from this API is the same as -1 from the
+-300 -> -399                            Any errors between -300 and -399 are from the call to part_transfer. See the documentation for part_transfer in this manual. For example, -301 from this API is the same as -1 from the other. These codes are for the transfer "to" transaction (remove site_part)
 
-other. These codes are for the transfer "to" transaction (remove site_part)
-
--400 -> -499                            Any errors between -400 and -499 are from the call to part_transfer. See the documentation for part_transfer in this manual. For example, -401 from this API is the same as -1 from the
-
-other. These codes are for the transfer "from" transaction (install site_part)
+-400 -> -499                            Any errors between -400 and -499 are from the call to part_transfer. See the documentation for part_transfer in this manual. For example, -401 from this API is the same as -1 from the other. These codes are for the transfer "from" transaction (install site_part)
 
 -500 -> -599                            Any errors between -500 and -599 are from move_sp. See the documentation for move_sp in this manual. For example, -501 from this API is the same as -1 from the other
 

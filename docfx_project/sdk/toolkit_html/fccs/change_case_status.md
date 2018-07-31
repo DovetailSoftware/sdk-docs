@@ -13,21 +13,15 @@ Public Function change_case_status(ByVal case_id As String, _
 This API causes the specified case to have its status changed. The case may be opened or closed, but the status selected MUST be valid for the current condition. In other words, you cannot assign a close condition status to a case that is currently open. You may assign notes to the status change, as well as set the time of the status change, and the user who changed the status. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         The case to change status for
-
-new_status                           No                           The new status for the case
-
-change_date                         No                           When was the case status changed. If this parameter is left blank, the case is status changed at the current time
-
-note_str                                 No                           Notes for the status change
-
-user_name                             No                           The user who changed the status. If left blank, the current user performs
-
-the change status
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | The case to change status for |
+| new_status | No | The new status for the case |
+| change_date | No | When was the case status changed. If this parameter is left blank, the case is status changed at the current time |
+| note_str | No | Notes for the status change |
+| user_name | No | The user who changed the status. If left blank, the current user performs the change status |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

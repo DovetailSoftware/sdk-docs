@@ -64,63 +64,31 @@ In addition (for updates), the APIs allow you to blank some of the data. Setting
 The primary address is required for inserts. If the shipping and billing addresses are not supplied, they are defaulted to the same value as the primary address. For updates, you must specify the address to change to. If the value is set to -1 then no change is made.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-site_objid                              Yes                         For inserts, this is set to zero. For updates, set it to the site objid. If (for updates)
-
-the site_id is set to "NOTSUPPLIED", this field must be specified. If the site_id is specified for updates, this field is ignored.
-
-site_id                                    No                           For inserts, if this variable is blank, a new site_id is generated. For inserts, if this field is supplied, it will be used for the new site. For updates, supply the site_id to update. For updates, if this field is set to "NOTSUPPLIED", the site_objid is used to identify the site.
-
-site_name                              No                           The name of the site. For updates, if you set it to "REMOVE", the site name will be cleared
-
-site_type                               No                           Required for inserts. Must be one of: "CUST, INTR, RSEL, INDV". For updates, only changed if the value is supplied
-
-bus_org                                 No                           What account is this site in? If blank, the default site is used
-
-status                                     No                           Required for inserts. One of "ACTIVE, INACTIVE, OBSOLETE". For updates, only changed if the value is supplied
-
-region                                     No                           Region for the site. For updates, if blank, no change is made, and if set to "REMOVE", the field is cleared.
-
-district                                    No                           District of the site. For updates, if blank, no change is made, and if set to "REMOVE", the field is cleared.
-
-industry_type                       No                           Value from the INDUSTRY_TYPE code list. For inserts,  if this is blank, the default value of the list is used. For updates, if blank, no change is made
-
-appl_type                              No                           Value from the PRIMARY_USE code list. For inserts,  if this is blank, the default value of the list is used. For updates, if blank, no change is made
-
-prim_addr                              No                           Objid of the primary address for the site. For inserts, this must be supplied. For updates, if set to -1, no change is made
-
-ship_addr                              No                           Shipping address of the site. If set to -1 (for inserts), the primary address is used. If set to -1 for updates, no change is made
-
-bill_addr                                No                           Billing address of the site. If set to -1 (for inserts), the primary address is used. If set to -1 for updates, no change is made
-
-parent_site                            No                           Optional site_id of parent site. If left blank, no change is made (updates), and relation is not set (inserts). If you wish to clear the relation (updates), set the value to "REMOVE"
-
-supp_office                           No                           Optional site_id of support office. If left blank, no change is made (updates), and relation is not set (inserts). If you wish to clear the relation (updates), set the value to "REMOVE"
-
-prim_emp                               No                           Optional objid of primary support employee. If set to -1, no change is made (updates), or the relation is not set (inserts). If set to -2, the relation is unrelated
-
-sec_emp                                                No                           Optional objid of secondary support employee. If set to -1, no change is  
-
-                                                                        made. (updates), or the relation is not set (inserts). If set to -2, the relation is unrelated
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| site_objid | Yes | For inserts, this is set to zero. For updates, set it to the site objid. If (for updates) the site_id is set to "NOTSUPPLIED", this field must be specified. If the site_id is specified for updates, this field is ignored. |
+| site_id | No | For inserts, if this variable is blank, a new site_id is generated. For inserts, if this field is supplied, it will be used for the new site. For updates, supply the site_id to update. For updates, if this field is set to "NOTSUPPLIED", the site_objid is used to identify the site. |
+| site_name | No | The name of the site. For updates, if you set it to "REMOVE", the site name will be cleared |
+| site_type | No | Required for inserts. Must be one of: "CUST, INTR, RSEL, INDV". For updates, only changed if the value is supplied |
+| bus_org | No | What account is this site in? If blank, the default site is used |
+| status | No | Required for inserts. One of "ACTIVE, INACTIVE, OBSOLETE". For updates, only changed if the value is supplied |
+| region | No | Region for the site. For updates, if blank, no change is made, and if set to "REMOVE", the field is cleared. |
+| district | No | District of the site. For updates, if blank, no change is made, and if set to "REMOVE", the field is cleared. |
+| industry_type | No | Value from the INDUSTRY_TYPE code list. For inserts,  if this is blank, the default value of the list is used. For updates, if blank, no change is made |
+| appl_type | No | Value from the PRIMARY_USE code list. For inserts,  if this is blank, the default value of the list is used. For updates, if blank, no change is made |
+| prim_addr | No | Objid of the primary address for the site. For inserts, this must be supplied. For updates, if set to -1, no change is made |
+| ship_addr | No | Shipping address of the site. If set to -1 (for inserts), the primary address is used. If set to -1 for updates, no change is made |
+| bill_addr | No | Billing address of the site. If set to -1 (for inserts), the primary address is used. If set to -1 for updates, no change is made |
+| parent_site | No | Optional site_id of parent site. If left blank, no change is made (updates), and relation is not set (inserts). If you wish to clear the relation (updates), set the value to "REMOVE" |
+| supp_office | No | Optional site_id of support office. If left blank, no change is made (updates), and relation is not set (inserts). If you wish to clear the relation (updates), set the value to "REMOVE" |
+| prim_emp | No | Optional objid of primary support employee. If set to -1, no change is made (updates), or the relation is not set (inserts). If set to -2, the relation is unrelated |
+| sec_emp | No | Optional objid of secondary support employee. If set to -1, no change is made. (updates), or the relation is not set (inserts). If set to -2, the relation is unrelated |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -164,9 +132,8 @@ val_list                                   Yes
 
 -18                                           Cannot find the 'Changed Bill To' activity string with rank = 8200
 
--19                                           Cannot find the 'Changed Ship To' activity string with rank = 8300
-
-ret_objid                                Output                   Returns the objid of the site
+-19                                           Cannot find the 'Changed Ship To' activity string with rank = 8300 |
+| ret_objid | Output | Returns the objid of the site
 
 **Examples**
 

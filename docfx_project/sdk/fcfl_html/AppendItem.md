@@ -10,21 +10,13 @@ Type     : Property
 **Prototype**
 
 Public Sub AppendItem(ByRef item1 As Variant, _
-
                       Optional ByRef item2 As Variant, _
-
                       Optional ByRef item3 As Variant, _
-
                       Optional ByRef item4 As Variant, _
-
                       Optional ByRef item5 As Variant, _
-
                       Optional ByRef item6 As Variant, _
-
                       Optional ByRef item7 As Variant, _
-
                       Optional ByRef item8 As Variant, _
-
                       Optional ByRef item9 As Variant)
 
 **Description**
@@ -32,11 +24,11 @@ Public Sub AppendItem(ByRef item1 As Variant, _
 Append from one to nine items onto the list.  Items are appended in order on the end of the list.  Items must be all of the same type and they must match the types of items currently in the list.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-item1                                       Yes                         First item to append to the list.
-
-item2 - item9                          No                           Second through ninth item to append to the list.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| item1 | Yes | First item to append to the list. |
+| item2 - item9 | No | Second through ninth item to append to the list. |
 
 **Error codes**
 

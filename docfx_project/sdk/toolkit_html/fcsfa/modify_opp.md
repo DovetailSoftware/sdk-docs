@@ -60,69 +60,28 @@ These APIs are used to modify opportunities. The opportunity ID must be specifie
 Most of the data items can be left with their current values. To not change an item, simply leave the data blank (for strings), or less than 0 (for numerics). If you wish to clear out the value in an option item, use the keyword "CLEAR".
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-opp_id                                   Yes                         The ID of the opportunity to modify
-
-opp_name                             No                           Name of the opportunity. If blank, no change is made
-
-acct_id                                   No                           ID of the related account. If blank, no change is made. To clear the account,
-
-use "CLEAR"
-
-con_first, con_last,              No                           Name and phone number of related contact. If a contact is to be specified, all
-
-con_phone                                                            three must be given. If all three are blank, no change is made. To clear out
-
-the specified contact, put "CLEAR" in con_first, and leave the other two
-
-blank
-
-terr_name                              No                           Name of the territory. If blank, no change is made
-
-amt                                          No                           Amount of the opportunity. Must be numeric. If < 0, no change is made
-
-close_date                             No                           Close date of the opportunity. If  blank, no change is made
-
-lead_source                          No                           Lead source for the opportunity. If blank, no change is made
-
-the_currency                        No                           Currency for the opportunity. If blank, no change is made
-
-prob                                        No                           Probability of opportunity close. Must be numeric, and between 0 and 1. If
-
-blank, (""), no change is made
-
-process                                  No                           Process for the opportunity. If blank, no change is made
-
-user_name                             No                           Owner of the opportunity. If blank, the current owner is not changed
-
-mod_date                              No                           When was the opportunity modified? If blank, current date/time is used
-
-gen_time_bombs                 Yes                         Should time_bombs be built for business rule evaluation
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| opp_id | Yes | The ID of the opportunity to modify |
+| opp_name | No | Name of the opportunity. If blank, no change is made |
+| acct_id | No | ID of the related account. If blank, no change is made. To clear the account, use "CLEAR" |
+| con_first, con_last, con_phone | No | Name and phone number of related contact. If a contact is to be specified, all three must be given. If all three are blank, no change is made. To clear out the specified contact, put "CLEAR" in con_first, and leave the other two blank |
+| terr_name | No | Name of the territory. If blank, no change is made |
+| amt | No | Amount of the opportunity. Must be numeric. If < 0, no change is made |
+| close_date | No | Close date of the opportunity. If  blank, no change is made |
+| lead_source | No | Lead source for the opportunity. If blank, no change is made |
+| the_currency | No | Currency for the opportunity. If blank, no change is made |
+| prob | No | Probability of opportunity close. Must be numeric, and between 0 and 1. If blank, (""), no change is made |
+| process | No | Process for the opportunity. If blank, no change is made |
+| user_name | No | Owner of the opportunity. If blank, the current owner is not changed |
+| mod_date | No | When was the opportunity modified? If blank, current date/time is used |
+| gen_time_bombs | Yes | Should time_bombs be built for business rule evaluation |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -158,7 +117,7 @@ val_list                                   Yes
 
 **Field version:**
 
-**       JavaScript:**
+**JavaScript:**
 
   ret_int = fcsfa_obj.modify_opp("33", "", "AN_CUST2", "CLEAR", "", "", "",
 
@@ -178,7 +137,7 @@ Dim opp_id     As String
 
 **List version:**
 
-**       JavaScript:**
+**JavaScript:**
 
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 
@@ -243,11 +202,11 @@ These APIs cause the specified action item, opportunity, or quote to be moved fr
 **Note:** These APIs allow you to move a queueable object from one WIPBin to another, even if the object is currently dispatched. Since WIPBins are internal to a user, there really is no reason that you shouldn't be able to move the interal (to a user) location of the object. This is an enhancement to base Clarify function, which requires that the object not be dispatched to be moved.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-the_id                                     Yes                         The object to move
-
-new_wipbin                          Yes                         The WIPBin to move the object to. If left blank, the object is moved to the
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| the_id | Yes | The object to move |
+| new_wipbin | Yes | The WIPBin to move the object to. If left blank, the object is moved to the |
 
 **Returns**
 

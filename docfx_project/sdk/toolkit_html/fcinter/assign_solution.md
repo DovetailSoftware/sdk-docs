@@ -13,27 +13,15 @@ Public Function assign_solution(ByVal solution_id As String, _
 This API causes the specified solution to be assigned to a new user. The solution must not be in closed condition, and the user assigning the solution does not have to be the owner. In base Clarify, the assigner of a solution must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the solution in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-solution_id                            Yes                         The solution to assign
-
-new_user                               No                           The user who the solution is assigned to. If left blank, it is assigned
-
-to the current user
-
-wipbin                                    No                           The WIPBin to place the solution in (for the user who is assigned
-
-the solution). If left blank, it is placed in the user's default WIPBin
-
-assign_date                          No                           When was the solution assigned. If this parameter is left blank, it
-
-is assigned at the current time
-
-user_name                             No                           The user who assigned the solution. If left blank, the current
-
-user performs the assign.
-
-gen_time_bombs                 Yes                         Should a time bomb record be created for business rule notification?
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| solution_id | Yes | The solution to assign |
+| new_user | No | The user who the solution is assigned to. If left blank, it is assigned to the current user |
+| wipbin | No | The WIPBin to place the solution in (for the user who is assigned the solution). If left blank, it is placed in the user's default WIPBin |
+| assign_date | No | When was the solution assigned. If this parameter is left blank, it is assigned at the current time |
+| user_name | No | The user who assigned the solution. If left blank, the current user performs the assign. |
+| gen_time_bombs | Yes | Should a time bomb record be created for business rule notification? |
 
 **Returns**
 

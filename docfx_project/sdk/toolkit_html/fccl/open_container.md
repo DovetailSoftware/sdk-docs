@@ -8,15 +8,16 @@ Public Function open_container(ByVal cont_name As String) As Integer
 This API opens an existing (sealed) container.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cont_name                            Yes                         The container to open
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cont_name | Yes | The container to open |
 
 **Returns**
 
 **Value**                **Meaning**
 
- 0                                             No errors
+0                                      No errors
 
 -1                                             Cannot find the container
 

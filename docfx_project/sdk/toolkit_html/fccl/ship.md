@@ -21,47 +21,28 @@ Other information about the shipment (number of pieces, overall weight, etc.) ca
 The API will validate that the user has authority to make the status transition. Also, the API allows for time bombs (for business rules) to be created, or not.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-dtl_num                                 Yes                         The part request to ship
-
-site_name                              No                           Site name to ship to
-
-addr                                        No                           Address line 1 to ship to
-
-addr2                                      No                           Address line 2 to ship to
-
-city                                         No                           City to ship to
-
-state                                       No                           State to ship to
-
-zip                                           No                           Zipcode to ship to
-
-country                                  No                           Country to ship to
-
-f_name                                   No                           Contact first name for attention in shipping
-
-l_name                                   No                           Contact last name for attention in shipping
-
-waybill                                   No                           Waybill information for the shipment
-
-pack_list                                No                           Packing list information for the shipment
-
-pieces                                     No                           Number of pieces shipped
-
-weight                                    No                           Overall weight shipped
-
-status                                     No                           New status (in condition Shipped) for the part request. If blank, default
-
-                                                                                status for the condition is used
-
-ship_date                              No                           When did the ship occur. If left blank, current time is used
-
-user_name                             No                           Who performed the ship? If left blank, current user is used
-
-carrier_name                         No                           The carrier of the shipment? If left blank, the dummy site (objid of -2) is used
-
-gen_time_bombs                 Yes                         Should a time bomb record be created for business rule notification?
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| dtl_num | Yes | The part request to ship |
+| site_name | No | Site name to ship to |
+| addr | No | Address line 1 to ship to |
+| addr2 | No | Address line 2 to ship to |
+| city | No | City to ship to |
+| state | No | State to ship to |
+| zip | No | Zipcode to ship to |
+| country | No | Country to ship to |
+| f_name | No | Contact first name for attention in shipping |
+| l_name | No | Contact last name for attention in shipping |
+| waybill | No | Waybill information for the shipment |
+| pack_list | No | Packing list information for the shipment |
+| pieces | No | Number of pieces shipped |
+| weight | No | Overall weight shipped |
+| status | No | New status (in condition Shipped) for the part request. If blank, default status for the condition is used |
+| ship_date | No | When did the ship occur. If left blank, current time is used |
+| user_name | No | Who performed the ship? If left blank, current user is used |
+| carrier_name | No | The carrier of the shipment? If left blank, the dummy site (objid of -2) is used |
+| gen_time_bombs | Yes | Should a time bomb record be created for business rule notification? |
 
 **Returns**
 

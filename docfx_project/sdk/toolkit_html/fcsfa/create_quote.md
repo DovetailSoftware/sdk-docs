@@ -69,67 +69,29 @@ The ID of the newly-created quote will be returned in _fcsfa.ret_id_num_. The ob
   
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-quote_title                             Yes                         The title of the quote
-
-account_id                            No                           ID of the related account for "sell-to"
-
-site_id                                    No                           ID number of the related site
-
-opp_id                                   No                           ID of the related opportunity
-
-first,last, phone                    No                           First name, last name and phone of the related contact. If you are specifying
-
-a contact, all are required
-
-status                                     No                           Status for the Quote (from SFA Quote condition). If no status is supplied, the
-
-default status is used
-
-bill_to_site                            No                           Bill-to site for the default schedule
-
-ship_to_site                          No                           Ship-to site for the default schedule
-
-the_curr                                 No                           Currency to use for quote. If blank, the system default currency is used
-
-price_prog                             No                           Price program for the quote. If blank, use "US Std Price List" program
-
-queue                                     No                           Queue to dispatch the quote to. If blank, no dispatch takes place
-
-admin_user                           No                           Login name of the administrator. If blank, current user is used
-
-create_date                           No                           When was the quote created? If blank, current date/time is used
-
-user_name                             No                           Creator of the quote. If blank, the current user is used
-
-quote_len                              Yes                         How long is quote good for (in days). If set to 0, the default (30) is used
-
-gen_time_bombs                 Yes                         Should time_bombs be built for business rule evaluation
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| quote_title | Yes | The title of the quote |
+| account_id | No | ID of the related account for "sell-to" |
+| site_id | No | ID number of the related site |
+| opp_id | No | ID of the related opportunity first,last, phone | No | First name, last name and phone of the related contact. If you are specifying a contact, all are required |
+| status | No | Status for the Quote (from SFA Quote condition). If no status is supplied, the default status is used |
+| bill_to_site | No | Bill-to site for the default schedule |
+| ship_to_site | No | Ship-to site for the default schedule |
+| the_curr | No | Currency to use for quote. If blank, the system default currency is used |
+| price_prog | No | Price program for the quote. If blank, use "US Std Price List" program |
+| queue | No | Queue to dispatch the quote to. If blank, no dispatch takes place |
+| admin_user | No | Login name of the administrator. If blank, current user is used |
+| create_date | No | When was the quote created? If blank, current date/time is used |
+| user_name | No | Creator of the quote. If blank, the current user is used |
+| quote_len | Yes | How long is quote good for (in days). If set to 0, the default (30) is used |
+| gen_time_bombs | Yes | Should time_bombs be built for business rule evaluation |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -177,7 +139,7 @@ val_list                                   Yes
 
 **Field version:**
 
-**       JavaScript:**
+**JavaScript:**
 
 var ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4",
 
@@ -202,7 +164,7 @@ ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4", _
 
 **List version:**
 
-**       JavaScript:**
+**JavaScript:**
 
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 

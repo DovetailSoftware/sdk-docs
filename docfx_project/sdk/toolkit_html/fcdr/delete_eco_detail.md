@@ -8,13 +8,14 @@ Public Function delete_eco_dtl(ByVal eco_dtl_objid As Long) As Integer
 This API will delete an ECO detail object.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-eco_dtl_objid                       Yes                         The objid of the ECO detail object to be deleted.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| eco_dtl_objid | Yes | The objid of the ECO detail object to be deleted. |
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value | Meaning | **
 
 0                                              No errors
 

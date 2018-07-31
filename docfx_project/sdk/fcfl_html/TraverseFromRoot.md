@@ -24,13 +24,12 @@ This method sets a query for a generic object, given a root object table name, t
 Note: This method does not automatically set the BulkName. You must still set this manually.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-RootObjid                              Yes                         The objid of the root row in the root object
-
-TblName                                Yes                         The name (not including the "table_" of the root table
-
-RootRel                                  Yes                         The relation to follow from the root row to this generic object
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| RootObjid | Yes | The objid of the root row in the root object |
+| TblName | Yes | The name (not including the "table_" of the root table |
+| RootRel | Yes | The relation to follow from the root row to this generic object |
 
 **Example**
 

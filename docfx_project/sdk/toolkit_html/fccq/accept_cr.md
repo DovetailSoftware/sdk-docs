@@ -12,21 +12,14 @@ Public Function accept_cr(ByVal cr_id As String, _
 This API causes the specified change request to be accepted from a dispatched queue. The change request must be currently dispatched to a queue. The date/time of the accept, the WIPBin to place the change request in, and the user performing the accept can be specified. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         The change request to accept
-
-accept_date                          No                           When was the change request accepted. If this parameter is left blank, the CR is accepted at the current time
-
-wipbin_name                        No                           The WIPBin to place the change request in (for the user who accepted CR)
-
-If left blank, the change request is placed in the user's default WIPBin
-
-user_name                             No                           The user who accepted the CR. If left blank, the current user performs
-
-the accept
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | The change request to accept |
+| accept_date | No | When was the change request accepted. If this parameter is left blank, the CR is accepted at the current time |
+| wipbin_name | No | The WIPBin to place the change request in (for the user who accepted CR) If left blank, the change request is placed in the user's default WIPBin |
+| user_name | No | The user who accepted the CR. If left blank, the current user performs the accept |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

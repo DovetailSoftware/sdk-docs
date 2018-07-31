@@ -37,45 +37,22 @@ Optional val_list As Variant) As Integer
 These APIs are used to close a change request. The change request must be in a condition/status that allows the transition to the closed condition. The APIs allow for the assigning of a closed status, as well as notes, the test cases used to verify the close, and the release. The APIs allow you to specify a user who performed the close, as well as the date/time of closure. The APIs allow for additional fields to be written to the close_bug object.  The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         The change request Id to be closed
-
-the_status                             No                           The closed condition status for the CR. If left blank, the default status
-
-                                                                                for closed condition is used
-
-notes                                      No                           Notes about the closure
-
-test_case                               No                           Test case string for closure
-
-int_release                             No                           Release information for the closure
-
-user_name                             No                           The user who closed the CR. If left blank, the current user performs
-
-the close
-
-close_date                             No                           The date/time of the close. If left blank, the current time is used
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules).
-
-int_fld1, int_fld2                   No                           Names of additional fields to write.  Must use "" if not using
-
-str_fld1, str_fld2                                                   these parameters
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. Must use "" (string) or 0 (long)
-
-str_val1, str_val2                                                 if not using these parameters
-
-date_val1
-
-fld_list                                    No                           List of additional field names to write
-
-type_list                                                No                           List of additional field data types to write
-
-val_list                                   No                           List of additional field values to write
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | The change request Id to be closed |
+| the_status | No | The closed condition status for the CR. If left blank, the default status for closed condition is used |
+| notes | No | Notes about the closure |
+| test_case | No | Test case string for closure |
+| int_release | No | Release information for the closure |
+| user_name | No | The user who closed the CR. If left blank, the current user performs the close |
+| close_date | No | The date/time of the close. If left blank, the current time is used |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules). |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -105,9 +82,8 @@ val_list                                   No�
 
 -18                                           New status not found for new condition
 
--19                                           Cannot find the specified user's employee record for relating time bomb
-
-ret_objid                                Output                   Returns the objid of the new change request
+-19                                           Cannot find the specified user's employee record for relating time bomb |
+| ret_objid | Output | Returns the objid of the new change request
 
 **Examples**
 

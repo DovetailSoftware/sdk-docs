@@ -32,71 +32,27 @@ Public Function create_update_schedule_list(ByVal contract_id As String, _
 These APIs are used to create or update a contract schedule. The contract ID must be specified, and the ID of the schedule is also specified. If this is an update, the Boolean is set to False, otherwise it is set to True. You may specify the bill-to or ship-to site, the price program, and the code list values. In addition, you may specify a variety of dates.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contract_id                            Yes                         ID number of the contract
-
-is_create                                                Yes                         Is this a new schedule (True) or an update (False)
-
-sched_id                                                Yes                         The ID of the schedule to create, or of the one to update
-
-bill_site                                  No                           The ID number of the site to associate as the bill-to site. If this is set to the
-
-                                                                                empty string ("") or "IGNORE", no change is made in the site
-
-bill_attn                                 No                           Attention person at bill-to site. If this field is set to "CLEAR", the field
-
-                                                                                is set to the empty string
-
-ship_site                                                No                           The ID number of the site to associate as the ship-to site. If this is set to the
-
-                                                                                empty string ("") or "IGNORE", no change is made in the site
-
-price_prog                             No                           The price program for the schedule. If this field is left blank (for creates), the
-
-default program is used. If it is left blank (updates), the program is not changed
-
-bill_freq                                 No                           The billing frequency. If blank (creates), the default is used. If blank
-
-(updates), no change is made
-
-bill_option                             No                           The billing option. If blank (creates), the default is used. If blank
-
-(updates), no change is made
-
-period_start_dt                    No                           The start date of the billing period. If blank (creates), the current date/time is
-
-used. If blank (updates), the date is not changed
-
-first_bill_dt                           No                           The first billing date.  If blank (creates), the current date/time is
-
-used. If blank (updates), the date is not changed
-
-chg_start_dt                         No                           The start date of the charging. If blank (creates), the current date/time is
-
-used. If blank (updates), the date is not changed
-
-chg_end_dt                          No                           The end  date of the charging. If blank (creates), the current date/time is
-
-used. If blank (updates), the date is not changed
-
-fld_list                                    No                           List of fields to set
-
-type_list                                                No                           List of data types for each field in fld_list
-
-val_list                                   No                           List of values to set for each field in fld_list
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contract_id | Yes | ID number of the contract |
+| is_create | Yes | Is this a new schedule (True) or an update (False) |
+| sched_id | Yes | The ID of the schedule to create, or of the one to update |
+| bill_site | No | The ID number of the site to associate as the bill-to site. If this is set to the empty string ("") or "IGNORE", no change is made in the site |
+| bill_attn | No | Attention person at bill-to site. If this field is set to "CLEAR", the field is set to the empty string |
+| ship_site | No | The ID number of the site to associate as the ship-to site. If this is set to the empty string ("") or "IGNORE", no change is made in the site |
+| price_prog | No | The price program for the schedule. If this field is left blank (for creates), the default program is used. If it is left blank (updates), the program is not changed |
+| bill_freq | No | The billing frequency. If blank (creates), the default is used. If blank (updates), no change is made |
+| bill_option | No | The billing option. If blank (creates), the default is used. If blank (updates), no change is made |
+| period_start_dt | No | The start date of the billing period. If blank (creates), the current date/time is used. If blank (updates), the date is not changed |
+| first_bill_dt | No | The first billing date.  If blank (creates), the current date/time is used. If blank (updates), the date is not changed |
+| chg_start_dt | No | The start date of the charging. If blank (creates), the current date/time is used. If blank (updates), the date is not changed |
+| chg_end_dt | No | The end  date of the charging. If blank (creates), the current date/time is used. If blank (updates), the date is not changed |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -120,9 +76,8 @@ date_val1
 
 -8                                             The specified schedule name already exists for the contract. Cannot create
 
--9                                             The specified schedule does not exist. Cannot update
-
-ret_objid                                Output                   Returns the objid of the newly created schedule
+-9                                             The specified schedule does not exist. Cannot update |
+| ret_objid | Output | Returns the objid of the newly created schedule
 
 **Examples**
 

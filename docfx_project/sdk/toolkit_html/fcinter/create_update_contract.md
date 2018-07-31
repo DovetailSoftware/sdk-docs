@@ -57,77 +57,28 @@ Public Function create_update_contract_list(ByVal contract_id As String, _
 These APIs create or update a contract. An existing contract can be updated, or a new contract can be created.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contract_id                            No                           Contract Id, an existing one, or blank one for new contract
-
-contract_type                       No                           Contract Type, from list. If no value given, default is used (create), or no
-
-change is made (update)
-
-status                                     No                           Contract Status, from list. If no value given, default is used (create), or no
-
-change is made (update)
-
-po_number                            No                           Purchase order number for the contract. If none given (update), no change is
-
-made
-
-pay_options                         No                           Payment options for the contract. If none is given (create), default is used. If
-
-none is given (update), no change is made
-
-phone_resp                           No                           How much time (in seconds) before we should call back. If <0 (update), no
-
-change is made
-
-onsite_resp                           No                           How much time (in seconds) before we should be on site. If <0 (update), no
-
-change is made
-
-hours_for_pm                       No                           The business hours for PM. If none given (update), no change is made
-
-start_date                              No                           The effective date of this contract. If none given (update), no change is made
-
-expire_date                            No                           The expiration date of this contract. If none given (update), no change is
-
-made
-
-units_used                            No                           The number of units used. If none given (update), no change is made
-
-units_avail                            No                           The number of units available. If none given (update), no change is made
-
-spec_consid                         No                           Turns the flag on/off for special considerations (0 = off, 1 = on). If no change
-
-(update), then set to -1
-
-notes                                      No                           Notes (special consid) to be added or changed on the contract. These notes
-
-are only displayed if the spec_consid field = 1
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contract_id | No | Contract Id, an existing one, or blank one for new contract |
+| contract_type | No | Contract Type, from list. If no value given, default is used (create), or no change is made (update) |
+| status | No | Contract Status, from list. If no value given, default is used (create), or no change is made (update) |
+| po_number | No | Purchase order number for the contract. If none given (update), no change is made |
+| pay_options | No | Payment options for the contract. If none is given (create), default is used. If none is given (update), no change is made |
+| phone_resp | No | How much time (in seconds) before we should call back. If <0 (update), no change is made |
+| onsite_resp | No | How much time (in seconds) before we should be on site. If <0 (update), no change is made |
+| hours_for_pm | No | The business hours for PM. If none given (update), no change is made |
+| start_date | No | The effective date of this contract. If none given (update), no change is made |
+| expire_date | No | The expiration date of this contract. If none given (update), no change is made |
+| units_used | No | The number of units used. If none given (update), no change is made |
+| units_avail | No | The number of units available. If none given (update), no change is made |
+| spec_consid | No | Turns the flag on/off for special considerations (0 = off, 1 = on). If no change (update), then set to -1 |
+| notes | No | Notes (special consid) to be added or changed on the contract. These notes are only displayed if the spec_consid field = 1 |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -149,9 +100,8 @@ val_list                                   Yes
 
 -7                                             Units Available does not equal Units Purchased minus Units Used
 
--8                                             Special Consideration needs to be 0 (false) or 1 (true)
-
-ret_objid                                Output                   Returns the objid of the contract
+-8                                             Special Consideration needs to be 0 (false) or 1 (true) |
+| ret_objid | Output | Returns the objid of the contract
 
 **Examples**
 

@@ -10,13 +10,12 @@ Public Function add_user_to_queue(ByVal queue As String, _
 This API allows you to add a user (or supervisor) to a queue.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-queue                                     Yes                         The name of the queue
-
-user_name                             Yes                         The user to add
-
-supervisor                             Yes                         Is this a supervisor (True) or just a user (False)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| queue | Yes | The name of the queue |
+| user_name | Yes | The user to add |
+| supervisor | Yes | Is this a supervisor (True) or just a user (False) |
 
 **Returns**
 
@@ -26,9 +25,8 @@ supervisor                             Yes     
 
 -1                                             Cannot find the specified queue (or queue not specified)
 
--2                                             Specified user not found
-
-ret_objid                                Output                   Returns the objid of the user
+-2                                             Specified user not found |
+| ret_objid | Output | Returns the objid of the user
 
 **Examples**
 

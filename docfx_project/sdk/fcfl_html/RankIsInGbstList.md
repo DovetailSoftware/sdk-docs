@@ -16,15 +16,15 @@ Public Function RankIsInGbstLst(ByVal ListName As String, ByVal Rank As Long) As
 This method returns a boolean indicating if an element having a given rank exists in a given Application Popup list. The gbst_elm table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-ListName                               Yes                         Application List Name
-
-Rank                                       Yes                         Rank of Element
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| ListName | Yes | Application List Name |
+| Rank | Yes | Rank of Element |
 
 **Returns**
 
-A boolean indicating if an element having a given rank exists in a given Application Popup list.
+A boolean indicating if an element having a given rank exists in a given Application Popup list. |
 
 **Error Codes**
 
@@ -42,9 +42,7 @@ The code in this example is written in Visual Basic.
 
 The following example verifies that the given activity code is valid.
 
-act_code = 4700
-
-If Not FCApp.RankIsInGbstLst("Activity Name", act_code) Then
+act_code = 4700 If Not FCApp.RankIsInGbstLst("Activity Name", act_code) Then
 
   'Cleanup, Error, & Exit
 

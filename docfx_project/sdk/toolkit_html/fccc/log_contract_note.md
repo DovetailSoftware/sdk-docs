@@ -32,41 +32,19 @@ Public Function log_contract_note_list(contract_id As String, _
 This API causes a note log to be create and added to the specified contract.  It does it in the name of the user given and allows the setting of user.   It allows the setting of optional fields on the notes_log record with the optional list parameters.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contract_id                            Yes                         The contract to add the note to
-
-action_type                         No                            The note log action type taken from the "Note Log Action Type" list.  If the field is not specified, the default from the list is used.
-
-note_str                                 Yes                         The note to attach to the contract
-
-int_use                                   Yes                         Whether note is internal only (=1) or general viewing (=0)
-
-log_date                                                No                           Date/time of the note (default is the current time)
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contract_id | Yes | The contract to add the note to |
+| action_type | No | The note log action type taken from the "Note Log Action Type" list.  If the field is not specified, the default from the list is used. |
+| note_str | Yes | The note to attach to the contract |
+| int_use | Yes | Whether note is internal only (=1) or general viewing (=0) |
+| log_date | No | Date/time of the note (default is the current time) |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 

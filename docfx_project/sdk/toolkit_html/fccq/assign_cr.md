@@ -13,25 +13,15 @@ Public Function assign_cr(ByVal cr_id As String, _
 This API cause the specified change request to be assigned to a new user. The CR must be in an Open condition, and the user assigning the change request does not have to be the owner of the change request. In base Clarify, the assigner of a change request must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the change request in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         The change request Id to be assigned
-
-new_user                               No                           The user who the change request is assigned to. If left blank, the CR is
-
-assigned to the current user
-
-wipbin_name                        No                           The WIPBin to place the change request in (for the user who is assigned the
-
-CR). If left blank, the change request is placed in the user's default WIPBin
-
-assign_date                          No                           When was the change request assigned. If this parameter is left blank, the CR is assigned at the current time
-
-user_name                             No                           The user who assigned the CR. If left blank, the current user performs
-
-the assign
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | The change request Id to be assigned |
+| new_user | No | The user who the change request is assigned to. If left blank, the CR is assigned to the current user |
+| wipbin_name | No | The WIPBin to place the change request in (for the user who is assigned the CR). If left blank, the change request is placed in the user's default WIPBin |
+| assign_date | No | When was the change request assigned. If this parameter is left blank, the CR is assigned at the current time |
+| user_name | No | The user who assigned the CR. If left blank, the current user performs the assign |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

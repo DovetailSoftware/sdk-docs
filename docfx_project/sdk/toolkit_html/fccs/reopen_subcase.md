@@ -11,23 +11,15 @@ Public Function reopen_subcase(ByVal subcase_id As String, _
 This API causes the specified subcase to be reopened. The date/time of the reopen, the person performing the reopen, the WIPBIN to place the subcase in, and the new status of the subcase are specified. The person who reopens the subcase becomes the new owner. The WIPBin to place the subcase in may also be specified. If it is not, the subcase is placed in the user's default WIPBIN. This is augmented function from base Clarify, where the subcase is always placed in the default WIPBin. The status field is also augmented function. If the status is not specified, the subcase is placed in the default status for the Open condition. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-subcase_id                            Yes                         The subcase to reopen
-
-wipbin_name                        No                           The WIPBin to place the subcase in. If left blank, the default WIPBin for the user is used
-
-status_str                              No                           The new status for the subcase. If no status is specified, the default status for Open Condition is used
-
-reopen_date                          No                           When was the subcase reopened. If this parameter is left blank, the reopen
-
-occurs at the current time
-
-user_name                             No                           The user who reopened the subcase. If left blank, the current user performs
-
-the reopen
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| subcase_id | Yes | The subcase to reopen |
+| wipbin_name | No | The WIPBin to place the subcase in. If left blank, the default WIPBin for the user is used |
+| status_str | No | The new status for the subcase. If no status is specified, the default status for Open Condition is used |
+| reopen_date | No | When was the subcase reopened. If this parameter is left blank, the reopen occurs at the current time |
+| user_name | No | The user who reopened the subcase. If left blank, the current user performs the reopen |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

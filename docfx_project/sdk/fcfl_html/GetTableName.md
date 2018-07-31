@@ -20,9 +20,10 @@ This method is for advanced users only, and will seldom be called for most appli
 **Note:** The name of the table returned will **not** include the "table_" prefix.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-TableNum                              Yes                         Number of table or view in the Clarify database.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| TableNum | Yes | Number of table or view in the Clarify database. |
 
 **Returns**
 

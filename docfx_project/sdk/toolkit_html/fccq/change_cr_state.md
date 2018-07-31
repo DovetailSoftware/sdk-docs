@@ -29,45 +29,22 @@ This API causes the specified change request to have its status and/or condition
 | CR Closed/Duplicate | CR Open | reopen_cr |
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         The change request Id to change status for
-
-new_status                           No                           The new status for the change request. If blank, the default status is used
-
-new_condition                     Yes                         The new condition for the change request
-
-change_date                         No                           When was the CR status changed. If this parameter is left blank, the CR is
-
-status changed at the current time
-
-notes                                      No                           Notes for the status change
-
-user_name                             No                           The user who changed the status. If left blank, the current user performs
-
-the change status
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
-
-wipbin                                    No                           The WIPBin to place the change request in. If left blank, the default WIPBin is used (for reopen_cr)
-
-test_case                               No                           Test case string for closure (for close_cr and fix_failed)
-
-int_release                             No                           Release information for the closure (for close_cr and fix_failed)
-
-master_cr                               No                           The ID of the master (parent) CR (for duplicate_cr)
-
-int_fld1, int_fld2                   No                           Names of additional fields to write.  Must use "" if not using
-
-str_fld1, str_fld2                                                   these parameters
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. Must use "" (string) or 0 (long)
-
-str_val1, str_val2                                                 if not using these parameters
-
-date_val1
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | The change request Id to change status for |
+| new_status | No | The new status for the change request. If blank, the default status is used |
+| new_condition | Yes | The new condition for the change request |
+| change_date | No | When was the CR status changed. If this parameter is left blank, the CR is status changed at the current time |
+| notes | No | Notes for the status change |
+| user_name | No | The user who changed the status. If left blank, the current user performs the change status |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
+| wipbin | No | The WIPBin to place the change request in. If left blank, the default WIPBin is used (for reopen_cr) |
+| test_case | No | Test case string for closure (for close_cr and fix_failed) |
+| int_release | No | Release information for the closure (for close_cr and fix_failed) |
+| master_cr | No | The ID of the master (parent) CR (for duplicate_cr) |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
 
 **Returns**
 

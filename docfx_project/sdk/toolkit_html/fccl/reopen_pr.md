@@ -13,29 +13,21 @@ This API causes the specified part request to be reopened. If the part request i
 The API will validate that the user has authority to make the status transition. Also, the API allows for time bombs (for business rules) to be created, or not.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-pr_id                                       Yes                         The part request to reject
-
-new_status                           No                           The status (in condition RQST REOPENED) for the part request. If left
-
-                                                                                blank, the default status is used
-
-wipbin_name                        No                           The WIPBIN to place the part request in.  If left blank, the default WIPBIN
-
-                                                                                for the user is used
-
-reopen_date                          No                           When did the reopen occur. If left blank, current time is used
-
-user_name                             No                           Who performed the reopen? If left blank, current user is used
-
-gen_time_bombs                 Yes                         Should a time bomb record be created for business rule notification?
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| pr_id | Yes | The part request to reject |
+| new_status | No | The status (in condition RQST REOPENED) for the part request. If left blank, the default status is used |
+| wipbin_name | No | The WIPBIN to place the part request in.  If left blank, the default WIPBIN for the user is used |
+| reopen_date | No | When did the reopen occur. If left blank, current time is used |
+| user_name | No | Who performed the reopen? If left blank, current user is used |
+| gen_time_bombs | Yes | Should a time bomb record be created for business rule notification? |
 
 **Returns**
 
 **Value**                **Meaning**
 
- 0                                             No errors
+0                                      No errors
 
 -1                                             Cannot find the specified part request
 

@@ -11,21 +11,15 @@ Public Function forward_pr(ByVal pr_id As String, _
 This API causes the specified part request to be rejected from the current queue, and forwarded to another queue. The part request must be dispatched to a queue, and the specified new queue must be valid. The API allows for the setting of the forward date, and the user who forwarded the part request. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-pr_id                                       Yes                         The part request to dispatch
-
-queue_name                         Yes                         The queue to forward to
-
-forward_date                        No                           When was the part request forwarded. If this parameter is left blank, the PR is forwarded at the current time
-
-note_str                                 No                           Optional notes about the forward
-
-user_name                             No                           The user who forwarded the part request. If left blank, the current user
-
-performs the forward.
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| pr_id | Yes | The part request to dispatch |
+| queue_name | Yes | The queue to forward to |
+| forward_date | No | When was the part request forwarded. If this parameter is left blank, the PR is forwarded at the current time |
+| note_str | No | Optional notes about the forward |
+| user_name | No | The user who forwarded the part request. If left blank, the current user performs the forward. |
+| gen_time_bombs | Yes | Should a time_bomb be generated |
 
 **Returns**
 

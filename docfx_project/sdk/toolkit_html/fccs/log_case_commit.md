@@ -38,67 +38,28 @@ These APIs are used to create a commitment against a case. The APIs allow for th
 The objid of the created log is returned in the FCCS object variable _ret_objid_.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         The case to close
-
-the_title                                 Yes                         The title of the commitment
-
-action_type                           No                           The commitment log action type code value
-
-log_date                                                No                           The date the log was created. If left blank, the current time is used
-
-commit_date                         Yes                         When the commitment is due. If left blank, set to the log date
-
-prior_warn                             Yes                         How long to warn the owner before the commitment expires. This
-
-                                                                                is recorded in seconds (1 hour = 3600 seconds). If set to 0, no prior
-
-                                                                                warning is given
-
-made_to                                 Yes                         Is the commitment to the contact (True), or by the contact (False)
-
-cont_first                               Yes                         First name of the contact
-
-cont_last                               Yes                         Last name of the contact
-
-cont_phone                          Yes                         Phone number of the contact
-
-note_str                                 No                           Additional text notes for the log
-
-user_name                             No                           The user who created the log. If left blank, the current user performs
-
-the logging
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules).
-
-generate_commit_email      Yes                         Should the API add the email notifications for the commitment time
-
-                                                                                and prior warning time?
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    No                           List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                No                           List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   No                           List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | The case to close |
+| the_title | Yes | The title of the commitment |
+| action_type | No | The commitment log action type code value |
+| log_date | No | The date the log was created. If left blank, the current time is used |
+| commit_date | Yes | When the commitment is due. If left blank, set to the log date |
+| prior_warn | Yes | How long to warn the owner before the commitment expires. This is recorded in seconds (1 hour = 3600 seconds). If set to 0, no prior warning is given |
+| made_to | Yes | Is the commitment to the contact (True), or by the contact (False) |
+| cont_first | Yes | First name of the contact |
+| cont_last | Yes | Last name of the contact |
+| cont_phone | Yes | Phone number of the contact |
+| note_str | No | Additional text notes for the log |
+| user_name | No | The user who created the log. If left blank, the current user performs the logging |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules). |
+| generate_commit_email | Yes | Should the API add the email notifications for the commitment time and prior warning time? |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 

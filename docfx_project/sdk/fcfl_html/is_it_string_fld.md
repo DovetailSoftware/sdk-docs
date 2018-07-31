@@ -18,11 +18,11 @@ Public Function is_it_string_fld(tbl_name As String, _
 This method returns whether a given field is defined (in the specified table) as a string field.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-tbl_name                                Yes                         Name of the table
-
-field_name                             Yes                         Name of the field
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| tbl_name | Yes | Name of the table |
+| field_name | Yes | Name of the field |
 
 **Returns**
 

@@ -45,78 +45,43 @@ The quantity of units on the detail must also be specified, as must the detail_t
 
 An initial status (for condition "RQST OPEN") may be specified. If not, the default status will be used.
 
-You may specify a number of values such as the billing site (defaults to the main site), the payment type and method, and the user who created the part request. You may specify the the creation date You may specify the user who created the part request header, and you may specify additional fields. You may have a creation time bomb generated (for notifications).
-
-If a site part is being specified for which to create the Part Request for, then the site part objid id must be passed in the sp_rec_objid parameter, and the keyword "site_part" must be passed in the sp_rec_recordtype parameter.
+You may specify a number of values such as the billing site (defaults to the main site), the payment type and method, and the user who created the part request. You may specify the the creation date You may specify the user who created the part request header, and you may specify additional fields. You may have a creation time bomb generated (for notifications). If a site part is being specified for which to create the Part Request for, then the site part objid id must be passed in the sp_rec_objid parameter, and the keyword "site_part" must be passed in the sp_rec_recordtype parameter.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-hdr_num                                Yes                         Part request header number
-
-queue_name                         No                           Optional queue to dispatch to
-
-part_num                               No*                        Part number for the part (required if Site Part not specified)
-
-mod_level                              No*                        Revision for the part (required if Site Part not specified)
-
-domain_name                       No*                        Domain for the part (required if Site Part not specified)
-
-serial_no                                No                           Serial number if a serialized site_part
-
-quantity_num                       Yes                         How many units recorded
-
-sp_rec_objid                         No*                        Objid of site_part record for the detail. Use 0 if no site_part.
-
-(required if Part Information not specified)
-
-sp_rec_recordtype              No*                        Record Type associated to sp_rec objid field
-
-(required if Part Information not specified)
-
-dtl_type                                 No                           Part request type. If not specified, default is used
-
-priority_str                            No                           Priority of the detail. If not specified, default is used
-
-ship_via                                 No                           How will it be shipped? If not specified, default is used
-
-carrier_name                         No                           Carrier to ship by. If not specified, default is used
-
-user_name                             No                           The user who created the PR detail. If left blank, the current user performs
-
-the create.
-
-warranty                                                No                           Indicator for part warranty information
-
-note_str                                 No                           Optional notes for the part request header
-
-status_str                              No                           Initial PR detail status. If blank, default status of "RQST OPEN" used
-
-create_date                           No                           When was the create performed? If blank, current date/time used
-
-due_date                               No                           When is detail due? If not specified, create_date is used
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated
-
-contr_itm_objid                    No                           Objid of contract line item to link to. Can only be used if new relations are
-
-added to the Clarify schema. Otherwise, set to 0
-
-err_element                           Yes                         Return string if error occurs
-
-int_fld1, int_fld2,                  No                           Names of additional fields to write
-
-str_fld1, str_fld2, date_fld1
-
- int_val1, int_val2,               No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2, date_val1                              additional fields have assignments other than ""
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| hdr_num | Yes | Part request header number |
+| queue_name | No | Optional queue to dispatch to
+| part_num | No* | Part number for the part (required if Site  |Part not specified)
+| mod_level | No* | Revision for the part (required if Site  |Part not specified)
+| domain_name | No* | Domain for the part (required if Site Part not  |specified) |
+| serial_no | No | Serial number if a serialized site_part |
+| quantity_num | Yes | How many units recorded
+| sp_rec_objid | No* | Objid of site_part record for the detail.  |Use 0 if no site_part.
+| (required if Part Information not specified)
+| sp_rec_recordtype | No* | Record Type associated to sp_rec objid field (required if Part Information not specified) |
+| dtl_type | No | Part request type. If not specified, default is used |
+| priority_str | No | Priority of the detail. If not specified, default is used |
+| ship_via | No | How will it be shipped? If not specified, default is used |
+| carrier_name | No | Carrier to ship by. If not specified, default is used |
+| user_name | No | The user who created the PR detail. If left blank, the current user performs the create. |
+| warranty | No | Indicator for part warranty information |
+| note_str | No | Optional notes for the part request header |
+| status_str | No | Initial PR detail status. If blank, default status of "RQST OPEN" used |
+| create_date | No | When was the create performed? If blank, current date/time used |
+| due_date | No | When is detail due? If not specified, create_date is used |
+| gen_time_bombs | Yes | Should a time_bomb be generated |
+| contr_itm_objid | No | Objid of contract line item to link to. Can only be used if new relations are added to the Clarify schema. Otherwise, set to 0 |
+| err_element | Yes | Return string if error occurs |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
 
 **Returns**
 
 **Value**                **Meaning**
 
- 0                                             No errors
+0                                      No errors
 
 -1                                             No request header ID was supplied.               
 
@@ -162,11 +127,9 @@ str_val1, str_val2, date_val1                         �
 
 -22                                           Could not find the specified "Failure Code"
 
--23                                           The specified part number domain was not found.
-
-ret_id_num                            Output                   Returns the detail number of the newly created part request detail
-
-ret_objid                                Output                   Returns the objid of the newly created part request detail
+-23                                           The specified part number domain was not found. |
+| ret_id_num | Output | Returns the detail number of the newly created part request detail |
+| ret_objid | Output | Returns the objid of the newly created part request detail
 
 **Examples**
 

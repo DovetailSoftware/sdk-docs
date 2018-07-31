@@ -13,17 +13,14 @@ Public Function create_eco_item( _
 This API is used to create new ECO items. It requires that a valid ECO Header be specified. The objid of the ECO item created is returned in the object property _ret_objid_  (FCDR.ret_objid).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-focus_type                            Yes                         This points the ECO item to 5148 for ECO headers, or 329 for Mod levels.
-
-active                                     Yes                         Sate of the ECO item, 1 for active, 0 for inactive.
-
-eco_hdr_code                      Yes                         ECO Code of the ECO Header this item will be attached to.
-
-apply_mod_level                 Yes                         Objid of part and revision affected by the ECO.
-
-result_mod_level                 Yes                         Objid of resulting part and revision following implementation of the ECO..
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| focus_type | Yes | This points the ECO item to 5148 for ECO headers, or 329 for Mod levels. |
+| active | Yes | Sate of the ECO item, 1 for active, 0 for inactive. |
+| eco_hdr_code | Yes | ECO Code of the ECO Header this item will be attached to. |
+| apply_mod_level | Yes | Objid of part and revision affected by the ECO. |
+| result_mod_level | Yes | Objid of resulting part and revision following implementation of the ECO. |
 
 **Returns**
 
@@ -41,9 +38,8 @@ result_mod_level                 Yes              
 
 -5                                             Specified Results-in Mod Level is not in database
 
--6                                             Specified Role Name and Apply-to Mod Level already in database
-
-ret_objid                                Output                   Returns the objid of the newly created ECO Item
+-6                                             Specified Role Name and Apply-to Mod Level already in database |
+| ret_objid | Output | Returns the objid of the newly created ECO Item
 
 **Examples**
 

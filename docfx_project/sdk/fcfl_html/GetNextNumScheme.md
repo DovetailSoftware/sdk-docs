@@ -16,9 +16,10 @@ Public Function GetNextNumScheme(ByVal NumSchemeName As String) As String
 This method is returns the next ID in the specified numbering scheme.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-NumSchemeName             Yes                         The name of the numbering scheme
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| NumSchemeName | Yes | The name of the numbering scheme |
 
 **Returns**
 

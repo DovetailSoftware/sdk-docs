@@ -71,45 +71,24 @@ The function returns the header number created (and an error string for error co
 You may specify a number of values such as the billing site (defaults to the main site), the payment type and method, and the user who created the part request. You may specify the the creation date You may specify the user who created the part request header, and you may specify additional fields. You may have a creation time bomb generated (for notifications).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-first_name                             Yes                         Contact's first name
-
-last_name                              Yes                         Contact's last name
-
-phone_num                           Yes                         Contact's phone
-
-ship_site_id                          Yes                         Where to send the part request
-
-bill_site_id                            No                           Where to bill for the part request. If blank, API uses the ship_site_id
-
-case_id                                  No                           If the PR header is related to a case, it may be specified
-
-pay_method                          No                           Payment method for the PR header. If left blank, default value is used
-
-pay_terms                             No                           Payment terms for the PR header. If left blank, default value is used
-
-priority_str                            No                           Priority for the PR header. If left blank, default value is used
-
-user_name                             No                           The user who created the PR header. If left blank, the current user performs
-
-the create.
-
-note_str                                 No                           Optional notes for the part request header
-
-create_date                           No                           When was the create performed? If blank, current date/time used
-
-contract_objid                      No                           Objid of contract to link to. Can only be used if new relations are added to
-
-the Clarify schema. Otherwise, set to 0
-
-int_fld1, int_fld2,                  No                           Names of additional fields to write
-
-str_fld1, str_fld2, date_fld1
-
- int_val1, int_val2,               No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2, date_val1                              additional fields have assignments other than ""
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| first_name | Yes | Contact's first name |
+| last_name | Yes | Contact's last name |
+| phone_num | Yes | Contact's phone |
+| ship_site_id | Yes | Where to send the part request |
+| bill_site_id | No | Where to bill for the part request. If blank, API uses the ship_site_id |
+| case_id | No | If the PR header is related to a case, it may be specified |
+| pay_method | No | Payment method for the PR header. If left blank, default value is used |
+| pay_terms | No | Payment terms for the PR header. If left blank, default value is used |
+| priority_str | No | Priority for the PR header. If left blank, default value is used |
+| user_name | No | The user who created the PR header. If left blank, the current user performs the create. |
+| note_str | No | Optional notes for the part request header |
+| create_date | No | When was the create performed? If blank, current date/time used |
+| contract_objid | No | Objid of contract to link to. Can only be used if new relations are added to the Clarify schema. Otherwise, set to 0 |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
 
 **Returns**
 
@@ -143,9 +122,8 @@ str_val1, str_val2, date_val1                         �
 
 -13                                           Could not find the address for specified site
 
--14                                           The first name, last name, and phone number cannot all be blank for the contact
-
-ret_id_num                            Output                   Returns the header id of the newly created part request
+-14                                           The first name, last name, and phone number cannot all be blank for the contact |
+| ret_id_num | Output | Returns the header id of the newly created part request
 
 **Examples**
 
@@ -161,9 +139,7 @@ Dim hdr_num   As String
 
 ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905", _
                               "First Choice", "", "", "", "", "", "", _
-                              "", "", 0, "", 0, "", 0, "", "", "", "", "", "")
-
-If ret_int = 0 Then
+                              "", "", 0, "", 0, "", 0, "", "", "", "", "", "") If ret_int = 0 Then
 
 hdr_num = fccl.ret_id_num
 
@@ -175,9 +151,7 @@ var ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905",
 
                               "First Choice", "", "", "", "", "", "",
 
-                              "", "", 0, "", 0, "", 0, "", "", "", "", "", "");
-
-If (ret_int == 0) { var hdr_num =fccl_ret_id_num; }
+                              "", "", 0, "", 0, "", 0, "", "", "", "", "", ""); If (ret_int == 0) { var hdr_num =fccl_ret_id_num; }
 
 **List version:**
 
@@ -201,9 +175,7 @@ val_list.ItemType = "String"
 
 ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905", _
                                    "First Choice", "", "", "", "", "", "", _
-                                   "", "", 0, fld_list, type_list, val_list)
-
-If ret_int = 0 Then
+                                   "", "", 0, fld_list, type_list, val_list) If ret_int = 0 Then
 
 hdr_num = fccl.ret_id_num
 
@@ -221,9 +193,7 @@ var ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905",
 
                                    "First Choice", "", "", "", "", "", "",
 
-                                   "", "", 0, fld_list, type_list, val_list);
-
-If (ret_int == 0) { var hdr_num =fccl_ret_id_num; }
+                                   "", "", 0, fld_list, type_list, val_list); If (ret_int == 0) { var hdr_num =fccl_ret_id_num; }
 
  Create a new part request header. Specify the site of 'First Choice', and contact of Jack Lacy. Also, do not generate a time bomb. Specify reasonable values for case ID, and other choices. Add some additional fields.
 
@@ -240,9 +210,7 @@ Dim err       As String
 ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905", "First Choice", _
                              "site2", "Case42", "Check", "Net 10", "Priority 1", "sa", _
                              "notes", "11/11/01", 0, "x_int1", 20, "", 0, "x_str1", _
-                             "Value 1", "", "", "", "")
-
-If ret_int = 0 Then
+                             "Value 1", "", "", "", "") If ret_int = 0 Then
 
 hdr_num = fccl.ret_id_num
 
@@ -256,9 +224,7 @@ var ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905", "First Choice"
 
                              "notes", "11/11/01", 0, "x_int1", 20, "", 0, "x_str1",
 
-                              "Value 1", "", "", "", "");
-
-if (ret_int == 0) { var hdr_num = fccl.ret_id_num; }
+                              "Value 1", "", "", "", ""); If (ret_int == 0) { var hdr_num = fccl.ret_id_num; }
 
 **List version:**
 
@@ -279,9 +245,7 @@ Dim val_list    As New List
 ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905", _
                                   "First Choice", "site2", "Case42", "Check", _
                                   "Net 10", "Priority 1", "sa", "notes", _
-                                  "11/11/2001", 0, fld_list, type_list, val_list)
-
-If ret_int = 0 Then
+                                  "11/11/2001", 0, fld_list, type_list, val_list) If ret_int = 0 Then
 
 hdr_num = fccl.ret_id_num
 
@@ -301,6 +265,4 @@ var ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905",
 
                                   "Net 10", "Priority 1", "sa", "notes",
 
-                                  "11/11/2001", 0, fld_list, type_list, val_list);
-
-If (ret_int == 0) { var hdr_num = fccl.ret_id_num; }
+                                  "11/11/2001", 0, fld_list, type_list, val_list); If (ret_int == 0) { var hdr_num = fccl.ret_id_num; }

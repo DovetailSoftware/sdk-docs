@@ -22,21 +22,13 @@ Public Function GetItem(path_str As String, _
 Returns all the items between first and last within the specified formatted text list. This provides the same functionality as the ClearBasic Item$ function.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-path_str                                 Yes                         String containing the text from which a range of items is
-
-returned.
-
-start_item                              Yes                         Integer containing the index of the first item to be returned. If
-
-first is greater than the number of items in text$, then a zero-length string is returned.
-
-stop_item                              Yes                         Integer containing the index of the last item to be returned. All
-
-of the items between first and last are returned. If last is greater than the number of items in text$, then all items from first to the end of text are returned.
-
-seperator                               Yes                         String containing different item delimiters.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| path_str | Yes | String containing the text from which a range of items is returned. |
+| start_item | Yes | Integer containing the index of the first item to be returned. If first is greater than the number of items in text$, then a zero-length string is returned. |
+| stop_item | Yes | Integer containing the index of the last item to be returned. All of the items between first and last are returned. If last is greater than the number of items in text$, then all items from first to the end of text are returned. |
+| seperator | Yes | String containing different item delimiters. |
 
 **Example**
 

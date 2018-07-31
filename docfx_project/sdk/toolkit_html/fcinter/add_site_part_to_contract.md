@@ -10,13 +10,12 @@ Public Function add_site_part_to_contract(ByVal contract_id As String, _
 This API adds a site_part to an existing contract. You must specify the contract ID, site id, and site_part instance name.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contract_id                            Yes                         ID of contract to add site to
-
-site_id                                    Yes                         ID of site to be added
-
-sp_objid                                                Yes                         objid of site_part to be added
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contract_id | Yes | ID of contract to add site to |
+| site_id | Yes | ID of site to be added |
+| sp_objid | Yes | objid of site_part to be added |
 
 **Returns**
 
@@ -30,9 +29,8 @@ sp_objid                                    
 
 -3                                             Specified Site Not Found
 
--4                                             Specified Site Part Not Found
-
-ret_objid                                Output                   Returns the objid of the site part
+-4                                             Specified Site Part Not Found |
+| ret_objid | Output | Returns the objid of the site part
 
 **Examples**
 

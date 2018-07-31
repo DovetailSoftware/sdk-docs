@@ -76,91 +76,37 @@ The objid of the newly-created lead will be returned in _fcsfa.ret_objid_.
   
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-lead_objid                             Yes                         A variable set to -1 for creates, and to the objid of the lead to
-
-update for updates
-
-first_name                             No                           First name of the lead
-
-last_name                              No                           Last name of the lead
-
-phone                                     No                           Phone of the lead
-
-fax                                           No                           Fax number of the lead
-
-address                                  No                           Address line 1 of the lead
-
-address_2                              No                           Address line 2 of the lead
-
-city                                         No                           City of the lead's address
-
-state                                       No                           State of the lead's address
-
-postal_code                          No                           The postal/zip code for the address
-
-country                                  No                           Country of the lead's address
-
-time_zone                              No                           Time zone of the lead's address
-
-e_mail                                     No                           Email address of the lead
-
-the_title                                 No                           Title of the lead
-
-company_name                    No                           Company name/account for lead
-
-site_name                              No                           Name of the site for the lead
-
-site_type                               No                           Type of the site. Must be "Business" or "Individual". If an
-
-update, it can be set to "" (do not update)
-
-rating                                      No                           Rating of the lead. Must be a value from the code list. If blank
-
-(creates), the default code list value is used
-
-contact_role                          No                           Contact role for the lead. Must be a value from the code list. If
-
-blank (creates), the default contact role is used
-
-lead_source                          No                           Lead source for the contact role. If blank (creates), the default
-
-lead source is used
-
-user_name                             No                           Who created/updated the lead? If empty, current user is used
-
-create_date                           No                           When was the lead created/updated?  If empty, current
-
-date/time is used
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business
-
-rules).
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if  
-
-str_val1, str_val2                                                 the corresponding field name field is filled with a valid field
-
-date_val1                                                               name
-
-fld_list                                    Yes                         List of additional field names to write. List must be present,
-
-but does not need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be
-
-present, but does not need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present,
-
-but does not need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| lead_objid | Yes | A variable set to -1 for creates, and to the objid of the lead to update for updates |
+| first_name | No | First name of the lead |
+| last_name | No | Last name of the lead |
+| phone | No | Phone of the lead |
+| fax | No | Fax number of the lead |
+| address | No | Address line 1 of the lead |
+| address_2 | No | Address line 2 of the lead |
+| city | No | City of the lead's address |
+| state | No | State of the lead's address |
+| postal_code | No | The postal/zip code for the address |
+| country | No | Country of the lead's address |
+| time_zone | No | Time zone of the lead's address |
+| e_mail | No | Email address of the lead |
+| the_title | No | Title of the lead |
+| company_name | No | Company name/account for lead |
+| site_name | No | Name of the site for the lead |
+| site_type | No | Type of the site. Must be "Business" or "Individual". If an update, it can be set to "" (do not update) |
+| rating | No | Rating of the lead. Must be a value from the code list. If blank (creates), the default code list value is used |
+| contact_role | No | Contact role for the lead. Must be a value from the code list. If blank (creates), the default contact role is used |
+| lead_source | No | Lead source for the contact role. If blank (creates), the default lead source is used |
+| user_name | No | Who created/updated the lead? If empty, current user is used |
+| create_date | No | When was the lead created/updated?  If empty, current date/time is used |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules). |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -194,7 +140,7 @@ but does not need to have any items in the list
 
 **Field version:**
 
-**       JavaScript:**
+**JavaScript:**
 
 var ret_int = fcsfa.create_update_lead(lead_objid, "First", "Last", "Phone",
 
@@ -225,7 +171,7 @@ ret_int = fcsfa.create_update_lead(lead_objid, "First", "Last", "Phone", _
 
 **List version:**
 
-**       JavaScript:**
+**JavaScript:**
 
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 

@@ -15,19 +15,15 @@ This API allows you to log a note for a lead. You must specify the objid of the 
 The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-lead_objid                             Yes                         The unique object ID of the lead
-
-the_text                                  No                           Note text
-
-iuo                                          No                           Internal use only text for the note
-
-log_date                                                No                           When was the note logged? If blank, current date/time used
-
-user_name                             No                           Who logged the note? If blank, current user is used
-
-gen_time_bombs                 Yes                         Should a time bomb be created? Values are "True" or "False".
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| lead_objid | Yes | The unique object ID of the lead |
+| the_text | No | Note text |
+| iuo | No | Internal use only text for the note |
+| log_date | No | When was the note logged? If blank, current date/time used |
+| user_name | No | Who logged the note? If blank, current user is used |
+| gen_time_bombs | Yes | Should a time bomb be created? Values are "True" or "False". |
 
 **Returns**
 

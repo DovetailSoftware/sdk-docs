@@ -41,77 +41,37 @@ Public Function create_interact_list(ByVal the_title As String, _
 This API creates an interaction in Clarify. An interaction stores information on communications with contacts. This API saves the reason for the interaction, if the interaction is product related, how much time was spent with the contact, and so on. It actually creates an interact record and an activity log entry, and allows time bomb records to be created.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-the_title                                 No                           Title of the interaction
-
-the_notes                              No                           Notes for the interaction
-
-first                                         Yes                         Contact First Name
-
-last                                          Yes                         Contact Last Name
-
-phone                                     Yes                         Contact Phone
-
-zipcode                                  No                           Contact Zip Code
-
-reason1                                  No                           Choice from Interaction Reason_1 User-Defined List
-
-reason2                                  No                           Choice from Interaction Reason_2 User-Defined List
-
-prod_name                            No                           Choice from Interaction Product User-Defined List
-
-direction                                                No                           Choice from Interaction Direction User-Defined List
-
-the_type                                                No                           Choice from Interaction Type User-Defined List
-
-origin                                      No                           Choice from Interaction Origin User-Defined List
-
-done_in_one                        Yes                         Indicates whether interaction is done-in-one (true) or not (false)
-
-result                                      No                           Choice from Interaction Result Code User-Defined List
-
-fee_based                              Yes                         Indicates whether interaction is fee-based (true) or not (false)
-
-pay_option                           No                           Choice from Interaction Pay Option User-Defined List
-
-lead_source                          No                           Name of person who provided lead
-
-start_date                              No                           Interaction Start Date and Time
-
-duration                                 No                           Length of  the Interaction
-
-wait_time                               No                           Waiting time for the Interaction
-
-entered_time                         No                           Entered Length of  the Interaction
-
-user_name                             No                           User that performed the Interaction
-
-gen_time_bomb                   Yes                         Should a time bomb be added to the system for business rule firing?
-
-int_fld1, int_fld2                   No                           Names of additional fields on table_interact to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names on table_interact to write.
-
-List must be present, but does not need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| the_title | No | Title of the interaction |
+| the_notes | No | Notes for the interaction |
+| first | Yes | Contact First Name |
+| last | Yes | Contact Last Name |
+| phone | Yes | Contact Phone |
+| zipcode | No | Contact Zip Code |
+| reason1 | No | Choice from Interaction Reason_1 User-Defined List |
+| reason2 | No | Choice from Interaction Reason_2 User-Defined List |
+| prod_name | No | Choice from Interaction Product User-Defined List |
+| direction | No | Choice from Interaction Direction User-Defined List |
+| the_type | No | Choice from Interaction Type User-Defined List |
+| origin | No | Choice from Interaction Origin User-Defined List |
+| done_in_one | Yes | Indicates whether interaction is done-in-one (true) or not (false) |
+| result | No | Choice from Interaction Result Code User-Defined List |
+| fee_based | Yes | Indicates whether interaction is fee-based (true) or not (false) |
+| pay_option | No | Choice from Interaction Pay Option User-Defined List |
+| lead_source | No | Name of person who provided lead |
+| start_date | No | Interaction Start Date and Time |
+| duration | No | Length of  the Interaction |
+| wait_time | No | Waiting time for the Interaction |
+| entered_time | No | Entered Length of  the Interaction |
+| user_name | No | User that performed the Interaction |
+| gen_time_bomb | Yes | Should a time bomb be added to the system for business rule firing? |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -147,11 +107,9 @@ val_list                                   Yes
 
 -14                                           Cannot find the activity string with rank = 500
 
--15                                           Specified User's Employee record not found
-
-ret_objid                                Output                   Returns the objid of the Interaction
-
-ret_id_num                            Output                   Returns the Interaction id number
+-15                                           Specified User's Employee record not found |
+| ret_objid | Output | Returns the objid of the Interaction |
+| ret_id_num | Output | Returns the Interaction id number
 
 **Examples**
 

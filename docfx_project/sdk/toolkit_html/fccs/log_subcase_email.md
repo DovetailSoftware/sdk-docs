@@ -53,76 +53,31 @@ The objid of the commitment log record is returned in the FCCS object variable _
 The objid of the status change record is returned in the FCCS object variable _ret_objid3_.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-subcase_id                            Yes                         The subcase to create the log for
-
-action_type                           No                           The email log action type code value. If left blank, default code is used
-
-log_date                                                No                           The date the log was created. If left blank, the current time is used
-
-message                                 No                           The email message
-
-recipient                                 No                           List of email addresses the email is sent to
-
-cc_list                                    No                           List of cc recipients for the email
-
-user_name                             No                           The user who created the log. If left blank, the current user performs
-
-the logging
-
-new_stat                                                No                           New status for the subcase. If blank (""), no status change is performed
-
-cmit_title                                No                           Title of the commitment. If blank, no commitment is generated
-
-cmit_notes                            No                           If generating a commitment, optional notes for the commitment (max length
-
-of 255)
-
-cmit_due                                No                           When is the commitment due. If blank, no commitment is generated
-
-cmit_prior                              No                           How long (in seconds) before the commitment is due should a warning
-
-                                                                                business rule notification be fired. If set to 0, no warning is generated
-
-cmit_to                                   Yes                         Is the commitment made to the customer (=True), or by the customer
-
-(=False). If no commitment is to be generated, this value is ignored
-
-cmit_action_type                 No                           The commitment log action type value. If left blank, default code is used
-
-cmit_contact_objid              No                           The objid of the contact for the commitment. If set to 0, the contact for the  
-                                case is used.
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules).
-
-send_email                            Yes                         Should a time_bomb be added to Clarify that will cause rule manager (if
-
-running) to send the email                 
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| subcase_id | Yes | The subcase to create the log for |
+| action_type | No | The email log action type code value. If left blank, default code is used |
+| log_date | No | The date the log was created. If left blank, the current time is used |
+| message | No | The email message |
+| recipient | No | List of email addresses the email is sent to |
+| cc_list | No | List of cc recipients for the email |
+| user_name | No | The user who created the log. If left blank, the current user performs the logging |
+| new_stat | No | New status for the subcase. If blank (""), no status change is performed |
+| cmit_title | No | Title of the commitment. If blank, no commitment is generated |
+| cmit_notes | No | If generating a commitment, optional notes for the commitment (max length of 255) |
+| cmit_due | No | When is the commitment due. If blank, no commitment is generated |
+| cmit_prior | No | How long (in seconds) before the commitment is due should a warning business rule notification be fired. If set to 0, no warning is generated |
+| cmit_to | Yes | Is the commitment made to the customer (=True), or by the customer (=False). If no commitment is to be generated, this value is ignored |
+| cmit_action_type | No | The commitment log action type value. If left blank, default code is used |
+| cmit_contact_objid | No | The objid of the contact for the commitment. If set to 0, the contact for the case is used. |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules). |
+| send_email | Yes | Should a time_bomb be added to Clarify that will cause rule manager (if running) to send the email |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 

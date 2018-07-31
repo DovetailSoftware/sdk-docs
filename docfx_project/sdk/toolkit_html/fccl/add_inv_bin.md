@@ -9,13 +9,12 @@ Public Function add_inv_bin(ByVal bin_name As String, _
 This API is used to add inventory bins to existing locations. The bin name can be set, as well as if it is an active bin or not.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-bin_name                               Yes                         The name of the new inventory bin
-
-loc_name                               Yes                         Name of the inventory location where the bin is located
-
-is_active                                                Yes                         Is the bin active (True) or inactive (False)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| bin_name | Yes | The name of the new inventory bin |
+| loc_name | Yes | Name of the inventory location where the bin is located |
+| is_active | Yes | Is the bin active (True) or inactive (False) |
 
 **Returns**
 
@@ -29,9 +28,8 @@ is_active                                   �
 
 -4                                             The specified location is not found
 
--5                                             The bin name already exists at that location
-
-ret_objid                                Output                   Returns the objid of the newly created inventory bin
+-5                                             The bin name already exists at that location |
+| ret_objid | Output | Returns the objid of the newly created inventory bin
 
 **Examples**
 

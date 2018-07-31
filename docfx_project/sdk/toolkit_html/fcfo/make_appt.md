@@ -17,37 +17,22 @@ This API creates an appointment record in the Clarify database. The user can spe
 Each appointment must be specified for a given employee or a piece of equipment (site_part). Both cannot be specified. The appointment type and subtype are optional code list values that may be specified, and the case ID may also be optionally specified.  The user performing the logging may be specified as can the creation time. The API returns the objid of the appointment object created.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-description                            No                           The description of the appointment
-
-start_time                              Yes                         When does the appointment start
-
-end_time                                No                           When does the appointment end
-
-duration                                 No                           How long (in seconds) is the appointment. Note that two of the three (start,              
-
-end, duration) must be given
-
-cell_text                                 No                           The text to display in the schedule tracker cell
-
-emp_first                               No                           First name of employee if appointment is for the employee
-
-emp_last                                No                           Last name of the employee if appointment is for the employee
-
-site_part_objid                     No                           OBJID of the site_part if appointment is for a piece of equipment
-
-appt_type                              No                           Value from the Employee Sched Class code list
-
-appt_sub_type                     No                           Value from the Employee Sched Type code list
-
-case_id                                  No                           ID number of optional case, if appointment is for a case
-
-user_name                             No                           The user who made the appointment. If left blank, the current user performs
-
-the create
-
-creation_time                        No                           When is the log created. If left blank, it will be created at the current time
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| description | No | The description of the appointment |
+| start_time | Yes | When does the appointment start |
+| end_time | No | When does the appointment end |
+| duration | No | How long (in seconds) is the appointment. Note that two of the three (start, end, duration) must be given |
+| cell_text | No | The text to display in the schedule tracker cell |
+| emp_first | No | First name of employee if appointment is for the employee |
+| emp_last | No | Last name of the employee if appointment is for the employee |
+| site_part_objid | No | OBJID of the site_part if appointment is for a piece of equipment |
+| appt_type | No | Value from the Employee Sched Class code list |
+| appt_sub_type | No | Value from the Employee Sched Type code list |
+| case_id | No | ID number of optional case, if appointment is for a case |
+| user_name | No | The user who made the appointment. If left blank, the current user performs the create |
+| creation_time | No | When is the log created. If left blank, it will be created at the current time |
 
 **Returns**
 

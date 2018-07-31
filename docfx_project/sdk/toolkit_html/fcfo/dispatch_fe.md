@@ -21,71 +21,35 @@ Public Function dispatch_fe(ByVal case_id As String, _
 This API creates a dispatch field engineer (work order) record. The caller may specify the appointment time and duration, text about the work order and other fields such as the payment method. The contact and site for the dispatch will be derived from the case/subcase. If this is not correct, the address for the site for the dispatch can be specified in the site_id field. If that is **mostly** correct, but some fields need to be overridden, they can in the extra phone and address fields supplied. Finally, a time bomb for the dispatch FE action can be generated, or not.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         The case (or subcase) that the dispatch FE is for
-
-user_name                             No                           The user who dispatched the FE request. If left blank, the current
-
-user performs the dispatch
-
-dispatch_time                       No                           When is the dispatch logged. If left blank, it will be logged at the current
-
-                                                                                time
-
-work_order                            No                           The ID of the work order. If left blank, "." is used for the work order
-
-appointment_time                No                           When to add an appointment for the work order. If left blank, the current time
-
-is used
-
-duration                                 No                           The length (in seconds) of the appointment. If left blank, the duration is calculated
-
-                                                                                from the start and end times
-
-description                            No                           Description of the dispatch FE. If left blank, the description is set to the title
-
-                                                                                of the case or subcase
-
-cont_fname                           No                           Contact first name to override case/subcase contact
-
-cont_lname                           No                           Contact last name to override case/subcase contact
-
-address1                                                No                           Address line 1 (if override desired)
-
-address2                                                No                           Address line 2 (if override desired)
-
-city                                         No                           Address city (if override desired)
-
-state                                       No                           Address state (if override desired)
-
-zipcode                                  No                           Address zipcode (if override desired)
-
-main_phone                          No                           Contact's phone (if override desired)
-
-alt_phone                              No                           Alternate phone (if override desired)
-
-site_id                                    No                           Site for dispatch if case/subcase site is not OK
-
-pay_method                          No                           Payment method used. If left blank, default is used
-
-ref_number                            No                           Reference number for work order
-
-notes                                      No                           Notes about the work order
-
-requested_eta                       No                           When should the engineer arrive (date/time). If left blank, the current time
-
-is used as the time for arrival
-
-appt_confirm                        No                           Is the appointment confirmed? Default is 0 (not)
-
-cell_text                                 No                           Cell text for the appointment in schedule tracker
-
-proxy                                      No                           Optional proxy field. Defaults to "" on the activity record if not specified
-
-removed                                 No                           Optional remove field. Defaults to 0 on the activity record if not specified
-
-gen_time_bomb                   Yes                         Should a time_bomb be created?
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | The case (or subcase) that the dispatch FE is for |
+| user_name | No | The user who dispatched the FE request. If left blank, the current user performs the dispatch |
+| dispatch_time | No | When is the dispatch logged. If left blank, it will be logged at the current time |
+| work_order | No | The ID of the work order. If left blank, "." is used for the work order |
+| appointment_time | No | When to add an appointment for the work order. If left blank, the current time is used |
+| duration | No | The length (in seconds) of the appointment. If left blank, the duration is calculated from the start and end times |
+| description | No | Description of the dispatch FE. If left blank, the description is set to the title of the case or subcase |
+| cont_fname | No | Contact first name to override case/subcase contact |
+| cont_lname | No | Contact last name to override case/subcase contact |
+| address1 | No | Address line 1 (if override desired) |
+| address2 | No | Address line 2 (if override desired) |
+| city | No | Address city (if override desired) |
+| state | No | Address state (if override desired) |
+| zipcode | No | Address zipcode (if override desired) |
+| main_phone | No | Contact's phone (if override desired) |
+| alt_phone | No | Alternate phone (if override desired) |
+| site_id | No | Site for dispatch if case/subcase site is not OK |
+| pay_method | No | Payment method used. If left blank, default is used |
+| ref_number | No | Reference number for work order |
+| notes | No | Notes about the work order |
+| requested_eta | No | When should the engineer arrive (date/time). If left blank, the current time is used as the time for arrival |
+| appt_confirm | No | Is the appointment confirmed? Default is 0 (not) |
+| cell_text | No | Cell text for the appointment in schedule tracker |
+| proxy | No | Optional proxy field. Defaults to "" on the activity record if not specified |
+| removed | No | Optional remove field. Defaults to 0 on the activity record if not specified |
+| gen_time_bomb | Yes | Should a time_bomb be created? |
 
 **Returns**
 

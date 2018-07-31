@@ -57,71 +57,29 @@ These APIs either create or update a part number in the database. The part numbe
 **Note**: Just calling on this API will **NOT** cause the part to be visible in Clarify. To see the part number, there must be at least one part revision. Use the create_update_mod_level  to add a part revision.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-part_num                               Yes                         Part number to insert/update
-
-domain                                   Yes                         The domain for the part to insert/update
-
-notes                                      No                           Notes about the part
-
-desc                                        No                           Description of the part
-
-model_num                           No                           Model number of the part
-
-warr_days                             Yes                         Number of warranty days for the part
-
-start_on_ship                       Yes                         Should the warranty start on shipment (=0), or on install (=1)
-
-unit_measure                        No                           What is the unit of measure for the part?
-
-family                                     No                           Level 1 of the FAMILY/LINE code list. If blank (on insert), the default value
-
-is used. If blank (on update) no change is made
-
-the_line                                  No                           Level 2 of the FAMILY/LINE code list. If blank (on insert), the default value
-
-is used. If blank (on update) no change is made
-
-repair_type                            No                           String for type. One of: "Repairable" or "Expendable". If blank (on update),
-
-no change is made
-
-part_type                               No                           Level 1 of the PART TYPE code list. If blank (on insert), the default value
-
-                                                                                is used. If blank (on update), no change is made
-
-weight                                    No                           Unit weight of the part
-
-dimension                              No                           Dimensions of the part
-
-class                                       No                           Part class for the part. Only used by DE engine. If blank (on insert), default
-
-part class is used. If blank (on update), no change is made
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| part_num | Yes | Part number to insert/update |
+| domain | Yes | The domain for the part to insert/update |
+| notes | No | Notes about the part |
+| desc | No | Description of the part |
+| model_num | No | Model number of the part |
+| warr_days | Yes | Number of warranty days for the part |
+| start_on_ship | Yes | Should the warranty start on shipment (=0), or on install (=1) |
+| unit_measure | No | What is the unit of measure for the part? |
+| family | No | Level 1 of the FAMILY/LINE code list. If blank (on insert), the default value is used. If blank (on update) no change is made |
+| the_line | No | Level 2 of the FAMILY/LINE code list. If blank (on insert), the default value is used. If blank (on update) no change is made |
+| repair_type | No | String for type. One of: "Repairable" or "Expendable". If blank (on update), no change is made |
+| part_type | No | Level 1 of the PART TYPE code list. If blank (on insert), the default value is used. If blank (on update), no change is made |
+| weight | No | Unit weight of the part |
+| dimension | No | Dimensions of the part |
+| class | No | Part class for the part. Only used by DE engine. If blank (on insert), default part class is used. If blank (on update), no change is made |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -139,9 +97,8 @@ val_list                                   Yes
 
 -5                                             Invalid family/line specified
 
--6                                             Invalid part class specified
-
-ret_objid                                Output                   Returns the objid of the part
+-6                                             Invalid part class specified |
+| ret_objid | Output | Returns the objid of the part
 
 **Examples**
 

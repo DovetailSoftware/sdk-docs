@@ -15,33 +15,19 @@ This API modifies an existing appointment record in the Clarify database. You mu
 The appointment type and subtype are optional code list values that may be specified. The user performing the logging may be specified as can the creation time. If you do not specify a value for one of the arguments, the value in the existing record is not updated.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-appt_objid                             Yes                         The OBJID of the appointment to modify
-
-start_time                              No                           When does the appointment start
-
-end_time                                No                           When does the appointment end
-
-duration                                 No                           How long (in seconds) is the appointment. Note that two of the three (start,             
-
-end, duration) must be given
-
-description                            No                           The description of the appointment
-
-cell_text                                 No                           The text to display in the schedule tracker cell
-
-appt_type                              No                           Value from the Employee Sched Class code list
-
-appt_sub_type                     No                           Value from the Employee Sched Type code list
-
-user_name                             No                           The user who modified the appointment. If left blank, the current user
-
-performs the modify
-
-creation_time                        No                           When is the log modified? If left blank, it will be modified at the current
-
-                                                                                time
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| appt_objid | Yes | The OBJID of the appointment to modify |
+| start_time | No | When does the appointment start |
+| end_time | No | When does the appointment end |
+| duration | No | How long (in seconds) is the appointment. Note that two of the three (start, end, duration) must be given |
+| description | No | The description of the appointment |
+| cell_text | No | The text to display in the schedule tracker cell |
+| appt_type | No | Value from the Employee Sched Class code list |
+| appt_sub_type | No | Value from the Employee Sched Type code list |
+| user_name | No | The user who modified the appointment. If left blank, the current user performs the modify |
+| creation_time | No | When is the log modified? If left blank, it will be modified at the current time |
 
 **Returns**
 

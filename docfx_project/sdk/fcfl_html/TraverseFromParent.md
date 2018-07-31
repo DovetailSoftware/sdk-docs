@@ -17,9 +17,7 @@ Public Sub TraverseFromParent(ByVal the_parent As FCGeneric, _
 
 This method sets up the parent/child relationship between two generic objects. It is exactly the same as setting the ParentRelation and ParentBO properties, but is easier.
 
-This method should be called for the child generic object, and should specify the parent object, and the relation **ON THE PARENT** used to traverse between the two objects. Note that this is the opposite of the ParentRelation property which is the relation from the child to the parent.
-
-For example, to query a case, and the related contact record, you would create both generic objects and then specify:
+This method should be called for the child generic object, and should specify the parent object, and the relation **ON THE PARENT** used to traverse between the two objects. Note that this is the opposite of the ParentRelation property which is the relation from the child to the parent.for example, to query a case, and the related contact record, you would create both generic objects and then specify:
 
 boContact.TraverseFromParent(boCase, "case_reporter2contact");
 
@@ -32,13 +30,11 @@ You should not call on TraverseFromParent more than once in a row (or use the Pa
 **Note**: When you set the parent relation with ParentBO, the child object's BulkName is set to the parent's BulkName.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-the_parent                             Yes                         The parent generic object
-
-trav_rel                                  Yes                         The relation ON THE PARENT used to traverse between the
-
-two generic objects
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| the_parent | Yes | The parent generic object |
+| trav_rel | Yes | The relation ON THE PARENT used to traverse between the two generic objects |
 
 **Error Codes**
 

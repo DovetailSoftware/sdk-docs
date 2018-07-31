@@ -16,11 +16,10 @@ Public Sub Down(ByRef index_list As FCList)
 This method swaps downward items in the list.  It takes as it argument an integer list of indexes of the items to move.  Indexes are zero based, so the first item in the list to be processed is zero and the last item in the list is list.Count - 1.  If items in index_list are neighbors in the list, they are moved as a group.  The bottom item in the list (item zero) can never be moved.  The movement is logical, in that the movement is done in the sorted order of the index list.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-index_list                               Yes                         A list containing the indexes of the items in the processed list
-
-to move. Indexes are zero based.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| index_list | Yes | A list containing the indexes of the items in the processed list to move. Indexes are zero based. |
 
 **Returns**
 

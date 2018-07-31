@@ -14,41 +14,28 @@ Public Function mod_part_stocking_lev(ByVal bin_name As String, _
 This API modifies an existing  part restocking authorization level. The location, bin, part number/revision/domain must be specified, as well as the various levels and the reorder queue. The _to_bin_ field is move the record to another bin, and the _to_queue_ field can be used to change the name of the queue.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-bin_name                               Yes                         The bin for the restocking
-
-to_bin                                    No                           The name of the bin to move the record to. If blank, no move occurs
-
-location_name                      Yes                         The location for the bin
-
-queue_name                         Yes                         The queue that the reorder part request will be dispatched to
-
-to_queue                               No                           The new name of the dispatch queue. If blank, no change is made
-
-part_number                         Yes                         The part to restock
-
-mod_level                              Yes                         The revision to restock
-
-domain_name                       Yes                         The domain for the part
-
-part_minimum                       Yes                         Minimum quantity for bin. If no change is desired, set to -1
-
-part_maximum                       Yes                         Maximum quantity for bin. If no change is desired, set to -1
-
-part_rol                                  Yes                         The level at which a reorder is triggered. If no change is desired, set to -1
-
-part_roq                                 Yes                         If a reorder happens, how many get reordered. If no change is desired, set
-
-to -1
-
-is_active                                                Yes                         Is this restocking entry active?
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| bin_name | Yes | The bin for the restocking |
+| to_bin | No | The name of the bin to move the record to. If blank, no move occurs |
+| location_name | Yes | The location for the bin |
+| queue_name | Yes | The queue that the reorder part request will be dispatched to |
+| to_queue | No | The new name of the dispatch queue. If blank, no change is made |
+| part_number | Yes | The part to restock |
+| mod_level | Yes | The revision to restock |
+| domain_name | Yes | The domain for the part |
+| part_minimum | Yes | Minimum quantity for bin. If no change is desired, set to -1 |
+| part_maximum | Yes | Maximum quantity for bin. If no change is desired, set to -1 |
+| part_rol | Yes | The level at which a reorder is triggered. If no change is desired, set to -1 |
+| part_roq | Yes | If a reorder happens, how many get reordered. If no change is desired, set to -1 |
+| is_active | Yes | Is this restocking entry active? |
 
 **Returns**
 
 **Value**                **Meaning**
 
- 0                                             No errors
+0                                      No errors
 
 -1                                             Missing queue parameter
 

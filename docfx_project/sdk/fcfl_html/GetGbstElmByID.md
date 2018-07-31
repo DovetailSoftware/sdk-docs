@@ -13,20 +13,18 @@ Public Function GetGbstElmByID(ByVal ListName As String, _
 
 **Description**
 
-This method returns the string value for a given element in a given Application Popup list, given the objid.
-
-If the element is not found in the list, this method returns a value of empty string (""). The gbst_elm table is cached in the FCApplication object, so this method does not cause a database round-trip.
+This method returns the string value for a given element in a given Application Popup list, given the objid. If the element is not found in the list, this method returns a value of empty string (""). The gbst_elm table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-ListName                               Yes                         Name of the list
-
-ElmObjid                                Yes                         The objid of the list item
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| ListName | Yes | Name of the list |
+| ElmObjid | Yes | The objid of the list item |
 
 **Returns**
 
-The string value of the element.
+The string value of the element. |
 
 **Example**
 

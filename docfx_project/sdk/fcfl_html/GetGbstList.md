@@ -22,13 +22,14 @@ The gbst_elm table is cached in the FCApplication object, so this method does no
 When finished with the returned recordset, you should close the recordset using the .Close method and then set your variable to Nothing or Null. This will release the resources needed for this object.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-ListName                               Yes                         An Application popup list name.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| ListName | Yes | An Application popup list name. |
 
 **Returns**
 
-An ADO recordset containing the gbst_elm records for the ListName list.
+An ADO recordset containing the gbst_elm records for the ListName list. |
 
 **Error Codes**
 
@@ -36,7 +37,7 @@ An ADO recordset containing the gbst_elm records for the ListName list.
 
 10008                                      ListName must not be empty.
 
-10009                                      Invalid ListName.
+10009                                      Invalid ListName. |
 
 **Example**
 

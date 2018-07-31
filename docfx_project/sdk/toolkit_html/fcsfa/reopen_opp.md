@@ -13,27 +13,15 @@ Function reopen_opp(ByVal opp_id As String, _
 This API causes the specified opportunity to be reopened. You may specify the status (in open lead condition) for the opportunity, as well as the user name of the opener, and the date/time of the reopen. You may also specify the WIPBIN to place the opportunity in. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-opp_id                                   Yes                         The ID of the opportunity to close
-
-the_status                             No                           The new status for the opportunity. If blank, the default status for Open Lead
-
-condition is used
-
-wipbin                                    No                           The WIPBIN in which to place the opportunity. If blank, the default WIPBIN
-
-for the user is used
-
-reopen_date                          No                           When was the opportunity reopened? If this parameter is left blank, the
-
-opportunity is reopened at the current time
-
-user_name                             No                           The user who reopened the opportunity. If left blank, the current user
-
-performs the reopen
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| opp_id | Yes | The ID of the opportunity to close |
+| the_status | No | The new status for the opportunity. If blank, the default status for Open Lead condition is used |
+| wipbin | No | The WIPBIN in which to place the opportunity. If blank, the default WIPBIN for the user is used |
+| reopen_date | No | When was the opportunity reopened? If this parameter is left blank, the opportunity is reopened at the current time |
+| user_name | No | The user who reopened the opportunity. If left blank, the current user performs the reopen |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

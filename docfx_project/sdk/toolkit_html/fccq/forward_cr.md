@@ -13,21 +13,15 @@ Public Function forward_cr(ByVal cr_id As String, _
 This API causes the specified change request to be reject-forwarded from one queue to another. The change request must be currently dispatched to a queue. The API allows for the setting of the forward date, some notes about the forward, and the user who forwarded the change request. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         The change request Id to be reject-forward
-
-new_queue                           Yes                         The queue to forward to
-
-forward_date                        No                           When was the change request forwarded. If this parameter is left blank, the
-
-CR is forwarded at the current time
-
-notes                                      No                           Optional notes about the reject-forward
-
-user_name                             No                           The user who forwarded the change request. If left blank, the current user                                                                              performs the forward
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | The change request Id to be reject-forward |
+| new_queue | Yes | The queue to forward to |
+| forward_date | No | When was the change request forwarded. If this parameter is left blank, the CR is forwarded at the current time |
+| notes | No | Optional notes about the reject-forward |
+| user_name | No | The user who forwarded the change request. If left blank, the current user performs the forward |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

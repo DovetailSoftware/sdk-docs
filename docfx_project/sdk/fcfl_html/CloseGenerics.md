@@ -10,25 +10,15 @@ Type     : Method
 **Prototype**
 
 Public Sub CloseGenerics(ByVal NumGenerics As Integer, _
-
                          ByRef Generic1 As FCGeneric, _
-
                          Optional ByRef Generic2 As FCGeneric, _
-
                          Optional ByRef Generic3 As FCGeneric, _
-
                          Optional ByRef Generic4 As FCGeneric, _
-
                          Optional ByRef Generic5 As FCGeneric, _
-
                          Optional ByRef Generic6 As FCGeneric, _
-
                          Optional ByRef Generic7 As FCGeneric, _
-
                          Optional ByRef Generic8 As FCGeneric, _
-
                          Optional ByRef Generic9 As FCGeneric, _
-
                          Optional ByRef Generic10 As FCGeneric)
 
 **Description**
@@ -40,29 +30,20 @@ This method will check to see if the object has been created. If it hasn't, it i
 **Note**: This method should be used in Visual Basic **ONLY**. Since VBScript and JavaScript do not support ByRef arguments, this method will not work in those environments.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-NumGenerics                        Yes                         The number of FCFeneric objects to be closed
-
-Generic1                 Yes                         The name of the FCGeneric Object to be closed
-
-Generic2                 No                           The name of the FCGeneric Object to be closed
-
-Generic3                 No                           The name of the FCGeneric Object to be closed
-
-Generic4                 No                           The name of the FCGeneric Object to be closed
-
-Generic5                 No                           The name of the FCGeneric Object to be closed
-
-Generic6                 No                           The name of the FCGeneric Object to be closed
-
-Generic7                 No                           The name of the FCGeneric Object to be closed
-
-Generic8                 No                           The name of the FCGeneric Object to be closed
-
-Generic9                 No                           The name of the FCGeneric Object to be closed
-
-Generic10                               No                           The name of the FCGeneric Object to be closed
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| NumGenerics | Yes | The number of FCFeneric objects to be closed |
+| Generic1 | Yes | The name of the FCGeneric Object to be closed |
+| Generic2 | No | The name of the FCGeneric Object to be closed |
+| Generic3 | No | The name of the FCGeneric Object to be closed |
+| Generic4 | No | The name of the FCGeneric Object to be closed |
+| Generic5 | No | The name of the FCGeneric Object to be closed |
+| Generic6 | No | The name of the FCGeneric Object to be closed |
+| Generic7 | No | The name of the FCGeneric Object to be closed |
+| Generic8 | No | The name of the FCGeneric Object to be closed |
+| Generic9 | No | The name of the FCGeneric Object to be closed |
+| Generic10 | No | The name of the FCGeneric Object to be closed |
 
 **Example**
 

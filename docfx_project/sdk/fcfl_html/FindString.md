@@ -20,13 +20,14 @@ These correspond to the fields _ID_ and _name_ in the string_db table.
 The string_db table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-StringID                                 Yes                         A string ID number or name.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| StringID | Yes | A string ID number or name. |
 
 **Returns**
 
-The retrieved string if one is found, else an empty string.
+The retrieved string if one is found, else an empty string. |
 
 **Error Codes**
 
@@ -36,7 +37,7 @@ The retrieved string if one is found, else an empty string.
 
 10006                                      Input String must not be empty.
 
-10007                                      Input Integer must not be < 0.
+10007                                      Input Integer must not be < 0. |
 
 **Example**
 

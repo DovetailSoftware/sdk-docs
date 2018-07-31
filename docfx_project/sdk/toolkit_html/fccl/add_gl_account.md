@@ -12,27 +12,21 @@ Public Function add_gl_account(ByVal acct_name As String, _
 This API is used to add expense and capital GL accounts to Clarify. The account name, description and account number are specified. Using the boolean flags the account can be made into capital or expense, active or inactive, company or customer owned. The site for the account must be specified, and the account type can be set from the code list.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-acct_name                             Yes                         Name of the GL account
-
-account_type                       No                           Type of account from the code list. If blank, the default value is used
-
-desc_str                                 No                           The description of the account
-
-account_no                           No                           Optional account number
-
-is_exp                                     Yes                         Is this an expense account (True), or capital (False)
-
-is_active                                                Yes                         Is the account active (True) or inactive (False)
-
-is_company                          Yes                         Is it company owned (True) or customer owned (False)
-
-site_id                                    Yes                         The site for the account
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| acct_name | Yes | Name of the GL account |
+| account_type | No | Type of account from the code list. If blank, the default value is used |
+| desc_str | No | The description of the account |
+| account_no | No | Optional account number |
+| is_exp | Yes | Is this an expense account (True), or capital (False) |
+| is_active | Yes | Is the account active (True) or inactive (False) |
+| is_company | Yes | Is it company owned (True) or customer owned (False) |
+| site_id | Yes | The site for the account |
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value | Meaning | **
 
 0                                              No errors
 

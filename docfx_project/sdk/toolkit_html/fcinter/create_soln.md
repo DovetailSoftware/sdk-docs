@@ -40,53 +40,23 @@ These APIs create a solution record (and one workaround). You may supply the tit
 You may specify a creation date, and the user who created the solution. You may also set additional fields in the probdesc object. Finally, you may specify if a time bomb (for business rules) is generated, or not.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-the_title                                 No                           Title of the solution
-
-description                            No                           The problem description of the solution
-
-workaround                           No                           The text of the 1st workaround for the solution. Highly recommended that
-
-this have text
-
-is_public                                Yes                         Is the workaround public, or not? Used by Clarify Web applications
-
-res_code                                                No                           Resolution code for the workaround. If left blank, default value is used from
-
-the list
-
-queue_name                         No                           Name of the queue to dispatch to. If blank, solution is not dispatched
-
-create_date                           No                           When was solution created? If blank, current date/time is used
-
-user_name                             No                           Who created the solution? If blank, current user is used
-
-create_time_bomb               Yes                         Should a time bomb be added to the system for business rule firing?
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| the_title | No | Title of the solution |
+| description | No | The problem description of the solution |
+| workaround | No | The text of the 1st workaround for the solution. Highly recommended that this have text |
+| is_public | Yes | Is the workaround public, or not? Used by Clarify Web applications |
+| res_code | No | Resolution code for the workaround. If left blank, default value is used from the list |
+| queue_name | No | Name of the queue to dispatch to. If blank, solution is not dispatched |
+| create_date | No | When was solution created? If blank, current date/time is used |
+| user_name | No | Who created the solution? If blank, current user is used |
+| create_time_bomb | Yes | Should a time bomb be added to the system for business rule firing? |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -104,11 +74,9 @@ val_list                                   Yes
 
 -5                                             Could not find the specified queue name
 
--6                                             Cannot find the specified user's employee record for relating time bomb
-
-ret_objid                                Output                   Returns the objid of the new solution record
-
-ret_objid2                              Output                   Returns the objid of the new work-around record
+-6                                             Cannot find the specified user's employee record for relating time bomb |
+| ret_objid | Output | Returns the objid of the new solution record |
+| ret_objid2 | Output | Returns the objid of the new work-around record
 
 **Examples**
 

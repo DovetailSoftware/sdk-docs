@@ -18,25 +18,14 @@ performing the accept can be specified. The API can also generate a time bomb (f
 or not.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-subcase_id                            Yes                         The subcase to accept
-
-accept_date                          No                           When was the subcase accepted. If this parameter is left blank,
-
-the subcase is accepted at the current time
-
-wipbin                                    No                           The WIPBin to place the subcase in (for the user who accepted
-
-the subcase). If left blank, the subcase is placed in the user's
-
-default WIPBin
-
-user_name                             No                           The user who accepted the subcase. If left blank, the current user
-
-performs the accept.
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| subcase_id | Yes | The subcase to accept |
+| accept_date | No | When was the subcase accepted. If this parameter is left blank, the subcase is accepted at the current time |
+| wipbin | No | The WIPBin to place the subcase in (for the user who accepted the subcase). If left blank, the subcase is placed in the user's default WIPBin |
+| user_name | No | The user who accepted the subcase. If left blank, the current user performs the accept. |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

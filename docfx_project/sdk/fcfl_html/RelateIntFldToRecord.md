@@ -22,11 +22,11 @@ This method stores the objid of the generic object specified in the field in nam
 You must update the object via the Update or UpdateAll method for the relation to take place.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-o_obj                                      Yes                         The object to which to relate
-
-the_field                                                Yes                         The field to use to store the objid of the other object
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| o_obj | Yes | The object to which to relate |
+| the_field | Yes | The field to use to store the objid of the other object |
 
 **Error Codes**
 

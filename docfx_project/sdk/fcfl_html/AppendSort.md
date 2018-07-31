@@ -22,17 +22,11 @@ You **MUST** set the DBObjectName (either by setting it, using SimpleQuery, Pare
 **Note**: You may also just set the SortFields property directly, if you would prefer. But that property requires that you know the correct SQL syntax for the sort.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-field_name                             Yes                         Valid field name for the database object. If you wish, you may
-
-also specify a valid MTO or OTOP relation name
-
-ascending                              Yes                         A string that is one of:
-
-1. ascending (or asc or a)
-
-2. descending (or desc or d)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| field_name | Yes | Valid field name for the database object. If you wish, you may also specify a valid MTO or OTOP relation name |
+| ascending | Yes | A string that is one of:<br>1. ascending (or asc or a)<br>2. descending (or desc or d) |
 
 **Error Codes**
 

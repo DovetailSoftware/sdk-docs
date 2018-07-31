@@ -12,17 +12,14 @@ Public Function add_contact_to_contract(ByVal contract_id As String, _
 This API adds a contact to an existing contract. You must specify the contract ID and the site id.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contract_id                            Yes                         ID of contract to add site to
-
-f_name                                   Yes                         First name of contact to be added
-
-l_name                                   Yes                         Last name of contact to be added
-
-phone_num                           Yes                         Phone number of contact to be added
-
-site_id                                    Yes                         Site where contact to be added is located
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contract_id | Yes | ID of contract to add site to |
+| f_name | Yes | First name of contact to be added |
+| l_name | Yes | Last name of contact to be added |
+| phone_num | Yes | Phone number of contact to be added |
+| site_id | Yes | Site where contact to be added is located |
 
 **Returns**
 
@@ -40,9 +37,8 @@ site_id                                    Yes
 
 -5                                             Specified site is not related to this contract
 
--6                                             Specified Contact Not Found
-
-ret_objid                                Output                   Returns the objid of the contact
+-6                                             Specified Contact Not Found |
+| ret_objid | Output | Returns the objid of the contact
 
 **Examples**
 

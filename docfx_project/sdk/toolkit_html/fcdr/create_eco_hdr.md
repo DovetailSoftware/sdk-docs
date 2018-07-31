@@ -15,29 +15,17 @@ Public Function create_eco_hdr(ByVal eco_title As String, _
 This API create a new ECO Header object.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-eco_title                                 No                           The title of the new ECO header.
-
-eco_type                               No                           The type of ECO, defined by the Clarify list of "ECO Type" values.
-
-The list default is used if no parameter is supplied.
-
-create_date                           No                           The date the ECO header was created. Will default to the current date.
-
-eff_type                                 No                           The effect type of ECO, defined by the Clarify list of "ECO Effect Type"
-
-values. The list default is used if no parameter is supplied.
-
-start_date                              Yes                         The date that this ECO header goes into effect.
-
-end_date                               Yes                         The date that this ECO header becomes obsolete.
-
-status                                     No                           The type of ECO, defined by the Clarify list of "ECO Status" values.
-
-The list default is used if no parameter is supplied.
-
-description                            No                           The text description of the ECO header.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| eco_title | No | The title of the new ECO header. |
+| eco_type | No | The type of ECO, defined by the Clarify list of "ECO Type" values. The list default is used if no parameter is supplied. |
+| create_date | No | The date the ECO header was created. Will default to the current date. |
+| eff_type | No | The effect type of ECO, defined by the Clarify list of "ECO Effect Type" values. The list default is used if no parameter is supplied. |
+| start_date | Yes | The date that this ECO header goes into effect. |
+| end_date | Yes | The date that this ECO header becomes obsolete. |
+| status | No | The type of ECO, defined by the Clarify list of "ECO Status" values. The list default is used if no parameter is supplied. |
+| description | No | The text description of the ECO header. |
 
 **Returns**
 
@@ -57,11 +45,9 @@ description                            No      
 
 -6                                             Specified ECO Effect Type is not in database
 
--7                                             Specified ECO Status is not in database
-
-ret_id_num                            Output                   Returns the ECO Header Code of the newly created ECO
-
-ret_objid                                Output                   Returns the objid of the newly created ECO
+-7                                             Specified ECO Status is not in database |
+| ret_id_num | Output | Returns the ECO Header Code of the newly created ECO |
+| ret_objid | Output | Returns the objid of the newly created ECO
 
 **Examples**
 

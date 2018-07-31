@@ -20,27 +20,15 @@ Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", 
 This method returns the hgbst_elm.objid value for a given element in a given level of a user-defined list. You may use up to a 5-level list. The hgbst tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-TheElement                           Yes                         The element to get the objid for.
-
-ListName                               Yes                         The user-defined list name.
-
-Element1                                No                           The parent element for TheElement, if TheElement is in a 2
-
-level list. Else, the parent element for Element2.
-
-Element2                                No                           The parent element for TheElement, if TheElement is in a 3
-
-level list. Else, the parent element for Element3.
-
-Element3                                No                           The parent element for TheElement, if TheElement is in a 4
-
-level list. Else, the parent element for Element4.
-
-Element4                                No                           The parent element for TheElement, if TheElement is in a 5
-
-level list.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| TheElement | Yes | The element to get the objid for. |
+| ListName | Yes | The user-defined list name. |
+| Element1 | No | The parent element for TheElement, if TheElement is in a 2 level list. Else, the parent element for Element2. |
+| Element2 | No | The parent element for TheElement, if TheElement is in a 3 level list. Else, the parent element for Element3. |
+| Element3 | No | The parent element for TheElement, if TheElement is in a 4 level list. Else, the parent element for Element4. |
+| Element4 | No | The parent element for TheElement, if TheElement is in a 5 level list. |
 
 **Returns**
 

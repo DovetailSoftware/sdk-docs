@@ -16,13 +16,11 @@ Public Sub Log(TheMessageType As String, TheMessage As String)
 This method allows you to log a message to the FCFL log file. In addition to the message, the SessionId will also be logged. FCSession logging must be turned on for this message to actually be logged to the file.                                                         
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-TheMessageType                               Yes                         The type of message, used to identify your message within the
-
-log file.
-
-TheMessage                         Yes                         The message to be logged.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| TheMessageType | Yes | The type of message, used to identify your message within the log file. |
+| TheMessage | Yes | The message to be logged. |
 
 **Example**
 

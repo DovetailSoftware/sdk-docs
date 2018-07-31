@@ -12,21 +12,14 @@ Public Function accept_case(ByVal case_id As String, _
 This API causes the specified case to be accepted from a dispatched queue. The case must be currently dispatched to a queue. The date/time of the accept, the WIPBin to place the case in, and the user performing the accept can be specified. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         The case to accept
-
-accept_date                          No                           When was the case accepted. If this parameter is left blank, the case is accepted at the current time
-
-wipbin_name                        No                           The WIPBin to place the case in (for the user who accepted case)
-
-If left blank, the case is placed in the user's default WIPBin
-
-user_name                             No                           The user who accepted the case. If left blank, the current user performs
-
-the accept
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | The case to accept |
+| accept_date | No | When was the case accepted. If this parameter is left blank, the case is accepted at the current time |
+| wipbin_name | No | The WIPBin to place the case in (for the user who accepted case) If left blank, the case is placed in the user's default WIPBin |
+| user_name | No | The user who accepted the case. If left blank, the current user performs the accept |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

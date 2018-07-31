@@ -20,25 +20,14 @@ This method returns an ADO recordset containing the records for a given level of
 When finished with the returned recordset, you should close the recordset using the .Close method and then set your variable to Nothing or Null. This will release the resources needed for this object.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-ListName                               Yes                         The user-defined list name.
-
-Element1                                No                           The parent element for TheElement, if TheElement is in a 2
-
-level list. Else, the parent element for Element2.
-
-Element2                                No                           The parent element for TheElement, if TheElement is in a 3
-
-level list. Else, the parent element for Element3.
-
-Element3                                No                           The parent element for TheElement, if TheElement is in a 4
-
-level list. Else, the parent element for Element4.
-
-Element4                                No                           The parent element for TheElement, if TheElement is in a 5
-
-level list.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| ListName | Yes | The user-defined list name. |
+| Element1 | No | The parent element for TheElement, if TheElement is in a 2 level list. Else, the parent element for Element2. |
+| Element2 | No | The parent element for TheElement, if TheElement is in a 3 level list. Else, the parent element for Element3. |
+| Element3 | No | The parent element for TheElement, if TheElement is in a 4 level list. Else, the parent element for Element4. |
+| Element4 | No | The parent element for TheElement, if TheElement is in a 5 level list. |
 
 **Returns**
 

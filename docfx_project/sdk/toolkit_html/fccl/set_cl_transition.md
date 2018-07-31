@@ -9,25 +9,17 @@ Public Function set_cl_transition(request_type As String, start_cond As String, 
 This API allows you to create or modify Logistics Transitions in the database. You must specify all of the arguments. If a transition does not yet exist for the conditions and request type, a new transition is created. Otherwise, the existing transition is modified.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-request_type                        Yes                         Part request request type
-
-start_cond                             Yes                         Starting condition for the transition
-
-end_cond                              Yes                         Ending condition for the transition
-
-privclasses                            Yes                         Comma-separated list of privclasses that can make this transition. If you set this
-
-string to "ALLCLASSES", all privclasses can make the transition. If you set this
-
-string to "NOCLASSES", no privclasses can make this transition
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| request_type | Yes | Part request request type |
+| start_cond | Yes | Starting condition for the transition |
+| end_cond | Yes | Ending condition for the transition |
+| privclasses | Yes | Comma-separated list of privclasses that can make this transition. If you set this string to "ALLCLASSES", all privclasses can make the transition. If you set this string to "NOCLASSES", no privclasses can make this transition |
 
 **Returns**
 
-**Value**                **Meaning**
-
- 0                                             No errors
+**Value**                **Meaning** | 0 | No errors
 
 -1                                             Cannot find the specified request type
 

@@ -37,39 +37,20 @@ Public Function fix_cr_list(ByVal cr_id As String, _
 These APIs change the condition of a CR to "Fixed", even if it was already closed. The status specified must be defined in the fixed condition per Clarify's Policies and Customers. You may specify notes about the fix, and the user and date/time of the fix. A time bomb may be generated (for business rule notification), and additional fields (on the fix_bug record) may be specified.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         The change request to fix
-
-the_status                             No                           The new status for the CR. If blank, the default status for the condition is
-
-used
-
-notes                                      No                           Notes for the fix
-
-user_name                             No                           The user who fixed the change request. If left blank, the current user                                                                       performs the fix
-
-fix_date                                  No                           The date of the fix. If blank, the current date/time is used
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
-
-int_fld1, int_fld2                   No                           Names of additional fields to write.  Must use "" if not using
-
-str_fld1, str_fld2                                                   these parameters
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. Must use "" (string) or 0 (long)
-
-str_val1, str_val2                                                 if not using these parameters
-
-date_val1
-
-fld_list                                    No                           List of additional field names to write
-
-type_list                                                No                           List of additional field data types to write
-
-val_list                                   No                           List of additional field values to write
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | The change request to fix |
+| the_status | No | The new status for the CR. If blank, the default status for the condition is used |
+| notes | No | Notes for the fix |
+| user_name | No | The user who fixed the change request. If left blank, the current user performs the fix |
+| fix_date | No | The date of the fix. If blank, the current date/time is used |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -97,9 +78,8 @@ val_list                                   No�
 
 -17                                           New status not found for new condition
 
--18                                           Cannot find the specified user's employee record for relating time bomb
-
-ret_objid                                Output                   Returns the objid of the fixed cr
+-18                                           Cannot find the specified user's employee record for relating time bomb |
+| ret_objid | Output | Returns the objid of the fixed cr
 
 **Examples**
 

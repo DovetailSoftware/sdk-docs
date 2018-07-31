@@ -19,19 +19,13 @@ This API causes the specified change request to be replicated (copied) to a new 
 The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         The change request to replicate
-
-user_name                             No                           The user who replicated the change request. If left blank, the current user
-
-performs the replication
-
-rep_date                                                No                           When was the change request replicated. If this parameter is left blank, the
-
-replication occurs at the current time
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | The change request to replicate |
+| user_name | No | The user who replicated the change request. If left blank, the current user performs the replication |
+| rep_date | No | When was the change request replicated. If this parameter is left blank, the replication occurs at the current time |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 
@@ -49,11 +43,9 @@ gen_time_bombs                 Yes               
 
 -5                                             Cannot find gbst_elm rank 11800 for string REPLICATE TO
 
--6                                             Cannot find the specified user's employee record for relating time bomb
-
-ret_objid                                Output                   Returns the objid of the replicated change request
-
-ret_id_num                            Output                   Returns the id of the replicated change request
+-6                                             Cannot find the specified user's employee record for relating time bomb |
+| ret_objid | Output | Returns the objid of the replicated change request |
+| ret_id_num | Output | Returns the id of the replicated change request
 
 **Examples**
 

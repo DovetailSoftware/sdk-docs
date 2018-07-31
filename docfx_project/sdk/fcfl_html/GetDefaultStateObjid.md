@@ -18,13 +18,14 @@ This method returns a long integer containing the objid of the default state_pro
 The state_prov and country tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-Country                                 Yes                         Name of country to get the default state for.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| Country | Yes | Name of country to get the default state for. |
 
 **Returns**
 
-A long integer containing the objid of the default state_prov for a given country
+A long integer containing the objid of the default state_prov for a given country |
 
 **Error Codes**
 
@@ -32,7 +33,7 @@ A long integer containing the objid of the default state_prov for a given countr
 
 10011                                      Country must not be empty.
 
-10012                                      Invalid Country
+10012                                      Invalid Country |
 
 **Example**
 
@@ -42,9 +43,7 @@ The following example retrieves the objid of the default state for a given count
 
 The code in this example is written in JavaScript for inclusion in ASP pages.
 
-//If the customer didn't give us a state, use the default
-
-if (StateObjid == 0)
+//If the customer didn't give us a state, use the default If (StateObjid == 0)
 
 {
 

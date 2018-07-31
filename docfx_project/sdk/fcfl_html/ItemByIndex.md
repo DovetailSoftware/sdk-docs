@@ -16,9 +16,10 @@ Public Function ItemByIndex(ByVal index As Integer) as Variant
 This method returns the item in the list at the location specified.  Lists are zero based.  This means the index to the first item is 0, the second is 1, etc. This is similar to the GetItemByIndex subroutine, except the value is passed back as the function value.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-index                                       Yes                         Item in the list to return. List is zero based.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| index | Yes | Item in the list to return. List is zero based. |
 
 **Returns**
 
@@ -42,9 +43,7 @@ The code in this example is written in Visual Basic.
 
 Dim list As New FCList
 
-list.AppendItem 1, 2, 3, 4, 5, 6, 7, 8, 9
-
-If list.ItemByIndex(4) = 5 Then
+list.AppendItem 1, 2, 3, 4, 5, 6, 7, 8, 9 If list.ItemByIndex(4) = 5 Then
 
   MsgBox "Item value is as expected"
 

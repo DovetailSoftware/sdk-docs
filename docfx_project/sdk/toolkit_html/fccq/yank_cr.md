@@ -12,23 +12,14 @@ Public Function yank_cr(ByVal cr_id As String, _
 This API causes the specified change request to be yanked from the current location to a new owner's WIPBin. The date/time of the yank and the person yanking the change request can be specified. The person who yanks the change request becomes the new owner. The WIPBin to place the change request in may also be specified. This is augmented function from base Clarify, where the change request is always placed in the default WIPBin. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         The change request to yank
-
-wipbin                                    No                           The WIPBin to place the change request in. If left blank, the default WIPBin
-
-for  the user is used
-
-yank_date                             No                           When was the change request yanked. If this parameter is left blank, the yank
-
-occurs at the current time
-
-user_name                             No                           The user who yanked the change request. If left blank, the current user
-
-performs the yank
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | The change request to yank |
+| wipbin | No | The WIPBin to place the change request in. If left blank, the default WIPBin for the user is used |
+| yank_date | No | When was the change request yanked. If this parameter is left blank, the yank occurs at the current time |
+| user_name | No | The user who yanked the change request. If left blank, the current user performs the yank |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

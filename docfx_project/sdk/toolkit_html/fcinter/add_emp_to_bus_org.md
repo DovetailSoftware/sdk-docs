@@ -10,13 +10,12 @@ Public Function add_emp_to_bus_org(ByVal user_name As String, _
 This API adds an employee as a team member to an account (bus_org) with the specified role. You must specify the user name, account ID, and role name.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-user_name                             Yes                         User name of account team member
-
-site_id                                    Yes                         Account to add team member to
-
-role_name                              No                           Role for team member. If left blank, default role is used
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| user_name | Yes | User name of account team member |
+| site_id | Yes | Account to add team member to |
+| role_name | No | Role for team member. If left blank, default role is used |
 
 **Returns**
 
@@ -30,9 +29,8 @@ role_name                              No     
 
 -2                                             Cannot find the specified account id
 
--3                                             The supplied Account Team role is not found
-
-ret_objid                                Output                   Returns the objid of the employee
+-3                                             The supplied Account Team role is not found |
+| ret_objid | Output | Returns the objid of the employee
 
 **Examples**
 

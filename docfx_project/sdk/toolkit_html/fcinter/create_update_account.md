@@ -59,67 +59,30 @@ These APIs create or update accounts (business orgs). An existing account can be
 To create a new account, leave the account field blank. A variety of fields in the account can be optionally set. Four of them, type, size, revenue, and ownership are values from code lists. If the code list values are blank, the default value of the list is used.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-acct_name                             No                           Account's name
-
-desc                                        No                           Description
-
-territory                                  No                           Territory of the account
-
-stock                                      No                           Stock symbol for the account
-
-fiscal_yr                                 No                           Fiscal year for the account
-
-the_type                                                No                           Account type list
-
-size                                         No                           Account size list
-
-revenue                                  No                           Account revenue list
-
-ownership                             No                           Account's ownership list
-
-phone                                     No                           Phone number
-
-fax                                           No                           Fax number
-
-web_site                                                No                           URL for the account
-
-user_name                             No                           User name for the account "created by" employee role. If blank, the current
-
-                                                                                user performs the create
-
-create_date                           No                           When the account is created.  If blank, current time is used. Argument is
-
-                                                                                ignored for updates
-
-gen_time_bombs                 Yes                         Should a time bomb record be created for business rule notification?
-
-acct_id                                   Yes                         The account ID (updates only)
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| acct_name | No | Account's name |
+| desc | No | Description |
+| territory | No | Territory of the account |
+| stock | No | Stock symbol for the account |
+| fiscal_yr | No | Fiscal year for the account |
+| the_type | No | Account type list |
+| size | No | Account size list |
+| revenue | No | Account revenue list |
+| ownership | No | Account's ownership list |
+| phone | No | Phone number |
+| fax | No | Fax number |
+| web_site | No | URL for the account |
+| user_name | No | User name for the account "created by" employee role. If blank, the current user performs the create |
+| create_date | No | When the account is created.  If blank, current time is used. Argument is ignored for updates |
+| gen_time_bombs | Yes | Should a time bomb record be created for business rule notification? |
+| acct_id | Yes | The account ID (updates only) |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -143,9 +106,8 @@ val_list                                   Yes
 
 -8                                             Cannot find the specified user's employee record for relating time bomb
 
--9                                             Cannot find the specified account to update
-
-ret_objid                                Output                   Returns the objid of the account
+-9                                             Cannot find the specified account to update |
+| ret_objid | Output | Returns the objid of the account
 
 **Examples**
 

@@ -61,101 +61,44 @@ This has the following implications:
 **Note:** If you wish to create an employee without creating a user at the database level, set the _FCINTER.UseDatabaseLogins_ property to False.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-first_name                             Yes                         Employee First Name
-
-last_name                              Yes                         Employee Last Name
-
-login_name                           Yes                         Employee Login Name
-
-password                               Yes                         Employee's Password
-
-site_id                                    Yes                         Site ID of where employee is located. Must be a valid Site Id.
-
-e_mail                                     Yes                         Employee's Email Address
-
-phone                                     No                           Employee's Phone Number
-
-pager                                      No                           Employee's Pager/Beeper Number
-
-online_priv_class                Yes                         Privilege Class. Must be an existing privilege class.
-
-offline_priv_class                No                           Offline Privilege Class.
-
-id                                             No                           Employee's Id.
-
-is_active                                Yes                         Is this employee an active employee?
-
-allow_proxy                          Yes                         Allow proxy use
-
-start_date                              No                           Employee Start Date
-
-supervisor                             No                           Employee's supervisor. This value should be the login_name
-
-of an existing employee that is designated as a supervisor.
-
-work_group                          No                           Employee's workgroup. Must be a valid workgroup, or left blank.
-
-If left blank, the default workgroup will be used.
-
-work_group_start                No                           Date that the employee started in the workgroup.
-
-labor_rate                              No                           Employee's Labor Rate
-
-is_supervisor                        Yes                         Is this employee a supervisor?
-
-is_fe                                       Yes                         Is this employee a field engineer?
-
-normal_biz_high                  No                           Notification Preference - Normal Business Hours - High Priority
-
-normal_biz_mid                    No                           Notification Preference - Normal Business Hours - Medium Priority
-
-normal_biz_low                    No                           Notification Preference - Normal Business Hours - Low Priority
-
-after_biz_high                      No                           Notification Preference - After Business Hours - High Priority
-
-after _biz_mid                       No                           Notification Preference - After Business Hours - Medium Priority
-
-after _biz_low                       No                           Notification Preference - After Business Hours - Low Priority
-
-def_wipbin_title                   No                           Title of employee's default wipbin. If left blank, it will be "default"
-
-rc_config                               No                           Resource Config employee should be placed in.
-
-If left blank, the employee will be placed in the baseline resource config.
-
-def_tablespace                     No                           Oracle only - Default Tablespace for user.
-
-                                                                                If left blank, the user's default tablespace will be set to "users".
-
-temp_tablespace                  No                           Oracle only - Temporary Tablespace for user.
-
-                                                                                If left blank, the user's temporary tablespace will be set to "temp".
-
-int_fld1, int_fld2                   No                           Names of additional fields on table_employee to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names on table_employee to write.
-
-List must be present, but does not need to have any items in the list
-
-type_list                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| first_name | Yes | Employee First Name |
+| last_name | Yes | Employee Last Name |
+| login_name | Yes | Employee Login Name |
+| password | Yes | Employee's Password |
+| site_id | Yes | Site ID of where employee is located. Must be a valid Site Id. |
+| e_mail | Yes | Employee's Email Address |
+| phone | No | Employee's Phone Number |
+| pager | No | Employee's Pager/Beeper Number |
+| online_priv_class | Yes | Privilege Class. Must be an existing privilege class. |
+| offline_priv_class | No | Offline Privilege Class. |
+| id | No | Employee's Id. |
+| is_active | Yes | Is this employee an active employee? |
+| allow_proxy | Yes | Allow proxy use |
+| start_date | No | Employee Start Date |
+| supervisor | No | Employee's supervisor. This value should be the login_name of an existing employee that is designated as a supervisor. |
+| work_group | No | Employee's workgroup. Must be a valid workgroup, or left blank. If left blank, the default workgroup will be used. |
+| work_group_start | No | Date that the employee started in the workgroup. |
+| labor_rate | No | Employee's Labor Rate |
+| is_supervisor | Yes | Is this employee a supervisor? |
+| is_fe | Yes | Is this employee a field engineer? |
+| normal_biz_high | No | Notification Preference - Normal Business Hours - High Priority |
+| normal_biz_mid | No | Notification Preference - Normal Business Hours - Medium Priority |
+| normal_biz_low | No | Notification Preference - Normal Business Hours - Low Priority |
+| after_biz_high | No | Notification Preference - After Business Hours - High Priority |
+| after _biz_mid | No | Notification Preference - After Business Hours - Medium Priority |
+| after _biz_low | No | Notification Preference - After Business Hours - Low Priority |
+| def_wipbin_title | No | Title of employee's default wipbin. If left blank, it will be "default" |
+| rc_config | No | Resource Config employee should be placed in. If left blank, the employee will be placed in the baseline resource config. |
+| def_tablespace | No | Oracle only - Default Tablespace for user. If left blank, the user's default tablespace will be set to "users". |
+| temp_tablespace | No | Oracle only - Temporary Tablespace for user. If left blank, the user's temporary tablespace will be set to "temp".
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -199,11 +142,9 @@ val_list                                   Yes
 
 -18                                           Unable to create the database user/login
 
--19                                           **Oracle database only:** Login Name can only contain alphanumeric characters from your database character set and the underscore (_), dollar sign ($), and pound sign (#). It also must begin with an alphabetic character.
-
-ret_objid                Output                   Returns the objid of the employee
-
-ret_objid2              Output                   Returns the objid of the user
+-19                                           **Oracle database only:** Login Name can only contain alphanumeric characters from your database character set and the underscore (_), dollar sign ($), and pound sign (#). It also must begin with an alphabetic character. |
+| ret_objid | Output | Returns the objid of the employee |
+| ret_objid2 | Output | Returns the objid of the user
 
 **Examples**
 

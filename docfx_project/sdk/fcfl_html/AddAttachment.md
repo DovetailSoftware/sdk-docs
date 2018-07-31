@@ -13,7 +13,7 @@ Public Function AddAttachment(ByVal attach_name As String, _
                               ByVal obj_type As String, _
                               ByVal obj_id As String, _
                               Optional ByVal obj_objid As Long = 0, _
-															Optional ByVal attach_type As Long = 0)_
+							  Optional ByVal attach_type As Long = 0)_
                               As Integer
 
 **Description**
@@ -51,31 +51,15 @@ The supported table names are:
 This method does **NOT** copy the file to a file system, or even validate the existence of the file. You must take care of the file details on your own. This API only adds the proper records for an attachment to Clarify.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-attach_name                         Yes                         The name of the attachment
-
-file_path                                Yes                         The file path and name of the attachment
-
-obj_type                                                Yes                         The name of the database table to add the attachment to
-
-obj_id                                     No                           The ID number for the object to which to add the attachment.
-
-If it is not known, or the object doesn't have an ID number,
-
-this field is left blank
-
-obj_objid                               No                           The objid of the object to which to add the attachment. This
-
-argument is only supplied if you wish to specify the object by
-
-objid. If you use the ID number, this argument does not have to be supplied
-
-attach_type                           No                           Attachment Type - either 0 or 1
-
-                                                                                0 = Standard Attachments
-
-                                                                                1 = Attachments Anywhere Style Attachments
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| attach_name | Yes | The name of the attachment |
+| file_path | Yes | The file path and name of the attachment |
+| obj_type | Yes | The name of the database table to add the attachment to |
+| obj_id | No | The ID number for the object to which to add the attachment. If it is not known, or the object doesn't have an ID number, this field is left blank |
+| obj_objid | No | The objid of the object to which to add the attachment. This argument is only supplied if you wish to specify the object by objid. If you use the ID number, this argument does not have to be supplied |
+| attach_type | No | Attachment Type - either 0 or 1<br>0 = Standard Attachments<br>1 = Attachments Anywhere Style Attachments |
 
 **Error Codes**
 

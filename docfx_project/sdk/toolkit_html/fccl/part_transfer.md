@@ -51,63 +51,32 @@ To do this, specify (in the trans_id argument), the transaction ID of the previo
 **Note**: This new feature only works with transfers of quantity tracked parts.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-part_num                               Yes                         The part number transferred
-
-mod_level                              Yes                         Revision of the part
-
-domain_name                       Yes                         The domain of the part
-
-quantity_num                       Yes                         How many to transfer
-
-serial_num                             No                           The serial number (if serial tracked) to transfer
-
-from_loc                                Yes                         The inventory location (or GL account) to transfer from
-
-from_bin                                No                           The inventory bin to transfer from. If from a container, put the container
-
-name in this field. If you want the primary bin suggestion, put
-
-PRIM_BIN_REC in this field
-
-from_cont                              No                           If transferring from a container, put the container number in this field
-
-from_good                            Yes                         Is the transfer from "good" stock?
-
-to_loc                                     Yes                         The inventory location (or GL account) to transfer to
-
-to_bin                                    No                           The inventory bin to trans to. If to a container, put the container name in this field.
-
-If you want the primary bin suggestion, put PRIM_BIN_REC in this field.
-
-to_cont                                  No                           If transferring to a container, put the container number in this field
-
-to_good                                 Yes                         Is the transfer to "good" stock?
-
-user_name                             No                           Who performed the transfer. If blank, current user is used
-
-trans_date                             No                           When was transfer performed? If blank, current time is used
-
-ref_id                                      No                           Optional reference ID of transfer
-
-note_str                                 No                           Optional notes about the transfer
-
-gen_time_bombs                 Yes                         Should time bombs be generated?
-
-fifo_flag                                 Yes                         Should we use FIFO costing? 0 = No, 1 = Yes, 2 = Use the cost in the next field.
-
-update_cost                          No                           If the fifo_flag = 2, this is the per-unit cost for the transfer.
-
-Not commonly used. If the fifo_flag = 1, it is the FIFO cost of the transfer (only valid for transfer in from expense GL).
-
-update_source                     No                           If the fifo_flag = 1, and this is a transfer in from an expense
-
-GL with an update cost specified, this is the source of the FIFO parts.
-
-trans_id                                 Yes                         Output argument with the transaction ID of the part transfer
-
-std_cost                                                Yes                         Output argument with the standard cost of the part transfer
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| part_num | Yes | The part number transferred |
+| mod_level | Yes | Revision of the part |
+| domain_name | Yes | The domain of the part |
+| quantity_num | Yes | How many to transfer |
+| serial_num | No | The serial number (if serial tracked) to transfer |
+| from_loc | Yes | The inventory location (or GL account) to transfer from |
+| from_bin | No | The inventory bin to transfer from. If from a container, put the container name in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field |
+| from_cont | No | If transferring from a container, put the container number in this field |
+| from_good | Yes | Is the transfer from "good" stock? |
+| to_loc | Yes | The inventory location (or GL account) to transfer to |
+| to_bin | No | The inventory bin to trans to. If to a container, put the container name in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field. |
+| to_cont | No | If transferring to a container, put the container number in this field |
+| to_good | Yes | Is the transfer to "good" stock? |
+| user_name | No | Who performed the transfer. If blank, current user is used |
+| trans_date | No | When was transfer performed? If blank, current time is used |
+| ref_id | No | Optional reference ID of transfer |
+| note_str | No | Optional notes about the transfer |
+| gen_time_bombs | Yes | Should time bombs be generated? |
+| fifo_flag | Yes | Should we use FIFO costing? 0 = No, 1 = Yes, 2 = Use the cost in the next field. |
+| update_cost | No | If the fifo_flag = 2, this is the per-unit cost for the transfer. Not commonly used. If the fifo_flag = 1, it is the FIFO cost of the transfer (only valid for transfer in from expense GL). |
+| update_source | No | If the fifo_flag = 1, and this is a transfer in from an expense GL with an update cost specified, this is the source of the FIFO parts. |
+| trans_id | Yes | Output argument with the transaction ID of the part transfer |
+| std_cost | Yes | Output argument with the standard cost of the part transfer |
 
 **Returns**
 
@@ -173,13 +142,10 @@ available to increment the count
 
 -42                                           You are attempting to add units to an existing part transfer, but the supplied
 
-transaction ID is not found
-
-ret_string                               Output                   Returns the transaction id of the part transfer record
-
-ret_num                                 Output                   Returns the standard cost of the transferred part
-
-ret_objid                                Output                   Returns the objid of the part transfer record
+transaction ID is not found |
+| ret_string | Output | Returns the transaction id of the part transfer record |
+| ret_num | Output | Returns the standard cost of the transferred part |
+| ret_objid | Output | Returns the objid of the part transfer record
 
 **Examples**
 

@@ -12,9 +12,10 @@ Type     : Method
 Public Sub RemoveAllGenericsInABulk(BulkName As String)
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-BulkName                              Yes                         Name of the bulk to clear out
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| BulkName | Yes | Name of the bulk to clear out |
 
 **Description**
 

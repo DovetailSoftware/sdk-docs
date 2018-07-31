@@ -11,27 +11,15 @@ Public Function reopen_contract(ByVal contract_id As String, _
 This API causes the specified contract to be reopened. This is augmented functionality from base Clarify, as a contract cannot be re-opened via the Clarify GUI. The date/time of the reopen, the person performing the reopen, the WIPBIN to place the contract in, and the new status of the contract can be specified. The person who reopens the contract becomes the new owner. The WIPBin to place the contract in may also be specified. If it is not, the contract is placed in the user's default WIPBIN. If the status is not specified, the case is placed in the default status for the Active Contract condition. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contract_id                            Yes                         The contract to reopen
-
-wipbin_name                        No                           The WIPBin to place the contract in. If left blank, the default 
-
-                                                                        WIPBin for the user is used
-
-status_str                              No                           The new status for the contract. If no status is specified, the
-
-default status for Active Contract Condition is used
-
-reopen_date                          No                           When was the contract reopened. If this parameter is left blank,
-
-the reopen occurs at the current time
-
-user_name                             No                           The user who reopened the contract. If left blank, the current
-
-                                                                        user performs the reopen.
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contract_id | Yes | The contract to reopen |
+| wipbin_name | No | The WIPBin to place the contract in. If left blank, the  default WIPBin for the user is used |
+| status_str | No | The new status for the contract. If no status is specified, the default status for Active Contract Condition is used |
+| reopen_date | No | When was the contract reopened. If this parameter is left blank, the reopen occurs at the current time |
+| user_name | No | The user who reopened the contract. If left blank, the current user performs the reopen. |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

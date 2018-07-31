@@ -33,25 +33,15 @@ Public Function change_quote_status(ByVal the_id As String, _
 These APIs cause the specified action item, opportunity, or quote to have its status changed. The object may be in any valid condition, but the status selected MUST be valid for the current condition. In other words, you cannot assign a Won condition status (for an opportunity) to an opportunity that is currently in Lost condition. You may assign notes to the status change, as well as set the time of the status change, and the user who changed the status. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-the_id                                     Yes                         The ID of the object to change status for
-
-new_status                           No                           The new status for the object
-
-change_date                         No                           When was the object status changed. If this parameter is left blank, the object
-
-is status changed at the current time
-
-notes                                      No                           Notes for the status change
-
-local_user_name                  No                           The user who changed the status. If left blank, the current user performs
-
-the change status. For business rules, it defaults to the user_name who is
-
-executing the cbbatch
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| the_id | Yes | The ID of the object to change status for |
+| new_status | No | The new status for the object |
+| change_date | No | When was the object status changed. If this parameter is left blank, the object is status changed at the current time |
+| notes | No | Notes for the status change |
+| local_user_name | No | The user who changed the status. If left blank, the current user performs the change status. For business rules, it defaults to the user_name who is executing the cbbatch |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

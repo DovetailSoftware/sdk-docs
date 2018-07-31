@@ -32,11 +32,10 @@ If you include a generic object as an argument to this method, the duplicate wil
 12031                                      This operation is not valid for a generic that is marked distinct
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-use_generic                          No                           Generic to which to add the copy. If not supplied, a new
-
-generic object will be created, used, and returned.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| use_generic | No | Generic to which to add the copy. If not supplied, a new generic object will be created, used, and returned. |
 
 **Returns**
 

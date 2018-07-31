@@ -16,33 +16,23 @@ Public Function create_eco_dtl(ByVal detail_type As String, _
 This API add labor or material details to the specified ECO Header. The objid of the ECO detail created is returned in the object property _ret_objid_  (FCDR.ret_objid).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-detail_type                            Yes                         Must be "Labor" or "Material"
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| detail_type | Yes | Must be "Labor" or "Material" |
+| Required? | Yes | Indicates if this detail is required (1), or not (0) |
+| status | No | Indicates the effectivity of the ECO, defined by the Clarify list of "ECO Status" values. The list default is used if no parameter is supplied. |
+| labor_type | No* | Indicates the type of labor being added, from the Clarify list of "Labor Type" values. The list default is used if no parameter is supplied. |
+| elapsed_time | Yes* | Estimated amount of time required to perform the work in seconds. |
+| location | No** | Indicates the location where the material belongs. |
+| description | No | Text field for the description of the ECO detail. |
+| eco_hdr_code | Yes | ECO Code of the ECO Header this detail will be attached to. |
+| mod_level_objid | Yes** | Indicates the part and revision used to apply this ECO. |
 
-Required?                                 Yes                         Indicates if this detail is required (1), or not (0)
-
-status                                     No                           Indicates the effectivity of the ECO, defined by the Clarify list of
-
-"ECO Status" values. The list default is used if no parameter is supplied.
-
-labor_type                             No*                        Indicates the type of labor being added, from the Clarify list of
-
-"Labor Type" values. The list default is used if no parameter is supplied.
-
-elapsed_time                         Yes*                       Estimated amount of time required to perform the work in seconds.
-
-location                                  No**                      Indicates the location where the material belongs.
-
-description                            No                           Text field for the description of the ECO detail.
-
-eco_hdr_code                      Yes                         ECO Code of the ECO Header this detail will be attached to.
-
-mod_level_objid                  Yes**                     Indicates the part and revision used to apply this ECO.
-
-*              These parameters only apply to Labor detail items.
-
-****** These parameters only apply to Material detail items.
+```
+* These parameters only apply to Labor detail items.
+** These parameters only apply to Material detail items.
+```
 
 **Returns**
 
@@ -62,9 +52,8 @@ mod_level_objid                  Yes**            �
 
 -6                                             Specified ECO Header is not in database
 
--7                                             Specified Mod Level  is not in database
-
-ret_objid                                Output                   Returns the objid of the newly created ECO Detail
+-7                                             Specified Mod Level  is not in database |
+| ret_objid | Output | Returns the objid of the newly created ECO Detail
 
 **Examples**
 

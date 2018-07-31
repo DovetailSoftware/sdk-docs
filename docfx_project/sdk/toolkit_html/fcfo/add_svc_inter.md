@@ -15,31 +15,19 @@ This API logs a service interruption (and creates an appointment record) in the 
 Each appointment must be specified for a given case or a piece of equipment (site_part), but both cannot be specified. If you specify a case, the case must have a related site_part. The appointment type and subtype are optional code list values that may be specified.  The user performing the logging may be specified as can the creation time. The APIs return the objid of the appointment object created.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         ID number of optional case, if appointment is for a case or site part
-
-sp_objid                                                No                           OBJID of the site_part if appointment is for a piece of equipment
-
-description                            No                           The description of the appointment
-
-start_time                              No                           When does the appointment start
-
-end_time                                No                           When does the appointment end
-
-duration                                 No                           How long (in seconds) is the appointment. Note that two of the three (start,             
-
-end, duration) must be given
-
-svc_class                              No                           Value from the Installed Prod Sched Class code list
-
-svc_type                                               No                           Value from the Employee Sched Type code list
-
-user_name                             No                           The user who made the appointment. If left blank, the current user performs
-
-the create
-
-creation_time                        No                           When is the appt. log created. If left blank, it will be created at the current time
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | ID number of optional case, if appointment is for a case or site part |
+| sp_objid | No | OBJID of the site_part if appointment is for a piece of equipment |
+| description | No | The description of the appointment |
+| start_time | No | When does the appointment start |
+| end_time | No | When does the appointment end |
+| duration | No | How long (in seconds) is the appointment. Note that two of the three (start, end, duration) must be given |
+| svc_class | No | Value from the Installed Prod Sched Class code list |
+| svc_type | No | Value from the Employee Sched Type code list |
+| user_name | No | The user who made the appointment. If left blank, the current user performs the create |
+| creation_time | No | When is the appt. log created. If left blank, it will be created at the current time |
 
 **Returns**
 

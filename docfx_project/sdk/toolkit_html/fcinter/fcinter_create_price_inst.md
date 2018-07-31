@@ -22,27 +22,18 @@ This API can also be used to create price instances for standard costs. Just use
 The non-business rule version of the API returns the objid of the created price instance record.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-part_num                               Yes                         Part number to price
-
-domain                                   Yes                         Domain of the part
-
-mod_level                              Yes                         Revision to price
-
-price_prog                             Yes                         Name of the price program
-
-price_type                             Yes                         What kind of price. 0 = Fixed price, 1 = Percent of product list, 2 = Option
-
-price. Currently, only 0, 1 supported
-
-priced_qty                             Yes                         How many units in the price instance. Usually, this is = 1
-
-price                                       Yes                         What is the price of the part?
-
-start_date                              No                           Start date of the price. If blank, start date of the program is used
-
-end_date                               No                           End date of the price. If blank, end date of the program is used
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| part_num | Yes | Part number to price |
+| domain | Yes | Domain of the part |
+| mod_level | Yes | Revision to price |
+| price_prog | Yes | Name of the price program |
+| price_type | Yes | What kind of price. 0 = Fixed price, 1 = Percent of product list, 2 = Option price. Currently, only 0, 1 supported |
+| priced_qty | Yes | How many units in the price instance. Usually, this is = 1 |
+| price | Yes | What is the price of the part? |
+| start_date | No | Start date of the price. If blank, start date of the program is used |
+| end_date | No | End date of the price. If blank, end date of the program is used |
 
 **Returns**
 
@@ -72,9 +63,8 @@ program
 
 -10                                           The supplied price type is not yet supported
 
--11                                           Could not open database for SQL query
-
-ret_objid                                Output                   Returns the objid of the new price instance
+-11                                           Could not open database for SQL query |
+| ret_objid | Output | Returns the objid of the new price instance
 
 **Examples**
 

@@ -13,21 +13,15 @@ Public Function forward_subcase(ByVal subcase_id As String, _
 This API causes the specified subcase to be reject-forwarded from one queue to another. The subcase must be in open condition, and currently dispatched to a queue. The API allows for the setting of the forward date, some notes about the forward, and the user who forwarded the subcase. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-subcase_id                            Yes                         The subcase to reject-forward
-
-new_queue                           Yes                         The queue to forward to
-
-forward_date                        No                           When was the subcase forwarded. If this parameter is left blank, the subcase is forwarded at the current time
-
-notes                                      No                           Optional notes about the reject-forward
-
-user_name                             No                           The user who forwarded the subcase. If left blank, the current user performs
-
-the forward
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| subcase_id | Yes | The subcase to reject-forward |
+| new_queue | Yes | The queue to forward to |
+| forward_date | No | When was the subcase forwarded. If this parameter is left blank, the subcase is forwarded at the current time |
+| notes | No | Optional notes about the reject-forward |
+| user_name | No | The user who forwarded the subcase. If left blank, the current user performs the forward |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

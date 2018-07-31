@@ -11,19 +11,13 @@ Public Function fulfill_commitment(ByVal log_objid As Long, _
 This API will fulfill a previously unfulfilled commitment. The commitment objid supplied must be for an open, unfulfilled commitment. The user who fulfills the commitment, as well as the fulfill time may be specified. The API can also generate a time bomb (for business rule notification). The objid for the commitment can either be retrieved from the log_*_commitment APIs in this toolkit (which return the objid of the commitment or from a Clear Basic query.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-log_objid                               Yes                         The objid of the log to be fulfilled
-
-fulfill_date                             No                           When was the commitment fulfilled. If this parameter is left
-
-blank, commitment is fulfilled at the current time
-
-user_name                             No                           The user who fulfilled the commitment. If left blank, the current
-
-user performs the fulfill
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| log_objid | Yes | The objid of the log to be fulfilled |
+| fulfill_date | No | When was the commitment fulfilled. If this parameter is left blank, commitment is fulfilled at the current time |
+| user_name | No | The user who fulfilled the commitment. If left blank, the current user performs the fulfill |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

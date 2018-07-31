@@ -12,25 +12,17 @@ Public Function create_onsite_log(ByVal object_type As String, _
 This API allows creation of an onsite log that is related to a case or subcase. The object type and id of the focus object  (the case or subcase) must be supplied, and the other parameters are all optional.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-object_type                           Yes                         The type of focus object that this onsite log is tied to. (CASE or SUBCASE)
-
-object_id                               Yes                         The id number of the focus object
-
-creation_time                        No                           The time this onsite log is created. If left blank, it will be set to the current time
-
-last_modified                        No                           The last time a change was made to this onsite log
-
-notes                                      No                           The note text for this onsite log
-
-resolution                              No                           Value from the Resolution Code list
-
-user_name                             No                           The user who is creating the onsite log. If left blank, the current user
-
-performs the create
-
-perf_by                                  No                           The user that is performing the actions associated to the onsite log
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| object_type | Yes | The type of focus object that this onsite log is tied to. (CASE or SUBCASE) |
+| object_id | Yes | The id number of the focus object |
+| creation_time | No | The time this onsite log is created. If left blank, it will be set to the current time |
+| last_modified | No | The last time a change was made to this onsite log |
+| notes | No | The note text for this onsite log |
+| resolution | No | Value from the Resolution Code list |
+| user_name | No | The user who is creating the onsite log. If left blank, the current user performs the create |
+| perf_by | No | The user that is performing the actions associated to the onsite log |
 
 **Returns**
 

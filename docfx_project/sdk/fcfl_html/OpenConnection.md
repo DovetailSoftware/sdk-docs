@@ -24,17 +24,14 @@ Public Sub OpenConnection(ByVal TheDB As String, _
 This method is used to open a connection to an external database. If this FCSQLExec object is using the default connection to the Clarify database, you do not need to call this method.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-TheDB                                   Yes                         Database system to connect to. One of "SQL" or "ORACLE"
-
-UserName                              Yes                         User name for login
-
-Password                               Yes                         Password for the user
-
-DBServer                               Yes                         Server on which the database is located
-
-DBName                                Yes                         Database name
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| TheDB | Yes | Database system to connect to. One of "SQL" or "ORACLE" |
+| UserName | Yes | User name for login |
+| Password | Yes | Password for the user |
+| DBServer | Yes | Server on which the database is located |
+| DBName | Yes | Database name |
 
 **Error Codes**
 
@@ -100,10 +97,6 @@ The code in this example is written in Visual Basic.
 
     MsgBox sql_db.records("out_col")
 
-    sql_db.records.MoveNext
-
-  Wend
-
-  sql_db.Execute "insert into foo values (44)"
+    sql_db.records.MoveNext | Wend | sql_db.Execute "insert into foo values (44)"
 
   sql_db.CloseConnection

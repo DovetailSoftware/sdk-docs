@@ -14,37 +14,21 @@ Public Function create_expense_log(ByVal onsite_objid As Long, _
 This API allows creation of an expense log that is related to an onsite log. The OBJID of the onsite log or a case/subcase id must be supplied (but not both), and the other parameters are all optional. If you do not specify a billing rate, the employee's labor_rate field will be used.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-onsite_objid                          Yes                         The OBJID of the onsite log this expense log is related to
-
-id_num                                   No                           The Id number for the Case if no onsite log is specified
-
-creation_time                        No                           The time this expense log is created. If left blank, it will be the current time
-
-notes                                      No                           The note text for this expense log
-
-perf_by                                  No                           The user  that is performing the actions associated to the onsite log
-
-user_name                             No                           The user who is creating the onsite log. If left blank, the current user
-
-performs the create
-
-expense_type                       No                           Value for the type of expense, from the EXPENSE_TYPE list in
-
-Policies and Customers. If left blank, the default value is used
-
-quantity                                 No                           The number of units that are being applied to the onsite log
-
-the_rate                                 No                           Billing rate (per unit). If no rate specified, the employee's labor_rate is used
-
-billable                                   No                           Indicates if this expense is billable
-
-bill_to                                     No                           Indicates who this expense log will be billed to, from the BILL_TO_EXPENSE
-
-                                                                                list in Policies and Customers
-
-resolution                              No                           Value from the Resolution Code list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| onsite_objid | Yes | The OBJID of the onsite log this expense log is related to |
+| id_num | No | The Id number for the Case if no onsite log is specified |
+| creation_time | No | The time this expense log is created. If left blank, it will be the current time |
+| notes | No | The note text for this expense log |
+| perf_by | No | The user  that is performing the actions associated to the onsite log |
+| user_name | No | The user who is creating the onsite log. If left blank, the current user performs the create |
+| expense_type | No | Value for the type of expense, from the EXPENSE_TYPE list in Policies and Customers. If left blank, the default value is used |
+| quantity | No | The number of units that are being applied to the onsite log |
+| the_rate | No | Billing rate (per unit). If no rate specified, the employee's labor_rate is used |
+| billable | No | Indicates if this expense is billable |
+| bill_to | No | Indicates who this expense log will be billed to, from the BILL_TO_EXPENSE list in Policies and Customers |
+| resolution | No | Value from the Resolution Code list |
 
 **Returns**
 

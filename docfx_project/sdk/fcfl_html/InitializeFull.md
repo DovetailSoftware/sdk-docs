@@ -43,38 +43,25 @@ This method initializes the FCApplication, including:
 *  Opening Log Files
 *  Caching schema data
 *  Caching meta-data
-*  Writing cached meta-data
-
-For additional  information on the parameters,  refer to the _fc.env_ section of the **FCFL** user guide.
+*  Writing cached meta-datafor additional  information on the parameters,  refer to the _fc.env_ section of the **FCFL** user guide.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-LoginName                            Yes                         Country Name
-
-Password                               Yes                         Password
-
-DBServer                               Yes                         Database Server Name
-
-DBName                                Yes                         Database Name
-
-DBType                                 No                           Database Type. Default value is MSSQL.
-
-LogFile                                   No                           Log File Name
-
-SqlLogFile                             No                           SQL Log File Name
-
-fcAppLogging                      No                           Log FCApplication Methods/Properties?
-
-fcSessionLogging                No                           Log FCSession Methods/Properties?
-
-fcGenericLogging                No                           Log FCGeneric Methods/Properties?
-
-fcBulkLogging                      No                           Log FCBulk Methods/Properties?
-
-fcSqlExecLogging                No                           Log FCSqlExec Methods/Properties?
-
-NoCacheFile                         No                           If true, don't write XML cache files to disk
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| LoginName | Yes | Country Name |
+| Password | Yes | Password |
+| DBServer | Yes | Database Server Name |
+| DBName | Yes | Database Name |
+| DBType | No | Database Type. Default value is MSSQL. |
+| LogFile | No | Log File Name |
+| SqlLogFile | No | SQL Log File Name |
+| fcAppLogging | No | Log FCApplication Methods/Properties? |
+| fcSessionLogging | No | Log FCSession Methods/Properties? |
+| fcGenericLogging | No | Log FCGeneric Methods/Properties? |
+| fcBulkLogging | No | Log FCBulk Methods/Properties? |
+| fcSqlExecLogging | No | Log FCSqlExec Methods/Properties? |
+| NoCacheFile | No | If true, don't write XML cache files to disk |
 
 **Example**
 

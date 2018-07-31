@@ -22,35 +22,21 @@ Only one of the three locations may be specified. In addition, the API allows fo
 When a site_part is moved, all sub-site_parts underneath it are also moved.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-sp_objid                                                Yes                         The OBJID of the site_part to be moved
-
-move_date                            No                           The date that the site_part is being moved
-
-parent_sp_objid                   No                           The OBJID of the site_part under which you wish to move the site_part. Only
-
-specified if the site_part is to be moved under another site_part
-
-site_id                                    No                           The site ID of the site to which you will move the site_part. Only specified
-
-for  moves to the top-level of a site
-
-parent_bin_objid                 No                           The bin objid to move the site_part to. Only specified if the site_part is to be
-
-placed in a bin
-
-add_activity                          Yes                         Should activity log records be created, or not?
-
-user_name                             No                           The user who moved the site_part. If left blank, the current user
-
-performs the move
-
-install_and_move                                Yes                         Should the activity be listed as "Install (Move)" (True), or just "Move"  (False)?
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| sp_objid | Yes | The OBJID of the site_part to be moved |
+| move_date | No | The date that the site_part is being moved |
+| parent_sp_objid | No | The OBJID of the site_part under which you wish to move the site_part. Only specified if the site_part is to be moved under another site_part |
+| site_id | No | The site ID of the site to which you will move the site_part. Only specified for  moves to the top-level of a site |
+| parent_bin_objid | No | The bin objid to move the site_part to. Only specified if the site_part is to be placed in a bin |
+| add_activity | Yes | Should activity log records be created, or not? |
+| user_name | No | The user who moved the site_part. If left blank, the current user performs the move |
+| install_and_move | Yes | Should the activity be listed as "Install (Move)" (True), or just "Move"  (False)? |
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value | Meaning | **
 
 0                                              No errors
 

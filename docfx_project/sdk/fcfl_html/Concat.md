@@ -50,17 +50,14 @@ The resulting list is  "test_A_1x", "test_B_2y", "test_C_3z", "test__4Q"
 Notice how all items in the resulting contain the strings "test_" and "_" and that the final item in the resulting list contains no item from list1 (which has only 3 items).  This completely implements the ClearBasic version of this method.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-param1                                   Yes                         First item or list to concatenate.
-
-param2                                   No                           Second item or list to concatenate.
-
-param3                                   No                           Third item or list to concatenate.
-
-param4                                   No                           Fourth item or list to concatenate.
-
-param5                                   No                           Fifth item or list to concatenate.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| param1 | Yes | First item or list to concatenate. |
+| param2 | No | Second item or list to concatenate. |
+| param3 | No | Third item or list to concatenate. |
+| param4 | No | Fourth item or list to concatenate. |
+| param5 | No | Fifth item or list to concatenate. |
 
 **Example**
 

@@ -18,31 +18,19 @@ Public Function add_po_to_sched(ByVal contract_id As String, _
 This API is used to add purchase orders to schedules of contracts. A valid schedule for a contract must be specified. Also, the PO number cannot be defined already for the schedule. A variety of other payment items can be specified, as well as the PO date, and the expiration date.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contract_id                            Yes                         ID number of the contract/quote
-
-sched_id                                                Yes                         ID of the schedule for the specified contract
-
-po_num                                 Yes                         The purchase order number for the schedule
-
-pay_option                           No                           Payment option. If blank, the default value of the
-
-PAY_METHOD list is used
-
-pay_terms                             No                           Payment terms. If blank, the default value of the
-
-CONTRACT_PAY_TERMS  list is used
-
-po_amt                                   Yes                         Purchase order amount. Must be numeric
-
-po_date                                 No                           Purchase order date. If blank, current date/time is used
-
-expire_date                            No                           Purchase order expiration date. If blank, current date/time is used.
-
-po_status                              No                           Purchase order status. If blank, the default status from "PO
-
-Status" for Closed Contract condition will be used.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contract_id | Yes | ID number of the contract/quote |
+| sched_id | Yes | ID of the schedule for the specified contract |
+| po_num | Yes | The purchase order number for the schedule |
+| pay_option | No | Payment option. If blank, the default value of the PAY_METHOD list is used |
+| pay_terms | No | Payment terms. If blank, the default value of the CONTRACT_PAY_TERMS  list is used |
+| po_amt | Yes | Purchase order amount. Must be numeric |
+| po_date | No | Purchase order date. If blank, current date/time is used |
+| expire_date | No | Purchase order expiration date. If blank, current date/time is used. |
+| po_status | No | Purchase order status. If blank, the default status from "PO
+ Status" for Closed Contract condition will be used. |
 
 **Returns**
 
@@ -62,11 +50,9 @@ Status" for Closed Contract condition will be used.
 
 -6                                             The specified payment terms cannot be found
 
--7                                             The specified payment status is not found
-
-ret_id_num                            Output                   Returns the header id of the newly created purchase order
-
-ret_objid                                Output                   Returns the objid of the newly purchase order
+-7                                             The specified payment status is not found |
+| ret_id_num | Output | Returns the header id of the newly created purchase order |
+| ret_objid | Output | Returns the objid of the newly purchase order
 
 **Example**
 

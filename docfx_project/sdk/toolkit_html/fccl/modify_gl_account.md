@@ -13,25 +13,18 @@ Public Function modify_gl_account(ByVal old_name As String, _
 This API is used to modify existing GL accounts. Any of the attributes of the account can be changed. See the add_gl_account API desciption for more information. To leave any of the information unchanged, simply do not specify a value for it. For example, if you do not wish to change the name of the account, leave _new_name_ blank.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-old_name                               Yes                         The current ame of the GL account
-
-new_name                             No                           The new name (if changed) of the GL account
-
-account_type                       No                           Type of account from the code list. If blank, the default value is used
-
-desc_str                                 No                           The description of the account
-
-account_no                           No                           Optional account number
-
-is_exp                                     Yes                         Is this an expense account (True), or capital (False)
-
-is_active                                                Yes                         Is the account active (True) or inactive (False)
-
-is_company                          Yes                         Is it company owned (True) or customer owned (False)
-
-site_id                                    Yes                         The site for the account
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| old_name | Yes | The current ame of the GL account |
+| new_name | No | The new name (if changed) of the GL account |
+| account_type | No | Type of account from the code list. If blank, the default value is used |
+| desc_str | No | The description of the account |
+| account_no | No | Optional account number |
+| is_exp | Yes | Is this an expense account (True), or capital (False) |
+| is_active | Yes | Is the account active (True) or inactive (False) |
+| is_company | Yes | Is it company owned (True) or customer owned (False) |
+| site_id | Yes | The site for the account |
 
 **Returns**
 

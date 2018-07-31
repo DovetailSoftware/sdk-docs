@@ -36,65 +36,27 @@ You may also initially dispatch the subcase. If you specify a queue name, the su
 If successful, these APIs return both the _objid_ and the _id_number_ of the newly-created case. They are returned in the FCCS object variables _ret_objid_  and _ret_id_num_.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         The ID of the parent case
-
-the_title                                 No                           Title for the subcase. It is suggested that you always have a title
-
-is_general                              Yes                         Is this a general subcase (True), or administrative (False)
-
-priority                                   No                           Priority for the subcase. If left blank, default value is used
-
-severity                                  No                           Severity for the subcase. If left blank, default value is used
-
-status                                     No                           Initial status for the subcase. If left blank, default status is used
-
-notes                                      No                           Subcase notes
-
-queue_name                         No                           Name of the queue to dispatch the subcase to. If left blank, the subcase is
-
-                                                                                not initially dispatched
-
-cr_date                                   No                           Subcase creation date. If left blank, current date/time is used
-
-due_date                               No                           When the commitment for subcase is due. If left blank,  the subcase
-
-creation time is used
-
-prior_warn                             No                           How long before the due date should a warning be issued (in seconds)
-
-user_name                             No                           The user who created the subcase. If left blank, the current user performs
-
-the create
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules).
-
-                                                                                and prior warning time?
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    No                           List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                No                           List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   No                           List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | The ID of the parent case |
+| the_title | No | Title for the subcase. It is suggested that you always have a title |
+| is_general | Yes | Is this a general subcase (True), or administrative (False) |
+| priority | No | Priority for the subcase. If left blank, default value is used |
+| severity | No | Severity for the subcase. If left blank, default value is used |
+| status | No | Initial status for the subcase. If left blank, default status is used |
+| notes | No | Subcase notes |
+| queue_name | No | Name of the queue to dispatch the subcase to. If left blank, the subcase is not initially dispatched |
+| cr_date | No | Subcase creation date. If left blank, current date/time is used |
+| due_date | No | When the commitment for subcase is due. If left blank,  the subcase creation time is used |
+| prior_warn | No | How long before the due date should a warning be issued (in seconds) |
+| user_name | No | The user who created the subcase. If left blank, the current user performs the create |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules). and prior warning time? |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 

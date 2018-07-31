@@ -40,49 +40,22 @@ Public Function create_address_list(ByVal addr1 As String, _
 These APIs create new addresses in the database. You must specify one of the two address lines, the city, state, country, and time zone.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-addr1                                      No                           Address line 1
-
-addr2                                      No                           Address line 2
-
-city                                         Yes                         City
-
-state                                       Yes                         State
-
-short_state                            Yes                         Is the "state" field the "short state name" (Ex: TX), or the long state name
-
-(Ex: Texas)
-
-zip                                           Yes                         Zipcode
-
-country                                  Yes                         Country
-
-time_zone                              Yes                         Time zone
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| addr1 | No | Address line 1 |
+| addr2 | No | Address line 2 |
+| city | Yes | City |
+| state | Yes | State |
+| short_state | Yes | Is the "state" field the "short state name" (Ex: TX), or the long state name (Ex: Texas) |
+| zip | Yes | Zipcode |
+| country | Yes | Country |
+| time_zone | Yes | Time zone |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -106,9 +79,8 @@ val_list                                   Yes
 
 -8                                             The specified state is not found for the country
 
--9                                             The specified time zone is not found for the country
-
-ret_objid                                Output                   Returns the objid of the new address
+-9                                             The specified time zone is not found for the country |
+| ret_objid | Output | Returns the objid of the new address
 
 **Examples**
 

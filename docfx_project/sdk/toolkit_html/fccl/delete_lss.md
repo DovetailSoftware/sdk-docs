@@ -8,11 +8,11 @@ Public Function delete_lss(ByVal site_id As String, ByVal loc_name As String) As
 This API is used to remove the relationship between a site and a location servicing it. All of the other locations that service this site will have their ranks changed as necessary.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-site_id                                    Yes                         Name of the site to be serviced
-
-loc_name                               Yes                         Name of the servicing location
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| site_id | Yes | Name of the site to be serviced |
+| loc_name | Yes | Name of the servicing location |
 
 **Returns**
 

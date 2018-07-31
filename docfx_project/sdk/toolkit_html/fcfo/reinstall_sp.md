@@ -14,29 +14,17 @@ This API can be used to re-install a site part (and the sub-parts installed unde
 In addition, the user performing the action, and the time of the action can be specified, as well as if activity logs should be generated, or not. Finally, a flag allows the activities to be either "Re-install" or just "Install"
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-sp_objid                                Yes                         OBJID for the site_part to be re-installed
-
-site_id                                    Yes                         The site to reinstall the site_part at. Note that this does not have to be
-
-                                                                                the same as the site where it was de-installed
-
-parent_bin_objid                 No                           The objid of the bin to install the site_part in (if one is used)
-
-parent_sp_objid                   No                           The objid of the site_part to re-install the site_part under. If the site_part
-
-                                                                                is not to be installed under another site_part, use a value of 0
-
-user_name                             No                           Who performed the re-install? If blank, the current user is used
-
-reinst_date                            No                           When was the re-installation? If blank, the current time is used
-
-add_activity                          Yes                         Should activity log entries be generated?
-
-use_install                             Yes                         Should the activity string be "Install" (True), or "Re-installed" (False).
-
-                                                                                This flag should almost always = False
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| sp_objid | Yes | OBJID for the site_part to be re-installed |
+| site_id | Yes | The site to reinstall the site_part at. Note that this does not have to be the same as the site where it was de-installed |
+| parent_bin_objid | No | The objid of the bin to install the site_part in (if one is used) |
+| parent_sp_objid | No | The objid of the site_part to re-install the site_part under. If the site_part is not to be installed under another site_part, use a value of 0 |
+| user_name | No | Who performed the re-install? If blank, the current user is used |
+| reinst_date | No | When was the re-installation? If blank, the current time is used |
+| add_activity | Yes | Should activity log entries be generated? |
+| use_install | Yes | Should the activity string be "Install" (True), or "Re-installed" (False). This flag should almost always = False |
 
 **Returns**
 

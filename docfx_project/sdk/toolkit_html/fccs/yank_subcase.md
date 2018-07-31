@@ -11,19 +11,14 @@ Public Function yank_subcase(ByVal subcase_id As String, _
 This API causes the specified subcase to be yanked from the current location to a new owner's WIPBin. The date/time of the yank, and the person yanking the subcase are specified. The person who yanks the subcase becomes the new owner. The WIPBin to place the subcase in may also be specified. This is augmented function from base Clarify, where the subcase is always placed in the default WIPBin. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-subcase_id                            Yes                         The subcase to yank
-
-wipbin                                    No                           The WIPBin to place the subcase in. If left blank, the default WIPBin for the user is used
-
-yank_date                             No                           When was the subcase yanked. If this parameter is left blank, the yank
-
-occurs at the current time
-
-user_name                             No                           The user who yanked the subcase. If left blank, the current user performs the yank
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| subcase_id | Yes | The subcase to yank |
+| wipbin | No | The WIPBin to place the subcase in. If left blank, the default WIPBin for the user is used |
+| yank_date | No | When was the subcase yanked. If this parameter is left blank, the yank occurs at the current time |
+| user_name | No | The user who yanked the subcase. If left blank, the current user performs the yank |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

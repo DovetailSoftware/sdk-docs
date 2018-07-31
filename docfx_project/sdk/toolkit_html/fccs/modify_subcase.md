@@ -28,49 +28,21 @@ These APIs are used to modify existing subcases. If the priority or severity is 
 The argument _only_owner_ allows you to specify that only the current owner of the subcase may modify it. If the user_name (or default user if no name is provided) is not the current owner, and this flag is set to True, the modify will not happen. If _only_owner_ is set to False, any user can make the modification. This is an augmentation of the ClearBasic version of the APIs.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-subcase_id                            Yes                         The subcase to modify
-
-priority                                   No                           The new priority for the subcase. If left blank, no change is made
-
-severity                                  No                           The new severity for the subcase. If left blank, no change is made
-
-user_name                             No                           The user who modified the subcase. If left blank, the current user performs
-
-the modify
-
-mod_date                              No                           The date/time the subcase was modified. If left blank, current
-
-date/time is used
-
-only_owner                           Yes                         Should only the owner of the subcase be allowed to modify it?
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| subcase_id | Yes | The subcase to modify |
+| priority | No | The new priority for the subcase. If left blank, no change is made |
+| severity | No | The new severity for the subcase. If left blank, no change is made |
+| user_name | No | The user who modified the subcase. If left blank, the current user performs the modify |
+| mod_date | No | The date/time the subcase was modified. If left blank, current date/time is used |
+| only_owner | Yes | Should only the owner of the subcase be allowed to modify it? |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 

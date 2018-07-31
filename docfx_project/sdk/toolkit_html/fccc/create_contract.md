@@ -52,75 +52,39 @@ These APIs are used to create new contracts. Each contract requires a unique, va
 **Note:** _CreateContract_ and _CreateContractList_ are the same methods as _create_contract_ and _create_contract_list_ respectively.  They are alternate entry points to preserve backwards compatibility to **Clear Basic API Toolkit for Clear Contracts** naming.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contract_id                            No                           Input/Output to either set or return the the newly created contract ID
-
-title_str                                  Yes                         The title for the new contract, must be unique
-
-create_date                           No                           Date the contract was created.  Will default to current time.
-
-acct_id                                   No                           Account ID for related account.
-
-acct_name                             No                           Name of the account to which the contract is related to .
-
-first_name                             No                           First name of contact associated with the case
-
-last_name                              No                           Last name of contact associated with the case
-
-phone_num                           No                           Phone number of contact associated with the case
-
-type_str                                 No                           Type of contract.  Will use default list value if not supplied
-
-term_str                                 No                           Terms of contract.  Will use default list value if not supplied
-
-curr_str                                  No                           Currency for contract.  Will use default if value not supplied
-
-New_status                           No                           Status of the contract.  Will use default if value not supplied
-
-admin_name                          No                           Administrator of the contract.  Will use current user if not supplied         
-
-bill_to_site_id                      No                           Site ID of site to use for bill-to site of the schedule. If empty, no site is used
-
-ship_to_site_id                    No                           Site ID of site to use for ship-to site of the schedule. If empty, no site is used
-
-eff_date                                 No                           Effective date for the contract.  Will use current date if not supplied
-
-exp_date                                No                           Expiration date for the contract.  Will use current date if not supplied
-
-start_date                              No                           Date service begins.  Will use current date if not supplied
-
-end_date                               No                           Date service ends.  Will use current date if not supplied
-
-user_name                             No                           Owner of the contract.  Will use current user if not supplied
-
-queue_name                         No                           Queue to dispatch newly created contract to
-
-warranty                                                No                           Warranty flag for contract
-
-evergreen                              No                           Evergreen flag for contract
-
-renew_prior                           No                           Days to renew prior to expiry date
-
-gen_time_bombs                 No                           Flag to create time bombs.  Default is FALSE
-
-fld_list                                    No                           List of fields to set
-
-type_list                                                No                           List of data types for each field in fld_list
-
-val_list                                   No                           List of values to set for each field in fld_list
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contract_id | No | Input/Output to either set or return the the newly created contract ID |
+| title_str | Yes | The title for the new contract, must be unique |
+| create_date | No | Date the contract was created.  Will default to current time. |
+| acct_id | No | Account ID for related account. |
+| acct_name | No | Name of the account to which the contract is related to . |
+| first_name | No | First name of contact associated with the case |
+| last_name | No | Last name of contact associated with the case |
+| phone_num | No | Phone number of contact associated with the case |
+| type_str | No | Type of contract.  Will use default list value if not supplied |
+| term_str | No | Terms of contract.  Will use default list value if not supplied |
+| curr_str | No | Currency for contract.  Will use default if value not supplied |
+| New_status | No | Status of the contract.  Will use default if value not supplied |
+| admin_name | No | Administrator of the contract.  Will use current user if not supplied | 
+| bill_to_site_id | No | Site ID of site to use for bill-to site of the schedule. If empty, no site is used |
+| ship_to_site_id | No | Site ID of site to use for ship-to site of the schedule. If empty, no site is used |
+| eff_date | No | Effective date for the contract.  Will use current date if not supplied |
+| exp_date | No | Expiration date for the contract.  Will use current date if not supplied |
+| start_date | No | Date service begins.  Will use current date if not supplied |
+| end_date | No | Date service ends.  Will use current date if not supplied |
+| user_name | No | Owner of the contract.  Will use current user if not supplied |
+| queue_name | No | Queue to dispatch newly created contract to |
+| warranty | No | Warranty flag for contract |
+| evergreen | No | Evergreen flag for contract |
+| renew_prior | No | Days to renew prior to expiry date |
+| gen_time_bombs | No | Flag to create time bombs.  Default is FALSE |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -164,11 +128,9 @@ date_val1
 
 -18                                           Specified ship-to site does not exist
 
--19                                           Could not find default price program of US Std Price List
-
-ret_id_num                            Output                   Returns the id of the newly created contract
-
-ret_objid                                Output                   Returns the objid of the newly created contract
+-19                                           Could not find default price program of US Std Price List |
+| ret_id_num | Output | Returns the id of the newly created contract |
+| ret_objid | Output | Returns the objid of the newly created contract
 
 **Examples**
 
@@ -196,9 +158,7 @@ ret_int = cl_cc.create_contract_list( "", "White House", _
                 "", "", "White House", "George", "Bush", _
                 "", "", "", "", "", "", "", "", "", _
                 "", "", "", "", "", "", "", "", "TRUE", _
-                "", 0, "", "", "", "")
-
-If ret_int = 0 Then
+                "", 0, "", "", "", "") If ret_int = 0 Then
 
   contract_id = fc_cc.ret_id_num
 
@@ -272,9 +232,7 @@ ret_int = cl_cc.create_contract_list(contract_id, "White House", _
                 "", "", "White House", "George", "Bush", "", _
                 "", "", "", "", "", "", "", "", "", "", _
                 "", "", "", "", "", "", "TRUE", _
-                fld_list, type_list, val_list)
-
-If ret_int = 0 Then
+                fld_list, type_list, val_list) If ret_int = 0 Then
 
   contract_id = fc_cc.ret_id_num
 

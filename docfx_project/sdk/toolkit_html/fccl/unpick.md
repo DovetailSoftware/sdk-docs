@@ -44,42 +44,30 @@ This API does have a loophole (as does base Clarify) that if you (for example) p
 
 The API supports unpicking from a container object, as well as from a bin. If the part request was _soft picked_, the API will perform a soft unpick.
 
-The API can also unpick a specific unit indicated by a serial number. To do this, specify the serial number  using the **unpick_sn** API. This will pass the serial number along to the unpick API, and the specific part will be released.
-
-If the part request was created using a serialized site part, then in order to unpick an inventory part you must use the **unpick_sn** API and specify the specific serial number or use the keyword "inventory" as the serial number. This will force the API to ignore the serial number stored in the part request and allow the unpick to occur against the inventory part.
+The API can also unpick a specific unit indicated by a serial number. To do this, specify the serial number  using the **unpick_sn** API. This will pass the serial number along to the unpick API, and the specific part will be released. If the part request was created using a serialized site part, then in order to unpick an inventory part you must use the **unpick_sn** API and specify the specific serial number or use the keyword "inventory" as the serial number. This will force the API to ignore the serial number stored in the part request and allow the unpick to occur against the inventory part.
 
 The unpick API will unpick either quantity or serialized parts, based on the part number/site_part of the part request.
 
 The unpick API will also validate that the part request can be transitioned (for the specified user)
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-dtl_num                                 Yes                         The part request to receive against
-
-loc_name                               Yes                         The inventory location to unpick from
-
-bin_name                               Yes                         The inventory bin to unpick from. If from a container, put the container name
-
-in this field.
-
-cont_num                              No                           If unpicking from a container, put the container number in this field
-
-use_good                              Yes                         Is the unpicked inventory from good stock?
-
-user_name                             No                           The user who unpicked the part request. If left blank, the current user
-
-performs the unpick.
-
-unpick_date                          No                           When was the part request unpicked. If this parameter is left blank, the PR is unpicked at the current time
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| dtl_num | Yes | The part request to receive against |
+| loc_name | Yes | The inventory location to unpick from |
+| bin_name | Yes | The inventory bin to unpick from. If from a container, put  the container name in this field. |
+| cont_num | No | If unpicking from a container, put the container number in this field |
+| use_good | Yes | Is the unpicked inventory from good stock? |
+| user_name | No | The user who unpicked the part request. If left blank, the current user performs the unpick. |
+| unpick_date | No | When was the part request unpicked. If this parameter is left blank, the PR is unpicked at the current time |
+| gen_time_bombs | Yes | Should a time_bomb be generated |
 
 **Returns**
 
-**Value**                **Meaning**
+**Value**                **Meaning** 
 
- 0                                             No errors
+0  											  No errors
 
 +1                                            We unpicked some, but not all units picked for this part request
 
@@ -113,9 +101,7 @@ part request's condition and condition Unpicked
 
 **Part Transfer Error Codes:**
 
--120                                         Serial number is found in inventory, but not at the
-
-specified "from" bin
+-120                                         Serial number is found in inventory, but not at the specified "from" bin
 
 -121                                         The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created.
 

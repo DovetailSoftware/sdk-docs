@@ -16,9 +16,10 @@ Public Function IsCountry(ByVal Country As String) As Boolean
 This method returns a boolean indicating if the given country is a valid country name in the database.  The country table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-Country                                 Yes                         Name of country to be validated.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| Country | Yes | Name of country to be validated. |
 
 **Returns**
 
@@ -32,9 +33,7 @@ The following example checks is a given value from a posted form is a valid coun
 
 The code in this example is written in JavaScript for inclusion in ASP pages.
 
-var country = Request.Form("country").Item;
-
-if (FCApp.IsCountry(country))
+var country = Request.Form("country").Item; If (FCApp.IsCountry(country))
 
  { Response.Write(country + " is a valid country."); }
 

@@ -13,11 +13,7 @@ Public Sub ExecuteReturnRows(ByVal SqlStr As String)
 
 **Description**
 
-This method is used to execute a SQL statement against the external database. This method is only used for SQL that **DOES** return database rows.  The data returned is returned in the Records property (ADODB.Recordset object).
-
-If you wish to execute SQL that does not return rows, use the Execute method.
-
-If you wish to reuse the SQLExec object (to query the database again), you must close the Record (recordset) object. For example,
+This method is used to execute a SQL statement against the external database. This method is only used for SQL that **DOES** return database rows.  The data returned is returned in the Records property (ADODB.Recordset object). If you wish to execute SQL that does not return rows, use the Execute method. If you wish to reuse the SQLExec object (to query the database again), you must close the Record (recordset) object. For example,
 
 SqlObj.Records.Close();
 
@@ -32,9 +28,10 @@ The SQL provided must be valid SQL for the database system you connect to.
 **Note**: For more information about ADODB Recordsets, please visit the Microsoft website at: [http://www.microsoft.com/](http://www.microsoft.com/).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-SqlStr                                     Yes                         The SQL statement to execute
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| SqlStr | Yes | The SQL statement to execute |
 
 **Example**
 
@@ -92,10 +89,6 @@ The code in this example is written in Visual Basic.
 
     MsgBox sql_db.records("out_col")
 
-    sql_db.records.MoveNext
-
-  Wend
-
-  sql_db.Execute "insert into foo values (44)"
+    sql_db.records.MoveNext | Wend | sql_db.Execute "insert into foo values (44)"
 
   sql_db.CloseConnection

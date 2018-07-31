@@ -13,23 +13,15 @@ Public Function change_task_cond(ByVal task_id As String, _
 This API can be used to change the condition and (optionally) a status for an action item. You must supply the action item ID and the condition, but no other data is required. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-task_id                                   Yes                         The ID of the action item to change
-
-new_cond                             Yes                         The new condition for the action item
-
-new_status                           No                           New status for the action item
-
-user_name                             No                           The user who changed the condition/status. If left blank, the current user
-
-performs the change status.
-
-change_date                         No                           When was the condition/status changed. If this parameter is left blank, the
-
-change occurs at the current time
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| task_id | Yes | The ID of the action item to change |
+| new_cond | Yes | The new condition for the action item |
+| new_status | No | New status for the action item |
+| user_name | No | The user who changed the condition/status. If left blank, the current user performs the change status. |
+| change_date | No | When was the condition/status changed. If this parameter is left blank, the change occurs at the current time |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

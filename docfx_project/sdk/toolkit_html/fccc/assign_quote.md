@@ -11,30 +11,18 @@ Public Function assign_quote(ByVal quote_id As String, _
 
 **Description**
 
-This API causes the specified quote to be assigned to a new user. The quote must be in open condition, and the
-
-user assigning the quote does not have to be the owner of the quote. In base Clarify, the assigner of a quote must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the quote in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
+This API causes the specified quote to be assigned to a new user. The quote must be in open condition, and the user assigning the quote does not have to be the owner of the quote. In base Clarify, the assigner of a quote must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the quote in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-quote_id                                                Yes                         The quote to assign
-
-new_user                               No                           The user who the quote is assigned to. If left blank, the quote is assigned
-
-to the current user
-
-wipbin_name                        No                           The WIPBin to place the quote in (for the user who is assigned the quote)
-
-If left blank, the quote is placed in the user's default WIPBin
-
-assign_date                          No                           When was the quote assigned. If this parameter is left blank, the quote is assigned at the current time
-
-user_name                             No                           The user who assigned the quote. If left blank, the current user performs
-
-the assign.
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| quote_id | Yes | The quote to assign |
+| new_user | No | The user who the quote is assigned to. If left blank, the quote is assigned to the current user |
+| wipbin_name | No | The WIPBin to place the quote in (for the user who is assigned the quote) If left blank, the quote is placed in the user's default WIPBin |
+| assign_date | No | When was the quote assigned. If this parameter is left blank, the quote is assigned at the current time |
+| user_name | No | The user who assigned the quote. If left blank, the current user performs the assign. |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

@@ -15,27 +15,19 @@ This API is used to modify inventory locations in the system. The old name must 
 The trans authority determines part authorization levels, and has three possible values: none, all, auth parts only.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-old_name                               Yes                         Name of the inventory location
-
-new_name                             No                           New name of the location (if it is changing)
-
-account_type                       No                           Code list value to set
-
-desc_str                                 No                           Description of the inventory location
-
-reports_to_loc                      No                           The location name of the parent inventory location (if any)
-
-cap_gl_acct                          No                           The name of the capital account for this location
-
-is_active                                                Yes                         Is the location active (True) or inactive (False)
-
-is_company                          Yes                         Is the location company owned (True) or customer (False)
-
-site_id                                    No                           The location of the inventory location
-
-trans_auth_str                      No                           One of the following: none, all, auth parts only. If blank, no change is made
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| old_name | Yes | Name of the inventory location |
+| new_name | No | New name of the location (if it is changing) |
+| account_type | No | Code list value to set |
+| desc_str | No | Description of the inventory location |
+| reports_to_loc | No | The location name of the parent inventory location (if any) |
+| cap_gl_acct | No | The name of the capital account for this location |
+| is_active | Yes | Is the location active (True) or inactive (False) |
+| is_company | Yes | Is the location company owned (True) or customer (False) |
+| site_id | No | The location of the inventory location |
+| trans_auth_str | No | One of the following: none, all, auth parts only. If blank, no change is made |
 
 **Returns**
 

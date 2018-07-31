@@ -16,11 +16,11 @@ Public Function IsState(ByVal Country As String, ByVal State As String) As Boole
 This method returns a boolean indicating if the given state is valid for the given country.  The state and country tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-Country                                 Yes                         Name of country.
-
-State                                       Yes                         Name of state to be validated.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| Country | Yes | Name of country. |
+| State | Yes | Name of state to be validated. |
 
 **Returns**
 
@@ -44,9 +44,7 @@ The code in this example is written in JavaScript for inclusion in ASP pages.
 
 var country = Request.Form("country").Item;
 
-var state = Request.Form("state").Item;
-
-if (FCApp.IsState(country,state)
+var state = Request.Form("state").Item; If (FCApp.IsState(country,state)
 
 {
 

@@ -20,11 +20,10 @@ If this method is called without any input parameters, a new FCSession object wi
 If this method is called with a SessionID, the FCApplication will attempt to return a reference to an existing FCSession object with the given SessionID. If a FCSession with this SessionID does not exist, an error is thrown.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-SessionID                              No                           An optional parameter for re-establishing an existing
-
-FCSession object.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| SessionID | No | An optional parameter for re-establishing an existing FCSession object. |
 
 **Returns**
 

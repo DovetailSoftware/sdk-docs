@@ -18,13 +18,11 @@ Public Sub ChangeResGroup(new_group As String, _
 This method changes the restriction group for the session user. The first argument must be a valid restriction group that the user belongs to. You may choose to have the restrictions only apply to the local session, or to change the active restriction group for the user in the database (which will apply to future sessions) with the 2nd argument.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-new_group                            Yes                         The name of the new restriction group
-
-SaveToDB                             No                           Should the change be saved to the database? If left out, the
-
-value used is "False"
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| new_group | Yes | The name of the new restriction group |
+| SaveToDB | No | Should the change be saved to the database? If left out, the value used is "False" |
 
 **Error Codes**
 

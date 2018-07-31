@@ -22,35 +22,20 @@ There are a variety of optional items that you may set, including the action typ
 The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-lead_objid                             Yes                         The unique object ID of the lead
-
-the_text                                  No                           Note text
-
-iuo                                          No                           Internal Use Only optional text for the phone log
-
-first                                         Yes                         First name of the related contact. If you wish to use the lead as the contact,
-
-leave this field blank
-
-last                                          Yes                         Last name of the related contact. If you wish to use the lead as the contact,
-
-leave this field blank
-
-phone                                     Yes                         Phone number of the related contact. If you wish to use the lead as the
-
-contact, leave this field blank
-
-action                                     No                           Phone Log Action Type. If blank, the default value of the code list is used
-
-log_date                                                No                           When was the call logged? If blank, current date/time used
-
-duration                                 Yes                         How long did the call last, in seconds
-
-user_name                             No                           Who logged the note? If blank, current user is used
-
-gen_time_bombs                 Yes                         Should a time bomb be created? Values are "True" or "False".
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| lead_objid | Yes | The unique object ID of the lead |
+| the_text | No | Note text |
+| iuo | No | Internal Use Only optional text for the phone log |
+| first | Yes | First name of the related contact. If you wish to use the lead as the contact, leave this field blank |
+| last | Yes | Last name of the related contact. If you wish to use the lead as the contact, leave this field blank |
+| phone | Yes | Phone number of the related contact. If you wish to use the lead as the contact, leave this field blank |
+| action | No | Phone Log Action Type. If blank, the default value of the code list is used |
+| log_date | No | When was the call logged? If blank, current date/time used |
+| duration | Yes | How long did the call last, in seconds |
+| user_name | No | Who logged the note? If blank, current user is used |
+| gen_time_bombs | Yes | Should a time bomb be created? Values are "True" or "False". |
 
 **Returns**
 
@@ -72,7 +57,7 @@ gen_time_bombs                 Yes               
 
 **Examples**
 
- Sam logged a call on December 12, 2000 (at 11AM) for a lead. The text is "Hello there", and the call lasted 3 minutes and 15 seconds. Do not specify an action type. Use the lead as the contact. Generate time bombs.
+Sam logged a call on December 12, 2000 (at 11AM) for a lead. The text is "Hello there", and the call lasted 3 minutes and 15 seconds. Do not specify an action type. Use the lead as the contact. Generate time bombs.
 
 **JavaScript:**
 
@@ -87,15 +72,16 @@ var ret_int = fcsfa.log_lead_phone(268435458, "Hello there", "", "", "", "",
 Dim ret_int As Integer
 
 ret_int = fcsfa.log_lead_phone(268435458, "Hello there", "", "", "", "", _
+
                                "", "12/12/2000 11:00:00", 195, "sam", True)
 
- Log another call for the same lead. Specify a contact and an action type, and log it at the current time and from the current user. The call lasted 30 seconds, and don't generate a time bomb.
+Log another call for the same lead. Specify a contact and an action type, and log it at the current time and from the current user. The call lasted 30 seconds, and don't generate a time bomb.
 
 **JavaScript:**
 
 var ret_int = fcsfa.log_lead_phone(268435458, "More notes", "", "Jane", "Doe",
-
-                                   "555-1212", "Outgoing call", "",
+ 
+                                  "555-1212", "Outgoing call", "",
 
                                    30, "", false);
 
@@ -104,5 +90,7 @@ var ret_int = fcsfa.log_lead_phone(268435458, "More notes", "", "Jane", "Doe",
 Dim ret_int As Integer
 
 ret_int = fcsfa.log_lead_phone(268435458, "More notes", "", "Jane", "Doe", _
+
                                "555-1212", "Outgoing call", _
+
                                "", 30, "", False)

@@ -20,9 +20,10 @@ The state_prov and country tables are cached in the FCApplication object, so thi
 When finished with the returned recordset, you should close the recordset using the .Close method and then set your variable to Nothing or Null. This will release the resources needed for this object.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-Country                                 Yes                         Name of country to get the states for.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| Country | Yes | Name of country to get the states for. |
 
 **Returns**
 

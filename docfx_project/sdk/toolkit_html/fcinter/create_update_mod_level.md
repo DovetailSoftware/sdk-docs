@@ -19,35 +19,19 @@ This API creates or update part mod levels (revisions). You must supply the part
 You may also specify the status of the revision. If you do not specify a status (for create), the status of "Active" is assumed. Also, you may use the change_ml and new_ml arguments to change the mod_level of an existing mod_level record.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-part_num                               Yes                         Part number of the part
-
-part_dom                               Yes                         Domain of the part
-
-mod_level                              Yes                         Revision to create
-
-replaces_part                        No                           Part number of part/rev that this revision replaces
-
-replaces_dom                       No                           Domain of part/rev that this revision replaces
-
-replaces_rev                         No                           Revision of part/rev that this revision replaces
-
-replaces_date                       No                           What date/time does this part/rev replace the previous one?
-
-status                                     No                           The status of the revision. For creates, if blank, the status of "Active" is used.
-
-For updates,  if it is blank, no change is made to the status. Must be a valid
-
-status otherwise (Active, Inactive, Obsolete)
-
-change_ml                             Yes                         For updates only (ignored for creates). Should the mod_level be updated?
-
-Should be True or False
-
-new_ml                                  No                           For updates only. If change_ml = True, this is the new mod_level for the
-
-revision record
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| part_num | Yes | Part number of the part |
+| part_dom | Yes | Domain of the part |
+| mod_level | Yes | Revision to create |
+| replaces_part | No | Part number of part/rev that this revision replaces |
+| replaces_dom | No | Domain of part/rev that this revision replaces |
+| replaces_rev | No | Revision of part/rev that this revision replaces |
+| replaces_date | No | What date/time does this part/rev replace the previous one? |
+| status | No | The status of the revision. For creates, if blank, the status of "Active" is used. For updates,  if it is blank, no change is made to the status. Must be a valid status otherwise (Active, Inactive, Obsolete) |
+| change_ml | Yes | For updates only (ignored for creates). Should the mod_level be updated? Should be True or False |
+| new_ml | No | For updates only. If change_ml = True, this is the new mod_level for the revision record |
 
 **Returns**
 
@@ -61,9 +45,8 @@ revision record
 
 -3                                             Cannot find the specified replaces part and revision
 
--4                                             The new mod_level (updates only) supplied already exists for a revision of this part.
-
-ret_objid                                Output                   Returns the objid of the mod level
+-4                                             The new mod_level (updates only) supplied already exists for a revision of this part. |
+| ret_objid | Output | Returns the objid of the mod level
 
 **Examples**
 

@@ -1,7 +1,5 @@
 ### AddForUpdate
 
----
-
 **Object and Type**
 
 Object  : FCGeneric
@@ -21,9 +19,10 @@ You can then change any fields, or set any relations, just like any other record
 **Note**: This method does not validate the objid you provide. If it is illegal, you will receive a runtime error when you attempt to update the record.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-theObjid                 Yes                         This is the objid of the record to update
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| theObjid | Yes | This is the objid of the record to update |
 
 **Error Codes**
 

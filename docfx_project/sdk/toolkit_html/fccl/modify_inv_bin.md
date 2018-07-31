@@ -10,17 +10,13 @@ Public Function modify_inv_bin(ByVal old_name As String, _
 This API is used to modify the name or the active flag of an existing bin. You may not move the bin to another location with this API, only rename it at the existing location.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-old_name                               Yes                         Previous name for the bin
-
-new_name                             Yes                         New name for the bin. If the bin isn't changing names, this argument can
-
-                                                                                be left blank
-
-loc_name                               Yes                         Name of the inventory location where the bin is located
-
-is_active                                                Yes                         Is the bin active (True) or inactive (False)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| old_name | Yes | Previous name for the bin |
+| new_name | Yes | New name for the bin. If the bin isn't changing names, this argument can be left blank |
+| loc_name | Yes | Name of the inventory location where the bin is located |
+| is_active | Yes | Is the bin active (True) or inactive (False) |
 
 **Returns**
 

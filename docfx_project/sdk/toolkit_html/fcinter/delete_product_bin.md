@@ -10,13 +10,12 @@ Public Function delete_product_bin(ByVal bin_objid As Long, _
 This API allows you to delete an existing product bin. The bin must be empty (no child bins or child site_parts), and cannot be the deinstall (special) bin.  You may also specify who deleted the product bin, and when.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-bin_objid                               Yes                         Objid of the bin to delete
-
-user_name                             No                           Name of the user who deleted the bin. If blank, the current user is used  
-
-delete_date                           No                           When was the bin deleted. If blank, the current date/time is used
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| bin_objid | Yes | Objid of the bin to delete |
+| user_name | No | Name of the user who deleted the bin. If blank, the current user is used |
+| delete_date | No | When was the bin deleted. If blank, the current date/time is used |
 
 **Returns**
 

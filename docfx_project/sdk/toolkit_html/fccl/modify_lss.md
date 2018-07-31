@@ -9,13 +9,12 @@ Public Function modify_lss(ByVal site_id As String, _
 This API is used to change the order of the locations servicing a site. The new rank is given to the item, and all other ranks are changed as necessary.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-site_id                                    Yes                         Name of the site to be serviced
-
-loc_name                               Yes                         Name of the servicing location
-
-loc_rank                                 Yes                         Which servicing location is this. Ranks start at 1 and increase
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| site_id | Yes | Name of the site to be serviced |
+| loc_name | Yes | Name of the servicing location |
+| loc_rank | Yes | Which servicing location is this. Ranks start at 1 and increase |
 
 **Returns**
 

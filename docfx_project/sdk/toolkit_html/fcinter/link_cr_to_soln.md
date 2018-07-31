@@ -12,17 +12,14 @@ Public Function link_cr_to_soln(ByVal cr_id As String, _
 This API allows a change request to be linked to a solution. The link date, and user can be specified. Also, a time bomb can be generated for business rules.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         CR to link
-
-soln_id                                   Yes                         ID number of solution to link
-
-link_date                                No                           When was the link performed? If blank, current date/time is used
-
-user_name                             No                           Who performed the link? If blank, current user is used
-
-create_time_bomb               Yes                         Should a time bomb be added to the system for business rule firing?
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | CR to link |
+| soln_id | Yes | ID number of solution to link |
+| link_date | No | When was the link performed? If blank, current date/time is used |
+| user_name | No | Who performed the link? If blank, current user is used |
+| create_time_bomb | Yes | Should a time bomb be added to the system for business rule firing? |
 
 **Returns**
 

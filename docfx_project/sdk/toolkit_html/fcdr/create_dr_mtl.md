@@ -21,37 +21,22 @@ Public Function create_dr_mtl(ByVal demand_dtl_objid As Long, _
 This API allows usage of material to be logged against a depot repair part.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-demand_dtl_objid                Yes                         Object ID of specified part request.
-
-repair_code                           No                           Repair type for this usage of material. Will use default if not supplied.
-
-failure_code                          No                           Failure code for the part being serviced. Will use default if not supplied.
-
-mod_level                              Yes                         Part and revision of the material that was put in use.
-
-billable                                   No                           Indicates whether material usage is billable.
-
-bill_to                                     No                           Indicates who is billed for the material. Will use default if not supplied.
-
-wrk_center                            No                           Indicates the location where material was used.
-
-disposition                            Yes                         Indicates how the material relates to the depot repair part.
-
-ref_designator                      No                           Describes a reference location or designation for the part.
-
-notes                                      No                           Description area for the material usage activity.
-
-transaction_id                      No                           Indicates the id of the GL transaction associated with this material usage.
-
-perf_by                                  No                           Indicates the technician who performed the labor. Will default to the
-
-                                                                                current Clarify user if not supplied.
-
-creation_time                        No                           Indicates the time this action is logged. Will default to the current time if a
-
-different time is not supplied.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| demand_dtl_objid | Yes | Object ID of specified part request. |
+| repair_code | No | Repair type for this usage of material. Will use default if not supplied. |
+| failure_code | No | Failure code for the part being serviced. Will use default if not supplied. |
+| mod_level | Yes | Part and revision of the material that was put in use. |
+| billable | No | Indicates whether material usage is billable. |
+| bill_to | No | Indicates who is billed for the material. Will use default if not supplied. |
+| wrk_center | No | Indicates the location where material was used. |
+| disposition | Yes | Indicates how the material relates to the depot repair part. |
+| ref_designator | No | Describes a reference location or designation for the part. |
+| notes | No | Description area for the material usage activity. |
+| transaction_id | No | Indicates the id of the GL transaction associated with this material usage. |
+| perf_by | No | Indicates the technician who performed the labor. Will default to the current Clarify user if not supplied. |
+| creation_time | No | Indicates the time this action is logged. Will default to the current time if a different time is not supplied. |
 
 **Returns**
 
@@ -71,9 +56,8 @@ different time is not supplied.
 
 -6                                             Related Part Request Header record is not in database
 
--7                                             Unable to find Standard Cost for part revision
-
-ret_objid                                Output                   Returns the objid of the newly created material log record
+-7                                             Unable to find Standard Cost for part revision |
+| ret_objid | Output | Returns the objid of the newly created material log record
 
 **Examples**
 

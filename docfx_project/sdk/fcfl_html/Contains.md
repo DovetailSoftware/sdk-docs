@@ -16,9 +16,10 @@ Public Function Contains(ByRef item As Variant) As Boolean
 This method tells whether item is a member of the list.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-item                                         Yes                         Item to check for in the list.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| item | Yes | Item to check for in the list. |
 
 **Returns**
 

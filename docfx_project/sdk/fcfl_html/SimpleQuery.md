@@ -18,9 +18,10 @@ This method sets the DBObjectName property for a generic object. It is exactly t
 Call on this method for all generics, except those that will be child objects.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-obj_name                               Yes                         The name of the table or view, not including the "table_"
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| obj_name | Yes | The name of the table or view, not including the "table_" |
 
 **Example**
 

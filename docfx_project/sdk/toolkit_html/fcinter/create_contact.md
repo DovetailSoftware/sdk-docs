@@ -29,53 +29,25 @@ These APIs create a contact in the database. The APIs also create the contact ro
 **Note:** If you wish to create a duplicate contact (same first, last, and phone as another contact in the database), you may use the _allow_duplicate_contact_ property.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-first                                         Yes                         First name of the contact
-
-last                                          Yes                         Last name of the contact
-
-phone                                     Yes                         Phone number of the contact
-
-site_id                                    Yes                         Site ID for the contact role to create
-
-role                                         Yes                         The contact role to create
-
-fax                                           No                           Fax number for contact
-
-email                                       No                           Email address for contact
-
-mail_stop                               No                           Mail stop for contact
-
-the_title                                 No                           Job title for contact
-
-hours                                      No                           Job hours for contact
-
-salutation                              No                           Salutation for contact
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| first | Yes | First name of the contact |
+| last | Yes | Last name of the contact |
+| phone | Yes | Phone number of the contact |
+| site_id | Yes | Site ID for the contact role to create |
+| role | Yes | The contact role to create |
+| fax | No | Fax number for contact |
+| email | No | Email address for contact |
+| mail_stop | No | Mail stop for contact |
+| the_title | No | Job title for contact |
+| hours | No | Job hours for contact |
+| salutation | No | Salutation for contact |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -91,9 +63,7 @@ val_list                                   Yes
 
 -4                                             A contact with the same first name, last name and phone already exists
 
--5                                             Cannot find the activity string CREATE CONTACT rank equal to 14000                 
-
-ret_objid                                Output                   Returns the objid of the new contact
+-5                                             Cannot find the activity string CREATE CONTACT rank equal to 14000 | ret_objid | Output                   Returns the objid of the new contact
 
 **Examples**
 

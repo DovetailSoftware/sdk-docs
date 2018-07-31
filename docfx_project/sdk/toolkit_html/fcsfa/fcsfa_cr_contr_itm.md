@@ -81,69 +81,34 @@ The objid of the newly-created contract line item will be returned in _fcsfa.ret
   
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contract_id                            Yes                         The quote/contract for the line item
-
-user_name                             No                           The user who created the line item. If left blank, the current user performs the create. For business rules, it defaults to the user_name who is executing the cbbatch
-
-create_date                           No                           Line item creation date. If left blank, current date/time is used
-
-start_date                              No                           Start date/time of the line item. If blank, create_date is used
-
-end_date                               No                           End date/time of the line item. If blank, create_date + 1 year is used
-
-part_num                               Yes                         Part number of part to quote
-
-domain                                   Yes                         Domain of part to quote
-
-rev                                          Yes                         Revision of part to quote
-
-quantity                                 Yes                         Number of units in line
-
-price_schedule                     Yes                         Name of the schedule from the quote to put the line on
-
-oride_price                            No                           If supplied, this is the per-unit price. If blank, price is taken from the price
-
-schedule
-
-units_used                            No                           If supplied, this is the number of units used. If = 0 (default), then all units are
-
-initially available
-
-serial_num                             No                           For serialized parts, the serial number to quote
-
-is_taxable                              Yes                         Is the line taxable?
-
-install_it                                 Yes                         Should the part be marked for auto-install?
-
-comments                              No                           Comments about the line item
-
-quoted_site                           No                           Site ID of the site for auto-install. If auto-install = True, this must be supplied
-
-serviced_at_site                   No                           The site ID of the site servicing the line
-
-parent_objid                         Yes                         The objid of the parent line item. If set to -1 then this is a parent line item. If set to -2 then this is a stand-alone item.
-
-po_num                                 No                           Purchase order number for this line item. Must be a valid purchase order number for the schedule specified above
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contract_id | Yes | The quote/contract for the line item |
+| user_name | No | The user who created the line item. If left blank, the current user performs the create. For business rules, it defaults to the user_name who is executing the cbbatch |
+| create_date | No | Line item creation date. If left blank, current date/time is used |
+| start_date | No | Start date/time of the line item. If blank, create_date is used |
+| end_date | No | End date/time of the line item. If blank, create_date + 1 year is used |
+| part_num | Yes | Part number of part to quote |
+| domain | Yes | Domain of part to quote |
+| rev | Yes | Revision of part to quote |
+| quantity | Yes | Number of units in line |
+| price_schedule | Yes | Name of the schedule from the quote to put the line on |
+| oride_price | No | If supplied, this is the per-unit price. If blank, price is taken from the price schedule |
+| units_used | No | If supplied, this is the number of units used. If = 0 (default), then all units are initially available |
+| serial_num | No | For serialized parts, the serial number to quote |
+| is_taxable | Yes | Is the line taxable? |
+| install_it | Yes | Should the part be marked for auto-install? |
+| comments | No | Comments about the line item |
+| quoted_site | No | Site ID of the site for auto-install. If auto-install = True, this must be supplied |
+| serviced_at_site | No | The site ID of the site servicing the line |
+| parent_objid | Yes | The objid of the parent line item. If set to -1 then this is a parent line item. If set to -2 then this is a stand-alone item. |
+| po_num | No | Purchase order number for this line item. Must be a valid purchase order number for the schedule specified above |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -197,7 +162,7 @@ val_list                                   Yes
 
 **Field version:**
 
-**       JavaScript:**
+**JavaScript:**
 
 var ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity",
 
@@ -218,7 +183,7 @@ ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity", _
 
 **List version:**
 
-**       JavaScript:**
+**JavaScript:**
 
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 

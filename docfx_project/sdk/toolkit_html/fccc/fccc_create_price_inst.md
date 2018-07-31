@@ -39,54 +39,27 @@ When pricing quantities, if you leave the price quantity empty, it will default 
 **NOTE:** _CreatePriceInst_ and _CreatePriceInst_ are the same methods as _create_price_inst_ and _create_price_inst _list_ respectively.  They are alternate entry points to preserve backwards compatibility to **Clear Basic API Toolkit for Clear Contracts** naming.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-  part_num                             No                           The part number of the part being priced
-
-mod_level                              No                           The mod level of the part being priced
-
-domain                                  No                           The domain of the part being priced
-
-support_prog                       Yes                         The support program for which this price instance is being created
-
-price_prog                             Yes                         The price schedule for this price instance
-
-price_type                             Yes                         The price type for the price instance
-
-0=fixed
-
-1=percent of product
-
-2=percent of option list (not supported at this time)
-
-priced_qty                             Yes                         The number of units being priced
-
-price                                       No                           The total price for the units of this price instance
-
-eff_date                                 No                           The start date of this price instance
-
-exp_date                                No                           The expiration date of this price instance
-
-fld_list                                    No                           List of fields to set
-
-type_list                                                No                           List of data types for each field in fld_list
-
-val_list                                   No                           List of values to set for each field in fld_list
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| part_num | No | The part number of the part being priced |
+| mod_level | No | The mod level of the part being priced |
+| domain | No | The domain of the part being priced |
+| support_prog | Yes | The support program for which this price instance is being created |
+| price_prog | Yes | The price schedule for this price instance |
+| price_type | Yes | The price type for the price instance<br><br>0=fixed<br>1=percent of product<br>2=percent of option list (not supported at this time) |
+| priced_qty | Yes | The number of units being priced |
+| price | No | The total price for the units of this price instance |
+| eff_date | No | The start date of this price instance |
+| exp_date | No | The expiration date of this price instance |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
-
+ |
 | Value |  Meaning |
 |!--- |!--- |
 | 0 | No Errors |

@@ -16,9 +16,10 @@ Public Property Get Item(TheItem As String) As Variant
 The Item property allows access to a collection of data stored in the FCSession object.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-TheItem                                 Yes                         The item to be retrieved.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| TheItem | Yes | The item to be retrieved. |
 
 **Returns**
 
@@ -86,7 +87,7 @@ The following items are available when the LoginType = "contact"
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                             **Meaning**
 
 11001                                      Field given is not a valid field for config_itm.
 

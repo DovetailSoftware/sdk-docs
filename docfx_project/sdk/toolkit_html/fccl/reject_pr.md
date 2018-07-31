@@ -11,27 +11,21 @@ Public Function reject_pr(ByVal pr_id As String, _
 This API causes the specified part request to be rejected from the queue it is disptached to. The date and user performing the reject can be specified, and the call allows the part request to be placed back in any WIPBin of the owner. This is an augmentation over base Clarify where it is always rejected back to the default WIPBin. Also, the API allows for time bombs (for business rules) to be created, or not.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-pr_id                                       Yes                         The part request to reject
-
-reject_date                            No                           When did the reject occur. If left blank, current time is used
-
-wipbin_name                        No                           The owner's WIPBin in which to place the part request. If left blank,
-
-                                                                                it is rejected to the default WIPBin
-
-note_str                                 No                           Notes about the reject
-
-user_name                             No                           Who performed the reject? If left blank, current user is used
-
-gen_time_bombs                 Yes                         Should a time bomb record be created for business rule notification?
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| pr_id | Yes | The part request to reject |
+| reject_date | No | When did the reject occur. If left blank, current time is used |
+| wipbin_name | No | The owner's WIPBin in which to place the part request. If left blank, it is rejected to the default WIPBin |
+| note_str | No | Notes about the reject |
+| user_name | No | Who performed the reject? If left blank, current user is used |
+| gen_time_bombs | Yes | Should a time bomb record be created for business rule notification? |
 
 **Returns**
 
 **Value**                **Meaning**
 
- 0                                             No errors
+0                                      No errors
 
 -1                                             Cannot find the specified part request
 

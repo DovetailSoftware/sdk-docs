@@ -11,11 +11,11 @@ This API causes the specified change request to be moved from one WIPBin to anot
 **Note:** This API allows you to move a queueable object from one WIPBin to another, even if the object is currently dispatched. Since WIPBins are internal to a user, there really is no reason that you shouldn't be able to move the location of the object. This is an enhancement to base Clarify function, which requires that the object not be dispatched to be moved.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         The change request to move
-
-new_wipbin                          Yes                         The WIPBin to move the change request to
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | The change request to move |
+| new_wipbin | Yes | The WIPBin to move the change request to |
 
 **Returns**
 

@@ -58,81 +58,30 @@ These APIs are used to update existing action items. Virtually all of the data i
 If you want to relate a contact to the action item you must supply all three of the contact fields. Likewise, if you wish to associate a lead to the action item you must supply both lead fields.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-task_id                                   Yes                         ID number of the action item to modify
-
-title                                         No                           The title of the action item. If blank, no change is made. To clear, specify
-
-"CLEAR"
-
-notes                                      No                           Notes about the action item. If blank, no change is made. To clear, specify
-
-"CLEAR"
-
-first_name                             No                           First name of the related contact If first name and last name are blank, no
-
-                                                                                change is made. To clear,  specify "CLEAR"
-
-last_name                              No                           Last name of the related contact. If first name and last name are blank, no
-
-change is made. To clear the contact, specify "CLEAR" in the first name
-
-phone                                     No                           Phone number of the related contact
-
-acct_name                             No                           Name of the account to relate to the action item. If blank, no change is made.
-
-To clear, specify "CLEAR"
-
-lead_first                               No                           First name of the related lead. If first and last name are blank, no change is
-
-made. If set to "CLEAR", the lead is cleared out
-
-lead_last                                                No                           Last name of the related lead. If first and last name are blank, no change is
-
-made
-
-opp_id                                   No                           Opportunity related to the action item. If blank, no change is made. To clear,
-
-specify "CLEAR"
-
-the_type                                                No                           Type of the action item (code list value). If empty, no change is made
-
-priority                                   No                           Priority for the action item. If empty, no change is made
-
-start_date                              No                           Start date for the action item. If empty, action item's start date is used
-
-complete_date                      No                           End date for the action item. If empty, action item's due date is used
-
-status                                     No                           Status for the action item. If empty, no change is made
-
-update_date                          No                           When was the action item modified?  If empty, current date/time
-
-is used
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if 
-
-str_val1, str_val2                                                 the corresponding field name field is filled with a valid field
-
-date_val1                                                               name
-
-fld_list                                    Yes                         List of additional field names to write. List must be present,
-
-but does not need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be
-
-present, but does not need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present,
-
-but does not need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| task_id | Yes | ID number of the action item to modify |
+| title | No | The title of the action item. If blank, no change is made. To clear, specify "CLEAR" |
+| notes | No | Notes about the action item. If blank, no change is made. To clear, specify "CLEAR" |
+| first_name | No | First name of the related contact If first name and last name are blank, no change is made. To clear,  specify "CLEAR" |
+| last_name | No | Last name of the related contact. If first name and last name are blank, no change is made. To clear the contact, specify "CLEAR" in the first name |
+| phone | No | Phone number of the related contact |
+| acct_name | No | Name of the account to relate to the action item. If blank, no change is made. To clear, specify "CLEAR" |
+| lead_first | No | First name of the related lead. If first and last name are blank, no change is made. If set to "CLEAR", the lead is cleared out |
+| lead_last | No | Last name of the related lead. If first and last name are blank, no change is made |
+| opp_id | No | Opportunity related to the action item. If blank, no change is made. To clear, specify "CLEAR" |
+| the_type | No | Type of the action item (code list value). If empty, no change is made |
+| priority | No | Priority for the action item. If empty, no change is made |
+| start_date | No | Start date for the action item. If empty, action item's start date is used |
+| complete_date | No | End date for the action item. If empty, action item's due date is used |
+| status | No | Status for the action item. If empty, no change is made |
+| update_date | No | When was the action item modified?  If empty, current date/time is used |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -168,7 +117,7 @@ but does not need to have any items in the list
 
 **Field version:**
 
-**       JavaScript:**
+**JavaScript:**
 
    var ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",
 
@@ -189,7 +138,7 @@ but does not need to have any items in the list
 
 **List version:**
 
-**       JavaScript:**
+**JavaScript:**
 
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 

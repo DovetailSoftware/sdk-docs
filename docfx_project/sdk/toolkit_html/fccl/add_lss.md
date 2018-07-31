@@ -10,15 +10,13 @@ Public Function add_lss(ByVal site_id As String, _
 This API is used to relate sites to the inventory locations that service them. The site and location must be specified, and the rank (from 1 upwards) of the order in which the locations service the site. The active flag denotes if the servicing is currently active.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-site_id                                    Yes                         Name of the site to be serviced
-
-loc_name                               Yes                         Name of the servicing location
-
-is_active                                                Yes                         Is the servicing active?
-
-loc_rank                                 Yes                         Which servicing location is this. Ranks start at 1 and increase
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| site_id | Yes | Name of the site to be serviced |
+| loc_name | Yes | Name of the servicing location |
+| is_active | Yes | Is the servicing active? |
+| loc_rank | Yes | Which servicing location is this. Ranks start at 1 and increase |
 
 **Returns**
 
@@ -38,9 +36,8 @@ loc_rank                                 Yes  
 
 -7                                             The specified location not found
 
--8                                             New rank is greater than total number of items already in the list
-
-ret_objid                                Output                   Returns the objid of the \[newly created\] service location
+-8                                             New rank is greater than total number of items already in the list |
+| ret_objid | Output | Returns the objid of the \[newly created\] service location
 
 **Examples**
 

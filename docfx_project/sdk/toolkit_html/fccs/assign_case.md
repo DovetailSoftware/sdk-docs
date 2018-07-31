@@ -13,25 +13,15 @@ Public Function assign_case(ByVal case_id As String, _
 This API cause the specified case to be assigned to a new user. The case must be in the Open condition, and the user assigning the case does not have to be the owner of the case. In base Clarify, the assigner of a case  must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the case in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         The case ID to be assigned
-
-new_user                               No                           The user who the case is assigned to. If left blank, the case is
-
-assigned to the current user
-
-wipbin_name                        No                           The WIPBin to place the case in (for the user who is assigned the
-
-case). If left blank, the case is placed in the user's default WIPBin
-
-assign_date                          No                           When was the case assigned. If this parameter is left blank, the case is assigned at the current time
-
-user_name                             No                           The user who assigned the case If left blank, the current user performs
-
-the assign
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | The case ID to be assigned |
+| new_user | No | The user who the case is assigned to. If left blank, the case is assigned to the current user |
+| wipbin_name | No | The WIPBin to place the case in (for the user who is assigned the case). If left blank, the case is placed in the user's default WIPBin |
+| assign_date | No | When was the case assigned. If this parameter is left blank, the case is assigned at the current time |
+| user_name | No | The user who assigned the case If left blank, the current user performs the assign |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

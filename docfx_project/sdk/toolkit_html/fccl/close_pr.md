@@ -11,21 +11,14 @@ Public Function close_pr(ByVal pr_id As String, _
 This API causes the specified part request to be closed. This is a transition to condition closed, and the API will validate that the user has the authority to close the part request. The API also allows the user who performed the close and the date/time of the close to be set. In addition, the status of the part request (in closed condition) can be specified. The API can also generate a time bomb (for business rule notification). If this is the last part request detail that was open for the part request header, the header is also closed.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-pr_id                                       Yes                         The part request to close
-
-new_status                           No                           The (closed condition) status of the part request. If blank, the default close
-
-condition status is used
-
-close_date                             No                           When was the part request closed. If this parameter is left blank, it is closed at the current time
-
-user_name                             No                           The user who closed the part request. If left blank, the current user
-
-performs the close
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| pr_id | Yes | The part request to close |
+| new_status | No | The (closed condition) status of the part request. If blank, the default close condition status is used |
+| close_date | No | When was the part request closed. If this parameter is left blank, it is closed at the current time |
+| user_name | No | The user who closed the part request. If left blank, the current user performs the close |
+| gen_time_bombs | Yes | Should a time_bomb be generated |
 
 **Returns**
 

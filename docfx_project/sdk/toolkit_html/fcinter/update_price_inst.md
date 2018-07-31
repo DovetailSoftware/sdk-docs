@@ -14,21 +14,16 @@ Public Function update_price_inst(ByVal part_num As String, _
 This API updates a price for an existing price instance. You must supply the part, revision, price program and quantity. Also, you must supply a date (any date) that occurs in the price instance. If that price instance is found, the price for it will be updated.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-part_num                               Yes                         Part number to update price
-
-domain                                   Yes                         Domain of the part
-
-mod_level                              Yes                         Revision to update price
-
-price_prog                             Yes                         Name of the price program for the price
-
-priced_qty                             Yes                         How many units in the price instance to be updated. Usually, this is = 1
-
-price                                       Yes                         What is the new price of the part?
-
-the_date                                                Yes                         Date in the price range. Any date in the price instance range can be used
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| part_num | Yes | Part number to update price |
+| domain | Yes | Domain of the part |
+| mod_level | Yes | Revision to update price |
+| price_prog | Yes | Name of the price program for the price |
+| priced_qty | Yes | How many units in the price instance to be updated. Usually, this is = 1 |
+| price | Yes | What is the new price of the part? |
+| the_date | Yes | Date in the price range. Any date in the price instance range can be used |
 
 **Returns**
 

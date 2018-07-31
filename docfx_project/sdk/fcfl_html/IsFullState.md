@@ -18,11 +18,11 @@ This method returns a boolean indicating if the given state is valid for the giv
 Note: The state name used should be the full name ("Texas"), not the short name ("TX")
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-Country                                 Yes                         Name of country.
-
-State                                       Yes                         Name of state to be validated.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| Country | Yes | Name of country. |
+| State | Yes | Name of state to be validated. |
 
 **Returns**
 
@@ -46,9 +46,7 @@ The code in this example is written in JavaScript for inclusion in ASP pages.
 
 var country = Request.Form("country").Item;
 
-var state = Request.Form("state").Item;
-
-if (FCApp.IsFullState(country,state)
+var state = Request.Form("state").Item; If (FCApp.IsFullState(country,state)
 
 {
 

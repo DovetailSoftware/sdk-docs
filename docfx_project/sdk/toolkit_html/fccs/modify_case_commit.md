@@ -99,53 +99,28 @@ Public Function modify_subcase_commit_list(ByVal id_num As String, _
 These APIs are used to modify a commitment against a case or subcase. The APIs allow for the assigning of a title and action type. The date the commitment is logged can be set, as well as the commitment date, and prior warning. A flag can be set so that the commitment can be made to or by a contact, and the contact can be set. The user who logs the commitment can be set, and additional fields can also be set. Finally, a time bomb (for the commitment) can be generated.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-id_num                                   Yes                         The ID number of the case or subcase to modify a commitment for
-
-the_title                                 No                           The title of the commitment
-
-action_type                           No                           The commitment log action type code value
-
-commit_date                         No                           When the commitment is due. If left blank, set to the log date
-
-commit_objid                        Yes                         The objid of the commitment to be modified
-
-prior_warn                             No                           How long to warn the owner before the commitment expires. This is recorded in seconds (1 hour = 3600 seconds). If set to 0, no prior warning is given
-
-made_to                                 No                           Is the commitment to the contact (True), or by the contact (False)
-
-cont_first                               No                           First name of the contact
-
-cont_last                               No                           Last name of the contact
-
-cont_phone                          No                           Phone number of the contact
-
-note_str                                 No                           Additional text notes for the log
-
-mod_date                              No                           The date the commitment was modified. If left blank, the current date is used.
-
-user_name                             No                           The user who modified the commitment. If left blank, the current user ise used.
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules).
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    No                           List of additional field names to write. List must be present, but does not need to have any items in the list
-
-type_list                                                No                           List of additional field data types to write. List must be present, but does not need to have any items in the list
-
-val_list                                   No                           List of additional field values to write. List must be present, but does not need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| id_num | Yes | The ID number of the case or subcase to modify a commitment for |
+| the_title | No | The title of the commitment |
+| action_type | No | The commitment log action type code value |
+| commit_date | No | When the commitment is due. If left blank, set to the log date |
+| commit_objid | Yes | The objid of the commitment to be modified |
+| prior_warn | No | How long to warn the owner before the commitment expires. This is recorded in seconds (1 hour = 3600 seconds). If set to 0, no prior warning is given |
+| made_to | No | Is the commitment to the contact (True), or by the contact (False) |
+| cont_first | No | First name of the contact |
+| cont_last | No | Last name of the contact |
+| cont_phone | No | Phone number of the contact |
+| note_str | No | Additional text notes for the log |
+| mod_date | No | The date the commitment was modified. If left blank, the current date is used. |
+| user_name | No | The user who modified the commitment. If left blank, the current user ise used. |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules). |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | No | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | No | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | No | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 

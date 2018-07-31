@@ -24,47 +24,20 @@ This API either creates or updates a queue in the database.  If the supplied qu
 For updates, a new title can be specified. An updated description can be provided, and you can decide to turn on or off the allow fields. You can also change the queue supervisor.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-title                                         Yes                         Title of the queue. For creates, it is a unique name. For updates, it is the
-
-name of the queue to update
-
-personal                                 Yes                         Is this a personal queue (True), or shared (False)
-
-description                            No                           The description of the queue. For updates, if you leave it blank (""), no
-
-change will be made. If you want to clear the description (for updates), use the string "CLEAR".
-
-allow_bug                             Yes                         Should the queue allow dispatches of each of these objects. Values are "1"
-
-allow_case                                                            (Yes), or "0" (No). For updates, if you set this to "-1", the previous value is
-
-allow_contract                                                      retained.
-
-allow_dialogue
-
-allow_demand_dtl
-
-allow_job
-
-allow_opp
-
-allow_probdesc
-
-allow_subcase
-
-allow_task
-
-supervisor                             No                           Supervisor of the queue. If blank, the current user is used
-
-new_title                                No                           For updates only. If you wish to change the name of the queue, it is supplied
-
-in this argument
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| title | Yes | Title of the queue. For creates, it is a unique name. For updates, it is the name of the queue to update |
+| personal | Yes | Is this a personal queue (True), or shared (False) |
+| description | No | The description of the queue. For updates, if you leave it blank (""), no change will be made. If you want to clear the description (for updates), use the string "CLEAR". |
+| allow_bug | Yes | Should the queue allow dispatches of each of these objects. Values are "1" |
+| allow_case<br>allow_contract<br>allow_dialogue<br>allow_demand_dtl<br>allow_job<br>allow_opp<br>allow_probdesc<br>allow_subcase<br>allow_task | (Yes), or "0" (No). For updates, if you set this to "-1", the previous value is retained. |
+| supervisor | No | Supervisor of the queue. If blank, the current user is used |
+| new_title | No | For updates only. If you wish to change the name of the queue, it is supplied in this argument |
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value | Meaning | **
 
 0                                              No errors
 
@@ -72,9 +45,8 @@ in this argument
 
 -2                                             Cannot find the user name supplied
 
--3                                             The new title is already used for another queue
-
-ret_objid                                Output                   Returns the objid of the queue
+-3                                             The new title is already used for another queue |
+| ret_objid | Output | Returns the objid of the queue
 
 **Examples**
 

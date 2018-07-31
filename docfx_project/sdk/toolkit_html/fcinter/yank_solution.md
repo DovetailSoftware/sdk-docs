@@ -12,27 +12,18 @@ Public Function yank_solution(ByVal solution_id As String, _
 This API causes the specified solution to be yanked and placed in a specific WIPBin. The person perfoming the yank (the new owner) and the time of the yank can be specified. Also, the API allows for time bombs (for business rules) to be created, or not.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-solution_id                            Yes                         The solution  to yank
-
-wipbin                                    No                           The WIPBin in which to place the solution. If left blank,
-
-                                                                                it is yanked to the default WIPBin
-
-yank_date                             No                           The date/time to yank the solution. If left blank, the current date/time is
-
-used
-
-user_name                             No                           Who performed the yank? If left blank, current user is used
-
-gen_time_bombs                 Yes                         Should a time bomb record be created for business rule notification?
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| solution_id | Yes | The solution  to yank |
+| wipbin | No | The WIPBin in which to place the solution. If left blank, it is yanked to the default WIPBin |
+| yank_date | No | The date/time to yank the solution. If left blank, the current date/time is used |
+| user_name | No | Who performed the yank? If left blank, current user is used |
+| gen_time_bombs | Yes | Should a time bomb record be created for business rule notification? |
 
 **Returns**
 
-**Value**                **Meaning**
-
- 0                                             No errors
+**Value**                **Meaning** | 0 | No errors
 
 -1                                             Cannot find the specified solution
 

@@ -14,25 +14,16 @@ Public Function modify_product_bin(ByVal bin_objid As Long, _
 This API allows you to modify an existing product bin. You may change the bin name and the description. You may also set or clear out the primary and backup support employee. Finally you may specify who modified the product bin, and when.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-bin_objid                               Yes                         Objid of the bin to modify
-
-bin_name                               No                           New name of the bin. If no change is to be made, set the bin_name to ""
-
-description                            No                           New description of the bin. If no change is to be made, use "". If you wish to clear out the description, set this argument to "CLEAR"
-
-prim_supp                             No                          Objid of the primary support employee. If you do not wish to change this value, use 0. If you wish to clear out the primary support employee, set this argument to
-
--1.
-
-sec_supp                               No                          Objid of the secondary support employee. If you do not wish to change this value, use 0. If you wish to clear out the primary support employee, set this argument to
-
--1.
-
-user_name                             No                           Name of the user who modified the bin. If blank, the current user is used
-
-modify_date                          No                           When was the bin modified. If blank, the current date/time is used
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| bin_objid | Yes | Objid of the bin to modify |
+| bin_name | No | New name of the bin. If no change is to be made, set the bin_name to "" |
+| description | No | New description of the bin. If no change is to be made, use "". If you wish to clear out the description, set this argument to "CLEAR" |
+| prim_supp | No | Objid of the primary support employee. If you do not wish to change this value, use 0. If you wish to clear out the primary support employee, set this argument to -1. |
+| sec_supp | No | Objid of the secondary support employee. If you do not wish to change this value, use 0. If you wish to clear out the primary support employee, set this argument to -1. |
+| user_name | No | Name of the user who modified the bin. If blank, the current user is used |
+| modify_date | No | When was the bin modified. If blank, the current date/time is used |
 
 **Returns**
 

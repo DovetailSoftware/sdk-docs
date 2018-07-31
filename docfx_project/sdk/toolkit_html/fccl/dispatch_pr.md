@@ -11,19 +11,14 @@ Public Function dispatch_pr(ByVal pr_id As String, _
 This API causes the specified part request to be dispatched to the specified queue. The part request must be in open condition, and not currently dispatched to a queue. The API allows for the setting of the dispatch date, and the user who dispatched the part request. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-pr_id                                       Yes                         The part request to dispatch
-
-queue_name                         Yes                         The queue to dispatch to
-
-disp_date                              No                           When was the part request dispatched. If this parameter is left blank, the PR is dispatched at the current time
-
-user_name                             No                           The user who dispatched the part request. If left blank, the current user
-
-performs the dispatch.
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| pr_id | Yes | The part request to dispatch |
+| queue_name | Yes | The queue to dispatch to |
+| disp_date | No | When was the part request dispatched. If this parameter is left blank, the PR is dispatched at the current time |
+| user_name | No | The user who dispatched the part request. If left blank, the current user performs the dispatch. |
+| gen_time_bombs | Yes | Should a time_bomb be generated |
 
 **Returns**
 

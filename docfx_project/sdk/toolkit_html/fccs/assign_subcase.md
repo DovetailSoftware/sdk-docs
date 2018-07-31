@@ -13,25 +13,15 @@ Public Function assign_subcase(ByVal subcase_id As String, _
 This API cause the specified subcase to be assigned to a new user. The subcase must be in the Open condition, and the user assigning the subcase does not have to be the owner of the subcase. In base Clarify, the assigner of a subcase  must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the subcase in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-subcase_id                            Yes                         The subcase ID to be assigned
-
-new_user                               No                           The user who the subcase is assigned to. If left blank, the subcase is
-
-assigned to the current user
-
-wipbin_name                        No                           The WIPBin to place the subcase in (for the user who is assigned the
-
-subcase). If left blank, the subcase is placed in the user's default WIPBin
-
-assign_date                          No                           When was the subcase assigned. If this parameter is left blank, the subcase is assigned at the current time
-
-user_name                             No                           The user who assigned the subcase If left blank, the current user performs
-
-the assign
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| subcase_id | Yes | The subcase ID to be assigned |
+| new_user | No | The user who the subcase is assigned to. If left blank, the subcase is assigned to the current user |
+| wipbin_name | No | The WIPBin to place the subcase in (for the user who is assigned the subcase). If left blank, the subcase is placed in the user's default WIPBin |
+| assign_date | No | When was the subcase assigned. If this parameter is left blank, the subcase is assigned at the current time |
+| user_name | No | The user who assigned the subcase If left blank, the current user performs the assign |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

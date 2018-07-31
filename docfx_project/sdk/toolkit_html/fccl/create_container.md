@@ -10,15 +10,13 @@ Public Function create_container(ByVal cont_name As String, _
 This API creates a new container object. It will be installed at the specified location, either in the bin provided, or under the container specified.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cont_name                            Yes                         Name of the container to create
-
-the_loc                                   No                           Location to create at (if under a bin)
-
-bin_name                               No                           Bin to create the container in
-
-parent_cont                          No                           Parent container name
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cont_name | Yes | Name of the container to create |
+| the_loc | No | Location to create at (if under a bin) |
+| bin_name | No | Bin to create the container in |
+| parent_cont | No | Parent container name |
 
 **Returns**
 
@@ -36,9 +34,8 @@ parent_cont                          No        
 
 -5                                             Cannot find the specified inventory location
 
--6                                             Cannot find the specified bin
-
-ret_objid                                Output                   Returns the objid of the newly created container
+-6                                             Cannot find the specified bin |
+| ret_objid | Output | Returns the objid of the newly created container
 
 **Examples**
 

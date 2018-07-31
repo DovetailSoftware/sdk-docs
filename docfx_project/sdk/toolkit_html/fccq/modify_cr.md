@@ -60,65 +60,32 @@ Public Function modify_cr_list(ByVal cr_num As String, _
 These APIs are used to modify existing CRs. All of the primary fields of the CR can be set. If they are left blank, then the value in the CR is not changed. The modifier and the time of modification may be specified, and you may specify additional fields for the modify_cr object. You may also have a modify time bomb generated (for business rule notifications).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_num                                   Yes                         The CR to modify
-
-part_num                               No                           Part number of part for change request
-
-mod_level                              No                           Revision of part for change request
-
-domain                                   No                           Domain of the part for the change request
-
-the_title                                 No                           Title of the change request
-
-cr_type                                  No                           A code list value from list CR TYPE
-
-priority                                   No                           A code list value from list CR PRIORITY
-
-frequency                              No                           A code list value from list CR REPRODUCIBLE
-
-found_on                              No                           Level 1 of the list CR_DESC
-
-os                                            No                           Level 2 of the list CR_DESC. If no sublist is described for this item, you
-
-may specify "" for no list entry
-
-memory                                  No                           Level 3 of the list CR_DESC. If no sublist is described for this item, you
-
-may specify "" for no list entry
-
-cr_class                                 No                           A code list value from list CR_CLASS
-
-intro_phase                           No                           A code list value from list CR DOMAIN
-
-test_class                              No                           A code list value from list CR CLASS
-
-fixed_in                                  No                           A code list value from list FIX RELEASE
-
-user_name                             No                           The user who modified the change request. If left blank, the current user is used
-
-cr_date                                   No                           The date the CR was modified. If blank, the current date/time is used
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
-
-int_fld1, int_fld2                   No                           Names of additional fields to write.  Must use "" if not using
-
-str_fld1, str_fld2                                                   these parameters
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. Must use "" (string) or 0 (long)
-
-str_val1, str_val2                                                 if not using these parameters
-
-date_val1
-
-fld_list                                    No                           List of additional field names to write
-
-type_list                                                No                           List of additional field data types to write
-
-val_list                                   No                           List of additional field values to write
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_num | Yes | The CR to modify |
+| part_num | No | Part number of part for change request |
+| mod_level | No | Revision of part for change request |
+| domain | No | Domain of the part for the change request |
+| the_title | No | Title of the change request |
+| cr_type | No | A code list value from list CR TYPE |
+| priority | No | A code list value from list CR PRIORITY |
+| frequency | No | A code list value from list CR REPRODUCIBLE |
+| found_on | No | Level 1 of the list CR_DESC |
+| os | No | Level 2 of the list CR_DESC. If no sublist is described for this item, you may specify "" for no list entry |
+| memory | No | Level 3 of the list CR_DESC. If no sublist is described for this item, you may specify "" for no list entry |
+| cr_class | No | A code list value from list CR_CLASS |
+| intro_phase | No | A code list value from list CR DOMAIN |
+| test_class | No | A code list value from list CR CLASS |
+| fixed_in | No | A code list value from list FIX RELEASE |
+| user_name | No | The user who modified the change request. If left blank, the current user is used |
+| cr_date | No | The date the CR was modified. If blank, the current date/time is used |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 

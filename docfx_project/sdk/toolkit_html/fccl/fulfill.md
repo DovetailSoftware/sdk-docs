@@ -28,62 +28,39 @@ Public Function fulfill_no_trans(ByVal dtl_num As String, _
 
 **Description**
 
-This API allows for the _fulfilling_ of inventory parts for a part request. The API allow for either the _fulfilling_ of the parts, or the _backordering_ of the parts, whichever is appropriate. The quantity to be fulfilled, as well as the user and date/time of the fulfill can be supplied. A status can be supplied (for the proper condition, Fulfilled or Backordered).
-
-If the operation is a fulfill, the from and to locations (and bins) are specified. These can be locations or expense GL accounts as necessary. All of the proper validations against inventory will be performed. Just as in normal Clarify, if a partial fulfill is performed, the part request is broken up into two new part requests. The first is for the fulfill (and the quantities are changed). The new part request will be created to hold the rest of the units that did not get fulfilled.
+This API allows for the _fulfilling_ of inventory parts for a part request. The API allow for either the _fulfilling_ of the parts, or the _backordering_ of the parts, whichever is appropriate. The quantity to be fulfilled, as well as the user and date/time of the fulfill can be supplied. A status can be supplied (for the proper condition, Fulfilled or Backordered). If the operation is a fulfill, the from and to locations (and bins) are specified. These can be locations or expense GL accounts as necessary. All of the proper validations against inventory will be performed. Just as in normal Clarify, if a partial fulfill is performed, the part request is broken up into two new part requests. The first is for the fulfill (and the quantities are changed). The new part request will be created to hold the rest of the units that did not get fulfilled.
 
 The API support _containers_. If you are transferring into or out of a container, put the container name in the bin name field, and the container number in the cont_num field. If you are not using containers, leave the container number fields blank.
 
-The API supports a _primary bin recommendataion_. If you have set up a primary bin recommendation, you can set the bin name to: PRIM_BIN_REC, and the API will fill in the proper bin.
+The API supports a _primary bin recommendataion_. If you have set up a primary bin recommendation, you can set the bin name to: PRIM_BIN_REC, and the API will fill in the proper bin. If a partial fulfilled is performed, then a new part request will be created for the unfulfilled items. The objid of the newly created part request detail will be in the ret_objid property. The id number of the newly created part request detail will be in the ret_id_num property.
 
-If a partial fulfilled is performed, then a new part request will be created for the unfulfilled items. The objid of the newly created part request detail will be in the ret_objid property. The id number of the newly created part request detail will be in the ret_id_num property.
-
-The "no_trans" version of the API performs exactly the same work as the other version of the API. The only difference is that this version of the API does not check the logistics transitions, and does not change the condition/status of the part request detail. This allows for multiple calls to the API to be performed. In addition, when calling the no_trans version, a partial fulfill will not create new part requests for the rest of the units that did not get fulfilled. As an example, if you wish to fulfill 10 serialized parts on one part request, you can call fulfill_no_trans 9 times, then finally call the fulfill API once.
-
-If the operation is backordering, the expected date of arrival should be supplied.
+The "no_trans" version of the API performs exactly the same work as the other version of the API. The only difference is that this version of the API does not check the logistics transitions, and does not change the condition/status of the part request detail. This allows for multiple calls to the API to be performed. In addition, when calling the no_trans version, a partial fulfill will not create new part requests for the rest of the units that did not get fulfilled. As an example, if you wish to fulfill 10 serialized parts on one part request, you can call fulfill_no_trans 9 times, then finally call the fulfill API once. If the operation is backordering, the expected date of arrival should be supplied.
 
 The fulfill API will work with either quantity or serialized parts, based on the part number/site_part of the part request. The serial number will be taken from the part request, unless the optional serial number is specified. Then that serial number will be used.
 
 The fulfill API will also validate that the part request can be transitioned (for the specified user) to the proper new condition.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-dtl_num                                 Yes                         The part request to fulfill against
-
-is_fulfill                                  Yes                         If this = True, it is a fulfill operation. If = False, it is a backorder
-
-quantity_num                       Yes                         How many units to fulfill/backorder
-
-from_loc                                No                           The inventory location to fulfill from
-
-from_bin                                No                           The inventory bin to fulfill from. If from a container, put the container name in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field
-
-from_cont                              No                           If transferring from a container, put the container number in this field
-
-from_good                            No                           Is the inventory fulfilled from good (= True) or bad ( = False)
-
-to_loc                                     No                           The inventory location to fulfill to
-
-to_bin                                    No                           The inventory bin to fulfill to. If to a container, put the container name in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field
-
-to_cont                                  No                           If transferring to a container, put the container number in this field
-
-to_good                                 No                           Is the inventory fulfilled to good (= True) or bad ( = False)
-
-serial_num                             No                           Optional serial number. If specified, it will be used. Otherwise, the serial number is taken from the part request. If you want to specify multiple serialized parts to fulfill at one time, separate the serial numbers with a pipe character
-
-new_status                           No                           The new status of the part request. If blank, default status of the new condition (Fulfilled or Backordered) will be used
-
-expected_date                      No                           For backorders, when is the inventory expected?
-
-user_name                             No                           The user who fulfilled the part request. If left blank, the current user
-
-performs the fulfill.
-
-fulfill_date                             No                           When was the part request fulfilled. If this parameter is left blank, the PR is fulfilled at the current time
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| dtl_num | Yes | The part request to fulfill against |
+| is_fulfill | Yes | If this = True, it is a fulfill operation. If = False, it is a backorder |
+| quantity_num | Yes | How many units to fulfill/backorder |
+| from_loc | No | The inventory location to fulfill from |
+| from_bin | No | The inventory bin to fulfill from. If from a container, put the container name in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field |
+| from_cont | No | If transferring from a container, put the container number in this field |
+| from_good | No | Is the inventory fulfilled from good (= True) or bad ( = False) |
+| to_loc | No | The inventory location to fulfill to |
+| to_bin | No | The inventory bin to fulfill to. If to a container, put the container name in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field |
+| to_cont | No | If transferring to a container, put the container number in this field |
+| to_good | No | Is the inventory fulfilled to good (= True) or bad ( = False) |
+| serial_num | No | Optional serial number. If specified, it will be used. Otherwise, the serial number is taken from the part request. If you want to specify multiple serialized parts to fulfill at one time, separate the serial numbers with a pipe character |
+| new_status | No | The new status of the part request. If blank, default status of the new condition (Fulfilled or Backordered) will be used |
+| expected_date | No | For backorders, when is the inventory expected? |
+| user_name | No | The user who fulfilled the part request. If left blank, the current user performs the fulfill. |
+| fulfill_date | No | When was the part request fulfilled. If this parameter is left blank, the PR is fulfilled at the current time |
+| gen_time_bombs | Yes | Should a time_bomb be generated |
 
 **Returns**
 

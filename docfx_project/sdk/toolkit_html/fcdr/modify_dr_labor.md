@@ -18,29 +18,19 @@ Public Function modify_dr_labor(ByVal time_log_objid As Long, _
 This API allows modification of labor that is logged against a depot repair part.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-time_log_objid                     Yes                         Object ID of specified time log.
-
-labor_type                             No                           Labor type for this Depot Repair change.
-
-start_time                              No                           Time and date at which labor began.
-
-duration                                                 No                           Length of time required to do the work, in seconds.
-
-billable                                   No                           Indicates whether labor is billable.
-
-bill_to                                     No                           Indicates who is billed for the labor.
-
-wrk_center                            No                           Indicates where labor was perfromed.
-
-tl_rate                                     No                           This is the labor rate for the performing employee.
-
-perf_by                                  No                           Indicates the technician who performed the labor.
-
-creation_time                        No                           Indicates the time this action is logged. Will default to the current time if a
-
-different time is not supplied.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| time_log_objid | Yes | Object ID of specified time log. |
+| labor_type | No | Labor type for this Depot Repair change. |
+| start_time | No | Time and date at which labor began. |
+| duration | No | Length of time required to do the work, in seconds. |
+| billable | No | Indicates whether labor is billable. |
+| bill_to | No | Indicates who is billed for the labor. |
+| wrk_center | No | Indicates where labor was perfromed. |
+| tl_rate | No | This is the labor rate for the performing employee. |
+| perf_by | No | Indicates the technician who performed the labor. |
+| creation_time | No | Indicates the time this action is logged. Will default to the current time if a different time is not supplied. |
 
 **Returns**
 

@@ -11,25 +11,21 @@ Public Function change_pr_status(ByVal pr_id As String, _
 This API causes the specified part request to have a status change from one status to another status - always in the same condition. To change the condition of the part request, use one of the supplied APIs such as _receive_ or _pick_. You may specify a new status (or blank for the default status), some notes for the change, the user who performed the status change, and when the status change occurred. Also, the API allows for time bombs (for business rules) to be created.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-pr_id                                       Yes                         The part request to reject
-
-new_status                           No                           The new status. If blank, the default status for the condition is used
-
-change_date                         No                           When did the status change occur. If left blank, current time is used
-
-note_str                                 No                           Notes about the status change
-
-user_name                             No                           Who performed the status change? If left blank, current user is used
-
-gen_time_bombs                 Yes                         Should a time bomb record be created for business rule notification?
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| pr_id | Yes | The part request to reject |
+| new_status | No | The new status. If blank, the default status for the condition is used |
+| change_date | No | When did the status change occur. If left blank, current time is used |
+| note_str | No | Notes about the status change |
+| user_name | No | Who performed the status change? If left blank, current user is used |
+| gen_time_bombs | Yes | Should a time bomb record be created for business rule notification? |
 
 **Returns**
 
 **Value**                **Meaning**
 
- 0                                             No errors
+0                                      No errors
 
 -1                                             Cannot find the specified part request
 

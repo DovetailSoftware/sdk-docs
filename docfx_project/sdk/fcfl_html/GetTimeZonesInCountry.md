@@ -20,9 +20,10 @@ This method returns a recordset containing the list time_zone records for the gi
 When finished with the returned recordset, you should close the recordset using the .Close method and then set your variable to Nothing or Null. This will release the resources needed for this object.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-Country                                 Yes                         Country Name
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| Country | Yes | Country Name |
 
 **Returns**
 
@@ -54,9 +55,7 @@ Dim TZList As ADODB.Recordset
 
 Set TZList = FCApp.GetTimeZonesInCountry(TheCountry)
 
-FirstTZ = ""
-
-If Not TZList.EOF Then
+FirstTZ = "" If Not TZList.EOF Then
 
   FirstTZ = TZList("full_name")
 
@@ -82,9 +81,7 @@ TZList = Nothing
 
                           'Else, set the first time zone to be selected
 
-defTZ = FCApp.GetDefaultTimeZone
-
-If FCApp.IsTimeZoneInCountry(TheCountry, defTZ, True) Then
+defTZ = FCApp.GetDefaultTimeZone If FCApp.IsTimeZoneInCountry(TheCountry, defTZ, True) Then
 
   ddl_timezone.Text = defTZ
 

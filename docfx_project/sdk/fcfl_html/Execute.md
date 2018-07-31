@@ -24,9 +24,10 @@ SqlDB.Execute(sql);
 The SQL provided must be valid SQL for the database system you connect to.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-SqlStr                                     Yes                         The SQL statement to execute
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| SqlStr | Yes | The SQL statement to execute |
 
 **Example**
 
@@ -84,12 +85,7 @@ The code in this example is written in Visual Basic.
 
     MsgBox sql_db.records("out_col")
 
-    sql_db.records.MoveNext
-
-t
-
-  Wend
-
-  sql_db.Execute "insert into foo values (44)"
+    sql_db.records.MoveNext |
+| t | Wend | sql_db.Execute "insert into foo values (44)"
 
   sql_db.CloseConnection

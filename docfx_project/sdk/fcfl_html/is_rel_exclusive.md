@@ -20,19 +20,13 @@ Public Function is_rel_exclusive(tbl_num As Long, rel_name As String, _
 This method determines if the specified relation is an exclusive relation (or not) for the specified table. If it is, the final two arguments are filled in with the names of the table and objid fields that are used to perform the exclusive relation functionality.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-tbl_num                                 Yes                         Number of the table (e.g. case=0)
-
-rel_name                                Yes                         Name of the relation
-
-tbl_fld                                    Yes                         Contains the name of the field used to store the table number
-
-                                                                                for the related table
-
-objid_fld                                Yes                         Contains the name of the field used to store the objid for the
-
-relation
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| tbl_num | Yes | Number of the table (e.g. case=0) |
+| rel_name | Yes | Name of the relation |
+| tbl_fld | Yes | Contains the name of the field used to store the table number for the related table |
+| objid_fld | Yes | Contains the name of the field used to store the objid for the relation |
 
 **Returns**
 
@@ -60,10 +54,6 @@ The code in this example is written in Visual Basic.
 
      Debug.Print "It is exclusive. The table field is '" & tbl_fld & _
 
-       "' and the objid field is '" & objid_fld & "'"
-
-  Else
-
-     Debug.Print "Is it not an exclusive relation."
+       "' and the objid field is '" & objid_fld & "'" | Else | Debug.Print "Is it not an exclusive relation."
 
   End If

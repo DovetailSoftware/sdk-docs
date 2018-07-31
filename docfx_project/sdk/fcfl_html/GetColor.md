@@ -24,13 +24,14 @@ The color returned will be one of three values:
  If no default has been specified for that purpose, "White" will be returned
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-purpose                                 Yes                         The purpose that this color is used for
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| purpose | Yes | The purpose that this color is used for |
 
 **Returns**
 
-One of the three string values listed above.
+One of the three string values listed above. |
 
 **Example**
 

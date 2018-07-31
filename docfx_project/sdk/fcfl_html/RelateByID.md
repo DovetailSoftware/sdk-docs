@@ -18,11 +18,11 @@ This method relates the _current_ row of the generic object to the specified obj
 You must update the object via the Update or UpdateAll method for the relation to take place.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-the_objid                               Yes                         The objid of the object to relate to
-
-the_rel                                    Yes                         The relation to use to relate the two records
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| the_objid | Yes | The objid of the object to relate to |
+| the_rel | Yes | The relation to use to relate the two records |
 
 **Error Codes**
 

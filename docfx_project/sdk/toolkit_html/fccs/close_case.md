@@ -59,51 +59,23 @@ In almost **_all_** cases, this argument is left blank.
 * 12) Captured billable expenses (case time logs only)
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         The case to close
-
-the_status                             No                           The closed condition status for the case. If left blank, the default status
-
-                                                                                for closed condition is used
-
-resolution                              No                           The resolution code for the close. If left blank, the default code is used
-
-summary                                No                           An optional text string with information about the closure
-
-user_name                             No                           The user who closed the case. If left blank, the current user performs
-
-the close
-
-close_date                             No                           The date/time of the close. If left blank, the current time is used
-
-units_used                            No                           The number of units to charge against the contract for the case. If the
-
-                                                                                case has no contract, this field must be 0
-
-close_sums                           No                           Sums already determined for the close_case record (see above). If blank,
-
-the summation times are calculated by this API
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules).
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    No                           List of additional field names to write.
-
-type_list                                                No                           List of additional field data types to write
-
-val_list                                   No                           List of additional field values to write.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | The case to close |
+| the_status | No | The closed condition status for the case. If left blank, the default status for closed condition is used |
+| resolution | No | The resolution code for the close. If left blank, the default code is used |
+| summary | No | An optional text string with information about the closure |
+| user_name | No | The user who closed the case. If left blank, the current user performs the close |
+| close_date | No | The date/time of the close. If left blank, the current time is used |
+| units_used | No | The number of units to charge against the contract for the case. If the case has no contract, this field must be 0 |
+| close_sums | No | Sums already determined for the close_case record (see above). If blank, the summation times are calculated by this API |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules). |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | No | List of additional field names to write. |
+| type_list | No | List of additional field data types to write |
+| val_list | No | List of additional field values to write. |
 
 **Returns**
 

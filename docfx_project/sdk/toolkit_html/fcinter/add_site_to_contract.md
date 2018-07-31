@@ -9,11 +9,11 @@ Public Function add_site_to_contract(ByVal contract_id As String, _
 This API adds a site to an existing contract. You must specify the contract ID and the site id.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contract_id                            Yes                         ID of contract to add site to
-
-site_id                                    Yes                         ID of site to be added
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contract_id | Yes | ID of contract to add site to |
+| site_id | Yes | ID of site to be added |
 
 **Returns**
 
@@ -27,9 +27,8 @@ site_id                                    Ye
 
 -3                                             Specified Contract Not Found
 
--4                                             Specified Site Not Found
-
-ret_objid                                Output                   Returns the objid of the site
+-4                                             Specified Site Not Found |
+| ret_objid | Output | Returns the objid of the site
 
 **Examples**
 

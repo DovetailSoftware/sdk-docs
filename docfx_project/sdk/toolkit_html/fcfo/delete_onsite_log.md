@@ -10,15 +10,12 @@ Public Function delete_onsite_log(ByVal onsite_log_objid As Long, _
 This API deletes an existing onsite log. The onsite log OBJID must be supplied, and the user performing the delete and the time that the delete occurred can optionally be specified.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-onsite_log_objid                  Yes                         The OBJID of the onsite log to delete
-
-note_date                              No                           When is the log deleted? If left blank, it will be deleted at the current time
-
-user_name                             No                           The user who deleted the log. If left blank, the current user performs
-
-the delete
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| onsite_log_objid | Yes | The OBJID of the onsite log to delete |
+| note_date | No | When is the log deleted? If left blank, it will be deleted at the current time |
+| user_name | No | The user who deleted the log. If left blank, the current user performs the delete |
 
 **Returns**
 

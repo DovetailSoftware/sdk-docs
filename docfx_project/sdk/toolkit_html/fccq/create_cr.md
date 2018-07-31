@@ -57,67 +57,34 @@ These APIs are used to create new change requests. They require that the part nu
 If you specify a queue name, the CR will be initially dispatched to the queue. Otherwise, it will be located in the owner's WIPBin. You may also list who created the CR, and when it was created. You may specify additional fields for the CR object, and if a time bomb should be generated (for business rule notification). If you dispatch the CR, a second time bomb will be generated. If you add notes to the CR, another time bomb will be generated.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-part_num                               Yes                         Part number of part for change request
-
-mod_level                              Yes                         Revision of part for change request
-
-domain                                   Yes                         Domain of the part for the change request
-
-the_title                                 No                           Title of the change request
-
-status                                     No                           Initial status (in condition CR Open) of the change request. If blank, the default status is used 
-
-note_log                                                No                           Notes about the change request. If blank, no notes are logged
-
-cr_type                                  No                           A code list value from list CR TYPE. If blank, default value is used
-
-priority                                   No                           A code list value from list CR PRIORITY. If blank, default value is used
-
-frequency                              No                           A code list value from list CR REPRODUCIBLE. If blank, default value is used
-
-found_on                              No                           Level 1 of the list CR_DESC. If blank, default value is used
-
-os                                            No                           Level 2 of the list CR_DESC. If blank, default value is used
-
-memory                                  No                           Level 3 of the list CR_DESC. If blank, default value is used
-
-cr_class                                 No                           A code list value from list CR_CLASS. If blank, default value is used
-
-intro_phase                           No                           A code list value from list CR DOMAIN. If blank, default value is used
-
-test_class                              No                           A code list value from list CR CLASS. If blank, default value is used
-
-fixed_in                                  No                           A code list value from list FIX RELEASE. If blank, default value is used
-
-test                                         No                           Lists of tests for this CR
-
-queue_name                         No                           Queue to dispatch the CR to. If blank, no dispatch occurs
-
-user_name                             No                           The user who created the change request. If left blank, the current user is used
-
-cr_date                                   No                           The date the CR was created. If blank, the current date/time is used
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
-
-int_fld1, int_fld2                   No                           Names of additional fields to write.  Must use "" if not using
-
-str_fld1, str_fld2                                                   these parameters
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. Must use "" (string) or 0 (long)
-
-str_val1, str_val2                                                 if not using these parameters
-
-date_val1
-
-fld_list                                    No                           List of additional field names to write
-
-type_list                                                No                           List of additional field data types to write
-
-val_list                                   No                           List of additional field values to write
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| part_num | Yes | Part number of part for change request |
+| mod_level | Yes | Revision of part for change request |
+| domain | Yes | Domain of the part for the change request |
+| the_title | No | Title of the change request |
+| status | No | Initial status (in condition CR Open) of the change request. If blank, the default status is used | note_log | No                           Notes about the change request. If blank, no notes are logged |
+| cr_type | No | A code list value from list CR TYPE. If blank, default value is used |
+| priority | No | A code list value from list CR PRIORITY. If blank, default value is used |
+| frequency | No | A code list value from list CR REPRODUCIBLE. If blank, default value is used |
+| found_on | No | Level 1 of the list CR_DESC. If blank, default value is used |
+| os | No | Level 2 of the list CR_DESC. If blank, default value is used |
+| memory | No | Level 3 of the list CR_DESC. If blank, default value is used |
+| cr_class | No | A code list value from list CR_CLASS. If blank, default value is used |
+| intro_phase | No | A code list value from list CR DOMAIN. If blank, default value is used |
+| test_class | No | A code list value from list CR CLASS. If blank, default value is used |
+| fixed_in | No | A code list value from list FIX RELEASE. If blank, default value is used |
+| test | No | Lists of tests for this CR |
+| queue_name | No | Queue to dispatch the CR to. If blank, no dispatch occurs |
+| user_name | No | The user who created the change request. If left blank, the current user is used |
+| cr_date | No | The date the CR was created. If blank, the current date/time is used |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -159,11 +126,9 @@ val_list                                   No�
 
 -19                                           Cannot find the specified memory value
 
--20                                           Cannot find the specified user's employee record for relating time bomb
-
-ret_objid                                Output                   Returns the objid of the change request
-
-ret_id_num                            Output                   Returns the id of the change request
+-20                                           Cannot find the specified user's employee record for relating time bomb |
+| ret_objid | Output | Returns the objid of the change request |
+| ret_id_num | Output | Returns the id of the change request
 
 **Examples**
 

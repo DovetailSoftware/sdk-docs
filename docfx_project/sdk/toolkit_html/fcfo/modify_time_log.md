@@ -16,41 +16,21 @@ This API modifies an existing time log record in the Clarify database. You must 
 The time type is an optional code list value that may be specified. The user performing the logging may be specified as can the creation time. If you do not specify a value for one of the arguments, the value in the existing record is not updated.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-time_log_objid                     Yes                         The OBJID of the time log to modify
-
-creation_time                        No                           When is the log modified? If left blank, it will be modified at the current
-
-                                                                                time
-
-perf_by                                  No                           The user who modified the time log. If left blank, the current user
-
-performs the modify
-
-notes                                      No                           The updated notes for the onsite log
-
-user_name                             No                           The user who is recording the modification of the time log. If left blank, the
-
-current user records the modify
-
-time_type                              No                           Value from the TIME_TYPE code list
-
-start_time                              No                           When does the time log start? If you want to leave the original time,
-
-leave this field empty
-
-duration                                 No                           How long (in seconds) is the appointment?
-
-billable                                   No                           Indicates if this time is billable
-
-bill_to                                     No                           Indicates who this time log will be billed to, from the BILL_TO_TIME
-
-                                                                                list in Policies and Customers
-
-wrk_center                            No                           Value from the WORK_CENTER list where the time was spent
-
-resolution                              No                           Value from the RESOLUTION_CODE list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| time_log_objid | Yes | The OBJID of the time log to modify |
+| creation_time | No | When is the log modified? If left blank, it will be modified at the current time |
+| perf_by | No | The user who modified the time log. If left blank, the current user performs the modify |
+| notes | No | The updated notes for the onsite log |
+| user_name | No | The user who is recording the modification of the time log. If left blank, the current user records the modify |
+| time_type | No | Value from the TIME_TYPE code list |
+| start_time | No | When does the time log start? If you want to leave the original time, leave this field empty |
+| duration | No | How long (in seconds) is the appointment? |
+| billable | No | Indicates if this time is billable |
+| bill_to | No | Indicates who this time log will be billed to, from the BILL_TO_TIME list in Policies and Customers |
+| wrk_center | No | Value from the WORK_CENTER list where the time was spent |
+| resolution | No | Value from the RESOLUTION_CODE list |
 
 **Returns**
 

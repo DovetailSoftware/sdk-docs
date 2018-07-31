@@ -45,7 +45,7 @@ Public Function create_action_item_list(ByVal title As String, _
                                         ByVal the_type As String, _
                                         ByVal priority As String, _
                                         ByVal start_date As String, _
-                                   ByVal due_date As String, _
+                                        ByVal due_date As String, _
                                         ByVal complete_date As String, _
                                         ByVal status As String, _
                                         ByVal create_date As String, _
@@ -65,75 +65,32 @@ The task_id of the newly-created action item will be returned in _fcsfa.ret_id_n
   
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-title                                         No                           The title of the action item
-
-notes                                      No                           Notes about the action item
-
-first_name                             No                           First name of the related contact
-
-last_name                              No                           Last name of the related contact
-
-phone                                     No                           Phone number of the related contact
-
-acct_name                             No                           Name of the account to relate to the action item
-
-lead_first                               No                           First name of the related lead
-
-lead_last                                                No                           Last name of the related lead
-
-opp_id                                   No                           Opportunity related to the action item
-
-the_type                                                No                           Type of the action item (code list value). If empty, default
-
-value is used
-
-priority                                   No                           Priority for the action item. If empty, default value is used
-
-start_date                              No                           Start date for the action item. If empty, current date/time is
-
-used
-
-due_date                      No                           Required completion date of the task. If empty, one week after the start
-
-complete_date                      No                           End date for the action item. If empty, default value is used
-
-status                                     No                           Status for the action item. If empty, default status is used
-
-create_date                           No                           When was the action item created?  If empty, current date/time
-
-is used
-
-user_name                             No                           Who created the action item? If empty, current user is used
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules).
-
-                                                                                and prior warning time?
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if 
-
-str_val1, str_val2                                                 the corresponding field name field is filled with a valid field
-
-date_val1                                                               name
-
-fld_list                                    Yes                         List of additional field names to write. List must be present,
-
-but does not need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be
-
-present, but does not need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present,
-
-but does not need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| title | No | The title of the action item |
+| notes | No | Notes about the action item |
+| first_name | No | First name of the related contact |
+| last_name | No | Last name of the related contact |
+| phone | No | Phone number of the related contact |
+| acct_name | No | Name of the account to relate to the action item |
+| lead_first | No | First name of the related lead |
+| lead_last | No | Last name of the related lead |
+| opp_id | No | Opportunity related to the action item |
+| the_type | No | Type of the action item (code list value). If empty, default value is used |
+| priority | No | Priority for the action item. If empty, default value is used |
+| start_date | No | Start date for the action item. If empty, current date/time is used |
+| due_date | No | Required completion date of the task. If empty, one week after the start |
+| complete_date | No | End date for the action item. If empty, default value is used |
+| status | No | Status for the action item. If empty, default status is used |
+| create_date | No | When was the action item created?  If empty, current date/time is used |
+| user_name | No | Who created the action item? If empty, current user is used |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules). and prior warning time? |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -169,7 +126,7 @@ but does not need to have any items in the list
 
 **Field version:**
 
-**       JavaScript:**
+**JavaScript:**
 
 var ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill",
 
@@ -193,7 +150,7 @@ ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill", _
 
 **List version:**
 
-**       JavaScript:**
+**JavaScript:**
 
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 

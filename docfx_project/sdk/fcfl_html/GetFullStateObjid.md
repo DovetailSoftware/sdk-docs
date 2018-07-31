@@ -18,15 +18,15 @@ This method returns an objid for a given state in a given country. If the state 
 **Note**: The state name supplied should be the "long" name (such as "Texas").
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-Country                                 Yes                         Name of country.
-
-State                                       Yes                         Name of state to get the objid for.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| Country | Yes | Name of country. |
+| State | Yes | Name of state to get the objid for. |
 
 **Returns**
 
-The objid of the state. Zero, if the state or country is not found.
+The objid of the state. Zero, if the state or country is not found. |
 
 **Error Codes**
 
@@ -34,7 +34,7 @@ The objid of the state. Zero, if the state or country is not found.
 
 10011                                      Country must not be empty.
 
-10013                                      State must not be empty.
+10013                                      State must not be empty. |
 
 **Example**
 
@@ -48,9 +48,7 @@ var country = Request.Form("country").Item;
 
 var state = Request.Form("state").Item;
 
-var StateObjid = FCApp.GetFullStateObjid(country,state);
-
-if (StateObjid > 0)
+var StateObjid = FCApp.GetFullStateObjid(country,state); If (StateObjid > 0)
 
 {
 

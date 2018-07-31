@@ -16,9 +16,10 @@ Public Function FindFirstIndex(ByRef item As Variant) As Integer
 This method returns the index of the first item in the list that is equal to item.  Lists are zero based.  This means the index to the first item is 0, the second is 1, etc.  If the item is not found -1 is returned.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-item                                         Yes                         Item to locate in the list.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| item | Yes | Item to locate in the list. |
 
 **Returns**
 
@@ -26,7 +27,7 @@ item                                      
 
 -1                                             Item not found in list.
 
->= 0                                        Index of the item in the list.  Indexes in list are zero based.
+>= 0                                        Index of the item in the list.  Indexes in list are zero based. |
 
 **Example**
 
@@ -42,9 +43,7 @@ Dim where As Integer
 
 list.AppendItem 1, 2, 3, 4, 5, 6, 4, 8, 9
 
-where = list.FindFirstIndex(4)
-
-If where >= 0 Then
+where = list.FindFirstIndex(4) If where >= 0 Then
 
   MsgBox "Item is located at index " + CStr(where) ' should be at 3
 

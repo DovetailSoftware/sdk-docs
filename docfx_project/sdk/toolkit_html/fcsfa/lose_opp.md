@@ -23,25 +23,15 @@ There are three significant differences between this API, and the base Clarify f
 The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-opp_id                                   Yes                         The opportunity to mark as a loss
-
-new_status                           No                           New status of the opportunity. If blank, default status is used.
-
-the_note                                                No                           Optional note about the change
-
-user_name                             No                           The user who performed the change. If left blank, the current user performs
-
-the change. For business rules, it defaults to the user_name who is
-
-executing the cbbatch
-
-change_date                         No                           When was the opportunity changed. If this parameter is left blank, the object
-
-is changed at the current date/time
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| opp_id | Yes | The opportunity to mark as a loss |
+| new_status | No | New status of the opportunity. If blank, default status is used. |
+| the_note | No | Optional note about the change |
+| user_name | No | The user who performed the change. If left blank, the current user performs the change. For business rules, it defaults to the user_name who is executing the cbbatch |
+| change_date | No | When was the opportunity changed. If this parameter is left blank, the object is changed at the current date/time |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

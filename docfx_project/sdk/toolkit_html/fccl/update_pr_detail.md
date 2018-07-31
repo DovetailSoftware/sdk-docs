@@ -31,64 +31,32 @@ Public Function update_pr_detail_list(ByVal dtl_num As String, _
 
 **Description**
 
-These APIs allow for the updating of part request details. You must supply the detail number, and any other attributes you wish to update. If an attribute is left blank, the API will not update the value.
-
-If you modify the part/mod_level for the part request, or the site_part, you must supply either a valid site_part record, or you must supply the part_num, mod_leve, **AND** domain. You may optionally specify the serial_no field if it is a site_part (serialized).
+These APIs allow for the updating of part request details. You must supply the detail number, and any other attributes you wish to update. If an attribute is left blank, the API will not update the value. If you modify the part/mod_level for the part request, or the site_part, you must supply either a valid site_part record, or you must supply the part_num, mod_leve, **AND** domain. You may optionally specify the serial_no field if it is a site_part (serialized).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-dtl_num                                 Yes                         The part request to update
-
-part_num                               No                           Part number to update the part request to. If no new part/revision for part
-
-request, leave this field blank.
-
-mod_level                              No                           Revision to udpate the part request to. If no new part/revision for part
-
-request, leave this field blank.
-
-domain_name                       No                           Domain for the part number. If no new part/revision for part
-
-request, leave this field blank.
-
-serial_no                                No                           Serial number for the new site_part for the part request
-
-quantity_num                       Yes                         New quantity for the part request. Use 0 if no change in this field
-
-sp_objid                                                Yes                         Objid of new site_part for the part request (if known as a record). If no new
-
-                                                                                site_part record to set, use _0_ for this parameter
-
-dtl_type                                 No                           New type of the detail. If blank, no change is made
-
-priority_str                            No                           New priority of the detail. If blank, no change is made
-
-ship_via                                 No                           New ship_via of the detail. If blank, no change is made
-
-carrier_name                         No                           New carrier of the detail. If blank, no change is made
-
-warranty                                                No                           Indicator for part warranty information
-
-note_str                                 No                           New detail notes for the part request. If blank, no change is made. If this field
-
-                                                                                is set to "CLEAR", the notes will be cleared
-
-status_str                              No                           Initial PR detail status. If blank, default status of "RQST OPEN" used
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2, date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2, date_val1                              additional fields have assignments other than ""
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| dtl_num | Yes | The part request to update |
+| part_num | No | Part number to update the part request to. If no new part/revision for part request, leave this field blank. |
+| mod_level | No | Revision to udpate the part request to. If no new part/revision for part request, leave this field blank. |
+| domain_name | No | Domain for the part number. If no new part/revision for part request, leave this field blank. |
+| serial_no | No | Serial number for the new site_part for the part request |
+| quantity_num | Yes | New quantity for the part request. Use 0 if no change in this field |
+| sp_objid | Yes | Objid of new site_part for the part request (if known as a record). If no new site_part record to set, use _0_ for this parameter |
+| dtl_type | No | New type of the detail. If blank, no change is made |
+| priority_str | No | New priority of the detail. If blank, no change is made |
+| ship_via | No | New ship_via of the detail. If blank, no change is made |
+| carrier_name | No | New carrier of the detail. If blank, no change is made |
+| warranty | No | Indicator for part warranty information |
+| note_str | No | New detail notes for the part request. If blank, no change is made. If this field is set to "CLEAR", the notes will be cleared |
+| status_str | No | Initial PR detail status. If blank, default status of "RQST OPEN" used |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
 
 **Returns**
 
-**Value**                **Meaning**
-
- 0                                             No errors
+**Value**                **Meaning** | 0 | No errors
 
 -1                                             Specified quantity must be >= 0
 

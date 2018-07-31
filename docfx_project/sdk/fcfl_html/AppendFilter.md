@@ -44,77 +44,43 @@ Note that none of the above special processing takes place if you provide a time
 **Note**: If you have very complex logic (such as with "Or" conditions), you can use the Filter property instead, as this method simply builds up the value in the Filter property for you.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-field_name                             Yes                         Valid field name for the database object. If you wish, you may
-
-also specify a valid MTO or OTOP relation name
-
-operation                               Yes                         A string with a valid operation value. One of:
-
-1. ends with
-
-2. starts with
-
-3. contains
-
-4. not starts with
-
-5. not ends with
-
-6. not contains
-
-7. like
-
-8. not like
-
-9. equals (or =)
-
-10. <\> (or !=)
-
-11. less than (or <)
-
-12. greater than (or >)
-
-13. less or equal (or <=)
-
-14. greater or equal (or >=)
-
-15. before (date only)
-
-16. after (date only)
-
-17. sounds like
-
-18. is in (or in)
-
-19. is not in (or not in)
-
-20. isnull (nullable fields only)
-
-21. isnotnull (nullable fields only)
-
-22. today (use empty string for value)
-
-23. tomorrow (use empty string for value)
-
-24. yesterday (use empty string for value)
-
-25. on (use a date with NO time for the value)
-
-26. withindays (value is an integer)
-
-27. withinhours (value is an integer)
-
-28. olderthandays (value is an integer)
-
-29. olderthanhours (value is an integer)
-
-30. between (two dates, comma or space separated)
-
-31. not between (two dates, comma or space separated)
-
-value                                      Yes                         The value for comparison.                                                                 
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| field_name | Yes | Valid field name for the database object. If you wish, you may also specify a valid MTO or OTOP relation name |
+| operation | Yes | A string with a valid operation value. One of:<br>
+1. ends with<br>
+2. starts with<br>
+3. contains<br>
+4. not starts with<br>
+5. not ends with<br>
+6. not contains<br>
+7. like<br>
+8. not like<br>
+9. equals (or =)<br>
+10. <\> (or !=)<br>
+11. less than (or <)<br>
+12. greater than (or >)<br>
+13. less or equal (or <=)<br>
+14. greater or equal (or >=)<br>
+15. before (date only)<br>
+16. after (date only)<br>
+17. sounds like<br>
+18. is in (or in)<br>
+19. is not in (or not in)<br>
+20. isnull (nullable fields only)<br>
+21. isnotnull (nullable fields only)<br>
+22. today (use empty string for value)<br>
+23. tomorrow (use empty string for value)<br>
+24. yesterday (use empty string for value)<br>
+25. on (use a date with NO time for the value)<br>
+26. withindays (value is an integer)<br>
+27. withinhours (value is an integer)<br>
+28. olderthandays (value is an integer)<br>
+29. olderthanhours (value is an integer)<br>
+30. between (two dates, comma or space separated)<br>
+31. not between (two dates, comma or space separated) |
+| value | Yes | The value for comparison. |
 
 **Error Codes**
 

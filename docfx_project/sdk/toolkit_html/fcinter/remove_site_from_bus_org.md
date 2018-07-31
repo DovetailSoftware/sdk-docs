@@ -10,13 +10,12 @@ Public Function remove_site_from_bus_org(ByVal site_id As String, _
 This API allows a site to be removed from an account. The site and account IDs must be specified, as well as the role the site currently plays. The site may be included in the account with many roles, and only the specified role will be removed.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-site_id                                    Yes                         The site to remove from the account
-
-acct_id                                   Yes                         ID of the account
-
-role_name                              Yes                         Role of the site to be removed from the account
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| site_id | Yes | The site to remove from the account |
+| acct_id | Yes | ID of the account |
+| role_name | Yes | Role of the site to be removed from the account |
 
 **Returns**
 

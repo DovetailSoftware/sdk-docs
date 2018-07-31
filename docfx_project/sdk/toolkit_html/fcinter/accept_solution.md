@@ -12,23 +12,14 @@ Public Function accept_solution(ByVal solution_id As String, _
 This API causes the specified solution to be accepted from a dispatched queue. The solution must be currently dispatched to a queue. The date/time of the accept, the WIPBin to place the solution in, and the user performing the accept can be specified. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-solution_id                            Yes                         The solution  to accept
-
-accept_date                          No                           When was the solution accepted. If this parameter is left blank, it
-
-is accepted at the current time
-
-wipbin                                    No                           The WIPBin to place the solution in (for the user who accepted it)
-
-If left blank, the solution  is placed in the user's default WIPBin
-
-user_name                             No                           The user who accepted the solution. If left blank, the current user performs
-
-the accept
-
-gen_time_bombs                 Yes                         Should a time bomb record be created for business rule notification?
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| solution_id | Yes | The solution  to accept |
+| accept_date | No | When was the solution accepted. If this parameter is left blank, it is accepted at the current time |
+| wipbin | No | The WIPBin to place the solution in (for the user who accepted it) If left blank, the solution  is placed in the user's default WIPBin |
+| user_name | No | The user who accepted the solution. If left blank, the current user performs the accept |
+| gen_time_bombs | Yes | Should a time bomb record be created for business rule notification? |
 
 **Returns**
 

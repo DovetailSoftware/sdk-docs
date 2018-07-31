@@ -11,21 +11,15 @@ Public Function reject_subcase(ByVal subcase_id As String, _
 This API causes the specified subcase to be rejected from the queue it is in, and returned back to the owner. The subcase must be in open condition, and currently dispatched to a queue. The API allows for the setting of the reject date, some notes about the reject, and the user who rejected the subcase. The API also allows you to set the WIPBin that the subcase is placed back in. This is additional functionality that base Clarify does not provide. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-subcase_id                            Yes                         The subcase to reject-forward
-
-reject_date                            No                           When was the subcase rejected. If this parameter is left blank, the subcase is rejected at the current time
-
-wipbin                                    No                           The WIPBin to place the subcase in. If left blank, the default WIPBin is used
-
-notes                                      No                           Optional notes about the reject
-
-user_name                             No                           The user who rejected the subcase. If left blank, the current user performs
-
-the reject
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| subcase_id | Yes | The subcase to reject-forward |
+| reject_date | No | When was the subcase rejected. If this parameter is left blank, the subcase is rejected at the current time |
+| wipbin | No | The WIPBin to place the subcase in. If left blank, the default WIPBin is used |
+| notes | No | Optional notes about the reject |
+| user_name | No | The user who rejected the subcase. If left blank, the current user performs the reject |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

@@ -14,21 +14,16 @@ Public Function create_bom(ByVal parent_part As String, _
 This API places a revision of a part in a bill of materials for another part/revision. You must specify the parent part/rev as well as the child part/rev. Finally, you must specify how many of the child parts are contained in the parent part.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-parent_part                           Yes                         Part number of the parent part
-
-parent_dom                           Yes                         Domain of the parent part
-
-parent_rev                             Yes                         Mod_level of the parent part
-
-child_part                              Yes                         Part number of the child part
-
-child_dom                             Yes                         Domain of the child part
-
-child_rev                               Yes                         Mod_level of the child part
-
-quantity                                 Yes                         How many of the child part/rev are in the parent part/rev
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| parent_part | Yes | Part number of the parent part |
+| parent_dom | Yes | Domain of the parent part |
+| parent_rev | Yes | Mod_level of the parent part |
+| child_part | Yes | Part number of the child part |
+| child_dom | Yes | Domain of the child part |
+| child_rev | Yes | Mod_level of the child part |
+| quantity | Yes | How many of the child part/rev are in the parent part/rev |
 
 **Returns**
 
@@ -44,9 +39,8 @@ quantity                                 Yes  
 
 -4                                             Cannot find the child part/rev
 
--5                                             The parent part is already in the BOM of the child part. Cannot have circular BOMs
-
-ret_objid                                Output                   Returns the objid of the new address
+-5                                             The parent part is already in the BOM of the child part. Cannot have circular BOMs |
+| ret_objid | Output | Returns the objid of the new address
 
 **Examples**
 

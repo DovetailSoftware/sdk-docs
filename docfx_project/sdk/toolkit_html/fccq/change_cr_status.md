@@ -13,23 +13,15 @@ Public Function change_cr_status(ByVal cr_id As String, _
 This API causes the specified change request to have its status changed. The change request may be in any condition, but the new status MUST have the same condition as the change request's current condition. In other words, you cannot use this API to change the condition of a CR - you must use the proper API (fix, close, reopen) to do that. You may assign notes to the status change, as well as set the time of the status change, and the user who changed the status. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         The change request Id to change status for
-
-new_status                           No                           The new status for the change request. If blank, the default status is used
-
-change_date                         No                           When was the CR status changed. If this parameter is left blank, the CR is
-
-status changed at the current time
-
-notes                                      No                           Notes for the status change
-
-user_name                             No                           The user who changed the status. If left blank, the current user performs
-
-the change status
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | The change request Id to change status for |
+| new_status | No | The new status for the change request. If blank, the default status is used |
+| change_date | No | When was the CR status changed. If this parameter is left blank, the CR is status changed at the current time |
+| notes | No | Notes for the status change |
+| user_name | No | The user who changed the status. If left blank, the current user performs the change status |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

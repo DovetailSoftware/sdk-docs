@@ -15,37 +15,22 @@ ByVal resolution As String) As Integer
 This API allows creation of a time log that is related to an onsite log. The OBJID of the onsite log or a case/subcase id must be supplied (but not both), and the other parameters are all optional.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-onsite_objid                          Yes                         The OBJID of the onsite log this time log is related to
-
-id_num                                   No                           The Id number for the Case or Subcase if no onsite log is specified
-
-creation_time                        No                           The time this time log is created. If left blank, it will be the current time
-
-notes                                      No                           The note text for this time log
-
-perf_by                                  No                           The user who is performing the actions associated to the onsite log
-
-user_name                             No                           The user who is creating the onsite log. If left blank, the current user
-
-performs the create
-
-time_type                              No                           Value from the TIME_TYPE list
-
-start_time                              Yes                         When the process started
-
-duration                                 Yes                         How much time was spent, in number of seconds
-
-billable                                   No                           Indicates if this time is billable (1=Billable, Other Value = Not Billable)
-
-bill_to                                     No                           Indicates who this expense log will be billed to, from the BILL_TO_TIME
-
-                                                                                list in Policies and Customers
-
-wrk_center                            No                           Value from the WORK_CENTER list where the time was spent
-
-resolution                              No                           Value from the RESOLUTION_CODE list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| onsite_objid | Yes | The OBJID of the onsite log this time log is related to |
+| id_num | No | The Id number for the Case or Subcase if no onsite log is specified |
+| creation_time | No | The time this time log is created. If left blank, it will be the current time |
+| notes | No | The note text for this time log |
+| perf_by | No | The user who is performing the actions associated to the onsite log |
+| user_name | No | The user who is creating the onsite log. If left blank, the current user performs the create |
+| time_type | No | Value from the TIME_TYPE list |
+| start_time | Yes | When the process started |
+| duration | Yes | How much time was spent, in number of seconds |
+| billable | No | Indicates if this time is billable (1=Billable, Other Value = Not Billable) |
+| bill_to | No | Indicates who this expense log will be billed to, from the BILL_TO_TIME list in Policies and Customers |
+| wrk_center | No | Value from the WORK_CENTER list where the time was spent |
+| resolution | No | Value from the RESOLUTION_CODE list |
 
 **Returns**
 

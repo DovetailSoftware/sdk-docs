@@ -13,29 +13,15 @@ Public Function modify_eco_item(ByVal eco_mod_role_objid As Long, _
 This API modifies an existing labor or material detail.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-eco_mod_role_objid           Yes                         The objid of the ECO item object to be modified.
-
-focus_type                            Yes                         This points the ECO item to 5148 for ECO headers, or 329 for Mod levels.
-
-                                                                                This can also be -1 to ignore any change to this item.
-
-active                                     Yes                         Sate of the ECO item, 1 for active, 0 for inactive.
-
-                                                                                This can also be -1 to ignore any change to this item.
-
-eco_hdr_code                      No                           ECO Code of the ECO Header this item will be switched to, or an
-
-empty string for no change.
-
-applies_to_mod                   No                           Objid of part and revision affected by the ECO, or
-
-                                                                                0 for no change.
-
-results_in_mod                    No                           Objid of resulting part and revision following implementation of the ECO, or
-
-                                                                                0 for no change.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| eco_mod_role_objid | Yes | The objid of the ECO item object to be modified. |
+| focus_type | Yes | This points the ECO item to 5148 for ECO headers, or 329 for Mod levels. This can also be -1 to ignore any change to this item. |
+| active | Yes | Sate of the ECO item, 1 for active, 0 for inactive. This can also be -1 to ignore any change to this item. |
+| eco_hdr_code | No | ECO Code of the ECO Header this item will be switched to, or an empty string for no change. |
+| applies_to_mod | No | Objid of part and revision affected by the ECO, or 0 for no change. |
+| results_in_mod | No | Objid of resulting part and revision following implementation of the ECO, or 0 for no change. |
 
 **Returns**
 

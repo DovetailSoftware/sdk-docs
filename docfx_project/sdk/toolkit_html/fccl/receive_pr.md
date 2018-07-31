@@ -47,71 +47,36 @@ Good and bad inventory levels are supported, as is all other base features of re
 **Note**: This API requires one other API (part_transfer) to work correctly.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-pr_num                                  Yes                         The part request to receive against
-
-from_loc                                No                           Inventory location (or expense GL) to receive from. If this field (and the
-
-from_bin) is left empty (""), the API will search for the received part in
-
-inventory. If it finds it, it will use that location as the from location.
-
-from_bin                                No                           The inventory bin to receive from. If from a container, put the container
-
-name in this field. If you want the primary bin suggestion,
-
-put PRIM_BIN_REC in this field.
-
-from_cont                              No                           If receiving from a container, put the container number in this field
-
-from_good                            Yes                         Is the received inventory from good stock?
-
-to_loc                                     Yes                         Inventory location (or expense GL) to receive to
-
-to_bin                                    No                           The inventory bin to receive to. If to a container, put the container name in this
-
-field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field
-
-to_cont                                  No                           If receiving to a container, put the container number in this field
-
-to_good                                 Yes                         Is the received inventory put in good stock?
-
-Quantity_num                      Yes                         How many units to receive (must = 1 for serialized parts)
-
-serial_num                             Yes                         Serial number to receive (must be blank for quantity parts)
-
-status_str                              No                           New status of part request. Must be a valid status for Received condition. If
-
-no status supplied, default status is used
-
-carrier_name                         No                           Site name of the carrier. Left blank if not supplied
-
-waybill_name                        No                           Waybill of receipt
-
-poss_damage                       Yes                         Is the receipt possibly damaged?
-
-not_prop_pack                     Yes                         Is the receipt not properly packed?
-
-route_to_test                        Yes                         Should the receipt be routed to test?
-
-user_name                             No                           The user who received the part request. If left blank, the current user
-
-performs the receive.
-
-receive_date                         No                           When was the part request received. If this parameter is left blank, the PR is received at the current time
-
-auto_close                            Yes                         If all of the inventory for this part request is received (or an overrage), should the part request be closed as well? And if it is closed, and no other details
-
-exist for the header, should the header be closed as well?
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| pr_num | Yes | The part request to receive against |
+| from_loc | No | Inventory location (or expense GL) to receive from. If this field (and the from_bin) is left empty (""), the API will search for the received part in inventory. If it finds it, it will use that location as the from location. |
+| from_bin | No | The inventory bin to receive from. If from a container, put the container name in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field. |
+| from_cont | No | If receiving from a container, put the container number in this field |
+| from_good | Yes | Is the received inventory from good stock? |
+| to_loc | Yes | Inventory location (or expense GL) to receive to |
+| to_bin | No | The inventory bin to receive to. If to a container, put the container name in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field |
+| to_cont | No | If receiving to a container, put the container number in this field |
+| to_good | Yes | Is the received inventory put in good stock? |
+| Quantity_num | Yes | How many units to receive (must = 1 for serialized parts) |
+| serial_num | Yes | Serial number to receive (must be blank for quantity parts) |
+| status_str | No | New status of part request. Must be a valid status for Received condition. If no status supplied, default status is used |
+| carrier_name | No | Site name of the carrier. Left blank if not supplied |
+| waybill_name | No | Waybill of receipt |
+| poss_damage | Yes | Is the receipt possibly damaged? |
+| not_prop_pack | Yes | Is the receipt not properly packed? |
+| route_to_test | Yes | Should the receipt be routed to test? |
+| user_name | No | The user who received the part request. If left blank, the current user performs the receive. |
+| receive_date | No | When was the part request received. If this parameter is left blank, the PR is received at the current time |
+| auto_close | Yes | If all of the inventory for this part request is received (or an overrage), should the part request be closed as well? And if it is closed, and no other details exist for the header, should the header be closed as well? |
+| gen_time_bombs | Yes | Should a time_bomb be generated |
 
 **Returns**
 
 **Value**                **Meaning**
 
- 0                                             No errors
+0                                      No errors
 
 +1                                            No errors, but received overage
 

@@ -35,17 +35,11 @@ These APIs cause the specified action item, opportunity, or quote to be accepted
 
 the_id                                     Yes                         The action item, opportunity, or quote to accept
 
-accept_date                          No                           When was the object accepted. If this parameter is left blank, the object
+accept_date                          No                           When was the object accepted. If this parameter is left blank, the object is accepted at the current time
 
-is accepted at the current time
+wipbin                                    No                           The WIPBin to place the object in (for the user who did the accept) If left blank, the object is placed in the user's default WIPBin
 
-wipbin                                    No                           The WIPBin to place the object in (for the user who did the accept)
-
-If left blank, the object is placed in the user's default WIPBin
-
-user_name                             No                           The user who accepted the object. If left blank, the current user
-
-performs the accept
+user_name                             No                           The user who accepted the object. If left blank, the current user performs the accept
 
 gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
 

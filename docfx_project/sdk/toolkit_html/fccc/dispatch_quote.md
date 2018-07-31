@@ -10,19 +10,14 @@ Public Function dispatch_quote(ByVal quote_id As String, _
 This API causes the specified quote to be dispatched to the specified queue. The quote must be in open condition, and not currently dispatched to a queue. The API allows for the setting of the dispatch date, and the user who dispatched the quote. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-quote_id                                                Yes                         The quote to dispatch
-
-queue_name                         Yes                         The queue to dispatch to
-
-disp_date                              No                           When was the quote dispatched. If this parameter is left blank, the quote is dispatched at the current time
-
-user_name                             No                           The user who dispatched the quote. If left blank, the current user performs
-
-the dispatch.
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| quote_id | Yes | The quote to dispatch |
+| queue_name | Yes | The queue to dispatch to |
+| disp_date | No | When was the quote dispatched. If this parameter is left blank, the quote is dispatched at the current time |
+| user_name | No | The user who dispatched the quote. If left blank, the current user performs the dispatch. |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

@@ -45,88 +45,45 @@ You must specify a contract id and a price schedule, and a quantity of items in 
 
 You may specify an override price (per unit price). If this is blank, then the price from the price schedule is used. You may specify how many units are used in the line. The units available is calcularted from this number.
 
-A purchase order number may be specified. If it is, it must be a valid purchase order for the contract schedule specified for this line item.
-
-If it is serialized part (quantity 1), the serial number may be specified. You may also specify the taxable state, and if the part is to be auto-installed. If it is, you must supply the site that it will be installed at. You may also specify the serviced at site, as well as additional fields.
+A purchase order number may be specified. If it is, it must be a valid purchase order for the contract schedule specified for this line item. If it is serialized part (quantity 1), the serial number may be specified. You may also specify the taxable state, and if the part is to be auto-installed. If it is, you must supply the site that it will be installed at. You may also specify the serviced at site, as well as additional fields.
 
 If  you wish to make this a parent line item, put -1 in the parent_objid argument. Else, put the objid of the parent line item in the field. It will be made a child of the parent line item.
 
 The API does not do a few other items in the base GUI function. By and large, they are expected to be supplied with other API calls. For example, line item adjustments are not part of this API. If they are required, the line should be created, and then the adjustment should be applied. Parent/child line items are not provided for in the default API. Also, proration (ClearContracts) is currently hard-coded.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contract_id                            Yes                         The quote/contract for the line item
-
-user_name                             No                           The user who created the line item. If left blank, the current user performs
-
-the create.
-
-create_date                           No                           Line item creation date. If left blank, current date/time is used
-
-start_date                              No                           Start date/time of the line item. If blank, create_date is used
-
-end_date                               No                           End date/time of the line item. If blank, create_date + 1 year is used
-
-part_num                               Yes                         Part number of part to quote
-
-domain                                   Yes                         Domain of part to quote
-
-rev                                          Yes                         Revision of part to quote
-
-quantity                                 Yes                         Number of units in line
-
-price_schedule                     Yes                         Name of the schedule from the quote to put the line on
-
-oride_price                            No                           If supplied, this is the per-unit price. If blank, price is taken from the price
-
-schedule
-
-units_used                            No                           If supplied, this is the number of units used. If = 0 (default), then all units are
-
-initially available
-
-serial_num                             No                           For serialized parts, the serial number to quote
-
-is_taxable                              Yes                         Is the line taxable?
-
-install_it                                 Yes                         Should the part be marked for auto-install?
-
-comments                              No                           Comments about the line item
-
-quoted_site                           No                           Site ID of the site for auto-install. If auto-install = True, this must be
-
-supplied
-
-serviced_at_site                   No                           The site ID of the site servicing the line
-
-parent_objid                         Yes                         The objid of the parent line item. If set to -1 then this is a parent line item
-
-po_num                                 No                           Purchase order number for this line item. Must be a valid purchase order number for the schedule specified above
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contract_id | Yes | The quote/contract for the line item |
+| user_name | No | The user who created the line item. If left blank, the current user performs the create. |
+| create_date | No | Line item creation date. If left blank, current date/time is used |
+| start_date | No | Start date/time of the line item. If blank, create_date is used |
+| end_date | No | End date/time of the line item. If blank, create_date + 1 year is used |
+| part_num | Yes | Part number of part to quote |
+| domain | Yes | Domain of part to quote |
+| rev | Yes | Revision of part to quote |
+| quantity | Yes | Number of units in line |
+| price_schedule | Yes | Name of the schedule from the quote to put the line on |
+| oride_price | No | If supplied, this is the per-unit price. If blank, price is taken from the price schedule |
+| units_used | No | If supplied, this is the number of units used. If = 0 (default), then all units are initially available |
+| serial_num | No | For serialized parts, the serial number to quote |
+| is_taxable | Yes | Is the line taxable? |
+| install_it | Yes | Should the part be marked for auto-install? |
+| comments | No | Comments about the line item |
+| quoted_site | No | Site ID of the site for auto-install. If auto-install = True, this must be supplied |
+| serviced_at_site | No | The site ID of the site servicing the line |
+| parent_objid | Yes | The objid of the parent line item. If set to -1 then this is a parent line item |
+| po_num | No | Purchase order number for this line item. Must be a valid purchase order number for the schedule specified above |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value | Meaning | **
 
 0                                              No errors
 
@@ -168,9 +125,8 @@ val_list                                   Yes
 
 -21                                           The specified purchase order is not found for the contract schedule.
 
--22                                           The mod_level is not found for the parent contract item.
-
-ret_objid                                Output                   Returns the objid of the newly created contract item
+-22                                           The mod_level is not found for the parent contract item. |
+| ret_objid | Output | Returns the objid of the newly created contract item
 
 **Examples**
 
@@ -301,8 +257,6 @@ ret_int = fc_cc.cr_contr_itm( "2", "sa", "11/1/2001", _
                             "Quantity", "", 3, "Default Schedule", _
                             "1.01", 1, "", False, True, "A Comment", _
                             "23", "24", 268435458, "", _
-                             fld_list, type_list, val_list)
-
-If ret_int = 0 Then
+                             fld_list, type_list, val_list) If ret_int = 0 Then
   item_objid = fc_cc.ret_objid
 End If

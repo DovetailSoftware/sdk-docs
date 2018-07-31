@@ -52,63 +52,26 @@ Public Function modify_sp_list(ByVal sp_objid As Long, _
 This API will modify site_parts in Clarify. They allow many site_part fields to be modified. You must specify the site_part to be modified. The quantity must be specified, either as 1 or more. Most of the other fields can be modified as needed, but the site, part, and mod_level can not be changed. You may determine if activity logs should be added (to the site and to the site_part). If a parameter is left blank, no change is made for that field.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-sp_objid                                                Yes                         The site_part to be modified
-
-instance_name                     No                           The instance name for the site_part. If blank, no change is made. If "#default" is
-
-used , the instance_name is generated for you by the API. If  "#clear" is specified,
-
-the instance name is cleared
-
-serial_num                             No                           A new serial number. If blank, make no change. If "#clear" is specified, the serial
-
-number is cleared
-
-invoice_no                            No                           A new invoice number. If blank, no change is made. If "#clear" is specified, the
-
-field is cleared
-
-ship_date                              No                           When was the site_part shipped?  If blank, no change is made
-
-install_date                           No                           When was the site_part installed? If blank, no change is made
-
-warranty_date                      No                           When does the site_part warranty coverage expire? If blank, no change is made
-
-quantity                                 No                           A new installed quantity, must be 0 or more. If set to 0, no change is made in the
-
-quantity
-
-part_status                            No                           New value from the dropdown list. If blank, no change is made. If "#default", the
-
-default value of the list is set
-
-comments                              No                           Comment for the site_part. If blank, no change is made. If set to "#clear", the field
-
-is cleared
-
-service_end_dt                    No                           When does the site_part service period end? If blank, no change is made
-
-user_name                             No                           User who performed the install. If blank, current user is used
-
-mod_level                              No                           The new revision of the site_part. This must be a valid mod_level of the part
-
-number for the site_part. If blank, no change is made
-
-add_activity                          Yes                         Should activity log entries be generated for modification?
-
-fld_list                                    No                           List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                No                           List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   No                           List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| sp_objid | Yes | The site_part to be modified |
+| instance_name | No | The instance name for the site_part. If blank, no change is made. If "#default" is used , the instance_name is generated for you by the API. If  "#clear" is specified, the instance name is cleared |
+| serial_num | No | A new serial number. If blank, make no change. If "#clear" is specified, the serial number is cleared |
+| invoice_no | No | A new invoice number. If blank, no change is made. If "#clear" is specified, the field is cleared |
+| ship_date | No | When was the site_part shipped?  If blank, no change is made |
+| install_date | No | When was the site_part installed? If blank, no change is made |
+| warranty_date | No | When does the site_part warranty coverage expire? If blank, no change is made |
+| quantity | No | A new installed quantity, must be 0 or more. If set to 0, no change is made in the quantity |
+| part_status | No | New value from the dropdown list. If blank, no change is made. If "#default", the default value of the list is set |
+| comments | No | Comment for the site_part. If blank, no change is made. If set to "#clear", the field is cleared |
+| service_end_dt | No | When does the site_part service period end? If blank, no change is made |
+| user_name | No | User who performed the install. If blank, current user is used |
+| mod_level | No | The new revision of the site_part. This must be a valid mod_level of the part number for the site_part. If blank, no change is made |
+| add_activity | Yes | Should activity log entries be generated for modification? |
+| fld_list | No | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | No | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | No | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 

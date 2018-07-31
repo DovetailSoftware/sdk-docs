@@ -18,11 +18,11 @@ This method returns a boolean value indicating if a given string is a valid elem
 The gbst_elm table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-ListName                               Yes                         An Application popup list name.
-
-Element                                  Yes                         The element to be checked for its existence in the list.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| ListName | Yes | An Application popup list name. |
+| Element | Yes | The element to be checked for its existence in the list. |
 
 **Returns**
 
@@ -48,9 +48,7 @@ The code in this example is written in JavaScript for inclusion in ASP pages.
 
 var ListName = "Response Priority Code";
 
-var ListValue = Request.Form("priority").Item;
-
-if (FCApp.IsInGbstLst(ListName,ListValue))
+var ListValue = Request.Form("priority").Item; If (FCApp.IsInGbstLst(ListName,ListValue))
 
  { Response.Write(ListValue + " is a valid " + ListName); }
 

@@ -33,25 +33,15 @@ Public Function forward_quote(ByVal the_id As String, _
 These APIs cause the specified action item, opportunity, or quote to be reject-forwarded from one queue to another. The object must be in open condition, and currently dispatched to a queue. The API allows for the setting of the forward date, some notes about the forward, and the user who forwarded the object. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-The_id                                   Yes                         The object to reject-forward
-
-new_queue                           Yes                         The queue to forward to
-
-forward_date                        No                           When was the object forwarded. If this parameter is left blank, the object
-
-is forwarded at the current time
-
-notes                                      No                           Optional notes about the reject-forward
-
-user_name                             No                           The user who forwarded the object. If left blank, the current user performs
-
-the forward. For business rules, it defaults to the user_name who is
-
-executing the cbbatch
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| The_id | Yes | The object to reject-forward |
+| new_queue | Yes | The queue to forward to |
+| forward_date | No | When was the object forwarded. If this parameter is left blank, the object is forwarded at the current time |
+| notes | No | Optional notes about the reject-forward |
+| user_name | No | The user who forwarded the object. If left blank, the current user performs the forward. For business rules, it defaults to the user_name who is executing the cbbatch |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

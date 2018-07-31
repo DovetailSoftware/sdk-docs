@@ -13,19 +13,13 @@ Public Function apply_eco(ByVal demand_dtl_objid As Long, _
 These APIs allow an ECO to be applied against a Depot Repair.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-demand_dtl_objid                Yes                         Object ID of specified part request.
-
-eco_code                               Yes                         Header Code of ECO to apply.
-
-perf_by                                  No                           Indicates the technician who performed the action. Will default to the current
-
-user if not supplied.
-
-creation_time                        No                           Indicates the time this action is logged. Will default to the current time if a
-
-different time is not supplied.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| demand_dtl_objid | Yes | Object ID of specified part request. |
+| eco_code | Yes | Header Code of ECO to apply. |
+| perf_by | No | Indicates the technician who performed the action. Will default to the current user if not supplied. |
+| creation_time | No | Indicates the time this action is logged. Will default to the current time if a different time is not supplied. |
 
 **Returns**
 

@@ -18,11 +18,11 @@ Public Function GetNextNumSubcaseID(ByVal CaseID As String, ByVal 
 This method is returns the next available ID number for a subcase for the given case.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-CaseID                                   Yes                         The ID Number of the case
-
-CaseCondID                         Yes                         The objid of the condition record for the case
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| CaseID | Yes | The ID Number of the case |
+| CaseCondID | Yes | The objid of the condition record for the case |
 
 **Returns**
 

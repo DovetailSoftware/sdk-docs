@@ -51,67 +51,33 @@ The new_prim_site and new_prim_role fields allow the primary contact role to be 
 **Note:** If you wish to create a duplicate contact (same first, last, and phone as another contact in the database), you may use the _allow_duplicate_contact_ property.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-contact_objid                       Yes*                        Objid of the contact
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| contact_objid | Yes* | Objid of the contact
+| first | Yes* | First name of the contact
+| last | Yes* | Last name of the contact
+| phone | Yes* | Phone number of the contact |
+| site_id | Yes | Site ID for the contact role to create |
+| role | Yes | The contact role to create |
+| fax | No | Fax number for contact |
+| email | No | Email address for contact |
+| mail_stop | No | Mail stop for contact |
+| the_title | No | Job title for contact |
+| hours | No | Job hours for contact |
+| salutation | No | Salutation for contact |
+| new_first | No | New first name for contact (updates) |
+| new_last | No | New last name for contact (updates) |
+| new_phone | No | New phone number for contact (updates) |
+| new_prim_site_id | No | New primary site ID |
+| new_prim_role | No | New primary role name |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-first                                         Yes*                        First name of the contact
-
-last                                          Yes*                        Last name of the contact
-
-phone                                     Yes*                        Phone number of the contact
-
-site_id                                    Yes                         Site ID for the contact role to create
-
-role                                         Yes                         The contact role to create
-
-fax                                           No                           Fax number for contact
-
-email                                       No                           Email address for contact
-
-mail_stop                               No                           Mail stop for contact
-
-the_title                                 No                           Job title for contact
-
-hours                                      No                           Job hours for contact
-
-salutation                              No                           Salutation for contact
-
-new_first                               No                           New first name for contact (updates)
-
-new_last                               No                           New last name for contact (updates)
-
-new_phone                           No                           New phone number for contact (updates)
-
-new_prim_site_id                No                           New primary site ID
-
-new_prim_role                      No                           New primary role name
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                 Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-\* \- contact_objid is required for update_contact_objid_list. first, last, phone are required for update_contact and update_contact_list.
+\* \- contact_objid is required for update_contact_objid_list. first, last, phone are required for update_contact and update_contact_list. |
 
 **Returns**
 
@@ -141,9 +107,8 @@ val_list                                   Yes
 
 -10                                           Could not find specified new primary contact role in list
 
--11                                           The specified role for the contact is already an alternate role for the specified site
-
-ret_objid                                Output                   Returns the objid of the contact
+-11                                           The specified role for the contact is already an alternate role for the specified site |
+| ret_objid | Output | Returns the objid of the contact
 
 **Examples**
 

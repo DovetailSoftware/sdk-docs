@@ -35,43 +35,22 @@ Public Function log_cr_email_list(ByVal cr_id As String, _
 These APIs are used to create an email log (email out) against a CR. The date the email is logged can be set, as well as the user who logs the email. Additional fields on the log_email record can also be set as well as a time bomb (for the email_log), which allows notifications to be generated based on the event. In addition, the proper time_bomb can be optionally created that will cause rulemanager to send out the email.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-cr_id                                       Yes                         The CR to create the log for
-
-log_date                                                No                           The date the log was created. If left blank, the current time is used
-
-message                                 No                           The text (body) of the email message
-
-recipient                                 No                           The email address of the intended recipient
-
-cc_list                                    No                           A list of additional recipients to be included on the CC list
-
-user_name                             No                           The user who created the log. If left blank, the current user performs
-
-the logging
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
-
-send_email                            Yes                         Should rulemanager send this email
-
-int_fld1, int_fld2                   No                           Names of additional fields to write.  Must use "" if not using
-
-str_fld1, str_fld2                                                   these parameters
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. Must use "" (string) or 0 (long)
-
-str_val1, str_val2                                                 if not using these parameters
-
-date_val1
-
-fld_list                                    No                           List of additional field names to write
-
-type_list                                                No                           List of additional field data types to write
-
-val_list                                   No                           List of additional field values to write
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| cr_id | Yes | The CR to create the log for |
+| log_date | No | The date the log was created. If left blank, the current time is used |
+| message | No | The text (body) of the email message |
+| recipient | No | The email address of the intended recipient |
+| cc_list | No | A list of additional recipients to be included on the CC list |
+| user_name | No | The user who created the log. If left blank, the current user performs the logging |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
+| send_email | Yes | Should rulemanager send this email |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -87,9 +66,8 @@ val_list                                   No�
 
 -4                                             Cannot find the specified user's employee record for relating time bomb
 
--5                                             Cannot find the com_tmplte with a title of "send_email_about_bug"
-
-ret_objid                                Output                   Returns the objid of the email_log
+-5                                             Cannot find the com_tmplte with a title of "send_email_about_bug" |
+| ret_objid | Output | Returns the objid of the email_log
 
 **Examples**
 

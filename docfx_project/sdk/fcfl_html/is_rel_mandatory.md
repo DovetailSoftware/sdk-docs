@@ -18,11 +18,11 @@ Public Function is_rel_mandatory(tbl_num As Long, _
 This method determines if the specified relation is a mandatory relation.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-tbl_num                                 Yes                         Number of the table (e.g. case=0)
-
-rel_name                                Yes                         Name of the relation
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| tbl_num | Yes | Number of the table (e.g. case=0) |
+| rel_name | Yes | Name of the relation |
 
 **Returns**
 

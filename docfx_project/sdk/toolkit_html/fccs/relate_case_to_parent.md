@@ -9,11 +9,11 @@ Public Function relate_case_to_parent(ByVal case_id As String, _
 This API allows a case to be related to a specified parent case. You must make sure that the new parent case is not the same as the case (you cannot relate a case to itself), and the new parent cannot be anywhere in the descendent tree of the new child case.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         The ID of the new child case
-
-parent_id                               Yes                         The ID of the new parent case
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | The ID of the new child case |
+| parent_id | Yes | The ID of the new parent case |
 
 **Returns**
 

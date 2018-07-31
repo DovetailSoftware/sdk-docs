@@ -13,22 +13,20 @@ Public Function GetGbstElmObjid(ByVal ListName As String, ByVal Element As Strin
 
 **Description**
 
-This method returns an objid for a given element in a given Application Popup list.
-
-If the element is not found in the list, this method returns a value of zero.
+This method returns an objid for a given element in a given Application Popup list. If the element is not found in the list, this method returns a value of zero.
 
 The gbst_elm table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-ListName                               Yes                         An Application popup list name.
-
-Element                                  Yes                         The element to be checked for its existence in the list.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| ListName | Yes | An Application popup list name. |
+| Element | Yes | The element to be checked for its existence in the list. |
 
 **Returns**
 
-The objid of the Element in the ListName list. Zero, if the Element is not found in the ListName list.
+The objid of the Element in the ListName list. Zero, if the Element is not found in the ListName list. |
 
 **Error Codes**
 
@@ -38,7 +36,7 @@ The objid of the Element in the ListName list. Zero, if the Element is not found
 
 10009                                      Invalid ListName.
 
-10010                                      Element must not be empty.
+10010                                      Element must not be empty. |
 
 **Example**
 
@@ -52,9 +50,7 @@ var ListName = "Response Priority Code";
 
 var ListValue = Request.Form("priority").Item;
 
-var ElmObjid = FCApp.GetGbstElmObjid(ListName,ListValue);
-
-if (ElmObjid > 0)
+var ElmObjid = FCApp.GetGbstElmObjid(ListName,ListValue); If (ElmObjid > 0)
 
   { 
 

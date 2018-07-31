@@ -33,27 +33,15 @@ Public Function assign_quote(ByVal the_id As String, _
 These APIs cause the specified action item, opportunity, or quote to be assigned to a new user. The object must be in open condition, and the user assigning the object does not have to be the owner of the object. In base Clarify, the assigner of a object must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the object in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-the_id                                     Yes                         The action item, opportunity, or quote ID to be assigned
-
-new_user                               No                           The user who the object is assigned to. If left blank, the object is
-
-assigned to the current user
-
-wipbin_name                        No                           The WIPBin to place the object in (for the user who is assigned the
-
-case). If left blank, the object is placed in the user's default WIPBin
-
-assign_date                          No                           When was the object assigned. If this parameter is left blank, the case
-
-is assigned at the current time
-
-user_name                             No                           The user who assigned the object If left blank, the current user performs
-
-the assign
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| the_id | Yes | The action item, opportunity, or quote ID to be assigned |
+| new_user | No | The user who the object is assigned to. If left blank, the object is assigned to the current user |
+| wipbin_name | No | The WIPBin to place the object in (for the user who is assigned the case). If left blank, the object is placed in the user's default WIPBin |
+| assign_date | No | When was the object assigned. If this parameter is left blank, the case is assigned at the current time |
+| user_name | No | The user who assigned the object If left blank, the current user performs the assign |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

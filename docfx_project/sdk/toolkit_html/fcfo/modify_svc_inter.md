@@ -15,31 +15,18 @@ This API modifies an existing service interruption (appointment) record in the C
 The appointment type and subtype are optional code list values that may be specified. The user performing the logging may be specified as can the creation time. If you do not specify a value for one of the arguments, the value in the existing record is not updated.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-appt_objid                             Yes                         The OBJID of the appointment to modify
-
-description                            No                           The description of the appointment
-
-start_time                              No                           When does the appointment start. If you want to leave the original time,
-
-use = ""
-
-end_time                                No                           When does the appointment end. If you want to leave the original time, use
-
- = ""
-
-duration                                 No                           How long (in seconds) is the appointment
-
-svc_class                              No                           Value from the Installed Prod Sched Class code list (Use "" to keep current value)
-
-svc_type                                               No                           Value from the Installed Prod Sched Type code list (Use "" to keep current value)
-
-user_name                             No                           The user who modified the appointment. If left blank, the current user
-
-performs the modify
-
-creation_time                        No                           When is the log modified? If left blank, it will be modified at the current time
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| appt_objid | Yes | The OBJID of the appointment to modify |
+| description | No | The description of the appointment |
+| start_time | No | When does the appointment start. If you want to leave the original time, use = "" |
+| end_time | No | When does the appointment end. If you want to leave the original time, use = "" |
+| duration | No | How long (in seconds) is the appointment |
+| svc_class | No | Value from the Installed Prod Sched Class code list (Use "" to keep current value) |
+| svc_type | No | Value from the Installed Prod Sched Type code list (Use "" to keep current value) |
+| user_name | No | The user who modified the appointment. If left blank, the current user performs the modify |
+| creation_time | No | When is the log modified? If left blank, it will be modified at the current time |
 
 **Returns**
 

@@ -59,61 +59,28 @@ The ID of the newly-created opportunity will be returned in _fcsfa.ret_id_num_. 
   
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-opp_name                             Yes                         Name of the opportunity
-
-acct_id                                   No                           ID of the related account
-
-con_first, con_last,              No                           Name and phone number of related contact. If a contact is to be specified, all
-
-con_phone                                                            three must be given
-
-terr_name                              No                           Name of the territory. If blank, the default territory is used
-
-amt                                          No                           Amount of the opportunity. Must be numeric
-
-close_date                             No                           Close date of the opportunity. If  blank, the current date/time are used
-
-sales_stage                           Yes                         Sales stage for the opportunity.
-
-lead_source                          No                           Lead source for the opportunity. If blank, default source is used
-
-the_currency                        No                           Currency for the opportunity. If blank, default currency is used.
-
-prob                                        No                           Probability of opportunity close. Must be numeric, and between 0 and 1
-
-process                                  No                           Process for the opportunity. If blank, default process is used
-
-user_name                             No                           Creator of the opportunity. If blank, the current user is used
-
-create_date                           No                           When was the opportunity created? If blank, current date/time is used
-
-gen_time_bombs                 Yes                         Should time_bombs be built for business rule evaluation
-
-int_fld1, int_fld2                   No                           Names of additional fields to write
-
-str_fld1, str_fld2
-
-date_fld1
-
-int_val1, int_val2                 No                           Values for the additional fields. These values are only used if the
-
-str_val1, str_val2                                                 corresponding field name field is filled with a valid field name
-
-date_val1
-
-fld_list                                    Yes                         List of additional field names to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-type_list                                                Yes                         List of additional field data types to write. List must be present, but does not
-
-                                                                                need to have any items in the list
-
-val_list                                   Yes                         List of additional field values to write. List must be present, but does not
-
-                                                                                need to have any items in the list
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| opp_name | Yes | Name of the opportunity |
+| acct_id | No | ID of the related account |
+| con_first, con_last, con_phone | No | Name and phone number of related contact. If a contact is to be specified, all three must be given |
+| terr_name | No | Name of the territory. If blank, the default territory is used |
+| amt | No | Amount of the opportunity. Must be numeric |
+| close_date | No | Close date of the opportunity. If  blank, the current date/time are used |
+| sales_stage | Yes | Sales stage for the opportunity. |
+| lead_source | No | Lead source for the opportunity. If blank, default source is used |
+| the_currency | No | Currency for the opportunity. If blank, default currency is used. |
+| prob | No | Probability of opportunity close. Must be numeric, and between 0 and 1 |
+| process | No | Process for the opportunity. If blank, default process is used |
+| user_name | No | Creator of the opportunity. If blank, the current user is used |
+| create_date | No | When was the opportunity created? If blank, current date/time is used |
+| gen_time_bombs | Yes | Should time_bombs be built for business rule evaluation |
+| int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
+| int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
+| fld_list | Yes | List of additional field names to write. List must be present, but does not need to have any items in the list |
+| type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
+| val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
 **Returns**
 
@@ -155,7 +122,7 @@ val_list                                   Yes
 
 **Field version:**
 
-**       JavaScript:**
+**JavaScript:**
 
    var ret_int = fcsfa.create_opp("My opp", "AN_CUST1", "a", "b", "c",
 
@@ -178,7 +145,7 @@ Dim opp_id     As String
 
 **List version:**
 
-**       JavaScript:**
+**JavaScript:**
 
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 

@@ -12,23 +12,15 @@ Public Function initial_response(ByVal case_id As String, _
 This API will mark the initial response to a case. The case supplied should not already have had the intial response marked because it can only be marked once for a given case. The response can be marked as being from a phone call (True), or from an email (False). The user who performed the initial response and the time of that response can be specified. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         The case that the initial response is for
-
-resp_date                              No                           When was the initial response logged.If this parameter is left
-
-blank, the response is at the current time
-
-user_name                             No                           The user who logged the initial response. If left blank, the current
-
-user performs the logging. For business rules, it defaults to the
-
-user_name who is executing the cbbatch
-
-via_phone                             Yes                         Is the response via a phone call (True), or via email (False)
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | The case that the initial response is for |
+| resp_date | No | When was the initial response logged.If this parameter is left blank, the response is at the current time |
+| user_name | No | The user who logged the initial response. If left blank, the current user performs the logging. For business rules, it defaults to the 
+user_name who is executing the cbbatch |
+| via_phone | Yes | Is the response via a phone call (True), or via email (False) |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 

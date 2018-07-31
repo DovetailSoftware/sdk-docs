@@ -15,29 +15,17 @@ Public Function create_product_bin(ByVal bin_name As String, _
 This API allows you to create a product bin either at a site, or underneath another product bin. You must supply a (unique for the site) bin name, and the site at which the bin is created. If the bin is to be underneath another bin, you must supply the objid of the parent bin. If you supply no parent bin, the new bin is created at the site level. You may optionally also specify a description for the bin, as well as the objids for support employees. Finally you may specify who created the bin, and when they created it. The API returns the objid of the newly-created bin.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-bin_name                               Yes                         Name of the bin to create
-
-site_id                                    Yes                         ID of the site at which the bin is created
-
-bin_objid                               Yes                         Objid of the bin to install the new bin under. If the new bin is to be installed at the
-
-site itself, set this argument to -1
-
-description                            No                           Description of the bin
-
-prim_supp                             No                          Objid of the primary support employee. Note this is an employee, not a user. If
-
-you do not wish to supply a support employee, set this argument to -1
-
-sec_supp                               No                          Objid of the secondary support employee. Note this is an employee, not a user. If
-
-you do not wish to supply a support employee, set this argument to -1
-
-user_name                             No                           Name of the user who created the bin. If blank, the current user is used  
-
-create_date                           No                           When was the bin created. If blank, the current date/time is used
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| bin_name | Yes | Name of the bin to create |
+| site_id | Yes | ID of the site at which the bin is created |
+| bin_objid | Yes | Objid of the bin to install the new bin under. If the new bin is to be installed at the site itself, set this argument to -1 |
+| description | No | Description of the bin |
+| prim_supp | No | Objid of the primary support employee. Note this is an employee, not a user. If you do not wish to supply a support employee, set this argument to -1 |
+| sec_supp | No | Objid of the secondary support employee. Note this is an employee, not a user. If you do not wish to supply a support employee, set this argument to -1 |
+| user_name | No | Name of the user who created the bin. If blank, the current user is used |
+| create_date | No | When was the bin created. If blank, the current date/time is used |
 
 **Returns**
 
@@ -59,9 +47,8 @@ create_date                           No       
 
 -7                                             Could not locate the "Created" activity log string
 
--8                                             The specified user name could not be found
-
-ret_objid                                Output                   Returns the objid of the new product bin
+-8                                             The specified user name could not be found |
+| ret_objid | Output | Returns the objid of the new product bin
 
 **Examples**
 

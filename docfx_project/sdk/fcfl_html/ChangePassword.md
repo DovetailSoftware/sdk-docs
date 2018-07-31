@@ -16,9 +16,10 @@ Public Sub ChangePassword(ByVal password As String)
 This method changes the password for the session user, which may either be a contact or a user. You may not use this method to change the password for the "sa" user.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-password                               Yes                         The new password
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| password | Yes | The new password |
 
 **Error Codes**
 

@@ -18,13 +18,14 @@ This method returns a string containing the default state_prov name for a given 
 The state_prov and country tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-Country                                 Yes                         Name of country to get the default state for.
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| Country | Yes | Name of country to get the default state for. |
 
 **Returns**
 
-A string containing the default state_prov name for a given country
+A string containing the default state_prov name for a given country |
 
 **Error Codes**
 
@@ -32,7 +33,7 @@ A string containing the default state_prov name for a given country
 
 10011                                      Country must not be empty.
 
-10012                                      Invalid Country
+10012                                      Invalid Country |
 
 **Example**
 

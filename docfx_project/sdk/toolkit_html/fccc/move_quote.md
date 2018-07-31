@@ -11,11 +11,11 @@ This API causes the specified quote to be moved from one WIPBin to another WIPBi
 **Note:** This API allows you to move a queueable quote from one WIPBin to another, even if the quote is currently dispatched. Since WIPBins are internal to a user, there really is no reason that you shouldn't be able to move the interal (to a user) location of the quote. This is an enhancement to base Clarify function, which requires that the quote not be dispatched to be moved.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-quote_id                                                Yes                         The quote to move
-
-new_wipbin                          Yes                         The WIPBin to move the quote to. If left blank, the quote is moved to the                                                                               user's default WIPBin
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| quote_id | Yes | The quote to move |
+| new_wipbin | Yes | The WIPBin to move the quote to. If left blank, the quote is moved to the user's default WIPBin |
 
 **Returns**
 

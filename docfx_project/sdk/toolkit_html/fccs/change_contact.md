@@ -19,23 +19,17 @@ To use the API, you must specify the case to change, and then either a contact, 
 The API changes the relations for the case. In addition, the case history and activity log are modified. If the contact is changed, the case phone and alternate phone are changed. If the site is changed, any related site_parts for the case are unrelated, as is any contract related to the case. All of this corresponds to actions taken by the base Clarify GUI.
 
 #### Parameters
-**Parameter Name**                **Required?**             **Description**
 
-case_id                                  Yes                         The case to change the contact/site for
-
-first                                         No                           First name of new contact
-
-last                                          No                           Last name of new contact
-
-phone_num                           No                           Phone number of new contact
-
-site_id                                    No                           Site ID of new site
-
-change_date                         No                           Date the contact/site was changed. If left blank, the current date/time is used
-
-user_name                             No                           User making the change. If left blank, the current user is used
-
-gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
+| Parameter Name | Required? | Description |
+|!--- |!--- |!--- |
+| case_id | Yes | The case to change the contact/site for |
+| first | No | First name of new contact |
+| last | No | Last name of new contact |
+| phone_num | No | Phone number of new contact |
+| site_id | No | Site ID of new site |
+| change_date | No | Date the contact/site was changed. If left blank, the current date/time is used |
+| user_name | No | User making the change. If left blank, the current user is used |
+| gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
 **Returns**
 
