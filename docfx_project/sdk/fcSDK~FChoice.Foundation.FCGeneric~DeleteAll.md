@@ -1,6 +1,6 @@
 ﻿### DeleteAll Method (FCGeneric)
 
-Delete all [rows](/sdk/fcSDK~FChoice.Foundation.FCGeneric~Rows.md) present in this **FCGeneric**.
+Delete all rows present in this **FCGeneric**.
 
 #### Syntax
 

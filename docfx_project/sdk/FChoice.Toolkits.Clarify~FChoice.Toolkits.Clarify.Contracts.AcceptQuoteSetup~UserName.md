@@ -7,12 +7,12 @@ The user who has accepted the Quote. If not set, the Toolkit session user is use
 ```vbnet
 'Declaration
 
-<AttributeUsageAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)>
+<AttributeUsageAttribute()>
 Public Property UserName As String
 ```
 
 ```csharp
-[PropertyBitValueAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)]
+[PropertyBitValueAttribute()]
 public string UserName {get; set;}
 ```
 

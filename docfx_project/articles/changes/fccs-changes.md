@@ -3,6 +3,7 @@
 ## TypeLib Name
 
 (appears in Add Reference dialog in VB6) 
+
 | FCFL | fcSDK Compatibility |
 |:--- |:--- |
 | FCCS | First Choice SDK for Clarify Library |

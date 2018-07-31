@@ -7,12 +7,12 @@ Quote Identifier.
 ```vbnet
 'Declaration
 
-<AttributeUsageAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)>
+<AttributeUsageAttribute()>
 Public Property QuoteIDNum As String
 ```
 
 ```csharp
-[PropertyBitValueAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)]
+[PropertyBitValueAttribute()]
 public string QuoteIDNum {get; set;}
 ```
 

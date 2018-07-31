@@ -18,6 +18,7 @@ Public Overloads Overridable Function FormatElapsedTime( _
 public virtual string FormatElapsedTime( 
    int _elapsedTime_
 )
+```
 
 #### Parameters
 

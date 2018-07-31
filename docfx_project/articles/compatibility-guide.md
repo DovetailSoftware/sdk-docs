@@ -20,25 +20,25 @@ Compiled windows applications (such as programs written in Visual Basic or in C/
 
 Use of the FCGeneric.Records property, although still compatible, is not recommended. Refer to the FCGeneric section of this document for more details on the caveats and limitations.
 
-Differences between FCFL and FCFL.NET Compatibility Layer:
+**Differences between FCFL and FCFL.NET Compatibility Layer:**
 
-FCFL/FCFL.NET Type Library Changes
-FCApplication Object Changes
-FCSession Object Changes
-FCGeneric Object Changes
-FCBulk Object Changes
-FCSQLExec Object Changes
-FCList Object Changes
-MockAdoField
-Configuration Changes
+* FCFL/FCFL.NET Type Library Changes
+* FCApplication Object Changes
+* FCSession Object Changes
+* FCGeneric Object Changes
+* FCBulk Object Changes
+* FCSQLExec Object Changes
+* FCList Object Changes
+* MockAdoField
+* Configuration Changes
 
-Differences between FCFL API Toolkits and fcSDK API Toolkit Compatibility Layer:
+**Differences between FCFL API Toolkits and fcSDK API Toolkit Compatibility Layer:**
 
-First Choice API Toolkit for ClearContracts
-First Choice API Toolkit for ClearLogistics
-First Choice API Toolkit for ClearLogistics Field Operations
-First Choice API Toolkit for ClearQuality
-First Choice API Toolkit for ClearSupport
-First Choice API Toolkit for Depot Repair
-First Choice API Toolkit for Interfaces
-First Choice API Toolkit for ClearSales
+* First Choice API Toolkit for ClearContracts
+* First Choice API Toolkit for ClearLogistics
+* First Choice API Toolkit for ClearLogistics Field Operations
+* First Choice API Toolkit for ClearQuality
+* First Choice API Toolkit for ClearSupport
+* First Choice API Toolkit for Depot Repair
+* First Choice API Toolkit for Interfaces
+* First Choice API Toolkit for ClearSales

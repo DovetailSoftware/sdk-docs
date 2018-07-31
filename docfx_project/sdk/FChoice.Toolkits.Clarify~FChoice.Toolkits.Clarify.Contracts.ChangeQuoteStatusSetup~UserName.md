@@ -7,12 +7,12 @@ The username of the user who is changing the Quote status. If not set, the Toolk
 ```vbnet
 'Declaration
 
-<AttributeUsageAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)>
+<AttributeUsageAttribute()>
 Public Property UserName As String
 ```
 
 ```csharp
-[PropertyBitValueAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)]
+[PropertyBitValueAttribute()]
 public string UserName {get; set;}
 ```
 

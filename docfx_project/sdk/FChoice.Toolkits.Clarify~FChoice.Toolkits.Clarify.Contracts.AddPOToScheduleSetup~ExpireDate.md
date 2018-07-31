@@ -7,12 +7,12 @@ The DateTime the Purchase Order will expire. If not set, the current time is use
 ```vbnet
 'Declaration
 
-<AttributeUsageAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)>
+<AttributeUsageAttribute()>
 Public Property ExpireDate As Date
 ```
 
 ```csharp
-[PropertyBitValueAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)]
+[PropertyBitValueAttribute()]
 public DateTime ExpireDate {get; set;}
 ```
 

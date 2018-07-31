@@ -91,7 +91,7 @@ When executing a query, a generic object builds and executes a SQL query and pla
 
 Index the row by fieldname to access or modify data for a field within the row.
 
-To add a row to the generic and schedule it for insertion into the database, call the [AddNew](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~AddNew().md) method.
+To add a row to the generic and schedule it for insertion into the database, call the [AddNew](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~AddNew().md) method.
 
 #### *Accessing Generic DataRows*
 
@@ -174,10 +174,10 @@ It is often the case that you will want to query a table (for example, the case 
 
 **NOTE:** The concepts of "child" and "parent", when referring to generics, is not necessarily the same as the natural "child" and "parent" concepts in terms of the database. For example, one might think of an OTM relation as a "parent"->"children" relationship where the "O" is the parent. Generics can be linked OTM or MTO. The concept of a "parent" generic or "child" generic doesn't refer to the relationship cardinality, it refers to which generic traversed from which and in what order they will be processed during a Query or Update operation.
 
-* Child generics are created via [Traverse](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~Traverse.md), [TraverseFromParent](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~TraverseFromParent.md), or [TraverseFromRoot](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~TraverseFromRoot.md)
+* Child generics are created via [Traverse](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~Traverse.md), [TraverseFromParent](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~TraverseFromParent.md), or [TraverseFromRoot](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~TraverseFromRoot.md)
 * It is possible for a generic to be both a parent generic and have child generics related to it, thus creating a generic hierarchy.
 * [Querying](../../sdk/fcSDK~FChoice.Foundation.FCGeneric~Query.md) a generic in a hierarchy actually queries the top most parent generic in the hierarchy, which in turn populates all the generics in the hierarchy. You only need to call [Query](../../sdk/FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk~Query.md) once on the hierarchy.
-* After the Generic Hierarchy is populated, it is easy to navigate to the related child or parent generic's rows using [ClarifyDataRow.RelatedRows](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow~RelatedRows.md).
+* After the Generic Hierarchy is populated, it is easy to navigate to the related child or parent generic's rows using [ClarifyDataRow.RelatedRows](../../sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow~RelatedRows.md).
 
 The following example shows how to relate a case generic to a site and iterate through their rows.
 

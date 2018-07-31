@@ -12,7 +12,7 @@ Public Property POAmount As Decimal
 ```
 
 ```csharp
-[PropertyBitValueAttribute(FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.md)]
+[PropertyBitValueAttribute()]
 public decimal POAmount {get; set;}
 ```
 

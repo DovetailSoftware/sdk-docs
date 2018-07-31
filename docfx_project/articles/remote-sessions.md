@@ -4,7 +4,7 @@ When a new user is logged in using CreateSession there is a session management m
 
 ## Memory State Manager
 
-The most common and default session provider is the [MemoryStateManager](../api/FChoice.Common.State.MemoryStateManager.yml). Nothing special needs to be done to use this manager. The only setting you may wish to change is the session timeout which is talked about in Configuring a State Manager below. The rest of this document will discuss the other, more complex, type of manager Remote State Managers.
+The most common and default session provider is the [MemoryStateManager](/api/FChoice.Common.State.MemoryStateManager.html). Nothing special needs to be done to use this manager. The only setting you may wish to change is the session timeout which is talked about in Configuring a State Manager below. The rest of this document will discuss the other, more complex, type of manager Remote State Managers.
 
 ## Remote State Managers
 
@@ -36,7 +36,7 @@ There are SQL scripts for each supported database system in the **fcSDK** instal
 
 ## State Managers
 
-The [StateManager](../api/FChoice.Common.State.StateManager.yml) object abstracts the act of storing and retrieving the user's session data. In order to take advantage of Remote Sessions you need to configure your application to use an appropriate state manager. You also need to do the following configuration if you wish to set the timeout of the [MemoryStateManager](../sdk/FChoice.Common~FChoice.Common.State.MemoryStateManager.md).
+The [StateManager](/api/FChoice.Common.State.StateManager.html) object abstracts the act of storing and retrieving the user's session data. In order to take advantage of Remote Sessions you need to configure your application to use an appropriate state manager. You also need to do the following configuration if you wish to set the timeout of the [MemoryStateManager](../sdk/FChoice.Common~FChoice.Common.State.MemoryStateManager.md).
 
 The **fcSDK** provides the following state managers:
 

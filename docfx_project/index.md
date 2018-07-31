@@ -41,13 +41,13 @@ The **fcSDK** includes a COM "Compatibility Layer" which allows it to appear as 
 
 Supplies syntax, code samples, and related information for each class in the **fcSDK** namespaces.
 
-* [FChoice.Common Namespace](api/FChoice.Common.md)<br/>Provides basic supporting services like configuration, logging, and error management services to Dovetail .NET-based products.
-* [FChoice.Foundation.Clarify Namespace](api/FChoice.Foundation.Clarify.md)<br/>Provides Clarify-specific authentication, business logic, and data access for Clarify databases.
+* [FChoice.Common Namespace](sdk/FChoice.Common.md)<br/>Provides basic supporting services like configuration, logging, and error management services to Dovetail .NET-based products.
+* [FChoice.Foundation.Clarify Namespace](/api/FChoice.Foundation.Clarify.html)<br/>Provides Clarify-specific authentication, business logic, and data access for Clarify databases.
 * Individual Toolkit Namespaces:
-    * [FChoice.Toolkits.Clarify.Contracts](sdk/
-    FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts_namespace.md) - API Toolkit for ClearContracts operations
-    * [FChoice.Toolkits.Clarify.DepotRepair](sdk/
-    FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair_namespace.md) - API Toolkit for Depot Repair operations
+    * [FChoice.Toolkits.Clarify.Contracts](/sdk/
+    FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts_namespace.html) - API Toolkit for ClearContracts operations
+    * [FChoice.Toolkits.Clarify.DepotRepair](/sdk/
+    FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair_namespace.html) - API Toolkit for Depot Repair operations
     * [FChoice.Toolkits.Clarify.FieldOps](sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps_namespace.md) - API Toolkit for Field Operations
     * [FChoice.Toolkits.Clarify.Interfaces](sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces_namespace.md) - API Toolkit for core operations such as sites and contact manipulation
     * [FChoice.Toolkits.Clarify.Logistics](sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md) - API Toolkit for ClearLogistics operations

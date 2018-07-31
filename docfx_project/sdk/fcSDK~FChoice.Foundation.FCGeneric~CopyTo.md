@@ -1,10 +1,10 @@
 ﻿### CopyTo Method (FCGeneric)
 
-A one-dimensional [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemarrayclasstopic.htm) to copy the current [Rows](/sdk/fcSDK~FChoice.Foundation.FCGeneric~Rows.md) collection into
+A one-dimensional [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemarrayclasstopic.htm) to copy the current rows collection into
 
 The destination [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemarrayclasstopic.htm) index to start copying into.
 
-Copies all the [rows](/sdk/fcSDK~FChoice.Foundation.FCGeneric~Rows.md) of the current **FCGeneric** into to a one-dimensional [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemarrayclasstopic.htm).
+Copies all the rows of the current **FCGeneric** into to a one-dimensional [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemarrayclasstopic.htm).
 
 #### Syntax
 
@@ -28,7 +28,7 @@ public void CopyTo(
 
 _array_
 
-A one-dimensional [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemarrayclasstopic.htm) to copy the current [Rows](/sdk/fcSDK~FChoice.Foundation.FCGeneric~Rows.md) collection into
+A one-dimensional [Array](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemarrayclasstopic.htm) to copy the current rows collection into
 
 _index_
 

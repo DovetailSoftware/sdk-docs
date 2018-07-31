@@ -1,6 +1,6 @@
 # FCFL/FCFL.NET Type Library Changes
 
-## tYpeLIb iD
+## TypeLib ID
 
 (appears in Add Reference dialog in VB6) 
 

@@ -34,7 +34,7 @@ Row to be duplicated that is based on the same Table.
 
 This method effectively copies a **ClarifyDataRow**. All available fields from the **rowToDuplicate** parameter are copied into the new row even if the field is not currently populated in this **ClarifyGeneric**. 
 
-The new row added to the **ClarifyGeneric** will be at the end of the [Rows](/sdk/fcSDK~FChoice.Foundation.FCGeneric~Rows.md) collection.
+The new row added to the **ClarifyGeneric** will be at the end of the Rows collection.
 
 If you do not supply an objId, **ClarifyGeneric**  will generate a proper objId for the newly-added row. A custom objId can be provided and **ClarifyGeneric** will not tamper with the objId. It is the responsibility of the caller to ensure that the custom objId is unique within the system, otherwise data corruption could occur.
 

@@ -29,8 +29,6 @@ Provides APIs to allow you to modify ClearContracts objects, including contracts
 | ![Class](dotnetimages/Class.png) | [UpdateScheduleSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UpdateScheduleSetup.md) | Used by the [UpdateSchedule](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~UpdateSchedule(UpdateScheduleSetup).md) method as setup data for invocation. |
 | ![Class](dotnetimages/Class.png) | [YankQuoteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.YankQuoteSetup.md) | Used by the [YankQuote](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~YankQuote(YankQuoteSetup).md) method as setup data for invocation. |
 
-
-
 #### Reference
 
 [FChoice.Toolkits.Clarify Assembly](FChoice.Toolkits.Clarify.md)

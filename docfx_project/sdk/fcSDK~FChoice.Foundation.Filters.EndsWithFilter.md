@@ -12,9 +12,10 @@ Public Class EndsWithFilter
 ```
 
 ```csharp
-public class EndsWithFilter : LikeFilter 
+public class EndsWithFilter : LikeFilter
+```
 
-Example
+#### Example
 
 [**Developer Walkthrough - Advanced Filtering**](../articles/walkthroughs/filtering.md)
 

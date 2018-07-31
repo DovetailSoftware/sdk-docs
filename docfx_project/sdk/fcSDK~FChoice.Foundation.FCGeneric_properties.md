@@ -7,7 +7,7 @@ For a list of all members of this type, see [FCGeneric members](fcSDK~FChoice.Fo
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [ChildGenerics](fcSDK~FChoice.Foundation.FCGeneric~ChildGenerics.md) | Returns a dictionary (keyed by parent to child relation name) of child generics belonging to this **FCGeneric**.   |
-| ![Public Property](dotnetimages/publicProperty.png) | [Count](fcSDK~FChoice.Foundation.FCGeneric~Count.md) | Returns the number of rows currently populated by the [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) or [AddNew](/sdk/fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~AddNew.md) methods.   |
+| ![Public Property](dotnetimages/publicProperty.png) | [Count](fcSDK~FChoice.Foundation.FCGeneric~Count.md) | Returns the number of rows currently populated by the [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) or [AddNew](fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric~AddNew.md) methods.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [DataFields](fcSDK~FChoice.Foundation.FCGeneric~DataFields.md) | Collection of data fields that will be returned when [Query](fcSDK~FChoice.Foundation.FCGeneric~Query.md) is invoked. If no fields are selected all fields are returned.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [DataRestrictionsEnabled](fcSDK~FChoice.Foundation.FCGeneric~DataRestrictionsEnabled.md) | 
 Sets whether or not this **FCGeneric** will have the DataRestrictions feature enabled if available.

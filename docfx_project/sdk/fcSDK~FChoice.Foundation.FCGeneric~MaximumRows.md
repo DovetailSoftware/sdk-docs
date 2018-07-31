@@ -1,6 +1,6 @@
 ﻿### MaximumRows Property (FCGeneric)
 
-Controls the maximum number of rows to be returned by the Genric Query.
+Controls the maximum number of rows to be returned by the Generic Query.
 
 #### Syntax
 

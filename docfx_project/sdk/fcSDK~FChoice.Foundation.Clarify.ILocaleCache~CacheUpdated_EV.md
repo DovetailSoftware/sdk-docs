@@ -7,7 +7,8 @@
 
 Event CacheUpdated As EventHandler
 ```
-csharp
+
+```csharp
 event EventHandler CacheUpdated
 ```
 

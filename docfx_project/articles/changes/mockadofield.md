@@ -28,11 +28,10 @@ The following properties are available on the FCFLCompat.MockAdoField object.
 
 | Property | Comments |
 |:--- |:--- |
-| DefinedSize	| The Size of the Field |
+| DefinedSize | The Size of the Field |
 | Name | The Name of the Field |
 | Type | The Type of the Field<br/><br/>Textual fields will always return type **200 - VARCHAR** even if they are non VARCHAR types such as CHAR, TEXT. |
-| Value |	The Value of the Field.  
-This is the default property. |
+| Value | The Value of the Field.<br/><br/>This is the default property. |
 
 ### Example of using the MockAdoField Object
 

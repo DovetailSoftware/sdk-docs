@@ -7,6 +7,7 @@
 | FCFL | fcSDK Compatibility |
 |:--- |:--- |
 | FCFL API Toolkit for Depot Repair | First Choice SDK for Clarify Library |
+
 ## TypeLib ID
 
 | FCFL | fcSDK Compatibility |
