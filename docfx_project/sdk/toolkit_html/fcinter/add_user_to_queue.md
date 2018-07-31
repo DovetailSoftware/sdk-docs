@@ -12,7 +12,7 @@ Public Function add_user_to_queue(ByVal queue As String, _
 This API allows you to add a user (or supervisor) to a queue.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 queue                                     Yes                         The name of the queue
 
@@ -22,7 +22,7 @@ supervisor                             Yes     
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

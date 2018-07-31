@@ -14,7 +14,7 @@ Public Function yank_case(ByVal case_id As String, _
 This API causes the specified case to be yanked from the current location to a new owner's WIPBin. The date/time of the yank, and the person yanking the case are specified. The person who yanks the case becomes the new owner. The WIPBin to place the case in may also be specified. This is augmented function from base Clarify, where the case is always placed in the default WIPBin. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         The case to yank
 
@@ -34,7 +34,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

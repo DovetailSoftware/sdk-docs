@@ -26,7 +26,7 @@ Only one of the three locations may be specified. In addition, the API allows fo
 When a site_part is moved, all sub-site_parts underneath it are also moved.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 sp_objid                                                Yes                         The OBJID of the site_part to be moved
 
@@ -54,7 +54,7 @@ install_and_move                                Y
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

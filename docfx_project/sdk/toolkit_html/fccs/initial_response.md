@@ -16,7 +16,7 @@ Public Function initial_response(ByVal case_id As String, _
 This API will mark the initial response to a case. The case supplied should not already have had the intial response marked because it can only be marked once for a given case. The response can be marked as being from a phone call (True), or from an email (False). The user who performed the initial response and the time of that response can be specified. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         The case that the initial response is for
 
@@ -36,7 +36,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

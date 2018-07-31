@@ -18,7 +18,7 @@ Public Function create_eco_item( _
 This API is used to create new ECO items. It requires that a valid ECO Header be specified. The objid of the ECO item created is returned in the object property _ret_objid_  (FCDR.ret_objid).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 focus_type                            Yes                         This points the ECO item to 5148 for ECO headers, or 329 for Mod levels.
 
@@ -32,7 +32,7 @@ result_mod_level                 Yes              
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -12,7 +12,7 @@ Public Function add_lss(ByVal site_id As String, _
 This API is used to relate sites to the inventory locations that service them. The site and location must be specified, and the rank (from 1 upwards) of the order in which the locations service the site. The active flag denotes if the servicing is currently active.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 site_id                                    Yes                         Name of the site to be serviced
 
@@ -24,7 +24,7 @@ loc_rank                                 Yes  
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

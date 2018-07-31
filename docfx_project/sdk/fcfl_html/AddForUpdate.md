@@ -21,13 +21,13 @@ You can then change any fields, or set any relations, just like any other record
 **Note**: This method does not validate the objid you provide. If it is illegal, you will receive a runtime error when you attempt to update the record.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 theObjid                 Yes                         This is the objid of the record to update
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12031                                      This operation is not valid for a generic that is marked distinct
 

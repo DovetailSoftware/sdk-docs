@@ -16,17 +16,15 @@ Public Function dispatch_cr(ByVal cr_id As String, _
 This API causes the specified change request to be dispatched to the specified queue. The change request must not be currently dispatched to a queue. The API allows for the setting of the dispatch date, and the user who dispatched the change request. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The change request Id to be dispatched
 
 queue_name                         Yes                         The queue to dispatch to
 
-disp_date                              No                           When was the change request dispatched. If this parameter is left blank, the
+disp_date                              No                           When was the change request dispatched. If this parameter is left blank, the CR is dispatched at the current time
 
-CR is dispatched at the current time
-
-user_name                             No                           The user who dispatched the change request. If left blank, the current user                                                                            performs the dispatch
+user_name                             No                           The user who dispatched the change request. If left blank, the current user performs the dispatch
 
 gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
 
@@ -71,11 +69,9 @@ var ret_int = fccq.dispatch_cr("10", "Hardware", "", "", true);
 Dim ret_int As Integer
 
 ret_int = fccq.dispatch_cr("2", "Software", "11/23/97 22:00:00", _
-
                            "nancy", False)
 
 **JavaScript:**
 
 var ret_int = fccq.dispatch_cr("2", "Software", "11/23/97 22:00:00", _
-
                            "nancy", false);

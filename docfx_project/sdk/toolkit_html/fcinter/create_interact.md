@@ -69,7 +69,7 @@ Public Function create_interact_list(ByVal the_title As String, _
 This API creates an interaction in Clarify. An interaction stores information on communications with contacts. This API saves the reason for the interaction, if the interaction is product related, how much time was spent with the contact, and so on. It actually creates an interact record and an activity log entry, and allows time bomb records to be created.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 the_title                                 No                           Title of the interaction
 
@@ -143,7 +143,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

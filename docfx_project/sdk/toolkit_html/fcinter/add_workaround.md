@@ -59,7 +59,7 @@ Public Function add_workaround_list(ByVal soln_id As String, _
 These APIs add a new workaround to an existing solution. You must specify the solution ID or the solution's objid, the workaround, if it is public, the workaround creation date, and the resolution code. You may specify additional fields for the workaround, if needed.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 soln_id                                   No                           ID of solution to link workaround to
 
@@ -101,7 +101,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

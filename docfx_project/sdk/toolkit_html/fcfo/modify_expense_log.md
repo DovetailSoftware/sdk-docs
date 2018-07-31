@@ -28,7 +28,7 @@ Public Function modify_expense_log(ByVal expense_log_objid As Long, _
 This API modifies an existing expense log record in the Clarify database. You must pass in a valid expense log objid (which is returned by the _create_expsense_log_ API). You can specify the a variety of data items for the expense, including who performed the expense, notes, and a quantity and rate for the expense. If you do not specify a value for one of the arguments, the value in the existing record is not updated.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 expense_log_objid              Yes                         The OBJID of the expense log to modify
 
@@ -62,7 +62,7 @@ resolution                              No     
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

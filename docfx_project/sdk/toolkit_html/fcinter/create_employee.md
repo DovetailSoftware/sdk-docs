@@ -96,7 +96,7 @@ This has the following implications:
 **Note:** If you wish to create an employee without creating a user at the database level, set the _FCINTER.UseDatabaseLogins_ property to False.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 first_name                             Yes                         Employee First Name
 
@@ -194,7 +194,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

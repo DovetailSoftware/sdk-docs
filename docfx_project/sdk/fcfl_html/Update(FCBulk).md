@@ -21,7 +21,7 @@ If you wish to update all of the (modified) records in the generic object, you s
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 13001                                      You may not update a view
 

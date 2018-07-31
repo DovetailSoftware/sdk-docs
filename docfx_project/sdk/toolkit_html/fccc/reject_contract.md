@@ -14,7 +14,7 @@ Public Function reject_contract(ByVal contract_id As String, _
 This API is used to reject quotes (close them) in ClearContracts. The API accepts the contract ID, the new status (in Closed Contract condition), and optional notes. The user performing the reject, and the date/time of the reject can also be specified. The API can also either generate time bombs (for business rule notification) or not, based on the last argument.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 contract_id                            Yes                         ID number of the contract/quote to reject
 
@@ -32,7 +32,7 @@ gen_time_bomb                   Yes             �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

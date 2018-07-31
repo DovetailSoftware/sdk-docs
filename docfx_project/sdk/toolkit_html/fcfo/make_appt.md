@@ -24,7 +24,7 @@ This API creates an appointment record in the Clarify database. The user can spe
 Each appointment must be specified for a given employee or a piece of equipment (site_part). Both cannot be specified. The appointment type and subtype are optional code list values that may be specified, and the case ID may also be optionally specified.  The user performing the logging may be specified as can the creation time. The API returns the objid of the appointment object created.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 description                            No                           The description of the appointment
 
@@ -58,7 +58,7 @@ creation_time                        No         
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

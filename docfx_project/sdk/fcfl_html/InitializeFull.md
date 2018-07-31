@@ -48,7 +48,7 @@ This method initializes the FCApplication, including:
 For additional  information on the parameters,  refer to the _fc.env_ section of the **FCFL** user guide.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 LoginName                            Yes                         Country Name
 

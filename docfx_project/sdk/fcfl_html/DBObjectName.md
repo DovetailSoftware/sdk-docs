@@ -21,7 +21,7 @@ When you have a generic object that is a child object (that is, is traversed fro
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12035                                      The specified table or view name is not defined
 

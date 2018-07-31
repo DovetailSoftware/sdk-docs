@@ -24,7 +24,7 @@ It is basically the same as setting the relation via the Fields collection. This
 You must update the object via the Update or UpdateAll method for the relation to take place.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 the_objid                               Yes                         The objid of the object to relate to
 
@@ -32,7 +32,7 @@ the_field                                   �
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12014                                      The specified field is not a long integer field
 

@@ -20,13 +20,13 @@ The method works for any and all cardinalities (OTM, MTO, OTO, MTM), and the rel
 **Note**: The unrelate does not take place until the Update or UpdateAll method is called to update the current record in the generic object.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 the_rel                                    Yes                         The relation to use to find the objects to unrelate
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12031                                      This operation is not valid for a generic that is marked distinct
 

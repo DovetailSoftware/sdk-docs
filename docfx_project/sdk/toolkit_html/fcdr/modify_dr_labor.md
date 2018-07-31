@@ -27,7 +27,7 @@ Public Function modify_dr_labor(ByVal time_log_objid As Long, _
 This API allows modification of labor that is logged against a depot repair part.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 time_log_objid                     Yes                         Object ID of specified time log.
 
@@ -53,7 +53,7 @@ different time is not supplied.
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

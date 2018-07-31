@@ -12,7 +12,7 @@ This API causes the specified solution to be moved from one WIPBin to another (f
 **Note:** This API allows you to move a solution object from one WIPBin to another, even if the object is currently dispatched. Since WIPBins are internal to a user, there really is no reason that you shouldn't be able to move the internal (to a user) location of the object. This is an enhancement to base Clarify function, which requires that the object not be dispatched to be moved.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 solution_id                            Yes                         The solution to move
 
@@ -20,7 +20,7 @@ new_wipbin                          Yes        
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

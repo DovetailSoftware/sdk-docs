@@ -16,7 +16,7 @@ Public Function unlink_case_from_workaround(ByVal case_id As String, _
 This API allows a case to be unlinked from the workaround it is currently linked to. The case must already be linked to a workaround. The unlink date, and user can be specified. Also, a time bomb can be generated for business rules.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         Case id to unlink from
 
@@ -28,7 +28,7 @@ create_time_bomb               Yes                
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

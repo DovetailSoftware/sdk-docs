@@ -32,7 +32,7 @@ Public Sub AppendItem(ByRef item1 As Variant, _
 Append from one to nine items onto the list.  Items are appended in order on the end of the list.  Items must be all of the same type and they must match the types of items currently in the list.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 item1                                       Yes                         First item to append to the list.
 
@@ -40,7 +40,7 @@ item2 - item9                          No       
 
 **Error codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 4                                              Can not add item to list.  List is of different type than item.
 

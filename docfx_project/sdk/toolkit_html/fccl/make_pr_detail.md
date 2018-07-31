@@ -79,7 +79,7 @@ You may specify a number of values such as the billing site (defaults to the mai
 If a site part is being specified for which to create the Part Request for, then the site part objid id must be passed in the sp_rec_objid parameter, and the keyword "site_part" must be passed in the sp_rec_recordtype parameter.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 hdr_num                                Yes                         Part request header number
 
@@ -143,7 +143,7 @@ str_val1, str_val2, date_val1                         �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

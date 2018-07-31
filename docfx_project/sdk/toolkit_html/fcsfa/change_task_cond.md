@@ -18,7 +18,7 @@ Public Function change_task_cond(ByVal task_id As String, _
 This API can be used to change the condition and (optionally) a status for an action item. You must supply the action item ID and the condition, but no other data is required. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 task_id                                   Yes                         The ID of the action item to change
 
@@ -38,7 +38,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -16,7 +16,7 @@ Public Function dispatch_subcase(ByVal subcase_id As String, _
 This API causes the specified subcase to be dispatched to the specified queue. The subcase must be in open condition, and not currently dispatched to a queue. The API allows for the setting of the dispatch date, and the user who dispatched the subcase. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 subcase_id                            Yes                         The subcase to dispatch
 
@@ -34,7 +34,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

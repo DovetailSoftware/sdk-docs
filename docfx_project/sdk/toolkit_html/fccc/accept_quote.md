@@ -17,7 +17,7 @@ Public Function accept_quote(ByVal quote_id As String, _
 This API cause the specified quote to be accepted from a dispatched queue. The quote must be currently dispatched to a queue. The date/time of the accept, the WIPBin to place the quote in, and the user performing the accept can be specified. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 quote_id                                                Yes                         The quote to accept
 
@@ -37,7 +37,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

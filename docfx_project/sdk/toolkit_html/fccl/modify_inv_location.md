@@ -20,7 +20,7 @@ This API is used to modify inventory locations in the system. The old name must 
 The trans authority determines part authorization levels, and has three possible values: none, all, auth parts only.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 old_name                               Yes                         Name of the inventory location
 
@@ -44,7 +44,7 @@ trans_auth_str                      No          �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

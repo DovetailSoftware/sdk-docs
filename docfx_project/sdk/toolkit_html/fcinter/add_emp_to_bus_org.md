@@ -12,7 +12,7 @@ Public Function add_emp_to_bus_org(ByVal user_name As String, _
 This API adds an employee as a team member to an account (bus_org) with the specified role. You must specify the user name, account ID, and role name.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 user_name                             Yes                         User name of account team member
 
@@ -22,7 +22,7 @@ role_name                              No     
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

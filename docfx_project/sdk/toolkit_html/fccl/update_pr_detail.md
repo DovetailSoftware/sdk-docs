@@ -57,7 +57,7 @@ These APIs allow for the updating of part request details. You must supply the d
 If you modify the part/mod_level for the part request, or the site_part, you must supply either a valid site_part record, or you must supply the part_num, mod_leve, **AND** domain. You may optionally specify the serial_no field if it is a site_part (serialized).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 dtl_num                                 Yes                         The part request to update
 
@@ -107,7 +107,7 @@ str_val1, str_val2, date_val1                         �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

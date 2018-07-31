@@ -18,7 +18,7 @@ This method returns an objid for a given state in a given country. If the state 
 **Note**: The state name supplied should be the "long" name (such as "Texas").
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 Country                                 Yes                         Name of country.
 
@@ -30,7 +30,7 @@ The objid of the state. Zero, if the state or country is not found.
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 10011                                      Country must not be empty.
 

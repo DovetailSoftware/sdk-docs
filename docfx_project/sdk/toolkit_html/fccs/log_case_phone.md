@@ -67,7 +67,7 @@ The objid of the commitment log record is returned in the FCCS object variable _
 The objid of the status change record is returned in the FCCS object variable _ret_objid3_.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         The case to create the log for
 
@@ -139,7 +139,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

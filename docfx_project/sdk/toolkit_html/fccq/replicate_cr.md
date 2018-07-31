@@ -22,7 +22,7 @@ This API causes the specified change request to be replicated (copied) to a new 
 The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The change request to replicate
 
@@ -38,7 +38,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors; sets objid and id_number of new bug object in ret_objid (Long) and ret_id_num (String) global variables
 

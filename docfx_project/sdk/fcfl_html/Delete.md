@@ -25,7 +25,7 @@ Further, when you perform a Delete, the current record is moved to the next avai
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12013                                      You may not delete a record marked to be added to the generic object
 

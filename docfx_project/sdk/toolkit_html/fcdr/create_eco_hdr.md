@@ -22,7 +22,7 @@ Public Function create_eco_hdr(ByVal eco_title As String, _
 This API create a new ECO Header object.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 eco_title                                 No                           The title of the new ECO header.
 
@@ -48,7 +48,7 @@ description                            No      
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

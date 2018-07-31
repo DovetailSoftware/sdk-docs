@@ -14,7 +14,7 @@ Public Function delete_alt_part(ByVal part_num As String, _
 This API causes the second part/revision listed to be removed as an alternate part for the first.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 part_num                               Yes                         The primary part number
 
@@ -30,7 +30,7 @@ alt_domain                            Yes      
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -18,7 +18,7 @@ Public Function reject_solution(ByVal solution_id As String, _
 This API causes the specified solution to be rejected from the queue. The date and user performing the reject can be specified, and the API allows the solution to be placed back in any WIPBin of the owner. This is an augmentation over base Clarify where it is always rejected back to the default WIPBin. Also, the API allows for time bombs (for business rules) to be created, or not.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 solution_id                            Yes                         The solution to reject
 
@@ -36,7 +36,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

@@ -99,7 +99,7 @@ These APIs are used to create new change requests. They require that the part nu
 If you specify a queue name, the CR will be initially dispatched to the queue. Otherwise, it will be located in the owner's WIPBin. You may also list who created the CR, and when it was created. You may specify additional fields for the CR object, and if a time bomb should be generated (for business rule notification). If you dispatch the CR, a second time bomb will be generated. If you add notes to the CR, another time bomb will be generated.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 part_num                               Yes                         Part number of part for change request
 
@@ -109,9 +109,7 @@ domain                                   Yes 
 
 the_title                                 No                           Title of the change request
 
-status                                     No                           Initial status (in condition CR Open) of the change request. If blank, the
-
-default status is used
+status                                     No                           Initial status (in condition CR Open) of the change request. If blank, the default status is used 
 
 note_log                                                No                           Notes about the change request. If blank, no notes are logged
 
@@ -119,9 +117,7 @@ cr_type                                  No  
 
 priority                                   No                           A code list value from list CR PRIORITY. If blank, default value is used
 
-frequency                              No                           A code list value from list CR REPRODUCIBLE. If blank, default value is
-
-used
+frequency                              No                           A code list value from list CR REPRODUCIBLE. If blank, default value is used
 
 found_on                              No                           Level 1 of the list CR_DESC. If blank, default value is used
 
@@ -141,9 +137,7 @@ test                                      
 
 queue_name                         No                           Queue to dispatch the CR to. If blank, no dispatch occurs
 
-user_name                             No                           The user who created the change request. If left blank, the current user
-
-                                                                                is used
+user_name                             No                           The user who created the change request. If left blank, the current user is used
 
 cr_date                                   No                           The date the CR was created. If blank, the current date/time is used
 
@@ -169,7 +163,7 @@ val_list                                   No�
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors; sets objid and id_number of new bug object in ret_objid (Long) and ret_id_num (String) global variables
 

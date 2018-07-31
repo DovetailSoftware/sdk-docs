@@ -16,7 +16,7 @@ Public Function RankIsInGbstLst(ByVal ListName As String, ByVal Rank As Long) As
 This method returns a boolean indicating if an element having a given rank exists in a given Application Popup list. The gbst_elm table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 ListName                               Yes                         Application List Name
 
@@ -28,7 +28,7 @@ A boolean indicating if an element having a given rank exists in a given Applica
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 10008                                      ListName must not be empty.
 

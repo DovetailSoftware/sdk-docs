@@ -101,7 +101,7 @@ Public Function create_update_contract_list(ByVal contract_id As String, _
 These APIs create or update a contract. An existing contract can be updated, or a new contract can be created.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 contract_id                            No                           Contract Id, an existing one, or blank one for new contract
 
@@ -175,7 +175,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -61,7 +61,7 @@ Public Function close_subcase_list(ByVal subcase_id As String, _
 These APIs are used to close a subcase. The subcase must be in open condition. The APIs allow for the assigning of a closed status, as well as resolution codes, and a summary string. The APIs allow you to specify a user who performed the close, as well as the date/time of closure. The APIs allow for additional fields to be written to the close_case object via three list arguments, and the API returns the objid of the newly created close_case object(in the FCCS object return variable _ret_objid_). The APIs can also generate a time bomb (for business rule notification). The business rule version of this API does not return the objid of the new close_case object.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 subcase_id                            Yes                         The subcase to close
 

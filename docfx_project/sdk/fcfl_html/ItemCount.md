@@ -16,7 +16,7 @@ Public Function ItemCount(path_str As String, separator As String) As Integer
 Returns an Integer containing the number of items in the specified delimited text. This provides the same functionality as the ClearBasic ItemCount function.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 path_str                                 Yes                         String containing the text from which a range of items is
 

@@ -18,7 +18,7 @@ Public Function modify_gl_account(ByVal old_name As String, _
 This API is used to modify existing GL accounts. Any of the attributes of the account can be changed. See the add_gl_account API desciption for more information. To leave any of the information unchanged, simply do not specify a value for it. For example, if you do not wish to change the name of the account, leave _new_name_ blank.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 old_name                               Yes                         The current ame of the GL account
 
@@ -40,7 +40,7 @@ site_id                                    Ye
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

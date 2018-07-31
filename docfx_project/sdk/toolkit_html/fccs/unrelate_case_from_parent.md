@@ -8,13 +8,13 @@ Public Function unrelate_case_from_parent(ByVal case_id As String) As Integer
 This API allows a case to be unrelated from the current parent case. The case must be related to a parent case.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         The ID of the case. The parent of this case will be cleared.
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

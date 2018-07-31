@@ -18,7 +18,7 @@ Public Function forward_subcase(ByVal subcase_id As String, _
 This API causes the specified subcase to be reject-forwarded from one queue to another. The subcase must be in open condition, and currently dispatched to a queue. The API allows for the setting of the forward date, some notes about the forward, and the user who forwarded the subcase. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 subcase_id                            Yes                         The subcase to reject-forward
 
@@ -38,7 +38,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

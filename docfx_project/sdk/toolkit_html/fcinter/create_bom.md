@@ -20,7 +20,7 @@ Public Function create_bom(ByVal parent_part As String, _
 This API places a revision of a part in a bill of materials for another part/revision. You must specify the parent part/rev as well as the child part/rev. Finally, you must specify how many of the child parts are contained in the parent part.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 parent_part                           Yes                         Part number of the parent part
 
@@ -38,7 +38,7 @@ quantity                                 Yes  
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

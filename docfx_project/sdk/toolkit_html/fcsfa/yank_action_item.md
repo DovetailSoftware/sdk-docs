@@ -42,29 +42,21 @@ Public Function yank_quote(ByVal the_id As String, _
 These APIs cause the specified action item, opportunity, or quote to be yanked from the current location to a new owner's WIPBin. The date/time of the yank, and the person yanking the object are specified. The person who yanks the object becomes the new owner. The WIPBin to place the object in may also be specified. This is augmented function from base Clarify, where the object is always placed in the default WIPBin. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 the_id                                     Yes                         The object to yank
 
-wipbin                                    No                           The WIPBin to place the object in. If left blank, the default WIPBin for
+wipbin                                    No                           The WIPBin to place the object in. If left blank, the default WIPBin for the user is used
 
-                                                                                the user is used
+yank_date                             No                           When was the object yanked. If this parameter is left blank, the yank occurs at the current time
 
-yank_date                             No                           When was the object yanked. If this parameter is left blank, the yank
-
-occurs at the current time
-
-user_name                             No                           The user who yanked the object. If left blank, the current user performs
-
-the yank. For business rules, it defaults to the user_name who is
-
-executing the cbbatch
+user_name                             No                           The user who yanked the object. If left blank, the current user performs the yank. For business rules, it defaults to the user_name who is executing the cbbatch
 
 gen_time_bombs                 Yes                         Should a time_bomb be generated (for notifications/business rules)
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

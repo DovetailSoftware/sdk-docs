@@ -51,7 +51,7 @@ Public Function log_contract_note_list(contract_id As String, _
 This API causes a note log to be create and added to the specified contract.  It does it in the name of the user given and allows the setting of user.   It allows the setting of optional fields on the notes_log record with the optional list parameters.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 contract_id                            Yes                         The contract to add the note to
 
@@ -89,7 +89,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

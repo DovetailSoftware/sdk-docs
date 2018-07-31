@@ -20,7 +20,7 @@ Public Function mod_part_stocking_lev(ByVal bin_name As String, _
 This API modifies an existing  part restocking authorization level. The location, bin, part number/revision/domain must be specified, as well as the various levels and the reorder queue. The _to_bin_ field is move the record to another bin, and the _to_queue_ field can be used to change the name of the queue.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 bin_name                               Yes                         The bin for the restocking
 
@@ -52,7 +52,7 @@ is_active                                   �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

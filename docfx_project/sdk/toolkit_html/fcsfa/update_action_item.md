@@ -101,7 +101,7 @@ These APIs are used to update existing action items. Virtually all of the data i
 If you want to relate a contact to the action item you must supply all three of the contact fields. Likewise, if you wish to associate a lead to the action item you must supply both lead fields.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 task_id                                   Yes                         ID number of the action item to modify
 
@@ -179,7 +179,7 @@ but does not need to have any items in the list
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

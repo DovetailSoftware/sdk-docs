@@ -109,7 +109,7 @@ In addition (for updates), the APIs allow you to blank some of the data. Setting
 The primary address is required for inserts. If the shipping and billing addresses are not supplied, they are defaulted to the same value as the primary address. For updates, you must specify the address to change to. If the value is set to �1 then no change is made.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 site_objid                              Yes                         For inserts, this is set to zero. For updates, set it to the site objid. If (for updates)
 
@@ -217,7 +217,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -32,7 +32,7 @@ There are a variety of optional items that you may set, including the action typ
 The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 lead_objid                             Yes                         The unique object ID of the lead
 
@@ -64,7 +64,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

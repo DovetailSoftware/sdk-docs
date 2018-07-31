@@ -12,7 +12,7 @@ Public Function create_container(ByVal cont_name As String, _
 This API creates a new container object. It will be installed at the specified location, either in the bin provided, or under the container specified.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cont_name                            Yes                         Name of the container to create
 
@@ -24,7 +24,7 @@ parent_cont                          No        
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

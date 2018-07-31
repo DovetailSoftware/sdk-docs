@@ -16,7 +16,7 @@ Function close_opp(ByVal opp_id As String, _
 This API causes the specified opportunity to be closed. You may specify the status (in closed opportunity condition) for the opportunity, as well as the user name of the closer, and the date/time of the close. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 opp_id                                   Yes                         The ID of the opportunity to close
 
@@ -36,7 +36,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

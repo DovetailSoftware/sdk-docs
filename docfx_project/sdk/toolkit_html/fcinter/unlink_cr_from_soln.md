@@ -19,7 +19,7 @@ Public Function unlink_cr_from_soln(ByVal cr_id As String, _
 This API allows a CR to be unlinked from a solution it is currently linked to. The CR must already be linked to the solution. The unlink date, and user can be specified. Also, a time bomb can be generated for business rules.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         CR to unlink
 
@@ -33,7 +33,7 @@ create_time_bomb               Yes                
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -12,7 +12,7 @@ Public Function add_module_to_cr(ByVal fix_objid As Long, _
 This API allows for adding a module (file name and revision from a source control system) to the list of modules fixed for a given fix of a CR. The fix_objid must be the objid of a specific fix_bug record.  No checking is performed to validate that the file/revision is valid in the source control system.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 fix_objid                 Yes                         The objid of the fix_bug record
 

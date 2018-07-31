@@ -18,7 +18,7 @@ This method returns the string value for a given element in a given Application 
 If the element is not found in the list, this method returns a value of empty string (""). The gbst_elm table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 ListName                               Yes                         Name of the list
 

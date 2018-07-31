@@ -59,7 +59,7 @@ Optional val_list As Variant) As Integer
 These APIs are used to close a change request. The change request must be in a condition/status that allows the transition to the closed condition. The APIs allow for the assigning of a closed status, as well as notes, the test cases used to verify the close, and the release. The APIs allow you to specify a user who performed the close, as well as the date/time of closure. The APIs allow for additional fields to be written to the close_bug object.  The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The change request Id to be closed
 
@@ -101,7 +101,7 @@ val_list                                   No�
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors; sets objid of new close_bug object in the ret_objid (Long) global variable
 

@@ -41,7 +41,7 @@ These APIs are used to modify existing subcases. If the priority or severity is 
 The argument _only_owner_ allows you to specify that only the current owner of the subcase may modify it. If the user_name (or default user if no name is provided) is not the current owner, and this flag is set to True, the modify will not happen. If _only_owner_ is set to False, any user can make the modification. This is an augmentation of the ClearBasic version of the APIs.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 subcase_id                            Yes                         The subcase to modify
 
@@ -87,7 +87,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

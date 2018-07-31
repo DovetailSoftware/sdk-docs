@@ -30,7 +30,7 @@ This API can also be used to create price instances for standard costs. Just use
 The non-business rule version of the API returns the objid of the created price instance record.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 part_num                               Yes                         Part number to price
 
@@ -54,7 +54,7 @@ end_date                               No    �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

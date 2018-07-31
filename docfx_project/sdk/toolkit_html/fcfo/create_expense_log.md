@@ -20,7 +20,7 @@ Public Function create_expense_log(ByVal onsite_objid As Long, _
 This API allows creation of an expense log that is related to an onsite log. The OBJID of the onsite log or a case/subcase id must be supplied (but not both), and the other parameters are all optional. If you do not specify a billing rate, the employee's labor_rate field will be used.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 onsite_objid                          Yes                         The OBJID of the onsite log this expense log is related to
 
@@ -54,7 +54,7 @@ resolution                              No     
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

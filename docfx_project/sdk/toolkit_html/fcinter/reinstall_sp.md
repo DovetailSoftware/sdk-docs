@@ -18,7 +18,7 @@ This API can be used to re-install a site part (and the sub-parts installed unde
 In addition, the user performing the action, and the time of the action can be specified, as well as if activity logs should be generated, or not. Finally, a flag allows the activities to be either "Re-install" or just "Install"
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 sp_objid                                Yes                         OBJID for the site_part to be re-installed
 
@@ -44,7 +44,7 @@ use_install                             Yes    �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

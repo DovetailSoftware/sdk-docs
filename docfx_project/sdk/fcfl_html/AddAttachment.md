@@ -51,7 +51,7 @@ The supported table names are:
 This method does **NOT** copy the file to a file system, or even validate the existence of the file. You must take care of the file details on your own. This API only adds the proper records for an attachment to Clarify.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 attach_name                         Yes                         The name of the attachment
 
@@ -79,7 +79,7 @@ attach_type                           No       
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

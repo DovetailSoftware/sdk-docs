@@ -107,7 +107,7 @@ Public Function modify_cr_list(ByVal cr_num As String, _
 These APIs are used to modify existing CRs. All of the primary fields of the CR can be set. If they are left blank, then the value in the CR is not changed. The modifier and the time of modification may be specified, and you may specify additional fields for the modify_cr object. You may also have a modify time bomb generated (for business rule notifications).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_num                                   Yes                         The CR to modify
 
@@ -171,7 +171,7 @@ val_list                                   No 
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

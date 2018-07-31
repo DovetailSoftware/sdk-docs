@@ -65,7 +65,7 @@ These APIs create a solution record (and one workaround). You may supply the tit
 You may specify a creation date, and the user who created the solution. You may also set additional fields in the probdesc object. Finally, you may specify if a time bomb (for business rules) is generated, or not.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 the_title                                 No                           Title of the solution
 
@@ -115,7 +115,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

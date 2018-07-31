@@ -12,7 +12,7 @@ This API causes the specified subcase to be moved from one WIPBin to another WIP
 **Note:** This API allows you to move a queueable object from one WIPBin to another, even if the object is currently dispatched. Since WIPBins are internal to a user, there really is no reason that you shouldn't be able to move the interal (to a user) location of the object. This is an enhancement to base Clarify function, which requires that the object not be dispatched to be moved.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 subcase_id                            Yes                         The subcase to move
 
@@ -20,7 +20,7 @@ new_wipbin                          Yes        �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

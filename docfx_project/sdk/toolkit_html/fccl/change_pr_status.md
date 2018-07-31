@@ -14,7 +14,7 @@ Public Function change_pr_status(ByVal pr_id As String, _
 This API causes the specified part request to have a status change from one status to another status - always in the same condition. To change the condition of the part request, use one of the supplied APIs such as _receive_ or _pick_. You may specify a new status (or blank for the default status), some notes for the change, the user who performed the status change, and when the status change occurred. Also, the API allows for time bombs (for business rules) to be created.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 pr_id                                       Yes                         The part request to reject
 
@@ -30,7 +30,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

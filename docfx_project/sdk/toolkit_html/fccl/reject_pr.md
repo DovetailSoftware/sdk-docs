@@ -14,7 +14,7 @@ Public Function reject_pr(ByVal pr_id As String, _
 This API causes the specified part request to be rejected from the queue it is disptached to. The date and user performing the reject can be specified, and the call allows the part request to be placed back in any WIPBin of the owner. This is an augmentation over base Clarify where it is always rejected back to the default WIPBin. Also, the API allows for time bombs (for business rules) to be created, or not.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 pr_id                                       Yes                         The part request to reject
 
@@ -32,7 +32,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

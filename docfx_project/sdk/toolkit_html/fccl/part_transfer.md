@@ -62,7 +62,7 @@ To do this, specify (in the trans_id argument), the transaction ID of the previo
 **Note**: This new feature only works with transfers of quantity tracked parts.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 part_num                               Yes                         The part number transferred
 
@@ -122,7 +122,7 @@ std_cost                                    
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

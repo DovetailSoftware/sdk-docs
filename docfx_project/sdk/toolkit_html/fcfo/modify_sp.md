@@ -91,7 +91,7 @@ Public Function modify_sp_list(ByVal sp_objid As Long, _
 These APIs allow you to modify an existing site part in the Clarify database. You must pass in a valid site part objid. You can then specify other data to modify the existing site_part record with. You also have the option of adding an activity log for this operation, or not. Finally, you may specify additional fields on the activity log, if desired.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 site_part_objid                     Yes                         The OBJID of the site_part to modify
 
@@ -149,7 +149,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

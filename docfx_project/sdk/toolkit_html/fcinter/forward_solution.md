@@ -18,7 +18,7 @@ Public Function forward_solution(ByVal solution_id As String, _
 This API causes the specified solution to be rejected from the current queue, and forwarded to another queue. The solution must be dispatched to a queue, and the specified new queue must be valid. The API allows for the setting of the forward date, and the user who forwarded the solution. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 solution_id                            Yes                         The solution to dispatch
 
@@ -38,7 +38,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

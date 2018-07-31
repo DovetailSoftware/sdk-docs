@@ -18,7 +18,7 @@ This method returns an objid for a given time zone. If the time zone is not foun
 **Note**: The time zone used should be the short time zone ("Central Time Zone") instead of the long one ("CST")
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 TimeZone                              Yes                         Name of time zone to get the objid for.
 

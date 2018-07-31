@@ -57,7 +57,7 @@ Public Function log_cr_email_list(ByVal cr_id As String, _
 These APIs are used to create an email log (email out) against a CR. The date the email is logged can be set, as well as the user who logs the email. Additional fields on the log_email record can also be set as well as a time bomb (for the email_log), which allows notifications to be generated based on the event. In addition, the proper time_bomb can be optionally created that will cause rulemanager to send out the email.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The CR to create the log for
 
@@ -97,7 +97,7 @@ val_list                                   No�
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors; sets objid of new email_log object in ret_objid (Long) global variable
 

@@ -18,7 +18,7 @@ This method returns a boolean indicating if the given state is valid for the giv
 Note: The state name used should be the full name ("Texas"), not the short name ("TX")
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 Country                                 Yes                         Name of country.
 
@@ -30,7 +30,7 @@ A boolean indicating if the given state is valid for the given country. 
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 10011                                      Country must not be empty.
 

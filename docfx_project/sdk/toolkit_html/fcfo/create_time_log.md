@@ -22,7 +22,7 @@ ByVal resolution As String) As Integer
 This API allows creation of a time log that is related to an onsite log. The OBJID of the onsite log or a case/subcase id must be supplied (but not both), and the other parameters are all optional.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 onsite_objid                          Yes                         The OBJID of the onsite log this time log is related to
 
@@ -56,7 +56,7 @@ resolution                              No     
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

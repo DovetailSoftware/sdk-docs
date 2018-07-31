@@ -18,7 +18,7 @@ Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", 
 This method returns the hgbst_elm.title  for the default element in a given level of a user-defined list. You may use up to a 5-level list. If an default element has not been defined, then the first element is returned. The hgbst tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 ListName                               Yes                         The user-defined list name.
 
@@ -44,7 +44,7 @@ The hgbst_elm.title string for the default element in a given level of a user-de
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 10008                                      ListName must not be empty.
 

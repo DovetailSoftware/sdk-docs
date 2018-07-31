@@ -24,7 +24,7 @@ You should use the supplied GUI in _fcAdmin_ to modify web forms, web user versi
 **Note:** The _fcClient_ program calls on this method for you so that user versions are available in the thin client. You do not need to add it to your forms in the thin client.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 user_name                             No                           The name of the user for whom user version/resource
 

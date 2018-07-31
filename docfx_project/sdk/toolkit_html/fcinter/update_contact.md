@@ -76,7 +76,7 @@ The new_prim_site and new_prim_role fields allow the primary contact role to be 
 **Note:** If you wish to create a duplicate contact (same first, last, and phone as another contact in the database), you may use the _allow_duplicate_contact_ property.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 contact_objid                       Yes*                        Objid of the contact
 
@@ -140,7 +140,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

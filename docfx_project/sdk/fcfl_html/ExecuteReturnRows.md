@@ -32,7 +32,7 @@ The SQL provided must be valid SQL for the database system you connect to.
 **Note**: For more information about ADODB Recordsets, please visit the Microsoft website at: [http://www.microsoft.com/](http://www.microsoft.com/).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 SqlStr                                     Yes                         The SQL statement to execute
 

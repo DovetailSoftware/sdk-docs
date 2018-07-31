@@ -8,13 +8,13 @@ Public Function seal_container(ByVal cont_name As String) As Integer
 This API seals an existing container.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cont_name                            Yes                         The container to seal
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

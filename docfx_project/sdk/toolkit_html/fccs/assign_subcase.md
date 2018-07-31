@@ -18,7 +18,7 @@ Public Function assign_subcase(ByVal subcase_id As String, _
 This API cause the specified subcase to be assigned to a new user. The subcase must be in the Open condition, and the user assigning the subcase does not have to be the owner of the subcase. In base Clarify, the assigner of a subcase  must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the subcase in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 subcase_id                            Yes                         The subcase ID to be assigned
 
@@ -42,7 +42,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

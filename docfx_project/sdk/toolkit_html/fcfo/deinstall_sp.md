@@ -12,7 +12,7 @@ ByVal deinstall_date As String, _
 This API can be used to de-install a site part (and the sub-parts installed underneath it) from a site in Clarify. The objid of the site_part to be de-installed is specified, as well as the user performing the action, and the time of the action.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 sp_objid                                Yes                         OBJID for the site_part to be de-installed
 
@@ -26,7 +26,7 @@ use_remove                          Yes        �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

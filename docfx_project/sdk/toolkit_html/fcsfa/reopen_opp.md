@@ -18,7 +18,7 @@ Function reopen_opp(ByVal opp_id As String, _
 This API causes the specified opportunity to be reopened. You may specify the status (in open lead condition) for the opportunity, as well as the user name of the opener, and the date/time of the reopen. You may also specify the WIPBIN to place the opportunity in. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 opp_id                                   Yes                         The ID of the opportunity to close
 
@@ -42,7 +42,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

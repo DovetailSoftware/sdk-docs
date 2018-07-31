@@ -17,7 +17,7 @@ Call this method when it is desired to have FCGeneric updates and queries be und
 Valid IsolationLevel parameter strings match the .Net Framework [Isolation Level Enumeration](http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemDataIsolationLevelClassTopic.asp)
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 IsolationLevel No                            An optional parameter for controlling the Isolation Level of the transation.
 

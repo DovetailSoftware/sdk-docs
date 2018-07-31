@@ -21,7 +21,7 @@ If you wish to update just one record in each of the generic objects, you should
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 13001                                      You may not update a view
 

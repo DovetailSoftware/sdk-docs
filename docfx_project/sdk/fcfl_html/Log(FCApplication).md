@@ -16,7 +16,7 @@ Public Sub Log(TheMessageType As String, TheMessage As String)
 This method allows you to log a message to the FCFL log file. FCApplication logging must be turned on for this message to actually be logged to the file.                                                                
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 TheMessageType                               Yes                         The type of message, used to identify your message within the
 

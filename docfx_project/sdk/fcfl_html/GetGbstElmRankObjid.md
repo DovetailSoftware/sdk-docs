@@ -22,7 +22,7 @@ If the element is not found in the list, this method returns a value of zero.
 The gbst_elm table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 ListName                               Yes                         Application List Name
 
@@ -34,7 +34,7 @@ The objid of the element with the given Rank in the ListName list. Zero, if the 
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 10008                                      ListName must not be empty.
 

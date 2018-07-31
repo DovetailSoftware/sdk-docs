@@ -20,7 +20,7 @@ This method returns an ADO recordset containing the records for a given level of
 When finished with the returned recordset, you should close the recordset using the .Close method and then set your variable to Nothing or Null. This will release the resources needed for this object.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 ListName                               Yes                         The user-defined list name.
 
@@ -46,7 +46,7 @@ An ADO recordset containing the records for a given level of a user-defined list
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 10008                                      ListName must not be empty.
 

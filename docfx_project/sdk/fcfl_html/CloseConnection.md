@@ -17,7 +17,7 @@ This method is used to close an external database connection. If this FCSQLExec 
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 14003                                      There is no open external connection to close
 

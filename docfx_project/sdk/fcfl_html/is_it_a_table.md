@@ -16,7 +16,7 @@ Public Function is_it_a_table(tbl_name As String) As Boolean
 This method returns whether a given table name is defined in the database as a valid table. This method does not work on views, only on tables.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 tbl_name                                Yes                         Name of the table
 

@@ -18,7 +18,7 @@ Public Function modify_eco_item(ByVal eco_mod_role_objid As Long, _
 This API modifies an existing labor or material detail.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 eco_mod_role_objid           Yes                         The objid of the ECO item object to be modified.
 
@@ -44,7 +44,7 @@ results_in_mod                    No            �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

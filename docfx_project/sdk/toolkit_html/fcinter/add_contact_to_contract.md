@@ -16,7 +16,7 @@ Public Function add_contact_to_contract(ByVal contract_id As String, _
 This API adds a contact to an existing contract. You must specify the contract ID and the site id.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 contract_id                            Yes                         ID of contract to add site to
 
@@ -30,7 +30,7 @@ site_id                                    Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

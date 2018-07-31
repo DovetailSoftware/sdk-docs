@@ -25,7 +25,7 @@ For example, suppose you wish to unrelate a case generic object and a site_part 
 You must update one or the other objects via the Update or UpdateAll method for the relation to be cleared.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 o_obj                                      Yes                         The other object to unrelate from
 
@@ -33,7 +33,7 @@ the_rel                                    Ye
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12010                                      The specified relation does not relate these two objects
 

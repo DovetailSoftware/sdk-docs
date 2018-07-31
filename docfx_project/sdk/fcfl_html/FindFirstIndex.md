@@ -16,13 +16,13 @@ Public Function FindFirstIndex(ByRef item As Variant) As Integer
 This method returns the index of the first item in the list that is equal to item.  Lists are zero based.  This means the index to the first item is 0, the second is 1, etc.  If the item is not found -1 is returned.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 item                                         Yes                         Item to locate in the list.
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 -1                                             Item not found in list.
 

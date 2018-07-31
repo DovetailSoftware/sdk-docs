@@ -20,7 +20,7 @@ Public Function is_rel_exclusive(tbl_num As Long, rel_name As String, _
 This method determines if the specified relation is an exclusive relation (or not) for the specified table. If it is, the final two arguments are filled in with the names of the table and objid fields that are used to perform the exclusive relation functionality.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 tbl_num                                 Yes                         Number of the table (e.g. case=0)
 

@@ -20,7 +20,7 @@ Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", 
 This method returns a boolean value indicating if a given string is a valid element in a given  user-defined list. You may validate an element up to a 5-level list. The hgbst tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 TheElement                           Yes                         The element to be checked for its existence in the list.
 
@@ -48,7 +48,7 @@ True if the Element does exist in the ListName list. Else, False.
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 10008                                      ListName must not be empty.
 

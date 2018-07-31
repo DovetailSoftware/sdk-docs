@@ -14,7 +14,7 @@ Public Function reopen_subcase(ByVal subcase_id As String, _
 This API causes the specified subcase to be reopened. The date/time of the reopen, the person performing the reopen, the WIPBIN to place the subcase in, and the new status of the subcase are specified. The person who reopens the subcase becomes the new owner. The WIPBin to place the subcase in may also be specified. If it is not, the subcase is placed in the user's default WIPBIN. This is augmented function from base Clarify, where the subcase is always placed in the default WIPBin. The status field is also augmented function. If the status is not specified, the subcase is placed in the default status for the Open condition. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 subcase_id                            Yes                         The subcase to reopen
 
@@ -38,7 +38,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

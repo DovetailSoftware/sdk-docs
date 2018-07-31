@@ -16,7 +16,7 @@ Public Function link_cr_to_soln(ByVal cr_id As String, _
 This API allows a change request to be linked to a solution. The link date, and user can be specified. Also, a time bomb can be generated for business rules.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         CR to link
 
@@ -30,7 +30,7 @@ create_time_bomb               Yes                
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

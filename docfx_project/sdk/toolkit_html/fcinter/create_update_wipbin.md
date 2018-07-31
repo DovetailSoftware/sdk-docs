@@ -18,7 +18,7 @@ This API either creates or updates a WIPBIN. For a new wipbin, you must specify 
 For updates, you must specify the title of the WIPBIN. You may change the name of the WIPBIN, or leave it as is. You may leave the description as is, clear it, or change it. As with inserts, you must specify if this WIPBIN is to be the default, or not.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 title                                         Yes                         Title of the WIPBIN. For inserts, it is the name of the new WIPBIN. For 
 
@@ -40,7 +40,7 @@ def_bin                                  Yes �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

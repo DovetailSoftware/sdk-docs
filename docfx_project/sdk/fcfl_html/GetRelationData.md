@@ -20,7 +20,7 @@ This method returns the meta-data for the specified relation from the Clarify AD
 **Note**: This method is only for advanced users who need to directly manipulate relation data in Clarify. Most applications will never need to use this method.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 rel_name                           Yes                         The name of the relation
 
@@ -32,7 +32,7 @@ The record from adp_sch_rel_info with data about the specified relation.
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 10001                                      The specified relation is not found for the specified table, or the table name is
 

@@ -40,7 +40,7 @@ This method will check to see if the object has been created. If it hasn't, it i
 **Note**: This method should be used in Visual Basic **ONLY**. Since VBScript and JavaScript do not support ByRef arguments, this method will not work in those environments.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 NumGenerics                        Yes                         The number of FCFeneric objects to be closed
 

@@ -16,7 +16,7 @@ Public Sub SetPassword(ByVal LoginName As String, ByVal Password As String, ByVa
 This method changes the password for a given user or contact. You may not use this method to change the password for the "sa" user. When setting the password for a contact, the password is changed in the web_user table. When setting the password for a user, the password is changed at the database level, so the current session user must have the correct database permissions to execute these commands (_sp_password_ on SQL Server, _alter user_ on Oracle). If the user does not have these permissions, an error will be thrown.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 LoginName                            Yes                         The user or web_user login_name
 
@@ -26,7 +26,7 @@ LoginType                            Yes      �
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 11005                                      Not logged in to an active session
 

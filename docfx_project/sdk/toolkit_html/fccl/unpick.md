@@ -69,7 +69,7 @@ The unpick API will unpick either quantity or serialized parts, based on the par
 The unpick API will also validate that the part request can be transitioned (for the specified user)
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 dtl_num                                 Yes                         The part request to receive against
 
@@ -95,7 +95,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

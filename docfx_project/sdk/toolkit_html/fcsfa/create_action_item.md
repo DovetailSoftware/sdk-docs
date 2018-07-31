@@ -112,7 +112,7 @@ The task_id of the newly-created action item will be returned in _fcsfa.ret_id_n
   
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 title                                         No                           The title of the action item
 
@@ -184,7 +184,7 @@ but does not need to have any items in the list
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

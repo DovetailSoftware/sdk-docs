@@ -22,7 +22,7 @@ This method stores the objid of the generic object specified in the field in nam
 You must update the object via the Update or UpdateAll method for the relation to take place.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 o_obj                                      Yes                         The object to which to relate
 
@@ -30,7 +30,7 @@ the_field                                   �
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12014                                      The specified field is not a long integer field
 

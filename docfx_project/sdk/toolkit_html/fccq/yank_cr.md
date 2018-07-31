@@ -18,7 +18,7 @@ ByVal user_name As String, _
 This API causes the specified change request to be yanked from the current location to a new owner's WIPBin. The date/time of the yank and the person yanking the change request can be specified. The person who yanks the change request becomes the new owner. The WIPBin to place the change request in may also be specified. This is augmented function from base Clarify, where the change request is always placed in the default WIPBin. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The change request to yank
 
@@ -38,7 +38,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

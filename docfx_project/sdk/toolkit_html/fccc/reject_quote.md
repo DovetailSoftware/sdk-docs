@@ -14,7 +14,7 @@ Public Function reject_quote(ByVal quote_id As String, _
 This API causes the specified quote to be rejected from the queue it is in, and returned back to the owner. The quote must be in open condition and currently dispatched to a queue. The API allows setting of the reject date, some notes about the reject, and the user who rejected the quote. The API also allows you to set the WIPBin that the quote is placed back in. This is additional functionality that base Clarify does not provide. The API can also generate a time bomb (for business rule notification). Note: This is not the same as the "reject_contract" API, which causes the selected contract to be rejected as a valid contract.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 quote_id                                                Yes                         The quote to reject-forward
 
@@ -32,7 +32,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

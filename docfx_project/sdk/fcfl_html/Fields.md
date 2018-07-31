@@ -19,7 +19,7 @@ This property is used to read or write specific fields in the current record of 
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12023                                      The field specified is not valid for this generic object
 

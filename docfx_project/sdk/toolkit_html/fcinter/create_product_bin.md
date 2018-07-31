@@ -22,7 +22,7 @@ Public Function create_product_bin(ByVal bin_name As String, _
 This API allows you to create a product bin either at a site, or underneath another product bin. You must supply a (unique for the site) bin name, and the site at which the bin is created. If the bin is to be underneath another bin, you must supply the objid of the parent bin. If you supply no parent bin, the new bin is created at the site level. You may optionally also specify a description for the bin, as well as the objids for support employees. Finally you may specify who created the bin, and when they created it. The API returns the objid of the newly-created bin.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 bin_name                               Yes                         Name of the bin to create
 
@@ -48,7 +48,7 @@ create_date                           No       
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

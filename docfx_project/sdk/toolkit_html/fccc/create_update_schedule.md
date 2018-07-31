@@ -51,7 +51,7 @@ Public Function create_update_schedule_list(ByVal contract_id As String, _
 These APIs are used to create or update a contract schedule. The contract ID must be specified, and the ID of the schedule is also specified. If this is an update, the Boolean is set to False, otherwise it is set to True. You may specify the bill-to or ship-to site, the price program, and the code list values. In addition, you may specify a variety of dates.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 contract_id                            Yes                         ID number of the contract
 
@@ -119,7 +119,7 @@ date_val1
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

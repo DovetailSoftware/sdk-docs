@@ -34,7 +34,7 @@ Public Function dispatch_fe(ByVal case_id As String, _
 This API creates a dispatch field engineer (work order) record. The caller may specify the appointment time and duration, text about the work order and other fields such as the payment method. The contact and site for the dispatch will be derived from the case/subcase. If this is not correct, the address for the site for the dispatch can be specified in the site_id field. If that is **mostly** correct, but some fields need to be overridden, they can in the extra phone and address fields supplied. Finally, a time bomb for the dispatch FE action can be generated, or not.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         The case (or subcase) that the dispatch FE is for
 
@@ -102,7 +102,7 @@ gen_time_bomb                   Yes             �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

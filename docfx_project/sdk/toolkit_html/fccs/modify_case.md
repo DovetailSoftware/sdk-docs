@@ -55,7 +55,7 @@ The argument _only_owner_ allows you to specify that only the current owner of t
 There are four arguments to this method that allow you to change (or clear) various parameters. The title, mod_level objid, site_part objid, and contract objid can be set (if you wish), or can be left alone (with "" for title, and 0 for the others), or can be cleared (with "CLEARFIELD" for title, and -999 for the others). This is an augmentation from the base ClearBasic APIs that do not provide this functionality. These arguments are particularly useful in web settings.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         The case to modify
 

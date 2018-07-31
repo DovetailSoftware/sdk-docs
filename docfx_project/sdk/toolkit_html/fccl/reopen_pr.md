@@ -16,7 +16,7 @@ This API causes the specified part request to be reopened. If the part request i
 The API will validate that the user has authority to make the status transition. Also, the API allows for time bombs (for business rules) to be created, or not.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 pr_id                                       Yes                         The part request to reject
 
@@ -36,7 +36,7 @@ gen_time_bombs                 Yes               �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

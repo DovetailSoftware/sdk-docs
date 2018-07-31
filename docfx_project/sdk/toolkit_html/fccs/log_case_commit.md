@@ -61,7 +61,7 @@ These APIs are used to create a commitment against a case. The APIs allow for th
 The objid of the created log is returned in the FCCS object variable _ret_objid_.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         The case to close
 
@@ -125,7 +125,7 @@ val_list                                   No�
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

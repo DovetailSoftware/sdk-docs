@@ -26,7 +26,7 @@ Public Function modify_eco_dtl(ByVal eco_dtl_objid As Long, _
 This API modifies an existing ECO detail object.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 eco_dtl_objid                       Yes                         The objid of the ECO item object to be modified.
 
@@ -50,7 +50,7 @@ mod_level_objid                  No              
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -18,7 +18,7 @@ Public Function reject_cr(ByVal cr_id As String, _
 This API causes the specified change request to be rejected from the queue it is in, and returned back to the owner. The change request must be currently dispatched to a queue. The API allows for the setting of the reject date, some notes about the reject, and the user who rejected the change request. The API also allows you to set the WIPBin that the change request is placed back in. This is additional functionality that base Clarify does not provide. The API can also generate a time bomb (for business rule notifications).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The change request to reject-forward
 
@@ -40,7 +40,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -48,7 +48,7 @@ Public Function reject_quote(ByVal the_id As String, _
 These APIs cause the specified action item, opportunity, or quote to be rejected from the queue it is in, and returned back to the owner. The object must be in open condition, and currently dispatched to a queue. The API allows for the setting of the reject date, some notes about the reject, and the user who rejected the object. The APIs also allow you to set the WIPBin that the object is placed back in. This is additional functionality that base Clarify does not provide. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 the_id                                     Yes                         The object to reject-forward
 
@@ -72,7 +72,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

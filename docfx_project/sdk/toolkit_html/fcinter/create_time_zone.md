@@ -14,7 +14,7 @@ Public Function create_time_zone(ByVal time_zone As String, _
 This API creates a time zone in the Clarify database, and relates it to a country. If the time zone is not found in the database, a new time zone record is created.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 time_zone                              Yes                         Time zone name
 
@@ -28,7 +28,7 @@ GMT
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

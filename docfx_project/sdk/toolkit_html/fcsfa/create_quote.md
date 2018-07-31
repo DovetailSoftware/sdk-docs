@@ -116,7 +116,7 @@ The ID of the newly-created quote will be returned in _fcsfa.ret_id_num_. The ob
   
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 quote_title                             Yes                         The title of the quote
 
@@ -180,7 +180,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

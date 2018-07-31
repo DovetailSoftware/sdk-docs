@@ -14,7 +14,7 @@ Public Function reopen_case(ByVal case_id As String, _
 This API causes the specified case to be reopened. The date/time of the reopen, the person performing the reopen, the WIPBIN to place the case in, and the new status of the case are specified. The person who reopens the case becomes the new owner. The WIPBin to place the case in may also be specified. If it is not, the case is placed in the user's default WIPBIN. This is augmented function from base Clarify, where the case is always placed in the default WIPBin. The status field is also augmented function. If the status is not specified, the case is placed in the default status for the Open condition. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         The case to reopen
 
@@ -38,7 +38,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

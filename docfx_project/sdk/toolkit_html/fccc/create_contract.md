@@ -83,7 +83,7 @@ These APIs are used to create new contracts. Each contract requires a unique, va
 **Note:** _CreateContract_ and _CreateContractList_ are the same methods as _create_contract_ and _create_contract_list_ respectively.  They are alternate entry points to preserve backwards compatibility to **Clear Basic API Toolkit for Clear Contracts** naming.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 contract_id                            No                           Input/Output to either set or return the the newly created contract ID
 
@@ -155,7 +155,7 @@ date_val1
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

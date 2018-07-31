@@ -27,7 +27,7 @@ boCase.Records.Close();
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12005                                      The SQL query () is not valid
 

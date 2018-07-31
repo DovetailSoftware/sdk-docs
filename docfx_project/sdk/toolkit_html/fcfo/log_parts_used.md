@@ -58,7 +58,7 @@ All five fields must be defined. If one is blank, just put two pipes next to eac
 Four error codes (-32, -33, -37, -38) are supplied for this option.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 dtl_num                                 No                           The ID number of the related part request detail (if one is related)
 
@@ -148,7 +148,7 @@ set this argument to �99 as input
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

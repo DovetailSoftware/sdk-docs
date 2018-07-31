@@ -65,7 +65,7 @@ The fulfill API will work with either quantity or serialized parts, based on the
 The fulfill API will also validate that the part request can be transitioned (for the specified user) to the proper new condition.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 dtl_num                                 Yes                         The part request to fulfill against
 
@@ -123,7 +123,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

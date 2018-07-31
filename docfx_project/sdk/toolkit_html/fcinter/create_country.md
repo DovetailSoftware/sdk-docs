@@ -22,7 +22,7 @@ This API creates a country object in Clarify, and can also create a currency obj
 The API checks both the country name and the ISO code. If either is found in the Database, then the API cannot create a new country.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cname                                     Yes                         Country name to add
 
@@ -44,7 +44,7 @@ iso_code                                    
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

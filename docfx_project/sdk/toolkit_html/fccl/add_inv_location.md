@@ -20,7 +20,7 @@ This API is used to add inventory locations to the system. The location name, ca
 The trans authority determines part authorization levels, and has three possible values: none, all, auth parts only.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 loc_name                               Yes                         Name of the inventory location
 
@@ -42,7 +42,7 @@ trans_auth_str                      Yes          
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

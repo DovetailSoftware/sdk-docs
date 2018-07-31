@@ -8,7 +8,7 @@ Public Sub Initialize(ByVal FCApp As FCApplication, ByVal FCSess As FCSession)
 This API initializes an **FCCS** object. It must be called after the creation of the object, and before any other APIs can be called on the **FCCS** object. Simply put, this API simply saves the FCApplication and FCSession pointers within the **FCCS** object so that they can be used as needed.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 FCApp                                   Yes                         FCApplication object
 

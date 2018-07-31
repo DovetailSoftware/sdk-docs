@@ -75,7 +75,7 @@ If you wish to change address line 1 or line 2 to be blank, you may use the addi
 it.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 addr_objid                             Yes                         Objid of address to update
 
@@ -123,7 +123,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

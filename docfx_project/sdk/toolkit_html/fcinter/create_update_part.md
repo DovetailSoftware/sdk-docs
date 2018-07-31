@@ -97,7 +97,7 @@ These APIs either create or update a part number in the database. The part numbe
 **Note**: Just calling on this API will **NOT** cause the part to be visible in Clarify. To see the part number, there must be at least one part revision. Use the create_update_mod_level  to add a part revision.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 part_num                               Yes                         Part number to insert/update
 
@@ -165,7 +165,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

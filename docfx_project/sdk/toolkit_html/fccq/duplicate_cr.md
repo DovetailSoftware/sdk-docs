@@ -18,7 +18,7 @@ Public Function duplicate_cr(ByVal cr_id As String, _
 This API closes the specified CR as a duplicate of the "master CR". The CR is placed in "CR Duplicate/Closed" condition, and in the specified status. You may specify the user performing the duplication, as well as when it occurred. A time bomb may be generated for business rule notification.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The change request to mark as a duplicate
 
@@ -36,7 +36,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

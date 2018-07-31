@@ -18,7 +18,7 @@ Public Function assign_cr(ByVal cr_id As String, _
 This API cause the specified change request to be assigned to a new user. The CR must be in an Open condition, and the user assigning the change request does not have to be the owner of the change request. In base Clarify, the assigner of a change request must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the change request in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The change request Id to be assigned
 
@@ -42,7 +42,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

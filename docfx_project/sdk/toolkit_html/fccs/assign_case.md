@@ -18,7 +18,7 @@ Public Function assign_case(ByVal case_id As String, _
 This API cause the specified case to be assigned to a new user. The case must be in the Open condition, and the user assigning the case does not have to be the owner of the case. In base Clarify, the assigner of a case  must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the case in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         The case ID to be assigned
 
@@ -42,7 +42,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

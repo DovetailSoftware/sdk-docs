@@ -28,7 +28,7 @@ This API creates or update part mod levels (revisions). You must supply the part
 You may also specify the status of the revision. If you do not specify a status (for create), the status of "Active" is assumed. Also, you may use the change_ml and new_ml arguments to change the mod_level of an existing mod_level record.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 part_num                               Yes                         Part number of the part
 
@@ -60,7 +60,7 @@ revision record
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

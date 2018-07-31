@@ -20,7 +20,7 @@ Public Function modify_product_bin(ByVal bin_objid As Long, _
 This API allows you to modify an existing product bin. You may change the bin name and the description. You may also set or clear out the primary and backup support employee. Finally you may specify who modified the product bin, and when.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 bin_objid                               Yes                         Objid of the bin to modify
 
@@ -48,7 +48,7 @@ modify_date                          No        
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

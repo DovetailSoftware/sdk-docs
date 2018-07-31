@@ -16,7 +16,7 @@ Public Function ListByIndex(ByRef index As Variant) As FCList
 This method creates a new list from the parent list.  This new list contains the items in the parameter index.  Index can be an integer or a list of integers.  If index is an integer, the item number of parent list is the only member of the new list.  If index is a list, it is a list of integers to form the new list from.  The list is zero based.  This means the index to the first item is 0, the second is 1, etc.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 index                                       Yes                         If index is an integer number, the item to include in new list.
 
@@ -30,7 +30,7 @@ Returns a list containing the indicated items.
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 9                                              Index out of range for the list.
 

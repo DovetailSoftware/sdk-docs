@@ -42,7 +42,7 @@ Public Function dispatch_quote(ByVal the_id As String, _
 These APIs cause the specified object (action_item, opportunity, quote) to be dispatched to the specified queue. The object must be in open condition, and not currently dispatched to a queue. The API allows for the setting of the dispatch date, and the user who dispatched the object. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 the_id                                     Yes                         The object (action_item, opportunity, quote) to dispatch
 
@@ -60,7 +60,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

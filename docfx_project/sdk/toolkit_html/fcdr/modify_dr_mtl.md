@@ -33,7 +33,7 @@ Public Function modify_dr_mtl(ByVal mtl_log_objid As Long, _
 Theis API allows modification of material that is logged against a depot repair part.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 mtl_log_objid                       Yes                         Object ID of specified mtl log.
 
@@ -65,7 +65,7 @@ different time is not supplied.
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

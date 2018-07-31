@@ -59,7 +59,7 @@ Public Function log_cr_note_list(ByVal cr_id As String, _
 These APIs are used to create a note log against a CR. The APIs allow for the assigning of notes and internal use only text. The date the note is logged can be set, as well as the user who logs the note. Additional fields on the log_cr_note can also be set as well as a time bomb (for the note log), which allows notifications to be generated based on the event.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The CR to create the log for
 
@@ -95,7 +95,7 @@ val_list                                   No�
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors; sets objid of new notes_log object in ret_objid (Long) global variable
 

@@ -16,7 +16,7 @@ Public Function IsTimeZone(ByVal TimeZone As String) As Boolean
 This method returns a boolean indicating if the given time zone is a valid time zone in the database.  The time_zone table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 TimeZone                              Yes                         Name of time zone to be validated.
 

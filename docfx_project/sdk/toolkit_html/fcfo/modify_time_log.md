@@ -22,7 +22,7 @@ This API modifies an existing time log record in the Clarify database. You must 
 The time type is an optional code list value that may be specified. The user performing the logging may be specified as can the creation time. If you do not specify a value for one of the arguments, the value in the existing record is not updated.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 time_log_objid                     Yes                         The OBJID of the time log to modify
 
@@ -60,7 +60,7 @@ resolution                              No     
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

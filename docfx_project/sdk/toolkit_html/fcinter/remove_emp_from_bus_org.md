@@ -12,7 +12,7 @@ Public Function remove_emp_from_bus_org(ByVal user_name As String, _
 This API allows an employee (team member) to be removed from an account. The user name and account ID must be specified, as well as the role the user currently plays. The user may be included in the account with many roles, and only the specified role will be removed.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 user_name                             Yes                         The user name to remove from the account as a team member
 
@@ -22,7 +22,7 @@ role_name                              Yes    �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

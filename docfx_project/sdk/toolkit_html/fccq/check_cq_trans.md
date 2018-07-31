@@ -16,7 +16,7 @@ Public Function check_cq_trans(ByVal old_cond As String, _
 This API can be used to determine if a particular user can change status from an old condition/status to a new condition/status. The API checks the transitions as set up in Clarify's Policies & Customers.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 old_cond                               Yes                         Old condition for the CR
 
@@ -30,7 +30,7 @@ user_name                             Yes     �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 Transition is allowed for this user
 

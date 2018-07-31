@@ -18,7 +18,7 @@ Public Function set_part_stocking_lev(ByVal bin_name As String, _
 This API creates a part restocking authorization level. The location, bin, part number/revision/domain must be specified, as well as the various levels and the reorder queue.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 bin_name                               Yes                         The bin for the restocking
 
@@ -44,7 +44,7 @@ is_active                                   �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

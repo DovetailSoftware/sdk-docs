@@ -14,7 +14,7 @@ Public Function create_state(ByVal state As String, _
 This API creates a state/prov object in Clarify database, and relates it to an existing country. In addition, the state can be set to be the default state for the country, or not. If it is to be the default state, the previous default state is set to be a normal state.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 state                                       Yes                         State name
 
@@ -26,7 +26,7 @@ country                                  Yes �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

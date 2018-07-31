@@ -20,7 +20,7 @@ This API causes the specified quote to be assigned to a new user. The quote must
 user assigning the quote does not have to be the owner of the quote. In base Clarify, the assigner of a quote must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the quote in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 quote_id                                                Yes                         The quote to assign
 
@@ -44,7 +44,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

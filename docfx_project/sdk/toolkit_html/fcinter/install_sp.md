@@ -103,7 +103,7 @@ If the part revision to be installed has a bill of materials (BOM), that BOM wil
 Other data (such as the warranty end date) is automatically calculated and filled in by the API.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 site_id                                    Yes                         Where to install the site_part
 
@@ -167,7 +167,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

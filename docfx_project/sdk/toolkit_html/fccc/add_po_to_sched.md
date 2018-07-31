@@ -26,7 +26,7 @@ Public Function add_po_to_sched(ByVal contract_id As String, _
 This API is used to add purchase orders to schedules of contracts. A valid schedule for a contract must be specified. Also, the PO number cannot be defined already for the schedule. A variety of other payment items can be specified, as well as the PO date, and the expiration date.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 contract_id                            Yes                         ID number of the contract/quote
 
@@ -54,7 +54,7 @@ Status" for Closed Contract condition will be used.
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

@@ -14,7 +14,7 @@ Public Function yank_pr(ByVal pr_id As String, _
 This API causes the specified part request to be yanked and placed in a specific WIPBin. The person perfoming the yank (the new owner) and the time of the yank can be specified. Also, the API allows for time bombs (for business rules) to be created, or not.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 pr_id                                       Yes                         The part request to yank
 
@@ -30,7 +30,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

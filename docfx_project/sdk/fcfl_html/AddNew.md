@@ -26,7 +26,7 @@ If you do not supply an objid, **FCFL** will generate a proper objid for the new
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12009                                      Could not add record because not all fields were selected in a previous query
 

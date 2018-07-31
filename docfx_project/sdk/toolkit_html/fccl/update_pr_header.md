@@ -53,7 +53,7 @@ These APIs allow for the updating of part request headers. You must supply the h
 If you want to change the contact for the part request, you must supply first name, last name, and phone number for the contact.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 hdr_num                                Yes                         The part request to update
 
@@ -93,7 +93,7 @@ date_val1
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

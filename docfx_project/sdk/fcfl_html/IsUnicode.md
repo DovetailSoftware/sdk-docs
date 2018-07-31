@@ -16,7 +16,7 @@ Public Function IsUnicode(in_str As String) As Boolean
 This method determines if a supplied string is a unicode (wide varchar) string. If it is (it contains at least one Unicode character), the function returns _True._ Otherwise it returns _False._
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 in_str                                      Yes                         The string to test
 

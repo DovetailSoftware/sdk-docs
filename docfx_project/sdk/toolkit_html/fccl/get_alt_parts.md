@@ -12,7 +12,7 @@ Public Function get_alt_parts(ByVal part_num As String, _
 This API builds a list of the alternate parts (table_partnum_view) for the specified part and revision, and sets the fccl property ret_string with the pipe-delimited list of parts.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 part_num                               Yes                         The part number
 
@@ -22,7 +22,7 @@ mod_level                              Yes    �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

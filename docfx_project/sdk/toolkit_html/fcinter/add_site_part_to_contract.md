@@ -12,7 +12,7 @@ Public Function add_site_part_to_contract(ByVal contract_id As String, _
 This API adds a site_part to an existing contract. You must specify the contract ID, site id, and site_part instance name.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 contract_id                            Yes                         ID of contract to add site to
 
@@ -22,7 +22,7 @@ sp_objid                                    
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

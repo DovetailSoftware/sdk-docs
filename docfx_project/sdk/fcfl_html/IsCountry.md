@@ -16,7 +16,7 @@ Public Function IsCountry(ByVal Country As String) As Boolean
 This method returns a boolean indicating if the given country is a valid country name in the database.  The country table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 Country                                 Yes                         Name of country to be validated.
 

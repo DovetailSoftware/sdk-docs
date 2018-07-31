@@ -12,7 +12,7 @@ Public Function relate_contr_itm_to_sp(ByVal contr_objid As Long, _
 This API is used to relate (or unrelate) a site_part from a contract line item. The line item's objid is specified, along with the details for locating the site_part. To unrelate the contract item from a site_part, use the phrase "UNRELATE" in the serial_num field.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 contr_objid                           Yes                         Objid of the contract line item
 
@@ -26,7 +26,7 @@ serial_num                             Yes     
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

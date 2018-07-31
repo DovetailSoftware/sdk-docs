@@ -103,7 +103,7 @@ These APIs are used to modify opportunities. The opportunity ID must be specifie
 Most of the data items can be left with their current values. To not change an item, simply leave the data blank (for strings), or less than 0 (for numerics). If you wish to clear out the value in an option item, use the keyword "CLEAR".
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 opp_id                                   Yes                         The ID of the opportunity to modify
 
@@ -169,7 +169,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 
@@ -293,7 +293,7 @@ These APIs cause the specified action item, opportunity, or quote to be moved fr
 **Note:** These APIs allow you to move a queueable object from one WIPBin to another, even if the object is currently dispatched. Since WIPBins are internal to a user, there really is no reason that you shouldn't be able to move the interal (to a user) location of the object. This is an enhancement to base Clarify function, which requires that the object not be dispatched to be moved.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 the_id                                     Yes                         The object to move
 
@@ -301,7 +301,7 @@ new_wipbin                          Yes        
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

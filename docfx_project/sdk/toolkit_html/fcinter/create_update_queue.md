@@ -38,7 +38,7 @@ This API either creates or updates a queue in the database.  If the supplied qu
 For updates, a new title can be specified. An updated description can be provided, and you can decide to turn on or off the allow fields. You can also change the queue supervisor.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 title                                         Yes                         Title of the queue. For creates, it is a unique name. For updates, it is the
 

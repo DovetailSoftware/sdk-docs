@@ -14,7 +14,7 @@ Public Function add_alt_part(ByVal part_num As String, ByVal rev As String, _
 This API causes the second part/revision listed to become an alternate part of the first one listed. If the _is_reciprocal_ flag is set to True, then the first part/rev will also be added as an alternate of the second part/rev.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 part_num                               Yes                         The primary part number
 
@@ -34,7 +34,7 @@ is_reciprocal                         Yes       �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

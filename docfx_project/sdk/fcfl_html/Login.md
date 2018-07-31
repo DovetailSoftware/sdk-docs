@@ -28,7 +28,7 @@ If the login attempt is successful, the following happens:
 **Note**: You can use the _PasswordRequired_ property on the FCSession to bypass password validation. Please see that method's documentation for more information.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 LoginName                            Yes                         The login name
 
@@ -38,7 +38,7 @@ LoginType                            Yes      �
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 11003                                      Already Logged In.
 

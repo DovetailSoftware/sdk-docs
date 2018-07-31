@@ -67,7 +67,7 @@ Public Function create_address_list(ByVal addr1 As String, _
 These APIs create new addresses in the database. You must specify one of the two address lines, the city, state, country, and time zone.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 addr1                                      No                           Address line 1
 
@@ -113,7 +113,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 1 No errors
 

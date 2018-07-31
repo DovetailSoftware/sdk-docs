@@ -16,7 +16,7 @@ Public Function ConvertDate(ByVal TheDate As Date, ByVal FromTimeZone As String,
 This property converts a date/time value from one time zone to another. It uses the time_zone table date to determine offsets from GMT, and it uses the daylight_hr table to determine if the timestamp is on daylight savings time (DST) in either time zone.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 TheDate                                 Yes                         The timestamp (date and time) to be converted
 
@@ -34,7 +34,7 @@ A date/time value converted between time zones.
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 11007                                      Invalid time_zone.
 

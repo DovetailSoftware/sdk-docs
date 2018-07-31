@@ -21,7 +21,7 @@ GetLocalizedGbstDefault - This method returns the default string value for a giv
 The gbst_elm table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 ListName                               Yes                         An Application popup list name.
 
@@ -31,7 +31,7 @@ The default value for this list, if one is defined. Else, the first value in the
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 10008                                      ListName must not be empty.
 

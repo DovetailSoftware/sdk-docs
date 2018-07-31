@@ -55,7 +55,7 @@ You may also initially dispatch the subcase. If you specify a queue name, the su
 If successful, these APIs return both the _objid_ and the _id_number_ of the newly-created case. They are returned in the FCCS object variables _ret_objid_  and _ret_id_num_.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         The ID of the parent case
 
@@ -117,7 +117,7 @@ val_list                                   No�
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

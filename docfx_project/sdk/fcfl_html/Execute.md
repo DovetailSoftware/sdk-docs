@@ -24,7 +24,7 @@ SqlDB.Execute(sql);
 The SQL provided must be valid SQL for the database system you connect to.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 SqlStr                                     Yes                         The SQL statement to execute
 

@@ -18,7 +18,7 @@ Public Function reopen_cr(ByVal cr_id As String, _
 This API causes the specified CR to be reopened. It must be in a condition other than "Open", and cannot be dispatched. The date/time of the reopen, the person performing the reopen, the WIPBin to place the case in, and the new status of the case can be specified. The person who reopens the case becomes the new owner. If the WIPBin is not specified, the CR is placed in the user's default WIPBin. This is augmented function from base Clarify, where the case is always placed in the default WIPBin. The status field is also augmented function. If the status is not specified, the case is placed in the default status for the Open condition. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The CR to reopen
 
@@ -42,7 +42,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

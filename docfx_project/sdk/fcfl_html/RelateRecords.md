@@ -24,7 +24,7 @@ boSite.RelateRecords(boCase, "cust_loc2case")
 You must update one or the other objects via the Update or UpdateAll method for the relation to take place.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 o_obj                                      Yes                         The object to which to relate
 
@@ -32,7 +32,7 @@ the_field                                   �
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12010                                      The specified relation does not relate these two objects
 

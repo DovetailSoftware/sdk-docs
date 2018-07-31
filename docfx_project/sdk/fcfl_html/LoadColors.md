@@ -24,7 +24,7 @@ If you ever change (manually) a color in the database (in table_fc_color), you s
 **Note:** The _fcClient_ program calls on this method for you so that colors are available in the thin client. You do not need to add it to your forms in the thin client.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 user_name                             Yes                         The name of the user for whom colors should be loaded into
 

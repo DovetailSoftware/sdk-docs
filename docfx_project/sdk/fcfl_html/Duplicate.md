@@ -27,12 +27,12 @@ If you include a generic object as an argument to this method, the duplicate wil
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12031                                      This operation is not valid for a generic that is marked distinct
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 use_generic                          No                           Generic to which to add the copy. If not supplied, a new
 
@@ -44,7 +44,7 @@ The generic object that contains the duplicate row. The duplicate row will be se
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12017                                      The generic object to duplicate has no rows in it, or the current row is set to
 

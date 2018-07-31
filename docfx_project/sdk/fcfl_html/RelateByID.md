@@ -18,7 +18,7 @@ This method relates the _current_ row of the generic object to the specified obj
 You must update the object via the Update or UpdateAll method for the relation to take place.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 the_objid                               Yes                         The objid of the object to relate to
 
@@ -26,7 +26,7 @@ the_rel                                    Ye
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12015                                      The current object must be positioned on a valid record to call on this method.
 

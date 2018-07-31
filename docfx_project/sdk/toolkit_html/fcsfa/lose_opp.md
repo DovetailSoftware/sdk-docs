@@ -28,7 +28,7 @@ There are three significant differences between this API, and the base Clarify f
 The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 opp_id                                   Yes                         The opportunity to mark as a loss
 
@@ -50,7 +50,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

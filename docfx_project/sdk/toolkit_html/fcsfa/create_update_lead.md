@@ -134,7 +134,7 @@ The objid of the newly-created lead will be returned in _fcsfa.ret_objid_.
   
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 lead_objid                             Yes                         A variable set to -1 for creates, and to the objid of the lead to
 
@@ -222,7 +222,7 @@ but does not need to have any items in the list
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

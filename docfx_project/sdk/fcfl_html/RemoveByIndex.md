@@ -16,7 +16,7 @@ Public Sub RemoveByIndex(ByRef index As Variant)
 This method removes items from a list.  This resulting list has the proper elements removed.  Index can be an integer or a list of integers.  If index is an integer, only that item is removed.  If index is a list, the list is a list of integers specifying which items to remove.  Items are removed as indexed from before the first remove.  Lists are zero based.  This means the index to the first item is 0, the second is 1, etc.    The removal is logical; Items are removed at the index they located at when the method is called.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 index                                       Yes                         If index is an integer number, the item to remove from the list.
 
@@ -26,7 +26,7 @@ list is zero based.
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 9                                              Index out of range for list.
 

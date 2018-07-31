@@ -16,7 +16,7 @@ Public Function GetCountryObjid(ByVal Country As String) As Long
 This method returns an objid for a given country. If the country is not found, this method returns a value of zero. The country table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 Country                                 Yes                         Name of country to get the objid for.
 

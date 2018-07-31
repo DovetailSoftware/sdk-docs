@@ -18,7 +18,7 @@ This method returns a boolean value indicating if a given string is a valid elem
 The gbst_elm table is cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 ListName                               Yes                         An Application popup list name.
 
@@ -30,7 +30,7 @@ True if the Element does exist in the ListName list. Else, False.
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 10008                                      ListName must not be empty.
 

@@ -131,7 +131,7 @@ The objid of the newly-created contract line item will be returned in _fcsfa.ret
   
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 contract_id                            Yes                         The quote/contract for the line item
 
@@ -213,7 +213,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

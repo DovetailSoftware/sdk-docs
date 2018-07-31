@@ -20,7 +20,7 @@ This API modifies an existing service interruption (appointment) record in the C
 The appointment type and subtype are optional code list values that may be specified. The user performing the logging may be specified as can the creation time. If you do not specify a value for one of the arguments, the value in the existing record is not updated.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 appt_objid                             Yes                         The OBJID of the appointment to modify
 
@@ -48,7 +48,7 @@ creation_time                        No         
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -48,7 +48,7 @@ Public Function change_quote_status(ByVal the_id As String, _
 These APIs cause the specified action item, opportunity, or quote to have its status changed. The object may be in any valid condition, but the status selected MUST be valid for the current condition. In other words, you cannot assign a Won condition status (for an opportunity) to an opportunity that is currently in Lost condition. You may assign notes to the status change, as well as set the time of the status change, and the user who changed the status. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 the_id                                     Yes                         The ID of the object to change status for
 
@@ -70,7 +70,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

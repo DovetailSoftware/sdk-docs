@@ -24,7 +24,7 @@ Public Function create_eco_dtl(ByVal detail_type As String, _
 This API add labor or material details to the specified ECO Header. The objid of the ECO detail created is returned in the object property _ret_objid_  (FCDR.ret_objid).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 detail_type                            Yes                         Must be "Labor" or "Material"
 
@@ -54,7 +54,7 @@ mod_level_objid                  Yes**            �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -16,7 +16,7 @@ Public Sub GetItemByIndex(ByVal index As Integer, ByRef value As Variant)
 This method returns the item in the list at the location specified.  Lists are zero based.  This means the index to the first item is 0, the second is 1, etc. This is similar to the ItemByIndex function, except the value is passed back as a parameter.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 index                                       Yes                         Index of item in the list to return. List is zero based.
 
@@ -24,7 +24,7 @@ value                                      
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 7                                              Index out of range for the list.
 

@@ -33,7 +33,7 @@ variant                                    Li
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 0 Cannot set property - invalid type.
 

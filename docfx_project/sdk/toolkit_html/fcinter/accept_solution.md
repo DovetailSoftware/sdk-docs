@@ -16,7 +16,7 @@ Public Function accept_solution(ByVal solution_id As String, _
 This API causes the specified solution to be accepted from a dispatched queue. The solution must be currently dispatched to a queue. The date/time of the accept, the WIPBin to place the solution in, and the user performing the accept can be specified. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 solution_id                            Yes                         The solution  to accept
 
@@ -36,7 +36,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

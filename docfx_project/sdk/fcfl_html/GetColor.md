@@ -24,7 +24,7 @@ The color returned will be one of three values:
  If no default has been specified for that purpose, "White" will be returned
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 purpose                                 Yes                         The purpose that this color is used for
 

@@ -20,7 +20,7 @@ Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", 
 This method returns the hgbst_elm.objid value for a given element in a given level of a user-defined list. You may use up to a 5-level list. The hgbst tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 TheElement                           Yes                         The element to get the objid for.
 
@@ -48,7 +48,7 @@ The hgbst_elm.objid value for a given element in a given level of a user-defined
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 10008                                      ListName must not be empty.
 

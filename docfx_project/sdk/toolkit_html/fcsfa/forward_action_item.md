@@ -48,7 +48,7 @@ Public Function forward_quote(ByVal the_id As String, _
 These APIs cause the specified action item, opportunity, or quote to be reject-forwarded from one queue to another. The object must be in open condition, and currently dispatched to a queue. The API allows for the setting of the forward date, some notes about the forward, and the user who forwarded the object. The APIs can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 The_id                                   Yes                         The object to reject-forward
 
@@ -70,7 +70,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -34,7 +34,7 @@ Public Function create_dr_mtl(ByVal demand_dtl_objid As Long, _
 This API allows usage of material to be logged against a depot repair part.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 demand_dtl_objid                Yes                         Object ID of specified part request.
 
@@ -68,7 +68,7 @@ different time is not supplied.
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

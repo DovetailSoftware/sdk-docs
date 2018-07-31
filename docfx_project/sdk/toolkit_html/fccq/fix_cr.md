@@ -59,7 +59,7 @@ Public Function fix_cr_list(ByVal cr_id As String, _
 These APIs change the condition of a CR to "Fixed", even if it was already closed. The status specified must be defined in the fixed condition per Clarify's Policies and Customers. You may specify notes about the fix, and the user and date/time of the fix. A time bomb may be generated (for business rule notification), and additional fields (on the fix_bug record) may be specified.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The change request to fix
 
@@ -95,7 +95,7 @@ val_list                                   No�
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors; sets objid of new fix_bug object in ret_objid (Long) global variable
 

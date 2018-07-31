@@ -22,7 +22,7 @@ Public Function GetItem(path_str As String, _
 Returns all the items between first and last within the specified formatted text list. This provides the same functionality as the ClearBasic Item$ function.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 path_str                                 Yes                         String containing the text from which a range of items is
 

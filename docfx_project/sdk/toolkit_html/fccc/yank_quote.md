@@ -12,7 +12,7 @@ Public Function yank_quote(ByVal quote_id As String, _
 This API causes the specified quote to be yanked from the current location to a new owner's WIPBin. The date/time of the yank, and the person yanking the quote are specified. The person who yanks the quote becomes the new owner. The WIPBin to place the quote in may also be specified. This is augmented function from base Clarify, where the quote is always placed in the default WIPBin. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 quote_id                                                Yes                         The quote to yank
 
@@ -32,7 +32,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

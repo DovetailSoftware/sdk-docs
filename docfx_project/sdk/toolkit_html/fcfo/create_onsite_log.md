@@ -16,7 +16,7 @@ Public Function create_onsite_log(ByVal object_type As String, _
 This API allows creation of an onsite log that is related to a case or subcase. The object type and id of the focus object  (the case or subcase) must be supplied, and the other parameters are all optional.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 object_type                           Yes                         The type of focus object that this onsite log is tied to. (CASE or SUBCASE)
 
@@ -38,7 +38,7 @@ perf_by                                  No  
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

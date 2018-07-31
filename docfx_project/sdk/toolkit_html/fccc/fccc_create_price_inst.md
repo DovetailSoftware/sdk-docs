@@ -55,7 +55,7 @@ When pricing quantities, if you leave the price quantity empty, it will default 
 **NOTE:** _CreatePriceInst_ and _CreatePriceInst_ are the same methods as _create_price_inst_ and _create_price_inst _list_ respectively.  They are alternate entry points to preserve backwards compatibility to **Clear Basic API Toolkit for Clear Contracts** naming.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
   part_num                             No                           The part number of the part being priced
 
@@ -103,56 +103,27 @@ date_val1
 
 **Returns**
 
-**Value                                     Meaning                                                                               **
-
-<table class="MsoNormalTable" border="1" cellspacing="0" cellpadding="0" style="border-collapse:collapse;border:none"><tbody><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">0</p></td><td width="439" valign="top" style="width:329.4pt;border:solid white 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">No Errors</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-1</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">Support program not found</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-2</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">Price schedule not found</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-3</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">Mod level not found</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-4</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">Price type not found</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-5</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">Mod level not found for support program</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-6</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">Priced quantity required, not supplied</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-7</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">Effective date comes before expiration date</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-8</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">Price instance expiration date comes after the price schedule expiration date</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-9</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">The dates supplied would cause an overlap in price instances</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-10</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">Priced quantity already exists</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-11</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">The category for the support program does not exist</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-12</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">Cannot price since reference part number cannot be found</p></td></tr><tr><td width="151" valign="top" style="width:113.4pt;border:solid white 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">-13</p></td><td width="439" valign="top" style="width:329.4pt;border-top:none;border-left:
-  none;border-bottom:solid white 1.0pt;border-right:solid white 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt"><p class="MsoBodyText" align="left" style="text-align:left">Price type is not yet supported</p></td></tr></tbody></table>
-
-ret_objid                                  Output                 Returns the objid of the newly created price instance
+| Value |  Meaning |
+|!--- |!--- |
+| 0 | No Errors |
+| -1 | Support program not found |
+| -2 | Price schedule not found |
+| -3 | Mod level not found |
+| -4 | Price type not found |
+| -5 | Mod level not found for support program |
+| -6 | Priced quantity required, not supplied |
+| -7 | Effective date comes before expiration date |
+| -8 | Price instance expiration date comes after the price schedule expiration date |
+| -9 | The dates supplied would cause an overlap in price instances |
+| -10 | Priced quantity already exists |
+| -11 | The category for the support program does not exist |
+| -12 | Cannot price since reference part number cannot be found |
+| -13 | Price type is not yet supported |
+| ret_objid | Output<br/><br/>Returns the objid of the newly created price instance |
 
 **Examples  **
 
- Create a new price instance for product 'Kudzu' software under the 'Kudzu Phone Support' support program.  Associate this price instance with the 'US Std Price List'.  Use a fixed price type with 50 units costing 100 dollars.
+Create a new price instance for product 'Kudzu' software under the 'Kudzu Phone Support' support program.  Associate this price instance with the 'US Std Price List'.  Use a fixed price type with 50 units costing 100 dollars.
 
 **Field version:**
 

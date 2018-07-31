@@ -8,13 +8,13 @@ Public Function get_loc_serv_site(ByVal site_id As String) As Integer
 This API returns a list of the locations (in the proper order) servicing this site.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 site_id                                    Yes                         The site's ID
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

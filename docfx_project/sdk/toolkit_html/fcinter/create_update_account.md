@@ -103,7 +103,7 @@ These APIs create or update accounts (business orgs). An existing account can be
 To create a new account, leave the account field blank. A variety of fields in the account can be optionally set. Four of them, type, size, revenue, and ownership are values from code lists. If the code list values are blank, the default value of the list is used.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 acct_name                             No                           Account's name
 
@@ -167,7 +167,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

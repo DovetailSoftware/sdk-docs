@@ -10,7 +10,7 @@ Public Function add_inv_bin(ByVal bin_name As String, _
 This API is used to add inventory bins to existing locations. The bin name can be set, as well as if it is an active bin or not.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 bin_name                               Yes                         The name of the new inventory bin
 
@@ -20,7 +20,7 @@ is_active                                   �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

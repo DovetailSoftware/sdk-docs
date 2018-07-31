@@ -18,7 +18,7 @@ Public Function is_it_a_field(tbl_name As String, _
 This method returns whether a given field is defined (in the specified table) as an integer field.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 tbl_name                                Yes                         Name of the table
 

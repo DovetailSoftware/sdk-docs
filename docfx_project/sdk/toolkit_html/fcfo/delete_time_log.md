@@ -12,7 +12,7 @@ Public Function delete_time_log(ByVal time_log_objid As Long, _
 This API deletes an existing time log. The time log OBJID must be supplied, and the user performing the delete and the time that the delete occurred can optionally be specified.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 time_log_objid                     Yes                         The OBJID of the time log to delete
 
@@ -24,7 +24,7 @@ the delete
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                         No errors
 

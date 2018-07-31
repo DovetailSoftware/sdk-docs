@@ -18,7 +18,7 @@ Public Function change_cr_status(ByVal cr_id As String, _
 This API causes the specified change request to have its status changed. The change request may be in any condition, but the new status MUST have the same condition as the change request's current condition. In other words, you cannot use this API to change the condition of a CR - you must use the proper API (fix, close, reopen) to do that. You may assign notes to the status change, as well as set the time of the status change, and the user who changed the status. The API can also generate a time bomb (for business rule notification).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 cr_id                                       Yes                         The change request Id to change status for
 
@@ -38,7 +38,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

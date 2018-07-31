@@ -12,7 +12,7 @@ Public Function modify_inv_bin(ByVal old_name As String, _
 This API is used to modify the name or the active flag of an existing bin. You may not move the bin to another location with this API, only rename it at the existing location.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 old_name                               Yes                         Previous name for the bin
 
@@ -26,7 +26,7 @@ is_active                                   �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

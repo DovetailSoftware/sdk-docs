@@ -12,7 +12,7 @@ ByVal user_name As String) As Integer
 This API deletes an existing expense log. The expense log OBJID must be supplied, and the user performing the delete and the time that the delete occurred can optionally be specified.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 expense_log_objid              Yes                         The OBJID of the expense log to delete
 
@@ -24,7 +24,7 @@ the delete
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

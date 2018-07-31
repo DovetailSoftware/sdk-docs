@@ -44,7 +44,7 @@ Note that none of the above special processing takes place if you provide a time
 **Note**: If you have very complex logic (such as with "Or" conditions), you can use the Filter property instead, as this method simply builds up the value in the Filter property for you.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 field_name                             Yes                         Valid field name for the database object. If you wish, you may
 
@@ -118,7 +118,7 @@ value                                      
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12001                                      Bad operation specified
 

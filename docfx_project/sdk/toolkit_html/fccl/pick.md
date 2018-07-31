@@ -73,7 +73,7 @@ The pick API will continue to attempt to pick until they have reserved all of th
 **Note**: This API requires one other API (part_transfer) to work correctly.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 dtl_num                                 Yes                         The part request to receive against
 
@@ -97,7 +97,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
  0                                             No errors
 

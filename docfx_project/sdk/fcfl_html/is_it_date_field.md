@@ -18,7 +18,7 @@ Public Function is_it_date_field(tbl_name As String, _
 This method returns whether a given field is defined (in the specified table) as a date/time field.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 tbl_name                                Yes                         Name of the table
 

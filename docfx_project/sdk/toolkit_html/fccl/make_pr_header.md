@@ -107,7 +107,7 @@ The function returns the header number created (and an error string for error co
 You may specify a number of values such as the billing site (defaults to the main site), the payment type and method, and the user who created the part request. You may specify the the creation date You may specify the user who created the part request header, and you may specify additional fields. You may have a creation time bomb generated (for notifications).
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 first_name                             Yes                         Contact's first name
 
@@ -149,7 +149,7 @@ str_val1, str_val2, date_val1                         �
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

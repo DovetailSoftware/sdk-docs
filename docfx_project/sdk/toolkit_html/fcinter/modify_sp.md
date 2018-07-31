@@ -91,7 +91,7 @@ Public Function modify_sp_list(ByVal sp_objid As Long, _
 This API will modify site_parts in Clarify. They allow many site_part fields to be modified. You must specify the site_part to be modified. The quantity must be specified, either as 1 or more. Most of the other fields can be modified as needed, but the site, part, and mod_level can not be changed. You may determine if activity logs should be added (to the site and to the site_part). If a parameter is left blank, no change is made for that field.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 sp_objid                                                Yes                         The site_part to be modified
 
@@ -151,7 +151,7 @@ val_list                                   No�
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

@@ -16,7 +16,7 @@ This API causes the specified lead to be assigned to a new user. The objid of th
 **Note:** Unlike objects such as cases, quotes, and part requests, leads are not queueable objects in Clarify. By "assigning" the lead, you simply cause it to be seen by the new owner when they view leads in ClearSales. They will not show up in a WIPBin or queue.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 lead_objid                             Yes                         Objid (unique identifier) of the lead
 
@@ -28,7 +28,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

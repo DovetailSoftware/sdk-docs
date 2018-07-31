@@ -20,7 +20,7 @@ This method returns a recordset containing the list time_zone records for the gi
 When finished with the returned recordset, you should close the recordset using the .Close method and then set your variable to Nothing or Null. This will release the resources needed for this object.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 Country                                 Yes                         Country Name
 

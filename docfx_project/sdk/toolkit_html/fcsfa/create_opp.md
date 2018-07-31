@@ -102,7 +102,7 @@ The ID of the newly-created opportunity will be returned in _fcsfa.ret_id_num_. 
   
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 opp_name                             Yes                         Name of the opportunity
 
@@ -160,7 +160,7 @@ val_list                                   Yes
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

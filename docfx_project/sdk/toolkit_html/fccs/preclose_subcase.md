@@ -15,13 +15,13 @@ The results of the API are returned in the output string _ret_id_num_. While the
 **Note**: There are a number of bugs with the default Clarify close subcase summation on the form. There are not sufficient fields defined in the close_case record for the graphical fields they show. Hence, the data doesn't always make sense. For example, the "total phone time captured" should be the total of the phone time captured for the case and for all general subcases. But the GUI form points that field to the total for the phone logs captured for the case (not showing the subcase). Hence, this API defines the data as captured from the real data. How you present it is up to you.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 subcase_id                            Yes                         The subcase to sum
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

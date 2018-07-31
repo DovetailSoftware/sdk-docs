@@ -25,7 +25,7 @@ Further, when you perform a DeleteAll, the current record is set to EOF.
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 12031                                      This operation is not valid for a generic that is marked distinct
 

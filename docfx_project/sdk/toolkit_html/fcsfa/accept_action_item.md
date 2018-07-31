@@ -43,7 +43,7 @@ These APIs cause the specified action item, opportunity, or quote to be accepted
 
 #### Parameters
 
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 the_id                                     Yes                         The action item, opportunity, or quote to accept
 
@@ -63,7 +63,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0 No errors
 

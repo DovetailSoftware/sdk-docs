@@ -14,7 +14,7 @@ Public Function apply_eco(ByVal demand_dtl_objid As Long, _
 These APIs allow an ECO to be applied against a Depot Repair.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 demand_dtl_objid                Yes                         Object ID of specified part request.
 
@@ -30,7 +30,7 @@ different time is not supplied.
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 

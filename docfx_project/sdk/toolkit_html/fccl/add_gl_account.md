@@ -16,7 +16,7 @@ Public Function add_gl_account(ByVal acct_name As String, _
 This API is used to add expense and capital GL accounts to Clarify. The account name, description and account number are specified. Using the boolean flags the account can be made into capital or expense, active or inactive, company or customer owned. The site for the account must be specified, and the account type can be set from the code list.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 acct_name                             Yes                         Name of the GL account
 

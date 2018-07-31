@@ -24,7 +24,7 @@ Public Sub OpenConnection(ByVal TheDB As String, _
 This method is used to open a connection to an external database. If this FCSQLExec object is using the default connection to the Clarify database, you do not need to call this method.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 TheDB                                   Yes                         Database system to connect to. One of "SQL" or "ORACLE"
 
@@ -38,7 +38,7 @@ DBName                                Yes    
 
 **Error Codes**
 
-**Value                                     Meaning                                                                                                                               **
+**Value**                **Meaning**
 
 14001                                      You may not connect with this SQLExec object to more than one database
 

@@ -26,7 +26,7 @@ To use the API, you must specify the case to change, and then either a contact, 
 The API changes the relations for the case. In addition, the case history and activity log are modified. If the contact is changed, the case phone and alternate phone are changed. If the site is changed, any related site_parts for the case are unrelated, as is any contract related to the case. All of this corresponds to actions taken by the base Clarify GUI.
 
 #### Parameters
-**Parameter Name                Required?             Description                                                                                                          **
+**Parameter Name**                **Required?**             **Description**
 
 case_id                                  Yes                         The case to change the contact/site for
 
@@ -46,7 +46,7 @@ gen_time_bombs                 Yes               
 
 **Returns**
 
-**Value                                     Meaning                                                                                                                                               **
+**Value**                **Meaning**
 
 0                                              No errors
 
