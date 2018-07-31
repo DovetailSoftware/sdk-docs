@@ -20,7 +20,7 @@ The state_prov and country tables are cached in the FCApplication object, so thi
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | Country | Yes | Name of country to get the default state for. |
 
 **Returns**

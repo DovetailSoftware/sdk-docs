@@ -13,7 +13,7 @@ This API causes the specified case to be yanked from the current location to a n
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to yank |
 | wipbin | No | The WIPBin to place the case in. If left blank, the default WIPBin for the user is used |
 | yank_date | No | When was the case yanked. If this parameter is left blank, the yank occurs at the current time |

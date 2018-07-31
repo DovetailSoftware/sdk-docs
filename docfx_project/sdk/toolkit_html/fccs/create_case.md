@@ -50,7 +50,7 @@ If successful, these APIs return both the _objid_ and the _id_number_ of the new
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | site_id | Yes | Which site reported the case |
 | first | Yes | First name of contact calling in the case |
 | last | Yes | Last name of contact calling in the case |

@@ -13,7 +13,7 @@ This API causes the specified subcase to be reopened. The date/time of the reope
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | subcase_id | Yes | The subcase to reopen |
 | wipbin_name | No | The WIPBin to place the subcase in. If left blank, the default WIPBin for the user is used |
 | status_str | No | The new status for the subcase. If no status is specified, the default status for Open Condition is used |

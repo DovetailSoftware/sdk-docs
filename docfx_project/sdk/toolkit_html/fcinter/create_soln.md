@@ -42,7 +42,7 @@ You may specify a creation date, and the user who created the solution. You may 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | the_title | No | Title of the solution |
 | description | No | The problem description of the solution |
 | workaround | No | The text of the 1st workaround for the solution. Highly recommended that this have text |

@@ -17,7 +17,7 @@ Alternate logging method that allows setting the log level. This method is simil
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | logLevel | Yes | A string representation of the [LogLevel](../FChoice.Common~FChoice.Common.LogLevel.md) enumeration (e.g "DEBUG", "INFO", "ERROR"). |
 | logMessage | Yes | The message to be logged. |
 

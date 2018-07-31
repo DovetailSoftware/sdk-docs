@@ -13,7 +13,7 @@ This API causes the specified case to be moved from one WIPBin to another WIPBin
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to move |
 | new_wipbin | Yes | The WIPBin to move the case to. If left blank, the case is moved to the user's default WIPBin |
 

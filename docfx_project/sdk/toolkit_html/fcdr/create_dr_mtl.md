@@ -23,7 +23,7 @@ This API allows usage of material to be logged against a depot repair part.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | demand_dtl_objid | Yes | Object ID of specified part request. |
 | repair_code | No | Repair type for this usage of material. Will use default if not supplied. |
 | failure_code | No | Failure code for the part being serviced. Will use default if not supplied. |

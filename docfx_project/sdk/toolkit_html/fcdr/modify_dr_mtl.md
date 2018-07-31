@@ -23,7 +23,7 @@ Theis API allows modification of material that is logged against a depot repair 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | mtl_log_objid | Yes | Object ID of specified mtl log. |
 | repair_code | No | Repair type for this usage of material. |
 | failure_code | No | Failure code for the part being serviced. |

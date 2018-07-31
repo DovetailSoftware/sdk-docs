@@ -24,7 +24,7 @@ You must update the object via the Update or UpdateAll method for the relation t
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | o_obj | Yes | The object to which to relate |
 | the_field | Yes | The field to use to store the objid of the other object |
 

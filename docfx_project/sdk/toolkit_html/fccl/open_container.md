@@ -10,7 +10,7 @@ This API opens an existing (sealed) container.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cont_name | Yes | The container to open |
 
 **Returns**

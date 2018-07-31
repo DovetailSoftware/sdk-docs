@@ -20,7 +20,7 @@ This method changes the restriction group for the session user. The first argume
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | new_group | Yes | The name of the new restriction group |
 | SaveToDB | No | Should the change be saved to the database? If left out, the value used is "False" |
 

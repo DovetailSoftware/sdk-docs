@@ -16,7 +16,7 @@ This API allows you to modify an existing product bin. You may change the bin na
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | bin_objid | Yes | Objid of the bin to modify |
 | bin_name | No | New name of the bin. If no change is to be made, set the bin_name to "" |
 | description | No | New description of the bin. If no change is to be made, use "". If you wish to clear out the description, set this argument to "CLEAR" |

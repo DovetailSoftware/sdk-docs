@@ -83,7 +83,7 @@ The objid of the newly-created contract line item will be returned in _fcsfa.ret
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contract_id | Yes | The quote/contract for the line item |
 | user_name | No | The user who created the line item. If left blank, the current user performs the create. For business rules, it defaults to the user_name who is executing the cbbatch |
 | create_date | No | Line item creation date. If left blank, current date/time is used |

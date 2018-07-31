@@ -22,7 +22,7 @@ This method returns the hgbst_elm.objid value for a given element in a given lev
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TheElement | Yes | The element to get the objid for. |
 | ListName | Yes | The user-defined list name. |
 | Element1 | No | The parent element for TheElement, if TheElement is in a 2 level list. Else, the parent element for Element2. |

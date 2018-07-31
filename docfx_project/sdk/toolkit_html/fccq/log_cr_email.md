@@ -37,7 +37,7 @@ These APIs are used to create an email log (email out) against a CR. The date th
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The CR to create the log for |
 | log_date | No | The date the log was created. If left blank, the current time is used |
 | message | No | The text (body) of the email message |

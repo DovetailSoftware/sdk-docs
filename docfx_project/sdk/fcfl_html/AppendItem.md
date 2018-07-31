@@ -26,7 +26,7 @@ Append from one to nine items onto the list.  Items are appended in order on th
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | item1 | Yes | First item to append to the list. |
 | item2 - item9 | No | Second through ninth item to append to the list. |
 

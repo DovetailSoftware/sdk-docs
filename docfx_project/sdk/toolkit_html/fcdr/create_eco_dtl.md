@@ -18,7 +18,7 @@ This API add labor or material details to the specified ECO Header. The objid of
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | detail_type | Yes | Must be "Labor" or "Material" |
 | Required? | Yes | Indicates if this detail is required (1), or not (0) |
 | status | No | Indicates the effectivity of the ECO, defined by the Clarify list of "ECO Status" values. The list default is used if no parameter is supplied. |

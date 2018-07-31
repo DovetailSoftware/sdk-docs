@@ -41,7 +41,7 @@ When pricing quantities, if you leave the price quantity empty, it will default 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | part_num | No | The part number of the part being priced |
 | mod_level | No | The mod level of the part being priced |
 | domain | No | The domain of the part being priced |

@@ -20,7 +20,7 @@ This API is used to add purchase orders to schedules of contracts. A valid sched
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contract_id | Yes | ID number of the contract/quote |
 | sched_id | Yes | ID of the schedule for the specified contract |
 | po_num | Yes | The purchase order number for the schedule |

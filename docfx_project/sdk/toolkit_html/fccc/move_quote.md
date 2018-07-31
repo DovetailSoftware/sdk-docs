@@ -13,7 +13,7 @@ This API causes the specified quote to be moved from one WIPBin to another WIPBi
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | quote_id | Yes | The quote to move |
 | new_wipbin | Yes | The WIPBin to move the quote to. If left blank, the quote is moved to the user's default WIPBin |
 

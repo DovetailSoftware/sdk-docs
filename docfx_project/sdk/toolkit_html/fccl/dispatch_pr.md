@@ -13,7 +13,7 @@ This API causes the specified part request to be dispatched to the specified que
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | pr_id | Yes | The part request to dispatch |
 | queue_name | Yes | The queue to dispatch to |
 | disp_date | No | When was the part request dispatched. If this parameter is left blank, the PR is dispatched at the current time |

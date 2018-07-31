@@ -21,7 +21,7 @@ You may also specify the status of the revision. If you do not specify a status 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | part_num | Yes | Part number of the part |
 | part_dom | Yes | Domain of the part |
 | mod_level | Yes | Revision to create |

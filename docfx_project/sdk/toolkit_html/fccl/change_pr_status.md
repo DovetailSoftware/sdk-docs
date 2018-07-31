@@ -13,7 +13,7 @@ This API causes the specified part request to have a status change from one stat
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | pr_id | Yes | The part request to reject |
 | new_status | No | The new status. If blank, the default status for the condition is used |
 | change_date | No | When did the status change occur. If left blank, current time is used |

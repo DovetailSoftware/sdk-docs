@@ -15,7 +15,7 @@ This API is used to modify existing GL accounts. Any of the attributes of the ac
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | old_name | Yes | The current ame of the GL account |
 | new_name | No | The new name (if changed) of the GL account |
 | account_type | No | Type of account from the code list. If blank, the default value is used |

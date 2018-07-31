@@ -26,7 +26,7 @@ For updates, a new title can be specified. An updated description can be provide
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | title | Yes | Title of the queue. For creates, it is a unique name. For updates, it is the name of the queue to update |
 | personal | Yes | Is this a personal queue (True), or shared (False) |
 | description | No | The description of the queue. For updates, if you leave it blank (""), no change will be made. If you want to clear the description (for updates), use the string "CLEAR". |
@@ -37,7 +37,7 @@ For updates, a new title can be specified. An updated description can be provide
 
 **Returns**
 
-**Value | Meaning | **
+**Value**                          **Meaning**
 
 0                                              No errors
 

@@ -18,7 +18,7 @@ This method sets the current record for the generic object either forward or bac
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | NumToMove | Yes | An integer of how many records to move. Positive integers move forward in the recordset. Negative values move backwards. |
 
 **Example**

@@ -13,7 +13,7 @@ This API creates a time zone in the Clarify database, and relates it to a countr
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | time_zone | Yes | Time zone name |
 | full_name | No | Full name of the time zone |
 | country | Yes | The country to link the time zone to |

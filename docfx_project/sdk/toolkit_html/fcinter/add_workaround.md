@@ -38,7 +38,7 @@ These APIs add a new workaround to an existing solution. You must specify the so
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | soln_id | No | ID of solution to link workaround to |
 | soln_objid | No | Objid of solution to link workaround to |
 | workaround | No | The text of the workaround |

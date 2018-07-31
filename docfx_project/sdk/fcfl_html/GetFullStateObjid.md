@@ -20,7 +20,7 @@ This method returns an objid for a given state in a given country. If the state 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | Country | Yes | Name of country. |
 | State | Yes | Name of state to get the objid for. |
 

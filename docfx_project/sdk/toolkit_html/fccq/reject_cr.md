@@ -15,7 +15,7 @@ This API causes the specified change request to be rejected from the queue it is
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request to reject-forward |
 | reject_date | No | When was the change request rejected. If this parameter is left blank, the CR is rejected at the current time |
 | wipbin | No | The WIPBin to place the change request in. If left blank, the default WIPBin is used |

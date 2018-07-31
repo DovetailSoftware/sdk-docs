@@ -26,7 +26,7 @@ You should use the supplied GUI in _fcAdmin_ to modify web forms, web user versi
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | user_name | No | The name of the user for whom user version/resource configuration  should be loaded into this session. |
 
 **Example**

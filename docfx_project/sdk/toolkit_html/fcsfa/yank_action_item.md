@@ -32,7 +32,7 @@ These APIs cause the specified action item, opportunity, or quote to be yanked f
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | the_id | Yes | The object to yank |
 | wipbin | No | The WIPBin to place the object in. If left blank, the default WIPBin for the user is used |
 | yank_date | No | When was the object yanked. If this parameter is left blank, the yank occurs at the current time |

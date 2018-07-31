@@ -18,7 +18,7 @@ This method changes the password for the session user, which may either be a con
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | password | Yes | The new password |
 
 **Error Codes**

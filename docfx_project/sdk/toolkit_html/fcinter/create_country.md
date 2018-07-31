@@ -18,7 +18,7 @@ The API checks both the country name and the ISO code. If either is found in the
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cname | Yes | Country name to add |
 | c_code | Yes | Country code (phone calling code) for the country |
 | the_currency | No | The currency name to use for the country. If found in the DB, that currency is used. If not found, a new currency object is created. If blank, no currency is used for this country |

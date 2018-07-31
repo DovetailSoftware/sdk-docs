@@ -22,7 +22,7 @@ The string_db table is cached in the FCApplication object, so this method does n
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | StringID | Yes | A string ID number or name. |
 
 **Returns**

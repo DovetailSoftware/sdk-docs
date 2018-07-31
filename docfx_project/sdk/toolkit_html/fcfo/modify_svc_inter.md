@@ -17,7 +17,7 @@ The appointment type and subtype are optional code list values that may be speci
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | appt_objid | Yes | The OBJID of the appointment to modify |
 | description | No | The description of the appointment |
 | start_time | No | When does the appointment start. If you want to leave the original time, use = "" |

@@ -22,7 +22,7 @@ When finished with the returned recordset, you should close the recordset using 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | Country | Yes | Country Name |
 
 **Returns**

@@ -22,7 +22,7 @@ The method works for any and all cardinalities (OTM, MTO, OTO, MTM), and the rel
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | the_rel | Yes | The relation to use to find the objects to unrelate |
 
 **Error Codes**

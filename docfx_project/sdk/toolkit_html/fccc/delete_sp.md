@@ -10,7 +10,7 @@ This API is used to delete a site_part in Clarify, and then unrelate the site_pa
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | sp_objid | Yes | Objid of the site_part |
 
 **Returns**

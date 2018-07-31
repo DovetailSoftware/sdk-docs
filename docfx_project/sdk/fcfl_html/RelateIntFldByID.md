@@ -26,7 +26,7 @@ You must update the object via the Update or UpdateAll method for the relation t
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | the_objid | Yes | The objid of the object to relate to |
 | the_field | Yes | The field to store the objid |
 

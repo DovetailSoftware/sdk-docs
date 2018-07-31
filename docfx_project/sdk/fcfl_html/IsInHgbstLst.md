@@ -22,7 +22,7 @@ This method returns a boolean value indicating if a given string is a valid elem
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TheElement | Yes | The element to be checked for its existence in the list. |
 | ListName | Yes | The user-defined list name. |
 | Element1 | No | The parent element for TheElement, if TheElement is in a 2 level list. Else, the parent element for Element2. |

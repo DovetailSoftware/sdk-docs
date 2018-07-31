@@ -15,7 +15,7 @@ This API causes the specified quote to have its status changed. The quote may be
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | quote_id | Yes | The quote to change status for |
 | new_status | No | The new status for the quote |
 | change_date | No | When was the quote status changed. If this parameter is left blank, the quote is status changed at the current time |

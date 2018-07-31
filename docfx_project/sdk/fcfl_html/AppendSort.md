@@ -24,7 +24,7 @@ You **MUST** set the DBObjectName (either by setting it, using SimpleQuery, Pare
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | field_name | Yes | Valid field name for the database object. If you wish, you may also specify a valid MTO or OTOP relation name |
 | ascending | Yes | A string that is one of:<br>1. ascending (or asc or a)<br>2. descending (or desc or d) |
 

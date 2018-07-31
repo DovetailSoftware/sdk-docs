@@ -61,7 +61,7 @@ To create a new account, leave the account field blank. A variety of fields in t
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | acct_name | No | Account's name |
 | desc | No | Description |
 | territory | No | Territory of the account |

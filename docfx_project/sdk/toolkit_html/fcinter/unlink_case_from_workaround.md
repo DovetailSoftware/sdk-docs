@@ -15,7 +15,7 @@ This API allows a case to be unlinked from the workaround it is currently linked
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | Case id to unlink from |
 | unlink_date | No | When was the unlink performed? If blank, current date/time is used |
 | user_name | No | Who performed the unlink? If blank, current user is used |

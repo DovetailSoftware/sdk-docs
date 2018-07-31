@@ -62,7 +62,7 @@ Most of the data items can be left with their current values. To not change an i
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | opp_id | Yes | The ID of the opportunity to modify |
 | opp_name | No | Name of the opportunity. If blank, no change is made |
 | acct_id | No | ID of the related account. If blank, no change is made. To clear the account, use "CLEAR" |
@@ -204,7 +204,7 @@ These APIs cause the specified action item, opportunity, or quote to be moved fr
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | the_id | Yes | The object to move |
 | new_wipbin | Yes | The WIPBin to move the object to. If left blank, the object is moved to the |
 

@@ -12,7 +12,7 @@ This API builds a list of the alternate parts (table_partnum_view) for the speci
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | part_num | Yes | The part number |
 | domain_name | Yes | The domain of the part |
 | mod_level | Yes | The revision of the part |

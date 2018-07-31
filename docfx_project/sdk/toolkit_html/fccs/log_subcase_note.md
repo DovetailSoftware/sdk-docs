@@ -44,7 +44,7 @@ The objid of the status change record is returned in the FCCS object variable _r
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | subcase_id | Yes | The subcase to create the log for |
 | action_type | No | The note log action type code value. If left blank, default code is used |
 | notes | No | The note log text |

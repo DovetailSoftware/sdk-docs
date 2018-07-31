@@ -18,7 +18,7 @@ This method returns the number of seconds the given time zone is offset from GMT
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TimeZone | Yes | Name of time zone to get the offset for. |
 
 **Returns**

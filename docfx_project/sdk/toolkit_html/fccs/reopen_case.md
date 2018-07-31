@@ -13,7 +13,7 @@ This API causes the specified case to be reopened. The date/time of the reopen, 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to reopen |
 | wipbin_name | No | The WIPBin to place the case in. If left blank, the default WIPBin for the user is used |
 | status_str | No | The new status for the case. If no status is specified, the default status for Open Condition is used |

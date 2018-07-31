@@ -16,7 +16,7 @@ For updates, you must specify the title of the WIPBIN. You may change the name o
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | title | Yes | Title of the WIPBIN. For inserts, it is the name of the new WIPBIN. For updates, this is the name of the WIPBIN to update |
 | new_title | No | For updates only, the new name of the WIPBIN.  If blank, the name of the WIPBIN is left as is |
 | description | No | For inserts, the description of the WIPBIN. For updates it can contain a new value of the description. If blank, the description is left as is. To clear the description, set it to "CLEAR" |

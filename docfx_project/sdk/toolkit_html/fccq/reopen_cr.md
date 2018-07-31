@@ -15,7 +15,7 @@ This API causes the specified CR to be reopened. It must be in a condition other
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The CR to reopen |
 | status | No | The new status for the CR. If no status is specified, the default status for CR Open condition is used |
 | wipbin | No | The WIPBin to place the CR in. If left blank, the default WIPBin for the user is used |

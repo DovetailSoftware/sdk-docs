@@ -31,7 +31,7 @@ These APIs create a contact in the database. The APIs also create the contact ro
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | first | Yes | First name of the contact |
 | last | Yes | Last name of the contact |
 | phone | Yes | Phone number of the contact |

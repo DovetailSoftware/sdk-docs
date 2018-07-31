@@ -16,7 +16,7 @@ This API modifies an existing  part restocking authorization level. The locatio
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | bin_name | Yes | The bin for the restocking |
 | to_bin | No | The name of the bin to move the record to. If blank, no move occurs |
 | location_name | Yes | The location for the bin |

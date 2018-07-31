@@ -18,7 +18,7 @@ This method returns whether a given table name is defined in the database as a v
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | tbl_name | Yes | Name of the table |
 
 **Returns**

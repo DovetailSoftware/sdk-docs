@@ -18,7 +18,7 @@ This method determines if a supplied string is a unicode (wide varchar) string. 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | in_str | Yes | The string to test |
 
 **Returns**

@@ -54,7 +54,7 @@ This API will modify site_parts in Clarify. They allow many site_part fields to 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | sp_objid | Yes | The site_part to be modified |
 | instance_name | No | The instance name for the site_part. If blank, no change is made. If "#default" is used , the instance_name is generated for you by the API. If  "#clear" is specified, the instance name is cleared |
 | serial_num | No | A new serial number. If blank, make no change. If "#clear" is specified, the serial number is cleared |

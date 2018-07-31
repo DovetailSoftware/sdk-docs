@@ -15,7 +15,7 @@ This API cause the specified change request to be assigned to a new user. The CR
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request Id to be assigned |
 | new_user | No | The user who the change request is assigned to. If left blank, the CR is assigned to the current user |
 | wipbin_name | No | The WIPBin to place the change request in (for the user who is assigned the CR). If left blank, the change request is placed in the user's default WIPBin |

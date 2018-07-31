@@ -18,7 +18,7 @@ This method returns a boolean indicating if an element having a given rank exist
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | ListName | Yes | Application List Name |
 | Rank | Yes | Rank of Element |
 

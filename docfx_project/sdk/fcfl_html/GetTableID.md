@@ -22,7 +22,7 @@ This method is for advanced users only, and will seldom be called for most appli
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TableName | Yes | Name of table or view in the Clarify database. |
 
 **Returns**

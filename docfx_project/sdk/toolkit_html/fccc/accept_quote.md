@@ -15,7 +15,7 @@ This API cause the specified quote to be accepted from a dispatched queue. The q
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | quote_id | Yes | The quote to accept |
 | accept_date | No | When was the quote accepted. If this parameter is left blank, the quote is accepted at the current time |
 | wipbin_name | No | The WIPBin to place the quote in (for the user who accepted the quote) If left blank, the quote is placed in the user's default WIPBin |

@@ -53,7 +53,7 @@ To do this, specify (in the trans_id argument), the transaction ID of the previo
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | part_num | Yes | The part number transferred |
 | mod_level | Yes | Revision of the part |
 | domain_name | Yes | The domain of the part |

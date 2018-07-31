@@ -35,7 +35,7 @@ These APIs cause the specified action item, opportunity, or quote to be assigned
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | the_id | Yes | The action item, opportunity, or quote ID to be assigned |
 | new_user | No | The user who the object is assigned to. If left blank, the object is assigned to the current user |
 | wipbin_name | No | The WIPBin to place the object in (for the user who is assigned the case). If left blank, the object is placed in the user's default WIPBin |

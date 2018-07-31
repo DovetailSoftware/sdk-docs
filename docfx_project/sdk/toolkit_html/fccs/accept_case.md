@@ -14,7 +14,7 @@ This API causes the specified case to be accepted from a dispatched queue. The c
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to accept |
 | accept_date | No | When was the case accepted. If this parameter is left blank, the case is accepted at the current time |
 | wipbin_name | No | The WIPBin to place the case in (for the user who accepted case) If left blank, the case is placed in the user's default WIPBin |

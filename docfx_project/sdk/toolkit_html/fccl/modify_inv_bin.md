@@ -12,7 +12,7 @@ This API is used to modify the name or the active flag of an existing bin. You m
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | old_name | Yes | Previous name for the bin |
 | new_name | Yes | New name for the bin. If the bin isn't changing names, this argument can be left blank |
 | loc_name | Yes | Name of the inventory location where the bin is located |

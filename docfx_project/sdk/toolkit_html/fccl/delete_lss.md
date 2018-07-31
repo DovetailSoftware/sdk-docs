@@ -10,7 +10,7 @@ This API is used to remove the relationship between a site and a location servic
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | site_id | Yes | Name of the site to be serviced |
 | loc_name | Yes | Name of the servicing location |
 

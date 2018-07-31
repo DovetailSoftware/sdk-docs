@@ -21,7 +21,7 @@ You can then change any fields, or set any relations, just like any other record
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | theObjid | Yes | This is the objid of the record to update |
 
 **Error Codes**

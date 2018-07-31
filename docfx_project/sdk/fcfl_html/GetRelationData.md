@@ -22,7 +22,7 @@ This method returns the meta-data for the specified relation from the Clarify AD
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | rel_name | Yes | The name of the relation |
 | tbl_name | Yes | The name of the table (without the "table_" prefix) |
 

@@ -15,7 +15,7 @@ The API will validate that the user has authority to make the status transition.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | pr_id | Yes | The part request to reject |
 | new_status | No | The status (in condition RQST REOPENED) for the part request. If left blank, the default status is used |
 | wipbin_name | No | The WIPBIN to place the part request in.  If left blank, the default WIPBIN for the user is used |

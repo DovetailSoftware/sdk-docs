@@ -2,9 +2,13 @@ add_gl_account
 ----------------
 
 Public Function add_gl_account(ByVal acct_name As String, _
+
                                ByVal account_type As String, ByVal desc_str As String, _
+
                                ByVal account_no As String, ByVal is_exp As Boolean, _
+
                                ByVal is_active As Boolean, ByVal is_company As Boolean, _
+
                                ByVal site_id As String) As Integer
 
 **Description**
@@ -14,7 +18,7 @@ This API is used to add expense and capital GL accounts to Clarify. The account 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | acct_name | Yes | Name of the GL account |
 | account_type | No | Type of account from the code list. If blank, the default value is used |
 | desc_str | No | The description of the account |
@@ -26,7 +30,7 @@ This API is used to add expense and capital GL accounts to Clarify. The account 
 
 **Returns**
 
-**Value | Meaning | **
+**Value**                          **Meaning**
 
 0                                              No errors
 

@@ -59,7 +59,7 @@ The pick API will continue to attempt to pick until they have reserved all of th
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | dtl_num | Yes | The part request to receive against |
 | locs_str | No | The list of locations to search. If blank, location_servicing_locations are used. See above for a description of the format of this argument |
 | use_good | Yes | Is the picked inventory from good stock? |

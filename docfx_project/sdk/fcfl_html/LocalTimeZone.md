@@ -20,7 +20,7 @@ This property retrieves or sets the local time zone. The local time zone represe
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | NewTimeZone | Yes | The name of time zone. |
 
 **Returns**

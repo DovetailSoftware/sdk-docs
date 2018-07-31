@@ -55,7 +55,7 @@ The objid of the status change record is returned in the FCCS object variable _r
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to create the log for |
 | action_type | No | The email log action type code value. If left blank, default code is used |
 | log_date | No | The date the log was created. If left blank, the current time is used |

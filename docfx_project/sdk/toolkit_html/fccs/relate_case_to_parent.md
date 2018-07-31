@@ -11,7 +11,7 @@ This API allows a case to be related to a specified parent case. You must make s
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The ID of the new child case |
 | parent_id | Yes | The ID of the new parent case |
 

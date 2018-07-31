@@ -21,7 +21,7 @@ The API changes the relations for the case. In addition, the case history and ac
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to change the contact/site for |
 | first | No | First name of new contact |
 | last | No | Last name of new contact |

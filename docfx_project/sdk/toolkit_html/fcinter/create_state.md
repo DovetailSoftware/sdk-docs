@@ -13,7 +13,7 @@ This API creates a state/prov object in Clarify database, and relates it to an e
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | state | Yes | State name |
 | full_name | No | Full name of the state |
 | is_default | Yes | Is this the default state for the country? |

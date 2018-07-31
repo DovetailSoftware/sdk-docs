@@ -18,7 +18,7 @@ This method returns a boolean indicating if the given country is a valid country
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | Country | Yes | Name of country to be validated. |
 
 **Returns**

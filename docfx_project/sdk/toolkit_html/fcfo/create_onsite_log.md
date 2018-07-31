@@ -14,7 +14,7 @@ This API allows creation of an onsite log that is related to a case or subcase. 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | object_type | Yes | The type of focus object that this onsite log is tied to. (CASE or SUBCASE) |
 | object_id | Yes | The id number of the focus object |
 | creation_time | No | The time this onsite log is created. If left blank, it will be set to the current time |

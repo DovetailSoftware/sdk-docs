@@ -11,7 +11,7 @@ This API adds a site to an existing contract. You must specify the contract ID a
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contract_id | Yes | ID of contract to add site to |
 | site_id | Yes | ID of site to be added |
 

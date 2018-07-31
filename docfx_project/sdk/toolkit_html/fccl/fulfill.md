@@ -43,7 +43,7 @@ The fulfill API will also validate that the part request can be transitioned (fo
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | dtl_num | Yes | The part request to fulfill against |
 | is_fulfill | Yes | If this = True, it is a fulfill operation. If = False, it is a backorder |
 | quantity_num | Yes | How many units to fulfill/backorder |

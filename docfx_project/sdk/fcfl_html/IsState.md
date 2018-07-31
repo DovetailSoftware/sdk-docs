@@ -18,7 +18,7 @@ This method returns a boolean indicating if the given state is valid for the giv
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | Country | Yes | Name of country. |
 | State | Yes | Name of state to be validated. |
 

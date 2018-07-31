@@ -19,7 +19,7 @@ Each appointment must be specified for a given employee or a piece of equipment 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | description | No | The description of the appointment |
 | start_time | Yes | When does the appointment start |
 | end_time | No | When does the appointment end |

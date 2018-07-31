@@ -15,7 +15,7 @@ This API can be used to change the condition and (optionally) a status for an ac
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | task_id | Yes | The ID of the action item to change |
 | new_cond | Yes | The new condition for the action item |
 | new_status | No | New status for the action item |

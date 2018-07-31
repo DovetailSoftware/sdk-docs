@@ -46,7 +46,7 @@ The objid of the status change record is returned in the FCCS object variable _r
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to create the log for |
 | action_type | No | The research log action type code value. If left blank, default code is used |
 | notes | No | The research log text |

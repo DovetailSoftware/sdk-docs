@@ -13,7 +13,7 @@ This API will fulfill a previously unfulfilled commitment. The commitment objid 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | log_objid | Yes | The objid of the log to be fulfilled |
 | fulfill_date | No | When was the commitment fulfilled. If this parameter is left blank, commitment is fulfilled at the current time |
 | user_name | No | The user who fulfilled the commitment. If left blank, the current user performs the fulfill |

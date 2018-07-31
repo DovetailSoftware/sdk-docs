@@ -13,7 +13,7 @@ This API causes the specified subcase to be moved from one WIPBin to another WIP
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | subcase_id | Yes | The subcase to move |
 | new_wipbin | Yes | The WIPBin to move the subcase to. If left blank, the case is moved to the user's default WIPBin |
 

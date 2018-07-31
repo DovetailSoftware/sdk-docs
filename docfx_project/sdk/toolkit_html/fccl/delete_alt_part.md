@@ -13,7 +13,7 @@ This API causes the second part/revision listed to be removed as an alternate pa
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | part_num | Yes | The primary part number |
 | rev | Yes | The primary part revision |
 | domain | Yes | The domain of the primary part |

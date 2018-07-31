@@ -24,7 +24,7 @@ When a site_part is moved, all sub-site_parts underneath it are also moved.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | sp_objid | Yes | The OBJID of the site_part to be moved |
 | move_date | No | The date that the site_part is being moved |
 | parent_sp_objid | No | The OBJID of the site_part under which you wish to move the site_part. Only specified if the site_part is to be moved under another site_part |
@@ -36,7 +36,7 @@ When a site_part is moved, all sub-site_parts underneath it are also moved.
 
 **Returns**
 
-**Value | Meaning | **
+**Value**                          **Meaning**
 
 0                                              No errors
 

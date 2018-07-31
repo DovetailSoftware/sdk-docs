@@ -26,7 +26,7 @@ The color returned will be one of three values:
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | purpose | Yes | The purpose that this color is used for |
 
 **Returns**

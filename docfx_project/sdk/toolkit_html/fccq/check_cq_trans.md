@@ -14,7 +14,7 @@ This API can be used to determine if a particular user can change status from an
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | old_cond | Yes | Old condition for the CR |
 | old_stat | Yes | Old status for the CR |
 | new_cond | Yes | New condition for the CR |

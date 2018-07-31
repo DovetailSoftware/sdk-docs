@@ -34,7 +34,7 @@ If you include a generic object as an argument to this method, the duplicate wil
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | use_generic | No | Generic to which to add the copy. If not supplied, a new generic object will be created, used, and returned. |
 
 **Returns**

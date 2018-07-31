@@ -12,7 +12,7 @@ This API causes the specified part request to be moved from one WIPBin to anothe
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | pr_id | Yes | The part request to move |
 | new_wipbin_name | Yes | Name of the WIPBin to move to |
 

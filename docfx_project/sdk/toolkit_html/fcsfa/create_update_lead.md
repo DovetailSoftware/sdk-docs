@@ -78,7 +78,7 @@ The objid of the newly-created lead will be returned in _fcsfa.ret_objid_.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | lead_objid | Yes | A variable set to -1 for creates, and to the objid of the lead to update for updates |
 | first_name | No | First name of the lead |
 | last_name | No | Last name of the lead |

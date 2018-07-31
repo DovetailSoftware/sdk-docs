@@ -14,7 +14,7 @@ This API causes the specified case to be dispatched to the specified queue. The 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to dispatch |
 | queue_name | Yes | The queue to dispatch to |
 | disp_date | No | When was the case dispatched. If this parameter is left blank, the case is dispatched at the current time |

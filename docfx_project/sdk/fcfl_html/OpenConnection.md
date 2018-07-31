@@ -26,7 +26,7 @@ This method is used to open a connection to an external database. If this FCSQLE
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TheDB | Yes | Database system to connect to. One of "SQL" or "ORACLE" |
 | UserName | Yes | User name for login |
 | Password | Yes | Password for the user |

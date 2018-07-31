@@ -14,7 +14,7 @@ This API causes the specified solution to be dispatched to the specified queue. 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | solution_id | Yes | The solution to dispatch |
 | queue_name | Yes | The queue to dispatch to |
 | disp_date | No | When was solution dispatched. If this parameter is left blank, the solution is dispatched at the current time |

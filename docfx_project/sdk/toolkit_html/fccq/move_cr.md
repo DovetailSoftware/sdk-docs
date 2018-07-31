@@ -13,7 +13,7 @@ This API causes the specified change request to be moved from one WIPBin to anot
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request to move |
 | new_wipbin | Yes | The WIPBin to move the change request to |
 

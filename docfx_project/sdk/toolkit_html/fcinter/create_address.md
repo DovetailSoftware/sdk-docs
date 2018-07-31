@@ -42,7 +42,7 @@ These APIs create new addresses in the database. You must specify one of the two
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | addr1 | No | Address line 1 |
 | addr2 | No | Address line 2 |
 | city | Yes | City |

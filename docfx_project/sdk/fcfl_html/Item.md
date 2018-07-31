@@ -18,7 +18,7 @@ The Item property allows access to a collection of data stored in the FCSession 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TheItem | Yes | The item to be retrieved. |
 
 **Returns**

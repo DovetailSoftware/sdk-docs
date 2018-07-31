@@ -17,7 +17,7 @@ The trans authority determines part authorization levels, and has three possible
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | loc_name | Yes | Name of the inventory location |
 | account_type | No | Code list value. If blank, default value is used |
 | desc_str | No | Description of the inventory location |

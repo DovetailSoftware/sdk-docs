@@ -34,7 +34,7 @@ These APIs are used to create or update a contract schedule. The contract ID mus
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contract_id | Yes | ID number of the contract |
 | is_create | Yes | Is this a new schedule (True) or an update (False) |
 | sched_id | Yes | The ID of the schedule to create, or of the one to update |

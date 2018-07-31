@@ -15,7 +15,7 @@ This API causes the specified case to be reject-forwarded from one queue to anot
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to reject-forward |
 | new_queue | Yes | The queue to forward to |
 | forward_date | No | When was the case forwarded. If this parameter is left blank, the case is forwarded at the current time |

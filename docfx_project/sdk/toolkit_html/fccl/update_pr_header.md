@@ -1,5 +1,3 @@
-  
-
 update_pr_header
 ------------------
 
@@ -36,7 +34,7 @@ These APIs allow for the updating of part request headers. You must supply the h
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | hdr_num | Yes | The part request to update |
 | first_name | No | First name of contact for part request |
 | last_name | No | Last name of contact for part request |
@@ -53,7 +51,9 @@ These APIs allow for the updating of part request headers. You must supply the h
 
 **Returns**
 
-**Value**                **Meaning** | 0 | No errors
+**Value**                **Meaning**
+
+0                                              No Errors
 
 -1                                             Cannot find the specified part request header
 

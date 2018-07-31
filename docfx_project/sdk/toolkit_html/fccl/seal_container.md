@@ -10,7 +10,7 @@ This API seals an existing container.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cont_name | Yes | The container to seal |
 
 **Returns**

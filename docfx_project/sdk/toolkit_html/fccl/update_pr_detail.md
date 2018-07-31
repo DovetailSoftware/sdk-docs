@@ -36,7 +36,7 @@ These APIs allow for the updating of part request details. You must supply the d
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | dtl_num | Yes | The part request to update |
 | part_num | No | Part number to update the part request to. If no new part/revision for part request, leave this field blank. |
 | mod_level | No | Revision to udpate the part request to. If no new part/revision for part request, leave this field blank. |
@@ -56,7 +56,9 @@ These APIs allow for the updating of part request details. You must supply the d
 
 **Returns**
 
-**Value**                **Meaning** | 0 | No errors
+**Value**                **Meaning**
+
+0                                              No Errors
 
 -1                                             Specified quantity must be >= 0
 

@@ -17,7 +17,7 @@ The results of the API are returned in the output string _ret_id_num_. While the
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | subcase_id | Yes | The subcase to sum |
 
 **Returns**

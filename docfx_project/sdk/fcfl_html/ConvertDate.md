@@ -18,7 +18,7 @@ This property converts a date/time value from one time zone to another. It uses 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TheDate | Yes | The timestamp (date and time) to be converted |
 | FromZone | Yes | The name of the time zone that the date will be converted from. |
 | TomeZone | Yes | The name of the time zone that the date will be converted 

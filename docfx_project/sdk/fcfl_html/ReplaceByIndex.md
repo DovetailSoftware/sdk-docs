@@ -18,7 +18,7 @@ This method replaces items in a list with the specified item.  Index can be an 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | index | Yes | Integer or list of items to replace. |
 | item | Yes | Item to substitute into the list. |
 

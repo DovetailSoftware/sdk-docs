@@ -24,7 +24,7 @@ This method returns a configuration item from the database. You must specify the
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | ConfigItem | Yes | The name of the configuration item |
 | FieldName | Yes | A valid field name in the config_itm table |
 | LoginName | No | An optional parameter that is a valid login_name in the user table. |

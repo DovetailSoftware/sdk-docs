@@ -10,7 +10,7 @@ The Initialize method is used to establish the relationship between the FCCQ obj
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TheFCApplication | Yes | The FCApplication Object |
 | TheFCSession | Yes | The FCSession Object |
 

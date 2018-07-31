@@ -14,7 +14,7 @@ This API causes the specified change request to be accepted from a dispatched qu
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request to accept |
 | accept_date | No | When was the change request accepted. If this parameter is left blank, the CR is accepted at the current time |
 | wipbin_name | No | The WIPBin to place the change request in (for the user who accepted CR) If left blank, the change request is placed in the user's default WIPBin |

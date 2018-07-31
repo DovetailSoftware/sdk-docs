@@ -71,7 +71,7 @@ The ID of the newly-created quote will be returned in _fcsfa.ret_id_num_. The ob
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | quote_title | Yes | The title of the quote |
 | account_id | No | ID of the related account for "sell-to" |
 | site_id | No | ID number of the related site |

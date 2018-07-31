@@ -18,7 +18,7 @@ This method returns a boolean indicating if the given date in the given time zon
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TheTimeZone | Yes | Name of time zone. |
 | TheDate | Yes | Date to be checked. |
 

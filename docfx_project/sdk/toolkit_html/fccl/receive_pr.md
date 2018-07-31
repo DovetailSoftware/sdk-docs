@@ -49,7 +49,7 @@ Good and bad inventory levels are supported, as is all other base features of re
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | pr_num | Yes | The part request to receive against |
 | from_loc | No | Inventory location (or expense GL) to receive from. If this field (and the from_bin) is left empty (""), the API will search for the received part in inventory. If it finds it, it will use that location as the from location. |
 | from_bin | No | The inventory bin to receive from. If from a container, put the container name in this field. If you want the primary bin suggestion, put PRIM_BIN_REC in this field. |

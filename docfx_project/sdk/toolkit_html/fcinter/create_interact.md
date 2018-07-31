@@ -43,7 +43,7 @@ This API creates an interaction in Clarify. An interaction stores information on
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | the_title | No | Title of the interaction |
 | the_notes | No | Notes for the interaction |
 | first | Yes | Contact First Name |

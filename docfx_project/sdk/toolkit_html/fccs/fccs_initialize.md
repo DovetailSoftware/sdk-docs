@@ -10,7 +10,7 @@ This API initializes an **FCCS** object. It must be called after the creation of
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | FCApp | Yes | FCApplication object |
 | FCSess | Yes | FCSession object |
 

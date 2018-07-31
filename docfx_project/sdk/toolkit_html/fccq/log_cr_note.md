@@ -38,7 +38,7 @@ These APIs are used to create a note log against a CR. The APIs allow for the as
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The CR to create the log for |
 | notes | No | The note log text |
 | int_use | No | Internal use only information |

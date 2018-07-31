@@ -59,7 +59,7 @@ These APIs either create or update a part number in the database. The part numbe
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | part_num | Yes | Part number to insert/update |
 | domain | Yes | The domain for the part to insert/update |
 | notes | No | Notes about the part |

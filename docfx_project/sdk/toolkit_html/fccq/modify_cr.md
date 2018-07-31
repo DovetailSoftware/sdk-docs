@@ -62,7 +62,7 @@ These APIs are used to modify existing CRs. All of the primary fields of the CR 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_num | Yes | The CR to modify |
 | part_num | No | Part number of part for change request |
 | mod_level | No | Revision of part for change request |

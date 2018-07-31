@@ -35,7 +35,7 @@ These APIs cause the specified action item, opportunity, or quote to have its st
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | the_id | Yes | The ID of the object to change status for |
 | new_status | No | The new status for the object |
 | change_date | No | When was the object status changed. If this parameter is left blank, the object is status changed at the current time |

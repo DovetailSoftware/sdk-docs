@@ -24,7 +24,7 @@ This method returns a boolean indicating if the given time zone is valid for the
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | Country | Yes | Country Name |
 | TimeZone | Yes | TimeZone name or TimeZone Full Name |
 | IsFullName | Yes | Boolean indicating if the TimeZone is the name or the Full name. |

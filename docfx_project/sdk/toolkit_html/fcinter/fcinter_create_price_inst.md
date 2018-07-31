@@ -24,7 +24,7 @@ The non-business rule version of the API returns the objid of the created price 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | part_num | Yes | Part number to price |
 | domain | Yes | Domain of the part |
 | mod_level | Yes | Revision to price |

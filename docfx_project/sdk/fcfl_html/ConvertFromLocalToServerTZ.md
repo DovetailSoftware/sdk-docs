@@ -18,7 +18,7 @@ This property converts a date/time value from the local time zone to the server 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TheDate | Yes | The timestamp (date and time) to be converted |
 
 **Returns**

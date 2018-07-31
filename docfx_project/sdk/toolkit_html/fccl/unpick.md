@@ -53,7 +53,7 @@ The unpick API will also validate that the part request can be transitioned (for
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | dtl_num | Yes | The part request to receive against |
 | loc_name | Yes | The inventory location to unpick from |
 | bin_name | Yes | The inventory bin to unpick from. If from a container, put  the container name in this field. |

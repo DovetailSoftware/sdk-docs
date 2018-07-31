@@ -59,7 +59,7 @@ If you specify a queue name, the CR will be initially dispatched to the queue. O
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | part_num | Yes | Part number of part for change request |
 | mod_level | Yes | Revision of part for change request |
 | domain | Yes | Domain of the part for the change request |

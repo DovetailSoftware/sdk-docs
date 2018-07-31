@@ -19,7 +19,7 @@ Valid IsolationLevel parameter strings match the .Net Framework [Isolation Level
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- | 
+|:--- |:--- |:--- | 
 | isolationLevel | No | An optional parameter for controlling the Isolation Level of the transation. |
 
 **Example**

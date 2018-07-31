@@ -20,7 +20,7 @@ This method is returns the next available ID number for a subcase for the given 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | CaseID | Yes | The ID Number of the case |
 | CaseCondID | Yes | The objid of the condition record for the case |
 

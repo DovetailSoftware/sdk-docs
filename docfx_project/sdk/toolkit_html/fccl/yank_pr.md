@@ -13,7 +13,7 @@ This API causes the specified part request to be yanked and placed in a specific
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | pr_id | Yes | The part request to yank |
 | wipbin_name | No | The WIPBin in which to place the part request. If left blank, it is yanked to the default WIPBin |
 | yank_date | No | The date/time to yank the part request. If left blank, the current date/time is used |
@@ -22,7 +22,9 @@ This API causes the specified part request to be yanked and placed in a specific
 
 **Returns**
 
-**Value**                **Meaning** | 0 | No errors
+**Value**                **Meaning**
+
+0                                              No Errors
 
 -1                                             Cannot find the specified part request
 

@@ -24,7 +24,7 @@ This method is optional. You do not have to call on it in your **FCFL** programs
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | user_name | Yes | The name of the user for whom colors should be loaded into this session. |
 
 **Example**

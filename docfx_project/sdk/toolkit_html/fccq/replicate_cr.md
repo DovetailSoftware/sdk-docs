@@ -21,7 +21,7 @@ The API can also generate a time bomb (for business rule notification).
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request to replicate |
 | user_name | No | The user who replicated the change request. If left blank, the current user performs the replication |
 | rep_date | No | When was the change request replicated. If this parameter is left blank, the replication occurs at the current time |

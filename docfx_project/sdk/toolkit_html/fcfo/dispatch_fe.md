@@ -23,7 +23,7 @@ This API creates a dispatch field engineer (work order) record. The caller may s
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case (or subcase) that the dispatch FE is for |
 | user_name | No | The user who dispatched the FE request. If left blank, the current user performs the dispatch |
 | dispatch_time | No | When is the dispatch logged. If left blank, it will be logged at the current time |

@@ -15,7 +15,7 @@ This API allows a case to be linked to a specific workaround. The case cannot al
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | Case to link |
 | work_objid | Yes | Objid of workaround to link to the case |
 | link_date | No | When was the link performed? If blank, current date/time is used |

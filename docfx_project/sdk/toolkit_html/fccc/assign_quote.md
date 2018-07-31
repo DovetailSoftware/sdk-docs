@@ -16,7 +16,7 @@ This API causes the specified quote to be assigned to a new user. The quote must
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | quote_id | Yes | The quote to assign |
 | new_user | No | The user who the quote is assigned to. If left blank, the quote is assigned to the current user |
 | wipbin_name | No | The WIPBin to place the quote in (for the user who is assigned the quote) If left blank, the quote is placed in the user's default WIPBin |

@@ -11,7 +11,7 @@ This API is used to change the order of the locations servicing a site. The new 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | site_id | Yes | Name of the site to be serviced |
 | loc_name | Yes | Name of the servicing location |
 | loc_rank | Yes | Which servicing location is this. Ranks start at 1 and increase |

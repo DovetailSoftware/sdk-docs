@@ -54,7 +54,7 @@ These APIs are used to create new contracts. Each contract requires a unique, va
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contract_id | No | Input/Output to either set or return the the newly created contract ID |
 | title_str | Yes | The title for the new contract, must be unique |
 | create_date | No | Date the contract was created.  Will default to current time. |

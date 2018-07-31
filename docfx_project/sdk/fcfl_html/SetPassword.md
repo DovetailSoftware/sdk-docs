@@ -18,7 +18,7 @@ This method changes the password for a given user or contact. You may not use th
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | LoginName | Yes | The user or web_user login_name |
 | Password | Yes | The new password |
 | LoginType | Yes | The login type - either "user" or "contact" |

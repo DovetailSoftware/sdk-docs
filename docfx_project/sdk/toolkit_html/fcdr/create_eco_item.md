@@ -15,7 +15,7 @@ This API is used to create new ECO items. It requires that a valid ECO Header be
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | focus_type | Yes | This points the ECO item to 5148 for ECO headers, or 329 for Mod levels. |
 | active | Yes | Sate of the ECO item, 1 for active, 0 for inactive. |
 | eco_hdr_code | Yes | ECO Code of the ECO Header this item will be attached to. |

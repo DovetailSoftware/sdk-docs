@@ -22,7 +22,7 @@ This method determines if the specified relation is an exclusive relation (or no
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | tbl_num | Yes | Number of the table (e.g. case=0) |
 | rel_name | Yes | Name of the relation |
 | tbl_fld | Yes | Contains the name of the field used to store the table number for the related table |

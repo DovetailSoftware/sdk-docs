@@ -73,7 +73,7 @@ You may specify a number of values such as the billing site (defaults to the mai
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | first_name | Yes | Contact's first name |
 | last_name | Yes | Contact's last name |
 | phone_num | Yes | Contact's phone |

@@ -24,7 +24,7 @@ When finished with the returned recordset, you should close the recordset using 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | ListName | Yes | An Application popup list name. |
 
 **Returns**

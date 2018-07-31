@@ -15,7 +15,7 @@ This API causes the specified subcase to have its status changed. The subcase ma
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | subcase_id | Yes | The subcase to change status for |
 | new_status | No | The new status for the subcase |
 | change_date | No | When was the subcase status changed. If this parameter is left blank, the subcase is status changed at the current time |

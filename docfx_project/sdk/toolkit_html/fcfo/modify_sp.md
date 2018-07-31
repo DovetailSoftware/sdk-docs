@@ -54,7 +54,7 @@ These APIs allow you to modify an existing site part in the Clarify database. Yo
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | site_part_objid | Yes | The OBJID of the site_part to modify |
 | instance_name | No | Instance name of the site_part. If blank, no change is made. If set to "#default", the instance name is set to the part number and mod_level of the site_part |
 | serial_num | No | Serial number for the site_part. If blank, no change is made. |

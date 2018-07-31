@@ -12,7 +12,7 @@ This API can be used to de-install a site part (and the sub-parts installed unde
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | sp_objid | Yes | OBJID for the site_part to be de-installed |
 | user_name | No | Who performed the de-install. If blank, the current user is used |
 | deinstall_date | No | When was the de-installation. If blank, the current time is used |
@@ -20,7 +20,7 @@ This API can be used to de-install a site part (and the sub-parts installed unde
 
 **Returns**
 
-**Value | Meaning | **
+**Value**                          **Meaning**
 
 0 No errors
 

@@ -46,7 +46,7 @@ If you wish to change address line 1 or line 2 to be blank, you may use the addi
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | addr_objid | Yes | Objid of address to update |
 | addr1 | No | Address line 1 |
 | addr2 | No | Address line 2 |

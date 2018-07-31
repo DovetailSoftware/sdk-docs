@@ -18,7 +18,7 @@ This method allows you to log a message to the FCFL log file. In addition to the
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TheMessageType | Yes | The type of message, used to identify your message within the log file. |
 | TheMessage | Yes | The message to be logged. |
 

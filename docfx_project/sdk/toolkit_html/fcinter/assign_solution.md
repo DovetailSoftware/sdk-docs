@@ -15,7 +15,7 @@ This API causes the specified solution to be assigned to a new user. The solutio
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | solution_id | Yes | The solution to assign |
 | new_user | No | The user who the solution is assigned to. If left blank, it is assigned to the current user |
 | wipbin | No | The WIPBin to place the solution in (for the user who is assigned the solution). If left blank, it is placed in the user's default WIPBin |

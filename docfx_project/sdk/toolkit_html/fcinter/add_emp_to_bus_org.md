@@ -12,7 +12,7 @@ This API adds an employee as a team member to an account (bus_org) with the spec
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | user_name | Yes | User name of account team member |
 | site_id | Yes | Account to add team member to |
 | role_name | No | Role for team member. If left blank, default role is used |

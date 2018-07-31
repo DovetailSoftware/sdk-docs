@@ -15,7 +15,7 @@ This API creates a part restocking authorization level. The location, bin, part 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | bin_name | Yes | The bin for the restocking |
 | location_name | Yes | The location for the bin |
 | queue_name | Yes | The queue that the reorder part request will be dispatched to |
@@ -30,7 +30,9 @@ This API creates a part restocking authorization level. The location, bin, part 
 
 **Returns**
 
-**Value**                **Meaning** | 0 | No errors
+**Value**                **Meaning**
+
+0                                              No Errors
 
 -1                                             Missing queue parameter
 

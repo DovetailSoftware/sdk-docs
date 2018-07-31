@@ -62,7 +62,7 @@ Other data (such as the warranty end date) is automatically calculated and fille
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | site_id | Yes | Where to install the site_part |
 | part_num | Yes | The part number to install |
 | mod_level | Yes | The revision of the part |

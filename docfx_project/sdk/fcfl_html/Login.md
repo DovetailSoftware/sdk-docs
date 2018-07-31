@@ -24,7 +24,7 @@ This method validates the login name and password for either a contact or a user
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | LoginName | Yes | The login name |
 | Password | Yes | The password |
 | LoginType | Yes | The login type - either "user" or "contact" |

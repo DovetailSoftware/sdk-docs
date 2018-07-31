@@ -101,7 +101,7 @@ These APIs are used to modify a commitment against a case or subcase. The APIs a
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | id_num | Yes | The ID number of the case or subcase to modify a commitment for |
 | the_title | No | The title of the commitment |
 | action_type | No | The commitment log action type code value |

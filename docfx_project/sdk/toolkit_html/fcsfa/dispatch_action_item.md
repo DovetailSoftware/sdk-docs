@@ -32,7 +32,7 @@ These APIs cause the specified object (action_item, opportunity, quote) to be di
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | the_id | Yes | The object (action_item, opportunity, quote) to dispatch |
 | queue_name | Yes | The queue to dispatch to |
 | disp_date | No | When was the object dispatched. If this parameter is left blank, the case is dispatched at the current time |

@@ -14,7 +14,7 @@ This API causes the specified change request to be yanked from the current locat
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request to yank |
 | wipbin | No | The WIPBin to place the change request in. If left blank, the default WIPBin for the user is used |
 | yank_date | No | When was the change request yanked. If this parameter is left blank, the yank occurs at the current time |

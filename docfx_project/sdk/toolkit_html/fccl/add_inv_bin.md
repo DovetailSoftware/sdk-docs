@@ -11,7 +11,7 @@ This API is used to add inventory bins to existing locations. The bin name can b
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | bin_name | Yes | The name of the new inventory bin |
 | loc_name | Yes | Name of the inventory location where the bin is located |
 | is_active | Yes | Is the bin active (True) or inactive (False) |

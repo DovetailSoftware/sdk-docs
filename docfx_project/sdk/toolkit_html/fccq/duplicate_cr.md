@@ -15,7 +15,7 @@ This API closes the specified CR as a duplicate of the "master CR". The CR is pl
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request to mark as a duplicate |
 | the_status | No | The new status for the duplicate CR. If blank, the default status for the condition is used |
 | master_cr | Yes | The ID of the master (parent) CR |

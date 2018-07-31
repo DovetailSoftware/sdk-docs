@@ -13,7 +13,7 @@ This API causes the specified part request to be closed. This is a transition to
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | pr_id | Yes | The part request to close |
 | new_status | No | The (closed condition) status of the part request. If blank, the default close condition status is used |
 | close_date | No | When was the part request closed. If this parameter is left blank, it is closed at the current time |

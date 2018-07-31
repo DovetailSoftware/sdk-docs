@@ -20,7 +20,7 @@ This API allows modification of labor that is logged against a depot repair part
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | time_log_objid | Yes | Object ID of specified time log. |
 | labor_type | No | Labor type for this Depot Repair change. |
 | start_time | No | Time and date at which labor began. |

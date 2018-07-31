@@ -20,7 +20,7 @@ Note: The state name used should be the full name ("Texas"), not the short name 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | Country | Yes | Name of country. |
 | State | Yes | Name of state to be validated. |
 

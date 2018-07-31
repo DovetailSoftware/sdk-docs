@@ -12,7 +12,7 @@ This API creates a new container object. It will be installed at the specified l
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cont_name | Yes | Name of the container to create |
 | the_loc | No | Location to create at (if under a bin) |
 | bin_name | No | Bin to create the container in |

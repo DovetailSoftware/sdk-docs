@@ -38,7 +38,7 @@ If successful, these APIs return both the _objid_ and the _id_number_ of the new
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The ID of the parent case |
 | the_title | No | Title for the subcase. It is suggested that you always have a title |
 | is_general | Yes | Is this a general subcase (True), or administrative (False) |

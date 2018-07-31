@@ -18,7 +18,7 @@ This method returns a boolean indicating if the given time zone is a valid time 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TimeZone | Yes | Name of time zone to be validated. |
 
 **Returns**

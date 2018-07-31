@@ -13,7 +13,7 @@ This API causes the specified part request to be rejected from the queue it is d
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | pr_id | Yes | The part request to reject |
 | reject_date | No | When did the reject occur. If left blank, current time is used |
 | wipbin_name | No | The owner's WIPBin in which to place the part request. If left blank, it is rejected to the default WIPBin |

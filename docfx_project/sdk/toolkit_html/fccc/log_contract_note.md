@@ -34,7 +34,7 @@ This API causes a note log to be create and added to the specified contract.  I
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contract_id | Yes | The contract to add the note to |
 | action_type | No | The note log action type taken from the "Note Log Action Type" list.  If the field is not specified, the default from the list is used. |
 | note_str | Yes | The note to attach to the contract |

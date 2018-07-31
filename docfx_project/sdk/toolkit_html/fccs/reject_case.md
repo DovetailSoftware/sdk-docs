@@ -13,7 +13,7 @@ This API causes the specified case to be rejected from the queue it is in, and r
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to reject-forward |
 | reject_date | No | When was the case rejected. If this parameter is left blank, the case is rejected at the current time |
 | wipbin | No | The WIPBin to place the case in. If left blank, the default WIPBin is used |

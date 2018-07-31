@@ -19,7 +19,7 @@ This API allows labor performed to be logged against a depot repair part.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | demand_dtl_objid | Yes | Object ID of specified part request. |
 | labor_type | No | Labor type for this Depot Repair change. Will use default if not supplied. |
 | start_time | Yes | Time and date at which labor began. |

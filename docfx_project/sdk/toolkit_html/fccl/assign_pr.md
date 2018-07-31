@@ -13,7 +13,7 @@ This API causes the specified part request to be assigned to a new user. The par
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | pr_id | Yes | The part request to assign |
 | new_user | No | The user who the part request is assigned to. If left blank, it is assigned to the current user |
 | wipbin_name | No | The WIPBin to place the part request in (for the user who is assigned the part request). If left blank, it is placed in the user's default WIPBin |

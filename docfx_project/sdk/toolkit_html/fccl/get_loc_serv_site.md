@@ -10,7 +10,7 @@ This API returns a list of the locations (in the proper order) servicing this si
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | site_id | Yes | The site's ID |
 
 **Returns**

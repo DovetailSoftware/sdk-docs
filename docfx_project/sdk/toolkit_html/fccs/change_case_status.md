@@ -15,7 +15,7 @@ This API causes the specified case to have its status changed. The case may be o
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to change status for |
 | new_status | No | The new status for the case |
 | change_date | No | When was the case status changed. If this parameter is left blank, the case is status changed at the current time |

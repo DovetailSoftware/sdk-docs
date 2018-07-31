@@ -15,7 +15,7 @@ This API causes the specified change request to be reject-forwarded from one que
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request Id to be reject-forward |
 | new_queue | Yes | The queue to forward to |
 | forward_date | No | When was the change request forwarded. If this parameter is left blank, the CR is forwarded at the current time |

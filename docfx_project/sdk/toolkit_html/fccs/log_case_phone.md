@@ -46,7 +46,7 @@ The objid of the status change record is returned in the FCCS object variable _r
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to create the log for |
 | cont_first | Yes | Phone call contact first name |
 | cont_last | Yes | Phone call contact last name |

@@ -15,7 +15,7 @@ These APIs allow an ECO to be applied against a Depot Repair.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | demand_dtl_objid | Yes | Object ID of specified part request. |
 | eco_code | Yes | Header Code of ECO to apply. |
 | perf_by | No | Indicates the technician who performed the action. Will default to the current user if not supplied. |

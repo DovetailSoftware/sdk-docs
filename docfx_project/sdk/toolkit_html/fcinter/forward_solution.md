@@ -15,7 +15,7 @@ This API causes the specified solution to be rejected from the current queue, an
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | solution_id | Yes | The solution to dispatch |
 | queue_name | Yes | The queue to forward to |
 | forward_date | No | When was the solution forwarded. If this parameter is left blank, the solution is forwarded at the current time |

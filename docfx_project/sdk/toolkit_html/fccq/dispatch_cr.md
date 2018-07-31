@@ -14,7 +14,7 @@ This API causes the specified change request to be dispatched to the specified q
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request Id to be dispatched |
 | queue_name | Yes | The queue to dispatch to |
 | disp_date | No | When was the change request dispatched. If this parameter is left blank, the CR is dispatched at the current time |
@@ -23,7 +23,7 @@ This API causes the specified change request to be dispatched to the specified q
 
 **Returns**
 
-**Value | Meaning | **
+**Value**                          **Meaning**
 
 0                                              No errors
 

@@ -18,7 +18,7 @@ This method creates a new list from the parent list.  This new list contains th
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | index | Yes | If index is an integer number, the item to include in new list. If index is a list, it is a list of items to form new list from. The list is zero based. |
 
 **Returns**

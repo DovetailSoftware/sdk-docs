@@ -16,7 +16,7 @@ In addition, the user performing the action, and the time of the action can be s
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | sp_objid | Yes | OBJID for the site_part to be re-installed |
 | site_id | Yes | The site to reinstall the site_part at. Note that this does not have to be the same as the site where it was de-installed |
 | parent_bin_objid | No | The objid of the bin to install the site_part in (if one is used) |

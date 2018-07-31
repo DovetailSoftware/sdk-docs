@@ -12,7 +12,7 @@ This API is used to relate (or unrelate) a site_part from a contract line item. 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contr_objid | Yes | Objid of the contract line item |
 | part_num | No | Part number of site_part to relate |
 | domain | No | Domain of site_part to relate |

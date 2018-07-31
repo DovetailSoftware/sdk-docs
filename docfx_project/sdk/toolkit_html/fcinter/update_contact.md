@@ -53,7 +53,7 @@ The new_prim_site and new_prim_role fields allow the primary contact role to be 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contact_objid | Yes* | Objid of the contact
 | first | Yes* | First name of the contact
 | last | Yes* | Last name of the contact

@@ -14,7 +14,7 @@ This API causes the specified subcase to be dispatched to the specified queue. T
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | subcase_id | Yes | The subcase to dispatch |
 | queue_name | Yes | The queue to dispatch to |
 | disp_date | No | When was the subcase dispatched. If this parameter is left blank, the subcase is dispatched at the current time |

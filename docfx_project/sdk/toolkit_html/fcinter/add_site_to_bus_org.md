@@ -12,7 +12,7 @@ This API adds a site to an existing account (bus_org). You must specify the acco
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | site_id | Yes | ID of site to be added |
 | acct_id | Yes | ID of account to add site to |
 | role_name | Yes | Role name of site in account |

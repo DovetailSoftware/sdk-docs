@@ -2,9 +2,12 @@ add_alt_part
 --------------
 
 Public Function add_alt_part(ByVal part_num As String, ByVal rev As String, _
-         ByVal domain As String, ByVal alt_part As String, _
-                             ByVal alt_rev As String, ByVal alt_domain As String, _
-                             ByVal is_reciprocal As Boolean) As Integer
+
+				         ByVal domain As String, ByVal alt_part As String, _
+
+                         ByVal alt_rev As String, ByVal alt_domain As String, _
+
+                         ByVal is_reciprocal As Boolean) As Integer
 
 **Description**
 
@@ -13,7 +16,7 @@ This API causes the second part/revision listed to become an alternate part of t
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | part_num | Yes | The primary part number |
 | rev | Yes | The primary part revision |
 | domain | Yes | The domain of the primary part |

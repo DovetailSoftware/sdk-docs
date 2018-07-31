@@ -18,7 +18,7 @@ This method swaps downward items in the list.  It takes as it argument an integ
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | index_list | Yes | A list containing the indexes of the items in the processed list to move. Indexes are zero based. |
 
 **Returns**

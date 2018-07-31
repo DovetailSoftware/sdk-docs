@@ -22,7 +22,7 @@ This property allows the server time zone to be set or read. When the FCApplicat
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | NewTimeZone | Yes | When setting the server time zone, the time zone full_name that it should be set to. |
 
 **Returns**

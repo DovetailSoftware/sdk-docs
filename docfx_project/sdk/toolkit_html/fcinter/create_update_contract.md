@@ -59,7 +59,7 @@ These APIs create or update a contract. An existing contract can be updated, or 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contract_id | No | Contract Id, an existing one, or blank one for new contract |
 | contract_type | No | Contract Type, from list. If no value given, default is used (create), or no change is made (update) |
 | status | No | Contract Status, from list. If no value given, default is used (create), or no change is made (update) |

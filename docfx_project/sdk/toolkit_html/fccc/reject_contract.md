@@ -13,7 +13,7 @@ This API is used to reject quotes (close them) in ClearContracts. The API accept
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contract_id | Yes | ID number of the contract/quote to reject |
 | status_str | No | New status of the closed contract. If blank, the default statusfor Closed Contract condition will be used. |
 | Notes_str | No | Optional notes to add for the reject |

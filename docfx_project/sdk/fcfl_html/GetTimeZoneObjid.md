@@ -20,7 +20,7 @@ This method returns an objid for a given time zone. If the time zone is not foun
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TimeZone | Yes | Name of time zone to get the objid for. |
 
 **Returns**

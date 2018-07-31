@@ -18,7 +18,7 @@ Returns an Integer containing the number of items in the specified delimited tex
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | path_str | Yes | String containing the text from which a range of items is returned. |
 | seperator | Yes | String containing different item delimiters. |
 

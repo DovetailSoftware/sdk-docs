@@ -15,7 +15,7 @@ This API causes the specified lead to be assigned to a new user. The objid of th
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | lead_objid | Yes | Objid (unique identifier) of the lead |
 | new_owner | Yes | Login name of new owner of the lead |
 | assign_date | No | When did the assign take place? If blank, the current date/time is used |

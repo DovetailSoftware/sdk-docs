@@ -15,7 +15,7 @@ This API causes the specified change request to have its status changed. The cha
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request Id to change status for |
 | new_status | No | The new status for the change request. If blank, the default status is used |
 | change_date | No | When was the CR status changed. If this parameter is left blank, the CR is status changed at the current time |

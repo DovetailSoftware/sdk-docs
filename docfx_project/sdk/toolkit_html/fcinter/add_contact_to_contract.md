@@ -14,7 +14,7 @@ This API adds a contact to an existing contract. You must specify the contract I
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contract_id | Yes | ID of contract to add site to |
 | f_name | Yes | First name of contact to be added |
 | l_name | Yes | Last name of contact to be added |

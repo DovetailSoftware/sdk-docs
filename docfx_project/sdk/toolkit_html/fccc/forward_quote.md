@@ -13,7 +13,7 @@ This API causes the specified quote to be reject-forwarded from one queue to ano
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | quote_id | Yes | The object to reject-forward |
 | new_queue | Yes | The queue to forward to |
 | forward_date | No | When was the quote forwarded. If this parameter is left blank, the quote is forwarded at the current time |

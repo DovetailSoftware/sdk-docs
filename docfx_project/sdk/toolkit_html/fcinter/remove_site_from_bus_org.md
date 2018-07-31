@@ -12,7 +12,7 @@ This API allows a site to be removed from an account. The site and account IDs m
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | site_id | Yes | The site to remove from the account |
 | acct_id | Yes | ID of the account |
 | role_name | Yes | Role of the site to be removed from the account |

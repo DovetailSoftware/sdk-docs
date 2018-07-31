@@ -39,7 +39,7 @@ These APIs are used to close a subcase. The subcase must be in open condition. T
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | subcase_id | Yes | The subcase to close |
 | the_status | No | The closed condition status for the subcase. If left blank, the default status for closed condition is used |
 | resolution | No | The resolution code for the close. If left blank, the default code is used |
@@ -55,7 +55,7 @@ These APIs are used to close a subcase. The subcase must be in open condition. T
 
 **Returns**
 
-**Value | Meaning | **
+**Value**                          **Meaning**
 
 0                                              No errors
 

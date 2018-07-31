@@ -17,7 +17,7 @@ This API allows you to create a product bin either at a site, or underneath anot
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | bin_name | Yes | Name of the bin to create |
 | site_id | Yes | ID of the site at which the bin is created |
 | bin_objid | Yes | Objid of the bin to install the new bin under. If the new bin is to be installed at the site itself, set this argument to -1 |

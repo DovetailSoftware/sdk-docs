@@ -19,7 +19,7 @@ Public Function change_cr_state(ByVal cr_id As String, _
 This API causes the specified change request to have its status and/or condition changed. This function is basically a wrapper function for multiple APIs (change_cr_status, fix_cr, close_cr, fix_failed, reopen_cr, and duplicate_cr).  Depending on the current condition of the CR and the new_condition parameter, the appropriate API will be called.
 
 | Current CR Condition | new_condition | Which API is called |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | Any | Same as Current CR condition | change_cr_status |
 | Any | CR Fixed | fix_cr |
 | Any | CR Closed | close_cr |
@@ -31,7 +31,7 @@ This API causes the specified change request to have its status and/or condition
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request Id to change status for |
 | new_status | No | The new status for the change request. If blank, the default status is used |
 | new_condition | Yes | The new condition for the change request |

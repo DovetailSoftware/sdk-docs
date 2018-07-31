@@ -13,7 +13,7 @@ This API causes the specified subcase to be yanked from the current location to 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | subcase_id | Yes | The subcase to yank |
 | wipbin | No | The WIPBin to place the subcase in. If left blank, the default WIPBin for the user is used |
 | yank_date | No | When was the subcase yanked. If this parameter is left blank, the yank occurs at the current time |

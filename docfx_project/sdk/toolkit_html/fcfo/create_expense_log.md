@@ -16,7 +16,7 @@ This API allows creation of an expense log that is related to an onsite log. The
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | onsite_objid | Yes | The OBJID of the onsite log this expense log is related to |
 | id_num | No | The Id number for the Case if no onsite log is specified |
 | creation_time | No | The time this expense log is created. If left blank, it will be the current time |

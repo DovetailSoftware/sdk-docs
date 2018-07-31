@@ -39,7 +39,7 @@ These APIs are used to change the condition of a change request from Fixed to Op
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request Id |
 | the_status | No | The open condition status for the CR. If left blank, the default status for open condition is used |
 | notes | No | Notes about the failure |

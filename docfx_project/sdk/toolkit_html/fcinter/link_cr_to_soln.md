@@ -14,7 +14,7 @@ This API allows a change request to be linked to a solution. The link date, and 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | CR to link |
 | soln_id | Yes | ID number of solution to link |
 | link_date | No | When was the link performed? If blank, current date/time is used |

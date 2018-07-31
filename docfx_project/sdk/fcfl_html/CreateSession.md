@@ -22,7 +22,7 @@ If this method is called with a SessionID, the FCApplication will attempt to ret
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | SessionID | No | An optional parameter for re-establishing an existing FCSession object. |
 
 **Returns**

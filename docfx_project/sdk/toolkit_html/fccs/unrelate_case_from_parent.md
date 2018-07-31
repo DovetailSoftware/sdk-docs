@@ -10,7 +10,7 @@ This API allows a case to be unrelated from the current parent case. The case mu
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The ID of the case. The parent of this case will be cleared. |
 
 **Returns**

@@ -18,7 +18,7 @@ This method returns the user version in the current user's resource configuratio
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | formName | Yes | The web form name to locate in the current resource configuration to determine if there is a custom version used |
 
 **Returns**

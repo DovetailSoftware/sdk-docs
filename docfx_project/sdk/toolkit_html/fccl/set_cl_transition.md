@@ -11,7 +11,7 @@ This API allows you to create or modify Logistics Transitions in the database. Y
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | request_type | Yes | Part request request type |
 | start_cond | Yes | Starting condition for the transition |
 | end_cond | Yes | Ending condition for the transition |
@@ -19,7 +19,9 @@ This API allows you to create or modify Logistics Transitions in the database. Y
 
 **Returns**
 
-**Value**                **Meaning** | 0 | No errors
+**Value**                **Meaning**
+
+0                                              No Errors
 
 -1                                             Cannot find the specified request type
 

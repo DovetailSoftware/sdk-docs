@@ -32,7 +32,7 @@ This method will check to see if the object has been created. If it hasn't, it i
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | NumGenerics | Yes | The number of FCFeneric objects to be closed |
 | Generic1 | Yes | The name of the FCGeneric Object to be closed |
 | Generic2 | No | The name of the FCGeneric Object to be closed |

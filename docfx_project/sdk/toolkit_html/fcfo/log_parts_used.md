@@ -47,7 +47,7 @@ Four error codes (-32, -33, -37, -38) are supplied for this option.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | dtl_num | No | The ID number of the related part request detail (if one is related) |
 | case_id | No | The ID number of the related case (if one is related) |
 | pu_type | Yes | The type of the log parts used. One of: Exchange, Consume, Install, Remove, Upgrade |

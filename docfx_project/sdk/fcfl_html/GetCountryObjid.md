@@ -18,7 +18,7 @@ This method returns an objid for a given country. If the country is not found, t
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | Country | Yes | Name of country to get the objid for. |
 
 **Returns**

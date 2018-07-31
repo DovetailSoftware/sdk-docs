@@ -35,7 +35,7 @@ These APIs cause the specified action item, opportunity, or quote to be reject-f
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | The_id | Yes | The object to reject-forward |
 | new_queue | Yes | The queue to forward to |
 | forward_date | No | When was the object forwarded. If this parameter is left blank, the object is forwarded at the current time |

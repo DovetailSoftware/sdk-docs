@@ -32,7 +32,7 @@ You should not call on TraverseFromParent more than once in a row (or use the Pa
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | the_parent | Yes | The parent generic object |
 | trav_rel | Yes | The relation ON THE PARENT used to traverse between the two generic objects |
 

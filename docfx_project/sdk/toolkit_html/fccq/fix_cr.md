@@ -39,7 +39,7 @@ These APIs change the condition of a CR to "Fixed", even if it was already close
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request to fix |
 | the_status | No | The new status for the CR. If blank, the default status for the condition is used |
 | notes | No | Notes for the fix |

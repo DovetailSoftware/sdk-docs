@@ -14,7 +14,7 @@ This API causes the specified solution to be accepted from a dispatched queue. T
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | solution_id | Yes | The solution  to accept |
 | accept_date | No | When was the solution accepted. If this parameter is left blank, it is accepted at the current time |
 | wipbin | No | The WIPBin to place the solution in (for the user who accepted it) If left blank, the solution  is placed in the user's default WIPBin |

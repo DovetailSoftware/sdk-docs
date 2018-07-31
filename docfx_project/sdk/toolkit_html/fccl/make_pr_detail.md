@@ -50,7 +50,7 @@ You may specify a number of values such as the billing site (defaults to the mai
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | hdr_num | Yes | Part request header number |
 | queue_name | No | Optional queue to dispatch to
 | part_num | No* | Part number for the part (required if Site  |Part not specified)

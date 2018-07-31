@@ -19,7 +19,7 @@ This API modifies an existing ECO detail object.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | eco_dtl_objid | Yes | The objid of the ECO item object to be modified. |
 | detail_type | No | This is the type of detail, "Labor", "Material", or "" to ignore. |
 | Required? | No | This indicates if the detail is required; 0 for no, 1 for yes, or -1 to ignore. |

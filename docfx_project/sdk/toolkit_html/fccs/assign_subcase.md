@@ -15,7 +15,7 @@ This API cause the specified subcase to be assigned to a new user. The subcase m
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | subcase_id | Yes | The subcase ID to be assigned |
 | new_user | No | The user who the subcase is assigned to. If left blank, the subcase is assigned to the current user |
 | wipbin_name | No | The WIPBin to place the subcase in (for the user who is assigned the subcase). If left blank, the subcase is placed in the user's default WIPBin |

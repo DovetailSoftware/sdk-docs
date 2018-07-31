@@ -18,7 +18,7 @@ This method returns the item in the list at the location specified.  Lists are 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | index | Yes | Item in the list to return. List is zero based. |
 
 **Returns**

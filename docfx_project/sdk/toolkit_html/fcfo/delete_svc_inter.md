@@ -12,7 +12,7 @@ This API deletes an existing service interruption (appointment). The objid of th
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | appt_objid | Yes | The OBJID of the appointment to delete |
 | user_name | No | The user who deleted the appt. If left blank, the current user performs the delete |
 | creation_time | No | When is the Appt. deleted? If left blank, it will be deleted at the current time |

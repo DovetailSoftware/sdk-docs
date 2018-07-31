@@ -13,13 +13,15 @@ This API causes the specified solution to be moved from one WIPBin to another (f
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | solution_id | Yes | The solution to move |
 | new_wipbin | Yes | Name of the WIPBin to move to |
 
 **Returns**
 
-**Value**                **Meaning** | 0 | No errors
+**Value**                **Meaning**
+
+0                                              No Errors
 
 -1                                             Cannot find the specified solution
 

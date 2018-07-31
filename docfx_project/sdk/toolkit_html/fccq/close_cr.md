@@ -39,7 +39,7 @@ These APIs are used to close a change request. The change request must be in a c
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | The change request Id to be closed |
 | the_status | No | The closed condition status for the CR. If left blank, the default status for closed condition is used |
 | notes | No | Notes about the closure |

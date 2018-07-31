@@ -63,7 +63,7 @@ This has the following implications:
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | first_name | Yes | Employee First Name |
 | last_name | Yes | Employee Last Name |
 | login_name | Yes | Employee Login Name |

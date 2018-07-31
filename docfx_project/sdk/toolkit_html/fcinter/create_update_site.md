@@ -66,7 +66,7 @@ The primary address is required for inserts. If the shipping and billing address
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | site_objid | Yes | For inserts, this is set to zero. For updates, set it to the site objid. If (for updates) the site_id is set to "NOTSUPPLIED", this field must be specified. If the site_id is specified for updates, this field is ignored. |
 | site_id | No | For inserts, if this variable is blank, a new site_id is generated. For inserts, if this field is supplied, it will be used for the new site. For updates, supply the site_id to update. For updates, if this field is set to "NOTSUPPLIED", the site_objid is used to identify the site. |
 | site_name | No | The name of the site. For updates, if you set it to "REMOVE", the site name will be cleared |

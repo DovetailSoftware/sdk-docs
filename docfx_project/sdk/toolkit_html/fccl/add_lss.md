@@ -12,7 +12,7 @@ This API is used to relate sites to the inventory locations that service them. T
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | site_id | Yes | Name of the site to be serviced |
 | loc_name | Yes | Name of the servicing location |
 | is_active | Yes | Is the servicing active? |

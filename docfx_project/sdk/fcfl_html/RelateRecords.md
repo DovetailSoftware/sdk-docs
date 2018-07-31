@@ -24,7 +24,7 @@ You must update one or the other objects via the Update or UpdateAll method for 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | o_obj | Yes | The object to which to relate |
 | the_field | Yes | The relation to use to relate the objects |
 

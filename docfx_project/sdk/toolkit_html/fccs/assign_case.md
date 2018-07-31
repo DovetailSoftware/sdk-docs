@@ -15,7 +15,7 @@ This API cause the specified case to be assigned to a new user. The case must be
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case ID to be assigned |
 | new_user | No | The user who the case is assigned to. If left blank, the case is assigned to the current user |
 | wipbin_name | No | The WIPBin to place the case in (for the user who is assigned the case). If left blank, the case is placed in the user's default WIPBin |

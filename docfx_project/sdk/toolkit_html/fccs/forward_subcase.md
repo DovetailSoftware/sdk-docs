@@ -15,7 +15,7 @@ This API causes the specified subcase to be reject-forwarded from one queue to a
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | subcase_id | Yes | The subcase to reject-forward |
 | new_queue | Yes | The queue to forward to |
 | forward_date | No | When was the subcase forwarded. If this parameter is left blank, the subcase is forwarded at the current time |

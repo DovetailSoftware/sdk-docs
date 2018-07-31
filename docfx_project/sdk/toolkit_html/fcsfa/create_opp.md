@@ -61,7 +61,7 @@ The ID of the newly-created opportunity will be returned in _fcsfa.ret_id_num_. 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | opp_name | Yes | Name of the opportunity |
 | acct_id | No | ID of the related account |
 | con_first, con_last, con_phone | No | Name and phone number of related contact. If a contact is to be specified, all three must be given |

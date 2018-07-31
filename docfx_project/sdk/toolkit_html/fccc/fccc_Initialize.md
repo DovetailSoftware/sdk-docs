@@ -12,7 +12,7 @@ This API is called when the FC.CC object is first created.   It sets various p
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | TheFCApplication | Yes | The FC Application object |
 | TheFCSession | Yes | The FC Session object |
 

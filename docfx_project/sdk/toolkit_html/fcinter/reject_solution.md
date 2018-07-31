@@ -15,7 +15,7 @@ This API causes the specified solution to be rejected from the queue. The date a
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | solution_id | Yes | The solution to reject |
 | reject_date | No | When did the reject occur. If left blank, current time is used |
 | wipbin | No | The owner's WIPBin in which to place the solution. If left blank, it is rejected to the default WIPBin |
@@ -25,7 +25,9 @@ This API causes the specified solution to be rejected from the queue. The date a
 
 **Returns**
 
-**Value**                **Meaning** | 0 | No errors
+**Value**                **Meaning**
+
+0                                              No Errors
 
 -1                                             Cannot find the specified solution
 

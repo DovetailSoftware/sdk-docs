@@ -14,7 +14,7 @@ This API causes the specified solution to be yanked and placed in a specific WIP
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | solution_id | Yes | The solution  to yank |
 | wipbin | No | The WIPBin in which to place the solution. If left blank, it is yanked to the default WIPBin |
 | yank_date | No | The date/time to yank the solution. If left blank, the current date/time is used |
@@ -23,7 +23,9 @@ This API causes the specified solution to be yanked and placed in a specific WIP
 
 **Returns**
 
-**Value**                **Meaning** | 0 | No errors
+**Value**                **Meaning**
+
+0                                              No Errors
 
 -1                                             Cannot find the specified solution
 

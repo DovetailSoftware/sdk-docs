@@ -12,7 +12,7 @@ This API allows an employee (team member) to be removed from an account. The use
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | user_name | Yes | The user name to remove from the account as a team member |
 | acct_id | Yes | ID of the account |
 | role_name | Yes | Role of the user to be removed from the account |

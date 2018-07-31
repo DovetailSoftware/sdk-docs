@@ -12,14 +12,14 @@ This API allows for adding a module (file name and revision from a source contro
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | fix_objid | Yes | The objid of the fix_bug record |
 | file | Yes | Name of the file fixed |
 | rev | No | Revision of file fixed |
 
 **Returns**
 
-**Value | Meaning | **
+**Value**                          **Meaning**
 
 0                                              No errors
 

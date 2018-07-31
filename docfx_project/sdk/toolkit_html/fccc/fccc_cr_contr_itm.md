@@ -54,7 +54,7 @@ The API does not do a few other items in the base GUI function. By and large, th
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contract_id | Yes | The quote/contract for the line item |
 | user_name | No | The user who created the line item. If left blank, the current user performs the create. |
 | create_date | No | Line item creation date. If left blank, current date/time is used |
@@ -83,7 +83,7 @@ The API does not do a few other items in the base GUI function. By and large, th
 
 **Returns**
 
-**Value | Meaning | **
+**Value**                          **Meaning**
 
 0                                              No errors
 

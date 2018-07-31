@@ -20,7 +20,7 @@ This API modifies an existing expense log record in the Clarify database. You mu
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | expense_log_objid | Yes | The OBJID of the expense log to modify |
 | creation_time | No | When is the log modified? If left blank, it will be modified at the current time. Used for time_bomb creation. |
 | perf_by | No | The user who modified the time log. If left blank, the current user performs the modify |

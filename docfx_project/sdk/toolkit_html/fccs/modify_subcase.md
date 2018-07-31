@@ -30,7 +30,7 @@ The argument _only_owner_ allows you to specify that only the current owner of t
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | subcase_id | Yes | The subcase to modify |
 | priority | No | The new priority for the subcase. If left blank, no change is made |
 | severity | No | The new severity for the subcase. If left blank, no change is made |

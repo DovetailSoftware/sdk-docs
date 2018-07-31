@@ -16,7 +16,7 @@ This API updates a price for an existing price instance. You must supply the par
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | part_num | Yes | Part number to update price |
 | domain | Yes | Domain of the part |
 | mod_level | Yes | Revision to update price |

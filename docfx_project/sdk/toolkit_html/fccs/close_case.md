@@ -61,7 +61,7 @@ In almost **_all_** cases, this argument is left blank.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to close |
 | the_status | No | The closed condition status for the case. If left blank, the default status for closed condition is used |
 | resolution | No | The resolution code for the close. If left blank, the default code is used |

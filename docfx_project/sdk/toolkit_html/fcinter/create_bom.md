@@ -16,7 +16,7 @@ This API places a revision of a part in a bill of materials for another part/rev
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | parent_part | Yes | Part number of the parent part |
 | parent_dom | Yes | Domain of the parent part |
 | parent_rev | Yes | Mod_level of the parent part |

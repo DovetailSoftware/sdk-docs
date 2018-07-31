@@ -18,7 +18,7 @@ This method returns the index of the first item in the list that is equal to ite
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | item | Yes | Item to locate in the list. |
 
 **Returns**

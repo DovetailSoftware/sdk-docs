@@ -25,7 +25,7 @@ The API can also generate a time bomb (for business rule notification).
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | opp_id | Yes | The opportunity to mark as a lead |
 | new_status | No | New status of the opportunity. If blank, default status is used. |
 | the_note | No | Optional note about the change |

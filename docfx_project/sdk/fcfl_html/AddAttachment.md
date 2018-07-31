@@ -53,7 +53,7 @@ This method does **NOT** copy the file to a file system, or even validate the ex
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | attach_name | Yes | The name of the attachment |
 | file_path | Yes | The file path and name of the attachment |
 | obj_type | Yes | The name of the database table to add the attachment to |

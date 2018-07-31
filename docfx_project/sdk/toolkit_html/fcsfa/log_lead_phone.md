@@ -24,7 +24,7 @@ The API can also generate a time bomb (for business rule notification).
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | lead_objid | Yes | The unique object ID of the lead |
 | the_text | No | Note text |
 | iuo | No | Internal Use Only optional text for the phone log |

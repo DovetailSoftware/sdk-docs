@@ -38,7 +38,7 @@ There are four arguments to this method that allow you to change (or clear) vari
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to modify |
 | priority_str | No | The new priority for the case. If left blank, no change is made |
 | severity_str | No | The new severity for the case. If left blank, no change is made |
@@ -59,7 +59,7 @@ There are four arguments to this method that allow you to change (or clear) vari
 
 **Returns**
 
-**Value | Meaning | **
+**Value**                          **Meaning**
 
 0                                              No errors
 

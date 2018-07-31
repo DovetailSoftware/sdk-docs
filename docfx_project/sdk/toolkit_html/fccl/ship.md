@@ -23,7 +23,7 @@ The API will validate that the user has authority to make the status transition.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | dtl_num | Yes | The part request to ship |
 | site_name | No | Site name to ship to |
 | addr | No | Address line 1 to ship to |

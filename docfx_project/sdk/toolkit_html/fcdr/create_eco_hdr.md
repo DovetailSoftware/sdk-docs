@@ -17,7 +17,7 @@ This API create a new ECO Header object.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | eco_title | No | The title of the new ECO header. |
 | eco_type | No | The type of ECO, defined by the Clarify list of "ECO Type" values. The list default is used if no parameter is supplied. |
 | create_date | No | The date the ECO header was created. Will default to the current date. |

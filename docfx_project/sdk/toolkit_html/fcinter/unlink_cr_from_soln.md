@@ -17,7 +17,7 @@ This API allows a CR to be unlinked from a solution it is currently linked to. T
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | cr_id | Yes | CR to unlink |
 | soln_id | Yes | Solution ID to unlink |
 | unlink_date | No | When was the unlink performed? If blank, current date/time is used |

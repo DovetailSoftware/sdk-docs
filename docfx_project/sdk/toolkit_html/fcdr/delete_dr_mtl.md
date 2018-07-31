@@ -12,7 +12,7 @@ This API will delete material usage applied to a depot repair part.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | mtl_log_objid | Yes | The objid of the material log object to be deleted. |
 | creation_time | No | The time that the material is being removed from the depot repair part. |
 

@@ -52,7 +52,7 @@ Notice how all items in the resulting contain the strings "test_" and "_" and th
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | param1 | Yes | First item or list to concatenate. |
 | param2 | No | Second item or list to concatenate. |
 | param3 | No | Third item or list to concatenate. |

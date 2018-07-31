@@ -14,7 +14,7 @@ This API will mark the initial response to a case. The case supplied should not 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case that the initial response is for |
 | resp_date | No | When was the initial response logged.If this parameter is left blank, the response is at the current time |
 | user_name | No | The user who logged the initial response. If left blank, the current user performs the logging. For business rules, it defaults to the 

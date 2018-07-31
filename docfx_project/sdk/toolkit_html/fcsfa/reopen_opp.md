@@ -15,7 +15,7 @@ This API causes the specified opportunity to be reopened. You may specify the st
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | opp_id | Yes | The ID of the opportunity to close |
 | the_status | No | The new status for the opportunity. If blank, the default status for Open Lead condition is used |
 | wipbin | No | The WIPBIN in which to place the opportunity. If blank, the default WIPBIN for the user is used |

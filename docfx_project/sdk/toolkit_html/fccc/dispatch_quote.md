@@ -12,7 +12,7 @@ This API causes the specified quote to be dispatched to the specified queue. The
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | quote_id | Yes | The quote to dispatch |
 | queue_name | Yes | The queue to dispatch to |
 | disp_date | No | When was the quote dispatched. If this parameter is left blank, the quote is dispatched at the current time |

@@ -48,7 +48,7 @@ This method initializes the FCApplication, including:
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | LoginName | Yes | Country Name |
 | Password | Yes | Password |
 | DBServer | Yes | Database Server Name |

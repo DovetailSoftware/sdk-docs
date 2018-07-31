@@ -14,7 +14,7 @@ This API causes the specified opportunity to be closed. You may specify the stat
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | opp_id | Yes | The ID of the opportunity to close |
 | the_status | No | The new status for the opportunity. If blank, the default status for Closed Opportunity condition is used |
 | close_date | No | When was the opportunity closed? If this parameter is left blank, the opportunity is closed at the current time |

@@ -40,7 +40,7 @@ The objid of the created log is returned in the FCCS object variable _ret_objid_
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | The case to close |
 | the_title | Yes | The title of the commitment |
 | action_type | No | The commitment log action type code value |

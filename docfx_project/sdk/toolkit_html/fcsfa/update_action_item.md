@@ -60,7 +60,7 @@ If you want to relate a contact to the action item you must supply all three of 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | task_id | Yes | ID number of the action item to modify |
 | title | No | The title of the action item. If blank, no change is made. To clear, specify "CLEAR" |
 | notes | No | Notes about the action item. If blank, no change is made. To clear, specify "CLEAR" |

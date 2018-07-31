@@ -12,7 +12,7 @@ This API allows you to add a user (or supervisor) to a queue.
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | queue | Yes | The name of the queue |
 | user_name | Yes | The user to add |
 | supervisor | Yes | Is this a supervisor (True) or just a user (False) |

@@ -18,7 +18,7 @@ The time type is an optional code list value that may be specified. The user per
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | time_log_objid | Yes | The OBJID of the time log to modify |
 | creation_time | No | When is the log modified? If left blank, it will be modified at the current time |
 | perf_by | No | The user who modified the time log. If left blank, the current user performs the modify |

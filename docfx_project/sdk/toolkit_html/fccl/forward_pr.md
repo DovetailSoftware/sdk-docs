@@ -13,7 +13,7 @@ This API causes the specified part request to be rejected from the current queue
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | pr_id | Yes | The part request to dispatch |
 | queue_name | Yes | The queue to forward to |
 | forward_date | No | When was the part request forwarded. If this parameter is left blank, the PR is forwarded at the current time |

@@ -18,7 +18,7 @@ This method removes items from a list.  This resulting list has the proper elem
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | index | Yes | If index is an integer number, the item to remove from the list. If index is a list, it is a list of items to remove from list.  the list is zero based. |
 
 **Error Codes**

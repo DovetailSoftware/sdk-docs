@@ -17,7 +17,7 @@ Each appointment must be specified for a given case or a piece of equipment (sit
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | case_id | Yes | ID number of optional case, if appointment is for a case or site part |
 | sp_objid | No | OBJID of the site_part if appointment is for a piece of equipment |
 | description | No | The description of the appointment |

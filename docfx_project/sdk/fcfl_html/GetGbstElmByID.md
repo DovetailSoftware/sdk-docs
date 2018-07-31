@@ -18,7 +18,7 @@ This method returns the string value for a given element in a given Application 
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | ListName | Yes | Name of the list |
 | ElmObjid | Yes | The objid of the list item |
 

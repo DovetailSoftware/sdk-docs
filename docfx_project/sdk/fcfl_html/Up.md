@@ -19,7 +19,7 @@ This method swaps upward items in the list.  It takes as it argument an integer
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | list | Yes | List containing the indexes of the items in the processed list to move. Indexes are zero based. |
 
 **Returns**

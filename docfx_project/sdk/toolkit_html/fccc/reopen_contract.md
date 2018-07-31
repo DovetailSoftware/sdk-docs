@@ -13,7 +13,7 @@ This API causes the specified contract to be reopened. This is augmented functio
 #### Parameters
 
 | Parameter Name | Required? | Description |
-|!--- |!--- |!--- |
+|:--- |:--- |:--- |
 | contract_id | Yes | The contract to reopen |
 | wipbin_name | No | The WIPBin to place the contract in. If left blank, the  default WIPBin for the user is used |
 | status_str | No | The new status for the contract. If no status is specified, the default status for Active Contract Condition is used |
