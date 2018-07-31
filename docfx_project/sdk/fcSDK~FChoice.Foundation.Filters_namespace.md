@@ -14,10 +14,7 @@
 | ![Class](dotnetimages/Class.png) | [EndsWithFilter](fcSDK~FChoice.Foundation.Filters.EndsWithFilter.md) | Filter on strings that end with the input to this filter |
 | ![Class](dotnetimages/Class.png) | [EqualsFilter](fcSDK~FChoice.Foundation.Filters.EqualsFilter.md) | Filter field on data that equals the input to this filter |
 | ![Class](dotnetimages/Class.png) | [Filter](fcSDK~FChoice.Foundation.Filters.Filter.md) | Abstract base of all filters. |
-| ![Class](dotnetimages/Class.png) | [FilterCollection](fcSDK~FChoice.Foundation.Filters.FilterCollection.md) | 
-Holds one or more filters. This collection is used by filters that allow children such as [OrFilter](fcSDK~FChoice.Foundation.Filters.OrFilter.md) and [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md)
-
- |
+| ![Class](dotnetimages/Class.png) | [FilterCollection](fcSDK~FChoice.Foundation.Filters.FilterCollection.md) | Holds one or more filters. This collection is used by filters that allow children such as [OrFilter](fcSDK~FChoice.Foundation.Filters.OrFilter.md) and [AndFilter](fcSDK~FChoice.Foundation.Filters.AndFilter.md) |
 | ![Class](dotnetimages/Class.png) | [FilterExpression](fcSDK~FChoice.Foundation.Filters.FilterExpression.md) | Filter expressions offer on non static alternative to [FilterType](fcSDK~FChoice.Foundation.Filters.FilterType.md) for construction of Filter objects. |
 | ![Class](dotnetimages/Class.png) | [FilterType](fcSDK~FChoice.Foundation.Filters.FilterType.md) | This is a helper factory for creation of Filter objects. |
 | ![Class](dotnetimages/Class.png) | [IsInFilter](fcSDK~FChoice.Foundation.Filters.IsInFilter.md) | Filter on fields that are in the input array |
@@ -45,8 +42,6 @@ Holds one or more filters. This collection is used by filters that allow childre
 | ![Class](dotnetimages/Class.png) | [WithinDaysFilter](fcSDK~FChoice.Foundation.Filters.WithinDaysFilter.md) | Filter field on dates that have occurred within a number of days |
 | ![Class](dotnetimages/Class.png) | [WithinHoursFilter](fcSDK~FChoice.Foundation.Filters.WithinHoursFilter.md) | Filter field on dates that have occurred within a number of hours |
 | ![Class](dotnetimages/Class.png) | [YesterdayFilter](fcSDK~FChoice.Foundation.Filters.YesterdayFilter.md) | Filter |
-
-
 
 #### Reference
 

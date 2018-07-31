@@ -10,25 +10,10 @@ Allows parts to be transferred independent of a part request to fix order errors
 
 | Overload | Description |
 | --- | --- |
-| [PartTransfer(String,String,String,Int32,Location,Location)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer(String,String,String,Int32,Location,Location).md) | 
-Allows parts to be transferred independent of a part request to fix order errors, correct inventory variances, move parts from one inventory location (or account) to another (without having to relate that movement to a part request), and scrap parts out of inventory.
-
-This overload takes a set of required parameters for the API.   |
-| [PartTransfer(String,String,String,String,Location,Location)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer(String,String,String,String,Location,Location).md) | 
-
-Allows parts to be transferred independent of a part request to fix order errors, correct inventory variances, move parts from one inventory location (or account) to another (without having to relate that movement to a part request), and scrap parts out of inventory.
-
-This overload takes a set of required parameters for the API.   |
-| [PartTransfer(PartTransferSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer(PartTransferSetup).md) | 
-
-Allows parts to be transferred independent of a part request to fix order errors, correct inventory variances, move parts from one inventory location (or account) to another (without having to relate that movement to a part request), and scrap parts out of inventory.
-
-This overload takes a setup object.   |
-| [PartTransfer(PartTransferSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer(PartTransferSetup,IDbTransaction).md) | 
-
-Allows parts to be transferred independent of a part request to fix order errors, correct inventory variances, move parts from one inventory location (or account) to another (without having to relate that movement to a part request), and scrap parts out of inventory.
-
-This overload takes a setup object and a database transaction.   |
+| [PartTransfer(String,String,String,Int32,Location,Location)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer(String,String,String,Int32,Location,Location).md) | Allows parts to be transferred independent of a part request to fix order errors, correct inventory variances, move parts from one inventory location (or account) to another (without having to relate that movement to a part request), and scrap parts out of inventory.<br><br>This overload takes a set of required parameters for the API. |
+| [PartTransfer(String,String,String,String,Location,Location)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer(String,String,String,String,Location,Location).md) | Allows parts to be transferred independent of a part request to fix order errors, correct inventory variances, move parts from one inventory location (or account) to another (without having to relate that movement to a part request), and scrap parts out of inventory.<br><br>This overload takes a set of required parameters for the API. |
+| [PartTransfer(PartTransferSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer(PartTransferSetup).md) | Allows parts to be transferred independent of a part request to fix order errors, correct inventory variances, move parts from one inventory location (or account) to another (without having to relate that movement to a part request), and scrap parts out of inventory.<br><br>This overload takes a setup object. |
+| [PartTransfer(PartTransferSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer(PartTransferSetup,IDbTransaction).md) | Allows parts to be transferred independent of a part request to fix order errors, correct inventory variances, move parts from one inventory location (or account) to another (without having to relate that movement to a part request), and scrap parts out of inventory.<br><br>This overload takes a setup object and a database transaction. |
 
 #### Remarks
 
@@ -41,8 +26,6 @@ To use primary bin suggestions/recommendations, please see the remarks on the [T
 This API supports transferring parts by quantity or a specific serial number.
 
 [!include[Requirements](../partials/requirements.md)]
-
-
 
 #### Reference
 
