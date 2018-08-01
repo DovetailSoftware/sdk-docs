@@ -89,62 +89,55 @@ The objid of the created log is returned in the FCCS object variable _ret_objid_
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fccs.log_subcase_commit("C154-1", "A title", "", "", "",
-
           0, true, "Bill", "Clinton", "555-555-1234", "", "", true, true,
-
           "", 0, "", 0, "", "", "", "", "", "");
+```
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccs.log_subcase_commit("C154-1", "A title", "", "", "", 0, True, _
           "Bill", "Clinton", "555-555-1234", "", "", True, True, _
           "", 0, "", 0, "", "", "", "", "", "")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var ret_int = fccs.log_subcase_commit_list("C154-1", "A title", "", "",
-
           "", 0, true, "Bill", "Clinton", "555-555-1234", "",
-
           "", true, true);
+```
 
 **Visual Basic:**
-
-   Dim ret_int     As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccs.log_subcase_commit_list("C154-1", "A title", "", "", "", 0, _
           True, "Bill", "Clinton", "555-555-1234", "", "", True, True)
+```
 
- Create a log for subcase number '2-1'. Set a title, action code, log date, and user. Make the commitment by "Bill Clinton", and make the commitment expire on '1/1/99'. Make a prior warning for two hours, have some notes, and additional fields. Generate neither a time bomb, nor the commitement emails.
+Create a log for subcase number '2-1'. Set a title, action code, log date, and user. Make the commitment by "Bill Clinton", and make the commitment expire on '1/1/99'. Make a prior warning for two hours, have some notes, and additional fields. Generate neither a time bomb, nor the commitement emails.
 
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fccs.log_subcase_commit("2-2", "A title", "External Commitment",
-
           "11/23/97 22:00:00", "1/1/99", 7200, false,
-
           "Bill", "Clinton", "555-555-1234", "Some notes", "marty",
-
           false, false, "x_close_int1", 1, "x_close_int2", 456,
-
           "x_summary2", "More text", "", "",
-
           "x_other_date", "1/1/99")
+```
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccs.log_subcase_commit("2-2", "A title", "External Commitment", _
           "11/23/97 22:00:00", "1/1/99", 7200, False, _
@@ -152,82 +145,59 @@ ret_int = fccs.log_subcase_commit("2-2", "A title", "External Commitment", _
           False, False, "x_close_int1", 1, "x_close_int2", 456, _
           "x_summary2", "More text", "", "", _
           "x_other_date", "1/1/99")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFL.FCList");
-
 var type_list = Server.CreateObject("FCFL.FCList");
-
 var val_list  = Server.CreateObject("FCFL.FCList");
 
 fld_list.AppendItem("x_close_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem ("1");
 
 fld_list.AppendItem("x_close_int2");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem ("456");
 
 fld_list.AppendItem("x_summary2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("x_other_date");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccs.log_subcase_commit_list("2-2", "A title",
-
           "External Commitment", "11/23/97 22:00:00", "1/1/99", 7200, false,
-
           "Bill", "Clinton", "555-555-1234", "Some notes", "marty",
-
           false, false, fld_list, type_list, val_list);
-
-**Visual Basic:**
-
-   Dim ret_int     As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim fld_list    As New FCList
-
 Dim type_list   As New FCList
-
 Dim val_list    As New FCList
 
 fld_list.AppendItem "x_close_int1"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(1))
 
 fld_list.AppendItem "x_close_int2"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(456))
 
 fld_list.AppendItem "x_summary2"
-
 type_list.AppendItem "String"
-
 val_list.AppendItem "More text"
 
 fld_list.AppendItem "x_other_date"
-
 type_list.AppendItem "Date"
-
 val_list.AppendItem "1/1/99"
 
 ret_int = fccs.log_subcase_commit_list("2-2", "A title", _
@@ -235,3 +205,4 @@ ret_int = fccs.log_subcase_commit_list("2-2", "A title", _
           "11/23/97 22:00:00", "1/1/99", 7200, False, _
           "Bill", "Clinton", "555-555-1234", "Some notes", "marty", _
           False, False, fld_list, type_list, val_list)
+```

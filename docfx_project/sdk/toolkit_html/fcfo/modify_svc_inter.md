@@ -51,40 +51,36 @@ The appointment type and subtype are optional code list values that may be speci
 
 #### Examples
 
- Update an existing appointment. Set all the data that you can set. Change the start time and set the end time to the original end time from the appointment by using "-1".
+Update an existing appointment. Set all the data that you can set. Change the start time and set the end time to the original end time from the appointment by using "-1".
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.modify_svc_inter(268435465, "A new description", _
      "12/1/98 16:00:00", "-1", 600, _
-                                "Appt type", "Appt subtype",  "sa", _
-                                "9/9/98")
+     "Appt type", "Appt subtype",  "sa", "9/9/98")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.modify_svc_inter(268435465, "A new description",
-
          "12/1/98 16:00:00", "-1", 600,
+         "Appt type", "Appt subtype",  "sa", "9/9/98");
+```
 
-                                    "Appt type", "Appt subtype",  "sa",
-
-                                    "9/9/98");
-
- Simply append to the description for an appointment.
+Simply append to the description for an appointment.
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.modify_svc_inter(268435465, "+for api", "", "", 0, _
                                 "", "", "", "")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.modify_svc_inter(268435465, "+for api", "", "", 0,
-
                                     "", "", "", "");
+```

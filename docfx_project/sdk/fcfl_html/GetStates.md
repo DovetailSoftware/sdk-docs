@@ -42,41 +42,24 @@ An ADO recordset containing the state_prov  records.
 The following example builds a drop-down list of states for the default. The default state is selected.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 <SELECT NAME="States">
-
 <%
-
 var defCountry = FCApp.GetDefaultCountry();
-
 var StateList = FCApp.GetStates(defCountry);
-
 var defState = FCApp.GetDefaultState(defCountry);
-
 while (! StateList.EOF) { %>
-
   <option
-
   <% if (StateList("name") == defState) { %>
-
   selected = true <% } %> >
-
   <%=StateList("name")%>
-
   <% StateList.MoveNext; %>
-
   </option>
-
 <% } %>
-
 </SELECT>
 
 <%
-
 StateList.Close();
-
 StateList = null;
-
 %>
+```

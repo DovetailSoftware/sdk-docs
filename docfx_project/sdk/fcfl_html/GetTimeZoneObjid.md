@@ -34,9 +34,7 @@ The objid of the time zone. Zero, if the time zone is not found.
 The following example retrieves the objid for a time zone.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var TimeZone = Request.Form("TZ").Item;
-
 var TimeZoneObjid = FCApp.GetTimeZoneObjid(TimeZone);
+```

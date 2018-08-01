@@ -27,11 +27,13 @@ This API will delete an ECO item object.
 Delete ECO Item 268435463.
 
 **JavaScript:**
-
+```
 var ret_int = fcdr. delete_eco_item(268435463);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcdr. delete_eco_item(268435463)
+```

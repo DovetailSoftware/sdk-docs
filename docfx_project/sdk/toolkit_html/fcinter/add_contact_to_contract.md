@@ -38,28 +38,25 @@ This API adds a contact to an existing contract. You must specify the contract I
 
 #### Examples
 
- Add John Smith at (512)123-4567 from site "2" to contract "AMD 1"
+Add John Smith at (512)123-4567 from site "2" to contract "AMD 1"
 
 **Visual Basic:**
-
-Dim ret_int       As Integer
 ```
-
+Dim ret_int As Integer
 Dim contact_objid As Long
 
 ret_int = fcinter.add_contact_to_contract("AMD 1", "John", _
                                           "Smith", "5121234567", "2")
 
  If ret_int = 0 Then
+   contact_objid = fcinter.ret_objid
+ End If
+```
 
-      contact_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.add_contact_to_contract("AMD 1", "John",
-
                                        "Smith", "5121234567", "2");
 
  if (ret_int == 0){ var contact_objid = fcinter.ret_objid; }
+```

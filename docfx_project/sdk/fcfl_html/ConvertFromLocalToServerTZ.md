@@ -38,21 +38,14 @@ A date/time value converted from the local time zone to the server time zone.
 The following example converts a timestamp from the local time zone to the server time zone.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 <%
-
-var CurrDate = FCSession.GetCurrentDate();
-
-var NewDate = FCSession.ConvertFromLocalToServerTZ(CurrDate);
-
+	var CurrDate = FCSession.GetCurrentDate();
+	var NewDate = FCSession.ConvertFromLocalToServerTZ(CurrDate);
 %>
 
 The Server Time Zone is <%=FCApp.ServerTimeZone%>.<BR>
-
 The Local Time Zone = <%=FCSession.LocalTimeZone%>.<BR>
-
 If it is <%=CurrDate%> in <%=FCSession.LocalTimeZone%>, then
-
 it is <%=NewDate%> in <%=FCApp.ServerTimeZone%>.
+```

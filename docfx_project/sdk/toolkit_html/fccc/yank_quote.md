@@ -37,23 +37,27 @@ This API causes the specified quote to be yanked from the current location to a 
 Yank quote number '154' by the current user at the current date/time. Place in the default WIPBin, generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.yank_quote("154", "", "", "", True)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.yank_quote("154", "", "", "", True)
+```
 
- Yank quote number 'Q2' at 10PM on November 23rd of 2001 by user 'sam'. Place in sam's WIPBin 'Urgent'. Don't generate a time bomb.
+Yank quote number 'Q2' at 10PM on November 23rd of 2001 by user 'sam'. Place in sam's WIPBin 'Urgent'. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.yank_quote("Q2", "Urgent", "11/23/2001 22:00:00", "sam", False)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.yank_quote("Q2", "Urgent", "11/23/2001 22:00:00", "sam", False)
+```

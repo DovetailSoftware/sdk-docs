@@ -33,11 +33,13 @@ This API causes the specified part request to be moved from one WIPBin to anothe
 Move part request number '1-14' to WIPBin 'Hardware'.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.move_pr("1-14", "Hardware")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.move_pr("1-14", "Hardware");
+```

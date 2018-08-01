@@ -61,58 +61,50 @@ Each appointment must be specified for a given employee or a piece of equipment 
 Create an appointment for employee "sa" for the 11th of  October, 1998 for 10 minutes. Relate to a case, and set up type and subtype values.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim ap_objid   As Long
 
 ret_int = fcfo.make_appt("test description", "10/11/98 11:00:00", _      
-  
-   "", 600, "Cell text", "sa", "sa", 0, _
+		   "", 600, "Cell text", "sa", "sa", 0, _
            "Field Service", "Warranty Upgrade", "1", _
            "sa", "")
   
-   If ret_int = 0 Then
-
-     ap_objid = fcfo.ret_objid
+ If ret_int = 0 Then
+   ap_objid = fcfo.ret_objid
  End If
- 
-**JavaScript:**
-
-var ret_int = fcfo.make_appt("test description", "10/11/98 11:00:00",      
-  
-   "", 600, "Cell text", "sa", "sa", 0,
-  
-"Field Service", "Warranty Upgrade", "1",                     "sa", "");
-
- if (ret_int == 0){ var ap_objid = fcfo.ret_objid; }
-
- Create an appointment for site_part 268435458  for the 11th of  Octember, 1998 (use start and end time) for 1 hour. Relate to a case, use default code list values. Don't relate to a case, and have it logged by "Joe" at an earlier date/time.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fcfo.make_appt("test description", "10/11/98 11:00:00",      
+   	"", 600, "Cell text", "sa", "sa", 0,
+	"Field Service", "Warranty Upgrade", "1", "sa", "");
+
+ if (ret_int == 0){ var ap_objid = fcfo.ret_objid; }
+```
+
+Create an appointment for site_part 268435458  for the 11th of  Octember, 1998 (use start and end time) for 1 hour. Relate to a case, use default code list values. Don't relate to a case, and have it logged by "Joe" at an earlier date/time.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim ap_objid   As Long
 
 ret_int = fcfo.make_appt("test description", "10/11/98 11:00:00", _      
-  
    "9/11/98 12:00:00", 0, "Cell text", "", "", _
-           268435458, "", "", "", "Joe", "10/1/98 8:00:00")  
+   268435458, "", "", "", "Joe", "10/1/98 8:00:00")  
   
-   If ret_int = 0 Then
-  
-     ap_objid = fcfo.ret_objid
+ If ret_int = 0 Then
+   ap_objid = fcfo.ret_objid
  End If
- 
-**JavaScript:**
+```
 
+**JavaScript:**
+```
 var ret_int = fcfo.make_appt("test description", "10/11/98 11:00:00",       
-  
-   "9/11/98 12:00:00", 0, "Cell text", "", "",
-  
-268435458, "", "", "", "Joe", "10/1/98 8:00:00");
+     "9/11/98 12:00:00", 0, "Cell text", "", "",
+  	 268435458, "", "", "", "Joe", "10/1/98 8:00:00");
 
  if (ret_int == 0){ var ap_objid = fcfo.ret_objid; }
+```

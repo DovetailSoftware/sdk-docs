@@ -36,33 +36,21 @@ Further, when you perform a DeleteAll, the current record is set to EOF.
 The following example deletes all records in a custom table called "my_table".
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Set up a query of all rows in test table
-
   var boMyTable = FCSession.CreateGeneric();
-
   boMyTable.DBObjectName = "my_table";
-
   boMyTable.Query();
-
   boMyTable.DeleteAll();
-
   boMyTable.UpdateAll();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boMyTable As FCGeneric
-
   Set boMyTable = fc_session.CreateGeneric
-
   boMyTable.DbObjectName = "my_table"
-
   boMyTable.Query
-
   boMyTable.DeleteAll
-
   boMyTable.UpdateAll
+```

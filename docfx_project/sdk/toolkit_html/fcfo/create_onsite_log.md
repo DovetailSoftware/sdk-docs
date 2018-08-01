@@ -45,54 +45,47 @@ This API allows creation of an onsite log that is related to a case or subcase. 
 Create a new onsite log related to Case "3". The creation time is 4:00 pm on September 10, 1998. A sample note is shown, and the resolution will be the list default. The user and performing user will both default to the current Clarify user. Once created, the new objid will be placed in the ol_objid variable.
 
 **Visual Basic:**
-
-   Dim ret_int  As Integer
 ```
-
+Dim ret_int As Integer
 Dim ol_objid As Long
 
 ret_int = fcfo.create_onsite_log("CASE", "3", _
 "09/10/98 16:00:00", "", _
 "New Onsite Log note", "", "", "")
 
-   If ret_int = 0 Then
-
-     ol_objid = fcfo.ret_objid
-
-   End If
+ If ret_int = 0 Then
+   ol_objid = fcfo.ret_objid
+ End If
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.create_onsite_log("CASE", "3",
-
   "09/10/98 16:00:00", "",
-
   "New Onsite Log note", "", "", "");
 
 if (ret_int == 0){ var ol_objid = fcfo.ret_objid; }
-
- Create a new onsite log related to subcase "4-1". All other parameters will default.
-
-**Visual Basic:**
-
-   Dim ret_int  As Integer
 ```
 
+Create a new onsite log related to subcase "4-1". All other parameters will default.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim ol_objid As Long
 
 ret_int = fcfo.create_onsite_log("SUBCASE", "4-1", "", "", _
                                   "", "", "", "")
 
    If ret_int = 0 Then
-
      ol_objid = fcfo.ret_objid
-
    End If
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.create_onsite_log("SUBCASE", "4-1", "", "",
-
                                      "", "", "", "");
 
 if (ret_int == 0){ var ol_objid = fcfo.ret_objid; }
+```

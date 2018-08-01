@@ -52,32 +52,35 @@ The API changes the relations for the case. In addition, the case history and ac
 
 #### Examples
 
- Change contact for case number 'C154' to Joe Jackson. Don't change the site. The change is performed by the current user and is changed at the current time. Generate a time bomb.
+Change contact for case number 'C154' to Joe Jackson. Don't change the site. The change is performed by the current user and is changed at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.change_contact("C154", "Joe", "Jackson", "555-1212", "",
-
                                   "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.change_contact("C154", "Joe", "Jackson", "555-1212", "", _
                               "", "", True)
+```
 
- Change contact and site for case number '2' at 10PM on November 23rd of 1997 to 'Mary Smith' at site '43'. Change should be logged as performed by Patty. Don't generate a time bomb.
+Change contact and site for case number '2' at 10PM on November 23rd of 1997 to 'Mary Smith' at site '43'. Change should be logged as performed by Patty. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.change_contact("2", "Mary", "Smith", "555-5555", "43",
 
                                   "11/23/97 22:00:00", "patty", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.change_contact("2", "Mary", "Smith", "555-5555", "43", _
                               "11/23/97 22:00:00", "patty", False)
+```

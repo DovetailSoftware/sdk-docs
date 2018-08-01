@@ -30,39 +30,23 @@ An ADO recordset containing the country  records.
 The following example builds a drop-down list of countries. The default country is selected.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 <SELECT NAME="Country">
-
 <%
-
 var defCountry = FCApp.GetDefaultCountry();
-
 var CountryList = FCApp.GetCountryList();
-
 while (! CountryList.EOF) { %>
-
   <option
-
   <% if (CountryList("name") == defCountry) { %>
-
   selected = true <% } %> >
-
   <%=CountryList("name")%>
-
   <% CountryList.MoveNext; %>
-
   </option>
-
 <% } %>
-
 </SELECT>
 
 <%
-
 CountryList.Close();
-
 CountryList = null;
-
 %>
+```

@@ -41,33 +41,33 @@ This API can be used to change the condition and (optionally) a status for an ac
 
 #### Examples
 
- Change condition and status for action item '44' to Not Started/Working. Generate a time bomb.
+Change condition and status for action item '44' to Not Started/Working. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.change_task_cond("44", "Not Started", "Working", "",
-
                                      "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-ret_int = fcsfa.change_task_cond("44", "Not Started", "Working", "", _
-                                     "", True)
+ret_int = fcsfa.change_task_cond("44", "Not Started", "Working", "", "", True)
+```
 
- Change to the default status for action item "55" on 1/1/2005. The change was performed by "Fred". Do not generate a time bomb.
+Change to the default status for action item "55" on 1/1/2005. The change was performed by "Fred". Do not generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.change_task_cond("55", "Not Started", "", "fred",
-
                                      "1/1/2005", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.change_task_cond("55", "Not Started", "", "fred",
-
                                      "1/1/2005", False)
+```

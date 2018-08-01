@@ -34,25 +34,17 @@ When you create a new generic (with the FCSession.CreateGeneric method), the val
 The following example demonstrates setting the QueryEmptyToNull property for a new object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Include all relations in a query for site_part
-
   var boSite = FCSession.CreateGeneric('site');
-
   boSite.QueryEmptyToNull = true;  // Not needed - it's the default!
-
   boSite.Query();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSite As FCGeneric
-
   Set boSite = fc_session.CreateGeneric("site")
-
   boSite.QueryEmptyToNull = True
-
   boSite.Query
+```

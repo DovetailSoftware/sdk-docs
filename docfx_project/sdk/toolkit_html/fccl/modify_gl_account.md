@@ -46,14 +46,15 @@ This API is used to modify existing GL accounts. Any of the attributes of the ac
 Modify "myaccount" to change the name to "youraccount". Make it a customer owned, inactive, capital GL for site 2.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.modify_gl_account("myaccount", "youraccount", "description", _
                                 "12345", False, False, False, "2")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.modify_gl_account("myaccount", "youraccount", "description",
-
                                 "12345", false, false, false, "2");
+```

@@ -40,29 +40,32 @@ This API causes the specified case to be reject-forwarded from one queue to anot
 
 #### Examples
 
- Reject-forward case number 'C154' to queue 'Hardware'. The reject-forward has no notes, is performed by the current user and is forwarded at the current time. Generate a time bomb.
+Reject-forward case number 'C154' to queue 'Hardware'. The reject-forward has no notes, is performed by the current user and is forwarded at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 ret_int = fccs.forward_case("C154", "Hardware", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.forward_case("C154", "Hardware", "", "", "", True)
+```
 
- Reject-forward case number '2' at 10PM on November 23rd of 1997 to 'Software'. Forward should be logged as performed by dave, with notes of 'Some notes'. Don't generate a time bomb.
+Reject-forward case number '2' at 10PM on November 23rd of 1997 to 'Software'. Forward should be logged as performed by dave, with notes of 'Some notes'. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.forward_case("2", "Software", "11/23/97 22:00:00",
-
                                 "Some notes", "dave", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.forward_case("2", "Software", "11/23/97 22:00:00", _
                             "Some notes", "dave", False)
+```

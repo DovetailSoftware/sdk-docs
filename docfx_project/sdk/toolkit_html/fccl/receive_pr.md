@@ -124,38 +124,37 @@ Good and bad inventory levels are supported, as is all other base features of re
 Receive against part request number '1-14'. Receive from expense GL 'EXPGL' and to the primary bin at the Austin location. All inventory is good. Receive 12 units. Auto-close. Generate time bombs.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.receive_pr("1-14", "EXPGL", "", "", True, "Austin", _
                            "PRIM_BIN_REC", "", True, 12, "", "", "", "", _
                            False, False, False, "", "",True, True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.receive_pr("1-14", "EXPGL", "", "", True, "Austin",
-
                            "PRIM_BIN_REC", "", True, 12, "", "", "", "",
-
                            false, false, false, "", "",true, true);
+```
 
- Receive against part request number '2-1'. Receive from location Austin/Bin 1 to container 44 (name Fred)  in Austin. The inventory was good, but is received as bad. It is serialized with serial number 'A123'. Set up a carrier site, and a waybill. Sam does the reeceive at 10PM on November 23rd of 2001. Mark the shipment as possibly damaged, and to be routed to test. Change the status to 'Received QA'. Don't generate a time bomb or auto-close.
+Receive against part request number '2-1'. Receive from location Austin/Bin 1 to container 44 (name Fred)  in Austin. The inventory was good, but is received as bad. It is serialized with serial number 'A123'. Set up a carrier site, and a waybill. Sam does the reeceive at 10PM on November 23rd of 2001. Mark the shipment as possibly damaged, and to be routed to test. Change the status to 'Received QA'. Don't generate a time bomb or auto-close.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.receive_pr("2-1", "Austin", "Bin 1", "", True, "Austin", _
                          "Fred", "44", False, 1, "A123", "Received QA", _
                          "Site 1", "Waybil 34843834", True, False, True, _
                          "sam", "11/23/01 22:00:00", False, False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.receive_pr("2-1", "Austin", "Bin 1", "", True, "Austin",
-
                          "Fred", "44", False, 1, "A123", "Received QA",
-
                          "Site 1", "Waybil 34843834", True, False, True,
-
                          "sam", "11/23/01 22:00:00", False, False);
+```

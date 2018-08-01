@@ -61,29 +61,32 @@ These APIs cause the specified action item, opportunity, or quote to have its st
 
 #### Examples
 
- Change status for opportunity number '154' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
+Change status for opportunity number '154' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.change_opportunity_status("154", "", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.change_opportunity_status("154", "", "", "", "", True)
+```
 
- Change status for quote number '2' at 10PM on November 23rd of 1997 to 'Solved'. Change status has notes of 'Some notes', and  should be logged as performed by dave. Don't generate a time bomb.
+Change status for quote number '2' at 10PM on November 23rd of 1997 to 'Solved'. Change status has notes of 'Some notes', and  should be logged as performed by dave. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.change_quote_status("2", "Solved", "11/23/97 22:00:00",
-
                                         "Some notes", "dave", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.change_quote_status("2", "Solved", "11/23/97 22:00:00", _
                                     "Some notes", "dave", False)
+```

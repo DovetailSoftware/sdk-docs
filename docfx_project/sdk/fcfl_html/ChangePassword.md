@@ -35,7 +35,6 @@ This method changes the password for the session user, which may either be a con
 The following example changes the current user's password.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 FCSession.ChangePassword("new_password");
+```

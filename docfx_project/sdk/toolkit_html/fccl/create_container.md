@@ -38,23 +38,27 @@ This API creates a new container object. It will be installed at the specified l
 Create a new container, Joe at Austin, Bin 1.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.create_container("Joe", "Austin", "Bin 1", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.create_container("Joe", "Austin", "Bin 1", "");
+```
 
- Create a new container, Joe under container Fred.
+Create a new container, Joe under container Fred.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.create_container("Joe", "", "", "Fred")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.create_container("Joe", "", "", "Fred");
+```

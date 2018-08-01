@@ -56,14 +56,15 @@ This API creates a part restocking authorization level. The location, bin, part 
 Set a reorder for Bin 2 in Austin for the "CD Rom" part. Set levels and dispatch queue to "High".
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.set_part_stocking_lev("Bin 2", "Austin", "High", "CD Rom", "", _
                                          "Quantity", 2, 100, 10, 20, True)
+```
 
-**Javascript:**
-
-var ret_int = fccl.set_part_stocking_lev("Bin 2", "Austin", "High", "CD Rom", "",
-
-                                            "Quantity", 2, 100, 10, 20, True);
+**JavaScript:**
+```
+var ret_int = fccl.set_part_stocking_lev("Bin 2", "Austin", "High", 
+		"CD Rom", "", "Quantity", 2, 100, 10, 20, True);
+```

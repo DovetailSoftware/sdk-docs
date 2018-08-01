@@ -54,26 +54,30 @@ The API can also generate a time bomb (for business rule notification).
 Mark opportunity '44' as won. Add some notes, and the change occurs now and is performed by the current user. Assume that we'll use the default status. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.win_opp("44", "", "Some notes!!", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.win_opp("44", "", "Some notes!!", "", "", True)
+```
 
 Opportunity '42' is changed to won at 10PM on November 23rd of 1997. Change should be logged as performed by dave, with notes of 'Some notes'. Set the status to "Another status." Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.win_opp("42", "Another status", "Some notes!!",
 
                             "dave", "11/23/97 22:00:00", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.win_opp("42", "Another status", "Some notes!!", _
                          "dave", "11/23/97 22:00:00", False)
+```

@@ -119,17 +119,17 @@ Create a new line item for quote '2'.  A total of 3 Notebooks are quoted for th
 **Field version:**
 
 **JavaScript:**
-
+```
    var ret_int = fc_cc.cr_contr_itm( "2", "", "", "", "", "Notebook", _
                             "Quantity", "",3, "Default Schedule", "", _
                              0, "", True, False, "A Comment", "", "", _
                              -1, "222", "", 0, "", 0, "", "", "", "", _
                              "", "")
+```
 
 **Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
+   Dim ret_int As Integer
    Dim item_objid As Long
 
    ret_int = fc_cc.cr_contr_itm( "2", "", "", "", "", "Notebook", _
@@ -141,11 +141,12 @@ Create a new line item for quote '2'.  A total of 3 Notebooks are quoted for th
    If ret_int = 0 Then
      item_objid = fc_cc.ret_objid
    End If
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
 
 var type_list = Server.CreateObject("FCFLCompat.FCList");
@@ -172,11 +173,11 @@ ret_int = fc_cc.cr_contr_itm("2", "", "", "", "", "Notebook", _
                              "Quantity", "", 3, "Default Schedule", "", _
                              0, "", True, False, "A Comment", "", -1, _
                              "222", fld_list, type_list, val_list)
+```
 
 **Visual Basic:**
-
- Dim ret_int         As Integer
 ```
+ Dim ret_int As Integer
  Dim item_objid      As Long
  Dim fld_list         As New FCFLCOMPAT.FCLIST
  Dim type_list        As New FCFLCOMPAT.FCLIST
@@ -194,13 +195,15 @@ ret_int = fc_cc.cr_contr_itm("2", "", "", "", "", "Notebook", _
  If ret_int = 0 Then
    item_objid = fc_cc.ret_objid
  End If
+```
 
 Do the same as above, but have "sa" log it on November 1, 2001. Set a start and end date. Override the price schedule to 1.01 per unit, and use one of the units. Do not have it taxable, but auto-install at site 23. Set site 24 as the serviced at site. Set some other fields, and make this a child line item.
 
 **Field version:**
 
-   Dim ret_int    As Integer
+**Visual Basic:**
 ```
+   Dim ret_int As Integer
    Dim item_objid As Long
 
    ret_int = fc_cc.cr_contr_itm( "2", "sa", "11/1/2001", "12/1/2001", _
@@ -217,8 +220,9 @@ Do the same as above, but have "sa" log it on November 1, 2001. Set a start and 
 
 **List version:**
 
-Dim ret_int      As Integer
+**Visual Basic:**
 ```
+Dim ret_int As Integer
 Dim log_objid    As Long
 Dim fld_list    As New FCFLCOMPAT.FCLIST
 Dim type_list   As New FCFLCOMPAT.FCLIST
@@ -245,6 +249,8 @@ ret_int = fc_cc.cr_contr_itm( "2", "sa", "11/1/2001", _
                             "Quantity", "", 3, "Default Schedule", _
                             "1.01", 1, "", False, True, "A Comment", _
                             "23", "24", 268435458, "", _
-                             fld_list, type_list, val_list) If ret_int = 0 Then
+                             fld_list, type_list, val_list) 
+If ret_int = 0 Then
   item_objid = fc_cc.ret_objid
 End If
+```

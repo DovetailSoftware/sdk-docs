@@ -46,27 +46,18 @@ Distinct generic objects, after they are queried, are read-only. If you attempt 
 The following example demonstrates setting the Distinct  property for a new object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Set this generic to be a distinct one
-
   var boCase = FCSession.CreateGeneric("case");
-
   boCase.DataFields = "title, id_number";
-
   boCase.Distinct = true;
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
-
   boCase.DataFields = "title, id_number"
-
   boCase.Distinct = True
+```

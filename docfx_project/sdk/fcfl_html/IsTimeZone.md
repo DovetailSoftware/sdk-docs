@@ -32,13 +32,9 @@ A boolean value indicating if the given time zone is found in the database or no
 The following example checks is a given value from a posted form is a valid time zone.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var time_zone = Request.Form("timezone").Item; If (FCApp.IsTimeZone(time_zone))
-
  { Response.Write(time_zone + " is a valid time_zone."); }
-
 else
-
  { Response.Write(time_zone + " is NOT a valid time_zone."); }
+```

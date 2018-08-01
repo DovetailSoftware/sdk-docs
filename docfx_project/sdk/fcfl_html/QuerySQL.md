@@ -24,25 +24,19 @@ No similar operation is currently available for insert, delete, and update opera
 The following example demonstrates setting the QuerySQL property for a query object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Include all relations in a query for site_part
-
   var boSite = FCSession.CreateGeneric('site');
-
   boSite.Query();
 
   alert(boSite.QuerySQL);
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSite As FCGeneric
-
   Set boSite = fc_session.CreateGeneric("site")
-
   boSite.Query
 
   msgbox boSite.QuerySQL
+```

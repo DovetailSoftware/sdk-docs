@@ -37,23 +37,27 @@ This API is used to change the order of the locations servicing a site. The new 
 Austin should service site 1 third.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.modify_lss("1", "Austin", 3)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.modify_lss("1", "Austin", 3);
+```
 
- Houston should service site 1 next.
+Houston should service site 1 next.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.modify_lss("1", "Houston", 4)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.modify_lss("1", "Houston", 4);
+```

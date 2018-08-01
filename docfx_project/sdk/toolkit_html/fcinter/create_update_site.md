@@ -125,10 +125,8 @@ The primary address is required for inserts. If the shipping and billing address
 Add a new site. Set it with a site name, make it a customer site, and active. Set region/district to North/Northeast. Use the default industry type, and application type. Set the primary address and the billing address. Set a parent site, and a primary employee.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim site_objid As Long
 
 ret_int = fcinter.create_update_site(0, "", "My Site", "CUST", _
@@ -140,32 +138,27 @@ ret_int = fcinter.create_update_site(0, "", "My Site", "CUST", _
                                      0, "", "", "", "", "", "")
 
  If ret_int = 0 Then
-
-      site_objid = fcinter.ret_objid
-|  | End If |
-**Javascript:**
-
-var ret_int = fcinter.create_update_site(0, "", "My Site",
-| 
- | "CUST", "", "Active",
-| 
- | "North", "Northeast", |
- |
-                                     "", "", 268435457, -1, 268435459,
-| 
- | "42", "", 268435666, -1, "", 0, "",
- |
-                                     0, "", "", "", "", "", "");
-
- if (ret_int == 0){ var site_objid = fcinter.ret_objid; }
-
- Add a new site with site_id of 'INTER123'. Set it with a site name, make it a customer site, and active. Set region/district to North/Northeast. Use the default industry type, and application type. Set the primary address and the billing address. Set a parent site, and a primary employee.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
+   site_objid = fcinter.ret_objid
+ End If 
 ```
 
+**JavaScript:**
+```
+var ret_int = fcinter.create_update_site(0, "", "My Site",
+   "CUST", "", "Active",
+   "North", "Northeast", 
+   "", "", 268435457, -1, 268435459,
+   "42", "", 268435666, -1, "", 0, "",
+   0, "", "", "", "", "", "");
+
+ if (ret_int == 0){ var site_objid = fcinter.ret_objid; }
+```
+
+Add a new site with site_id of 'INTER123'. Set it with a site name, make it a customer site, and active. Set region/district to North/Northeast. Use the default industry type, and application type. Set the primary address and the billing address. Set a parent site, and a primary employee.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim site_id    As String
 
 site_id = "INTER123"
@@ -179,32 +172,26 @@ ret_int = fcinter.create_update_site(0, site_id, _
                                      "42", "", 268435666, -1, _
                                      "", 0, "", 0, _
                                      "", "", "", "", "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var site_id = "INTER123"
 
 var ret_int = fcinter.create_update_site(0, site_id, "My Site",
-| 
- | "CUST", "", "Active",
-| 
- | "North", "Northeast", "", |
- |
-                                     "", 268435457, -1, 268435459,
-| 
- | "42", "", 268435666, -1, |
-| 
- | "", 0, "", 0,
- |
-                                     "", "", "", "", "", "");
-
- Update site '42'. Set the support office to site "56", and clear out the primary support employee and parent site.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
+  "CUST", "", "Active",
+  "North", "Northeast", "", 
+  "", 268435457, -1, 268435459,
+  "42", "", 268435666, -1, 
+  "", 0, "", 0,
+  "", "", "", "", "", "");
 ```
 
+Update site '42'. Set the support office to site "56", and clear out the primary support employee and parent site.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim site_id    As String
 
 site_id = "42"
@@ -213,18 +200,15 @@ ret_int = fcinter.create_update_site(268435600, site_id, "", _
                                      "", "", "", _
                                      "", "", "", "", -1, -1, -1, _
                                      "REMOVE", "56", -2, -1, "", 0, _
- "", 0, "", "", "", "", "", "")
+                                     "", 0, "", "", "", "", "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var site_id = "42"
 
-var ret_int = fcinter.create_update_site(268435600, site_id, "",
-| 
- | "", "", "",
- |
-                                     "", "", "", "", -1, -1, -1,
-| 
- | "REMOVE", "56", -2, -1, "", 0,
- |
+var ret_int = fcinter.create_update_site(268435600, site_id, "", "", "", "",
+                                      "", "", "", "", -1, -1, -1,
+                                     "REMOVE", "56", -2, -1, "", 0,
                                      "", 0, "", "", "", "", "", "");
+```

@@ -51,29 +51,31 @@ The trans authority determines part authorization levels, and has three possible
 Add a new location named Buda. Assign a capital GL account to it, put it as site "1", and make it active and company owned. Allow only authorized parts.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.add_inv_location("Buda", "", "Rocket parts", "", _
                   "CAPGL", True, True, "1", "auth parts only")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.add_inv_location("Buda", "", "Rocket parts", "",
-
                   "CAPGL", true, true, "1", "auth parts only");
+```
 
 Add another location that is customer owned, inactive, and reports to Austin. Do not allow parts auths.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.add_inv_location("Houston", "", "Rocket parts", "Austin", _
                   "CAPGL", False, False, "1", "none")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.add_inv_location("Houston", "", "Rocket parts", "Austin",
-
                   "CAPGL", false, false, "1", "none");
+```

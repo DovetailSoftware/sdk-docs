@@ -45,17 +45,19 @@ This API closes the specified CR as a duplicate of the "master CR". The CR is pl
 | -20 | New status not found for new condition |
 | -21 | Cannot find the specified user's employee record for relating time bomb |
 
-**Examples**
+#### Examples
 
 Mark CR '2' as a duplicate of CR '4' with a new status of 'Double Entry". Gary performed the close at 8AM on March 29, 1999. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.duplicate_cr("2", "Double Entry", "4", "gary", _
        "3/29/99 08:00:00", True)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.duplicate_cr("2", "Double Entry", "4", "gary", "3/29/99 08:00:00", true);  
+```

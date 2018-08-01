@@ -45,26 +45,29 @@ The API will validate that the user has authority to make the status transition.
 Reopen part request number '1-14' to WIPBin 'Hardware'.  The status should be "Reopen again!", and it was performed by Cindy. The reopen occurs on August 1, 2001. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.reopen_pr("1-14", "Reopen again!", "Hardware", "8/1/2001", _
                          "cindy", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.reopen_pr("1-14", "Reopen again!", "Hardware", "8/1/2001",
-
                          "cindy", true);
+```
 
- Reopen part request number '2-1' to the default WIPBin, default status. Do the reject now and with the current user. Do not generate a time bomb.
+Reopen part request number '2-1' to the default WIPBin, default status. Do the reject now and with the current user. Do not generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.reopen_pr("2-1", "", "", "", "", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.reopen_pr("2-1", "", "", "", "",false);
+```

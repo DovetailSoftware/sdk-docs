@@ -29,11 +29,13 @@ This API opens an existing (sealed) container.
 Open container Fred.
 
 **Visual Basic:**
+```
+Dim ret_int As Integer
 
- Dim ret_int As Integer
+ret_int = fccl. open_container("Fred")
+```
 
-   ret_int = fccl. open_container("Fred")
-
-**Javascript:**
-
-   var ret_int = fccl. open_container("Fred");
+**JavaScript:**
+```
+var ret_int = fccl. open_container("Fred");
+```

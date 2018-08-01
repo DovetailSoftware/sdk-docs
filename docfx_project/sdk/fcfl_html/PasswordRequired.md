@@ -24,39 +24,25 @@ This property is useful when developing applications that  use their own valida
 The following example demonstrates setting and using the _PasswordRequired_ property. The example allows you to login without supplying a valid password.
 
 **JavaScript:**
+```
+  var FCApp;
+  var FCSession;
+  var strUserName = Request.Form("username").Item;
 
-The code in this example is written in JavaScript for inclusion in ASP pages.
+  //Create a session using the Global FCApp
+  FCApp = Application.Contents("FCApp");
+  FCSession = FCApp.CreateSession();
+  FCSession.PasswordRequired = false;
 
-var FCApp;
-
-var FCSession;
-
-var strUserName = Request.Form("username").Item;
-
-//Create a session using the Global FCApp
-
- FCApp = Application.Contents("FCApp");
-
- FCSession = FCApp.CreateSession();
-
-  FCSession.PasswordRequired = false;
-
-//Login as a contact
+  //Login as a contact
 
   try
-
   {
-
     FCSession.Login(strUserName,"","contact")
-
   }
-
   catch(e)
-
   {
-
     Response.Write("<BR><B>Logon Error:</B><BR>");
-
     Response.Write("<B>" + e.description + "</B><BR>");
-
   }
+```

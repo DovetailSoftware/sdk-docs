@@ -35,46 +35,39 @@ For updates, you must specify the title of the WIPBIN. You may change the name o
 | -3 | The new title for the WIPBIN is already a WIPBIN title for the current user |
 | ret_objid | Output - Returns the objid of the wipbin |
 
-**Examples**
+#### Examples
 
 Create a new WIPBIN with a name of "Important" and a description. Create it for "Gary", and make it the default WIPBIN.
 
 **Visual Basic:**
-
-Dim ret_int      As Integer
 ```
-
+Dim ret_int As Integer
 Dim wipbin_objid As Long
 
-ret_int = fcinter.create_update_wipbin("Important", "",_
-                                       "A description.", "gary", true)
+ret_int = fcinter.create_update_wipbin("Important", "", "A description.", "gary", true)
 
- If ret_int = 0 Then
-
-      wipbin_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
-var ret_int = fcinter.create_update_wipbin("Important", "",
-
-                                       "A description.", "gary", true);
-
- if (ret_int == 0){ var wipbin_objid = fcinter.ret_objid; }
-
- Update that WIPBIN. Change the name, and clear the description. Don't make it the default WIPBIN.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
+If ret_int = 0 Then
+  wipbin_objid = fcinter.ret_objid
+End If
 ```
 
-ret_int = fcinter.create_update_wipbin("Important", "Important Issues", _
-            "CLEAR", "", false)
+**JavaScript:**
+```
+var ret_int = fcinter.create_update_wipbin("Important", "", "A description.", "gary", true);
 
-**Javascript:**
+if (ret_int == 0){ var wipbin_objid = fcinter.ret_objid; }
+```
 
-var ret_int = fcinter.create_update_wipbin("Important", "Important Issues",
+Update that WIPBIN. Change the name, and clear the description. Don't make it the default WIPBIN.
 
-"CLEAR", "", false);
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
+ret_int = fcinter.create_update_wipbin("Important", "Important Issues", "CLEAR", "", false)
+```
+
+**JavaScript:**
+```
+var ret_int = fcinter.create_update_wipbin("Important", "Important Issues", "CLEAR", "", false);
+```

@@ -33,45 +33,33 @@ This property is used to read or write specific fields in the current record of 
 The following example demonstrates writing out some key fields from the site table after it is queried in the database. Then, some of the fields are modified so that they can be updated in the database.  
   
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Set up a query of all rows in site table
-
   var boSite = FCSession.CreateGeneric();
-
   boSite.DBObjectName = "site";
-
   boSite.Query();
 
   // For the first row, print out some key fields and set one
-
   // Then update the site
 
   Response.Write ("Site ID  : " + boSite.Fields("site_id"));
-
   Response.Write ("Site Name: " + boSite("name"));
 
   boSite("external_id") = "My external ID";
-
   boSite.Update();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSite As FCGeneric
 
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery "site"
-
   boSite.Query
 
   MsgBox "Site ID  : " & boSite.Fields("site_id")
-
   MsgBox "Site Name: " & boSite("name")
 
   boSite("external_id") = "Another external ID"
-
   boSite.Update
+```

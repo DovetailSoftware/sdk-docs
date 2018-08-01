@@ -81,8 +81,7 @@ Fix CR '2' using the default status and some notes. Gary performed the fix at 8A
 
 **Visual Basic:**
 
-Dim ret_int     As Integer
-```
+Dim ret_int As Integer
   
    Dim fix_objid   As Long
 
@@ -110,8 +109,7 @@ var int = fccq.fix_cr("2", "", "Notes about fix", "gary",
 
 **Visual Basic:**
 
-Dim ret_int     As Integer
-```
+Dim ret_int As Integer
   
    Dim fix_objid   As Long
 
@@ -147,8 +145,7 @@ var ret_int = fccq.fix_cr("2", "", "Notes about fix", "gary",
   
    Dim fix_objid   As Long
   
-   Dim ret_int     As Integer
-```
+   Dim ret_int As Integer
 
 Dim fld_list    As New FCFLCompat.FCList
 

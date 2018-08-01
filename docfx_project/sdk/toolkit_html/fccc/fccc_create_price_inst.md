@@ -62,10 +62,8 @@ When pricing quantities, if you leave the price quantity empty, it will default 
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
- |
-| Value |  Meaning |
-|!--- |!--- |
+| Value | Meaning |
+|:--- |:--- |
 | 0 | No Errors |
 | -1 | Support program not found |
 | -2 | Price schedule not found |
@@ -82,90 +80,74 @@ When pricing quantities, if you leave the price quantity empty, it will default 
 | -13 | Price type is not yet supported |
 | ret_objid | Output<br/><br/>Returns the objid of the newly created price instance |
 
-**Examples**
+#### Examples
 
 Create a new price instance for product 'Kudzu' software under the 'Kudzu Phone Support' support program.  Associate this price instance with the 'US Std Price List'.  Use a fixed price type with 50 units costing 100 dollars.
 
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.create_price_inst( "Kudzu", "2000", "Software Part", _
-                                    "Kudzu Phone Support", "US Std Price List", _
-                                    0, 50, 100, "","", "", 0, "", 0, "", _
-                                    "", "", "", "", "")
+                                "Kudzu Phone Support", "US Std Price List", _
+                                0, 50, 100, "","", "", 0, "", 0, "", _
+                                "", "", "", "", "")
 
-**Visual Basic:**
-
-   Dim ret_int         As Integer
 ```
 
-   Dim objid           As Long
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim objid   As Long
 
 ret_int = fc_cc.create_price_inst( "Kudzu", "2000", "Software Part", _
-                                    "Kudzu Phone Support", "US Std Price List", _
-                                    0, 50, 100, "","", "", 0, "", 0, "", _
-                                    "", "", "", "", "")
+                              "Kudzu Phone Support", "US Std Price List", _
+                              0, 50, 100, "","", "", 0, "", 0, "", _
+                              "", "", "", "", "")
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var ret_int;
 
 fld_list.AppendItem("x_close_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("1");
 
 fld_list.AppendItem("x_close_int2");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("456");
 
 fld_list.AppendItem("x_summary2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("x_other_date");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
 ret_int = fc_cc.create_price_inst_list("Kudzu", "2000", "Software Part", _
-                                         "Kudzu Phone Support", "US Std Price List", 0, _
-                                         50, 100, "", "", fld_list, type_list, val_list)
-
- **Visual Basic:**
-
-   Dim ret_int         As Integer
+                         "Kudzu Phone Support", "US Std Price List", 0, _
+                         50, 100, "", "", fld_list, type_list, val_list)
 ```
 
-   Dim objid           As Long
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim objid           As Long
+Dim fld_list         As New FCFLCOMPAT.FCLIST
+Dim type_list        As New FCFLCOMPAT.FCLIST
+Dim val_list         As New FCFLCOMPAT.FCLIST
 
- Dim fld_list         As New FCFLCOMPAT.FCLIST
-
- Dim type_list        As New FCFLCOMPAT.FCLIST
-
- Dim val_list         As New FCFLCOMPAT.FCLIST
-
- fld_list.ItemType = "String"
-
- type_list.ItemType = "String"
-
- val_list.ItemType = "String"
+fld_list.ItemType = "String"
+type_list.ItemType = "String"
+val_list.ItemType = "String"
 
 ret_int = fc_cc.create_price_inst_list("Kudzu", "2000", "Software Part", _
-                                         "Kudzu Phone Support", "US Std Price List", 0, _
-                                         50, 100, "", "", fld_list, type_list, val_list)
+                              "Kudzu Phone Support", "US Std Price List", 0, _
+                              50, 100, "", "", fld_list, type_list, val_list)
+```

@@ -37,12 +37,13 @@ This API allows a case to be unlinked from the workaround it is currently linked
 Unlink case '55' from the workaround at the current date/time by the current user. Generate time bombs.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcinter.unlink_case_from_workaround("55", "", "", true)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.unlink_case_from_workaround("55", "", "", true);
+```

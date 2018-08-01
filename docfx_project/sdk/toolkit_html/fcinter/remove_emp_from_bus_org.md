@@ -32,15 +32,13 @@ This API allows an employee (team member) to be removed from an account. The use
 Remove user 'Michelle' from account 'AN_CUST2' with role 'Manager'
 
 **Visual Basic:**
+```
+Dim ret_int As Integer
 
-Dim ret_int    As Integer
+ret_int = fcinter.remove_emp_from_bus_org("michelle", "AN_CUST2", "Manager")
 ```
 
-ret_int = fcinter.remove_emp_from_bus_org("michelle", "AN_CUST2", _
-                                          "Manager")
-
-**Javascript:**
-
-var ret_int = fcinter.remove_emp_from_bus_org("michelle", "AN_CUST2",
-
-                                          "Manager");
+**JavaScript:**
+```
+var ret_int = fcinter.remove_emp_from_bus_org("michelle", "AN_CUST2", "Manager");
+```

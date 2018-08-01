@@ -33,9 +33,8 @@ A boolean value indicating if the given time in the given time zone is on DST.
 The following example checks if the current database time is on DST.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 Are we currently on DST?
 
 <%=FCApp.IsOnDST(FCApp.ServerTimeZone,FCSession.GetCurrentDate()) %>
+```

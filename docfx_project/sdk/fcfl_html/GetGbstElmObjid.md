@@ -43,23 +43,15 @@ The objid of the Element in the ListName list. Zero, if the Element is not found
 The following example retrieves the objid for a Case Priority from a posted form value.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var ListName = "Response Priority Code";
-
 var ListValue = Request.Form("priority").Item;
+var ElmObjid = FCApp.GetGbstElmObjid(ListName,ListValue);
 
-var ElmObjid = FCApp.GetGbstElmObjid(ListName,ListValue); If (ElmObjid > 0)
-
-  { 
-
+If (ElmObjid > 0) { 
   Response.Write("The GbstElm Objid for " + ListValue +
-
                  " in the list " + ListName +
-
                  " = " \+ ElmObjid); }
-
 else
-
   { Response.Write(ListValue + " is NOT a valid " + ListName); }
+```

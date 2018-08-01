@@ -44,37 +44,22 @@ An ADO recordset containing the gbst_elm records for the ListName list.
 The following builds a drop-down list of case types.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 <SELECT NAME="CaseType">
-
 <%
-
 var CaseTypeList = FCApp.GetGbstList("Case Type");
-
 while (! CaseTypeList.EOF) { %>
-
   <option
-
   <% if (CaseTypeList("state") == 2) { %>
-
          selected = true <% } %> >
-
   <%=CaseTypeList("title")%>
-
   <% CaseTypeList.MoveNext; %>
-
   </option>
-
 <% } %>
-
 </SELECT>
 
 <%
-
 CaseTypeList.Close();
-
 CaseTypeList = null;
-
 %>
+```

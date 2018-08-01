@@ -34,37 +34,26 @@ If you wish to update all of the (modified) records in the generic object, you s
 The following example locates a site record and updates a field in it.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Locate a specific site, and update a field in it
-
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
-
   boSite.AppendFilter("objid", "=", "268435457");
-
   boSite.Query();
 
   boSite("external_id") = "An ID";
-
   boSite.Update();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSite As FCGeneric
 
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery "site"
-
   boSite.AppendFilter "objid", "=", 268435457
-
   boSite.Query
 
   boSite("external_id") = "External"
-
   boSite.Update
+```

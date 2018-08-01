@@ -38,23 +38,27 @@ This API causes the specified part request to be yanked and placed in a specific
 Yank part request number '1-14' to WIPBin 'Hardware'.  The yank occurs on August 1, 2001, and is performed by Marty. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.yank_pr("1-14", "Hardware", "8/1/2001", "marty", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.yank_pr("1-14", "Hardware", "8/1/2001", "marty", true);
+```
 
- Yank part request number '2-1' to the default WIPBin. Do the yank now and with the current user. Do not generate a time bomb.
+Yank part request number '2-1' to the default WIPBin. Do the yank now and with the current user. Do not generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.yank_pr("2-1", "", "", "", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.yank_pr("2-1", "", "", "", false);
+```

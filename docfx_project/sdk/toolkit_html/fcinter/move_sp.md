@@ -57,28 +57,30 @@ When a site_part is moved, all sub-site_parts underneath it are also moved.
 
 #### Examples
 
- Move site_part 268435457 to the top level of site "4". Generate activity logs. Sam performs the move.
+Move site_part 268435457 to the top level of site "4". Generate activity logs. Sam performs the move.
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.move_sp(268435457, 0, "4", 0, True, "sam", False)
-
-**JavaScript:**
-
-var ret_int = fcfo.move_sp(268435457, 0, "4", 0, true, "sam", false);
-
- Move the same part under site_part 268435555. Don't generate activities, and use the default user.
-
-**Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fcfo.move_sp(268435457, 0, "4", 0, true, "sam", false);
+```
+
+Move the same part under site_part 268435555. Don't generate activities, and use the default user.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
 ret_int = fcfo.move_sp(268435457, 268435555, "", 0, False, "", False)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.move_sp(268435457, 268435555, "", 0, false, "", false);
+```

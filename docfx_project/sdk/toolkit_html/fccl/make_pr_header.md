@@ -126,141 +126,122 @@ Create a new part request header. Specify the site of 'First Choice', and contac
 **Field version:**
 
 **Visual Basic:**
-
-Dim ret_int   As Integer
 ```
-
+Dim ret_int As Integer
 Dim hdr_num   As String
 
 ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905", _
                               "First Choice", "", "", "", "", "", "", _
-                              "", "", 0, "", 0, "", 0, "", "", "", "", "", "") If ret_int = 0 Then
+                              "", "", 0, "", 0, "", 0, "", "", "", "", "", "") 	If ret_int = 0 Then
+	hdr_num = fccl.ret_id_num
+ End If
+```
 
-hdr_num = fccl.ret_id_num
-
-End If
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905",
-| 
- | "First Choice", "", "", "", "", "", "",
- |
-                              "", "", 0, "", 0, "", 0, "", "", "", "", "", ""); If (ret_int == 0) { var hdr_num =fccl_ret_id_num; }
+  "First Choice", "", "", "", "", "", "",
+  "", "", 0, "", 0, "", 0, "", "", "", "", "", "");
+
+If (ret_int == 0) { var hdr_num =fccl_ret_id_num; }
+```
 
 **List version:**
 
 **Visual Basic:**
-
-Dim ret_int     As Integer
 ```
-
+Dim ret_int As Integer
 Dim hdr_num     As String
-
 Dim fld_list    As New List
-
 Dim type_list   As New List
-
 Dim val_list    As New List
 
 fld_list.ItemType = "String"
-
 type_list.ItemType = "String"
-
 val_list.ItemType = "String"
 
 ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905", _
                                    "First Choice", "", "", "", "", "", "", _
                                    "", "", 0, fld_list, type_list, val_list) If ret_int = 0 Then
-
-hdr_num = fccl.ret_id_num
-
+  hdr_num = fccl.ret_id_num
 End If
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 var ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905",
-| 
- | "First Choice", "", "", "", "", "", "",
- |
-                                   "", "", 0, fld_list, type_list, val_list); If (ret_int == 0) { var hdr_num =fccl_ret_id_num; }
+  "First Choice", "", "", "", "", "", "",
+  "", "", 0, fld_list, type_list, val_list);
 
- Create a new part request header. Specify the site of 'First Choice', and contact of Jack Lacy. Also, do not generate a time bomb. Specify reasonable values for case ID, and other choices. Add some additional fields.
+If (ret_int == 0) { var hdr_num =fccl_ret_id_num; }
+```
+
+Create a new part request header. Specify the site of 'First Choice', and contact of Jack Lacy. Also, do not generate a time bomb. Specify reasonable values for case ID, and other choices. Add some additional fields.
 
 **Field version:**
 
 **Visual Basic:**
-
-Dim ret_int   As Integer
 ```
-
+Dim ret_int As Integer
 Dim hdr_num   As String
-
 Dim err       As String
 
 ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905", "First Choice", _
-                             "site2", "Case42", "Check", "Net 10", "Priority 1", "sa", _
-                             "notes", "11/11/01", 0, "x_int1", 20, "", 0, "x_str1", _
-                             "Value 1", "", "", "", "") If ret_int = 0 Then
+                   "site2", "Case42", "Check", "Net 10", "Priority 1", "sa", _
+                   "notes", "11/11/01", 0, "x_int1", 20, "", 0, "x_str1", _
+                   "Value 1", "", "", "", "")
 
-hdr_num = fccl.ret_id_num
-
+If ret_int = 0 Then
+  hdr_num = fccl.ret_id_num
 End If
+```
 
-**Javascript:**
+**JavaScript:**
+```
+var ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905", 
+	"First Choice", "site2", "Case42", "Check", "Net 10", "Priority 1", "sa",
+    "notes", "11/11/01", 0, "x_int1", 20, "", 0, "x_str1", 
+    "Value 1", "", "", "", "");
 
-var ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905", "First Choice",
-| 
- | "site2", "Case42", "Check", "Net 10", "Priority 1", "sa",
-| 
- | "notes", "11/11/01", 0, "x_int1", 20, "", 0, "x_str1", |
- |
-                              "Value 1", "", "", "", ""); If (ret_int == 0) { var hdr_num = fccl.ret_id_num; }
+If (ret_int == 0) { var hdr_num = fccl.ret_id_num; }
+```
 
 **List version:**
 
 **Visual Basic:**
-
-Dim ret_int     As Integer
 ```
-
+Dim ret_int As Integer
 Dim hdr_num     As String
-
 Dim fld_list    As New List
-
 Dim type_list   As New List
-
 Dim val_list    As New List
 
- ' Assume lists are filled in already
+' Assume lists are filled in already
 
 ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905", _
-                                  "First Choice", "site2", "Case42", "Check", _
-                                  "Net 10", "Priority 1", "sa", "notes", _
-                                  "11/11/2001", 0, fld_list, type_list, val_list) If ret_int = 0 Then
+                              "First Choice", "site2", "Case42", "Check", _
+                              "Net 10", "Priority 1", "sa", "notes", _
+                              "11/11/2001", 0, fld_list, type_list, val_list)
 
-hdr_num = fccl.ret_id_num
-
+If ret_int = 0 Then
+  hdr_num = fccl.ret_id_num
 End If
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 var ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905",
-  
    "First Choice", "site2", "Case42", "Check",
-  
    "Net 10", "Priority 1", "sa", "notes",  
-  
-                                  "11/11/2001", 0, fld_list, type_list, val_list); If (ret_int == 0) { var hdr_num = fccl.ret_id_num; }
+   "11/11/2001", 0, fld_list, type_list, val_list);
+
+If (ret_int == 0) { var hdr_num = fccl.ret_id_num; }
+```

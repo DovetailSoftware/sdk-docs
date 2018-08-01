@@ -42,26 +42,29 @@ This API causes the specified part request to be closed. This is a transition to
 Close part request '154-1'. Jack closed it on February 10th, and it should be put in status "Really closed". Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.close_pr("154-1", "Really closed", "2/10/2001 14:50:00", _
-"jack", True)
+	"jack", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.close_pr("154-1", "Really closed", "2/10/2001 14:50:00",
+	"jack", true);
+```
 
-"jack", true);
-
- Current user closes part request '2-33'. Don't generate a time bomb.
+Current user closes part request '2-33'. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.close_pr("2-33", "", "", "", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.close_pr("2-33", "", "", "", false);
+```

@@ -36,49 +36,45 @@ This API creates a state/prov object in Clarify database, and relates it to an e
 Add a new state of "Confusion" for the USA. Do not make it the default.
 
 **Visual Basic:**
-
-Dim ret_int     As Integer
 ```
-
+Dim ret_int As Integer
 Dim state_objid As Long
 
-ret_int = fcinter.create_state("Confusion", _
-                               "The state of confusion", false, "USA")
+ret_int = fcinter.create_state("Confusion", "The state of confusion", false, "USA")
 
  If ret_int = 0 Then
-
-      state_objid = fcinter.ret_objid
+   state_objid = fcinter.ret_objid
  End If
- 
-**Javascript:**
+```
 
+**JavaScript:**
+```
 var ret_int = fcinter.create_state("Confusion", "The state of confusion",
 
                                    false, "USA");
 
  if (ret_int == 0){ var state_objid = fcinter.ret_objid; }
-
- Add the same state, but make it the default state for the USA.
-
-**Visual Basic:**
-
-Dim ret_int     As Integer
 ```
 
+Add the same state, but make it the default state for the USA.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim state_objid As Long
 
 ret_int = fcinter.create_state("Confusion", _
                                "The state of confusion", true, "USA")
 
  If ret_int = 0 Then
-
-      state_objid = fcinter.ret_objid
+   state_objid = fcinter.ret_objid
  End If
- 
-**Javascript:**
+```
 
+**JavaScript:**
+```
 var ret_int = fcinter.create_state("Confusion", "The state of confusion",
-
                                    true, "USA");
 
  if (ret_int == 0){ var state_objid = fcinter.ret_objid; }
+```

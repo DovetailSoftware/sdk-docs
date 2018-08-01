@@ -24,85 +24,56 @@ This property contains the parent generic object for this generic object. This p
 The following example demonstrates querying the case table, and then traversing to retrieve the related contact and related site.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Get all cases
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
 
   // Now get the related contacts
-
   var boContact = FCSession.CreateGeneric();
-
   boContact.ParentBO = boCase;
-
   boContact.ParentRelation = "case_reporter2contact";
 
   // Now get the related sites
-
   var boSite = FCSession.CreateGeneric();
-
   boSite.ParentBO = boCase;
-
   boSite.ParentRelation = "case_reporter2site";
 
   // Query the data, and display it 
-
   boCase.Query();
 
   while (boCase.EOF != true)
-
   {
-
     Response.Write ("Case: " + boCase("id_number") + "  Site/Contact: " +
-
                   boSite("name") + " - " + boContact("first_name") +
-
                   " " \+ boContact("last_name"));        
-
     boCase.MoveNext();
-
   }
 
+```
+
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Dim boSite As FCGeneric
-
   Dim boContact As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
 
   Set boContact = fc_session.CreateGeneric
-
   boContact.ParentBO = boCase
-
   boContact.ParentRelation = "case_reporter2contact"
 
   Set boSite = fc_session.CreateGeneric
-
   boSite.ParentBO = boCase
-
   boSite.ParentRelation = "case_reporter2site"
-
   boCase.Query
 
   While boCase.EOF = False
-
     MsgBox "Case: " & boCase("id_number") & "  Site/Contact: " & _
-
            boSite("name") & " - " & boContact("first_name") & " " & _
-
            boContact("last_name")
-
     boCase.MoveNext
-
   Wend
+```

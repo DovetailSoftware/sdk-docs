@@ -26,15 +26,12 @@ For more details on what the Distinct  property does, please see the Distinct  d
 The following example demonstrates setting the Distinct  property for a new object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Set all generics to distinct
-
   Distinct  = true;
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Distinct  = True
+```

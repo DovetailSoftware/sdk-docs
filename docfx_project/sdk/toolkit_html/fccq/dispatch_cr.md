@@ -36,30 +36,34 @@ This API causes the specified change request to be dispatched to the specified q
 | -6 | Cannot find gbst_elm rank 900 for string DISPATCH |
 | -7 | Not allowed to dispatch a CR to the specified queue |
 
-**Examples**
+#### Examples
 
 Dispatch change request number '10' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.dispatch_cr("10", "Hardware", "", "", True)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.dispatch_cr("10", "Hardware", "", "", true);
+```
 
- Dispatch change request number '2' at 10PM on November 23rd of 1997 to queue 'Software'. Dispatch should be logged as performed by nancy. Don't generate a time bomb.
+Dispatch change request number '2' at 10PM on November 23rd of 1997 to queue 'Software'. Dispatch should be logged as performed by nancy. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.dispatch_cr("2", "Software", "11/23/97 22:00:00", _
                            "nancy", False)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.dispatch_cr("2", "Software", "11/23/97 22:00:00", _
                            "nancy", false);
+```

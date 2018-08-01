@@ -3,10 +3,10 @@ accept_subcase
 
 ```
 Public Function accept_subcase(ByVal subcase_id As String, _
-                             ByVal accept_date As String, _
-                             ByVal wipbin As String, _
-				             ByVal user_name As String, _
-				             ByVal gen_time_bombs As Boolean) As Integer
+						ByVal accept_date As String, _
+						ByVal wipbin As String, _
+						ByVal user_name As String, _
+						ByVal gen_time_bombs As Boolean) As Integer
 ```
 
 #### Description
@@ -39,26 +39,27 @@ This API causes the specified subcase to be accepted from a dispatched queue. Th
 Accept Subcase number '10-1' right now for the current user, place in the default WIPBin, and generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.accept_subcase("10-1", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.accept_subcase("10-1", "", "", "", True)
+```
 
- Accept subcase number '2-3' at 10PM on November 23rd of 1997 by marty, and place the subcase in marty's WIPBin named 'Urgent'. Don't generate a time bomb
+Accept subcase number '2-3' at 10PM on November 23rd of 1997 by marty, and place the subcase in marty's WIPBin named 'Urgent'. Don't generate a time bomb
 
 **JavaScript:**
-
-var ret_int = fccs.accept_subcase("2-3", "11/23/97 22:00:00", "Urgent",
-
-                                  "marty", false);
+```
+var ret_int = fccs.accept_subcase("2-3", "11/23/97 22:00:00", "Urgent",  "marty", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-ret_int = fccs.accept_subcase("2-3", "11/23/97 22:00:00", "Urgent", _
-                           "marty", False)
+ret_int = fccs.accept_subcase("2-3", "11/23/97 22:00:00", "Urgent", "marty", False)
+```

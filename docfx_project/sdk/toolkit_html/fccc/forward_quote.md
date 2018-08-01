@@ -40,25 +40,29 @@ This API causes the specified quote to be reject-forwarded from one queue to ano
 Reject-forward quote number '154' to queue 'Hardware'. The reject-forward has no notes, is performed by the current user and is forwarded at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.forward_quote("154", "Hardware", "", "", "", True)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.forward_quote("154", "Hardware", "", "", "", True)
+```
 
- Reject-forward quote number 'Q2' at 10PM on November 23rd of 2001 to 'Software'. Forward should be logged as performed by user 'sam', with notes of 'Some notes'. Don't generate a time bomb.
+Reject-forward quote number 'Q2' at 10PM on November 23rd of 2001 to 'Software'. Forward should be logged as performed by user 'sam', with notes of 'Some notes'. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 Var ret_int = fc_cc.forward_quote("Q2", "Software", "11/23/2001 22:00:00", _
                              "Some notes", "sam", False)
+```
 
- **Visual Basic:**
-
+**Visual Basic:**
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.forward_quote("Q2", "Software", "11/23/2001 22:00:00", _
                              "Some notes", "sam", False)
+```

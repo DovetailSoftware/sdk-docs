@@ -36,53 +36,38 @@ There are no error codes for this method. However, it does call on FCGeneric.Que
 The following example queries several objects, placed in a single bulk object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Get some cases, sites, and parts via a bulk
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
-
   boCase.AppendFilter("title", "contains", "a");
 
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
-
   boSite.AppendFilter("name", "like", "P%");
 
   var boPart = FCSession.CreateGeneric();
-
   boPart.SimpleQuery("part_num");
 
   boCase.Bulk.Query(); 
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Dim boSite As FCGeneric
-
   Dim boPart As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery ("case")
-
   boCase.AppendFilter "title", "contains", "a"
 
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery ("site")
-
   boSite.AppendFilter "name", "like", "P%"
 
   Set boPart = fc_session.CreateGeneric
-
   boPart.SimpleQuery ("part_num")
 
   boCase.Bulk.Query
+```

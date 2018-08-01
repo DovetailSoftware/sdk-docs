@@ -119,9 +119,8 @@ Create a new part request detail for PR header '1'. Make it 1 unit of "Attachmen
 **Field version:**
 
 **Visual Basic:**
-
-Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccl.make_pr_detail("1", "", "Attachments Anywhere", _
                            "2.12", "First Choice", "A456", 1, 0, "", _
@@ -129,38 +128,29 @@ ret_int = fccl.make_pr_detail("1", "", "Attachments Anywhere", _
                               "", "", 0, "", "", "", _
                               "", True, 0, "", 0, "", 0, "", "", _
                               "", "", "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.make_pr_detail("1", "", "Attachments Anywhere",
-
                            "2.12", "First Choice", "A456", 1, 0, "",
-
                               "Return For Credit", "", "",
-
                               "", "", 0, "", "", "",
-
                               "", True, 0, "", 0, "", 0, "", "",
-
                               "", "", "", "");
+```
 
 **List version:**
 
 **Visual Basic:**
-
- Dim ret_int     As Integer
 ```
-
+Dim ret_int As Integer
 Dim fld_list    As New FCFLCompat.FCList
-
 Dim type_list   As New FCFLCompat.FCList
-
 Dim val_list    As New FCFLCompat.FCList
 
 fld_list.ItemType = "String"
-
 type_list.ItemType = "String"
-
 val_list.ItemType = "String"
 
 ret_int = fccl.make_pr_detail_list("1", "", "Attachments Anywhere", _
@@ -168,183 +158,146 @@ ret_int = fccl.make_pr_detail_list("1", "", "Attachments Anywhere", _
                                    "Return For Credit", "", "", "", "", 0,"", _
                                    "", "", "", True, 0, fld_list, _
                                    type_list, val_list)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 var ret_int = fccl.make_pr_detail_list("1", "", "Attachments Anywhere",
-
                                    "2.12", "First Choice", "A456", 1, 0, "",
-
                                    "Return For Credit", "", "", "","", 0, "",
-
                                    "", "", "", True, 0, fld_list,
-
                                    type_list, val_list);
+```
 
- Create a new part request detail for PR header '42'. Make it 22 units of a quantity part. Make it a "Return For Credit" type, dispatch it to a queue (Low), and set some other useful values. Generate a time bomb. All other information is defaulted.
+Create a new part request detail for PR header '42'. Make it 22 units of a quantity part. Make it a "Return For Credit" type, dispatch it to a queue (Low), and set some other useful values. Generate a time bomb. All other information is defaulted.
 
 **Field version:**
 
 **Visual Basic:**
-
-Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccl.make_pr_detail("42", "Low", "Zipcode Reverse Directory", _
                             "1.00", "First Choice", "", 22, 0, "", _
-                               "Return For Credit", "Priority 1", "Overnight", _
-                                "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
-                                "2/1/2001 15:00:00", True, 0, "int_fld1", 30, _
-                                "", 0, "str_fld1", "Hello!!", _
-                                "", "", "", "")
+                            "Return For Credit", "Priority 1", "Overnight", _
+                            "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
+                            "2/1/2001 15:00:00", True, 0, "int_fld1", 30, _
+                            "", 0, "str_fld1", "Hello!!", _
+                            "", "", "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.make_pr_detail("42", "Low", "Zipcode Reverse Directory",
-
                             "1.00", "First Choice", "", 22, 0, "",
-
                                "Return For Credit", "Priority 1", "Overnight",
-
                                 "Fedex", "sa", 0, "Notes", "Open", "1/1/2001",
-
                                 "2/1/2001 15:00:00", True, 0, "int_fld1", 30,
-
                                 "", 0, "str_fld1", "Hello!!",
-
                                 "", "", "", "");
+```
 
 **List version:**
 
 **Visual Basic:**
-
- Dim ret_int     As Integer
 ```
-
+Dim ret_int As Integer
 Dim fld_list    As New List
-
 Dim type_list   As New List
-
 Dim val_list    As New List
 
 ' Assume lists are filled in already
 
 ret_int = fccl.make_pr_detail_list("42", "Low", "Zipcode Reverse Dir", _
-                                   "1.00", "First Choice", "", 22, 0, "", _
-                                   "Return For Credit", "Priority 1", "Overnight", _
-                                   "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
-                                   "2/1/2001 15:00:00", True, 0, fld_list, _
-                                   type_list, val_list)
+                              "1.00", "First Choice", "", 22, 0, "", _
+                              "Return For Credit", "Priority 1", "Overnight", _
+                              "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
+                              "2/1/2001 15:00:00", True, 0, fld_list, _
+                              type_list, val_list)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 var ret_int = fccl.make_pr_detail_list("42", "Low", "Zipcode Reverse Dir",
+                              "1.00", "First Choice", "", 22, 0, "",
+                              "Return For Credit", "Priority 1", "Overnight",
+                              "Fedex", "sa", 0, "Notes", "Open", "1/1/2001",
+                              "2/1/2001 15:00:00", True, 0, fld_list,
+                              type_list, val_list);
+```
 
-                                   "1.00", "First Choice", "", 22, 0, "",
-
-                                   "Return For Credit", "Priority 1", "Overnight",
-
-                                   "Fedex", "sa", 0, "Notes", "Open", "1/1/2001",
-
-                                   "2/1/2001 15:00:00", True, 0, fld_list,
-
-                                   type_list, val_list);
-
- Create a new part request detail for PR header '52'. Make it based on a non-serialized site part. Dispatch it to a queue (Low), and set some other useful values. Generate a time bomb. All other information is defaulted. The variable for the site part is hard-coded here for simplicity.
+Create a new part request detail for PR header '52'. Make it based on a non-serialized site part. Dispatch it to a queue (Low), and set some other useful values. Generate a time bomb. All other information is defaulted. The variable for the site part is hard-coded here for simplicity.
 
 **Field version:**
 
 **Visual Basic:**
-
-Dim ret_int   As Integer
 ```
-
+Dim ret_int As Integer
 Dim sp_objid  As Long
 
 sp_objid = 268435123
 
 ret_int = fccl.make_pr_detail("42", "Low", "Zipcode Reverse Directory", _
-                            "1.00", "First Choice", "", 22, sp_objid, "site_part", _
-                               "Return For Credit", "Priority 1", "Overnight", _
-                                "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
-                                "2/1/2001 15:00:00", True, 0, "int_fld1", 30, _
-                                "", 0, "str_fld1", "Hello!!", _
-                                "", "", "", "")
+                     "1.00", "First Choice", "", 22, sp_objid, "site_part", _
+                     "Return For Credit", "Priority 1", "Overnight", _
+                     "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
+                     "2/1/2001 15:00:00", True, 0, "int_fld1", 30, _
+                     "", 0, "str_fld1", "Hello!!", "", "", "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var sp_objid = 268435123;
 
 var ret_int = fccl.make_pr_detail("42", "Low", "Zipcode Reverse Directory",
-
-                            "1.00", "First Choice", "", 22, sp_objid, "site_part",
-
-                               "Return For Credit", "Priority 1", "Overnight",
-
-                                "Fedex", "sa", 0, "Notes", "Open", "1/1/2001",
-
-                                "2/1/2001 15:00:00", True, 0, "int_fld1", 30,
-
-                                "", 0, "str_fld1", "Hello!!",
-
-                                "", "", "", "");
+                        "1.00", "First Choice", "", 22, sp_objid, "site_part",
+                        "Return For Credit", "Priority 1", "Overnight",
+                        "Fedex", "sa", 0, "Notes", "Open", "1/1/2001",
+                        "2/1/2001 15:00:00", True, 0, "int_fld1", 30,
+                        "", 0, "str_fld1", "Hello!!",
+                        "", "", "", "");
+```
 
 **List version:**
 
 **Visual Basic:**
-
- Dim ret_int     As Integer
 ```
-
+Dim ret_int As Integer
 Dim fld_list    As New List
-
 Dim type_list   As New List
-
 Dim val_list    As New List
-
 Dim sp_objid  As Long
 
 sp_objid = 268435123
 
 ' Assume lists are filled in already
-
 ret_int = fccl.make_pr_detail_list("42", "Low", "Zipcode Reverse Dir", _
-                                   "1.00", "First Choice", "", 22, sp_objid, "site_part", _
-                                   "Return For Credit", "Priority 1", "Overnight", _
-                                   "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
-                                   "2/1/2001 15:00:00", True, 0, fld_list, _
-                                   type_list, val_list)
+                      "1.00", "First Choice", "", 22, sp_objid, "site_part", _
+                      "Return For Credit", "Priority 1", "Overnight", _
+                      "Fedex", "sa", 0, "Notes", "Open", "1/1/2001", _
+                      "2/1/2001 15:00:00", True, 0, fld_list, _
+                      type_list, val_list)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var sp_objid = 268435123;
 
 var ret_int = fccl.make_pr_detail_list("42", "Low", "Zipcode Reverse Dir",
-
-                                   "1.00", "First Choice", "", 22, sp_objid, "site_part",
-
-                                   "Return For Credit", "Priority 1", "Overnight",
-
-                                   "Fedex", "sa", 0, "Notes", "Open", "1/1/2001",
-
-                                   "2/1/2001 15:00:00", True, 0, fld_list,
-
-                                   type_list, val_list);
+                        "1.00", "First Choice", "", 22, sp_objid, "site_part",
+                        "Return For Credit", "Priority 1", "Overnight",
+                        "Fedex", "sa", 0, "Notes", "Open", "1/1/2001",
+                        "2/1/2001 15:00:00", True, 0, fld_list,
+                        type_list, val_list);
+```

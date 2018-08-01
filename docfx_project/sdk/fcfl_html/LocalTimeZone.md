@@ -41,17 +41,14 @@ A string containing the local time zone of the FCSession. |
 The following example displays and sets the local time zone.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 The Server Time Zone is <%=FCApp.ServerTimeZone%>.<BR>
-
 The Local Time Zone = <%=FCSession.LocalTimeZone%>.<BR>
 
 <%
-
 var TZ = "Eastern Standard Time";
-
-FCSession.LocalTimeZone = TZ; %>
+FCSession.LocalTimeZone = TZ; 
+%>
 
 The Local Time Zone is now = <%=FCSession.LocalTimeZone%>.<BR>
+```

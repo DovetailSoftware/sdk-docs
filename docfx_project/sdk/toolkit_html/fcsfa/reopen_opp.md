@@ -40,14 +40,16 @@ This API causes the specified opportunity to be reopened. You may specify the st
 
 #### Examples
 
- Reopen opportunity "32" at the current time with the current user. Put in status "Active now". Put in WIPBIN "Important". Generate a time bomb.
+Reopen opportunity "32" at the current time with the current user. Put in status "Active now". Put in WIPBIN "Important". Generate a time bomb.
 
 **JavaScript:**
-
-   ret_int = fcsfa_obj.reopen_opp("32", "Active now", "Important", "", "", true);
+```
+ret_int = fcsfa_obj.reopen_opp("32", "Active now", "Important", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-   ret_int = fcsfa_obj.reopen_opp("32", "Active now", "Important", "", "", True)
+ret_int = fcsfa_obj.reopen_opp("32", "Active now", "Important", "", "", True)
+```

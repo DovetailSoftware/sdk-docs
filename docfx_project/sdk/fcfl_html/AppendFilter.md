@@ -99,91 +99,69 @@ Note that none of the above special processing takes place if you provide a time
 The following example uses AppendFilter to filter both a string and integer field from the case table.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Get some cases
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
-
   boCase.AppendFilter("objid", "<", 268435459);
-
   boCase.AppendFilter("title", "not contains", "fred");
-
   boCase.Query();
 
   // Now print them out
-
   while (boCase.EOF != true)
-
   {
-
     Response.Write ("Case ID: " + boCase("id_number"));  
-
     boCase.MoveNext();
-
   }
+```
+
+Finds cases created in the last 6 hours.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic. It finds cases created in the last 6 hours.
-
+```
   Dim boCase As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
-
   boCase.AppendFilter "creation_time", "withinhours", 6
-
   boCase.Query
 
   While boCase.EOF = False
-
-    MsgBox "Case ID: " & boCase("id_number")
-
+    MsgBox "Case ID: " & boCase("id_number")
     boCase.MoveNext
-
   Wend
+```
 
 The next example finds all cases created yesterday.
 
+**Visual Basic:**
+```
   Dim boCase As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
-
   boCase.AppendFilter "creation_time", "yesterday", ""
-
   boCase.Query
 
   While boCase.EOF = False
-
     MsgBox "Case ID: " & boCase("id_number")
-
     boCase.MoveNext
-
   Wend
+```
 
 The next example finds all cases created between January 1, 2000 and now.
 
+**Visual Basic:**
+```
   Dim boCase As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
-
   boCase.AppendFilter "creation_time", "between", "1/1/2000, -999"
-
   boCase.Query
 
   While boCase.EOF = False
-
     MsgBox "Case ID: " & boCase("id_number")
-
     boCase.MoveNext
-
   Wend
+```

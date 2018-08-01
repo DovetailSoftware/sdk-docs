@@ -79,13 +79,11 @@ These APIs create new addresses in the database. You must specify one of the two
 
 #### Examples
 
- Create an address.
+Create an address.
 
 **Visual Basic:**
-
-Dim ret_int        As Integer
 ```
-
+Dim ret_int As Integer
 Dim address_objid  As Long
 
 ret_int = fcinter.create_address("101 Main St.", "Suite 100",_
@@ -94,19 +92,16 @@ ret_int = fcinter.create_address("101 Main St.", "Suite 100",_
                                  "", "", "", "")
 
  If ret_int = 0 Then
+   address_objid = fcinter.ret_objid
+ End If
+```
 
-      address_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_address("101 Main St.", "Suite 100",
-
                                  "Austin", "TX", true, "78759", "USA",
-
                                  "CST", "", 0, "", 0, "", "",
-
                                  "", "", "", "");
 
  if (ret_int == 0){ var address_objid = fcinter.ret_objid; }
+```

@@ -33,30 +33,26 @@ A boolean value indicating if the given time zone is valid for the given country
 
 **Example**
 
-**JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
 The following example checks if a given time zone is valid for the given country using the (short) name of the time zone.
 
+**JavaScript:**
+```
+
 var country = "USA"
-
 var time_zone = "PST" If (FCApp.IsTimeZoneInCountry(country,time_zone,false)) {
-
   Response.Write(time_zone + " is valid for " + country); }
-
 else {
-
   Response.Write (time_zone + " is NOT valid for " + country); }
+```
 
 The following example checks if a given time zone is valid for the given country using the full_name of the time zone.
 
+**JavaScript:**
+```
 var country = "United Kingdom"
 
 var time_zone = "Greenwich Mean Time" If (FCApp.IsTimeZoneInCountry(country,time_zone,true)) {
-
   Response.Write (time_zone + " is valid for " + country); }
-
 else {
-
   Response.Write (time_zone + " is NOT valid for " + country); }
+```

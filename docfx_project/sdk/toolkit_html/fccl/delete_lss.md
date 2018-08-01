@@ -31,26 +31,30 @@ This API is used to remove the relationship between a site and a location servic
 
 #### Examples
 
-Austin should not srevice site 1 any more.
+Austin should not service site 1 any more.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.delete_lss("1", "Austin")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.delete_lss("1", "Austin");
+```
 
- Houston shouldn't service site 1 either.
+Houston shouldn't service site 1 either.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.delete_lss("1", "Houston")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.delete_lss("1", "Houston");
+```

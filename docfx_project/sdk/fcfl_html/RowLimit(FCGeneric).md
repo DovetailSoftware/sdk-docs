@@ -26,23 +26,13 @@ If a query would return more rows the _RowLimit_ property would allow, the query
 The following example demonstrates setting and using the _RowLimit_ property. The example allows you to query no more than 300 cases.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
--
-
-  // Set the session row limit, and create a generic that will share
-
-  // the limit
-
+```
+// Set the session row limit, and create a generic that will share
+// the limit
 <%
-
 var boCase = FCSession.CreateGeneric();
-
 boCase.SimpleQuery("case");
-
 boCase.RowLimit = 300;
-
 boCase.Query();
-
 %>
+```

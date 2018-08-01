@@ -101,34 +101,34 @@ These APIs allow you to modify an existing site part in the Clarify database. Yo
 
 #### Examples
 
- Update an existing site part (268435460). Set the instance_name only. Generate an activity log.
+Update an existing site part (268435460). Set the instance_name only. Generate an activity log.
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.modify_sp(268435460, "New instance name", "", "", "", "", "", _
             1, "", "", "", "", "", True, "", 0, "", 0, "", "", "", "", "", "")
+```
 
 **JavaScript:**
+```
+Var ret_int = fcfo.modify_sp(268435460, "New instance name", "", "", "", "",
+	 "",1, "", "", "", "", "", true, "", 0, "", 0, "", "", "", "", "", "");
+```
 
-Var ret_int = fcfo.modify_sp(268435460, "New instance name", "", "", "", "", "",
-
-            1, "", "", "", "", "", true, "", 0, "", 0, "", "", "", "", "", "");
-
- Update an existing site part (268435461). Modify the serial number and ship date. Do not add an activity log
+Update an existing site part (268435461). Modify the serial number and ship date. Do not add an activity log
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.modify_sp(268435461, "", "ABCD", "", "1/1/2005", "", "", _
             1, "", "", "", "", "", False, "", 0, "", 0, "", "", "", "", "", "")
+```
 
 **JavaScript:**
-
+```
 Var ret_int = fcfo.modify_sp(268435461, "", "ABCD", "", "1/1/2005", "", "",
-
             1, "", "", "", "", "", false, "", 0, "", 0, "", "", "", "", "", "");
+```

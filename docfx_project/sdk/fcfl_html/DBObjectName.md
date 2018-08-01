@@ -31,25 +31,17 @@ When you have a generic object that is a child object (that is, is traversed fro
 The following example queries the contact table using the DBObjectName property.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Set up a query of all contacts
-
   var boContact = FCSession.CreateGeneric();
-
   boContact.DBObjectName = "contact";
-
   boContact.Query();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boContact As FCGeneric
-
   Set boContact = fc_session.CreateGeneric
-
   boContact.DbObjectName = "contact"
-
   boContact.Query
+```

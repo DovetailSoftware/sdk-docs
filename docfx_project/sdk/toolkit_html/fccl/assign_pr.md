@@ -40,28 +40,29 @@ This API causes the specified part request to be assigned to a new user. The par
 Assign part request number '154-1' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.assign_pr("154-1", "marty", "", "", "", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.assign_pr("154-1", "marty", "", "", "", true);
+```
 
- Assign part request number '2-4' at 10PM on November 23rd of 2001 to marty, and place the part request in marty's
-
-WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb.
+Assign part request number '2-4' at 10PM on November 23rd of 2001 to marty, and place the part request in marty's WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.assign_pr("2-4", "marty", "Urgent", "11/23/01 22:00:00", _
                         "sam", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.assign_pr("2-4", "marty", "Urgent", "11/23/01 22:00:00",
-
                         "sam", false);
+```

@@ -41,12 +41,13 @@ This API allows a change request to be linked to a solution. The link date, and 
 Link CR '14' to solution '66' at the current date/time by the current user. Generate time bombs.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcinter.link_cr_to_soln("14", '66', "", "", true)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.link_cr_to_soln("14", '66', "", "", true);
+```

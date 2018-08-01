@@ -24,33 +24,23 @@ After you have called this method, you should also set the generic to Nothing (o
 The following example demonstrates how a generic object should be cleaned up.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Create and query an object
-
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
-
   boSite.Query();
 
   // Now close it up properly
-
   boSite.CloseGeneric();
-
   boSite = null;
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery "site"
-
   boSite.Query
-
   boSite.CloseGeneric
 
   Set boSite = Nothing
+```

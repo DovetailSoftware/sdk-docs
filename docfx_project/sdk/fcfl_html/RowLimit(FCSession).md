@@ -24,9 +24,6 @@ This property allows you to set the _RowLimit_ property for all Generic objects 
 The following example sets the _RowLimit_ for all Generics created from this session. One of the Generics has a different _RowLimit_ set.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
 ```
 // Set the session row limit, and create a generic that will share
 // the limit, and one that won't.

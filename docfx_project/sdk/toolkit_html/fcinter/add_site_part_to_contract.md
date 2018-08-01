@@ -32,25 +32,23 @@ This API adds a site_part to an existing contract. You must specify the contract
 
 #### Examples
 
- Add "MS Word 97" to site "2" to contract "AMD 1"
+Add "MS Word 97" to site "2" to contract "AMD 1"
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim sp_objid   As Long
 
 ret_int = fcinter.add_site_part_to_contract("AMD 1", "2", 268435414)
 
  If ret_int = 0 Then
+   sp_objid = fcinter.ret_objid
+ End If
+```
 
-      sp_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.add_site_part_to_contract("AMD 1", "2", 268435414);
 
  if (ret_int == 0){ var sp_objid = fcinter.ret_objid; }
+```

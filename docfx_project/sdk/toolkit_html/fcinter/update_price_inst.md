@@ -44,15 +44,15 @@ This API updates a price for an existing price instance. You must supply the par
 Update the price for MS Word in the "Spring" price list for March 31 to $5.55.
 
 **Visual Basic:**
-
-Dim ret_int       As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcinter.update_price_inst("MS Word", "Product", "", "Spring", _
                                     1, "5.55", "3/31/2000")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.update_price_inst("MS Word", "Product", "",
-
                                     "Spring", 1, "5.55", "3/31/2000");
+```

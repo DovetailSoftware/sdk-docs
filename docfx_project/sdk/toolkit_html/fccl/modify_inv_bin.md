@@ -36,23 +36,27 @@ This API is used to modify the name or the active flag of an existing bin. You m
 Rename "Bin 42" to "Bin 42a" in Austin.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.modify_inv_bin("Bin 42", "Bin42a", "Austin", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.modify_inv_bin("Bin 42", "Bin42a", "Austin", True);
+```
 
- Make bin "Bin ABZ" in San Jose inactive.
+Make bin "Bin ABZ" in San Jose inactive.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.modify_inv_bin("Bin ABZ", "", "San Jose", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.modify_inv_bin("Bin ABZ", "", "San Jose", False);
+```

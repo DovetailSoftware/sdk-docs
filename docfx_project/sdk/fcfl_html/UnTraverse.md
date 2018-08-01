@@ -24,39 +24,30 @@ It is not recommended that you use this method _after_ you have queried the gene
 The following example clears a child object relation after it was made in error.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Set a case/contact relationship, and then unrelate it
 
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
 
   var boContact = FCSession.CreateGeneric();
-
   boContact.TraverseFromParent(boCase, "case_reporter2contact");
 
-  // Remember that you now have to set the DBObjectName for
-
-  //  the boContact 
+  // Remember that you now have to set the DBObjectName for the boContact 
 
   boContact.UnTraverse();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Dim boContact As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
 
   Set boContact = fc_session.CreateGeneric
-
   boContact.TraverseFromParent boCase, "case_reporter2contact"
 
   boContact.Untraverse
+```

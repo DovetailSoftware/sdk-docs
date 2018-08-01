@@ -37,37 +37,41 @@ This API causes the specified lead to be assigned to a new user. The objid of th
 Assign action item number '10' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.assign_action_item("10", "marty", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.assign_action item("10", "marty", "", "", "", True)
+```
 
- Assign lead 268435457 to user "gary" at the current date/time.
+Assign lead 268435457 to user "gary" at the current date/time.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.assign_lead(268435457, "gary", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.assign_lead(268435457, "gary", "", True)
+```
 
- Assign lead 268435457 to user "cheryl" on 1/1/01 at 8AM.. Do not generate time bombs.
+Assign lead 268435457 to user "cheryl" on 1/1/01 at 8AM.. Do not generate time bombs.
 
 **JavaScript:**
-
-var ret_int = fcsfa.assign_lead(268435457, "cheryl", "1/1/01 08:00:00",
-
-                                false);
+```
+var ret_int = fcsfa.assign_lead(268435457, "cheryl", "1/1/01 08:00:00", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.assign_lead(268435457, "cheryl", "1/1/01 08:00:00", False)
+```

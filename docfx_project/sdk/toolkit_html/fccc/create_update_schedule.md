@@ -79,35 +79,37 @@ These APIs are used to create or update a contract schedule. The contract ID mus
 Create a new schedule for contract '42'. Give sites and attention person. Supply a price program, and other options. Specify a value for an extra field named 'x_other_string'.
 
 **JavaScript:**
-
-   var ret_int = fc_cc.create_update_schedule( "42", True, "New Schedule", "Site 42", _
-                                        "Attn: Joe Francis", "Site 44", "March Prices", _
-                                        "Monthly", "In Advance", "", "", "", "", _
-                                        "", 0, "", 0, "x_other_string", "Value here!", _
-                                        "", "", "", "")
+```
+var ret_int = fc_cc.create_update_schedule( "42", True, "New Schedule", 
+		"Site 42", "Attn: Joe Francis", "Site 44", "March Prices", 
+        "Monthly", "In Advance", "", "", "", "", 
+        "", 0, "", 0, "x_other_string", "Value here!", "", "", "", "")
+```
 
 **Visual Basic:**
+```
+Dim ret_int As Integer
 
-   Dim ret_int As Integer
+ret_int = fc_cc.create_update_schedule( "42", True, "New Schedule", _
+		"Site 42", "Attn: Joe Francis", "Site 44", "March Prices", _
+        "Monthly", "In Advance", "", "", "", "", _
+        "", 0, "", 0, "x_other_string", "Value here!", "", "", "", "")
+```
 
-   ret_int = fc_cc.create_update_schedule( "42", True, "New Schedule", "Site 42", _
-                                        "Attn: Joe Francis", "Site 44", "March Prices", _
-                                        "Monthly", "In Advance", "", "", "", "", _
-                                        "", 0, "", 0, "x_other_string", "Value here!", _
-                                        "", "", "", "")
-
- Update the same contract. Clear the attention field, and change the billing frequency.
+Update the same contract. Clear the attention field, and change the billing frequency.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.create_update_schedule("42", False, "New Schedule", _
-                        "", "CLEAR", "IGNORE", "", "Quarterly", "", "", "", "", _
-                        "", "", 0, "", 0, "", "", "", "", "", "")
+                    "", "CLEAR", "IGNORE", "", "Quarterly", "", "", "", "", _
+                    "", "", 0, "", 0, "", "", "", "", "", "")
+```
 
 **Visual Basic:**
+```
+Dim ret_int As Integer
 
-   Dim ret_int As Integer
-
-   ret_int = fc_cc.create_update_schedule("42", False, "New Schedule", _
-                        "", "CLEAR", "IGNORE", "", "Quarterly", "", "", "", "", _
-                        "", "", 0, "", 0, "", "", "", "", "", "")
+ret_int = fc_cc.create_update_schedule("42", False, "New Schedule", _
+                    "", "CLEAR", "IGNORE", "", "Quarterly", "", "", "", "", _
+                    "", "", 0, "", 0, "", "", "", "", "", "")
+```

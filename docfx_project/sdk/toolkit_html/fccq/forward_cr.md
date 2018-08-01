@@ -38,31 +38,34 @@ This API causes the specified change request to be reject-forwarded from one que
 | -6 | Cannot find gbst_elm rank 1100 for string FORWARD |
 | -7 | Not allowed to forward a CR to the specified queue |
 
-**Examples**
+#### Examples
 
 Reject-forward change request number '10' to queue 'Hardware'. The reject-forward has no notes, is performed by the current user and is forwarded at the current time. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.forward_cr("10", "Hardware", "", "", "", True)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.forward_cr("10", "Hardware", "", "", "", true);
+```
 
- Reject-forward change request number '2' at 10PM on November 23rd of 1997 to queue 'Software'. Forward should be logged as performed by ann, with notes of 'Some notes'. Don't generate a time bomb.
+Reject-forward change request number '2' at 10PM on November 23rd of 1997 to queue 'Software'. Forward should be logged as performed by ann, with notes of 'Some notes'. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.forward_cr("2", "Software", "11/23/97 22:00:00", _
                           "Some notes", "ann", False)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.forward_cr("2", "Software", "11/23/97 22:00:00",
-| 
- | "Some notes", "ann", false); |
+	  "Some notes", "ann", false); 
+```

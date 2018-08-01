@@ -34,23 +34,27 @@ This API causes the specified quote to be moved from one WIPBin to another WIPBi
 Move quote number '154' to the default WIPBin for the current owner.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.move_quote("154", "")
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.move_quote("154", "")
+```
 
- Move quote number 'Q2' to WIPBin 'Urgent'.
+Move quote number 'Q2' to WIPBin 'Urgent'.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.move_quote("Q2", "Urgent")
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.move_quote("Q2", "Urgent")
+```

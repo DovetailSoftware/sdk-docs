@@ -88,8 +88,8 @@ The following items are available when the LoginType = "contact"
 
 **Error Codes**
 
-**Value**                             **Meaning**
-
+| Value | Meaning |
+|:--- |:--- |
 | 11001 | Field given is not a valid field for config_itm. |
 | 11002 | Item not found. |
 
@@ -98,29 +98,21 @@ The following items are available when the LoginType = "contact"
 The following examples displays the name of either the user or the contact depending on the login type.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 <% if (FCSession.Item("session.login_type") == "contact") { %>
-
    Name = <%=FCSession.Item("contact.first_name")%>
-
           <%=FCSession.Item("contact.last_name")%> <BR>
-
 <% } else { %>
-
    Name = <%=FCSession.Item("employee.first_name")%>
-
            <%=FCSession.Item("employee.last_name")%> <BR>
-
 <% } %>
+```
 
-The following examples displays the integer value for a configuration item.
+The following example displays the integer value for a configuration item.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 i_value for the config_itm "password specification" =
 
 <%=FCSession.Item("config_itm.password specification.i_value")%> <BR>
+```

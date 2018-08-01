@@ -31,28 +31,30 @@ This API deletes an existing onsite log. The onsite log OBJID must be supplied, 
 
 #### Examples
 
- Delete an onsite log.
+Delete an onsite log.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.delete_onsite_log(268435666, "", "")
-
-**JavaScript:**
-
-var ret_int = fcfo.delete_onsite_log(268435666, "", "");
-
- Joe deleted an onsite log on February 1, 1998 at noon.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fcfo.delete_onsite_log(268435666, "", "");
+```
+
+Joe deleted an onsite log on February 1, 1998 at noon.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
 ret_int = fcfo.delete_onsite_log(268436555, "2/1/98 12:00:00", "Joe")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.delete_onsite_log(268436555, "2/1/98 12:00:00", "Joe");
+```

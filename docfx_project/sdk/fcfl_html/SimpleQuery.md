@@ -30,25 +30,17 @@ Call on this method for all generics, except those that will be child objects.
 The following example queries the case table.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Query the case table
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
-
   boCase.Query();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
-
   boCase.Query
+```

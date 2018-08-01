@@ -24,25 +24,19 @@ However, changing the value stored in this property could cause errors with othe
 The following example creates two new generic objects, and prints out their GenericID values.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Create an object
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
 
   // Print out the Generic ID
-
   Response.Write ("Case Generic ID: " + boCase.GenericID);
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
 
   MsgBox "Case Generic ID: " & boCase.GenericID
+```

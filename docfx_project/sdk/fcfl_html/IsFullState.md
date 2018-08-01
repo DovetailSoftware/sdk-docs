@@ -41,23 +41,16 @@ A boolean indicating if the given state is valid for the given country. 
 The following example checks is a given state from a posted form is valid for the posted country.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var country = Request.Form("country").Item;
+var state = Request.Form("state").Item; 
 
-var state = Request.Form("state").Item; If (FCApp.IsFullState(country,state)
-
+If (FCApp.IsFullState(country,state)
 {
-
   Response.Write(state + " is a valid state in " + country);
-
 }
-
 else
-
 {
-
   Response.Write(state + " is NOT a valid state in " + country);
-
 }
+```

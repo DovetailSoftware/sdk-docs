@@ -106,131 +106,103 @@ To create a new account, leave the account field blank. A variety of fields in t
 
 #### Examples
 
- Create a new account with a name, description, stock symbol, and year. Put it in the default territory (The World), and set the code lists to interesting values. Set a phone and fax number, and a URL. Have it created by the default user, and set no extra fields.
+Create a new account with a name, description, stock symbol, and year. Put it in the default territory (The World), and set the code lists to interesting values. Set a phone and fax number, and a URL. Have it created by the default user, and set no extra fields.
 
 **Visual Basic:**
-
-Dim ret_int         As Integer
 ```
-
+Dim ret_int As Integer
 Dim account_objid   As Long
 
-   ret_int = fcinter.create_update_account("New account", _
+ret_int = fcinter.create_update_account("New account", _
                                            "Description", "The World", _
                                            "ACCT", "YEAR", "Customer",_
- "10 - 99", _
+                                           "10 - 99", _
                                            "$1M - 5M", "Private", _
                                            "333-333-3333", "333-333-3334", _
                                            "www.acct.com",  _
- "", "", true, "", "", 0, "", 0, _
-                   "", "", "", "", "", "")
+                                           "", "", true, "", "", 0, "", 0, _
+                                           "", "", "", "", "", "")
 
  If ret_int = 0 Then
-
-      account_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
-var ret_int = fcinter.create_update_account("New account",
-
-                                           "Description", "The World",
-
-                                           "ACCT", "YEAR", "Customer",
-
-"10 - 99", "$1M - 5M", "Private",
-
-                                           "333-333-3333", "333-333-3334",
-
-                                           "www.acct.com",
-
- "", "", true, "", "", 0, "", 0,
-
-                   "", "", "", "", "", "");
-
- if (ret_int == 0){ var account_objid = fcinter.ret_objid; }
-
- Do the same with the list version:
-
-**Visual Basic:**
-
-Dim ret_int       As Integer
+   account_objid = fcinter.ret_objid
+ End If
 ```
 
+**JavaScript:**
+```
+var ret_int = fcinter.create_update_account("New account",
+                                           "Description", "The World",
+                                           "ACCT", "YEAR", "Customer",
+                                           "10 - 99", "$1M - 5M", "Private",
+                                           "333-333-3333", "333-333-3334",
+                                           "www.acct.com",
+                                           "", "", true, "", "", 0, "", 0,
+                                           "", "", "", "", "", "");
+
+ if (ret_int == 0){ var account_objid = fcinter.ret_objid; }
+```
+
+Do the same with the list version:
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim account_objid As Long
-
-   Dim fld_list      As List
-
+Dim fld_list      As List
 Dim type_list     As List
-
 Dim val_list      As List
 
-   ret_int = fcinter.create_update_account_list("New account", _
-                                               "Description", _
-                                               "The World", "ACCT", "YEAR", _
-                                               "Customer", "10 - 99", _
-                                               "$1M - 5M", "Private", _
-                                               "333-333-3333", _
-                                               "333-333-3334", "www.acct.com", _
-                                               "", "", true, "", _
-                                               fld_list, type_list, val_list)
+ret_int = fcinter.create_update_account_list("New account", _
+                                              "Description", _
+                                              "The World", "ACCT", "YEAR", _
+                                              "Customer", "10 - 99", _
+                                              "$1M - 5M", "Private", _
+                                              "333-333-3333", _
+                                              "333-333-3334", "www.acct.com", _
+                                              "", "", true, "", _
+                                              fld_list, type_list, val_list)
 
  If ret_int = 0 Then
+   account_objid = fcinter.ret_objid
+ End If
+```
 
-      account_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_update_account_list("New account",
-
                                                "Description",
-
                                                "The World", "ACCT", "YEAR",
-
                                                "Customer", "10 - 99",
-
                                                "$1M - 5M", "Private",
-
                                                "333-333-3333",
-
                                                "333-333-3334", "www.acct.com",
-
                                                "", "", true, "", 
-
                                                fld_list, type_list, val_list);
 
  if (ret_int == 0){ var account_objid = fcinter.ret_objid; }
-
- Modify account "AN_CUST44". Set a few fields. Leave most of them blank, and clear the territory.
-
-**Visual Basic:**
-
-Dim ret_int   As Integer
 ```
 
+Modify account "AN_CUST44". Set a few fields. Leave most of them blank, and clear the territory.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim acct_id   As String
 
-   acct_id = "AN_CUST44"
+acct_id = "AN_CUST44"
 
-   ret_int = fcinter.create_update_account("", "", "CLEAR", "IBM", "", _
+ret_int = fcinter.create_update_account("", "", "CLEAR", "IBM", "", _
                                            "", "", "", "", _
                                            "", "", "", "", "", true, acct_id, _
                                            "", 0, "", 0, "", "", _
-                                                                                               "", "", "", "")
+							               "", "", "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var acct_id = "AN_CUST44";
 
 var ret_int = fcinter.create_update_account("", "", "CLEAR", "IBM", "",
-
-                                           "", "", "", "",
-
-                                           "", "", "", "", "", true, acct_id,
-
-                                           "", 0, "", 0, "", "",
-
-                                                                                               "", "", "", "");
+                           "", "", "", "", "", "", "", "", "", true, acct_id,
+                           "", 0, "", 0, "", "", "", "", "", "");
+```

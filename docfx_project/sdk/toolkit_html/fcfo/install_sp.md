@@ -92,58 +92,51 @@ Other data (such as the warranty end date) is automatically calculated and fille
 Install an MS Word 7.0 at the top-level of site "1234". Install it with serial number "xyzzy", and generate activity logs. Install with status "Installed/Good".
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim sp_objid   As Long
 
 ret_int = fcfo.install_sp("1234", "MS Word", "7.0", "Product", 1, _
            "xyzzy", 0, 0, "", "", "Installed/Good", "", _
            "", "", "", True)
   
-   If ret_int = 0 Then
-  
-     sp_objid = fcfo.ret_objid
+ If ret_int = 0 Then
+   sp_objid = fcfo.ret_objid
  End If
- 
-**JavaScript:**
-
-var ret_int = fcfo.install_sp("1234", "MS Word", "7.0", "Product", 1,
-  
-   "xyzzy", 0, 0, "", "", "Installed/Good", "",
-  
-              "", "", "", true);
-
- if (ret_int == 0){ var sp_objid = fcfo.ret_objid; }
-
- Joe installs a quantity tracked part (30 of them) in a bin at site "444". It was shipped on February 1, 1998, and installed a month later. Don't add activity logs. Set two other user-defined fields.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fcfo.install_sp("1234", "MS Word", "7.0", "Product", 1,
+   "xyzzy", 0, 0, "", "", "Installed/Good", "",
+   "", "", "", true);
+
+ if (ret_int == 0){ var sp_objid = fcfo.ret_objid; }
+```
+
+Joe installs a quantity tracked part (30 of them) in a bin at site "444". It was shipped on February 1, 1998, and installed a month later. Don't add activity logs. Set two other user-defined fields.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim sp_objid   As Long
 
 ret_int = fcfo.install_sp("444", "QuantPart", "", "Quantity", 30, _
-           "", 268435457, 0, "", "", "", "", "", _
-          "3/1/98", "2/1/98", False, "x_long", 22, "", _
-0, "x_string", "Hello!!", "", "", "", "")
+            "", 268435457, 0, "", "", "", "", "", _
+            "3/1/98", "2/1/98", False, "x_long", 22, "", _
+			0, "x_string", "Hello!!", "", "", "", "")
   
-   If ret_int = 0 Then
-  
-     sp_objid = fcfo.ret_objid
+ If ret_int = 0 Then
+   sp_objid = fcfo.ret_objid
  End If
- 
-**JavaScript:**
+```
 
+**JavaScript:**
+```
 var ret_int = fcfo.install_sp("444", "QuantPart", "", "Quantity", 30,
-  
    "", 268435457, 0, "", "", "", "", "",
-  
    "3/1/98", "2/1/98", false, "x_long", 22, "",  
-  
-0, "x_string", "Hello!!", "", "", "", "");
+   0, "x_string", "Hello!!", "", "", "", "");
 
  if (ret_int == 0){ var sp_objid = fcfo.ret_objid; }
+```

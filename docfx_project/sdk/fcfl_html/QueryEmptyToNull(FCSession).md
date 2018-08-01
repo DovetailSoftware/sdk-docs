@@ -26,15 +26,12 @@ For more details on what the QueryEmptyToNull property does, please see the Quer
 The following example demonstrates setting the QueryEmptyToNull property for a new object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Include all relations for the session
-
   FCSession.QueryEmptyToNull = true;
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Fc_session.QueryEmptyToNull = True
+```

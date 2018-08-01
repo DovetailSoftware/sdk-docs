@@ -31,23 +31,24 @@ This API builds a list of the alternate parts (table_partnum_view) for the speci
 | -4 | Cannot locate the supplied revision |
 | ret_string | Output - Returns a pipe delimited list of alternate parts found |
 
-**Examples**
+#### Examples
 
 Get the alternate parts for MS Word 7.0:
 
 **Visual Basic:**
-
-Dim ret_int   As Integer
 ```
-
+Dim ret_int As Integer
 Dim part_list As String
 
-ret_int = fccl.get_alt_parts("MS Word", "Product", "7.0") If ret_int = 0 Then
+ret_int = fccl.get_alt_parts("MS Word", "Product", "7.0") 
 
+If ret_int = 0 Then
   part_list = fccl.ret_string
-
 End If
+```
 
-**Javascript:**
-
-var ret_int = fccl.get_alt_parts("MS Word", "Product", "7.0"); If (ret_int == 0) { var part_list = fccl.ret_string; }
+**JavaScript:**
+```
+var ret_int = fccl.get_alt_parts("MS Word", "Product", "7.0");
+If (ret_int == 0) { var part_list = fccl.ret_string; }
+```

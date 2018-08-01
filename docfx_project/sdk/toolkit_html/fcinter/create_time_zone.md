@@ -36,24 +36,21 @@ This API creates a time zone in the Clarify database, and relates it to a countr
 Add a new time zone of 'FST' for the USA that is 14400 seconds off of GMT.
 
 **Visual Basic:**
-
-Dim ret_int  As Integer
 ```
-
+Dim ret_int As Integer
 Dim tz_objid As Long
 
-ret_int = fcinter.create_time_zone("FST", "Foo Standard Time", _
-                                   "USA", 14400)
+ret_int = fcinter.create_time_zone("FST", "Foo Standard Time", "USA", 14400)
 
  If ret_int = 0 Then
-
-      tz_objid = fcinter.ret_objid
+   tz_objid = fcinter.ret_objid
  End If
- 
-**Javascript:**
+```
 
+**JavaScript:**
+```
 var ret_int = fcinter.create_time_zone("FST", "Foo Standard Time",
-
                                        "USA", 14400);
 
  if (ret_int == 0){ var tz_objid = fcinter.ret_objid; }
+```

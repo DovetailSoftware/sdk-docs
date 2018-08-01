@@ -26,15 +26,13 @@ For more details on what the NoRes property does, please see the NoRes documenta
 The following example demonstrates setting the NoRes property for a new object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Include all relations for the session
 
   NoRes = true;
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   NoRes = True
+```

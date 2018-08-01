@@ -37,25 +37,27 @@ Relate a contract line item with 'MS Word version 6.0', serial number 'ABC'.
 **Field version:**
 
 **JavaScript:**
-
-    Var ret_int = fc_cc.relate_contr_itm_to_sp(268435457, "MS Word", "Product", _
+```
+Var ret_int = fc_cc.relate_contr_itm_to_sp(268435457, "MS Word", "Product", _
                                         "6.0", "ABC")
+```
 
 **Visual Basic:**
+```
+Dim ret_int As Integer
 
-   Dim ret_int As Integer
-
-   ret_int = fc_cc.relate_contr_itm_to_sp(268435457, "MS Word", "Product", _
-                                         "6.0", "ABC")
-
- Unrelate that same contract line item.
+ret_int = fc_cc.relate_contr_itm_to_sp(268435457, "MS Word", "Product", "6.0", "ABC")
+```
+Unrelate that same contract line item.
 
 **JavaScript:**
-
-   var ret_int = fc_cc.relate_contr_itm_to_sp(268435457, "", "", "", "UNRELATE")
+```
+var ret_int = fc_cc.relate_contr_itm_to_sp(268435457, "", "", "", "UNRELATE")
+```
 
 **Visual Basic:**
+```
+Dim ret_int As Integer
 
-   Dim ret_int As Integer
-
-   ret_int = fc_cc.relate_contr_itm_to_sp(268435457, "", "", "", "UNRELATE")
+ret_int = fc_cc.relate_contr_itm_to_sp(268435457, "", "", "", "UNRELATE")
+```

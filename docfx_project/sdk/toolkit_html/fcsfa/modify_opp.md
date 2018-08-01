@@ -108,18 +108,21 @@ Most of the data items can be left with their current values. To not change an i
 
 **Field version:**
 
-**JavaScript:**
+```
 
+**JavaScript:**
+```
   ret_int = fcsfa_obj.modify_opp("33", "", "AN_CUST2", "CLEAR", "", "", "",
 
               -1, "", "", "", "", "", "", "", true, "", 0, "", 0,
 
               "x_str_fld", "Data value", "", "", "", "");
 
-**Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
+
+**Visual Basic:**
+```
+   Dim ret_int As Integer
 
 Dim opp_id     As String
 
@@ -130,7 +133,7 @@ Dim opp_id     As String
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 
 var type_list = Server.CreateObject("FCFLCOMPAT.FCLIST");
@@ -149,10 +152,11 @@ val_list.AppendItem("Data value");
 
               type_list, val_list);
 
-**Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
+
+**Visual Basic:**
+```
+   Dim ret_int As Integer
 
 Dim fld_list   As New FCList
 
@@ -219,26 +223,30 @@ These APIs cause the specified action item, opportunity, or quote to be moved fr
 
 #### Examples
 
- Move action item number '154' to the default WIPBin for the current owner.
+Move action item number '154' to the default WIPBin for the current owner.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.move_action_item("154", "");
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.move_action_item("154", "")
+```
 
- Move quote number 'Q2' to WIPBin 'Urgent'.
+Move quote number 'Q2' to WIPBin 'Urgent'.
 
 **JavaScript:**
-
+```
 var ret_int = ret_int = fcsfa.move_quote("Q2", "Urgent");
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.move_quote("Q2", "Urgent")
+```

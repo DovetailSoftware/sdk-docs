@@ -34,25 +34,17 @@ The only "problem" with this property is that when it is set to True, you cannot
 The following example demonstrates setting the SetNullStringsToEmpty  property for a new object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Set NULL fields to empty strings for an object
-
   var boSitePart = FCSession.CreateGeneric();
-
   boSitePart.SimpleQuery("site_part");
-
   boSitePart.SetNullStringsToEmpty = true;
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSitePart As FCGeneric
-
   Set boSitePart = fc_session.CreateGeneric
-
   boSitePart.SimpleQuery "site_part"
-
   boSitePart.SetNullStringsToEmpty = True
+```

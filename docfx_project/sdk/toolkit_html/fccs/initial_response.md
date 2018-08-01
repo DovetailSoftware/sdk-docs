@@ -38,29 +38,32 @@ user_name who is executing the cbbatch |
 
 #### Examples
 
- Mark an initial response for case 'C154' via a phone call. The logging is performed by the current user and is performed at the current time. Generate a time bomb.
+Mark an initial response for case 'C154' via a phone call. The logging is performed by the current user and is performed at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.initial_response("C154", "", "", true, true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.initial_response("C154", "", "", True, True)
+```
 
- Mark an initial response via an email for case '2' at 10PM on November 23rd of 1997. It is logged by dave. Don't generate a time bomb.
+Mark an initial response via an email for case '2' at 10PM on November 23rd of 1997. It is logged by dave. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.initial_response("2", "11/23/97 22:00:00", "dave",
-
                                     false, false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.initial_response("2", "11/23/97 22:00:00", "dave", _
                                 False, False)
+```

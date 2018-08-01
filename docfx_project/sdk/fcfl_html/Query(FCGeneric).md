@@ -44,109 +44,72 @@ boCase.Records.Close();
 The following example queries a specific case, all related activity logs, and the related contact.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Get all cases, activity logs, and contact.
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
 
   var boAct = FCSession.CreateGeneric();
-
   boAct.TraverseFromParent(boCase, "case_act2act_entry");
-
   var boContact = FCSession.CreateGeneric();
-
   boContact.TraverseFromParent(boCase, "case_reporter2contact");
 
   // Now query the data
-
   boCase.Query();
 
   // Display return data. First the case, then all activity logs
-
   //  then the one contact for the case
 
   while (boCase.EOF != true)
-
   {
-
     Response.Write ("Case ID: " + boCase("id_number"));
-
     while (boAct.EOF != true)
-
     {
-
       Response.Write("  Activity: " + boAct("objid"));
-
       boAct.MoveNext();
-
     }
 
     while (boContact.EOF != true)
-
     {
-
       Response.Write("  Contact: " + boContact("first_name") + " " +
-
                                    boContact("last_name"));
-
       boContact.MoveNext();  
-
     }
 
     boCase.MoveNext();
-
   }
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Dim boAct  As FCGeneric
-
   Dim boCont As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
 
   Set boAct = fc_session.CreateGeneric
-
   boAct.TraverseFromParent boCase, "case_act2act_entry"
 
   Set boCont = fc_session.CreateGeneric
-
   boCont.TraverseFromParent boCase, "case_reporter2contact"
 
   boCase.Query
 
   While boCase.EOF = False
-
     MsgBox "Case: " & boCase("id_number")
-
     While boAct.EOF = False
-
       MsgBox "Activity: " & Trim$(Str$(boAct("objid")))
-
       boAct.MoveNext
-
     Wend
 
-    While boCont.EOF = False
-
+    While boCont.EOF = False
       MsgBox "Contact: " & boCont("first_name") & " " & _
-
                            boCont("last_name")
-
       boCont.MoveNext
-
     Wend
 
     boCase.MoveNext
-
   Wend
+```

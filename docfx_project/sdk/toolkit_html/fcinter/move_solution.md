@@ -31,14 +31,16 @@ This API causes the specified solution to be moved from one WIPBin to another (f
 
 #### Examples
 
- Move solution number '14' to WIPBin 'Hardware'.
+Move solution number '14' to WIPBin 'Hardware'.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcinter.move_solution("14", "Hardware")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.move_solution("14", "Hardware");
+```

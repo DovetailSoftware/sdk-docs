@@ -27,16 +27,18 @@ This API allows for adding a module (file name and revision from a source contro
 | -1 | Cannot find the specified fix bug record |
 | -2 | A fixed module file was not provided |
 
-**Examples**
+#### Examples
 
 Add file 'foo.c', revision 3.32 to a specific fix_bug record.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.add_module_to_cr(268435666, "foo.c", "3.32")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.add_module_to_cr(268435666, "foo.c", "3.32");
+```

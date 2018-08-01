@@ -59,9 +59,8 @@ This method initializes the FCApplication, including:
 The following example initializes the FCApplication object..
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var FCApp = new ActiveXObject("FCFL.fcapplication");
 
 FCApp.InitializeFull("sa","MyPassword","MyServer","MyDatabase", "MSSQL");
+```

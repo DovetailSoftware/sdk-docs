@@ -34,29 +34,29 @@ This API allows you to create or modify Logistics Transitions in the database. Y
 Add a transition from RQST Open to Fulfilled for "Advance Exchange" type. The transition is for privclasses "CSR" and "System Administrator".
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-ret_int = fccl.set_cl_transition("Advance Exchange", "RQST Open", "Fulfilled", _
-                                 "CSR, System Administrator")
+ret_int = fccl.set_cl_transition("Advance Exchange", "RQST Open", _
+		"Fulfilled", "CSR, System Administrator")
+```
 
-**Javascript:**
-
-var ret_int = fccl.set_cl_transition("Advance Exchange", "RQST Open", "Fulfilled",
-
-                                 "CSR, System Administrator");
-
- Set transitions for every privclass for the above transition
+**JavaScript:**
+```
+var ret_int = fccl.set_cl_transition("Advance Exchange", "RQST Open", 
+		"Fulfilled", "CSR, System Administrator");
+```
+Set transitions for every privclass for the above transition
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-ret_int = fccl.set_cl_transition("Advance Exchange", "RQST Open", "Fulfilled", _
-                                 "ALLCLASSES")
+ret_int = fccl.set_cl_transition("Advance Exchange", "RQST Open", _
+	"Fulfilled", "ALLCLASSES")
+```
 
-**Javascript:**
-
-var ret_int = fccl.set_cl_transition("Advance Exchange", "RQST Open", "Fulfilled",
-
-                                 "ALLCLASSES");
+**JavaScript:**
+```
+var ret_int = fccl.set_cl_transition("Advance Exchange", "RQST Open", "Fulfilled", "ALLCLASSES");
+```

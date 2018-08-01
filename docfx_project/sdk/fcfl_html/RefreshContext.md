@@ -22,29 +22,21 @@ This method refreshes the Item data collection for the FCSession. If any of the 
 The following example updates the contact information and refreshes the context.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 Contact Phone Number Before = <%=FCSession.Item("contact.phone")%><BR>
 
 <%
-
 var boContact = FCSession.CreateGeneric();
-
 boContact.DBObjectName = "contact";
-
 boContact.AppendFilter("objid", "=", "268435457");
-
 boContact.Query();
 
 boContact("objid") = FCSession.Item("contact.id");
-
 boContact("phone") = "512-418-2905";
-
 boContact.Update();
 
 FCSession.RefreshContext();
-
 %>
 
 Contact Phone Number After = <%=FCSession.Item("contact.phone")%><BR>
+```

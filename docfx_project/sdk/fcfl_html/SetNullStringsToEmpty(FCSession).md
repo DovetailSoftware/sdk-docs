@@ -26,15 +26,12 @@ For more details on what the SetNullStringsToEmpty  property does, please see th
 The following example demonstrates setting the SetNullStringsToEmpty  property for a new object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Set all NULL Strings to empty strings
-
   SetNullStringsToEmpty  = true;
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   SetNullStringsToEmpty  = True
+```

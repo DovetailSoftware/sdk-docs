@@ -19,30 +19,28 @@ First Choice FCFL-based High Level APIs either return errors through the return 
 
 **Example**
 
-**JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
 The following example eveluates the return code from a High Level API call (Move Change Request)
 
+**Visual Basic:**
+```
 FCSession.ThrowErrors = FALSE
 
-ret_int = cq.move_cr(cbbo, "2", "Urgent");
+ret_int = cq.move_cr(cbbo, "2", "Urgent")
 
 If ret_int <> 0 Then
-
   Response.Write("Move CR Failed. Error Code = " + ret_int)
-
 End If
+```
 
 The following example catches an error thrown from a High Level API call (Move Change Request)
 
+**JavaScript:**
+```
 FCSession.ThrowErrors = TRUE
 
 try {
-
-  ret_int = cq.move_cr(cbbo, "2", "Urgent"); }
-
-catch{e) {
-
-Response.Write (e.description); }
+  ret_int = cq.move_cr(cbbo, "2", "Urgent"); 
+} catch{e) {
+  Response.Write (e.description); 
+}
+```

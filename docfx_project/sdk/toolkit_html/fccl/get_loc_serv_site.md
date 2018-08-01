@@ -30,18 +30,17 @@ This API returns a list of the locations (in the proper order) servicing this si
 Get the locations servicing the site "42".
 
 **Visual Basic:**
-
-Dim ret_int  As Integer
 ```
-
+Dim ret_int As Integer
 Dim loc_list As String
 
 ret_int = fccl.get_loc_serv_site("42", loc_list) If ret_int = 0 Then
-
   loc_list = fccl.ret_string
-
 End If
+```
 
-**Javascript:**
-
-var ret_int = fccl.get_loc_serv_site("42", loc_list); If (ret_int == 0) { var loc_site = fccl.ret_string; }
+**JavaScript:**
+```
+var ret_int = fccl.get_loc_serv_site("42", loc_list);
+If (ret_int == 0) { var loc_site = fccl.ret_string; }
+```

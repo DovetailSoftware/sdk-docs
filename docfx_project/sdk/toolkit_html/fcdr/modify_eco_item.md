@@ -43,11 +43,13 @@ This API modifies an existing labor or material detail.
 Modify ECO item 268435460, to result in part 268435465.
 
 **JavaScript:**
-
+```
 var ret_int = fcdr.modify_eco_item(268435460, -1, -1, "", 0, 268435465);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcdr. modify_eco_item(268435460, -1, -1, "", 0, 268435465)
+```

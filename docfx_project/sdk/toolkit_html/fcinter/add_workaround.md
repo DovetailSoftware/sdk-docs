@@ -71,10 +71,8 @@ These APIs add a new workaround to an existing solution. You must specify the so
 Create a new workaround for solution '44' with workaround (public, with default res code). The create was made on November 11, 1998 at 11:00 AM.
 
 **Visual Basic:**
-
-Dim ret_int          As Integer
 ```
-
+Dim ret_int As Integer
 Dim workaround_objid As Long
 
 ret_int = fcinter.add_workaround("44", 0, _
@@ -82,19 +80,17 @@ ret_int = fcinter.add_workaround("44", 0, _
                                  "11/11/1998 11:00:00", "", "", 0, _
                                  "", 0, "", "", "", "", "", "")
   
-   If ret_int = 0 Then
-  
-      workaround_objid = fcinter.ret_objid
+ If ret_int = 0 Then
+   workaround_objid = fcinter.ret_objid
  End If
- 
-**Javascript:**
+```
 
+**JavaScript:**
+```
 var ret_int = fcinter.add_workaround("44", 0,
-  
-   "No current workaround", true,
-  
+								 "No current workaround", true,
                                  "11/11/1998 11:00:00", "", "", 0,
-
                                  "", 0, "", "", "", "", "", "");
 
 if (ret_int == 0){ var workaround_objid = fcinter.ret_objid; }
+```

@@ -35,47 +35,32 @@ While it is recommended that you use the methods/properties listed in the previo
 The following example demonstrates querying the case table, and setting the _alt_address_ field for each object returned, using the _Records_ property.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Query for all cases
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
-
   boCase.Query();
 
   while (boCase.EOF != true)
-
   {
-
     boCase.Records("alt_address") = "An alt address";
-
     boCase.MoveNext();
-
   }
 
   boCase.UpdateAll();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery ("case")
-
   boCase.Query
 
   While boCase.EOF = False
-
     boCase.records("alt_address") = "Another alt address"
-
     boCase.MoveNext
-
   Wend
 
   boCase.UpdateAll
+```

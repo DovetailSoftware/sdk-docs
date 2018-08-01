@@ -58,37 +58,23 @@ This API allows usage of material to be logged against a depot repair part.
 Apply usage of Part 268435465 against Part Repair 268435466. The job was done by user "db", billable to the customer. All other defaults are used.
 
 **JavaScript:**
-
+```
 var demand_dtl_objid = 268435466;
-
 var repair_code = "";
-
 var failure_code = "";
-
 var mod_level = 268435465;
-
 var bill_to = "Customer";
-
 var wrk_center = "";
-
 var disposition = "";
-
 var ref_designator = "";
-
 var notes = "";
-
 var transaction_id = "";
-
 var creation_time = "";
-
 var perf_by = "db";
-
 var billable = 1;
 
 var retval = FCDR.create_dr_mtl(demand_dtl_objid, repair_code, failure_code,
-
 mod_level, billable, bill_to, wrk_center,
-
 disposition, ref_designator, notes, transaction_id,
-
 perf_by, creation_time);
+```

@@ -32,67 +32,45 @@ If you intend to create new rows in the generic object (with AddNew) and add the
 The following example sets up a database query, only returning the needed rows for display, and for traversing to the child object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Query case and notes_log
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.DataFields = "id_number, title, case_reporter2contact";
-
   boCase.SimpleQuery("case");
 
   var boContact = FCSession.CreateGeneric();
-
   boContact.TraverseFromParent(boCase, "case_reporter2contact");
-
   boCase.Query();
 
   // Loop through all cases
-
   // For each, print the case ID and contact name
 
   while (boCase.EOF != true)
-
   {
-
     Response.Write ("Case: " + boCase("id_number") + " Contact: " +
-
             boContact("first_name") + " " + boContact("last_name"));  
-
     // Now get the next case
-
     boCase.MoveNext();
-
   }
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Dim boContact As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
-
   boCase.DataFields = "id_number, title, case_reporter2contact"
 
   Set boContact = fc_session.CreateGeneric
-
   boContact.TraverseFromParent boCase, "case_reporter2contact"
-
   boCase.Query
 
   While boCase.EOF = False
-
     MsgBox "Case: " & boCase("id_number") & " Contact: " & boContact("first_name") & _
-
            " " & boContact("last_name")
 
     boCase.MoveNext
-
   Wend
+```

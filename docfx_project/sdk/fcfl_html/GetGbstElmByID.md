@@ -33,9 +33,8 @@ The string value of the element. |
 The following example retrieves the string for the priority of an already-found case.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var ElmObjid = CaseObj("respprty2gbst_elm");
 
 Response.Write("Priority is: " + FCApp.GetGbstElmByID("Response  Priority Code", ElmObjid));
+```

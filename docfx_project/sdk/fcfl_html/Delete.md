@@ -37,47 +37,32 @@ Further, when you perform a Delete, the current record is moved to the next avai
 The following example deletes all records in a custom table called "my_table".
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Set up a query of all rows in test table
-
   var boMyTable = FCSession.CreateGeneric();
-
   boMyTable.DBObjectName = "my_table";
-
   boMyTable.Query();
 
   // While there are more rows to delete, delete them all
-
   // Remember, you don't need to do a MoveNext here
-
   while (boMyTable.EOF != true)
-
   {
-
     boMyTable.Delete();
-
   }
 
   boMyTable.UpdateAll();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boMyTable As FCGeneric
-
   Set boMyTable = fc_session.CreateGeneric
-
   boMyTable.DbObjectName = "my_table"
-
   boMyTable.Query
 
   While boMyTable.EOF = False
-
     boMyTable.Delete
-
   Wend
 
   boMyTable.UpdateAll
+```

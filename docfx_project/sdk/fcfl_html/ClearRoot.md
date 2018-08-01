@@ -26,33 +26,23 @@ It is not recommended that you use this method _after_ you have queried the gene
 The following example clears the root object information for a generic object after it was set up in error.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
-     // Create the queue object
-
-  // Traverse from the current user's objid
-
+```
+  // Create the queue object
   var boQueue = FCSession.CreateGeneric();
-
+  // Traverse from the current user's objid
   boQueue.TraverseFromRoot(FCSession.Item("user.id"), "user",
-
                            "user_assigned2queue");
 
   // Oops. It was a mistake - clear the root traversal 
-
   boQueue.ClearRoot();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boQueue As FCGeneric
 
   Set boQueue = fc_session.CreateGeneric
-
   boQueue.TraverseFromRoot fc_session.item("user.id"), _
-
                            "user", "user_assigned2queue"
-
   boQueue.ClearRoot
+```

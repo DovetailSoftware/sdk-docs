@@ -32,15 +32,11 @@ The offset of the time zone from GMT, in seconds. Zero, if the time zone is not 
 The following example retrieves the offset for a time zone.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 <%
-
 var TZ = "Eastern Standard Time";
-
 var TZOffset = FCApp.GetTimeZoneOffset(TZ);
-
 %>
 
 <%=TZ%> is <%=TZOffset%> seconds ahead of GMT.
+```

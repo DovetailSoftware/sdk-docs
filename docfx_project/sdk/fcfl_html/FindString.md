@@ -43,19 +43,13 @@ The retrieved string if one is found, else an empty string. |
 The following example shows both ways of using the  FindString method to display an error message.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 <%
-
 var ErrorMessageByID = FCApp.FindString(2343);
-
 var ErrorMessageByName = FCApp.FindString("ERR_DBS_NO_DEFAULT_WIPBIN");
-
 %>
 
 Error By ID: <%=ErrorMessageByID%>
-
 <BR>
-
 Error By Name: <%=ErrorMessageByName%>
+```

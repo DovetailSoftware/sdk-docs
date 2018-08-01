@@ -39,7 +39,8 @@ For updates, a new title can be specified. An updated description can be provide
 
 **Returns**
 
-**Value**                          **Meaning**
+| Value | Meaning |
+|:--- |:--- |
 | 0 | No errors |
 | -1 | The supplied queue name is not found |
 | -2 | Cannot find the user name supplied |
@@ -51,42 +52,39 @@ For updates, a new title can be specified. An updated description can be provide
 Create a new shared queue "Urgent" with all objects allowed. Assume the current user is the supervisor.
 
 **Visual Basic:**
-
-Dim ret_int     As Integer
 ```
-
+Dim ret_int As Integer
 Dim queue_objid As Long
 
 ret_int = fcinter.create_update_queue("Urgent", false, "A new queue", _
                                       1, 1, 1, 1, 1, 1, 1, 1, 1, 1, "", "")
 
- If ret_int = 0 Then
+If ret_int = 0 Then
+  queue_objid = fcinter.ret_objid
+End If  
+```
 
-      queue_objid = fcinter.ret_objid
-|  | End If |
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_update_queue("Urgent", false, "A new queue",
-
                                       1, 1, 1, 1, 1, 1, 1, 1, 1, 1, "", "");
 
  if (ret_int == 0){ var queue_objid = fcinter.ret_objid; }
+```
 
- Update the previously created queue. Change the name and set it so that part requests cannot be dispatched to the queue (all other items stay the same). Clear the description. Change the name of it.
+Update the previously created queue. Change the name and set it so that part requests cannot be dispatched to the queue (all other items stay the same). Clear the description. Change the name of it.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcinter.create_update_queue("Urgent", false, "CLEAR", _
                                       -1, -1, -1, -1, 0, -1, -1, -1,_
                                       -1, -1, "", "Really Urgent")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_update_queue("Urgent", false, "CLEAR",
-| 
- | -1, -1, -1, -1, 0, -1, -1, -1,
- |
-                                      -1, -1, "", "Really Urgent");
+		  -1, -1, -1, -1, 0, -1, -1, -1, -1, -1, "", "Really Urgent");
+```

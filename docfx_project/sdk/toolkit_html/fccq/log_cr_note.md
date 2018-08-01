@@ -66,17 +66,15 @@ These APIs are used to create a note log against a CR. The APIs allow for the as
 | -4 | Cannot find the specified user's employee record for relating time bomb |
 | ret_objid | Output - Returns the objid of the note |
 
-**Examples**
+#### Examples
 
 Create a note log for CR number '2'. Set the notes for the log, and indicate that it's internal use only. Have the note logged by marty on November 23, 1997 at 10PM. Don't generate a time bomb (for business rule notification).  The second field version illustrates how to set additional fields.
 
 **Field version 1:**
 
 **Visual Basic:**
-  
-   Dim ret_int   As Integer
-```
-
+```  
+Dim ret_int As Integer
 Dim log_objid As Long
 
 ret_int = fccq.log_cr_note("2", "Some notes", "Internal text", _
@@ -84,144 +82,110 @@ ret_int = fccq.log_cr_note("2", "Some notes", "Internal text", _
       "", 0, "", 0, "", "", "", "", "", "")
 
  If ret_int = 0 Then
-  
    log_objid = fccq.ret_objid
+ End If  
+```
 
-   End If  
-  
 **JavaScript:**
-
+```
 var ret_int = fccq.log_cr_note("2", "Some notes", "Internal text",
-  
    "11/23/97 22:00:00", "marty", false,
-  
-      "", 0, "", 0, "", "", "", "", "", "");
+   "", 0, "", 0, "", "", "", "", "", "");
 
  if (ret_int == 0) { var log_objid = fccq.ret_objid; }
+```
 
 **Field version 2:**
 
 **Visual Basic:**
-  
-   Dim ret_int   As Integer
-```
-
+```  
+Dim ret_int As Integer
 Dim log_objid As Long
 
 ret_int = fccq.log_cr_note("2", "Some notes", "Internal text", _
       "11/23/97 22:00:00", "marty", False, _
-                           "x_close_int1", 1, "x_close_int2", 456, _
-                           "x_summary2", "More text", "", "", _
+      "x_close_int1", 1, "x_close_int2", 456, _
+      "x_summary2", "More text", "", "", _
       "x_other_date", "1/1/99")
 
  If ret_int = 0 Then
-  
    log_objid = fccq.ret_objid
+ End If  
+```
 
-   End If  
-  
 **JavaScript:**
-
+```
 var ret_int = fccq.log_cr_note("2", "Some notes", "Internal text",
-  
    "11/23/97 22:00:00", "marty", false,
-  
    "x_close_int1", 1, "x_close_int2", 456,
-
-                           "x_summary2", "More text", "", "",  
-  
-      "x_other_date", "1/1/99");
+   "x_summary2", "More text", "", "",  
+   "x_other_date", "1/1/99");
 
  if (ret_int == 0) { var log_objid = fccq.ret_objid; }
+```
 
 **List version:**
 
 **Visual Basic:**
-
-Dim log_objid As Long
-
-Dim ret_int   As Integer
 ```
-
+Dim log_objid As Long
+Dim ret_int As Integer
 Dim fld_list  As New FCFLCompat.FCList
-
 Dim type_list As New FCFLCompat.FCList
-
 Dim val_list  As New FCFLCompat.FCList
 
 fld_list.AppendItem "x_log_int1"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(1))
 
 fld_list.AppendItem "x_log_int2"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(456))
 
 fld_list.AppendItem "x_summary2"
-
 type_list.AppendItem "String"
-
 val_list.AppendItem "More text"
 
 fld_list.AppendItem "x_other_date"
-
 type_list.AppendItem "Date"
-
 val_list.AppendItem "1/1/99"
 
 ret_int = fccq.log_cr_note_list("2", "Some notes", _
-                                "Internal text", _
+           "Internal text", _
            "11/23/97 22:00:00", "marty", False, _
-            fld_list, type_list, val_list)
+           fld_list, type_list, val_list)
 
  If ret_int = 0 Then
-  
    log_objid = fccq.ret_objid
-  
-   End If  
-  
+ End If  
+```
+
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 fld_list.AppendItem("x_log_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("1");
 
 fld_list.AppendItem("x_log_int2");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("456");
 
 fld_list.AppendItem("x_summary2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("x_other_date");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccq.log_cr_note_list("2", "Some notes",
-  
    "Internal text",
-  
    "11/23/97 22:00:00", "marty", False,  
-  
-            fld_list, type_list, val_list);
+   fld_list, type_list, val_list);
 
  if (ret_int == 0) { var log_objid = fccq.ret_objid; }
+``` 

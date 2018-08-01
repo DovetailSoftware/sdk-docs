@@ -49,24 +49,21 @@ This API allows you to create a product bin either at a site, or underneath anot
 Create a bin named "Hardware" at the site who has a site ID of "42". Add a description, and set up a primary support employee. "Kent" did the create at the current date/time
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim bin_objid  As Long
 
-ret_int = fcinter.create_product_bin("Hardware", "42", -1, "Description here", _
-             268435457, -1, "kent", "")
+ret_int = fcinter.create_product_bin("Hardware", "42", -1, _
+		"Description here", 268435457, -1, "kent", "")
 
  If ret_int = 0 Then
-
-      bin_objid = fcinter.ret_objid
+   bin_objid = fcinter.ret_objid
  End If
- 
-**Javascript:**
+```
 
-var ret_int = fcinter.create_product_bin("Hardware", "42", -1, "Description here",
-
-                268435457, -1, "kent", "");
+**JavaScript:**
+```
+var ret_int = fcinter.create_product_bin("Hardware", "42", -1, "Description here", 268435457, -1, "kent", "");
 
  if (ret_int == 0){ var bin_objid = fcinter.ret_objid; }
+``` 

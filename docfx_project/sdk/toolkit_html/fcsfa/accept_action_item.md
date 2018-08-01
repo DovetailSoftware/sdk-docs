@@ -57,31 +57,32 @@ These APIs cause the specified action item, opportunity, or quote to be accepted
 
 #### Examples
 
- Accept Action Item number '10' right now for the current user, place in the default WIPBin, and generate
-
-a time bomb.
+Accept Action Item number '10' right now for the current user, place in the default WIPBin, and generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.accept_action_item("10", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.accept_action_item("10", "", "", "", True)
+```
 
- Accept quote number '2' at 10PM on November 23rd of 1997 by marty, and place it in marty's WIPBin named 'Urgent'. Don't generate a time bomb
+Accept quote number '2' at 10PM on November 23rd of 1997 by marty, and place it in marty's WIPBin named 'Urgent'. Don't generate a time bomb
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.accept_quote("2", "11/23/97 22:00:00", "Urgent",
-
                                     "marty", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.accept_quote("2", "11/23/97 22:00:00", "Urgent", _
                              "marty", False)
+```

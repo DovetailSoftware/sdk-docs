@@ -32,9 +32,8 @@ The objid of country. Zero, if the country is not found. |
 The following example retrieves the objid for a country.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var CountryName = Request.Form("country").Item;
 
 var CountryObjid = FCApp.GetCountryObjid(CountryName);
+```

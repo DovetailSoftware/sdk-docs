@@ -30,39 +30,24 @@ An ADO recordset containing the time_zone  records.
 The following example builds a drop-down list of time zones. The default time zone is selected.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 <SELECT NAME="TZ">
-
 <%
-
 var defTZ = FCApp.GetDefaultTimeZone();
-
 var TZList = FCApp.GetTimeZoneList();
 
 while (! TZList.EOF) { %>
-
   <option
-
   <% if (TZList("full_name") == defTZ) { %>
-
   selected = true <% } %> >
-
   <%=TZList("full_name")%>
-
   <% TZList.MoveNext; %>
-
   </option>
-
 <% } %>
-
 </SELECT>
 
 <%
-
 TZList.Close();
-
 TZList = null;
-
 %>
+```

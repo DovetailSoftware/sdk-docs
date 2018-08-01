@@ -56,54 +56,47 @@ This API allows creation of an expense log that is related to an onsite log. The
 Create a new expense log related to onsite log 268435499. The creation time is 10:30 am on September 11, 1998. A sample note is passed, and the resolution will be "Completed". The user will default, and the performing user will be set to "db". This default expense type is billable to the "Customer". Once created, the new objid will be placed in the el_objid variable.
 
 **Visual Basic:**
-
-   Dim ret_int  As Integer
 ```
-
+Dim ret_int As Integer
 Dim el_objid As Long
 
 ret_int = fcfo.create_expense_log(268435499, "", "09/11/98 10:30:00", _
-                                  "expense log note", "db", "", "", 1, _
+       "expense log note", "db", "", "", 1, _
        4.5, 1, "Customer", "Completed")
 
    If ret_int = 0 Then
-
      el_objid = fcfo.ret_objid
-
    End If
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.create_expense_log(268435499, "", "09/11/98 10:30:00",
-
-                                   "expense log note", "db", "", "", 1,
-
+        "expense log note", "db", "", "", 1,
         4.5, 1, "Customer", "Completed");
 
 if (ret_int == 0){ var el_objid = fcfo.ret_objid; }
-
- Create a new expense log related to onsite log 268435463. The quantity is 1.5 units (at 3.33 each), non-billable. All other parameters will default.
-
-**Visual Basic:**
-
-   Dim ret_int  As Integer
 ```
 
+Create a new expense log related to onsite log 268435463. The quantity is 1.5 units (at 3.33 each), non-billable. All other parameters will default.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim el_objid As Long
 
 ret_int = fcfo.create_expense_log(268435463, "", "", "", "", "", _
                                    "", 1.5, 3.33, 0, "", "")
 
    If ret_int = 0 Then
-
      el_objid = fcfo.ret_objid
-
    End If
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.create_expense_log(268435463, "", "", "", "", "",
-
                                    "", 1.5, 3.33, 0, "", "");
 
 if (ret_int == 0){ var el_objid = fcfo.ret_objid; }
+```

@@ -31,28 +31,30 @@ This API deletes an existing service interruption (appointment). The objid of th
 
 #### Examples
 
- Delete an appointment.
+Delete an appointment.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.delete_svc_inter(268435666, "", "")
-
-**JavaScript:**
-
-var ret_int = fcfo.delete_svc_inter(268435666, "", "");
-
- Joe deleted an appointment on February 1, 1999 at noon.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fcfo.delete_svc_inter(268435666, "", "");
+```
+
+Joe deleted an appointment on February 1, 1999 at noon.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
 ret_int = fcfo.delete_svc_inter(268436555, "Joe", "2/1/99 12:00:00")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.delete_svc_inter(268436555, "Joe", "2/1/99 12:00:00");
+```

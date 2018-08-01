@@ -52,29 +52,31 @@ The trans authority determines part authorization levels, and has three possible
 Change the name of a location from "Austin" to "Round Rock".
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.modify_inv_location("Austin", "Round Rock", "", "", "", _
                      "", True, True, "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.modify_inv_location("Austin", "Round Rock", "", "", "",
-
                      "", true, true, "", "");
+```
 
- Change most of the information for a location.
+Change most of the information for a location.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.modify_inv_location("Austin", "Round Rock", "", "New desc", _
-                                  "Dallas", "NewCapGL", True, True, "2", "none")
+                            "Dallas", "NewCapGL", True, True, "2", "none")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.modify_inv_location("Austin", "Round Rock", "", "New desc",
-
-                                  "Dallas", "NewCapGL", true, true, "2", "none");
+                            "Dallas", "NewCapGL", true, true, "2", "none");
+```

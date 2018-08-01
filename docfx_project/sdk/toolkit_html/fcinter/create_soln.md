@@ -81,12 +81,9 @@ You may specify a creation date, and the user who created the solution. You may 
 Create a new solution with title, description, workaround (public, with default res code). Dispatch the solution to the "High" queue. Generate time bombs, and the create was made by Joe on November 11, 1998 at 11:00 AM.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim soln_objid As Long
-
 Dim work_objid As Long
 
 ret_int = fcinter.create_soln("The Solution","There is a problem", _
@@ -95,26 +92,20 @@ ret_int = fcinter.create_soln("The Solution","There is a problem", _
                               "", 0, "", "", "", "", "", "")
 
  If ret_int = 0 Then
-
       soln_objid = fcinter.ret_objid
-
       work_objid = fcinter.ret_objid2
  End If
- 
-**Javascript:**
+```
 
+**JavaScript:**
+```
 var ret_int = fcinter.create_soln("The Solution","There is a problem",
-| 
- | "No current workaround", true, "", "High",
- |
+                              "No current workaround", true, "", "High",
                               "11/11/1998 11:00:00", "joe", true ,"", 0,
-
                               "", 0, "", "", "", "", "", "");
 
  if (ret_int == 0){
-
-var soln_objid = fcinter.ret_objid;
-
-      var work_objid = fcinter.ret_objid2;
-
-   }
+	var soln_objid = fcinter.ret_objid;
+    var work_objid = fcinter.ret_objid2;
+ }
+``` 

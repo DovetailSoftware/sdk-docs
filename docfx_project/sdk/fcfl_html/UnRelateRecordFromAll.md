@@ -38,35 +38,28 @@ The method works for any and all cardinalities (OTM, MTO, OTO, MTM), and the rel
 The following example unrelates the specified case from all part_used records.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Query cases
 
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
-
   boCase.Query();
 
   // Now unrelate it from all part used records
-
   boCase.UnRelateRecordFromAll("case2part_used");
 
   boCase.Update();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
-
   boCase.Query
 
   boCase.UnRelateRecordFromAll "case2part_used"
 
   boCase.Update
+```

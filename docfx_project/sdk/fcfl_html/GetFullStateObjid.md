@@ -42,25 +42,17 @@ The objid of the state. Zero, if the state or country is not found.
 The following example checks is a given state from a posted form is valid for the posted country.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var country = Request.Form("country").Item;
-
 var state = Request.Form("state").Item;
+var StateObjid = FCApp.GetFullStateObjid(country,state);
 
-var StateObjid = FCApp.GetFullStateObjid(country,state); If (StateObjid > 0)
-
+if(StateObjid > 0)
 {
-
   Response.Write(state + " is a valid state in " + country);
-
 }
-
 else
-
 {
-
   Response.Write(state + " is NOT a valid state in " + country);
-
 }
+```

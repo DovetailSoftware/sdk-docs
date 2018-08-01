@@ -39,13 +39,10 @@ A string that is the the next ID in the specified numbering scheme.
 The following example sets the next ID number for a new case.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var boCase = FCSession.CreateGeneric();
-
 boCase.DBObjectName = "case";
-
 boCase.AddNew();
 
 boCase("id_number") = FCSession.GetNextNumScheme("Case ID");
+```

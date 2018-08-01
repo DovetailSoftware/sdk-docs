@@ -45,15 +45,15 @@ This API allows you to modify an existing product bin. You may change the bin na
 Modify bin 268435460. Change the name to "Software" and clear out the description. Leave the primary support employee the same, but clear out the secondary support employee. The current user modifies the bin at the current time.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcinter.modify_product_bin(268435460, "Software", "CLEAR", _
              0, -1, "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.modify_product_bin(268435460, "Software", "CLEAR",
-
              0, -1, "", "");
+```

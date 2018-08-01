@@ -120,94 +120,72 @@ The task_id of the newly-created action item will be returned in _fcsfa.ret_id_n
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill",
-
-                "Gates", "206-555-1212", "Microsoft", "", "", "",
-
+       "Gates", "206-555-1212", "Microsoft", "", "", "",
        "Fax", "High", "1/2/00", "1/30/00", "Not Started",
-
        "1/1/00", "", true, "", 0, "", 0, "x_str1",
-
        "A value", "", "", "", "")
-
-**Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
 ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill", _
-            "Gates", "206-555-1212", "Microsoft", "", "", "", _
+   "Gates", "206-555-1212", "Microsoft", "", "", "", _
    "Fax", "High", "1/2/00", "1/30/00", "Not Started", _
    "1/1/00", "", True, "", 0, "", 0, "x_str1", _
    "A value", "", "", "", "")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
-
 var type_list = Server.CreateObject("FCFLCOMPAT.FCLIST");
-
 var val_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 
 fld_list.AppendItem("x_create_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("1");
 
 fld_list.AppendItem("x_ create_int2");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("456");
 
 fld_list.AppendItem("x_summary2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 var ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill",
-
-                "Gates", "206-555-1212", "Microsoft", "", "", "",
-
+       "Gates", "206-555-1212", "Microsoft", "", "", "",
        "Fax", "High", "1/2/00", "1/30/00", "Not Started",
-
        "1/1/00", "", true, fld_list, type_list, val_list);
-
-**Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim fld_list   As New FCList
-
 Dim type_list  As New FCList
-
 Dim val_list   As New FCList
 
 fld_list.AppendItem("x_create_int1")
-
 type_list.AppendItem("Long")
-
 val_list.AppendItem("1")
 
 fld_list.AppendItem("x_ create_int2")
-
 type_list.AppendItem("Long")
-
 val_list.AppendItem("456")
 
 fld_list.AppendItem("x_summary2")
-
 type_list.AppendItem("String")
-
 val_list.AppendItem("More text")
 
 ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill", _
-            "Gates", "206-555-1212", "Microsoft", "", "", "", _
+   "Gates", "206-555-1212", "Microsoft", "", "", "", _
    "Fax", "High", "1/2/00", "1/30/00", "Not Started", _
    "1/1/00", "", True, fld_list, type_list, val_list)
+```

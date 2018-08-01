@@ -72,44 +72,41 @@ This API creates a dispatch field engineer (work order) record. The caller may s
 Dispatch an Engineer for case 3. "sa" logged the request, and we built up the work order number. Override all contact/site information, and generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-   ret_int = fcfo.dispatch_fe("3", "sa", "", "work order" & _
-                               DatePart("m", Date), "", 0, "", _
+ret_int = fcfo.dispatch_fe("3", "sa", "", "work order" & _
+                DatePart("m", Date), "", 0, "", _
                 "Sam", "Tyson", "112 Jupiter Hollow", _
                 "Shack #69", "Jupiter", "MN", "88775", _
                 "512-418-2905", "",0,  "", "", "", "", _
                 0, "", "", 0, True)
+```
 
 **JavaScript:**
-
-   var ret_int = fcfo.dispatch_fe("3", "sa", "", "work order" &
-  
+```
+var ret_int = fcfo.dispatch_fe("3", "sa", "", "work order" &
    DatePart("m", Date), "", 0, "",
-  
    "Sam", "Tyson", "112 Jupiter Hollow",  
-  
-                   "Shack #69", "Jupiter", "MN", "88775",
-  
+   "Shack #69", "Jupiter", "MN", "88775",
    "512-418-2905", "",0,  "", "", "", "",
-  
-                   0, "", "", 0, true);
+   0, "", "", 0, true);
+```
 
- Dispatch an engineer for subcase 42-2. Don't fill in any extra information. Don't generate a time bomb.
+Dispatch an engineer for subcase 42-2. Don't fill in any extra information. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-   ret_int = fcfo.dispatch_fe("42-2", "", "", "", "", 0, "", _
+ret_int = fcfo.dispatch_fe("42-2", "", "", "", "", 0, "", _
                 "", "", "", "", "", "", "", "", "", _
                 0,  "", "", "", "", 0, "", "", 0, False)
+```
 
 **JavaScript:**
-
-   var ret_int = fcfo.dispatch_fe("42-2", "", "", "", "", 0, "",
-  
+```
+var ret_int = fcfo.dispatch_fe("42-2", "", "", "", "", 0, "",
    "", "", "", "", "", "", "", "", "",
-  
-                0,  "", "", "", "", 0, "", "", 0, false);
+   0,  "", "", "", "", 0, "", "", 0, false);
+```

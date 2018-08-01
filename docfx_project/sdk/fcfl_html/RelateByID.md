@@ -37,33 +37,24 @@ You must update the object via the Update or UpdateAll method for the relation t
 The following example relates a case to a specific site (268435457).
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Get all cases
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
-
   boCase.Query();
 
   boCase.RelateByID(268435457, "case_reporter2site");
-
   boCase.Update(); 
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
-
   boCase.Query
 
   boCase.RelateByID 268435457, "case_reporter2site"
-
   boCase.Update
+```

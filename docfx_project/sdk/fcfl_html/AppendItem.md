@@ -43,27 +43,20 @@ Append from one to nine items onto the list.  Items are appended in order on th
 The example shows the simple creation of a list with AppendItem.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var aList;
-
 aList = new ActiveXObject("FCFL.fclist");
-
 aList.AppendItem(2, 3, 4, 5);
-
 aList.AppendItem(6, 2, 4, 12);
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim list As New FCList
 
 list.AppendItem 2, 3, 4, 5
-
 ' list now has the numbers 2, 3, 4 and 5
 
 list.AppendItem 6, 2, 4, 12
-
 ' list now has the numbers 2, 3, 4, 5, 6, 2, 4, and  12
+```

@@ -40,29 +40,32 @@ This API causes the specified subcase to be reject-forwarded from one queue to a
 
 #### Examples
 
- Reject-forward subcase number 'C154-1' to queue 'Hardware'. The reject-forward has no notes, is performed by the current user and is forwarded at the current time. Generate a time bomb.
+Reject-forward subcase number 'C154-1' to queue 'Hardware'. The reject-forward has no notes, is performed by the current user and is forwarded at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 ret_int = fccs.forward_subcase("C154-1", "Hardware", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.forward_subcase("C154-1", "Hardware", "", "", "", True)
+```
 
- Reject-forward subcase number '2-2' at 10PM on November 23rd of 1997 to 'Software'. Forward should be logged as performed by dave, with notes of 'Some notes'. Don't generate a time bomb.
+Reject-forward subcase number '2-2' at 10PM on November 23rd of 1997 to 'Software'. Forward should be logged as performed by dave, with notes of 'Some notes'. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.forward_subcase("2-2", "Software", "11/23/97 22:00:00",
-
                                    "Some notes", "dave", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.forward_subcase("2-2", "Software", "11/23/97 22:00:00", _
                                "Some notes", "dave", False)
+```

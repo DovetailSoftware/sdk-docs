@@ -41,51 +41,32 @@ You **MUST** set the DBObjectName (either by setting it, using SimpleQuery, Pare
 The following example uses AppendSort to sort a query of the site table by both status and site name.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Order a query of sites by status and then site name
-
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
-
   boSite.AppendSort("status", "asc");
-
   boSite.AppendSort("name", "asc");
-
   boSite.Query();
 
   // Now print them out
-
   while (boSite.EOF != true)
-
   {
-
- Response.Write ("Site: " + boSite("name"));
-
-    boSite.MoveNext();
-
+	 Response.Write ("Site: " + boSite("name"));
+     boSite.MoveNext();
   }
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery "site"
-
   boSite.AppendSort "status", "asc"
-
   boSite.AppendSort "name", "asc"
-
   boSite.Query
 
   While boSite.EOF = False
-
     MsgBox "Site: " & boSite("name")
-
     boSite.MoveNext
-
   Wend
+```

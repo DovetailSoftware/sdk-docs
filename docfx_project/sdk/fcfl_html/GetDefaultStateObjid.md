@@ -41,15 +41,11 @@ A long integer containing the objid of the default state_prov for a given countr
 The following example retrieves the objid of the default state for a given country.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
-//If the customer didn't give us a state, use the default If (StateObjid == 0)
-
+```
+//If the customer didn't give us a state, use the default 
+if(StateObjid == 0)
 {
-
-var defCountry = FCApp.GetDefaultCountry();
-
-StateObjid = FCApp.GetDefaultStateObjid(defCountry);
-
+	var defCountry = FCApp.GetDefaultCountry();
+	StateObjid = FCApp.GetDefaultStateObjid(defCountry);
 }
+```

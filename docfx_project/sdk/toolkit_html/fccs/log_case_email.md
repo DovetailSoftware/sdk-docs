@@ -106,163 +106,129 @@ The objid of the status change record is returned in the FCCS object variable _r
 
 #### Examples
 
- Create an email to send to 'joe@fred.com' for case C154. Set the message for the log, and no other information. Do not send the email, just log it. Generate a time bomb.
+Create an email to send to 'joe@fred.com' for case C154. Set the message for the log, and no other information. Do not send the email, just log it. Generate a time bomb.
 
 **Field version:**
 
 **JavaScript:**
-
+```
    var ret_int = fccs.log_case_email("C154", "", "", "Email message",
-
-            "joe@fred.com", "", "", "", "", "", "", 0, true, "", 0, true, false,
-
-            "", 0, "", 0, "", "", "", "", "", "");
+        "joe@fred.com", "", "", "", "", "", "", 0, true, "", 0, true, false,
+        "", 0, "", 0, "", "", "", "", "", "");
+```
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+   Dim ret_int As Integer
 
    ret_int = fccs.log_case_email("C154", "", "", "Email message", _
-          "joe@fred.com", "", "", "", "", "", "", 0, True, "", 0, True, False, _
-          "", 0, "", 0, "", "", "", "", "", "")
+       "joe@fred.com", "", "", "", "", "", "", 0, True, "", 0, True, False, _
+       "", 0, "", 0, "", "", "", "", "", "")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
    var ret_int = fccs.log_case_email_list("C154", "", "", "Email message",
-
-              "joe@fred.com", "", "", "", "", "", "", 0, true, "", 0,
-
-  true, false);
-
-**Visual Basic:**
-
-   Dim ret_int     As Integer
+        "joe@fred.com", "", "", "", "", "", "", 0, true, "", 0, true, false);
 ```
 
-   ret_int = fccs.log_case_email_list("C154", "", "", "Email message", _
-              "joe@fred.com", "", "", "", "", "", "", 0, True, "", _
-              0, True, False)
+**Visual Basic:**
+```
+Dim ret_int As Integer
 
- Send an email for case '2' with a recieipient, and a list of "cc" recipients. Send as internal email. Send from "sam", on November 23, 1997 at 10PM. Change the status to "Working". Also, create a commitment for January 1, 1999 at 8:00AM, with a title, notes, and a prior warning of 1 hour (with the commitment being made by the contact). Generate some additional fields, but do not generate a time bomb. Send the email.
+ret_int = fccs.log_case_email_list("C154", "", "", "Email message", _
+         "joe@fred.com", "", "", "", "", "", "", 0, True, "", 0, True, False)
+```
+
+Send an email for case '2' with a recieipient, and a list of "cc" recipients. Send as internal email. Send from "sam", on November 23, 1997 at 10PM. Change the status to "Working". Also, create a commitment for January 1, 1999 at 8:00AM, with a title, notes, and a prior warning of 1 hour (with the commitment being made by the contact). Generate some additional fields, but do not generate a time bomb. Send the email.
 
 **Field version:**
 
 **JavaScript:**
-
+```
    var ret_int = fccs.log_case_email("2", "Internal Email",
-
            "11/23/97 22:00:00", "Email message", "joe@fred.com",
-
            "mary@fred.com, cathy@fred.com", "sam", "Working",
-
            "Commit title", "Commit notes", "1/1/1999 8:00:00",
-
-              3600, false, "", 0, false, true,
-
+           3600, false, "", 0, false, true,
            "x_close_int1", 1, "x_close_int2", 456,
-
            "x_summary2", "More text", "", "",
-
            "x_other_date", "1/1/99");            
-
-**Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
 
-   ret_int = fccs.log_case_email("2", "Internal Email", _
-              "11/23/97 22:00:00", "Email message", "joe@fred.com", _
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
+ret_int = fccs.log_case_email("2", "Internal Email", _
+           "11/23/97 22:00:00", "Email message", "joe@fred.com", _
            "mary@fred.com, cathy@fred.com", "sam", "Working", _
            "Commit title", "Commit notes", "1/1/1999 8:00:00", _
-              3600, False, "", 0, False, True, _
+           3600, False, "", 0, False, True, _
            "x_close_int1", 1, "x_close_int2", 456, _
            "x_summary2", "More text", "", "", _
-  "x_other_date", "1/1/99")        
+		   "x_other_date", "1/1/99")        
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFL.FCList");
-
 var type_list = Server.CreateObject("FCFL.FCList");
-
 var val_list  = Server.CreateObject("FCFL.FCList");
 
 fld_list.AppendItem("x_close_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem ("1");
 
 fld_list.AppendItem("x_close_int2");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem ("456");
 
 fld_list.AppendItem("x_summary2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("x_other_date");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
-   var ret_int = fccs.log_case_email("2", "Internal Email",
-
+var ret_int = fccs.log_case_email("2", "Internal Email",
            "11/23/97 22:00:00", "Email message", "joe@fred.com",
-
            "mary@fred.com, cathy@fred.com", "sam", "Working",
-
            "Commit title", "Commit notes", "1/1/1999 8:00:00",
-
-              3600, false, false, "", 0, true, fld_list, type_list, val_list);
-
-**Visual Basic:**
-
-   Dim ret_int     As Integer
+           3600, false, false, "", 0, true, fld_list, type_list, val_list);
 ```
 
-   Dim fld_list    As New List
-
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim fld_list    As New List
 Dim type_list   As New List
-
 Dim val_list    As New List
 
 fld_list.AppendItem "x_close_int1"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(1))
 
 fld_list.AppendItem "x_close_int2"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(456))
 
 fld_list.AppendItem "x_summary2"
-
 type_list.AppendItem "String"
-
 val_list.AppendItem "More text"
 
 fld_list.AppendItem "x_other_date"
-
 type_list.AppendItem "Date"
-
 val_list.AppendItem "1/1/99"
 
-   ret_int = fccs.log_case_email("2", "Internal Email", _
-              "11/23/97 22:00:00", "Email message", "joe@fred.com", _
-           "mary@fred.com, cathy@fred.com", "sam", "Working", _
-           "Commit title", "Commit notes", "1/1/1999 8:00:00", _
-              3600, False, "", 0, False, True, fld_list, type_list, val_list)
+ret_int = fccs.log_case_email("2", "Internal Email", _
+          "11/23/97 22:00:00", "Email message", "joe@fred.com", _
+          "mary@fred.com, cathy@fred.com", "sam", "Working", _
+          "Commit title", "Commit notes", "1/1/1999 8:00:00", _
+          3600, False, "", 0, False, True, fld_list, type_list, val_list)
+```

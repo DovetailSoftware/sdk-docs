@@ -31,5 +31,6 @@ This API will delete material usage applied to a depot repair part.
 Delete material log 268435463.
 
 **JavaScript:**
-
+```
 var retval = FCDR.delete_dr_mtl(268435463, "");
+```

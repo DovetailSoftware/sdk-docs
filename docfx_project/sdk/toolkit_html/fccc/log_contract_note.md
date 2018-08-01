@@ -67,14 +67,15 @@ This API causes a note log to be create and added to the specified contract.  I
 Move quote number '154' to the default WIPBin for the current owner.
 
 **JavaScript:**
-
-Var ret_int = log_contract_note("Ace contract","","They want to add more stuff"     
-                      ,1,"","",true,"",0,"",0,"","","","","","")  
-  
+```
+Var ret_int = log_contract_note("Ace contract","","They want to add stuff",
+                      1,"","",true,"",0,"",0,"","","","","","")  
+```
 
 **Visual Basic:**
+```
+Dim ret_int As Integer
 
-    Dim ret_int As Integer
-
-ret_int = log_contract_note("Ace contract","","They want to add more stuff"     
-                      ,1,"","",true,"",0,"",0,"","","","","","")
+ret_int = log_contract_note("Ace contract","","They want to add stuff",
+                      1,"","",true,"",0,"",0,"","","","","","")
+```

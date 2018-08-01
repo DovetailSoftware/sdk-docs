@@ -42,28 +42,22 @@ The results of the API are returned in the string _ret_id_num_. The values are s
 Preclose subcase number 'C154-1'. Get the value for the captured phone logs, and for the captured billable expenses.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.preclose_subcase("C154-1");
-
 var c_phone = fc_session.GetItem(fccs.ret_id_num, 1, 1, "|");
-
 var c_bill = fc_session.GetItem(fccs.ret_id_num, 6, 6, "|");
-
-**Visual Basic:**
-
-   Const PIPE      =  "|"
-     Dim ret_int     As Integer
 ```
 
+**Visual Basic:**
+```
+Const PIPE      =  "|"
+Dim ret_int As Integer
 Dim c_phone     As Long
-
 Dim t_phone     As Long
-
 Dim c_bill      As Long
-
 Dim t_bill      As Long  
 ret_int = fccs.preclose_subcase("C154-1")
 
 c_phone = CLng(fc_session.GetItem(fccs.ret_id_num, 1, 1, PIPE))
-
 c_bill = CLng(fc_session.GetItem(fccs.ret_id_num, 6, 6, PIPE))
+```

@@ -42,29 +42,29 @@ The API checks both the country name and the ISO code. If either is found in the
 Add a country named 'Fooland' with a country code of 42. Add no new currency.
 
 **Visual Basic:**
+```
+Dim ret_int As Integer
 
-Dim ret_int       As Integer
+ret_int = fcinter.create_country("Fooland", 42, "", "", "", 0, "")
 ```
 
-ret_int = fcinter.create_country("Fooland", 42, "", "", "", _
-                                 0, "")
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_country("Fooland", 42, "", "", "", 0, "")
-  
+```
+
 Add a country named 'Fooland' with a country code of 42. Add a currency for the country.
 
 **Visual Basic:**
-
-Dim ret_int       As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcinter.create_country("Fooland", 42, "FD", "F$", _
                                  "Foo Dollars", 4.3, "FDD")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_country("Fooland", 42, "FD", "F$",
-
                                      "Foo Dollars", 4.3, "FDD")
+```

@@ -26,31 +26,18 @@ A string containing the name of the default country. If a country has not been s
 The following example builds a drop-down list of countries. The default country is selected.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 <SELECT NAME="Country">
-
 <%
-
 var defCountry = FCApp.GetDefaultCountry();
-
 var CountryList = FCApp.GetCountryList();
-
 while (! CountryList.EOF) { %>
-
   <option
-
   <% if (CountryList("name") == defCountry) { %>
-
   selected = true <% } %> >
-
   <%=CountryList("name")%>
-
   <% CountryList.MoveNext; %>
-
   </option>
-
 <% } %>
-
 </SELECT>
+```

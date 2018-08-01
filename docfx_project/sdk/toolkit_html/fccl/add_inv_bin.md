@@ -34,23 +34,27 @@ This API is used to add inventory bins to existing locations. The bin name can b
 Add a bin at the "Austin" site named "Bin 42". It is active
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.add_inv_bin("Bin 42", "Austin", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.add_inv_bin("Bin 42", "Austin", true);
+```
 
 Add an inactive bin named "Bin ABZ" in San Jose.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.add_inv_bin("Bin ABZ", "San Jose", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.add_inv_bin("Bin ABZ", "San Jose", false);
+```

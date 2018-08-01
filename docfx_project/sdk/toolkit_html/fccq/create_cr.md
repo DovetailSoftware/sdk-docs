@@ -116,149 +116,99 @@ If you specify a queue name, the CR will be initially dispatched to the queue. O
 | ret_objid | Output - Returns the objid of the change request |
 | ret_id_num | Output - Returns the id of the change request |
 
-**Examples**
+#### Examples
 
 Create a new change request. Specify the part of MS Word, revision 1.2. Use the default values for the code list, and generate a time bomb. Add notes from the file "note.txt", and dispatch to queue "High".  The second field version illustrates how to set additional fields.
 
 **Field version 1:**
 
 **Visual Basic:**
-  
-   Dim ret_int   As Integer
-```
-
+```  
+Dim ret_int As Integer
 Dim bug_id_num  As String
-
 Dim bug_objid   As Long
 
-ret_int = fccq.create_cr("MS Word"", "1.2", "Product", _
-                         "CR Title", _
+ret_int = fccq.create_cr("MS Word"", "1.2", "Product", "CR Title", _
                 "", "note.txt", "", "", "", "", "", "", _
                 "", "", "", "", "Some tests to run", _
-                "High", _
-          "", "", True, "", 0, "", 0, "", "", "", _
-          "", "", "")
+                "High", "", "", True, "", 0, "", 0, "", "", "", _
+                "", "", "")
 
  If ret_int = 0 Then
-  
    bug_id_num = fccq.ret_id_num
+   bug_objid = fccq.ret_objid
+ End If  
+```
 
-      bug_objid = fccq.ret_objid
-
-   End If  
-  
 **JavaScript:**
-
+```
 var ret_int = fccq.create_cr("MS Word"", "1.2", "Product",
-  
-   "CR Title",
-  
-   "", "note.txt", "", "", "", "", "", "",
-
-                "", "", "", "", "Some tests to run",
-
-                "High",
-
-          "", "", true, "", 0, "", 0, "", "", "",  
-  
-          "", "", "");
+   "CR Title", "", "note.txt", "", "", "", "", "", "",
+   "", "", "", "", "Some tests to run", "High",
+   "", "", true, "", 0, "", 0, "", "", "", "", "", "");
 
  if (ret_int == 0) {
-  
    var bug_id_num = fccq.ret_id_num;
-
-      var bug_objid = fccq.ret_objid;
-  
-   }
+   var bug_objid = fccq.ret_objid;
+ }
+```
 
 **Field version 2:**
 
- **Visual Basic:**
-
-Dim ret_int     As Integer
+**Visual Basic:**
 ```
-
+Dim ret_int As Integer
 Dim bug_id_num  As String
-
 Dim bug_objid   As Long
 
-ret_int = fccq.create_cr("MS Word"", "1.2", "Product", _
-                         "CR Title", _
-                "", "note.txt", "", "", "", "", "", "", _
-                "", "", "", "", "Some tests to run", _
-                "High", _
+ret_int = fccq.create_cr("MS Word"", "1.2", "Product", "CR Title", _
+          "", "note.txt", "", "", "", "", "", "", _
+          "", "", "", "", "Some tests to run", "High", _
           "", "", True, "x_create_1", 1, "x_create_2", 2,
-  
-   "x_summary2", "More text", "", "", _
-          "x_other_date", "1/1/99")
+          "x_summary2", "More text", "", "", "x_other_date", "1/1/99")
 
  If ret_int = 0 Then
-  
    bug_id_num = fccq.ret_id_num
+   bug_objid = fccq.ret_objid
+ End If  
+```
 
-      bug_objid = fccq.ret_objid
-
-   End If  
-  
 **JavaScript:**
-
-var ret_int = fccq.create_cr("MS Word"", "1.2", "Product",
-  
-   "CR Title",
-  
-   "", "note.txt", "", "", "", "", "", "",
-
-                "", "", "", "", "Some tests to run",
-
-                "High",
-
-          "", "", true, "x_create_1", 1, "x_create_2", 2,
-
-          "x_summary2", "More text", "", "",  
-  
-          "x_other_date", "1/1/99");
+```
+var ret_int = fccq.create_cr("MS Word"", "1.2", "Product", "CR Title",
+      "", "note.txt", "", "", "", "", "", "",
+      "", "", "", "", "Some tests to run", "High",
+      "", "", true, "x_create_1", 1, "x_create_2", 2,
+      "x_summary2", "More text", "", "", "x_other_date", "1/1/99");
 
  if (ret_int == 0) {
-  
    var bug_id_num = fccq.ret_id_num;
-
-      var bug_objid = fccq.ret_objid;
-  
-   }
+   var bug_objid = fccq.ret_objid;
+ }
+```
 
 **List version:**
 
 **Visual Basic:**
-
+```
 Dim bug_id_num  As String
-
 Dim bug_objid   As Long
   
-   Dim ret_int     As Integer
-```
-
+Dim ret_int As Integer
 Dim fld_list    As New FCFLCompat.FCList
-
 Dim type_list   As New FCFLCompat.FCList
-
 Dim val_list    As New FCFLCompat.FCList
   
 fld_list.AppendItem("dist");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("456");
 
 fld_list.AppendItem("attribute2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("date_found");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
 ret_int = fccq.create_cr_list("MS Word", "1.2", "Product", _
@@ -270,57 +220,36 @@ ret_int = fccq.create_cr_list("MS Word", "1.2", "Product", _
                               fld_list, type_list, val_list)
 
  If ret_int = 0 Then
-  
    bug_id_num = fccq.ret_id_num
-  
    bug_objid = fccq.ret_objid
+ End If  
+```
 
-   End If  
-  
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 fld_list.AppendItem("dist");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("456");
 
 fld_list.AppendItem("attribute2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("date_found");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccq.create_cr_list("MS Word", "1.2", "Product",
-  
-   "CR Title", "", "note.txt", "",
-  
-   "", "", "",
-
-                              "", "", "", "", "", "",
-
-                              "Some tests to run",
-
-                              "High", "", "", true,
-
-                              fld_list, type_list, val_list)  
+   "CR Title", "", "note.txt", "", "", "", "",
+   "", "", "", "", "", "", "Some tests to run",
+   "High", "", "", true, fld_list, type_list, val_list)  
   
  if (ret_int == 0) {
-  
    var bug_id_num = fccq.ret_id_num;
-
-      var bug_objid = fccq.ret_objid;
-  
-   }
+   var bug_objid = fccq.ret_objid;
+ }
+```

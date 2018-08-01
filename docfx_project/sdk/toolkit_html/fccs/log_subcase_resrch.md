@@ -91,151 +91,120 @@ The objid of the status change record is returned in the FCCS object variable _r
 
 #### Examples
 
- Create a research log of 4 minutes for subcase number 'C154-1'. Set the notes for the log, and no other information. Generate a time bomb.
+Create a research log of 4 minutes for subcase number 'C154-1'. Set the notes for the log, and no other information. Generate a time bomb.
 
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fccs.log_subcase_resrch("C154-1", "", "Some notes", "",
-
               "", 240, "", "", "", "", "", 0, true, true,
-
               "", 0, "", 0, "", "", "", "", "", "");
+```
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccs.log_subcase_resrch("C154-1", "", "Some notes", "", _
               "", 240, "", "", "", "", "", 0, True, True, _
               "", 0, "", 0, "", "", "", "", "", "")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var ret_int = fccs.log_subcase_resrch_list("C154-1", "", "Some notes", "",
-
               "", 240, "", "", "", "", "", 0, true, true);
+```
 
 **Visual Basic:**
-
-   Dim ret_int     As Integer
 ```
+   Dim ret_int As Integer
 
 ret_int = fccs.log_subcase_resrch_list("C154-1", "", "Some notes", "", _
               "", 240, "", "", "", "", "", 0, True, True)
+```
 
- Create a 3 minute research log for subcase number '2-2'. Set action code of 'Engineering Research', some note text, and internal use only text. Have the note logged by marty on November 23, 1997 at 10PM. Change the status to "Working". Also, create a commitment for January 1, 1999 at 8:00AM, with a title, notes, and a prior warning of 1 hour (with the commitment being made by the contact). Generate some additional fields, but do not generate a time bomb.
+Create a 3 minute research log for subcase number '2-2'. Set action code of 'Engineering Research', some note text, and internal use only text. Have the note logged by marty on November 23, 1997 at 10PM. Change the status to "Working". Also, create a commitment for January 1, 1999 at 8:00AM, with a title, notes, and a prior warning of 1 hour (with the commitment being made by the contact). Generate some additional fields, but do not generate a time bomb.
 
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fccs.log_subcase_resrch("2-2", "Engineering Research",
-
              "Some notes", "Internal use", "11/23/97 22:00:00", 180,
-
              "marty", "Working", "Commit title", "Commit notes",
-
              "1/1/1999 8:00:00", 3600, false, true, "x_close_int1",
-
              1, "x_close_int2", 456, "x_summary2", "More text",
-
              "", "", "x_other_date", "1/1/99");
+```
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccs.log_subcase_resrch("2-2", "Engineering Research", _
              "Some notes", _
              "Internal use", "11/23/97 22:00:00", 180, "marty", _
              "Working", "Commit title", "Commit notes", "1/1/1999 8:00:00", _
              3600, False, True, "x_close_int1", 1, "x_close_int2", 456, _
-             "x_summary2", "More text", "", "", "x_other_date", _
-             "1/1/99")
+             "x_summary2", "More text", "", "", "x_other_date", "1/1/99")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFL.FCList");
-
 var type_list = Server.CreateObject("FCFL.FCList");
-
 var val_list  = Server.CreateObject("FCFL.FCList");
 
 fld_list.AppendItem("x_close_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem ("1");
 
 fld_list.AppendItem("x_close_int2");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem ("456");
 
 fld_list.AppendItem("x_summary2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("x_other_date");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccs.log_subcase_resrch_list("2-2", "Engineering Research",
-
              "Some notes", "Internal use", "11/23/97 22:00:00", 180,
-
              "marty", "Working", "Commit title", "Commit notes",
-
              "1/1/1999 8:00:00", 3600, false, true, fld_list,
-
              type_list, val_list);
-
-**Visual Basic:**
-
-   Dim ret_int     As Integer
 ```
 
-   Dim fld_list    As New List
-
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim fld_list    As New List
 Dim type_list   As New List
-
 Dim val_list    As New List
 
 fld_list.AppendItem "x_close_int1"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(1))
 
 fld_list.AppendItem "x_close_int2"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(456))
 
 fld_list.AppendItem "x_summary2"
-
 type_list.AppendItem "String"
-
 val_list.AppendItem "More text"
 
 fld_list.AppendItem "x_other_date"
-
 type_list.AppendItem "Date"
-
 val_list.AppendItem "1/1/99"
 
 ret_int = fccs.log_subcase_resrch_list("2-2", "Engineering Research", _
@@ -243,3 +212,4 @@ ret_int = fccs.log_subcase_resrch_list("2-2", "Engineering Research", _
              "marty", "Working", "Commit title", "Commit notes", _
              "1/1/1999 8:00:00", 3600, False, True, fld_list, _
              type_list, val_list)
+```

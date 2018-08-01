@@ -42,26 +42,29 @@ This API cause the specified subcase to be assigned to a new user. The subcase m
 Assign subcase number '10-1' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.assign_subcase("10-1", "marty", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.assign_subcase("10-1", "marty", "", "", "", True)
+```
 
-*  Assign subcase number '2'-3 at 10PM on November 23rd of 1997 to marty, and place the subcase in marty's WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb.
+Assign subcase number '2'-3 at 10PM on November 23rd of 1997 to marty, and place the subcase in marty's WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.assign_subcase("2-3", "marty", "Urgent",
-
                                "11/23/97 22:00:00", "sam", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.assign_subcase("2-3", "marty", "Urgent", _
                            "11/23/97 22:00:00", "sam", False)
+```

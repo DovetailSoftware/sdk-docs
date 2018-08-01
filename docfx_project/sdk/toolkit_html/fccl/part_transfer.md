@@ -121,13 +121,10 @@ To do this, specify (in the trans_id argument), the transaction ID of the previo
 Transfer 20 units of Accounting 101 from an expense GL account to the primary bin in Austin. All stock is good. Use FIFO costing.
 
 **Visual Basic:**
-
-    Dim ret_int   As Integer
 ```
-
-    Dim trans_id  As String
-
-    Dim std_cost  As String
+Dim ret_int As Integer
+Dim trans_id  As String
+Dim std_cost  As String
 
 ret_int = fccl.part_transfer("Accounting", "101", "QuantityDomain", 20, _
                   "", "EXPGL", "", "", True, "Austin", _
@@ -135,102 +132,86 @@ ret_int = fccl.part_transfer("Accounting", "101", "QuantityDomain", 20, _
                   True, 1, "", "", "", "")
 
 trans_id = fccl.ret_string
-
 std_cost = CStr(fccl.ret_num)
-
-**Javascript:**
-
-var ret_int = fccl.part_transfer("Accounting", "101", "QuantityDomain", 20,
-
-                       "", "EXPGL", "", "", True, "Austin",
-
-                       "PRIM_BIN_REC", "", True, "", "", "", "",
-
-                       True, 1, "", "", "", "");
-
- Transfer MS Word 7.0, serial number 555666 from Austin Bin 2 to San Jose Bin "Receiving". The inventory was good, but is now marked as bad (for Quality Control). Fred did the transfer on July 30th at 5:13 AM. Add notes and a ref ID, and don't generate a time bomb. Don't use FIFO costing.
-
-**Visual Basic:**
-
-Dim ret_int   As Integer
 ```
 
-Dim trans_id  As String
+**JavaScript:**
+```
+var ret_int = fccl.part_transfer("Accounting", "101", "QuantityDomain", 20,
+                       "", "EXPGL", "", "", True, "Austin",
+                       "PRIM_BIN_REC", "", True, "", "", "", "",
+                       True, 1, "", "", "", "");
+```
 
+Transfer MS Word 7.0, serial number 555666 from Austin Bin 2 to San Jose Bin "Receiving". The inventory was good, but is now marked as bad (for Quality Control). Fred did the transfer on July 30th at 5:13 AM. Add notes and a ref ID, and don't generate a time bomb. Don't use FIFO costing.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim trans_id  As String
 Dim std_cost  As String
 
 ret_int = fccl.part_transfer("MS Word", "7.0", "Product", 1, "555666", _
-                            "Austin", "Bin 1", "", True, "San Jose", _
-                            "Receiving", "", False, "fred", "7/30/2001 5:13:00", _
-                            "Ref ID3", "Some notes", False, 0, "", "", "", "")
+                        "Austin", "Bin 1", "", True, "San Jose", _
+                        "Receiving", "", False, "fred", "7/30/2001 5:13:00", _
+                        "Ref ID3", "Some notes", False, 0, "", "", "", "")
 
 trans_id = fccl.ret_string
-
 std_cost = CStr(fccl.ret_num)
-
-**Javascript:**
-
-var ret_int = fccl.part_transfer("MS Word", "7.0", "Product", 1, "555666",
-
-                            "Austin", "Bin 1", "", True, "San Jose",
-
-                            "Receiving", "", False, "fred", "7/30/2001 5:13:00",
-
-                            "Ref ID3", "Some notes", False, 0, "", "", "", "");
-
- Transfer 15 units of the Notebook part from expense GL 'EXPGL' to Austin Container 44 (name of Fred). The inventory was good, but is now marked as bad (for Quality Control). Fred did the transfer on July 30th at 5:13 AM. Add notes and a ref ID, and don't generate a time bomb. Use FIFO costing, and specify the cost and source.
-
-**Visual Basic:**
-
-Dim ret_int   As Integer
 ```
 
-Dim trans_id  As String
+**JavaScript:**
+```
+var ret_int = fccl.part_transfer("MS Word", "7.0", "Product", 1, "555666",
+                        "Austin", "Bin 1", "", True, "San Jose",
+                        "Receiving", "", False, "fred", "7/30/2001 5:13:00",
+                        "Ref ID3", "Some notes", False, 0, "", "", "", "");
+```
 
+Transfer 15 units of the Notebook part from expense GL 'EXPGL' to Austin Container 44 (name of Fred). The inventory was good, but is now marked as bad (for Quality Control). Fred did the transfer on July 30th at 5:13 AM. Add notes and a ref ID, and don't generate a time bomb. Use FIFO costing, and specify the cost and source.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim trans_id  As String
 Dim std_cost  As String
 
 ret_int = fccl.part_transfer("Notebook", "", "Product", 15, "", _
-                            "EXPGL", "", "", True, "Austin", "Fred", "44", _
-                             False, "fred", "7/30/2001 5:13:00", "Ref ID3", _                        
-
-                            "Some notes", False, 1, ".34", "MySource", "", "")
+                        "EXPGL", "", "", True, "Austin", "Fred", "44", _
+                        False, "fred", "7/30/2001 5:13:00", "Ref ID3", _
+                        "Some notes", False, 1, ".34", "MySource", "", "")
 
 trans_id = fccl.ret_string
-
 std_cost = CStr(fccl.ret_num)
-
-**Javascript:**
-
-var ret_int = fccl.part_transfer("Notebook", "", "Product", 15, "",
-
-                            "EXPGL", "", "", True, "Austin", "Fred", "44",
-
-                             False, "fred", "7/30/2001 5:13:00", "Ref ID3",                         
-
-                            "Some notes", False, 1, ".34", "MySource", "", "");
-
-  Add 4 units to part transfer '42'. Generate a time bomb, and use FIFO costing.
-
-**Visual Basic:**
-
-Dim ret_int   As Integer
 ```
 
-Dim trans_id  As String
+**JavaScript:**
+```
+var ret_int = fccl.part_transfer("Notebook", "", "Product", 15, "",
+                    "EXPGL", "", "", True, "Austin", "Fred", "44",
+                    False, "fred", "7/30/2001 5:13:00", "Ref ID3",
+                    "Some notes", False, 1, ".34", "MySource", "", "");
+```
 
+Add 4 units to part transfer '42'. Generate a time bomb, and use FIFO costing.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim trans_id  As String
 Dim std_cost  As String
 
 trans_id = "42"
 
 ret_int = fccl.part_transfer("", "", "", 4, "", "", "", "", True, "", "", "", _
-                            True, "", "", "", "", True, 1, "", "", trans_id, "")
+                        True, "", "", "", "", True, 1, "", "", trans_id, "")
 
 trans_id = fccl.ret_string
-
 std_cost = CStr(fccl.ret_num)
+```
 
-**Javascript:**
-
-var ret_int = fccl.part_transfer("", "", "", 4, "", "", "", "", true, "", "", "",
-
-                            true, "", "", "", "", true, 1, "", "", trans_id, "");
+**JavaScript:**
+```
+var ret_int = fccl.part_transfer("", "", "", 4, "", "", "", "", true, 
+			"", "", "", true, "", "", "", "", true, 1, "", "", trans_id, "");
+```

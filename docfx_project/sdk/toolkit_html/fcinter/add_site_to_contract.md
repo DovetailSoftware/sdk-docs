@@ -30,25 +30,23 @@ This API adds a site to an existing contract. You must specify the contract ID a
 
 #### Examples
 
- Add site "2" to contract "AMD 1"
+Add site "2" to contract "AMD 1"
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim site_objid As Long
 
 ret_int = fcinter.add_site_to_contract("AMD 1", "2")
 
  If ret_int = 0 Then
+   site_objid = fcinter.ret_objid
+ End If
+```
 
-      site_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.add_site_to_contract("AMD 1", "2");
 
  if (ret_int == 0){ var site_objid = fcinter.ret_objid; }
+```

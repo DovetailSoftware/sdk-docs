@@ -30,25 +30,23 @@ This API allows you to add a user (or supervisor) to a queue.
 
 #### Examples
 
- Add "joe" to queue "Urgent" as a supervisor
+Add "joe" to queue "Urgent" as a supervisor
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim user_objid As Long
 
 ret_int = fcinter.add_user_to_queue("Urgent", "joe", true)
 
  If ret_int = 0 Then
+   user_objid = fcinter.ret_objid
+ End If
+```
 
-      user_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.add_user_to_queue("Urgent", "joe", true);
 
  if (ret_int == 0){ var user_objid = fcinter.ret_objid; }
+```

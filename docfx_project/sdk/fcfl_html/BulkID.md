@@ -23,51 +23,35 @@ However, changing the value stored in this property could cause errors with othe
 The following example creates two new generic objects, assigns them to bulks, and prints the BulkIDs for each.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Create the first object
-
   var boObj1 = FCSession.CreateGeneric();
-
   boObj1.SimpleQuery("part_num");
-
   boObj1.BulkName = "my_bulk1";
 
   // Create the other object. Put it in the same bulk as the first
-
   var boObj2 = FCSession.CreateGeneric();
-
   boObj2.SimpleQuery("part_num");
-
   boObj2.BulkName = "my_bulk2";
 
   // Show that the bulks are now the same
-
   Response.Write ("Bulk 1 ID is: " + boObj1.Bulk.BulkID); 
-
   Response.Write ("Bulk 2 ID is: " + boObj2.Bulk.BulkID);
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boObj1 As FCGeneric
-
   Dim boObj2 As FCGeneric
 
   Set boObj1 = fc_session.CreateGeneric
-
   boObj1.SimpleQuery "part_num"
-
   boObj1.BulkName = "my_bulk1"
 
   Set boObj2 = fc_session.CreateGeneric
-
   boObj2.SimpleQuery "part_num"
-
   boObj2.BulkName = "my_bulk2"
 
   MsgBox "Bulk 1 ID is: " & boObj1.Bulk.BulkID
-
   MsgBox "Bulk 2 ID is: " & boObj2.Bulk.BulkID
+```

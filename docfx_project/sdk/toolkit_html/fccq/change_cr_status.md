@@ -41,34 +41,35 @@ This API causes the specified change request to have its status changed. The cha
 | -16 | New status not found for new condition |
 | -17 | Cannot find the specified user's employee record for relating time bomb |
 
-**Examples**
+#### Examples
 
 Change status for change request number '10' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.change_cr_status("10", "", "", "", "", True)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.change_cr_status("10", "", "", "", "", true);
+```
 
- Change status for change request number '2' at 10PM on November 23rd of 1997 to 'Solved'. Change status has notes of 'Some notes', and  should be logged as performed by mark. Don't generate a time bomb.
+Change status for change request number '2' at 10PM on November 23rd of 1997 to 'Solved'. Change status has notes of 'Some notes', and  should be logged as performed by mark. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.change_cr_status("2", "Solved", _
                                 "11/23/97 22:00:00", _
                                 "Some notes", "mark", False)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.change_cr_status("2", "Solved",
- 
-  "11/23/97 22:00:00",
- 
-                                "Some notes", "mark", false);
+   	"11/23/97 22:00:00", "Some notes", "mark", false);
+```

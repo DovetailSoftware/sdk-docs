@@ -41,15 +41,13 @@ This API allows a case to be linked to a specific workaround. The case cannot al
 Link case '55' to workaround 268435676 at the current date/time by the current user. Generate time bombs.
 
 **Visual Basic:**
+```
+Dim ret_int As Integer
 
-Dim ret_int    As Integer
+ret_int = fcinter.link_case_to_workaround("55", 268435676, "", "", true)
 ```
 
-ret_int = fcinter.link_case_to_workaround("55", 268435676, _
-                                          "", "", true)
-
-**Javascript:**
-
-var ret_int = fcinter.link_case_to_workaround("55", 268435676,
-
-                                          "", "", true);
+**JavaScript:**
+```
+var ret_int = fcinter.link_case_to_workaround("55", 268435676, "", "", true);
+```

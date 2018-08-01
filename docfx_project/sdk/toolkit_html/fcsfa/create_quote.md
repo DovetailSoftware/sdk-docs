@@ -122,88 +122,69 @@ The ID of the newly-created quote will be returned in _fcsfa.ret_id_num_. The ob
 
 #### Examples
 
- Create a new quote good for 60 days. Relate it to account "AN_CUST1", site "1", and opportunity "4". Relate it to a contact, and set the status to "Need Approval". Relate the bill-to and ship-to sites to "4" and "6". Use the default currency and do not dispatch to a queue. Set the administrator to "Fred", and the user to "Marty". Set an extra string field on the contract, and one on the contr_schedule.
+Create a new quote good for 60 days. Relate it to account "AN_CUST1", site "1", and opportunity "4". Relate it to a contact, and set the status to "Need Approval". Relate the bill-to and ship-to sites to "4" and "6". Use the default currency and do not dispatch to a queue. Set the administrator to "Fred", and the user to "Marty". Set an extra string field on the contract, and one on the contr_schedule.
 
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4",
-
-                       "Test", "Customer", "222-2222", "Need Approval", "4",
-
-                       "6", "", "", "fred", "", "marty", 60, true,
-
-                       "", 0, "", 0, "x_fld", "The value", "sched:x_sched_field",
-
-                       "Field on contract schedule", "", "");
+                     "Test", "Customer", "222-2222", "Need Approval", "4",
+                     "6", "", "", "fred", "", "marty", 60, true,
+                     "", 0, "", 0, "x_fld", "The value", "sched:x_sched_field",
+                     "Field on contract schedule", "", "");
+```
 
 **Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4", _
                    "Test", "Customer", "222-2222", "Need Approval", "4", _
                    "6", "", "", "fred", "", "marty", 60, True, _
                    "", 0, "", 0, "x_fld", "The value", "sched:x_sched_field",
-
                    "Field on contract schedule", "", "")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
-
 var type_list = Server.CreateObject("FCFLCOMPAT.FCLIST");
-
 var val_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 
 fld_list.AppendItem("x_fld");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("The value");
 
 fld_list.AppendItem("sched:x_sched_field");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("Field on contract schedule");
 
 var ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4",
-
                        "Test", "Customer", "222-2222", "Need Approval", "4",
-
                        "6", "", "", "fred", "", "marty", 60, true,
-
                         type_list, val_list);
-
-**Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim fld_list   As New FCList
-
 Dim type_list  As New FCList
-
 Dim val_list   As New FCList
 
 fld_list.AppendItem("x_objective")
-
 type_list.AppendItem("String")
-
 val_list.AppendItem("foobar")
 
 fld_list.AppendItem("sched:x_sched_field")
-
 type_list.AppendItem("String")
-
 val_list.AppendItem("Field on contract schedule")
 
 ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4", _
                    "Test", "Customer", "222-2222", "Need Approval", "4", _
                    "6", "", "", "fred", "", "marty", 60, True, _
-       type_list, val_list)
+			       type_list, val_list)
+```

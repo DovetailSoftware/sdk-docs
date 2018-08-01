@@ -60,17 +60,17 @@ This API modifies an existing  part restocking authorization level. The locatio
 Move the restock record from bin 2 to bin 3. Change the queue from high to low, and don't change the minimum or maximum.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.mod_part_stocking_lev("Bin 2", "Bin 3", "Austin", "High", _
                        "Low", "CD Rom", "", "Quantity", -1, -1, _
                        15, 2, True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.mod_part_stocking_lev("Bin 2", "Bin 3", "Austin", "High",
-
                        "Low", "CD Rom", "", "Quantity", -1, -1,
-
                        15, 2, True);
+```

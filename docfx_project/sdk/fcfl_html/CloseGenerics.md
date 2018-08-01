@@ -29,7 +29,8 @@ This method closes and  frees all resources and references for up to 10 FCGener
 
 This method will check to see if the object has been created. If it hasn't, it ignores it. This allows you to use a standard cleanup procedure to close all of your Fcgeneric objects, even if they haven't yet been created using the CreateGeneric method.
 
-**Note**: This method should be used in Visual Basic **ONLY**. Since VBScript and JavaScript do not support ByRef arguments, this method will not work in those environments.
+**Note**: This method should be used in **Visual Basic:**
+``` **ONLY**. Since VBScript and JavaScript do not support ByRef arguments, this method will not work in those environments.
 
 #### Parameters
 
@@ -52,31 +53,21 @@ This method will check to see if the object has been created. If it hasn't, it i
 The following example closes 3 FCGeneric Objects
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 FCSession.CloseGenerics(3,boCase,boContact,boSite);
+```
 
 The following example closes 10 FCGeneric Objects before exiting a function.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 If Not FCApp.RankIsInGbstLst("Activity Name", stat_code) Then
-
   'Cleanup, Error, & Exit
-
     CloseGenerics 10, obj_rec, old_stat_rec, user_rec, emp_rec, _
-
  parent_rec, stat_lst_rec, cond_rec, tb_rec, _
-
  act_rec, stat_rec
-
     Err.Raise -5, ObjectName, _
-
          "Cannot find the activity string with rank = " & stat_code
-
     Exit Function
-
-  End If
+End If
+```

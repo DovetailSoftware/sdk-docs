@@ -34,16 +34,18 @@ This API can be used to determine if a particular user can change status from an
 | -11 | Old status not found for old condition |
 | -12 | New status not found for new condition |
 
-**Examples**
+#### Examples
 
 Check if Sam can transition from "In research" in "Open" condition to "Fixed" status in the "Fixed" condition.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.check_cq_trans("Open", "In research", "Fixed", "Fixed", "sam")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.check_cq_trans("Open", "In research", "Fixed", "Fixed", "sam");  
+```

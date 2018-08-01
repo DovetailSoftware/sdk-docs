@@ -33,79 +33,55 @@ If you wish to update just one record in each of the generic objects, you should
 The following example updates all of the modified records in several generics that are in the bulk.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Find all sites and all cases
-
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
 
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
 
   boSite.Bulk.Query();
 
   // Now update a field for each site, and each case
-
   while (boCase.EOF != true)
-
   {
-
     boCase("alt_address") = "An address";
-
     boCase.MoveNext();
-
   }
 
   while (boSite.EOF != true)
-
   {
-
     boSite("external_id") = "An external ID";
-
     boSite.MoveNext();
-
   }
 
   // Update all modified records in the bulk
-
   boSite.Bulk.UpdateAll();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSite As FCGeneric
-
   Dim boCase As FCGeneric
 
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery "site"
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
 
   boSite.Bulk.Query
 
   While boCase.EOF = False
-
     boCase("alt_address") = "An address"
-
     boCase.MoveNext
-
   Wend
 
   While boSite.EOF = False
-
     boSite("external_id") = "An external ID"
-
     boSite.MoveNext
-
   Wend
 
   boSite.Bulk.UpdateAll
+```

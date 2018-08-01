@@ -72,38 +72,37 @@ These APIs allow for the updating of part request headers. You must supply the h
 Update part request header '1'. Change the contact to Sara Grinch, change the billing site ID to 43, the case ID to 14,  the payment terms and method, and one extra field.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.update_pr_header("1", "Sara", "Grinch", "555-1212", "", _
                                 "43", "14", "Cash", "Net 10", "", "", "", 0, _
                                 "",0, "x_extra_field", "a_value", "", "", "", _
                                 "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.update_pr_header("1", "Sara", "Grinch", "555-1212", "",
-
                                 "43", "14", "Cash", "Net 10", "", "", "", 0,
-
                                 "",0, "x_extra_field", "a_value", "", "", "",
-
                                 "");
+```
 
- Update part request header '33'. Change the shipping site to '55', change the priority, and clear the notes for the header.
+Update part request header '33'. Change the shipping site to '55', change the priority, and clear the notes for the header.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.update_pr_header("33", "", "", "", "55", "", _
                                 "", "", "", "Priority 1", "CLEAR", "", _
                                 0, "", 0, "", "", "", "", "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.update_pr_header("33", "", "", "", "55", "",
-
                                 "", "", "", "Priority 1", "CLEAR", "",
-
                                 0, "", 0, "", "", "", "", "", "");
+```

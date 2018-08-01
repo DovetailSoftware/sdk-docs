@@ -57,15 +57,15 @@ This API modifies an existing expense log record in the Clarify database. You mu
 Update an existing expense log (268435600). Log is created at the current time, is performed by "joe", and is logged by "fred". Add some notes, and set the quantity to 6 and the rate to 3.45. Use the default expense type. Make it not billable, and don't set the bill_to string. Use the default resolution code.
 
 **Visual Basic:**
+```
+Dim ret_int As Integer
 
-   Dim ret_int   As Integer
+ret_int = fcfo.modify_expense_log(268435600, "joe", "Some notes here", 
+	"fred", "", 6, 3.45, 0, "", "")
 ```
 
-ret_int = fcfo.modify_expense_log(268435600, "joe", "Some notes here", "fred", _
-     "", 6, 3.45, 0, "", "")
-
 **JavaScript:**
-
-var ret_int = fcfo.modify_expense_log(268435600, "joe", "Some notes here", "fred",
-
-     "", 6, 3.45, 0, "", "");
+```
+var ret_int = fcfo.modify_expense_log(268435600, "joe", "Some notes here",
+	"fred", "", 6, 3.45, 0, "", "");
+```

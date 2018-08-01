@@ -38,7 +38,6 @@ This method changes the restriction group for the session user. The first argume
 The following example changes the user's restriction group, and writes the change to the database.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 FCSession.ChangeResGroup("AOL", true);
+```

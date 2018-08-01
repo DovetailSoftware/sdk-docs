@@ -26,51 +26,36 @@ If this is a child object, it is important to realize that the record that this 
 The following example queries for sites in the database. It then uses MoveLast and MovePrevious to iterate through the records.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Get sites so we can loop through them
-
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
-
   boSite.Query();
 
   // Go to last record
-
   boSite.MoveLast();
 
   // Now print them out, backwards
-
   while (boSite.BOF != true)
-
   {
-
     Response.Write ("Site: " + boSite("name"));  
-
     boSite.MovePrevious();
-
   }
 
+```
+
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSite As FCGeneric
 
   Set boSite = fc_session.CreateGeneric
 
   boSite.SimpleQuery "site"
-
   boSite.Query
 
   boSite.MoveLast
-
   While boSite.BOF = False
-
     MsgBox "Site is: " & boSite("name")
-
     boSite.MovePrevious
-
   Wend
+```

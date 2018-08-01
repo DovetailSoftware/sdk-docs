@@ -40,25 +40,29 @@ This API causes the specified quote to be rejected from the queue it is in, and 
 Reject quote number '154' to the default WIPBin. The reject has no notes, is performed by the current user and is rejected at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.reject_quote("154", "", "", "", "", True)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.reject_quote("154", "", "", "", "", True)
+```
 
- Reject quote number 'Q2' at 10PM on November 23rd of 2001 to WIPBin 'East'. Reject should be logged as performed by user 'sam', with notes of 'Some notes'. Don't generate a time bomb.
+Reject quote number 'Q2' at 10PM on November 23rd of 2001 to WIPBin 'East'. Reject should be logged as performed by user 'sam', with notes of 'Some notes'. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.reject_quote("Q2", "11/23/2001 22:00:00", "East", _
                                 "Some notes", "Sam", False)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.reject_quote("Q2", "11/23/2001 22:00:00", "East", _
                                 "Some notes", "Sam", False)
+```

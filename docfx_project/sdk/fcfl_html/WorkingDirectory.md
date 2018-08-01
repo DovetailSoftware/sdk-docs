@@ -22,19 +22,16 @@ This is the working directory of the FCApplication object. This is the directory
 The following example shows how to set this property.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var FCApp;
 
 FCApp = new ActiveXObject("FCFL.fcapplication");
-
 FCApp.WorkingDirectory = "C:\\\inetpub\\\wwwroot\\\production";
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim fc_app As New FCApplication
 
 fc_app.WorkingDirectory = "C:\\inetpub\\wwwroot\\testing"
+```

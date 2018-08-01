@@ -41,21 +41,14 @@ A date/time value converted between time zones.
 The following example converts a timestamp from one time zone to another.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 <%
-
   var TZ1 = "Central Standard Time"
-
   var TZ2 = "Eastern Standard Time"
-
   var CurrDate = FCSession.GetCurrentDate();
-
   var NewDate = FCSession.ConvertDate(CurrDate, TZ1, TZ2);
-
 %>
 
 If it is <%=CurrDate%> in <%=TZ1%>, then
-
 it is <%=NewDate%> in <%=TZ2%>.
+```

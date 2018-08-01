@@ -53,8 +53,8 @@ Public Function create_employee_list(
 
 This API creates an employee in Clarify. It actually creates an employee record, a user record, and a wipbin record. In addition, it creates a user/login in the database system tables.
 
-**Important Note for MSSQL databases only:** Beginning with Version 3.4.3, SQL statements: CREATE LOGIN and CREATE USER are used instead of stored procedures: sp_adduser and sp_addlogin.  
-This has the following implications:  
+**Important Note for MSSQL databases only:** Beginning with Version 3.4.3, SQL statements: CREATE LOGIN and CREATE USER are used instead of stored procedures: sp_adduser and sp_addlogin.
+This has the following implications:
 
 *   This API no longer supports MS SQL 2000 due to the fact that CREATE LOGIN and CREATE USER statements were introduced in version 2005.
 *   It is no longer required for database users to be members of 'db_owner' role at the database level to be able to create new user logins. To the contrary, it is now recommended that these users do not belong to 'db_owner' role due to security concerns.
@@ -134,92 +134,52 @@ This has the following implications:
 Add a new employee.
 
 **Visual Basic:**
-
-first_name = "Joe"
-
-last_name = "User"
-  
+```
+   first_name = "Joe"
+   last_name = "User"
    login_name = "joe_user"
-  
    password = "password"
-
-   site_id = "INT1"  
-  
+   site_id = "INT1"
    e_mail = first_name + "@company.com"
-  
    online_priv_class = "CSR"
-  
    offline_priv_class = "Offline User"
-  
    Id = "100"
-
    is_active = True
-
    allow_proxy = True
-
    is_supervisor = True
-  
-   is_fe = True  
-  
+   is_fe = True
    labor_rate = "100.00"
-  
    start_date = "1/1/2000"
-  
    supervisor = "sa"
-  
    work_group = "Quality Engineer"
-
    work_group_start = "12/27/2002"
-
    normal_biz_high = "Notifier"
-
    normal_biz_mid = "Notifier"
-
    normal_biz_low = "Notifier"
-
    after_biz_high = "Digital Pager"
-
    after_biz_mid = "Digital Pager"
-
    after_biz_low = "Digital Pager"
-
    def_wipbin_title = "my stuff"
-
    rc_config = "custom"
-
- phone = "512-418-2905"
-
+   phone = "512-418-2905"
    pager = "1-800-skytel x101"
-
    def_tablespace = ""
-
    temp_tablespace = ""
 
 int_fld1 = ""
-
 int_val1 = 0
-
 int_fld2 = ""
-
 int_val2 = 0
-
 str_fld1 = ""
-
 str_val1 = ""
-
 str_fld2 = ""
-
 str_val2 = ""
-
 date_fld1 = ""
- |
-date_val1 = "" |
- |
-   ret_int = fcinter.create_employee(first_name, last_name, _
-                     login_name, password, _
- site_id, e_mail, _
-                     phone, pager, _
-online_priv_class, offline_priv_class, _
+date_val1 = ""
+
+ret_int = fcinter.create_employee(first_name, last_name, _
+                     login_name, password, site_id, e_mail, _
+                     phone, pager, online_priv_class, offline_priv_class, _
                      Id, is_active, _
                      allow_proxy, start_date, _
                      supervisor, work_group, _
@@ -229,146 +189,85 @@ online_priv_class, offline_priv_class, _
                      normal_biz_low, after_biz_high, _
                      after_biz_mid, after_biz_low, _
                      def_wipbin_title, rc_config, _
-def_tablespace, temp_tablespace, _
- int_fld1, int_val1, _
+                     def_tablespace, temp_tablespace, _
+                     int_fld1, int_val1, _
                      int_fld2, int_val2, _
                      str_fld1, str_val1, _
                      str_fld2, str_val2, _
                      date_fld1, date_val1)
-| 
- | If ret_int = 0
- |
-      EmployeeObjid = fcinter.ret_objid
+  
+If ret_int = 0
+  EmployeeObjid = fcinter.ret_objid
+  UserObjid = fcinter.ret_objid2
+End If
+```
 
-      UserObjid = fcinter.ret_objid2
- End If
- 
-**Javascript:**
-
+**JavaScript:**
+```
   first_name = "Joe"
-
   last_name = "User"
-
   login_name = "joe_user"
-
   password = "password"
-
   site_id = "INT1"
-
   e_mail = first_name + "@company.com"
-
   online_priv_class = "CSR"
-
   offline_priv_class = "Offline User"
-
   Id = "100"
-
   is_active = True
-
   allow_proxy = True
-
   is_supervisor = True
-
   is_fe = True
-
   labor_rate = "125.00"
-
   start_date = "1/1/2000"
-
   supervisor = "sa"
-
   work_group = "Quality Engineer"
-
   work_group_start = "12/27/2002"
-
   normal_biz_high = "Notifier"
-
   normal_biz_mid = "Notifier"
-
   normal_biz_low = "Notifier"
-
   after_biz_high = "Digital Pager"
-
   after_biz_mid = "Digital Pager"
-
   after_biz_low = "Digital Pager"
-
   def_wipbin_title = "my stuff"
-
   rc_config = "custom"
-
- phone = "512-418-2905"
-
-  pager = "1-800-skytel x101"
-
-  def_tablespace = ""
-
-  temp_tablespace = ""
-
- int_fld1 = '';
-
-  int_val1 = 0;
-
-  int_fld2 = '';
-
-  int_val2 = 0;
-
-  str_fld1 = '';
-
-  str_val1 = '';
-
-  str_fld2 = '';
-
-  str_val2 = '';
-
-  date_fld1 = '';
-
- date_val1 = '';
+  phone = "512-418-2905"
+  pager = "1-800-skytel x101"
+  def_tablespace = ""
+  temp_tablespace = ""
+  int_fld1 = '';
+  int_val1 = 0;
+  int_fld2 = '';
+  int_val2 = 0;
+  str_fld1 = '';
+  str_val1 = '';
+  str_fld2 = '';
+  str_val2 = '';
+  date_fld1 = '';
+  date_val1 = '';
 
  var ret_int = fcinter.create_employee(first_name, last_name,
-  
    login_name, password,
-
-site_id, e_mail,
-  
+   site_id, e_mail,
    phone, pager,
-
- online_priv_class,offline_priv_class,
-  
+   online_priv_class,offline_priv_class,
    Id, is_active,
-  
    allow_proxy, start_date,
-  
    supervisor, work_group,
-  
    work_group_start, labor_rate,
-
-                                            is_supervisor, is_fe,
-
-                                            normal_biz_high, normal_biz_mid,
-
-                                            normal_biz_low, after_biz_high,
-
-                                            after_biz_mid, after_biz_low,
-
-                                            def_wipbin_title, rc_config,
-
- def_tablespace, temp_tablespace,
-
- int_fld1, int_val1,
-
-                                            int_fld2, int_val2,  
-  
-                                            str_fld1, str_val1,  
-  
-                                            str_fld2, str_val2,  
-  
-                                            date_fld1, date_val1);
+   is_supervisor, is_fe,
+   normal_biz_high, normal_biz_mid,
+   normal_biz_low, after_biz_high,
+   after_biz_mid, after_biz_low,
+   def_wipbin_title, rc_config,
+   def_tablespace, temp_tablespace,
+   int_fld1, int_val1,
+   int_fld2, int_val2,
+   str_fld1, str_val1,
+   str_fld2, str_val2,
+   date_fld1, date_val1);
 
    if (ret_int == 0) {
-
       var EmployeeObjid = fcinter.ret_objid;
-
       var UserObjid = fcinter.ret_objid2;
-
-}
+   }
+```

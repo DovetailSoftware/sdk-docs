@@ -32,25 +32,23 @@ This API adds a site to an existing account (bus_org). You must specify the acco
 
 #### Examples
 
- Add site "2" to account "AN_CUST33" with a role of  "OWNER".
+Add site "2" to account "AN_CUST33" with a role of  "OWNER".
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim site_objid As Long
 
 ret_int = fcinter.add_site_to_bus_org("2", "AN_CUST33", "OWNER")
 
  If ret_int = 0 Then
+   site_objid = fcinter.ret_objid
+ End If
+```
 
-      site_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.add_site_to_bus_org("2", "AN_CUST33", "OWNER");
 
  if (ret_int == 0){ var site_objid = fcinter.ret_objid; }
+```

@@ -44,29 +44,31 @@ This API is used to add expense and capital GL accounts to Clarify. The account 
 Add an expense GL account with no account type, a description, an account number. It is active and company owned, and for site 1.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.add_gl_account("myaccount", "", "A description", "1234", _
                               True, True, True, "1")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.add_gl_account("myaccount", "", "A description", "1234",
-
                               true, true, true, "1");
+```
 
- Add a capital GL account with no account type, a description, an account number. It is inactive and customer owned, and for site 1.
+Add a capital GL account with no account type, a description, an account number. It is inactive and customer owned, and for site 1.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.add_gl_account("myaccount1", "", "A description", "1234", _
                               False, False, False, "1")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.add_gl_account("myaccount1", "", "A description", "1234",
-
                               false, false, false, "1");
+```

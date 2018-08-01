@@ -113,69 +113,55 @@ The ID of the newly-created opportunity will be returned in _fcsfa.ret_id_num_. 
 **Field version:**
 
 **JavaScript:**
-
-   var ret_int = fcsfa.create_opp("My opp", "AN_CUST1", "a", "b", "c",
-
-                        "The World", "123.33", "1/1/00", "Lost", "Default",
-
-                        "US Dollar", ".5", "default", "", "", true, "", 0, "", 0,
-
+```
+var ret_int = fcsfa.create_opp("My opp", "AN_CUST1", "a", "b", "c",
+                      "The World", "123.33", "1/1/00", "Lost", "Default",
+                      "US Dollar", ".5", "default", "", "", true, "", 0, "", 0,
                         "x_objective", "foobar", "", "", "", "");
-
-**Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim opp_id     As String
 
-   ret_int = fcsfa.create_opp("My opp", "AN_CUST1", "a", "b", "c", "The World", _
+ret_int = fcsfa.create_opp("My opp", "AN_CUST1", "a", "b", "c", "The World", _
                         "123.33", "1/1/00", "Lost", "Default", "US Dollar", _
                         ".5", "default", "", "", True, "", 0, "", 0, _
                         "x_objective", "foobar", "", "", "", "")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
-
 var type_list = Server.CreateObject("FCFLCOMPAT.FCLIST");
-
 var val_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 
 fld_list.AppendItem("x_objective");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("foobar");
 
-   var ret_int = fcsfa.create_opp("My opp", "AN_CUST1", "a", "b", "c",
-
+var ret_int = fcsfa.create_opp("My opp", "AN_CUST1", "a", "b", "c",
                         "The World", "123.33", "1/1/00", "Lost", "Default",
-
                         "US Dollar", ".5", "default", "", "", true, fld_list
-
                         type_list, val_list);
-
-**Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim fld_list   As New FCList
-
 Dim type_list  As New FCList
-
 Dim val_list   As New FCList
 
 fld_list.AppendItem("x_objective")
-
 type_list.AppendItem("String")
-
 val_list.AppendItem("foobar")
 
-   ret_int = fcsfa.create_opp("My opp", "AN_CUST1", "a", "b", "c", "The World", _
-                        "123.33", "1/1/00", "Lost", "Default", "US Dollar", _
+ret_int = fcsfa.create_opp("My opp", "AN_CUST1", "a", "b", "c", "The World", _
+            "123.33", "1/1/00", "Lost", "Default", "US Dollar", _
             ".5", "default", "", "", True, fld_list, _
             type_list, val_list)
+```

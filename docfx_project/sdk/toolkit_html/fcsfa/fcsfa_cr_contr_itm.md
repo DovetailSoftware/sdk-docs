@@ -146,68 +146,56 @@ The objid of the newly-created contract line item will be returned in _fcsfa.ret
 
 **Field version:**
 
+
 **JavaScript:**
-
+```
 var ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity",
-
                    "", 3, "Default Schedule", "", 0, "", true, false,
-
                    "A Comment", "", "", -1, "222", "x_int1", 44, "", 0, "",
-
                    "", "", "", "", "");
+```
 
 **Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity", _
                    "", 3, "Default Schedule", "", 0, "", True, False, _
                    "A Comment", "", "", -1, "222", "x_int1", 44, "", 0, "", _
                    "", "", "", "", "")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
-
 var type_list = Server.CreateObject("FCFLCOMPAT.FCLIST");
-
 var val_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 
 fld_list.AppendItem("x_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("44");
 
 var ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity",
-
-                   "", 3, "Default Schedule", "", 0, "", true, false,
-
+          "", 3, "Default Schedule", "", 0, "", true, false,
           "A Comment", "", "", -1, "222", fld_list,
-
           type_list, val_list);
-
-**Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim fld_list   As New FCList
-
 Dim type_list  As New FCList
-
 Dim val_list   As New FCList
 
 fld_list.AppendItem("x_int1")
-
 type_list.AppendItem("Long")
-
 val_list.AppendItem("44")
 
 ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity", _
-                   "", 3, "Default Schedule", "", 0, "", True, False, _
+          "", 3, "Default Schedule", "", 0, "", True, False, _
           "A Comment", "", "", -1, "222", fld_list, _
           type_list, val_list)
+```

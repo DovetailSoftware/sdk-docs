@@ -39,22 +39,26 @@ This API causes the specified change request to be yanked from the current locat
 Yank change request number '10' by the current user at the current date/time. Place in the default WIPBin and generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.yank_cr("10", "", "", "", True)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.yank_cr("10", "", "", "", true);
+```
 
 Yank change request number '2' at 10PM on November 23rd of 1997 by dave. Place in WIPBin 'Urgent', and don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 ret_int = fccq.yank_cr("2", "Urgent", "11/23/97 22:00:00", "dave", False)
+```
 
-**Javascript:**
-
-var ret_int = fccq.yank_cr("2", "Urgent", "11/23/97 22:00:00", "dave", false);  
+**JavaScript:**
+```
+var ret_int = fccq.yank_cr("2", "Urgent", "11/23/97 22:00:00", "dave", false);
+```

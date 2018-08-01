@@ -32,7 +32,6 @@ The value may also be set in the fc.env file. Refer to the fc.env section of the
 The following example sets the midnight time.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 FCApplication.Midnight='12:00:00 AM';
+```

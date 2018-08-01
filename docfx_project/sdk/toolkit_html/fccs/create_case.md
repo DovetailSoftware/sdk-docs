@@ -112,32 +112,26 @@ If successful, these APIs return both the _objid_ and the _id_number_ of the new
 
 #### Examples
 
- Create a new case. Specify the site of 'White House', and contact of Bill Clinton. Also, generate a time bomb. All other information is defaulted.
+Create a new case. Specify the site of 'White House', and contact of Bill Clinton. Also, generate a time bomb. All other information is defaulted.
 
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fccs.create_case("White House", "Bill", "Clinton",
-
           "555-555-1234", "", "", "", "", 0, "", "", "",
-
           "", "", "", "", "", "", "", "", true, "", 0,
-
           "", 0, "", "", "", "", "", "");
 
    if (ret_int == 0)
-
    {
-
       WScript.Echo("The ID of the created case is: " + fccs.ret_id_num);
-
    }
+```
 
 **Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccs.create_case("White House", "Bill", "Clinton", _
           "555-555-1234", "", "", "", "", 0, "", "", "", _
@@ -145,78 +139,61 @@ ret_int = fccs.create_case("White House", "Bill", "Clinton", _
           "", 0, "", "", "", "", "", "")
 
    If ret_int = 0 Then
-
       MsgBox "The ID of the created case is: " & fccs.ret_id_num
-
    End If
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var ret_int = fccs.create_case_list("White House", "Bill", "Clinton",
-
           "555-555-1234", "", "", "", "", 0, "", "", "",
-
           "", "", "", "", "", "", "", "", true);
 
    if (ret_int == 0)
-
    {
-
       WScript.Echo("The ID of the created case is: " + fccs.ret_id_num);
-
    }
+```
 
 **Visual Basic:**
-
-   Dim ret_int     As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccs.create_case_list("White House", "Bill", "Clinton", _
           "555-555-1234", "", "", "", "", 0, "", "", "", _
           "", "", "", "", "", "", "", "", True)
 
    If ret_int = 0 Then
-
       MsgBox "The ID of the created case is: " & fccs.ret_id_num
-
    End If
+```
 
- Create a case for Bill Clinton at the White House. The problem is for MS Word, Version 7.0 (serial number 1234). The case is on contract 'Hardware Support', and the case is given a title. It is entered by marty on November 23, 1997 at 10PM. The case_type is a Problem with High priority and Medium severity. The initial case status is Solving. Include some phone notes, the call lasted 15 minutes, and the case is dispatched to the Important queue. There are no time bombs generated, and some additional fields are also filled in.
+Create a case for Bill Clinton at the White House. The problem is for MS Word, Version 7.0 (serial number 1234). The case is on contract 'Hardware Support', and the case is given a title. It is entered by marty on November 23, 1997 at 10PM. The case_type is a Problem with High priority and Medium severity. The initial case status is Solving. Include some phone notes, the call lasted 15 minutes, and the case is dispatched to the Important queue. There are no time bombs generated, and some additional fields are also filled in.
 
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fccs.create_case("White House", "Bill", "Clinton",
-
           "555-555-1234", "MS Word", "7.0", "Software",
-
           "1234", 0, "ABCD", "The title", "Problem",
-
           "High", "Medium", "Solving", "Some phone notes",
-
           "Important", "11/23/97 22:00:00", "11/23/97 22:15:00",
-
           "marty", true, "x_create_int1", 1,
-
           "x_create_int2", 456, "x_summary2", "More text",
-
           "", "", "", "");
 
    if (ret_int == 0)
-
    {
-
       WScript.Echo("The ID of the created case is: " + fccs.ret_id_num);
-
    }
+```
 
 **Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccs.create_case("White House", "Bill", "Clinton", _
           "555-555-1234", "MS Word", "7.0", "Software", _
@@ -228,86 +205,60 @@ ret_int = fccs.create_case("White House", "Bill", "Clinton", _
           "", "", "", "")
 
    If ret_int = 0 Then
-
       MsgBox "The ID of the created case is: " & fccs.ret_id_num
-
    End If
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFL.FCList");
-
 var type_list = Server.CreateObject("FCFL.FCList");
-
 var val_list  = Server.CreateObject("FCFL.FCList");
 
 fld_list.AppendItem("x_create_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("1");
 
 fld_list.AppendItem("x_ create_int2");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("456");
 
 fld_list.AppendItem("x_summary2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 var ret_int = fccs.create_case_list("White House", "Bill", "Clinton",
-
-          "555-555-1234", "MS Word", "7.0", "Software",
-
+          "555-555-1234", "MS Word", "7.0", "Software",
           "1234", 0, "ABCD", "The title", "Problem",
-
           "High", "Medium", "Solving", "Some phone notes",
-
           "Important", "11/23/97 22:00:00", "11/23/97 22:15:00",
-
           "marty", true, fld_list, type_list, val_list);
 
    if (ret_int == 0)
-
    {
-
       WScript.Echo("The ID of the created case is: " + fccs.ret_id_num);
-
    }
-
-**Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim fld_list   As New FCList
-
 Dim type_list  As New FCList
-
 Dim val_list   As New FCList
 
 fld_list.AppendItem("x_create_int1")
-
 type_list.AppendItem("Long")
-
 val_list.AppendItem("1")
 
 fld_list.AppendItem("x_ create_int2")
-
 type_list.AppendItem("Long")
-
 val_list.AppendItem("456")
 
 fld_list.AppendItem("x_summary2")
-
 type_list.AppendItem("String")
-
 val_list.AppendItem("More text")
 
 ret_int = fccs.create_case_list("White House", "Bill", "Clinton", _
@@ -318,7 +269,6 @@ ret_int = fccs.create_case_list("White House", "Bill", "Clinton", _
           "marty", True, fld_list, type_list, val_list)
 
    If ret_int = 0 Then
-
       MsgBox "The ID of the created case is: " & fccs.ret_id_num
-
    End If
+```

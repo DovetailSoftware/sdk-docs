@@ -79,10 +79,8 @@ These APIs allow for the updating of part request details. You must supply the d
 Update part request '3-3'. Change the part to 'MS Word, revision 7.0' (no site_part). Change the ship_via, and one extra field.
 
 **Visual Basic:**
-
-Dim ret_int  As Integer
 ```
-
+Dim ret_int As Integer
 Dim sp_objid As Long
 
 sp_objid = 0
@@ -90,34 +88,32 @@ sp_objid = 0
 ret_int = fccl.update_pr_detail("3-3", "MS Word", "Product", "7.0", "", _
                    1, sp_objid, "", "", "Fedex","", 0, "","","", _
                    0, "", 0, "detail_notes", "xyzzy", "", "", "", "")
-
-**Javascript:**
-
-var ret_int = fccl.update_pr_detail("3-3", "MS Word", "Product", "7.0", "",
-
-                   1, sp_objid, "", "", "Fedex", "", 0, "","", "",
-
-                   0, "", 0, "detail_notes", "xyzzy", "", "", "", "");
-
- Update part request '3-3'. Change the part to 'MS Word, revision 7.0', serial number 123. Change the carrier and the notes, and no extra fields.
-
-**Visual Basic:**
-
-Dim ret_int  As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fccl.update_pr_detail("3-3", "MS Word", "Product", "7.0", "",
+                   1, sp_objid, "", "", "Fedex", "", 0, "","", "",
+                   0, "", 0, "detail_notes", "xyzzy", "", "", "", "");
+```
+
+Update part request '3-3'. Change the part to 'MS Word, revision 7.0', serial number 123. Change the carrier and the notes, and no extra fields.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim sp_objid As Long
 
 sp_objid = 0
 
 ret_int = fccl.update_pr_detail("3-3", "MS Word", "Product", "7.0", "123", _
-                   1, sp_objid, "", "", "", "UPS", 0, "Some notes", _
-  "", "", 0, "", 0, "", "", "", "", "", "")
+          1, sp_objid, "", "", "", "UPS", 0, "Some notes", _
+		  "", "", 0, "", 0, "", "", "", "", "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.update_pr_detail("3-3", "MS Word", "Product", "7.0", "123",
-
-                   1, sp_objid, "", "", "", "UPS", 0, "Some notes",
-
-  "", "",0, "", 0, "", "", "", "", "", "");
+       1, sp_objid, "", "", "", "UPS", 0, "Some notes",
+	   "", "",0, "", 0, "", "", "", "", "", "");
+```

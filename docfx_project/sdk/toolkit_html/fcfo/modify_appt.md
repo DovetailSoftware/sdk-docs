@@ -49,36 +49,36 @@ The appointment type and subtype are optional code list values that may be speci
 
 #### Examples
 
- Update an existing appointment. Set all the data that you can set. Change the start time and end time for the appointment.
+Update an existing appointment. Set all the data that you can set. Change the start time and end time for the appointment.
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.modify_appt(268435457, "12/1/98 16:00:00", "", 1800, _
                             "A new description", "New cell text", _
- "Appt type", "Appt subtype", "Fred", "9/9/98")
+							"Appt type", "Appt subtype", "Fred", "9/9/98")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.modify_appt(268435457, "12/1/98 16:00:00", "", 1800,
+                         "A new description", "New cell text",
+						 "Appt type", "Appt subtype", "Fred", "9/9/98");
+```
 
-                            "A new description", "New cell text",
-
- "Appt type", "Appt subtype", "Fred", "9/9/98");
-
- Simply change the start time for an appointment. Leave it at 1 hour in length.
+Simply change the start time for an appointment. Leave it at 1 hour in length.
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.modify_appt(268435466, "12/1/98 16:00:00", "", 3600, _
                             "", "", "", "", "", "")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.modify_appt(268435466, "12/1/98 16:00:00", "", 3600,_
                             "", "", "", "", "", "");
+```

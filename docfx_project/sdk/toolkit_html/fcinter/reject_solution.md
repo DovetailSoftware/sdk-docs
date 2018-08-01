@@ -39,29 +39,32 @@ This API causes the specified solution to be rejected from the queue. The date a
 
 #### Examples
 
- Reject solution number '14' to WIPBin 'Hardware'.  The reject occurs on August 1, 1998, and is performed by Marty. Generate a time bomb.
+Reject solution number '14' to WIPBin 'Hardware'.  The reject occurs on August 1, 1998, and is performed by Marty. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcinter.reject_solution("14", "8/1/98", "Hardware", _
                                   "Some notes", "marty", true)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.reject_solution("14", "8/1/98", "Hardware",
-
                                   "Some notes", "marty", true);
+```
 
- Reject solution number '2' to the default WIPBin. Do the reject now and with the current user. Do not generate a time bomb.
+Reject solution number '2' to the default WIPBin. Do the reject now and with the current user. Do not generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcinter.reject_solution("2", "", "", "", "", false)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.reject_solution("2", "", "", "", "", false);
+```

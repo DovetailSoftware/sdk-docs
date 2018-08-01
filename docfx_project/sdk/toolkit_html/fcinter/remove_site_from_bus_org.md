@@ -33,15 +33,13 @@ This API allows a site to be removed from an account. The site and account IDs m
 Remove site '3' from account 'AN_CUST2' with role 'Development'.
 
 **Visual Basic:**
+```
+Dim ret_int As Integer
 
-Dim ret_int    As Integer
+ret_int = fcinter.remove_site_from_bus_org("3", "AN_CUST2", "Development")
 ```
 
-ret_int = fcinter.remove_site_from_bus_org("3", "AN_CUST2", _
-                                           "Development")
-
-**Javascript:**
-
-var ret_int = fcinter.remove_site_from_bus_org("3", "AN_CUST2",
-
-  "Development");
+**JavaScript:**
+```
+var ret_int = fcinter.remove_site_from_bus_org("3", "AN_CUST2", "Development");
+```

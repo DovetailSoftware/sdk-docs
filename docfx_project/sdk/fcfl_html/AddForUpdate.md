@@ -37,35 +37,24 @@ You can then change any fields, or set any relations, just like any other record
 The following example creates a new record in the recordset for the case table for update. It then updates the alt_city field.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Allocate the case
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
 
   // Add a row for update, modify it, and commit
-
   boCase.AddForUpdate("268435457");
-
   boCase ("alt_city") = "My town";
-
   boCase.Update();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Set boCase = fc_session.CreateGeneric
 
   boCase.SimpleQuery "case"
-
   boCase.AddForUpdate 268435457
-
   boCase("alt_city") = "Your city"
-
   boCase.Update
+```

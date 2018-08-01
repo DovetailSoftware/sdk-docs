@@ -36,13 +36,9 @@ The table number for the supplied table name. If no table name is found, -1 is r
 The following example prints out the table number for a Clarify table and a Clarify view.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 Response.Write("Table number for contact = " +
-
             FCApp.GetTableID("contact"));
-
 Response.Write("View number for site_view = " +
-
             FCApp.GetTableID("site_view"));
+```

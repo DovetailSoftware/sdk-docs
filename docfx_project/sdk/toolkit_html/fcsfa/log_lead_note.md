@@ -38,32 +38,34 @@ The APIs can also generate a time bomb (for business rule notification).
 
 #### Examples
 
- Sam logged a note on December 12, 2000 (at 11AM) for a lead. The text is "Hello there", with some internal use only text as well. Generate time bombs.
+Sam logged a note on December 12, 2000 (at 11AM) for a lead. The text is "Hello there", with some internal use only text as well. Generate time bombs.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.log_lead_note(268435458, "Hello there",
-
                     "This customer is a pain", "12/12/2000 11:00:00",
-
                     "sam", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.log_lead_note(268435458, "Hello there", _
                     "This customer is a pain", "12/12/2000 11:00:00", _
                     "sam", True)
+```
 
- Log notes for the same lead. Only log text, and do it now for the current user. Don't generate a time bomb.
+Log notes for the same lead. Only log text, and do it now for the current user. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.log_lead_note(268435458, "More text", "", "", "", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.log_lead_note(268435458, "More text", "", "", "", False)
+```

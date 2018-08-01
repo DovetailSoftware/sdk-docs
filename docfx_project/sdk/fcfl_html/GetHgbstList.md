@@ -45,39 +45,25 @@ An ADO recordset containing the records for a given level of a user-defined list
 The following example displays the Family:Software user-defined list, and sets the default value to be selected.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 FAMILY:SOFTWARE:
 
 <SELECT NAME="FAMILY2">
 
 <%
-
 var def = FCApp.GetHgbstElmDefault("FAMILY","Software");
-
 var TheList = FCApp.GetHgbstList("FAMILY","Software");
-
 while (! TheList.EOF) { %>
-
   <option
-
   <% if (TheList("title") == def) { %>
-
   selected = true <% } %> >
-
   <%=TheList("title")%>
-
   <% TheList.MoveNext; %>
-
   </option>
-
 <% } %>
-
 </SELECT>
 
 <%
-
 TheList.Close();
-
 %>}
+```

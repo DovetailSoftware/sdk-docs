@@ -52,31 +52,31 @@ In addition, the user performing the action, and the time of the action can be s
 Joe reinstalled a site_part to the top level of site "2" on March 15, 1998, at noon. Add activities, and consider it a re-install action.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.reinstall_sp(268435444, "2", 0, 0, "Joe", _
  "3/1/98 12:00:00", True, False)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.reinstall_sp(268435444, "2", 0, 0, "Joe",
-
  "3/1/98 12:00:00", true, false);
+```
 
- The current user re-installs a site_part to site "S1" under a bin. Do not generate activity log entries.
+The current user re-installs a site_part to site "S1" under a bin. Do not generate activity log entries.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.reinstall_sp(268435457, "S1", 268435466, 0, "", "", _
                              False, False)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.reinstall_sp(268435457, "S1", 268435466, 0, "", "",
-
                                 false, false);
+```

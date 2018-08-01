@@ -38,15 +38,11 @@ This method changes the password for a given user or contact. You may not use th
 The following example changes password for a user.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 //Get the Posted Data
-
 var strLoginName    = Request.QueryString('login_name').Item;
-
 var strPassword     = Request.QueryString('password').Item;
 
 //Update the User Password
-
 FCSession.SetPassword(strLoginName,strPassword,"user");
+```

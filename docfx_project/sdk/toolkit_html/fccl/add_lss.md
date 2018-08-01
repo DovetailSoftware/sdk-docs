@@ -40,23 +40,27 @@ This API is used to relate sites to the inventory locations that service them. T
 Austin should service site 1 first.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.add_lss("1", "Austin", True, 1)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.add_lss("1", "Austin", true, 1);
+```
 
- Houston should service site 1 next.
+Houston should service site 1 next.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.add_lss("1", "Houston", True, 2)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.add_lss("1", "Houston", true, 2);
+```

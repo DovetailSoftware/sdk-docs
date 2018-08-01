@@ -37,31 +37,34 @@ This API causes the specified change request to be rejected from the queue it is
 | -5 | Cannot find the new specified WIPBin, or it is not a WIPBin for the specified user |
 | -6 | Cannot find gbst_elm rank 2600 for string RETURN |
 
-**Examples**
+#### Examples
 
 Reject change request number '10' to the default WIPBin. The reject has no notes, is performed by the current user and is rejected at the current time. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.reject_cr("10", "", "", "", "", True)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.reject_cr("10", "", "", "", "", true);
+```
 
- Reject change request number '2' at 10PM on November 23rd of 1997 to WIPBin 'East'. Reject should be logged as performed by steven, with notes of 'Some notes'. Don't generate a time bomb.
+Reject change request number '2' at 10PM on November 23rd of 1997 to WIPBin 'East'. Reject should be logged as performed by steven, with notes of 'Some notes'. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.reject_cr("2", "11/23/97 22:00:00", "East", _
                          "Some notes", "steven", False)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.reject_cr("2", "11/23/97 22:00:00", "East",
-
   "Some notes", "steven", false);
+```

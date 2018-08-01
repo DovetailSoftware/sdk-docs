@@ -118,16 +118,13 @@ Not commonly used. If the fifo_flag = 1, it is the FIFO cost of the transfer (on
 
 #### Examples
 
- Transfer 20 units of Accounting 101 from an expense GL account to the primary bin in Austin. All stock is good. Use FIFO costing.
+Transfer 20 units of Accounting 101 from an expense GL account to the primary bin in Austin. All stock is good. Use FIFO costing.
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
-
-   Dim trans_id  As String
-
-   Dim std_cost  As String
+Dim ret_int As Integer
+Dim trans_id  As String
+Dim std_cost  As String
 
 ret_int = fcfo.part_transfer("Accounting", "101", "QuantityDomain", _
   20, "", "EXPGL", "", "", True, "Austin", _
@@ -135,35 +132,28 @@ ret_int = fcfo.part_transfer("Accounting", "101", "QuantityDomain", _
   "", True, 1, "", "", trans_id, std_cost)
 
    If ret_int = 0 Then
-
      trans_id = fcfo.ret_string
-
      std_cost = fcfo.ret_num
-
    End If
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.part_transfer("Accounting", "101", "QuantityDomain",
-
       20, "", "EXPGL", "", "", true, "Austin",
-
       "PRIM_BIN_REC", "", true, "", "", "",
-
       "", true, 1, "", "", trans_id, std_cost);
 
  if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
-
- Transfer MS Word 7.0, serial number 555666 from Austin Bin 2 to San Jose Bin "Receiving". The inventory was good, but is now marked as bad (for Quality Control). Fred did the transfer on July 30, 1998, at 5:13 AM. Add notes and a ref ID, and don't generate a time bomb. Don't use FIFO costing.
-
-**Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
 
-   Dim trans_id  As String
+Transfer MS Word 7.0, serial number 555666 from Austin Bin 2 to San Jose Bin "Receiving". The inventory was good, but is now marked as bad (for Quality Control). Fred did the transfer on July 30, 1998, at 5:13 AM. Add notes and a ref ID, and don't generate a time bomb. Don't use FIFO costing.
 
-   Dim std_cost  As String
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim trans_id  As String
+Dim std_cost  As String
 
 ret_int = fcfo.part_transfer("MS Word", "7.0", "Product", 1, _
   "555666", "Austin", "Bin 1", "", True, _
@@ -172,106 +162,85 @@ ret_int = fcfo.part_transfer("MS Word", "7.0", "Product", 1, _
   "Some notes", False, 0, "", "", _
   trans_id, std_cost)
 
-   If ret_int = 0 Then
-
-     trans_id = fcfo.ret_string
-
-     std_cost = fcfo.ret_num
-
-   End If
+  If ret_int = 0 Then
+    trans_id = fcfo.ret_string
+    std_cost = fcfo.ret_num
+  End If
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.part_transfer("MS Word", "7.0", "Product", 1,
-
       "555666", "Austin", "Bin 1", "", true,
-
       "San Jose", "Receiving", "", false,
-
       "fred", "7/30/98 5:13:00", "Ref ID3",
-
       "Some notes", false, 0, "", "",
-
       trans_id, std_cost);
 
 if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
-
- Transfer 15 units of the Notebook part from expense GL 'EXPGL' to Austin Container 44 (name of Fred). The inventory was good, but is now marked as bad (for Quality Control). Fred did the transfer on July 30, 1998 at 5:13 AM. Add notes and a ref ID, and don't generate a time bomb. Use FIFO costing, and specify the cost and source.
-
-**Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
 
-   Dim trans_id  As String
+Transfer 15 units of the Notebook part from expense GL 'EXPGL' to Austin Container 44 (name of Fred). The inventory was good, but is now marked as bad (for Quality Control). Fred did the transfer on July 30, 1998 at 5:13 AM. Add notes and a ref ID, and don't generate a time bomb. Use FIFO costing, and specify the cost and source.
 
-   Dim std_cost  As String
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim trans_id  As String
+Dim std_cost  As String
 
 ret_int = fcfo.part_transfer("Notebook", "", "Product", 15, "", _
                               "EXPGL", "", "", True, "Austin", _
                               "Fred", "44", False, "fred", _
                               "7/30/98 5:13:00", "Ref ID3", _
                               "Some notes", False, 1, ".34", "MySource", _
-      trans_id, std_cost)
+						      trans_id, std_cost)
 
    If ret_int = 0 Then
-
      trans_id = fcfo.ret_string
-
      std_cost = fcfo.ret_num
-
    End If
-
-**JavaScript:**
-
-var ret_int = fcfo.part_transfer("Notebook", "", "Product", 15, "",
-
-                                 "EXPGL", "", "", true, "Austin",
-
-                                 "Fred", "44", false, "fred",
-
-                                 "7/30/98 5:13:00", "Ref ID3",
-
-                                 "Some notes", false, 1, ".34", "MySource",
-
-         trans_id, std_cost);
-
- if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
-
- Add 4 units to part transfer '42'. Generate a time bomb, and use FIFO costing.
-
-**Visual Basic:**
-
-Dim ret_int   As Integer
 ```
 
-   Dim trans_id  As String
+**JavaScript:**
+```
+var ret_int = fcfo.part_transfer("Notebook", "", "Product", 15, "",
+                                 "EXPGL", "", "", true, "Austin",
+                                 "Fred", "44", false, "fred",
+                                 "7/30/98 5:13:00", "Ref ID3",
+                                 "Some notes", false, 1, ".34", "MySource",
+						         trans_id, std_cost);
 
-   Dim std_cost  As String
+ if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
+```
+
+Add 4 units to part transfer '42'. Generate a time bomb, and use FIFO costing.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim trans_id  As String
+Dim std_cost  As String
 
 trans_id = "42"
 
 ret_int = fcfo.part_transfer("", "", "", 4, "","", "", _
                               "", True, "", "", "", True, "", _
                               "", "", "", True, 1, "", "", _
-      trans_id, std_cost)
+						      trans_id, std_cost)
 
-   If ret_int = 0 Then
-
-     std_cost = fcfo.ret_num
-
-   End If
+  If ret_int = 0 Then
+    std_cost = fcfo.ret_num
+  End If
+```
 
 **JavaScript:**
-
+```
 trans_id = "42"
 
 var ret_int = fcfo.part_transfer("", "", "", 4, "","", "",
-
                                  "", true, "", "", "", true, "",
-
                                  "", "", "", true, 1, "", "",
-
-         trans_id, std_cost);
+						         trans_id, std_cost);
 
  if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
+``` 

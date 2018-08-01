@@ -33,28 +33,30 @@ This API can be used to de-install a site part (and the sub-parts installed unde
 
 #### Examples
 
- Joe deinstalled a site_part on March 15th at noon.
+Joe deinstalled a site_part on March 15th at noon.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.deinstall_sp(268435444, "Joe", "3/15/98 12:00:00")
-
-**JavaScript:**
-
-var ret_int = fcfo.deinstall_sp(268435444, "Joe", "3/15/98 12:00:00");
-
- The current user de-installs a site_part.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fcfo.deinstall_sp(268435444, "Joe", "3/15/98 12:00:00");
+```
+
+The current user de-installs a site_part.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
 ret_int = fcfo.deinstall_sp(268435457, "", "")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.deinstall_sp(268435457, "", "");
+```

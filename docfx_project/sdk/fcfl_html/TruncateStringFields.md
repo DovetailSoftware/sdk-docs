@@ -23,18 +23,20 @@ The best solution, of course, is to limit the length of your strings in your thi
 
 **Example**
 
-**JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
 The following example attempts to write data to a field defined to a maximum length of 10. An error would be thrown.
 
+**JavaScript:**
+```
 FCSession.TruncateStringFields = true;
 
 boCase("x_short_field") = 'abcdefghijklmnopqrstuvwxyz';
+```
 
 The following example does the same thing, but truncates the field at the maximum length (10).
 
+**JavaScript:**
+```
 FCSession.TruncateStringFields = false;
 
 boCase("x_short_field") = 'abcdefghijklmnopqrstuvwxyz';
+```

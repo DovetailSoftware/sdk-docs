@@ -43,35 +43,24 @@ You must update the object via the Update or UpdateAll method for the relation t
 The following example sets the site_objid field of a site_part to a specific value: 268435457.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Get some site_parts
-
   var boSitePart = FCSession.CreateGeneric();
-
   boSitePart.SimpleQuery("site_part");
-
   boSitePart.Query();
 
   // Relate the site_objid field to a specific objid
-
   boSitePart.RelateIntFldByID(268435457, "site_objid");
-
   boSitePart.Update(); 
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSitePart As FCGeneric
-
   Set boSitePart = fc_session.CreateGeneric
-
   boSitePart.SimpleQuery "site_part"
-
   boSitePart.Query
 
   boSitePart.RelateIntFldByID 268435457, "site_objid"
-
   boSitePart.Update
+```

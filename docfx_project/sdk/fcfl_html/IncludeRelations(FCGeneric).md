@@ -30,29 +30,20 @@ This property is important because if you wish to traverse from this generic to 
 The following example demonstrates setting the IncludeRelations property for a new object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Include all relations in a query for site_part
-
   var boSitePart = FCSession.CreateGeneric();
-
   boSitePart.SimpleQuery("site_part");
-
   boSitePart.IncludeRelations = true;
-
   boSitePart.Query();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSitePart As FCGeneric
 
   Set boSitePart = fc_session.CreateGeneric
-
   boSitePart.SimpleQuery "site_part"
-
   boSitePart.IncludeRelations = True
-
   boSitePart.Query
+```

@@ -51,15 +51,13 @@ This API modifies an existing ECO detail object.
 Modify a "Labor" ECO detail to change the status to expired.
 
 **JavaScript:**
-
-var ret_int = fcdr.modify_eco_dtl(268435465,"",-1,"Expired","",-1, "",    
-
-                                  "","", 0);
+```
+var ret_int = fcdr.modify_eco_dtl(268435465,"",-1,"Expired","",-1, "", "","", 0);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-ret_int = fcdr. modify_eco_dtl(268435465,"",-1,"Expired","",-1, "",    
-
-                                  "","", 0)
+ret_int = fcdr. modify_eco_dtl(268435465,"",-1,"Expired","",-1, "", "","", 0)
+```

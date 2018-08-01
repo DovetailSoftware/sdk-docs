@@ -112,132 +112,105 @@ These APIs are used to modify existing CRs. All of the primary fields of the CR 
 | -14 | Cannot find the specified memory value |
 | -15 | Cannot find the specified user's employee record for relating time bomb |
 
-**Examples**
+#### Examples
 
 Modify CR '19'. Change the priority and generate a time bomb (for business rule notification). All other information is defaulted.  The second field version illustrates how to set additional fields.
 
 **Field version 1:**
 
 **Visual Basic:**
-  
-   Dim ret_int   As Integer
-```
+```  
+Dim ret_int As Integer
 
 ret_int = fccq.modify_cr("19", "", "", "", "", "", "Low", _
                          "", "", "", "", "", "", _
                          "", "", "", "", _
                          True, "", 0, "", 0, "", "", _
                          "", "", "", "")
-  
+```
+
 **JavaScript:**
-
+```
 var ret_int = fccq.modify_cr("19", "", "", "", "", "", "Low",
-  
    "", "", "", "", "", "",
-  
    "", "", "", "",
-
-                         true, "", 0, "", 0, "", "",  
-  
-                         "", "", "", "");
+   true, "", 0, "", 0, "", "",  
+   "", "", "", "");
+```
 
 **Field version 2:**
 
 **Visual Basic:**
-  
-   Dim ret_int     As Integer
-```
+```  
+Dim ret_int As Integer
 
 ret_int = fccq.modify_cr("19", "", "", "", "", "", "Low", _
-                         "", "", "", "", "", "", _
-                         "", "", "", "", _
-          True, "x_create_1", 1, "x_create_2", 2,
-  
-   "x_summary2", "More text", "", "", _
-          "x_other_date", "1/1/99")  
-  
+                       "", "", "", "", "", "", _
+                       "", "", "", "", _
+					   True, "x_create_1", 1, "x_create_2", 2,
+					   "x_summary2", "More text", "", "", _
+					   "x_other_date", "1/1/99")  
+```
+
 **JavaScript:**
-
+```
 var ret_int = fccq.modify_cr("19", "", "", "", "", "", "Low",
-  
    "", "", "", "", "", "",
-  
    "", "", "", "",
-
-          true, "x_create_1", 1, "x_create_2", 2,
-
-          "x_summary2", "More text", "", "",  
-  
-                         "x_other_date", "1/1/99");
+   true, "x_create_1", 1, "x_create_2", 2,
+   "x_summary2", "More text", "", "",  
+   "x_other_date", "1/1/99");
+```
 
 **List version:**
 
 **Visual Basic:**
-  
-   Dim ret_int     As Integer
-```
-
+```  
+Dim ret_int As Integer
 Dim fld_list    As New FCFLCompat.FCList
-
 Dim type_list   As New FCFLCompat.FCList
-
 Dim val_list    As New FCFLCompat.FCList
 
 fld_list.AppendItem "x_fix_int1"
-
 type_list.AppendItem "Long"
-  
 val_list.AppendItem Trim(Str$(1))
 
 fld_list.AppendItem "x_fix_int2"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(456))
 
 fld_list.AppendItem "x_summary2"
-
 type_list.AppendItem "String"
-
 val_list.AppendItem "More text"
 
 fld_list.AppendItem "x_other_date"
-
 type_list.AppendItem "Date"
-
 val_list.AppendItem "1/1/99"
 
 ret_int = fccq.modify_cr_list("19", "", "", "", "", "", "Low", _
                               "", "", "", "", "", "", _
                               "", "", "", "", _
-               True, fld_list, type_list, val_list)
+				              True, fld_list, type_list, val_list)
+```
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 fld_list.AppendItem("dist");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("456");
 
 fld_list.AppendItem("attribute2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("date_found");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccq.modify_cr_list("19", "", "", "", "", "", "Low",
-  
    "", "", "", "", "", "", "", "", "", "", true, fld_list, type_list, val_list);
+```

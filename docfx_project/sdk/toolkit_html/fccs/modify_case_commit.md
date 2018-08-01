@@ -154,23 +154,20 @@ These APIs are used to modify a commitment against a case or subcase. The APIs a
 
 #### Examples
 
- Modify a commitment with objid 268435459 for case number 'C154'. Set a title and use the default action code, log date, and user. Make the commitment to "Bill Clinton", and make the commitment expire on the default (log) date. Make no prior warning, have no notes, and set no additional fields. Generate a time bomb, and the commitement emails.
+Modify a commitment with objid 268435459 for case number 'C154'. Set a title and use the default action code, log date, and user. Make the commitment to "Bill Clinton", and make the commitment expire on the default (log) date. Make no prior warning, have no notes, and set no additional fields. Generate a time bomb, and the commitement emails.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.modify_case_commit("C154", "A title", "",
-
-"", 268435459, 0, "to","Bill", "Clinton", "555-555-1234",
-
-"", "", "",true,"", 0, "", 0, "", "", "", "", "", "");
-
-**Visual Basic:**
-
-   Dim ret_int   As Integer
+	"", 268435459, 0, "to","Bill", "Clinton", "555-555-1234",
+	"", "", "",true,"", 0, "", 0, "", "", "", "", "", "");
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
 ret_int = fccs.modify_case_commit("C154", "A title", "", _
-
-"", 268435459, 0, "to","Bill", "Clinton", "555-555-1234", _
-
-"", "", "",true,"", 0, "", 0, "", "", "", "", "", "")
+	"", 268435459, 0, "to","Bill", "Clinton", "555-555-1234", _
+	"", "", "",true,"", 0, "", 0, "", "", "", "", "", "")
+```

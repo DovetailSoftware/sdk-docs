@@ -70,136 +70,111 @@ Modify subcase 'C154-1'. Change the priority, but nothing else. Do not write any
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fccs.modify_subcase("C154-1", "High", "", "", "", false, true,
-
                       "", 0, "", 0, "", "", "", "", "", "");
+```
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccs.modify_subcase("C154-1", "High", "", "", "", False, True, _
                       "", 0, "", 0, "", "", "", "", "", "")
+```
 
 **List version:**
 
 **JavaScript:**
-
-var ret_int = fccs.modify_subcase_list("C154-1", "High", "", "", "", false,
-
-                                       true);
-
-**Visual Basic:**
-
-   Dim ret_int     As Integer
+```
+var ret_int = fccs.modify_subcase_list("C154-1", "High", "", "", "", false, true);
 ```
 
-ret_int = fccs.modify_subcase_list("C154-1", "High", "", "", "", False, True)
+**Visual Basic:**
+```
+Dim ret_int As Integer
 
- Modify subcase '2-2'. It is modified on November 23, 1997 at 10PM by marty. Make sure that marty is the owner of the subcase to modify it. The severity is 'Low'. There are no time bombs generated, and some additional fields are also filled in.
+ret_int = fccs.modify_subcase_list("C154-1", "High", "", "", "", False, True)
+```
+
+Modify subcase '2-2'. It is modified on November 23, 1997 at 10PM by marty. Make sure that marty is the owner of the subcase to modify it. The severity is 'Low'. There are no time bombs generated, and some additional fields are also filled in.
 
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fccs.modify_subcase("2-2", "", "Low", "marty",
-
                       "11/23/97 22:00:00", true, false,
-
                       "x_close_int1", 1, "x_close_int2",
-
                       456, "x_summary2", "More text", "", "",
-
-                         "x_other_date", "1/1/99");
+                      "x_other_date", "1/1/99");
+```
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fccs.modify_subcase("2-2", "", "Low", "marty", _
                       "11/23/97 22:00:00", True, False, _
                       "x_close_int1", 1, "x_close_int2", _
                       456, "x_summary2", "More text", "", "", _
-                         "x_other_date", "1/1/99")
+                      "x_other_date", "1/1/99")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFL.FCList");
-
 var type_list = Server.CreateObject("FCFL.FCList");
-
 var val_list  = Server.CreateObject("FCFL.FCList");
 
 fld_list.AppendItem("x_close_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem ("1");
 
 fld_list.AppendItem("x_close_int2");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem ("456");
 
 fld_list.AppendItem("x_summary2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("x_other_date");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccs.modify_subcase_list("2-2", "", "Low", "marty",
-
                            "11/23/97 22:00:00", true, false,
-
                            fld_list, type_list, val_list);
 
-**Visual Basic:**
-
-   Dim ret_int   As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim fld_list    As New List
-
 Dim type_list   As New List
-
 Dim val_list    As New List
 
 fld_list.AppendItem "x_close_int1"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(1))
 
 fld_list.AppendItem "x_close_int2"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(456))
 
 fld_list.AppendItem "x_summary2"
-
 type_list.AppendItem "String"
-
 val_list.AppendItem "More text"
 
 fld_list.AppendItem "x_other_date"
-
 type_list.AppendItem "Date"
-
 val_list.AppendItem "1/1/99"
 
 ret_int = fccs.modify_subcase_list("2-2", "", "Low", "marty", _
                            "11/23/97 22:00:00", True, False, _
                            fld_list, type_list, val_list)
+```

@@ -39,29 +39,32 @@ This API causes the specified subcase to be dispatched to the specified queue. T
 
 #### Examples
 
- Dispatch subcase number 'C154-1' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
+Dispatch subcase number 'C154-1' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.dispatch_subcase("C154-1", "Hardware", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.dispatch_subcase("C154-1", "Hardware", "", "", True)
+```
 
- Dispatch subcase number '2-2' at 10PM on November 23rd of 1997 to 'Software'. Dispatch should be logged as performed by dave. Don't generate a time bomb.
+Dispatch subcase number '2-2' at 10PM on November 23rd of 1997 to 'Software'. Dispatch should be logged as performed by dave. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.dispatch_subcase("2-2", "Software",
-
                                     "11/23/97 22:00:00", "dave", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.dispatch_subcase("2-2", "Software", "11/23/97 22:00:00", _
                                 "dave", False)
+```

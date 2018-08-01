@@ -26,9 +26,7 @@ A string indicating the time zone of the machine running the First Choice Generi
 The following sets the server time zone to be the machine time zone.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 The server time zone is <%=FCApp.ServerTimeZone%>.<BR>
 
 The machine time zone is <%=FCApp.GetMachineTimeZone%>.<BR>
@@ -36,3 +34,4 @@ The machine time zone is <%=FCApp.GetMachineTimeZone%>.<BR>
 <% FCApp.SetServerTimeZoneToMachineTimeZone(); %>
 
 The server time zone is now <%=FCApp.ServerTimeZone%>.<BR>
+```

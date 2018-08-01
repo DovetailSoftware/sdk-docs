@@ -37,51 +37,35 @@ Note: This method does not automatically set the BulkName. You must still set th
 The following example retrieves all of the queues that the current user is assigned to.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
-     // Create the queue object
+```
+  // Create the queue object
 
   // Traverse from the current user's objid
-
   var boQueue = FCSession.CreateGeneric();
-
   boQueue.TraverseFromRoot(FCSession.Item("user.id"), "user",
-
                            "user_assigned2queue");
 
   // Query the data, and display it 
-
   boQueue.Query();
 
   while (boQueue.EOF != true)
-
   {
-
     Response.Write ("Queue title: " + boQueue("title"));        
-
     boQueue.MoveNext();
-
   }
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boQueue As FCGeneric
 
   Set boQueue = fc_session.CreateGeneric
-
   boQueue.TraverseFromRoot fc_session.item("user.id"), _
-
                            "user", "user_assigned2queue"
-
   boQueue.Query
 
   While boQueue.EOF = False
-
     MsgBox boQueue("title")
-
     boQueue.MoveNext
-
   Wend
+```

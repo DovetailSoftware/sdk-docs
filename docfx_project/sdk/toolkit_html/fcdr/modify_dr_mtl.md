@@ -58,37 +58,23 @@ Theis API allows modification of material that is logged against a depot repair 
 Change material applied in mtl_log 268435465. The job was done by user "db" in the Lab, billable to the customer. No other changes are being made at this time.
 
 **JavaScript:**
-
+```
 var material_log_objid = 268435465;
-
 var repair_code = "";
-
 var failure_code = "";
-
 var mod_level = 0;
-
 var bill_to = "Customer";
-
 var wrk_center = "Lab";
-
 var disposition = "";
-
 var ref_designator = "";
-
 var notes = "";
-
 var transaction_id = "";
-
 var creation_time = "";
-
 var perf_by = "db";
-
 var billable = 1;
 
-   var retval = FCDR.modify_dr_mtl(material_log_objid, repair_code, failure_code,
-
- mod_level, billable, bill_to, wrk_center,
-
- disposition, ref_designator, notes, transaction_id,
-
- perf_by, creation_time);
+var retval = FCDR.modify_dr_mtl(material_log_objid, repair_code, failure_code,
+	mod_level, billable, bill_to, wrk_center,
+	disposition, ref_designator, notes, transaction_id,
+	perf_by, creation_time);
+```

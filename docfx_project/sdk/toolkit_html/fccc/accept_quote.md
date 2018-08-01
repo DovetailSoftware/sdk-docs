@@ -35,30 +35,30 @@ This API cause the specified quote to be accepted from a dispatched queue. The q
 
 #### Examples
 
-Accept quote number 'Q2' right now for the current user, place in the default WIPBin, and generate
-
-a time bomb.
+Accept quote number 'Q2' right now for the current user, place in the default WIPBin, and generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccc.accept_case("Q2", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccc.accept_case("Q2", "", "", "", True)
+```
 
- Accept quote number 'Q2' at 10PM on November 23rd of 2001 by user 'marty', and place it in marty's
-
-WIPBin named 'Urgent'. Don't generate a time bomb.
+Accept quote number 'Q2' at 10PM on November 23rd of 2001 by user 'marty', and place it in marty's WIPBin named 'Urgent'. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccc.accept_case("Q2", "11/23/2001 22:00:00", "Urgent", "marty", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccc.accept_case("Q2", "11/23/2001 22:00:00", "Urgent", "marty", True)
+```

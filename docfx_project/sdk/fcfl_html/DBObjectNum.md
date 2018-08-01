@@ -22,25 +22,17 @@ This property reports the object number of the table or view for this object. Th
 The following example creates a new object and reports on the DBObjectNum.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Set up a query of all contacts
-
   var boContact = FCSession.CreateGeneric();
-
   boContact.DBObjectName = "contact";
-
   boContact.Query();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boContact As FCGeneric
-
   Set boContact = fc_session.CreateGeneric
-
   boContact.DbObjectName = "contact"
-
   boContact.Query
+```

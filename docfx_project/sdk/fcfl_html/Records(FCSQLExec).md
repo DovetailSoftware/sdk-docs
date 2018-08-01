@@ -29,59 +29,43 @@ Data is read and written from the Records object using standard ADO methods. No 
 The following example demonstrates querying the case table, and setting the _alt_address_ field for each object returned, using the _Records_ property, but not with the generic object, but a SQLExec object.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Create an external DB connection
 
   // Log in
-
   var SqlDB = FCSession.CreateSQLExec();
 
- SqlDB.OpenConnection("sql", "sa", "sa", "gaffer", "cl10");
+  SqlDB.OpenConnection("sql", "sa", "sa", "gaffer", "cl10");
 
- // Query for a simple table (with one column)
-
+  // Query for a simple table (with one column)
   // Iterate through it and print out the data
 
   SqlDB.ExecuteReturnRows("select * from table_case");
-
   while (SqlDB.Records.EOF != true)
-
   {
-
     SqlDB.Execute("update table_case set alt_address = 'Alt1' where"
-
                   " objid = " + SqlDB.Records("objid"));
-
     SqlDB.Records.MoveNext();
-
   }
 
   SqlDB.CloseConnection();
+```
 
 **Visual Basic:**
+```
+ Dim SqlDB As New FCSqlExec
 
-The code in this example is written in Visual Basic.
-
-  Dim SqlDB As New FCSqlExec
-
-  Set SqlDB = fc_session.CreateSqlExec
+ Set SqlDB = fc_session.CreateSqlExec
 
  SqlDB.OpenConnection "sql", "sa", "sa", "gaffer", "cl10"
-
  SqlDB.ExecuteReturnRows "select * from table_case"
 
   While SqlDB.records.EOF = False
-
     SqlDB.Execute "update table_case set alt_address = 'Alt2' " & _
-
                   "where objid = " & _
-
                   Trim$(Str$(SqlDB.records("objid")))
-
     SqlDB.records.MoveNext
-
   Wend
 
   SqlDB.CloseConnection
+```

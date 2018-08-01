@@ -26,13 +26,10 @@ A long integer containing the objid of the default country. If a country has not
 The following example retrieves the objid of the default country.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 //If the customer didn't give us a country, use the default
-
 if (CountryObjid == 0)
-
 {
-
-CountryObjid = FCApp.GetDefaultCountryObjid();
+	CountryObjid = FCApp.GetDefaultCountryObjid();
+}
+```

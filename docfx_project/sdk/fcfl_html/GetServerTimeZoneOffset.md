@@ -26,11 +26,10 @@ The offset of the server time zone from GMT, in seconds.
 The following example displays the offset for the server time zone.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 The server time zone is <%=FCApp.ServerTimeZone%>.
 
 The server time zone offset, in seconds =
 
-<%=FCApp.GetServerTimeZoneOffset
+<%=FCApp.GetServerTimeZoneOffset %>
+```

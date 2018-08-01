@@ -38,58 +38,42 @@ A new FCSession object, or a reference to an existing FCSession Object
 
 #### Examples
 
-The following example attempts to retrieve a SessionID from the ASP Session, and , if found, re-establish the existing FCSession.
+The following example attempts to retrieve a SessionID from the ASP Session, and, if found, re-establish the existing FCSession.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var  FCSession;
-
 var strSessionId = ""; 
 
 strSessionId = Session.Contents("FCSessionId");
 
 if ( typeof(strSessionId) != "string" )
-
    { strSessionId = ""; }
 
 if ( strSessionId == "" )
-
    { Response.Redirect("Logon3.asp"); }
 
 try
-
   {  
-
   FCSession = Application.Contents("FCApp").CreateSession(strSessionId)
-
   }
-
 catch ( e )
-
   {
-
   //Could not re-establish session. Re-direct to logon page
-
   Response.Redirect("Logon3.asp")
-
   }  
+```
 
 The following example simply creates a new FCApplication object and a new FCSession object.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim fc_app As New FCApplication
-
 Dim fc_session As FCSession
 
 fc_app.WorkingDirectory = "C:\\inetpub\\wwwroot\\testing"
-
 fc_app.Initialize()
 
 Set fc_session = fc_app.CreateSession
-
 fc_session.Login UserName, Password
+```

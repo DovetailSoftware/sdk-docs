@@ -46,13 +46,10 @@ The default value for this list, if one is defined. Else, the first value in the
 The following example displays the default Case Type.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 <%
-
 var defCaseType = FCApp.GetGbstDefault("Case Type");
-
 %>
 
 Default Case Type= <%=defCaseType%>
+```

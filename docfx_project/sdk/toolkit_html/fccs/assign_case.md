@@ -42,26 +42,28 @@ This API cause the specified case to be assigned to a new user. The case must be
 Assign case number '10' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.assign_case("10", "marty", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.assign_case("10", "marty", "", "", "", True)
+```
 
-*  Assign case number '2' at 10PM on November 23rd of 1997 to marty, and place the case in marty's WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb.
+Assign case number '2' at 10PM on November 23rd of 1997 to marty, and place the case in marty's WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.assign_case("2", "marty", "Urgent",
-
                                "11/23/97 22:00:00", "sam", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-ret_int = fccs.assign_case("2", "marty", "Urgent", _
-                           "11/23/97 22:00:00", "sam", False)
+ret_int = fccs.assign_case("2", "marty", "Urgent", "11/23/97 22:00:00", "sam", False)
+```

@@ -36,33 +36,33 @@ This API causes the specified solution to be accepted from a dispatched queue. T
 
 #### Examples
 
- Accept solution number  "14" right now for the current user, place in the default WIPBin, and generate
-
-a time bomb.
+Accept solution number  "14" right now for the current user, place in the default WIPBin, and generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcinter.accept_solution("14", "", "", "", true)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.accept_solution("14", "", "", "", true);
+```
 
- Accept solution number '2' at 10PM on November 23rd of 1997 by marty, and place the part request in marty's
+Accept solution number '2' at 10PM on November 23rd of 1997 by marty, and place the part request in marty's WIPBin named 'Urgent'. Don't generate a time bomb.
 
-WIPBin named 'Urgent'. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcinter.accept_solution("2", "11/23/97 22:00:00",_
- "Urgent","marty", false)
+	 "Urgent","marty", false)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.accept_solution("2", "11/23/97 22:00:00",
-
- "Urgent","marty", false);
+	 "Urgent","marty", false);
+```

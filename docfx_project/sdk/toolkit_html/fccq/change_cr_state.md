@@ -52,12 +52,13 @@ This API causes the specified change request to have its status and/or condition
 
 All return codes are defined by which API is called, as this API is simply a wrapper.
 
-**Examples**
+#### Examples
 
 Change status for change request number '10' to a new status and condition. The change status is performed by the current user and is changed at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = FCCQ.change_cr_state("10",strNewStatus,strNewCondition,"", 
              strReason,"",true, "",test_case,int_release,master_cr,
              "",0,"",0,"","","","","","")
+```

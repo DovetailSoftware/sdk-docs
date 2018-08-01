@@ -67,35 +67,30 @@ These APIs create a contact in the database. The APIs also create the contact ro
 
 #### Examples
 
- Add a new contact to the database.
+Add a new contact to the database.
 
 **Visual Basic:**
-
-Dim ret_int       As Integer
 ```
+Dim ret_int As Integer
 
 Dim contact_objid As Long
 
 ret_int = fcinter.create_contact("Mary", "Smith", "555-1213", _
           "43", "End User", "555-1314", "mary@com.net", "Stop 33", _    
-
           "Boss", "", "Ms.", "", 0, "", 0, _
           "", "", "", "", "", "")
 
  If ret_int = 0 Then
+   contact_objid = fcinter.ret_objid
+ End If
+```
 
-      contact_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_contact("Mary", "Smith", "555-1213",
-
               "43", "End User", "555-1314", "mary@com.net", "Stop 33",
-
               "Boss", "", "Ms.", "", 0, "", 0,
-
               "", "", "", "", "", "");
 
  if (ret_int == 0){ var contact_objid = fcinter.ret_objid; }
+```

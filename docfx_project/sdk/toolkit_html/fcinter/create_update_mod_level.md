@@ -51,10 +51,8 @@ You may also specify the status of the revision. If you do not specify a status 
 Create revision '2.4' for product 'Zipcode Reverse Directory'. It does not replace another revision. Assume it is active.
 
 **Visual Basic:**
-
-Dim ret_int   As Integer
 ```
-
+Dim ret_int As Integer
 Dim mod_level As Long
 
 ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory", _
@@ -63,25 +61,24 @@ ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory", _
                                           "", "", false, "")
 
  If ret_int = 0 Then
+   mod_level_objid = fcinter.ret_objid
+ End If  
+```
 
-      mod_level_objid = fcinter.ret_objid
-|  | End If |
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory",
-
                                           "Product", "2.4", "",
-
                                           "", "", "", "", false, "");
 
  if (ret_int == 0){ var mod_level_objid = fcinter.ret_objid; }
+```
 
- Modify revision '2.4' for product 'Zipcode Reverse Directory'. It replaces revision '2.3' of the same package on January 23rd 1998\. Leave everything else alone.
+Modify revision '2.4' for product 'Zipcode Reverse Directory'. It replaces revision '2.3' of the same package on January 23rd 1998\. Leave everything else alone.
 
 **Visual Basic:**
-
-Dim ret_int   As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory", _
                                           "Product", "2.4", _
@@ -89,17 +86,12 @@ ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory", _
                                           "Product", "2.3",_
                                           "1/23/98 8:00:00", _
                                           "", false, "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory",
-
-                                          "Product", "2.4",
-| 
- | "Zipcode Reverse Directory",
- |
-                                          "Product", "2.3",
-| 
- | "1/23/98 8:00:00",
- |
-                                          "", false, "");
+  "Product", "2.4", 
+  "Zipcode Reverse Directory", "Product", "2.3",
+  "1/23/98 8:00:00", "", false, "");
+```

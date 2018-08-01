@@ -42,53 +42,41 @@ You must update one or the other objects via the Update or UpdateAll method for 
 The following example unrelates the specified case from the specified revision (mod_level).
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Find the case and revision (mod_level)
 
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
-
   boCase.AppendFilter("objid", "=", "268435457");
 
   var boML = FCSession.CreateGeneric();
-
   boML.SimpleQuery("mod_level");
-
   boML.AppendFilter("objid", "=", "268435457");
 
   boCase.Bulk.Query();
 
   // Now unrelate them and commit the change
-
   boCase.UnRelateRecords(boML, "case_prt2part_info");
 
   boCase.Update();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Dim boML As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
-
   boCase.AppendFilter "objid", "=", 268435457
 
   Set boML = fc_session.CreateGeneric
-
   boML.SimpleQuery "mod_level"
-
   boML.AppendFilter "objid", "=", 268435457
 
   boCase.Bulk.Query
 
-  boCase.UnRelateRecords boML, "case_prt2part_info"
+  boCase.UnRelateRecords boML, "case_prt2part_info"
 
   boCase.Update
+```

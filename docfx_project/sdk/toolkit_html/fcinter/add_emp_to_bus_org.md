@@ -32,28 +32,25 @@ This API adds an employee as a team member to an account (bus_org) with the spec
 
 #### Examples
 
- Add Jeanne to the account team for account "AN_CUST1" with a role of "Executive Sponsor".
+Add Jeanne to the account team for account "AN_CUST1" with a role of "Executive Sponsor".
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim emp_objid  As Long
 
 ret_int = fcinter.add_emp_to_bus_org("jeanne", "AN_CUST1", _
                                      "Executive Sponsor")
 
  If ret_int = 0 Then
+   emp_objid = fcinter.ret_objid
+ End If
+```
 
-     emp_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.add_emp_to_bus_org("jeanne", "AN_CUST1",
-
                                      "Executive Sponsor");
 
  if (ret_int == 0){ var emp_objid = fcinter.ret_objid; }
+```

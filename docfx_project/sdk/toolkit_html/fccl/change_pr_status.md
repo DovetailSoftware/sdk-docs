@@ -34,31 +34,34 @@ This API causes the specified part request to have a status change from one stat
 | -4 | Cannot find the CHG STATUS activity string with rank = 300 |
 | -5 | The employee record for the specified user cannot be found |
 
-**Examples**
+#### Examples
 
 Joe changed the status of  part request '1-14' to "Warehouse" on July 1 at noon. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.change_pr_status("1-14", "Warehouse", "7/1/2001 12:00:00", _
                                "Some notes", "joe", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.change_pr_status("1-14", "Warehouse", "7/1/2001 12:00:00",
-
                                "Some notes", "joe", true);
+```
 
 Change the status of part request number '2-1' to the default status. Do not generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.change_pr_status("2-1", "", "", "", "", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.change_pr_status("2-1", "", "", "", "", false);
+```

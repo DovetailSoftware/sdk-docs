@@ -136,24 +136,20 @@ Create a new lead. Set most of the fields. Joe created it on January 1, 1999. Ge
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.create_update_lead(lead_objid, "First", "Last", "Phone",
-
           "Fax", "110 Main St", "Suite 701", "Sharon",
-
           "MA", "02067", "USA", "EST", "email", "Title",
-
           "Company", "Sitename", "Business", "Warm", "Default",
-
           "Default Lead Source", "joe", "1/1/99", true,
-
-             "x_col_val", 44, "", 0, "", "", "", "", "", "");
-
-**Visual Basic:**
-|  | Dim ret_int    As Integer
+          "x_col_val", 44, "", 0, "", "", "", "", "", "");
 ```
 
-Dim lead_objid As Long |
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim lead_objid As Long
+
 lead_objid = -1
 
 ret_int = fcsfa.create_update_lead(lead_objid, "First", "Last", "Phone", _
@@ -162,11 +158,12 @@ ret_int = fcsfa.create_update_lead(lead_objid, "First", "Last", "Phone", _
           "Company", "Sitename", "Business", "Warm", "Default", _
           "Default Lead Source", "joe", "1/1/99", True, _
           "x_col_val", 44, "", 0, "", "", "", "", "", "")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 
 var type_list = Server.CreateObject("FCFLCOMPAT.FCLIST");
@@ -180,28 +177,21 @@ type_list.AppendItem("Long");
 val_list.AppendItem("44");
 
 var ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4",
-
                        "Test", "Customer", "222-2222", "Need Approval", "4",
-
                        "6", "", "", "fred", "", "marty", 60, true,
-
                         type_list, val_list);
-
-**Visual Basic:**
-|  | Dim ret_int    As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim lead_objid As Long
-
 Dim fld_list   As New FCList
-
 Dim type_list  As New FCList
-
 Dim val_list   As New FCList |
+
 fld_list.AppendItem("x_col_val")
-
 type_list.AppendItem("Long")
-
 val_list.AppendItem("44")
 
 lead_objid = -1
@@ -212,3 +202,4 @@ ret_int = fcsfa.create_update_lead(lead_objid, "First", "Last", "Phone", _
           "Company", "Sitename", "Business", "Warm", "Default", _
           "Default Lead Source", "joe", "1/1/99", True, _
           fld_list, type_list, val_list)
+```

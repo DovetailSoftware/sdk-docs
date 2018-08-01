@@ -36,12 +36,13 @@ This API allows you to delete an existing product bin. The bin must be empty (no
 Delete bin 268435460. Deleted by "Joe" on 1/1/2005.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcinter.delete_product_bin(268435460, "joe", "1/1/2005")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.delete_product_bin(268435460, "joe", "1/1/2005");
+```

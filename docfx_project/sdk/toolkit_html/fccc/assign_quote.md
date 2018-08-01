@@ -42,27 +42,29 @@ This API causes the specified quote to be assigned to a new user. The quote must
 Assign quote number '154' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.assign_quote("154", "marty", "", "", "", True)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.assign_quote("154", "marty", "", "", "", True)
+```
 
- Assign quote number 'Q2' at 10PM on November 23rd of 2001 to marty, and place the quote in marty's
-
-WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb
+Assign quote number 'Q2' at 10PM on November 23rd of 2001 to marty, and place the quote in marty's WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.assign_quote("Q2", "marty", "Urgent", _
                             "11/23/2001 22:00:00", "sam", False)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.assign_quote("Q2", "marty", "Urgent", _
                             "11/23/2001 22:00:00", "sam", False)
+```

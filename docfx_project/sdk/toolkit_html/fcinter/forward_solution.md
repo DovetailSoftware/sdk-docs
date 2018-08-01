@@ -40,35 +40,36 @@ This API causes the specified solution to be rejected from the current queue, an
 
 #### Examples
 
- Forward solution number '14' to queue 'Hardware'. The forward is performed by the current user and is forwarded at the current time. Generate a time bomb.
+Forward solution number '14' to queue 'Hardware'. The forward is performed by the current user and is forwarded at the current time. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcinter.forward_solution("14", "Hardware", "", _
                                    "", "", true)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.forward_solution("14", "Hardware", "",
-
                                    "", "", true);
+```
 
- Forward solution number '2' at 10PM on November 23rd of 1997 to 'Software'. Forward should be logged as performed by Nancy. Add some notes. Don't generate a time bomb.
+Forward solution number '2' at 10PM on November 23rd of 1997 to 'Software'. Forward should be logged as performed by Nancy. Add some notes. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcinter.forward_solution("2", "Software", _
                                     "11/23/97 22:00:00", _
                                     "Notes about forward", "nancy", false)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.forward_solution("2", "Software",
-
                                     "11/23/97 22:00:00",
-
                                     "Notes about forward", "nancy", false);
+```

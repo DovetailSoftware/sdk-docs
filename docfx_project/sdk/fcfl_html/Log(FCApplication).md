@@ -29,19 +29,18 @@ This method allows you to log a message to the FCFL log file. FCApplication logg
 The following example logs a message to the log file.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic
-
+```
 fc_app.Log "My Company", "This is a test message"
+```
 
 **JavaScript:**
-
-The code in this example is written in JavaScript.
-
+```
 fc_app.Log("My Company", "This is a test message");
+```
 
 Here is an example of what the entry will look like in the log file:
-
+```
 10/27/2003 11:59:12 AM : My Company
 
 This is a test message
+```

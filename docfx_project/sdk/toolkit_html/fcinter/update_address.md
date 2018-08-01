@@ -81,21 +81,19 @@ If you wish to change address line 1 or line 2 to be blank, you may use the addi
 Update an address. Only update the address line 1 and the state.
 
 **Visual Basic:**
-
-Dim ret_int  As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcinter.update_address(268435012, "101 Main St.", "", _
- "", "LA", true, "", _
-                                 "USA", "", "", 0, "", 0, _
- "", "", "", "", "", "")
+              "", "LA", true, "", _
+              "USA", "", "", 0, "", 0, _
+              "", "", "", "", "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.update_address(268435012, "101 Main St.", "",
-
- "", "LA", true, "",
-
-                                 "USA", "", "", 0, "", 0,
-
- "", "", "", "", "", "");
+              "", "LA", true, "",
+              "USA", "", "", 0, "", 0,
+               "", "", "", "", "", "");
+```

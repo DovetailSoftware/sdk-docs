@@ -39,25 +39,29 @@ This API causes the specified quote to be dispatched to the specified queue. The
 Dispatch quote number '154' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.dispatch_quote("154", "Hardware", "", "", True)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.dispatch_quote("154", "Hardware", "", "", True)
+```
 
- Dispatch quote number 'Q2' at 10PM on November 23rd of 2001 to 'Software'. Dispatch should be logged as performed by user 'sam'. Don't generate a time bomb.
+Dispatch quote number 'Q2' at 10PM on November 23rd of 2001 to 'Software'. Dispatch should be logged as performed by user 'sam'. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.dispatch_quote("Q2", "Software", "11/23/2001 22:00:00", _
                               "sam", False)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.dispatch_quote("Q2", "Software", "11/23/2001 22:00:00", _
                               "sam", False)
+```

@@ -70,35 +70,36 @@ The API will validate that the user has authority to make the status transition.
 Ship part request number '1-14' using an address and a status of "All Shipped". Fill in other shipping information, and  it was performed by Cindy. The shipping occurs on August 1, 2001. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.ship("1-14", "A site", "101 Main Street", "Suite 101", _
-                    "Any city", "Any State", "11111", "Country", "Joe", _
-                    "Customer", "Waybill 1234", "Packed all of it!", _
-                    4, 4.56, "All Shipped", "8/1/2001 8:11:00", "cindy", "Fed Ex", True)
+          "Any city", "Any State", "11111", "Country", "Joe", _
+          "Customer", "Waybill 1234", "Packed all of it!", _
+          4, 4.56, "All Shipped", "8/1/2001 8:11:00", "cindy", "Fed Ex", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.ship("1-14", "A site", "101 Main Street", "Suite 101",
+         "Any city", "Any State", "11111", "Country", "Joe",
+         "Customer", "Waybill 1234", "Packed all of it!",
+         4, 4.56, "All Shipped", "8/1/2001 8:11:00", "cindy", "Fed Ex", True);
+```
 
-                    "Any city", "Any State", "11111", "Country", "Joe",
-
-                    "Customer", "Waybill 1234", "Packed all of it!",
-
-                    4, 4.56, "All Shipped", "8/1/2001 8:11:00", "cindy", "Fed Ex", True);
-
- Ship part request number '2-1'. Use all the default information. Do not generate a time bomb.
+Ship part request number '2-1'. Use all the default information. Do not generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.ship("2-1", "", "", "", "", "", "", "", "", "", _
 "Waybill 1234", "Packed all of it!", 4, 4.56, "", "", "", "", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.ship("2-1", "", "", "", "", "", "", "", "", "",
 
 "Waybill 1234", "Packed all of it!", 4, 4.56, "", "", "", "", False);
+```

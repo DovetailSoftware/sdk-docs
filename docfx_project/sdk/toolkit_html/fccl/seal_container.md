@@ -29,11 +29,13 @@ This API seals an existing container.
 Seal container Fred.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-   ret_int = fccl. seal_container("Fred")
+ret_int = fccl. seal_container("Fred")
+```
 
-**Javascript:**
-
-   var ret_int = fccl. seal_container("Fred");
+**JavaScript:**
+```
+var ret_int = fccl. seal_container("Fred");
+```

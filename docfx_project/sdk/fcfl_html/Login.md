@@ -44,43 +44,27 @@ This method validates the login name and password for either a contact or a user
 The following example attempts to login as a contact using data from a posted web page.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var FCApp;
-
 var FCSession;
-
 var strUserName = Request.Form("username").Item;
-
 var strPassword = Request.Form("password").Item;
 
 //Create a session using the Global FCApp
-
  FCApp = Application.Contents("FCApp");
-
  FCSession = FCApp.CreateSession();
 
 //Set Locale on The IIS Session
-
   SetLCID();
 
 //Login as a contact
-
   var LogonOK = true; | try | {
-
     FCSession.Login(strUserName,strPassword,"contact")
-
   }
-
   catch(e)
-
   {
-
     Response.Write("<BR><B>Logon Error:</B><BR>");
-
     Response.Write("<B>" + e.description + "</B><BR>");
-
     var LogonOK = false;
-
   }
+```

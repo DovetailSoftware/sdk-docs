@@ -31,5 +31,6 @@ This API will delete labor applied to a depot repair part.
 Delete Time Log 268435463.
 
 **JavaScript:**
-
+```
 var retval = FCDR.delete_dr_labor(268435463, "");
+```

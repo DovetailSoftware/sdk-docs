@@ -105,36 +105,33 @@ The pick API will continue to attempt to pick until they have reserved all of th
 Pick inventory for part request number '1-14'. Use the location_servicing_locations to search. The pick is performed by Dan on January 1, 2001, and is from bad inventory. Generate time bombs.
 
 **Visual Basic:**
-
-Dim ret_int As Integer
-
-Dim tot_num As Integer
 ```
+Dim ret_int As Integer
+Dim tot_num As Integer
 
 ret_int = fccl.pick("1-14", "", False, "Dan", "1/1/2001", True)
-
 tot_num = fccl.ret_num
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.pick("1-14", "", False, "Dan", "1/1/2001", true);
+```
 
- Pick against part request number '2-1'. Pick from locations Austin/Bin 1, Austin/Bin 2, and Container 44 (name is Fred) from Austin. Use the default user and time, and use good stock. Don't generate a time bomb.
+Pick against part request number '2-1'. Pick from locations Austin/Bin 1, Austin/Bin 2, and Container 44 (name is Fred) from Austin. Use the default user and time, and use good stock. Don't generate a time bomb.
 
 **Visual Basic:**
-
-Dim ret_int As Integer
-
-Dim tot_num As Integer
 ```
+Dim ret_int As Integer
+Dim tot_num As Integer
 
 ret_int = fccl.pick("2-1", "Austin:Bin 1|Austin:Bin 2|Austin:Fred:44", _
                     True, "", "", True)
-
 tot_num = fccl.ret_num
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.pick("2-1", "Austin:Bin 1|Austin:Bin 2|Austin:Fred:44",
-
                         true, "", "", true);
+```

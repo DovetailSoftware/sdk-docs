@@ -48,35 +48,25 @@ The API can also generate a time bomb (for business rule notification).
 Tony replicates CR '10' at 10PM on November 23rd of 1997. Generate a time bomb.
 
 **Visual Basic:**
-
-Dim replicate_objid  As Long
-
-Dim replicate_id_num As String
-
-Dim ret_int          As Integer
 ```
+Dim replicate_objid  As Long
+Dim replicate_id_num As String
+Dim ret_int As Integer
 
-ret_int = fccq.replicate_cr("10", "tony", _
-                            "11/23/97 22:00:00", True)
+ret_int = fccq.replicate_cr("10", "tony", "11/23/97 22:00:00", True)
 
  If ret_int = 0 Then
-  
    replicate_objid = fccq.ret_objid
-  
    replicate_id_num = fccq.ret_id_num
+ End If  
+```
 
-   End If  
-  
 **JavaScript:**
-
-var ret_int = fccq.replicate_cr("10", "tony",
-  
-   "11/23/97 22:00:00", true);
+```
+var ret_int = fccq.replicate_cr("10", "tony", "11/23/97 22:00:00", true);
   
  if (ret_int == 0) {
-  
    var replicate_objid = fccq.ret_objid;
-
    var replicate_id_num = fccq.ret_id_num;
-  
-   }
+ }
+```

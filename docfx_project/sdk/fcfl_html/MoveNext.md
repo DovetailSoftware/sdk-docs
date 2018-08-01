@@ -26,51 +26,34 @@ If this is a child object, it is important to realize that the record that this 
 The following example queries for sites in the database. It then uses MoveFirst and MoveNext to iterate through the records.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Get sites so we can loop through them
-
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
-
   boSite.Query();
 
   // This is not needed, as the query does a MoveFirst
-
   boSite.MoveFirst();
 
   // Now print them out
-
   while (boSite.EOF != true)
-
   {
-
     Response.Write ("Site: " + boSite("name"));  
-
     boSite.MoveNext();
-
   }
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSite As FCGeneric
 
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery "site"
-
   boSite.Query
-
   boSite.MoveFirst
 
   While boSite.EOF = False
-
     MsgBox "Site is: " & boSite("name")
-
     boSite.MoveNext
-
   Wend
+```

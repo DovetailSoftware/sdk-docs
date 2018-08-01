@@ -38,35 +38,32 @@ This API causes the specified solution to be dispatched to the specified queue. 
 
 #### Examples
 
- Dispatch solution number '14' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
+Dispatch solution number '14' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-ret_int = fcinter.dispatch_solution("14", "Hardware", _
-                                     "", "", true)
+ret_int = fcinter.dispatch_solution("14", "Hardware", "", "", true)
+```
 
-**Javascript:**
+**JavaScript:**
+```
+var ret_int = fcinter.dispatch_solution("14", "Hardware", "", "", true);
+```
 
-var ret_int = fcinter.dispatch_solution("14", "Hardware",
-
-                                     "", "", true);
-
- Dispatch solution number '2' at 10PM on November 23rd of 1997 to 'Software'. Dispatch should be logged as performed by Nancy. Don't generate a time bomb.
+Dispatch solution number '2' at 10PM on November 23rd of 1997 to 'Software'. Dispatch should be logged as performed by Nancy. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcinter.dispatch_solution("2", "Software", _
-                                    "11/23/97 22:00:00", _
-                                    "nancy", false)
+                                    "11/23/97 22:00:00", "nancy", false)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.dispatch_solution("2", "Software",
-
-                                    "11/23/97 22:00:00",
-
-                                    "nancy", false);
+                                    "11/23/97 22:00:00", "nancy", false);
+```

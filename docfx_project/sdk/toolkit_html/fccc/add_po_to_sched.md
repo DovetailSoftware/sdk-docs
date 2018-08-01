@@ -52,18 +52,16 @@ This API is used to add purchase orders to schedules of contracts. A valid sched
 Add purchase order '123' to contract '22' and schedule 'Default Schedule'. The amount is $155.55, and set the terms, method, and status. Set dates as well.
 
 **JavaScript:**
-
+```
    var ret_int = fc_cc.add_po_to_sched("22", "Default Schedule", "123", _
                                    "Check",  "Net 10", "155.55", _
                                    "01/01/2001", "11/01/2002", "Issued")
-
-**      Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
 
+**Visual Basic:**
+```
+   Dim ret_int As Integer
    Dim po_num     As String
-
    Dim po_objid   As Long
 
    ret_int = fc_cc.add_po_to_sched("22", "Default Schedule", "123", _
@@ -71,9 +69,7 @@ Add purchase order '123' to contract '22' and schedule 'Default Schedule'. The a
                                    "01/01/2001", "11/01/2002", "Issued")
 
    If ret_int = 0 Then
-
      po_num = fc_cc.ret_id_num
-
      po_objid = fc_cc.ret_objid
-
    End If
+```

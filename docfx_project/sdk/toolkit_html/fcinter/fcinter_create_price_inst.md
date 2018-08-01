@@ -60,38 +60,31 @@ The non-business rule version of the API returns the objid of the created price 
 Add a price for quantity 1 of  "MS Word" to the "Spring" price list. Give dates and a price.
 
 **Visual Basic:**
-
-Dim ret_int          As Integer
 ```
-
+Dim ret_int As Integer
 Dim price_inst_objid As Long
 
-ret_int = fcinter.create_price_inst("MS Word", "Product",_
-                                    "","Spring", _
-                                    0, 1, "45.54","3/2/2000", _
-                                   "6/1/2000")
+ret_int = fcinter.create_price_inst("MS Word", "Product", "","Spring", _
+                                    0, 1, "45.54","3/2/2000", "6/1/2000")
 
  If ret_int = 0 Then
-
-      price_inst_objid = fcinter.ret_objid
-|  | End If |
-**Javascript:**
-
-var ret_int = fcinter.create_price_inst("MS Word", "Product",
-| 
- | "","Spring", 0, 1,
- |
-                                    "45.54","3/2/2000", "6/1/2000");
-
- if (ret_int == 0){ var price_inst_objid = fcinter.ret_objid; }
-
- Price a part for quantity 2 in the standard price list, using the dates of the price program.
-
-**Visual Basic:**
-
-Dim ret_int          As Integer
+   price_inst_objid = fcinter.ret_objid
+ End If 
 ```
 
+**JavaScript:**
+```
+var ret_int = fcinter.create_price_inst("MS Word", "Product", "","Spring", 
+				0, 1, "45.54","3/2/2000", "6/1/2000");
+
+if (ret_int == 0){ var price_inst_objid = fcinter.ret_objid; }
+```
+
+Price a part for quantity 2 in the standard price list, using the dates of the price program.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim price_inst_objid As Long
 
 ret_int = fcinter.create_price_inst("MS Word", "Product", "",_
@@ -99,15 +92,14 @@ ret_int = fcinter.create_price_inst("MS Word", "Product", "",_
                                     0, 2, "99.99", "", "")
 
  If ret_int = 0 Then
+   price_inst_objid = fcinter.ret_objid
+ End If 
+```
 
-      price_inst_objid = fcinter.ret_objid
-|  | End If |
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_price_inst("MS Word", "Product", "",
-| 
- | "US Std Price List",
- |
-                                    0, 2, "99.99", "", "");
+  "US Std Price List", 0, 2, "99.99", "", "");
 
  if (ret_int == 0){ var price_inst_objid = fcinter.ret_objid; }
+```

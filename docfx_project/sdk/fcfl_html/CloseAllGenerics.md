@@ -28,13 +28,11 @@ up to 10 FCGeneric objects.
 The following example closes all generic objects associated with an FCSession object
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 FCSession.CloseAllGenerics();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 FCSession.CloseAllGenerics
+```

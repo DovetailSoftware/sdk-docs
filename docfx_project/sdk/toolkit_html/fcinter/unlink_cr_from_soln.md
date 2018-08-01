@@ -40,12 +40,13 @@ This API allows a CR to be unlinked from a solution it is currently linked to. T
 Unlink CR '55' from the solution '66' at the current date/time by the current user. Generate time bombs.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcinter.unlink_cr_from_soln("55", "66", "", "", true)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.unlink_cr_from_soln("55", "66", "", "", true);
+```

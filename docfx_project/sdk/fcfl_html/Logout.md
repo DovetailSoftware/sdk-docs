@@ -22,11 +22,8 @@ This method logs out the currently logged-in FCSession. The Item collection is a
 The following example logs out the current FCSession.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 FCSession.Logout();
-
 FCSession.CloseSession();
-
 FCSession = null;
+```

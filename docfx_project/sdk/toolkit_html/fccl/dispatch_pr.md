@@ -35,31 +35,34 @@ This API causes the specified part request to be dispatched to the specified que
 | -6 | The DISPATCH activity string is not found with rank = 900 |
 | -7 | The specified queue does not allow dispatches of part requests |
 
-**Examples**
+#### Examples
 
 Dispatch part request number '1-14' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.dispatch_pr("1-14", "Hardware", "", "", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.dispatch_pr("1-14", "Hardware", "", "", true);
+```
 
- Dispatch part request number '2-1' at 10PM on November 23rd of 2001 to 'Software'. Dispatch should be logged as performed by Nancy. Don't generate a time bomb.
+Dispatch part request number '2-1' at 10PM on November 23rd of 2001 to 'Software'. Dispatch should be logged as performed by Nancy. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.dispatch_pr("2-1", "Software", "11/23/01 22:00:00", _
                        "nancy", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.dispatch_pr("2-1", "Software", "11/23/01 22:00:00",
-
                        "nancy", false);
+```

@@ -34,11 +34,13 @@ This API causes the specified change request to be moved from one WIPBin to anot
 Move change request number '2' to WIPBin 'Urgent'.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.move_cr("2", "Urgent")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.move_cr("2", "Urgent");
+```

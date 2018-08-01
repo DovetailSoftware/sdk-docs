@@ -41,14 +41,15 @@ This API causes the second part/revision listed to be removed as an alternate pa
 Remove WordPerfect 7.0 as an alternate part for MS Word 7.0.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.delete_alt_part("MS Word", "7.0", "Product", "WordPerfect", _
                               "7.0", "Product")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.delete_alt_part("MS Word", "7.0", "Product", "WordPerfect",
-
                               "7.0", "Product");
+```

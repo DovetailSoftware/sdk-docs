@@ -44,31 +44,34 @@ This API causes the specified CR to be reopened. It must be in a condition other
 | -19 | New status not found for new condition |
 | -20 | Cannot find the specified user's employee record for relating time bomb |
 
-**Examples**
+#### Examples
 
 Reopen CR number '10' by the current user at the current date/time. Place in the default WIPBin with the default status, and generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.reopen_cr("10", "", "", "", "", True)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.reopen_cr("10", "", "", "", "", true);
+```
 
- Reopen CR number '2' at 10PM on November 23rd of 1997 by jeanne. Place in jeanne's WIPBin 'Urgent', with status 'User Error'. Don't generate a time bomb.
+Reopen CR number '2' at 10PM on November 23rd of 1997 by jeanne. Place in jeanne's WIPBin 'Urgent', with status 'User Error'. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.reopen_cr("2", "User Error", "Urgent", _
                          "jeanne", "11/23/97 22:00:00", False)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.reopen_cr("2", "User Error", "Urgent",
-
- "jeanne", "11/23/97 22:00:00", false);
+	 "jeanne", "11/23/97 22:00:00", false);
+```

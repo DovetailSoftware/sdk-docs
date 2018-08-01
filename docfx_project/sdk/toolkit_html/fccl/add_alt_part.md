@@ -42,29 +42,31 @@ This API causes the second part/revision listed to become an alternate part of t
 Make WordPerfect 7.0 an alternate part for MS Word 7.0, but not the other way around.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.add_alt_part("MS Word", "7.0", "Product", "WordPerfect", _
                             "7.0", "Product", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.add_alt_part("MS Word", "7.0", "Product", "WordPerfect",
-
                             "7.0", "Product", false);
+```
 
- Do the same, but make the assignment reciprocal.
+Do the same, but make the assignment reciprocal.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.add_alt_part("MS Word", "7.0", "Product", "WordPerfect", _
                             "7.0", "Product", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.add_alt_part("MS Word", "7.0", "Product", "WordPerfect",
-
                             "7.0", "Product", true);
+```

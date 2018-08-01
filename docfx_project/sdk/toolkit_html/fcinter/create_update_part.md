@@ -102,10 +102,8 @@ These APIs either create or update a part number in the database. The part numbe
 Add a new part 'Attachments Anywhere' in domain 'Product' to the system. Set the family and line to 'Software', 'Workflow Series', and some other values, including  30 warranty days that start from shipment.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim part_objid As Long
 
 ret_int = fcinter.create_update_part("Attachments Anywhere", _
@@ -120,25 +118,20 @@ ret_int = fcinter.create_update_part("Attachments Anywhere", _
                                      "", 0, "", "", "", "","","")
 
  If ret_int = 0 Then
+   part_objid = fcinter.ret_objid
+ End If  
+```
 
-      part_objid = fcinter.ret_objid
-|  | End If |
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_update_part("Attachments Anywhere",
-| 
- | "Product", "Some notes",
-| 
- | "A good product description", "Model 42",
-| 
- | 30, true, "Each", "Software",
- |
-                                     "Workflow Series", |
- |
-                                     "Expendable", "Software", "2.3",
-| 
- | "2x2x3", "", "", 0,
- |
-                                     "", 0, "", "", "", "","","");
+   "Product", "Some notes",
+   "A good product description", "Model 42",
+   30, true, "Each", "Software",
+   "Workflow Series",  
+   "Expendable", "Software", "2.3",
+   "2x2x3", "", "", 0,
+   "", 0, "", "", "", "","","");
 
  if (ret_int == 0){ var part_objid = fcinter.ret_objid; }
+ ```

@@ -35,31 +35,34 @@ This API causes the specified part request to be rejected from the current queue
 | -5 | The specified user is not found |
 | -6 | The FORWARD activity string is not found with rank = 1100 |
 
-**Examples**
+#### Examples
 
 Forward part request number '1-14' to queue 'Hardware'. The forward is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.forward_pr("1-14", "Hardware", "", "", "", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.forward_pr("1-14", "Hardware", "", "", "", true);
+```
 
- Forward part request number '2-1' at 10PM on November 23rd of 2001 to 'Software'. Forward should be logged as performed by Nancy. Add some notes. Don't generate a time bomb.
+Forward part request number '2-1' at 10PM on November 23rd of 2001 to 'Software'. Forward should be logged as performed by Nancy. Add some notes. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.dispatch_pr("2-1", "Software", "11/23/01 22:00:00", _
                           "Notes about forward", "nancy", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.dispatch_pr("2-1", "Software", "11/23/01 22:00:00",
-
                           "Notes about forward", "nancy", false);
+```

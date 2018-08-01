@@ -36,29 +36,32 @@ This API causes the specified solution to be yanked and placed in a specific WIP
 
 #### Examples
 
- Yank solution number '14' to WIPBin 'Hardware'.  The yank occurs on August 1, 1998, and is performed by Marty. Generate a time bomb.
+Yank solution number '14' to WIPBin 'Hardware'.  The yank occurs on August 1, 1998, and is performed by Marty. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcinter.yank_solution("14", "Hardware", _
                                 "8/1/98", "marty", true)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.yank_solution("14", "Hardware",
-
                                 "8/1/98", "marty", true);
+```
 
- Yank solution number '2' to the default WIPBin. Do the yank now and with the current user. Do not generate a time bomb.
+Yank solution number '2' to the default WIPBin. Do the yank now and with the current user. Do not generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcinter.yank_solution("2", "", "", "", false)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.yank_solution("2", "", "", "", false);
+```

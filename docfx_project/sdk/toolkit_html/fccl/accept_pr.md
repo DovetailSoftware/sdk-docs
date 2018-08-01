@@ -34,30 +34,30 @@ This API causes the specified part request to be accepted from a dispatched queu
 
 #### Examples
 
-Accept PR number '1-14' right now for the current user, place in the default WIPBin, and generate
-
-a time bomb.
+Accept PR number '1-14' right now for the current user, place in the default WIPBin, and generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.accept_pr("1-14", "", "", "", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.accept_pr("1-14", "", "", "", true);
+```
 
- Accept part request number '2-1' at 10PM on November 23rd of 2001 by marty, and place the part request in marty's
-
-WIPBin named 'Urgent'. Don't generate a time bomb
+Accept part request number '2-1' at 10PM on November 23rd of 2001 by marty, and place the part request in marty's WIPBin named 'Urgent'. Don't generate a time bomb
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.accept_pr("2-1", "11/23/2001 22:00:00", "Urgent", "marty", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 ret_int = fccl.accept_pr("2-1", "11/23/2001 22:00:00", "Urgent", "marty", false)
+```

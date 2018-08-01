@@ -104,10 +104,8 @@ These APIs create or update a contract. An existing contract can be updated, or 
 Create a new software support contract.  Use the default status. Assign a purchase order to it, and use 1 hour and 1 day as the response times. Set the start date and end date, and they purchased 50 phone calls. Add some special considerations to the contract.
 
 **Visual Basic:**
-
-Dim ret_int        As Integer
 ```
-
+Dim ret_int As Integer
 Dim contract_objid As Long
 
 ret_int = fcinter.create_update_contract("","Software Support", _
@@ -117,30 +115,23 @@ ret_int = fcinter.create_update_contract("","Software Support", _
                                          "12/31/2000 8:00:00", "Call",_
                                          50, 0, 50, 1, "Good contract!", _
                                          "", 0, "", _
-                                            0, "", "", "", "", "", "")
+                                         0, "", "", "", "", "", "")
 
  If ret_int = 0 Then
+   contract_objid = fcinter.ret_objid
+ End If
+```
 
-      contract_objid = fcinter.ret_objid
-
-   End If
-
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.create_update_contract("","Software Support",
-
                                          "", "PO1234",
-
                                          "", 3600, 86400, "",
-
                                          "1/1/2000 8:00:00",
-
                                          "12/31/2000 8:00:00", "Call",
-
                                          50, 0, 50, 1, "Good contract!",
-
                                          "", 0, "",
-
-                                            0, "", "", "", "", "", "");
+                                         0, "", "", "", "", "", "");
 
  if (ret_int == 0){ var contract_objid = fcinter.ret_objid; }
+```

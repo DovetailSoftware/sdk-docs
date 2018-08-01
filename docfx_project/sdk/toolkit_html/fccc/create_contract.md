@@ -124,68 +124,56 @@ Create a new contract with title 'White House'. Specify the account of 'Major Mo
 **Field version:**
 
 **JavaScript:**
-
+```
 var ret_int = cl_cc.create_contract_list( "", "White House", _
                 "", "", "White House", "George", "Bush", _
                 "", "", "", "", "", "", "", "", "", _
                 "", "", "", "", "", "", "", "", "TRUE", _
                 "", 0, "", "", "", "")
-
-**Visual Basic:**
-
-Dim ret_int      As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim objid        As Long
-
 Dim contract_id  As String
 
 ret_int = cl_cc.create_contract_list( "", "White House", _
                 "", "", "White House", "George", "Bush", _
                 "", "", "", "", "", "", "", "", "", _
                 "", "", "", "", "", "", "", "", "TRUE", _
-                "", 0, "", "", "", "") If ret_int = 0 Then
+                "", 0, "", "", "", "") 
 
+If ret_int = 0 Then
   contract_id = fc_cc.ret_id_num
-
   objid = fc_cc.ret_objid
-
 End If
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 var ret_int;
 
 fld_list.AppendItem("x_close_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("1");
 
 fld_list.AppendItem("x_close_int2");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("456");
 
 fld_list.AppendItem("x_summary2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("x_other_date");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
 var ret_int = cl_cc.create_contract_list(contract_id, "White House", _
@@ -193,26 +181,19 @@ var ret_int = cl_cc.create_contract_list(contract_id, "White House", _
                 "", "", "", "", "", "", "", "", "", "", _
                 "", "", "", "", "", "", "TRUE", _
                 fld_list, type_list, val_list)
-
-**Visual Basic:**
-
- Dim ret_int             As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim objid               As Long
-
 Dim contract_id         As String
-
 Dim fld_list            As New FCFLCOMPAT.FCLIST
-
 Dim type_list           As New FCFLCOMPAT.FCLIST
-
 Dim val_list            As New FCFLCOMPAT.FCLIST
 
 fld_list.ItemType = "String"
-
 type_list.ItemType = "String"
-
 val_list.ItemType = "String"
 
 ret_int = cl_cc.create_contract_list(contract_id, "White House", _
@@ -222,7 +203,7 @@ ret_int = cl_cc.create_contract_list(contract_id, "White House", _
                 fld_list, type_list, val_list) If ret_int = 0 Then
 
   contract_id = fc_cc.ret_id_num
-
   objid = fc_cc.ret_objid
 
 End If
+```

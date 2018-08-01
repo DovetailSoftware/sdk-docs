@@ -32,28 +32,30 @@ This API deletes an existing expense log. The expense log OBJID must be supplied
 
 #### Examples
 
- Delete an expense log.
+Delete an expense log.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.delete_expense_log(268435666, "", "")
-
-**JavaScript:**
-
-var ret_int = fcfo.delete_expense_log(268435666, "", "");
-
- Joe deleted an expense log on February 1.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fcfo.delete_expense_log(268435666, "", "");
+```
+
+Joe deleted an expense log on February 1.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
 ret_int = fcfo.delete_expense_log(268436555, "2/1/98 12:00:00", "Joe")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.delete_expense_log(268436555, "2/1/98 12:00:00", "Joe");
+```

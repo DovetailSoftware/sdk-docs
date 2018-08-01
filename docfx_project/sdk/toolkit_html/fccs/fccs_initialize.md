@@ -21,69 +21,50 @@ This API initializes an **FCCS** object. It must be called after the creation of
 Create and initialize a new FCCS object.
 
 **JavaScript:**
-
+```
 var FCApp;
-
 var FCSession;
-
 var fccs;
 
 FCApp = new ActiveXObject("FCFL.fcapplication");
-
 FCApp.WorkingDirectory = 
-
     "C:\\\users\\\first\\\product\\\fcfl\\\error";
 
 FCApp.Initialize();
-
 FCSession = FCApp.CreateSession();
-
 FCSession.Login("sa","sa", "user");
 
 fccs = new ActiveXObject("FCCS.CS");
-
 fccs.Initialize(FCApp, FCSession);
 
 //  Do FCCS work here
-
 FCCS = null;
-
 FCSession.Logout();
-
 FCSession.CloseSession();
-
 FCSession = null;
-
 FCApp = null;
+```
 
 **Visual Basic:**
-
+```
 Dim fc_app     As FCApplication
-
 Dim fc_session As FCSession
-
 Dim fccs_obj   As CS
 
 Set fc_app = New FCApplication
-
 fc_app.ConnectionString = "provider=sqloledb;datasource=gaffer;initial   catalog=cl10;user id=sa; password=sa;"
-
 fc_app.Initialize
 
 Set fc_session = fc_app.CreateSession
-
 fc_session.Login "sa", "sa", "user"
 
 Set fccs_obj = New CS
-
 fccs_obj.Initialize fc_app, fc_session   
 
 ' Do FCCS work here
-
 Set fccs_obj = Nothing
-
 fc_session.Logout
 
 Set fc_session = Nothing
-
 Set fc_app = Nothing
+```

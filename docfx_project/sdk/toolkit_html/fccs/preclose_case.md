@@ -64,36 +64,26 @@ The results of the API are returned in the string _ret_id_num_. The values are s
 Preclose case number 'C154'. Get the value for the captured and total phone logs, and for the captured and total billable expenses.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.preclose_case("C154");
-
 var c_phone = fc_session.GetItem(fccs.ret_id_num, 2, 2, "|");
-
 var t_phone = fc_session.GetItem(fccs.ret_id_num, 1, 1, "|");
-
 var c_bill = fc_session.GetItem(fccs.ret_id_num, 14, 14, "|");
-
 var t_bill = fc_session.GetItem(fccs.ret_id_num, 13, 13, "|");
-
-**Visual Basic:**
-
-   Const PIPE      =  "|"
-     Dim ret_int     As Integer
 ```
 
+**Visual Basic:**
+```
+Const PIPE      =  "|"
+Dim ret_int As Integer
 Dim c_phone     As Long
-
 Dim t_phone     As Long
-
 Dim c_bill      As Long
-
 Dim t_bill      As Long  
 ret_int = fccs.preclose_case("C154")
 
 c_phone = CLng(fc_session.GetItem(fccs.ret_id_num, 2, 2, PIPE))
-
 t_phone = CLng(fc_session.GetItem(fccs.ret_id_num, 1, 1, PIPE))
-
 c_bill = CLng(fc_session.GetItem(fccs.ret_id_num, 14, 14, PIPE))
-
 t_bill = CLng(fc_session.GetItem(fccs.ret_id_num, 13, 13, PIPE))
+```

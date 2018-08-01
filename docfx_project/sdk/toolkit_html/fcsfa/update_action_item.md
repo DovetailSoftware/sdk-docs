@@ -106,72 +106,59 @@ If you want to relate a contact to the action item you must supply all three of 
 
 #### Examples
 
- Update action item '9'. Specify a new title and notes. Specify a new contact and lead, but clear out the opportunity, and account. Also specify a new task type and priority. Leave the start/due times alone, but specify a new status. Set a user-defined field
+Update action item '9'. Specify a new title and notes. Specify a new contact and lead, but clear out the opportunity, and account. Also specify a new task type and priority. Leave the start/due times alone, but specify a new status. Set a user-defined field
 
 **Field version:**
 
 **JavaScript:**
-
-   var ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",
-
+```
+var ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",
                    "Doe", "555-1212", "CLEAR", "Lead", "Guy", "CLEAR",
-
                    "Fax", "Low", "", "", "NewStat", "", "x_int1", 44, "", 0,
-
-       "", "", "", "", "", "");
-
-**Visual Basic:**
-
-   Dim ret_int    As Integer
+			       "", "", "", "", "", "");
 ```
 
-   ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",_
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
+ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",_
                    "Doe", "555-1212", "CLEAR", "Lead", "Guy", "CLEAR", _
                    "Fax", "Low", "", "", "NewStat", "", "x_int1", 44, "", 0, _
                    "", "", "", "", "", "")
+```
 
 **List version:**
 
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
-
 var type_list = Server.CreateObject("FCFLCOMPAT.FCLIST");
-
 var val_list  = Server.CreateObject("FCFLCOMPAT.FCLIST");
 
 fld_list.AppendItem("x_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("44");
 
-   var ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",
-
-                   "Doe", "555-1212", "CLEAR", "Lead", "Guy", "CLEAR",
-
+var ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",
+       "Doe", "555-1212", "CLEAR", "Lead", "Guy", "CLEAR",
        "Fax", "Low", "", "", "NewStat", "", fld_list,
-
        type_list, val_list);
-
-**Visual Basic:**
-
-   Dim ret_int    As Integer
 ```
 
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim fld_list   As New FCList
-
 Dim type_list  As New FCList
-
 Dim val_list   As New FCList
 
 fld_list.AppendItem("x_int1")
-
 type_list.AppendItem("Long")
-
 val_list.AppendItem("44")
 
-   ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",_
+ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",_
                    "Doe", "555-1212", "CLEAR", "Lead", "Guy", "CLEAR", _
                    "Fax", "Low", "", "", "NewStat", "", fld_list, _
                    type_list, val_list)
+```

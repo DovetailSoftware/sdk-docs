@@ -39,29 +39,32 @@ This API causes the specified case to be dispatched to the specified queue. The 
 
 #### Examples
 
- Dispatch case number 'C154' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
+Dispatch case number 'C154' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.dispatch_case("C154", "Hardware", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.dispatch_case("C154", "Hardware", "", "", True)
+```
 
- Dispatch case number '2' at 10PM on November 23rd of 1997 to 'Software'. Dispatch should be logged as performed by dave. Don't generate a time bomb.
+Dispatch case number '2' at 10PM on November 23rd of 1997 to 'Software'. Dispatch should be logged as performed by dave. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.dispatch_case("2", "Software",
-
                                  "11/23/97 22:00:00", "dave", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.dispatch_case("2", "Software", "11/23/97 22:00:00", _
                              "dave", False)
+```

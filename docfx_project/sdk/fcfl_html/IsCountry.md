@@ -32,13 +32,10 @@ A boolean value indicating if the given country is found in the database or not.
 The following example checks is a given value from a posted form is a valid country.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
-var country = Request.Form("country").Item; If (FCApp.IsCountry(country))
-
+```
+var country = Request.Form("country").Item; 
+If (FCApp.IsCountry(country))
  { Response.Write(country + " is a valid country."); }
-
 else
-
  { Response.Write(country + " is NOT a valid country."); }
+```

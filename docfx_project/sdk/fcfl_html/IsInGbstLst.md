@@ -42,15 +42,12 @@ True if the Element does exist in the ListName list. Else, False.
 The following example checks is a given value from a posted form is a valid Case Priority.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var ListName = "Response Priority Code";
+var ListValue = Request.Form("priority").Item; 
 
-var ListValue = Request.Form("priority").Item; If (FCApp.IsInGbstLst(ListName,ListValue))
-
+If (FCApp.IsInGbstLst(ListName,ListValue))
  { Response.Write(ListValue + " is a valid " + ListName); }
-
 else
-
  { Response.Write(ListValue + " is NOT a valid " + ListName); }
+```

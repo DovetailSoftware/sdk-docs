@@ -44,24 +44,22 @@ This API places a revision of a part in a bill of materials for another part/rev
 Add 2 batteries (rev '') in the BOM of  "Computer rev 1.0".
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim bom_objid  As Long
 
 ret_int = fcinter.create_bom("Computer", "Product","1.0", _
                              "Battery","Quantity", "", 2)
 
  If ret_int = 0 Then
-
-      bom_objid = fcinter.ret_objid
+   bom_objid = fcinter.ret_objid
  End If
- 
-**Javascript:**
+```
 
+**JavaScript:**
+```
 var ret_int = fcinter.create_bom("Computer", "Product","1.0",
-
                              "Battery","Quantity", "", 2);
 
  if (ret_int == 0){ var bom_objid = fcinter.ret_objid; }
+```

@@ -139,10 +139,8 @@ Four error codes (-32, -33, -37, -38) are supplied for this option.
 Fred performed an exchange of parts. He removed a site_part (related to part request '14-1'), and installed MS Word version 7.0, with a serial number of '1234' (under a site_part). The removed part will be put in the "Restock" bin (as bad inventory), and the installed part was pulled from "San Jose/Bin 4". The action is logged by "sa" on February 20,1998. It is also against case '23'.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim log_objid  As Long
 
 ret_int = fcfo.log_parts_used("14-1", "23", "Exchange", 268435566, _
@@ -152,34 +150,28 @@ ret_int = fcfo.log_parts_used("14-1", "23", "Exchange", 268435566, _
     "Bin 4", "", True, "Fred", "sa", True, _
     "2/20/98 9:25:00")
   
-   If ret_int = 0 Then
-  
-     log_objid = fcfo.ret_objid
+ If ret_int = 0 Then
+   log_objid = fcfo.ret_objid
  End If
- 
-**JavaScript:**
-
-var ret_int = fcfo.log_parts_used("14-1", "23", "Exchange", 268435566,
-  
-   false, 0, "Austin", "Restock", "", false,
-  
-      "Failure code3", "MS Word", "7.0",
-  
-   "Product", "1234", 1, "", "San Jose",
-  
-   "Bin 4", "", true, "Fred", "sa", true,  
-  
-      "2/20/98 9:25:00");
-
- if (ret_int == 0){ var log_objid = fcfo.ret_objid; }
-
- Install 5 of a site_part at the top level of a site. Do not do any inventory transfers.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fcfo.log_parts_used("14-1", "23", "Exchange", 268435566,
+   false, 0, "Austin", "Restock", "", false,
+   "Failure code3", "MS Word", "7.0",
+   "Product", "1234", 1, "", "San Jose",
+   "Bin 4", "", true, "Fred", "sa", true,  
+   "2/20/98 9:25:00");
+
+if (ret_int == 0){ var log_objid = fcfo.ret_objid; }
+```
+
+Install 5 of a site_part at the top level of a site. Do not do any inventory transfers.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
 Dim log_objid  As Long
 
 ret_int = fcfo.log_parts_used("2-2", "", "Install", 0, True, 0, _
@@ -187,19 +179,17 @@ ret_int = fcfo.log_parts_used("2-2", "", "Install", 0, True, 0, _
    "", 5, "", "", "", "", True, _
    "", "",False, "")
   
-   If ret_int = 0 Then
-  
-     log_objid = fcfo.ret_objid
+ If ret_int = 0 Then
+   log_objid = fcfo.ret_objid
  End If
- 
-**JavaScript:**
+```
 
+**JavaScript:**
+```
 var ret_int = fcfo.log_parts_used("2-2", "", "Install", 0, true, 0,
-  
    "", "", "", true, "", "", "", "",
-  
    "", 5, "", "", "", "", true,  
-  
-       "", "",false, "");
+   "", "",false, "");
 
  if (ret_int == 0){ var log_objid = fcfo.ret_objid; }
+``` 

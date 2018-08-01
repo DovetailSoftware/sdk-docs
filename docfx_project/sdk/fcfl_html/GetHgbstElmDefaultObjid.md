@@ -44,29 +44,19 @@ The hgbst_elm.objid value for the default element in a given level of a user-def
 The following example displays the default element objid for different elements in different levels of the FAMILY user-defined list.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 The default element objid for 'Family:Software':
-
 <%=FCApp.GetHgbstElmDefaultObjid("Family","Software")%>
-
 <BR>
-
 The default element objid for 'Operating Systems' in 'Family:Bad Level':<BR>
-
 Note that this will cause an error to be thrown.<BR>
 
 <%
-
 try{
-
-FCApp.GetHgbstElmDefaultObjid("Family", "Bad Level")
-
+	FCApp.GetHgbstElmDefaultObjid("Family", "Bad Level")
 }
-
 catch (e) {
-
-Response.Write(e.description);
-
+	Response.Write(e.description);
 }
+%>
+```

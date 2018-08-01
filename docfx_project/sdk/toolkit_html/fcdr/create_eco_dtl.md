@@ -55,15 +55,14 @@ This API add labor or material details to the specified ECO Header. The objid of
 Create a labor ECO detail attached to ECO "8". The estimated time is 10 minutes (600 seconds).
 
 **JavaScript:**
-
-var ret_int = fcdr.create_eco_dtl("Labor",0,"","",600,"","Apply
-
-              Upgrade","8",0);
+```
+var ret_int = fcdr.create_eco_dtl("Labor",0,"","",600,"",
+	"Apply Upgrade","8",0);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-ret_int = fcdr.create_eco_dtl("Labor",0,"","",600,"","Apply
-
-              Upgrade","8",0)
+ret_int = fcdr.create_eco_dtl("Labor",0,"","",600,"","Apply Upgrade","8",0)
+```

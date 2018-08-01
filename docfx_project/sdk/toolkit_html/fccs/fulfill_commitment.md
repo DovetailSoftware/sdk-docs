@@ -36,29 +36,32 @@ This API will fulfill a previously unfulfilled commitment. The commitment objid 
 
 #### Examples
 
- Fulfill the commitment with the objid of 268435457.  The fulfill is is performed by the current user and is fulfilled at the current time. Generate a time bomb.
+Fulfill the commitment with the objid of 268435457.  The fulfill is is performed by the current user and is fulfilled at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.fulfill_commitment(268435457, "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.fulfill_commitment(268435457, "", "", True)
+```
 
- Fulfill a commitment with an objid of 268435500. The fulfill is perfomed by dave at 10PM on November 23rd of 1997. Don't generate a time bomb.
+Fulfill a commitment with an objid of 268435500. The fulfill is perfomed by dave at 10PM on November 23rd of 1997. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.fulfill_commitment(268435500,
-
                    "11/23/97 22:00:00", "dave", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.fulfill_commitment(268435500, _
                "11/23/97 22:00:00", "dave", True)
+```

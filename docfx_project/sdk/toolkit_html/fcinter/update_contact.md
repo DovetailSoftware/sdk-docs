@@ -109,43 +109,39 @@ The new_prim_site and new_prim_role fields allow the primary contact role to be 
 Update Mary Smith. Change her name to "Mary Jones", and her phone number.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcinter.update_contact("Mary", "Smith", "555-1213", _
           "43", "End User", "", "", "", "", "","", "Jones", _
-"555-2222", "", "", "", 0, "", 0, "", "", "", "", _
+          "555-2222", "", "", "", 0, "", 0, "", "", "", "", _
           "", "")
-
-**Javascript:**
-
-var ret_int = fcinter.update_contact("Mary", "Smith",
-
-              "555-1213", "43", "End User", "", "", "", "", "",
-
-              "", "Jones", "555-2222", "", "", "", 0, "", 0, "",
-
-"", "", "", "", "");
-
- Update Mary Jones. Change her primary contact role to be 'Supervisor' at the current location.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fcinter.update_contact("Mary", "Smith",
+              "555-1213", "43", "End User", "", "", "", "", "",
+              "", "Jones", "555-2222", "", "", "", 0, "", 0, "",
+              "", "", "", "", "");
+```
+
+Update Mary Jones. Change her primary contact role to be 'Supervisor' at the current location.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
 ret_int = fcinter.update_contact("Mary", "Jones", "555-2222", _
-          "43", "End User", "", "", "", "", "","", "", _
-"","", "Supervisor", "", 0, "", 0, "", "", "", "", _
-          "", "")
+              "43", "End User", "", "", "", "", "","", "", _
+              "","", "Supervisor", "", 0, "", 0, "", "", "", "", _
+              "", "")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.update_contact("Mary", "Jones",
-
               "555-2222", "43", "End User", "", "", "", "", "",
-
               "", "", "","", "Supervisor", "", 0, "", 0, "",
-
-"", "", "", "", "");
+              "", "", "", "", "");
+```

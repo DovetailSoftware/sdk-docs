@@ -66,25 +66,28 @@ These APIs cause the specified action item, opportunity, or quote to be assigned
 Assign action item number '10' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.assign_action_item("10", "marty", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.assign_action item("10", "marty", "", "", "", True)
+```
 
-*  Assign opportunity number '2' at 10PM on November 23rd of 1997 to marty, and place it in marty's WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb.
+Assign opportunity number '2' at 10PM on November 23rd of 1997 to marty, and place it in marty's WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.assign_quote("2", "marty", "Urgent",
-
                                  "11/23/97 22:00:00", "sam", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.assign_quote("2", "marty", "Urgent", "11/23/97 22:00:00", "sam", False)
+```

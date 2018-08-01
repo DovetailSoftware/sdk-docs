@@ -28,65 +28,46 @@ This method sets the current record for the generic object either forward or bac
 The following example queries for sites in the database. It then uses MoveRelative to change to a variety of records.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Get sites so we can loop through them
-
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
-
   boSite.Query();
 
   // Go to 3rd record
-
   boSite.MoveRelative(2);
-
   Response.Write ("Site: " + boSite("name"));  
 
   // Go forward 3 more 
-
   boSite.MoveRelative(3);
-
   Response.Write ("Site: " + boSite("name"));  
 
   // Go  back 4
-
   boSite.MoveRelative(-4);
-
   Response.Write ("Site: " + boSite("name"));  
 
   // Forward 1 more - Same as MoveNext
-
   boSite.MoveRelative(1);
-
   Response.Write ("Site: " + boSite("name"));  
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSite As FCGeneric
 
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery "site"
-
   boSite.Query
 
   boSite.MoveRelative (2)
-
   MsgBox "Site: " & boSite("name")
 
   boSite.MoveRelative (3)
-
   MsgBox "Site: " & boSite("name")
 
   boSite.MoveRelative (-4)
-
   MsgBox "Site: " & boSite("name")
 
   boSite.MoveRelative (1)
-
   MsgBox "Site: " & boSite("name")
+```

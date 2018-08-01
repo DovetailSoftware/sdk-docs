@@ -34,25 +34,27 @@ This API deletes an existing appointment. The objid of the appointment being del
 Delete an appointment.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.delete_appt(268435666, "", "")
-
-**JavaScript:**
-
-var ret_int = fcfo.delete_appt(268435666, "", "");
-
- Joe deleted an appointment on February 1, 1998 at noon.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fcfo.delete_appt(268435666, "", "");
+```
+
+Joe deleted an appointment on February 1, 1998 at noon.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
 ret_int = fcfo.delete_appt(268436555, "Joe", "2/1/98 12:00:00")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.delete_appt(268436555, "Joe", "2/1/98 12:00:00");
+```

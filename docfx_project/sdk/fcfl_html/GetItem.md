@@ -34,23 +34,20 @@ Returns all the items between first and last within the specified formatted text
 The following example creates 2 delimited lists, and then extracts a range from each.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 var ilist = "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15";
-
 var slist = "1/2/3/4/5/6/7/8/9/10/11/12/13/14/15";
-
 var list1 = FCSession.GetItem(ilist,5,12,",");
-
 var list2 = FCSession.GetItem(slist,2,9,"/");
-
 var ilist4 = FCSession.GetItem(ilist,4,4,",");
+```
 
 The results of this would be:
 
+```
 list1  = 5,6,7,8,9,10,11,12
 
 list2 = 2/3/4/5/6/7/8/9
 
 ilist4 = 4
+```

@@ -105,70 +105,40 @@ This API creates an interaction in Clarify. An interaction stores information on
 Create a new Interaction
 
 **Visual Basic:**
-
+```
 the_title = ""
-
 the_notes = ""
-
 first = "Joe"
-
 last = "Contact"
-
 phone = "512-123-4567"
-
 zipcode = "02021"
-
 reason1 = "Order"
-
 reason2 = ""
-
 prod_name = ""
-
 direction = "Inbound"
-
 the_type = "Call"
-
 origin = "800#"
-
 done_in_one = True
-
 result = "Placed Order"
-
 fee_based = False
-
 pay_option = "Credit Card"
-
 lead_source = ""
-
 start_date = "12/27/2002 10:30"
-
 duration = 5
-
 wait_time = 0
-
 entered_time = 0
-
 user_name = "sam"
-
 gen_time_bomb = False
-
 int_fld1 = ""
-
 int_val1 = 0
-
 str_fld1 = ""
-
 str_val1 = ""
-
 str_fld2 = ""
-
 str_val2 = ""
-
 date_fld1 = ""
-
 date_val1 = ""
 
-   ret_int = fcinter.create_interact(the_title, the_notes, first, last, _
+ret_int = fcinter.create_interact(the_title, the_notes, first, last, _
                      phone, zipcode, reason1, reason2, _
                      prod_name, direction, the_type, origin, _
                      done_in_one, result, fee_based, pay_option, _
@@ -179,103 +149,61 @@ date_val1 = ""
                      str_fld1, str_val1, _
                      str_fld2, str_val2, _
                      date_fld1, date_val1)
-| 
- | If ret_int = 0
- |
-      InteractionObjid = fcinter.ret_objid
-
-      InteractionId = fcinter.ret_id_num
- End If
  
-**Javascript:**
+ If ret_int = 0
+   InteractionObjid = fcinter.ret_objid
+   InteractionId = fcinter.ret_id_num
+ End If
+```
 
+**JavaScript:**
+```
 the_title = "";
-
 the_notes = "";
-
 first = "Joe";
-
 last = "Contact";
-
 phone = "512-123-4567";
-
 zipcode = "02021";
-
 reason1 = "Order";
-
 reason2 = "";
-
 prod_name = "";
-
 direction = "Inbound";
-
 the_type = "Call";
-
 origin = "800#";
-
 done_in_one = True;
-
 result = "Placed Order";
-
 fee_based = False;
-
 pay_option = "Credit Card";
-
 lead_source = "";
-
 start_date = "12/27/2002 10:30";
-
 duration = 5;
-
 wait_time = 0;
-
 entered_time = 0;
-
 user_name = "sam";
-
 gen_time_bomb = False;
-
 int_fld1 = "";
-
 int_val1 = 0;
-
 str_fld1 = "";
-
 str_val1 = "";
-
 str_fld2 = "";
-
 str_val2 = "";
-
 date_fld1 = "";
-
 date_val1 = "";
 
-   var ret_int = fcinter.create_interact(the_title, the_notes, first, last,
-  
-   phone, zipcode, reason1, reason2,
-  
-   prod_name, direction, the_type, origin,
-  
-   done_in_one, result, fee_based, pay_option,
-  
-   lead_source, start_date, duration,
-  
-   wait_time, entered_time, user_name,
-  
-   gen_time_bomb,
-
-                     int_fld1, int_val1,  
-  
-                     str_fld1, str_val1,  
-  
-                     str_fld2, str_val2,  
-  
-                     date_fld1, date_val1);
+var ret_int = fcinter.create_interact(the_title, the_notes, first, last,
+				   phone, zipcode, reason1, reason2,
+				   prod_name, direction, the_type, origin,
+				   done_in_one, result, fee_based, pay_option,
+				   lead_source, start_date, duration,
+				   wait_time, entered_time, user_name,
+				   gen_time_bomb,
+                   int_fld1, int_val1,  
+                   str_fld1, str_val1,  
+                   str_fld2, str_val2,  
+                   date_fld1, date_val1);
 
    if(ret_int == 0) {
-
       var InteractionObjid = fcinter.ret_objid;
-
       var InteractionId = fcinter.ret_id_num;
    }
+```

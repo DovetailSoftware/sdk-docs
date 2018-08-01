@@ -4,7 +4,7 @@ add_svc_inter
 ```
 Public Function add_svc_inter(ByVal case_id As String, _
                   ByVal sp_objid As Long, ByVal description As String, _
-				  ByVal start_time As String, ByVal end_time As String, _
+                  ByVal start_time As String, ByVal end_time As String, _
                   ByVal duration As Long, ByVal svc_class As String, _
                   ByVal svc_type As String, ByVal user_name As String, _
                   ByVal creation_time As String) As Integer
@@ -59,57 +59,49 @@ Each appointment must be specified for a given case or a piece of equipment (sit
 Create a service interruption for case C102 for  "sa" for the September 12, 1999, for 10 minutes. Relate to a case, and use default code list values.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim ap_objid   As Long
 
-   ret_int = fcfo.add_svc_inter("C102", 0, "test by case", _
-                                "9/12/99 11:00:00", "9/12/99 11:10:00", 600, _                    
-  
+ret_int = fcfo.add_svc_inter("C102", 0, "test by case", _
+   "9/12/99 11:00:00", "9/12/99 11:10:00", 600, _
    "", "", "sa", "7/23/99 2:57:59")  
   
-   If ret_int = 0 Then
-  
-     ap_objid = fcfo.ret_objid
+ If ret_int = 0 Then
+   ap_objid = fcfo.ret_objid
  End If
- 
-**JavaScript:**
-
-   var ret_int = fcfo.add_svc_inter("C102", 0, "test by case",
-  
-   "9/12/99 11:00:00", "9/12/99 11:10:00", 600,                    
-  
-                       "", "", "sa", "7/23/99 2:57:59");
-
- if (ret_int == 0){ var ap_objid = fcfo.ret_objid; }
-
- Create an appointment for site_part 268435458  for the 12th of  September 1999 (use start and end time) for 1 hour. Relate to a site_part, use default code list values.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
 ```
 
-Dim ap_objid   As Long
-
-   ret_int = fcfo.add_svc_inter("", 268435458, "test by site part", _
-                    "9/12/99 11:00:00", "9/12/99 12:00:00", _     
-  
-   0, "", "", "", "7/23/99 2:57:59")  
-  
-   If ret_int = 0 Then
-  
-     ap_objid = fcfo.ret_objid
- End If
- 
 **JavaScript:**
-
-   var ret_int = fcfo.add_svc_inter("", 268435458, "test by site part",
-  
-   "9/12/99 11:00:00", "9/12/99 12:00:00",     
-  
-                       0, "", "", "", "7/23/99 2:57:59");
+```
+var ret_int = fcfo.add_svc_inter("C102", 0, "test by case",
+   "9/12/99 11:00:00", "9/12/99 11:10:00", 600,                    
+   "", "", "sa", "7/23/99 2:57:59");
 
  if (ret_int == 0){ var ap_objid = fcfo.ret_objid; }
+```
+
+Create an appointment for site_part 268435458  for the 12th of  September 1999 (use start and end time) for 1 hour. Relate to a site_part, use default code list values.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+Dim ap_objid   As Long
+
+ret_int = fcfo.add_svc_inter("", 268435458, "test by site part", _
+   "9/12/99 11:00:00", "9/12/99 12:00:00", _     
+   0, "", "", "", "7/23/99 2:57:59")  
+  
+ If ret_int = 0 Then
+   ap_objid = fcfo.ret_objid
+ End If
+```
+
+**JavaScript:**
+```
+var ret_int = fcfo.add_svc_inter("", 268435458, "test by site part",
+   "9/12/99 11:00:00", "9/12/99 12:00:00",     
+   0, "", "", "", "7/23/99 2:57:59");
+
+ if (ret_int == 0){ var ap_objid = fcfo.ret_objid; }
+```

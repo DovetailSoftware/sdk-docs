@@ -49,19 +49,17 @@ This API create a new ECO Header object.
 *  Create a new ECO header titled "5001", type "Service Update", status "In Effect", starting "1/1/1999",  and ending "1/31/1999".
 
 **JavaScript:**
-
+```
 var ret_int = fcdr. create_eco_hdr("5001","Service
-
                     Update","","","01/01/99 00:00",
-
                     "01/31/99 23:59","In Effect","")
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcdr. create_eco_hdr("5001","Service
-
                 Update","","","01/01/99 00:00",
-
                 "01/31/99 23:59","In Effect","")
+```

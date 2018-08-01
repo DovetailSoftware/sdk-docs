@@ -36,13 +36,9 @@ The table name for the supplied table number. If the supplied number is not vali
 The following example prints out the table names for a Clarify table and a Clarify view.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 Response.Write("Table name for table 52 = " +
-
             FCApp.GetTableName(52));
-
 Response.Write("View name for view 88 = " +
-
             FCApp.GetTableName(88));
+```

@@ -42,11 +42,13 @@ This API is used to create new ECO items. It requires that a valid ECO Header be
 Create a new ECO item. It will relate to ECO Header "8", be active, and change part 268435464 to part 268435465.
 
 **JavaScript:**
-
+```
 var ret_int = fcdr.create_eco_item(5148, 1, "8", 268435464, 268435465);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcdr.create_eco_item(5148, 1, "8", 268435464, 268435465)
+```

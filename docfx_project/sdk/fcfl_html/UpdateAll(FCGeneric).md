@@ -34,51 +34,36 @@ If you wish to update just one record in the generic object, you should call on 
 The following example sets the external_id field for all of the sites that it locates.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Find all sites
-
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
-
   boSite.Query();
 
   // Update a field for all of the sites
-
   // Update all modified records in this generic
 
   while (boSite.EOF != true)
-
   {
-
     boSite("external_id") = "An external ID";
-
     boSite.MoveNext();
-
   }
 
   boSite.UpdateAll();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSite As FCGeneric
 
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery "site"
-
   boSite.Query
 
   While boSite.EOF = False
-
     boSite("external_id") = "An external ID!"
-
     boSite.MoveNext
-
   Wend
 
   boSite.UpdateAll
+```

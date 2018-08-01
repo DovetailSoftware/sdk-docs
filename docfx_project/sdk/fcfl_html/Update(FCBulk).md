@@ -33,61 +33,45 @@ If you wish to update all of the (modified) records in the generic object, you s
 The following example updates one case, one site, and one contact record.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Update first case, contact, and site record from a query
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
 
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
 
   var boContact = FCSession.CreateGeneric();
-
   boContact.SimpleQuery("contact");
-
   boCase.Bulk.Query();
 
   boCase("dev") = 1
-
   boContact("dev") = 2
-
   boSite("dev") = 3
 
   boCase.Bulk.Update();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Dim boContact As FCGeneric
-
   Dim boSite As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
 
   Set boContact = fc_session.CreateGeneric
-
   boContact.SimpleQuery "contact"
 
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery "site"
 
   boCase.Bulk.Query
 
   boCase("dev") = 4
-
   boContact("dev") = 5
-
   boSite("dev") = 6
 
   boCase.Bulk.Update
+```

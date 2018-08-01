@@ -42,27 +42,29 @@ This API cause the specified change request to be assigned to a new user. The CR
 Assign change request number '10' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.assign_cr("10", "marty", "", "", "", True)
+```
 
 **JavaScript:**
-
+```
 var ret_int = fccq.assign_cr("10", "marty", "", "", "", true);
+```
 
- Assign change request number '2' at 10PM on November 23rd of 1997 to marty, and place the change request in marty's WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb.
+Assign change request number '2' at 10PM on November 23rd of 1997 to marty, and place the change request in marty's WIPBin named 'Urgent'. Assign should be logged as performed by sam. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccq.assign_cr("2", "marty", "Urgent",
-  
    "11/23/97 22:00:00", "sam", False)
-  
+```
+
 **JavaScript:**
-
+```
 var ret_int = fccq.assign_cr("2", "marty", "Urgent",
-
                          "11/23/97 22:00:00", "sam", false);
+```

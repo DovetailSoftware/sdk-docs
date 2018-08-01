@@ -41,49 +41,34 @@ You must update the object via the Update or UpdateAll method for the relation t
 The following example sets the site_objid field of a site_part to the objid of a queried-for site.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Get some site_parts
-
   var boSitePart = FCSession.CreateGeneric();
-
   boSitePart.SimpleQuery("site_part");
 
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
-
   boSite.AppendFilter("objid", "=", "268435457");
-
   boSitePart.Bulk.Query();
 
   // Relate the site_objid field to the objid of the first site record
-
   boSitePart.RelateIntFldToRecord(boSite, "site_objid");
-
   boSitePart.Update(); 
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSitePart As FCGeneric
-
   Dim boSite As FCGeneric
 
   Set boSitePart = fc_session.CreateGeneric
-
   boSitePart.SimpleQuery "site_part"
 
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery "site_part"
-
   boSite.AppendFilter "objid", "=", 268435457
-
   boSitePart.Bulk.Query
 
   boSitePart.RelateIntFldToRecord boSite, "site_objid"
-
   boSitePart.Update
+```

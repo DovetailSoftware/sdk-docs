@@ -52,29 +52,19 @@ This API allows modification of labor that is logged against a depot repair part
 Change labor applied in time_log 268435465. The job was done by user "db" in the Lab, billable to the customer. No other changes are being made at this time.
 
 **JavaScript:**
-
+```
 var time_log_objid = 268435465;
-
 var labor_type = "";
-
 var creation_time = "";
-
 var perf_by = "db";
-
 var billable = -1;
-
 var start_time = "";
-
 var duration = 0;
-
 var bill_to = "Customer";
-
 var wrk_center = "Lab";
-
 var tl_rate = 0;
 
 var retval = FCDR.modify_dr_labor(time_log_objid, labor_type, start_time,
-
-duration,billable, bill_to, wrk_center, tl_rate,
-
-perf_by, creation_time);
+	duration,billable, bill_to, wrk_center, tl_rate,
+	perf_by, creation_time);
+```

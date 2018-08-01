@@ -35,17 +35,12 @@ The full_name of the server time zone.
 The following example shows how to read and set the server time zone property.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
 The server time zone is currently <%=FCApp.ServerTimeZone%>.<BR>
-
 <%
-
-var NewTZ = "Eastern Standard Time";
-
-FCApp.ServerTimeZone = NewTZ
-
+	var NewTZ = "Eastern Standard Time";
+	FCApp.ServerTimeZone = NewTZ
 %>
 
 The server time zone is now <%=FCApp.ServerTimeZone%>.
+```

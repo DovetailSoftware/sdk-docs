@@ -56,37 +56,33 @@ The API can also generate a time bomb (for business rule notification).
 Sam logged a call on December 12, 2000 (at 11AM) for a lead. The text is "Hello there", and the call lasted 3 minutes and 15 seconds. Do not specify an action type. Use the lead as the contact. Generate time bombs.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.log_lead_phone(268435458, "Hello there", "", "", "", "",
-
                                    "", "12/12/2000 11:00:00",
-
                                    195, "sam", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.log_lead_phone(268435458, "Hello there", "", "", "", "", _
-
                                "", "12/12/2000 11:00:00", 195, "sam", True)
+```
 
 Log another call for the same lead. Specify a contact and an action type, and log it at the current time and from the current user. The call lasted 30 seconds, and don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fcsfa.log_lead_phone(268435458, "More notes", "", "Jane", "Doe",
- 
-                                  "555-1212", "Outgoing call", "",
-
-                                   30, "", false);
+                             "555-1212", "Outgoing call", "", 30, "", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcsfa.log_lead_phone(268435458, "More notes", "", "Jane", "Doe", _
-
                                "555-1212", "Outgoing call", _
-
                                "", 30, "", False)
+```

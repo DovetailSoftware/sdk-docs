@@ -40,11 +40,13 @@ These APIs allow an ECO to be applied against a Depot Repair.
 Apply ECO 5 against Part Repair 268435470.
 
 **JavaScript:**
-
+```
 var ret_int = fcdr.apply_eco(268435470,"5","","");
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcdr.apply_eco(268435470,"5","","")
+```

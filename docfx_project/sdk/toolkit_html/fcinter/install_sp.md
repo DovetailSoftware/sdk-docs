@@ -119,58 +119,47 @@ Other data (such as the warranty end date) is automatically calculated and fille
 Install an MS Word 7.0 at the top-level of site "1234". Install it with serial number "xyzzy", and generate activity logs. Install with status "Installed/Good".
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
-
+Dim ret_int As Integer
 Dim sp_objid   As Long
 
-ret_int = fcinter.install_sp("1234", "MS Word", "7.0", _
-                             "Product", 1, "xyzzy", _      
-| 
- | 0, 0, "", "", "Installed/Good", _
-              "", "", "", "", true)
- |
+ret_int = fcinter.install_sp("1234", "MS Word", "7.0", "Product", 1, "xyzzy", _
+	   0, 0, "", "", "Installed/Good", "", "", "", "", true)
+  
  If ret_int = 0 Then
-
-      sp_objid = fcinter.ret_objid
-|  | End If |
-**Javascript:**
-
-var ret_int = fcinter.install_sp("1234", "MS Word", "7.0",
-| 
- | "Product", 1, "xyzzy",       
-| 
- | 0, 0, "", "", "Installed/Good", |
- |
-              "", "", "", "", true);
-
- if (ret_int == 0){ var sp_objid = fcinter.ret_objid; }
-
- Joe installs a quantity tracked part (30 of them) in a bin at site "444". It was shipped on February 1, and installed a month later. Don't add activity logs. Set two other fields.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
+   sp_objid = fcinter.ret_objid
+ End If  
 ```
 
+**JavaScript:**
+```
+var ret_int = fcinter.install_sp("1234", "MS Word", "7.0",
+		   "Product", 1, "xyzzy",       
+		   0, 0, "", "", "Installed/Good",  
+		   "", "", "", "", true);
+
+if (ret_int == 0){ var sp_objid = fcinter.ret_objid; }
+```
+
+Joe installs a quantity tracked part (30 of them) in a bin at site "444". It was shipped on February 1, and installed a month later. Don't add activity logs. Set two other fields.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
 ret_int = fcinter.install_sp("444", "QuantPart", "", "Quantity", _
- 30, "", 268435457, 0, "", "", "", "",_
+			  30, "", 268435457, 0, "", "", "", "",_
               "", "3/1/98", _
               "2/1/98", true, "x_my_long", 22, "", 0, _
               "x_my_str_field", "Hello!!", "", _
- "", "","")
+			  "", "","")
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fcinter.install_sp("444", "QuantPart", "", "Quantity",
-
- 30, "", 268435457, 0, "", "", "", "",
-| 
- | "", "3/1/98",
-| 
- | "2/1/98", true, "x_my_long", 22, "", 0, |
- |
-              "x_my_str_field", "Hello!!", "",
-
-              "", "","");
+		30, "", 268435457, 0, "", "", "", "",
+		"", "3/1/98",
+		"2/1/98", true, "x_my_long", 22, "", 0,  
+		"x_my_str_field", "Hello!!", "", "", "","");
+```

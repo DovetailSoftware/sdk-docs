@@ -41,23 +41,28 @@ This API is used to reject quotes (close them) in ClearContracts. The API accept
 Joe rejected contract '42' on January 1st with some notes, and put it in status 'Customer bankrupt." Generate a time bomb.
 
 **JavaScript:**
-
+```
 Var ret_int = fc_cc.reject_contract("42", "Customer bankrupt", "Some notes", _
                                   "Joe", "1/1/99 8:00:00", True)
+```
 
 **Visual Basic:**
-     Dim ret_int    As Integer
-```  
-   ret_int = fc_cc.reject_contract("42", "Customer bankrupt", "Some notes", _
+```
+Dim ret_int    As Integer
+ret_int = fc_cc.reject_contract("42", "Customer bankrupt", "Some notes", _
                                   "Joe", "1/1/99 8:00:00", True)
+```
 
- The current user rejects contract '33' at the current date and time. Use the default status, and nothing else is added, and don't add a time bomb.
+The current user rejects contract '33' at the current date and time. Use the default status, and nothing else is added, and don't add a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.reject_contract("33", "", "", "", "", False)
+```
 
 **Visual Basic:**
-     Dim ret_int    As Integer
-```  
-    ret_int = fc_cc.reject_contract("33", "", "", "", "", False)
+```
+Dim ret_int    As Integer
+
+ret_int = fc_cc.reject_contract("33", "", "", "", "", False)
+```

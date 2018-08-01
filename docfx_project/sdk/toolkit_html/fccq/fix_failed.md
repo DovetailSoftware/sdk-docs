@@ -76,161 +76,121 @@ These APIs are used to change the condition of a change request from Fixed to Op
 | -19 | Cannot find the specified user's employee record for relating time bomb |
 | ret_objid | Output - Returns the objid of the new close_bug record |
 
-**Examples**
+#### Examples
 
 Fix Failed for change request number '10'.  Change to new status "Fix Failed", add some notes and other information. The operation was performed by patty at the current time. Generate a time bomb (for business rule notification).  The second field version illustrates how to set the additional fields.
 
 **Field version 1:**
 
 **Visual Basic:**
-  
-   Dim ret_int     As Integer
-```
-
+```  
+Dim ret_int As Integer
 Dim close_objid As Long
 
 ret_int = fccq.fix_failed("10", "Fix Failed", "Some notes", _
          "Test case 43", "Release 1.2", "patty", "", _
          True, ", 0, "", 0, "", "", "", "", "", "")
 
- If ret_int = 0 Then
-  
-   close_objid = fccq.ret_objid
+If ret_int = 0 Then
+  close_objid = fccq.ret_objid
+End If  
+```
 
-   End If  
-  
 **JavaScript:**
-
+```
 var ret_int = fccq.fix_failed("10", "Fix Failed", "Some notes",
-  
    "Test case 43", "Release 1.2", "patty", "",
-  
-         true, ", 0, "", 0, "", "", "", "", "", "");
+   true, ", 0, "", 0, "", "", "", "", "", "");
 
- if (ret_int == 0){ var close_objid = fccq.ret_objid; }
+if (ret_int == 0){ var close_objid = fccq.ret_objid; }
+```
 
 **Field version 2:**
 
 **Visual Basic:**
-  
-   Dim ret_int     As Integer
-```
-
+```  
+Dim ret_int As Integer
 Dim close_objid As Long
 
 ret_int = fccq.fix_failed("10", "Fix Failed", "Some notes", _
-         "Test case 43", "Release 1.2", "patty", "", _
-         True, _
+     "Test case 43", "Release 1.2", "patty", "", True, _
      "x_close_int1", 1, "x_close_int2", 456, _
      "x_summary2", "More text", "", "", _
      "x_other_date", "1/1/99")
 
  If ret_int = 0 Then
-  
    close_objid = fccq.ret_objid
+ End If  
+```
 
-   End If  
-  
 **JavaScript:**
-
+```
 var ret_int = fccq.fix_failed("10", "Fix Failed", "Some notes",
-  
-   "Test case 43", "Release 1.2", "patty", "",
-  
-   true,
-
-     "x_close_int1", 1, "x_close_int2", 456,
-
-     "x_summary2", "More text", "", "",  
-  
-     "x_other_date", "1/1/99");
+   "Test case 43", "Release 1.2", "patty", "", true,
+   "x_close_int1", 1, "x_close_int2", 456,
+   "x_summary2", "More text", "", "",  
+   "x_other_date", "1/1/99");
 
  if (ret_int == 0){ var close_objid = fccq.ret_objid;
+```
 
 **List version:**
 
 **Visual Basic:**
-
-Dim close_objid As Long
-  
-   Dim ret_int     As Integer
 ```
-
+Dim close_objid As Long
+Dim ret_int As Integer
 Dim fld_list    As New FCFLCompat.FCList
-
 Dim type_list   As New FCFLCompat.FCList
-
 Dim val_list    As New FCFLCompat.FCList
 
 fld_list.AppendItem "x_close_int1"
-
 type_list.AppendItem "Long"
-  
 val_list.AppendItem Trim(Str$(1))
 
 fld_list.AppendItem "x_close_int2"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(456))
 
 fld_list.AppendItem "x_summary2"
-
 type_list.AppendItem "String"
-
 val_list.AppendItem "More text"
 
 fld_list.AppendItem "x_other_date"
-
 type_list.AppendItem "Date"
-
 val_list.AppendItem "1/1/99"
 
 ret_int = fccq.fix_failed_list("10", "Fix Failed", "Some notes", _
-                             "Test Case 43", "Release 1.2", _
-                             "patty", "", _
-                             True, fld_list, type_list, val_list)
+                 "Test Case 43", "Release 1.2", "patty", "", _
+                 True, fld_list, type_list, val_list)
   
-   close_objid = fccq.ret_objid
-  
+close_objid = fccq.ret_objid
+```
+
 **JavaScript:**
-
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 fld_list.AppendItem("x_close_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("1");
 
 fld_list.AppendItem("x_close_int2");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("456");
 
 fld_list.AppendItem("x_summary2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("x_other_date");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccq.fix_failed_list("10", "Fix Failed", "Some notes",
-  
-   "Test Case 43", "Release 1.2",
-  
-   "patty", "",  
-  
-                             true, fld_list, type_list, val_list);
-  
-   var close_objid = fccq.ret_objid;  
+   "Test Case 43", "Release 1.2", "patty", "", true, fld_list, type_list, val_list);
+ 
+var close_objid = fccq.ret_objid;
+```

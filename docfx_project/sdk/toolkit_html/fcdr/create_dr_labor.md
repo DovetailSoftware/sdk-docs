@@ -52,14 +52,15 @@ This API allows labor performed to be logged against a depot repair part.
 Create a billable labor segment against Part Repair 268435465. The default labor type was used, it started at 1:00 pm on September 9th, 1998, and lasted 10 minutes (600 seconds). All other defaults are used.
 
 **JavaScript:**
-
+```
 var ret_int = fcdr.create_dr_labor(268435465, "", "09/09/1998 13:00", 600, 1,
-
                              "", 0, "", 0, "", "", "", "")
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fcdr.create_dr_labor(268435465, "", "09/09/1998 13:00", 600, 1, _
                              "", 0, "", 0, "", "", "", "")
+```

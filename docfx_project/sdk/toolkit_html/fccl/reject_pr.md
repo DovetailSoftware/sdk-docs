@@ -40,23 +40,27 @@ This API causes the specified part request to be rejected from the queue it is d
 Reject part request number '1-14' to WIPBin 'Hardware'.  The reject occurs on August 1, 2001, and is performed by Marty. Generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.reject_pr("1-14", "8/1/2001", "Hardware", "notes", "marty", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.reject_pr("1-14", "8/1/2001", "Hardware", "notes", "marty", true);
+```
 
- Reject part request number '2-1' to the default WIPBin. Do the reject now and with the current user. Do not generate a time bomb.
+Reject part request number '2-1' to the default WIPBin. Do the reject now and with the current user. Do not generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.reject_pr("2-1", "", "", "", "", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.reject_pr("2-1", "", "", "", "", false);
+```

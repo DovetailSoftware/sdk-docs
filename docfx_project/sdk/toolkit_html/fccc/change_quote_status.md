@@ -40,23 +40,27 @@ This API causes the specified quote to have its status changed. The quote may be
 Change status for quote number '154' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.change_quote_status("154", "", "", "", "", True)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.change_quote_status("154", "", "", "", "", True)
+```
 
- Change status for quote number 'Q2' at 10PM on November 23rd of 2001 to 'Solved'. Change status has notes of 'Some notes', and  should be logged as performed by user 'sam'. Don't generate a time bomb.
+Change status for quote number 'Q2' at 10PM on November 23rd of 2001 to 'Solved'. Change status has notes of 'Some notes', and  should be logged as performed by user 'sam'. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.change_quote_status("154", "", "", "", "", True)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret ret_int = fc_cc.change_quote_status("154", "", "", "", "", True)
+```

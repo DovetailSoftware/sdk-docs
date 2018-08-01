@@ -24,47 +24,31 @@ This property contains the sort order for a query for this generic object. It is
 The following example sets the sort order for a site query to sort by the status (active, inactive, obsolete), and then by site name. Both sorts are in ascending order.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Query the site table with sorting
-
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
-
   boSite.SortOrder = "status asc, name asc"
-
   boSite.Query();
 
   while (boSite.EOF != true)
-
   {
-
     Response.Write(boSite("name"));
-
     boSite.MoveNext(); 
-
   }
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boSite As FCGeneric
 
   Set boSite = fc_session.CreateGeneric
-
   boSite.SimpleQuery "site"
-
   boSite.SortOrder = "status asc, name asc"
-
   boSite.Query
 
   While boSite.EOF = False
-
     MsgBox boSite("name")
-
     boSite.MoveNext
-
   Wend
+```

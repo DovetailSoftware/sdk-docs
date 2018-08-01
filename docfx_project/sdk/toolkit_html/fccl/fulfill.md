@@ -130,50 +130,49 @@ part request's condition and condition Fulfilled/Backordered |
 Fulfill 3 units of inventory for part request number '1-14' from Austin's Container 44 (name of Fred) to Expense GL "EXPGL. All inventory is good. Go to status "Fulfilled OK!". The fulfill is performed by Dan on January 1, 2001. Generate time bombs.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.fulfill("1-14", True, 3, "Austin", "Fred", "44", True, _
-"EXPGL", "", "", True, "", "Fulfilled OK!", "", "dan", _
-"1/1/2001", True)
+	"EXPGL", "", "", True, "", "Fulfilled OK!", "", "dan", "1/1/2001", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.fulfill("1-14", true, 3, "Austin", "Fred", "44", true,
+	"EXPGL", "", "", true, "", "Fulfilled OK!", "", "dan", "1/1/2001", true);
+```
 
-"EXPGL", "", "", true, "", "Fulfilled OK!", "", "dan",
-
-"1/1/2001", true);
-
- Do the same fulfill, but fulfill to the default bin location in San Jose.
+Do the same fulfill, but fulfill to the default bin location in San Jose.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.fulfill("1-14", True, 3, "Austin", "Fred", "44", True, _
                        "San Jose", "PRIM_BIN_LOC", "", True, "", _
                        "Fulfilled OK!", "", "dan", "1/1/2001", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.fulfill("1-14", true, 3, "Austin", "Fred", "44", true,
-  
    "San Jose", "PRIM_BIN_LOC", "", true, "",
-  
-                       "Fulfilled OK!", "", "dan", "1/1/2001", true);
+   "Fulfilled OK!", "", "dan", "1/1/2001", true);
+```
 
- Backorder 4 units for part request '2-1'. It is expected on November 15th.  Don't generate a time bomb.
+Backorder 4 units for part request '2-1'. It is expected on November 15th.  Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.fulfill("2-1", False, 4, "", "", "", True, "", "", _
                        "", True, "", "", "11/15/2001", "", "", False)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.fulfill("2-1", false, 4, "", "", "", true, "", "",
-
                        "", true, "", "", "11/15/2001", "", "", false);
+```

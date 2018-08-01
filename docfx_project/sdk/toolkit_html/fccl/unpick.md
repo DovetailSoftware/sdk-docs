@@ -100,26 +100,29 @@ The unpick API will also validate that the part request can be transitioned (for
 Unpick inventory for part request number '1-14' from Austin's Bin 12. The unpick is performed by Dan on January 1, 2001, and is from bad inventory. Generate time bombs.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.unpick("1-14", "Austin", "Bin 12", "", False, "dan", _
      "1/1/2001", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.unpick("1-14", "Austin", "Bin 12", "", false, "dan",
-
          "1/1/2001", true);
+```
 
- Unpick against part request number '2-1'. Unpick from location Austin/Container 44 (name of Fred). Use the default user and time, and use good stock. Don't generate a time bomb.
+Unpick against part request number '2-1'. Unpick from location Austin/Container 44 (name of Fred). Use the default user and time, and use good stock. Don't generate a time bomb.
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccl.unpick("2-1", "Austin", "Fred", "44", True, "", "", True)
+```
 
-**Javascript:**
-
+**JavaScript:**
+```
 var ret_int = fccl.unpick("2-1", "Austin", "Fred", "44", true, "", "", true);
+```

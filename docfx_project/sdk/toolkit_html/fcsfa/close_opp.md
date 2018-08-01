@@ -39,11 +39,13 @@ This API causes the specified opportunity to be closed. You may specify the stat
 Close opportunity "32" at the current time with the current user. Put in closed status "close now". Generate a time bomb.
 
 **JavaScript:**
-
-   ret_int = fcsfa_obj.close_opp("32", "close now", "", "", true);
+```
+ret_int = fcsfa_obj.close_opp("32", "close now", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-   ret_int = fcsfa_obj.close_opp("32", "close now", "", "", True)
+ret_int = fcsfa_obj.close_opp("32", "close now", "", "", True)
+```

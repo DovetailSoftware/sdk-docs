@@ -32,28 +32,30 @@ This API deletes an existing time log. The time log OBJID must be supplied, and 
 
 #### Examples
 
- Delete time log.
+Delete time log.
 
 **Visual Basic:**
-
-Dim ret_int    As Integer
 ```
+Dim ret_int As Integer
 
 ret_int = fcfo.delete_time_log(268435666, "", "")
-
-**JavaScript:**
-
-var ret_int = fcfo.delete_time_log(268435666, "", "");
-
- Joe deleted a time log on February 1, 1998 at noon.
-
-**Visual Basic:**
-
-Dim ret_int    As Integer
 ```
 
+**JavaScript:**
+```
+var ret_int = fcfo.delete_time_log(268435666, "", "");
+```
+
+Joe deleted a time log on February 1, 1998 at noon.
+
+**Visual Basic:**
+```
+Dim ret_int As Integer
+
 ret_int = fcfo.delete_time_log(268436555, "2/1/98 12:00:00", "Joe")
+```
 
 **JavaScript:**
-
+```
 var ret_int = fcfo.delete_time_log(268436555, "2/1/98 12:00:00", "Joe");
+```

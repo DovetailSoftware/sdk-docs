@@ -42,73 +42,51 @@ You must update one or the other objects via the Update or UpdateAll method for 
 The following example relates a new case generic object to a new site and contact generic objects.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Find the site and contact
 
   var boSite = FCSession.CreateGeneric();
-
   boSite.SimpleQuery("site");
-
   boSite.AppendFilter("objid", "=", "268435457");
 
   var boContact = FCSession.CreateGeneric();
-
   boContact.SimpleQuery("contact");
-
   boContact.AppendFilter("objid", "=", "268435457");
-
   boContact.Bulk.Query();
 
   // Create a new case
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
-
   boCase.AddNew();
 
   // Now relate it and commit it
-
   boCase.RelateRecords(boSite, "case_reporter2site");
-
   boCase.RelateRecords(boContact, "case_reporter2contact");
-
   boCase.Update();
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
-
   Dim boSite As FCGeneric
-
   Dim boContact As FCGeneric
 
   Set boContact = fc_session.CreateGeneric
 
   boContact.SimpleQuery "contact"
-
   boContact.AppendFilter "objid", "=", 268435457
 
   Set boSite = fc_session.CreateGeneric
 
   boSite.SimpleQuery "site"
-
   boSite.AppendFilter "objid", "=", 268435457
-
   boSite.Bulk.Query
 
   Set boCase = fc_session.CreateGeneric
 
   boCase.SimpleQuery "case"
-
   boCase.AddNew
-
   boCase.RelateRecords boSite, "case_reporter2site"
-
   boCase.RelateRecords boContact, "case_reporter2contact"
-
   boCase.Update
+```

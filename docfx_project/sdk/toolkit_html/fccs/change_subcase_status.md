@@ -37,29 +37,32 @@ This API causes the specified subcase to have its status changed. The subcase ma
 
 #### Examples
 
- Change status for subcase number 'C154-1' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
+Change status for subcase number 'C154-1' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.change_case_status("C154-1", "", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.change_subcase_status("C154-1", "", "", "", "", True)
+```
 
- Change status for subcase number '2-2' at 10PM on November 23rd of 1997 to 'Solved'. Change status has notes of 'Some notes', and  should be logged as performed by dave. Don't generate a time bomb.
+Change status for subcase number '2-2' at 10PM on November 23rd of 1997 to 'Solved'. Change status has notes of 'Some notes', and  should be logged as performed by dave. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fccs.change_subcase_status("2-2", "Solved", "11/23/97 22:00:00",
-
                                         "Some notes", "dave", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.change_subcase_status("2-2", "Solved", "11/23/97 22:00:00", _
                                      "Some notes", "dave", False)
+```

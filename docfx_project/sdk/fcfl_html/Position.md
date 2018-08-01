@@ -26,45 +26,31 @@ It is not recommended to use this property to set the current record. Rather, us
 The following example demonstrates querying the case table, and printing out the value of the position as we move through the data in the returned recordset.
 
 **JavaScript:**
-
-The code in this example is written in JavaScript for inclusion in ASP pages.
-
+```
   // Get all cases
-
   var boCase = FCSession.CreateGeneric();
-
   boCase.SimpleQuery("case");
 
   // Query the data, and display the position
-
   boCase.Query();
 
   while (boCase.EOF != true)
-
   {
-
     Response.Write (boCase.Position);  
-
     boCase.MoveNext();
-
   }
+```
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Dim boCase As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
-
   boCase.Query
 
   While boCase.EOF = False
-
     MsgBox "Position: " & Trim$(Str$(boCase.Position))
-
     boCase.MoveNext
-
   Wend
+```

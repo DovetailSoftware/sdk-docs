@@ -45,7 +45,7 @@ True if the Element does exist in the ListName list. Else, False.
 The following example verifies different elements in different levels of the FAMILY user-defined list.
 
 **JavaScript:**
-
+```
 The code in this example is written in JavaScript for inclusion in ASP pages. is 'Operating Systems' a valid element in 'Family' ? <BR>
 
 <%=FCApp.IsInHgbstList("Operating Systems", "Family")%> <BR> is 'Operating Systems' a valid element in 'Family:Software' ? <BR>
@@ -55,19 +55,14 @@ The code in this example is written in JavaScript for inclusion in ASP pages. is
 <BR>
 
 <%=FCApp.IsInHgbstList("Windows", "Family", "Software",
-
                        "Operating Systems")%> is 'Operating Systems' a valid element in 'Family:Bad Level' ? <BR>
-
 Note that this will cause an error to be thrown.<BR>
 
 <%
-
 try {
-
   FCApp.IsInHgbstList("Operating Systems", "Family", "Bad Level") }
-
 catch (e) {
-
-  Response.Write(e.description); }
-
+  Response.Write(e.description); 
+}
 %>
+```

@@ -41,25 +41,29 @@ This API causes the specified contract to be reopened. This is augmented functio
 Reopen contract number 'C154' by the current user at the current date/time. Place in the default WIPBin with the default status, and generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.reopen_contract("C154", "", "", "", "", True)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.reopen_contract("C154", "", "", "", "", True)
+```
 
- Reopen contract number '2' at 10PM on November 23rd of 2001 by user 'sam'. Place in sam's WIPBin 'Urgent', with status 'User Error'. Don't generate a time bomb.
+Reopen contract number '2' at 10PM on November 23rd of 2001 by user 'sam'. Place in sam's WIPBin 'Urgent', with status 'User Error'. Don't generate a time bomb.
 
 **JavaScript:**
-
+```
 var ret_int = fc_cc.reopen_contract("2", "Urgent", "User Error", _
                                "11/23/2001 22:00:00", "sam", False)
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fc_cc.reopen_contract("2", "Urgent", "User Error", _
                                "11/23/2001 22:00:00", "sam", False)
+```
