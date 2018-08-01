@@ -1,9 +1,11 @@
 open_container
 --------------
 
+```
 Public Function open_container(ByVal cont_name As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API opens an existing (sealed) container.
 
@@ -13,21 +15,18 @@ This API opens an existing (sealed) container.
 |:--- |:--- |:--- |
 | cont_name | Yes | The container to open |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the container |
+| -2 | The container is already open |
+| -3 | The parent container is currently sealed |
 
-0                                      No errors
+#### Examples
 
--1                                             Cannot find the container
-
--2                                             The container is already open
-
--3                                             The parent container is currently sealed
-
-**Examples**
-
- Open container Fred.
+Open container Fred.
 
 **Visual Basic:**
 

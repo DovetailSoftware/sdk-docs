@@ -1,14 +1,16 @@
 forward_subcase
 ---------------
 
+```
 Public Function forward_subcase(ByVal subcase_id As String, _
                                 ByVal new_queue As String, _
                                 ByVal forward_date As String, _
                                 ByVal note_str As String, _
                                 ByVal user_name As String, _
                                 ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified subcase to be reject-forwarded from one queue to another. The subcase must be in open condition, and currently dispatched to a queue. The API allows for the setting of the forward date, some notes about the forward, and the user who forwarded the subcase. The APIs can also generate a time bomb (for business rule notification).
 
@@ -23,27 +25,20 @@ This API causes the specified subcase to be reject-forwarded from one queue to a
 | user_name | No | The user who forwarded the subcase. If left blank, the current user performs the forward |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified subcase |
+| -2 | Subcase is not currently dispatched |
+| -3 | The new queue name specified is not found |
+| -4 | Reject-forward attempted to same queue as currently dispatched to |
+| -5 | The specified user is not found |
+| -6 | The FORWARD activity string is not found |
+| -7 | Can not forward Case to specified queue |
 
-0                                              No errors
-
--1                                             Cannot find the specified subcase
-
--2                                             Subcase is not currently dispatched
-
--3                                             The new queue name specified is not found
-
--4                                             Reject-forward attempted to same queue as currently dispatched to
-
--5                                             The specified user is not found
-
--6                                             The FORWARD activity string is not found
-
--7                                             Can not forward Case to specified queue
-
-**Examples**
+#### Examples
 
  Reject-forward subcase number 'C154-1' to queue 'Hardware'. The reject-forward has no notes, is performed by the current user and is forwarded at the current time. Generate a time bomb.
 

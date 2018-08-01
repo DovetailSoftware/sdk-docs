@@ -4,6 +4,7 @@ modify_sp
 modify_sp_list
 ----------------
 
+```
 Public Function modify_sp(ByVal sp_objid As Long, _
                           ByVal instance_name As String, _
                           ByVal serial_num As String, _
@@ -28,7 +29,9 @@ Public Function modify_sp(ByVal sp_objid As Long, _
                           ByVal str_val2 As String, _
                           ByVal date_fld1 As String, _
                           ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function modify_sp_list(ByVal sp_objid As Long, _
                                ByVal instance_name As String, _
                                ByVal serial_num As String, _
@@ -46,8 +49,9 @@ Public Function modify_sp_list(ByVal sp_objid As Long, _
                                Optional fld_list As Variant, _
                                Optional type_list As Variant, _
                                Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs allow you to modify an existing site part in the Clarify database. You must pass in a valid site part objid. You can then specify other data to modify the existing site_part record with. You also have the option of adding an activity log for this operation, or not. Finally, you may specify additional fields on the activity log, if desired.
 
@@ -75,47 +79,34 @@ These APIs allow you to modify an existing site part in the Clarify database. Yo
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Site part objid of 0 supplied |
+| -2 | Invalid PART_STATUS supplied |
+| -3 | Could not find specified site_part |
+| -4 | Could not locate the mod_level for the site_part |
+| -5 | Could not locate the part for the site_part |
+| -6 | Site for the site_part could not be found |
+| -7 | The specified user is not found in the database |
+| -8 | Cannot locate activity string for "CHANGED DETAILS" |
+| -9 | Quantity specified is < 1 |
+| -10 | A serial number and a quantity > 1 were both specified |
+| -11 | Serialized site_part with quantity > 1 |
+| -12 | The site_part is not serialized, but a serial number was provided |
+| -13 | The serial number provided is already in use |
+| -17 | New mod_level is not found for the part for the site_part |
 
-0                                              No errors
-
--1                                             Site part objid of 0 supplied
-
--2                                             Invalid PART_STATUS supplied
-
--3                                             Could not find specified site_part
-
--4                                             Could not locate the mod_level for the site_part
-
--5                                             Could not locate the part for the site_part
-
--6                                             Site for the site_part could not be found
-
--7                                             The specified user is not found in the database
-
--8                                             Cannot locate activity string for "CHANGED DETAILS"
-
--9                                             Quantity specified is < 1
-
--10                                           A serial number and a quantity > 1 were both specified
-
--11                                           Serialized site_part with quantity > 1
-
--12                                           The site_part is not serialized, but a serial number was provided
-
--13                                           The serial number provided is already in use
-
--17                                           New mod_level is not found for the part for the site_part
-
-**Example**
+#### Examples
 
  Update an existing site part (268435460). Set the instance_name only. Generate an activity log.
 
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fcfo.modify_sp(268435460, "New instance name", "", "", "", "", "", _
             1, "", "", "", "", "", True, "", 0, "", 0, "", "", "", "", "", "")
@@ -131,6 +122,7 @@ Var ret_int = fcfo.modify_sp(268435460, "New instance name", "", "", "", "", "",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fcfo.modify_sp(268435461, "", "ABCD", "", "1/1/2005", "", "", _
             1, "", "", "", "", "", False, "", 0, "", 0, "", "", "", "", "", "")

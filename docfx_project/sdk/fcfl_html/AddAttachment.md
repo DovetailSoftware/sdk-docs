@@ -8,6 +8,7 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function AddAttachment(ByVal attach_name As String, _
                               ByVal file_path As String, _
                               ByVal obj_type As String, _
@@ -15,8 +16,9 @@ Public Function AddAttachment(ByVal attach_name As String, _
                               Optional ByVal obj_objid As Long = 0, _
 							  Optional ByVal attach_type As Long = 0)_
                               As Integer
+```
 
-**Description**
+#### Description
 
 This method is used to add an attachment to an object. The only objects allowed are those supported by Clarify. For a list of those objects, please see the Clarify documentation.
 
@@ -63,23 +65,17 @@ This method does **NOT** copy the file to a file system, or even validate the ex
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| 1 | No attachment name specified |
+| 2 | No File/Path specified |
+| 3 | Invalid/unsupported object type supplied |
+| 4 | An ID number was supplied, but this object type does not have an ID number field |
+| 5 | Specified object was not found |
+| 6 | This object already has an attachment with the specified attachment name |
 
-0                                              No errors
-
-1                                              No attachment name specified
-
-2                                              No File/Path specified
-
-3                                              Invalid/unsupported object type supplied
-
-4                                              An ID number was supplied, but this object type does not have an ID number field
-
-5                                              Specified object was not found
-
-6                                              This object already has an attachment with the specified attachment name
-
-**Example**
+#### Examples
 
 The following example adds an attachment to case '42'.
 

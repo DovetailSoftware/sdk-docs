@@ -1,6 +1,5 @@
 _IsInGbstLst_
--------------
-
+----------
 **Object and Type**
 
 Object  : FCApplication
@@ -9,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function IsInGbstLst(ByVal ListName As String, ByVal Element As String) As Boolean
+```
 
-**Description**
+#### Description
 
 This method returns a boolean value indicating if a given string is a valid element in a given Application Popup list.
 
@@ -30,15 +31,13 @@ True if the Element does exist in the ListName list. Else, False.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10008 | ListName must not be empty. |
+| 10009 | Invalid ListName. |
+| 10010 | Element must not be empty. |
 
-10008                                      ListName must not be empty.
-
-10009                                      Invalid ListName.
-
-10010                                      Element must not be empty.
-
-**Example**
+#### Examples
 
 The following example checks is a given value from a posted form is a valid Case Priority.
 

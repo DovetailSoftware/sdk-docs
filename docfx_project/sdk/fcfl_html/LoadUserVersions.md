@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub LoadUserVersions(Optional user_name As String)
+```
 
-**Description**
+#### Description
 
 This method reads the user version and resource configuration from the database, and stores them in a memory cache for fast access. User versions are read from the cache with the _GetUserVersion_ and _BuildUserVersionProc_ methods.
 

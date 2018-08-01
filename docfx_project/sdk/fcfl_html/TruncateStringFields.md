@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public TruncateStringFields As Boolean
+```
 
-**Description**
+#### Description
 
 This property allows you to automatically truncate strings, as you assign them, for all Generics in this session. If it is set to True, **FCFL** will make sure that any string that you set will be truncated at the maximum length of the string field, as determined from the database. This does mean that you can lose data, as you assume that the full string will go into the database.
 

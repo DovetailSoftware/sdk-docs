@@ -1,9 +1,11 @@
 move_pr
 -------
 
+```
 Public Function move_pr(ByVal pr_id As String, ByVal new_wipbin_name As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified part request to be moved from one WIPBin to another (for the current owner). The part request must be open, and the WIPBin name must be valid for the current owner.
 
@@ -16,23 +18,19 @@ This API causes the specified part request to be moved from one WIPBin to anothe
 | pr_id | Yes | The part request to move |
 | new_wipbin_name | Yes | Name of the WIPBin to move to |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified part request |
+| -2 | Part request is already closed |
+| -3 | New WIPBIN doesn't exist, or isn't for the owner |
+| -4 | New WIPBIN is same as old - no move needed |
 
-0                                      No errors
+#### Examples
 
--1                                             Cannot find the specified part request
-
--2                                             Part request is already closed
-
--3                                             New WIPBIN doesn't exist, or isn't for the owner
-
--4                                             New WIPBIN is same as old - no move needed
-
-**Examples**
-
- Move part request number '1-14' to WIPBin 'Hardware'.
+Move part request number '1-14' to WIPBin 'Hardware'.
 
 **Visual Basic:**
 

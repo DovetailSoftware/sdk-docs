@@ -1,10 +1,12 @@
-  
 **move_quote**
+---
 
+```
 Public Function move_quote(ByVal quote_id As String, _
                            ByVal new_wipbin As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified quote to be moved from one WIPBin to another WIPBin. The new WIPBin must belong to the same user as the first WIPBin. The move operation does not change the ownership of the quote, nor is an activity log or time bomb generated for the action.
 
@@ -17,23 +19,19 @@ This API causes the specified quote to be moved from one WIPBin to another WIPBi
 | quote_id | Yes | The quote to move |
 | new_wipbin | Yes | The WIPBin to move the quote to. If left blank, the quote is moved to the user's default WIPBin |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified quote |
+| -2 | Quote is already closed |
+| -3 | New WIPBIN doesn't exist, or isn't for the owner |
+| -4 | New WIPBIN is same as old - no move needed |
 
-0                                              No errors
+#### Examples
 
--1                                             Cannot find the specified quote
-
--2                                             Quote is already closed
-
--3                                             New WIPBIN doesn't exist, or isn't for the owner
-
--4                                             New WIPBIN is same as old - no move needed
-
-**Examples**
-
- Move quote number '154' to the default WIPBin for the current owner.
+Move quote number '154' to the default WIPBin for the current owner.
 
 **JavaScript:**
 

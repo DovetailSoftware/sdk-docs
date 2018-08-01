@@ -1,5 +1,5 @@
 _OpenConnection_
-----------------
+-------------
 
 **Object and Type**
 
@@ -9,17 +9,15 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub OpenConnection(ByVal TheDB As String, _
-
                           ByVal UserName As String, _
-
                           ByVal Password As String, _
-
                           ByVal DBServer As String, _
-
                           ByVal DBName As String)
+```
 
-**Description**
+#### Description
 
 This method is used to open a connection to an external database. If this FCSQLExec object is using the default connection to the Clarify database, you do not need to call this method.
 
@@ -35,13 +33,12 @@ This method is used to open a connection to an external database. If this FCSQLE
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 14001 | You may not connect with this SQLExec object to more than one database |
+| 14002 | Could not connect with the supplied parameters |
 
-14001                                      You may not connect with this SQLExec object to more than one database
-
-14002                                      Could not connect with the supplied parameters
-
-**Example**
+#### Examples
 
 The following example demonstrates opening an external connection, executing SQL against it, and closing the connection.
 

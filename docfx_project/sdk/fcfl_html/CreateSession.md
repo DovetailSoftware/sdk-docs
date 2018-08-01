@@ -1,6 +1,5 @@
 _CreateSession_
----------------
-
+------------
 **Object and Type**
 
 Object  : FCApplication
@@ -9,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function CreateSession(Optional ByVal SessionID As String) As FCSession
+```
 
-**Description**
+#### Description
 
 This method creates a new FCSession object, or returns a reference to an existing FCSession object.
 
@@ -31,11 +32,11 @@ A new FCSession object, or a reference to an existing FCSession Object
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10020 | Invalid SessionID |
 
-10020                                      Invalid SessionID
-
-**Example**
+#### Examples
 
 The following example attempts to retrieve a SessionID from the ASP Session, and , if found, re-establish the existing FCSession.
 

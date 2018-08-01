@@ -1,5 +1,5 @@
 _GetDefaultState_
------------------
+--------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetDefaultState(ByVal Country As String) As String
+``` 
 
-**Description**
+#### Description
 
 This method returns a string containing the default state_prov name for a given country. If there is not a default state (indicated by the is_default field), then the name of the first state is returned.
 
@@ -29,13 +31,12 @@ A string containing the default state_prov name for a given country |
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10011 | Country must not be empty. |
+| 10012 | Invalid Country |
 
-10011                                      Country must not be empty.
-
-10012                                      Invalid Country |
-
-**Example**
+#### Examples
 
 The following example builds a drop-down list of states for the default. The default state is selected.
 

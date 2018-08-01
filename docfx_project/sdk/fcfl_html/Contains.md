@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function Contains(ByRef item As Variant) As Boolean
+```
 
-**Description**
+#### Description
 
 This method tells whether item is a member of the list.
 
@@ -21,9 +23,10 @@ This method tells whether item is a member of the list.
 |:--- |:--- |:--- |
 | item | Yes | Item to check for in the list. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
 
 True                                        List contains item.
 

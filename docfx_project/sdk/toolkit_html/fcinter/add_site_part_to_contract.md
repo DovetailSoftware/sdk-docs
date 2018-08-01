@@ -1,11 +1,13 @@
 add_site_part_to_contract
 -----------------------------
 
+```
 Public Function add_site_part_to_contract(ByVal contract_id As String, _
                                           ByVal site_id As String, _
                                           ByVal sp_objid As Long) As Integer
+```
 
-**Description**
+#### Description
 
 This API adds a site_part to an existing contract. You must specify the contract ID, site id, and site_part instance name.
 
@@ -17,28 +19,25 @@ This API adds a site_part to an existing contract. You must specify the contract
 | site_id | Yes | ID of site to be added |
 | sp_objid | Yes | objid of site_part to be added |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | No Contract Id specified |
+| -2 | Specified Contract Not Found |
+| -3 | Specified Site Not Found |
+| -4 | Specified Site Part Not Found |
+| ret_objid | Output - Returns the objid of the site part |
 
-0                                              No errors
-
--1                                             No Contract Id specified
-
--2                                             Specified Contract Not Found
-
--3                                             Specified Site Not Found
-
--4                                             Specified Site Part Not Found |
-| ret_objid | Output | Returns the objid of the site part
-
-**Examples**
+#### Examples
 
  Add "MS Word 97" to site "2" to contract "AMD 1"
 
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 Dim sp_objid   As Long
 

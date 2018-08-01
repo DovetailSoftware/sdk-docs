@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Log(TheMessageType As String, TheMessage As String)
+```
 
-**Description**
+#### Description
 
 This method allows you to log a message to the FCFL log file. FCApplication logging must be turned on for this message to actually be logged to the file.                                                                
 

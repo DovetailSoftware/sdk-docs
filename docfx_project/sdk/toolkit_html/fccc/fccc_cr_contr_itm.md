@@ -4,6 +4,7 @@ cr_contr_itm
 cr_contr_itm_list
 ---
 
+```
 Public Function cr_contr_itm(ByVal contract_id As String, _
                 ByVal user_name As String, ByVal create_date As String, _
                 ByVal start_date As String, ByVal end_date As String, _
@@ -20,7 +21,9 @@ Public Function cr_contr_itm(ByVal contract_id As String, _
                 ByVal str_val1 As String, ByVal str_fld2 As String, _
                 ByVal str_val2 As String, ByVal date_fld1 As String, _
                 ByVal date_val1 As String, ByVal item_objid As Long) As Integer
+```
 
+```
 Public Function cr_contr_itm_list(ByVal contract_id As String, _
                 ByVal user_name As String, ByVal create_date As String, _
                 ByVal start_date As String, ByVal end_date As String, _
@@ -34,8 +37,9 @@ Public Function cr_contr_itm_list(ByVal contract_id As String, _
                 ByVal po_num As String, ByVal item_objid As Long, _
                 Optional fld_list As Variant, Optional type_list As Variant, _
                 Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create quote/contract line items. They require that a valid quote already exist, and that it have at least one valid schedule. In addition, the supplied part/revision must have a price defined for it in the schedule, or you must provide an override.
 
@@ -83,52 +87,32 @@ The API does not do a few other items in the base GUI function. By and large, th
 
 **Returns**
 
-**Value**                          **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Quantity supplied is < 1 |
+| -2 | End date is earlier than start date |
+| -3 | The specified quote/contract was not found |
+| -4 | Could not find the specified user |
+| -5 | The revision is not found for the specified part/domain |
+| -6 | The specified schedule is not found for the contract/quote |
+| -7 | The specified quoted_at site was not found |
+| -8 | The specified serviced_at site was not found |
+| -9 | The specified part/revision is not found on the price schedule |
+| -10 | Serial number supplied with a quantity > 1 |
+| -13 | The specified part is quantity tracked, and a serial number was supplied |
+| -14 | The line was marked with auto-install, and no site was supplied |
+| -15 | The override price given was not numeric |
+| -16 | Cannot locate the specified site_part |
+| -17 | The specified parent line item does not exist |
+| -18 | The specified parent line item is not actually a parent. It is a child line item |
+| -19 | The specified product is priced as a percentage of parent, but no parent was given |
+| -20 | The specified product is priced as a percentage of child - not supported for this API |
+| -21 | The specified purchase order is not found for the contract schedule. |
+| -22 | The mod_level is not found for the parent contract item. |
+| ret_objid | Output - Returns the objid of the newly created contract item |
 
-0                                              No errors
-
--1                                             Quantity supplied is < 1
-
--2                                             End date is earlier than start date
-
--3                                             The specified quote/contract was not found
-
--4                                             Could not find the specified user
-
--5                                             The revision is not found for the specified part/domain
-
--6                                             The specified schedule is not found for the contract/quote
-
--7                                             The specified quoted_at site was not found
-
--8                                             The specified serviced_at site was not found
-
--9                                             The specified part/revision is not found on the price schedule
-
--10                                           Serial number supplied with a quantity > 1
-
--13                                           The specified part is quantity tracked, and a serial number was supplied
-
--14                                           The line was marked with auto-install, and no site was supplied
-
--15                                           The override price given was not numeric
-
--16                                           Cannot locate the specified site_part
-
--17                                           The specified parent line item does not exist
-
--18                                           The specified parent line item is not actually a parent. It is a child line item
-
--19                                           The specified product is priced as a percentage of parent, but no parent was given
-
--20                                           The specified product is priced as a percentage of child - not supported for this API
-
--21                                           The specified purchase order is not found for the contract schedule.
-
--22                                           The mod_level is not found for the parent contract item. |
-| ret_objid | Output | Returns the objid of the newly created contract item
-
-**Examples**
+#### Examples
 
 Create a new line item for quote '2'.  A total of 3 Notebooks are quoted for the default schedule. Add a comment, and relate to purchase order '222'.
 
@@ -145,6 +129,7 @@ Create a new line item for quote '2'.  A total of 3 Notebooks are quoted for th
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
    Dim item_objid As Long
 
    ret_int = fc_cc.cr_contr_itm( "2", "", "", "", "", "Notebook", _
@@ -191,6 +176,7 @@ ret_int = fc_cc.cr_contr_itm("2", "", "", "", "", "Notebook", _
 **Visual Basic:**
 
  Dim ret_int         As Integer
+```
  Dim item_objid      As Long
  Dim fld_list         As New FCFLCOMPAT.FCLIST
  Dim type_list        As New FCFLCOMPAT.FCLIST
@@ -214,6 +200,7 @@ Do the same as above, but have "sa" log it on November 1, 2001. Set a start and 
 **Field version:**
 
    Dim ret_int    As Integer
+```
    Dim item_objid As Long
 
    ret_int = fc_cc.cr_contr_itm( "2", "sa", "11/1/2001", "12/1/2001", _
@@ -231,6 +218,7 @@ Do the same as above, but have "sa" log it on November 1, 2001. Set a start and 
 **List version:**
 
 Dim ret_int      As Integer
+```
 Dim log_objid    As Long
 Dim fld_list    As New FCFLCOMPAT.FCLIST
 Dim type_list   As New FCFLCOMPAT.FCLIST

@@ -4,6 +4,7 @@ create_update_schedule
 create_update_schedule_list
 -----------------------------
 
+```
 Public Function create_update_schedule(ByVal contract_id As String, _
                 ByVal is_create As Boolean, ByVal sched_id As String, _
                 ByVal bill_site As String, ByVal bill_attn As String, _
@@ -16,7 +17,9 @@ Public Function create_update_schedule(ByVal contract_id As String, _
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_update_schedule_list(ByVal contract_id As String, _
                 ByVal is_create As Boolean, ByVal sched_id As String, _
                 ByVal bill_site As String, ByVal bill_attn As String, _
@@ -26,8 +29,9 @@ Public Function create_update_schedule_list(ByVal contract_id As String, _
                 ByVal chg_start_dt As String, ByVal chg_end_dt As String, _
                 Optional fld_list As Variant, Optional type_list As Variant, _
                 Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create or update a contract schedule. The contract ID must be specified, and the ID of the schedule is also specified. If this is an update, the Boolean is set to False, otherwise it is set to True. You may specify the bill-to or ship-to site, the price program, and the code list values. In addition, you may specify a variety of dates.
 
@@ -54,34 +58,25 @@ These APIs are used to create or update a contract schedule. The contract ID mus
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Could not find the specified contract |
+| -2 | Could not find the specified bill-to site |
+| -3 | Could not find the specified ship-to site |
+| -4 | The specified price program is not found |
+| -5 | The specified billing option is not valid |
+| -6 | The specified billing frequency is not valid |
+| -7 | The end charge date is earlier than the start charge date |
+| -8 | The specified schedule name already exists for the contract. Cannot create |
+| -9 | The specified schedule does not exist. Cannot update |
+| ret_objid | Output - Returns the objid of the newly created schedule |
 
-0                                              No errors
+#### Examples
 
--1                                             Could not find the specified contract
-
--2                                             Could not find the specified bill-to site
-
--3                                             Could not find the specified ship-to site
-
--4                                             The specified price program is not found
-
--5                                             The specified billing option is not valid
-
--6                                             The specified billing frequency is not valid
-
--7                                             The end charge date is earlier than the start charge date
-
--8                                             The specified schedule name already exists for the contract. Cannot create
-
--9                                             The specified schedule does not exist. Cannot update |
-| ret_objid | Output | Returns the objid of the newly created schedule
-
-**Examples**
-
- Create a new schedule for contract '42'. Give sites and attention person. Supply a price program, and other options. Specify a value for an extra field named 'x_other_string'.
+Create a new schedule for contract '42'. Give sites and attention person. Supply a price program, and other options. Specify a value for an extra field named 'x_other_string'.
 
 **JavaScript:**
 

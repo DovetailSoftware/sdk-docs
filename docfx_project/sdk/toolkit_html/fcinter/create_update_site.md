@@ -4,6 +4,7 @@ create_update_site
 create_update_site_list
 -------------------------
 
+```
 Public Function create_update_site(ByVal site_objid As Long, _
                                    ByVal site_id As String, _
                                    ByVal site_name As String, _
@@ -31,7 +32,9 @@ Public Function create_update_site(ByVal site_objid As Long, _
                                    ByVal str_val2 As String, _
                                    ByVal date_fld1 As String, _
                                    ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_update_site_list(ByVal site_objid As Long, _
                                         ByVal site_id As String, _
                                         ByVal site_name As String, _
@@ -52,8 +55,9 @@ Public Function create_update_site_list(ByVal site_objid As Long, _
                                         Optional fld_list As Variant, _
                                         Optional type_list As Variant,__
                                         Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs either create or update a site in the database.  If the site_id is set to 0, it is considered an insert. Otherwise, it is an update. If you are performing an update, you may specify either the site_objid or the site_id (whichever is more convenient), or both. If you do not want to use the site_id, set it to the string "NOTSUPPLIED". In this case, the site_objid is is used to find the site to update. If the site_id is set to any other string value, it will be used.
 
@@ -90,58 +94,40 @@ The primary address is required for inserts. If the shipping and billing address
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Site type is not valid or is not supplied (inserts) |
+| -2 | Status is not valid or is not supplied (inserts) |
+| -3 | The supplied industry type is not found |
+| -4 | The supplied application type is not found |
+| -5 | Could not locate specified parent site |
+| -6 | Could not locate specified support office site |
+| -7 | Could not locate specified primary employee |
+| -8 | Could not locate specified secondary employee |
+| -9 | Shipping address specified is not valid |
+| -10 | Billing address specified is not valid |
+| -11 | Primary address is not valid or is not supplied (inserts) |
+| -12 | Site with objid = ### cannot be found |
+| -13 | The parent site cannot be the same as this site |
+| -14 | The support office site cannot be the same as this site |
+| -15 | The supplied Site Id is already used for a different site |
+| -16 | The supplied account is not found |
+| -17 | Cannot find the 'Changed Primary' activity string with rank = 8100 |
+| -18 | Cannot find the 'Changed Bill To' activity string with rank = 8200 |
+| -19 | Cannot find the 'Changed Ship To' activity string with rank = 8300 |
+| ret_objid | Output - Returns the objid of the site |
 
-0                                              No errors
+#### Examples
 
--1                                             Site type is not valid or is not supplied (inserts)
-
--2                                             Status is not valid or is not supplied (inserts)
-
--3                                             The supplied industry type is not found
-
--4                                             The supplied application type is not found
-
--5                                             Could not locate specified parent site
-
--6                                             Could not locate specified support office site
-
--7                                             Could not locate specified primary employee
-
--8                                             Could not locate specified secondary employee
-
--9                                             Shipping address specified is not valid
-
--10                                           Billing address specified is not valid
-
--11                                           Primary address is not valid or is not supplied (inserts)
-
--12                                           Site with objid = ### cannot be found
-
--13                                           The parent site cannot be the same as this site
-
--14                                           The support office site cannot be the same as this site
-
--15                                           The supplied Site Id is already used for a different site
-
--16                                           The supplied account is not found
-
--17                                           Cannot find the 'Changed Primary' activity string with rank = 8100
-
--18                                           Cannot find the 'Changed Bill To' activity string with rank = 8200
-
--19                                           Cannot find the 'Changed Ship To' activity string with rank = 8300 |
-| ret_objid | Output | Returns the objid of the site
-
-**Examples**
-
- Add a new site. Set it with a site name, make it a customer site, and active. Set region/district to North/Northeast. Use the default industry type, and application type. Set the primary address and the billing address. Set a parent site, and a primary employee.
+Add a new site. Set it with a site name, make it a customer site, and active. Set region/district to North/Northeast. Use the default industry type, and application type. Set the primary address and the billing address. Set a parent site, and a primary employee.
 
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 Dim site_objid As Long
 
@@ -156,21 +142,19 @@ ret_int = fcinter.create_update_site(0, "", "My Site", "CUST", _
  If ret_int = 0 Then
 
       site_objid = fcinter.ret_objid
-
-   End If
-
+|  | End If |
 **Javascript:**
 
 var ret_int = fcinter.create_update_site(0, "", "My Site",
-
-                                     "CUST", "", "Active",
-
-                                     "North", "Northeast",
-
+| 
+ | "CUST", "", "Active",
+| 
+ | "North", "Northeast", |
+ |
                                      "", "", 268435457, -1, 268435459,
-
-                                     "42", "", 268435666, -1, "", 0, "",
-
+| 
+ | "42", "", 268435666, -1, "", 0, "",
+ |
                                      0, "", "", "", "", "", "");
 
  if (ret_int == 0){ var site_objid = fcinter.ret_objid; }
@@ -180,6 +164,7 @@ var ret_int = fcinter.create_update_site(0, "", "My Site",
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 Dim site_id    As String
 
@@ -200,17 +185,17 @@ ret_int = fcinter.create_update_site(0, site_id, _
 var site_id = "INTER123"
 
 var ret_int = fcinter.create_update_site(0, site_id, "My Site",
-
-                                     "CUST", "", "Active",
-
-                                     "North", "Northeast", "",
-
+| 
+ | "CUST", "", "Active",
+| 
+ | "North", "Northeast", "", |
+ |
                                      "", 268435457, -1, 268435459,
-
-                                     "42", "", 268435666, -1,
-
-                                     "", 0, "", 0,
-
+| 
+ | "42", "", 268435666, -1, |
+| 
+ | "", 0, "", 0,
+ |
                                      "", "", "", "", "", "");
 
  Update site '42'. Set the support office to site "56", and clear out the primary support employee and parent site.
@@ -218,6 +203,7 @@ var ret_int = fcinter.create_update_site(0, site_id, "My Site",
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 Dim site_id    As String
 
@@ -234,11 +220,11 @@ ret_int = fcinter.create_update_site(268435600, site_id, "", _
 var site_id = "42"
 
 var ret_int = fcinter.create_update_site(268435600, site_id, "",
-
-                                     "", "", "",
-
+| 
+ | "", "", "",
+ |
                                      "", "", "", "", -1, -1, -1,
-
-                                     "REMOVE", "56", -2, -1, "", 0,
-
+| 
+ | "REMOVE", "56", -2, -1, "", 0,
+ |
                                      "", 0, "", "", "", "", "", "");

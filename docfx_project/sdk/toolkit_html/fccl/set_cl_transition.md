@@ -1,10 +1,12 @@
 set_cl_transition
 -------------------
 
+```
 Public Function set_cl_transition(request_type As String, start_cond As String, _
                                   end_cond As String, privclasses As String) As Long
+```
 
-**Description**
+#### Description
 
 This API allows you to create or modify Logistics Transitions in the database. You must specify all of the arguments. If a transition does not yet exist for the conditions and request type, a new transition is created. Otherwise, the existing transition is modified.
 
@@ -17,23 +19,19 @@ This API allows you to create or modify Logistics Transitions in the database. Y
 | end_cond | Yes | Ending condition for the transition |
 | privclasses | Yes | Comma-separated list of privclasses that can make this transition. If you set this string to "ALLCLASSES", all privclasses can make the transition. If you set this string to "NOCLASSES", no privclasses can make this transition |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No Errors |
+| -1 | Cannot find the specified request type |
+| -2 | The specified start condition is not valid |
+| -3 | The specified end condition is not valid |
+| -4 | Too many transitions are already defined. Cannot add a new transition |
 
-0                                              No Errors
+#### Examples
 
--1                                             Cannot find the specified request type
-
--2                                             The specified start condition is not valid
-
--3                                             The specified end condition is not valid
-
--4                                             Too many transitions are already defined. Cannot add a new transition
-
-**Examples**
-
- Add a transition from RQST Open to Fulfilled for "Advance Exchange" type. The transition is for privclasses "CSR" and "System Administrator".
+Add a transition from RQST Open to Fulfilled for "Advance Exchange" type. The transition is for privclasses "CSR" and "System Administrator".
 
 **Visual Basic:**
 

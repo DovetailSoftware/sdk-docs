@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub ClearRoot()
+```
 
-**Description**
+#### Description
 
 This method will clear the information set up (using the TraverseFromRoot method) for a generic object for a root traversal. It does **not** clear the DBObjectName, so the object is still set up to query the table set up in the root traversal. The generic object will now perform a SimpleQuery type query.
 

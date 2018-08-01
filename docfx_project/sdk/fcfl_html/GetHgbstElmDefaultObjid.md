@@ -1,5 +1,5 @@
 _GetHgbstElmDefaultObjid_
--------------------------
+----------------------
 
 **Object and Type**
 
@@ -9,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetHgbstElmDefaultObjid(ByVal ListName As String,
+		Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", Optional ByVal Element3 As String = "", Optional ByVal Element4 As String = "") As Long
+```
 
-Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", Optional ByVal Element3 As String = "", Optional ByVal Element4 As String = "") As Long
-
-**Description**
+#### Description
 
 This method returns the hgbst_elm.objid value for the default element in a given level of a user-defined list. You may use up to a 5-level list. If an default element has not been defined, then the first element is returned. The hgbst tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 
@@ -33,13 +34,12 @@ The hgbst_elm.objid value for the default element in a given level of a user-def
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10008 | ListName must not be empty. |
+| 10009 | Invalid ListName. |
 
-10008                                      ListName must not be empty.
-
-10009                                      Invalid ListName. |
-
-**Example**
+#### Examples
 
 The following example displays the default element objid for different elements in different levels of the FAMILY user-defined list.
 

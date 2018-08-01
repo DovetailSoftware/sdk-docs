@@ -10,6 +10,7 @@ CreateContract
 CreateContractList
 ------------------
 
+```
 Public Function create_contract(ByVal contract_id As String, _
                 ByVal title_str As String, ByVal create_date As String, _
                 ByVal acct_id As String, ByVal acct_name As String, _
@@ -28,7 +29,9 @@ Public Function create_contract(ByVal contract_id As String, _
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_contract_list(ByVal contract_id As String, _
                 ByVal title_str As String, ByVal create_date As String, _
                 ByVal acct_id As String, ByVal acct_name As String, _
@@ -44,8 +47,9 @@ Public Function create_contract_list(ByVal contract_id As String, _
                 ByVal renew_prior As Long, ByVal gen_time_bombs As Boolean, _
                 Optional fld_list As Variant, Optional type_list As Variant, _
                 Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create new contracts. Each contract requires a unique, valid title. Everything else is optional. You may specify either an account or contact for a contract (or neither), you may specify a contract ID or let the API auto-generate the contract ID for you. You may specify the user who created the contract as well as the contract's administrator, and you may specify additional fields. You may have a creation time bomb generated (for notifications). The objid of the contract created is returned. You may also specify a bill-to and ship-to site. These sites will be related to the default schedule. If empty, no site is related. If you do not wish to associate an account or contact against the contract, leave the account and contact parameters empty. You may also initially dispatch the contract. If you specify a queue name, the contract will be dispatched to that queue.
 
@@ -86,55 +90,36 @@ These APIs are used to create new contracts. Each contract requires a unique, va
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Found zero or many accounts.  Your criteria must return one and only one account. |
+| -2 | Found zero or many contacts.  Your criteria must return one and only one account. |
+| -3 | Could not find user specified |
+| -4 | Could not find WipBin specified |
+| -5 | Could not find Currency specified |
+| -6 | Could not find user record for administrator specified |
+| -7 | Could not find status specified |
+| -8 | Could not find appropriate activity element for the create event |
+| -9 | Could not find specified queue |
+| -10 | Could not find contract type specified |
+| -11 | Could not find contract terms specified |
+| -12 | User did not specify required field for title |
+| -13 | Stored procedure for numbering scheme not found |
+| -14 | Service end date before Service start date |
+| -15 | Contract expiry date before effective date |
+| -16 | Contract is not unique |
+| -17 | Specified bill-to site does not exist |
+| -18 | Specified ship-to site does not exist |
+| -19 | Could not find default price program of US Std Price List |
+| ret_id_num | Output - Returns the id of the newly created contract |
+| ret_objid | Output - Returns the objid of the newly created contract |
 
-0                                              No errors
+#### Examples
 
--1                                             Found zero or many accounts.  Your criteria must return one and only one account.
-
--2                                             Found zero or many contacts.  Your criteria must return one and only one account.
-
--3                                             Could not find user specified
-
--4                                             Could not find WipBin specified
-
--5                                             Could not find Currency specified
-
--6                                             Could not find user record for administrator specified
-
--7                                             Could not find status specified
-
--8                                             Could not find appropriate activity element for the create event
-
--9                                             Could not find specified queue
-
--10                                           Could not find contract type specified
-
--11                                           Could not find contract terms specified
-
--12                                           User did not specify required field for title
-
--13                                           Stored procedure for numbering scheme not found
-
--14                                           Service end date before Service start date
-
--15                                           Contract expiry date before effective date
-
--16                                           Contract is not unique
-
--17                                           Specified bill-to site does not exist
-
--18                                           Specified ship-to site does not exist
-
--19                                           Could not find default price program of US Std Price List |
-| ret_id_num | Output | Returns the id of the newly created contract |
-| ret_objid | Output | Returns the objid of the newly created contract
-
-**Examples**
-
- Create a new contract with title 'White House'. Specify the account of 'Major Movers', and contact of 'George Bush'. Also, generate a time bomb. All other information is defaulted.  Contract ID and objid are returned.
+Create a new contract with title 'White House'. Specify the account of 'Major Movers', and contact of 'George Bush'. Also, generate a time bomb. All other information is defaulted.  Contract ID and objid are returned.
 
 **Field version:**
 
@@ -149,6 +134,7 @@ var ret_int = cl_cc.create_contract_list( "", "White House", _
 **Visual Basic:**
 
 Dim ret_int      As Integer
+```
 
 Dim objid        As Long
 
@@ -211,6 +197,7 @@ var ret_int = cl_cc.create_contract_list(contract_id, "White House", _
 **Visual Basic:**
 
  Dim ret_int             As Integer
+```
 
 Dim objid               As Long
 

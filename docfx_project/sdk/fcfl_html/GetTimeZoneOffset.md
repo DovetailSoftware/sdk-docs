@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetTimeZoneOffset(ByVal TimeZone As String) As Long
+```
 
-**Description**
+#### Description
 
 This method returns the number of seconds the given time zone is offset from GMT. If the time zone is not found, this method returns a value of zero. The time_zone table is cached in the FCApplication object, so this method does not cause a database round-trip.
 

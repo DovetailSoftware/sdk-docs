@@ -9,9 +9,11 @@ Type     : Property (Read-only)
 
 **Prototype**
 
+```
 Public DBObjectNum As Long
+```
 
-**Description**
+#### Description
 
 This property reports the object number of the table or view for this object. The value in it is not set until you either call on SimpleQuery, or set the DBObjectName property. The number corresponds to the object number in the Data Dictionary.
 

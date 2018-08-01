@@ -9,6 +9,7 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub CloseGenerics(ByVal NumGenerics As Integer, _
                          ByRef Generic1 As FCGeneric, _
                          Optional ByRef Generic2 As FCGeneric, _
@@ -20,8 +21,9 @@ Public Sub CloseGenerics(ByVal NumGenerics As Integer, _
                          Optional ByRef Generic8 As FCGeneric, _
                          Optional ByRef Generic9 As FCGeneric, _
                          Optional ByRef Generic10 As FCGeneric)
+```
 
-**Description**
+#### Description
 
 This method closes and  frees all resources and references for up to 10 FCGeneric objects.
 

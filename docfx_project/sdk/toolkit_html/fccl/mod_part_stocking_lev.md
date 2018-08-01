@@ -1,6 +1,7 @@
 mod_part_stocking_lev
 -----------------------
 
+```
 Public Function mod_part_stocking_lev(ByVal bin_name As String, _
                            ByVal to_bin As String, ByVal location_name As String, _
                            ByVal queue_name As String, ByVal to_queue As String, _
@@ -8,8 +9,9 @@ Public Function mod_part_stocking_lev(ByVal bin_name As String, _
                            ByVal domain_name As String, ByVal part_minimum As Integer, _
                            ByVal part_maximum As Integer, ByVal part_rol As Integer, _
                            ByVal part_roq As Integer, ByVal is_active As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API modifies an existing  part restocking authorization level. The location, bin, part number/revision/domain must be specified, as well as the various levels and the reorder queue. The _to_bin_ field is move the record to another bin, and the _to_queue_ field can be used to change the name of the queue.
 
@@ -31,47 +33,31 @@ This API modifies an existing  part restocking authorization level. The locatio
 | part_roq | Yes | If a reorder happens, how many get reordered. If no change is desired, set to -1 |
 | is_active | Yes | Is this restocking entry active? |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Missing queue parameter |
+| -2 | Missing location parameter |
+| -3 | Missing part number |
+| -4 | Part reorder level < minimum |
+| -5 | Part reorder level > maximum |
+| -6 | Part reorder level < 0 |
+| -7 | Part reorder qty < 0 |
+| -8 | Part minimum < 0 |
+| -9 | Part maximum < 0 |
+| -10 | Location does not exist |
+| -11 | Bin does not exist for given location |
+| -12 | Queue does not exist |
+| -13 | Mod level does not exist |
+| -14 | The specified "to_queue" does not exist |
+| -15 | The specified "to_bin" does not exist for given location |
+| -16 | The specified part stocking record does not exist |
 
-0                                      No errors
+#### Examples
 
--1                                             Missing queue parameter
-
--2                                             Missing location parameter
-
--3                                             Missing part number
-
--4                                             Part reorder level < minimum
-
--5                                             Part reorder level > maximum
-
--6                                             Part reorder level < 0
-
--7                                             Part reorder qty < 0
-
--8                                             Part minimum < 0
-
--9                                             Part maximum < 0
-
--10                                           Location does not exist
-
--11                                           Bin does not exist for given location
-
--12                                           Queue does not exist
-
--13                                           Mod level does not exist
-
--14                                           The specified "to_queue" does not exist
-
--15                                           The specified "to_bin" does not exist for given location
-
--16                                           The specified part stocking record does not exist
-
-**Examples**
-
- Move the restock record from bin 2 to bin 3. Change the queue from high to low, and don't change the minimum or maximum.
+Move the restock record from bin 2 to bin 3. Change the queue from high to low, and don't change the minimum or maximum.
 
 **Visual Basic:**
 

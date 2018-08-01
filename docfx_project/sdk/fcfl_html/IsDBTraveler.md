@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public IsDBTraveler As Boolean
+```
 
-**Description**
+#### Description
 
 This property tells whether the current database is Traveler-enabled, or not.
 

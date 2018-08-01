@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub CloseAllGenerics()
+```
 
-**Description**
+#### Description
 
 This method closes and  frees all resources and references for any and all of the generics associated with the current session. It does not matter what bulks the generics are located in, nor does it matter if the generics are open or closed.
 

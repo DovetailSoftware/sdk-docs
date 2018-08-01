@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public IncludeRelations As Boolean
+```
 
-**Description**
+#### Description
 
 This property tells the generic object if it should include all MTO and OTOP relations for this object in the DataFields property when it queries the generic from the database.
 

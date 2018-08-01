@@ -1,7 +1,5 @@
 ## ret_objid3
 
----
-
 **Prototype**
 
 Public ret_objid3 As Long

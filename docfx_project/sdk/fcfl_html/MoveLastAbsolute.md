@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub MoveLastAbsolute()
+```
 
-**Description**
+#### Description
 
 This method sets the current record for the generic object to the last object in the recordset. However, unlike the MoveLast method, this method places the current record pointer to the last record with **NO** regard to the parent recordset's current record pointer. In other words, this method places you at the last record in the recordset for ALL records in the generic object. This method is similar to the base ClearBasic method GetRecordList, which gets all records for a specific query.
 

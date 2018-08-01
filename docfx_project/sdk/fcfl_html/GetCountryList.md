@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetCountryList() As ADODB.Recordset
+```
 
-**Description**
+#### Description
 
 This method returns a recordset containing the country records
 

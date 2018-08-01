@@ -1,5 +1,5 @@
 _Change__Password_
-------------------
+---------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub ChangePassword(ByVal password As String)
+```
 
-**Description**
+#### Description
 
 This method changes the password for the session user, which may either be a contact or a user. You may not use this method to change the password for the "sa" user.
 
@@ -23,13 +25,12 @@ This method changes the password for the session user, which may either be a con
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 11005 | Not logged in to an active session |
+| 11017 | System administrators cannot change their password using this method. |
 
-11005                                      Not logged in to an active session
-
-11017                                      System administrators cannot change their password using this method.
-
-**Example**
+#### Examples
 
 The following example changes the current user's password.
 

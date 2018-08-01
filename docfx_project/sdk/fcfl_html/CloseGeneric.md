@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub CloseGeneric()
+```
 
-**Description**
+#### Description
 
 When you are finished with a generic object, and do not need it any more, you should call on this method to close it out so you can reclaim the memory. It cleans up various internal data structures for you to accomplish this.
 

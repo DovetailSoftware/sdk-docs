@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetUserVersion(formName As String) As String
+```
 
-**Description**
+#### Description
 
 This method returns the user version in the current user's resource configuration for the web form name passed in to the method. The resource configuration data is loaded into **FCFL** via the _LoadUserVersions_ method. If the resource configuration contains a custom version of the supplied form name, the user version is returned, with slashes on either side of the version. For example, "/1.0/". If no custom version of the web form is present in the resource configuration, a slash "/" is returned. If user versions have not been loaded (with the _LoadUserVersions_ method), a slash is also returned.
 

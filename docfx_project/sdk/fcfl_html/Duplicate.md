@@ -1,5 +1,5 @@
 _Duplicate_
------------
+--------
 
 **Object and Type**
 
@@ -9,11 +9,11 @@ Type     : Method
 
 **Prototype**
 
-Public Function Duplicate(Optional use_generic As FCGeneric) _
+```
+Public Function Duplicate(Optional use_generic As FCGeneric) As FCGeneric
+```
 
-                          As FCGeneric
-
-**Description**
+#### Description
 
 This method allows you to make a copy of one row of a generic object (the current row), and to copy it to another generic object. It will copy the contents of every field in the object, EXCEPT the objid. The objid is not included because you will want the new row to have an objid that is unique to that row. All MTO and OTOP relations are also copied, as they are long integer data fields in the record.
 
@@ -27,10 +27,9 @@ If you include a generic object as an argument to this method, the duplicate wil
 
 **Error Codes**
 
-**Value**                **Meaning**
-
-12031                                      This operation is not valid for a generic that is marked distinct
-
+| Value | Meaning |
+|:--- |:--- |
+| 12031 | This operation is not valid for a generic that is marked distinct |
 #### Parameters
 
 | Parameter Name | Required? | Description |
@@ -43,13 +42,12 @@ The generic object that contains the duplicate row. The duplicate row will be se
 
 **Error Codes**
 
-**Value**                **Meaning**
-
-12017                                      The generic object to duplicate has no rows in it, or the current row is set to
-
+| Value | Meaning |
+|:--- |:--- |
+| 12017 | The generic object to duplicate has no rows in it, or the current row is set to |
 BOF or EOF
 
-**Example**
+#### Examples
 
 This examples duplicates two rows from the time_bomb table and places them in the same (new) generic object.
 

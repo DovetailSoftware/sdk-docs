@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetField(ByVal field_name As String) As Variant
+```
 
-**Description**
+#### Description
 
 This method returns the value in a column of the current record in a generic object. It is exactly the same as using the Fields property. It is provided for similarity with ClearBasic.
 

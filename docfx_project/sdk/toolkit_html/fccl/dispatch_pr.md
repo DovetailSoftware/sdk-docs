@@ -1,12 +1,14 @@
 dispatch_pr
 -----------
 
+```
 Public Function dispatch_pr(ByVal pr_id As String, _
                             ByVal queue_name As String, ByVal disp_date As String, _
                             ByVal user_name As String, ByVal gen_time_bombs As Boolean) _
                             As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified part request to be dispatched to the specified queue. The part request must be in open condition, and not currently dispatched to a queue. The API allows for the setting of the dispatch date, and the user who dispatched the part request. The API can also generate a time bomb (for business rule notification).
 
@@ -20,29 +22,22 @@ This API causes the specified part request to be dispatched to the specified que
 | user_name | No | The user who dispatched the part request. If left blank, the current user performs the dispatch. |
 | gen_time_bombs | Yes | Should a time_bomb be generated |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
-
-0                                              No errors
-
--1                                             Cannot find the specified part request
-
--2                                             The part request is already dispatched
-
--3                                             The part request is closed and may not be dispatched
-
--4                                             The specified user cannot be found
-
--5                                             The specified new queue name cannot be found
-
--6                                             The DISPATCH activity string is not found with rank = 900
-
--7                                             The specified queue does not allow dispatches of part requests
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified part request |
+| -2 | The part request is already dispatched |
+| -3 | The part request is closed and may not be dispatched |
+| -4 | The specified user cannot be found |
+| -5 | The specified new queue name cannot be found |
+| -6 | The DISPATCH activity string is not found with rank = 900 |
+| -7 | The specified queue does not allow dispatches of part requests |
 
 **Examples**
 
- Dispatch part request number '1-14' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
+Dispatch part request number '1-14' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
 **Visual Basic:**
 

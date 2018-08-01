@@ -1,7 +1,5 @@
 ## ret_string
 
----
-
 **Prototype**
 
 Public ret_string As String

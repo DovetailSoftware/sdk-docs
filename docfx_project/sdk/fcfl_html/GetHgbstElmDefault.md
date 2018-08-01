@@ -1,5 +1,5 @@
 _GetHgbstElmDefault_
---------------------
+-----------------
 
 **Object and Type**
 
@@ -9,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetHgbstElmDefault(ByVal ListName As String,
+		Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", Optional ByVal Element3 As String = "", Optional ByVal Element4 As String = "") As String
+``` 
 
-Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", Optional ByVal Element3 As String = "", Optional ByVal Element4 As String = "") As String
-
-**Description**
+#### Description
 
 This method returns the hgbst_elm.title  for the default element in a given level of a user-defined list. You may use up to a 5-level list. If an default element has not been defined, then the first element is returned. The hgbst tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 
@@ -29,17 +30,16 @@ This method returns the hgbst_elm.title  for the default element in a given lev
 
 **Returns**
 
-The hgbst_elm.title string for the default element in a given level of a user-defined list. If the list for this level is empty, "" (empty string) is returned. |
+The hgbst_elm.title string for the default element in a given level of a user-defined list. If the list for this level is empty, "" (empty string) is returned.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10008 | ListName must not be empty. |
+| 10009 | Invalid ListName. |
 
-10008                                      ListName must not be empty.
-
-10009                                      Invalid ListName. |
-
-**Example**
+#### Examples
 
 The following example displays the Family:Software user-defined list, and sets the default value to be selected.
 

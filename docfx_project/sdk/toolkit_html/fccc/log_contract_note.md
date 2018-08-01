@@ -4,6 +4,7 @@ log_contract_note
 log_contract_note_list
 ------------------------
 
+```
 Public Function log_contract_note(contract_id As String, _
                                  action_type As String, note_str As String, _
                                  int_use As String, log_date As String, _
@@ -15,7 +16,9 @@ Public Function log_contract_note(contract_id As String, _
                                  str_fld2 As String, str_val2 As String, _
                                  date_fld1 As String, date_val1 As String _
                                  ) As Integer
+```
 
+```
 Public Function log_contract_note_list(contract_id As String, _
                                       action_type As String, _
                                       note_str As String, _
@@ -26,8 +29,9 @@ Public Function log_contract_note_list(contract_id As String, _
                                       Optional fld_list As Variant, _
                                       Optional type_list As Variant, _
                                       Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes a note log to be create and added to the specified contract.  It does it in the name of the user given and allows the setting of user.   It allows the setting of optional fields on the notes_log record with the optional list parameters.
 
@@ -46,27 +50,21 @@ This API causes a note log to be create and added to the specified contract.  I
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Specified contract not found |
+| -2 | Specified user not found |
+| -3 | Cannot find the activity string with rank = 1700 ("Notes") |
+| -4 | Cannot find the specified log action type |
+| -5 | Cannot find employee record for the user |
+| ret_objid | objid of the created notes log record |
 
-0                                              No errors
+#### Examples
 
--1                                             Specified contract not found
-
--2                                             Specified user not found
-
--3                                             Cannot find the activity string with rank = 1700 ("Notes")
-
--4                                             Cannot find the specified log action type
-
--5                                             Cannot find employee record for the user
-
-ret_objid                                objid of the created notes log record
-
-**Examples**
-
- Move quote number '154' to the default WIPBin for the current owner.
+Move quote number '154' to the default WIPBin for the current owner.
 
 **JavaScript:**
 

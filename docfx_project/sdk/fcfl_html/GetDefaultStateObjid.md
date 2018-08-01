@@ -1,5 +1,5 @@
 _GetDefaultStateObjid_
-----------------------
+-------------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetDefaultStateObjid(ByVal Country As String) As Long
+```
 
-**Description**
+#### Description
 
 This method returns a long integer containing the objid of the default state_prov for a given country. If there is not a default state (indicated by the is_default field), then the objid of the first state is returned.
 
@@ -29,13 +31,12 @@ A long integer containing the objid of the default state_prov for a given countr
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10011 | Country must not be empty. |
+| 10012 | Invalid Country |
 
-10011                                      Country must not be empty.
-
-10012                                      Invalid Country |
-
-**Example**
+#### Examples
 
 The following example retrieves the objid of the default state for a given country.
 

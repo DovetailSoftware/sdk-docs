@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Distinct  As Boolean
+```
 
-**Description**
+#### Description
 
 This property tells the session if all generic objects in that session should set the Distinct property for ) by default. Whatever value is set in this property (which is False initially) is passed to each generic when that generic is created.
 

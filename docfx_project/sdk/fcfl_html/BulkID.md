@@ -8,9 +8,11 @@ Type     : Property (Read-only)
 
 **Prototype**
 
+```
 Public BulkID As Integer
+```
 
-**Description**
+#### Description
 
 This is an internal property that uniquely identifies the Bulk within the **FCFL** system. In most cases there is **NO REASON** for you to ever use this property. If you wish to read it (to maintain a unique key for your Bulks), it can be read.
 

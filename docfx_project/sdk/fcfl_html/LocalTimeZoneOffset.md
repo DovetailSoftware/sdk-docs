@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Property Get LocalTimeZoneOffset() As Long
+```
 
-**Description**
+#### Description
 
 This read-only property returns the number of seconds the local time zone is offset from GMT.
 

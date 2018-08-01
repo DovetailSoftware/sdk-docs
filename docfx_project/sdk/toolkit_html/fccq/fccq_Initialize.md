@@ -1,9 +1,11 @@
 ### Initialize
 
+```
 Public Sub Initialize(ByRef TheFCApplication As FCApplication, _
                       ByRef TheFCSession As FCSession)
+```
 
-**Description**
+#### Description
 
 The Initialize method is used to establish the relationship between the FCCQ object and the FCApplication and FCSession objects.  This method must be called before calling any of the other API methods.
 

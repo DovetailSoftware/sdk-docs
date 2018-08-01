@@ -1,14 +1,16 @@
 win_opp
 -------
 
+```
 Public Function win_opp(opp_id As String, _
                         new_status As String, _
                         the_note As String, _
                         user_name As String, _
                         change_date As String, _
                         gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows you to mark an opportunity as "Won." It changes both the cycle stage and the opportunity. It also allows you to specify an optional note about the change, who performed the change, as well as when they performed the change. All of these can be left blank - see below for more details.
 
@@ -33,31 +35,23 @@ The API can also generate a time bomb (for business rule notification).
 | change_date | No | When was the opportunity changed. If this parameter is left blank, the object is changed at the current date/time |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | An invalid condition was supplied (internal error - should not ever occur) |
+| -2 | The opportunity specified cannot be found |
+| -3 | The opportunity is already closed |
+| -4 | The opportunity is currently dispatched |
+| -5 | Cannot find the specified user |
+| -6 | The specified status cannot be found for the new condition |
+| -7 | Cannot find the cycle stage for this condition |
+| -8 | Cannot find the activity code for the status change event |
 
-0                                              No errors
+#### Examples
 
--1                                             An invalid condition was supplied (internal error - should not ever occur)
-
--2                                             The opportunity specified cannot be found
-
--3                                             The opportunity is already closed
-
--4                                             The opportunity is currently dispatched
-
--5                                             Cannot find the specified user
-
--6                                             The specified status cannot be found for the new condition
-
--7                                             Cannot find the cycle stage for this condition
-
--8                                             Cannot find the activity code for the status change event
-
-**Examples**
-
- Mark opportunity '44' as won. Add some notes, and the change occurs now and is performed by the current user. Assume that we'll use the default status. Generate a time bomb.
+Mark opportunity '44' as won. Add some notes, and the change occurs now and is performed by the current user. Assume that we'll use the default status. Generate a time bomb.
 
 **JavaScript:**
 
@@ -69,7 +63,7 @@ Dim ret_int As Integer
 
 ret_int = fcsfa.win_opp("44", "", "Some notes!!", "", "", True)
 
- Opportunity '42' is changed to won at 10PM on November 23rd of 1997. Change should be logged as performed by dave, with notes of 'Some notes'. Set the status to "Another status." Don't generate a time bomb.
+Opportunity '42' is changed to won at 10PM on November 23rd of 1997. Change should be logged as performed by dave, with notes of 'Some notes'. Set the status to "Another status." Don't generate a time bomb.
 
 **JavaScript:**
 

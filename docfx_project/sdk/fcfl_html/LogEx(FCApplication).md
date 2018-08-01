@@ -8,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub LogEx(logLevel as String, logMessage As String)
+```
 
-**Description**
+#### Description
 
 Alternate logging method that allows setting the log level. This method is similar to [Logger.Log](../FChoice.Common~FChoice.Common.Logger~Log.md) except that the log level is a string representation of the [LogLevel](../FChoice.Common~FChoice.Common.LogLevel.md) enumeration (e.g "DEBUG", "INFO", "ERROR").
 

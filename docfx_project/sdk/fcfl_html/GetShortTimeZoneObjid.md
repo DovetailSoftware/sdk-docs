@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetShortTimeZoneObjid(ByVal TimeZone As String) As Long
+```
 
-**Description**
+#### Description
 
 This method returns an objid for a given time zone. If the time zone is not found, this method returns a value of zero. The time_zone table is cached in the FCApplication object, so this method does not cause a database round-trip.
 

@@ -1,16 +1,18 @@
 create_time_log
 -----------------
 
+```
 Public Function create_time_log(ByVal onsite_objid As Long, _
-                  ByVal id_num As String, ByVal creation_time As String, _
-      ByVal notes As String, ByVal perf_by As String, _
-                  ByVal user_name As String, ByVal time_type As String, _
-      ByVal start_time As String, ByVal duration As Long, _
-                  ByVal billable As Long, ByVal bill_to As String, _
-      ByVal wrk_center As String, _
-ByVal resolution As String) As Integer
+        ByVal id_num As String, ByVal creation_time As String, _
+      	ByVal notes As String, ByVal perf_by As String, _
+        ByVal user_name As String, ByVal time_type As String, _
+      	ByVal start_time As String, ByVal duration As Long, _
+        ByVal billable As Long, ByVal bill_to As String, _
+      	ByVal wrk_center As String, _
+		ByVal resolution As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows creation of a time log that is related to an onsite log. The OBJID of the onsite log or a case/subcase id must be supplied (but not both), and the other parameters are all optional.
 
@@ -32,47 +34,34 @@ This API allows creation of a time log that is related to an onsite log. The OBJ
 | wrk_center | No | Value from the WORK_CENTER list where the time was spent |
 | resolution | No | Value from the RESOLUTION_CODE list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Could not find specified TIME_TYPE value |
+| -2 | Could not find specified BILL_TO_TIME value |
+| -3 | Cannot find user in database |
+| -4 | Cannot find employee record for user in database |
+| -5 | Cannot find employee record for performing user in database |
+| -6 | Cannot find specified case/subcase |
+| -7 | Could not find specified WORK_CENTER |
+| -8 | Could not find specified RESOLUTION_CODE |
+| -9 | Cannot find the 'T & E log' activity string with rank = 1800 |
+| -10 | Either Case ID or Onsite Log Objid must be specified |
+| -11 | Cannot find user record for performing user in database |
+| -12 | The supplied onsite log objid is not found |
+| ret_objid | The objid of the new time log object is returned by this parameter. |
+| ret_objid2 | The objid of the new onsite object is returned by this parameter. |
 
-0                                              No errors
+#### Examples
 
--1                                             Could not find specified TIME_TYPE value
-
--2                                             Could not find specified BILL_TO_TIME value
-
--3                                             Cannot find user in database
-
--4                                             Cannot find employee record for user in database
-
--5                                             Cannot find employee record for performing user in database
-
--6                                             Cannot find specified case/subcase
-
--7                                             Could not find specified WORK_CENTER
-
--8                                             Could not find specified RESOLUTION_CODE
-
--9                                             Cannot find the 'T & E log' activity string with rank = 1800
-
--10                                           Either Case ID or Onsite Log Objid must be specified
-
--11                                           Cannot find user record for performing user in database
-
--12                                           The supplied onsite log objid is not found
-
-ret_objid                                The objid of the new time log object is returned by this parameter.
-
-ret_objid2                              The objid of the new onsite object is returned by this parameter.
-
-**Examples**
-
- Create a new time log related to onsite log 268435522. The creation time is 10:55 am on September 11, 1998. A sample note is passed, and the resolution will be "Completed". The user will default, and the performing user will be set to "db". This default time type is billable to the customer. The process started in the default work center at 10:00 am and lasted for 10 minutes. Once created, the new objid will be passed back in the tl_objid field.
+Create a new time log related to onsite log 268435522. The creation time is 10:55 am on September 11, 1998. A sample note is passed, and the resolution will be "Completed". The user will default, and the performing user will be set to "db". This default time type is billable to the customer. The process started in the default work center at 10:00 am and lasted for 10 minutes. Once created, the new objid will be passed back in the tl_objid field.
 
 **Visual Basic:**
 
    Dim ret_int  As Integer
+```
 
 Dim tl_objid As Long
 
@@ -104,6 +93,7 @@ if (ret_int == 0){ var tl_objid = fcfo.ret_objid; }
 **Visual Basic:**
 
    Dim ret_int  As Integer
+```
 
 Dim tl_objid As Long
 

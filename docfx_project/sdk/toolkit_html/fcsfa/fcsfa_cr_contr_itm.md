@@ -4,6 +4,7 @@ cr_contr_itm
 cr_contr_itm_list
 -------------------
 
+```
 Public Function cr_contr_itm(ByVal contract_id As String, _
                              ByVal user_name As String, _
                              ByVal create_date As String, _
@@ -27,7 +28,9 @@ Public Function cr_contr_itm(ByVal contract_id As String, _
                              Optional fld_list As Variant, _
                              Optional type_list As Variant, _
                              Optional val_list As Variant) As Integer
+```
 
+```
 Public Function cr_contr_itm_list(ByVal contract_id As String, _
                              ByVal user_name As String, _
                              ByVal create_date As String, _
@@ -58,8 +61,9 @@ Public Function cr_contr_itm_list(ByVal contract_id As String, _
                              ByVal str_val2 As String, _
                              ByVal date_fld1 As String, _
                              ByVal date_val1 As String) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create quote/contract line items. They require that a valid quote already exist, and that it have at least one valid schedule. In addition, the supplied part/revision must have a price defined for it in the schedule, or you must provide an override.
 
@@ -110,53 +114,33 @@ The objid of the newly-created contract line item will be returned in _fcsfa.ret
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Quantity supplied is < 1 |
+| -2 | End date is earlier than start date |
+| -3 | The specified quote/contract was not found |
+| -4 | Could not find the specified user |
+| -5 | The revision is not found for the specified part/domain |
+| -6 | The specified schedule is not found for the contract/quote |
+| -7 | The specified quoted_at site was not found |
+| -8 | The specified serviced_at site was not found |
+| -9 | The specified part/revision is not found on the price schedule |
+| -10 | Serial number supplied with a quantity > 1 |
+| -13 | The specified part is quantity tracked, and a serial number was supplied |
+| -14 | The line was marked with auto-install, and no site was supplied |
+| -15 | The override price given was not numeric |
+| -16 | Cannot locate the specified site_part |
+| -17 | The specified parent line item does not exist |
+| -18 | The specified parent line item is not actually a parent. It is a child line item |
+| -19 | The specified product is priced as a percentage of parent, but no parent was given |
+| -20 | The specified product is priced as a percentage of child - not supported for this API |
+| -21 | The specified purchase order is not found for the contract schedule. |
+| -22 | The mod_level is not found for the parent contract item. |
 
-0                                              No errors
-
--1                                             Quantity supplied is < 1
-
--2                                             End date is earlier than start date
-
--3                                             The specified quote/contract was not found
-
--4                                             Could not find the specified user
-
--5                                             The revision is not found for the specified part/domain
-
--6                                             The specified schedule is not found for the contract/quote
-
--7                                             The specified quoted_at site was not found
-
--8                                             The specified serviced_at site was not found
-
--9                                             The specified part/revision is not found on the price schedule
-
--10                                           Serial number supplied with a quantity > 1
-
--13                                           The specified part is quantity tracked, and a serial number was supplied
-
--14                                           The line was marked with auto-install, and no site was supplied
-
--15                                           The override price given was not numeric
-
--16                                           Cannot locate the specified site_part
-
--17                                           The specified parent line item does not exist
-
--18                                           The specified parent line item is not actually a parent. It is a child line item
-
--19                                           The specified product is priced as a percentage of parent, but no parent was given
-
--20                                           The specified product is priced as a percentage of child - not supported for this API
-
--21                                           The specified purchase order is not found for the contract schedule.
-
--22                                           The mod_level is not found for the parent contract item.
-
-**Examples**
+#### Examples
 
  Create a new line item for quote "2".  A total of 3 Notebooks are quoted for the default schedule. Add a comment, and relate to purchase order '222'.
 
@@ -175,6 +159,7 @@ var ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity",
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity", _
                    "", 3, "Default Schedule", "", 0, "", True, False, _
@@ -208,6 +193,7 @@ var ret_int = fcsfa.cr_contr_itm("2", "", "", "", "", "Notebook", "Quantity",
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 Dim fld_list   As New FCList
 

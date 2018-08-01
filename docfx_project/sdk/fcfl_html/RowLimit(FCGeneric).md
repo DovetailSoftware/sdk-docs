@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public RowLimit As Integer
+```
 
-**Description**
+#### Description
 
 This property allows you to set the maximum number of rows that the generic can return, when it is queried. If this property is set to 0, no limit will be applied.
 

@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function Count() As Long
+```
 
-**Description**
+#### Description
 
 This method returns back the number of rows currently in a generic object. For example, if you query a database table, and the query returned 14 rows, you would expect Count to return 14. If you then called on AddNew to add a row, it would return 15.
 

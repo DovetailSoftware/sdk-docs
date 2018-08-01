@@ -4,6 +4,7 @@ update_pr_header
 update_pr_header_list
 -----------------------
 
+```
 Public Function update_pr_header(ByVal hdr_num As String, _
                                ByVal first_name As String, ByVal last_name As String, _
                                ByVal phone_num As String, ByVal ship_site_id As String, _
@@ -16,7 +17,9 @@ Public Function update_pr_header(ByVal hdr_num As String, _
                                ByVal str_fld2 As String, ByVal str_val2 As String, _
                                ByVal date_fld1 As String, ByVal date_val1 As String) _
                                As Integer
+```
 
+```
 Public Function update_pr_header_list(ByVal hdr_num As String, _
                                ByVal first_name As String, ByVal last_name As String, _
                                ByVal phone_num As String, ByVal ship_site_id As String, _
@@ -26,8 +29,9 @@ Public Function update_pr_header_list(ByVal hdr_num As String, _
 
                                Optional fld_list As Variant, Optional type_list As Variant, _
                                Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs allow for the updating of part request headers. You must supply the header number, and any other attributes you wish to update. If an attribute is left blank, the API will not update the value. Two of the attributes allow you to clear the previous result. To clear the related case number, or to clear the header notes, put the string "CLEAR" for the argument. If you leave an argument blank, the value in the header record is not changed. If you want to change the contact for the part request, you must supply first name, last name, and phone number for the contact.
 
@@ -49,31 +53,23 @@ These APIs allow for the updating of part request headers. You must supply the h
 | int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
 | int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No Errors |
+| -1 | Cannot find the specified part request header |
+| -2 | The specified contact could not be found |
+| -3 | Cannot find the specified shipping site |
+| -4 | Cannot find the specified billing site |
+| -5 | The specified case ID is not found |
+| -6 | The specified payment method is not found |
+| -7 | The specified payment terms is not found |
+| -8 | The specified priority is not found |
 
-0                                              No Errors
+#### Examples
 
--1                                             Cannot find the specified part request header
-
--2                                             The specified contact could not be found
-
--3                                             Cannot find the specified shipping site
-
--4                                             Cannot find the specified billing site
-
--5                                             The specified case ID is not found
-
--6                                             The specified payment method is not found
-
--7                                             The specified payment terms is not found
-
--8                                             The specified priority is not found
-
-**Examples**
-
- Update part request header '1'. Change the contact to Sara Grinch, change the billing site ID to 43, the case ID to 14,  the payment terms and method, and one extra field.
+Update part request header '1'. Change the contact to Sara Grinch, change the billing site ID to 43, the case ID to 14,  the payment terms and method, and one extra field.
 
 **Visual Basic:**
 

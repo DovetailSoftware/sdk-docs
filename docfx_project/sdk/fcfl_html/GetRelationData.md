@@ -1,5 +1,5 @@
 _GetRelationData_
------------------
+--------------
 
 **Object and Type**
 
@@ -9,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetRelationData(ByVal rel_name As String, _
-
                 ByVal tbl_name As String) As ADODB.Recordset
+``` 
 
-**Description**
+#### Description
 
 This method returns the meta-data for the specified relation from the Clarify ADP table (adp_sch_rel_info). It returns a recordset (of one record) with the data for this relation. For more information about the Clarify ADP tables, please see the Clarify documentation, or contact First Choice Software.
 
@@ -32,11 +33,11 @@ The record from adp_sch_rel_info with data about the specified relation.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10001 | The specified relation is not found for the specified table, or the table name is not valid |
 
-10001                                      The specified relation is not found for the specified table, or the table name is not valid
-
-**Example**
+#### Examples
 
 The following example returns data about the case_reporter2site relation in the case table:
 

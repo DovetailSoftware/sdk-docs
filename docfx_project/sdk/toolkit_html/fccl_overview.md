@@ -1,7 +1,5 @@
 ## FCFL API Toolkit for ClearLogistics
 
----
-
 **Overview**
 
 Many customers have wanted the ability to customize the Clarify environment easily by adding base Clarify functions (such as part request creation, closure, modification, or note logging) into web applications.

@@ -9,21 +9,22 @@ Type     : Property
 
 **Prototype**
 
+```
 Public AllowDuplicates    As Boolean
+```
 
-**Description**
+#### Description
 
 This property tells whether to allow an item to be placed in a list if an item of that value already exists in the list.  If this values is set to 'FALSE' such an insertion is not allowed.    This property only prohibits the insertion.  If the list has duplicate entries, you may still set this property with no effect on the current list.   All lists are created with AllowDuplicates set to 'TRUE'.
 
-**Values**
+#### Values
 
-**Value**                    **Description**
+| Value | Description |
+|:--- |:--- |
+| FALSE | Do not allow items to be inserted into the list if it already exists in the list. |
+| TRUE | Allow items to be inserted into the list if it already exists in the list. |
 
-FALSE                   Do not allow items to be inserted into the list if it already exists in the list.
-
-TRUE                     Allow items to be inserted into the list if it already exists in the list.
-
-**Example**
+#### Example
 
 The example shows the adding of duplicate data to a list with the AllowDuplicates property turned on and off.  Notice in the last example that the duplicate data is still in list with AllowDuplicates set to FALSE.
 

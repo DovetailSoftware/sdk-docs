@@ -1,9 +1,11 @@
 seal_container
 --------------
 
+```
 Public Function seal_container(ByVal cont_name As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API seals an existing container.
 
@@ -13,21 +15,18 @@ This API seals an existing container.
 |:--- |:--- |:--- |
 | cont_name | Yes | The container to seal |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the container |
+| -2 | The container is already sealed |
+| -3 | One or more of the child containers is still open |
 
-0                                      No errors
+#### Examples
 
--1                                             Cannot find the container
-
--2                                             The container is already sealed
-
--3                                             One or more of the child containers is still open
-
-**Examples**
-
- Seal container Fred.
+Seal container Fred.
 
 **Visual Basic:**
 

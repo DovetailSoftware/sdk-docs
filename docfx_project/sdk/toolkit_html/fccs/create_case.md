@@ -4,6 +4,7 @@ create_case
 create_case_list
 ------------------
 
+```
 Public Function create_case(ByVal site_id As String, _
                 ByVal f_name As String, ByVal l_name As String, _
                 ByVal phone_num As String, ByVal part_num As String, _
@@ -20,7 +21,9 @@ Public Function create_case(ByVal site_id As String, _
                 Byval str_fld1 As String, ByVal str_val1 As String, _
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_case_list(ByVal site_id As String, _
                 ByVal f_name As String, ByVal l_name As String, _
                 ByVal phone_num As String, ByVal part_num As String, _
@@ -34,8 +37,9 @@ Public Function create_case_list(ByVal site_id As String, _
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
                 Optional fld_list As Variant, Optional type_list As Variant, _
                 Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create new cases. They require that a valid site and contact be specified. Everything else is optional. You may specify either a part/mod_level or a site part for a case (or neither), you may specify a contract, a title, a case type, priority, severity, and status (base Clarify does not allow you to specify a status). You may add a phone, log (or not), and you may have the case initially dispatched to a queue. You may specify the the case creation date, and the end of the phone log (for phone call length). You may specify the user who created the case, and you may specify additional fields. You may have a creation time bomb generated (for notifications). The objid of the case created is returned. The business rule version of this API does not return the objid of the new case object.
 
@@ -78,57 +82,35 @@ If successful, these APIs return both the _objid_ and the _id_number_ of the new
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified site |
+| -2 | Cannot find the specified contact |
+| -3 | Cannot find the specified part number |
+| -4 | The mod_level is not valid for the specified part |
+| -5 | The serial number specified is not valid for the part/mod_level |
+| -6 | The specified site_part is at another site |
+| -7 | The specified site_part is not found |
+| -10 | The phone log end time is prior to the case creation time |
+| -11 | The phone log text file is not found |
+| -12 | The specified user is not found |
+| -13 | The specified case type is not found |
+| -14 | The specified priority is not found |
+| -15 | The specified severity is not found |
+| -16 | The specified status is not found |
+| -17 | The CREATE activity string is not found |
+| -18 | The PHONE LOG activity string is not found |
+| -19 | The DISPATCH activity string is not found |
+| -20 | The specified Phone Log action type string is not found |
+| -21 | Cannot find a primary address for the specified site |
+| -22 | The specified contract is not found |
+| -23 | The specified queue is not found |
+| -25 | Could not locate an employee record for the specified user |
 
-0                                              No errors
-
--1                                             Cannot find the specified site
-
--2                                             Cannot find the specified contact
-
--3                                             Cannot find the specified part number
-
--4                                             The mod_level is not valid for the specified part
-
--5                                             The serial number specified is not valid for the part/mod_level
-
--6                                             The specified site_part is at another site
-
--7                                             The specified site_part is not found
-
--10                                           The phone log end time is prior to the case creation time
-
--11                                           The phone log text file is not found
-
--12                                           The specified user is not found
-
--13                                           The specified case type is not found
-
--14                                           The specified priority is not found
-
--15                                           The specified severity is not found
-
--16                                           The specified status is not found
-
--17                                           The CREATE activity string is not found
-
--18                                           The PHONE LOG activity string is not found
-
--19                                           The DISPATCH activity string is not found
-
--20                                           The specified Phone Log action type string is not found
-
--21                                           Cannot find a primary address for the specified site
-
--22                                           The specified contract is not found
-
--23                                           The specified queue is not found
-
--25                                           Could not locate an employee record for the specified user
-
-**Examples**
+#### Examples
 
  Create a new case. Specify the site of 'White House', and contact of Bill Clinton. Also, generate a time bomb. All other information is defaulted.
 
@@ -155,6 +137,7 @@ var ret_int = fccs.create_case("White House", "Bill", "Clinton",
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 ret_int = fccs.create_case("White House", "Bill", "Clinton", _
           "555-555-1234", "", "", "", "", 0, "", "", "", _
@@ -188,6 +171,7 @@ var ret_int = fccs.create_case_list("White House", "Bill", "Clinton",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 ret_int = fccs.create_case_list("White House", "Bill", "Clinton", _
           "555-555-1234", "", "", "", "", 0, "", "", "", _
@@ -232,6 +216,7 @@ var ret_int = fccs.create_case("White House", "Bill", "Clinton",
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 ret_int = fccs.create_case("White House", "Bill", "Clinton", _
           "555-555-1234", "MS Word", "7.0", "Software", _
@@ -299,6 +284,7 @@ var ret_int = fccs.create_case_list("White House", "Bill", "Clinton",
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 Dim fld_list   As New FCList
 

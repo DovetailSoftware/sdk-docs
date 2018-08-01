@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public ThrowErrors As Boolean
+```
 
-**Description**
+#### Description
 
 First Choice FCFL-based High Level APIs either return errors through the return value of the COM method or throw the error (in the object programming methodology).  The property _ThrowErrors_ switches from one method to the other.  Setting _ThrowErrors_ to FALSE means First Choice methods return errors through the return code.  Setting _ThrowErrors_ to TRUE causes the methods to throw the error.  By default the value of _ThrowErrors_  is TRUE.
 

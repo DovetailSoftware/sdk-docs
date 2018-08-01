@@ -1,13 +1,15 @@
 add_contact_to_contract
 -------------------------
 
+```
 Public Function add_contact_to_contract(ByVal contract_id As String, _
                                         ByVal f_name As String, _
                                         ByVal l_name As String, _
                                         ByVal phone_num As String, _
                                         ByVal site_id As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API adds a contact to an existing contract. You must specify the contract ID and the site id.
 
@@ -21,32 +23,27 @@ This API adds a contact to an existing contract. You must specify the contract I
 | phone_num | Yes | Phone number of contact to be added |
 | site_id | Yes | Site where contact to be added is located |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | No Contract Id Specified |
+| -2 | No Contact Information Specified |
+| -3 | No Site Id Specified |
+| -4 | Specified Contract Not Found |
+| -5 | Specified site is not related to this contract |
+| -6 | Specified Contact Not Found |
+| ret_objid | Output - Returns the objid of the contact |
 
-0                                              No errors
-
--1                                             No Contract Id Specified
-
--2                                             No Contact Information Specified
-
--3                                             No Site Id Specified
-
--4                                             Specified Contract Not Found
-
--5                                             Specified site is not related to this contract
-
--6                                             Specified Contact Not Found |
-| ret_objid | Output | Returns the objid of the contact
-
-**Examples**
+#### Examples
 
  Add John Smith at (512)123-4567 from site "2" to contract "AMD 1"
 
 **Visual Basic:**
 
 Dim ret_int       As Integer
+```
 
 Dim contact_objid As Long
 

@@ -1,13 +1,15 @@
 create_update_wipbin
 ----------------------
 
+```
 Public Function create_update_wipbin(ByVal title As String, _
                                      ByVal new_title As String, _
                                      ByVal description As String, _
                                      ByVal user_name As String,_
                                      ByVal def_bin As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API either creates or updates a WIPBIN. For a new wipbin, you must specify a title. The description is optional, as is the user name. You must specify if this WIPBIN will be the default wipbin, or not.
 
@@ -23,26 +25,24 @@ For updates, you must specify the title of the WIPBIN. You may change the name o
 | user_name | No | User name of the user for whom the WIPBIN is created/updated. If blank, the current user is used |
 | def_bin | Yes | Is this the default WIPBIN? |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
-
-0                                              No errors
-
--1                                             No title provided
-
--2                                             The specified user name is not found
-
--3                                             The new title for the WIPBIN is already a WIPBIN title for the current user |
-| ret_objid | Output | Returns the objid of the wipbin
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | No title provided |
+| -2 | The specified user name is not found |
+| -3 | The new title for the WIPBIN is already a WIPBIN title for the current user |
+| ret_objid | Output - Returns the objid of the wipbin |
 
 **Examples**
 
- Create a new WIPBIN with a name of "Important" and a description. Create it for "Gary", and make it the default WIPBIN.
+Create a new WIPBIN with a name of "Important" and a description. Create it for "Gary", and make it the default WIPBIN.
 
 **Visual Basic:**
 
 Dim ret_int      As Integer
+```
 
 Dim wipbin_objid As Long
 
@@ -68,6 +68,7 @@ var ret_int = fcinter.create_update_wipbin("Important", "",
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 ret_int = fcinter.create_update_wipbin("Important", "Important Issues", _
             "CLEAR", "", false)

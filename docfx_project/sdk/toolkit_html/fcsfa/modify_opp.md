@@ -4,6 +4,7 @@ modify_opp
 modify_opp_list
 -----------------
 
+```
 Public Function modify_opp(ByVal opp_id As String, _
                            ByVal opp_name As String, _
                            ByVal acct_id As String, _
@@ -30,10 +31,10 @@ Public Function modify_opp(ByVal opp_id As String, _
                            ByVal str_val2 As String, _
                            ByVal date_fld1 As String, _
                            ByVal date_val1 As String) As Integer
+```
 
-Public Function modify_opp_list(
-
-                           ByVal opp_id As String, _
+```
+Public Function modify_opp_list( ByVal opp_id As String, _
                            ByVal opp_name As String, _
                            ByVal acct_id As String, _
                            ByVal con_first As String, _
@@ -52,8 +53,9 @@ Public Function modify_opp_list(
                            Optional fld_list As Variant, _
                            Optional type_list As Variant, _
                            Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to modify opportunities. The opportunity ID must be specified. All other data is optional. The opportunity name, account, contact, territory, stage, source, currency, and process may be specified. You may generate time bombs for business rules, or not. Also, an amount and a probability may be specified.
 
@@ -83,35 +85,24 @@ Most of the data items can be left with their current values. To not change an i
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | The specified opportunity was not found |
+| -2 | The supplied account ID could not be found |
+| -3 | The specified contact could not be found |
+| -4 | The specified territory could not be found |
+| -5 | The specified lead source could not be found |
+| -6 | The currency specified is not valid |
+| -7 | The specified process/life cycle could not be located |
+| -8 | The specified user cannot be found |
+| -9 | The supplied close date is not a valid date |
+| -10 | The probability supplied is not numeric or is not between 0 and 1 |
+| -11 | Cannot find the Modify Opp activity string |
 
-0                                              No errors
-
--1                                             The specified opportunity was not found
-
--2                                             The supplied account ID could not be found
-
--3                                             The specified contact could not be found
-
--4                                             The specified territory could not be found
-
--5                                             The specified lead source could not be found
-
--6                                             The currency specified is not valid
-
--7                                             The specified process/life cycle could not be located
-
--8                                             The specified user cannot be found
-
--9                                             The supplied close date is not a valid date
-
--10                                           The probability supplied is not numeric or is not between 0 and 1
-
--11                                           Cannot find the Modify Opp activity string
-
-**Examples**
+#### Examples
 
  Modify opportunity 33. Specify an account, clear the contact, and leave all other data alone. Generate time bombs. Also, specify a new string field.
 
@@ -128,6 +119,7 @@ Most of the data items can be left with their current values. To not change an i
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 Dim opp_id     As String
 
@@ -160,6 +152,7 @@ val_list.AppendItem("Data value");
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 Dim fld_list   As New FCList
 
@@ -186,16 +179,22 @@ move_opportunity
 move_quote
 ----------
 
+```
 Public Function move_action_item(ByVal the_id As String, _
                                  ByVal new_wipbin As String) As Integer
+```
 
+```
 Public Function move_opportunity(ByVal the_id As String, _
                                  ByVal new_wipbin As String) As Integer
+```
 
+```
 Public Function move_quote(ByVal the_id As String, _
                            ByVal new_wipbin As String) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs cause the specified action item, opportunity, or quote to be moved from one WIPBin to another WIPBin. The new WIPBin must belong to the same user as the first WIPBin. The move operation does not change the ownership of the object, nor is an activity log or time bomb generated for the action.
 
@@ -208,21 +207,17 @@ These APIs cause the specified action item, opportunity, or quote to be moved fr
 | the_id | Yes | The object to move |
 | new_wipbin | Yes | The WIPBin to move the object to. If left blank, the object is moved to the |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified object |
+| -2 | Object is already closed |
+| -3 | New WIPBIN doesn't exist, or isn't for the owner |
+| -4 | New WIPBIN is same as old - no move needed |
 
-0                                              No errors
-
--1                                             Cannot find the specified object
-
--2                                             Object is already closed
-
--3                                             New WIPBIN doesn't exist, or isn't for the owner
-
--4                                             New WIPBIN is same as old - no move needed
-
-**Examples**
+#### Examples
 
  Move action item number '154' to the default WIPBin for the current owner.
 

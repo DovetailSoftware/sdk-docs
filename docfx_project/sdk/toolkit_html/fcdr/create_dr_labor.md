@@ -1,6 +1,7 @@
 _create_dr_labor_
 -------------------
 
+```
 Public Function create_dr_labor(ByVal demand_dtl_objid As Long, _
                           ByVal labor_type As String, _
                           ByVal start_time As String, _
@@ -11,8 +12,9 @@ Public Function create_dr_labor(ByVal demand_dtl_objid As Long, _
                           ByVal tl_rate As Double, _
                           ByVal perf_by As String, _
                           ByVal creation_time As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows labor performed to be logged against a depot repair part.
 
@@ -31,30 +33,23 @@ This API allows labor performed to be logged against a depot repair part.
 | perf_by | No | Indicates the technician who performed the labor. Will default to the current Clarify user if not supplied. |
 | creation_time | No | Indicates the time this action is logged. Will default to the current time if a different time is not supplied. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Specified Start Time is not a valid date/time value |
+| -2 | Specified Duration in seconds is not more than zero |
+| -3 | Specified Labor Type is not in database |
+| -4 | Specified Bill To Labor is not in database |
+| -5 | Specified Work Center is not in database |
+| -6 | Specified User is not in database |
+| -7 | Related Part Request record is not in database |
+| ret_objid | Output - Returns the objid of the newly created time log record |
 
-0                                              No errors
+#### Examples
 
--1                                             Specified Start Time is not a valid date/time value
-
--2                                             Specified Duration in seconds is not more than zero
-
--3                                             Specified Labor Type is not in database
-
--4                                             Specified Bill To Labor is not in database
-
--5                                             Specified Work Center is not in database
-
--6                                             Specified User is not in database
-
--7                                             Related Part Request record is not in database |
-| ret_objid | Output | Returns the objid of the newly created time log record
-
-**Examples**
-
- Create a billable labor segment against Part Repair 268435465. The default labor type was used, it started at 1:00 pm on September 9th, 1998, and lasted 10 minutes (600 seconds). All other defaults are used.
+Create a billable labor segment against Part Repair 268435465. The default labor type was used, it started at 1:00 pm on September 9th, 1998, and lasted 10 minutes (600 seconds). All other defaults are used.
 
 **JavaScript:**
 

@@ -1,6 +1,7 @@
 _modify_eco_dtl_
 ------------------
 
+```
 Public Function modify_eco_dtl(ByVal eco_dtl_objid As Long, _
                          ByVal detail_type As String, _
                          ByVal required As Long, _
@@ -11,8 +12,9 @@ Public Function modify_eco_dtl(ByVal eco_dtl_objid As Long, _
                          ByVal description As String, _
                          ByVal eco_hdr_code As String, _
                          ByVal mod_level_objid As Long) As Integer
+```
 
-**Description**
+#### Description
 
 This API modifies an existing ECO detail object.
 
@@ -31,29 +33,22 @@ This API modifies an existing ECO detail object.
 | eco_hdr_code | No | Use to reassign detail to another ECO header, or use "" to ignore. |
 | mod_level_objid | No | The part in "Material" details can be changed, or use 0 to ignore. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Invalid Detail Type Specified |
+| -2 | Invalid Value for Detail Required Field |
+| -3 | Specified ECO Status is not in database |
+| -4 | Specified Labor Type is not in database |
+| -5 | Specified ECO Detail is not in database |
+| -6 | Specified ECO Header is not in database |
+| -7 | Specified Mod Level  is not in database |
 
-0                                              No errors
+#### Examples
 
--1                                             Invalid Detail Type Specified
-
--2                                             Invalid Value for Detail Required Field
-
--3                                             Specified ECO Status is not in database
-
--4                                             Specified Labor Type is not in database
-
--5                                             Specified ECO Detail is not in database
-
--6                                             Specified ECO Header is not in database
-
--7                                             Specified Mod Level  is not in database
-
-**Examples**
-
- Modify a "Labor" ECO detail to change the status to expired.
+Modify a "Labor" ECO detail to change the status to expired.
 
 **JavaScript:**
 

@@ -1,13 +1,15 @@
 dispatch_cr
 -----------
 
+```
 Public Function dispatch_cr(ByVal cr_id As String, _
     ByVal queue_name As String, _
                             ByVal disp_date As String, _
     ByVal user_name As String, _
                             ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified change request to be dispatched to the specified queue. The change request must not be currently dispatched to a queue. The API allows for the setting of the dispatch date, and the user who dispatched the change request. The APIs can also generate a time bomb (for business rule notification).
 
@@ -23,27 +25,20 @@ This API causes the specified change request to be dispatched to the specified q
 
 **Returns**
 
-**Value**                          **Meaning**
-
-0                                              No errors
-
--1                                             Cannot find the specified change request
-
--2                                             The change request is already dispatched
-
--3                                             The change request is closed and may not be dispatched
-
--4                                             The specified user cannot be found
-
--5                                             The specified new queue name cannot be found
-
--6                                             Cannot find gbst_elm rank 900 for string DISPATCH
-
--7                                             Not allowed to dispatch a CR to the specified queue
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified change request |
+| -2 | The change request is already dispatched |
+| -3 | The change request is closed and may not be dispatched |
+| -4 | The specified user cannot be found |
+| -5 | The specified new queue name cannot be found |
+| -6 | Cannot find gbst_elm rank 900 for string DISPATCH |
+| -7 | Not allowed to dispatch a CR to the specified queue |
 
 **Examples**
 
- Dispatch change request number '10' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
+Dispatch change request number '10' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 
 **Visual Basic:**
 

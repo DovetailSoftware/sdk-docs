@@ -1,14 +1,16 @@
 _create_eco_item_
 -------------------
 
+```
 Public Function create_eco_item( _
                          ByVal focus_type As Long, _
                          ByVal active As Long, _
                          ByVal eco_hdr_code As String, _
                          ByVal apply_mod_level As Long, _
                          ByVal result_mod_level As Long) As Integer
+```
 
-**Description**
+#### Description
 
 This API is used to create new ECO items. It requires that a valid ECO Header be specified. The objid of the ECO item created is returned in the object property _ret_objid_  (FCDR.ret_objid).
 
@@ -22,28 +24,22 @@ This API is used to create new ECO items. It requires that a valid ECO Header be
 | apply_mod_level | Yes | Objid of part and revision affected by the ECO. |
 | result_mod_level | Yes | Objid of resulting part and revision following implementation of the ECO. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Invalid Focus Type Specified |
+| -2 | Invalid Value for Active Indicator |
+| -3 | Specified ECO Header is not in database |
+| -4 | Specified Apply-to Mod Level is not in database |
+| -5 | Specified Results-in Mod Level is not in database |
+| -6 | Specified Role Name and Apply-to Mod Level already in database |
+| ret_objid | Output - Returns the objid of the newly created ECO Item |
 
-0                                              No errors
+#### Examples
 
--1                                             Invalid Focus Type Specified
-
--2                                             Invalid Value for Active Indicator
-
--3                                             Specified ECO Header is not in database
-
--4                                             Specified Apply-to Mod Level is not in database
-
--5                                             Specified Results-in Mod Level is not in database
-
--6                                             Specified Role Name and Apply-to Mod Level already in database |
-| ret_objid | Output | Returns the objid of the newly created ECO Item
-
-**Examples**
-
- Create a new ECO item. It will relate to ECO Header "8", be active, and change part 268435464 to part 268435465.
+Create a new ECO item. It will relate to ECO Header "8", be active, and change part 268435464 to part 268435465.
 
 **JavaScript:**
 

@@ -4,6 +4,7 @@ create_soln
 create_soln_list
 ------------------
 
+```
 Public Function create_soln(ByVal the_title As String, _
                             ByVal description As String, _
                             ByVal workaround As String, _
@@ -19,7 +20,9 @@ Public Function create_soln(ByVal the_title As String, _
                             ByVal str_fld2 As String, ByVal str_val2 As String, _
                             ByVal date_fld1 As String, _
                             ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_soln_list(ByVal the_title As String, _
                                  ByVal description As String, _
                                  ByVal workaround As String, _
@@ -32,8 +35,9 @@ Public Function create_soln_list(ByVal the_title As String, _
                                  Optional fld_list As Variant, _
                                  Optional type_list As Variant, _
                                  Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs create a solution record (and one workaround). You may supply the title and description for the solution. The workaround, public indicator, and resolution code are used for the one workaround that is created. You may optionally dispatch the solution. If a queue name is specified, the solution is dispatched to that queue. Otherwise it is left in the default WIPBIN of the owner.
 
@@ -58,33 +62,28 @@ You may specify a creation date, and the user who created the solution. You may 
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified user |
+| -2 | Cannot find the activity string for CREATE rank equal to 600 |
+| -3 | Cannot find the specified resolution code |
+| -4 | Cannot find the activity string for DISPATCH rank equal to 900 |
+| -5 | Could not find the specified queue name |
+| -6 | Cannot find the specified user's employee record for relating time bomb |
+| ret_objid | Output - Returns the objid of the new solution record |
+| ret_objid2 | Output - Returns the objid of the new work-around record |
 
-0                                              No errors
+#### Examples
 
--1                                             Cannot find the specified user
-
--2                                             Cannot find the activity string for CREATE rank equal to 600
-
--3                                             Cannot find the specified resolution code
-
--4                                             Cannot find the activity string for DISPATCH rank equal to 900
-
--5                                             Could not find the specified queue name
-
--6                                             Cannot find the specified user's employee record for relating time bomb |
-| ret_objid | Output | Returns the objid of the new solution record |
-| ret_objid2 | Output | Returns the objid of the new work-around record
-
-**Examples**
-
- Create a new solution with title, description, workaround (public, with default res code). Dispatch the solution to the "High" queue. Generate time bombs, and the create was made by Joe on November 11, 1998 at 11:00 AM.
+Create a new solution with title, description, workaround (public, with default res code). Dispatch the solution to the "High" queue. Generate time bombs, and the create was made by Joe on November 11, 1998 at 11:00 AM.
 
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 Dim soln_objid As Long
 
@@ -100,15 +99,14 @@ ret_int = fcinter.create_soln("The Solution","There is a problem", _
       soln_objid = fcinter.ret_objid
 
       work_objid = fcinter.ret_objid2
-
-   End If
-
+ End If
+ 
 **Javascript:**
 
 var ret_int = fcinter.create_soln("The Solution","There is a problem",
-
-                              "No current workaround", true, "", "High",
-
+| 
+ | "No current workaround", true, "", "High",
+ |
                               "11/11/1998 11:00:00", "joe", true ,"", 0,
 
                               "", 0, "", "", "", "", "", "");

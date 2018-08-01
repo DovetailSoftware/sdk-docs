@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public SetNullStringsToEmpty  As Boolean
+```
 
-**Description**
+#### Description
 
 This property tells the generic object if it should set a string variable (that contains NULL) to the empty string ("") when it is read (touched).  In other words, in a web environment, you might wish to look at/access a value from a record in an FCGeneric object. In these web environments, you don't want (usually) to have to deal with NULL values - they're messy.
 

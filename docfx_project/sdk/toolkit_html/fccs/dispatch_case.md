@@ -1,13 +1,15 @@
 dispatch_case
 -------------
 
+```
 Public Function dispatch_case(ByVal case_id As String, _
                               ByVal queue_name As String, _
                               ByVal disp_date As String, _
                               ByVal user_name As String, _
                               ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified case to be dispatched to the specified queue. The case must be in open condition, and not currently dispatched to a queue. The API allows for the setting of the dispatch date, and the user who dispatched the case. The API can also generate a time bomb (for business rule notification).
 
@@ -21,29 +23,21 @@ This API causes the specified case to be dispatched to the specified queue. The 
 | user_name | No | The user who dispatched the case. If left blank, the current user performs the dispatch. |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified case |
+| -2 | The case is already dispatched |
+| -3 | The case is closed and may not be dispatched |
+| -4 | The specified user cannot be found |
+| -5 | The specified new queue name cannot be found |
+| -6 | The DISPATCH activity string is not found |
+| -7 | The specified queue does not allow dispatches of cases |
+| -8 | Cannot find the employee record for the designated user |
 
-0                                              No errors
-
--1                                             Cannot find the specified case
-
--2                                             The case is already dispatched
-
--3                                             The case is closed and may not be dispatched
-
--4                                             The specified user cannot be found
-
--5                                             The specified new queue name cannot be found
-
--6                                             The DISPATCH activity string is not found
-
--7                                             The specified queue does not allow dispatches of cases
-
--8                                             Cannot find the employee record for the designated user
-
-**Examples**
+#### Examples
 
  Dispatch case number 'C154' to queue 'Hardware'. The dispatch is performed by the current user and is dispatched at the current time. Generate a time bomb.
 

@@ -1,5 +1,5 @@
 _ConvertFromServerToLocalTZ_
-----------------------------
+-------------------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function ConvertFromServerToLocalTZ(ByVal TheDate As Date) As Date
+```
 
-**Description**
+#### Description
 
 This property converts a date/time value from the server time zone to the local time zone. The local time zone is the time zone of the FCSession (FCSession.LocalTimeZone), and the server time zone is the server time zone of the FCApplication (FCApplication.ServerTimeZone). It uses the time_zone table date to determine offsets from GMT, and it uses the daylight_hr table to determine if the timestamp is on daylight savings time (DST) in either time zone.
 
@@ -27,11 +29,11 @@ A date/time value converted from the local time zone to the server time zone.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 11008 | Invalid Date/Time. |
 
-11008                                      Invalid Date/Time.
-
-**Example**
+#### Examples
 
 The following example converts a timestamp from the server time zone to the local time zone.
 

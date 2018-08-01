@@ -4,6 +4,7 @@ create_update_part
 create_update_part_list
 -------------------------
 
+```
 Public Function create_update_part(ByVal part_num As String, _
                                    ByVal domain As String, _
                                    ByVal notes As String, ByVal desc As String, _
@@ -28,7 +29,9 @@ Public Function create_update_part(ByVal part_num As String, _
                                    ByVal str_val2 As String, _
                                    ByVal date_fld1 As String, _
                                    ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_update_part_list(ByVal part_num As String, _
                                         ByVal domain As String, _
                                         ByVal notes As String, _
@@ -46,11 +49,11 @@ Public Function create_update_part_list(ByVal part_num As String, _
                                         ByVal class As String, _
                                         Optional fld_list As Variant, _
                                         Optional type_list As Variant,
-
-                                        Optional val_list As Variant), _
+										Optional val_list As Variant), _
                                         As Integer
+```
 
-**Description**
+#### Description
 
 These APIs either create or update a part number in the database. The part number and domain must be specified. Also, the start on ship (or install) flag and warr_days must be specified. All of the other arguments are optional. For inserts, if the values are not specified (for code lists such as family and line), the default list values are used. For updates, leaving an argument blank causes the old value to be retained. If you wish (on an update) to blank a field's value, use the alternate fields (str_fld1 etc.) to assign them.
 
@@ -81,32 +84,27 @@ These APIs either create or update a part number in the database. The part numbe
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Warranty days is negative (for inserts only) |
+| -2 | Invalid repair type |
+| -3 | Could not find the specified part domain |
+| -4 | Invalid part type specified |
+| -5 | Invalid family/line specified |
+| -6 | Invalid part class specified |
+| ret_objid | Output - Returns the objid of the part |
 
-0                                              No errors
+#### Examples
 
--1                                             Warranty days is negative (for inserts only)
-
--2                                             Invalid repair type
-
--3                                             Could not find the specified part domain
-
--4                                             Invalid part type specified
-
--5                                             Invalid family/line specified
-
--6                                             Invalid part class specified |
-| ret_objid | Output | Returns the objid of the part
-
-**Examples**
-
- Add a new part 'Attachments Anywhere' in domain 'Product' to the system. Set the family and line to 'Software', 'Workflow Series', and some other values, including  30 warranty days that start from shipment.
+Add a new part 'Attachments Anywhere' in domain 'Product' to the system. Set the family and line to 'Software', 'Workflow Series', and some other values, including  30 warranty days that start from shipment.
 
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 Dim part_objid As Long
 
@@ -124,25 +122,23 @@ ret_int = fcinter.create_update_part("Attachments Anywhere", _
  If ret_int = 0 Then
 
       part_objid = fcinter.ret_objid
-
-   End If
-
+|  | End If |
 **Javascript:**
 
 var ret_int = fcinter.create_update_part("Attachments Anywhere",
-
-                                     "Product", "Some notes",
-
-                                     "A good product description", "Model 42",
-
-                                     30, true, "Each", "Software",
-
-                                     "Workflow Series",
-
+| 
+ | "Product", "Some notes",
+| 
+ | "A good product description", "Model 42",
+| 
+ | 30, true, "Each", "Software",
+ |
+                                     "Workflow Series", |
+ |
                                      "Expendable", "Software", "2.3",
-
-                                     "2x2x3", "", "", 0,
-
+| 
+ | "2x2x3", "", "", 0,
+ |
                                      "", 0, "", "", "", "","","");
 
  if (ret_int == 0){ var part_objid = fcinter.ret_objid; }

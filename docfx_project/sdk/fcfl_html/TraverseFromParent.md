@@ -1,5 +1,5 @@
 _TraverseFromParent_
---------------------
+-----------------
 
 **Object and Type**
 
@@ -9,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub TraverseFromParent(ByVal the_parent As FCGeneric, _
-
                               ByVal trav_rel As String)
+```
 
-**Description**
+#### Description
 
 This method sets up the parent/child relationship between two generic objects. It is exactly the same as setting the ParentRelation and ParentBO properties, but is easier.
 
@@ -38,13 +39,11 @@ You should not call on TraverseFromParent more than once in a row (or use the Pa
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12024 | Two TraverseFromParent calls were made on this generic without first calling on the UnTraverse method. |
 
-12024                                      Two TraverseFromParent calls were made on this generic without first calling
-
-on the UnTraverse method.
-
-**Example**
+#### Examples
 
 The following example queries case objects, and a related contact and site objects.
 

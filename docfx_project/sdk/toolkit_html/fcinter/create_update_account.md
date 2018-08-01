@@ -4,6 +4,7 @@ create_update_account
 create_update_account_list
 ----------------------------
 
+```
 Public Function create_update_account(ByVal acct_name As String, _
                                       ByVal desc As String, _
                                       ByVal territory As String, _
@@ -30,7 +31,9 @@ Public Function create_update_account(ByVal acct_name As String, _
                                       ByVal str_val2 As String, _
                                       ByVal date_fld1 As String, _
                                       ByVal date_val1 As String As Integer
+```
 
+```
 Public Function create_update_account_list(ByVal acct_name As String, _
                                            ByVal desc As String, _
                                            ByVal territory As String, _
@@ -51,8 +54,9 @@ Public Function create_update_account_list(ByVal acct_name As String, _
                                            Optional type_list As Variant, _
                                            Optional val_list As Variant) _
                                            As Integer
+```
 
-**Description**
+#### Description
 
 These APIs create or update accounts (business orgs). An existing account can be updated by setting the _acct_id_ field. When updating an existing account, setting an argument (for example, fiscal_yr) will cause the field to be updated. To leave the current value in the field, leave the argument blank (""). To clear the value in an argument, use the string "CLEAR".
 
@@ -84,38 +88,30 @@ To create a new account, leave the account field blank. A variety of fields in t
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Specified User Not Found |
+| -2 | Specified Territory Not Found |
+| -3 | Specified Account Type Not Found |
+| -4 | Specified Account Size Not Found |
+| -5 | Specified Account Revenue Not Found |
+| -6 | Specified Account Ownership Not Found |
+| -7 | Cannot find the activity string for "Create" rank equal to 600 |
+| -8 | Cannot find the specified user's employee record for relating time bomb |
+| -9 | Cannot find the specified account to update |
+| ret_objid | Output - Returns the objid of the account
 
-0 No errors
-
--1                                             Specified User Not Found
-
--2                                             Specified Territory Not Found
-
--3                                             Specified Account Type Not Found
-
--4                                             Specified Account Size Not Found
-
--5                                             Specified Account Revenue Not Found
-
--6                                             Specified Account Ownership Not Found
-
--7                                             Cannot find the activity string for "Create" rank equal to 600
-
--8                                             Cannot find the specified user's employee record for relating time bomb
-
--9                                             Cannot find the specified account to update |
-| ret_objid | Output | Returns the objid of the account
-
-**Examples**
+#### Examples
 
  Create a new account with a name, description, stock symbol, and year. Put it in the default territory (The World), and set the code lists to interesting values. Set a phone and fax number, and a URL. Have it created by the default user, and set no extra fields.
 
 **Visual Basic:**
 
 Dim ret_int         As Integer
+```
 
 Dim account_objid   As Long
 
@@ -160,6 +156,7 @@ var ret_int = fcinter.create_update_account("New account",
 **Visual Basic:**
 
 Dim ret_int       As Integer
+```
 
 Dim account_objid As Long
 
@@ -212,6 +209,7 @@ var ret_int = fcinter.create_update_account_list("New account",
 **Visual Basic:**
 
 Dim ret_int   As Integer
+```
 
 Dim acct_id   As String
 

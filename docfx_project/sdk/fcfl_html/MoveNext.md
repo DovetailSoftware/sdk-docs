@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub MoveNext()
+```
 
-**Description**
+#### Description
 
 This method sets the current record for the generic object to the next object in the recordset. The order of the records is determined by the database query used to build the generic object's recordset, or the order in which AddNew method calls were made.
 

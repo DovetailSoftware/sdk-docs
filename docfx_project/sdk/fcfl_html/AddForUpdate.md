@@ -8,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub AddForUpdate(TheObjid As Long)
+```
 
-**Description**
+#### Description
 
 This method is used when you know the objid of a database record, and wish to update it, but do not wish to take the time to query it from the database. Calling this method will add a new record (for updating) to the recordset, and will set the objid field to the specified parameter.
 
@@ -26,11 +28,11 @@ You can then change any fields, or set any relations, just like any other record
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12031 | This operation is not valid for a generic that is marked distinct |
 
-12031                                      This operation is not valid for a generic that is marked distinct
-
-**Example**
+#### Examples
 
 The following example creates a new record in the recordset for the case table for update. It then updates the alt_city field.
 

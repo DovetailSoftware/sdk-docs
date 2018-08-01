@@ -1,12 +1,14 @@
 assign_pr
 ---------
 
+```
 Public Function assign_pr(ByVal pr_id As String, _
                           ByVal new_user As String, ByVal wipbin_name As String, _
                           ByVal assign_date As String, ByVal user_name As String, _
                           ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified part request to be assigned to a new user. The part request must not be in closed condition, and the user assigning the part request does not have to be the owner. In base Clarify, the assigner of a part request must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the part request in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
@@ -21,27 +23,21 @@ This API causes the specified part request to be assigned to a new user. The par
 | user_name | No | The user who assigned the part request. If left blank, the current user performs the assign |
 | gen_time_bombs | Yes | Should a time_bomb be generated |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified part request |
+| -2 | The specified part request is currently closed |
+| -3 | Specified user (to assign to) is not found |
+| -4 | The specified WIPBIN is not valid for the user |
+| -5 | Specified user (who performed the assign) is not found |
+| -6 | Could not find gbst_elm string for ASSIGN with rank 10500 |
 
-0                                              No errors
+#### Examples
 
--1                                             Cannot find the specified part request
-
--2                                             The specified part request is currently closed
-
--3                                             Specified user (to assign to) is not found
-
--4                                             The specified WIPBIN is not valid for the user
-
--5                                             Specified user (who performed the assign) is not found
-
--6                                             Could not find gbst_elm string for ASSIGN with rank 10500
-
-**Examples**
-
- Assign part request number '154-1' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
+Assign part request number '154-1' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
 **Visual Basic:**
 

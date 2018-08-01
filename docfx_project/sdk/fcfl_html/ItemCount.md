@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function ItemCount(path_str As String, separator As String) As Integer
+```
 
-**Description**
+#### Description
 
 Returns an Integer containing the number of items in the specified delimited text. This provides the same functionality as the ClearBasic ItemCount function.
 

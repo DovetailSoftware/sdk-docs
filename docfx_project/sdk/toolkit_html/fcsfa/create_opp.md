@@ -4,6 +4,7 @@ create_opp
 create_opp_list
 -----------------
 
+```
 Public Function create_opp(ByVal opp_name As String, _
                            ByVal acct_id As String, _
                            ByVal con_first As String, _
@@ -30,7 +31,9 @@ Public Function create_opp(ByVal opp_name As String, _
                            ByVal str_val2 As String, _
                            ByVal date_fld1 As String, _
                            ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_opp_list(ByVal opp_name As String, _
                                 ByVal acct_id As String, _
                                 ByVal con_first As String, _
@@ -50,8 +53,9 @@ Public Function create_opp_list(ByVal opp_name As String, _
                                 Optional fld_list As Variant, _
                                 Optional type_list As Variant, _
                                 Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create opportunities. The opportunity name must be specified. All other data is optional. The account, contact, territory, stage, source, currency, and process may be specified. You may generate time bombs for business rules, or not. Also, an amount and a probability may be specified.
 
@@ -82,41 +86,27 @@ The ID of the newly-created opportunity will be returned in _fcsfa.ret_id_num_. 
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | No opportunity name was supplied |
+| -2 | The supplied account ID could not be found |
+| -3 | The specified contact could not be found |
+| -4 | The specified territory could not be found |
+| -5 | The specified lead source could not be found |
+| -6 | The sales stage supplied is not valid |
+| -7 | The currency specified is not valid |
+| -8 | The specified process/life cycle could not be located |
+| -9 | The probability supplied is not numeric or is not between 0 and 1 |
+| -10 | Cannot find the specified user |
+| -11 | The specified cycle stage is not valid |
+| -12 | Cannot find the Create opportunity activity string |
+| -13 | Cannot find the Won activity string |
+| -14 | Cannot find the Lost activity string |
 
-0                                              No errors
-
--1                                             No opportunity name was supplied
-
--2                                             The supplied account ID could not be found
-
--3                                             The specified contact could not be found
-
--4                                             The specified territory could not be found
-
--5                                             The specified lead source could not be found
-
--6                                             The sales stage supplied is not valid
-
--7                                             The currency specified is not valid
-
--8                                             The specified process/life cycle could not be located
-
--9                                             The probability supplied is not numeric or is not between 0 and 1
-
--10                                           Cannot find the specified user
-
--11                                           The specified cycle stage is not valid
-
--12                                           Cannot find the Create opportunity activity string
-
--13                                           Cannot find the Won activity string
-
--14                                           Cannot find the Lost activity string
-
-**Examples**
+#### Examples
 
  Create a new opportunity. Specify an account, a contact, a territory, an amount (123.33), a close date, the stage, the source, the currency, a probability of .5, a process of 'default'. Use the current user name and time. Generate time bombs. Also, specify a new string field.
 
@@ -135,6 +125,7 @@ The ID of the newly-created opportunity will be returned in _fcsfa.ret_id_num_. 
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 Dim opp_id     As String
 
@@ -170,6 +161,7 @@ val_list.AppendItem("foobar");
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 Dim fld_list   As New FCList
 

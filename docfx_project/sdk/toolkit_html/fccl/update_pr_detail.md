@@ -4,6 +4,7 @@ update_pr_detail
 update_pr_detail_list
 -----------------------
 
+```
 Public Function update_pr_detail(ByVal dtl_num As String, _
                         ByVal part_num As String, ByVal domain_name As String, _
                         ByVal mod_level As String, ByVal serial_no As String, _
@@ -17,7 +18,9 @@ Public Function update_pr_detail(ByVal dtl_num As String, _
                         ByVal str_val1 As String, ByVal str_fld2 As String, _
                         ByVal str_val2 As String, ByVal date_fld1 As String, _
                         ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function update_pr_detail_list(ByVal dtl_num As String, _
                         ByVal part_num As String, ByVal domain_name As String, _
                         ByVal mod_level As String, ByVal serial_no As String, _
@@ -28,8 +31,9 @@ Public Function update_pr_detail_list(ByVal dtl_num As String, _
                         ByVal status_str As String, Optional fld_list As Variant, _
                         Optional type_list As Variant, Optional val_list As Variant) _
                         As Integer
+```
 
-**Description**
+#### Description
 
 These APIs allow for the updating of part request details. You must supply the detail number, and any other attributes you wish to update. If an attribute is left blank, the API will not update the value. If you modify the part/mod_level for the part request, or the site_part, you must supply either a valid site_part record, or you must supply the part_num, mod_leve, **AND** domain. You may optionally specify the serial_no field if it is a site_part (serialized).
 
@@ -54,39 +58,30 @@ These APIs allow for the updating of part request details. You must supply the d
 | int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
 | int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No Errors |
+| -1 | Specified quantity must be >= 0 |
+| -2 | Cannot find the specified detail |
+| -3 | The specified detail type is not found |
+| -4 | The specified detail priority is not found |
+| -5 | The specified detail ship_via is not found |
+| -6 | The specified detail carrier is not found |
+| -7 | The specified status was not found for RQST Open |
+| -8 | Cannot find the specified part_num/domain/revision |
+| -9 | Cannot find the specified serial number for the part/revision |
+| -10 | The site_part record does not have a related part revision |
 
-0                                              No Errors
+#### Examples
 
--1                                             Specified quantity must be >= 0
-
--2                                             Cannot find the specified detail
-
--3                                             The specified detail type is not found
-
--4                                             The specified detail priority is not found
-
--5                                             The specified detail ship_via is not found
-
--6                                             The specified detail carrier is not found
-
--7                                             The specified status was not found for RQST Open
-
--8                                             Cannot find the specified part_num/domain/revision
-
--9                                             Cannot find the specified serial number for the part/revision
-
--10                                           The site_part record does not have a related part revision
-
-**Examples**
-
- Update part request '3-3'. Change the part to 'MS Word, revision 7.0' (no site_part). Change the ship_via, and one extra field.
+Update part request '3-3'. Change the part to 'MS Word, revision 7.0' (no site_part). Change the ship_via, and one extra field.
 
 **Visual Basic:**
 
 Dim ret_int  As Integer
+```
 
 Dim sp_objid As Long
 
@@ -109,6 +104,7 @@ var ret_int = fccl.update_pr_detail("3-3", "MS Word", "Product", "7.0", "",
 **Visual Basic:**
 
 Dim ret_int  As Integer
+```
 
 Dim sp_objid As Long
 

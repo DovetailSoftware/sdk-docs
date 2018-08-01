@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public QuerySQL As String
+```
 
-**Description**
+#### Description
 
 This property simply contains the SQL statement that FCFL used to query the generic. When FCFL queries a generic object, the SQL string used for the query is placed into this string property. The primary purpose of this property is for debugging as new code is written.
 

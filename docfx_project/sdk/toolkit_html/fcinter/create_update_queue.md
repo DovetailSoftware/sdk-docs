@@ -1,6 +1,7 @@
 create_update_queue
 ---------------------
 
+```
 Public Function create_update_queue(ByVal title As String, _
                                     ByVal personal As Boolean, _
                                     ByVal description As String, _
@@ -16,8 +17,9 @@ Public Function create_update_queue(ByVal title As String, _
                                     ByVal allow_task As Integer, _
                                     ByVal supervisor As String, _
                                     ByVal new_title As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API either creates or updates a queue in the database.  If the supplied queue title is not found in the database, the API will create a new queue. If the title is found in the database, an update will occur. The user can mark if it is a personal or shared queue, a description, and can decide which objects can be dispatched to the queue. Finally, the user who is the supervisor must be specified.
 
@@ -38,23 +40,20 @@ For updates, a new title can be specified. An updated description can be provide
 **Returns**
 
 **Value**                          **Meaning**
+| 0 | No errors |
+| -1 | The supplied queue name is not found |
+| -2 | Cannot find the user name supplied |
+| -3 | The new title is already used for another queue |
+| ret_objid | Output - Returns the objid of the queue |
 
-0                                              No errors
+#### Examples
 
--1                                             The supplied queue name is not found
-
--2                                             Cannot find the user name supplied
-
--3                                             The new title is already used for another queue |
-| ret_objid | Output | Returns the objid of the queue
-
-**Examples**
-
- Create a new shared queue "Urgent" with all objects allowed. Assume the current user is the supervisor.
+Create a new shared queue "Urgent" with all objects allowed. Assume the current user is the supervisor.
 
 **Visual Basic:**
 
 Dim ret_int     As Integer
+```
 
 Dim queue_objid As Long
 
@@ -64,9 +63,7 @@ ret_int = fcinter.create_update_queue("Urgent", false, "A new queue", _
  If ret_int = 0 Then
 
       queue_objid = fcinter.ret_objid
-
-   End If
-
+|  | End If |
 **Javascript:**
 
 var ret_int = fcinter.create_update_queue("Urgent", false, "A new queue",
@@ -80,6 +77,7 @@ var ret_int = fcinter.create_update_queue("Urgent", false, "A new queue",
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 ret_int = fcinter.create_update_queue("Urgent", false, "CLEAR", _
                                       -1, -1, -1, -1, 0, -1, -1, -1,_
@@ -88,7 +86,7 @@ ret_int = fcinter.create_update_queue("Urgent", false, "CLEAR", _
 **Javascript:**
 
 var ret_int = fcinter.create_update_queue("Urgent", false, "CLEAR",
-
-                                      -1, -1, -1, -1, 0, -1, -1, -1,
-
+| 
+ | -1, -1, -1, -1, 0, -1, -1, -1,
+ |
                                       -1, -1, "", "Really Urgent");

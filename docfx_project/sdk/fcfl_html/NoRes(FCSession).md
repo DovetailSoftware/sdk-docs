@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public NoRes As Boolean
+```
 
-**Description**
+#### Description
 
 This property tells the session if all generic objects in that session should ignore data restriction, or not. Whatever value is set in this property (which is False initially) is passed to each generic when that generic is created.
 

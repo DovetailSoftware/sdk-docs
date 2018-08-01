@@ -1,7 +1,5 @@
 ## ret_num
 
----
-
 **Prototype**
 
 Public ret_num As Integer

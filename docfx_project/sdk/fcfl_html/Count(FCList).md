@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Count    As Integer
+```
 
-**Description**
+#### Description
 
 This property tells you how many items are stored in the list.  This is a read only property.  On new, cleared and empty lists, this property is 0.
 

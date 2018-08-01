@@ -4,6 +4,7 @@ log_subcase_commit
 log_subcase_commit_list
 -------------------------
 
+```
 Public Function log_subcase_commit(ByVal subcase_id As String, _
                 ByVal the_title As String, ByVal action_type As String, _
                 ByVal log_date As String, ByVal commit_date As String, _
@@ -18,7 +19,9 @@ Public Function log_subcase_commit(ByVal subcase_id As String, _
                 ByVal str_val1 As String, ByVal str_fld2 As String, _
                 ByVal str_val2 As String, ByVal date_fld1 As String, _
                 ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function log_subcase_commit_list(ByVal subcase_id As String, _
                     ByVal the_title As String, ByVal action_type As String, _
                     ByVal log_date As String, ByVal commit_date As String, _
@@ -30,8 +33,9 @@ Public Function log_subcase_commit_list(ByVal subcase_id As String, _
                     Optional fld_list As Variant, _
                     Optional type_list As Variant, _
                     Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create a commitment against a subcase. The APIs allow for the assigning of a title and action type. The date the commitment is logged can be set, as well as the commitment date, and prior warning. A flag can be set so that the commitment can be made to or by a contact, and the contact can be set. The user who logs the commitment can be set, and additional fields can also be set. Finally, a time bomb (for the commitment) can be generated, as can the email reminders. This last item has been added for consistency with Clarify. Base Clarify sends two email commitments each time a commitment is logged. The first notifies the owner when the commitment expires, and the second notifies the owner when the prior warning (if any) expires. These can only be email commitments, but the delivery mechanism can be modified by changing the _com_tmplte_ record. See Clarify for more details. These APIs allow the programmer to turn off those extra notifications, if desired. The objid of the log created is returned.
 
@@ -61,37 +65,24 @@ The objid of the created log is returned in the FCCS object variable _ret_objid_
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | No title specified |
+| -2 | Prior warning is negative (warning after the commitment expires) |
+| -3 | The commitment date is before the log date |
+| -4 | Cannot find the specified subcase |
+| -5 | Specified user is not found |
+| -6 | Could not find gbst_elm string for COMMIT |
+| -7 | Could not find the specified log action type |
+| -8 | Could not find the specified contact |
+| -9 | Could not find the com_tmplte for WARNING |
+| -10 | Could not find the com_tmplte for COMMITMENT |
+| -11 | Cannot find the employee record for the specified user |
 
-0                                              No errors
-
--1                                             No title specified
-
--2                                             Prior warning is negative (warning after the
-
-commitment expires)
-
--3                                             The commitment date is before the log date
-
--4                                             Cannot find the specified subcase
-
--5                                             Specified user is not found
-
--6                                             Could not find gbst_elm string for COMMIT
-
--7                                             Could not find the specified log action type
-
--8                                             Could not find the specified contact
-
--9                                             Could not find the com_tmplte for WARNING
-
--10                                           Could not find the com_tmplte for COMMITMENT
-
--11                                           Cannot find the employee record for the specified user
-
-**Examples**
+#### Examples
 
  Create a log for subcase number 'C154-1'. Set a title and use the default action code, log date, and user. Make the commitment to "Bill Clinton", and make the commitment expire on the default (log) date. Make no prior warning, have no notes, and set no additional fields. Generate a time bomb, and the commitement emails.
 
@@ -108,6 +99,7 @@ var ret_int = fccs.log_subcase_commit("C154-1", "A title", "", "", "",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.log_subcase_commit("C154-1", "A title", "", "", "", 0, True, _
           "Bill", "Clinton", "555-555-1234", "", "", True, True, _
@@ -126,6 +118,7 @@ var ret_int = fccs.log_subcase_commit_list("C154-1", "A title", "", "",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 ret_int = fccs.log_subcase_commit_list("C154-1", "A title", "", "", "", 0, _
           True, "Bill", "Clinton", "555-555-1234", "", "", True, True)
@@ -151,6 +144,7 @@ var ret_int = fccs.log_subcase_commit("2-2", "A title", "External Commitment",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.log_subcase_commit("2-2", "A title", "External Commitment", _
           "11/23/97 22:00:00", "1/1/99", 7200, False, _
@@ -204,6 +198,7 @@ var ret_int = fccs.log_subcase_commit_list("2-2", "A title",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 Dim fld_list    As New FCList
 

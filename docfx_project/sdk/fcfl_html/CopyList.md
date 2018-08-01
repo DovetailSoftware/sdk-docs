@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function CopyList() As FCList
+```
 
-**Description**
+#### Description
 
 This method makes a copy of the current list, and returns a pointer to the copy.
 

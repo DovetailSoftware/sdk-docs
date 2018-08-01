@@ -4,34 +4,38 @@ log_cr_note
 log_cr_note_list
 ------------------
 
+```
 Public Function log_cr_note(ByVal cr_id As String, _
                             ByVal notes As String, _
-          ByVal int_use As String, _
-          ByVal log_date As String, _
-          ByVal user_name As String, _
-          ByVal gen_time_bombs As Boolean, _
-          ByVal int_fld1 As String, _
-          ByVal int_val1 As Long, _
-          ByVal int_fld2 As String, _
-          ByVal int_val2 As Long, _
+                            ByVal int_use As String, _
+                            ByVal log_date As String, _
+                            ByVal user_name As String, _
+                            ByVal gen_time_bombs As Boolean, _
+                            ByVal int_fld1 As String, _
+                            ByVal int_val1 As Long, _
+                            ByVal int_fld2 As String, _
+                            ByVal int_val2 As Long, _
                             ByVal str_fld1 As String, _
                             ByVal str_val1 As String, _
                             ByVal str_fld2 As String, _
                             ByVal str_val2 As String, _
                             ByVal date_fld1 As String, _
                             ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function log_cr_note_list(ByVal cr_id As String, _
                                  ByVal notes As String, _
                                  ByVal int_use As String, _
                                  ByVal log_date As String, _
                                  ByVal user_name As String, _
                                  ByVal gen_time_bombs As Boolean, _
-         Optional fld_list As Variant, _
+                                 Optional fld_list As Variant, _
                                  Optional val_list As Variant, _
-         Optional type_list As Variant) As Integer
+                                 Optional type_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create a note log against a CR. The APIs allow for the assigning of notes and internal use only text. The date the note is logged can be set, as well as the user who logs the note. Additional fields on the log_cr_note can also be set as well as a time bomb (for the note log), which allows notifications to be generated based on the event.
 
@@ -51,30 +55,27 @@ These APIs are used to create a note log against a CR. The APIs allow for the as
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
-
-0                                              No errors; sets objid of new notes_log object in ret_objid (Long) global variable
-
--1                                             Cannot find the specified CR
-
--2                                             Cannot find the specified user
-
--3                                             Cannot find gbst_elm rank 1700 for string NOTES
-
--4                                             Cannot find the specified user's employee record for relating time bomb |
-| ret_objid | Output | Returns the objid of the note
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors; sets objid of new notes_log object in ret_objid (Long) global variable |
+| -1 | Cannot find the specified CR |
+| -2 | Cannot find the specified user |
+| -3 | Cannot find gbst_elm rank 1700 for string NOTES |
+| -4 | Cannot find the specified user's employee record for relating time bomb |
+| ret_objid | Output - Returns the objid of the note |
 
 **Examples**
 
- Create a note log for CR number '2'. Set the notes for the log, and indicate that it's internal use only. Have the note logged by marty on November 23, 1997 at 10PM. Don't generate a time bomb (for business rule notification).  The second field version illustrates how to set additional fields.
+Create a note log for CR number '2'. Set the notes for the log, and indicate that it's internal use only. Have the note logged by marty on November 23, 1997 at 10PM. Don't generate a time bomb (for business rule notification).  The second field version illustrates how to set additional fields.
 
 **Field version 1:**
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
+  
+   Dim ret_int   As Integer
+```
 
 Dim log_objid As Long
 
@@ -83,17 +84,17 @@ ret_int = fccq.log_cr_note("2", "Some notes", "Internal text", _
       "", 0, "", 0, "", "", "", "", "", "")
 
  If ret_int = 0 Then
+  
+   log_objid = fccq.ret_objid
 
-      log_objid = fccq.ret_objid
-
-   End If
-
+   End If  
+  
 **JavaScript:**
 
 var ret_int = fccq.log_cr_note("2", "Some notes", "Internal text",
-
-      "11/23/97 22:00:00", "marty", false,
-
+  
+   "11/23/97 22:00:00", "marty", false,
+  
       "", 0, "", 0, "", "", "", "", "", "");
 
  if (ret_int == 0) { var log_objid = fccq.ret_objid; }
@@ -101,8 +102,9 @@ var ret_int = fccq.log_cr_note("2", "Some notes", "Internal text",
 **Field version 2:**
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
+  
+   Dim ret_int   As Integer
+```
 
 Dim log_objid As Long
 
@@ -113,21 +115,21 @@ ret_int = fccq.log_cr_note("2", "Some notes", "Internal text", _
       "x_other_date", "1/1/99")
 
  If ret_int = 0 Then
+  
+   log_objid = fccq.ret_objid
 
-      log_objid = fccq.ret_objid
-
-   End If
-
+   End If  
+  
 **JavaScript:**
 
 var ret_int = fccq.log_cr_note("2", "Some notes", "Internal text",
+  
+   "11/23/97 22:00:00", "marty", false,
+  
+   "x_close_int1", 1, "x_close_int2", 456,
 
-      "11/23/97 22:00:00", "marty", false,
-
-                           "x_close_int1", 1, "x_close_int2", 456,
-
-                           "x_summary2", "More text", "", "",
-
+                           "x_summary2", "More text", "", "",  
+  
       "x_other_date", "1/1/99");
 
  if (ret_int == 0) { var log_objid = fccq.ret_objid; }
@@ -139,6 +141,7 @@ var ret_int = fccq.log_cr_note("2", "Some notes", "Internal text",
 Dim log_objid As Long
 
 Dim ret_int   As Integer
+```
 
 Dim fld_list  As New FCFLCompat.FCList
 
@@ -176,11 +179,11 @@ ret_int = fccq.log_cr_note_list("2", "Some notes", _
             fld_list, type_list, val_list)
 
  If ret_int = 0 Then
-
-      log_objid = fccq.ret_objid
-
-   End If
-
+  
+   log_objid = fccq.ret_objid
+  
+   End If  
+  
 **JavaScript:**
 
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
@@ -214,11 +217,11 @@ type_list.AppendItem("Date");
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccq.log_cr_note_list("2", "Some notes",
-
-                                "Internal text",
-
-           "11/23/97 22:00:00", "marty", False,
-
+  
+   "Internal text",
+  
+   "11/23/97 22:00:00", "marty", False,  
+  
             fld_list, type_list, val_list);
 
  if (ret_int == 0) { var log_objid = fccq.ret_objid; }

@@ -1,7 +1,5 @@
 ## FCFL API Toolkit for ClearContracts
 
----
-
 **Overview**
 
 Many customers have wanted the ability to customize the Clarify environment easily by adding base Clarify functions (such as contract and quote creation, closure, modification, or support programs) into web applications.

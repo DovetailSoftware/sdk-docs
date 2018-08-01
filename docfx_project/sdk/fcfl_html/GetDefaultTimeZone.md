@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetDefaultTimeZone() As String
+``` 
 
-**Description**
+#### Description
 
 This method returns the full_name of the default time zone. The default time zone is defined by the is_default flag on the time_zone table. The time_zone table is cached in the FCApplication object, so this method does not cause a database round-trip.
 

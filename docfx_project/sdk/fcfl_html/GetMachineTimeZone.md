@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Property Get GetMachineTimeZone() As String
+```
 
-**Description**
+#### Description
 
 This method returns a string indicating the time zone of the machine running the First Choice Foundation Library. This method uses a Win32 API call to retrieve the time zone. This may not exactly coordinate with a time zone in the Clarify database time_zone table.
 

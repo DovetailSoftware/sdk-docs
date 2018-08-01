@@ -1,7 +1,7 @@
-  
-
 **modify_dr_mtl**
+---
 
+```
 Public Function modify_dr_mtl(ByVal mtl_log_objid As Long, _
                          ByVal repair_code As String, _
                          ByVal failure_code As String, _
@@ -15,8 +15,9 @@ Public Function modify_dr_mtl(ByVal mtl_log_objid As Long, _
                          ByVal transaction_id As String, _
                          ByVal perf_by As String, _
                          ByVal creation_time As String) As Integer
+```
 
-**Description**
+#### Description
 
 Theis API allows modification of material that is logged against a depot repair part.
 
@@ -38,31 +39,23 @@ Theis API allows modification of material that is logged against a depot repair 
 | perf_by | No | Indicates the technician who performed the labor. |
 | creation_time | No | Indicates the time this action is logged. Will default to the current time if a different time is not supplied. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Specified Repair Code is not in database |
+| -2 | Specified Bill To Material is not in database |
+| -3 | Specified Work Center is not in database |
+| -4 | Specified Material Log record is not in database |
+| -5 | Related Onsite Log record is not in database |
+| -6 | Related Demand Detail record is not in database |
+| -7 | Specified User is not in database |
+| -8 | nable to find Standard Cost for part revision |
 
-0                                              No errors
+#### Examples
 
--1                                             Specified Repair Code is not in database                      
-
--2                                             Specified Bill To Material is not in database                  
-
--3                                             Specified Work Center is not in database                        
-
--4                                             Specified Material Log record is not in database               
-
--5                                             Related Onsite Log record is not in database                   
-
--6                                             Related Demand Detail record is not in database                
-
--7                                             Specified User is not in database                              
-
--8                                             nable to find Standard Cost for part revision
-
-**Examples**
-
- Change material applied in mtl_log 268435465. The job was done by user "db" in the Lab, billable to the customer. No other changes are being made at this time.
+Change material applied in mtl_log 268435465. The job was done by user "db" in the Lab, billable to the customer. No other changes are being made at this time.
 
 **JavaScript:**
 

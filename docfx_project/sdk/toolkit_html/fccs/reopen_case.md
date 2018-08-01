@@ -1,12 +1,14 @@
 reopen_case
 -----------
 
+```
 Public Function reopen_case(ByVal case_id As String, _
                 ByVal wipbin_name As String, ByVal status_str As String, _
                 ByVal reopen_date As String, ByVal user_name As String, _
                 ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified case to be reopened. The date/time of the reopen, the person performing the reopen, the WIPBIN to place the case in, and the new status of the case are specified. The person who reopens the case becomes the new owner. The WIPBin to place the case in may also be specified. If it is not, the case is placed in the user's default WIPBIN. This is augmented function from base Clarify, where the case is always placed in the default WIPBin. The status field is also augmented function. If the status is not specified, the case is placed in the default status for the Open condition. The API can also generate a time bomb (for business rule notification).
 
@@ -21,27 +23,20 @@ This API causes the specified case to be reopened. The date/time of the reopen, 
 | user_name | No | The user who reopened the case. If left blank, the current user performs the reopen |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified case |
+| -2 | The case is not closed |
+| -3 | Cannot find the specified user |
+| -4 | Cannot find the specified WIPBIN |
+| -5 | Cannot find the REOPEN activity string |
+| -6 | Cannot find the specified status |
+| -7 | Cannot find the employee record for the specified user |
 
-0                                              No errors
-
--1                                             Cannot find the specified case
-
--2                                             The case is not closed
-
--3                                             Cannot find the specified user
-
--4                                             Cannot find the specified WIPBIN
-
--5                                             Cannot find the REOPEN activity string
-
--6                                             Cannot find the specified status
-
--7                                             Cannot find the employee record for the specified user
-
-**Examples**
+#### Examples
 
  Reopen case number 'C154' by the current user at the current date/time. Place in the default WIPBin with the default status, and generate a time bomb.
 

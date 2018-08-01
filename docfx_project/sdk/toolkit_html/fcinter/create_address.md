@@ -4,10 +4,11 @@ create_address
 create_address_list
 ---------------------
 
+```
 Public Function create_address(ByVal addr1 As String, _
                                ByVal addr2 As String, _
                                ByVal city As String, _
- ByVal state As String, _
+                               ByVal state As String, _
                                ByVal short_state As Boolean, _
                                ByVal zip As String, _
                                ByVal country As String, _
@@ -22,7 +23,9 @@ Public Function create_address(ByVal addr1 As String, _
                                ByVal str_val2 As String, _
                                ByVal date_fld1 As String, _
                                ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_address_list(ByVal addr1 As String, _
                                     ByVal addr2 As String, _
                                     ByVal city As String, _
@@ -34,8 +37,9 @@ Public Function create_address_list(ByVal addr1 As String, _
                                     Optional fld_list As Variant, _
                                     Optional type_list As Variant, _
                                     Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs create new addresses in the database. You must specify one of the two address lines, the city, state, country, and time zone.
 
@@ -57,38 +61,30 @@ These APIs create new addresses in the database. You must specify one of the two
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 1 | No errors |
+| -1 | Either address or address2 must have data |
+| -2 | City must be specified |
+| -3 | State must be specified |
+| -4 | Zipcode must be specified |
+| -5 | Country must be specified |
+| -6 | Time zone must be specified |
+| -7 | The specified country is not found |
+| -8 | The specified state is not found for the country |
+| -9 | The specified time zone is not found for the country |
+| ret_objid | Output - Returns the objid of the new address |
 
-1 No errors
-
--1                                             Either address or address2 must have data
-
--2                                             City must be specified
-
--3                                             State must be specified
-
--4                                             Zipcode must be specified
-
--5                                             Country must be specified
-
--6                                             Time zone must be specified
-
--7                                             The specified country is not found
-
--8                                             The specified state is not found for the country
-
--9                                             The specified time zone is not found for the country |
-| ret_objid | Output | Returns the objid of the new address
-
-**Examples**
+#### Examples
 
  Create an address.
 
 **Visual Basic:**
 
 Dim ret_int        As Integer
+```
 
 Dim address_objid  As Long
 

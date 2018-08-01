@@ -4,35 +4,38 @@ fix_cr
 fix_cr_list
 -------------
 
+```
 Public Function fix_cr(ByVal cr_id As String, _
                        ByVal the_status As String, _
                        ByVal notes As String, _
                        ByVal user_name As String, _
                        ByVal fix_date As String, _
                        ByVal gen_time_bombs As Boolean, _
-           ByVal int_fld1 As String, _
-           ByVal int_val1 As Long, _
-           ByVal int_fld2 As String, _
-           ByVal int_val2 As Long, _           
-
-                       ByVal str_fld1 As String, _
+                       ByVal int_fld1 As String, _
+                       ByVal int_val1 As Long, _
+                       ByVal int_fld2 As String, _
+                       ByVal int_val2 As Long, _           
+                       ByVal str_fld1 As String, _
                        ByVal str_val1 As String, _
                        ByVal str_fld2 As String, _
                        ByVal str_val2 As String, _
                        ByVal date_fld1 As String, _
                        ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function fix_cr_list(ByVal cr_id As String, _
-    ByVal the_status As String, _
-    ByVal notes As String, _
+                            ByVal the_status As String, _
+                            ByVal notes As String, _
                             ByVal user_name As String, _
                             ByVal fix_date As String, _
                             ByVal gen_time_bombs As Boolean, _
                             Optional fld_list As Variant, _
-    Optional type_list As Variant, _
+                            Optional type_list As Variant, _
                             Optional val_list As Variant) As Integer
-
-**Description**
+```
+  
+#### Description
 
 These APIs change the condition of a CR to "Fixed", even if it was already closed. The status specified must be defined in the fixed condition per Clarify's Policies and Customers. You may specify notes about the fix, and the user and date/time of the fix. A time bomb may be generated (for business rule notification), and additional fields (on the fix_bug record) may be specified.
 
@@ -52,63 +55,53 @@ These APIs change the condition of a CR to "Fixed", even if it was already close
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors; sets objid of new fix_bug object in ret_objid (Long) global variable |
+| -1 | Cannot find the specified change request |
+| -2 | The CR is currently dispatched |
+| -3 | Cannot find the specified user |
+| -4 | Cannot find gbst_elm rank 5100 for string CHG STS:FIXED |
+| -5 | Cannot find the new status |
+| -6 | Status transition not defined in Policies and Customers |
+| -7 | Status transition not allowed for specified user |
+| -15 | Privclass not found for specified user |
+| -16 | Old status not found for old condition |
+| -17 | New status not found for new condition |
+| -18 | Cannot find the specified user's employee record for relating time bomb |
+| ret_objid | Output - Returns the objid of the fixed cr |
 
-0                                              No errors; sets objid of new fix_bug object in ret_objid (Long) global variable
+#### Examples
 
--1                                             Cannot find the specified change request
-
--2                                             The CR is currently dispatched
-
--3                                             Cannot find the specified user
-
--4                                             Cannot find gbst_elm rank 5100 for string CHG STS:FIXED
-
--5                                             Cannot find the new status
-
--6                                             Status transition not defined in Policies and Customers
-
--7                                             Status transition not allowed for specified user
-
--15                                           Privclass not found for specified user
-
--16                                           Old status not found for old condition
-
--17                                           New status not found for new condition
-
--18                                           Cannot find the specified user's employee record for relating time bomb |
-| ret_objid | Output | Returns the objid of the fixed cr
-
-**Examples**
-
- Fix CR '2' using the default status and some notes. Gary performed the fix at 8AM on March 29, 1999. Generate a time bomb.  The second field version illustrates how to set additional fields.
+Fix CR '2' using the default status and some notes. Gary performed the fix at 8AM on March 29, 1999. Generate a time bomb.  The second field version illustrates how to set additional fields.
 
 **Field version 1:**
 
 **Visual Basic:**
 
 Dim ret_int     As Integer
-
-   Dim fix_objid   As Long
+```
+  
+   Dim fix_objid   As Long
 
 ret_int = fccq.fix_cr("2", "", "Notes about fix", "gary", _
        "3/29/99 08:00:00", True, "", 0, "", 0, _
        "", "", "", "", "", "")
 
  If ret_int = 0 Then
+  
+   fix_objid = fccq.ret_objid
 
-      fix_objid = fccq.ret_objid
-
-   End If
-
+   End If  
+  
 **JavaScript**
 
 var int = fccq.fix_cr("2", "", "Notes about fix", "gary",
-
-       "3/29/99 08:00:00", tue, "", 0, "", 0,
-
+  
+   "3/29/99 08:00:00", tue, "", 0, "", 0,
+  
        "", "", "", "", "", "");
 
  if (ret_int == 0) { var fix_objid = fccq.ret_objid; }
@@ -118,8 +111,9 @@ var int = fccq.fix_cr("2", "", "Notes about fix", "gary",
 **Visual Basic:**
 
 Dim ret_int     As Integer
-
-   Dim fix_objid   As Long
+```
+  
+   Dim fix_objid   As Long
 
 ret_int = fccq.fix_cr("2", "", "Notes about fix", "gary", _
        "3/29/99 08:00:00", True, "x_fix_1", 1, _
@@ -128,21 +122,21 @@ ret_int = fccq.fix_cr("2", "", "Notes about fix", "gary", _
        "x_other_Date", "1/1/99")
 
  If ret_int = 0 Then
+  
+   fix_objid = fccq.ret_objid
 
-      fix_objid = fccq.ret_objid
-
-   End If
-
+   End If  
+  
 **JavaScript**
 
 var ret_int = fccq.fix_cr("2", "", "Notes about fix", "gary",
+  
+   "3/29/99 08:00:00", true, "x_fix_1", 1,
+  
+   "x_fix_2", 2,
 
-       "3/29/99 08:00:00", true, "x_fix_1", 1,
-
-       "x_fix_2", 2,
-
-       "x_summary2", "More text", "", "",
-
+       "x_summary2", "More text", "", "",  
+  
        "x_other_Date", "1/1/99");
 
  if (ret_int == 0) { var fix_objid = fccq.ret_objid; }
@@ -150,10 +144,11 @@ var ret_int = fccq.fix_cr("2", "", "Notes about fix", "gary",
 **List version:**
 
 **Visual Basic:**
-
-   Dim fix_objid   As Long
-
-   Dim ret_int     As Integer
+  
+   Dim fix_objid   As Long
+  
+   Dim ret_int     As Integer
+```
 
 Dim fld_list    As New FCFLCompat.FCList
 
@@ -163,8 +158,8 @@ Dim val_list    As New FCFLCompat.FCList
 
 fld_list.AppendItem "x_fix_int1"
 
-type_list.AppendItem "Long"
-
+type_list.AppendItem "Long"  
+  
 val_list.AppendItem Trim(Str$(1))
 
 fld_list.AppendItem "x_fix_int2"
@@ -190,11 +185,11 @@ ret_int = fccq.fix_cr_list("2", "", "Notes about fix", "gary", _
                            type_list, val_list)
 
  If ret_int = 0 Then
-
-      fix_objid = fccq.ret_objid
-
-   End If
-
+  
+   fix_objid = fccq.ret_objid
+  
+   End If  
+  
 **JavaScript**:
 
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
@@ -228,9 +223,7 @@ type_list.AppendItem("Date");
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccq.fix_cr_list("2", "", "Notes about fix", "gary",
-
-            "3/29/99 08:00:00", true, fld_list,
-
-                           type_list, val_list)
-
+  
+   "3/29/99 08:00:00", true, fld_list, type_list, val_list)  
+  
  if (ret_int == 0) { var fix_objid = fccq.ret_objid; }

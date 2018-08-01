@@ -1,7 +1,7 @@
 create_price_inst
 -------------------
 
-create_price_inst _list
+create_price_inst_list
 -------------------------
 
 CreatePriceInst
@@ -10,6 +10,7 @@ CreatePriceInst
 CreatePriceInstList
 -------------------
 
+```
 Public Function create_price_inst(ByVal part_num As String, _
                 ByVal mod_level As String, ByVal domain As String, _
                 ByVal support_prog As String, ByVal price_prog As String, _
@@ -21,7 +22,9 @@ Public Function create_price_inst(ByVal part_num As String, _
                 ByVal str_val1 As String, ByVal str_fld2 As String, _
                 ByVal str_val2 As String, ByVal date_fld1 As String, _
                 ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_price_inst_list(ByVal part_num As String, _
              ByVal mod_level As String, ByVal domain As String, _
              ByVal support_prog As String, ByVal price_prog As String, _
@@ -29,8 +32,9 @@ Public Function create_price_inst_list(ByVal part_num As String, _
              ByVal price As Double, ByVal eff_date As String, _
              ByVal exp_date As String, Optional fld_list As Variant, _
              Optional type_list As Variant, Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create new price instances for support programs. They require a valid support program, price schedule, price type and price quantity. Everything else is optional. You may specify the part for product based support programs, or leave it blank when creating price instances for either site or independent support programs.  If you do specify a part, you must include its domain and revision (mod level).
 
@@ -94,6 +98,7 @@ var ret_int = fc_cc.create_price_inst( "Kudzu", "2000", "Software Part", _
 **Visual Basic:**
 
    Dim ret_int         As Integer
+```
 
    Dim objid           As Long
 
@@ -145,6 +150,7 @@ ret_int = fc_cc.create_price_inst_list("Kudzu", "2000", "Software Part", _
  **Visual Basic:**
 
    Dim ret_int         As Integer
+```
 
    Dim objid           As Long
 

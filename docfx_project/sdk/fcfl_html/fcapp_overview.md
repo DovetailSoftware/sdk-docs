@@ -1,7 +1,5 @@
 ### FCFL FCApplication Object
 
----
-
 **Overview**
 
 The FCApplication object represents an application that will connect to a Clarify database. When you create an FCApplication object, the necessary DLLs to support the First Choice Foundation Library are loaded into memory.

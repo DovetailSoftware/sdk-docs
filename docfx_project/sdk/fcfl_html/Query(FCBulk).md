@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Query()
+```
 
-**Description**
+#### Description
 
 This method causes each generic in the bulk to query the database (based on the DBObjectName, the Filter, the SortFields, and the DataFields you have set for this object) to retrieve records. The query retrieves 0 or more rows for each, and places them in the recordset for each generic object.
 

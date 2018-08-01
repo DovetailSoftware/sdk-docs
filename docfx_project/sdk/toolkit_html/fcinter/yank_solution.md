@@ -1,13 +1,15 @@
 yank_solution
 -------------
 
+```
 Public Function yank_solution(ByVal solution_id As String, _
                               ByVal wipbin As String, _
                               ByVal yank_date As String, _
                               ByVal user_name As String, _
                               ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified solution to be yanked and placed in a specific WIPBin. The person perfoming the yank (the new owner) and the time of the yank can be specified. Also, the API allows for time bombs (for business rules) to be created, or not.
 
@@ -21,23 +23,18 @@ This API causes the specified solution to be yanked and placed in a specific WIP
 | user_name | No | Who performed the yank? If left blank, current user is used |
 | gen_time_bombs | Yes | Should a time bomb record be created for business rule notification? |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No Errors |
+| -1 | Cannot find the specified solution |
+| -2 | The solution is already closed |
+| -3 | Cannot find the specified user |
+| -4 | Cannot find the specified WIPBIN |
+| -5 | Cannot find the activity string for "Yank" rank equal to 4100 |
 
-0                                              No Errors
-
--1                                             Cannot find the specified solution
-
--2                                             The solution is already closed
-
--3                                             Cannot find the specified user
-
--4                                             Cannot find the specified WIPBIN
-
--5                                             Cannot find the activity string for "Yank" rank equal to 4100
-
-**Examples**
+#### Examples
 
  Yank solution number '14' to WIPBin 'Hardware'.  The yank occurs on August 1, 1998, and is performed by Marty. Generate a time bomb.
 

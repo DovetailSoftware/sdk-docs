@@ -4,6 +4,7 @@ make_pr_detail
 make_pr_detail_list
 ---------------------
 
+```
 Public Function make_pr_detail(ByVal hdr_num As String, _
                              ByVal queue_name As String, ByVal part_num As String, _
                              ByVal domain_name As String, ByVal mod_level As String, _
@@ -13,15 +14,17 @@ Public Function make_pr_detail(ByVal hdr_num As String, _
                              ByVal ship_via As String, ByVal carrier_name As String, _
                              ByVal user_name As String, ByVal warranty As Integer, _
                              ByVal note_str As String, ByVal status_str As String, _
-  ByVal create_date As String, ByVal due_date As String, _
-                              ByVal gen_time_bombs As Boolean, _
+  							 ByVal create_date As String, ByVal due_date As String, _
+                             ByVal gen_time_bombs As Boolean, _
                              ByVal contr_itm_objid As Long, _
                              ByVal int_fld1 As String, ByVal int_val1 As Long, _
                              ByVal int_fld2 As String, ByVal int_val2 As Long, _
                              ByVal str_fld1 As String, ByVal str_val1 As String, _
                              ByVal str_fld2 As String, ByVal str_val2 As String, _
                              ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function make_pr_detail_list(ByVal hdr_num As String, _
                              ByVal queue_name As String, ByVal part_num As String, _
                              ByVal domain_name As String, ByVal mod_level As String, _
@@ -30,14 +33,15 @@ Public Function make_pr_detail_list(ByVal hdr_num As String, _
                              ByVal dtl_type As String, ByVal priority_str As String, _
                              ByVal ship_via As String, ByVal carrier_name As String, _
                              ByVal user_name As String, ByVal warranty As Integer, _
-  ByVal note_str As String, _
+  							 ByVal note_str As String, _
                              ByVal status_str As String, ByVal create_date As String, _
                              ByVal due_date As String, ByVal gen_time_bombs As Boolean, _
                              ByVal contr_itm_objid As Long, Optional fld_list As Variant, _
                              Optional type_list As Variant, Optional val_list As Variant) _
                              As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create new part request details. The part request header must be specified. So must a part or site_part. There are two mechanisms for achieving this. If the site_part record is already known, it can be passed in the sp_rec variable. If not, the part_num, mod_level, and domain define the part. If it is a site_part (serialized), the serial_num may also be specified. But a part/revision or a site_part MUST be specified.
 
@@ -77,69 +81,47 @@ You may specify a number of values such as the billing site (defaults to the mai
 | int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
 | int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | No request header ID was supplied. |
+| -2 | The specified request header ID was not found. |
+| -3 | The specified request header is already closed. |
+| -4 | The specified user was not found. |
+| -5 | The specified mod_level record was not found. |
+| -6 | The specified site_part record was not found. |
+| -7 | The specified queue was not found. |
+| -8 | The specified detail type was not found. |
+| -9 | The specified priority was not found. |
+| -10 | The specified "ship via" value was not found. |
+| -11 | The specified carrier was not found. |
+| -12 | The default status for RQST_OPEN was not found. |
+| -13 | Cannot find activity code for "Create Part Request" with rank of 9900 |
+| -14 | Cannot find activity code for "Dispatch" with rank of 900 |
+| -15 | The specified creation date is invalid. |
+| -16 | The specified due date is invalid. |
+| -17 | Unable to retrieve next detail sequence number for PR Header |
+| -18 | The employee record for the specified user cannot be found |
+| -19 | Specified user default wipbin not found |
+| -20 | Could not find the specified "Repair Status" |
+| -21 | Could not find the specified "Retair Type" |
+| -22 | Could not find the specified "Failure Code" |
+| -23 | The specified part number domain was not found. |
+| ret_id_num | Output - Returns the detail number of the newly created part request detail |
+| ret_objid | Output - Returns the objid of the newly created part request detail |
 
-0                                      No errors
+#### Examples
 
--1                                             No request header ID was supplied.               
-
--2                                             The specified request header ID was not found.   
-
--3                                             The specified request header is already closed.  
-
--4                                             The specified user was not found.                
-
--5                                             The specified mod_level record was not found.    
-
--6                                             The specified site_part record was not found.    
-
--7                                             The specified queue was not found.               
-
--8                                             The specified detail type was not found.         
-
--9                                             The specified priority was not found.            
-
--10                                           The specified "ship via" value was not found.    
-
--11                                           The specified carrier was not found.             
-
--12                                           The default status for RQST_OPEN was not found.  
-
--13                                           Cannot find activity code for "Create Part Request" with rank of 9900
-
--14                                           Cannot find activity code for "Dispatch" with rank of 900
-
--15                                           The specified creation date is invalid.          
-
--16                                           The specified due date is invalid.               
-
--17                                           Unable to retrieve next detail sequence number for PR Header
-
--18                                           The employee record for the specified user cannot be found
-
--19                                           Specified user default wipbin not found
-
--20                                           Could not find the specified "Repair Status"
-
--21                                           Could not find the specified "Retair Type"
-
--22                                           Could not find the specified "Failure Code"
-
--23                                           The specified part number domain was not found. |
-| ret_id_num | Output | Returns the detail number of the newly created part request detail |
-| ret_objid | Output | Returns the objid of the newly created part request detail
-
-**Examples**
-
- Create a new part request detail for PR header '1'. Make it 1 unit of "Attachments Anywhere, version 2.12"., with serial number 'A456'. Make it a "Return For Credit" type. Generate a time bomb. All other information is defaulted.
+Create a new part request detail for PR header '1'. Make it 1 unit of "Attachments Anywhere, version 2.12"., with serial number 'A456'. Make it a "Return For Credit" type. Generate a time bomb. All other information is defaulted.
 
 **Field version:**
 
 **Visual Basic:**
 
 Dim ret_int   As Integer
+```
 
 ret_int = fccl.make_pr_detail("1", "", "Attachments Anywhere", _
                            "2.12", "First Choice", "A456", 1, 0, "", _
@@ -167,6 +149,7 @@ var ret_int = fccl.make_pr_detail("1", "", "Attachments Anywhere",
 **Visual Basic:**
 
  Dim ret_int     As Integer
+```
 
 Dim fld_list    As New FCFLCompat.FCList
 
@@ -211,6 +194,7 @@ var ret_int = fccl.make_pr_detail_list("1", "", "Attachments Anywhere",
 **Visual Basic:**
 
 Dim ret_int   As Integer
+```
 
 ret_int = fccl.make_pr_detail("42", "Low", "Zipcode Reverse Directory", _
                             "1.00", "First Choice", "", 22, 0, "", _
@@ -241,6 +225,7 @@ var ret_int = fccl.make_pr_detail("42", "Low", "Zipcode Reverse Directory",
 **Visual Basic:**
 
  Dim ret_int     As Integer
+```
 
 Dim fld_list    As New List
 
@@ -284,6 +269,7 @@ var ret_int = fccl.make_pr_detail_list("42", "Low", "Zipcode Reverse Dir",
 **Visual Basic:**
 
 Dim ret_int   As Integer
+```
 
 Dim sp_objid  As Long
 
@@ -320,6 +306,7 @@ var ret_int = fccl.make_pr_detail("42", "Low", "Zipcode Reverse Directory",
 **Visual Basic:**
 
  Dim ret_int     As Integer
+```
 
 Dim fld_list    As New List
 

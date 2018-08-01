@@ -1,9 +1,11 @@
 delete_sp
 ---------
 
+```
 Public Function delete_sp(ByVal sp_objid As Long) As Integer
+```
 
-**Description**
+#### Description
 
 This API is used to delete a site_part in Clarify, and then unrelate the site_part from all other related records. Several Contracts customers have needed this function, so it was added.
 
@@ -13,17 +15,16 @@ This API is used to delete a site_part in Clarify, and then unrelate the site_pa
 |:--- |:--- |:--- |
 | sp_objid | Yes | Objid of the site_part |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Could not find the specified site_part |
 
-0                                              No errors
+#### Examples
 
--1                                             Could not find the specified site_part
-
-**Example**
-
- Delete a site_part with an objid of 268435457.
+Delete a site_part with an objid of 268435457.
 
    Dim ret_int As Integer
 

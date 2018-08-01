@@ -1,11 +1,13 @@
 modify_inv_bin
 ----------------
 
+```
 Public Function modify_inv_bin(ByVal old_name As String, _
                                ByVal new_name As String, ByVal loc_name As String, _
                                ByVal is_active As Boolean)
+```
 
-**Description**
+#### Description
 
 This API is used to modify the name or the active flag of an existing bin. You may not move the bin to another location with this API, only rename it at the existing location.
 
@@ -18,25 +20,20 @@ This API is used to modify the name or the active flag of an existing bin. You m
 | loc_name | Yes | Name of the inventory location where the bin is located |
 | is_active | Yes | Is the bin active (True) or inactive (False) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Missing old name parameter |
+| -2 | Missing new name parameter |
+| -3 | Missing location name parameter |
+| -4 | The specified location is not found |
+| -5 | The bin name already exists at that location |
 
-0                                              No errors
+#### Examples
 
--1                                             Missing old name parameter
-
--2                                             Missing new name parameter
-
--3                                             Missing location name parameter
-
--4                                             The specified location is not found
-
--5                                             The bin name already exists at that location
-
-**Examples**
-
- Rename "Bin 42" to "Bin 42a" in Austin.
+Rename "Bin 42" to "Bin 42a" in Austin.
 
 **Visual Basic:**
 

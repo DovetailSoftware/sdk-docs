@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub UpdateSchemaCache()
+```
 
-**Description**
+#### Description
 
 This method updates the schema cache files, as well as the in-memory schema data. By having this method available, you can update your schema data on-the-fly, without having to restart your application, or re-instantiate your FCApplication object.
 

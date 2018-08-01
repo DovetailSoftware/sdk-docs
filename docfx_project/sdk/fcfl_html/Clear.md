@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Clear()
+```
 
-**Description**
+#### Description
 
 This method clears out the data in a list and resets the list to a pristine condition.  The list's property _ItemType_ is reset and all data in the list is lost.
 

@@ -4,35 +4,38 @@ close_cr
 close_cr_list
 ---------------
 
+```
 Public Function close_cr(ByVal cr_id As String, _
- ByVal the_status As String, _
- ByVal notes As String, _
- ByVal test_case As String, _
- ByVal int_release As String, _
-                         ByVal user_name As String, _
-                         ByVal close_date As String, _
-                         ByVal gen_time_bombs As Boolean, _
- ByVal int_fld1 As String, ByVal int_val1 As Long, _
- ByVal int_fld2 As String, ByVal int_val2 As Long, _            
+                        ByVal the_status As String, _
+                        ByVal notes As String, _
+                        ByVal test_case As String, _
+                        ByVal int_release As String, _
+                        ByVal user_name As String, _
+                        ByVal close_date As String, _
+                        ByVal gen_time_bombs As Boolean, _
+                        ByVal int_fld1 As String, ByVal int_val1 As Long, _
+                        ByVal int_fld2 As String, ByVal int_val2 As Long, _
+                        ByVal str_fld1 As String, ByVal str_val1 As String, _
+                        ByVal str_fld2 As String, ByVal str_val2 As String, _
+                        ByVal date_fld1 As String, ByVal date_val1 As String) _
+                        As Integer
+```
 
-                         ByVal str_fld1 As String, ByVal str_val1 As String, _
-                         ByVal str_fld2 As String, ByVal str_val2 As String, _
-                         ByVal date_fld1 As String, ByVal date_val1 As String) _
-                         As Integer
-
+```
 Public Function close_cr_list(ByVal cr_id As String, _
-ByVal the_status As String, _
-ByVal notes As String, _
-ByVal test_case As String, _
-ByVal int_release As String, _
+                              ByVal the_status As String, _
+                              ByVal notes As String, _
+                              ByVal test_case As String, _
+                              ByVal int_release As String, _
                               ByVal user_name As String, _
                               ByVal close_date As String, _
                               ByVal gen_time_bombs As Boolean, _
-Optional fld_list As Variant, _
+                              Optional fld_list As Variant, _
                               Optional type_list As Variant, _
-Optional val_list As Variant) As Integer
-
-**Description**
+                              Optional val_list As Variant) As Integer
+```
+  
+#### Description
 
 These APIs are used to close a change request. The change request must be in a condition/status that allows the transition to the closed condition. The APIs allow for the assigning of a closed status, as well as notes, the test cases used to verify the close, and the release. The APIs allow you to specify a user who performed the close, as well as the date/time of closure. The APIs allow for additional fields to be written to the close_bug object.  The APIs can also generate a time bomb (for business rule notification).
 
@@ -54,46 +57,35 @@ These APIs are used to close a change request. The change request must be in a c
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
-
-0 No errors; sets objid of new close_bug object in the ret_objid (Long) global variable
-
--1                                             Cannot find the specified change request
-
--2                                             The specified change request is already closed
-
--3                                             The CR is currently dispatched
-
--4                                             The specified user is not found
-
--5                                             Cannot find gbst_elm rank 4800 for string CHG STS:CLOSED
-
--6                                             The specified status is not a valid status for condition 'CR Closed'
-
--7                                             Status transition not defined in Policies and Customers
-
--8                                             Status transition not allowed for specified user
-
--16                                           Privclass not found for specified user
-
--17                                           Old status not found for old condition
-
--18                                           New status not found for new condition
-
--19                                           Cannot find the specified user's employee record for relating time bomb |
-| ret_objid | Output | Returns the objid of the new change request
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors; sets objid of new close_bug object in the ret_objid (Long) global variable |
+| -1 | Cannot find the specified change request |
+| -2 | The specified change request is already closed |
+| -3 | The CR is currently dispatched |
+| -4 | The specified user is not found |
+| -5 | Cannot find gbst_elm rank 4800 for string CHG STS:CLOSED |
+| -6 | The specified status is not a valid status for condition 'CR Closed' |
+| -7 | Status transition not defined in Policies and Customers |
+| -8 | Status transition not allowed for specified user |
+| -16 | Privclass not found for specified user |
+| -17 | Old status not found for old condition |
+| -18 | New status not found for new condition |
+| -19 | Cannot find the specified user's employee record for relating time bomb |
+| ret_objid | Output - Returns the objid of the new change request |
 
 **Examples**
 
- Close change request number '10'.  Close with status "Won't fix", add some notes and other information. The close was performed by patty at the current time. Generate a time bomb (for business rule notification).  The second field version illustrates how to set the additional fields.
+Close change request number '10'.  Close with status "Won't fix", add some notes and other information. The close was performed by patty at the current time. Generate a time bomb (for business rule notification).  The second field version illustrates how to set the additional fields.
 
 **Field version 1:**
 
 **Visual Basic:**
-
-   Dim ret_int     As Integer
+  
+   Dim ret_int     As Integer
+```
 
 Dim close_objid As Long
 
@@ -102,17 +94,17 @@ ret_int = fccq.close_cr("10", "Won't fix", "Some notes", _
          True, ", 0, "", 0, "", "", "", "", "", "")
 
  If ret_int = 0 Then
+  
+   close_objid = fccq.ret_objid
 
-      close_objid = fccq.ret_objid
-
-   End If
-
+   End If  
+  
 **JavaScript:**
 
 var ret_int = fccq.close_cr("10", "Won't fix", "Some notes",
-
-         "Test case 43", "Release 1.2", "patty", "",
-
+  
+   "Test case 43", "Release 1.2", "patty", "",
+  
          true, ", 0, "", 0, "", "", "", "", "", "");
 
  if (ret_int == 0){ var close_objid = fccq.ret_objid; }
@@ -120,8 +112,9 @@ var ret_int = fccq.close_cr("10", "Won't fix", "Some notes",
 **Field version 2:**
 
 **Visual Basic:**
-
-   Dim ret_int     As Integer
+  
+   Dim ret_int     As Integer
+```
 
 Dim close_objid As Long
 
@@ -133,23 +126,23 @@ ret_int = fccq.close_cr("10", "Won't fix", "Some notes", _
      "x_other_date", "1/1/99")
 
  If ret_int = 0 Then
+  
+   close_objid = fccq.ret_objid
 
-      close_objid = fccq.ret_objid
-
-   End If
-
+   End If  
+  
 **JavaScript:**
 
 var ret_int = fccq.close_cr("10", "Won't fix", "Some notes",
-
-         "Test case 43", "Release 1.2", "patty", "",
-
-         true,
+  
+   "Test case 43", "Release 1.2", "patty", "",
+  
+   true,
 
      "x_close_int1", 1, "x_close_int2", 456,
 
-     "x_summary2", "More text", "", "",
-
+     "x_summary2", "More text", "", "",  
+  
      "x_other_date", "1/1/99");
 
  if (ret_int == 0){ var close_objid = fccq.ret_objid;
@@ -159,8 +152,9 @@ var ret_int = fccq.close_cr("10", "Won't fix", "Some notes",
 **Visual Basic:**
 
 Dim close_objid As Long
-
-   Dim ret_int     As Integer
+  
+   Dim ret_int     As Integer
+```
 
 Dim fld_list    As New FCFLCompat.FCList
 
@@ -171,7 +165,7 @@ Dim val_list    As New FCFLCompat.FCList
 fld_list.AppendItem "x_close_int1"
 
 type_list.AppendItem "Long"
-
+  
 val_list.AppendItem Trim(Str$(1))
 
 fld_list.AppendItem "x_close_int2"
@@ -196,9 +190,9 @@ ret_int = fccq.close_cr_list("10", "Won't fix", "Some notes", _
                              "Test Case 43", "Release 1.2", _
                              "patty", "", _
                              True, fld_list, type_list, val_list)
-
-   close_objid = fccq.ret_objid
-
+  
+   close_objid = fccq.ret_objid
+  
 **JavaScript:**
 
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
@@ -232,11 +226,11 @@ type_list.AppendItem("Date");
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccq.close_cr_list("10", "Won't fix", "Some notes",
-
-                             "Test Case 43", "Release 1.2",
-
-                             "patty", "",
-
+  
+   "Test Case 43", "Release 1.2",
+  
+   "patty", "",  
+  
                              true, fld_list, type_list, val_list);
-
-   var close_objid = fccq.ret_objid;
+  
+   var close_objid = fccq.ret_objid;  

@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public ItemType As String
+```
 
-**Description**
+#### Description
 
 This property describes the type of data that can be stored in a list.  When a list is created or cleared, this property has no value.   At this point, it can be set to one of the allowed values.  If not set, the value is set to the type of the type of the first data added to the list.   All future data added to the list must be of this type.  Once set, this property can only be reset by clearing the list.
 

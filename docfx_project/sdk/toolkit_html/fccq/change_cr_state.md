@@ -1,6 +1,7 @@
 change_cr_state
 -----------------
 
+```
 Public Function change_cr_state(ByVal cr_id As String, _
                 ByVal new_status As String, new_condition As String, _
                 ByVal change_date As String, _
@@ -13,8 +14,9 @@ Public Function change_cr_state(ByVal cr_id As String, _
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified change request to have its status and/or condition changed. This function is basically a wrapper function for multiple APIs (change_cr_status, fix_cr, close_cr, fix_failed, reopen_cr, and duplicate_cr).  Depending on the current condition of the CR and the new_condition parameter, the appropriate API will be called.
 

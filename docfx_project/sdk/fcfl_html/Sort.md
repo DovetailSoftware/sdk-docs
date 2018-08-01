@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Sort()
+```
 
-**Description**
+#### Description
 
 This method sorts the list.  After the list is sorted the _Sorted_ property is set to true.  Sort order is defined by the defined sort order on the machine this method is executed.
 

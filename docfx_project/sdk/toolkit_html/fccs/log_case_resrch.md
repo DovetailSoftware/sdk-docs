@@ -6,6 +6,7 @@ log_case_resrch
 log_case_ resrch_list
 -----------------------
 
+```
 Public Function log_case_resrch(ByVal case_id As String, _
                     ByVal action_type As String, ByVal note_str As String, _
                     ByVal int_use As String, ByVal log_date As String, _
@@ -19,7 +20,9 @@ Public Function log_case_resrch(ByVal case_id As String, _
                     ByVal str_val1 As String, ByVal str_fld2 As String, _
                     ByVal str_val2 As String, ByVal date_fld1 As String, _
                     ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function log_case_resrch_list(ByVal case_id As String, _
                    ByVal action_type As String, ByVal note_str As String, _
                    ByVal int_use As String, ByVal log_date As String, _
@@ -30,8 +33,9 @@ Public Function log_case_resrch_list(ByVal case_id As String, _
                    ByVal gen_time_bombs As Boolean, _
                    Optional fld_list As Variant, Optional type_list As Variant, _
                    Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create a research log against a case. The APIs allow for the assigning of notes, internal use only text, and an action type. The research time (in seconds) is specified. For example, a 5 minute log would be 300 seconds. A new case status can be set with this API. Additional fields can also be set as well as a time bomb (for the phone log), which allows notifications to be generated based on the event.
 
@@ -68,39 +72,26 @@ The objid of the status change record is returned in the FCCS object variable _r
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 | log_objid | Output | This field returns the objid of the newly created log object |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Research log time is negative |
+| -2 | Cannot find the specified case |
+| -3 | Cannot find the specified user |
+| -4 | Cannot find the RESEARCH LOG activity string |
+| -5 | Cannot find the research log action type string |
+| -6 | Cannot find the employee record for the specified user |
+| -7 | The supplied status is invalid for the current condition |
+| -8 | A commitment is to be created, but the title is blank |
+| -9 | The prior warning is negative |
+| -10 | The commitment due date is before the log creation date |
+| -11 | Cannot find the COMMIT activity string |
+| -12 | Could not find the com_tmplte for WARNING |
+| -13 | Could not find the com_tmplte for COMMITMENT |
 
-0                                              No errors
-
--1                                             Research log time is negative
-
--2                                             Cannot find the specified case
-
--3                                             Cannot find the specified user
-
--4                                             Cannot find the RESEARCH LOG activity string
-
--5                                             Cannot find the research log action type string
-
--6                                             Cannot find the employee record for the specified user
-
--7                                             The supplied status is invalid for the current condition
-
--8                                             A commitment is to be created, but the title is blank
-
--9                                             The prior warning is negative
-
--10                                           The commitment due date is before the log creation date
-
--11                                           Cannot find the COMMIT activity string
-
--12                                           Could not find the com_tmplte for WARNING
-
--13                                           Could not find the com_tmplte for COMMITMENT
-
-**Examples**
+#### Examples
 
  Create a research log of 4 minutes for case number 'C154'. Set the notes for the log, and no other information. Generate a time bomb.
 
@@ -117,6 +108,7 @@ var ret_int = fccs.log_case_resrch("C154", "", "Some notes", "",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.log_case_resrch("C154", "", "Some notes", "", _
               "", 240, "", "", "", "", "", 0, True, True, _
@@ -133,6 +125,7 @@ var ret_int = fccs.log_case_resrch_list("C154", "", "Some notes", "",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 ret_int = fccs.log_case_resrch_list("C154", "", "Some notes", "", _
               "", 240, "", "", "", "", "", 0, True, True)
@@ -160,6 +153,7 @@ var ret_int = fccs.log_case_resrch("2", "Engineering Research",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.log_case_resrch("2", "Engineering Research", "Some notes", _
              "Internal use", "11/23/97 22:00:00", 180, "marty", _
@@ -215,6 +209,7 @@ var ret_int = fccs.log_case_resrch_list("2", "Engineering Research",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
    Dim fld_list    As New List
 

@@ -9,17 +9,15 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Concat(ByRef param1 As Variant, _
-
                        Optional ByRef param2 As Variant, _
-
                        Optional ByRef param3 As Variant, _
-
                        Optional ByRef param4 As Variant, _
-
                        Optional ByRef param5 As Variant)
+```
 
-**Description**
+#### Description
 
 This method takes 1 to 5 arguments and does in order concatenation on them.  Items can be strings, numbers or other lists.  The in order concatenation is placed into the list the method is called on.  If the list already has data, that data is cleared out first.
 

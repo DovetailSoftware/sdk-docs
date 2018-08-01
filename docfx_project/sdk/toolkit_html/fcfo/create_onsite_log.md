@@ -1,13 +1,15 @@
 create_onsite_log
 -------------------
 
+```
 Public Function create_onsite_log(ByVal object_type As String, _
                   ByVal object_id As String, ByVal creation_time As String, _
                   ByVal last_modified As String, ByVal notes As String, _
                   ByVal resolution As String, ByVal user_name As String, _
                   ByVal perf_by As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows creation of an onsite log that is related to a case or subcase. The object type and id of the focus object  (the case or subcase) must be supplied, and the other parameters are all optional.
 
@@ -24,35 +26,28 @@ This API allows creation of an onsite log that is related to a case or subcase. 
 | user_name | No | The user who is creating the onsite log. If left blank, the current user performs the create |
 | perf_by | No | The user that is performing the actions associated to the onsite log |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Object type must be 'case' or 'subcase' |
+| -2 | Cannot find performing user in database |
+| -3 | Cannot find RESOLUTION code in database |
+| -4 | Cannot find employee record for user in database |
+| -5 | Cannot find subcase in database |
+| -6 | Cannot find the 'T & E log' activity string with rank = 1800 |
+| -7 | Cannot find specified case in database |
+| ret_objid | The objid of the new onsite log object is returned by this parameter. |
 
-0                                              No errors
+#### Examples
 
--1                                             Object type must be 'case' or 'subcase'
-
--2                                             Cannot find performing user in database
-
--3                                             Cannot find RESOLUTION code in database
-
--4                                             Cannot find employee record for user in database
-
--5                                             Cannot find subcase in database
-
--6                                             Cannot find the 'T & E log' activity string with rank = 1800
-
--7                                             Cannot find specified case in database
-
-ret_objid                                The objid of the new onsite log object is returned by this parameter.       
-
-**Examples**
-
- Create a new onsite log related to Case "3". The creation time is 4:00 pm on September 10, 1998. A sample note is shown, and the resolution will be the list default. The user and performing user will both default to the current Clarify user. Once created, the new objid will be placed in the ol_objid variable.
+Create a new onsite log related to Case "3". The creation time is 4:00 pm on September 10, 1998. A sample note is shown, and the resolution will be the list default. The user and performing user will both default to the current Clarify user. Once created, the new objid will be placed in the ol_objid variable.
 
 **Visual Basic:**
 
    Dim ret_int  As Integer
+```
 
 Dim ol_objid As Long
 
@@ -81,6 +76,7 @@ if (ret_int == 0){ var ol_objid = fcfo.ret_objid; }
 **Visual Basic:**
 
    Dim ret_int  As Integer
+```
 
 Dim ol_objid As Long
 

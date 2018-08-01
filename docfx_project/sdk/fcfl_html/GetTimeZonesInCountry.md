@@ -9,11 +9,12 @@ Type : Method
 
 **Prototype**
 
+```
 Public Function GetTimeZonesInCountry(ByVal Country As String)
-
   As ADODB.Recordset
+```
 
-**Description**
+#### Description
 
 This method returns a recordset containing the list time_zone records for the given country.
 

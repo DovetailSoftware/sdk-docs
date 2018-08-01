@@ -1,7 +1,5 @@
 ## FCFL API Toolkit for Interfaces
 
----
-
 **Overview**
 
 Many customers have wanted the ability to customize the Clarify environment easily by adding base Clarify functions (such as create/modify addresses, contacts, sites) to web applications.

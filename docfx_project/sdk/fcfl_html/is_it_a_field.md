@@ -9,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function is_it_a_field(tbl_name As String, _
-
                               field_name As String) As Boolean
+``` 
 
-**Description**
+#### Description
 
 This method returns whether a given field name is defined as a field on the specified table. This method also works for fields defined in views.
 

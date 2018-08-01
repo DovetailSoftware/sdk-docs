@@ -1,14 +1,16 @@
 change_subcase_status
 -----------------------
 
+```
 Public Function change_subcase_status(ByVal subcase_id As String, _
                                       ByVal new_status As String, _
                                       ByVal change_date As String, _
                                       ByVal note_str As String, _
                                       ByVal user_name As String, _
                                       ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified subcase to have its status changed. The subcase may be opened or closed, but the status selected MUST be valid for the current condition. In other words, you cannot assign a close condition status to a subcase that is currently open. You may assign notes to the status change, as well as set the time of the status change, and the user who changed the status. The API can also generate a time bomb (for business rule notification).
 
@@ -23,23 +25,17 @@ This API causes the specified subcase to have its status changed. The subcase ma
 | user_name | No | The user who changed the status. If left blank, the current user performs the change status |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified subcase |
+| -2 | Cannot find the new status (or status is not defined for the current object's condition) |
+| -3 | Cannot find the specified user |
+| -4 | Cannot find the CHANGE STATUS activity string |
 
-0                                              No errors
-
--1                                             Cannot find the specified subcase
-
--2                                             Cannot find the new status (or status is not
-
-defined for the current object's condition)
-
--3                                             Cannot find the specified user
-
--4                                             Cannot find the CHANGE STATUS activity string
-
-**Examples**
+#### Examples
 
  Change status for subcase number 'C154-1' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
 

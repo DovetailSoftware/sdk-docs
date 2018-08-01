@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public ParentRelation As String
+```
 
-**Description**
+#### Description
 
 This property contains the name of the relation that points **_FROM_** a parent object to this child generic. It is not the name of the relation that points from this child generic. This property is used when querying multiple tables, and traversing from one to another. For example, if we query the case table, and wish also to see the related activity logs for those cases, we would create a generic object for the activity log table, and place the _case_act2act_entry_  relation name in the ParentRelation property.
 

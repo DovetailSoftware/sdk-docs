@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetTableID(ByVal TableName As String) As Long
+```
 
-**Description**
+#### Description
 
 This method returns the table number (or ID) for a given table name (or view name). It reads this information from the Clarify ADP tables from the **FCFL** cache, so no database roundtrips are needed.
 

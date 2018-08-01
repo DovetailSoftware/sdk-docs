@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public SortOrder As String
+```
 
-**Description**
+#### Description
 
 This property contains the sort order for a query for this generic object. It is a string that is appended to the end of the SQL _select_ statement if the BO is queried against the database.
 

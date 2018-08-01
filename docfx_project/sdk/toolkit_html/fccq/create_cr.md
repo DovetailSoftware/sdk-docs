@@ -4,6 +4,7 @@ create_cr
 create_cr_list
 ----------------
 
+```
 Public Function create_cr(ByVal part_num As String, _
                           ByVal mod_level As String, _
                           ByVal domain As String, ByVal the_title As String, _
@@ -24,7 +25,9 @@ Public Function create_cr(ByVal part_num As String, _
                           ByVal str_fld2 As String, ByVal str_val2 As String, _
                           ByVal date_fld1 As String, ByVal date_val1 As String) _
                           As Integer
+```
 
+```
 Public Function create_cr_list(ByVal part_num As String, _
        ByVal mod_level As String, _
        ByVal domain As String, _
@@ -49,8 +52,9 @@ Public Function create_cr_list(ByVal part_num As String, _
        Optional fld_list As Variant, _
                                Optional type_list As Variant, _
        Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create new change requests. They require that the part number, domain, and revision be specified (for the part to be associated). You may specify a title for the CR, notes, the status, and a variety of other text and code list values.
 
@@ -86,59 +90,42 @@ If you specify a queue name, the CR will be initially dispatched to the queue. O
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
-
-0                                              No errors; sets objid and id_number of new bug object in ret_objid (Long) and ret_id_num (String) global variables
-
--2                                             Cannot find the specified user
-
--3                                             Cannot find the part and revision
-
--4                                             The specified status could not be found
-
--5                                             Cannot find gbst_elm rank 4700 for string CREATE CR
-
--6                                             Cannot find gbst_elm rank 1700 for string NOTES
-
--7                                             Cannot find gbst_elm rank 900 for string DISPATCH
-
--8                                             Could not find the specified queue
-
--10                                           Cannot find the CR Type list item
-
--11                                           Cannot find the specified CR Priority
-
--12                                           Cannot find the specified frequency
-
--13                                           Cannot find the specified intro phase
-
--14                                           Cannot find the specified test class
-
--15                                           Cannot find the specified CR class
-
--16                                           Cannot find the specified fixed in release
-
--17                                           Cannot find the specified found_on value (cpu)
-
--18                                           Cannot find the specified op_sys value (operation system)
-
--19                                           Cannot find the specified memory value
-
--20                                           Cannot find the specified user's employee record for relating time bomb |
-| ret_objid | Output | Returns the objid of the change request |
-| ret_id_num | Output | Returns the id of the change request
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors; sets objid and id_number of new bug object in ret_objid (Long) and ret_id_num (String) global variables |
+| -2 | Cannot find the specified user |
+| -3 | Cannot find the part and revision |
+| -4 | The specified status could not be found |
+| -5 | Cannot find gbst_elm rank 4700 for string CREATE CR |
+| -6 | Cannot find gbst_elm rank 1700 for string NOTES |
+| -7 | Cannot find gbst_elm rank 900 for string DISPATCH |
+| -8 | Could not find the specified queue |
+| -10 | Cannot find the CR Type list item |
+| -11 | Cannot find the specified CR Priority |
+| -12 | Cannot find the specified frequency |
+| -13 | Cannot find the specified intro phase |
+| -14 | Cannot find the specified test class |
+| -15 | Cannot find the specified CR class |
+| -16 | Cannot find the specified fixed in release |
+| -17 | Cannot find the specified found_on value (cpu) |
+| -18 | Cannot find the specified op_sys value (operation system) |
+| -19 | Cannot find the specified memory value |
+| -20 | Cannot find the specified user's employee record for relating time bomb |
+| ret_objid | Output - Returns the objid of the change request |
+| ret_id_num | Output - Returns the id of the change request |
 
 **Examples**
 
- Create a new change request. Specify the part of MS Word, revision 1.2. Use the default values for the code list, and generate a time bomb. Add notes from the file "note.txt", and dispatch to queue "High".  The second field version illustrates how to set additional fields.
+Create a new change request. Specify the part of MS Word, revision 1.2. Use the default values for the code list, and generate a time bomb. Add notes from the file "note.txt", and dispatch to queue "High".  The second field version illustrates how to set additional fields.
 
 **Field version 1:**
 
 **Visual Basic:**
-
-   Dim ret_int   As Integer
+  
+   Dim ret_int   As Integer
+```
 
 Dim bug_id_num  As String
 
@@ -153,35 +140,35 @@ ret_int = fccq.create_cr("MS Word"", "1.2", "Product", _
           "", "", "")
 
  If ret_int = 0 Then
-
-      bug_id_num = fccq.ret_id_num
+  
+   bug_id_num = fccq.ret_id_num
 
       bug_objid = fccq.ret_objid
 
-   End If
-
+   End If  
+  
 **JavaScript:**
 
 var ret_int = fccq.create_cr("MS Word"", "1.2", "Product",
-
-                         "CR Title",
-
-                "", "note.txt", "", "", "", "", "", "",
+  
+   "CR Title",
+  
+   "", "note.txt", "", "", "", "", "", "",
 
                 "", "", "", "", "Some tests to run",
 
                 "High",
 
-          "", "", true, "", 0, "", 0, "", "", "",
-
+          "", "", true, "", 0, "", 0, "", "", "",  
+  
           "", "", "");
 
  if (ret_int == 0) {
-
-      var bug_id_num = fccq.ret_id_num;
+  
+   var bug_id_num = fccq.ret_id_num;
 
       var bug_objid = fccq.ret_objid;
-
+  
    }
 
 **Field version 2:**
@@ -189,6 +176,7 @@ var ret_int = fccq.create_cr("MS Word"", "1.2", "Product",
  **Visual Basic:**
 
 Dim ret_int     As Integer
+```
 
 Dim bug_id_num  As String
 
@@ -200,25 +188,25 @@ ret_int = fccq.create_cr("MS Word"", "1.2", "Product", _
                 "", "", "", "", "Some tests to run", _
                 "High", _
           "", "", True, "x_create_1", 1, "x_create_2", 2,
-
-          "x_summary2", "More text", "", "", _
+  
+   "x_summary2", "More text", "", "", _
           "x_other_date", "1/1/99")
 
  If ret_int = 0 Then
-
-      bug_id_num = fccq.ret_id_num
+  
+   bug_id_num = fccq.ret_id_num
 
       bug_objid = fccq.ret_objid
 
-   End If
-
+   End If  
+  
 **JavaScript:**
 
 var ret_int = fccq.create_cr("MS Word"", "1.2", "Product",
-
-                         "CR Title",
-
-                "", "note.txt", "", "", "", "", "", "",
+  
+   "CR Title",
+  
+   "", "note.txt", "", "", "", "", "", "",
 
                 "", "", "", "", "Some tests to run",
 
@@ -226,16 +214,16 @@ var ret_int = fccq.create_cr("MS Word"", "1.2", "Product",
 
           "", "", true, "x_create_1", 1, "x_create_2", 2,
 
-          "x_summary2", "More text", "", "",
-
+          "x_summary2", "More text", "", "",  
+  
           "x_other_date", "1/1/99");
 
  if (ret_int == 0) {
-
-      var bug_id_num = fccq.ret_id_num;
+  
+   var bug_id_num = fccq.ret_id_num;
 
       var bug_objid = fccq.ret_objid;
-
+  
    }
 
 **List version:**
@@ -245,15 +233,16 @@ var ret_int = fccq.create_cr("MS Word"", "1.2", "Product",
 Dim bug_id_num  As String
 
 Dim bug_objid   As Long
-
-   Dim ret_int     As Integer
+  
+   Dim ret_int     As Integer
+```
 
 Dim fld_list    As New FCFLCompat.FCList
 
 Dim type_list   As New FCFLCompat.FCList
 
 Dim val_list    As New FCFLCompat.FCList
-
+  
 fld_list.AppendItem("dist");
 
 type_list.AppendItem("Long");
@@ -281,13 +270,13 @@ ret_int = fccq.create_cr_list("MS Word", "1.2", "Product", _
                               fld_list, type_list, val_list)
 
  If ret_int = 0 Then
+  
+   bug_id_num = fccq.ret_id_num
+  
+   bug_objid = fccq.ret_objid
 
-      bug_id_num = fccq.ret_id_num
-
-      bug_objid = fccq.ret_objid
-
-   End If
-
+   End If  
+  
 **JavaScript:**
 
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
@@ -315,10 +304,10 @@ type_list.AppendItem("Date");
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccq.create_cr_list("MS Word", "1.2", "Product",
-
-                              "CR Title", "", "note.txt", "",
-
-                              "", "", "",
+  
+   "CR Title", "", "note.txt", "",
+  
+   "", "", "",
 
                               "", "", "", "", "", "",
 
@@ -326,12 +315,12 @@ var ret_int = fccq.create_cr_list("MS Word", "1.2", "Product",
 
                               "High", "", "", true,
 
-                              fld_list, type_list, val_list)
-
+                              fld_list, type_list, val_list)  
+  
  if (ret_int == 0) {
-
-      var bug_id_num = fccq.ret_id_num;
+  
+   var bug_id_num = fccq.ret_id_num;
 
       var bug_objid = fccq.ret_objid;
-
+  
    }

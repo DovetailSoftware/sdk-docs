@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public PasswordRequired As Boolean
+```
 
-**Description**
+#### Description
 
 This property allows you to disable password valdation when logging in using the Login method. By default, this property is set to True, meaning that a valid password must be supplied to the Login method. If this property is set to False, then the login name is validated, but the password is not. 
 

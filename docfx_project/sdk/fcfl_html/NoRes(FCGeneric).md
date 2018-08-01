@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public NoRes As Boolean
+```
 
-**Description**
+#### Description
 
 This property tells the generic object if it should ignore data restriction for queries (and insertions of new rows).  If this property is set to _False_ (which is the default), then data restriction is properly applied to this generic object. If the property is set to _True_, then **FCFL** does not apply any data restrictions to the object.
 

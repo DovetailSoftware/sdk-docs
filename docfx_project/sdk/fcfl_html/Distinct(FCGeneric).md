@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Distinct  As Boolean
+```
 
-**Description**
+#### Description
 
 This property tells the generic object that it should perform a "distinct" query. That is, it should perform a "select distinct" for the data fields supplied.
 

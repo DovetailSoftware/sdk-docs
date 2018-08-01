@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Records As ADODB.RecordSet
+```
 
-**Description**
+#### Description
 
 This property contains the data records for the generic object. The records are stored in an ADODB.Recordset object.
 

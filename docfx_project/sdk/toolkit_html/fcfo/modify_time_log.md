@@ -1,6 +1,7 @@
 modify_time_log
 -----------------
 
+```
 Public Function modify_time_log(ByVal time_log_objid As Long, _
                   ByVal creation_time As String, ByVal perf_by As String, _
                   ByVal notes As String, ByVal user_name As String, _
@@ -8,8 +9,9 @@ Public Function modify_time_log(ByVal time_log_objid As Long, _
                   ByVal duration As Long, ByVal billable As Long, _
                   ByVal bill_to As String, ByVal wrk_center As String, _
                   ByVal resolution As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API modifies an existing time log record in the Clarify database. You must pass in a valid time log objid (which is returned by the _create_time_log_ API). You can specify the start time and a duration. The duration is specified in seconds. 
 
@@ -32,41 +34,31 @@ The time type is an optional code list value that may be specified. The user per
 | wrk_center | No | Value from the WORK_CENTER list where the time was spent |
 | resolution | No | Value from the RESOLUTION_CODE list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Could not find specified TIME_TYPE |
+| -2 | Could not find specified BILL_TO_TIME |
+| -3 | Cannot find specified user in database |
+| -4 | Cannot find employee record for specified user in database |
+| -5 | Cannot find performing user in database |
+| -6 | Could not find case or subcase for time log record |
+| -7 | Could not find specified WORK_CENTER |
+| -8 | Could not find specified RESOLUTION_CODE |
+| -9 | Could not find the specified time log record |
+| -10 | Cannot find employee record for performing user in database |
+| -11 | Cannot find the 'T & E Log' activity string with rank = 8700 |
 
-0                                              No errors
-
--1                                             Could not find specified TIME_TYPE
-
--2                                             Could not find specified BILL_TO_TIME
-
--3                                             Cannot find specified user in database
-
--4                                             Cannot find employee record for specified user in database
-
--5                                             Cannot find performing user in database
-
--6                                             Could not find case or subcase for time log record
-
--7                                             Could not find specified WORK_CENTER
-
--8                                             Could not find specified RESOLUTION_CODE
-
--9                                             Could not find the specified time log record
-
--10                                           Cannot find employee record for performing user in database
-
--11                                           Cannot find the 'T & E Log' activity string with rank = 8700
-
-**Examples**
+#### Examples
 
  Update an existing appointment. Set all the data that you can set. Change the start time and set the end time with the original end time from the appointment by using "-1".
 
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fcfo.modify_svc_inter(268435465, "A new description",
 
@@ -89,6 +81,7 @@ var ret_int = fcfo.modify_svc_inter(268435465, "A new description",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fcfo.modify_svc_inter(268435465, "+for api", "", "", 0, _
                                  "-1", "-1", "", "")

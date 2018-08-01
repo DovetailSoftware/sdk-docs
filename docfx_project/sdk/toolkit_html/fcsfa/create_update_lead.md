@@ -4,7 +4,9 @@ create_update_lead
 create_update_lead_list
 -------------------------
 
-Public Function create_update_lead(ByVal lead_objid As Long, _                                   ByVal first_name As String, _
+```
+Public Function create_update_lead(ByVal lead_objid As Long, _
+                                   ByVal first_name As String, _
                                    ByVal last_name As String, _
                                    ByVal phone As String, _
                                    ByVal fax As String, _
@@ -36,7 +38,9 @@ Public Function create_update_lead(ByVal lead_objid As Long, _         
                                    ByVal str_val2 As String, _
                                    ByVal date_fld1 As String, _
                                    ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_update_lead_list(ByVal lead_objid As Long, _ 
                        ByVal first_name As String, _
                        ByVal last_name As String, _
@@ -63,8 +67,9 @@ Public Function create_update_lead_list(ByVal lead_objid As Long, _ 
                        Optional fld_list As Variant, _
                        Optional type_list As Variant, _
                        Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create or update leads in Clarify. You specify if it is a create or update with the objid of the lead. If it is = -1, it's a create. Otherwise it's an update. The objid of the lead (for creates) is returned in that same argument.
 
@@ -108,35 +113,25 @@ The objid of the newly-created lead will be returned in _fcsfa.ret_objid_.
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | The specified user could not be found |
+| -2 | Cannot find the specified country |
+| -3 | Cannot find the specified state for the country |
+| -4 | Cannot find the specified time_zone for the country |
+| -5 | Site type is not Business or Individual |
+| -6 | The specified contact_role is not found |
+| -7 | The rating specified is not found in the list |
+| -8 | The specified lead source is not found |
+| -9 | The activity code string could not be found |
+| -10 | The specified lead could not be found to update |
 
-0                                              No errors
+#### Examples
 
--1                                             The specified user could not be found
-
--2                                             Cannot find the specified country
-
--3                                             Cannot find the specified state for the country
-
--4                                             Cannot find the specified time_zone for the country
-
--5                                             Site type is not Business or Individual
-
--6                                             The specified contact_role is not found
-
--7                                             The rating specified is not found in the list
-
--8                                             The specified lead source is not found
-
--9                                             The activity code string could not be found
-
--10                                           The specified lead could not be found to update
-
-**Examples**
-
- Create a new lead. Set most of the fields. Joe created it on January 1, 1999. Generate time bombs, and set a user-defined field.
+Create a new lead. Set most of the fields. Joe created it on January 1, 1999. Generate time bombs, and set a user-defined field.
 
 **Field version:**
 
@@ -155,11 +150,10 @@ var ret_int = fcsfa.create_update_lead(lead_objid, "First", "Last", "Phone",
              "x_col_val", 44, "", 0, "", "", "", "", "", "");
 
 **Visual Basic:**
+|  | Dim ret_int    As Integer
+```
 
-   Dim ret_int    As Integer
-
-Dim lead_objid As Long
-
+Dim lead_objid As Long |
 lead_objid = -1
 
 ret_int = fcsfa.create_update_lead(lead_objid, "First", "Last", "Phone", _
@@ -194,8 +188,8 @@ var ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4",
                         type_list, val_list);
 
 **Visual Basic:**
-
-   Dim ret_int    As Integer
+|  | Dim ret_int    As Integer
+```
 
 Dim lead_objid As Long
 
@@ -203,8 +197,7 @@ Dim fld_list   As New FCList
 
 Dim type_list  As New FCList
 
-Dim val_list   As New FCList
-
+Dim val_list   As New FCList |
 fld_list.AppendItem("x_col_val")
 
 type_list.AppendItem("Long")

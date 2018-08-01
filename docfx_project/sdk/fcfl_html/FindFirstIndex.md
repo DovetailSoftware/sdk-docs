@@ -1,5 +1,5 @@
 _FindFirstIndex_
-----------------
+-------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function FindFirstIndex(ByRef item As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 This method returns the index of the first item in the list that is equal to item.  Lists are zero based.  This means the index to the first item is 0, the second is 1, etc.  If the item is not found -1 is returned.
 
@@ -21,15 +23,14 @@ This method returns the index of the first item in the list that is equal to ite
 |:--- |:--- |:--- |
 | item | Yes | Item to locate in the list. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| -1 | Item not found in list. |
+| >= 0 | Index of the item in the list. Indexes in list are zero based. |
 
--1                                             Item not found in list.
-
->= 0                                        Index of the item in the list.  Indexes in list are zero based. |
-
-**Example**
+#### Examples
 
 This example shows setting up a list and checking where the item '4' is located.
 
@@ -40,6 +41,7 @@ The code in this example is written in Visual Basic.
 Dim list As New FCList
 
 Dim where As Integer
+```
 
 list.AppendItem 1, 2, 3, 4, 5, 6, 4, 8, 9
 

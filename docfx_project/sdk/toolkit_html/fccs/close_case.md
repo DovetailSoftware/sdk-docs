@@ -4,6 +4,7 @@ close_case
 close_case_list
 -----------------
 
+```
 Public Function close_case(ByVal case_id As String, _
                            ByVal the_status As String, _
                            ByVal resolution_str As String, _
@@ -19,7 +20,9 @@ Public Function close_case(ByVal case_id As String, _
                            ByVal str_val1 As String, ByVal str_fld2 As String, _
                            ByVal str_val2 As String, ByVal date_fld1 As String, _
                            ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function close_case_list(ByVal case_id As String, _
                                 ByVal the_status As String, _
                                 ByVal resolution_str As String, _
@@ -32,8 +35,9 @@ Public Function close_case_list(ByVal case_id As String, _
                                 Optional fld_list As Variant, _
                                 Optional type_list As Variant, _
                                 Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to close a case. The case must be in open condition. The APIs allow for the assigning of a closed status, as well as resolution codes, the number of units to apply to the contract for the case, and a summary string. The APIs allow you to specify a user who performed the close, as well as the date/time of closure. The APIs allow for additional fields to be written to the close_case object, and the APIs return the objid of the newly created close_case object (in the FCCS object return variable _ret_objid_). The APIs can also generate a time bomb (for business rule notification).
 
@@ -77,35 +81,25 @@ In almost **_all_** cases, this argument is left blank.
 | type_list | No | List of additional field data types to write |
 | val_list | No | List of additional field values to write. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified case |
+| -2 | The specified case is already closed |
+| -3 | There is at least one open general subcase |
+| -10 | The specified user is not found |
+| -11 | The specified status is not a valid status for condition 'Closed' |
+| -12 | Could not find gbst_elm string for CASE CLOSE |
+| -13 | Could not find the specified resolution string |
+| -14 | Units to charge are specified, but there is no contract for this case |
+| -15 | No employee record was found for the specified user |
+| -16 | A close_sums string was passed in with an invalid format |
 
-0                                              No errors
+#### Examples
 
--1                                             Cannot find the specified case
-
--2                                             The specified case is already closed
-
--3                                             There is at least one open general subcase
-
--10                                           The specified user is not found
-
--11                                           The specified status is not a valid status for condition 'Closed'
-
--12                                           Could not find gbst_elm string for CASE CLOSE
-
--13                                           Could not find the specified resolution string
-
--14                                           Units to charge are specified, but there is no contract for this case
-
--15                                           No employee record was found for the specified user
-
--16                                           A close_sums string was passed in with an invalid format
-
-**Examples**
-
- Close case number 'C154'. Use the default status and resolution code. Add no summary text, and let the close be by the default user at the current date/time. There is no contract, so there are no units to charge, and no additional fields to write. Generate a time bomb.
+Close case number 'C154'. Use the default status and resolution code. Add no summary text, and let the close be by the default user at the current date/time. There is no contract, so there are no units to charge, and no additional fields to write. Generate a time bomb.
 
 **Field version:**
 
@@ -116,9 +110,8 @@ var ret_int = fccs.close_case("C154", "", "", "", "", "", 0, "", true, "", 0,
                               "", 0, "", "", "", "", "", "");
 
 **Visual Basic:**
-
-   Dim ret_int     As Integer
-
+     Dim ret_int     As Integer
+```  
 ret_int = fccs.close_case("C154", "", "", "", "", "", 0, "", True, "", 0, _
                      "", 0, "", "", "", "", "", "")
 
@@ -129,9 +122,8 @@ ret_int = fccs.close_case("C154", "", "", "", "", "", 0, "", True, "", 0, _
 var ret_int = fccs.close_case_list("C154", "", "", "", "", "", 0, "", true);
 
 **Visual Basic:**
-
-   Dim ret_int     As Integer
-
+     Dim ret_int     As Integer
+```  
 ret_int = fccs.close_case_list("C154", "", "", "", "", "", 0, "", True)
 
  Close case number '2' at 10PM on November 23rd of 1997 by marty. Put in status 'Closed-final', with resolution 'Software Shipped', summary of 'Auto-close' with 1.4 units charged against the contract. There are several 'x_' fields to be written to the close_case object. Don't generate a time bomb
@@ -143,17 +135,16 @@ ret_int = fccs.close_case_list("C154", "", "", "", "", "", 0, "", True)
 var ret_int = fccs.close_case("2", "Closed-final", "Software Shipped",
 
                 "Auto-close", "marty", "11/23/97 22:00:00", 1.4,
-
-                "", true, "x_close_int1", 1, "x_close_int2", 456,
-
-                "x_summary2", "More text", "", "",
-
+  
+   "", true, "x_close_int1", 1, "x_close_int2", 456,
+  
+   "x_summary2", "More text", "", "",  
+  
                 "x_other_date", "1/1/99");
 
 **Visual Basic:**
-
-   Dim ret_int     As Integer
-
+     Dim ret_int     As Integer
+```  
 ret_int = fccs.close_case("2", "Closed-final", "Software Shipped", _
                 "Auto-close", "marty", "11/23/97 22:00:00", 1.4, _
                 "", True, "x_close_int1", 1, "x_close_int2", 456, _
@@ -201,15 +192,14 @@ var ret_int = fccs.close_case_list("2", "Closed-final", "Software Shipped",
                 "", true, fld_list, type_list, val_list);
 
 **Visual Basic:**
-
-   Dim ret_int     As Integer
+     Dim ret_int     As Integer
+```
 
 Dim fld_list    As New FCList
 
 Dim type_list   As New FCList
 
-Dim val_list    As New FCList
-
+Dim val_list    As New FCList  
 fld_list.AppendItem "x_close_int1"
 
 type_list.AppendItem "Long"

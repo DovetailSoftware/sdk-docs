@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Property Get UpdateTime() As Date
+```
 
-**Description**
+#### Description
 
 This property returns the date/time of when this FCSession was last "updated". Actually, it is the date/time when the FCSession last performed a database roundtrip.
 

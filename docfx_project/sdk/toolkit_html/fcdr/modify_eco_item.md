@@ -1,14 +1,16 @@
 modify_eco_item
 -------------------
 
+```
 Public Function modify_eco_item(ByVal eco_mod_role_objid As Long, _
                           ByVal focus_type As Long, _
                           ByVal active As Long, _
                           ByVal eco_hdr_code As String, _
                           ByVal applies_to_mod As Long, _
-                          ByVal results_in_mod As Long)
+                          ByVal results_in_mod As Long) As Integer
+```
 
-**Description**
+#### Description
 
 This API modifies an existing labor or material detail.
 
@@ -23,29 +25,22 @@ This API modifies an existing labor or material detail.
 | applies_to_mod | No | Objid of part and revision affected by the ECO, or 0 for no change. |
 | results_in_mod | No | Objid of resulting part and revision following implementation of the ECO, or 0 for no change. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Invalid Role Name Specified |
+| -2 | Invalid Value for Active Indicator |
+| -3 | Specified ECO Mod Role is not in database |
+| -4 | Specified ECO Header is not in database |
+| -5 | Specified Applies-To Mod Level is not in database |
+| -6 | Specified Results-In Mod Level is not in database |
+| -7 | Specified Role Name and Apply-to Mod Level already exists in database |
 
-0                                              No errors
+#### Examples
 
--1                                             Invalid Role Name Specified
-
--2                                             Invalid Value for Active Indicator
-
--3                                             Specified ECO Mod Role is not in database
-
--4                                             Specified ECO Header is not in database
-
--5                                             Specified Applies-To Mod Level is not in database
-
--6                                             Specified Results-In Mod Level is not in database
-
--7                                             Specified Role Name and Apply-to Mod Level already exists in database
-
-**Examples**
-
- Modify ECO item 268435460, to result in part 268435465.
+Modify ECO item 268435460, to result in part 268435465.
 
 **JavaScript:**
 

@@ -9,9 +9,11 @@ Type     : Property (Read-only)
 
 **Prototype**
 
+```
 Public BOF As Boolean
+```
 
-**Description**
+#### Description
 
 This property is used to determine if the current record for a generic object is set before the start of the dataset. For example, if you use a MoveFirst call to move to the first record of an object, and then call on MovePrevious, the BOF property would be set to True. If you then called on MoveFirst, the BOF property would be set to False.
 

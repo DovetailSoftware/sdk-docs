@@ -1,6 +1,5 @@
 _RelateByID_
-------------
-
+---------
 **Object and Type**
 
 Object  : FCGeneric
@@ -9,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub RelateByID(ByVal the_objid As Long, ByVal the_rel As String)
+```
 
-**Description**
+#### Description
 
 This method relates the _current_ row of the generic object to the specified objid for the relation specified. The proper relation data will be set, no matter which table (this table, the related table, or an MTM table) the actual physical relation is stored on. This method also supports exclusive relations.
 
@@ -26,13 +27,12 @@ You must update the object via the Update or UpdateAll method for the relation t
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12015 | The current object must be positioned on a valid record to call on this method. |
+| 12031 | This operation is not valid for a generic that is marked distinct |
 
-12015                                      The current object must be positioned on a valid record to call on this method.
-
-12031                                      This operation is not valid for a generic that is marked distinct
-
-**Example**
+#### Examples
 
 The following example relates a case to a specific site (268435457).
 

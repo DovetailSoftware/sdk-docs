@@ -1,5 +1,5 @@
 _Update(FCBulk)_
-----------------
+-------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Update()
+```
 
-**Description**
+#### Description
 
 This crucial method will update the **CURRENT** record in each generic object  in the bulk.. The method will add it, update it, or delete each of the records as appropriate. It will also make whatever relations are needed so that the objects will be correct.
 
@@ -21,15 +23,12 @@ If you wish to update all of the (modified) records in the generic object, you s
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 13001 | You may not update a view |
+| 13002 | This operation is not valid for a generic that is marked distinct. At least one generic in this bulk is marked as distinct. |
 
-13001                                      You may not update a view
-
-13002                                      This operation is not valid for a generic that is marked distinct. At least one
-
-generic in this bulk is marked as distinct
-
-**Example**
+#### Examples
 
 The following example updates one case, one site, and one contact record.
 

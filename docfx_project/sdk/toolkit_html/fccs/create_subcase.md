@@ -4,6 +4,7 @@ create_subcase
 create_subcase_list
 ---------------------
 
+```
 Public Function create_subcase(ByVal case_id As String, _
                 ByVal the_title As String, ByVal is_general As Boolean, _
                 ByVal priority_str As String, ByVal severity_str As String, _
@@ -16,7 +17,9 @@ Public Function create_subcase(ByVal case_id As String, _
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_subcase_list(ByVal case_id As String, _
                 ByVal the_title As String, ByVal is_general As Boolean, _
                 ByVal priority_str As String, ByVal severity_str As String, _
@@ -26,8 +29,9 @@ Public Function create_subcase_list(ByVal case_id As String, _
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
                 Optional fld_list As Variant, Optional type_list As Variant, _
                 Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create new subcases. They require that a valid, open case be used as the parent case. You must specify if it is either general or administrative. Everything else is optional. You may specify a title, priority, severity, initial status, queue to dispatch to, due date and prior warning, user who creates the subcase, and subcase creation time. You may add additional fields to the subcase object. You may have a creation time bomb generated (for notifications).
 
@@ -58,43 +62,27 @@ If successful, these APIs return both the _objid_ and the _id_number_ of the new
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified master case ID |
+| -2 | The prior warning (in seconds) is negative |
+| -10 | The commitment date is prior to the case creation date |
+| -11 | The warning date is prior to the case creation date |
+| -12 | The specified user is not found |
+| -14 | The specified priority is not found |
+| -15 | The specified severity is not found |
+| -16 | The specified status is not found |
+| -17 | The CREATE SUBCASE activity string is not found |
+| -18 | The CREATE ADMIN SUBCASE activity string is not found |
+| -19 | The DISPATCH activity string is not found |
+| -23 | The specified queue is not found |
+| -24 | Could not build a new unique ID number. See if stored  procedure is compiled in the database |
+| -25 | Could not locate an employee record for the specified user |
 
-0                                              No errors
-
--1                                             Cannot find the specified master case ID
-
--2                                             The prior warning (in seconds) is negative
-
--10                                           The commitment date is prior to the case creation date
-
--11                                           The warning date is prior to the case creation date
-
--12                                           The specified user is not found
-
--14                                           The specified priority is not found
-
--15                                           The specified severity is not found
-
--16                                           The specified status is not found
-
--17                                           The CREATE SUBCASE activity string is not found
-
--18                                           The CREATE ADMIN SUBCASE activity string is not found
-
--19                                           The DISPATCH activity string is not found
-
--23                                           The specified queue is not found
-
--24                                           Could not build a new unique ID number. See if stored  procedure is compiled
-
-in the database
-
--25                                           Could not locate an employee record for the specified user
-
-**Examples**
+#### Examples
 
  Create a general subcase for case number 'C154'. Set a title and use the default priority, severity, status, user_name and dates. Make no prior warning, have no notes, and set no additional fields. Generate a time bomb.
 
@@ -111,6 +99,7 @@ var ret_int = fccs.create_subcase("C154", "Subcase Title", true,
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 ret_int = fccs.create_subcase("C154", "Subcase Title", True, _
           "", "", "", "", "", "", "", 0, "", True, _
@@ -127,6 +116,7 @@ var ret_int = fccs.create_subcase_list("C154", "Subcase Title", true,
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 ret_int = fccs.create_subcase_list("C154", "Subcase Title", True, _
           "", "", "", "", "", "", "", 0, "", True)
@@ -152,6 +142,7 @@ var ret_int = fccs.create_subcase("2", "A title", false, "High",
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 ret_int = fccs.create_subcase("2", "A title", False, "High", _
           "Low", "Solving", "Some notes", "Queue 2", _
@@ -205,6 +196,7 @@ var ret_int = fccs.create_subcase_list("2", "A title", false, "High",
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 Dim fld_list   As New FCList
 

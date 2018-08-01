@@ -1,14 +1,16 @@
 reject_cr
 ---------
 
+```
 Public Function reject_cr(ByVal cr_id As String, _
   						ByVal reject_date As String, _
                         ByVal wipbin As String, _
 						ByVal notes As String, _
                         ByVal user_name As String, _
                         ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified change request to be rejected from the queue it is in, and returned back to the owner. The change request must be currently dispatched to a queue. The API allows for the setting of the reject date, some notes about the reject, and the user who rejected the change request. The API also allows you to set the WIPBin that the change request is placed back in. This is additional functionality that base Clarify does not provide. The API can also generate a time bomb (for business rule notifications).
 
@@ -23,27 +25,21 @@ This API causes the specified change request to be rejected from the queue it is
 | user_name | No | The user who rejected the change request. If left blank, the current user performs the reject |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
-
-0                                              No errors
-
--1                                             Cannot find the specified change request
-
--2                                             The change request is not currently dispatched
-
--3                                             Cannot find the specified user
-
--4                                             The change request is currently closed - cannot dispatch
-
--5                                             Cannot find the new specified WIPBin, or it is not a WIPBin for the specified user
-
--6                                             Cannot find gbst_elm rank 2600 for string RETURN
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified change request |
+| -2 | The change request is not currently dispatched |
+| -3 | Cannot find the specified user |
+| -4 | The change request is currently closed - cannot dispatch |
+| -5 | Cannot find the new specified WIPBin, or it is not a WIPBin for the specified user |
+| -6 | Cannot find gbst_elm rank 2600 for string RETURN |
 
 **Examples**
 
- Reject change request number '10' to the default WIPBin. The reject has no notes, is performed by the current user and is rejected at the current time. Generate a time bomb.
+Reject change request number '10' to the default WIPBin. The reject has no notes, is performed by the current user and is rejected at the current time. Generate a time bomb.
 
 **Visual Basic:**
 

@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub SimpleQuery(ByVal obj_name As String)
+```
 
-**Description**
+#### Description
 
 This method sets the DBObjectName property for a generic object. It is exactly the same as that property, and is included for similarity with ClearBasic.
 

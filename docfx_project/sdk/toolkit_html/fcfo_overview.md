@@ -1,7 +1,5 @@
 ## API Toolkit for ClearLogistics Field Operations
 
----
-
 **Overview**
 
 Many customers have wanted the ability to customize the Clarify environment easily by adding base Clarify functions (such as log time and expenses, log part used transactions, etc.) into web applications.

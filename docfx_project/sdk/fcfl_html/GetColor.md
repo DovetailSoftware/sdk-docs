@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetColor(purpose As String) As String
+```
 
-**Description**
+#### Description
 
 This method returns the color that a user should use for a specific _purpose_. These colors are loaded into **FCFL** via the _LoadColors_ method.
 

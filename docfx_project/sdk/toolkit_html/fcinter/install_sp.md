@@ -4,8 +4,9 @@ install_sp
 install_sp_list
 -----------------
 
+```
 Public Function install_sp(ByVal site_id As String, _
-                           ByVal part_num As String, _
+	     ByVal part_num As String, _
          ByVal mod_level As String, _
          ByVal domain As String, _
          ByVal quantity As Long, _
@@ -30,9 +31,11 @@ Public Function install_sp(ByVal site_id As String, _
          ByVal str_val2 As String, _
          ByVal date_fld1 As String, _
          ByVal date_val1 As Long) As Integer
+```
 
+```
 Public Function install_sp_list(ByVal site_id As String, _
-                                ByVal part_num As String, _
+              ByVal part_num As String, _
               ByVal mod_level As String, _
               ByVal domain As String, _
               ByVal quantity As Long, _
@@ -50,8 +53,9 @@ Public Function install_sp_list(ByVal site_id As String, _
               Optional fld_list As Variant, _
               Optional type_list As Variant, _
               Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs install site_parts in Clarify. They are very sophisticated and allow virtually any type of install. You must specify a site where the site_part is to be installed, along with the part number, revision and domain for the part. The quantity must be specified. For serial number parts, the serial number is also specified. The part can be installed at the top level of the site, under another site_part or in a bin. An optional instance_name can be specified, as well as the status of the part, a comment, the invoice number, and the install/ship dates. You may determine if activity logs should be added (to the site and to the site_part), and the objid of the top site_part created will be returned.
 
@@ -85,79 +89,60 @@ Other data (such as the warranty end date) is automatically calculated and fille
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | The specified site_id is not found |
+| -2 | Part number cannot be found from supplied part_num and domain |
+| -3 | The specified part revision (mod_level) does not exist |
+| -4 | The specified user cannot be found |
+| -5 | Cannot find activity string for "Install" rank equal to 3600 |
+| -6 | The parent bin specified does not exist |
+| -7 | The parent site_part specified does not exist |
+| -8 | The part_status supplied is not in the dropdown list |
+| -9 | Both a parent bin and a parent site_part were specified. Cannot install under both |
+| -10 | Positive quantity to install not supplied |
+| -11 | A serial number was supplied, and a quantity > 1 |
+| -12 | The part is serialized, and a quantity > 1 was given |
+| -13 | This part may only be installed within another part |
+| -14 | This part may only be installed at the site or in a bin |
+| -15 | The domain rules for this part specify no serial number, but a serial number was supplied |
+| -16 | This part has unique serialization (from the domain) that would be violated by the install |
+| -17 | This part is not able to be installed at a site or under another part |
+| -18 | This part may only be installed within another part of specific domain |
+| ret_objid | Output - Returns the objid of the site part |
 
-0                                              No errors
+#### Examples
 
--1                                             The specified site_id is not found
-
--2                                             Part number cannot be found from supplied part_num and domain
-
--3                                             The specified part revision (mod_level) does not exist
-
--4                                             The specified user cannot be found
-
--5                                             Cannot find activity string for "Install" rank equal to 3600
-
--6                                             The parent bin specified does not exist
-
--7                                             The parent site_part specified does not exist
-
--8                                             The part_status supplied is not in the dropdown list
-
--9                                             Both a parent bin and a parent site_part were specified. Cannot install under both
-
--10                                           Positive quantity to install not supplied
-
--11                                           A serial number was supplied, and a quantity > 1
-
--12                                           The part is serialized, and a quantity > 1 was given
-
--13                                           This part may only be installed within another part
-
--14                                           This part may only be installed at the site or in a bin
-
--15                                           The domain rules for this part specify no serial number, but a serial number was supplied
-
--16                                           This part has unique serialization (from the domain) that would be violated by the install
-
--17                                           This part is not able to be installed at a site or under another part
-
--18                                           This part may only be installed within another part of specific domain |
-| ret_objid | Output | Returns the objid of the site part
-
-**Examples**
-
- Install an MS Word 7.0 at the top-level of site "1234". Install it with serial number "xyzzy", and generate activity logs. Install with status "Installed/Good".
+Install an MS Word 7.0 at the top-level of site "1234". Install it with serial number "xyzzy", and generate activity logs. Install with status "Installed/Good".
 
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 Dim sp_objid   As Long
 
 ret_int = fcinter.install_sp("1234", "MS Word", "7.0", _
                              "Product", 1, "xyzzy", _      
-
-              0, 0, "", "", "Installed/Good", _
+| 
+ | 0, 0, "", "", "Installed/Good", _
               "", "", "", "", true)
-
+ |
  If ret_int = 0 Then
 
       sp_objid = fcinter.ret_objid
-
-   End If
-
+|  | End If |
 **Javascript:**
 
 var ret_int = fcinter.install_sp("1234", "MS Word", "7.0",
-
-                             "Product", 1, "xyzzy",       
-
-              0, 0, "", "", "Installed/Good",
-
+| 
+ | "Product", 1, "xyzzy",       
+| 
+ | 0, 0, "", "", "Installed/Good", |
+ |
               "", "", "", "", true);
 
  if (ret_int == 0){ var sp_objid = fcinter.ret_objid; }
@@ -167,6 +152,7 @@ var ret_int = fcinter.install_sp("1234", "MS Word", "7.0",
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 ret_int = fcinter.install_sp("444", "QuantPart", "", "Quantity", _
  30, "", 268435457, 0, "", "", "", "",_
@@ -180,11 +166,11 @@ ret_int = fcinter.install_sp("444", "QuantPart", "", "Quantity", _
 var ret_int = fcinter.install_sp("444", "QuantPart", "", "Quantity",
 
  30, "", 268435457, 0, "", "", "", "",
-
-              "", "3/1/98",
-
-              "2/1/98", true, "x_my_long", 22, "", 0,
-
+| 
+ | "", "3/1/98",
+| 
+ | "2/1/98", true, "x_my_long", 22, "", 0, |
+ |
               "x_my_str_field", "Hello!!", "",
 
               "", "","");

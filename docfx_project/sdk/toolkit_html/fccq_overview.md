@@ -1,7 +1,5 @@
 ## FCFL API Toolkit for ClearQuality
 
----
-
 **Overview**
 
 Many customers have wanted the ability to customize the Clarify environment easily by adding base Clarify functions (such as change request creation, closure, modification, or note logging) to web applications.

@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetTimeZoneList() As ADODB.Recordset
+```
 
-**Description**
+#### Description
 
 This method returns a recordset containing the time_zone records
 

@@ -1,5 +1,5 @@
 _UpdateAll(FCGeneric)_
-----------------------
+-------------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub UpdateAll()
+```
 
-**Description**
+#### Description
 
 This crucial method will update **ALL** of the records in the generic object. The method will add, update, or delete any records as appropriate. It will also make whatever relations are needed so that the object will be correct.
 
@@ -21,15 +23,13 @@ If you wish to update just one record in the generic object, you should call on 
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12008 | You may not update a view |
+| 12009 | Could not add record because not all fields were selected in a previous query |
+| 12031 | This operation is not valid for a generic that is marked distinct |
 
-12008                                      You may not update a view
-
-12009                                      Could not add record because not all fields were selected in a previous query
-
-12031                                      This operation is not valid for a generic that is marked distinct
-
-**Example**
+#### Examples
 
 The following example sets the external_id field for all of the sites that it locates.
 

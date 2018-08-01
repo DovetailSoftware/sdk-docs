@@ -1,6 +1,5 @@
 _AppendSort_
-------------
-
+---------
 **Object and Type**
 
 Object  : FCGeneric
@@ -9,11 +8,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub AppendSort(ByVal field_name As String, _
-
                       ByVal ascending As String)
+```
 
-**Description**
+#### Description
 
 This method adds another sort clause for the generic object to query the database. This clause will be added to the end of any previous sorts specified with AppendSort. The field name must be a valid field (or MTO/OTOP relation) in the table. The ascending parameter is either ascending or descending.
 
@@ -30,15 +30,13 @@ You **MUST** set the DBObjectName (either by setting it, using SimpleQuery, Pare
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12003 | Bad ascending value specified |
+| 12004 | Too many sorts specified. Please use the SortFields property instead |
+| 12023 | The specified field is not valid for the query object |
 
-12003                                      Bad ascending value specified
-
-12004                                      Too many sorts specified. Please use the SortFields property instead
-
-12023                                      The specified field is not valid for the query object
-
-**Example**
+#### Examples
 
 The following example uses AppendSort to sort a query of the site table by both status and site name.
 

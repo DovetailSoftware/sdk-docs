@@ -4,6 +4,7 @@ modify_case
 modify_case_list
 ------------------
 
+```
 Public Function modify_case(ByVal case_id As String, _
                 ByVal priority_str As String, ByVal severity_str As String, _
                 ByVal case_type As String, ByVal user_name As String, _
@@ -16,7 +17,9 @@ Public Function modify_case(ByVal case_id As String, _
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function modify_case_list(ByVal case_id As String, _
                 ByVal priority_str As String, ByVal severity_str As String, _
                 ByVal case_type As String, ByVal user_name As String, _
@@ -26,8 +29,9 @@ Public Function modify_case_list(ByVal case_id As String, _
                 ByVal sp_obj As Long, ByVal contr_obj As Long, _
                 Optional fld_list As Variant, Optional type_list As Variant, _
                 Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to modify existing cases. If the priority, severity, or case type is changing, record the new value in the argument. If they are left blank, the value is not changed in the case. The modifier and the time of modification may be specified, and you may specify additional fields. You may have a creation time bomb generated (for notifications).
 
@@ -59,33 +63,22 @@ There are four arguments to this method that allow you to change (or clear) vari
 
 **Returns**
 
-**Value**                          **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified case |
+| -2 | Case is already closed |
+| -3 | Cannot find the specified priority |
+| -4 | Cannot find the specified severity |
+| -5 | Cannot find the specified case type |
+| -6 | Cannot find the MODIFY activity string |
+| -7 | Cannot find the specified user |
+| -8 | Cannot find employee record for specified user |
+| -9 | Another user (not the owner) attempted to modify the case and the only_owner flag was set to True |
 
-0                                              No errors
+#### Examples
 
--1                                             Cannot find the specified case
-
--2                                             Case is already closed
-
--3                                             Cannot find the specified priority
-
--4                                             Cannot find the specified severity
-
--5                                             Cannot find the specified case type
-
--6                                             Cannot find the MODIFY activity string
-
--7                                             Cannot find the specified user
-
--8                                             Cannot find employee record for specified user
-
--9                                             Another user (not the owner) attempted to modify the case and the only_owner flag was set to
-
-True
-
-**Examples**
-
- Modify case 'C154'. Change the priority, but nothing else. Do not write any other fields. Any user can make the change. Also, generate a time bomb. All other information is defaulted.
+Modify case 'C154'. Change the priority, but nothing else. Do not write any other fields. Any user can make the change. Also, generate a time bomb. All other information is defaulted.
 
 **Field version:**
 
@@ -98,6 +91,7 @@ var ret_int = fccs.modify_case("C154", "High", "", "", "", "", 0, 0, 0,
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.modify_case("C154", "High", "", "", "", "", 0, 0, 0, _
                       "", False, True, "", 0, "", 0, "", "", "", "", "", "")
@@ -113,6 +107,7 @@ var ret_int = fccs.modify_case_list("C154", "High", "", "", "", "",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 ret_int = fccs.modify_case_list("C154", "High", "", "", "", "", _
                    0, 0, 0, "", False, True)
@@ -138,6 +133,7 @@ var ret_int = fccs.modify_case("2", "", "Low", "Question", "marty",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.modify_case("2", "", "Low", "Question", "marty", _
                       "New title", -999, -999, 268435458, _
@@ -191,6 +187,7 @@ var ret_int = fccs.modify_case_list("2", "", "Low", "Question", "marty",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 Dim fld_list    As New List
 

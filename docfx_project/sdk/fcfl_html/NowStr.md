@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Const NowStr = -999
+```
 
-**Description**
+#### Description
 
 This is a constant that you may choose to add to your programs. In truth, you can actually use the integer (-999) defined above, but it is better to define the constant.
 

@@ -1,5 +1,5 @@
 _GetGbstElmObjid_
------------------
+--------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetGbstElmObjid(ByVal ListName As String, ByVal Element As String) As Long
+```
 
-**Description**
+#### Description
 
 This method returns an objid for a given element in a given Application Popup list. If the element is not found in the list, this method returns a value of zero.
 
@@ -26,19 +28,17 @@ The gbst_elm table is cached in the FCApplication object, so this method does no
 
 **Returns**
 
-The objid of the Element in the ListName list. Zero, if the Element is not found in the ListName list. |
+The objid of the Element in the ListName list. Zero, if the Element is not found in the ListName list.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10008 | ListName must not be empty. |
+| 10009 | Invalid ListName. |
+| 10010 | Element must not be empty. |
 
-10008                                      ListName must not be empty.
-
-10009                                      Invalid ListName.
-
-10010                                      Element must not be empty. |
-
-**Example**
+#### Examples
 
 The following example retrieves the objid for a Case Priority from a posted form value.
 

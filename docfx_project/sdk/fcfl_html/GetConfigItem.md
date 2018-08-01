@@ -1,6 +1,5 @@
 _GetConfigItem_
----------------
-
+------------
 **Object and Type**
 
 Object  : FCSession
@@ -9,15 +8,14 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetConfigItem(ByVal ConfigItem As String,
-
                               ByVal FieldName As String,
-
                               Optional ByVal LoginName As String = "")
-
                               As Variant
+```
 
-**Description**
+#### Description
 
 This method returns a configuration item from the database. You must specify the name of the configuration item, along with the particular field you wish to retrieve. The field name should be a valid field in the config_itm table. In addition, you can optionally specify the login name of user, thus allowing retrieval of user-defined configuration items. You can also retrieve system wide configuration data using the Item method.
 
@@ -35,11 +33,11 @@ The value of the field for the configuration item. If the configuration item is 
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 11005 | Not logged in to an active session |
 
-11005                                      Not logged in to an active session |
-
-**Example**
+#### Examples
 
 The following example retrieves a system-wide and a user configuration item.
 

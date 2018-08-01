@@ -9,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetNextNumSubcaseID(ByVal CaseID As String, ByVal 
-
                                     CaseCondID As Long) As String
+``` 
 
-**Description**
+#### Description
 
 This method is returns the next available ID number for a subcase for the given case.
 

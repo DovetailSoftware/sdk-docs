@@ -4,9 +4,9 @@ create_employee
 create_employee_list
 ----------------------
 
-Public Function create_employee(
-
-            ByVal first_name As String, ByVal last_name As String, _
+```
+Public Function create_employee( 
+            ByVal first_name As String, ByVal last_name As String, _
             ByVal login_name As String, ByVal password As String, _
             ByVal site_id As String, ByVal e_mail As String, _
             ByVal phone As String, ByVal pager As String, _
@@ -26,10 +26,11 @@ Public Function create_employee(
             ByVal str_fld1 As String, ByVal str_val1 As String, _
             ByVal str_fld2 As String, ByVal str_val2 As String, _
             ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_employee_list(
-
-            ByVal first_name As String, ByVal last_name As String, _
+            ByVal first_name As String, ByVal last_name As String, _
             ByVal login_name As String, ByVal password As String, _
             ByVal site_id As String, ByVal e_mail As String, _
             ByVal phone As String, ByVal pager As String, _
@@ -46,8 +47,9 @@ Public Function create_employee_list(
             ByVal def_tablespace As String, ByVal temp_tablespace As String, _
             Optional fld_list As Variant, Optional type_list As Variant, _
             Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 This API creates an employee in Clarify. It actually creates an employee record, a user record, and a wipbin record. In addition, it creates a user/login in the database system tables.
 
@@ -100,91 +102,72 @@ This has the following implications:
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | First Name is required |
+| -2 | Last Name is required |
+| -3 | Login Name is required |
+| -4 | Password is required |
+| -5 | Site Id is required |
+| -6 | Email Address is required |
+| -7 | Online Privilege Class is required |
+| -8 | The supplied workgroup was not found |
+| -9 | Could not find the specified site |
+| -10 | Could not find the specified privilege class |
+| -11 | Could not find the specified offline privilege class |
+| -12 | Could not find an offline privilege class |
+| -13 | Could not find the specified supervisor |
+| -14 | A user with the same login name already exists |
+| -15 | Could not find the specified resource config |
+| -16 | Could not find the baseline resource config |
+| -17 | A user with the same username already exists in the system tables |
+| -18 | Unable to create the database user/login |
+| -19 | **Oracle database only:** Login Name can only contain alphanumeric characters from your database character set and the underscore (_), dollar sign ($), and pound sign (#). It also must begin with an alphabetic character. |
+| ret_objid | Output - Returns the objid of the employee |
+| ret_objid2 | Output - Returns the objid of the user |
 
-0                                              No errors
+#### Examples
 
--1                                             First Name is required
-
--2                                             Last Name is required
-
--3                                             Login Name is required
-
--4                                             Password is required
-
--5                                             Site Id is required
-
--6                                             Email Address is required
-
--7                                             Online Privilege Class is required
-
--8                                             The supplied workgroup was not found
-
--9                                             Could not find the specified site
-
--10                                           Could not find the specified privilege class
-
--11                                           Could not find the specified offline privilege class
-
--12                                           Could not find an offline privilege class
-
--13                                           Could not find the specified supervisor
-
--14                                           A user with the same login name already exists
-
--15                                           Could not find the specified resource config
-
--16                                           Could not find the baseline resource config
-
--17                                           A user with the same username already exists in the system tables
-
--18                                           Unable to create the database user/login
-
--19                                           **Oracle database only:** Login Name can only contain alphanumeric characters from your database character set and the underscore (_), dollar sign ($), and pound sign (#). It also must begin with an alphabetic character. |
-| ret_objid | Output | Returns the objid of the employee |
-| ret_objid2 | Output | Returns the objid of the user
-
-**Examples**
-
- Add a new employee.
+Add a new employee.
 
 **Visual Basic:**
 
 first_name = "Joe"
 
 last_name = "User"
+  
+   login_name = "joe_user"
+  
+   password = "password"
 
-   login_name = "joe_user"
-
-   password = "password"
-
-   site_id = "INT1"
-
+   site_id = "INT1"  
+  
    e_mail = first_name + "@company.com"
-
-   online_priv_class = "CSR"
-
-   offline_priv_class = "Offline User"
-
-   Id = "100"
+  
+   online_priv_class = "CSR"
+  
+   offline_priv_class = "Offline User"
+  
+   Id = "100"
 
    is_active = True
 
    allow_proxy = True
 
    is_supervisor = True
-
-   is_fe = True
-
+  
+   is_fe = True  
+  
    labor_rate = "100.00"
-
-   start_date = "1/1/2000"
-
-   supervisor = "sa"
-
-   work_group = "Quality Engineer"
+  
+   start_date = "1/1/2000"
+  
+   supervisor = "sa"
+  
+   work_group = "Quality Engineer"
 
    work_group_start = "12/27/2002"
 
@@ -229,9 +212,9 @@ str_fld2 = ""
 str_val2 = ""
 
 date_fld1 = ""
-
-date_val1 = ""
-
+ |
+date_val1 = "" |
+ |
    ret_int = fcinter.create_employee(first_name, last_name, _
                      login_name, password, _
  site_id, e_mail, _
@@ -252,15 +235,14 @@ def_tablespace, temp_tablespace, _
                      str_fld1, str_val1, _
                      str_fld2, str_val2, _
                      date_fld1, date_val1)
-
-   If ret_int = 0
-
+| 
+ | If ret_int = 0
+ |
       EmployeeObjid = fcinter.ret_objid
 
       UserObjid = fcinter.ret_objid2
-
-   End If
-
+ End If
+ 
 **Javascript:**
 
   first_name = "Joe"
@@ -344,22 +326,22 @@ def_tablespace, temp_tablespace, _
  date_val1 = '';
 
  var ret_int = fcinter.create_employee(first_name, last_name,
-
-                                            login_name, password,
+  
+   login_name, password,
 
 site_id, e_mail,
-
-                                            phone, pager,
+  
+   phone, pager,
 
  online_priv_class,offline_priv_class,
-
-                                            Id, is_active,
-
-                                            allow_proxy, start_date,
-
-                                            supervisor, work_group,
-
-                                            work_group_start, labor_rate,
+  
+   Id, is_active,
+  
+   allow_proxy, start_date,
+  
+   supervisor, work_group,
+  
+   work_group_start, labor_rate,
 
                                             is_supervisor, is_fe,
 
@@ -375,12 +357,12 @@ site_id, e_mail,
 
  int_fld1, int_val1,
 
-                                            int_fld2, int_val2,
-
-                                            str_fld1, str_val1,
-
-                                            str_fld2, str_val2,
-
+                                            int_fld2, int_val2,  
+  
+                                            str_fld1, str_val1,  
+  
+                                            str_fld2, str_val2,  
+  
                                             date_fld1, date_val1);
 
    if (ret_int == 0) {

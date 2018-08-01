@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public RowLimit As Integer
+```
 
-**Description**
+#### Description
 
 This property allows you to set the _RowLimit_ property for all Generic objects subsequently created from this session. Each new Generic will inherit the property from the session.
 

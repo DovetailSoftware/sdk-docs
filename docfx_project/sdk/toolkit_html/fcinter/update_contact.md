@@ -7,6 +7,7 @@ update_contact_list
 update_contact_objid_list
 ---------------------------
 
+```
 Public Function update_contact(ByVal first As String, ByVal last As String, _
        ByVal phone As String, ByVal site_id As String, ByVal role As String, _
        ByVal fax As String, ByVal email As String, ByVal mail_stop As String, _
@@ -18,7 +19,9 @@ Public Function update_contact(ByVal first As String, ByVal last As String, _
        ByVal int_val2 As Long, ByVal str_fld1 As String, ByVal str_val1 As String, _
        ByVal str_fld2 As String, ByVal str_val2 As String, _
        ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function update_contact_list(ByVal first As String, _
        ByVal last As String, ByVal phone As String, ByVal site_id As String, _
        ByVal role As String, ByVal fax As String, ByVal email As String, _
@@ -28,7 +31,9 @@ Public Function update_contact_list(ByVal first As String, _
        ByVal new_phone As String, ByVal new_prim_site_id As String, _
        ByVal new_prim_role As String, Optional fld_list As Variant, _
        Optional type_list As Variant, Optional val_list As Variant) As Integer
+```
 
+```
 Public Function update_contact_objid_list(ByVal contact_objid As Integer, _
        ByVal site_id As String, ByVal role As String, ByVal fax As String, _
        ByVal email As String, ByVal mail_stop As String, ByVal the_title As String, _
@@ -37,8 +42,9 @@ Public Function update_contact_objid_list(ByVal contact_objid As Integer, _
        ByVal new_phone As String, ByVal new_prim_site_id As String, _
        ByVal new_prim_role As String, Optional fld_list As Variant, _
        Optional type_list As Variant, Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs update a contact in the database. The update_contact and update_contact_list APIs use the first name, last name, and phone are used to look up the contact in the database. The update_contact_objid_list looks up the contact by objid. The other fields for the contact can be set. If they are left blank, then they are not set but are left at their current values.
 
@@ -77,46 +83,35 @@ The new_prim_site and new_prim_role fields allow the primary contact role to be 
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-\* \- contact_objid is required for update_contact_objid_list. first, last, phone are required for update_contact and update_contact_list. |
+\* \- contact_objid is required for update_contact_objid_list. first, last, phone are required for update_contact and update_contact_list.
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors
+| 1 | Contact role already exists |
+| -1 | First, Last, Phone not supplied for contact |
+| -2 | Could not find the specified site |
+| -3 | Could not find specified contact role in list |
+| -4 | A contact with the same first name, last name and phone already exists |
+| -5 | Cannot find the activity string CREATE CONTACT rank equal to 14000 |
+| -6 | Cannot find the activity string MODIFY rank equal to 1500 |
+| -7 | The specified role for the contact is already an alternate role for the specified site |
+| -8 | The specified role for the contact is already the primary role for the specified site |
+| -9 | The specified new site for the new primary role does not exist |
+| -10 | Could not find specified new primary contact role in list |
+| -11 | The specified role for the contact is already an alternate role for the specified site |
+| ret_objid | Output - Returns the objid of the contact |
 
-0                                              No errors
+#### Examples
 
-1                                              Contact role already exists
-
--1                                             First, Last, Phone not supplied for contact
-
--2                                             Could not find the specified site
-
--3                                             Could not find specified contact role in list
-
--4                                             A contact with the same first name, last name and phone already exists
-
--5                                             Cannot find the activity string CREATE CONTACT rank equal to 14000                 
-
--6                                             Cannot find the activity string MODIFY rank equal to 1500
-
--7                                             The specified role for the contact is already an alternate role for the specified site
-
--8                                             The specified role for the contact is already the primary role for the specified site
-
--9                                             The specified new site for the new primary role does not exist
-
--10                                           Could not find specified new primary contact role in list
-
--11                                           The specified role for the contact is already an alternate role for the specified site |
-| ret_objid | Output | Returns the objid of the contact
-
-**Examples**
-
- Update Mary Smith. Change her name to "Mary Jones", and her phone number.
+Update Mary Smith. Change her name to "Mary Jones", and her phone number.
 
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 ret_int = fcinter.update_contact("Mary", "Smith", "555-1213", _
           "43", "End User", "", "", "", "", "","", "Jones", _
@@ -138,6 +133,7 @@ var ret_int = fcinter.update_contact("Mary", "Smith",
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 ret_int = fcinter.update_contact("Mary", "Jones", "555-2222", _
           "43", "End User", "", "", "", "", "","", "", _

@@ -1,6 +1,7 @@
 part_transfer
 -------------
 
+```
 Public Function part_transfer(ByVal part_num As String, _
                               ByVal mod_level As String, ByVal domain_name As String, _
                               ByVal quantity_num As Long, ByVal serial_num As String, _
@@ -13,8 +14,9 @@ Public Function part_transfer(ByVal part_num As String, _
                               ByVal gen_time_bombs As Boolean, ByVal fifo_flag As Integer, _
                               ByVal update_cost As String, ByVal update_source As String, _
                               ByVal trans_id As String, ByVal std_cost As String) As Integer
+```
 
-**Description**
+#### Description
 
 This is the FCFL version of the part transfer API. This API emulates the Clarify part transfer mechanism. The part/revision/domain are specified (the part to be transferred). Also specified are the from location/bin and the to location/bin. The quantity and serial number of the parts to be transferred are specified, as are some additional information (reference ID, transfer date, and notes).
 
@@ -78,82 +80,50 @@ To do this, specify (in the trans_id argument), the transaction ID of the previo
 | trans_id | Yes | Output argument with the transaction ID of the part transfer |
 | std_cost | Yes | Output argument with the standard cost of the part transfer |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | To location/bin and from location/bin cannot be the same |
+| -2 | Cannot transfer quantities < 1 |
+| -3 | Cannot transfer quantities > 1 if a serial number is specified |
+| -4 | Cannot locate the specified part number |
+| -5 | Part is serial-tracked, but no serial number was specified |
+| -6 | No part revision record found for specified revision |
+| -7 | Cannot find the "from" location |
+| -8 | Cannot find the "from" bin |
+| -9 | Cannot find the "to" location |
+| -10 | Cannot find the "to" bin |
+| -11 | Cannot find the specified user |
+| -12 | The from container is sealed |
+| -13 | The to container is sealed |
+| -14 | No primary bin can be found for the from location |
+| -15 | No primary bin can be found for the to location |
+| -20 | Serial number is found in inventory, but not at the "from" location/bin |
+| -21 | The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created. |
+| -22 | Cannot find the activity string for TRANSFER with rank = 12300 |
+| -23 | Supplied update cost is not numeric |
+| -24 | There are not enough FIFO units available to perform the transfer |
+| -25 | For transfers into inventory (from expense GL), there are no FIFO records available to increment the count |
+| -26 | The serialized transfer is from good/bad stock, but the inventory part is marked as the opposite (bad/good). For example, the transfer is from bad stock, but the part is marked as good. |
+| -27 | The employee record for the specified user cannot be found |
+| -28 | The Part Instance Detail for part '' with serial number '' cannot be found. |
+| -40 | Invalid value for fifo_flag specified. |
+| -41 | You are attempting to add units to an existing part transfer, but the part transfer is for a serialized part |
+| -42 | You are attempting to add units to an existing part transfer, but the supplied transaction ID is not found |
+| ret_string | Output - Returns the transaction id of the part transfer record |
+| ret_num | Output - Returns the standard cost of the transferred part |
+| ret_objid | Output - Returns the objid of the part transfer record |
 
-0                                              No errors
+#### Examples
 
--1                                             To location/bin and from location/bin cannot be the same
-
--2                                             Cannot transfer quantities < 1
-
--3                                             Cannot transfer quantities > 1 if a serial number is specified
-
--4                                             Cannot locate the specified part number
-
--5                                             Part is serial-tracked, but no serial number was specified
-
--6                                             No part revision record found for specified revision
-
--7                                             Cannot find the "from" location
-
--8                                             Cannot find the "from" bin
-
--9                                             Cannot find the "to" location
-
--10                                           Cannot find the "to" bin
-
--11                                           Cannot find the specified user
-
--12                                           The from container is sealed
-
--13                                           The to container is sealed
-
--14                                           No primary bin can be found for the from location
-
--15                                           No primary bin can be found for the to location
-
--20                                           Serial number is found in inventory, but not at the "from" location/bin
-
--21                                         The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created.
-
--22                                           Cannot find the activity string for TRANSFER with rank = 12300
-
--23                                           Supplied update cost is not numeric
-
--24                                           There are not enough FIFO units available to perform the transfer
-
--25                                           For transfers into inventory (from expense GL), there are no FIFO records
-
-available to increment the count
-
--26                                           The serialized transfer is from good/bad stock, but the inventory part is marked as the opposite
-
-(bad/good). For example, the transfer is from bad stock, but the part is marked as good.
-
--27                                           The employee record for the specified user cannot be found
-
--28                                           The Part Instance Detail for part '' with serial number '' cannot be found.
-
--40                                           Invalid value for fifo_flag specified.
-
--41                                           You are attempting to add units to an existing part transfer, but the part transfer is for a serialized part
-
--42                                           You are attempting to add units to an existing part transfer, but the supplied
-
-transaction ID is not found |
-| ret_string | Output | Returns the transaction id of the part transfer record |
-| ret_num | Output | Returns the standard cost of the transferred part |
-| ret_objid | Output | Returns the objid of the part transfer record
-
-**Examples**
-
- Transfer 20 units of Accounting 101 from an expense GL account to the primary bin in Austin. All stock is good. Use FIFO costing.
+Transfer 20 units of Accounting 101 from an expense GL account to the primary bin in Austin. All stock is good. Use FIFO costing.
 
 **Visual Basic:**
 
     Dim ret_int   As Integer
+```
 
     Dim trans_id  As String
 
@@ -183,6 +153,7 @@ var ret_int = fccl.part_transfer("Accounting", "101", "QuantityDomain", 20,
 **Visual Basic:**
 
 Dim ret_int   As Integer
+```
 
 Dim trans_id  As String
 
@@ -212,6 +183,7 @@ var ret_int = fccl.part_transfer("MS Word", "7.0", "Product", 1, "555666",
 **Visual Basic:**
 
 Dim ret_int   As Integer
+```
 
 Dim trans_id  As String
 
@@ -242,6 +214,7 @@ var ret_int = fccl.part_transfer("Notebook", "", "Product", 15, "",
 **Visual Basic:**
 
 Dim ret_int   As Integer
+```
 
 Dim trans_id  As String
 

@@ -1,5 +1,5 @@
 _Delete_
---------
+-----
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Delete()
+```
 
-**Description**
+#### Description
 
 This method deletes the current record in a generic object. You may not call on Delete when BOF or EOF is True, and you may not attempt to Delete a new (and as-of-yet uncommitted) record.
 
@@ -25,13 +27,12 @@ Further, when you perform a Delete, the current record is moved to the next avai
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12013 | You may not delete a record marked to be added to the generic object |
+| 12031 | This operation is not valid for a generic that is marked distinct |
 
-12013                                      You may not delete a record marked to be added to the generic object
-
-12031                                      This operation is not valid for a generic that is marked distinct
-
-**Example**
+#### Examples
 
 The following example deletes all records in a custom table called "my_table".
 

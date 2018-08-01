@@ -4,8 +4,9 @@ create_update_contract
 create_update_contract_list
 -----------------------------
 
+```
 Public Function create_update_contract(ByVal contract_id As String, _
-                                       ByVal contract_type As String, _
+                                 ByVal contract_type As String, _
                                  ByVal status As String, _
                                  ByVal po_number As String, _
                                  ByVal pay_options As String, _
@@ -30,7 +31,9 @@ Public Function create_update_contract(ByVal contract_id As String, _
                                  ByVal str_val2 As String, _
                                  ByVal date_fld1 As String, _
                                  ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_update_contract_list(ByVal contract_id As String, _
                                             ByVal contract_type As String, _
                                             ByVal status As String, _
@@ -51,8 +54,9 @@ Public Function create_update_contract_list(ByVal contract_id As String, _
                                             Optional type_list As Variant, _
                                             Optional val_list As Variant) _
                                             As Integer
+```
 
-**Description**
+#### Description
 
 These APIs create or update a contract. An existing contract can be updated, or a new contract can be created.
 
@@ -80,36 +84,29 @@ These APIs create or update a contract. An existing contract can be updated, or 
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Specified Contract Type Not Found |
+| -2 | Specified Contract Status Not Found |
+| -3 | Specified Start Date is invalid |
+| -4 | Specified Expire Date is invalid |
+| -5 | Expire Date is earlier than the Start Date |
+| -6 | One of the Unit values is negative (-1 is allowed) |
+| -7 | Units Available does not equal Units Purchased minus Units Used |
+| -8 | Special Consideration needs to be 0 (false) or 1 (true) |
+| ret_objid | Output - Returns the objid of the contract |
 
-0                                              No errors
+#### Examples
 
--1                                             Specified Contract Type Not Found
-
--2                                             Specified Contract Status Not Found
-
--3                                             Specified Start Date is invalid
-
--4                                             Specified Expire Date is invalid
-
--5                                             Expire Date is earlier than the Start Date
-
--6                                             One of the Unit values is negative (-1 is allowed)
-
--7                                             Units Available does not equal Units Purchased minus Units Used
-
--8                                             Special Consideration needs to be 0 (false) or 1 (true) |
-| ret_objid | Output | Returns the objid of the contract
-
-**Examples**
-
- Create a new software support contract.  Use the default status. Assign a purchase order to it, and use 1 hour and 1 day as the response times. Set the start date and end date, and they purchased 50 phone calls. Add some special considerations to the contract.
+Create a new software support contract.  Use the default status. Assign a purchase order to it, and use 1 hour and 1 day as the response times. Set the start date and end date, and they purchased 50 phone calls. Add some special considerations to the contract.
 
 **Visual Basic:**
 
 Dim ret_int        As Integer
+```
 
 Dim contract_objid As Long
 

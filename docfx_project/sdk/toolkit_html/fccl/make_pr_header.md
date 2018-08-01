@@ -10,6 +10,7 @@ make_pr_header_case_list
 make_pr_header_subcase_list
 -------------------------------
 
+```
 Public Function make_pr_header(ByVal first_name As String, _
                                ByVal last_name As String, ByVal phone_num As String, _
                                ByVal ship_site_id As String, ByVal bill_site_id As String, _
@@ -23,7 +24,9 @@ Public Function make_pr_header(ByVal first_name As String, _
                                ByVal str_fld2 As String, ByVal str_val2 As String, _
                                ByVal date_fld1 As String, ByVal date_val1 As String) _
                                As Integer
+```
 
+```
 Public Function make_pr_header_list(ByVal first_name As String, _
                                ByVal last_name As String, ByVal phone_num As String, _
                                ByVal ship_site_id As String, ByVal bill_site_id As String, _
@@ -33,7 +36,9 @@ Public Function make_pr_header_list(ByVal first_name As String, _
                                ByVal create_date As String, ByVal contract_objid As Long, _
                                Optional fld_list As Variant, Optional type_list As Variant, _
                                Optional val_list As Variant) As Integer
+```
 
+```
 Public Function make_pr_header_case_list(ByVal first_name As String, _
                                ByVal last_name As String, ByVal phone_num As String, _
                                ByVal ship_site_id As String, ByVal bill_site_id As String, _
@@ -43,7 +48,9 @@ Public Function make_pr_header_case_list(ByVal first_name As String, _
                                ByVal create_date As String, ByVal contract_objid As Long, _
                                Optional fld_list As Variant, Optional type_list As Variant, _
                                Optional val_list As Variant) As Integer
+```
 
+```
 Public Function make_pr_header_subcase_list(ByVal first_name As String, _
                                ByVal last_name As String, ByVal phone_num As String, _
                                ByVal ship_site_id As String, ByVal bill_site_id As String, _
@@ -53,8 +60,9 @@ Public Function make_pr_header_subcase_list(ByVal first_name As String, _
                                ByVal create_date As String, ByVal contract_objid As Long, _
                                Optional fld_list As Variant, Optional type_list As Variant, _
                                Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create new part request headers. The contact and site information must be specified. Everyhing else (related case, user-defined lists, notes, queue, creation date) is optional.
 
@@ -90,50 +98,37 @@ You may specify a number of values such as the billing site (defaults to the mai
 | int_fld1, int_fld2<br>str_fld1, str_fld2<br>date_fld1 | No | Names of additional fields to write |
 | int_val1, int_val2<br>str_val1, str_val2<br>date_val1 | No | Values for the additional fields. These values are only used if the corresponding field name field is filled with a valid field name |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | No shipping site ID was supplied. |
+| -2 | The specified contact was not found. |
+| -3 | The specified shipping site ID was not found. |
+| -4 | The specified billing site ID was not found. |
+| -5 | The specified user was not found. |
+| -6 | The specified case ID was not found. |
+| -7 | The specified payment method was not found. |
+| -8 | The specified payment terms were not found. |
+| -9 | The specified priority was not found. |
+| -10 |  The specified create date is not valid. |
+| -11 | The specified shipping site does not have a related country record. |
+| -12 | The specified shipping site does not have a related state record. |
+| -13 | Could not find the address for specified site |
+| -14 | The first name, last name, and phone number cannot all be blank for the contact |
+| ret_id_num | Output - Returns the header id of the newly created part request |
 
-0                                              No errors
+#### Examples
 
--1                                             No shipping site ID was supplied.                
-
--2                                             The specified contact was not found.             
-
--3                                             The specified shipping site ID was not found.    
-
--4                                             The specified billing site ID was not found.     
-
--5                                             The specified user was not found.                
-
--6                                             The specified case ID was not found.             
-
--7                                             The specified payment method was not found.      
-
--8                                             The specified payment terms were not found.      
-
--9                                             The specified priority was not found.            
-
--10                                           The specified create date is not valid.          
-
--11                                           The specified shipping site does not have a related country record.
-
--12                                           The specified shipping site does not have a related state record.
-
--13                                           Could not find the address for specified site
-
--14                                           The first name, last name, and phone number cannot all be blank for the contact |
-| ret_id_num | Output | Returns the header id of the newly created part request
-
-**Examples**
-
- Create a new part request header. Specify the site of 'First Choice', and contact of Jack Lacy. Also, generate a time bomb. All other information is defaulted.
+Create a new part request header. Specify the site of 'First Choice', and contact of Jack Lacy. Also, generate a time bomb. All other information is defaulted.
 
 **Field version:**
 
 **Visual Basic:**
 
 Dim ret_int   As Integer
+```
 
 Dim hdr_num   As String
 
@@ -148,9 +143,9 @@ End If
 **Javascript:**
 
 var ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905",
-
-                              "First Choice", "", "", "", "", "", "",
-
+| 
+ | "First Choice", "", "", "", "", "", "",
+ |
                               "", "", 0, "", 0, "", 0, "", "", "", "", "", ""); If (ret_int == 0) { var hdr_num =fccl_ret_id_num; }
 
 **List version:**
@@ -158,6 +153,7 @@ var ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905",
 **Visual Basic:**
 
 Dim ret_int     As Integer
+```
 
 Dim hdr_num     As String
 
@@ -190,9 +186,9 @@ var type_list = Server.CreateObject("FCFLCompat.FCList");
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 var ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905",
-
-                                   "First Choice", "", "", "", "", "", "",
-
+| 
+ | "First Choice", "", "", "", "", "", "",
+ |
                                    "", "", 0, fld_list, type_list, val_list); If (ret_int == 0) { var hdr_num =fccl_ret_id_num; }
 
  Create a new part request header. Specify the site of 'First Choice', and contact of Jack Lacy. Also, do not generate a time bomb. Specify reasonable values for case ID, and other choices. Add some additional fields.
@@ -202,6 +198,7 @@ var ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905",
 **Visual Basic:**
 
 Dim ret_int   As Integer
+```
 
 Dim hdr_num   As String
 
@@ -219,11 +216,11 @@ End If
 **Javascript:**
 
 var ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905", "First Choice",
-
-                             "site2", "Case42", "Check", "Net 10", "Priority 1", "sa",
-
-                             "notes", "11/11/01", 0, "x_int1", 20, "", 0, "x_str1",
-
+| 
+ | "site2", "Case42", "Check", "Net 10", "Priority 1", "sa",
+| 
+ | "notes", "11/11/01", 0, "x_int1", 20, "", 0, "x_str1", |
+ |
                               "Value 1", "", "", "", ""); If (ret_int == 0) { var hdr_num = fccl.ret_id_num; }
 
 **List version:**
@@ -231,6 +228,7 @@ var ret_int = fccl.make_pr_header("Jack", "Lacy", "512-418-2905", "First Choice"
 **Visual Basic:**
 
 Dim ret_int     As Integer
+```
 
 Dim hdr_num     As String
 
@@ -260,9 +258,9 @@ var type_list = Server.CreateObject("FCFLCompat.FCList");
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 var ret_int = fccl.make_pr_header_list("Jack", "Lacy", "512-418-2905",
-
-                                  "First Choice", "site2", "Case42", "Check",
-
-                                  "Net 10", "Priority 1", "sa", "notes",
-
+  
+   "First Choice", "site2", "Case42", "Check",
+  
+   "Net 10", "Priority 1", "sa", "notes",  
+  
                                   "11/11/2001", 0, fld_list, type_list, val_list); If (ret_int == 0) { var hdr_num = fccl.ret_id_num; }

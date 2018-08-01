@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public ErrorOnQueryTooBig As Boolean
+```
 
-**Description**
+#### Description
 
 If you query the database, and a Generic object has a _RowLimit_ associated with it, and the query returns more rows than the Generic allows, this property controls the behavior of **FCFL**. If the property is set to _True_ (the default), then **FCFL** will throw an error.
 

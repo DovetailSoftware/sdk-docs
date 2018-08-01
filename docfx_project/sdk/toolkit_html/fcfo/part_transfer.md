@@ -1,6 +1,7 @@
 part_transfer
 -------------
 
+```
 Public Function part_transfer(ByVal part_num As String, _
                   ByVal mod_level As String, ByVal domain_name As String, _
                   ByVal quantity_num As Long, ByVal serial_num As String, _
@@ -13,8 +14,9 @@ Public Function part_transfer(ByVal part_num As String, _
                   ByVal gen_time_bombs As Boolean, ByVal fifo_flag As Integer, _
                   ByVal update_cost As String, ByVal update_source As String, _
                   trans_id As String, ByVal std_cost As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API emulates the Clarify part transfer mechanism. The part/revision/domain are specified (the part to be transferred). Also specified are the from location/bin and the to location/bin. The quantity and serial number of the parts to be transferred are specified, as are some additional information (reference ID, transfer date, and notes).
 
@@ -81,73 +83,47 @@ Not commonly used. If the fifo_flag = 1, it is the FIFO cost of the transfer (on
 | trans_id | Yes | Output argument with the transaction ID of the part transfer |
 | std_cost | Yes | Output argument with the standard cost of the part transfer |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | TO location/bin and FROM location/bin cannot be the same |
+| -2 | Specified quantity is less than 1 |
+| -3 | Can't transfer serialized part with quantity > 1 |
+| -4 | Specified Part Number was not found |
+| -5 | Serial Number was not specified for serialized Part Number |
+| -6 | Mod Level for specified Part Number was not found |
+| -7 | FROM Location for specified Part Number was not found |
+| -8 | FROM Bin for specified Part Number was not found |
+| -9 | TO Location for Specified Part Number was not found |
+| -10 | TO Bin for Specified Part Number was not found |
+| -11 | Specified User not found in database |
+| -12 | FROM Bin for Part Number is sealed |
+| -13 | TO Bin for Part Number is sealed |
+| -14 | FROM Loc/Bin for Part Number was not found |
+| -15 | TO Loc/Bin for Part Number was not found |
+| -20 | Serial number is found in inventory, but not at the "from" location/bin |
+| -21 | The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created. |
+| -22 | Cannot find the activity string for "Transfer" with rank = 12300 |
+| -23 | Supplied update cost is not numeric |
+| -26 | Invalid part transfer.  Attempting to transfer a good part that was marked bad, or vice versa |
+| -27 | The Part Instance was not found in the FROM location/bin |
+| -28 | There is not enough quantity of the  Part Instance in the FROM location/bin |
+| -40 | Invalid value for fifo_flag specified |
+| -41 | Cannot add units to an existing part transfer, because the part transfer is for a serialized part |
+| -42 | Specified Part Transfer for augmentation was not found |
+| ret_string | The transaction record ID number |
+| ret_num | The standard cost of the transaction |
 
-0                                              No errors
-
--1                                             TO location/bin and FROM location/bin cannot be the same
-
--2                                             Specified quantity is less than 1
-
--3                                             Can't transfer serialized part with quantity > 1
-
--4                                             Specified Part Number was not found
-
--5                                             Serial Number was not specified for serialized Part Number
-
--6                                             Mod Level for specified Part Number was not found
-
--7                                             FROM Location for specified Part Number was not found
-
--8                                             FROM Bin for specified Part Number was not found
-
--9                                             TO Location for Specified Part Number was not found
-
--10                                           TO Bin for Specified Part Number was not found
-
--11                                           Specified User not found in database
-
--12                                           FROM Bin for Part Number is sealed
-
--13                                           TO Bin for Part Number is sealed
-
--14                                           FROM Loc/Bin for Part Number was not found
-
--15                                           TO Loc/Bin for Part Number was not found
-
--20                                           Serial number is found in inventory, but not at the "from" location/bin
-
--21                                         The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created.
-
--22                                           Cannot find the activity string for "Transfer" with rank = 12300
-
--23                                           Supplied update cost is not numeric
-
--26                                           Invalid part transfer.  Attempting to transfer a good part that was marked bad, or vice versa
-
--27                                           The Part Instance was not found in the FROM location/bin
-
--28                                           There is not enough quantity of the  Part Instance in the FROM location/bin
-
--40                                           Invalid value for fifo_flag specified
-
--41                                           Cannot add units to an existing part transfer, because the part transfer is for a serialized part
-
--42                                           Specified Part Transfer for augmentation was not found
-
-ret_string                               The transaction record ID number
-
-ret_num                                 The standard cost of the transaction
-
-**Examples**
+#### Examples
 
  Transfer 20 units of Accounting 101 from an expense GL account to the primary bin in Austin. All stock is good. Use FIFO costing.
 
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
    Dim trans_id  As String
 
@@ -183,6 +159,7 @@ var ret_int = fcfo.part_transfer("Accounting", "101", "QuantityDomain",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
    Dim trans_id  As String
 
@@ -224,6 +201,7 @@ if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
    Dim trans_id  As String
 
@@ -265,6 +243,7 @@ var ret_int = fcfo.part_transfer("Notebook", "", "Product", 15, "",
 **Visual Basic:**
 
 Dim ret_int   As Integer
+```
 
    Dim trans_id  As String
 

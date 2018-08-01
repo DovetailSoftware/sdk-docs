@@ -1,5 +1,5 @@
 _GetNextNumScheme_
-------------------
+---------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetNextNumScheme(ByVal NumSchemeName As String) As String
+``` 
 
-**Description**
+#### Description
 
 This method is returns the next ID in the specified numbering scheme.
 
@@ -27,13 +29,12 @@ A string that is the the next ID in the specified numbering scheme.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 11016 | Numbering Scheme Name must not be empty |
+| 11015 | Invalid Numbering Scheme |
 
-11016                                      Numbering Scheme Name must not be empty
-
-11015                                      Invalid Numbering Scheme
-
-**Example**
+#### Examples
 
 The following example sets the next ID number for a new case.
 

@@ -8,9 +8,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public db_name As String
+```
 
-**Description**
+#### Description
 
 Contains the name of the database as stored in adp_db_header.db_name.
 

@@ -1,5 +1,5 @@
 _RelateIntFldByID_
-------------------
+---------------
 
 **Object and Type**
 
@@ -9,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub RelateIntFldByID(ByVal the_objid As Long, _
-
                             ByVal the_field As String)
+```
 
-**Description**
+#### Description
 
 There are a number of fields (not relations!) that hold objids of other tables in them. For example, in the site_part table, the _site_objid_ field contains the objid of the related Site object.
 
@@ -32,13 +33,12 @@ You must update the object via the Update or UpdateAll method for the relation t
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12014 | The specified field is not a long integer field |
+| 12031 | This operation is not valid for a generic that is marked distinct |
 
-12014                                      The specified field is not a long integer field
-
-12031                                      This operation is not valid for a generic that is marked distinct
-
-**Example**
+#### Examples
 
 The following example sets the site_objid field of a site_part to a specific value: 268435457.
 

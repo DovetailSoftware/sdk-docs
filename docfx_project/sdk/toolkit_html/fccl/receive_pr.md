@@ -4,6 +4,7 @@ receive_pr
 receive_pr_no_trans
 ---------------------
 
+```
 Public Function receive_pr(pr_num As String, _
                            ByVal from_loc As String, ByVal from_bin As String, _
                            ByVal from_cont As String, ByVal from_good As Boolean, _
@@ -16,7 +17,9 @@ Public Function receive_pr(pr_num As String, _
                            ByVal user_name As String, ByVal receive_date As String, _
                            ByVal auto_close As Boolean, ByVal gen_time_bombs As Boolean) _
                            As Integer
+```
 
+```
 Public Function receive_pr_no_trans(pr_num As String, _
                            ByVal from_loc As String, ByVal from_bin As String, _
                            ByVal from_cont As String, ByVal from_good As Boolean, _
@@ -29,8 +32,9 @@ Public Function receive_pr_no_trans(pr_num As String, _
                            ByVal user_name As String, ByVal receive_date As String, _
                            ByVal auto_close As Boolean, ByVal gen_time_bombs As Boolean) _
                            As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified part request to have units received against it. The API supports both quantity and serial number receives. It validates the transition from the current condition to the Received condition (for the specified user). The API creates the part transaction (including standard costs), part instance records, receive parts records, and activity logs. The API can also generate a time bomb (for business rule notification).
 
@@ -72,79 +76,52 @@ Good and bad inventory levels are supported, as is all other base features of re
 | auto_close | Yes | If all of the inventory for this part request is received (or an overrage), should the part request be closed as well? And if it is closed, and no other details exist for the header, should the header be closed as well? |
 | gen_time_bombs | Yes | Should a time_bomb be generated |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
-
-0                                      No errors
-
-+1                                            No errors, but received overage
-
--1                                             From bin and to bin may not be the same bin
-
--2                                             Cannot receive 0 (or fewer) units
-
--3                                             Cannot receive > 1 unit for serialized parts
-
--4                                             Specified user is not found
-
--5                                             Cannot find specified part request (demand_dtl)
-
--6                                             Cannot find the specified from location/bin
-
--7                                             Cannot find the specified to location/bin
-
--8                                             Carrier site cannot be found
-
--9                                             Cannot find the specified status
-
--10                                           Cannot find the part number for the part request
-
--11                                           Serial number specified for quantity tracked part
-
--12                                           No serial number specified for serial tracked part
-
--13                                           No transition exists between current condition and condition Received
-
--14                                           User's privclass does not allow to transition between part request's condition and condition Received
-
--15                                           Cannot find the activity string for RECEIVE with rank = 12200
-
--16                                           The transition (to CLOSED) for auto-close is not found or allowed
-
--17                                           The part request is currently dispatched to a queue
-
--18                                           Cannot find the activity string for CREATE PART REQUEST with rank = 9900
-
--19                                           Attempted to receive inventory from a sealed container
-
--20                                           Attempted to receive inventory into a sealed container
-
--21                                           Could not locate "From" primary bin recommendation
-
--22                                           Could not locate "To" primary bin recommendation
-
--23                                           Part request is closed. You may not receive against it.
-
--24                                           The employee record for the specified user cannot be found
-
--25                                           Can't locate Part with serial number
-
--26                                           Unable to retrieve next detail sequence number for PR Header
-
--27                                           Part Request Header is not related to a Site
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| +1 | No errors, but received overage |
+| -1 | From bin and to bin may not be the same bin |
+| -2 | Cannot receive 0 (or fewer) units |
+| -3 | Cannot receive > 1 unit for serialized parts |
+| -4 | Specified user is not found |
+| -5 | Cannot find specified part request (demand_dtl) |
+| -6 | Cannot find the specified from location/bin |
+| -7 | Cannot find the specified to location/bin |
+| -8 | Carrier site cannot be found |
+| -9 | Cannot find the specified status |
+| -10 | Cannot find the part number for the part request |
+| -11 | Serial number specified for quantity tracked part |
+| -12 | No serial number specified for serial tracked part |
+| -13 | No transition exists between current condition and condition Received |
+| -14 | User's privclass does not allow to transition between part request's condition and condition Received |
+| -15 | Cannot find the activity string for RECEIVE with rank = 12200 |
+| -16 | The transition (to CLOSED) for auto-close is not found or allowed |
+| -17 | The part request is currently dispatched to a queue |
+| -18 | Cannot find the activity string for CREATE PART REQUEST with rank = 9900 |
+| -19 | Attempted to receive inventory from a sealed container |
+| -20 | Attempted to receive inventory into a sealed container |
+| -21 | Could not locate "From" primary bin recommendation |
+| -22 | Could not locate "To" primary bin recommendation |
+| -23 | Part request is closed. You may not receive against it. |
+| -24 | The employee record for the specified user cannot be found |
+| -25 | Can't locate Part with serial number |
+| -26 | Unable to retrieve next detail sequence number for PR Header |
+| -27 | Part Request Header is not related to a Site |
 
 **Part Transfer Error Codes:**
 
--120                                         Serial number is found in inventory, but not at the specified "from" bin
-
--121                                         The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created.
+| Value | Meaning |
+|:--- |:--- |
+| -120 | Serial number is found in inventory, but not at the specified "from" bin |
+| -121 | The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created. |
 
 **Note:** Any other error codes between -100 and -199 are from part transfer. Add 100 to the error code, and check the error code in the part transfer section of this document.
 
-**Examples**
+#### Examples
 
- Receive against part request number '1-14'. Receive from expense GL 'EXPGL' and to the primary bin at the Austin location. All inventory is good. Receive 12 units. Auto-close. Generate time bombs.
+Receive against part request number '1-14'. Receive from expense GL 'EXPGL' and to the primary bin at the Austin location. All inventory is good. Receive 12 units. Auto-close. Generate time bombs.
 
 **Visual Basic:**
 

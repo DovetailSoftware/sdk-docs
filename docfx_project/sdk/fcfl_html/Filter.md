@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Filter As String
+```
 
-**Description**
+#### Description
 
 This property is used for the "where" clause when this generic object queries the database. You must use SQL syntax to specify the "where" clause.
 

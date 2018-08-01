@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub RefreshContext()
+```
 
-**Description**
+#### Description
 
 This method refreshes the Item data collection for the FCSession. If any of the contact or user data is updated, the RefreshContext method should be called in order to update the data in the Item collection.
 

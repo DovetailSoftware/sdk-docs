@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public ParentBO As FCGeneric
+```
 
-**Description**
+#### Description
 
 This property contains the parent generic object for this generic object. This property is used when querying multiple tables, and traversing from one to another. The object placed in this property is the parent generic. For each row in that parent generic, using the relation in the ParentRelation property,  the related rows in this object are found. For example, if we query the case table, and wish also to see the related activity logs for those cases, we would create a generic object for the activity log table, and place the case generic in the ParentBO property of the activity log generic.
 

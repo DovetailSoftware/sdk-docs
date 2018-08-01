@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public DataFields As String
+```
 
-**Description**
+#### Description
 
 This property contains the column(s) that will be queried for this generic object when you query the database.
 

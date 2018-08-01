@@ -1,6 +1,5 @@
 _Item_
-------
-
+---
 **Object and Type**
 
 Object  : FCSession
@@ -9,9 +8,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Property Get Item(TheItem As String) As Variant
+```
 
-**Description**
+#### Description
 
 The Item property allows access to a collection of data stored in the FCSession object.
 
@@ -89,11 +90,10 @@ The following items are available when the LoginType = "contact"
 
 **Value**                             **Meaning**
 
-11001                                      Field given is not a valid field for config_itm.
+| 11001 | Field given is not a valid field for config_itm. |
+| 11002 | Item not found. |
 
-11002                                      Item not found.
-
-**Example**
+#### Examples
 
 The following examples displays the name of either the user or the contact depending on the login type.
 

@@ -1,14 +1,16 @@
 set_part_stocking_lev
 -----------------------
 
+```
 Public Function set_part_stocking_lev(ByVal bin_name As String, _
                            ByVal location_name As String, ByVal queue_name As String, _
                            ByVal part_number As String, ByVal mod_level As String, _
                            ByVal domain_name As String, ByVal part_minimum As Integer, _
                            ByVal part_maximum As Integer, ByVal part_rol As Integer, _
                            ByVal part_roq As Integer, ByVal is_active As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API creates a part restocking authorization level. The location, bin, part number/revision/domain must be specified, as well as the various levels and the reorder queue.
 
@@ -28,44 +30,30 @@ This API creates a part restocking authorization level. The location, bin, part 
 | part_roq | Yes | If a reorder happens, how many get reordered |
 | is_active | Yes | Is this restocking entry active? |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No Errors |
+| -1 | Missing queue parameter |
+| -2 | Missing location parameter |
+| -3 | Missing part number |
+| -4 | Part reorder level < minimum |
+| -5 | Part reorder level > maximum |
+| -6 | Part reorder level < 0 |
+| -7 | Part reorder qty < 0 |
+| -8 | Part minimum < 0 |
+| -9 | Part maximum < 0 |
+| -10 | Location does not exist |
+| -11 | Bin does not exist for given location |
+| -12 | Queue does not exist |
+| -13 | Mod level does not exist |
+| -16 | Part authorization record already exists |
+| ret_objid | Output - Returns the objid of the \[newly created\] part stocking location |
 
-0                                              No Errors
+#### Examples
 
--1                                             Missing queue parameter
-
--2                                             Missing location parameter
-
--3                                             Missing part number
-
--4                                             Part reorder level < minimum
-
--5                                             Part reorder level > maximum
-
--6                                             Part reorder level < 0
-
--7                                             Part reorder qty < 0
-
--8                                             Part minimum < 0
-
--9                                             Part maximum < 0
-
--10                                           Location does not exist
-
--11                                           Bin does not exist for given location
-
--12                                           Queue does not exist
-
--13                                           Mod level does not exist
-
--16                                           Part authorization record already exists |
-| ret_objid | Output | Returns the objid of the \[newly created\] part stocking location
-
-**Examples**
-
- Set a reorder for Bin 2 in Austin for the "CD Rom" part. Set levels and dispatch queue to "High".
+Set a reorder for Bin 2 in Austin for the "CD Rom" part. Set levels and dispatch queue to "High".
 
 **Visual Basic:**
 

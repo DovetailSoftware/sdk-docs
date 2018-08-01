@@ -9,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function is_it_searchable(tbl_name As String, _
-
                                  field_name As String) As Boolean
+``` 
 
-**Description**
+#### Description
 
 This method returns whether a given field is defined (in the specified table) as a searchable field. This is defined only for Oracle databases. SQL Server and Sybase databases do not define searchable (s_) columns. This method will always return "false" for those database types.
 

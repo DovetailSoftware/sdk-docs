@@ -9,15 +9,14 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetItem(path_str As String, _
-
                      start_item As Integer, _
-
                      stop_item As Integer, _
-
                      separator As String) As String
+``` 
 
-**Description**
+#### Description
 
 Returns all the items between first and last within the specified formatted text list. This provides the same functionality as the ClearBasic Item$ function.
 

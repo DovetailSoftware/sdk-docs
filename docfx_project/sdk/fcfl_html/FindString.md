@@ -1,6 +1,5 @@
 _FindString_
-------------
-
+---------
 **Object and Type**
 
 Object  : FCApplication
@@ -9,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function FindString(ByVal StringID As Variant) As String
+```
 
-**Description**
+#### Description
 
 This method retrieves a string from the string_db table, using either the name or the ID of the string.
 
@@ -31,15 +32,13 @@ The retrieved string if one is found, else an empty string. |
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10005 | Invalid Input Type - Must be String or Integer. |
+| 10006 | Input String must not be empty. |
+| 10007 | Input Integer must not be < 0. |
 
-10005                                      Invalid Input Type - Must be String or Integer.
-
-10006                                      Input String must not be empty.
-
-10007                                      Input Integer must not be < 0. |
-
-**Example**
+#### Examples
 
 The following example shows both ways of using the  FindString method to display an error message.
 

@@ -4,6 +4,7 @@ log_subcase_note
 log_subcase_note_list
 -----------------------
 
+```
 Public Function log_subcase_note(ByVal subcase_id As String, _
                     ByVal action_type As String, ByVal note_str As String, _
                     ByVal int_use As String, ByVal log_date As String, _
@@ -17,7 +18,9 @@ Public Function log_subcase_note(ByVal subcase_id As String, _
                     ByVal str_fld2 As String, ByVal str_val2 As String, _
                     ByVal date_fld1 As String, _
                     ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function log_subcase_note_list(ByVal subcase_id As String, _
                     ByVal action_type As String, ByVal note_str As String, _
                     ByVal int_use As String, ByVal log_date As String, _
@@ -28,8 +31,9 @@ Public Function log_subcase_note_list(ByVal subcase_id As String, _
                     Optional fld_list As Variant, _
                     Optional type_list As Variant, _                  
                     Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create a note log against a subcase. The APIs allow for the assigning of notes, internal use only text, and an action type. The date the note is logged can be set, as well as the user who logs the note. You may also specify a new status for the subcase. Additional fields can also be set as well as a time bomb (for the note log), which allows notifications to be generated based on the event.
 
@@ -64,37 +68,25 @@ The objid of the status change record is returned in the FCCS object variable _r
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified case |
+| -2 | Cannot find the specified user |
+| -3 | Cannot find the NOTES activity string |
+| -4 | Cannot find the notes log action type string |
+| -5 | Cannot find employee record for specified user |
+| -6 | The supplied status for the subcase is invalid for the current condition |
+| -7 | A commitment is to be created, but the title is blank |
+| -8 | The prior warning is negative |
+| -9 | The commitment due date is before the log creation date |
+| -10 | Cannot find the COMMIT activity string |
+| -11 | Could not find the com_tmplte for WARNING |
+| -12 | Could not find the com_tmplte for COMMITMENT |
 
-0                                              No errors
-
--1                                             Cannot find the specified case
-
--2                                             Cannot find the specified user
-
--3                                             Cannot find the NOTES activity string
-
--4                                             Cannot find the notes log action type string
-
--5                                             Cannot find employee record for specified user
-
--6                                             The supplied status for the subcase is invalid for the current condition
-
--7                                             A commitment is to be created, but the title is blank
-
--8                                             The prior warning is negative
-
--9                                             The commitment due date is before the log creation date
-
--10                                           Cannot find the COMMIT activity string
-
--11                                           Could not find the com_tmplte for WARNING
-
--12                                           Could not find the com_tmplte for COMMITMENT
-
-**Examples**
+#### Examples
 
  Create a note log for subcase number 'C154-1'. Set the notes for the log, and no other information. Generate a time bomb.
 
@@ -111,6 +103,7 @@ var ret_int = fccs.log_subcase_note("C154-1", "", "Some notes", "", "", "",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.log_subcase_note("C154-1", "", "Some notes", "", "", "", _
                         "", "", "", "", 0, True, True, "", 0, "", 0, _
@@ -129,6 +122,7 @@ var ret_int = fccs.log_subcase_note_list("C154-1", "", "Some notes", "",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 ret_int = fccs.log_subcase_note_list("C154-1", "", "Some notes", "", "", "", _
                                      "", "", "", "", 0, True, True)
@@ -154,6 +148,7 @@ var ret_int = fccs.log_subcase_note("2-2", "Manager Note", "Some notes",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.log_subcase_note("2-2", "Manager Note", "Some notes", _
           "Internal text", "11/23/97 22:00:00", "marty", _
@@ -207,6 +202,7 @@ var ret_int = fccs.log_subcase_note_list("2-2", "Manager Note", "Some notes",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 Dim fld_list    As New List
 

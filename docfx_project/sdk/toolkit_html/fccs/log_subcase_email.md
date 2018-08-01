@@ -4,6 +4,7 @@ log_subcase_email
 log_subcase_ email_list
 -------------------------
 
+```
 Public Function log_subcase_email(ByVal subcase_id As String, _
                     ByVal action_type As String, _
                     ByVal log_date As String, ByVal message As String, _
@@ -13,7 +14,7 @@ Public Function log_subcase_email(ByVal subcase_id As String, _
                     ByVal cmit_due As String, ByVal cmit_prior As Long, _
                     ByVal cmit_to As Boolean, ByVal cmit_action_type As String, _
                     ByVal cmit_contact_objid As Long, _
-  ByVal gen_time_bombs As Boolean, _
+					ByVal gen_time_bombs As Boolean, _
                     ByVal send_email As Boolean, _
                     ByVal int_fld1 As String, ByVal int_val1 As Long, _
                     ByVal int_fld2 As String, ByVal int_val2 As Long, _
@@ -21,7 +22,9 @@ Public Function log_subcase_email(ByVal subcase_id As String, _
                     ByVal str_fld2 As String, ByVal str_val2 As String, _
                     ByVal date_fld1 As String, _
                     ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function log_subcase_email_list(ByVal subcase_id As String, _
                     ByVal action_type As String, _
                     ByVal log_date As String, ByVal message As String, _
@@ -35,8 +38,9 @@ Public Function log_subcase_email_list(ByVal subcase_id As String, _
                     ByVal send_email As Boolean, Optional fld_list As Variant, _
                     Optional type_list As Variant, _
                     Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create an email log against a subcase. The APIs allow for the assigning of the email message, the email recipients, a cc list, and an action type. A new subcase status can be set with this API. Additional fields can also be set as well as a time bomb (for the phone log), which allows notifications to be generated based on the event. You may also specify the user who created/sent the email.
 
@@ -79,43 +83,28 @@ The objid of the status change record is returned in the FCCS object variable _r
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified subcase |
+| -2 | Cannot find the specified user |
+| -3 | Cannot find the EMAIL LOG activity string |
+| -4 | Cannot find the employee record for the specified user |
+| -5 | Cannot find the COM TEMPLATE for sending email |
+| -6 | The specified action type is not valid |
+| -7 | The supplied status is invalid for the current condition |
+| -8 | A commitment is to be created, but the title is blank |
+| -9 | The prior warning is negative |
+| -10 | The commitment due date is before the log creation date |
+| -11 | Cannot find the COMMIT activity string |
+| -12 | Could not find the com_tmplte for WARNING |
+| -13 | Could not find the com_tmplte for COMMITMENT |
+| -14 | Cannot find the specified commitment log action type |
+| -15 | Cannot find the specified contact |
 
-0                                              No errors
-
--1                                             Cannot find the specified subcase
-
--2                                             Cannot find the specified user
-
--3                                             Cannot find the EMAIL LOG activity string
-
--4                                             Cannot find the employee record for the specified user
-
--5                                             Cannot find the COM TEMPLATE for sending email
-
--6                                             The specified action type is not valid
-
--7                                             The supplied status is invalid for the current condition
-
--8                                             A commitment is to be created, but the title is blank
-
--9                                             The prior warning is negative
-
--10                                           The commitment due date is before the log creation date
-
--11                                           Cannot find the COMMIT activity string
-
--12                                           Could not find the com_tmplte for WARNING
-
--13                                           Could not find the com_tmplte for COMMITMENT
-
--14                                           Cannot find the specified commitment log action type
-
--15                                           Cannot find the specified contact
-
-**Examples**
+#### Examples
 
  Create an email to send to 'joe@fred.com' for subcase C154-1. Set the message for the log, and no other information. Do not send the email, just log it. Generate a time bomb.
 
@@ -132,6 +121,7 @@ The objid of the status change record is returned in the FCCS object variable _r
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
    ret_int = fccs.log_subcase_email("C154-1", "", "", "Email message", _
               "joe@fred.com", "", "", "", "", "", "", 0, True, "", 0,
@@ -151,6 +141,7 @@ The objid of the status change record is returned in the FCCS object variable _r
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
    ret_int = fccs.log_subcase_email_list("C154-1", "", "", "Email message", _
               "joe@fred.com", "", "", "", "", "", "", 0, True, "", 0, _
@@ -179,6 +170,7 @@ The objid of the status change record is returned in the FCCS object variable _r
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
    ret_int = fccs.log_subcase_email("2-2", "Internal Email", _
               "11/23/97 22:00:00", "Email message", "joe@fred.com", _
@@ -235,6 +227,7 @@ val_list.AppendItem("1/1/99");
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
    Dim fld_list    As New List
 

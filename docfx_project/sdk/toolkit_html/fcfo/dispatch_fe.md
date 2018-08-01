@@ -1,10 +1,11 @@
 dispatch_fe
 -----------
 
+```
 Public Function dispatch_fe(ByVal case_id As String, _
-                  ByVal user_name As String, ByVal dispatch_time As String, _
+      ByVal user_name As String, ByVal dispatch_time As String, _
       ByVal work_order As String, ByVal appointment_time As String, _
-                  ByVal duration As Long, ByVal description As String, _
+      ByVal duration As Long, ByVal description As String, _
       ByVal cont_fname As String, ByVal cont_lname As String, _
       ByVal address1 As String, ByVal address2 As String, _
       ByVal city As String, ByVal state As String, _
@@ -15,8 +16,9 @@ Public Function dispatch_fe(ByVal case_id As String, _
       ByVal appt_confirm As Long, ByVal cell_text As String, _
       ByVal proxy As String, ByVal removed As Long, _
       ByVal gen_time_bomb As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API creates a dispatch field engineer (work order) record. The caller may specify the appointment time and duration, text about the work order and other fields such as the payment method. The contact and site for the dispatch will be derived from the case/subcase. If this is not correct, the address for the site for the dispatch can be specified in the site_id field. If that is **mostly** correct, but some fields need to be overridden, they can in the extra phone and address fields supplied. Finally, a time bomb for the dispatch FE action can be generated, or not.
 
@@ -51,31 +53,23 @@ This API creates a dispatch field engineer (work order) record. The caller may s
 | removed | No | Optional remove field. Defaults to 0 on the activity record if not specified |
 | gen_time_bomb | Yes | Should a time_bomb be created? |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Could not find Specified case/subcase in database |
+| -2 | Could not find the contact for specified case/subcase |
+| -3 | Cannot find the 'Field Dispatch' activity string with rank = 700 |
+| -4 | Specified user name is not valid |
+| -5 | Specified PAY_METHOD not found in database |
+| -6 | The requested ETA is not a valid date |
+| -7 | Cannot find employee record for specified user |
+| ret_objid | The objid of the new dispatch_fe object is returned by this parameter. |
 
-0                                              No errors
+#### Examples
 
--1                                             Could not find Specified case/subcase in database
-
--2                                             Could not find the contact for specified case/subcase
-
--3                                             Cannot find the 'Field Dispatch' activity string with rank = 700
-
--4                                             Specified user name is not valid
-
--5                                             Specified PAY_METHOD not found in database
-
--6                                             The requested ETA is not a valid date
-
--7                                             Cannot find employee record for specified user
-
-ret_objid                                The objid of the new dispatch_fe object is returned by this parameter.
-
-**Examples**
-
- Dispatch an Engineer for case 3. "sa" logged the request, and we built up the work order number. Override all contact/site information, and generate a time bomb.
+Dispatch an Engineer for case 3. "sa" logged the request, and we built up the work order number. Override all contact/site information, and generate a time bomb.
 
 **Visual Basic:**
 
@@ -91,15 +85,15 @@ Dim ret_int As Integer
 **JavaScript:**
 
    var ret_int = fcfo.dispatch_fe("3", "sa", "", "work order" &
-
-                                  DatePart("m", Date), "", 0, "",
-
-                   "Sam", "Tyson", "112 Jupiter Hollow",
-
+  
+   DatePart("m", Date), "", 0, "",
+  
+   "Sam", "Tyson", "112 Jupiter Hollow",  
+  
                    "Shack #69", "Jupiter", "MN", "88775",
-
-                   "512-418-2905", "",0,  "", "", "", "",
-
+  
+   "512-418-2905", "",0,  "", "", "", "",
+  
                    0, "", "", 0, true);
 
  Dispatch an engineer for subcase 42-2. Don't fill in any extra information. Don't generate a time bomb.
@@ -115,7 +109,7 @@ Dim ret_int As Integer
 **JavaScript:**
 
    var ret_int = fcfo.dispatch_fe("42-2", "", "", "", "", 0, "",
-
-                "", "", "", "", "", "", "", "", "",
-
+  
+   "", "", "", "", "", "", "", "", "",
+  
                 0,  "", "", "", "", 0, "", "", 0, false);

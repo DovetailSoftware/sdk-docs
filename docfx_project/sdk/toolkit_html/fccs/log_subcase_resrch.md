@@ -4,6 +4,7 @@ log_subcase_resrch
 log_subcase_ resrch_list
 --------------------------
 
+```
 Public Function log_subcase_resrch(ByVal subcase_id As String, _
                     ByVal action_type As String, ByVal note_str As String, _
                     ByVal int_use As String, ByVal log_date As String, _
@@ -17,7 +18,9 @@ Public Function log_subcase_resrch(ByVal subcase_id As String, _
                     ByVal str_val1 As String, ByVal str_fld2 As String, _
                     ByVal str_val2 As String, ByVal date_fld1 As String, _
                     ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function log_subcase_resrch_list(ByVal subcase_id As String, _
                    ByVal action_type As String, ByVal note_str As String, _
                    ByVal int_use As String, ByVal log_date As String, _
@@ -28,8 +31,9 @@ Public Function log_subcase_resrch_list(ByVal subcase_id As String, _
                    ByVal gen_time_bombs As Boolean, _
                    Optional fld_list As Variant, Optional type_list As Variant, _
                    Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create a research log against a subcase. The APIs allow for the assigning of notes, internal use only text, and an action type. The research time (in seconds) is specified. For example, a 5 minute log would be 300 seconds. A new status can be set for the subcase with this API. Additional fields can also be set as well as a time bomb (for the phone log), which allows notifications to be generated based on the event.
 
@@ -45,8 +49,7 @@ The objid of the status change record is returned in the FCCS object variable _r
 
 | Parameter Name | Required? | Description |
 |:--- |:--- |:--- |
-
-subcase _id | Yes | The subcase to create the log for |
+| subcase _id | Yes | The subcase to create the log for |
 | action_type | No | The research log action type code value. If left blank, default code is used |
 | notes | No | The research log text |
 | int_use | No | Internal use only information |
@@ -67,39 +70,26 @@ subcase _id | Yes | The subcase to create the log for |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 | log_objid | Output | This field returns the objid of the newly created log object |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Research log time is negative |
+| -2 | Cannot find the specified subcase |
+| -3 | Cannot find the specified user |
+| -4 | Cannot find the RESEARCH LOG activity string |
+| -5 | Cannot find the research log action type string |
+| -6 | Cannot find the employee record for the specified user |
+| -7 | The supplied status is invalid for the current condition |
+| -8 | A commitment is to be created, but the title is blank |
+| -9 | The prior warning is negative |
+| -10 | The commitment due date is before the log creation date |
+| -11 | Cannot find the COMMIT activity string |
+| -12 | Could not find the com_tmplte for WARNING |
+| -13 | Could not find the com_tmplte for COMMITMENT |
 
-0                                              No errors
-
--1                                             Research log time is negative
-
--2                                             Cannot find the specified subcase
-
--3                                             Cannot find the specified user
-
--4                                             Cannot find the RESEARCH LOG activity string
-
--5                                             Cannot find the research log action type string
-
--6                                             Cannot find the employee record for the specified user
-
--7                                             The supplied status is invalid for the current condition
-
--8                                             A commitment is to be created, but the title is blank
-
--9                                             The prior warning is negative
-
--10                                           The commitment due date is before the log creation date
-
--11                                           Cannot find the COMMIT activity string
-
--12                                           Could not find the com_tmplte for WARNING
-
--13                                           Could not find the com_tmplte for COMMITMENT
-
-**Examples**
+#### Examples
 
  Create a research log of 4 minutes for subcase number 'C154-1'. Set the notes for the log, and no other information. Generate a time bomb.
 
@@ -116,6 +106,7 @@ var ret_int = fccs.log_subcase_resrch("C154-1", "", "Some notes", "",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.log_subcase_resrch("C154-1", "", "Some notes", "", _
               "", 240, "", "", "", "", "", 0, True, True, _
@@ -132,6 +123,7 @@ var ret_int = fccs.log_subcase_resrch_list("C154-1", "", "Some notes", "",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 ret_int = fccs.log_subcase_resrch_list("C154-1", "", "Some notes", "", _
               "", 240, "", "", "", "", "", 0, True, True)
@@ -157,6 +149,7 @@ var ret_int = fccs.log_subcase_resrch("2-2", "Engineering Research",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.log_subcase_resrch("2-2", "Engineering Research", _
              "Some notes", _
@@ -213,6 +206,7 @@ var ret_int = fccs.log_subcase_resrch_list("2-2", "Engineering Research",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
    Dim fld_list    As New List
 

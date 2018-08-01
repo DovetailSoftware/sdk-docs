@@ -1,7 +1,5 @@
 ## ret_id_num
 
----
-
 **Prototype**
 
 Public ret_id_num As String

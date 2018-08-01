@@ -1,6 +1,5 @@
 _GetStates_
------------
-
+--------
 **Object and Type**
 
 Object  : FCApplication
@@ -9,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetStates(ByVal Country As String) As ADODB.Recordset
+``` 
 
-**Description**
+#### Description
 
 This method returns a recordset containing the state_prov records for a given country.
 
@@ -31,13 +32,12 @@ An ADO recordset containing the state_prov  records.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10011 | Country must not be empty. |
+| 10012 | Invalid Country |
 
-10011                                      Country must not be empty.
-
-10012                                      Invalid Country
-
-**Example**
+#### Examples
 
 The following example builds a drop-down list of states for the default. The default state is selected.
 

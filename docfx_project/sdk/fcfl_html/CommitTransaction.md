@@ -1,7 +1,5 @@
 ### CommitTransaction
 
----
-
 **Object and Type**
 
 Object  : FCSession
@@ -10,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function CommitTransaction()
+```
 
-**Description**
+#### Description
 
 After calling StartTransaction() this method is called when all database operations for this trasaction are complete.
 

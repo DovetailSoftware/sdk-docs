@@ -8,9 +8,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Name As String
+```
 
-**Description**
+#### Description
 
 This is the name of the FCBulk object. It is set when the bulk is created, and should not be set by the programmer, except in rare circumstances.
 

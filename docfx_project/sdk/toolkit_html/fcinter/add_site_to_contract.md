@@ -1,10 +1,12 @@
 add_site_to_contract
 ----------------------
 
+```
 Public Function add_site_to_contract(ByVal contract_id As String, _
                                      ByVal site_id As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API adds a site to an existing contract. You must specify the contract ID and the site id.
 
@@ -15,28 +17,25 @@ This API adds a site to an existing contract. You must specify the contract ID a
 | contract_id | Yes | ID of contract to add site to |
 | site_id | Yes | ID of site to be added |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | No Contract Id Specified |
+| -2 | No Site Id Specified |
+| -3 | Specified Contract Not Found |
+| -4 | Specified Site Not Found |
+| ret_objid | Output - Returns the objid of the site |
 
-0                                              No errors
-
--1                                             No Contract Id Specified
-
--2                                             No Site Id Specified
-
--3                                             Specified Contract Not Found
-
--4                                             Specified Site Not Found |
-| ret_objid | Output | Returns the objid of the site
-
-**Examples**
+#### Examples
 
  Add site "2" to contract "AMD 1"
 
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 Dim site_objid As Long
 

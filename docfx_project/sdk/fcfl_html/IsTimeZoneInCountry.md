@@ -9,15 +9,13 @@ Type : Method
 
 **Prototype**
 
+```
 Public Function IsTimeZoneInCountry(ByVal Country As String,
-
                                     ByVal TimeZone As String,
+									ByVal IsFullName As Boolean) As Boolean
+```
 
-ByVal IsFullName As Boolean)
-
-As Boolean
-
-**Description**
+#### Description
 
 This method returns a boolean indicating if the given time zone is valid for the given country. The time zone and country tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 

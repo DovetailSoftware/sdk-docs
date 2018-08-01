@@ -4,6 +4,7 @@ update_action_item
 update_action_item_list
 -------------------------
 
+```
 Public Function update_action_item(ByVal task_id As String, _
                                    ByVal title As String, _
                                    ByVal notes As String, _
@@ -30,7 +31,9 @@ Public Function update_action_item(ByVal task_id As String, _
                                    ByVal str_val2 As String, _
                                    ByVal date_fld1 As String, _
                                    ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function update_action_item_list(ByVal task_id As String, _
                                         ByVal title As String, _
                                         ByVal notes As String, _
@@ -50,8 +53,9 @@ Public Function update_action_item_list(ByVal task_id As String, _
                                         Optional fld_list As Variant, _
                                         Optional type_list As Variant, _
                                         Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to update existing action items. Virtually all of the data is optional - only the action item ID is required. For most of the input fields if you leave them blank no change will be made to the existing action item. To clear a data item (for example, the contact), set the data field to "CLEAR". You may modify the the title, notes, contact, account, lead, opportunity, task type, priority, status (within the same condition), start date, and the completion date.
 
@@ -83,35 +87,24 @@ If you want to relate a contact to the action item you must supply all three of 
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified action item |
+| -2 | The supplied contact could not be found |
+| -3 | Cannot find the specified account |
+| -4 | Cannot find the specified lead |
+| -5 | Cannot find the specified opportunity |
+| -6 | The specified status cannot be found for the action item's current condition |
+| -7 | The completion date is earlier than the start date |
+| -8 | The supplied start date is not a valid date |
+| -9 | The supplied completion date is not a valid date |
+| -10 | The specified type cannot be found |
+| -11 | The specified priority cannot be found |
 
-0                                              No errors
-
--1                                             Cannot find the specified action item
-
--2                                             The supplied contact could not be found
-
--3                                             Cannot find the specified account
-
--4                                             Cannot find the specified lead
-
--5                                             Cannot find the specified opportunity
-
--6                                             The specified status cannot be found for the action item's current condition
-
--7                                             The completion date is earlier than the start date
-
--8                                             The supplied start date is not a valid date
-
--9                                             The supplied completion date is not a valid date
-
--10                                           The specified type cannot be found
-
--11                                           The specified priority cannot be found
-
-**Examples**
+#### Examples
 
  Update action item '9'. Specify a new title and notes. Specify a new contact and lead, but clear out the opportunity, and account. Also specify a new task type and priority. Leave the start/due times alone, but specify a new status. Set a user-defined field
 
@@ -130,6 +123,7 @@ If you want to relate a contact to the action item you must supply all three of 
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
    ret_int = fcsfa.update_action_item("9", "New Title", "New notes", "John",_
                    "Doe", "555-1212", "CLEAR", "Lead", "Guy", "CLEAR", _
@@ -163,6 +157,7 @@ val_list.AppendItem("44");
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 Dim fld_list   As New FCList
 

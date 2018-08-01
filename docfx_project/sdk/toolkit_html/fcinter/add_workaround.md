@@ -4,6 +4,7 @@ add_workaround
 add_workaround_list
 ---------------------
 
+```
 Public Function add_workaround(ByVal soln_id As String, _
                                ByVal soln_objid As Long, _
                                ByVal workaround As String, _
@@ -20,7 +21,9 @@ Public Function add_workaround(ByVal soln_id As String, _
                                ByVal str_val2 As String, _
                                ByVal date_fld1 As String, _
                                ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function add_workaround_list(ByVal soln_id As String, _
                                     ByVal soln_objid As Long, _
                                     ByVal workaround As String, _
@@ -30,8 +33,9 @@ Public Function add_workaround_list(ByVal soln_id As String, _
                                     Optional fld_list As Variant, _
                                     Optional type_list As Variant, _
                                     Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs add a new workaround to an existing solution. You must specify the solution ID or the solution's objid, the workaround, if it is public, the workaround creation date, and the resolution code. You may specify additional fields for the workaround, if needed.
 
@@ -51,28 +55,25 @@ These APIs add a new workaround to an existing solution. You must specify the so
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | No solution supplied |
+| -2 | Supplied both a soln ID and the objid |
+| -3 | Cannot find the specified solution |
+| -4 | Cannot find the resolution code |
+| ret_objid | Output - Returns the objid of the newly workaround |
 
-0                                              No errors
+#### Examples
 
--1                                             No solution supplied
-
--2                                             Supplied both a soln ID and the objid
-
--3                                             Cannot find the specified solution
-
--4                                             Cannot find the resolution code |
-| ret_objid | Output | Returns the objid of the newly workaround
-
-**Examples**
-
- Create a new workaround for solution '44' with workaround (public, with default res code). The create was made on November 11, 1998 at 11:00 AM.
+Create a new workaround for solution '44' with workaround (public, with default res code). The create was made on November 11, 1998 at 11:00 AM.
 
 **Visual Basic:**
 
 Dim ret_int          As Integer
+```
 
 Dim workaround_objid As Long
 
@@ -80,19 +81,18 @@ ret_int = fcinter.add_workaround("44", 0, _
                                  "No current workaround", true, _
                                  "11/11/1998 11:00:00", "", "", 0, _
                                  "", 0, "", "", "", "", "", "")
-
-   If ret_int = 0 Then
-
+  
+   If ret_int = 0 Then
+  
       workaround_objid = fcinter.ret_objid
-
-   End If
-
+ End If
+ 
 **Javascript:**
 
 var ret_int = fcinter.add_workaround("44", 0,
-
-                                 "No current workaround", true,
-
+  
+   "No current workaround", true,
+  
                                  "11/11/1998 11:00:00", "", "", 0,
 
                                  "", 0, "", "", "", "", "", "");

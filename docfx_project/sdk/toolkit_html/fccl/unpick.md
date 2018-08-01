@@ -10,31 +10,39 @@ unpick_no_trans
 unpick_sn_no_trans
 --------------------
 
+```
 Public Function unpick(ByVal dtl_num As String, _
                        ByVal loc_name As String, ByVal bin_name As String, _
                        ByVal cont_num As String, ByVal use_good As Boolean, _
                        ByVal user_name As String, ByVal unpick_date As String, _
                        ByVal gen_time_bombs As Boolean) As Integer
+```
 
+```
 Public Function unpick_sn(ByVal dtl_num As String, ByVal loc_name As String, _
                           ByVal bin_name As String, ByVal cont_num As String, _
                           ByVal use_good As Boolean, ByVal user_name As String, _
                           ByVal unpick_date As String, ByVal serial_no As String, _
                           ByVal gen_time_bombs As Boolean) As Integer
+```
 
+```
 Public Function unpick_no_trans(ByVal dtl_num As String, _
                        ByVal loc_name As String, ByVal bin_name As String, _
                        ByVal cont_num As String, ByVal use_good As Boolean, _
                        ByVal user_name As String, ByVal unpick_date As String, _
                        ByVal gen_time_bombs As Boolean) As Integer
+```
 
+```
 Public Function unpick_sn_no_trans (ByVal dtl_num As String, ByVal loc_name As String, _
                           ByVal bin_name As String, ByVal cont_num As String, _
                           ByVal use_good As Boolean, ByVal user_name As String, _
                           ByVal unpick_date As String, ByVal serial_no As String, _
                           ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows for the _unpicking_ (unreserving) of inventory parts for a part request. The API will search in the specified location and bin (for good or bad inventory), and will unreserve it for the part request, but only if it was previously reserved.
 
@@ -65,49 +73,31 @@ The unpick API will also validate that the part request can be transitioned (for
 
 **Returns**
 
-**Value**                **Meaning** 
-
-0  											  No errors
-
-+1                                            We unpicked some, but not all units picked for this part request
-
--1                                             Cannot find the specified user
-
--2                                             Cannot find the specified part request
-
--3                                             There are no units that need to be unpicked for the part request
-
--4                                             No transition exists between current condition and
-
-condition Unpicked
-
--5                                             User's privclass does not allow to transition between
-
-part request's condition and condition Unpicked
-
--6                                             Cannot find the activity string for UNPICK with rank = 12800
-
--7                                             Cannot find the default state for condition Unpicked
-
--8                                             For serialized parts, the part is not at the specified location/bin
-
--9                                             This part request has not picked against the location/bin
-
--10                                           There is no quantity of parts to unpick at the location/bin
-
--11                                           The part request is currently dispatched to a queue                    
-
--12                                           The employee record for the specified user cannot be found
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| +1 | We unpicked some, but not all units picked for this part request |
+| -1 | Cannot find the specified user |
+| -2 | Cannot find the specified part request |
+| -3 | There are no units that need to be unpicked for the part request |
+| -4 | No transition exists between current condition and condition Unpicked |
+| -5 | User's privclass does not allow to transition between part request's condition and condition Unpicked |
+| -6 | Cannot find the activity string for UNPICK with rank = 12800 |
+| -7 | Cannot find the default state for condition Unpicked |
+| -8 | For serialized parts, the part is not at the specified location/bin |
+| -9 | This part request has not picked against the location/bin |
+| -10 | There is no quantity of parts to unpick at the location/bin |
+| -11 | The part request is currently dispatched to a queue |
+| -12 | The employee record for the specified user cannot be found |
 
 **Part Transfer Error Codes:**
 
--120                                         Serial number is found in inventory, but not at the specified "from" bin
+| -120 | Serial number is found in inventory, but not at the specified "from" bin |
+| -121 | The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created. |
 
--121                                         The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created.
+#### Examples
 
-**Examples**
-
- Unpick inventory for part request number '1-14' from Austin's Bin 12. The unpick is performed by Dan on January 1, 2001, and is from bad inventory. Generate time bombs.
+Unpick inventory for part request number '1-14' from Austin's Bin 12. The unpick is performed by Dan on January 1, 2001, and is from bad inventory. Generate time bombs.
 
 **Visual Basic:**
 

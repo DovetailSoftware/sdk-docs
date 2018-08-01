@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function CreateGeneric() As FCGeneric
+```
 
-**Description**
+#### Description
 
 This method creates and initializes a new FCGeneric object. It is **THE ONLY** way that generic objects should be created. Do not do the following:
 

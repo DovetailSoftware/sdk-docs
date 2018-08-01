@@ -1,6 +1,7 @@
 _create_dr_mtl_
 -----------------
 
+```
 Public Function create_dr_mtl(ByVal demand_dtl_objid As Long, _
                          ByVal repair_code As String, _
                          ByVal failure_code As String, _
@@ -13,10 +14,10 @@ Public Function create_dr_mtl(ByVal demand_dtl_objid As Long, _
                          ByVal notes As String, _
                          ByVal transaction_id As String, _
                          ByVal perf_by As String, _
-                         ByVal creation_time As String _
-                         ) As Integer
+                         ByVal creation_time As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows usage of material to be logged against a depot repair part.
 
@@ -38,30 +39,23 @@ This API allows usage of material to be logged against a depot repair part.
 | perf_by | No | Indicates the technician who performed the labor. Will default to the current Clarify user if not supplied. |
 | creation_time | No | Indicates the time this action is logged. Will default to the current time if a different time is not supplied. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Invalid Disposition (must be 0, 1, or 2) |
+| -2 | Cannot find the specified repair code |
+| -3 | Cannot find the specified bill to material |
+| -4 | Cannot find the specified work center |
+| -5 | Specified User is not in database |
+| -6 | Related Part Request Header record is not in database |
+| -7 | Unable to find Standard Cost for part revision |
+| ret_objid | Output - Returns the objid of the newly created material log record |
 
-0                                              No errors
+#### Examples
 
--1                                             Invalid Disposition (must be 0, 1, or 2)
-
--2                                             Cannot find the specified repair code
-
--3                                             Cannot find the specified bill to material
-
--4                                             Cannot find the specified work center
-
--5                                             Specified User is not in database
-
--6                                             Related Part Request Header record is not in database
-
--7                                             Unable to find Standard Cost for part revision |
-| ret_objid | Output | Returns the objid of the newly created material log record
-
-**Examples**
-
- Apply usage of Part 268435465 against Part Repair 268435466. The job was done by user "db", billable to the customer. All other defaults are used.
+Apply usage of Part 268435465 against Part Repair 268435466. The job was done by user "db", billable to the customer. All other defaults are used.
 
 **JavaScript:**
 

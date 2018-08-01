@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Property Get LoginTime() As Date
+```
 
-**Description**
+#### Description
 
 This property returns the date/time of when this FCSession logged in.
 

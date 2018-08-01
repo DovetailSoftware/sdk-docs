@@ -1,12 +1,14 @@
 yank_subcase
 ------------
 
+```
 Public Function yank_subcase(ByVal subcase_id As String, _
                 ByVal wipbin_name As String, ByVal yank_date As String, _
                 ByVal user_name As String, _
                 ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified subcase to be yanked from the current location to a new owner's WIPBin. The date/time of the yank, and the person yanking the subcase are specified. The person who yanks the subcase becomes the new owner. The WIPBin to place the subcase in may also be specified. This is augmented function from base Clarify, where the subcase is always placed in the default WIPBin. The APIs can also generate a time bomb (for business rule notification).
 
@@ -20,25 +22,20 @@ This API causes the specified subcase to be yanked from the current location to 
 | user_name | No | The user who yanked the subcase. If left blank, the current user performs the yank |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified subcase |
+| -2 | The subcase is already closed |
+| -3 | Cannot find the specified user |
+| -4 | Cannot find the specified WIPBIN |
+| -5 | Cannot find the YANK activity string |
 
-0                                              No errors
+#### Examples
 
--1                                             Cannot find the specified subcase
-
--2                                             The subcase is already closed
-
--3                                             Cannot find the specified user
-
--4                                             Cannot find the specified WIPBIN
-
--5                                             Cannot find the YANK activity string
-
-**Examples**
-
- Yank subcase number 'C154-1' by the current user at the current date/time. Place in the default WIPBin, generate a time bomb.
+Yank subcase number 'C154-1' by the current user at the current date/time. Place in the default WIPBin, generate a time bomb.
 
 **JavaScript: **
 

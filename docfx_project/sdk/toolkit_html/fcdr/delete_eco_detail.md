@@ -1,9 +1,11 @@
 _delete_eco_detail_
 ---------------------
 
+```
 Public Function delete_eco_dtl(ByVal eco_dtl_objid As Long) As Integer
+```
 
-**Description**
+#### Description
 
 This API will delete an ECO detail object.
 
@@ -15,15 +17,14 @@ This API will delete an ECO detail object.
 
 **Returns**
 
-**Value**                          **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Specified ECO Detail is not in database |
 
-0                                              No errors
+#### Examples
 
--1                                             Specified ECO Detail is not in database
-
-**Examples**
-
- Delete ECO Detail 268435463.
+Delete ECO Detail 268435463.
 
 **JavaScript:**
 

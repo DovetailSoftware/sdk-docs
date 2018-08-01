@@ -1,6 +1,5 @@
 _IsInHgbstLst_
---------------
-
+-----------
 **Object and Type**
 
 Object  : FCApplication
@@ -9,13 +8,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function IsInHgbstList (ByVal TheElement As String,
+		ByVal ListName As String, Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", Optional ByVal Element3 As String = "", Optional ByVal Element4 As String = "") As Boolean
+```
 
-ByVal ListName As String,
-
-Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", Optional ByVal Element3 As String = "", Optional ByVal Element4 As String = "") As Boolean
-
-**Description**
+#### Description
 
 This method returns a boolean value indicating if a given string is a valid element in a given  user-defined list. You may validate an element up to a 5-level list. The hgbst tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 
@@ -36,15 +34,13 @@ True if the Element does exist in the ListName list. Else, False.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10008 | ListName must not be empty. |
+| 10009 | Invalid ListName. |
+| 10015 | Invalid Element for List. |
 
-10008                                      ListName must not be empty.
-
-10009                                      Invalid ListName.
-
-10015                                      Invalid Element for List.
-
-**Example**
+#### Examples
 
 The following example verifies different elements in different levels of the FAMILY user-defined list.
 

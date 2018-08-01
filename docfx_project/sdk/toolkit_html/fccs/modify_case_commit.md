@@ -10,6 +10,7 @@ modify_subcase_commit
 modify_subcase_commit_list
 ----------------------------
 
+```
 Public Function modify_case_commit( ByVal id_num As String, _
                 ByVal the_title As String, _
 				ByVal action_type As String, _                                 
@@ -34,7 +35,9 @@ Public Function modify_case_commit( ByVal id_num As String, _
 				ByVal str_val2 As String, _
 				ByVal date_fld1 As String, _
 				ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function modify_case_commit_list(  ByVal id_num As String, _
 		        ByVal the_title As String, _
 				ByVal action_type As String, _                                 
@@ -52,7 +55,9 @@ Public Function modify_case_commit_list(  ByVal id_num As String, _
 				Optional fld_list As Variant,
 				Optional type_list As Variant, _
 				Optional val_list As Variant) As Integer
+```
 
+```
 Public Function modify_subcase_commit(ByVal id_num As String, _
                 ByVal the_title As String, _
 				ByVal action_type As String, _                                 
@@ -77,7 +82,9 @@ Public Function modify_subcase_commit(ByVal id_num As String, _
 				ByVal str_val2 As String, _
 				ByVal date_fld1 As String, _
 				ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function modify_subcase_commit_list(ByVal id_num As String, _
                 ByVal the_title As String, _
 				ByVal action_type As String, _                                 
@@ -95,6 +102,7 @@ Public Function modify_subcase_commit_list(ByVal id_num As String, _
 				Optional fld_list As Variant, _
 				Optional type_list As Variant, _
 				Optional val_list As Variant) As Integer
+```
 
 These APIs are used to modify a commitment against a case or subcase. The APIs allow for the assigning of a title and action type. The date the commitment is logged can be set, as well as the commitment date, and prior warning. A flag can be set so that the commitment can be made to or by a contact, and the contact can be set. The user who logs the commitment can be set, and additional fields can also be set. Finally, a time bomb (for the commitment) can be generated.
 
@@ -122,45 +130,29 @@ These APIs are used to modify a commitment against a case or subcase. The APIs a
 | type_list | No | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | No | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | No title specified |
+| -2 | Must specify phone number of new contact |
+| -2 | Must specify last name of new contact |
+| -2 | Must specify first name of new contact |
+| -3 | The commitment date is not a valid date |
+| -4 | Prior warning is negative (warning after the commitment expires) |
+| -5 | The commitment date is before the modification date |
+| -6 | Could not find gbst_elm string for Modify Commitment |
+| -7 | Could not find the specified log action type |
+| -8 | Cannot find the specified case or subcase |
+| -9 | Specified user is not found |
+| -10 | Cannot find the employee record for the specified user |
+| -11 | Specified commitment with given objid is not found |
+| -12 | Could not find the specified contact |
+| -13 | Could not find the com_tmplte for WARNING |
+| -14 | Could not find the com_tmplte for COMMITMENT |
 
-0                                              No errors
-
--1                                             No title specified
-
--2                                             Must specify phone number of new contact
-
--2                                             Must specify last name of new contact
-
--2                                             Must specify first name of new contact
-
--3                                             The commitment date is not a valid date
-
--4                                             Prior warning is negative (warning after the commitment expires)
-
--5                                             The commitment date is before the modification date
-
--6                                             Could not find gbst_elm string for Modify Commitment
-
--7                                             Could not find the specified log action type
-
--8                                             Cannot find the specified case or subcase
-
--9                                             Specified user is not found
-
--10                                           Cannot find the employee record for the specified user
-
--11                                           Specified commitment with given objid is not found
-
--12                                           Could not find the specified contact
-
--13                                           Could not find the com_tmplte for WARNING
-
--14                                           Could not find the com_tmplte for COMMITMENT
-
-**Examples**
+#### Examples
 
  Modify a commitment with objid 268435459 for case number 'C154'. Set a title and use the default action code, log date, and user. Make the commitment to "Bill Clinton", and make the commitment expire on the default (log) date. Make no prior warning, have no notes, and set no additional fields. Generate a time bomb, and the commitement emails.
 
@@ -175,6 +167,7 @@ var ret_int = fccs.modify_case_commit("C154", "A title", "",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.modify_case_commit("C154", "A title", "", _
 

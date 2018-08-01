@@ -4,6 +4,7 @@ fulfill
 fulfill_no_trans
 ------------------
 
+```
 Public Function fulfill(ByVal dtl_num As String, _
                         ByVal is_fulfill As Boolean, ByVal quantity_num As Integer, _
                         ByVal from_loc As String, ByVal from_bin As String, _
@@ -14,7 +15,9 @@ Public Function fulfill(ByVal dtl_num As String, _
                         ByVal expected_date As String, ByVal user_name As String, _
                         ByVal fulfill_date As String, ByVal gen_time_bombs As Boolean) _
                         As Integer
+```
 
+```
 Public Function fulfill_no_trans(ByVal dtl_num As String, _
                         ByVal is_fulfill As Boolean, ByVal quantity_num As Integer, _
                         ByVal from_loc As String, ByVal from_bin As String, _
@@ -25,8 +28,9 @@ Public Function fulfill_no_trans(ByVal dtl_num As String, _
                         ByVal expected_date As String, ByVal user_name As String, _
                         ByVal fulfill_date As String, ByVal gen_time_bombs As Boolean) _
                         As Integer
+```
 
-**Description**
+#### Description
 
 This API allows for the _fulfilling_ of inventory parts for a part request. The API allow for either the _fulfilling_ of the parts, or the _backordering_ of the parts, whichever is appropriate. The quantity to be fulfilled, as well as the user and date/time of the fulfill can be supplied. A status can be supplied (for the proper condition, Fulfilled or Backordered). If the operation is a fulfill, the from and to locations (and bins) are specified. These can be locations or expense GL accounts as necessary. All of the proper validations against inventory will be performed. Just as in normal Clarify, if a partial fulfill is performed, the part request is broken up into two new part requests. The first is for the fulfill (and the quantities are changed). The new part request will be created to hold the rest of the units that did not get fulfilled.
 
@@ -62,105 +66,68 @@ The fulfill API will also validate that the part request can be transitioned (fo
 | fulfill_date | No | When was the part request fulfilled. If this parameter is left blank, the PR is fulfilled at the current time |
 | gen_time_bombs | Yes | Should a time_bomb be generated |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
-
-0                                              No errors
-
--1                                             Quantity is < 1
-
--2                                             Cannot find the specified user
-
--3                                             Cannot find the specified part request
-
--4                                             There are no units that need to be fulfilled for the part request
-
--5                                             No transition exists between current condition and condition Fulfilled/Backordered
-
--6                                             User's privclass does not allow to transition between
-
-part request's condition and condition Fulfilled/Backordered
-
--7                                             Cannot find the activity string for FULFILL REQUEST/BACKORDER with rank = 12600/12900
-
--8                                             Cannot find the default state for condition Unpicked
-
--9                                             Attempt to fulfill too many units
-
--10                                           Cannot locate the "from" location
-
--11                                           Cannot locate the "from" bin
-
--12                                           Cannot locate the "to" location
-
--13                                           Cannot locate the "to" bin
-
--14                                           The part request is currently dispatched to a queue
-
--15                                           A serial number was specified, but it is for a part instance that is a different part or revision than the part for the part request
-
--16                                           The "from" container is sealed
-
--17                                           The "to" container is sealed
-
--18                                           Cannot find the primary bin recommendation for the from bin
-
--19                                           Cannot find the primary bin recommendation for the to bin
-
--20                                           No serial number provided for a serialized part
-
--21                                           Serialized fulfill, but not enough serial numbers provided to fulfill the quantity supplied
-
--22                                           A serial number was specified, but the part is quantity tracked
-
--23                                           The employee record for the specified user cannot be found
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Quantity is < 1 |
+| -2 | Cannot find the specified user |
+| -3 | Cannot find the specified part request |
+| -4 | There are no units that need to be fulfilled for the part request |
+| -5 | No transition exists between current condition and condition Fulfilled/Backordered |
+| -6 | User's privclass does not allow to transition between |
+part request's condition and condition Fulfilled/Backordered |
+| -7 | Cannot find the activity string for FULFILL REQUEST/BACKORDER with rank = 12600/12900 |
+| -8 | Cannot find the default state for condition Unpicked |
+| -9 | Attempt to fulfill too many units |
+| -10 | Cannot locate the "from" location |
+| -11 | Cannot locate the "from" bin |
+| -12 | Cannot locate the "to" location |
+| -13 | Cannot locate the "to" bin |
+| -14 | The part request is currently dispatched to a queue |
+| -15 | A serial number was specified, but it is for a part instance that is a different part or revision than the part for the part request |
+| -16 | The "from" container is sealed |
+| -17 | The "to" container is sealed |
+| -18 | Cannot find the primary bin recommendation for the from bin |
+| -19 | Cannot find the primary bin recommendation for the to bin |
+| -20 | No serial number provided for a serialized part |
+| -21 | Serialized fulfill, but not enough serial numbers provided to fulfill the quantity supplied |
+| -22 | A serial number was specified, but the part is quantity tracked |
+| -23 | The employee record for the specified user cannot be found |
 
 **Create Part Request Error Codes:**
 
--101                                         No request header ID was supplied.               
-
--102                                         The specified request header ID was not found.   
-
--103                                         The specified request header is already closed.  
-
--104                                         The specified user was not found.                
-
--105                                         The specified mod_level record was not found.    
-
--106                                         The specified site_part record was not found.    
-
--107                                         The specified queue was not found.               
-
--108                                         The specified detail type was not found.         
-
--109                                         The specified priority was not found.            
-
--110                                         The specified "ship via" value was not found.    
-
--111                                         The specified carrier was not found.             
-
--112                                         The default status for RQST_OPEN was not found.  
-
--113                                         Cannot find activity code for "Create".          
-
--114                                         Cannot find activity code for "Dispatch".        
-
--115                                         The specified creation date is invalid.          
-
--116                                         The specified due date is invalid.                                                     
-
+| Value | Meaning |
+|:--- |:--- |
+| -101 | No request header ID was supplied.                |
+| -102 | The specified request header ID was not found.    |
+| -103 | The specified request header is already closed.   |
+| -104 | The specified user was not found.                 |
+| -105 | The specified mod_level record was not found.     |
+| -106 | The specified site_part record was not found.     |
+| -107 | The specified queue was not found.                |
+| -108 | The specified detail type was not found.          |
+| -109 | The specified priority was not found.             |
+| -110 | The specified "ship via" value was not found.     |
+| -111 | The specified carrier was not found.              |
+| -112 | The default status for RQST_OPEN was not found.   |
+| -113 | Cannot find activity code for "Create".           |
+| -114 | Cannot find activity code for "Dispatch".         |
+| -115 | The specified creation date is invalid.           |
+| -116 | The specified due date is invalid.                                                      |
 **Part Transfer Error Codes:**
 
--220                                         Serial number is found in inventory, but not at the  specified "from" bin
-
--221                                         The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created.
+| Value | Meaning |
+|:--- |:--- |
+| -220 | Serial number is found in inventory, but not at the  specified "from" bin |
+| -221 | The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created. |
 
 **Note:** Any other error codes between -200 and -299 are from part transfer. Add 200 to the error code, and check the error code in the part transfer section of this document.
 
-**Examples**
+#### Examples
 
- Fulfill 3 units of inventory for part request number '1-14' from Austin's Container 44 (name of Fred) to Expense GL "EXPGL. All inventory is good. Go to status "Fulfilled OK!". The fulfill is performed by Dan on January 1, 2001. Generate time bombs.
+Fulfill 3 units of inventory for part request number '1-14' from Austin's Container 44 (name of Fred) to Expense GL "EXPGL. All inventory is good. Go to status "Fulfilled OK!". The fulfill is performed by Dan on January 1, 2001. Generate time bombs.
 
 **Visual Basic:**
 
@@ -191,9 +158,9 @@ ret_int = fccl.fulfill("1-14", True, 3, "Austin", "Fred", "44", True, _
 **Javascript:**
 
 var ret_int = fccl.fulfill("1-14", true, 3, "Austin", "Fred", "44", true,
-
-                       "San Jose", "PRIM_BIN_LOC", "", true, "",
-
+  
+   "San Jose", "PRIM_BIN_LOC", "", true, "",
+  
                        "Fulfilled OK!", "", "dan", "1/1/2001", true);
 
  Backorder 4 units for part request '2-1'. It is expected on November 15th.  Don't generate a time bomb.

@@ -1,6 +1,5 @@
 UnRelateRecords
 
----
 
 **Object and Type**
 
@@ -10,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub UnRelateRecords(ByVal o_obj As FCGeneric, _
-
                            ByVal the_rel As String)
+```
 
-**Description**
+#### Description
 
 This method will unrelate the current record in a generic object from the current record in the other specified object via the relation specified.
 
@@ -31,15 +31,13 @@ You must update one or the other objects via the Update or UpdateAll method for 
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12010 | The specified relation does not relate these two objects |
+| 12011 | The two objects must be in the same bulk |
+| 12031 | This operation is not valid for a generic that is marked distinct |
 
-12010                                      The specified relation does not relate these two objects
-
-12011                                      The two objects must be in the same bulk
-
-12031                                      This operation is not valid for a generic that is marked distinct
-
-**Example**
+#### Examples
 
 The following example unrelates the specified case from the specified revision (mod_level).
 

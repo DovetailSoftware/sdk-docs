@@ -1,5 +1,5 @@
 _DeleteAll_
------------
+--------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub DeleteAll()
+```
 
-**Description**
+#### Description
 
 This method deletes all of the records in a generic object. The DeleteAll method performs a MoveFirst, so it does not matter where in the records collection you are currently positioned. The method calls on the Delete method to delete each row, so you should read that method's documentation to understand how it operates.
 
@@ -25,11 +27,11 @@ Further, when you perform a DeleteAll, the current record is set to EOF.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12031 | This operation is not valid for a generic that is marked distinct |
 
-12031                                      This operation is not valid for a generic that is marked distinct
-
-**Example**
+#### Examples
 
 The following example deletes all records in a custom table called "my_table".
 

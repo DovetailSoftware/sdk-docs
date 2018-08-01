@@ -1,9 +1,11 @@
 preclose_case
 -------------
 
+```
 Public Function preclose_case(case_id As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API is used if you wish to see all of the summed times (such as phone log time, billable and non-billable expense, etc) for a case about to be closed. This is particularly useful in web applications, where you wish to display the captured times for a case, so that a user can modify them (the actual times).
 
@@ -19,15 +21,13 @@ The results of the API are returned in the output string _ret_id_num_. While the
 |:--- |:--- |:--- |
 | case_id | Yes | The case to sum |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
-
-0                                              No errors
-
--1                                             Cannot find the specified case
-
--2                                             The specified case is already closed
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified case |
+| -2 | The specified case is already closed |
 
 The results of the API are returned in the string _ret_id_num_. The values are separated by a pipe ("|") character. They are:
 
@@ -59,9 +59,9 @@ The results of the API are returned in the string _ret_id_num_. The values are s
 
 14) Captured billable expenses (case time logs only)
 
-**Examples**
+#### Examples
 
- Preclose case number 'C154'. Get the value for the captured and total phone logs, and for the captured and total billable expenses.
+Preclose case number 'C154'. Get the value for the captured and total phone logs, and for the captured and total billable expenses.
 
 **JavaScript:**
 
@@ -78,8 +78,8 @@ var t_bill = fc_session.GetItem(fccs.ret_id_num, 13, 13, "|");
 **Visual Basic:**
 
    Const PIPE      =  "|"
-
-   Dim ret_int     As Integer
+     Dim ret_int     As Integer
+```
 
 Dim c_phone     As Long
 
@@ -87,8 +87,7 @@ Dim t_phone     As Long
 
 Dim c_bill      As Long
 
-Dim t_bill      As Long
-
+Dim t_bill      As Long  
 ret_int = fccs.preclose_case("C154")
 
 c_phone = CLng(fc_session.GetItem(fccs.ret_id_num, 2, 2, PIPE))

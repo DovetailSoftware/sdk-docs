@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Property Get SessionID() As String
+```
 
-**Description**
+#### Description
 
 Returns the unique identifier associated with the FCSession. For ASP applications, this SessionID can be saved as a variable in an ASP Session object. Then, for each new page request, this value can be used with the CreateSession method on the FCApplication in order to retrieve a reference to an existing FCSession object.
 

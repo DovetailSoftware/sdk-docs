@@ -8,9 +8,11 @@ Type     : Property (Read-only)
 
 **Prototype**
 
+```
 Public NoSorting As Boolean
+```
 
-**Description**
+#### Description
 
 This property controls how a Bulk object orders and stores the generics it contains. Under normal circumstances (when this property is set to _False_, which it is by default), the generics in a Bulk are ordered as follows:
 

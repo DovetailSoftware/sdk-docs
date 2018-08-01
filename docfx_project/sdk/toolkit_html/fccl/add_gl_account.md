@@ -1,17 +1,15 @@
 add_gl_account
 ----------------
 
+```
 Public Function add_gl_account(ByVal acct_name As String, _
+		   ByVal account_type As String, ByVal desc_str As String, _
+		   ByVal account_no As String, ByVal is_exp As Boolean, _
+		   ByVal is_active As Boolean, ByVal is_company As Boolean, _  
+		   ByVal site_id As String) As Integer
+```  
 
-                               ByVal account_type As String, ByVal desc_str As String, _
-
-                               ByVal account_no As String, ByVal is_exp As Boolean, _
-
-                               ByVal is_active As Boolean, ByVal is_company As Boolean, _
-
-                               ByVal site_id As String) As Integer
-
-**Description**
+#### Description
 
 This API is used to add expense and capital GL accounts to Clarify. The account name, description and account number are specified. Using the boolean flags the account can be made into capital or expense, active or inactive, company or customer owned. The site for the account must be specified, and the account type can be set from the code list.
 
@@ -30,27 +28,20 @@ This API is used to add expense and capital GL accounts to Clarify. The account 
 
 **Returns**
 
-**Value**                          **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Missing site id parameter |
+| -2 | Missing acct_name parameter |
+| -4 | The supplied site was not found |
+| -6 | The account name already exists in the database |
+| -7 | Location (expense/capital) type value not found |
+| -8 | Account type value not valid for the type of account (expense/capital) |
+| -9 | The 'From' account name already exists in the database |
 
-0                                              No errors
+#### Examples
 
--1                                             Missing site id parameter
-
--2                                             Missing acct_name parameter
-
--4                                             The supplied site was not found
-
--6                                             The account name already exists in the database
-
--7                                             Location (expense/capital) type value not found
-
--8                                             Account type value not valid for the type of account (expense/capital)
-
--9                                             The 'From' account name already exists in the database
-
-**Examples**
-
- Add an expense GL account with no account type, a description, an account number. It is active and company owned, and for site 1.
+Add an expense GL account with no account type, a description, an account number. It is active and company owned, and for site 1.
 
 **Visual Basic:**
 

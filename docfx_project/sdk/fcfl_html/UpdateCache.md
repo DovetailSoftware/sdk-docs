@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub UpdateCache()
+```
 
-**Description**
+#### Description
 
 This method updates the meta-data cache files, as well as the in-memory cache data. By having this method available, you can update your cache data on-the-fly, without having to restart your application, or re-instantiate your FCApplication object.
 

@@ -1,10 +1,12 @@
 move_solution
 -------------
 
+```
 Public Function move_solution(ByVal solution_id As String, _
                               ByVal new_wipbin As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified solution to be moved from one WIPBin to another (for the current owner). The solution must be open, and the WIPBin name must be valid for the current owner.
 
@@ -17,21 +19,17 @@ This API causes the specified solution to be moved from one WIPBin to another (f
 | solution_id | Yes | The solution to move |
 | new_wipbin | Yes | Name of the WIPBin to move to |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No Errors |
+| -1 | Cannot find the specified solution |
+| -2 | Solution is already closed |
+| -3 | New WIPBIN doesn't exist, or isn't for the owner |
+| -4 | New WIPBIN is same as old - no move needed |
 
-0                                              No Errors
-
--1                                             Cannot find the specified solution
-
--2                                             Solution is already closed
-
--3                                             New WIPBIN doesn't exist, or isn't for the owner
-
--4                                             New WIPBIN is same as old - no move needed
-
-**Examples**
+#### Examples
 
  Move solution number '14' to WIPBin 'Hardware'.
 

@@ -1,6 +1,5 @@
 _RelateRecords_
----------------
-
+------------
 **Object and Type**
 
 Object  : FCGeneric
@@ -9,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub RelateRecords(o_obj As FCGeneric, the_rel As String)
+```
 
-**Description**
+#### Description
 
 This method is used to relate two records together via a specified realation. The relation specified must be valid for the generic object that the method is called on (not the generic object that is the first argument). You may relate the objects from either side.for example, suppose you wish to relate a case generic object and a site generic object. You could make either (or both, but that doesn't help you!) calls below:
 
@@ -30,15 +31,13 @@ You must update one or the other objects via the Update or UpdateAll method for 
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12010 | The specified relation does not relate these two objects |
+| 12011 | The two objects must be in the same bulk |
+| 12031 | This operation is not valid for a generic that is marked distinct |
 
-12010                                      The specified relation does not relate these two objects
-
-12011                                      The two objects must be in the same bulk
-
-12031                                      This operation is not valid for a generic that is marked distinct
-
-**Example**
+#### Examples
 
 The following example relates a new case generic object to a new site and contact generic objects.
 

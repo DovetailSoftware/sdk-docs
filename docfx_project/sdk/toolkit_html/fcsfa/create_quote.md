@@ -4,6 +4,7 @@ create_quote
 create_quote_list
 -------------------
 
+```
 Public Function create_quote_list(ByVal quote_title As String, _
                                   ByVal account_id As String, _
                                   ByVal site_id As String, _
@@ -32,7 +33,9 @@ Public Function create_quote_list(ByVal quote_title As String, _
                                   ByVal str_val2 As String,
                                   ByVal date_fld1 As String, _
                                   ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_quote_list(ByVal quote_title As String, _
                                   ByVal account_id As String, _
                                   ByVal site_id As String, _
@@ -54,8 +57,9 @@ Public Function create_quote_list(ByVal quote_title As String, _
                                   Optional fld_list As Variant, _
                                   Optional type_list As Variant, _
                                   Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create quotes. They require that a valid title be supplied. Most of the other data (including account, site, contact) is optional. These APIs require that a valid opportunity also exist (you can create it in the GUI, or use the FCS API). This differs a little from the Clarify GUI, which creates the opportunity as part of the create quote. You can still do that with the APIs, but there is extra flexibility provided.
 
@@ -93,47 +97,30 @@ The ID of the newly-created quote will be returned in _fcsfa.ret_id_num_. The ob
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | No title was supplied |
+| -2 | Could not locate the supplied account |
+| -3 | The specified site could not be found |
+| -4 | The specified contact could not be found |
+| -5 | The bill-to site could not be found |
+| -6 | The ship-to site could not be found |
+| -7 | The currency specified is not valid |
+| -8 | The specified queue could not be located |
+| -9 | The queue specified does not allow quotes to be dispatched to it |
+| -10 | Cannot find the specified administrator |
+| -11 | Cannot find the specified user |
+| -12 | The status provided is not valid for the Quote's condition |
+| -13 | The specified opportunity was not found |
+| -14 | The default price program (US Standard Prices) could not be found |
+| -15 | Cannot find the Create ClearContracts Quote Activity string |
+| -16 | Cannot find the Create SFA Quote Activity string |
+| -17 | Cannot find the Dispatch Activity string |
 
-0                                              No errors
-
--1                                             No title was supplied
-
--2                                             Could not locate the supplied account
-
--3                                             The specified site could not be found
-
--4                                             The specified contact could not be found
-
--5                                             The bill-to site could not be found
-
--6                                             The ship-to site could not be found
-
--7                                             The currency specified is not valid
-
--8                                             The specified queue could not be located
-
--9                                             The queue specified does not allow quotes to be dispatched to it
-
--10                                           Cannot find the specified administrator
-
--11                                           Cannot find the specified user
-
--12                                           The status provided is not valid for the Quote's condition
-
--13                                           The specified opportunity was not found
-
--14                                           The default price program (US Standard Prices) could not be found
-
--15                                           Cannot find the Create ClearContracts Quote Activity string
-
--16                                           Cannot find the Create SFA Quote Activity string
-
--17                                           Cannot find the Dispatch Activity string
-
-**Examples**
+#### Examples
 
  Create a new quote good for 60 days. Relate it to account "AN_CUST1", site "1", and opportunity "4". Relate it to a contact, and set the status to "Need Approval". Relate the bill-to and ship-to sites to "4" and "6". Use the default currency and do not dispatch to a queue. Set the administrator to "Fred", and the user to "Marty". Set an extra string field on the contract, and one on the contr_schedule.
 
@@ -154,6 +141,7 @@ var ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4",
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4", _
                    "Test", "Customer", "222-2222", "Need Approval", "4", _
@@ -195,6 +183,7 @@ var ret_int = fcsfa.create_quote("Title", "AN_CUST1", "1", "4",
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 Dim fld_list   As New FCList
 

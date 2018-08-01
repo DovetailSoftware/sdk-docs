@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function CreateSqlExec() As FCSqlExec
+```
 
-**Description**
+#### Description
 
 This method creates and initializes a new FCSqlExec object. The default object that is created uses the existing database connection (that you referenced in your fc.env file). If you wish to query an external database, you must use the OpenConnection method.
 

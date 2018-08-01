@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Bulk As FCBulk
+```
 
-**Description**
+#### Description
 
 This property allows you to specify the bulk object for this generic. Or you can get the bulk object associated with this generic.
 

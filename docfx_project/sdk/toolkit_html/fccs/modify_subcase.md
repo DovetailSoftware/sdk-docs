@@ -4,6 +4,7 @@ modify_subcase
 modify_subcase_list
 ---------------------
 
+```
 Public Function modify_subcase(ByVal subcase_id As String, _
                 ByVal priority_str As String, ByVal severity_str As String, _
                 ByVal user_name As String, ByVal mod_date As String, _
@@ -13,15 +14,18 @@ Public Function modify_subcase(ByVal subcase_id As String, _
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function modify_subcase_list(ByVal subcase_id As String, _
                 ByVal priority_str As String, ByVal severity_str As String, _
                 ByVal user_name As String, ByVal mod_date As String, _
                 ByVal only_owner As Boolean, ByVal gen_time_bombs As Boolean, _
                 Optional fld_list As Variant, Optional type_list As Variant, _
                 Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to modify existing subcases. If the priority or severity is changing, record the new value in the argument. If they are left blank, the value is not changed in the case. The modifier and the time of modification may be specified, and you may specify additional fields. You may have a creation time bomb generated (for notifications).
 
@@ -44,35 +48,24 @@ The argument _only_owner_ allows you to specify that only the current owner of t
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified case |
+| -2 | Case is already closed |
+| -3 | Cannot find the specified priority |
+| -4 | Cannot find the specified severity |
+| -5 | Cannot find the specified case type |
+| -6 | Cannot find the MODIFY activity string |
+| -7 | Cannot find the specified user |
+| -8 | Cannot find the employee record for the specified user |
+| -9 | Another user (not the owner) attempted to modify the subcase and the only_owner flag was set to True |
 
-0                                              No errors
+#### Examples
 
--1                                             Cannot find the specified case
-
--2                                             Case is already closed
-
--3                                             Cannot find the specified priority
-
--4                                             Cannot find the specified severity
-
--5                                             Cannot find the specified case type
-
--6                                             Cannot find the MODIFY activity string
-
--7                                             Cannot find the specified user
-
--8                                             Cannot find the employee record for the specified user
-
--9                                             Another user (not the owner) attempted to modify the subcase and the only_owner flag was set
-
-to True
-
-**Examples**
-
- Modify subcase 'C154-1'. Change the priority, but nothing else. Do not write any other fields. Any user can make the change. Also, generate a time bomb. All other information is defaulted.
+Modify subcase 'C154-1'. Change the priority, but nothing else. Do not write any other fields. Any user can make the change. Also, generate a time bomb. All other information is defaulted.
 
 **Field version:**
 
@@ -85,6 +78,7 @@ var ret_int = fccs.modify_subcase("C154-1", "High", "", "", "", false, true,
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.modify_subcase("C154-1", "High", "", "", "", False, True, _
                       "", 0, "", 0, "", "", "", "", "", "")
@@ -100,6 +94,7 @@ var ret_int = fccs.modify_subcase_list("C154-1", "High", "", "", "", false,
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 ret_int = fccs.modify_subcase_list("C154-1", "High", "", "", "", False, True)
 
@@ -122,6 +117,7 @@ var ret_int = fccs.modify_subcase("2-2", "", "Low", "marty",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.modify_subcase("2-2", "", "Low", "marty", _
                       "11/23/97 22:00:00", True, False, _
@@ -172,6 +168,7 @@ var ret_int = fccs.modify_subcase_list("2-2", "", "Low", "marty",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 Dim fld_list    As New List
 

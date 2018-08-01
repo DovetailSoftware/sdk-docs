@@ -1,11 +1,13 @@
 add_module_to_cr
 ------------------
 
+```
 Public Function add_module_to_cr(ByVal fix_objid As Long, _
    Byval file As String, _
                                  ByVal rev As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows for adding a module (file name and revision from a source control system) to the list of modules fixed for a given fix of a CR. The fix_objid must be the objid of a specific fix_bug record.  No checking is performed to validate that the file/revision is valid in the source control system.
 
@@ -19,17 +21,15 @@ This API allows for adding a module (file name and revision from a source contro
 
 **Returns**
 
-**Value**                          **Meaning**
-
-0                                              No errors
-
--1                                             Cannot find the specified fix bug record
-
--2                                             A fixed module file was not provided
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified fix bug record |
+| -2 | A fixed module file was not provided |
 
 **Examples**
 
- Add file 'foo.c', revision 3.32 to a specific fix_bug record.
+Add file 'foo.c', revision 3.32 to a specific fix_bug record.
 
 **Visual Basic:**
 

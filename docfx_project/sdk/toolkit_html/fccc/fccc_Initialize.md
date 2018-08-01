@@ -1,11 +1,12 @@
 Initialize
 ----------
 
+```
 Public Sub Initialize(ByRef TheFCApplication As Variant,
+	ByRef TheFCSession As Variant)
+```
 
-ByRef TheFCSession As Variant)
-
-**Description**
+#### Description
 
 This API is called when the FC.CC object is first created.   It sets various private parameters of the object and makes it ready to be used for ClearContracts calls
 

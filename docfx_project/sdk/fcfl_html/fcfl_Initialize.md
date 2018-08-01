@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Initialize()
+```
 
-**Description**
+#### Description
 
 This method initializes the FCApplication, including:
 

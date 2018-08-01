@@ -9,11 +9,15 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Property Get Midnight() As String
+```
 
+```
 Public Property Let Midnight(ByVal in_str As String)
+```
 
-**Description**
+#### Description
 
 This property is specific to Oracle version 7.x databases. It should not be used for Oracle 8 or Oracle 9 databases.
 

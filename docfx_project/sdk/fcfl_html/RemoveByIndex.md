@@ -1,6 +1,5 @@
 _RemoveByIndex_
----------------
-
+------------
 **Object and Type**
 
 Object  : FCList
@@ -9,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub RemoveByIndex(ByRef index As Variant)
+```
 
-**Description**
+#### Description
 
 This method removes items from a list.  This resulting list has the proper elements removed.  Index can be an integer or a list of integers.  If index is an integer, only that item is removed.  If index is a list, the list is a list of integers specifying which items to remove.  Items are removed as indexed from before the first remove.  Lists are zero based.  This means the index to the first item is 0, the second is 1, etc.    The removal is logical; Items are removed at the index they located at when the method is called.
 
@@ -23,17 +24,14 @@ This method removes items from a list.  This resulting list has the proper elem
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 9 | Index out of range for list. |
+| 14 | List of items to remove must be of type integer or long. |
+| 15 | List of items to remove contains duplicate data. |
+| 20 | Index to remove must be integer or long. |
 
-9                                              Index out of range for list.
-
-14                                            List of items to remove must be of type integer or long.
-
-15                                            List of items to remove contains duplicate data.
-
-20                                            Index to remove must be integer or long.
-
-**Example**
+#### Examples
 
 This example shows items being removed from list1, first by single index, and then by a list.
 

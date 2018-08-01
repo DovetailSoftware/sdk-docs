@@ -4,6 +4,7 @@ create_case_objid
 create_case_objid_list
 ------------------------
 
+```
 Public Function create_case_objid(ByVal site_id As String, _
                 ByVal f_name As String, ByVal l_name As String, _
                 ByVal phone_num As String, ByVal part_num As String, _
@@ -16,13 +17,15 @@ Public Function create_case_objid(ByVal site_id As String, _
                 ByVal cr_date As String, ByVal phone_end_date As String, _
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
                 ByVal contact_objid As Integer, ByVal site_objid As Integer,_
-                ByVal ml_objid As Integer, ByVal contract_objid As Integer, ByVal addr_objid As Integer,_
+                ByVal ml_objid As Integer, ByVal contract_objid As Integer, 				ByVal addr_objid As Integer,_
                 ByVal int_fld1 As String, ByVal int_val1 As Long, _
                 ByVal int_fld2 As String, ByVal int_val2 As Long, _
                 Byval str_fld1 As String, ByVal str_val1 As String, _
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_case_objid_list(ByVal site_id As String, _
                 ByVal f_name As String, ByVal l_name As String, _
                 ByVal phone_num As String, ByVal part_num As String, _
@@ -35,11 +38,12 @@ Public Function create_case_objid_list(ByVal site_id As String, _
                 ByVal cr_date As String, ByVal phone_end_date As String, _
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
                 ByVal contact_objid As Integer, ByVal site_objid As Integer,_
-                ByVal ml_objid As Integer, ByVal contract_objid As Integer, ByVal addr_objid As Integer,_
+                ByVal ml_objid As Integer, ByVal contract_objid As Integer, 				ByVal addr_objid As Integer,_
                 Optional fld_list As Variant, Optional type_list As Variant, _
                 Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create new cases. These _objid versions of the create_case APIs allow the objids for contact, site, address, mod_level, and contract to be specified. This allows for improved performance, as the API does have to query to verify this data. However, because the API doesn't validate these objids, it assumes they are correct, so it is important that the caller be sure they are passing in valid objids. Other than that, these APIs function the same was as the create_case APIs.
 
@@ -81,60 +85,37 @@ If successful, these APIs return both the _objid_ and the _id_number_ of the new
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified site |
+| -2 | Cannot find the specified contact |
+| -3 | Cannot find the specified part number |
+| -4 | The mod_level is not valid for the specified part |
+| -5 | The serial number specified is not valid for the part/mod_level |
+| -6 | The specified site_part is at another site |
+| -7 | The specified site_part is not found |
+| -10 | The phone log end time is prior to the case creation time |
+| -11 | The phone log text file is not found |
+| -12 | The specified user is not found |
+| -13 | The specified case type is not found |
+| -14 | The specified priority is not found |
+| -15 | The specified severity is not found |
+| -16 | The specified status is not found |
+| -17 | The CREATE activity string is not found |
+| -18 | The PHONE LOG activity string is not found |
+| -19 | The DISPATCH activity string is not found |
+| -20 | The specified Phone Log action type string is not found |
+| -21 | Cannot find a primary address for the specified site |
+| -22 | The specified contract is not found |
+| -23 | The specified queue is not found |
+| -25 | Could not locate an employee record for the specified user |
 
-0                                              No errors
-
--1                                             Cannot find the specified site
-
--2                                             Cannot find the specified contact
-
--3                                             Cannot find the specified part number
-
--4                                             The mod_level is not valid for the specified part
-
--5                                             The serial number specified is not valid for the part/mod_level
-
--6                                             The specified site_part is at another site
-
--7                                             The specified site_part is not found
-
--10                                           The phone log end time is prior to the case creation time
-
--11                                           The phone log text file is not found
-
--12                                           The specified user is not found
-
--13                                           The specified case type is not found
-
--14                                           The specified priority is not found
-
--15                                           The specified severity is not found
-
--16                                           The specified status is not found
-
--17                                           The CREATE activity string is not found
-
--18                                           The PHONE LOG activity string is not found
-
--19                                           The DISPATCH activity string is not found
-
--20                                           The specified Phone Log action type string is not found
-
--21                                           Cannot find a primary address for the specified site
-
--22                                           The specified contract is not found
-
--23                                           The specified queue is not found
-
--25                                           Could not locate an employee record for the specified user
-
-**JavaScript Example  **
+**JavaScript Example**
 
 Create a new case, specifying the contact and site objid.
-
   
 var site_id = '';  
 var first = '';  

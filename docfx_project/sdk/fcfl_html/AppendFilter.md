@@ -1,6 +1,5 @@
 _AppendFilter_
---------------
-
+-----------
 **Object and Type**
 
 Object  : FCGeneric
@@ -9,13 +8,13 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub AppendFilter(ByVal field_name As String, _
-
                         ByVal operation As String, _
-
                         ByVal value As Variant)
+```
 
-**Description**
+#### Description
 
 This method adds another where clause for the generic object to query the database. This clause will be "anded" to other clauses in the object. The field name must be a valid field (or MTO/OTOP relation) in the table. The operation is one of the specified, approved relations, and the value should be a valid value for the database of the field.
 
@@ -84,27 +83,18 @@ Note that none of the above special processing takes place if you provide a time
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12001 | Bad operation specified |
+| 12002 | Too many filters specified. Please use the Filter property instead |
+| 12022 | The filter you have selected is not valid for the data type of this field |
+| 12023 | The specified field is not valid for the query object |
+| 12025 | The value for this AppendFilter is out of range. Valid values are 1-999 |
+| 12027 | The data supplied for a date filter is not a valid date |
+| 12028 | A date and time was supplied for the "On" filter. This filter only allows a date to be supplied |
+| 12033 | The specified value is not numeric |
 
-12001                                      Bad operation specified
-
-12002                                      Too many filters specified. Please use the Filter property instead
-
-12022                                      The filter you have selected is not valid for the data type of this field
-
-12023                                      The specified field is not valid for the query object
-
-12025                                      The value for this AppendFilter is out of range. Valid values are 1-999
-
-12027                                      The data supplied for a date filter is not a valid date
-
-12028                                      A date and time was supplied for the "On" filter. This filter only allows a date to
-
-be supplied
-
-12033                                      The specified value is not numeric
-
-**Example**
+#### Examples
 
 The following example uses AppendFilter to filter both a string and integer field from the case table.
 

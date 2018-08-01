@@ -1,6 +1,7 @@
 ship
 ----
 
+```
 Public Function ship(ByVal dtl_num As String, _
                      ByVal site_name As String, ByVal address_1 As String, _
                      ByVal address_2 As String, ByVal city_name As String, _
@@ -11,8 +12,9 @@ Public Function ship(ByVal dtl_num As String, _
                      ByVal total_weight As Double, ByVal status_str As String, _
                      ByVal ship_date As String, ByVal user_name As String, _
                      ByVal carrier_name As String, ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified part request to be shipped. All of the shipping information is defaulted from that part request header's shipping site (and contact) information. However, that information can be overridden with the fields specified for the API. You can override any of the address fields, the contact name fields, and the site name (for shipping). The API also allows for the setting of a new status (in condition _Shipped_), or will use the default status if none is supplied. The carrier name (which is actually the name of a site) can be specified, or it will default to the dummy site (objid of -2). If you pass in "fill_from_db" in the site_name, addr, addr2, city, state, zip, country, f_name, or l_name fields, you can force each field to be filled with the corresponding data from the database.
 
@@ -44,41 +46,28 @@ The API will validate that the user has authority to make the status transition.
 | carrier_name | No | The carrier of the shipment? If left blank, the dummy site (objid of -2) is used |
 | gen_time_bombs | Yes | Should a time bomb record be created for business rule notification? |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Quantity to ship (from part request) can't be < 1 unit |
+| -2 | Cannot find the specified user |
+| -3 | Cannot find the specified part request |
+| -4 | No address line 1 either specified or found in the shipping address |
+| -5 | No city either specified or found in the shipping address |
+| -6 | No state either specified or found in the shipping address |
+| -7 | The transition to SHIPPED condition does not exist |
+| -8 | The user is not authorized to make the transition to SHIPPED condition |
+| -9 | Cannot locate activity string for SHIP with rank = 12500 |
+| -10 | Cannot find the specified status |
+| -11 | The part request is currently dispatched to a queue |
+| -12 | The employee record for the specified user cannot be found |
+| -13 | Cannot find the specified carrier site |
 
-0 No errors
+#### Examples
 
--1                                             Quantity to ship (from part request) can't be < 1 unit
-
--2                                             Cannot find the specified user
-
--3                                             Cannot find the specified part request
-
--4                                             No address line 1 either specified or found in the shipping address
-
--5                                             No city either specified or found in the shipping address
-
--6                                             No state either specified or found in the shipping address
-
--7                                             The transition to SHIPPED condition does not exist
-
--8                                             The user is not authorized to make the transition to SHIPPED condition
-
--9                                             Cannot locate activity string for SHIP with rank = 12500
-
--10                                           Cannot find the specified status
-
--11                                           The part request is currently dispatched to a queue
-
--12                                           The employee record for the specified user cannot be found
-
--13                                           Cannot find the specified carrier site
-
-**Examples**
-
- Ship part request number '1-14' using an address and a status of "All Shipped". Fill in other shipping information, and  it was performed by Cindy. The shipping occurs on August 1, 2001. Generate a time bomb.
+Ship part request number '1-14' using an address and a status of "All Shipped". Fill in other shipping information, and  it was performed by Cindy. The shipping occurs on August 1, 2001. Generate a time bomb.
 
 **Visual Basic:**
 

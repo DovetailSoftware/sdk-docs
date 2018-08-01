@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public RowsReturned As Long
+```
 
-**Description**
+#### Description
 
 If you query the database, and a Generic object has a _RowLimit_ associated with it, and the query returns more rows than the Generic allows, the number of rows that the query wanted to return is stored in this property.
 

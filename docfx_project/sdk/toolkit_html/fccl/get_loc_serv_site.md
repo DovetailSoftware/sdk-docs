@@ -1,9 +1,11 @@
 get_loc_serv_site
 -------------------
 
+```
 Public Function get_loc_serv_site(ByVal site_id As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API returns a list of the locations (in the proper order) servicing this site.
 
@@ -13,28 +15,24 @@ This API returns a list of the locations (in the proper order) servicing this si
 |:--- |:--- |:--- |
 | site_id | Yes | The site's ID |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| +1 | There are no locations specified to service this site |
+| -1 | No site ID supplied |
+| -2 | Supplied site does not exist |
+| ret_string | Output - Returns a pipe delimited list of the locations (in the proper order) servicing this site |
 
-0 No errors
+#### Examples
 
-+1                                            There are no locations specified to service this site
-
--1                                             No site ID supplied
-
--2                                             Supplied site does not exist |
-| ret_string | Output | Returns a pipe delimited list of the locations (in the proper order)
-
-servicing this site
-
-**Examples**
-
- Get the locations servicing the site "42".
+Get the locations servicing the site "42".
 
 **Visual Basic:**
 
 Dim ret_int  As Integer
+```
 
 Dim loc_list As String
 

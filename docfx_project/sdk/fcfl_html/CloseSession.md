@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub CloseSession()
+```
 
-**Description**
+#### Description
 
 This method frees all resources and references to the FCSession object.
 

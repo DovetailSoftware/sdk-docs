@@ -1,5 +1,5 @@
 _CloseConnection_
------------------
+--------------
 
 **Object and Type**
 
@@ -9,19 +9,21 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub CloseConnection()
+```
 
-**Description**
+#### Description
 
 This method is used to close an external database connection. If this FCSQLExec object is using the default connection to the Clarify database, you do not need to call this method. In fact, an error will occur in that case.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 14003 | There is no open external connection to close |
 
-14003                                      There is no open external connection to close
-
-**Example**
+#### Examples
 
 The following example demonstrates opening an external connection, executing SQL against it, and closing the connection.
 

@@ -8,11 +8,15 @@ Type : Method
 
 **Prototype**
 
+```
 Public Function GetGbstDefault(ByVal ListName As String) As String
+```
 
+```
 Public Function GetLocalizedGbstDefault(ByVal ListName As String) As String
+``` 
 
-**Description**
+#### Description
 
 GetGbstDefault - This method returns the default string value for a given Application Popup list.
 
@@ -28,17 +32,16 @@ The gbst_elm table is cached in the FCApplication object, so this method does no
 
 **Returns**
 
-The default value for this list, if one is defined. Else, the first value in the list. |
+The default value for this list, if one is defined. Else, the first value in the list.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10008 | ListName must not be empty. |
+| 10009 | Invalid ListName. |
 
-10008                                      ListName must not be empty.
-
-10009                                      Invalid ListName. |
-
-**Example**
+#### Examples
 
 The following example displays the default Case Type.
 

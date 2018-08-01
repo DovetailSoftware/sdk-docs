@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function IsCountry(ByVal Country As String) As Boolean
+``` 
 
-**Description**
+#### Description
 
 This method returns a boolean indicating if the given country is a valid country name in the database.  The country table is cached in the FCApplication object, so this method does not cause a database round-trip.
 

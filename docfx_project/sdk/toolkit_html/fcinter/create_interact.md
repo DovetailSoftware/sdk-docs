@@ -4,6 +4,7 @@ create_interact
 create_interact_list
 ----------------------
 
+```
 Public Function create_interact(ByVal the_title As String, _
                      ByVal the_notes As String, ByVal first As String, _
                      ByVal last As String, ByVal phone As String, _
@@ -20,7 +21,9 @@ Public Function create_interact(ByVal the_title As String, _
                      ByVal str_fld1 As String, ByVal str_val1 As String, _
                      ByVal str_fld2 As String, ByVal str_val2 As String, _
                      ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_interact_list(ByVal the_title As String, _
                      ByVal the_notes As String, ByVal first As String, _
                      ByVal last As String, ByVal phone As String, _
@@ -35,8 +38,9 @@ Public Function create_interact_list(ByVal the_title As String, _
                      ByVal user_name As String, ByVal gen_time_bomb As Boolean, _
                      Optional fld_list As Variant, Optional type_list As Variant, _
                      Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 This API creates an interaction in Clarify. An interaction stores information on communications with contacts. This API saves the reason for the interaction, if the interaction is product related, how much time was spent with the contact, and so on. It actually creates an interact record and an activity log entry, and allows time bomb records to be created.
 
@@ -73,47 +77,32 @@ This API creates an interaction in Clarify. An interaction stores information on
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Specified User not found |
+| -2 | Supplied Reason1 code is invalid |
+| -3 | Supplied Reason2 code is invalid |
+| -4 | Supplied Product Name is invalid |
+| -5 | Supplied Direction is invalid |
+| -6 | Supplied Type is invalid |
+| -7 | Supplied Origin is invalid |
+| -8 | Supplied Result Code is invalid |
+| -9 | Supplied Pay Option is invalid |
+| -10 | Specified Lead source not found |
+| -11 | Specified Contact not found |
+| -12 | Interaction duration is negative or equal zero |
+| -13 | Bad wait time supplied. Must be > 0 |
+| -14 | Cannot find the activity string with rank = 500 |
+| -15 | Specified User's Employee record not found |
+| ret_objid | Output - Returns the objid of the Interaction |
+| ret_id_num | Output - Returns the Interaction id number |
 
-0                                              No errors
+#### Examples
 
--1                                             Specified User not found
-
--2                                             Supplied Reason1 code is invalid
-
--3                                             Supplied Reason2 code is invalid
-
--4                                             Supplied Product Name is invalid
-
--5                                             Supplied Direction is invalid
-
--6                                             Supplied Type is invalid
-
--7                                             Supplied Origin is invalid
-
--8                                             Supplied Result Code is invalid
-
--9                                             Supplied Pay Option is invalid
-
--10                                           Specified Lead source not found
-
--11                                           Specified Contact not found
-
--12                                           Interaction duration is negative or equal zero
-
--13                                           Bad wait time supplied. Must be > 0
-
--14                                           Cannot find the activity string with rank = 500
-
--15                                           Specified User's Employee record not found |
-| ret_objid | Output | Returns the objid of the Interaction |
-| ret_id_num | Output | Returns the Interaction id number
-
-**Examples**
-
- Create a new Interaction
+Create a new Interaction
 
 **Visual Basic:**
 
@@ -190,15 +179,14 @@ date_val1 = ""
                      str_fld1, str_val1, _
                      str_fld2, str_val2, _
                      date_fld1, date_val1)
-
-   If ret_int = 0
-
+| 
+ | If ret_int = 0
+ |
       InteractionObjid = fcinter.ret_objid
 
       InteractionId = fcinter.ret_id_num
-
-   End If
-
+ End If
+ 
 **Javascript:**
 
 the_title = "";
@@ -264,25 +252,25 @@ date_fld1 = "";
 date_val1 = "";
 
    var ret_int = fcinter.create_interact(the_title, the_notes, first, last,
+  
+   phone, zipcode, reason1, reason2,
+  
+   prod_name, direction, the_type, origin,
+  
+   done_in_one, result, fee_based, pay_option,
+  
+   lead_source, start_date, duration,
+  
+   wait_time, entered_time, user_name,
+  
+   gen_time_bomb,
 
-                     phone, zipcode, reason1, reason2,
-
-                     prod_name, direction, the_type, origin,
-
-                     done_in_one, result, fee_based, pay_option,
-
-                     lead_source, start_date, duration,
-
-                     wait_time, entered_time, user_name,
-
-                     gen_time_bomb,
-
-                     int_fld1, int_val1,
-
-                     str_fld1, str_val1,
-
-                     str_fld2, str_val2,
-
+                     int_fld1, int_val1,  
+  
+                     str_fld1, str_val1,  
+  
+                     str_fld2, str_val2,  
+  
                      date_fld1, date_val1);
 
    if(ret_int == 0) {
@@ -290,5 +278,4 @@ date_val1 = "";
       var InteractionObjid = fcinter.ret_objid;
 
       var InteractionId = fcinter.ret_id_num;
-
    }

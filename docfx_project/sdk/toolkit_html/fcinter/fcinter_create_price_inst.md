@@ -1,6 +1,7 @@
 create_price_inst
 -------------------
 
+```
 Public Function create_price_inst(ByVal part_num As String, _
                                   ByVal domain As String, _
                                   ByVal mod_level As String, _
@@ -10,8 +11,9 @@ Public Function create_price_inst(ByVal part_num As String, _
                                   ByVal price As String, _
                                   ByVal start_date As String, _
                                   ByVal end_date As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API creates a price instance object in Clarify. They are currently only enabled for simple price instances (not child/parent pricing, only fixed pricing). You must specify the part/domain/revision of the part to price, and the price program (schedule). You must also specify the quantity to be priced, as well as the start and end date of the price.
 
@@ -35,44 +37,32 @@ The non-business rule version of the API returns the objid of the created price 
 | start_date | No | Start date of the price. If blank, start date of the program is used |
 | end_date | No | End date of the price. If blank, end date of the program is used |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Part number was not found |
+| -2 | Revision for the part was not found |
+| -3 | Could not find the price program |
+| -4 | The price type is not valid |
+| -5 | The quantity supplied is < 1 |
+| -6 | The price start date is earlier than the program start date |
+| -7 | The price end date is after the program end date |
+| -8 | The price start date is later than the price end date |
+| -9 | This price instance has dates that overlap another price instance for this part in this price program |
+| -10 | The supplied price type is not yet supported |
+| -11 | Could not open database for SQL query |
+| ret_objid | Output - Returns the objid of the new price instance |
 
-0                                              No errors
+#### Examples
 
--1                                             Part number was not found
-
--2                                             Revision for the part was not found
-
--3                                             Could not find the price program
-
--4                                             The price type is not valid
-
--5                                             The quantity supplied is < 1
-
--6                                             The price start date is earlier than the program start date
-
--7                                             The price end date is after the program end date
-
--8                                             The price start date is later than the price end date
-
--9                                             This price instance has dates that overlap another price instance for this part in this price
-
-program
-
--10                                           The supplied price type is not yet supported
-
--11                                           Could not open database for SQL query |
-| ret_objid | Output | Returns the objid of the new price instance
-
-**Examples**
-
- Add a price for quantity 1 of  "MS Word" to the "Spring" price list. Give dates and a price.
+Add a price for quantity 1 of  "MS Word" to the "Spring" price list. Give dates and a price.
 
 **Visual Basic:**
 
 Dim ret_int          As Integer
+```
 
 Dim price_inst_objid As Long
 
@@ -84,15 +74,13 @@ ret_int = fcinter.create_price_inst("MS Word", "Product",_
  If ret_int = 0 Then
 
       price_inst_objid = fcinter.ret_objid
-
-   End If
-
+|  | End If |
 **Javascript:**
 
 var ret_int = fcinter.create_price_inst("MS Word", "Product",
-
-                                    "","Spring", 0, 1,
-
+| 
+ | "","Spring", 0, 1,
+ |
                                     "45.54","3/2/2000", "6/1/2000");
 
  if (ret_int == 0){ var price_inst_objid = fcinter.ret_objid; }
@@ -102,6 +90,7 @@ var ret_int = fcinter.create_price_inst("MS Word", "Product",
 **Visual Basic:**
 
 Dim ret_int          As Integer
+```
 
 Dim price_inst_objid As Long
 
@@ -112,15 +101,13 @@ ret_int = fcinter.create_price_inst("MS Word", "Product", "",_
  If ret_int = 0 Then
 
       price_inst_objid = fcinter.ret_objid
-
-   End If
-
+|  | End If |
 **Javascript:**
 
 var ret_int = fcinter.create_price_inst("MS Word", "Product", "",
-
-                                    "US Std Price List",
-
+| 
+ | "US Std Price List",
+ |
                                     0, 2, "99.99", "", "");
 
  if (ret_int == 0){ var price_inst_objid = fcinter.ret_objid; }

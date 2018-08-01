@@ -1,6 +1,7 @@
 create_expense_log
 --------------------
 
+```
 Public Function create_expense_log(ByVal onsite_objid As Long, _
                   ByVal id_num As String, ByVal creation_time As String, _
                   ByVal notes As String, ByVal perf_by As String, _
@@ -8,8 +9,9 @@ Public Function create_expense_log(ByVal onsite_objid As Long, _
                   ByVal quantity As Double, ByVal the_rate As Double, _
                   ByVal billable As Long, ByVal bill_to As String, _
                   ByVal resolution As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows creation of an expense log that is related to an onsite log. The OBJID of the onsite log or a case/subcase id must be supplied (but not both), and the other parameters are all optional. If you do not specify a billing rate, the employee's labor_rate field will be used.
 
@@ -30,45 +32,33 @@ This API allows creation of an expense log that is related to an onsite log. The
 | bill_to | No | Indicates who this expense log will be billed to, from the BILL_TO_EXPENSE list in Policies and Customers |
 | resolution | No | Value from the Resolution Code list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Could not find specified EXPENSE_TYPE |
+| -2 | Could not find specified BILL_TO_EXPENSE |
+| -3 | Cannot find user in database |
+| -4 | Cannot find employee record for user in database |
+| -5 | Cannot find performing user in database |
+| -6 | Could not find specified RESOLUTION |
+| -7 | Cannot find employee record for performing user in database |
+| -8 | Cannot find the 'T & E log' activity string with rank = 1800 |
+| -9 | Cannot find case or subcase related to this expense log |
+| -10 | Cannot find specified onsite_log record |
+| -11 | Either Case Id or an onsite log objid must be specified |
+| ret_objid | The objid of the new expense log object is returned by this parameter. |
+| ret_objid2 | The objid of the new onsite object is returned by this parameter. |
 
-0                                              No errors
+#### Examples
 
--1                                             Could not find specified EXPENSE_TYPE
-
--2                                             Could not find specified BILL_TO_EXPENSE
-
--3                                             Cannot find user in database
-
--4                                             Cannot find employee record for user in database
-
--5                                             Cannot find performing user in database
-
--6                                             Could not find specified RESOLUTION
-
--7                                             Cannot find employee record for performing user in database
-
--8                                             Cannot find the 'T & E log' activity string with rank = 1800
-
--9                                             Cannot find case or subcase related to this expense log
-
--10                                           Cannot find specified onsite_log record
-
--11                                           Either Case Id or an onsite log objid must be specified
-
-ret_objid                                The objid of the new expense log object is returned by this parameter.
-
-ret_objid2                              The objid of the new onsite object is returned by this parameter.
-
-**Examples**
-
- Create a new expense log related to onsite log 268435499. The creation time is 10:30 am on September 11, 1998. A sample note is passed, and the resolution will be "Completed". The user will default, and the performing user will be set to "db". This default expense type is billable to the "Customer". Once created, the new objid will be placed in the el_objid variable.
+Create a new expense log related to onsite log 268435499. The creation time is 10:30 am on September 11, 1998. A sample note is passed, and the resolution will be "Completed". The user will default, and the performing user will be set to "db". This default expense type is billable to the "Customer". Once created, the new objid will be placed in the el_objid variable.
 
 **Visual Basic:**
 
    Dim ret_int  As Integer
+```
 
 Dim el_objid As Long
 
@@ -97,6 +87,7 @@ if (ret_int == 0){ var el_objid = fcfo.ret_objid; }
 **Visual Basic:**
 
    Dim ret_int  As Integer
+```
 
 Dim el_objid As Long
 

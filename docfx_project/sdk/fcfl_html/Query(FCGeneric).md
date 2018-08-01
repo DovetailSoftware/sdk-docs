@@ -1,5 +1,5 @@
 _Query(FCGeneric)_
-------------------
+---------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Query()
+```
 
-**Description**
+#### Description
 
 This method causes the generic object to query the database (based on the DBObjectName, the Filter, the SortFields, and the DataFields you have set for this object) to retrieve records. The query retrieves 0 or more rows, and places them in the recordset for the generic object.
 
@@ -27,29 +29,17 @@ boCase.Records.Close();
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12005 | The SQL query () is not valid |
+| 12006 | The object to query does not have a DBObjectName specified |
+| 12007 | You attempted to query a child object using a relation that was not queried for in the parent generic object |
+| 12016 | One of the data restriction clauses for this object is not valid |
+| 12018 | The generic object to be queried is open, and may not be queried. Please close the object before you attempt the query |
+| 12021 | Your query returned () rows. Maximum allowed for this query is (). |
+| 12032 | You must specify data fields for distinct queries. This query is for a distinct query, but has not defined data fields. |
 
-12005                                      The SQL query () is not valid
-
-12006                                      The object to query does not have a DBObjectName specified
-
-12007                                      You attempted to query a child object using a relation that was not queried for in
-
-the parent generic object
-
-12016                                      One of the data restriction clauses for this object is not valid
-
-12018                                      The generic object to be queried is open, and may not be queried. Please close
-
-the object before you attempt the query
-
-12021                                      Your query returned () rows. Maximum allowed for this query is ().
-
-12032                                      You must specify data fields for distinct queries. This query is for a distinct
-
-query, but has not defined data fields.
-
-**Example**
+#### Examples
 
 The following example queries a specific case, all related activity logs, and the related contact.
 

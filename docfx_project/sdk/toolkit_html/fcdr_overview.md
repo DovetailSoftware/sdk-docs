@@ -1,7 +1,5 @@
 ## FCFL API Toolkit for Depot Repair
 
----
-
 **Overview**
 
 Many customers have wanted the ability to customize the Clarify environment easily by adding base Clarify functions (such as ECO creation, or Depot Repair labor logging) to web applications.

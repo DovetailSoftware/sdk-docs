@@ -1,12 +1,14 @@
 reopen_contract
 ---------------
 
+```
 Public Function reopen_contract(ByVal contract_id As String, _
                 ByVal wipbin_name As String, ByVal status_str As String, _
                 ByVal reopen_date As String, ByVal user_name As String, _
                 ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified contract to be reopened. This is augmented functionality from base Clarify, as a contract cannot be re-opened via the Clarify GUI. The date/time of the reopen, the person performing the reopen, the WIPBIN to place the contract in, and the new status of the contract can be specified. The person who reopens the contract becomes the new owner. The WIPBin to place the contract in may also be specified. If it is not, the contract is placed in the user's default WIPBIN. If the status is not specified, the case is placed in the default status for the Active Contract condition. The API can also generate a time bomb (for business rule notification).
 
@@ -21,29 +23,22 @@ This API causes the specified contract to be reopened. This is augmented functio
 | user_name | No | The user who reopened the contract. If left blank, the current user performs the reopen. |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified contract |
+| -2 | The contract is not closed |
+| -3 | Cannot find the specified user |
+| -4 | Cannot find the specified WIPBIN |
+| -5 | Cannot find the REOPEN activity string with rank = 2400 |
+| -6 | Cannot find the specified status |
+| -7 | Employee record not found for specified user |
 
-0                                              No errors
+#### Examples
 
--1                                             Cannot find the specified contract
-
--2                                             The contract is not closed
-
--3                                             Cannot find the specified user
-
--4                                             Cannot find the specified WIPBIN
-
--5                                             Cannot find the REOPEN activity string with rank = 2400
-
--6                                             Cannot find the specified status
-
--7                                             Employee record not found for specified user
-
-**Examples**
-
- Reopen contract number 'C154' by the current user at the current date/time. Place in the default WIPBin with the default status, and generate a time bomb.
+Reopen contract number 'C154' by the current user at the current date/time. Place in the default WIPBin with the default status, and generate a time bomb.
 
 **JavaScript:**
 

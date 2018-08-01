@@ -1,6 +1,5 @@
 ### AddNew
 
----
 
 **Object and Type**
 
@@ -10,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub AddNew()
+```
 
-**Description**
+#### Description
 
 This method allows you to add a new record to a generic object. The object can later be added to the database with either the Update or UpdateAll methods.
 
@@ -26,13 +27,12 @@ If you do not supply an objid, **FCFL** will generate a proper objid for the new
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12009 | Could not add record because not all fields were selected in a previous query |
+| 12031 | This operation is not valid for a generic that is marked distinct |
 
-12009                                      Could not add record because not all fields were selected in a previous query
-
-12031                                      This operation is not valid for a generic that is marked distinct
-
-**Example**
+#### Examples
 
 The following example creates a new record for the contact_role table. It also relates it to two objects, and adds the record into the database.
 

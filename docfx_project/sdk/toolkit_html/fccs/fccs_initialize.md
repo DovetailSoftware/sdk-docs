@@ -1,9 +1,11 @@
 initialize
 ----------
 
+```
 Public Sub Initialize(ByVal FCApp As FCApplication, ByVal FCSess As FCSession)
+```
 
-**Description**
+#### Description
 
 This API initializes an **FCCS** object. It must be called after the creation of the object, and before any other APIs can be called on the **FCCS** object. Simply put, this API simply saves the FCApplication and FCSession pointers within the **FCCS** object so that they can be used as needed.
 
@@ -14,9 +16,9 @@ This API initializes an **FCCS** object. It must be called after the creation of
 | FCApp | Yes | FCApplication object |
 | FCSess | Yes | FCSession object |
 
-**Examples**
+#### Examples
 
- Create and initialize a new FCCS object.
+Create and initialize a new FCCS object.
 
 **JavaScript:**
 

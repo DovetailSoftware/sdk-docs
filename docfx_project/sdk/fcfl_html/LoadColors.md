@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub LoadColors(user_name As String)
+```
 
-**Description**
+#### Description
 
 This method reads the colors, for the specified user, from the database, and stores them in a memory cache for fast access. Colors are read from the cache with the _GetColor_ method.
 

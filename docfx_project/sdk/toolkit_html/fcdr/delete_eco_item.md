@@ -1,9 +1,11 @@
 _delete_eco_item_
 -------------------
 
+```
 Public Function delete_eco_item(ByVal eco_item_objid As Long) As Integer
+```
 
-**Description**
+#### Description
 
 This API will delete an ECO item object.
 
@@ -13,17 +15,16 @@ This API will delete an ECO item object.
 |:--- |:--- |:--- |
 | eco_item_objid | Yes | The objid of the ECO item object to be deleted. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Specified ECO Item is not in database |
 
-0                                              No errors
+#### Examples
 
--1                                             Specified ECO Item is not in database
-
-**Examples**
-
- Delete ECO Item 268435463.
+Delete ECO Item 268435463.
 
 **JavaScript:**
 

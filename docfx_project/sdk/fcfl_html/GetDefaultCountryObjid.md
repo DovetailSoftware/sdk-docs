@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetDefaultCountryObjid() As Long
+```
 
-**Description**
+#### Description
 
 This method returns the objid of the default country. The default country is defined by the is_default flag in the country table. The country table is cached in the FCApplication object, so this method does not cause a database round-trip.
 

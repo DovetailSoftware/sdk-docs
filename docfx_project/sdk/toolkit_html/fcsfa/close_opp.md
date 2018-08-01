@@ -7,7 +7,7 @@ Function close_opp(ByVal opp_id As String, _
                    ByValu user_name As String, _
                    ByVal gen_time_bombs As Boolean) As Integer
 
-**Description**
+#### Description
 
 This API causes the specified opportunity to be closed. You may specify the status (in closed opportunity condition) for the opportunity, as well as the user name of the closer, and the date/time of the close. The APIs can also generate a time bomb (for business rule notification).
 
@@ -21,27 +21,20 @@ This API causes the specified opportunity to be closed. You may specify the stat
 | user_name | No | The user who closed the opportunity. If left blank, the current user performs the close |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified status for the closed opportunity condition |
+| -2 | Cannot find the CLOSE OPP activity string |
+| -3 | Cannot find the specified opportunity |
+| -4 | The opportunity is already closed |
+| -5 | The opportunity cannot be closed since it is already dispatched |
+| -6 | The specified user is not found |
+| -7 | The employee for the specified user cannot be found |
 
-0                                              No errors
-
--1                                             Cannot find the specified status for the closed opportunity condition
-
--2                                             Cannot find the CLOSE OPP activity string
-
--3                                             Cannot find the specified opportunity
-
--4                                             The opportunity is already closed
-
--5                                             The opportunity cannot be closed since it is already dispatched
-
--6                                             The specified user is not found
-
--7                                             The employee for the specified user cannot be found
-
-**Examples**
+#### Examples
 
 Close opportunity "32" at the current time with the current user. Put in closed status "close now". Generate a time bomb.
 

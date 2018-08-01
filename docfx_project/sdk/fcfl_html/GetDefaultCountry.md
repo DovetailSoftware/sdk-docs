@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetDefaultCountry() As String
+```
 
-**Description**
+#### Description
 
 This method returns the name of the default country. The default country is defined by the is_default flag on the country table. The country table is cached in the FCApplication object, so this method does not cause a database round-trip.
 

@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Execute(ByVal SqlStr As String)
+```
 
-**Description**
+#### Description
 
 This method is used to execute a SQL statement against the external database. This method is only used for SQL that **DOES NOT** return any database row. If you wish to execute SQL that does return rows, use the ExecuteReturnRows method.
 

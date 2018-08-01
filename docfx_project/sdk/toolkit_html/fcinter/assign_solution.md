@@ -1,14 +1,16 @@
 assign_solution
 ---------------
 
+```
 Public Function assign_solution(ByVal solution_id As String, _
                                 ByVal new_user As String, _
                                 ByVal wipbin As String, _
                                 ByVal assign_date As String, _
                                 ByVal user_name As String, _
                                 ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified solution to be assigned to a new user. The solution must not be in closed condition, and the user assigning the solution does not have to be the owner. In base Clarify, the assigner of a solution must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the solution in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
@@ -23,27 +25,21 @@ This API causes the specified solution to be assigned to a new user. The solutio
 | user_name | No | The user who assigned the solution. If left blank, the current user performs the assign. |
 | gen_time_bombs | Yes | Should a time bomb record be created for business rule notification? |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified solution |
+| -2 | The specified solution is currently closed |
+| -3 | Specified user (to assign to) is not found |
+| -4 | The specified WIPBIN is not valid for the user |
+| -5 | Specified user (who performed the assign) is not found |
+| -6 | Could not find gbst_elm string for ASSIGN with rank equal to 10500 |
 
-0                                              No errors
+#### Examples
 
--1                                             Cannot find the specified solution
-
--2                                             The specified solution is currently closed
-
--3                                             Specified user (to assign to) is not found
-
--4                                             The specified WIPBIN is not valid for the user
-
--5                                             Specified user (who performed the assign) is not found
-
--6                                             Could not find gbst_elm string for ASSIGN with rank equal to 10500
-
-**Examples**
-
- Assign solution number '154' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
+Assign solution number '154' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
 **Visual Basic:**
 

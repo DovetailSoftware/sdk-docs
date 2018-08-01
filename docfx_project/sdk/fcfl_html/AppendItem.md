@@ -1,6 +1,5 @@
 _AppendItem_
-------------
-
+---------
 **Object and Type**
 
 Object  : FCList
@@ -9,6 +8,7 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Sub AppendItem(ByRef item1 As Variant, _
                       Optional ByRef item2 As Variant, _
                       Optional ByRef item3 As Variant, _
@@ -18,8 +18,9 @@ Public Sub AppendItem(ByRef item1 As Variant, _
                       Optional ByRef item7 As Variant, _
                       Optional ByRef item8 As Variant, _
                       Optional ByRef item9 As Variant)
+```
 
-**Description**
+#### Description
 
 Append from one to nine items onto the list.  Items are appended in order on the end of the list.  Items must be all of the same type and they must match the types of items currently in the list.
 
@@ -32,13 +33,12 @@ Append from one to nine items onto the list.  Items are appended in order on th
 
 **Error codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 4 | Can not add item to list.  List is of different type than item. |
+| 6 | Item to be added to the list is of a type not supported. |
 
-4                                              Can not add item to list.  List is of different type than item.
-
-6                                              Item to be added to the list is of a type not supported.
-
-**Example**
+#### Examples
 
 The example shows the simple creation of a list with AppendItem.
 

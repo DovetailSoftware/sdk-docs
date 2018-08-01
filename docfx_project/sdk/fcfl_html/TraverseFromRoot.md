@@ -9,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub TraverseFromRoot(ByVal RootObjid As Long, _
-
             ByVal TblName As String, ByVal RootRel As String)
+```
 
-**Description**
+#### Description
 
 This method sets a query for a generic object, given a root object table name, the objid for a row in that table, and the relation to follow from that row to this generic object. This method saves querying the root object (as a parent object) when there is no need. This method is only useful when you already have an objid of a root row. For example, the current user's objid is cached in the FCApplication object. There is no  reason to expend time to query the user table just to get that row (for a child query). Instead, the TraverseFromRoot is very useful.
 

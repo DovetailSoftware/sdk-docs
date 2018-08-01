@@ -1,11 +1,13 @@
 add_emp_to_bus_org
 ----------------------
 
+```
 Public Function add_emp_to_bus_org(ByVal user_name As String, _
                                    ByVal acct_id As String, _
                                    ByVal role_name As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API adds an employee as a team member to an account (bus_org) with the specified role. You must specify the user name, account ID, and role name.
 
@@ -17,28 +19,25 @@ This API adds an employee as a team member to an account (bus_org) with the spec
 | site_id | Yes | Account to add team member to |
 | role_name | No | Role for team member. If left blank, default role is used |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| +1 | The employee already exists on the account team with the specified role |
+| -1 | Cannot find the specified user name |
+| -2 | Cannot find the specified account id |
+| -3 | The supplied Account Team role is not found |
+| ret_objid | Output - Returns the objid of the employee |
 
-0 No errors
-
-+1                                            The employee already exists on the account team with the specified role
-
--1                                             Cannot find the specified user name
-
--2                                             Cannot find the specified account id
-
--3                                             The supplied Account Team role is not found |
-| ret_objid | Output | Returns the objid of the employee
-
-**Examples**
+#### Examples
 
  Add Jeanne to the account team for account "AN_CUST1" with a role of "Executive Sponsor".
 
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 Dim emp_objid  As Long
 

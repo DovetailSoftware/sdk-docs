@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetCurrentDate() As Date
+```
 
-**Description**
+#### Description
 
 This method returns the current **_server time zone-based_** date and time.
 

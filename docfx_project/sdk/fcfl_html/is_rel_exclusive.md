@@ -9,13 +9,13 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function is_rel_exclusive(tbl_num As Long, rel_name As String, _
-
                                  tbl_fld As String, _
-
                                  objid_fld As String) As Boolean
+``` 
 
-**Description**
+#### Description
 
 This method determines if the specified relation is an exclusive relation (or not) for the specified table. If it is, the final two arguments are filled in with the names of the table and objid fields that are used to perform the exclusive relation functionality.
 

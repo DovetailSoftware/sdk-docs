@@ -4,6 +4,7 @@ log_case_phone
 log_case_phone_list
 ---------------------
 
+```
 Public Function log_case_phone(ByVal case_id As String, _
                 ByVal cont_first As String, ByVal cont_last As String, _
                 ByVal cont_phone As String, ByVal action_type As String, _
@@ -18,7 +19,9 @@ Public Function log_case_phone(ByVal case_id As String, _
                 ByVal str_fld1 As String, ByVal str_val1 As String, _
                 ByVal str_fld2 As String, ByVal str_val2 As String, _
                 ByVal date_fld1 As String, ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function log_case_phone_list(ByVal case_id As String, _
                 ByVal cont_first As String, ByVal cont_last As String, _
                 ByVal cont_phone As String, ByVal action_type As String, _
@@ -30,8 +33,9 @@ Public Function log_case_phone_list(ByVal case_id As String, _
                 ByVal cmit_to As Boolean, ByVal gen_time_bombs As Boolean, _
                 Optional fld_list As Variant, Optional type_list As Variant, _
                 Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create a phone log against a case. The APIs allow for the assigning of notes and internal use only text. An action type is also specified. The action type is usually used to distinguish between incoming and outgoing calls. The contact for the phone call is also specified, as is the phone call ending time (for length of call calculations). A new case status can be set with this API. Additional fields can also be set as well as a time bomb (for the phone log), which allows notifications to be generated based on the event.
 
@@ -70,41 +74,27 @@ The objid of the status change record is returned in the FCCS object variable _r
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | End of phone call is before start of call |
+| -2 | Cannot find the specified case |
+| -3 | Cannot find the specified contact |
+| -4 | Cannot find the specified user |
+| -5 | Cannot find the phone log action type string |
+| -6 | Cannot find the PHONE LOG activity string |
+| -7 | Cannot find employee record for specified user |
+| -8 | The supplied status is invalid for the current condition |
+| -9 | A commitment is to be created, but the title is blank |
+| -10 | The prior warning is negative |
+| -11 | The commitment due date is before the log creation date |
+| -12 | Cannot find the COMMIT activity string |
+| -13 | Could not find the com_tmplte for WARNING |
+| -14 | Could not find the com_tmplte for COMMITMENT |
 
-0                                              No errors
-
--1                                             End of phone call is before start of call
-
--2                                             Cannot find the specified case
-
--3                                             Cannot find the specified contact
-
--4                                             Cannot find the specified user
-
--5                                             Cannot find the phone log action type string
-
--6                                             Cannot find the PHONE LOG activity string
-
--7                                             Cannot find employee record for specified user
-
--8                                             The supplied status is invalid for the current condition
-
--9                                             A commitment is to be created, but the title is blank
-
--10                                           The prior warning is negative
-
--11                                           The commitment due date is before the log creation date
-
--12                                           Cannot find the COMMIT activity string
-
--13                                           Could not find the com_tmplte for WARNING
-
--14                                           Could not find the com_tmplte for COMMITMENT
-
-**Examples**
+#### Examples
 
  Create a phone log for case number 'C154'. The call was made with Bill Clinton. Set the notes for the log, and no other information. Generate a time bomb.
 
@@ -121,6 +111,7 @@ var ret_int = fccs.log_case_phone("C154", "Bill", "Clinton", "555-555-1234",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.log_case_phone_list("C154", "Bill", "Clinton", _
               "555-555-1234", "", "Some notes", "", "", "", "", _
@@ -140,6 +131,7 @@ var ret_int = fccs.log_case_phone_list("C154", "Bill", "Clinton",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 ret_int = fccs.log_case_phone("C154", "Bill", "Clinton", "555-555-1234", _
               "", "Some notes", "", "", "", "", "", "", "", "", 0, True, True)
@@ -167,6 +159,7 @@ var ret_int = fccs.log_case_phone("2", "Bill", "Clinton", "555-555-1234",
 **Visual Basic:**
 
    Dim ret_int   As Integer
+```
 
 ret_int = fccs.log_case_phone("2", "Bill", "Clinton", "555-555-1234", _
               "Incoming call", "Some notes", "Internal notes", _
@@ -225,6 +218,7 @@ var ret_int = fccs.log_case_phone_list("2", "Bill", "Clinton", "555-555-1234",
 **Visual Basic:**
 
    Dim ret_int     As Integer
+```
 
 Dim fld_list    As New List
 

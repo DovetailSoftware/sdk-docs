@@ -1,5 +1,5 @@
 _ReplaceByIndex_
-----------------
+-------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub ReplaceByIndex(ByRef index As Variant, ByRef item As Variant)
+```
 
-**Description**
+#### Description
 
 This method replaces items in a list with the specified item.  Index can be an integer or a list of integers.  If index is an integer, only that item is replaced.  If index is a list, the list is a list of integers specifying which items to replaced.    Lists are zero based.  This means the index to the first item is 0, the second is 1, etc.
 
@@ -24,15 +26,15 @@ This method replaces items in a list with the specified item.  Index can be an 
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 4 | Cannot add an element of this type to a list. List contains data of a different type. |
+| 6 | Item of a type not supported. |
+| 9 | Index out of range for list. |
+| 10 | List for replace must be of type integer or long. |
+| 11 | Index for replace must be of type integer or long. |
 
-4 Cannot add an element of this type to a list.  List contains data of a different type. | 6 | Item of a type not supported. | 9 | Index out of range for list.
-
-10                                            List for replace must be of type integer or long.
-
-11                                            Index for replace must be of type integer or long.
-
-**Example**
+#### Examples
 
 This example shows items being replaced in list1, first by single index, and then by a list.
 

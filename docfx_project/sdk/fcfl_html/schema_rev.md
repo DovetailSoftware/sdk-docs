@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public schema_rev As Integer
+```
 
-**Description**
+#### Description
 
 Contains the schema revision of the database as stored in adp_db_header.schema_rev.
 

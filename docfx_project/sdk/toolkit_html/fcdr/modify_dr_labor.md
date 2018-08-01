@@ -1,7 +1,7 @@
-  
-
 **modify_dr_labor**
+---
 
+```
 Public Function modify_dr_labor(ByVal time_log_objid As Long, _
                          ByVal labor_type As String, _
                          ByVal start_time As String, _
@@ -12,8 +12,9 @@ Public Function modify_dr_labor(ByVal time_log_objid As Long, _
                          ByVal tl_rate As Double, _
                          ByVal perf_by As String, _
                          ByVal creation_time As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows modification of labor that is logged against a depot repair part.
 
@@ -32,31 +33,23 @@ This API allows modification of labor that is logged against a depot repair part
 | perf_by | No | Indicates the technician who performed the labor. |
 | creation_time | No | Indicates the time this action is logged. Will default to the current time if a different time is not supplied. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Specified Duration in seconds is not more than zero |
+| -2 | Specified Labor Type is not in database |
+| -3 | Specified Bill To Labor is not in database |
+| -4 | Specified Work Center is not in database |
+| -5 | Specified Time Log record is not in database |
+| -6 | Related Onsite Log record is not in database |
+| -7 | Related Demand Dtl record is not in database |
+| -8 | Specified User is not in database |
 
-0                                              No errors
+#### Examples
 
--1                             Specified Duration in seconds is not more than zero            
-
--2                             Specified Labor Type is not in database                        
-
--3                             Specified Bill To Labor is not in database                     
-
--4                             Specified Work Center is not in database  
-
--5                             Specified Time Log record is not in database                   
-
--6                                             Related Onsite Log record is not in database                   
-
--7                                             Related Demand Dtl record is not in database                                    
-
--8                             Specified User is not in database                              
-
-**Examples**
-
- Change labor applied in time_log 268435465. The job was done by user "db" in the Lab, billable to the customer. No other changes are being made at this time.
+Change labor applied in time_log 268435465. The job was done by user "db" in the Lab, billable to the customer. No other changes are being made at this time.
 
 **JavaScript:**
 

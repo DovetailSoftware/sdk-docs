@@ -10,27 +10,35 @@ pick_no_trans
 pick_sn_no_trans
 ------------------
 
+```
 Public Function pick(ByVal dtl_num As String, _
                      ByVal locs_str As String, ByVal use_good As Boolean, _
                      ByVal user_name As String, ByVal pick_date As String, _
                      ByVal gen_time_bombs As Boolean) As Integer
+```
 
+```
 Public Function pick_sn(ByVal dtl_num As String, _
                         ByVal locs_str As String, ByVal use_good As Boolean, _
                         ByVal user_name As String, ByVal pick_date As String, _
                         ByVal serial_no As String, ByVal gen_time_bombs As Boolean) As Integer
+```
 
+```
 Public Function pick_no_trans(ByVal dtl_num As String, _
                      ByVal locs_str As String, ByVal use_good As Boolean, _
                      ByVal user_name As String, ByVal pick_date As String, _
                      ByVal gen_time_bombs As Boolean) As Integer
+```
 
+```
 Public Function pick_sn_no_trans (ByVal dtl_num As String, _
                         ByVal locs_str As String, ByVal use_good As Boolean, _
                         ByVal user_name As String, ByVal pick_date As String, _
                         ByVal serial_no As String, ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows for multiple pick actions to occur against a part request. Various inventory parts are _picked_ (reserved) for the part request.  The pick can be by a specified user at a specified time, and can be picked from good or bad stock. Time bombs (for notification/escalation) can also be specified.
 
@@ -68,52 +76,40 @@ The pick API will continue to attempt to pick until they have reserved all of th
 | tot_num_picked | Yes | Returns the number of items picked |
 | gen_time_bombs | Yes | Should a time_bomb be generated |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
-
-0                                      No errors
-
-+1                                            Picked some units, but could not pick all of them (ran out of locations to search)
-
--1                                             Cannot find the specified user
-
--2                                             Cannot find the specified part request
-
--3                                             There are no more units that need to be picked for the part request
-
--4                                             No transition exists between current condition and
-
-condition Picked
-
--5                                             User's privclass does not allow to transition between
-
-part request's condition and condition Picked
-
--6                                             Cannot find the activity string for PICK with rank = 12700
-
--7                                             Cannot find the default state for condition Picked
-
--8                                             Part request is currently dispatched to a queue
-
--9                                             The employee record for the specified user cannot be found
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| +1 | Picked some units, but could not pick all of them (ran out of locations to search) |
+| -1 | Cannot find the specified user |
+| -2 | Cannot find the specified part request |
+| -3 | There are no more units that need to be picked for the part request |
+| -4 | No transition exists between current condition and condition Picked |
+| -5 | User's privclass does not allow to transition between part request's condition and condition Picked |
+| -6 | Cannot find the activity string for PICK with rank = 12700 |
+| -7 | Cannot find the default state for condition Picked |
+| -8 | Part request is currently dispatched to a queue |
+| -9 | The employee record for the specified user cannot be found |
 
 **Part Transfer Error Codes:**
 
--120                                         Serial number is found in inventory, but not at the specified "from" bin
+| Value | Meaning |
+|:--- |:--- |
+| -120 | Serial number is found in inventory, but not at the specified "from" bin |
+| -121 | The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created. |
+| ret_num | Output - Total number of parts picked for this part request |
 
--121                                         The serialized part cannot be found at the specified from location and the from location is not a GL account that allows a part to be created. |
-| ret_num | Output | Total number of parts picked for this part request
+#### Examples
 
-**Examples**
-
- Pick inventory for part request number '1-14'. Use the location_servicing_locations to search. The pick is performed by Dan on January 1, 2001, and is from bad inventory. Generate time bombs.
+Pick inventory for part request number '1-14'. Use the location_servicing_locations to search. The pick is performed by Dan on January 1, 2001, and is from bad inventory. Generate time bombs.
 
 **Visual Basic:**
 
 Dim ret_int As Integer
 
 Dim tot_num As Integer
+```
 
 ret_int = fccl.pick("1-14", "", False, "Dan", "1/1/2001", True)
 
@@ -130,6 +126,7 @@ var ret_int = fccl.pick("1-14", "", False, "Dan", "1/1/2001", true);
 Dim ret_int As Integer
 
 Dim tot_num As Integer
+```
 
 ret_int = fccl.pick("2-1", "Austin:Bin 1|Austin:Bin 2|Austin:Fred:44", _
                     True, "", "", True)

@@ -9,9 +9,11 @@ Type     : Property (Read-only)
 
 **Prototype**
 
+```
 Public EOF As Boolean
+```
 
-**Description**
+#### Description
 
 This property is used to determine if the current record for a generic object is past the end of the dataset. For example, if you use a MoveLast call to move to the last record of an object, and then call on MoveNext, the EOF property would be set to True. If you then called on MoveFirst, the EOF property would be set to False.
 

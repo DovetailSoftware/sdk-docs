@@ -1,6 +1,5 @@
 _LocalTimeZone_
----------------
-
+------------
 **Object and Type**
 
 Object  : FCSession
@@ -9,11 +8,15 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Property Get LocalTimeZone() As String
+```
 
+```
 Public Property Let LocalTimeZone(ByVal NewTimeZone As String)
+```
 
-**Description**
+#### Description
 
 This property retrieves or sets the local time zone. The local time zone represents the time zone of the FCSession. By default, the local time zone is the same as the FCApplication.ServerTimeZone property.
 
@@ -29,11 +32,11 @@ A string containing the local time zone of the FCSession. |
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 11007 | Invalid time_zone. |
 
-11007                                      Invalid time_zone. |
-
-**Example**
+#### Examples
 
 The following example displays and sets the local time zone.
 

@@ -4,6 +4,7 @@ create_action_item
 create_action_item_list
 -------------------------
 
+```
 Public Function create_action_item(ByVal title As String, _
                                    ByVal notes As String, _
                                    ByVal first_name As String, _
@@ -32,7 +33,9 @@ Public Function create_action_item(ByVal title As String, _
                                    ByVal str_val2 As String, _
                                    ByVal date_fld1 As String, _
                                    ByVal date_val1 As String) As Integer
+```
 
+```
 Public Function create_action_item_list(ByVal title As String, _
                                         ByVal notes As String, _
                                         ByVal first_name As String, _
@@ -54,8 +57,9 @@ Public Function create_action_item_list(ByVal title As String, _
                                         Optional fld_list As Variant, _
                                         Optional type_list As Variant, _
                                         Optional val_list As Variant) As Integer
+```
 
-**Description**
+#### Description
 
 These APIs are used to create new action items. Most of the data you can specify is optional for the action item, including the contact, lead, account, and opportunity. You may specify the creation date, the start date, and the completion date. If you do not specify a completion date, it will be set to one week after the start date. You may specify the user who created the action item, and you may specify additional fields. You may have a creation time bomb generated (for notifications). The ID of the new action item is returned.
 
@@ -92,35 +96,24 @@ The task_id of the newly-created action item will be returned in _fcsfa.ret_id_n
 | type_list | Yes | List of additional field data types to write. List must be present, but does not need to have any items in the list |
 | val_list | Yes | List of additional field values to write. List must be present, but does not need to have any items in the list |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | The completion date is earlier than the start date |
+| -2 | The supplied contact could not be found |
+| -3 | The specified user could not be found |
+| -4 | Cannot find the specified account |
+| -5 | Cannot find the specified lead |
+| -6 | Cannot find the specified opportunity |
+| -7 | The specified status cannot be found |
+| -8 | The specified type cannot be found |
+| -9 | The specified priority cannot be found |
+| -10 | The CREATE ACTION ITEM activity code could not be found |
+| -11 | The employee record for the specified user could not be found |
 
-0                                              No errors
-
--1                                             The completion date is earlier than the start date
-
--2                                             The supplied contact could not be found
-
--3                                             The specified user could not be found
-
--4                                             Cannot find the specified account
-
--5                                             Cannot find the specified lead
-
--6                                             Cannot find the specified opportunity
-
--7                                             The specified status cannot be found
-
--8                                             The specified type cannot be found
-
--9                                             The specified priority cannot be found
-
--10                                           The CREATE ACTION ITEM activity code could not be found
-
--11                                           The employee record for the specified user could not be found
-
-**Examples**
+#### Examples
 
  Create a new action item. Give a title and notes for the action item. The contact is 'Bill Gates'. The account is 'Microsoft.' A status, type, and priority are given. Create the action item on Janurary 1st, set to start on January 2nd, and to expire at the end of the month. Generate time bombs, and set a user-defined field.
 
@@ -141,6 +134,7 @@ var ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill",
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill", _
             "Gates", "206-555-1212", "Microsoft", "", "", "", _
@@ -187,6 +181,7 @@ var ret_int = fcsfa.create_action_item("The Title", "Some notes", "Bill",
 **Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
 Dim fld_list   As New FCList
 

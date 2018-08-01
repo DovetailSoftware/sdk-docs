@@ -1,6 +1,5 @@
 _GetHgbstList_
---------------
-
+-----------
 **Object and Type**
 
 Object  : FCApplication
@@ -9,11 +8,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetHgbstList  (ByVal ListName As String,
+		Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", Optional ByVal Element3 As String = "", Optional ByVal Element4 As String = "") As ADODB.Recordset
+``` 
 
-Optional ByVal Element1 As String = "", Optional ByVal Element2 As String = "", Optional ByVal Element3 As String = "", Optional ByVal Element4 As String = "") As ADODB.Recordset
-
-**Description**
+#### Description
 
 This method returns an ADO recordset containing the records for a given level of a user-defined list. You may use up to a 5-level list. The hgbst tables are cached in the FCApplication object, so this method does not cause a database round-trip.
 
@@ -35,13 +35,12 @@ An ADO recordset containing the records for a given level of a user-defined list
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10008 | ListName must not be empty. |
+| 10009 | Invalid ListName. |
 
-10008                                      ListName must not be empty.
-
-10009                                      Invalid ListName.
-
-**Example**
+#### Examples
 
 The following example displays the Family:Software user-defined list, and sets the default value to be selected.
 

@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public ID As Long
+```
 
-**Description**
+#### Description
 
 This read-only property returns the _objid_ field of the current row of the generic object. If there are no rows in the generic, or the current record is BOF or EOF, the property returns a value of 0.
 

@@ -1,6 +1,5 @@
 _GetGbstList_
--------------
-
+----------
 **Object and Type**
 
 Object  : FCApplication
@@ -9,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetGbstList(ByVal ListName As String) As ADODB.Recordset
+``` 
 
-**Description**
+#### Description
 
 This method returns a recordset containing the gbst_elm records for a given gbst_lst.
 
@@ -29,17 +30,16 @@ When finished with the returned recordset, you should close the recordset using 
 
 **Returns**
 
-An ADO recordset containing the gbst_elm records for the ListName list. |
+An ADO recordset containing the gbst_elm records for the ListName list.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 10008 | ListName must not be empty. |
+| 10009 | Invalid ListName. |
 
-10008                                      ListName must not be empty.
-
-10009                                      Invalid ListName. |
-
-**Example**
+#### Examples
 
 The following builds a drop-down list of case types.
 

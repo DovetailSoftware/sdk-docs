@@ -1,8 +1,7 @@
-  
-
 add_po_to_sched
 -----------------
 
+```
 Public Function add_po_to_sched(ByVal contract_id As String, _
                                 ByVal sched_id As String, _
                                 ByVal po_num As String, _
@@ -12,8 +11,9 @@ Public Function add_po_to_sched(ByVal contract_id As String, _
                                 ByVal po_date As String, _
                                 ByVal expire_date As String, _
                                 ByVal po_status As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API is used to add purchase orders to schedules of contracts. A valid schedule for a contract must be specified. Also, the PO number cannot be defined already for the schedule. A variety of other payment items can be specified, as well as the PO date, and the expiration date.
 
@@ -32,31 +32,24 @@ This API is used to add purchase orders to schedules of contracts. A valid sched
 | po_status | No | Purchase order status. If blank, the default status from "PO
  Status" for Closed Contract condition will be used. |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Purchase order amount is not numeric |
+| -2 | Contract specified could not be found |
+| -3 | The specified schedule for the contract could not be found |
+| -4 | The specified purchase order number is already defined for this schedule |
+| -5 | The specified payment method is not found |
+| -6 | The specified payment terms cannot be found |
+| -7 | The specified payment status is not found |
+| ret_id_num | Output - Returns the header id of the newly created purchase order |
+| ret_objid | Output - Returns the objid of the newly purchase order |
 
-0 No errors
+#### Examples
 
--1                                             Purchase order amount is not numeric
-
--2                                             Contract specified could not be found
-
--3                                             The specified schedule for the contract could not be found
-
--4                                             The specified purchase order number is already defined for this schedule
-
--5                                             The specified payment method is not found
-
--6                                             The specified payment terms cannot be found
-
--7                                             The specified payment status is not found |
-| ret_id_num | Output | Returns the header id of the newly created purchase order |
-| ret_objid | Output | Returns the objid of the newly purchase order
-
-**Example**
-
- Add purchase order '123' to contract '22' and schedule 'Default Schedule'. The amount is $155.55, and set the terms, method, and status. Set dates as well.
+Add purchase order '123' to contract '22' and schedule 'Default Schedule'. The amount is $155.55, and set the terms, method, and status. Set dates as well.
 
 **JavaScript:**
 
@@ -67,6 +60,7 @@ This API is used to add purchase orders to schedules of contracts. A valid sched
 **      Visual Basic:**
 
    Dim ret_int    As Integer
+```
 
    Dim po_num     As String
 

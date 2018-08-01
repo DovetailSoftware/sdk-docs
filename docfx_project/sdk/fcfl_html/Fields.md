@@ -1,5 +1,5 @@
 _Fields_
---------
+-----
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Fields As Collection
+```
 
-**Description**
+#### Description
 
 This property is used to read or write specific fields in the current record of a generic object. The name of the field specified must be one that is valid for the generic object. You must also use the correct data type for the field when using it.
 
@@ -19,17 +21,14 @@ This property is used to read or write specific fields in the current record of 
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12023 | The field specified is not valid for this generic object |
+| 12030 | The user attempted to access a field in a generic object that contains no rows |
+| 12031 | This operation is not valid for a generic that is marked distinct |
+| 12034 | The value specified is out of range for the field's datatype |
 
-12023                                      The field specified is not valid for this generic object
-
-12030                                      The user attempted to access a field in a generic object that contains no rows
-
-12031                                      This operation is not valid for a generic that is marked distinct
-
-12034                                      The value specified is out of range for the field's datatype
-
-**Example**
+#### Examples
 
 The following example demonstrates writing out some key fields from the site table after it is queried in the database. Then, some of the fields are modified so that they can be updated in the database.  
   

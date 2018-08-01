@@ -1,6 +1,5 @@
 _DBObjectName_
---------------
-
+-----------
 **Object and Type**
 
 Object  : FCGeneric
@@ -9,9 +8,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public DBObjectName As String
+```
 
-**Description**
+#### Description
 
 This property contains the table or view name of this generic object. The name should **NOT** include the "table_". For example, for table_case, the DBObjectName should be set to "case".
 
@@ -21,11 +22,11 @@ When you have a generic object that is a child object (that is, is traversed fro
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12035 | The specified table or view name is not defined |
 
-12035                                      The specified table or view name is not defined
-
-**Example**
+#### Examples
 
 The following example queries the contact table using the DBObjectName property.
 

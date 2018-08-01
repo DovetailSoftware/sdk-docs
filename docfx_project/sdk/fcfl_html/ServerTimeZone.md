@@ -8,14 +8,15 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Property Get ServerTimeZone() As String
 ```
 
-```csharp
+```
 public Property Let ServerTimeZone(ByVal NewTimeZone As String)
 ```
 
-**Description**
+#### Description
 
 This property allows the server time zone to be set or read. When the FCApplication is initialized, this property is initially set to the default time zone in the database.
 

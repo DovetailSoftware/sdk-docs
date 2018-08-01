@@ -1,10 +1,12 @@
 move_subcase
 ------------
 
+```
 Public Function move_subcase(ByVal subcase_id As String, _
                           ByVal new_wipbin As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified subcase to be moved from one WIPBin to another WIPBin. The new WIPBin must belong to the same user as the first WIPBin. The move operation does not change the ownership of the subcase, nor is an activity log or time bomb generated for the action.
 
@@ -17,21 +19,17 @@ This API causes the specified subcase to be moved from one WIPBin to another WIP
 | subcase_id | Yes | The subcase to move |
 | new_wipbin | Yes | The WIPBin to move the subcase to. If left blank, the case is moved to the user's default WIPBin |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified subcase |
+| -2 | Subcase is already closed |
+| -3 | New WIPBIN doesn't exist, or isn't for the owner |
+| -4 | New WIPBIN is same as old - no move needed |
 
-0                                              No errors
-
--1                                             Cannot find the specified subcase
-
--2                                             Subcase is already closed
-
--3                                             New WIPBIN doesn't exist, or isn't for the owner
-
--4                                             New WIPBIN is same as old - no move needed
-
-**Examples**
+#### Examples
 
  Move subcase number 'C154-1' to the default WIPBin for the current owner.
 

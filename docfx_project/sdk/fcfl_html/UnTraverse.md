@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Untraverse()
+```
 
-**Description**
+#### Description
 
 This method will clear the ParentRelation, ParentBO and root object properties for a generic object that was marked as a child or as a root query. It also works if you originally called on the TraverseFromParent or TraverseFromRoot methods.
 

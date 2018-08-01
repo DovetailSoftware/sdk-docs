@@ -8,9 +8,13 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function RollbackTransaction()
+```
 
-**Description** If StartTransaction() has previously been called. This method needs to be called if for some reason the transaction cannot be committed.  
+#### Description
+
+If StartTransaction() has previously been called. This method needs to be called if for some reason the transaction cannot be committed.  
   
 A rollback is necessary when an exception occurs during the lifetime of the transaction or some condition such that it is desired to return the database back to its pre-transaction state.  
   

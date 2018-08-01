@@ -1,6 +1,7 @@
 _create_eco_dtl_
 ------------------
 
+```
 Public Function create_eco_dtl(ByVal detail_type As String, _
                         ByVal required As Long, _
                         ByVal status As String, _
@@ -10,8 +11,9 @@ Public Function create_eco_dtl(ByVal detail_type As String, _
                         ByVal description As String, _
                         ByVal eco_hdr_code As String, _
                         ByVal mod_level_objid As Long) As Integer
+```
 
-**Description**
+#### Description
 
 This API add labor or material details to the specified ECO Header. The objid of the ECO detail created is returned in the object property _ret_objid_  (FCDR.ret_objid).
 
@@ -34,30 +36,23 @@ This API add labor or material details to the specified ECO Header. The objid of
 ** These parameters only apply to Material detail items.
 ```
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Invalid Detail Type Specified |
+| -2 | Invalid Value for Detail Required Field |
+| -3 | Invalid Value for Elapsed Time |
+| -4 | Specified ECO Status is not in database |
+| -5 | Specified Labor Type is not in database |
+| -6 | Specified ECO Header is not in database |
+| -7 | Specified Mod Level  is not in database |
+| ret_objid | Output - Returns the objid of the newly created ECO Detail |
 
-0                                              No errors
+#### Examples
 
--1                                             Invalid Detail Type Specified
-
--2                                             Invalid Value for Detail Required Field
-
--3                                             Invalid Value for Elapsed Time
-
--4                                             Specified ECO Status is not in database
-
--5                                             Specified Labor Type is not in database
-
--6                                             Specified ECO Header is not in database
-
--7                                             Specified Mod Level  is not in database |
-| ret_objid | Output | Returns the objid of the newly created ECO Detail
-
-**Examples**
-
- Create a labor ECO detail attached to ECO "8". The estimated time is 10 minutes (600 seconds).
+Create a labor ECO detail attached to ECO "8". The estimated time is 10 minutes (600 seconds).
 
 **JavaScript:**
 

@@ -9,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function is_rel_mandatory(tbl_num As Long, _
-
                 rel_name As String) As Boolean
+``` 
 
-**Description**
+#### Description
 
 This method determines if the specified relation is a mandatory relation.
 

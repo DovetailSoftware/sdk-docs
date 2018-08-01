@@ -9,9 +9,11 @@ Type : Method
 
 **Prototype**
 
+```
 Public Function IsUnicode(in_str As String) As Boolean
+```
 
-**Description**
+#### Description
 
 This method determines if a supplied string is a unicode (wide varchar) string. If it is (it contains at least one Unicode character), the function returns _True._ Otherwise it returns _False._
 

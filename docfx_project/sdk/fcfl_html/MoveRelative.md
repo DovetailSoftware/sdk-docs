@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub MoveRelative(ByVal NumToMove As Integer)
+```
 
-**Description**
+#### Description
 
 This method sets the current record for the generic object either forward or backward by the number of records specified by the argument. The order of the records is determined by the database query used to build the generic object's recordset, or the order in which AddNew method calls were made. If the relative move moves earlier than the first record, the BOF flag will be set to True. If the move causes the current record to move past the final record, the EOF flag will be set to True. If this is a child object, it is important to realize that the record that this method will find is dependent on the current row in the parent object. This will find the proper record in this generic that is related to the current parent record.
 

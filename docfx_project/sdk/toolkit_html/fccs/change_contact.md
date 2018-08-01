@@ -1,6 +1,7 @@
 change_contact
 --------------
 
+```
 Public Function change_contact(ByVal case_id As String, _
                                ByVal f_name As String, _
                                ByVal l_name As String, _
@@ -9,8 +10,9 @@ Public Function change_contact(ByVal case_id As String, _
                                ByVal change_date As String, _
                                ByVal user_name As String, _
                                ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows for the changing of a contact and/or site for a case. Unlike the Clarify GUI (which changes contacts via contact roles), you may change the contact and/or site such that the contact for the case is not a contact at the site for the case. Since this is possible in the base GUI (by changing the contact's site after the contact/site are used for the case), the API allows this natively.
 
@@ -31,35 +33,24 @@ The API changes the relations for the case. In addition, the case history and ac
 | user_name | No | User making the change. If left blank, the current user is used |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified case |
+| -2 | Cannot find the specified user |
+| -3 | Cannot find the CHNG CONTACT activity string |
+| -4 | Cannot find the MODIFY activity string |
+| -5 | Cannot find the specified contact |
+| -6 | Cannot find the specified site |
+| -7 | Neither a new contact nor new site was specified |
+| -8 | Case is currently closed |
+| -9 | Could not find a status for the specified case |
+| -10 | A new contact and/or site must be specified |
+| -11 | No employee record exists for the specified user |
 
-0                                              No errors
-
--1                                             Cannot find the specified case
-
--2                                             Cannot find the specified user
-
--3                                             Cannot find the CHNG CONTACT activity string
-
--4                                             Cannot find the MODIFY activity string
-
--5                                             Cannot find the specified contact
-
--6                                             Cannot find the specified site
-
--7                                             Neither a new contact nor new site was specified
-
--8                                             Case is currently closed
-
--9                                             Could not find a status for the specified case
-
--10                                           A new contact and/or site must be specified
-
--11                                           No employee record exists for the specified user
-
-**Examples**
+#### Examples
 
  Change contact for case number 'C154' to Joe Jackson. Don't change the site. The change is performed by the current user and is changed at the current time. Generate a time bomb.
 

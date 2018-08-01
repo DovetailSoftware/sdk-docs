@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public Position As Long
+```
 
-**Description**
+#### Description
 
 This property contains the absolute record number of the current record in the generic object. This property can be used to get the record number that is currently active, and can be used to set the current record in the generic object.
 

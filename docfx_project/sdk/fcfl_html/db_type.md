@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public db_type As String
+```
 
-**Description**
+#### Description
 
 Contains the type of the database. It will be either "MSSQL" or "Oracle".
 

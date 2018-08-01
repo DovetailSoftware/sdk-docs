@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub ExecuteReturnRows(ByVal SqlStr As String)
+```
 
-**Description**
+#### Description
 
 This method is used to execute a SQL statement against the external database. This method is only used for SQL that **DOES** return database rows.  The data returned is returned in the Records property (ADODB.Recordset object). If you wish to execute SQL that does not return rows, use the Execute method. If you wish to reuse the SQLExec object (to query the database again), you must close the Record (recordset) object. For example,
 

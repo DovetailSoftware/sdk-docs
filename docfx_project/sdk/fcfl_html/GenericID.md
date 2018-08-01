@@ -9,9 +9,11 @@ Type     : Property (Read-only)
 
 **Prototype**
 
+```
 Public GenericID As String
+```
 
-**Description**
+#### Description
 
 This is an internal property that uniquely identifies the BO within the **FCFL** system. In most cases there is **NO REASON** for you to ever use this property. If you wish to read it (to maintain a unique key for your BOs), it can be read.
 

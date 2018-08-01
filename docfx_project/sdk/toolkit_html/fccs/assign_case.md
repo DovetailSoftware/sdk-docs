@@ -1,14 +1,16 @@
 assign_case
 -----------
 
+```
 Public Function assign_case(ByVal case_id As String, _
-                            ByVal new_user As String, _
-                            ByVal wipbin_name As String, _
-                            ByVal assign_date As String, _
-          ByVal user_name As String, _
-          ByVal gen_time_bombs As Boolean) As Integer
+                          ByVal new_user As String, _
+                          ByVal wipbin_name As String, _
+                          ByVal assign_date As String, _
+				          ByVal user_name As String, _
+				          ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API cause the specified case to be assigned to a new user. The case must be in the Open condition, and the user assigning the case does not have to be the owner of the case. In base Clarify, the assigner of a case  must be the owner. If either user name is not specified, the "current" user is used. The date/time of the assignment, and the WIPBin to place the case in can also be specified. Allowing a WIPBin other than the default one is also an augmentation from base Clarify.  The API can also generate a time bomb (for business rule notification).
 
@@ -23,27 +25,21 @@ This API cause the specified case to be assigned to a new user. The case must be
 | user_name | No | The user who assigned the case If left blank, the current user performs the assign |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified case |
+| -2 | The specified case is not currently open |
+| -3 | Specified user (to assign to) is not found |
+| -4 | The specified WIPBin is not valid for the user |
+| -5 | Specified user (who performed the assign) is not found |
+| -6 | Cannot find gbst_elm rank 10500 for string ASSIGN |
 
-0                                              No errors
+#### Examples
 
--1                                             Cannot find the specified case
-
--2                                             The specified case is not currently open
-
--3                                             Specified user (to assign to) is not found
-
--4                                             The specified WIPBin is not valid for the user
-
--5                                             Specified user (who performed the assign) is not found
-
--6                                             Cannot find gbst_elm rank 10500 for string ASSIGN
-
-**Examples**
-
- Assign case number '10' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
+Assign case number '10' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
 **JavaScript:**
 

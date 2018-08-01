@@ -1,12 +1,14 @@
 assign_lead
 -----------
 
+```
 Public Function assign_lead(ByVal lead_objid As Long, _
                             ByVal new_owner As String, _
                             ByVal assign_date As String, _
                             ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified lead to be assigned to a new user. The objid of the lead must be specified (since there are no other unique keys for leads), and the new user name to assign to must also be supplied. Optionally, the assign date/time may be specified.
 
@@ -21,21 +23,18 @@ This API causes the specified lead to be assigned to a new user. The objid of th
 | assign_date | No | When did the assign take place? If blank, the current date/time is used |
 | gen_time_bombs | Yes | Should a time bomb be created? Values are "True" or "False". |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified lead |
+| -2 | The specified user cannot be found |
+| -3 | The LEAD activity string is not found |
 
-0                                              No errors
+#### Examples
 
--1                                             Cannot find the specified lead
-
--2                                             The specified user cannot be found
-
--3                                             The LEAD activity string is not found
-
-**Examples**
-
- Assign action item number '10' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
+Assign action item number '10' to user 'marty'. The assign is performed by the current user, is placed in the default WIPBin and is assigned at the current time. Generate a time bomb.
 
 **JavaScript:**
 

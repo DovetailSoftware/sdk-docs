@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public BulkName As String
+```
 
-**Description**
+#### Description
 
 This property allows you to specify the bulk object for this generic. It also allows you to see the name of the bulk associated with this generic.
 

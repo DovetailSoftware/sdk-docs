@@ -1,6 +1,7 @@
 create_product_bin
 --------------------
 
+```
 Public Function create_product_bin(ByVal bin_name As String, _
                                    ByVal site_id As String, _
                                    ByVal bin_objid As Long, _
@@ -9,8 +10,9 @@ Public Function create_product_bin(ByVal bin_name As String, _
                                    ByVal sec_supp As Long, _
                                    ByVal user_name As String, _
                                    ByVal create_date As String) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows you to create a product bin either at a site, or underneath another product bin. You must supply a (unique for the site) bin name, and the site at which the bin is created. If the bin is to be underneath another bin, you must supply the objid of the parent bin. If you supply no parent bin, the new bin is created at the site level. You may optionally also specify a description for the bin, as well as the objids for support employees. Finally you may specify who created the bin, and when they created it. The API returns the objid of the newly-created bin.
 
@@ -27,36 +29,29 @@ This API allows you to create a product bin either at a site, or underneath anot
 | user_name | No | Name of the user who created the bin. If blank, the current user is used |
 | create_date | No | When was the bin created. If blank, the current date/time is used |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | The specified site could not be found |
+| -2 | A product bin with the specified bin name already exists at the specified site |
+| -3 | The specified parent bin cannot be found |
+| -4 | The specified parent bin was found, but is not located at the specified site |
+| -5 | Could not locate the specified primary support employee |
+| -6 | Could not locate the specified secondary support employee |
+| -7 | Could not locate the "Created" activity log string |
+| -8 | The specified user name could not be found |
+| ret_objid | Output - Returns the objid of the new product bin |
 
-0                                              No errors
+#### Examples
 
--1                                             The specified site could not be found
-
--2                                             A product bin with the specified bin name already exists at the specified site
-
--3                                             The specified parent bin cannot be found
-
--4                                             The specified parent bin was found, but is not located at the specified site
-
--5                                             Could not locate the specified primary support employee
-
--6                                             Could not locate the specified secondary support employee
-
--7                                             Could not locate the "Created" activity log string
-
--8                                             The specified user name could not be found |
-| ret_objid | Output | Returns the objid of the new product bin
-
-**Examples**
-
- Create a bin named "Hardware" at the site who has a site ID of "42". Add a description, and set up a primary support employee. "Kent" did the create at the current date/time
+Create a bin named "Hardware" at the site who has a site ID of "42". Add a description, and set up a primary support employee. "Kent" did the create at the current date/time
 
 **Visual Basic:**
 
 Dim ret_int    As Integer
+```
 
 Dim bin_objid  As Long
 
@@ -66,9 +61,8 @@ ret_int = fcinter.create_product_bin("Hardware", "42", -1, "Description here", _
  If ret_int = 0 Then
 
       bin_objid = fcinter.ret_objid
-
-   End If
-
+ End If
+ 
 **Javascript:**
 
 var ret_int = fcinter.create_product_bin("Hardware", "42", -1, "Description here",

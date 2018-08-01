@@ -9,9 +9,11 @@ Type     : Property
 
 **Prototype**
 
+```
 Public QueryEmptyToNull As Boolean
+```
 
-**Description**
+#### Description
 
 This property operates on queries for generics, and alters the behavior of the query for nullable string fields. Quite often people will write queries such as the following:
 

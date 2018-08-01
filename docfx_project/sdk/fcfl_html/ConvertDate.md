@@ -1,6 +1,5 @@
 _ConvertDate_
--------------
-
+----------
 **Object and Type**
 
 Object  : FCSession
@@ -9,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function ConvertDate(ByVal TheDate As Date, ByVal FromTimeZone As String, ByVal ToTimeZone As String) As Date
+```
 
-**Description**
+#### Description
 
 This property converts a date/time value from one time zone to another. It uses the time_zone table date to determine offsets from GMT, and it uses the daylight_hr table to determine if the timestamp is on daylight savings time (DST) in either time zone.
 
@@ -30,13 +31,12 @@ A date/time value converted between time zones.
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 11007 | Invalid time_zone. |
+| 11008 | Invalid Date/Time. |
 
-11007                                      Invalid time_zone.
-
-11008                                      Invalid Date/Time.
-
-**Example**
+#### Examples
 
 The following example converts a timestamp from one time zone to another.
 

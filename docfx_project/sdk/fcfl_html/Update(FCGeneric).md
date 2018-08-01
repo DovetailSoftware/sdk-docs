@@ -1,5 +1,5 @@
 _Update(FCGeneric)_
--------------------
+----------------
 
 **Object and Type**
 
@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Update()
+```
 
-**Description**
+#### Description
 
 This crucial method will update the **CURRENT** record in the generic object (and only that record). The method will add it, update it, or delete it as appropriate. It will also make whatever relations are needed so that the object will be correct.
 
@@ -21,15 +23,13 @@ If you wish to update all of the (modified) records in the generic object, you s
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 12008 | You may not update a view |
+| 12009 | Could not add record because not all fields were selected in a previous query |
+| 12031 | This operation is not valid for a generic that is marked distinct |
 
-12008                                      You may not update a view
-
-12009                                      Could not add record because not all fields were selected in a previous query
-
-12031                                      This operation is not valid for a generic that is marked distinct
-
-**Example**
+#### Examples
 
 The following example locates a site record and updates a field in it.
 

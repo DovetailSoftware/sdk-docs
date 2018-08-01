@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub SetServerTimeZoneToMachineTimeZone()
+```
 
-**Description**
+#### Description
 
 This property allows the server time zone to be set to the time zone of where the First Choice Generic Business Object is currently running. Typically, this will be a web server. The machine time zone is retrieved using standard Win32 API calls.                                           
 

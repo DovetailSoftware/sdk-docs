@@ -9,11 +9,12 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function is_it_date_field(tbl_name As String, _
-
                                  field_name As String) As Boolean
+``` 
 
-**Description**
+#### Description
 
 This method returns whether a given field is defined (in the specified table) as a date/time field.
 

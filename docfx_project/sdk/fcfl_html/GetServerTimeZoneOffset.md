@@ -9,9 +9,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Function GetServerTimeZoneOffset() As Long
+```
 
-**Description**
+#### Description
 
 This method returns the number of seconds the server time zone is offset from GMT.  The time_zone table is cached in the FCApplication object, so this method does not cause a database round-trip.
 

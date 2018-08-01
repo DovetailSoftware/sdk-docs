@@ -1,13 +1,15 @@
 initial_response
 ----------------
 
+```
 Public Function initial_response(ByVal case_id As String, _
                                  ByVal resp_date As String, _
                                  ByVal user_name As String, _
                                  ByVal via_phone As Boolean, _
                                  ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API will mark the initial response to a case. The case supplied should not already have had the intial response marked because it can only be marked once for a given case. The response can be marked as being from a phone call (True), or from an email (False). The user who performed the initial response and the time of that response can be specified. The APIs can also generate a time bomb (for business rule notification).
 
@@ -22,25 +24,19 @@ user_name who is executing the cbbatch |
 | via_phone | Yes | Is the response via a phone call (True), or via email (False) |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified case |
+| -2 | The initial response date is earlier than the case creation date |
+| -3 | The case already has a marked initial response |
+| -4 | The specified user is not found |
+| -5 | The INITIAL RESPONSE activity string is not found |
+| -6 | Cannot find Employee record for specified user |
 
-0                                              No errors
-
--1                                             Cannot find the specified case
-
--2                                             The initial response date is earlier than the case creation date
-
--3                                             The case already has a marked initial response
-
--4                                             The specified user is not found
-
--5                                             The INITIAL RESPONSE activity string is not found
-
--6                                             Cannot find Employee record for specified user
-
-**Examples**
+#### Examples
 
  Mark an initial response for case 'C154' via a phone call. The logging is performed by the current user and is performed at the current time. Generate a time bomb.
 

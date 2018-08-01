@@ -1,14 +1,16 @@
 change_case_status
 --------------------
 
+```
 Public Function change_case_status(ByVal case_id As String, _
                                    ByVal new_status As String, _
                                    ByVal change_date As String, _
                                    ByVal note_str As String, _
                                    ByVal user_name As String, _
                                    ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API causes the specified case to have its status changed. The case may be opened or closed, but the status selected MUST be valid for the current condition. In other words, you cannot assign a close condition status to a case that is currently open. You may assign notes to the status change, as well as set the time of the status change, and the user who changed the status. The API can also generate a time bomb (for business rule notification).
 
@@ -23,25 +25,19 @@ This API causes the specified case to have its status changed. The case may be o
 | user_name | No | The user who changed the status. If left blank, the current user performs the change status |
 | gen_time_bombs | Yes | Should a time_bomb be generated (for notifications/business rules) |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
-
-0                                              No errors
-
--1                                             Cannot find the specified case
-
--2                                             Cannot find the new status (or status is not
-
-defined for the current object's condition)
-
--3                                             Cannot find the specified user
-
--4                                             Cannot find the CHANGE STATUS activity string
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified case |
+| -2 | Cannot find the new status (or status is not defined for the current object's condition) |
+| -3 | Cannot find the specified user |
+| -4 | Cannot find the CHANGE STATUS activity string |
 
 **Examples**
 
- Change status for case number 'C154' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
+Change status for case number 'C154' to the default status. The change status is performed by the current user and is changed at the current time. Add no notes, and generate a time bomb.
 
 **JavaScript:**
 

@@ -1,6 +1,5 @@
 _Login_
--------
-
+----
 **Object and Type**
 
 Object  : FCSession
@@ -9,9 +8,11 @@ Type     : Method
 
 **Prototype**
 
+```
 Public Sub Login(LoginName As String, password As String, TheLoginType As String)
+```
 
-**Description**
+#### Description
 
 This method validates the login name and password for either a contact or a user/employee.for contacts, the login_name is validated against the login_name field on the web_user table, and the password is validated against the passwordf field in the web_user table. The web_user record is related to the contact record via the relation web_user2contact. This is the same validation that is done in Clarify web-based products, such as ClearExpress WebSupport and eSupport.for users/employees, the login_name and password are validated against the database - similar to the Clarify Classic Client. If the login attempt is successful, the following happens:
 
@@ -31,17 +32,14 @@ This method validates the login name and password for either a contact or a user
 
 **Error Codes**
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 11003 | Already Logged In. |
+| 11013 | You must supply a login name. |
+| 11011 | Invalid login type. |
+| 11012 | Could not login. |
 
-11003                                      Already Logged In.
-
-11013                                      You must supply a login name.
-
-11011                                      Invalid login type.
-
-11012                                      Could not login.
-
-**Example**
+#### Examples
 
 The following example attempts to login as a contact using data from a posted web page.
 

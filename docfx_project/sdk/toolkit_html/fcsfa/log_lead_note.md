@@ -1,14 +1,16 @@
 log_lead_note
 ---------------
 
+```
 Public Function log_lead_note(ByVal lead_objid As Long, _
                               ByVal the_text As String, _
                               ByVal iuo As String, _
                               ByVal log_date As String, _
                               ByVal user_name As String, _
                               ByVal gen_time_bombs As Boolean) As Integer
+```
 
-**Description**
+#### Description
 
 This API allows you to log a note for a lead. You must specify the objid of the lead (since no other information on the lead is unique), and the description (note text). You may also specify the internal use only text field. You may specify who logged the note, and when
 
@@ -25,19 +27,16 @@ The APIs can also generate a time bomb (for business rule notification).
 | user_name | No | Who logged the note? If blank, current user is used |
 | gen_time_bombs | Yes | Should a time bomb be created? Values are "True" or "False". |
 
-**Returns**
+#### Returns
 
-**Value**                **Meaning**
+| Value | Meaning |
+|:--- |:--- |
+| 0 | No errors |
+| -1 | Cannot find the specified lead |
+| -2 | The specified user is not found |
+| -3 | The NOTES activity string is not found |
 
-0                                              No errors
-
--1                                             Cannot find the specified lead
-
--2                                             The specified user is not found
-
--3                                             The NOTES activity string is not found
-
-**Examples**
+#### Examples
 
  Sam logged a note on December 12, 2000 (at 11AM) for a lead. The text is "Hello there", with some internal use only text as well. Generate time bombs.
 
