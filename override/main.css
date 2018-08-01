@@ -1,0 +1,6 @@
+div.sidenav.hide-when-search {
+  display: none;
+}
+.article.grid-right {
+  margin-left: 0;
+}
