@@ -316,7 +316,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CommonException">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.CommonException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -341,7 +340,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ConfigValues">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.ConfigValues.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -493,7 +491,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DataProtector">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.DataProtector.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -568,7 +565,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCArgumentException">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.FCArgumentException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -605,7 +601,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCConfiguration">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.FCConfiguration.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -665,7 +660,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCExceptionBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.FCExceptionBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -725,7 +719,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCInvalidConfigurationException">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.FCInvalidConfigurationException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -739,7 +732,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCLicenseException">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.FCLicenseException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -788,7 +780,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="InvalidLoggingConfigException">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.InvalidLoggingConfigException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -802,7 +793,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Logger">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Logger.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -926,7 +916,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogManager">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.LogManager.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -1073,7 +1062,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="PerfManager">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.PerfManager.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -1151,7 +1139,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="StringUtil">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.StringUtil.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -1242,7 +1229,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IErrorMessageProvider">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.IErrorMessageProvider.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -1281,7 +1267,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DataAccessSectionHandler">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.DataAccessSectionHandler.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -1312,7 +1297,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DataParameterCollection">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.DataParameterCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -1510,7 +1494,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DataSetSurrogate">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.DataSetSurrogate.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -1541,7 +1524,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DbProvider">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.DbProvider.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -1757,7 +1739,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DbProviderFactory">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.DbProviderFactory.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -1858,7 +1839,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCTypes">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.FCTypes.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -1957,7 +1937,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ODPOracleProvider">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.ODPOracleProvider.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -2032,7 +2011,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="OleDbDataProviderBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.OleDbDataProviderBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -2125,7 +2103,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="OracleProviderBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.OracleProviderBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -2289,7 +2266,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SqlHelper">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.SqlHelper.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -2690,7 +2666,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="TypeMapper">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.TypeMapper.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -2787,7 +2762,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateQueryBatch">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.UpdateQueryBatch.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -2878,7 +2852,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IDbExtension">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Data.IDbExtension.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -2917,7 +2890,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LicenseCollection">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Licensing.LicenseCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -2949,7 +2921,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LicenseInfo">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Licensing.LicenseInfo.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3028,7 +2999,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LicenseManager">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Licensing.LicenseManager.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3128,7 +3098,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="XmlClarifyLicenseTool">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Licensing.XmlClarifyLicenseTool.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3188,7 +3157,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="XmlLicenseTool">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Licensing.XmlLicenseTool.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3266,7 +3234,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ILicenseInfo">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Licensing.ILicenseInfo.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3345,7 +3312,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ILicenseTool">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.Licensing.ILicenseTool.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3402,7 +3368,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MemoryStateManager">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.State.MemoryStateManager.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3520,7 +3485,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MsSqlStateManager">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.State.MsSqlStateManager.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3601,7 +3565,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="OracleStateManager">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.State.OracleStateManager.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3682,7 +3645,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RemoteStateManager">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.State.RemoteStateManager.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3820,7 +3782,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="StateManager">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.State.StateManager.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3957,7 +3918,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="StateManagerException">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.State.StateManagerException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -3985,7 +3945,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="StateManagerSectionHandler">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.State.StateManagerSectionHandler.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -4021,7 +3980,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IStateManager">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Common~FChoice.Common.State.IStateManager.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -4155,7 +4113,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CacheBase">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.CacheBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -4210,7 +4167,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CacheManager">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.CacheManager.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -4298,7 +4254,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CacheSectionHandler">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.CacheSectionHandler.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -4318,7 +4273,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CustomCache">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.CustomCache.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -4366,7 +4320,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DataFieldNameCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DataFieldNameCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -4397,7 +4350,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DictionaryExtensions">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DictionaryExtensions.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -4422,7 +4374,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCApplication">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.FCApplication.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -4549,7 +4500,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCGeneric">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.FCGeneric.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -4875,7 +4825,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCInvalidLoginException">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.FCInvalidLoginException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -4895,7 +4844,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCSession">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.FCSession.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -5185,7 +5133,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCSessionData">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.FCSessionData.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -5374,7 +5321,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCSessionSummary">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.FCSessionSummary.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -5429,7 +5375,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FoundationException">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.FoundationException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -5443,7 +5388,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GenericDataRow">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.GenericDataRow.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -5563,7 +5507,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GenericDataRowCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.GenericDataRowCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -5663,7 +5606,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GenericDataSet">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.GenericDataSet.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -5739,7 +5681,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GenericDataTable">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.GenericDataTable.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -5799,7 +5740,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GenericException">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.GenericException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -5813,7 +5753,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MaximumRowsExceededEventArgs">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.MaximumRowsExceededEventArgs.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -5856,7 +5795,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RelationNameCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.RelationNameCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -5870,7 +5808,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ValidatedNameCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.ValidatedNameCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6054,7 +5991,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyApplication">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifyApplication.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6275,7 +6211,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyAuthenticationResult">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6312,7 +6247,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyAuthenticationService">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifyAuthenticationService.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6349,7 +6283,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyCacheBase">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifyCacheBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6363,7 +6296,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyDataRow">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6405,7 +6337,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyDataSet">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifyDataSet.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6455,7 +6386,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyDataTable">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifyDataTable.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6492,7 +6422,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyException">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifyException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6506,7 +6435,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyGeneric">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifyGeneric.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6651,7 +6579,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyGenericException">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifyGenericException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6665,7 +6592,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyRowCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifyRowCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6696,7 +6622,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifySession">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifySession.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6776,7 +6701,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifySessionData">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ClarifySessionData.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6812,7 +6736,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ConfigItemCache">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ConfigItemCache.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6855,7 +6778,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ConfigurationHelper">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ConfigurationHelper.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6886,7 +6808,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DatabaseParameterFactory">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DatabaseParameterFactory.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -6954,7 +6875,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ListCache">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ListCache.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -7150,7 +7070,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LocaleCache">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.LocaleCache.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -7374,7 +7293,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaCache">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.SchemaCache.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -7786,7 +7704,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaCacheHelper">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.SchemaCacheHelper.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -7823,7 +7740,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="StringCache">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.StringCache.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -7939,7 +7855,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="WorkflowObjectInfo">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.WorkflowObjectInfo.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -8169,7 +8084,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IClarifyApplication">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.IClarifyApplication.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -8349,7 +8263,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IListCache">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.IListCache.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -8560,7 +8473,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ILocaleCache">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.ILocaleCache.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -8799,7 +8711,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IStringCache">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.IStringCache.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -8957,7 +8868,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AltNameAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.AltNameAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -8986,7 +8896,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AltTypeAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.AltTypeAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9042,7 +8951,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CheckIsNullAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.CheckIsNullAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9071,7 +8979,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FacadePropertyAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.FacadePropertyAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9201,7 +9108,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FacadeVoidAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.FacadeVoidAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9238,7 +9144,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="OutputPropertyAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.OutputPropertyAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9325,7 +9230,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ParameterDefaultValueAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.ParameterDefaultValueAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9383,7 +9287,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ParameterReadOnlyAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.ParameterReadOnlyAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9403,7 +9306,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ParameterRequiredAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.ParameterRequiredAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9515,7 +9417,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ParameterVoidAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.ParameterVoidAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9581,7 +9482,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SplitMethodAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.SplitMethodAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9626,7 +9526,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ToolkitVisibleAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Attributes.ToolkitVisibleAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9669,7 +9568,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AutoDestRule">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.AutoDest.AutoDestRule.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9779,7 +9677,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AdoField">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoField.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9822,7 +9719,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AdoFieldInformationProvider">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.AdoFieldInformationProvider.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9870,7 +9766,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CompatibilityException">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.CompatibilityException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -9884,7 +9779,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCApplication">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCApplication.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -10513,7 +10407,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCBulk">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCBulk.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -10609,7 +10502,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCGeneric">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCGeneric.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -11065,7 +10957,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCList">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCList.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -11167,7 +11058,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCNotLoggedInException">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCNotLoggedInException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -11187,7 +11077,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCSession">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -11891,7 +11780,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCSqlExec">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSqlExec.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -11969,7 +11857,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MockAdoField">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockAdoField.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -12029,7 +11916,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MockCollection">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.MockCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -12083,7 +11969,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IFCApplication">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCApplication.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -12683,7 +12568,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IFCBulk">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCBulk.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -12773,7 +12657,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IFCGeneric">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCGeneric.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -13223,7 +13106,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IFCList">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCList.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -13319,7 +13201,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IFCSession">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSession.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -13983,7 +13864,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IFCSqlExec">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IFCSqlExec.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14055,7 +13935,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IMockAdoField">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockAdoField.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14115,7 +13994,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IMockCollection">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.IMockCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14178,7 +14056,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyConfigItem">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItem.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14203,7 +14080,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyConfigItemCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyConfigItemCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14232,7 +14108,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyDataObject">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.ClarifyDataObject.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14263,7 +14138,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Country">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.Country.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14324,7 +14198,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CountryCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.CountryCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14355,7 +14228,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DaylightSavingsCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14380,7 +14252,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DaylightSavingsPeriod">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.DaylightSavingsPeriod.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14428,7 +14299,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCString">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.FCString.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14500,7 +14370,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCTimeZone">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZone.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14574,7 +14443,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCTimeZoneCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.FCTimeZoneCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14620,7 +14488,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GlobalStringElement">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringElement.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14686,7 +14553,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GlobalStringElementCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringElementCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14752,7 +14618,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GlobalStringList">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringList.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14819,7 +14684,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GlobalStringListCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.GlobalStringListCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14844,7 +14708,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="HierarchicalStringElement">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElement.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14933,7 +14796,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="HierarchicalStringElementCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringElementCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -14981,7 +14843,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="HierarchicalStringList">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringList.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -15036,7 +14897,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="HierarchicalStringListCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringListCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -15061,7 +14921,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="HierarchicalStringShow">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.HierarchicalStringShow.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -15104,7 +14963,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LocalizedString">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.LocalizedString.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -15177,7 +15035,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="StateCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.StateCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -15208,7 +15065,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="StateProvince">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.StateProvince.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -15256,7 +15112,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IGlobalStringElement">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElement.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -15328,7 +15183,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IGlobalStringElementCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringElementCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -15626,7 +15480,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IGlobalStringList">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringList.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -15699,7 +15552,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IGlobalStringListCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.IGlobalStringListCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -15985,7 +15837,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IHierarchicalStringElement">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElement.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -16063,7 +15914,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IHierarchicalStringElementCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringElementCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -16343,7 +16193,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IHierarchicalStringList">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringList.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -16404,7 +16253,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IHierarchicalStringListCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.DataObjects.IHierarchicalStringListCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -16680,7 +16528,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RestrictionClause">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.RestrictionClause.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -16723,7 +16570,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaFieldBase">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -16885,7 +16731,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaFieldCollectionBase">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaFieldCollectionBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -16910,7 +16755,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaRelation">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelation.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17076,7 +16920,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaRelationCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaRelationCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17107,7 +16950,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaTable">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTable.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17144,7 +16986,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaTableBase">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17223,7 +17064,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaTableCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17259,7 +17099,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaTableField">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableField.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17290,7 +17129,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaTableFieldCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaTableFieldCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17323,7 +17161,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaView">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaView.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17360,7 +17197,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaViewCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17396,7 +17232,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaViewField">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewField.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17427,7 +17262,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaViewFieldCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17460,7 +17294,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaViewFieldInfo">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfo.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17527,7 +17360,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaViewFieldInfoCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewFieldInfoCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17558,7 +17390,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaViewJoin">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewJoin.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17625,7 +17456,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SchemaViewJoinCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Schema.SchemaViewJoinCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17666,7 +17496,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="WorkflowException">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17680,7 +17509,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="WorkFlowInfo">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Workflow.WorkFlowInfo.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -17903,7 +17731,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="WorkflowManager">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Clarify.Workflow.WorkflowManager.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18134,7 +17961,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ColumnInfo">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DataObjects.ColumnInfo.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18214,7 +18040,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ConfigItem">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DataObjects.ConfigItem.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18299,7 +18124,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ConfigItemCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DataObjects.ConfigItemCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18324,7 +18148,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DataObject">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DataObjects.DataObject.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18434,7 +18257,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DataObjectCollection&lt;T&gt;">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DataObjects.DataObjectCollection`1.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18459,7 +18281,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FakeTimeZone">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DataObjects.FakeTimeZone.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18473,7 +18294,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RestrictionGroup">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DataObjects.RestrictionGroup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18504,7 +18324,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RestrictionGroupCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DataObjects.RestrictionGroupCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18561,7 +18380,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IDataObject">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DataObjects.IDataObject.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18647,7 +18465,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ITimeZone">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DataObjects.ITimeZone.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18709,7 +18526,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DynamicBindingCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DynamicBinding.DynamicBindingCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18728,7 +18544,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IDynamicBinding">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.DynamicBinding.IDynamicBinding.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18784,7 +18599,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AfterFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.AfterFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18798,7 +18612,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AndFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.AndFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18812,7 +18625,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AndManyFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.AndManyFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18826,7 +18638,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="BeforeFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.BeforeFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18840,7 +18651,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="BetweenFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.BetweenFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18889,7 +18699,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ColumnBasedFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.ColumnBasedFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18914,7 +18723,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ContainsFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.ContainsFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18928,7 +18736,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="EndsWithFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.EndsWithFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18942,7 +18749,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="EqualsFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.EqualsFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18967,7 +18773,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Filter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.Filter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -18998,7 +18803,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FilterCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.FilterCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -19029,7 +18833,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FilterExpression">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.FilterExpression.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -19468,7 +19271,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FilterType">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.FilterType.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -19901,7 +19703,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IsInFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.IsInFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -19932,7 +19733,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IsNullFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.IsNullFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -19957,7 +19757,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LessThanFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.LessThanFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -19982,7 +19781,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LessThanOrEqualFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.LessThanOrEqualFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20007,7 +19805,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LikeFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.LikeFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20032,7 +19829,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogicalFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.LogicalFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20068,7 +19864,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoreThanFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.MoreThanFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20093,7 +19888,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoreThanOrEqualFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.MoreThanOrEqualFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20118,7 +19912,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="NotContainsFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.NotContainsFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20132,7 +19925,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="NotEndsWithFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.NotEndsWithFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20146,7 +19938,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="NotLikeFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.NotLikeFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20171,7 +19962,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="NotStartsWithFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.NotStartsWithFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20185,7 +19975,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="OlderThanDaysFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.OlderThanDaysFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20199,7 +19988,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="OlderThanHoursFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.OlderThanHoursFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20213,7 +20001,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="OnFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.OnFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20227,7 +20014,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="OperationFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.OperationFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20258,7 +20044,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="OrFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.OrFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20272,7 +20057,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="OrManyFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.OrManyFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20286,7 +20070,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SoundsLikeFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.SoundsLikeFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20311,7 +20094,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="StartsWithFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.StartsWithFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20325,7 +20107,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="TodayFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.TodayFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20339,7 +20120,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="TomorrowFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.TomorrowFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20353,7 +20133,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="WithinDaysFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.WithinDaysFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20367,7 +20146,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="WithinHoursFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.WithinHoursFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20381,7 +20159,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="YesterdayFilter">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Filters.YesterdayFilter.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20418,7 +20195,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaCache">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaCache.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20586,7 +20362,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaField">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaField.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20706,7 +20481,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaFieldCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaFieldCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20739,7 +20513,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaRelation">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaRelation.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20866,7 +20639,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaRelationCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaRelationCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20891,7 +20663,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaTable">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaTable.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20922,7 +20693,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaTableBase">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaTableBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -20989,7 +20759,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaTableCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaTableCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21033,7 +20802,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaView">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaView.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21058,7 +20826,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaViewCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaViewCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21102,7 +20869,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaViewJoin">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaViewJoin.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21169,7 +20935,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ISchemaViewJoinCollection">
-        <param name="Local" value="docfx_project\_site\sdk\fcSDK~FChoice.Foundation.Schema.ISchemaViewJoinCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21197,7 +20962,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AdditionalFields">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.AdditionalFields.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21228,7 +20992,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyToolkitException">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ClarifyToolkitException.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21248,7 +21011,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CommunicationAddress">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.CommunicationAddress.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21285,7 +21047,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ConstructorIndexAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ConstructorIndexAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21314,7 +21075,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="EmailIn">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.EmailIn.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21334,7 +21094,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Location">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Location.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21427,7 +21186,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LocationCollection">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.LocationCollection.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21485,7 +21243,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="PartInfo">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartInfo.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21558,7 +21315,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="PartRequestInfo">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PartRequestInfo.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21631,7 +21387,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="PropertyBitValueAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.PropertyBitValueAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21660,7 +21415,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SimplifiedAdditionalField">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalField.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21697,7 +21451,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SimplifiedAdditionalFields">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.SimplifiedAdditionalFields.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21732,7 +21485,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ToolkitBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21755,7 +21507,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ToolkitResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21810,7 +21561,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ToolkitResultPropertyAttribute">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResultPropertyAttribute.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21847,7 +21597,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Utility">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Utility.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -21979,7 +21728,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AcceptQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AcceptQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -22034,7 +21782,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddPOToScheduleSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -22113,7 +21860,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AssignQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AssignQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -22174,7 +21920,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangeQuoteStatusSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ChangeQuoteStatusSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -22235,7 +21980,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ContractsToolkit">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -22632,7 +22376,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ContractsToolkitBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkitBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -22657,7 +22400,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateContractLineItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -22816,7 +22558,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateContractSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -22997,7 +22738,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreatePriceInstanceSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreatePriceInstanceSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23088,7 +22828,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateScheduleSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateScheduleSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23191,7 +22930,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteSitePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DeleteSitePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23222,7 +22960,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DispatchQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DispatchQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23277,7 +23014,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ForwardQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ForwardQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23338,7 +23074,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogContractNoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23411,7 +23146,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.MoveQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23448,7 +23182,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RejectContractSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RejectContractSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23509,7 +23242,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RejectQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RejectQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23570,7 +23302,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RelateContractItemToSitePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23625,7 +23356,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReopenContractSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ReopenContractSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23686,7 +23416,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UnrelateContractItemFromSitePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UnrelateContractItemFromSitePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23735,7 +23464,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateScheduleSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.UpdateScheduleSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23838,7 +23566,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="YankQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.YankQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23907,7 +23634,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ApplyEcoSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -23956,7 +23682,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateDepotRepairLaborSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairLaborSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24041,7 +23766,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateDepotRepairMaterialSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairMaterialSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24144,7 +23868,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateEcoHeaderSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoHeaderSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24217,7 +23940,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateEcoItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24272,7 +23994,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateEcoLaborDetailSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoLaborDetailSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24339,7 +24060,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateEcoMaterialDetailSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoMaterialDetailSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24400,7 +24120,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteDepotRepairLaborSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairLaborSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24437,7 +24156,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteDepotRepairMaterialSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairMaterialSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24474,7 +24192,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteEcoDetailSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoDetailSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24505,7 +24222,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteEcoItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24536,7 +24252,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DepotRepairToolkit">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24849,7 +24564,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DepotRepairToolkitBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkitBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24874,7 +24588,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateDepotRepairLaborSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairLaborSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -24959,7 +24672,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateDepotRepairMaterialSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairMaterialSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25062,7 +24774,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateEcoItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25123,7 +24834,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateEcoLaborDetailSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoLaborDetailSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25190,7 +24900,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateEcoMaterialDetailSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoMaterialDetailSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25277,7 +24986,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddServiceInterruptionResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25308,7 +25016,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddServiceInterruptionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25393,7 +25100,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateAppointmentResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25424,7 +25130,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateAppointmentSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateAppointmentSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25539,7 +25244,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateExpenseLogResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25570,7 +25274,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateExpenseLogSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateExpenseLogSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25667,7 +25370,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateOnsiteLogSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateOnsiteLogSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25740,7 +25442,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateTimeLogResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25771,7 +25472,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateTimeLogSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25874,7 +25574,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeinstallSitePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeinstallSitePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25923,7 +25622,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteAppointmentSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteAppointmentSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -25966,7 +25664,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteExpenseLogSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteExpenseLogSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -26009,7 +25706,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteOnsiteLogSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteOnsiteLogSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -26052,7 +25748,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteServiceInterruptionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteServiceInterruptionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -26095,7 +25790,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteTimeLogSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteTimeLogSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -26138,7 +25832,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DispatchFieldEngineerSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -26313,7 +26006,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FieldOpsToolkit">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -26902,7 +26594,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FieldOpsToolkitBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkitBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -26927,7 +26618,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="InstallSitePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.InstallSitePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -27062,7 +26752,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogPartsUsedConsumeSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedConsumeSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -27211,7 +26900,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogPartsUsedExchangeSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -27396,7 +27084,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogPartsUsedInstallSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedInstallSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -27545,7 +27232,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogPartsUsedRemoveSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedRemoveSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -27668,7 +27354,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogPartsUsedUpgradeSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedUpgradeSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -27853,7 +27538,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveSitePartToBinSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToBinSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -27914,7 +27598,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveSitePartToPartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToPartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -27975,7 +27658,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveSitePartToSiteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToSiteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28036,7 +27718,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="PartTransferResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28073,7 +27754,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="PartTransferSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.PartTransferSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28190,7 +27870,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReinstallSitePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.ReinstallSitePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28263,7 +27942,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="StageInventoryToolkit">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.StageInventoryToolkit.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28307,7 +27985,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateAppointmentSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateAppointmentSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28392,7 +28069,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateExpenseLogSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateExpenseLogSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28483,7 +28159,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateServiceInterruptionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateServiceInterruptionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28562,7 +28237,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateSitePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateSitePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28677,7 +28351,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateTimeLogSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.UpdateTimeLogSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28843,7 +28516,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddContactToContractSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddContactToContractSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28898,7 +28570,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddEmployeeToAccountSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddEmployeeToAccountSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28941,7 +28612,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddSitePartToContractSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSitePartToContractSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -28984,7 +28654,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddSiteToAccountSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToAccountSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29027,7 +28696,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddSiteToContractSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddSiteToContractSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29064,7 +28732,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddUserToQueueSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddUserToQueueSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29107,7 +28774,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddWorkaroundSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AddWorkaroundSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29182,7 +28848,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AssignSolutionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.AssignSolutionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29243,7 +28908,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateAccountSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAccountSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29364,7 +29028,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateAddressSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29443,7 +29106,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateBOMSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateBOMSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29510,7 +29172,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateChannelSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateChannelSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29589,7 +29250,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateCommunicationSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCommunicationSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29728,7 +29388,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateContactSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContactSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29825,7 +29484,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateContractSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateContractSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -29946,7 +29604,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateCountrySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateCountrySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -30013,7 +29670,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateDialogueSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateDialogueSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -30080,7 +29736,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateEmployeeResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -30117,7 +29772,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateEmployeeSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateEmployeeSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -30334,7 +29988,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateInteractionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateInteractionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -30503,7 +30156,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreatePartRevisionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartRevisionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -30576,7 +30228,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreatePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -30697,7 +30348,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreatePriceInstanceSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreatePriceInstanceSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -30776,7 +30426,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateProductBinSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateProductBinSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -30849,7 +30498,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateQueueSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateQueueSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -30958,7 +30606,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateSiteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSiteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31085,7 +30732,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateSolutionResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31116,7 +30762,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateSolutionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateSolutionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31201,7 +30846,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateStateSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateStateSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31250,7 +30894,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateTimeZoneSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateTimeZoneSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31299,7 +30942,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateWipBinSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateWipBinSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31348,7 +30990,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeinstallSitePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DeinstallSitePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31397,7 +31038,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteProductBinSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DeleteProductBinSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31440,7 +31080,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DispatchSolutionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.DispatchSolutionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31495,7 +31134,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ForwardSolutionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ForwardSolutionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31556,7 +31194,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="InstallSitePartToBinSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToBinSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31685,7 +31322,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="InstallSitePartToPartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToPartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31814,7 +31450,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="InstallSitePartToSiteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InstallSitePartToSiteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -31937,7 +31572,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="InterfacesToolkit">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33263,7 +32897,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="InterfacesToolkitBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkitBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33300,7 +32933,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LinkCaseToWorkaroundSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCaseToWorkaroundSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33355,7 +32987,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LinkCRToSolutionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.LinkCRToSolutionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33410,7 +33041,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveSitePartToBinSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToBinSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33471,7 +33101,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveSitePartToPartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToPartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33532,7 +33161,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveSitePartToSiteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSitePartToSiteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33593,7 +33221,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveSolutionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.MoveSolutionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33630,7 +33257,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReinstallSitePartToBinSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToBinSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33697,7 +33323,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReinstallSitePartToPartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToPartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33764,7 +33389,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReinstallSitePartToSiteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReinstallSitePartToSiteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33825,7 +33449,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RejectSolutionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RejectSolutionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33886,7 +33509,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RemoveContactFromContractSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveContactFromContractSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33923,7 +33545,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RemoveEmployeeFromAccountSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveEmployeeFromAccountSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -33966,7 +33587,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RemoveSiteFromAccountSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromAccountSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34009,7 +33629,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RemoveSiteFromContractSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSiteFromContractSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34046,7 +33665,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RemoveSitePartFromContractSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.RemoveSitePartFromContractSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34083,7 +33701,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReopenDialogueSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.ReopenDialogueSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34144,7 +33761,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UnlinkCaseFromWorkaroundSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UnlinkCaseFromWorkaroundSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34193,7 +33809,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UnlinkCRFromSolutionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UnlinkCRFromSolutionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34248,7 +33863,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateAccountSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAccountSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34375,7 +33989,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateAddressSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateAddressSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34460,7 +34073,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateCommunicationSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateCommunicationSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34599,7 +34211,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateContactByObjidSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactByObjidSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34732,7 +34343,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateContactSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContactSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34865,7 +34475,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateContractSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateContractSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -34992,7 +34601,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateDialogueSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateDialogueSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -35059,7 +34667,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdatePartRevisionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartRevisionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -35138,7 +34745,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdatePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -35259,7 +34865,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdatePriceInstanceSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdatePriceInstanceSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -35326,7 +34931,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateProductBinSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateProductBinSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -35393,7 +34997,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateQueueSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateQueueSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -35508,7 +35111,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateSiteByObjidSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteByObjidSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -35635,7 +35237,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateSitePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSitePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -35758,7 +35359,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateSiteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSiteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -35885,7 +35485,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateWipBinSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateWipBinSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -35940,7 +35539,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="YankSolutionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.YankSolutionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36009,7 +35607,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AcceptPartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36064,7 +35661,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddAlternatePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36131,7 +35727,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddGLAccountSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36204,7 +35799,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddInventoryBinSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryBinSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36241,7 +35835,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddInventoryLocationSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddInventoryLocationSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36320,7 +35913,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddLocationServicingSiteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36369,7 +35961,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AssignPartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36430,7 +36021,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="BackorderPartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36543,7 +36133,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangePartRequestStatusSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36604,7 +36193,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClosePartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36659,7 +36247,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateContainerSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateContainerSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36702,7 +36289,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreatePartRequestDetailResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36733,7 +36319,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreatePartRequestDetailSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -36900,7 +36485,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreatePartRequestHeaderCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37009,7 +36593,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreatePartRequestHeaderSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37118,7 +36701,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreatePartRequestHeaderSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37227,7 +36809,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateSubContainerSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreateSubContainerSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37264,7 +36845,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteAlternatePartSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37325,7 +36905,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DeleteLocationServicingSiteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteLocationServicingSiteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37362,7 +36941,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DispatchPartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37417,7 +36995,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ForwardPartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ForwardPartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37478,7 +37055,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FulfillPartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37591,7 +37167,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GetAlternatePartsResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37622,7 +37197,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GetAlternatePartsSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37665,7 +37239,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GetLocationsServicingSiteResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37696,7 +37269,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GetLocationsServicingSiteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -37727,7 +37299,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogisticsToolkit">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -38598,7 +38169,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogisticsToolkitBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkitBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -38623,7 +38193,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MovePartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -38660,7 +38229,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="OpenContainerSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.OpenContainerSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -38691,7 +38259,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="PartTransferResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -38728,7 +38295,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="PartTransferSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -38845,7 +38411,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="PickResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -38876,7 +38441,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="PickSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -38971,7 +38535,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReceivePartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39120,7 +38683,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RejectPartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.RejectPartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39181,7 +38743,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReopenPartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39242,7 +38803,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SealContainerSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SealContainerSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39273,7 +38833,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SetLogisticsTransitionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39322,7 +38881,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SetPartStockingLevelSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39407,7 +38965,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ShipSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39546,7 +39103,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UnpickSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39635,7 +39191,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateGLAccountSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39714,7 +39269,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateInventoryBinSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39757,7 +39311,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateInventoryLocationSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39842,7 +39395,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateLocationServicingSiteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateLocationServicingSiteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -39885,7 +39437,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdatePartRequestDetailSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40000,7 +39551,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdatePartRequestHeaderSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40097,7 +39647,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdatePartStockingLevelSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40194,7 +39743,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="YankPartRequestSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40263,7 +39811,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AcceptCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AcceptCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40318,7 +39865,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AddModuleToCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AddModuleToCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40361,7 +39907,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AssignCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.AssignCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40422,7 +39967,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangeCRStatusSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ChangeCRStatusSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40483,7 +40027,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CheckClearQualityTransitionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CheckClearQualityTransitionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40538,7 +40081,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CloseCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CloseCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40617,7 +40159,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.CreateCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40774,7 +40315,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DispatchCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DispatchCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40829,7 +40369,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DuplicateCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.DuplicateCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40890,7 +40429,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FixCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -40957,7 +40495,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FixFailedSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.FixFailedSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -41036,7 +40573,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ForwardCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ForwardCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -41097,7 +40633,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCREmailSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCREmailSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -41176,7 +40711,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCRNoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.LogCRNoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -41243,7 +40777,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.MoveCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -41280,7 +40813,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="QualityToolkit">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -41708,7 +41240,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="QualityToolkit.LogCREmailInSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkit+LogCREmailInSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -41728,7 +41259,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="QualityToolkitBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.QualityToolkitBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -41753,7 +41283,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RejectCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.RejectCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -41814,7 +41343,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReopenCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReopenCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -41875,7 +41403,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReplicateCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.ReplicateCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -41924,7 +41451,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.UpdateCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42063,7 +41589,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="YankCRSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Quality.YankCRSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42132,7 +41657,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AcceptActionItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptActionItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42187,7 +41711,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AcceptOpportunitySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptOpportunitySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42242,7 +41765,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AcceptQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AcceptQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42297,7 +41819,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AssignActionItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignActionItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42358,7 +41879,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AssignLeadSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignLeadSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42407,7 +41927,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AssignOpportunitySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignOpportunitySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42468,7 +41987,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AssignQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.AssignQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42529,7 +42047,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangeActionItemConditionSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemConditionSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42590,7 +42107,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangeActionItemStatusSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeActionItemStatusSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42651,7 +42167,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangeOpportunityStageSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStageSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42718,7 +42233,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangeOpportunityStatusSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeOpportunityStatusSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42779,7 +42293,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangeQuoteStatusSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ChangeQuoteStatusSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42840,7 +42353,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CloseOpportunitySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CloseOpportunitySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -42895,7 +42407,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateActionItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateActionItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43034,7 +42545,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateLeadSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateLeadSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43203,7 +42713,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateOpportunitySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateOpportunitySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43330,7 +42839,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateQuoteLineItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteLineItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43489,7 +42997,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.CreateQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43628,7 +43135,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DispatchActionItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchActionItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43683,7 +43189,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DispatchOpportunitySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchOpportunitySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43738,7 +43243,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DispatchQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.DispatchQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43793,7 +43297,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ForwardActionItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardActionItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43854,7 +43357,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ForwardOpportunitySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardOpportunitySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43915,7 +43417,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ForwardQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ForwardQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43976,7 +43477,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogActionItemEmailInSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogActionItemEmailInSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -43996,7 +43496,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogLeadNoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadNoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -44057,7 +43556,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogLeadPhoneSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.LogLeadPhoneSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -44148,7 +43646,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveActionItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveActionItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -44185,7 +43682,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveOpportunitySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveOpportunitySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -44222,7 +43718,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.MoveQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -44259,7 +43754,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RejectActionItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectActionItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -44320,7 +43814,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RejectOpportunitySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectOpportunitySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -44381,7 +43874,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RejectQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.RejectQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -44442,7 +43934,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReopenOpportunitySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.ReopenOpportunitySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -44503,7 +43994,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SalesToolkit">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkit.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -45237,7 +44727,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SalesToolkitBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.SalesToolkitBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -45281,7 +44770,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateActionItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateActionItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -45414,7 +44902,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateLeadSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateLeadSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -45583,7 +45070,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateOpportunitySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.UpdateOpportunitySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -45710,7 +45196,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="YankActionItemSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankActionItemSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -45765,7 +45250,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="YankOpportunitySetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankOpportunitySetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -45820,7 +45304,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="YankQuoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankQuoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -45889,7 +45372,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AcceptCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -45944,7 +45426,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AcceptSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AcceptSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -45999,7 +45480,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AssignCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AssignCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46060,7 +45540,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="AssignSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.AssignSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46121,7 +45600,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CaseTimeAndExpenses">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CaseTimeAndExpenses.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46251,7 +45729,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangeCaseContactSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseContactSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46330,7 +45807,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangeCaseSiteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseSiteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46409,7 +45885,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangeCaseStatusSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeCaseStatusSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46470,7 +45945,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ChangeSubcaseStatusSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ChangeSubcaseStatusSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46531,7 +46005,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ClarifyApplicationClock">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ClarifyApplicationClock.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46562,7 +46035,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CloseCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46647,7 +46119,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CloseSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CloseSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46720,7 +46191,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CompatibilityApplicationClock">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CompatibilityApplicationClock.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46751,7 +46221,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateCaseObjidSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseObjidSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -46902,7 +46371,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47059,7 +46527,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="CreateSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.CreateSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47168,7 +46635,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DispatchCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47223,7 +46689,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="DispatchSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.DispatchSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47278,7 +46743,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ForwardCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47339,7 +46803,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ForwardSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ForwardSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47400,7 +46863,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FulfillCommitmentSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.FulfillCommitmentSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47449,7 +46911,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GetCaseTimeAndExpensesResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47480,7 +46941,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GetCaseTimeAndExpensesSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetCaseTimeAndExpensesSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47511,7 +46971,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GetSubcaseTimeAndExpensesResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47542,7 +47001,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="GetSubcaseTimeAndExpensesSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.GetSubcaseTimeAndExpensesSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47573,7 +47031,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="InitialResponseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.InitialResponseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47628,7 +47085,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCaseCommitmentSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseCommitmentSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47743,7 +47199,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCaseEmailInSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailInSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47763,7 +47218,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCaseEmailResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47800,7 +47254,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCaseEmailSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseEmailSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -47933,7 +47386,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCaseInternalNoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalNoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48036,7 +47488,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCaseInternalPhoneSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseInternalPhoneSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48163,7 +47614,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCaseNoteResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48200,7 +47650,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCaseNoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseNoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48309,7 +47758,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCasePhoneResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48346,7 +47794,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCasePhoneSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCasePhoneSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48479,7 +47926,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCaseResearchResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48516,7 +47962,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogCaseResearchSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogCaseResearchSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48631,7 +48076,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogEmailInSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogEmailInSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48716,7 +48160,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubcaseCommitmentSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseCommitmentSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48831,7 +48274,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubCaseEmailInSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubCaseEmailInSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48851,7 +48293,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubcaseEmailResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseEmailResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -48888,7 +48329,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubcaseEmailSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseEmailSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49021,7 +48461,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubcaseInternalNoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseInternalNoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49124,7 +48563,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubcaseInternalPhoneSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseInternalPhoneSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49251,7 +48689,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubcaseNoteResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49288,7 +48725,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubcaseNoteSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseNoteSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49397,7 +48833,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubcasePhoneResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49434,7 +48869,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubcasePhoneSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcasePhoneSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49567,7 +49001,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubcaseResearchResult">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchResult.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49604,7 +49037,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="LogSubcaseResearchSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.LogSubcaseResearchSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49719,7 +49151,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.MoveCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49756,7 +49187,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="MoveSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.MoveSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49793,7 +49223,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RejectCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49854,7 +49283,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RejectSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RejectSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49915,7 +49343,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="RelateCaseToParentCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.RelateCaseToParentCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -49952,7 +49379,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReopenCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -50013,7 +49439,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="ReopenSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.ReopenSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -50074,7 +49499,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SubcaseTimeAndExpenses">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SubcaseTimeAndExpenses.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -50135,7 +49559,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SupportToolkit">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -51118,7 +50541,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="SupportToolkitBase">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkitBase.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -51149,7 +50571,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UnrelateCaseFromParentCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UnrelateCaseFromParentCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -51180,7 +50601,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateCaseCommitmentSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseCommitmentSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -51295,7 +50715,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -51422,7 +50841,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateSubcaseCommitmentSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseCommitmentSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -51537,7 +50955,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="UpdateSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.UpdateSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -51616,7 +51033,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="YankCaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankCaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -51671,7 +51087,6 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="YankSubcaseSetup">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.YankSubcaseSetup.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -51731,7 +51146,6 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="IApplicationClock">
-        <param name="Local" value="docfx_project\_site\sdk\FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock.html">
      </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
@@ -52742,7 +52156,7 @@
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="FCCC">
-     </OBJECT>  
+     </OBJECT>
 <UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Overview">
