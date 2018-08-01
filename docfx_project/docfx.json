@@ -18,6 +18,7 @@
         "files": [
           "api/toc.yml",
           "api/**.md",
+          "api/**.yml",
           "articles/toc.yml",
           "articles/**.md",
           "sdk/toc.yml",
@@ -37,17 +38,6 @@
           "sdk/images/**",
           "sdk/dotnetimages/**",
           "sdk/webimages/**"
-        ]
-      }
-    ],
-    "overwrite": [
-      {
-        "files": [
-          "apidoc/**.md"
-        ],
-        "exclude": [
-          "obj/**",
-          "_site/**"
         ]
       }
     ],
