@@ -3,17 +3,17 @@ part_transfer
 
 ```
 Public Function part_transfer(ByVal part_num As String, _
-                  ByVal mod_level As String, ByVal domain_name As String, _
-                  ByVal quantity_num As Long, ByVal serial_num As String, _
-                  ByVal from_loc As String, ByVal from_bin As String, _
-                  ByVal from_cont As String, ByVal from_good As Boolean, _
-                  ByVal to_loc As String, ByVal to_bin As String, _
-                  ByVal to_cont As String, ByVal to_good As Boolean, _
-                  ByVal user_name As String, ByVal trans_date As String, _
-                  ByVal ref_id As String, ByVal note_str As String, _
-                  ByVal gen_time_bombs As Boolean, ByVal fifo_flag As Integer, _
-                  ByVal update_cost As String, ByVal update_source As String, _
-                  trans_id As String, ByVal std_cost As String) As Integer
+                 ByVal mod_level As String, ByVal domain_name As String, _
+                 ByVal quantity_num As Long, ByVal serial_num As String, _
+                 ByVal from_loc As String, ByVal from_bin As String, _
+                 ByVal from_cont As String, ByVal from_good As Boolean, _
+                 ByVal to_loc As String, ByVal to_bin As String, _
+                 ByVal to_cont As String, ByVal to_good As Boolean, _
+                 ByVal user_name As String, ByVal trans_date As String, _
+                 ByVal ref_id As String, ByVal note_str As String, _
+                 ByVal gen_time_bombs As Boolean, ByVal fifo_flag As Integer, _
+                 ByVal update_cost As String, ByVal update_source As String, _
+                 trans_id As String, ByVal std_cost As String) As Integer
 ```
 
 #### Description
@@ -62,7 +62,7 @@ To do this, specify (in the trans_id argument) the transaction ID of the previou
 | quantity | Yes | How many to transfer |
 | serial_num | No | The serial number (if serial tracked) to transfer |
 | from_loc | Yes | The inventory location (or GL account) to transfer from |
-| from_bin | No | The inventory bin to transfer from. If from a container, put the container name in this field. If you want the primary bin suggestion, put 
+| from_bin | No | The inventory bin to transfer from. If from a container, put the container name in this field. If you want the primary bin suggestion, put
 PRIM_BIN_REC in this field |
 | from_cont | No | If transferring from a container, put the container number in this field |
 | from_good | Yes | Is the transfer from "good" stock? |
@@ -75,7 +75,7 @@ PRIM_BIN_REC in this field |
 | ref_id | No | Optional reference ID of transfer |
 | notes | No | Optional notes about the transfer |
 | gen_time_bombs | Yes | Should time bombs be generated? |
-| fifo_flag | Yes | Should we use FIFO costing? 0 = No, 1 = Yes, 2 = Use the 
+| fifo_flag | Yes | Should we use FIFO costing? 0 = No, 1 = Yes, 2 = Use the
 cost in the next field |
 | update_cost | No | If the fifo_flag = 2, this is the per-unit cost for the transfer.<br>
 Not commonly used. If the fifo_flag = 1, it is the FIFO cost of the transfer (only valid for transfer in from expense GL) |
@@ -127,24 +127,24 @@ Dim trans_id  As String
 Dim std_cost  As String
 
 ret_int = fcfo.part_transfer("Accounting", "101", "QuantityDomain", _
-  20, "", "EXPGL", "", "", True, "Austin", _
-  "PRIM_BIN_REC", "", True, "", "", "", _
-  "", True, 1, "", "", trans_id, std_cost)
+                20, "", "EXPGL", "", "", True, "Austin", _
+                "PRIM_BIN_REC", "", True, "", "", "", _
+                "", True, 1, "", "", trans_id, std_cost)
 
-   If ret_int = 0 Then
-     trans_id = fcfo.ret_string
-     std_cost = fcfo.ret_num
-   End If
+If ret_int = 0 Then
+  trans_id = fcfo.ret_string
+  std_cost = fcfo.ret_num
+End If
 ```
 
 **JavaScript:**
 ```
 var ret_int = fcfo.part_transfer("Accounting", "101", "QuantityDomain",
-      20, "", "EXPGL", "", "", true, "Austin",
-      "PRIM_BIN_REC", "", true, "", "", "",
-      "", true, 1, "", "", trans_id, std_cost);
+                    20, "", "EXPGL", "", "", true, "Austin",
+                    "PRIM_BIN_REC", "", true, "", "", "",
+                    "", true, 1, "", "", trans_id, std_cost);
 
- if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
+if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
 ```
 
 Transfer MS Word 7.0, serial number 555666 from Austin Bin 2 to San Jose Bin "Receiving". The inventory was good, but is now marked as bad (for Quality Control). Fred did the transfer on July 30, 1998, at 5:13 AM. Add notes and a ref ID, and don't generate a time bomb. Don't use FIFO costing.
@@ -156,11 +156,10 @@ Dim trans_id  As String
 Dim std_cost  As String
 
 ret_int = fcfo.part_transfer("MS Word", "7.0", "Product", 1, _
-  "555666", "Austin", "Bin 1", "", True, _
-  "San Jose", "Receiving", "", False, _
-  "fred", "7/30/98 5:13:00", "Ref ID3", _
-  "Some notes", False, 0, "", "", _
-  trans_id, std_cost)
+              "555666", "Austin", "Bin 1", "", True, _
+              "San Jose", "Receiving", "", False, _
+              "fred", "7/30/98 5:13:00", "Ref ID3", _
+              "Some notes", False, 0, "", "", trans_id, std_cost)
 
   If ret_int = 0 Then
     trans_id = fcfo.ret_string
@@ -171,11 +170,11 @@ ret_int = fcfo.part_transfer("MS Word", "7.0", "Product", 1, _
 **JavaScript:**
 ```
 var ret_int = fcfo.part_transfer("MS Word", "7.0", "Product", 1,
-      "555666", "Austin", "Bin 1", "", true,
-      "San Jose", "Receiving", "", false,
-      "fred", "7/30/98 5:13:00", "Ref ID3",
-      "Some notes", false, 0, "", "",
-      trans_id, std_cost);
+                  "555666", "Austin", "Bin 1", "", true,
+                  "San Jose", "Receiving", "", false,
+                  "fred", "7/30/98 5:13:00", "Ref ID3",
+                  "Some notes", false, 0, "", "",
+                  trans_id, std_cost);
 
 if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
 ```
@@ -189,10 +188,10 @@ Dim trans_id  As String
 Dim std_cost  As String
 
 ret_int = fcfo.part_transfer("Notebook", "", "Product", 15, "", _
-                              "EXPGL", "", "", True, "Austin", _
-                              "Fred", "44", False, "fred", _
-                              "7/30/98 5:13:00", "Ref ID3", _
-                              "Some notes", False, 1, ".34", "MySource", _
+                  "EXPGL", "", "", True, "Austin", _
+                  "Fred", "44", False, "fred", _
+                  "7/30/98 5:13:00", "Ref ID3", _
+                  "Some notes", False, 1, ".34", "MySource", _
 						      trans_id, std_cost)
 
    If ret_int = 0 Then
@@ -204,10 +203,10 @@ ret_int = fcfo.part_transfer("Notebook", "", "Product", 15, "", _
 **JavaScript:**
 ```
 var ret_int = fcfo.part_transfer("Notebook", "", "Product", 15, "",
-                                 "EXPGL", "", "", true, "Austin",
-                                 "Fred", "44", false, "fred",
-                                 "7/30/98 5:13:00", "Ref ID3",
-                                 "Some notes", false, 1, ".34", "MySource",
+                     "EXPGL", "", "", true, "Austin",
+                     "Fred", "44", false, "fred",
+                     "7/30/98 5:13:00", "Ref ID3",
+                     "Some notes", false, 1, ".34", "MySource",
 						         trans_id, std_cost);
 
  if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
@@ -224,8 +223,8 @@ Dim std_cost  As String
 trans_id = "42"
 
 ret_int = fcfo.part_transfer("", "", "", 4, "","", "", _
-                              "", True, "", "", "", True, "", _
-                              "", "", "", True, 1, "", "", _
+                  "", True, "", "", "", True, "", _
+                  "", "", "", True, 1, "", "", _
 						      trans_id, std_cost)
 
   If ret_int = 0 Then
@@ -238,9 +237,9 @@ ret_int = fcfo.part_transfer("", "", "", 4, "","", "", _
 trans_id = "42"
 
 var ret_int = fcfo.part_transfer("", "", "", 4, "","", "",
-                                 "", true, "", "", "", true, "",
-                                 "", "", "", true, 1, "", "",
+                     "", true, "", "", "", true, "",
+                     "", "", "", true, 1, "", "",
 						         trans_id, std_cost);
 
  if (ret_int == 0){ var trans_id = fcfo.ret_objid; }
-``` 
+```

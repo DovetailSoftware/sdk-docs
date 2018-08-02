@@ -3,8 +3,8 @@ get_alt_parts
 
 ```
 Public Function get_alt_parts(ByVal part_num As String, _
-                              ByVal domain_name As String, ByVal mod_level As String) _
-                              As Integer
+                              ByVal domain_name As String, _
+                              ByVal mod_level As String) As Integer
 ```
 
 #### Description
@@ -40,7 +40,7 @@ Get the alternate parts for MS Word 7.0:
 Dim ret_int As Integer
 Dim part_list As String
 
-ret_int = fccl.get_alt_parts("MS Word", "Product", "7.0") 
+ret_int = fccl.get_alt_parts("MS Word", "Product", "7.0")
 
 If ret_int = 0 Then
   part_list = fccl.ret_string

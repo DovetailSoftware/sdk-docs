@@ -14,7 +14,7 @@ Public Function make_pr_detail(ByVal hdr_num As String, _
                              ByVal ship_via As String, ByVal carrier_name As String, _
                              ByVal user_name As String, ByVal warranty As Integer, _
                              ByVal note_str As String, ByVal status_str As String, _
-  							 ByVal create_date As String, ByVal due_date As String, _
+  							             ByVal create_date As String, ByVal due_date As String, _
                              ByVal gen_time_bombs As Boolean, _
                              ByVal contr_itm_objid As Long, _
                              ByVal int_fld1 As String, ByVal int_val1 As Long, _
@@ -33,7 +33,7 @@ Public Function make_pr_detail_list(ByVal hdr_num As String, _
                              ByVal dtl_type As String, ByVal priority_str As String, _
                              ByVal ship_via As String, ByVal carrier_name As String, _
                              ByVal user_name As String, ByVal warranty As Integer, _
-  							 ByVal note_str As String, _
+  							             ByVal note_str As String, _
                              ByVal status_str As String, ByVal create_date As String, _
                              ByVal due_date As String, ByVal gen_time_bombs As Boolean, _
                              ByVal contr_itm_objid As Long, Optional fld_list As Variant, _

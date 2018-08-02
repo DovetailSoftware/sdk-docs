@@ -3,11 +3,10 @@ add_inv_location
 
 ```
 Public Function add_inv_location(ByVal loc_name As String, _
-                               ByVal account_type As String, ByVal desc_str As String, _
-                               ByVal reports_to_loc As String, ByVal cap_gl_acct As String, _
-                               ByVal is_active As Boolean, ByVal is_company As Boolean, _
-                               ByVal site_id As String, ByVal trans_auth_str As String) _
-                               As Integer
+           ByVal account_type As String, ByVal desc_str As String, _
+           ByVal reports_to_loc As String, ByVal cap_gl_acct As String, _
+           ByVal is_active As Boolean, ByVal is_company As Boolean, _
+           ByVal site_id As String, ByVal trans_auth_str As String) As Integer
 ```
 
 #### Description

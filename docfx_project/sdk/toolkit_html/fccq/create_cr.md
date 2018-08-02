@@ -8,8 +8,8 @@ create_cr_list
 Public Function create_cr(ByVal part_num As String, _
                           ByVal mod_level As String, _
                           ByVal domain As String, ByVal the_title As String, _
-        ByVal status As String, ByVal note_log As String, _
-        ByVal cr_type As String, ByVal priority As String, _
+                          ByVal status As String, ByVal note_log As String, _
+                          ByVal cr_type As String, ByVal priority As String, _
                           ByVal frequency As String, _
                           ByVal found_on As String, ByVal op_sys As String, _
                           ByVal memory As String, ByVal cr_class As String, _
@@ -48,9 +48,9 @@ Public Function create_cr_list(ByVal part_num As String, _
        ByVal queue_name As String, _
        ByVal user_name As String, _
        ByVal cr_date As String, _
-                               ByVal gen_time_bombs As Boolean, _
+       ByVal gen_time_bombs As Boolean, _
        Optional fld_list As Variant, _
-                               Optional type_list As Variant, _
+       Optional type_list As Variant, _
        Optional val_list As Variant) As Integer
 ```
 
@@ -123,7 +123,7 @@ Create a new change request. Specify the part of MS Word, revision 1.2. Use the 
 **Field version 1:**
 
 **Visual Basic:**
-```  
+```
 Dim ret_int As Integer
 Dim bug_id_num  As String
 Dim bug_objid   As Long
@@ -137,7 +137,7 @@ ret_int = fccq.create_cr("MS Word"", "1.2", "Product", "CR Title", _
  If ret_int = 0 Then
    bug_id_num = fccq.ret_id_num
    bug_objid = fccq.ret_objid
- End If  
+ End If
 ```
 
 **JavaScript:**
@@ -170,7 +170,7 @@ ret_int = fccq.create_cr("MS Word"", "1.2", "Product", "CR Title", _
  If ret_int = 0 Then
    bug_id_num = fccq.ret_id_num
    bug_objid = fccq.ret_objid
- End If  
+ End If
 ```
 
 **JavaScript:**
@@ -193,12 +193,12 @@ var ret_int = fccq.create_cr("MS Word"", "1.2", "Product", "CR Title",
 ```
 Dim bug_id_num  As String
 Dim bug_objid   As Long
-  
+
 Dim ret_int As Integer
 Dim fld_list    As New FCFLCompat.FCList
 Dim type_list   As New FCFLCompat.FCList
 Dim val_list    As New FCFLCompat.FCList
-  
+
 fld_list.AppendItem("dist");
 type_list.AppendItem("Long");
 val_list.AppendItem("456");
@@ -222,7 +222,7 @@ ret_int = fccq.create_cr_list("MS Word", "1.2", "Product", _
  If ret_int = 0 Then
    bug_id_num = fccq.ret_id_num
    bug_objid = fccq.ret_objid
- End If  
+ End If
 ```
 
 **JavaScript:**
@@ -246,8 +246,8 @@ val_list.AppendItem("1/1/99");
 var ret_int = fccq.create_cr_list("MS Word", "1.2", "Product",
    "CR Title", "", "note.txt", "", "", "", "",
    "", "", "", "", "", "", "Some tests to run",
-   "High", "", "", true, fld_list, type_list, val_list)  
-  
+   "High", "", "", true, fld_list, type_list, val_list)
+
  if (ret_int == 0) {
    var bug_id_num = fccq.ret_id_num;
    var bug_objid = fccq.ret_objid;

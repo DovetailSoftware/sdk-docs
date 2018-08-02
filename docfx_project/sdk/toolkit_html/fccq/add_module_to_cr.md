@@ -3,7 +3,7 @@ add_module_to_cr
 
 ```
 Public Function add_module_to_cr(ByVal fix_objid As Long, _
-   Byval file As String, _
+                                 Byval file As String, _
                                  ByVal rev As String) As Integer
 ```
 

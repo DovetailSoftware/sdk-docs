@@ -3,10 +3,10 @@ yank_cr
 
 ```
 Public Function yank_cr(ByVal cr_id As String, _
-			ByVal wipbin As String, _
-            ByVal yank_date As String, _
-			ByVal user_name As String, _
-            ByVal gen_time_bombs As Boolean) As Integer
+            			      ByVal wipbin As String, _
+                        ByVal yank_date As String, _
+            			      ByVal user_name As String, _
+                        ByVal gen_time_bombs As Boolean) As Integer
 ```
 
 #### Description

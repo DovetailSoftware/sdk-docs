@@ -3,11 +3,11 @@ add_alt_part
 
 ```
 Public Function add_alt_part(ByVal part_num As String, ByVal rev As String, _
-				         ByVal domain As String, ByVal alt_part As String, _
+				                 ByVal domain As String, ByVal alt_part As String, _
                          ByVal alt_rev As String, ByVal alt_domain As String, _
- 						 ByVal is_reciprocal As Boolean) As Integer
+ 						             ByVal is_reciprocal As Boolean) As Integer
 ```
-  
+
 #### Description
 
 This API causes the second part/revision listed to become an alternate part of the first one listed. If the _is_reciprocal_ flag is set to True, then the first part/rev will also be added as an alternate of the second part/rev.

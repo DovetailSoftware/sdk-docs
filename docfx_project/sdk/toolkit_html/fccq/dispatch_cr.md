@@ -3,9 +3,9 @@ dispatch_cr
 
 ```
 Public Function dispatch_cr(ByVal cr_id As String, _
-    ByVal queue_name As String, _
+                            ByVal queue_name As String, _
                             ByVal disp_date As String, _
-    ByVal user_name As String, _
+                            ByVal user_name As String, _
                             ByVal gen_time_bombs As Boolean) As Integer
 ```
 

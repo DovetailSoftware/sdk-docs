@@ -3,7 +3,7 @@ replicate_cr
 
 ```
 Public Function replicate_cr (ByVal cr_id As String, _
-							  ByVal user_name As String, _
+							                ByVal user_name As String, _
                               ByVal rep_date As String, _
                               ByVal gen_time_bombs As Boolean) As Integer
 ```
@@ -58,13 +58,13 @@ ret_int = fccq.replicate_cr("10", "tony", "11/23/97 22:00:00", True)
  If ret_int = 0 Then
    replicate_objid = fccq.ret_objid
    replicate_id_num = fccq.ret_id_num
- End If  
+ End If
 ```
 
 **JavaScript:**
 ```
 var ret_int = fccq.replicate_cr("10", "tony", "11/23/97 22:00:00", true);
-  
+
  if (ret_int == 0) {
    var replicate_objid = fccq.ret_objid;
    var replicate_id_num = fccq.ret_id_num;

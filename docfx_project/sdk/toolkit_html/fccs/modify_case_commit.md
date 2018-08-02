@@ -12,7 +12,7 @@ modify_subcase_commit_list
 
 ```
 Public Function modify_case_commit( ByVal id_num As String, _
-                ByVal the_title As String, _
+        ByVal the_title As String, _
 				ByVal action_type As String, _                                 
 				ByVal commit_date As String, _
 				ByVal commit_objid As Long, _                                  
@@ -39,7 +39,7 @@ Public Function modify_case_commit( ByVal id_num As String, _
 
 ```
 Public Function modify_case_commit_list(  ByVal id_num As String, _
-		        ByVal the_title As String, _
+		    ByVal the_title As String, _
 				ByVal action_type As String, _                                 
 				ByVal commit_date As String, _
 				ByVal commit_objid As Long, _                                 
@@ -59,7 +59,7 @@ Public Function modify_case_commit_list(  ByVal id_num As String, _
 
 ```
 Public Function modify_subcase_commit(ByVal id_num As String, _
-                ByVal the_title As String, _
+        ByVal the_title As String, _
 				ByVal action_type As String, _                                 
 				ByVal commit_date As String, _
 				ByVal commit_objid As Long, _                                  
@@ -86,7 +86,7 @@ Public Function modify_subcase_commit(ByVal id_num As String, _
 
 ```
 Public Function modify_subcase_commit_list(ByVal id_num As String, _
-                ByVal the_title As String, _
+        ByVal the_title As String, _
 				ByVal action_type As String, _                                 
 				ByVal commit_date As String, _
 				ByVal commit_objid As Long, _                                  

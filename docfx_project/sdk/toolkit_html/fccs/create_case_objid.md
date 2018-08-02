@@ -17,7 +17,7 @@ Public Function create_case_objid(ByVal site_id As String, _
                 ByVal cr_date As String, ByVal phone_end_date As String, _
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
                 ByVal contact_objid As Integer, ByVal site_objid As Integer,_
-                ByVal ml_objid As Integer, ByVal contract_objid As Integer, 				ByVal addr_objid As Integer,_
+                ByVal ml_objid As Integer, ByVal contract_objid As Integer, 				          ByVal addr_objid As Integer,_
                 ByVal int_fld1 As String, ByVal int_val1 As Long, _
                 ByVal int_fld2 As String, ByVal int_val2 As Long, _
                 Byval str_fld1 As String, ByVal str_val1 As String, _
@@ -38,7 +38,7 @@ Public Function create_case_objid_list(ByVal site_id As String, _
                 ByVal cr_date As String, ByVal phone_end_date As String, _
                 ByVal user_name As String, ByVal gen_time_bombs As Boolean, _
                 ByVal contact_objid As Integer, ByVal site_objid As Integer,_
-                ByVal ml_objid As Integer, ByVal contract_objid As Integer, 				ByVal addr_objid As Integer,_
+                ByVal ml_objid As Integer, ByVal contract_objid As Integer, 				          ByVal addr_objid As Integer,_
                 Optional fld_list As Variant, Optional type_list As Variant, _
                 Optional val_list As Variant) As Integer
 ```
@@ -116,36 +116,36 @@ If successful, these APIs return both the _objid_ and the _id_number_ of the new
 **JavaScript Example**
 
 Create a new case, specifying the contact and site objid.
-  
-var site_id = '';  
-var first = '';  
-var last = '';  
-var phone = '';  
-var part_num = '';  
-var mod_level = '';  
-var domain = '';  
-var serial_no = '';  
-var sp_objid = 0;  
-var contract_id = '';  
-var title = 'Something interesting goes here';  
-var case_type = '';  
-var priority = '';  
-var severity = '';  
-var status = '';  
-var phone_log = '';  
-var queue = '';  
-var create_date = '';  
-var phone_end_date = '';  
-var user_name = '';  
-var gen_time_bombs = true;  
-var contact_objid = 268435499;  
-var site_objid = 269657432;  
-var ml_objid = 0;  
-var contract_objid = 0;  
-var addr_objid = 0;  
-  
-var ret_int = fccs.create_case_objid_list(first,last,phone,sp_objid,title,  
-case_type,priority,severity,status,phone_log,  
-queue,create_date,phone_end_date,user_name,gen_time_bombs,  
-contact_objid,site_objid,ml_objid,contract_objid,addr_objid,  
+
+var site_id = '';
+var first = '';
+var last = '';
+var phone = '';
+var part_num = '';
+var mod_level = '';
+var domain = '';
+var serial_no = '';
+var sp_objid = 0;
+var contract_id = '';
+var title = 'Something interesting goes here';
+var case_type = '';
+var priority = '';
+var severity = '';
+var status = '';
+var phone_log = '';
+var queue = '';
+var create_date = '';
+var phone_end_date = '';
+var user_name = '';
+var gen_time_bombs = true;
+var contact_objid = 268435499;
+var site_objid = 269657432;
+var ml_objid = 0;
+var contract_objid = 0;
+var addr_objid = 0;
+
+var ret_int = fccs.create_case_objid_list(first,last,phone,sp_objid,title,
+case_type,priority,severity,status,phone_log,
+queue,create_date,phone_end_date,user_name,gen_time_bombs,
+contact_objid,site_objid,ml_objid,contract_objid,addr_objid,
 fld_list,type_list,val_list);

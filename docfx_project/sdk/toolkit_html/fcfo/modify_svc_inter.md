@@ -3,16 +3,15 @@ modify_svc_inter
 
 ```
 Public Function modify_svc_inter(ByVal appt_objid As Long, _
-                  ByVal desc As String, ByVal start_time As String, _
-                  ByVal end_time As String, ByVal duration As Long, _
-                  ByVal svc_class As String, ByVal svc_type As String, _
-                  ByVal user_name As String, ByVal creation_time As String) _
-      As Integer
+          ByVal desc As String, ByVal start_time As String, _
+          ByVal end_time As String, ByVal duration As Long, _
+          ByVal svc_class As String, ByVal svc_type As String, _
+          ByVal user_name As String, ByVal creation_time As String) As Integer
 ```
 
 #### Description
 
-This API modifies an existing service interruption (appointment) record in the Clarify database. You must pass in a valid appointment objid (which is returned by the _add_svc_inter_ APIs). The user can specify a description and can append to a description by using  "+" as the first character of the text to add to the original.   You can specify the start/end time either with both times or with one time and a duration but at least 2 of the 3 parameters must be specified. To use the original appointment time, don't specify the start_time or end_time. The duration is specified in seconds.  You can specify a "-1" in the svc_class,  svc_type, and this will leave the original data in the appointment record.
+This API modifies an existing service interruption (appointment) record in the Clarify database. You must pass in a valid appointment objid (which is returned by the _add_svc_inter_ APIs). The user can specify a description and can append to a description by using "+" as the first character of the text to add to the original. You can specify the start/end time either with both times or with one time and a duration but at least 2 of the 3 parameters must be specified. To use the original appointment time, don't specify the start_time or end_time. The duration is specified in seconds. You can specify a "-1" in the svc_class, svc_type, and this will leave the original data in the appointment record.
 
 The appointment type and subtype are optional code list values that may be specified. The user performing the logging may be specified as can the creation time. If you do not specify a value for one of the arguments, the value in the existing record is not updated.
 

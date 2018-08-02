@@ -6,8 +6,8 @@ Public Function assign_case(ByVal case_id As String, _
                           ByVal new_user As String, _
                           ByVal wipbin_name As String, _
                           ByVal assign_date As String, _
-				          ByVal user_name As String, _
-				          ByVal gen_time_bombs As Boolean) As Integer
+				                  ByVal user_name As String, _
+				                  ByVal gen_time_bombs As Boolean) As Integer
 ```
 
 #### Description

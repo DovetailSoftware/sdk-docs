@@ -3,8 +3,8 @@ delete_expense_log
 
 ```
 Public Function delete_expense_log(ByVal expense_log_objid As Long, _
-			ByVal last_modified As String, _
-			ByVal user_name As String) As Integer
+                                   ByVal last_modified As String, _
+                                   ByVal user_name As String) As Integer
 ```
 
 #### Description

@@ -2,7 +2,8 @@ move_pr
 -------
 
 ```
-Public Function move_pr(ByVal pr_id As String, ByVal new_wipbin_name As String) As Integer
+Public Function move_pr(ByVal pr_id As String, _
+                        ByVal new_wipbin_name As String) As Integer
 ```
 
 #### Description

@@ -3,9 +3,9 @@ forward_cr
 
 ```
 Public Function forward_cr(ByVal cr_id As String, _
-						   ByVal new_queue As String, _
+						               ByVal new_queue As String, _
                            ByVal forward_date As String, _
-						   ByVal notes As String, _
+						               ByVal notes As String, _
                            ByVal user_name As String, _
                            ByVal gen_time_bombs As Boolean) As Integer
 ```
@@ -67,5 +67,5 @@ ret_int = fccq.forward_cr("2", "Software", "11/23/97 22:00:00", _
 **JavaScript:**
 ```
 var ret_int = fccq.forward_cr("2", "Software", "11/23/97 22:00:00",
-	  "Some notes", "ann", false); 
+	  "Some notes", "ann", false);
 ```

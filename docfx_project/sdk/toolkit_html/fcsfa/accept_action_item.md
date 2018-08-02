@@ -12,7 +12,7 @@ Public Function accept_action_item(ByVal the_id As String, _
                                    ByVal accept_date As String, _
                                    ByVal wipbin As String, _
                                    ByVal user_name As String, _
-                 				   ByVal gen_time_bombs As Boolean) As Integer
+                                   ByVal gen_time_bombs As Boolean) As Integer
 ```
 
 ```
@@ -20,7 +20,7 @@ Public Function accept_opportunity(ByVal the_id As String, _
                                    ByVal accept_date As String, _
                                    ByVal wipbin As String, _
                                    ByVal user_name As String, _
-					               ByVal gen_time_bombs As Boolean) As Integer
+                                   ByVal gen_time_bombs As Boolean) As Integer
 ```
 
 ```
@@ -28,7 +28,7 @@ Public Function accept_quote(ByVal the_id As String, _
                              ByVal accept_date As String, _
                              ByVal wipbin As String, _
                              ByVal user_name As String, _
-				             ByVal gen_time_bombs As Boolean) As Integer
+                             ByVal gen_time_bombs As Boolean) As Integer
 ```
 
 #### Description
@@ -75,14 +75,12 @@ Accept quote number '2' at 10PM on November 23rd of 1997 by marty, and place it 
 
 **JavaScript:**
 ```
-var ret_int = fcsfa.accept_quote("2", "11/23/97 22:00:00", "Urgent",
-                                    "marty", false);
+var ret_int = fcsfa.accept_quote("2", "11/23/97 22:00:00", "Urgent", "marty", false);
 ```
 
 **Visual Basic:**
 ```
 Dim ret_int As Integer
 
-ret_int = fcsfa.accept_quote("2", "11/23/97 22:00:00", "Urgent", _
-                             "marty", False)
+ret_int = fcsfa.accept_quote("2", "11/23/97 22:00:00", "Urgent", "marty", False)
 ```

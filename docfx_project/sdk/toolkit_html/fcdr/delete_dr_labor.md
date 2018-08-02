@@ -3,7 +3,7 @@ _delete_dr_labor_
 
 ```
 Public Function delete_dr_labor(ByVal time_log_objid As Long,
-								ByVal creation_time As String) As Integer
+								                ByVal creation_time As String) As Integer
 ```
 
 #### Description

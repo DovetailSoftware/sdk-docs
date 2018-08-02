@@ -13,7 +13,10 @@ This is a property on the base FCINTER class object. By default, it is set to Fa
 
 Create a duplicate contact to one already in the database.
 
-  allow_duplicate_contact = True
+**Visual Basic:**
+```
+allow_duplicate_contact = True
 
-  ret_int = fc_inter.create_contact("Joe", "Blow", "1234", "1", "", "", _
-        "joe@blow.com", "", "", "", "", "", 0, "", 0, "", "", "", "", "", "")
+ret_int = fc_inter.create_contact("Joe", "Blow", "1234", "1", "", "", _
+      "joe@blow.com", "", "", "", "", "", 0, "", 0, "", "", "", "", "", "")
+```

@@ -9,24 +9,24 @@ Public Function log_cr_email(ByVal cr_id As String, _
                           ByVal log_date As String, ByVal message As String, _
                           ByVal recipient As String, ByVal cc_list As String, _
                           ByVal user_name As String, _
-						  ByVal gen_time_bombs As Boolean, _
+						              ByVal gen_time_bombs As Boolean, _
                           ByVal send_email As Boolean, _
                           ByVal int_fld1 As String, ByVal int_val1 As Long, _
                           ByVal int_fld2 As String, ByVal int_val2 As Long, _
                           ByVal str_fld1 As String, ByVal str_val1 As String, _
                           ByVal str_fld2 As String, ByVal str_val2 As String, _
                           ByVal date_fld1 As String, _
-						  ByVal date_val1 As String) As Integer
+						              ByVal date_val1 As String) As Integer
 ```
 
 ```
 Public Function log_cr_email_list(ByVal cr_id As String, _
                                   ByVal log_date As String, _
-								  ByVal message As String, _
+								                  ByVal message As String, _
                                   ByVal recipient As String, _
-								  ByVal cc_list As String, _
+								                  ByVal cc_list As String, _
                                   ByVal user_name As String, _
-								  ByVal gen_time_bombs As Boolean, _
+								                  ByVal gen_time_bombs As Boolean, _
                                   ByVal send_email As Boolean, _
                                   Optional fld_list As Variant, _
                                   Optional type_list As Variant, _
@@ -74,12 +74,12 @@ Create an email_log for CR number '2'. Set the message for the log. Set the reci
 **Field version 1:**
 
 **Visual Basic:**
-``` 
+```
 Dim ret_int As Integer
 Dim log_objid As Long
 
 ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
-	"This is an outgoing email", _ 
+	"This is an outgoing email", _
 	"joe@company.com", _
 	"mary@company.com,sally@company.com", _
     "marty", True, True, _
@@ -87,7 +87,7 @@ ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
 
  If ret_int = 0 Then
    log_objid = fccq.ret_objid
- End If 
+ End If
 ```
 
 **JavaScript:**
@@ -98,19 +98,19 @@ var ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
 	"mary@company.com,sally@company.com", _
     "marty", True, True, _ 
     "", 0, "", 0, "", "", "", "", "", "");
- 
+
  if (ret_int == 0) { var log_objid = fccq.ret_objid; }
 ```
 
 **Field version 2:**
 
 **Visual Basic:**
-``` 
+```
 Dim ret_int As Integer
 Dim log_objid As Long
 
 ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
-	"This is an outgoing email", _ 
+	"This is an outgoing email", _
 	"joe@company.com", _
 	"mary@company.com,sally@company.com", _
     "marty", True, True, _
@@ -120,7 +120,7 @@ ret_int = fccq.log_cr_email("2", "11/23/97 22:00:00",_
 
  If ret_int = 0 Then
    log_objid = fccq.ret_objid
- End If 
+ End If
 ```
 
 **JavaScript:**
@@ -172,7 +172,7 @@ ret_int = fccq.log_cr_email_list("2", "11/23/97 22:00:00",_
 
  If ret_int = 0 Then
    log_objid = fccq.ret_objid
- End If 
+ End If
 ```
 
 **JavaScript:**
@@ -205,4 +205,4 @@ var ret_int = fccq.log_cr_email_list("2", "11/23/97 22:00:00",_
     fld_list, type_list, val_list);
 
  if (ret_int == 0) { var log_objid = fccq.ret_objid; }
-``` 
+```

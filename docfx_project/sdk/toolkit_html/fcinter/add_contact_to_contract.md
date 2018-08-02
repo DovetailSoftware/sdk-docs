@@ -45,18 +45,16 @@ Add John Smith at (512)123-4567 from site "2" to contract "AMD 1"
 Dim ret_int As Integer
 Dim contact_objid As Long
 
-ret_int = fcinter.add_contact_to_contract("AMD 1", "John", _
-                                          "Smith", "5121234567", "2")
+ret_int = fcinter.add_contact_to_contract("AMD 1", "John", "Smith", "5121234567", "2")
 
- If ret_int = 0 Then
-   contact_objid = fcinter.ret_objid
- End If
+If ret_int = 0 Then
+  contact_objid = fcinter.ret_objid
+End If
 ```
 
 **JavaScript:**
 ```
-var ret_int = fcinter.add_contact_to_contract("AMD 1", "John",
-                                       "Smith", "5121234567", "2");
+var ret_int = fcinter.add_contact_to_contract("AMD 1", "John", "Smith", "5121234567", "2");
 
- if (ret_int == 0){ var contact_objid = fcinter.ret_objid; }
+if (ret_int == 0){ var contact_objid = fcinter.ret_objid; }
 ```

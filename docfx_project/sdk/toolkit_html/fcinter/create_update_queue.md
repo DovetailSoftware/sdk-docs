@@ -61,7 +61,7 @@ ret_int = fcinter.create_update_queue("Urgent", false, "A new queue", _
 
 If ret_int = 0 Then
   queue_objid = fcinter.ret_objid
-End If  
+End If
 ```
 
 **JavaScript:**
@@ -79,12 +79,11 @@ Update the previously created queue. Change the name and set it so that part req
 Dim ret_int As Integer
 
 ret_int = fcinter.create_update_queue("Urgent", false, "CLEAR", _
-                                      -1, -1, -1, -1, 0, -1, -1, -1,_
-                                      -1, -1, "", "Really Urgent")
+          -1, -1, -1, -1, 0, -1, -1, -1, -1, -1, "", "Really Urgent")
 ```
 
 **JavaScript:**
 ```
 var ret_int = fcinter.create_update_queue("Urgent", false, "CLEAR",
-		  -1, -1, -1, -1, 0, -1, -1, -1, -1, -1, "", "Really Urgent");
+              -1, -1, -1, -1, 0, -1, -1, -1, -1, -1, "", "Really Urgent");
 ```

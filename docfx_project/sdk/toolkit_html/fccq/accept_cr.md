@@ -5,8 +5,8 @@ accept_cr
 Public Function accept_cr(ByVal cr_id As String, _
                           ByVal accept_date As String, _
                           ByVal wipbin_name As String, _
-        ByVal user_name As String, _
-        ByVal gen_time_bombs As Boolean) As Integer
+                          ByVal user_name As String, _
+                          ByVal gen_time_bombs As Boolean) As Integer
 ```
 
 #### Description
@@ -61,5 +61,5 @@ ret_int = fccq.accept_cr("2", "11/23/97 22:00:00", "Urgent", "marty", False)
 
 **JavaScript:**
 ```
-var ret_int = fccq.accept_cr("2", "11/23/97 22:00:00", "Urgent", "marty", false);  
+var ret_int = fccq.accept_cr("2", "11/23/97 22:00:00", "Urgent", "marty", false);
 ```

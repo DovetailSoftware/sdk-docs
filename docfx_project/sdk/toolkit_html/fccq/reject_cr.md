@@ -3,9 +3,9 @@ reject_cr
 
 ```
 Public Function reject_cr(ByVal cr_id As String, _
-  						ByVal reject_date As String, _
+  						          ByVal reject_date As String, _
                         ByVal wipbin As String, _
-						ByVal notes As String, _
+						            ByVal notes As String, _
                         ByVal user_name As String, _
                         ByVal gen_time_bombs As Boolean) As Integer
 ```

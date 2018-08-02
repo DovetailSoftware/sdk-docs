@@ -9,7 +9,7 @@ Public Function create_time_log(ByVal onsite_objid As Long, _
       	ByVal start_time As String, ByVal duration As Long, _
         ByVal billable As Long, ByVal bill_to As String, _
       	ByVal wrk_center As String, _
-		ByVal resolution As String) As Integer
+        ByVal resolution As String) As Integer
 ```
 
 #### Description

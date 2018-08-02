@@ -3,11 +3,11 @@ change_cr_status
 
 ```
 Public Function change_cr_status(ByVal cr_id As String, _
-   ByVal new_status As String, _
-   ByVal change_date As String, _
-   ByVal notes As String, _
-   ByVal user_name As String, _
-   ByVal gen_time_bombs As Boolean) As Integer
+                                 ByVal new_status As String, _
+                                 ByVal change_date As String, _
+                                 ByVal notes As String, _
+                                 ByVal user_name As String, _
+                                 ByVal gen_time_bombs As Boolean) As Integer
 ```
 
 #### Description

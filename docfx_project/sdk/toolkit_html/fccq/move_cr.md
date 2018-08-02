@@ -3,7 +3,7 @@ move_cr
 
 ```
 Public Function move_cr(ByVal cr_id As String, _
-						ByVal new_wipbin As String) As Integer
+						            ByVal new_wipbin As String) As Integer
 ```
 
 #### Description

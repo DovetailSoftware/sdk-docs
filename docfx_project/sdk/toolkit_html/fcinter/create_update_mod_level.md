@@ -56,20 +56,17 @@ Dim ret_int As Integer
 Dim mod_level As Long
 
 ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory", _
-                                          "Product", "2.4", "",_
-                                          "", "", _
-                                          "", "", false, "")
+                        "Product", "2.4", "", "", "", "", "", false, "")
 
  If ret_int = 0 Then
    mod_level_objid = fcinter.ret_objid
- End If  
+ End If
 ```
 
 **JavaScript:**
 ```
 var ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory",
-                                          "Product", "2.4", "",
-                                          "", "", "", "", false, "");
+                      "Product", "2.4", "", "", "", "", "", false, "");
 
  if (ret_int == 0){ var mod_level_objid = fcinter.ret_objid; }
 ```
@@ -81,17 +78,13 @@ Modify revision '2.4' for product 'Zipcode Reverse Directory'. It replaces revis
 Dim ret_int As Integer
 
 ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory", _
-                                          "Product", "2.4", _
-                                          "Zipcode Reverse Directory", _
-                                          "Product", "2.3",_
-                                          "1/23/98 8:00:00", _
-                                          "", false, "")
+                  "Product", "2.4", "Zipcode Reverse Directory", _
+                  "Product", "2.3", "1/23/98 8:00:00", "", false, "")
 ```
 
 **JavaScript:**
 ```
 var ret_int = fcinter.create_update_mod_level("Zipcode Reverse Directory",
-  "Product", "2.4", 
-  "Zipcode Reverse Directory", "Product", "2.3",
-  "1/23/98 8:00:00", "", false, "");
+                      "Product", "2.4", "Zipcode Reverse Directory",
+                      "Product", "2.3", "1/23/98 8:00:00", "", false, "");
 ```

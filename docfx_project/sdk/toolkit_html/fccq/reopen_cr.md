@@ -3,9 +3,9 @@ reopen_cr
 
 ```
 Public Function reopen_cr(ByVal cr_id As String, _
-						ByVal the_status As String, _
-						ByVal wipbin As String, _
-						ByVal user_name As String, _
+                        ByVal the_status As String, _
+                        ByVal wipbin As String, _
+                        ByVal user_name As String, _
                         ByVal reopen_date As String, _
                         ByVal gen_time_bombs As Boolean) As Integer
 ```

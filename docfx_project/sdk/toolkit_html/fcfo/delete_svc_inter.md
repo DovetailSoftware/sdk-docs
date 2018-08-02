@@ -3,8 +3,8 @@ delete_svc_inter
 
 ```
 Public Function delete_svc_inter(ByVal appt_objid As Long, _
-                ByVal user_name As String, _
-				ByVal creation_time As String) As Integer
+                                 ByVal user_name As String, _
+                                 ByVal creation_time As String) As Integer
 ```
 
 #### Description

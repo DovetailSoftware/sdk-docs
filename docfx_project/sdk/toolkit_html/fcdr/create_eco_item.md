@@ -2,8 +2,7 @@ _create_eco_item_
 -------------------
 
 ```
-Public Function create_eco_item( _
-                         ByVal focus_type As Long, _
+Public Function create_eco_item(ByVal focus_type As Long, _
                          ByVal active As Long, _
                          ByVal eco_hdr_code As String, _
                          ByVal apply_mod_level As Long, _

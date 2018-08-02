@@ -39,18 +39,16 @@ Add Jeanne to the account team for account "AN_CUST1" with a role of "Executive 
 Dim ret_int As Integer
 Dim emp_objid  As Long
 
-ret_int = fcinter.add_emp_to_bus_org("jeanne", "AN_CUST1", _
-                                     "Executive Sponsor")
+ret_int = fcinter.add_emp_to_bus_org("jeanne", "AN_CUST1", "Executive Sponsor")
 
- If ret_int = 0 Then
-   emp_objid = fcinter.ret_objid
- End If
+If ret_int = 0 Then
+  emp_objid = fcinter.ret_objid
+End If
 ```
 
 **JavaScript:**
 ```
-var ret_int = fcinter.add_emp_to_bus_org("jeanne", "AN_CUST1",
-                                     "Executive Sponsor");
+var ret_int = fcinter.add_emp_to_bus_org("jeanne", "AN_CUST1", "Executive Sponsor");
 
- if (ret_int == 0){ var emp_objid = fcinter.ret_objid; }
+if (ret_int == 0){ var emp_objid = fcinter.ret_objid; }
 ```

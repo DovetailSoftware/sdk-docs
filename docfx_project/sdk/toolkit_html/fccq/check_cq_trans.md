@@ -3,9 +3,9 @@ check_cq_trans
 
 ```
 Public Function check_cq_trans(ByVal old_cond As String, _
-       						ByVal old_stat As String, _
+       						          ByVal old_stat As String, _
                             ByVal new_cond As String, _
-					        ByVal new_stat As String, _
+					                  ByVal new_stat As String, _
                             ByVal user_name As String) As Integer
 ```
 
@@ -47,5 +47,5 @@ ret_int = fccq.check_cq_trans("Open", "In research", "Fixed", "Fixed", "sam")
 
 **JavaScript:**
 ```
-var ret_int = fccq.check_cq_trans("Open", "In research", "Fixed", "Fixed", "sam");  
+var ret_int = fccq.check_cq_trans("Open", "In research", "Fixed", "Fixed", "sam");
 ```

@@ -6,7 +6,7 @@ modify_cr_list
 
 ```
 Public Function modify_cr(ByVal cr_num As String, _
-                        ByVal part_num As String, _
+                ByVal part_num As String, _
 				        ByVal mod_level As String, _
 				        ByVal domain As String, _
 				        ByVal the_title As String, _
@@ -22,41 +22,41 @@ Public Function modify_cr(ByVal cr_num As String, _
 				        ByVal fixed_in As String, _
 				        ByVal user_name As String, _
 				        ByVal cr_date As String, _
-                        ByVal gen_time_bombs As Boolean, _
+                ByVal gen_time_bombs As Boolean, _
 				        ByVal int_fld1 As String, _
 				        ByVal int_val1 As Long, _
 				        ByVal int_fld2 As String, _
 				        ByVal int_val2 As Long, _
-                        ByVal str_fld1 As String, _
-                        ByVal str_val1 As String, _
-                        ByVal str_fld2 As String, _
-                        ByVal str_val2 As String, _
-                        ByVal date_fld1 As String, _
-                        ByVal date_val1 As String) As Integer
+                ByVal str_fld1 As String, _
+                ByVal str_val1 As String, _
+                ByVal str_fld2 As String, _
+                ByVal str_val2 As String, _
+                ByVal date_fld1 As String, _
+                ByVal date_val1 As String) As Integer
 ```
 
 ```
 Public Function modify_cr_list(ByVal cr_num As String, _
-                               ByVal part_num As String, _
-                               ByVal mod_level As String, _
-                               ByVal domain As String, _
+                   ByVal part_num As String, _
+                   ByVal mod_level As String, _
+                   ByVal domain As String, _
 						       ByVal the_title As String, _
 						       ByVal cr_type As String, _
 						       ByVal priority As String, _
 						       ByVal frequency As String, _
 						       ByVal found_on As String, _
 						       ByVal op_sys As String, _
-                               ByVal memory As String, _
-                               ByVal cr_class As String, _
-                               ByVal intro_phase As String, _
-                               ByVal test_class As String, _
-                               ByVal fixed_in As String, _
-                               ByVal user_name As String, _
-                               ByVal cr_date As String, _
-                               ByVal gen_time_bombs As Boolean, _
-                               Optional fld_list As Variant, _
-       						   Optional type_list As Variant, _
-                               Optional val_list As Variant) As Integer
+                   ByVal memory As String, _
+                   ByVal cr_class As String, _
+                   ByVal intro_phase As String, _
+                   ByVal test_class As String, _
+                   ByVal fixed_in As String, _
+                   ByVal user_name As String, _
+                   ByVal cr_date As String, _
+                   ByVal gen_time_bombs As Boolean, _
+                   Optional fld_list As Variant, _
+       						 Optional type_list As Variant, _
+                   Optional val_list As Variant) As Integer
 ```
 
 #### Description
@@ -119,7 +119,7 @@ Modify CR '19'. Change the priority and generate a time bomb (for business rule 
 **Field version 1:**
 
 **Visual Basic:**
-```  
+```
 Dim ret_int As Integer
 
 ret_int = fccq.modify_cr("19", "", "", "", "", "", "Low", _
@@ -134,14 +134,14 @@ ret_int = fccq.modify_cr("19", "", "", "", "", "", "Low", _
 var ret_int = fccq.modify_cr("19", "", "", "", "", "", "Low",
    "", "", "", "", "", "",
    "", "", "", "",
-   true, "", 0, "", 0, "", "",  
+   true, "", 0, "", 0, "", "",
    "", "", "", "");
 ```
 
 **Field version 2:**
 
 **Visual Basic:**
-```  
+```
 Dim ret_int As Integer
 
 ret_int = fccq.modify_cr("19", "", "", "", "", "", "Low", _
@@ -149,7 +149,7 @@ ret_int = fccq.modify_cr("19", "", "", "", "", "", "Low", _
                        "", "", "", "", _
 					   True, "x_create_1", 1, "x_create_2", 2,
 					   "x_summary2", "More text", "", "", _
-					   "x_other_date", "1/1/99")  
+					   "x_other_date", "1/1/99")
 ```
 
 **JavaScript:**
@@ -158,14 +158,14 @@ var ret_int = fccq.modify_cr("19", "", "", "", "", "", "Low",
    "", "", "", "", "", "",
    "", "", "", "",
    true, "x_create_1", 1, "x_create_2", 2,
-   "x_summary2", "More text", "", "",  
+   "x_summary2", "More text", "", "",
    "x_other_date", "1/1/99");
 ```
 
 **List version:**
 
 **Visual Basic:**
-```  
+```
 Dim ret_int As Integer
 Dim fld_list    As New FCFLCompat.FCList
 Dim type_list   As New FCFLCompat.FCList

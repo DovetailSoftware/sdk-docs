@@ -14,7 +14,7 @@ Public Function log_case_email(ByVal case_id As String, _
                     ByVal cmit_due As String, ByVal cmit_prior As Long, _
                     ByVal cmit_to As Boolean, ByVal cmit_action_type As String, _
                     ByVal cmit_contact_objid As Long, _
-  					ByVal gen_time_bombs As Boolean, _
+  					        ByVal gen_time_bombs As Boolean, _
                     ByVal send_email As Boolean, _
                     ByVal int_fld1 As String, ByVal int_val1 As Long, _
                     ByVal int_fld2 As String, ByVal int_val2 As Long, _
@@ -34,7 +34,7 @@ Public Function log_case_email_list(ByVal case_id As String, _
                     ByVal cmit_due As String, ByVal cmit_prior As Long, _
                     ByVal cmit_to As Boolean, ByVal cmit_action_type As String, _
                     ByVal cmit_contact_objid As Long, _
-  					ByVal gen_time_bombs As Boolean, _
+  					        ByVal gen_time_bombs As Boolean, _
                     ByVal send_email As Boolean, Optional fld_list As Variant, _
                     Optional type_list As Variant, _
                     Optional val_list As Variant) As Integer

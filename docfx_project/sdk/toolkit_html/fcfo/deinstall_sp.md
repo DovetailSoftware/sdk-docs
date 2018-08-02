@@ -3,9 +3,9 @@ deinstall_sp
 
 ```
 Public Function deinstall_sp(ByVal sp_objid As Long, _
-			ByVal user_name As String, _
-			ByVal deinstall_date As String, _
-		    ByVal use_remove As Boolean) As Integer
+                      			 ByVal user_name As String, _
+                      			 ByVal deinstall_date As String, _
+                      		   ByVal use_remove As Boolean) As Integer
 ```
 
 #### Description

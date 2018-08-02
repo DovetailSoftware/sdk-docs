@@ -19,16 +19,16 @@ Public Function modify_sp(ByVal sp_objid As Long, _
                         ByVal user_name As String, _
                         ByVal mod_level As String, _
                         ByVal add_activity As Boolean, _
-				        ByVal int_fld1 As String, _
-				        ByVal int_val1 As Long, _
-				        ByVal int_fld2 As String, _
-				        ByVal int_val2 As Long, _
-				        ByVal str_fld1 As String, _
-				        ByVal str_val1 As String, _
-				        ByVal str_fld2 As String, _
-				        ByVal str_val2 As String, _
-				        ByVal date_fld1 As String, _
-				        ByVal date_val1 As Long) As Integer
+                        ByVal int_fld1 As String, _
+                        ByVal int_val1 As Long, _
+                        ByVal int_fld2 As String, _
+                        ByVal int_val2 As Long, _
+                        ByVal str_fld1 As String, _
+                        ByVal str_val1 As String, _
+                        ByVal str_fld2 As String, _
+                        ByVal str_val2 As String, _
+                        ByVal date_fld1 As String, _
+                        ByVal date_val1 As Long) As Integer
 ```
 
 ```
@@ -106,14 +106,13 @@ Modify site_part 268435460. Change the serial number to "1234.56", and generate 
 Dim ret_int    As Integer
 
 ret_int = fcinter.modify_sp(268435460, "", "1234.56", "", _
-              "", "", "", 1, "", _
-              "", "", "", "", true)
+                    "", "", "", 1, "", "", "", "", "", true)
 ```
 
 **JavaScript:**
 ```
 var ret_int = fcinter.modify_sp(268435460, "", "1234.56", "",
-  "", "", "", 1, "", "", "", "", "", true);
+                    "", "", "", 1, "", "", "", "", "", true);
 ```
 
 Joe Shumaker renewed the service coverage for site_part 268435444. Update the service end date to reflect the new coverage. Generate the associated activity logs.
@@ -123,11 +122,11 @@ Joe Shumaker renewed the service coverage for site_part 268435444. Update the se
 Dim ret_int As Integer
 
 ret_int = fcinter.modify_sp(268435444, "", "", "", "", "", "", 1, "", _
-             "", "07/12/2000", "Joe Shumaker", "", true)
+                            "", "07/12/2000", "Joe Shumaker", "", true)
 ```
 
 **JavaScript:**
 ```
 var ret_int = fcinter.modify_sp(268435444, "", "", "", "", "", "", 1, "",
-             "", "07/12/2000", "Joe Shumaker", "", true);
+                                "", "07/12/2000", "Joe Shumaker", "", true);
 ```

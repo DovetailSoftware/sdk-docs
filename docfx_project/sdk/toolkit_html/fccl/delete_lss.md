@@ -2,7 +2,8 @@ delete_lss
 ----------
 
 ```
-Public Function delete_lss(ByVal site_id As String, ByVal loc_name As String) As Integer
+Public Function delete_lss(ByVal site_id As String, _
+                           ByVal loc_name As String) As Integer
 ```
 
 #### Description

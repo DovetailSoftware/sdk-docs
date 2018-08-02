@@ -26,6 +26,9 @@ This API is used to delete a site_part in Clarify, and then unrelate the site_pa
 
 Delete a site_part with an objid of 268435457.
 
-   Dim ret_int As Integer
+**Visual Basic:**
+```
+Dim ret_int As Integer
 
-   ret_int = fc_cc.delete_sp(268435457)
+ret_int = fc_cc.delete_sp(268435457)
+```

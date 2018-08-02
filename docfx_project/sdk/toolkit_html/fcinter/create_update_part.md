@@ -49,7 +49,7 @@ Public Function create_update_part_list(ByVal part_num As String, _
                                         ByVal class As String, _
                                         Optional fld_list As Variant, _
                                         Optional type_list As Variant,
-										Optional val_list As Variant), _
+                                        Optional val_list As Variant), _
                                         As Integer
 ```
 
@@ -107,31 +107,23 @@ Dim ret_int As Integer
 Dim part_objid As Long
 
 ret_int = fcinter.create_update_part("Attachments Anywhere", _
-                                     "Product", _
-                                     "Some notes", _
-                                     "A good product description",_
-                                     "Model 42", _
-                                     30, true, "Each", "Software", _
-                                     "Workflow Series", _
-                                     "Expendable", "Software", "2.3", _
-                                     "2x2x3", "", "", 0, _
-                                     "", 0, "", "", "", "","","")
+                  "Product", "Some notes", "A good product description",_
+                  "Model 42", 30, true, "Each", "Software", _
+                  "Workflow Series", "Expendable", "Software", "2.3", _
+                  "2x2x3", "", "", 0, "", 0, "", "", "", "","","")
 
- If ret_int = 0 Then
-   part_objid = fcinter.ret_objid
- End If  
+If ret_int = 0 Then
+  part_objid = fcinter.ret_objid
+End If
 ```
 
 **JavaScript:**
 ```
 var ret_int = fcinter.create_update_part("Attachments Anywhere",
-   "Product", "Some notes",
-   "A good product description", "Model 42",
-   30, true, "Each", "Software",
-   "Workflow Series",  
-   "Expendable", "Software", "2.3",
-   "2x2x3", "", "", 0,
-   "", 0, "", "", "", "","","");
+          "Product", "Some notes", "A good product description", "Model 42",
+          30, true, "Each", "Software", "Workflow Series",
+          "Expendable", "Software", "2.3", "2x2x3", "", "", 0,
+          "", 0, "", "", "", "","","");
 
- if (ret_int == 0){ var part_objid = fcinter.ret_objid; }
- ```
+if (ret_int == 0){ var part_objid = fcinter.ret_objid; }
+```
