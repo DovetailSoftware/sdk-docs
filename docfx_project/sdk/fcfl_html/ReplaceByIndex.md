@@ -39,21 +39,17 @@ This method replaces items in a list with the specified item.  Index can be an 
 This example shows items being replaced in list1, first by single index, and then by a list.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim list1 As New FCList
-
 Dim list2 As New FCList
 
 list1.AppendItem "a", "b", "c", "d", "e", "f", "g", "h", "i"
-
 list1.ReplaceByIndex 2, "x"
 
 ' list1 now contains "a", "b", "x", "d", "e", "f", "g", "h", "i"
 
 list2.AppendItem 3, 5, 0
-
 list1.ReplaceByIndex list2, "y"
 
 ' list1 now contains "y", "b", "x", "y", "e", "y", "g", "h", "i"
+```

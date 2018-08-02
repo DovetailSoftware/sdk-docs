@@ -32,9 +32,7 @@ One of the two strings detailed above.
 This example shows the loading of user versions for the current user. It then prints out the resource configuration's custom version (if any) for the "SITE" web form.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 fc_session.LoadUserVerions
-
 MsgBox fc_session.GetUserVersion("SITE")
+```

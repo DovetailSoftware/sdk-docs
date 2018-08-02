@@ -30,7 +30,7 @@ This method returns the hgbst_elm.objid value for the default element in a given
 
 **Returns**
 
-The hgbst_elm.objid value for the default element in a given level of a user-defined list.  If the list for this level is empty, -1 is returned. |
+The hgbst_elm.objid value for the default element in a given level of a user-defined list.  If the list for this level is empty, -1 is returned.
 
 **Error Codes**
 

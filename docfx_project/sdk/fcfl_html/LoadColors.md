@@ -34,9 +34,8 @@ This method is optional. You do not have to call on it in your **FCFL** programs
 This example shows the loading of colors for the current user. It then prints out the user's color for a specific purpose.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 fc_session.LoadColors fc_session.item("user.login_name")
 
 MsgBox fc_session.GetColor("Interaction History - Case")
+```

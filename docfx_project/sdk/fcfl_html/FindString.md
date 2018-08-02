@@ -28,7 +28,7 @@ The string_db table is cached in the FCApplication object, so this method does n
 
 **Returns**
 
-The retrieved string if one is found, else an empty string. |
+The retrieved string if one is found, else an empty string.
 
 **Error Codes**
 

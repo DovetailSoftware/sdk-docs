@@ -34,9 +34,7 @@ A boolean (true/false) that tells if the field is a valid field in the table.
 The example shows if "id_number" is a valid field in the case table.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Debug.Print "Is the field 'id_number' in the case table? " & _
-
       CStr(FCApp.is_it_a_field("case", "id_number"))
+```

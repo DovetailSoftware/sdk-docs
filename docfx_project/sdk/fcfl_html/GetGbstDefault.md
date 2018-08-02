@@ -1,4 +1,5 @@
-### GetGbstDefault or GetGbstLocalizedDefault
+_GetGbstDefault_ or _GetGbstLocalizedDefault_
+---------------------------------------------
 
 **Object and Type**
 

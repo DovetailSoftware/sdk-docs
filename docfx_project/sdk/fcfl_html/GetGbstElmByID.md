@@ -26,7 +26,7 @@ This method returns the string value for a given element in a given Application 
 
 **Returns**
 
-The string value of the element. |
+The string value of the element.
 
 **Example**
 
@@ -36,5 +36,5 @@ The following example retrieves the string for the priority of an already-found 
 ```
 var ElmObjid = CaseObj("respprty2gbst_elm");
 
-Response.Write("Priority is: " + FCApp.GetGbstElmByID("Response  Priority Code", ElmObjid));
+Response.Write("Priority is: " + FCApp.GetGbstElmByID("Response Priority Code", ElmObjid));
 ```

@@ -28,37 +28,25 @@ If there are no records in the generic object, the BOF flag will be set to True.
 The following example queries for all of the sites in the database. It then traverses to the contact roles for those sites, and on to the contacts for the contact roles. It uses MoveFirstAbsolute and MoveNextAbsolute to traverse through all of the contact roles (and contacts) with no regard to the site generic object.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim boSite As FCGeneric
-
 Dim boCRole As FCGeneric
-
 Dim boContact As FCGeneric
 
 Set boSite = fc_session.CreateGeneric("site")
 
 Set boCRole = fc_session.CreateGeneric
-
 boCRole.TraverseFromParent boSite, "site2contact_role"
-
 boCRole.AppendSort "contact_role2contact", "asc"
 
 Set boContact = fc_session.CreateGeneric
-
 boContact.TraverseFromParent boCRole, "contact_role2contact"
-
 boSite.Query
 
 boCRole.MoveFirstAbsolute
-
 While boCRole.EOF = False
-
   Debug.Print "Role: " & boCRole("role_name")
-
   Debug.Print "  Count of contacts: " & Trim$(str$(boContact.Count))
-
   boCRole.MoveNextAbsolute
-
 Wend
+```

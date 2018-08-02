@@ -28,7 +28,7 @@ When finished with the returned recordset, you should close the recordset using 
 
 **Returns**
 
-An ADO recordset containing the state_prov  records.
+An ADO recordset containing the state_prov records.
 
 **Error Codes**
 

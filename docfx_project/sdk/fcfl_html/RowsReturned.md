@@ -28,13 +28,9 @@ If a query does **not** exceed the limit (or if there is no limit), this propert
 The following example queries the case table with a _RowLimit_. If too many rows are returned, the number of rows that should have been returned is printed out.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Set case_rec = fc_session.CreateGeneric
-
   case_rec.SimpleQuery "case"
-
   case_rec.rowLimit = 100
 
   On Error GoTo too_many
@@ -48,9 +44,8 @@ The code in this example is written in Visual Basic.
   Exit Sub
 
 too_many:
-
   Err = 0
-
   MsgBox Err.Description
 
   Resume Next
+```

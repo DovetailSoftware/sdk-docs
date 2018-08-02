@@ -38,29 +38,30 @@ This API causes the specified case to be reopened. The date/time of the reopen, 
 
 #### Examples
 
- Reopen case number 'C154' by the current user at the current date/time. Place in the default WIPBin with the default status, and generate a time bomb.
+Reopen case number 'C154' by the current user at the current date/time. Place in the default WIPBin with the default status, and generate a time bomb.
 
-**JavaScript: **
-
+**JavaScript:**
+```
 var ret_int = fccs.reopen_case("C154", "", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.reopen_case("C154", "", "", "", "", True)
+```
 
- Reopen case number '2' at 10PM on November 23rd of 1997 by dave. Place in dave's WIPBin 'Urgent', with status 'User Error'. Don't generate a time bomb.
+Reopen case number '2' at 10PM on November 23rd of 1997 by dave. Place in dave's WIPBin 'Urgent', with status 'User Error'. Don't generate a time bomb.
 
-**JavaScript: **
-
-var ret_int = fccs.reopen_case("2", "Urgent", "User Error",
-
-                               "11/23/97 22:00:00", "dave", true);
+**JavaScript:**
+```
+var ret_int = fccs.reopen_case("2", "Urgent", "User Error", "11/23/97 22:00:00", "dave", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-ret_int = fccs.reopen_case("2", "Urgent", "User Error", _
-                           "11/23/97 22:00:00", "dave", True)
+ret_int = fccs.reopen_case("2", "Urgent", "User Error", "11/23/97 22:00:00", "dave", True)
+```

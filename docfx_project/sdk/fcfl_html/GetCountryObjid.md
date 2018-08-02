@@ -25,7 +25,7 @@ This method returns an objid for a given country. If the country is not found, t
 
 **Returns**
 
-The objid of country. Zero, if the country is not found. |
+The objid of country. Zero, if the country is not found.
 
 **Example**
 

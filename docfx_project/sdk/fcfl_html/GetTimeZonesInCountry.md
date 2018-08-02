@@ -11,7 +11,7 @@ Type : Method
 
 ```
 Public Function GetTimeZonesInCountry(ByVal Country As String)
-  As ADODB.Recordset
+  As ADODB.Recordset
 ```
 
 #### Description
@@ -32,64 +32,46 @@ A recordset containing the list time_zone records for the given country.
 
 **Example**
 
+The following example populates a drop-down list of time zones for a particular country.
+
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
-The following example populates a drop-down list of time zones for a particular country
-
+```
 Sub FillTZ(TheCountry)
+  ' Clear the existing list
+  ddl_timezone.Clear
 
-                   ' Clear the existing list
+  'Get the List of TimeZones
+  'Fill into the drop-down list
+  'Save the First Time Zone for this country
+  'Close the recordset
 
-ddl_timezone.Clear
+  Dim TZList As ADODB.Recordset
+  Set TZList = FCApp.GetTimeZonesInCountry(TheCountry)
 
-                   'Get the List of TimeZones
+  FirstTZ = "" 
+  If Not TZList.EOF Then
+    FirstTZ = TZList("full_name")
+  End If
 
-                   'Fill into the drop-down list
+  While Not TZList.EOF
+    ddl_timezone.AddItem TZList("full_name")
+    TZList.MoveNext
+  Wend
 
-                   'Save the First Time Zone for this country
+  TZList.Close
+  TZList = Nothing
 
-                   'Close the recordset
+   'Get the Default Time Zone
+   'If the default TimeZone is in this country
+   'Then set this one to be selected
+   'Else, set the first time zone to be selected
 
-Dim TZList As ADODB.Recordset
+  defTZ = FCApp.GetDefaultTimeZone 
 
-Set TZList = FCApp.GetTimeZonesInCountry(TheCountry)
-
-FirstTZ = "" If Not TZList.EOF Then
-
-  FirstTZ = TZList("full_name")
-
-End If
-
-While Not TZList.EOF
-
-  ddl_timezone.AddItem TZList("full_name")
-
-  TZList.MoveNext
-
-Wend
-
-TZList.Close
-
-TZList = Nothing
-
-                          'Get the Default Time Zone
-
-                          'If the default TimeZone is in this country
-
-                          'Then set this one to be selected
-
-                          'Else, set the first time zone to be selected
-
-defTZ = FCApp.GetDefaultTimeZone If FCApp.IsTimeZoneInCountry(TheCountry, defTZ, True) Then
-
-  ddl_timezone.Text = defTZ
-
-Else
-
-  If FirstTZ <> "" Then ddl_timezone.Text = FirstTZ
-
-End If
-
+  If FCApp.IsTimeZoneInCountry(TheCountry, defTZ, True) Then
+    ddl_timezone.Text = defTZ
+  Else If FirstTZ <> "" Then 
+    ddl_timezone.Text = FirstTZ
+  End If
 End Sub
+```

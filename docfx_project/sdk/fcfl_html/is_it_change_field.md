@@ -34,9 +34,7 @@ A boolean (true/false) that tells if the field is a valid change field in the sp
 The example shows if  "title" is a valid change field for the case table.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Debug.Print "Is 'title' a valid change field in the 'case' table? " & _
-
             CStr(FCApp.is_it_change_field("case", "title"))
+```

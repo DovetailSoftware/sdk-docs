@@ -34,9 +34,7 @@ A boolean (true/false) that tells if the field is a valid integer field in the s
 The example shows if  "objid" is a valid integer field for the case table.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Debug.Print "Is 'objid' a valid integer field in the 'case' table? " _
-
           & CStr(FCApp.is_it_int_field("case", "objid"))
+```

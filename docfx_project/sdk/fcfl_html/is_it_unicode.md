@@ -35,8 +35,7 @@ The example shows if  "title" is a valid unicode string field for the case tabl
 
 **Visual Basic:**
 
-The code in this example is written in Visual Basic.
-
+```
 Debug.Print "Is 'title' a valid unicode string field in the 'case'" & _
-
             " table? " & CStr(FCApp.is_it_unicode("case", "title"))
+```

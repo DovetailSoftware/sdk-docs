@@ -34,21 +34,15 @@ A string that is the the next available ID number for a subcase of the case.
 The following example gets the next ID number for a subcase of a previously-found case.
 
 **VisualBasic:**
+```  
+Dim boCase As FCGeneric
+Dim sub_id As String
 
-The code in this example is written in Visual Basic.
+Set boCase = fc_session.CreateGeneric
+boCase.SimpleQuery "case"
+boCase.AppendFilter "id_number", "=", "44"
+boCase.Query
 
-  Dim boCase As FCGeneric
-
-  Dim sub_id As String
-
-  Set boCase = fc_session.CreateGeneric
-
-  boCase.SimpleQuery "case"
-
-  boCase.AppendFilter "id_number", "=", "44"
-
-  boCase.Query
-
-  sub_id = fc_session.GetNextSubcaseID(boCase("id_number"),
-
-                       boCase("case_state2condition"))
+sub_id = fc_session.GetNextSubcaseID(boCase("id_number"),
+boCase("case_state2condition"))
+```

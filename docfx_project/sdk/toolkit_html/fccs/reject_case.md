@@ -37,29 +37,30 @@ This API causes the specified case to be rejected from the queue it is in, and r
 
 #### Examples
 
- Reject case number 'C154' to the default WIPBin. The reject has no notes, is performed by the current user and is rejected at the current time. Generate a time bomb.
+Reject case number 'C154' to the default WIPBin. The reject has no notes, is performed by the current user and is rejected at the current time. Generate a time bomb.
 
-**JavaScript: **
-
+**JavaScript:**
+```
 var ret_int = fccs.reject_case("C154", "", "", "", "", true);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.reject_case("C154", "", "", "", "", True)
+```
 
- Reject case number '2' at 10PM on November 23rd of 1997 to WIPBin 'East'. Reject should be logged as performed by dave, with notes of 'Some notes'. Don't generate a time bomb.
+Reject case number '2' at 10PM on November 23rd of 1997 to WIPBin 'East'. Reject should be logged as performed by dave, with notes of 'Some notes'. Don't generate a time bomb.
 
-**JavaScript: **
-
-var ret_int = fccs.reject_case("2", "11/23/97 22:00:00", "East",
-
-                           "Some notes", "dave", false);
+**JavaScript:**
+```
+var ret_int = fccs.reject_case("2", "11/23/97 22:00:00", "East", "Some notes", "dave", false);
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
-ret_int = fccs.reject_case("2", "11/23/97 22:00:00", "East", _
-                           "Some notes", "dave", False)
+ret_int = fccs.reject_case("2", "11/23/97 22:00:00", "East", "Some notes", "dave", False)
+```

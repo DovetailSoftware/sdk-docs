@@ -38,17 +38,12 @@ Item located at that index location.
 This example shows setting up a list and getting the fourth item.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim list As New FCList
 
 list.AppendItem 1, 2, 3, 4, 5, 6, 7, 8, 9 If list.ItemByIndex(4) = 5 Then
-
   MsgBox "Item value is as expected"
-
 Else
-
   MsgBox "Item is not correct"
-
 End If
+```

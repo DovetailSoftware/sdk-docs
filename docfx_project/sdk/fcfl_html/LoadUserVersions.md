@@ -36,9 +36,8 @@ You should use the supplied GUI in _fcAdmin_ to modify web forms, web user versi
 This example shows the loading of user versions for the current user. It then prints out the user version of the "CASE" form.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 fc_session.LoadUserVersions
 
 MsgBox fc_session.GetUserVersion("CASE")
+```

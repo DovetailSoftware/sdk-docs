@@ -37,26 +37,20 @@ A boolean indicating if an element having a given rank exists in a given Applica
 
 #### Examples
 
-**Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
 The following example verifies that the given activity code is valid.
 
-act_code = 4700 If Not FCApp.RankIsInGbstLst("Activity Name", act_code) Then
+**Visual Basic:**
+```
+act_code = 4700 
 
+If Not FCApp.RankIsInGbstLst("Activity Name", act_code) Then
   'Cleanup, Error, & Exit
-
    CloseGenerics 10, obj_rec, old_stat_rec, user_rec, emp_rec, _
-
- parent_rec, stat_lst_rec, cond_rec, tb_rec, _
-
-act_rec, stat_rec
+		parent_rec, stat_lst_rec, cond_rec, tb_rec, _
+		act_rec, stat_rec
 
    Err.Raise -5, ObjectName, _
-
-         "Cannot find the activity string with rank = " & act_code
-
-    Exit Function
-
-  End If
+        "Cannot find the activity string with rank = " & act_code
+   Exit Function
+End If
+```

@@ -31,26 +31,30 @@ This API causes the specified case to be moved from one WIPBin to another WIPBin
 
 #### Examples
 
- Move case number 'C154' to the default WIPBin for the current owner.
+Move case number 'C154' to the default WIPBin for the current owner.
 
-**JavaScript: **
-
+**JavaScript:**
+```
 var ret_int = fccs.move_case("C154", "");
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.move_case("C154", "")
+```
 
- Move case number '2' to WIPBin 'Urgent'.
+Move case number '2' to WIPBin 'Urgent'.
 
-**JavaScript: **
-
+**JavaScript:**
+```
 var ret_int = fccs.move_case("2", "Urgent");
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.move_case("2", "Urgent")
+```

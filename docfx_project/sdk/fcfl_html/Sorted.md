@@ -38,17 +38,14 @@ This property tells if the list is in a sorted state.   A sorted state occurs 
 This example shows the testing of the _Sorted_ property before and after a _Sort_ call.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim list As New FCList
 
 MsgBox "list.Sorted = '" & list.Sorted & "'"
 
 ' sorted = False
-
 list.AppendItem "c", "f", "i", "a", "d", "g", "b", "e", "h"
-
 list.Sort
 
 MsgBox "list.Sorted = '" & list.Sorted & "'" ' sorted = True
+```

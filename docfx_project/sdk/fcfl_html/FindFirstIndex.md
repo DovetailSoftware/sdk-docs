@@ -35,22 +35,17 @@ This method returns the index of the first item in the list that is equal to ite
 This example shows setting up a list and checking where the item '4' is located.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
-Dim list As New FCList
-
-Dim where As Integer
 ```
+Dim list As New FCList
+Dim where As Integer
 
 list.AppendItem 1, 2, 3, 4, 5, 6, 4, 8, 9
 
-where = list.FindFirstIndex(4) If where >= 0 Then
+where = list.FindFirstIndex(4) 
 
+If where >= 0 Then
   MsgBox "Item is located at index " + CStr(where) ' should be at 3
-
 Else
-
   MsgBox "Item is not in list"
-
 End If
+```

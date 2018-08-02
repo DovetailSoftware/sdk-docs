@@ -34,7 +34,6 @@ A boolean (true/false) that tells if the field is a valid searchable field in th
 The example shows if  "title" is a valid searchable (string) field for the case table.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Debug.Print "Is 'title' a valid searchable field in the 'case' table? " & CStr(FCApp.is_it_searchable("case", "title"))
+```

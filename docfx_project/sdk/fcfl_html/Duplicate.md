@@ -44,39 +44,29 @@ The generic object that contains the duplicate row. The duplicate row will be se
 
 | Value | Meaning |
 |:--- |:--- |
-| 12017 | The generic object to duplicate has no rows in it, or the current row is set to |
-BOF or EOF
+| 12017 | The generic object to duplicate has no rows in it, or the current row is set to BOF or EOF |
 
 #### Examples
 
 This examples duplicates two rows from the time_bomb table and places them in the same (new) generic object.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim tb1 As FCGeneric
-
 Dim tb2 As FCGeneric
 
-                   ' Build the first generic object and query for
-
-                   '  some time_bombs
+' Build the first generic object and query for some time_bombs
 
 Set tb1 = fc_session.CreateGeneric
-
 tb1.SimpleQuery "time_bomb"
-
 tb1.Query
 
-                   ' Now copy the first one
-
-                   ' Move to the next row
-
-                   ' Copy the next one in the same generic
+' Now copy the first one
+' Move to the next row
+' Copy the next one in the same generic
 
 Set tb2 = tb1.Duplicate
 
 tb1.MoveNext
-
 Set tb2 = tb1.Duplicate(tb2)
+```

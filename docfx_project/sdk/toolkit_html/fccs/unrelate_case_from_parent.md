@@ -25,14 +25,16 @@ This API allows a case to be unrelated from the current parent case. The case mu
 
 #### Examples
 
- Unrelate case 5 from its parent case.
+Unrelate case 5 from its parent case.
 
-**JavaScript: **
-
+**JavaScript:**
+```
 var ret_int = fccs.unrelate_case_from_parent("5");
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.unrelate_case_from_parent("5")
+```

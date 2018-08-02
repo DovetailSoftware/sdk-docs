@@ -14,8 +14,7 @@ Public Function AddAttachment(ByVal attach_name As String, _
                               ByVal obj_type As String, _
                               ByVal obj_id As String, _
                               Optional ByVal obj_objid As Long = 0, _
-							  Optional ByVal attach_type As Long = 0)_
-                              As Integer
+                              Optional ByVal attach_type As Long = 0) As Integer
 ```
 
 #### Description
@@ -81,18 +80,17 @@ The following example adds an attachment to case '42'.
 
 **Visual Basic:**
 
-The code in this example is written in Visual Basic.
+```
+  Dim ret_int As Integer
 
-Dim ret_int As Integer
-
-ret_int = fc_session.AddAttachment("An attach", "c:\\tmp\\foo.doc", "case", "42")
+  ret_int = fc_session.AddAttachment("An attach", "c:\\tmp\\foo.doc", "case", "42")
+```
 
 The following example adds an attachment to a site_part with objid 268437142.
 
 **Visual Basic:**
+```
+  Dim ret_int As Integer
 
-The code in this example is written in Visual Basic.
-
-Dim ret_int As Integer
-
-ret_int = fc_session.AddAttachment("SP attach", "c:\\docs\\sp.ppt", "site_part", "", 268437142)
+  ret_int = fc_session.AddAttachment("SP attach", "c:\\docs\\sp.ppt", "site_part", "", 268437142)
+```

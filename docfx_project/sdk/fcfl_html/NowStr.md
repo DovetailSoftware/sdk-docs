@@ -22,19 +22,14 @@ This constant can be used in your programs if you wish to assign the current dat
 **Example**
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Const NowStr = -999
-
   Dim boCase As FCGeneric
 
   Set boCase = fc_session.CreateGeneric
-
   boCase.SimpleQuery "case"
-
   boCase.Query
 
   boCase("modify_stmp") = NowStr
-
   boCase.Update
+```

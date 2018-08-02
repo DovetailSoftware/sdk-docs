@@ -35,8 +35,7 @@ The example shows if  "title" is a valid string field for the case table.
 
 **Visual Basic:**
 
-The code in this example is written in Visual Basic.
-
+```
 Debug.Print "Is 'title' a valid string field in the 'case' table? " & _
-
             CStr(FCApp.is_it_string_fld("case", "title"))
+```

@@ -41,16 +41,13 @@ This examples sets up list1 in order and list2 as a list of indexes of items to 
 
 **Visual Basic:**
 
-The code in this example is written in Visual Basic.
-
+```
 Dim list1 As New FCList
-
 Dim list2 As New FCList
 
 list1.AppendItem 1, 2, 3, 4, 5, 6, 7, 8, 9
-
 list2.AppendItem 2, 3, 5
-
 list1.Up list2
 
 ' List 1 now contains 1, 2, 4, 5, 3, 7, 6, 8, 9
+```

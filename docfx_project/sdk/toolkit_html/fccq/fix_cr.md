@@ -80,147 +80,112 @@ Fix CR '2' using the default status and some notes. Gary performed the fix at 8A
 **Field version 1:**
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
-  
-   Dim fix_objid   As Long
+Dim fix_objid   As Long
 
 ret_int = fccq.fix_cr("2", "", "Notes about fix", "gary", _
        "3/29/99 08:00:00", True, "", 0, "", 0, _
        "", "", "", "", "", "")
 
- If ret_int = 0 Then
-  
+If ret_int = 0 Then
    fix_objid = fccq.ret_objid
+End If  
+```
 
-   End If  
-  
 **JavaScript**
-
+```
 var int = fccq.fix_cr("2", "", "Notes about fix", "gary",
-  
-   "3/29/99 08:00:00", tue, "", 0, "", 0,
-  
-       "", "", "", "", "", "");
+      "3/29/99 08:00:00", tue, "", 0, "", 0,
+      "", "", "", "", "", "");
 
- if (ret_int == 0) { var fix_objid = fccq.ret_objid; }
+if (ret_int == 0) { var fix_objid = fccq.ret_objid; }
+```
 
 **Field version 2:**
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
-  
-   Dim fix_objid   As Long
+Dim fix_objid   As Long
 
 ret_int = fccq.fix_cr("2", "", "Notes about fix", "gary", _
-       "3/29/99 08:00:00", True, "x_fix_1", 1, _
-       "x_fix_2", 2, _
-       "x_summary2", "More text", "", "", _
-       "x_other_Date", "1/1/99")
+       "3/29/99 08:00:00", True, "x_fix_1", 1, "x_fix_2", 2, _
+       "x_summary2", "More text", "", "", "x_other_Date", "1/1/99")
 
- If ret_int = 0 Then
-  
+If ret_int = 0 Then
    fix_objid = fccq.ret_objid
+End If  
+```
 
-   End If  
-  
 **JavaScript**
-
+```
 var ret_int = fccq.fix_cr("2", "", "Notes about fix", "gary",
-  
-   "3/29/99 08:00:00", true, "x_fix_1", 1,
-  
-   "x_fix_2", 2,
+      "3/29/99 08:00:00", true, "x_fix_1", 1,
+      "x_fix_2", 2, "x_summary2", "More text", "", "",
+      "x_other_Date", "1/1/99");
 
-       "x_summary2", "More text", "", "",  
-  
-       "x_other_Date", "1/1/99");
-
- if (ret_int == 0) { var fix_objid = fccq.ret_objid; }
+if (ret_int == 0) { var fix_objid = fccq.ret_objid; }
+```
 
 **List version:**
 
 **Visual Basic:**
-  
-   Dim fix_objid   As Long
-  
-   Dim ret_int As Integer
-
+```
+Dim fix_objid   As Long
+Dim ret_int As Integer
 Dim fld_list    As New FCFLCompat.FCList
-
 Dim type_list   As New FCFLCompat.FCList
-
 Dim val_list    As New FCFLCompat.FCList
 
 fld_list.AppendItem "x_fix_int1"
-
 type_list.AppendItem "Long"  
-  
 val_list.AppendItem Trim(Str$(1))
 
 fld_list.AppendItem "x_fix_int2"
-
 type_list.AppendItem "Long"
-
 val_list.AppendItem Trim(Str$(456))
 
 fld_list.AppendItem "x_summary2"
-
 type_list.AppendItem "String"
-
 val_list.AppendItem "More text"
 
 fld_list.AppendItem "x_other_date"
-
 type_list.AppendItem "Date"
-
 val_list.AppendItem "1/1/99"
 
 ret_int = fccq.fix_cr_list("2", "", "Notes about fix", "gary", _
-            "3/29/99 08:00:00", True, fld_list, _
-                           type_list, val_list)
+          "3/29/99 08:00:00", True, fld_list, type_list, val_list)
 
- If ret_int = 0 Then
-  
+If ret_int = 0 Then
    fix_objid = fccq.ret_objid
-  
-   End If  
-  
+End If  
+```
+
 **JavaScript**:
-
+```
 var fld_list  = Server.CreateObject("FCFLCompat.FCList");
-
 var type_list = Server.CreateObject("FCFLCompat.FCList");
-
 var val_list  = Server.CreateObject("FCFLCompat.FCList");
 
 fld_list.AppendItem("x_fix_int1");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("1");
 
 fld_list.AppendItem("x_fix_int2");
-
 type_list.AppendItem("Long");
-
 val_list.AppendItem("456");
 
 fld_list.AppendItem("x_summary2");
-
 type_list.AppendItem("String");
-
 val_list.AppendItem("More text");
 
 fld_list.AppendItem("x_other_date");
-
 type_list.AppendItem("Date");
-
 val_list.AppendItem("1/1/99");
 
 var ret_int = fccq.fix_cr_list("2", "", "Notes about fix", "gary",
-  
-   "3/29/99 08:00:00", true, fld_list, type_list, val_list)  
-  
- if (ret_int == 0) { var fix_objid = fccq.ret_objid; }
+      "3/29/99 08:00:00", true, fld_list, type_list, val_list)  
+
+if (ret_int == 0) { var fix_objid = fccq.ret_objid; }
+```

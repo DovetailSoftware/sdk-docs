@@ -26,37 +26,24 @@ If this object is not a child generic, this method is equivalent to the MovePrev
 The following example queries for all of the sites in the database. It then traverses to the contact roles for those sites, and on to the contacts for the contact roles. It uses MoveLastAbsolute and MovePreviousAbsolute to traverse through all of the contact roles (and contacts) with no regard to the site generic object.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim boSite As FCGeneric
-
 Dim boCRole As FCGeneric
-
 Dim boContact As FCGeneric
 
 Set boSite = fc_session.CreateGeneric("site")
-
 Set boCRole = fc_session.CreateGeneric
-
 boCRole.TraverseFromParent boSite, "site2contact_role"
-
 boCRole.AppendSort "contact_role2contact", "asc"
 
 Set boContact = fc_session.CreateGeneric
-
 boContact.TraverseFromParent boCRole, "contact_role2contact"
-
 boSite.Query
 
 boCRole.MoveLastAbsolute
-
 While boCRole.BOF = False
-
   Debug.Print "Role: " & boCRole("role_name")
-
   Debug.Print "  Count of contacts: " & Trim$(str$(boContact.Count)) 
-
   boCRole.MovePreviousAbsolute
-
 Wend
+```

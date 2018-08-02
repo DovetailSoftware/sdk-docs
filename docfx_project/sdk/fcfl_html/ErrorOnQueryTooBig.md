@@ -26,23 +26,15 @@ In some cases, however, the Generic's query will be part of a bulk, and you want
 The following example queries the case table with a _RowLimit_. If too many rows are returned, the number of rows that should have been returned is printed out because the _ErrorOnQueryTooBig_ property is set to _False_.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
   Set case_rec = fc_session.CreateGeneric
-
   case_rec.SimpleQuery "case"
-
   case_rec.rowLimit = 100
-
   case_rec.ErrorOnQueryTooBig = False
-
   case_rec.Query
 
   If case_rec.RowsReturned <> -1 Then
-
      MsgBox "The query returned too many rows. It returned " & _
-
       Trim$(Str$(case_rec.RowsReturned)) & " rows."
-
   End If
+```

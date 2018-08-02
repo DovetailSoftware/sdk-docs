@@ -28,7 +28,7 @@ This property retrieves or sets the local time zone. The local time zone represe
 
 **Returns**
 
-A string containing the local time zone of the FCSession. |
+A string containing the local time zone of the FCSession.
 
 **Error Codes**
 

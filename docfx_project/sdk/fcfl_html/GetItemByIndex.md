@@ -36,21 +36,16 @@ This method returns the item in the list at the location specified.  Lists are 
 This example shows setting up a list and getting the fourth item.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim list As New FCList
-
 Dim value As Integer
 
 list.AppendItem 1, 2, 3, 4, 5, 6, 7, 8, 9
+list.GetItemByIndex 4, value 
 
-list.GetItemByIndex 4, value If value = 5 Then
-
+If value = 5 Then
   MsgBox "Item value is as expected"
-
 Else
-
   MsgBox "Item is not correct"
-
 End If
+```

@@ -40,12 +40,12 @@ The objid of the element with the given Rank in the ListName list. Zero, if the 
 
 #### Examples
 
-**Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
 The following example relates an activity entry record to the proper gbst_elm record using the activity code (rank) of the activity.
+
+**Visual Basic:**
+```
 
 act_code = 4700
 
 act_rec.RelateByID FCApp.GetGbstElmRankObjid("Activity Name", act_code), "entry_name2gbst_elm"
+```

@@ -27,29 +27,20 @@ This method tells whether item is a member of the list.
 
 | Value | Meaning |
 |:--- |:--- |
-
-True                                        List contains item.
-
-False                                       List does not contain item.
+| True | List contains item. |
+| False | List does not contain item. |
 
 **Example**
 
 This example tests list4 for the element "test_A_1x".
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim list4 As New FCList
 
--
-
 If list4.Contains("test_A_1x") Then
-
-    MsgBox "List includes 'test_A_1x'"
-
+  MsgBox "List includes 'test_A_1x'"
 Else
-
-    MsgBox "List does not include 'test_A_1x'"
-
+  MsgBox "List does not include 'test_A_1x'"
 End If
+```

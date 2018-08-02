@@ -42,11 +42,10 @@ The record from adp_sch_rel_info with data about the specified relation.
 The following example returns data about the case_reporter2site relation in the case table:
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim rel_data As New ADODB.Recordset
 
 Set rel_data = fc_app.GetRelationData("case_reporter2site", "case")
 
 MsgBox rel_data("inv_rel_name")
+```

@@ -35,51 +35,35 @@ It is important to understand that changing this property does not cause a re-or
 The following example adds many generic objects to a Bulk, but does not order them using the standard ordering algorithm. Rather, the objects are saved in the Bulk in the order they are inserted in the Bulk.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim boSite As FCGeneric
-
 Dim boCRole As FCGeneric
-
 Dim boContact As FCGeneric
-
 Dim boCond As FCGeneric
-
 Dim boCase As FCGeneric
 
-         ' Create a site generic object
-
-         ' Put it in a bulk
-
-         ' Order the bulk in insertion order (no sorting)
+' Create a site generic object
+' Put it in a bulk
+' Order the bulk in insertion order (no sorting)
 
 Set boSite = fc_session.CreateGeneric("site")
-
 boSite.BulkName = "my_bulk"
-
 boSite.Bulk.NoSorting = true
 
-         ' Create a contact role generic object
+' Create a contact role generic object
 
 Set boCRole = fc_session.CreateGeneric("contact_role")
+boCRole.BulkName = "my_bulk"
 
-boCRole.BulkName = "my_bulk "
-
-         ' Create a contact generic object
-
+' Create a contact generic object
 Set boContact = fc_session.CreateGeneric("contact")
+boContact.BulkName = "my_bulk"
 
-boContact.BulkName = "my_bulk "
-
-         ' Create a condition generic object
-
+' Create a condition generic object
 Set boCond = fc_session.CreateGeneric("condition")
+boCond.BulkName = "my_bulk"
 
-boCond.BulkName = "my_bulk "
-
-         ' Create a case generic object
-
+' Create a case generic object
 Set boCase = fc_session.CreateGeneric("case")
-
-boCase.BulkName = "my_bulk "
+boCase.BulkName = "my_bulk"
+```

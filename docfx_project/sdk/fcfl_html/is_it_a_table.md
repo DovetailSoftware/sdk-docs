@@ -32,9 +32,7 @@ A boolean (true/false) that tells if the table name is valid.
 The example shows if "site_part" is a valid table in the database.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Debug.Print "Is 'site_part' a valid table name? " & _
-
             CStr(FCApp.is_it_a_table("site_part"))
+```

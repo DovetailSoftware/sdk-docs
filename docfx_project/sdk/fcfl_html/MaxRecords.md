@@ -29,11 +29,10 @@ Indicates the maximum number of records to return from a query. Default is zero 
 The following example limits the number of records returned.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim case_rec As FCGeneric
 
 Set case_rec = fc_session.CreateGeneric("case")
 
 case_rec.MaxRecords = 300
+```

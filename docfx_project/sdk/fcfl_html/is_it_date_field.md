@@ -34,9 +34,7 @@ A boolean (true/false) that tells if the field is a valid date/time field in the
 The example shows if  "creation_time" is a valid date/time field for the case table.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Debug.Print "Is 'creation_time' a valid date field in the 'case' " & _
-
    "table? " & CStr(FCApp.is_it_date_field("case", "creation_time"))
+```

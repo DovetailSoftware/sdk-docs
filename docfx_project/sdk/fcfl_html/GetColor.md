@@ -33,16 +33,15 @@ The color returned will be one of three values:
 
 **Returns**
 
-One of the three string values listed above. |
+One of the three string values listed above.
 
 **Example**
 
 This example shows the loading of colors for the current user. It then prints out the user's color for a specific purpose.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 fc_session.LoadColors fc_session.item("user.login_name")
 
 MsgBox fc_session.GetColor("Interaction History - Case")
+```

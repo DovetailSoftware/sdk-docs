@@ -30,14 +30,16 @@ This API allows a case to be related to a specified parent case. You must make s
 
 #### Examples
 
- Relate case 5 to have a new parent of case 66.
+Relate case 5 to have a new parent of case 66.
 
-**JavaScript: **
-
+**JavaScript:**
+```
 var ret_int = fccs.relate_case_to_parent("5", "66");
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.relate_case_to_parent("5", "66")
+```

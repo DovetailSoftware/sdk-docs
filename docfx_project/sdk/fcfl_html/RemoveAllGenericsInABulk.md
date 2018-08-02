@@ -28,7 +28,6 @@ This method removes (and closes) all generics in a Bulk object that you identify
 This example removes all items from a Bulk.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 fc_session.RemoveAllGenericsInABulk "MyBulk"
+```

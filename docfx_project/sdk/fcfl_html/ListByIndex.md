@@ -39,13 +39,9 @@ Returns a list containing the indicated items.
 This example shows the creation of list2 from list1 first by an integer and then by a list (list3).
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim list1 As New fc_List
-
 Dim list2 As New fc_List
-
 Dim list3 As New fc_List
 
 list1.AppendItem "a", "b", "c", "d", "e", "f", "g", "h", "i"
@@ -59,3 +55,4 @@ list3.AppendItem 3, 5, 7, 0
 Set list2 = list1.ListByIndex(list3)
 
 ' list2 contains "d", "f", "h", "a"
+```

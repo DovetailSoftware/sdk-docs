@@ -36,21 +36,17 @@ This method removes items from a list.  This resulting list has the proper elem
 This example shows items being removed from list1, first by single index, and then by a list.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim list1 As New FCList
-
 Dim list2 As New FCList
 
 list1.AppendItem "a", "b", "c", "d", "e", "f", "g", "h", "i"
-
 list1.RemoveByIndex 2
 
 ' list1 now contains "a", "b", "d", "e", "f", "g", "h", "i"
 
 list2.AppendItem 3, 5, 0
-
 list1.RemoveByIndex list2
 
 ' list1 now contains "b", "d", "f", "h", "i"
+```

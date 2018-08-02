@@ -34,9 +34,7 @@ A boolean (true/false) that tells if the relation is a mandatory relation.
 The example shows if  "case_reporter2contact" is a valid mandatory relation for the case table.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
-  Debug.Print "Is 'case_reporter2contact' mandatory? " & _
-
+```
+Debug.Print "Is 'case_reporter2contact' mandatory? " & _
          CStr(FCApp.is_rel_mandatory(0, "case_reporter2contact"))
+```

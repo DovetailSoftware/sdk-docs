@@ -34,26 +34,20 @@ A boolean (true/false) that tells if the relation is an exclusive relation. If i
 
 **Example**
 
-The example shows if  "case2r_rqst" is a valid exclusive relation for the case table.
+The example shows if "case2r_rqst" is a valid exclusive relation for the case table.
 
 **Visual Basic:**
 
-The code in this example is written in Visual Basic.
-
+```
   Dim tbl_fld   As String
-
   Dim objid_fld As String
-
   Dim ret_bool  As Boolean
 
   ret_bool = FCApp.is_rel_exclusive(0, "case2r_rqst", _
-
                                      tbl_fld, objid_fld)
 
   If ret_bool Then
-
      Debug.Print "It is exclusive. The table field is '" & tbl_fld & _
-
        "' and the objid field is '" & objid_fld & "'" | Else | Debug.Print "Is it not an exclusive relation."
-
   End If
+```

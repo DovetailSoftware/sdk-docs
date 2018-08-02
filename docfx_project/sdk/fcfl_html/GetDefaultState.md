@@ -27,7 +27,7 @@ The state_prov and country tables are cached in the FCApplication object, so thi
 
 **Returns**
 
-A string containing the default state_prov name for a given country |
+A string containing the default state_prov name for a given country.
 
 **Error Codes**
 

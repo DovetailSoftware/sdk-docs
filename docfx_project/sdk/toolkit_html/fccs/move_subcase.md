@@ -31,26 +31,30 @@ This API causes the specified subcase to be moved from one WIPBin to another WIP
 
 #### Examples
 
- Move subcase number 'C154-1' to the default WIPBin for the current owner.
+Move subcase number 'C154-1' to the default WIPBin for the current owner.
 
-**JavaScript: **
-
+**JavaScript:**
+```
 var ret_int = fccs.move_subcase("C154-1", "");
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.move_subcase("C154-1", "")
+```
 
- Move subcase number '2-2' to WIPBin 'Urgent'.
+Move subcase number '2-2' to WIPBin 'Urgent'.
 
-**JavaScript: **
-
+**JavaScript:**
+```
 var ret_int = fccs.move_subcase("2-2", "Urgent");
+```
 
 **Visual Basic:**
-
+```
 Dim ret_int As Integer
 
 ret_int = fccs.move_subcase("2-2", "Urgent")
+```

@@ -26,13 +26,11 @@ The copy of the list.
 This example creates a list, and makes a copy of it.
 
 **Visual Basic:**
-
-The code in this example is written in Visual Basic.
-
+```
 Dim mainList As New FCList
-
 Dim theCopy  As FCList
 
 mainList.AppendItem 2, 3, 4, 5
 
 Set theCopy = mainList.CopyList
+```
