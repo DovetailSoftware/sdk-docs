@@ -24,11 +24,11 @@ If any issues are found, it is recommended that you correct them before trying t
 ### To run the Data Verifier:
 
 * Start the Data Verifier application
-* Fill in the login parameters and click the *Connect* button 
+* Fill in the login parameters and click the *Connect* button<br>
     ![login](/images/verifier_login.png)
-* Click the *Start* button 
+* Click the *Start* button<br>
     ![verifier](/images/verifier.png)
-* If any tests return an error, double-click the test for more details 
-    ![error](/images/verifier_error.png)
+* If any tests return an error, double-click the test for more details<br>
+    ![error](/images/verifier_error.png)<br>
     ![error2](/images/verifier_error2.png)
 * If any issues are found, it is recommended that you correct them before trying to use an **fcSDK** based application
