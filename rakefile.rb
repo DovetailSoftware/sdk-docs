@@ -1,7 +1,11 @@
 batchFile = File.absolute_path("build-chm.bat")
 
-task :default => ["buildHelpFile"]
+task :default => ["docfx"]
 
-task :buildHelpFile do 
+task :chm do
 	system(batchFile)
+end
+
+task :docfx do
+	sh 'docfx docfx_project\docfx.json --serve'
 end
