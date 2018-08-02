@@ -41,7 +41,7 @@
         <param name="Local" value="docfx_project\_site\articles\product-support.html">
      </OBJECT>
 <LI> <OBJECT type="text/sitemap">
-        <param name="Name" value="About First Choice Software">
+        <param name="Name" value="About Dovetail Software">
         <param name="Local" value="docfx_project\_site\articles\about-dovetail.html">
      </OBJECT>
 <LI> <OBJECT type="text/sitemap">
@@ -72,6 +72,11 @@
 </UL>
 <LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Configuring the fcSDK">
+        <param name="Local" value="docfx_project\_site\articles\fcsdk-configuration.html">
+     </OBJECT>
+<UL>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="Basic fcSDK Configuration">
         <param name="Local" value="docfx_project\_site\articles\basic-configuration.html">
      </OBJECT>
 <LI> <OBJECT type="text/sitemap">
@@ -53341,6 +53346,5 @@
 </UL>
 </UL>
 </UL>
-
 </UL>
 </BODY></HTML>
