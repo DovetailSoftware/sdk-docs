@@ -1,57 +1,52 @@
-require "zip"
+require 'fileutils'
+require 'zip'
 
 $chmFile = File.absolute_path("sdk.chm")
 $website = File.absolute_path("docfx_project/_site") + "/"
+$docfxFolder = 'docfx'
+$docfxExe = File.absolute_path("#{$docfxFolder}/docfx.exe")
 
-task :default => ["docfx"]
+task :default => ['docfx']
 
 task :chm do
   batchFile = File.absolute_path("build-chm.bat")
 	system(batchFile)
 end
 
-task :docfx do
-  sh "docfx docfx_project\docfx.json --serve"
+task :docfx => [:getDocfx, :unzipDocfx] do
+  puts 'generating docfx website'
+  sh "#{$docfxExe} docfx_project\\docfx.json --serve"
 end
 
-namespace :package do
-  abort 'run "rake:chm" to build CHM file before packaging release' unless File.exist? $chmFile
-  abort 'run "rake:docfx" to build website before packaging release' unless File.exist? $website
+task :getDocfx do
+  puts 'verifying docfx executable'
+  if File.exist?($docfxExe)
+    # skip download
+  else
+    puts 'fetching docfx executable'
+    FileUtils.rm_rf $docfxFolder if File.exist? $docfxFolder
+    FileUtils.mkdir_p $docfxFolder
 
-  $target = 'artifacts'
-  task :release => [
-    :zipSite,
-    :copyChm
-  ]
-end
-
-task :copyChm do
-  chm = File.absolute_path("#{$target}/sdk.#{$version}.chm")
-  FileUtils.cp $chmFile, chm, :verbose => true
-end
-
-task :zipSite do
-
-  Rake::Task['getVersion'].invoke
-  Rake::Task['createFolder'].invoke
-
-  zipFile = File.absolute_path("#{$target}/sdkHtml.#{$version}.zip")
-
-  FileUtils.rm_f zipFile
-
-  puts "Packaging #{$website} for release into #{zipFile}"
-
-  Zip::File.open(zipFile, Zip::File::CREATE) do |zipfile|
-    Dir.glob(File.join($website, '**', '*'), File::FNM_DOTMATCH)
-      .each do |file|
-        zipfile.add(file.sub($website, ""), file)
-      end
+    sh "curl -L https://github.com/dotnet/docfx/releases/download/v2.37.2/docfx.zip > docfx.zip"
   end
 end
 
-task :createFolder do
-  FileUtils.rm_rf $target
-  FileUtils.mkdir_p $target
+task :unzipDocfx do
+  if File.exist?($docfxExe)
+    # skip unzipping
+  else
+    puts 'unzipping docfx executable'
+    if File.exist?($docfxFolder) then
+      FileUtils.rm_rf $docfxFolder
+    end
+
+    zip_file = Zip::File.open('docfx.zip')
+    zip_file.each do |file|
+      f_path=File.join($docfxFolder, file.name)
+      FileUtils.mkdir_p(File.dirname(f_path))
+      zip_file.extract(file, f_path)
+    end
+  end
 end
 
 task :getVersion do
@@ -61,3 +56,43 @@ task :getVersion do
     end
   end
 end
+
+# namespace :package do
+#   abort 'run "rake:chm" to build CHM file before packaging release' unless File.exist? $chmFile
+#   abort 'run "rake:docfx" to build website before packaging release' unless File.exist? $website
+
+#   $target = 'artifacts'
+#   task :release => [
+#     :zipSite,
+#     :copyChm
+#   ]
+# end
+
+# task :copyChm do
+#   chm = File.absolute_path("#{$target}/sdk.#{$version}.chm")
+#   FileUtils.cp $chmFile, chm, :verbose => true
+# end
+
+# task :zipSite do
+
+#   Rake::Task['getVersion'].invoke
+#   Rake::Task['createFolder'].invoke
+
+#   zipFile = File.absolute_path("#{$target}/sdkHtml.#{$version}.zip")
+
+#   FileUtils.rm_f zipFile
+
+#   puts "Packaging #{$website} for release into #{zipFile}"
+
+#   Zip::File.open(zipFile, Zip::File::CREATE) do |zipfile|
+#     Dir.glob(File.join($website, '**', '*'), File::FNM_DOTMATCH)
+#       .each do |file|
+#         zipfile.add(file.sub($website, ""), file)
+#       end
+#   end
+# end
+
+# task :createFolder do
+#   FileUtils.rm_rf $target
+#   FileUtils.mkdir_p $target
+# end
