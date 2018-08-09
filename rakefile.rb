@@ -13,7 +13,7 @@ task :chm do
 	system(batchFile)
 end
 
-task :docfx => [:getDocfx, :unzipDocfx] do
+task :docfx => [:unzipDocfx] do
   puts 'generating docfx website'
   sh "#{$docfxExe} docfx_project\\docfx.json --serve"
 end
@@ -27,7 +27,7 @@ task :getDocfx do
     FileUtils.rm_rf $docfxFolder if File.exist? $docfxFolder
     FileUtils.mkdir_p $docfxFolder
 
-    sh "curl -L http://github.com/dotnet/docfx/releases/download/v2.37.2/docfx.zip > docfx.zip"
+    sh "curl -L https://github.com/dotnet/docfx/releases/download/v2.37.2/docfx.zip > docfx.zip"
   end
 end
 
