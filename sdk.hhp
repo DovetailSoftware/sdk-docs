@@ -103,7 +103,6 @@ docfx_project\_site\sdk\images\webnav\tabtoc.png
 docfx_project\_site\sdk\webimages\collapse.png
 docfx_project\_site\sdk\webimages\expand.png
 docfx_project\_site\index.html
-docfx_project\_site\README.html
 docfx_project\_site\api\FChoice.Common.CommonException.html
 docfx_project\_site\api\FChoice.Common.ConfigValues.html
 docfx_project\_site\api\FChoice.Common.Data.DataAccessSectionHandler.html
@@ -840,7 +839,6 @@ docfx_project\_site\articles\feature-guide.html
 docfx_project\_site\articles\getting-started.html
 docfx_project\_site\articles\index.html
 docfx_project\_site\articles\installation-guide.html
-docfx_project\_site\articles\intro.html
 docfx_project\_site\articles\license-installer.html
 docfx_project\_site\articles\logging-configuration.html
 docfx_project\_site\articles\making-applications.html
