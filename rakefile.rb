@@ -57,42 +57,42 @@ task :getVersion do
   end
 end
 
-# namespace :package do
-#   abort 'run "rake:chm" to build CHM file before packaging release' unless File.exist? $chmFile
-#   abort 'run "rake:docfx" to build website before packaging release' unless File.exist? $website
+namespace :package do
+  abort 'run "rake:chm" to build CHM file before packaging release' unless File.exist? $chmFile
+  abort 'run "rake:docfx" to build website before packaging release' unless File.exist? $website
 
-#   $target = 'artifacts'
-#   task :release => [
-#     :zipSite,
-#     :copyChm
-#   ]
-# end
+  $target = 'artifacts'
+  task :release => [
+    :zipSite,
+    :copyChm
+  ]
+end
 
-# task :copyChm do
-#   chm = File.absolute_path("#{$target}/sdk.#{$version}.chm")
-#   FileUtils.cp $chmFile, chm, :verbose => true
-# end
+task :copyChm do
+  chm = File.absolute_path("#{$target}/sdk.#{$version}.chm")
+  FileUtils.cp $chmFile, chm, :verbose => true
+end
 
-# task :zipSite do
+task :zipSite do
 
-#   Rake::Task['getVersion'].invoke
-#   Rake::Task['createFolder'].invoke
+  Rake::Task['getVersion'].invoke
+  Rake::Task['createFolder'].invoke
 
-#   zipFile = File.absolute_path("#{$target}/sdkHtml.#{$version}.zip")
+  zipFile = File.absolute_path("#{$target}/sdkHtml.#{$version}.zip")
 
-#   FileUtils.rm_f zipFile
+  FileUtils.rm_f zipFile
 
-#   puts "Packaging #{$website} for release into #{zipFile}"
+  puts "Packaging #{$website} for release into #{zipFile}"
 
-#   Zip::File.open(zipFile, Zip::File::CREATE) do |zipfile|
-#     Dir.glob(File.join($website, '**', '*'), File::FNM_DOTMATCH)
-#       .each do |file|
-#         zipfile.add(file.sub($website, ""), file)
-#       end
-#   end
-# end
+  Zip::File.open(zipFile, Zip::File::CREATE) do |zipfile|
+    Dir.glob(File.join($website, '**', '*'), File::FNM_DOTMATCH)
+      .each do |file|
+        zipfile.add(file.sub($website, ""), file)
+      end
+  end
+end
 
-# task :createFolder do
-#   FileUtils.rm_rf $target
-#   FileUtils.mkdir_p $target
-# end
+task :createFolder do
+  FileUtils.rm_rf $target
+  FileUtils.mkdir_p $target
+end
