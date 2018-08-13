@@ -5,6 +5,7 @@ $chmFile = File.absolute_path("sdk.chm")
 $website = File.absolute_path("docfx_project/_site") + "/"
 $docfxFolder = 'docfx'
 $docfxExe = File.absolute_path("#{$docfxFolder}/docfx.exe")
+$target = 'artifacts'
 
 task :default => ['docfx']
 
@@ -55,17 +56,6 @@ task :getVersion do
       $version = line.match(/^[\w\s_=]+["]([\w\.]+)"/).captures[0]
     end
   end
-end
-
-namespace :package do
-  abort 'run "rake:chm" to build CHM file before packaging release' unless File.exist? $chmFile
-  abort 'run "rake:docfx" to build website before packaging release' unless File.exist? $website
-
-  $target = 'artifacts'
-  task :release => [
-    :zipSite,
-    :copyChm
-  ]
 end
 
 task :copyChm do
