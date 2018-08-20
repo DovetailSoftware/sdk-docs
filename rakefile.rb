@@ -59,7 +59,7 @@ task :getVersion do
 end
 
 task :copyChm do
-  chm = File.absolute_path("#{$target}/sdk.#{$version}.chm")
+  chm = File.absolute_path("#{$target}/fcSDK.chm")
   FileUtils.cp $chmFile, chm, :verbose => true
 end
 
@@ -68,7 +68,7 @@ task :zipSite do
   Rake::Task['getVersion'].invoke
   Rake::Task['createFolder'].invoke
 
-  zipFile = File.absolute_path("#{$target}/sdkHtml.#{$version}.zip")
+  zipFile = File.absolute_path("#{$target}/sdkHtml.zip")
 
   FileUtils.rm_f zipFile
 

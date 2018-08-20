@@ -1,58 +1,5 @@
 # fcSDK Version History
 
-## What's New
-
-<h3>Version 3.6.0</h3>
-<ul>
-  <li>Core:
-    <ul>
-      <li>Added better handling of DBNull values during SDK initialization.</li>
-      <li>Fixed timezone conversion issue for DST border dates.</li>
-    </ul>
-  </li>
-  <li>API Toolkits:
-    <ul>
-      <li>Support Toolkit:
-        <ul>
-          <li>Added a property to <a href="/sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UpdateCase(UpdateCaseSetup).html">UpdateCase</a>, <a href="/sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~UpdateSubcase(UpdateSubcaseSetup).html">UpdateSubcase</a>, <a href="/sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeCaseSite(ChangeCaseSiteSetup).html">ChangeCaseSite</a>, and <a href="/sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit~ChangeCaseContact(ChangeCaseContactSetup).html">ChangeCaseContact</a> APIs. The <b>OnlyOpen</b> property, which defaults to <i>true</i>, is checked before updating the case, subcase, or case site/contact. If the property is set to <i>true</i>, only Open cases/subcases can be updated.</li>
-          <li>Added support for two new email templates, to allow distinction and customization for outgoing case and subcase emails individually.
-            <ul>
-              <li>send_email_about_case</li>
-              <li>send_email_about_subcase</li>                  
-            </ul>
-            If these templates are not found, the email will still be based on the send_email_about_obj template.
-          </li>
-        </ul>
-      </li>
-      <li>For all of the toolkits, the impersonatorUserName property was added to APIs to record the login name of the user that performed the activity on behalf of another user.</li>
-    </ul>
-  </li>
-  <li>DataVerifier:
-    <ul>
-      <li>Corrected a few error/failure messages that can be seen when verifying states.</li>
-      <li>Added a new Dovetail Ready category, which contains:
-        <ul>
-          <li>FC String Locale Verifier</li>
-          <li>Stored Procedure Verifier</li>
-          <li>Verify License Table (broken out from sdk com compatibility test)</li>
-          <li>Verify SDK License (broken out from sdk verifier test)</li>
-          <li>SDK Verifier (COM)</li>
-          <li>SDK Verifier (.NET)</li>
-          <li>Schema Verifier</li>
-        </ul>
-      </li>
-      <li>Added new tests under Schema Verifier:
-        <ul>
-          <li>Test for columns declared in the system but missing in Clarify schema.</li>
-          <li>Test for columns declared in Clarify schema but missing in the system.</li>
-          <li>ORACLE only - Look for db type of LONG for any table. While not an issue by itself, give a warning that another LONG column cannot be added to such a table. If table_commit_log.cmit_history is of db type LONG the schema changes for Agent cannot be applied and Schema Editor fails with Oracle error.</li>
-          <li>Test for missing non-exclusive relations.</li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
-
 <h3>Version 3.5.0</h3>
 <ul>
   <li>API Toolkits:
@@ -116,7 +63,7 @@
   <ul>
     <li>The encryption algorithm for user passwords has changed to better match with Clarify's encryption algorithm.<br/>
 This will affect users whose password contains one of these 7 characters: ! (exclamation mark), @ (at sign), # (hash/pound sign), $ (dollar sign), ^ (caret sign), & (ampersand), * (asterisk).<br/>
-<b>IMPORTANT NOTE</b>: For these users, their password will need to be reset, either by using the <i>Forgot Password</i> process, or by having it reset by an administrator. 
+<b>IMPORTANT NOTE</b>: For these users, their password will need to be reset, either by using the <i>Forgot Password</i> process, or by having it reset by an administrator.
 This only affects employees (users), not contacts (web_users).</li>
   </ul>
 </li>

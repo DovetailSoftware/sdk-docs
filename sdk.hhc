@@ -29,7 +29,11 @@
         <param name="Local" value="docfx_project\_site\articles\feature-guide.html">
      </OBJECT>
 <LI> <OBJECT type="text/sitemap">
-        <param name="Name" value="What's New in the fcSDK (Version History)">
+        <param name="Name" value="What's New in the fcSDK">
+        <param name="Local" value="docfx_project\_site\articles\whatsnew.html">
+     </OBJECT>
+<LI> <OBJECT type="text/sitemap">
+        <param name="Name" value="fcSDK Version History">
         <param name="Local" value="docfx_project\_site\articles\version-history.html">
      </OBJECT>
 <LI> <OBJECT type="text/sitemap">
