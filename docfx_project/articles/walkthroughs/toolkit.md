@@ -6,14 +6,14 @@ This walkthrough will provide an overview of the basic usage pattern involved in
 
 The Toolkit APIs are split up into logical groupings with each group of APIs having their own namespace.
 
-* Contracts	[FChoice.Toolkits.Clarify.Contracts](/api/FChoice.Toolkits.Clarify.Contracts.html)
-* Depot Repair	[FChoice.Toolkits.Clarify.DepotRepair](/api/FChoice.Toolkits.Clarify.DepotRepair.html)
-* Field Operations	[FChoice.Toolkits.Clarify.FieldOps](/api/FChoice.Toolkits.Clarify.FieldOps.html)
-* Interfaces	[FChoice.Toolkits.Clarify.Interfaces](/api/FChoice.Toolkits.Clarify.Interfaces.html)
-* Logistics	[FChoice.Toolkits.Clarify.Logistics](/api/FChoice.Toolkits.Clarify.Logistics.html)
-* Quality	[FChoice.Toolkits.Clarify.Quality](/api/FChoice.Toolkits.Clarify.Quality.html)
-* Sales	[FChoice.Toolkits.Clarify.Sales](/api/FChoice.Toolkits.Clarify.Sales.html)
-* Support	[FChoice.Toolkits.Clarify.Support](/api/FChoice.Toolkits.Clarify.Support.html)
+* Contracts	[FChoice.Toolkits.Clarify.Contracts](../../api/FChoice.Toolkits.Clarify.Contracts.html)
+* Depot Repair	[FChoice.Toolkits.Clarify.DepotRepair](../../api/FChoice.Toolkits.Clarify.DepotRepair.html)
+* Field Operations	[FChoice.Toolkits.Clarify.FieldOps](../../api/FChoice.Toolkits.Clarify.FieldOps.html)
+* Interfaces	[FChoice.Toolkits.Clarify.Interfaces](../../api/FChoice.Toolkits.Clarify.Interfaces.html)
+* Logistics	[FChoice.Toolkits.Clarify.Logistics](../../api/FChoice.Toolkits.Clarify.Logistics.html)
+* Quality	[FChoice.Toolkits.Clarify.Quality](../../api/FChoice.Toolkits.Clarify.Quality.html)
+* Sales	[FChoice.Toolkits.Clarify.Sales](../../api/FChoice.Toolkits.Clarify.Sales.html)
+* Support	[FChoice.Toolkits.Clarify.Support](../../api/FChoice.Toolkits.Clarify.Support.html)
 
 ## Using API methods
 
@@ -52,16 +52,16 @@ The following example demonstrates use of ToolkitResults, both API calling conve
 
 #### Using the Interfaces and Support Toolkits to create a case
 
-[C#] 
+[C#]
 ```csharp
-//using the Interfaces toolkit create an address and a site 
+//using the Interfaces toolkit create an address and a site
 InterfacesToolkit interToolkit = new InterfacesToolkit( session );
 
 //only required parameters are entered for these APIs so we do not require a setup object
 ToolkitResult addressResult = interToolkit.CreateAddress(string'>"123 Lower Wacker Dr.", string'>"Chicago", string'>"IL", string'>"60601", string'>"USA", string'>"CST" );
 ToolkitResult siteResult    = interToolkit.CreateSite(SiteType.Customer, SiteStatus.Active, addressResult.Objid);
 
-//using the Support toolkit create a case using the handy CreateCaseSetup object. 
+//using the Support toolkit create a case using the handy CreateCaseSetup object.
 SupportToolkit supportToolkit= new SupportToolkit( session );
 
 //the setup class is created with the required case parameters. Then the optional properties we need are set.
@@ -80,9 +80,9 @@ int caseObjid = caseResult.Objid;
 string caseIDNum = caseResult.IDNum;
 ```
 
-[Visual Basic] 
+[Visual Basic]
 ```vbnet
-'using the Interfaces toolkit create an address and a site 
+'using the Interfaces toolkit create an address and a site
 Dim interToolkit As New InterfacesToolkit(session)
 
 'only required parameters are entered for these APIs so we do not require a setup object
@@ -90,7 +90,7 @@ Dim addressResult, siteResult As ToolkitResult
 addressResult = interToolkit.CreateAddress("123 Lower Wacker Dr.", "Chicago", "IL", "60601", "USA", "CST")
 siteResult = interToolkit.CreateSite(SiteType.Customer, SiteStatus.Active, addressResult.Objid)
 
-'using the Support toolkit create a case using the handy CreateCaseSetup object. 
+'using the Support toolkit create a case using the handy CreateCaseSetup object.
 Dim supportToolkit As New SupportToolkit(session)
 
 'the setup class is created with the required case parameters. Then the optional properties we need are set.

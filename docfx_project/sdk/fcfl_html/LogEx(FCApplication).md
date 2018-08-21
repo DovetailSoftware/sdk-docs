@@ -40,4 +40,4 @@ Here is an example of what the entry will look like in the log file:
 ```
 2004-11-15 14:21:31,469 \[DEBUG\] This is a test debug message.
 ```
-Note, the log output can be easily modified by changing your [Logging Configuration](/articles/logging/logging_samples.html)
+Note, the log output can be easily modified by changing your [Logging Configuration](../../articles/logging/logging-samples.md)

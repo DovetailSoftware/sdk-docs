@@ -4,7 +4,7 @@ When a new user is logged in using CreateSession there is a session management m
 
 ## Memory State Manager
 
-The most common and default session provider is the [MemoryStateManager](/api/FChoice.Common.State.MemoryStateManager.html). Nothing special needs to be done to use this manager. The only setting you may wish to change is the session timeout which is talked about in Configuring a State Manager below. The rest of this document will discuss the other, more complex, type of manager Remote State Managers.
+The most common and default session provider is the [MemoryStateManager](../api/FChoice.Common.State.MemoryStateManager.html). Nothing special needs to be done to use this manager. The only setting you may wish to change is the session timeout which is talked about in Configuring a State Manager below. The rest of this document will discuss the other, more complex, type of manager Remote State Managers.
 
 ## Remote State Managers
 
@@ -36,7 +36,7 @@ There are SQL scripts for each supported database system in the **fcSDK** instal
 
 ## State Managers
 
-The [StateManager](/api/FChoice.Common.State.StateManager.html) object abstracts the act of storing and retrieving the user's session data. In order to take advantage of Remote Sessions you need to configure your application to use an appropriate state manager. You also need to do the following configuration if you wish to set the timeout of the [MemoryStateManager](../sdk/FChoice.Common~FChoice.Common.State.MemoryStateManager.md).
+The [StateManager](../api/FChoice.Common.State.StateManager.html) object abstracts the act of storing and retrieving the user's session data. In order to take advantage of Remote Sessions you need to configure your application to use an appropriate state manager. You also need to do the following configuration if you wish to set the timeout of the [MemoryStateManager](../sdk/FChoice.Common~FChoice.Common.State.MemoryStateManager.md).
 
 The **fcSDK** provides the following state managers:
 
@@ -64,14 +64,14 @@ For example:
   <configSections>
     <section name="stateManager" type="FChoice.Common.State.StateManagerSectionHandler, FChoice.Common"/>
     <!-- other config sections if present -->
-  </configSections>    
+  </configSections>
 
   <stateManager timeout="20" applicationName="fcClient" type="FChoice.Common.State.OracleStateManager, FChoice.Common" >
     <database connectionstring="Data Source=MYOracleSID; User Id=user;Password=pass;" />
   </stateManager>
 
   <!-- rest of config file -->
-    
+
 </configuration>
 ```
 
@@ -115,8 +115,8 @@ The following example shows the contents of a configuration file using fully qua
 
 ```
 <!-- begin remotesession.config -->
-<stateManager timeout="20" 
-              applicationName="fcClient" 
+<stateManager timeout="20"
+              applicationName="fcClient"
               type="FChoice.DataProviders.ODPNet.ODPOracleProvider, FChoice.DataProviders.ODPNet, Version=2.0.2.1, Culture=neutral, PublicKeyToken=48c955ba8dfd90d8" >
   <database connectionstring="Data Source=MYOracleSID; User Id=user;Password=pass;" />
 </stateManager>

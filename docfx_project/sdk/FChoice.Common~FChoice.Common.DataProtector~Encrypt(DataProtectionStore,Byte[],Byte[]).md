@@ -1,4 +1,4 @@
-﻿### Encrypt(DataProtectionStore,Byte\[\],Byte\[\]) Method
+### Encrypt(DataProtectionStore,Byte\[\],Byte\[\]) Method
 
 Specifies which key store to use (User or Machine)
 
@@ -21,7 +21,7 @@ Public Overloads Shared Function Encrypt( _
 ```
 
 ```csharp
-public static byte[] Encrypt( 
+public static byte[] Encrypt(
    DataProtectionStore _keyStore_,
    byte[] _plainBytes_,
    byte[] _entropy_
@@ -50,12 +50,12 @@ A byte array representing the encrypted version of the original _plainBytes_ pay
 
 It is important not to lose the entropy used to encrypt this data. If the entropy is lost, the data cannot be decrypted. If the entropy must be stored, do not store it with the encrypted payload.
 
-![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
+![warning](../images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 
-[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)  
-[DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)  
+[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)
+[DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)
 [Overload List](FChoice.Common~FChoice.Common.DataProtector~Encrypt.md)

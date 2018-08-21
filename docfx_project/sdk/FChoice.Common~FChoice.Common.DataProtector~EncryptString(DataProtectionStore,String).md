@@ -1,4 +1,4 @@
-﻿### EncryptString(DataProtectionStore,String) Method
+### EncryptString(DataProtectionStore,String) Method
 
 Specifies which key store to use (User or Machine)
 
@@ -18,7 +18,7 @@ Public Overloads Shared Function EncryptString( _
 ```
 
 ```csharp
-public static string EncryptString( 
+public static string EncryptString(
    DataProtectionStore _keyStore_,
    string _plainText_
 )
@@ -36,12 +36,12 @@ A string of text to encrypt
 
 #### Remarks
 
-![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
+![warning](../images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 
-[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)  
-[DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)  
+[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)
+[DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)
 [Overload List](FChoice.Common~FChoice.Common.DataProtector~EncryptString.md)

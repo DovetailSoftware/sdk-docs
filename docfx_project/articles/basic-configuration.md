@@ -67,7 +67,7 @@ fchoice.connectionstring=Data Source=server;Initial Catalog=database;uid=user;pw
 Some configuration settings can contain sensitive information such as usernames and passwords. **fcSDK** can protect such sensitive settings in just two steps using **Data Protection**.
 
 1. Encrypt the configuration parameter using the First Choice Configuration Protector Utility
-![Protector](/images/FCConfigurationProtector.PNG)
+![Protector](../images/FCConfigurationProtector.PNG)
 1. Copy the encrypted parameter string into your .Net application's configuration file.
     ```
     <appSettings>
@@ -78,7 +78,7 @@ Some configuration settings can contain sensitive information such as usernames 
 
 ### Important!
 
-The encrypted key can only be decrypted on the same machine from which it was encrypted on.  
+The encrypted key can only be decrypted on the same machine from which it was encrypted on.
 For example, if you want to use this encrypted key on your web server, then you should run the Configuration Protector application on your web server.
 
 ### Entropy
@@ -88,7 +88,7 @@ When you encrypt your parameter settings you can optionally specify an Entropy v
 
 If you use an Entropy value the FCConfiguration.DataProtectionEntropy property must match the Entropy key you used to encrypt your parameters.
 
-[C#] 
+[C#]
 ```csharp
 FCConfiguration.DataProtectionsEntropy = "...Optional Key...";
 ClarifyApplication.Initialize();
@@ -98,7 +98,7 @@ ClarifyApplication.Initialize();
 
 If you use an Entropy value the FCApplication.DataProtectionEntropy property must match the Entropy key you used to encrypt your parameters.
 
-[Javascript] 
+[Javascript]
 ```
 var FCApp = new ActiveXObject("FCFLCompat.FCApplication");
 FCApp.DataProtectionsEntropy = "...Optional Key...";

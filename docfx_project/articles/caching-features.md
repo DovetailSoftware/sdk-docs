@@ -11,7 +11,7 @@ The cached objects are loaded during [ClarifyApplication](../sdk/fcSDK~FChoice.F
 During initialization:
 
 * If up-to-date cache files are found to be already on the system the application is initialized from the cache files.
-* If cache files are present but found to be out-of-date they are refreshed from the database. For example, this happens to the [SchemaCache](/api/FChoice.Foundation.Clarify.SchemaCache.html) when the Clarify Schema has been updated.
+* If cache files are present but found to be out-of-date they are refreshed from the database. For example, this happens to the [SchemaCache](../api/FChoice.Foundation.Clarify.SchemaCache.html) when the Clarify Schema has been updated.
 * If cache files are not present data is cached from the database and saved to cache files.
 * Custom caches loaded.
 
@@ -26,7 +26,7 @@ Cache information can get out of date. Currently the only built-in cache object 
 
 #### *Refreshing Caches*
 
-[C#] 
+[C#]
 ```csharp
 //update the Schema Cache
 CacheManager.UpdateCaches( CacheType.Schema );
@@ -36,7 +36,7 @@ CacheManager.UpdateCaches( CacheType.Data );
 
 //update all Caches
 CacheManager.UpdateCaches( CacheType.All );
-[Visual Basic] 
+[Visual Basic]
 
 'updates the Schema Cache
 CacheManager.UpdateCaches( CacheType.Schema )
@@ -61,11 +61,11 @@ The **fcSDK** comes with four built-in caches available through properties on Cl
 
 #### Schema Cache
 
-The [SchemaCache](/api/FChoice.Foundation.Clarify.SchemaCache.html) allows you to programmatically browse the Clarify Schema at runtime. You can find out what [Fields](/api/FChoice.Foundation.Clarify.SchemaViewField.html) are in a [View](/api/FChoice.Foundation.Clarify.SchemaView.html) or what [Relationships](/api/FChoice.Foundation.Clarify.RelationCollection.html) are present for a [Table](/api/FChoice.Foundation.Clarify.SchemaTable.html).
+The [SchemaCache](../api/FChoice.Foundation.Clarify.SchemaCache.html) allows you to programmatically browse the Clarify Schema at runtime. You can find out what [Fields](../api/FChoice.Foundation.Clarify.Schema.SchemaViewField.html) are in a [View](../api/FChoice.Foundation.Clarify.Schema.SchemaView.html) or what [Relationships](../api/FChoice.Foundation.Clarify.Schema.SchemaRelationCollection.html) are present for a [Table](../api/FChoice.Foundation.Clarify.Schema.SchemaTable.html).
 
 #### *Schema Cache Usage Example*
 
-[C#] 
+[C#]
 ```csharp
 //get a reference to the case table
 SchemaTable caseTable = ClarifyApplication.Instance.SchemaCache.Tables["case"];
@@ -73,19 +73,19 @@ SchemaTable caseTable = ClarifyApplication.Instance.SchemaCache.Tables["case"];
 //print out some details about each case relation
 foreach(SchemaRelation relation in caseTable.Relationships)
 {
-    Console.WriteLine("Case Relation : {0}, Target Table {1}, Cardinality {2}", 
+    Console.WriteLine("Case Relation : {0}, Target Table {1}, Cardinality {2}",
         relation.Name, relation.TargetName, relation.Cardinality);
 }
 
 //print out some details about each case field
 foreach(SchemaTableField field in caseTable.Fields)
 {
-    Console.WriteLine("Case Field : {0}, Field Default {1}", 
+    Console.WriteLine("Case Field : {0}, Field Default {1}",
         field.Name, field.FieldDefault);
 }
 ```
 
-[Visual Basic] 
+[Visual Basic]
 ```
 'get a reference to the case table
 Dim caseTable As SchemaTable = ClarifyApplication.Instance.SchemaCache.Tables("case")
@@ -105,17 +105,17 @@ Next
 
 #### List Cache
 
-The [ListCache](/api/FChoice.Foundation.Clarify.ListCache.html) provides access to user defined ([HierarchicalStrings](../sdk/fcSDK~FChoice.Foundation.Clarify.IListCache~HierarchicalStrings.md)) and global ([GlobalStrings](../sdk/fcSDK~FChoice.Foundation.Clarify.IListCache~GlobalStrings.md)) lists.
+The [ListCache](../api/FChoice.Foundation.Clarify.ListCache.html) provides access to user defined ([HierarchicalStrings](../sdk/fcSDK~FChoice.Foundation.Clarify.IListCache~HierarchicalStrings.md)) and global ([GlobalStrings](../sdk/fcSDK~FChoice.Foundation.Clarify.IListCache~GlobalStrings.md)) lists.
 
 #### Locale Cache
 
-The [LocaleCache](/api/FChoice.Foundation.Clarify.LocaleCache.html) provides access to [Country](../sdk/fcSDK~FChoice.Foundation.Clarify.LocaleCache~Countries.md), [State](../sdk/fcSDK~FChoice.Foundation.Clarify.DataObjects.Country~States.md) and [TimeZone](../sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup~TimeZone.md) information.
+The [LocaleCache](../api/FChoice.Foundation.Clarify.LocaleCache.html) provides access to [Country](../sdk/fcSDK~FChoice.Foundation.Clarify.LocaleCache~Countries.md), [State](../sdk/fcSDK~FChoice.Foundation.Clarify.DataObjects.Country~States.md) and [TimeZone](../sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.CreateAddressSetup~TimeZone.md) information.
 
 For more information on how TimeZones are used in **fcSDK** see also [Time Zone Handling](time-zones.md).
 
 #### String Cache
 
-The [StringCache](/api/FChoice.Foundation.Clarify.StringCache.html) allows access to all the localizable application strings present in the string_db or fc_string tables.
+The [StringCache](../api/FChoice.Foundation.Clarify.StringCache.html) allows access to all the localizable application strings present in the string_db or fc_string tables.
 
 This cache is slightly different in that it does not expose a collection and its accessor methods start with “Find”.
 
@@ -129,7 +129,7 @@ While caching of often used, read-only data can greatly boost application perfor
 * If data being cached is modified the cache must be updated or the application restarted to refresh the cache.
 * Custom Caches do not save cache files to the file system. Application start up time will be affected when loading large amounts of data from the database into the cache.
 
-#### 
+####
 
 * [Basic Configuration](basic-configuration.md)
 * [Time Zone Handling](time-zones.md)

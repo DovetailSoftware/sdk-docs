@@ -1,4 +1,4 @@
-﻿### DecryptString(DataProtectionStore,String,String) Method
+### DecryptString(DataProtectionStore,String,String) Method
 
 Specifies which key store to use (User or Machine)
 
@@ -21,7 +21,7 @@ Public Overloads Shared Function DecryptString( _
 ```
 
 ```csharp
-public static string DecryptString( 
+public static string DecryptString(
    DataProtectionStore _keyStore_,
    string _encryptedText_,
    string _entropy_
@@ -50,12 +50,12 @@ The decrypted contents of this message as a string
 
 This method expects the payload to be a byte array which contains the UTF8-encoded bytes of a string that was encrypted using the [EncryptString Method](FChoice.Common~FChoice.Common.DataProtector~EncryptString.md).
 
-![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
+![warning](../images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 
-[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)  
-[DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)  
+[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)
+[DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)
 [Overload List](FChoice.Common~FChoice.Common.DataProtector~DecryptString.md)

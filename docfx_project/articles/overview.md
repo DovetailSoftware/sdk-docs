@@ -22,7 +22,7 @@ The API Toolkits provide convenient business logic wrappers for most of the comm
 
 The toolkits cover some or all of the functionality in the Classic Client that are associated with ClearSupport, ClearLogistics, ClearQuality, and several others.
 
-The API Toolkits in the **fcSDK** are divided into functional areas that map closely to Clarify&trade; products. For example, the [FChoice.Toolkits.Clarify.Support](/api/FChoice.Toolkits.Clarify.Support.html) namespace and, specifically, the [SupportToolkit](../sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.md) object reflect most or all of the functionality in the ClearSupport product for Clarify&trade;.
+The API Toolkits in the **fcSDK** are divided into functional areas that map closely to Clarify&trade; products. For example, the [FChoice.Toolkits.Clarify.Support](../api/FChoice.Toolkits.Clarify.Support.md) namespace and, specifically, the [SupportToolkit](../sdk/FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.SupportToolkit.md) object reflect most or all of the functionality in the ClearSupport product for Clarify&trade;.
 
 For more information on how to get started writing applications using the API Toolkits, please see the developer walkthrough of [Toolkit Fundamentals](walkthroughs/toolkit.md).
 

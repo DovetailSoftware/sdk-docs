@@ -14,7 +14,7 @@ A typical web service scenario is composed of two parts: the server which hosts 
 
 Making web service calls is not unlike making browser request to a web page. The main difference being that web service calls are generally made from applications instead of a client browser. Just as a web application can provide a user interface into fcSDK, the fcSDK Web Services provides a programmatically way to interface with fcSDK from a remote machine.
 
-![verifier](/images/webservices.png)
+![verifier](../../images/webservices.png)
 
 Web services may be consumed by any language or platform that can send requests and receive responses over HTTP. This makes it possible to use Java to call .NET web services such as the fcSDK Web Services.
 
@@ -36,7 +36,7 @@ The fcSDK Web Services are implemented as typical ASP.NET Web Services. The foll
 
 To retrieve the WSDL (Web Service Description Language) for a particular web service, all you have to do is make an HTTP request to the web service page with '?WSDL' appended to the end of the URL. For example, if you would like the WSDL for the ClarifyApplicationSrv web service you would do something like the following:
 
-![wsdl](/images/webservices_wsdl.png)
+![wsdl](../../images/webservices_wsdl.png)
 
 Replace 'localhost' with the fcSDK Web Services server and 'FChoice.WebServices.Clarify' with the correct virtual directory where the web services are installed.
 
@@ -50,7 +50,7 @@ Because there are limits on what types may be serialized, it is often necessary 
 
 For example, in the FChoice.Toolkit.Clarify.Support namespaces there are setup objects for each of the toolkit APIs that allow one to specify invocation data for a particular API. To extend this behavior to a web service implementation, protocol classes where created for each of these setup object. The fcSDK Web Services use these protocol objects for input parameters and for return results.
 
-[C#] 
+[C#]
 ```csharp
 // Signature for standard SupportToolkit.CreateCase()
 public ToolkitResult CreateCase(CreateCaseSetup setupParam)
@@ -98,7 +98,7 @@ The base client classes live in the FChoice.WebServices.Clarify.Client namespace
 
 The starting point in engaging the web service client is to create an instance of the ClarifyApplicationWS class which takes a single parameter that is the URL of the location where the fcSDK Web Services were installed.
 
-[C#] 
+[C#]
 ```csharp
 ClarifyApplicationWS application = new ClarifyApplicationWS("http://myserver/FChoice.WebServices.Clarify/");
 ```
@@ -107,7 +107,7 @@ There are several methods that can be called on ClarifyApplicationWS for getting
 
 As with standard fcSDK, you create a session object by calling CreateSession().
 
-[C#] 
+[C#]
 ```csharp
 ClarifyApplicationWS application = new ClarifyApplicationWS("http://myserver/FChoice.WebServices.Clarify/");
 
@@ -135,21 +135,21 @@ The fcSDK Web Services Client contains toolkit classes for each of the fcSDK API
 Each of these toolkit classes can be instantiated by passing a valid ClarifySessionWS.
 
 
-[C#] 
+[C#]
 ```csharp
 SupportToolkitWS supportWS = new SupportToolkitWS( session );
 ```
 
 You may then call the non setup APIs directly.
 
-[C#] 
+[C#]
 ```csharp
 ToolkitResultProtocol result = supportWS.CreateCase(siteIDNum, firstName, lastName, phone);
 ```
 
 The toolkit API result will contain the same properties as the result of the equivalent fcSDK toolkit API.
 
-[C#] 
+[C#]
 ```csharp
 Console.WriteLine( "IDNum : {0}", result.IDNum );
 Console.WriteLine( "Objid : {0}", result.Objid );
@@ -166,7 +166,7 @@ ReturnCode : 0
 
 You may also choose to create a setup object to pass into the API just as you would with the native fcSDK API Toolkits. The following is a more complete example:
 
-[C#] 
+[C#]
 ```csharp
 // Create ClarifyApplicationWS
 ClarifyApplicationWS application = new ClarifyApplicationWS("http://myserver/FChoice.WebServices.Clarify/");

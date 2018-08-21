@@ -1,4 +1,4 @@
-﻿### EncryptString(DataProtectionStore,String,String) Method
+### EncryptString(DataProtectionStore,String,String) Method
 
 Specifies which key store to use (User or Machine)
 
@@ -21,7 +21,7 @@ Public Overloads Shared Function EncryptString( _
 ```
 
 ```csharp
-public static string EncryptString( 
+public static string EncryptString(
    DataProtectionStore _keyStore_,
    string _plainText_,
    string _entropy_
@@ -46,12 +46,12 @@ The entropy, or "password" to use to decrypt this data. The value must be the sa
 
 It is important not to lose the entropy used to encrypt this data. If the entropy is lost, the data cannot be decrypted. If the entropy must be stored, do not store it with the encrypted payload.
 
-![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
+![warning](../images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 
-[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)  
-[DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)  
+[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)
+[DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)
 [Overload List](FChoice.Common~FChoice.Common.DataProtector~EncryptString.md)

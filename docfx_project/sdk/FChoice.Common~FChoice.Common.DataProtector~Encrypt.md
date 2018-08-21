@@ -1,4 +1,4 @@
-﻿### Encrypt Method
+### Encrypt Method
 
 Encrypts a byte array
 
@@ -13,7 +13,7 @@ Encrypts a byte array using optional entropy
 
 #### Remarks
 
-![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
+![warning](../images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
 
@@ -21,5 +21,5 @@ Encrypts a byte array using optional entropy
 
 #### Reference
 
-[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)  
+[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)
 [DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)

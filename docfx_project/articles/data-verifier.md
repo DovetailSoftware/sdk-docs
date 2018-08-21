@@ -4,7 +4,7 @@
 
 The **fcSDK** ships with a Data Verifier program that will validate the integrity of certain data in the database.
 
-In order to prevent unexpected errors when using the **fcSDK**, it is best to verify the integrity of your data using the Data Verifier. 
+In order to prevent unexpected errors when using the **fcSDK**, it is best to verify the integrity of your data using the Data Verifier.
 
 If any issues are found, it is recommended that you correct them before trying to use an **fcSDK** based application.
 
@@ -20,15 +20,15 @@ If any issues are found, it is recommended that you correct them before trying t
 * Tests to make sure all states/provinces are not orphaned from their countries
 * Tests to check to make sure all countries are pointed to valid time zones
 * And more!
- 
+
 ### To run the Data Verifier:
 
 * Start the Data Verifier application
 * Fill in the login parameters and click the *Connect* button<br>
-    ![login](/images/verifier_login.png)
+    ![login](../images/verifier_login.png)
 * Click the *Start* button<br>
-    ![verifier](/images/verifier.png)
+    ![verifier](../images/verifier.png)
 * If any tests return an error, double-click the test for more details<br>
-    ![error](/images/verifier_error.png)<br>
-    ![error2](/images/verifier_error2.png)
+    ![error](../images/verifier_error.png)<br>
+    ![error2](../images/verifier_error2.png)
 * If any issues are found, it is recommended that you correct them before trying to use an **fcSDK** based application

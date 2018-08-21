@@ -1,4 +1,4 @@
-﻿### Decrypt(DataProtectionStore,Byte\[\],Byte\[\]) Method
+### Decrypt(DataProtectionStore,Byte\[\],Byte\[\]) Method
 
 Specifies which key store to use (User or Machine)
 
@@ -21,7 +21,7 @@ Public Overloads Shared Function Decrypt( _
 ```
 
 ```csharp
-public static byte[] Decrypt( 
+public static byte[] Decrypt(
    DataProtectionStore _keyStore_,
    Byte[] _cipherBytes_,
    Byte[] _entropy_
@@ -44,12 +44,12 @@ The entropy, or "password" to use to decrypt this data. The value must be the sa
 
 #### Remarks
 
-![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
+![warning](../images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
 
 #### Reference
 
-[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)  
-[DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)  
+[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)
+[DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)
 [Overload List](FChoice.Common~FChoice.Common.DataProtector~Decrypt.md)

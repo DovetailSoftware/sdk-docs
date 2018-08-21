@@ -16729,7 +16729,7 @@
             href: FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankQuoteSetup~WipBin.md
           - name: YankDate Property
             href: FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Sales.YankQuoteSetup~YankDate.md
-               
+
 ### FChoice.Toolkits.Clarify.Support Namespace
   - name: FChoice.Toolkits.Clarify.Support Namespace
     href: FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support_namespace.md
@@ -18887,6 +18887,1063 @@
           items:
           - name: Now Property
             href: FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Support.IApplicationClock~Now.md
-
 - name: COM Compatibility API Reference
-  href: toc/api.com/toc.yml
+  items:
+  - name: FCFL Compatibility
+    items:
+    - name: FCApplication
+      items:
+      - name: Overview
+        href: fcfl_html/fcapp_overview.md
+      - name: Methods
+        items:
+        - name: CreateSession
+          href: fcfl_html/CreateSession.md
+        - name: FindString
+          href: fcfl_html/FindString.md
+        - name: GetCountryList
+          href: fcfl_html/GetCountryList.md
+        - name: GetCountryObjid
+          href: fcfl_html/GetCountryObjid.md
+        - name: GetDefaultCountry
+          href: fcfl_html/GetDefaultCountry.md
+        - name: GetDefaultCountryObjid
+          href: fcfl_html/GetDefaultCountryObjid.md
+        - name: GetDefaultState
+          href: fcfl_html/GetDefaultState.md
+        - name: GetDefaultStateObjid
+          href: fcfl_html/GetDefaultStateObjid.md
+        - name: GetDefaultTimeZone
+          href: fcfl_html/GetDefaultTimeZone.md
+        - name: GetDefaultTimeZoneObjid
+          href: fcfl_html/GetDefaultTimeZoneObjid.md
+        - name: GetFullStateObjid
+          href: fcfl_html/GetFullStateObjid.md
+        - name: GetGbstDefault
+          href: fcfl_html/GetGbstDefault.md
+        - name: GetGbstElmByID
+          href: fcfl_html/GetGbstElmByID.md
+        - name: GetGbstElmObjid
+          href: fcfl_html/GetGbstElmObjid.md
+        - name: GetGbstElmRankObjid
+          href: fcfl_html/GetGbstElmRankObjid.md
+        - name: GetGbstList
+          href: fcfl_html/GetGbstList.md
+        - name: GetHgbstElmDefaultObjid
+          href: fcfl_html/GetHgbstElmDefaultObjid.md
+        - name: GetHgbstElmDefault
+          href: fcfl_html/GetHgbstElmDefault.md
+        - name: GetHgbstElmObjid
+          href: fcfl_html/GetHgbstElmObjid.md
+        - name: GetHgbstList
+          href: fcfl_html/GetHgbstList.md
+        - name: GetLocalizedGbstElmByID
+          href: fcfl_html/GetGbstElmByID.md
+        - name: GetLocalizedGbstDefault
+          href: fcfl_html/GetGbstDefault.md
+        - name: GetMachineTimeZone
+          href: fcfl_html/GetMachineTimeZone.md
+        - name: GetRelationData
+          href: fcfl_html/GetRelationData.md
+        - name: GetServerTimeZoneOffset
+          href: fcfl_html/GetServerTimeZoneOffset.md
+        - name: GetShortTimeZoneObjid
+          href: fcfl_html/GetShortTimeZoneObjid.md
+        - name: GetStateObjid
+          href: fcfl_html/GetStateObjid.md
+        - name: GetStates
+          href: fcfl_html/GetStates.md
+        - name: GetTableID
+          href: fcfl_html/GetTableID.md
+        - name: GetTableName
+          href: fcfl_html/GetTableName.md
+        - name: GetTimeZoneList
+          href: fcfl_html/GetTimeZoneList.md
+        - name: GetTimeZoneObjid
+          href: fcfl_html/GetTimeZoneObjid.md
+        - name: GetTimeZoneOffset
+          href: fcfl_html/GetTimeZoneOffset.md
+        - name: GetTimeZonesInCountry
+          href: fcfl_html/GetTimeZonesInCountry.md
+        - name: Initialize
+          href: fcfl_html/fcfl_Initialize.md
+        - name: InitializeFull
+          href: fcfl_html/InitializeFull.md
+        - name: is_it_a_field
+          href: fcfl_html/is_it_a_field.md
+        - name: is_it_a_table
+          href: fcfl_html/is_it_a_table.md
+        - name: is_it_change_field
+          href: fcfl_html/is_it_change_field.md
+        - name: is_it_date_field
+          href: fcfl_html/is_it_date_field.md
+        - name: is_it_int_field
+          href: fcfl_html/is_it_int_field.md
+        - name: is_it_searchable
+          href: fcfl_html/is_it_searchable.md
+        - name: is_it_string_fld
+          href: fcfl_html/is_it_string_fld.md
+        - name: is_it_unicode
+          href: fcfl_html/is_it_unicode.md
+        - name: is_rel_exclusive
+          href: fcfl_html/is_rel_exclusive.md
+        - name: is_rel_mandatory
+          href: fcfl_html/is_rel_mandatory.md
+        - name: IsCountry
+          href: fcfl_html/IsCountry.md
+        - name: IsFullState
+          href: fcfl_html/IsFullState.md
+        - name: IsInGbstLst
+          href: fcfl_html/IsInGbstLst.md
+        - name: IsInHgbstLst
+          href: fcfl_html/IsInHgbstLst.md
+        - name: IsOnDST
+          href: fcfl_html/IsOnDST.md
+        - name: IsState
+          href: fcfl_html/IsState.md
+        - name: IsTimeZone
+          href: fcfl_html/IsTimeZone.md
+        - name: IsTimeZoneInCountry
+          href: fcfl_html/IsTimeZoneInCountry.md
+        - name: Log(FCApplication)
+        - name: LogEx(FCApplication)
+        - name: RankIsInGbstList
+          href: fcfl_html/RankIsInGbstList.md
+        - name: SetServerTimeZoneToMachineTimeZone
+          href: fcfl_html/SetServerTimeZoneToMachineTimeZone.md
+        - name: UpdateCache
+          href: fcfl_html/UpdateCache.md
+        - name: UpdateSchemaCache
+          href: fcfl_html/UpdateSchemaCache.md
+      - name: Properties
+        items:
+        - name: db_name
+          href: fcfl_html/db_name.md
+        - name: db_type
+          href: fcfl_html/db_type.md
+        - name: IsDBTraveler
+          href: fcfl_html/IsDBTraveler.md
+        - name: Midnight
+          href: fcfl_html/Midnight.md
+        - name: schema_rev
+          href: fcfl_html/schema_rev.md
+        - name: ServerTimeZone
+          href: fcfl_html/ServerTimeZone.md
+        - name: WorkingDirectory
+          href: fcfl_html/WorkingDirectory.md
+    - name: FCBulk
+      items:
+      - name: Overview
+        href: fcfl_html/fcbulk_overview.md
+      - name: Methods
+        items:
+        - name: NewEnum(FCBulk)
+          href: fcfl_html/NewEnum(FCBulk).md
+        - name: Query(FCBulk)
+          href: fcfl_html/Query(FCBulk).md
+        - name: RemoveAllGenerics
+          href: fcfl_html/RemoveAllGenerics.md
+        - name: Update(FCBulk)
+          href: fcfl_html/Update(FCBulk).md
+        - name: UpdateAll(FCBulk)
+          href: fcfl_html/UpdateAll(FCBulk).md
+      - name: Properties
+        items:
+        - name: BulkID
+          href: fcfl_html/BulkID.md
+        - name: Name
+          href: fcfl_html/Name.md
+        - name: NoSorting
+          href: fcfl_html/NoSorting.md
+    - name: FCGeneric
+      items:
+      - name: Overview
+        href: fcfl_html/fcgeneric_overview.md
+      - name: Methods
+        items:
+        - name: AddForUpdate
+          href: fcfl_html/AddForUpdate.md
+        - name: AddNew
+          href: fcfl_html/AddNew.md
+        - name: AppendFilter
+          href: fcfl_html/AppendFilter.md
+        - name: AppendSort
+          href: fcfl_html/AppendSort.md
+        - name: ClearRoot
+          href: fcfl_html/ClearRoot.md
+        - name: CloseGeneric
+          href: fcfl_html/CloseGeneric.md
+        - name: Copy
+          href: fcfl_html/Copy.md
+        - name: Count(FCGeneric)
+          href: fcfl_html/Count(FCGeneric).md
+        - name: Delete
+          href: fcfl_html/Delete.md
+        - name: DeleteAll
+          href: fcfl_html/DeleteAll.md
+        - name: Duplicate
+          href: fcfl_html/Duplicate.md
+        - name: GetField
+          href: fcfl_html/GetField.md
+        - name: MoveFirst
+          href: fcfl_html/MoveFirst.md
+        - name: MoveLast
+          href: fcfl_html/MoveLast.md
+        - name: MoveNext
+          href: fcfl_html/MoveNext.md
+        - name: MovePrevious
+          href: fcfl_html/MovePrevious.md
+        - name: MoveRelative
+          href: fcfl_html/MoveRelative.md
+        - name: MoveFirstAbsolute
+          href: fcfl_html/MoveFirstAbsolute.md
+        - name: MoveLastAbsolute
+          href: fcfl_html/MoveLastAbsolute.md
+        - name: MoveNextAbsolute
+          href: fcfl_html/MoveNextAbsolute.md
+        - name: MovePreviousAbsolute
+          href: fcfl_html/MovePreviousAbsolute.md
+        - name: Query(FCGeneric)
+          href: fcfl_html/Query(FCGeneric).md
+        - name: RelateByID
+          href: fcfl_html/RelateByID.md
+        - name: RelateIntFldByID
+          href: fcfl_html/RelateIntFldByID.md
+        - name: RelateIntFldToRecord
+          href: fcfl_html/RelateIntFldToRecord.md
+        - name: RelateRecords
+          href: fcfl_html/RelateRecords.md
+        - name: RequeryForInserts
+          href: fcfl_html/RequeryForInserts.md
+        - name: SimpleQuery
+          href: fcfl_html/SimpleQuery.md
+        - name: TotalCount
+          href: fcfl_html/TotalCount.md
+        - name: TraverseFromParent
+          href: fcfl_html/TraverseFromParent.md
+        - name: TraverseFromRoot
+          href: fcfl_html/TraverseFromRoot.md
+        - name: UnRelateAll
+          href: fcfl_html/UnRelateAll.md
+        - name: UnRelateRecordFromAll
+          href: fcfl_html/UnRelateRecordFromAll.md
+        - name: UnRelateRecords
+          href: fcfl_html/UnRelateRecords.md
+        - name: UnTraverse
+          href: fcfl_html/UnTraverse.md
+        - name: Update(FCGeneric)
+          href: fcfl_html/Update(FCGeneric).md
+        - name: UpdateAll(FCGeneric)
+          href: fcfl_html/UpdateAll(FCGeneric).md
+      - name: Properties
+        items:
+        - name: BOF
+          href: fcfl_html/BOF.md
+        - name: Bulk
+          href: fcfl_html/Bulk.md
+        - name: BulkName
+          href: fcfl_html/BulkName.md
+        - name: DataFields
+          href: fcfl_html/DataFields.md
+        - name: DBObjectName
+          href: fcfl_html/DBObjectName.md
+        - name: DBObjectNum
+          href: fcfl_html/DBObjectNum.md
+        - name: Distinct(FCGeneric)
+          href: fcfl_html/Distinct(FCGeneric).md
+        - name: ErrorOnQueryTooBig
+          href: fcfl_html/ErrorOnQueryTooBig.md
+        - name: EOF
+          href: fcfl_html/EOF.md
+        - name: Fields
+          href: fcfl_html/Fields.md
+        - name: Filter
+          href: fcfl_html/Filter.md
+        - name: GenericID
+          href: fcfl_html/GenericID.md
+        - name: ID
+          href: fcfl_html/ID.md
+        - name: IncludeRelations(FCGeneric)
+          href: fcfl_html/IncludeRelations(FCGeneric).md
+        - name: MaxRecords
+          href: fcfl_html/MaxRecords.md
+        - name: NoRes(FCGeneric)
+          href: fcfl_html/NoRes(FCGeneric).md
+        - name: NowStr
+          href: fcfl_html/NowStr.md
+        - name: ParentBO
+          href: fcfl_html/ParentBO.md
+        - name: ParentRelation
+          href: fcfl_html/ParentRelation.md
+        - name: Position
+          href: fcfl_html/Position.md
+        - name: QueryEmptyToNull(FCGeneric)
+          href: fcfl_html/QueryEmptyToNull(FCGeneric).md
+        - name: QuerySQL
+          href: fcfl_html/QuerySQL.md
+        - name: Records(FCGeneric)
+          href: fcfl_html/Records(FCGeneric).md
+        - name: RowLimit(FCGeneric)
+          href: fcfl_html/RowLimit(FCGeneric).md
+        - name: RowsReturned
+          href: fcfl_html/RowsReturned.md
+        - name: SetNullStringsToEmpty(FCGeneric)
+          href: fcfl_html/SetNullStringsToEmpty(FCGeneric).md
+        - name: SortOrder
+          href: fcfl_html/SortOrder.md
+    - name: FCList
+      items:
+      - name: Overview
+        href: fcfl_html/fclist_overview.md
+      - name: Methods
+        items:
+        - name: Clear
+          href: fcfl_html/Clear.md
+        - name: Concat
+          href: fcfl_html/Concat.md
+        - name: Contains
+          href: fcfl_html/Contains.md
+        - name: CopyList
+          href: fcfl_html/CopyList.md
+        - name: Down
+          href: fcfl_html/Down.md
+        - name: FindFirstIndex
+          href: fcfl_html/FindFirstIndex.md
+        - name: GetItemByIndex
+          href: fcfl_html/GetItemByIndex.md
+        - name: ItemByIndex
+          href: fcfl_html/ItemByIndex.md
+        - name: ListByIndex
+          href: fcfl_html/ListByIndex.md
+        - name: RemoveByIndex
+          href: fcfl_html/RemoveByIndex.md
+        - name: ReplaceByIndex
+          href: fcfl_html/ReplaceByIndex.md
+        - name: Sort
+          href: fcfl_html/Sort.md
+        - name: Up
+          href: fcfl_html/Up.md
+      - name: Properties
+        items:
+        - name: AllowDuplicates
+          href: fcfl_html/AllowDuplicates.md
+        - name: AppendItem
+          href: fcfl_html/AppendItem.md
+        - name: Count(FCList)
+          href: fcfl_html/Count(FCList).md
+        - name: ItemType
+          href: fcfl_html/ItemType.md
+        - name: Sorted
+          href: fcfl_html/Sorted.md
+    - name: FCSession
+      items:
+      - name: Overview
+        href: fcfl_html/fcsession_overview.md
+      - name: Methods
+        items:
+        - name: AddAttachment
+          href: fcfl_html/AddAttachment.md
+        - name: CloseAllGenerics
+          href: fcfl_html/CloseAllGenerics.md
+        - name: CloseGenerics
+          href: fcfl_html/CloseGenerics.md
+        - name: ChangePassword
+          href: fcfl_html/ChangePassword.md
+        - name: ChangeResGroup
+          href: fcfl_html/ChangeResGroup.md
+        - name: CloseSession
+          href: fcfl_html/CloseSession.md
+        - name: CommitTransaction
+          href: fcfl_html/CommitTransaction.md
+        - name: ConvertDate
+          href: fcfl_html/ConvertDate.md
+        - name: ConvertFromLocalToServerTZ
+          href: fcfl_html/ConvertFromLocalToServerTZ.md
+        - name: ConvertFromServerToLocalTZ
+          href: fcfl_html/ConvertFromServerToLocalTZ.md
+        - name: CreateBulk
+          href: fcfl_html/CreateBulk.md
+        - name: CreateGeneric
+          href: fcfl_html/CreateGeneric.md
+        - name: CreateSqlExec
+          href: fcfl_html/CreateSqlExec.md
+        - name: GetColor
+          href: fcfl_html/GetColor.md
+        - name: GetConfigItem
+          href: fcfl_html/GetConfigItem.md
+        - name: GetCurrentDate
+          href: fcfl_html/GetCurrentDate.md
+        - name: GetCurrentServerDate
+          href: fcfl_html/GetCurrentServerDate.md
+        - name: GetItem
+          href: fcfl_html/GetItem.md
+        - name: GetNextNumScheme
+          href: fcfl_html/GetNextNumScheme.md
+        - name: GetNextSubcaseID
+          href: fcfl_html/GetNextSubcaseID.md
+        - name: GetUserVersion
+          href: fcfl_html/GetUserVersion.md
+        - name: IsUnicode
+          href: fcfl_html/IsUnicode.md
+        - name: ItemCount
+          href: fcfl_html/ItemCount.md
+        - name: LoadColors
+          href: fcfl_html/LoadColors.md
+        - name: LoadUserVersions
+          href: fcfl_html/LoadUserVersions.md
+        - name: Log(FCSession)
+          href: fcfl_html/Log(FCSession).md
+        - name: LogEx(FCSession)
+          href: fcfl_html/LogEx(FCSession).md
+        - name: Login
+          href: fcfl_html/Login.md
+        - name: LoginFromFCApp
+          href: fcfl_html/LoginFromFCApp.md
+        - name: Logout
+          href: fcfl_html/Logout.md
+        - name: NewEnum(FCSession)
+          href: fcfl_html/NewEnum(FCSession).md
+        - name: RefreshContext
+          href: fcfl_html/RefreshContext.md
+        - name: RemoveAllGenericsinABulk
+          href: fcfl_html/RemoveAllGenericsinABulk.md
+        - name: RollbackTransaction
+          href: fcfl_html/RollbackTransaction.md
+        - name: SetPassword
+          href: fcfl_html/SetPassword.md
+        - name: StartTransaction
+          href: fcfl_html/StartTransaction.md
+      - name: Properties
+        items:
+        - name: Distinct(FCSession)
+          href: fcfl_html/Distinct(FCSession).md
+        - name: IncludeRelations(FCSession)
+          href: fcfl_html/IncludeRelations(FCSession).md
+        - name: Item
+          href: fcfl_html/Item.md
+        - name: LocalTimeZone
+          href: fcfl_html/LocalTimeZone.md
+        - name: LocalTimeZoneOffset
+          href: fcfl_html/LocalTimeZoneOffset.md
+        - name: LoginTime
+          href: fcfl_html/LoginTime.md
+        - name: NoRes(FCSession)
+          href: fcfl_html/NoRes(FCSession).md
+        - name: PasswordRequired
+          href: fcfl_html/PasswordRequired.md
+        - name: QueryEmptyToNull(FCSession)
+          href: fcfl_html/QueryEmptyToNull(FCSession).md
+        - name: RowLimit(FCSession)
+          href: fcfl_html/RowLimit(FCSession).md
+        - name: SessionID
+          href: fcfl_html/SessionID.md
+        - name: SetNullStringsToEmpty(FCSession)
+          href: fcfl_html/SetNullStringsToEmpty(FCSession).md
+        - name: ThrowErrors
+          href: fcfl_html/ThrowErrors.md
+        - name: TruncateStringFields
+          href: fcfl_html/TruncateStringFields.md
+        - name: UpdateTime
+          href: fcfl_html/UpdateTime.md
+    - name: FCSqlExec
+      items:
+      - name: Overview
+        href: fcfl_html/fcsqlexec_overview.md
+      - name: Methods
+        items:
+        - name: AddSqlParameter
+          href: fcfl_html/AddSqlParameter.md
+        - name: Execute
+          href: fcfl_html/Execute.md
+        - name: ExecuteReturnRows
+          href: fcfl_html/ExecuteReturnRows.md
+        - name: OpenConnection
+          href: fcfl_html/OpenConnection.md
+        - name: CloseConnection
+          href: fcfl_html/CloseConnection.md
+      - name: Properties
+        items:
+        - name: Records(FCSQLExec)
+          href: fcfl_html/Records(FCSQLExec).md
+  - name: API Toolkits
+    items:
+    - name: FCCC
+      items:
+      - name: Overview
+        href: toolkit_html/fccc_overview.md
+      - name: Methods
+        items:
+        - name: accept_quote
+          href: toolkit_html/fccc/accept_quote.md
+        - name: add_po_to_sched
+          href: toolkit_html/fccc/add_po_to_sched.md
+        - name: assign_quote
+          href: toolkit_html/fccc/assign_quote.md
+        - name: change_quote_status
+          href: toolkit_html/fccc/change_quote_status.md
+        - name: create_contract
+          href: toolkit_html/fccc/create_contract.md
+        - name: create_price_inst
+          href: toolkit_html/fccc/fccc_create_price_inst.md
+        - name: create_update_schedule
+          href: toolkit_html/fccc/create_update_schedule.md
+        - name: cr_contr_itm
+          href: toolkit_html/fccc/fccc_cr_contr_itm.md
+        - name: delete_sp
+          href: toolkit_html/fccc/delete_sp.md
+        - name: dispatch_quote
+          href: toolkit_html/fccc/dispatch_quote.md
+        - name: forward_quote
+          href: toolkit_html/fccc/forward_quote.md
+        - name: initialize
+          href: toolkit_html/fccc/fccc_initialize.md
+        - name: log_contract_note
+          href: toolkit_html/fccc/log_contract_note.md
+        - name: move_quote
+          href: toolkit_html/fccc/move_quote.md
+        - name: reject_contract
+          href: toolkit_html/fccc/reject_contract.md
+        - name: reject_quote
+          href: toolkit_html/fccc/reject_quote.md
+        - name: relate_contr_itm_to_sp
+          href: toolkit_html/fccc/relate_contr_itm_to_sp.md
+        - name: reopen_contract
+          href: toolkit_html/fccc/reopen_contract.md
+        - name: yank_quote
+          href: toolkit_html/fccc/yank_quote.md
+      - name: Properties
+        items:
+        - name: ret_id_num
+          href: toolkit_html/ret_id_num.md
+        - name: ret_objid
+          href: toolkit_html/ret_objid.md
+        - name: ret_num
+          href: toolkit_html/ret_num.md
+        - name: ret_string
+          href: toolkit_html/ret_string.md
+    - name: FCCL
+      items:
+      - name: Overview
+        href: toolkit_html/fccl_overview.md
+      - name: Methods
+        items:
+        - name: accept_pr
+          href: toolkit_html/fccl/accept_pr.md
+        - name: add_alt_part
+          href: toolkit_html/fccl/add_alt_part.md
+        - name: add_gl_account
+          href: toolkit_html/fccl/add_gl_account.md
+        - name: add_inv_bin
+          href: toolkit_html/fccl/add_inv_bin.md
+        - name: add_inv_location
+          href: toolkit_html/fccl/add_inv_location.md
+        - name: add_lss
+          href: toolkit_html/fccl/add_lss.md
+        - name: assign_pr
+          href: toolkit_html/fccl/assign_pr.md
+        - name: change_pr_status
+          href: toolkit_html/fccl/change_pr_status.md
+        - name: close_pr
+          href: toolkit_html/fccl/close_pr.md
+        - name: create_container
+          href: toolkit_html/fccl/create_container.md
+        - name: delete_alt_part
+          href: toolkit_html/fccl/delete_alt_part.md
+        - name: delete_lss
+          href: toolkit_html/fccl/delete_lss.md
+        - name: dispatch_pr
+          href: toolkit_html/fccl/dispatch_pr.md
+        - name: forward_pr
+          href: toolkit_html/fccl/forward_pr.md
+        - name: fulfill
+          href: toolkit_html/fccl/fulfill.md
+        - name: get_alt_parts
+          href: toolkit_html/fccl/get_alt_parts.md
+        - name: get_loc_serv_site
+          href: toolkit_html/fccl/get_loc_serv_site.md
+        - name: make_pr_detail
+          href: toolkit_html/fccl/make_pr_detail.md
+        - name: make_pr_header
+          href: toolkit_html/fccl/make_pr_header.md
+        - name: modify_gl_account
+          href: toolkit_html/fccl/modify_gl_account.md
+        - name: modify_inv_bin
+          href: toolkit_html/fccl/modify_inv_bin.md
+        - name: modify_inv_location
+          href: toolkit_html/fccl/modify_inv_location.md
+        - name: modify_lss
+          href: toolkit_html/fccl/modify_lss.md
+        - name: mod_part_stocking_lev
+          href: toolkit_html/fccl/mod_part_stocking_lev.md
+        - name: move_pr
+          href: toolkit_html/fccl/move_pr.md
+        - name: open_container
+          href: toolkit_html/fccl/open_container.md
+        - name: part_transfer
+          href: toolkit_html/fccl/part_transfer.md
+        - name: pick
+          href: toolkit_html/fccl/pick.md
+        - name: receive_pr
+          href: toolkit_html/fccl/receive_pr.md
+        - name: reject_pr
+          href: toolkit_html/fccl/reject_pr.md
+        - name: reopen_pr
+          href: toolkit_html/fccl/reopen_pr.md
+        - name: seal_container
+          href: toolkit_html/fccl/seal_container.md
+        - name: set_cl_transition
+          href: toolkit_html/fccl/set_cl_transition.md
+        - name: set_part_stocking_lev
+          href: toolkit_html/fccl/set_part_stocking_lev.md
+        - name: ship
+          href: toolkit_html/fccl/ship.md
+        - name: unpick
+          href: toolkit_html/fccl/unpick.md
+        - name: update_pr_detail
+          href: toolkit_html/fccl/update_pr_detail.md
+        - name: update_pr_header
+          href: toolkit_html/fccl/update_pr_header.md
+        - name: yank_pr
+          href: toolkit_html/fccl/yank_pr.md
+      - name: Properties
+        items:
+        - name: ret_id_num
+          href: toolkit_html/ret_id_num.md
+        - name: ret_objid
+          href: toolkit_html/ret_objid.md
+        - name: ret_num
+          href: toolkit_html/ret_num.md
+        - name: ret_string
+          href: toolkit_html/ret_string.md
+    - name: FCCQ
+      items:
+      - name: Overview
+        href: toolkit_html/fccq_overview.md
+      - name: Methods
+        items:
+        - name: accept_cr
+          href: toolkit_html/fccq/accept_cr.md
+        - name: add_module_to_cr
+          href: toolkit_html/fccq/add_module_to_cr.md
+        - name: assign_cr
+          href: toolkit_html/fccq/assign_cr.md
+        - name: change_cr_state
+          href: toolkit_html/fccq/change_cr_state.md
+        - name: change_cr_status
+          href: toolkit_html/fccq/change_cr_status.md
+        - name: check_cq_trans
+          href: toolkit_html/fccq/check_cq_trans.md
+        - name: close_cr
+          href: toolkit_html/fccq/close_cr.md
+        - name: create_cr
+          href: toolkit_html/fccq/create_cr.md
+        - name: dispatch_cr
+          href: toolkit_html/fccq/dispatch_cr.md
+        - name: duplicate_cr
+          href: toolkit_html/fccq/duplicate_cr.md
+        - name: fix_cr
+          href: toolkit_html/fccq/fix_cr.md
+        - name: fix_failed
+          href: toolkit_html/fccq/fix_failed.md
+        - name: forward_cr
+          href: toolkit_html/fccq/forward_cr.md
+        - name: Initialize
+          href: toolkit_html/fccq/fccq_initialize.md
+        - name: log_cr_email
+          href: toolkit_html/fccq/log_cr_email.md
+        - name: log_cr_note
+          href: toolkit_html/fccq/log_cr_note.md
+        - name: modify_cr
+          href: toolkit_html/fccq/modify_cr.md
+        - name: move_cr
+          href: toolkit_html/fccq/move_cr.md
+        - name: reject_cr
+          href: toolkit_html/fccq/reject_cr.md
+        - name: reopen_cr
+          href: toolkit_html/fccq/reopen_cr.md
+        - name: replicate_cr
+          href: toolkit_html/fccq/replicate_cr.md
+        - name: yank_cr
+          href: toolkit_html/fccq/yank_cr.md
+      - name: Properties
+        items:
+        - name: ret_id_num
+          href: toolkit_html/ret_id_num.md
+        - name: ret_objid
+          href: toolkit_html/ret_objid.md
+    - name: FCCS
+      items:
+      - name: Overview
+        href: toolkit_html/fccs_overview.md
+      - name: Methods
+        items:
+        - name: accept_case
+          href: toolkit_html/fccs/accept_case.md
+        - name: accept_subcase
+          href: toolkit_html/fccs/accept_subcase.md
+        - name: assign_case
+          href: toolkit_html/fccs/assign_case.md
+        - name: assign_subcase
+          href: toolkit_html/fccs/assign_subcase.md
+        - name: change_case_status
+          href: toolkit_html/fccs/change_case_status.md
+        - name: change_contact
+          href: toolkit_html/fccs/change_contact.md
+        - name: change_subcase_status
+          href: toolkit_html/fccs/change_subcase_status.md
+        - name: close_case
+          href: toolkit_html/fccs/close_case.md
+        - name: close_subcase
+          href: toolkit_html/fccs/close_subcase.md
+        - name: create_case
+          href: toolkit_html/fccs/create_case.md
+        - name: create_subcase
+          href: toolkit_html/fccs/create_subcase.md
+        - name: dispatch_case
+          href: toolkit_html/fccs/dispatch_case.md
+        - name: dispatch_subcase
+          href: toolkit_html/fccs/dispatch_subcase.md
+        - name: forward_case
+          href: toolkit_html/fccs/forward_case.md
+        - name: forward_subcase
+          href: toolkit_html/fccs/forward_subcase.md
+        - name: fulfill_commitment
+          href: toolkit_html/fccs/fulfill_commitment.md
+        - name: initial_response
+          href: toolkit_html/fccs/initial_response.md
+        - name: initialize
+          href: toolkit_html/fccs/fccs_initialize.md
+        - name: log_case_commit
+          href: toolkit_html/fccs/log_case_commit.md
+        - name: log_case_email
+          href: toolkit_html/fccs/log_case_email.md
+        - name: log_case_note
+          href: toolkit_html/fccs/log_case_note.md
+        - name: log_case_phone
+          href: toolkit_html/fccs/log_case_phone.md
+        - name: log_case_resrch
+          href: toolkit_html/fccs/log_case_resrch.md
+        - name: log_subcase_commit
+          href: toolkit_html/fccs/log_subcase_commit.md
+        - name: log_subcase_email
+          href: toolkit_html/fccs/log_subcase_email.md
+        - name: log_subcase_note
+          href: toolkit_html/fccs/log_subcase_note.md
+        - name: log_subcase_phone
+          href: toolkit_html/fccs/log_subcase_phone.md
+        - name: log_subcase_resrch
+          href: toolkit_html/fccs/log_subcase_resrch.md
+        - name: modify_case
+          href: toolkit_html/fccs/modify_case.md
+        - name: modify_case_commit
+          href: toolkit_html/fccs/modify_case_commit.md
+        - name: modify_subcase
+          href: toolkit_html/fccs/modify_subcase.md
+        - name: move_case
+          href: toolkit_html/fccs/move_case.md
+        - name: move_subcase
+          href: toolkit_html/fccs/move_subcase.md
+        - name: preclose_case
+          href: toolkit_html/fccs/preclose_case.md
+        - name: preclose_subcase
+          href: toolkit_html/fccs/preclose_subcase.md
+        - name: reject_case
+          href: toolkit_html/fccs/reject_case.md
+        - name: reject_subcase
+          href: toolkit_html/fccs/reject_subcase.md
+        - name: relate_case_to_parent
+          href: toolkit_html/fccs/relate_case_to_parent.md
+        - name: reopen_case
+          href: toolkit_html/fccs/reopen_case.md
+        - name: reopen_subcase
+          href: toolkit_html/fccs/reopen_subcase.md
+        - name: unrelate_case_from_parent
+          href: toolkit_html/fccs/unrelate_case_from_parent.md
+        - name: yank_case
+          href: toolkit_html/fccs/yank_case.md
+        - name: yank_subcase
+          href: toolkit_html/fccs/yank_subcase.md
+      - name: Properties
+        items:
+        - name: ret_id_num
+          href: toolkit_html/ret_id_num.md
+        - name: ret_objid
+          href: toolkit_html/ret_objid.md
+        - name: ret_objid2
+          href: toolkit_html/ret_objid2.md
+        - name: ret_objid3
+          href: toolkit_html/ret_objid3.md
+    - name: FCDR
+      items:
+      - name: Overview
+        href: toolkit_html/fcdr_overview.md
+      - name: Methods
+        items:
+        - name: create_eco_hdr
+          href: toolkit_html/fcdr/create_eco_hdr.md
+        - name: create_eco_item
+          href: toolkit_html/fcdr/create_eco_item.md
+        - name: create_eco_dtl
+          href: toolkit_html/fcdr/create_eco_dtl.md
+        - name: modify_eco_item
+          href: toolkit_html/fcdr/modify_eco_item.md
+        - name: modify_eco_dtl
+          href: toolkit_html/fcdr/modify_eco_dtl.md
+        - name: delete_eco_item
+          href: toolkit_html/fcdr/delete_eco_item.md
+        - name: delete_eco_detail
+          href: toolkit_html/fcdr/delete_eco_detail.md
+        - name: apply_eco
+          href: toolkit_html/fcdr/apply_eco.md
+        - name: create_dr_labor
+          href: toolkit_html/fcdr/create_dr_labor.md
+        - name: create_dr_mtl
+          href: toolkit_html/fcdr/create_dr_mtl.md
+        - name: modify_dr_labor
+          href: toolkit_html/fcdr/modify_dr_labor.md
+        - name: modify_dr_mtl
+          href: toolkit_html/fcdr/modify_dr_mtl.md
+        - name: delete_dr_labor
+          href: toolkit_html/fcdr/delete_dr_labor.md
+        - name: delete_dr_mtl
+          href: toolkit_html/fcdr/delete_dr_mtl.md
+      - name: Properties
+        items:
+        - name: ret_id_num
+          href: toolkit_html/ret_id_num.md
+        - name: ret_objid
+          href: toolkit_html/ret_objid.md
+    - name: FCINTER
+      items:
+      - name: Overview
+        href: toolkit_html/fcinter_overview.md
+      - name: Methods
+        items:
+        - name: accept_solution
+          href: toolkit_html/fcinter/accept_solution.md
+        - name: add_contact_to_contract
+          href: toolkit_html/fcinter/add_contact_to_contract.md
+        - name: add_emp_to_bus_org
+          href: toolkit_html/fcinter/add_emp_to_bus_org.md
+        - name: add_site_part_to_contract
+          href: toolkit_html/fcinter/add_site_part_to_contract.md
+        - name: add_site_to_bus_org
+          href: toolkit_html/fcinter/add_site_to_bus_org.md
+        - name: add_site_to_contract
+          href: toolkit_html/fcinter/add_site_to_contract.md
+        - name: add_user_to_queue
+          href: toolkit_html/fcinter/add_user_to_queue.md
+        - name: add_workaround
+          href: toolkit_html/fcinter/add_workaround.md
+        - name: allow_duplicate_contact
+          href: toolkit_html/fcinter/allow_duplicate_contact.md
+        - name: assign_solution
+          href: toolkit_html/fcinter/assign_solution.md
+        - name: create_address
+          href: toolkit_html/fcinter/create_address.md
+        - name: create_bom
+          href: toolkit_html/fcinter/create_bom.md
+        - name: create_contact
+          href: toolkit_html/fcinter/create_contact.md
+        - name: create_country
+          href: toolkit_html/fcinter/create_country.md
+        - name: create_employee
+          href: toolkit_html/fcinter/create_employee.md
+        - name: create_interact
+          href: toolkit_html/fcinter/create_interact.md
+        - name: create_price_inst
+          href: toolkit_html/fcinter/fcinter_create_price_inst.md
+        - name: create_product_bin
+          href: toolkit_html/fcinter/create_product_bin.md
+        - name: create_soln
+          href: toolkit_html/fcinter/create_soln.md
+        - name: create_state
+          href: toolkit_html/fcinter/create_state.md
+        - name: create_time_zone
+          href: toolkit_html/fcinter/create_time_zone.md
+        - name: create_update_account
+          href: toolkit_html/fcinter/create_update_account.md
+        - name: create_update_contract
+          href: toolkit_html/fcinter/create_update_contract.md
+        - name: create_update_mod_level
+          href: toolkit_html/fcinter/create_update_mod_level.md
+        - name: create_update_part
+          href: toolkit_html/fcinter/create_update_part.md
+        - name: create_update_queue
+          href: toolkit_html/fcinter/create_update_queue.md
+        - name: create_update_site
+          href: toolkit_html/fcinter/create_update_site.md
+        - name: create_update_wipbin
+          href: toolkit_html/fcinter/create_update_wipbin.md
+        - name: deinstall_sp
+          href: toolkit_html/fcinter/deinstall_sp.md
+        - name: delete_product_bin
+          href: toolkit_html/fcinter/delete_product_bin.md
+        - name: dispatch_solution
+          href: toolkit_html/fcinter/dispatch_solution.md
+        - name: forward_solution
+          href: toolkit_html/fcinter/forward_solution.md
+        - name: install_sp
+          href: toolkit_html/fcinter/install_sp.md
+        - name: link_case_to_workaround
+          href: toolkit_html/fcinter/link_case_to_workaround.md
+        - name: link_cr_to_soln
+          href: toolkit_html/fcinter/link_cr_to_soln.md
+        - name: modify_product_bin
+          href: toolkit_html/fcinter/modify_product_bin.md
+        - name: mooify_sp
+          href: toolkit_html/fcinter/modify_sp.md
+        - name: move_solution
+          href: toolkit_html/fcinter/move_solution.md
+        - name: move_sp
+          href: toolkit_html/fcinter/move_sp.md
+        - name: reinstall_sp
+          href: toolkit_html/fcinter/reinstall_sp.md
+        - name: reject_solution
+          href: toolkit_html/fcinter/reject_solution.md
+        - name: remove_emp_from_bus_org
+          href: toolkit_html/fcinter/remove_emp_from_bus_org.md
+        - name: remove_site_from_bus_org
+          href: toolkit_html/fcinter/remove_site_from_bus_org.md
+        - name: unlink_case_from_workaround
+          href: toolkit_html/fcinter/unlink_case_from_workaround.md
+        - name: unlink_cr_from_soln
+          href: toolkit_html/fcinter/unlink_cr_from_soln.md
+        - name: update_address
+          href: toolkit_html/fcinter/update_address.md
+        - name: update_contact
+          href: toolkit_html/fcinter/update_contact.md
+        - name: update_price_inst
+          href: toolkit_html/fcinter/update_price_inst.md
+        - name: yank_solution
+          href: toolkit_html/fcinter/yank_solution.md
+      - name: Properties
+        items:
+        - name: ret_id_num
+          href: toolkit_html/ret_id_num.md
+        - name: ret_objid
+          href: toolkit_html/ret_objid.md
+        - name: ret_objid2
+          href: toolkit_html/ret_objid2.md
+    - name: FCSFA
+      items:
+      - name: Overview
+        href: toolkit_html/fcsfa_overview.md
+      - name: Methods
+        items:
+        - name: accept_action_item
+          href: toolkit_html/fcsfa/accept_action_item.md
+        - name: assign_action_item
+          href: toolkit_html/fcsfa/assign_action_item.md
+        - name: assign_lead
+          href: toolkit_html/fcsfa/assign_lead.md
+        - name: change_action_item_status
+          href: toolkit_html/fcsfa/change_action_item_status.md
+        - name: change_task_cond
+          href: toolkit_html/fcsfa/change_task_cond.md
+        - name: close_opp
+          href: toolkit_html/fcsfa/close_opp.md
+        - name: cr_contr_itm
+          href: toolkit_html/fcsfa/fcsfa_cr_contr_itm.md
+        - name: create_action_item
+          href: toolkit_html/fcsfa/create_action_item.md
+        - name: create_opp
+          href: toolkit_html/fcsfa/create_opp.md
+        - name: create_quote
+          href: toolkit_html/fcsfa/create_quote.md
+        - name: create_update_lead
+          href: toolkit_html/fcsfa/create_update_lead.md
+        - name: dispatch_action_item
+          href: toolkit_html/fcsfa/dispatch_action_item.md
+        - name: forward_action_item
+          href: toolkit_html/fcsfa/forward_action_item.md
+        - name: lead_opp
+          href: toolkit_html/fcsfa/lead_opp.md
+        - name: log_lead_note
+          href: toolkit_html/fcsfa/log_lead_note.md
+        - name: log_lead_phone
+          href: toolkit_html/fcsfa/log_lead_phone.md
+        - name: lose_opp
+          href: toolkit_html/fcsfa/lose_opp.md
+        - name: modify_opp
+          href: toolkit_html/fcsfa/modify_opp.md
+        - name: opp_opp
+          href: toolkit_html/fcsfa/opp_opp.md
+        - name: reject_action_item
+          href: toolkit_html/fcsfa/reject_action_item.md
+        - name: reopen_opp
+          href: toolkit_html/fcsfa/reopen_opp.md
+        - name: update_action_item
+          href: toolkit_html/fcsfa/update_action_item.md
+        - name: win_opp
+          href: toolkit_html/fcsfa/win_opp.md
+        - name: yank_action_item
+          href: toolkit_html/fcsfa/yank_action_item.md
+      - name: Properties
+        items:
+        - name: ret_id_num
+          href: toolkit_html/ret_id_num.md
+        - name: ret_objid
+          href: toolkit_html/ret_objid.md
+        - name: ret_objid2
+          href: toolkit_html/ret_objid2.md
+    - name: FCFO
+      items:
+      - name: Overview
+        href: toolkit_html/fcfo_overview.md
+      - name: Methods
+        items:
+        - name: add_svc_inter
+          href: toolkit_html/fcfo/add_svc_inter.md
+        - name: create_expense_log
+          href: toolkit_html/fcfo/create_expense_log.md
+        - name: create_onsite_log
+          href: toolkit_html/fcfo/create_onsite_log.md
+        - name: create_time_log
+          href: toolkit_html/fcfo/create_time_log.md
+        - name: deinstall_sp
+          href: toolkit_html/fcfo/deinstall_sp.md
+        - name: delete_appt
+          href: toolkit_html/fcfo/delete_appt.md
+        - name: delete_expense_log
+          href: toolkit_html/fcfo/delete_expense_log.md
+        - name: delete_onsite_log
+          href: toolkit_html/fcfo/delete_onsite_log.md
+        - name: delete_svc_inter
+          href: toolkit_html/fcfo/delete_svc_inter.md
+        - name: delete_time_log
+          href: toolkit_html/fcfo/delete_time_log.md
+        - name: dispatch_fe
+          href: toolkit_html/fcfo/dispatch_fe.md
+        - name: install_sp
+          href: toolkit_html/fcfo/install_sp.md
+        - name: log_parts_used
+          href: toolkit_html/fcfo/log_parts_used.md
+        - name: make_appt
+          href: toolkit_html/fcfo/make_appt.md
+        - name: modify_appt
+          href: toolkit_html/fcfo/modify_appt.md
+        - name: modify_expense_log
+          href: toolkit_html/fcfo/modify_expense_log.md
+        - name: modify_sp
+          href: toolkit_html/fcfo/modify_sp.md
+        - name: modify_svc_inter
+          href: toolkit_html/fcfo/modify_svc_inter.md
+        - name: modify_time_log
+          href: toolkit_html/fcfo/modify_time_log.md
+        - name: move_sp
+          href: toolkit_html/fcfo/move_sp.md
+        - name: part_transfer
+          href: toolkit_html/fcfo/part_transfer.md
+        - name: reinstall_sp
+          href: toolkit_html/fcfo/reinstall_sp.md
+      - name: Properties
+        items:
+        - name: ret_id_num
+          href: toolkit_html/ret_id_num.md
+        - name: ret_objid
+          href: toolkit_html/ret_objid.md
+        - name: ret_objid2
+          href: toolkit_html/ret_objid2.md
+        - name: ret_string
+          href: toolkit_html/ret_string.md

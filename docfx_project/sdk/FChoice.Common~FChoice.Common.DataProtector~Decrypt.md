@@ -1,4 +1,4 @@
-﻿### Decrypt Method
+### Decrypt Method
 
 Decrypts a byte array of data into a new byte array of unencrypted data
 
@@ -13,7 +13,7 @@ Decrypts a byte array of data, with optional entropy, into a new byte array of 
 
 #### Remarks
 
-![warning](/images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
+![warning](../images/warning.gif)** WARNING**:  The encryption produced by this class is only usable from the machine on which the encryption occurred. The encrypted text cannot be used by a different computer.
 
 [!include[Requirements](../partials/requirements.md)]
 
@@ -21,5 +21,5 @@ Decrypts a byte array of data, with optional entropy, into a new byte array of 
 
 #### Reference
 
-[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)  
+[DataProtector Class](FChoice.Common~FChoice.Common.DataProtector.md)
 [DataProtector Members](FChoice.Common~FChoice.Common.DataProtector_members.md)
