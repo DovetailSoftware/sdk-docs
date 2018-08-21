@@ -14,7 +14,8 @@ Another set of libraries worth noting are the new Microsoft&trade; .NET-based FC
 * [Getting Started](articles/getting-started.md)<br/>Provides a quick checklist for getting started navigating the documentation and using the fcSDK
 * [Overview of the fcSDK](articles/overview.md)<br/>Describes the basic architecture and features of the fcSDK
 * [Guide to the features in the fcSDK](articles/feature-guide.md)<br/>Highlights the features of the **fcSDK** and advantages over previous versions
-* [What's New in the **fcSDK** (Version History)](articles/version-history.md)<br/>Describes the changes from one version to another of the fcSDK
+* [What's New in the **fcSDK**](articles/whatsnew.md)<br/>What has changed in the latest version of the fcSDK
+* [fcSDK Version History](articles/version-history.md)<br/>Describes the changes from one version to another of the fcSDK
 * Using and Configuring the fcSDK
     * [Developer Walkthrough - FCFL.NET Objects](articles/walkthroughs/fcfl-net-objects.md)
     * [Developer Walkthrough - Toolkit Fundamentals](articles/walkthroughs/toolkit.md)
