@@ -1,7 +1,5 @@
 ## What's New - Version 3.6.0
 
-[comment]: <> (The Enhancements h4 header line is required for automated building)
-
 #### Enhancements
 
 * Core:

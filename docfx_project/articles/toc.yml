@@ -6,7 +6,9 @@
   href: overview.md
 - name: fcSDK Feature Guide
   href: feature-guide.md
-- name: What's New in the fcSDK (Version History)
+- name: What's New in the fcSDK
+  href: whatsnew.md
+- name: fcSDK Version History
   href: version-history.md
 - name: System Requirements
   href: system-requirements.md
