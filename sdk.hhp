@@ -1890,10 +1890,10 @@ docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundat
 docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_act_entry(IFCGeneric,String,Int32,Int32,String,IFCGeneric,String,String,Object).html
 docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_act_entry(IFCGeneric,String,Int32,Int32,String,IFCGeneric,String,String,String,Object).html
 docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_act_entry.html
-docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(IFCGeneric,IFCGeneric,String,IFCGeneric,String,Int32,String,String,Object).html
-docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(IFCGeneric,IFCGeneric,String,IFCGeneric,String,Int32,String,String,String,Object).html
-docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(Int32,IFCGeneric,IFCGeneric,String,IFCGeneric,Int32,String,String,Object).html
-docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(Int32,IFCGeneric,IFCGeneric,String,IFCGeneric,Int32,String,String,String,Object).html
+docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(IFCGen,IFCGen,String,IFCGen,String,Int32,String,String,Object).html
+docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(IFCGen,IFCGen,String,IFCGen,String,Int32,String,String,String,Object).html
+docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(Int32,IFCGen,IFCGen,String,IFCGen,Int32,String,String,Object).html
+docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(Int32,IFCGen,IFCGen,String,IFCGen,Int32,String,String,String,Object).html
 docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb.html
 docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~CurrentCulture.html
 docfx_project\_site\sdk\FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~CurrentNetTransaction.html
