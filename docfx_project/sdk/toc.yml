@@ -4160,13 +4160,13 @@
           - name: create_time_bomb Method
             href: FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb.md
           - name: create_time_bomb(IFCGeneric,IFCGeneric,String,IFCGeneric,String,Int32,String,String,Object) Method
-            href: FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(IFCGeneric,IFCGeneric,String,IFCGeneric,String,Int32,String,String,Object).md
+            href: FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(IFCGen,IFCGen,String,IFCGen,String,Int32,String,String,Object).md
           - name: create_time_bomb(IFCGeneric,IFCGeneric,String,IFCGeneric,String,Int32,String,String,String,Object) Method
-            href: FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(IFCGeneric,IFCGeneric,String,IFCGeneric,String,Int32,String,String,String,Object).md
+            href: FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(IFCGen,IFCGen,String,IFCGen,String,Int32,String,String,String,Object).md
           - name: create_time_bomb(Int32,IFCGeneric,IFCGeneric,String,IFCGeneric,Int32,String,String,Object) Method
-            href: FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(Int32,IFCGeneric,IFCGeneric,String,IFCGeneric,Int32,String,String,Object).md
+            href: FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(Int32,IFCGen,IFCGen,String,IFCGen,Int32,String,String,Object).md
           - name: create_time_bomb(Int32,IFCGeneric,IFCGeneric,String,IFCGeneric,Int32,String,String,String,Object) Method
-            href: FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(Int32,IFCGeneric,IFCGeneric,String,IFCGeneric,Int32,String,String,String,Object).md
+            href: FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~create_time_bomb(Int32,IFCGen,IFCGen,String,IFCGen,Int32,String,String,String,Object).md
           - name: createBulk Method
             href: FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility.FCSession~createBulk.md
           - name: CreateGeneric Method
