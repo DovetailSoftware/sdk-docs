@@ -1,8 +1,4 @@
-﻿### CopyTo Method (DataParameterCollection)
-
-Copies the parameters in this collection to the specified collection.
-
-Copies the parameters in this collection to the specified array or another DataParameterCollection.
+### CopyTo Method (DataParameterCollection)
 
 #### Overload List
 
@@ -19,5 +15,5 @@ The overload that takes a destination DataParameterCollection performs a shallow
 
 #### Reference
 
-[DataParameterCollection Class](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)  
+[DataParameterCollection Class](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)
 [DataParameterCollection Members](FChoice.Common~FChoice.Common.Data.DataParameterCollection_members.md)

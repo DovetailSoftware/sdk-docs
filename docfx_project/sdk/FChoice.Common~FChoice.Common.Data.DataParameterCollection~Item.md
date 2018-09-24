@@ -1,8 +1,4 @@
-﻿### Item Property (DataParameterCollection)
-
-Gets or sets the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) associated with the specific name in the collection.
-
-Gets or sets the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdataidbdataparameterclasstopic.htm) associated with the specific name or index in the collection.
+### Item Property (DataParameterCollection)
 
 #### Overload List
 
@@ -15,5 +11,5 @@ Gets or sets the [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html
 
 #### Reference
 
-[DataParameterCollection Class](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)  
+[DataParameterCollection Class](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)
 [DataParameterCollection Members](FChoice.Common~FChoice.Common.Data.DataParameterCollection_members.md)

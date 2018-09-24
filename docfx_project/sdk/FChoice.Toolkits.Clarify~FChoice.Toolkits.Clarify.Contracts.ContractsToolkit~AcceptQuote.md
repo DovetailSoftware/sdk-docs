@@ -1,8 +1,4 @@
-﻿### AcceptQuote Method (ContractsToolkit)
-
-Accept the specified Quote from the queue in which it is currently dispatched. This overload takes a set of required parameters for the API.
-
-Accept the specified Quote from the queue in which it is currently dispatched.
+### AcceptQuote Method (ContractsToolkit)
 
 #### Overload List
 
@@ -22,6 +18,6 @@ The Quote must be currently dispatched to a queue.
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [AcceptQuoteSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AcceptQuoteSetup.md)

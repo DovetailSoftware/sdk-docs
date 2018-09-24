@@ -1,8 +1,4 @@
-﻿### UpdateEcoLaborDetail Method
-
-Update an ECO Labor Detail. This overload takes a setup object.
-
-Update an ECO Labor Detail.
+### UpdateEcoLaborDetail Method
 
 #### Overload List
 
@@ -17,6 +13,6 @@ Update an ECO Labor Detail.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [UpdateEcoLaborDetailSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoLaborDetailSetup.md)

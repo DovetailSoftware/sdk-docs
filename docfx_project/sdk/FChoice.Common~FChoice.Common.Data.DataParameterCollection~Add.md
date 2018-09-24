@@ -1,6 +1,4 @@
-﻿### Add Method (DataParameterCollection)
-
-Adds a parameter to this collection for use as a bind variable in the SQL statement.
+### Add Method (DataParameterCollection)
 
 Adds a parameter to this collection for use as a bind variable in the SQL statement.
 
@@ -21,5 +19,5 @@ The parameters added to this collection are stored in order and are used by [Sq
 
 #### Reference
 
-[DataParameterCollection Class](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)  
+[DataParameterCollection Class](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)
 [DataParameterCollection Members](FChoice.Common~FChoice.Common.Data.DataParameterCollection_members.md)

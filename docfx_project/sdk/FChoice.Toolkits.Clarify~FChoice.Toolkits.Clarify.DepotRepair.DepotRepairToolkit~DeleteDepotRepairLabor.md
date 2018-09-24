@@ -1,8 +1,4 @@
-﻿### DeleteDepotRepairLabor Method
-
-Delete a Depot Repair Part. This overload takes a set of required parameters for the API.
-
-Delete a Depot Repair Part.
+### DeleteDepotRepairLabor Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Delete a Depot Repair Part.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [DeleteDepotRepairLaborSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairLaborSetup.md)

@@ -1,4 +1,4 @@
-﻿### RejectPartRequest(RejectPartRequestSetup) Method
+### RejectPartRequest(RejectPartRequestSetup) Method
 
 Setup object for API invocation.
 
@@ -15,7 +15,7 @@ Public Overloads Function RejectPartRequest( _
 ```
 
 ```csharp
-public ToolkitResult RejectPartRequest( 
+public ToolkitResult RejectPartRequest(
    RejectPartRequestSetup _setupParam_
 )
 ```
@@ -38,7 +38,7 @@ The PartRequest must be in open condition, and currently dispatched to a queue.
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~RejectPartRequest.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.RejectPartRequestSetup", Caption="RejectPartRequestSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~RejectPartRequest.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.RejectPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.RejectPartRequestSetup.md)

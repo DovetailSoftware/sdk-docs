@@ -1,4 +1,4 @@
-﻿### DispatchPartRequest(DispatchPartRequestSetup) Method
+### DispatchPartRequest(DispatchPartRequestSetup) Method
 
 Setup object for API invocation.
 
@@ -15,7 +15,7 @@ Public Overloads Function DispatchPartRequest( _
 ```
 
 ```csharp
-public ToolkitResult DispatchPartRequest( 
+public ToolkitResult DispatchPartRequest(
    DispatchPartRequestSetup _setupParam_
 )
 ```
@@ -38,7 +38,7 @@ The PartRequest must be in open condition, and not currently dispatched to a que
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DispatchPartRequest.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup", Caption="DispatchPartRequestSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DispatchPartRequest.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup.md)

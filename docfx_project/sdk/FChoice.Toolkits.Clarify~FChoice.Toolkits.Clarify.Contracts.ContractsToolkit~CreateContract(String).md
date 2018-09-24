@@ -1,8 +1,6 @@
-﻿### CreateContract(String) Method
+### CreateContract(String) Method
 
-The title of the Contract.
-
-Used to create a new contract. This overload takes a set of required parameters for the API.
+Used to create a new contract.
 
 #### Syntax
 
@@ -15,7 +13,7 @@ Public Overloads Function CreateContract( _
 ```
 
 ```csharp
-public ToolkitResult CreateContract( 
+public ToolkitResult CreateContract(
    string _title_
 )
 ```
@@ -41,6 +39,6 @@ Each contract requires a unique, valid title. Everything else is optional. You m
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit~CreateContract.md)

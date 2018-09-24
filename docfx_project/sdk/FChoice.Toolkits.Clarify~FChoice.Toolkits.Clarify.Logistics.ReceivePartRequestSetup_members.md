@@ -1,21 +1,18 @@
-﻿### ReceivePartRequestSetup Class Members
+### ReceivePartRequestSetup Class Members
 
 The following tables list the members exposed by [ReceivePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ReceivePartRequestSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~_ctor.md) | Overloaded.    |
 
-
-
 #### Public Properties
 
 |   | Name | Description |
 | --- | --- | --- |
-| ![Public Property](dotnetimages/publicProperty.png) | [AutoClose](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~AutoClose.md) | Specifies whether the Part Request should be closed if all of the inventory for this Part Request is received (or an overage). If it is already closed, and no other details exist for the header, this parameter specifies whether the Part Request Header should be closed as well.  
-  |
+| ![Public Property](dotnetimages/publicProperty.png) | [AutoClose](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~AutoClose.md) | Specifies whether the Part Request should be closed if all of the inventory for this Part Request is received (or an overage). If it is already closed, and no other details exist for the header, this parameter specifies whether the Part Request Header should be closed as well. |
 | ![Public Property](dotnetimages/publicProperty.png) | [CarrierName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~CarrierName.md) | Element from the 'Carrier' application list. If not set the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [FromGood](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~FromGood.md) | Specifies whether the received inventory from is good stock (true) or bad stock (false)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [FromLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~FromLocation.md) | Inventory location (or expense GL) from which to receive.   |
@@ -25,10 +22,7 @@ Public Constructors
 | ![Public Property](dotnetimages/publicProperty.png) | [PossibleDamage](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~PossibleDamage.md) | Specifies whether the received inventory is possibly damaged (true) or not (false)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Quantity](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~Quantity.md) | The number of parts being received for this Part Request   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ReceiveDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~ReceiveDate.md) | The DateTime the Part Request is received. If not set, the current time is used.   |
-| ![Public Property](dotnetimages/publicProperty.png) | [RouteToTest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~RouteToTest.md) | 
-Specifies whether the received stock should be routed to test (true) or not (false)
-
-  |
+| ![Public Property](dotnetimages/publicProperty.png) | [RouteToTest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~RouteToTest.md) | Specifies whether the received stock should be routed to test (true) or not (false) |
 | ![Public Property](dotnetimages/publicProperty.png) | [SerialNumber](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~SerialNumber.md) | The serial number of the part being Received for this Part Request   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~Status.md) | The new status for the Part Request for the Received condition. If not set, the default status is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ToGood](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~ToGood.md) | Specifies whether the received inventory is being received as good stock (true) or bad stock (false)   |
@@ -37,12 +31,8 @@ Specifies whether the received stock should be routed to test (true) or not (fa
 | ![Public Property](dotnetimages/publicProperty.png) | [UseTransitions](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~UseTransitions.md) | Specifies whether or not to change the Part Request condition   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WaybillName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~WaybillName.md) | Waybill information for this Part Request receipt   |
 
-
-
-
-
 #### Reference
 
-[ReceivePartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(ReceivePartRequestSetup)", Caption="ReceivePartRequest(ReceivePartRequestSetup) Method"**
+[ReceivePartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(ReceivePartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(ReceivePartRequestSetup).md)

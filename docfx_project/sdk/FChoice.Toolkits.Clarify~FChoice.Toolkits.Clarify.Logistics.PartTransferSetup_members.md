@@ -1,14 +1,12 @@
-﻿### PartTransferSetup Class Members
+### PartTransferSetup Class Members
 
 The following tables list the members exposed by [PartTransferSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [PartTransferSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup~_ctor.md) | Overloaded.    |
-
-
 
 #### Public Properties
 
@@ -27,14 +25,10 @@ Public Constructors
 | ![Public Property](dotnetimages/publicProperty.png) | [ToGood](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup~ToGood.md) | Specifies whether the part is being transferred resulting in good stock (true) or bad stock (false)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ToLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup~ToLocation.md) | Inventory location and bin (or GL account) into which the part is being transferred   |
 | ![Public Property](dotnetimages/publicProperty.png) | [TransferDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup~TransferDate.md) | The DateTime the Parts are transferred. If not set, the current time is used.   |
-| ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup~UserName.md) | The user who is transferring the Part. If not set, the session user is used.   |
-
-
-
-
+| ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup~UserName.md) | The user who is transferring the Part. If not set, the session user is used. |
 
 #### Reference
 
-[PartTransferSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer(PartTransferSetup)", Caption="PartTransfer(PartTransferSetup) Method"**
+[PartTransferSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PartTransferSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer(PartTransferSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer(PartTransferSetup).md)

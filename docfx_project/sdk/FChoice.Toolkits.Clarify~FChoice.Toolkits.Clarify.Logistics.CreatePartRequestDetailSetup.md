@@ -1,4 +1,4 @@
-﻿### CreatePartRequestDetailSetup Class
+### CreatePartRequestDetailSetup Class
 
 Used by the [CreatePartRequestDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [CreatePartRequestDetail](FChoice.Toolkits.Clarify~FChoice.Toolkits
 ```vbnet
 'Declaration
 
-Public Class CreatePartRequestDetailSetup 
+Public Class CreatePartRequestDetailSetup
 ```
 
 ```csharp
@@ -20,8 +20,8 @@ public class CreatePartRequestDetailSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup**
 
 #### Requirements
 
@@ -33,6 +33,6 @@ System.Object
 
 #### Reference
 
-[CreatePartRequestDetailSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup)", Caption="CreatePartRequestDetail(CreatePartRequestDetailSetup) Method"**
+[CreatePartRequestDetailSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup).md)

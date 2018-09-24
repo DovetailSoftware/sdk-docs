@@ -1,8 +1,4 @@
-﻿### Log Method (Logger)
-
-Writes a log entry with the specified level (if logging for that level is enabled).
-
-Writes a log entry with the specified level and message.
+### Log Method (Logger)
 
 #### Overload List
 
@@ -21,5 +17,5 @@ It is recommended that you use the individual Log* methods rather than this gene
 
 #### Reference
 
-[Logger Class](FChoice.Common~FChoice.Common.Logger.md)  
+[Logger Class](FChoice.Common~FChoice.Common.Logger.md)
 [Logger Members](FChoice.Common~FChoice.Common.Logger_members.md)

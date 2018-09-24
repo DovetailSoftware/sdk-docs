@@ -1,4 +1,4 @@
-﻿### GetLocationsServicingSite(GetLocationsServicingSiteSetup) Method
+### GetLocationsServicingSite(GetLocationsServicingSiteSetup) Method
 
 Setup object for API invocation.
 
@@ -15,7 +15,7 @@ Public Overloads Function GetLocationsServicingSite( _
 ```
 
 ```csharp
-public GetLocationsServicingSiteResult GetLocationsServicingSite( 
+public GetLocationsServicingSiteResult GetLocationsServicingSite(
    GetLocationsServicingSiteSetup _setupParam_
 )
 ```
@@ -36,7 +36,7 @@ The following values are populated in the GetLocationsServicingSiteResult object
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetLocationsServicingSite.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup", Caption="GetLocationsServicingSiteSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetLocationsServicingSite.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup.md)

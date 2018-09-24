@@ -7,17 +7,17 @@ Used by the [DispatchPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Cla
 ```vbnet
 'Declaration
 
-Public Class DispatchPartRequestSetup 
+Public Class DispatchPartRequestSetup
 ```
 
 ```csharp
-public class DispatchPartRequestSetup 
+public class DispatchPartRequestSetup
 ```
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[DispatchPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DispatchPartRequest(DispatchPartRequestSetup)", Caption="DispatchPartRequest(DispatchPartRequestSetup) Method"**
+[DispatchPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DispatchPartRequestSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DispatchPartRequest(DispatchPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DispatchPartRequest(DispatchPartRequestSetup).md)

@@ -1,8 +1,4 @@
-﻿### DispatchQuote Method (ContractsToolkit)
-
-Dispatch the Quote to the specified queue. This overload takes a set of required parameters for the API.
-
-Dispatch the Quote to the specified queue.
+### DispatchQuote Method (ContractsToolkit)
 
 #### Overload List
 
@@ -22,6 +18,6 @@ The Quote must be in open condition, and not currently dispatched to a queue.
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [DispatchQuoteSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DispatchQuoteSetup.md)

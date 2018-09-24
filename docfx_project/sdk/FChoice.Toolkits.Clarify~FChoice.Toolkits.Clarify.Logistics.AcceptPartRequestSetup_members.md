@@ -1,14 +1,12 @@
-﻿### AcceptPartRequestSetup Class Members
+### AcceptPartRequestSetup Class Members
 
 The following tables list the members exposed by [AcceptPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AcceptPartRequestSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup~_ctor.md) | Initializes a new instance of the AcceptPartRequestSetup class.   |
-
-
 
 #### Public Properties
 
@@ -20,12 +18,8 @@ Public Constructors
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup~UserName.md) | The user who has accepted the PartRequest. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup~WipBin.md) | User's WipBin in which to place the PartRequest. If not set, the UserName's default is used.   |
 
-
-
-
-
 #### Reference
 
-[AcceptPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AcceptPartRequest(AcceptPartRequestSetup)", Caption="AcceptPartRequest(AcceptPartRequestSetup) Method"**
+[AcceptPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AcceptPartRequest(AcceptPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AcceptPartRequest(AcceptPartRequestSetup).md)

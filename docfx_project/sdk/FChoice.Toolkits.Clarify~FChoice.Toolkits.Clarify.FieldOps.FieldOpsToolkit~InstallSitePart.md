@@ -1,8 +1,4 @@
-﻿### InstallSitePart Method
-
-Used to install a site part. This overload takes a setup object and a database transaction.
-
-Used to install a site part.
+### InstallSitePart Method
 
 #### Overload List
 
@@ -23,6 +19,6 @@ The part can be installed at the top level of the site, under another site part 
 
 #### Reference
 
-[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
-[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)  
+[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)
+[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)
 [InstallSitePartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.InstallSitePartSetup.md)

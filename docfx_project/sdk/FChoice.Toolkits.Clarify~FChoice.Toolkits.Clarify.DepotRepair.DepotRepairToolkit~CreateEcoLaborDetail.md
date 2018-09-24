@@ -1,8 +1,4 @@
-﻿### CreateEcoLaborDetail Method
-
-Add a Labor Detail to a ECO Header. This overload takes a set of required parameters for the API.
-
-Add a Labor Detail to a ECO Header.
+### CreateEcoLaborDetail Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Add a Labor Detail to a ECO Header.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [CreateEcoLaborDetailSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoLaborDetailSetup.md)

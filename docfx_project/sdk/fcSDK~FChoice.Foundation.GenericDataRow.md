@@ -1,4 +1,4 @@
-﻿### GenericDataRow Class
+### GenericDataRow Class
 
 Represents a row of data in a [GenericDataTable](fcSDK~FChoice.Foundation.GenericDataTable.md).
 
@@ -8,13 +8,13 @@ Represents a row of data in a [GenericDataTable](fcSDK~FChoice.Foundation.Generi
 'Declaration
 
 <DefaultMemberAttribute("Item")>
-Public MustInherit Class GenericDataRow 
+Public MustInherit Class GenericDataRow
    Inherits System.Data.DataRow
 ```
 
 ```csharp
 [DefaultMemberAttribute("Item")]
-public abstract class GenericDataRow : System.Data.DataRow 
+public abstract class GenericDataRow : System.Data.DataRow
 ```
 
 #### Remarks
@@ -23,10 +23,10 @@ public abstract class GenericDataRow : System.Data.DataRow
 
 #### Inheritance Hierarchy
 
-System.Object  
-[System.Data.DataRow](#)  
-**FChoice.Foundation.GenericDataRow**  
-[FChoice.Foundation.Clarify.ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)  
+System.Object
+[System.Data.DataRow](#)
+[FChoice.Foundation.GenericDataRow**
+[FChoice.Foundation.Clarify.ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)
 
 #### Requirements
 
@@ -38,5 +38,20 @@ System.Object
 
 #### Reference
 
-[GenericDataRow Members](fcSDK~FChoice.Foundation.GenericDataRow_members.md)  
+[GenericDataRow Members](fcSDK~FChoice.Foundation.GenericDataRow_members.md)
+[FChoice.Foundation Namespace](fcSDK~FChoice.Foundation_namespace.md)
+**FChoice.Foundation.GenericDataRow**
+[FChoice.Foundation.Clarify.ClarifyDataRow](fcSDK~FChoice.Foundation.Clarify.ClarifyDataRow.md)
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation](fcSDK~FChoice.Foundation_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
+
+#### Reference
+
+[GenericDataRow Members](fcSDK~FChoice.Foundation.GenericDataRow_members.md)
 [FChoice.Foundation Namespace](fcSDK~FChoice.Foundation_namespace.md)

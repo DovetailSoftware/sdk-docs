@@ -1,12 +1,10 @@
-﻿### Reconfigure Method
-
-Causes LogManager to flush it's configuration and reload it new from the configuration file.
+### Reconfigure Method
 
 #### Overload List
 
 | Overload | Description |
 | --- | --- |
-| [Reconfigure](FChoice.Common~FChoice.Common.LogManager~Reconfigure().md) |   |
+| [Reconfigure](FChoice.Common~FChoice.Common.LogManager~Reconfigure().md) | Causes LogManager to flush it's configuration and reload it new from the configuration file. |
 
 #### Remarks
 
@@ -14,9 +12,7 @@ It is necessary to call this method after the configuration has been changed eit
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
-[LogManager Class](FChoice.Common~FChoice.Common.LogManager.md)  
+[LogManager Class](FChoice.Common~FChoice.Common.LogManager.md)
 [LogManager Members](FChoice.Common~FChoice.Common.LogManager_members.md)

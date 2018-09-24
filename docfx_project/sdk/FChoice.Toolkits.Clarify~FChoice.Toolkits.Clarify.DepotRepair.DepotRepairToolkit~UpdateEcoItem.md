@@ -1,8 +1,4 @@
-﻿### UpdateEcoItem Method
-
-Update an ECO Item. This overload takes a set of required parameters for the API.
-
-Update an ECO Item.
+### UpdateEcoItem Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Update an ECO Item.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [UpdateEcoItemSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateEcoItemSetup.md)

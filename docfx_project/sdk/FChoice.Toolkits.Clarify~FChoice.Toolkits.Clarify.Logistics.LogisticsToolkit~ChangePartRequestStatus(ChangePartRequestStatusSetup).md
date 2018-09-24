@@ -1,4 +1,4 @@
-﻿### ChangePartRequestStatus(ChangePartRequestStatusSetup) Method
+### ChangePartRequestStatus(ChangePartRequestStatusSetup) Method
 
 Setup object for API invocation.
 
@@ -15,7 +15,7 @@ Public Overloads Function ChangePartRequestStatus( _
 ```
 
 ```csharp
-public ToolkitResult ChangePartRequestStatus( 
+public ToolkitResult ChangePartRequestStatus(
    ChangePartRequestStatusSetup _setupParam_
 )
 ```
@@ -38,7 +38,7 @@ This API only changes a Part Request's status. To change the condition of the pa
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup", Caption="ChangePartRequestStatusSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup.md)

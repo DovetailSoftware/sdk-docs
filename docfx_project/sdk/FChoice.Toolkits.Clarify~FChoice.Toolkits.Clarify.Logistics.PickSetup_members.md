@@ -1,14 +1,12 @@
-﻿### PickSetup Class Members
+### PickSetup Class Members
 
 The following tables list the members exposed by [PickSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
-| ![Public Constructor](dotnetimages/publicConstructor.png) | [PickSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup~_ctor.md) | Overloaded.    |
-
-
+| ![Public Constructor](dotnetimages/publicConstructor.png) | [PickSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup~_ctor.md) | Overloaded. |
 
 #### Public Properties
 
@@ -24,12 +22,8 @@ Public Constructors
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup~UserName.md) | The user who is picking the Part Request. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseTransitions](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup~UseTransitions.md) | Specifies whether or not to check logistics transitions and change the condition/status of the Part Request Detail during the Pick operation   |
 
-
-
-
-
 #### Reference
 
-[PickSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup)", Caption="Pick(PickSetup) Method"**
+[PickSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup).md)

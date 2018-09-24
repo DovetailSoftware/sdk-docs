@@ -1,4 +1,4 @@
-﻿### CreatePartRequestDetailSetup Class Properties
+### CreatePartRequestDetailSetup Class Properties
 
 For a list of all members of this type, see [CreatePartRequestDetailSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup_members.md).
 
@@ -8,8 +8,7 @@ For a list of all members of this type, see [CreatePartRequestDetailSetup member
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [AdditionalFields](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~AdditionalFields.md) | Allows the specification of additional fields to be updated as part of API invocation.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [CarrierName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~CarrierName.md) | Element from the 'Carrier' application list. If not set the default list value is used.   |
-| ![Public Property](dotnetimages/publicProperty.png) | [ContractItemObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~ContractItemObjid.md) | Objid of contract line item with which to link this Part Request -- see remarks for special usage  
-  |
+| ![Public Property](dotnetimages/publicProperty.png) | [ContractItemObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~ContractItemObjid.md) | Objid of contract line item with which to link this Part Request -- see remarks for special usage |
 | ![Public Property](dotnetimages/publicProperty.png) | [CreateDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~CreateDate.md) | The DateTime the Part Request was created. If not set, the current time is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [DetailType](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~DetailType.md) | Element from the 'RMA Type' application list. If not set the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [DueDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~DueDate.md) | The DateTime the Part Request is due. If not set, the current time is used.   |
@@ -29,12 +28,8 @@ For a list of all members of this type, see [CreatePartRequestDetailSetup member
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~Status.md) | The new status for the Part Request for the Open condition. If not set, the default status is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup~UserName.md) | The user creating the Part Request Detail. If not set, the session user is used.   |
 
-
-
-
-
 #### Reference
 
-[CreatePartRequestDetailSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup)", Caption="CreatePartRequestDetail(CreatePartRequestDetailSetup) Method"**
+[CreatePartRequestDetailSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup).md)

@@ -1,4 +1,4 @@
-﻿### GetAlternatePartsSetup Class
+### GetAlternatePartsSetup Class
 
 Used by the [GetAlternateParts](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetAlternateParts(GetAlternatePartsSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [GetAlternateParts](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clari
 ```vbnet
 'Declaration
 
-Public Class GetAlternatePartsSetup 
+Public Class GetAlternatePartsSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class GetAlternatePartsSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[GetAlternatePartsSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetAlternateParts(GetAlternatePartsSetup)", Caption="GetAlternateParts(GetAlternatePartsSetup) Method"**
+[GetAlternatePartsSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetAlternatePartsSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetAlternateParts(GetAlternatePartsSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetAlternateParts(GetAlternatePartsSetup).md)

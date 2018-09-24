@@ -1,4 +1,4 @@
-﻿### ReopenPartRequestSetup Class
+### ReopenPartRequestSetup Class
 
 Used by the [ReopenPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReopenPartRequest(ReopenPartRequestSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [ReopenPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clari
 ```vbnet
 'Declaration
 
-Public Class ReopenPartRequestSetup 
+Public Class ReopenPartRequestSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class ReopenPartRequestSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[ReopenPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReopenPartRequest(ReopenPartRequestSetup)", Caption="ReopenPartRequest(ReopenPartRequestSetup) Method"**
+[ReopenPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReopenPartRequest(ReopenPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReopenPartRequest(ReopenPartRequestSetup).md)

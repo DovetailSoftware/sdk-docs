@@ -1,8 +1,4 @@
-﻿### MoveQuote Method (ContractsToolkit)
-
-Move the Quote from one WipBin to another WipBin. This overload takes a set of required parameters for the API.
-
-Move the Quote from one WipBin to another WipBin.
+### MoveQuote Method (ContractsToolkit)
 
 #### Overload List
 
@@ -24,6 +20,6 @@ Note: This API allows you to move a queueable object from one WipBin to another,
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [MoveQuoteSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.MoveQuoteSetup.md)

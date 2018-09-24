@@ -1,9 +1,5 @@
 ### DecryptString Method
 
-Decrypts data which was encoded into a string using the Base64 encoding scheme
-
-Decrypts, using optional entropy, data which was encoded into a string using the Base64 encoding scheme
-
 #### Overload List
 
 | Overload | Description |

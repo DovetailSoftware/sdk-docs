@@ -1,4 +1,4 @@
-﻿### UpdateInventoryLocation(UpdateInventoryLocationSetup) Method
+### UpdateInventoryLocation(UpdateInventoryLocationSetup) Method
 
 Setup object for API invocation.
 
@@ -17,7 +17,7 @@ Public Overloads Function UpdateInventoryLocation( _
 ```
 
 ```csharp
-public ToolkitResult UpdateInventoryLocation( 
+public ToolkitResult UpdateInventoryLocation(
    UpdateInventoryLocationSetup _setupParam_
 )
 ```
@@ -38,7 +38,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryLocation.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup", Caption="UpdateInventoryLocationSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryLocation.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup.md)

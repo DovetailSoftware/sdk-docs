@@ -1,14 +1,12 @@
-﻿### ClosePartRequestSetup Class Members
+### ClosePartRequestSetup Class Members
 
 The following tables list the members exposed by [ClosePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ClosePartRequestSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup~_ctor.md) | Initializes a new instance of the ClosePartRequestSetup class.   |
-
-
 
 #### Public Properties
 
@@ -22,10 +20,8 @@ Public Constructors
 
 
 
-
-
 #### Reference
 
-[ClosePartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ClosePartRequest(ClosePartRequestSetup)", Caption="ClosePartRequest(ClosePartRequestSetup) Method"**
+[ClosePartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ClosePartRequest(ClosePartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ClosePartRequest(ClosePartRequestSetup).md)

@@ -1,4 +1,4 @@
-﻿### SetPartStockingLevel(SetPartStockingLevelSetup) Method
+### SetPartStockingLevel(SetPartStockingLevelSetup) Method
 
 Setup object for API invocation.
 
@@ -15,7 +15,7 @@ Public Overloads Function SetPartStockingLevel( _
 ```
 
 ```csharp
-public ToolkitResult SetPartStockingLevel( 
+public ToolkitResult SetPartStockingLevel(
    SetPartStockingLevelSetup _setupParam_
 )
 ```
@@ -36,7 +36,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetPartStockingLevel.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup", Caption="SetPartStockingLevelSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetPartStockingLevel.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup.md)

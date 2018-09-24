@@ -1,4 +1,4 @@
-﻿### AssignPartRequestSetup Class Properties
+### AssignPartRequestSetup Class Properties
 
 For a list of all members of this type, see [AssignPartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup_members.md).
 
@@ -13,12 +13,8 @@ For a list of all members of this type, see [AssignPartRequestSetup members](FCh
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup~UserName.md) | The user who has assigned the PartRequest. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup~WipBin.md) | User's WipBin in which to place the PartRequest. If not set, the UserName's default is used.   |
 
-
-
-
-
 #### Reference
 
-[AssignPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AssignPartRequest(AssignPartRequestSetup)", Caption="AssignPartRequest(AssignPartRequestSetup) Method"**
+[AssignPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AssignPartRequest(AssignPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AssignPartRequest(AssignPartRequestSetup).md)

@@ -1,4 +1,4 @@
-﻿### DataParameterCollection Class
+### DataParameterCollection Class
 
 Contains a collection of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbDataParameterClassTopic.htm) objects for use in a database query.
 
@@ -8,12 +8,12 @@ Contains a collection of [IDbDataParameter](ms-help://MS.NETFrameworkSDKv1.1/cp
 'Declaration
 
 <DefaultMemberAttribute("Item")>
-Public Class DataParameterCollection 
+Public Class DataParameterCollection
 ```
 
 ```csharp
 [DefaultMemberAttribute("Item")]
-public class DataParameterCollection 
+public class DataParameterCollection
 ```
 
 #### Remarks
@@ -26,7 +26,7 @@ This allows implementors to not have to worry about the differences in parameter
 
 [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.110).aspx)
 
-**FChoice.Common.Data.DataParameterCollection**  
+[FChoice.Common.Data.DataParameterCollection**
 
 #### Requirements
 
@@ -38,5 +38,19 @@ This allows implementors to not have to worry about the differences in parameter
 
 #### Reference
 
-[DataParameterCollection Members](FChoice.Common~FChoice.Common.Data.DataParameterCollection_members.md)  
+[DataParameterCollection Members](FChoice.Common~FChoice.Common.Data.DataParameterCollection_members.md)
+[FChoice.Common.Data Namespace](FChoice.Common~FChoice.Common.Data_namespace.md)
+**FChoice.Common.Data.DataParameterCollection**
+
+#### Requirements
+
+**Namespace:** [FChoice.Common.Data](FChoice.Common~FChoice.Common.Data_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
+
+#### Reference
+
+[DataParameterCollection Members](FChoice.Common~FChoice.Common.Data.DataParameterCollection_members.md)
 [FChoice.Common.Data Namespace](FChoice.Common~FChoice.Common.Data_namespace.md)

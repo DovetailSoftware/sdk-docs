@@ -1,8 +1,4 @@
-﻿### CreateSchedule Method
-
-Used to create a contract schedule. This overload takes a set of required parameters for the API.
-
-Used to create a contract schedule.
+### CreateSchedule Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Used to create a contract schedule.
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [CreateScheduleSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateScheduleSetup.md)

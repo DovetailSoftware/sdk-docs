@@ -1,8 +1,4 @@
-﻿### DeleteDepotRepairMaterial Method
-
-Delete a Depot Repair Material. This overload takes a set of required parameters for the API.
-
-Delete a Depot Repair Material.
+### DeleteDepotRepairMaterial Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Delete a Depot Repair Material.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [DeleteDepotRepairMaterialSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteDepotRepairMaterialSetup.md)

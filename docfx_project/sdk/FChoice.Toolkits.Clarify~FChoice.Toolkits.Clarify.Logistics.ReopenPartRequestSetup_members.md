@@ -1,14 +1,12 @@
-﻿### ReopenPartRequestSetup Class Members
+### ReopenPartRequestSetup Class Members
 
 The following tables list the members exposed by [ReopenPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ReopenPartRequestSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup~_ctor.md) | Initializes a new instance of the ReopenPartRequestSetup class.   |
-
-
 
 #### Public Properties
 
@@ -21,12 +19,8 @@ Public Constructors
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup~UserName.md) | The user who is reopening the Part Request. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup~WipBin.md) | The WipBin in which to place the Part Request when it is reopened. If not specified, the default WipBin for the session user is used.   |
 
-
-
-
-
 #### Reference
 
-[ReopenPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReopenPartRequest(ReopenPartRequestSetup)", Caption="ReopenPartRequest(ReopenPartRequestSetup) Method"**
+[ReopenPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReopenPartRequest(ReopenPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReopenPartRequest(ReopenPartRequestSetup).md)

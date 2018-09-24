@@ -1,4 +1,4 @@
-﻿### UpdatePartStockingLevelSetup Class
+### UpdatePartStockingLevelSetup Class
 
 Used by the [UpdatePartStockingLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartStockingLevel(UpdatePartStockingLevelSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [UpdatePartStockingLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits
 ```vbnet
 'Declaration
 
-Public Class UpdatePartStockingLevelSetup 
+Public Class UpdatePartStockingLevelSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class UpdatePartStockingLevelSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[UpdatePartStockingLevelSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartStockingLevel(UpdatePartStockingLevelSetup)", Caption="UpdatePartStockingLevel(UpdatePartStockingLevelSetup) Method"**
+[UpdatePartStockingLevelSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartStockingLevelSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartStockingLevel(UpdatePartStockingLevelSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartStockingLevel(UpdatePartStockingLevelSetup).md)

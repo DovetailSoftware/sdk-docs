@@ -1,6 +1,4 @@
-﻿### DepotRepairToolkit Constructor
-
-Initializes a new instance of the DepotRepairToolkit class.
+### DepotRepairToolkit Constructor
 
 #### Overload List
 
@@ -15,5 +13,5 @@ Initializes a new instance of the DepotRepairToolkit class.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
 [DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)

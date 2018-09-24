@@ -1,4 +1,4 @@
-﻿### FCSession Class
+### FCSession Class
 
 **FCSession** contains session information for a logged-in user and allows for manipulation of data in the CRM system as that user.
 
@@ -8,12 +8,12 @@
 'Declaration
 
 <DefaultMemberAttribute("Item")>
-Public MustInherit Class FCSession 
+Public MustInherit Class FCSession
 ```
 
 ```csharp
 [DefaultMemberAttribute("Item")]
-public abstract class FCSession 
+public abstract class FCSession
 ```
 
 #### Remarks
@@ -24,9 +24,9 @@ FCFL.NET sessions are stateful containers that are used to remember information 
 
 #### Inheritance Hierarchy
 
-System.Object  
-**FChoice.Foundation.FCSession**  
-[FChoice.Foundation.Clarify.ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)  
+System.Object
+[FChoice.Foundation.FCSession**
+[FChoice.Foundation.Clarify.ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
 
 #### Requirements
 
@@ -38,5 +38,20 @@ System.Object
 
 #### Reference
 
-[FCSession Members](fcSDK~FChoice.Foundation.FCSession_members.md)  
+[FCSession Members](fcSDK~FChoice.Foundation.FCSession_members.md)
+[FChoice.Foundation Namespace](fcSDK~FChoice.Foundation_namespace.md)
+**FChoice.Foundation.FCSession**
+[FChoice.Foundation.Clarify.ClarifySession](fcSDK~FChoice.Foundation.Clarify.ClarifySession.md)
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation](fcSDK~FChoice.Foundation_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
+
+#### Reference
+
+[FCSession Members](fcSDK~FChoice.Foundation.FCSession_members.md)
 [FChoice.Foundation Namespace](fcSDK~FChoice.Foundation_namespace.md)

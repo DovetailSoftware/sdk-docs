@@ -1,8 +1,4 @@
-﻿### SetLoggerLevel Method
-
-Changes a specific logger's (specified by type) logging level.
-
-Changes a specific logger's logging level.
+### SetLoggerLevel Method
 
 #### Overload List
 
@@ -21,5 +17,5 @@ Changes a specific logger's logging level.
 
 #### Reference
 
-[LogManager Class](FChoice.Common~FChoice.Common.LogManager.md)  
+[LogManager Class](FChoice.Common~FChoice.Common.LogManager.md)
 [LogManager Members](FChoice.Common~FChoice.Common.LogManager_members.md)

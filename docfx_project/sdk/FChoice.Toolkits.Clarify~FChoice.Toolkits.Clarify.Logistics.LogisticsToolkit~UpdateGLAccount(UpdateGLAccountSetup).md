@@ -1,4 +1,4 @@
-﻿### UpdateGLAccount(UpdateGLAccountSetup) Method
+### UpdateGLAccount(UpdateGLAccountSetup) Method
 
 Setup object for API invocation.
 
@@ -15,7 +15,7 @@ Public Overloads Function UpdateGLAccount( _
 ```
 
 ```csharp
-public ToolkitResult UpdateGLAccount( 
+public ToolkitResult UpdateGLAccount(
    UpdateGLAccountSetup _setupParam_
 )
 ```
@@ -36,7 +36,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateGLAccount.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup", Caption="UpdateGLAccountSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateGLAccount.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup.md)

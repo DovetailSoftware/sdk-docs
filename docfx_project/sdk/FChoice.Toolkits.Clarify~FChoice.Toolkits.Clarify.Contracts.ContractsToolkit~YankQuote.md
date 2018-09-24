@@ -1,8 +1,4 @@
-﻿### YankQuote Method (ContractsToolkit)
-
-Yank the Quote from its current location to a new owner's WipBin. This overload takes a set of required parameters for the API.
-
-Yank the Quote from its current location to a new owner's WipBin.
+### YankQuote Method (ContractsToolkit)
 
 #### Overload List
 
@@ -22,6 +18,6 @@ The WipBin to place the Quote in may also be specified. This is augmented functi
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [YankQuoteSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.YankQuoteSetup.md)

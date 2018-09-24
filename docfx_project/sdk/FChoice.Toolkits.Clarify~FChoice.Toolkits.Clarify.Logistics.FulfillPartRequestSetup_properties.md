@@ -1,4 +1,4 @@
-﻿### FulfillPartRequestSetup Class Properties
+### FulfillPartRequestSetup Class Properties
 
 For a list of all members of this type, see [FulfillPartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup_members.md).
 
@@ -21,10 +21,8 @@ For a list of all members of this type, see [FulfillPartRequestSetup members](FC
 
 
 
-
-
 #### Reference
 
-[FulfillPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest(FulfillPartRequestSetup)", Caption="FulfillPartRequest(FulfillPartRequestSetup) Method"**
+[FulfillPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest(FulfillPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest(FulfillPartRequestSetup).md)

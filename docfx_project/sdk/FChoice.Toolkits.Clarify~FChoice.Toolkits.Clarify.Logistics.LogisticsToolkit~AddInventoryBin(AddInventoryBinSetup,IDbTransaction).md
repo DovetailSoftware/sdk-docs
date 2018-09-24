@@ -1,4 +1,4 @@
-﻿### AddInventoryBin(AddInventoryBinSetup,IDbTransaction) Method
+### AddInventoryBin(AddInventoryBinSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -18,7 +18,7 @@ Public Overloads Function AddInventoryBin( _
 ```
 
 ```csharp
-public ToolkitResult AddInventoryBin( 
+public ToolkitResult AddInventoryBin(
    AddInventoryBinSetup _setupParam_,
    IDbTransaction _transaction_
 )
@@ -46,6 +46,6 @@ Example
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
 [Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddInventoryBin.md)

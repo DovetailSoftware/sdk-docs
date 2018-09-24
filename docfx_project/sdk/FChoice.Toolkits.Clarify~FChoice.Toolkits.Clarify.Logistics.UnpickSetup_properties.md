@@ -1,4 +1,4 @@
-﻿### UnpickSetup Class Properties
+### UnpickSetup Class Properties
 
 For a list of all members of this type, see [UnpickSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup_members.md).
 
@@ -15,12 +15,8 @@ For a list of all members of this type, see [UnpickSetup members](FChoice.Toolki
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup~UserName.md) | The user who is unpicking the Part Request. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseTransitions](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup~UseTransitions.md) | Specifies whether or not to check logistics transitions and change the condition/status of the Part Request Detail during the Unpick operation   |
 
-
-
-
-
 #### Reference
 
-[UnpickSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(UnpickSetup)", Caption="Unpick(UnpickSetup) Method"**
+[UnpickSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(UnpickSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(UnpickSetup).md)

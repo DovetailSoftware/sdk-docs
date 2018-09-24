@@ -1,4 +1,4 @@
-﻿### AssignPartRequestSetup Class
+### AssignPartRequestSetup Class
 
 Used by the [AssignPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AssignPartRequest(AssignPartRequestSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [AssignPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clari
 ```vbnet
 'Declaration
 
-Public Class AssignPartRequestSetup 
+Public Class AssignPartRequestSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class AssignPartRequestSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[AssignPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AssignPartRequest(AssignPartRequestSetup)", Caption="AssignPartRequest(AssignPartRequestSetup) Method"**
+[AssignPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AssignPartRequest(AssignPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AssignPartRequest(AssignPartRequestSetup).md)

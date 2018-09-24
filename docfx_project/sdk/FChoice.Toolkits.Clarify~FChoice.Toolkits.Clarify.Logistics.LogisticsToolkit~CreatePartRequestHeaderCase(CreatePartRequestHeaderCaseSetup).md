@@ -1,4 +1,4 @@
-﻿### CreatePartRequestHeaderCase(CreatePartRequestHeaderCaseSetup) Method
+### CreatePartRequestHeaderCase(CreatePartRequestHeaderCaseSetup) Method
 
 Setup object for API invocation.
 
@@ -17,7 +17,7 @@ Public Overloads Function CreatePartRequestHeaderCase( _
 ```
 
 ```csharp
-public ToolkitResult CreatePartRequestHeaderCase( 
+public ToolkitResult CreatePartRequestHeaderCase(
    CreatePartRequestHeaderCaseSetup _setupParam_
 )
 ```
@@ -43,7 +43,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderCase.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup", Caption="CreatePartRequestHeaderCaseSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderCase.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup.md)

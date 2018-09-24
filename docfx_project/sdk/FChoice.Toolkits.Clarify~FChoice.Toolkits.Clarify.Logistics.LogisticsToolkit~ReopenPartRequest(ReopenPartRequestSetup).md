@@ -1,4 +1,4 @@
-﻿### ReopenPartRequest(ReopenPartRequestSetup) Method
+### ReopenPartRequest(ReopenPartRequestSetup) Method
 
 Setup object for API invocation.
 
@@ -17,7 +17,7 @@ Public Overloads Function ReopenPartRequest( _
 ```
 
 ```csharp
-public ToolkitResult ReopenPartRequest( 
+public ToolkitResult ReopenPartRequest(
    ReopenPartRequestSetup _setupParam_
 )
 ```
@@ -42,7 +42,7 @@ This API will validate that the user has authority to make the status transition
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReopenPartRequest.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup", Caption="ReopenPartRequestSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReopenPartRequest.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReopenPartRequestSetup.md)

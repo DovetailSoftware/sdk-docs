@@ -1,4 +1,4 @@
-﻿### Ship(ShipSetup) Method
+### Ship(ShipSetup) Method
 
 Setup object for API invocation.
 
@@ -17,7 +17,7 @@ Public Overloads Function Ship( _
 ```
 
 ```csharp
-public ToolkitResult Ship( 
+public ToolkitResult Ship(
    ShipSetup _setupParam_
 )
 ```
@@ -48,7 +48,7 @@ If no carrier name is provided, the dummy site will be used (objid of -2).
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Ship.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup", Caption="ShipSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Ship.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup.md)

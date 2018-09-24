@@ -1,4 +1,4 @@
-﻿### AddLocationServicingSite(AddLocationServicingSiteSetup) Method
+### AddLocationServicingSite(AddLocationServicingSiteSetup) Method
 
 Setup object for API invocation.
 
@@ -15,7 +15,7 @@ Public Overloads Function AddLocationServicingSite( _
 ```
 
 ```csharp
-public ToolkitResult AddLocationServicingSite( 
+public ToolkitResult AddLocationServicingSite(
    AddLocationServicingSiteSetup _setupParam_
 )
 ```
@@ -36,7 +36,7 @@ The following values are populated in the [ToolkitResult](FChoice.Toolkits.Clari
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddLocationServicingSite.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup", Caption="AddLocationServicingSiteSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddLocationServicingSite.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddLocationServicingSiteSetup.md)

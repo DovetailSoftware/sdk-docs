@@ -1,8 +1,4 @@
-﻿### MoveSitePartToPart Method (FieldOpsToolkit)
-
-Move the SitePartToPart from one WipBin to another WipBin. This overload takes a set of required parameters for the API.
-
-Used to move an existing site part from its current location to underneath another site part within the Clarify site configuration.
+### MoveSitePartToPart Method (FieldOpsToolkit)
 
 #### Overload List
 
@@ -24,6 +20,6 @@ When a site_part is moved, all sub-site_parts underneath it are also moved.
 
 #### Reference
 
-[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
-[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)  
+[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)
+[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)
 [MoveSitePartToPartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.MoveSitePartToPartSetup.md)

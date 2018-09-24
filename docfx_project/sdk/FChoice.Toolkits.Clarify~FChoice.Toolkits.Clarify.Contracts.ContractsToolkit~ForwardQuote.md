@@ -1,8 +1,4 @@
-﻿### ForwardQuote Method (ContractsToolkit)
-
-Reject-forward the Quote from one queue to another. This overload takes a set of required parameters for the API.
-
-Reject-forward the Quote from one queue to another.
+### ForwardQuote Method (ContractsToolkit)
 
 #### Overload List
 
@@ -22,6 +18,6 @@ The Quote must be in open condition, and not currently dispatched to a queue.
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [ForwardQuoteSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ForwardQuoteSetup.md)

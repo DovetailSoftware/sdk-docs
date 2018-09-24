@@ -1,9 +1,5 @@
 ### EncryptString Method
 
-Encrypts a string and returns a Base64-encoded string representing the encrypted output
-
-Encrypts a string, using optional entropy, and returns a Base64-encoded string representing the encrypted output
-
 #### Overload List
 
 | Overload | Description |

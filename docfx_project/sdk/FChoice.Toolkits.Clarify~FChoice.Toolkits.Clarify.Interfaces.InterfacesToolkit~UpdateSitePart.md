@@ -1,6 +1,4 @@
-﻿### UpdateSitePart Method (InterfacesToolkit)
-
-Update a Site Part This overload takes a set of required parameters for the API.
+### UpdateSitePart Method (InterfacesToolkit)
 
 Update a Site Part
 
@@ -19,6 +17,6 @@ Update a Site Part
 
 #### Reference
 
-[InterfacesToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit.md)  
-[InterfacesToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit_members.md)  
+[InterfacesToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit.md)
+[InterfacesToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.InterfacesToolkit_members.md)
 [UpdateSitePartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Interfaces.UpdateSitePartSetup.md)

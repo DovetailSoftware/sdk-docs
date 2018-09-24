@@ -1,4 +1,4 @@
-﻿### ForwardPartRequestSetup Class Properties
+### ForwardPartRequestSetup Class Properties
 
 For a list of all members of this type, see [ForwardPartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ForwardPartRequestSetup_members.md).
 
@@ -15,10 +15,8 @@ For a list of all members of this type, see [ForwardPartRequestSetup members](FC
 
 
 
-
-
 #### Reference
 
-[ForwardPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ForwardPartRequestSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ForwardPartRequest(ForwardPartRequestSetup)", Caption="ForwardPartRequest(ForwardPartRequestSetup) Method"**
+[ForwardPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ForwardPartRequestSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ForwardPartRequest(ForwardPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ForwardPartRequest(ForwardPartRequestSetup).md)

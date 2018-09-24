@@ -1,4 +1,4 @@
-﻿### AddAlternatePartSetup Class Properties
+### AddAlternatePartSetup Class Properties
 
 For a list of all members of this type, see [AddAlternatePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup_members.md).
 
@@ -14,12 +14,8 @@ For a list of all members of this type, see [AddAlternatePartSetup members](FCho
 | ![Public Property](dotnetimages/publicProperty.png) | [PartNumber](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup~PartNumber.md) | The Part number   |
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRevision](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup~PartRevision.md) | The Part revision   |
 
-
-
-
-
 #### Reference
 
-[AddAlternatePartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddAlternatePart(AddAlternatePartSetup)", Caption="AddAlternatePart(AddAlternatePartSetup) Method"**
+[AddAlternatePartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddAlternatePartSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddAlternatePart(AddAlternatePartSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddAlternatePart(AddAlternatePartSetup).md)

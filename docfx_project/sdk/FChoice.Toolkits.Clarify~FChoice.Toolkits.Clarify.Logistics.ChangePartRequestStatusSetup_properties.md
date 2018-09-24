@@ -1,4 +1,4 @@
-﻿### ChangePartRequestStatusSetup Class Properties
+### ChangePartRequestStatusSetup Class Properties
 
 For a list of all members of this type, see [ChangePartRequestStatusSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup_members.md).
 
@@ -13,12 +13,8 @@ For a list of all members of this type, see [ChangePartRequestStatusSetup member
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRequestDetailIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup~PartRequestDetailIDNum.md) | Part Request Detail Identifier   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup~UserName.md) | The user who is changing the status of the Part Request. If not set, the session user is used.   |
 
-
-
-
-
 #### Reference
 
-[ChangePartRequestStatusSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus(ChangePartRequestStatusSetup)", Caption="ChangePartRequestStatus(ChangePartRequestStatusSetup) Method"**
+[ChangePartRequestStatusSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus(ChangePartRequestStatusSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus(ChangePartRequestStatusSetup).md)

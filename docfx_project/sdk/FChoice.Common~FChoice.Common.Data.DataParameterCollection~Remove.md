@@ -1,8 +1,4 @@
-﻿### Remove Method (DataParameterCollection)
-
-Removes a parameter with the specified name from the collection.
-
-Removes a parameter from the collection.
+### Remove Method (DataParameterCollection)
 
 #### Overload List
 
@@ -20,5 +16,5 @@ The **_name_** parameter is the natural name of the parameter. That is, the una
 
 #### Reference
 
-[DataParameterCollection Class](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)  
+[DataParameterCollection Class](FChoice.Common~FChoice.Common.Data.DataParameterCollection.md)
 [DataParameterCollection Members](FChoice.Common~FChoice.Common.Data.DataParameterCollection_members.md)

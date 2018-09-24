@@ -1,8 +1,4 @@
-﻿### DeleteTimeLog Method
-
-This API deletes an existing time log. This overload takes a setup object and a database transaction.
-
-This API deletes an existing time log.
+### DeleteTimeLog Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ This API deletes an existing time log.
 
 #### Reference
 
-[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
-[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)  
+[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)
+[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)
 [DeleteTimeLogSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteTimeLogSetup.md)

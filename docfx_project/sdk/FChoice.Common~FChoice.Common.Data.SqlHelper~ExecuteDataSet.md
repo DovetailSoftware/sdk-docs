@@ -1,8 +1,4 @@
-﻿### ExecuteDataSet Method
-
-Executes the the SQL specified in the [CommandText Property](FChoice.Common~FChoice.Common.Data.SqlHelper~CommandText.md) against the database using the provider specified in the [DataProvider Property](FChoice.Common~FChoice.Common.Data.SqlHelper~DataProvider.md) and returns the results as a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm)
-
-Executes the the specified SQL against the database using the specified [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) and returns the results as a [DataSet](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataDataSetClassTopic.htm)
+### ExecuteDataSet Method
 
 #### Overload List
 
@@ -27,5 +23,5 @@ In no case will the DataSet returned be a null reference (**Nothing** in Visual 
 
 #### Reference
 
-[SqlHelper Class](FChoice.Common~FChoice.Common.Data.SqlHelper.md)  
+[SqlHelper Class](FChoice.Common~FChoice.Common.Data.SqlHelper.md)
 [SqlHelper Members](FChoice.Common~FChoice.Common.Data.SqlHelper_members.md)

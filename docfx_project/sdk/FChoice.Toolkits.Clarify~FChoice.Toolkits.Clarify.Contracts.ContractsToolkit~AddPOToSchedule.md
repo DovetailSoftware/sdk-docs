@@ -1,8 +1,4 @@
-﻿### AddPOToSchedule Method
-
-Used to add purchase orders to schedules of contracts. This overload takes a set of required parameters for the API.
-
-Used to add purchase orders to schedules of contracts.
+### AddPOToSchedule Method
 
 #### Overload List
 
@@ -22,6 +18,6 @@ The PO number cannot be defined already for the schedule.
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [AddPOToScheduleSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.AddPOToScheduleSetup.md)

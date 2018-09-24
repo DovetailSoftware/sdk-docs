@@ -1,8 +1,4 @@
-﻿### CreateTimeLog Method
-
-Used to create a time log that is related to an onsite log. This overload takes a setup object and a database transaction.
-
-Used to create a time log that is related to an onsite log.
+### CreateTimeLog Method
 
 #### Overload List
 
@@ -22,6 +18,6 @@ The objid of the onsite log or a case/subcase id must be supplied (but not both)
 
 #### Reference
 
-[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
-[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)  
+[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)
+[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)
 [CreateTimeLogSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateTimeLogSetup.md)

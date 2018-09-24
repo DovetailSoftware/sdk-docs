@@ -1,8 +1,4 @@
-﻿### LogContractNote Method
-
-Causes a note log to be created and added to the specified contract. This overload takes a set of required parameters for the API.
-
-Causes a note log to be created and added to the specified contract.
+### LogContractNote Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Causes a note log to be created and added to the specified contract.
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [LogContractNoteSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.LogContractNoteSetup.md)

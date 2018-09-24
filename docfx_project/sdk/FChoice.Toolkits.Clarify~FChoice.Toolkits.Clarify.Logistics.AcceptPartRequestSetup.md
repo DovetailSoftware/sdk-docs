@@ -1,4 +1,4 @@
-﻿### AcceptPartRequestSetup Class
+### AcceptPartRequestSetup Class
 
 Used by the [AcceptPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AcceptPartRequest(AcceptPartRequestSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [AcceptPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clari
 ```vbnet
 'Declaration
 
-Public Class AcceptPartRequestSetup 
+Public Class AcceptPartRequestSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class AcceptPartRequestSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[AcceptPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AcceptPartRequest(AcceptPartRequestSetup)", Caption="AcceptPartRequest(AcceptPartRequestSetup) Method"**
+[AcceptPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AcceptPartRequestSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AcceptPartRequest(AcceptPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AcceptPartRequest(AcceptPartRequestSetup).md)

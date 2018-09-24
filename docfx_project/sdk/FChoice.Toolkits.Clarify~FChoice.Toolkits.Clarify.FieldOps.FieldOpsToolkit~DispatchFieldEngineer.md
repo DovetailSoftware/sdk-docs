@@ -1,8 +1,4 @@
-﻿### DispatchFieldEngineer Method
-
-Dispatch the FieldEngineer to the specified queue. This overload takes a set of required parameters for the API.
-
-Used to create a work order to dispatch a field engineer to a site.
+### DispatchFieldEngineer Method
 
 #### Overload List
 
@@ -22,6 +18,6 @@ The contact and site for the dispatch will be derived from the case/subcase. If 
 
 #### Reference
 
-[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
-[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)  
+[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)
+[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)
 [DispatchFieldEngineerSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DispatchFieldEngineerSetup.md)

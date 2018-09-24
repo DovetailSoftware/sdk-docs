@@ -1,4 +1,4 @@
-﻿### Pick Method
+### Pick Method
 
 Allows for multiple pick actions to occur against a part request.
 
@@ -10,35 +10,12 @@ Allows for multiple pick actions to occur against a part request.
 
 | Overload | Description |
 | --- | --- |
-| [Pick(String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(String).md) | 
-Allows for multiple pick actions to occur against a part request.
-
-This overload takes a set of required parameters for the API.   |
-| [Pick(String,String\[\])](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(String,String[]).md) | 
-
-Allows for multiple pick actions to occur against a part request.
-
-This overload takes a set of required parameters for the API.   |
-| [Pick(String,Boolean)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(String,Boolean).md) | 
-
-Allows for multiple pick actions to occur against a part request.
-
-This overload takes a set of required parameters for the API.   |
-| [Pick(String,Boolean,String\[\])](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(String,Boolean,String[]).md) | 
-
-Allows for multiple pick actions to occur against a part request.
-
-This overload takes a set of required parameters for the API.   |
-| [Pick(PickSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup).md) | 
-
-Allows for multiple pick actions to occur against a part request.
-
-This overload takes a setup object.   |
-| [Pick(PickSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup,IDbTransaction).md) | 
-
-Allows for multiple pick actions to occur against a part request.
-
-This overload takes a setup object and a database transaction.   |
+| [Pick(String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(String).md) | Allows for multiple pick actions to occur against a part request. This overload takes a set of required parameters for the API.   |
+| [Pick(String,String\[\])](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(String,String[]).md) | Allows for multiple pick actions to occur against a part request. This overload takes a set of required parameters for the API.   |
+| [Pick(String,Boolean)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(String,Boolean).md) | Allows for multiple pick actions to occur against a part request. This overload takes a set of required parameters for the API.   |
+| [Pick(String,Boolean,String\[\])](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(String,Boolean,String[]).md) | Allows for multiple pick actions to occur against a part request. This overload takes a set of required parameters for the API.   |
+| [Pick(PickSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup).md) | Allows for multiple pick actions to occur against a part request. This overload takes a setup object.   |
+| [Pick(PickSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup,IDbTransaction).md) | Allows for multiple pick actions to occur against a part request. This overload takes a setup object and a database transaction.   |
 
 #### Remarks
 
@@ -54,10 +31,8 @@ To allow for multiple calls to this API to be performed without extra complex t
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup", Caption="PickSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup.md)

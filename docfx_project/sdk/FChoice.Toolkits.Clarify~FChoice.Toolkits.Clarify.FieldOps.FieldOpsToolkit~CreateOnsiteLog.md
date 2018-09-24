@@ -1,8 +1,4 @@
-﻿### CreateOnsiteLog Method
-
-Used to create an onsite log that is related to a case or subcase. This overload takes a setup object and a database transaction.
-
-Used to create an onsite log that is related to a case or subcase.
+### CreateOnsiteLog Method
 
 #### Overload List
 
@@ -22,6 +18,6 @@ The object type and id of the focus object  (the case or subcase) must be suppl
 
 #### Reference
 
-[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
-[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)  
+[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)
+[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)
 [CreateOnsiteLogSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.CreateOnsiteLogSetup.md)

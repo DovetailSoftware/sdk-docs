@@ -1,4 +1,4 @@
-﻿### DeleteAlternatePartSetup Class Properties
+### DeleteAlternatePartSetup Class Properties
 
 For a list of all members of this type, see [DeleteAlternatePartSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup_members.md).
 
@@ -15,10 +15,8 @@ For a list of all members of this type, see [DeleteAlternatePartSetup members](F
 
 
 
-
-
 #### Reference
 
-[DeleteAlternatePartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup)", Caption="DeleteAlternatePart(DeleteAlternatePartSetup) Method"**
+[DeleteAlternatePartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup).md)

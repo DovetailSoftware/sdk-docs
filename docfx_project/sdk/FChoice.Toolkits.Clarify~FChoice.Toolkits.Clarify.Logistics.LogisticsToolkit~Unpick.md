@@ -1,4 +1,4 @@
-﻿### Unpick Method
+### Unpick Method
 
 Allows for the unpicking (unreserving) of inventory parts for a part request.
 
@@ -10,31 +10,31 @@ Allows for the unpicking (unreserving) of inventory parts for a part request.
 
 | Overload | Description |
 | --- | --- |
-| [Unpick(String,Location)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(String,Location).md) | 
+| [Unpick(String,Location)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(String,Location).md) |
 Allows for the unpicking (unreserving) of inventory parts for a part request.
 
 This overload takes a set of required parameters for the API.   |
-| [Unpick(String,Location,String\[\])](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(String,Location,String[]).md) | 
-
-Allows for the unpicking (unreserving) of inventory parts for a part request.
-
-This overload takes a set of required parameters for the API.   |
-| [Unpick(String,Location,Boolean)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(String,Location,Boolean).md) | 
+| [Unpick(String,Location,String\[\])](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(String,Location,String[]).md) |
 
 Allows for the unpicking (unreserving) of inventory parts for a part request.
 
 This overload takes a set of required parameters for the API.   |
-| [Unpick(String,Location,Boolean,String\[\])](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(String,Location,Boolean,String[]).md) | 
+| [Unpick(String,Location,Boolean)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(String,Location,Boolean).md) |
 
 Allows for the unpicking (unreserving) of inventory parts for a part request.
 
 This overload takes a set of required parameters for the API.   |
-| [Unpick(UnpickSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(UnpickSetup).md) | 
+| [Unpick(String,Location,Boolean,String\[\])](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(String,Location,Boolean,String[]).md) |
+
+Allows for the unpicking (unreserving) of inventory parts for a part request.
+
+This overload takes a set of required parameters for the API.   |
+| [Unpick(UnpickSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(UnpickSetup).md) |
 
 Allows for the unpicking (unreserving) of inventory parts for a part request.
 
 This overload takes a setup object.   |
-| [Unpick(UnpickSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(UnpickSetup,IDbTransaction).md) | 
+| [Unpick(UnpickSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(UnpickSetup,IDbTransaction).md) |
 
 Allows for the unpicking (unreserving) of inventory parts for a part request.
 
@@ -52,10 +52,8 @@ If the part request was created using a serialized site part, then in order to u
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup", Caption="UnpickSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup.md)

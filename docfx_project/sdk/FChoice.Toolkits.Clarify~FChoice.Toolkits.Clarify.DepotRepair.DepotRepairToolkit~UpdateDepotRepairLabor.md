@@ -1,8 +1,4 @@
-﻿### UpdateDepotRepairLabor Method
-
-Update a Depot Repair Labor. This overload takes a setup object.
-
-Update a Depot Repair Labor.
+### UpdateDepotRepairLabor Method
 
 #### Overload List
 
@@ -17,6 +13,6 @@ Update a Depot Repair Labor.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [UpdateDepotRepairLaborSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.UpdateDepotRepairLaborSetup.md)

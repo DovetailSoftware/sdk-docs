@@ -1,4 +1,4 @@
-﻿### ReceivePartRequest Method
+### ReceivePartRequest Method
 
 Causes the specified part request to have units received against it.
 
@@ -10,35 +10,12 @@ Causes the specified part request to have units received against it.
 
 | Overload | Description |
 | --- | --- |
-| [ReceivePartRequest(String,Int32,Location)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(String,Int32,Location).md) | 
-Causes the specified part request to have units received against it.
-
-This overload takes a set of required parameters for the API.   |
-| [ReceivePartRequest(String,String,Location)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(String,String,Location).md) | 
-
-Causes the specified part request to have units received against it.
-
-This overload takes a set of required parameters for the API.   |
-| [ReceivePartRequest(String,Int32,Location,Boolean)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(String,Int32,Location,Boolean).md) | 
-
-Causes the specified part request to have units received against it.
-
-This overload takes a set of required parameters for the API.   |
-| [ReceivePartRequest(String,String,Location,Boolean)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(String,String,Location,Boolean).md) | 
-
-Causes the specified part request to have units received against it.
-
-This overload takes a set of required parameters for the API.   |
-| [ReceivePartRequest(ReceivePartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(ReceivePartRequestSetup).md) | 
-
-Causes the specified part request to have units received against it.
-
-This overload takes a setup object.   |
-| [ReceivePartRequest(ReceivePartRequestSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(ReceivePartRequestSetup,IDbTransaction).md) | 
-
-Causes the specified part request to have units received against it.
-
-This overload takes a setup object and a database transaction.   |
+| [ReceivePartRequest(String,Int32,Location)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(String,Int32,Location).md) | Causes the specified part request to have units received against it. This overload takes a set of required parameters for the API.   |
+| [ReceivePartRequest(String,String,Location)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(String,String,Location).md) | Causes the specified part request to have units received against it. This overload takes a set of required parameters for the API.   |
+| [ReceivePartRequest(String,Int32,Location,Boolean)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(String,Int32,Location,Boolean).md) | Causes the specified part request to have units received against it. This overload takes a set of required parameters for the API.   |
+| [ReceivePartRequest(String,String,Location,Boolean)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(String,String,Location,Boolean).md) | Causes the specified part request to have units received against it. This overload takes a set of required parameters for the API.   |
+| [ReceivePartRequest(ReceivePartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(ReceivePartRequestSetup).md) | Causes the specified part request to have units received against it. This overload takes a setup object.   |
+| [ReceivePartRequest(ReceivePartRequestSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest(ReceivePartRequestSetup,IDbTransaction).md) | Causes the specified part request to have units received against it. This overload takes a setup object and a database transaction.   |
 
 #### Remarks
 
@@ -50,14 +27,12 @@ To use a primary bin suggestion/recommendation that has been previously configur
 
 To allow for multiple calls to this API to be performed without extra complex transitions being added to the system, set the [UseTransitions](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup~UseTransitions.md) property of the [ReceivePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup.md) object, or the _useTransitions_ parameter of the respective overloads to false. Note that the last call to [ReceivePartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ReceivePartRequest.md) in the chain of calls should have this value set to true to ensure the transitions are checked and the condition/status is updated properly.
 
-**NOTE**: This API must be called in conjunction with the [PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.md) API to work correctly.  
+**NOTE**: This API must be called in conjunction with the [PartTransfer](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~PartTransfer.md) API to work correctly.
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup", Caption="ReceivePartRequestSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ReceivePartRequestSetup.md)

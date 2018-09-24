@@ -1,8 +1,4 @@
-﻿### LogError Method (Logger)
-
-Writes a ERROR-level log entry if ERROR-level logging is enabled.
-
-Writes an  ERROR-level log entry if ERROR-level logging is enabled.
+### LogError Method (Logger)
 
 #### Overload List
 
@@ -21,5 +17,5 @@ If the current logger is not configured for ERROR-level logging or lower, these 
 
 #### Reference
 
-[Logger Class](FChoice.Common~FChoice.Common.Logger.md)  
+[Logger Class](FChoice.Common~FChoice.Common.Logger.md)
 [Logger Members](FChoice.Common~FChoice.Common.Logger_members.md)

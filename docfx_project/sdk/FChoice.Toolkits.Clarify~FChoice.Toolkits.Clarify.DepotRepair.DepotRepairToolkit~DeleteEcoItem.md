@@ -1,8 +1,4 @@
-﻿### DeleteEcoItem Method
-
-Delete an ECO Item. This overload takes a set of required parameters for the API.
-
-Delete an ECO Item.
+### DeleteEcoItem Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Delete an ECO Item.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [DeleteEcoItemSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoItemSetup.md)

@@ -1,8 +1,4 @@
-﻿### ChangeQuoteStatus Method (ContractsToolkit)
-
-Causes the specified quote to have its status changed. This overload takes a set of required parameters for the API.
-
-Causes the specified quote to have its status changed.
+### ChangeQuoteStatus Method (ContractsToolkit)
 
 #### Overload List
 
@@ -22,6 +18,6 @@ The quote may be in any valid condition, but the status selected MUST be valid f
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [ChangeQuoteStatusSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ChangeQuoteStatusSetup.md)

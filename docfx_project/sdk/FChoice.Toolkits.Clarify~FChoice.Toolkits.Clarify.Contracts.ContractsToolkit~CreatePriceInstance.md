@@ -1,8 +1,4 @@
-﻿### CreatePriceInstance Method (ContractsToolkit)
-
-Used to create a new price instance for a support program. This overload takes a set of required parameters for the API.
-
-Used to create a new price instance for a support program.
+### CreatePriceInstance Method (ContractsToolkit)
 
 #### Overload List
 
@@ -22,6 +18,6 @@ You may specify the part for product based support programs, or leave it blank w
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [CreatePriceInstanceSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreatePriceInstanceSetup.md)

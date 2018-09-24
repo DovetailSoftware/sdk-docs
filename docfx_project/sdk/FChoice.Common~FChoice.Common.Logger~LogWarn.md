@@ -1,8 +1,4 @@
-﻿### LogWarn Method (Logger)
-
-Writes a WARN-level log entry if WARN-level logging is enabled.
-
-Writes an  WARN-level log entry if WARN-level logging is enabled.
+### LogWarn Method (Logger)
 
 #### Overload List
 
@@ -21,5 +17,5 @@ If the current logger is not configured for WARN-level logging or lower, these m
 
 #### Reference
 
-[Logger Class](FChoice.Common~FChoice.Common.Logger.md)  
+[Logger Class](FChoice.Common~FChoice.Common.Logger.md)
 [Logger Members](FChoice.Common~FChoice.Common.Logger_members.md)

@@ -1,8 +1,4 @@
-﻿### CreateDepotRepairMaterial Method
-
-Create a Depot Repair Material to be logged against a Part. This overload takes a set of required parameters for the API.
-
-Create a Depot Repair Material to be logged against a Part.
+### CreateDepotRepairMaterial Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Create a Depot Repair Material to be logged against a Part.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [CreateDepotRepairMaterialSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairMaterialSetup.md)

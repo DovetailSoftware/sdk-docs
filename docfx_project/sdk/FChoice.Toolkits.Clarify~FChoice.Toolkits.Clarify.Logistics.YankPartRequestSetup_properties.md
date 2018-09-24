@@ -1,4 +1,4 @@
-﻿### YankPartRequestSetup Class Properties
+### YankPartRequestSetup Class Properties
 
 For a list of all members of this type, see [YankPartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup_members.md).
 
@@ -12,12 +12,8 @@ For a list of all members of this type, see [YankPartRequestSetup members](FChoi
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup~WipBin.md) | User's WipBin in which to place the PartRequest. If not set, the UserName's default is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [YankDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup~YankDate.md) | DateTime the PartRequest was yanked. If not set, the current time is used.   |
 
-
-
-
-
 #### Reference
 
-[YankPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~YankPartRequest(YankPartRequestSetup)", Caption="YankPartRequest(YankPartRequestSetup) Method"**
+[YankPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.YankPartRequestSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~YankPartRequest(YankPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~YankPartRequest(YankPartRequestSetup).md)

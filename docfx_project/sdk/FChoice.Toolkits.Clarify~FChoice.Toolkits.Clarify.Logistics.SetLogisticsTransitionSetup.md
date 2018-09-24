@@ -1,4 +1,4 @@
-﻿### SetLogisticsTransitionSetup Class
+### SetLogisticsTransitionSetup Class
 
 Used by the [SetLogisticsTransition](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetLogisticsTransition(SetLogisticsTransitionSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [SetLogisticsTransition](FChoice.Toolkits.Clarify~FChoice.Toolkits.
 ```vbnet
 'Declaration
 
-Public Class SetLogisticsTransitionSetup 
+Public Class SetLogisticsTransitionSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class SetLogisticsTransitionSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[SetLogisticsTransitionSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetLogisticsTransition(SetLogisticsTransitionSetup)", Caption="SetLogisticsTransition(SetLogisticsTransitionSetup) Method"**
+[SetLogisticsTransitionSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetLogisticsTransitionSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetLogisticsTransition(SetLogisticsTransitionSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetLogisticsTransition(SetLogisticsTransitionSetup).md)

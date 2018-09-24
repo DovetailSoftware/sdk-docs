@@ -1,4 +1,4 @@
-﻿### ShipSetup Class
+### ShipSetup Class
 
 Used by the [Ship](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Ship(ShipSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [Ship](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.
 ```vbnet
 'Declaration
 
-Public Class ShipSetup 
+Public Class ShipSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class ShipSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.ShipSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.ShipSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[ShipSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Ship(ShipSetup)", Caption="Ship(ShipSetup) Method"**
+[ShipSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Ship(ShipSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Ship(ShipSetup).md)

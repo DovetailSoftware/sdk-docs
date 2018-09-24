@@ -1,4 +1,4 @@
-﻿### CreatePartRequestHeader Method
+### CreatePartRequestHeader Method
 
 Used to create a new part request header.
 
@@ -10,20 +10,9 @@ Used to create a new part request header.
 
 | Overload | Description |
 | --- | --- |
-| [CreatePartRequestHeader(String,String,String,String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeader(String,String,String,String).md) | 
-Used to create a new part request header.
-
-This overload takes a set of required parameters for the API.   |
-| [CreatePartRequestHeader(CreatePartRequestHeaderSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeader(CreatePartRequestHeaderSetup).md) | 
-
-Used to create a new part request header.
-
-This overload takes a setup object.   |
-| [CreatePartRequestHeader(CreatePartRequestHeaderSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeader(CreatePartRequestHeaderSetup,IDbTransaction).md) | 
-
-Used to create a new part request header.
-
-This overload takes a setup object and a database transaction.   |
+| [CreatePartRequestHeader(String,String,String,String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeader(String,String,String,String).md) | Used to create a new part request header. This overload takes a set of required parameters for the API.   |
+| [CreatePartRequestHeader(CreatePartRequestHeaderSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeader(CreatePartRequestHeaderSetup).md) | Used to create a new part request header. This overload takes a setup object.   |
+| [CreatePartRequestHeader(CreatePartRequestHeaderSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeader(CreatePartRequestHeaderSetup,IDbTransaction).md) | Used to create a new part request header. This overload takes a setup object and a database transaction.   |
 
 #### Remarks
 
@@ -37,10 +26,8 @@ To create a Part Request Header for a case or subcase, without respect for dashe
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup", Caption="CreatePartRequestHeaderSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSetup.md)

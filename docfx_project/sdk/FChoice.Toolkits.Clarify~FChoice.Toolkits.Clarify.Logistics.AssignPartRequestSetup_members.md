@@ -1,14 +1,12 @@
-﻿### AssignPartRequestSetup Class Members
+### AssignPartRequestSetup Class Members
 
 The following tables list the members exposed by [AssignPartRequestSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
-| ![Public Constructor](dotnetimages/publicConstructor.png) | [AssignPartRequestSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup~_ctor.md) | Initializes a new instance of the AssignPartRequestSetup class.   |
-
-
+| ![Public Constructor](dotnetimages/publicConstructor.png) | [AssignPartRequestSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup~_ctor.md) | Initializes a new instance of the AssignPartRequestSetup class. |
 
 #### Public Properties
 
@@ -21,12 +19,8 @@ Public Constructors
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup~UserName.md) | The user who has assigned the PartRequest. If not set, the Toolkit session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [WipBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup~WipBin.md) | User's WipBin in which to place the PartRequest. If not set, the UserName's default is used.   |
 
-
-
-
-
 #### Reference
 
-[AssignPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AssignPartRequest(AssignPartRequestSetup)", Caption="AssignPartRequest(AssignPartRequestSetup) Method"**
+[AssignPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AssignPartRequestSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AssignPartRequest(AssignPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AssignPartRequest(AssignPartRequestSetup).md)

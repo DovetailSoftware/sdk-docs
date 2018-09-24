@@ -1,8 +1,4 @@
-﻿### CreateEcoMaterialDetail Method
-
-Add a Material Usage Detail to an ECO Header. This overload takes a set of required parameters for the API.
-
-Add a Material Usage Detail to an ECO Header.
+### CreateEcoMaterialDetail Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Add a Material Usage Detail to an ECO Header.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [CreateEcoMaterialDetailSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoMaterialDetailSetup.md)

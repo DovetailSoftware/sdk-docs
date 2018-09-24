@@ -1,4 +1,4 @@
-﻿### UpdatePartRequestHeaderSetup Class
+### UpdatePartRequestHeaderSetup Class
 
 Used by the [UpdatePartRequestHeader](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartRequestHeader(UpdatePartRequestHeaderSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [UpdatePartRequestHeader](FChoice.Toolkits.Clarify~FChoice.Toolkits
 ```vbnet
 'Declaration
 
-Public Class UpdatePartRequestHeaderSetup 
+Public Class UpdatePartRequestHeaderSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class UpdatePartRequestHeaderSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[UpdatePartRequestHeaderSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartRequestHeader(UpdatePartRequestHeaderSetup)", Caption="UpdatePartRequestHeader(UpdatePartRequestHeaderSetup) Method"**
+[UpdatePartRequestHeaderSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartRequestHeader(UpdatePartRequestHeaderSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartRequestHeader(UpdatePartRequestHeaderSetup).md)

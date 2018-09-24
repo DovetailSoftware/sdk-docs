@@ -1,8 +1,4 @@
-﻿### CreateEcoHeader Method
-
-Create an Engineering Change Order (ECO) Header. This overload takes a set of required parameters for the API.
-
-Create an Engineering Change Order (ECO) Header.
+### CreateEcoHeader Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Create an Engineering Change Order (ECO) Header.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [CreateEcoHeaderSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoHeaderSetup.md)

@@ -1,4 +1,4 @@
-﻿### UpdatePartRequestHeaderSetup Class Properties
+### UpdatePartRequestHeaderSetup Class Properties
 
 For a list of all members of this type, see [UpdatePartRequestHeaderSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup_members.md).
 
@@ -19,12 +19,8 @@ For a list of all members of this type, see [UpdatePartRequestHeaderSetup member
 | ![Public Property](dotnetimages/publicProperty.png) | [Priority](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup~Priority.md) | Element from the 'Request Priority' application list. If not set the default list value is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ShipToSiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup~ShipToSiteIDNum.md) | Identifier of the Site where this Part Request should be shipped   |
 
-
-
-
-
 #### Reference
 
-[UpdatePartRequestHeaderSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartRequestHeader(UpdatePartRequestHeaderSetup)", Caption="UpdatePartRequestHeader(UpdatePartRequestHeaderSetup) Method"**
+[UpdatePartRequestHeaderSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestHeaderSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartRequestHeader(UpdatePartRequestHeaderSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartRequestHeader(UpdatePartRequestHeaderSetup).md)

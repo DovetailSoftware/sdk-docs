@@ -1,6 +1,4 @@
-﻿### ContractsToolkit Constructor
-
-Initializes a new instance of the ContractsToolkit class.
+### ContractsToolkit Constructor
 
 #### Overload List
 
@@ -15,5 +13,5 @@ Initializes a new instance of the ContractsToolkit class.
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
 [ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)

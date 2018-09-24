@@ -1,8 +1,4 @@
-﻿### DeinstallSitePart Method (FieldOpsToolkit)
-
-Used to de-install a site part (and the sub-parts installed underneath it) from a site. This overload takes a setup object and a database transaction.
-
-Used to de-install a site part (and the sub-parts installed underneath it) from a site.
+### DeinstallSitePart Method (FieldOpsToolkit)
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Used to de-install a site part (and the sub-parts installed underneath it) from 
 
 #### Reference
 
-[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
-[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)  
+[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)
+[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)
 [DeinstallSitePartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeinstallSitePartSetup.md)

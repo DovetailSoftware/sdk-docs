@@ -1,4 +1,4 @@
-﻿### FulfillPartRequestSetup Class
+### FulfillPartRequestSetup Class
 
 Used by the [FulfillPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest(FulfillPartRequestSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [FulfillPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clar
 ```vbnet
 'Declaration
 
-Public Class FulfillPartRequestSetup 
+Public Class FulfillPartRequestSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class FulfillPartRequestSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[FulfillPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest(FulfillPartRequestSetup)", Caption="FulfillPartRequest(FulfillPartRequestSetup) Method"**
+[FulfillPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.FulfillPartRequestSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest(FulfillPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~FulfillPartRequest(FulfillPartRequestSetup).md)

@@ -1,8 +1,4 @@
-﻿### LogInfo Method (Logger)
-
-Writes a INFO-level log entry if INFO-level logging is enabled.
-
-Writes an  INFO-level log entry if INFO-level logging is enabled.
+### LogInfo Method (Logger)
 
 #### Overload List
 
@@ -21,5 +17,5 @@ If the current logger is not configured for INFO-level logging or lower, these m
 
 #### Reference
 
-[Logger Class](FChoice.Common~FChoice.Common.Logger.md)  
+[Logger Class](FChoice.Common~FChoice.Common.Logger.md)
 [Logger Members](FChoice.Common~FChoice.Common.Logger_members.md)

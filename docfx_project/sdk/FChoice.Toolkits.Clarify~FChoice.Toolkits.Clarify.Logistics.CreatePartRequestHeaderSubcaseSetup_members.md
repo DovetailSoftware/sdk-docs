@@ -1,8 +1,8 @@
-﻿### CreatePartRequestHeaderSubcaseSetup Class Members
+### CreatePartRequestHeaderSubcaseSetup Class Members
 
 The following tables list the members exposed by [CreatePartRequestHeaderSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -31,10 +31,8 @@ Public Constructors
 
 
 
-
-
 #### Reference
 
-[CreatePartRequestHeaderSubcaseSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup)", Caption="CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup) Method"**
+[CreatePartRequestHeaderSubcaseSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup).md)

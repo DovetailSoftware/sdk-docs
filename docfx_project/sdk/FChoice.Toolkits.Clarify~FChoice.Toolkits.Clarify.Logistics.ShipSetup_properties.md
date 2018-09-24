@@ -1,4 +1,4 @@
-﻿### ShipSetup Class Properties
+### ShipSetup Class Properties
 
 For a list of all members of this type, see [ShipSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup_members.md).
 
@@ -8,10 +8,8 @@ For a list of all members of this type, see [ShipSetup members](FChoice.Toolkits
 | --- | --- | --- |
 | ![Public Property](dotnetimages/publicProperty.png) | [Address1](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~Address1.md) | Address of the site where this Part Request will be shipped   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Address2](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~Address2.md) | Other address information for the site where this Part Request will be shipped   |
-| ![Public Property](dotnetimages/publicProperty.png) | [CarrierName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~CarrierName.md) | 
-The site name of the shipment's carrier. The default will be the dummy site (objid of -2).
-
-  |
+| ![Public Property](dotnetimages/publicProperty.png) | [CarrierName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~CarrierName.md) |
+The site name of the shipment's carrier. The default will be the dummy site (objid of -2). |
 | ![Public Property](dotnetimages/publicProperty.png) | [City](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~City.md) | City of the site where this Part Request will be shipped   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ContactFirstName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~ContactFirstName.md) | Contact's first name.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ContactLastName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~ContactLastName.md) | Contact's last name.   |
@@ -29,12 +27,8 @@ The site name of the shipment's carrier. The default will be the dummy site (ob
 | ![Public Property](dotnetimages/publicProperty.png) | [WaybillName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~WaybillName.md) | Waybill information for this Part Request shipment   |
 | ![Public Property](dotnetimages/publicProperty.png) | [ZipCode](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup~ZipCode.md) | Zipcode of the site where this Part Request will be shipped   |
 
-
-
-
-
 #### Reference
 
-[ShipSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Ship(ShipSetup)", Caption="Ship(ShipSetup) Method"**
+[ShipSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ShipSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Ship(ShipSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Ship(ShipSetup).md)

@@ -1,4 +1,4 @@
-﻿### SetPartStockingLevelSetup Class
+### SetPartStockingLevelSetup Class
 
 Used by the [SetPartStockingLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetPartStockingLevel(SetPartStockingLevelSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [SetPartStockingLevel](FChoice.Toolkits.Clarify~FChoice.Toolkits.Cl
 ```vbnet
 'Declaration
 
-Public Class SetPartStockingLevelSetup 
+Public Class SetPartStockingLevelSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class SetPartStockingLevelSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[SetPartStockingLevelSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetPartStockingLevel(SetPartStockingLevelSetup)", Caption="SetPartStockingLevel(SetPartStockingLevelSetup) Method"**
+[SetPartStockingLevelSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.SetPartStockingLevelSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetPartStockingLevel(SetPartStockingLevelSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~SetPartStockingLevel(SetPartStockingLevelSetup).md)

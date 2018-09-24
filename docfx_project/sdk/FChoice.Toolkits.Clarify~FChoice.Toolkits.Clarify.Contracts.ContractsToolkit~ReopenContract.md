@@ -1,8 +1,4 @@
-﻿### ReopenContract Method
-
-Causes the specified contract to be reopened. This overload takes a set of required parameters for the API.
-
-Causes the specified contract to be reopened.
+### ReopenContract Method
 
 #### Overload List
 
@@ -22,6 +18,6 @@ This is augmented functionality from base Clarify, as a contract cannot be re-op
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [ReopenContractSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ReopenContractSetup.md)

@@ -1,14 +1,12 @@
-﻿### UpdatePartRequestDetailSetup Class Members
+### UpdatePartRequestDetailSetup Class Members
 
 The following tables list the members exposed by [UpdatePartRequestDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [UpdatePartRequestDetailSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup~_ctor.md) | Initializes a new instance of the UpdatePartRequestDetailSetup class.   |
-
-
 
 #### Public Properties
 
@@ -30,12 +28,8 @@ Public Constructors
 | ![Public Property](dotnetimages/publicProperty.png) | [SitePartObjid](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup~SitePartObjid.md) | The Objid of the Site Part specified for this Part Request   |
 | ![Public Property](dotnetimages/publicProperty.png) | [Status](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup~Status.md) | The new status for the Part Request for the current condition. If not set, the default status is used.   |
 
-
-
-
-
 #### Reference
 
-[UpdatePartRequestDetailSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartRequestDetail(UpdatePartRequestDetailSetup)", Caption="UpdatePartRequestDetail(UpdatePartRequestDetailSetup) Method"**
+[UpdatePartRequestDetailSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdatePartRequestDetailSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartRequestDetail(UpdatePartRequestDetailSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdatePartRequestDetail(UpdatePartRequestDetailSetup).md)

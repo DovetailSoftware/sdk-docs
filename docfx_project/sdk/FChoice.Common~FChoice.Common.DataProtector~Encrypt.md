@@ -1,9 +1,5 @@
 ### Encrypt Method
 
-Encrypts a byte array
-
-Encrypts a byte array using optional entropy
-
 #### Overload List
 
 | Overload | Description |

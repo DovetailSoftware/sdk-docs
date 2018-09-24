@@ -1,4 +1,4 @@
-﻿### AddLocationServicingSiteSetup Class
+### AddLocationServicingSiteSetup Class
 
 Used by the [AddLocationServicingSite](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddLocationServicingSite(AddLocationServicingSiteSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [AddLocationServicingSite](FChoice.Toolkits.Clarify~FChoice.Toolkit
 ```vbnet
 'Declaration
 
-Public Class AddLocationServicingSiteSetup 
+Public Class AddLocationServicingSiteSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class AddLocationServicingSiteSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[AddLocationServicingSiteSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddLocationServicingSite(AddLocationServicingSiteSetup)", Caption="AddLocationServicingSite(AddLocationServicingSiteSetup) Method"**
+[AddLocationServicingSiteSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddLocationServicingSiteSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddLocationServicingSite(AddLocationServicingSiteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddLocationServicingSite(AddLocationServicingSiteSetup).md)

@@ -1,4 +1,4 @@
-﻿### AddGLAccountSetup Class
+### AddGLAccountSetup Class
 
 Used by the [AddGLAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddGLAccount(AddGLAccountSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [AddGLAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Lo
 ```vbnet
 'Declaration
 
-Public Class AddGLAccountSetup 
+Public Class AddGLAccountSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class AddGLAccountSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[AddGLAccountSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddGLAccount(AddGLAccountSetup)", Caption="AddGLAccount(AddGLAccountSetup) Method"**
+[AddGLAccountSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddGLAccount(AddGLAccountSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddGLAccount(AddGLAccountSetup).md)

@@ -1,4 +1,4 @@
-﻿### UnpickSetup Class
+### UnpickSetup Class
 
 Used by the [Unpick](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(UnpickSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [Unpick](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistic
 ```vbnet
 'Declaration
 
-Public Class UnpickSetup 
+Public Class UnpickSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class UnpickSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.UnpickSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.UnpickSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[UnpickSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(UnpickSetup)", Caption="Unpick(UnpickSetup) Method"**
+[UnpickSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UnpickSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(UnpickSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Unpick(UnpickSetup).md)

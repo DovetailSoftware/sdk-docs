@@ -1,4 +1,4 @@
-﻿### NumberOps Enumeration
+### NumberOps Enumeration
 
 Valid numeric filtering operations for methods such as [AppendFilter](fcSDK~FChoice.Foundation.FCGeneric~AppendFilter(String,NumberOps,Int32).md).
 
@@ -7,15 +7,15 @@ Valid numeric filtering operations for methods such as [AppendFilter](fcSDK~FCho
 ```vbnet
 'Declaration
 
-Public Enum NumberOps 
+Public Enum NumberOps
    Inherits System.Enum
 ```
 
 ```csharp
-public enum NumberOps : System.Enum 
+public enum NumberOps : System.Enum
 ```
 
-Members
+#### Members
 
 | Member | Description |
 | --- | --- |
@@ -32,10 +32,23 @@ Members
 
 #### Inheritance Hierarchy
 
-System.Object  
-System.ValueType  
-System.Enum  
-**FChoice.Foundation.NumberOps**  
+System.Object
+System.ValueType
+System.Enum
+[FChoice.Foundation.NumberOps**
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation](fcSDK~FChoice.Foundation_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
+
+#### Reference
+
+[FChoice.Foundation Namespace](fcSDK~FChoice.Foundation_namespace.md)
+**FChoice.Foundation.NumberOps**
 
 #### Requirements
 

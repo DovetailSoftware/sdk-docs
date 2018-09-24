@@ -1,4 +1,4 @@
-﻿### CreatePartRequestDetail Method
+### CreatePartRequestDetail Method
 
 Used to create a new part request detail.
 
@@ -10,35 +10,12 @@ Used to create a new part request detail.
 
 | Overload | Description |
 | --- | --- |
-| [CreatePartRequestDetail(String,String,String,String,Int32)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(String,String,String,String,Int32).md) | 
-Used to create a new part request detail.
-
-This overload takes a set of required parameters for the API.   |
-| [CreatePartRequestDetail(String,Int32,Int32)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(String,Int32,Int32).md) | 
-
-Used to create a new part request detail.
-
-This overload takes a set of required parameters for the API.   |
-| [CreatePartRequestDetail(String,String,String,String,String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(String,String,String,String,String).md) | 
-
-Used to create a new part request detail.
-
-This overload takes a set of required parameters for the API.   |
-| [CreatePartRequestDetail(String,String,Int32)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(String,String,Int32).md) | 
-
-Used to create a new part request detail.
-
-This overload takes a set of required parameters for the API.   |
-| [CreatePartRequestDetail(CreatePartRequestDetailSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup).md) | 
-
-Used to create a new part request detail.
-
-This overload takes a setup object.   |
-| [CreatePartRequestDetail(CreatePartRequestDetailSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup,IDbTransaction).md) | 
-
-Used to create a new part request detail.
-
-This overload takes a setup object and a database transaction.   |
+| [CreatePartRequestDetail(String,String,String,String,Int32)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(String,String,String,String,Int32).md) | Used to create a new part request detail. This overload takes a set of required parameters for the API.   |
+| [CreatePartRequestDetail(String,Int32,Int32)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(String,Int32,Int32).md) | Used to create a new part request detail. This overload takes a set of required parameters for the API.   |
+| [CreatePartRequestDetail(String,String,String,String,String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(String,String,String,String,String).md) | Used to create a new part request detail. This overload takes a set of required parameters for the API.   |
+| [CreatePartRequestDetail(String,String,Int32)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(String,String,Int32).md) | Used to create a new part request detail. This overload takes a set of required parameters for the API.   |
+| [CreatePartRequestDetail(CreatePartRequestDetailSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup).md) | Used to create a new part request detail. This overload takes a setup object.   |
+| [CreatePartRequestDetail(CreatePartRequestDetailSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestDetail(CreatePartRequestDetailSetup,IDbTransaction).md) | Used to create a new part request detail. This overload takes a setup object and a database transaction.   |
 
 #### Remarks
 
@@ -48,10 +25,8 @@ This API requires a part request header in addition to a part or site_part. If 
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup", Caption="CreatePartRequestDetailSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestDetailSetup.md)

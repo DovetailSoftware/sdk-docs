@@ -1,8 +1,4 @@
-﻿### ApplyEco Method
-
-Apply an ECO to a Part Request Detail. This overload takes a set of required parameters for the API.
-
-Apply an ECO to a Part Request Detail.
+### ApplyEco Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Apply an ECO to a Part Request Detail.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [ApplyEcoSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.ApplyEcoSetup.md)

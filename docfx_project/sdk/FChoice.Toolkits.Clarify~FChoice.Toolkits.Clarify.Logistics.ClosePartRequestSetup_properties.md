@@ -1,4 +1,4 @@
-﻿### ClosePartRequestSetup Class Properties
+### ClosePartRequestSetup Class Properties
 
 For a list of all members of this type, see [ClosePartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup_members.md).
 
@@ -12,12 +12,8 @@ For a list of all members of this type, see [ClosePartRequestSetup members](FCho
 | ![Public Property](dotnetimages/publicProperty.png) | [PartRequestDetailIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup~PartRequestDetailIDNum.md) | Part Request Detail Identifier   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup~UserName.md) | The user who is closing the Part Request. If not set, the session user is used.   |
 
-
-
-
-
 #### Reference
 
-[ClosePartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ClosePartRequest(ClosePartRequestSetup)", Caption="ClosePartRequest(ClosePartRequestSetup) Method"**
+[ClosePartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ClosePartRequest(ClosePartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ClosePartRequest(ClosePartRequestSetup).md)

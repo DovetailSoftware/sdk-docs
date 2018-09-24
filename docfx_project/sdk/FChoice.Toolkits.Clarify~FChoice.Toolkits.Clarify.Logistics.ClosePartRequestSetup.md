@@ -1,4 +1,4 @@
-﻿### ClosePartRequestSetup Class
+### ClosePartRequestSetup Class
 
 Used by the [ClosePartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ClosePartRequest(ClosePartRequestSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [ClosePartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarif
 ```vbnet
 'Declaration
 
-Public Class ClosePartRequestSetup 
+Public Class ClosePartRequestSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class ClosePartRequestSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[ClosePartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ClosePartRequest(ClosePartRequestSetup)", Caption="ClosePartRequest(ClosePartRequestSetup) Method"**
+[ClosePartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ClosePartRequestSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ClosePartRequest(ClosePartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ClosePartRequest(ClosePartRequestSetup).md)

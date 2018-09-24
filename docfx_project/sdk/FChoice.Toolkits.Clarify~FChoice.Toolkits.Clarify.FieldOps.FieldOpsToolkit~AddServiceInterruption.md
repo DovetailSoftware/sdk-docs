@@ -1,8 +1,4 @@
-﻿### AddServiceInterruption Method
-
-Adds a service interruption (and creates an appointment record). This overload takes a setup object and a database transaction.
-
-Adds a service interruption (and creates an appointment record).
+### AddServiceInterruption Method
 
 #### Overload List
 
@@ -24,6 +20,6 @@ Each appointment must be specified for a given case or a piece of equipment (sit
 
 #### Reference
 
-[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
-[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)  
+[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)
+[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)
 [AddServiceInterruptionSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.AddServiceInterruptionSetup.md)

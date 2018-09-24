@@ -1,8 +1,4 @@
-﻿### CreateEcoItem Method
-
-Create an Engineering Change Order (ECO) Item. This overload takes a set of required parameters for the API.
-
-Create an Engineering Change Order (ECO) Item.
+### CreateEcoItem Method
 
 #### Overload List
 
@@ -24,6 +20,6 @@ A valid ECO Header be specified.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [CreateEcoItemSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateEcoItemSetup.md)

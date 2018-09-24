@@ -1,4 +1,4 @@
-﻿### UpdateInventoryBinSetup Class
+### UpdateInventoryBinSetup Class
 
 Used by the [UpdateInventoryBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryBin(UpdateInventoryBinSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [UpdateInventoryBin](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clar
 ```vbnet
 'Declaration
 
-Public Class UpdateInventoryBinSetup 
+Public Class UpdateInventoryBinSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class UpdateInventoryBinSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[UpdateInventoryBinSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryBin(UpdateInventoryBinSetup)", Caption="UpdateInventoryBin(UpdateInventoryBinSetup) Method"**
+[UpdateInventoryBinSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryBinSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryBin(UpdateInventoryBinSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryBin(UpdateInventoryBinSetup).md)

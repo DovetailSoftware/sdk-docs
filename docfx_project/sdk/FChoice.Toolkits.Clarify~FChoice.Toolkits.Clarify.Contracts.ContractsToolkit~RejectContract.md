@@ -1,8 +1,4 @@
-﻿### RejectContract Method
-
-Reject the Contract from the queue in which it currently resides, and return it to the owner. This overload takes a set of required parameters for the API.
-
-Reject the Contract from the queue in which it currently resides, and return it to the owner.
+### RejectContract Method
 
 #### Overload List
 
@@ -22,6 +18,6 @@ The Contract must be in open condition, and currently dispatched to a queue.
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [RejectContractSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RejectContractSetup.md)

@@ -1,6 +1,4 @@
-﻿### CreateContractLineItemSetup Constructor
-
-Initializes a new instance of the CreateContractLineItemSetup class.
+### CreateContractLineItemSetup Constructor
 
 #### Overload List
 
@@ -15,5 +13,5 @@ Initializes a new instance of the CreateContractLineItemSetup class.
 
 #### Reference
 
-[CreateContractLineItemSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup.md)  
+[CreateContractLineItemSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup.md)
 [CreateContractLineItemSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.CreateContractLineItemSetup_members.md)

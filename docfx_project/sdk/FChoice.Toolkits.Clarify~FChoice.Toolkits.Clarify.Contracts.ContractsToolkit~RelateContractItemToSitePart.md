@@ -1,8 +1,4 @@
-﻿### RelateContractItemToSitePart Method
-
-Used to relate (or unrelate) a Site Part from a contract line item. This overload takes a set of required parameters for the API.
-
-Used to relate (or unrelate) a Site Part from a contract line item.
+### RelateContractItemToSitePart Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Used to relate (or unrelate) a Site Part from a contract line item.
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [RelateContractItemToSitePartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.RelateContractItemToSitePartSetup.md)

@@ -1,4 +1,4 @@
-﻿### ConfigValues Class
+### ConfigValues Class
 
 ConfigValues Class
 
@@ -9,11 +9,11 @@ ConfigValues is a collection of string constants used for strongly-typing the ke
 ```vbnet
 'Declaration
 
-Public MustInherit NotInheritable Class ConfigValues 
+Public MustInherit NotInheritable Class ConfigValues
 ```
 
 ```csharp
-public static class ConfigValues 
+public static class ConfigValues
 ```
 
 #### Remarks
@@ -32,9 +32,9 @@ Dim connStr As String = FCConfiguration.Current(ConfigValues.CONNECT_STRING)
 
 #### Inheritance Hierarchy
 
-System.Object  
+System.Object
 
-**FChoice.Common.ConfigValues**  
+[FChoice.Common.ConfigValues**
 
 #### Requirements
 
@@ -46,5 +46,19 @@ System.Object
 
 #### Reference
 
-[ConfigValues Members](FChoice.Common~FChoice.Common.ConfigValues_members.md)  
+[ConfigValues Members](FChoice.Common~FChoice.Common.ConfigValues_members.md)
+[FChoice.Common Namespace](FChoice.Common~FChoice.Common_namespace.md)
+**FChoice.Common.ConfigValues**
+
+#### Requirements
+
+**Namespace:** [FChoice.Common](FChoice.Common~FChoice.Common_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
+
+#### Reference
+
+[ConfigValues Members](FChoice.Common~FChoice.Common.ConfigValues_members.md)
 [FChoice.Common Namespace](FChoice.Common~FChoice.Common_namespace.md)

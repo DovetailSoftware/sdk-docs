@@ -1,8 +1,4 @@
-﻿### LogPartsUsedExchange Method
-
-Used to replace an existing site part with a new site part. This overload takes a setup object and a database transaction.
-
-Used to replace an existing site part with a new site part.
+### LogPartsUsedExchange Method
 
 #### Overload List
 
@@ -35,6 +31,6 @@ When the log parts used action occurs, the API will change the condition of the 
 
 #### Reference
 
-[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
-[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)  
+[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)
+[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)
 [LogPartsUsedExchangeSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.LogPartsUsedExchangeSetup.md)

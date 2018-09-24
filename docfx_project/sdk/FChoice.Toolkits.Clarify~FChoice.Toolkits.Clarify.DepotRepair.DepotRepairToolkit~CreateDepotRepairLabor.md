@@ -1,8 +1,4 @@
-﻿### CreateDepotRepairLabor Method
-
-Create a Depot Repair Labor to be performed on a Part. This overload takes a set of required parameters for the API.
-
-Create a Depot Repair Labor to be performed on a Part.
+### CreateDepotRepairLabor Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Create a Depot Repair Labor to be performed on a Part.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [CreateDepotRepairLaborSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.CreateDepotRepairLaborSetup.md)

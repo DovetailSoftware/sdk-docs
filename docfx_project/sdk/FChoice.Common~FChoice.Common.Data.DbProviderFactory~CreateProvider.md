@@ -1,8 +1,4 @@
-﻿### CreateProvider Method
-
-Creates a new instance of a [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) object from the default configured provider
-
-Creates a new instance of a [DbProvider](FChoice.Common~FChoice.Common.Data.DbProvider.md) object from the default or specified provider alias
+### CreateProvider Method
 
 #### Overload List
 
@@ -15,5 +11,5 @@ Creates a new instance of a [DbProvider](FChoice.Common~FChoice.Common.Data.DbP
 
 #### Reference
 
-[DbProviderFactory Class](FChoice.Common~FChoice.Common.Data.DbProviderFactory.md)  
+[DbProviderFactory Class](FChoice.Common~FChoice.Common.Data.DbProviderFactory.md)
 [DbProviderFactory Members](FChoice.Common~FChoice.Common.Data.DbProviderFactory_members.md)

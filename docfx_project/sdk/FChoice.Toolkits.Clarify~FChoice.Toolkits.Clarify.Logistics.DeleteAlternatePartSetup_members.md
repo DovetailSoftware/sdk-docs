@@ -1,8 +1,8 @@
-﻿### DeleteAlternatePartSetup Class Members
+### DeleteAlternatePartSetup Class Members
 
 The following tables list the members exposed by [DeleteAlternatePartSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
@@ -23,10 +23,8 @@ Public Constructors
 
 
 
-
-
 #### Reference
 
-[DeleteAlternatePartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup)", Caption="DeleteAlternatePart(DeleteAlternatePartSetup) Method"**
+[DeleteAlternatePartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup).md)

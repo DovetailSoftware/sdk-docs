@@ -1,4 +1,4 @@
-﻿### PickSetup Class
+### PickSetup Class
 
 Used by the [Pick](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [Pick](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.
 ```vbnet
 'Declaration
 
-Public Class PickSetup 
+Public Class PickSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class PickSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.PickSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.PickSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[PickSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup)", Caption="Pick(PickSetup) Method"**
+[PickSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup).md)

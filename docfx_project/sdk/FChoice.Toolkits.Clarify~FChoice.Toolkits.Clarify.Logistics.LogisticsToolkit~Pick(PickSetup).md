@@ -1,4 +1,4 @@
-﻿### Pick(PickSetup) Method
+### Pick(PickSetup) Method
 
 Setup object for API invocation.
 
@@ -17,7 +17,7 @@ Public Overloads Function Pick( _
 ```
 
 ```csharp
-public PickResult Pick( 
+public PickResult Pick(
    PickSetup _setupParam_
 )
 ```
@@ -50,7 +50,7 @@ To allow for multiple calls to this API to be performed without extra complex t
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup", Caption="PickSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup](](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup.md)

@@ -1,4 +1,4 @@
-﻿### UpdateInventoryLocationSetup Class
+### UpdateInventoryLocationSetup Class
 
 Used by the [UpdateInventoryLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryLocation(UpdateInventoryLocationSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [UpdateInventoryLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits
 ```vbnet
 'Declaration
 
-Public Class UpdateInventoryLocationSetup 
+Public Class UpdateInventoryLocationSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class UpdateInventoryLocationSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[UpdateInventoryLocationSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryLocation(UpdateInventoryLocationSetup)", Caption="UpdateInventoryLocation(UpdateInventoryLocationSetup) Method"**
+[UpdateInventoryLocationSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateInventoryLocationSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryLocation(UpdateInventoryLocationSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateInventoryLocation(UpdateInventoryLocationSetup).md)

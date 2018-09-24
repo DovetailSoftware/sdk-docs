@@ -1,4 +1,4 @@
-﻿### CacheType Enumeration
+### CacheType Enumeration
 
 #### Syntax
 
@@ -6,16 +6,16 @@
 'Declaration
 
 <FlagsAttribute()>
-Public Enum CacheType 
+Public Enum CacheType
    Inherits System.Enum
 ```
 
 ```csharp
 [FlagsAttribute()]
-public enum CacheType : System.Enum 
+public enum CacheType : System.Enum
 ```
 
-Members
+#### Members
 
 | Member | Description |
 | --- | --- |
@@ -25,10 +25,23 @@ Members
 
 #### Inheritance Hierarchy
 
-System.Object  
-System.ValueType  
-System.Enum  
-**FChoice.Foundation.CacheType**  
+System.Object
+System.ValueType
+System.Enum
+**FChoice.Foundation.CacheType**
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation](fcSDK~FChoice.Foundation_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
+
+#### Reference
+
+[FChoice.Foundation Namespace](fcSDK~FChoice.Foundation_namespace.md)
+**FChoice.Foundation.CacheType**
 
 #### Requirements
 

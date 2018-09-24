@@ -1,19 +1,19 @@
-﻿### SchemaRelationCardinality Enumeration
+### SchemaRelationCardinality Enumeration
 
 #### Syntax
 
 ```vbnet
 'Declaration
 
-Public Enum SchemaRelationCardinality 
+Public Enum SchemaRelationCardinality
    Inherits System.Enum
 ```
 
 ```csharp
-public enum SchemaRelationCardinality : System.Enum 
+public enum SchemaRelationCardinality : System.Enum
 ```
 
-Members
+#### Members
 
 | Member | Description |
 | --- | --- |
@@ -25,10 +25,10 @@ Members
 
 #### Inheritance Hierarchy
 
-System.Object  
-System.ValueType  
-System.Enum  
-**FChoice.Foundation.Schema.SchemaRelationCardinality**  
+System.Object
+System.ValueType
+System.Enum
+**FChoice.Foundation.Schema.SchemaRelationCardinality**
 
 #### Requirements
 

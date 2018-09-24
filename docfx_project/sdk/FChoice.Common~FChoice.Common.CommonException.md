@@ -1,4 +1,4 @@
-﻿# CommonException Class
+# CommonException Class
 
 CommonException Class
 
@@ -10,7 +10,7 @@ CommonException is the exception class used throughout the FChoice.Common and FC
 'Declaration
 
 <SerializableAttribute()>
-Public Class CommonException 
+Public Class CommonException
    Inherits FCExceptionBase
 ```
 
@@ -26,12 +26,27 @@ This exception is thrown whenever the FChoice.Common classes encounter problems.
 #### Inheritance Hierarchy
 
 [System.Object](https://msdn.microsoft.com/en-us/library/e5kfa45b(v=vs.110).aspx)
-System.Exception  
-[System.ApplicationException](#)  
-[FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)  
+System.Exception
+[System.ApplicationException](#)
+[FChoice.Common.FCExceptionBase](FChoice.Common~FChoice.Common.FCExceptionBase.md)
 
-**FChoice.Common.CommonException**  
-[FChoice.Common.FCArgumentException](FChoice.Common~FChoice.Common.FCArgumentException.md)  
+[FChoice.Common.CommonException**
+[FChoice.Common.FCArgumentException](FChoice.Common~FChoice.Common.FCArgumentException.md)
+
+#### Requirements
+
+**Namespace:** [FChoice.Common](FChoice.Common~FChoice.Common_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
+
+#### Reference
+
+[CommonException Members](FChoice.Common~FChoice.Common.CommonException_members.md)
+[FChoice.Common Namespace](FChoice.Common~FChoice.Common_namespace.md)
+**FChoice.Common.CommonException**
+[FChoice.Common.FCArgumentException](FChoice.Common~FChoice.Common.FCArgumentException.md)
 
 #### Requirements
 

@@ -1,4 +1,4 @@
-﻿### DeleteAlternatePartSetup Class
+### DeleteAlternatePartSetup Class
 
 Used by the [DeleteAlternatePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [DeleteAlternatePart](FChoice.Toolkits.Clarify~FChoice.Toolkits.Cla
 ```vbnet
 'Declaration
 
-Public Class DeleteAlternatePartSetup 
+Public Class DeleteAlternatePartSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class DeleteAlternatePartSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[DeleteAlternatePartSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup)", Caption="DeleteAlternatePart(DeleteAlternatePartSetup) Method"**
+[DeleteAlternatePartSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.DeleteAlternatePartSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~DeleteAlternatePart(DeleteAlternatePartSetup).md)

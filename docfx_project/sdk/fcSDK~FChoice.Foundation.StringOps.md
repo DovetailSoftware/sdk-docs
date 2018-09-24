@@ -1,4 +1,4 @@
-﻿### StringOps Enumeration
+### StringOps Enumeration
 
 Valid string filtering operations for methods such as [AppendFilter](fcSDK~FChoice.Foundation.FCGeneric~AppendFilter(String,StringOps,String).md).
 
@@ -7,15 +7,15 @@ Valid string filtering operations for methods such as [AppendFilter](fcSDK~FChoi
 ```vbnet
 'Declaration
 
-Public Enum StringOps 
+Public Enum StringOps
    Inherits System.Enum
 ```
 
 ```csharp
-public enum StringOps : System.Enum 
+public enum StringOps : System.Enum
 ```
 
-Members
+#### Members
 
 | Member | Description |
 | --- | --- |
@@ -38,10 +38,10 @@ Members
 
 #### Inheritance Hierarchy
 
-System.Object  
-System.ValueType  
-System.Enum  
-**FChoice.Foundation.StringOps**  
+System.Object
+System.ValueType
+System.Enum
+**FChoice.Foundation.StringOps**
 
 #### Requirements
 

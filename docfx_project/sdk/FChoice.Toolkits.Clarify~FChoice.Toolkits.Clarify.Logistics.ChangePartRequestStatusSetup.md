@@ -1,4 +1,4 @@
-﻿### ChangePartRequestStatusSetup Class
+### ChangePartRequestStatusSetup Class
 
 Used by the [ChangePartRequestStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus(ChangePartRequestStatusSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [ChangePartRequestStatus](FChoice.Toolkits.Clarify~FChoice.Toolkits
 ```vbnet
 'Declaration
 
-Public Class ChangePartRequestStatusSetup 
+Public Class ChangePartRequestStatusSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class ChangePartRequestStatusSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[ChangePartRequestStatusSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus(ChangePartRequestStatusSetup)", Caption="ChangePartRequestStatus(ChangePartRequestStatusSetup) Method"**
+[ChangePartRequestStatusSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus(ChangePartRequestStatusSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus(ChangePartRequestStatusSetup).md)

@@ -1,8 +1,4 @@
-﻿### GetConnection Method (DbProvider)
-
-Gets an [IDbConnection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbConnectionClassTopic.htm) object instance of the correct type for the underlying database (i.e. [SqlConnection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataSqlClientSqlConnectionClassTopic.htm) for MSSQL) that is prepared to connect to the specified database using the default connection string specified in the application configuration file.
-
-Gets an [IDbConnection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataIDbConnectionClassTopic.htm) object instance of the correct type for the underlying database (i.e. [SqlConnection](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfSystemDataSqlClientSqlConnectionClassTopic.htm) for MSSQL) that is prepared to connect to the specified database.
+### GetConnection Method (DbProvider)
 
 #### Overload List
 
@@ -21,5 +17,5 @@ The connection instance is not open by default. In order to open the connection,
 
 #### Reference
 
-[DbProvider Class](FChoice.Common~FChoice.Common.Data.DbProvider.md)  
+[DbProvider Class](FChoice.Common~FChoice.Common.Data.DbProvider.md)
 [DbProvider Members](FChoice.Common~FChoice.Common.Data.DbProvider_members.md)

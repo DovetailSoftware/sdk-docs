@@ -1,8 +1,4 @@
-﻿### DeleteEcoDetail Method
-
-Delete an ECO Detail. This overload takes a set of required parameters for the API.
-
-Delete an ECO Detail.
+### DeleteEcoDetail Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Delete an ECO Detail.
 
 #### Reference
 
-[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)  
-[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)  
+[DepotRepairToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit.md)
+[DepotRepairToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DepotRepairToolkit_members.md)
 [DeleteEcoDetailSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.DepotRepair.DeleteEcoDetailSetup.md)

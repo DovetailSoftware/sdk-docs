@@ -1,4 +1,4 @@
-﻿### DateOps Enumeration
+### DateOps Enumeration
 
 Valid date filtering operations for methods such as [AppendFilter](fcSDK~FChoice.Foundation.FCGeneric~AppendFilter(String,DateOps,DateTime).md).
 
@@ -7,15 +7,15 @@ Valid date filtering operations for methods such as [AppendFilter](fcSDK~FChoic
 ```vbnet
 'Declaration
 
-Public Enum DateOps 
+Public Enum DateOps
    Inherits System.Enum
 ```
 
 ```csharp
-public enum DateOps : System.Enum 
+public enum DateOps : System.Enum
 ```
 
-Members
+#### Members
 
 | Member | Description |
 | --- | --- |
@@ -34,10 +34,23 @@ Members
 
 #### Inheritance Hierarchy
 
-System.Object  
-System.ValueType  
-System.Enum  
-**FChoice.Foundation.DateOps**  
+System.Object
+System.ValueType
+System.Enum
+**FChoice.Foundation.DateOps**
+
+#### Requirements
+
+**Namespace:** [FChoice.Foundation](fcSDK~FChoice.Foundation_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
+
+#### Reference
+
+[FChoice.Foundation Namespace](fcSDK~FChoice.Foundation_namespace.md)
+**FChoice.Foundation.DateOps**
 
 #### Requirements
 

@@ -1,14 +1,12 @@
-﻿### ChangePartRequestStatusSetup Class Members
+### ChangePartRequestStatusSetup Class Members
 
 The following tables list the members exposed by [ChangePartRequestStatusSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [ChangePartRequestStatusSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup~_ctor.md) | Initializes a new instance of the ChangePartRequestStatusSetup class.   |
-
-
 
 #### Public Properties
 
@@ -23,10 +21,8 @@ Public Constructors
 
 
 
-
-
 #### Reference
 
-[ChangePartRequestStatusSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus(ChangePartRequestStatusSetup)", Caption="ChangePartRequestStatus(ChangePartRequestStatusSetup) Method"**
+[ChangePartRequestStatusSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.ChangePartRequestStatusSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus(ChangePartRequestStatusSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~ChangePartRequestStatus(ChangePartRequestStatusSetup).md)

@@ -1,4 +1,4 @@
-﻿### UpdateGLAccountSetup Class
+### UpdateGLAccountSetup Class
 
 Used by the [UpdateGLAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateGLAccount(UpdateGLAccountSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [UpdateGLAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify
 ```vbnet
 'Declaration
 
-Public Class UpdateGLAccountSetup 
+Public Class UpdateGLAccountSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class UpdateGLAccountSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[UpdateGLAccountSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateGLAccount(UpdateGLAccountSetup)", Caption="UpdateGLAccount(UpdateGLAccountSetup) Method"**
+[UpdateGLAccountSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.UpdateGLAccountSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateGLAccount(UpdateGLAccountSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~UpdateGLAccount(UpdateGLAccountSetup).md)

@@ -1,8 +1,4 @@
-﻿### DeleteOnsiteLog Method
-
-Used to delete an existing onsite log. This overload takes a setup object and a database transaction.
-
-Used to delete an existing onsite log.
+### DeleteOnsiteLog Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Used to delete an existing onsite log.
 
 #### Reference
 
-[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)  
-[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)  
+[FieldOpsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit.md)
+[FieldOpsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.FieldOpsToolkit_members.md)
 [DeleteOnsiteLogSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.FieldOps.DeleteOnsiteLogSetup.md)

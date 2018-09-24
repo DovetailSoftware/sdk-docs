@@ -1,8 +1,4 @@
-﻿### DeleteSitePart Method
-
-Used to delete a site_part in Clarify, and then unrelate the site_part from all other related records. This overload takes a set of required parameters for the API.
-
-Used to delete a site_part in Clarify, and then unrelate the site_part from all other related records.
+### DeleteSitePart Method
 
 #### Overload List
 
@@ -18,6 +14,6 @@ Used to delete a site_part in Clarify, and then unrelate the site_part from all 
 
 #### Reference
 
-[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)  
-[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)  
+[ContractsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit.md)
+[ContractsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.ContractsToolkit_members.md)
 [DeleteSitePartSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Contracts.DeleteSitePartSetup.md)

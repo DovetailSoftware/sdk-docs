@@ -1,4 +1,4 @@
-﻿### CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup) Method
+### CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup) Method
 
 Setup object for API invocation.
 
@@ -17,7 +17,7 @@ Public Overloads Function CreatePartRequestHeaderSubcase( _
 ```
 
 ```csharp
-public ToolkitResult CreatePartRequestHeaderSubcase( 
+public ToolkitResult CreatePartRequestHeaderSubcase(
    CreatePartRequestHeaderSubcaseSetup _setupParam_
 )
 ```
@@ -45,7 +45,7 @@ Use this API to explicitly create part request headers for subcases (as opposed
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup", Caption="CreatePartRequestHeaderSubcaseSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md)

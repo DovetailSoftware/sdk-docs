@@ -1,4 +1,4 @@
-﻿### SiteStatus Enumeration
+### SiteStatus Enumeration
 
 The status of the Site being created or modified.
 
@@ -7,15 +7,15 @@ The status of the Site being created or modified.
 ```vbnet
 'Declaration
 
-Public Enum SiteStatus 
+Public Enum SiteStatus
    Inherits System.Enum
 ```
 
 ```csharp
-public enum SiteStatus : System.Enum 
+public enum SiteStatus : System.Enum
 ```
 
-Members
+#### Members
 
 | Member | Description |
 | --- | --- |
@@ -25,10 +25,23 @@ Members
 
 #### Inheritance Hierarchy
 
-System.Object  
-System.ValueType  
-System.Enum  
-**FChoice.Toolkits.Clarify.SiteStatus**  
+System.Object
+System.ValueType
+System.Enum
+**FChoice.Toolkits.Clarify.SiteStatus**
+
+#### Requirements
+
+**Namespace:** [FChoice.Toolkits.Clarify](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Toolkits.Clarify (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Toolkits.Clarify.dll)
+
+#### Reference
+
+[FChoice.Toolkits.Clarify Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify_namespace.md)
+**FChoice.Toolkits.Clarify.SiteStatus**
 
 #### Requirements
 

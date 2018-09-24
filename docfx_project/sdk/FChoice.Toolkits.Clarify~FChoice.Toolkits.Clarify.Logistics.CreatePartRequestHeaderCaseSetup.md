@@ -1,4 +1,4 @@
-﻿### CreatePartRequestHeaderCaseSetup Class
+### CreatePartRequestHeaderCaseSetup Class
 
 Used by the [CreatePartRequestHeaderCase](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderCase(CreatePartRequestHeaderCaseSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [CreatePartRequestHeaderCase](FChoice.Toolkits.Clarify~FChoice.Tool
 ```vbnet
 'Declaration
 
-Public Class CreatePartRequestHeaderCaseSetup 
+Public Class CreatePartRequestHeaderCaseSetup
 ```
 
 ```csharp
@@ -20,8 +20,8 @@ public class CreatePartRequestHeaderCaseSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup**
 
 #### Requirements
 
@@ -33,6 +33,6 @@ System.Object
 
 #### Reference
 
-[CreatePartRequestHeaderCaseSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderCase(CreatePartRequestHeaderCaseSetup)", Caption="CreatePartRequestHeaderCase(CreatePartRequestHeaderCaseSetup) Method"**
+[CreatePartRequestHeaderCaseSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderCaseSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderCase(CreatePartRequestHeaderCaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderCase(CreatePartRequestHeaderCaseSetup).md)

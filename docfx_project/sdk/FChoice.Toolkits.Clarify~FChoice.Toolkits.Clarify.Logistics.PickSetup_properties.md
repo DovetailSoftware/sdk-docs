@@ -1,4 +1,4 @@
-﻿### PickSetup Class Properties
+### PickSetup Class Properties
 
 For a list of all members of this type, see [PickSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup_members.md).
 
@@ -16,12 +16,8 @@ For a list of all members of this type, see [PickSetup members](FChoice.Toolkits
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup~UserName.md) | The user who is picking the Part Request. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseTransitions](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup~UseTransitions.md) | Specifies whether or not to check logistics transitions and change the condition/status of the Part Request Detail during the Pick operation   |
 
-
-
-
-
 #### Reference
 
-[PickSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup)", Caption="Pick(PickSetup) Method"**
+[PickSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.PickSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~Pick(PickSetup).md)

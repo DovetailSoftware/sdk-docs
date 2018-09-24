@@ -1,4 +1,4 @@
-﻿### GetLocationsServicingSiteSetup Class
+### GetLocationsServicingSiteSetup Class
 
 Used by the [GetLocationsServicingSite](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetLocationsServicingSite(GetLocationsServicingSiteSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [GetLocationsServicingSite](FChoice.Toolkits.Clarify~FChoice.Toolki
 ```vbnet
 'Declaration
 
-Public Class GetLocationsServicingSiteSetup 
+Public Class GetLocationsServicingSiteSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class GetLocationsServicingSiteSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[GetLocationsServicingSiteSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetLocationsServicingSite(GetLocationsServicingSiteSetup)", Caption="GetLocationsServicingSite(GetLocationsServicingSiteSetup) Method"**
+[GetLocationsServicingSiteSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.GetLocationsServicingSiteSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetLocationsServicingSite(GetLocationsServicingSiteSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~GetLocationsServicingSite(GetLocationsServicingSiteSetup).md)

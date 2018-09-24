@@ -1,4 +1,4 @@
-﻿### CreatePartRequestHeaderSubcaseSetup Class Properties
+### CreatePartRequestHeaderSubcaseSetup Class Properties
 
 For a list of all members of this type, see [CreatePartRequestHeaderSubcaseSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup_members.md).
 
@@ -23,10 +23,8 @@ For a list of all members of this type, see [CreatePartRequestHeaderSubcaseSetup
 
 
 
-
-
 #### Reference
 
-[CreatePartRequestHeaderSubcaseSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup)", Caption="CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup) Method"**
+[CreatePartRequestHeaderSubcaseSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup).md)

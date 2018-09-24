@@ -1,4 +1,4 @@
-﻿### CreatePartRequestHeaderSubcase Method
+### CreatePartRequestHeaderSubcase Method
 
 Used to create a new part request header against a subcase.
 
@@ -10,16 +10,16 @@ Used to create a new part request header against a subcase.
 
 | Overload | Description |
 | --- | --- |
-| [CreatePartRequestHeaderSubcase(String,String,String,String,String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(String,String,String,String,String).md) | 
+| [CreatePartRequestHeaderSubcase(String,String,String,String,String)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(String,String,String,String,String).md) |
 Used to create a new part request header against a subcase.
 
 This overload takes a set of required parameters for the API.   |
-| [CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup).md) | 
+| [CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup).md) |
 
 Used to create a new part request header against a subcase.
 
 This overload takes a setup object.   |
-| [CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup,IDbTransaction).md) | 
+| [CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup,IDbTransaction)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~CreatePartRequestHeaderSubcase(CreatePartRequestHeaderSubcaseSetup,IDbTransaction).md) |
 
 Used to create a new part request header against a subcase.
 
@@ -33,10 +33,8 @@ Use this API to explicitly create part request headers for subcases (as opposed
 
 [!include[Requirements](../partials/requirements.md)]
 
-
-
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup", Caption="CreatePartRequestHeaderSubcaseSetup Class"**
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.CreatePartRequestHeaderSubcaseSetup.md)

@@ -1,14 +1,12 @@
-﻿### AddGLAccountSetup Class Members
+### AddGLAccountSetup Class Members
 
 The following tables list the members exposed by [AddGLAccountSetup](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup.md).
 
-Public Constructors
+#### Public Constructors
 
 |   | Name | Description |
 | --- | --- | --- |
 | ![Public Constructor](dotnetimages/publicConstructor.png) | [AddGLAccountSetup Constructor](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup~_ctor.md) | Initializes a new instance of the AddGLAccountSetup class.   |
-
-
 
 #### Public Properties
 
@@ -21,17 +19,10 @@ Public Constructors
 | ![Public Property](dotnetimages/publicProperty.png) | [IsActive](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup~IsActive.md) | Specifies whether this account is active (true) or inactive (false)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [IsCompany](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup~IsCompany.md) | Specifies whether this account is company owned (true) or customer owned (false)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [IsExpenseGLAccount](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup~IsExpenseGLAccount.md) | Specifies whether this is an expense account (true) or a GL account (false)   |
-| ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup~SiteIDNum.md) | 
-The identifier of the Site with which the account is to be associated
-
-  |
-
-
-
-
+| ![Public Property](dotnetimages/publicProperty.png) | [SiteIDNum](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup~SiteIDNum.md) | The identifier of the Site with which the account is to be associated |
 
 #### Reference
 
-[AddGLAccountSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddGLAccount(AddGLAccountSetup)", Caption="AddGLAccount(AddGLAccountSetup) Method"**
+[AddGLAccountSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.AddGLAccountSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddGLAccount(AddGLAccountSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddGLAccount(AddGLAccountSetup))

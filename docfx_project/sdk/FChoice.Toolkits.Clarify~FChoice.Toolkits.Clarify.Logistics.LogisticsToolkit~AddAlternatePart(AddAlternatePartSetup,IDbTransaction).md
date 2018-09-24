@@ -1,4 +1,4 @@
-﻿### AddAlternatePart(AddAlternatePartSetup,IDbTransaction) Method
+### AddAlternatePart(AddAlternatePartSetup,IDbTransaction) Method
 
 Setup object for API invocation.
 
@@ -18,7 +18,7 @@ Public Overloads Function AddAlternatePart( _
 ```
 
 ```csharp
-public ToolkitResult AddAlternatePart( 
+public ToolkitResult AddAlternatePart(
    AddAlternatePartSetup _setupParam_,
    IDbTransaction _transaction_
 )
@@ -38,7 +38,7 @@ Database transaction under which the API will be invoked.
 
 A [ToolkitResult](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.ToolkitResult.md) instance with no properties set. The properties (Objid, IDNum, etc.) are not relevant to this API.
 
-Example
+#### Example
 
 [**Developer Walkthrough - Transaction Support**](../articles/walkthroughs/transaction.md)
 
@@ -46,6 +46,6 @@ Example
 
 #### Reference
 
-[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)  
-[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)  
+[LogisticsToolkit Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit.md)
+[LogisticsToolkit Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit_members.md)
 [Overload List](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~AddAlternatePart.md)

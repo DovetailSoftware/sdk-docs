@@ -1,4 +1,4 @@
-﻿### MovePartRequestSetup Class
+### MovePartRequestSetup Class
 
 Used by the [MovePartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~MovePartRequest(MovePartRequestSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [MovePartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify
 ```vbnet
 'Declaration
 
-Public Class MovePartRequestSetup 
+Public Class MovePartRequestSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class MovePartRequestSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[MovePartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~MovePartRequest(MovePartRequestSetup)", Caption="MovePartRequest(MovePartRequestSetup) Method"**
+[MovePartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.MovePartRequestSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~MovePartRequest(MovePartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~MovePartRequest(MovePartRequestSetup).md)

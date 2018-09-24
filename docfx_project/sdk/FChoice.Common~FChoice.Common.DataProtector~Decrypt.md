@@ -1,9 +1,5 @@
 ### Decrypt Method
 
-Decrypts a byte array of data into a new byte array of unencrypted data
-
-Decrypts a byte array of data, with optional entropy, into a new byte array of unencrypted data
-
 #### Overload List
 
 | Overload | Description |

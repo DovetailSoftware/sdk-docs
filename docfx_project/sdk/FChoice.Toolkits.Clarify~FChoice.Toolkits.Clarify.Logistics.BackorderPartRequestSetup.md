@@ -1,4 +1,4 @@
-﻿### BackorderPartRequestSetup Class
+### BackorderPartRequestSetup Class
 
 Used by the [BackorderPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~BackorderPartRequest(BackorderPartRequestSetup).md) method as setup data for invocation.
 
@@ -7,7 +7,7 @@ Used by the [BackorderPartRequest](FChoice.Toolkits.Clarify~FChoice.Toolkits.Cl
 ```vbnet
 'Declaration
 
-Public Class BackorderPartRequestSetup 
+Public Class BackorderPartRequestSetup
 ```
 
 ```csharp
@@ -16,8 +16,8 @@ public class BackorderPartRequestSetup
 
 #### Inheritance Hierarchy
 
-System.Object  
-   **FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup**  
+System.Object
+   **FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup**
 
 #### Requirements
 
@@ -29,6 +29,6 @@ System.Object
 
 #### Reference
 
-[BackorderPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup_members.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~BackorderPartRequest(BackorderPartRequestSetup)", Caption="BackorderPartRequest(BackorderPartRequestSetup) Method"**
+[BackorderPartRequestSetup Members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup_members.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~BackorderPartRequest(BackorderPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~BackorderPartRequest(BackorderPartRequestSetup).md)

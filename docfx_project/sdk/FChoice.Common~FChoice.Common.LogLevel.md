@@ -1,4 +1,4 @@
-﻿### LogLevel Enumeration
+### LogLevel Enumeration
 
 LogLevel is an enumeration of supported logging levels. This is used in conjunction with [LogManager](FChoice.Common~FChoice.Common.LogManager.md) and [Logger](FChoice.Common~FChoice.Common.Logger.md) to control how log messages are filtered or written to the output appender.
 
@@ -7,15 +7,15 @@ LogLevel is an enumeration of supported logging levels. This is used in conjunct
 ```vbnet
 'Declaration
 
-Public Enum LogLevel 
+Public Enum LogLevel
    Inherits System.Enum
 ```
 
 ```csharp
-public enum LogLevel : System.Enum 
+public enum LogLevel : System.Enum
 ```
 
-Members
+#### Members
 
 | Member | Description |
 | --- | --- |
@@ -28,10 +28,23 @@ Members
 
 #### Inheritance Hierarchy
 
-System.Object  
-System.ValueType  
-System.Enum  
-**FChoice.Common.LogLevel**  
+System.Object
+System.ValueType
+System.Enum
+**FChoice.Common.LogLevel**
+
+#### Requirements
+
+**Namespace:** [FChoice.Common](FChoice.Common~FChoice.Common_namespace.md)
+
+**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+
+**Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
+
+#### Reference
+
+[FChoice.Common Namespace](FChoice.Common~FChoice.Common_namespace.md)
+**FChoice.Common.LogLevel**
 
 #### Requirements
 

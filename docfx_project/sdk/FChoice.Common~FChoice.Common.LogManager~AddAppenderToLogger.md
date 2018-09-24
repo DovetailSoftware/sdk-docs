@@ -1,8 +1,4 @@
-﻿### AddAppenderToLogger Method
-
-Links a given appender to the specified .NET type-identified logger.
-
-Links a logger configuration to an already-prepared appender.
+### AddAppenderToLogger Method
 
 #### Overload List
 
@@ -25,5 +21,5 @@ To prepare a rolling file-based appender, see the [AddLogFileAppender](FChoice.
 
 #### Reference
 
-[LogManager Class](FChoice.Common~FChoice.Common.LogManager.md)  
+[LogManager Class](FChoice.Common~FChoice.Common.LogManager.md)
 [LogManager Members](FChoice.Common~FChoice.Common.LogManager_members.md)

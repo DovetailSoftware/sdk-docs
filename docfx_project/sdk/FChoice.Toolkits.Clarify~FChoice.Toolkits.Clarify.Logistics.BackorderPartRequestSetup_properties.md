@@ -1,4 +1,4 @@
-﻿### BackorderPartRequestSetup Class Properties
+### BackorderPartRequestSetup Class Properties
 
 For a list of all members of this type, see [BackorderPartRequestSetup members](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup_members.md).
 
@@ -6,10 +6,7 @@ For a list of all members of this type, see [BackorderPartRequestSetup members](
 
 |   | Name | Description |
 | --- | --- | --- |
-| ![Public Property](dotnetimages/publicProperty.png) | [ExpectedDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup~ExpectedDate.md) | 
-The DateTime the Part Request backordered parts are expected to arrive. If not set, the current time is used.
-
-  |
+| ![Public Property](dotnetimages/publicProperty.png) | [ExpectedDate](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup~ExpectedDate.md) | The DateTime the Part Request backordered parts are expected to arrive. If not set, the current time is used. |
 | ![Public Property](dotnetimages/publicProperty.png) | [FromGood](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup~FromGood.md) | Specifies whether the backordered inventory is from good stock (true) or bad stock (false)   |
 | ![Public Property](dotnetimages/publicProperty.png) | [FromLocation](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup~FromLocation.md) | The inventory location containing the parts used to backorder this Part Request   |
 | ![Public Property](dotnetimages/publicProperty.png) | [GenerateTimeBombs](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup~GenerateTimeBombs.md) | Specifies if timebombs should be created.   |
@@ -22,12 +19,8 @@ The DateTime the Part Request backordered parts are expected to arrive. If not 
 | ![Public Property](dotnetimages/publicProperty.png) | [UserName](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup~UserName.md) | The user who is backordering the Part Request. If not set, the session user is used.   |
 | ![Public Property](dotnetimages/publicProperty.png) | [UseTransitions](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup~UseTransitions.md) | Specifies whether or not logistics transitions will be checked and the condition/status of the part request detail will be changed during the backorder operation   |
 
-
-
-
-
 #### Reference
 
-[BackorderPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup.md)  
-[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)  
-**FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~BackorderPartRequest(BackorderPartRequestSetup)", Caption="BackorderPartRequest(BackorderPartRequestSetup) Method"**
+[BackorderPartRequestSetup Class](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.BackorderPartRequestSetup.md)
+[FChoice.Toolkits.Clarify.Logistics Namespace](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics_namespace.md)
+[FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~BackorderPartRequest(BackorderPartRequestSetup)](FChoice.Toolkits.Clarify~FChoice.Toolkits.Clarify.Logistics.LogisticsToolkit~BackorderPartRequest(BackorderPartRequestSetup).md)

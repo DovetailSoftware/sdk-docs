@@ -1,8 +1,4 @@
-﻿### GetAdapter Method (DbProvider)
-
-Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL) without any options set yet.
-
-Gets a database type-specific DbDataAdapter instance for this provider type (i.e. SqlDataAdapter for MSSQL)
+### GetAdapter Method (DbProvider)
 
 #### Overload List
 
@@ -16,5 +12,5 @@ Gets a database type-specific DbDataAdapter instance for this provider type (i.e
 
 #### Reference
 
-[DbProvider Class](FChoice.Common~FChoice.Common.Data.DbProvider.md)  
+[DbProvider Class](FChoice.Common~FChoice.Common.Data.DbProvider.md)
 [DbProvider Members](FChoice.Common~FChoice.Common.Data.DbProvider_members.md)
