@@ -3,13 +3,13 @@ SDK Documentation
 
 ## Introduction
 
-This repo includes the [Dovetail fcSDK documentation](docfx_project), which is the best resource for everything about how to install, configure, and use the SDK. 
+This repo includes the [Dovetail fcSDK documentation](docfx_project), which is the best resource for everything about how to install, configure, and use the SDK.
 
-The documentation is built and used in two different ways. 
+The documentation is built and used in two different ways.
 
 * **Online documentation** - the 10K+ html pages that make up the SDK documentation are maintained in this repo, and are built from both markdown and YAML pages.
 
-* **Compiled Help (CHM)** - using the html pages, a CHM file can be built for offline usage. 
+* **Compiled Help (CHM)** - using the html pages, a CHM file can be built for offline usage.
 
 ## Build Process
 
@@ -20,6 +20,8 @@ For the conversion of source code and markdown to online documentation, [DocFX](
 1. Clone this repo - a local copy of this repo is necessary to build the documentation.
 
 1. Install DocFX - To use DocFX as a command-line tool, it must be installed. DocFX ships as a chocolatey package. Install docfx through [Chocolatey](https://chocolatey.org/install) by calling `choco install docfx -y`.
+
+1. Update the documentation - make the necessary changes to the html and markdown pages. Move the previous release notes from `whatsnew.md' to `version-history.md`, then add the new notes for the new release in  `whatsnew.md'. Check and update the copyright in the "_appFooter" key in `docfx.json` if the year is different than the previous release.
 
 1. Build the website - from the working directory of your local copy of this repo, run the following command:
 
