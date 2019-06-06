@@ -1,13 +1,19 @@
 [OPTIONS]
 Binary TOC=Yes
 Compatibility=1.1 or later
-Compiled file=.\sdk.chm
+Compiled file=sdk.chm
 Contents file=sdk.hhc
+Default Window=Search
 Default topic=docfx_project\_site\index.html
 Display compile notes=No
 Display compile progress=No
+Full text search stop list file=sdk.stp
+Full-text search=Yes
 Index file=sdk.hhk
 Language=0x409 English (United States)
+
+[WINDOWS]
+Search="Search","sdk.hhc","sdk.hhk","docfx_project\_site\index.html",,,,,,0x2520,,0x3006,,,,,,,,0
 
 
 [FILES]
