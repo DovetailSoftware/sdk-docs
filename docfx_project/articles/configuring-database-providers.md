@@ -37,6 +37,7 @@ The **fcSDK** includes a custom provider which uses the Oracle&trade; Data Provi
 This table describes the attributes required for the provider element.
 
 | Attribute | Required | Description |
+| --- | --- | --- |
 | alias | Yes | A key used by DbProviderFactory to distinguish this provider. An instance of the DbProvider can be created and loaded by DbProviderFactory by calling DbProviderFactory.CreateProvider method.<br><br>Be careful not to use one of the built in aliases that are always present:<br><ul><li>"MSSQL" - Microsoft Sql Server</li><li>"ORACLE"- Oracle Databases</li></ul> |
 | type | Yes | The fully qualified type name of a class which derrives from FChoice.Common.DbProvider.<br><br>**NOTE:** Please refer to the Type.GetType method documentation for information for the specific format of the value of this attribute. |
 
@@ -61,6 +62,7 @@ fchoice.dbprovider.configurationfile=c:\app\fcclient\dbprovider.config
 To facilitate extensibility the **fcSDK** provider mechanism is a plug-in type mechanism which depends on loading classes at runtime. In the examples above a "partially qualified" class name is used only specifying the name of the class and the assembly (dll) where that class can be found. This usually works fine for pure dotnet scenarios. When running Compatiblity layer applications needing to configure custom dbproviders the configuration file must use fully qualified class names. The table below shows the fully qualified name (with version number missing) of the custom providers that come with the fcSDK.
 
 | Name | Fully Qualified Type Name (type=...) | Description |
+| --- | --- | --- |
 | ODP.NET | FChoice.DataProviders.ODPNet.ODPOracleProvider, FChoice.DataProviders.ODPNet, Version=x.x.x.x, Culture=neutral, PublicKeyToken=48c955ba8dfd90d8 | Alternative Oracle DbProvider allowing access to Oracle 8i databases and above. |
 
 **NOTE:** If copying from this table be aware that you will need to fill in the proper version number, most likely the shipping version number for the fcSDK. Also, be careful as there are no line breaks in a fully qualified name.
