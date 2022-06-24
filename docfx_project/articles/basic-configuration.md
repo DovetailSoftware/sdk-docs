@@ -43,8 +43,8 @@ fchoice.connectionstring=Data Source=server;Initial Catalog=database;uid=user;pw
 | Key | Required | Default | Description |
 |:--- |:--- |:--- |:--- |
 | fchoice.cachefilepath | No | ".\fc_cache" | A full or relative file path which specifies the folder into which **fcSDK** should save it's cache files (if nocachefile is set to "false", otherwise this value is ignored). If the folder does not exist, it will be created.<br/>**NOTE:** The user under which the application is running must have the appropriate permissions to create and modify files in this folder and, if necessary, create the folder itself. |
-| fchoice.connectionstring | <span style="color:red;">Yes</span> | N/A | An ADO.NET connection string to use with the specified DB type (or default if none is specified). The default provider is MSSQL and the connection string must be useable by the System.Data.SqlClient.SqlConnection class. Consult the [SqlConnection.ConnectionString property documentation](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemdatasqlclientsqlconnectionclassconnectionstringtopic.htm) for specifics about what parameters are allowed in the connnection string. Please consult the documentation for other ADO.NET providers if you plan on using a different data provider type (like Oracle or Sybase). |
-| fchoice.dbtype | No | "MSSQL" | Specifies the type of provider ClarifyApplication should to connect to the DB. Standard values are "MSSQL", "ORACLE", or "SYBASE". Other providers can be added, see the section on "Custom Database Providers". |
+| fchoice.connectionstring | <span style="color:red;">Yes</span> | N/A | An ADO.NET connection string to use with the specified DB type (or default if none is specified). The default provider is MSSQL and the connection string must be useable by the System.Data.SqlClient.SqlConnection class. Consult the [SqlConnection.ConnectionString property documentation](https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection.connectionstring?view=netframework-4.0) for specifics about what parameters are allowed in the connnection string. Please consult the documentation for other ADO.NET providers if you plan on using a different data provider type (like Oracle or Sybase). |
+| fchoice.dbtype | No | "MSSQL" | Specifies the type of provider ClarifyApplication should to connect to the DB. Standard values are "MSSQL", "ORACLE", or "SYBASE". Other providers can be added, see the section on ["Custom Database Providers"](configuring-database-providers.md). |
 | fchoice.disableloginfromfcapp | No | "true" | Specifies whether ClarifySession should allow sessions to be created without a username or password (similar to LoginFromFCApp in FCFL/COM). If this value is default, a call to create a session without any parameters will result in an exception being thrown. Administrators must knowingly enable this functionality after understanding the consequences of this action. |
 | fchoice.enablebatch | No | "true" | Determines whether the current DB provider (specified by 'fchoice.dbtype' above) should batch SQL statements. This parameter is ignored if the provider cannot batch SQL statments in the first place (like Oracle, for example).<br/>**NOTE:** It is not recommended that this setting be changed unless you're having a specific problem with batching. |
 | fchoice.logconfigfile | No | (not specified) | Specifies an external configuration file that LogManager should use to configure logging for this application. The config file will be monitored and changes to it will be reflected immediately in logging output of the application. See [Application Logging in the **fcSDK**](logging/application-logging.md) for more information on how to configure logging for **fcSDK**. |
@@ -67,8 +67,10 @@ fchoice.connectionstring=Data Source=server;Initial Catalog=database;uid=user;pw
 Some configuration settings can contain sensitive information such as usernames and passwords. **fcSDK** can protect such sensitive settings in just two steps using **Data Protection**.
 
 1. Encrypt the configuration parameter using the First Choice Configuration Protector Utility
-![Protector](../images/FCConfigurationProtector.PNG)
-1. Copy the encrypted parameter string into your .Net application's configuration file.
+
+   ![Protector](../images/FCConfigurationProtector.PNG)
+
+2. Copy the encrypted parameter string into your .Net application's configuration file.
     ```
     <appSettings>
     <add key="fchoice.dbtype" value="MSSQL"/>
