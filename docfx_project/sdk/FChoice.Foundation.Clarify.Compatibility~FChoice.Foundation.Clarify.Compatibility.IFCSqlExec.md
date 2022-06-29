@@ -20,7 +20,7 @@ public interface IFCSqlExec
 
 **Namespace:** [FChoice.Foundation.Clarify.Compatibility](FChoice.Foundation.Clarify.Compatibility~FChoice.Foundation.Clarify.Compatibility_namespace.md)
 
-**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+**Platforms:** Windows 2000, Windows XP, Windows Server family
 
 **Assembly:** FChoice.Foundation.Clarify.Compatibility (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Foundation.Clarify.Compatibility.dll)
 

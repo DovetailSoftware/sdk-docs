@@ -28,7 +28,7 @@ This class is used by <see cref="DbProviderFactory"/> and should not be used by 
 
 **Namespace:** [FChoice.Common.Data](FChoice.Common~FChoice.Common.Data_namespace.md)
 
-**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+**Platforms:** Windows 2000, Windows XP, Windows Server family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
@@ -44,7 +44,7 @@ This class is used by <see cref="DbProviderFactory"/> and should not be used by 
 
 **Namespace:** [FChoice.Common.Data](FChoice.Common~FChoice.Common.Data_namespace.md)
 
-**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+**Platforms:** Windows 2000, Windows XP, Windows Server family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 

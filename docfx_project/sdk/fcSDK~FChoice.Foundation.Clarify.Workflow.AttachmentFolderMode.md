@@ -32,7 +32,7 @@ System.Enum
 
 **Namespace:** [FChoice.Foundation.Clarify.Workflow](fcSDK~FChoice.Foundation.Clarify.Workflow_namespace.md)
 
-**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+**Platforms:** Windows 2000, Windows XP, Windows Server family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
@@ -45,7 +45,7 @@ System.Enum
 
 **Namespace:** [FChoice.Foundation.Clarify.Workflow](fcSDK~FChoice.Foundation.Clarify.Workflow_namespace.md)
 
-**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+**Platforms:** Windows 2000, Windows XP, Windows Server family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 

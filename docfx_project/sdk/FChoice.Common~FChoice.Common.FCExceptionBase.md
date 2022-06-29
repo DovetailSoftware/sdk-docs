@@ -55,7 +55,7 @@ System.Exception
 
 **Namespace:** [FChoice.Common](FChoice.Common~FChoice.Common_namespace.md)
 
-**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+**Platforms:** Windows 2000, Windows XP, Windows Server family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 
@@ -78,7 +78,7 @@ System.Exception
 
 **Namespace:** [FChoice.Common](FChoice.Common~FChoice.Common_namespace.md)
 
-**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+**Platforms:** Windows 2000, Windows XP, Windows Server family
 
 **Assembly:** FChoice.Common (in C:\\dovetail\\dovetail-sdk\\build\\Release\\FChoice.Common.dll)
 

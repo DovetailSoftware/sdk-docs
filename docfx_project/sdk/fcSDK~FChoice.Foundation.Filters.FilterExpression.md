@@ -23,7 +23,7 @@ System.Object
 
 **Namespace:** [FChoice.Foundation.Filters](fcSDK~FChoice.Foundation.Filters_namespace.md)
 
-**Platforms:** Windows XP, Windows Server 2003 and 2008 family
+**Platforms:** Windows 2000, Windows XP, Windows Server family
 
 **Assembly:** fcSDK (in C:\\dovetail\\dovetail-sdk\\build\\Release\\fcSDK.dll)
 
