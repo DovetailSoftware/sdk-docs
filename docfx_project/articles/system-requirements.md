@@ -10,7 +10,7 @@ This version of **fcSDK** requires the following prerequisites:
   * Microsoft Windows 7
   * Microsoft Windows 8
   * Microsoft Windows 10
-  * Microsoft Windows Server 2008, 2008 R2, 2012
+  * Microsoft Windows Server 2008, 2008 R2, 2012, 2016, 2022
   * Both 32 and 64 bit versions of Dovetail SDK are available.
 * Microsoft .NET Framework 4.5.x
   * Install through Windows Update
@@ -24,7 +24,7 @@ This version of **fcSDK** requires the following prerequisites:
 
 * Microsoft SQL Server versions 2005, 2008, 2012, 2014
 -OR-
-* Oracle Database Server versions 9i, 10g, 11g, 12c ([1])
+* Oracle Database Server versions 9i, 10g, 11g, 12c, 19c ([1])
 
 ## Clarify/Amdocs System Environment
 
