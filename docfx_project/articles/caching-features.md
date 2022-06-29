@@ -133,4 +133,3 @@ While caching of often used, read-only data can greatly boost application perfor
 
 * [Basic Configuration](basic-configuration.md)
 * [Time Zone Handling](time-zones.md)
-* [Configuring Custom Data Providers](configuring-database-providers.md)

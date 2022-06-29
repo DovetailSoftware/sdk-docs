@@ -1,6 +1,6 @@
 ### DataAccessSectionHandler Class
 
-Provides configuration information from the .NET application configuration file for the DbProviderFactory to load custom data providers.
+Provides configuration information from the .NET application configuration file for the DbProviderFactory.
 
 #### Syntax
 
@@ -16,7 +16,7 @@ public class DataAccessSectionHandler
 
 #### Remarks
 
-This class is used by <see cref="DbProviderFactory"/> and should not be used by other classes. Please consult your product documentation on how to configure custom data providers.
+This class is used by <see cref="DbProviderFactory"/> and should not be used by other classes.
 
 #### Inheritance Hierarchy
 

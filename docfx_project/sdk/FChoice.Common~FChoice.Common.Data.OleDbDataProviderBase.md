@@ -1,6 +1,6 @@
 ﻿### OleDbDataProviderBase Class
 
-Abstract base class for OleDb-based custom data providers
+Abstract base class for OleDb-based data providers
 
 #### Syntax
 
@@ -17,7 +17,7 @@ public abstract class OleDbDataProviderBase : DbProvider
 
 #### Remarks
 
-Inherit from this class to implement a custom data provider based on the OleDb client in ADO.NET.
+Inherit from this class to implement a data provider based on the OleDb client in ADO.NET.
 
 #### Inheritance Hierarchy
 

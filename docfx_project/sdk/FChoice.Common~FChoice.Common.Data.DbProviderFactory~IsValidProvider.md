@@ -36,9 +36,6 @@ Whether or not the specified alias or name is a valid alias/name for a configure
 | --- | --- |
 | [ArgumentNullException](ms-help://MS.NETFrameworkSDKv1.1/cpref/html/frlrfsystemargumentnullexceptionclasstopic.htm) | _key_ is a null reference (**Nothing** in Visual Basic) |
 
-#### Remarks
-
-For more information on specifying custom data providers, see the guide on [Configuring Custom Data Providers](../articles/configuring-database-providers.md).
 
 [!include[Requirements](../partials/requirements.md)]
 

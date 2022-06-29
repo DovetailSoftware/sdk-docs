@@ -16,7 +16,7 @@ public const string CONFIGURATION_SECTION_NAME
 
 #### Remarks
 
-The value of this constant is "dataAccess". For more information on using the configuration section and configuring custom data providers, please see the guide to [Configuring Custom Data Providers](../articles/configuring-database-providers.md).
+The value of this constant is "dataAccess".
 
 [!include[Requirements](../partials/requirements.md)]
 

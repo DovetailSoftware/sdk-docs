@@ -16,11 +16,7 @@ public static string[] ProviderNames {get;}
 
 #### Property Value
 
-An array of strings where each element is a valid provider name/alias such as "MSSQL" or "ORACLE".
-
-#### Remarks
-
-Both intrinsic and configured provider names are included in this array. For more information on configuring custom data providers, see the guide to [Configuring Custom Data Providers](../articles/configuring-database-providers.md).
+An array of strings where each element is a valid provider name/alias such as "MSSQL", "ORACLE", or "ODPNET".
 
 [!include[Requirements](../partials/requirements.md)]
 

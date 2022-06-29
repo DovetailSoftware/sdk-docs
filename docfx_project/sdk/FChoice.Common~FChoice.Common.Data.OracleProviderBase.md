@@ -1,6 +1,6 @@
 ﻿### OracleProviderBase Class
 
-Abstract base class for Oracle-based custom data providers
+Abstract base class for Oracle-based data providers
 
 #### Syntax
 
@@ -17,7 +17,7 @@ public abstract class OracleProviderBase : DbProvider
 
 #### Remarks
 
-Inherit from this class to implement a custom data provider based on the OracleClient in ADO.NET or other Oracle ADO.NET implementations (such as Oracle's ODP.NET).
+Inherit from this class to implement a data provider based on the OracleClient in ADO.NET or other Oracle ADO.NET implementations (such as Oracle's ODP.NET).
 
 #### Inheritance Hierarchy
 
