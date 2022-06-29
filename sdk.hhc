@@ -88,10 +88,6 @@
         <param name="Local" value="docfx_project\_site\articles\custom-cache-configuration.html">
      </OBJECT>
 <LI> <OBJECT type="text/sitemap">
-        <param name="Name" value="Configuring Custom Data Providers">
-        <param name="Local" value="docfx_project\_site\articles\configuring-database-providers.html">
-     </OBJECT>
-<LI> <OBJECT type="text/sitemap">
         <param name="Name" value="Configuring Logging">
         <param name="Local" value="docfx_project\_site\articles\logging-configuration.html">
      </OBJECT>
