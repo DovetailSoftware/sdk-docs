@@ -29,7 +29,7 @@ For the conversion of source code and markdown to online documentation, [DocFX](
 	rake docfx
 	```
 
-	This rake task uses docfx to build the website, including the html, js, css, and images. When that process is finished, you can view the generated website at [http://localhost:8080](http://localhost:8080).
+	This rake task uses docfx to build the website, including the html, js, css, and images. When that process is finished, you can view the generated website at [http://localhost:8080](http://localhost:8080) but only until you hit Enter to let the build to finish.
 
 	The generated _site folder that is the online documentation is not part of this repo.
 
@@ -47,7 +47,7 @@ For the conversion of source code and markdown to online documentation, [DocFX](
 	* sdk.hhc - this file is used to build the TOC in the CHM file.
 	* sdk.hhk - this is used to build the index for the CHM file.
 
-	If new APIs or other documentation files are added to the SDK, then these files need to get manually updated to include the changes in the CHM file.
+	If new APIs or other documentation files are added to (or removed from) the SDK, then these files need to get manually updated to include the changes in the CHM file.
 
 	Since docfx does some website content handling via JavaScript, the `build-chm.bat` file is used to override the _main.css_ and _docfx.js_ files when building the CHM file.
 
