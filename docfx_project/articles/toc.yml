@@ -35,8 +35,6 @@
           href: basic-configuration.md
         - name: Configuring Custom Cache Providers
           href: custom-cache-configuration.md
-        - name: Configuring Custom Data Providers
-          href: configuring-database-providers.md
         - name: Configuring Logging
           href: logging-configuration.md
         - name: Configuring Remote Sessions
