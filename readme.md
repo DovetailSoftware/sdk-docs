@@ -50,6 +50,8 @@ For the conversion of source code and markdown to online documentation, [DocFX](
 	If new APIs or other documentation files are added to (or removed from) the SDK, then these files need to get manually updated to include the changes in the CHM file.
 
 	Since docfx does some website content handling via JavaScript, the `build-chm.bat` file is used to override the _main.css_ and _docfx.js_ files when building the CHM file.
+  
+	After the `*.chm` file has been generated and verified for correctness it needs to be copied to `docs` folder under the root folder of the cloned `dovetail-sdk` repository so the build release process may pick it up and include in the installer.
 
 ## The documentation
 
