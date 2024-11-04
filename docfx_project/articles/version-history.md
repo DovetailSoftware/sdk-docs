@@ -1,5 +1,50 @@
 # fcSDK Version History
 
+<h3>Version 3.7.0</h3>
+<ul>
+  <li>
+    <p>Core:</p>
+    <ul>
+      <li>Support for Oracle 19c Database has been added.</li>
+        <ul>
+          <li><i>odp.net.managed.121.1.2</i> library has been replaced with <i>oracle.manageddataaccess.19.14.0</i></li>
+          <li>Deprecated <i>System.Data.OracleClient</i> class by Microsoft has been replaced with <i>Oracle.ManagedDataAccess.Client</i> class by Oracle.</li>
+        </ul>
+      <li>A problem with <i>fc_next_num_scheme</i> stored procedure returning invalid object identifiers while using Oracle database has been fixed.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Foundation:</p>
+    <ul>
+      <li>New property <i>TimeZoneConversions</i> has been added to facilitate column exclusion from being converted to local time zone.</li>
+      <li>New connection string parameters: <i>Integrated Security=SSPI;</i> and <i>Persist Security Info=True;</i> can be used to log into the database using current Windows login credentials.</li>
+      <li>New property <i>Username</i> has been added to <i>FCApplication</i> class to allow setting user name for login instead of specifying it via database connection string.</li>
+    </ul>
+  </li>
+    <p>API Toolkits:</p>
+    <ul>
+      <li>Support Toolkit:
+        <ul>
+          <li>Fixed a breaking change in 3.6.0 that added an extra property to the <a href="/sdk/toolkit_html/fccs/modify_case.html">modify_case</a>, <a href="/sdk/toolkit_html/fccs/modify_subcase.html">modify_subcase</a>, and <a href="/sdk/toolkit_html/fccs/change_contact.html">change_contact</a> APIs. The <b>OnlyOpen</b> property was supposed to be added only to the .Net APIs via the UpdateCaseSetup, UpdateSubcaseSetup, and ChangeCaseContactSetup objects. The COM APIs should not have been changed.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p>Workflow:</p>
+    <ul>
+      <li>Workflow Manager actions now set Impersonator's User Name on activity entry when user impersonation is engaged.</li>
+    </ul>
+  </li>
+  <li>
+    <p>Installer:</p>
+    <ul>
+      <li></i>Oracle.ManagedDataAccess.dll</i> gets installed into Windows GAC during fcSDK installation. This library gets uninstalled from GAC when fcSDK is uninstalled.</li>
+      <li><strong>Important for Oracle database users:</strong> the <i>fc_next_num_scheme</i> stored procedure must be replaced with the one included in the "oracle_sprocs_post9.sql" file located in the 'sprocs' folder underneath the fcSDK installation path, see <a href="/articles/installation-guide.html#install-required-stored-procedures">Install Required Stored Procedures</a>.</li>
+    </ul>
+  </li>
+</ul>
+
 <h3>Version 3.6.0</h3>
 <h4>Enhancements</h4>
 <ul>
