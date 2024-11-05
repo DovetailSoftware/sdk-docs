@@ -25,7 +25,7 @@
     <ul>
       <li>Support Toolkit:
         <ul>
-          <li>Fixed a breaking change in 3.6.0 that added an extra property to the <a href="/sdk/toolkit_html/fccs/modify_case.html">modify_case</a>, <a href="/sdk/toolkit_html/fccs/modify_subcase.html">modify_subcase</a>, and <a href="/sdk/toolkit_html/fccs/change_contact.html">change_contact</a> APIs. The <b>OnlyOpen</b> property was supposed to be added only to the .Net APIs via the UpdateCaseSetup, UpdateSubcaseSetup, and ChangeCaseContactSetup objects. The COM APIs should not have been changed.</li>
+          <li>Fixed a breaking change in 3.6.0 that added an extra property to the <a href="../../sdk/toolkit_html/fccs/modify_case.html">modify_case</a>, <a href="../../sdk/toolkit_html/fccs/modify_subcase.html">modify_subcase</a>, and <a href="../../sdk/toolkit_html/fccs/change_contact.html">change_contact</a> APIs. The <b>OnlyOpen</b> property was supposed to be added only to the .Net APIs via the UpdateCaseSetup, UpdateSubcaseSetup, and ChangeCaseContactSetup objects. The COM APIs should not have been changed.</li>
         </ul>
       </li>
     </ul>
@@ -147,8 +147,8 @@
 <ul>
 <li>API Toolkits:
   <ul>
-    <li>Modified <a href="/sdk/toolkit_html/fcinter/create_employee.html">create_employee</a> API to use new SQL statements: CREATE LOGIN and CREATE USER instead of sp_adduser and sp_addlogin system stored procedures in order to create new user login names - MS SQL databases only.<br/>
-<b>IMPORTANT NOTE</b>: Please see create_employee API <a href="/sdk/toolkit_html/fcinter/create_employee.html#notes_3_4_3">notes</a> for explanation of the implications regarding certain versions of MS SQL RDBMS.</li>
+    <li>Modified <a href="../../sdk/toolkit_html/fcinter/create_employee.html">create_employee</a> API to use new SQL statements: CREATE LOGIN and CREATE USER instead of sp_adduser and sp_addlogin system stored procedures in order to create new user login names - MS SQL databases only.<br/>
+<b>IMPORTANT NOTE</b>: Please see create_employee API <a href="../../sdk/toolkit_html/fcinter/create_employee.html#notes_3_4_3">notes</a> for explanation of the implications regarding certain versions of MS SQL RDBMS.</li>
     <li>Fixed an error occurring when a new case phone log was added while case history was returned as null because no initial notes are required at the time of case creation.</li>
   </ul>
 </li>

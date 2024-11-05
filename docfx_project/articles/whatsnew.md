@@ -1,7 +1,7 @@
 ## What's New - Version 3.7.1
 
 * Workflow:
-  * Fixed a problem with attachment names ending with large numbers when trying to calculate the next available name if a duplicate file has been found.
+  * Fixed a "Value was either too large or too small for an Int32" problem occuring when attachment name ends with large number and a next available name is to be calculated in case a duplicate file name has been found.
 
 
 
